@@ -1,0 +1,41 @@
+{
+ "ticker": "MMC",
+ "currency": "USD",
+ "current_price": 160.12,
+ "wacc_pct": 8.8,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.9,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = FCF reportado FY2025 $5,001M - 100% SBC $394M = $4,607M (~$9.54/accion; rendimiento owner-FCF ~6.0% sobre market cap $77.35B). La SBC es muy baja (1.46% de ingresos, 7.9% del FCF), tipica de un broker asset-light; restarla al 100% apenas reduce el flujo, lo que refuerza la calidad del owner earnings.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 7,
+  "rev_cagr_y6_10_pct": 5,
+  "fcf_margin_terminal_pct": 18.5,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC ($394M) tratada como gasto en efectivo y restada del FCF reportado para obtener owner earnings",
+  "shares_diluted_b": 0.483,
+  "net_debt_usd_b": 18.76
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 145.21,
+   "prob": 0.38,
+   "note": "Crecimiento total ~5% anios 1-5 (organico ~3.5% + M&A tuck-in modesto), declinando a ~4% en anios 6-10; margen FCF owner estable ~17%; g terminal 2.5%. Escenario de desaceleracion economica que comprime crecimiento organico y M&A, pero NO apocaliptico: el negocio de correduria de seguros y consultoria (Marsh, Guy Carpenter, Mercer, Oliver Wyman) es recurrente y no ciclico extremo. IV ligeramente por debajo del precio actual."
+  },
+  "base": {
+   "iv_per_share": 182.68,
+   "prob": 0.47,
+   "note": "Crecimiento total ~7% anios 1-5 (organico ~4% consistente con FY2025 + M&A bolt-on + apalancamiento operativo), declinando a ~5% anios 6-10; expansion continua de margen (18 anios consecutivos de track record); g terminal 3.0%. Consistente con el historial: BPA ajustado +9% FY2025, +8% Q1 2026. ~14% de margen de seguridad sobre el precio actual de $160."
+  },
+  "optimista": {
+   "iv_per_share": 222.59,
+   "prob": 0.15,
+   "note": "Crecimiento total ~8.5% anios 1-5, declinando a ~6% anios 6-10; ejecucion perfecta de M&A acretivo (estilo McGriff/JLT) y expansion de margen acelerada; g terminal 3.5%. Re-rating de vuelta hacia ~20x fwd P/E (su media historica). Aproximadamente el ATH previo de $242."
+  }
+ },
+ "sanity_check": "VI ponderada por probabilidad = 0.38*145.21 + 0.47*182.68 + 0.15*222.59 = ~$174/accion, ~9% sobre el precio de $160.12. Contraste de retorno total al accionista (NO DDM): MMC distribuye via dividendo (~$3.40/accion, payout ~35% del BPA ajustado $9.75, rendimiento ~2.1%) MAS recompras; el FCF de $5.0B sobre market cap $77.35B implica un yield de flujo de ~6.5% disponible para dividendo+recompra+M&A. A 15x fwd P/E (vs media 5a ~21x, descuento ~-28%), la accion descuenta una desaceleracion permanente que choca con el +8% organico/BPA reportado en Q1 2026. El cargo legal Greensill de $425M en el BPA GAAP es one-off y no afecta el owner earnings normalizado. Riesgo principal del DCF: ND/EBITDA ~2.3x limita margen para M&A grande sin emision; sensible a la tasa de descuento (beta 0.9 podria ser hasta 0.8 dado el perfil defensivo, lo que elevaria todas las VIs ~8-10%).",
+ "method_notes": "DCF de owner earnings a 10 anios en dos fases. Base owner FCF = FCF reportado FY2025 $5,001M - 100% SBC $394M = $4,607M. WACC = Rf 4.3% (UST 10Y) + ERP 5.0% * beta 0.9 = 8.8%; beta estimada 0.9 para correduria de seguros/consultoria (defensivo, baja volatilidad, ingresos recurrentes), empresa US por lo que no aplica ajuste eurozona/Suiza/Japon/UK ni geopolitico. Fase 1 (anios 1-5): CAGR de ingresos/owner-FCF explicito por escenario con margen FCF owner estabilizado (~17% sobre owner earnings, equivalente a ~18.5% FCF reportado menos SBC). Fase 2 (anios 6-10): CAGR declinando linealmente hacia normalizacion. Valor terminal con g=2.5-3.5% segun foso (foso ancho: lider global en correduria de seguros con escala, datos y relaciones pegajosas justifica el extremo alto). Descuento al WACC 8.8%; VI/accion = (PV flujos + PV valor terminal - deuda neta $18.76B) / acciones diluidas 0.483B (derivadas de market cap $77.35B / precio $160.12). Acciones y deuda neta de FASE 2 verificada. Negocio asset-light apto para DCF; SBC minima hace que el ajuste de owner earnings sea conservador pero de bajo impacto."
+}

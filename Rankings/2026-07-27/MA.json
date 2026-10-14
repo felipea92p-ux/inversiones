@@ -1,0 +1,214 @@
+{
+  "ticker": "MA",
+  "empresa": "Mastercard Incorporated",
+  "cik": "0001141391",
+  "fecha_analisis": "2026-07-27",
+  "divisa": "USD",
+  "etiqueta_calidad_congelada": "MUY_BUENA",
+  "nota_congelacion": "La etiqueta de calidad viene congelada del eje de comprension. El valorador NO la toca. Nada de lo que sigue reclasifica a MA hacia arriba.",
+  "especie": "G2 — reinversion 13,3% de ventas · ROIIC bruto 50,5% · ROIIC ex-margen 45,1%",
+  "posicion_en_cartera": {"si": true, "peso_nav_pct": 3.69, "decision_aplicable": "CARGAR"},
+
+  "precio": {
+    "precio_usd": 551.85,
+    "fuente": "HECHO — snapshot en vivo IBKR (contract_id 38685693, NYSE), 2026-07-27 12:00 ET. Ultimo trade 551,85. Cierre semanal de la misma serie: 551,71.",
+    "cotiza_en": "NYSE, USD — no hay ADS ni conversion de divisa",
+    "rango_52s": {"max": 598.78, "min": 464.58, "fuente": "HECHO — misc_statistics IBKR 2026-07-27"},
+    "contexto": "MA hizo maximo en 598,96 (semana del 2025-09-29), cayo a 464,52 (semana del 2026-06-22) y ha rebotado ~19% en cinco semanas. El precio de hoy NO es un precio de panico."
+  },
+
+  "acciones": {
+    "clase_a": 877036230,
+    "clase_b": 6547625,
+    "total": 883583855,
+    "fecha": "2026-04-27",
+    "fuente": "HECHO — portada del 10-Q Q1 2026 (accession 0001141391-26-000031, ma-20260331.htm)",
+    "diluidas_ponderadas_fy2025": 906000000,
+    "diluidas_ponderadas_q1_2026": 893000000,
+    "nota": "MA recompro 7,8 M acciones por 4.000 M USD en Q1 2026 y 3,3 M mas por 1.700 M hasta el 27-abr. Quedan 11.700 M USD autorizados. Las recompras posteriores al 27-abr NO estan reflejadas en el recuento — sesgo conservador sobre la capitalizacion."
+  },
+
+  "capitalizacion_y_ev_usd_mm": {
+    "capitalizacion": 487606,
+    "deuda_financiera_bruta": 18960,
+    "detalle_deuda": "LongTermDebtNoncurrent 17.212 + LongTermDebtCurrent 1.748 al 2026-03-31 (HECHO, 10-Q Q1 2026)",
+    "efectivo_y_equivalentes": 7906,
+    "inversiones_afs": 313,
+    "deuda_neta": 10741,
+    "ev": 498347,
+    "nota_arrendamientos": "Pasivo por arrendamiento operativo 833 M al 2025-12-31 (HECHO, 10-K). No incluido en la deuda neta de cabecera; incluirlo sube el EV un 0,17% — irrelevante.",
+    "nota_valor_mercado_deuda": "HUECO: uso valor contable de la deuda como aproximacion de su valor de mercado. Con el 10 anios al 4,65% y un cupon medio inferior, el valor de mercado real es algo MENOR — el EV verdadero seria ligeramente inferior. Efecto sobre el WACC: despreciable (la deuda pesa 3,7%)."
+  },
+
+  "candado_b_wacc_de_mercado": {
+    "principio": "El WACC sale del mercado, jamas de un tier de calidad. Ninguna cifra de aqui se ha heredado de la etiqueta MUY_BUENA.",
+    "tasa_libre_riesgo_pct": 4.65,
+    "tasa_libre_riesgo_fuente": "HECHO — US Treasury, Daily Treasury Par Yield Curve, bono a 10 anios, 27-jul-2026: 4,65%. Descargado de home.treasury.gov (csv oficial). Moneda funcional = USD, luego el soberano correcto es el Tesoro de EE.UU.",
+    "beta": 0.878,
+    "beta_fuente": "HECHO (medicion propia, reproducible) — regresion OLS de 261 rendimientos semanales de MA contra SPY, cierres IBKR del 2021-07-30 al 2026-07-27. Beta 5 anios = 0,878. Cross-checks: 3 anios = 0,795; 2 anios = 0,789; ajuste Blume sobre la de 5 anios = 0,918. Volatilidad anualizada MA 22,1% vs SPY 16,2%.",
+    "beta_hueco": "HUECO: no cito una beta de un tercero (Bloomberg/Barra) porque no tengo acceso verificable a una. La beta usada es medicion propia con datos y metodo declarados, no un numero copiado.",
+    "prima_mercado_pct": 4.23,
+    "prima_mercado_fuente": "HECHO — Damodaran, ctryprem.xlsx descargado de pages.stern.nyu.edu el 2026-07-27. Prima de mercado maduro = 4,23% (ERP implicita del S&P 500 con tipo sin riesgo en dolares ajustado por el rating Aa1 de EE.UU.). La ERP total de EE.UU. en ese mismo archivo es 4,46% = 4,23% madura + 0,23% de prima pais estadounidense. Coherente con la edicion de enero de 2026 (ERP implicita 4,23% al 1-ene-2026, S&P 500 en 6.845,5).",
+    "prima_pais_pct": 1.218,
+    "prima_pais_metodo": "INFERENCIA — prima pais del riesgo de ACTIVO, no del domicilio fiscal. Damodaran solo publica CRP por pais; MA solo desglosa ingresos en dos bloques (Americas 14.044 M = 42,8%; Asia-Pacifico/Europa/Oriente Medio/Africa 18.747 M = 57,2%, 10-K FY2025). Construyo una cesta de 40 paises con pesos SUPUESTOS que aproximan donde vive el gasto con tarjeta de MA (36% EE.UU., ~25% Europa occidental, ~12% Latam, ~10% Asia desarrollada, ~17% emergentes varios) y aplico a cada uno su CRP de Damodaran. Resultado ponderado 1,218%. Referencias del archivo: EE.UU. 0,233%; Alemania/Canada/Australia/Suiza 0,000%; Reino Unido y Francia 0,776%; Japon 0,913%; Polonia 1,096%; Mexico 2,465%; India 2,845%; Brasil 3,241%.",
+    "prima_pais_hueco": "HUECO declarado: los pesos de la cesta son SUPUESTO mio, no un dato de MA. MA no publica ingresos por pais. Rango razonable de la CRP mezclada: 0,6% (si la exposicion emergente es menor de lo que supongo) a 1,6%.",
+    "coste_deuda_pct": 3.88,
+    "coste_deuda_metodo": "HECHO/INFERENCIA — gasto financiero real del filing sobre deuda media: interest expense FY2025 = 722 M (10-K, cuenta de resultados) / deuda media ((18.251+749)+(17.476+750))/2 = 18.613 M => 3,88% antes de impuestos. Tipo impositivo efectivo FY2025 = 3.610/18.578 = 19,43% (HECHO, 10-K) => coste de deuda despues de impuestos 3,13%.",
+    "coste_deuda_nota": "El coste MARGINAL hoy seria mas alto (10 anios al 4,65% + diferencial de un emisor A+/Aa3, ~5,2-5,4%). Uso el real del filing como manda el candado; el marginal esta dentro del rango alto del WACC.",
+    "coste_equity_pct": 9.43,
+    "ponderacion": "A valor de mercado: equity 487.606 M (96,26%), deuda 18.960 M (3,74%).",
+    "wacc_pct": 9.20,
+    "wacc_rango": "8,3% - 9,9%",
+    "wacc_rango_metodo": "Extremo bajo: beta 0,789 (ventana de 2 anios) y ERP total 4,9% => Ke 8,52% => WACC 8,31%. Extremo alto: beta 0,92 (ajuste Blume) y ERP total 6,0% => Ke 10,17% => WACC 9,91%."
+  },
+
+  "owner_earnings": {
+    "principio": "Dos versiones obligatorias sobre dos bases. La version (a) resta solo el capex de mantenimiento (aproximado por la depreciacion y amortizacion): el exceso sobre la D&A es inversion discrecional y NO se penaliza. La version (b) resta todo el capex.",
+    "base_auditada": {
+      "ejercicio": "FY2025",
+      "fuente": "HECHO — 10-K presentado el 2026-02-11, accession 0001141391-26-000013",
+      "ingreso_neto_operaciones_usd_mm": 32791,
+      "beneficio_neto_usd_mm": 14968,
+      "flujo_caja_operativo_usd_mm": 17648,
+      "depreciacion_y_amortizacion_usd_mm": 1143,
+      "capex_ppe_usd_mm": 489,
+      "capex_software_usd_mm": 726,
+      "capex_total_usd_mm": 1215,
+      "oe_mantenimiento_usd_mm": 16505,
+      "oe_capex_total_usd_mm": 16433,
+      "observacion_clave": "La distancia entre las dos versiones es de 72 M sobre 16.500 M — un 0,4%. En Mastercard el debate mantenimiento-vs-crecimiento en el capex fisico NO existe: el capex total (1.215 M) apenas supera la D&A (1.143 M). Es un negocio sin fabricas."
+    },
+    "base_en_curso": {
+      "ejercicio": "FY2026E",
+      "trimestres_publicados": "Solo Q1 2026 (10-Q del 2026-04-30). Los resultados de Q2 2026 aun no estan publicados a fecha de hoy.",
+      "q1_2026_hechos": {
+        "ingreso_neto_usd_mm": 8398,
+        "beneficio_neto_usd_mm": 3884,
+        "bpa_diluido_usd": 4.35,
+        "flujo_caja_operativo_usd_mm": 2999,
+        "capex_ppe_usd_mm": 154,
+        "capex_software_usd_mm": 181,
+        "d_and_a_usd_mm": 299,
+        "crecimiento_ingreso_pct": 15.8,
+        "crecimiento_ingreso_moneda_constante_pct": 12,
+        "margen_operativo_pct": 58.4
+      },
+      "ocf_estimado_usd_mm": 20600,
+      "d_and_a_estimado_usd_mm": 1245,
+      "capex_total_estimado_usd_mm": 1350,
+      "oe_mantenimiento_usd_mm": 19355,
+      "oe_capex_total_usd_mm": 19250,
+      "metodo": "INFERENCIA. Beneficio neto FY2026E = Q1 2026 (3.884) / peso de Q1 en el FY2025 (21,9%) = 17.735 M (+18,5%). OCF FY2026E = beneficio neto x 1,16 (media del ratio OCF/BN de 2023-2025: 1,07 / 1,15 / 1,18) = 20.600 M (+16,7%). D&A y capex anualizados desde Q1 con la estacionalidad de FY2025.",
+      "hueco": "HUECO IMPORTANTE: la guia oficial de Mastercard para FY2026 NO aparece en ningun documento primario — la empresa la da verbalmente en la conferencia de resultados y la nota de prensa del 8-K (accession 0001141391-26-000029) no la contiene. No he accedido a la transcripcion. Por tanto el ejercicio en curso es una estimacion mia, no la guia de la empresa. Ademas descansa sobre UN solo trimestre."
+    },
+    "distancia_entre_bases": {
+      "oe_mantenimiento_pct": 17.3,
+      "oe_capex_total_pct": 17.1,
+      "lectura": "La base en curso esta un 17% por encima de la auditada. Esto NO es ruido, es informacion del momento del ciclo — y en este caso una parte grande es DIVISA: los ingresos de Q1 crecieron 16% reportado pero 12% a moneda constante. Cuatro puntos de los diecisiete son dolar debil, no negocio. Quien valora sobre la base en curso esta capitalizando un tipo de cambio. Por eso reporto las dos y no promedio."
+    },
+    "nota_sbc": "La retribucion en acciones fue de 597 M en FY2025 (HECHO, 10-K), un 3,6% de los owner earnings. El OCF la readmite como gasto no monetario. Si se resta como coste economico real, el OE de mantenimiento auditado baja a 15.908 M y el valor por accion cae ~3,5%. No la resto en la cifra de cabecera, pero queda declarada.",
+    "nota_incentivos": "Contracorriente: el OCF de FY2025 absorbe -3.388 M de 'prepaid expenses' (incentivos a clientes pagados por adelantado) contra +2.098 M de amortizacion de esos incentivos: un drenaje neto de 1.290 M. Es reinversion disfrazada de capital circulante. Si se tratara como inversion de crecimiento y se sumara de vuelta, el OE de mantenimiento auditado subiria a ~17.800 M y la g implicita bajaria ~0,8 puntos. No lo hago — porque ese pago adelantado es exactamente el eslabon debil del mecanismo: es el precio de mantener el riel."
+  },
+
+  "dcf_inverso": {
+    "principio": "Para cada base: que crecimiento a 10 anios, con terminal del 3%, justifica exactamente el precio de hoy al WACC calculado.",
+    "convencion": "Descuento flujos DESAPALANCADOS (owner earnings + intereses despues de impuestos) al WACC y comparo contra el EV; despues resto la deuda neta para llegar al valor por accion. Los owner earnings de cabecera son apalancados (el OCF ya paga intereses); les sumo 578 M (auditado) / 560 M (en curso) de intereses despues de impuestos para desapalancarlos. La diferencia es del 3,5% y esta declarada.",
+    "wacc_usado_pct": 9.20,
+    "terminal_pct": 3.0,
+    "horizonte_anios": 10,
+    "g_implicita_auditado_mantenimiento_pct": 10.40,
+    "g_implicita_auditado_capex_total_pct": 10.45,
+    "g_implicita_encurso_mantenimiento_pct": 8.38,
+    "g_implicita_encurso_capex_total_pct": 8.45,
+    "lectura": "Comprar MA hoy a 551,85 es firmar que los owner earnings crecen un 10,4% anual durante diez anios si se parte del ultimo ejercicio auditado, o un 8,4% si se acepta que el ejercicio en curso ya vale como punto de partida. La diferencia entre esos dos numeros — dos puntos de crecimiento durante una decada — es enteramente el salto de FY2025 a FY2026E, y cuatro puntos de ese salto son dolar debil."
+  },
+
+  "g_defendible": {
+    "formula": "tasa de reinversion x ROIIC EX-MARGEN",
+    "reinversion_pct": 13.3,
+    "roiic_ex_margen_pct": 45.1,
+    "g_defendible_pct": 6.0,
+    "por_que_ex_margen": "Usar el ROIIC bruto (50,5%) daria g = 6,7% y asumiria que la expansion de margen se repite. El margen operativo de MA ya esta en 58,4% (Q1 2026, HECHO). Apostar a que un negocio que gana 58 centavos de cada dolar siga expandiendo margen durante diez anios es la clase de supuesto que no se declara y se cobra caro. Ex-margen es la eleccion disciplinada.",
+    "contraste_con_la_implicita": "El mercado pide 8,4%-10,4%. Yo defiendo 6,0%. El hueco es de 2,4 a 4,4 puntos de crecimiento durante diez anios. No es un matiz."
+  },
+
+  "valor_intrinseco": {
+    "con_g_defendible_6pct_y_wacc_9_2pct": {
+      "auditado_mantenimiento_usd_accion": 391,
+      "auditado_capex_total_usd_accion": 390,
+      "encurso_mantenimiento_usd_accion": 458,
+      "encurso_capex_total_usd_accion": 456
+    },
+    "piso_de_resolucion": {
+      "regla": "Sin medicion propia del ruido, banda de mas/menos 25%. Nada de decimales falsos.",
+      "banda_encurso_usd_accion": "344 - 573",
+      "banda_auditado_usd_accion": "294 - 489",
+      "lectura_honesta": "El precio de hoy (552) cae DENTRO de la banda de resolucion de la base en curso, cerca de su techo. Sobre la base auditada el precio queda FUERA por arriba. Es decir: sobre el ultimo ejercicio realmente auditado, MA esta cara mas alla del ruido; sobre mi estimacion del ejercicio en curso, esta cara pero dentro del margen de error de mi propia estimacion. Ninguna de las dos lecturas produce descuento."
+    },
+    "sensibilidad_wacc_base_encurso": {
+      "wacc_8_3_pct": {"valor_usd_accion": 542, "mos_pct": -2},
+      "wacc_9_2_pct": {"valor_usd_accion": 458, "mos_pct": -20},
+      "wacc_9_9_pct": {"valor_usd_accion": 408, "mos_pct": -35},
+      "lectura": "Incluso en el extremo mas benevolo del rango del WACC — beta de dos anios y ERP baja — el valor solo llega a 542 contra un precio de 552. El mejor caso defendible es paridad, no descuento."
+    }
+  },
+
+  "margen_de_seguridad": {
+    "mos_exigido_pct": 40,
+    "mos_exigido_nota": "MA esta en cartera (3,69% del NAV), luego la decision es CARGAR. Segun la tabla recibida, CARGAR sobre etiqueta MUY_BUENA exige 40%. AMBIGUEDAD DECLARADA: el enunciado dice a la vez '30% para abrir, sube 12 puntos' (=42%) y lista '40% MUY_BUENA'. Tomo el 40% de la lista explicita. Con 42% la conclusion no cambia en absoluto.",
+    "mos_auditado_pct": -41.0,
+    "mos_encurso_pct": -20.4,
+    "veredicto_mos": "NO CARGAR. No hay margen de seguridad: hay prima. Falta el 40% exigido y ademas los 20-41 puntos de sobreprecio."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 20.0,
+    "m_estrella_definicion": "Multiplo de owner earnings desapalancados (EV/OE) que acepto pagar por este negocio, decidido en frio. Sin barra de error: no es una estimacion, es una decision.",
+    "m_estrella_justificacion": "A un WACC del 9,2%, g del 6% durante diez anios y terminal del 3%, el modelo escupe 20,9x. Fijo M* en 20,0x — un pelo por debajo, porque el eslabon debil del mecanismo (peaje real decreciente, incentivos creciendo al doble de velocidad que el ingreso neto de la red) no merece que le pague el multiplo teorico completo.",
+    "multiplo_actual_ev_oe_encurso": 25.0,
+    "multiplo_actual_ev_oe_auditado": 29.2,
+    "per_2026e": 27.5,
+    "precio_implicito_por_m_estrella_usd": 439,
+    "p_estrella_usd": 275.0,
+    "p_estrella_definicion": "Precio que da el MoS exigido del 40% sobre el valor intrinseco de la base en curso (458 x 0,60 = 275). Sobre la base auditada seria 235.",
+    "distancia_al_precio": "El precio de hoy esta un 101% por encima de P*. MA tendria que caer un 50% para llegar al umbral de CARGAR."
+  },
+
+  "tir_esperada": {
+    "rango": "7,2% - 8,6% anual a 10 anios",
+    "detalle": {
+      "base_auditada_g5": 7.16, "base_auditada_g6": 7.50, "base_auditada_g7": 7.86,
+      "base_encurso_g5": 7.83, "base_encurso_g6": 8.21, "base_encurso_g7": 8.61
+    },
+    "lectura": "Aqui esta la frase honesta que sustituye a un MoS negativo sin contenido: comprando a 551,85, si el negocio crece al 6% durante diez anios y luego al 3%, el comprador se lleva entre un 7,5% y un 8,2% anual — por debajo del 9,2% que le cuesta el capital. No es una perdida: es una tasa de retorno inferior al coste de oportunidad, sostenida durante una decada. Solo con g del 7% sobre la base en curso se roza el 8,6%, y sigue sin llegar al WACC."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "Una trampa de valor exige dos cosas: un descuento aparente y un motor rompiendose. Aqui no hay descuento — hay prima del 20% al 41%. El riesgo que corre quien compra MA hoy no es caer en una trampa, es sobrepagar por un negocio excelente. Son errores distintos y se corrigen distinto.",
+    "advertencia_del_motor": "SOSPECHA PARCIAL sobre el eslabon debil, y esto si merece vigilancia: el peaje por transaccion cae en nominal (0,1868 vs 0,1934 USD en 2019) y cerca de un 23% en real, mientras los incentivos a emisores ya se llevan el 51,3% de los assessments brutos y la proporcion sube todos los anos. El Q1 2026 lo confirma en documento primario: los rebates and incentives de la red crecieron un 23% (19% a moneda constante) frente a un 12% (8% a moneda constante) del ingreso neto de la red — casi al doble de velocidad, exactamente como decia el mecanismo congelado. Que el foso siga siendo real no impide que la mitad de la renta ya este pactada con el cliente y que el reparto se mueva en la direccion equivocada. Contrapeso HECHO: los servicios de valor anadido crecieron un 22% y ya son 13.315 M de 32.791 M (40,6% del ingreso, 10-K FY2025) — MA esta sustituyendo peaje por servicios. Ese es el debate real de la tesis, y no lo resuelve el precio."
+  },
+
+  "monologo_final": "Mastercard cotiza a 551,85 dolares, un 8% por debajo de su maximo de hace diez meses y un 19% por encima del minimo de hace cinco semanas. A ese precio la capitalizacion es de 487.600 millones y el valor de empresa de 498.300 millones. El coste del capital, calculado de mercado y solo de mercado — Tesoro a 10 anios al 4,65% del 27 de julio, beta 0,88 medida sobre 261 semanas contra el SPY, prima madura del 4,23% de Damodaran y 1,22 puntos de prima pais sobre una cesta que aproxima donde vive el gasto — sale 9,2%, con un rango del 8,3% al 9,9%. Los owner earnings son casi indiferentes a como se traten: el capex total de 1.215 millones apenas supera la depreciacion de 1.143, de modo que restar solo el mantenimiento o restarlo todo cambia el resultado en un 0,4%. Sobre el ultimo ejercicio auditado son 16.505 millones; sobre mi estimacion del ejercicio en curso, 19.355 — un 17% mas, del cual cuatro puntos son dolar debil y no negocio. El DCF inverso pone la cifra sobre la mesa sin adornos: el precio de hoy exige un 10,4% de crecimiento anual durante diez anios si se parte de lo auditado, o un 8,4% si se acepta el ejercicio en curso como base. Lo que yo puedo defender, derivado de reinversion por ROIIC ex-margen, es un 6,0%. Con ese 6% el valor sale en 458 dolares sobre la base en curso y 391 sobre la auditada, con una banda de resolucion del mas/menos 25% que va de 344 a 573 y de 294 a 489. El precio de hoy cae dentro de la primera banda, cerca de su techo, y fuera de la segunda por arriba. El margen de seguridad es del -20% en el mejor caso y del -41% en el mas honesto; el umbral para cargar es del +40%. La TIR esperada, que es la forma util de decir lo mismo, es del 7,2% al 8,6% anual durante diez anios contra un coste de capital del 9,2%. No es una trampa de valor: no hay valor que trampear. Es un negocio excelente con un peaje real que se encoge y unos incentivos que crecen al doble de velocidad que el ingreso de la red — lo que dice el mecanismo congelado, confirmado otra vez en el 10-Q de Q1 2026 — cotizando a 25 veces sus owner earnings desapalancados cuando yo he decidido en frio pagar 20. P estrella son 275 dolares. Faltan 277.",
+
+  "huecos_declarados": [
+    "La guia oficial de Mastercard para FY2026 no existe en ningun documento primario: la empresa la da verbalmente en la conferencia de resultados y la nota de prensa del 8-K del 30-abr-2026 no la contiene. No accedi a la transcripcion. El ejercicio en curso es estimacion mia, no guia de la empresa.",
+    "La base en curso descansa sobre UN solo trimestre publicado. Q2 2026 se espera hacia el 30-jul-2026, tres dias despues de esta fecha de corte. Con Q2 en la mano la mitad del ruido de esta valoracion desaparece — merece la pena reesperar tres dias antes de mover nada.",
+    "La beta es medicion propia (261 semanas MA vs SPY, cierres IBKR), no una cifra citada de Bloomberg o Barra. Metodo y datos declarados; el rango 0,79-0,92 cubre las ventanas alternativas.",
+    "Los pesos de la cesta de prima pais son SUPUESTO mio. Mastercard solo desglosa ingresos en dos bloques geograficos (Americas / Asia-Pacifico-Europa-Oriente Medio-Africa) y ningun filing da el reparto por pais. Rango razonable de la CRP mezclada: 0,6% a 1,6%.",
+    "El archivo ctryprem.xlsx de Damodaran trae en su hoja interna una fecha de actualizacion ambigua (serial 44561). La prima madura del 4,23% coincide exactamente con la edicion de enero de 2026 documentada publicamente, por lo que asigno esa fecha; el propio Damodaran anuncia ademas una actualizacion de abril de 2026 que no he podido diferenciar dentro del archivo.",
+    "Uso valor contable de la deuda como aproximacion de su valor de mercado. Sesgo: el EV real es algo menor; efecto en el WACC despreciable con una deuda que pesa el 3,7%.",
+    "El recuento de acciones es del 27-abr-2026. Las recompras posteriores (MA venia comprando ~4.000 M por trimestre) no estan reflejadas: la capitalizacion real de hoy es probablemente algo menor. Sesgo conservador.",
+    "Trato todo el efectivo (7.906 M) e inversiones AFS (313 M) como excedente. Parte es caja operativa de un negocio de liquidacion; si el 30% fuera operativo, la deuda neta subiria ~2.500 M y el valor por accion bajaria ~3 dolares. Irrelevante para la conclusion."
+  ],
+
+  "fuentes": [
+    "SEC EDGAR — 10-K FY2025, accession 0001141391-26-000013, presentado 2026-02-11. Cuenta de resultados (R3), estado de flujos de caja (R8), nota de ingresos (R11).",
+    "SEC EDGAR — 10-Q Q1 2026, accession 0001141391-26-000031, presentado 2026-04-30. Portada (acciones en circulacion al 2026-04-27), balance y flujos.",
+    "SEC EDGAR — 8-K del 2026-04-30, accession 0001141391-26-000029, EX-99.1 nota de resultados de Q1 2026.",
+    "SEC EDGAR — API XBRL companyfacts CIK0001141391, consultada 2026-07-27.",
+    "US Department of the Treasury — Daily Treasury Par Yield Curve Rates, csv oficial, 27-jul-2026: 10 anios 4,65%.",
+    "Aswath Damodaran (NYU Stern) — ctryprem.xlsx, descargado de pages.stern.nyu.edu el 2026-07-27. Prima madura 4,23%; ERP total EE.UU. 4,46%; CRP por pais.",
+    "Interactive Brokers — snapshot de precio en vivo e historico semanal de 5 anios de MA (contract_id 38685693) y SPY (756733), 2026-07-27."
+  ]
+}

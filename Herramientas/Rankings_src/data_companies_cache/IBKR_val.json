@@ -1,0 +1,48 @@
+{
+ "ticker": "IBKR",
+ "name": "Interactive Brokers Group, Inc.",
+ "currency": "USD",
+ "price_verified": 96.82,
+ "price_source": "StockAnalysis.com / Google Finance (close), cross-checked Yahoo Finance",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 1.69,
+ "implied_mcap_b_usd": 163.6,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 9.3,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "FCF no es metrica significativa para un broker-dealer (OCF ~$15.7B distorsionado por saldos de clientes: efectivo segregado y creditos de clientes). Se usa el net income consolidado FY2025 de $4.36B (base ECONOMICA total, incluye noncontrolling interest de IBG Holdings LLC) como proxy de owner earnings. Owner earnings = NI - 100% SBC ($118M, ~1.9% rev, inmaterial) = $4.24B = $2.51/accion economica. Base FY26 (proximo FY): ~+18% = $2.96/accion economica.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 66.39,
+   "prob": 0.38,
+   "note": "Desaceleracion real pero no apocaliptica: Fase1 g=10%, Fase2 g=5%, terminal 2.5%. Asume normalizacion de tipos que reduce NII (~mitad de ingresos) y crecimiento de cuentas moderandose."
+  },
+  "base": {
+   "iv_per_share": 94.53,
+   "prob": 0.47,
+   "note": "Compounding fuerte pero moderandose: Fase1 g=15%, Fase2 g=8%, terminal 3.0%. Crecimiento de cuentas +32% se modera; margenes pretax ~77% sostenidos; escala global continua."
+  },
+  "optimista": {
+   "iv_per_share": 135.59,
+   "prob": 0.15,
+   "note": "Crecimiento alto sostenido: Fase1 g=20%, Fase2 g=11%, terminal 3.5%. Ganancia de cuota continuada, expansion internacional y apalancamiento operativo del modelo automatizado."
+  }
+ },
+ "iv_dcf_weighted": 90,
+ "multiple_metric": "P/E adelantado (sobre owner earnings/accion economica normalizada)",
+ "fwd_multiple_now": 36.9,
+ "fwd_multiple_5y_avg": 24.1,
+ "fair_multiple": 27,
+ "multiple_rationale": "Ancla a la media 5a del P/E adelantado (24.1x) con una prima modesta (+12% a 27.0x) por mejora ESTRUCTURAL genuina de calidad: cuentas +32% YoY (4.4M), margen pretax ~77% (de los mas altos del sector), caja neta >$100B sin deuda, modelo automatizado altamente escalable. NO se aplica el 36.9x actual porque ese multiplo refleja un viento de cola CICLICO de tipos altos (NII ~mitad de ingresos) mas euforia de momentum (accion a ~1% de su maximo historico) — no es sostenible si los tipos se normalizan. Haircut implicito de 36.9x->27.0x captura la naturaleza ciclica de los ingresos por intereses.",
+ "iv_multiple": 79.97,
+ "weight_dcf": 0.45,
+ "weight_multiple": 0.55,
+ "reconciled_iv": 84.48,
+ "structural_change": "Mejora estructural positiva (NO deterioro): expansion sostenida de cuentas (+32% YoY a 4.4M), margenes pretax record (~77%), apalancamiento operativo del modelo automatizado, fortaleza de balance (caja neta >$100B). Contrapeso: ~mitad de los ingresos son NII sensible a tipos de interes — componente CICLICO real que justifica no extrapolar el multiplo actual de tipos-altos. Por eso pesos equilibrados/ligeramente pro-DCF (0.45/0.55) en vez del 0.35/0.65 tipico de un compounder puro estable.",
+ "sanity_notes": "ESTRUCTURA UP-C: IBKR tiene dos lecturas validas de mcap. (1) Solo Clase A (~445M acc, float publico) = ~$43B (stockanalysis.com). (2) ECONOMICA TOTAL incluyendo ~74% en manos de IBG Holdings LLC (Peterffy/insiders, noncontrolling interest) = ~1.69B acc x $96.82 = $163.6B (cifra Yahoo/Google, la economicamente relevante). USO LA BASE ECONOMICA TOTAL de forma CONSISTENTE: net income consolidado $4.36B sobre 1.69B acc = $2.51 owner-EPS economico, evitando mezclar numerador Clase-A con denominador total. Precio $96.82 verificado (cierre 22-jun-2026, StockAnalysis/Google/Yahoo coinciden). Sanity de magnitud: IV reconciliado $84.48 / precio $96.82 = 0.87 (dentro del rango 0.3-3.0). P/E adelantado implicito reconciliado ~28.5x = prima sensata sobre media 5a para calidad probada, pero por debajo del 36.9x de momentum actual. CONCLUSION: accion de altisima calidad cotizando en prima fuerte (~13% por encima de IV); NO deprimida (~1% de maximo historico). Modestamente sobrevalorada bajo marco calidad-a-multiplo-sensato."
+}

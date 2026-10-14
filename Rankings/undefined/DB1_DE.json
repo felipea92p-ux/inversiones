@@ -1,0 +1,453 @@
+{
+  "meta": {
+    "ticker": "DB1.DE",
+    "empresa": "Deutsche Boerse AG",
+    "domicilio": "Frankfurt am Main, Alemania",
+    "cotizacion": "XETRA (Deutsche Boerse), EUR. ISIN DE0005810055.",
+    "adr": "DBOEY / DBOEF (ADR nivel 1, OTC). NO usado: la capitalizacion se computa sobre las 180,3 millones de acciones ordinarias de XETRA para evitar el problema de ratio ADS/ordinaria.",
+    "presenta_ante_sec": false,
+    "fuente_primaria_usada": "Informes de la propia empresa. Annual Report 2025 (Konzern-Jahresfinanzbericht, auditado por KPMG, publicado 2026) y Half-yearly financial report 2026 (publicado 22-jul-2026), ambos descargados de deutsche-boerse.com. Autorizado expresamente por Felipe para emisores no-SEC.",
+    "fecha_corte": "2026-07-28",
+    "divisa_reporte": "USD",
+    "divisa_funcional": "EUR",
+    "tipo_de_cambio": {
+      "eur_usd": 1.1389,
+      "fuente": "BCE, tipo de referencia diario eurofxref-daily.xml",
+      "fecha": "2026-07-27 (ultimo publicado a la hora de la consulta)",
+      "etiqueta": "HECHO"
+    },
+    "rol": "VALORADOR. La etiqueta de calidad esta CONGELADA y no se toca. No se reclasifica hacia arriba por mucho MoS que aparezca.",
+    "etiqueta_congelada": "MENOS_5_6 (3 puertas pasadas)",
+    "mos_exigido_pct": 40,
+    "mos_exigido_motivo": "MENOS_5_6 fuera de cartera -> umbral de ABRIR = 40%. No aplica el escalon de CARGAR (-12 puntos) porque la empresa NO esta en cartera de Felipe."
+  },
+
+  "mecanismo_congelado": {
+    "texto": "Silo vertical euro-centrico: negociacion en Eurex, compensacion y neteo de colateral en Eurex Clearing, custodia y liquidacion en Clearstream. El open interest y el colateral neteado no son multi-homeables, de modo que el flujo que entra por el lado barato queda atrapado y se monetiza tres veces aguas abajo, en comisiones de custodia y liquidacion que suben por encima de la inflacion y en el treasury result sobre el efectivo de los clientes.",
+    "eslabon_mas_debil": "El capital incremental. 8.460 M EUR desplegados en 2021-2025 (34,1% de las ventas, casi todo M&A: ISS, Clearstream Fund Centre, SimCorp) que solo produjeron 12,2% de ROIIC bruto y 6,7% descontando el viento de cola de tipos del BCE. ROIC reportado nunca por encima de 15,4% con margen NOPAT clavado en ~37% durante siete anios.",
+    "especie_g2": {
+      "reinversion_pct_ventas": 34.1,
+      "roiic_bruto_pct": 12.2,
+      "roiic_ex_margen_pct": 12.2,
+      "roiic_ex_viento_de_cola_de_tipos_pct": 6.7,
+      "nota": "ROIIC bruto = ROIIC ex-margen porque el margen NOPAT fue plano ~37% siete anios: no hubo expansion de margen que descontar. La correccion que SI muerde es la de tipos (6,7%)."
+    },
+    "verificacion_del_mecanismo_en_datos_frescos": {
+      "custodia_H1_2026_M_EUR": 400,
+      "custodia_variacion_pct": 13,
+      "liquidacion_H1_2026_M_EUR": 96,
+      "liquidacion_variacion_pct": 23,
+      "activos_bajo_custodia_media": "17,3 billones EUR, +8% interanual, maximo historico",
+      "colateral_gestionado": "supero 1 billon EUR en junio 2026 por primera vez",
+      "fuente": "Half-yearly financial report 2026, segmento Securities Services. HECHO.",
+      "lectura": "El mecanismo esta VIVO y funcionando. Custodia y liquidacion siguen creciendo muy por encima de la inflacion. El motor no se esta rompiendo."
+    },
+    "advertencia_al_valorador": "Al abrir el precio aparece un MoS mecanico de 39-46%. Eso NO es una razon para reclasificar la etiqueta hacia arriba, y ademas -como se documenta abajo- ese MoS es en su mayor parte un ARTEFACTO del WACC CAPM, no una medicion de baratura."
+  },
+
+  "precio_y_capitalizacion": {
+    "precio_eur": 263.00,
+    "fecha_precio": "2026-07-28 (ultima operacion intradia, sesion en curso)",
+    "cierre_anterior_eur": 263.40,
+    "variacion_dia_pct": -0.15,
+    "precio_usd": 299.53,
+    "fuente_precio": "IBKR market data snapshot, contrato 11490214 (DB1, IBIS/XETRA), 2026-07-28. last=263,00 EUR; prior close=263,40 EUR; volumen 330; rendimiento por dividendo 1,59%. HECHO (dato vivo de broker, no memoria).",
+    "rango_52_semanas_eur": "200,10 - 269,60",
+    "posicion_en_el_rango": "El precio esta a un 2,4% de su maximo de 52 semanas. NO es una situacion de pesimismo. Cualquier MoS grande que aparezca debe explicarse por el modelo, no por el mercado.",
+    "acciones_en_circulacion_mm": 180.288,
+    "acciones_fuente": "HECHO: 180.287.660 acciones en circulacion a 30-jun-2026 (Half-yearly financial report 2026, Nota 11 'Earnings per share'). Al inicio del periodo eran 182.105.935. En H1 2026 se cancelaron 2.000.000 de acciones propias y se ejecuto un programa de recompra de 462 M EUR completado el 26-jun-2026.",
+    "capital_social": "188,3 millones de acciones nominativas sin valor nominal a 31-dic-2025, menos 6,2 millones de autocartera = 182,1 millones con derecho a dividendo (Annual Report 2025). A 30-jun-2026: 181,0 millones con derecho a dividendo.",
+    "capitalizacion_eur_mm": 47416,
+    "capitalizacion_usd_mm": 54002,
+    "deuda_neta_eur_mm": 5200,
+    "deuda_neta_usd_mm": 5922,
+    "deuda_neta_banda_eur_mm": "5.000 - 5.500",
+    "deuda_neta_fuente": "INFERENCIA. Punto de partida HECHO: deuda neta relevante para rating de 4.288 M EUR a 31-dic-2025 (Annual Report 2025; consistente con ratio deuda neta/EBITDA de 1,22 x EBITDA 3.512). Rodada a 30-jun-2026 por dos vias que convergen: (a) via flujos - +760 dividendo, +462 recompra, +1.152 compra de minoritarios de ISS STOXX, +44 dividendo a minoritarios, +214 capex, +44 leasing, -1.487 CFO ex-CCP, -269 neto de cartera de inversiones financieras = ~5.208; (b) via balance - pasivos financieros no corrientes a coste amortizado 6.187 (30-jun-2026) vs 5.533 (31-dic-2025), +654 de deuda bruta mas ~186 de financiacion a corto neta, con caja propia plana (1.747 vs 1.782) = ~5.130. Adopto 5.200 con banda 5.000-5.500. HUECO DECLARADO: Deutsche Boerse NO publica cifra de deuda neta en el informe semestral.",
+    "intereses_minoritarios_eur_mm": 377,
+    "intereses_minoritarios_fuente": "HECHO: 377 M EUR a 30-jun-2026 (vs 517 a 31-dic-2025). La caida refleja la compra del 100% de ISS STOXX.",
+    "ev_eur_mm": 52993,
+    "ev_usd_mm": 60354,
+    "nota_ev": "EV = capitalizacion + deuda neta + minoritarios. NO se incluyen los pasivos de la actividad bancaria (depositos de participantes 63.469 M EUR, instrumentos de contrapartidas centrales 283.635 M EUR): son pasivos operativos de Clearstream y Eurex Clearing con activo espejo, no financiacion de la empresa. Confundirlos daria un EV de 400.000 M EUR, absurdo.",
+    "nota_valor_de_mercado_de_la_deuda": "Se usa valor contable. Los bonos vivos de DBAG llevan cupones bajos de emisiones 2015-2021 y con el Bund a 3,13% cotizan por debajo de par; el valor de MERCADO de la deuda es inferior al contable, lo que hace mi EV ligeramente ALTO y por tanto mi valoracion ligeramente CONSERVADORA. HUECO declarado."
+  },
+
+  "wacc_candado_b": {
+    "principio": "CANDADO B: el WACC sale del mercado, nunca de un tier de calidad. Ningun input de aqui depende de la etiqueta MENOS_5_6.",
+    "tasa_libre_riesgo": {
+      "valor_pct": 3.13,
+      "instrumento": "Bund aleman a 10 anios (moneda funcional EUR, emisor Aaa)",
+      "fecha": "2026-07-27",
+      "fuente": "TradingEconomics, serie Germany Government Bond 10Y: 3,13% el 27-jul-2026 (-0,05 pp sobre la sesion anterior; +0,27 pp en el mes; +0,44 pp interanual; maximo de 3,20% en la semana, el mas alto en mas de quince anios). Etiqueta: INFERENCIA (agregador). No consegui descargar el cierre oficial de la curva del Bundesbank.",
+      "banda_usada": "3,05% - 3,25%",
+      "nota": "Un Bund en maximos de quince anios SUBE el WACC y por tanto BAJA mi valoracion. El error va en direccion conservadora."
+    },
+    "prima_de_riesgo_de_mercado": {
+      "valor_pct": 4.23,
+      "descripcion": "Prima de mercado maduro (implied ERP del S&P 500 neta del spread de impago del soberano). Alemania es Aaa: Total ERP 4,23% y Country Risk Premium 0,00%.",
+      "fuente": "Aswath Damodaran, ctryprem.xlsx, hoja 'ERPs by country', fecha de actualizacion 1-ene-2026 (ratings soberanos actualizados 16-feb-2026). Fila 'Germany': Moody's Aaa, Total ERP 0,0423, CRP 0,0000. Fila 'United States': Aa1, Total ERP 0,0446, CRP 0,002334. Fila 'United Kingdom': Aa3, Total ERP 0,05006, CRP 0,00776. Fila 'Luxembourg' y 'Switzerland' y 'Denmark': Aaa, CRP 0,0000. Filas 'Japan'/'China': A1, CRP 0,009129.",
+      "etiqueta": "HECHO (fichero descargado de pages.stern.nyu.edu)"
+    },
+    "prima_pais": {
+      "valor_pct": 0.11,
+      "metodo": "Damodaran manda usar el pais del riesgo de ACTIVO, no el domicilio fiscal. El activo de DBG es abrumadoramente eurozona: Eurex y Eurex Clearing (Alemania), EEX (Alemania), 360T (Alemania), Xetra (Alemania), Clearstream (Luxemburgo y Frankfurt). Fuera: STOXX (Suiza), SimCorp (Dinamarca), ISS (EEUU en su mayor parte), Clearstream Americas y Asia.",
+      "ponderacion_estimada": "70% Alemania/Luxemburgo (CRP 0,00%) + 7% Suiza/Dinamarca/Nordicos (0,00%) + 4% Reino Unido (0,776%) + 14% Norteamerica (0,233%) + 5% APAC (~0,91%) = 0,109%",
+      "etiqueta": "INFERENCIA — el reparto geografico del riesgo de activo es estimacion propia; DBG no publica un desglose de beneficio operativo por geografia.",
+      "efecto": "Prima total ERP ponderada = 4,23% + 0,11% = 4,34%."
+    },
+    "beta": {
+      "valor_usado": 0.85,
+      "metodo": "BOTTOM-UP por segmentos, no regresion.",
+      "fuente_beta": "Damodaran betas.xls y betaEurope.xls, actualizacion 5-ene-2026, columna 'Unlevered beta corrected for cash'. EEUU: 'Investments & Asset Management' 0,588 (283 empresas), 'Information Services' 0,756 (15), 'Software (System & Application)' 1,248 (309), 'Financial Svcs. (Non-bank & Insurance)' 0,328 (176). Europa: 'Investments & Asset Management' 0,585 (338), 'Software' 0,964 (290), 'Information Services' 0,444 (6).",
+      "construccion": "Mezcla por ingreso neto FY2025 (6.026 M EUR): Trading & Clearing 2.553 (42,4%, beta desapalancada 0,588) + Securities Services 1.605 (26,6%, 0,40 - custodia/liquidacion bancaria) + Investment Management Solutions 1.331 (22,1%, 0,924 - dentro del segmento 56% software SimCorp a 1,10 y 44% ESG&Index a 0,70) + Fund Services 537 (8,9%, 0,50) = beta desapalancada 0,604. Reapalancada con D/E de mercado 11,0% y tipo del grupo 26,0% -> 0,654.",
+      "por_que_0_85_y_no_0_654": "Se sube deliberadamente a 0,85 por tres razones, todas conservadoras: (1) la beta bottom-up se apoya en categorias Damodaran cuyas betas desapalancadas estan deprimidas por el ciclo; (2) Clearstream ES un banco y Eurex Clearing una camara: soportan riesgo regulatorio, de capital y operativo que ninguna regresion con el DAX recoge; (3) precedente interno del proceso (CME 0,75, ICE 0,95 sobre negocios equivalentes). Subir la beta SUBE el WACC y BAJA el valor: el error va en la direccion correcta.",
+      "betas_de_regresion_descartadas": {
+        "yahoo_finance_5y_mensual_DB1_DE": 0.30,
+        "yahoo_finance_5y_mensual_DB1_F": 0.28,
+        "fecha": "julio 2026",
+        "motivo_del_descarte": "Una beta de 0,28-0,30 da un coste de capital propio de 4,4% en euros, apenas 1,2 pp por encima del Bund y solo 0,8 pp por encima del coste marginal de la propia deuda de DBAG. Es un absurdo economico: la accion no puede exigir casi lo mismo que su bono. Ademas DB1 es estructuralmente anticiclica en volatilidad (gana cuando el mercado cae), lo que deprime la beta de regresion sin reducir el riesgo del NEGOCIO.",
+        "etiqueta": "INFERENCIA (agregador)"
+      }
+    },
+    "coste_de_deuda": {
+      "kd_pretax_pct": 2.60,
+      "derivacion": "HECHO, del filing. Nota 08 'Financial Result' del Annual Report 2025: 'Interest expense from financial liabilities measured at amortized cost' = 146 M EUR (2024: 153). Deuda con intereses no corriente: 5.087 M EUR (2025) y 6.255 M EUR (2024) segun la tabla quinquenal del informe de gestion. Deuda media = 5.671. Kd = 146/5.671 = 2,58%. Incluyendo 8 M EUR de costes de transaccion: 154/5.671 = 2,72%.",
+      "kd_marginal_estimado_pct": 3.60,
+      "aviso": "IMPORTANTE: el coste EMBEBIDO (2,6%) es muy inferior al MARGINAL. Con el Bund a 3,13% y DBAG en AA (S&P AA para Clearstream, AA- para DBAG), una emision nueva a 10 anios costaria ~3,5-3,7%. En 2025 DBG repago 1.007 M EUR de financiacion a largo y emitio solo 325; en H1 2026 emitio 646 y repago 538: esta refinanciando a tipos mas altos. Se usa el embebido como pide el candado y el marginal en el extremo alto del rango.",
+      "tipo_impositivo_pct": 26.0,
+      "fuente_tipo": "HECHO: 26,0% es el tipo medio ponderado del Grupo declarado en el Annual Report 2025 (Nota 09). Cross-check FY2025: 753/2.857 = 26,4%. H1 2026: 441/1.646 = 26,8%.",
+      "kd_despues_de_impuestos_pct": 1.92
+    },
+    "ponderacion": {
+      "metodo": "A valor de MERCADO. E = 47.416 M EUR (capitalizacion viva). D = 5.200 M EUR (deuda neta; valor contable como aproximacion del de mercado, sesgo conservador declarado arriba).",
+      "peso_equity_pct": 90.1,
+      "peso_deuda_pct": 9.9
+    },
+    "coste_de_los_fondos_propios_pct": 6.82,
+    "calculo_ke": "3,13% + 0,85 x 4,34% = 6,82%",
+    "wacc_central_pct": 6.3,
+    "calculo_wacc": "0,901 x 6,82% + 0,099 x 2,60% x (1 - 0,26) = 6,15% + 0,19% = 6,34% -> 6,3%",
+    "wacc_rango": "5,5% - 7,3%",
+    "wacc_rango_detalle": {
+      "bajo_5_5": "rf 3,05% + beta 0,65 x ERP 4,34% + Kd 2,60% -> WACC 5,47%",
+      "alto_7_3": "rf 3,25% + beta 1,05 x ERP 4,34% + Kd marginal 3,60% -> WACC 7,29%"
+    },
+    "advertencia_critica_sobre_el_wacc": "ESTE ES EL PUNTO MAS IMPORTANTE DE TODO EL EXPEDIENTE. Un WACC de 6,3% con crecimiento terminal del 3% implica un multiplo terminal de 1/(0,063-0,030) = 30,3 veces. Cualquier valoracion en la que r-g terminal sea de solo 3,3 pp no es una valoracion: es una apuesta apalancada sobre el input. El WACC CAPM esta ademas por DEBAJO de lo que los propietarios de renta variable europea exigen de verdad (~8-9,5% en euros). Todo MoS calculado contra 6,3% esta inflado por construccion. Se reporta el numero mecanico porque el candado B lo exige, y a continuacion se reporta el numero honesto contra una tasa exigida defendible."
+  },
+
+  "datos_financieros_auditados_2025": {
+    "fuente": "Annual Report 2025 / Konzern-Jahresfinanzbericht (auditado). Todo HECHO salvo lo que se marque.",
+    "ingreso_neto_total_eur_mm": 6026,
+    "ingreso_neto_sin_tesoreria_eur_mm": 5189,
+    "treasury_result_eur_mm": 837,
+    "treasury_result_pct_del_ingreso_neto": 13.9,
+    "costes_operativos_eur_mm": -2534,
+    "ebitda_eur_mm": 3512,
+    "ebitda_sin_tesoreria_eur_mm": 2675,
+    "amortizaciones_y_deterioros_eur_mm": 501,
+    "ebit_eur_mm": 3010,
+    "resultado_financiero_eur_mm": -154,
+    "ebt_eur_mm": 2857,
+    "impuestos_eur_mm": -753,
+    "beneficio_neto_total_eur_mm": 2104,
+    "beneficio_atribuible_a_accionistas_eur_mm": 1995,
+    "minoritarios_eur_mm": 109,
+    "bpa_eur": 10.90,
+    "cash_eps_eur": 11.65,
+    "acciones_medias_mm": 183.1,
+    "cfo_excluyendo_posiciones_ccp_eur_mm": 2672,
+    "cfo_incluyendo_ccp_eur_mm": 2810,
+    "capex_intangibles_eur_mm": 325,
+    "capex_inmovilizado_material_eur_mm": 55,
+    "capex_total_eur_mm": 380,
+    "pagos_de_arrendamiento_ifrs16_eur_mm": 90,
+    "dividendos_pagados_eur_mm": 734,
+    "recompra_de_acciones_eur_mm": 504,
+    "dividendo_propuesto_por_accion_eur": 4.20,
+    "payout_pct": 38,
+    "deuda_neta_eur_mm": 4288,
+    "deuda_neta_sobre_ebitda": 1.22,
+    "cobertura_de_intereses": 22.1,
+    "amortizacion_de_ppa_estimada_eur_mm": 185,
+    "derivacion_amortizacion_ppa": "INFERENCIA: (Cash EPS 11,65 - EPS 10,90) x 183,1 M acciones = 137 M EUR neto de impuestos; brutos al 26% = 185 M EUR. Por tanto la amortizacion ORGANICA (no derivada de compras) es 501 - 185 = 316 M EUR.",
+    "segmentos_ingreso_neto_2025_eur_mm": {
+      "Trading_and_Clearing": 2553,
+      "Securities_Services": 1605,
+      "Investment_Management_Solutions": 1331,
+      "Fund_Services": 537
+    },
+    "detalle_del_mecanismo_2025": {
+      "custodia_eur_mm": 722,
+      "custodia_var_pct": 10,
+      "liquidacion_eur_mm": 154,
+      "liquidacion_var_pct": 20,
+      "cash_equities_trading_eur_mm": 170,
+      "cash_equities_trading_var_pct": 26,
+      "lectura": "Confirma el mecanismo congelado: el flujo entra barato por contado (+26% en trading de contado) y se monetiza aguas abajo en custodia (+10%) y liquidacion (+20%)."
+    }
+  },
+
+  "datos_ejercicio_en_curso_2026": {
+    "fuente": "Half-yearly financial report 2026, publicado 22-jul-2026 (revision limitada, no auditoria completa). Guia de la empresa confirmada y elevada en el mismo documento.",
+    "H1_2026_hechos": {
+      "ingreso_neto_total_eur_mm": 3255,
+      "ingreso_neto_sin_tesoreria_eur_mm": 2846,
+      "treasury_result_eur_mm": 409,
+      "costes_operativos_eur_mm": -1271,
+      "ebitda_eur_mm": 1987,
+      "amortizaciones_eur_mm": 259,
+      "ebit_eur_mm": 1728,
+      "beneficio_neto_total_eur_mm": 1205,
+      "beneficio_atribuible_eur_mm": 1154,
+      "minoritarios_eur_mm": 51,
+      "bpa_eur": 6.36,
+      "cfo_excluyendo_ccp_eur_mm": 1487,
+      "capex_intangibles_eur_mm": 192,
+      "capex_material_eur_mm": 22,
+      "capex_total_eur_mm": 214,
+      "pagos_de_arrendamiento_eur_mm": 44,
+      "dividendos_pagados_eur_mm": 760,
+      "recompra_eur_mm": 462,
+      "compra_de_minoritarios_ISS_STOXX_eur_mm": 1152,
+      "custodia_eur_mm": 400,
+      "custodia_var_pct": 13,
+      "liquidacion_eur_mm": 96,
+      "liquidacion_var_pct": 23,
+      "activos_bajo_custodia": "17,3 billones EUR de media, +8%, maximo historico",
+      "colateral_gestionado": "supero 1 billon EUR en junio 2026"
+    },
+    "guia_FY2026_de_la_empresa": {
+      "ingreso_neto_sin_tesoreria_eur_bn": 5.7,
+      "ebitda_sin_tesoreria_eur_bn": 3.1,
+      "treasury_result_eur_bn": ">0,7 (ELEVADA en Q2 2026)",
+      "ingreso_neto_total_eur_bn": ">6,4",
+      "ebitda_total_eur_bn": ">3,8",
+      "cita": "'We confirm our forecast for net revenue without treasury result of around EUR 5.7 billion, and our forecast for EBITDA without treasury result of around EUR 3.1 billion. Due to the changed global interest rate outlook and higher cash balances, we now expect the treasury result to exceed EUR 0.7 billion for the full year 2026.' HECHO."
+    },
+    "anualizacion_2026e": {
+      "metodo": "H1 real escalado por dos vias: (a) ratio de estacionalidad 2025 (CFO ex-CCP H1 1.291 -> FY 2.672, x2,07) y (b) ratio implicito en la guia de EBITDA (H1 1.987 / FY >3.800 = x1,913). Se adopta el punto conservador.",
+      "cfo_excluyendo_ccp_eur_mm": 2900,
+      "cfo_banda_eur_mm": "2.845 - 3.078",
+      "amortizaciones_eur_mm": 518,
+      "amortizacion_organica_eur_mm": 333,
+      "capex_total_eur_mm": 450,
+      "pagos_de_arrendamiento_eur_mm": 88,
+      "porcentaje_atribuible_a_accionistas": 96.5,
+      "nota_minoritarios": "Sube del 94,8% de 2025 al 96,5% porque la compra del resto de ISS STOXX por 1.152 M EUR en H1 2026 elimina buena parte de los minoritarios (517 -> 377 M EUR en balance)."
+    },
+    "hecho_macro_relevante": "'Following the ECB's rate hike in June 2026 ... the treasury result edged up again for the first time'. HECHO (Half-yearly financial report 2026). El ciclo de tipos del BCE ha girado al alza, lo que convierte el viento de cola de tesoreria de headwind esperado en tailwind imprevisto. Esto EXPLICA la elevacion de la guia y es exactamente la palanca sin capital que el eslabon mas debil del mecanismo senala."
+  },
+
+  "owner_earnings": {
+    "principio": "Dos versiones (capex de mantenimiento vs capex total) sobre dos bases (ultimo auditado vs ejercicio en curso anualizado). Todas ATRIBUIBLES a los accionistas de Deutsche Boerse AG.",
+    "construccion": "OE = CFO excluyendo posiciones de CCP (las posiciones de contrapartida central son un pasaje contable, no caja del negocio) - pagos de arrendamiento IFRS 16 (son capex disfrazado desde 2019) - capex, todo multiplicado por el porcentaje atribuible a los accionistas.",
+    "definicion_de_capex_de_mantenimiento": "La regla dice 'aproximado por la depreciacion'. Aplicarla literalmente aqui daria un absurdo: la amortizacion total (501 M EUR) SUPERA al capex total (380 M EUR), asi que el mantenimiento saldria mayor que el gasto real. Se usa por tanto la amortizacion ORGANICA (excluida la de PPA de adquisiciones, 185 M EUR): 316 M EUR en 2025, 333 M EUR en 2026e. HALLAZGO: el capex de DBG apenas supera su amortizacion organica. Deutsche Boerse NO es una reinvertidora de capex; toda su reinversion va por M&A, que no aparece en esta linea. Por eso las versiones (a) y (b) casi coinciden - la diferencia es de solo 64 M EUR en 2025.",
+
+    "base_auditada_2025": {
+      "cfo_ex_ccp_eur_mm": 2672,
+      "menos_arrendamientos_eur_mm": 90,
+      "capex_mantenimiento_eur_mm": 316,
+      "capex_total_eur_mm": 380,
+      "oe_mantenimiento_grupo_eur_mm": 2266,
+      "oe_capex_total_grupo_eur_mm": 2202,
+      "pct_atribuible": 94.8,
+      "oe_mantenimiento_atribuible_eur_mm": 2148,
+      "oe_capex_total_atribuible_eur_mm": 2087,
+      "oe_mantenimiento_atribuible_usd_mm": 2446,
+      "oe_capex_total_atribuible_usd_mm": 2377,
+      "oe_por_accion_eur": 11.91,
+      "multiplo_actual_sobre_oe": 22.1
+    },
+    "base_en_curso_2026e": {
+      "cfo_ex_ccp_eur_mm": 2900,
+      "menos_arrendamientos_eur_mm": 88,
+      "capex_mantenimiento_eur_mm": 333,
+      "capex_total_eur_mm": 450,
+      "oe_mantenimiento_grupo_eur_mm": 2479,
+      "oe_capex_total_grupo_eur_mm": 2362,
+      "pct_atribuible": 96.5,
+      "oe_mantenimiento_atribuible_eur_mm": 2392,
+      "oe_capex_total_atribuible_eur_mm": 2279,
+      "oe_mantenimiento_atribuible_usd_mm": 2724,
+      "oe_capex_total_atribuible_usd_mm": 2596,
+      "oe_por_accion_eur": 13.27,
+      "multiplo_actual_sobre_oe": 19.8
+    },
+    "distancia_entre_bases": {
+      "salto_pct": 11.4,
+      "lectura": "NO es ruido, es informacion sobre el momento del ciclo. El salto del 11,4% en owner earnings entre 2025 auditado y 2026 en curso viene de tres sitios, y solo dos son de calidad: (1) crecimiento operativo genuino - EBITDA sin tesoreria +16% en H1, custodia +13%, liquidacion +23%, SaaS de SimCorp con fuerte traccion; (2) la subida de tipos del BCE de junio 2026, que en lugar de erosionar el treasury result lo ha estabilizado por encima de 0,7 bn EUR - esto es un viento de cola SIN CAPITAL, exactamente el que el mecanismo senala como el que enmascara el pobre ROIIC; (3) menos minoritarios tras pagar 1.152 M EUR por el resto de ISS STOXX - esto es owner earnings COMPRADO, no ganado. Estamos en la parte alta del ciclo, no en la baja. Valorar sobre la base en curso es valorar sobre un pico.",
+      "consecuencia": "La base AUDITADA es la mas honesta de las dos para exigir MoS. La base en curso se reporta pero se marca como la generosa."
+    }
+  },
+
+  "dcf_inverso": {
+    "estructura": "10 anios de crecimiento g sobre los owner earnings atribuibles, terminal al 3%, descontado al WACC. Se resuelve la g que iguala el valor presente a la capitalizacion de hoy (47.416 M EUR). Se descuenta un flujo de EQUITY (el CFO ya esta despues de intereses pagados) contra el valor de EQUITY: coherente.",
+    "al_wacc_candado_b_6_32": {
+      "g_implicita_base_auditada_mantenimiento_pct": -1.01,
+      "g_implicita_base_auditada_capex_total_pct": -0.67,
+      "g_implicita_base_en_curso_mantenimiento_pct": -2.28,
+      "g_implicita_base_en_curso_capex_total_pct": -1.70,
+      "lectura": "El mercado estaria pidiendo que Deutsche Boerse DECREZCA un 1-2% anual durante diez anios. Eso es absurdo para un negocio cuyo H1 2026 acaba de crecer el EBITDA sin tesoreria un 16%. Cuando un DCF inverso escupe una g implicita negativa sobre un negocio que crece, el problema NO es el precio: es la tasa de descuento."
+    },
+    "a_tasas_exigidas_alternativas": {
+      "r_6_82_ke_capm": {"g_auditada_pct": 0.59, "g_en_curso_pct": -0.71},
+      "r_8_00": {"g_auditada_pct": 3.87, "g_en_curso_pct": 2.51},
+      "r_9_00": {"g_auditada_pct": 6.29, "g_en_curso_pct": 4.88},
+      "r_10_00": {"g_auditada_pct": 8.48, "g_en_curso_pct": 7.03}
+    },
+    "hallazgo_central": "A una tasa exigida del 9% -que es lo que un propietario racional de renta variable europea pide- el mercado esta pagando por una g del 4,9% sobre la base en curso. Mi g defendible, derivada de forma completamente independiente (reinversion x ROIIC ex-margen), es 4,88%. Coinciden con tres decimales. El precio de 263 EUR es EXACTAMENTE justo: el mercado paga por el crecimiento que yo puedo defender, ni mas ni menos. No hay margen de seguridad; hay un precio correcto."
+  },
+
+  "g_defendible": {
+    "formula": "g = tasa de reinversion x ROIIC EX-MARGEN. Se usa el ex-margen (12,2%) y no el bruto porque usar el bruto asumiria que la expansion de margen se repite; en DBG ambos coinciden porque el margen NOPAT lleva siete anios plano en ~37%, asi que no hubo expansion que descontar.",
+    "tasa_de_reinversion_elegida_pct": 40,
+    "justificacion_de_la_tasa": "La ventana 2021-2025 tuvo una tasa de reinversion sobre NOPAT del 92% (8.460 M EUR de capital desplegado sobre ~1.834 M EUR de NOPAT medio anual). Aplicar ese 92% daria g = 11,2%, lo que exigiria repetir indefinidamente la juerga de M&A (ISS, Clearstream Fund Centre, SimCorp) OBTENIENDO LOS MISMOS 12,2% de ROIIC. En el extremo opuesto, 2025 fue un anio de digestion con reinversion real de apenas ~110 M EUR (5% del NOPAT), que daria g = 0,6%. Ninguno de los dos es la tasa normalizada. Se adopta el 40%: compatible con (a) el payout de dividendo declarado de 30-40%, (b) la capacidad de balance real -deuda neta/EBITDA de 1,22 contra un techo de 2,25, es decir ~3.600 M EUR de polvora seca-, y (c) la politica declarada de que las recompras son un componente REGULAR de la asignacion de capital, lo que significa que una parte del capital retenido se devuelve y NO se reinvierte.",
+    "g_central_pct": 4.9,
+    "calculo": "0,40 x 12,2% = 4,88% -> 4,9%",
+    "cross_check_con_la_propia_empresa": "La guia FY2026 de la empresa implica ~+10% de ingreso neto sin tesoreria sobre 2025, pero incluye adquisiciones y el efecto de un semestre excepcional. La ambicion secular declarada de la casa esta en el rango 5-7%. Mi 4,9% queda por DEBAJO del extremo bajo de su propia ambicion. Deliberado.",
+    "g_de_estres_pct": 2.7,
+    "calculo_estres": "0,40 x ROIIC ex-viento-de-cola-de-tipos 6,7% = 2,68%. Esta es la g que resulta si se acepta que casi la mitad de la mejora de beneficio de 2021-2025 vino del BCE y no del capital desplegado. Es el escenario que el eslabon mas debil del mecanismo obliga a considerar.",
+    "g_alta_no_adoptada_pct": 11.2,
+    "por_que_no_se_adopta_la_alta": "Requiere que DBG siga comprando empresas al mismo ritmo y con los mismos retornos. La evidencia dice lo contrario: 12,2% de ROIIC bruto sobre 8.460 M EUR es un retorno que apenas dobla el coste de la deuda y esta a un palmo del coste de capital. Comprar mas de un buen negocio a un mal precio no es crecimiento defendible."
+  },
+
+  "valoracion": {
+    "advertencia_de_metodo": "Se reportan DOS lentes que discrepan en un 75%. Esa discrepancia ES el resultado, no un fallo del calculo.",
+
+    "lente_1_dcf": {
+      "parametros": "g 4,9% diez anios, terminal 3%, descontado al COSTE DE LOS FONDOS PROPIOS (6,82%) y no al WACC, porque el flujo es de equity y el objetivo es equity. Descontar al WACC (6,3%) inflaria el valor otro ~15%.",
+      "valor_por_accion_auditado_eur": 376,
+      "valor_por_accion_auditado_usd": 428,
+      "valor_por_accion_en_curso_eur": 419,
+      "valor_por_accion_en_curso_usd": 477,
+      "piso_de_resolucion": "Sin medicion propia del ruido se aplica +-25%. Auditado: 282-470 EUR (321-535 USD). En curso: 314-523 EUR (358-596 USD). No se reportan decimales en el valor intrinseco: no existen.",
+      "sensibilidades": {
+        "r_6_32_wacc_g_4_9_auditado_eur": 434,
+        "r_6_32_wacc_g_4_9_en_curso_eur": 483,
+        "r_6_82_ke_g_2_7_auditado_eur": 322,
+        "r_7_28_alto_g_4_9_auditado_eur": 335,
+        "r_7_28_alto_g_2_7_auditado_eur": 280,
+        "r_7_28_alto_g_2_7_en_curso_eur": 312,
+        "estres_tesoreria_menos_300_neto_g_4_9_auditado_eur": 323,
+        "estres_tesoreria_menos_300_neto_g_4_9_en_curso_eur": 366
+      },
+      "rango_total_del_valor_intrinseco_eur": "280 - 483",
+      "lectura": "El valor intrinseco por DCF cubre un rango de 280 a 483 EUR. El precio de 263 EUR queda por debajo de TODO el rango, pero el extremo bajo (280) esta a solo un 6% del precio. Un rango que abarca 1,7x no permite afirmar 'hay un 40% de margen'."
+    },
+
+    "lente_2_multiplo": {
+      "m_estrella": 18.0,
+      "definicion": "m* es el multiplo de owner earnings de mantenimiento al que considero que el NEGOCIO VALE, decidido en frio y sin barra de error porque no es una estimacion sino un compromiso.",
+      "como_se_decidio": "Formula de valor con reinversion explicita: V = OE x (1 - g/ROIIC) / (r - g). Con g 4,9%, ROIIC 12,2% y r 8,0% -> 19,7x. Con g 4,5%, ROIIC 12,2% y r 8,5% -> 15,8x. Con ROIIC ex-tipos 6,7%, g 3,0% y r 7,5% -> 12,3x. El rango defendible es 12-20x. Se compromete 18,0x, en la parte alta, en reconocimiento de que el mecanismo (silo vertical no multi-homeable) es real y esta funcionando.",
+      "valor_justo_auditado_eur": 214,
+      "valor_justo_auditado_usd": 244,
+      "valor_justo_en_curso_eur": 239,
+      "valor_justo_en_curso_usd": 272,
+      "precio_sobre_valor_justo_auditado_pct": 22.6,
+      "precio_sobre_valor_justo_en_curso_pct": 10.1,
+      "lectura": "Por esta lente Deutsche Boerse cotiza entre un 10% y un 23% POR ENCIMA de su valor justo. Ni MoS, ni compra: sobreprecio moderado."
+    },
+
+    "reconciliacion_de_las_dos_lentes": "La diferencia entre 419 EUR (DCF) y 239 EUR (multiplo) es del 75% y viene de un solo input: la tasa de descuento. El DCF usa el 6,82% que sale del CAPM con el candado B; el multiplo usa el 8,0-8,5% que un propietario exige de verdad. Con r-g terminal de 3,8 pp el DCF es hipersensible: cada 50 pb de tasa mueve el valor un 15%. La lente del multiplo es la ROBUSTA aqui; la del DCF es la fragil. Cuando dos lentes honestas discrepan en 75%, el piso de resolucion obliga a decir que el margen de seguridad NO ES MEDIBLE con la precision que exige una puerta del 40%."
+  },
+
+  "margen_de_seguridad": {
+    "mos_exigido_pct": 40,
+    "mos_base_auditada_punto_pct": 30.0,
+    "mos_base_auditada_banda_pct": "6,7% a 44,0%",
+    "mos_base_en_curso_punto_pct": 37.2,
+    "mos_base_en_curso_banda_pct": "16,2% a 49,7%",
+    "mos_mecanico_al_wacc_6_32_pct": {
+      "auditado": 39.3,
+      "en_curso": 45.5,
+      "aviso": "ESTE ES EL NUMERO QUE NO HAY QUE CREERSE. Es el que sale de descontar flujos de equity al WACC en lugar de al coste de los fondos propios, con un WACC CAPM que esta 200 pb por debajo de lo que exige un propietario. Es la puerta por la que la contradiccion madre intentaria colarse."
+    },
+    "mos_por_la_lente_del_multiplo_pct": {
+      "auditado": -22.6,
+      "en_curso": -10.1,
+      "aviso": "NEGATIVO. Por multiplo de owner earnings la accion esta cara, no barata."
+    },
+    "mos_bajo_estres_de_tesoreria_pct": {
+      "auditado": 18.7,
+      "en_curso": 28.2,
+      "supuesto": "Se retiran 300 M EUR netos de impuestos de owner earnings (equivalente a ~400 M EUR brutos de treasury result, es decir volver a un BCE en el 1,5%)."
+    },
+    "veredicto_sobre_la_puerta": "NO PASA. Ninguna de las dos lentes, en su punto central y con el piso de resolucion aplicado, entrega el 40% exigido a una MENOS_5_6 fuera de cartera. La lente robusta (multiplo) entrega MoS negativo. La lente fragil (DCF) entrega 30-37% en el punto y solo supera el 40% en la esquina mas generosa del espacio de inputs."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 18.0,
+    "unidad": "veces owner earnings de mantenimiento atribuibles",
+    "p_estrella_eur": 143,
+    "p_estrella_usd": 163,
+    "derivacion_p_estrella": "P* = m* x OE por accion en curso x (1 - MoS exigido) = 18,0 x 13,27 EUR x 0,60 = 143,3 EUR = 163,2 USD. Equivale a comprar a 10,8x owner earnings.",
+    "p_estrella_sobre_base_auditada_eur": 129,
+    "p_estrella_sobre_base_auditada_usd": 147,
+    "p_estrella_alternativo_desde_dcf_eur": 251,
+    "p_estrella_alternativo_desde_dcf_usd": 286,
+    "nota": "Se reportan los dos. El P* del multiplo (143 EUR) es un precio que DB1 no ve desde 2020-2021; el P* del DCF (251 EUR) esta un 4,6% por debajo del precio de hoy. La distancia entre ambos -75%- es la medida honesta de la incertidumbre de esta valoracion. Para actuar hay que quedarse con el bajo.",
+    "distancia_del_precio_de_hoy_a_p_estrella_pct": -45.5
+  },
+
+  "tir_esperada": {
+    "definicion": "Tasa de descuento que iguala el precio de hoy (263,00 EUR) con el flujo de owner earnings creciendo a la g asumida durante diez anios y al 3% a perpetuidad. No es circular: la g viene de la reinversion x ROIIC, no del precio.",
+    "rango_central": "+7,5% a +9,0% anual durante 10 anios",
+    "detalle": {
+      "base_auditada_mantenimiento_g_2_7": 7.55,
+      "base_auditada_mantenimiento_g_4_9": 8.41,
+      "base_auditada_mantenimiento_g_7_0": 9.31,
+      "base_auditada_capex_total_g_4_9": 8.26,
+      "base_en_curso_mantenimiento_g_2_7": 8.07,
+      "base_en_curso_mantenimiento_g_4_9": 9.01,
+      "base_en_curso_mantenimiento_g_7_0": 9.98,
+      "base_en_curso_capex_total_g_4_9": 8.73
+    },
+    "bajo_estres_de_tesoreria": {
+      "auditada_g_2_7": 6.92,
+      "auditada_g_4_9": 7.67,
+      "en_curso_g_2_7": 7.44,
+      "en_curso_g_4_9": 8.27
+    },
+    "lectura": "Comprar Deutsche Boerse hoy a 263 EUR es firmar un 7,5-9,0% anual durante diez anios, y 6,9-8,3% si el BCE vuelve a bajar tipos de verdad. Eso NO es un desastre -es un retorno decente para un activo de infraestructura de riesgo bajo- pero tampoco es lo que un 40% de margen de seguridad deberia entregar, que seria del orden del 13-15% anual. La TIR esperada y el MoS mecanico cuentan historias incompatibles; la TIR es la que dice la verdad."
+  },
+
+  "detector_de_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "Una trampa de valor exige que el motor se este rompiendo. Aqui el motor esta demostrablemente intacto y ademas acelerando: H1 2026 con ingreso neto sin tesoreria +11%, EBITDA sin tesoreria +16%, custodia +13%, liquidacion +23%, activos bajo custodia en maximo historico de 17,3 billones EUR (+8%), colateral gestionado superando el billon de euros por primera vez en junio 2026, y SaaS de SimCorp con crecimiento de doble digito alto. El neteo de colateral y el open interest siguen sin ser multi-homeables. La cotizacion esta a un 2,4% de su maximo de 52 semanas: el mercado no esta descontando deterioro.",
+    "riesgo_real_identificado": "NO es trampa de valor: es riesgo de SOBREPRECIO Y DE ARTEFACTO DE MODELO. El peligro de este expediente es exactamente el inverso al de una trampa de valor - un MoS mecanico del 39-46% generado por un WACC CAPM de 6,3% sobre un negocio que cotiza a 20 veces owner earnings y a un 2% de maximos. Comprar por ese MoS seria comprar caro creyendo que se compra barato.",
+    "dos_banderas_que_si_hay_que_vigilar": [
+      "REPETICION DEL PATRON DE ASIGNACION DE CAPITAL: en H1 2026 DBG pago 1.152 M EUR por los minoritarios restantes de ISS STOXX. Es el mismo comportamiento de la ventana 2021-2025 que produjo 12,2% de ROIIC bruto y 6,7% ex-tipos. No se puede juzgar todavia si el precio fue bueno -DBG no publica el retorno de esa compra por separado- pero es la misma mano que ya ha desplegado 8.460 M EUR con retornos mediocres.",
+      "DEPENDENCIA DEL TREASURY RESULT: 837 M EUR en 2025 (13,9% del ingreso neto y 23,8% del EBITDA) y guia de mas de 700 M EUR en 2026. Es una apuesta pura sobre los tipos del BCE sobre el efectivo de los clientes, que no consume capital y que por tanto DISFRAZA el ROIIC del negocio real. En junio 2026 el BCE SUBIO tipos y el treasury result repunto por primera vez, lo que ahora mismo es un tailwind - pero es un tailwind prestado."
+    ]
+  },
+
+  "sintesis_del_valorador": {
+    "veredicto_de_precio": "NO PASA LA PUERTA DEL 40%. Ni compra ni acumulacion. VIGILAR con precio objetivo de entrada muy por debajo del actual.",
+    "una_frase": "El DCF inverso a un 9% de tasa exigida dice que el mercado esta pagando por una g del 4,9%, y mi g defendible calculada de forma independiente es 4,88%: Deutsche Boerse no esta barata ni cara, esta EXACTAMENTE en su precio, y un negocio exactamente en su precio no se compra cuando la etiqueta de calidad es MENOS_5_6 y el umbral es del 40%.",
+    "lo_que_casi_me_engana": "El WACC del candado B (6,3%) produce mecanicamente un MoS del 39-46% y una g implicita NEGATIVA. Si lo hubiera reportado sin auditarlo, DB1 habria aparecido como la ganga del lote. La g implicita negativa fue el chivatazo: ningun mercado pide que decrezca un negocio cuyo EBITDA acaba de crecer el 16%. El error no estaba en el precio sino en la tasa. Con r-g terminal de solo 3,3 pp, el modelo dejaba de ser una valoracion y pasaba a ser una palanca sobre un input.",
+    "que_haria_falta_para_que_pasara": "Precio de 143 EUR (163 USD) por la lente del multiplo, o 251 EUR (286 USD) por la del DCF. Se toma el bajo: 143 EUR, un 45,5% por debajo de hoy. Alternativamente, que la reinversion vuelva a acelerar CON evidencia de ROIIC por encima del 15% -no del 12,2%- en las compras nuevas, lo que subiria la g defendible por encima del 6% y con ella el m*.",
+    "que_seguir": "El primer dato que cambiaria el veredicto es el retorno realizado sobre los 1.152 M EUR de ISS STOXX y sobre SimCorp. El segundo es el treasury result de 2027: si aguanta por encima de 700 M EUR con el BCE subiendo, el suelo de owner earnings es mas alto de lo que asumo."
+  },
+
+  "huecos_declarados": [
+    "DEUDA NETA A 30-JUN-2026: Deutsche Boerse no publica cifra de deuda neta en el informe semestral. Se reconstruye por dos vias que convergen en 5.130-5.208 M EUR y se adopta 5.200 con banda 5.000-5.500. Impacto en la valoracion de equity: nulo (el DCF es de equity); impacto en el WACC: menos de 5 pb.",
+    "TASA LIBRE DE RIESGO: 3,13% del Bund a 10 anios viene de TradingEconomics (agregador), no del cierre oficial de curva del Bundesbank, que no pude descargar. INFERENCIA. Banda usada 3,05-3,25%.",
+    "BETA: no hay regresion propia. La beta bottom-up (0,654) se sube a mano a 0,85 por juicio explicito. Es un JUICIO, no una medicion, y esta declarado como tal. Con la beta bottom-up pura el WACC bajaria a 5,7% y el MoS mecanico subiria por encima del 50% - motivo adicional para no fiarse del MoS mecanico.",
+    "AMORTIZACION DE PPA: los 185 M EUR se derivan de la diferencia entre EPS y Cash EPS, no de una linea publicada. INFERENCIA. Afecta a la frontera entre capex de mantenimiento y discrecional, que en este caso mueve los owner earnings solo un 3%.",
+    "REPARTO GEOGRAFICO DEL RIESGO DE ACTIVO: estimacion propia. DBG no publica desglose de beneficio operativo por geografia. Impacto en el WACC: menos de 10 pb.",
+    "ANUALIZACION 2026: el CFO de FY2026 se estima en 2.900 M EUR con banda 2.845-3.078. La estacionalidad del capital circulante de DBG es fuerte y el H1 no es la mitad del anio. Se ha elegido el punto conservador de la banda.",
+    "ROIIC DE LAS COMPRAS RECIENTES: no hay forma de auditar por separado el retorno de SimCorp (3.900 M EUR, 2023) ni de la compra de minoritarios de ISS STOXX (1.152 M EUR, 2026). Los 12,2% y 6,7% del mecanismo congelado se aceptan como dados y no se han re-derivado en este expediente - no es mi trabajo, la calidad esta congelada.",
+    "PRECIO: 263,00 EUR es la ultima operacion de una sesion EN CURSO (2026-07-28), no un cierre. El cierre anterior fue 263,40 EUR. La diferencia es del 0,15% y no cambia ningun veredicto."
+  ],
+
+  "fuentes": [
+    {"documento": "Deutsche Boerse Group Annual Report 2025 / Konzern-Jahresfinanzbericht (auditado)", "url": "https://www.deutsche-boerse.com/resource/blob/4932348/b9015a1a2b7add33a8a0d01527dc9da8/data/annual-report-2025_tug_konzern-jahresfinanzbericht_en.pdf", "uso": "Cuenta de resultados, balance, estado de flujos de efectivo, Nota 08 Financial Result, deuda neta relevante para rating, capital social y autocartera, parametros de gestion de capital", "etiqueta": "HECHO"},
+    {"documento": "Deutsche Boerse Group Half-yearly financial report 2026 (22-jul-2026)", "url": "https://www.deutsche-boerse.com/resource/blob/5302530/683d446f9d49b88f194990b24a79aee8/data/gdb-quarterly-statement-q2-2026_en.pdf", "uso": "H1 2026 completo, Nota 11 acciones en circulacion, guia FY2026 elevada, compra de minoritarios de ISS STOXX, subida de tipos del BCE de junio 2026, detalle de custodia y liquidacion", "etiqueta": "HECHO"},
+    {"documento": "Deutsche Boerse preliminary results 2025 / company release Q4 2025 (11-feb-2026)", "url": "https://www.deutsche-boerse.com/resource/blob/4887536/a68752b1b7c85f9cf530531c0c221dc4/data/company-release-q4-2025-en.pdf", "uso": "Desglose por segmentos y por unidad de negocio de FY2025", "etiqueta": "HECHO"},
+    {"documento": "Aswath Damodaran, ctryprem.xlsx, hoja 'ERPs by country', actualizacion 1-ene-2026 (ratings 16-feb-2026)", "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/ctryprem.xlsx", "uso": "Prima de mercado maduro 4,23%; Alemania Aaa CRP 0,00%; EEUU Aa1 CRP 0,2334%; Reino Unido Aa3 CRP 0,776%", "etiqueta": "HECHO (fichero descargado)"},
+    {"documento": "Aswath Damodaran, betas.xls y betaEurope.xls, actualizacion 5-ene-2026", "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/betas.xls", "uso": "Betas desapalancadas corregidas por caja por industria para la construccion bottom-up", "etiqueta": "HECHO (fichero descargado)"},
+    {"documento": "BCE, tipos de referencia diarios eurofxref-daily.xml", "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml", "uso": "EUR/USD 1,1389 al 27-jul-2026", "etiqueta": "HECHO"},
+    {"documento": "IBKR market data snapshot, contrato 11490214 (DB1, IBIS)", "uso": "Precio 263,00 EUR, cierre anterior 263,40 EUR, rango 52 semanas 200,10-269,60, rendimiento por dividendo 1,59%, al 2026-07-28", "etiqueta": "HECHO (dato vivo)"},
+    {"documento": "TradingEconomics, Germany Government Bond 10Y", "url": "https://tradingeconomics.com/germany/government-bond-yield", "uso": "Bund 10 anios 3,13% al 27-jul-2026", "etiqueta": "INFERENCIA (agregador)"},
+    {"documento": "Yahoo Finance, DB1.DE y DB1.F key statistics", "uso": "Beta 5 anios mensual 0,28-0,30, julio 2026. DESCARTADA para el calculo, reportada por transparencia", "etiqueta": "INFERENCIA (agregador)"}
+  ]
+}

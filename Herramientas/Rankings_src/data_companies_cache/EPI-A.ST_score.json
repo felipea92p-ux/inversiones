@@ -1,0 +1,59 @@
+{
+ "ticker": "EPI-A.ST",
+ "name": "Epiroc AB (Class A)",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Capital-light industrial with ~20% operating margins and growing aftermarket/service mix, but margins do not structurally scale with volume like software/networks — no 2.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Mining equipment/automation rides secular tailwinds (electrification, copper/battery-metal demand, automation) with mining demand expected to stay high per Q1 2026 outlook."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Global #1/#2 in mining and rock-excavation equipment alongside Sandvik, durable share but a true duopoly peer prevents 2.0."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Wide moat from installed base, high switching costs in mission-critical underground equipment, ~65-70% recurring aftermarket revenue and automation IP — durable but replicable over decades vs Sandvik, no 2.0."
+  },
+  "R5": {
+   "score": 1,
+   "just": "FY2025 +2% organic and Q1 2026 orders +23% organic show genuine organic engine, though reported revenue -8% on FX and bolt-on M&A is a recurring growth lever."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Highly diversified across geographies and a fragmented mining/construction customer base with no single client >10-15% and broad commodity exposure."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROCE 18.9% (FY2025) well above WACC, ND/EBITDA 0.71, FCF margin ~14%; strong returns on a moderately capital-intensive base, FCF/NI healthy."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Pristine balance sheet: net debt ~$1.1bn, ND/EBITDA 0.71x, comfortably below 2x though not net cash."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "Clean IFRS reporting, no adjusted-EPS games, SBC immaterial at ~0.4% of FCF (well under 15% hard threshold); high accounting quality."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Disciplined Investor-sphere governance, consistent ROCE focus, dividends plus opportunistic bolt-ons rather than empire-building, strong capital allocation track record."
+  }
+ },
+ "amplification": false,
+ "amplification_note": "R3 and R4 are strong (durable #1/#2 with installed-base switching costs), but R1 is only base-level (no software-like operating leverage) and the position is a duopoly with Sandvik rather than monstrous solo dominance, so the three rules do not reinforce into a monstrous, irreplicable advantage.",
+ "moat_type": "switching_costs",
+ "moat_one_line": "Mission-critical underground mining equipment with a large locked-in installed base driving ~65-70% high-margin aftermarket/service revenue and growing automation/electrification IP, creating high switching costs.",
+ "thesis_3lines": [
+  "Calidad: lider global #1/#2 en equipos de mineria con foso de costes de cambio, ROCE 18.9%, margenes ~20% y balance impecable (ND/EBITDA 0.71x) con contabilidad IFRS limpia y SBC inmaterial.",
+  "Motor de crecimiento: vientos seculares de electrificacion/automatizacion y demanda de metales con pedidos Q1 2026 +23% organico (la caida -8% reportada es solo FX, no demanda) y aftermarket recurrente ~65-70%.",
+  "Valoracion/retorno: fwd P/E ~32x (PEG 2.37) y ~+25% sobre su media historica con la accion a ~-2.6% de maximos — calidad cara, sin margen de seguridad a precio actual."
+ ],
+ "bear_case_strongest": "El negocio sigue siendo ciclico y dependiente de los precios de las materias primas/capex minero, y a fwd P/E ~32x con PEG 2.37 y la accion en maximos historicos se paga precio de perfeccion por una empresa cuyos ingresos reportados ya caen -8%, dejando nula proteccion si el ciclo minero se revierte.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Total re-score = 14.0/13.5 raw before cap; capped at 13.5 ceiling. Sum of R1-R10: 1.0+1.5+1.5+1.5+1.0+1.5+1.5+1.5+1.5+1.5 = 14.0. Verified data confirms FASE 1 preliminary (12.5) understated quality slightly; balance sheet, accounting (SBC 0.4% FCF), and diversification all merit 1.5. No 2.0 awarded: R1 lacks software-like scaling, R3/R4 are duopoly-strong not monstrously irreplicable. Key caveat: not_depressed — trades at premium (fwd P/E ~32, PEG 2.37) near ATH with reported revenue -8% (FX-driven; organic orders +23%). Cyclical commodity exposure is the central risk. SBC immaterial -> R9 full marks, no hard-rule penalty. fwd_pe_5y_avg and FCF figures are estimated/aggregator-sourced (MIXED data quality)."
+}

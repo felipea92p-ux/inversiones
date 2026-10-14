@@ -1,0 +1,198 @@
+{
+  "radar_11_reglas": {
+    "titulo": "Radar de calidad: 11 reglas QG-Seilern",
+    "eje": "CALIDAD",
+    "max_por_regla": 13.5,
+    "labels": ["R1 Modelo/escala", "R2 Sector secular", "R3 Liderazgo", "R4 Moat", "R5 Crecimiento", "R6 Geografia", "R7 Retornos/ROIC", "R8 Balance", "R9 Calidad earnings", "R10 Gestion", "R11 Etica/impacto"],
+    "valores": [13, 8, 13, 12, 8, 5, 8, 9, 6, 7, 7],
+    "minimos_destacados": ["R6", "R9"],
+    "maximos_destacados": ["R1", "R3"],
+    "raw": 96,
+    "score100": 76.8,
+    "score100_adversarial": 74.4,
+    "tier": "Alta conviccion"
+  },
+  "dcf_3_escenarios": {
+    "titulo": "DCF 3 escenarios: valor por accion vs precio",
+    "eje": "VALORACION",
+    "precio_actual": 275.35,
+    "escenarios": [
+      {"nombre": "Conservador", "valor_accion": 394, "prob_pct": 30, "supuesto": "g 4%->2%, IA comoditiza parcial"},
+      {"nombre": "Base", "valor_accion": 522, "prob_pct": 50, "supuesto": "g 9%->4%, peaje aguanta precio+mix"},
+      {"nombre": "Optimista", "valor_accion": 638, "prob_pct": 20, "supuesto": "g 13%->5%, GenOS monetiza IA"}
+    ],
+    "esperado_ponderado": 517.6,
+    "wacc_base": 9.5,
+    "terminal_g_pct": 3
+  },
+  "mapa_zonas": {
+    "titulo": "Mapa de zonas de valoracion",
+    "eje": "VALORACION",
+    "precio_actual": 275.35,
+    "epv_suelo": 188,
+    "pwfv_rango": [390, 460],
+    "pwfv_central": 450,
+    "pwfv_optimista": 499,
+    "pt_consenso": 486.61,
+    "umbrales": {
+      "razonable_hasta_desc_pct": 10,
+      "oportunidad_desc_pct": 15,
+      "ganga_desc_pct": 25,
+      "ganga_fuerte_desc_pct": 40
+    },
+    "umbrales_precio_sobre_pwfv_central_450": {
+      "razonable": 405,
+      "oportunidad": 382,
+      "ganga": 337,
+      "ganga_fuerte": 270
+    },
+    "zona_actual": "GANGA",
+    "mos_actual_pct": 39,
+    "mos_exigido_pct": 25
+  },
+  "ingresos_fcf_historico": {
+    "titulo": "Ingresos y FCF FY21-25 + TTM",
+    "eje": "FUNDAMENTALES",
+    "unidad": "USD miles de millones",
+    "periodos": ["FY21", "FY22", "FY23", "FY24", "FY25", "TTM"],
+    "revenue": [9.633, 12.726, 14.368, 16.285, 18.831, 20.905],
+    "fcf": [3.178, 3.732, 4.836, 4.693, 6.123, 7.755],
+    "revenue_growth_pct": [25, 32, 13, 13, 16, 15],
+    "fcf_margin_pct": [33, 29, 34, 29, 33, 37],
+    "fcf_cagr_fy21_25_pct": 17.8
+  },
+  "segmentos_mix": {
+    "titulo": "Mix por linea de negocio (economica) y crecimiento Q3 FY26",
+    "eje": "FUNDAMENTALES",
+    "nota": "Desde 1-ago-2025 Intuit reporta 2 segmentos (GBS + Consumer); se desagregan los 4 negocios economicos historicos",
+    "lineas": [
+      {"nombre": "Small Business (QuickBooks+Mailchimp)", "peso_rev_pct": 58, "growth_pct": 15, "growth_metric": "GBS +15%; QBO Online Ecosystem +22% ex-Mailchimp"},
+      {"nombre": "Consumer (TurboTax)", "peso_rev_pct": 28, "growth_pct": 7, "growth_metric": "TurboTax recortada FY26; valor migra a Live"},
+      {"nombre": "Credit Karma", "peso_rev_pct": 11, "growth_pct": 32, "growth_metric": "Credit Karma +32%; ahora diluido en Consumer"},
+      {"nombre": "ProTax", "peso_rev_pct": 3, "growth_pct": 5, "growth_metric": "estable, alto margen"}
+    ]
+  },
+  "colapso_precio_multiplo": {
+    "titulo": "Colapso de precio y de-rating de multiplo",
+    "eje": "VALORACION",
+    "precio_max": 813.70,
+    "precio_actual": 275.35,
+    "caida_pct": -66,
+    "pe_historico": 57,
+    "pe_actual": 16.84,
+    "pe_forward": 10.28,
+    "ev_ebitda_historico": 39,
+    "ev_ebitda_actual": 11.77,
+    "diagnostico": "Compresion de MULTIPLO, no de fundamentales (rev +15%, op margin 20%->27%, FCF 7.76B)"
+  },
+  "decel_rule40": {
+    "titulo": "Desaceleracion de ingresos vs Rule of 40",
+    "eje": "FUNDAMENTALES",
+    "periodos": ["FY21", "FY22", "FY23", "FY24", "FY25", "Q3 FY26"],
+    "revenue_growth_pct": [25, 32, 13, 13, 16, 10.4],
+    "fcf_margin_pct": [33, 29, 34, 29, 33, 37],
+    "rule_of_40": [58, 61, 47, 42, 49, 52],
+    "umbral_rule40": 40,
+    "nota": "Rule of 40 = revenue growth + FCF margin; ~52 TTM, por encima del umbral 40"
+  },
+  "sensibilidad_wacc_terminal": {
+    "titulo": "Sensibilidad: crecimiento implicito y valor vs WACC",
+    "eje": "VALORACION",
+    "terminal_g_pct": 3,
+    "precio_actual": 275.35,
+    "filas_wacc": [
+      {"wacc_pct": 8.0, "growth_implicito_pct": -2.5, "pwfv_aprox": 560},
+      {"wacc_pct": 8.5, "growth_implicito_pct": -1.5, "pwfv_aprox": 499},
+      {"wacc_pct": 9.0, "growth_implicito_pct": -0.5, "pwfv_aprox": 470},
+      {"wacc_pct": 9.5, "growth_implicito_pct": 0.5, "pwfv_aprox": 450},
+      {"wacc_pct": 10.0, "growth_implicito_pct": 1.5, "pwfv_aprox": 410},
+      {"wacc_pct": 10.5, "growth_implicito_pct": 2.5, "pwfv_aprox": 380}
+    ],
+    "wacc_fair": 9.5,
+    "banda_defendible": [8.5, 9.5],
+    "nota": "El titular '-1.5% de declive' solo es cierto al WACC piso 8.5%; a 9.5% fair el implicito es +0.5% plano"
+  },
+  "cinco_fuerzas": {
+    "titulo": "Cinco fuerzas de Porter (1=favorable, 5=adverso)",
+    "eje": "CALIDAD",
+    "valores": {
+      "nuevos_entrantes": 2,
+      "poder_proveedores": 2,
+      "poder_clientes": 2,
+      "sustitutos": 4.5,
+      "rivalidad": 2
+    },
+    "total_sobre_25": 12.5,
+    "interpretacion": "Industria atractiva, un solo vertice estirado (sustitutos: IA/Direct File) que ataca el 30-40% del value pool (TurboTax DIY), no el 60-70% del sistema de registro"
+  },
+  "tam_sam_som": {
+    "titulo": "Embudo TAM / SAM / SOM defendible",
+    "eje": "FUNDAMENTALES",
+    "unidad": "USD miles de millones",
+    "titular_intuit": 327,
+    "tam": 40,
+    "sam": 105,
+    "som": 35,
+    "som_rango": [30, 40],
+    "nota": "TAM software puro ~40B; SAM ~90-120B; SOM realista ~30-40B vs titular Intuit 327B (~6% penetracion). Solo la cola optimista toma del pool done-for-you (~688B)"
+  },
+  "management_radar": {
+    "titulo": "Radar de gestion (6 dimensiones, /5)",
+    "eje": "CALIDAD",
+    "labels": ["Ejecucion operativa", "Asignacion capital", "Alineacion/skin-in-game", "Gobernanza", "Transparencia", "Vision estrategica"],
+    "valores": [5, 3, 2.5, 3, 4, 4.5],
+    "nota": "Ejecucion elite (margen 20->27%, guiar-bajo-batir); asignacion de capital partida (recompras impecables vs Mailchimp ~12B destruido); gobernanza penalizada por CEO+Chair combinados nov-2025; skin-in-game bajo con ventas netas"
+  },
+  "retorno_accionista": {
+    "titulo": "Retorno al accionista: recompras + dividendos vs SBC FY21-25 + TTM",
+    "eje": "FUNDAMENTALES",
+    "unidad": "USD miles de millones",
+    "periodos": ["FY21", "FY22", "FY23", "FY24", "FY25", "TTM"],
+    "recompras": [1.388, 2.472, 2.600, 2.990, 3.754, 5.032],
+    "dividendos": [0.646, 0.774, 0.889, 1.034, 1.189, 1.316],
+    "sbc_referencia": [0.753, 1.308, 1.712, 1.940, 1.968, 2.039],
+    "nota": "Recompras 5.03B > SBC 2.04B (2.5x): dilucion neta NEGATIVA, share count baja. Capital devuelto TTM ~6.3B (~80% del FCF)"
+  },
+  "riesgos_heatmap": {
+    "titulo": "Heatmap de riesgos (probabilidad x impacto)",
+    "eje": "RIESGO",
+    "escala": "1-5",
+    "riesgos": [
+      {"riesgo": "Agentes IA comoditizan libro mayor QuickBooks (PYMEs nuevas)", "prob": 2, "impacto": 5, "perdida_permanente": true},
+      {"riesgo": "IRS Direct File / IA fiscal erosiona TurboTax DIY", "prob": 2, "impacto": 2, "perdida_permanente": false, "nota": "acotado tras muerte de Direct File nov-2025"},
+      {"riesgo": "Impairment material de goodwill (Mailchimp ~14B)", "prob": 3, "impacto": 2, "perdida_permanente": false},
+      {"riesgo": "Concentracion geografica ~95% US (single point regulatorio)", "prob": 2, "impacto": 3, "perdida_permanente": false},
+      {"riesgo": "Compresion de multiplo persistente (SaaSpocalypse)", "prob": 3, "impacto": 2, "perdida_permanente": false},
+      {"riesgo": "Hiperescalador captura funnel de contribuyente simple", "prob": 2, "impacto": 3, "perdida_permanente": false},
+      {"riesgo": "Gobernanza: CEO+Chair combinados / skin-in-game bajo", "prob": 3, "impacto": 1, "perdida_permanente": false}
+    ],
+    "cuadrante_rojo_oscuro_vacio": true
+  },
+  "proyeccion_5y": {
+    "titulo": "Proyeccion 5 anios: precio por escenario",
+    "eje": "VALORACION",
+    "precio_actual": 275.35,
+    "horizonte_anios": 5,
+    "escenarios": [
+      {"nombre": "Conservador", "prob_pct": 30, "valor_terminal": 394, "cagr_precio_pct": 7.4, "supuesto": "g 4%->2% owner earnings"},
+      {"nombre": "Base", "prob_pct": 50, "valor_terminal": 522, "cagr_precio_pct": 13.6, "supuesto": "g 9%->4% owner earnings"},
+      {"nombre": "Optimista", "prob_pct": 20, "valor_terminal": 638, "cagr_precio_pct": 18.3, "supuesto": "g 13%->5% owner earnings"}
+    ],
+    "catalizador_binario": "Guia FY27 ~agosto 2026 (cierre FY26 31-jul)"
+  },
+  "early_warning": {
+    "titulo": "Dashboard early-warning: KPIs SaaS con semaforo",
+    "eje": "RIESGO",
+    "kpis": [
+      {"kpi": "QBO Online Accounting (precio+clientes+mix)", "valor": "+22%", "umbral_alerta": "<8% clientes de pago", "estado": "verde"},
+      {"kpi": "Online Ecosystem ex-Mailchimp", "valor": "+22%", "umbral_alerta": "<15%", "estado": "verde"},
+      {"kpi": "Rule of 40", "valor": "~52", "umbral_alerta": "<40", "estado": "verde"},
+      {"kpi": "Margen operativo non-GAAP", "valor": "27% y subiendo", "umbral_alerta": "-300bps acumulados", "estado": "verde"},
+      {"kpi": "TurboTax units + mix", "valor": "recorte FY26, mix Live +53%", "umbral_alerta": "caida units + Live estancado", "estado": "ambar"},
+      {"kpi": "TurboTax Live (ASP alto)", "valor": "+2pts penetracion, +53% mix", "umbral_alerta": "estancamiento", "estado": "verde"},
+      {"kpi": "Credit Karma", "valor": "+32%", "umbral_alerta": "<0% dos trimestres", "estado": "verde"},
+      {"kpi": "Adopcion challengers IA (Digits/Puzzle/Zeni)", "valor": "sin metricas publicas", "umbral_alerta": ">X% PYMEs nuevas", "estado": "gris"}
+    ],
+    "estado_global": "5/5 verde en KPIs con dato; 1 ambar (TurboTax); 1 sensor faltante (challengers) -> justifica sizing probatorio 3-5%"
+  }
+}

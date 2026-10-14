@@ -1,0 +1,26 @@
+{
+  "fecha": "2026-07-02",
+  "nav": 132858.98,
+  "cash": 2702.31,
+  "gross_positions": 130156.67,
+  "positions": [
+    {"ticker": "MELI",  "qty": 18,  "price": 1762.60, "value": 31726.80, "avg_cost": 1659.57, "upl": 1854.54,  "weight_pct": 23.88},
+    {"ticker": "DUOL",  "qty": 150, "price": 122.24,  "value": 18336.00, "avg_cost": 132.15,  "upl": -1486.50, "weight_pct": 13.80},
+    {"ticker": "GOOGL", "qty": 33,  "price": 354.78,  "value": 11707.74, "avg_cost": 345.29,  "upl": 313.17,   "weight_pct": 8.81},
+    {"ticker": "BRK.B", "qty": 21,  "price": 506.04,  "value": 10626.84, "avg_cost": 494.81,  "upl": 235.83,   "weight_pct": 8.00},
+    {"ticker": "TSM",   "qty": 24,  "price": 432.49,  "value": 10379.88, "avg_cost": 440.83,  "upl": -200.04,  "weight_pct": 7.81},
+    {"ticker": "ADBE",  "qty": 36,  "price": 220.66,  "value": 7943.76,  "avg_cost": 196.57,  "upl": 867.24,   "weight_pct": 5.98},
+    {"ticker": "INTU",  "qty": 24,  "price": 275.48,  "value": 6611.52,  "avg_cost": 262.23,  "upl": 318.00,   "weight_pct": 4.98},
+    {"ticker": "AMZN",  "qty": 27,  "price": 244.53,  "value": 6602.31,  "avg_cost": 234.27,  "upl": 277.02,   "weight_pct": 4.97},
+    {"ticker": "V",     "qty": 15,  "price": 359.17,  "value": 5387.48,  "avg_cost": 332.23,  "upl": 404.03,   "weight_pct": 4.05},
+    {"ticker": "SPGI",  "qty": 12,  "price": 434.70,  "value": 5216.34,  "avg_cost": 402.35,  "upl": 388.14,   "weight_pct": 3.93},
+    {"ticker": "MA",    "qty": 9,   "price": 536.04,  "value": 4824.36,  "avg_cost": 494.41,  "upl": 374.67,   "weight_pct": 3.63},
+    {"ticker": "NFLX",  "qty": 51,  "price": 78.11,   "value": 3983.36,  "avg_cost": 71.84,   "upl": 319.52,   "weight_pct": 3.00},
+    {"ticker": "MSFT",  "qty": 6,   "price": 391.25,  "value": 2347.50,  "avg_cost": 365.46,  "upl": 154.74,   "weight_pct": 1.77},
+    {"ticker": "BKNG",  "qty": 12,  "price": 183.00,  "value": 2196.00,  "avg_cost": 181.25,  "upl": 21.00,    "weight_pct": 1.65},
+    {"ticker": "SPOT",  "qty": 3,   "price": 483.85,  "value": 1451.55,  "avg_cost": 455.01,  "upl": 86.52,    "weight_pct": 1.09},
+    {"ticker": "VEEV",  "qty": 3,   "price": 190.87,  "value": 572.61,   "avg_cost": 184.01,  "upl": 20.57,    "weight_pct": 0.43},
+    {"ticker": "MBGL",  "qty": 12,  "price": 20.24,   "value": 242.82,   "avg_cost": 22.05,   "upl": -21.78,   "weight_pct": 0.18}
+  ],
+  "notas": "MBGL = Mobility Global, spin-off de SPGI (1-jul-2026), residuo trivial. Cash 2.0% del NAV. 13 posiciones cubiertas por el run de las 39; DUOL/SPOT/BRK.B por el run de extras."
+}

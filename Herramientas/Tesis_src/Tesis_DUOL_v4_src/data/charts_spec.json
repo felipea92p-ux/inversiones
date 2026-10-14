@@ -1,0 +1,171 @@
+{
+  "radar_11_reglas": {
+    "titulo": "Radar 11 reglas QG-Seilern — DUOL 80.8/100 (Alta convicción)",
+    "ejes": [
+      {"regla": "R1", "nombre": "Modelo/plataforma", "score": 13, "max": 15},
+      {"regla": "R2", "nombre": "Crecimiento sectorial", "score": 8, "max": 10},
+      {"regla": "R3", "nombre": "Liderazgo/pricing power", "score": 11, "max": 15},
+      {"regla": "R4", "nombre": "Moat", "score": 10, "max": 15},
+      {"regla": "R5", "nombre": "Crecimiento propio", "score": 7, "max": 10},
+      {"regla": "R6", "nombre": "Diversificación/clientes", "score": 9, "max": 10},
+      {"regla": "R7", "nombre": "ROIC/retornos", "score": 10, "max": 10},
+      {"regla": "R8", "nombre": "Balance/solidez", "score": 10, "max": 10},
+      {"regla": "R9", "nombre": "Calidad de earnings", "score": 8, "max": 10},
+      {"regla": "R10", "nombre": "Gestión/gobernanza", "score": 7, "max": 10},
+      {"regla": "R11", "nombre": "Impacto/ESG", "score": 8, "max": 10}
+    ],
+    "raw_total": 101,
+    "max_total": 125,
+    "score100": 80.8
+  },
+  "dcf_3_escenarios": {
+    "titulo": "DCF owner earnings — valor por acción a 3 escenarios (OE0 233M, WACC 8.5%, g terminal 3%, 10 años)",
+    "precio_actual": 125.76,
+    "escenarios": [
+      {"nombre": "Conservador", "growth_pct": 6, "valor_accion": 136, "prob": 0.35},
+      {"nombre": "Base", "growth_pct": 10, "valor_accion": 175, "prob": 0.45},
+      {"nombre": "Optimista", "growth_pct": 14, "valor_accion": 228, "prob": 0.20}
+    ],
+    "valor_ponderado_dcf": 172,
+    "nota": "El DCF (172) es 50% del ancla PWFV; verificación adversarial sugiere Base honesto g~7-8% -> PWFV honesto ~135-145."
+  },
+  "mapa_zonas": {
+    "titulo": "Mapa de zonas de valoración — HOY en frontera OPORTUNIDAD/PRECIO JUSTO",
+    "precio_actual": 125.76,
+    "pwfv_valor": 153,
+    "pwfv_honesto": 140,
+    "epv_floor": 80,
+    "pt_consenso": 106.31,
+    "mos_actual_pct": 17.8,
+    "mos_requerido_pct": 25,
+    "precio_mos25_sobre_153": 115,
+    "precio_mos25_sobre_140": 105,
+    "umbrales": [
+      {"zona": "GANGA", "desde_pct_vs_pwfv": null, "hasta_precio": 80, "nota": "<= EPV 80 = suelo"},
+      {"zona": "OPORTUNIDAD", "descuento_pct": "15-25", "rango_precio": [115, 130], "nota": "borde inferior en 125.76"},
+      {"zona": "PRECIO JUSTO", "descuento_pct": "-15 a +15 vs PWFV", "rango_precio": [130, 176]},
+      {"zona": "CARO", "prima_pct": ">25 vs PWFV 153", "desde_precio": 191}
+    ]
+  },
+  "ingresos_fcf_historico": {
+    "titulo": "Ingresos y FCF FY21-FY25 (USD M) — ingresos +40%/año mientras la acción cayó -77%",
+    "anios": ["FY21", "FY22", "FY23", "FY24", "FY25"],
+    "revenue_m": [250.8, 369.5, 531.1, 748.0, 1038],
+    "revenue_growth_pct": [55, 47, 44, 41, 39],
+    "fcf_m": [5.6, 48.1, 150.4, 273.4, 369.7],
+    "fcf_margin_pct": [2.2, 13.0, 28.3, 36.6, 35.6],
+    "owner_earnings_fy25_m": 233
+  },
+  "dau_paid_historico": {
+    "titulo": "DAU y suscriptores pagos — engagement en máximos pese al colapso de precio",
+    "series_trimestrales": {
+      "etiquetas": ["Q1 FY26"],
+      "dau_m": [56.5],
+      "dau_growth_pct": [21],
+      "mau_m": [137.8],
+      "paid_subs_m": [12.5],
+      "paid_growth_pct": [21],
+      "penetracion_pagada_pct": [9.1]
+    },
+    "nota": "DUOL no divulga serie histórica granular de conversión/ARPU/churn; Q1 FY26 es el corte verificado (DAU +21%, paid +21%, penetración 9.1%)."
+  },
+  "colapso_precio_multiplo": {
+    "titulo": "Colapso de precio y compresión de múltiplo: de $544.93 (ATH) a $125.76 (-77%)",
+    "serie_precio": [
+      {"fecha": "2025-05-14", "precio": 544.93, "hito": "ATH"},
+      {"fecha": "2025-08", "precio": 490, "hito": "Q2'25 beat pero -10% (gatillo 1)"},
+      {"fecha": "2025-11-05", "precio": 300, "hito": "Q3'25 -25% (gatillo 2)"},
+      {"fecha": "2026-02-26", "precio": 165, "hito": "Q4/FY25 -24% (gatillo 3)"},
+      {"fecha": "2026-07-02", "precio": 125.76, "hito": "HOY"}
+    ],
+    "drawdown_desde_ath_pct": -77,
+    "drawdown_desde_max52s_pct": -73,
+    "multiplos_en_tiempo": [
+      {"momento": "Pico 2025", "ps": 30, "forward_pe": 130, "nota": "narrativa de hipercrecimiento"},
+      {"momento": "HOY (limpio)", "ps": 7.9, "forward_pe": 48, "ev_oe": 20, "pe_ttm_distorsionado": 14.4, "nota": "P/E TTM 14.4x es TRAMPA (beneficio fiscal); usar fwd P/E 48x / EV/OE 20x"}
+    ],
+    "lectura": "El colapso es de MÚLTIPLO (de-rating de narrativa), no de fundamentales: revenue e ingresos subieron mientras el precio cayó -77%."
+  },
+  "sensibilidad_wacc_terminal": {
+    "titulo": "Sensibilidad valor/acción: WACC × crecimiento owner earnings (OE0 233M, g terminal 3%, 10 años)",
+    "wacc_pct": [8.0, 8.5, 9.0],
+    "growth_oe_pct": [6, 8, 10],
+    "matriz_valor_accion": [
+      {"wacc": 8.0, "g6": 148, "g8": 168, "g10": 192},
+      {"wacc": 8.5, "g6": 136, "g8": 154, "g10": 175},
+      {"wacc": 9.0, "g6": 126, "g8": 142, "g10": 161}
+    ],
+    "celda_base": {"wacc": 8.5, "g": 10, "valor": 175},
+    "celda_honesta": {"wacc": 8.5, "g": 8, "valor": 154, "nota": "Base honesto post-verificación"},
+    "precio_actual": 125.76
+  },
+  "cinco_fuerzas": {
+    "titulo": "Cinco Fuerzas de Porter — DUOL (mayor = más presión competitiva); total 14/25",
+    "fuerzas": [
+      {"fuerza": "Amenaza de sustitutos (tutores IA gratis)", "valor": 5, "nota": "fuerza DOMINANTE: ChatGPT/Gemini"},
+      {"fuerza": "Rivalidad entre competidores", "valor": 2, "nota": "guerra de idiomas ya ganada (Babbel/Busuu/Rosetta)"},
+      {"fuerza": "Amenaza de nuevos entrantes", "valor": 2, "nota": "escala/marca/hábito difíciles de replicar"},
+      {"fuerza": "Poder de negociación de clientes", "valor": 3, "nota": "freemium, bajo costo de cambio pero hábito ancla"},
+      {"fuerza": "Poder de negociación de proveedores (app stores)", "valor": 2, "nota": "comisión 30% Apple/Google es el proveedor con poder"}
+    ],
+    "total": 14,
+    "max": 25
+  },
+  "tam_sam_som": {
+    "titulo": "Embudo TAM → SAM → SOM (USD)",
+    "capas": [
+      {"nivel": "TAM", "etiqueta": "Mercado online de idiomas 2030", "valor_usd_b": 54.8, "nota": "Grand View ~22.1B(24)->54.8B(30) CAGR 16.6%"},
+      {"nivel": "SAM", "etiqueta": "Idiomas por app (segmento accesible)", "valor_usd_b": 14.0, "nota": "TAM-app estimado"},
+      {"nivel": "SOM", "etiqueta": "Captura DUOL 2028 (techo de década)", "valor_usd_b": 3.4, "nota": "reconciliado ~3.2-3.6B; revenue DCF ~1.6B es más conservador"}
+    ]
+  },
+  "management_radar": {
+    "titulo": "Radar de gestión y gobernanza — 6 dimensiones (mayor = mejor); R10 neto 7/10",
+    "dimensiones": [
+      {"dim": "Skin in the game (fundadores desde 2011)", "valor": 5},
+      {"dim": "Track record ejecución (~8 trim beat)", "valor": 5},
+      {"dim": "Capital allocation (reinvertir a ROIC alto)", "valor": 4},
+      {"dim": "Gobernanza / derechos minoritario (dual-class 20:1 sin sunset)", "valor": 2},
+      {"dim": "Alineación accionaria (SBC 37% FCF sin recompra)", "valor": 3},
+      {"dim": "Comunicación/transparencia (torpeza AI-first, no divulga cohortes)", "valor": 3}
+    ]
+  },
+  "riesgos_heatmap": {
+    "titulo": "Mapa de calor de riesgos — probabilidad × impacto (1-5)",
+    "riesgos": [
+      {"id": "R-A", "riesgo": "Disrupción IA generativa del embudo free->paid", "prob": 3, "impacto": 5},
+      {"id": "R-B", "riesgo": "Desaceleración estructural de bookings a un dígito", "prob": 4, "impacto": 4},
+      {"id": "R-C", "riesgo": "Valoración: fwd P/E 48x se comprime más sin crecimiento", "prob": 4, "impacto": 4},
+      {"id": "R-D", "riesgo": "Techo de monetización premium (Max comoditizado)", "prob": 3, "impacto": 3},
+      {"id": "R-E", "riesgo": "Comisión app stores 30% (Apple/Google)", "prob": 2, "impacto": 2},
+      {"id": "R-F", "riesgo": "SBC/dilución 2-3%/año sin recompra compensatoria", "prob": 4, "impacto": 2},
+      {"id": "R-G", "riesgo": "Gobernanza dual-class 20:1 sin disciplina minoritaria", "prob": 2, "impacto": 3}
+    ]
+  },
+  "proyeccion_5y": {
+    "titulo": "Proyección del valor intrínseco por acción a 5 años (2026-2031) — 3 escenarios",
+    "precio_actual": 125.76,
+    "pwfv_honesto": 140,
+    "gatillo_tramo1": 105,
+    "suelo_condicional_epv": 80,
+    "escenarios": [
+      {"nombre": "Bajista", "prob": 0.30, "rango_2031": [70, 85], "central_2031": 78, "nota": "IA muerde free->paid, bookings <+3%, pivot fallida"},
+      {"nombre": "Base", "prob": 0.45, "rango_2031": [150, 175], "central_2031": 162, "nota": "crecimiento se reasienta en dígito alto, moat aguanta"},
+      {"nombre": "Alcista", "prob": 0.25, "rango_2031": [250, 290], "central_2031": 270, "nota": "pivot monetiza DAU futuro, verticales/DET componen"}
+    ]
+  },
+  "early_warning": {
+    "titulo": "Cuadro Early Warning — KPIs con semáforo (disparador maestro: bookings cc)",
+    "disparador_maestro": "bookings cc <+3% dos trimestres seguidos = falsable de tesis",
+    "kpis": [
+      {"kpi": "Bookings cc (crecimiento interanual)", "valor_actual": "+4.1% (Q2 FY26)", "umbral_verde": ">+8%", "umbral_ambar": "+3% a +8%", "umbral_rojo": "<+3%", "estado": "ambar"},
+      {"kpi": "DAU (crecimiento interanual)", "valor_actual": "+21% (Q1 FY26)", "umbral_verde": ">+15%", "umbral_ambar": "+5% a +15%", "umbral_rojo": "<+5% o negativo", "estado": "verde"},
+      {"kpi": "Penetración pagada", "valor_actual": "9.1% (Q1 FY26)", "umbral_verde": "subiendo", "umbral_ambar": "plana", "umbral_rojo": "retrocede", "estado": "verde"},
+      {"kpi": "Suscriptores pagos (crecimiento)", "valor_actual": "+21% (Q1 FY26)", "umbral_verde": ">+15%", "umbral_ambar": "+5% a +15%", "umbral_rojo": "<+5%", "estado": "verde"},
+      {"kpi": "Margen Adj EBITDA", "valor_actual": "28.6% Q1 / guía 25.7% FY26", "umbral_verde": ">27%", "umbral_ambar": "24% a 27%", "umbral_rojo": "<24% sin reaceleración", "estado": "ambar"},
+      {"kpi": "Margen bruto (huella de disrupción)", "valor_actual": "73.0% (Q1 FY26)", "umbral_verde": ">70%", "umbral_ambar": "65% a 70%", "umbral_rojo": "<65%", "estado": "verde"},
+      {"kpi": "Producción de contenido con IA (uds/trim)", "valor_actual": "20,500 (Q1 FY26) vs 1,800 (2024)", "umbral_verde": "acelerando", "umbral_ambar": "plana", "umbral_rojo": "cayendo", "estado": "verde"},
+      {"kpi": "Conversión free->paid / ARPU / churn / cohortes", "valor_actual": "NO DIVULGADO", "umbral_verde": "n/d", "umbral_ambar": "n/d", "umbral_rojo": "n/d", "estado": "gris_no_divulgado"}
+    ]
+  }
+}

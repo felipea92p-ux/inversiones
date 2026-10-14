@@ -1,0 +1,99 @@
+{
+ "ticker": "CME",
+ "name": "CME Group Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 245.2,
+ "market_cap_usd_b": 88.85,
+ "fwd_pe": 20,
+ "fwd_pe_5y_avg": 24.46,
+ "pe_prem_disc_pct": -18.2,
+ "peg": 1.5,
+ "last_q": {
+  "period": "Q1 2026 (ended 2026-03-31)",
+  "revenue": "$1,880.1M",
+  "rev_yoy_pct": 14.5,
+  "op_margin_pct": 69.7,
+  "eps_gaap": "$3.18",
+  "eps_adj": "$3.36"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended 2025-12-31)",
+  "revenue": "$6,520.6M",
+  "organic_growth_pct": 6,
+  "roic_pct": null,
+  "fcf": "$4,193.6M",
+  "fcf_margin_pct": 64.3
+ },
+ "sbc_pct_revenue": 1.45,
+ "sbc_pct_fcf": 2.26,
+ "net_debt_usd_b": 1.03,
+ "nd_ebitda": 0.24,
+ "net_cash": false,
+ "guidance_fy": "FY2026 guidance: adjusted operating expense ex-license fees ~$1.695B; capex (net of leasehold allowances) ~$85M; adjusted effective tax rate 23.5%-24.5%. No revenue/EPS guidance (volume-driven model). PROYECCION.",
+ "pct_off_52w_high": -25.5,
+ "pct_off_ath": -25.5,
+ "drop_classification": "fear_rotation",
+ "data_quality": "VERIFICADO_mostly",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "guidance_fy",
+  "net_debt_usd_b",
+  "nd_ebitda"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.organic_growth_pct",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "drop_classification"
+ ],
+ "notes": "FUENTES PRIMARIAS (SEC EDGAR XBRL, CIK 1156375): FY2025 10-K — Revenue $6,520.6M; Net cash from operations $4,277.1M; CapEx $83.5M => FCF $4,193.6M (FCF margin 64.3%); SBC $94.8M (FY2025), $89.5M (FY2024). Q1 2026 10-Q — Revenue $1,880.1M (+14.5% YoY), op income $1,309.7M (margin 69.7%), GAAP dil EPS $3.18, adj EPS $3.36, net income $1,154.3M. Balance sheet: cash & equiv $2,391.2M (3/31/26), long-term debt ~$3,422M => net debt ~+$1.03B (NO es caja neta). EBITDA FY2025 ~$4.35B => ND/EBITDA ~0.24x (apalancamiento minimo). VALORACION (agregador StockAnalysis/GuruFocus, 22-jun-2026): price $245.20, mkt cap $88.85B, fwd P/E ~20.0 (NTM), media fwd P/E 5a ~24.46 => descuento ~-18%. 52w range $244.56-$329.16; precio ~-25.5% del maximo 52s, que coincide aprox. con el maximo historico (~$330 en 2025). ROIC no calculado por estructura inusual (balance infla activos/pasivos por performance bonds del clearing) — dejado null. organic_growth FY2025 ~6% reportado. CLASIFICACION fear_rotation: resultados en RECORD (Q1 rev +14%, adj EPS +20%, ADV record 36.2M contratos en todas las clases de activo), pero la accion cae ~25% por (1) temores competitivos en US Treasury clearing (entrada de FMX/BGC, mandato SEC dic-2026), (2) normalizacion de tipos que reduce el viento de cola de ingresos por float, y (3) de-rating sectorial de exchanges. No hay deterioro fundamental: el negocio core opera a maximos de margen y volumen.",
+ "sources": [
+  {
+   "label": "CME Group Q1 2026 press release (PRNewswire)",
+   "url": "https://www.prnewswire.com/news-releases/cme-group-inc-reports-record-revenue-adjusted-operating-income-adjusted-net-income-and-adjusted-earnings-per-share-for-q1-2026-302749450.html",
+   "date": "2026-04-22"
+  },
+  {
+   "label": "CME Group FY2025 press release (PRNewswire)",
+   "url": "https://www.prnewswire.com/news-releases/cme-group-inc-reports-fourth-consecutive-year-of-record-annual-revenue-adjusted-operating-income-adjusted-net-income-and-adjusted-earnings-per-share-for-2025-302678360.html",
+   "date": "2026-02-04"
+  },
+  {
+   "label": "SEC EDGAR XBRL — CME ShareBasedCompensation / OperatingCashFlow / CapEx / Revenue (CIK 1156375)",
+   "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001156375/us-gaap/ShareBasedCompensation.json",
+   "date": "2026-02"
+  },
+  {
+   "label": "CME Group FY2025 10-K (SEC)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001156375/000115637526000009/cme-20251231.htm",
+   "date": "2026-02"
+  },
+  {
+   "label": "StockAnalysis.com — CME quote/statistics",
+   "url": "https://stockanalysis.com/stocks/cme/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "GuruFocus — CME forward P/E and 5y average",
+   "url": "https://www.gurufocus.com/term/forward-pe-ratio/CME",
+   "date": "2026-06"
+  }
+ ]
+}

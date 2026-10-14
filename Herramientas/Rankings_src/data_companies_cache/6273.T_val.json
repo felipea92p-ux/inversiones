@@ -1,0 +1,48 @@
+{
+ "ticker": "6273.T",
+ "name": "SMC Corporation",
+ "currency": "JPY",
+ "price_verified": 74090,
+ "price_source": "Investing.com (JPY 74,090, Jun 22 2026) cross-checked vs StockAnalysis.com (JPY 74,030, Jun 23 10:00 JST) and prior close JPY 74,240; all converge ~JPY 74,000-74,240",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.06314,
+ "implied_mcap_b_usd": 28.96,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 6.5,
+ "wacc_components": {
+  "rf_pct": 1.3,
+  "erp_pct": 5,
+  "beta": 1,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "FY26 reported FCF JPY 81,405M with SBC ~0 (Japanese GAAP, negligible stock comp; share count actually FELL 67.4M->63.9M via buyback/cancellation), so Owner FCF = JPY 81,405M as-reported. However FY26 FCF is DEPRESSED by elevated growth capex (capex JPY 152,701M vs OCF JPY 188,917M; company building capacity toward the JPY 1T FY27 revenue target). Mid-cycle normalized owner FCF (OCF less maintenance capex ~D&A) is ~JPY 110-130B. Conservative scenario uses reported 81.4B; base uses normalized 110B; optimistic 130B.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 43312,
+   "prob": 0.38,
+   "note": "Pessimista-razonable NO apocaliptico: usa FCF reportado JPY 81,405M (deprimido por capex de crecimiento), g1=4% (debilidad ciclica de FA/China, compresion de margen 24.0%->22.6% persiste), declive a g_term=2.5%, WACC 7.0% (cushion ciclico). Equity = EV operativo + caja neta JPY 706,610M (~JPY 11,191/accion). IV ~58% del precio."
+  },
+  "base": {
+   "iv_per_share": 76559,
+   "prob": 0.47,
+   "note": "Owner FCF normalizado JPY 110,000M conforme el capex se normaliza tras el ciclo de inversion; g1=7% (crecimiento estructural de automatizacion de fabricas + recuperacion semis, reinversion a ROIC ~10%), declive a g_term=3.0%, WACC 6.5%. IV ~103% del precio."
+  },
+  "optimista": {
+   "iv_per_share": 117833,
+   "prob": 0.15,
+   "note": "Owner FCF normalizado JPY 130,000M; g1=9% (cumple objetivo de ingresos JPY 1T FY27 +18.7% y reinvierte a ROIC alto por decadas), declive a g_term=3.5%, WACC 6.3%. IV ~159% del precio."
+  }
+ },
+ "iv_dcf_weighted": 70116,
+ "multiple_metric": "Forward P/E (FY ending Mar 2027 EPS guidance JPY 2,692.46)",
+ "fwd_multiple_now": 25.84,
+ "fwd_multiple_5y_avg": 22.5,
+ "fair_multiple": 21.5,
+ "multiple_rationale": "Ancla a la media 5a del P/E adelantado (~22.5x) con un haircut modesto a 21.5x. SMC cotiza hoy a 25.84x fwd, una prima de ~+15% sobre su media de 5 anios. El haircut (de 22.5x a 21.5x) refleja: (1) compresion del margen operativo (24.0%->22.6% por mayor ratio de costes/personal/depreciacion) que aun no se ha revertido, y (2) la naturaleza ciclica del negocio de automatizacion de fabricas, dependiente de capex industrial y del ciclo semis/China. No es un deterioro estructural (beneficio ordinario +12.2% y neto +7.0% crecieron; balance fortaleza con ratio de equity 91.5% y caja neta ~JPY 707B), por lo que el haircut es leve. iv_multiple = 2,692.46 * 21.5 = JPY 57,888 (~78% del precio).",
+ "iv_multiple": 57888,
+ "weight_dcf": 0.45,
+ "weight_multiple": 0.55,
+ "reconciled_iv": 63391,
+ "structural_change": "Ninguno material. SMC es un compounder de calidad probado, lider global en equipos de control automatico neumatico para automatizacion de fabricas, con balance fortaleza (caja neta ~JPY 707B, ratio de equity 91.5%, esencialmente sin deuda) y SBC ~0 con recompras netas (acciones cayeron de 67.4M a 63.9M). El unico punto blando es coyuntural/de inversion: margen operativo comprimido a 22.6% (vs 24.0%) por mayores costes y depreciacion durante un ciclo de inversion en capacidad hacia el objetivo de ingresos JPY 1T en FY27. No hay erosion competitiva ni de demanda estructural; es ciclicidad de FA + fase de capex elevado, no deterioro permanente.",
+ "sanity_notes": "Mcap check: 74,090 JPY * 63.14M acciones = JPY 4.678T / 161.54 USDJPY = USD 28.96B, coincide con la escala conocida ~USD 29B (mcap_sanity_ok=true). Acciones re-verificadas en 63.14M (0.06314B) consistente entre Investing.com, StockAnalysis.com y Yahoo. Magnitud: todos los IV caen dentro de la banda 30-300% del precio (conservador 58%, base 103%, optimista 159%, multiplo 78%, reconciliado 86%) — sin errores de unidades/moneda/acciones. Ponderacion 0.45 DCF / 0.55 multiplo: compounder estable y probado (favorece multiplo) PERO ciclico, intensivo en capex y en fase de inversion (favorece DCF), de ahi un sesgo solo ligeramente hacia el multiplo en vez del 0.35/0.65 de un compounder no-ciclico puro. reconciled_iv JPY 63,391 vs precio JPY 74,090 => ~-14% (sobrevalorado de forma modesta). Coherente con la clasificacion 'not_depressed': accion ~14.5% por debajo del maximo 52s pero +44% en 12 meses, prima de valoracion cerca de maximos de ciclo, no un punto de entrada deprimido. Todos los valores en JPY (moneda de cotizacion)."
+}

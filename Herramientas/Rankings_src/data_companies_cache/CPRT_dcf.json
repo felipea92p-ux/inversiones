@@ -1,0 +1,41 @@
+{
+ "ticker": "CPRT",
+ "currency": "USD",
+ "current_price": 29.48,
+ "wacc_pct": 9.8,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.1,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base (FY2025) = FCF reportado $1.231B - 100% SBC (~$42M, 0.9% de ingresos) = ~$1.189B. Margen owner-FCF ~25.6% sobre ingresos de $4.647B. SBC de Copart es estructuralmente baja (~0.9% ingresos / ~3.3% FCF), por lo que el ajuste owner-earnings apenas recorta el FCF reportado.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 8,
+  "rev_cagr_y6_10_pct": 6.5,
+  "fcf_margin_terminal_pct": 28,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de SBC tratada como gasto en efectivo y restada del FCF reportado (owner earnings). SBC ~$42M (~0.9% ingresos), impacto menor.",
+  "shares_diluted_b": 0.96,
+  "net_debt_usd_b": -4.11
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 24.22,
+   "prob": 0.375,
+   "note": "Normalizacion dura tras el viento de cola no recurrente de huracanes Helene/Milton (FY2025): crecimiento de ingresos cae a ~5% Fase 1 y declina a 3% Fase 2; margen owner-FCF se estabiliza en ~25% (sin expansion); g terminal 2.5%. Refleja desaceleracion visible (de +9.7% FY a +2.1% en Q3 FY2026) y compresion de multiplo, pero NO deterioro estructural (margenes ~37% intactos, caja neta $4.1B)."
+  },
+  "base": {
+   "iv_per_share": 32.24,
+   "prob": 0.475,
+   "note": "Consistente con el track record: crecimiento organico ~8% Fase 1 (motor de salvamento + expansion internacional + ganancia de cuota), declinando a 5% en Fase 2; margen owner-FCF expande gradualmente de 25.6% a 28% por apalancamiento operativo y modelo asset-light maduro; g terminal 3.0% (foso amplio: red de yardas, efectos de red entre vendedores y compradores globales, plataforma VB3). Caja neta $4.1B suma ~$4.3/accion."
+  },
+  "optimista": {
+   "iv_per_share": 42.7,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: reaceleracion internacional (Alemania, Reino Unido, mercados emergentes) y mayor penetracion de aseguradoras llevan crecimiento a ~11% Fase 1 declinando a 7%; margen owner-FCF alcanza ~30%; g terminal 3.5%. Asume despliegue eficiente de la caja en M&A/yardas acretivas y catastrofes recurrentes que impulsen volumen."
+  }
+ },
+ "sanity_check": "VI ponderada por probabilidad ~$30.8/accion vs precio $29.48 -> el mercado descuenta el escenario conservador-a-base; margen de seguridad modesto (~4-5% al caso ponderado, ~9% al caso base). FCF yield owner-earnings ~4.4% (1.189B/27.29B mcap) es razonable para un compounder de calidad con caja neta. Cross-check de multiplo: fwd P/E 18.4 vs media 5a ~28 (descuento ~-34%); a P/E historico normalizado de ~24-26x sobre EPS normalizado, el valor implicito coincide con el rango base ($32-34). Rendimiento total al accionista (contraste, NO usado en VI): Copart NO paga dividendo y recompra de forma minima/oportunista (acumula caja, $4.1B net cash), por lo que el shareholder yield es ~0.3% - el valor se crea por reinversion/composicion del FCF, no por retorno de capital. Riesgo clave a la baja: comparables dificiles FY2026 por la base alta de huracanes y desaceleracion de crecimiento; riesgo al alza: opcionalidad de la caja neta y exposicion a catastrofes.",
+ "method_notes": "DCF de owner earnings a 10 anios en dos fases. Base owner-FCF = FCF reportado FY2025 ($1.231B) menos 100% de SBC (~$42M) = ~$1.189B; margen owner 25.6%. Fase 1 (anios 1-5): CAGR de ingresos explicito por escenario (5%/8%/11%); Fase 2 (anios 6-10): CAGR declinante linealmente hacia normalizacion. Margen owner-FCF interpolado linealmente desde 25.6% hacia el margen terminal del escenario. Valor terminal por Gordon sobre owner-FCF del anio 10 con g=2.5-3.5% segun amplitud del foso. WACC = Rf 4.3% (UST 10Y) + ERP 5.0% x beta 1.10 = 9.8%; sin ajuste geopolitico (empresa US). Beta 1.10 estimada (compounder de baja volatilidad, sensibilidad ciclica moderada por volumen de siniestros/economia). Acciones diluidas ~0.96B (reconciliadas: Q3 FY2026 NI $402.4M / EPS $0.43 = ~936M; FY2025 ~968M; mcap/precio implica ~926M -> uso 0.96B como diluido conservador). Ajuste de caja neta: +$4.11B sumado al EV para llegar a equity value (net_debt = -4.11). Copart no es red de pagos ni rating/datos, pero su SBC minima y modelo asset-light hacen el DCF directamente valido; se anade shareholder yield solo como contraste (no DDM). Inputs verificados via SEC 10-K FY2025 y 10-Q Q3 FY2026; sin busqueda web adicional necesaria (datos de FASE 2 completos)."
+}

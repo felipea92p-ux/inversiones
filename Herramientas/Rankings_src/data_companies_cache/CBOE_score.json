@@ -1,0 +1,59 @@
+{
+ "ticker": "CBOE",
+ "name": "Cboe Global Markets, Inc.",
+ "rules": {
+  "R1": {
+   "score": 1.5,
+   "just": "Exchange/clearing platform with ~69% net-rev operating margin and 69.2% FCF margin; incremental options/index volume drops to the bottom line at high marginal margin, but it is not pure software scaling to 2.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Structurally growing demand for listed derivatives, index options (SPX/VIX) and market data; FY2026 organic guidance raised to low-double-digit/mid-teens confirms a secular tailwind."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Undisputed #1 in proprietary index options (SPX, VIX) and a top US options/volatility franchise where it effectively owns the benchmark complex, durable leadership though not monolithic across all asset classes."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Strong moat from proprietary index licenses (S&P/Cboe SPX, VIX), regulatory barriers, network liquidity and Data Vantage intangibles; very wide but crypto-derivatives entrants temper the 2.0."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "FY2025 organic growth 17% and Q1 2026 net rev +29% are largely volume/data-driven, not bolt-on M&A; company is actually divesting non-core (Canada, Australia, CEDX) to sharpen the organic core."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Diversified across options, futures, cash/spot, derivatives and Data Vantage with no single client concentration, but revenue and profit are heavily skewed to US index options (SPX/VIX) reliance."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "FCF $1,681.6M with FCF/NI well above 80%, capex only ~$71M (<3% of net rev) and capital-light economics; ROIC not cleanly reportable due to clearing-margin balance sheet but cash conversion is elite."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Net cash ~$0.69B (cash $2,134M vs debt $1,443M), no leverage concern, D/EBITDA effectively negative — fortress balance sheet."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "SBC verified at only 3.0% of FCF and 2.1% of net revenue (far below the 15% hard line); GAAP and adjusted EPS nearly identical ($3.66 vs $3.70), indicating clean, conservative accounting."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Disciplined capital allocation with opportunistic buybacks plus a decisive strategic realignment (~20% workforce cut, divesting non-core units), though past M&A and an ROIC not consistently above-bar keep it at base."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (high-margin scalable exchange/data model), R3 (#1 in proprietary SPX/VIX index options) and R4 (proprietary index-license + regulatory + liquidity-network moat) mutually reinforce: Cboe owns the benchmark volatility complex it also lists, clears and sells data on, so leadership feeds the moat which feeds margin scalability — a self-reinforcing flywheel, even if crypto-derivatives competition stops it short of monstrous 2.0 dominance.",
+ "moat_one_line": "Proprietary index franchise (SPX/VIX) plus regulatory barriers, deep liquidity-network effects and Data Vantage data intangibles that competitors cannot legally or practically replicate.",
+ "moat_type": "intangibles_network_regulatory",
+ "thesis_3lines": [
+  "Calidad: franquicia de exchange/clearing con margen operativo neto ~69% y conversion a FCF >80% del beneficio, caja neta (~$0.69B) y SBC trivial (3% del FCF) — un negocio de calidad excepcional y contabilidad limpia.",
+  "Motor de crecimiento: monopolio de hecho en opciones de indice propietarias (SPX, VIX) mas Data Vantage, con crecimiento organico FY2025 del 17%, Q1 2026 +29% y guidance FY2026 elevado a low-double-digit/mid-teens.",
+  "Valoracion/retorno: fwd PE 18.65 (~22% por debajo de su media de 5 anios y PEG 1.12) tras una caida del 31% por rotacion/miedo a competencia cripto pese a un trimestre record y guidance al alza — entrada con descuento en un compounder de calidad."
+ ],
+ "bear_case_strongest": "El nucleo del beneficio depende desproporcionadamente del complejo SPX/VIX de opciones de indice, y la proliferacion de derivados sobre cripto y nuevos venues de volatilidad amenaza con erosionar la concentracion y el pricing power que justifican la prima de calidad.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Total re-score = 14.0 raw, capped at Seilern ceiling 13.5 (R1 1.5, R2 1.5, R3 1.5, R4 1.5, R5 1.5, R6 1.0, R7 1.5, R8 1.5, R9 1.5, R10 1.0). Confirms Phase 1 high conviction. SBC hard rule passes comfortably (3% of FCF). ROIC left unscored on level (null in data) due to asset-heavy clearinghouse balance sheet; FCF/capital intensity used as proxy for R7. Drop classified as fear_rotation: -31% from ATH despite record Q1 and raised FY2026 guidance — valuation reset off a sharp run-up plus crypto-derivatives competition fears, not fundamental deterioration. fwd_pe_5y_avg ($24) is an estimate; current fwd PE 18.65 implies ~22% discount."
+}

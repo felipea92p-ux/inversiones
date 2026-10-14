@@ -1,0 +1,59 @@
+{
+ "ticker": "EQT.ST",
+ "name": "EQT AB",
+ "rules": {
+  "R1": {
+   "score": 1.5,
+   "just": "Modelo de gestion de alternativos altamente escalable: total income EUR 2,732m con adj EBITDA margin 60% y FAUM EUR 142bn que crece sin capex proporcional, pero no es software/red de margen marginal infinito, por eso 1.5 y no 2.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Mercados privados (PE, infra, secundarios, private wealth) siguen en crecimiento secular via desintermediacion bancaria y mayor asignacion institucional a alternativos; viento de cola pese a ciclo de exits lento."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Top-tier global en PE/infra (#1-2 en varios verticales tras BPEA, fundraising probado con BPEA IX en hard cap +40%), pero Blackstone/KKR siguen mayores globalmente, por eso 1.5 no 2.0."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat de intangibles/escala: FAUM comprometido y bloqueado a 10+ anios, relaciones LP pegajosas, track record y marca institucional; durable pero replicable por otros megafondos."
+  },
+  "R5": {
+   "score": 1,
+   "just": "Crecimiento mixto: fuerte organico (inflows record evergreens EUR 1.0bn/Q, BPEA IX +40%) pero la adquisicion de Coller (+EUR 30bn FAUM) es M&A material que limita el credito a crecimiento puramente organico."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Excelente diversificacion: cientos de LPs sin cliente dominante, multi-estrategia (PE, infra, secundarios, RE, wealth) y multi-geografia (Europa, Asia via BPEA, US)."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC alto inherente al modelo asset-light (capex minimo); FRE cash flow EUR 1,073m sobre net income EUR 1,322m implica FCF/NI ~81% (>80%) y ROIC claramente >WACC."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Balance solido: net debt EUR 1,448m, ND/EBITDA 0.9x muy por debajo del umbral 2x; no es caja neta pero apalancamiento bajo y comodo para el sector."
+  },
+  "R9": {
+   "score": 0.5,
+   "just": "REGLA DURA conservadora: SBC no divulgada como linea GAAP y sbc_pct_fcf=null (no verificable); ademas P&L semestral reduce transparencia trimestral, por lo que se limita a 0.5 hasta verificar SBC/carried en notas auditadas."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Gobierno fuerte con alto skin-in-the-game (partners co-invierten, alineacion via carried interest no via RSUs dilutivas), asignacion de capital disciplinada y M&A estrategica (BPEA, Coller)."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (modelo escalable asset-light, margen EBITDA 60%), R3 (liderazgo global top-tier en PE/infra) y R4 (FAUM bloqueado 10+ anios + relaciones LP + escala de fundraising probada con BPEA IX en hard cap) se refuerzan mutuamente: la escala alimenta el liderazgo, el liderazgo facilita captar capital pegajoso, y ese capital comprometido refuerza moat y escalabilidad. Bucle de refuerzo genuino, aunque no monopolio irreplicable (Blackstone/KKR compiten).",
+ "moat_type": "intangibles/escala",
+ "moat_one_line": "FAUM comprometido y bloqueado a 10+ anios, relaciones LP pegajosas, track record y escala global de fundraising (BPEA IX en hard cap +40%) que generan fee income recurrente y predecible dificil de replicar.",
+ "thesis_3lines": [
+  "Calidad: gestora de alternativos asset-light, top-tier global, margen adj EBITDA 60%, FAUM comprometido EUR 142bn de fee income recurrente y ND/EBITDA conservador 0.9x.",
+  "Motor de crecimiento: BPEA IX cerro en hard cap USD 15.6bn (+40% vs predecesor), inflows record en evergreens/private wealth (EUR 1.0bn/Q) y adquisicion de Coller (+EUR 30bn FAUM en secundarios) amplifican el motor de comisiones.",
+  "Valoracion/retorno: fwd P/E ~20.6x cotiza ~26% bajo su media historica y ~52% bajo el ATH por rotacion/miedo sectorial (no deterioro de franquicia), ofreciendo entrada de calidad a multiplo deprimido."
+ ],
+ "bear_case_strongest": "EQT depende de realizaciones (exits) y fundraising profundamente ciclicos y sensibles a tipos; un entorno prolongado de exits congelados comprime performance fees, ralentiza la captacion y desmiente la narrativa de compounder, mientras la opacidad de SBC/carried y el P&L semestral ocultan posible dilucion.",
+ "sbc_flag": "unknown",
+ "ethical_flag": "none",
+ "notes": "Suma efectiva 12.0/13.5. Baja desde el preliminar 12.5 por penalizacion de R9 (SBC no verificable, regla dura conservadora) y R5 (componente M&A material: Coller, BPEA). data_quality MIXED: fwd_pe_5y_avg, prem/disc y margenes son ESTIMADOS; cifras FY2025 de IR verificadas en EUR. CRITICO: verificar SBC y carried interest en informe anual auditado completo antes de confirmar R9; reporta P&L semestral, no trimestral."
+}

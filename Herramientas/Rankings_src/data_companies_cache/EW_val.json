@@ -1,0 +1,48 @@
+{
+ "ticker": "EW",
+ "name": "Edwards Lifesciences Corporation",
+ "currency": "USD",
+ "price_verified": 85.88,
+ "price_source": "StockAnalysis.com EW statistics page (cross-checked vs Yahoo/MarketBeat ~$87.5 on Jun 18; NYSE close)",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.578,
+ "implied_mcap_b_usd": 49.6,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 9.3,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "FY2025 owner FCF = reported FCF $1,335M - 100% SBC $158M = $1,177M. Note: owner FCF currently runs below adjusted earnings power (~$1,734M = FY2026 adj EPS $3.00 x 578M shares) due to low FCF conversion post-Critical Care divestiture (elevated litigation, tax, capex) — this depresses the pure DCF and is why the multiple anchor carries more weight.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 44.64,
+   "prob": 0.38,
+   "note": "Phase1 +7%/yr, declining to terminal g 2.5%. Reasonable-pessimist: TAVR maturing/competition (Medtronic, Abbott), TMTT ramp slower; still a profitable franchise, no collapse."
+  },
+  "base": {
+   "iv_per_share": 54.5,
+   "prob": 0.47,
+   "note": "Phase1 +10%/yr (in line with FY26 guide +9-11% and organic +10.7%), declining to terminal g 3.0%. TAVR steady mid-single digit + TMTT high growth blend."
+  },
+  "optimista": {
+   "iv_per_share": 67.26,
+   "prob": 0.15,
+   "note": "Phase1 +13%/yr, terminal g 3.5%. TMTT (EVOQUE/PASCAL) scales globally, new structural-heart indications expand TAM."
+  }
+ },
+ "iv_dcf_weighted": 52.67,
+ "multiple_metric": "Forward P/E (adjusted EPS)",
+ "fwd_multiple_now": 28.5,
+ "fwd_multiple_5y_avg": 33,
+ "fair_multiple": 30,
+ "multiple_rationale": "Anchored to the 5y fwd P/E avg (~33x) with a modest ~3-pt haircut to 30x. The haircut is NOT for structural deterioration of the core franchise (growth re-accelerated to +16.7% Q1 YoY, guide raised twice) but reflects: (1) a smaller, more concentrated post-divestiture business (Critical Care sold to BD for $4.2B, Sep-2024), (2) intensifying TAVR competition and a sector-wide de-rating of med-tech multiples vs the 2019-21 peak. EW still merits a premium multiple given net cash, ~22% FCF margin, high ROIC and a long structural-heart runway. iv_multiple = FY2026 adj EPS midpoint $3.00 x 30 = $90.00.",
+ "iv_multiple": 90,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 75.07,
+ "structural_change": "Yes — divested Critical Care unit to Becton Dickinson for $4.2B (closed Sep-2024). EW is now a pure-play structural heart company (TAVR, TMTT/transcatheter mitral-tricuspid, Surgical). This makes the pre-2022 ATH ($130.68, Dec-2021) NOT structurally comparable. It is a re-focusing, not a deterioration: revenue re-accelerated (+16.7% Q1 2026 YoY; FY26 guide raised to +9-11%, adj EPS $2.95-3.05), TMTT growing +35-45%. No impairment to the quality thesis.",
+ "sanity_notes": "Price $85.88 and ~578M diluted shares (Q1 avg 581M; FY26 guide 575-580M; 575.8M outstanding) give implied mcap ~$49.6B, matching the known ~$49.5B scale (mcap_sanity_ok=true). Reconciled IV $75.07 = 87% of price — well within the 30-300% magnitude band, no units/currency/shares error. All figures in USD. The two methods diverge sharply (DCF $52.67 vs multiple $90) precisely because owner-FCF conversion is temporarily depressed (~$1,177M vs ~$1,734M adj net income); pure owner-FCF DCF under-credits a high-ROIC reinvesting compounder, so I weight the multiple 0.60/0.40 (stable, proven, net-cash franchise). Verdict: at $85.88 vs reconciled IV ~$75, EW trades modestly ABOVE intrinsic value (~14% overvalued) — quality is real but the price is not a bargain; the stock is not depressed (only -4% off 52w high, +16% over 52 weeks)."
+}

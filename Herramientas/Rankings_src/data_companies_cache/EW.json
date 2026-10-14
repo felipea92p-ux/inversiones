@@ -1,0 +1,105 @@
+{
+ "ticker": "EW",
+ "name": "Edwards Lifesciences Corporation",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 85.88,
+ "market_cap_usd_b": 49.5,
+ "fwd_pe": 28.5,
+ "fwd_pe_5y_avg": 33,
+ "pe_prem_disc_pct": -13.6,
+ "peg": 2.37,
+ "last_q": {
+  "period": "Q1 2026 (ended Mar 31, 2026)",
+  "revenue": "$1.65B",
+  "rev_yoy_pct": 16.7,
+  "op_margin_pct": 28.9,
+  "eps_gaap": "$0.66",
+  "eps_adj": "$0.78"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 31, 2025)",
+  "revenue": "$6,067.6M",
+  "organic_growth_pct": 10.7,
+  "roic_pct": null,
+  "fcf": "$1,335M",
+  "fcf_margin_pct": 22
+ },
+ "sbc_pct_revenue": 2.6,
+ "sbc_pct_fcf": 11.8,
+ "net_debt_usd_b": -2.97,
+ "nd_ebitda": null,
+ "net_cash": true,
+ "guidance_fy": "FY2026: sales growth 9-11% (raised from 8-10% at Q1); adjusted EPS $2.95-$3.05 (raised from $2.90-$3.05); TMTT $740-780M (+35-45%)",
+ "pct_off_52w_high": -4.2,
+ "pct_off_ath": -34.3,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_q.op_margin_pct",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "guidance_fy",
+  "net_cash",
+  "net_debt_usd_b"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "last_fy.roic_pct",
+  "nd_ebitda"
+ ],
+ "sources": [
+  {
+   "label": "Edwards Q4/FY2025 press release (official IR)",
+   "url": "https://www.edwards.com/newsroom/news/2026-02-10-edwards-lifesciences-reports-fourth-quarter-result-cbac793",
+   "date": "2026-02-10"
+  },
+  {
+   "label": "Edwards Q1 2026 results (StockTitan summary of 10-Q/8-K)",
+   "url": "https://www.stocktitan.net/sec-filings/EW/10-q-edwards-lifesciences-corp-quarterly-earnings-report-ec15edaa0f84.html",
+   "date": "2026-04-23"
+  },
+  {
+   "label": "Edwards Q1 2026 press release (Nasdaq)",
+   "url": "https://www.nasdaq.com/press-release/edwards-lifesciences-reports-first-quarter-results-2026-04-23",
+   "date": "2026-04-23"
+  },
+  {
+   "label": "SEC EDGAR - Edwards FY2025 10-K",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001099800/000109980026000009/ew-20251231.htm",
+   "date": "2026-02"
+  },
+  {
+   "label": "StockAnalysis.com - EW cash flow statement (FCF, SBC, OCF)",
+   "url": "https://stockanalysis.com/stocks/ew/financials/cash-flow-statement/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com - EW statistics (price, mcap, fwd P/E, net cash)",
+   "url": "https://stockanalysis.com/stocks/ew/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Macrotrends - EW stock price history / ATH $130.68 (Dec 2021)",
+   "url": "https://www.macrotrends.net/stocks/charts/EW/edwards-lifesciences/stock-price-history",
+   "date": "2026-06-22"
+  }
+ ],
+ "notes": "Precio NYSE ~$85.88-85.90 (USD) al 22-jun-2026; capitalizacion varia entre ~$49.5B (StockAnalysis) y ~$50.3B (MarketBeat) segun recuento de acciones. Q1 2026 (cierre 31-mar-2026): ventas $1.65B (+16.7% YoY, impulsado por TAVR +11% y TMTT +42%), EPS GAAP $0.66, EPS ajustado $0.78 (bati estimado $0.73). Margen operativo ~28.9% (op income $477.6M, incluye mayores gastos de litigio y deterioro no operativo de $123.6M). FY2025: ventas $6,067.6M (+11.5% reportado, +10.7% moneda constante usado como proxy organico), EPS GAAP $1.81, EPS ajustado $2.56, FCF $1,335M (OCF $1,595M - capex $260M), margen FCF 22.0%. SBC FY2025 $158.1M = 2.6% ventas / 11.8% FCF (BAJA, positivo para R9). Balance: caja ~$3.0-3.67B vs deuda ~$0.6-0.70B => CAJA NETA ~$2.97B (net_debt negativo). nd_ebitda no aplica materialmente (caja neta). Guia FY2026 ELEVADA en Q1: ventas +9-11% (desde +8-10%), EPS ajustado $2.95-$3.05 (desde $2.90-$3.05). VALORACION: fwd P/E ~28.5 (ESTIMADO, fuentes 27.65-29.83), media 5a fwd P/E ~33 estimada (P/E trailing 5a ~36; EW historicamente con prima) => descuento ~-14% vs su propia media historica (ESTIMADO, alta varianza entre fuentes). PEG ~2.37 (ESTIMADO; otras fuentes 2.10-5.34). DESPLOME: la accion NO esta deprimida — cotiza solo ~4% por debajo del maximo 52s ($89.60) y SUBE ~16% en 52 semanas; respecto al maximo historico ($130.68, dic-2021) esta -34% pero ese pico precede la venta de Critical Care a BD ($4.2B, sep-2024) y no es comparable estructuralmente. Fundamentales solidos con guia elevada => clasificacion not_depressed. ROIC no obtenido de fuente primaria (null). FCF/SBC verificados via StockAnalysis (coinciden con 10-K: SBC $158.1M). Vendio Critical Care a BD por $4.2B (cerrado sep-2024); negocio actual centrado en valvulas estructurales cardiacas (TAVR, TMTT, Surgical)."
+}

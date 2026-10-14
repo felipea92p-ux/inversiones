@@ -1,0 +1,37 @@
+{
+  "run": "Ranking QG 18 Ultra + 12 Infravaloradas — PROMPT MAESTRO v1.1",
+  "started_at": "2026-06-22",
+  "base_dir": "INVESTMENTS/_ACTIVE/qg_ranking",
+  "environment": "macOS interactive (adapted from /home/claude/ Linux sandbox paths)",
+  "data_sources": {
+    "decision_2026-06-22": "Premium MCPs no disponibles: Bigdata.com (suscripcion terminada), Quartr (sin plan Pro), S&P CapIQ (requiere OAuth interactivo, no propaga a subagentes). Se usa el plan PRIMARIO ORIGINAL del prompt: verificacion web.",
+    "primary_verified": ["SEC EDGAR 10-K/10-Q/20-F", "Paginas IR de la compania", "StockAnalysis.com", "Macrotrends"],
+    "fallback_estimated": ["WebSearch/WebFetch aggregators"],
+    "optional_on_request": "S&P Capital IQ (sp-global) via OAuth — disponible para spot-checks de los 30 finalistas si el usuario autentica"
+  },
+  "engine": "INVESTMENTS/_Ultra Tesis/_briefing_src (qg_design.py, qg_charts.py, build_briefing.py)",
+  "phase0_screening": "done — universo 719, evaluadas 411, candidatos 119 (umbral margen=15%, roic=12%); tras limpiar: META excluida, 4 duplicados de clase, 8 rescatados (COST/ACN/NESN.SW/OR.PA/WKL.AS/NOW/HD/TXN) -> 122 a FASE 1",
+  "phase1_light_scoring": "done — 122 puntuadas; long-list = 80 (umbral prelim>=12.0, sin cap arbitrario para no perder SNPS/LIN/AVGO/ANET/LLY/ADP/etc.)",
+  "phase23_deep_verify_rescore": "done — 80 verificadas; pool>=12.0 = 77; cayeron NVO(11.5), SNPS(11.5, SBC>25%FCF), ZTS(9.0). 1 incompleto: 6920.T. Per-ticker en data/companies/.",
+  "phase4_dcf": "v1 DESCARTADA — errores de precio/acciones (KLAC shares 10x, ASML/AAPL/TXN precio) + DCF puro demasiado bajista en compounders (SPGI -24% contradice convergencia+arquetipo). Re-corriendo FASE 4 v2.",
+  "phase4_dcf_v2": "done — 77 valoraciones, 0 fallos de sanity; MoS reconciliado creible (SPGI +3% vs -24% en v1).",
+  "phase5_seleccion_panel": "done — 18 Lista A (por calidad) + 12 Lista B (por MoS), listas disjuntas; ‡ FICO/VRSN/PLTR aparte.",
+  "STATUS": "COMPLETO — PDF entregado.",
+  "phase5_convergence": "calculado parcial — 6/8 CONVERGE; DIVERGEN ACN(prev12.5->live8.67) e INTU(12.4->9.70). ACN 8.67x es probable error de verificacion; re-chequear y corregir fwd_pe antes del build (no afecta DCF, que es por FCF).",
+  "pdf_builder_validated": "OK — build_ranking.py + RankingDoc/RankingCover/ficha probados con datos sinteticos: 26 pag, sin paginas en blanco reales, fichas 2/pag estilo Economist.",
+  "anomalies_resolved": "Precios bajos sospechosos VERIFICADOS en vivo y CORRECTOS: NOW $95 (-50% 12m), ADBE $195 (-50%), INTU $258 (-57% YTD, recorte 17% plantilla), ACN $128 (-13% en Q3FY26), WKL EUR58.8. NO eran errores: el complejo software/SaaS/info-services se desplomo ~50% por miedo a disrupcion de IA. ESTE ES EL HALLAZGO CENTRAL de Lista B (el mercado descuenta el miedo, no el foso). Divergencias ACN/INTU en convergencia = reflejan la caida real de precio.",
+  "phase5_seleccion_panel": "running (task wcayitc8e, 3 lentes + sintesis)",
+  "discoveries_no_calibracion": ["APP/AppLovin","HOOD/Robinhood","CTAS/Cintas","CPRT/Copart","ODFL/Old Dominion","GRMN/Garmin","TPL/Texas Pacific Land","DECK/Deckers","MTD/Mettler-Toledo","IDXX/IDEXX","WST/West Pharma","BRO/Brown&Brown","CBOE/Cboe","IBKR/Interactive Brokers","6861.T/Keyence","4063.T/Shin-Etsu","6920.T/Lasertec","6146.T/Disco","8035.T/Tokyo Electron","7974.T/Nintendo"],
+  "phase2_deep_verify": { "DONE": [], "INCOMPLETE": [], "PENDING": [] },
+  "phase3_rescore": "pending",
+  "phase4_dcf": "pending",
+  "phase5_convergence": "pending",
+  "pdf_engine_validated": "OK — smoke.pdf renderizado (cover+content, fondo crema, numeracion, escaping). Motor: _Ultra Tesis/_briefing_src/qg_design.py reutilizado.",
+  "charts_module": "OK — qg_ranking/qg_ranking_charts.py (funnel, qv_map, listaA, listaB, convergence) renderiza las 5 graficas.",
+  "pdf_build": "DONE — pdf/Ranking_QG_18_12.pdf (31 pag). Copia: INVESTMENTS/Ranking_QG_18_Ultra_12_Infravaloradas_2026-06-22.pdf. QA OK: 28-55 pag, sin paginas en blanco, sin barra-dolar, & escapados, Meta excluida, ‡ marcados.",
+  "notes": [
+    "Meta Platforms EXCLUIDA permanentemente.",
+    "Casos eticos (FICO, Axon, Verisign, Palantir) marcados con doble-cruz para decision del usuario.",
+    "Todo dato etiquetado VERIFICADO / ESTIMADO / ESTIMADO-FMP con fuente."
+  ]
+}

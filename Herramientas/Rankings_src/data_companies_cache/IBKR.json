@@ -1,0 +1,99 @@
+{
+ "ticker": "IBKR",
+ "name": "Interactive Brokers Group, Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 96.82,
+ "market_cap_usd_b": 163.5,
+ "fwd_pe": 36.9,
+ "fwd_pe_5y_avg": 24.1,
+ "pe_prem_disc_pct": 53,
+ "peg": 1.95,
+ "last_q": {
+  "period": "Q1 2026 (ended 2026-03-31)",
+  "revenue": "$1.669B net revenues",
+  "rev_yoy_pct": 17,
+  "op_margin_pct": 77.2,
+  "eps_gaap": "$0.59",
+  "eps_adj": "$0.60"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended 2025-12-31)",
+  "revenue": "$6.205B net revenues",
+  "organic_growth_pct": 20,
+  "roic_pct": null,
+  "fcf": "n/m (broker-dealer; OCF distorted by customer balances)",
+  "fcf_margin_pct": null
+ },
+ "sbc_pct_revenue": 1.9,
+ "sbc_pct_fcf": null,
+ "net_debt_usd_b": -49.1,
+ "nd_ebitda": null,
+ "net_cash": true,
+ "guidance_fy": "No formal numeric FY guidance issued. Q1 2026 was a record quarter (revenue $1.67B, +17% YoY); management cites continued customer account growth (4.4M accounts, +32%) and 77% pretax margin. Dividend raised from $0.08 to $0.0875/quarter.",
+ "pct_off_52w_high": -1,
+ "pct_off_ath": -1,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "guidance_fy",
+  "price"
+ ],
+ "estimated_fields": [
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "sbc_pct_revenue",
+  "net_debt_usd_b",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "SEC 8-K Q1 2026 earnings press release (ex99.1)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001381197/000138119726000078/ibkr-ex99_1.htm",
+   "date": "2026-04-21"
+  },
+  {
+   "label": "SEC 10-Q Q1 2026 (filed)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001381197/000138119726000093/ibkr-20260331.htm",
+   "date": "2026-04"
+  },
+  {
+   "label": "SEC 10-K FY2025",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001381197/000138119726000062/ibkr-20251231.htm",
+   "date": "2026-02-27"
+  },
+  {
+   "label": "stockanalysis.com IBKR statistics (price, mkt cap Class A float, fwd P/E, PEG, EV)",
+   "url": "https://stockanalysis.com/stocks/ibkr/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "valueinvesting.io IBKR forward P/E & 5Y avg",
+   "url": "https://valueinvesting.io/IBKR/metric/forward-pe",
+   "date": "2026-06"
+  },
+  {
+   "label": "Investing.com IBKR all-time high $97.81 (Jun 18 2026)",
+   "url": "https://www.investing.com/news/company-news/interactive-brokers-group-stock-hits-alltime-high-of-8289-usd-93CH-4659295",
+   "date": "2026-06-18"
+  },
+  {
+   "label": "alphaquery IBKR annual stock-based compensation FY2025",
+   "url": "https://www.alphaquery.com/stock/IBKR/fundamentals/annual/stock-based-compensation",
+   "date": "2026"
+  }
+ ],
+ "notes": "FASE 2 IBKR verificacion. (1) MARKET CAP: dato critico con dos lecturas validas por la estructura up-C de IBKR. stockanalysis.com reporta ~$43.1B usando solo las ~445M acciones Clase A (float publico). El verdadero valor economico total incluye el ~83% en manos de IBG Holdings LLC (Peterffy/insiders, noncontrolling interest): a $96.82 sobre ~1.69B acciones economicas totales = ~$163B (cifra de Yahoo/Google). Reporto la cifra economica total (~$163.5B) por ser la relevante. (2) NET INTEREST/EV: stockanalysis muestra Enterprise Value de -$49.1B (caja neta enorme: IBKR tiene >$100B en activos liquidos, sin deuda neta). net_debt = -$49.1B usado como proxy EV. nd_ebitda no aplicable (caja neta). (3) FCF: NO es metrica significativa para un broker-dealer — el OCF reportado (~$15.7B) esta distorsionado por cambios en saldos de clientes (efectivo segregado, creditos de clientes). El net income FY2025 de $4.36B es el mejor proxy de poder de ganancias. fcf_margin y sbc_pct_fcf = null por esto. (4) SBC: CONFLICTO entre agregadores — alphaquery $118M FY2025 (=1.9% rev), pero macrotrends sugiere ~$90M/trimestre (~$360M/anio, =~5.8% rev). Uso $118M de alphaquery como dato documentado pero rango real probable 1.9%-5.8%. ESTIMADO. (5) ROIC: no aplicable de forma estandar a broker-dealer; null. (6) DROP CLASSIFICATION: la accion NO esta deprimida — cotiza a ~$96.82, solo ~1% por debajo de su maximo 52s ($97.84) y maximo historico (~$97.81 intradia, 18-jun-2026). Resultados Q1 2026 record (+17% rev YoY, margen pretax 77%). Clasificacion: not_depressed. Valoracion en prima fuerte (fwd P/E ~37 vs media 5a ~24, +53%). (7) Q1 2026 100% VERIFICADO del 8-K SEC: rev $1.669B vs $1.427B prior (+17.0%), income before taxes $1.288B (margen 77.2%), net income $1.171B, EPS diluido GAAP $0.59 / ajustado $0.60, NII $904M (+17%), dividendo subido a $0.0875. FY2025 VERIFICADO 10-K: rev $6.205B (+20%), EPS diluido $2.22, net income $4.36B. data_quality MIXED porque valoracion/mktcap/SBC son de agregadores con conflictos."
+}

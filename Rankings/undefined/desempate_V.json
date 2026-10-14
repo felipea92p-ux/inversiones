@@ -1,0 +1,142 @@
+{
+  "ticker": "V",
+  "empresa": "Visa Inc.",
+  "cik": "0001403161",
+  "juez": "desempate — tercer juicio, sesion limpia, sin conocer las dos etiquetas previas",
+  "fecha_juicio": "2026-07-28",
+  "candado_B_prima": "CUMPLIDO — no se consulto cotizacion, capitalizacion ni multiplo en ningun momento",
+  "ventana": "FY2019–FY2025 (7 ejercicios auditados, cierre 30 de septiembre). Se consulto ademas FY2008–FY2018 para el test de recesion.",
+  "fuentes_primarias": [
+    "10-K FY2025 (accession 0001403161-25-000089, v-20250930.htm)",
+    "10-K FY2024 (accession 0001403161-24-000058, v-20240930.htm)",
+    "10-K FY2022 (accession 0001403161-22-000081, v-20220930.htm)",
+    "10-K FY2020 (accession 0001403161-20-000070, v-20200930.htm)",
+    "XBRL companyfacts CIK0001403161 (us-gaap)"
+  ],
+
+  "orden_ejecutado": "G5 -> G1 -> G3 -> G4 -> G2 -> G6 (anti-halo, mecanico primero)",
+
+  "G5_CAJA": {
+    "veredicto": "SI_REFORZADO",
+    "serie_millones_USD": {
+      "2019": {"CFO": 12784, "capex": 756, "FCF": 12028, "SBC": 407, "FCF_post_SBC": 11621, "BN": 12080, "FCF_menos_BN": -52, "pct_ventas": -0.2, "sloan_pct": -0.99},
+      "2020": {"CFO": 10440, "capex": 736, "FCF": 9704, "SBC": 416, "FCF_post_SBC": 9288, "BN": 10866, "FCF_menos_BN": -1162, "pct_ventas": -5.3, "sloan_pct": 0.56},
+      "2021": {"CFO": 15227, "capex": 705, "FCF": 14522, "SBC": 542, "FCF_post_SBC": 13980, "BN": 12311, "FCF_menos_BN": 2211, "pct_ventas": 9.2, "sloan_pct": -3.56},
+      "2022": {"CFO": 18849, "capex": 970, "FCF": 17879, "SBC": 602, "FCF_post_SBC": 17277, "BN": 14957, "FCF_menos_BN": 2922, "pct_ventas": 10.0, "sloan_pct": -4.62},
+      "2023": {"CFO": 20755, "capex": 1059, "FCF": 19696, "SBC": 765, "FCF_post_SBC": 18931, "BN": 17273, "FCF_menos_BN": 2423, "pct_ventas": 7.4, "sloan_pct": -3.96},
+      "2024": {"CFO": 19950, "capex": 1257, "FCF": 18693, "SBC": 850, "FCF_post_SBC": 17843, "BN": 19743, "FCF_menos_BN": -1050, "pct_ventas": -2.9, "sloan_pct": -0.22},
+      "2025": {"CFO": 23059, "capex": 1482, "FCF": 21577, "SBC": 897, "FCF_post_SBC": 20680, "BN": 20058, "FCF_menos_BN": 1519, "pct_ventas": 3.8, "sloan_pct": -3.09}
+    },
+    "signo_del_devengo": "CFO por encima del beneficio neto en 6 de 7 ejercicios. Unica excepcion FY2020 (CFO 10.440 vs BN 10.866, brecha de solo 426 M USD, ano COVID). Devengo negativo y sostenido = conservador.",
+    "sloan": "Maximo absoluto del periodo 4,62% (FY2022) y SIEMPRE de signo negativo salvo FY2020 (+0,56%). Umbral 5% no se roza por el lado peligroso en ningun ano.",
+    "test_GE_volatilidad": "El BN ES menos volatil que el CFO (desv. tipica del crecimiento interanual: BN ~11 p.p. vs CFO ~22 p.p.). PERO el delator de General Electric exige la combinacion 'BN alisado POR ENCIMA del CFO'. Aqui es al reves: el BN alisado va SISTEMATICAMENTE POR DEBAJO del CFO. La volatilidad del CFO viene del circulante de incentivos a clientes (FY2025: devengo +15.751 contra pago -15.314) y de los pagos de litigios, no de un alisamiento del beneficio. NO hay delator GE.",
+    "nota_SBC": "FCF calculado tambien restando el 100% de la SBC sin devolverla. Incluso asi el FCF post-SBC supera al BN en 4 de 7 anos. La SBC es 2,2% de ventas en FY2025 y las acciones diluidas CAEN (BPA diluido FY2025 10,20 sobre BN 20.058 = ~1.966 M acciones; FY2019 ~2.271 M): recompras netas > dilucion.",
+    "cifra": "CFO > BN en 6 de 7 ejercicios; brecha media FY2021-FY2025 = +2.760 M USD/ano (+8,4% de ventas). Sloan maximo -4,62%, siempre por el lado conservador.",
+    "cita": "10-K FY2025, Consolidated Statements of Cash Flows: 'Net income $20,058 ... Net cash provided by (used in) operating activities 23,059' y 'Purchases of property, equipment and technology (1,482)'."
+  },
+
+  "G1_ROIC": {
+    "veredicto": "SI",
+    "metodo": "NOPAT = Resultado de explotacion x (1 - tipo impositivo efectivo). Capital invertido por el lado financiero: Fondos propios + Deuda total - Efectivo - Escrow de litigios restringido - Cartera de inversion (corriente y no corriente). Verificado por el lado operativo (activos operativos - pasivos sin coste) con cuadre exacto en FY2025: 40.094 M por ambas vias.",
+    "serie": {
+      "2019": {"NOPAT": 12175, "NOPAT_sobre_ventas_pct": 53.0, "capital_invertido": 35977, "ROIC_pct": 33.8},
+      "2020": {"NOPAT": 11095, "NOPAT_sobre_ventas_pct": 50.8, "capital_invertido": 39107, "ROIC_pct": 29.6},
+      "2021": {"NOPAT": 12112, "NOPAT_sobre_ventas_pct": 50.2, "capital_invertido": 37455, "ROIC_pct": 31.6},
+      "2022": {"NOPAT": 15515, "NOPAT_sobre_ventas_pct": 52.9, "capital_invertido": 35924, "ROIC_pct": 42.3},
+      "2023": {"NOPAT": 17243, "NOPAT_sobre_ventas_pct": 52.8, "capital_invertido": 35383, "ROIC_pct": 48.4},
+      "2024": {"NOPAT": 19478, "NOPAT_sobre_ventas_pct": 54.2, "capital_invertido": 39164, "ROIC_pct": 52.3},
+      "2025": {"NOPAT": 19892, "NOPAT_sobre_ventas_pct": 49.7, "capital_invertido": 40094, "ROIC_pct": 50.2}
+    },
+    "minimo_ventana": "ROIC minimo 29,6% (FY2020, ano COVID). Umbral 20% superado con 9,6 p.p. de holgura en el peor ano; umbral 2x WACC (referencia 10% -> 20%) superado igual.",
+    "higiene_denominador": "MEDIBLE. El capital invertido oscila entre 35.383 y 40.094 M USD (media 37.586). El minimo esta al 94% de la media, muy lejos del corte del 20%. No cruza cero ni se acerca. El ratio mide, no amplifica.",
+    "nota_conservadora": "El denominador incluye INTEGRAMENTE el fondo de comercio (19.879 M) y los intangibles (27.646 M) de la compra de Visa Europe: 47.525 M USD, mas que todo el capital invertido. Sobre base tangible el capital invertido es NEGATIVO (~-7.400 M) con NOPAT positivo -> seria PASADA POR CONSTRUCCION. Se ha elegido la version dura y aun asi pasa con holgura.",
+    "cifra": "ROIC minimo de ventana 29,6% (FY2020); mediana 42,3%; FY2025 50,2%. NOPAT/ventas nunca baja del 49,7%.",
+    "cita": "10-K FY2025, Consolidated Statements of Operations: 'Operating income 23,994 ... Income before income taxes 24,194 ... Income tax provision 4,136 ... Net income $20,058'; Balance: 'Total equity 37,909', 'Long-term debt 19,602', 'Current maturities of debt 5,569', 'Cash and cash equivalents $17,164'."
+  },
+
+  "G3_PRECIO": {
+    "veredicto": "NO",
+    "magnitud_fisica_publicada": "Visa SI publica una magnitud unitaria fisica: 'Visa processed transactions' (recuento de transacciones). Por tanto la puerta ES MEDIBLE — no procede NO_MEDIBLE.",
+    "series": {
+      "transacciones_procesadas_millones": {"2019": 138329, "2020": 140839, "2021": 164734, "2022": 192530, "2023": 212579, "2024": 233758, "2025": 257545},
+      "volumen_de_pagos_nominal_miles_millones_USD": {"2019": 8615, "2020": 8713, "2021": 9971, "2022": 11464, "2023": 12088, "2024": 12988, "2025": 13894},
+      "ingreso_neto_por_transaccion_USD": {"2019": 0.1661, "2020": 0.1551, "2021": 0.1463, "2022": 0.1522, "2023": 0.1536, "2024": 0.1537, "2025": 0.1553},
+      "ingreso_bruto_por_transaccion_USD": {"2019": 0.2107, "2020": 0.2024, "2021": 0.1971, "2022": 0.2054, "2023": 0.2115, "2024": 0.2126, "2025": 0.2165},
+      "rendimiento_neto_sobre_volumen_pct": {"2019": 0.267, "2020": 0.251, "2021": 0.242, "2022": 0.256, "2023": 0.270, "2024": 0.277, "2025": 0.288}
+    },
+    "elasticidad_medida": {
+      "TACC_ingreso_neto_6y_pct": 9.68,
+      "TACC_ingreso_bruto_6y_pct": 11.41,
+      "TACC_transacciones_6y_pct": 10.91,
+      "TACC_volumen_pagos_6y_pct": 8.29,
+      "precio_mix_neto_por_transaccion_pct": -1.23,
+      "precio_mix_bruto_por_transaccion_pct": 0.50,
+      "precio_mix_neto_por_dolar_de_volumen_pct": 1.39,
+      "IPC_EEUU_TACC_sep2019_sep2025_pct": 4.0,
+      "umbral_exigido_pct": 5.0
+    },
+    "veredicto_razonado": "Bajo LOS TRES denominadores posibles el precio/mix medido queda entre -1,2% y +1,4% anual, frente a un umbral de 5,0% (IPC 4,0% + 100 pb). El fallo no es un artefacto de la eleccion del denominador: es robusto en las tres lecturas y el mejor caso queda a 3,6 p.p. del listón.",
+    "prueba_dura_adicional": "Los incentivos a clientes (contraingreso, concesion de precio al lado emisor de la red) han pasado de 21,2% de los ingresos brutos en FY2019 a 28,3% en FY2025, subiendo de forma MONOTONA los seis anos (21,2 / 23,4 / 25,8 / 25,9 / 27,4 / 27,7 / 28,3). En seis anos Visa ha devuelto 7,1 puntos porcentuales mas de su facturacion bruta a los bancos emisores. Eso es una CONCESION de precio medida, no un poder de precio.",
+    "delator_Kraft_Heinz": "NO aplica en su forma clasica. El volumen NUNCA cae: transacciones +1,8% incluso en FY2020, y volumen de pagos +1%. Y el margen NOPAT no sube (53,0% en FY2019 -> 49,7% en FY2025). No hay cosecha del foso; hay un compounder de VOLUMEN con tasa de captura plana.",
+    "argumento_contrario_considerado_y_rechazado": "Visa declara literalmente 'select pricing modifications' como motor de ingresos cada ejercicio, y el rendimiento neto sobre volumen de pagos SI ha subido de 0,267% a 0,288%. Es poder de precio real, pero de magnitud +1,4% anual — un tercio del umbral. Ademas nunca lo cuantifica en el filing. Un poder de precio que no llega ni a la inflacion no es el poder de precio que esta puerta pide.",
+    "cifra": "Precio/mix medido FY2019-FY2025: -1,2% anual por transaccion procesada (neto), +0,5% (bruto), +1,4% por dolar de volumen. Umbral 5,0%. Incentivos a clientes: 21,2% -> 28,3% de los ingresos brutos.",
+    "cita": "10-K FY2025: 'Service revenue $17,539 ... Data processing revenue 19,993 ... International transaction revenue 14,166 ... Other revenue 4,053 ... Client incentives (15,751) ... Net revenue $40,000' y 'Visa processed transactions 257,545'. 10-K FY2020: 'Client incentives (6,664) (6,173)' y 'Visa processed transactions 140,839 138,329 124,320'."
+  },
+
+  "G4_RECESION": {
+    "veredicto": "NO_PROBADA",
+    "test_de_contraccion_severa": "Visa NUNCA ha atravesado una contraccion sectorial de -30% pico a valle en su vida cotizada (salida a bolsa marzo 2008). Crisis financiera: ingresos FY2009 6.911 M vs FY2008 6.263 M = +10,4%; CRECIO durante la GFC. COVID: peor ejercicio de su historia con ingresos netos FY2020 21.846 vs 22.977 = -4,9%; volumen de pagos +1%; transacciones procesadas +1,8%. El segmento mas castigado, ingresos por transaccion internacional, cayo -19,3% (7.804 -> 6.299), con volumen transfronterizo ex-Europa -23%. Ninguna magnitud sectorial se acerca a -30%.",
+    "cicatriz_buscada_y_NO_ENCONTRADA": "El requisito de cicatriz tampoco se cumple. En FY2020 Visa RECORTO gasto discrecional en lugar de sostenerlo: Marketing 971 M vs 1.105 M = -12,1%; Servicios profesionales 408 vs 454 = -10,1%; G&A 1.096 vs 1.196 = -8,4%; capex 736 vs 756 = -2,6%; gasto operativo total -3% con ingresos -5%. Es exactamente lo CONTRARIO del precedente ASML 2009 (I+D sostenida al 29% de unas ventas hundidas). Lo unico que Visa sostuvo fue personal (+10,0%, 3.785 vs 3.444) y emitio 7.212 M de deuda nueva. No hay linea del P&L ni del balance que se deteriorara para financiar una ofensiva competitiva.",
+    "ofensiva_frente_a_rivales": "Se examino la hipotesis contraria: en el ano natural 2020 Mastercard cayo -9,4% y American Express -17% en ingresos, mas que el -4,9% de Visa; Visa intento comprar Plaid por 5.300 M USD (enero 2020, abandonada en enero 2021 tras la demanda del DOJ) y cerro YellowPepper. Es una foto de resiliencia relativa, no de expansion del foso pagada con una cicatriz. Y aunque se concediera la puerta, no cambiaria la etiqueta final.",
+    "cifra": "Peor contraccion de la ventana: ingresos netos -4,9% en FY2020, muy lejos del -30% sectorial exigido. Marketing RECORTADO -12,1% en el ano malo (1.105 -> 971 M USD).",
+    "cita": "10-K FY2020: 'Net revenues $21,846 $22,977 ... $(1,131) ... (5)%'; 'Marketing 971 1,105 988 (134) ... (12)%'; 'Total operating expenses $7,765 $7,976 ... (3)%'; 'International transaction revenues 6,299 7,804 ... (19)%'."
+  },
+
+  "G2_PISTA": {
+    "veredicto": "NO",
+    "aviso_metodologico_corregido": "La tasa de reinversion que entra en g = tasa x ROIIC va sobre el NOPAT. La tasa que juzga el UMBRAL de esta puerta va sobre VENTAS. Se reportan por separado y no se confunden.",
+    "reinversion_definicion": "capex + I+D + marca (marketing) + adquisiciones + variacion de circulante. Visa NO desglosa I+D en el filing (va repartida en 'Personnel' y 'Network and processing'): hueco declarado, no rellenado. La variacion de circulante se fija en 0 de forma conservadora porque en el periodo fue FUENTE neta de caja (el pasivo por incentivos crecio de 4.176 a 10.369 M mientras el activo por incentivos crecio de 4.389 a 7.315 M): contarla habria REDUCIDO el denominador e inflado el ROIIC.",
+    "reinversion_5y_FY2021_FY2025_millones": {"capex": 5473, "marketing": 7057, "adquisiciones": 3825, "variacion_circulante": 0, "total": 16355},
+    "reinversion_sobre_VENTAS_pct": 10.1,
+    "reinversion_pct_NOPAT": 19.4,
+    "umbral_puerta": "reinversion >= 25% de VENTAS",
+    "resultado_umbral": "SUSPENDE POR MAGNITUD: 10,1% de ventas frente al 25% exigido. Ni sumando el 100% de 'Network and processing' (894 M en FY2025) se llega al 15%.",
+    "ROIIC": {
+      "delta_NOPAT_FY2020_a_FY2025_millones": 8797,
+      "denominador_reinversion_5y_millones": 16355,
+      "roiic_bruto_pct": 53.8,
+      "descomposicion": {
+        "margen_NOPAT_FY2020_pct": 50.79,
+        "margen_NOPAT_FY2025_pct": 49.73,
+        "parte_volumen_a_margen_constante_millones": 9220,
+        "parte_expansion_de_margen_millones": -423
+      },
+      "roiic_ex_margen_pct": 56.4,
+      "lectura": "El ROIIC EX-MARGEN (56,4%) es SUPERIOR al bruto (53,8%) porque el margen se CONTRAJO en la ventana. Es decir: el 100% del crecimiento del NOPAT — y algo mas — viene de productividad del capital y volumen, cero de inflado de margen. Es la mejor version posible de un ROIIC. (El margen FY2025 esta deprimido por una provision de litigios de 2.562 M; normalizando con FY2024 al 54,2% el ROIIC bruto subiria a ~65%.)"
+    },
+    "consideracion_rechazada": "Se evaluo si los 15.751 M de incentivos a clientes deben contar como 'reinversion en la red' (adquisicion y retencion de clientes). Se RECHAZA: son concesiones de precio recurrentes de naturaleza operativa, no inversion capitalizable en capacidad futura. Si se contaran, la reinversion saltaria a 49% de ventas y la puerta pasaria — pero seria hacer trampa con la definicion.",
+    "consecuencia": "G2 NO SUSPENDE la tesis: decide la ESPECIE. Visa es una maquina de caja de capital ligero que devuelve casi todo (FY2025: 18.316 M de recompras + 4.634 M de dividendos = 22.950 M frente a 16.355 M de reinversion en CINCO anos). Especie C, no R.",
+    "cifra": "Reinversion 10,1% de ventas (umbral 25%) y 19,4% del NOPAT. ROIIC bruto 53,8%; ROIIC ex-margen 56,4% (umbral 15%).",
+    "cita": "10-K FY2025: 'Purchases of property, equipment and technology (1,482)'; 'Acquisitions, net of cash and restricted cash acquired (887)'; 'Marketing 1,684'; 'Repurchases of class A common stock (18,316)'; 'Dividends paid (4,634)'."
+  },
+
+  "G6_MECANISMO": {
+    "veredicto": "SI",
+    "poder_de_Helmer": "ECONOMIAS DE RED (two-sided network effect) como poder primario, reforzado por ESCALA (coste marginal de la transaccion numero 258.000.000.000 practicamente nulo sobre una red de coste fijo) y por COSTES DE CAMBIO del lado emisor (14.500 instituciones financieras integradas contractualmente).",
+    "magnitud_en_la_unidad_propia_del_poder": "La unidad propia de una economia de red son NODOS y CONEXIONES entre los dos lados: cerca de 5.000 millones de credenciales de pago emitidas frente a mas de 175 millones de puntos de aceptacion, en mas de 200 paises. La capa fundacional conecta aproximadamente 12.000 millones de tarjetas, cuentas bancarias y monederos digitales. Rendimiento del acoplamiento: 329.000 millones de transacciones con marca Visa en FY2025 (258.000 millones procesadas por Visa), 901 millones de transacciones al DIA, 17 billones de USD de volumen total. El producto cruzado 5e9 x 1,75e8 = 8,75e17 pares potenciales es un numero que ningun aspirante puede replicar por gasto: solo se acumula por tiempo y por adopcion simultanea de ambos lados.",
+    "caducidad_estimada": "Por encima de 10 anos, con holgura. Test de sustitucion: los rieles alternativos que llevan una decada anunciados (A2A, Pix, UPI, FedNow, monederos cerrados) NO han detenido el crecimiento del lado que importa — las transacciones procesadas crecen +10% en FY2025 y +10% en FY2024, aceleradas respecto al +7% del volumen en dolares. Y Visa esta comprando los rieles rivales en vez de defenderse de ellos (Tink para banca abierta y A2A en Europa, Currencycloud, Pismo).",
+    "busqueda_de_arranque_del_reloj_a_24_meses": "Se busco activamente y se encontraron cuatro relojes, ninguno de los cuales arranca de forma probada en 24 meses: (1) DOJ, demanda antimonopolio sobre debito en EEUU (cadena de CIDs de 2012, 2021, 2023) — es el mas material, pero afecta al debito estadounidense, no a la red global, y ningun remedio judicial se materializa en 24 meses; (2) el fallo del Tribunal de Distrito de Dakota del Norte podria llevar a la Reserva Federal a bajar significativamente el tope de intercambio de debito — golpea al EMISOR, no a la tasa de red de Visa; (3) la Credit Card Competition Act podria reintroducirse — no es ley, es una posibilidad declarada en el propio 10-K; (4) stablecoins y comercio agentico — Visa las esta integrando como producto, no sufriendolas. Riesgo real y creciente en los BORDES regulatorios; el mecanismo central no tiene fecha de caducidad visible dentro de la decada.",
+    "poder": "Economias de red de dos lados (Helmer: network economies), reforzadas por escala y costes de cambio del emisor",
+    "magnitud": "~5.000 millones de credenciales de pago x mas de 175 millones de puntos de aceptacion en mas de 200 paises; 12.000 millones de tarjetas/cuentas/monederos conectados; 258.000 millones de transacciones procesadas y 17 billones de USD de volumen en FY2025; 901 millones de transacciones al dia",
+    "caducidad": "> 10 anos. Relojes vigilados: demanda del DOJ sobre debito en EEUU, tope de intercambio de la Fed tras el caso de Dakota del Norte, reintroduccion de la Credit Card Competition Act, rieles A2A y stablecoins. Ninguno con arranque probado a 24 meses.",
+    "cita": "10-K FY2025, Item 1: 'During fiscal 2025, Visa's total payments and cash volume was $17 trillion, and we had nearly 5 billion payment credentials, which are issued Visa card accounts, that were available to be used at more than 175 million merchant locations worldwide'; 'During fiscal 2025, 329 billion payments and cash transactions with Visa's brand were processed by Visa or other networks, equating to an average of 901 million transactions per day. Of the 329 billion total transactions, 258 billion were processed by Visa.'"
+  },
+
+  "etiqueta": "MUY_BUENA",
+  "puertas_pasadas": 5,
+  "aritmetica_de_la_etiqueta": "De las seis puertas hay UNA sola suspension neta: G3. G5 (SI_REFORZADO), G1 (SI) y G6 (SI) pasan. G2 sale NO pero por regla explicita NO SUSPENDE — solo fija la especie (habria sido ULTRA-C). G4 sale NO_PROBADA, que no es un fallo sino un techo (habria capado en PRESUNTA). Con G3 en NO no se puede alcanzar ULTRA ni PRESUNTA: cinco de seis = MUY_BUENA.",
+  "confianza": "MEDIA",
+  "por_que_esa_confianza": "La etiqueta es ROBUSTA a la puerta que mas me costo razonar (G4): aunque un juez concediera que la COVID fue contraccion severa y otorgara G4, la etiqueta seguiria siendo MUY_BUENA porque G3 falla igual. Tambien es robusta a la eleccion de denominador dentro de G3: los tres denominadores posibles dan entre -1,2% y +1,4% frente a un umbral de 5,0%. El unico camino a una etiqueta distinta es declarar G3 NO_MEDIBLE en vez de NO — y eso seria un error de aplicacion de la regla, porque Visa SI publica una magnitud unitaria fisica (transacciones procesadas). Sospecho que ahi esta exactamente la fractura entre los dos juicios anteriores.",
+  "puerta_mas_dudosa": "G3",
+  "resumen": "Visa es un negocio extraordinario que falla la puerta de PRECIO. El motor de caja es de manual (CFO por encima del beneficio neto en 6 de 7 anos, Sloan siempre por el lado conservador) y el ROIC no baja del 29,6% ni en el peor ano, cargando ademas los 47.500 M de fondo de comercio e intangibles de Visa Europe. El mecanismo es una red de dos lados con 5.000 millones de credenciales contra 175 millones de puntos de aceptacion, sin caducidad visible en la decada. Pero cuando se mide la elasticidad en vez de mirar el margen, el precio/mix realizado entre FY2019 y FY2025 esta entre -1,2% y +1,4% anual frente a un umbral de 5,0%, y los incentivos a clientes han subido de forma monotona del 21,2% al 28,3% de la facturacion bruta: Visa devuelve cada ano una porcion mayor de lo que factura a los bancos emisores. Es un compounder de VOLUMEN con tasa de captura plana, no una empresa con poder de precio por encima de la inflacion. A eso se suma que nunca ha sido examinada por una contraccion severa (crecio 10,4% en la crisis financiera y solo cayo 4,9% en la COVID, ano en el que ademas RECORTO marketing un 12%, lo contrario del precedente ASML) y que reinvierte solo el 10,1% de sus ventas — con un ROIIC ex-margen del 56,4%, extraordinario, pero sobre una base pequena. Una puerta suspendida: MUY_BUENA."
+}

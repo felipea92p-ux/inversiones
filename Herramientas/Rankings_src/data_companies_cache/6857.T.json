@@ -1,0 +1,102 @@
+{
+ "ticker": "6857.T",
+ "name": "Advantest Corporation",
+ "asof_date": "2026-06-22",
+ "currency": "JPY",
+ "price": 32170,
+ "market_cap_usd_b": 144.4,
+ "fwd_pe": 50.1,
+ "fwd_pe_5y_avg": 33.5,
+ "pe_prem_disc_pct": 49.6,
+ "peg": 2.1,
+ "last_q": {
+  "period": "Q4 FY2025 (Jan-Mar 2026, ended 2026-03-31)",
+  "revenue": "JPY 328.1B",
+  "rev_yoy_pct": 41.2,
+  "op_margin_pct": 46.7,
+  "eps_gaap": "~JPY 175 (Q4 std., net income JPY 126.9B / ~725.5M sh)",
+  "eps_adj": "n/a (IFRS; incl. JPY 17.3B one-off financial income from call-option exercise)"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended 2026-03-31)",
+  "revenue": "JPY 1,128.6B",
+  "organic_growth_pct": 44.7,
+  "roic_pct": null,
+  "fcf": "JPY 300.6B",
+  "fcf_margin_pct": 26.6
+ },
+ "sbc_pct_revenue": null,
+ "sbc_pct_fcf": null,
+ "net_debt_usd_b": -2.1,
+ "nd_ebitda": -0.65,
+ "net_cash": true,
+ "guidance_fy": "FY2026 (ending 2027-03-31) PROJECTION: net sales JPY 1,420.0B (+25.8%), operating income JPY 627.5B (+25.7%, margin 44.2%), income before tax JPY 629.0B (+21.7%), net income JPY 465.5B (+24.0%), basic EPS JPY 641.61. FX assumptions: 1 USD=150 JPY, 1 EUR=170 JPY. Dividend for FY2026 not yet decided.",
+ "pct_off_52w_high": -1.2,
+ "pct_off_ath": -1.2,
+ "drop_classification": "not_depressed",
+ "data_quality": "VERIFICADO_mostly",
+ "incomplete": false,
+ "verified_fields": [
+  "price",
+  "currency",
+  "asof_date",
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "net_cash",
+  "net_debt_usd_b",
+  "guidance_fy",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "drop_classification"
+ ],
+ "estimated_fields": [
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "nd_ebitda",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "last_fy.roic_pct"
+ ],
+ "sources": [
+  {
+   "label": "Advantest IR - FY2025 Consolidated Financial Results (E_FR_FY2025_FN.pdf, IFRS, year ended Mar 31 2026)",
+   "url": "https://www.advantest.com/en/news/2026/a81o6o0000000hgw-att/E_FR_FY2025_FN.pdf",
+   "date": "2026-04-27"
+  },
+  {
+   "label": "Advantest IR - FY25 Financial Briefing presentation (Q4 quarterly detail, cash flow, balance sheet, segments)",
+   "url": "https://www.advantest.com/document/ja/investors/ir-library/result/JE_BIZ_260427_note.pdf",
+   "date": "2026-04-27"
+  },
+  {
+   "label": "Advantest IR - FY2026 Earnings Forecast page",
+   "url": "https://www.advantest.com/en/investors/financial-highlights/forecast/",
+   "date": "2026-04-27"
+  },
+  {
+   "label": "StockAnalysis.com - Advantest 6857 quote (price, mkt cap, fwd P/E, 52-week range)",
+   "url": "https://stockanalysis.com/quote/tyo/6857/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "AlphaSpread - Advantest 6857 P/E historical (5-year avg ~33.5x)",
+   "url": "https://www.alphaspread.com/security/tse/6857/relative-valuation/ratio/price-to-earnings",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "TradingEconomics - USD/JPY spot rate ~161.55 (for USD conversion)",
+   "url": "https://tradingeconomics.com/japan/currency",
+   "date": "2026-06-22"
+  }
+ ],
+ "notes": "DROP CLASSIFICATION: not_depressed. Stock is at/near ALL-TIME HIGH (~JPY 32,170 vs 52w high/ATH ~JPY 32,400-32,570; +310% over the past year). No depressed valuation to classify; only notable pullback was a ~10% one-day dip after the Apr 27 2026 results despite record numbers (profit-taking at the top, not deterioration). Fundamentals accelerating: FY25 sales +44.7%, OI +118.8% to record JPY 499.1B (44.2% margin), net income +132.9% to JPY 375.4B, record FCF JPY 300.6B; Q4 sales +41.2% YoY, 67.4% gross margin, 46.7% op margin. AI/HPC tester demand driven (SoC Test Systems JPY 1,019.4B of FY25 sales). FY26 guidance: another record year (+25.8% sales).\n\nVALUATION CAVEAT: fwd_pe=50.1 = current price JPY 32,170 / company FY26 guidance EPS JPY 641.61. Aggregator StockAnalysis shows fwd P/E 45.8 using higher (consensus) FY26 EPS exceeding conservative IR guidance (guidance assumes 150 JPY/USD vs ~161 spot, so consensus likely models weaker yen / higher EPS). True fwd P/E ~45-50x; either way a large premium (~+37% to +50%) over the ~33.5x 5y avg. PEG ~2.1 (off 24% guided net-income growth). 5y avg 33.5x from AlphaSpread trailing/forward history (not a clean fwd-P/E series) -> fwd_pe_5y_avg and pe_prem_disc flagged ESTIMATED.\n\nBALANCE SHEET: Net cash. Cash & equivalents JPY 340.0B at Mar 31 2026; ~JPY 75.7B short-term borrowings at Dec 31 fully repaid in Q4 -> essentially zero interest-bearing debt at FY-end. Net cash ~JPY 340B = +$2.1B (net_debt_usd_b reported negative). EBITDA proxy = OI 499.1 + D&A 25.6 = ~JPY 524.7B; ND/EBITDA ~-0.65 (net cash). Equity attrib. to parent JPY 795.7B; equity ratio 67.9%; ROE 57.6% (VERIFIED). Annual report (full footnotes) files 2026-06-26.\n\nSBC: No exact stock-based-comp figure available from primary materials yet (detailed footnotes are in the annual report due 2026-06-26). Advantest uses share-remuneration (performance/restricted share) plans but expense is immaterial vs scale (FY25 rev JPY 1,128.6B; OI JPY 499.1B; FCF JPY 300.6B); treasury only 6.48M of 732M issued. sbc_pct_revenue and sbc_pct_fcf null/ESTIMATED; for R9 SBC is a non-issue (well under ~0.3% of revenue based on plan scale). Not a US filer, so no SEC cash-flow SBC line; exact yen amount to be confirmed from June 26 annual report.\n\nROIC: not directly disclosed; with net-cash balance sheet, ~44% op margin, JPY 499B OI on a modest invested-capital base, ROIC is very high (broadly tracking 57.6% ROE). last_fy.roic_pct left null to avoid a fabricated figure; flagged ESTIMATED.\n\nQ4 EPS: company publishes no standalone quarterly EPS; eps_gaap ~JPY 175 derived (Q4 NI JPY 126.9B / ~725.5M avg shares ex-treasury) and includes a one-off ~JPY 17.3B pre-tax financial gain from exercising share call options (closed-Jan-2025 strategic investment) -> recurring Q4 op margin 46.7% is the cleaner read. Core operating margin FY25 = 44.0% (excl. other income/expense)."
+}

@@ -1,0 +1,59 @@
+{
+ "ticker": "ATCO-B.ST",
+ "name": "Atlas Copco AB",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Modelo industrial de alta calidad (margen op. 20.3% FY2025) pero NO escala con volumen como software/redes; margenes ya maduros, sin apalancamiento operativo monstruoso, asi que base 1.0, no 2.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Exposicion a vientos seculares duraderos (vacuum/semiconductores, descarbonizacion, electrificacion, automatizacion industrial); el repunte de organico en vacuum en Q1 2026 confirma el motor, justifica 1.5."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Lider #1/#2 global indiscutido en compresores y vacuum industrial con cuotas dominantes sostenidas durante decadas; fuerte pero no deja al 2o a anios-luz en todos los segmentos, 1.5 no 2.0."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat solido por costes de cambio, base instalada masiva y aftermarket recurrente (~servicio de alto margen) + intangibles de ingenieria; durable pero replicable parcialmente por Ingersoll/otros, 1.5."
+  },
+  "R5": {
+   "score": 1,
+   "just": "Crecimiento ORGANICO real (+3% organico Q1 2026, ordenes +5% organico) tras un suelo ciclico (FY2025 solo +1% organico); sano pero modesto y ciclico, base 1.0."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Diversificacion excelente: 4 areas de negocio, multi-geografia global y miles de clientes sin concentracion >10-15%; aftermarket amortigua ciclo, justifica 1.5."
+  },
+  "R7": {
+   "score": 2,
+   "just": "ROCE 24% muy por encima del WACC, FCF SEK 26.8B (margen ~15.9%), capex ligero por modelo asset-light de ensamblaje + aftermarket; economia de capital excepcional, 2.0."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Balance muy solido: ND/EBITDA 0.5x (verificado), deuda neta modesta ~$1.5B; no es caja neta asi que no 2.0, pero apalancamiento minimo justifica 1.5."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "Contabilidad limpia tipo nordico, SBC estructuralmente negligible (sbc_pct_fcf ~0.5%, LTIP ~0.16% de acciones); muy dentro de umbrales R9, calidad contable superior, 1.5."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Gobierno Wallenberg/Investor AB con skin-in-the-game, historial de asignacion de capital disciplinada (M&A bolt-on de alto ROIC + dividendos), 1.5."
+  }
+ },
+ "amplification": false,
+ "amplification_note": "R1 es solo 1.0 (modelo industrial maduro, no escala como software); aunque R3 y R4 son fuertes (1.5 cada uno), no hay el refuerzo monstruoso e irreplicable de R1+R3+R4 que exige la amplificacion. Es un compounder industrial de calidad excepcional, no una plataforma de dominancia explosiva.",
+ "moat_type": "Costes de cambio / base instalada",
+ "moat_one_line": "Base instalada global enorme que genera servicio/aftermarket recurrente de alto margen con altos costes de cambio, reforzada por liderazgo tecnologico en compresores y vacuum.",
+ "thesis_3lines": [
+  "Calidad excepcional: ROCE 24%, margen operativo 20%+, FCF margin ~16% y balance casi sin deuda (ND/EBITDA 0.5x) con contabilidad nordica limpia y SBC negligible.",
+  "Motor de crecimiento: lider global en compresores y vacuum apalancado a vientos seculares (semiconductores, descarbonizacion, automatizacion); organico re-acelerando (+3% ventas, +5% ordenes en Q1 2026) tras suelo ciclico.",
+  "Valoracion/retorno: cotiza a PRIMA (fwd P/E ~30x vs media 5a ~26-27x, PEG ~4.3 con EPS creciendo solo ~8%/ano) y AT max de 52 semanas; calidad sobresaliente pero retorno limitado por precio rico, sin margen de seguridad."
+ ],
+ "bear_case_strongest": "A ~30x fwd P/E y PEG ~4.3 con EPS creciendo solo ~8%/ano, en el pico del ciclo y AT max de 52 semanas tras +32% en 12m, la accion descuenta perfeccion: una decepcion ciclica o de FX comprime multiplo y beneficios a la vez, dando retorno pobre pese a un negocio sobresaliente.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Score total ponderado = 14.5/13.5 nominal -> el techo es 13.5, por lo que se interpreta como TOPE 13.5 (calidad maxima). Desglose: R1 1.0, R2 1.5, R3 1.5, R4 1.5, R5 1.0, R6 1.5, R7 2.0, R8 1.5, R9 1.5, R10 1.5 = 14.5 bruto, capado a 13.5. Negocio de calidad de elite pero la VALORACION es el unico verdadero pero: prima ~12% sobre su media historica, PEG ~4.3 y cotizando en maximos = punto de entrada poco atractivo, sin margen de seguridad (drop_classification=not_depressed). data_quality MIXED: fundamentales operativos VERIFICADOS de IR; multiplos, net debt USD, SBC% y market cap son estimaciones de agregadores. fwd_pe/5y-avg son de ATCO-A (economia identica a B). Guidance solo cualitativo ('customer activity at current level')."
+}

@@ -1,0 +1,850 @@
+{
+  "radar": {
+    "titulo": "El foso y el gobierno hunden el score, no la escalabilidad",
+    "sub": "Once reglas Quality Growth normalizadas a escala 0-10; RAW 79/125 = 63,2/100, tier Watchlist",
+    "puntos": [
+      9,
+      6,
+      9,
+      8,
+      6,
+      8,
+      7,
+      9,
+      9,
+      5,
+      3
+    ],
+    "pesos": [
+      15,
+      10,
+      15,
+      15,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  "tier_sensibilidad": {
+    "titulo": "El tier nunca dependio de la regla en disputa",
+    "sub": "Score de calidad segun el juicio sobre R1; ni el techo procedimental de 10,5 cruza el corte de 65",
+    "corte": 65,
+    "lecturas": [
+      {
+        "etiqueta": "R1=6",
+        "score": 60.8,
+        "estado": "rojo"
+      },
+      {
+        "etiqueta": "R1=8",
+        "score": 62.4,
+        "estado": "rojo"
+      },
+      {
+        "etiqueta": "R1=8,5",
+        "score": 62.8,
+        "estado": "rojo"
+      },
+      {
+        "etiqueta": "R1=9\n(adoptado)",
+        "score": 63.2,
+        "estado": "rojo"
+      },
+      {
+        "etiqueta": "R1=10,5\n(techo)",
+        "score": 64.4,
+        "estado": "rojo"
+      },
+      {
+        "etiqueta": "R1=12\n(inalcanzable)",
+        "score": 65.6,
+        "estado": "gris"
+      },
+      {
+        "etiqueta": "R1=15\n(inalcanzable)",
+        "score": 68.0,
+        "estado": "gris"
+      }
+    ]
+  },
+  "escalabilidad": {
+    "titulo": "Sesenta y ocho centimos de cada euro se van antes de empezar",
+    "sub": "Coste variable sobre ingresos; Spotify de sus cuentas FY2025, comparables con cifras publicas redondeadas",
+    "empresas": [
+      {
+        "nombre": "Spotify",
+        "coste_variable": 68
+      },
+      {
+        "nombre": "Netflix",
+        "coste_variable": 55
+      },
+      {
+        "nombre": "Microsoft",
+        "coste_variable": 31
+      },
+      {
+        "nombre": "Adobe",
+        "coste_variable": 11
+      }
+    ]
+  },
+  "margen": {
+    "titulo": "La mayor palanca del margen es la que no se divulga",
+    "sub": "Descomposicion del margen bruto FY2019-FY2025 en puntos porcentuales; el mayor tramo nunca se cuantifica",
+    "pasos": [
+      {
+        "etiqueta": "MB FY2019",
+        "valor": 25.46,
+        "tipo": "total",
+        "delta": 0
+      },
+      {
+        "etiqueta": "Bundling",
+        "delta": 1.27
+      },
+      {
+        "etiqueta": "Marketplace",
+        "delta": 5.05
+      },
+      {
+        "etiqueta": "Publicidad",
+        "delta": 0.31
+      },
+      {
+        "etiqueta": "Mezcla",
+        "delta": -0.11
+      },
+      {
+        "etiqueta": "MB FY2025",
+        "valor": 31.98,
+        "tipo": "total",
+        "delta": 0
+      }
+    ]
+  },
+  "ingresos_fcf": {
+    "titulo": "El flujo de caja despego cuando el opex dejo de crecer",
+    "sub": "Ingresos y flujo de caja libre en miles de millones de euros, FY2021-FY2025",
+    "anios": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "ingresos": [
+      9.67,
+      11.73,
+      13.25,
+      15.67,
+      17.19
+    ],
+    "fcf": [
+      0.28,
+      0.02,
+      0.67,
+      2.28,
+      2.87
+    ]
+  },
+  "segmentos": {
+    "titulo": "La publicidad dejo de crecer y ahora encoge",
+    "sub": "Ingresos por segmento en miles de millones de euros; sobre cada barra, el peso de la publicidad",
+    "anios": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "premium": [
+      8.46,
+      10.25,
+      11.57,
+      13.82,
+      15.35
+    ],
+    "ads": [
+      1.21,
+      1.48,
+      1.68,
+      1.85,
+      1.84
+    ]
+  },
+  "cohortes": {
+    "titulo": "Cada suscriptor nuevo vale menos que el anterior",
+    "sub": "ARPU Premium estimado por region y erosion del ARPU global por mezcla, en euros al mes",
+    "regiones": [
+      {
+        "nombre": "Norteamerica",
+        "arpu": 7.05
+      },
+      {
+        "nombre": "Europa",
+        "arpu": 5.6
+      },
+      {
+        "nombre": "Latinoamerica",
+        "arpu": 1.95
+      },
+      {
+        "nombre": "Resto del mundo",
+        "arpu": 1.1
+      }
+    ],
+    "mix": {
+      "anios": [
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "arpu_global": [
+        4.72,
+        4.31,
+        4.29,
+        4.52,
+        4.39,
+        4.69,
+        4.63
+      ]
+    }
+  },
+  "moat": {
+    "titulo": "Cuatro capas de foso hacia el cliente, ninguna hacia el proveedor",
+    "sub": "Anios de defensa estimados por capa; el catalogo es licenciado y su precio lo fijan cuatro contrapartes",
+    "capas": [
+      {
+        "nombre": "Marca y habito",
+        "anios": 2.5,
+        "defensa": "sin poder de precio",
+        "estado": "rojo"
+      },
+      {
+        "nombre": "Biblioteca",
+        "anios": 4.0,
+        "defensa": "coste de cambio blando",
+        "estado": "ambar"
+      },
+      {
+        "nombre": "Recomendacion",
+        "anios": 6.0,
+        "defensa": "retornos crecientes sobre datos",
+        "estado": "verde"
+      },
+      {
+        "nombre": "Escala",
+        "anios": 8.5,
+        "defensa": "rehen mutuo con los sellos",
+        "estado": "verde"
+      }
+    ]
+  },
+  "cuota": {
+    "titulo": "Lidera 2,3 veces al segundo y es el unico obligado a pagarse solo",
+    "sub": "Cuota global de suscriptores al cierre de 2025 sobre 921,6 millones; Apple cayo desde 18,4% en 2020",
+    "plataformas": [
+      {
+        "nombre": "Spotify",
+        "cuota": 31.4,
+        "tipo": "standalone",
+        "foco": true
+      },
+      {
+        "nombre": "Tencent",
+        "cuota": 13.8,
+        "tipo": "standalone"
+      },
+      {
+        "nombre": "Apple Music",
+        "cuota": 12.6,
+        "tipo": "subsidiado"
+      },
+      {
+        "nombre": "YouTube",
+        "cuota": 12.4,
+        "tipo": "subsidiado"
+      },
+      {
+        "nombre": "Amazon",
+        "cuota": 8.5,
+        "tipo": "subsidiado"
+      },
+      {
+        "nombre": "NetEase",
+        "cuota": 4.8,
+        "tipo": "standalone"
+      },
+      {
+        "nombre": "Deezer",
+        "cuota": 1.0,
+        "tipo": "standalone"
+      }
+    ]
+  },
+  "matriz": {
+    "titulo": "Solo dos plataformas grandes tienen que ganar dinero con esto",
+    "sub": "Cuota de suscriptores frente a obligacion de ser rentable; tres rivales viven dentro de otro negocio",
+    "eje_x": "Cuota global de suscriptores (escala relativa)",
+    "eje_y": "Obligacion de rentabilidad autonoma",
+    "competidores": [
+      {
+        "nombre": "Spotify",
+        "x": 9.0,
+        "y": 9.0,
+        "foco": true
+      },
+      {
+        "nombre": "Tencent Music",
+        "x": 4.2,
+        "y": 8.5
+      },
+      {
+        "nombre": "Apple Music",
+        "x": 3.9,
+        "y": 2.0
+      },
+      {
+        "nombre": "YouTube Music",
+        "x": 3.0,
+        "y": 1.2
+      },
+      {
+        "nombre": "Amazon Music",
+        "x": 2.4,
+        "y": 2.6
+      },
+      {
+        "nombre": "NetEase",
+        "x": 1.6,
+        "y": 7.5
+      },
+      {
+        "nombre": "Deezer",
+        "x": 0.8,
+        "y": 5.5
+      }
+    ]
+  },
+  "fuerzas": {
+    "titulo": "Diecisiete sobre veinticinco: un entorno estructuralmente hostil",
+    "sub": "Cinco fuerzas de Porter donde 5 es maximamente adversa; la unica favorable la protege una muralla ajena",
+    "fuerzas": [
+      {
+        "nombre": "Proveedores",
+        "score": 5
+      },
+      {
+        "nombre": "Rivalidad",
+        "score": 4
+      },
+      {
+        "nombre": "Clientes",
+        "score": 3
+      },
+      {
+        "nombre": "Sustitutos",
+        "score": 3
+      },
+      {
+        "nombre": "Entrantes",
+        "score": 2
+      }
+    ]
+  },
+  "tam": {
+    "titulo": "El precio de hoy exige casi todo el mercado mundial",
+    "sub": "Embudo del mercado direccionable en dolares; hoy Spotify factura una cuarta parte del pool de 2030",
+    "niveles": [
+      {
+        "nombre": "TAM",
+        "valor": 68.6,
+        "label": "US$68,6B",
+        "nota": "Retail-DSP mundial a 2030"
+      },
+      {
+        "nombre": "SAM",
+        "valor": 52.0,
+        "label": "US$52,0B",
+        "nota": "Retail-DSP reconciliado 2025"
+      },
+      {
+        "nombre": "SOM",
+        "valor": 24.0,
+        "label": "US$24,0B",
+        "nota": "Cuota del 35% en 2030, base"
+      },
+      {
+        "nombre": "HOY",
+        "valor": 19.45,
+        "label": "US$19,5B",
+        "nota": "Ingresos FY2025, 37,4% del pool"
+      }
+    ]
+  },
+  "precios": {
+    "titulo": "Quince anios sin usar el poder de precio",
+    "sub": "Precio mensual del plan individual en EE.UU.; Netflix subio ocho veces y Spotify tres",
+    "anios": [
+      "2011",
+      "2014",
+      "2015",
+      "2017",
+      "2019",
+      "2020",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "spot": [
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      9.99,
+      10.99,
+      11.99,
+      11.99,
+      12.99
+    ],
+    "nflx": [
+      7.99,
+      8.99,
+      9.99,
+      10.99,
+      12.99,
+      13.99,
+      15.49,
+      15.49,
+      15.49,
+      17.99,
+      19.99
+    ]
+  },
+  "dcf": {
+    "titulo": "El precio supera incluso el escenario optimista",
+    "sub": "Valor por accion en dolares en tres escenarios de DCF; el mercado paga un 58,5% por encima del mejor caso",
+    "precio_hoy": 478.14,
+    "ponderado": 233.96,
+    "escenarios": [
+      {
+        "nombre": "Conservador",
+        "prob": 0.3,
+        "valor": 181.0
+      },
+      {
+        "nombre": "Base",
+        "prob": 0.5,
+        "valor": 238.02
+      },
+      {
+        "nombre": "Optimista",
+        "prob": 0.2,
+        "valor": 301.72
+      }
+    ]
+  },
+  "zonas": {
+    "titulo": "Zona burbuja: el precio dobla el valor razonable",
+    "sub": "Mapa de zonas de valoracion en dolares por accion; para tocar el valor justo el precio deberia caer un 51,1%",
+    "pwfv": 233.96,
+    "xmin": 120,
+    "xmax": 520,
+    "marcas": [
+      {
+        "x": 151.86,
+        "label": "EPV\n152",
+        "color": "gris"
+      },
+      {
+        "x": 233.96,
+        "label": "PWFV\n234",
+        "color": "rojo",
+        "ls": "--"
+      },
+      {
+        "x": 301.72,
+        "label": "OPTIMISTA\n302",
+        "color": "verde",
+        "dy": 0.3
+      },
+      {
+        "x": 478.14,
+        "label": "HOY\n478,14",
+        "color": "tinta",
+        "dy": 0.0
+      }
+    ]
+  },
+  "sensibilidad": {
+    "titulo": "Ningun supuesto razonable acerca el modelo al precio",
+    "sub": "Valor por accion en dolares segun WACC y crecimiento terminal; el maximo de toda la tabla es US$308",
+    "precio_hoy": 478.14,
+    "waccs": [
+      8.94,
+      9.94,
+      10.94,
+      11.94,
+      12.94
+    ],
+    "terminales": [
+      1.75,
+      2.25,
+      2.75
+    ],
+    "matriz": [
+      [
+        286.25,
+        296.29,
+        307.95
+      ],
+      [
+        256.28,
+        263.34,
+        271.38
+      ],
+      [
+        232.89,
+        238.02,
+        243.78
+      ],
+      [
+        214.14,
+        217.97,
+        222.21
+      ],
+      [
+        198.78,
+        201.7,
+        204.9
+      ]
+    ]
+  },
+  "dcf_inverso": {
+    "titulo": "El precio exige crecer tres veces mas rapido que en la mejor fase",
+    "sub": "Crecimiento anual de ingresos en euros necesario en 2026-2030 frente a todas las referencias disponibles",
+    "implicito": 27.42,
+    "barras": [
+      {
+        "nombre": "Precio de hoy",
+        "valor": 27.42,
+        "estado": "rojo"
+      },
+      {
+        "nombre": "Guia compania",
+        "valor": 15.0,
+        "estado": "ambar"
+      },
+      {
+        "nombre": "CAGR 3 anios",
+        "valor": 9.4,
+        "estado": "verde"
+      },
+      {
+        "nombre": "Esc. optimista",
+        "valor": 8.5,
+        "estado": "verde"
+      },
+      {
+        "nombre": "Esc. base",
+        "valor": 6.0,
+        "estado": "verde"
+      },
+      {
+        "nombre": "Esc. conserv.",
+        "valor": 3.5,
+        "estado": "verde"
+      }
+    ]
+  },
+  "management": {
+    "titulo": "Ejecucion sobresaliente, gobierno y asignacion pendientes",
+    "sub": "Seis dimensiones de gestion sobre 5; total 20 de 30, con el minimo en propiedad y adquisiciones",
+    "dimensiones": [
+      {
+        "nombre": "ROIC vs WACC",
+        "score": 5
+      },
+      {
+        "nombre": "M&A",
+        "score": 2
+      },
+      {
+        "nombre": "Insiders y\nrecompras",
+        "score": 3
+      },
+      {
+        "nombre": "Guia vs\nresultados",
+        "score": 5
+      },
+      {
+        "nombre": "Ownership",
+        "score": 2
+      },
+      {
+        "nombre": "Asignacion\nde capital",
+        "score": 3
+      }
+    ]
+  },
+  "retorno": {
+    "titulo": "Las recompras llegaron tarde pero el conteo de acciones ya baja",
+    "sub": "Recompras y SBC en millones de euros frente a acciones diluidas; la ultima columna es un trimestre",
+    "anios": [
+      "FY2021",
+      "FY2022",
+      "FY2023",
+      "FY2024",
+      "FY2025",
+      "Q1'26"
+    ],
+    "recompras": [
+      0,
+      0,
+      0,
+      0,
+      439,
+      306
+    ],
+    "sbc": [
+      223,
+      381,
+      321,
+      267,
+      247,
+      56
+    ],
+    "acciones": [
+      193.9,
+      195.8,
+      194.7,
+      207.0,
+      210.5,
+      209.3
+    ]
+  },
+  "inversores": {
+    "titulo": "Nueve tasadores, cinco PASS y cuatro HOLD, ningun BUY",
+    "sub": "Conviccion de 0 a 10 sobre cuanto capital comprometer hoy; ninguno afirma que sea un mal negocio",
+    "panel": [
+      {
+        "nombre": "Graham",
+        "conviccion": 2,
+        "veredicto": "PASS"
+      },
+      {
+        "nombre": "Buffett",
+        "conviccion": 3,
+        "veredicto": "PASS"
+      },
+      {
+        "nombre": "Munger",
+        "conviccion": 3,
+        "veredicto": "PASS"
+      },
+      {
+        "nombre": "Fisher",
+        "conviccion": 6,
+        "veredicto": "HOLD"
+      },
+      {
+        "nombre": "Lynch",
+        "conviccion": 5,
+        "veredicto": "HOLD"
+      },
+      {
+        "nombre": "Templeton",
+        "conviccion": 4,
+        "veredicto": "PASS"
+      },
+      {
+        "nombre": "Marks",
+        "conviccion": 4,
+        "veredicto": "HOLD"
+      },
+      {
+        "nombre": "Seilern",
+        "conviccion": 5,
+        "veredicto": "HOLD"
+      },
+      {
+        "nombre": "Smith",
+        "conviccion": 4,
+        "veredicto": "PASS"
+      }
+    ]
+  },
+  "riesgos": {
+    "titulo": "El riesgo grave es raro; los frecuentes son manejables",
+    "sub": "Probabilidad e impacto de 1 a 5; la concentracion de sellos es el unico con impacto existencial",
+    "riesgos": [
+      {
+        "id": "R1",
+        "nombre": "Concentracion de sellos",
+        "probabilidad": 2,
+        "impacto": 5
+      },
+      {
+        "id": "R2",
+        "nombre": "Gobernanza Co-CEO",
+        "probabilidad": 3,
+        "impacto": 3
+      },
+      {
+        "id": "R3",
+        "nombre": "Macro y publicidad",
+        "probabilidad": 3,
+        "impacto": 2
+      },
+      {
+        "id": "R4",
+        "nombre": "Litigio MLC",
+        "probabilidad": 2,
+        "impacto": 2
+      },
+      {
+        "id": "R5-R6",
+        "nombre": "Regulacion y musica IA",
+        "probabilidad": 4,
+        "impacto": 2
+      },
+      {
+        "id": "R7",
+        "nombre": "Tipo de cambio",
+        "probabilidad": 5,
+        "impacto": 1
+      }
+    ]
+  },
+  "proyeccion": {
+    "titulo": "Ni el escenario optimista alcanza el precio de hoy antes de 2031",
+    "sub": "Valor por accion en dolares compuesto al coste de capital del 10,94% desde cada escenario de DCF",
+    "precio_hoy": 478.14,
+    "anios": [
+      "2026",
+      "2027",
+      "2028",
+      "2029",
+      "2030",
+      "2031"
+    ],
+    "conservador": [
+      181.0,
+      200.8,
+      222.77,
+      247.14,
+      274.18,
+      304.17
+    ],
+    "base": [
+      238.02,
+      264.06,
+      292.95,
+      325.01,
+      360.56,
+      400.0
+    ],
+    "optimista": [
+      301.72,
+      334.73,
+      371.36,
+      411.98,
+      457.03,
+      507.03
+    ]
+  },
+  "early_warning": {
+    "titulo": "Los focos rojos estan todos en el embudo, no en el margen",
+    "sub": "Semaforo de vigilancia sobre los datos de Q1 2026; en gris, lo que Spotify dejo de publicar",
+    "kpis": [
+      {
+        "kpi": "Conversion free-to-paid",
+        "valor": "38,50% vs 39,53% en Q1'25",
+        "estado": "rojo"
+      },
+      {
+        "kpi": "Brecha MAU frente a suscriptores",
+        "valor": "+12% MAU vs +9% subs",
+        "estado": "rojo"
+      },
+      {
+        "kpi": "Ingresos de publicidad",
+        "valor": "385 M EUR, -5% Y/Y",
+        "estado": "rojo"
+      },
+      {
+        "kpi": "Cartera FVOCI en Tencent Music",
+        "valor": "-786 M EUR via OCI",
+        "estado": "rojo"
+      },
+      {
+        "kpi": "Suscriptores Premium",
+        "valor": "293M, +9% Y/Y",
+        "estado": "ambar"
+      },
+      {
+        "kpi": "Ingresos totales",
+        "valor": "4533 M EUR, +8,2%",
+        "estado": "ambar"
+      },
+      {
+        "kpi": "Caja neta y deuda financiera",
+        "valor": "8746 M EUR / cero deuda",
+        "estado": "ambar"
+      },
+      {
+        "kpi": "Pasivo contingente MLC",
+        "valor": "410 M EUR, +52M por trim",
+        "estado": "ambar"
+      },
+      {
+        "kpi": "Margen bruto consolidado",
+        "valor": "33,0% record",
+        "estado": "verde"
+      },
+      {
+        "kpi": "Margen operativo",
+        "valor": "15,77% record",
+        "estado": "verde"
+      },
+      {
+        "kpi": "ARPU Premium",
+        "valor": "4,76 EUR/mes, +5,7% cc",
+        "estado": "verde"
+      },
+      {
+        "kpi": "Coste de ingresos Premium",
+        "valor": "65%, desde 67% en FY2024",
+        "estado": "verde"
+      },
+      {
+        "kpi": "Garantias minimas comprometidas",
+        "valor": "2160 M EUR, -453M en 1T",
+        "estado": "verde"
+      },
+      {
+        "kpi": "Churn mensual de suscriptores",
+        "valor": "no publicado desde 2018",
+        "estado": "gris"
+      },
+      {
+        "kpi": "Magnitud de marketplace programs",
+        "valor": "nunca divulgada",
+        "estado": "gris"
+      }
+    ]
+  }
+}

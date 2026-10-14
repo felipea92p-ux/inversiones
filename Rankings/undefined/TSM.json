@@ -1,0 +1,298 @@
+{
+  "ticker": "TSM",
+  "empresa": "Taiwan Semiconductor Manufacturing Company Limited (ADS, NYSE)",
+  "cik": "0001046179",
+  "fecha_expediente": "2026-07-28",
+  "fecha_precio": "2026-07-28 (sesion viva; cierre anterior 27-jul-2026 = US$399,09)",
+  "divisa_reporte": "USD",
+  "nota_sobre_version_anterior": "Este expediente SUSTITUYE al escrito el 27-jul-2026 a las 19:41 sobre el mismo ticker. Diferencias declaradas: (1) precio actualizado 395,55 -> 390,69; (2) la tasa de reinversion congelada que recibo en este pase es 47,5% de ventas, no 39,9% — con el mismo ROIIC ex-margen (17,8%) la g defendible sube de 7,10% a 8,45%; (3) esta version NO usa el capex 2026 de US$60-64 mil M (fuente secundaria, no localizable en ningun filing) como central, sino la unica guia presentada a la SEC (US$52-56 mil M), y reporta la version de 62 como sensibilidad. Todo lo demas converge: ambos pases dan NO CARGAR con MoS negativo en todas las variantes.",
+
+  "etiqueta_calidad_congelada": {
+    "etiqueta": "ULTRA-R",
+    "puertas_pasadas": 5,
+    "estado": "CONGELADA — el valorador no la toca ni la reclasifica hacia arriba. Nada de lo que sigue es un argumento sobre la calidad.",
+    "mecanismo": "TSMC convierte el hecho de NO competir con sus clientes en el unico agregador posible del volumen de fabricacion de vanguardia del mundo, y ese volumen agregado compra una curva de rendimiento y una escala de capital (US$52-56 mil M guiados para 2026, 3,6 veces el capex de Intel en 2025) que ningun rival puede replicar sin destruir su propio modelo de negocio.",
+    "eslabon_mas_debil": "No es ninguna de las seis puertas: es que todo el mecanismo —capacidad, rendimiento y personal— esta fisicamente concentrado en una isla en disputa geopolitica, un riesgo binario que las seis puertas no miden y que ninguna cifra de este informe captura. Segundo eslabon, ya dentro de los numeros: el 138,6% de subida del precio implicito por oblea en la ventana es mayoritariamente mezcla de nodo comprada con capex, no precio puro; el volumen fisico de obleas solo crecio 21,2% entre 2020 y 2025.",
+    "especie_G2": {
+      "reinversion_pct_ventas": 47.5,
+      "roiic_bruto_pct": 21.7,
+      "roiic_ex_margen_pct": 17.8
+    },
+    "mos_exigido_pct": 30,
+    "motivo_umbral": "Esta en cartera (7,88% del NAV) -> aplica el umbral de CARGAR, no el de ABRIR. ULTRA en cartera: 18% + 12 pp = 30%."
+  },
+
+  "identidad_del_titulo": {
+    "acciones_ordinarias_en_circulacion": 25932000000,
+    "fuente_acciones": "HECHO — presentacion de resultados 2T26 (6-K 16-jul-2026, ex.99.2, lamina 7): 'Total outstanding shares were 25,932mn units at 6/30/26'. Cruzado con el capital social del balance auditado 31-dic-2025 (20-F, R3): NT$259.325,3 mm a NT$10 de nominal = 25.932,5 mm acciones.",
+    "ratio_ads": "1 ADS = 5 acciones ordinarias",
+    "fuente_ratio_ads": "HECHO — verificado aritmeticamente contra el propio comunicado 2T26: BPA NT$27,25/accion declarado como US$4,31 por unidad ADR. 27,25 x 5 / 4,31 = 31,61 NT/US$, identico al tipo medio 2T26 de 31,60 publicado en la presentacion. Confirma 5 ordinarias por ADS sin ambiguedad.",
+    "ads_equivalentes_mm": 5186.4,
+    "precio_ads_usd": 390.69,
+    "fuente_precio": "HECHO — snapshot IBKR MCP, conid 6223250 (TAIWAN SEMICONDUCTOR-SP ADR, NYSE): last 390,69, bid 390,44 / ask 390,95, variacion del dia -2,10%, is_close=false (sesion viva 28-jul-2026). El cierre anterior implicito (390,69/0,979) = 399,09 coincide exactamente con la barra semanal IBKR del 27-jul-2026. Rango 52 semanas 221,33 - 478,89. Volatilidad historica anualizada 30 dias: 53,5%.",
+    "capitalizacion_usd_mm": 2026275.0,
+    "tipo_cambio_spot_twd_usd": 32.34,
+    "tipo_cambio_flujos_twd_usd": 31.70,
+    "fuente_fx": "MIXTA declarada — para el BALANCE se usa el spot 32,34 NT/US$ al 27-jul-2026 (INFERENCIA, agregadores de divisas); para los FLUJOS de 2026 se usa 31,70, punto medio entre el tipo medio real del 2T26 de 31,60 (HECHO, presentacion 2T26) y el 32,00 que la empresa asume en su guia 3T26 (HECHO). Para FY2025 se usan directamente las columnas USD del 20-F (tipo de conveniencia 31,37, HECHO). La mezcla mueve el valor menos del 1% y esta muy por debajo del piso de resolucion."
+  },
+
+  "candado_B_wacc_de_mercado": {
+    "nota": "WACC construido bottom-up con parametros de mercado. NO heredado de ningun tier de calidad.",
+    "moneda_del_descuento": "USD. Razon declarada: el titulo valorado es un ADS en USD, los owner earnings vienen en USD y el mandato fija terminal 3% (nominal USD). Hacer el DCF en TWD con el bono taiwanes a 10 anios (1,70%) exigiria un terminal TWD de ~1,5%; mezclar un rf de TWD con un terminal de USD regalaria ~3 pp de valor por pura inconsistencia de moneda.",
+    "tasa_libre_riesgo_pct": 4.65,
+    "fuente_tasa_libre_riesgo": "HECHO — curva diaria del Tesoro de EEUU, plazo 10 anios, 27-jul-2026 = 4,65%. Descarga directa del CSV oficial (home.treasury.gov, daily_treasury_yield_curve). Serie de control: 24-jul 4,69%, 23-jul 4,71%, 22-jul 4,67%.",
+    "tasa_libre_riesgo_moneda_funcional_pct": 1.70,
+    "fuente_rf_twd": "INFERENCIA — bono del gobierno de Taiwan a 10 anios, 1,70% al 14-jul-2026 (tradingeconomics.com; maximo de 13 meses). Fuente secundaria. Solo se usa en la variante de control, no alimenta ninguna cifra publicada.",
+    "prima_mercado_pct": 4.23,
+    "fuente_prima_mercado": "HECHO (tabla publicada) — Damodaran, 'Country Default Spreads and Risk Premiums', pages.stern.nyu.edu, ultima actualizacion 5-ene-2026. EEUU: rating Aa1, CRP 0,23%, ERP total 4,46% -> ERP de mercado maduro = 4,23%. Verificado por consistencia interna con la fila de Taiwan (5,01% - 0,78% = 4,23%).",
+    "prima_pais_pct": 0.78,
+    "fuente_prima_pais": "HECHO (misma tabla, 5-ene-2026) — TAIWAN: rating Aa3, spread de impago ajustado 0,51%, prima de riesgo pais 0,78%, ERP total 5,01%. Se aplica la de TAIWAN y no la de EEUU porque el RIESGO DE ACTIVO esta en Taiwan: los clientes son globales pero las fabricas de vanguardia, el personal y el know-how estan en la isla.",
+    "beta": 1.27,
+    "fuente_beta": "HECHO (medicion propia) — regresion de rendimientos logaritmicos SEMANALES de TSM (ADS, NYSE, conid 6223250) contra SPY (conid 756733), 262 semanas, 30-jul-2021 a 27-jul-2026, barras IBKR: beta cruda 1,255, R2 = 0,342, correlacion 0,585, volatilidad anualizada TSM 34,8% vs SPY 16,2%. Ventanas de control: 3 anios (156 semanas) = 1,584; ajustada de Blume (0,67b+0,33) = 1,171. Contraste externo: Investing.com beta 5 anios = 1,27 (consultado 28-jul-2026). Se adopta 1,27 como central, banda 1,17-1,58.",
+    "coste_capital_propio_pct": 11.01,
+    "formula_ke": "ke = 4,65% + 1,27 x (4,23% + 0,78%) = 11,01%",
+    "coste_deuda_real_del_filing_pct": 1.87,
+    "fuente_coste_deuda_real": "HECHO derivado del filing — 20-F FY2025 (R6.htm, estado de flujos): intereses pagados NT$19.128,8 mm en 2025. Deuda bruta media: 31-dic-2024 (bonos no corrientes 926.604,5 + prestamos bancarios LP 31.824,4 + porcion corriente de pasivos LP 59.857,9 = 1.018.286,8) y 31-dic-2025 (856.227,5 + 39.834,5 + 136.925,7 = 1.032.987,7); media = 1.025.637,3 MTWD. 19.128,8 / 1.025.637,3 = 1,87%. Con el gasto financiero de la cuenta de resultados (NT$12.370,4 mm, que excluye intereses capitalizados) sale 1,21%.",
+    "coste_deuda_pct": 5.0,
+    "fuente_coste_deuda_usada": "SUPUESTO declarado — el 1,87% real es un coste en TWD (los bonos de TSMC son mayoritariamente domesticos, emitidos a tipos taiwaneses). Para un WACC en USD hace falta el equivalente USD: 4,65% de rf + ~35 pb de diferencial para un emisor Aa3/AA- (TSMC Global Ltd y TSMC Arizona Corp emiten en USD) = 5,0% antes de impuestos, 4,15% despues del 17,0%. IMPACTO PRACTICAMENTE NULO: la deuda pesa 1,58% de la estructura de capital, asi que mover el coste de deuda 2 pp mueve el WACC 3 pb.",
+    "tasa_impositiva_efectiva_pct": 16.97,
+    "fuente_tasa_impositiva": "HECHO — 20-F FY2025 (R4.htm): impuesto NT$346.529,8 mm / resultado antes de impuestos NT$2.041.654,7 mm = 16,97%.",
+    "ponderacion": "E = 2.026.275 US$mm (98,42%). D a valor de mercado ~ contable = 31.949 US$mm (1,58%). WACC = 0,9842 x 11,01% + 0,0158 x 4,15% = 10,90%.",
+    "wacc_pct": 10.9,
+    "wacc_rango": "10,4% - 12,4% (hasta 14,3% con prima pais de estres geopolitico del 2,0%)",
+    "detalle_rango": "10,4% con beta de Blume 1,171 y rf 4,40%. 12,4% con beta a 3 anios 1,584 y CRP normal. 14,3% con beta 1,584 y CRP elevada al 2,0%.",
+    "wacc_variante_twd_control": "8,06% en TWD (1,70% + 1,27 x 5,01%). NO se usa. Con un terminal TWD coherente (~1,5%) el resultado es economicamente casi identico al marco USD; con terminal del 3% seria un regalo de ~40% de valor por inconsistencia de moneda. Se declara para dejar constancia de por que no se uso.",
+    "advertencia": "El spread WACC-terminal es 7,9 pp, comodo. Pero la sensibilidad que manda aqui NO es el WACC: es la BASE de owner earnings (auditada vs en curso), que mueve el valor por accion un 46%. La segunda es la beta (1,17 a 1,58 mueve el valor -22%). El WACC en si es el input mas estable de los tres."
+  },
+
+  "balance_y_estructura": {
+    "fecha_referencia": "30-jun-2026 (presentacion 2T26) con desglose de deuda corriente del balance auditado de 31-dic-2025",
+    "caja_y_valores_negociables_twd_mm": 3518010.0,
+    "fuente_caja": "HECHO — presentacion 2T26 (6-K 16-jul-2026, ex.99.2, lamina 7): 'Cash & Marketable Securities' 2T26 = NT$3.518,01 mil M (37,5% del activo). Serie: 1T26 3.383,60; 2T25 2.634,43. La caja y equivalentes pura del estado de flujos a 30-jun-2026 es NT$3.134,22 mil M (lamina 8).",
+    "deuda_bruta_twd_mm": 1032800.0,
+    "detalle_deuda": "Deuda con interes a largo plazo 864.270 (presentacion 2T26, lamina 7) + porcion corriente de pasivos a largo plazo ~136.930 (proxy: balance auditado 31-dic-2025, 20-F R3) + pasivos por arrendamiento no corrientes ~31.600 (20-F R3).",
+    "caja_neta_twd_mm": 2485210.0,
+    "deuda_neta_usd_mm": -76846.0,
+    "capitalizacion_usd_mm": 2026275.0,
+    "ev_usd_mm": 1949428.0,
+    "nota_ev": "TSMC tiene CAJA NETA de ~US$76,8 mil M (3,8% de la capitalizacion). El EV es MENOR que la capitalizacion, asi que los multiplos de EV/OE de abajo son ligeramente mas benignos que los de P/OE.",
+    "nota_dividendo_pendiente": "No deducido: NT$285.258,1 mm (US$8,8 mil M) de dividendos declarados y pendientes de pago a 31-dic-2025 (20-F R3, 'Cash dividends payable'). Si se restaran, el EV subiria ~0,45%. Irrelevante frente al piso de resolucion.",
+    "fuente_balance": "HECHO — 20-F FY2025 (accession 0001628280-26-025362), R3.htm; actualizado con la presentacion 2T26 (6-K 16-jul-2026, ex.99.2, lamina 7)."
+  },
+
+  "owner_earnings": {
+    "definiciones": {
+      "a_mantenimiento": "CFO menos el capex de MANTENIMIENTO aproximado por depreciacion + amortizacion. El exceso de capex sobre D&A es inversion discrecional y NO se resta. Esto es lo que impide penalizar a una reinvertidora por reinvertir.",
+      "b_capex_total": "CFO menos TODO el capex (inmovilizado material + intangibles) = flujo de caja libre puro."
+    },
+    "nota_metodologica_flujo": "El flujo de operaciones de TSMC EXCLUYE los intereses cobrados (van en actividades de inversion: NT$98.954,7 mm en 2025). Eso es correcto para este marco: el owner earnings valora el negocio operativo y la caja neta se suma aparte al patrimonio. No hay doble contabilizacion de la caja.",
+
+    "base_auditada_FY2025": {
+      "ejercicio": "FY2025 — 20-F presentado el 16-abr-2026 (accession 0001628280-26-025362), auditado",
+      "fuente": "HECHO — R4.htm (PyG), R6.htm (flujos), R3.htm (balance). Las cifras USD son las de la propia columna USD del filing (tipo de conveniencia 31,37 NT/US$). Cuadradas al decimal contra la lamina 11 'Financial Highlights' de la presentacion 4T25.",
+      "ventas_twd_mm": 3809054.3,
+      "ventas_usd_mm": 121423.5,
+      "margen_bruto_pct": 59.9,
+      "beneficio_operativo_twd_mm": 1936091.7,
+      "margen_operativo_pct": 50.8,
+      "beneficio_neto_twd_mm": 1695124.9,
+      "beneficio_neto_usd_mm": 54036.5,
+      "cfo_usd_mm": 72520.7,
+      "depreciacion_usd_mm": 21666.7,
+      "amortizacion_usd_mm": 268.2,
+      "d_y_a_usd_mm": 21934.9,
+      "capex_ppe_usd_mm": 40561.4,
+      "capex_intangibles_usd_mm": 323.5,
+      "capex_total_usd_mm": 40884.9,
+      "capex_sobre_ventas_pct": 33.7,
+      "capex_sobre_depreciacion_x": 1.86,
+      "oe_mantenimiento_usd_mm": 50585.8,
+      "oe_capex_total_usd_mm": 31635.8,
+      "roe_pct": 35.4,
+      "nota_subvenciones": "En 2025 TSMC cobro NT$76.258,8 mm (US$2.431,0 mm) de subvenciones publicas para inmovilizado (CHIPS/Arizona y otras), clasificadas como ENTRADA de inversion. NO se netean del capex en las cifras de arriba. Si se netearan, el owner earnings de capex total subiria a US$34.066,8 mm (+7,7%). Decision conservadora, declarada."
+    },
+
+    "base_en_curso_FY2026e": {
+      "ejercicio": "FY2026E — 1S26 publicado + guia 3T26 de la empresa + estimacion propia del 4T26 anclada en la guia anual",
+      "publicado_1S26_twd_mm": {
+        "ventas": 2404484.0,
+        "beneficio_neto": 1279042.0,
+        "cfo": 1482330.0,
+        "capex": 846760.0,
+        "fcf": 635570.0,
+        "fuente": "HECHO — comunicado 2T26 (6-K 16-jul-2026, ex.99.1): 1T26 ventas 1.134.103, BN 572.480; 2T26 ventas 1.270.381, BN 706.562. Presentacion 2T26 (ex.99.2, lamina 8): CFO 1T26 698,97 mil M + 2T26 783,36 mil M; capex 1T26 350,76 + 2T26 496,00; FCF 348,21 + 287,36."
+      },
+      "guia_de_la_empresa": {
+        "ventas_3T26_usd_mm": "44.600 - 45.800 (punto medio 45.200), tipo asumido 32,0 NT/US$",
+        "margen_bruto_3T26_pct": "65 - 67",
+        "margen_operativo_3T26_pct": "56 - 58",
+        "ventas_FY2026": "'2026 revenue to increase by slightly above 40% in US dollar terms' (presentacion 2T26, lamina 10). En enero de 2026 la guia era 'close to 30%': la empresa la subio ~11 pp en seis meses.",
+        "capex_FY2026_usd_mm": "52.000 - 56.000",
+        "fuente_capex": "HECHO — comunicado 4T25 (6-K 15-ene-2026, ex.99.1): 'The management further expects the 2026 capital budget to be between US$52 billion and US$56 billion'. NO se ha localizado ninguna actualizacion de esa cifra en el 6-K del 16-jul-2026 ni en sus dos exhibits. Ver sensibilidad de capex alto mas abajo.",
+        "guia_plurianual": "CAGR de ventas 2024-2029 'approach 25%' en USD; margen bruto de largo plazo '56% y superior a lo largo del ciclo'; ROE 'high-20s% a lo largo del ciclo' (presentacion 4T25, lamina 13)."
+      },
+      "estimacion_propia_FY2026_twd_mm": {
+        "ventas": 5460000.0,
+        "cfo": 3300000.0,
+        "d_y_a": 900000.0,
+        "capex_total": 1727000.0,
+        "beneficio_neto": 2818000.0,
+        "derivacion_ventas": "1S real 2.404.484 + 3T guia media (45.200 x 32 = 1.446.400) + 4T implicito 1.609.600, que es lo que hace falta para cuadrar un +41% anual en USD sobre los US$122,42 mil M de 2025. Cross-check: implica 4T26 de US$50,3 mil M, +11% intertrimestral.",
+        "derivacion_cfo": "60,4% de las ventas, en linea con el 61,6% del 1S26 (real) y el 59,7% de FY2025 (real).",
+        "derivacion_da": "FY2025 (688.096) escalado +31% por el salto del inmovilizado neto (3.691,8 -> 4.302,9 mil M entre 4T25 y 2T26). SUPUESTO: la empresa no guia depreciacion en sus filings a la SEC.",
+        "derivacion_capex": "Guia US$54 mil M (punto medio de 52-56) x 31,70 + ~12.000 de intangibles. El 1S real (846.760 = US$26,7 mil M) es coherente con un 2S mas pesado."
+      },
+      "ventas_usd_mm": 172240.0,
+      "cfo_usd_mm": 104100.0,
+      "d_y_a_usd_mm": 28390.0,
+      "capex_total_usd_mm": 54480.0,
+      "oe_mantenimiento_usd_mm": 75709.8,
+      "oe_capex_total_usd_mm": 49621.5,
+      "etiqueta": "INFERENCIA en los agregados anuales: 1T y 2T son HECHO; 3T procede de la guia de la empresa (HECHO citado) y 4T es SUPUESTO propio anclado en la guia anual.",
+      "advertencia_no_recurrente": "El 2T26 incluye partidas no operativas de NT$95,83 mil M (+232% intertrimestral), infladas por la venta del 8,1% de Vanguard International Semiconductor (6-K 15-may-2026). El exceso sobre un trimestre normal es ~NT$67 mil M antes de impuestos. NO afecta al flujo de operaciones (se elimina como ajuste no monetario), asi que NINGUNA cifra de owner earnings de este expediente depende de esa partida. Si depende el beneficio neto declarado."
+    },
+
+    "distancia_entre_bases": {
+      "oe_mantenimiento_pct": 49.7,
+      "oe_capex_total_pct": 56.9,
+      "lectura": "Esto NO es ruido: es el momento del ciclo, y es la informacion mas valiosa de todo el expediente. El ejercicio en curso genera un 50-57% mas de owner earnings que el ultimo auditado, en doce meses. El margen bruto pasa de 59,9% (FY2025) a 67,7% (2T26); el ROE anualizado de 35,4% a 45,9%. Y la propia direccion guia un ROE 'high-20s% a lo largo del ciclo': el 45,9% de hoy esta 17 pp por encima de lo que la empresa considera sostenible. Valorar sobre la base en curso es capitalizar un pico que la propia direccion etiqueta como pico. Valorar sobre la base auditada es ignorar que 2026 ya ocurrio. Se reportan las dos y el veredicto se ancla en la banda, no en un punto."
+    }
+  },
+
+  "multiplos_de_hoy": {
+    "ev_sobre_oe_mantenimiento_auditado_x": 38.5,
+    "ev_sobre_fcf_auditado_x": 61.6,
+    "ev_sobre_oe_mantenimiento_encurso_x": 25.7,
+    "ev_sobre_fcf_encurso_x": 39.3,
+    "rendimiento_del_propietario": "OE mantenimiento en curso / EV = 3,88%. FCF en curso / EV = 2,55%. Sobre la base auditada: 2,59% y 1,62%."
+  },
+
+  "dcf_inverso": {
+    "modelo": "Crecimiento constante g durante 10 anios sobre el owner earnings de cada base, terminal del 3% a perpetuidad, descontado al WACC central del 10,90%. Se despeja la g que iguala el valor presente al EV de hoy (US$1.949.428 mm).",
+    "g_implicita_auditado_mantenimiento_pct": 18.00,
+    "g_implicita_auditado_capex_total_pct": 24.55,
+    "g_implicita_encurso_mantenimiento_pct": 12.43,
+    "g_implicita_encurso_capex_total_pct": 18.26,
+    "sensibilidad_wacc": {
+      "encurso_mantenimiento": "11,39% a WACC 10,4% | 12,43% a WACC 10,9% | 15,33% a WACC 12,4% | 18,73% a WACC 14,3%",
+      "auditado_mantenimiento": "16,89% a WACC 10,4% | 18,00% a WACC 10,9% | 21,10% a WACC 12,4%"
+    },
+    "lectura": "El precio de hoy exige un 12,4% anual durante diez anios si se le concede a TSMC la base de 2026 Y el capex de mantenimiento: la lectura mas generosa que el metodo permite. Exige 18,0% si uno se atiene al ultimo ejercicio auditado, y 24,6% si ademas se resta todo el capex. Hay que ser honesto con el 12,4%: NO es absurdo. La propia direccion guia un CAGR 2024-2029 'aproximandose al 25%'. Si esa guia se cumpliera hasta 2029, bastaria un ~5% en los anos 5-10 para justificar el precio. Es decir: el mercado esta pagando exactamente por que la guia de la empresa se cumpla, ni mas ni menos. Ahi no hay margen de seguridad; hay confianza en la direccion. Y ese es el problema, porque el metodo no compra confianza, compra descuento."
+  },
+
+  "g_defendible": {
+    "valor_pct": 8.45,
+    "derivacion": "Tasa de reinversion 47,5% x ROIIC EX-MARGEN 17,8% = 8,45%. Se usa el ex-margen, no el bruto (21,7%), porque usar el bruto asume que la expansion de margen de la ventana se repite otros diez anios — y el margen bruto ya esta en 67,7%, maximo historico, contra una guia de largo plazo de la propia empresa de '56% y superior'.",
+    "procedencia": "Ambos parametros vienen CONGELADOS del expediente de calidad. El valorador no los re-deriva ni los sube.",
+    "control_alternativo_sobre_NOPAT": "Derivacion clasica: reinversion neta FY2025 = capex total 1.282.557 - D&A 688.096 = 594.461 MTWD sobre NOPAT (1.936.092 x 0,8303 = 1.607.328) = 36,98%; x 17,8% = 6,58%. La banda defendible es por tanto 6,6% - 8,5%. Se publica 8,45% como cabecera por mandato del metodo (reinversion x ROIIC ex-margen), y se declara que la version conservadora daria un valor un 12% inferior.",
+    "roiic_que_el_precio_exige": "Con reinversion del 47,5%, la g implicita mas benigna (12,43%) exige un ROIIC ex-margen del 26,2% — 1,47 veces el congelado. La g implicita sobre FCF (18,26%) exigiria un ROIIC del 38,4%.",
+    "contraste_con_la_direccion": "La empresa guia ~25% CAGR hasta 2029, tres veces mi g defendible. NO estoy diciendo que la direccion mienta: estoy diciendo que un 25% durante cinco anios no es una tasa base derivable de reinversion x retorno sobre la reinversion, es una apuesta sobre la duracion del ciclo de capex de IA. Una tasa base y una apuesta no son la misma cosa y no se pagan al mismo precio."
+  },
+
+  "valor_intrinseco": {
+    "piso_de_resolucion": "Sin medicion propia del ruido se aplica una banda de +-25% sobre el valor central. Nada de decimales en el valor intrinseco.",
+    "base_auditada": {
+      "valor_por_accion_usd": 203,
+      "banda_usd": "152 - 254",
+      "mos_pct": -92.5,
+      "multiplo_ev_oe_implicito_x": 19.3,
+      "tir_10a_pct": 7.17
+    },
+    "base_en_curso": {
+      "valor_por_accion_usd": 296,
+      "banda_usd": "222 - 371",
+      "mos_pct": -31.8,
+      "multiplo_ev_oe_implicito_x": 19.3,
+      "tir_10a_pct": 9.06
+    },
+    "variantes_de_control": {
+      "auditada_capex_total": { "valor_por_accion_usd": 133, "mos_pct": -194.9, "tir_10a_pct": 5.67 },
+      "encurso_capex_total": { "valor_por_accion_usd": 199, "mos_pct": -96.0, "tir_10a_pct": 7.09 },
+      "encurso_capex_total_con_capex_62": {
+        "valor_por_accion_usd": 170,
+        "mos_pct": -129.8,
+        "tir_10a_pct": 6.47,
+        "nota": "Sensibilidad al capex 2026 de US$62 mil M que circula por fuentes secundarias y que NO he podido localizar en ningun filing. Si fuera cierto, el FCF en curso caeria de US$49,6 a US$41,7 mil M (-16%) y la g que el precio exige subiria de 18,26% a 20,67%. Es decir: el rumor, de confirmarse, empeora el caso, no lo mejora."
+      },
+      "g_conservadora_6_6_pct": { "encurso_mantenimiento_usd": 261, "auditada_mantenimiento_usd": 180 }
+    },
+    "sensibilidad_wacc_base_en_curso": {
+      "wacc_10_4": "V = US$318/ADS, MoS -23%",
+      "wacc_10_9": "V = US$296/ADS, MoS -32%",
+      "wacc_12_4": "V = US$248/ADS, MoS -58%",
+      "wacc_14_3_estres_geopolitico": "V = US$204/ADS, MoS -91%"
+    },
+    "afirmacion_blindada": "El precio de hoy (US$390,69) esta POR ENCIMA del techo de la banda de resolucion (+25%) de la valoracion MAS GENEROSA posible (US$371): ejercicio en curso, capex solo de mantenimiento, g de 8,45%, WACC en el central. No hace falta discutir decimales — con el metodo estirado a su maxima benevolencia, el precio sigue fuera de la banda por el lado caro."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 20.0,
+    "definicion_m_estrella": "20x el owner earnings de MANTENIMIENTO. Decidido en frio, sin barra de error, porque no es una estimacion sino una decision. Razonamiento: 20x = 5,0% de rendimiento del propietario; con la g defendible del 8,45% eso da ~13,5% bruto; restando un peaje anual del 2-3% por el riesgo binario de la isla (que ninguna prima de Damodaran captura) queda ~11%, apenas por encima del WACC del 10,9%. Comprobacion de coherencia por un segundo camino: mi propio DCF con g=8,45%, WACC=10,9% y terminal 3% arroja 19,3x. Los dos caminos dan el mismo numero.",
+    "valor_a_m_estrella_base_encurso_usd": 307,
+    "valor_a_m_estrella_base_auditada_usd": 210,
+    "p_estrella_usd": 215.0,
+    "derivacion_p_estrella": "Valor a M* sobre la base EN CURSO (US$306,8) x (1 - 30% de MoS exigido para CARGAR) = US$214,7. Se publica deliberadamente el numero MAS generoso de los dos: sobre la base auditada P* seria US$147.",
+    "distancia_al_precio": "El precio de hoy esta un 82% por encima de P*. TSMC tendria que caer un 45% para entrar en zona de CARGAR. Contra el P* de la base auditada haria falta un -62%."
+  },
+
+  "tir_esperada": {
+    "rango": "+7% a +9% anual durante 10 anios",
+    "central_pct": 8.0,
+    "detalle": {
+      "encurso_mantenimiento_g_8_45": 9.06,
+      "auditada_mantenimiento_g_8_45": 7.17,
+      "encurso_capex_total_g_8_45": 7.09,
+      "auditada_capex_total_g_8_45": 5.67,
+      "escenario_guia_de_la_empresa_g_15_encurso_mant": 12.22,
+      "escenario_reversion_al_ciclo_g_5_encurso_mant": 7.70
+    },
+    "lectura": "Esta es la traduccion que importa. Comprando hoy a US$390,69 con la g defendible, un propietario cobraria entre el 7% y el 9% anual durante diez anios contra un coste de capital del 10,9%. No es una perdida: es un rendimiento positivo INSUFICIENTE — se asume el riesgo de TSMC y se cobra entre 2 y 4 puntos anuales menos de lo que ese riesgo exige. Un MoS de -92% suena a catastrofe; '7% anual cuando pides 11%' es lo que realmente esta pasando, y es una cosa muy distinta.",
+    "punto_de_indiferencia": "La TIR alcanza el WACC (10,9%) si g = 12,43% sobre la base en curso de mantenimiento. Eso exige un ROIIC ex-margen del 26,2%, 1,47 veces el congelado."
+  },
+
+  "trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "El motor no solo no se esta rompiendo: gira al maximo de su historia. Ventas +36,0% interanual en el 2T26, beneficio neto +77,4%, margen bruto 67,7% (record), margen operativo 60,3%, ROE anualizado 45,9%, el 2 nm ya en el 3% de los ingresos por oblea y las tecnologias avanzadas (7 nm y por debajo) en el 77%. La empresa acaba de subir su propia guia anual de '+30%' a '+40 y algo%' en seis meses. Una trampa de valor es un MoS grande sobre un motor que se rompe; aqui el MoS es NEGATIVO sobre un motor que acelera. Es el problema exactamente inverso: un activo excelente a un precio que ya descuenta que siga siendolo.",
+    "riesgos_reales_que_no_son_trampa_de_valor": [
+      "PICO DE CICLO CAPITALIZADO. El ROE de hoy (45,9%) esta 17 pp por encima del 'high-20s% a lo largo del ciclo' que guia la propia direccion. Quien valore sobre la base en curso capitaliza un pico que la empresa misma etiqueta como pico. Es la razon de que la base auditada de -92% de MoS y la en curso -32%: los 60 puntos de diferencia son puro ciclo.",
+      "RIESGO BINARIO DE LA ISLA. La prima pais de Damodaran (0,78%) mide la probabilidad de que Taiwan no pague su deuda soberana, NO la probabilidad de un bloqueo o un conflicto. Ninguna cifra de este expediente la captura. Es el eslabon mas debil declarado en la fase de calidad y sigue sin poder cuantificarse con contabilidad. He restado un peaje implicito del 2-3% anual al fijar M*=20x, pero eso es un juicio, no una medicion.",
+      "MEZCLA VS PRECIO — TRAMPA DE CRECIMIENTO, NO DE VALOR. El segundo eslabon del mecanismo: la subida del precio implicito por oblea es mayoritariamente mezcla de nodo comprada con capex (el volumen fisico solo crecio 21,2% de 2020 a 2025). El crecimiento requiere capex perpetuo. Por eso el owner earnings de capex total (US$49,6 mil M en curso) es un tercio menor que el de mantenimiento (US$75,7 mil M) y por eso el DCF inverso sobre esa base exige un 18,3%. Si la escalera de nodos deja de encarecerse, el precio no tiene colchon."
+    ]
+  },
+
+  "veredicto_de_precio": {
+    "accion": "NO CARGAR",
+    "regla": "MoS exigido 30% (ULTRA-R en cartera, 7,88% del NAV). MoS obtenido: -31,8% en la variante mas favorable (ejercicio en curso, capex de mantenimiento, WACC central) y -92,5% sobre el ultimo ejercicio auditado.",
+    "resultado": "La regla no se cumple en ninguna variante, ni estirando la resolucion al +25%. P* = US$215; precio de hoy US$390,69.",
+    "que_no_dice_este_veredicto": "No dice vender. El eje precio solo responde a 'cuanto margen de seguridad hay para poner dinero NUEVO'. La respuesta es: ninguno. Cualquier decision sobre la posicion viva del 7,88% requiere el paso 10 del metodo (veto de abogado-diablo en sesion limpia) y el gate correspondiente, que no son competencia de este expediente.",
+    "que_haria_falta_para_cambiarlo": "Dos caminos. (1) Que el precio caiga a ~US$215 (-45%). (2) Que el owner earnings de mantenimiento NORMALIZADO —no de pico— llegue a ~US$96 mil M, un +27% sobre los US$75,7 mil M estimados para 2026, y que ese nivel sea defendible como base y no como cresta. El segundo camino es concebible si el ciclo de IA dura mas de lo que dura un ciclo; el primero es concebible precisamente si no dura."
+  },
+
+  "huecos_declarados": [
+    "DEPRECIACION 2026 NO GUIADA EN LOS FILINGS DE LA SEC. Mi D&A FY2026E (NT$900 mil M, +31% sobre 2025) es SUPUESTO, derivado del crecimiento del inmovilizado neto. Cada 10% de error mueve el owner earnings de mantenimiento ~US$2,8 mil M (3,8%) y el valor por accion ~US$11.",
+    "4T26 NO ESTA GUIADO. Mi ventas del 4T26 (US$50,3 mil M, +11% intertrimestral) se deduce del 'slightly above 40%' anual. Si la empresa quisiera decir exactamente +40%, el 4T seria US$50,1 mil M; si quisiera decir +45%, US$56,4 mil M. La horquilla es de ~+-6% sobre el owner earnings en curso.",
+    "CAPEX 2026 DE US$60-64 MIL M: NO VERIFICADO. Circula por fuentes secundarias atribuido a la conferencia del 16-jul-2026, pero NO aparece en el 6-K de esa fecha ni en sus dos exhibits, que son lo unico presentado a la SEC. La unica guia con respaldo documental es la de US$52-56 mil M del comunicado 4T25 (15-ene-2026). Uso 52-56 como central y publico la sensibilidad de 62: empeora el caso (FCF -16%, MoS de -96% a -130%). Es un hueco que, si se cierra, se cierra en contra del precio.",
+    "COSTE DE DEUDA EN USD ES SUPUESTO. El real derivado del filing es 1,87% (intereses pagados / deuda media) o 1,21% (gasto financiero / deuda media), ambos en TWD. Uso 5,0% antes de impuestos como equivalente USD. Impacto en el WACC: 3 pb. Irrelevante.",
+    "PORCION CORRIENTE DE LA DEUDA A 30-JUN-2026 NO PUBLICADA. Uso la del balance auditado de 31-dic-2025 (NT$136.925,7 mm) como proxy. Error potencial en la caja neta: ~+-US$1,5 mil M = +-US$0,3 por ADS. Irrelevante.",
+    "BONO TAIWANES A 10 ANIOS DE FUENTE SECUNDARIA (1,70% al 14-jul-2026, tradingeconomics.com). Solo se usa en la variante de control TWD, que no alimenta ninguna cifra publicada.",
+    "SUBVENCIONES PUBLICAS NO NETEADAS. NT$76.258,8 mm cobrados en 2025 para inmovilizado. Netearlas subiria el OE de capex total un 7,7%. Decision conservadora, declarada.",
+    "LA DEPRECIACION COMO PROXY DE CAPEX DE MANTENIMIENTO ES PROBABLEMENTE OPTIMISTA EN TSMC. La depreciacion contable refleja equipo comprado hace ~5 anios a un coste por herramienta muy inferior al de un nodo actual (una EUV High-NA no cuesta lo que costaba una DUV de 2021). El verdadero capex de mantenimiento a nodo constante es superior a la depreciacion, asi que el OE de mantenimiento (US$75,7 mil M) esta SOBRESTIMADO — es decir, la variante mas favorable al precio es todavia mas favorable de lo que deberia.",
+    "EL RIESGO GEOPOLITICO NO ESTA EN NINGUNA CIFRA. Repetido a proposito: el 0,78% de Damodaran mide riesgo de impago soberano, no riesgo de bloqueo. Con +200 pb de prima pais el WACC sube a 14,3% y el valor cae a US$204/ADS (-31%). Quien crea que la probabilidad anual de un evento del Estrecho supera el 2-3% debe bajar M* y P* en consecuencia.",
+    "BETA CON R2 DE 0,342. La regresion propia explica solo un tercio de la varianza de TSM. La beta a 3 anios (1,584) y la de Blume (1,171) difieren un 35% entre si. Es el input mas fragil del WACC despues de la prima pais: mover la beta de 1,17 a 1,58 mueve el valor por accion de US$318 a US$248 (-22%).",
+    "REINVERSION 47,5% Y ROIIC EX-MARGEN 17,8% SE HEREDAN CONGELADOS del expediente de calidad; el valorador no los reauditó. Nota de trazabilidad: el pase anterior sobre este mismo ticker (27-jul-2026) recibio una reinversion del 39,9%, no del 47,5%. Esa discrepancia del 19% en un input congelado cambia la g defendible de 7,10% a 8,45% y el valor central en curso de US$285 a US$296 (+4%). No cambia el veredicto, pero es una inconsistencia de la fase de calidad que conviene resolver aguas arriba.",
+    "EL API XBRL COMPANYFACTS DE LA SEC ESTA DESACTUALIZADO (ultimo ejercicio disponible FY2024 al 28-jul-2026). Todas las cifras FY2025 se leyeron directamente de R3/R4/R6 del 20-F, accession 0001628280-26-025362, y se cuadraron contra la lamina 11 de la presentacion 4T25 (ventas 3.809,05; CFO 2.274,98; capex 1.272,41; FCF 1.002,57; ROE 35,4%) al decimal."
+  ],
+
+  "resumen": "TSM a US$390,69 (IBKR, sesion viva 28-jul-2026; cierre anterior 399,09): capitalizacion US$2,026 billones sobre 25.932 mm de acciones ordinarias (5.186,4 mm de ADS a razon de 5 ordinarias por ADS, verificado aritmeticamente contra el propio comunicado 2T26), caja neta de US$76,8 mil M y por tanto un EV de US$1,949 billones. WACC de mercado 10,90% (rango 10,4%-12,4%; hasta 14,3% con prima pais de estres): rf 4,65% del bono del Tesoro de EEUU a 10 anios del CSV oficial al 27-jul-2026; beta 1,27 de regresion propia semanal de 262 semanas contra SPY (cruda 1,255, R2 0,342; contraste externo 1,27); prima de mercado maduro 4,23% y prima pais de Taiwan 0,78% de la tabla de Damodaran de 5-ene-2026, tomada por riesgo de ACTIVO y no por domicilio; coste de deuda real derivado del filing 1,87% (intereses pagados 19.128,8 MTWD sobre deuda media de 1.025.637 MTWD), con peso de deuda del 1,58% que lo hace casi irrelevante. Owner earnings en las dos versiones y sobre las dos bases: FY2025 auditado, US$50,6 mil M restando solo la depreciacion y US$31,6 mil M restando todo el capex; FY2026 en curso (1S real + guia 3T + 4T anclado en la guia anual), US$75,7 mil M y US$49,6 mil M. La distancia entre bases (+50% y +57%) NO es ruido: es el ciclo. El margen bruto pasa de 59,9% a 67,7% y el ROE anualizado de 35,4% a 45,9%, contra un 'high-20s% a lo largo del ciclo' que guia la propia direccion — o sea, la base en curso es un pico declarado como pico por la empresa. DCF inverso con terminal al 3%: el precio exige 18,0% anual durante diez anios desde la base auditada y 12,4% desde la base en curso, midiendo el owner earnings de la forma MAS favorable al precio; restando todo el capex las exigencias suben a 24,6% y 18,3%. Y hay que decirlo con honestidad: ese 12,4% no es absurdo, es basicamente pedir que se cumpla la guia de la propia direccion (CAGR ~25% hasta 2029). El mercado esta pagando por confianza en la gestion, no por descuento. Mi g defendible es 8,45% (reinversion 47,5% x ROIIC ex-margen 17,8%; control clasico sobre NOPAT: 6,6%). Con ella el valor intrinseco sale en US$296/ADS sobre la base en curso (banda US$222-371 con el piso de resolucion de +-25%) y US$203 sobre la auditada (banda US$152-254). MoS: -31,8% en la variante mas favorable, -92,5% sobre la auditada, -96,0% restando todo el capex, -129,8% si el rumor del capex de US$62 mil M resultara cierto. El precio de hoy esta POR ENCIMA del techo de la banda de la variante mas generosa (US$371): no hace falta discutir decimales. Traducido a lo unico que informa de verdad: comprando hoy la TIR esperada es del +7% al +9% anual durante diez anios contra un coste de capital del 10,9% — no es una perdida, es un rendimiento positivo insuficiente, entre 2 y 4 puntos anuales por debajo de lo que el riesgo exige; solo llegaria al 12,2% si la guia de la empresa se cumple entera. M* = 20x owner earnings de mantenimiento, decidido en frio (5% de rendimiento del propietario, mas 8,45% de g, menos un peaje del 2-3% por el riesgo de la isla, ~11% neto contra un WACC del 10,9%; y por el segundo camino, mi propio DCF arroja 19,3x). P* = US$215/ADS: haria falta una caida del 45%. Trampa de valor: NO — el motor gira al maximo de su historia (ventas +36,0% interanual, beneficio neto +77,4%, 2 nm ya en el 3% de los ingresos por oblea) y no hay MoS del que quedar atrapado. Es el problema inverso: un ULTRA cuyo precio ya compro el desdoble del motor. Y el riesgo que de verdad decide —la concentracion fisica en la isla— no esta en ninguna de estas cifras: el 0,78% de Damodaran mide impago soberano, no bloqueo. VEREDICTO DEL EJE PRECIO: NO CARGAR. La calidad congelada sigue congelada; lo que falla es el precio.",
+
+  "nota_final": "Documento de analisis dentro del marco propio de Felipe. No constituye asesoramiento financiero personalizado ni recomendacion de un asesor autorizado.",
+
+  "fuentes_primarias": [
+    "SEC EDGAR — 20-F FY2025, Taiwan Semiconductor Manufacturing Company Ltd, CIK 0001046179, accession 0001628280-26-025362, presentado 16-abr-2026. Estados leidos: R3.htm (situacion financiera), R4.htm (PyG y resultado global), R6.htm (flujos de caja).",
+    "SEC EDGAR — 6-K 16-jul-2026, accession 0001046179-26-000451: exhibit 99.1 (comunicado de resultados 2T26 con guia 3T26) y exhibit 99.2 (presentacion de resultados 2T26; laminas 4 PyG, 7 balance, 8 flujos de caja, 10 Future Outlook).",
+    "SEC EDGAR — 6-K 15-ene-2026, accession 0001046179-26-000008: exhibit 99.1 (comunicado 4T25 con guia 1T26 y presupuesto de capital 2026 de US$52-56 mil M) y exhibit 99.2 (presentacion 4T25; lamina 11 Financial Highlights 2025, lamina 13 Future Outlook plurianual).",
+    "U.S. Department of the Treasury — Daily Treasury Par Yield Curve Rates, serie 2026, descarga CSV; plazo 10 anios al 27-jul-2026 = 4,65%.",
+    "Damodaran — 'Country Default Spreads and Risk Premiums', pages.stern.nyu.edu, actualizacion 5-ene-2026: Taiwan Aa3 / CRP 0,78% / ERP 5,01%; EEUU Aa1 / CRP 0,23% / ERP 4,46%.",
+    "Interactive Brokers MCP — snapshot de precio (conid 6223250) e historico semanal de 5 anios de TSM y SPY (conid 756733), 27/28-jul-2026, para el calculo propio de la beta."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+ "ticker": "KLAC",
+ "currency": "USD",
+ "current_price": 269.16,
+ "name": "KLA Corporation",
+ "wacc_pct": 10.8,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.3,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "FY2025 (jun-2025): FCF reportado $3.747B menos 100% de la SBC ($1.360B) = Owner FCF base ~$2.387B, margen owner ~19.6% sobre ingresos de $12.156B. Proyeccion arranca desde ingresos forward FY2026 ~$13.9B (guia Q4) con margen owner que escala de ~20-21% (ano 1) hacia 22-27% (ano 10) por apalancamiento operativo y normalizacion de la SBC como % de ventas. SBC tratada como gasto en efectivo al 100%.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 10.5,
+  "rev_cagr_y6_10_pct": 7,
+  "fcf_margin_terminal_pct": 24.5,
+  "terminal_g_pct": 3,
+  "shares_diluted_b": 1.306,
+  "net_debt_usd_b": 1.19,
+  "sbc_treatment": "100% de la SBC restada del FCF (gasto en efectivo); owner FCF base = $3.747B - $1.360B = $2.387B (margen ~19.6% FY25)"
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 35.66,
+   "prob": 0.375,
+   "note": "Semicap mas ciclico: CAGR ingresos 7% anos 1-5 declinando a 3.5%; margen owner 20%->22%; g terminal 2.5%. Enfriamiento del capex AI/memoria y mayor competencia. WACC 10.8%, peso del valor terminal ~50%."
+  },
+  "base": {
+   "iv_per_share": 50.4,
+   "prob": 0.475,
+   "note": "Consistente con track record y foso de control de procesos (ROIC ~40%): CAGR 10.5% anos 1-5 declinando a 4.5%; margen owner 21%->24.5%; g terminal 3.0%. Tailwind secular de empaquetado avanzado/AI/process control."
+  },
+  "optimista": {
+   "iv_per_share": 71.09,
+   "prob": 0.15,
+   "note": "Supercicle de capex AI sostenido y ejecucion perfecta: CAGR 14% anos 1-5 declinando a 5.5%; margen owner 22%->27%; g terminal 3.5%. Aun asi muy por debajo del precio actual."
+  }
+ },
+ "sanity_check": "Verificacion cruzada: el precio post-split de $269.16 implica P/E forward ~54x y precio/FCF reportado forward ~84x (EPS forward ~$4-5 post-split sobre ~1.31B acciones), confirmado por busqueda web (P/E TTM ~67x, NTM ~50x). KLAC subio ~109% en 6 meses por momentum AI/empaquetado avanzado y cotiza en/cerca de maximos historicos (clasificado not_depressed). Negocio de altisima calidad (ROIC ~40%, deuda neta minima nd/ebitda ~0.2x, foso dominante en metrologia/inspeccion), pero el precio descuenta perfeccion: incluso el escenario optimista (~$71) queda muy por debajo de $269. Rendimiento total al accionista (contraste, NO DDM): dividendo ~$0.92/accion anual post-split (~0.3% yield) mas recompras agresivas; payout combinado div+recompra historicamente ~80-90% del FCF, pero el yield total es bajo (~3-4%) frente a la valoracion exigente. Conclusion: empresa wonderful, precio caro; margen de seguridad negativo a precios actuales.",
+ "method_notes": "DCF de owner earnings a 10 anios en dos fases. Fase 1 (anos 1-5): CAGR de ingresos explicito por escenario, margen owner FCF estabilizado. Fase 2 (anos 6-10): CAGR declina linealmente hacia normalizacion; margen owner escala linealmente hacia terminal. Owner FCF = FCF reportado - 100% SBC (SBC ~11.2% de ventas FY25, 36.3% del FCF, tratada como gasto en efectivo). WACC = Rf 4.3% (UST 10Y) + ERP 5.0% x beta 1.30 (semicap equipment, beta sectorial estimada) = 10.8%; sin ajuste geopolitico (domicilio/cotizacion EEUU, NASDAQ). Valor terminal con modelo de Gordon (g 2.5-3.5% segun foso) sobre owner earnings del ano 10, descontado al WACC. VI/accion = (PV flujos explicitos + PV valor terminal - deuda neta $1.19B) / acciones diluidas (~1.306B post split 10-for-1 jun-2026). Base de proyeccion: ingresos forward FY2026 ~$13.9B (implicado por guia Q4). Peso del valor terminal ~50-60% (apropiado para grower de calidad). Datos verificados de FASE 2 (KLAC.json); complemento web ligero para confirmar consistencia post-split de acciones/EPS/precio."
+}

@@ -1,0 +1,42 @@
+{
+ "ticker": "6920.T",
+ "currency": "JPY",
+ "current_price": 57490,
+ "name": "Lasertec Corporation",
+ "wacc_pct": 8.3,
+ "wacc_components": {
+  "rf_pct": 1.3,
+  "erp_pct": 5,
+  "beta": 1.4,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base ~JPY 75B = FY2025 reported FCF JPY 75.8B (30.1% FCF margin on revenue JPY 251.5B) less ~100% of SBC. SBC is not disclosed by the company or aggregators and is immaterial for this Japanese issuer (no meaningful equity-comp program), so Owner FCF approx equals reported FCF. NOTE: current FCF margins (~30%) and op margins (~48-49% interim) are inflated by extreme yen weakness (USDJPY ~161.5) and revenue/order pull-forward; a normalized sustainable owner-FCF margin is ~26-30%. Conservative case normalizes the base down to ~JPY 70B; base ~JPY 75B; optimistic ~JPY 78B.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 9,
+  "rev_cagr_y6_10_pct": 5,
+  "fcf_margin_terminal_pct": 28,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "SBC expensed at 100% per owner-earnings method, but immaterial/undisclosed for this Japanese issuer, so Owner FCF approx equals reported FCF (no haircut applied).",
+  "shares_diluted_b": 0.0896,
+  "net_debt_usd_b": -0.5
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 16839,
+   "prob": 0.4,
+   "note": "Order recovery delayed to FY2027+ (backlog down ~32% YoY, orders forecast JPY 170-220B vs ~250B expected). EUV/High-NA mask-inspection demand muted; yen normalizes and margins compress. Owner FCF base JPY 70B, Phase-1 CAGR 5%, declining to terminal g 2.5%. IV ~JPY 16,839 (-71% vs price)."
+  },
+  "base": {
+   "iv_per_share": 23897,
+   "prob": 0.45,
+   "note": "Consistent with track record: near-monopoly in EUV photomask/blank inspection drives renewed growth as High-NA EUV ramps FY2027+. Owner FCF base JPY 75B, Phase-1 CAGR 9% declining to terminal g 3.0%, FCF margin ~28-30%. IV ~JPY 23,897 (-58% vs price). Stock is richly valued at ~54x fwd P/E, ~1.5% FCF yield << 8.3% WACC."
+  },
+  "optimista": {
+   "iv_per_share": 35280,
+   "prob": 0.15,
+   "note": "Perfect execution: High-NA EUV super-cycle, monopoly pricing power holds, sustained share gains. Owner FCF base JPY 78B, Phase-1 CAGR 14% declining to terminal g 3.5%. IV ~JPY 35,280 (-39% vs price) - still below market price."
+  }
+ },
+ "sanity_check": "Prob-weighted IV/sh = JPY 22,782 (-60% vs price JPY 57,490). ALL three scenarios sit well below the current price; even perfect execution (optimista JPY 35,280) implies ~-39%. This corroborates the Phase-2 note: stock trades essentially at its 52-week/all-time high after a +249% 12-month run, at ~54x fwd P/E, ~58x trailing P/E, PEG ~4.0, ~20x P/S, ~40x EV/EBITDA. Owner-FCF yield ~JPY 75B / mkt cap JPY 5.15T = ~1.5%, far below the 8.3% WACC -> price discounts many years of high growth. Independent cross-check: sell-side average target ~JPY 43,167 also implies downside, consistent with this DCF. Margins currently flattered by USDJPY ~161.5 and order pull-forward; backlog down ~32% YoY is a near-term headwind. Verdict: high-quality near-monopoly business but materially overvalued at current price.",
+ "method_notes": "10-yr two-stage Owner-Earnings DCF in JPY (quote currency). Owner FCF = reported FCF minus 100% SBC; SBC immaterial/undisclosed for this Japanese issuer so Owner FCF approx reported FCF (~JPY 75B base). Phase 1 (yrs 1-5): explicit owner-FCF CAGR per scenario (5%/9%/14%) reflecting revenue growth at a stabilized ~28-30% FCF margin. Phase 2 (yrs 6-10): CAGR declines linearly toward terminal g. Terminal value = Gordon growth, g=2.5%/3.0%/3.5% (wide-moat EUV inspection near-monopoly justifies upper end in base/optimistic). Discounted at WACC 8.3% = Rf 1.3% (Japan 10Y JGB) + ERP 5.0% x beta 1.4 (high-beta semi-cap equipment); no geopolitical adjustment (Japan-domiciled, not Taiwan). Equity value = PV(flows) + PV(terminal) + net cash JPY ~80B (net cash, USD -0.5B). IV/sh = equity value / 0.0896B diluted shares (89.6M, Morningstar; market cap JPY 5.15T / JPY 57,490 confirms). Shares input verified vs market cap (a stale 45M figure on Google Finance was rejected). Limitations: FY ends Jun 30; current margins inflated by yen weakness and pull-forward; SBC not disclosed; primary IR PDFs JS-rendered (financials from StockAnalysis.com + Simply Wall St aggregators). Not a depressed stock - trading at/near all-time high."
+}

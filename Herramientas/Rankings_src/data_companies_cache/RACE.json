@@ -1,0 +1,101 @@
+{
+ "ticker": "RACE",
+ "name": "Ferrari N.V.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 348.42,
+ "market_cap_usd_b": 61.69,
+ "fwd_pe": 30.9,
+ "fwd_pe_5y_avg": 42,
+ "pe_prem_disc_pct": -26.4,
+ "peg": 4,
+ "last_q": {
+  "period": "Q1 2026 (3 months ended Mar 31, 2026)",
+  "revenue": "EUR 1,848M",
+  "rev_yoy_pct": 3.2,
+  "op_margin_pct": 29.7,
+  "eps_gaap": "EUR 2.33",
+  "eps_adj": "EUR 2.33 (no adjustments; adjusted = reported)"
+ },
+ "last_fy": {
+  "period": "FY2025 (12 months ended Dec 31, 2025)",
+  "revenue": "EUR 7,146M",
+  "organic_growth_pct": 8,
+  "roic_pct": null,
+  "fcf": "EUR 1,538M (Industrial FCF)",
+  "fcf_margin_pct": 21.5
+ },
+ "sbc_pct_revenue": 0.34,
+ "sbc_pct_fcf": 1.6,
+ "net_debt_usd_b": -0.42,
+ "nd_ebitda": -0.1,
+ "net_cash": true,
+ "guidance_fy": "FY2026 guidance (PROYECCION, confirmed at Q1 2026): Net revenues ~EUR 7.50bn; Adjusted EBITDA >=EUR 2.93bn (>=39.0% margin); Adjusted EBIT >=EUR 2.22bn (>=29.5% margin); Adjusted diluted EPS >=EUR 9.45; Industrial free cash flow >=EUR 1.50bn. Order book extends towards end of 2027.",
+ "pct_off_52w_high": -32.9,
+ "pct_off_ath": -32.9,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "net_debt_usd_b",
+  "net_cash",
+  "guidance_fy",
+  "price",
+  "asof_date",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "estimated_fields": [
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "nd_ebitda",
+  "last_fy.roic_pct"
+ ],
+ "sources": [
+  {
+   "label": "Ferrari Q1 2026 Results (SEC Form 6-K, primary)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001648416/000164841626000062/fnvq12026results.htm",
+   "date": "2026-05"
+  },
+  {
+   "label": "Ferrari FY2025 Results (SEC Form 6-K, primary)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001648416/000164841626000018/fnvfy2025results.htm",
+   "date": "2026-02"
+  },
+  {
+   "label": "Ferrari 20-F FY2024 (SEC, for SBC reference)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001648416/000164841625000027/race-20241231.htm",
+   "date": "2025-03"
+  },
+  {
+   "label": "StockAnalysis.com RACE (price, market cap, fwd P/E, 52w range)",
+   "url": "https://stockanalysis.com/stocks/race/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "FinanceCharts RACE PEG/PE",
+   "url": "https://www.financecharts.com/stocks/RACE/value/pe-ratio",
+   "date": "2026-06"
+  },
+  {
+   "label": "Macrotrends RACE PE history (5yr avg context)",
+   "url": "https://www.macrotrends.net/stocks/charts/RACE/ferrari/pe-ratio",
+   "date": "2026-06"
+  }
+ ],
+ "notes": "FUENTE PRIMARIA: SEC Forms 6-K (Ferrari es emisor extranjero, reporta en EUR; cifras operativas VERIFICADAS de filing oficial). Precio/cap/valuacion en USD via ADR NYSE (StockAnalysis, ESTIMADO). Cifras operativas en EUR.\n\nVALUACION: fwd P/E ~30.9x HOY. fwd_pe_5y_avg=42 es ESTIMADO (la media de P/E TRAILING a 5 anios es ~45-48x segun agregadores; el equivalente forward se estima en ~40-42x). pe_prem_disc -26% indica que cotiza con DESCUENTO frente a su propia media historica (de-rating fuerte desde multiplos altos). PEG ~4-6.6x (ESTIMADO, refleja crecimiento EPS modesto ~5% guia 2026 sobre P/E alto) — sigue caro en terminos PEG.\n\nQ1 2026: Rev EUR 1,848M (+3% reportado, +6% constant currency), EBIT EUR 548M (margen 29.7%), EBITDA EUR 722M (39.1%), Net profit EUR 413M, diluted EPS EUR 2.33, Industrial FCF EUR 653M (+5%). Adjusted=reported (sin ajustes).\n\nFY2025: Rev EUR 7,146M (+7%, +8% cc), EBIT EUR 2,110M (margen 29.5%, OJO: el 38.8% es margen EBITDA no EBIT), EBITDA EUR 2,772M, Net profit EUR 1,600M, diluted EPS EUR 8.96, Industrial FCF EUR 1,538M (+50%, record). organic_growth_pct usa el +8% constant currency. ROIC no divulgado en press release (null; Ferrari historicamente ROIC muy alto ~30%+ por capital ligero).\n\nCAJA NETA: Net Industrial Cash EUR +388M a Mar-31-2026 (vs Net Industrial Debt EUR 32M a Dic-31-2025), reflejando recompras de EUR 226M. Posicion de caja neta industrial -> net_cash=true. net_debt_usd_b=-0.42 (negativo=caja). nd_ebitda ~-0.1x (ESTIMADO, caja neta minima vs EBITDA EUR 2.77bn). NOTA: a nivel consolidado existe deuda de Financial Services (securitizaciones), pero la metrica relevante para apalancamiento industrial es la caja neta industrial.\n\nSBC (CRITICO R9): Ferrari NO divulga SBC por separado en press releases; en 20-F FY2024 la SBC era ~EUR 17M en 9 meses -> full-year ~EUR 22-25M. sbc_pct_revenue ~0.34% y sbc_pct_fcf ~1.6% (ESTIMADO). SBC estructuralmente DIMINUTA — de las mas bajas del universo luxury/large-cap. Excelente para R9 (dilucion casi nula; Ferrari recompra acciones agresivamente).\n\nDROP: -32.9% desde maximo 52s y maximo historico (intradia USD 519.10 el ~Jul-2025; cierre ATH USD 511.75 el 25-Jul-2025; 52w low USD 312.51). 52w high = ATH (mismo nivel). CLASIFICACION fear_rotation: la caida es por COMPRESION DE MULTIPLO (de-rating desde ~45x+ a ~31x) en rotacion del sector luxury/auto y dudas sobre el ritmo de la transicion EV/lanzamiento Elettrica/Luce, NO por deterioro de fundamentales — FY2025 fue record (rev +7%, FCF +50%), guia 2026 elevada y confirmada en Q1, cartera de pedidos extendida hasta fin de 2027. Margenes intactos/expandiendo."
+}

@@ -1,0 +1,59 @@
+{
+ "ticker": "MC.PA",
+ "name": "LVMH Moet Hennessy Louis Vuitton SE",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Lujo no es software/red: margenes operativos ~22% grupo y ~35% en Fashion&Leather son altos pero NO escalan con volumen (artesania/escasez limita apalancamiento operativo), por eso base 1.0 sin 2.0."
+  },
+  "R2": {
+   "score": 1,
+   "just": "Lujo personal crece secularmente con riqueza global/clase media asiatica, pero el ciclo actual muestra organico plano/-1% FY2025, lo que confirma crecimiento estructural real pero no inmune al ciclo -> 1.0."
+  },
+  "R3": {
+   "score": 2,
+   "just": "#1 mundial indiscutible del lujo con ~EUR 81B de ingresos, multiplo del 2o (Kering/Hermes/Richemont individualmente), cartera de ~75 maisons lider en casi cada categoria -> dominancia a anios-luz justifica 2.0."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat de marca/intangibles/escasez irreplicable en decadas: Louis Vuitton, Dior, Tiffany, Dom Perignon y patrimonio centenario con pricing power que ningun capital puede recrear -> 2.0."
+  },
+  "R5": {
+   "score": 1,
+   "just": "Crecimiento mayormente organico (LVMH reporta organico explicito: -1% FY2025, +1% Q1'26), pero historico apoyado en M&A grande (Tiffany EUR 15B) y ahora organico plano/negativo -> base 1.0."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Diversificacion superior: 5 segmentos (Fashion&Leather, Wines&Spirits, Perfumes, Watches&Jewelry, Selective Retail), multi-geografia (Asia/EEUU/Europa/Japon) y ningun cliente concentrado -> 1.5."
+  },
+  "R7": {
+   "score": 1,
+   "just": "FCF/NI fuerte (FCF operativo EUR 11.3B vs neto EUR 10.9B = ~104%) y FCF +8%, pero ROIC 11.8% en minimo de 5a (baja desde 13.3%) y solo modestamente sobre WACC -> 1.0, no 1.5."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Balance solido: deuda neta EUR 6.9B, ND/EBITDA ~0.3x muy por debajo de 2x, aunque NO es caja neta -> 1.5 (no 2.0 por ausencia de net cash)."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "Contabilidad limpia modelo europeo: SBC verificada ~0.9% del FCF (muy por debajo del umbral duro de 15%), sin dilucion material, reporte transparente -> 1.5; sbc_flag=ok."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Gobierno Arnault con skin-in-the-game masivo (control familiar ~48%), asignacion de capital disciplinada y dividendos, aunque M&A grande (Tiffany) y estructura de control familiar templan el 2.0 -> 1.5."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R3 (lider #1 a anios-luz) + R4 (moat de marca/escasez irreplicable en decadas) se refuerzan de forma monstruosa: el liderazgo no es accidente sino consecuencia directa de un portafolio de marcas patrimoniales que el capital no puede replicar, creando una ventaja auto-reforzante. R1 no amplifica (lujo no escala como software), por lo que la amplificacion es R3xR4 pura.",
+ "moat_type": "intangibles_marca_escasez",
+ "moat_one_line": "Portafolio de ~75 maisons patrimoniales (Louis Vuitton, Dior, Tiffany) con pricing power, deseabilidad y escasez controlada que ningun competidor puede recrear con dinero ni tiempo.",
+ "thesis_3lines": [
+  "Calidad: lider mundial indiscutible del lujo con moat de marca/escasez irreplicable, margenes ~22% grupo (~35% en Fashion&Leather), FCF +8% y balance fortaleza (ND/EBITDA 0.3x).",
+  "Motor: crecimiento secular del lujo personal apalancado en riqueza global y Asia, con organico ya de vuelta a positivo (+1% Q1'26) tras un bache ciclico, mas pricing power estructural.",
+  "Valoracion/retorno: fwd P/E ~21.6x vs media 5a ~25.8x (~-16% descuento) con la accion -27% del max 52s y -47% del ATH por rotacion/miedo, no por deterioro del negocio -> entrada atractiva en compounder de calidad."
+ ],
+ "bear_case_strongest": "El lujo es mas ciclico de lo que aparenta y LVMH ya muestra grietas reales (ROIC en minimo de 5 anios 11.8% bajando desde 13.3%, beneficio neto -13%, organico plano y BPA aun cayendo): si la demanda china/aspiracional se debilita estructuralmente, el \"descuento\" actual seria valoracion justa para crecimiento estancado, no una ganga.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Score re-puntuado FASE 2 = 14.0/20 en escala absoluta de las 10 reglas (R1 1.0, R2 1.0, R3 2.0, R4 2.0, R5 1.0, R6 1.5, R7 1.0, R8 1.5, R9 1.5, R10 1.5). El score preliminar FASE 1 de 13.5/13.5 era artificialmente perfecto; los datos verificados rebajan R5 (organico plano), R7 (ROIC en minimo de 5a, solo ~11.8% modestamente sobre WACC) y R1 (lujo no escala como software). SBC verificada ~0.9% del FCF -> regla dura NO se activa, R9 favorable. Clasificacion del desplome = fear_rotation: caida -27%/-47% no refleja deterioro genuino (organico de vuelta a positivo, margenes resilientes, FCF +8%, balance solido), sino rotacion fuera de lujo + FX adverso (-7% Q1'26) + miedo geopolitico (Oriente Medio ~-1% organico). Matiz mixed por ROIC en minimo y BPA cayendo. Valoracion con descuento ~-16% vs media 5a es punto de entrada razonable en compounder de calidad. PEG=null no significativo con BPA plano/negativo."
+}

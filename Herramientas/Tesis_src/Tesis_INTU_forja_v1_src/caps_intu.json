@@ -1,0 +1,1604 @@
+{
+ "capitulos": [
+  {
+   "bloques": [
+    {
+     "tipo": "parrafo",
+     "texto": "En 2026, ninguna acción del S&P 500 le hizo perder más dinero a sus dueños que Intuit. Desde el máximo que tocó en julio de 2025, a $813,70, la acción cayó un 64% hasta los $290 a los que cotiza hoy — la caída más profunda del índice, en la empresa que probablemente sea, sin que casi nadie lo note conscientemente, el software con el que unas 100 millones de personas ya declaran sus impuestos, llevan la contabilidad de su negocio y revisan su puntaje de crédito. TurboTax, QuickBooks, Credit Karma: tres nombres que la mayoría reconoce por separado, sin saber que pertenecen a la misma compañía, ni que esa compañía acaba de vivir el peor año bursátil de su historia reciente."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Este mismo sistema de análisis construyó, con el protocolo idéntico de descuento de flujos inverso, tesis completas sobre Visa, Mastercard y Microsoft. Las tres comparten un patrón: en el escenario conservador —el mismo recorte mecánico y proporcional aplicado siempre sobre la guía de la propia compañía, sin excepciones ni favores—, el margen de seguridad resultante no es positivo. Intuit es la excepción. Su conservador propio da $354 por acción contra un precio de $290: un margen de seguridad de +18,1%, positivo por primera y única vez en las cuatro tesis que ha producido este sistema. Dicho de otro modo: el precio de hoy solo exige que Intuit crezca un 4,5% anual durante la próxima década para justificar lo que cuesta — muy por debajo de lo que exige el precio de Visa (11,8%), Mastercard (9,5%) o Microsoft (13,8%), y muy por debajo de lo que la propia Intuit lleva una década demostrando que sabe hacer (16,7% de crecimiento compuesto en ingresos) o de lo que ella misma guía para este año (13-14%). Sobre el papel, es la oportunidad numérica más clara que este sistema ha encontrado. Y es también, hay que decirlo desde la primera página, la más peligrosa de aceptar sin pelear antes."
+    },
+    {
+     "tipo": "tabla",
+     "titulo_tabla": "El mismo protocolo, cuatro respuestas: crecimiento a 10 años que exige hoy el precio (DCF inverso, r=9%)",
+     "encabezados": [
+      "Empresa",
+      "Crecimiento implícito exigido"
+     ],
+     "filas": [
+      [
+       "Visa",
+       "11,8%"
+      ],
+      [
+       "Mastercard",
+       "9,5%"
+      ],
+      [
+       "Microsoft",
+       "13,8%"
+      ],
+      [
+       "Intuit",
+       "4,5%"
+      ]
+     ]
+    },
+    {
+     "tipo": "h2",
+     "texto": "Un puente que cruzan cien millones de personas al año"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Pensar en Intuit como un fabricante de software es quedarse en la superficie. Es más útil pensar en ella como un puente — el único paso disponible, para decenas de millones de personas, entre su vida financiera desordenada y las obligaciones que el Estado y el mercado de crédito les exigen entender: la declaración de impuestos, los libros del negocio, el número de tres dígitos que decide si les prestan dinero y a qué precio. Un puente no vende un producto una vez; cobra peaje cada vez que alguien lo cruza, y lo cruza casi todo el mundo, casi todos los años, casi sin alternativa real. Ese es el negocio: QuickBooks es el carril de la contabilidad, TurboTax el carril fiscal, Credit Karma el carril del crédito, y todos comparten la misma cimentación — la confianza y el hábito de un usuario que no quiere pensar en esto más de lo estrictamente necesario."
+    },
+    {
+     "tipo": "tabla",
+     "titulo_tabla": "La anatomía del puente, FY2025 (desglose por segmento sin verificación completa en fuente primaria; solo el total agregado está confirmado)",
+     "encabezados": [
+      "Segmento",
+      "Ingreso",
+      "Crecimiento",
+      "Margen"
+     ],
+     "filas": [
+      [
+       "QuickBooks (Global Business Solutions)",
+       "$11.077M (59%)",
+       "+16%",
+       "76%"
+      ],
+      [
+       "TurboTax (Consumer)",
+       "$4.870M (26%)",
+       "+10%",
+       "78%"
+      ],
+      [
+       "Credit Karma",
+       "$2.263M (12%)",
+       "+32%",
+       "37%"
+      ],
+      [
+       "ProTax",
+       "$621M (3%)",
+       "+4%",
+       "86%"
+      ],
+      [
+       "Total",
+       "$18.831M",
+       "+16%",
+       "—"
+      ]
+     ]
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Los cuatro carriles no cobran el mismo peaje. QuickBooks es, con diferencia, el más transitado; TurboTax y ProTax cobran a menos gente pero con un margen brutal, propio de un peaje que casi nadie puede evitar en la única época del año en que hace falta cruzarlo — de hecho, el trimestre fiscal de febrero a abril concentra el 72,9% de toda la utilidad neta anual de la compañía, y los primeros nueve meses del año fiscal ya acumulan el 93,9% del flujo de caja operativo. Es un puente con una temporada alta tan extrema que el resto del año es, financieramente, casi un paréntesis. Y es precisamente ese carril más rentable y más concentrado —TurboTax, el fiscal— el que hoy está bajo el asedio más serio."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Asediado desde los dos lados"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Todo puente de peaje vive con el miedo a que alguien construya uno gratis al lado. Durante años, ese miedo tuvo nombre y apellido: IRS Direct File, el programa que el propio gobierno de Estados Unidos lanzó para que los contribuyentes declararan sus impuestos gratis, directamente, sin pasar por TurboTax. En noviembre de 2025 ese puente público fue cancelado — aunque nunca llegó a ser una amenaza real: ni en su mejor momento superó el 0,2% de las declaraciones federales presentadas. Y en marzo de 2026, el Quinto Circuito anuló la orden de la FTC contra Intuit por su publicidad de \"TurboTax gratis\" — un fallo técnico sobre separación de poderes que retira, de momento, el freno regulatorio que más había limitado el marketing de la compañía, aunque el caso vuelve a la agencia sin resolverse de fondo. En ambos frentes regulatorios, el rival se está retirando."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Pero mientras el guardián público bajaba la guardia, apareció un rival que no construye otro puente: ofrece teletransportarse. Goldman Sachs cuantificó la brecha con una precisión incómoda: procesar una declaración de impuestos con inteligencia artificial generativa cuesta hoy unos $0,12 — contra un ingreso promedio por usuario de TurboTax de unos $162. No es una ventaja de costos, es una diferencia de más de mil veces. Perplexity ya lanzó su propia función de impuestos dentro de una suscripción de $17 al mes que el usuario ya paga por otra cosa, capaz de redactar una declaración federal completa sobre los formularios oficiales del IRS. Y esto ya dejó de ser una amenaza teórica: en su propia guía del 20 de mayo de 2026, Intuit admitió que las unidades de TurboTax Online cayeron un 2% y que perdió un punto de cuota en declaraciones electrónicas. No es un analista externo especulando sobre el futuro. Es la propia empresa reconociendo, con cifras en su comunicado de resultados, que el puente ya está perdiendo tráfico."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Dos precedentes, una misma pregunta"
+    },
+    {
+     "tipo": "cita",
+     "texto": "El momento de máximo pesimismo es el mejor momento para comprar, y el momento de máximo optimismo es el mejor momento para vender.",
+     "autor": "John Templeton"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "En 1939, con Europa a punto de estallar en guerra y la Bolsa de Nueva York todavía convaleciente de la Depresión, un joven llamado John Templeton pidió dinero prestado y compró, sin mirar los balances uno por uno, acciones de más de cien empresas que cotizaban por debajo de un dólar — varias decenas de ellas ya en quiebra. Su apuesta no era que esas empresas fueran buenas; era que el precio ya había descontado un desastre tan completo que casi cualquier resultado, salvo el fin del mundo, sería una sorpresa positiva. Ganó una fortuna cuando la economía de guerra revivió a la mayoría de esas empresas. Ese episodio fundó una escuela entera de inversión: comprar en el momento de máximo pesimismo, cuando el precio ya asume lo peor."
+    },
+    {
+     "tipo": "callout",
+     "clase": "CASO HISTÓRICO",
+     "texto": "Eastman Kodak construyó la primera cámara digital del mundo dentro de su propio laboratorio, en 1975 — su ingeniero Steven Sasson se la mostró a los directivos de la empresa años antes de que nadie más en el mercado tuviera nada parecido. La compañía no ignoró la disrupción que terminaría por hundirla: la inventó. Y aun así, protegió durante décadas el negocio de la película fotográfica que la hacía rentable, hasta que el mercado que financiaba ese negocio dejó de existir. Cuando la acción de Kodak parecía barata frente a su propia historia, no lo era: el mecanismo que la mataba ya estaba confirmado, dentro de la propia empresa, mucho antes de que el precio terminara de reconocerlo. La lección no es que la disrupción tecnológica siempre gane — es que un precio bajo, por sí solo, no distingue entre pesimismo exagerado y disrupción real ya en marcha."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Intuit exige hoy que el lector distinga entre estos dos precedentes, y el propio documento que sostiene este capítulo no encontró un atajo para hacerlo. A favor de la lectura Templeton: el precio de $290 ya está pagando un crecimiento de apenas 4,5% anual, muy por debajo de lo que la compañía sigue demostrando y guiando, y el rival regulatorio —el que sí podría haber sido un competidor gratuito y permanente— se está retirando en los dos frentes que importaban. A favor de la lectura Kodak: el mecanismo de riesgo no es una hipótesis de analista, es un dato que la propia Intuit puso en su comunicado de resultados —unidades cayendo, cuota cayendo— en el mismo trimestre que concentra casi tres cuartas partes de su utilidad anual. Las dos lecturas usan los mismos hechos. Producen conclusiones opuestas."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Lo que este capítulo no va a hacer"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Este capítulo no va a resolver esa tensión, y sería deshonesto fingir que puede hacerlo en la primera página. El margen de seguridad de +18,1% es real, pero está por debajo del 25% que este mismo sistema exige, sin excepciones, antes de autorizar una compra inicial — el precio tendría que caer más, o el negocio demostrar más, antes de que ese número mueva un dólar. El veredicto que cierra este documento es VIGILAR, con convicción de compra en 0%, no una recomendación disfrazada de análisis prudente. Lo que sigue en los próximos capítulos es el trabajo de desarmar, pieza por pieza, el foso de distribución que Intuit todavía tiene, los números reales detrás del crecimiento, la calidad de una gestión bajo escrutinio, y el peso exacto que merece cada uno de los dos precedentes —Templeton y Kodak— antes de decidir cuál de los dos está describiendo mejor lo que le está pasando, hoy, al puente que cruzan cien millones de personas."
+    },
+    {
+     "tipo": "callout",
+     "clase": "LECCIÓN TRANSFERIBLE",
+     "texto": "Un margen de seguridad positivo no es, por sí solo, una señal de compra — es una pregunta. Antes de actuar sobre él, hay que verificar de dónde viene el descuento: si nace del pánico generalizado del mercado ante un riesgo que en realidad es acotado (la lectura Templeton), o si nace del reconocimiento honesto de un mecanismo de deterioro que la propia empresa ya confirmó con datos duros (la lectura Kodak). La hoja de cálculo produce el mismo número positivo en ambos casos. Solo uno de los dos es, en realidad, una oportunidad."
+    }
+   ],
+   "id": "apertura",
+   "titulo": "El puente asediado",
+   "subtitulo": "Intuit es la acción más castigada del S&P 500 en 2026 — y la única de cuatro tesis de este sistema con margen de seguridad positivo. Este capítulo no elige entre las dos lecturas posibles."
+  },
+  {
+   "bloques": [
+    {
+     "tipo": "h2",
+     "texto": "La disciplina: fracasar primero, en la imaginación"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "El pre-mortem no es pesimismo: es ingeniería. En 2007, el psicólogo Gary Klein propuso en Harvard Business Review una técnica hoy estándar en la gestión de riesgo: antes de ejecutar un plan, el equipo se imagina que ya fracasó — no que podría fracasar, sino que efectivamente lo hizo — y trabaja hacia atrás para reconstruir por qué. La lógica es contraintuitiva pero potente: proyectar el fracaso como un hecho consumado libera a la mente de la necesidad de defender la decisión ya tomada, y deja ver amenazas que el entusiasmo por un plan en marcha suele ocultar. Este sistema aplica esa disciplina a cada tesis que construye, pero en ninguna es tan urgente como en Intuit — precisamente porque Intuit es la única de las cuatro tesis de esta cartera donde el margen de seguridad calculado ya sale positivo (+18,1%) antes incluso de empezar el pre-mortem. Un número positivo es una droga: invita a construir el caso alcista primero y a salir después a buscar la evidencia que lo confirme. El protocolo invierte el orden a propósito. Antes de creer que $290 es una ganga frente a un valor conservador de $354, hay que imaginar con el mismo rigor con el que se calculó ese valor que la acción vale la mitad — $145 — dentro de tres años, y preguntar qué tuvo que romperse para llegar ahí."
+    },
+    {
+     "tipo": "cita",
+     "texto": "Un margen de seguridad positivo en un documento apenas templado por las rondas adversariales es exactamente el tipo de señal que más necesita escepticismo, no entusiasmo — es la situación donde el sesgo de confirmación es más peligroso, porque 'quiero que sea una ganga' es una tentación real ante una caída del 64%.",
+     "autor": "Dossier tesis-forja INTU, Fase 2, Paso 9"
+    },
+    {
+     "tipo": "h2",
+     "texto": "R1 — la grieta que ya sangra: sustitución por IA"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Piense en el negocio de Intuit como una represa con varias secciones de muro, cada una construida con un material de resistencia distinto. TurboTax para el declarante que hace su propia declaración sin ayuda de nadie —el segmento DIY puro— es, por diseño, el tramo más delgado: es el caso de uso más simple, el que menos depende del juicio humano que aporta un contador, y por tanto el más fácil de replicar por una máquina. Ese tramo ya dejó de ser una hipótesis de riesgo futuro: es la única de las cuatro rutas de fracaso que este documento puede señalar con una grieta ya visible y medida, no proyectada. Perplexity lanzó \"Computer for Taxes\", que redacta la declaración federal sobre los formularios oficiales del IRS, empaquetada dentro de una suscripción de $17 al mes que el usuario probablemente ya paga por otra cosa — el equivalente a que el agua encuentre una grieta gratuita en un muro que antes cobraba peaje por cada declaración. Goldman Sachs cuantificó la brecha con precisión quirúrgica: el costo marginal de procesar una declaración vía IA es de apenas $0,12, frente a un ingreso promedio por usuario de TurboTax de alrededor de $162. Es la diferencia de costo más extrema de cualquier disrupción que este sistema ha analizado hasta ahora. Y la primera ficha del dominó ya sonó: en su propia guía del 20 de mayo de 2026, Intuit admitió que las unidades de TurboTax Online cayeron -2% y que la cuota de declaraciones electrónicas cedió -1 punto — no es la proyección de un analista externo escéptico, es la propia compañía reconociendo la grieta en su balance. Si el 20% de los declarantes DIY que Goldman modela migra efectivamente hacia soluciones basadas en IA entre 2026 y 2029, TurboTax —cerca de una cuarta parte de los ingresos y de la utilidad operativa de Intuit— encamina una caída de aproximadamente 18% en sus ingresos hacia 2030 frente a la base de FY2025. Esa sola ruta, sin necesidad de ninguna de las otras tres, basta para explicar una acción a $145: el descuento que hoy parece máximo pesimismo —un múltiplo de apenas 17 veces beneficios, cerca de su mínimo en una década, frente a una mediana histórica cercana a 48 veces— sería, en ese mundo, simplemente el precio correcto de un negocio en decadencia estructural."
+    },
+    {
+     "tipo": "callout",
+     "clase": "CASO HISTÓRICO",
+     "texto": "Blockbuster vio nacer, dentro de su propio radar competitivo, el canal que terminaría por matarla — y lo descartó por parecer un nicho de bajo margen. A comienzos de los años 2000, el alquiler de DVDs por correo —el modelo con el que arrancó Netflix— era lento, incómodo y generaba mucho menos ingreso por transacción que una tienda física con sus lucrativos cargos por retraso. Blockbuster tuvo la oportunidad de comprar esa incomodidad temprana y la dejó pasar: no encajaba con el negocio de márgenes altos que sostenía miles de tiendas. Para cuando el streaming volvió irrelevante la logística física por completo, la grieta ya había cruzado todo el muro, y Blockbuster se declaró en quiebra en 2010. La diferencia honesta con Intuit importa tanto como el paralelo: Blockbuster dependía casi por completo de un solo formato de distribución, sin refugio alternativo; Intuit, en cambio, tiene otros segmentos —QuickBooks, Credit Karma, TurboTax Live— generando ingresos y, a diferencia de Blockbuster, está reforzando activamente su distribución (el programa ProPartner extendió el reparto de ingresos a firmas contables hasta tres años, con comisiones de hasta 25% de facturación, ejecutado en plena crisis de TurboTax). El paralelo no dice que Intuit está condenada; dice que una señal de erosión en el segmento de menor margen merece tratarse como advertencia estructural, no como ruido pasajero — que es exactamente el error que cometió Blockbuster con su canal más barato y menos glamoroso."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Las otras tres grietas: Mailchimp, tribunales y el regulador que no se fue"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Las otras tres rutas de fracaso pesan menos que R1, pero ninguna es despreciable. Mailchimp, comprada por $12.000 millones en noviembre de 2021, muestra una desaceleración severa en su crecimiento incremental: de +$125 millones en el año fiscal 2024 a apenas +$20 millones en el año fiscal 2025. El ingreso sigue siendo positivo —no hay, en la documentación disponible, una caída confirmada— pero la trayectoria es la de un activo que dejó de aportar tracción, no la de un motor de crecimiento. Si esa desaceleración cruza a terreno negativo por la competencia de herramientas de marketing por correo con IA nativa más barata, la adquisición se convertiría en el segundo gran error de asignación de capital de la era Goodarzi, sin que ningún cargo contable lo haya reconocido todavía. La tercera ruta traslada el riesgo del negocio al terreno legal: lo que en julio de 2026 son solo investigaciones preliminares de bufetes de accionistas podría escalar a una demanda colectiva formal, alegando que Intuit representó de forma engañosa su competitividad de precio frente a alternativas de IA antes de la caída bursátil de finales de mayo de 2026 —un costo reputacional y legal que se suma al riesgo de negocio, no lo sustituye. Y la cuarta ruta es el recordatorio de que una victoria regulatoria puede ser parcial: el Quinto Circuito anuló la orden de la FTC sobre la publicidad de \"TurboTax gratis\" por un tecnicismo de separación de poderes, pero devolvió el caso a la agencia —no lo cerró. Si la FTC decide volver a litigar en una corte federal de Artículo III, con jurado y un estándar de prueba más exigente que el de su procedimiento administrativo original, el resultado de la segunda ronda no está garantizado a favor de Intuit."
+    },
+    {
+     "tipo": "tabla",
+     "titulo_tabla": "Las cuatro rutas de fracaso",
+     "encabezados": [
+      "Ruta",
+      "Mecanismo",
+      "Estado a jul-2026",
+      "Por qué golpea el precio"
+     ],
+     "filas": [
+      [
+       "R1 — Sustitución por IA (TurboTax DIY)",
+       "Coste marginal IA ~$0,12 vs ARPU TurboTax ~$162; Perplexity ya redacta declaraciones sobre formularios del IRS",
+       "Confirmado con dato duro: unidades -2%, cuota e-file -1pt (guía propia, 20-may-2026)",
+       "Sola, sin las otras tres, explica una caída del 50%"
+      ],
+      [
+       "R2 — Mailchimp como segunda herida",
+       "Crecimiento incremental cayó de +$125M (FY24) a +$20M (FY25)",
+       "Desaceleración severa confirmada; sin declive de ingresos confirmado",
+       "$12.000M pagados, sin impairment reconocido si la tendencia se profundiza"
+      ],
+      [
+       "R3 — Litigio por fraude de valores",
+       "Alegación de representación engañosa de la competitividad de precio antes de la caída de mayo-2026",
+       "Solo investigaciones de bufetes (Bleichmar Fonti & Auld y otros), sin demanda formal",
+       "Añade costo legal y reputacional sobre el riesgo de negocio ya existente"
+      ],
+      [
+       "R4 — La FTC vuelve sin el escudo constitucional",
+       "Orden anulada por tecnicismo (doctrina Jarkesy); caso devuelto a la agencia, no cerrado",
+       "Sin re-litigio confirmado en corte federal Artículo III",
+       "Un jurado y un estándar de prueba más alto podrían revertir el resultado favorable"
+      ]
+     ]
+    },
+    {
+     "tipo": "h2",
+     "texto": "El contra-pre-mortem: la ruta hacia el doble"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "La disciplina exige el ejercicio inverso con el mismo rigor, para no caer en el sesgo contrario —el pesimismo que confunde cautela con certeza. Si dentro de tres años Intuit vale el doble ($580), ¿qué tuvo que pasar? Primero, que TurboTax Live —el nivel asistido por un experto humano, en teoría más difícil de replicar por un chatbot puro porque incluye a alguien que revisa y firma la declaración— siguiera absorbiendo el mix del segmento DIY que se erosiona. Aquí la honestidad del documento importa: no existe todavía una cifra verificada en fuente primaria de qué proporción del ingreso de TurboTax representa ese nivel asistido ni de su ritmo de crecimiento; es un argumento plausible, no un hecho confirmado, y tratarlo como más sólido de lo que es sería precisamente el sesgo de confirmación que este capítulo existe para prevenir. Segundo, que Credit Karma revirtiera su desaceleración actual —de +32% en el año fiscal 2025 a +22% acumulado en los primeros nueve meses del año fiscal 2026 y +15% en el trimestre más reciente aislado— en lugar de seguir cediendo velocidad. Tercero, que QuickBooks siguiera demostrando poder de fijación de precios real, con precio y número de clientes subiendo a la vez, no uno a costa del otro. Y cuarto, que el mercado, superado el pánico de 2026, reconociera que la sustitución por IA es más lenta y está más acotada al segmento de bajo precio de lo que el precio de pánico de hoy ya descuenta. Ninguna de estas cuatro condiciones es descabellada; todas son, en distinto grado, verificables con los resultados que Intuit publicará en los próximos trimestres. Ninguna de las dos narrativas —la de $145 ni la de $580— está todavía confirmada, y ese empate de incertidumbre real es, de hecho, la razón por la que la decisión de este documento en julio de 2026 es vigilar y no comprar: el margen de seguridad calculado, +18%, es positivo pero queda por debajo del umbral que el propio sistema exige antes de arriesgar capital, y las cuatro rutas de este capítulo son precisamente lo que ese umbral más alto está diseñado para filtrar antes de que el entusiasmo por un precio castigado se confunda con convicción."
+    },
+    {
+     "tipo": "callout",
+     "clase": "PAUSA REFLEXIVA",
+     "texto": "Antes de leer cualquier caso alcista sobre Intuit, hágase la pregunta que este pre-mortem responde primero: ¿cómo se pierde la mitad del dinero con el mecanismo más simple posible, sin necesitar que coincidan tres o cuatro cosas malas a la vez? La respuesta aquí es incómodamente corta: basta con R1. Si el 20% de migración hacia IA que modela Goldman se cumple, no hacen falta ni Mailchimp, ni el litigio, ni la FTC — el negocio de impuestos por sí solo empuja la valoración hacia el suelo. Cuando una sola ruta, sin ayuda de las demás, es suficiente para el escenario catastrófico, esa ruta merece pesar más que las otras tres juntas en cualquier decisión de tamaño de posición."
+    },
+    {
+     "tipo": "callout",
+     "clase": "LECCIÓN TRANSFERIBLE",
+     "texto": "Un margen de seguridad positivo no es la señal de que el trabajo terminó — es la señal de que el trabajo más importante recién empieza. Cuanto más atractivo se ve un número, más se beneficia de que alguien intente activamente destruirlo antes de confiar en él. La pregunta que separa una ganga real de una trampa de valor casi nunca es \"¿está barato?\" — casi siempre es \"la grieta que veo hoy en el segmento más débil, ¿es un accidente aislado o el primer síntoma de un patrón que se extiende?\". Esa pregunta no se puede tercerizar a un múltiplo bajo ni a un precio que ya cayó mucho; solo se responde vigilando, trimestre a trimestre, si la erosión se detiene donde el optimista necesita que se detenga — en Intuit como en cualquier otro negocio castigado que empieza a parecer barato."
+    }
+   ],
+   "id": "premortem",
+   "titulo": "El pre-mortem de Intuit: imaginar el fracaso antes de creer en la ganga",
+   "subtitulo": "Cuatro rutas hacia los $145 — y la pregunta que decide si el descuento de hoy es la oportunidad o la trampa"
+  },
+  {
+   "bloques": [
+    {
+     "tipo": "h2",
+     "texto": "Cuatro negocios, un solo motor"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Empecemos por lo simple: ¿qué vende Intuit? Cuatro cosas, y las cuatro resuelven el mismo problema humano —el papeleo financiero que nadie quiere hacer— para cuatro públicos distintos. TurboTax es el producto que casi cualquier lector reconocerá: el software que guía a un contribuyente estadounidense, paso a paso, a través de su declaración de impuestos, con una versión \"hazlo tú mismo\" y otra asistida por un experto humano que revisa y firma la declaración (TurboTax Live). QuickBooks es el otro extremo del mostrador: el sistema de contabilidad que usan pequeños negocios —la peluquería de la esquina, el estudio de tres arquitectos— para llevar sus libros, facturar y pagar nóminas; es, con diferencia, el motor más grande de la casa, el 59% del ingreso total de la compañía en el año fiscal 2025. Credit Karma, comprada por Intuit en diciembre de 2020, tiene un ADN distinto a los otros dos: no le cobra directamente al usuario, sino que le muestra gratis su puntaje de crédito y le recomienda tarjetas, préstamos y seguros, y cobra comisión a los bancos y aseguradoras cuando ese usuario contrata algo —es, en el fondo, un negocio de publicidad dirigida disfrazado de herramienta financiera. Mailchimp, comprada en noviembre de 2021, es la pieza más ajena a las otras tres: una plataforma de email marketing para que pequeñas empresas manden boletines y campañas sin contratar una agencia. Cuatro negocios que, en apariencia, tienen poco en común, pero comparten un mismo denominador: todos monetizan el momento en que una persona o una pequeña empresa necesita poner en orden sus finanzas y prefiere pagar por software antes que contratar a un profesional a tiempo completo."
+    },
+    {
+     "tipo": "tabla",
+     "titulo_tabla": "La anatomía del negocio, año fiscal 2025 (estructura de segmentos vigente hasta jul-2025; solo el total agregado está confirmado con certeza total contra el dossier)",
+     "encabezados": [
+      "Segmento",
+      "Ingreso",
+      "Crecimiento",
+      "Margen de segmento"
+     ],
+     "filas": [
+      [
+       "Global Business Solutions (QuickBooks)",
+       "$11.077M (59%)",
+       "+16%",
+       "76%"
+      ],
+      [
+       "Consumer (TurboTax)",
+       "$4.870M (26%)",
+       "+10%",
+       "78%"
+      ],
+      [
+       "Credit Karma",
+       "$2.263M (12%)",
+       "+32%",
+       "37% (subiendo desde 24%)"
+      ],
+      [
+       "ProTax",
+       "$621M (3%)",
+       "+4%",
+       "86%"
+      ],
+      [
+       "Total",
+       "$18.831M",
+       "+16%",
+       "—"
+      ]
+     ]
+    },
+    {
+     "tipo": "h2",
+     "texto": "El agricultor de una sola cosecha"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Pero hay un rasgo de Intuit que ninguna descripción de producto captura, y es el que más debe importarle a un inversor: cuándo gana dinero. Imagine un agricultor que vive de un solo campo de trigo. Lo riega, lo fertiliza y lo cuida durante doce meses, pero el ingreso de todo el año —el que paga la hipoteca, la escuela de los hijos, el tractor nuevo— depende de lo que ocurra en las pocas semanas de la cosecha. Si llueve mal esa semana, o el precio del trigo se desploma justo entonces, no hay manera de recuperarlo vendiendo más en octubre: el trigo ya no está en el campo, la temporada ya pasó. Intuit vive exactamente así, solo que su cosecha es la temporada de impuestos en Estados Unidos. El 72,9% de la utilidad neta de todo el año fiscal 2025 se generó en un único trimestre —febrero a abril, la ventana en la que decenas de millones de personas presentan su declaración bajo la presión de una fecha límite legal. Ampliando el lente a los primeros nueve meses del año fiscal (agosto a abril), la compañía ya había acumulado el 93,9% de su flujo de caja operativo anual, lo que deja al último trimestre (mayo a julio) con una contribución marginal de apenas ~6,1% del flujo de caja del año completo. No es que Intuit tenga un mal cuarto trimestre: es que, estructuralmente, casi no tiene cuarto trimestre. Durante décadas esto fue una fortaleza, no un defecto, porque una fecha límite legal es la forma de demanda más predecible que existe —nadie posterga indefinidamente declarar sus impuestos. Pero también significa que cualquier daño que ocurra durante esas semanas de cosecha no se diluye a lo largo del año: se siente entero, de una sola vez, y hay que esperar doce meses enteros para tener otra oportunidad de corregirlo."
+    },
+    {
+     "tipo": "h2",
+     "texto": "La amenaza que no se parece a un competidor"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Durante treinta años, la competencia de TurboTax tuvo una forma reconocible: otro software de impuestos compitiendo en precio o en la calidad del asistente. Ese tipo de amenaza es la que cualquier negocio maduro sabe defender, con marca, distribución y mejor producto. Lo que apareció en 2026 es distinto en su estructura, no solo en su intensidad. Perplexity, un buscador con inteligencia artificial, lanzó una función llamada \"Computer for Taxes\" dentro de una suscripción de $17 al mes que muchos de sus usuarios ya pagaban por otra cosa —buscar información, no declarar impuestos—, y que redacta la declaración federal directamente sobre los formularios oficiales del IRS. No es un competidor nuevo entrando al mercado de la preparación de impuestos: es una función añadida, casi gratis, a un producto que el usuario ya llevaba en el bolsillo. Goldman Sachs cuantificó la brecha con una precisión incómoda: el coste marginal de procesar una declaración de impuestos mediante IA generativa es de apenas ~$0,12, frente a un ingreso promedio por usuario (ARPU) de TurboTax de ~$162. Esa diferencia —no unos puntos porcentuales de precio, sino dos órdenes de magnitud— es lo que hace que esta amenaza no se pueda combatir bajando tarifas: a $0,12 de coste marginal, Intuit no puede competir en precio sin destruir el negocio que quiere defender. Y esto ya no es una proyección: en su propia guía de resultados del 20 de mayo de 2026, la compañía admitió que las unidades de TurboTax Online cayeron -2% y que su cuota de declaraciones electrónicas (e-files) bajó -1 punto porcentual. Es la propia Intuit, no un analista externo, reconociendo el primer síntoma con datos duros. Vale precisar, con la misma honestidad que exige este documento, dónde el ataque todavía no llega: Perplexity redacta la declaración, pero no la presenta ante el IRS —el usuario aún depende de completar el trámite de envío en otro lugar—, y convertirse en proveedor autorizado de e-file exige pasar un proceso regulatorio del propio IRS cuya dificultad real nadie ha verificado todavía: puede ser una barrera de años, o una brecha que se cierra en una sola temporada."
+    },
+    {
+     "tipo": "callout",
+     "clase": "CASO HISTÓRICO",
+     "texto": "Este patrón —una tecnología nueva que no cobra por el servicio en sí porque lo regala como complemento de otra cosa, y por eso arrasa con un negocio que llevaba décadas cobrando por él— ya ocurrió antes, y a una industria entera. Durante gran parte del siglo XX, los anuncios clasificados (empleo, autos, vivienda) fueron uno de los negocios más rentables de los periódicos, casi un monopolio local en cada ciudad. A finales de los años noventa, Craigslist empezó a ofrecer ese mismo servicio —publicar un anuncio clasificado— gratis, financiado con publicidad marginal y sin la estructura de costos de un periódico. No compitió bajando el precio: lo llevó a cero. Los periódicos nunca recuperaron ese ingreso, porque no existe forma de defender un precio positivo contra un competidor cuyo coste marginal es, en la práctica, cero. El paralelismo con Intuit no es exacto —TurboTax todavía ofrece valor añadido real, no solo un listado—, pero el mecanismo de fondo es el mismo que describe Goldman Sachs para los impuestos: cuando el coste marginal de una alternativa colapsa porque el servicio se regala dentro de algo más grande, la pregunta deja de ser \"quién cobra menos\" y pasa a ser \"quién puede seguir cobrando algo\"."
+    },
+    {
+     "tipo": "callout",
+     "clase": "LECCIÓN TRANSFERIBLE",
+     "texto": "Todo negocio con una \"temporada única\" —una ventana concentrada del año, o del ciclo de vida del cliente, de la que depende casi toda la utilidad anual— carga con una paradoja incorporada: esa concentración es a la vez su mayor fortaleza y su mayor vulnerabilidad. Es una fortaleza porque una fecha límite legal, un evento estacional o un momento de decisión inevitable genera la demanda más predecible y menos discrecional que existe: nadie posterga indefinidamente declarar sus impuestos. Pero es una vulnerabilidad porque convierte al negocio en un blanco de tiro fijo: un disruptor no necesita ganarle terreno todo el año, solo necesita capturar una fracción de esas pocas semanas críticas para que el daño se sienta desproporcionado en el resultado anual, sin margen para compensarlo en los meses siguientes. Al evaluar cualquier negocio estacional —una aseguradora agrícola, una cadena de gimnasios que vive de las inscripciones de enero, un preparador de impuestos— la pregunta que debe hacerse un inversor no es solo \"qué tan grande es la cosecha\", sino \"qué tan defendible es cada semana de la ventana en que ocurre\". Ahí, y no en el promedio del año, es donde se decide si la tesis sobrevive."
+    }
+   ],
+   "id": "negocio",
+   "subtitulo": "Cómo gana dinero Intuit —TurboTax, QuickBooks, Credit Karma, Mailchimp— y por qué la amenaza de la IA generativa no se parece a ninguna competencia que la compañía haya enfrentado antes",
+   "titulo": "El negocio: cuatro productos, una sola cosecha"
+  },
+  {
+   "bloques": [
+    {
+     "tipo": "cita",
+     "texto": "El competidor marginal no es H&R Block ni Xero — es un chatbot general que añade \"hacer tus impuestos\" como función extra de una suscripción ya pagada.",
+     "autor": "Tesis-forja INTU, Paso 2 · 13-jul-2026"
+    },
+    {
+     "tipo": "h2",
+     "texto": "El enemigo cambió de nombre y de naturaleza"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Durante dos décadas, el mapa competitivo de la preparación de impuestos en Estados Unidos se dibujó entre nombres conocidos: TurboTax contra H&R Block, contra Xero del lado contable, contra un puñado de despachos y contadores locales. Era una guerra de cuota de mercado entre negocios con estructuras de costos parecidas —oficinas, personal estacional, marketing de temporada— donde ganar significaba superar al rival en distribución o en precio. Ese mapa ya no describe el terreno. El propio documento de tesis lo dice sin rodeos: el competidor marginal de Intuit ya no es H&R Block ni Xero, es un chatbot de propósito general que añade \"hacer tus impuestos\" como una función más dentro de una suscripción que el usuario ya paga por otra cosa. Perplexity, el ejemplo concreto y ya verificado, lanzó \"Computer for Taxes\" integrado en un plan de $17 al mes: redacta la declaración federal directamente sobre los formularios oficiales del IRS. No es un prototipo de laboratorio ni una promesa de producto: es un producto que existe hoy, dentro de una suscripción que millones de personas ya tienen abierta en el navegador por otro motivo."
+    },
+    {
+     "tipo": "h2",
+     "texto": "La aritmética que lo explica todo: $0,12 contra $162"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "La razón por la que este competidor es distinto a cualquiera de los anteriores no es la marca ni el marketing: es la estructura de costos. Goldman Sachs cuantificó la brecha con una precisión que rara vez se ve en este tipo de análisis: el coste marginal de procesar una declaración de impuestos vía IA generativa es de apenas ~$0,12, frente a un ingreso promedio por usuario (ARPU) de TurboTax de ~$162. No es una diferencia de precio competitivo: es una diferencia de casi tres órdenes de magnitud en el costo de servir al cliente marginal. Cuando el costo de atender a un cliente adicional se acerca a cero, la economía clásica dicta que el precio de mercado, tarde o temprano, también tiende a acercarse a cero, al menos en el segmento donde el producto es más fácil de replicar. Ese segmento, en el caso de Intuit, ya tiene nombre y ya tiene una cifra: TurboTax Online, con unidades cayendo -2% y la cuota de e-files retrocediendo -1 punto, según la propia guía de la compañía del 20 de mayo de 2026. No es una proyección de un analista externo con incentivos para asustar: es un dato que Intuit admitió sobre sí misma."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Guerra en dos frentes: uno se cierra, el otro se abre"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Para entender el año que atraviesa Intuit conviene pensar en dos frentes de batalla simultáneos, porque confundirlos —tratarlos como si se cancelaran entre sí— es el error de lectura más fácil de cometer con esta tesis. En el frente viejo, el del Estado como competidor, la tropa se está retirando: el IRS canceló su programa Direct File en noviembre de 2025, apagando la única alternativa pública y gratuita de presentar impuestos en línea; y en marzo de 2026, el Quinto Circuito anuló la orden de la FTC contra la publicidad de \"TurboTax gratis\", por un tecnicismo de separación de poderes conocido como doctrina Jarkesy. Son dos victorias reales y verificables, y ninguna de las dos exigió que Intuit ganara un solo cliente nuevo. Pero es exactamente el tipo de buena noticia que invita a relajar la guardia en el momento equivocado, porque mientras ese frente se cierra, se abre uno nuevo con un enemigo de una naturaleza completamente distinta: no un regulador con presupuesto y calendario electoral, sino un producto de software que ya existe, que ya se distribuye dentro de suscripciones que decenas de millones de personas pagan por otras razones, y cuyo costo de servir a un cliente adicional no se mide en millones de dólares de litigio sino en centavos de cómputo."
+    },
+    {
+     "tipo": "callout",
+     "clase": "PAUSA REFLEXIVA",
+     "texto": "Antes de sentir alivio por el frente regulatorio, conviene medir su tamaño real. El programa que acaba de cancelarse, IRS Direct File, nunca llegó a procesar más de ~0,2% de las declaraciones federales presentadas — cerrarlo es una buena noticia direccional, pero es la clausura de una escaramuza, no de una guerra. Y el caso de la FTC tampoco está cerrado: fue devuelto a la agencia, no resuelto a favor de Intuit. Sumar estos dos alivios como si compensaran la magnitud del frente que se abre es el error de cálculo más tentador de esta tesis."
+    },
+    {
+     "tipo": "tabla",
+     "titulo_tabla": "Los dos frentes, a julio de 2026",
+     "encabezados": [
+      "Frente",
+      "Movimiento",
+      "Evidencia (documento fuente)"
+     ],
+     "filas": [
+      [
+       "Estado — IRS Direct File",
+       "Se retira",
+       "Cancelado nov-2025; nunca superó ~0,2% de las declaraciones federales presentadas"
+      ],
+      [
+       "Estado — orden FTC \"TurboTax gratis\"",
+       "Se retira, sin cerrar del todo",
+       "Anulada por el 5º Circuito (doctrina Jarkesy, mar-2026); caso devuelto a la agencia, no resuelto"
+      ],
+      [
+       "IA privada — chatbots de propósito general",
+       "Avanza",
+       "Perplexity \"Computer for Taxes\" ($17/mes); coste marginal ~$0,12 vs ARPU TurboTax ~$162; TurboTax Online units -2%, cuota e-files -1pt (guía 20-may-2026)"
+      ]
+     ]
+    },
+    {
+     "tipo": "h2",
+     "texto": "El precedente que ya ocurrió: NerdWallet"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Lo más inquietante del frente que se abre es que no hace falta imaginar cómo termina: ya terminó, o está terminando, en un sector adyacente. NerdWallet, el negocio de comparación financiera online que vive de la misma lógica de tráfico de búsqueda que alimenta buena parte del ecosistema de generación de leads financieros, reportó en su 10-K de FY2025 caídas de -24% en su segmento de Tarjetas de Crédito y de -9% en Productos SMB, atribuidas explícitamente a la \"presión del tráfico de búsqueda orgánica\": es decir, a que los buscadores ya no envían al usuario a una página de comparación, sino que responden la pregunta directamente con IA, sin que el usuario necesite hacer clic en ningún resultado. Esto no es una hipótesis sobre lo que la IA podría hacerle a Intuit dentro de tres años: es un hecho contable, ya reportado, ocurriendo hoy en un negocio que depende de la misma correa de transmisión —tráfico de búsqueda que se convierte en cliente— que sostiene buena parte del embudo de adquisición de TurboTax."
+    },
+    {
+     "tipo": "tabla",
+     "titulo_tabla": "El precedente NerdWallet (10-K FY2025)",
+     "encabezados": [
+      "Segmento",
+      "Caída reportada",
+      "Causa citada en el 10-K"
+     ],
+     "filas": [
+      [
+       "Credit Cards",
+       "-24%",
+       "Presión del tráfico de búsqueda orgánica"
+      ],
+      [
+       "SMB Products",
+       "-9%",
+       "Presión del tráfico de búsqueda orgánica"
+      ]
+     ]
+    },
+    {
+     "tipo": "callout",
+     "clase": "CASO HISTÓRICO",
+     "texto": "El mecanismo tiene un precedente mayor, fuera del mundo financiero, que vale la pena recordar: los clasificados de los periódicos estadounidenses. Durante más de un siglo, esa sección —empleo, autos usados, bienes raíces, avisos personales— fue uno de los negocios más rentables y menos visibles de la prensa: un cuasi-monopolio local de poner en contacto a comprador y vendedor. Craigslist no le ganó a los periódicos en calidad editorial, en alcance de marca ni en fuerza de ventas: le ganó con un costo marginal de publicar un anuncio que rondaba cero, porque no había papel, ni imprenta, ni repartidor. Y el ataque no llegó parejo a todo el negocio del periódico: llegó primero, y con más fuerza, a la sección de clasificados —el producto más commoditizado, un simple listado de texto— mientras el periodismo con marca y credibilidad propia tardó más años en sentir la misma presión. El sustituto de costo marginal casi cero siempre ataca primero donde hay menos valor añadido que defender."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Lo que el patrón enseña sobre el foso de Intuit"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "La lección se traslada casi sin fricción al mapa de Intuit. TurboTax DIY —la versión más barata, sin intervención humana, donde el usuario simplemente sigue un flujo de preguntas— es el clasificado de anuncios de Intuit: el producto más fácil de replicar con un costo marginal cercano a cero, y por eso el primero en mostrar sangre (-2% unidades, -1pt de cuota, ya en la propia guía de la empresa). TurboTax Live, el tier asistido con un contador humano revisando y firmando la declaración, se parece más al periodismo con marca: en teoría, más difícil de replicar por un chatbot que todavía no puede presentar la declaración ante el IRS. La analogía es útil, pero no es una promesa: el propio documento de tesis señala que no existe hoy una cifra verificada, en fuente primaria, de qué tamaño tiene realmente ese segmento asistido dentro de TurboTax ni de qué tan rápido crece, así que tratarlo como un refugio garantizado sería el mismo error que cometieron quienes asumieron que el periodismo de marca protegería para siempre al resto del negocio de un periódico, sin notar que un periódico sin clasificados ya era un negocio con un problema de rentabilidad estructural, no solo con un problema de una sección."
+    },
+    {
+     "tipo": "callout",
+     "clase": "LECCIÓN TRANSFERIBLE",
+     "texto": "Cuando evalúes si un negocio de calidad está protegido de un nuevo entrante, la pregunta correcta no es '¿quién es el competidor con nombre y logo?', sino '¿cuál es la estructura de costo marginal del sustituto?'. Un competidor con costo marginal cercano a cero no necesita superar al incumbente en marca, distribución ni experiencia de producto: solo necesita que exista un segmento commoditizado donde el precio actual disimule un margen que ya no es defendible. Ese segmento cae primero, y su caída —cuando la admite la propia empresa, como hizo Intuit con su guía de mayo de 2026— suele ser la señal más temprana y más honesta de hacia dónde va el resto del negocio, más confiable que cualquier proyección externa. Y un segundo matiz, igual de importante: un viento de cola regulatorio favorable —un competidor estatal que se retira, una orden que se anula— nunca debe compensarse mentalmente, dólar por dólar, contra un frente competitivo que se abre con una estructura de costos fundamentalmente distinta. Son magnitudes de naturaleza diferente, y tratarlas como si se cancelaran entre sí es una de las formas más sutiles de autoengaño en una tesis de inversión."
+    }
+   ],
+   "id": "industria",
+   "subtitulo": "Guerra en dos frentes: el Estado se retira justo cuando la IA privada avanza",
+   "titulo": "Intuit (INTU) — El Capítulo de la Industria"
+  },
+  {
+   "bloques": [
+    {
+     "tipo": "h2",
+     "texto": "Un castillo con dos líneas de defensa"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Imagina a Intuit no como una empresa de software, sino como un castillo con dos líneas de defensa. La primera es la muralla exterior: barata de levantar, cara de sostener, siempre la primera en recibir cualquier asalto. Ahí vive TurboTax DIY —la declaración de impuestos hecha por el propio usuario, sin ayuda de nadie—, el producto más simple de Intuit y, por eso mismo, el más fácil de imitar. La segunda línea es el foso: agua profunda, lenta de cruzar, que no protege el producto sino la relación de confianza entre el contable y su cliente que Intuit lleva treinta años cultivando bajo el nombre ProAdvisor. La distinción importa porque casi ningún ejército toma un castillo asaltando el foso directamente: primero prueba las murallas exteriores, donde atacar sale más barato. Eso es exactamente lo que hizo Perplexity con su \"Computer for Taxes\": no fue a por la relación con el contable, fue a por el trámite DIY más simple, el que se redacta sobre los formularios oficiales del IRS dentro de una suscripción que el usuario ya pagaba por otra cosa. Intuit lo admitió con su propia guía, no con la interpretación de un analista externo: unidades de TurboTax Online cayendo 2%, cuota de e-files cayendo 1 punto — la primera ficha del dominó, ya caída, no proyectada."
+    },
+    {
+     "tipo": "h2",
+     "texto": "El foso se profundiza, no se seca"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Lo que hizo Intuit mientras esa muralla exterior ardía es la parte que un observador superficial puede pasar por alto. En mayo de 2026, en pleno desplome del precio y en medio de la propia crisis de TurboTax, la compañía anunció el reemplazo de ProAdvisor —su programa de fidelización de contables, con tres décadas de historia— por ProPartner Accountants, una versión más agresiva del mismo lock-in económico. El revenue share que antes se extendía doce meses ahora puede llegar hasta tres años; las comisiones para las firmas contables top pueden alcanzar el 25% de su facturación neta. No es un gesto cosmético: es Intuit atando el interés económico del contable —la persona en la que la pequeña empresa confía para llevar sus libros— a QuickBooks durante un horizonte tres veces más largo, justo cuando el mercado más dudaba de su capacidad de retener clientes. Un asediado que decide, en plena batalla, cavar el foso más hondo en vez de solo reforzar la muralla que ya cede, está enviando una señal sobre dónde cree de verdad que está su ventaja."
+    },
+    {
+     "tipo": "callout",
+     "clase": "PAUSA REFLEXIVA",
+     "texto": "Vale la pena detenerse aquí un segundo: cuando una empresa bajo presión decide invertir más —no menos— en la economía de su canal de distribución, eso suele decir más sobre su convicción interna que cualquier frase optimista en la llamada de resultados. Los incentivos no mienten tan fácilmente como las palabras."
+    },
+    {
+     "tipo": "tabla",
+     "titulo_tabla": "De ProAdvisor a ProPartner Accountants (mayo 2026)",
+     "encabezados": [
+      "Dimensión",
+      "ProAdvisor (histórico, 30 años)",
+      "ProPartner Accountants (mayo 2026)"
+     ],
+     "filas": [
+      [
+       "Horizonte del revenue share",
+       "12 meses",
+       "Hasta 3 años"
+      ],
+      [
+       "Comisión máxima (firmas top)",
+       "No revelada en el dossier",
+       "Hasta 25% de la facturación neta"
+      ],
+      [
+       "Momento de lanzamiento",
+       "—",
+       "En medio de la caída de TurboTax (guía de -2% unidades / -1pt de cuota, may-2026)"
+      ]
+     ]
+    },
+    {
+     "tipo": "h2",
+     "texto": "El pricing power que ya se demostró, no el que se promete"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "El foso no solo se profundiza; también genera rentas, y ahí está el segundo pilar de este capítulo. QuickBooks Online Accounting —el software que corre dentro de esa misma relación con el contable— creció 22% en ingresos, y el propio 10-K de Intuit no lo atribuye a un solo motor sino a tres moviéndose a la vez: precios efectivos más altos, crecimiento de clientes y un mix-shift hacia planes de mayor valor. Eso importa porque casi cualquier negocio de software puede subir el precio, aunque pierda algunos clientes, o sumar clientes, aunque sea bajando el precio para atraerlos; lo raro —lo que de verdad separa un moat real de un golpe de suerte— es lograr las tres cosas a la vez sin que el churn se dispare. Es la prueba de pricing power más limpia de las cuatro tesis de este sistema: no una proyección de analista optimista, sino un resultado ya contabilizado, en el mismo periodo en que la propia compañía admitía perder cuota en TurboTax DIY."
+    },
+    {
+     "tipo": "cita",
+     "texto": "precios efectivos más altos, crecimiento de clientes y mix-shift",
+     "autor": "10-K FY2025 de Intuit, atribuyendo el crecimiento de +22% en QuickBooks Online Accounting"
+    },
+    {
+     "tipo": "h2",
+     "texto": "La grieta que el propio análisis no midió"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Pero un capítulo honesto sobre un moat no puede limitarse a contar lo que resiste; tiene que señalar con la misma claridad dónde podría romperse, y aquí este análisis debe ser más cauto de lo que le gustaría. La última línea de defensa del foso —lo que separa a Perplexity de cruzarlo del todo— es que hoy solo redacta la declaración de impuestos: no la presenta ante el IRS. El usuario sigue necesitando, en algún punto del trámite, un canal de e-file autorizado, y ese canal sigue siendo, mayoritariamente, Intuit y su red de socios. El problema es que este documento no investigó qué tan alto es en realidad ese muro regulatorio. Que convertirse en \"Authorized IRS e-file Provider\" exige una verificación de antecedentes y la aprobación de la agencia es un hecho; pero si esa barrera representa años de trámite acumulado o una brecha que un competidor bien financiado podría cerrar en una sola temporada fiscal es algo que el dossier deja explícitamente sin resolver. No es prudente tratar esa limitación como un foso permanente sin haberlo comprobado: es, en el lenguaje de este sistema, una laguna declarada, no una certeza."
+    },
+    {
+     "tipo": "tabla",
+     "titulo_tabla": "Los gatillos que vigilan el foso",
+     "encabezados": [
+      "Gatillo",
+      "Rojo (foso cruzado)",
+      "Estado hoy"
+     ],
+     "filas": [
+      [
+       "G5 — Un agente de IA gana capacidad de PRESENTAR (no solo redactar) ante el IRS",
+       "Confirmado, con adopción medible",
+       "Limpio — pero la dificultad real de la barrera de autorización no fue investigada"
+      ],
+      [
+       "G8 — TurboTax Live (tier asistido), % del ingreso de TurboTax y su crecimiento",
+       "Cae bajo +20% o mix cae bajo 40% del ingreso de TurboTax",
+       "Sin base verificada — retirado como argumento hasta encontrar la cifra en fuente primaria"
+      ]
+     ]
+    },
+    {
+     "tipo": "h2",
+     "texto": "Un precedente real: cuando el DIY cae pero el canal aguanta — y cuando no"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "La historia del software ofrece un precedente útil para calibrar cuánto peso poner en este argumento, y conviene mirar los dos lados. Cuando herramientas gratuitas o casi gratuitas —primero la piratería, después alternativas simples como Canva— empezaron a comerse el extremo más barato y menos sofisticado del negocio del diseño, muchos apostaron a que Adobe seguiría el mismo camino que cualquier software \"comoditizado\" por una alternativa más barata. No fue así: el diseño DIY se erosionó, pero el moat real de Adobe nunca vivió ahí. Vivía en la relación con agencias, estudios profesionales y flujos de trabajo corporativos construidos alrededor de sus formatos, sus certificaciones y sus integraciones —un canal profesional que la alternativa barata, por más que ganara al usuario ocasional, no tenía forma de replicar de la noche a la mañana—. Adobe sobrevivió la migración a la nube y la presión de precio precisamente porque su foso nunca fue el producto más simple, sino la relación profesional alrededor de él. El paralelo con Intuit es directo: TurboTax DIY es el extremo que un competidor de bajo coste sí puede comerse, mientras que ProPartner Accountants es el equivalente al canal de agencias de Adobe — la relación que un chatbot no sustituye solo por ser más barato."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Pero la historia también enseña la otra cara, y omitirla sería deshonesto. Blockbuster tenía un canal de distribución —miles de tiendas físicas— que durante años pareció un moat genuino, hasta que la tecnología no atacó el producto sino la necesidad misma del canal: Netflix no compitió dentro de la tienda, hizo irrelevante la tienda. El error de Blockbuster no fue perder frente a un rival más barato en su propio terreno; fue no notar que el terreno entero se había vuelto prescindible. La pregunta que separa el caso Adobe del caso Blockbuster es si el atacante solo compite dentro del canal existente o si puede rodearlo por completo. Perplexity, hoy, todavía no puede rodear el canal contable de Intuit —necesitaría convertirse en asesor de confianza de millones de pequeños negocios, no solo en una herramienta más barata para llenar un formulario—, pero \"todavía no\" es precisamente la frase que, años atrás, también habría sonado cierta sobre Blockbuster."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Lo que este capítulo sí y no dice"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Vale la pena cerrar este capítulo con la misma honestidad con la que el resto del documento trata el resto de la tesis: que el moat de distribución aguante —y la evidencia de mayo de 2026 sugiere que sí, que se está reforzando exactamente donde más se le necesita— no convierte automáticamente a Intuit en una compra. El veredicto de este sistema para la tesis completa sigue siendo VIGILAR (0%), no porque el foso esté fallando, sino porque otros candados —la calidad de las ganancias, el margen de seguridad frente al conservador, un edge que todavía depende de una cifra que no se pudo verificar— no se resuelven solo con un canal de distribución sólido. Un foso intacto protege el castillo; no decide, por sí solo, si vale la pena comprarlo al precio de hoy."
+    },
+    {
+     "tipo": "callout",
+     "clase": "LECCIÓN TRANSFERIBLE",
+     "texto": "Cuando evalúes un moat, separa siempre el producto que está bajo ataque del canal de distribución o relación que lo rodea: un disruptor tecnológico casi siempre encuentra más barato vencer una función de producto que vencer una relación de confianza humana construida durante décadas. Y cuando una empresa bajo presión elige, en plena crisis, profundizar la economía de su canal en vez de solo defender el precio de su producto, esa decisión de asignación de capital dice más sobre dónde está su ventaja real que cualquier frase tranquilizadora en una llamada de resultados. Pero nunca confundas \"todavía no lo han cruzado\" con \"no lo pueden cruzar\": una barrera regulatoria o técnica que tu propio análisis no investigó es una hipótesis, no una evidencia — y hasta el foso más profundo es, por sí solo, insuficiente para justificar una compra si el precio, la calidad de las ganancias y el resto de candados no se resuelven de forma independiente."
+    }
+   ],
+   "id": "moat",
+   "titulo": "El foso y las murallas: el moat de distribución de Intuit",
+   "subtitulo": "Cómo un programa de fidelización de contables con treinta años de historia se profundizó en plena crisis de TurboTax — y la pregunta sobre el IRS que el propio análisis dejó sin responder"
+  },
+  {
+   "bloques": [
+    {
+     "tipo": "h2",
+     "texto": "El capítulo de los números"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Diez años fiscales, de 2016 a 2025, y una sola cifra que parece resolver la conversación antes de empezarla: los ingresos de Intuit crecieron a un 16,7% compuesto anual — casi se cuadruplicaron, multiplicaron por 4,0 el punto de partida de la década. Es el tipo de número que, visto aislado, convierte cualquier duda sobre TurboTax o la sustitución por inteligencia artificial en un detalle menor frente a una máquina de crecimiento que lleva diez años funcionando sin pausa. Pero una tesis seria no se detiene en el número más bonito de la serie; se detiene en cómo se construyó — y ahí es donde este capítulo se pone incómodo."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "La superficie, en efecto, es excelente. El beneficio por acción creció entre 15,7% y 18,2% compuesto anual según el criterio de medición, y la conversión de flujo de caja libre sobre utilidad neta —una prueba clásica de si las ganancias contables son ganancias reales— superó con frecuencia el 140% en la serie reportada bajo criterio contable. Son los números que cabría esperar de un compounder de software con la estacionalidad extrema de Intuit, donde casi tres cuartas partes de la utilidad neta anual llegan concentradas en un solo trimestre fiscal, el de impuestos, y el negocio las convierte en caja de forma consistente, año tras año."
+    },
+    {
+     "tipo": "tabla",
+     "titulo_tabla": "La década en cifras (FY16 → FY25)",
+     "encabezados": [
+      "Métrica",
+      "Valor",
+      "Periodo"
+     ],
+     "filas": [
+      [
+       "Crecimiento de ingresos",
+       "+16,7% CAGR (x4,0)",
+       "FY16→FY25"
+      ],
+      [
+       "Crecimiento de EPS",
+       "+15,7% a +18,2% CAGR",
+       "FY16→FY25"
+      ],
+      [
+       "Conversión FCF/utilidad neta (reportada)",
+       "a menudo >140%",
+       "serie FY16-FY25"
+      ],
+      [
+       "SBC como % de ingresos",
+       "~6% → ~10-12%",
+       "FY16-20 → FY22-25"
+      ],
+      [
+       "Conversión FCF \"económica\" (post-SBC)",
+       "~157% → ~106%",
+       "FY25"
+      ],
+      [
+       "Acciones diluidas en circulación",
+       "265M → 283M",
+       "FY16 → FY25"
+      ],
+      [
+       "Recompras acumuladas",
+       "$13.800M",
+       "FY16-FY25"
+      ],
+      [
+       "ROIC",
+       "20,7% → mínimo 8,5% → 14,4%",
+       "FY20 → FY23 → FY25"
+      ]
+     ]
+    },
+    {
+     "tipo": "h2",
+     "texto": "El ajuste honesto: cuando la compensación en acciones se come el flujo de caja"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Aquí empieza el ajuste honesto. La compensación en acciones (SBC) —la forma en que Intuit paga a una parte relevante de su plantilla, sobre todo en ingeniería— casi se duplicó como porcentaje de los ingresos a lo largo de la década: de un ~6% en el tramo FY16-FY20 a un ~10-12% en el tramo FY22-FY25. El SBC no sale de la caja el día que se registra —es un gasto no monetario en el estado de resultados—, pero sí diluye a los accionistas existentes el día en que esas acciones terminan emitiéndose. Cuando se resta del flujo de caja libre reportado, la conversión sobre utilidad neta que parecía un espectacular >140% baja a algo más terrenal: de un ~157% \"de libro\" a un ~106% \"económico\" en FY25. Sigue siendo un negocio que convierte beneficio contable en caja real —106% es sano—, pero ya no es el número que se lee en el titular de la presentación a inversionistas."
+    },
+    {
+     "tipo": "h2",
+     "texto": "La comida grande: Credit Karma, Mailchimp, y el tiempo que toma digerir"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Para entender lo que vino después conviene pensar en Intuit como alguien que se sentó a comer dos platos muy grandes, casi seguidos. En diciembre de 2020 se comió Credit Karma, por $8.100 millones. Once meses después, en noviembre de 2021, sin haber terminado de digerir el primer plato, se sentó a comer Mailchimp, por $12.000 millones — cerca de $20.100 millones de comida en menos de un año. Ningún negocio absorbe una cantidad así de capital, integración y atención directiva sin que se note en la energía disponible para todo lo demás."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Esa nota se llama ROIC: el retorno sobre el capital invertido, la medida de cuánta energía neta produce cada dólar que el negocio ha comprometido. Antes de la comida grande, en FY20, Intuit rendía un 20,7% — un atleta en plena forma, muy por encima de lo que cuesta ese capital. Durante la digestión —los años de integrar Credit Karma y, sobre todo, Mailchimp, con choque cultural documentado, salida de ingenieros senior y cambio de CEO de la unidad en 2022— el ROIC cayó hasta un mínimo de 8,5% en FY23, rozando el costo de capital estimado de la compañía (~8-10%). Ese es exactamente el punto en que comer deja de dar energía neta: el negocio seguía invirtiendo capital, pero el retorno apenas cubría lo que ese capital costaba, sin crear valor económico adicional por encima de él. No fue una intoxicación permanente. Para FY25 el ROIC se había recuperado a 14,4% — la digestión, con un bache real de dos a tres años, terminó dando energía neta otra vez."
+    },
+    {
+     "tipo": "h2",
+     "texto": "El hallazgo más incómodo: recompras que no redujeron nada"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Pero mientras el cuerpo digería la comida grande, la compañía también decía estar a dieta. Entre FY16 y FY25, Intuit recompró $13.800 millones en acciones propias — la forma clásica en que una empresa le dice al mercado \"estamos devolviendo capital, reduciendo el número de porciones del pastel\". Es una cifra grande, casi tan grande como lo que costaron Credit Karma y Mailchimp juntas. Y sin embargo, al final de la década, el número de acciones diluidas en circulación no bajó: subió. De 265 millones en FY16 a 283 millones en FY25. Diez años de dieta declarada, y la báscula marca más, no menos."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "La explicación es la misma que se escondía en el SBC del párrafo anterior, sumada a la forma en que se pagaron las adquisiciones. Cada año, Intuit emitió acciones nuevas para compensar empleados y para financiar parte de sus compras con papel propio en vez de solo efectivo. Es como comer a diario con una tarjeta de crédito que no aparece en el ticket del momento: el gasto es real, pero se factura después, en forma de más acciones en circulación. La recompra de $13.800 millones fue la dieta —el intento de quemar esas calorías—, pero perdió la carrera contra el gasto con tarjeta. El capital \"devuelto a los accionistas\" no redujo el float neto: financió la dilución que el propio negocio generaba por otra puerta. Es un matiz que no aparece en el titular de \"recompras multimillonarias\", pero que cualquier accionista de largo plazo necesita ver antes de aplaudir el número bruto."
+    },
+    {
+     "tipo": "callout",
+     "clase": "CASO HISTÓRICO",
+     "texto": "Intuit no es la primera ni será la última compañía de software en alto crecimiento donde esto ocurre. El patrón —recompras multimillonarias que, en la práctica, sirven sobre todo para contener la dilución generada por una compensación en acciones muy alta, sin reducir el float de forma neta— está bien documentado en varias grandes tecnológicas de la última década. El caso más citado por analistas e inversionistas activistas ha sido Salesforce: durante los años en que crecía a fuerza de adquisiciones y compensaba fuertemente en acciones a su plantilla, sus programas de recompra —grandes en dólares absolutos— apenas lograban evitar que el conteo de acciones siguiera subiendo. Ese desajuste fue uno de los argumentos centrales que varios fondos activistas (entre ellos Starboard Value, Elliott Management y ValueAct) usaron en 2022-2023 para presionar por una asignación de capital más disciplinada. La lección no es que las recompras sean malas: es que una recompra solo reduce el float si, año tras año, supera todo lo que se está emitiendo por otra puerta."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "¿Qué significa esto para la tesis de Intuit? No que el crecimiento sea falso: los ingresos casi se cuadruplicaron y son reales, verificados 10-K a 10-K. Significa que la calidad de esas ganancias exige un ajuste, no un rechazo — un negocio que crece a 16,7% anual con una conversión de caja \"económica\" del 106% sigue siendo un negocio sano. Pero el inversionista que solo mira el crecimiento de ingresos y el titular de recompras, sin restar el SBC ni reconciliar el conteo de acciones, se está comprando una foto más bonita que la realidad. El ROIC que cayó hasta rozar el costo de capital y luego se recuperó a 14,4% cuenta la historia real: la digestión de Credit Karma y Mailchimp costó tres años de eficiencia de capital, y la disciplina de asignación de capital de la gestión sigue exigiendo escrutinio activo, no benevolencia — un matiz que pesa en un veredicto que, sobre el conjunto de la tesis, sigue siendo VIGILAR y no una compra clara."
+    },
+    {
+     "tipo": "callout",
+     "clase": "LECCIÓN TRANSFERIBLE",
+     "texto": "Cuando una empresa combina crecimiento a doble dígito alto, compensación en acciones creciente y recompras grandes en dólares, no asuma que el float se está reduciendo — verifique el conteo de acciones diluidas al inicio y al final del periodo, no solo el titular de dólares recomprados. La pregunta correcta nunca es '¿cuánto recompró la empresa?' sino '¿bajó de verdad el número de acciones netas de toda la emisión?'. Y cuando una empresa digiere una adquisición grande, no juzgue el retorno sobre el capital invertido en el primer o segundo año tras el cierre: la digestión de un negocio comprado suele tardar más de un ejercicio fiscal en dar energía neta. Juzgar demasiado pronto lleva a dos errores simétricos: abandonar un compounder real justo en su peor momento de indigestión, o darle un pase libre a uno que nunca termina de digerir nada."
+    }
+   ],
+   "id": "numeros",
+   "subtitulo": "Una década que casi cuadruplicó ingresos, comió dos platos muy grandes y descubrió que las recompras, por sí solas, no adelgazan el float",
+   "titulo": "Intuit (INTU): el capítulo de los números"
+  },
+  {
+   "bloques": [
+    {
+     "tipo": "h2",
+     "texto": "El capitán, las dos apuestas y la tripulación que murmura"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Sasan Goodarzi lleva el timón de Intuit desde enero de 2019. En más de siete años de mando, los ingresos de la compañía crecieron 178%, un historial que en cualquier flota mercante lo convertiría en el capitán que todos quieren a bordo: alguien que conoce las corrientes, sabe leer el clima y ha traído el barco a puerto cargado, año tras año. Pero un capitán no se juzga solo por las travesías tranquilas — se juzga por cómo navega cuando el mar cambia, cuando el casco cruje bajo la quilla y cuando la tripulación, desde los empleados hasta los bufetes de accionistas que ya husmean alrededor, empieza a murmurar si el rumbo sigue siendo el correcto. 2026 es exactamente esa prueba: la acción de Intuit es la peor del S&P 500 del año, con una caída del 64% desde su máximo, y el capitán tiene que responder por decisiones tomadas en aguas mucho más calmadas."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "La primera gran apuesta de Goodarzi fue Credit Karma, comprada por $8.100 millones y cerrada en diciembre de 2020. Con los datos que existen hoy, es un puerto bien cartografiado: el negocio genera ya más de $2.300 millones de ingresos, sigue creciendo —aunque a un ritmo que se desacelera, de +32% en el año fiscal 2025 a +15% en el trimestre más reciente reportado— y no arrastra ningún cargo por deterioro contable que sugiera que Intuit pagó de más por él. Más revelador todavía: Goodarzi cerró Mint, el producto propio de finanzas personales que competía directamente con Credit Karma, para consolidar la apuesta en el activo comprado en lugar de proteger el orgullo de lo construido internamente. Es el tipo de decisión que un capitán solo toma cuando confía en la ruta elegida: hunde su propio bote de repuesto para no dividir a la tripulación entre dos rumbos."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "La segunda apuesta es más difícil de calificar. Mailchimp costó $12.000 millones, cerrada en noviembre de 2021 —casi el 50% más que Credit Karma— y la integración tuvo fricción documentada: choque cultural, salida de ingenieros senior, cambio del CEO de la unidad en 2022. El crecimiento incremental del negocio se desplomó de +$125 millones en el año fiscal 2024 a solo +$20 millones en el año fiscal 2025. Aquí conviene ser especialmente preciso, porque una versión anterior de este mismo análisis cometió el error que todo analista teme: convirtió una desaceleración severa en una caída absoluta, citando una supuesta admisión del director financiero sobre un declive de ingresos que, verificada contra fuente primaria, resultó no ser rastreable en ningún documento real —y fue retirada. La corrección importa tanto como el hallazgo original: el ingreso de Mailchimp sigue siendo positivo; no hay declive confirmado. Lo que sí hay, sin ambigüedad, es un crecimiento que casi se detuvo, sin que Intuit publique un desglose financiero propio del segmento que permita calcular su retorno real sobre los $12.000 millones pagados. Es agua turbia, no necesariamente agua que hunde el barco — pero un capitán honesto admite que todavía no ve el fondo."
+    },
+    {
+     "tipo": "tabla",
+     "titulo_tabla": "Las dos grandes apuestas de M&A de la era Goodarzi",
+     "encabezados": [
+      "Adquisición",
+      "Precio y cierre",
+      "Estado a jul-2026",
+      "Señal de gestión"
+     ],
+     "filas": [
+      [
+       "Credit Karma",
+       "$8.100M, cerrada dic-2020",
+       ">$2.300M de ingresos; +32% (FY25) → +15% en el trimestre más reciente (10-Q); sin impairment reportado",
+       "Éxito verificable; Mint (producto propio competidor) cerrado para consolidar la apuesta comprada"
+      ],
+      [
+       "Mailchimp",
+       "$12.000M, cerrada nov-2021",
+       "Crecimiento incremental +$125M (FY24) → +$20M (FY25), todavía positivo; sin declive de ingresos confirmado en fuente primaria",
+       "Fricción de integración documentada (choque cultural, salida de ingenieros senior, cambio de CEO 2022); sin desglose financiero propio para medir ROI"
+      ]
+     ]
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Si esas dos apuestas fueran todo lo que hay que juzgar, el veredicto sobre Goodarzi sería sencillo: un capitán con un historial largo y sólido, una apuesta claramente ganadora y una segunda apuesta ambigua pero no catastrófica — la mezcla que cualquier ejecutivo que hace M&A en serie acumula con los años. Pero 2026 añadió señales que no estaban en el mapa de rutas anteriores, y que exigen mirar con más atención sin, todavía, sacar conclusiones."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Las banderas de 2026: el crujido del casco"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "La primera señal es el recorte del 17% de la plantilla —cerca de 3.000 empleos— anunciado en mayo de 2026. Los recortes en sí no son inusuales en una empresa de software que reordena prioridades. Lo que sí llama la atención es el mensaje que los acompañó. La prensa y buena parte del mercado interpretaron el recorte como una reestructuración impulsada por la inteligencia artificial —coherente con la propia amenaza que este documento identifica como la más grave que enfrenta el negocio—, mientras el capitán, desde el puente, insistía en lo contrario."
+    },
+    {
+     "tipo": "cita",
+     "texto": "None of it had to do with AI.",
+     "autor": "Sasan Goodarzi, CEO de Intuit, a CNBC (mayo de 2026)"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Ambas lecturas no pueden ser del todo ciertas a la vez, y la tripulación —empleados que se quedan, inversores que leen la transcripción de la llamada— nota la contradicción. No es necesariamente una falta de honestidad: las reestructuraciones rara vez tienen una sola causa limpia, y un CEO puede creer genuinamente que está simplificando la organización sin que eso equivalga, en sentido estricto, a \"sustitución por IA\". Pero la mensajería que no cuadra del todo con la lectura del mercado, en medio de una caída del 64%, es exactamente el tipo de ruido que erosiona la confianza de la tripulación en el capitán justo cuando más la necesita."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "La segunda señal es más fría que cualquier declaración pública: en los seis meses durante los que la acción de Intuit cayó 64%, se registraron 119 ventas de insiders y cero compras. Ningún directivo, ningún miembro del consejo, puso un dólar propio nuevo sobre la mesa mientras el precio se desplomaba. Esto no prueba nada por sí solo: los ejecutivos venden por razones fiscales, de diversificación patrimonial o por planes de venta programados con meses de anticipación que no reflejan una opinión sobre el precio del día. Pero la ausencia total de compras es notable precisamente por ser total. Si el propio capitán —quien mejor que nadie conoce el estado real del casco por dentro— no está dispuesto a comprar más participación al precio de hoy, es una pregunta razonable para cualquier tripulante que sí esté considerando subir a bordo."
+    },
+    {
+     "tipo": "callout",
+     "clase": "CASO HISTÓRICO",
+     "texto": "En 2022, la acción de Meta Platforms cayó más del 60% desde su máximo mientras Mark Zuckerberg insistía en invertir miles de millones en su apuesta por el metaverso, un negocio (Reality Labs) que apenas generaba ingresos y acumulaba pérdidas crecientes. El mercado, la prensa y hasta inversionistas históricamente pacientes cuestionaron abiertamente la disciplina de capital del fundador-CEO. Meta respondió con su primer recorte de plantilla como empresa cotizada en noviembre de 2022, y meses después con una segunda ronda que Zuckerberg bautizó como el \"Año de la Eficiencia\". El mercado, escéptico durante buena parte de ese año, terminó premiando el giro: la acción se recuperó con fuerza en 2023 y 2024 a medida que la disciplina de costos —y luego una narrativa de inteligencia artificial— reemplazaron al metaverso como historia dominante. La lección no es que todo capitán bajo escrutinio termine vindicado —muchos no lo hacen—, sino que el mercado exige evidencia sostenida de disciplina, no una sola temporada de promesas, antes de volver a confiar el timón sin reservas."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Ninguna de estas señales —recortes con mensajería contradictoria, cero compras de insiders, investigaciones de fraude de valores todavía en fase de bufetes y sin demanda formal presentada— es, por sí sola, motivo para bajar el pulgar. Este documento las trata exactamente por lo que son: banderas que exigen vigilancia activa, no un veredicto sobre la honestidad o la competencia de Goodarzi. La diferencia importa. Descalificar a un capitán por cada crujido del barco es tan peligroso como ignorar los crujidos por completo —ambos extremos sustituyen la observación paciente por un atajo emocional—. Lo que sí es cierto es que la combinación de una segunda gran apuesta de M&A todavía ambigua, una comunicación que no termina de cuadrar con la lectura del mercado, y un liderazgo que no pone dinero propio nuevo sobre la mesa mientras la acción se desploma, compone un cuadro que merece más escrutinio que benevolencia — razón suficiente para que este paso de la tesis quede calificado como gestión que \"flaquea\", no como una gestión que simplemente \"aguanta\"."
+    },
+    {
+     "tipo": "callout",
+     "clase": "LECCIÓN TRANSFERIBLE",
+     "texto": "Cuando una acción cae más de la mitad, la pregunta útil no es solo \"¿qué se rompió en el negocio?\" sino \"¿qué está haciendo la gente que mejor conoce el negocio por dentro?\". Los recortes de plantilla, la claridad —o falta de ella— en la comunicación pública, y sobre todo el patrón de compra o no-compra de los propios insiders son una fuente de información barata y verificable que rara vez miente por completo, incluso cuando no cuenta toda la historia. Ninguna señal aislada debería, por sí sola, decidir una tesis de inversión: ni la mensajería confusa de un recorte, ni el silencio de los insiders, ni una integración de M&A con fricción documentada. Pero cuando varias banderas amarillas aparecen juntas durante una caída severa, la disciplina correcta no es el pánico ni la fe ciega en el historial pasado del capitán: es exigir evidencia nueva y verificable —resultados del próximo trimestre, compras de insiders que rompan el silencio, mensajes que por fin cuadren— antes de comprometer capital nuevo. El historial de un CEO importa, pero nunca es una garantía perpetua."
+    }
+   ],
+   "id": "gestion",
+   "titulo": "El capitán bajo escrutinio",
+   "subtitulo": "Sasan Goodarzi navegó bien las aguas conocidas de Credit Karma; ahora la tripulación observa cómo responde cuando el barco cruje"
+  },
+  {
+   "bloques": [
+    {
+     "tipo": "h2",
+     "texto": "El número que no cuadra"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Todas las tesis de este sistema llegan, tarde o temprano, a la misma pregunta bisagra: ¿qué necesita creer el mercado para que el precio de hoy tenga sentido, y tiene razón en creerlo? En Visa, la respuesta era 11,8% de crecimiento a 10 años. En Mastercard, 9,5%. En Microsoft, 13,8%. En Intuit, la respuesta es ~4,5% — el número más bajo de las cuatro, calculado con el mismo protocolo de DCF inverso (r=9%, terminal=3%) sobre el mismo tipo de negocio de software recurrente. Dicho de otro modo: al precio de $290, el mercado no está apostando a que Intuit crezca como lo ha hecho durante una década (CAGR 16,7%) ni siquiera como la propia compañía sigue guiando para este año fiscal (+13-14%). Está apostando a que Intuit crezca a un tercio de ese ritmo. Ese hueco entre lo que el precio exige y lo que la empresa promete es la bisagra de esta tesis: todo gira sobre si ese hueco es una oportunidad o una sentencia."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "El ejercicio es mecánico y, precisamente por serlo, revelador: fijar el precio de mercado como un dato constante y despejar qué tasa de crecimiento a diez años lo justificaría. A una tasa de descuento del 8% el crecimiento implícito baja a ~2,2%; al 10% sube a ~6,6%; el punto central, al 9%, es el ~4,5% que ancla este capítulo. Puesto junto a las otras tres tesis de este sistema, Intuit es la excepción incómoda: el negocio con la trayectoria histórica más rápida —casi cuadruplicó sus ingresos en una década— es, hoy, el que el mercado trata con más desconfianza sobre su propio futuro."
+    },
+    {
+     "tipo": "tabla",
+     "titulo_tabla": "Lo que exige el precio vs. lo que promete el negocio (mismo protocolo DCF inverso, r=9%)",
+     "encabezados": [
+      "Referencia",
+      "Crecimiento a 10 años"
+     ],
+     "filas": [
+      [
+       "Precio actual de Intuit implica",
+       "~4,5%"
+      ],
+      [
+       "Guía propia de la compañía (FY2026)",
+       "+13-14%"
+      ],
+      [
+       "CAGR histórico de ingresos (FY16-FY25)",
+       "+16,7%"
+      ],
+      [
+       "Visa (mismo protocolo)",
+       "11,8%"
+      ],
+      [
+       "Mastercard (mismo protocolo)",
+       "9,5%"
+      ],
+      [
+       "Microsoft (mismo protocolo)",
+       "13,8%"
+      ]
+     ]
+    },
+    {
+     "tipo": "h2",
+     "texto": "Lo que no sobrevivió la revisión adversarial"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Vale la pena detenerse en cómo se construyó este capítulo, porque el proceso importa tanto como la conclusión. La primera versión de esta tesis tenía un argumento cómodo para explicar por qué el mercado se equivocaba: TurboTax Live, el escalón asistido por un experto humano, representaría ya el 53% del ingreso de TurboTax y crecería al 36% anual — un amortiguador tan grande que la erosión del segmento de autopreparación apenas importaría. Era una cifra perfecta. Era, también, una cifra sin fuente rastreable en el expediente de investigación. La primera ronda adversarial la retiró. Pero el hallazgo más incómodo llegó después: en la segunda ronda, un lente distinto encontró que esa misma cifra retirada había sobrevivido, intacta, en el pre-mortem del documento — nadie la había purgado ahí todavía. Hizo falta una tercera ronda, con una verificación específica de purga, para confirmar que no quedaba ni un rastro en todo el documento."
+    },
+    {
+     "tipo": "callout",
+     "clase": "PAUSA REFLEXIVA",
+     "texto": "Esto es exactamente el tipo de error que produce el sesgo de confirmación sin que nadie mienta: nadie inventó la cifra por mala fe; alguien probablemente la recordó de un titular o una nota de research sin volver a la fuente primaria — y una vez escrita, sonaba tan bien que sobrevivió dos rondas de revisión antes de ser detectada. La disciplina no consiste en no cometer nunca el error. Consiste en tener el proceso que lo atrapa antes de que mueva un solo dólar."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Lo que queda en pie, tras retirar esa cifra, es mucho más modesto — y por eso mismo más honesto. El argumento de que \"el mercado se equivoca\" ya no descansa sobre un porcentaje de ingresos con apariencia de solidez: descansa sobre una sola pieza, sí verificable. Perplexity, la amenaza más citada del sector, redacta declaraciones sobre formularios oficiales del IRS dentro de una suscripción de $17 al mes que el usuario ya paga por otra cosa — pero no las presenta ante la agencia. Convertirse en proveedor autorizado de e-file del IRS es un proceso regulatorio real, con verificación de antecedentes y aprobación de la agencia, no un interruptor que un chatbot pueda activar de la noche a la mañana. Es una barrera real. Pero este mismo documento declara, con la misma honestidad que le costó retirar la cifra anterior, que no investigó qué tan alta es esa barrera en la práctica — si se trata de años o de una sola temporada fiscal sigue siendo, hoy, una laguna declarada, no un hecho verificado."
+    },
+    {
+     "tipo": "h2",
+     "texto": "El termómetro y la fiebre real"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Y aquí está la mitad del argumento que ninguna corrección adversarial puede suavizar: a diferencia de Visa, donde el riesgo del cobro directo entre cuentas es todavía mayormente hipotético, o de Microsoft, donde la tensión entre nube e inteligencia artificial sigue sin resolverse en ninguna dirección, en Intuit el deterioro ya no es una proyección — está en el 10-Q. La propia compañía guio, el 20 de mayo de 2026, una caída de 2% en unidades de TurboTax Online y de 1 punto en cuota de e-files. No es un analista externo especulando: es la empresa admitiéndolo en su propio comunicado de resultados. Y el mecanismo detrás de esa caída tiene una brecha de costos que Goldman Sachs cuantificó con precisión incómoda: procesar una declaración vía IA cuesta aproximadamente $0,12; el ingreso promedio por usuario de TurboTax ronda los $162. Es la brecha de costo marginal más extrema de cualquier disrupción analizada por este sistema — y no es exclusiva de Intuit: NerdWallet, en el mismo sector de comparación financiera online, ya reportó caídas de -24% en tarjetas de crédito y -9% en productos para pequeñas empresas, atribuidas a la misma presión del tráfico de búsqueda impulsado por IA."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Piense en el múltiplo de Intuit como un termómetro. Un termómetro roto puede marcar fiebre alta en un paciente sano — y ahí el instrumento, no el paciente, es el problema: vender barato por pánico es un error de lectura, no un diagnóstico real. Pero un termómetro que marca fiebre alta en un paciente que de verdad tiene una infección no está roto: está haciendo exactamente su trabajo. La pregunta que este capítulo no puede responder con la evidencia disponible es cuál de los dos escenarios describe al Intuit de julio de 2026. El P/E cayó de una mediana histórica de ~48,3x a ~17,7x, su mínimo de una década. Eso es, sin duda, un termómetro leyendo fiebre. Lo que sigue sin verificarse es si esa fiebre es estacional — el segmento de autopreparación, de menor margen, cediendo terreno mientras el resto del cuerpo se mantiene sano — o si ya se propagó al resto del organismo."
+    },
+    {
+     "tipo": "tabla",
+     "titulo_tabla": "El gatillo que vigila la bisagra (G5, sistema de vigilancia — Paso 8)",
+     "encabezados": [
+      "Métrica",
+      "Rojo",
+      "Ámbar",
+      "Estado a jul-2026"
+     ],
+     "filas": [
+      [
+       "Perplexity u otro agente de IA gana capacidad de PRESENTAR (no solo redactar) declaraciones ante el IRS",
+       "Confirmado, con adopción medible",
+       "Anunciado",
+       "Limpio — pendiente investigar qué tan alta es realmente la barrera de autorización IRS (laguna declarada)"
+      ]
+     ]
+    },
+    {
+     "tipo": "h2",
+     "texto": "Máximo pesimismo, o el precio correcto de una decadencia real"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "La disciplina de Templeton, en su forma más citada, sostiene que el punto de máximo pesimismo es el mejor momento para comprar. Intuit, cayendo -64% desde su máximo y cotizando en el múltiplo más bajo de una década, se parece mucho a ese punto. Pero la propia historia de los mercados advierte que no todo pesimismo máximo es una oportunidad disfrazada: a veces el precio bajo es, sencillamente, el precio correcto de un negocio que se está muriendo — y confundir una cosa con la otra es uno de los errores más caros que existen en la inversión de valor."
+    },
+    {
+     "tipo": "cita",
+     "texto": "El punto de máximo pesimismo es el mejor momento para comprar; el punto de máximo optimismo, el mejor momento para vender.",
+     "autor": "John Templeton (parafraseado — espíritu de su disciplina contrarian)"
+    },
+    {
+     "tipo": "callout",
+     "clase": "CASO HISTÓRICO",
+     "texto": "Dos precedentes reales, con el mismo punto de partida y desenlaces opuestos. En 1963, la acción de American Express se desplomó cuando una subsidiaria quedó atrapada en el escándalo del aceite de ensalada — el mercado temió que las demandas hundieran a toda la compañía. Warren Buffett investigó el negocio real, encontró la franquicia de tarjetas intacta detrás del pánico, y compró fuerte: el pesimismo máximo resultó ser una lectura equivocada del termómetro. Kodak, en cambio, cotizó barata durante años mientras la fotografía digital devoraba su negocio de película — y esa vez el precio bajo no era pánico irracional: era el mercado leyendo correctamente una decadencia real que terminó en bancarrota. El precio bajo, por sí solo, nunca dice cuál de los dos casos es el suyo."
+    },
+    {
+     "tipo": "h2",
+     "texto": "La bisagra que este capítulo no cierra"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Este capítulo no se cierra con una respuesta, porque cerrarlo sería fingir una certeza que el expediente no tiene. El edge existe: el precio de hoy exige menos crecimiento del que la propia Intuit sigue prometiendo, y esa brecha —de ~4,5% contra un 13-14% guiado— no aparece en ninguna otra tesis de este sistema. Pero el edge es más delgado de lo que la primera versión de este documento quiso creer, y descansa sobre una barrera regulatoria real pero de dureza desconocida, frente a un daño que ya no es hipotético sino que está impreso en el último 10-Q. El veredicto formal de este sistema —VIGILAR, 0%— no resuelve esta tensión. La deja exactamente donde debe quedar: abierta, vigilada, a la espera de que la temporada fiscal 2027 diga, con datos y no con relatos, de qué lado del termómetro estaba Intuit."
+    },
+    {
+     "tipo": "callout",
+     "clase": "LECCIÓN TRANSFERIBLE",
+     "texto": "Cuando un múltiplo cae a mínimos de una década, la primera pregunta nunca es \"¿qué tan barato está?\" — es \"¿el termómetro está roto, o el paciente tiene fiebre real?\". La forma de responderla no es sentir la convicción de Templeton sobre el pesimismo máximo, ni el vértigo de ver una caída del 64%: es verificar, específicamente, si el deterioro que justifica el precio ya está confirmado en los números presentados —un 10-Q, una guía oficial de la propia empresa— o si sigue siendo una proyección de terceros sobre lo que podría pasar. Cuando la respuesta es \"ya está en los números\", el pesimismo del mercado no es irracionalidad que explotar: es información que hay que tomarse en serio, incluso si eso significa no comprar todavía."
+    }
+   ],
+   "id": "percepcion",
+   "titulo": "Capítulo 6 — La Bisagra: El Termómetro y la Fiebre Real",
+   "subtitulo": "Por qué el mercado le exige a Intuit apenas ~4,5% de crecimiento a 10 años — el más bajo de las cuatro tesis del sistema — y por qué este capítulo, deliberadamente, no dice si eso es una ganga o una sentencia"
+  },
+  {
+   "bloques": [
+    {
+     "tipo": "h2",
+     "texto": "El mapa invertido: fijar el destino, resolver la velocidad"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Imagina un mapa de carreteras que no muestra el origen, solo el destino ya marcado con un alfiler: $290,00, la cotización de Intuit al cierre del 13 de julio de 2026, tras acumular un -64% desde su máximo de $813,70 apenas un año antes. Un analista convencional dibuja la ruta él mismo: proyecta ingresos, márgenes y múltiplos a diez años, decide cuánto crecerá el negocio, y calcula a dónde llega ese camino. El problema es que está adivinando la pendiente de la carretera con los ojos cerrados —y toda proyección a una década, por sofisticada que parezca, es una apuesta disfrazada de certeza. El DCF inverso hace lo contrario. En vez de dibujar la ruta, parte del destino que el mercado ya fijó —el precio de hoy— y ancla también dos condiciones del viaje: la tasa de descuento (r=9%, el peaje que exige el tiempo y el riesgo) y el ritmo de crucero final (el crecimiento terminal, 3%, la velocidad a la que cualquier negocio maduro puede moverse para siempre). Con esas dos variables fijas, el ejercicio resuelve una sola incógnita: ¿a qué velocidad tendría que crecer Intuit, año tras año, para que el viaje termine exactamente en $290,00? Esa velocidad implícita es lo único que el mercado, sin saberlo, ya está confesando que cree."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Por qué invertir el mapa es más honesto que dibujarlo"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "La honestidad del método está en lo que no hace: no finge saber cuánto crecerán TurboTax, QuickBooks o Credit Karma en 2031. Solo pregunta cuánto crecimiento compra hoy el precio bajo distintos supuestos de tasa de descuento, y deja que el lector compare esa cifra contra lo que la propia compañía dice de sí misma. La tabla de sensibilidad —protocolo idéntico al que este mismo sistema aplicó a Visa, Mastercard y Microsoft— es reveladora: a r=8% el precio exige apenas ~2,2% de crecimiento a diez años; al r=9% de referencia, ~4,5%; a r=10%, ~6,6%. Son las cifras más bajas de las cuatro tesis que este sistema ha construido hasta ahora, muy por debajo tanto de la guía que la propia Intuit dio para FY2026 (+13-14%) como de su historia real de la última década (CAGR +16,7%, ingresos casi cuadruplicados). El mercado está pagando a Intuit como si fuera a crecer a un tercio de lo que ella misma promete y a un cuarto de lo que ya demostró."
+    },
+    {
+     "tipo": "tabla",
+     "titulo_tabla": "DCF inverso: sensibilidad del crecimiento implícito a la tasa de descuento",
+     "encabezados": [
+      "Tasa de descuento (r)",
+      "Crecimiento implícito a 10 años (g)"
+     ],
+     "filas": [
+      [
+       "8%",
+       "~2,2%"
+      ],
+      [
+       "9% (referencia)",
+       "~4,5%"
+      ],
+      [
+       "10%",
+       "~6,6%"
+      ]
+     ]
+    },
+    {
+     "tipo": "callout",
+     "clase": "PAUSA REFLEXIVA",
+     "texto": "Antes de seguir, nota lo que este ejercicio NO hizo. No proyectó cuánto crecerá TurboTax en 2030, no supuso qué margen tendrá QuickBooks en 2033, no adivinó si Perplexity conseguirá presentar declaraciones ante el IRS. Solo fijó dos números razonables —la tasa de descuento y el crecimiento terminal— y preguntó qué velocidad implícita esconde el precio de hoy. Cuanta menos imaginación requiera un cálculo, más se puede confiar en él."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Los cuatro anclajes del mapa"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "El primer anclaje del mapa es el suelo: el Valor de Poder de Ganancias (EPV), el precio que tendría Intuit si, desde mañana, dejara de crecer para siempre y se limitara a repartir sus owner earnings actuales —$4.115M, resultado de restar al flujo de caja libre FY2025 ($6.083M) la compensación en acciones ($1.968M), el mismo ajuste honesto que este sistema aplica en todas sus tesis—. Capitalizando esa cifra a perpetuidad al 9% ($4.115M / 0,09 = $45,7B) y dividiendo entre 273,54M de acciones, el suelo es $167 por acción. Es el escenario de la empresa zombi: cero innovación, cero defensa del moat, ningún TurboTax Live salvando nada. Y aun así, el precio de hoy sigue un 74% por encima de ese suelo —la primera pista de que el mercado no está descontando una extinción total, solo una desaceleración severa."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "El segundo anclaje es la ruta accidentada: el escenario bajista propio, construido con el mismo motor DCF, no como ejercicio retórico. Aquí el mecanismo que cuantificó Goldman Sachs —TurboTax perdiendo hasta 18% de sus ingresos acumulados hacia 2030— no se queda encerrado en TurboTax: se extiende, con el precedente ya verificado de NerdWallet (caídas de -24% en Credit Cards y -9% en SMB Products por presión del tráfico de búsqueda con IA) como advertencia de que ningún negocio de generación de leads digital es inmune. QuickBooks desacelera de su guía de +13-14% a un rango de +6-9%; Credit Karma, que ya viene bajando de +32% a +15% en el trimestre más reciente, cae más allá hasta ~8%; Mailchimp se queda plano. El crecimiento agregado resultante a cinco años, ~4-5%, es casi idéntico al ~4,5% que el precio de hoy ya exige. Corriendo ese perfil por el mismo motor, el valor cae a $274 por acción —por debajo del precio actual: si la erosión de IA se extiende más allá de TurboTax, hoy no hay margen de seguridad alguno, hay sobreprecio."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "El tercer anclaje es la ruta central: el escenario conservador, construido con el mismo criterio mecánico de recorte proporcional que el sistema aplicó a Visa, Mastercard y Microsoft —un haircut de 5-6 puntos porcentuales sobre la guía de la propia compañía (crecimiento años 1-5 = 8%, años 6-10 = 6%, terminal = 3%, mismo r=9%)—. El resultado, $354 por acción, es la primera cifra positiva de margen de seguridad en las cuatro tesis que este sistema ha construido: MoS = (354−290)/354 = +18,1%. Pero el propio documento se niega a celebrarlo sin matiz: ese +18,1% está por debajo del candado cuantitativo de 25% que la escala de convicción exige para siquiera destrabar un COMPRAR_INICIAL. El precio tendría que caer hasta $266 o menos —o el conservador subir— antes de que ese candado numérico, por sí solo, deje de bloquear la compra."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "El cuarto anclaje es el más tentador y el más peligroso de tratar con descuido: una recalculación de ruta con datos más frescos, todavía sin confirmar del todo. Los primeros nueve meses del año fiscal 2026 ya generaron, según el propio 10-Q, un flujo de caja operativo de $7.507M y un FCF de ~$7.359M —más que el año FY2025 completo—. Anualizar esa cifra sin más daría un FCF FY2026E de ~$7,84B, pero el documento se niega a hacerlo sin ajustar: existe un cargo de reestructuración de $300-340M, ya cuantificado por la propia compañía, que se reconoce mayormente en el último trimestre fiscal (mayo-julio) —justo el tramo que la extrapolación ingenua asumía \"normal\"—. Restando el punto medio de ese cargo (~$320M) y una SBC estimada proporcionalmente (~$2,22B), el owner earnings FY2026E ajustado queda en ~$5,3B, un 29% más alto que la base FY2025. Escalando los tres anclajes anteriores por ese mismo factor, el conservador sube a $456 por acción (MoS≈36,4%), el bajista a $353 y el EPV a $215. Bajo esta base el precio de hoy queda por debajo tanto del conservador como del bajista —una lectura más alcista— pero sigue ~35% por encima del suelo EPV, una distancia relativa casi idéntica a la de la base FY2025. Y el MoS del 36% frente al conservador ajustado sigue por debajo del candado de 40% que exigiría COMPRAR_AGRESIVO. El propio documento es explícito en que esta cifra sigue sin adoptarse como oficial: la SBC FY2026E es todavía una extrapolación, no un dato reportado, y ni los costos legales de la investigación de fraude de valores ni una posible SBC de retención elevada tras el recorte de plantilla están cuantificados —ambos podrían presionar el número de nuevo hacia abajo—. Los resultados completos del 31 de julio de 2026 son la confirmación pendiente, no un hecho consumado."
+    },
+    {
+     "tipo": "tabla",
+     "titulo_tabla": "Los cuatro anclajes de valoración de Intuit",
+     "encabezados": [
+      "Anclaje",
+      "Valor por acción",
+      "MoS vs. $290",
+      "Qué significa"
+     ],
+     "filas": [
+      [
+       "EPV — suelo sin crecimiento",
+       "$167",
+       "Precio 74% por encima (es un piso, no una meta)",
+       "Escenario \"empresa zombi\": cero crecimiento, cero defensa del moat"
+      ],
+      [
+       "Bajista propio",
+       "$274",
+       "Precio por encima (sobreprecio, no hay margen)",
+       "Si la erosión de IA se extiende de TurboTax a QuickBooks y Credit Karma"
+      ],
+      [
+       "Conservador (base FY2025)",
+       "$354",
+       "+18,1%",
+       "Primer MoS positivo del sistema; por debajo del candado de 25% para COMPRAR_INICIAL"
+      ],
+      [
+       "Conservador ajustado FY2026E (sensibilidad, NO oficial)",
+       "$456",
+       "~36%",
+       "Pendiente de confirmar el 31-jul-2026; ya resta el cargo de reestructuración de $300-340M"
+      ]
+     ]
+    },
+    {
+     "tipo": "callout",
+     "clase": "CASO HISTÓRICO",
+     "texto": "En 1965 Warren Buffett tomó el control de Berkshire Hathaway, entonces un fabricante textil de Nueva Inglaterra, porque el precio de la acción cotizaba muy por debajo del valor contable de sus activos —el clásico \"cigarro con una última calada gratis\" que enseñaba Benjamin Graham—. El negocio parecía barato con cualquier múltiplo convencional. Pero la industria textil estadounidense llevaba décadas en declive estructural frente a competidores más baratos, y ningún valor contable podía revertir esa tendencia. Buffett sostuvo la operación textil casi veinte años antes de cerrarla definitivamente, y llamó después a esa compra uno de sus mayores errores de capital: haber confundido \"barato en los números\" con \"barato de verdad\". Es la misma distinción que el detector de trampas de valor de esta tesis intenta forzar sobre Intuit —y la razón por la que un veredicto gris, ni limpio ni sucio, no se puede leer como un simple \"sí\"."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Dónde se para hoy el viajero"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "De pie en $290, el viajero puede mirar en dos direcciones sobre el mismo mapa. Bajo los datos ya cerrados de FY2025, está exactamente entre el bajista ($274) y el conservador ($354): si la erosión de IA queda contenida a TurboTax, hay margen real; si se extiende, el precio de hoy deja de ser una ganga y pasa a ser apenas razonable. Bajo la sensibilidad FY2026E —todavía provisional— el mismo viajero luce mejor posicionado, por debajo de ambos anclajes centrales, pero sigue a la misma distancia relativa del suelo EPV que antes. El múltiplo que paga hoy, ~19,3x owner earnings, es el más barato de las cuatro tesis de este sistema. Y aun con todo eso a favor, el veredicto es VIGILAR (0%) —no porque los números mientan, sino porque el candado de convicción exige más que un MoS positivo: exige que el edge del negocio y el detector de trampas de valor, que aquí dio un veredicto gris, ni limpio ni sucio, también se resuelvan a favor antes de comprometer un dólar."
+    },
+    {
+     "tipo": "cita",
+     "texto": "Un MoS positivo en un documento apenas templado por dos rondas es exactamente el tipo de señal que más necesita escepticismo, no entusiasmo.",
+     "autor": "Tesis-forja INTU, Paso 9"
+    },
+    {
+     "tipo": "callout",
+     "clase": "LECCIÓN TRANSFERIBLE",
+     "texto": "Un precio bajo nunca es información suficiente por sí solo: es una pregunta, no una respuesta. Antes de llamar \"ganga\" a cualquier acción castigada, invierte el ejercicio —fija una tasa de descuento razonable y un crecimiento terminal conservador, y resuelve qué ritmo de crecimiento necesita el negocio para justificar el precio de hoy. Después compara esa cifra, sin filtros, contra lo que el negocio ya demostró y contra lo que su propia dirección promete, no contra lo que tú necesitas que sea cierto para sentirte cómodo comprando. Y cuando el margen de seguridad aparezca positivo por primera vez tras varios análisis negativos, trátalo con más escrutinio, no menos: el deseo de encontrar una ganga es, precisamente, el momento en que el juicio se relaja —el mismo momento en que Buffett, con toda la disciplina que ha producido esta profesión, se equivocó con un fabricante textil de Nueva Inglaterra."
+    }
+   ],
+   "id": "valoracion",
+   "titulo": "El mapa con cuatro destinos",
+   "subtitulo": "Cómo el DCF inverso revela qué crecimiento exige hoy el precio de Intuit — y por qué ni el mejor de los cuatro anclajes basta todavía para comprar"
+  },
+  {
+   "bloques": [
+    {
+     "tipo": "h2",
+     "texto": "El tablero, no la sensación de que todo va bien"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Un piloto que cruza el Atlántico no vuela confiando en que \"se siente bien\". Vuela leyendo un tablero: velocímetro, altímetro, indicador de combustible, cada uno con una franja verde, una ámbar y una roja definidas antes de despegar — no negociadas a media hora del aterrizaje, cuando el nerviosismo aprieta y la tentación es mirar solo el instrumento que da buenas noticias. Intuit necesita ese tablero con más urgencia que ninguna otra tesis de este sistema, porque es la primera vez en las cuatro que el margen de seguridad calculado da positivo — +18,1%, precio de $290 contra un conservador propio de $354 — sin que el negocio esté, ni de lejos, fuera de peligro. Una caída del 64% desde el máximo es exactamente el terreno donde la convicción estática, la que dice \"esto ya es una ganga\" y deja de mirar los instrumentos, resulta más peligrosa que la duda."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Por eso una tesis de convicción no puede ser una fotografía fija tomada el día de la compra: tiene que ser un sistema de vigilancia con gatillos falsables, fijados con la cabeza fría de antes, no con el corazón acelerado de después. Un gatillo falsable es una frase que se puede desmentir con un dato concreto — \"si las unidades de TurboTax Online caen más de 5% dos temporadas seguidas, la tesis se equivocó\" — no una sensación ajustable a posteriori (\"bueno, el contexto era distinto\"). La diferencia importa especialmente aquí porque el propio negocio ya emitió, con su propia voz, la primera lectura de dos de esos instrumentos: no es un analista externo especulando desde fuera, es la guía oficial de la compañía del 20 de mayo de 2026."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Los instrumentos ya en ámbar"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "El instrumento más grave —y el único de las cuatro tesis de este sistema con el riesgo ya materializado, no solo proyectado— es la sustitución de TurboTax DIY por asistentes de IA generativa. Goldman Sachs cuantificó la brecha con precisión quirúrgica: el coste marginal de procesar una declaración vía IA ronda los $0,12, contra un ARPU de TurboTax de aproximadamente $162. Es la distancia de costes más brutal de cualquier disrupción analizada por este sistema, y ya no es hipotética: Perplexity lanzó una función que redacta declaraciones federales sobre formularios oficiales del IRS dentro de una suscripción que el usuario ya paga por otra cosa. La propia Intuit lo admitió en su guía oficial: unidades de TurboTax Online -2%, cuota de e-files -1 punto. Dos agujas del velocímetro ya se movieron a la zona ámbar antes de que este documento se terminara de escribir."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "El segundo instrumento es más ambiguo, y la honestidad exige tratarlo así. Mailchimp, comprada por $12.000 millones en 2021, no está en declive confirmado de ingresos — pero su crecimiento incremental se desplomó de +$125 millones en FY24 a apenas +$20 millones en FY25. No es una caída: es una desaceleración severa que, si cruza a terreno negativo, convertiría a Mailchimp en el segundo gran error de asignación de capital de la era Goodarzi, sin que ningún cargo por deterioro lo haya reconocido todavía. El instrumento no marca rojo. Marca un ámbar que un piloto prudente no ignora solo porque técnicamente sigue siendo positivo."
+    },
+    {
+     "tipo": "tabla",
+     "titulo_tabla": "Mapa de riesgos (jul-2026)",
+     "encabezados": [
+      "Riesgo",
+      "Estado a jul-2026",
+      "Severidad"
+     ],
+     "filas": [
+      [
+       "Sustitución por IA (TurboTax DIY)",
+       "Confirmado con dato duro: -2% unidades, -1pt cuota (guía oficial)",
+       "Alta — el más grave de las 4 tesis, ya materializado"
+      ],
+      [
+       "Mailchimp — desaceleración severa",
+       "Crecimiento incremental +$20M FY25 vs +$125M FY24; sin declive de ingresos confirmado",
+       "Media"
+      ],
+      [
+       "Concentración estacional × ejecución bajo escrutinio",
+       "72,9% de la utilidad neta en el trimestre feb-abr; 93,9% del OCF en los 9 meses ago-abr",
+       "Alta — riesgo compuesto"
+      ],
+      [
+       "FTC (publicidad \"gratis\")",
+       "Orden anulada (mar-2026); caso devuelto a la agencia, no cerrado",
+       "Media — puede resucitar"
+      ],
+      [
+       "Investigación por fraude de valores",
+       "Solo investigaciones de bufetes de accionistas; sin demanda formal",
+       "Media — vigilar escalada"
+      ],
+      [
+       "IRS Direct File",
+       "Cancelado (nov-2025); nunca superó ~0,2% de las declaraciones",
+       "Baja, con riesgo político residual"
+      ]
+     ]
+    },
+    {
+     "tipo": "h2",
+     "texto": "El motor único: concentración estacional bajo escrutinio"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Hay un riesgo que ninguna versión anterior de este documento nombró con suficiente fuerza, y que solo aparece al cruzar dos datos que por separado parecen inofensivos. El 72,9% de la utilidad neta anual de Intuit depende de un solo trimestre fiscal, el de impuestos (febrero-abril); el 93,9% del flujo de caja operativo del año depende del acumulado de nueve meses que incluye ese mismo trimestre, dejando a los tres meses restantes (mayo-julio) con una contribución marginal de apenas ~6,1% del flujo operativo. En términos de motores, esto es un avión que genera casi todo su empuje en una sola ventana del vuelo: cualquier tormenta que caiga exactamente ahí pesa muchísimo más que la turbulencia normal del resto del año. Y esa ventana —febrero-abril de 2026— es precisamente donde ya se materializó la guía de pérdida de cuota y donde la gestión ya fue cuestionada por su mensajería contradictoria sobre el recorte de plantilla. El riesgo de concentración y el riesgo de ejecución no son dos líneas separadas del mapa: se cruzan en el mismo trimestre."
+    },
+    {
+     "tipo": "callout",
+     "clase": "CASO HISTÓRICO",
+     "texto": "La historia del retail estadounidense ofrece un precedente instructivo sobre lo que ocurre cuando un evento adverso golpea exactamente la ventana donde una empresa concentra su resultado. A finales de 2013, la cadena Target sufrió una violación masiva de la seguridad de los datos de tarjetas de sus clientes, descubierta y hecha pública en pleno periodo de compras navideñas — las semanas que, para cualquier gran minorista generalista, concentran una parte desproporcionada de la utilidad de todo el año fiscal. El daño no fue solo el costo directo del incidente: fue que la confianza y el tráfico del consumidor se vieron golpeados justo cuando el negocio más necesitaba que esas semanas funcionaran sin fricción, sin margen de tiempo para recuperarse en el resto del calendario. La lección no es sobre ciberseguridad — es sobre geometría del riesgo: cuanto más concentrado está el resultado de un negocio en una ventana estrecha del año, menos se diluye en el tiempo un solo evento adverso que caiga exactamente ahí."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "El paralelismo con Intuit no es que ambas empresas compartan sector o amenaza — es que comparten geometría de resultados. Cuando casi todo el año fiscal se decide en una ventana de semanas, un solo evento adverso bien sincronizado (una guía de pérdida de cuota, un titular de recorte de plantilla mal explicado, una demanda que escala) no se diluye en el resto del calendario como lo haría en un negocio de ingresos parejos. Se lleva puesto el trimestre entero. Y en Intuit ese trimestre no es un mes cualquiera del calendario: es el mismo en el que el gatillo de sustitución por IA ya empezó a sonar."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Litigio y regulación: el semáforo mixto"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "No todo el tablero está en ámbar. La FTC ofrece el matiz regulatorio más favorable de las cuatro tesis de este sistema: el Quinto Circuito anuló, por un tecnicismo de separación de poderes (doctrina Jarkesy), la orden de 2024 que restringía el marketing de \"TurboTax gratis\" — el remedio estructural ya no está vigente. Pero anulada no es cerrada: el caso fue devuelto a la agencia, y si la FTC decide volver a litigar en una corte federal Artículo III, con jurado y un estándar de prueba más alto, el resultado de la segunda ronda no está garantizado. En paralelo, la investigación por presunto fraude de valores —que alega que Intuit representó engañosamente su competitividad de precio frente a alternativas de IA antes de la caída de mayo de 2026— sigue siendo, por ahora, solo investigaciones de bufetes de accionistas, sin demanda formal presentada."
+    },
+    {
+     "tipo": "cita",
+     "texto": "none of it had to do with AI",
+     "autor": "Sasan Goodarzi, CEO de Intuit, a CNBC (mayo de 2026), sobre el recorte del 17% de la plantilla"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "La cita importa menos por lo que dice que por el contexto en que se dijo: cerca de 3.000 empleos recortados en mayo de 2026, con una explicación pública que la prensa y el mercado no compraron del todo — la lectura generalizada fue reestructuración por IA, no la que ofreció el propio CEO. En los seis meses siguientes a la caída del 64%, los insiders de Intuit registraron 119 ventas y cero compras. Ninguna de estas señales, por separado, es descalificante. Juntas, en el instrumento del tablero que mide confianza de la gestión, piden vigilancia activa — no benevolencia automática."
+    },
+    {
+     "tipo": "tabla",
+     "titulo_tabla": "Los gatillos que más importan hoy",
+     "encabezados": [
+      "Gatillo",
+      "Métrica",
+      "Rojo",
+      "Ámbar",
+      "Estado hoy"
+     ],
+     "filas": [
+      [
+       "G1",
+       "Unidades TurboTax Online YoY",
+       "<-5% dos temporadas seguidas",
+       "<-3%",
+       "YA EN ÁMBAR (-2% guiado FY26)"
+      ],
+      [
+       "G2",
+       "Cuota de e-files TurboTax",
+       "Cae >2pts en una temporada",
+       "Cae >1pt",
+       "YA EN ÁMBAR (-1pt guiado)"
+      ],
+      [
+       "G3",
+       "Ingresos de Mailchimp YoY",
+       "Declive real de ingresos confirmado",
+       "Crecimiento incremental <+$30M/año",
+       "Ámbar temprano (+$20M FY25)"
+      ],
+      [
+       "G9",
+       "Temporada fiscal 2027 (feb-abr-2027)",
+       "Unidades <-5% o cuota <-2pts",
+       "Se repite el patrón -2%/-1pt",
+       "Pendiente — el dato que decide todo"
+      ]
+     ]
+    },
+    {
+     "tipo": "callout",
+     "clase": "PAUSA REFLEXIVA",
+     "texto": "Leer un instrumento en ámbar no es lo mismo que leerlo en rojo, y confundir ambos es el error de dos temperamentos opuestos: el que entra en pánico ante la primera luz amarilla y vende lo que debería sostener, y el que se acostumbra tanto a ver ámbar que deja de notar cuándo un instrumento cruzó a rojo. El sistema de gatillos de este documento existe precisamente para no depender de cuál de los dos temperamentos domine el día en que toque decidir."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Por qué el veredicto sigue siendo VIGILAR"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Con dos gatillos ya en ámbar antes de comprar (G1 y G2), un tercero en ámbar temprano (G3) y el más decisivo de todos —G9, los resultados de la temporada fiscal 2027— todavía sin dato, el veredicto de este documento es VIGILAR (0%), no COMPRAR. La razón no es solo cualitativa: el candado numérico por sí solo ya bloquea la compra. Un margen de seguridad de +18,1% queda por debajo del umbral de 25% que este sistema exige para destrabar una compra inicial — el precio tendría que caer a $266 o menos, o el conservador tendría que subir con datos reales del año fiscal completo, cerrado el 31 de julio de 2026. Vigilar no es no hacer nada: es mantener encendidos los nueve instrumentos del tablero y comprometerse, de antemano, a actuar cuando alguno cruce la línea que ya se dibujó — no la que convenga dibujar ese día."
+    },
+    {
+     "tipo": "callout",
+     "clase": "LECCIÓN TRANSFERIBLE",
+     "texto": "El error más caro al construir una tesis de convicción no es equivocarse sobre un hecho: es dejar de medir después de haber decidido que el hecho ya no importa. Un margen de seguridad positivo tras una caída fuerte no es una señal para relajar la vigilancia — es la señal para intensificarla, porque es precisamente el momento en que más se desea que la historia optimista sea cierta. Fije los umbrales de rojo y de ámbar antes de que el precio se mueva a su favor, nunca después, y trátelos con la misma disciplina fría con la que un piloto no negocia con el indicador de combustible a mitad de vuelo."
+    }
+   ],
+   "id": "riesgos",
+   "titulo": "El tablero de instrumentos: riesgos y sistema de vigilancia",
+   "subtitulo": "Por qué una tesis con margen de seguridad positivo necesita gatillos falsables — no solo la sensación de que ya es una ganga"
+  },
+  {
+   "bloques": [
+    {
+     "tipo": "h2",
+     "texto": "La escena: un cruce en ámbar"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Imagine el lector un cruce de avenidas al anochecer. El semáforo de Intuit acaba de pasar de rojo a ámbar. Ámbar no es luz para acelerar: es la señal diseñada, literalmente, para el momento de mayor incertidumbre del ciclo, cuando el conductor ya vio algo pero todavía no tiene visión completa del cruce. Esa es, con precisión casi incómoda, la situación de Intuit el 13 de julio de 2026. La acción cotiza a $290, un 64% por debajo de su máximo de julio de 2025 —la peor caída del S&P 500 en lo que va del año— y por primera vez en las cuatro tesis que este sistema ha construido, el conservador propio ($354, sobre la base FY2025) queda por encima del precio: un margen de seguridad de +18,1%. Es una luz en verde. Pero es solo una de cuatro, y las otras tres siguen en ámbar."
+    },
+    {
+     "tipo": "h2",
+     "texto": "Los cuatro candados"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "El sistema tesis-forja no compra porque un número dé positivo. Permite comprar solo cuando cuatro candados independientes se abren a la vez: uno cuantitativo (el margen de seguridad frente al umbral que exige cada nivel de convicción) y tres cualitativos (la fuerza del edge, el veredicto del detector de trampas de valor, y la madurez del propio documento tras la verificación adversarial). Ninguno sustituye a los otros. En Intuit, hoy, tres de los cuatro siguen cerrados."
+    },
+    {
+     "tipo": "tabla",
+     "titulo_tabla": "Los cuatro candados de Intuit, jul-2026",
+     "encabezados": [
+      "Candado",
+      "Qué exige el sistema",
+      "Estado real en Intuit"
+     ],
+     "filas": [
+      [
+       "0 — Numérico",
+       "MoS ≥25% para destrabar COMPRAR_INICIAL",
+       "+18,1% — por debajo del umbral; el precio tendría que caer a ≤$266"
+      ],
+      [
+       "1 — Edge (Paso 6)",
+       "Calificación 'aguanta', con frase falsable limpia",
+       "'Flaquea con edge real pero de alto riesgo' — su pilar más citado (TurboTax Live) fue retirado por falta de fuente"
+      ],
+      [
+       "2 — Detector de trampas (Paso 7)",
+       "Veredicto PASA limpio",
+       "GRIS — crece el agregado, pero no limpiamente en TurboTax DIY ni en Mailchimp"
+      ],
+      [
+       "3 — Madurez del documento",
+       "Verificación adversarial completa y estable",
+       "3 rondas ya corridas, 2 cifras fabricadas retiradas — la que MÁS necesita el loop completo de las cuatro tesis"
+      ]
+     ]
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "El primer candado es aritmética pura, y la aritmética no negocia. El conservador de $354 por acción —construido con el mismo criterio mecánico de haircut que las otras tres tesis del sistema: crecimiento recortado sobre la guía, terminal al 3%, r=9%— deja un margen de seguridad de +18,1% sobre el precio de hoy. Es real, y es el primer MoS positivo que este sistema produce. Pero el umbral que abre COMPRAR_INICIAL es 25%, no 18%. La diferencia son $24 por acción: el precio tendría que caer hasta $266 —o el conservador subir con datos verificados, no extrapolados— para que este candado se abra. Ningún entusiasmo sobre Credit Karma o TurboTax Live cambia esa cuenta; solo el mercado o un 10-K confirmado pueden hacerlo."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "El segundo candado es más sutil. El Paso 6 mide si el mercado se equivoca de forma identificable, y aquí sí lo parece: el precio de hoy exige apenas ~4,5% de crecimiento a 10 años, frente a una guía propia de la compañía de +13-14% y una historia de 16,7% anual —la brecha más amplia de las cuatro tesis de este sistema—. Pero calificar ese edge como 'aguanta' exigía un pilar concreto: que TurboTax Live, el tramo asistido por un humano, fuera lo bastante grande y creciera lo bastante rápido como para amortiguar la erosión del tramo DIY. Ese pilar —una cifra citada como '53% del ingreso, +36% de crecimiento'— no sobrevivió la primera ronda adversarial: no existe fuente primaria que la respalde, y se retiró. Sin ella, el edge queda en 'flaquea': real, pero de alto riesgo, sostenido por una sola pieza verificable —Perplexity todavía no presenta declaraciones ante el IRS, solo las redacta."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "El tercer candado es el detector de trampas de valor, y su resultado es el más incómodo de leer porque no da una respuesta limpia. La pregunta es simple: ¿siguen creciendo los ingresos orgánicos, el margen y el ROIC pese al de-rating? A nivel agregado, sí —ingresos +16%, margen operativo expandiendo, ROIC recuperado a 14,4% tras el mínimo de 8,5% en FY23—. Pero esa cifra agregada esconde una realidad segmentada: TurboTax DIY ya cayó -2% en unidades y -1 punto de cuota, guiado por la propia compañía, y el crecimiento incremental de Mailchimp se desplomó de $125M a $20M en un año. El detector no dice 'trampa confirmada' —el negocio en conjunto no se cae— pero tampoco dice 'PASA limpio'. Dice GRIS: erosión real y localizada, disfrazada por un promedio que todavía se sostiene gracias a otras piezas."
+    },
+    {
+     "tipo": "callout",
+     "clase": "CASO HISTÓRICO",
+     "texto": "Eastman Kodak inventó, dentro de sus propios laboratorios, una de las primeras cámaras digitales del mundo — y la archivó, por miedo a canibalizar el negocio de película que financiaba toda la compañía. Durante años, mientras la fotografía digital ganaba terreno trimestre a trimestre, la acción cotizó a múltiplos que parecían 'baratos' para cualquier inversor de valor clásico: ingresos todavía enormes, marca dominante, flujo de caja histórico robusto. El agregado disimulaba la erosión del núcleo hasta que dejó de poder hacerlo, y Kodak terminó en bancarrota en 2012. La lección no es que Intuit sea Kodak — es que un detector GRIS, no un rojo evidente, es precisamente la señal que un inversor optimista confunde con una ganga hasta que ya es tarde para distinguir la diferencia."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "El cuarto candado no habla del negocio: habla del documento mismo. Esta tesis pasó por tres rondas de verificación adversarial, no una. La primera retiró dos cifras que no existían en fuente primaria: el supuesto peso de TurboTax Live y una cita atribuida al CFO sobre una caída de ingresos en Mailchimp. La segunda encontró que una de esas cifras retiradas había sobrevivido, sin corregir, en otra sección del mismo documento, y sumó un cargo de reestructuración de $300-340M que la primera sensibilidad no había descontado. La tercera purgó los últimos rastros. Que un documento necesite tres rondas para quedar limpio no es un defecto: es la prueba de que, ante la primera tesis con MoS positivo de este sistema, el sesgo de confirmación era la amenaza más real de todas."
+    },
+    {
+     "tipo": "h2",
+     "texto": "El mapa de precios, no la promesa de precios"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Las zonas de precio que siguen no son una promesa de que 'a tal nivel, comprar'. Son un mapa de decisión: coordenadas que indican dónde está parado el inversor y qué le falta por resolver antes de moverse, igual que un mapa de carreteras no garantiza que la ruta esté despejada, solo marca dónde está cada cruce. Y aquí hay una diferencia frente a las otras tesis del sistema: el precio de Intuit YA está dentro de la banda de re-análisis intensivo. No es una zona futura hacia la que hay que esperar —es la zona en la que Felipe está parado hoy, con $290 en pantalla."
+    },
+    {
+     "tipo": "tabla",
+     "titulo_tabla": "Mapa de zonas de precio — INTU",
+     "encabezados": [
+      "Zona",
+      "Nivel",
+      "Condición"
+     ],
+     "filas": [
+      [
+       "Re-análisis intensivo",
+       "YA ACTIVA — precio hoy ($290) dentro de la banda",
+       "Correr el cierre adversarial completo antes de cualquier acción"
+      ],
+      [
+       "Banda gatillo-doble",
+       "$266-301 (75-85% del conservador $354)",
+       "El precio ya está aquí — decide el fundamental, no el rebote técnico"
+      ],
+      [
+       "COMPRAR_INICIAL (condicional)",
+       "≤$266 (MoS ≥25%)",
+       "Requiere ronda adversarial completa, detector de trampas resuelto (no GRIS), G1/G2/G3 sin escalar a rojo"
+      ],
+      [
+       "COMPRAR_AGRESIVO",
+       "≤$212 (MoS ≥40%)",
+       "+ ≥2 señales de extremo + fuente primaria verificada del tamaño y crecimiento real de TurboTax Live"
+      ]
+     ]
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Bajar a $266 no es magia: es el nivel en que el 18,1% se convierte en 25%, manteniendo todo lo demás constante. Pero el mapa exige más que precio: que el detector deje de ser GRIS, que los gatillos G1 y G2 no escalen a rojo, y que la ronda adversarial completa se vuelva a correr. COMPRAR_AGRESIVO, el escalón más alto, pide algo que hoy no existe en el dossier: una cifra de fuente primaria sobre el tamaño real de TurboTax Live. Sin ella, ni un precio de $212 destraba la agresión —con la base FY2026 ajustada, el propio documento estima que el MoS rondaría ~36%, reforzando probablemente COMPRAR_INICIAL, no AGRESIVO, salvo que aparezcan además dos señales de extremo genuinas."
+    },
+    {
+     "tipo": "h2",
+     "texto": "La agresión se gana, no se regala"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Aquí está el núcleo filosófico del sistema. La escala de convicción no es un interruptor de comprar/no comprar: es una escalera que se sube peldaño a peldaño. VIGILAR es el piso —no exige nada, no compromete nada, y es exactamente donde está Intuit hoy—. COMPRAR_INICIAL exige que el candado numérico y los tres cualitativos se resuelvan juntos. COMPRAR_AGRESIVO exige, además de más margen de seguridad, señales de extremo y una verificación que hoy no existe. Ningún peldaño se sube por deseo, por el alivio de ver el primer MoS positivo de cuatro tesis, o por la tentación de convertir una caída del 64% en ganga narrativa. Se sube resolviendo candados, uno por uno, con fuente primaria. La agresión se gana, no se regala."
+    },
+    {
+     "tipo": "cita",
+     "texto": "Antes de que este número mueva un dólar, tiene que sobrevivir el mismo fuego cruzado que templó a Visa.",
+     "autor": "Tesis-forja INTU, v4 — Paso 9"
+    },
+    {
+     "tipo": "callout",
+     "clase": "PAUSA REFLEXIVA",
+     "texto": "Vale la pena decirlo sin rodeos: una caída del 64% genera un impulso psicológico propio, distinto del análisis. El cerebro que ve un precio caer tanto quiere, casi por reflejo, creer que ya tocó fondo. Ese impulso no es información — es la razón exacta por la que el sistema exige tres rondas adversariales antes de confiar en un MoS positivo, y por la que ese mismo MoS, siendo real, no es todavía suficiente."
+    },
+    {
+     "tipo": "h2",
+     "texto": "La pregunta que importa"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Todo esto converge en una pregunta operativa: ¿qué evento, en qué fecha, cambia el veredicto? Hay dos respuestas, ambas ya en el calendario. La primera es inmediata: los resultados completos del año fiscal 2026, que cierran el 31 de julio de 2026 —a días de esta tesis—. Ese informe traerá la cifra real de compensación en acciones y de flujo de caja del cuarto trimestre, incluido el cargo de reestructuración hoy solo estimado. Si confirma un owner earnings anualizado de ~$5,3B en vez de los $4,1B usados como base, el conservador podría subir hacia ~$456 y el margen de seguridad de +18% a ~36% —moviendo con fuerza el candado numérico, aunque probablemente hacia COMPRAR_INICIAL, no hacia AGRESIVO—. La segunda respuesta es más lenta pero más definitiva: la temporada fiscal 2027 (febrero-abril), que dirá si la caída de -2% en unidades fue el primer peldaño del escenario Goldman —TurboTax cayendo 18% hacia 2030— o un susto que se estabiliza. Hasta que uno de los dos hable, el semáforo se queda en ámbar: ni se acelera, ni se frena en seco."
+    },
+    {
+     "tipo": "callout",
+     "clase": "LECCIÓN TRANSFERIBLE",
+     "texto": "Un margen de seguridad positivo mide si el precio es barato frente a un escenario. No mide si ese escenario es el correcto. Cuando la razón de la caída es un riesgo cuantificable y parcialmente confirmado por la propia empresa —no un pánico difuso de mercado—, el trabajo del inversor no termina al calcular el descuento: empieza ahí. La disciplina no consiste en desconfiar de todo lo barato, ni en confiar en todo lo barato: consiste en exigir que cada candado cualitativo se abra con la misma evidencia dura que exigimos del candado numérico, y en aceptar que 'esperar con el dedo en el gatillo, vigilando' es, en sí misma, una posición de inversión legítima — no una indecisión que hay que resolver por incomodidad."
+    }
+   ],
+   "id": "decision",
+   "titulo": "El Capítulo de la Decisión",
+   "subtitulo": "Intuit y el semáforo en ámbar: por qué un margen de seguridad positivo todavía no compra nada"
+  },
+  {
+   "bloques": [
+    {
+     "tipo": "h2",
+     "titulo": "El detective que sospecha primero de sí mismo"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Un buen detective no empieza por proteger a su sospechoso favorito: empieza por interrogarlo con más dureza que a nadie más en la sala. Es un instinto que va contra la naturaleza humana, porque cuando ya se tiene una teoría —cuando el caso \"parece\" resuelto— el cerebro deja de buscar lo que la contradice y empieza, casi sin darse cuenta, a coleccionar solo lo que la confirma. En una tesis de inversión ocurre exactamente lo mismo, salvo que el sospechoso favorito no es una persona: es la conclusión que uno quiere que sea cierta. Y en ningún documento de este sistema esa tentación fue tan fuerte como en el de Intuit."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "La acción cayó 64% desde su máximo —la peor del S&P 500 en 2026— y frente a una caída así el cerebro no reacciona con neutralidad, reacciona con hambre. Quiere que sea una ganga, porque encontrar valor donde el mercado solo ve escombros es la fantasía central de cualquiera que se tome en serio la disciplina de comprar barato. Ese deseo no es un defecto moral: es una tendencia humana casi mecánica, documentada una y otra vez. Pero es precisamente esa universalidad la que la vuelve peligrosa, porque nadie se siente sesgado mientras está sesgado. Uno solo lo descubre después, al escarbar, cuando la cifra que tanto convenía resulta no estar donde decía estar."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Eso fue exactamente lo que ocurrió en la primera versión de este análisis. Aparecieron dos cifras, ambas con la textura exacta de un dato duro. Una decía que TurboTax Live —el segmento asistido por un experto humano, el único rincón de TurboTax que un chatbot no puede replicar fácilmente— ya representaba el 53% del ingreso de TurboTax y crecía 36% al año. La otra atribuía a un alto directivo, identificado como el director financiero, la admisión en una llamada de resultados de mayo de 2026 de que los ingresos de Mailchimp habían caído interanualmente. Ninguna de las dos cifras existía en ninguna fuente primaria. No eran mentiras deliberadas: eran el tipo de espejismo que aparece cuando una narrativa necesita un número y el número, simplemente, no está donde se lo busca."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Lo revelador no es que aparecieran, sino a qué pregunta respondían tan bien. El 53%/+36% de TurboTax Live contestaba exactamente el miedo central de toda la tesis: si la inteligencia artificial se come el negocio de declarar impuestos por cuenta propia, ¿qué protege a Intuit? La cifra decía: tranquilo, más de la mitad del negocio ya migró al segmento que la IA todavía no puede tocar. Era el calmante perfecto para la duda más incómoda del documento. Y la cita atribuida al director financiero cumplía la función inversa pero igual de tentadora: convertía una desaceleración ambigua, difícil de interpretar, en un hecho limpio y citable, dándole al caso bajista una autoridad que en realidad no tenía. Las dos cifras, por caminos opuestos, hacían lo mismo: cambiaban la incomodidad de no saber por la comodidad de un número redondo."
+    },
+    {
+     "tipo": "callout",
+     "clase": "CASO HISTÓRICO",
+     "texto": "Kodak no cayó por ignorar la fotografía digital: la inventó. Uno de sus propios ingenieros construyó la primera cámara digital funcional en 1975 y se la mostró a la dirección. Pero admitir que esa tecnología era el futuro significaba admitir que el negocio más rentable de la historia de la compañía —el revelado químico de película— tenía fecha de caducidad. Durante años, la dirección prefirió creer que la disrupción sería lenta, parcial y manejable, no porque la evidencia lo dijera, sino porque esa lectura protegía el negocio del que vivían sus bonos y su identidad corporativa. Kodak se declaró en quiebra en 2012. La lección no es que la empresa no viera venir el cambio: es que el sesgo inducido por el incentivo puede sobrevivir incluso cuando la prueba está, literalmente, sobre la mesa de un ejecutivo."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Charlie Munger dedicó buena parte de su carrera a advertir sobre este mecanismo. Su idea, resumida aquí sin citarlo textualmente, era que la mente no busca la verdad de forma neutral: fija una conclusión razonable temprano y después filtra toda la evidencia posterior para que encaje con ella, descartando sin darse cuenta lo que la contradice. La variante más peligrosa —la que él llamaba el sesgo inducido por el incentivo— es la tendencia a creer lo que conviene creer, incluso cuando el incentivo no es dinero sino, simplemente, el alivio de tener ya una respuesta. En Intuit el incentivo no era un cheque: era la satisfacción de ser el inversor que encontró valor donde el resto del mercado solo veía una acción castigada un 64%. Ese tipo de recompensa emocional, advertía Munger, puede distorsionar el juicio con la misma fuerza que el dinero."
+    },
+    {
+     "tipo": "h2",
+     "titulo": "Tres rondas, dos cacerías"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Lo que salvó a este documento de repetir ese error a escala de tesis de inversión fue que nadie se conformó con la primera lectura. La primera ronda de revisión encontró y retiró las dos cifras inventadas del argumento principal. Pero aquí está el detalle que más vale la pena recordar: una de ellas —el 53%/+36% de TurboTax Live— había sido retirada del argumento central, pero seguía escondida en otro rincón del documento, en el escenario del pre-mortem, donde nadie había vuelto a mirar con el mismo cuidado. Sobrevivió disfrazada de hecho hasta la segunda ronda de revisión. Es exactamente lo que le pasa a un detective que cierra el caso demasiado rápido: corrige la confesión falsa en el expediente principal, pero la misma huella equivocada sigue pegada en la manija de una puerta que ya nadie volvió a revisar."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "La tercera ronda ya no encontró números inventados —encontró algo más sutil, y en cierto modo más instructivo. Un error de dirección que decía que el precio estaba \"por debajo\" de un piso de valoración cuando en realidad seguía por encima. Un rango impreciso, \"~30-36%\", conviviendo sin necesidad junto a la cifra exacta que sí estaba bien calculada. Una fecha de una proyección de Goldman Sachs citada de tres maneras distintas en tres lugares distintos del mismo documento. Ninguno de estos tres defectos era una mentira. Eran el tipo de descuido que un cerebro complaciente deja pasar porque, casualmente, apunta en la dirección que uno preferiría que fuera cierta. Un detective que de verdad sospecha de su propia teoría favorita no se conforma con eliminar las pruebas falsas: revisa también las imprecisiones, porque el ruido casi nunca es aleatorio —tiende a inclinarse hacia lo que uno quiere escuchar."
+    },
+    {
+     "tipo": "tabla",
+     "titulo_tabla": "Qué encontró cada ronda de revisión",
+     "encabezados": [
+      "Ronda",
+      "Qué encontró",
+      "Qué exigió corregir"
+     ],
+     "filas": [
+      [
+       "Ronda 1 (5 lentes)",
+       "Dos cifras sin fuente rastreable: \"TurboTax Live 53%/+36%\" y una cita atribuida al director financiero sobre Mailchimp",
+       "Retiro de ambas cifras; corrección de un error en la tabla de sensibilidad del DCF"
+      ],
+      [
+       "Ronda 2 (4 lentes)",
+       "La cifra de TurboTax Live, ya retirada del argumento principal, seguía citada como hecho dentro del escenario del pre-mortem",
+       "Corrección del rastro sobreviviente; ajuste del owner earnings FY2026E por un cargo de reestructuración ya conocido"
+      ],
+      [
+       "Ronda 3 (3 lentes + juez de cierre)",
+       "Un error de dirección sobre un piso de valoración; un rango impreciso conviviendo con la cifra exacta ya calculada; una fecha citada de tres formas distintas",
+       "Corrección de los tres defectos; verificación final de que no quedaban rastros de las cifras retiradas"
+      ]
+     ]
+    },
+    {
+     "tipo": "h2",
+     "titulo": "Por qué aquí más que en ninguna otra"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Esto importa más en la tesis de Intuit que en cualquiera de las otras tres de este sistema, y la razón es simple. Aquí el margen de seguridad es positivo por primera vez —+18%, el único de las cuatro— precisamente en el documento con la caída de precio más dramática y el riesgo mejor cuantificado de todos. Es la combinación perfecta para que el sesgo de confirmación actúe sin que nadie lo note: un precio que grita \"ganga\" y un cerebro que, frente a una caída del 64%, prefiere sentir que encontró algo antes que admitir que quizás el mercado tiene razón. En otras tesis de este sistema, donde el margen de seguridad seguía siendo negativo, no había una tentación equivalente: nadie necesita inventar una cifra para justificar no comprar. Aquí sí la había, y por eso el documento exigió, con razón, la ronda de revisión más dura de las cuatro."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "La humildad no consistió en desconfiar de todo, sino en desconfiar primero de lo que más convenía creer —y en aceptar, al final de tres rondas, que el veredicto sigue siendo VIGILAR, no COMPRAR, porque ni el detector de trampas de valor ni el candado numérico de convicción se resolvieron limpiamente a favor. La ganga, si existe, tendrá que demostrarlo con resultados reales, no con una cifra que sonaba bien pero que nadie pudo encontrar donde decía estar."
+    },
+    {
+     "tipo": "cita",
+     "texto": "Un MoS positivo en un documento apenas templado por revisión es exactamente el tipo de señal que más necesita escepticismo, no entusiasmo: es la situación donde el sesgo de confirmación es más peligroso, porque \"quiero que sea una ganga\" es una tentación real ante una caída del 64%.",
+     "autor": "Tesis-forja INTU, Paso 9 — Fase 2"
+    },
+    {
+     "tipo": "callout",
+     "clase": "PAUSA REFLEXIVA",
+     "texto": "La próxima vez que una cifra te dé exactamente la respuesta que estabas esperando oír, esa no es la señal de que la investigación terminó. Es la señal de que apenas empieza."
+    },
+    {
+     "tipo": "callout",
+     "clase": "LECCIÓN TRANSFERIBLE",
+     "texto": "La convicción que vale algo no es la que se siente segura desde el principio: es la que sobrevive a haber sido atacada por quien más la quería defender. Cualquier inversor puede encontrar una cifra que confirme lo que ya deseaba creer —el mercado está lleno de ellas, sueltas, sin fuente, esperando a quien las necesite—. La disciplina real no está en tener más información, sino en voltear esa información contra la propia conclusión favorita antes de que lo haga alguien más, en un momento en que ya cuesta dinero. La humildad epistémica —dudar primero de lo que más te gustaría que fuera cierto— no es una debilidad del analista: es la única diferencia real entre una convicción ganada con esfuerzo y una ilusión que, por un rato, se sintió exactamente igual."
+    }
+   ],
+   "id": "temperamento",
+   "titulo": "El Capítulo del Temperamento",
+   "subtitulo": "Dos cifras inventadas, tres rondas de revisión, y la disciplina de sospechar primero de lo que uno más quiere creer"
+  },
+  {
+   "bloques": [
+    {
+     "tipo": "h2",
+     "texto": "Ni ganga obvia, ni trampa obvia"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Cuatro tesis conforman este sistema hasta ahora, y cada una obliga a razonar en un terreno distinto. Con Visa y Mastercard, la pregunta de fondo era casi filosófica: ¿seguirá existiendo el peaje que cobran, o algo lo hará irrelevante? Con Microsoft, la duda era de motor: ¿la nube seguirá acelerando o ya tocó techo? Con Intuit el terreno cambia por completo, y no porque el negocio sea peor, sino porque la amenaza dejó de ser hipotética. El 20 de mayo de 2026 la propia compañía admitió, en su guía oficial, que las unidades de TurboTax Online caían 2% y que la cuota de declaraciones electrónicas cedía un punto — no la proyección de un analista escéptico, sino un dato que la empresa puso ella misma sobre la mesa. Y detrás de esa caída hay un mecanismo que Goldman Sachs cuantificó con una precisión que ninguna de las otras tres tesis tuvo: procesar una declaración de impuestos vía inteligencia artificial cuesta cerca de $0,12, contra un ingreso promedio por cliente de TurboTax de unos $162 — la brecha de coste marginal más extrema de cualquier disrupción tecnológica que este sistema ha analizado hasta ahora. Esa brecha es el dato más incómodo de las cuatro tesis, y es la razón por la que este capítulo de cierre no puede ofrecer un titular limpio."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "El primer instrumento que usamos para tomarle la temperatura a esta situación fue, casi sin proponérnoslo, un termómetro clásico: el múltiplo. Un P/E cercano a 17,7 veces, pegado a su piso de una década —un mínimo de alrededor de 16,8x frente a una mediana histórica de unas 48,3 veces—, es la lectura de un mercado con fiebre de pánico, no de indiferencia. Y la acción, la peor del S&P 500 en lo que va de 2026, cayó 64% desde su máximo de $813,70 marcado apenas un año antes. Pero un termómetro, por preciso que sea, tiene un límite: mide que hay fiebre, no si el paciente tiene un resfriado que se cura solo o una enfermedad que recién empieza a mostrar síntomas. Ese es exactamente el problema que ninguna hoja de cálculo, por sofisticada que sea, puede resolver desde un escritorio: la fiebre es un hecho observable; el diagnóstico, no."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Los tres números centrales de la valoración, puestos uno junto al otro, cuentan una historia que se niega a resolverse sola. El escenario conservador —construido con el mismo criterio mecánico de descuento que ya se aplicó a Visa, Mastercard y Microsoft— sitúa el valor en $354 por acción contra un precio de mercado de $290: un margen de seguridad de +18,1%, el primero positivo de las cuatro tesis de este sistema. Pero el propio escenario bajista, construido con el mismo motor de valoración y solo con supuestos más severos sobre cuánto se extiende la erosión de la inteligencia artificial más allá de TurboTax, aterriza en $274 por acción — apenas $16 por debajo del precio al que el mercado ya cotiza la empresa hoy. Y el crecimiento que el precio actual exige para justificarse, a una tasa de descuento del 9%, es de solo ~4,5% a diez años: el más bajo de las cuatro tesis de este sistema, muy por debajo de lo que pedían Visa, Mastercard o Microsoft, y muy por debajo de lo que la propia Intuit sigue guiando. Un mercado que solo exige 4,5% de crecimiento a una empresa que promete el triple no es obviamente irracional ni obviamente generoso: es selectivamente escéptico, y por primera vez en este sistema ese escepticismo tiene un mecanismo cuantificado detrás, no solo un humor de mercado."
+    },
+    {
+     "tipo": "tabla",
+     "titulo_tabla": "Los tres anclajes de valoración (base FY2025)",
+     "encabezados": [
+      "Ancla",
+      "Valor por acción",
+      "Relación con el precio de mercado ($290)"
+     ],
+     "filas": [
+      [
+       "EPV — suelo sin crecimiento",
+       "$167",
+       "El precio está 74% por encima de este suelo"
+      ],
+      [
+       "Bajista — erosión de IA se extiende más allá de TurboTax",
+       "$274",
+       "El precio está apenas $16 por encima"
+      ],
+      [
+       "Conservador — mismo criterio mecánico que V/MA/MSFT",
+       "$354",
+       "MoS = +18,1% (el precio está $64 por debajo)"
+      ]
+     ]
+    },
+    {
+     "tipo": "tabla",
+     "titulo_tabla": "Crecimiento implícito exigido por el precio (r=9%), comparado dentro del sistema",
+     "encabezados": [
+      "Tesis",
+      "Crecimiento implícito a 10 años"
+     ],
+     "filas": [
+      [
+       "Visa",
+       "11,8%"
+      ],
+      [
+       "Mastercard",
+       "9,5%"
+      ],
+      [
+       "Microsoft",
+       "13,8%"
+      ],
+      [
+       "Intuit",
+       "~4,5% — el más bajo del sistema"
+      ]
+     ]
+    },
+    {
+     "tipo": "callout",
+     "clase": "CASO HISTÓRICO",
+     "texto": "En 1963, American Express se desplomó en bolsa por el escándalo del aceite de ensalada: un almacén que garantizaba el inventario de una subsidiaria resultó estar lleno de agua de mar, no de aceite, y el mercado temió una responsabilidad financiera capaz de hundir a la compañía entera. Un inversor que solo mirara el múltiplo habría visto, según el día, una ganga aterradora o una trampa mortal. Warren Buffett no resolvió la duda desde el escritorio: fue a verificar, en restaurantes y bancos, si el negocio real de la tarjeta —el que generaba el efectivo— seguía intacto pese al escándalo contable. Lo estaba, y apostó una porción enorme de su fondo a esa verificación. La lección no es que Intuit sea el próximo American Express: es que las situaciones genuinamente ambiguas —ni ganga obvia ni trampa obvia— casi nunca se resuelven con más modelos. Se resuelven verificando, contra la realidad, cuál de los dos precios en pugna tenía razón."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Tampoco es, conviene subrayarlo, una trampa de valor de manual. El detector diseñado para separar el pánico irracional del deterioro real dio en Intuit un veredicto gris, no un colapso limpio: los ingresos agregados siguen creciendo, el margen operativo se expandió y el retorno sobre el capital invertido, que había caído hasta casi tocar el costo de capital en 2023, se recuperó a 14,4% en el año fiscal 2025. El foso de distribución —el canal de contadores que usa QuickBooks— se está profundizando, no erosionando: Intuit extendió en plena crisis el programa de comisiones a sus socios contables de doce meses a hasta tres años, justo el tipo de movimiento defensivo que una empresa en descomposición rara vez tiene el músculo o la disciplina de ejecutar. Y el regulador, que en las otras tesis suele ser una amenaza latente, aquí se retiró: la orden de la FTC sobre la publicidad de TurboTax fue anulada. Ninguna trampa de valor clásica exhibe estas tres señales a la vez."
+    },
+    {
+     "tipo": "callout",
+     "clase": "PAUSA REFLEXIVA",
+     "texto": "Antes de seguir leyendo, vale la pena hacer la pregunta incómoda en voz alta: ¿está usted más inclinado a comprar Intuit porque el análisis lo justifica, o porque después de tres tesis sin ningún margen de seguridad positivo, esta es la primera que por fin lo tiene? Esa diferencia —entre seguir la evidencia y aliviar la frustración de no haber comprado nada todavía— es exactamente el tipo de sesgo que una caída del 64% está diseñada para explotar."
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Así que la situación, honestamente descrita, es esta: dos números construidos con el mismo rigor —uno optimista, uno pesimista— casi se tocan a ambos lados del precio de mercado, y el propio negocio exhibe evidencia real tanto de erosión confirmada como de fortaleza defendible. Ningún ajuste adicional a la hoja de cálculo va a deshacer esa tensión, porque la tensión no es un error de cálculo: es la honesta incertidumbre de un negocio en medio de una transición cuyo desenlace todavía no se puede observar desde afuera. Lo que sí puede observarse, y muy pronto, es el resultado fiscal completo del año 2026, que Intuit reporta el 31 de julio — a días de este documento. Ese informe trae la pieza que falta: el flujo de caja libre real del año, la compensación en acciones real (no extrapolada) y el tamaño real del cargo de reestructuración ya anunciado. Con esos tres datos, el margen de seguridad de +18,1% podría subir hacia ~36% frente al escenario conservador — o podría no hacerlo, si los costos legales de la investigación por fraude de valores y una compensación de retención elevada absorben la mejora. No es un misterio irresoluble: es un dato que llega en días, no en años."
+    },
+    {
+     "tipo": "h2",
+     "texto": "El semáforo en ámbar"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "El sistema con el que se construyó este documento —igual que las tres tesis anteriores— usa gatillos con estados de alerta: limpio, ámbar y rojo, el equivalente de un semáforo real. Para Intuit, casi todos los gatillos de negocio que ya tienen dato están hoy en ámbar: la caída de unidades de TurboTax, la cesión de cuota de e-files, la desaceleración de Credit Karma de +32% a +15% en el trimestre más reciente. Ni uno solo está en rojo confirmado; ninguno está limpio. Y el propio precio de la acción hoy vive exactamente en esa misma zona ámbar: dentro de la banda de re-análisis, por encima del umbral que destrabaría una compra inicial ($266) pero por debajo del valor conservador que la justificaría con margen amplio ($354). Un semáforo en ámbar no es una invitación a acelerar ni una orden de frenar en seco: es una señal diseñada, precisamente, para obligar a esperar el siguiente segundo de información antes de decidir qué hacer con el pie que ya está sobre el acelerador. Forzar hoy una decisión —comprar por no perderse el primer margen de seguridad positivo de cuatro tesis, o descartar por miedo ante la acción más golpeada del índice— sería tratar el ámbar como si ya se supiera de qué color se va a poner. Nadie lo sabe todavía. Eso es, exactamente, lo que el 31 de julio está a punto de decirnos."
+    },
+    {
+     "tipo": "cita",
+     "texto": "Intuit es la única de las cuatro tesis de este sistema donde el precio de hoy ya paga menos crecimiento del que el propio análisis conservador considera razonable — pero es también la única donde el mercado tiene un mecanismo de riesgo cuantificado y ya parcialmente confirmado por la propia empresa; decidir si esto es máximo pesimismo aprovechable o el precio correcto de una disrupción real es el trabajo más importante que le queda a este sistema.",
+     "autor": "Tesis-forja INTU, v4 — 13 de julio de 2026"
+    },
+    {
+     "tipo": "parrafo",
+     "texto": "Vigilar, con convicción cero, no es no tener opinión: es tener la opinión más honesta que los datos de hoy permiten, y negarse a maquillarla de certeza. De las cuatro tesis que ha producido este sistema, ninguna ha llegado tan cerca de una compra sin cruzar la línea, y ninguna ha dejado tan claro por qué cruzarla prematuramente sería el error más caro posible: no el de perderse una subida, sino el de confundir un semáforo en ámbar con uno en verde porque el precio, por fin, se veía bonito. El siguiente dato no depende de más análisis: depende del calendario. Y a veces, la decisión más rigurosa que un inversor puede tomar es, sencillamente, esperar a que el semáforo termine de cambiar."
+    },
+    {
+     "tipo": "callout",
+     "clase": "LECCIÓN TRANSFERIBLE",
+     "texto": "Un margen de seguridad positivo no es una señal de compra: es una invitación a preguntar por qué el mercado, que normalmente no regala descuentos sin motivo, está regalando este. Cuando el escenario más pesimista que usted mismo es capaz de construir con rigor aterriza a centavos del precio de mercado, el mercado no está loco ni usted tiene un secreto: ambos están viendo el mismo riesgo real desde ángulos distintos. En esos casos, la ventaja no está en analizar más rápido que los demás — está en tener la paciencia de esperar el dato concreto y verificable que inclina la balanza, y la disciplina de no comprar (ni vender) solo porque esperar se siente incómodo."
+    }
+   ],
+   "id": "aprendizaje",
+   "titulo": "Capítulo de Cierre — El aprendizaje",
+   "subtitulo": "Intuit no es una ganga ni una trampa: es el semáforo en ámbar que separa el análisis superficial del riguroso"
+  }
+ ],
+ "costura": {
+  "nota_global": "Esta Ultra Tesis de Intuit recorre el caso de la acción más castigada del S&P 500 en 2026 mediante un método deliberadamente antisecuencial: primero se fuerza a imaginar el fracaso, luego se diseca el negocio, la industria, el foso, los números, la gestión y la percepción del mercado, y solo al final todo eso se traduce en una valoración que arroja el único margen de seguridad positivo de las cuatro tesis del sistema. El documento se niega a cerrar el veredicto en ese hallazgo: exige además un tablero de riesgos con gatillos falsables y una auditoría del propio temperamento del analista antes de llegar a la decisión. El aprendizaje final no es si Intuit es ganga o trampa —esa pregunta queda abierta a propósito desde el capítulo de apertura— sino que sostener esa incertidumbre con disciplina, en vez de resolverla por impaciencia, es lo que separa un análisis riguroso de uno superficial.",
+  "transiciones": [
+   {
+    "id": "intu-premortem-2026-07-13",
+    "frase": "Antes de dejarse seducir por el descuento más profundo del S&P 500, la disciplina exige imaginar primero, con methodódica frialdad, cómo se perdería el dinero."
+   },
+   {
+    "id": "intu-capitulo-negocio",
+    "frase": "Superado el ejercicio de imaginar el fracaso, toca entender qué es exactamente lo que se estaría comprando: una cosecha de cuatro productos que la inteligencia artificial generativa amenaza de un modo que ninguna competencia anterior logró."
+   },
+   {
+    "id": "intu-cap-industria-2026-07-13",
+    "frase": "Ese negocio no opera en el vacío: libra una guerra en dos frentes —uno regulatorio, otro tecnológico— que decidirá si la cosecha sigue siendo suya."
+   },
+   {
+    "id": "intu-capitulo-moat",
+    "frase": "Frente a esa guerra en dos frentes, la pregunta obligada es si las murallas construidas en treinta años de fidelidad contable resisten el asedio, o si esconden una grieta sin cerrar hacia el IRS."
+   },
+   {
+    "id": "intu-capitulo-numeros",
+    "frase": "Las murallas se sostienen —o se resquebrajan— con cifras, y la década que las financió cuenta una historia más compleja que el simple crecimiento de ingresos."
+   },
+   {
+    "id": "intu-cap-gestion",
+    "frase": "Detrás de cada cifra hay una decisión, y detrás de cada decisión un capitán cuyo historial en aguas tranquilas está a punto de ponerse a prueba en la tormenta."
+   },
+   {
+    "id": "intu-2026-07-13-cap6-percepcion-variante",
+    "frase": "Mientras la tripulación vigila al capitán, el mercado ya emitió su propio veredicto silencioso, fijando en el precio una expectativa de crecimiento sorprendentemente modesta."
+   },
+   {
+    "id": "intu-cap-valoracion-2026-07-13",
+    "frase": "Esa expectativa modesta que el mercado susurra es, en realidad, una cifra precisa que solo un DCF invertido —ejecutado por cuatro caminos distintos— puede traducir en un número accionable."
+   },
+   {
+    "id": "intu-cap8-riesgos",
+    "frase": "Un margen de seguridad positivo en el mapa no sirve de nada sin un tablero de instrumentos que avise, con gatillos falsables, cuándo la tesis empieza a fallar en el terreno."
+   },
+   {
+    "id": "intu-2026-07-13-capitulo-decision",
+    "frase": "Con los gatillos ya calibrados, solo queda la pregunta que todo el ejercicio anterior estaba diseñado para responder: comprar, esperar, o admitir que el semáforo sigue en ámbar."
+   },
+   {
+    "id": "intu-capitulo-temperamento",
+    "frase": "Esa decisión en ámbar no nació limpia: exigió corregir dos cifras inventadas y sobrevivir tres rondas de revisión antes de merecer confianza."
+   },
+   {
+    "id": "intu_cierre_aprendizaje",
+    "frase": "De ese proceso disciplinado —y no del veredicto final sobre si Intuit es ganga o trampa— es de donde el lector debe extraer la verdadera lección."
+   }
+  ]
+ }
+}

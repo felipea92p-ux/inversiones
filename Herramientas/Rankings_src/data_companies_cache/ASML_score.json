@@ -1,0 +1,59 @@
+{
+ "ticker": "ASML",
+ "name": "ASML Holding N.V.",
+ "rules": {
+  "R1": {
+   "score": 1.5,
+   "just": "Modelo no es software puro pero el liderazgo en EUV/High-NA da apalancamiento operativo brutal (op margin 34.6% FY25, gross 52.8%) que escala con volumen e instalaciones; servicio recurrente (Installed Base ~25-30% ventas) eleva la calidad."
+  },
+  "R2": {
+   "score": 2,
+   "just": "Industria en crecimiento secular monstruoso: la litografia avanzada es el cuello de botella fisico de toda la IA/computacion; demanda EUV vinculada a fabs de TSMC/Intel/Samsung con guia FY26 elevada a EUR 36-40B (+15.6% organico FY25)."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Monopolio absoluto en EUV (~100% cuota) y #1 indiscutido en litografia avanzada; deja a Nikon/Canon a anios-luz, ningun competidor puede fabricar una maquina High-NA."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat irreplicable en decadas: ecosistema EUV (Zeiss optica, ~5,000 proveedores, decadas de I+D, secreto industrial y barreras de capital); imposible de copiar sin la cadena de suministro completa."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento esencialmente 100% organico (+15.6% FY25), sin M&A destructora; ventas EUR 32.7B desde EUR 28.3B por demanda real de capacidad, no por adquisiciones."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Multi-geografia (Taiwan/Corea/China/EE.UU.) pero base de clientes muy concentrada estructuralmente (TSMC/Samsung/Intel) con TSMC tipicamente >15%; riesgo de concentracion de clientes inherente a la industria."
+  },
+  "R7": {
+   "score": 2,
+   "just": "ROIC excepcional ~67.8% FY25 muy por encima del WACC, FCF/NI sano (~EUR 11B FCF vs EUR 9.6B neto, >100%), capex bajo (~EUR 1.6B PP&E) pese a ser fabricante de capital intensivo."
+  },
+  "R8": {
+   "score": 2,
+   "just": "Balance fortaleza: caja neta ~EUR 8-9B (net_debt USD ~-9.2B), nd_ebitda ~-0.7x; sin apalancamiento, posicion de caja neta."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "Contabilidad limpia: SBC verificada solo 0.66% de ingresos y ~1.96% del FCF (muy por debajo del umbral 15%), tipico de europea sin dilucion tech-US; ROIC y FCF auditados y consistentes (20-F)."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Gestion disciplinada: asignacion de capital sensata (buybacks + dividendos sostenibles, sin M&A destructora), guia conservadora luego elevada; gobierno corporativo solido aunque skin-in-the-game de insiders modesto."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1+R3+R4 se refuerzan de forma monstruosa: el monopolio EUV (~100% cuota, R3=2.0) ES el moat irreplicable (R4=2.0, ecosistema Zeiss + decadas de I+D + cadena de ~5,000 proveedores) y ESE moat genera el apalancamiento operativo escalable (R1) con ROIC ~67.8%. Es un caso de circulo virtuoso: nadie mas puede fabricar la maquina que la IA necesita, lo que convierte el liderazgo en un peaje sobre todo el avance de semiconductores avanzados durante decadas.",
+ "moat_type": "Intangibles / escasez tecnologica",
+ "moat_one_line": "Monopolio de facto en litografia EUV/High-NA sostenido por un ecosistema de optica Zeiss, ~5,000 proveedores y decadas de I+D acumulada que ningun competidor puede replicar en decadas.",
+ "thesis_3lines": [
+  "Calidad excepcional: monopolio EUV (~100% cuota) con ROIC ~67.8%, op margin 34.6%, caja neta y SBC irrelevante (1.96% del FCF) — un negocio sin par estructural.",
+  "Motor de crecimiento: peaje obligatorio sobre toda la litografia avanzada que la IA exige, con guia FY26 elevada a EUR 36-40B y backlog vinculado a fabs de TSMC/Intel/Samsung.",
+  "Valoracion/retorno: fwd P/E ~48.8x (+22% sobre proxy historico ~40x) en maximos historicos — calidad premium pero precio exigente que limita el margen de seguridad hoy."
+ ],
+ "bear_case_strongest": "La accion cotiza a fwd P/E ~48.8x en maximos historicos descontando un superciclo de IA perpetuo, mientras la concentracion extrema de clientes (TSMC/Samsung/Intel), la ciclicidad inherente del capex de semiconductores y el riesgo geopolitico de exportaciones a China pueden provocar una caida de pedidos abrupta no descontada en el precio.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Score total re-puntuado: R1(1.5)+R2(2.0)+R3(2.0)+R4(2.0)+R5(1.5)+R6(1.0)+R7(2.0)+R8(2.0)+R9(1.5)+R10(1.5) = 17.0/20 bruto. Negocio de calidad excepcional (monopolio EUV irreplicable, ROIC ~67.8%, caja neta, SBC verificada irrelevante a 1.96% del FCF -> R9 sin penalizacion). Unica regla por debajo de base es R6 (concentracion estructural de clientes TSMC/Samsung/Intel, TSMC tipicamente >15%). Riesgo principal NO es la calidad sino la VALORACION: fwd P/E ~48.8x (+22% vs proxy ~40x) en maximos historicos (-1.5% del ATH, not_depressed), descontando superciclo IA. Datos de precio/valoracion marcados ESTIMADO (agregadores, no IR); fwd_pe_5y_avg es proxy trailing debil. AMPLIFICACION confirmada por refuerzo monstruoso R1+R3+R4."
+}

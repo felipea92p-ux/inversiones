@@ -1,0 +1,59 @@
+{
+ "ticker": "SNPS",
+ "name": "Synopsys, Inc.",
+ "rules": {
+  "R1": {
+   "score": 2,
+   "just": "Software/EDA puro: licencias y subscripciones de altisimo margen incremental que escalan sin capital; modelo monstruosamente escalable."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "EDA + IP en crecimiento secular estructural (complejidad de chips, IA, multiplicacion de disenos); con Ansys anade simulacion multifisica, viento de cola durable."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Lider #1 indiscutido en EDA junto a Cadence en un duopolio de facto; tras Ansys deja al resto a anios-luz en suite completa."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat casi irreplicable: costes de cambio extremos (flujos de diseno integrados en foundries/clientes), IP propietaria, decadas de R&D y relaciones con TSMC/fabs."
+  },
+  "R5": {
+   "score": 0.5,
+   "just": "+41.9% YoY esta inflado por Ansys (cerrado jul-2025); el crecimiento organico real es ~mid-teens y la tesis ahora depende de una mega-adquisicion de ~$35B, penaliza fuerte."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Multi-geografia y multi-cliente sin >10-15% individual, pero concentracion en semis y exposicion China (~22% caida FY25 por restricciones export) limitan la diversificacion real."
+  },
+  "R7": {
+   "score": 1,
+   "just": "ROIC historicamente alto y capex bajo (~$89.5M H1, software), pero ROIC/FCF margin no limpios post-Ansys y FCF/NI distorsionado por amortizacion de intangibles; base de calidad pero no verificable ahora."
+  },
+  "R8": {
+   "score": 0.5,
+   "just": "Ya NO es caja neta: deuda neta ~$7.5B y ND/EBITDA ~2.0x tras financiar Ansys; en el limite de la regla, balance debilitado vs perfil historico."
+  },
+  "R9": {
+   "score": 0,
+   "just": "REGLA DURA: SBC verificada = 34.5% del FCF (>25%) -> R9=0.0; SBC 10.3% de ingresos diluye al accionista de forma material."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Gestion competente y franquicia bien dirigida, pero la apuesta Ansys de ~$35B con ~$10B de deuda es asignacion de capital agresiva (M&A grande, no buybacks oportunistas); riesgo de integracion pendiente."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (modelo software escalable, 2.0) + R3 (liderazgo duopolio EDA #1, 2.0) + R4 (moat de costes de cambio e IP casi irreplicable, 2.0) se refuerzan monstruosamente: el liderazgo cimenta el moat, el moat sostiene margenes incrementales, y la escalabilidad financia el R&D que perpetua el liderazgo. Franquicia de calidad excepcional.",
+ "moat_type": "costes de cambio + intangibles",
+ "moat_one_line": "Duopolio EDA con costes de cambio extremos: los flujos de diseno de Synopsys estan incrustados en cada foundry y cliente de semis, respaldados por decadas de R&D e IP propietaria practicamente irreplicable.",
+ "thesis_3lines": [
+  "Calidad: franquicia de software de calidad excepcional, duopolio EDA con costes de cambio extremos, margenes incrementales altos y moat de IP casi irreplicable (R1+R3+R4 amplificados).",
+  "Motor: complejidad creciente de chips, IA y la integracion de Ansys expanden el TAM hacia simulacion multifisica, sosteniendo crecimiento secular durable mas alla del ciclo de semis.",
+  "Valoracion/retorno: a 31.5x fwd (-13.5% vs media 5a de 36.4x, PEG 1.2) cotiza con descuento razonable tras caer ~29% del ATH, pero la SBC al 34.5% del FCF y la deuda Ansys (~$7.5B) recortan el retorno neto al accionista."
+ ],
+ "bear_case_strongest": "La adquisicion de Ansys (~$35B, ~$10B de deuda) infla el crecimiento reportado (+41.9%) mientras el organico se desacelera, China cae ~22% por restricciones de exportacion y el segmento IP retrocede -6%, de modo que el inversor paga 31x por una tesis ahora dependiente de ejecutar una mega-integracion con balance apalancado y SBC que consume mas de un tercio del FCF.",
+ "sbc_flag": "sbc_gt_25_fcf",
+ "ethical_flag": "none",
+ "notes": "Total ponderado re-score = 11.5/13.5 (R1 2.0, R2 1.5, R3 2.0, R4 2.0, R5 0.5, R6 1.0, R7 1.0, R8 0.5, R9 0.0, R10 1.0), bajando desde el preliminar 12.5 de FASE 1. Los recortes clave vienen de datos verificados: (1) R9=0.0 por REGLA DURA de SBC (34.5% del FCF, >25%); (2) R8 a 0.5 porque ya NO es caja neta -deuda neta ~$7.5B, ND/EBITDA ~2.0x- tras financiar Ansys; (3) R5 a 0.5 porque el +41.9% YoY es M&A-driven (Ansys cerrado jul-2025), no organico. La calidad nucleo (R1/R3/R4 todos en 2.0, amplificacion=true) permanece intacta: duopolio EDA con moat irreplicable. Valoracion atractiva (31.5x vs 36.4x media, PEG 1.2, -29% del ATH) pero la tesis carga riesgo de integracion Ansys, headwinds de China y dilucion por SBC. last_fy ROIC/organic/fcf_margin nulos post-Ansys -> R7 calificado conservadoramente en 1.0 sin verificacion limpia. data_quality MIXED."
+}

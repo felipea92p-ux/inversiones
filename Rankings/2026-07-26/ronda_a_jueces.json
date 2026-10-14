@@ -1,0 +1,1574 @@
+[
+ {
+  "juez": "A1",
+  "resultado": {
+   "ranking": [
+    {
+     "puesto": 1,
+     "ticker": "RMS.PA",
+     "razon": "Escasez fabricada: la capacidad artesanal de cuero crece ~6-7% anual por decisión propia y la demanda excede la oferta; ninguna tecnología sustituye un objeto cuyo valor ES el racionamiento de unidades.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 2,
+     "ticker": "MSFT",
+     "razon": "Triple candado empresarial —identidad (Entra), gravedad de datos M365 y contrato E5— que se renueva vía procurement y no vía preferencia; único con pista para colocar >$100B/año, aunque el capex de IA es la incógnita del ROIC incremental.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 3,
+     "ticker": "ASML",
+     "razon": "Monopolio físico de EUV con 30 años de cadena de suministro acumulada, y ya un tercio de ingresos en servicio/upgrades sobre base instalada = anualidad; el lastre es que sus clientes son tres.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 4,
+     "ticker": "GOOGL",
+     "razon": "Mantiene ~90% de share con el ingreso publicitario creciendo doble dígito y AI Mode ya monetizado: la IA generativa le amplió la superficie en vez de quitársela, y controla distribución (Android/Chrome) y su propio cómputo (TPU).",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 5,
+     "ticker": "MA",
+     "razon": "Red de cuatro partes: nadie reconstruye emisores + aceptación + tokenización a la vez; el mix cross-border y los value-added services le dan unidades reales. Vector de erosión: rieles A2A y stablecoins.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 6,
+     "ticker": "V",
+     "razon": "Mismo mecanismo con más escala y ubicuidad en débito, pero a cambio más exposición a topes de interchange y a Pix/UPI/FedNow que Mastercard.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 7,
+     "ticker": "CSU.TO",
+     "razon": "Motor de reinversión demostrado y no diluido: hurdle 20/25/30% confirmado intacto y ~$1.6B desplegados en un solo trimestre sobre más de mil negocios de software vertical de bajo ticket y alto coste de cambio.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 8,
+     "ticker": "AMZN",
+     "razon": "La gravedad de datos y el IAM de AWS hacen prohibitiva la salida, y la publicidad de intención de compra es lo que financia la red logística; segunda mejor capacidad de despliegue de capital del universo.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 9,
+     "ticker": "SPGI",
+     "razon": "Tres estándares bendecidos por norma dentro de una sola empresa: la calificación exigida por mandato, el índice S&P 500 como royalty sobre la gestión pasiva, y los benchmarks Platts del crudo.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 10,
+     "ticker": "CME",
+     "razon": "Open interest más compensación de márgenes cruzados en cámara propia: mover un contrato a otro venue significa perder el netting, y por eso el ataque de FMX a los futuros del Tesoro no movió la aguja.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 11,
+     "ticker": "AAPL",
+     "razon": "2.400M de dispositivos atados por emparejamiento de hardware, iCloud y grafo social; lo que está en riesgo no es el hardware sino la renta del App Store, bajo asedio regulatorio, y llega tarde a la IA (paga a Google por Siri).",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 12,
+     "ticker": "CDNS",
+     "razon": "Sus flujos están cualificados dentro del PDK de cada fundición y los ingenieros se forman sobre ellos: 20 años de inversión hundida por cliente, y la IA multiplica número y complejidad de diseños.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 13,
+     "ticker": "ICE",
+     "razon": "El open interest del complejo Brent es inatacable y los datos de renta fija son anualidad; lo que le baja la nota es la pata hipotecaria (Black Knight), cíclica y comprada cara.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 14,
+     "ticker": "MSCI",
+     "razon": "El índice está escrito dentro del mandato de gestión: cambiarlo obliga a repapelar contratos con el cliente final. En contra, BlackRock pesa demasiado y la comisión es apalancada al nivel del mercado.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 15,
+     "ticker": "TSM",
+     "razon": "Liderazgo de proceso más ecosistema de IP y EDA cualificado le dan el mayor poder de precio de su historia; queda 15 y no 5 únicamente porque todo ello está sobre una sola isla.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 16,
+     "ticker": "ISRG",
+     "razon": "Base instalada, cirujanos formados y consumible por procedimiento con crecimiento de unidades de doble dígito; baja del top-10 porque Ottava (FDA, jul-2026) y Hugo acaban de romper el monopolio en tejido blando.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 17,
+     "ticker": "REL.L",
+     "razon": "La división Risk vive de datos propietarios de seguros e identidad que la IA generativa no puede sintetizar, y financia la transición de Legal y STM, que sí son campo de batalla.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 18,
+     "ticker": "NOW",
+     "razon": "Es el CMDB y el sistema de registro del flujo de trabajo empresarial, y el cliente construye aplicaciones propias encima; la duda es si el precio por asiento sobrevive a los agentes autónomos.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 19,
+     "ticker": "WKL.AS",
+     "razon": "UpToDate en el punto de decisión clínica y el software fiscal obligatorio: el gasto es por mandato regulatorio, no por preferencia, con asignación de capital consistente durante una década.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 20,
+     "ticker": "TYL",
+     "razon": "Contratos gubernamentales de ~20 años con retención cercana al 98% y pagos adosados a cada transacción; ningún condado cambia el sistema de tribunales. El techo es que el número de condados es fijo.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 21,
+     "ticker": "VRSK",
+     "razon": "Consorcio cerrado: las aseguradoras le entregan sus propios datos de siniestros y se los recompran agregados, y sus formularios ISO son el texto de póliza registrado ante el regulador. Crece por precio, no por unidades.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 22,
+     "ticker": "IDXX",
+     "razon": "Analizador instalado, consumible propietario, software de la clínica y red de laboratorios: el veterinario queda cercado por cuatro lados a la vez, sobre una base de mascotas que no desaparece.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 23,
+     "ticker": "HOYCY",
+     "razon": "Dos cuellos de botella de ciencia de materiales —blancos de máscara EUV y sustrato de vidrio para HDD nearline, este último con segundo y tercer cliente entrando— más lentes oftálmicas; caja neta y recompras.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 24,
+     "ticker": "WST",
+     "razon": "El tapón elastomérico está escrito en el expediente regulatorio del fármaco: cambiarlo obliga a revalidar y re-presentar ante la agencia. Las unidades vienen del volumen de inyectables (biológicos, GLP-1).",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 25,
+     "ticker": "VEEV",
+     "razon": "Vault es sistema validado GxP: sustituirlo implica revalidar procesos ante la FDA. En contra, pocos clientes muy grandes y el contraataque de Salesforce/IQVIA tras el fin del acuerdo original.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 26,
+     "ticker": "SNPS",
+     "razon": "La otra mitad del duopolio EDA con idéntico mecanismo que Cadence; queda por debajo por el goodwill y el apalancamiento de Ansys y por los tropiezos de ejecución posteriores.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 27,
+     "ticker": "INTU",
+     "razon": "Libros, nómina y cobros de la pyme viven dentro de QuickBooks y el canal contable lo refuerza; la declaración fiscal es hábito más arrastre de datos. En contra, Mailchimp fue mal capital y el fisco es un regulador con voluntad propia.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 28,
+     "ticker": "DSY.MI",
+     "razon": "El dato de ingeniería de un programa de 30 años (avión, coche) vive dentro de su PLM y la continuidad documental es el coste de cambio; la periferia (SOLIDWORKS, Medidata) sí está filtrando.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 29,
+     "ticker": "CLPBY",
+     "razon": "Consumible de por vida ajustado al cuerpo del paciente y enseñado por enfermería: abandono estructuralmente mínimo y demografía que aporta unidades. En contra, licitaciones de reembolso y el precio pagado por Kerecis.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 30,
+     "ticker": "TMO",
+     "razon": "El consumible está validado dentro del proceso GMP del cliente y el canal Fisher da alcance; escala única en una industria fragmentada. En contra, goodwill acumulado y ciclo de financiación pharma/academia.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 31,
+     "ticker": "NVDA",
+     "razon": "CUDA y la integración a nivel de sistema (NVLink, red) son foso real, pero queda aquí porque un puñado de clientes concentra los ingresos y todos ellos están fabricando su propio silicio de inferencia.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 32,
+     "ticker": "ZTS",
+     "razon": "Canal veterinario y marca sin el precipicio de genéricos de la farma humana; el riesgo es la concentración del beneficio en la franquicia dermatológica y la entrada directa de Elanco.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 33,
+     "ticker": "NFLX",
+     "razon": "Escala de producción global, hábito y recomendación lo convierten en el servicio por defecto; en contra, su reinversión es una cinta de contenido de retorno incierto y compite por atención con vídeo corto gratuito.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 34,
+     "ticker": "AVGO",
+     "razon": "ASIC a medida para hiperescaladores y silicio de red dominante; la pata VMware es extracción de renta sobre una base instalada que se erosiona con cada renovación, y la concentración de clientes es extrema.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 35,
+     "ticker": "MTD",
+     "razon": "Base instalada más servicio de calibración exigido por norma y disciplina de precio excepcional; el crecimiento es precio y recompra, no unidades — motor de reinversión pequeño.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 36,
+     "ticker": "BKNG",
+     "razon": "Amplitud de oferta europea y conectividad directa con la propiedad, más la mejor asignación de capital del internet de consumo; la demanda se la alquila a Google y ahí exactamente es donde pega el agente de IA.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 37,
+     "ticker": "MELI",
+     "razon": "Densidad logística propia y Mercado Pago en el mismo bolsillo: replicarlo en LatAm cuesta una década, y reinvierte a tasas altas. En contra, una sola región, FX y un libro de crédito que lo va convirtiendo en banco.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 38,
+     "ticker": "EFX",
+     "razon": "The Work Number es un dato de nómina que nadie más puede reunir; además es coaccionista de VantageScore, así que la apertura de FHFA que golpea el estándar FICO juega a su favor.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 39,
+     "ticker": "TOI.V",
+     "razon": "Mismo motor que Constellation sobre una base europea mucho menor, es decir más pista para reinvertir a tasas altas; en contra, menos historial propio y gobernanza enredada con la matriz.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 40,
+     "ticker": "DSG.TO",
+     "razon": "Red multi-lado de transportistas, agentes y aduanas más contenido de cumplimiento (screening, aranceles) que se consume por obligación legal; adquirente disciplinado con caja neta.",
+     "confianza": "BAJA"
+    }
+   ],
+   "descartadas_del_top": [
+    "DETERIORO YA EN CURSO, NO RIESGO FUTURO — NVO (Lilly lidera con Zepbound y orforglipron, Novo se prepara para caída en 2026, genéricos de semaglutida inundando India y precio por mes colapsando: el duopolio se está comoditizando), EL (el mecanismo era travel retail chino y grandes almacenes, y ese canal se rompió), ALGN (volumen de casos estancado, competencia de Angelalign y decenas de marcas tras el vencimiento de patentes), SOON (Apple metió audífono en los AirPods: el canal audiológico deja de ser la única puerta), FDS (tercero detrás de Bloomberg con ASV desacelerando en un producto que la IA generativa replica mejor que nadie).",
+    "EL MODELO DE PRECIO ES LO QUE ATACA LA IA GENERATIVA, SIN DATO PROPIETARIO QUE LO PROTEJA — ACN (factura pirámide de horas por trabajo que el modelo hace), ADBE (Canva, Midjourney y los modelos nativos atacan por arriba y por abajo; Document Cloud aguanta, Creative es donde está el beneficio), CRM (asiento por vendedor y por agente de soporte justo cuando el agente deja de ser humano, con Slack/Tableau/MuleSoft/Informatica enterrados en goodwill), DUOL (el DAU pasó de +40% a +21%, la dirección pivotó a 'año de inversión' y un LLM gratuito es un tutor infinitamente paciente).",
+    "EL ESTÁNDAR SE LO ACABA DE ABRIR UN REGULADOR — FICO: todo el crecimiento de Scores era subir el precio del pull hipotecario sobre una base plana, y FHFA/FHA ya admiten VantageScore 4.0, que Equifax vende a $4,50 frente a $10. El foso existe pero quien lo cavó puede rellenarlo.",
+    "MECANISMO REAL MEZCLADO CON UNA PATA GRANDE SIN FOSO — LSEG.L (LCH SwapClear es tan monopolio como CME, pero la mayoría del ingreso es Workspace/Refinitiv perdiendo cuota frente a Bloomberg y expuesto a IA), DB1.DE (Clearstream y Eurex son infraestructura genuina; ISS y SimCorp se pagaron caros y el crecimiento es bajo), NDAQ (Adenza metió deuda y goodwill sobre una franquicia de listings cíclica), ENX.PA (el trading de acciones europeo es disputable por Cboe Europe y los internalizadores: no hay open interest que retenga).",
+    "MERCADO COMPETITIVO SIN MONOPOLIO NI EFECTO RED PROPIO — ADYEN.AS (plataforma única bien construida, pero guerra abierta con Stripe y compresión estructural del take rate), WISE.L (su estrategia es bajar el precio hasta cero por diseño; eso da cuota, no retorno duradero), PANW (Microsoft regala seguridad dentro del E5 y CyberArk es una apuesta de goodwill enorme en la categoría más competida del software), SE (Shopee contra TikTok Shop y Temu, más Garena, que es negocio de éxitos), EXPE (marcas fragmentadas y dependencia de Google, perdedor de cuota estructural), ABNB (oferta única y tráfico directo real, pero el regulador municipal decide su oferta ciudad por ciudad), SPOT (el usuario no se va, pero tres discográficas se quedan ~70% del ingreso: el cliente está atado y el proveedor manda).",
+    "FOSO GENUINO PERO TECHO, TAMAÑO O CONCENTRACIÓN QUE LO DEJAN FUERA POR ESTRECHO MARGEN — 4684.T (márgenes y caja extraordinarios, pero un solo país que se encoge y capital ocioso), SPSC (la red EDI retailer-proveedor es efecto red auténtico, sobre tecnología arcaica), MANH (el WMS es el sistema nervioso del centro de distribución, pero un solo producto y servicios cíclicos), KXS.TO (buen producto de planificación contra Blue Yonder, o9 y SAP IBP), LMN.TO (playbook Constellation aplicado a software de telecom y medios, un mercado final que encoge), NEM.DE (Bluebeam es dominante, el resto son segundos regionales frente a Revit), PTC (tercero en CAD y con ThingWorx/Vuforia como capital mal asignado), STMN.SW (el implante colocado es una anualidad de 20 años, pero VBP en China y gasto discrecional), SRT3.DE (el consumible validado es de los mejores mecanismos del universo; Polyplus a múltiplos de pico fue un error de asignación que aún pesa), SGSN.SW y BVI.PA (acreditación y red de laboratorios son duraderas, pero es negocio intensivo en activos que crece comprando y con retornos medios), CHKP (base instalada muy rentable pero perdiendo cuota una década y sin reinvertir)."
+   ],
+   "nota_metodologica": "Ordené por comparación par a par en la frontera, sin puntos ni notas, y sin mirar precio en ningún momento. Tres cosas me costaron de verdad. (1) EL COHORTE DE SOFTWARE POR ASIENTO: NOW, CRM, INTU, ADBE y VEEV se juegan lo mismo —si el agente autónomo elimina el asiento— y apliqué un único test para no ser arbitrario: sobrevive quien posee un dato propietario o un sistema de registro validado por un regulador (VEEV, INTU, NOW), cae quien vende la herramienta cuyo output el modelo ya produce (ADBE, CRM). Ese test es una hipótesis, no un hecho, y si es falso el bloque 18-27 se reordena entero. (2) ISRG: bajó de candidata a top-5 a puesto 16 por un solo dato de esta semana (autorización FDA de Ottava, con Hugo ya despejado en 2025). Una sola noticia moviendo diez puestos es exactamente el tipo de movimiento del que hay que desconfiar; puede que esté sobrerreaccionando, porque la base instalada, la formación de cirujanos y el consumible siguen intactos. (3) COLOQUÉ BAJO A LOS GANADORES DE LA IA (NVDA 31, AVGO 34, TSM 15) A PROPÓSITO: el criterio penaliza explícitamente concentración de cliente, de geografía y de una sola tecnología, y son los tres los que peor puntúan ahí; si se pondera menos la concentración, los tres suben mucho. DONDE MI ORDEN ES MÁS FRÁGIL: el tramo 27-40 es ruido — INTU, TMO, ZTS, MTD, BKNG, MELI, EFX, TOI y DSG son intercambiables entre sí y con las primeras descartadas (FICO, LSEG, DB1, MANH, SPSC, 4684.T, ADYEN); no defendería ninguna de esas posiciones al puesto exacto. La exclusión más discutible es NVO: sigue siendo uno de dos jugadores con capacidad de fabricación en un mercado que irá a >$120B, y si el precio se estabiliza en vez de colapsar, entra al top-25. También es frágil GOOGL en el 4: descansa en una tendencia de monetización de AI Mode que tiene apenas un año de historia. ADVERTENCIAS DE DATO: CLPBY lo identifiqué como Coloplast (ADR danés de ostomía/continencia), no como una utility; DSY.MI no resuelve a ningún emisor de Milán y lo he tratado como Dassault Systèmes por ser el único encaje del universo — si es otra empresa, ese puesto 28 no vale. Esto es una ordenación de calidad de negocio, no una recomendación de inversión ni un consejo financiero personalizado."
+  }
+ },
+ {
+  "juez": "A2",
+  "resultado": {
+   "ranking": [
+    {
+     "puesto": 1,
+     "ticker": "MA",
+     "razon": "Red de dos lados donde el volumen crece por desplazamiento del efectivo, no por subir precio: emisores y comercios no pueden irse por separado.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 2,
+     "ticker": "V",
+     "razon": "El mismo riel con más escala, pero con el débito estadounidense como blanco directo de reguladores y del DOJ.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 3,
+     "ticker": "MSFT",
+     "razon": "Identidad, datos y contratos empresariales atados en un mismo asiento (M365+Azure+Entra); la IA se vende sobre el cliente que ya paga.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 4,
+     "ticker": "RMS.PA",
+     "razon": "La oferta crece solo al ritmo de artesanos formados, así que el precio sube todos los años sin destruir demanda ni recurrir a descuento.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 5,
+     "ticker": "SPGI",
+     "razon": "Duopolio de rating incrustado en mandatos regulatorios más regalía sobre el AUM indexado a S&P; dos peajes independientes en una sola caja.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 6,
+     "ticker": "ASML",
+     "razon": "Único proveedor de EUV/High-NA: todo nodo de vanguardia pasa por su máquina, aunque el cliente sean tres empresas y el ciclo mande el timing.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 7,
+     "ticker": "GOOGL",
+     "razon": "Distribución (Chrome, Android, YouTube) más silicio propio (TPU) para servir el modelo; la IA le amplifica el coste y le ataca el formato a la vez.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 8,
+     "ticker": "ISRG",
+     "razon": "Base instalada de da Vinci + cirujanos formados en su ergonomía + instrumentos consumibles por procedimiento: el crecimiento es de unidades (procedimientos), no de precio.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 9,
+     "ticker": "AAPL",
+     "razon": "Coste de salida del ecosistema (iMessage, iCloud, Watch, compras) que convierte 2.400M de dispositivos en una anualidad de servicios.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 10,
+     "ticker": "CME",
+     "razon": "El interés abierto vive en una sola cámara: partir la liquidez cuesta margen al usuario, por eso los retadores mutualizados fracasan.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 11,
+     "ticker": "MSCI",
+     "razon": "Licencia cobrada como porcentaje del AUM que replica su índice; el benchmark ES el mandato del cliente, cambiarlo requiere reescribir contratos.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 12,
+     "ticker": "TSM",
+     "razon": "Liderazgo de proceso con co-diseño de cliente y escala de capex que nadie iguala; toda la tesis cuelga de una isla.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 13,
+     "ticker": "CDNS",
+     "razon": "Duopolio EDA: la cadena de herramientas y los PDK certificados por fundición atan el diseño; más chips de IA = más licencias.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 14,
+     "ticker": "SNPS",
+     "razon": "El mismo duopolio con más cartera de IP, pero con la digestión de Ansys y el control de exportación a China como fricción propia.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 15,
+     "ticker": "AMZN",
+     "razon": "AWS más publicidad sobre intención de compra propia más densidad logística: el mayor motor de reinversión del universo, con ROIC mixto entre patas.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 16,
+     "ticker": "TYL",
+     "razon": "Sistemas de juzgados, seguridad pública y catastro que un condado cambia una vez por generación; el cliente no quiebra ni desaparece.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 17,
+     "ticker": "CSU.TO",
+     "razon": "El moat es la máquina de asignación: redespliega todo el FCF en software vertical con retención >95% a tasa de retorno exigida, aunque el tamaño ya la empuja a operaciones mayores.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 18,
+     "ticker": "REL.L",
+     "razon": "Datos propietarios (revistas Elsevier, ficheros LexisNexis Risk) vendidos como analítica dentro del flujo de trabajo que ya controla.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 19,
+     "ticker": "VEEV",
+     "razon": "Sistemas de registro validados bajo GxP: sustituirlos no es un proyecto de TI sino una revalidación regulatoria ante la FDA.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 20,
+     "ticker": "ICE",
+     "razon": "Bolsa más cámara más precios de renta fija que no existen fuera de ella; la pata hipotecaria es la parte cíclica y débil.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 21,
+     "ticker": "NVDA",
+     "razon": "CUDA más integración a nivel de rack (NVLink) fija al desarrollador, pero cuatro clientes son más de la mitad de la venta y todos financian su propio silicio.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 22,
+     "ticker": "VRSK",
+     "razon": "Pool de datos contribuido por las propias aseguradoras que luego lo compran: irreplicable, pero el crecimiento es precio sobre una base de clientes que no crece.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 23,
+     "ticker": "IDXX",
+     "razon": "Analizadores colocados en la clínica que solo consumen su reactivo, más red de laboratorios de referencia y fuerza de venta directa al veterinario.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 24,
+     "ticker": "WST",
+     "razon": "Sus tapones y émbolos están escritos en el dossier del fármaco: cambiar de proveedor obliga a re-presentar el expediente ante el regulador.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 25,
+     "ticker": "NOW",
+     "razon": "Sistema de registro del flujo de trabajo con renovación ~98% y expansión por módulos; el riesgo real es que el agente reduzca asientos facturables.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 26,
+     "ticker": "FICO",
+     "razon": "El score está incrustado por contrato y por norma en la originación estadounidense, pero el crecimiento es puro precio y la FHFA ya abrió la puerta a VantageScore.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 27,
+     "ticker": "CLPBY",
+     "razon": "El paciente ostomizado se ajusta a un producto y no vuelve a cambiarlo; consumible reembolsado de por vida, empañado por la asignación de capital en Kerecis.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 28,
+     "ticker": "HOYCY",
+     "razon": "Cuasi-monopolio en blanks de máscara EUV más duopolio de lentes oftálmicas: dos cuellos de botella físicos en la misma empresa.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 29,
+     "ticker": "AVGO",
+     "razon": "ASIC de IA co-diseñados con dos o tres hiperescaladores y trinquete de precio en VMware: asignador de capital excepcional sobre una base que no crece en unidades.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 30,
+     "ticker": "LSEG.L",
+     "razon": "SwapClear concentra la compensación de swaps por efecto red y FTSE Russell cobra sobre AUM; el terminal Refinitiv es la pata expuesta a la IA.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 31,
+     "ticker": "ZTS",
+     "razon": "Marca y canal veterinario sin sustitución genérica real, pero con ciclo de producto vivo (seguridad de Librela, competencia en parasiticidas).",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 32,
+     "ticker": "DB1.DE",
+     "razon": "Eurex y Clearstream retienen la compensación en euros por diseño regulatorio; la deriva es la compra de datos y software con goodwill.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 33,
+     "ticker": "MANH",
+     "razon": "Ejecuta la operación física del almacén: quitarlo detiene el envío, por eso la sustitución casi no ocurre fuera de una fusión.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 34,
+     "ticker": "BKNG",
+     "razon": "La mayor bolsa de oferta hotelera con tráfico directo por app, pero paga peaje a Google y la reserva agéntica es una pregunta abierta de la década.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 35,
+     "ticker": "NFLX",
+     "razon": "Amortiza contenido sobre 300M+ de hogares, coste por hora que ningún rival iguala; el enganche es hábito, no coste de cambio.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 36,
+     "ticker": "SPSC",
+     "razon": "Red EDI donde el minorista obliga al proveedor a conectarse: la red recluta a sus propios clientes y la retención supera el 100%.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 37,
+     "ticker": "MTD",
+     "razon": "Base instalada de instrumentos con calibración obligatoria por norma farmacéutica y alimentaria; el crecimiento lleva años siendo precio y mix.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 38,
+     "ticker": "DSG.TO",
+     "razon": "Red logística global de conexiones aduaneras y de transportistas donde cada nodo nuevo aumenta el valor para todos los demás.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 39,
+     "ticker": "INTU",
+     "razon": "Canal del contador y datos bancarios conectados atan al pyme a QuickBooks; TurboTax depende de que el fisco siga sin declarar por el contribuyente.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 40,
+     "ticker": "MELI",
+     "razon": "Densidad logística propia más Mercado Pago retroalimentándose: el mejor motor de reinversión del universo sobre la peor concentración macro, cambiaria y de crédito.",
+     "confianza": "BAJA"
+    }
+   ],
+   "descartadas_del_top": [
+    "ACN, ADBE, CRM, FDS — el trabajo que venden es exactamente lo que la IA generativa abarata: horas facturables, el acto creativo, el asiento de CRM y el terminal que revende datos ajenos.",
+    "DUOL, SPOT, ALGN, EL, EXPE — falta mecanismo de retención: hábito de app sin coste de cambio, contenido de tres discográficas que fijan el margen, aligner con competencia genérica, marcas de prestigio en pérdida de canal y OTA de segundo orden.",
+    "NVO — el motor de caja actual (semaglutida) pierde exclusividad dentro de la propia ventana de 10 años y ya cedió el liderazgo terapéutico; el juicio se pide a 2036, no a 2028.",
+    "TMO, SRT3.DE — franquicias de consumible reales, pero con ROIC apenas sobre el coste de capital tras el goodwill acumulado y demanda atada al ciclo de capex biofarma.",
+    "PANW, CHKP — la seguridad rota de proveedor con cada arquitectura nueva y Microsoft empaqueta gratis lo que ellos cobran.",
+    "BVI.PA, SGSN.SW — el moat de acreditación es real y la IA les es indiferente, pero es un negocio de personas y laboratorios con retorno medio y crecimiento de un dígito.",
+    "NDAQ, ENX.PA — bolsas sin la cámara dominante: el listing y la renta variable al contado sí compiten con MTF y venues alternativos.",
+    "EFX — oligopolio de buró con datos irreplicables (The Work Number), pero ciclo hipotecario, riesgo regulatorio del CFPB y competencia de APIs de nómina lo bajan del corte.",
+    "WKL.AS — el cumplimiento fiscal es pegajoso, pero UpToDate está bajo ataque frontal de asistentes clínicos de IA.",
+    "DSY.MI (Dassault Systèmes), PTC, NEM.DE, KXS.TO — software de ingeniería genuinamente incrustado, pero crecimiento estancado y competencia directa Siemens/Autodesk/SAP; ninguno domina su vertical como Cadence domina la suya.",
+    "TOI.V, LMN.TO — mismo modelo que Constellation con más pista por delante, fuera del corte solo por menos historial propio y por espacio, no por defecto del mecanismo.",
+    "4684.T (Obic) — margen operativo cercano al 60% y rotación casi nula, pero un solo país, un solo idioma y una caja que no se reinvierte ni se devuelve.",
+    "SOON.SW, STMN.SW — el canal del audioprotesista y del implantólogo se erosiona por OTC y por implantes de valor; la demografía no compensa la caída de precio.",
+    "ADYEN.AS, WISE.L — ambas tienen ventaja de coste estructural real, pero la tasa de comisión en pagos se comprime por diseño y compiten contra Stripe y contra stablecoins.",
+    "SE — escala en el sudeste asiático sin barrera: TikTok Shop demostró que la cuota se compra con subsidio."
+   ],
+   "nota_metodologica": "Lo más difícil fue NVDA: hoy es el mejor negocio del universo por retorno sobre capital y por bloqueo de desarrollador (CUDA + rack), pero el criterio pregunta por 2036 y cuatro clientes que financian su propio silicio son más de la mitad de la venta; el 21 es un promedio entre 'top 5' y 'fuera de los 40', y es la posición más frágil de la lista. Segundo, aplicar en serio el filtro de fragilidad IA saca a ADBE y ACN del top-40 pese a su caja actual — es la decisión con la que más incómodo estoy, porque Acrobat y el negocio de Experience de Adobe sí son duraderos y estoy castigando toda la empresa por su pata más expuesta. Tercero, el descuento a TSM es puramente geográfico: si se ignora Taiwán entraría en el top 5, así que su puesto es una opinión geopolítica disfrazada de opinión de negocio. Cuarto, la bandera de 'crecimiento por precio sobre base plana' es la que más reordena el tramo medio y hunde a FICO, VRSK, MTD y a la pata de infraestructura de AVGO; si esa bandera pesara menos, los cuatro subirían diez puestos. Donde el orden es más frágil: del 20 al 40 la resolución es esencialmente nula — no defendería un puesto concreto de nadie en esa banda, solo la pertenencia al grupo, y NFLX, BKNG, MELI e INTU podrían moverse quince puestos en cualquier dirección con un dato nuevo. Del 1 al 6 sí defiendo el conjunto, pero no el orden interno: MA/V/MSFT/RMS/SPGI/ASML son intercambiables entre sí. Nota de identificación: CLPBY es Coloplast (ADR danés), no una empresa de software como podría sugerir el ticker; DSY.MI lo interpreté como Dassault Systèmes — si fuera otra compañía, esa exclusión habría que rehacerla. Ningún ranking, score ni tier previo de este universo se consultó ni se usó."
+  }
+ },
+ {
+  "juez": "A3",
+  "resultado": {
+   "ranking": [
+    {
+     "puesto": 1,
+     "ticker": "RMS.PA",
+     "razon": "Escasez fabricada con control de la capacidad: el cuello de botella es el artesano formado durante años, no la demanda; crece en unidades abriendo talleres y ningún modelo de IA toca un Birkin.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 2,
+     "ticker": "V",
+     "razon": "Red de cuatro partes donde emisor, adquirente y comercio se refuerzan entre sí; cobra peaje sobre el consumo nominal con capital incremental casi nulo.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 3,
+     "ticker": "MA",
+     "razon": "El mismo raíl ya pagado que Visa, con más mezcla transfronteriza y servicios de valor añadido vendidos encima sin capital adicional.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 4,
+     "ticker": "MSFT",
+     "razon": "Identidad (Entra/AD) + formato Office + compromisos plurianuales de gasto en Azure: el coste de salida no es la licencia, es reconstruir la operación entera del cliente.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 5,
+     "ticker": "ASML",
+     "razon": "Monopolio de EUV sostenido por know-how acumulado y cadena de proveedores cautiva; sin su máquina no hay nodo avanzado, y High-NA alarga el foso otra década.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 6,
+     "ticker": "ISRG",
+     "razon": "Base instalada + cirujano entrenado en da Vinci + instrumental consumible por procedimiento: el crecimiento viene de unidades (procedimientos), no de subir precio.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 7,
+     "ticker": "GOOGL",
+     "razon": "Distribución propia (Android, Chrome) más modelo frontera y silicio propio: tiene la opción de canibalizarse a sí mismo en lugar de ser canibalizado.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 8,
+     "ticker": "AMZN",
+     "razon": "Gravedad del dato en AWS con compromisos plurianuales, más el bucle logística-Prime-publicidad que absorbe enormes reinversiones a retorno alto.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 9,
+     "ticker": "CDNS",
+     "razon": "Duopolio EDA cualificado dentro de los PDK de las fundiciones: cambiar de herramienta obliga a recalificar el chip, y la IA multiplica el número de diseños a hacer.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 10,
+     "ticker": "SNPS",
+     "razon": "La otra mitad del duopolio EDA, con bibliotecas de IP embebidas dentro del silicio del cliente; medio puesto de descuento por digerir Ansys y por China.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 11,
+     "ticker": "AAPL",
+     "razon": "Miles de millones de dispositivos con fotos, compras y mensajería atrapadas dentro; el riesgo real es que la capa de interfaz se desplace a un agente que Apple no controla.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 12,
+     "ticker": "SPGI",
+     "razon": "El emisor paga por ser calificado y no coloca deuda sin dos calificaciones: peaje sobre el stock mundial de deuda, más índices que cobran sobre activos.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 13,
+     "ticker": "CSU.TO",
+     "razon": "Cientos de monopolios verticales diminutos con retención altísima y la mejor máquina de despliegue de capital del universo; el freno es su propio tamaño, no el modelo.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 14,
+     "ticker": "MSCI",
+     "razon": "El índice es el contrato del mandato: cambiarlo rompe la continuidad del benchmark del cliente, y la comisión sobre activos capitaliza sola con el mercado.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 15,
+     "ticker": "ICE",
+     "razon": "Liquidez que atrae liquidez en derivados de energía, más compensación y datos de renta fija; la pata hipotecaria es opcionalidad, no el cimiento.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 16,
+     "ticker": "CME",
+     "razon": "El open interest y las compensaciones de margen del complejo de tipos hacen que mover un contrato a otra cámara cueste capital real; su límite es que apenas reinvierte.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 17,
+     "ticker": "REL.L",
+     "razon": "Datos propietarios embebidos en el flujo de trabajo legal, científico y de riesgo: vende IA sobre su propio corpus en vez de sufrirla desde fuera.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 18,
+     "ticker": "TYL",
+     "razon": "Software de juzgados, catastros y permisos con contratos a 10-20 años y rotación casi nula; ningún municipio reescribe su registro, y ahora cobra también el pago.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 19,
+     "ticker": "VEEV",
+     "razon": "Sistemas validados GxP: cambiar de proveedor obliga a revalidar ante la FDA, y desde el CRM ha colonizado clínico, calidad y seguridad del mismo cliente.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 20,
+     "ticker": "NOW",
+     "razon": "Sistema de registro de los flujos de TI con la CMDB como dato ancla y renovaciones cercanas al 98%; el precio por asiento es lo que el agente de IA presiona.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 21,
+     "ticker": "WKL.AS",
+     "razon": "Software fiscal, de auditoría y clínico donde equivocarse tiene consecuencia legal: el cliente no experimenta con proveedores, y el 80% de ingresos es recurrente.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 22,
+     "ticker": "TSM",
+     "razon": "Casi monopolio en nodos punteros con co-diseño del cliente y escala de capex irreplicable; baja puestos solo por concentración geográfica en Taiwán, no por el negocio.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 23,
+     "ticker": "IDXX",
+     "razon": "Analizadores colocados en la clínica veterinaria con consumibles propietarios y laboratorio de referencia detrás: el veterinario compra el resultado, no la máquina.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 24,
+     "ticker": "WST",
+     "razon": "Sus tapones y émbolos van escritos en el expediente regulatorio del fármaco: sustituirlos obliga a re-presentar ante la FDA, y los biológicos inyectables crecen en unidades.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 25,
+     "ticker": "HOYCY",
+     "razon": "Casi monopolio en blanks de máscara EUV —eslabón invisible sin sustituto cualificado— financiado por lentes oftálmicas y endoscopios con marca propia.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 26,
+     "ticker": "DSY.MI",
+     "razon": "CATIA y 3DEXPERIENCE viven dentro de programas aeronáuticos y de automoción de 20 años, con toda la cadena de proveedores obligada al mismo formato.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 27,
+     "ticker": "LSEG.L",
+     "razon": "SwapClear concentra la compensación de tipos y FTSE Russell cobra sobre activos; el lastre es el fondo de comercio de Refinitiv y una pata de datos más disputada.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 28,
+     "ticker": "VRSK",
+     "razon": "Base de datos contributiva de siniestros: las aseguradoras alimentan lo que nadie puede replicar; el techo es que el número de aseguradoras en EE.UU. no crece.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 29,
+     "ticker": "INTU",
+     "razon": "QuickBooks anclado en el contador que lleva la cuenta, con pagos y nómina encima; el riesgo es que la IA abarate justo la tarea (declarar, cuadrar) por la que cobra.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 30,
+     "ticker": "NVDA",
+     "razon": "CUDA más el sistema completo (NVLink, redes) es hoy insustituible, pero su cliente es media docena de hiperescalares que están diseñando su propio silicio.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 31,
+     "ticker": "ZTS",
+     "razon": "Fármacos de compañía recetados por el veterinario, sin la ola de genéricos de la farma humana; la franquicia de dermatología ya tiene competencia directa entrando.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 32,
+     "ticker": "BKNG",
+     "razon": "Inventario de oferta que ningún rival replica y disciplina de capital brutal, pero el tráfico sigue dependiendo de un buscador ajeno que está reescribiendo su interfaz.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 33,
+     "ticker": "AVGO",
+     "razon": "Co-diseño de ASIC con el hiperescalar más una cartera de software con precios impuestos; parte del crecimiento es precisamente subir precio a una base que no crece.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 34,
+     "ticker": "TOI.V",
+     "razon": "El modelo Constellation aplicado a nichos europeos con mucho sector público pegajoso; menos recorrido de despliegue y gobernanza con partes relacionadas.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 35,
+     "ticker": "NFLX",
+     "razon": "Coste de contenido amortizado sobre una base de hogares que ningún rival iguala; la retención es hábito y escala, no coste de cambio, y eso pesa a 10 años.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 36,
+     "ticker": "MELI",
+     "razon": "Logística propia + Mercado Pago + crédito forman un ecosistema que un entrante no compra con dinero; la contrapartida es riesgo macro, cambiario y de cartera crediticia.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 37,
+     "ticker": "CLPBY",
+     "razon": "El paciente crónico no cambia el producto que le ajusta al cuerpo y le reembolsan; unidades que crecen por demografía, con la presión de reembolso como techo.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 38,
+     "ticker": "4684.T",
+     "razon": "Venta directa de ERP a la empresa japonesa mediana sin integrador de por medio, margen operativo ~60% y rotación casi nula; el techo es un solo país.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 39,
+     "ticker": "ADBE",
+     "razon": "Acrobat controla un estándar de facto y Experience Cloud está dentro de la operación del cliente, pero la IA generativa ataca justo el valor de la herramienta creativa.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 40,
+     "ticker": "DB1.DE",
+     "razon": "Eurex acumula open interest en derivados en euros y Clearstream liquida y custodia: peaje regulado e indiferente a la IA, con crecimiento modesto.",
+     "confianza": "BAJA"
+    }
+   ],
+   "descartadas_del_top": [
+    "FICO — mecanismo de bloqueo potentísimo (la puntuación calibrada en toda la cadena de crédito), pero el crecimiento es 100% precio sobre una base plana y el propio regulador (FHFA/GSEs) acaba de abrir el canal hipotecario a VantageScore 4.0 a ~1 USD frente a los ~5 de FICO: erosión ya en marcha, no hipotética.",
+    "EFX — dato único en The Work Number, pero un solo regulador, ciclo hipotecario y un historial de brecha de seguridad concentran demasiado riesgo en pocas manos.",
+    "NVO — erosión activa por un competidor con mejor eficacia clínica, caducidad de semaglutida y negociación de precios Medicare dentro de la ventana de 10 años: es el caso de libro de retorno alto siendo atacado hoy.",
+    "TMO, MTD — franquicias reales (consumible y canal en Thermo, calibración y servicio en Mettler), pero el retorno sobre el capital total está diluido por M&A con fondo de comercio (TMO) o el crecimiento es esencialmente precio y recompras sobre unidades planas (MTD).",
+    "SGSN.SW, BVI.PA — demanda regulatoria e indiferencia a la IA a su favor, pero es red de laboratorios intensiva en personal, con precio por inspección competido y ejecución irregular (SGS).",
+    "SRT3.DE — el mecanismo es de los mejores (consumible de un solo uso validado en el proceso del fármaco), pero el M&A apalancado en el pico hundió el retorno sobre capital y la gestión aún no ha demostrado la reparación.",
+    "ACN — modelo de pirámide de horas facturables: es exactamente el trabajo que la IA generativa comprime, sin coste de cambio estructural que lo proteja.",
+    "FDS — agregar y presentar datos es la capa que la IA abarata primero; queda aplastada entre Bloomberg arriba y alternativas baratas abajo, con crecimiento de ASV ya de un dígito bajo.",
+    "CRM — nadie arranca Salesforce, pero la unidad de cobro (asiento) es justo lo que el agente ataca y el historial de adquisiciones ha enterrado mucho capital.",
+    "PANW, CHKP — en seguridad el foso se renueva cada ciclo de producto contra rivales muy capitalizados; Check Point conserva la caja pero lleva una década cediendo cuota.",
+    "ADYEN.AS — plataforma única bien construida, pero take rate decreciente con grandes comercios que renegocian y Stripe enfrente: el precio, no el cambio de proveedor, es la variable.",
+    "NDAQ, ENX.PA — bolsas menos protegidas que ICE/CME/DB1: Nasdaq depende de Adenza para crecer y carga su deuda; Euronext compite en efectivo contra Cboe Europe.",
+    "ABNB, EXPE — Airbnb tiene oferta genuinamente única pero riesgo regulatorio municipal recurrente y reintermediación por agentes; Expedia es la versión peor del modelo de Booking y más dependiente de Google.",
+    "SE, SPOT, WISE.L, DUOL — crecimiento alto sin mecanismo estructural de retención: Sea depende de un juego y de un mercado disputado; Spotify tiene tres discográficas como proveedor concentrado que le capa el margen; Wise crece bajando su propio precio por diseño; Duolingo compite donde la IA generativa abarata el contenido y la diferenciación es diseño de enganche.",
+    "MANH, KXS.TO, SPSC, DSG.TO, NEM.DE, PTC, LMN.TO — negocios buenos y pegajosos (red EDI, red aduanera, BIM, PLM, VMS de telecom) pero con un competidor mayor enfrente o un alcance demasiado estrecho para superar a los 40 elegidos en una comparación directa.",
+    "ALGN — el escudo de patentes ya pasó, el volumen de casos se estancó y entraron alineadores competidores: el retorno alto ya se está normalizando.",
+    "SOON.SW — el audífono premium vendido por audioprotesista se enfrenta a la entrada de la electrónica de consumo y del canal OTC en la misma función.",
+    "EL — el canal que sostenía las marcas (travel retail y grandes almacenes) se rompió y la cuota se fuga a marcas indie: el mecanismo de retención resultó ser distribución, no marca."
+   ],
+   "nota_metodologica": "Ordené por comparación directa por pares en la frontera, no por puntos. Lo más difícil: (1) el bloque 9-16, donde EDA (CDNS/SNPS), bolsas (ICE/CME) e índices/ratings (SPGI/MSCI) tienen mecanismos igual de fuertes pero motores de reinversión muy distintos — favorecí a quien puede colocar capital nuevo a retorno alto, lo que castiga a CME pese a que su bloqueo por open interest quizá sea el más férreo del universo; (2) TSM, que por negocio estaría en el top-8 y bajé a 22 solo por concentración geográfica, un juicio geopolítico, no empresarial; (3) NVDA y AVGO, donde el retorno actual es extraordinario pero la pregunta de 2036 depende de si media docena de clientes internaliza el silicio. Donde mi orden es más frágil: los puestos 29-40 son casi intercambiables entre sí y con los primeros descartados (FICO, EFX, MTD, TMO, ADYEN, SPSC, DSG); FICO es la exclusión más discutible — su mecanismo justificaría el top-25 y lo dejé fuera por evidencia de erosión regulatoria en curso, no por el foso. También asumo dos identificaciones de ticker: CLPBY = Coloplast y DSY.MI = Dassault Systèmes (verificadas). Sesgo que reconozco: penalizo con dureza el crecimiento vía precio sobre bases planas y la exposición directa a la IA generativa; si esa segunda amenaza resulta menos disruptiva de lo que supongo, ADBE, INTU, FDS, CRM y ACN están demasiado abajo."
+  }
+ },
+ {
+  "juez": "A4",
+  "resultado": {
+   "ranking": [
+    {
+     "puesto": 1,
+     "ticker": "RMS.PA",
+     "razon": "La lista de espera es el foso: la oferta se limita a mano (un artesano tarda ~18 meses en formarse), nunca hay descuento, y el precio sube cada año sin perder clientes; ninguna tecnología ni regulador toca ese mecanismo.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 2,
+     "ticker": "MSFT",
+     "razon": "Identidad (Entra), datos (Graph/M365) y Azure encadenados: el coste de salir no es el software, es reconstruir la gobernanza entera de la empresa — y la IA se vende dentro de ese mismo contrato ya firmado.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 3,
+     "ticker": "MA",
+     "razon": "Red de dos lados con aceptación en ~150M de comercios que nadie reconstruye desde cero; el crecimiento viene de unidades (transacciones + desplazamiento de efectivo), no de subir precio.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 4,
+     "ticker": "V",
+     "razon": "Mismo mecanismo que MA, medio escalón por debajo por el mayor peso del débito doméstico — exactamente lo que atacan las rails A2A (Pix, UPI, FedNow) y el regulador de intercambio.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 5,
+     "ticker": "ASML",
+     "razon": "Monopolio literal de EUV/High-NA: sin su máquina no existe nodo avanzado, y la hoja de ruta a 10 años ya está comprometida; el riesgo no es competitivo sino de 3 clientes y control de exportaciones.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 6,
+     "ticker": "GOOGL",
+     "razon": "Búsqueda + YouTube + Android + silicio propio (TPU): la IA generativa es a la vez su mayor riesgo (la respuesta sustituye al enlace monetizable) y su mayor defensa (distribución y coste de inferencia propio).",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 7,
+     "ticker": "ISRG",
+     "razon": "Base instalada de da Vinci + instrumental consumible por procedimiento + cirujano entrenado en un solo sistema: el crecimiento es de unidades (procedimientos), no de precio.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 8,
+     "ticker": "SPGI",
+     "razon": "Dos peajes independientes sobre el mismo mercado de capitales: los índices son una royalty perpetua sobre activos indexados y los ratings un duopolio con barrera regulatoria (NRSRO).",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 9,
+     "ticker": "CSU.TO",
+     "razon": "El único motor de reinversión literal de la lista: cientos de micro-monopolios verticales comprados con disciplina de hurdle rate, donde g = reinversión × ROIC no es metáfora sino el modelo de negocio.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 10,
+     "ticker": "CDNS",
+     "razon": "Duopolio EDA: el flujo de diseño está certificado por la foundry y el ingeniero solo sabe una herramienta; la licencia es ruido frente al coste de una máscara fallida, y más chips de IA = más licencias.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 11,
+     "ticker": "AMZN",
+     "razon": "Tres motores que se alimentan entre sí (AWS, publicidad, marketplace 3P) y una máquina probada de meter capital nuevo en logística y datacenters con retorno; la publicidad es el beneficio que casi nadie modela.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 12,
+     "ticker": "SNPS",
+     "razon": "La otra mitad del duopolio EDA más la mayor biblioteca de IP silicio; por debajo de Cadence solo por la digestión de Ansys ($35bn) y por la exposición a China ya golpeada por controles.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 13,
+     "ticker": "AAPL",
+     "razon": "~2.400M de dispositivos atados por datos, iMessage y App Store; el riesgo concreto no es el hardware sino el pago de TAC de Google y quedar por detrás en la capa de interfaz de IA.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 14,
+     "ticker": "CME",
+     "razon": "El foso es el neteo: el margen cruzado sobre el open interest hace matemáticamente imposible arrancar un competidor de futuros de tipos, y la deuda del Tesoro en circulación es el motor de volumen.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 15,
+     "ticker": "VEEV",
+     "razon": "Sistemas validados GxP (Vault RIM, Quality, Clinical): cambiar de proveedor obliga a revalidar ante la FDA; el riesgo es la concentración en una sola industria, no la fuga de clientes.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 16,
+     "ticker": "REL.L",
+     "razon": "Datos propietarios enchufados al flujo de trabajo en tres frentes (Elsevier, LexisNexis, Risk); Risk & Business Analytics —verificación de identidad y datos de seguros— es el que de verdad compone.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 17,
+     "ticker": "TYL",
+     "razon": "Tribunales, seguridad pública y ERP municipal: contratos de 7-10 años y una migración que ningún funcionario electo quiere firmar; los pagos adjuntos son una segunda capa de monetización sobre la misma base.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 18,
+     "ticker": "HOYCY",
+     "razon": "Duopolio con AGC en blanks de fotomáscara EUV (>75% en volumen): un cuello de botella tan estrecho como el de ASML, y encima un negocio de lentes oftálmicas con demografía a favor.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 19,
+     "ticker": "TSM",
+     "razon": "Monopolio de facto del nodo avanzado con la intensidad de capital como barrera; el negocio es durabilísimo, la ubicación no — es el único de la lista con un riesgo que puede llevarlo a cero de golpe.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 20,
+     "ticker": "MSCI",
+     "razon": "Los mandatos de los gestores están escritos contra su índice: cambiarlo obliga a renegociar con el cliente final. Contrapesos: concentración en BlackRock y presión de precio de los pasivos.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 21,
+     "ticker": "ICE",
+     "razon": "Peaje sobre energía (Brent), datos de renta fija y ahora el flujo hipotecario de EE.UU. (Encompass/Black Knight) — esa pata hipotecaria es el motor de reinversión que a CME le falta.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 22,
+     "ticker": "VRSK",
+     "razon": "Base de datos contributiva: las aseguradoras aportan sus siniestros y luego los compran de vuelta, y Xactimate es el estándar de facto del peritaje. Aviso: el crecimiento es casi todo precio.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 23,
+     "ticker": "WKL.AS",
+     "razon": "UpToDate y CCH viven dentro de decisiones con responsabilidad clínica y legal, con ~80% de ingreso recurrente; la IA generativa amenaza el formato, pero la curaduría y la responsabilidad son el foso real.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 24,
+     "ticker": "NOW",
+     "razon": "Un solo modelo de datos para el flujo de trabajo transversal: una vez que es el sistema de acción, cada proceso nuevo se construye encima. Riesgo: precio por asiento en un mundo con menos asientos.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 25,
+     "ticker": "WST",
+     "razon": "Sus tapones y émbolos están escritos en el expediente regulatorio del fármaco: cambiar un componente de céntimos obliga a re-presentar ante la FDA. Además, cada GLP-1 inyectable es una unidad más.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 26,
+     "ticker": "INTU",
+     "razon": "El foso de QuickBooks no es el software sino la red de contadores que trabaja sobre él y los años de histórico contable atrapados dentro; TurboTax es la pata frágil, no la principal.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 27,
+     "ticker": "IDXX",
+     "razon": "Analizadores colocados en la clínica que solo aceptan consumibles propios, más laboratorio de referencia y el software de gestión de la clínica. Aviso serio: las visitas veterinarias no crecen, el precio sí.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 28,
+     "ticker": "CLPBY",
+     "razon": "El paciente de ostomía o continencia elige un producto que se adapta a su cuerpo y no lo cambia nunca: consumo diario, de por vida y reembolsado. Riesgo: licitaciones y recortes de reembolso, no competencia.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 29,
+     "ticker": "ZTS",
+     "razon": "Prescripción veterinaria pagada en efectivo por el dueño, sin PBM ni aseguradora que negocie el precio, con cartera diversificada por especie; el lastre es la caducidad de Apoquel y el ruido de Librela.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 30,
+     "ticker": "NVDA",
+     "razon": "CUDA + NVLink + sistemas completos es un foso real hoy; a 10 años el riesgo no es AMD sino que sus propios clientes internalicen el silicio (TPU, Trainium, MTIA) y que el ciclo de capex normalice.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 31,
+     "ticker": "FICO",
+     "razon": "Atrincheramiento regulatorio brutal, pero el crecimiento es puro precio sobre una base de unidades plana y en abril 2026 la FHFA autorizó VantageScore 4.0 junto a Classic FICO: la erosión ya arrancó.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 32,
+     "ticker": "DSY.MI",
+     "razon": "CATIA es el formato nativo de los programas aeroespaciales y los datos de un avión viven 40 años ahí dentro; lastran la transición lenta a 3DEXPERIENCE y Medidata perdiendo terreno frente a Veeva.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 33,
+     "ticker": "4684.T",
+     "razon": "65,7% de margen operativo y 32 ejercicios seguidos de crecimiento del beneficio operativo: ERP japonés vendido directo, sin integradores de por medio, que nadie migra. Riesgo: 100% Japón y caja ociosa.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 34,
+     "ticker": "TOI.V",
+     "razon": "El ADN de asignación de capital de Constellation aplicado al software vertical europeo, mucho más fragmentado; el motor de reinversión es real, la pista demostrada es más corta que la de la matriz.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 35,
+     "ticker": "AVGO",
+     "razon": "El networking de IA (Tomahawk/Jericho) es genuinamente dominante, pero VMware es subir precio a una base cautiva que no crece, los ASIC dependen de 3-4 clientes y la sucesión de Hock Tan sigue abierta.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 36,
+     "ticker": "DB1.DE",
+     "razon": "Eurex y Clearstream reproducen el foso de neteo y custodia de CME en Europa: durabilidad alta, motor de crecimiento flojo y un historial de M&A de datos mediocre.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 37,
+     "ticker": "LSEG.L",
+     "razon": "LCH SwapClear es un cuasi-monopolio de compensación de swaps y FTSE Russell una franquicia de índices; el lastre es Refinitiv, justo la pieza que la IA generativa comoditiza primero.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 38,
+     "ticker": "BKNG",
+     "razon": "La mayor red de oferta hotelera del mundo más pasarela de pagos propia; la duda de 10 años es si el agente de IA se queda el descubrimiento y deja a la OTA como back-office de inventario.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 39,
+     "ticker": "DSG.TO",
+     "razon": "Red logística global (transportistas, aduanas, brokers) con retención >95% y contenido regulatorio de aranceles que hay que actualizar cada trimestre; adquirente serial disciplinado sobre esa red.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 40,
+     "ticker": "ABNB",
+     "razon": "Oferta única que no está en ningún otro sitio y ~90% de tráfico directo (no depende de Google); a cambio, gasto discrecional y un regulador municipal distinto en cada ciudad donde opera.",
+     "confianza": "BAJA"
+    }
+   ],
+   "descartadas_del_top": [
+    "SUSTITUCIÓN DIRECTA POR IA GENERATIVA SOBRE EL NÚCLEO — ADBE: el output creativo empieza a generarse fuera de Photoshop y Firefly es defensa, no foso. CRM: precio por asiento sobre trabajo que la IA absorbe, más M&A que entierra goodwill. ACN: vende la tecnología que comprime sus propias horas facturables. FDS: agrega datos y los presenta por asiento sobre un sell-side que encoge — el eslabón que un LLM replica mejor. DUOL: el sustituto es un tutor LLM gratuito y además paga peaje a App Store (plataforma ajena, el riesgo que el criterio nombra).",
+    "RELOJ DE CADUCIDAD YA CORRIENDO EN EL PRODUCTO — NVO: la semaglutida pierde exclusividad DENTRO de la ventana de 10 años; el motor de caja caduca por diseño, no por competencia. ALGN: patentes vencidas, volúmenes estancados y competencia china de bajo coste. SOON.SW: los AirPods con función de audífono y el canal OTC atacan la gama de entrada. STMN.SW: implantes de valor y VBP chino se comen la prima. EL: pérdida de relevancia de marca a la vez que desaparece su canal (travel retail y grandes almacenes).",
+    "BASE QUE NO CRECE: SOLO RENOVACIÓN Y PRECIO — CHKP: una década perdiendo cuota con margen alto, que es exactamente cómo se ve una erosión lenta. MTD: disciplina admirable pero unidades planas y recompra financiada con deuda. SPSC: red EDI muy pegajosa, pero tecnología heredada y crecimiento cada vez más comprado que ganado.",
+    "FOSO MÁS FINO DE LO QUE APARENTA / COMPETENCIA FRONTAL — PANW: la seguridad se rompe cada ciclo con el retador de turno y CyberArk a $25bn es mucha integración. MANH: producto de primera, pero SAP/Blue Yonder/Oracle enfrente y demasiado peso de servicios. KXS.TO: planificación con o9 y SAP IBP encima. NEM.DE y PTC: buenos negocios, subescala frente a Autodesk, Siemens y Dassault. ADYEN.AS: retención alta pero el take-rate de procesamiento se comprime estructuralmente y Stripe no afloja. SPOT: los tres sellos capturan la economía del contenido, no Spotify.",
+    "CONCENTRACIÓN DE RIESGO QUE EL CRITERIO PENALIZA EXPLÍCITAMENTE — MELI: geografía + regulador + un libro de crédito al consumo que es un tipo de beneficio distinto y más frágil que el del marketplace. SE: misma lógica con TikTok Shop encima y dependencia de un solo juego. WISE.L: ventaja de coste real, pero ingreso por intereses y stablecoins como disruptor claro a 10 años. LMN.TO: ADN de Constellation sobre una base de clientes (telecos y medios) que se consolida y encoge.",
+    "DURABILIDAD ALTA PERO RETORNO SOBRE CAPITAL INCREMENTAL MEDIOCRE — TMO: consumibles durables, pero ROIC de un dígito alto con el goodwill de PPD y Patheon dentro. SGSN.SW y BVI.PA: el mandato regulatorio es un foso real, pero son laboratorios intensivos en capital y roll-up de margen medio. EFX: The Work Number es casi un monopolio de datos, pero el ciclo hipotecario y los datos de nómina permisionados por el consumidor lo erosionan. NDAQ: mezcla desigual tras Adenza. ENX.PA: el más contestable de los mercados (renta variable al contado fragmentada). NFLX: escala real, pero es una cinta de correr de contenido, no un coste de cambio. SRT3.DE: franquicia de bioprocesos de primera, con apalancamiento y el error de capital de Polyplus dentro de la ventana. EXPE: el más débil de los tres OTA, marcas fragmentadas y dependencia de Google."
+   ],
+   "nota_metodologica": "Ignoré precio, múltiplo y cualquier ranking previo; ordené por comparación por pares en la frontera. Lo que más me costó: (1) el bloque 6-13 (GOOGL, ISRG, SPGI, CSU, CDNS, AMZN, SNPS, AAPL) — son todos \"casi seguros\" y el orden interno es casi arbitrario, no defiendo un puesto concreto ahí; (2) cuánto castigar la IA generativa, que es el único eje capaz de mover a una empresa 20 puestos: ADBE, CRM, FDS, WKL y DUOL están colocadas sobre una hipótesis, no sobre un hecho observado, y si me equivoco de signo el error es grande y correlacionado; (3) TSM y NVDA, donde el riesgo no es competitivo sino geopolítico y de ciclo — dos cosas que honestamente no sé estimar a 10 años, de ahí la confianza baja. Donde el orden es más frágil: los puestos 28-40 son un continuo, no una secuencia; CLPBY, ZTS, NVDA, FICO, AVGO, BKNG, DSG y ABNB podrían intercambiarse con EFX, NFLX, ADYEN, SRT3, MANH o TMO con una sola pieza de información nueva. Sesgo estructural que reconozco: premié el coste de cambio contractual y regulatorio (VEEV, WST, TYL, EDA) por encima de la marca y del efecto red de consumo; si 2036 castiga los contratos y premia la marca y la atención, ABNB y NFLX estarán demasiado abajo. Nota técnica: DSY.MI lo interpreté como Dassault Systèmes (el sufijo de bolsa no cuadra con su cotización en Euronext París); CLPBY lo verifiqué como Coloplast, no como ninguna utility ni distribuidora."
+  }
+ },
+ {
+  "juez": "A5",
+  "resultado": {
+   "ranking": [
+    {
+     "puesto": 1,
+     "ticker": "RMS.PA",
+     "razon": "Fabrica menos de lo que le piden por diseño: el cuello de botella son artesanos que tardan ~6 años en formarse y curtiembres propias, así que quien espera es el cliente, no la marca — sin regulador, sin plataforma ajena y sin tecnología en medio.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 2,
+     "ticker": "ASML",
+     "razon": "Fuente única de EUV/High-NA: cada oblea de nodo avanzado de 2036 pasa por su parque instalado, y cada máquina arrastra una anualidad de servicio y upgrades de décadas; el descuento es tener tres clientes y a China de por medio.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 3,
+     "ticker": "MSFT",
+     "razon": "Identidad (Entra) + datos en Office + compromisos de consumo en Azure componen un coste de salida que ninguna empresa paga; la IA se vende encima de una factura que el cliente ya firma.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 4,
+     "ticker": "V",
+     "razon": "Red de dos lados donde ni emisores ni adquirentes pueden desertar solos; cobra un peaje sobre el consumo nominal, que crece sin exigirle capital nuevo.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 5,
+     "ticker": "MA",
+     "razon": "Los mismos raíles con más crecimiento viniendo de servicios de valor añadido y flujos no-tarjeta, lo que le da una segunda pierna si el interchange se regula.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 6,
+     "ticker": "CSU.TO",
+     "razon": "Compra software crítico para clientes diminutos que nunca migran y redepliega cada dólar contra una tasa mínima escrita — el foso es la máquina de asignación más ~1.000 micromonopolios no correlacionados (sigue colocando ~1.600 M$/trimestre).",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 7,
+     "ticker": "SPGI",
+     "razon": "Duopolio de rating con modelo issuer-pays incrustado en los mandatos de renta fija, más licencias de índices que cobran puntos básicos sobre un AUM que la empresa no gestiona ni financia.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 8,
+     "ticker": "TSM",
+     "razon": "Única fundición capaz de nodo avanzado a escala y los clientes diseñan sobre sus PDKs años antes del tape-out; baja del podio solo por estar concentrada en una isla.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 9,
+     "ticker": "GOOGL",
+     "razon": "Distribución (Search, YouTube, Android, Chrome) más laboratorio propio y silicio propio: es la única cuyo motor de caja ataca la IA y cuya arma contra eso es también la IA.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 10,
+     "ticker": "AMZN",
+     "razon": "Gravedad de datos y compromisos plurianuales en AWS más una densidad logística que nadie reconstruye; el dólar de mayor retorno hoy es publicidad retail, que no consume capital.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 11,
+     "ticker": "CDNS",
+     "razon": "Duopolio EDA: los flujos están certificados por la fundición y la carrera entera del ingeniero está entrenada en la herramienta — nadie recalifica un tape-out para ahorrar en licencias.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 12,
+     "ticker": "SNPS",
+     "razon": "Mismo candado de duopolio más la mayor biblioteca de IP de silicio; Ansys ensancha el stack de física pero mete riesgo de integración y goodwill que Cadence no tiene.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 13,
+     "ticker": "ISRG",
+     "razon": "El coste de cambio no lo paga el hospital sino el cirujano: base instalada entrenada en da Vinci, anualidad por instrumento en cada procedimiento y millones de casos de evidencia clínica que un rival tarda una década en acumular.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 14,
+     "ticker": "AAPL",
+     "razon": "~2.400 M de dispositivos con fricción de salida (iMessage, Watch, iCloud) alimentando una anualidad de servicios de ~75% de margen; resta el pago TAC de Google bajo ataque antimonopolio y ir por detrás en IA.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 15,
+     "ticker": "MSCI",
+     "razon": "Sus índices están escritos dentro de mandatos institucionales y folletos de ETF: cambiar de proveedor obliga a cambiar el contrato del cliente final, no solo la factura.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 16,
+     "ticker": "REL.L",
+     "razon": "LexisNexis Risk vive dentro de la decisión de suscripción de aseguradoras y bancos, y el activo de datos lo alimentan los propios clientes — un competidor no puede empezar el pool desde cero.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 17,
+     "ticker": "CME",
+     "razon": "El foso es el interés abierto y los netteos de margen: mover una posición a otra cámara cuesta capital real, por eso ningún retador de futuros ha movido volumen nunca; pega que reinvierte poco y reparte casi todo.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 18,
+     "ticker": "WKL.AS",
+     "razon": "CCH y UpToDate están incrustados en cómo el contador declara y cómo el médico decide; lo que renueva no es la preferencia del profesional sino su responsabilidad legal.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 19,
+     "ticker": "VRSK",
+     "razon": "Las aseguradoras le entregan sus datos de siniestros y se los recompran como formularios ISO y analítica: el estándar es del sector y el sector no puede reconstruirlo sin Verisk.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 20,
+     "ticker": "IDXX",
+     "razon": "Coloca analizadores bajo contrato plurianual que solo corren consumibles propietarios y conecta el software de la clínica: el candado es el flujo de trabajo del veterinario, no el equipo.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 21,
+     "ticker": "TYL",
+     "razon": "Juzgados, 911 y ERP municipal se licitan en ciclos de 18 meses y no se reemplazan en 20 años; la migración a nube y el attach de pagos añaden unidades, no solo precio.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 22,
+     "ticker": "INTU",
+     "razon": "QuickBooks es el libro contable de registro de la pyme con el canal de contadores encima; nómina y pagos convierten una suscripción en una participación sobre el flujo de dinero del cliente.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 23,
+     "ticker": "ICE",
+     "razon": "Mismo candado de interés abierto y clearing que CME más los benchmarks de energía; el interrogante es de asignación de capital, con miles de millones enterrados en tecnología hipotecaria.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 24,
+     "ticker": "HOYCY",
+     "razon": "Cuasi-monopolio en blancos de máscara EUV y en sustratos de vidrio para HDD, más el #2 mundial en lentes oftálmicas: tres oligopolios silenciosos y poco correlacionados en una sola empresa.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 25,
+     "ticker": "NOW",
+     "razon": "Sistema de registro del flujo de trabajo corporativo con renovación ~98%; el riesgo es que cobra por asiento justo donde el agente de IA elimina asientos.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 26,
+     "ticker": "LSEG.L",
+     "razon": "El pool de compensación de SwapClear (netting y compresión) es intocable y FTSE Russell licencia como MSCI; la mitad Refinitiv es la parte expuesta a que un LLM agregue datos más barato.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 27,
+     "ticker": "NVDA",
+     "razon": "CUDA más sistemas a escala de rack es un candado ecosistémico real, pero un puñado de clientes son a la vez casi todo el ingreso y quienes financian el silicio rival: lo frágil no es el foso, es el nivel de caja.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 28,
+     "ticker": "NFLX",
+     "razon": "Amortiza gasto de contenido sobre 300 M+ de hogares que nadie más tiene, y ahora también sobre publicidad y cuentas compartidas; sigue siendo una cinta de correr de éxitos, no una renta.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 29,
+     "ticker": "AVGO",
+     "razon": "ASICs de IA diseñados dentro del roadmap de unos pocos hiperescaladores más una base cautiva de VMware que se está represupuestando al alza; operador extraordinario, pero 'cosechar la base' es por construcción un mecanismo que se agota.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 30,
+     "ticker": "BKNG",
+     "razon": "La oferta hotelera más ancha del mundo frente a una demanda que ya entra por app propia, y recompras ejemplares; Google —y ahora los agentes de IA— seguirán sentados entre él y el viajero.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 31,
+     "ticker": "DSY.MI",
+     "razon": "CATIA/ENOVIA es la cadena de herramientas certificada de programas aeronáuticos y de automoción que duran 20 años; resta que MEDIDATA no ha rendido lo prometido y el crecimiento decepciona.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 32,
+     "ticker": "VEEV",
+     "razon": "Sistemas de registro validados GxP para farma: cambiar implica revalidar ante el regulador; todo el riesgo está en depender de una sola industria.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 33,
+     "ticker": "FICO",
+     "razon": "El score está escrito dentro de modelos de originación y titulización, y el negocio no hipotecario (tarjeta, auto) sigue intacto — pero la FHFA abrió la puerta a VantageScore 4.0 a 4,50$ y eso ataca justo la palanca de precio que era todo el crecimiento.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 34,
+     "ticker": "4684.T",
+     "razon": "ERP japonés de tramo medio vendido en directo, ~60% de margen operativo y clientes que no cambian de proveedor nunca; el defecto es un país único y una montaña de caja que no se reinvierte.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 35,
+     "ticker": "WST",
+     "razon": "Sus componentes elastoméricos van nombrados en el expediente regulatorio del fármaco: cambiar de proveedor obliga a volver a presentar; los inyectables y biológicos aportan las unidades.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 36,
+     "ticker": "MTD",
+     "razon": "Base instalada de balanzas e instrumentos con anualidad de servicio de campo y 2-3% de precio anual; durabilidad alta, motor de reinversión pobre que suple con recompras disciplinadas.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 37,
+     "ticker": "CLPBY",
+     "razon": "Pacientes crónicos de ostomía y continencia que se ajustan una vez y quedan dentro del reembolso: la rotación es casi biológica, no comercial; el punto flojo ha sido el M&A (Kerecis).",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 38,
+     "ticker": "DB1.DE",
+     "razon": "Eurex y Clearstream son la fontanería de compensación y custodia europea con el mismo candado de netteo de márgenes; resta que ha diluido el negocio con compras caras de datos y software.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 39,
+     "ticker": "ZTS",
+     "razon": "Aprobaciones regulatorias por especie y relación directa con el canal veterinario sostienen franquicias como dermatología y dolor; el gasto en mascotas aguanta, pero Librela y los genéricos son heridas abiertas.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 40,
+     "ticker": "SGSN.SW",
+     "razon": "Acreditaciones, red física de laboratorios y reconocimiento del regulador que un competidor no compra rápido; techo de crecimiento bajo, pero es indiferente a la IA porque hay que tocar la muestra.",
+     "confianza": "MEDIA"
+    }
+   ],
+   "descartadas_del_top": [
+    "ADBE, ACN, FDS, CRM, DUOL — la IA generativa ataca directamente la unidad que venden: Adobe pierde poder de precio en el tier profesional ante Canva/Figma y generación nativa; Accenture factura horas y la IA deflacta la hora; FactSet agrega datos financieros, que es justo lo que un LLM hace más barato; Salesforce cobra por asiento donde el agente elimina asientos; Duolingo es una app de consumo sobre plataforma ajena (App Store) cuyo sustituto es un tutor LLM gratis, con DAU ya desacelerando a ~20%.",
+    "NVO — los cuatro vectores de erosión disparando a la vez: guía 2026 de -5% a -13%, caducidad de semaglutida por país entre 2026 y 2031, Lilly ganando la carrera y presión de precio en EEUU. Sigue siendo una gran farmacéutica, pero la frase 'sin que un competidor lo haya erosionado' ya está falsada en presente.",
+    "EL, ALGN, STMN, SOON — el mecanismo de retención es más débil de lo que aparenta: en belleza la marca no retiene (indies, TikTok, Sephora, China); en alineadores las patentes vencieron y el dentista imprime en consulta; en implantes el ataque viene por precio desde abajo con gasto electivo cíclico; en audífonos el canal audiológico está siendo rodeado por OTC y por los AirPods.",
+    "CHKP, PANW — seguridad es un mercado permanentemente disputado por ciclo de producto y con Microsoft regalando capacidades dentro de E5; Check Point además lleva una década perdiendo cuota mientras cosecha mantenimiento.",
+    "SRT3.DE, TMO — mecanismo bueno, retorno sobre capital dañado por la propia dirección: Sartorius enterró goodwill y deuda con Polyplus en el pico; Thermo es un roll-up excelente en escala pero con ROIC estructural de doble dígito bajo.",
+    "MELI, SE, WISE.L, ABNB, EXPE — demasiada varianza para un criterio de durabilidad: MELI tiene un flywheel logístico y de pagos real, pero cuatro competidores activos, macro/FX latinoamericana y un libro de crédito en balance le dan la distribución de caja 2036 más ancha del universo; Sea depende de un mercado en disputa y de un solo juego; Wise opera justo el corredor que las stablecoins comprimen; Airbnb enfrenta regulación ciudad a ciudad y una expansión no probada; Expedia es el peor de los tres de viajes por marcas fragmentadas.",
+    "TOI.V, LMN.TO, DSG.TO, MANH, SPSC, ADYEN.AS, EFX, BVI.PA — negocios buenos que perdieron la frontera por poco, no por defecto de mecanismo: Topicus y Lumine son el modelo Constellation pero con menos historial y (Lumine) un vertical de telecom que se consolida; Descartes y SPS Commerce tienen redes reales pero pequeñas y modernizables en una década; Manhattan compite contra SAP/Oracle/Blue Yonder; Adyen tiene take rate estructuralmente decreciente frente a Stripe; Equifax depende del ciclo hipotecario y del regulador; Bureau Veritas es prácticamente el mismo negocio que SGS y solo cabía uno.",
+    "NDAQ, ENX.PA — bolsas de segunda fila para este criterio: Nasdaq se apalancó con Adenza y mezcló hacia software más blando, Euronext es sobre todo renta variable al contado sin el candado de interés abierto.",
+    "NEM.DE, KXS.TO, PTC — techo competitivo estructural: Nemetschek convive con Autodesk, Kinaxis pelea planificación contra o9/SAP/Blue Yonder, y PTC es el #3 en CAD con deuda añadida por ServiceMax; Windchill es sólido pero no basta para el top 40."
+   ],
+   "nota_metodologica": "Ordené por comparación de pares en la frontera, preguntando en cada empate cuál sigue cobrando un retorno alto en 2036, y penalicé explícitamente los tres pecados del criterio: crecimiento solo por precio sobre base plana, concentración (cliente, geografía, regulador, plataforma) y capital reinvertido a retorno desconocido. Lo que más me costó: (1) el podio — Hermès gana porque es la única sin regulador, sin plataforma y sin tecnología en el circuito, pero ASML y los raíles V/MA son defendibles en el 1; (2) NVDA y AVGO, donde el foso es real pero el NIVEL de caja depende de un ciclo de capex financiado por cinco clientes que a la vez construyen el silicio rival — están en el 27 y 29 por eso, no por dudas sobre CUDA o sobre Hock Tan; (3) GOOGL, la única megacap cuyo motor de caja principal es exactamente lo que la IA ataca, aunque sea también quien mejor armada está para responder. Donde mi orden es más frágil: el bloque 28-40 es prácticamente ruido — TOI, DSG, MANH, SPSC, ADYEN y BVI entran si muevo el listón un centímetro, y no defendería ningún par concreto ahí dentro. Las dos decisiones con más probabilidad de estar equivocadas son excluir a NVO (si CagriSema y los orales funcionan, en 2036 es top-20) y excluir a ADBE (si Acrobat/PDF y el estándar profesional resisten, el descarte es un error caro). La posición 33 de FICO depende enteramente de un dato que aún no existe: cuánto y cuán rápido adoptan los prestamistas VantageScore 4.0 tras la apertura de la FHFA de abril 2026 — si la adopción es marginal, FICO pertenece al top 20. No usé ningún score, tier ni ranking previo de este universo, y no consideré precio ni múltiplo en ningún punto."
+  }
+ },
+ {
+  "juez": "A6",
+  "resultado": {
+   "ranking": [
+    {
+     "puesto": 1,
+     "ticker": "RMS.PA",
+     "razon": "La escasez es fabricada por la empresa: la lista de espera existe porque limita la producción al ritmo de formar artesanos, así que sube precio sin perder deseo y crece unidades con talleres nuevos que ella misma financia; ni competidor, ni regulador, ni IA tienen ángulo de ataque.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 2,
+     "ticker": "MSFT",
+     "razon": "El cliente no se va porque la identidad corporativa (Entra/AD), los datos de Office y el compromiso de Azure son tres capas que se refuerzan y cuya migración es un proyecto de años; único de la lista con motor de reinversión de escala real, aunque el capex de IA mete incertidumbre en el ROIC incremental.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 3,
+     "ticker": "MA",
+     "razon": "Red de dos lados con 50 años de acumulación: el emisor está donde está el comercio y viceversa; crece por unidades (transacciones, desplazamiento de efectivo) y no por precio, con capital casi nulo por unidad marginal.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 4,
+     "ticker": "V",
+     "razon": "Mismo mecanismo de red que MA con más escala, algo más de exposición a débito —el flanco por donde entran los rieles cuenta-a-cuenta (Pix, UPI, FedNow)— y más superficie regulatoria por interchange.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 5,
+     "ticker": "ASML",
+     "razon": "No existe alternativa física a EUV y High-NA extiende el bloqueo otra década: el cliente no se va porque no hay a dónde ir; el descuento es la concentración en tres compradores y el permiso de exportación como variable política.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 6,
+     "ticker": "SPGI",
+     "razon": "Tres monopolios apilados —rating exigido de facto para colocar deuda institucional, la marca S&P 500 en indexación y los benchmarks de Platts— cada uno con su propia razón para que el cliente no pueda irse.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 7,
+     "ticker": "ISRG",
+     "razon": "El cirujano se entrena en da Vinci durante la residencia y el hospital ya hundió el capital; el 85% de los ingresos son instrumentos consumibles por procedimiento, y los procedimientos —las unidades— crecen a doble dígito hace 20 años pese a los rivales anunciados.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 8,
+     "ticker": "MSCI",
+     "razon": "El índice es el contrato: fondos, mandatos y derivados se escriben sobre el benchmark, y cambiarlo obliga a reescribir la relación con el cliente final; el riesgo real es el auto-indexado del emisor grande, que ya ocurrió una vez.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 9,
+     "ticker": "CSU.TO",
+     "razon": "Es el único del universo cuyo activo es el propio motor de reinversión: comprar cientos de monopolios verticales diminutos con tasa mínima disciplinada; el riesgo es que el tamaño ahogue el retorno incremental y que la IA abarate reconstruir software vertical.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 10,
+     "ticker": "GOOGL",
+     "razon": "Distribución, hábito y herramientas de anunciante siguen intactas, y YouTube más TPUs son negocios aparte, pero es la única mega-cap donde la tecnología que ella misma lidera puede reducir el pool de beneficio de su núcleo: alta durabilidad con la varianza más ancha del top-10.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 11,
+     "ticker": "CDNS",
+     "razon": "Duopolio en EDA: cambiar de flujo de herramientas a mitad de un diseño arriesga un tape-out de cientos de millones, y la complejidad creciente del chip aumenta licencias por diseño; balance limpio y sin digestión de una megaadquisición.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 12,
+     "ticker": "SNPS",
+     "razon": "Mismo candado de tape-out que CDNS más una cartera de IP de interfaz que cobra por chip fabricado; descuento por digerir Ansys (deuda y goodwill grande) y por la exposición regulada a China.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 13,
+     "ticker": "CME",
+     "razon": "El interés abierto y los netos de margen en una sola cámara hacen que mover un contrato de futuros exija mover a todo el mercado a la vez: el moat más demostrado de las finanzas, con crecimiento por volumen y capital casi nulo.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 14,
+     "ticker": "TSM",
+     "razon": "90% del nodo puntero y por fin poder de precio real; lo que le impide subir es exactamente lo que penaliza el criterio: una isla como concentración geográfica y un capex que exige reinvertir enormidades para sostener el retorno.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 15,
+     "ticker": "AMZN",
+     "razon": "AWS gana porque el dato y la arquitectura del cliente quedan pegados al proveedor, y el retail sostiene Prime más el negocio de publicidad, que es el margen real; el lastre es cuánto capital exige el sistema para sostener el mismo retorno.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 16,
+     "ticker": "REL.L",
+     "razon": "Posee el corpus, no solo el buscador: el prestigio de las revistas de Elsevier es un bucle de citas que la academia se autoimpone, y LexisNexis Risk vive de datos contribuidos por las aseguradoras que nadie puede reconstruir desde cero.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 17,
+     "ticker": "AAPL",
+     "razon": "2.300 millones de dispositivos con datos, cuentas y hábitos atados al ecosistema; retrasada en IA y con dos rentas en riesgo regulatorio (pago de Google por default y comisión de la App Store), pero eso erosiona márgenes, no el mecanismo.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 18,
+     "ticker": "VRSK",
+     "razon": "Las aseguradoras le entregan sus datos de siniestros para recibir el análisis agregado, y sus formularios ISO son las plantillas legales del sector: un monopolio cooperativo que ningún entrante puede replicar sin los datos que ya están dentro.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 19,
+     "ticker": "TYL",
+     "razon": "Sistemas de expedientes judiciales y de seguridad pública de gobiernos locales: contratos de 7-10 años, migraciones que ningún funcionario quiere firmar y una rotación cercana a cero; crece por agencias nuevas, migración a nube y pagos adjuntos.",
+     "confianza": "ALTA"
+    },
+    {
+     "puesto": 20,
+     "ticker": "WKL.AS",
+     "razon": "UpToDate es defensa medicolegal del médico y CCH está dentro del flujo de trabajo del auditor con contenido regulatorio actualizado; el matiz es que ambos son justo los productos donde un modelo de lenguaje entrenado en fuentes públicas ataca primero.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 21,
+     "ticker": "IDXX",
+     "razon": "Analizador colocado en la clínica más consumibles propietarios más el software de historia clínica: razor-blade con retención cercana al total; la duda no es el mecanismo sino si las visitas veterinarias (las unidades) vuelven a crecer.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 22,
+     "ticker": "NOW",
+     "razon": "Se convierte en el registro maestro del flujo de trabajo empresarial y cada módulo nuevo aumenta el coste de arrancarlo; el riesgo estructural es que su unidad de venta sea el asiento justo cuando los agentes reducen asientos.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 23,
+     "ticker": "VEEV",
+     "razon": "Sistemas validados bajo GxP en farmacéuticas: cambiar de proveedor obliga a revalidar frente al regulador, y el estándar compartido entre patrocinadores y CROs se refuerza solo; el descuento es depender de un único vertical.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 24,
+     "ticker": "ICE",
+     "razon": "Cámaras de compensación y datos de renta fija con el mismo candado de interés abierto que CME, más un negocio hipotecario adquirido caro que todavía debe demostrar el retorno del goodwill enterrado.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 25,
+     "ticker": "CLPBY",
+     "razon": "El paciente de ostomía o continencia se ajusta a un producto y no lo cambia en toda su vida, la enfermera lo prescribe y el sistema público lo reembolsa: consumible crónico con unidades que crecen por demografía; el riesgo es el precio administrado y una compra reciente cara (Kerecis).",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 26,
+     "ticker": "WST",
+     "razon": "Sus tapones y émbolos están nombrados en el expediente regulatorio del fármaco: cambiar de proveedor obliga a re-presentar ante la FDA, así que el cliente queda atado por la vida de la molécula; crece con el volumen de biológicos e inyectables.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 27,
+     "ticker": "INTU",
+     "razon": "QuickBooks está dentro del flujo del contador de la pyme (y migrar el libro mayor es lo último que hace un dueño), TurboTax vive de la complejidad fiscal; la amenaza no es la IA sino que el propio Estado ofrezca la declaración gratis.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 28,
+     "ticker": "HOYCY",
+     "razon": "Duopolio real en blancos de máscara EUV —insumo sin el cual no hay chip puntero— más lentes oftálmicas y endoscopios; combinación rara de posición crítica, poca deuda y retorno alto sin capex desbocado.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 29,
+     "ticker": "AVGO",
+     "razon": "La asignación de capital de Hock Tan es de las mejores del universo y VMware demuestra su poder de precio, pero ese poder es extracción de una base cautiva, no unidades nuevas, y el ASIC de IA depende de dos o tres clientes que podrían internalizarlo.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 30,
+     "ticker": "NVDA",
+     "razon": "CUDA más la integración a nivel de sistema (red, racks, cadencia anual) es un moat auténtico hoy; a diez años sus cinco clientes son también sus competidores en silicio propio y el retorno depende de que el ciclo de capex no normalice: convicción alta a 3 años, baja a 10.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 31,
+     "ticker": "ZTS",
+     "razon": "Fármaco animal de marca con aprobación regulatoria, recetado por un veterinario fiel y pagado por un dueño insensible al precio; menos presión genérica que la farma humana, pero la dermatología —su franquicia clave— acaba de dejar de ser monopolio.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 32,
+     "ticker": "TMO",
+     "razon": "El 80% recurrente vive del consumible y el servicio sobre una base instalada difícil de recalificar, con escala imbatible en bioproceso; adquirente serial con historial decente pero un balance cargado de goodwill que debe seguir rindiendo.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 33,
+     "ticker": "NFLX",
+     "razon": "Su ventaja es de escala de gasto: amortiza contenido sobre 300 millones de hogares, lo que ningún rival puede igualar por episodio; el defecto estructural es que el cliente puede irse el mes que viene sin coste alguno.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 34,
+     "ticker": "LSEG.L",
+     "razon": "SwapClear concentra el interés abierto de swaps —mismo candado que CME— y los datos de Refinitiv más FTSE Russell añaden rentas de índice; le resta que la parte de terminales compite en el flanco que la IA abarata.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 35,
+     "ticker": "FICO",
+     "razon": "Mecanismo casi perfecto (el score está escrito dentro de la maquinaria hipotecaria y cuesta céntimos sobre una operación de cientos de miles), pero el criterio lo castiga por lo que es: crecimiento todo por precio sobre una base plana, con el regulador abriendo la puerta a un score alternativo.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 36,
+     "ticker": "TOI.V",
+     "razon": "Replica el motor de Constellation sobre software vertical europeo, fragmentado y familiar: base de adquisiciones mucho menor, así que la pista de reinversión a retorno alto es más larga; depende de la disciplina heredada y de un gobierno corporativo tutelado.",
+     "confianza": "BAJA"
+    },
+    {
+     "puesto": 37,
+     "ticker": "DSY.MI",
+     "razon": "CATIA queda dentro de programas aeronáuticos y de automoción que duran décadas, con formatos y cadenas de proveedores atados al mismo estándar; el problema no es la durabilidad sino que las unidades nuevas llegan despacio.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 38,
+     "ticker": "DSG.TO",
+     "razon": "Red logística global donde cada transportista y cada declaración aduanera añadida aumenta el valor para el siguiente usuario, más adquisiciones pequeñas y disciplinadas; el volumen comercial es la unidad y no depende de un solo cliente.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 39,
+     "ticker": "DB1.DE",
+     "razon": "Eurex tiene el interés abierto de los derivados en euros y Clearstream la custodia: dos posiciones que no se mueven; le pesa haber comprado ISS y SimCorp a precios que aún deben justificar el goodwill.",
+     "confianza": "MEDIA"
+    },
+    {
+     "puesto": 40,
+     "ticker": "BVI.PA",
+     "razon": "El certificado solo vale si lo emite un organismo acreditado y cambiar de certificador obliga a re-auditar toda la cadena: demanda impuesta por regulación creciente, indiferente a la IA porque hay que ir físicamente a mirar; el techo es un crecimiento tipo PIB+ y retornos incrementales medios.",
+     "confianza": "BAJA"
+    }
+   ],
+   "descartadas_del_top": [
+    "BKNG y ABNB y EXPE — el moat está solo del lado de la oferta; la demanda se recompra cada año pagando a Google (BKNG ~7.000 M$ de marketing) y el agente de IA ataca justo esa capa de intermediación. EXPE además es el segundo con marcas fragmentadas.",
+    "NVO — la farmacéutica humana tiene el mecanismo con fecha de caducidad escrita: el vencimiento de patente de semaglutida a principios de los 30 cae dentro de la ventana de 10 años, con Lilly ganando en eficacia y presión política sobre el precio en EE. UU. Gran empresa, criterio equivocado para ella.",
+    "MELI y SE — flywheels reales pero con riesgo apilado: concentración geográfica, macro y divisa, competencia agresiva (Shopee) y un libro de crédito que puede borrar un año de beneficio; SE además depende de Garena, un negocio de éxitos.",
+    "ADBE y CRM — venden asientos y creación de contenido, exactamente los dos lugares donde la IA generativa resta unidades; ambas con crecimiento decelerando y M&A reciente que hay que justificar.",
+    "PANW y CHKP — el liderazgo en seguridad ha rotado cada década (Check Point es la prueba viviente); durabilidad del gasto sectorial alta, durabilidad del ganador concreto baja.",
+    "ADYEN y WISE.L — capa de procesamiento y de remesas: buen negocio, pero es el eslabón contestable (Stripe, bancos, stablecoins) y su modelo consiste en bajar el precio, no en subirlo.",
+    "SRT3.DE — el mecanismo (consumible de un solo uso calificado en el expediente del fármaco) es de primer nivel, pero Polyplus a precio de burbuja dejó goodwill y deuda, y la dirección ya falló una asignación de capital grande.",
+    "EFX — The Work Number es un cuasi-monopolio de datos, pero el que contribuye la nómina puede desintermediarlo y el regulador de crédito lleva años apuntando a la industria; además es cíclica con la hipoteca.",
+    "MTD, STMN.SW, SOON.SW, ALGN — base instalada real, pero el crecimiento viene sobre todo de precio en mercados maduros (MTD), de demanda electiva y aplazable (STMN, ALGN) o de una amenaza tecnológica directa desde el smartphone y los audífonos de venta libre (SOON).",
+    "MANH, SPSC, KXS.TO, PTC, NEM.DE — buen software vertical con retención alta, pero compiten de frente contra SAP, Oracle, Siemens o Autodesk; ninguno tiene el candado regulatorio o de red que sí tienen TYL, VEEV o DSG.",
+    "NDAQ y ENX.PA — la parte de bolsa de contado y listados es la más contestable del complejo bursátil (las MTF ya lo demostraron); NDAQ además carga la deuda de Adenza, ENX depende de consolidar países más que de un moat.",
+    "4684.T y LMN.TO — durabilidad muy alta pero motores limitados: Obic es Japón puro, sin M&A y con caja ociosa; Lumine tiene la pista más larga del modelo Constellation y el historial más corto, demasiada varianza para el top-40.",
+    "FDS — la terminal de datos financieros por asiento es de los sitios donde la IA reduce directamente el número de asientos, y compite contra Bloomberg y S&P Capital IQ.",
+    "ACN — el capital que reinvierte son personas y la unidad de venta es la hora facturable: sin coste de cambio real y con la IA comprimiendo precisamente la pirámide de horas.",
+    "SGSN.SW — misma categoría regulada que Bureau Veritas pero con peor ejecución y cartera más commoditizada; me quedo con una sola representante de TIC.",
+    "EL — la evidencia reciente (colapso de travel retail y China, rotación de marcas en consumidores jóvenes) muestra que el 'moat de marca' en belleza prestige no aguanta un ciclo, y menos diez años.",
+    "DUOL — marca y hábito gamificado potentes, pero es una app de consumo con rotación alta enfrentada directamente al tutor de IA: es el caso más frágil del universo bajo este criterio.",
+    "SPOT — el margen bruto lo fijan los dueños de los derechos, no la empresa; el proveedor tiene el poder y eso limita estructuralmente cuánto capital puede convertir en beneficio alto."
+   ],
+   "nota_metodologica": "Ordené por comparación directa por pares en cada frontera, sin puntos ni notas, y sin mirar precio. Dos verificaciones de identidad previas: CLPBY es Coloplast (no una retail sudafricana, como podría sugerir el ticker) y traté DSY como Dassault Systèmes pese al sufijo .MI. Lo que más me costó: (1) Hermès vs MSFT en el 1 — Hermès gana en 'nada la puede matar', MSFT gana en motor de reinversión; me quedé con la durabilidad pura porque es lo que pide el criterio, pero el capex de IA de MSFT con ROIC incremental no probado fue el argumento que desempató, y es discutible. (2) El bloque 29-35 (AVGO, NVDA, NFLX, FICO): los cuatro tienen mecanismos hoy indiscutibles y flancos a diez años muy distintos; NVDA es donde más puedo estar equivocado en ambas direcciones — si el gasto de IA se sostiene y CUDA aguanta, es top-10; si los hiperescaladores internalizan silicio, no es ni top-40. (3) Dejar fuera a NVO y BKNG del top-40 son mis dos exclusiones más contestables: ambas son negocios excelentes, penalizados aquí por el mecanismo concreto (patente con fecha, y demanda alquilada a Google) más que por calidad. Donde el orden es más frágil: todo el tramo 30-40 es prácticamente intercambiable con los primeros seis descartados (SRT3, MELI, BKNG, EFX, SPSC, MANH) — ahí la resolución de mi juicio no distingue de verdad. Los pares CDNS/SNPS y V/MA son empates honestos: el orden entre ellos no debe leerse como señal. TSM es el único caso donde una sola variable binaria (Taiwán) domina todo lo demás; si se ignora esa cola, sube al top-5."
+  }
+ }
+]

@@ -1,0 +1,192 @@
+{
+  "ticker": "MANH",
+  "empresa": "Manhattan Associates, Inc. (CIK 0001056696)",
+  "fecha_juicio": "2026-07-28",
+  "juez": "Juez de las Seis Puertas — desempate en sesion limpia",
+  "candado_B_prima": "CUMPLIDO. No se consulto cotizacion, capitalizacion ni multiplo en ningun momento. Todas las cifras proceden de filings 10-K en EDGAR.",
+  "orden_ejecutado": "G5 -> G1 -> G3 -> G4 -> G2 -> G6",
+  "ventana": "FY2016-FY2025 (10 ejercicios auditados) como ventana principal; FY2007-FY2011 recuperada del 10-K FY2009 para el test de recesion (G4).",
+  "fuentes_primarias": [
+    "10-K FY2025, presentado 2026-02-04, accession 0001193125-26-037138 (manh-20251231.htm; R2 Estado de Resultados, R4 Balance, R6 Flujos de Caja)",
+    "10-K FY2023, accession 0000950170-24-011411 (R6 flujos 2021-2023)",
+    "10-K FY2022, accession 0000950170-23-001892 (R2 resultados 2020-2022)",
+    "10-K FY2021, accession 0001564590-22-004100 (R2/R6 2019-2021)",
+    "10-K FY2009, presentado 2010-02-19, accession 0000950123-10-014461 (g22159e10vk.htm)",
+    "XBRL companyfacts CIK0001056696"
+  ],
+
+  "tabla_maestra_USD_millones": {
+    "cabecera": ["anio","ventas","BN","CFO","capex","SBC","FCF=CFO-capex","FCF-BN","FCF post-SBC","FCFpSBC/ventas %","Sloan %","EBIT","NOPAT","NOPAT/ventas %","CapInv (Act-PasCorr-Caja)","ROIC %"],
+    "filas": [
+      [2016, 604.6, 124.2, 139.3, 6.8, 15.9, 132.5, 8.3, 116.6, 19.3, -4.8, 194.3, 123.1, 20.4, 83.9, 147],
+      [2017, 594.6, 116.5, 164.1, 6.2, 16.2, 157.9, 41.4, 141.6, 23.8, -15.5, 185.6, 117.0, 19.7, 65.2, 179],
+      [2018, 559.2, 104.7, 137.3, 7.3, 19.9, 130.0, 25.4, 110.2, 19.7, -10.5, 133.9, 102.9, 18.4, 62.8, 164],
+      [2019, 617.9, 85.8, 146.9, 15.2, 31.8, 131.7, 46.0, 99.9, 16.2, -18.0, 115.9, 85.6, 13.9, 80.0, 107],
+      [2020, 586.4, 87.2, 140.9, 2.7, 33.4, 138.2, 50.9, 104.8, 17.9, -12.8, 114.1, 87.5, 14.9, 63.7, 137],
+      [2021, 663.6, 110.5, 185.2, 4.0, 43.3, 181.2, 70.7, 137.9, 20.8, -14.9, 134.3, 110.7, 16.7, 27.0, 411],
+      [2022, 767.1, 129.0, 179.6, 6.6, 59.4, 173.0, 44.1, 113.7, 14.8, -9.1, 152.7, 124.5, 16.2, 29.1, 428],
+      [2023, 928.7, 176.6, 246.2, 4.7, 71.6, 241.5, 64.9, 169.9, 18.3, -11.2, 209.9, 173.4, 18.7, 36.7, 473],
+      [2024, 1042.4, 218.4, 295.0, 8.7, 93.2, 286.3, 68.0, 193.1, 18.5, -10.7, 261.6, 214.1, 20.5, 91.0, 235],
+      [2025, 1081.4, 219.9, 389.5, 15.5, 111.3, 374.0, 154.1, 262.8, 24.3, -21.2, 279.8, 215.3, 19.9, 54.7, 393]
+    ],
+    "nota_NOPAT": "NOPAT = EBIT x (1 - tipo efectivo). Tipo efectivo = provision de impuestos / beneficio antes de impuestos, ambos del 10-K.",
+    "nota_CapInv": "Capital invertido = Activo total - Pasivo corriente - Caja. MANH no tiene deuda financiera alguna en toda la ventana (el balance FY2025 no contiene ninguna linea de deuda)."
+  },
+
+  "G5": {
+    "veredicto": "SI_REFORZADO",
+    "titular": "Devengo negativo en 10 de 10 ejercicios. El CFO supera al beneficio neto TODOS los anios de la ventana, y el FCF sigue por encima del BN incluso descontando la SBC completa en 2025.",
+    "cifras": {
+      "FCF_2025_USD": "374,0 M (CFO 389,470 M - capex 15,457 M) = 34,6% de ventas",
+      "FCF_menos_BN_2025_USD": "+154,1 M (14,3% de ventas)",
+      "FCF_post_SBC_completa_2025_USD": "262,8 M = 24,3% de ventas (389,470 - 15,457 - 111,263 de compensacion en acciones, SIN sumarla de vuelta)",
+      "FCF_post_SBC_menos_BN_2025": "+42,8 M",
+      "rango_FCF_post_SBC_sobre_ventas_2016_2025": "14,8% (2022) a 24,3% (2025); media 19,4%; positivo los 10 anios",
+      "signo_devengo": "CFO > BN en 10/10 ejercicios. Diferencia media 2016-2025 = +57,3 M/anio",
+      "Sloan_2025": "-21,2% ((219,948 - 389,470) / activos medios 798,5 M)",
+      "Sloan_rango_2016_2025": "de -4,8% a -21,2%. Los diez valores NEGATIVOS, es decir el devengo resta beneficio en vez de inflarlo. Umbral de alarma +5%: no se acerca en ningun anio.",
+      "delator_GE": "NO SE ACTIVA. Desviacion tipica del crecimiento anual del BN = 18,7%; del CFO = 18,7%. El beneficio NO es mas suave que la caja que lo produce; ambos oscilan igual. No hay alisado."
+    },
+    "motor_del_devengo_negativo": "El grueso viene del cobro por adelantado: 'Deferred revenue 52,096' en el estado de flujos FY2025 (42,187 en 2024; 27,136 en 2023). El pasivo por ingresos diferidos crecio de 277,970 M a 337,049 M. Es capital circulante NEGATIVO estructural: el cliente financia la operacion.",
+    "cita": "10-K FY2025 (acc. 0001193125-26-037138), Consolidated Statements of Cash Flows: 'Net income 219,948 ... Equity-based compensation 111,263 ... Deferred revenue 52,096 ... Net cash provided by operating activities 389,470'; Investing activities: 'Purchases of property and equipment (15,457)'.",
+    "caveat_declarado": "La SBC es materia seria: 111,263 M = 10,3% de ventas y 50,6% del beneficio neto en 2025, creciendo mas rapido que las ventas (SBC +19,4% vs ventas +3,7%). Aun asi la puerta pasa reforzada porque el FCF post-SBC completo sigue por encima del BN. La recompra bruta de 315,162 M solo redujo las acciones en circulacion de 60,921 M a 59,845 M (-1,8%): una parte grande de la recompra es taponar dilucion, no retribuir."
+  },
+
+  "G1": {
+    "veredicto": "SI",
+    "titular": "PASADA POR CONSTRUCCION. Capital invertido operativo NETO NEGATIVO con NOPAT positivo; bajo la definicion amplia el ROIC minimo de la ventana es 107% (2019), cinco veces el umbral del 20% y diez veces el 2xWACC.",
+    "cifras": {
+      "NOPAT_sobre_ventas_2016_2025": "minimo 13,9% (2019), maximo 20,5% (2024), 19,9% en 2025",
+      "NOPAT_sobre_capital_invertido": "147% / 179% / 164% / 107% / 137% / 411% / 428% / 473% / 235% / 393% (2016-2025). MINIMO DE LA VENTANA = 107%.",
+      "umbral_20pct": "SUPERADO por 5,3x en el peor anio",
+      "umbral_2xWACC_ref_10pct": "SUPERADO por 5,3x en el peor anio",
+      "capital_invertido_operativo_estricto_2025": "-90,0 M NEGATIVO. Circulante operativo ex-caja: activos 254,6 M (clientes 214,679 + impuestos a cobrar 6,723 + anticipos 27,036 + otros 6,153) menos pasivos corrientes 455,913 M = -201,3 M. Sumado inmovilizado 23,120 + ROU 50,443 + fondo de comercio 62,244 + otros activos 44,343 = 180,1 M, menos arrendamientos LP 56,180 y otros pasivos no corrientes 12,530. Resultado -90,0 M.",
+      "higiene_de_denominador": "APLICADA. El denominador CRUZA CERO segun se incluyan o no los activos por impuestos diferidos (75,900 M en 2025). Definicion amplia (Activo - PasCorr - Caja): +54,7 M en 2025, rango 27,0-91,0 M en la ventana. Definicion operativa estricta: -90,0 M. Cuando el signo del denominador depende de una convencion contable, el ratio amplifica en vez de medir."
+    },
+    "decision_por_nivel_normalizado_por_ventas": "NOPAT/ventas nunca baja de 13,9% y promedia 17,9%, con la ultima lectura en 19,9%. El nivel de rentabilidad operativa es alto y estable sin necesidad del ratio.",
+    "regla_aplicada": "'Capital invertido neto cero o negativo con NOPAT positivo = PASADA POR CONSTRUCCION'. MANH cumple: 215,3 M de NOPAT sobre un capital operativo negativo de -90,0 M.",
+    "cita": "10-K FY2025, Consolidated Balance Sheets: 'Total assets 839,388 ... Deferred revenue 337,049 ... Total current liabilities 455,913 ... Total shareholders' equity 314,765'. No figura ninguna linea de deuda financiera. Consolidated Statements of Income: 'Operating income 279,800 ... Income before income taxes 285,894 ... Income tax provision 65,946'."
+  },
+
+  "G3": {
+    "veredicto": "NO_MEDIBLE",
+    "titular": "Manhattan Associates NO publica ninguna magnitud fisica o unitaria. Sin volumen no hay elasticidad medida, y un margen observado no sustituye a una elasticidad. Resultado valido, no evasiva.",
+    "busqueda_de_volumen_realizada": [
+      "Numero de clientes: NO se publica. El 10-K solo dice 'Our top five customers ... accounted for 10%, 12%, and 11% of total revenue' y que ningun cliente supera el 10%.",
+      "Asientos, usuarios, pedidos, transacciones, almacenes o tiendas gestionadas: NO se publican.",
+      "RPO (2,2 bn, +25%): es valor contratado, precio x cantidad. NO es volumen.",
+      "Plantilla (aprox. 4.370 empleados a 31-12-2025): es un INSUMO, no una unidad de producto vendido.",
+      "Escaladores de precio contractuales o indexacion a IPC: NO se divulgan en el 10-K."
+    ],
+    "delator_Kraft_Heinz_evaluado": {
+      "resultado": "NO SE ACTIVA, pero deja bandera amarilla",
+      "evidencia_a_favor_del_delator": "Margen operativo sube de 25,1% a 25,9% (+80 pb) mientras las dos mayores lineas heredadas CAEN: servicios 525,517 -> 503,044 M (-4,3%) y mantenimiento 138,304 -> 129,972 M (-6,0%). Crecimiento total desacelera a +3,7%. En enero de 2025 se eliminaron ~100 puestos para 'alinear la capacidad de servicios con la demanda'.",
+      "evidencia_en_contra": "La linea que manda crece con fuerza: suscripciones cloud 337,203 -> 408,138 M (+21,0%), y el libro contratado RPO sube 25% hasta ~2,2 bn (2,0x los ingresos anuales). La caida de mantenimiento es conversion deliberada a cloud, declarada en el propio 10-K. Un cosechador de foso no aumenta su backlog contratado un 25%."
+    },
+    "cifra": "Precio/mix NO derivable: no existe divisor de volumen publicado. Como referencia declarada, el ingreso por empleado paso de 238,5 kUSD (1.042,4 M / 4.370 aprox. en 2024, aproximado) a 247,5 kUSD en 2025 — pero eso mide productividad de insumo, NO precio, y por eso NO se usa para decidir la puerta.",
+    "cita": "10-K FY2025, Item 7: 'Total cloud revenue increased from $337.2 million in 2024 to $408.1 million in 2025, representing a 21% year-over-year increase ... As of December 31, 2025, our RPO was approximately $2.2 billion, an increase of 25% over December 31, 2024'. Y en Item 1: 'Our top five customers (new or pre-existing) in the aggregate accounted for 10%, 12%, and 11% of total revenue' — el unico recuento de clientes que la empresa publica, y no es un volumen."
+  },
+
+  "G4": {
+    "veredicto": "NO",
+    "titular": "MANH SI atraveso una prueba severa (2009: ingresos -27%, licencias -47%) y su conducta documentada fue COSECHAR, no ensanchar el foso. Y sobre todo: NO HAY CICATRIZ. El margen operativo SUBIO 90 pb mientras las ventas caian 27%. Sin cicatriz nombrada, la puerta no se otorga.",
+    "contraccion_identificada": {
+      "episodio": "Gran Crisis Financiera, ejercicio 2009",
+      "magnitud": "Ingresos totales 337,201 M (2008) -> 246,667 M (2009) = -26,9%. Ingresos por licencia 65,313 -> 34,686 M = -46,9%. Servicios 235,967 -> 189,850 = -19,5%. Hardware -38%.",
+      "severidad": "La linea discrecional (licencia nueva) cae 47%, muy por encima del -30% del listen. A nivel de compania la caida es -26,9%, tres puntos por debajo del umbral literal de -30%. Se juzga como prueba genuina porque el nuevo negocio se derrumbo casi a la mitad y la empresa reestructuro DOS ejercicios seguidos."
+    },
+    "conducta_en_la_prueba": {
+      "I_D": "48,407 M (2008) -> 36,681 M (2009) = -24,2% en DOLARES ABSOLUTOS. Intensidad sobre ventas 14,4% -> 14,9%, es decir mantuvo el porcentaje pero recorto casi una cuarta parte del gasto real de innovacion.",
+      "ventas_y_marketing": "51,177 -> 36,137 M = -29,4%",
+      "plantilla": "Reestructuraciones en 2008 (4,667 M) y 2009 (3,882 M), ambas por 'employee severance and outplacement services resulting from the workforce reduction initiatives'. Plantilla al cierre de 2009: 1.819 personas.",
+      "margen": "Margen operativo 7,7% (2008) -> 8,6% (2009), SUBE 90 pb. Beneficio positivo todo el episodio."
+    },
+    "cicatriz_exigida": "NO EXISTE. No hay una sola linea del P&L o del balance que se deteriorara para pagar una ampliacion del foso. Al contrario: todas las lineas de capacidad competitiva (I+D, V&M, plantilla) se contrajeron y el margen se expandio. Este es exactamente el patron inverso al precedente ASML 2009 (I+D sostenida al 29% de unas ventas colapsadas y perdidas asumidas).",
+    "rivales_reduciendo": "NO ACREDITADO CON FUENTE PRIMARIA. Se identifican por nombre los rivales que el propio 10-K declara (Oracle, SAP, Infor, Blue Yonder/Panasonic ex-JDA, Infios ex-Korber/HighJump, E2Open, Relex, Aptos), pero NO se ha localizado filing primario que documente reduccion de capacidad de dos de ellos en 2009. Hueco declarado, no rellenado. En cualquier caso es irrelevante para el veredicto: aunque los rivales hubieran recortado mas, MANH no AUMENTO su capacidad, la redujo.",
+    "COVID_2020_evaluado": "No califica como contraccion severa: ingresos 617,949 -> 586,372 M = -5,1%. Ademas la conducta fue la misma: I+D 87,608 -> 84,276 M (-3,8% absoluto) y V&M 56,860 -> 47,758 M (-16,0%). Margen operativo 18,8% -> 19,5%, sube.",
+    "cifra": "I+D -24,2% en 2009 (48,407 -> 36,681 M) con margen operativo SUBIENDO 90 pb (7,7% -> 8,6%) sobre ventas -26,9%. Cero cicatriz.",
+    "cita": "10-K FY2009 (acc. 0000950123-10-014461), Results of Operations: 'Research and development 36,681 / 48,407 / 46,594 ... -24%'; 'Total revenue 246,667 / 337,201 / 337,401 ... -27%'; 'Income from operations $21,142 ... Operating margin 8.6% / 7.7% / 12.8%'; nota (1): 'The restructuring charge of $3.9 million and $4.7 million in 2009 and 2008, respectively, mainly represents employee severance and outplacement services resulting from the workforce reduction initiatives executed in the respective year.'",
+    "lectura_alternativa_declarada": "Un juez estricto con el umbral literal diria: -26,9% < -30%, luego 'nunca atraveso una contraccion severa' y el veredicto seria NO_PROBADA (etiqueta maxima PRESUNTA). La rechazo porque NO_PROBADA significa 'no tenemos informacion' y aqui SI la tenemos, y es informacion negativa y nitida: la empresa fue puesta a prueba con las licencias cayendo 47% y respondio recortando innovacion y protegiendo margen. Fingir ignorancia seria peor que juzgar."
+  },
+
+  "G2": {
+    "veredicto": "NO",
+    "titular": "La pista de reinversion es CORTA. MANH no puede absorber capital: reinvierte 11,7% de las ventas (19,2% en la lectura mas generosa), muy por debajo del 25% exigido. El ROIIC ex-margen queda en 14,5%, justo por debajo del 15%.",
+    "definicion_usada": "Reinversion = capex + I+D + marca + adquisiciones + variacion de circulante. Caso base SIN ventas&marketing (la partida de MANH es fuerza comercial directa, no construccion de marca). Caso generoso CON V&M integro. Adquisiciones = 0 en toda la ventana reciente (ultima compra registrada: 2,773 M en 2014). Variacion de circulante NEGATIVA todos los anios porque el cliente prepaga.",
+    "serie_reinversion": {
+      "cabecera": ["anio","capex","I+D","var.circulante","reinversion base","% ventas base","reinversion +V&M","% ventas +V&M"],
+      "filas": [
+        [2020, 2.730, 84.276, -9.390, 77.6, 13.2, 125.4, 21.4],
+        [2021, 4.016, 97.628, -25.936, 75.7, 11.4, 133.6, 20.1],
+        [2022, 6.587, 111.877, -15.962, 102.5, 13.4, 167.0, 21.8],
+        [2023, 4.730, 126.814, -19.834, 111.7, 12.0, 186.2, 20.0],
+        [2024, 8.675, 137.689, -6.334, 140.0, 13.4, 216.0, 20.7],
+        [2025, 15.457, 145.062, -33.874, 126.6, 11.7, 207.8, 19.2]
+      ]
+    },
+    "umbral_puerta": "Reinversion >= 25% de VENTAS. FALLA en las dos lecturas y en los seis anios.",
+    "reinversion_pct_NOPAT": 58.8,
+    "reinversion_pct_NOPAT_nota": "ESTO ES SOBRE NOPAT, NO SOBRE VENTAS — es la tasa que entra en la identidad g = tasa x ROIIC. 126,6 / 215,3 = 58,8% en 2025 (media 2021-2025 = 66,4%). En la lectura generosa con V&M seria 96,5%, pero esa lectura es incoherente porque V&M ya esta deducido del NOPAT. La tasa sobre VENTAS, que es la que decide la puerta, es 11,7%.",
+    "roiic_bruto_pct": 25.2,
+    "roiic_ex_margen_pct": 14.5,
+    "descomposicion_ROIIC": {
+      "NOPAT_2020": 87.5,
+      "NOPAT_2025": 215.3,
+      "delta_NOPAT": 127.8,
+      "parte_volumen_a_margen_constante": "73,8 M (margen NOPAT 2020 = 14,92% aplicado a las ventas de 2025: 161,3 M, menos 87,5 M)",
+      "parte_expansion_de_margen": "54,0 M (42% del incremento total)",
+      "suma_reinversion_5_anios_previos_2020_2024": 507.6,
+      "ROIIC_bruto": "127,8 / 507,6 = 25,2% — SUPERA el 15%",
+      "ROIIC_ex_margen": "73,8 / 507,6 = 14,5% — NO llega al 15%. Es el que mide productividad real del capital, y suspende por medio punto.",
+      "lectura_generosa_con_VyM": "ROIIC bruto 15,4%, ROIIC ex-margen 8,9%",
+      "comprobacion_identidad": "g = 58,8% x 25,2% = 14,8%. CAGR real del NOPAT 2020-2025 = 19,7%. La diferencia la explica precisamente la expansion de margen que el ROIIC ex-margen deja fuera."
+    },
+    "interpretacion": "El 42% del crecimiento del NOPAT en cinco anios es recuperacion de margen desde el suelo de la transicion cloud (14,9% en 2020 -> 19,9% en 2025), no productividad del capital nuevo. Y el capital nuevo es minusculo: 15,5 M de capex sobre 1.081 M de ventas. Es un negocio que no PUEDE tragar capital: excelente para el accionista por unidad reinvertida, pero sin pista larga por la que hacer rodar dinero.",
+    "cifra": "Reinversion 126,6 M = 11,7% de ventas (19,2% incluyendo todo V&M) vs umbral 25%. ROIIC bruto 25,2%, ROIIC ex-margen 14,5%. Reinversion sobre NOPAT 58,8%.",
+    "cita": "10-K FY2025, Consolidated Statements of Income: 'Research and development 145,062 / 137,689 / 126,814 ... Sales and marketing 81,175 / 75,976 / 74,490'; Consolidated Statements of Cash Flows: 'Purchases of property and equipment (15,457) ... Deferred revenue 52,096 ... Accounts receivable, net (3,583) ... Other assets (14,729)'. No hay linea de adquisiciones en investing activities en ninguno de los tres ejercicios presentados.",
+    "efecto_en_etiqueta": "G2 NO SUSPENDE, decide especie. Como G4 ya falla, la especie es irrelevante: la etiqueta la fija el recuento de puertas."
+  },
+
+  "G6": {
+    "veredicto": "SI",
+    "poder": "COSTES DE CAMBIO (Helmer: switching costs), reforzado por PROCESO acumulado en funcionalidad de dominio de ejecucion de cadena de suministro.",
+    "magnitud_en_la_unidad_propia_del_poder": {
+      "unidad": "coste de reimplantacion que el cliente debe volver a pagar para irse, medido contra la cuota anual de software",
+      "medida_2025": "Servicios profesionales 503,044 M frente a software (cloud 408,138 + licencia 14,819 = 422,957 M): la factura de implantacion equivale a 1,19x el gasto anual de software. Cambiar de proveedor obliga a repetir un desembolso de ese orden, ademas de reimplantar el sistema nervioso operativo de los centros de distribucion en vivo.",
+      "medida_de_permanencia": "Contratos cloud 'typically five years or more'. RPO ~2,2 bn = 2,03x los ingresos anuales de 2025, con 'over 98% of our RPO represent cloud native subscriptions with a non-cancelable term greater than one year'. RPO +25% interanual.",
+      "medida_de_renovacion": "'Substantially all of our customers renew their annual support contracts or convert their maintenance contracts to cloud subscriptions' (10-K FY2025, Item 7).",
+      "medida_de_expansion": "44% del valor de las nuevas suscripciones cloud no cancelables firmadas en 2025 fue con clientes EXISTENTES: el foso no solo retiene, vende mas dentro."
+    },
+    "caducidad": "MAS DE 10 ANIOS. Justificacion: (a) los sistemas WMS/OMS son infraestructura de ejecucion con vidas de 10-20 anios en el cliente; (b) Manhattan Active es 'versionless yet highly extensible ... a single fully up-to-date codebase' con 'zero downtime updates', lo que ELIMINA el evento de migracion mayor que historicamente era la unica ventana en que un cliente reevaluaba proveedor; (c) el propio libro contratado (RPO, 5+ anios de plazo tipico) ya cubre por si solo mas de un lustro de visibilidad.",
+    "busqueda_de_arranque_del_reloj_24_meses": {
+      "resultado": "NO SE DETECTA ARRANQUE DEL RELOJ, con una bandera amarilla que hay que vigilar",
+      "sospechosos_examinados": [
+        "Desaceleracion de ingresos totales a +3,7% en 2025 (vs +13,4% en 2024) — pero es composicion: mantenimiento -6,0% por conversion deliberada a cloud, servicios -4,3%.",
+        "Recorte de ~100 puestos en enero de 2025 'to align our services capacity with customer demand which has been impacted by short-term macro-economic uncertainty' (2,9 M de reestructuracion) — es la senal mas cercana a un reloj: si las implantaciones se aplazan, las reservas cloud lo acaban notando.",
+        "Competencia nombrada por la propia empresa: Oracle, SAP, Infor, Blue Yonder/Panasonic, Infios (ex-Korber/HighJump), E2Open, Relex, Aptos, Salesforce. Ninguna evidencia en filing de perdida de posicion.",
+        "IA agentica como posible reseteo de arquitectura: riesgo real de sector, sin evidencia de materializacion."
+      ],
+      "contrapeso_decisivo": "El libro contratado no cancelable crecio 25% y las suscripciones cloud 21% en el mismo ejercicio en que los ingresos totales solo crecieron 3,7%. Un foso que se esta erosionando no aumenta su backlog contratado una cuarta parte."
+    },
+    "cita": "10-K FY2025, Item 7: 'Over 98% of our RPO represent cloud native subscriptions with a non-cancelable term greater than one year ... As of December 31, 2025, our RPO was approximately $2.2 billion, an increase of 25% over December 31, 2024 on strong demand'; 'Cloud subscriptions revenue is recognized over the term of the agreement, typically five years or more'; 'Substantially all of our customers renew their annual support contracts or convert their maintenance contracts to cloud subscriptions'; Item 1: 'a versionless yet highly extensible experience for our customers ... zero downtime updates'."
+  },
+
+  "recuento": {
+    "puertas_que_cuentan": ["G5","G1","G3","G4","G6"],
+    "G5": "SI_REFORZADO -> pasa",
+    "G1": "SI -> pasa (por construccion)",
+    "G3": "NO_MEDIBLE -> no cuenta como fallo",
+    "G4": "NO -> FALLA",
+    "G6": "SI -> pasa",
+    "G2": "NO -> solo decidiria especie (ULTRA-C) si hubiera 6 de 6; no aplica",
+    "puertas_pasadas": 5,
+    "etiqueta": "MUY_BUENA"
+  },
+
+  "confianza": "MEDIA",
+  "puerta_mas_dudosa": "G4",
+  "por_que_G4_es_la_dudosa": "Es exactamente la bisagra del desempate. La caida de 2009 fue -26,9% a nivel de compania, tres puntos por debajo del umbral literal de -30% del sector. Con el umbral leido a rajatabla, G4 seria NO_PROBADA y la etiqueta saltaria a PRESUNTA; leyendo la caida del 47% en licencias y las dos reestructuraciones consecutivas como prueba genuina, G4 es un NO limpio (I+D -24% en dolares, margen operativo AL ALZA, cicatriz inexistente) y la etiqueta es MUY_BUENA. Apuesto por NO porque tenemos evidencia abundante y desfavorable, y NO_PROBADA declararia ignorancia donde hay informacion.",
+  "frontera_declarada": "MANH esta genuinamente en la frontera en DOS sitios a la vez, y eso explica que dos analistas previos discreparan: (1) G4 entre NO y NO_PROBADA (-26,9% vs -30%); (2) G2 con el ROIIC EX-MARGEN en 14,5% frente a un umbral de 15% — medio punto porcentual. Si el ROIIC ex-margen se hubiera situado en 15,1% y G4 hubiera pasado, la etiqueta seria ULTRA-R. No es un caso limpio y no conviene fingir que lo es.",
+
+  "resumen": "Manhattan Associates es una maquina de caja de calidad excepcional montada sobre un capital invertido operativo NEGATIVO: 262,8 M de FCF post-SBC completa (24,3% de ventas) sobre 15,5 M de capex, con el CFO por encima del beneficio neto en los diez ejercicios de la ventana y un Sloan de -21,2%. G5 aprueba reforzado y G1 pasa por construccion. El foso es real y medible en su propia unidad: la factura de implantacion equivale a 1,19x la cuota anual de software, los contratos duran cinco anios o mas y el libro no cancelable (RPO 2,2 bn, +25%) vale dos veces los ingresos anuales; G6 aprueba con caducidad por encima de diez anios. Falla en dos sitios. G4 es el fallo duro: la unica prueba severa que ha atravesado (2009, ingresos -27%, licencias -47%) la resolvio cosechando — recorto I+D un 24% en dolares, V&M un 29%, despidio dos anios seguidos y EXPANDIO el margen operativo 90 puntos basicos. No hay una sola linea del P&L o del balance que se deteriorara para ensanchar el foso, y sin cicatriz la puerta no se otorga. G2 confirma que la pista es corta: reinvierte 11,7% de las ventas frente al 25% exigido, y el ROIIC ex-margen se queda en 14,5% porque el 42% del crecimiento del NOPAT en cinco anios es recuperacion de margen, no productividad del capital nuevo. G3 es NO_MEDIBLE sin excusas: la empresa no publica ninguna magnitud unitaria, y el margen observado no es elasticidad. Cinco de seis: MUY_BUENA. Confianza MEDIA — la empresa esta en la frontera por dos sitios, y ese es el hallazgo, no una evasiva."
+}

@@ -1,0 +1,48 @@
+{
+ "ticker": "AVGO",
+ "name": "Broadcom Inc.",
+ "currency": "USD",
+ "price_verified": 392.13,
+ "price_source": "StockAnalysis.com (close Jun 22, 2026); cross-checked vs Yahoo Finance / CNN markets (~$392-393)",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 4.876,
+ "implied_mcap_b_usd": 1912,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 10.2,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.18,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF = FCF reportado - 100% SBC. FY2025 base: FCF $26.9B - SBC ~$6.0B (9.4% de ingresos $63.9B) = ~$20.9B. Pero FY2025 es el ano de ARRANQUE del ciclo AI; el FCF se esta acelerando con fuerza (Q2 FY2026 FCF solo = $10.26B, 46% de ingresos). DCF ancla el ano base en el owner FCF FORWARD FY2026 (~$35B): ingresos FY2026 est. ~$100B (Q1 ~16 + Q2 22.2 + Q3 guia 29.4 + Q4 ~32), margen FCF ~44% -> FCF ~$44B, menos SBC ~$9.4B (9.4%) = owner FCF FY2026 ~$34.6B. Escenarios usan of0: cons $33B / base $35B / opt $38B.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 167,
+   "prob": 0.38,
+   "note": "Ramp AI real pero desacelera mas rapido; competencia NVIDIA en GPU, plateau en ASIC custom de hyperscalers, software/VMware sin reaceleracion. Fase1 g=15%, Fase2 glide 10%->5%, g terminal 2.5%. of0=$33B. Menos deuda neta $45.28B / 4.876B acc."
+  },
+  "base": {
+   "iv_per_share": 255,
+   "prob": 0.47,
+   "note": "AI sostenido fuerte FY2027-2030 (XPU/networking de hyperscalers), luego normaliza. Fase1 g=21%, Fase2 glide 13%->6%, g terminal 3.0%. of0=$35B."
+  },
+  "optimista": {
+   "iv_per_share": 411,
+   "prob": 0.15,
+   "note": "Se cumple objetivo >$100B ingresos AI hacia FY2027; dominio sostenido en ASIC de hyperscalers + networking. Fase1 g=28%, Fase2 glide 16%->7%, g terminal 3.5%. of0=$38B."
+  }
+ },
+ "iv_dcf_weighted": 245.26,
+ "multiple_metric": "P/E adelantado (non-GAAP), con cross-check EV/FCF",
+ "fwd_multiple_now": 33.7,
+ "fwd_multiple_5y_avg": 22,
+ "fair_multiple": 25,
+ "multiple_rationale": "fwd P/E actual = $392.13 / EPS non-GAAP FY2026 ~$11.62 (consenso StockAnalysis; BofA $11.60) = 33.7x. NOTA: el fwd_pe 24.9x del JSON es un artefacto de agregador poco fiable (inconsistente con run-rate de $2.44/trim y EPS FY2026 ~$11.6). Media 5a del fwd P/E ~22x (pre-AI cotizaba 15-18x, re-rated a 30s en FY2024-25). fair_multiple = 25x: prima moderada sobre la media 5a (22x) por la franquicia AI/ASIC estructuralmente probada y margenes FCF 40%+, pero con HAIRCUT disciplinado desde el 33.7x actual (algo de espuma post-rally). iv_multiple = EPS non-GAAP FY2027 ~$16.5 (blend: FY2026 $11.62 creciendo ~40%; BofA FY2027 $17.93) x 25x = $412.50. EV/FCF actual ~58x (TTM) vs media ~30x corrobora valoracion exigente.",
+ "iv_multiple": 412.5,
+ "weight_dcf": 0.52,
+ "weight_multiple": 0.48,
+ "reconciled_iv": 325.54,
+ "structural_change": "Cambio estructural POSITIVO y genuino (no ciclico): Broadcom paso de proveedor de semis maduro a franquicia lider en ASICs de IA custom (XPU) y networking para hyperscalers (Google TPU, Meta, etc.), con ingresos AI-semi +143% YoY en Q2 FY2026 ($10.8B) y guia Q3 AI ~$16B (+>200% YoY). Adicion de VMware (software de infraestructura, ingresos recurrentes) eleva margenes y reduce ciclicidad. Por eso el haircut al multiplo es minimo. CONTRAPESOS de riesgo: alta concentracion de clientes (pocos hyperscalers), dependencia del capex AI de terceros (potencial sobre-construccion/digestion), competencia NVIDIA, y deuda neta $45.28B (1.05x EBITDA) por VMware. Software/VMware decepciono en Q2 (motivo de la caida -21% desde ATH).",
+ "sanity_notes": "SANITY CHECK OK. implied_mcap = $392.13 x 4.876B = $1,912B, coincide con escala conocida (~$1.87-1.91T). Acciones diluidas VERIFICADAS del press release Q2 FY2026 (4,876M). IV reconciliado $325.54 esta dentro de la banda de magnitud 30-300% del precio ($118-$1176); sin error de unidades/moneda/acciones. PESOS: 0.52 DCF / 0.48 multiplo — inclinacion ligera al DCF porque, pese a ser compounder de calidad probada, AVGO tiene exposicion ciclica al capex AI de hyperscalers, concentracion de clientes e incertidumbre de ramp (no es un compounder de consumo estable tipo 0.35/0.65). Gran divergencia DCF ($245) vs multiplo ($413): clasico problema del compounder en hipercrecimiento — el DCF puro infra-credita la reinversion a ROIC alto durante el ramp AI; el ancla de multiplo lo corrige al alza. reconciled_iv $325.54 esta ~17% POR DEBAJO del precio actual $392.13: incluso tras la caida de -21% desde ATH, la accion descuenta ya un escenario AI cercano al optimista (cotiza a 33.7x fwd vs 22x media 5a). Margen de seguridad negativo a precio actual bajo supuestos disciplinados. CAVEATS: fwd_pe del JSON (24.9x) no fiable, recalculado a 33.7x sobre EPS FY2026 $11.62; EPS FY2027 ($16.5) es estimacion de consenso con dispersion alta dada la velocidad del ramp AI."
+}

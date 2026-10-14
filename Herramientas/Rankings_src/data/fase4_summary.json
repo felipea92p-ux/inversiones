@@ -1,0 +1,467 @@
+{
+ "phase": "FASE4",
+ "rows": [
+  {
+   "ticker": "WKL.AS",
+   "iv_weighted": 162.09,
+   "mos": 65.1,
+   "label": "GANGA FUERTE"
+  },
+  {
+   "ticker": "PGHN.SW",
+   "iv_weighted": 1570.65,
+   "mos": 57.4,
+   "label": "GANGA FUERTE"
+  },
+  {
+   "ticker": "ADBE",
+   "iv_weighted": 435.8,
+   "mos": 56,
+   "label": "GANGA FUERTE"
+  },
+  {
+   "ticker": "7974.T",
+   "iv_weighted": 13860,
+   "mos": 49.5,
+   "label": "GANGA FUERTE"
+  },
+  {
+   "ticker": "ADYEN.AS",
+   "iv_weighted": 1708.65,
+   "mos": 48.8,
+   "label": "GANGA FUERTE"
+  },
+  {
+   "ticker": "ACN",
+   "iv_weighted": 226.66,
+   "mos": 44.9,
+   "label": "GANGA FUERTE"
+  },
+  {
+   "ticker": "IT",
+   "iv_weighted": 223.64,
+   "mos": 43.8,
+   "label": "GANGA FUERTE"
+  },
+  {
+   "ticker": "INTU",
+   "iv_weighted": 396.53,
+   "mos": 35,
+   "label": "GANGA FUERTE"
+  },
+  {
+   "ticker": "NOW",
+   "iv_weighted": 134.42,
+   "mos": 30.8,
+   "label": "GANGA FUERTE"
+  },
+  {
+   "ticker": "VEEV",
+   "iv_weighted": 216.52,
+   "mos": 29.3,
+   "label": "GANGA FUERTE"
+  },
+  {
+   "ticker": "CFR.SW",
+   "iv_weighted": 257.18,
+   "mos": 29.1,
+   "label": "GANGA FUERTE"
+  },
+  {
+   "ticker": "6273.T",
+   "iv_weighted": 102507.5,
+   "mos": 27.6,
+   "label": "GANGA FUERTE"
+  },
+  {
+   "ticker": "RMD",
+   "iv_weighted": 259.23,
+   "mos": 26.9,
+   "label": "GANGA FUERTE"
+  },
+  {
+   "ticker": "CME",
+   "iv_weighted": 314.16,
+   "mos": 22,
+   "label": "GANGA FUERTE"
+  },
+  {
+   "ticker": "APP",
+   "iv_weighted": 601.28,
+   "mos": 21.9,
+   "label": "GANGA FUERTE"
+  },
+  {
+   "ticker": "BKNG",
+   "iv_weighted": 208.76,
+   "mos": 19.6,
+   "label": "OPORTUNIDAD"
+  },
+  {
+   "ticker": "LLY",
+   "iv_weighted": 1298.93,
+   "mos": 15.2,
+   "label": "OPORTUNIDAD"
+  },
+  {
+   "ticker": "FDS",
+   "iv_weighted": 247.35,
+   "mos": 11.6,
+   "label": "OPORTUNIDAD"
+  },
+  {
+   "ticker": "CBOE",
+   "iv_weighted": 288.94,
+   "mos": 11.4,
+   "label": "OPORTUNIDAD"
+  },
+  {
+   "ticker": "ADP",
+   "iv_weighted": 234.61,
+   "mos": 8.5,
+   "label": "APEX A PRECIO JUSTO"
+  },
+  {
+   "ticker": "MMC",
+   "iv_weighted": 174.43,
+   "mos": 8.2,
+   "label": "APEX A PRECIO JUSTO"
+  },
+  {
+   "ticker": "RACE",
+   "iv_weighted": 376.05,
+   "mos": 7.3,
+   "label": "APEX A PRECIO JUSTO"
+  },
+  {
+   "ticker": "7741.T",
+   "iv_weighted": 28560.43,
+   "mos": 5.6,
+   "label": "APEX A PRECIO JUSTO"
+  },
+  {
+   "ticker": "6861.T",
+   "iv_weighted": 81870.02,
+   "mos": 4.7,
+   "label": "APEX A PRECIO JUSTO"
+  },
+  {
+   "ticker": "CPRT",
+   "iv_weighted": 30.8,
+   "mos": 4.3,
+   "label": "APEX A PRECIO JUSTO"
+  },
+  {
+   "ticker": "MA",
+   "iv_weighted": 495.51,
+   "mos": 2.3,
+   "label": "APEX A PRECIO JUSTO"
+  },
+  {
+   "ticker": "IBKR",
+   "iv_weighted": 98.67,
+   "mos": 1.9,
+   "label": "APEX A PRECIO JUSTO"
+  },
+  {
+   "ticker": "OR.PA",
+   "iv_weighted": 382.06,
+   "mos": 1,
+   "label": "APEX A PRECIO JUSTO"
+  },
+  {
+   "ticker": "VRSK",
+   "iv_weighted": 169.65,
+   "mos": 0.4,
+   "label": "APEX A PRECIO JUSTO"
+  },
+  {
+   "ticker": "REL.L",
+   "iv_weighted": 23.07,
+   "mos": -2.3,
+   "label": "APEX A PRECIO JUSTO"
+  },
+  {
+   "ticker": "MC.PA",
+   "iv_weighted": 465.34,
+   "mos": -3.4,
+   "label": "APEX A PRECIO JUSTO"
+  },
+  {
+   "ticker": "V",
+   "iv_weighted": 302.02,
+   "mos": -8.3,
+   "label": "APEX A PRECIO JUSTO"
+  },
+  {
+   "ticker": "VRSN",
+   "iv_weighted": 223.12,
+   "mos": -11,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "EQT.ST",
+   "iv_weighted": 224.46,
+   "mos": -19.5,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "FICO",
+   "iv_weighted": 912.08,
+   "mos": -19.6,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "MSFT",
+   "iv_weighted": 305.48,
+   "mos": -20.3,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "VRTX",
+   "iv_weighted": 380.68,
+   "mos": -22.6,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "SPGI",
+   "iv_weighted": 328.98,
+   "mos": -23.8,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "RMS.PA",
+   "iv_weighted": 1298.35,
+   "mos": -24.8,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "ATCO-B.ST",
+   "iv_weighted": 137.88,
+   "mos": -25.4,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "ANET",
+   "iv_weighted": 129.99,
+   "mos": -34.3,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "GRMN",
+   "iv_weighted": 170.68,
+   "mos": -38.5,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "PLTR",
+   "iv_weighted": 85.95,
+   "mos": -39,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "MSCI",
+   "iv_weighted": 374.52,
+   "mos": -55.1,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "NFLX",
+   "iv_weighted": 46.4,
+   "mos": -57.1,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "MTD",
+   "iv_weighted": 734.86,
+   "mos": -58.4,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "BX",
+   "iv_weighted": 76.18,
+   "mos": -61.8,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "EPI-A.ST",
+   "iv_weighted": 170.4,
+   "mos": -62.6,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "TPL",
+   "iv_weighted": 220.73,
+   "mos": -63.6,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "MNST",
+   "iv_weighted": 56.65,
+   "mos": -64.2,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "EW",
+   "iv_weighted": 52.01,
+   "mos": -65.1,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "NVDA",
+   "iv_weighted": 121.94,
+   "mos": -71.1,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "ASM.AS",
+   "iv_weighted": 624.98,
+   "mos": -71.2,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "IDXX",
+   "iv_weighted": 312.7,
+   "mos": -74.5,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "MCO",
+   "iv_weighted": 254.8,
+   "mos": -75.6,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "FTNT",
+   "iv_weighted": 82.09,
+   "mos": -77.1,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "ISRG",
+   "iv_weighted": 219,
+   "mos": -84,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "AME",
+   "iv_weighted": 129.76,
+   "mos": -86.2,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "COST",
+   "iv_weighted": 506.9,
+   "mos": -87.7,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "ASML",
+   "iv_weighted": 1009.44,
+   "mos": -91.1,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "CTAS",
+   "iv_weighted": 85.86,
+   "mos": -97.4,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "GOOGL",
+   "iv_weighted": 175.12,
+   "mos": -99.7,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "WST",
+   "iv_weighted": 162.08,
+   "mos": -103.4,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "TSM",
+   "iv_weighted": 228.78,
+   "mos": -104.4,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "6857.T",
+   "iv_weighted": 15550.43,
+   "mos": -106.9,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "LIN",
+   "iv_weighted": 246.9,
+   "mos": -109.3,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "VACN.SW",
+   "iv_weighted": 305.52,
+   "mos": -131.3,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "ODFL",
+   "iv_weighted": 92.97,
+   "mos": -136.1,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "AVGO",
+   "iv_weighted": 156.25,
+   "mos": -151,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "6920.T",
+   "iv_weighted": 22781.25,
+   "mos": -152.4,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "AAPL",
+   "iv_weighted": 116.55,
+   "mos": -154.8,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "8035.T",
+   "iv_weighted": 27473.83,
+   "mos": -174.3,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "CDNS",
+   "iv_weighted": 135.37,
+   "mos": -187.4,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "6146.T",
+   "iv_weighted": 29298.6,
+   "mos": -202,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "LRCX",
+   "iv_weighted": 113.85,
+   "mos": -259.7,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "TXN",
+   "iv_weighted": 79.12,
+   "mos": -320,
+   "label": "CARO / MOMENTUM"
+  },
+  {
+   "ticker": "KLAC",
+   "iv_weighted": 47.98,
+   "mos": -461,
+   "label": "CARO / MOMENTUM"
+  }
+ ]
+}

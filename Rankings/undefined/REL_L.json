@@ -1,0 +1,268 @@
+{
+  "expediente": "REL.L — RELX PLC — Valoracion (Paso 10, DCF inverso con WACC de mercado)",
+  "fecha_analisis": "2026-07-27",
+  "divisa": "USD (cifras operativas en GBP, convertidas a USD a 1,3292 USD/GBP)",
+  "unidades": "millones salvo indicacion",
+  "analista": "Valorador — calidad CONGELADA, no reclasificable",
+
+  "identificacion": {
+    "ticker": "REL.L (ordinaria, LSE) / RELX (ADS, NYSE) / REN (Euronext Amsterdam)",
+    "nombre": "RELX PLC",
+    "cik": "0000929869",
+    "domicilio": "Reino Unido (London, 1-3 Strand). Emisor extranjero privado: presenta 20-F e IFRS.",
+    "bolsa_principal": "London Stock Exchange",
+    "moneda_funcional_y_de_presentacion": "GBP (libra esterlina) — HECHO, todos los estados del 20-F FY2025 estan en GBPm",
+    "es_ADS": true,
+    "ratio_ADS": "1 ADS = 1 accion ordinaria",
+    "nota_ADS": "VERIFICADO POR ARBITRAJE: ordinaria 2.682,0p x 1,3292 USD/GBP = 35,65 USD; ADS cotiza 35,66 USD el 27-jul-2026 (IBKR, 20:07 UTC). Coincidencia a 0,03% => ratio 1:1 confirmado. Si fuese 1 ADS = 2 ordinarias el ADS valdria ~71 USD. No hay dilucion oculta por ADS.",
+    "clase_unica": "Si. Tras la unificacion de 2018 (disolucion de RELX N.V.) existe una sola clase de ordinarias de RELX PLC."
+  },
+
+  "etiqueta_congelada": {
+    "banda": "MUY_BUENA",
+    "puertas_pasadas": 4,
+    "especie": "G2",
+    "reinversion_pct_ventas": 5.5,
+    "roiic_bruto_pct": 21.8,
+    "roiic_ex_margen_pct": 14.3,
+    "mos_exigido_pct": 30.0,
+    "motivo_mos": "No esta en cartera => aplica el umbral de ABRIR de su banda (30%). Si estuviese en cartera seria CARGAR con 40%.",
+    "nota_disciplina": "La etiqueta NO se reclasifica hacia arriba. El precio no es evidencia de calidad. Nada de lo hallado aqui toca las 4 puertas.",
+    "mecanismo_heredado": "Cuatro archivos de datos no reconstruibles con capital (corpus cientifico, historico legal, ficheros de identidad/riesgo, calendario de ferias) cobrados por suscripcion anticipada (54% de ingresos), con capital invertido tangible negativo.",
+    "eslabon_mas_debil_heredado": "No hay poder de fijacion de precios demostrable: en el unico trozo donde se publica una unidad vendida el ingreso por unidad CAE (-9,0% 2024, -4,9% 2025); en el 55,2% de los ingresos (Risk + Legal) no se publica ninguna unidad. Todo el crecimiento medible es volumen y mix => ROIIC ex-margen 14,3%, justo por debajo del umbral."
+  },
+
+  "precio_y_capitalizacion": {
+    "precio_ordinaria_gbp": 26.82,
+    "precio_ordinaria_peniques": 2682.0,
+    "precio_usd": 35.65,
+    "precio_etiqueta": "HECHO (dato vivo de mercado)",
+    "precio_fuente": "IBKR market data, contract_id 48005591 (REL, LSE), ultima operacion 2026-07-27 15:35:38 UTC = 16:35 hora de Londres, es decir en el cierre. Contraste: ADS RELX (NYSE, contract_id 198167234) 35,66 USD a las 20:07 UTC del mismo dia.",
+    "tipo_de_cambio": 1.3292,
+    "fx_fuente": "IBKR IDEALPRO GBP/USD spot 27-jul-2026: bid 1,32915 / ask 1,32925, last 1,3292 — HECHO",
+    "maximo_52s_gbp": 39.54,
+    "minimo_52s_gbp": 19.91,
+    "maximo_13s_gbp": 27.65,
+    "contexto_precio": "DERRUMBE. La accion cotiza -32% interanual y -32,2% desde el maximo de 52 semanas (39,54 GBP). En febrero de 2026 marco 19,91 GBP, un -49,6% desde maximo. Volatilidad historica anualizada 37,0% (IBKR). El volumen de febrero-2026 (104,4m acciones en el mes) cuadruplica el mensual normal (~25m): fue una capitulacion, no una deriva. Esta es la primera vez en la serie de 5 anos que RELX cotiza por debajo de su nivel de hace tres anos.",
+    "acciones_en_circulacion_mm": 1745.7,
+    "acciones_fuente": "HECHO — Resultados interinos H1-2026 (6-K 2026-07-23, ex-99.1, pag. 13): 'As at 30 June 2026, total shares in issue, net of shares held in treasury and shares held by the Employee Benefit Trust, amounted to 1.749,8m. As at 22 July, a further 4,1m shares have been repurchased since 1 July 2026.' => 1.749,8 - 4,1 = 1.745,7m. Neto de autocartera y de EBT: es el denominador correcto.",
+    "capitalizacion_gbp_mm": 46820,
+    "capitalizacion_usd_mm": 62233,
+    "deuda_neta_gbp_mm": 8733,
+    "deuda_neta_usd_mm": 11608,
+    "deuda_neta_fuente": "HECHO — H1-2026: 'Net debt at 30 June 2026 was GBP8.733m'. Reconciliacion en pag. 12 del ex-99.1. Deuda bruta 30-jun-2026: corriente 2.343 + no corriente 6.563 = 8.906 (incluye 119 de arrendamientos); caja 220.",
+    "ev_gbp_mm": 55553,
+    "ev_usd_mm": 73841,
+    "nota_deuda": "La deuda neta salto de 7.201 (31-dic-2025) a 8.733 (30-jun-2026): +1.532m. NO es deterioro operativo — es 1.750m de recompra ejecutada en el semestre mas 103m de adquisiciones. Quedan 400m de recompra por ejecutar antes de fin de ano, que elevaran la deuda neta hacia ~9.100m. Net debt/EBITDA 2,3x (2,2x hace un ano). RELX se esta apalancando para recomprar acciones que el mercado esta tirando: en H1-2026 recompro 69,2m de acciones a 2.529p de media, un 5,7% por debajo del precio de hoy.",
+    "activo_pension_neto_gbp_mm": 87,
+    "nota_pension": "Activo neto de pension 236 (no corriente) menos obligaciones netas 149 = +87m neto. Inmaterial (0,2% del EV). No lo he sumado ni restado del EV."
+  },
+
+  "wacc_candado_B": {
+    "principio": "El WACC sale del mercado. NUNCA se hereda de un tier de calidad. Que RELX sea MUY_BUENA no le baja ni un punto basico el coste del capital.",
+    "tasa_libre_riesgo_pct": 4.98,
+    "rf_etiqueta": "INFERENCIA",
+    "rf_fuente": "Gilt britanico a 10 anos, 4,98% al 27-jul-2026 (TradingEconomics, via busqueda web con fecha). Moneda funcional = GBP => el rf es el soberano en GBP. NO pude alcanzar la fuente primaria (DMO, https://www.dmo.gov.uk/data/ExportReport?reportCode=D4H devolvio la pagina sin la tabla). Un segundo agregador daba 5,07% hace una semana. Banda plausible 4,95%-5,10%. HUECO DECLARADO.",
+    "prima_mercado_madura_pct": 4.20,
+    "erp_fuente": "Damodaran, actualizacion de julio 2026: ERP implicita del S&P 500 = 4,42%, ajustada a la baja en 0,22% por el default spread Aa1 de EEUU tras la rebaja de 2025 => prima de mercado madura 4,20%. Verificado leyendo el post 'Country Risk: Determinants, Measures and Implications - The 2026 Edition' (aswathdamodaran.blogspot.com, marzo/julio 2026).",
+    "prima_pais_pct": 0.61,
+    "prima_pais_metodo": "Prima pais ponderada por el pais del riesgo de ACTIVO (no por el domicilio fiscal britanico). Ingresos FY2025 por origen geografico (HECHO, 20-F FY2025 nota de segmentos): Norteamerica 5.595 (58,3%), Europa 2.000 (20,9%), Resto del mundo 1.995 (20,8%). CRP aplicada: EEUU 0,22% (Damodaran jul-2026), Europa desarrollada ~0,50%, Resto del mundo ~1,80%. Ponderada = 0,583x0,22 + 0,209x0,50 + 0,208x1,80 = 0,61%. INFERENCIA en las dos ultimas.",
+    "prima_mercado_total_pct": 4.81,
+    "beta": {
+      "beta_usado": 0.70,
+      "rango": "0,52 - 0,85",
+      "etiqueta": "INFERENCIA (medicion propia sobre precios de mercado)",
+      "medicion_1": "REL.L contra iShares Core FTSE 100 (ISF, LSEETF), 60 retornos mensuales jul-2021 a jul-2026: beta = 0,278, R2 = 0,025, error tipico = 0,229.",
+      "medicion_2": "ADS RELX contra SPY, 60 retornos mensuales mismo periodo: beta = 0,693, R2 = 0,281, error tipico = 0,146.",
+      "por_que_no_uso_0_28": "El beta local es ESTADISTICAMENTE BASURA: con R2 de 0,025 y error tipico 0,229, el intervalo de confianza al 95% va de -0,17 a 0,73. Un beta de 0,28 daria un coste de fondos propios de 6,3% para una accion con volatilidad realizada del 37% anual y una caida del 50% en cinco meses. Eso es incoherente y el modelo no puede usarlo. Yahoo Finance publica 0,28 (5Y monthly) — coincide con mi medicion y hereda el mismo defecto.",
+      "eleccion": "Beta central 0,70, entre el ajuste de Blume del beta local (0,33 + 0,67x0,278 = 0,52) y el beta ADS/SPY sin ajustar (0,69), redondeando hacia el mas informativo. Cota alta 0,85 = Blume sobre el ADS (0,79) mas holgura por la volatilidad reciente.",
+      "hueco": "No consegui un beta bottom-up sectorial citable (Damodaran 'Information Services', enero 2026). El beta es el parametro mas debil de este WACC."
+    },
+    "coste_deuda": {
+      "kd_pretax_pct": 4.31,
+      "metodo": "HECHO derivado del filing: costes financieros FY2025 = 298 GBPm (20-F FY2025, XBRL ifrs-full:FinanceCosts) sobre deuda bruta media = (6.544 + 7.267)/2 = 6.906 GBPm => 4,31%.",
+      "contraste_empresa": "La propia RELX declara 'the average interest rate on gross debt was 3,9%' en FY2025 (4,4% en 2024) y 3,6% en H1-2026 — HECHO, ex-99.1 de los 6-K. Mi 4,31% es mas conservador porque los costes financieros del XBRL incluyen intereses de arrendamiento y otras partidas.",
+      "coste_marginal_hoy": "Superior. RELX emitiria hoy en GBP a gilt 4,98% + ~90-110 pb de diferencial (emisor A3/BBB+) = ~6,0%. Emite mayoritariamente en USD y EUR, donde es mas barato. Uso 6,0% como cota alta del rango.",
+      "tasa_impositiva_pct": 22.5,
+      "tasa_impositiva_fuente": "HECHO — tasa efectiva ajustada declarada FY2025: 22,5% (2024: 22,5%; H1-2026: 22,8%).",
+      "kd_postax_pct": 3.34
+    },
+    "ponderaciones": {
+      "metodo": "A valor de MERCADO. Fondos propios = capitalizacion 46.820 GBPm; deuda = deuda neta 8.733 GBPm (la deuda bruta cotiza cerca de la par: 8.906 nominal, el 30% vence en menos de un ano).",
+      "peso_equity_pct": 84.28,
+      "peso_deuda_pct": 15.72
+    },
+    "coste_fondos_propios_pct": 8.35,
+    "wacc_pct": 7.56,
+    "wacc_rango": "6,8% - 8,4%",
+    "detalle_rango": [
+      "Bajo 6,78%: beta 0,52 (Blume del beta local) y kd 3,9% (el declarado por la empresa).",
+      "Central 7,56%: beta 0,70, kd 4,31% derivado del filing, rf 4,98%.",
+      "Alto 8,37%: beta 0,85 y kd marginal 6,0%."
+    ],
+    "sensibilidad_critica": "Este WACC manda sobre todo lo demas. Con WACC 6,78% el valor por accion sale 39,17 GBP y el MoS +31,5% (pasaria el listón). Con WACC 8,37% sale 25,99 GBP y el MoS -3,2%. El intervalo de decision cabe entero dentro del error del WACC. Es la razon por la que el veredicto es NO ABRIR y no 'esta barata'."
+  },
+
+  "owner_earnings": {
+    "principio": "Dos versiones (capex de mantenimiento aproximado por la depreciacion, y capex total) sobre dos bases (ultimo auditado FY2025 y ejercicio en curso FY2026 anualizado).",
+    "punto_de_partida_auditado": {
+      "ejercicio": "FY2025 (auditado, 20-F presentado 2026-02-19, accession 0001104659-26-017277)",
+      "ingresos_gbp_mm": 9590,
+      "beneficio_operativo_reportado_gbp_mm": 3027,
+      "beneficio_operativo_ajustado_gbp_mm": 3342,
+      "beneficio_neto_atribuible_gbp_mm": 2065,
+      "caja_generada_por_operaciones_gbp_mm": 3735,
+      "intereses_pagados_gbp_mm": 274,
+      "intereses_cobrados_gbp_mm": 13,
+      "impuestos_pagados_gbp_mm": 638,
+      "flujo_neto_de_explotacion_gbp_mm": 2836,
+      "capex_ppe_gbp_mm": 21,
+      "capex_desarrollo_interno_gbp_mm": 504,
+      "capex_total_gbp_mm": 525,
+      "amortizacion_intangibles_desarrollados_gbp_mm": 352,
+      "depreciacion_ppe_gbp_mm": 26,
+      "proxy_capex_mantenimiento_gbp_mm": 378,
+      "amortizacion_derecho_de_uso_gbp_mm": 37,
+      "principal_de_arrendamientos_pagado_neto_gbp_mm": 38,
+      "amortizacion_intangibles_adquiridos_gbp_mm": 248,
+      "fuente": "HECHO — 6-K de resultados FY2025 (accession 0000929869-26-000008, ex-99.1) y XBRL companyfacts CIK0000929869. Cita literal: 'Capital expenditure was GBP525m (2024: GBP484m), including GBP504m ... in respect of capitalised development costs ... Depreciation and other amortisation charged within adjusted operating profit was GBP504m ... This includes amortisation of internally developed intangible assets, largely capitalised development costs, of GBP352m (2024: GBP364m) and depreciation of property, plant and equipment of GBP26m (2024: GBP34m)'."
+    },
+    "punto_de_partida_en_curso": {
+      "ejercicio": "FY2026 estimado — H1-2026 real anualizado con el patron H1/FY del ano anterior y la guia reafirmada de la empresa",
+      "h1_2026_ingresos_gbp_mm": 4871,
+      "h1_2026_beneficio_operativo_ajustado_gbp_mm": 1727,
+      "h1_2026_flujo_neto_de_explotacion_gbp_mm": 1459,
+      "h1_2026_capex_desarrollo_gbp_mm": 280,
+      "h1_2026_capex_ppe_gbp_mm": 12,
+      "h1_2026_amortizacion_desarrollo_gbp_mm": 193,
+      "h1_2026_depreciacion_ppe_gbp_mm": 12,
+      "metodo_anualizacion": "Escalo cada linea por el ratio FY2025/H1-2025 de la MISMA linea, no por 2x. H1-2025 aporto 1.414 de los 2.836 de flujo de explotacion del ano (49,9%), asi que el factor es 2,006 y no 2,000. Igual para capex (504/243 = 2,074), amortizacion (352/173 = 2,035) y arrendamientos (38/21 = 1,810).",
+      "fy2026e_flujo_neto_de_explotacion_gbp_mm": 2926,
+      "fy2026e_capex_desarrollo_gbp_mm": 581,
+      "fy2026e_capex_ppe_gbp_mm": 21,
+      "fy2026e_proxy_mantenimiento_gbp_mm": 415,
+      "fy2026e_principal_arrendamientos_gbp_mm": 29,
+      "guia_empresa": "HECHO — 6-K 2026-07-23: 'We continue to see positive momentum across the group, and we expect another year of strong underlying growth in revenue and adjusted operating profit, as well as strong growth in adjusted earnings per share on a constant currency basis'. Guia cualitativa, sin cifra. No la puedo usar como numero; la uso solo para no recortar la anualizacion."
+    },
+    "resultados": {
+      "oe_mantenimiento_auditado_gbp_mm": 2420,
+      "oe_mantenimiento_auditado_usd_mm": 3217,
+      "oe_capex_total_auditado_gbp_mm": 2273,
+      "oe_capex_total_auditado_usd_mm": 3021,
+      "oe_mantenimiento_encurso_gbp_mm": 2482,
+      "oe_mantenimiento_encurso_usd_mm": 3299,
+      "oe_capex_total_encurso_gbp_mm": 2295,
+      "oe_capex_total_encurso_usd_mm": 3051,
+      "formula_mantenimiento": "Flujo neto de explotacion - (amortizacion de intangibles desarrollados + depreciacion de PPE) - principal de arrendamientos pagado. FY2025: 2.836 - 378 - 38 = 2.420.",
+      "formula_capex_total": "Flujo neto de explotacion - capex PPE - capex de desarrollo interno - principal de arrendamientos. FY2025: 2.836 - 21 - 504 - 38 = 2.273.",
+      "contraste_con_la_empresa": "RELX declara 'free cash flow before dividends' de 2.313 GBPm en FY2025. Mi version de capex total da 2.273. La diferencia de 40m es el tratamiento de los pagos por adquisiciones/desposesiones. Cuadra.",
+      "nota_pre_publication": "Los costes de pre-publicacion capitalizados (102 GBPm en FY2025) van al activo corriente y ya estan dentro del flujo de explotacion via variacion de existencias. No los resto dos veces."
+    },
+    "hallazgo_de_la_distancia_entre_versiones": "La brecha entre las dos versiones es de solo 147 GBPm (2.420 vs 2.273), un 6,1%. Traducido: de los 525m de capex de RELX, solo 147m estan por encima de la amortizacion de lo que capitaliza. RELX NO es una reinvertidora a la que el capex total penalice injustamente — es una empresa que apenas reinvierte por encima de lo que consume. La distincion mantenimiento/crecimiento, que en Amazon 2005 lo cambiaba todo, aqui cambia el 6%.",
+    "hallazgo_de_la_distancia_entre_bases": "Los owner earnings del ejercicio en curso superan a los auditados solo un 2,6% (2.482 vs 2.420 en la version de mantenimiento). Y sin embargo el crecimiento SUBYACENTE de H1-2026 fue +7% en ingresos y +9% en beneficio operativo ajustado. La diferencia entera se la come la divisa: en libras reportadas los ingresos de H1 crecieron +3% frente a +7% subyacente. Esto NO es senal de ciclo bajo — es el efecto de una libra fuerte sobre un negocio con el 58% de los ingresos en Norteamerica. Para un inversor que mide en dolares el efecto se cancela; para el DCF en libras es real y no lo he maquillado."
+  },
+
+  "dcf_inverso": {
+    "principio": "Que crecimiento a 10 anos, con terminal del 3%, justifica exactamente el precio de hoy al WACC calculado. Ese es el numero contra el que se contrasta la tasa base del negocio.",
+    "modelo": "Descuento flujo de caja libre para la firma (FCFF = owner earnings + intereses netos pagados despues de impuestos) al WACC, 10 anos de crecimiento g mas valor terminal a 3%. El resultado se compara con el EV de 55.553 GBPm. Trabajo a nivel de firma y no de accionista para no mezclar un flujo apalancado con una tasa desapalancada.",
+    "fcff_auditado_mantenimiento_gbp_mm": 2622,
+    "fcff_encurso_mantenimiento_gbp_mm": 2715,
+    "fcff_auditado_capex_total_gbp_mm": 2475,
+    "fcff_encurso_capex_total_gbp_mm": 2528,
+    "g_implicita_auditado_pct": 2.20,
+    "g_implicita_encurso_pct": 1.77,
+    "g_implicita_auditado_capex_total_pct": 2.92,
+    "g_implicita_encurso_capex_total_pct": 2.66,
+    "lectura": "ESTE ES EL HALLAZGO. Al precio de 2.682p y con un WACC del 7,56%, el mercado esta pagando por un crecimiento del 1,8%-2,2% anual durante diez anos y luego 3% a perpetuidad. Con inflacion del 2%, eso es crecimiento real CERO o negativo durante una decada, en una empresa cuyo crecimiento subyacente de los ultimos tres ejercicios fue +7% (2025), y cuyo beneficio operativo ajustado subyacente crecio +9% en 2025 y +9% en H1-2026. El mercado no esta descontando desaceleracion: esta descontando estancamiento permanente.",
+    "que_dice_eso_del_mercado": "El precio incorpora la tesis de que los LLM disuelven el valor de los cuatro archivos. No es una anomalia de valoracion por descuido — es una apuesta explicita y coordinada (la capitulacion de febrero-2026 con 104m de acciones negociadas en un mes lo confirma). Comprar aqui es tomar el otro lado de esa apuesta, no recoger algo que nadie miro."
+  },
+
+  "g_defendible": {
+    "g_defendible_pct": 3.5,
+    "rango": "2,3% - 4,4%",
+    "derivacion": "g = tasa de reinversion x ROIIC EX-MARGEN (14,3%, congelado). Uso el ex-margen y no el bruto del 21,8% porque el bruto asume que la expansion de margen se repite — y la expansion de margen es exactamente lo que el eslabon debil de esta empresa pone en duda.",
+    "version_neta": "Reinversion NETA = (capex 525 - amortizacion de lo capitalizado 378) + adquisiciones 270 = 417 GBPm sobre un NOPAT ajustado de 2.590 GBPm = 16,1%. g = 16,1% x 14,3% = 2,30%. Es la version internamente coherente: la identidad g = reinversion x ROIC exige que la reinversion sea capital NUEVO y el ROIC sea el de ese capital nuevo.",
+    "version_bruta": "Reinversion BRUTA = (525 + 270)/2.590 = 30,7%. g = 30,7% x 14,3% = 4,39%. Sobreestima porque cuenta el mantenimiento como si generase retorno incremental.",
+    "eleccion_3_5": "Tomo 3,5%, algo por encima del punto medio de la identidad neta, no por generosidad sino porque una parte real de la inversion de RELX en producto y tecnologia va a gasto y no a capex, y por tanto no aparece en la reinversion medida. Pero me niego a subir mas: la puerta que RELX no pasa es precisamente que su unica unidad de venta observable tiene precio DECRECIENTE (-9,0% en 2024, -4,9% en 2025), y en el 55,2% del negocio no publica unidad alguna. Sin poder de precio demostrable, el crecimiento por encima del volumen no es defendible ante un tribunal.",
+    "contraste_incomodo": "Mi g defendible (3,5%) esta 3,5 puntos por debajo del crecimiento subyacente que RELX viene entregando (+7%). O la identidad contable subestima gravemente la reinversion real de esta empresa, o el crecimiento observado se apoya en palancas (mix, margen, recompra) que no se pueden extrapolar diez anos. La segunda lectura es la que sostiene la etiqueta MUY_BUENA y no ULTRA. Me quedo con la segunda.",
+    "nota_recompras": "RELX devolvio 2.681 GBPm en 2025 (1.181 dividendo + 1.500 recompra) contra un NOPAT de 2.590, financiando la diferencia con deuda (+638 de deuda neta). Eso sube el BPA pero no es crecimiento del negocio y no entra en g. La recompra si mejora la TIR del accionista y esta capturada en el modelo via el flujo por accion."
+  },
+
+  "valoracion": {
+    "valor_por_accion_auditado_gbp": 30.32,
+    "valor_por_accion_auditado_usd": 40.30,
+    "valor_por_accion_encurso_gbp": 31.57,
+    "valor_por_accion_encurso_usd": 41.96,
+    "mos_auditado_pct": 11.5,
+    "mos_encurso_pct": 15.0,
+    "mos_exigido_pct": 30.0,
+    "veredicto_mos": "NO PASA. El mejor margen de seguridad que consigo (15,0%, base en curso, capex de mantenimiento, WACC central) es la mitad del 30% exigido a una MUY_BUENA para abrir posicion.",
+    "piso_de_resolucion": {
+      "medicion_propia_del_ruido": "No dispongo de medicion propia del ruido de mi valor intrinseco, asi que aplico la banda por defecto de +-25%.",
+      "valor_intrinseco_central_usd": 41.1,
+      "banda_usd": "30,9 - 51,4",
+      "consecuencia": "El precio de hoy (35,65 USD) cae DENTRO de la banda. Por tanto el margen de seguridad no es distinguible de cero. Cualquier afirmacion del tipo 'RELX cotiza un 15% por debajo de su valor' es ruido presentado con decimales. La cifra honesta es: valor intrinseco entre 31 y 51 dolares por accion, precio 35,65, y no se puede afirmar con este trabajo que este barata.",
+      "prohibicion": "No reporto el valor intrinseco con decimales en la conclusion. 41 USD, no 41,96."
+    },
+    "sensibilidad_wacc": [
+      "WACC 6,78% (beta 0,52, kd 3,9%): valor 52,06 USD, MoS +31,5% — SI pasaria el listón.",
+      "WACC 7,56% (central): valor 41,96 USD, MoS +15,0% — no pasa.",
+      "WACC 8,37% (beta 0,85, kd 6,0%): valor 34,55 USD, MoS -3,2% — sobrevalorada."
+    ],
+    "conclusion_sensibilidad": "Toda la decision cabe dentro del error del WACC, y el WACC depende de un beta cuyo intervalo de confianza va de -0,17 a 0,73. No tengo resolucion para distinguir 'barata' de 'cara'. Eso, por si mismo, es un NO ABRIR: no se compra lo que no se puede medir."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 16.0,
+    "definicion_m": "Multiplo de owner earnings (version mantenimiento, nivel accionista) que acepto pagar. Decidido en frio, sin barra de error, porque es una preferencia y no una estimacion.",
+    "justificacion_m": "A 16x el rendimiento de owner earnings es 6,25%. Con el 3,5% de crecimiento que puedo defender, eso da un retorno esperado de ~9,8% anual, es decir ~2,2 puntos por encima del WACC del 7,56%. Ese diferencial es el pago por aceptar un negocio cuyo eslabon debil (ausencia de poder de precio demostrable) no puedo falsar con los datos que la empresa publica. Un multiplo de 20x-21x, que es donde cotiza, solo se justifica si le concedo el poder de precio, y no se lo puedo conceder.",
+    "multiplo_actual": {
+      "sobre_oe_mantenimiento_auditado": 19.3,
+      "sobre_oe_mantenimiento_encurso": 18.9,
+      "sobre_oe_capex_total_auditado": 20.6,
+      "sobre_oe_capex_total_encurso": 20.4,
+      "ev_sobre_fcff_encurso": 20.5
+    },
+    "precio_a_m_estrella_usd": 30.24,
+    "p_estrella_usd": 28.79,
+    "p_estrella_gbp": 21.66,
+    "p_estrella_peniques": 2166,
+    "definicion_p": "Precio que da el MoS exigido del 30% sobre el valor intrinseco medio de las dos bases (30,94 GBP): 30,94 x 0,70 = 21,66 GBP = 28,79 USD = 2.166p.",
+    "coherencia": "El cheque por multiplo (16x sobre owner earnings en curso = 22,75 GBP = 30,24 USD) y el cheque por DCF con MoS (21,66 GBP = 28,79 USD) convergen en la banda 28,8-30,2 USD. Tomo el mas exigente: 28,79 USD.",
+    "distancia_al_precio": "El precio de hoy (35,65 USD) esta un 23,8% por encima de p*. RELX tendria que caer otro 19,2% para entrar.",
+    "dato_que_duele": "En febrero de 2026 REL.L toco 1.991p = 26,46 USD. Eso estaba POR DEBAJO de p*. La oportunidad de comprar RELX con el margen exigido existio hace cinco meses y duro poco. Registrar esto es mas util que lamentarlo: la volatilidad de esta accion pasó del 15% al 37% anualizado, asi que una nueva visita a esa zona no es improbable."
+  },
+
+  "tir_esperada": {
+    "rango": "+7,7% a +9,1% anual en libras a 10 anos",
+    "detalle": [
+      "Base auditada, capex de mantenimiento: g 2,3% -> 8,0%; g 3,5% -> 8,5%; g 4,4% -> 8,9%.",
+      "Base en curso, capex de mantenimiento: g 2,3% -> 8,2%; g 3,5% -> 8,7%; g 4,4% -> 9,1%.",
+      "Base en curso, capex total (mas conservadora): g 2,3% -> 7,8%; g 3,5% -> 8,3%; g 4,4% -> 8,6%.",
+      "Caso alcista si RELX vuelve a crecer al 6%: 9,8%."
+    ],
+    "central": "+8,7% anual en libras (base en curso, g defendible 3,5%).",
+    "lectura": "Este es el numero que hay que mirar, no el MoS. Un MoS del 15% con banda de +-25% no dice nada; un '+8,7% anual durante diez anos' si. Y +8,7% frente a un WACC de 7,56% es un diferencial de 1,1 puntos: se cobra por asumir el riesgo, pero apenas. No es una asimetria de 3:1. Es una asimetria de aproximadamente 1,15:1.",
+    "advertencia_divisa": "TIR en libras. Para un inversor que mide en dolares hay que sumar/restar la deriva esperada GBP/USD, que no estimo. Con GBP/USD en 1,3292, cerca del techo del rango de los ultimos anos, el riesgo de divisa es mas bajista que alcista para el inversor en dolares."
+  },
+
+  "trampa_de_valor": {
+    "veredicto": "SOSPECHA",
+    "motivo": "Un MoS grande sobre un motor que se rompe no es oportunidad. Aqui el motor NO se ha roto en los numeros publicados: crecimiento subyacente de ingresos +7% (2025) y +7% (H1-2026), beneficio operativo ajustado subyacente +9% y +9%, margen ajustado subiendo de 33,9% a 34,8% a 35,5%, ROIC del 14,8% al 15,4%, conversion de caja 99% y 98%, y las cuatro divisiones acelerando (Legal 'a further step up', STM 'a step up'). Eso NO es una trampa de valor clasica.",
+    "por_que_entonces_sospecha": "Por tres cosas concretas, no por prudencia generica. (1) La unica unidad vendida que RELX publica tiene precio DECRECIENTE, y ese es exactamente el vector por el que un LLM entra: si el bibliotecario cautivo deja paso al autor que compara precios, el archivo sigue siendo unico pero deja de ser caro. (2) En el 55,2% de los ingresos (Risk 36,3% + Legal 18,8%) la empresa no publica ninguna unidad, asi que la hipotesis de erosion de precio NO ES FALSABLE con lo que la empresa da. Un negocio cuyo eslabon debil no se puede auditar desde fuera es, por construccion, un negocio en el que el mercado puede tener razon antes que yo. (3) La caida del 50% desde maximo con capitulacion de volumen en febrero-2026 significa que el mercado ya proceso una tesis; comprar aqui exige saber que sabe el mercado que yo no se, y no lo se.",
+    "que_lo_convertiria_en_NO": "Que RELX publicase una metrica de precio por unidad en Risk o en Legal y esta fuese creciente. O que el ingreso por articulo en STM dejase de caer dos ejercicios seguidos.",
+    "que_lo_convertiria_en_SI": "Que la caida del ingreso por unidad en STM se acelerase por encima del -9,0% de 2024, o que el crecimiento subyacente de Risk bajase de +5%."
+  },
+
+  "huecos_declarados": [
+    "Tasa libre de riesgo: no alcance la fuente primaria (UK DMO). Uso 4,98% de un agregador con fecha 27-jul-2026; otro agregador daba 5,07% una semana antes. Banda 4,95%-5,10%. Cada 10 pb de rf mueven el valor por accion ~0,8 GBP.",
+    "Beta: no consegui un beta bottom-up sectorial citable (Damodaran, industria 'Information Services'). Los dos betas que medi yo tienen R2 de 0,025 y 0,281. Con error tipico de 0,23 en el local, el intervalo al 95% incluye el cero. Es el parametro mas debil del expediente y el que decide el veredicto.",
+    "Prima pais para Europa (0,50%) y Resto del mundo (1,80%): no leí la tabla de Damodaran pais por pais, solo el texto que confirma la prima madura de 4,20% y la de EEUU de 0,22%. Las dos ponderaciones restantes son INFERENCIA. Impacto acotado: mueven la prima total 0,61% -> entre 0,4% y 0,9%.",
+    "FY2026 anualizado: la empresa no da guia numerica, solo cualitativa ('another year of strong underlying growth'). Mi anualizacion escala H1 por el patron H1/FY de 2025. Si el segundo semestre de 2026 se comporta distinto (el ciclo de ferias de Exhibitions no es identico ano contra ano), la base 'en curso' se mueve. Sensibilidad: +-5% en la base en curso mueve el valor por accion +-1,6 GBP.",
+    "No verifique las cifras de la puerta de calidad (ROIIC 21,8% / 14,3%, reinversion 5,5%). Vienen congeladas y las uso tal cual. La reinversion del 5,5% SI la reconfirme contra el filing (capex 525 / ingresos 9.590 = 5,47% — HECHO, coincide).",
+    "El ingreso por unidad de STM (-9,0% en 2024, -4,9% en 2025) viene del expediente de calidad. No lo re-verifique en esta pasada de precio.",
+    "Deuda a valor de mercado: uso el nominal (8.906 bruto / 8.733 neto). No busque las cotizaciones de los bonos de Relx Finance BV. Con el 30% de la deuda venciendo en menos de un ano y calificacion grado de inversion, la diferencia con el nominal es de segundo orden."
+  ],
+
+  "resumen_ejecutivo": "NO ABRIR, y no por poco. Al cierre del 27-jul-2026 REL.L cotiza a 2.682p (35,65 USD por ordinaria = por ADS, ratio 1:1 verificado por arbitraje), un 32% por debajo de hace un ano tras una capitulacion en febrero que la llevo a 1.991p. Capitalizacion 62.233 MUSD, deuda neta 11.608 MUSD, EV 73.841 MUSD. El WACC bottom-up de mercado sale 7,56% (rango 6,8%-8,4%): gilt a 10 anos 4,98%, prima de mercado madura 4,20% de Damodaran julio-2026 mas 0,61% de prima pais ponderada por el origen de los ingresos, beta 0,70 elegido a mano porque el beta medido de REL.L contra el FTSE (0,278) tiene un R2 de 0,025 y su intervalo de confianza incluye el cero, y coste de deuda 4,31% derivado de los costes financieros sobre deuda media del filing. Los owner earnings de FY2025 son 3.217 MUSD restando solo el capex de mantenimiento y 3.021 MUSD restando todo el capex — una brecha de solo el 6,1%, que revela que RELX apenas invierte por encima de lo que amortiza. El ejercicio en curso, anualizado desde un H1 con crecimiento subyacente del +7%, apenas mejora un 2,6% en libras porque la divisa se come el crecimiento. El DCF inverso es el hallazgo: al precio de hoy y con terminal del 3%, el mercado paga por un crecimiento del 1,8%-2,2% anual durante diez anos, es decir crecimiento real cero, en una empresa que acaba de entregar +9% de beneficio operativo subyacente. Mi g defendible, derivada de reinversion neta (16,1% del NOPAT) por ROIIC ex-margen (14,3%), es 2,3%, y la subo a 3,5% concediendo que parte de la inversion real va a gasto; ni un punto mas, porque el eslabon debil de esta empresa es precisamente que su unica unidad vendida observable baja de precio y que en el 55,2% del negocio no publica ninguna unidad, de modo que la hipotesis de erosion NO ES FALSABLE desde fuera. Con esa g el valor sale 40,30 USD sobre la base auditada y 41,96 sobre la base en curso: MoS del 11,5% y del 15,0%, frente al 30% exigido a una MUY_BUENA para abrir. Y con el piso de resolucion del +-25% la banda de valor va de 31 a 51 USD, con el precio dentro: el margen de seguridad no es distinguible de cero. La TIR esperada es +7,7% a +9,1% anual en libras, central +8,7%, frente a un WACC de 7,56%: se cobra 1,1 puntos por el riesgo, una asimetria de 1,15:1 y no de 3:1. m* = 16x owner earnings; p* = 28,79 USD (2.166p), un 19,2% por debajo del precio de hoy — nivel que se toco en febrero de 2026 y duro poco. Trampa de valor: SOSPECHA, no SI: el motor operativo no muestra rotura alguna en los numeros publicados (margen, ROIC, conversion de caja y crecimiento subyacente todos mejorando), pero la parte del negocio donde el mercado apuesta que se rompe es justo la que la empresa no permite auditar. La accion a tomar no es comprar ni descartar: es dejar una alerta en 2.166p y un gate de falsacion sobre el ingreso por unidad de STM."
+}

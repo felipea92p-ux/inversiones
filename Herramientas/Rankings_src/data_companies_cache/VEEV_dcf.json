@@ -1,0 +1,42 @@
+{
+ "ticker": "VEEV",
+ "currency": "USD",
+ "current_price": 153.16,
+ "name": "Veeva Systems Inc.",
+ "wacc_pct": 9.55,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.05,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2026 = FCF reportado $1,386M menos 100% de SBC $472.7M = $913.3M (margen owner-FCF 28.6% sobre ingresos $3,195.3M). SBC tratada como gasto en efectivo. Reconciliacion: FCF = OCF $1,415.2M - capex/activos LP ~$29.1M; SBC total FY26 verificada en press release ($472.7M, 14.8% de ingresos / 34.1% del FCF).",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 13,
+  "rev_cagr_y6_10_pct": 9,
+  "fcf_margin_terminal_pct": 33,
+  "terminal_g_pct": 3,
+  "shares_diluted_b": 0.164,
+  "net_debt_usd_b": -7.31,
+  "sbc_treatment": "100% de la SBC restada del FCF reportado (owner earnings). Margen owner-FCF parte de 28.6% (FY26) y se expande linealmente hacia ~33% en el ano 10 a medida que la SBC normaliza de 14.8% a ~9-10% de ingresos y continua el apalancamiento operativo (margen op no-GAAP ya ~45%)."
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 168.29,
+   "prob": 0.375,
+   "note": "Crecimiento ingresos 9% anos 1-5 y 6% anos 6-10 (desaceleracion fuerte vs track record de ~16%, presion competitiva/AI sobre SaaS de ciencias de la vida), margen owner-FCF expande solo a 30%, g terminal 2.5%. Pesimista razonable, no apocaliptico. Aun por encima del precio actual."
+  },
+  "base": {
+   "iv_per_share": 227.72,
+   "prob": 0.475,
+   "note": "Crecimiento 13% anos 1-5 (consistente con guidance FY27 ~14% y desaceleracion gradual desde 16% organico) y 9% anos 6-10, margen owner-FCF a 33% al normalizar SBC, g terminal 3.0%. Multiplo terminal implicito ~15.7x owner-FCF, razonable para foso ancho (sistema de registro regulado en pharma/life sciences, switching costs altos)."
+  },
+  "optimista": {
+   "iv_per_share": 301.66,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: 17% anos 1-5 (cross-sell de Vault CRM/Veeva AI, expansion a nuevas verticales), 11% anos 6-10, margen owner-FCF a 35%, g terminal 3.5%. Refleja recuperacion del crecimiento y monetizacion AI sin disrupcion del foso."
+  }
+ },
+ "sanity_check": "VEEV no paga dividendo y NO ejecuta recompras materiales (la caja neta se acumula: +$7.31B, sin deuda), por lo que el rendimiento total al accionista via distribuciones es ~0% — el valor reside en la reinversion/composicion, lo que valida usar DCF en vez de DDM o marco de yield. Yield de owner-FCF sobre EV ($17.6B) = 5.2%; yield de FCF reportado sobre EV = 7.9%; yield de owner-FCF sobre market cap = 3.7%. La accion cotiza a ~16.6x P/E fwd vs ~44x promedio 5a: es compresion de multiplo (fear_rotation por sentimiento AI), no deterioro fundamental — Q1 FY27 +16.3% YoY, margen op no-GAAP ~45%, guidance FY27 SUBIDA. IV ponderada por probabilidad ~$217 (+42% vs $153.16); incluso el caso conservador ($168) supera el precio actual, ofreciendo margen de seguridad.",
+ "method_notes": "DCF de owner earnings a 10 anos modelado sobre ingresos x margen owner-FCF. Base FY2026 (ano fiscal termina 31-ene): ingresos $3,195.3M, owner FCF $913.3M = FCF $1,386M - SBC $472.7M (100% SBC como gasto cash). Fase 1 (anos 1-5) CAGR de ingresos explicito; Fase 2 (anos 6-10) CAGR declinante hacia normalizacion. El margen owner-FCF se expande linealmente de 28.6% al margen terminal de cada escenario (la SBC pesa hoy 14.8% de ingresos y se asume normalizacion a ~9-10%; el FCF reportado ya corre a ~43% de margen). Valor terminal con g=2.5-3.5% segun foso, descontado al WACC. WACC = Rf 4.3% + ERP 5.0% x beta 1.05 = 9.55%; sin ajuste geopolitico (empresa US, ticker NYSE en USD). VI/accion = (PV flujos + PV valor terminal + caja neta $7.31B) / acciones diluidas (~0.164B; market cap $24.88B / $153.16 ≈ 162M, redondeado a 164M diluidas). En base, el valor terminal representa ~63% del EV con multiplo terminal implicito ~15.7x owner-FCF, razonable para una franquicia SaaS de alta calidad con foso ancho. Datos verificados de FASE 2 (10-K FY26, press releases Q1 FY27 y FY26); no se requirio busqueda web adicional."
+}

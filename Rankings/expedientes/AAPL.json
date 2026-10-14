@@ -1,0 +1,279 @@
+{
+  "empresa": "Apple Inc.",
+  "ticker": "AAPL",
+  "cik": "0000320193",
+  "fecha_expediente": "2026-07-28",
+  "fecha_precio": "2026-07-27",
+  "divisa": "USD",
+  "unidades": "millones de USD salvo indicacion contraria",
+
+  "etiqueta_calidad_congelada": {
+    "tier": "MUY_BUENA",
+    "puertas_pasadas": 4,
+    "especie": "G2",
+    "reinversion_pct_ventas": 10.4,
+    "roiic_bruto_pct": 30.5,
+    "roiic_ex_margen_pct": 16.1,
+    "nota": "CONGELADA. El valorador no la toca ni la reclasifica hacia arriba. Todo lo que sigue es precio."
+  },
+
+  "fuentes_primarias": {
+    "10K_FY2025": "SEC accession 0000320193-25-000079, presentado 2025-10-31, ejercicio cerrado 2025-09-27",
+    "10Q_Q1_FY2026": "SEC accession 0000320193-26-000006, presentado 2026-01-30, trimestre cerrado 2025-12-27",
+    "10Q_Q2_FY2026": "SEC accession 0000320193-26-000013, presentado 2026-05-01, semestre cerrado 2026-03-28",
+    "xbrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json (namespace us-gaap)",
+    "precio": "IBKR market data snapshot, contract_id 265598, last 337,51 USD, timestamp 2026-07-27",
+    "rf": "FRED DGS10 (Federal Reserve Bank of St. Louis), 4,69% a 2026-07-24; 4,55-4,71% en las dos semanas previas",
+    "erp_crp": "Damodaran, ctrypremJuly26.xlsx (NYU Stern), actualizacion de 1 de julio de 2026",
+    "beta": "GuruFocus 0,9638 a 2026-07-13; Yahoo Finance beta 5Y mensual 1,10 en julio de 2026",
+    "guia": "Kevan Parekh, CFO, llamada de resultados Q2 FY2026 (30-abr-2026): ingresos del trimestre de junio +14% a +17% interanual, margen bruto 47%-49%"
+  },
+
+  "cuenta_de_resultados": {
+    "FY2025_auditado": {
+      "ventas": 416161,
+      "ventas_productos": 307003,
+      "ventas_servicios": 109158,
+      "coste_ventas": 220960,
+      "margen_bruto": 195201,
+      "margen_bruto_pct": 46.9,
+      "id": 34550,
+      "sgya": 27601,
+      "resultado_operativo": 133050,
+      "otros_ingresos_gastos_neto": -321,
+      "bai": 132729,
+      "impuestos": 20719,
+      "tasa_efectiva_pct": 15.6,
+      "beneficio_neto": 112010,
+      "bpa_diluido": 7.46,
+      "acciones_diluidas_medias_miles": 15004697,
+      "etiqueta": "HECHO — 10-K FY2025, R3 CONSOLIDATED STATEMENTS OF OPERATIONS"
+    },
+    "FY2024": {"ventas": 391035, "resultado_operativo": 123216, "beneficio_neto": 93736, "etiqueta": "HECHO — 10-K FY2025 comparativo"},
+    "FY2023": {"ventas": 383285, "resultado_operativo": 114301, "beneficio_neto": 96995, "etiqueta": "HECHO — 10-K FY2025 comparativo"},
+    "H1_FY2026": {
+      "ventas": 254940,
+      "resultado_operativo": 86737,
+      "beneficio_neto": 71675,
+      "impuestos": 15160,
+      "acciones_diluidas_medias_miles": 14768115,
+      "crecimiento_ventas_yoy_pct": 16.1,
+      "crecimiento_res_op_yoy_pct": 19.8,
+      "etiqueta": "HECHO — 10-Q Q2 FY2026 (26 semanas cerradas 2026-03-28); comparativo H1 FY2025: ventas 219.659, res.op 72.421, BN 61.110"
+    },
+    "Q2_FY2026_solo": {"ventas": 111184, "resultado_operativo": 35885, "beneficio_neto": 29578, "etiqueta": "HECHO — 10-Q Q2 FY2026"}
+  },
+
+  "flujo_de_caja": {
+    "FY2025_auditado": {
+      "ocf": 111482,
+      "capex": 12715,
+      "d_and_a": 11698,
+      "sbc": 12863,
+      "dividendos": 15421,
+      "recompras": 90711,
+      "etiqueta": "HECHO — 10-K FY2025, R8 CONSOLIDATED STATEMENTS OF CASH FLOWS"
+    },
+    "FY2024": {"ocf": 118254, "capex": 9447, "d_and_a": 11445, "sbc": 11688},
+    "FY2023": {"ocf": 110543, "capex": 10959, "d_and_a": 11519, "sbc": 10833},
+    "H1_FY2026": {"ocf": 82627, "capex": 4344, "d_and_a": 6653, "sbc": 7122, "etiqueta": "HECHO — 10-Q Q2 FY2026"},
+    "TTM_a_2026_03_28": {"ocf": 140222, "capex": 11048, "d_and_a": 12610, "sbc": 13473, "beneficio_neto": 122575, "ventas": 451442, "etiqueta": "INFERENCIA — FY2025 + H1 FY2026 - H1 FY2025, todos los sumandos HECHO"}
+  },
+
+  "balance_2026_03_28": {
+    "efectivo": 45572,
+    "valores_negociables_corrientes": 22935,
+    "valores_negociables_no_corrientes": 78088,
+    "liquidez_total": 146595,
+    "papel_comercial": 1997,
+    "deuda_a_largo_porcion_corriente": 8310,
+    "deuda_a_largo_no_corriente": 74404,
+    "deuda_total_contable": 84711,
+    "caja_neta": 61884,
+    "patrimonio_neto": 106491,
+    "acciones_en_circulacion_miles": 14667688,
+    "acciones_portada_10Q_miles": 14687356,
+    "fecha_portada": "2026-04-17",
+    "etiqueta": "HECHO — 10-Q Q2 FY2026"
+  },
+
+  "precio_y_capitalizacion": {
+    "precio_usd": 337.51,
+    "acciones_usadas_miles": 14687356,
+    "capitalizacion_usd_mm": 4957130,
+    "caja_neta_usd_mm": 61884,
+    "ev_usd_mm": 4895246,
+    "rango_52s": {"max": 339.57, "min": 200.88},
+    "volatilidad_anual_pct": 27.1,
+    "es_ads": false,
+    "nota": "Accion ordinaria cotizada en Nasdaq en USD. No hay ratio ADS que ajustar."
+  },
+
+  "wacc": {
+    "candado_B": "El WACC sale del mercado, no del tier de calidad.",
+    "tasa_libre_riesgo_pct": 4.65,
+    "tasa_libre_riesgo_fuente": "FRED DGS10: 4,69% (2026-07-24), 4,63% (2026-07-21), 4,55% (2026-07-17). Central 4,65%. HECHO.",
+    "beta": 1.05,
+    "beta_fuente": "GuruFocus 0,9638 (2026-07-13) y Yahoo Finance 5Y mensual 1,10 (julio 2026). Central 1,05, rango 0,96-1,10. Las dos fuentes discrepan: INFERENCIA.",
+    "prima_mercado_madura_pct": 4.20,
+    "prima_mercado_us_pct": 4.42,
+    "prima_mercado_fuente": "Damodaran, ctrypremJuly26.xlsx, 1-jul-2026. Prima de mercado maduro 4,20%; ERP implicito EEUU 4,42% (incluye spread de impago US de 0,219%, rating Aa1). HECHO.",
+    "prima_pais_ponderada_pct": 0.75,
+    "prima_pais_detalle": {
+      "metodo": "Ponderada por ventas del segmento geografico FY2025 (riesgo de ACTIVO, no de domicilio fiscal)",
+      "Americas": {"ventas": 178353, "peso_pct": 42.9, "crp_pct": 0.37},
+      "Europa_incl_India_MEA": {"ventas": 111032, "peso_pct": 26.7, "crp_pct": 1.20},
+      "Greater_China": {"ventas": 64377, "peso_pct": 15.5, "crp_pct": 0.87},
+      "Japon": {"ventas": 28703, "peso_pct": 6.9, "crp_pct": 0.87},
+      "Resto_Asia_Pacifico": {"ventas": 33696, "peso_pct": 8.1, "crp_pct": 1.00},
+      "crp_tabla_damodaran": {"EEUU": 0.219, "China": 0.873, "Japon": 0.873, "Alemania": 0.0, "Francia": 0.742, "Reino_Unido": 0.742, "Italia": 2.357, "Espana": 1.484, "India": 2.720, "Corea": 0.611, "Taiwan": 0.742},
+      "etiqueta": "Segmentos: HECHO (10-K FY2025 R68). CRP por pais: HECHO (Damodaran jul-2026). La ponderacion regional: INFERENCIA — el segmento 'Europa' de Apple mete India, Oriente Medio y Africa sin desglosar."
+    },
+    "coste_capital_propio_pct": 9.85,
+    "coste_capital_propio_formula": "Ke = 4,65% + 1,05 x (4,20% + 0,75%) = 9,85%",
+    "coste_deuda_pct": 4.8,
+    "coste_deuda_derivacion": "Papel comercial: tipo medio ponderado 4,19% a 27-sep-2025 (HECHO, nota de Deuda 10-K FY2025). Emision de notas de 2025 (4.500 mm): tipos EFECTIVOS 4,07%-4,83% (HECHO, misma nota). Cartera heredada 2013-2023 (86.781 mm): efectivos 0,03%-5,75%. Valor razonable de las notas 80,4 bn sobre 91,3 bn de principal: la deuda vieja esta muy por debajo de mercado. Coste MARGINAL de mercado central 4,8%, rango 4,2%-5,2%. INFERENCIA.",
+    "tasa_fiscal_pct": 15.6,
+    "coste_deuda_despues_impuestos_pct": 4.03,
+    "peso_deuda_valor_mercado_pct": 1.50,
+    "deuda_a_valor_mercado_usd_mm": 75328,
+    "deuda_valor_mercado_nota": "Deuda a plazo 82.700 mm contable x (80,4/90,678 = 0,887 factor de valor razonable del 10-K FY2025) = 73.331 mm, mas papel comercial 1.997 mm a la par.",
+    "wacc_central_pct": 9.8,
+    "wacc_rango": "9,2% - 10,4%",
+    "sensibilidad": "beta 0,96 -> WACC 9,3%; beta 1,10 -> WACC 10,1%; con Rf 4,55%-4,71% el rango total es 9,2%-10,4%."
+  },
+
+  "owner_earnings": {
+    "convencion": "OE = flujo de caja de explotacion - capex. Version (a) resta solo capex de MANTENIMIENTO aproximado por la depreciacion, sin restar el exceso discrecional; version (b) resta TODO el capex (FCF puro). Cuando el capex es INFERIOR a la depreciacion, la version (a) resta la depreciacion completa (mas conservadora) y por eso queda por debajo de la (b): no hay reinversion discrecional en PP&E que rescatar.",
+    "base_auditada_FY2025": {
+      "ocf": 111482,
+      "d_and_a": 11698,
+      "capex": 12715,
+      "capex_mantenimiento_usado": 11698,
+      "capex_discrecional": 1017,
+      "oe_mantenimiento": 99784,
+      "oe_capex_total": 98767,
+      "oe_por_accion_mantenimiento": 6.79,
+      "etiqueta": "HECHO — derivado de R8 del 10-K FY2025"
+    },
+    "base_auditada_normalizada": {
+      "oe_mantenimiento": 113300,
+      "ajuste": "+13.585 mm por el desagote de impuestos por pagar (26.601 -> 13.016 entre FY2024 y FY2025, nota 'Consolidated Financial Statement Details', HECHO). Es una salida de caja no recurrente que hunde el OCF auditado.",
+      "etiqueta": "INFERENCIA — normalizacion propia. Es la base que considero mas representativa del auditado."
+    },
+    "base_en_curso_FY2026E": {
+      "metodo": "H1 FY2026 real + Q3 con la guia de la empresa (+14% a +17%, uso +15,5%) + Q4 supuesto a +13% (comparativa mas dura).",
+      "ventas_estimadas": 479300,
+      "ocf_estimado": 148500,
+      "capex_estimado": 10500,
+      "d_and_a_estimado": 13700,
+      "oe_mantenimiento": 134800,
+      "oe_capex_total": 138000,
+      "oe_por_accion_mantenimiento": 9.18,
+      "etiqueta": "INFERENCIA — H1 es HECHO; Q3 se apoya en guia publica de la empresa; Q4 es supuesto mio."
+    },
+    "distancia_entre_bases": {
+      "oe_mant_encurso_vs_auditado_pct": 35.1,
+      "oe_mant_encurso_vs_auditado_normalizado_pct": 19.0,
+      "lectura": "El salto del 35% NO es ruido y tampoco es todo motor. Se descompone en tres cosas: (1) el auditado FY2025 esta hundido por ~13,6 bn de desagote de impuestos por pagar — quitalo y el salto baja al 19%; (2) FY2026 es un supercicilo real de iPhone: H1 +16,1% en ventas con China +33% en el semestre segun Tim Cook; (3) el capex del semestre (4.344) va por debajo de la depreciacion (6.653), o sea que parte del brinco es simplemente que Apple no esta invirtiendo. Estamos en la parte ALTA del ciclo, no en la baja. Valorar sobre la base en curso es valorar sobre el pico."
+    },
+    "hueco_sbc": {
+      "sbc_FY2025": 12863,
+      "sbc_TTM": 13473,
+      "efecto": "El encargo no pide restar la compensacion en acciones y no la resto en la cifra de cabecera. Pero es el 12,9% del OE auditado. Restandola: OE auditado 86.921 y OE en curso ~120.000, y la g implicita sube a 20,7% y 16,3% respectivamente. Es decir: descontar SBC empeora el veredicto, nunca lo mejora."
+    }
+  },
+
+  "dcf_inverso": {
+    "modelo": "10 anios de crecimiento de owner earnings + valor terminal al 3% perpetuo, descontado al WACC de 9,8%. Se resuelve la g que iguala el valor de empresa operativo (4.895.246 mm) al precio de hoy.",
+    "g_implicita_base_auditada_pct": 18.8,
+    "g_implicita_base_auditada_normalizada_pct": 17.1,
+    "g_implicita_base_en_curso_pct": 14.7,
+    "g_implicita_base_auditada_capex_total_pct": 18.9,
+    "g_implicita_base_en_curso_capex_total_pct": 14.4,
+    "multiplo_implicito_ev_sobre_oe": {"auditada": 49.1, "normalizada": 43.2, "en_curso": 36.3},
+    "lectura": "Comprar Apple hoy a 337,51 es firmar que los owner earnings crecen entre el 14,7% y el 18,8% anual DURANTE DIEZ ANIOS antes de aterrizar en el 3%. Sobre la base auditada, el precio pide 18,8%. Sobre la base mas favorable posible — el ejercicio en curso, que es el pico del ciclo — sigue pidiendo 14,7%."
+  },
+
+  "g_defendible": {
+    "valor_pct": 6.2,
+    "derivacion": "g = (tasa de reinversion sobre NOPAT) x ROIIC EX-MARGEN. Reinversion congelada 10,4% de ventas; NOPAT/ventas FY2025 = 133.050 x (1-0,156) / 416.161 = 27,0%; tasa de reinversion sobre NOPAT = 10,4/27,0 = 38,5%; g = 0,385 x 0,161 = 6,20%.",
+    "por_que_ex_margen": "El ROIIC bruto del 30,5% daria g = 11,7%. Usarlo asume que los 900 puntos basicos de margen ganados desde FY2018 se repiten — y esos puntos son precisamente los que el mecanismo declara NO auditables, porque Apple dejo de publicar unidades y ASP tras FY2018. El ex-margen es el numero honesto.",
+    "contraste_con_lo_realizado": "El resultado operativo crecio al 13,0% anual compuesto entre FY2019 y FY2025. La g defendible de 6,2% es menos de la mitad. La diferencia es exactamente la expansion de margen no auditable.",
+    "lectura_alternativa_descartada": "Leer 'reinversion 10,4% de ventas' x 16,1% literalmente da 1,67%. La descarto: no es coherente economicamente (implicaria que el NOPAT crece por debajo de la inflacion reinvirtiendo el 38% del NOPAT al 16%). Si alguien la defendiera, el veredicto empeoraria todavia mas."
+  },
+
+  "valoracion_con_g_defendible": {
+    "supuestos": "g = 6,2% durante 10 anios, terminal 3%, WACC 9,8%, mas caja neta de 61.884 mm.",
+    "base_auditada": {"valor_equity_mm": 1979332, "valor_por_accion": 134.8, "mos_pct": -150.4},
+    "base_auditada_normalizada": {"valor_equity_mm": 2239055, "valor_por_accion": 152.4, "mos_pct": -121.4},
+    "base_en_curso": {"valor_equity_mm": 2652199, "valor_por_accion": 180.6, "mos_pct": -86.9},
+    "base_en_curso_capex_total": {"valor_por_accion": 184.8, "mos_pct": -82.7},
+    "piso_de_resolucion": "Sin medicion propia de ruido aplico +-25%. Base en curso: 135 - 226 USD por accion. Base auditada normalizada: 114 - 190. El precio de 337,51 esta FUERA del techo de la banda en todas las bases. No hay decimales que discutir: el veredicto no depende de la precision.",
+    "escalera_de_g_base_en_curso": {
+      "g_4pct": {"vps": 153.9, "mos_pct": -119.3},
+      "g_6.2pct": {"vps": 180.6, "mos_pct": -86.9},
+      "g_8pct": {"vps": 206.0, "mos_pct": -63.9},
+      "g_10pct": {"vps": 238.5, "mos_pct": -41.5},
+      "g_12pct": {"vps": 276.3, "mos_pct": -22.2},
+      "g_14.7pct": {"vps": 336.9, "mos_pct": -0.2}
+    },
+    "escalera_de_wacc_base_en_curso_g6.2": {
+      "8.5pct": 224.7, "9.2pct": 198.6, "9.8pct": 180.6, "10.2pct": 170.2, "11.0pct": 152.7
+    },
+    "nota_escaleras": "Ni regalando a Apple un 12% anual durante diez anios sobre la base del pico del ciclo, ni bajando el WACC al 8,5%, se llega al precio de hoy con margen. Hay que conceder simultaneamente el pico del ciclo Y un 14,7% de crecimiento a una decada para tocar 337."
+  },
+
+  "m_estrella_p_estrella": {
+    "m_estrella": 13.5,
+    "m_estrella_definicion": "Multiplo de owner earnings (EV/OE de mantenimiento) que acepto pagar. Decidido en frio: el multiplo justo que salen de g 6,2% / terminal 3% / WACC 9,8% es 19,2x; aplico el 30% de margen de seguridad exigido y comprometo 13,5x. Sin barra de error: no es una estimacion, es una decision.",
+    "p_estrella_usd": 128,
+    "p_estrella_desglose": {
+      "sobre_base_en_curso_OE_134800": 128.1,
+      "sobre_base_auditada_normalizada_OE_113300": 108.4,
+      "sobre_base_auditada_OE_99784": 95.9
+    },
+    "mos_exigido_pct": 30,
+    "mos_exigido_nota": "La empresa NO esta en cartera, luego se aplica el umbral de ABRIR = 30%. Publico P* con la base MAS favorable a Apple (el ejercicio en curso, que es el pico) para que nadie diga que hice trampa: 128 USD. Bajo una lectura escalonada por tier (MUY_BUENA = 40%), P* seria 110 USD.",
+    "distancia_a_p_estrella_pct": -62.1
+  },
+
+  "tir_esperada": {
+    "definicion": "Tasa a la que compone el capital comprando a 337,51 y cobrando los owner earnings con la g defendible y terminal al 3%.",
+    "base_auditada_pct": 5.76,
+    "base_auditada_normalizada_pct": 6.13,
+    "base_en_curso_pct": 6.70,
+    "rango": "5,8% - 6,7% anual durante 10 anios",
+    "rango_ampliado": "Con g entre 4% y 8%: 5,6% - 7,3% anual.",
+    "lectura": "Esto es lo que significa un MoS de -87% o -150%: no es que la accion vaya a caer un 150%. Es que a este precio Apple compone al 5,8%-6,7% anual durante una decada — por debajo del 9,8% que cuesta su propio capital, y apenas 1-2 puntos por encima del bono a 10 anios (4,65%) sin ninguna de sus garantias. Se cobra riesgo de renta variable a precio de renta fija."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "No aplica por construccion: una trampa de valor es un descuento grande sobre un motor que se rompe, y aqui NO HAY DESCUENTO. El riesgo es el simetrico opuesto — prima de extrapolacion. El mercado esta pagando 36x-49x owner earnings y exigiendo 14,7%-18,8% de crecimiento a diez anios de un negocio cuya aritmetica ex-margen defendible da 6,2%.",
+    "matices_que_si_vigilo": [
+      "El eslabon debil del propio mecanismo: los 900 pb de margen ganados desde FY2018 no son auditables como poder de fijacion de precios porque Apple dejo de publicar unidades y ASP tras FY2018. Justo esos puntos son los que el precio esta extrapolando.",
+      "Cuatro relojes judiciales corriendo desde marzo de 2024 sobre el peaje de App Store y el pago de busqueda de Google. Estado a julio de 2026: el fallo de remedios de Mehta (sep-2025) obliga a renegociar los contratos de default cada anio; Google apelo en mayo de 2026 y el DOJ contraapelo pidiendo la desinversion de Chrome; los alegatos orales no estan ni fijados y se esperan a finales de 2026 o principios de 2027. El importe del pago de Google no aparece desglosado en ningun filing de Apple: no puedo dimensionar la exposicion desde fuente primaria.",
+      "El capex del semestre (4.344 mm) va por DEBAJO de la depreciacion (6.653 mm). Un ejercicio con owner earnings de record y capex por debajo de la depreciacion es un ejercicio que no esta comprando el crecimiento que el precio le exige.",
+      "Coste de memoria: el CFO guio 'significativamente mas alto' para el trimestre de junio. El margen bruto guiado 47%-49% ya lo absorbe, pero es el primer viento en contra explicito del ciclo."
+    ]
+  },
+
+  "huecos_declarados": [
+    "Apple no desglosa el gasto por intereses desde FY2024: 'Other income/(expense), net' aparece agregado en -321 mm en FY2025. No puedo calcular el coste de deuda real como intereses sobre deuda media. Lo derivo de los tipos EFECTIVOS de la nota de Deuda del propio 10-K (papel comercial 4,19%; emision 2025 al 4,07%-4,83%) — es primario, pero es INFERENCIA, no medicion directa.",
+    "Unidades y ASP no publicados desde FY2018 (decision de la propia Apple). Los 900 pb de margen ganados desde entonces no son auditables como precio frente a volumen. Heredado del mecanismo congelado, y es el eslabon que el precio de hoy da por resuelto.",
+    "El pago de Google por busqueda por defecto no esta desglosado en ningun filing de Apple. La cifra de ~20 bn de 2022 procede de documentos judiciales, no de Apple. No puedo cuantificar el riesgo desde fuente primaria.",
+    "La guia de la empresa cubre solo el trimestre de junio (+14%-17%, margen bruto 47%-49%). El Q4 FY2026 de mi base en curso es supuesto mio (+13%). Si Q4 fuera plano, el OE en curso bajaria ~4% y la g implicita subiria a ~15,2%.",
+    "El capex FY2026E de 10.500 mm es supuesto. Anualizando el semestre daria ~9.300 mm. Uso el numero mas alto, que perjudica a mi tesis, no la favorece.",
+    "La compensacion en acciones (12.863 mm FY2025) NO esta deducida de los owner earnings de cabecera, por convencion del encargo. Deducirla lleva el OE auditado a 86.921 y la g implicita a 20,7%.",
+    "Beta: las dos fuentes citables discrepan (GuruFocus 0,9638 a 13-jul-2026 vs Yahoo 5Y mensual 1,10). Uso 1,05 como central. Con 0,96 el WACC baja a 9,3% y el valor por accion en curso sube a ~195 USD: sigue muy por debajo del precio.",
+    "La prima pais ponderada de 0,75% es INFERENCIA: el segmento 'Europa' de Apple agrega India, Oriente Medio y Africa sin desglose, y 'Americas' no separa EEUU de Canada y Latinoamerica. Aunque la doblara a 1,5%, el WACC subiria solo ~0,8 pp."
+  ],
+
+  "veredicto_precio": {
+    "resumen": "NO COMPRAR — por precio, no por calidad. A 337,51 USD el mercado exige a Apple entre 14,7% (base pico del ciclo) y 18,8% (base auditada) de crecimiento de owner earnings durante diez anios; la aritmetica defendible ex-margen da 6,2%. El margen de seguridad es de -87% en el mejor de los casos. La TIR esperada es del 5,8%-6,7% anual a diez anios contra un coste de capital del 9,8% y un bono a diez anios al 4,65%.",
+    "que_haria_falta": "P* = 128 USD con la base mas favorable (el ejercicio en curso, pico de ciclo) y m* = 13,5x owner earnings. Eso es un -62% desde aqui. Con la base auditada normalizada, 108 USD.",
+    "que_falsaria_esta_valoracion": "Que la g defendible ex-margen sea sistematicamente demasiado baja. Se comprobaria si el margen operativo se estanca o cae mientras el resultado operativo sigue creciendo a doble digito durante 3 anios seguidos — es decir, crecimiento sin expansion de margen. Fecha de revision: con el 10-K de FY2027 (octubre 2027).",
+    "no_reclasificacion": "La etiqueta MUY_BUENA sigue congelada. Nada de lo que he encontrado en el precio la mueve, y si algo del ejercicio en curso pareciera decir 'en realidad es ULTRA', eso seria la contradiccion madre buscando otra puerta, no un hallazgo."
+  }
+}

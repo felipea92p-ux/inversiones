@@ -1,0 +1,41 @@
+{
+ "ticker": "OR.PA",
+ "currency": "EUR",
+ "current_price": 378.1,
+ "wacc_pct": 7,
+ "wacc_components": {
+  "rf_pct": 2.8,
+  "erp_pct": 5,
+  "beta": 0.85,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = EUR 6.98B. FY2025 reported net cash flow (FCF) EUR 7.16B menos 100% de la SBC (~EUR 0.18B, est. 0.4% de revenue EUR 44.05B; L'Oreal paga comp mayormente en efectivo, SBC estructuralmente inmaterial ~2.5% del FCF). Margen owner-FCF base ~15.8% sobre revenue.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 5.5,
+  "rev_cagr_y6_10_pct": 4,
+  "fcf_margin_terminal_pct": 16,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de SBC restada del FCF como gasto en efectivo (~EUR 0.18B/anio, ~0.4% de revenue). Impacto minimo: empresa francesa con comp mayormente en efectivo, baja dilucion.",
+  "shares_diluted_b": 0.534,
+  "net_debt_usd_b": -2.2
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 327,
+   "prob": 0.35,
+   "note": "CAGR owner-FCF ~4% en Fase 1 (en linea con LFL FY2025 +4.0%, sin la aceleracion de Q1'26), declinando a g terminal 2.5%. Refleja normalizacion del crecimiento de belleza, presion FX, y madurez en mercados desarrollados. WACC 7.0%. IV por debajo del precio: ~13% downside."
+  },
+  "base": {
+   "iv_per_share": 389,
+   "prob": 0.47,
+   "note": "CAGR owner-FCF ~5.5% Fase 1 (punto medio entre LFL FY2025 +4.0% y Q1'26 +7.6%), declinando hacia g terminal 3.0%. Consistente con track record: outperformance del mercado de belleza, margen operativo record 20.2%, ROIC 13.5%, posicion de caja neta. IV ~EUR 389, cerca del precio actual (~3% upside)."
+  },
+  "optimista": {
+   "iv_per_share": 471,
+   "prob": 0.18,
+   "note": "CAGR owner-FCF ~7% Fase 1 (sostiene el momentum LFL de Q1'26 +7.6%), declinando a g terminal 3.5%. Ejecucion perfecta: aceleracion en dermocosmetica/lujo, integracion exitosa de Kering Beaute, expansion de margen continua. ~25% upside."
+  }
+ },
+ "sanity_check": "Contraste con multiplos y rendimiento al accionista: a EUR 378.10 cotiza a fwd P/E 27.2x vs su promedio 5yr de ~35.7x (descuento ~24%) y EV/FCF ~28x sobre owner-FCF. La IV ponderada por probabilidad (~EUR 382) queda esencialmente en valor justo (~1% sobre precio), coherente con la clasificacion 'not_depressed': el de-rating es normalizacion de multiplos post-COVID, no deterioro de fundamentales (Q1'26 LFL acelero a +7.6%, margenes record FY2025). Rendimiento total al accionista: dividendo FY2025 EUR 7.20 (~1.9% yield) mas recompras modestas -> shareholder yield ~2.5-3%; el grueso del retorno depende del crecimiento compuesto del owner-FCF, no del payout. Sensibilidad: el valor terminal pesa ~69% del EV en el caso base (tipico de compounder de bajo WACC); a WACC 7.5% la IV base baja a ~EUR 350, a 6.5% sube a ~EUR 435. Posicion de caja neta (-EUR 2.05B deuda neta) anade ~EUR 4/accion. No requiere ni DDM ni normalizacion ciclica: DCF de owner earnings es plenamente valido para un consumer-staples/lujo de alta calidad.",
+ "method_notes": "DCF de owner earnings a 10 anios. Base owner-FCF = FCF reportado FY2025 (net cash flow EUR 7.16B) menos 100% de SBC est. (~EUR 0.18B) = EUR 6.98B. Fase 1 (anios 1-5): crecimiento explicito del owner-FCF por escenario (4.0%/5.5%/7.0%). Fase 2 (anios 6-10): CAGR declinante linealmente hacia g terminal. Valor terminal por crecimiento perpetuo (g 2.5%/3.0%/3.5% segun foso ancho - marca, R&D, distribucion global). Descontado a WACC 7.0% = Rf eurozona 2.8% + ERP 5.0% x beta 0.85 (beta de staples/lujo de baja volatilidad; sin ajuste geopolitico, no aplica a Francia). VI/accion = (PV flujos + PV valor terminal + caja neta EUR 2.05B) / 0.534B acciones diluidas (market cap EUR 201.8B / EUR 378.10). Moneda EUR (misma que current_price). Net debt en JSON -USD 2.2B = -EUR 2.05B (caja neta). Todos los inputs de FASE 2 verificados; SBC y acciones estimadas pero inmateriales para el resultado. IV ponderada ~EUR 382."
+}

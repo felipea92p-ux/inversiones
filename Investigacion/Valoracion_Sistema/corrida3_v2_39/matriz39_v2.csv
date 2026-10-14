@@ -1,0 +1,40 @@
+ticker,name,arquetipo,qg,tier,precio,pwfv,mos_pct,zona,mult_actual,techo,dcf_inverso,detector,asimetria,veredicto,confianza
+WKL,Wolters Kluwer N.V.,Compounder estable (info-servi,66.4,Sólida,57.2,109,47.5,GANGA FUERTE,9.8,25,BAJAS,PASA,3.05,COMPRAR TRAMO
+ADBE,Adobe Inc.,Compounder estable (software p,72.8,Sólida,210.6,358,41.2,GANGA FUERTE,10.9,25,BAJAS,PASA,4.8,COMPRAR TRAMO
+ADYEN,Adyen N.V.,Compounder estable,75.6,Alta convicción,830,776,-7.0,JUSTO,31.7,30,RAZONABLES,PASA,0.71,VIGILAR
+BKNG,Booking Holdings Inc.,Compounder estable (OTA asset-,69.2,Sólida,182.86,245,25.4,GANGA FUERTE,16.7,25,BAJAS,PASA,0.71,ESPERAR
+VEEV,Veeva Systems Inc.,Compounder estable,77.6,Alta convicción,188.25,212,11.2,JUSTO,33,30,RAZONABLES,PASA,0.5,ESPERAR
+RELX,RELX Group plc,Compounder estable (peaje de d,72.8,Sólida,2340,2594,9.8,JUSTO,19.5,25,BAJAS,PASA,0.56,ESPERAR
+ICE,"Intercontinental Exchange, Inc.",compounder,65.2,Sólida,130.61,142,8.3,JUSTO,19,25,BAJAS,PASA,1.4,ESPERAR
+INTU,Intuit Inc.,Compounder estable,68.8,Sólida,272.85,296,7.8,JUSTO,14.4,25,BAJAS,PASA,3,ESPERAR
+AMZN,"Amazon.com, Inc.",Compounder (en fase de super-i,71.2,Sólida,241.7,260,7.0,JUSTO,33.7,25,RAZONABLES,PASA,2.5,ESPERAR
+MA,Mastercard Incorporated,Compounder estable (peaje de r,84,Alta convicción,513.6,537,4.4,JUSTO,29.4,30,RAZONABLES,PASA,2.49,ESPERAR
+ISRG,"Intuitive Surgical, Inc.",Compounder estable,82,Alta convicción,402.38,400,-0.6,JUSTO,40,30,RAZONABLES,PASA,1,ESPERAR
+NOW,"ServiceNow, Inc.",Compounder estable (SaaS enter,72,Sólida,106,105,-1.0,JUSTO,27.7,25,RAZONABLES,PASA,0,ESPERAR
+MSFT,Microsoft Corporation,Compounder estable (tri-método,85.6,Núcleo,385.89,368,-4.9,JUSTO,47.4,35,RAZONABLES,PASA,0.7,ESPERAR
+MSCI,MSCI Inc.,compounder,69.2,Sólida,598.59,541,-10.6,JUSTO,30.2,25,RAZONABLES,PASA,0,ESPERAR
+GOOGL,Alphabet Inc. (Class A),Compounder estable,81.2,Alta convicción,360.22,324,-11.0,JUSTO,33.3,30,RAZONABLES,PASA,0,ESPERAR
+IDXX,"IDEXX Laboratories, Inc.",Compounder estable (diagnóstic,76,Alta convicción,548.85,490,-12.0,JUSTO,43,30,RAZONABLES,PASA,1.5,ESPERAR
+SPGI,S&P Global Inc.,compounder,73.2,Sólida,434.84,387,-12.4,JUSTO,27.5,25,RAZONABLES,PASA,-0.33,ESPERAR
+MCO,Moody's Corporation,Compounder estable (peaje de c,76.4,Alta convicción,468.38,409,-14.5,JUSTO,36,30,RAZONABLES,PASA,0.6,ESPERAR
+LLY,Eli Lilly and Company,compounder,72.4,Sólida,1176.94,1015,-16.0,CARO,33,25,HEROICAS,PASA,1,ESPERAR
+V,Visa Inc.,Compounder estable,82.4,Alta convicción,358,295,-21.4,CARO,34.1,30,RAZONABLES,PASA,-0.26,ESPERAR
+MELI,"MercadoLibre, Inc.",Compounder estable (ecommerce ,75.6,Alta convicción,1750,1386,-26.3,CARO,40.3,30,RAZONABLES,GRIS,0.43,ESPERAR
+RACE,Ferrari N.V.,Compounder estable (lujo/escas,70.8,Sólida,378.37,294,-28.7,CARO,37,25,RAZONABLES,PASA,0.13,ESPERAR
+OR,L'Oréal S.A.,Compounder estable,65.6,Sólida,380.35,284,-34.1,CARO,28.4,25,HEROICAS,PASA,-0.52,ESPERAR
+RMS,Hermès International SCA,Compounder estable (lujo de ca,74.4,Sólida,1647,1217,-35.3,BURBUJA,34.9,25,HEROICAS,PASA,0,ESPERAR
+TSM,Taiwan Semiconductor Manufacturing (TSMC,ciclico-semis,77.2,Alta convicción,450,323,-39.5,BURBUJA,43.3,30,HEROICAS,PASA,-0.39,ESPERAR
+CSU,Constellation Software Inc.,compounder (serial acquirer VM,70.4,Sólida,2670,1841,-45.0,BURBUJA,23.6,25,RAZONABLES,PASA,0.5,ESPERAR
+SNPS,"Synopsys, Inc.",Compounder (duopolio EDA SNPS/,70.4,Sólida,436.32,280,-55.8,BURBUJA,40,25,HEROICAS,PASA,0.4,ESPERAR
+FICO,Fair Isaac Corporation,Compounder estable (peaje de d,69.2,Sólida,1194.78,741,-61.2,BURBUJA,35.4,25,HEROICAS,PASA,-0.11,ESPERAR
+NVDA,NVIDIA Corporation,ciclico-semis,78,Alta convicción,197.58,92,-114.8,BURBUJA,52.5,30,HEROICAS,PASA,0.4,ESPERAR
+COST,Costco Wholesale Corporation,Compounder estable (peaje de s,65.6,Sólida,924.67,425,-117.6,BURBUJA,58.8,25,HEROICAS,PASA,-0.69,ESPERAR
+ASML,ASML Holding N.V.,ciclico-semis,81.2,Alta convicción,1761.67,780,-125.9,BURBUJA,81,30,HEROICAS,PASA,0.3,ESPERAR
+CDNS,Cadence Design Systems,Compounder estable (EDA duopol,71.2,Sólida,375.32,129,-190.9,BURBUJA,90.7,25,HEROICAS,PASA,0,ESPERAR
+ACN,Accenture plc,Compounder estable (servicios ,62.4,Watchlist,131.13,241,45.6,GANGA FUERTE,8.4,25,BAJAS,PASA,7.4,FUERA-WATCHLIST
+CRM,"Salesforce, Inc.",Compounder estable (SaaS empre,59.2,Watchlist,166.59,216,22.9,OPORTUNIDAD,14.3,25,BAJAS,PASA,2.3,FUERA-WATCHLIST
+NFLX,"Netflix, Inc.",Compounder estable (streaming ,63.2,Watchlist,75,76,1.3,JUSTO,36,25,RAZONABLES,PASA,2.6,FUERA-WATCHLIST
+NVO,Novo Nordisk A/S (ADR),compounder,64.8,Watchlist,49.24,49,-0.5,JUSTO,14.9,25,RAZONABLES,TRAMP,1,FUERA-WATCHLIST
+MC,LVMH Moët Hennessy Louis Vuitton SE,Compounder estable (lujo globa,58.4,Watchlist,497.5,429,-16.1,CARO,21.8,25,RAZONABLES,GRIS,0.31,FUERA-WATCHLIST
+TMO,Thermo Fisher Scientific,compounder,60,Watchlist,521.21,350,-48.9,BURBUJA,32.4,25,HEROICAS,PASA,-0.41,FUERA-WATCHLIST
+AVGO,Broadcom Inc.,ciclico-semis (con componente ,63.6,Watchlist,370.03,135,-174.1,BURBUJA,95,25,HEROICAS,PASA,-0.77,FUERA-WATCHLIST

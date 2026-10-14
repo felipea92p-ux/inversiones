@@ -1,0 +1,172 @@
+{
+  "ticker": "AVGO",
+  "empresa": "Broadcom Inc.",
+  "cik": "0001730168",
+  "fecha_valoracion": "2026-07-28",
+  "divisa": "USD",
+  "unidades": "millones de USD salvo indicacion contraria",
+  "etiqueta_congelada": "MENOS_5_6 (2 puertas pasadas) — NO reclasificable hacia arriba",
+  "especie": "G2 · reinversion 56,6% de ventas · ROIIC bruto 15,1% · ROIIC ex-margen 4,7%",
+  "mos_exigido_pct": 40,
+  "en_cartera": false,
+
+  "precio_y_capitalizacion": {
+    "precio_usd": 376.41,
+    "fuente_precio": "HECHO — ultimo cruce IBKR (contract_id 313130367, NASDAQ) del 2026-07-27; variacion del dia -1,78%",
+    "acciones_en_circulacion_mm": 4757.58,
+    "fuente_acciones": "HECHO — dei:EntityCommonStockSharesOutstanding, portada del 10-Q Q2 FY2026, a 2026-05-29 (4.757.580.198). No es ADS: accion ordinaria unica, 1:1.",
+    "capitalizacion_usd_mm": 1790801,
+    "deuda_total_usd_mm": 64907,
+    "fuente_deuda": "HECHO — 10-Q Q2 FY2026 (2026-05-03): us-gaap:LongTermDebtCurrent 2.252 + us-gaap:LongTermDebtNoncurrent 62.655. Principal nominal FY2025 67.120 y FY2024 69.847 (nota de deuda del 10-K FY2025).",
+    "caja_usd_mm": 19628,
+    "fuente_caja": "HECHO — 10-Q Q2 FY2026, CashAndCashEquivalentsAtCarryingValue a 2026-05-03",
+    "deuda_neta_usd_mm": 45279,
+    "ev_usd_mm": 1836080,
+    "nota_valor_mercado_deuda": "INFERENCIA — deuda a valor de mercado aproximada por libros. Cotiza cerca de par: la oferta de recompra de bonos del 2026-06-11 fija diferenciales de +25 a +80 pb sobre Tesoro."
+  },
+
+  "candado_b_wacc_de_mercado": {
+    "tasa_libre_riesgo_pct": 4.65,
+    "fuente_tasa_libre_riesgo": "HECHO — U.S. Treasury Daily Yield Curve, 10 anios, cierre del 2026-07-27 (home.treasury.gov, serie daily_treasury_yield_curve 2026)",
+    "prima_mercado_pct": 4.18,
+    "fuente_prima_mercado": "HECHO — Damodaran, implied ERP S&P 500 al 1-jul-2026, version trailing 12m con payout ajustado (4,18%); su rf de referencia ese dia era 4,45%. Otras lecturas de la misma tabla: 4,17% cash yield, 3,95% net cash yield, 3,63% normalizada.",
+    "prima_pais_pct": 0.35,
+    "fuente_prima_pais": "INFERENCIA — ponderacion por destino de envio del 10-K FY2025: EEUU 16.506 (25,8%), China+HK 11.155 (17,5%), Singapur 10.796 (16,9%), Taiwan 6.451 (10,1%), resto 18.979 (29,7%). El propio 10-K advierte que el destino de envio NO indica donde esta el cliente final. Rango razonable 0,0%-0,8%.",
+    "beta": 1.95,
+    "fuente_beta": "MEDICION PROPIA — regresion de 156 retornos SEMANALES de AVGO contra SPY, 2023-08 a 2026-07-27, precios IBKR. Beta cruda 2,414 (R2=0,472, error estandar 0,206; vol anual AVGO 50,8% vs SPY 14,4%). Ventana de 104 semanas da 2,424. Ajuste Blume (0,67·b+0,33) = 1,94 -> se usa 1,95 como central. Rango 1,54-2,41.",
+    "coste_deuda_pct": 4.9,
+    "fuente_coste_deuda": "HECHO/INFERENCIA — coste efectivo de libros: gasto financiero FY2025 3.210 sobre principal medio (67.120 y 69.847) = 4,69%; H1 FY2026 1.577 anualizado sobre ~66.000 = 4,8%. Coste marginal de mercado: diferencial +70 pb sobre el Tesoro a 10 anios en la oferta de recompra del 2026-06-11 -> 5,35% hoy. Central 4,9%.",
+    "tasa_impositiva_pct": 14,
+    "fuente_tasa_impositiva": "INFERENCIA — tipo efectivo GAAP distorsionado (FY2025 credito neto de -397 sobre 22.729 de beneficio antes de impuestos; FY2024 38,9% por transferencia de PI). H1 FY2026: 1.666 sobre 18.325 = 9,1%. Se usa 14% como marginal normalizado.",
+    "coste_capital_propio_pct": 13.15,
+    "pesos": "Equity 96,50% / Deuda 3,50% a valor de mercado",
+    "wacc_pct": 12.84,
+    "wacc_rango": "11,2% - 14,7% (beta 1,54 a 2,41)",
+    "nota": "El WACC NO se hereda de ningun tier de calidad. Sale integramente de mercado. Es alto porque la beta medida lo es: la accion se mueve 2,4 veces el indice en la ventana de tres anios."
+  },
+
+  "owner_earnings": {
+    "definicion_a": "CFO menos capex de MANTENIMIENTO, aproximado por la depreciacion de inmovilizado (us-gaap:Depreciation, NO la amortizacion de intangibles de adquisiciones)",
+    "definicion_b": "CFO menos TODO el capex (flujo de caja libre puro)",
+    "base_auditada_FY2025": {
+      "periodo": "2024-11-04 a 2025-11-02 (10-K presentado 2025-12-18)",
+      "ventas": 63887,
+      "resultado_operativo": 25484,
+      "resultado_neto": 23126,
+      "cfo": 27537,
+      "capex": 623,
+      "depreciacion_inmovilizado": 574,
+      "amortizacion_intangibles": 8062,
+      "sbc": 7568,
+      "gasto_financiero": 3210,
+      "oe_mantenimiento_usd_mm": 26963,
+      "oe_capex_total_usd_mm": 26914,
+      "etiqueta": "HECHO — todas las cifras de us-gaap XBRL companyfacts, formulario 10-K FY2025"
+    },
+    "base_en_curso_FY2026E": {
+      "construccion": "Q1 19.311 (HECHO) + Q2 22.187 (HECHO) + Q3 29.400 (HECHO, guia de la empresa del 2026-06-03) + Q4 29.400 (SUPUESTO: plano contra Q3, la empresa no guia Q4)",
+      "ventas": 100298,
+      "cfo": 46095,
+      "cfo_construccion": "H1 real 18.753 (HECHO) + 58.800 de ventas H2 x 46,5% de margen de caja operativa (INFERENCIA; Q2 real fue 47,3%)",
+      "capex": 1000,
+      "capex_construccion": "H1 real 481 (HECHO) + ~500 H2 (INFERENCIA)",
+      "depreciacion_inmovilizado": 640,
+      "gasto_financiero": 3150,
+      "oe_mantenimiento_usd_mm": 45455,
+      "oe_capex_total_usd_mm": 45095
+    },
+    "distancia_entre_bases": "+68,6% de owner earnings de la base auditada a la base en curso. NO es ruido: es la rampa de silicio a medida de IA. Ingresos de semiconductores de IA 10,8 mil MM en Q2 FY26 (+143% interanual) y guia de 16,0 mil MM para Q3 (+200%). Estamos valorando en el punto mas alto del ciclo que la empresa ha vivido nunca, con el Q4 sin guiar.",
+    "advertencia_sbc": "El metodo no descuenta la retribucion en acciones. En FY2025 fueron 7.568 (11,8% de las ventas) y las acciones en circulacion SUBIERON de 4.686 a 4.758 millones en seis trimestres pese a 2.450 de recompra. Restando el SBC, el OE FY2025 caeria a ~19.350 y el valor por accion aproximadamente un 28%."
+  },
+
+  "dcf_inverso": {
+    "metodo": "Se descuenta FCFF = owner earnings + intereses despues de impuestos, diez anios de crecimiento g mas valor terminal al 3%, al WACC de mercado. Se resuelve la g que iguala el valor de empresa a los 1.836.080 de EV de hoy.",
+    "g_implicita_auditado_pct": 28.9,
+    "g_implicita_auditado_detalle": "28,86% (base mantenimiento) / 28,88% (base capex total) al WACC 12,84%. Al WACC bajo (11,18%): 25,2%. Al alto (14,69%): 32,6%.",
+    "g_implicita_encurso_pct": 21.9,
+    "g_implicita_encurso_detalle": "21,82% (mantenimiento) / 21,93% (capex total) al WACC 12,84%. Al WACC bajo: 18,5%. Al alto: 25,4%.",
+    "lectura": "Incluso comprando la version mas generosa —el ejercicio en curso ya anualizado con el trimestre de guia, es decir dando por hecho el pico de IA— el precio de hoy exige que un flujo de 45 mil millones crezca al 22% anual durante diez anios antes de asentarse en el 3%. Eso son ~330 mil millones de owner earnings en 2036. Nadie ha hecho eso nunca desde una base de esta magnitud."
+  },
+
+  "g_defendible": {
+    "formula": "tasa de reinversion x ROIIC EX-MARGEN (4,7%, dato congelado del eje calidad; NUNCA el ROIIC bruto de 15,1%, que asume que la expansion de margen se repite)",
+    "ventana": "FY2021-FY2025",
+    "ventas_5a": 211933,
+    "nopat_5a": 66992,
+    "reinversion_total_5a": 116688,
+    "reinversion_componentes": "capex 2.490 (HECHO) + adquisiciones en efectivo 26.285 (HECHO) + porcion en acciones de VMware ~52.600 (INFERENCIA) + I+D 35.313 (HECHO)",
+    "reinversion_pct_ventas": 55.1,
+    "nota_reinversion": "55,1% reconstruido por mi contra el 56,6% congelado del eje calidad. Coinciden dentro del ruido: la definicion incluye I+D como inversion.",
+    "tres_aritmeticas": {
+      "reinversion_total_sobre_nopat": "116.688 / 66.992 = 1,74x -> g = 8,19%. PERO exige capital externo perpetuo (deuda y acciones nuevas) que el flujo de owner earnings no descuenta. Aplicarla sin restar las adquisiciones es contar el crecimiento dos veces.",
+      "reinversion_organica": "capex + I+D = 37.803 / 66.992 = 0,564x -> g = 2,65%. Es la unica coherente con la definicion de owner earnings usada, porque el I+D ya esta gastado dentro del CFO y el capex ya esta restado, mientras que las adquisiciones NO se restan.",
+      "retencion_post_dividendo": "(66.992 - 41.247 de dividendos) / 66.992 = 0,384x -> g = 1,81%"
+    },
+    "g_defendible_pct": 2.65,
+    "rango_g": "1,8% - 8,2%",
+    "justificacion": "Se elige la aritmetica organica (2,65%) por consistencia con el flujo que se descuenta. La alternativa con g=8,19% restando las adquisiciones normalizadas (15.777/anio) da un valor MENOR (33,9 sobre base auditada, 90,5 sobre base en curso), asi que la eleccion no es la punitiva sino la generosa."
+  },
+
+  "valoracion": {
+    "valor_por_accion_auditado_usd": 54.3,
+    "valor_por_accion_auditado_rango": "41 - 68 (piso de resolucion +-25%)",
+    "mos_auditado_pct": -593,
+    "valor_por_accion_encurso_usd": 93.3,
+    "valor_por_accion_encurso_rango": "70 - 117 (piso de resolucion +-25%)",
+    "mos_encurso_pct": -304,
+    "m_estrella": 12,
+    "m_estrella_justificacion": "Multiplo de owner earnings que acepto pagar, decidido en frio y sin barra de error porque es una politica, no una estimacion. Coherente con la aritmetica: a WACC 12,84% y g defendible 2,65%, el multiplo teorico es 1,0265/(0,1284-0,0265) = 10,1x. Se sube a 12x para dar credito explicito a la conversion de caja y a la opcionalidad del negocio de ASIC de IA, que la medida retrospectiva de ROIIC no captura.",
+    "valor_por_accion_con_m_estrella_usd": 104.2,
+    "p_estrella_usd": 62.5,
+    "p_estrella_construccion": "104,2 x (1 - 0,40) = 62,5. El 40% es el MoS exigido para ABRIR posicion en su banda (no esta en cartera, no aplica el descuento de 12 puntos por CARGAR).",
+    "multiplos_a_los_que_cotiza": "EV / owner earnings en curso = 40,7x · EV / owner earnings auditado = 68,2x"
+  },
+
+  "tir_esperada": {
+    "metodo": "Compra hoy a 376,41 la capitalizacion entera; se reciben los owner earnings de cada anio como distribucion y se sale a los 10 anios a un multiplo de salida sobre el OE de ese anio, restando la deuda neta.",
+    "escenarios": [
+      {"nombre": "defendible (g 2,65%, salida 12x)", "tir": "-4,9%"},
+      {"nombre": "reinversion agresiva sostenida (g 8,2%, salida 16x)", "tir": "+2,7%"},
+      {"nombre": "alcista de IA (g 15%, salida 20x)", "tir": "+11,2%"},
+      {"nombre": "alcista extremo (g 20%, salida 22x)", "tir": "+17,0%"}
+    ],
+    "rango_central": "-5% a +11% anual durante 10 anios",
+    "lectura": "El MoS de -304% no es informacion, es una division. Lo que si es informacion: en el caso que puedo defender con los datos, comprar hoy produce -5% anual durante una decada. Para sacar dos digitos hace falta creer en un 15% de crecimiento sostenido diez anios y en salir a 20x owner earnings."
+  },
+
+  "trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "Una trampa de valor es un descuento grande sobre un motor que se rompe. Aqui no hay descuento que analizar: hay una prima del 300% sobre la valoracion mas generosa. El motor, ademas, no se esta rompiendo hoy — se esta acelerando (ventas +48% en Q2, guia +84% en Q3). El riesgo de esta posicion es exactamente el inverso: pagar por la extrapolacion de una rampa cuyo cliente principal ya es el 32% de las ventas."
+  },
+
+  "riesgos_que_la_valoracion_no_descuenta": [
+    "Concentracion: un unico cliente fue el 32% de las ventas de FY2025 (28% en FY2024, 21% en FY2023) — HECHO, nota 13 del 10-K FY2025. Los cinco primeros, ~40%. El 44% del saldo de clientes a cobrar a cierre de FY2025 era de un solo cliente.",
+    "El eslabon mas debil del mecanismo congelado: el 69% de la mejora del NOPAT de cinco anios viene de expansion de margen, no de capital desplegado. La puerta G3, que diria si ese margen es poder de precio o cosecha del foso, es inmedible porque la empresa no publica una sola cifra de volumen.",
+    "El Q4 FY2026 no esta guiado. El 29% de las ventas del ejercicio en curso que uso es supuesto mio."
+  ],
+
+  "huecos": [
+    "G3 INMEDIBLE: Broadcom no publica unidades, volumenes ni precios medios en ningun filing. No hay forma de separar poder de precio legitimo de cosecha del foso. Este hueco no lo cierra la valoracion, es estructural.",
+    "Q4 FY2026 sin guia de la empresa: el 29,3% de las ventas del ejercicio en curso (29.400 MM) es SUPUESTO mio (plano contra Q3). Si la rampa continua, el owner earnings en curso esta infraestimado y la g implicita baja; si el pedido de IA se digiere, esta sobreestimado.",
+    "El ROIIC ex-margen de 4,7% es una medida retrospectiva a cinco anios dominada por VMware. NO mide el retorno incremental del negocio de ASIC de IA, que es donde esta todo el crecimiento actual y que consume casi cero capital fijo (capex de 623 MM sobre 63.887 de ventas). Este es el hueco mas grande de esta valoracion y sesga la g defendible a la baja por construccion. Cerrarlo exige un ROIIC segmentado que la empresa no reporta.",
+    "SBC no descontado por definicion del metodo: 7.568 MM en FY2025, 11,8% de las ventas, con dilucion neta real. El valor por accion cae ~28% si se resta.",
+    "Porcion en acciones de la compra de VMware (~52.600 MM) usada en el calculo de reinversion: INFERENCIA, no extraida linea a linea del estado de flujos.",
+    "Prima pais 0,35%: INFERENCIA sobre destino de envio, que el propio 10-K declara no representativo del cliente final.",
+    "Beta de 2,41 medida sobre una ventana enteramente dominada por el trade de IA; R2 de 0,472 significa que mas de la mitad de la varianza es idiosincratica. El ajuste Blume a 1,95 es una convencion, no una medicion.",
+    "Deuda a valor de mercado aproximada por valor en libros.",
+    "Tipo impositivo marginal del 14%: normalizacion propia. Los tipos GAAP reportados (credito neto en FY2025, 38,9% en FY2024) estan distorsionados por transferencias de propiedad intelectual y no sirven."
+  ],
+
+  "fuentes_primarias": [
+    "SEC EDGAR companyfacts CIK0001730168 (XBRL us-gaap) — todas las cifras de cuentas",
+    "10-K FY2025, presentado 2025-12-18, accession 0001730168-25-000121 (avgo-20251102.htm) — geografia, concentracion de clientes, nota de deuda, conciliacion de resultado operativo",
+    "10-Q Q2 FY2026, presentado 2026-06-09, accession 0001730168-26-000054 (avgo-20260503.htm) — balance a 2026-05-03",
+    "8-K 2026-06-03, accession 0001730168-26-000051, EX-99.1 — resultados Q2 FY2026 y guia Q3 FY2026",
+    "8-K 2026-06-11, accession 0001193125-26-266777, EX-99.1 — oferta de recompra de bonos, diferenciales de credito de mercado",
+    "U.S. Treasury Daily Yield Curve, 2026-07-27 — tasa libre de riesgo",
+    "Damodaran, Current Implied Equity Risk Premium, 1-jul-2026 — prima de mercado",
+    "IBKR — precio del 2026-07-27 e historico semanal de precios para la regresion de beta"
+  ],
+
+  "resumen": "AVGO cotiza a 376,41 el 27-jul-2026, 1,79 billones de capitalizacion y 1,836 billones de valor de empresa. Con un WACC de mercado del 12,84% (beta propia de 2,41 cruda, 1,95 ajustada; Tesoro a 10 anios 4,65%; ERP Damodaran 4,18%; coste de deuda real 4,9%), el DCF inverso dice que el precio exige un 21,9% de crecimiento anual durante diez anios sobre la base MAS generosa —el ejercicio en curso ya anualizado con la guia del Q3 de IA— y un 28,9% sobre el ultimo auditado. La g que yo puedo defender, derivada de la reinversion organica por el ROIIC EX-MARGEN de 4,7%, es del 2,65%. La brecha es de ocho veces. Owner earnings: 26.914 (capex total) y 26.963 (mantenimiento) en el FY2025 auditado; 45.095 y 45.455 en el FY2026 en curso — un salto del 68,6% que no es ruido sino la rampa de IA en su punto mas alto, con el Q4 sin guiar. Valor por accion 54 (auditado) y 93 (en curso), rangos de 41-68 y 70-117 al piso de resolucion de +-25%. MoS de -593% y -304% contra el 40% exigido para abrir. M estrella 12x owner earnings, P estrella 62,5. Traducido a lo unico que informa: el caso defendible produce -4,9% anual durante diez anios; para llegar a doble digito hay que creerse un 15% de crecimiento sostenido una decada. No es trampa de valor —el motor se acelera, no se rompe— pero eso no cambia nada: no hay margen de seguridad, hay una prima. VEREDICTO DE PRECIO: NO ABRIR. Y el hueco honesto que dejo abierto: el ROIIC ex-margen de 4,7% mira cinco anios hacia atras y esta dominado por VMware; no mide el retorno del negocio de ASIC de IA, que casi no consume capital. Si ese negocio tiene un ROIIC incremental muy superior, mi g defendible esta sesgada a la baja. Pero cerrar ese hueco exige un dato segmentado que Broadcom no publica, igual que no publica volumenes — y una tesis no se compra con datos que la empresa se niega a dar."
+}

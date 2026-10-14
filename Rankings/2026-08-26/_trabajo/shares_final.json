@@ -1,0 +1,1622 @@
+{
+ "NOC": {
+  "shares": 142063026,
+  "fuente": "dei 2026-07-16",
+  "nota": ""
+ },
+ "CMG": {
+  "shares": 1265418000,
+  "fuente": "dei 2026-07-24",
+  "nota": ""
+ },
+ "URI": {
+  "shares": 62646557,
+  "fuente": "dei 2026-04-20",
+  "nota": ""
+ },
+ "CMI": {
+  "shares": 137664487,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "ICE": {
+  "shares": 561394487,
+  "fuente": "dei 2026-07-27",
+  "nota": ""
+ },
+ "PDD": {
+  "shares": 5693585848,
+  "fuente": "portada iXBRL 2026-04-29",
+  "nota": ""
+ },
+ "WRB": {
+  "shares": 371227529,
+  "fuente": "dei 2026-07-27",
+  "nota": ""
+ },
+ "TSM": {
+  "shares": 25932524521,
+  "fuente": "dei 2025-12-31",
+  "nota": ""
+ },
+ "TYL": {
+  "shares": 40952274,
+  "fuente": "dei 2026-07-27",
+  "nota": ""
+ },
+ "MNST": {
+  "shares": 979525882,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "AZN": {
+  "shares": 1550957927,
+  "fuente": "portada iXBRL 2026-02-24",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "NVO": {
+  "shares": 4465000000,
+  "fuente": "portada iXBRL 2026-02-04",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "KO": {
+  "shares": 4302549243,
+  "fuente": "portada iXBRL 2026-07-29",
+  "nota": ""
+ },
+ "TDY": {
+  "shares": 46355673,
+  "fuente": "dei 2026-07-15",
+  "nota": ""
+ },
+ "WST": {
+  "shares": 70375762,
+  "fuente": "dei 2026-07-20",
+  "nota": ""
+ },
+ "GRMN": {
+  "shares": 192852536,
+  "fuente": "portada iXBRL 2026-07-29",
+  "nota": ""
+ },
+ "CDNS": {
+  "shares": 275393000,
+  "fuente": "portada iXBRL 2026-07-29",
+  "nota": ""
+ },
+ "PM": {
+  "shares": 1558613439,
+  "fuente": "dei 2026-07-17",
+  "nota": ""
+ },
+ "WTW": {
+  "shares": 92871937,
+  "fuente": "dei 2026-07-27",
+  "nota": ""
+ },
+ "CME": {
+  "shares": 359577412,
+  "fuente": "portada iXBRL 2026-07-24",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "JPM": {
+  "shares": 2658186195,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "AMAT": {
+  "shares": 793597443,
+  "fuente": "dei 2026-07-26",
+  "nota": ""
+ },
+ "WAB": {
+  "shares": 168910851,
+  "fuente": "dei 2026-07-17",
+  "nota": ""
+ },
+ "EOG": {
+  "shares": 524529176,
+  "fuente": "dei 2026-07-28",
+  "nota": ""
+ },
+ "MBGL": {
+  "shares": 294821320,
+  "fuente": "dei 2026-07-01",
+  "nota": ""
+ },
+ "CVX": {
+  "shares": 1975771274,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "CHD": {
+  "shares": 237203907,
+  "fuente": "dei 2026-07-29",
+  "nota": ""
+ },
+ "RTX": {
+  "shares": 1347758144,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "UNP": {
+  "shares": 594075498,
+  "fuente": "dei 2026-07-17",
+  "nota": ""
+ },
+ "XOM": {
+  "shares": 4111911960,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "DDOG": {
+  "shares": 359075024,
+  "fuente": "portada iXBRL 2026-08-06",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "AXON": {
+  "shares": 81237415,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "AMD": {
+  "shares": 1632475042,
+  "fuente": "dei 2026-07-29",
+  "nota": ""
+ },
+ "YUM": {
+  "shares": 272901085,
+  "fuente": "dei 2026-07-30",
+  "nota": ""
+ },
+ "BABA": {
+  "shares": 1858037427,
+  "fuente": "dei 2026-03-31",
+  "nota": ""
+ },
+ "CSX": {
+  "shares": 1852474917,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "BX": {
+  "shares": 750625114,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "CIEN": {
+  "shares": 141552922,
+  "fuente": "dei 2026-05-29",
+  "nota": ""
+ },
+ "MDLZ": {
+  "shares": 1276308057,
+  "fuente": "portada iXBRL 2026-07-28",
+  "nota": ""
+ },
+ "MSI": {
+  "shares": 165493788,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "NSC": {
+  "shares": 224608373,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "PEP": {
+  "shares": 1364891558,
+  "fuente": "dei 2026-07-02",
+  "nota": ""
+ },
+ "MELI": {
+  "shares": 50696802,
+  "fuente": "dei 2026-08-05",
+  "nota": ""
+ },
+ "CEG": {
+  "shares": 354307379,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "TT": {
+  "shares": 220023177,
+  "fuente": "dei 2026-07-24",
+  "nota": ""
+ },
+ "LHX": {
+  "shares": 186214616,
+  "fuente": "dei 2026-07-24",
+  "nota": ""
+ },
+ "CW": {
+  "shares": 36934444,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "ACGL": {
+  "shares": 341229126,
+  "fuente": "dei 2026-07-30",
+  "nota": ""
+ },
+ "AZO": {
+  "shares": 16325355,
+  "fuente": "dei 2026-06-05",
+  "nota": ""
+ },
+ "GILD": {
+  "shares": 1239955155,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "MLM": {
+  "shares": 60065839,
+  "fuente": "dei 2026-07-27",
+  "nota": ""
+ },
+ "EBAY": {
+  "shares": 445000000,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "IDXX": {
+  "shares": 78781116,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "CRM": {
+  "shares": 819000000,
+  "fuente": "dei 2026-05-21",
+  "nota": ""
+ },
+ "SHW": {
+  "shares": 242758151,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "ARES": {
+  "shares": 360277229,
+  "fuente": "portada iXBRL 2026-08-07",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "VST": {
+  "shares": 335635195,
+  "fuente": "dei 2026-08-03",
+  "nota": ""
+ },
+ "RACE": {
+  "shares": 233944534,
+  "fuente": "portada iXBRL 2026-02-19",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "MCO": {
+  "shares": 173200000,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "NVR": {
+  "shares": 2664860,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "AVY": {
+  "shares": 75788142,
+  "fuente": "dei 2026-08-01",
+  "nota": ""
+ },
+ "EW": {
+  "shares": 576400000,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "NXPI": {
+  "shares": 252164174,
+  "fuente": "portada iXBRL 2026-07-28",
+  "nota": ""
+ },
+ "AAPL": {
+  "shares": 14594180000,
+  "fuente": "dei 2026-07-17",
+  "nota": ""
+ },
+ "GL": {
+  "shares": 76849447,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "PAYX": {
+  "shares": 355682860,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "TDG": {
+  "shares": 55276525,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "MCHP": {
+  "shares": 543008691,
+  "fuente": "dei 2026-07-28",
+  "nota": ""
+ },
+ "FTNT": {
+  "shares": 733713653,
+  "fuente": "dei 2026-07-28",
+  "nota": ""
+ },
+ "AMT": {
+  "shares": 465960048,
+  "fuente": "portada iXBRL 2026-07-28",
+  "nota": ""
+ },
+ "OTIS": {
+  "shares": 380669339,
+  "fuente": "dei 2026-07-15",
+  "nota": ""
+ },
+ "GOOGL": {
+  "shares": 12230000000,
+  "fuente": "manual verificado",
+  "nota": "us-gaap:CommonStockSharesOutstanding 10-Q 30-jun-2026, clases A+B+C"
+ },
+ "UBER": {
+  "shares": 2042560121,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "AMZN": {
+  "shares": 10786313572,
+  "fuente": "dei 2026-07-22",
+  "nota": ""
+ },
+ "GEN": {
+  "shares": 598587032,
+  "fuente": "dei 2026-08-04",
+  "nota": ""
+ },
+ "ALGN": {
+  "shares": 71039852,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "MDT": {
+  "shares": 1280045190,
+  "fuente": "dei 2026-06-12",
+  "nota": ""
+ },
+ "AFL": {
+  "shares": 501343298,
+  "fuente": "dei 2026-07-28",
+  "nota": ""
+ },
+ "ODFL": {
+  "shares": 207356622,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "KKR": {
+  "shares": 897635601,
+  "fuente": "dei 2026-08-05",
+  "nota": ""
+ },
+ "SYY": {
+  "shares": 479096016,
+  "fuente": "dei 2026-08-04",
+  "nota": ""
+ },
+ "FDS": {
+  "shares": 35565543,
+  "fuente": "dei 2026-06-25",
+  "nota": ""
+ },
+ "EXR": {
+  "shares": 211269558,
+  "fuente": "dei 2026-07-24",
+  "nota": ""
+ },
+ "STZ": {
+  "shares": 170778434,
+  "fuente": "portada iXBRL 2026-07-01",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "PH": {
+  "shares": 126047469,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "APO": {
+  "shares": 590543159,
+  "fuente": "dei 2026-08-05",
+  "nota": ""
+ },
+ "SNPS": {
+  "shares": 191479325,
+  "fuente": "dei 2026-05-22",
+  "nota": ""
+ },
+ "ADSK": {
+  "shares": 211000000,
+  "fuente": "dei 2026-05-21",
+  "nota": ""
+ },
+ "ETN": {
+  "shares": 388400000,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "CLX": {
+  "shares": 120921351,
+  "fuente": "dei 2026-04-16",
+  "nota": ""
+ },
+ "BF.B": {
+  "shares": 458864265,
+  "fuente": "portada iXBRL 2026-06-12",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "APH": {
+  "shares": 1232983457,
+  "fuente": "dei 2026-07-28",
+  "nota": ""
+ },
+ "HLT": {
+  "shares": 225064910,
+  "fuente": "dei 2026-07-23",
+  "nota": ""
+ },
+ "AMGN": {
+  "shares": 540632005,
+  "fuente": "dei 2026-07-30",
+  "nota": ""
+ },
+ "V": {
+  "shares": 1784428534,
+  "fuente": "portada iXBRL 2026-07-29",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "ERIE": {
+  "shares": 46191610,
+  "fuente": "portada iXBRL 2026-07-30",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "DUOL": {
+  "shares": 46786269,
+  "fuente": "portada iXBRL 2026-08-06",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "EFX": {
+  "shares": 117484896,
+  "fuente": "dei 2026-07-10",
+  "nota": ""
+ },
+ "ROST": {
+  "shares": 320781076,
+  "fuente": "dei 2026-05-15",
+  "nota": ""
+ },
+ "APP": {
+  "shares": 334651,
+  "fuente": "portada iXBRL 2026-08-05",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "GWW": {
+  "shares": 47100942,
+  "fuente": "dei 2026-07-28",
+  "nota": ""
+ },
+ "CAT": {
+  "shares": 459674889,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "TTD": {
+  "shares": 469880194,
+  "fuente": "portada iXBRL 2026-08-06",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "WDAY": {
+  "shares": 220000000,
+  "fuente": "dei 2018-11-30 OBSOLETO",
+  "nota": "DEGRADADO: recuento anterior a 2024"
+ },
+ "MO": {
+  "shares": 1669743926,
+  "fuente": "dei 2026-07-22",
+  "nota": ""
+ },
+ "APD": {
+  "shares": 222685530,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "ULTA": {
+  "shares": 42989311,
+  "fuente": "dei 2026-05-28",
+  "nota": ""
+ },
+ "ABNB": {
+  "shares": 598785682,
+  "fuente": "portada iXBRL 2026-08-06",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "CDW": {
+  "shares": 125017426,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "CSGP": {
+  "shares": 405197588,
+  "fuente": "dei 2026-07-27",
+  "nota": ""
+ },
+ "ROP": {
+  "shares": 98900874,
+  "fuente": "dei 2026-07-28",
+  "nota": ""
+ },
+ "NFLX": {
+  "shares": 4163939676,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "BSX": {
+  "shares": 1449229526,
+  "fuente": "dei 2026-07-30",
+  "nota": ""
+ },
+ "NVDA": {
+  "shares": 24200000000,
+  "fuente": "dei 2026-05-15",
+  "nota": ""
+ },
+ "SLB": {
+  "shares": 1484143231,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "SPG": {
+  "shares": 323559515,
+  "fuente": "portada iXBRL 2026-08-10",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "VMC": {
+  "shares": 129578739,
+  "fuente": "portada iXBRL 2026-07-29",
+  "nota": ""
+ },
+ "IBM": {
+  "shares": 942134390,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "EXPE": {
+  "shares": 120019343,
+  "fuente": "portada iXBRL 2026-08-06",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "PLD": {
+  "shares": 932338000,
+  "fuente": "dei 2026-04-28",
+  "nota": ""
+ },
+ "WSM": {
+  "shares": 117746611,
+  "fuente": "dei 2026-05-17",
+  "nota": ""
+ },
+ "LULU": {
+  "shares": 108437957,
+  "fuente": "dei 2026-05-29",
+  "nota": ""
+ },
+ "AMP": {
+  "shares": 88333219,
+  "fuente": "dei 2026-07-24",
+  "nota": ""
+ },
+ "RSG": {
+  "shares": 306212978,
+  "fuente": "dei 2026-07-30",
+  "nota": ""
+ },
+ "KDP": {
+  "shares": 1360826038,
+  "fuente": "dei 2026-08-10",
+  "nota": ""
+ },
+ "GE": {
+  "shares": 1037562513,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "MKC": {
+  "shares": 268851552,
+  "fuente": "portada iXBRL 2026-06-25",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "ECL": {
+  "shares": 280328603,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "KEYS": {
+  "shares": 170895368,
+  "fuente": "dei 2026-05-29",
+  "nota": ""
+ },
+ "AME": {
+  "shares": 229261244,
+  "fuente": "dei 2026-07-28",
+  "nota": ""
+ },
+ "NEM": {
+  "shares": 1053692271,
+  "fuente": "dei 2026-07-16",
+  "nota": ""
+ },
+ "SCHW": {
+  "shares": 1729335714,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "JD": {
+  "shares": 2748133731,
+  "fuente": "portada iXBRL 2026-04-16",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "WM": {
+  "shares": 399715184,
+  "fuente": "dei 2026-07-24",
+  "nota": ""
+ },
+ "ISRG": {
+  "shares": 353278038,
+  "fuente": "dei 2026-07-16",
+  "nota": ""
+ },
+ "BLDR": {
+  "shares": 107596457,
+  "fuente": "dei 2026-07-23",
+  "nota": ""
+ },
+ "WMT": {
+  "shares": 7958079155,
+  "fuente": "dei 2026-05-27",
+  "nota": ""
+ },
+ "MRK": {
+  "shares": 2467171638,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "TRI": {
+  "shares": 450962490,
+  "fuente": "portada iXBRL 2026-03-05",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "VICI": {
+  "shares": 1101077562,
+  "fuente": "dei 2026-07-28",
+  "nota": ""
+ },
+ "MANH": {
+  "shares": 58304972,
+  "fuente": "dei 2026-07-28",
+  "nota": ""
+ },
+ "NDAQ": {
+  "shares": 558977372,
+  "fuente": "dei 2026-07-16",
+  "nota": ""
+ },
+ "BKR": {
+  "shares": 992674071,
+  "fuente": "dei 2026-07-23",
+  "nota": ""
+ },
+ "AXP": {
+  "shares": 675309833,
+  "fuente": "dei 2026-07-14",
+  "nota": ""
+ },
+ "CAH": {
+  "shares": 232575728,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "ASML": {
+  "shares": 385417665,
+  "fuente": "dei 2025-12-31",
+  "nota": ""
+ },
+ "MSFT": {
+  "shares": 7425545491,
+  "fuente": "dei 2026-07-23",
+  "nota": ""
+ },
+ "CI": {
+  "shares": 264240486,
+  "fuente": "dei 2026-07-24",
+  "nota": ""
+ },
+ "LRCX": {
+  "shares": 1251321000,
+  "fuente": "dei 2026-08-04",
+  "nota": ""
+ },
+ "FFIV": {
+  "shares": 56627182,
+  "fuente": "dei 2026-08-03",
+  "nota": ""
+ },
+ "AVGO": {
+  "shares": 4757580198,
+  "fuente": "dei 2026-05-29",
+  "nota": ""
+ },
+ "MEDP": {
+  "shares": 27911655,
+  "fuente": "dei 2026-07-17",
+  "nota": ""
+ },
+ "COR": {
+  "shares": 190827165,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "TMO": {
+  "shares": 369747286,
+  "fuente": "dei 2026-06-27",
+  "nota": ""
+ },
+ "SE": {
+  "shares": 611034168,
+  "fuente": "portada iXBRL 2026-04-17",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "VRSN": {
+  "shares": 90300000,
+  "fuente": "dei 2026-07-17",
+  "nota": ""
+ },
+ "ACN": {
+  "shares": 667810883,
+  "fuente": "portada iXBRL 2026-06-18",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "JKHY": {
+  "shares": 71050780,
+  "fuente": "dei 2026-04-24",
+  "nota": ""
+ },
+ "TER": {
+  "shares": 156340750,
+  "fuente": "dei 2026-07-27",
+  "nota": ""
+ },
+ "DGX": {
+  "shares": 110373360,
+  "fuente": "dei 2026-07-15",
+  "nota": ""
+ },
+ "TRMB": {
+  "shares": 233179848,
+  "fuente": "dei 2026-08-07",
+  "nota": ""
+ },
+ "STE": {
+  "shares": 97500110,
+  "fuente": "dei 2026-08-04",
+  "nota": ""
+ },
+ "TMUS": {
+  "shares": 1072671613,
+  "fuente": "dei 2026-07-17",
+  "nota": ""
+ },
+ "CSCO": {
+  "shares": 3941434665,
+  "fuente": "dei 2026-05-14",
+  "nota": ""
+ },
+ "COF": {
+  "shares": 613484836,
+  "fuente": "portada iXBRL 2026-07-28",
+  "nota": ""
+ },
+ "JBHT": {
+  "shares": 93914939,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "ATO": {
+  "shares": 168988553,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "HDB": {
+  "shares": 15393368328,
+  "fuente": "portada iXBRL 2026-07-29",
+  "nota": ""
+ },
+ "PKG": {
+  "shares": 89098299,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "TXN": {
+  "shares": 913247686,
+  "fuente": "dei 2026-07-15",
+  "nota": ""
+ },
+ "SBAC": {
+  "shares": 106088110,
+  "fuente": "dei 2026-07-28",
+  "nota": ""
+ },
+ "DXCM": {
+  "shares": 377360765,
+  "fuente": "dei 2026-07-23",
+  "nota": ""
+ },
+ "VRSK": {
+  "shares": 130156012,
+  "fuente": "portada iXBRL 2026-07-29",
+  "nota": ""
+ },
+ "REGN": {
+  "shares": 102954988,
+  "fuente": "portada iXBRL 2026-07-30",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "IEX": {
+  "shares": 73719896,
+  "fuente": "dei 2026-07-24",
+  "nota": ""
+ },
+ "GD": {
+  "shares": 270557195,
+  "fuente": "portada iXBRL 2026-07-29",
+  "nota": ""
+ },
+ "SPSC": {
+  "shares": 36000174,
+  "fuente": "dei 2026-07-23",
+  "nota": ""
+ },
+ "DHR": {
+  "shares": 702986054,
+  "fuente": "dei 2026-07-16",
+  "nota": ""
+ },
+ "CARR": {
+  "shares": 830580423,
+  "fuente": "dei 2026-04-15",
+  "nota": ""
+ },
+ "GGG": {
+  "shares": 161953824,
+  "fuente": "dei 2026-07-08",
+  "nota": ""
+ },
+ "CHTR": {
+  "shares": 119277492,
+  "fuente": "portada iXBRL 2026-07-24",
+  "nota": ""
+ },
+ "EL": {
+  "shares": 361798567,
+  "fuente": "portada iXBRL 2026-08-19",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "TROW": {
+  "shares": 213315850,
+  "fuente": "dei 2026-07-29",
+  "nota": ""
+ },
+ "VEEV": {
+  "shares": 162443291,
+  "fuente": "dei 2026-06-01",
+  "nota": ""
+ },
+ "MAR": {
+  "shares": 260766288,
+  "fuente": "dei 2026-07-27",
+  "nota": ""
+ },
+ "MORN": {
+  "shares": 37513571,
+  "fuente": "dei 2026-07-24",
+  "nota": ""
+ },
+ "HEI": {
+  "shares": 139659277,
+  "fuente": "portada iXBRL 2026-05-29",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "MSCI": {
+  "shares": 72700000,
+  "fuente": "dei 2026-07-14",
+  "nota": ""
+ },
+ "HSY": {
+  "shares": 200925657,
+  "fuente": "portada iXBRL 2026-07-30",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "INTU": {
+  "shares": 273537000,
+  "fuente": "dei 2026-05-14",
+  "nota": ""
+ },
+ "ABBV": {
+  "shares": 1767117285,
+  "fuente": "dei 2026-07-27",
+  "nota": ""
+ },
+ "LMT": {
+  "shares": 230790753,
+  "fuente": "dei 2026-07-20",
+  "nota": ""
+ },
+ "SPOT": {
+  "shares": 205832527,
+  "fuente": "dei 2025-12-31",
+  "nota": ""
+ },
+ "WELL": {
+  "shares": 720744951,
+  "fuente": "portada iXBRL 2026-07-28",
+  "nota": ""
+ },
+ "SBUX": {
+  "shares": 1140000000,
+  "fuente": "dei 2026-07-23",
+  "nota": ""
+ },
+ "VRTX": {
+  "shares": 253460924,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "CTAS": {
+  "shares": 400169561,
+  "fuente": "portada iXBRL 2026-07-29",
+  "nota": ""
+ },
+ "CF": {
+  "shares": 151338130,
+  "fuente": "dei 2026-08-03",
+  "nota": ""
+ },
+ "NDSN": {
+  "shares": 55699366,
+  "fuente": "dei 2026-08-18",
+  "nota": ""
+ },
+ "CB": {
+  "shares": 385799859,
+  "fuente": "portada iXBRL 2026-07-28",
+  "nota": ""
+ },
+ "GS": {
+  "shares": 291171408,
+  "fuente": "dei 2026-07-17",
+  "nota": ""
+ },
+ "ITW": {
+  "shares": 284800000,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "HD": {
+  "shares": 997689626,
+  "fuente": "dei 2026-08-18",
+  "nota": ""
+ },
+ "BRK.B": {
+  "shares": 1408523611,
+  "fuente": "portada iXBRL 2026-08-10",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "NTRS": {
+  "shares": 182955653,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "GLW": {
+  "shares": 861388331,
+  "fuente": "portada iXBRL 2026-07-29",
+  "nota": ""
+ },
+ "MC": {
+  "shares": 78269068,
+  "fuente": "portada iXBRL 2026-07-30",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "PGR": {
+  "shares": 581371770,
+  "fuente": "dei 2026-07-02",
+  "nota": ""
+ },
+ "CMCSA": {
+  "shares": 3548636573,
+  "fuente": "portada iXBRL 2026-07-23",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "ANET": {
+  "shares": 1261224648,
+  "fuente": "dei 2026-07-30",
+  "nota": ""
+ },
+ "DE": {
+  "shares": 269937425,
+  "fuente": "dei 2026-05-03",
+  "nota": ""
+ },
+ "TEL": {
+  "shares": 289513228,
+  "fuente": "dei 2026-07-20",
+  "nota": ""
+ },
+ "HOOD": {
+  "shares": 899082273,
+  "fuente": "portada iXBRL 2026-07-30",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "FAST": {
+  "shares": 1147497573,
+  "fuente": "dei 2026-07-10",
+  "nota": ""
+ },
+ "PLTR": {
+  "shares": 2403058480,
+  "fuente": "portada iXBRL 2026-08-04",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "KMI": {
+  "shares": 2226802089,
+  "fuente": "dei 2026-07-23",
+  "nota": ""
+ },
+ "ALL": {
+  "shares": 252857950,
+  "fuente": "dei 2026-07-16",
+  "nota": ""
+ },
+ "PWR": {
+  "shares": 150343393,
+  "fuente": "dei 2026-07-27",
+  "nota": ""
+ },
+ "QCOM": {
+  "shares": 1050000000,
+  "fuente": "dei 2026-07-27",
+  "nota": ""
+ },
+ "PANW": {
+  "shares": 815000000,
+  "fuente": "dei 2026-05-26",
+  "nota": ""
+ },
+ "PCAR": {
+  "shares": 526364953,
+  "fuente": "dei 2026-07-24",
+  "nota": ""
+ },
+ "ICLR": {
+  "shares": 76567325,
+  "fuente": "dei 2025-12-31",
+  "nota": ""
+ },
+ "ADBE": {
+  "shares": 397500000,
+  "fuente": "dei 2026-06-11",
+  "nota": ""
+ },
+ "NUE": {
+  "shares": 226875676,
+  "fuente": "dei 2026-07-04",
+  "nota": ""
+ },
+ "VRT": {
+  "shares": 384988173,
+  "fuente": "dei 2026-07-27",
+  "nota": ""
+ },
+ "BMY": {
+  "shares": 2042714656,
+  "fuente": "dei 2026-07-22",
+  "nota": ""
+ },
+ "COST": {
+  "shares": 443478804,
+  "fuente": "dei 2026-05-27",
+  "nota": ""
+ },
+ "MCD": {
+  "shares": 707641531,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "BR": {
+  "shares": 114021798,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "MPWR": {
+  "shares": 49143000,
+  "fuente": "dei 2026-07-29",
+  "nota": ""
+ },
+ "NKE": {
+  "shares": 1483498703,
+  "fuente": "portada iXBRL 2026-07-15",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "PODD": {
+  "shares": 69354199,
+  "fuente": "dei 2026-07-29",
+  "nota": ""
+ },
+ "AON": {
+  "shares": 212125434,
+  "fuente": "dei 2026-07-28",
+  "nota": ""
+ },
+ "EMR": {
+  "shares": 557800000,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "SWK": {
+  "shares": 151016641,
+  "fuente": "dei 2026-07-24",
+  "nota": ""
+ },
+ "ADI": {
+  "shares": 484565465,
+  "fuente": "dei 2026-08-01",
+  "nota": ""
+ },
+ "ROL": {
+  "shares": 481145404,
+  "fuente": "dei 2026-07-13",
+  "nota": ""
+ },
+ "CNC": {
+  "shares": 493995000,
+  "fuente": "dei 2026-07-24",
+  "nota": ""
+ },
+ "SNA": {
+  "shares": 51727124,
+  "fuente": "dei 2026-07-17",
+  "nota": ""
+ },
+ "ON": {
+  "shares": 389311721,
+  "fuente": "dei 2026-07-29",
+  "nota": ""
+ },
+ "PG": {
+  "shares": 2324433060,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "HCA": {
+  "shares": 216501500,
+  "fuente": "portada iXBRL 2026-07-28",
+  "nota": ""
+ },
+ "ORLY": {
+  "shares": 808960792,
+  "fuente": "dei 2026-08-03",
+  "nota": ""
+ },
+ "AJG": {
+  "shares": 256300000,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "COO": {
+  "shares": 195030630,
+  "fuente": "dei 2026-06-01",
+  "nota": ""
+ },
+ "SHOP": {
+  "shares": 1286643931,
+  "fuente": "portada iXBRL 2026-08-05",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "AVB": {
+  "shares": 142797963,
+  "fuente": "dei 2026-07-24",
+  "nota": ""
+ },
+ "KMB": {
+  "shares": 332579038,
+  "fuente": "dei 2026-07-28",
+  "nota": ""
+ },
+ "UNH": {
+  "shares": 897594847,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "COP": {
+  "shares": 1201337479,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "ZTS": {
+  "shares": 413223602,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "LLY": {
+  "shares": 941357065,
+  "fuente": "dei 2026-08-03",
+  "nota": ""
+ },
+ "KLAC": {
+  "shares": 1306546783,
+  "fuente": "dei 2026-08-03",
+  "nota": ""
+ },
+ "CBOE": {
+  "shares": 104431019,
+  "fuente": "dei 2026-07-24",
+  "nota": ""
+ },
+ "SYK": {
+  "shares": 383573046,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "LIN": {
+  "shares": 460980163,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "BLK": {
+  "shares": 154926181,
+  "fuente": "dei 2025-04-30",
+  "nota": ""
+ },
+ "O": {
+  "shares": 946218033,
+  "fuente": "dei 2026-07-30",
+  "nota": ""
+ },
+ "WFC": {
+  "shares": 3023999336,
+  "fuente": "dei 2026-07-17",
+  "nota": ""
+ },
+ "LII": {
+  "shares": 34560675,
+  "fuente": "portada iXBRL 2026-07-29",
+  "nota": ""
+ },
+ "ABT": {
+  "shares": 1730383296,
+  "fuente": "portada iXBRL 2026-07-28",
+  "nota": ""
+ },
+ "WAT": {
+  "shares": 98248111,
+  "fuente": "dei 2026-08-07",
+  "nota": ""
+ },
+ "TRGP": {
+  "shares": 214431021,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "DIS": {
+  "shares": 1726686902,
+  "fuente": "dei 2026-07-29",
+  "nota": ""
+ },
+ "IR": {
+  "shares": 387999429,
+  "fuente": "dei 2026-07-24",
+  "nota": ""
+ },
+ "PYPL": {
+  "shares": 855460874,
+  "fuente": "portada iXBRL 2026-07-28",
+  "nota": ""
+ },
+ "ARM": {
+  "shares": 1064055252,
+  "fuente": "dei 2026-03-31",
+  "nota": ""
+ },
+ "ROK": {
+  "shares": 111048676,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "WMB": {
+  "shares": 1223167472,
+  "fuente": "dei 2026-07-30",
+  "nota": ""
+ },
+ "NEE": {
+  "shares": 2085341456,
+  "fuente": "dei 2026-03-31",
+  "nota": ""
+ },
+ "HON": {
+  "shares": 633880020,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "SO": {
+  "shares": 1127301098,
+  "fuente": "dei 2026-03-31",
+  "nota": ""
+ },
+ "MA": {
+  "shares": 876009940,
+  "fuente": "portada iXBRL 2026-07-30",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "RCL": {
+  "shares": 267452084,
+  "fuente": "dei 2026-07-24",
+  "nota": ""
+ },
+ "JNJ": {
+  "shares": 2409898597,
+  "fuente": "dei 2026-07-17",
+  "nota": ""
+ },
+ "CRH": {
+  "shares": 665284511,
+  "fuente": "dei 2026-07-20",
+  "nota": ""
+ },
+ "PSA": {
+  "shares": 175621134,
+  "fuente": "dei 2026-07-21",
+  "nota": ""
+ },
+ "CHKP": {
+  "shares": 105596035,
+  "fuente": "dei 2025-12-31",
+  "nota": ""
+ },
+ "NOW": {
+  "shares": 1034000000,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "CPAY": {
+  "shares": 65659599,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "MTD": {
+  "shares": 20036559,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "RELX": {
+  "shares": 1819061446,
+  "fuente": "dei 2025-12-31",
+  "nota": ""
+ },
+ "DRI": {
+  "shares": 114077969,
+  "fuente": "dei 2026-05-31",
+  "nota": ""
+ },
+ "VLTO": {
+  "shares": 243793344,
+  "fuente": "portada iXBRL 2026-07-29",
+  "nota": ""
+ },
+ "TPR": {
+  "shares": 199391678,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "PINS": {
+  "shares": 566313027,
+  "fuente": "portada iXBRL 2026-08-04",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "IBKR": {
+  "shares": 453077771,
+  "fuente": "portada iXBRL 2026-08-06",
+  "nota": ""
+ },
+ "CINF": {
+  "shares": 153478045,
+  "fuente": "dei 2026-07-22",
+  "nota": ""
+ },
+ "TPL": {
+  "shares": 68974683,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "STLD": {
+  "shares": 143328088,
+  "fuente": "dei 2026-07-23",
+  "nota": ""
+ },
+ "FTV": {
+  "shares": 302017052,
+  "fuente": "portada iXBRL 2026-07-29",
+  "nota": ""
+ },
+ "CRWD": {
+  "shares": 254564820,
+  "fuente": "dei 2026-05-28",
+  "nota": ""
+ },
+ "CASY": {
+  "shares": 37004914,
+  "fuente": "dei 2026-06-16",
+  "nota": ""
+ },
+ "SJM": {
+  "shares": 106662133,
+  "fuente": "dei 2026-06-02",
+  "nota": ""
+ },
+ "GEV": {
+  "shares": 266333581,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "BKNG": {
+  "shares": 751380500,
+  "fuente": "dei 2026-07-27",
+  "nota": ""
+ },
+ "GEHC": {
+  "shares": 451686252,
+  "fuente": "portada iXBRL 2026-07-29",
+  "nota": ""
+ },
+ "BRO": {
+  "shares": 334610357,
+  "fuente": "dei 2026-07-24",
+  "nota": ""
+ },
+ "TJX": {
+  "shares": 1104704446,
+  "fuente": "dei 2026-05-22",
+  "nota": ""
+ },
+ "IT": {
+  "shares": 63148976,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "HWM": {
+  "shares": 398801399,
+  "fuente": "dei 2026-08-03",
+  "nota": ""
+ },
+ "TTWO": {
+  "shares": 186980443,
+  "fuente": "dei 2026-07-27",
+  "nota": ""
+ },
+ "FICO": {
+  "shares": 21597635,
+  "fuente": "dei 2026-07-17",
+  "nota": ""
+ },
+ "AIG": {
+  "shares": 522893169,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "ADP": {
+  "shares": 397262737,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "HUBB": {
+  "shares": 52832571,
+  "fuente": "portada iXBRL 2026-07-29",
+  "nota": ""
+ },
+ "DOV": {
+  "shares": 134680225,
+  "fuente": "dei 2026-07-17",
+  "nota": ""
+ },
+ "MS": {
+  "shares": 1570566292,
+  "fuente": "dei 2026-07-31",
+  "nota": ""
+ },
+ "CTSH": {
+  "shares": 450444209,
+  "fuente": "portada iXBRL 2026-07-29",
+  "nota": ""
+ },
+ "OR": {
+  "shares": 187152235,
+  "fuente": "dei 2025-12-31",
+  "nota": ""
+ },
+ "RMD": {
+  "shares": 144252306,
+  "fuente": "dei 2026-08-10",
+  "nota": ""
+ },
+ "PTC": {
+  "shares": 108506261,
+  "fuente": "dei 2026-07-29",
+  "nota": ""
+ },
+ "DECK": {
+  "shares": 136414227,
+  "fuente": "dei 2026-07-09",
+  "nota": ""
+ },
+ "XEL": {
+  "shares": 624634306,
+  "fuente": "dei 2026-07-28",
+  "nota": ""
+ },
+ "CL": {
+  "shares": 797172829,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "META": {
+  "shares": 2547506225,
+  "fuente": "portada iXBRL 2026-07-30",
+  "nota": "suma de clases sin ratio de conversion"
+ },
+ "DHI": {
+  "shares": 279701267,
+  "fuente": "dei 2026-07-16",
+  "nota": ""
+ },
+ "CPRT": {
+  "shares": 925811482,
+  "fuente": "dei 2026-05-27",
+  "nota": ""
+ },
+ "SPGI": {
+  "shares": 296000000,
+  "fuente": "manual verificado",
+  "nota": "dei 24-abr-2026, vigente"
+ },
+ "CBRE": {
+  "shares": 289575298,
+  "fuente": "dei 2026-07-27",
+  "nota": ""
+ },
+ "WEC": {
+  "shares": 325849383,
+  "fuente": "dei 2026-06-30",
+  "nota": ""
+ },
+ "ALC": {
+  "shares": 487427920,
+  "fuente": "dei 2025-12-31",
+  "nota": ""
+ },
+ "DPZ": {
+  "shares": 33081735,
+  "fuente": "dei 2026-07-13",
+  "nota": ""
+ },
+ "ORCL": {
+  "shares": 2880471000,
+  "fuente": "dei 2026-06-12",
+  "nota": ""
+ }
+}

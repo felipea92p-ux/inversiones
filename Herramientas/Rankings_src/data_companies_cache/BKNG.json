@@ -1,0 +1,101 @@
+{
+ "ticker": "BKNG",
+ "name": "Booking Holdings Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 167.77,
+ "market_cap_usd_b": 130,
+ "fwd_pe": 15.64,
+ "fwd_pe_5y_avg": 20,
+ "pe_prem_disc_pct": -22,
+ "peg": 0.98,
+ "last_q": {
+  "period": "Q1 2026 (ended Mar 31, 2026)",
+  "revenue": "$5.5B",
+  "rev_yoy_pct": 16,
+  "op_margin_pct": 23.1,
+  "eps_gaap": "$1.36 (post-split, diluted)",
+  "eps_adj": "$1.14 (post-split)"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 31, 2025)",
+  "revenue": "$26.9B",
+  "organic_growth_pct": 13,
+  "roic_pct": null,
+  "fcf": "$9.1B",
+  "fcf_margin_pct": 33.8
+ },
+ "sbc_pct_revenue": 2.3,
+ "sbc_pct_fcf": 6.8,
+ "net_debt_usd_b": 2.83,
+ "nd_ebitda": 0.27,
+ "net_cash": false,
+ "guidance_fy": "FY2026: revenue expected to grow high single digits; adjusted EBITDA growth slightly faster than revenue. Q2 2026: room nights +2-4%, gross bookings/revenue/adj. EBITDA each +4-6%. (PROYECCION de la direccion)",
+ "pct_off_52w_high": -28.2,
+ "pct_off_ath": -28.2,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_q.op_margin_pct",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "guidance_fy"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "last_fy.fcf_margin_pct",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "last_q.op_margin_pct",
+  "drop_classification",
+  "roic_pct"
+ ],
+ "sources": [
+  {
+   "label": "BKNG 8-K Q1 2026 earnings release (via StockTitan)",
+   "url": "https://www.stocktitan.net/sec-filings/BKNG/8-k-booking-holdings-inc-reports-material-event-1480e0a543b8.html",
+   "date": "2026-04"
+  },
+  {
+   "label": "BKNG FY2025 10-K (SEC EDGAR, filed 2026-02-18)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001075531/000107553126000009/bkng-20251231.htm",
+   "date": "2026-02-18"
+  },
+  {
+   "label": "BKNG Q4/FY2025 8-K earnings release (SEC EDGAR)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001075531/000107553126000008/q4-25bkngearningsrelease.htm",
+   "date": "2026-02"
+  },
+  {
+   "label": "StockAnalysis.com BKNG statistics (price, market cap, fwd P/E, PEG, net debt, EBITDA)",
+   "url": "https://stockanalysis.com/stocks/bkng/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "GuruFocus BKNG forward P/E ratio",
+   "url": "https://www.gurufocus.com/term/forward-pe-ratio/BKNG",
+   "date": "2026-06"
+  },
+  {
+   "label": "BKNG 25-for-1 stock split & 52-week high (post-split $233.58)",
+   "url": "https://247wallst.com/investing/2026/03/31/a-4000-stock-is-about-to-become-affordable-inside-bookings-historic-split/",
+   "date": "2026-03-31"
+  }
+ ],
+ "notes": "Splits: 25-for-1 stock split efectivo 2-abr-2026 (cotizacion ajustada desde 6-abr-2026); todos los precios/EPS son post-split. Precio $167.77 y 52w-high $233.58 (ambos post-split); maximo pre-split ~$5,839 = ~$233.6 ajustado, por lo que pct_off_ath ≈ pct_off_52w_high ≈ -28%. \n\nSBC FY2025 = $617M (10-K, cash flow): 2.3% de ingresos ($26.9B) y 6.8% del FCF ($9.1B) — muy bajo, FUERTE para R9. Operating cash flow FY2025 = $9,409M, capex ~$300M → FCF $9.1B (+15% YoY), margen FCF ~34%.\n\nNet debt: $2.83B segun StockAnalysis (cash $16.0B vs total debt $19.18B; EV $132.8B). Otra fuente citaba caja neta -$5.6B usando caja+inversiones totales; discrepancia por tratamiento de inversiones LP. Uso $2.83B (mas conservador); ND/EBITDA ~0.27x sobre EBITDA ~$10.4B. Balance solido en cualquier caso.\n\nfwd_pe_5y_avg = ~20x es ESTIMADO: la media trailing de 5a esta distorsionada por COVID (104x). La media de P/E adelantado de BKNG ronda 19-21x historicamente; fwd P/E actual 15.64 implica descuento ~-22%.\n\nROIC FY2025 no extraido del filing (null) — BKNG tiene patrimonio negativo por recompras masivas, lo que hace el ROIC contable poco significativo/muy elevado; requiere ajuste manual.\n\ndrop_classification = fear_rotation: fundamentales solidos (ingresos +13-16%, FCF +15%, margenes estables ~23% adj EBITDA), pero room nights desaceleran (Q2 guia solo +2-4%) por conflicto Oriente Medio (-2pp) y comparables duros; la caida de ~28% y compresion de multiplo a 15x fwd refleja MIEDO macro a demanda de viajes y rotacion, no deterioro genuino del negocio. Componente menor de 'mixed' por la desaceleracion de room nights.\n\nop_margin_pct Q1 2026 ~23.1% (operating income $1.271B / revenue $5.5B) — ESTIMADO por redondeo de revenue."
+}

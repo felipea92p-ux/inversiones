@@ -1,0 +1,48 @@
+{
+ "ticker": "MTD",
+ "name": "Mettler-Toledo International Inc.",
+ "currency": "USD",
+ "price_verified": 1164.07,
+ "price_source": "StockAnalysis.com (cierre 22-jun-2026, $1,164.07); cross-check Yahoo/WallStreetZen/Public.com consistente (~$1,144-1,164 ult. sesiones)",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.02021,
+ "implied_mcap_b_usd": 23.53,
+ "mcap_sanity_ok": true,
+ "sanity_notes": "Implied mcap = $1,164.07 x 20.21M = $23.53B, coincide con cap reportada $23.52B (StockAnalysis) -> escala confirmada. Accion de precio nominal MUY alto (>$1,000) por base de acciones diminuta (~20.2M, MTD nunca hace split y recompra agresivamente). VERIFICADO contra Q1 2026: EPS GAAP $8.33 con net income ~$169M implica ~20.2M acciones diluidas -> consistente. IV reconciliada $1,131 = 0.97x precio, dentro de la regla de magnitud (30-300%). DCF ($731) muy por debajo del ancla de multiplo ($1,399): brecha clasica de compounder de calidad: el DCF infra-credita el reinvertir a ROIC ~25% con capex minimo (FCF margin ~22%, SBC casi nulo 0.56% ventas). Net debt $2.09B (NO caja neta), apalancamiento comodo ND/EBITDA ~1.6x. Owner FCF = FCF $877.5M - SBC $22.5M = $855.0M (haircut SBC trivial, de los mejores del sector).",
+ "structural_change": "Sin deterioro estructural genuino. El de-rating (fwd P/E 25x vs media 5a 37.5x) es fear_rotation/macro: la accion cayo ~15% tras Q1 PESE a batir EPS y SUBIR guia FY26. Fundamentales intactos: margen op ajustado 26-29.6%, ROIC ~25%, FCF fuerte, organico positivo aunque modesto (+1% ex-M&A en Q1, China/pharma/biopharma blandos ciclicamente). Vientos en contra REALES pero CICLICOS: demanda china debil, gasto pharma/biotech cauto, FX. La media 5a 37.5x esta inflada por la era ZIRP; se aplica haircut estructural a 30x fair (tasas mas altas estructuralmente + crecimiento organico ~mid-single-digit vs high-single historico).",
+ "owner_fcf_base": "$855.0M (FY2025 FCF $877.5M menos 100% SBC $22.5M). Owner FCF/accion ~$42.31. Base de crecimiento partiendo de aqui; guia FCF FY26 ~$900M valida la trayectoria.",
+ "wacc_pct": 9.3,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1,
+  "geo_adj_pct": 0
+ },
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 594,
+   "prob": 0.38,
+   "note": "Owner FCF +4% anios 1-5; fase 2 decae 4%->2.5%; g terminal 2.5%. Estancamiento ciclico prolongado (China/pharma debiles, FX adverso) pero NO apocaliptico: MTD sigue generando caja y recomprando. TV ~54% del EV."
+  },
+  "base": {
+   "iv_per_share": 775,
+   "prob": 0.47,
+   "note": "Owner FCF +7% anios 1-5 (organico mid-single + recompras + iniciativas de margen, en linea con guia adj EPS +8/10%); fase 2 6.5%->3.5%; g terminal 3.0%. Compounding probado de mid-high single digit. TV ~58%."
+  },
+  "optimista": {
+   "iv_per_share": 937,
+   "prob": 0.15,
+   "note": "Owner FCF +10% anios 1-5: recuperacion China/biopharma, palanca operativa, reduccion continua de acciones; fase 2 8.5%->4%; g terminal 3.0%. TV ~60%."
+  }
+ },
+ "iv_dcf_weighted": 731,
+ "fwd_multiple_now": 25,
+ "fwd_multiple_5y_avg": 37.45,
+ "fair_multiple": 30,
+ "multiple_metric": "P/E adelantado (adj EPS FY2026)",
+ "multiple_rationale": "Ancla = media 5a fwd P/E 37.45x con HAIRCUT estructural a 30x. El haircut (~ -20%) refleja factores no ciclicos: (1) la media 5a esta sesgada al alza por la era de tipos cero 2020-2021; (2) crecimiento organico normalizado mid-single-digit vs high-single historico; (3) tipos US estructuralmente mas altos (Rf 4.3%). 30x sigue siendo premium JUSTIFICADO por calidad excepcional: ROIC ~25%, FCF margin ~22%, SBC casi nulo, lider global con pricing power y consumibles recurrentes. iv_multiple = adj EPS FY26 midpoint $46.625 x 30 = $1,399. adj EPS limpio (SBC solo 0.56% ventas), sin distorsion vs owner earnings.",
+ "iv_multiple": 1399,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 1131
+}

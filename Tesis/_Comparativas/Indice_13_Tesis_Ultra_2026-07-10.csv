@@ -1,0 +1,14 @@
+ticker,nombre,QG,tier,precio,PWFV,zona,MoS_actual_%,MoS_exigido_%,DCF_inverso,detector,veredicto,gatillo_compra,pdf
+4684.T,"OBIC Co., Ltd.",79.2,Alta convicción,JPY 4161,JPY 4531,JUSTO,8.2,25,RAZONABLES,PASA,ESPERAR,JPY 3398,Tesis/OBIC/2026-07-10_Tesis_Ultra_OBIC_v1.pdf
+MSCI,MSCI Inc.,76.8,Alta convicción,USD 600.92,USD 506,CARO,-18.8,35,HEROICAS,PASA,ESPERAR,USD 380,Tesis/MSCI/2026-07-10_Tesis_Ultra_MSCI_v1.pdf
+NEM.DE,Nemetschek SE,75.2,Alta convicción,EUR 56.2,EUR 73,OPORTUNIDAD,23,25,BAJAS,PASA,ACUMULAR EN ZONA,EUR 54.69,Tesis/NEM/2026-07-10_Tesis_Ultra_NEM_v1.pdf
+IDXX,"IDEXX Laboratories, Inc.",73.2,Calidad sólida,USD 563.57,USD 308,BURBUJA,-82.8,35,HEROICAS,PASA,ESPERAR,USD 200,Tesis/IDXX/2026-07-10_Tesis_Ultra_IDXX_v1.pdf
+CDNS,"Cadence Design Systems, Inc.",72.8,Calidad sólida,USD 374.06,USD 136,BURBUJA,-175,40,HEROICAS,PASA,ESPERAR,USD 95,Tesis/CDNS/2026-07-10_Tesis_Ultra_CDNS_v1.pdf
+MANH,"Manhattan Associates, Inc.",71.2,Calidad sólida,USD 153.75,USD 110.9,BURBUJA,-38.7,35,HEROICAS,PASA,VIGILAR,USD 94,Tesis/MANH/2026-07-10_Tesis_Ultra_MANH_v1.pdf
+0388.HK,Hong Kong Exchanges & Clearing,70.4,Calidad sólida,HKD 380.8,HKD 288,CARO,-32.2,40,HEROICAS,PASA,ESPERAR,HKD 200,Tesis/HKEX/2026-07-10_Tesis_Ultra_HKEX_v1.pdf
+KXS.TO,Kinaxis Inc.,68.8,Calidad sólida,CAD 151.5,CAD 129,CARO,-17.4,25,RAZONABLES,PASA,ESPERAR,CAD 110,Tesis/KXS/2026-07-10_Tesis_Ultra_KXS_v1.pdf
+MTD,Mettler-Toledo International Inc.,68,Calidad sólida,USD 1296.17,USD 920,BURBUJA,-40.9,40,HEROICAS,PASA,ESPERAR,USD 782,Tesis/MTD/2026-07-10_Tesis_Ultra_MTD_v1.pdf
+PTC,PTC Inc.,68,Calidad sólida,USD 124.74,USD 115.5,JUSTO,-8,25,RAZONABLES,PASA,ESPERAR,USD 98,Tesis/PTC/2026-07-10_Tesis_Ultra_PTC_v1.pdf
+VRSK,"Verisk Analytics, Inc.",67.6,Calidad sólida,USD 185.14,USD 170,JUSTO,7,40,RAZONABLES,GRIS,VIGILAR,USD 120,Tesis/VRSK/2026-07-10_Tesis_Ultra_VRSK_v1.pdf
+DSG.TO,The Descartes Systems Group Inc.,67.6,Calidad sólida,CAD 101.98,CAD 106.2,JUSTO,4,15,RAZONABLES,PASA,VIGILAR,CAD 90,Tesis/DSG/2026-07-10_Tesis_Ultra_DSG_v1.pdf
+WKL.AS,Wolters Kluwer N.V.,67.2,Calidad sólida,EUR 60.5,EUR 94.2,GANGA,35.8,30,BAJAS,PASA,COMPRAR TRAMO,EUR 66,Tesis/WKL/2026-07-10_Tesis_Ultra_WKL_v1.pdf

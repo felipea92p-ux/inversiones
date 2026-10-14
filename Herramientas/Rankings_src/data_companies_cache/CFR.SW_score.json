@@ -1,0 +1,59 @@
+{
+ "ticker": "CFR.SW",
+ "name": "Compagnie Financiere Richemont SA",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Margenes elevados (op 20.0%, Jewellery 30.5%) pero NO escalan con volumen via software/red; retail/manufactura de lujo no es modelo apalancable operativamente, por eso 1.0 y no 2.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Lujo duro/joyeria de alta gama crece secularmente con la riqueza global y nuevas cohortes asiaticas; +11% cc organico FY26 confirma demanda estructural, pese a ciclicidad."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Cartier + Van Cleef & Arpels hacen de Richemont el lider indiscutible #1 mundial en joyeria de lujo (EUR 16.5B, +14% cc), claramente por delante de rivales, aunque no monstruoso a nivel grupo por la debil division relojera."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Marcas centenarias (Cartier, VCA) con intangibles, escasez y patrimonio irreplicables en decadas; pricing power y deseo de marca que el dinero no compra de la noche a la manana = moat de los mas duraderos del mundo."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento organico de calidad: +11% cc FY26 y Q4 +13% cc, en todas las regiones/canales/areas, con M&A modesto; motor casi enteramente organico."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Multi-marca, multi-geografia (Asia/Europa/America), multi-canal y sin concentracion de clientes >10-15% (venta minorista atomizada); buena diversificacion pese a exposicion macro a China."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "Margenes de elite (Jewellery 30.5%), caja neta y FCF solido (CFO EUR 4,880M, FCF est ~EUR 3.8B/~17%); ROIC no publicado pero implicito alto por mix joyero y balance sin deuda; ligero descuento por capex/inventario de lujo y ROIC sin verificar."
+  },
+  "R8": {
+   "score": 2,
+   "just": "Balance fortaleza: posicion de CAJA NETA EUR 8,496M (+3% YoY), CERO deuda neta, ND/EBITDA ~-1.5x; maxima solidez financiera."
+  },
+  "R9": {
+   "score": 1,
+   "just": "IFRS sin EPS ajustado divergente (eps_gaap=eps_adj=EUR 5.909), contabilidad limpia y conservadora suiza; SBC exacto no extraido pero estructuralmente minimo (<1% ingresos, grupo familiar controlado), por lo que no rebaja a 0.5 pero no doy 1.5 sin verificar el %."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Familia Rupert con fuerte skin-in-the-game via acciones 'B', asignacion de capital prudente, dividendo ordinario +10% (CHF 3.30) y especial CHF 1.00 senalando confianza; gobierno de familia controladora (riesgo de control concentrado limita el 2.0)."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R3 (lider #1 mundial en joyeria de lujo) + R4 (marcas Cartier/VCA irreplicables en decadas) se refuerzan de forma monstruosa: el liderazgo no se sostiene por escala operativa sino por intangibles de marca y patrimonio que constituyen el propio moat, creando un circulo virtuoso de deseo-precio-margen (Jewellery 30.5%). R1 es solo 1.0 (no escala como software), por lo que la amplificacion vive principalmente en el eje R3xR4, que es excepcional.",
+ "moat_type": "intangibles_marca",
+ "moat_one_line": "Marcas de joyeria centenarias (Cartier, Van Cleef & Arpels) con escasez, patrimonio y pricing power irreplicables, que sostienen margenes del 30%+ y liderazgo mundial inatacable.",
+ "thesis_3lines": [
+  "Calidad excepcional: lider mundial en joyeria de lujo (Cartier, VCA) con margen 30.5% en su division joya, caja neta de EUR 8,496M y contabilidad IFRS limpia.",
+  "Motor de crecimiento: demanda secular de lujo duro con +11% cc organico FY26 y Q4 +13% cc en todas las regiones/canales, aunque la relojeria (3.4% margen) sigue siendo el lastre.",
+  "Valoracion/retorno: fwd P/E ~28x es RICO (+25% sobre su media historica y vs lujo europeo ~19x) con la accion en maximos (~1.5% del high) y PEG 2.17, dejando escaso margen de seguridad."
+ ],
+ "bear_case_strongest": "A ~28x forward y en maximos historicos tras un FY26 record, se paga calidad indiscutible sin margen de seguridad: un lujo profundamente ciclico expuesto a una desaceleracion del consumidor chino y a una division relojera estructuralmente debil (3.4% margen) podria desencadenar una compresion simultanea de earnings y multiplo desde un punto de entrada caro.",
+ "ethical_flag": "none",
+ "sbc_flag": "unknown",
+ "notes": "Re-score FASE 2 = 15.5/13.5 nominal en suma bruta pero el techo del marco es 13.5; aplicando techo, el caso es de maxima calidad (clase A). Datos clave VERIFICADOS: FY26 rev EUR 22,420M (+11% cc), op profit EUR 4,492M (20.0% margen), profit EUR 3,484M, EPS diluido IFRS EUR 5.909, caja neta EUR 8,496M, Jewellery EUR 16.5B (+14% cc, 30.5% margen), Watchmakers EUR 3.1B (+1% cc, 3.4% margen, debil). R9 mantenido en 1.0: SBC exacto NO verificado (sbc_pct_fcf null) pero estructuralmente minimo en grupo familiar suizo; regla dura de SBC NO se activa por falta de dato >15%/>25%, por lo que sbc_flag=unknown y se es conservador sin premiar. Drop classification=not_depressed: accion en maximos (~1.5% del 52w high), +23% TTM, valoracion plena. ROIC y FCF margin son estimaciones; multiplos (fwd P/E 28.2x, media 5y 22.5x, prima +25%) son MODELADOS de StockAnalysis, tratar con cautela. La unica grieta operativa real es Specialist Watchmakers (3.4% margen, -segmento). Caso bajista dominante = valoracion/ciclicidad, no calidad."
+}

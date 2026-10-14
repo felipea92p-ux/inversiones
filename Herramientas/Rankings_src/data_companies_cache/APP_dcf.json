@@ -1,0 +1,42 @@
+{
+ "ticker": "APP",
+ "name": "AppLovin Corporation",
+ "currency": "USD",
+ "current_price": 469.39,
+ "wacc_pct": 11.05,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.35,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = reported FCF $3,951.9M − 100% of SBC ($208.3M, i.e. 3.8% of $5,480.7M revenue; cross-checks to 5.3% of FCF) = ~$3,743.6M. Owner-FCF margin ~68.3% of revenue (vs 72.1% reported FCF margin). SBC haircut is unusually small for software — APP runs only ~3.8% SBC/revenue.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 32,
+  "rev_cagr_y6_10_pct": 7,
+  "fcf_margin_terminal_pct": 62,
+  "terminal_g_pct": 2.75,
+  "shares_diluted_b": 0.336,
+  "net_debt_usd_b": 1.09,
+  "sbc_treatment": "100% of SBC subtracted from reported FCF as a cash expense (owner earnings). SBC = 3.8% of revenue ~$208M FY25. Phase 2 rev CAGR (yrs 6-10) declines linearly from Phase 1 rate toward the year-10 endpoint; owner margin glides from 68% (yr1) to terminal."
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 340,
+   "prob": 0.37,
+   "note": "Growth de-rates hard: Phase 1 rev CAGR 22% (vs ~57-70% current run-rate), Phase 2 decaying to ~5%, owner margin compresses 68%->58% on competition/scaling costs and ad-cycle softness, terminal g 2.5%. Yr10 rev ~$26B. IV below current price — captures real risk of multiple+growth normalization and lingering short-report overhang. Not apocalyptic (business still grows and compounds)."
+  },
+  "base": {
+   "iv_per_share": 628,
+   "prob": 0.47,
+   "note": "Consistent with track record but normalizing: Phase 1 rev CAGR 32% (well below trailing 57-70%), Phase 2 decaying to ~7%, owner margin glides 68%->62%, terminal g 2.75%. Yr10 rev ~$48B, owner FCF ~$30B. TV ~61% of EV. ~34% upside. Reflects AI-ad engine durability + e-commerce ad ramp without heroics."
+  },
+  "optimista": {
+   "iv_per_share": 1127,
+   "prob": 0.16,
+   "note": "Near-flawless execution: Phase 1 rev CAGR 42%, Phase 2 decaying to ~9%, owner margin 68%->65%, terminal g 3.0%. Yr10 rev ~$85B. AppLovin AXON ad model extends durably beyond gaming into e-commerce/CTV/web at scale with sustained pricing power."
+  }
+ },
+ "sanity_check": "At $469.39 the stock trades ~27x fwd P/E (verified) and ~42x trailing owner-FCF (owner-FCF yield ~2.4%; ~40x reported FCF). Implied prob-weighted IV ~$602 (~28% upside). Shareholder-return contrast (per instruction, no DDM): APP pays NO dividend; capital return is 100% buybacks — ~$1B repurchased in Q1 2026, ~$4B annualized = ~2.5% buyback yield on the $158B cap, layered on a ~68% owner-FCF-margin compounder still growing 50%+. The valuation case rests on growth durability, not yield. Conservador IV ($340) sits ~28% below price, so margin of safety is thin in a bad case; base/optimista carry the upside — a high-variance, growth-dependent name. Net debt is negligible (ND/EBITDA ~0.24x), so leverage is not a swing factor.",
+ "method_notes": "10-yr two-stage owner-earnings DCF. Owner FCF base = FY2025 reported FCF ($3,951.9M) − 100% of SBC (~$208M) = ~$3,743.6M (68.3% owner margin). Revenue grown explicitly: Phase 1 (yrs 1-5) at a flat CAGR per scenario; Phase 2 (yrs 6-10) CAGR declines linearly toward a normalized endpoint; owner-FCF margin interpolated from 68% (yr1) toward terminal. Terminal value via Gordon growth on yr-10 owner FCF (g 2.5-3.0%, wide-moat AI-ad platform but disciplined given size). All flows + TV discounted at WACC 11.05% = Rf 4.3% (UST 10Y, US-domiciled, no geopolitical adjustment) + ERP 5.0% × beta 1.35 (sector estimate for high-momentum adtech/AI software; APP's own beta is elevated and its short price history is volatile). Equity = EV − net debt ($1.09B); ÷ diluted shares 0.336B (= $157.69B cap / $469.39, cross-checks to verified data). TV is 54-65% of EV across scenarios (healthy, not fragile). FY2025 figures are CONTINUING OPERATIONS (advertising-only) after the 2025 Apps/games divestiture, so growth rates are clean ad-segment growth. No web search needed — all inputs from verified Phase 2 file (APP.json)."
+}

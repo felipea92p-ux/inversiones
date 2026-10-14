@@ -1,0 +1,99 @@
+{
+ "ticker": "SPGI",
+ "name": "S&P Global Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 407.39,
+ "market_cap_usd_b": 120.58,
+ "fwd_pe": 20.26,
+ "fwd_pe_5y_avg": 27,
+ "pe_prem_disc_pct": -25,
+ "peg": 1.68,
+ "last_q": {
+  "period": "Q1 2026 (ended 2026-03-31)",
+  "revenue": "$4,171M",
+  "rev_yoy_pct": 10,
+  "op_margin_pct": 48,
+  "eps_gaap": "$4.69",
+  "eps_adj": "$4.97"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended 2025-12-31)",
+  "revenue": "$15,336M",
+  "organic_growth_pct": 8,
+  "roic_pct": 9.25,
+  "fcf": "$5,135M (GAAP); adj FCF $5,481M",
+  "fcf_margin_pct": 33.5
+ },
+ "sbc_pct_revenue": 1.54,
+ "sbc_pct_fcf": 4.6,
+ "net_debt_usd_b": 12.09,
+ "nd_ebitda": 1.74,
+ "net_cash": false,
+ "guidance_fy": "FY2026 (PROYECCION): EPS ajustado $19.40-$19.65; crecimiento organico CC de ingresos 6.0%-8.0%; crecimiento de ingresos reportados 6.3%-8.3%. Capex $215-225M. Objetivo: devolver >=85% del FCF ajustado via dividendos+recompras. Guia asume contribucion de Mobility todo el ano (spin-off pendiente).",
+ "pct_off_52w_high": -29.6,
+ "pct_off_ath": -29.6,
+ "drop_classification": "fear_rotation",
+ "data_quality": "VERIFICADO_mostly",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "guidance_fy",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "net_debt_usd_b",
+  "nd_ebitda"
+ ],
+ "sources": [
+  {
+   "label": "SEC EDGAR - S&P Global 4Q & Full-Year 2025 Earnings Release (8-K, Feb 10 2026) - PRIMARY",
+   "url": "https://www.sec.gov/Archives/edgar/data/64040/000006404026000007/a4q2025earningsrelease.htm",
+   "date": "2026-02-10"
+  },
+  {
+   "label": "S&P Global 4Q/FY2025 Supplemental Disclosure (IR, PDF) - PRIMARY",
+   "url": "https://s29.q4cdn.com/690959130/files/doc_financials/2025/q4/S-P-Global-4Q-FY-2025-Earnings-Supplemental-Disclosure-2-10-2026.pdf",
+   "date": "2026-02-10"
+  },
+  {
+   "label": "SEC EDGAR - S&P Global Q1 2026 Earnings Release (8-K, Apr 28 2026) - PRIMARY",
+   "url": "https://www.sec.gov/Archives/edgar/data/64040/000006404026000019/spgi1q2026-earningsrelease.htm",
+   "date": "2026-04-28"
+  },
+  {
+   "label": "StockAnalysis.com - SPGI quote & statistics (price, mcap, fwd P/E, PEG, debt, EV, EBITDA, ND/EBITDA)",
+   "url": "https://stockanalysis.com/stocks/spgi/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "GuruFocus - SPGI ROIC 9.25% (Mar 2026)",
+   "url": "https://www.gurufocus.com/term/roic/SPGI",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Macrotrends/Search - SPGI ATH $579.05 intraday on Aug 14 2025 (= 52-week high)",
+   "url": "https://www.macrotrends.net/stocks/charts/SPGI/s-p-global/stock-price-history",
+   "date": "2025-08-14"
+  }
+ ],
+ "notes": "VERIFICACION SPGI al 2026-06-22. DATOS VERIFICADOS (filings SEC/IR): FY2025 ingresos $15,336M (+8%), crecimiento organico CC ~8% (ingresos organicos $15,273M vs $14,124M). Margen operativo GAAP FY25 42.2%, ajustado 50.4%. EPS GAAP FY25 $14.66 (+19%), EPS ajustado $17.83 (+14%). FCF GAAP FY25 $5,135M (margen 33.5%); FCF ajustado $5,481M (margen 35.7%). SBC FY25 = $236M (del estado de flujos de caja) => 1.54% de ingresos, 4.6% del FCF GAAP. SBC EXCEPCIONALMENTE BAJA (positivo para R9): SPGI tiene una de las ratios de SBC mas bajas entre tecnologicas/datos financieros. Q1 2026: ingresos $4,171M (+10%), margen op GAAP 48.0% (+620pb), EPS GAAP $4.69 (+32%), EPS ajustado $4.97. Devolvio 113% del FCF ajustado a accionistas en 2025 ($5.0B recompras + dividendos).\n\nVALORACION/MERCADO (agregador StockAnalysis al 2026-06-22, ESTIMADO): precio $407.39, mcap $120.58B, P/E adelantado 20.26, PEG 1.68. Deuda total $13.90B - caja $1.81B = deuda neta $12.09B (NO caja neta). ND/EBITDA 1.74x (metodo S&P Global adjusted net debt/adj EBITDA reporta 2.2x). EV $132.57B, EBITDA $7.87B.\n\nfwd_pe_5y_avg=27 es ESTIMACION: no se encontro media de P/E ADELANTADO de 5 anios en fuente primaria. Agregadores reportan media de P/E TRAILING 5y ~39.8x (no comparable). Historicamente SPGI cotiza ~27-30x adelantado; uso 27x como referencia conservadora => descuento ~-25% vs media. CONFIANZA BAJA en este campo.\n\nROIC 9.25% (GuruFocus, Mar 2026) - ESTAR ALERTA: deprimido por goodwill de la fusion IHS Markit (2022). ROIC ex-goodwill estimado ~39% (refleja la verdadera baja intensidad de capital del negocio).\n\nCAIDA: precio -29.6% desde maximo historico = 52-week high ($579.05 intradia, 14-ago-2025). CLASIFICACION = fear_rotation: la caida (~30%) coincide con fundamentales ACELERANDO (Q1 2026 ingresos +10%, EPS +32%, margenes expandiendo +620pb, guia FY26 al alza). El desplome refleja rotacion/miedo macro (sensibilidad a tasas, debilidad esperada en emisiones/Ratings, ruido del spin-off de Mobility) y compresion de multiplo desde niveles altos, NO deterioro operativo genuino. Catalizador estructural: spin-off de S&P Global Mobility en curso (Investor Day 12-may-2026)."
+}

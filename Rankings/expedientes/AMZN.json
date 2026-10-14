@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "ticker": "AMZN",
+    "empresa": "Amazon.com, Inc.",
+    "cik": "0001018724",
+    "moneda_reporte": "USD",
+    "fecha_analisis": "2026-07-28",
+    "fecha_corte_precio": "2026-07-27 (cierre) / 2026-07-28 pre-mercado",
+    "rol_agente": "VALORADOR — la calidad esta CONGELADA y no se toca",
+    "etiqueta_calidad_congelada": "MENOS_5_6 (3 de 5 puertas pasadas)",
+    "especie": "G2 — reinvertidora cuyo retorno incremental no cubre su coste de capital",
+    "en_cartera": true,
+    "peso_nav_pct": 6.19,
+    "umbral_mos_aplicable": "CARGAR",
+    "nota_ambiguedad_umbral": "El brief dice '40% para abrir' para su banda y luego lista los umbrales CARGAR como 30% ULTRA / 35% PRESUNTA / 40% MUY_BUENA. MENOS_5_6 esta POR DEBAJO de MUY_BUENA, asi que su umbral CARGAR deberia ser >=40%. Uso 40% como umbral principal y reporto tambien el P* al 52% (40% + el escalon de 12 puntos aplicado hacia arriba). HUECO DECLARADO: pedir a Felipe la regla exacta para bandas por debajo de MUY_BUENA.",
+    "declaracion_no_reclasificacion": "En ningun punto de este expediente se reevalua la calidad. El precio no puede ascender una etiqueta. La contradiccion madre (querer que sea ULTRA porque el precio duele) queda bloqueada por construccion.",
+    "ruta_expediente": "/Users/felipealvarez/Library/Mobile Documents/com~apple~CloudDocs/INVESTMENTS/Rankings/expedientes/AMZN.json",
+    "nota_ruta": "El brief traia el directorio de destino como 'undefined'. Se escribe en Rankings/expedientes/. Mover si Felipe quiere otra ubicacion."
+  },
+
+  "fuentes_primarias": {
+    "10K_FY2025": {
+      "accession": "0001018724-26-000004",
+      "fecha_presentacion": "2026-02-06",
+      "periodo": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm"
+    },
+    "10Q_Q1_2026": {
+      "accession": "0001018724-26-000014",
+      "fecha_presentacion": "2026-04-30",
+      "periodo": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/amzn-20260331.htm",
+      "nota_clave": "Este 10-Q publica columnas explicitas de 12 MESES TERMINADOS EL 31-MAR-2026. Toda la base 'en curso' de este expediente sale de esas columnas presentadas — es HECHO, no extrapolacion mia."
+    },
+    "xbrl_companyfacts": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
+    "precio_y_beta": "Interactive Brokers (MCP), snapshot y barras semanales, 2026-07-28",
+    "tipo_libre_riesgo": "Federal Reserve H.15, release 2026-07-27",
+    "prima_riesgo_mercado": "A. Damodaran, NYU Stern, implied ERP 2026-07-01"
+  },
+
+  "precio_y_capitalizacion": {
+    "precio_usd": 231.39,
+    "etiqueta": "HECHO",
+    "detalle_precio": "Cierre 2026-07-27 = 231.39 USD (IBKR). Ultima operacion pre-mercado 2026-07-28 04:58 UTC = 230.95 USD, bid/ask 230.80/231.10. Uso 231.39 como ancla.",
+    "rango_52s": {"max": 278.56, "min": 196.00},
+    "volatilidad_historica_anual_pct": 36.0,
+    "acciones_ordinarias_mm": 10757.109436,
+    "fuente_acciones": "HECHO — portada del 10-Q Q1 2026 (dei:EntityCommonStockSharesOutstanding), a 2026-04-22",
+    "acciones_diluidas_ttm_mm": 10874,
+    "dilucion_neta_anual_pct": 0.8,
+    "nota_dilucion": "10.734.920.870 acciones a 28-ene-2026 -> 10.757.109.436 a 22-abr-2026. Amazon NO recompra; la SBC diluye ~0,8%/anio. Esto se cobra en owner earnings restando la SBC (ver metodologia).",
+    "es_ADS": false,
+    "capitalizacion_usd_mm": 2489088,
+    "cotiza_en_moneda_funcional": true
+  },
+
+  "balance_a_31_mar_2026": {
+    "etiqueta": "HECHO — 10-Q Q1 2026, Notas 'Debt' y balance consolidado",
+    "efectivo_usd_mm": 101816,
+    "valores_negociables_corrientes_usd_mm": 41273,
+    "caja_total_usd_mm": 143089,
+    "deuda_lp_valor_nominal_usd_mm": 122632,
+    "deuda_lp_valor_razonable_notas_usd_mm": 113600,
+    "otra_deuda_lp_nominal_usd_mm": 850,
+    "prestamos_cp_usd_mm": 152,
+    "arrendamientos_financieros_usd_mm": 13325,
+    "arrendamientos_operativos_usd_mm": 91617,
+    "deuda_total_a_mercado_usd_mm": 127927,
+    "deuda_neta_usd_mm": -15162,
+    "ev_usd_mm": 2473926,
+    "ev_incluyendo_arrendamientos_operativos_usd_mm": 2565543,
+    "criterio_deuda_neta": "Deuda a MERCADO (valor razonable de los bonos: 113.600 M vs 122.632 M nominal — cotizan al 92,6% de la par) + otra deuda LP + prestamos CP + arrendamientos FINANCIEROS, menos caja y valores negociables. Los arrendamientos OPERATIVOS (91.617 M) NO se suman: sus pagos ya estan dentro del CFO del que derivo owner earnings; sumarlos seria doble conteo. Los financieros SI, porque su amortizacion de principal va en financiacion y no toca el CFO.",
+    "alerta_caja": "ATENCION: 53.441 M de la caja se levantaron en marzo de 2026 (emision de 37.000 M USD + 14.500 M EUR). Esa caja NO es excedente: esta comprometida al capex. Tratarla como caja neta infla el EV a favor de la accion. Si se excluye, la deuda neta pasa de -15.162 M a +38.279 M y el EV a 2.527.367 M.",
+    "deuda_lp_evolucion": {
+      "2025-06-30": 56082, "2025-09-30": 55097, "2025-12-31": 68836, "2026-03-31": 122632,
+      "comentario": "La deuda a largo plazo casi se DUPLICA en un trimestre (68.836 -> 122.632 M nominal). Es el eslabon debil del mecanismo hecho balance."
+    }
+  },
+
+  "wacc_candado_B": {
+    "declaracion_candado": "El WACC sale INTEGRAMENTE del mercado. Ninguna cifra se hereda del tier de calidad.",
+    "tasa_libre_riesgo_pct": 4.65,
+    "fuente_tasa_libre_riesgo": "HECHO — Bono del Tesoro EEUU a 10 anios. Fed H.15 (release 2026-07-27): 4,69% al 24-jul-2026; 5,16% el 30 anios. Cotizacion de mercado al 27-jul-2026: 4,63%-4,65%. Uso 4,65% central. Moneda funcional = USD, asi que es el bono correcto.",
+    "beta": 1.40,
+    "fuente_beta": "CALCULO PROPIO (INFERENCIA con metodo declarado): regresion de 262 retornos SEMANALES de AMZN contra SPY, cierres IBKR del 2021-07-30 al 2026-07-27. Beta cruda 5 anios = 1,455 (correlacion 0,71); 3 anios = 1,485; 2 anios = 1,475; 1 anio = 1,797; ~mensual 5 anios = 1,677; ajuste Blume sobre la de 5 anios = 1,305. Volatilidad anualizada AMZN 33,1% vs SPY 16,2%. Tomo 1,40 como central, rango 1,30-1,50. NOTA: la beta de AMZN ha SUBIDO — la de 1 anio (1,80) refleja el regimen de capex de IA; usar la beta 'de manual' de 1,2 seria hoy una cifra caducada.",
+    "prima_mercado_pct": 4.20,
+    "fuente_prima_mercado": "A. Damodaran, NYU Stern, implied ERP EEUU al 2026-07-01 = 4,18% (trailing 12m con payout ajustado), calculada con un rf de 4,45%. Redondeo a 4,20%.",
+    "prima_pais_pct": 0.35,
+    "fuente_prima_pais": "INFERENCIA — ponderada por geografia del riesgo de ACTIVO (ventas FY2025 del 10-K, Nota de Segmentos): EEUU 489.657 M (68,3%, CRP 0), Alemania 45.900 M (6,4%, CRP 0), Reino Unido 43.212 M (6,0%, CRP ~0,6%), Japon 30.688 M (4,3%, CRP ~0,8%), Resto del mundo 107.467 M (15,0%, CRP ~1,8% mezcla India/Canada/Australia/Brasil/Mexico). Ponderado = 0,34%. Uso 0,35%.",
+    "coste_capital_propio_pct": 10.88,
+    "coste_deuda_pct": 5.30,
+    "fuente_coste_deuda": "DOS lecturas, ambas del filing. (a) HISTORICO: gastos financieros TTM 2.533 M (2.274 M FY2025 - 541 M Q1'25 + 800 M Q1'26) sobre deuda media (bonos + arrendamientos financieros) de ~75.000 M = 3,4%. Esta cifra esta CADUCADA: refleja los bonos de 2020-2021 al 1,0%-2,7%. (b) MARGINAL Y REAL: la emision de marzo de 2026 tiene tipos EFECTIVOS del 3,97%-6,12% (tramo USD, vencimientos 2028-2076, vida media 16,7 anios) y 2,59%-4,88% (tramo EUR). Ademas los bonos cotizan a 113.600 M sobre 122.632 M nominales con vida media ponderada de 14,2 anios, lo que implica un rendimiento de mercado claramente por encima del cupon medio. Con el 10 anios a 4,65% y el 30 anios a 5,16%, un emisor AA con 14,2 anios de vida media paga ~5,3%. Uso 5,30% central, rango 5,0%-5,7%. Es el coste al que Amazon financia HOY el capex, no el que pago ayer.",
+    "tasa_impositiva_pct": 22.0,
+    "fuente_tasa_impositiva": "INFERENCIA — provision por impuestos FY2025 de 19.100 M sobre beneficio antes de impuestos de ~96.770 M = 19,7% efectiva (10-K, MD&A). Uso 22% como marginal prospectiva (federal + estatal mezclado), ligeramente conservadora frente a la efectiva.",
+    "peso_equity_pct": 95.11,
+    "peso_deuda_pct": 4.89,
+    "wacc_pct": 10.55,
+    "wacc_rango": "10,1% - 11,0%",
+    "detalle_rango": "Bajo: beta 1,30 + kd 5,0% -> 10,14%. Alto: beta 1,50 + kd 5,7% -> 10,96%.",
+    "comentario": "La estructura de capital esta tan cargada a equity (95,1%) que el WACC es esencialmente el coste del equity. Meter mas deuda barata no arregla nada: el problema no es el denominador."
+  },
+
+  "owner_earnings": {
+    "metodologia": "Parto del FLUJO DE CAJA DE OPERACIONES presentado (no de una reconstruccion). Resto la RETRIBUCION EN ACCIONES porque el CFO la anade como no monetaria y es un coste economico real (Amazon no recompra: la dilucion es la factura). Luego: (a) resto solo la DEPRECIACION DE INMOVILIZADO MATERIAL como aproximacion del capex de MANTENIMIENTO — el exceso de capex sobre depreciacion es inversion discrecional y NO se resta; (b) resto TODO el capex neto de cobros por venta de inmovilizado, es decir flujo de caja libre puro.",
+    "bases": {
+      "AUDITADO_FY2025": {
+        "periodo": "Ejercicio cerrado 2025-12-31, auditado (10-K presentado 2026-02-06)",
+        "etiqueta": "HECHO",
+        "ingresos_usd_mm": 716924,
+        "resultado_explotacion_usd_mm": 79975,
+        "resultado_neto_usd_mm": 77670,
+        "flujo_caja_operaciones_usd_mm": 139514,
+        "retribucion_en_acciones_usd_mm": 19467,
+        "depreciacion_inmovilizado_usd_mm": 41860,
+        "amortizacion_total_DyA_usd_mm": 65756,
+        "capex_bruto_usd_mm": 131819,
+        "cobros_venta_inmovilizado_usd_mm": 3499,
+        "capex_neto_usd_mm": 128320,
+        "oe_mantenimiento_usd_mm": 78187,
+        "oe_capex_total_usd_mm": -8273,
+        "fcf_definicion_amazon_usd_mm": 11194
+      },
+      "EN_CURSO_TTM_31MAR2026": {
+        "periodo": "12 meses terminados 2026-03-31, columna presentada en el 10-Q Q1 2026",
+        "etiqueta": "HECHO (columna del filing, no extrapolacion)",
+        "ingresos_usd_mm": 742776,
+        "resultado_explotacion_usd_mm": 85422,
+        "resultado_neto_usd_mm": 90798,
+        "flujo_caja_operaciones_usd_mm": 148531,
+        "retribucion_en_acciones_usd_mm": 19810,
+        "depreciacion_inmovilizado_usd_mm": 45638,
+        "amortizacion_total_DyA_usd_mm": 70439,
+        "capex_bruto_usd_mm": 151003,
+        "cobros_venta_inmovilizado_usd_mm": 3704,
+        "capex_neto_usd_mm": 147299,
+        "oe_mantenimiento_usd_mm": 83083,
+        "oe_capex_total_usd_mm": -18578,
+        "fcf_definicion_amazon_usd_mm": 1232
+      }
+    },
+    "distancia_entre_bases": {
+      "oe_mantenimiento_var_pct": 6.3,
+      "oe_capex_total_var_usd_mm": -10305,
+      "lectura": "Esta es la informacion, no el ruido. En un solo trimestre de rodaje, los owner earnings de MANTENIMIENTO suben apenas un 6,3% mientras el flujo de caja libre puro se hunde 10.305 M mas. Es la firma exacta de una reinvertidora que esta acelerando el gasto mas rapido de lo que crece el retorno. El capex/ventas pasa de 9,2% (2023) a 13,0% (2024) a 18,4% (2025) a 20,3% (TTM). El flujo de caja libre segun la propia definicion de Amazon cae de 11.194 M a 1.232 M — practicamente cero sobre 742.776 M de ingresos."
+    },
+    "cuatro_reservas_sobre_la_calidad_de_estos_owner_earnings": [
+      {
+        "titulo": "La depreciacion es solo el 30% del capex — y esa brecha se cierra sola",
+        "detalle": "Depreciacion de inmovilizado TTM 45.638 M sobre capex TTM 151.003 M = 30%. El inmovilizado bruto pasa de 394.055 M (2024) a 534.098 M (2025); dentro de eso, 'servidores y equipo de red' salta de 113.156 M a 172.492 M (+52%) y hay 71.745 M en obra en curso que TODAVIA NO DEPRECIA. Los servidores se amortizan en 5-6 anios (el 10-K FY2025 confirma que desde el 1-ene-2025 un subconjunto bajo de 6 a 5 anios, +1.400 M de cargo y -1.000 M de beneficio neto, 'por el ritmo acelerado del desarrollo tecnologico, particularmente en IA'). Solo la flota actual de servidores implica ~31.000 M anuales de depreciacion en regimen; y esa flota crece al 50%. CONSECUENCIA: los owner earnings de MANTENIMIENTO de 83.083 M son una cifra que solo existe mientras la base de activos es joven. En 4-5 anios, si el capex se estabiliza, la depreciacion converge al capex y el owner earnings de mantenimiento converge al flujo de caja libre. Hoy son 83.083 M y 1.232 M respectivamente."
+      },
+      {
+        "titulo": "23.761 M del CFO TTM son impuestos diferidos",
+        "detalle": "El 16% del flujo de caja de operaciones TTM es un diferimiento fiscal (amortizacion acelerada sobre el capex record). Es caja real hoy, pero se revierte cuando el capex deje de crecer. No es un motor, es un anticipo."
+      },
+      {
+        "titulo": "27.695 M del beneficio neto TTM son revalorizaciones no monetarias",
+        "detalle": "'Non-operating expense (income), net' TTM = -27.695 M. En el Q1 2026 solos, 12.328 M de 'ajustes al alza sobre inversiones en empresas privadas' (Anthropic) mas 4.479 M de reclasificacion de deuda convertible. El 10-K FY2025 ya recogia 15.200 M por lo mismo. El beneficio neto TTM de 90.798 M excluyendo estas marcas cae a ~69.200 M, lo que sube el PER de 27,4x a 36,0x. El CFO SI limpia esto (lo resta en la conciliacion), asi que mis owner earnings estan limpios — pero cualquier titular basado en 'beneficio' de Amazon hoy no lo esta."
+      },
+      {
+        "titulo": "27.000 M de inmovilizado adquirido y NO pagado",
+        "detalle": "10-K FY2025, Nota 3: 'Property and equipment acquired but not yet paid' = 27.000 M al cierre de 2025 frente a 16.800 M en 2024. El capex economico de 2025 excede al capex de caja en ~10.200 M. El capex real es aun mayor que los 131.819 M."
+      }
+    ]
+  },
+
+  "dcf_inverso": {
+    "estructura": "Crecimiento constante g durante 10 anios sobre los owner earnings de MANTENIMIENTO, valor terminal con crecimiento perpetuo del 3%, descuento al WACC calculado. Se resuelve la g que iguala el valor presente a la capitalizacion de hoy (2.489.088 M USD).",
+    "base_auditada": {
+      "oe_partida_usd_mm": 78187,
+      "g_implicita_pct": 14.61,
+      "g_implicita_a_wacc_10_14_pct": 13.72,
+      "g_implicita_a_wacc_10_96_pct": 15.48
+    },
+    "base_en_curso": {
+      "oe_partida_usd_mm": 83083,
+      "g_implicita_pct": 13.78,
+      "g_implicita_a_wacc_10_14_pct": 12.90,
+      "g_implicita_a_wacc_10_96_pct": 14.64
+    },
+    "contraste_contra_la_tasa_base": "El crecimiento de ingresos TTM es del 14,22% (742.776 M vs 650.313 M). Es decir: el precio de hoy exige que los owner earnings de mantenimiento crezcan EXACTAMENTE al ritmo al que crecen hoy los ingresos, sin un solo punto de expansion de margen, durante DIEZ anios. Sobre una base que llegaria a ~2,7 billones de dolares de ingresos en 2036. Y despues, 3% para siempre. La exigencia no es absurda leida de un dia; es exigente leida de una decada, y es incompatible con las cuatro reservas sobre la calidad de estos owner earnings — sobre todo con la primera, que dice que el propio denominador (la depreciacion) se va a triplicar por su cuenta.",
+    "dcf_inverso_sobre_flujo_de_caja_libre_puro": "NO TIENE SOLUCION. Con owner earnings de -8.273 M (auditado) y -18.578 M (en curso), ninguna tasa de crecimiento finita justifica un precio positivo. Esto no es un tecnicismo: significa que el 100% de la capitalizacion de 2,49 billones descansa sobre la premisa de que el capex de hoy es inversion discrecional recuperable y no coste de mantener el negocio. Esa premisa es exactamente lo que la primera reserva pone en duda."
+    ,
+    "roiic_que_justificaria_el_precio_pct": 26.9,
+    "nota_roiic_implicito": "Modelando explicitamente reinversion neta y retorno incremental, el precio de hoy solo se sostiene con un ROIIC del ~27%. El ROIIC ex-margen medido es 5,76% y el bruto 14,67%. Ni siquiera el bruto — el que asume que la expansion de margen se repite, y que esta prohibido usar — llega a la mitad de lo exigido."
+  },
+
+  "g_defendible": {
+    "formula": "g = tasa de reinversion x ROIIC EX-MARGEN. Se usa el ex-margen (5,76%) y no el bruto (14,67%) porque el bruto asume que dos tercios de la mejora de beneficio, que vinieron de expansion de margen y no de productividad de la pista, se repiten.",
+    "roiic_ex_margen_pct": 5.76,
+    "roiic_bruto_pct_prohibido": 14.67,
+    "reinversion_pct_ventas": 18.4,
+    "dos_lecturas_de_la_tasa_de_reinversion": {
+      "BRUTA": {
+        "definicion": "Capex bruto / NOPAT. 18,4% de ventas = 136.671 M (en curso) sobre NOPAT de 66.629 M.",
+        "tasa_reinversion_x": 2.05,
+        "g_pct": 11.82,
+        "problema": "Emparejar capex BRUTO con un NOPAT que ya esta despues de depreciacion sobreestima la reinversion y por tanto la g. Es la lectura pesimista."
+      },
+      "NETA_la_que_uso": {
+        "definicion": "(Capex neto - depreciacion de inmovilizado) / NOPAT. Es la unica emparejable con un NOPAT post-depreciacion.",
+        "auditado": {"reinversion_neta_usd_mm": 86460, "nopat_usd_mm": 62380, "tasa_x": 1.386, "g_pct": 7.98},
+        "en_curso": {"reinversion_neta_usd_mm": 101661, "nopat_usd_mm": 66629, "tasa_x": 1.526, "g_pct": 8.79}
+      }
+    },
+    "g_defendible_pct": 8.4,
+    "g_defendible_rango": "6,6% - 11,8% segun se empareje capex bruto o neto y depreciacion de inmovilizado o amortizacion total. HUECO DECLARADO: no se me entrego la definicion exacta de reinversion que uso la fase de calidad para el 18,4%; el rango recoge esa incertidumbre.",
+    "el_punto_que_importa": "La g no es el problema. El problema es el PRECIO de esa g. Con ROIIC ex-margen del 5,76% frente a un WACC del 10,55%, cada dolar reinvertido crea 0,55 dolares de valor: destruye 45 centavos. Cuanto MAS crece Amazon a este retorno incremental, MENOS vale. Por eso la reinversion se lleva 1,5 veces el NOPAT y el flujo de caja libre esta en cero: no es que el motor este apagado, es que esta funcionando exactamente como dice el numero y el numero dice que consume mas valor del que produce en el margen."
+  },
+
+  "valoracion": {
+    "piso_de_resolucion": "Sin medicion propia del ruido, todo valor intrinseco lleva +/-25%. Nada de decimales falsos.",
+    "metodo_central": "Perpetuidad de los owner earnings de MANTENIMIENTO con crecimiento autofinanciado del 3,5% (crecimiento que el negocio puede sostener SIN capex discrecional: mezcla de publicidad, precio y AWS ya instalado), descontada al WACC del 10,55%, mas la caja neta. Es deliberadamente generoso: no cobra ningun coste de capital por ese 3,5%.",
+    "valor_por_accion_auditado_usd": 105,
+    "valor_por_accion_auditado_rango": "78 - 131",
+    "valor_por_accion_encurso_usd": 111,
+    "valor_por_accion_encurso_rango": "83 - 139",
+    "mos_auditado_pct": -121,
+    "mos_encurso_pct": -108,
+    "otras_lecturas_del_valor": {
+      "cosecha_pura_g_cero": {"auditado_usd": 70.30, "en_curso_usd": 74.62, "descripcion": "Amazon para el capex discrecional y cobra los peajes: owner earnings de mantenimiento a perpetuidad sin crecimiento."},
+      "reinversion_a_ROIIC_5_76_pct": {"auditado_usd": 25.50, "en_curso_usd": 24.34, "descripcion": "Modelo explicito de 10 anios: sigue reinvirtiendo 1,5x el NOPAT al retorno incremental MEDIDO. Reportado por transparencia, NO como cifra central: un MoS del -850% incumple el piso de resolucion y no es informacion."},
+      "reinversion_a_ROIIC_bruto_14_67_pct": {"auditado_usd": 84.59, "en_curso_usd": 93.23, "descripcion": "Escenario alcista PROHIBIDO por metodo (asume que la expansion de margen se repite). Ni siquiera asi el precio se justifica."},
+      "multiplo_comprometido": {"m_estrella_x": 15, "valor_usd": 117.26}
+    },
+    "m_estrella": 15,
+    "justificacion_m_estrella": "DECISION EN FRIO, no estimacion, y por tanto sin barra de error. 15x owner earnings de mantenimiento. El razonamiento: un flujo de caja duradero y con foso real — publicidad sobre trafico propio y 364.000 M de AWS contratados a 66 meses — merece la parte alta del rango de un negocio maduro. 15x al WACC del 10,55% equivale a pagar por un crecimiento perpetuo del 3,9% conseguido SIN coste de capital incremental. Me niego a pagar un centavo mas por la opcionalidad de la reinversion, porque la unica medicion que tengo de esa opcionalidad dice 5,76% contra un coste del 10,55%. No pago por opciones cuyo unico dato observable esta fuera del dinero.",
+    "p_estrella_usd": 68,
+    "detalle_p_estrella": "Con el MoS exigido del 40%: 111 x 0,60 = 66,6 por la via del DCF central; 117,26 x 0,60 = 70,4 por la via del multiplo comprometido. P* = 68 USD (central de las dos). Si el umbral correcto para MENOS_5_6 en CARGAR fuera del 52% (40% + el escalon de 12 puntos), P* = 56 USD.",
+    "distancia_al_p_estrella_pct": 240.3,
+    "lectura_de_la_distancia": "El precio tendria que caer un 70,6% para llegar a P*. Eso no va a pasar por valoracion; pasaria por ruptura. La conclusion practica no es 'esperar a 68' sino que a este precio no hay ninguna version de este negocio que se pueda CARGAR."
+  },
+
+  "tir_esperada": {
+    "rango": "+4,5% a +7,0% anual durante 10 anios",
+    "desglose": [
+      {"escenario": "Reinversion continuada al ROIIC ex-margen medido (5,76%)", "tir_pct": 4.5},
+      {"escenario": "El ROIIC incremental se recupera hasta igualar el WACC (10,55%)", "tir_pct": 5.9},
+      {"escenario": "El ROIIC incremental vuelve al bruto historico (14,67%) — escenario prohibido por metodo, incluido como techo", "tir_pct": 7.0},
+      {"escenario": "Cosecha: owner earnings de mantenimiento con crecimiento perpetuo del 3,5% y cero capex discrecional", "tir_pct": 6.9}
+    ],
+    "referencias": {
+      "bono_10a_usd_pct": 4.65,
+      "coste_del_equity_exigido_pct": 10.88,
+      "wacc_pct": 10.55
+    },
+    "veredicto_tir": "En el escenario CENTRAL, comprar AMZN hoy ofrece del 4,5% al 7,0% anual durante una decada. El bono del Tesoro a 10 anios paga 4,65% sin riesgo. El techo del rango — que exige un escenario que el propio metodo prohibe usar — se queda tres puntos y medio por debajo del coste del capital propio. No es que la accion este 'algo cara': es que la compensacion por el riesgo es negativa en todo el rango defendible."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "NO — pero por el motivo contrario al habitual",
+    "razonamiento": "El detector de trampa de valor pregunta si un MoS GRANDE Y POSITIVO esconde un motor roto. Aqui el MoS es grande y NEGATIVO: no hay descuento que auditar. La trampa que hay que nombrar es la simetrica y se llama TRAMPA DE CALIDAD: un negocio con un foso genuinamente real (dos peajes de alto margen que el cliente no puede esquivar) cuyo precio ya descuenta una decada de ejecucion perfecta, y cuyo motor de reinversion — lo unico que podria justificar ese precio — esta midiendo 5,76% contra un coste de capital del 10,55%. El foso protege el flujo existente; no valida el capital nuevo. Confundir las dos cosas es exactamente el error que este expediente existe para impedir.",
+    "senales_de_deterioro_del_motor_verificadas": [
+      "ROIIC ex-margen 5,76% frente a WACC 10,55% (dato de calidad congelado + WACC propio)",
+      "Capex/ventas 9,2% -> 13,0% -> 18,4% -> 20,3% en cuatro periodos",
+      "Flujo de caja libre (definicion Amazon) 11.194 M -> 1.232 M en un trimestre de rodaje",
+      "Deuda a largo plazo 68.836 M -> 122.632 M nominal en un trimestre",
+      "Vida util de un subconjunto de servidores recortada de 6 a 5 anios por el ritmo de la IA (10-K FY2025)",
+      "Precio realizado por unidad negativo en 7 de 8 trimestres (dato de calidad congelado, puerta G3 fallada)"
+    ],
+    "senales_de_que_el_foso_SIGUE_intacto": [
+      "364.000 M de AWS contratados a 66 meses de plazo medio (dato de calidad congelado, puerta G6 pasada)",
+      "Devengo negativo los siete anios y beneficio MAS volatil que su propio flujo de caja: lo contrario del delator contable (puerta G5 reforzada, pasada)",
+      "Capex record justo en el ano de maxima presion, con Meta y Shopify recortando el suyo (puerta G4 pasada) — senal de conviccion de la direccion, no de panico",
+      "Ingresos creciendo al 14,2% sobre una base de 742.776 M"
+    ]
+  },
+
+  "veredicto": {
+    "accion": "NO CARGAR",
+    "mantener_posicion_existente": "Fuera del alcance de este agente. Esto es un expediente de VALORACION, no una decision de cartera. Lo que dice el precio: al 6,19% del NAV, cada dolar adicional en AMZN se compra con una TIR esperada del 4,5%-7,0% frente al 4,65% del bono a 10 anios.",
+    "gatillo_de_revision": "Publicacion de resultados del Q2 2026 (esperada finales de julio / primeros de agosto de 2026). Los tres numeros que hay que mirar, en este orden: (1) depreciacion de inmovilizado del trimestre — si acelera por encima del 20% interanual, la reserva #1 se esta materializando y los owner earnings de mantenimiento se evaporan; (2) capex del trimestre frente a los 44.203 M del Q1; (3) flujo de caja libre TTM segun la definicion de Amazon, hoy en 1.232 M — si entra en negativo sostenido, se acabo el debate."
+  },
+
+  "huecos_declarados": [
+    "El umbral de MoS exacto para la banda MENOS_5_6 en modo CARGAR es ambiguo en el brief (40% para abrir, pero la tabla de CARGAR solo llega hasta MUY_BUENA = 40%). Uso 40% y reporto tambien el 52%.",
+    "El brief no define si el '18,4% de reinversion sobre ventas' de la especie G2 es capex bruto o neto, ni contra que base se calculo el ROIIC ex-margen del 5,76%. Presento las dos lecturas y el rango de g que generan (6,6%-11,8%).",
+    "La base 'en curso' son los 12 meses terminados el 31-mar-2026 tal como los presenta el 10-Q, no un ejercicio 2026 anualizado con guia. A 28-jul-2026 solo hay UN trimestre de 2026 publicado; construir un FY2026 completo habria requerido tres trimestres de estimacion mia sobre uno de dato. Prefiero la columna presentada. No se incorporo la guia del Q2 2026 del comunicado de resultados del 30-abr-2026 (no verificada en fuente primaria en esta sesion).",
+    "La prima de riesgo pais del 0,35% es una INFERENCIA propia ponderando las primas de Damodaran por geografia de ventas. No localice la tabla de country risk premiums de julio de 2026 en fuente directa; use valores de orden de magnitud conocidos. El impacto en el WACC es de 35 puntos basicos: no cambia ninguna conclusion.",
+    "La beta de 1,40 es calculo propio con metodo declarado, no una cifra de un proveedor. Es mas defendible que una beta de proveedor sin fecha, pero es INFERENCIA. El rango 1,30-1,50 mueve el WACC entre 10,14% y 10,96% y la g implicita entre 12,90% y 14,64%.",
+    "El valor razonable de los arrendamientos financieros se toma a valor contable (13.325 M); a un tipo de descuento del 3,6% declarado en el filing la diferencia es inmaterial frente a una capitalizacion de 2,49 billones.",
+    "No se verifico de forma independiente el peso del 6,19% del NAV ni el hecho de que la posicion este en cartera: viene dado por el brief."
+  ]
+}

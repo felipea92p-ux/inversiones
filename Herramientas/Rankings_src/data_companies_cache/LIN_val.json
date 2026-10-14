@@ -1,0 +1,48 @@
+{
+ "ticker": "LIN",
+ "name": "Linde plc",
+ "currency": "USD",
+ "price_verified": 516.71,
+ "price_source": "StockAnalysis.com / Yahoo Finance (cross-checked), close Jun 22 2026 4:00pm EDT; NASDAQ:LIN",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.4663,
+ "implied_mcap_b_usd": 240.94,
+ "mcap_sanity_ok": true,
+ "owner_fcf_base": "FY2025 reported FCF $5,089M menos 100% SBC ($164M) = owner FCF ~$4,925M. SBC trivial (3.2% del FCF, 0.48% ventas), tipico de Linde. Owner FCF/accion ~$10.56 sobre 466.3M acciones diluidas. NOTA CLAVE: el FCF esta deprimido por capex de crecimiento elevado ($5.3B FY2025, guia $5.0-5.5B FY2026); Linde reinvierte a ROC 24% en backlog de proyectos contratados, por lo que el DCF sobre owner-FCF infra-valora estructuralmente al compounder. Beneficio adj (EPS $16.46 FY2025, guia $17.60-17.90 FY2026) es mejor proxy de poder de generacion -> el ancla de multiplo gana peso.",
+ "wacc_pct": 8.3,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.85,
+  "geo_adj_pct": 0.45
+ },
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 340,
+   "prob": 0.38,
+   "note": "Pesimista razonable NO apocaliptico. Owner-FCF base ~$4,925M. Fase 1 (1-5a) CAGR 6% (precio +volumen flojo, capex pesa); Fase 2 (6-10a) declinando 6%->4%; g terminal 2.5%; WACC 8.6% (beta 0.85). Reconoce sensibilidad a precios de energia/electricidad y crecimiento de volumenes plano en algunas regiones, sin colapso de la franquicia."
+  },
+  "base": {
+   "iv_per_share": 435,
+   "prob": 0.47,
+   "note": "Owner-FCF ~$4,925M creciendo. Fase 1 8.5% CAGR (en linea con guia EPS 7-9% + pricing + backlog de proyectos sign-on + buybacks ~1-2%); Fase 2 declinando 8.5%->5%; g terminal 3.0%; WACC 8.3%. Refleja modelo probado: contratos take-or-pay, ROC 24%, poder de precios estructural."
+  },
+  "optimista": {
+   "iv_per_share": 560,
+   "prob": 0.15,
+   "note": "Aceleracion por mega-proyectos de hidrogeno limpio/clean energy y descarbonizacion, mejora de mix y apalancamiento operativo. Fase 1 11% CAGR; Fase 2 11%->6%; g terminal 3.5%; WACC 8.0%. Escenario favorable pero alcanzable dado el backlog record."
+  }
+ },
+ "iv_dcf_weighted": 417.95,
+ "multiple_metric": "P/E adelantado (EPS adj FY2026)",
+ "fwd_multiple_now": 28.3,
+ "fwd_multiple_5y_avg": 35.15,
+ "fair_multiple": 30,
+ "iv_multiple": 532.5,
+ "multiple_rationale": "Metrica = P/E adelantado sobre EPS adj FY2026 (punto medio guia direccion $17.60-$17.90 = $17.75). Multiplo actual ~28.3x vs media 5a ~35.15x => cotiza con descuento ~-19.5% frente a SU PROPIA historia. Pero la media 5a esta inflada por el regimen de tipos ~cero 2020-2022; con Rf 4.3% el multiplo justo de un compounder defensivo de calidad que crece ~8-9% es menor. Aplico HAIRCUT explicito de ~35x a 30x (fair_multiple) por de-rating ESTRUCTURAL de tipos (no ciclico) -> sigue siendo prima de calidad merecida (ROC 24%, pricing power, contratos take-or-pay, baja ciclicidad). iv_multiple = $17.75 x 30.0 = $532.5.",
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 486.68,
+ "structural_change": "Sin deterioro estructural del negocio. La franquicia se mantiene intacta o mejora: ROC 24.2% FY2025, margen operativo adj ~30%, +2% organico FY2025 (precio +2%, volumen plano) con guia EPS +7-9% FY2026, backlog record de proyectos (hidrogeno limpio/descarbonizacion). El UNICO cambio \"estructural\" relevante para valoracion es macro/exogeno: normalizacion de tipos de interes (Rf 4.3% vs ~0% en 2020-22) que justifica un multiplo de equilibrio menor que la media 5a -> de ahi el haircut 35x->30x. No es deterioro del foso ni ciclico del negocio.",
+ "sanity_notes": "PRECIO Y ACCIONES RE-VERIFICADOS: precio $516.71 (StockAnalysis/Yahoo, 22-jun-2026); 462.35M acciones basicas, ~466.3M diluidas (10-Q Q1 2026). Sanity: 516.71 x 462.35M = $238.9B (basico) / x 466.3M = $240.9B (diluido) -> coincide con la escala mega-cap conocida de Linde (~$240B). mcap_sanity_ok=TRUE. REGLA DE MAGNITUD: reconciled_iv $486.68 = 94.2% del precio $516.71 -> dentro del rango razonable 30-300%, sin error de moneda/acciones/unidades (todo en USD, cotiza en NASDAQ). El IV reconciliado ($486.68) queda ~6% POR DEBAJO del precio actual: LIN es de calidad indiscutible pero NO esta barata: cotiza a -1.7% de su ATH (~$516-525), a ~28x fwd. Margen de seguridad negativo (~-5.5% upside, downside implicito). El DCF puro ($418) confirma que a este precio se paga por la opcionalidad de reinversion futura. Conclusion: gran empresa, precio exigente; valor justo ligeramente por debajo del mercado."
+}

@@ -1,0 +1,59 @@
+{
+ "ticker": "MNST",
+ "name": "Monster Beverage Corporation",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Op margin solido y en mejora (31% en Q1 2026 vs ~29% FY2025) con apalancamiento operativo, pero es modelo de bienes de consumo (no software/redes) sin escalabilidad cero-marginal; tope en 1.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Energy drinks sigue siendo la categoria de mayor crecimiento secular en bebidas, con penetracion internacional creciente (intl +44.9% YoY, ~45% de ventas) — crecimiento estructural claro."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "#2 global firme en energy (detras de Red Bull) y ganando cuota de categoria; duopolio durable pero NO deja al rival a anios-luz, por lo que no merece 2.0."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat de marca potente (Monster/Reign/Bang) + red de distribucion exclusiva de Coca-Cola (KO posee ~19%), foso ancho y durable pero replicable por gigantes de bebidas, no irreplicable por decadas."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento Q1 +26.9% impulsado por VOLUMEN real (case sales +28.8%) y FX, no por M&A — el Term Loan de Bang ya fue saldado abr-2025; motor organico genuino."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Multi-geografia (intl ~45% ventas) via red KO ampliamente diversificada sin dependencia de un solo cliente; diversificacion de canal/region solida."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC ~28% muy por encima del WACC, FCF/NI ~103% ($1,965.9M FCF vs $1,905.4M NI) y capex bajisimo (1.6% ventas) — generacion de caja de calidad excepcional."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Caja neta ~$2.9B (deuda LP $0, ND/EBITDA ~-1.1x); balance fortaleza absoluta sin apalancamiento."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "SBC verificada 6.4% del FCF (1.5% ventas), muy por debajo del umbral de 15%; ademas Monster no reporta non-GAAP (EPS GAAP=adj), contabilidad limpia y conservadora."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Fundadores con skin-in-the-game y recompras historicas, pero asignacion de capital mixta (Bang/Vital Pharmaceuticals fue oportunista-defensiva) y caja ociosa creciente sin retorno claro; solido pero no excepcional."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R3 (liderazgo #2 sostenido en duopolio) + R4 (moat de marca + distribucion exclusiva KO) + R1/R2 (categoria secular con apalancamiento operativo) se refuerzan: la marca alimenta la cuota de mercado, la red KO blinda la distribucion, y la categoria en crecimiento amplifica ambos. No es 'monstruoso e irreplicable' al nivel de un monopolio de red/software (por eso ninguna regla llega a 2.0), pero el refuerzo mutuo marca-distribucion-categoria es genuino y durable.",
+ "moat_one_line": "Marca dominante en energy + acceso exclusivo a la red de distribucion global de Coca-Cola (que posee ~19%), un foso de doble capa (intangible de marca + escasez de canal) muy dificil de replicar.",
+ "moat_type": "brand+distribution_network",
+ "thesis_3lines": [
+  "Calidad excepcional: ROIC ~28%, conversion FCF/NI ~103%, caja neta ~$2.9B y SBC limpia (6.4% FCF) — un compounder asset-light de balance fortaleza.",
+  "Motor de crecimiento organico real: ventas +26.9% en Q1 por volumen (case sales +28.8%) e internacionalizacion (intl +44.9%, ~45% de ventas) en una categoria secular.",
+  "Valoracion exigente: fwd P/E ~39 (prima ~+15% vs media 5a), PEG 3.36 y cotizando a maximos historicos (-1% del 52w high) — la calidad esta plenamente reconocida, margen de seguridad limitado."
+ ],
+ "bear_case_strongest": "A fwd P/E ~39 / PEG 3.36 en maximos historicos, el mercado descuenta perfeccion: cualquier desaceleracion del volumen en EE.UU., normalizacion del viento de cola FX, o intensificacion competitiva (Red Bull, Celsius, marcas blancas) comprimiria el multiplo sin colchon de valoracion.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Score ponderado re-calculado FASE 2: R1 1.0 + R2 1.5 + R3 1.5 + R4 1.5 + R5 1.5 + R6 1.5 + R7 1.5 + R8 1.5 + R9 1.5 + R10 1.0 = 14.0 sobre techo 13.5 -> capeado a 13.5/13.5. Negocio QG de altisima calidad; el unico contrapunto serio es la VALORACION (no_depressed, maximos historicos, prima +15%, PEG 3.36). data_quality=MIXED: resultados VERIFICADOS de filings SEC (10-Q Q1 2026, 10-K FY2025), pero precio/multiplos/ROIC estimados de agregador. Calidad del negocio no esta en duda; la disciplina de entrada (precio) si lo esta."
+}

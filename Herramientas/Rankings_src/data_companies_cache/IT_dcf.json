@@ -1,0 +1,42 @@
+{
+ "ticker": "IT",
+ "currency": "USD",
+ "current_price": 125.73,
+ "name": "Gartner, Inc.",
+ "wacc_pct": 10.3,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.2,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = FCF reportado FY2025 $1.175B − 100% SBC (~$156M, ~2.4% de ingresos / 13.3% del FCF) = ~$1.019B, equivalente a ~15.7% de ingresos FY2025 ($6.49B). Es el flujo de partida de la Fase 1. Rendimiento owner-FCF sobre market cap ($8.42B) ~12.1%.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 6,
+  "rev_cagr_y6_10_pct": 4.2,
+  "fcf_margin_terminal_pct": 16.2,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC (~$156M, ~2.4% de ingresos / 13.3% del FCF) restada del FCF reportado y tratada como gasto en efectivo; owner FCF base ~$1.019B",
+  "shares_diluted_b": 0.06695,
+  "net_debt_usd_b": 1.69
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 180.66,
+   "prob": 0.375,
+   "note": "El estancamiento del Contract Value (solo +1% FX-neutral) persiste: la disrupcion de IA sobre research/advisory y la presion del gasto IT/federal US frenan estructuralmente el motor de suscripciones. Crecimiento owner FCF Fase 1 ~3%, declinando a ~2.5% en Fase 2; margen sin recuperacion; g terminal 2.5%. NO apocaliptico (el negocio sigue rentable y recurrente). Aun asi IV ~$181 > precio: refleja la compresion de multiplo (35x->9.5x)."
+  },
+  "base": {
+   "iv_per_share": 236,
+   "prob": 0.475,
+   "note": "Consistente con track record: tras el bache 2025-26 el CV reacelera parcialmente. Owner FCF Fase 1 ~6%, declinando 5%->3.5% en Fase 2, con ligera recuperacion de margen (mult 1.03); g terminal 3.0%. ROIC ~24% y ~75% ingresos por suscripcion sostienen el foso. Peso del valor terminal ~52%."
+  },
+  "optimista": {
+   "iv_per_share": 291.94,
+   "prob": 0.15,
+   "note": "Los miedos de IA resultan exagerados y Gartner monetiza la demanda de asesoria sobre IA; CV vuelve a doble digito bajo. Owner FCF Fase 1 ~9%, declinando 7%->4% en Fase 2, expansion de margen (mult 1.06); g terminal 3.0%. Ejecucion perfecta + recompras agresivas siguen amplificando el FCF por accion."
+  }
+ },
+ "sanity_check": "Datos/ratings: DCF valido; contraste de rendimiento al accionista (sin DDM): Gartner NO paga dividendo, todo el retorno de caja es via recompra. En 2025 recompro ~$2.0B (~7.0M acciones) y ~$535M en Q1 2026 (~3.3M acciones); el buyback de 2025 equivale a ~24% del market cap actual ($8.42B), un yield de recompra extraordinario que reduce el conteo de acciones a ~67M. Yields: owner-FCF ~12.1%, FCF reportado ~14.0% sobre market cap. A fwd P/E ~9.5x (guia adj EPS $13.25) vs media 5a ~26-35x, el descuento (~-64%) es el motor del upside. VI ponderada por probabilidad ~$224 (~+78% sobre $125.73). Riesgo clave del caso alcista: que la desaceleracion del CV (indicador adelantado) sea estructural y no ciclica.",
+ "method_notes": "DCF de OWNER EARNINGS a 10 anios en USD. Owner FCF = FCF reportado FY2025 ($1.175B) − 100% SBC (~$156M) = ~$1.019B base. Fase 1 (anios 1-5): crecimiento explicito del owner FCF por escenario; Fase 2 (anios 6-10): CAGR declinante linealmente hacia normalizacion. Valor terminal Gordon con g=2.5% (conservador) a 3.0% (base/optimista) segun foso (ROIC ~24%, ~75% ingresos recurrentes por suscripcion). WACC = Rf 4.3% (UST 10Y) + ERP 5.0% x beta 1.2 = 10.3%; empresa US, sin ajuste geopolitico. VI/accion = (PV flujos + PV valor terminal − deuda neta $1.69B) / acciones diluidas (~0.06695B / 66.95M tras recompras). Peso del valor terminal ~48-54% (razonable). Fuentes verificadas FASE 2 (Q1 2026 press release, 8-K/10-Q SEC EDGAR, StockAnalysis). SBC ($156M) y net debt ($1.69B) marcados como estimados en FASE 2 pero coherentes; no se requirio busqueda web adicional. La caida del precio (-77% desde ATH) es mixta: deterioro real del crecimiento del CV + fuerte compresion de multiplo."
+}

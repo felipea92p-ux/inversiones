@@ -1,0 +1,87 @@
+{
+  "seed": 20260719,
+  "fecha": "2026-07-19",
+  "tramos": {
+    "alto": [
+      {
+        "ticker": "4684.T",
+        "score_qg_seilern": 99.0,
+        "sector": "Software - ERP (Japan mid/large-market)"
+      },
+      {
+        "ticker": "ICE",
+        "score_qg_seilern": 94.5,
+        "sector": "Exchanges / Financial market infrastructure & data"
+      },
+      {
+        "ticker": "NEM.DE",
+        "score_qg_seilern": 94.0,
+        "sector": "Software AEC/BIM (Design-Build-Manage)"
+      },
+      {
+        "ticker": "SNPS",
+        "score_qg_seilern": 93.5,
+        "sector": "Software EDA (Electronic Design Automation) + Simulacion - S"
+      },
+      {
+        "ticker": "IDXX",
+        "score_qg_seilern": 91.5,
+        "sector": "Diagnostico veterinario (salud animal / MedTech veterinario)"
+      }
+    ],
+    "medio": [
+      {
+        "ticker": "TYL",
+        "score_qg_seilern": 91.0,
+        "sector": "Software vertical GovTech (gobierno local/estatal EE.UU.) - "
+      },
+      {
+        "ticker": "BVI.PA",
+        "score_qg_seilern": 88.0,
+        "sector": "Testing, Inspection & Certification (TIC) - servicios B2B as"
+      },
+      {
+        "ticker": "ALC",
+        "score_qg_seilern": 87.5,
+        "sector": "Salud / Dispositivos oftalmicos (cirugia catarata/vision) - "
+      },
+      {
+        "ticker": "BKNG",
+        "score_qg_seilern": 83.0,
+        "sector": "Viajes/Internet -- Online Travel Agency (marketplace asset-l"
+      },
+      {
+        "ticker": "FDS",
+        "score_qg_seilern": 82.5,
+        "sector": "Datos financieros / analytics (SaaS de suscripcion)"
+      }
+    ],
+    "bajo": [
+      {
+        "ticker": "ALGN",
+        "score_qg_seilern": 80.5,
+        "sector": "Med-tech dental / ortodoncia digital (alineadores Invisalign"
+      },
+      {
+        "ticker": "LMN.TO",
+        "score_qg_seilern": 75.0,
+        "sector": "Software vertical (VMS) comunicaciones/media - Lumine Group"
+      },
+      {
+        "ticker": "CRM",
+        "score_qg_seilern": 70.0,
+        "sector": "Software"
+      },
+      {
+        "ticker": "SRT3.DE",
+        "score_qg_seilern": 66.0,
+        "sector": "Bioprocesamiento / life-science tools"
+      },
+      {
+        "ticker": "ORCL",
+        "score_qg_seilern": 62.0,
+        "sector": "Software/Cloud (mutando a infraestructura de datacenters AI,"
+      }
+    ]
+  }
+}

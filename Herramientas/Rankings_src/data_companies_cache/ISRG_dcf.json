@@ -1,0 +1,41 @@
+{
+ "ticker": "ISRG",
+ "currency": "USD",
+ "current_price": 402.95,
+ "wacc_pct": 9.55,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.05,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = FCF reportado $2,491M − 100% SBC ($775M = 7.7% de ingresos $10,065M) = ~$1,716M, margen owner ~17.0%. Nota: el margen FCF reportado FY2025 (24.7%) estuvo deprimido por capex elevado (nuevas instalaciones/manufactura); el margen FCF normalizado de mediano plazo es mas cercano a 27-29%, por lo que el margen owner-earnings (post-SBC) parte ~18% y se proyecta ramping hacia 24-25% a medida que la SBC cae como % de ingresos y el capex se normaliza.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 14,
+  "rev_cagr_y6_10_pct": 10.5,
+  "fcf_margin_terminal_pct": 24,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC tratada como gasto en efectivo (restada del FCF reportado para llegar a owner earnings). SBC FY2025 ~$775M (7.7% de ingresos, 26.4% del FCF); se asume que decae gradualmente como % de ingresos al madurar la empresa.",
+  "shares_diluted_b": 0.3542,
+  "net_debt_usd_b": -8
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 158,
+   "prob": 0.375,
+   "note": "Crecimiento ingresos yr1-5 ~11%, declinando a ~5% en yr10; margen owner 17.5%->20%; g terminal 2.5%. Refleja presion de capital hospitalario en Europa, competencia de precios en China, expiracion de subsidios ACA y tariffs (~1% GM). NO apocaliptico: el negocio sigue creciendo a doble digito bajo, pero la valoracion se comprime fuertemente."
+  },
+  "base": {
+   "iv_per_share": 228,
+   "prob": 0.475,
+   "note": "Crecimiento ingresos yr1-5 ~14% (consistente con guidance de procedimientos da Vinci 13.5-15.5% + mix ASP/instrumentos), declinando a ~7% en yr10; margen owner 18%->24% via apalancamiento operativo y normalizacion de SBC/capex; g terminal 3.0%. Consistente con track record (organico ~17% FY2025, ROIC ~26%, caja neta $8B)."
+  },
+  "optimista": {
+   "iv_per_share": 343,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: crecimiento yr1-5 ~18% (penetracion acelerada SP/Ion, expansion internacional, nuevas indicaciones), declinando a ~10% en yr10; margen owner 18%->27%; g terminal 3.5%. Aun asi por debajo del precio actual, lo que ilustra cuanto crecimiento esta descontado."
+  }
+ },
+ "sanity_check": "VI ponderada por probabilidad ~$219/accion vs precio $402.95 -> el DCF de owner earnings implica que ISRG cotiza ~1.8x su valor intrinseco base. DCF inverso: para justificar $402.95 con margenes owner normalizados (~18-25%) y WACC 9.55%, el mercado descuenta un CAGR de ingresos de ~22% en los anios 1-5 sostenido despues — muy por encima del ~14% que respaldan guidance y track record. ISRG no paga dividendo y no recompra de forma material (caja neta $8B, dilucion por SBC reduce el retorno al accionista), por lo que el rendimiento total al accionista por payout es ~0%: el caso de inversion depende 100% de reinversion y crecimiento, no de devolucion de caja. Contraste de multiplo: fwd P/E 37.8x (vs media 5a ~57x, descuento -34%) sigue siendo exigente para un crecimiento de FCF de mediano plazo de doble digito bajo-medio. Conclusion: empresa de calidad excepcional (foso amplio en cirugia robotica, ROIC ~26%, caja neta), pero precio para perfeccion; el owner-earnings DCF la situa sobrevalorada incluso en el escenario optimista.",
+ "method_notes": "Inputs VERIFICADOS de FASE 2 (FY2025 rev $10,065M, FCF $2,491M, SBC 7.7% ingresos, net cash $8.0B, guidance procedimientos 13.5-15.5%, fwd P/E 37.8x). Shares diluidas ~0.3542B derivadas de market cap $142.71B / precio $402.95 (consistente con base de acciones ISRG ~354M). WACC = Rf 4.3% (UST 10Y) + ERP 5.0% x beta 1.05 = 9.55%; beta del sector medtech/robotica estimada en ~1.05 (crecimiento secular pero defensivo, sin deuda). Sin ajuste geopolitico (empresa US; exposicion China presente pero secundaria, capturada en escenarios). DCF a 10 anios: Fase 1 (anios 1-5) CAGR explicito; Fase 2 (anios 6-10) CAGR declinante linealmente hacia normalizacion; margen owner-earnings (FCF reportado − 100% SBC) ramping linealmente. Valor terminal Gordon con g=2.5-3.5% segun foso. VI/accion = (PV flujos + PV terminal + caja neta $8B) / acciones diluidas. No se uso DDM (sin dividendo). No fue necesaria busqueda web: el JSON de FASE 2 contenia todos los inputs requeridos."
+}

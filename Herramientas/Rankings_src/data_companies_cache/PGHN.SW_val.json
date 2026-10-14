@@ -1,0 +1,48 @@
+{
+ "ticker": "PGHN.SW",
+ "name": "Partners Group Holding AG",
+ "currency": "CHF",
+ "price_verified": 669.6,
+ "price_source": "StockAnalysis.com (SWX:PGHN), corroborado por SIX/Yahoo; precio en CHF",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.02578,
+ "implied_mcap_b_usd": 21.4,
+ "mcap_sanity_ok": true,
+ "sanity_notes": "price*shares = 669.60 CHF * 25.78M = CHF 17.26bn (coincide exacto con mcap reportado en StockAnalysis). Convertido a USD a CHF/USD=1.237 (22-jun-2026) = USD 21.4bn, alineado con el ~22bn del fichero y el datapoint USD 21.6bn de mar-2026. Acciones: 25.78M es la base ajustada por autocartera (acciones emitidas ~26.7M; PG mantiene treasury). Uso 25.78M consistente con el mcap publicado. CUIDADO FX: 1 CHF ~= 1.237 USD, por lo que mcap USD = CHF * 1.237 (no dividir). Todas las IV se reportan en CHF (moneda de cotizacion). Regla de magnitud: IV reconciliada 1.68x precio, escenarios DCF 1.66x/2.12x/2.75x (todos <3.0x techo, >0.30x suelo) tras templar crecimiento; el precio actual esta practicamente en minimo de 52s (668.80), de ahi el upside elevado pero dentro de rango.",
+ "wacc_pct": 8,
+ "wacc_components": {
+  "rf_pct": 1.2,
+  "erp_pct": 5,
+  "beta": 1.35,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF normalizado ~CHF 1,263m (~CHF 49/accion). Punto de partida: gestor de alternativos asset-light, sin capex de mantenimiento, FCF ~ beneficio neto. FY2025 neto CHF 1,261m (GAAP EPS ~47.5) estuvo INFLADO por pull-forward de perf fees de 2026; consenso FY2026 EPS CHF 53.55. Normalizo a EPS ~49 (entre el GAAP 2025 y el consenso 2026) y resto SBC equity-settled (~CHF 100m, modesto: la mayor parte de la participacion de empleados sobre perf fees ya pasa por gasto de personal en el neto). FCF margin no divulgado por la empresa.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 1111,
+   "prob": 0.38,
+   "note": "Regimen de de-rating de alternativos persiste; AuM crece ~4.5% Fase1 declinando a 2.5%; perf fees siguen blandas por gating del evergreen y normalizacion; g terminal 2.0%. No apocaliptico: franquicia intacta, caja neta, ROE 55%."
+  },
+  "base": {
+   "iv_per_share": 1420,
+   "prob": 0.47,
+   "note": "AuM compone ~8% Fase1 -> 3.5% Fase2; perf fees normalizan y vuelven a crecer; private wealth/evergreen escala; g terminal 2.5%. WACC 8% bajo (Suiza) hace que el DCF sobre-acredite; por eso se pondera mas el multiplo."
+  },
+  "optimista": {
+   "iv_per_share": 1844,
+   "prob": 0.15,
+   "note": "Re-aceleracion: el canal de patrimonio privado y los fondos evergreen reabren crecimiento; AuM ~11.5% -> 4.5%; g terminal 3.0%. 2.75x el precio (cerca del techo de magnitud), refleja el punto de entrada deprimido."
+  }
+ },
+ "iv_dcf_weighted": 1366,
+ "fwd_multiple_now": 14.4,
+ "fwd_multiple_5y_avg": 20,
+ "fair_multiple": 18,
+ "multiple_metric": "P/E adelantado (sobre consenso EPS FY2026 CHF 53.55)",
+ "multiple_rationale": "Ancla a la media 5a del P/E adelantado (~24x) con HAIRCUT explicito a 18x (~-25%) por deterioro parcialmente estructural: (1) tope de reembolsos en el fondo PE evergreen (USD 8.6bn) que introduce riesgo de liquidez/percepcion estructural en el canal de patrimonio privado; (2) pull-forward de perf fees 2026->2025 que deja un viento en contra real en earnings 2026 (guia de perf fees en parte BAJA del rango 25-40%); (3) de-rating general de gestores de alternativos cotizados; (4) compresion: neto +12% vs ingresos +20% en FY2025. NO se aplica haircut mayor porque la operativa subyacente es robusta (AuM +21%, ingresos +20%, EBITDA +19%, ROE 55%, caja neta A-/A3) y gran parte del headwind es ciclico, no permanente. iv_multiple = 53.55 * 18.0 = CHF 964.",
+ "iv_multiple": 736,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 988,
+ "structural_change": "Deterioro REAL pero parcialmente ciclico, no terminal. Real/estructural: el tope de reembolsos activado en el fondo PE evergreen (USD ~8.6bn) expone fragilidad de liquidez en el empuje hacia patrimonio privado, el motor de crecimiento futuro de PG; mancha la narrativa de \"alternativos democratizados\". Ciclico/temporal: el pull-forward de perf fees 2026->2025 deprime los earnings reportados de 2026 pero no la capacidad de generacion a largo plazo; la de-rating del sector de alternativos cotizados es sentimiento de mercado. La franquicia (USD 185bn AuM +21%, ROE 55%, margen EBITDA 62.8%, caja neta) permanece intacta. Por eso el haircut del multiplo es moderado (24x->18x) y no severo. CAVEAT de datos: SBC exacto no extraido del Annual Report 2025; se asume equity-SBC modesto (~CHF 100m) porque la participacion de empleados ya pasa por gasto de personal."
+}

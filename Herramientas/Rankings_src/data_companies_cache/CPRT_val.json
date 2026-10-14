@@ -1,0 +1,48 @@
+{
+ "ticker": "CPRT",
+ "name": "Copart, Inc.",
+ "currency": "USD",
+ "price_verified": 29.48,
+ "price_source": "StockAnalysis.com (cierre 22-jun-2026); coincide con el JSON verificado via SEC. Market cap reportado $27.29B.",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.943,
+ "implied_mcap_b_usd": 27.8,
+ "mcap_sanity_ok": true,
+ "sanity_notes": "Precio $29.48 re-verificado en StockAnalysis (cierre 22-jun-2026) e identico al JSON verificado via SEC. Acciones diluidas: el 10-Q Q3 FY2026 (qtr a 30-abr-2026) reporta media ponderada diluida ~942.8M (uso 0.943B, mas exacto/conservador para IV/accion). StockAnalysis muestra ~925.8M en circulacion (de ahi market cap reportado $27.29B = 29.48*925.8M). Implied mcap con 943M = 29.48*0.943 = $27.80B, misma escala ($27-28B) -> mcap_sanity_ok=true. Posicion de CAJA NETA robusta +$4.11B (caja $4.20B, deuda $93M), se suma al EV del DCF. Owner FCF base normalizado $1.27B: FY2025 FCF $1.231B incluyo viento de cola NO recurrente de huracanes Helene/Milton; TTM FCF ~$1.34B; SBC muy baja ~$42M (~0.9% ingresos). El IV reconciliado ($35.88) es 122% del precio, dentro del rango de magnitud 30-300% -> sin error de unidades/moneda/acciones. Crecimiento desacelero de +9.7% FY2025 a +2.1% YoY en Q3 FY2026 por comparables dificiles tras los huracanes, no por deterioro estructural: margenes operativos intactos ~37%, ROIC alto, caja neta. Riesgo principal = volumen de salvamento US y normalizacion de mix, no la franquicia. EPS adelantado FY2026 ~$1.71 (guia implicita gestion); uso $1.75 normalizado hacia FY2027.",
+ "structural_change": "No hay deterioro estructural genuino. La desaceleracion (de +9.7% a +2.1% YoY) es (a) cesion del viento de cola no recurrente de huracanes Helene/Milton de FY2025 que crea comparables dificiles, y (b) compresion de multiplo/rotacion desde un PE premium. Margenes ~37%, caja neta +$4.11B, ROIC alto y modelo asset-light (subastas online, red de yardas con apreciacion de suelo) intactos. Vientos seculares vigentes: mayor frecuencia de declaracion de siniestro total por seguros (costes de reparacion/electronica), expansion internacional (Reino Unido, Alemania, Brasil, Oriente Medio) y penetracion fuera de seguros (Blue Car / dealers). Aplico haircut de multiplo por desaceleracion del crecimiento (28x -> 22x), no por ruptura del foso.",
+ "owner_fcf_base": "Owner FCF base normalizado ~$1.27B = FCF (entre FY2025 $1.231B y TTM ~$1.34B, ajustando por base alta de huracanes en FY2025) menos 100% SBC (~$42M, muy baja ~0.9% ingresos). Caja neta +$4.11B sumada al valor empresa.",
+ "wacc_pct": 9.55,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.05,
+  "geo_adj_pct": 0
+ },
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 27.08,
+   "prob": 0.38,
+   "note": "Crecimiento se normaliza bajo sin tailwind de huracanes y volumen US blando: Fase1 CAGR 5%, declina a 3% en Fase2, g terminal 2.5%. Pesimista razonable, no apocaliptico (margenes y caja neta intactos)."
+  },
+  "base": {
+   "iv_per_share": 34.57,
+   "prob": 0.47,
+   "note": "Reanudacion del compounding por penetracion de seguros (total loss), expansion internacional y precio/mix: Fase1 CAGR 9%, declina a 4%, g terminal 3.0%."
+  },
+  "optimista": {
+   "iv_per_share": 44.82,
+   "prob": 0.15,
+   "note": "Reaceleracion fuerte, ganancia de cuota, internacional + Blue Car/dealers: Fase1 CAGR 13%, declina a 5%, g terminal 3.5%."
+  }
+ },
+ "iv_dcf_weighted": 33.26,
+ "multiple_metric": "P/E adelantado",
+ "fwd_multiple_now": 18.4,
+ "fwd_multiple_5y_avg": 28,
+ "fair_multiple": 22,
+ "multiple_rationale": "P/E adelantado actual 18.4 vs media 5a ~28 (descuento ~-34%). Aplico fair_multiple 22x (haircut de ~21% sobre la media 5a) para reflejar la desaceleracion real del crecimiento (de doble digito a un solo digito tras la cesion del tailwind de huracanes y ciclo de volumen US suave), pero manteniendolo bien por encima del 18.4x actual porque el foso, la caja neta +$4.11B, el ROIC alto y el modelo asset-light siguen intactos (deterioro ciclico, no estructural). iv_multiple = EPS adelantado normalizado ~$1.75 (FY2026 ~$1.71 guia implicita, hacia FY2027) * 22 = $38.50.",
+ "iv_multiple": 38.5,
+ "weight_dcf": 0.5,
+ "weight_multiple": 0.5,
+ "reconciled_iv": 35.88
+}

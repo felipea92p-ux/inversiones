@@ -1,0 +1,59 @@
+{
+ "ticker": "AME",
+ "name": "AMETEK, Inc.",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Modelo de instrumentación electrónica/electromecánica con buenos márgenes operativos (26.7% Q1-2026) pero NO escalable tipo software/red — los márgenes no se expanden estructuralmente con el volumen, dependen de mix y pricing."
+  },
+  "R2": {
+   "score": 1,
+   "just": "Nichos industriales en crecimiento secular moderado (aeroespacial, instrumentación de precisión, automatización, medicina), orgánico solo ~5% en Q1-2026; secular pero no explosivo."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Líder #1/#2 en docenas de micro-nichos de instrumentación de alta precisión donde domina, backlog récord $3.87B y órdenes +23% confirman posición sostenida, aunque fragmentado en muchos mercados pequeños."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat sólido por costes de cambio (instrumentos críticos integrados en procesos del cliente) + intangibles técnicos + posiciones de nicho difíciles de atacar, pero no es marca/red irreplicable en décadas."
+  },
+  "R5": {
+   "score": 0.5,
+   "just": "Crecimiento orgánico modesto ~5% en Q1-2026; el +11.3% YoY depende fuertemente de M&A (+4% adquisiciones) y FX (+2%) — la maquina depende del roll-up serial, lo que penaliza esta regla."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Excelente diversificación: dos segmentos (EIG/EMG), cientos de mercados finales, multi-geografía, sin concentración material en un solo cliente >10-15%."
+  },
+  "R7": {
+   "score": 1,
+   "just": "FCF excelente (margen 22.6%, FCF/NI alto, capex bajo) y FCF $1,671.6M, pero ROIC 11.23% es solo moderadamente superior al WACC — el goodwill del M&A serial diluye el retorno sobre capital."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Balance sólido: ND/EBITDA ~0.74x, net debt solo $1.70B contra EBITDA ~$2,297M; apalancamiento bajo aunque no es caja neta."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "Contabilidad limpia y conservadora: SBC verificada vía SEC XBRL en solo 0.65% de revenue y 2.9% del FCF — muy por debajo del umbral de 15%, calidad de earnings alta."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Gestión disciplinada con historial de M&A acretivo y elevación de guía FY2026, pero el modelo de capital se vuelca a adquisiciones (no buybacks oportunistas) y el skin-in-the-game insider es moderado."
+  }
+ },
+ "amplification": false,
+ "amplification_note": "R3 (liderazgo en nichos) y R4 (moat por costes de cambio) se refuerzan, pero R1 NO es un modelo escalable monstruoso (no software/red) y el crecimiento orgánico es modesto (~5%); la combinación es fuerte pero no alcanza el umbral \"monstruoso e irreplicable\" que exigiría amplification=true.",
+ "moat_type": "switching_costs",
+ "moat_one_line": "Costes de cambio altos por instrumentos de precisión críticos integrados en los procesos del cliente, más cientos de posiciones de liderazgo en micro-nichos técnicos defendibles que un competidor no puede replicar a escala.",
+ "thesis_3lines": [
+  "Calidad: compounder industrial de altísima calidad — márgenes operativos ~27%, FCF margin 22.6%, SBC mínimo (2.9% del FCF) y balance impecable (ND/EBITDA 0.74x).",
+  "Motor de crecimiento: máquina de roll-up serial sobre nichos de instrumentación de precisión, con backlog récord $3.87B y órdenes +23%, aunque el orgánico (~5%) es modesto y el crecimiento depende de M&A acretivo.",
+  "Valoración/retorno: cotiza a 28.6x fwd P/E (-2.7% vs su media de 5 años) cerca de máximos históricos (-0.7% del high) — calidad reconocida y precio pleno, sin margen de seguridad por desplome."
+ ],
+ "bear_case_strongest": "El crecimiento depende estructuralmente del M&A serial (orgánico solo ~5%, ROIC 11.23% diluido por goodwill) y la acción cotiza a precio pleno cerca de máximos sin descuento, por lo que cualquier ralentización del pipeline de adquisiciones o compresión del múltiplo recortaría el retorno sin colchón de valoración.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Score ponderado total = 12.5/13.5 (R1 1.0 + R2 1.0 + R3 1.5 + R4 1.5 + R5 0.5 + R6 1.5 + R7 1.0 + R8 1.5 + R9 1.5 + R10 1.0). Sube ligeramente desde el preliminar 12 gracias a SBC verificada muy baja (R9=1.5) y balance confirmado fuerte (R8=1.5). El techo se limita por R5 (dependencia de M&A, orgánico ~5%) y R7 (ROIC 11.23% solo moderado por dilución de goodwill). Acción no deprimida (not_depressed): cerca de máximos históricos, valoración plena sin margen de seguridad. data_quality MIXED: fundamentales VERIFICADOS vía SEC EDGAR/XBRL; valoración (price, P/E, PEG, ROIC) ESTIMADA vía agregadores."
+}

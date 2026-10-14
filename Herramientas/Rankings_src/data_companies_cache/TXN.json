@@ -1,0 +1,94 @@
+{
+ "ticker": "TXN",
+ "name": "Texas Instruments Incorporated",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 332.28,
+ "market_cap_usd_b": 302.41,
+ "fwd_pe": 39.12,
+ "fwd_pe_5y_avg": 30.13,
+ "pe_prem_disc_pct": 29.8,
+ "peg": 1.87,
+ "last_q": {
+  "period": "Q1 2026 (ended Mar 31, 2026)",
+  "revenue": "$4.83B",
+  "rev_yoy_pct": 19,
+  "op_margin_pct": 37.5,
+  "eps_gaap": "$1.68",
+  "eps_adj": "$1.68"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 31, 2025)",
+  "revenue": "$17.68B",
+  "organic_growth_pct": 13,
+  "roic_pct": null,
+  "fcf": "$2.94B",
+  "fcf_margin_pct": 16.6
+ },
+ "sbc_pct_revenue": 2.37,
+ "sbc_pct_fcf": 14.3,
+ "net_debt_usd_b": 8.95,
+ "nd_ebitda": 1.04,
+ "net_cash": false,
+ "guidance_fy": "No full-year FY2026 guidance issued (TI guides quarterly). Q2 2026 guidance: revenue $5.00B-$5.40B; diluted EPS $1.77-$2.05 (PROYECCION de la direccion). Q2 midpoint rev ~$5.20B implies continued strong double-digit YoY growth led by industrial and data center.",
+ "pct_off_52w_high": -0.52,
+ "pct_off_ath": 0,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "guidance_fy",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b"
+ ],
+ "estimated_fields": [
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "price",
+  "market_cap_usd_b",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "nd_ebitda",
+  "last_fy.fcf_margin_pct",
+  "last_fy.roic_pct"
+ ],
+ "sources": [
+  {
+   "label": "TI Q1 2026 8-K / press release (TI reports first quarter 2026 financial results)",
+   "url": "https://www.stocktitan.net/sec-filings/TXN/8-k-texas-instruments-inc-reports-material-event-661347f18bf5.html",
+   "date": "2026-04"
+  },
+  {
+   "label": "TI investor relations - Q1 2026 results",
+   "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-first-quarter-2026-financial-results-and-shareholder",
+   "date": "2026-04"
+  },
+  {
+   "label": "SEC EDGAR - TXN FY2025 10-K (filed 2026-02-06)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000097476/000009747626000059/txn-20251231.htm",
+   "date": "2026-02-06"
+  },
+  {
+   "label": "TI Q4/FY2025 press release",
+   "url": "https://investor.ti.com/news-releases/news-release-details/ti-reports-q4-2025-and-2025-financial-results-and-shareholder",
+   "date": "2026-01"
+  },
+  {
+   "label": "StockAnalysis.com - TXN overview, ratios, balance sheet, cash flow",
+   "url": "https://stockanalysis.com/stocks/txn/",
+   "date": "2026-06-22"
+  }
+ ],
+ "notes": "TXN NO esta deprimida: cotiza a ~$332, +~80% en 2026 y a solo 0.52% de su maximo 52 semanas ($334.03), en/cerca de maximos historicos -> drop_classification = not_depressed. Rally impulsado por demanda de data center e industrial; Citi subio objetivo a $345 (15-jun-2026, top pick). VALORACION CARA: fwd P/E 39.1x vs media 5a ~30.1x = prima ~+30%; P/E trailing 55x; PEG 1.87. Media 5a fwd P/E calculada de cierres anuales (Dic'25 30.0 / Dic'24 33.9 / Dic'23 26.8 / Dic'22 20.9 + actual) = 30.1 (ESTIMADO). Q1 2026 (VERIFICADO 8-K): rev $4.83B (+19% YoY, +9% QoQ), op margin 37.5% ($1.808B op profit), GAAP EPS $1.68 (+31%), net income $1.545B, gross margin 58%. Incluyo beneficio de 5c no previsto en guia. Analog $3.92B (+22%), Embedded $723M (+12%). FY2025 (VERIFICADO 10-K/press): rev $17.68B (+13%), op profit $6.02B (34.1% margin), net income $5.00B, CFO $7.15B, capex $4.55B, FCF $2.94B (margen 16.6%). organic_growth ~ growth reportado (TXN apenas tiene M&A material en periodo). FCF TTM a Mar-2026 ~$4.35B (TI) / $3.72B (stockanalysis, distinta definicion capex). SBC FY2025 $419M = 2.37% de ingresos, ~14.3% del FCF FY2025 ($2.94B) -> SBC BAJA, no dilutiva materialmente (R9 favorable). Net debt: deuda total $14.05B (cupon medio ~4%) menos caja+inv CP $5.10B = +$8.95B deuda neta (NO caja neta). ND/EBITDA ~1.0-1.6x (estimado; debt/EBITDA 1.63x segun stockanalysis). ROIC FY2025 no extraido directamente del 10-K (TI historicamente ~25-30%+); dejado null/estimado. Guia: TI no da guia anual; solo Q2 2026 rev $5.00-5.40B y EPS $1.77-2.05 (PROYECCION). Evento corporativo: TI acordo adquirir Silicon Labs por ~$7.5B en efectivo, cierre previsto 1S2027 (aumentara deuda neta). data_quality=MIXED: fundamentales operativos VERIFICADOS de filings oficiales; valoracion y precio de agregador (ESTIMADO)."
+}

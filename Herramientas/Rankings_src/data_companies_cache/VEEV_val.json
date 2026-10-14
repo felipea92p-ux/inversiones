@@ -1,0 +1,48 @@
+{
+ "ticker": "VEEV",
+ "name": "Veeva Systems Inc.",
+ "currency": "USD",
+ "price_verified": 153.16,
+ "price_source": "StockAnalysis.com (statistics page), cross-checked vs Public.com/WallStreetZen ~$153.30 intraday",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.163,
+ "implied_mcap_b_usd": 24.97,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 9.3,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY26 = $913.3M = FCF reportado $1,386M − 100% SBC $472.7M (SBC full-year verificado). Owner FCF/accion ~ $5.60. Base de crecimiento del DCF.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 169.78,
+   "prob": 0.38,
+   "note": "Fase1 (a1-5) CAGR 9%, Fase2 (a6-10) declinando a 4%, g terminal 2.5%, WACC 9.3%. Pesimista razonable: desaceleracion del SaaS sanitario, presion de IA sobre algunos modulos, crecimiento converge a un solo digito alto. TV=57% del EV."
+  },
+  "base": {
+   "iv_per_share": 211.64,
+   "prob": 0.47,
+   "note": "Fase1 CAGR 13% (consistente con guia FY27 +14% y reinversion en Data Cloud/Vault CRM tras salida de Salesforce), Fase2 declinando a 5%, g terminal 3.0%, WACC 9.3%. TV=62%."
+  },
+  "optimista": {
+   "iv_per_share": 269,
+   "prob": 0.15,
+   "note": "Fase1 CAGR 17%, Fase2 declinando a 6%, g terminal 3.5%, WACC 9.3%. Expansion exitosa fuera de life-sciences (Veeva for Industries), monetizacion de IA/Data Cloud, re-aceleracion. TV=66%."
+  }
+ },
+ "iv_dcf_weighted": 204.34,
+ "multiple_metric": "P/E adelantado (non-GAAP EPS FY27 ~$9.05)",
+ "fwd_multiple_now": 16.9,
+ "fwd_multiple_5y_avg": 44.5,
+ "fair_multiple": 28,
+ "multiple_rationale": "Ancla = media 5a del fwd P/E (44.5x) con un HAIRCUT estructural fuerte a 28x (-37%). El recorte refleja deterioro REAL no ciclico: el crecimiento se desacelero de ~25-30% (era de la media 44.5x) a ~14% guiado, las tasas estan estructuralmente mas altas que en 2019-2022, y existe sobrecarga de sentimiento por disrupcion de IA en software vertical. Aun asi 28x es justificadamente premium (PEG~2) por margenes FCF >43%, caja neta >$7B sin deuda, ingresos por suscripcion recurrentes >80%, foso de SaaS vertical regulado en life-sciences y opcionalidad Data Cloud/IA. iv_multiple = $9.05 × 28 = $253.40.",
+ "iv_multiple": 253.4,
+ "weight_dcf": 0.45,
+ "weight_multiple": 0.55,
+ "reconciled_iv": 231.32,
+ "structural_change": "No hay deterioro fundamental del negocio: Q1 FY27 ingresos +16% YoY, margen operativo non-GAAP ~44.8%, guia FY27 ELEVADA a ~$3.64B (+14%), FCF margin ~43%, caja neta >$7.3B. La caida del -50% desde maximos es una RE-CALIFICACION de multiplo (fear/rotation fuera de SaaS de alto multiplo, probable miedo a IA), NO una ruptura de tesis. Cambio estructural genuino y limitado: (1) maduracion natural — crecimiento de >25% a ~14%; (2) transicion completada de Salesforce a Vault CRM propio (riesgo de ejecucion ya en gran parte superado, ahora positivo para margenes). Por eso el multiplo justo (28x) queda muy por debajo de su media historica pero sigue siendo de calidad.",
+ "sanity_notes": "implied_mcap = 153.16 × 0.163B = $24.97B, coincide con mcap reportado ~$24.88B (dif. <0.4%, por redondeo de acciones 162.4-163.3M) -> sanity OK. Acciones diluidas ~163M (StockAnalysis 162.4M dil.; acciones en circulacion 163.3M). Caja neta +$7.31B sumada al EV en los tres escenarios. reconciled_iv $231.32 implica upside ~+51% vs $153.16; cae comodamente dentro del rango de magnitud (30%-300% del precio = $46-$459), sin errores de unidad/moneda/acciones. Pesos 0.45 DCF / 0.55 multiplo: compounder estable y probado (inclina hacia multiplo), pero con desaceleracion real del crecimiento y riesgo de de-rating SaaS persistente (no se llega al 0.35/0.65 de un blue-chip puro). DCF infra-credita la reinversion a ROIC alto, de ahi el cross-check de multiplo al alza. Owner earnings castiga la SBC al 100% ($472.7M full-year, no el componente trimestral erroneo de ~$119M). WACC 9.3% con beta ~1.0; usar beta ~1.0 es conservador para una franquicia de caja neta."
+}

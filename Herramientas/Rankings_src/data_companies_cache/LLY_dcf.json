@@ -1,0 +1,42 @@
+{
+ "ticker": "LLY",
+ "currency": "USD",
+ "current_price": 1102.08,
+ "name": "Eli Lilly and Company",
+ "wacc_pct": 8.05,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.75,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base FY2025 = FCF reportado $8,972M - 100% SBC $626M = $8,346M (margen owner FCF ~12.8% sobre ingresos $65.18B). NOTA CRITICA: el margen FCF 2025 esta deprimido por capex muy elevado (construccion de capacidad de manufactura GLP-1: OCF $16,813M - capex $7,841M). La SBC de LLY es excepcionalmente baja (0.96% de ingresos, 6.98% del FCF), por lo que el ajuste owner-earnings apenas reduce el flujo (~7%). En las proyecciones el margen owner FCF se normaliza al alza (hacia 25-33% segun escenario) a medida que la intensidad de capex se modera y la conversion de caja vuelve a niveles historicos altos de LLY.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 21,
+  "rev_cagr_y6_10_pct": 14,
+  "fcf_margin_terminal_pct": 30,
+  "terminal_g_pct": 3.2,
+  "shares_diluted_b": 0.892,
+  "net_debt_usd_b": 35.24,
+  "sbc_treatment": "100% de la SBC restada del FCF como gasto en efectivo (owner earnings). SBC FY2025 = $626M = 0.96% ingresos / 6.98% FCF, muy baja para LLY, impacto minimo."
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 807,
+   "prob": 0.375,
+   "note": "Rev CAGR y1-5 ~16% (la ola GLP-1 se enfria mas rapido; competencia oral de orforglipron/competidores y presion de precios IRA/Medicare); y6-10 declina 16%->6%. Margen owner FCF se normaliza solo hasta ~25.5% (capex persistente, erosion de mix). g terminal 3.0%. IV $807, ~27% por debajo del precio: refleja que el mercado ya descuenta mucho crecimiento."
+  },
+  "base": {
+   "iv_per_share": 1398,
+   "prob": 0.475,
+   "note": "Rev CAGR y1-5 ~21% (consistente con guidance FY2026 +26-30% y desaceleracion gradual; obesidad/diabetes + pipeline orforglipron oral y retatrutide); y6-10 declina 21%->8%. Margen owner FCF sube 17%->30% al normalizarse el capex. g terminal 3.2%, multiplo terminal owner-FCF ~21x. Ingresos Y10 ~$331B. IV $1,398, ~27% sobre el precio."
+  },
+  "optimista": {
+   "iv_per_share": 2215,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: liderazgo sostenido en incretinas, exito de orforglipron oral a escala global, nuevas indicaciones (MASH, apnea, cardio-renal). Rev CAGR y1-5 ~25%; y6-10 25%->10%. Margen owner FCF hacia ~34%. g terminal 3.5%. IV $2,215."
+  }
+ },
+ "sanity_check": "VI ponderada por probabilidad = 0.375*$807 + 0.475*$1,398 + 0.15*$2,215 = ~$1,299/accion, ~18% sobre el precio actual de $1,102. Coherencia de multiplos: EV actual ~$1,018B = 122x owner FCF 2025 (deprimido por capex) y ~76x FY2026E owner FCF (~$13.4B), confirmando que el mercado ya paga por anios de crecimiento alto; el escenario conservador ($807) cae por debajo del precio, dando la asimetria/guarda de seguridad. Multiplo terminal base ~21x owner FCF es razonable para una franquicia farma de alta calidad en fase terminal. Contraste de rendimiento al accionista (NO DDM): dividendo ~$6.00/accion = ~0.54% de yield; recompras historicamente modestas en LLY (prioriza reinversion y dividendo). El rendimiento total de caja al accionista es bajo (~1%), por lo que la tesis es 100% de crecimiento/reinversion, no de retorno de capital: valida usar DCF y no enfoques de yield. fwd P/E 29.5x vs media 5a 40.8x (descuento ~-28%) y PEG ~0.7 refuerzan que la valoracion no es exigente frente a su propio historico dado el crecimiento de EPS guidance ~50%.",
+ "method_notes": "DCF de OWNER EARNINGS a 10 anios. Base owner FCF = FCF reportado FY2025 $8,972M menos 100% SBC $626M = $8,346M. Dos fases: Fase 1 (anios 1-5) CAGR de ingresos explicito y constante por escenario; Fase 2 (anios 6-10) CAGR declinante linealmente hacia normalizacion. El margen owner FCF se proyecta con una senda creciente (NO constante) porque el margen 2025 (~12.8%) esta artificialmente deprimido por el capex de expansion de capacidad GLP-1; se normaliza hacia 25.5%/30%/34% (cons/base/opt) reflejando la conversion de caja historicamente alta de LLY una vez moderado el ciclo de inversion. Valor terminal por Gordon sobre el owner FCF del anio 10 con g=3.0-3.5% segun foso (foso amplio: liderazgo en incretinas, patentes, escala de manufactura, marca). Descuento al WACC = Rf 4.3% + ERP 5.0% * beta 0.75 = 8.05% (empresa US, sin ajuste geopolitico). Beta 0.75 estimada para farma large-cap defensiva-de-crecimiento. VI/accion = (PV flujos + PV valor terminal - deuda neta $35.24B) / acciones diluidas 0.892B (derivadas de market cap $982.77B / precio $1,102.08). Todos los inputs nucleo (FCF, SBC, ingresos, crecimiento, deuda neta, precio) provienen de los datos VERIFICADOS de FASE 2; no se requirio busqueda web adicional."
+}

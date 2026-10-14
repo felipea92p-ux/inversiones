@@ -1,0 +1,381 @@
+{
+  "meta": {
+    "ticker": "BKNG",
+    "empresa": "Booking Holdings Inc.",
+    "cik": "0001075531",
+    "domicilio": "Delaware, EEUU (sede Norwalk, CT). Riesgo de ACTIVO: global, con peso dominante en Europa (Booking.com, entidad holandesa) y Asia (Agoda).",
+    "moneda_funcional_reporte": "USD (pero la mayor parte del negocio y de la deuda son EUR)",
+    "fecha_analisis": "2026-07-28",
+    "etiqueta_congelada": "MUY_BUENA (4 puertas pasadas) — NO RECLASIFICABLE HACIA ARRIBA",
+    "especie": "G2 — reinversion 5% de ventas, ROIIC bruto 47,5%, ROIIC ex-margen 62,5%",
+    "posicion_en_cartera": "SI — 1,66% del NAV. Umbral aplicable = CARGAR",
+    "mos_exigido_pct": 40,
+    "ruta_solicitada": "undefined/BKNG.json — el orquestador paso el directorio sin resolver; escrito en /Users/felipealvarez/Library/Mobile Documents/com~apple~CloudDocs/INVESTMENTS/Rankings/expedientes/BKNG.json"
+  },
+
+  "mecanismo_congelado": {
+    "texto": "Red de dos lados en la que mas de la mitad de la demanda llega directa o por app (y esa proporcion todavia sube), lo que le permite intermediar 186.107 M$ de reservas brutas gastando 30,4 centavos de marketing por dolar de ingreso frente a los 49,9 del numero dos, y hacerlo con capital invertido neto NEGATIVO de -4.627 M$ porque el float de las reservas comerciantes financia el ciclo.",
+    "eslabon_mas_debil": "No tiene poder de fijacion de precios demostrado; el take rate subio +0,94% anual de 2022 a 2025, por debajo de la inflacion. Todo el motor es volumen. Por eso el ROIIC ex-margen (62,5%) sale por encima del bruto (47,5%).",
+    "verificaciones_del_mecanismo_contra_filing_2026-07-28": {
+      "reservas_brutas_FY2025": {"valor_musd": 186100, "detalle_trimestral": "46,7 + 46,7 + 49,7 + 43,0 = 186,1 B$", "etiqueta": "HECHO", "fuente": "8-K 2026-04-28, Ex-99.1 q1-26bkngearningsrelease.htm, tabla Statistical Data"},
+      "marketing_sobre_ingresos_FY2025": {"valor_pct": 30.41, "calculo": "8.186 / 26.917", "etiqueta": "HECHO", "fuente": "10-K FY2025 (acc. 0001075531-26-000009), R5 Consolidated Statements of Operations"},
+      "capital_invertido_neto_negativo": {"valor_musd_recalculado": -6008, "calculo": "(activo corriente ex-caja 5.061 - pasivo corriente operativo 14.818) + PPE 807 + leases 632 + intangibles 918 + otros activos 1.392 = -6.008, ex-goodwill. Con goodwill 2.669 => -3.339", "etiqueta": "INFERENCIA", "nota": "El -4.627 congelado cae dentro del rango segun definicion. Confirmado el signo NEGATIVO.", "fuente": "10-K FY2025 R3 Consolidated Balance Sheets"},
+      "canal_directo": {"valor": "mid-fifties percentage de room nights por canal directo en los ultimos 4 trimestres, 'similar to last year'", "etiqueta": "HECHO", "fuente": "8-K 2026-04-28 Ex-99.1, seccion Marketing Metrics", "ADVERTENCIA": "El release de Q1 2026 dice 'similar to last year', NO dice que la proporcion siga subiendo. El mecanismo congelado afirma 'y esa proporcion todavia sube'. A 1T26 esa parte del mecanismo esta PLANA, no en ascenso. Es un dato para el gate."},
+      "sin_poder_de_precio_confirmado_1T26": {"valor": "ADR a divisa constante +1% aprox en 1T26", "etiqueta": "HECHO", "fuente": "8-K 2026-04-28 Ex-99.1, First Quarter 2026 vs 2025 Top Line Metrics", "lectura": "Confirma el eslabon debil: el precio propio sigue subiendo por debajo de la inflacion."}
+    }
+  },
+
+  "hecho_estructural_nuevo": {
+    "split": "El 2 de abril de 2026 BKNG ejecuto un split 25-por-1. Todas las cifras por accion de este expediente son POST-SPLIT. Cualquier comparacion con tesis anteriores a abril 2026 debe multiplicar los precios historicos por 1/25.",
+    "etiqueta": "HECHO",
+    "fuente": "8-K 2026-04-01/04-02 (acc. 0001075531-26-000012 y -000014) y 8-K 2026-04-28 Ex-99.1, seccion Stock Split. Confirmado en 10-Q 1T26: acciones autorizadas pasan de 1.000.000.000 a 25.000 millones; acciones emitidas de 64.521.154 (31-dic-2025) a 1.613 millones."
+  },
+
+  "precio_y_capitalizacion": {
+    "precio_usd": 188.00,
+    "fecha_precio": "2026-07-28 (sesion en curso)",
+    "cierre_anterior_usd": 186.79,
+    "fecha_cierre_anterior": "2026-07-27",
+    "fuente_precio": "Snapshot en vivo IBKR (contract_id 308728373, NASDAQ), consulta 2026-07-28: last 188,00; bid 186,09 / ask 188,20. Cruzado contra stockanalysis.com que da cierre 186,79 el 27-jul-2026. Etiqueta: HECHO (dato de mercado vivo).",
+    "rango_52_semanas_usd": [150.14, 230.45],
+    "variacion_ytd_pct": -12.03,
+    "volatilidad_historica_anual_pct": 39.3,
+    "acciones_en_circulacion_musd": 774.878436,
+    "fecha_acciones": "2026-04-20",
+    "fuente_acciones": "10-Q 1T26 (acc. 0001075531-26-000025), portada: Entity Common Stock, Shares Outstanding = 774.878.436. HECHO.",
+    "nota_acciones": "A 31-mar-2026 habia 780 M acciones (1.618 emitidas - 838 autocartera). Recompraron 3.770 M$ en 1T26. Uso 774,9 M (dato de portada mas reciente) — es CONSERVADOR porque el recuento real hoy es probablemente 755-765 M tras las recompras del 2T.",
+    "capitalizacion_usd_mm": 145677,
+    "no_es_ADR": "Accion ordinaria NASDAQ, 1 accion = 1 accion. No hay ratio de ADS que ajustar."
+  },
+
+  "deuda_neta": {
+    "fecha": "2026-03-31",
+    "deuda_corto_musd": 3015,
+    "deuda_largo_musd": 15398,
+    "deuda_total_musd": 18413,
+    "caja_musd": 16024,
+    "inversiones_largo_musd": 473,
+    "deuda_neta_usd_mm": 1916,
+    "etiqueta": "HECHO",
+    "fuente": "10-Q 1T26, R2 Consolidated Balance Sheets",
+    "valor_de_mercado_de_la_deuda": "18.900 M$ a 31-dic-2025 (nivel 2), practicamente a la par. 10-K FY2025 nota DEBT (R21). HECHO.",
+    "advertencia_float": "La caja de 16.024 M$ esta compuesta en parte muy relevante por dinero de viajeros en transito: deferred merchant bookings 8.189 M$ a 31-mar-2026 (pico estacional; 5.270 M$ a 31-dic-2025). Si se descuenta el float neto de cuentas a cobrar (8.189 - 3.520 = 4.669 M$), el EV sube a ~152.300 M$ (+3,2%) y todos los MoS empeoran unos 3 puntos. Es exactamente el mismo float que produce el capital invertido negativo del mecanismo: NO se puede contar dos veces como ventaja operativa y como caja excedente."
+  },
+
+  "wacc_candado_B": {
+    "principio": "Construido bottom-up de mercado. NO heredado de ningun tier de calidad.",
+    "tasa_libre_riesgo_pct": 4.64,
+    "fuente_rf": "Bono del Tesoro EEUU a 10 anios, 4,64% al 27-jul-2026 (tradingeconomics / CNBC US10Y). Referencia cruzada: 4,56% el 10-jul y 4,55% el 17-jul (Advisor Perspectives, Treasury Yields Snapshot). Etiqueta: HECHO de mercado, fuente secundaria.",
+    "nota_moneda": "La moneda funcional del NEGOCIO es mayoritariamente el EUR (24.338 M$ de 26.917 M$ de ingresos fuera de EEUU; 21.700 M$ atribuidos a la entidad holandesa). El Bund aleman a 10 anios estaba en 3,13% el 27-jul-2026. Diferencial USD-EUR = 1,51%. Construyo el WACC integramente en USD para que sea coherente con el precio y el EV en USD.",
+    "beta": 1.08,
+    "fuente_beta": "Beta 5 anios mensual = 1,08. Yahoo Finance (Beta 5Y Monthly) y stockanalysis.com/stocks/bkng/statistics (Beta 5-Year), ambos consultados el 28-jul-2026. Etiqueta: INFERENCIA — es una regresion de agregador, no la he recalculado ni procede de un filing.",
+    "prima_mercado_pct": 4.17,
+    "fuente_prima_mercado": "Prima de mercado madura de Damodaran, actualizacion del 2-jul-2026: ERP implicita EEUU 4,42% menos 0,25% de ajuste por riesgo de impago soberano de EEUU = 4,17% de prima madura. Fuente: A. Damodaran, 'Equity Risk Premiums, by country - July 2026 Update'. Etiqueta: HECHO citable (no descargue el ctrypremJuly26.xlsx).",
+    "prima_pais_pct": 0.9,
+    "fuente_prima_pais": "Estimacion propia ponderada por geografia del ACTIVO, no del domicilio fiscal. El 10-K NO divulga ingresos por pais del cliente (solo por domicilio de la entidad que factura: 2.579 M$ EEUU / 24.338 M$ fuera, de los cuales 21.700 M$ entidad holandesa — clasificacion 'independiente de donde reside el consumidor', 10-K R26). Mezcla de exposicion economica estimada: ~55% Europa (CRP ~0,5%), ~20% Asia-Pacifico via Agoda (CRP ~1,8%), ~20% Americas (CRP ~0,5%), ~5% MEA (CRP ~3,0%) => 0,89%. Etiqueta: INFERENCIA. Es el input mas blando del WACC.",
+    "erp_total_aplicada_pct": 5.07,
+    "coste_capital_propio_pct": 10.12,
+    "calculo_ke": "4,64% + 1,08 x 5,07% = 10,12%",
+    "coste_deuda_pct": 5.7,
+    "derivacion_coste_deuda": {
+      "coste_embebido_del_filing": "Gasto de intereses por cupon de los senior notes no convertibles FY2025 = 630 M$ (10-K nota DEBT, R21: 'coupon interest expense of $630 million'). Deuda principal media no convertible = (16.444 + 18.882)/2 = 17.663 M$ => 3,57% embebido. Etiqueta: HECHO.",
+      "por_que_no_uso_el_3_57_pct": "Ese 3,57% es coste HISTORICO de deuda en EUROS emitida a tipos bajos. No es el coste marginal, y no es comparable con un rf en dolares del 4,64%.",
+      "coste_marginal": "Emisiones mas recientes (10-K R21, tabla de tipos efectivos): nov-2025 senior notes EUR a 3,13% (2030) y 3,82% (2035); may-2025 a 3,32% (2031), 4,25% (2038), 4,66% (2046). El diferencial de BKNG sobre el Bund en la emision a 10 anios de nov-2025 es de ~105 pb.",
+      "traduccion_a_USD": "4,64% (UST 10a) + 105 pb de diferencial de credito = 5,69% => uso 5,70%. Etiqueta: INFERENCIA derivada de HECHOS del filing.",
+      "advertencia": "El gasto de intereses GAAP de 1.617 M$ en FY2025 esta contaminado por 523 M$ de amortizacion del descuento del convertible (ya liquidado en may-2025). El gasto ajustado es ~1.094 M$. No usar el 1.617 para nada."
+    },
+    "tasa_impositiva_pct": 21.0,
+    "fuente_tasa_impositiva": "Tipo efectivo FY2025 = 1.428/6.832 = 20,9%; FY2024 = 19,3%; 1T26 ajustado = 226/1.128 = 20,0%. Uso 21% con sesgo al alza por Pilar Dos. HECHO + INFERENCIA.",
+    "coste_deuda_despues_impuestos_pct": 4.50,
+    "peso_equity_pct": 88.7,
+    "peso_deuda_pct": 11.3,
+    "nota_pesos": "Ponderado a valor de MERCADO: equity 145.677 M$, deuda a valor de mercado ~18.600 M$ (la deuda cotiza practicamente a la par, 10-K R21).",
+    "wacc_pct": 9.5,
+    "wacc_rango": "8,5% - 10,4%",
+    "construccion_del_rango": {
+      "bajo_8_5": "beta 0,95 · prima total 4,77% · rf 4,55% => Ke 9,08% => WACC 8,5%",
+      "central_9_5": "beta 1,08 · prima total 5,07% · rf 4,64% => Ke 10,12% => WACC 9,5%",
+      "alto_10_4": "beta 1,20 · prima total 5,37% · rf 4,70% => Ke 11,14% => WACC 10,4%"
+    }
+  },
+
+  "cuentas_base_auditada_FY2025": {
+    "fuente_principal": "10-K FY2025, acc. 0001075531-26-000009, presentado 2026-02-18, con atestacion de auditor sobre ICFR. Cifras cruzadas contra 8-K 2026-02-18 Ex-99.1 (q4-25bkngearningsrelease.htm).",
+    "ingresos_musd": 26917,
+    "ingresos_musd_prev": 23739,
+    "crecimiento_ingresos_pct": 13.4,
+    "gasto_marketing_musd": 8186,
+    "resultado_operativo_musd": 8825,
+    "beneficio_neto_gaap_musd": 5404,
+    "beneficio_neto_ajustado_musd": 7444,
+    "adjusted_ebitda_musd": 9937,
+    "margen_adjusted_ebitda_pct": 36.9,
+    "flujo_operativo_musd": 9409,
+    "capex_musd": 322,
+    "fcf_reportado_musd": 9086,
+    "depreciacion_musd": 419,
+    "amortizacion_intangibles_adquiridos_musd": 204,
+    "d_y_a_total_musd": 623,
+    "sbc_musd": 617,
+    "recompras_musd": 6440,
+    "dividendos_musd": 1248,
+    "extraordinarios_FY2025": [
+      "Deterioro (impairment) de fondo de comercio e intangibles de KAYAK: 457 M$",
+      "Costes del programa de transformacion: 203 M$",
+      "Perdidas cambiarias NO REALIZADAS por remedicion de deuda en euros: 1.380 M$ (no consumieron caja en 2025; se anaden de vuelta en el flujo operativo)",
+      "Amortizacion del descuento del convertible + cambio de valor de la opcion de conversion: 360 M$ neto (el convertible vencio en may-2025 y ya no existe)",
+      "Resolucion del fondo de pensiones holandes: -123 M$ (beneficio)"
+    ]
+  },
+
+  "cuentas_base_en_curso_FY2026": {
+    "fuente_principal": "10-Q 1T26 (acc. 0001075531-26-000025) + 8-K 2026-04-28 Ex-99.1 con la guia de la empresa. NO hay resultados de 2T26 publicados a 28-jul-2026.",
+    "1T26_real": {
+      "ingresos_musd": 5532,
+      "crecimiento_ingresos_pct": 16.2,
+      "crecimiento_ingresos_cc_pct": 10,
+      "room_nights_m": 338,
+      "crecimiento_room_nights_pct": 5.9,
+      "reservas_brutas_musd": 53800,
+      "crecimiento_reservas_pct": 15.2,
+      "crecimiento_reservas_cc_pct": 8,
+      "adr_cc_pct": 1,
+      "resultado_operativo_musd": 1271,
+      "beneficio_neto_gaap_musd": 1083,
+      "beneficio_neto_ajustado_musd": 902,
+      "crecimiento_beneficio_ajustado_pct": 9.9,
+      "adjusted_ebitda_musd": 1290,
+      "flujo_operativo_musd": 3215,
+      "capex_musd": 107,
+      "marketing_sobre_reservas_pct": 3.8
+    },
+    "guia_de_la_empresa_28-abr-2026": {
+      "2T26_room_nights": "+2% a +4%",
+      "2T26_reservas_brutas": "+4% a +6% (CC +2% a +4%)",
+      "2T26_ingresos": "+4% a +6% (CC +2% a +4%)",
+      "2T26_adjusted_ebitda": "+4% a +6%",
+      "FY26_reservas_brutas": "digito alto simple a doble digito bajo (CC digito alto simple)",
+      "FY26_ingresos": "digito alto simple (CC medio-alto simple)",
+      "FY26_adjusted_ebitda": "ligeramente mas rapido que ingresos",
+      "FY26_adjusted_eps": "crecimiento de adolescente bajo a medio (low to mid-teens)",
+      "supuesto_critico_de_la_guia": "La guia FY26 asume que el impacto del conflicto de Oriente Medio termina a finales de junio Y que hay RECUPERACION de reservas en el segundo semestre. Ese supuesto no es verificable hoy. Es el punto mas fragil de toda la base en curso."
+    },
+    "anualizacion_propia": {
+      "ingresos_FY26_musd": 29205,
+      "supuesto_ingresos": "+8,5% (punto medio de 'high single digits')",
+      "adjusted_ebitda_FY26_musd": 10881,
+      "supuesto_ebitda": "+9,5% ('ligeramente mas rapido que ingresos')",
+      "beneficio_ajustado_FY26_musd": 8080,
+      "supuesto_beneficio": "Adjusted EPS +13% menos ~4,5% de reduccion de acciones por recompra = beneficio ajustado +8,5%. Cruzado con 1T26 real (+9,9%) y con la guia de 2T26 (mas floja, +4-6%). Etiqueta: INFERENCIA.",
+      "capex_FY26_musd": 430,
+      "depreciacion_FY26_musd": 390
+    }
+  },
+
+  "owner_earnings": {
+    "metodo": "Owner earnings normalizados = Beneficio Neto AJUSTADO de la empresa (que ya deduce la depreciacion como gasto, ya deduce integramente la SBC, y ya limpia el ruido cambiario no realizado de la deuda en euros, el deterioro de KAYAK, los costes de transformacion y el descuento del convertible). Sobre esa base, la version (a) NO anade nada porque la depreciacion ya esta deducida y es el proxy de capex de mantenimiento; la version (b) suma la depreciacion y resta el capex total.",
+    "por_que_no_uso_el_FCF_reportado": "El FCF reportado de 9.086 M$ en FY2025 esta inflado por 1.380 M$ de perdidas cambiarias NO REALIZADAS de la deuda en euros que se anaden de vuelta al flujo operativo, mas 360 M$ del convertible ya extinguido. Esos 1.740 M$ (19% del FCF) no son beneficio del propietario: son ruido contable no monetario que revierte. Tres rutas independientes convergen: (1) beneficio ajustado 7.444; (2) flujo operativo normalizado 9.409 - 1.428 - 360 = 7.621, menos depreciacion 419 = 7.202; (3) construccion bottom-up desde Adjusted EBITDA = 7.590. Tomo 7.444 por ser trazable a documento primario.",
+
+    "auditado_FY2025": {
+      "a_solo_capex_mantenimiento_musd": 7444,
+      "b_capex_total_musd": 7541,
+      "detalle_b": "7.444 + depreciacion 419 - capex total 322 = 7.541",
+      "hallazgo": "La version (b) sale MAYOR que la (a). Esto es lo contrario de lo habitual y es informacion real: el capex de BKNG (322 M$) es MENOR que su depreciacion (419 M$). No existe cuna de capex discrecional. La correccion 'Amazon 2005 vs Coca-Cola 1998' no aporta nada aqui: BKNG no reinvierte en activos fijos, su reinversion es OPEX (marketing, personal, IT) y ya esta descontada.",
+      "fcf_reportado_por_la_empresa_musd": 9086,
+      "puente_hasta_el_fcf_reportado": "7.444 (owner earnings) + 1.380 (FX no realizado deuda EUR) + 360 (convertible) + 457 (deterioro KAYAK) + 203 (transformacion) + 204 (amortiz. intangibles) - 475 (impacto fiscal de ajustes) - resto working capital/depreciacion = 9.086"
+    },
+
+    "en_curso_FY2026": {
+      "a_solo_capex_mantenimiento_musd": 8080,
+      "b_capex_total_musd": 8040,
+      "detalle_b": "8.080 + depreciacion 390 - capex total 430 = 8.040",
+      "nota": "En 2026 el capex (430 M$ estimados, 107 M$ ya en 1T) supera por primera vez a la depreciacion (390 M$). La cuna se invierte: aparece un pequeno capex discrecional, probablemente ligado a IA generativa. 40 M$ — irrelevante para la valoracion, relevante como senal de que empiezan a necesitar hierro."
+    },
+
+    "distancia_entre_bases": {
+      "version_a_pct": 8.5,
+      "version_b_pct": 6.6,
+      "lectura": "El ejercicio en curso corre un 8,5% por encima del auditado. Esa distancia NO es ruido: (1) FY2025 absorbio 660 M$ de cargas no recurrentes (deterioro KAYAK 457 + transformacion 203) que ya no se repiten; (2) 1T26 crecio +16% en ingresos y +19% en Adjusted EBITDA. PERO la propia guia de 2T26 cae a +4-6%, y el FY26 depende de una recuperacion en H2 que aun no ha ocurrido. Momento del ciclo: la base en curso es la parte alta de un ano cuya segunda mitad esta sin verificar. Anclo la valoracion en la base AUDITADA y trato la en curso como el escenario favorable."
+    }
+  },
+
+  "fcff_para_el_dcf": {
+    "metodo": "Adjusted EBITDA - depreciacion (excluyendo amortizacion de intangibles adquiridos) = EBIT ajustado; x (1 - 21%) = NOPAT; + depreciacion - capex; variacion de circulante NORMALIZADA A CERO (no acredito el crecimiento del float como beneficio: el float es dinero de viajeros, no del propietario).",
+    "FY2025_auditado_musd": 7616,
+    "detalle_FY2025": "9.937 - 419 = 9.518 EBIT aj.; x0,79 = 7.519 NOPAT; +419 -322 = 7.616",
+    "FY2026_en_curso_musd": 8248,
+    "detalle_FY2026": "10.881 - 390 = 10.491 EBIT aj.; x0,79 = 8.288 NOPAT; +390 -430 = 8.248"
+  },
+
+  "enterprise_value": {
+    "ev_usd_mm": 147593,
+    "calculo": "capitalizacion 145.677 + deuda neta 1.916",
+    "comprobacion_cruzada": "stockanalysis.com da EV 147,57 B$ al 28-jul-2026. Convergencia. INFERENCIA cruzada, coherente.",
+    "ev_ajustado_por_float_usd_mm": 152262,
+    "nota_ev_float": "Si se trata el float neto (deferred merchant bookings 8.189 - cuentas a cobrar 3.520 = 4.669 M$) como reclamacion sobre la caja, el EV sube a 152.262 M$ y todos los margenes de seguridad empeoran ~3 puntos.",
+    "multiplos_pagados_hoy": {
+      "ev_sobre_fcff_auditado": 19.4,
+      "ev_sobre_fcff_en_curso": 17.9,
+      "precio_sobre_owner_earnings_auditado": 19.6,
+      "precio_sobre_owner_earnings_en_curso": 18.0
+    }
+  },
+
+  "dcf_inverso": {
+    "definicion": "Que crecimiento del FCFF durante 10 anios, con crecimiento terminal del 3% a perpetuidad, justifica exactamente el EV de hoy (147.593 M$) al WACC calculado.",
+    "central_wacc_9_5": {
+      "g_implicita_base_auditada_pct": 5.68,
+      "g_implicita_base_en_curso_pct": 4.62
+    },
+    "sensibilidad": {
+      "wacc_8_5": {"auditada_pct": 3.44, "en_curso_pct": 2.41},
+      "wacc_9_5": {"auditada_pct": 5.68, "en_curso_pct": 4.62},
+      "wacc_10_4": {"auditada_pct": 7.54, "en_curso_pct": 6.45}
+    },
+    "lectura": "Esto es lo mas importante del expediente. El mercado le esta pidiendo a BKNG un 5,7% (base auditada) o un 4,6% (base en curso) de crecimiento del flujo de caja libre para el accionariado durante una decada. Eso esta POR DEBAJO de la propia guia de la empresa para 2026 (ingresos digito alto simple, Adjusted EBITDA algo mas rapido), por debajo del crecimiento de room nights de los ultimos ocho trimestres (7-9%), y muy por debajo del techo teorico de la formula de reinversion (10,9%). El precio de hoy NO extrapola el pasado reciente: descuenta una desaceleracion. La accion ha caido un 12% en el ano y un 17% en 52 semanas, y el multiplo se ha comprimido.",
+    "por_que_esto_no_es_todavia_una_compra": "Que la g implicita sea baja no crea margen de seguridad por si sola. Con mi g defendible del 7%, el valor sale a 208-225 $/accion contra un precio de 188 $: un margen del 10-17%, no del 40% que exige la banda MUY_BUENA para cargar."
+  },
+
+  "g_defendible": {
+    "g_defendible_pct": 7.0,
+    "techo_de_la_formula_de_reinversion": {
+      "valor_pct": 10.9,
+      "calculo": "Reinversion = 5% de ventas = 1.346 M$. ROIIC EX-MARGEN (el ex-margen, no el bruto) = 62,5%. Incremento de NOPAT = 1.346 x 0,625 = 841 M$. Sobre NOPAT de 7.519 M$ => g = 11,2%. Redondeo 10,9-11,2%.",
+      "por_que_no_lo_uso_tal_cual": "Ese 10,9% supone que un 5% de ventas sigue rindiendo un 62,5% incremental durante diez anios sobre una base que ya son 27.000 M$ de ingresos y 186.000 M$ de reservas brutas. Eso es extrapolacion, no tasa base. El ROIIC ex-margen del 62,5% se midio en un periodo (2022-2025) de recuperacion post-pandemia con vientos de cola irrepetibles."
+    },
+    "derivacion_de_mi_7_pct": {
+      "1_volumen_room_nights": "5,0% - 5,5%. Tasa base observada: 8,5/7,1/8,1/13,2 (2024), 7,2/7,7/8,2/9,0 (2025), 5,9 (1T26). Tendencia claramente descendente. La guia de 2T26 es +2% a +4%. Una plataforma numero uno con 1.265 M de room nights anuales no sostiene un 8% una decada.",
+      "2_precio_y_mix": "+1,0% a +1,5%. ADR a divisa constante +1% en 1T26 (HECHO). Coherente con el eslabon congelado: take rate +0,94% anual 2022-2025.",
+      "3_reservas_brutas": "~6,5%",
+      "4_ingresos": "~6,5% - 7,0%. El take rate sube poco y los billetes de avion (+28,5% en 1T26) son dilutivos del take rate.",
+      "5_apalancamiento_operativo": "+0,5 pp. En 1T26 el gasto fijo ajustado crecio +14% contra ingresos +16%: solo 2 puntos de palanca, y en gran parte por divisa.",
+      "resultado": "g_FCFF ~= 7,0%",
+      "coherencia_con_el_eslabon_debil": "Este 7% es DELIBERADAMENTE volumen + inflacion minima. No incorpora ni un punto de expansion de margen por poder de precio, porque el mecanismo congelado dice que ese poder no esta demostrado. Si algun dia el volumen se para, no hay palanca detras: por eso el escenario bajista usa 3%."
+    },
+    "valor_por_accion_auditado_usd": 207.91,
+    "valor_por_accion_encurso_usd": 225.37,
+    "valor_central_mixto_usd": 216,
+    "mos_auditado_pct": 9.6,
+    "mos_encurso_pct": 16.6,
+    "sensibilidad_valor_por_accion_wacc_9_5": {
+      "g_5_pct": {"auditada_usd": 178, "en_curso_usd": 194},
+      "g_6_pct": {"auditada_usd": 193, "en_curso_usd": 209},
+      "g_7_pct": {"auditada_usd": 208, "en_curso_usd": 225},
+      "g_8_pct": {"auditada_usd": 224, "en_curso_usd": 243},
+      "g_9_pct": {"auditada_usd": 242, "en_curso_usd": 262},
+      "g_10_9_pct": {"auditada_usd": 280, "en_curso_usd": 303}
+    },
+    "sensibilidad_valor_por_accion_por_wacc_a_g_7": {
+      "wacc_8_5": {"auditada_usd": 248.79, "en_curso_usd": 269.64},
+      "wacc_9_5": {"auditada_usd": 207.91, "en_curso_usd": 225.37},
+      "wacc_10_4": {"auditada_usd": 180.67, "en_curso_usd": 195.87}
+    }
+  },
+
+  "piso_de_resolucion": {
+    "regla": "Sin medicion propia del ruido, banda de mas/menos 25%.",
+    "valor_intrinseco_central_usd": 216,
+    "banda_usd": [162, 270],
+    "veredicto_de_resolucion": "El precio de hoy (188 $) esta DENTRO de la banda de resolucion del valor intrinseco. A la precision que este trabajo puede alcanzar honestamente, valor y precio son INDISTINGUIBLES. Cualquier afirmacion del tipo 'BKNG esta un 10% barata' es ruido presentado como senal. Un movimiento de 1 punto en el WACC mueve el valor 68 $ por accion (de 249 a 181): mas que la diferencia entre valor y precio.",
+    "prohibicion": "Prohibido reportar el valor intrinseco con decimales. Los 207,91 y 225,37 del bloque anterior son salida del modelo, no cifras defendibles: leanse como 'unos 210' y 'unos 225'."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 16.0,
+    "definicion_m_estrella": "Multiplo de owner earnings (version a, capex de mantenimiento) que me comprometo a pagar por este negocio. Decidido en frio, sin barra de error, porque no es una estimacion sino una politica.",
+    "justificacion_m_estrella": "El DCF a g=7% y WACC 9,5% implica un multiplo justo de 21,4x FCFF. Aplico un descuento del 25% y me quedo en 16x por dos motivos concretos y nombrados: (1) el eslabon congelado — un negocio SIN poder de fijacion de precios demostrado no merece el multiplo que la matematica del DCF le concede, porque la matematica supone implicitamente que el 3% terminal es alcanzable, y un 3% terminal a perpetuidad exige crecimiento REAL de volumen para siempre en una empresa cuyo precio propio sube menos que la inflacion; (2) mas de la mitad de ese 21,4x es valor terminal a partir del ano 10, y el canal de distribucion de BKNG — la busqueda — es exactamente donde los agentes de IA y el modo IA de Google pueden re-cortar la intermediacion. La cola izquierda esta concentrada justo en el termino que mas pesa. A 16x, con 7% de crecimiento, el retorno esperado es ~13% anual: bueno sin ser heroico, que es lo que corresponde a un MUY_BUENA.",
+    "precio_que_implica_m_estrella_usd": {
+      "sobre_base_auditada": 154.79,
+      "sobre_base_en_curso": 167.84,
+      "lectura": "A 16x, el precio JUSTO (antes de aplicar ningun margen de seguridad) es de 155-168 $. El precio de hoy es 188 $. El test de M estrella FALLA de entrada: no hay que llegar siquiera a la discusion del MoS."
+    },
+    "p_estrella_usd": 130,
+    "calculo_p_estrella": "Valor intrinseco central 216 $ x (1 - 40% de MoS exigido para CARGAR en banda MUY_BUENA) = 129,6 $ => 130 $.",
+    "p_estrella_por_base": {
+      "anclado_en_base_auditada_usd": 125,
+      "anclado_en_base_en_curso_usd": 135,
+      "por_la_ruta_de_m_estrella_usd": 95
+    },
+    "distancia_del_precio_a_p_estrella_pct": -30.9,
+    "lectura_final": "Habria que ver la accion a 130 $ para cargar. Esta a 188 $. Faltan 31 puntos de caida, o bien un crecimiento sostenido que suba el valor intrinseco un 45%."
+  },
+
+  "tir_esperada": {
+    "metodo": "Compra a 188 $, se distribuye integramente el owner earnings cada ano (la empresa ya devuelve mas del 100%: 6.440 M$ de recompra + 1.248 M$ de dividendo en FY2025 contra 7.444 M$ de beneficio ajustado), y se sale al ano 10 al multiplo del escenario. TIR calculada sobre el flujo completo.",
+    "base_auditada": {
+      "bajista_g3_salida_13x_pct": 5.11,
+      "prudente_g6_salida_15x_pct": 9.27,
+      "base_g7_salida_17x_pct": 11.30,
+      "alcista_g9_salida_20x_pct": 14.76
+    },
+    "base_en_curso": {
+      "bajista_g3_salida_13x_pct": 6.22,
+      "prudente_g6_salida_15x_pct": 10.41,
+      "base_g7_salida_17x_pct": 12.45,
+      "alcista_g9_salida_20x_pct": 15.93
+    },
+    "tir_esperada_rango": "+5% a +16% anual a 10 anios; central +11% a +12%",
+    "lectura": "A 188 $ no se pierde dinero en el escenario central: se gana un 11-12% anual, por encima del WACC del 9,5%. El escenario bajista (el motor se re-intermedia, g cae al 3%, el multiplo se comprime a 13x) NO destruye capital: da +5% anual, no -14%. Esa es la diferencia entre esta empresa y una trampa: la asimetria es mala, pero el suelo no es un agujero. Lo que falta no es proteccion, es RECOMPENSA suficiente para la calidad que realmente tiene."
+  },
+
+  "detector_de_trampa_de_valor": {
+    "trampa_de_valor": "NO",
+    "motivo": "La condicion de trampa es un MoS GRANDE sobre un motor que se rompe. Aqui el MoS es PEQUENO (10-17%), asi que por construccion no hay trampa: no hay descuento que pueda engañar a nadie. El motor, ademas, sigue funcionando en lo verificable: 1T26 con reservas brutas +15%, ingresos +16%, Adjusted EBITDA +19%, margen de Adjusted EBITDA subiendo de 22,9% a 23,3%, marketing sobre reservas brutas plano en 3,8%, y FCF de 3.108 M$ en un solo trimestre.",
+    "senales_de_desgaste_que_SI_registro": [
+      "Room nights desacelerando de forma sostenida: 8,5/7,1/8,1/13,2 (2024) -> 7,2/7,7/8,2/9,0 (2025) -> 5,9 (1T26). Aun descontando los ~2 pp que la empresa atribuye al conflicto de Oriente Medio, el subyacente (~8%) es el suelo del rango de 2025, no el techo.",
+      "La guia de 2T26 baja room nights a +2%/+4%. Es el trimestre mas flojo desde la reapertura.",
+      "El canal directo se ha PARADO: el release de 1T26 dice 'mid-fifties percentage, similar to last year'. El mecanismo congelado afirma que esa proporcion 'todavia sube'. A 1T26 no sube. Es la primera grieta verificable en el mecanismo.",
+      "Deterioro de 457 M$ del fondo de comercio e intangibles de KAYAK en FY2025: el activo de busqueda de viajes vale menos. Es precisamente el activo mas expuesto a la sustitucion por IA.",
+      "Los billetes de avion crecen +28,5% y son el producto de menor take rate: el mix empuja el take rate a la baja justo cuando el mecanismo dice que no hay poder de precio para compensarlo.",
+      "El apalancamiento operativo casi ha desaparecido: gasto fijo ajustado +14% contra ingresos +16% en 1T26."
+    ],
+    "sospecha_declarada": "El veredicto es NO trampa, pero declaro SOSPECHA sobre la SOSTENIBILIDAD DEL VOLUMEN, que es lo unico que sostiene esta empresa segun su propio mecanismo congelado. Si las room nights se estabilizan en 3-4% en lugar de 5-5,5%, mi g defendible cae al 5% y el valor central baja de 216 $ a ~180 $ — por debajo del precio de hoy."
+  },
+
+  "veredicto": {
+    "accion": "NO CARGAR. MANTENER la posicion del 1,66% del NAV.",
+    "razon_en_una_linea": "El margen de seguridad es del 10-17% y la banda MUY_BUENA exige 40% para cargar; ademas el precio justo por mi propio multiplo comprometido (16x) es de 155-168 $ y la accion cotiza a 188 $.",
+    "que_tendria_que_pasar_para_cargar": [
+      "PRECIO: BKNG a 130 $ o menos (-31% desde hoy). El minimo de 52 semanas es 150,14 $, asi que no es un precio absurdo — esta a un 13% mas de caida desde ese minimo.",
+      "O NEGOCIO: que las room nights vuelvan de forma sostenida a >7% durante dos trimestres consecutivos SIN ayuda de divisa y CON el canal directo volviendo a subir. Eso movería mi g defendible del 7% al 8,5% y el valor central a ~250 $, con lo que el P estrella subiria a ~150 $.",
+      "Cualquiera de las dos, no una mezcla optimista de ambas."
+    ],
+    "que_NO_es_este_veredicto": "No es un veredicto de calidad. La etiqueta MUY_BUENA esta congelada y no se toca. Al abrir el precio, la tentacion era decir 'con un DCF inverso al 5,7% y un ROIIC ex-margen del 62,5%, en realidad esto es ULTRA'. No lo es: la g implicita baja es informacion sobre el PRECIO, no sobre la CALIDAD, y el eslabon debil que impidio la promocion — la ausencia de poder de fijacion de precios — es exactamente el que hace que el escenario bajista de este DCF sea creible."
+  },
+
+  "gates_propuestos": [
+    {"fecha": "2026-07-29", "gate": "Resultados 2T26. Verificar: (a) room nights reales contra la guia de +2%/+4%; (b) si el porcentaje de canal directo vuelve a subir o sigue plano; (c) si la guia FY26 mantiene la recuperacion de H2. Si room nights salen por debajo del 2%, la g defendible baja al 5% y el valor central cae a ~180 $, por DEBAJO del precio: dejaria de ser 'mantener' para ser revision de tesis."},
+    {"fecha": "2026-10-28", "gate": "Resultados 3T26. Confirmar o falsar la recuperacion de H2 que la guia da por hecha."},
+    {"fecha": "2027-02", "gate": "10-K FY2026. Verificar el take rate real del ano completo (reservas brutas contra ingresos) y si el capex sigue por encima de la depreciacion (senal de que la IA les obliga a poner hierro)."}
+  ],
+
+  "huecos_declarados": [
+    "Los resultados del 2T26 no estan publicados a 28-jul-2026 (se esperan el 29-jul, mismo calendario que 2025). Toda la base EN CURSO descansa en 1T26 real mas la guia del 28-abr-2026, y esa guia asume explicitamente que el conflicto de Oriente Medio termino a finales de junio y que hay recuperacion en el segundo semestre. Ese supuesto no es verificable hoy y es el punto mas fragil del expediente.",
+    "La beta de 1,08 procede de agregadores (Yahoo Finance y stockanalysis.com, ambos consultados el 28-jul-2026). No la he recalculado a partir de series de precios propias. Etiqueta INFERENCIA. Ademas la serie de 5 anios incluye el rebote post-pandemia, que probablemente infla la beta.",
+    "La prima pais del 0,9% es estimacion propia. El 10-K NO divulga ingresos por pais del CLIENTE: la nota geografica (R26) clasifica por domicilio de la entidad que factura y advierte que esa clasificacion es 'independiente de donde reside el consumidor'. Es el input mas blando del WACC. Un rango razonable seria 0,6%-1,2%, que mueve el WACC unos 30 pb y el valor unos 15 $/accion.",
+    "La prima de mercado madura del 4,17% procede del resumen de la actualizacion de Damodaran del 2-jul-2026; no he descargado el fichero ctrypremJuly26.xlsx original para verificar las primas pais individuales.",
+    "El coste de deuda del 5,7% en USD es una TRADUCCION: el coste real que paga BKNG es del 3,57% embebido y ~3,8% marginal, pero en EUROS. He aplicado el diferencial de credito observado (~105 pb sobre el Bund en la emision de nov-2025) al Tesoro americano a 10 anios. Es INFERENCIA derivada de HECHOS del filing, pero es una traduccion, no una observacion.",
+    "La deuda neta de 1.916 M$ trata toda la caja como excedente. Una parte relevante es dinero de viajeros en transito (deferred merchant bookings 8.189 M$ a 31-mar-2026). Ajustando por el float neto de cuentas a cobrar, el EV sube un 3,2% y todos los MoS bajan ~3 puntos. He reportado ambas cifras porque no hay una respuesta limpia: el mismo float que hace negativo el capital invertido no puede contarse ademas como caja libre.",
+    "El paso de 'Adjusted EPS growth low to mid-teens' a un crecimiento del beneficio ajustado del +8,5% requiere estimar el ritmo de recompra de 2026 en ~4,5% de reduccion de acciones. En 1T26 recompraron 3.770 M$, un ritmo muy superior; si lo mantienen, el EPS crece mas y el beneficio agregado igual, lo que NO cambia el valor del negocio pero si el valor por accion. Etiqueta INFERENCIA.",
+    "El numero de acciones (774,878 M) es del 20-abr-2026. Con las recompras del 2T el recuento real hoy es probablemente 755-765 M. Usar el numero mas alto es conservador para la capitalizacion pero infravalora ligeramente el valor por accion.",
+    "El '5% de ventas de reinversion' de la especie G2 esta congelado y no lo he podido reconstruir desde el filing: el capex de FY2025 es solo el 1,2% de las ventas (322/26.917). La diferencia debe estar en marketing/personal/IT capitalizables o en adquisiciones, pero no lo he verificado. Esto afecta directamente al techo de la formula g = reinversion x ROIIC (10,9%), que por tanto es el input MENOS verificado de todo el expediente. Mi g defendible del 7% NO depende de el: la derivo por separado desde volumen + precio + mix.",
+    "El orquestador paso 'undefined' como directorio de salida y como fecha de corte. He escrito el expediente en /Users/felipealvarez/Library/Mobile Documents/com~apple~CloudDocs/INVESTMENTS/Rankings/expedientes/BKNG.json y he usado 2026-07-28 como fecha de corte."
+  ],
+
+  "fuentes_primarias_usadas": [
+    "10-K FY2025 — acc. 0001075531-26-000009, presentado 2026-02-18, periodo 2025-12-31. Estados: R3 (balance), R5 (resultados), R9 (flujos de caja), R21 (nota de deuda), R26 (segmentos y geografia). https://www.sec.gov/Archives/edgar/data/1075531/000107553126000009/",
+    "10-Q 1T26 — acc. 0001075531-26-000025, presentado 2026-04-28, periodo 2026-03-31. R1 (portada, acciones), R2 (balance), R4 (resultados), R8 (flujos). https://www.sec.gov/Archives/edgar/data/1075531/000107553126000025/",
+    "8-K 2026-04-28 — acc. 0001075531-26-000024, Ex-99.1 q1-26bkngearningsrelease.htm: resultados 1T26, guia 2T26 y FY26, tabla Statistical Data con room nights y reservas brutas por trimestre, conciliaciones no-GAAP, confirmacion del split 25-por-1.",
+    "8-K 2026-02-18 — acc. 0001075531-26-000008, Ex-99.1 q4-25bkngearningsrelease.htm: Adjusted EBITDA FY2025 9.937 M$, Adjusted Net Income FY2025 7.444 M$, Free Cash Flow FY2025 9.086 M$.",
+    "8-K 2026-04-01 / 2026-04-02 — acc. 0001075531-26-000012 y -000014: split 25-por-1.",
+    "XBRL companyfacts CIK0001075531 (data.sec.gov) para series historicas de ingresos, flujo operativo, capex y D&A."
+  ],
+  "fuentes_secundarias_usadas": [
+    "IBKR MCP get_price_snapshot, contract_id 308728373 (NASDAQ), 2026-07-28: last 188,00 / bid 186,09 / ask 188,20; rango 52s 150,14-230,45; YTD -12,03%; vol. historica anual 39,3%.",
+    "stockanalysis.com/stocks/bkng/statistics, consultado 2026-07-28: beta 5 anios 1,08; acciones 774,88 M; EV 147,57 B$; cierre 186,79 el 27-jul-2026. USO SOLO COMO COMPROBACION CRUZADA.",
+    "Yahoo Finance BKNG key statistics, consultado 2026-07-28: Beta 5Y Monthly 1,08.",
+    "tradingeconomics.com/united-states/government-bond-yield y CNBC US10Y: 4,64% al 27-jul-2026. Advisor Perspectives Treasury Yields Snapshot 10-jul (4,56%) y 17-jul (4,55%).",
+    "tradingeconomics.com/germany/government-bond-yield: Bund 10 anios 3,13% al 27-jul-2026.",
+    "A. Damodaran, 'Equity Risk Premiums, by country - July 2026 Update', 2026-07-02: ERP EEUU 4,42%, ajuste por impago 0,25%, prima madura 4,17%."
+  ]
+}

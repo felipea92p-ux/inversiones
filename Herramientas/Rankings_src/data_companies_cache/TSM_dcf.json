@@ -1,0 +1,41 @@
+{
+ "ticker": "TSM",
+ "currency": "USD",
+ "current_price": 467.67,
+ "wacc_pct": 11.8,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.2,
+  "geo_adj_pct": 1.5
+ },
+ "owner_fcf_base": "Owner FCF base ~US$40.5B = FCF reportado FY2025 (US$40.5B) menos 100% de SBC. SBC ~0% porque TSMC remunera con reparto de beneficios/bonos EN EFECTIVO bajo IFRS (pool ~NT$103B en 2025), no con acciones; la linea stock-based compensation es casi nula. Por tanto Owner FCF ~= FCF reportado, sin penalizacion por dilucion. Margen Owner FCF base ~33% sobre rev FY2025 US$122.42B.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 18,
+  "rev_cagr_y6_10_pct": 11,
+  "fcf_margin_terminal_pct": 37,
+  "terminal_g_pct": 3,
+  "shares_diluted_b": 5.186,
+  "net_debt_usd_b": -71.58,
+  "sbc_treatment": "SBC ~0% (remuneracion en efectivo via reparto de beneficios bajo IFRS, no acciones); Owner FCF = FCF reportado sin ajuste material por dilucion. Fase 2 (anos 6-10) declina linealmente desde 18% (fin ano 5) hacia 6% en ano 10, CAGR efectivo fase 2 ~11%; margen FCF sube de 34% a 37% al normalizar capex del ciclo AI."
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 151,
+   "prob": 0.37,
+   "note": "Demanda AI/HPC se normaliza mas rapido; capex pesado sostenido comprime margen FCF. Fase 1 CAGR ingresos ~12% declinando a 4% en ano 10; margen Owner FCF 30%->32%; g terminal 2.5%. IV/ADR ~$151."
+  },
+  "base": {
+   "iv_per_share": 245,
+   "prob": 0.47,
+   "note": "Consistente con track record (FY2025 +31.6% organico, mid-20s% guiado FY2026 desacelerando). Fase 1 CAGR ~18% declinando a 6%; margen Owner FCF 34%->37% (capex normaliza); g terminal 3.0%. EV ~US$1.20T, +caja neta US$71.58B. IV/ADR ~$245. TV = 55% del EV."
+  },
+  "optimista": {
+   "iv_per_share": 361,
+   "prob": 0.16,
+   "note": "Supercicle AI sostenido, poder de fijacion de precios, ramp 2nm/A16, expansion de margen. Fase 1 CAGR ~23% declinando a 8%; margen Owner FCF 36%->40%; g terminal 3.5%. IV/ADR ~$361."
+  }
+ },
+ "sanity_check": "VI ponderada ~$233/ADR vs precio $467.67 -> sobrevalorado ~50% en base a owner earnings/FCF; incluso el escenario optimista ($361) queda por debajo del precio. Razon clave: TSM cotiza a ~24x P/E fwd pero ~60x P/FCF (rend. FCF ~1.7%), porque el capex intensivo de fabs lider (N2/A16, AI/HPC) deprime el FCF frente al beneficio contable. El mercado paga por crecimiento de BENEFICIOS y la conversion futura de FCF cuando el capex se normalice, no por el FCF actual. El stock esta en/cerca de ATH (~-1.8% del max 52s), clasificado not_depressed. Contraste rendimiento al accionista (no DDM): dividendo ~1.0-1.2% + recompra minima -> shareholder yield ~1.2-1.5%, modesto; la tesis es reinversion a ROIC/ROE alto (~35%), no retorno de caja. Una reverse-DCF muestra que el precio actual exige sostener CAGR de Owner FCF >18-20% por una decada con margen FCF normalizandose al alza simultaneamente -> exigente pero no imposible dado el foso (cuota >90% en foundry de vanguardia).",
+ "method_notes": "DCF de Owner Earnings a 10 anios en USD por ADR. Base Owner FCF = FCF FY2025 US$40.5B menos 100% SBC (~0%; remuneracion en efectivo IFRS, sin dilucion). Modelo: ingresos crecen por CAGR explicito (Fase 1 anos 1-5 constante; Fase 2 anos 6-10 declinando linealmente hacia normalizacion) y Owner FCF = ingresos x margen FCF (que sube gradualmente al normalizar el capex del ciclo AI). Descuento al WACC 11.8% (Rf 4.3% + ERP 5.0% x beta 1.2 + 1.5% geopolitico Taiwan). Valor terminal por Gordon sobre Owner FCF del ano 10 con g 2.5-3.5% segun escenario/foso. EV = PV flujos explicitos + PV terminal; Equity = EV + caja neta US$71.58B (deuda neta -71.58); VI/ADR = Equity / 5.186B ADR-equivalentes. Acciones: 25,931M ordinarias diluidas / ratio ADR 5:1 = 5.186B ADR-equivalentes (implica mktcap ~US$2.43T a $467.67, coherente con fuentes que citan $2.40-2.47T). Probabilidades suman 1.0 (0.37/0.47/0.16). Nota: el owner-earnings DCF penaliza explicitamente la intensidad de capex actual; un enfoque por P/E reflejaria una valoracion mas cercana al precio de mercado."
+}

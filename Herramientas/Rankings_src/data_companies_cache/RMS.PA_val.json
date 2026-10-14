@@ -1,0 +1,48 @@
+{
+ "ticker": "RMS.PA",
+ "name": "Hermès International SCA",
+ "currency": "EUR",
+ "price_verified": 1620,
+ "price_source": "StockAnalysis.com quote page (€1,620; market cap €169.83B; shares 104.84M; fwd P/E ~35) and Google Finance RMS:EPA (€1,620, timestamped 23-Jun 01:35 GMT+2), both dated 2026-06-22/23. Some lagging aggregators (companiesmarketcap, Yahoo-derived) showed €1,721-1,728 from the 19-Jun print; the two real-time structured-quote sources agree on €1,620, which also matches the verified JSON, so €1,620 is used.",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.10484,
+ "implied_mcap_b_usd": 194.6,
+ "mcap_sanity_ok": true,
+ "sanity_notes": "Shares re-verified at ~104.84M (data-provider diluted figure); official Hermès filing (shares & voting rights as of 31-May-2026) reports 105,569,412 total registered shares at €0.51 nominal — small gap is treasury/reporting convention. Implied mcap = €1,620 × 0.10484B = €169.8B EUR (matches StockAnalysis €169.83B), × EUR/USD 1.146 = ~$194.6B USD, consistent with companiesmarketcap ($193.96B) and the known ~$195-200B scale. All three IV outputs (DCF €1,144 = 71% of price; multiple €1,957 = 121%; reconciled €1,632 = 101%) fall well inside the 30%-300% band — no shares/currency/units error. Net cash €12,239M (≈€117/share) added to enterprise value in DCF. Pure DCF lands below price, as expected for a ~28% ROIC compounder whose decades of high-return reinvestment a 7.8% WACC DCF structurally under-credits — hence the multiple anchor carries the heavier reconciliation weight (0.40/0.60), trimmed from the full 0.35/0.65 compounder weighting due to current FX headwind and luxury-cycle normalization.",
+ "wacc_pct": 7.8,
+ "wacc_components": {
+  "rf_pct": 2.8,
+  "erp_pct": 5,
+  "beta": 1,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = reported adjusted FCF €3,880M − 100% SBC (~3.5% of FCF, ~€136M) = ~€3,744M. Hermès SBC is immaterial (free-share plans only; predominantly cash bonuses), so dilution drag is minimal. FY26 owner-FCF grown ~+7% to ~€4,006M reflecting +6% cc Q1-26 partly offset by FX headwind.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 932,
+   "prob": 0.38,
+   "note": "Reasonable-pessimistic, NOT apocalyptic: Phase1 (yrs1-5) +5% owner-FCF CAGR, Phase2 declining to +3.5%, terminal g=2.5%. Captures prolonged luxury normalization + FX drag, but Hermès keeps growing/raising prices. WACC 7.8%, net cash added. IV €932 = 58% of price."
+  },
+  "base": {
+   "iv_per_share": 1188,
+   "prob": 0.47,
+   "note": "Phase1 +8% (in line with FY25 +8.9% cc organic; sustainable high-single-digit), Phase2 declining to +5%, terminal g=3.0%. IV €1,188 = 73% of price; TV ~67% of EV."
+  },
+  "optimista": {
+   "iv_per_share": 1543,
+   "prob": 0.15,
+   "note": "Phase1 +11%, Phase2 declining to +6.5%, terminal g=3.5%. Demand re-acceleration + continued pricing power + leather capacity ramp. IV €1,543 = 95% of price."
+  }
+ },
+ "iv_dcf_weighted": 1144,
+ "fwd_multiple_now": 35,
+ "fwd_multiple_5y_avg": 46,
+ "fair_multiple": 42,
+ "multiple_metric": "fwd_P/E",
+ "multiple_rationale": "Forward P/E chosen over EV/FCF: cleanest given large net cash (EV/FCF understates) and the file has a well-anchored P/E history. fwd_pe_now ~35x (on FY26e reported EPS ~€46.6; ~37x on aggregators' EPS basis) vs 5y avg ~46x. Fair multiple set at 42x — a deliberate ~4-point HAIRCUT to the 5y average: the de-rating is mostly fear/rotation + FX (Q1-26 −1% reported is almost entirely −€290M FX; +6% cc), but I haircut anyway because the prior 46x reflected a peak-euphoria luxury cycle now structurally normalizing toward high-single-digit growth; restoring the full 46x would over-credit. 42x × FY26e owner-normalized EPS ≈ €1,957/share.",
+ "iv_multiple": 1957,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 1632,
+ "structural_change": "No genuine structural deterioration. Franchise intact: FY25 revenue €16,002M (+8.9% cc), recurring operating margin 41.0%, net margin ~28%, ROIC ~28%, net cash €12.2B, immaterial SBC. The ~35% drawdown from the 52-week high and ~45% from ATH is a fear_rotation de-rating (multiple compression + FX), not a demand break: Q1-26 +6% cc with Americas +17%, Japan +10%, Europe ex-FR +11%; only Middle East soft (−6%, geopolitical). The one real change is cyclical normalization — luxury reverting from post-pandemic euphoria toward sustainable high-single-digit growth — which is why the fair multiple is haircut to 42x (vs 46x) rather than treated as permanent impairment. Reconciled IV €1,632 ≈ price (€1,620): roughly fairly valued, with modest upside if growth re-accelerates."
+}

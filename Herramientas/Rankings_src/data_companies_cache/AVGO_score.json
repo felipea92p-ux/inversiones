@@ -1,0 +1,59 @@
+{
+ "ticker": "AVGO",
+ "name": "Broadcom Inc.",
+ "rules": {
+  "R1": {
+   "score": 2,
+   "just": "Modelo monstruosamente escalable: redes/ASIC AI con op margin GAAP 48.6% y non-GAAP op margin guiado a ~67% en Q3, los margenes se expanden con volumen mientras revenue crece +48% YoY."
+  },
+  "R2": {
+   "score": 2,
+   "just": "Semiconductores de IA en super-ciclo secular: AI semi revenue $10.8B (+143% YoY) y guia Q3 ~$16.0B (+>200% YoY), demanda de aceleradores custom e infraestructura de red estructuralmente creciente."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Lider #1/#2 indiscutido en networking de datacenter (Tomahawk/Jericho) y co-disenador #1 de ASICs/XPUs custom para hyperscalers, pero compite con NVIDIA y Marvell, no es dominancia de 2.0."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat fuerte por costes de cambio e IP (relaciones de diseno custom multi-anio con hyperscalers, SerDes/IP de red, VMware pegajoso), aunque no irreplicable en decadas como una marca de consumo."
+  },
+  "R5": {
+   "score": 0.5,
+   "just": "Crecimiento contaminado por M&A agresivo (VMware): +48% YoY inflado inorganicamente y organic_growth_pct no divulgado limpiamente, lo que penaliza pese al fuerte momentum AI organico."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Diversificacion mixta: multi-producto (semis + software/VMware) y multi-geografia, pero alta concentracion en pocos hyperscalers (riesgo >10-15% por cliente en el segmento AI)."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "Economia de capital excelente: FCF margin ~42%, FCF FY2025 $26.9B, capex bajo (fabless), ROIC muy por encima de WACC aunque no divulgado limpiamente; baja intensidad de capital."
+  },
+  "R8": {
+   "score": 1,
+   "just": "Balance solido pero NO caja neta: deuda neta +$45.28B por VMware, ND/EBITDA ~1.05x (<2x), apalancamiento manejable y en desapalancamiento rapido via FCF."
+  },
+  "R9": {
+   "score": 0.5,
+   "just": "REGLA DURA aplicada: SBC verificada = 20.4% del FCF (>15%), por lo que R9 se topa en 0.5 pese a contabilidad GAAP limpia y reconciliaciones transparentes."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Gestion de clase (Hock Tan) con asignacion de capital disciplinada y dividendos crecientes, pero el estilo de roll-up de mega-M&A y la dilucion por SBC moderan el score a base."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (escalable 2.0) + R3 (lider redes/co-diseno XPUs) + R4 (moat costes de cambio/IP) se refuerzan: cada dolar incremental de AI revenue cae a margenes non-GAAP ~67%, creando un flywheel escala+moat dificil de replicar; AI $10.8B +143%, guia $16B +>200%.",
+ "moat_type": "switching_costs",
+ "moat_one_line": "Costes de cambio altos por co-diseno custom multi-anio con hyperscalers + IP de redes/SerDes lider + VMware pegajoso, apalancado sobre escala fabless.",
+ "thesis_3lines": [
+  "Calidad: franquicia fabless con margenes operativos non-GAAP guiados a ~67%, FCF margin ~42% y moat de costes de cambio e IP en redes/ASICs custom.",
+  "Motor: super-ciclo de IA con AI semi revenue $10.8B (+143% YoY) y guia Q3 ~$16B (+>200% YoY), con Broadcom como co-disenador #1 de XPUs custom de hyperscalers.",
+  "Valoracion: fwd P/E ~24.9x con PEG ~0.54 tras caer ~21% del ATH por fear_rotation (no deterioro fundamental), ofreciendo crecimiento a precio razonable."
+ ],
+ "bear_case_strongest": "El crecimiento de IA depende de un punado de hyperscalers cuyo capex podria normalizarse o internalizarse (in-housing de silicio), mientras la dilucion por SBC (20.4% del FCF) y la deuda de VMware (~$45B) erosionan el retorno por accion si el ciclo AI se enfria.",
+ "sbc_flag": "sbc_gt_15_fcf",
+ "ethical_flag": "none",
+ "notes": "Score total ponderado = 12.5/13.5. R9 topado en 0.5 por regla dura de SBC (20.4% del FCF, verificada). Caida -21% clasificada fear_rotation: selloff PESE a beat fuerte (rev +48%, AI +143%) y guia Q3 robusta, por debilidad en software/VMware y outlook AI anual mantenido vs expectativas infladas, no por deterioro fundamental. Banderas: (1) deuda neta +$45.28B real (StockAnalysis mostro error de signo como caja neta); (2) fwd_pe_5y_avg ~20x y pe_prem_disc_pct ~+24% son ESTIMADOS de baja confianza. Riesgo clave: concentracion en hyperscalers y dilucion SBC. amplification=true por refuerzo monstruoso R1+R3+R4."
+}

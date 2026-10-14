@@ -1,0 +1,105 @@
+{
+ "ticker": "INTU",
+ "name": "Intuit Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 257.77,
+ "market_cap_usd_b": 70.5,
+ "fwd_pe": 9.7,
+ "fwd_pe_5y_avg": 34,
+ "pe_prem_disc_pct": -71,
+ "peg": 0.62,
+ "last_q": {
+  "period": "Q3 FY2026 (ended Apr 30, 2026)",
+  "revenue": "$8.558B",
+  "rev_yoy_pct": 10,
+  "op_margin_pct": 46.9,
+  "eps_gaap": "$11.09",
+  "eps_adj": "$12.80"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Jul 31, 2025)",
+  "revenue": "$18.831B",
+  "organic_growth_pct": 16,
+  "roic_pct": 16,
+  "fcf": "$6.083B",
+  "fcf_margin_pct": 32.3
+ },
+ "sbc_pct_revenue": 10.4,
+ "sbc_pct_fcf": 32.4,
+ "net_debt_usd_b": -0.12,
+ "nd_ebitda": -0.02,
+ "net_cash": true,
+ "guidance_fy": "FY2026 (raised May 20, 2026): Revenue $21.341B-$21.374B (+13-14%); GAAP EPS $15.79-$15.84 (+~16%); non-GAAP EPS $23.80-$23.85 (+~18%); non-GAAP operating income $8.784B-$8.804B. Note: TurboTax/Consumer revenue forecast trimmed slightly to $5.277B-$5.282B. ~17% workforce reduction announced with $300M-$340M restructuring charges (mostly Q4 FY26). PROYECCION de la direccion.",
+ "pct_off_52w_high": -68.3,
+ "pct_off_ath": -68.3,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "guidance_fy",
+  "net_debt_usd_b",
+  "net_cash"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "Intuit Q3 FY2026 press release (official IR, May 20 2026)",
+   "url": "https://investors.intuit.com/news-events/press-releases/detail/1312/intuit-reports-strong-third-quarter-results-and-raises-full-year-revenue-guidance",
+   "date": "2026-05-20"
+  },
+  {
+   "label": "Intuit Q4 & FY2025 results press release + FY2026 guidance (official IR)",
+   "url": "https://investors.intuit.com/news-events/press-releases/detail/1266/intuit-reports-strong-fourth-quarter-and-full-year-fiscal-2025-results-sets-fiscal-2026-guidance-with-double-digit-revenue-growth-and-continued-operating-margin-expansion",
+   "date": "2025-08-21"
+  },
+  {
+   "label": "Intuit FY2025 Form 10-K (SEC EDGAR)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000896878/000089687825000035/intu-20250731.htm",
+   "date": "2025-09-03"
+  },
+  {
+   "label": "StockAnalysis.com INTU overview (price, market cap, 52w range, fwd P/E)",
+   "url": "https://stockanalysis.com/stocks/intu/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com INTU statistics (PEG, net debt, EBITDA, EV)",
+   "url": "https://stockanalysis.com/stocks/intu/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "CNBC: Intuit Q3 earnings, cutting 17% of staff",
+   "url": "https://www.cnbc.com/2026/05/20/intuit-intu-q3-earnings-report-2026-company-cutting-17percent-of-staff.html",
+   "date": "2026-05-20"
+  },
+  {
+   "label": "investingLive / Quiver: AI-disruption + TurboTax exposure selloff",
+   "url": "https://investinglive.com/stocks/why-is-intuit-stock-crashing-also-after-its-earnings-last-night-20260521/",
+   "date": "2026-05-21"
+  }
+ ],
+ "notes": "Stock collapsed ~68% from 52-week/all-time high (~$813.70) to $257.77 despite STRONG fundamentals: Q3 FY26 revenue +10%, GAAP op margin 46.9%, raised FY26 guidance (rev +13-14%, non-GAAP EPS +18%), FY25 FCF $6.1B (32% margin), net cash position. Drop driven by (1) AI-disruption fears (agentic AI / Anthropic threat to TurboTax & QuickBooks moat — fear that AI commoditizes 'guided software'), (2) shock from announced 17% workforce cut, (3) seasonal post-tax-season volatility. Classified fear_rotation: only marginal genuine deterioration (TurboTax revenue forecast trimmed ~0.5% to $5.277-5.282B) vs. overall RAISED guidance — magnitude of selloff vastly exceeds fundamental change. fwd_pe ~9.7 verified directionally (price $257.77 vs FY26 non-GAAP EPS guide ~$23.8 = 10.8x; NTM-based aggregator fwd P/E 9.6-9.8). fwd_pe_5y_avg is ESTIMATED with wide source dispersion (34-52 range); used ~34 conservatively; resulting -71% discount is approximate. ROIC ~16% ESTIMATED (FY25 op income $4.923B, NOPAT ~$3.8B / invested capital ~$23B). SBC = $1.968B (FY25 10-K) / revenue $18.831B = 10.4%; / FCF $6.083B = 32.4% (VERIFICADO). Net debt slightly negative (-$0.12B): total debt ~$6.9B vs cash+investments ~$6.78B = net cash. CRITICAL for R9: SBC is material at ~32% of FCF."
+}

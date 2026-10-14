@@ -1,0 +1,110 @@
+{
+ "ticker": "TSM",
+ "name": "Taiwan Semiconductor Manufacturing Company (ADR)",
+ "asof_date": "2026-06-22",
+ "price": 467.67,
+ "currency": "USD",
+ "market_cap_usd_b": 2060,
+ "fwd_pe": 24,
+ "fwd_pe_5y_avg": 21.5,
+ "pe_prem_disc_pct": 12,
+ "peg": 0.6,
+ "last_q": {
+  "period": "Q1 2026 (ended Mar 31, 2026)",
+  "revenue": "NT$1,134.10B / US$35.90B",
+  "rev_yoy_pct": 35.1,
+  "op_margin_pct": 58.1,
+  "eps_gaap": "NT$22.08 (US$3.49 per ADR)",
+  "eps_adj": "NT$22.08 (IFRS; no non-GAAP adj.)"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 31, 2025)",
+  "revenue": "NT$3,809.05B / US$122.42B",
+  "organic_growth_pct": 31.6,
+  "roic_pct": 35.4,
+  "fcf": "~US$40.5B",
+  "fcf_margin_pct": 33
+ },
+ "sbc_pct_revenue": 0,
+ "sbc_pct_fcf": 0,
+ "net_debt_usd_b": -71.58,
+ "nd_ebitda": -0.9,
+ "net_cash": true,
+ "guidance_fy": "Q2 2026 guidance: revenue US$39.0-40.2B (~+10% QoQ). No single consolidated FY2026 revenue guide given; management reiterated mid-20s% USD revenue growth for FY2026 and continued strong AI/HPC demand. (PROYECCION)",
+ "pct_off_52w_high": -1.8,
+ "pct_off_ath": -1.8,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.roic_pct",
+  "net_debt_usd_b",
+  "net_cash",
+  "guidance_fy"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "TSMC Q1 2026 results (SEC Form 6-K, with guidance)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000199/a1q26e_withguidancexfinal.htm",
+   "date": "2026-04"
+  },
+  {
+   "label": "TSMC Q1 2026 press release (NT$22.08 EPS) - TSMC IR/PR",
+   "url": "https://pr.tsmc.com/english/news/3297",
+   "date": "2026-04"
+  },
+  {
+   "label": "TSMC FY2025 results / 20-F summary (NT$3,809.05B rev, EPS NT$66.25) via StockTitan SEC filing",
+   "url": "https://www.stocktitan.net/sec-filings/TSM/6-k-taiwan-semiconductor-manufacturing-co-ltd-current-report-foreign--7407fa4da9fe.html",
+   "date": "2026-01"
+  },
+  {
+   "label": "TSMC 2025 Form 20-F (SEC, audited IFRS financials)",
+   "url": "https://investor.tsmc.com/sites/ir/sec-filings/2025_20F%20Report.pdf",
+   "date": "2026-04"
+  },
+  {
+   "label": "StockAnalysis.com TSM statistics (price, fwd PE 23.99, net cash $71.58B)",
+   "url": "https://stockanalysis.com/stocks/tsm/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "FinanceCharts TSM forward P/E ratio history",
+   "url": "https://www.financecharts.com/stocks/TSM/value/pe-ratio",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "MacroTrends TSM stock price / 52-week high history",
+   "url": "https://www.macrotrends.net/stocks/charts/TSM/taiwan-semiconductor-manufacturing/stock-price-history",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "GuruFocus TSM free cash flow (FY2025 ~$40.5B)",
+   "url": "https://www.gurufocus.com/term/total-free-cash-flow/TSM",
+   "date": "2026"
+  }
+ ],
+ "notes": "TSM cotiza en/cerca de maximos historicos (~$462-476; ATH cierre ~$462.12 el 18-jun-2026, intradia hasta ~$476.31 el 22-jun). NO es un desplome: clasificado not_depressed. Catalizador alcista = demanda AI/HPC y guia fuerte. VALORACION: fwd P/E ~24x esta clusterizado (stockanalysis 23.99, financecharts); media 5a fwd ~21-23x -> prima modesta (~+12%, ESTIMADO; las fuentes varian 18.5-24.7 segun metodologia trailing vs forward). PEG ~0.6 ESTIMADO usando crecimiento BPA esperado >35%. SBC CRITICO PARA R9: TSMC remunera con reparto de beneficios/bonos EN EFECTIVO bajo IFRS (pool ~NT$103B en 2025, +46.6%), NO con acciones; la linea de stock-based compensation es practicamente nula -> sbc_pct_revenue y sbc_pct_fcf ~0% (ESTIMADO, muy favorable para R9, sin dilucion material). FCF FY2025 ~US$40.5B sobre rev US$122.42B -> margen FCF ~33% (ESTIMADO via agregador). roic_pct usa ROE 2025 35.4% como proxy de retorno sobre capital (ESTIMADO). net cash ~US$71.58B (caja US$105.8B - deuda US$34.22B). nd_ebitda negativo (~-0.9x) reflejando caja neta. EPS GAAP = EPS reportado IFRS (sin ajustes non-GAAP). Fetch directo a SEC EDGAR y a fullratio/financecharts/PR.tsmc devolvio 403; datos primarios confirmados via contenido de la 6-K reflejado en buscador y StockTitan. market_cap ~$2.06T (stockanalysis); otras fuentes citan $2.40-2.47T por diferencias de recuento de ADR vs acciones totales -> usar con cautela (ESTIMADO)."
+}

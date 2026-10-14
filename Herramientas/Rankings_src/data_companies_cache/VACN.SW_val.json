@@ -1,0 +1,48 @@
+{
+ "ticker": "VACN.SW",
+ "name": "VAT Group AG",
+ "currency": "CHF",
+ "price_verified": 706.8,
+ "price_source": "StockAnalysis.com + Google Finance (concuerdan en CHF 706.80); Yahoo mostraba CHF 686.20 en snapshot del 21-jun. Market cap implicito 706.80 x 29.97M = CHF 21.18bn (Google Finance: 21.20bn)",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.02997,
+ "implied_mcap_b_usd": 26.3,
+ "mcap_sanity_ok": true,
+ "structural_change": "NINGUN deterioro estructural; al contrario, la franquicia se fortalece. ROIC 35.2%, ~70% cuota global en valvulas de vacio para semicap, order intake Q1 2026 +47.4% YoY (2o mayor de la historia), backlog +42%, book-to-bill 1.6x, impulsado por capex de AI/leading-edge y WFE ~USD 130bn. La caida de ventas -19.7% YoY en Q1 2026 es logistica/transitoria (conflicto Oriente Medio, CHF ~20-25m diferidos a Q2), NO estructural. SBC inmaterial (~0.9% del FCF). Riesgo real = CICLICIDAD del semicap, no perdida de calidad.",
+ "wacc_pct": 8.2,
+ "wacc_components": {
+  "rf_pct": 1.2,
+  "erp_pct": 5,
+  "beta": 1.4,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF normalizado forward ~CHF 268m (FY2026: beneficio neto ~CHF 300m con EPS consenso ~CHF 10 vs 7.15 en 2025; conversion FCF ~75-80% en anio de ramp; guia cualitativa de FCF SUPERIOR a 2025) menos ~100% SBC (~CHF 2m). FCF/accion ~CHF 8.94. Base trailing FY2025 = CHF 230.4m FCF - 2.1m SBC = 228.3m (CHF 7.62/accion), pero se rebasea al poder de beneficios forward porque el FY2025 fue anio de fuerte inversion (R&D +22%) con cartera en records.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 202,
+   "prob": 0.38,
+   "note": "Ciclo semicap se modera tras pico AI; Fase1 g=7%, Fase2 declina 5%->3%, gt=2.5%. Pesimista razonable, no apocaliptico: VAT mantiene cuota y ROIC alto."
+  },
+  "base": {
+   "iv_per_share": 275,
+   "prob": 0.47,
+   "note": "Crecimiento WFE solido por AI luego normaliza; Fase1 g=11%, Fase2 8%->4%, gt=3.0%."
+  },
+  "optimista": {
+   "iv_per_share": 393,
+   "prob": 0.15,
+   "note": "Supercycle AI sostenido, ganancias de cuota; Fase1 g=16%, Fase2 11%->5%, gt=3.5%."
+  }
+ },
+ "iv_dcf_weighted": 265,
+ "multiple_metric": "P/E adelantado (FY2026E)",
+ "fwd_multiple_now": 60.8,
+ "fwd_multiple_5y_avg": 45.1,
+ "fair_multiple": 42,
+ "multiple_rationale": "Ancla en la media 5a del P/E adelantado (~45x) con un haircut modesto a 42x. Justificacion del haircut: aunque la calidad esta intacta (ROIC 35%, lider de mercado), 45x es ya un multiplo de prima para un negocio CICLICO de equipamiento semi, y la media 5a se forjo en parte en una era de tipos mas bajos. El 60.8x actual es eufrico (P/E trailing ~99x) y descuenta un supercycle AI perfecto. 42x x EPS FY2026 ~CHF 10 = CHF 420.",
+ "iv_multiple": 420,
+ "weight_dcf": 0.5,
+ "weight_multiple": 0.5,
+ "reconciled_iv": 343,
+ "sanity_notes": "SANITY OK. Acciones 29.97M (verificado: beneficio neto FY2025 CHF 214.3m / EPS CHF 7.15 = 29.97M; concuerda con StockAnalysis). Precio CHF 706.80 (StockAnalysis + Google Finance, 22-jun-2026). Mcap implicito CHF 21.18bn x CHF/USD 1.24 = USD 26.3bn -> coincide con escala conocida (~USD 25-26bn). REGLA DE MAGNITUD: reconciled IV CHF 343 = 0.48x precio (DCF 0.38x, multiplo 0.59x); por ENCIMA del piso 30%, por tanto NO es error de unidades/moneda/acciones sino una senal genuina de SOBREVALORACION. VAT es un compounder de calidad excepcional pero CICLICO, cotizando en MAXIMO HISTORICO a ~60x fwd / ~99x trailing tras +115% en 12 meses, descontando un supercycle AI sostenido. Tanto el DCF (CHF 265) como un ancla de multiplo generosa (CHF 420) quedan muy por debajo del precio. Pesos 0.50/0.50: el multiplo importa para un compounder probado, pero la fuerte ciclicidad (ventas -19.7% YoY en Q1) justifica no infraponderar el DCF. Conversion FX CHF/USD ~1.24 (1 CHF = 1.24 USD, jun-2026). Margen de seguridad NEGATIVO al precio actual."
+}

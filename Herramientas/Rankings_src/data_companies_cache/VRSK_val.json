@@ -1,0 +1,48 @@
+{
+ "ticker": "VRSK",
+ "name": "Verisk Analytics, Inc.",
+ "currency": "USD",
+ "price_verified": 168.99,
+ "price_source": "StockAnalysis.com (close Jun 22, 2026); cross-checked vs Yahoo/web aggregators ($169-174 intraday). JSON price confirmed.",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.13102,
+ "implied_mcap_b_usd": 22.14,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 8.5,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.85,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "FY2025 reported FCF $1,191.9M (OCF $1,436.0M − capex $244.1M) minus 100% SBC $54.2M = owner FCF $1,137.7M. SBC is very low (1.76% rev / 4.5% FCF), so haircut is minor. Grown ~5% to FY2026 forward-year base ≈ $1,195M (≈$9.12/sh). Phase-1 CAGR applied off this base.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 134.01,
+   "prob": 0.38,
+   "note": "Phase1 g 4.0%, Phase2 declining to 2.5%, terminal 2.5%. Pessimistic-but-reasonable: AI/data-moat fear partly real, transactional/organic trough persists, growth settles to low-single-digit. Not apocalyptic — subscription base (~80% rev) intact, 39% FCF margin holds."
+  },
+  "base": {
+   "iv_per_share": 171.94,
+   "prob": 0.47,
+   "note": "Phase1 g 6.5% (≈mgmt mid-term organic), Phase2 declining to 4.0%, terminal 3.0%. Trough normalizes, mid-single-digit organic + tuck-in M&A, margins stable-to-up."
+  },
+  "optimista": {
+   "iv_per_share": 219.36,
+   "prob": 0.15,
+   "note": "Phase1 g 9.0%, Phase2 declining to 5.0%, terminal 3.5%. Data/analytics moat proves AI-resilient (Verisk monetizes proprietary insurance datasets), pricing power + new products reaccelerate to high-single/low-double-digit."
+  }
+ },
+ "iv_dcf_weighted": 164.64,
+ "multiple_metric": "Forward P/E (adjusted diluted EPS)",
+ "fwd_multiple_now": 21.3,
+ "fwd_multiple_5y_avg": 30,
+ "fair_multiple": 25.5,
+ "multiple_rationale": "VRSK is a high-quality, asset-light insurance-data franchise (recurring subscription ~80% rev, 43-45% op margins, ~39% FCF margin, very low SBC). Historical forward P/E averaged ~30x (trailing 5y P/E ~44x is richer but inflated by peak multiples). Current 21.3x is a ~29% discount. Applied a 15% structural haircut to the 5y-avg (30x → 25.5x) to reflect a genuine but moderate overhang: AI commoditization fears on the data moat plus a slightly lower durable growth profile vs the 2018-2021 peak. The haircut is deliberately partial because the de-rating is primarily fear/rotation, not proven earnings deterioration (mgmt reaffirmed FY26 guidance; adj EBITDA margin +60bps). FY2026 adj dil EPS ≈ $7.93 (implied by 21.3x fwd at $168.99). iv_multiple = $7.93 × 25.5 = $202.31.",
+ "iv_multiple": 202.31,
+ "weight_dcf": 0.45,
+ "weight_multiple": 0.55,
+ "reconciled_iv": 185.36,
+ "structural_change": "Fear/rotation de-rating, not confirmed structural impairment. Drivers: (1) market fear that generative AI commoditizes Verisk's proprietary insurance-data moat; (2) transitory organic deceleration (Q1'26 +3.9% reported / +4.7% organic cc) management explicitly called a 'trough', partly from low transactional volumes (benign weather in property/restoration). Offsetting: FY2026 guidance reaffirmed, adj EBITDA margin rising (~55.9%, +60bps), FCF margin ~39%, net debt ~2.2x EBITDA from a debt-funded accelerated buyback. Verdict: a moderate-but-real growth/multiple reset (hence the 15% multiple haircut and elevated DCF weight), not a broken franchise.",
+ "sanity_notes": "Sanity: price $168.99 × 0.13102B shares = $22.14B mcap, matching the known ~$22B scale (mcap_sanity_ok=true). Reconciled IV $185.36 vs price $168.99 → IV/price = 1.10, comfortably inside the 0.30–3.00 magnitude band (no shares/currency/units error). All figures in USD (single currency, no FX). Weights 0.45 DCF / 0.55 multiple: tilted toward the multiple anchor because VRSK is a proven, stable compounder where pure DCF under-credits decades of high-ROIC reinvestment — but only modestly (not 0.35/0.65) given the live AI overhang and organic trough warrant respecting the cash-flow anchor. iv_dcf_weighted $164.64 and iv_multiple $202.31 bracket the price, so the franchise screens as roughly fairly-to-modestly-undervalued (~+10% to reconciled IV). Net debt $3.95B deducted from EV in all DCF scenarios. WACC 8.5% reflects low beta (~0.85) defensive cash flows; US Rf 4.3%, ERP 5.0%, no geo adjustment."
+}

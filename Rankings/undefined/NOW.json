@@ -1,0 +1,256 @@
+{
+  "ticker": "NOW",
+  "empresa": "ServiceNow, Inc.",
+  "cik": "0001373715",
+  "fecha_expediente": "2026-07-28",
+  "fecha_precio": "2026-07-27",
+  "divisa": "USD",
+  "cotiza_en": "NYSE (domestica, sin ADS: 1 accion = 1 accion ordinaria). Split 5-por-1 ejecutado el 17-dic-2025; todas las cifras por accion de este expediente estan POST-split.",
+
+  "etiqueta_calidad_congelada": {
+    "etiqueta": "PRESUNTA",
+    "puertas_pasadas": 3,
+    "estado": "CONGELADA — el valorador no la puede tocar ni reclasificar hacia arriba. Nada de lo que sigue reabre la calidad.",
+    "mecanismo": "ServiceNow cobra por adelantado suscripciones de una plataforma que se convierte en el sistema de registro de los flujos de trabajo del cliente, de modo que el circulante financia el crecimiento — capital invertido neto de entre -86 y +1.225 mm$ sobre ventas de 4.500 a 11.000 mm durante seis anios — y una retencion del 98% del ACV convierte cada cuenta ganada en una anualidad que se expande sola (420 -> 658 clientes de mas de 5 mm$ en dos anios y medio).",
+    "eslabon_mas_debil": "Reinvierte el 35,5% de sus ventas y ese capital solo rinde un ROIIC del 9,5% — y del 2,3% una vez descontada la expansion de margen, que aporto el 76% de toda la mejora de NOPAT. La puerta que sostenia la calidad (G1, ganada por AUSENCIA de capital invertido, no por rentabilidad) dejo de existir por accion propia el 20-abr-2026, cuando Armis multiplico el capital invertido de 4.400 a 13.409 mm$ y hundio el ROIC anualizado a ~7,6%, por debajo del WACC de referencia.",
+    "especie_G2": {
+      "especie": "ULTRA-C",
+      "reinversion_pct_ventas": 35.5,
+      "roiic_bruto_pct": 9.5,
+      "roiic_ex_margen_pct": 2.3
+    },
+    "recuento_puertas": "3 otorgadas con evidencia (G5 reforzado, G1, G6), 2 no evaluables sin que cuenten como fallo (G3 NO_MEDIBLE, G4 NO_PROBADA), 0 falladas. Techo de etiqueta PRESUNTA por G4.",
+    "mos_exigido_pct": 25,
+    "motivo_umbral": "No esta en cartera -> aplica el umbral de ABRIR (25%), no el de CARGAR (35% para PRESUNTA)."
+  },
+
+  "precio_y_capital": {
+    "precio_usd": 105.56,
+    "fuente_precio": "Cierre del 27-jul-2026 en NYSE. INFERENCIA (agregador con fecha): stockanalysis.com/stocks/now (105,56 $; +6,86%). Comprobacion cruzada: tradingkey.com reporta +7,11% el 27-jul-2026 sobre un cierre previo de 98,78 $ del 24-jul-2026, lo que daria 105,80 $. Discrepancia de 0,23% entre fuentes, dentro del ruido. Se usa 105,56.",
+    "contexto_precio": "El movimiento del 27-jul-2026 es la continuacion de la reaccion a los resultados de Q2-2026 publicados el 22-jul-2026 (8-K acc. 0001373715-26-000072). La capitalizacion esta ~46% por debajo de la de hace doce meses: esta empresa ya viene de una des-valoracion severa.",
+    "acciones_en_circulacion_mm": 1033.862,
+    "fuente_acciones": "HECHO — 10-Q Q2-2026 (acc. 0001373715-26-000076), balance a 30-jun-2026: acciones emitidas 1.072.455 miles, en autocartera 38.593 miles, en circulacion 1.033.862 miles.",
+    "capitalizacion_usd_mm": 109134.4,
+    "deuda_principal_usd_mm": 7600.0,
+    "deuda_valor_contable_usd_mm": 7517.0,
+    "deuda_valor_de_mercado_usd_mm": 7402.0,
+    "arrendamientos_operativos_usd_mm": 936.0,
+    "caja_y_valores_negociables_usd_mm": 6707.0,
+    "inversiones_estrategicas_usd_mm": 2073.0,
+    "deuda_neta_usd_mm": 1631.0,
+    "ev_usd_mm": 110765.0,
+    "fuente_deuda": "HECHO — 10-Q Q2-2026, nota Debt (R18): notas senior 5.500 mm$ de principal (1.400% 2030 = 1.500; 4,25% 2028 = 750; 4,70% 2031 = 600; 5,05% 2033 = 650; 5,40% 2036 = 1.250; 6,30% 2056 = 750) con valor razonable declarado de 5.320 mm$ a 30-jun-2026 (nivel 2), mas papel comercial 2.100 mm$ de principal (2.082 neto, tipo medio ponderado 3,98%, plazo medio 81 dias). Linea revolving de 3.000 mm$ sin disponer.",
+    "fuente_caja": "HECHO — 10-Q Q2-2026, balance (R2): efectivo 2.503 + valores negociables corrientes 2.161 + valores negociables a largo 2.043 = 6.707 mm$.",
+    "nota_ev": "EV = capitalizacion + deuda a valor de MERCADO (7.402) + arrendamientos operativos capitalizados (936) - caja y valores negociables (6.707). Las inversiones estrategicas (2.073 mm$, participaciones ilíquidas a valor razonable) NO se restan del EV: se suman aparte al valor del patrimonio como activo no operativo, lo que anade ~2,00 $/accion.",
+    "giro_de_balance": "HECHO, y es el dato del anio: a 31-dic-2025 ServiceNow tenia CAJA NETA de ~7.650 mm$ (efectivo + valores 10.055 frente a deuda 1.491 + arrendamientos 912). A 30-jun-2026 tiene DEUDA NETA de 1.631 mm$. Un giro de 9.280 mm$ en seis meses. Lo pagaron Armis (7.600), Veza (1.200) y otras compras menores."
+  },
+
+  "wacc_candado_B": {
+    "wacc_central_pct": 8.74,
+    "wacc_rango": "8,3% - 9,8%",
+    "beta": 0.96,
+    "fuente_beta": "INFERENCIA — beta 5 anos mensual de 0,96 segun Yahoo Finance e Investing.com (NYSE:NOW), consultado el 27-jul-2026; Investing.com la situa en el percentil 58,3 del sector Tecnologia de la Informacion (media sectorial 0,92, desviacion 0,66). NO es una regresion propia. ADVERTENCIA EXPLICITA: una beta por debajo de 1 en una accion cuya capitalizacion ha caido ~46% en doce meses es sospechosa de estar arrastrada por la ventana de 5 anos; el escenario alto usa beta 1,20.",
+    "tasa_libre_riesgo_pct": 4.64,
+    "fuente_rf": "INFERENCIA — bono del Tesoro de EEUU a 10 anos, 4,64% el 27-jul-2026 (tradingeconomics.com; una segunda fuente da 4,63%). Moneda funcional = USD, asi que es el soberano correcto.",
+    "prima_mercado_pct": 4.42,
+    "fuente_prima_mercado": "HECHO — Damodaran, prima de riesgo implicita de EEUU del 4,42% con el S&P 500 en 7.499,36 a 1-jul-2026 (actualizacion mensual de julio-2026). Prima de mercado maduro = 4,20% tras descontar el diferencial de impago de 0,22% del rating Aa1.",
+    "prima_pais_pct": 0.25,
+    "fuente_prima_pais": "INFERENCIA — ponderacion propia por RIESGO DE ACTIVO (donde se genera el ingreso, no domicilio fiscal). 10-Q Q2-2026 (R25), semestre: Norteamerica 4.881 mm$ (62,9%, de los cuales 95% EEUU), EMEA 1.976 (25,5%), Asia-Pacifico y otros 900 (11,6%). Practicamente todo mercado desarrollado. Se aplica el diferencial de impago Aa1 de EEUU (0,22%) redondeado a 0,25% para recoger la cola de EMEA/APAC emergente.",
+    "coste_capital_propio_pct": 9.13,
+    "coste_deuda_pct": 4.7,
+    "fuente_coste_deuda": "HECHO derivado del filing — 10-Q Q2-2026 nota Debt: media ponderada por principal de los tipos EFECTIVOS declarados por la propia empresa = 4,30% sobre los 7.600 mm$ vivos. Excluyendo las notas heredadas de 2020 al 1,53% (que no representan el coste marginal de hoy), la media ponderada del stack nuevo es 4,98%. Se toma 4,70% como central, rango 4,3%-5,0%. Comprobacion cruzada: el gasto financiero declarado fue de 66 mm$ en Q2-2026 sobre una deuda media del trimestre de ~6.000 mm$, es decir ~4,4% anualizado.",
+    "tasa_impositiva_pct": 23.0,
+    "fuente_tasa_impositiva": "HECHO — FY2025: impuesto 513 mm$ sobre resultado antes de impuestos 2.261 mm$ = 22,7% (10-K acc. 0001373715-26-000007). H1-2026: 344/1.111 = 31,0%, pero contiene ruido de la compra de Armis. Se usa 23% como marginal.",
+    "ponderacion": "E = 109.134 (92,9%), D a valor de mercado + arrendamientos = 8.338 (7,1%). WACC = 0,929 x 9,13% + 0,071 x 4,70% x (1-0,23) = 8,74%.",
+    "rango_como_se_construye": "Bajo 8,29% (beta 0,90, prima 4,20%, Kd 4,3%). Alto 9,78% (beta 1,20, prima 4,45%, Kd 5,0%).",
+    "advertencia": "Con terminal al 3%, el diferencial WACC-g es de solo 5,74 pp en el escenario central. El valor residual pesa ~55% del total. Todo lo que sigue es hipersensible a la beta, y la beta es el dato mas debil de este expediente."
+  },
+
+  "owner_earnings": {
+    "convencion_de_la_casa": "OE = flujo de caja de operaciones menos capex. En la version (a) el capex de mantenimiento se aproxima por la DEPRECIACION DE PP&E exclusivamente; NO se incluye la amortizacion de intangibles ADQUIRIDOS, porque esa no la alimenta el capex sino el M&A, que es discrecional. La retribucion en acciones NO se resta (queda readicionada dentro del flujo de operaciones), igual que en el resto de expedientes de esta tanda. Ver memo_sbc: en ServiceNow esa convencion es la variable que decide el veredicto.",
+
+    "base_auditada": {
+      "ejercicio": "FY2025 (10-K acc. 0001373715-26-000007, presentado 29-ene-2026)",
+      "ingresos_usd_mm": 13278.0,
+      "resultado_operativo_gaap_usd_mm": 1824.0,
+      "beneficio_neto_usd_mm": 1748.0,
+      "flujo_de_operaciones_usd_mm": 5444.0,
+      "capex_total_usd_mm": 868.0,
+      "d_y_a_total_usd_mm": 738.0,
+      "depreciacion_pp_e_usd_mm": 508.0,
+      "amortizacion_intangibles_adquiridos_usd_mm": 120.0,
+      "resto_amortizaciones_usd_mm": 110.0,
+      "retribucion_en_acciones_usd_mm": 1955.0,
+      "proxy_capex_mantenimiento_usd_mm": 508.0,
+      "explicacion_proxy": "HECHO — 10-K nota Property and Equipment (R15): la depreciacion fue de 508 mm$ en FY2025 (371 en FY2024, 372 en FY2023). Nota Goodwill and Intangible Assets (R14): la amortizacion de intangibles fue de 120 mm$ en FY2025 (94 en 2024, 85 en 2023). El exceso de capex sobre la depreciacion (868 - 508 = 360 mm$) es inversion discrecional en capacidad y NO se resta en la version (a).",
+      "oe_mantenimiento_usd_mm": 4936.0,
+      "oe_capex_total_usd_mm": 4576.0
+    },
+
+    "base_en_curso": {
+      "ejercicio": "FY2026E — semestre publicado (10-Q Q2-2026, acc. 0001373715-26-000076) + guia de la empresa (8-K de resultados de Q2-2026, 22-jul-2026)",
+      "publicado_H1_2026": {
+        "ingresos_usd_mm": 7757.0,
+        "resultado_operativo_gaap_usd_mm": 665.0,
+        "beneficio_neto_usd_mm": 767.0,
+        "flujo_de_operaciones_usd_mm": 2257.0,
+        "capex_usd_mm": 255.0,
+        "d_y_a_total_usd_mm": 665.0,
+        "depreciacion_pp_e_usd_mm": 303.0,
+        "amortizacion_intangibles_usd_mm": 296.0,
+        "retribucion_en_acciones_usd_mm": 1199.0,
+        "recompra_de_acciones_usd_mm": 2326.0,
+        "ganancias_no_realizadas_inversiones_estrategicas_usd_mm": 360.0
+      },
+      "guia_FY2026": {
+        "ingresos_por_suscripcion_usd_mm": "15.760 - 15.780 (+22,5% GAAP, +21% moneda constante)",
+        "margen_bruto_suscripcion_no_gaap_pct": 81,
+        "margen_operativo_no_gaap_pct": 31.5,
+        "margen_free_cash_flow_no_gaap_pct": 35,
+        "acciones_diluidas_Q3_mm": 1050,
+        "objetivo_ACV_de_IA_2026_usd_mm": 1500,
+        "fuente": "HECHO — 8-K 22-jul-2026, exhibit 99.1 (erq2fy26.htm), seccion Financial Outlook."
+      },
+      "ingresos_totales_estimados_usd_mm": 16220.0,
+      "explicacion_ingresos": "INFERENCIA — la guia solo cubre suscripcion (15.770 punto medio). Servicios profesionales y otros: 110 mm$ en Q2-2026 y ~217 en H1; se proyectan ~450 mm$ en el ano. Total ~16.220 mm$.",
+      "flujo_de_operaciones_estimado_usd_mm": 5830.0,
+      "explicacion_ocf": "INFERENCIA, y es el supuesto mas fragil del expediente. La empresa NO guia flujo de operaciones, solo margen de FCF no-GAAP del 35%, que sobre 16.220 mm$ da 5.677 mm$. Ese FCF no-GAAP readiciona partidas que la empresa considera no recurrentes (costes de adquisicion de 101 mm$ y compensacion diferida de 162 mm$ solo en H1; anualizados ~450). FCF puro ~5.230 + capex ~600 = OCF ~5.830. RUTA ALTERNATIVA que da un numero muy distinto: extrapolar la estacionalidad (H1-2025 fue el 43,9% del OCF anual; H1-2026 fue 2.257) daria un OCF de 5.141 mm$, un 12% menos. Se usa 5.830 por respetar la guia, pero la horquilla real es 5.100-5.900.",
+      "capex_estimado_usd_mm": 600.0,
+      "depreciacion_pp_e_estimada_usd_mm": 630.0,
+      "amortizacion_intangibles_estimada_usd_mm": 687.0,
+      "explicacion_amortizacion": "HECHO parcial — 10-Q Q2-2026 (R13): amortizacion de intangibles de 296 mm$ en H1-2026 y calendario futuro publicado de 391 mm$ para el resto de 2026, 776 en 2027, 726 en 2028, 700 en 2029, 648 en 2030. Es decir, la compra de Armis y Veza mete ~690 mm$ anuales de amortizacion en la cuenta de resultados GAAP desde ahora y ~776 en 2027. Correctamente EXCLUIDA del proxy de capex de mantenimiento.",
+      "retribucion_en_acciones_estimada_usd_mm": 2420.0,
+      "proxy_capex_mantenimiento_usd_mm": 630.0,
+      "oe_mantenimiento_usd_mm": 5200.0,
+      "oe_capex_total_usd_mm": 5230.0,
+      "observacion": "En FY2026E el capex total (600) es MENOR que la depreciacion de PP&E (630). Por eso el OE con capex total sale por encima del OE de mantenimiento, cosa que no pasa casi nunca. Es la firma contable de una empresa que ha dejado de invertir en su propia planta mientras gasta 11.200 mm$ en comprar tres empresas en siete meses."
+    },
+
+    "distancia_entre_bases": "El OE de mantenimiento pasa de 4.936 a 5.200 mm$ (+5,3%) y el FCF puro de 4.576 a 5.230 (+14,3%), mientras los ingresos crecen +22,5%. Pero el dato duro por debajo de la guia es peor: el FLUJO DE OPERACIONES PUBLICADO del semestre CAYO un 5,7% interanual (2.257 mm$ en H1-2026 frente a 2.393 en H1-2025) con los ingresos subiendo un 23%. Toda la recuperacion del ano esta en el H2 que la guia promete y que aun no existe. Esto no es ruido: es el momento del ciclo. La empresa acaba de convertir 9.300 mm$ de caja neta en deuda neta, esta pagando 66 mm$ de intereses por trimestre donde antes pagaba 6, y arrastra ~690 mm$ anuales de amortizacion de intangibles nuevos. El resultado operativo GAAP del Q2-2026 fue de 162 mm$ (margen 4%) frente a 358 mm$ (11%) en el Q2-2025.",
+
+    "memo_sbc": "LA VARIABLE QUE DECIDE ESTE EXPEDIENTE, declarada aparte porque la convencion de la casa la readiciona. ServiceNow reconocio 1.955 mm$ de retribucion en acciones en FY2025 (14,7% de las ventas) y va camino de ~2.420 mm$ en FY2026 (14,9%). Es MAS que todo su resultado operativo GAAP de FY2025 (1.824 mm$). Y no es un apunte contable inocuo: en H1-2026 la empresa gasto 2.326 mm$ de CAJA en recomprar 20,1 millones de acciones (autocartera de 3.045 a 5.371 mm$) para que el numero de acciones bajara de 1.047,3 a 1.033,9 millones. Es decir, la dilucion se esta neutralizando con dinero real. Si se carga la SBC al owner earnings: OE mantenimiento auditado 2.981 mm$ (no 4.936) y en curso 2.780 mm$ (no 5.200); el multiplo EV/OE pasa de 21,3x a 39,8x; el valor por accion cae de ~128 a ~69 $ y el margen de seguridad de +17,6% a -53,7%. Ningun veredicto cambia — con la convencion de la casa el MoS tampoco llega al 25% exigido — pero la MAGNITUD del error potencial cambia por completo. Se declara y no se esconde.",
+
+    "sensibilidad_sbc": {
+      "descripcion": "Los cuatro OE bajo las dos convenciones, con el mismo WACC de 8,74% y la misma g defendible de 7,5%.",
+      "convencion_casa_sbc_readicionada": {
+        "aud_mantenimiento": {"oe": 4936, "ev_oe": "22,4x", "g_implicita_pct": 5.9, "valor_accion_usd": 122, "mos_pct": 13.2},
+        "aud_capex_total": {"oe": 4576, "ev_oe": "24,2x", "g_implicita_pct": 6.88, "valor_accion_usd": 113, "mos_pct": 6.4},
+        "curso_mantenimiento": {"oe": 5200, "ev_oe": "21,3x", "g_implicita_pct": 5.23, "valor_accion_usd": 128, "mos_pct": 17.6},
+        "curso_capex_total": {"oe": 5230, "ev_oe": "21,2x", "g_implicita_pct": 5.15, "valor_accion_usd": 129, "mos_pct": 18.1}
+      },
+      "cargando_la_sbc": {
+        "aud_mantenimiento": {"oe": 2981, "ev_oe": "37,2x", "g_implicita_pct": 12.45, "valor_accion_usd": 74, "mos_pct": -43.4},
+        "aud_capex_total": {"oe": 2621, "ev_oe": "42,3x", "g_implicita_pct": 14.13, "valor_accion_usd": 65, "mos_pct": -61.5},
+        "curso_mantenimiento": {"oe": 2780, "ev_oe": "39,8x", "g_implicita_pct": 13.36, "valor_accion_usd": 69, "mos_pct": -53.7},
+        "curso_capex_total": {"oe": 2810, "ev_oe": "39,4x", "g_implicita_pct": 13.22, "valor_accion_usd": 70, "mos_pct": -51.5}
+      },
+      "lectura": "Bajo NINGUNA de las ocho combinaciones el margen de seguridad alcanza el 25% exigido. El mejor caso posible — base en curso, capex total, SBC readicionada, WACC bajo — da +18,1%. Faltan casi 7 puntos en el escenario mas favorable que se puede construir de buena fe, y sobran 79 puntos en el mas desfavorable."
+    }
+  },
+
+  "dcf_inverso": {
+    "metodo": "Owner earnings descontados al WACC contra el EV de hoy. Horizonte explicito de 10 anios con crecimiento g constante, terminal al 3% a perpetuidad. Multiplo terminal implicito al WACC central = 1,03 / (0,0874 - 0,03) = 18,1x.",
+    "ev_a_justificar_usd_mm": 110765.0,
+    "wacc_usado_pct": 8.74,
+    "g_implicita_auditado_mantenimiento_pct": 5.9,
+    "g_implicita_auditado_capex_total_pct": 6.88,
+    "g_implicita_encurso_mantenimiento_pct": 5.23,
+    "g_implicita_encurso_capex_total_pct": 5.15,
+    "g_implicita_con_wacc_alto_9_78_pct": "8,23% (aud. mant.) / 7,53% (curso mant.)",
+    "g_implicita_cargando_sbc_pct": "12,45% (aud. mant.) / 13,36% (curso mant.)",
+    "lectura": "Con la convencion de la casa, el mercado esta pidiendo que los owner earnings de ServiceNow compongan entre el 5,2% y el 6,9% anual durante DIEZ anios. Para una empresa cuyos ingresos crecen al 22,5% guiado y cuyo cRPO crece al 21%, eso suena facil — y por eso el MoS sale ligeramente positivo. La trampa esta en que esos owner earnings ya incluyen 2.420 mm$ readicionados de retribucion en acciones que la empresa esta pagando en efectivo via recompras. Si se carga la SBC, la exigencia salta al 12,5%-13,4% anual durante una decada, que es una peticion muy distinta: obligaria a que los ingresos pasaran de 16.200 a mas de 50.000 mm$ sin deterioro de margen."
+  },
+
+  "g_defendible": {
+    "g_pct": 7.5,
+    "derivacion_mecanica": "Reinversion del 35,5% de las ventas x ROIIC EX-MARGEN del 2,3% = 0,817% de las ventas en NOPAT incremental por ano. Sobre el NOPAT de FY2025 (resultado operativo GAAP 1.824 x (1-0,227) = 1.410 mm$), eso son 108,5 mm$ = 7,69% de crecimiento anual del NOPAT.",
+    "haircut_aplicado": "De 7,69% a 7,5%. Motivo unico y declarado: el ROIIC ex-margen del 2,3% se midio ANTES de que Armis multiplicara el capital invertido de 4.400 a 13.409 mm$. El ROIC anualizado post-Armis es ~7,6%, por debajo del WACC de 8,74%. No aplico un recorte mayor porque seria juicio, no medicion.",
+    "por_que_ex_margen": "El ROIIC bruto del 9,5% asume que la expansion de margen se repite. No puede: aporto el 76% de toda la mejora de NOPAT historica y el margen NOPAT GAAP nunca paso del 10,6%. Usar el bruto daria g = 3,34 x 9,5% = 31,7% anual, una cifra que se descalifica sola.",
+    "advertencia_dura": "Este es el punto que importa mas que el precio. La g del 7,5% NO es crecimiento de calidad: se compra reinvirtiendo el 35,5% de las ventas a un rendimiento incremental del 2,3%, muy por debajo del coste de capital del 8,74%. Cada dolar reinvertido destruye ~6,4 centimos de valor al ano aunque el NOPAT suba. Un negocio que crece al 7,5% con un ROIIC del 2,3% vale MENOS que el mismo negocio sin crecer. La contabilidad del DCF no captura eso automaticamente porque la reinversion ya esta restada dentro del flujo de operaciones; lo que si captura es que ese 7,5% no se puede extrapolar mas alla de la ventana en la que el mercado siga pagando por el.",
+    "contraste_con_la_tasa_base": "OE de mantenimiento cargando SBC: 1.422 (FY2023) -> 2.150 (FY2024) -> 2.981 (FY2025) -> 2.780 (FY2026E). CAGR 2023-2025 = 44,8%; CAGR 2024-2026E = 13,7%; ultimo ano = -6,7%. La tasa base se esta desacelerando brutalmente. Un 7,5% esta por debajo del CAGR de tres anos y por encima del ultimo ano realizado."
+  },
+
+  "valoracion": {
+    "valor_por_accion_auditado_mantenimiento_usd": 122,
+    "valor_por_accion_auditado_capex_total_usd": 113,
+    "valor_por_accion_encurso_mantenimiento_usd": 128,
+    "valor_por_accion_encurso_capex_total_usd": 129,
+    "valor_central_usd": 123,
+    "piso_de_resolucion": "Sin medicion propia del ruido se aplica ±25%: banda 92 - 154 $/accion. Ninguna cifra de valor intrinseco se reporta con decimales. El precio de hoy (105,56) cae DENTRO de la banda y bastante cerca de su suelo: al nivel de resolucion de este trabajo, ServiceNow NO es distinguible de su propio valor intrinseco. Cualquier afirmacion de que 'esta barata' o de que 'esta cara' con la convencion de la casa es ruido presentado como senal.",
+    "mos_auditado_pct": 13.2,
+    "mos_encurso_pct": 17.6,
+    "mos_exigido_pct": 25,
+    "brecha": "Faltan entre 7 y 12 puntos de margen de seguridad. Con la SBC cargada faltan entre 68 y 79 puntos.",
+    "m_estrella": 16.0,
+    "explicacion_m_estrella": "Multiplo de owner earnings (base en curso, capex de mantenimiento, convencion de la casa) que acepto pagar. Decidido en frio y sin barra de error, porque no es una estimacion sino un compromiso. Razonamiento: (1) al WACC de 8,74% con terminal al 3%, un negocio que solo crece con la inflacion vale 18,1x — y como el ROIIC ex-margen (2,3%) esta por debajo del WACC, el crecimiento no anade valor, asi que 18,1x es el TECHO, no el suelo; (2) ese OE readiciona 2.420 mm$ de retribucion en acciones, de modo que 16x sobre el OE de la casa equivale a ~30x sobre el OE cargando SBC, que para un ROIIC del 2,3% ya es generoso. M* = 16x. Precio que implica: 16 x 5.200 - 1.631 + 2.073 = 83.642 mm$ de patrimonio / 1.033,862 = 81 $/accion.",
+    "p_estrella_usd": 92.0,
+    "explicacion_p_estrella": "P* segun la definicion del esquema = valor central (123) x (1 - 0,25) = 92 $/accion. Nota de coherencia: mi propio compromiso via M* es MAS estricto (81 $). El gatillo operativo que yo respetaria es 81 $, no 92. La divergencia entre las dos rutas es informacion, no un error: mide cuanto del valor del DCF descansa en la readicion de la SBC.",
+    "sensibilidad_valor_por_accion": {
+      "descripcion": "Base en curso, capex de mantenimiento, convencion de la casa (OE = 5.200). Filas = WACC, columnas = g a 10 anios con terminal 3%.",
+      "WACC_8.29": {"g5.0": 115, "g7.5": 140, "g10.0": 170, "g12.5": 206},
+      "WACC_8.74": {"g5.0": 106, "g7.5": 128, "g10.0": 155, "g12.5": 188},
+      "WACC_9.78": {"g5.0": 89, "g7.5": 107, "g10.0": 129, "g12.5": 156}
+    },
+    "sensibilidad_valor_por_accion_cargando_sbc": {
+      "descripcion": "Misma matriz con OE = 2.780 (SBC cargada).",
+      "WACC_8.29": {"g5.0": 62, "g7.5": 75, "g10.0": 91, "g12.5": 110},
+      "WACC_8.74": {"g5.0": 57, "g7.5": 69, "g10.0": 83, "g12.5": 101},
+      "WACC_9.78": {"g5.0": 48, "g7.5": 58, "g10.0": 69, "g12.5": 83}
+    }
+  },
+
+  "tir_esperada": {
+    "rango": "+8% a +11% anual a 10 anios con la convencion de la casa; +6,5% a +7,5% si se carga la retribucion en acciones.",
+    "detalle_convencion_casa": {
+      "g_5.5_pct": "8,2% - 8,9% anual",
+      "g_7.5_pct_defendible": "9,0% - 9,8% anual",
+      "g_10.0_pct": "10,1% - 11,0% anual"
+    },
+    "detalle_cargando_sbc": {
+      "g_7.5_pct": "6,6% - 7,0% anual",
+      "g_10.0_pct": "7,3% - 7,8% anual",
+      "g_12.5_pct": "8,1% - 8,8% anual"
+    },
+    "lectura": "Con la g que YO defiendo (7,5%) y la convencion de la casa, comprar a 105,56 $ te deja una TIR de ~9,4% anual durante una decada frente a un WACC de 8,74%. Una prima de riesgo de 0,7 puntos por asumir el riesgo especifico de una empresa que acaba de gastar 11.200 mm$ en compras, endeudarse por primera vez de forma seria y ver caer su flujo de operaciones un 5,7% interanual. Si se carga la SBC, la TIR (~6,8%) queda POR DEBAJO del coste de capital: seria una destruccion de valor esperada de ~2 puntos anuales."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "SOSPECHA",
+    "motivo": "No es el patron clasico (MoS enorme sobre un negocio roto) porque el MoS aparente es modesto: +13% a +18%. Pero los tres marcadores de motor averiado estan encendidos a la vez. (1) RENTABILIDAD INCREMENTAL POR DEBAJO DEL COSTE DE CAPITAL: ROIIC ex-margen del 2,3% frente a un WACC del 8,74%, y ROIC anualizado post-Armis de ~7,6%, tambien por debajo. Es la definicion literal de crecimiento que destruye valor. (2) EL FLUJO YA SE ROMPIO EN EL DATO PUBLICADO, no en la proyeccion: flujo de operaciones de 2.257 mm$ en H1-2026 frente a 2.393 en H1-2025 (-5,7%) con ingresos +23%; resultado operativo GAAP del Q2 de 162 mm$ (margen 4%) frente a 358 (11%) un ano antes. (3) EL DESCUENTO APARENTE ES CONTABLE, NO ECONOMICO: nace integramente de readicionar 2.420 mm$ de retribucion en acciones que la empresa esta neutralizando con 2.326 mm$ de recompras en efectivo en un solo semestre. Quitas ese apunte y el 'descuento del 18%' se convierte en una prima del 54%. A eso se suma un cambio de identidad de la asignacion de capital: 11.200 mm$ en Moveworks + Veza + Armis en siete meses, financiados con la primera emision de deuda seria de su historia (4.000 mm$ de notas + 2.100 de papel comercial), en un negocio cuya calidad se habia ganado precisamente por NO necesitar capital. Se declara SOSPECHA y no SI porque el motor comercial sigue vivo y verificado: cRPO +21%, RPO de 29.000 mm$ +21%, 658 clientes de mas de 5 mm$ de ACV (+23% interanual), 50% del negocio nuevo neto ya no es por puesto. Lo que esta roto es la rentabilidad del capital reinvertido, no la demanda."
+  },
+
+  "hechos_de_soporte": [
+    "HECHO — Ingresos: FY2023 8.971, FY2024 10.984, FY2025 13.278 mm$ (10-K, XBRL RevenueFromContractWithCustomerExcludingAssessedTax). H1-2026 7.757 mm$, Q2-2026 3.987 mm$ (10-Q Q2-2026).",
+    "HECHO — Flujo de operaciones: FY2023 3.398, FY2024 4.267, FY2025 5.444 mm$. H1-2025 2.393 -> H1-2026 2.257 mm$ (CAIDA del 5,7% interanual).",
+    "HECHO — Capex: FY2024 852, FY2025 868, H1-2026 255 mm$.",
+    "HECHO — Retribucion en acciones: FY2023 1.604, FY2024 1.746, FY2025 1.955, H1-2026 1.199 mm$.",
+    "HECHO — Resultado operativo GAAP: FY2024 1.364, FY2025 1.824 mm$; Q2-2025 358 -> Q2-2026 162 mm$.",
+    "HECHO — Armis Security Ltd. adquirida el 20-abr-2026 por ~7.600 mm$ en efectivo. Reparto preliminar del precio (10-Q Q2-2026, R12): intangibles 2.530, fondo de comercio 5.323 (NO deducible fiscalmente), activos por impuesto diferido 405.",
+    "HECHO — Veza Technologies adquirida el 2-mar-2026 por ~1.200 mm$ (intangibles 356, fondo de comercio 826).",
+    "HECHO — Moveworks adquirida el 15-dic-2025 por 2.407 mm$ (1.467 en acciones a 153,04 $ post-split, 905 en efectivo).",
+    "HECHO — Fondo de comercio: 1.273 (dic-2024) -> 3.578 (dic-2025) -> 9.837 mm$ (jun-2026). Intangibles netos 209 -> 1.121 -> 3.781 mm$.",
+    "HECHO — Calendario de amortizacion futura de intangibles publicado a 30-jun-2026: 391 (resto 2026), 776 (2027), 726 (2028), 700 (2029), 648 (2030), 540 (posterior).",
+    "HECHO — Deuda: 4.000 mm$ de prestamo puente en abr-2026 para pagar Armis, refinanciado en may-2026 con cinco series de notas senior por 4.000 mm$ (proceeds netos 3.944) mas un programa de papel comercial de hasta 3.000 mm$ (2.100 vivos a 30-jun-2026 al 3,98%). Gasto financiero: 6 mm$ en Q2-2025 -> 66 mm$ en Q2-2026.",
+    "HECHO — Autocartera: 3.045 mm$ / 18.498 miles de acciones (dic-2025) -> 5.371 mm$ / 38.593 miles (jun-2026). 2.326 mm$ de recompras en el semestre a un coste medio de ~115,75 $/accion, por encima del precio de hoy.",
+    "HECHO — Metricas comerciales Q2-2026 (8-K 22-jul-2026): suscripcion 3.877 mm$ (+24,5%), cRPO 13.200 mm$ (+21%), RPO 29.000 mm$ (+21%), 658 clientes con mas de 5 mm$ de ACV (+23%), ACV de IA de ServiceNow por encima de 1.000 mm$ en el trimestre con objetivo elevado a 1.500 mm$ para 2026.",
+    "HECHO — Guia FY2026 (8-K 22-jul-2026): suscripcion 15.760-15.780 mm$ (+22,5%), margen operativo no-GAAP 31,5%, margen de FCF no-GAAP 35%, acciones diluidas Q3 de 1.050 millones.",
+    "HECHO — Un unico segmento operativo. Reparto geografico H1-2026: Norteamerica 4.881 (95% EEUU), EMEA 1.976, Asia-Pacifico y otros 900 mm$.",
+    "INFERENCIA — Retencion del 98% del ACV: viene del expediente de calidad congelado, no re-verificada en este trabajo desde el MD&A."
+  ],
+
+  "huecos": [
+    "EL HUECO QUE DOMINA TODO: el tratamiento de la retribucion en acciones. La convencion de esta tanda de expedientes la readiciona (queda dentro del flujo de operaciones). En ServiceNow eso son 2.420 mm$ estimados en FY2026, el 14,9% de las ventas y mas que todo el resultado operativo GAAP de FY2025. Con la convencion de la casa el MoS es +17,6%; cargandola es -53,7%. El veredicto NO cambia (ninguna de las dos llega al 25% exigido), pero la magnitud del error potencial es de 70 puntos. Ninguna de las dos convenciones es verificable como 'correcta': es una eleccion, y aqui decide casi todo.",
+    "El flujo de operaciones de FY2026 (5.830 mm$) es INFERENCIA propia. La empresa no guia flujo de operaciones, solo un margen de FCF no-GAAP del 35%, del que hay que descontar readiciones que estimo en ~450 mm$. Extrapolar la estacionalidad del semestre publicado daria 5.141 mm$ (-12%), lo que bajaria el OE de mantenimiento en curso de 5.200 a ~4.510 y el MoS del +17,6% al +5%. La horquilla honesta es 5.100-5.900.",
+    "Los ingresos por servicios profesionales de FY2026 (~450 mm$) son estimacion propia; la guia solo cubre suscripcion.",
+    "La beta de 0,96 procede de agregadores (Yahoo Finance, Investing.com), no de una regresion propia sobre datos de mercado. Es el input mas debil del WACC y el WACC manda sobre todo lo demas. Con beta 1,20 el WACC sube al 9,78%, el valor central baja a ~107 $/accion y el MoS se vuelve NEGATIVO en todas las bases. No he podido correr la regresion propia en esta sesion.",
+    "El precio de 105,56 $ proviene de un agregador (stockanalysis.com) y no de un snapshot de broker con marca de tiempo. Segunda fuente da un cierre implicito de 105,80 $. Discrepancia del 0,23%.",
+    "El reparto de la depreciacion de FY2026 entre PP&E (630 estimado) y amortizacion de intangibles adquiridos (687, este si publicado) es estimacion propia; la empresa no da desglose prospectivo de depreciacion de PP&E.",
+    "Armis y Veza aportan ingresos y costes dentro de las cifras de FY2026 sin informacion pro-forma: el 10-Q declara expresamente que no la presenta porque los efectos 'no fueron materiales'. NO puedo separar crecimiento organico de crecimiento comprado en el ejercicio en curso, que es justo lo que haria falta para juzgar si el 22,5% guiado es real.",
+    "Las inversiones estrategicas (2.073 mm$) se suman al patrimonio a valor en libros y aportan ~2,00 $/accion. Incluyen 360 mm$ de plusvalias NO REALIZADAS reconocidas solo en H1-2026 sobre participaciones ilíquidas. Si esas marcas estan infladas, el valor del patrimonio cae en consecuencia. No he verificado la jerarquia de valor razonable de esa cartera.",
+    "La retencion del 98% del ACV y el recuento de 420 -> 658 clientes de mas de 5 mm$ vienen del expediente de calidad congelado. El 658 si esta verificado en el 8-K del 22-jul-2026; el 98% no se ha re-verificado aqui.",
+    "El ROIIC ex-margen del 2,3% y la reinversion del 35,5% de las ventas son inputs HEREDADOS del analisis de calidad congelado (G2). No los he recalculado en esta sesion. Toda mi g defendible descansa sobre ellos.",
+    "El WACC descansa sobre un diferencial WACC-g terminal de solo 5,74 pp, con el valor residual pesando ~55% del total. A ese nivel de apalancamiento matematico, la banda de ±25% del piso de resolucion probablemente sea OPTIMISTA, no conservadora."
+  ],
+
+  "resumen": "NO ABRIR. El precio de 105,56 $ (27-jul-2026) esta dentro de la banda de resolucion del valor intrinseco (92-154 $, centro 123 $), asi que ServiceNow no es distinguible de su propio valor: no hay margen de seguridad que reclamar. Con la convencion de la casa el MoS es de +13,2% (base auditada FY2025) y +17,6% (base en curso FY2026E), frente al 25% que exige su banda PRESUNTA para abrir. Faltan entre 7 y 12 puntos, y ninguna de las ocho combinaciones de base, capex y convencion que he calculado llega al umbral. Tres cosas que Felipe tiene que ver antes que el numero. PRIMERA: el descuento aparente es contable. Nace de readicionar 2.420 mm$ de retribucion en acciones (14,9% de las ventas, mas que todo el resultado operativo GAAP de FY2025) que la empresa esta neutralizando con dinero real — 2.326 mm$ de recompras en un solo semestre, a un coste medio de 115,75 $/accion, por encima del precio de hoy. Cargando la SBC, el multiplo pasa de 21,3x a 39,8x owner earnings, el valor por accion de 128 a 69 $ y el MoS de +17,6% a -53,7%. SEGUNDA: el motor ya se rompio en el dato publicado, no en la proyeccion. El flujo de operaciones del semestre CAYO un 5,7% interanual (2.257 frente a 2.393 mm$) con los ingresos subiendo un 23%, y el resultado operativo GAAP del Q2 se hundio de 358 a 162 mm$. TERCERA: la empresa cambio de identidad en siete meses. Gasto 11.200 mm$ en Moveworks, Veza y Armis, convirtio 7.650 mm$ de caja neta en 1.631 mm$ de deuda neta, emitio deuda seria por primera vez y se cargo ~690 mm$ anuales de amortizacion de intangibles — todo esto en un negocio cuya puerta de calidad G1 se habia ganado precisamente por NO necesitar capital. El ROIIC ex-margen del 2,3% y el ROIC post-Armis de ~7,6% estan ambos por debajo del WACC del 8,74%: cada dolar reinvertido crece el NOPAT y destruye valor a la vez. Mi g defendible es del 7,5% (35,5% de reinversion x 2,3% de ROIIC ex-margen = 7,69%, con recorte minimo por el deterioro post-Armis), frente a la g implicita de 5,2%-6,9% que el precio exige con la convencion de la casa — o del 12,5%-13,4% si se carga la SBC. La TIR esperada es del 9,0%-9,8% anual con la convencion de la casa y del 6,6%-7,0% cargando la SBC; en el segundo caso queda POR DEBAJO del coste de capital. M* = 16x owner earnings de mantenimiento, que implica 81 $/accion; P* segun la formula del esquema (valor central menos el 25% exigido) = 92 $. El gatillo que yo respetaria es 81 $. Detector de trampa de valor: SOSPECHA — no por el patron clasico de descuento enorme sobre negocio roto, sino porque el descuento modesto que se ve es un artefacto de la SBC y detras hay rentabilidad incremental por debajo del coste de capital. Lo que sigue intacto y verificado es la demanda: cRPO +21%, RPO de 29.000 mm$, 658 clientes de mas de 5 mm$ de ACV (+23%), y el 50% del negocio nuevo neto ya no depende del precio por puesto. Lo roto no es el mercado de ServiceNow: es lo que gana por el capital que mete para servirlo."
+}

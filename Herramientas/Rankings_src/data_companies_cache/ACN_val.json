@@ -1,0 +1,48 @@
+{
+ "ticker": "ACN",
+ "name": "Accenture plc",
+ "currency": "USD",
+ "price_verified": 124.83,
+ "price_source": "StockAnalysis.com close Jun 22 2026 ($124.83); cross-checked vs Yahoo/CNBC intraday ~$127-128. Used verified close.",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.616,
+ "implied_mcap_b_usd": 76.9,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 9.6,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.07,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base ~$8.6B = FY26 guided FCF midpoint (~$11.15B) minus 100% SBC (~$2.5B; ~3.5% of revenue). Cross-checks vs FY25: reported FCF $10.9B − SBC $2.45B = $8.45B owner FCF.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 200.93,
+   "prob": 0.38,
+   "note": "Pesimista razonable NO apocaliptico: GenAI comprime crecimiento a ~2.5% fase1 declinando a 1.5%, g terminal 2.5%. Refleja estancamiento del modelo de consultoria sin colapso. EV $122b + net cash $1.78b."
+  },
+  "base": {
+   "iv_per_share": 256,
+   "prob": 0.47,
+   "note": "Crecimiento owner-FCF 5.5% fase1 -> 3.5% fase2, terminal 3.0%. Consistente con guidance LC +3-4% mas margen/recompra; ACN sigue siendo franquicia top con ROIC ~27% y caja neta."
+  },
+  "optimista": {
+   "iv_per_share": 317.41,
+   "prob": 0.15,
+   "note": "GenAI es viento de cola neto (reinversion a ROIC alto): 8% fase1 -> 5% fase2, terminal 3.5%."
+  }
+ },
+ "iv_dcf_weighted": 244.29,
+ "multiple_metric": "P/E adelantado (sobre BPA ajustado FY26)",
+ "fwd_multiple_now": 9.01,
+ "fwd_multiple_5y_avg": 25.5,
+ "fair_multiple": 17,
+ "multiple_rationale": "Media 5a del fwd P/E ~25.5x. Aplico HAIRCUT estructural fuerte (~33%) a 17.0x por riesgo REAL no ciclico: amenaza de GenAI al modelo staff-augmentation/consultoria, bookings -2/-3%, crecimiento organico desacelerado a +3% y arrastre del gasto federal US. 17x sigue siendo conservador para un compounder con ROIC ~27%, caja neta y decadas de crecimiento; NO asumo re-rate completo a la media historica. BPA adj FY26 ~$13.84 (punto medio guidance $13.78-13.90). iv_multiple = 13.84 * 17.0 = $235.28.",
+ "iv_multiple": 235.45,
+ "weight_dcf": 0.45,
+ "weight_multiple": 0.55,
+ "reconciled_iv": 239.43,
+ "structural_change": "Riesgo estructural REAL pero no probado de disrupcion: GenAI puede erosionar el modelo de horas facturables/staff-augmentation (a la vez riesgo y oportunidad de reinversion). Senales de deterioro moderado: nuevos bookings -2/-3% y crecimiento organico desacelerado a +3% LC en Q3 FY26, mas arrastre del gasto federal US (~1pp). Contrapeso: Q3 batio BPA ajustado ($3.80 vs ~$3.72), margen operativo expandido a 17.0%, guidance de ingresos FY26 RE-ELEVADO a +3-4% LC, ROIC ~27%, caja neta ~$1.78b. Veredicto: de-rating de valoracion (de ~25x a ~9x fwd) amplificado por softening fundamental real pero modesto; no hay quiebre estructural confirmado.",
+ "sanity_notes": "Sanity check de magnitud OK: implied_mcap = $124.83 * 0.616b = ~$76.9b, coincide con escala reportada ($76.4-78.6b segun fuente). Acciones diluidas ~0.616b = media ponderada diluida Class A Q3 FY26 (615.6M, base sobre la que ACN reporta BPA diluido); descartado el dato de ~667M (conflaciona partidas) y 611.94M es basica. Net cash ~$1.78b (base StockAnalysis cash $10.17b vs deuda total $8.39b incl. leases); sobre deuda fondeada (~$5.14b SEC) la caja neta seria ~$5b, lo que ELEVARIA ligeramente todos los IV (uso $1.78b, conservador). WACC 9.6% pese a domicilio irlandes (plc) porque ACN es funcional-USD, cotiza en NYSE y su base de ingresos/costo de capital es esencialmente US (Rf US 4.3%); beta ~1.07. IV reconciliado $239.33 cae dentro de la banda 30-300% del precio (192% del precio) -> sin error de unidades/moneda. Conclusion: a ~9x fwd P/E y -56% desde maximos, el mercado descuenta una destruccion estructural que la evidencia (guidance elevado, margenes, ROIC, caja neta) aun no confirma; margen de seguridad amplio (~92% upside al IV)."
+}

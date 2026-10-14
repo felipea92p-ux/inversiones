@@ -1,0 +1,299 @@
+{
+  "ticker": "IDXX",
+  "empresa": "IDEXX Laboratories, Inc.",
+  "cik": "0000874716",
+  "bolsa": "NASDAQ",
+  "divisa_reporte": "USD",
+  "divisa_funcional": "USD",
+  "es_ads": false,
+  "fecha_analisis": "2026-07-27",
+  "auditor": "PricewaterhouseCoopers LLP (auditor desde 2002) — HECHO, 10-K FY2025",
+
+  "etiqueta_congelada": {
+    "etiqueta": "PRESUNTA",
+    "puertas_pasadas": 4,
+    "especie": "G2",
+    "reinversion_pct_ventas": 14.27,
+    "roiic_bruto_pct": 19.96,
+    "roiic_ex_margen_pct": 15.07,
+    "mos_exigido_pct": 25,
+    "motivo_umbral": "No esta en cartera de Felipe -> aplica umbral de ABRIR (25%), no el de CARGAR (+12 puntos).",
+    "nota": "La etiqueta NO se reclasifica hacia arriba. El valorador no toca calidad."
+  },
+
+  "mecanismo": {
+    "resumen": "IDEXX coloca analizadores propietarios dentro de la clinica veterinaria y cobra la renta en consumibles cautivos y en muestras enviadas a su red de mas de 75 laboratorios. Parque instalado +12%/ano; la tajada del bolsillo de cada clinica se ensancha cuatro anos seguidos mientras el trafico del mercado final cae -2% anual.",
+    "eslabon_mas_debil": "Nunca ha atravesado una contraccion severa (18 ejercicios sin caida de ingresos). En 2009 recorto capex -43,7% e I+D -7,9% en absoluto, lo contrario del precedente ASML. Conducta del foso bajo estres genuino SIN PROBAR.",
+    "confirmacion_en_filings_2025_2026": [
+      "HECHO (10-K FY2025, MD&A): crecimiento organico total 9,6% en 2025 con trafico de clinica presionado; CAG organico 9,8%.",
+      "HECHO (8-K 5-may-2026, Ex-99.1): Q1 2026 organico +11%, CAG Diagnostics recurrente organico +11%, parque global de instrumentos premium +12%, consumibles VetLab organico +15%.",
+      "HECHO (8-K 5-may-2026): 1.100 colocaciones de inVue Dx en Q1 2026; ingresos de instrumentos de capital CAG +28% organico.",
+      "SENAL DE CANIBALIZACION INTERNA (HECHO, 8-K Q1 2026): rapid assay plano organico porque el Catalyst Pancreatic Lipase Test desplaza test entre modalidades. El foso se defiende de si mismo, no de un tercero."
+    ]
+  },
+
+  "precio_y_capitalizacion": {
+    "precio_usd": 556.20,
+    "fecha_precio": "2026-07-27",
+    "fuente_precio": "stockanalysis.com/stocks/idxx (cierre 27-jul-2026, +11,88 / +2,18%). Cruce: Yahoo Finance cierre 24-jul-2026 = 544,32 USD; 544,32+11,88 = 556,20. INFERENCIA (agregador), no fuente primaria.",
+    "acciones_en_circulacion_mm": 78.88,
+    "fuente_acciones": "stockanalysis.com al 27-jul-2026 (INFERENCIA). Cruce primario: 79.240 miles de acciones en circulacion al 31-mar-2026 (HECHO, 10-Q Q1 2026, balance). Recompra guiada de 1-2% anual explica la diferencia.",
+    "capitalizacion_usd_mm": 43873.1,
+    "acciones_diluidas_ponderadas_2025": 81.025,
+    "acciones_diluidas_ponderadas_q1_2026": 80.162
+  },
+
+  "deuda_y_ev": {
+    "fecha_balance": "2026-03-31 (10-Q Q1 2026) — HECHO",
+    "credit_facility_usd_mm": 530.000,
+    "porcion_corriente_deuda_lp_usd_mm": 149.997,
+    "deuda_lp_neta_de_corriente_usd_mm": 299.854,
+    "deuda_financiera_bruta_usd_mm": 979.851,
+    "efectivo_usd_mm": 200.528,
+    "deuda_neta_usd_mm": 779.323,
+    "arrendamientos_operativos_usd_mm": 125.600,
+    "nota_arrendamientos": "26,853 corriente + 98,747 no corriente al 31-mar-2026. NO incluidos en deuda neta del DCF para no duplicar: el gasto de arrendamiento ya esta dentro del flujo de caja operativo. Si se incluyeran, deuda neta = 904,9 y EV = 44.778.",
+    "ev_usd_mm": 44652.4,
+    "cierre_fy2025_referencia": {
+      "credit_facility": 398.000,
+      "deuda_lp_corriente": 74.995,
+      "deuda_lp_no_corriente": 374.842,
+      "deuda_bruta": 847.837,
+      "efectivo": 180.070,
+      "deuda_neta": 667.767,
+      "disponibilidad_restante_credit_facility": "850,2 MM sobre linea de 1.250 MM (HECHO, 10-K FY2025 MD&A)"
+    },
+    "senior_notes_detalle": "HECHO (10-K FY2025, Nota 13): 450,0 MM en notas privadas no garantizadas. Cupones 2,50% (Prudential 2030 Serie D), 3,25%, 3,72% (2026 Senior Notes, 2027 Serie B), 3,76%, 4,04%, 4,19% (2029 Serie C). Las 2026 Senior Notes de 75,0 MM vencen el 4-sep-2026. Las Serie C en euros de 88,9 MM (1,785%) se repagaron en junio 2025 por 103,4 MM USD.",
+    "senal_relevante": "La deuda bruta subio de 847,8 (dic-2025) a 979,9 (mar-2026) financiando recompras: 1.216,96 MM recomprados en 2025 y 366,0 MM adicionales en Q1 2026 (variacion de autocartera). El apalancamiento crece para sostener el EPS, no para financiar el negocio."
+    },
+
+  "wacc_candado_B": {
+    "principio": "WACC bottom-up de mercado. PROHIBIDO heredarlo de un tier de calidad.",
+    "tasa_libre_riesgo_pct": 4.69,
+    "fuente_tasa_libre_riesgo": "Bono del Tesoro de EEUU a 10 anos, cierre 24-jul-2026 = 4,69%. Fuente: Treasury Yields Snapshot 24-jul-2026 (Advisor Perspectives / etftrends). INFERENCIA (secundaria); moneda funcional = USD, coincide con el domicilio.",
+    "beta": 1.55,
+    "fuente_beta": "Beta 5 anos mensual = 1,55. Yahoo Finance (ficha IDXX, consultada 27-jul-2026) y stockanalysis.com (misma cifra). INFERENCIA — no es una regresion propia. Es el mayor apalancamiento del modelo.",
+    "prima_mercado_pct": 4.20,
+    "fuente_prima_mercado": "Damodaran, actualizacion de 1-jul-2026: ERP implicita EEUU 4,42%; neta del diferencial de impago Aa1 (0,22%) la prima de mercado maduro es 4,20%. INFERENCIA (resumenes secundarios de la actualizacion de julio 2026; no se abrio el fichero original de Stern).",
+    "prima_pais_pct": 0.37,
+    "detalle_prima_pais": {
+      "metodo": "Ponderada por el riesgo de ACTIVO (donde estan los clientes), no por domicilio fiscal. Mezcla geografica de ingresos FY2025 del 10-K, Nota 17 — HECHO.",
+      "mezcla_ingresos_fy2025": {
+        "EEUU": "2.752,785 MM (64,0%)",
+        "Canada": "167,325 MM (3,9%)",
+        "Latam_y_Caribe": "90,411 MM (2,1%)",
+        "EMEA": "937,252 MM (21,8%)",
+        "Asia_Pacifico": "355,929 MM (8,3%)"
+      },
+      "erp_ponderada_resultante_pct": 4.57,
+      "comentario": "IDEXX es casi todo mercado desarrollado. China solo 35,956 MM (0,8% de ventas). El componente pais es marginal: 0,37 puntos sobre el mercado maduro."
+    },
+    "coste_deuda_pct": 4.70,
+    "derivacion_coste_deuda": "HECHO: gasto por intereses FY2025 = 38,852 MM (cuenta de resultados 10-K). Deuda financiera total media 2024-2025 = (867,573 + 847,837)/2 = 857,705 MM. Coste implicito = 4,53%. Intereses pagados en efectivo FY2025 = 37,7 MM (Nota de flujos). Al margen hoy el revolver (SOFR + diferencial) esta por encima de los cupones fijos (2,50%-4,19%), por lo que se adopta 4,70% con rango 4,5%-5,3%.",
+    "tasa_impositiva_pct": 21.4,
+    "fuente_tasa_impositiva": "Guia 2026 de la compania: tipo efectivo ~21,4% (8-K 5-may-2026). HECHO.",
+    "coste_capital_propio_pct": 11.77,
+    "formula_ke": "Ke = 4,69% + 1,55 x 4,57% = 11,77%",
+    "peso_equity_pct": 97.81,
+    "peso_deuda_pct": 2.19,
+    "wacc_pct": 11.60,
+    "wacc_rango": "10,0% - 13,2%",
+    "detalle_rango": "Extremo bajo: Rf 4,50% + beta 1,20 x ERP 4,20% = Ke 9,54% -> WACC 10,0%. Extremo alto: Rf 4,90% + beta 1,70 x ERP 5,00% = Ke 13,40% -> WACC 13,2%. La estructura de capital es 97,8% equity, asi que el WACC es practicamente el coste del equity: la beta manda."
+  },
+
+  "owner_earnings": {
+    "metodo": "Base = flujo de caja operativo del filing. (a) resta solo capex de MANTENIMIENTO aproximado por la DEPRECIACION (D&A menos amortizacion de intangibles). (b) resta TODO el capex de inmovilizado = flujo de caja libre puro.",
+    "ultimo_auditado": {
+      "ejercicio": "FY2025 (cerrado 31-dic-2025, 10-K presentado 20-feb-2026)",
+      "ingresos_usd_mm": 4303.702,
+      "resultado_explotacion_usd_mm": 1360.031,
+      "beneficio_neto_usd_mm": 1059.464,
+      "bpa_diluido_usd": 13.08,
+      "flujo_caja_operativo_usd_mm": 1181.805,
+      "d_and_a_usd_mm": 145.183,
+      "amortizacion_intangibles_usd_mm": 20.200,
+      "depreciacion_estimada_usd_mm": 124.983,
+      "capex_inmovilizado_usd_mm": 124.676,
+      "capex_intangibles_usd_mm": 13.550,
+      "oe_mantenimiento_usd_mm": 1056.8,
+      "oe_capex_total_usd_mm": 1057.1,
+      "observacion_clave": "Las dos versiones COINCIDEN. El capex de 2025 (124,7 MM) fue practicamente igual a la depreciacion (125,0 MM): no hubo un centimo de capex discrecional por encima del mantenimiento. La proteccion metodologica que impide penalizar a una reinvertidora por reinvertir no cambia NADA aqui: en 2025 IDEXX no reinvirtio en activo fijo por encima del desgaste.",
+      "todas_las_etiquetas": "HECHO — todas las cifras del 10-K FY2025 auditado por PwC."
+    },
+    "ejercicio_en_curso": {
+      "ejercicio": "FY2026 anualizado (Q1 publicado 5-may-2026 + guia elevada de la compania)",
+      "trimestres_publicados": 1,
+      "q1_2026_hechos": {
+        "ingresos_usd_mm": 1140.820,
+        "beneficio_neto_usd_mm": 278.446,
+        "bpa_diluido_usd": 3.47,
+        "flujo_caja_operativo_usd_mm": 266.248,
+        "capex_usd_mm": 31.984,
+        "d_and_a_usd_mm": 37.683,
+        "margen_operativo_pct": 31.8
+      },
+      "guia_2026_hechos": {
+        "ingresos_usd_mm": "4.675 - 4.760 (punto medio 4.717,5); crecimiento reportado 8,6%-10,6%, organico 7,7%-9,7%",
+        "bpa_usd": "14,45 - 14,90 (punto medio 14,675)",
+        "margen_operativo_pct": "32,1% - 32,5%",
+        "gasto_financiero_neto_usd_mm": 34,
+        "tipo_efectivo_pct": 21.4,
+        "flujo_caja_operativo_pct_beneficio_neto": "105% - 115%",
+        "flujo_caja_libre_pct_beneficio_neto": "85% - 95%",
+        "capex_usd_mm": 180,
+        "reduccion_acciones_medias_pct": "1% - 2%",
+        "fuente": "8-K de 5-may-2026, Exhibit 99.1 — HECHO"
+      },
+      "derivacion": {
+        "acciones_diluidas_2026e_mm": 79.8,
+        "beneficio_neto_2026e_usd_mm": 1171,
+        "cruce": "4.717,5 x 32,3% = 1.523,7 de resultado operativo; menos 34 de gasto financiero neto = 1.489,7; x (1-0,214) = 1.170,9. Coincide con 14,675 x 79,8 = 1.171. INFERENCIA consistente por dos vias.",
+        "flujo_caja_libre_2026e_usd_mm": 1054,
+        "flujo_caja_operativo_2026e_usd_mm": 1234,
+        "d_and_a_2026e_usd_mm": 158,
+        "amortizacion_intangibles_2026e_usd_mm": 20,
+        "depreciacion_2026e_usd_mm": 138
+      },
+      "oe_mantenimiento_usd_mm": 1096.0,
+      "oe_capex_total_usd_mm": 1054.0,
+      "etiqueta": "INFERENCIA — un solo trimestre publicado mas guia de la compania. Q2 2026 se publica el 4-ago-2026."
+    },
+    "distancia_entre_bases": {
+      "oe_mantenimiento": "+3,7% (1.056,8 -> 1.096,0)",
+      "oe_capex_total": "-0,3% (1.057,1 -> 1.054,0)",
+      "lectura_del_ciclo": "El beneficio neto crece +10,5% (1.059 -> 1.171) pero el owner earnings con todo el capex se queda PLANO. Dos motivos, los dos reales: (1) el capex salta de 124,7 a 180 MM (+44%) para financiar el despliegue de inVue Dx y la red de laboratorios — es decir, 2026 SI tiene capex discrecional por encima del desgaste, unos 42 MM; (2) 2025 tuvo un flujo de caja operativo inflado por fiscalidad. Esto no es ruido: es el momento del ciclo. 2025 fue un ano de conversion pico y 2026 es un ano de inversion. La distancia entre (a) y (b) pasa de 0 MM en 2025 a 42 MM en 2026: la reinvertidora empieza a reinvertir de verdad justo ahora."
+    },
+    "alerta_calidad_del_flujo_2025": {
+      "hecho": "Impuestos pagados en efectivo FY2025 = 167,498 MM (Nota de impuestos del 10-K, desglose: EEUU federal 94,266; estatal 34,517; Paises Bajos 9,675; Suiza 10,047; otros 18,993). La provision contable fue 264,725 MM. Impuestos diferidos en el flujo de caja: +131,204 MM (frente a -24,194 en 2024 y -48,306 en 2023).",
+      "contexto": "Impuestos pagados en 2024 = 307,2 MM y en 2023 = 192,5 MM. La caida a 167,5 MM en 2025 responde a la aceleracion de la deduccion de I+D permitida por el cambio de la ley fiscal de EEUU (el propio 10-K lo cita al explicar la reduccion del beneficio FDII).",
+      "impacto": "El flujo de caja operativo de 2025 lleva dentro del orden de 95-100 MM de alivio fiscal transitorio. Owner earnings 2025 NORMALIZADO fiscalmente ~ 960 MM, no 1.057 MM. Con esa base la g implicita en el precio sube a ~22%.",
+      "etiqueta": "HECHO (cifras) + INFERENCIA (cuantificacion del componente transitorio)."
+    }
+  },
+
+  "dcf_inverso": {
+    "motor": "Que crecimiento del owner earnings a 10 anos, con terminal del 3% y WACC de mercado, justifica exactamente el precio de hoy.",
+    "convenciones": [
+      "Se descuenta FCFF = owner earnings + gasto financiero neto despues de impuestos, al WACC, y se resta la deuda neta. Evita el doble conteo de la deuda que se produce si se descuenta un flujo ya post-intereses al WACC.",
+      "Horizonte explicito 10 anos + valor terminal con g = 3%.",
+      "WACC = 11,60%.",
+      "EV objetivo = 44.652 MM."
+    ],
+    "g_implicita_auditado_pct": 20.4,
+    "g_implicita_encurso_pct": 19.9,
+    "g_implicita_base_fiscal_normalizada_pct": 22.1,
+    "sensibilidad_g_implicita": {
+      "wacc_10.0_beta_1.20": "16,9% (auditado) / 16,5% (en curso)",
+      "wacc_11.6_beta_1.55": "20,4% (auditado) / 19,9% (en curso)",
+      "wacc_12.3_beta_1.70": "21,8% (auditado) / 21,3% (en curso)"
+    },
+    "contraste_con_la_tasa_base_del_negocio": {
+      "crecimiento_organico_2025": "9,6% total, 9,8% CAG (HECHO, 10-K FY2025)",
+      "guia_organica_2026": "7,7% - 9,7% (HECHO, 8-K may-2026)",
+      "crecimiento_beneficio_neto_2025": "+19,3% (887,9 -> 1.059,5), con expansion de margen operativo de 28,9% a 31,6%",
+      "expansion_de_margen_guiada_2026": "50-90 pb, es decir el motor de margen ya se esta agotando por construccion",
+      "veredicto": "El precio exige que el owner earnings crezca al ~20% anual durante DIEZ anos. El negocio, en su MEJOR momento documentado y con toda la expansion de margen a favor, crece los ingresos al 9-10% y el beneficio al 19% con margen que se ensancha. Para sostener 20% de owner earnings a 10 anos con margenes ya en 32% y expandiendose solo 50-90 pb al ano, harian falta ingresos creciendo al ~15-17% anual — casi el doble del organico guiado por la propia compania — o una expansion de margen que la guia excluye. La brecha entre lo exigido y la tasa base es de aproximadamente 11 puntos anuales."
+    }
+  },
+
+  "g_defendible": {
+    "g_defendible_pct": 8.51,
+    "derivacion": "g = tasa de reinversion sobre NOPAT x ROIIC EX-MARGEN. NOPAT FY2025 = 1.360,031 x (1-0,20) = 1.088,0 MM. Reinversion = 14,27% x 4.303,702 = 614,1 MM. Tasa de reinversion = 614,1 / 1.088,0 = 56,4%. g = 56,4% x 15,07% = 8,51%.",
+    "por_que_ex_margen": "Se usa el ROIIC EX-MARGEN (15,07%) y no el bruto (19,96%) porque el bruto asume que la expansion de margen se repite. Con el bruto la g saldria 11,3%, y la guia 2026 de la propia compania (50-90 pb de expansion, no los ~270 pb de 2025) demuestra que ese supuesto ya no se sostiene.",
+    "contraste": "8,51% es consistente con el organico guiado de 7,7%-9,7% para 2026. No es una g conservadora: es la g del negocio en marcha, sostenida diez anos.",
+    "advertencia": "8,51% durante 10 anos lleva los ingresos de 4,3 a ~9,7 mil MM con el trafico del mercado final cayendo -2% anual. Toda la g es ensanchamiento de la tajada por clinica. Es exactamente la apuesta que el mecanismo describe y exactamente la que no se ha probado bajo estres (etiqueta PRESUNTA)."
+  },
+
+  "valoracion": {
+    "valor_por_accion_auditado_usd": 233,
+    "valor_por_accion_encurso_usd": 241,
+    "piso_de_resolucion": "Sin medicion propia del ruido se aplica +/- 25%. Banda auditado: 175 - 291 USD. Banda en curso: 181 - 301 USD. NADA de decimales en el valor intrinseco.",
+    "mos_auditado_pct": -138.7,
+    "mos_encurso_pct": -130.5,
+    "lectura_del_mos": "Un MoS de -139% no es informacion util. La informacion util es la TIR: comprar a 556,20 con una g defendible de 8,5% y salida a multiplo consistente con terminal 3% devuelve ~7,1% anual durante 10 anos, frente a un 11,6% exigido por el mercado para este riesgo. No se pierde dinero; se gana ~4,5 puntos anuales MENOS de lo que exige el capital.",
+    "matriz_valor_por_accion_base_encurso": {
+      "g6_wacc10": 251, "g6_wacc11.6": 200, "g6_wacc13": 169,
+      "g7_wacc10": 272, "g7_wacc11.6": 216, "g7_wacc13": 182,
+      "g8.5_wacc10": 305, "g8.5_wacc11.6": 241, "g8.5_wacc13": 202,
+      "g10_wacc10": 342, "g10_wacc11.6": 269, "g10_wacc13": 225,
+      "g12_wacc10": 398, "g12_wacc11.6": 312, "g12_wacc13": 260
+    },
+    "observacion_sobre_la_matriz": "Ni la esquina mas benevola de toda la matriz —g del 12% durante diez anos Y un WACC del 10% que exige creer que la beta real es 1,20— llega a 400 USD por accion. El precio es 556,20. No hay combinacion defendible de supuestos que lo alcance."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 18,
+    "definicion_m_estrella": "Multiplo de owner earnings de mantenimiento que se acepta pagar, decidido en frio. No lleva barra de error porque no es una estimacion: es una politica.",
+    "justificacion_m_estrella": "18x es exactamente el multiplo EV/owner-earnings que sale del DCF con la g defendible de 8,51%, WACC 11,60% y terminal 3% (17,6x, redondeado a 18x). No se paga por encima del valor que produce el propio motor. Y para una etiqueta PRESUNTA —cuya conducta bajo contraccion severa esta sin probar y cuyo unico precedente (2009) fue recortar capex -43,7% e I+D -7,9%— no hay argumento para pagar prima sobre el DCF.",
+    "valor_a_m_estrella_auditado_usd": 231,
+    "valor_a_m_estrella_encurso_usd": 240,
+    "mos_exigido_pct": 25,
+    "p_estrella_usd": 180,
+    "derivacion_p_estrella": "18 x 1.096,0 = 19.728 MM de EV; menos deuda neta 779,3 = 19.949... equity 18.949 MM; / 78,88 M acciones = 240 USD; x (1-0,25) = 180 USD.",
+    "p_estrella_base_auditada_usd": 173,
+    "distancia_al_precio": "El precio de hoy (556,20) esta 3,1 veces por encima de P*. Haria falta una caida del 68% para que IDXX entrase con el margen de seguridad exigido por su banda.",
+    "multiplos_actuales_para_contraste": {
+      "ev_sobre_oe_auditado": "42,2x",
+      "ev_sobre_oe_encurso": "42,4x",
+      "per_2026e": "37,9x",
+      "ev_sobre_ventas_2026e": "9,5x"
+    }
+  },
+
+  "tir_esperada": {
+    "tir_esperada_rango": "+6,3% a +8,2% anual durante 10 anos (central +7,1%)",
+    "detalle": {
+      "g_6pct": "6,33% anual",
+      "g_7pct": "6,61% anual",
+      "g_8.5pct_defendible": "7,06% anual",
+      "g_10pct": "7,54% anual",
+      "g_12pct": "8,24% anual",
+      "g_15pct": "9,40% anual"
+    },
+    "interpretacion": "Incluso suponiendo que IDEXX crezca al 15% anual durante una decada —cinco puntos por encima de su propio organico guiado— la TIR al precio de hoy es 9,4%, todavia por debajo del 11,6% exigido. El precio no descuenta un negocio malo; descuenta un negocio excepcional comprado en el momento equivocado. La perdida esperada no es de capital, es de coste de oportunidad: unos 4-5 puntos anuales durante diez anos."
+  },
+
+  "trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "El detector de trampa de valor busca un MoS grande sobre un motor que se rompe. Aqui no hay MoS grande: hay MoS de -139%. Y el motor no se esta rompiendo: organico 9,6% en 2025, 11% en Q1 2026, parque instalado premium +12%, consumibles VetLab +15% organico, margen operativo de 31,6% a un 32,1-32,5% guiado. El riesgo de IDXX no es de trampa de valor, es el simetrico: un negocio genuinamente bueno a un precio que ya cobra veinte anos de exito por adelantado.",
+    "vigilancias_que_si_quedan_abiertas": [
+      "El unico dato de deterioro real en los filings es rapid assay: plano organico en Q1 2026 por canibalizacion del Catalyst Pancreatic Lipase. Es canibalizacion interna (buena senal de foso), no perdida de cuota, pero conviene vigilar que la migracion de modalidad no diluya el precio por muestra.",
+      "El apalancamiento sube para recomprar acciones: deuda bruta de 847,8 (dic-25) a 979,9 (mar-26), recompras de 1.217,0 MM en 2025 y ~366 MM en Q1 2026, con el patrimonio neto en 1.556 MM. Es una politica financiera que amplifica el EPS y reduce el colchon justo antes de la primera contraccion que la empresa no ha vivido nunca. Cruzarlo con el eslabon mas debil de la etiqueta PRESUNTA.",
+      "El flujo de caja operativo de 2025 lleva ~95-100 MM de alivio fiscal transitorio. Cualquiera que valore sobre el flujo de caja de 2025 sin normalizar esta pagando por un flujo que no se repite."
+    ]
+  },
+
+  "veredicto_del_valorador": {
+    "resumen": "NO A ESTE PRECIO, y no por poco. El precio exige ~20% de crecimiento del owner earnings durante diez anos; el negocio da 8,5% defendibles. P* = 180 USD frente a 556,20 de mercado.",
+    "que_haria_cambiar_el_veredicto": [
+      "Que el precio caiga a 180 USD (-68%). No es un escenario que se pida ni se espere: es simplemente donde esta el umbral.",
+      "Que la beta baje de forma sostenida hacia 1,20 Y el organico se acelere de forma verificable por encima del 12%: aun asi P* subiria solo a ~230 USD.",
+      "Que la empresa demuestre la conducta del foso bajo una contraccion severa —mantener capex e I+D en absoluto durante una caida de ingresos— lo que subiria la etiqueta desde PRESUNTA. Pero eso lo decide el eje CALIDAD, no el valorador, y la etiqueta NO se reclasifica hacia arriba en esta sesion."
+    ]
+  },
+
+  "huecos_declarados": [
+    "Q2 2026 no publicado (sale el 4-ago-2026). La base EN CURSO descansa en UN trimestre real mas la guia de la compania, no en dos trimestres. Es el hueco mas grande de este expediente.",
+    "Beta 1,55 procede de agregadores (Yahoo Finance y stockanalysis.com, 5 anos mensual), no de una regresion propia. Es el mayor apalancamiento del modelo: con beta 1,20 el WACC baja a 10,0% y la g implicita cae de 20,4% a 16,9%. La conclusion no cambia, pero la magnitud si.",
+    "Precio de 556,20 USD del 27-jul-2026 tomado de stockanalysis.com (agregador). Cruzado contra el cierre de Yahoo del 24-jul (544,32) mas la variacion declarada del dia (+11,88). INFERENCIA, no fuente primaria.",
+    "La prima de riesgo de mercado de Damodaran (jul-2026) se tomo de resumenes secundarios de su actualizacion, no del fichero original de la web de Stern.",
+    "La tasa libre de riesgo (4,69% al 24-jul-2026) procede de un boletin de mercado, no de la serie DGS10 de la Fed descargada directamente.",
+    "No se ha podido reconciliar linea a linea la 'reinversion 14,27% de ventas' de la especie G2 con el 10-K: I+D (251,2) + capex (124,7) + intangibles (13,6) = 389,5 MM = 9,0% de ventas, no 14,27%. La cifra viene congelada del paso de calidad y se ha usado tal cual; si el 14,27% incluye partidas de gasto comercial o de circulante, la g defendible de 8,51% podria estar sobrestimada.",
+    "La guia 2026 es internamente inconsistente en sus puntos medios: flujo de caja operativo 105-115% del beneficio neto menos capex de 180 MM da 94,6% de flujo de caja libre, el extremo SUPERIOR del rango guiado de 85-95%. Se ha resuelto por el lado conservador (flujo de caja operativo 1.234, flujo de caja libre 1.054).",
+    "No hay medicion propia del ruido de la valoracion; se aplica el piso convencional de +/- 25%.",
+    "El coste de la deuda (4,70%) es el implicito del filing ajustado al alza por el peso creciente del revolver a tipo variable; no se dispone de la cotizacion secundaria de las notas privadas ni del diferencial exacto del Credit Facility sobre SOFR."
+  ],
+
+  "fuentes_primarias": [
+    "10-K FY2025 (CIK 0000874716, accession 0000874716-26-000038, presentado 20-feb-2026): https://www.sec.gov/Archives/edgar/data/874716/000087471626000038/idxx-20251231.htm — balance, cuenta de resultados, flujos de caja, Nota 13 (Deuda), Nota de impuestos, Nota 17 (Segmentos y geografia).",
+    "10-Q Q1 2026 (accession 0000874716-26-000076, presentado 5-may-2026): https://www.sec.gov/Archives/edgar/data/874716/000087471626000076/idxx-20260331.htm — balance al 31-mar-2026.",
+    "8-K de 5-may-2026, Exhibit 99.1 (resultados Q1 2026 y guia 2026 elevada): https://www.sec.gov/Archives/edgar/data/874716/000110465926055203/tm2613510d1_ex99-1.htm",
+    "XBRL companyfacts: https://data.sec.gov/api/xbrl/companyfacts/CIK0000874716.json"
+  ],
+  "fuentes_secundarias": [
+    "stockanalysis.com/stocks/idxx — precio 27-jul-2026, acciones en circulacion, beta.",
+    "finance.yahoo.com/quote/IDXX — cierre 24-jul-2026, beta 5Y mensual.",
+    "Advisor Perspectives / ETF Trends, Treasury Yields Snapshot 24-jul-2026 — bono EEUU 10 anos 4,69%.",
+    "Damodaran, actualizacion de primas de riesgo por pais, 1-jul-2026 — ERP implicita EEUU 4,42%, mercado maduro 4,20%."
+  ]
+}

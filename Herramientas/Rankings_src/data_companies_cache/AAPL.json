@@ -1,0 +1,99 @@
+{
+ "ticker": "AAPL",
+ "name": "Apple Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 297.01,
+ "market_cap_usd_b": 4360,
+ "fwd_pe": 32.6,
+ "fwd_pe_5y_avg": 28.5,
+ "pe_prem_disc_pct": 14.4,
+ "peg": 2.84,
+ "last_q": {
+  "period": "Q2 FY2026 (ended 2026-03-28)",
+  "revenue": "$111.2B",
+  "rev_yoy_pct": 17,
+  "op_margin_pct": 32,
+  "eps_gaap": "$2.01",
+  "eps_adj": "$2.01 (Apple reports GAAP only; no separate adjusted EPS)"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended 2025-09-27)",
+  "revenue": "$416.2B ($416,161M)",
+  "organic_growth_pct": 6,
+  "roic_pct": 55,
+  "fcf": "$98.8B ($98,767M)",
+  "fcf_margin_pct": 23.7
+ },
+ "sbc_pct_revenue": 3.1,
+ "sbc_pct_fcf": 13,
+ "net_debt_usd_b": -61.88,
+ "nd_ebitda": -0.43,
+ "net_cash": true,
+ "guidance_fy": "FY2026 in progress (ends Sept 2026). Management guided ~10-12% YoY revenue growth for Q1 FY2026 and 14-17% for Q2 FY2026 (actual came in +17%); implies low-double-digit revenue growth for the full FY2026 driven by iPhone 17 demand, China recovery, and double-digit Services growth. PROJECTION.",
+ "pct_off_52w_high": -6.4,
+ "pct_off_ath": -6.4,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "net_cash",
+  "guidance_fy"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "Apple FY2025 10-K (As-Filed PDF, Apple IR / Q4CDN) — primary source for FY2025 revenue $416,161M, operating income $133,050M, net income $112,010M, cash from ops $111,482M, capex $12,715M, SBC $12,863M, cash+securities $132.4B, term debt $90,678M",
+   "url": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+   "date": "2025-10-30"
+  },
+  {
+   "label": "Apple Q2 FY2026 10-Q (SEC EDGAR) — quarter ended 2026-03-28, revenue $111.2B +17% YoY, EPS $2.01",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000320193/000032019326000013/aapl-20260328.htm",
+   "date": "2026-04-30"
+  },
+  {
+   "label": "StockAnalysis.com AAPL Statistics — price $297.01, market cap $4.36T, fwd PE 32.60, PEG 2.84, net cash $61.88B, total debt $84.71B, cash+securities $146.6B (as of 2026-06-22)",
+   "url": "https://stockanalysis.com/stocks/aapl/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "MacroTrends AAPL Stock Price History — 52-week high $317.40, all-time high context",
+   "url": "https://www.macrotrends.net/stocks/charts/AAPL/apple/stock-price-history",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "GuruFocus / FinanceCharts AAPL forward PE and 5y average PE (~28.5-32.7 range)",
+   "url": "https://www.gurufocus.com/term/forward-pe-ratio/AAPL",
+   "date": "2026-06-17"
+  },
+  {
+   "label": "CNBC / MacRumors Apple Q2 2026 earnings — operating income $35.89B (+21%), op margin ~32%, Services record $30.98B, net income $29.6B",
+   "url": "https://www.macrumors.com/2026/04/30/apple-2q-2026-earnings/",
+   "date": "2026-04-30"
+  }
+ ],
+ "notes": "FASE 2 verification for AAPL. PRIMARY-SOURCE VERIFIED from Apple FY2025 10-K (downloaded As-Filed PDF, parsed directly): FY2025 revenue $416,161M (+6%), operating income $133,050M (op margin 31.97%), net income $112,010M, cash from ops $111,482M, capex $12,715M → FCF $98,767M (FCF margin 23.7%), SBC $12,863M (3.09% of revenue, 13.0% of FCF). Q2 FY2026 (10-Q, ended 2026-03-28): revenue $111.2B (+17% YoY), op margin ~32%, GAAP diluted EPS $2.01. NOTE: Apple does not report a separate adjusted/non-GAAP EPS — eps_adj = eps_gaap = $2.01. NET CASH: Apple is firmly net cash. FY2025 10-K balance sheet shows cash+marketable securities $132.4B vs total debt ~$98.7B (term debt $90,678M + commercial paper $7,979M). Most recent (Q2 FY2026) balance per StockAnalysis: net cash $61.88B (cash+securities $146.6B less debt $84.71B). net_debt_usd_b = -61.88 (negative = net cash). nd_ebitda estimated at -0.43 using net cash $61.88B over est. EBITDA ~$145B (op income ~$133B + D&A ~$12B); negative because net cash. ROIC ~55% is an ESTIMATE (Apple's ROIC runs very high, 50-60%+, driven by buybacks shrinking equity base; not a filed figure). VALUATION: fwd_pe 32.6 (StockAnalysis), PEG 2.84. fwd_pe_5y_avg = ~28.5 is ESTIMATED — clean 5y forward-PE average not consistently published; trailing PE has trended from ~22-27x (2021-22) up to 34-38x (2024-25), forward-PE 5y blend ~28-30x. Premium vs avg ~+14%. DROP CLASSIFICATION = not_depressed: AAPL trades ~$297, only ~6.4% below its 52-week/all-time high of $317.40 (intraday ATH 2026-05-27, closing ATH $315.20 on 2026-06-02), at a premium forward multiple with ACCELERATING double-digit revenue growth (Q2 FY26 +17%). There is no depressed-price condition to classify — the stock is near record highs. pct_off_ath uses the 52w high $317.40 as the reference (which is also the all-time high). data_quality=MIXED: fundamentals (revenue/FCF/SBC/margins) are filing-verified; market/valuation fields (price, market cap, fwd PE, PEG, net debt, 52w/ATH) are from reputable aggregators. Direct SEC EDGAR HTML fetch returned HTTP 403; primary 10-K verification achieved via Apple IR-hosted As-Filed PDF instead."
+}

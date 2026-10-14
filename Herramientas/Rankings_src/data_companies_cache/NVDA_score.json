@@ -1,0 +1,59 @@
+{
+ "ticker": "NVDA",
+ "name": "NVIDIA Corporation",
+ "rules": {
+  "R1": {
+   "score": 2,
+   "just": "Modelo monstruosamente escalable: op margin GAAP sube a 65.6% en Q1 FY27 vs 60.4% FY26 con volumen +85% YoY, apalancamiento operativo extremo via stack CUDA/software."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Data Center $75.2B (+92%) cabalga el superciclo secular de IA/computo acelerado, uno de los TAM mas duraderos de la decada."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Lider #1 indiscutible en GPU de centro de datos con ~90% de cuota; deja a AMD/ASICs custom a anios-luz en rendimiento y ecosistema."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat casi irreplicable: CUDA + librerias + base instalada + networking (NVLink/InfiniBand) crean costes de cambio brutales reforzados por escasez de suministro."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento organico puro: rev FY26 +65% y Q1 FY27 +85% YoY sin depender de M&A, expansion impulsada por producto."
+  },
+  "R6": {
+   "score": 0.5,
+   "just": "Diversificacion debil: dependencia extrema de Data Center (~92% del mix) y concentracion en pocos hyperscalers como clientes (>10% probable), riesgo de cliente alto."
+  },
+  "R7": {
+   "score": 2,
+   "just": "ROIC ~90% con FCF $96.7B (margen 44.8%), FCF/NI ~80%+ y capex solo ~3% de ventas: economia de capital excepcional, ROIC >> WACC."
+  },
+  "R8": {
+   "score": 2,
+   "just": "Balance fortaleza: caja neta ~$54.1B, ND/EBITDA ~-0.4x, deuda total solo $8.5B; amplia capacidad de retorno via $80B buyback y dividendo elevado."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "Contabilidad limpia: SBC solo 6.6% del FCF (muy por debajo del 15%), reporting IR primario verificado, gain no recurrente de $15.9B claramente segregado."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Gobierno solido: asignacion de capital disciplinada (buybacks oportunistas + dividendo creciente, sin M&A destructora), fundador-CEO con skin-in-the-game."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1+R3+R4 se refuerzan de forma monstruosa: el modelo hiper-escalable (margenes que SUBEN con volumen) alimenta el liderazgo #1 con ~90% de cuota, que profundiza el moat CUDA/ecosistema y crea un flywheel auto-reforzante casi irreplicable en la decada.",
+ "moat_type": "intangibles/ecosistema/costes-de-cambio",
+ "moat_one_line": "Ecosistema CUDA + software propietario + base instalada + networking (NVLink/InfiniBand) generan costes de cambio brutales que blindan el liderazgo en computo acelerado.",
+ "thesis_3lines": [
+  "Calidad: negocio de calidad excepcional con op margin 65.6%, ROIC ~90%, caja neta $54B y moat CUDA casi irreplicable.",
+  "Motor: crecimiento organico explosivo (+85% YoY, Data Center +92%) montado sobre el superciclo secular de IA con guidance Q2 de $91B.",
+  "Valoracion: fwd P/E ~21x con PEG ~0.4 y -47% vs su media 5a, compresion de multiplo por EPS creciendo mas rapido que el precio, no por deterioro."
+ ],
+ "bear_case_strongest": "La demanda de IA esta concentrada en un punado de hyperscalers cuyo capex podria desacelerar o desplazarse hacia silicio custom (TPU/ASICs), colapsando el crecimiento de Data Center desde tasas insosteniblemente altas y exponiendo la dependencia de cliente/segmento unico.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Total ponderado bruto = 2.0+1.5+2.0+2.0+1.5+0.5+2.0+2.0+1.5+1.5 = 16.5, recortado al techo de 13.5. Bajada principal vs FASE 1 (13.5 perfecto preliminar): R6 diversificacion penalizada a 0.5 por concentracion extrema en Data Center (~92% del mix) y dependencia de pocos hyperscalers. Drop classification = not_depressed (-11.8% del maximo): lider cerca de maximos con multiplo comprimido por EPS acelerando, no situacion deprimida. SBC 6.6% del FCF muy por debajo del umbral del 15%, R9 sin penalizacion dura. El unico verdadero talon de Aquiles es la concentracion (R6)."
+}

@@ -1,0 +1,42 @@
+{
+ "ticker": "7741.T",
+ "name": "HOYA Corporation",
+ "currency": "JPY",
+ "current_price": 26975,
+ "wacc_pct": 6.05,
+ "wacc_components": {
+  "rf_pct": 1.3,
+  "erp_pct": 5,
+  "beta": 0.95,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base ~¥197bn (FY ended Mar-2026). Built from fundamentals: FY25 revenue ¥947.7bn, operating profit ¥285.2bn (30.1% margin), net income ~¥253bn. HOYA does not cleanly disclose full-year FCF in the deck (¥65.8bn is the Q4 figure; annualized run-rate ~¥260bn). Normalized to ~¥200bn reported FCF (~21% FCF margin) to reflect the current elevated growth-capex phase (Singapore EUV ~¥42bn, Vietnam HDD ~¥50bn Phase 1). Owner adjustment: subtract 100% of SBC (~¥3bn, ~1.5% of FCF — immaterial for this Japanese IFRS issuer) -> Owner FCF ~¥197bn.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 8,
+  "rev_cagr_y6_10_pct": 6,
+  "fcf_margin_terminal_pct": 21,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% of SBC (~¥3bn, ~1.5% of FCF) subtracted from reported FCF as a cash expense; immaterial — HOYA has no large equity-comp program.",
+  "shares_diluted_b": 0.3345,
+  "net_debt_usd_b": -3.5
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 21791,
+   "prob": 0.375,
+   "note": "IT cyclicality bites: EUV/DUV mask-blank and HDD glass-substrate demand softens; rev CAGR ~5% in Phase 1, declining to ~3% in Phase 2; FCF margin holds ~21%; terminal g 2.5%. Pessimistic but not apocalyptic — Life Care (lenses) provides a defensive floor."
+  },
+  "base": {
+   "iv_per_share": 29708,
+   "prob": 0.475,
+   "note": "Consistent with track record: ~8% organic-led growth in Phase 1 (IT structural tailwind from EUV transition + HDD glass substrate for AI/cloud storage; Life Care MiYOSMART iQ + contacts), declining to ~4% by year 10; FCF margin ~21%; terminal g 3.0%. ROIC 21%, net cash, 100% FCF return policy."
+  },
+  "optimista": {
+   "iv_per_share": 41850,
+   "prob": 0.15,
+   "note": "EUV/HDD-substrate super-cycle: new Singapore/Vietnam capacity ramps into a sustained AI-storage and advanced-lithography demand wave; rev CAGR ~11% Phase 1 declining to ~5%; FCF margin ~21%; terminal g 3.5%. Flawless execution on the capex build-out."
+  }
+ },
+ "sanity_check": "Prob-weighted IV ~¥28,560 (~+6% vs price ¥26,975); base IV ¥29,708 (~+10%). Price sits between conservador and base — a high-quality compounder near record highs (only ~11% off the ¥30,400 ATH; +60% over the past year) trading at a modest premium (fwd P/E ~34x vs own 5y ~28.5x), so limited margin of safety. Shareholder-yield contrast (HOYA returns 100% of FCF via dividend + buyback, NOT a DDM): owner-FCF yield ~2.2% on ¥9.0tn market cap; dividend yield ~1.1% (¥295/sh, progressive 40% payout) plus ~1.1% buyback yield, augmented by a one-off ~¥110bn excess-cash release over ~3 years (~1.2%/yr extra). Net cash ~¥532bn (ND/EBITDA ~-1.4x) provides downside support and optionality. Wide moat (near-monopoly in EUV mask blanks; duopoly HDD glass substrates) justifies the upper end of the terminal-g range in the base case.",
+ "method_notes": "10-year two-stage owner-earnings DCF in JPY. WACC = Rf(1.3%, Japan 10Y) + ERP(5.0%) x beta(0.95) = 6.05%; no geopolitical adjustment (Japan domicile; +1.5% Taiwan adj not applicable). Beta 0.95 reflects HOYA's blend of semi-cyclical IT (mask blanks, HDD substrates) and defensive Life Care (eyeglass/contact lenses). Phase 1 (yrs 1-5): explicit revenue CAGR with FCF margin stabilized at ~21% of revenue on owner earnings. Phase 2 (yrs 6-10): CAGR declines linearly toward normalization. Terminal value via Gordon growth on year-10 FCF (g 2.5-3.5% by moat/scenario). Flows discounted at WACC; EV + net cash (~¥532bn) / 0.3345bn diluted shares = IV/share. Owner FCF = reported FCF - 100% SBC. Base owner FCF ¥197bn is a normalization (full-year FCF not cleanly disclosed; deck shows ¥65.8bn Q4 and ~¥260bn annualized run-rate, hair-cut for elevated growth capex during the Singapore/Vietnam build-out). Net debt is negative (net cash); net_debt_usd_b -3.5 at USD/JPY ~157. SBC immaterial. Sources: HOYA FY25 Q4 IR deck (2026-04-30), StockAnalysis.com (price, shares ~334.5M, net cash), light web check on FY FCF/share and share count."
+}

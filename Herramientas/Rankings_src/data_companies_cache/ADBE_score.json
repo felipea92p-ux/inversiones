@@ -1,0 +1,59 @@
+{
+ "ticker": "ADBE",
+ "name": "Adobe Inc.",
+ "rules": {
+  "R1": {
+   "score": 2,
+   "just": "Software puro con margen operativo GAAP 36.6% y margen FCF 41.4% que escala con cada dolar de ARR ($27.1B, +12.5%) sin coste marginal -> escalabilidad monstruosa, 2.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Creatividad/documentos digitales es secular y la IA generativa amplia el TAM (Firefly, AI-first ARR triplicado >$500M), aunque la misma IA introduce incertidumbre disruptiva que limita la claridad a 1.5."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Lider #1 indiscutible en creatividad profesional (Photoshop/PDF estandar de facto) con ventaja enorme, pero retadores de IA (Canva, Midjourney, OpenAI) erosionan el aire libre que tendria un 2.0."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Foso fuerte por costes de cambio (flujos de trabajo, formatos propietarios PDF/PSD) y marca, pero la IA generativa reduce la barrera de entrada creativa, por lo que no es irreplicable en decadas -> 1.5."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento +11% organico/cc con ARR +12.5% sin depender de M&A grande (Figma abortado), motor de suscripcion genuino -> 1.5."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Diversificado entre Digital Media y Digital Experience, base de millones de suscriptores sin cliente >10% y presencia global multi-geografia -> 1.5."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "Capex ridiculo ($179M, 0.8% de ingresos), FCF/NI muy por encima de 80% (FCF $9.85B vs NI ~$6.6B) y ROIC claramente >WACC pese a no estar verificado el dato exacto -> 1.5."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Balance solido: deuda neta solo +$1.02B y ND/EBITDA ~0.1x (FY2025 incluso tenia caja neta), invertido temporalmente en recompras agresivas -> 1.5."
+  },
+  "R9": {
+   "score": 0.5,
+   "just": "REGLA DURA: SBC verificada 19.7% del FCF (>15%), por lo que R9 queda topado en 0.5 pese a contabilidad limpia y sin red flags."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Asignacion de capital pro-accionista con recompras oportunistas a multiplo deprimido, pero la salida del CFO dias tras resultados y el SBC elevado restan, manteniendo en base 1.0."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (escalabilidad de software, 2.0), R3 (liderazgo #1 en creatividad) y R4 (costes de cambio + formatos propietarios) se refuerzan: el estandar de facto PDF/PSD encierra al cliente y permite monetizar cada nueva funcion de IA sobre una base instalada cautiva con coste marginal cercano a cero. La amplificacion esta atenuada porque la misma IA que Adobe monetiza es el vector que amenaza la durabilidad del foso, por eso R3/R4 quedan en 1.5 y no 2.0.",
+ "moat_type": "Costes de cambio + intangibles (formatos propietarios/marca)",
+ "moat_one_line": "Estandar de facto creativo y documental (Photoshop, PDF) con formatos propietarios y flujos de trabajo que encierran a profesionales y empresas en suscripciones recurrentes.",
+ "thesis_3lines": [
+  "Calidad: software puro con margen FCF 41.4%, capex de 0.8% de ingresos y $27.1B de ARR recurrente sobre un foso de costes de cambio y estandares de facto (PDF/PSD).",
+  "Motor: crecimiento organico +11-13% acelerando, con IA-first ARR triplicado a >$500M y guia FY26 elevada a $26.5B en ingresos y BPA non-GAAP ~$24.40.",
+  "Valoracion: fwd P/E ~7.9x vs media 5A de 32.4x (descuento -76%, PEG 0.55); el mercado descuenta una caida fundamental que los resultados record contradicen."
+ ],
+ "bear_case_strongest": "La IA generativa (Midjourney, OpenAI, Canva, Google) colapsa el coste de crear contenido profesional y permite que sustitutos baratos erosionen el pricing power y los costes de cambio de Adobe, convirtiendo el foso en valor-trampa donde el multiplo barato refleja deterioro estructural real y no miedo pasajero.",
+ "sbc_flag": "sbc_gt_15_fcf",
+ "ethical_flag": "none",
+ "notes": "Score total re-puntuado FASE 2: R1 2.0 + R2 1.5 + R3 1.5 + R4 1.5 + R5 1.5 + R6 1.5 + R7 1.5 + R8 1.5 + R9 0.5 + R10 1.0 = 14.0 bruto, topado al techo 13.5. La unica penalizacion dura es R9=0.5 por SBC 19.7% del FCF (>15%, <25%). Caida clasificada fear_rotation: resultados record (+13% ingresos, ARR +12.5%, guia elevada, AI ARR triplicado) frente a accion -51% desde max 52s y -73% desde ATH; el desplome refleja miedo a disrupcion por IA y ruido (salida del CFO), no deterioro fundamental. Campos estimados (precio, fwd P/E, ROIC, op margin Q2) no alteran las conclusiones cualitativas. ROIC no verificado pero inferido muy >WACC dado capex de 0.8% y FCF $9.85B."
+}

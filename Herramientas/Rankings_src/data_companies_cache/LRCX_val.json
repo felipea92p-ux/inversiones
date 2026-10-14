@@ -1,0 +1,48 @@
+{
+ "ticker": "LRCX",
+ "name": "Lam Research Corporation",
+ "currency": "USD",
+ "price_verified": 409.54,
+ "price_source": "StockAnalysis.com (close 2026-06-22), cross-checked vs Yahoo Finance / Macrotrends; mcap ~$512B consistent",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 1.257,
+ "implied_mcap_b_usd": 514.8,
+ "mcap_sanity_ok": true,
+ "structural_change": "POSITIVE but largely CYCLICAL. Genuine structural tailwind: AI/datacenter capex shifting WFE from consumer-driven cycles to infrastructure-led demand; gross margin pushing to ~50% (guided), record EPS, ROIC ~48% (53% TTM), net cash, low SBC (1.9% of revenue). However the bulk of the recent re-rating is CYCLICAL: forward P/E 51.8x vs 5y avg ~24x (+116% premium) is an AI-supercycle peak multiple, not a permanent structural step-up. No structural DETERIORATION; the risk is mean-reversion of the multiple, not of the franchise. Modest structural uplift to the fair multiple justified (margin/mix), but NOT the full current premium.",
+ "wacc_pct": 11,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.35,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF = FCF reportado - 100% SBC. FY2025: 5,414M - 343M = 5,071M (~$4.03/sh). Forward FY2026 run-rate base usado en DCF: ~6,300M owner FCF (TTM FCF ~6,005M y guia FY26 rev ~$23.2B con FCF margin ~29% => FCF ~6.7B, menos SBC ~0.4B). ~$5.01/sh forward.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 78.45,
+   "prob": 0.38,
+   "note": "WFE se normaliza tras el build-out de IA. Fase1 g=7%, Fase2 decae a 3%, terminal 2.5%, WACC 11%. Pesimista razonable (no apocaliptico): demanda IA se enfria pero sin colapso ciclico severo."
+  },
+  "base": {
+   "iv_per_share": 115.44,
+   "prob": 0.47,
+   "note": "Demanda WFE impulsada por IA fuerte y luego desacelera. Fase1 g=13%, Fase2 decae a 5%, terminal 3%, WACC 11%."
+  },
+  "optimista": {
+   "iv_per_share": 162.19,
+   "prob": 0.15,
+   "note": "Supercicло de capex IA persiste. Fase1 g=18%, Fase2 decae a 7%, terminal 3.5%, WACC 11%."
+  }
+ },
+ "iv_dcf_weighted": 108.4,
+ "multiple_metric": "fwd P/E (EPS non-GAAP FY proximo)",
+ "fwd_multiple_now": 51.77,
+ "fwd_multiple_5y_avg": 24,
+ "fair_multiple": 26,
+ "multiple_rationale": "Ancla = media 5a del P/E adelantado (~24x). Aplico una pequena PRIMA estructural (a 26x) por la mejora real de calidad: margen bruto guiado ~50%, mix IA/datacenter, ROIC ~48%, caja neta y SBC muy bajo. NO uso el multiplo actual de 51.8x: el +116% de prima sobre la media 5a es una prima ciclica de pico (supercicло IA), no un re-rating estructural permanente. iv_multiple = EPS FY2027e ~$7.04 (FY2026e $5.68 x consenso ~+24% YoY) x 26 = $183. (Sobre EPS FY2026e $5.68 x 26 daria $148.)",
+ "iv_multiple": 183.04,
+ "weight_dcf": 0.55,
+ "weight_multiple": 0.45,
+ "reconciled_iv": 142,
+ "sanity_notes": "SANITY: implied_mcap = 409.54 x 1.257B = $514.8B, coincide con escala conocida (~$512B StockAnalysis). Acciones verificadas via 10-Q Q3 FY2026 (diluidas trimestre 1,257M; 9M 1,263M). Moneda USD; precio y todos los IV en USD. REGLA DE MAGNITUD: reconciled_iv $142 = 35% del precio $409.54, JUSTO dentro de la banda 30-300%. NO es error de unidades/moneda/acciones (todo re-verificado: shares 1.257B, USD, FCF FY2025 $5.41B / TTM $6.0B correctos). El gran descuento del IV vs precio es REAL: LRCX cotiza a 51.8x P/E adelantado vs media 5a ~24x, en maximo historico (+352% en 52 sem, clasificado not_depressed). El propio PT de consenso ($335.74) esta -18% bajo el precio. El DCF puro (owner earnings) infra-credita el reinvertir a ROIC alto, por eso pondero 45% al ancla de multiplo; aun asi, con multiplo justo de 26x (prima sobre media historica) y crecimiento IA generoso, el fundamental soporta ~$140/accion. Conclusion: franquicia de calidad CICLICA cotizando a perfeccion; sobrevalorada frente a valor intrinseco. Pesos 0.55 DCF / 0.45 multiplo por ser nombre ciclico, de alto capex y con incertidumbre de pico de ciclo (mas DCF que un compounder estable)."
+}

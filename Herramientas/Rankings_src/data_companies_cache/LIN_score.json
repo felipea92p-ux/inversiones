@@ -1,0 +1,59 @@
+{
+ "ticker": "LIN",
+ "name": "Linde plc",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Margenes ya excepcionales (op margin 27.8% Q1, adj op margin 30.0%) y en mejora gradual, pero gases industriales NO escalan como software/redes por capex inherente ~15-16% ventas; margenes altos sin apalancamiento operativo de red."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Industria de gases industriales con vientos seculares duraderos (descarbonizacion, hidrogeno limpio, semis/electronica, salud); aunque el organico FY2025 fue solo +2% por madurez ciclica, el backlog de proyectos clean-energy es multi-anual."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Lider mundial #1 indiscutible tras la fusion Praxair-Linde, escala global muy superior a Air Liquide (#2), dominancia monstruosa en densidad de red regional dificil de replicar."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat de decadas: contratos take-or-pay de 15-20 anos, densidad de pipelines/plantas on-site, costes de cambio prohibitivos y economias de densidad regional que sostienen ROC 24.2%; irreplicable sin decadas de capex."
+  },
+  "R5": {
+   "score": 1,
+   "just": "Crecimiento organico positivo pero lento (+2% subyacente FY2025: precio +2%, volumen plano, M&A +1%); motor es pricing y backlog mas que volumen dinamico, sin dependencia destructiva de M&A."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Diversificacion excelente: sin cliente >10-15%, multi-geografia (Americas/EMEA/APAC) y multi-sector final (manufactura, salud, energia, electronica, alimentos), base de ingresos muy granular y resiliente."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROC 24.2% muy por encima del WACC, FCF $5.089M, conversion solida (FCF/NI ~74% deprimido por capex de crecimiento de alto retorno); intensidad de capital inherente NO penaliza dado ROIC>>WACC."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Balance solido: ND/EBITDA 1.74x (<2x), deuda neta $22.4B manejable contra EBITDA ajustado $12.8B, rating A; sin estres financiero pese a no tener caja neta."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "Contabilidad limpia y conservadora: SBC verificada solo 3.22% del FCF (0.48% ventas), muy por debajo del umbral del 15%, brecha GAAP-vs-adj razonable; calidad contable superior."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Asignacion de capital de elite: capex de alto retorno + buybacks consistentes + dividendos crecientes 30+ anos, margenes en expansion post-fusion, sin M&A destructora de valor."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R3+R4 se refuerzan de forma monstruosa: el liderazgo global #1 (R3=2.0) descansa en el mismo moat irreplicable (R4=2.0) de densidad de red regional y contratos take-or-pay de 15-20 anos, un circulo virtuoso donde la escala genera economias de densidad que ningun rival replica sin decadas de capex. R1 es solido (margenes 30%) pero sin apalancamiento operativo tipo software, asi que la amplificacion descansa en el binomio dominancia-moat.",
+ "moat_type": "Costes de cambio + escala/densidad de red",
+ "moat_one_line": "Densidad regional de pipelines/plantas on-site y contratos take-or-pay de 15-20 anos generan costes de cambio prohibitivos y economias de densidad irreplicables.",
+ "thesis_3lines": [
+  "Calidad: lider mundial #1 en gases industriales con moat de decadas (ROC 24.2%, margen op 30%, SBC casi inexistente al 3.2% del FCF) y balance grado A (ND/EBITDA 1.74x).",
+  "Motor: crecimiento organico lento (~2%) compuesto por pricing resiliente y un backlog secular de descarbonizacion/hidrogeno/electronica que sostiene la guia de EPS +7-9% para FY2026.",
+  "Valoracion: ~28x fwd PE (-19.5% vs su media 5a de 35x pero caro en absoluto, PEG 3.5) y a -1.7% de maximos; calidad excepcional sin margen de seguridad, no deprimida."
+ ],
+ "bear_case_strongest": "A ~28x fwd PE y PEG 3.5 sobre crecimiento organico de solo ~2%, el mercado paga multiplo de compounder por un negocio movido por pricing+backlog y no por volumen, cerca de su ATH y sin margen de seguridad; una desaceleracion del capex de clean-energy o una reversion del multiplo hacia su media historica destruiria retornos pese a la calidad indiscutible.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Score re-puntuado bruto = R1 1.0 + R2 1.5 + R3 2.0 + R4 2.0 + R5 1.0 + R6 1.5 + R7 1.5 + R8 1.5 + R9 1.5 + R10 1.5 = 15.0 sobre techo 13.5, se capa en 13.5/13.5. Calidad indiscutible (lider global, moat de decadas, contabilidad limpia, SBC 3.2% FCF sin penalizacion R9). Unico problema: valoracion not_depressed, a -1.7% de ATH, ~28x fwd PE con PEG 3.5 sobre organico ~2%. Conclusion: WATCHLIST de altisima calidad; esperar correccion para entrada. ROC=Return on Capital after-tax reportado por Linde, no ROIC clasico."
+}

@@ -1,0 +1,42 @@
+{
+ "ticker": "RMS.PA",
+ "currency": "EUR",
+ "current_price": 1620,
+ "name": "Hermès International SCA",
+ "wacc_pct": 7.55,
+ "wacc_components": {
+  "rf_pct": 2.8,
+  "erp_pct": 5,
+  "beta": 0.95,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = FY2025 FCF ajustado reportado €3,880M − 100% de la SBC. SBC ≈0.8% de ingresos = ~€128M (€16,002M × 0.8%). Owner FCF = €3,880M − €128M = €3,752M, margen owner-FCF ≈23.5% sobre ingresos de €16,002M. La SBC en Hermès es inmaterial (predomina retribucion en efectivo/bonos), por lo que el ajuste reduce el FCF solo ~3.3%.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 8.5,
+  "rev_cagr_y6_10_pct": 6.5,
+  "fcf_margin_terminal_pct": 26,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC restada del FCF como gasto en efectivo (≈€128M, 0.8% de ingresos). Impacto inmaterial: el owner FCF queda en €3,752M vs €3,880M reportado.",
+  "shares_diluted_b": 0.1056,
+  "net_debt_usd_b": -14
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 1054,
+   "prob": 0.375,
+   "note": "Desaceleracion del lujo y normalizacion: CAGR ingresos +6% anios 1-5 declinando a ~3.5% anios 6-10; margen owner-FCF estable ~24.5% (sin expansion); g terminal 2.5%. Refleja un de-rating estructural del lujo + viento en contra FX persistente, pero NO una contraccion de demanda. IV €1,054 implica ~-35% vs precio: el mercado paga hoy por mas crecimiento del pesimista."
+  },
+  "base": {
+   "iv_per_share": 1372,
+   "prob": 0.475,
+   "note": "Consistente con el track record (FY25 +8.9% cc, Q1-26 +6% cc, margen operativo 41%, ROIC 28%): CAGR ingresos +8.5% anios 1-5 declinando a ~4.5% anios 6-10; margen owner-FCF expande gradualmente a 26% por apalancamiento operativo y pricing power; g terminal 3.0% (foso excepcional). IV €1,372 ≈ -15% vs precio €1,620 -> la accion sigue cara incluso tras caer -35% desde maximos."
+  },
+  "optimista": {
+   "iv_per_share": 1676,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: CAGR ingresos +11% anios 1-5 (capacidad de cuero/marroquineria + lista de espera Birkin/Kelly) declinando a ~5.5%; margen owner-FCF a 27.5%; g terminal 3.0%. IV €1,676 ≈ +3% vs precio. Solo con crecimiento sostenido de doble digito y mejora de margen el precio actual queda justificado."
+  }
+ },
+ "sanity_check": "A €1,620 Hermès cotiza a fwd P/E 37.2 (vs media 5a ~46, descuento -19%) y PEG ~4.7 — caro en absoluto pese a la caida -35% desde maximos 52s y -45% desde ATH. El DCF de owner earnings da VI base €1,372 (≈-15% vs precio), VI ponderado por probabilidad ≈€1,298 (≈-20%): el precio solo se justifica bajo el escenario optimista (ejecucion casi perfecta). Rendimiento total al accionista como contraste (NO DDM): dividendo ~€18/accion = ~1.1% de yield; recompras inmateriales y balance con caja neta +€12.2B (ND/EBITDA ~-1.7x) — el retorno depende casi enteramente de la composicion del crecimiento, no del reparto de capital. La caida es 'fear_rotation' (el -1% de ingresos Q1 a tipos corrientes es casi todo FX, -€290M, no deterioro de demanda; +6% cc), por lo que el riesgo es de VALORACION, no de calidad del negocio. Margen de seguridad negativo al precio actual: empresa de calidad excepcional a precio exigente.",
+ "method_notes": "DCF de OWNER EARNINGS a 10 anios en EUR (moneda de cotizacion). Owner FCF = FCF ajustado reportado €3,880M − 100% SBC (≈€128M, 0.8% ingresos) = €3,752M base (margen 23.5%). Fase 1 (anios 1-5): CAGR de ingresos explicito por escenario; margen owner-FCF rampa linealmente hacia el margen terminal. Fase 2 (anios 6-10): CAGR de ingresos declina linealmente hacia normalizacion. Valor terminal de Gordon sobre owner FCF del anio 10 con g=2.5-3.0% (g mas alto en base/optimista por foso excepcional: marca de lujo inimitable, pricing power, lista de espera, control de distribucion). WACC=7.55% = Rf 2.8% (eurozona, RMS domiciliada en Francia) + ERP 5.0% × beta 0.95 (lujo de gama alta, baja ciclicidad relativa, sin apalancamiento -> beta por debajo de 1.0); SIN ajuste geopolitico (no Taiwan). Acciones diluidas = 105.6M (~104.78M a fin-2024 verificado via web; el market_cap €180.47B del JSON implicaba 111.4M e era inconsistente con precio €1,620 × acciones reales = €171B, por lo que use el conteo real de acciones para el VI/accion). Deuda neta NEGATIVA: caja neta +€12,239M (el campo net_debt_usd_b=-14 esta en USD; en EUR son -€12.24B) sumada al equity value. VI/accion = (PV flujos + PV valor terminal + caja neta) / acciones diluidas. El valor terminal pesa ~65-71% del EV (tipico de un compounder de larga duracion), lo que hace el VI sensible al WACC y a g. Fuentes: FASE 2 JSON (PR primarios IR de Hermès FY2025 y Q1-2026) + verificacion ligera del conteo de acciones (companiesmarketcap/Yahoo Finance)."
+}

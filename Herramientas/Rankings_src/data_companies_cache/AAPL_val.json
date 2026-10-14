@@ -1,0 +1,48 @@
+{
+ "ticker": "AAPL",
+ "name": "Apple Inc.",
+ "currency": "USD",
+ "price_verified": 297.01,
+ "price_source": "StockAnalysis.com (cross-checked vs Yahoo/companiesmarketcap; reported mcap $4.36T)",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 14.69,
+ "implied_mcap_b_usd": 4363,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 9,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.95,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF = FY2025 FCF $98.767B - 100% SBC $12.863B = $85.9B (FCF margin 23.7%; capex light, $12.7B). Net cash $61.88B added to EV in each scenario.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 111.44,
+   "prob": 0.38,
+   "note": "Phase1 (yr1-5) 5% CAGR, Phase2 (yr6-10) declining 5%->3%, terminal g 2.5%. Reasonable pessimist: iPhone share erosion in China, AI/Siri lag, App Store + Google TAC regulatory headwinds compress Services growth. Not apocalyptic - franchise intact."
+  },
+  "base": {
+   "iv_per_share": 140.25,
+   "prob": 0.47,
+   "note": "Phase1 8% CAGR, Phase2 declining 8%->4%, terminal g 3.0%. Mid-single to low-double-digit blended growth: Services double-digit, iPhone replacement supercycle (iPhone 17), buybacks shrinking share count. Pure DCF under-credits high-ROIC reinvestment."
+  },
+  "optimista": {
+   "iv_per_share": 178.28,
+   "prob": 0.15,
+   "note": "Phase1 11% CAGR, Phase2 declining 11%->5%, terminal g 3.5%. China recovery + AI monetization re-rate + Services acceleration; sustained mid-teens FCF growth early."
+  }
+ },
+ "iv_dcf_weighted": 135.01,
+ "multiple_metric": "P/E (forward, GAAP EPS)",
+ "fwd_multiple_now": 32.6,
+ "fwd_multiple_5y_avg": 28.5,
+ "fair_multiple": 27,
+ "multiple_rationale": "Fair multiple anchored to the 5y avg forward P/E of 28.5x with a modest ~5% haircut to 27x for genuine structural concerns (China share erosion, AI/Siri execution lag, regulatory risk to Google TAC payments and App Store economics) - not merely ciclical. Current fwd P/E 32.6x is a ~14% premium to its own 5y average, so anchoring to the historical mean (haircut) is conservative. P/E on GAAP fwd EPS already fully expenses SBC, so no separate SBC haircut is applied to avoid double-counting (the DCF leg handles SBC explicitly). iv_multiple = implied fwd GAAP EPS $9.11 x 27 = $245.99.",
+ "iv_multiple": 245.99,
+ "weight_dcf": 0.35,
+ "weight_multiple": 0.65,
+ "reconciled_iv": 207.15,
+ "structural_change": "No structural break to the franchise, but real (non-ciclical) headwinds warrant the multiple haircut: (1) AI/Siri execution lag vs peers; (2) China iPhone share erosion and local competition; (3) regulatory risk to the ~$20B+ Google TAC payments (DOJ/antitrust) and App Store take-rate (DMA/Epic). Offsets: fortress net-cash balance sheet ($61.88B), 55% ROIC, double-digit Services, aggressive buybacks shrinking the share count. Quality compounder, not a melting ice cube.",
+ "sanity_notes": "Price $297.01 x 14.69B sh = $4,363B, matches reported $4.36T mcap -> mcap_sanity_ok=true. Reconciled IV $207.15 is ~70% of the $297 price, inside the 30-300% magnitude band -> no units/currency/shares error. Pure DCF ($135) sits well below price because it structurally under-credits Apple's decades-long high-ROIC reinvestment and buyback compounding - hence the framework's higher weight (0.65) on the multiple anchor for this proven stable compounder. Even so, reconciled IV $207 < price $297: AAPL screens EXPENSIVE near record highs (~6% off ATH), trading at a 14% premium to its own 5y forward multiple. All figures in USD (quotation = reporting currency). Owner FCF after 100% SBC = $85.9B. WACC 9.0% (Rf 4.3% + ERP 5.0% x beta 0.95; defensive low-beta mega-cap, net cash)."
+}

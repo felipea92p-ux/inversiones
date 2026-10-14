@@ -1,0 +1,59 @@
+{
+ "ticker": "VRSK",
+ "name": "Verisk Analytics, Inc.",
+ "rules": {
+  "R1": {
+   "score": 1.5,
+   "just": "Modelo de datos/analitica con margenes operativos del 45% (Q1'26) y adj EBITDA ~56%, altamente escalable (coste marginal de servir datos casi nulo), pero no es software de red puro -> 1.5, no 2.0."
+  },
+  "R2": {
+   "score": 1,
+   "just": "Analitica de seguros P&C con vientos seculares (digitalizacion del underwriting, riesgo climatico), pero crecimiento organico FY25 6.6% y Q1'26 +3.9% -> secular pero moderado, no explosivo."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Lider indiscutible #1 en analitica de seguros P&C en EEUU (ISO/AIR), cuota dominante en datos de siniestros, deja al 2o muy atras pero no a 'anios-luz' en todos los nichos -> 1.5."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat de intangibles/datos propietarios decadas de loss-cost data + costes de cambio regulatorios y de integracion, fuerte pero el propio mercado teme comoditizacion por IA -> 1.5 robusto, no 2.0."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento organico FY25 6.6% (constante 4.7% Q1'26) tras desinversiones de no-core; el motor es organico recurrente (subscripcion), no roll-up de M&A -> 1.5."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Base de clientes amplia (aseguradoras P&C) sin concentracion >10-15% en un cliente, pero exposicion vertical concentrada en seguros y geografia mayoritariamente EEUU -> 1.0."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "FCF margin 38.8% FY25 ($1,191.9M), capex bajo (~8% rev), FCF/NI muy alto y capital-light; ROIC no extraido de fuente primaria (null) pero negocio historicamente ROIC alto -> 1.5 prudente."
+  },
+  "R8": {
+   "score": 1,
+   "just": "ND/EBITDA ~2.2x (deuda neta $3.95B), por encima del umbral <2x preferido tras recompra apalancada que drenó caja de $2.18B a $0.52B -> 1.0, no superior."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "SBC verificada solo 1.76% de ingresos y 4.5% del FCF (muy por debajo del umbral duro del 15%), contabilidad limpia GAAP cercana a adj -> 1.5, sin penalizacion SBC."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Gestion reafirmó guia FY2026 con transparencia y hace recompras, pero el apalancamiento de la caja para buybacks a multiplos historicamente altos resta puntos de asignacion oportunista -> 1.0."
+  }
+ },
+ "amplification": false,
+ "amplification_note": "R1 (escalable, margenes ~45-56%), R3 (lider #1 P&C) y R4 (moat de datos) se refuerzan y forman un nucleo de calidad solido, pero NO de forma 'monstruosa e irreplicable en decadas': ninguno alcanza 2.0, el crecimiento organico es moderado (3.9-6.6%) y el mercado cuestiona activamente la durabilidad del foso frente a la IA. No procede amplification=true.",
+ "moat_type": "intangibles_datos_propietarios",
+ "moat_one_line": "Decadas de loss-cost data propietaria (ISO/AIR) embebida en el underwriting regulatorio de las aseguradoras P&C, con altos costes de cambio e integracion que producen ingresos por subscripcion recurrentes.",
+ "thesis_3lines": [
+  "CALIDAD: negocio de datos capital-light con margenes operativos ~45% y adj EBITDA ~56%, FCF margin 38.8% y SBC minima (1.76% rev), foso de intangibles/costes de cambio en seguros P&C.",
+  "MOTOR: crecimiento organico recurrente por subscripcion 6.6% FY25 (la direccion califica el 3.9% de Q1'26 como 'trough' transitorio por clima benigno) con palancas de pricing y nuevos productos analiticos.",
+  "VALORACION: fwd P/E 21.3x (~-29% vs su media historica) tras desplomarse -47.7% desde ATH por miedo a comoditizacion por IA y desaceleracion transitoria; reset por rotacion/miedo con economia intacta -> entrada con descuento."
+ ],
+ "bear_case_strongest": "Si la IA generativa comoditiza el acceso a datos de riesgo y permite a aseguradoras o nuevos entrantes replicar la analitica de Verisk internamente, el foso de datos propietarios se erosiona estructuralmente y el crecimiento organico ya en 'trough' (3.9%) resulta ser el inicio de una desaceleracion secular que no justifica ni el multiplo comprimido actual.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Score re-puntuado FASE 2 = 13.0/13.5 (R1 1.5 + R2 1.0 + R3 1.5 + R4 1.5 + R5 1.5 + R6 1.0 + R7 1.5 + R8 1.0 + R9 1.5 + R10 1.0). Sube vs preliminar 12/13.5 al confirmar SBC excepcionalmente baja (4.5% FCF -> R9 1.5 sin penalizacion) y calidad de FCF/margenes. Limitantes: ND/EBITDA ~2.2x por encima del umbral <2x (R8 1.0), ROIC FY25 no verificado en fuente primaria (null -> R7 prudente en 1.5), concentracion vertical/geografica en seguros EEUU (R6 1.0). Sin amplificacion: el nucleo R1/R3/R4 es solido pero ningun pilar alcanza 2.0 y el mercado cuestiona la durabilidad del foso frente a IA. Clasificacion del desplome: fear_rotation (guia reafirmada, margenes adj EBITDA al alza, FCF ~39%)."
+}

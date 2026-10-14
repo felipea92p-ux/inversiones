@@ -1,0 +1,936 @@
+<title>Los 36 y su precio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{--papel:#F4F6F4;--papel2:#EAEDEA;--tarjeta:#FFFFFF;--linea:#D3D9D4;--linea2:#BFC7C1;
+--tinta:#141A22;--tinta2:#3E4852;--tinta3:#6B7680;--azul:#1F4E79;--azul-suave:#E4ECF3;
+--ambar:#A66A00;--ambar-suave:#F6EDDC;--teja:#A33A1F;--teja-suave:#F7E6E1;
+--verde:#2C6B52;--verde-suave:#E2EFE8;--violeta:#5B4B8A;--violeta-suave:#ECE8F5;--max:1240px}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--papel:#10151A;--papel2:#161C22;--tarjeta:#1A2128;--linea:#2C353D;--linea2:#3C4750;--tinta:#E8EDEA;--tinta2:#B4BEC4;--tinta3:#8794A0;--azul:#7FB2DC;--azul-suave:#17293A;--ambar:#E0A64A;--ambar-suave:#312512;--teja:#E38A6E;--teja-suave:#33190F;--verde:#6FBF9A;--verde-suave:#122A20;--violeta:#A897D8;--violeta-suave:#221C33}}
+:root[data-theme="dark"]{--papel:#10151A;--papel2:#161C22;--tarjeta:#1A2128;--linea:#2C353D;--linea2:#3C4750;--tinta:#E8EDEA;--tinta2:#B4BEC4;--tinta3:#8794A0;--azul:#7FB2DC;--azul-suave:#17293A;--ambar:#E0A64A;--ambar-suave:#312512;--teja:#E38A6E;--teja-suave:#33190F;--verde:#6FBF9A;--verde-suave:#122A20;--violeta:#A897D8;--violeta-suave:#221C33}
+*{box-sizing:border-box}
+body{margin:0;background:var(--papel);color:var(--tinta);font-family:"IBM Plex Sans",-apple-system,sans-serif;font-size:16px;line-height:1.62;-webkit-font-smoothing:antialiased}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px 96px}
+h1,h2{text-wrap:balance;margin:0;font-family:"Instrument Serif",Georgia,serif;font-weight:400}
+h1{font-size:clamp(2.6rem,6vw,4.4rem);line-height:1.02}
+h2{font-size:clamp(1.7rem,3.2vw,2.4rem);line-height:1.1}
+p{margin:0 0 1em}
+.lbl{font-family:"IBM Plex Mono",monospace;font-size:.66rem;font-weight:600;letter-spacing:.13em;text-transform:uppercase;color:var(--tinta3);display:block}
+.mono{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums}
+header.top{border-bottom:2px solid var(--tinta);padding:44px 0 26px;margin-bottom:38px}
+.eyebrow{font-family:"IBM Plex Mono",monospace;font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--azul);font-weight:600;margin-bottom:14px}
+.sub{font-size:1.12rem;color:var(--tinta2);max-width:64ch;margin-top:16px}
+.meta{display:flex;flex-wrap:wrap;gap:0 34px;margin-top:24px;padding-top:18px;border-top:1px solid var(--linea)}
+.meta strong{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;font-size:.94rem;font-weight:500}
+.veredicto{background:var(--tarjeta);border:1px solid var(--linea);border-left:5px solid var(--azul);padding:28px 30px;margin:0 0 40px;border-radius:2px}
+.veredicto h2{margin-bottom:12px}
+.taxo{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:22px 0 44px}
+.tx{background:var(--tarjeta);border:1px solid var(--linea);border-radius:2px;padding:12px 14px}
+.tx .tn{font-family:"Instrument Serif",Georgia,serif;font-size:1.7rem;color:var(--azul);line-height:1}
+.tx p{margin:6px 0 0;font-size:.78rem;color:var(--tinta2);line-height:1.4}
+.bloque{margin:0 0 56px;scroll-margin-top:20px}
+.bh{display:flex;align-items:flex-start;gap:20px;padding-bottom:14px;border-bottom:2px solid var(--tinta);margin-bottom:16px}
+.bnum{font-family:"Instrument Serif",Georgia,serif;font-size:3.4rem;line-height:.8;color:var(--azul);min-width:52px}
+.bsub{margin:2px 0 0;color:var(--tinta2);font-size:.95rem}
+.tw{overflow-x:auto;border:1px solid var(--linea);border-radius:2px;background:var(--tarjeta)}
+table{border-collapse:collapse;width:100%;min-width:1040px}
+thead th{font-family:"IBM Plex Mono",monospace;font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--tinta3);font-weight:600;text-align:left;padding:11px 12px;border-bottom:1px solid var(--linea2);background:var(--papel2);position:sticky;top:0}
+tbody td{padding:13px 12px;border-bottom:1px solid var(--linea);vertical-align:top;font-size:.9rem}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--papel2)}
+th.d,td.d{text-align:right;font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;white-space:nowrap}
+th.rk,td.rk{width:30px;text-align:right;font-family:"IBM Plex Mono",monospace;color:var(--tinta3);font-size:.82rem}
+td.tk{min-width:150px}
+.tick{font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:.92rem;display:block}
+.nom{font-size:.78rem;color:var(--tinta3);display:block;line-height:1.3}
+td.mec{max-width:300px} td.vec{max-width:430px}
+.mtx{margin:0;font-size:.83rem;line-height:1.5}
+.vtxt{margin:0 0 4px;font-size:.8rem;line-height:1.48;color:var(--tinta2)}
+.ref{font-family:"IBM Plex Mono",monospace;font-size:.68rem;color:var(--tinta3);margin:0}
+.dim{color:var(--tinta3)}
+.nivpill{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:.72rem;font-weight:600;width:24px;height:24px;line-height:24px;text-align:center;border-radius:2px}
+.n1,.n2{background:var(--verde-suave);color:var(--verde)}
+.n3,.n4{background:var(--azul-suave);color:var(--azul)}
+.n5{background:var(--ambar-suave);color:var(--ambar)}
+.n6,.n7{background:var(--teja-suave);color:var(--teja)}
+.flag{display:inline-block;margin-left:5px;font-family:"IBM Plex Mono",monospace;font-size:.6rem;padding:2px 5px;border:1px solid var(--linea2);color:var(--violeta);border-radius:2px}
+section.txt{margin:0 0 48px}
+section.txt h2{padding-bottom:10px;border-bottom:2px solid var(--tinta);margin-bottom:20px}
+.nota{background:var(--papel2);border:1px solid var(--linea);border-left:4px solid var(--ambar);padding:18px 20px;margin:20px 0;border-radius:2px;font-size:.92rem}
+.nota strong{color:var(--ambar)}
+ul.lista{margin:0 0 1em;padding-left:20px} ul.lista li{margin-bottom:.55em}
+footer{border-top:1px solid var(--linea);padding-top:22px;margin-top:56px;font-size:.82rem;color:var(--tinta3)}
+:focus-visible{outline:2px solid var(--azul);outline-offset:2px}
+</style>
+<div class="wrap">
+<header class="top">
+  <div class="eyebrow">Ranking de ultracalidad · v2 · 26 de agosto de 2026</div>
+  <h1>Los 36 y su precio</h1>
+  <p class="sub">Treinta y seis fosos, ordenados por lo único que el instrumento validado sabe medir:
+  la <strong>durabilidad del mecanismo que les permite cobrar</strong>, a diez años. El dinero sólo veta
+  (knock-outs); el precio es una columna informativa, porque el motor de valoración quedó demostrado
+  incapaz de discriminar (B4 cerrado).</p>
+  <div class="meta">
+    <div><span class="lbl">Universo</span><strong>485 → 173 → 36</strong></div>
+    <div><span class="lbl">Puerta</span><strong>mecanismo, no ROIC</strong></div>
+    <div><span class="lbl">Agentes de verificación</span><strong>9 sobre filing primario</strong></div>
+    <div><span class="lbl">Tasa (candado B)</span><strong>r = 9,70%</strong></div>
+    <div><span class="lbl">Precios</span><strong>26-ago-2026</strong></div>
+  </div>
+</header>
+<div class="veredicto">
+  <h2>Veredicto primero</h2>
+  <p><strong>La v1 de esta lista estaba mal, y la queja de Felipe era correcta.</strong> Usaba filtros
+  financieros (ROIC, goodwill) como puerta de calidad — y eso mide un balance, no un foso. Por ahí se
+  colaron Adobe y Zoetis y se quedaron fuera GE Aerospace, Union Pacific, O'Reilly o Thomson Reuters,
+  que nunca habían pasado por los rankings del archivo. Esta v2 usa como puerta la taxonomía de mecanismos
+  del juicio ciego validado (ρ 0,969), verificada empresa a empresa contra filing primario por nueve agentes.</p>
+  <p><strong>El precio hoy no ordena nada con fiabilidad.</strong> El re-piloto del candado B4 devolvió
+  el mismo múltiplo autorizado — <span class="mono">15,047×</span> — para MercadoLibre y para Microsoft,
+  dos negocios sin nada en común. B4 sigue cerrado; la brecha del DCF inverso se publica como columna
+  marcada con asterisco, degradada y no ejecutable.</p>
+  <p><strong>Actualizado 26-ago, con 72 agentes de investigación fundamental: dos de las 36 muestran margen de seguridad hoy — NVDA y CSU.TO.</strong> Las otras 34 aparecen «caras» bajo el mismo instrumento, en su mayoría por la <code>g∞</code> que la Enmienda 30 asigna (0% o 2,32%), la misma restricción que la Prueba de Infalibilidad del 23-ago ya señaló como la más severa. Ver la sección «Valor intrínseco por acción» más abajo para el detalle empresa por empresa, con owner earnings y crecimiento verificados contra filing primario, no calculados mecánicamente.</p>
+</div>
+<section class="txt">
+  <h2>La vara: siete niveles de mecanismo</h2>
+  <div class="taxo">
+    <div class="tx"><div class="tn">1</div><p>Sin vector de disputa — ni tecnológico, ni regulatorio, ni de contraparte</p></div>
+    <div class="tx"><div class="tn">2</div><p>Coordinación: para irse hay que mover dos poblaciones a la vez</p></div>
+    <div class="tx"><div class="tn">3</div><p>Ausencia de destino: el cliente no tiene a dónde ir</p></div>
+    <div class="tx"><div class="tn">4</div><p>Peaje con la tarifa en manos propias</p></div>
+    <div class="tx"><div class="tn">5</div><p>Candado impuesto por un tercero que no cambia de opinión</p></div>
+    <div class="tx"><div class="tn">6</div><p>Mecanismo fuerte con una grieta ya medida en filing</p></div>
+    <div class="tx"><div class="tn">7</div><p>La tarifa la fija otro, o el foso hay que recomprarlo — no es ultracalidad</p></div>
+  </div>
+</section>
+
+<section class="txt" id="valor-intrinseco">
+  <h2>Valor intrínseco por acción — 72 agentes, empresa por empresa</h2>
+  <p>Para cada una de las 36 se corrieron dos agentes en cadena: uno determina el <strong>owner earnings correcto</strong>
+  y el <strong>crecimiento inicial (g0) evidenciado</strong> contra filing primario — corrigiendo la fórmula mecánica
+  donde se rompe; el segundo, en sesión limpia, intenta <strong>refutar</strong> al primero. El valor intrínseco sale de
+  un DCF multi-etapa con la tasa única del candado B (r=9,70%, sin excepción por empresa) y la <code>g∞</code> ya ganada
+  por ROIIC de cada una. El precio no entró en ningún momento en la determinación de owner earnings o g0 — sólo se cruza
+  al final.</p>
+
+  <div class="nota">
+    <strong>Sólo dos de las 36 muestran margen de seguridad hoy: <strong>NVDA</strong> (-24,5%) y <strong>CSU.TO</strong> (-13,6%).</strong>
+    Las otras 34 aparecen «caras» bajo este instrumento — y hay que leer eso con la misma cautela que el resto de la
+    sesión: la <code>g∞</code> que la Enmienda 30 asigna (0% cuando el ROIIC no es medible con la ventana de 4 años,
+    2,32% cuando sí lo es) es la misma restricción que la Prueba de Infalibilidad del 23-ago ya había señalado como el
+    culpable nº1 de que el motor sea "indiferente, no exigente". Este ejercicio no la corrige — corre con ella, tal
+    como está vigente hoy. Lo que SÍ aporta de nuevo frente al motor mecánico: dispersión real por empresa (NVDA y
+    UNP no reciben el mismo trato), en vez de la constante que salió del re-piloto de B4 el mismo día
+    (15,047× idéntico para MELI y MSFT).
+  </div>
+
+  <div class="tw"><table>
+    <thead><tr><th class="rk">#</th><th>Empresa</th><th class="d">Bloque</th><th class="d">Valor/acción</th>
+    <th class="d">Precio hoy</th><th class="d">Premio/descuento</th><th class="d">Gatillo de compra</th>
+    <th class="d">g0</th><th class="d">N1</th><th class="d">Sens. C-3</th><th>Confianza</th></tr></thead>
+    <tbody><tr>
+  <td class="rk">1</td>
+  <td class="tk"><span class="tick">NVDA</span><span class="nom">Nvidia</span></td>
+  <td class="d"><span class="bpill b3">3</span></td>
+  <td class="d">$279,5</td>
+  <td class="d">$211,0</td>
+  <td class="d br br-neg">-24,5%</td>
+  <td class="d">$167,7</td>
+  <td class="d">83,4%</td>
+  <td class="d">4a</td>
+  <td class="d">12.5</td>
+  <td><span class="chip v-limpio">ALTA</span><span class='flag' title='El agente verificador corrigio el crecimiento inicial g0 del investigador'>g0 refutado</span></td>
+</tr><tr>
+  <td class="rk">2</td>
+  <td class="tk"><span class="tick">CSU.TO</span><span class="nom">Constellation Software</span></td>
+  <td class="d"><span class="bpill b2">2</span></td>
+  <td class="d">$2.564,8</td>
+  <td class="d">$2.214,7</td>
+  <td class="d br br-neg">-13,6%</td>
+  <td class="d">$1.795,3</td>
+  <td class="d">20,6%</td>
+  <td class="d">8a</td>
+  <td class="d">2.0</td>
+  <td><span class="chip v-limpio">ALTA</span><span class='flag' title='El agente verificador corrigio el owner earnings del investigador'>OE refutado</span></td>
+</tr><tr>
+  <td class="rk">3</td>
+  <td class="tk"><span class="tick">MSFT</span><span class="nom">Microsoft</span></td>
+  <td class="d"><span class="bpill b2">2</span></td>
+  <td class="d">$411,9</td>
+  <td class="d">$495,2</td>
+  <td class="d br br-baja">+20,2%</td>
+  <td class="d">$288,3</td>
+  <td class="d">16,1%</td>
+  <td class="d">8a</td>
+  <td class="d">2.1</td>
+  <td><span class="chip v-grieta">BAJA</span></td>
+</tr><tr>
+  <td class="rk">4</td>
+  <td class="tk"><span class="tick">CPRT</span><span class="nom">Copart</span></td>
+  <td class="d"><span class="bpill b3">3</span></td>
+  <td class="d">$23,8</td>
+  <td class="d">$33,0</td>
+  <td class="d br br-baja">+38,4%</td>
+  <td class="d">$14,3</td>
+  <td class="d">7,4%</td>
+  <td class="d">6a</td>
+  <td class="d">1.9</td>
+  <td><span class="chip v-limpio">ALTA</span><span class='flag' title='El agente verificador corrigio el crecimiento inicial g0 del investigador'>g0 refutado</span></td>
+</tr><tr>
+  <td class="rk">5</td>
+  <td class="tk"><span class="tick">CME</span><span class="nom">CME Group</span></td>
+  <td class="d"><span class="bpill b2">2</span></td>
+  <td class="d">$176,2</td>
+  <td class="d">$279,8</td>
+  <td class="d br br-baja">+58,8%</td>
+  <td class="d">$123,3</td>
+  <td class="d">9,1%</td>
+  <td class="d">9a</td>
+  <td class="d">1.7</td>
+  <td><span class="chip v-limpio">ALTA</span></td>
+</tr><tr>
+  <td class="rk">6</td>
+  <td class="tk"><span class="tick">TRI</span><span class="nom">Thomson Reuters</span></td>
+  <td class="d"><span class="bpill b1">1</span></td>
+  <td class="d">$64,3</td>
+  <td class="d">$102,6</td>
+  <td class="d br br-baja">+59,5%</td>
+  <td class="d">$48,3</td>
+  <td class="d">7,0%</td>
+  <td class="d">6a</td>
+  <td class="d">1.9</td>
+  <td><span class="chip v-limpio">ALTA</span><span class='flag' title="Su -51,5% de ingresos es la venta del 55% de Financial &amp; Risk (creacion de Refinitiv, 2018), no ciclicidad. N1 restaurado de 4 a 6.">N1 corregido</span><span class='flag' title='El agente verificador corrigio el crecimiento inicial g0 del investigador'>g0 refutado</span></td>
+</tr><tr>
+  <td class="rk">7</td>
+  <td class="tk"><span class="tick">ADYEN.AS</span><span class="nom">Adyen</span></td>
+  <td class="d"><span class="bpill b3">3</span></td>
+  <td class="d">$773,8</td>
+  <td class="d">$1.250,2</td>
+  <td class="d br br-baja">+61,6%</td>
+  <td class="d">$464,3</td>
+  <td class="d">19,0%</td>
+  <td class="d">9a</td>
+  <td class="d">1.9</td>
+  <td><span class="chip v-limpio">ALTA</span></td>
+</tr><tr>
+  <td class="rk">8</td>
+  <td class="tk"><span class="tick">4684.T</span><span class="nom">OBIC</span></td>
+  <td class="d"><span class="bpill b3">3</span></td>
+  <td class="d">$18,4</td>
+  <td class="d">$30,0</td>
+  <td class="d br br-baja">+62,9%</td>
+  <td class="d">$11,1</td>
+  <td class="d">10,5%</td>
+  <td class="d">8a</td>
+  <td class="d">1.7</td>
+  <td><span class="chip v-limpio">ALTA</span></td>
+</tr><tr>
+  <td class="rk">9</td>
+  <td class="tk"><span class="tick">VEEV</span><span class="nom">Veeva Systems</span></td>
+  <td class="d"><span class="bpill b3">3</span></td>
+  <td class="d">$134,5</td>
+  <td class="d">$246,6</td>
+  <td class="d br br-baja">+83,3%</td>
+  <td class="d">$80,7</td>
+  <td class="d">14,0%</td>
+  <td class="d">8a</td>
+  <td class="d">1.8</td>
+  <td><span class="chip v-limpio">ALTA</span></td>
+</tr><tr>
+  <td class="rk">10</td>
+  <td class="tk"><span class="tick">MA</span><span class="nom">Mastercard</span></td>
+  <td class="d"><span class="bpill b1">1</span></td>
+  <td class="d">$322,4</td>
+  <td class="d">$596,8</td>
+  <td class="d br br-baja">+85,1%</td>
+  <td class="d">$241,8</td>
+  <td class="d">13,8%</td>
+  <td class="d">4a</td>
+  <td class="d">2.4</td>
+  <td><span class="chip v-limpio">ALTA</span></td>
+</tr><tr>
+  <td class="rk">11</td>
+  <td class="tk"><span class="tick">ADP</span><span class="nom">ADP</span></td>
+  <td class="d"><span class="bpill b2">2</span></td>
+  <td class="d">$143,8</td>
+  <td class="d">$282,0</td>
+  <td class="d br br-baja">+96,1%</td>
+  <td class="d">$100,6</td>
+  <td class="d">6,2%</td>
+  <td class="d">8a</td>
+  <td class="d">1.6</td>
+  <td><span class="chip v-degradado">MEDIA</span><span class='flag' title='El agente verificador corrigio el crecimiento inicial g0 del investigador'>g0 refutado</span></td>
+</tr><tr>
+  <td class="rk">12</td>
+  <td class="tk"><span class="tick">REL.L</span><span class="nom">RELX</span></td>
+  <td class="d"><span class="bpill b1">1</span></td>
+  <td class="d">$17,7</td>
+  <td class="d">$35,3</td>
+  <td class="d br br-baja">+99,7%</td>
+  <td class="d">$13,3</td>
+  <td class="d">7,6%</td>
+  <td class="d">10a</td>
+  <td class="d">1.6</td>
+  <td><span class="chip v-limpio">ALTA</span></td>
+</tr><tr>
+  <td class="rk">13</td>
+  <td class="tk"><span class="tick">VRSK</span><span class="nom">Verisk Analytics</span></td>
+  <td class="d"><span class="bpill b3">3</span></td>
+  <td class="d">$84,1</td>
+  <td class="d">$187,2</td>
+  <td class="d br br-alta">+122,6%</td>
+  <td class="d">$50,5</td>
+  <td class="d">7,2%</td>
+  <td class="d">8a</td>
+  <td class="d">1.7</td>
+  <td><span class="chip v-limpio">ALTA</span><span class='flag' title="Su -16,7% de ingresos son desinversiones (3E en 2022, Verisk Marketing Solutions en 2025), no ciclicidad. N1 restaurado de 4 a 8.">N1 corregido</span></td>
+</tr><tr>
+  <td class="rk">14</td>
+  <td class="tk"><span class="tick">7741.T</span><span class="nom">HOYA</span></td>
+  <td class="d"><span class="bpill b2">2</span></td>
+  <td class="d">$68,2</td>
+  <td class="d">$156,9</td>
+  <td class="d br br-alta">+130,1%</td>
+  <td class="d">$47,7</td>
+  <td class="d">9,4%</td>
+  <td class="d">8a</td>
+  <td class="d">1.7</td>
+  <td><span class="chip v-degradado">MEDIA</span><span class='flag' title='El agente verificador corrigio el owner earnings del investigador'>OE refutado</span></td>
+</tr><tr>
+  <td class="rk">15</td>
+  <td class="tk"><span class="tick">V</span><span class="nom">Visa</span></td>
+  <td class="d"><span class="bpill b2">2</span></td>
+  <td class="d">$165,0</td>
+  <td class="d">$381,6</td>
+  <td class="d br br-alta">+131,2%</td>
+  <td class="d">$115,5</td>
+  <td class="d">10,9%</td>
+  <td class="d">6a</td>
+  <td class="d">1.9</td>
+  <td><span class="chip v-limpio">ALTA</span><span class='flag' title='El agente verificador corrigio el owner earnings del investigador'>OE refutado</span></td>
+</tr><tr>
+  <td class="rk">16</td>
+  <td class="tk"><span class="tick">RMS.PA</span><span class="nom">Hermès International</span></td>
+  <td class="d"><span class="bpill b1">1</span></td>
+  <td class="d">$778,4</td>
+  <td class="d">$1.805,8</td>
+  <td class="d br br-alta">+132,0%</td>
+  <td class="d">$583,8</td>
+  <td class="d">8,9%</td>
+  <td class="d">8a</td>
+  <td class="d">1.7</td>
+  <td><span class="chip v-limpio">ALTA</span><span class='flag' title='El agente verificador corrigio el owner earnings del investigador'>OE refutado</span><span class='flag' title='El agente verificador corrigio el crecimiento inicial g0 del investigador'>g0 refutado</span></td>
+</tr><tr>
+  <td class="rk">17</td>
+  <td class="tk"><span class="tick">ORLY</span><span class="nom">O&#x27;Reilly Automotive</span></td>
+  <td class="d"><span class="bpill b1">1</span></td>
+  <td class="d">$37,1</td>
+  <td class="d">$90,2</td>
+  <td class="d br br-alta">+143,4%</td>
+  <td class="d">$27,8</td>
+  <td class="d">7,3%</td>
+  <td class="d">6a</td>
+  <td class="d">1.9</td>
+  <td><span class="chip v-grieta">BAJA</span></td>
+</tr><tr>
+  <td class="rk">18</td>
+  <td class="tk"><span class="tick">AZO</span><span class="nom">AutoZone</span></td>
+  <td class="d"><span class="bpill b1">1</span></td>
+  <td class="d">$1.138,9</td>
+  <td class="d">$2.994,7</td>
+  <td class="d br br-alta">+162,9%</td>
+  <td class="d">$854,2</td>
+  <td class="d">3,3%</td>
+  <td class="d">6a</td>
+  <td class="d">1.8</td>
+  <td><span class="chip v-degradado">MEDIA</span><span class='flag' title='El agente verificador corrigio el owner earnings del investigador'>OE refutado</span></td>
+</tr><tr>
+  <td class="rk">19</td>
+  <td class="tk"><span class="tick">GE</span><span class="nom">GE Aerospace</span></td>
+  <td class="d"><span class="bpill b1">1</span></td>
+  <td class="d">$133,8</td>
+  <td class="d">$354,2</td>
+  <td class="d br br-alta">+164,8%</td>
+  <td class="d">$100,3</td>
+  <td class="d">13,9%</td>
+  <td class="d">6a</td>
+  <td class="d">2.0</td>
+  <td><span class="chip v-degradado">MEDIA</span><span class='flag' title="Su -43,0% de ingresos es la escision en tres empresas (GE Vernova y GE HealthCare, 2023-2024), no una caida operativa. N1 restaurado de 4 a 6.">N1 corregido</span></td>
+</tr><tr>
+  <td class="rk">20</td>
+  <td class="tk"><span class="tick">SPGI</span><span class="nom">S&amp;P Global</span></td>
+  <td class="d"><span class="bpill b2">2</span></td>
+  <td class="d">$163,4</td>
+  <td class="d">$433,8</td>
+  <td class="d br br-alta">+165,4%</td>
+  <td class="d">$114,4</td>
+  <td class="d">7,9%</td>
+  <td class="d">4a</td>
+  <td class="d">1.9</td>
+  <td><span class="chip v-degradado">MEDIA</span></td>
+</tr><tr>
+  <td class="rk">21</td>
+  <td class="tk"><span class="tick">MSCI</span><span class="nom">MSCI</span></td>
+  <td class="d"><span class="bpill b3">3</span></td>
+  <td class="d">$196,1</td>
+  <td class="d">$561,8</td>
+  <td class="d br br-alta">+186,5%</td>
+  <td class="d">$117,6</td>
+  <td class="d">11,7%</td>
+  <td class="d">6a</td>
+  <td class="d">1.9</td>
+  <td><span class="chip v-limpio">ALTA</span></td>
+</tr><tr>
+  <td class="rk">22</td>
+  <td class="tk"><span class="tick">AAPL</span><span class="nom">Apple</span></td>
+  <td class="d"><span class="bpill b2">2</span></td>
+  <td class="d">$103,3</td>
+  <td class="d">$312,5</td>
+  <td class="d br br-alta">+202,6%</td>
+  <td class="d">$72,3</td>
+  <td class="d">3,7%</td>
+  <td class="d">6a</td>
+  <td class="d">1.8</td>
+  <td><span class="chip v-limpio">ALTA</span><span class='flag' title='El agente verificador corrigio el owner earnings del investigador'>OE refutado</span></td>
+</tr><tr>
+  <td class="rk">23</td>
+  <td class="tk"><span class="tick">MCO</span><span class="nom">Moody&#x27;s (MIS)</span></td>
+  <td class="d"><span class="bpill b1">1</span></td>
+  <td class="d">$168,7</td>
+  <td class="d">$514,4</td>
+  <td class="d br br-alta">+204,8%</td>
+  <td class="d">$126,6</td>
+  <td class="d">3,9%</td>
+  <td class="d">4a</td>
+  <td class="d">1.8</td>
+  <td><span class="chip v-degradado">MEDIA</span><span class='flag' title='El agente verificador corrigio el crecimiento inicial g0 del investigador'>g0 refutado</span></td>
+</tr><tr>
+  <td class="rk">24</td>
+  <td class="tk"><span class="tick">IDXX</span><span class="nom">IDEXX</span></td>
+  <td class="d"><span class="bpill b3">3</span></td>
+  <td class="d">$164,4</td>
+  <td class="d">$551,2</td>
+  <td class="d br br-alta">+235,2%</td>
+  <td class="d">$98,7</td>
+  <td class="d">8,5%</td>
+  <td class="d">6a</td>
+  <td class="d">1.8</td>
+  <td><span class="chip v-limpio">ALTA</span><span class='flag' title='El agente verificador corrigio el owner earnings del investigador'>OE refutado</span></td>
+</tr><tr>
+  <td class="rk">25</td>
+  <td class="tk"><span class="tick">ISRG</span><span class="nom">Intuitive Surgical</span></td>
+  <td class="d"><span class="bpill b2">2</span></td>
+  <td class="d">$105,9</td>
+  <td class="d">$368,4</td>
+  <td class="d br br-alta">+247,8%</td>
+  <td class="d">$74,2</td>
+  <td class="d">10,0%</td>
+  <td class="d">4a</td>
+  <td class="d">2.2</td>
+  <td><span class="chip v-degradado">MEDIA</span><span class='flag' title='El agente verificador corrigio el crecimiento inicial g0 del investigador'>g0 refutado</span></td>
+</tr><tr>
+  <td class="rk">26</td>
+  <td class="tk"><span class="tick">TSM</span><span class="nom">Taiwan Semiconductor</span></td>
+  <td class="d"><span class="bpill b2">2</span></td>
+  <td class="d">$119,3</td>
+  <td class="d">$417,2</td>
+  <td class="d br br-alta">+249,6%</td>
+  <td class="d">$83,5</td>
+  <td class="d">19,0%</td>
+  <td class="d">5a</td>
+  <td class="d">2.3</td>
+  <td><span class="chip v-limpio">ALTA</span></td>
+</tr><tr>
+  <td class="rk">27</td>
+  <td class="tk"><span class="tick">GOOGL</span><span class="nom">Alphabet</span></td>
+  <td class="d"><span class="bpill b1">1</span></td>
+  <td class="d">$94,6</td>
+  <td class="d">$342,5</td>
+  <td class="d br br-alta">+262,1%</td>
+  <td class="d">$70,9</td>
+  <td class="d">14,0%</td>
+  <td class="d">8a</td>
+  <td class="d">2.1</td>
+  <td><span class="chip v-degradado">MEDIA</span><span class='flag' title='El agente verificador corrigio el crecimiento inicial g0 del investigador'>g0 refutado</span></td>
+</tr><tr>
+  <td class="rk">28</td>
+  <td class="tk"><span class="tick">MTD</span><span class="nom">Mettler-Toledo</span></td>
+  <td class="d"><span class="bpill b3">3</span></td>
+  <td class="d">$370,6</td>
+  <td class="d">$1.403,7</td>
+  <td class="d br br-alta">+278,7%</td>
+  <td class="d">$222,4</td>
+  <td class="d">3,5%</td>
+  <td class="d">7a</td>
+  <td class="d">1.6</td>
+  <td><span class="chip v-degradado">MEDIA</span><span class='flag' title='El agente verificador corrigio el crecimiento inicial g0 del investigador'>g0 refutado</span></td>
+</tr><tr>
+  <td class="rk">29</td>
+  <td class="tk"><span class="tick">CDNS</span><span class="nom">Cadence Design</span></td>
+  <td class="d"><span class="bpill b2">2</span></td>
+  <td class="d">$86,0</td>
+  <td class="d">$335,2</td>
+  <td class="d br br-alta">+290,0%</td>
+  <td class="d">$60,2</td>
+  <td class="d">11,6%</td>
+  <td class="d">8a</td>
+  <td class="d">2.0</td>
+  <td><span class="chip v-degradado">MEDIA</span><span class='flag' title='El agente verificador corrigio el owner earnings del investigador'>OE refutado</span></td>
+</tr><tr>
+  <td class="rk">30</td>
+  <td class="tk"><span class="tick">ASML</span><span class="nom">ASML Holding</span></td>
+  <td class="d"><span class="bpill b1">1</span></td>
+  <td class="d">$437,6</td>
+  <td class="d">$1.744,4</td>
+  <td class="d br br-alta">+298,6%</td>
+  <td class="d">$328,2</td>
+  <td class="d">11,0%</td>
+  <td class="d">5a</td>
+  <td class="d">1.9</td>
+  <td><span class="chip v-degradado">MEDIA</span><span class='flag' title='El agente verificador corrigio el crecimiento inicial g0 del investigador'>g0 refutado</span></td>
+</tr><tr>
+  <td class="rk">31</td>
+  <td class="tk"><span class="tick">OTIS</span><span class="nom">Otis Worldwide</span></td>
+  <td class="d"><span class="bpill b1">1</span></td>
+  <td class="d">$18,1</td>
+  <td class="d">$72,6</td>
+  <td class="d br br-alta">+301,6%</td>
+  <td class="d">$13,6</td>
+  <td class="d">1,6%</td>
+  <td class="d">6a</td>
+  <td class="d">1.6</td>
+  <td><span class="chip v-limpio">ALTA</span><span class='flag' title='El agente verificador corrigio el crecimiento inicial g0 del investigador'>g0 refutado</span></td>
+</tr><tr>
+  <td class="rk">32</td>
+  <td class="tk"><span class="tick">WST</span><span class="nom">West Pharmaceutical</span></td>
+  <td class="d"><span class="bpill b3">3</span></td>
+  <td class="d">$84,7</td>
+  <td class="d">$351,9</td>
+  <td class="d br br-alta">+315,6%</td>
+  <td class="d">$50,8</td>
+  <td class="d">5,0%</td>
+  <td class="d">7a</td>
+  <td class="d">1.6</td>
+  <td><span class="chip v-limpio">ALTA</span></td>
+</tr><tr>
+  <td class="rk">33</td>
+  <td class="tk"><span class="tick">STMN.SW</span><span class="nom">Straumann</span></td>
+  <td class="d"><span class="bpill b3">3</span></td>
+  <td class="d">$27,8</td>
+  <td class="d">$115,5</td>
+  <td class="d br br-alta">+316,1%</td>
+  <td class="d">$16,7</td>
+  <td class="d">7,7%</td>
+  <td class="d">8a</td>
+  <td class="d">1.7</td>
+  <td><span class="chip v-degradado">MEDIA</span></td>
+</tr><tr>
+  <td class="rk">34</td>
+  <td class="tk"><span class="tick">6861.T</span><span class="nom">Keyence</span></td>
+  <td class="d"><span class="bpill b3">3</span></td>
+  <td class="d">$122,6</td>
+  <td class="d">$512,4</td>
+  <td class="d br br-alta">+318,0%</td>
+  <td class="d">$73,6</td>
+  <td class="d">6,1%</td>
+  <td class="d">8a</td>
+  <td class="d">1.6</td>
+  <td><span class="chip v-degradado">MEDIA</span><span class='flag' title='El agente verificador corrigio el owner earnings del investigador'>OE refutado</span></td>
+</tr><tr>
+  <td class="rk">35</td>
+  <td class="tk"><span class="tick">AMZN</span><span class="nom">Amazon</span></td>
+  <td class="d"><span class="bpill b2">2</span></td>
+  <td class="d">$59,4</td>
+  <td class="d">$260,1</td>
+  <td class="d br br-alta">+337,7%</td>
+  <td class="d">$41,6</td>
+  <td class="d">11,7%</td>
+  <td class="d">8a</td>
+  <td class="d">2.0</td>
+  <td><span class="chip v-degradado">MEDIA</span><span class='flag' title='El agente verificador corrigio el owner earnings del investigador'>OE refutado</span></td>
+</tr><tr>
+  <td class="rk">36</td>
+  <td class="tk"><span class="tick">UNP</span><span class="nom">Union Pacific</span></td>
+  <td class="d"><span class="bpill b1">1</span></td>
+  <td class="d">$45,5</td>
+  <td class="d">$313,2</td>
+  <td class="d br br-alta">+587,7%</td>
+  <td class="d">$34,2</td>
+  <td class="d">2,0%</td>
+  <td class="d">4a</td>
+  <td class="d">1.6</td>
+  <td><span class="chip v-limpio">ALTA</span></td>
+</tr></tbody>
+  </table></div>
+
+  <div class="nota" style="border-left-color:var(--violeta)">
+    <strong style="color:var(--violeta)">Tres correcciones que se hicieron ANTES de fiarse del número, no después.</strong>
+    <ul class="lista" style="margin-top:10px">
+      <li><strong>TSM cotiza como ADR</strong> (1 ADR = 5 acciones ordinarias): el precio es por ADR pero el recuento de
+      EDGAR es de acciones ordinarias. Sin dividir por 5, TSM salía con un valor por acción absurdo (5× demasiado bajo).</li>
+      <li><strong>GE, TRI y VRSK fueron marcadas "cíclicas" por error</strong>: su peor caída de ingresos histórica
+      (−43%, −51,5% y −16,7%) no es ciclicidad operativa — es la escisión de GE en tres empresas (2023-2024), la venta
+      del 55% de Financial &amp; Risk de Thomson Reuters (creación de Refinitiv, 2018), y una serie de desinversiones de
+      Verisk (2022 y 2025, la segunda detectada por su propio agente verificador). Se restauró su ventana de fade (N1)
+      al valor no distorsionado.</li>
+      <li><strong>HOYA (7741.T) llegó sin acciones en circulación ni caja/deuda</strong> en la ficha original — el
+      propio agente investigador las resolvió desde el informe IFRS auditado (Deloitte, 15-jul-2026): 334.838.020
+      acciones tras la cancelación de autocartera del 15-may-2026.</li>
+    </ul>
+  </div>
+
+  <div class="nota">
+    <strong>Dos casos con confianza BAJA — el número no cambió, pero el argumento que lo sostenía sí.</strong>
+    Microsoft y O'Reilly: el owner earnings y el g0 sobreviven verificados dígito a dígito contra el 10-K, pero la
+    prueba cruzada que el investigador usaba para justificar su proxy de capex de mantenimiento resultó circular
+    (MSFT) o mezclaba capital de trabajo con capex (ORLY). El número se mantiene; la confianza en el margen de error
+    baja de ALTA a BAJA, y se publica así en vez de esconderlo.
+  </div>
+</section>
+
+<section class="bloque" id="b1">
+  <header class="bh"><div class="bnum">1</div>
+    <div><h2>Indestructibles</h2><p class="bsub">Mecanismo de nivel 1-5 verificado, sin reloj arrancado, knock-outs superados</p></div></header>
+  <div class="tw"><table>
+    <thead><tr><th class="rk">#</th><th>Empresa</th><th class="d">Nivel</th><th>Mecanismo</th>
+    <th>Vector / reloj · evidencia</th><th class="d">ROIC</th><th class="d">Brecha*</th></tr></thead>
+    <tbody><tr>
+  <td class="rk">1</td>
+  <td class="tk"><span class="tick">RMS.PA</span><span class="nom">Hermès International</span></td>
+  <td class="d"><span class="nivpill n1">1</span></td>
+  <td class="mec"><p class="mtx">Escasez de fabricación propia: el exceso de demanda se convierte en lista de espera y precio, nunca en descuento</p></td>
+  <td class="vec"><p class="vtxt">SIN VECTOR. 7/8 jueces primera, σ=0,35, el mayor acuerdo del ejercicio. Corrección 26-ago: capex 7,26% (no 9-10%); el «6-7% de capacidad» no existe en el URD</p><p class="ref">ROIC 52,0% (55,8% ex-sobretasa) · URD 2025 auditado PwC/GT</p></td>
+  <td class="d">—</td>
+  <td class="d dim">—</td>
+</tr><tr>
+  <td class="rk">2</td>
+  <td class="tk"><span class="tick">MA</span><span class="nom">Mastercard</span></td>
+  <td class="d"><span class="nivpill n2">2</span></td>
+  <td class="mec"><p class="mtx">Red de coordinación de dos lados: para irse hay que mover comercios y bancos emisores a la vez</p></td>
+  <td class="vec"><p class="vtxt">VECTOR SIN RELOJ: A2A/stablecoins sin observable de arranque fechado — la diferencia exacta con Visa</p><p class="ref">ROIC 51,0% · ROIIC 79% · 10-K FY2025 acc. 0001141391-26-000013</p></td>
+  <td class="d">51%</td>
+  <td class="d dim">+36 pp</td>
+</tr><tr>
+  <td class="rk">3</td>
+  <td class="tk"><span class="tick">ASML</span><span class="nom">ASML Holding</span></td>
+  <td class="d"><span class="nivpill n3">3</span></td>
+  <td class="mec"><p class="mtx">Ausencia de destino: 100% de EUV, 90-94% de litografía; 30 años y 2.000+ patentes de ventaja</p></td>
+  <td class="vec"><p class="vtxt">RIESGO DE COLA exógeno (China 33% de ventas bajo controles cambiantes; TSMC vía Taiwán) — no es reloj del mecanismo</p><p class="ref">ROIC 60,8% · 20-F, reporta en EUR</p></td>
+  <td class="d">61%</td>
+  <td class="d dim">+62 pp</td>
+</tr><tr>
+  <td class="rk">4</td>
+  <td class="tk"><span class="tick">TRI</span><span class="nom">Thomson Reuters</span></td>
+  <td class="d"><span class="nivpill n3">3</span></td>
+  <td class="mec"><p class="mtx">Westlaw + West Key Number System (35M de clasificaciones) + KeyCite: el precedente legal está indexado en SU taxonomía</p></td>
+  <td class="vec"><p class="vtxt">Sin caducidad encontrada. Q2-26 orgánico +8%, Big 3 +10%, guía SUBIDA (6-K 5-ago-2026). Candor declarado: su informe nombra «displacement from our own customers»</p><p class="ref">ROIC 12,0% (gw 56% del capital, declarado) · 40-F</p></td>
+  <td class="d">12% <span class="flag" title="goodwill sobre capital empleado">GW 56%</span></td>
+  <td class="d dim">—</td>
+</tr><tr>
+  <td class="rk">5</td>
+  <td class="tk"><span class="tick">REL.L</span><span class="nom">RELX</span></td>
+  <td class="d"><span class="nivpill n3">3</span></td>
+  <td class="mec"><p class="mtx">LexisNexis Risk (datasets propietarios) + Elsevier: la revista es la moneda con la que un científico cobra su carrera</p></td>
+  <td class="vec"><p class="vtxt">Sin caducidad encontrada. H1-26 subyacente +7%, Legal +10% ACELERANDO justo donde el relato de IA la mata (6-K 23-jul-2026)</p><p class="ref">ROIC 24,0% · 20-F en EDGAR acc. 0001104659-26-017277</p></td>
+  <td class="d">—</td>
+  <td class="d dim">—</td>
+</tr><tr>
+  <td class="rk">6</td>
+  <td class="tk"><span class="tick">UNP</span><span class="nom">Union Pacific</span></td>
+  <td class="d"><span class="nivpill n3">3</span></td>
+  <td class="mec"><p class="mtx">26.294 millas de derecho de paso EN PROPIEDAD que nadie va a volver a expropiar</p></td>
+  <td class="vec"><p class="vtxt">Vector regulatorio abierto sin reloj del mecanismo: STB (reciprocal switching); fusión NS en abeyance desde 28-may-2026</p><p class="ref">ROIC 11,9% · 10-K FY2025 acc. 0000100885-26-000037</p></td>
+  <td class="d">12%</td>
+  <td class="d dim">+66 pp</td>
+</tr><tr>
+  <td class="rk">7</td>
+  <td class="tk"><span class="tick">ORLY</span><span class="nom">O&#x27;Reilly Automotive</span></td>
+  <td class="d"><span class="nivpill n3">3</span></td>
+  <td class="mec"><p class="mtx">El mecánico necesita la pieza en 30 minutos: 32 CDs con &gt;156.000 SKUs de acceso mismo día, ~50% profesional</p></td>
+  <td class="vec"><p class="vtxt">Sin caducidad: el 10-K NO menciona el vehículo eléctrico ni una vez. Parque 286M vehículos, edad media 12,6 años</p><p class="ref">ROIC 35,0% · gw 12% · 10-K acc. 0000898173-26-000009</p></td>
+  <td class="d">35%</td>
+  <td class="d dim">+60 pp</td>
+</tr><tr>
+  <td class="rk">8</td>
+  <td class="tk"><span class="tick">AZO</span><span class="nom">AutoZone</span></td>
+  <td class="d"><span class="nivpill n3">3</span></td>
+  <td class="mec"><p class="mtx">Misma red: 133 mega-hubs con 80-110.000 SKUs; programa comercial en 6.098 tiendas</p></td>
+  <td class="vec"><p class="vtxt">EV nombrado como riesgo SIN fecha ni cifra. Más débil que ORLY: 31,7% comercial vs ~50%</p><p class="ref">ROIC 27,4% · gw 3% · 10-K acc. 0001104659-25-102611</p></td>
+  <td class="d">27%</td>
+  <td class="d dim">+45 pp</td>
+</tr><tr>
+  <td class="rk">9</td>
+  <td class="tk"><span class="tick">OTIS</span><span class="nom">Otis Worldwide</span></td>
+  <td class="d"><span class="nivpill n4">4</span></td>
+  <td class="mec"><p class="mtx">2,5M de ascensores con inspección legalmente obligatoria + densidad de ruta irreplicable localmente</p></td>
+  <td class="vec"><p class="vtxt">Servicio = 91% del beneficio de segmento; la cartera creció y expandió margen mientras el equipo nuevo caía −8% dos años. Retención no publicada (DEGRADADO)</p><p class="ref">ROIC 48,4% (gw 71% del capital, declarado) · 10-K acc. 0001781335-26-000011</p></td>
+  <td class="d">48% <span class="flag" title="goodwill sobre capital empleado">GW 71%</span></td>
+  <td class="d dim">+33 pp</td>
+</tr><tr>
+  <td class="rk">10</td>
+  <td class="tk"><span class="tick">GE</span><span class="nom">GE Aerospace</span></td>
+  <td class="d"><span class="nivpill n5">5</span></td>
+  <td class="mec"><p class="mtx">Certificado de tipo FAA + 80.000 motores instalados: la pieza caliente no tiene alternativa PMA</p></td>
+  <td class="vec"><p class="vtxt">RPO de servicios 163.029 M$ (85,6% del total), 69% reconocible en 10 años — la única cuya contabilidad auditada cubre la ventana completa</p><p class="ref">ROIC 19,5% · 10-K acc. 0000040545-26-000008</p></td>
+  <td class="d">20%</td>
+  <td class="d dim">+89 pp</td>
+</tr><tr>
+  <td class="rk">11</td>
+  <td class="tk"><span class="tick">MCO</span><span class="nom">Moody&#x27;s (MIS)</span></td>
+  <td class="d"><span class="nivpill n5">5</span></td>
+  <td class="mec"><p class="mtx">Licencia NRSRO + issuer-pays: MIS margen 68,3% y 74% del beneficio operativo</p></td>
+  <td class="vec"><p class="vtxt">Sin caducidad encontrada. Defectos declarados: el «requisito de dos ratings» NO está en el 10-K (narrativa); MA (26% restante) es nivel 7</p><p class="ref">ROIC 19,8% (gw 61%, declarado) · 10-K</p></td>
+  <td class="d">20% <span class="flag" title="goodwill sobre capital empleado">GW 61%</span></td>
+  <td class="d dim">+44 pp</td>
+</tr><tr>
+  <td class="rk">12</td>
+  <td class="tk"><span class="tick">GOOGL</span><span class="nom">Alphabet</span></td>
+  <td class="d"><span class="nivpill n4">4</span></td>
+  <td class="mec"><p class="mtx">Escala reinvertible + gravedad de datos: búsqueda, YouTube, Android, Cloud — cuatro redes que se alimentan</p></td>
+  <td class="vec"><p class="vtxt">RELOJ DECLARADO: primer ataque estructural al buscador en 20 años. Se queda en B1 por lo que el ciego midió dos veces (nivel 4 estable, 12/12) y porque el ataque aún no tiene firma en ingresos</p><p class="ref">ROIC 34,4% · gw 11%</p></td>
+  <td class="d">34%</td>
+  <td class="d dim">+60 pp</td>
+</tr></tbody></table></div>
+</section>
+<section class="bloque" id="b2">
+  <header class="bh"><div class="bnum">2</div>
+    <div><h2>Núcleo</h2><p class="bsub">Economía élite con UN reloj ya fechado, o una medida clave degradada y declarada</p></div></header>
+  <div class="tw"><table>
+    <thead><tr><th class="rk">#</th><th>Empresa</th><th class="d">Nivel</th><th>Mecanismo</th>
+    <th>Vector / reloj · evidencia</th><th class="d">ROIC</th><th class="d">Brecha*</th></tr></thead>
+    <tbody><tr>
+  <td class="rk">1</td>
+  <td class="tk"><span class="tick">V</span><span class="nom">Visa</span></td>
+  <td class="d"><span class="nivpill n2">2</span></td>
+  <td class="mec"><p class="mtx">Misma coordinación de dos lados que Mastercard, a mayor escala</p></td>
+  <td class="vec"><p class="vtxt">RELOJ ARRANCADO Y FECHADO: demanda DOJ (sept-2024) contra el monopolio de red en débito, EN DISCOVERY desde 2026; provisión por litigios 2.562 M$ FY25 vs 462 FY24</p><p class="ref">ROIC 37,1% · portada iXBRL 5 clases</p></td>
+  <td class="d">37%</td>
+  <td class="d dim">+31 pp</td>
+</tr><tr>
+  <td class="rk">2</td>
+  <td class="tk"><span class="tick">MSFT</span><span class="nom">Microsoft</span></td>
+  <td class="d"><span class="nivpill n2">2</span></td>
+  <td class="mec"><p class="mtx">Identidad corporativa (Entra/AD) + Office como formato + gravedad de datos Azure: se renueva por procurement</p></td>
+  <td class="vec"><p class="vtxt">GRIETA PROPIA MEDIDA: gate de OE roto el 29-jul-2026 (54.582M &lt; 55.000M umbral); capex +79,6%; primer FCF en caída en años</p><p class="ref">ROIC 21,7% · 10-K FY2026 acc. 0001193125-26-323660</p></td>
+  <td class="d">22%</td>
+  <td class="d dim">+49 pp</td>
+</tr><tr>
+  <td class="rk">3</td>
+  <td class="tk"><span class="tick">AAPL</span><span class="nom">Apple</span></td>
+  <td class="d"><span class="nivpill n4">4</span></td>
+  <td class="mec"><p class="mtx">2.300M de dispositivos con datos, cuentas y hábitos atados al ecosistema</p></td>
+  <td class="vec"><p class="vtxt">DOS RELOJES REGULATORIOS sobre rentas (pago de Google por defecto; comisión App Store) — erosionan márgenes, no el mecanismo</p><p class="ref">ROIC 137% (capital empleado 0,32× ventas) · gw 7%</p></td>
+  <td class="d">137%</td>
+  <td class="d dim">+48 pp</td>
+</tr><tr>
+  <td class="rk">4</td>
+  <td class="tk"><span class="tick">TSM</span><span class="nom">Taiwan Semiconductor</span></td>
+  <td class="d"><span class="nivpill n3">3</span></td>
+  <td class="mec"><p class="mtx">Casi-monopolio de manufactura de vanguardia: 74-77% del ingreso en nodos ≤7nm; el cliente no tiene destino alternativo</p></td>
+  <td class="vec"><p class="vtxt">R6 JURISDICCIÓN ÚNICA (al valor, no a la tasa) + top-2 clientes ~36% y deteriorándose + capex 52-56.000M</p><p class="ref">ROIC 34,6% · 20-F, reporta en TWD</p></td>
+  <td class="d">35%</td>
+  <td class="d dim">—</td>
+</tr><tr>
+  <td class="rk">5</td>
+  <td class="tk"><span class="tick">CME</span><span class="nom">CME Group</span></td>
+  <td class="d"><span class="nivpill n3">3</span></td>
+  <td class="mec"><p class="mtx">Monopolio regulado de futuros de tasas de EEUU; red de liquidez auto-reforzante con ahorro de netting</p></td>
+  <td class="vec"><p class="vtxt">FMX/DTCC atacan exactamente el netting. Balance de cámara: ROIC declarado NO COMPARABLE (garantías de clientes dentro)</p><p class="ref">margen NOPAT ~48% s/ventas · ruta cámara declarada</p></td>
+  <td class="d">10%</td>
+  <td class="d dim">+14 pp</td>
+</tr><tr>
+  <td class="rk">6</td>
+  <td class="tk"><span class="tick">CSU.TO</span><span class="nom">Constellation Software</span></td>
+  <td class="d"><span class="nivpill n4">4</span></td>
+  <td class="mec"><p class="mtx">Máquina de M&amp;A con hurdle 25-30% TIR sobre software vertical fragmentado; empleados compran acciones con su dinero</p></td>
+  <td class="vec"><p class="vtxt">Sucesión (Leonard dejó la presidencia oct-2025) y orgánico ~4%: el motor es comprado. SBC = CERO verificado por ausencia</p><p class="ref">ROIC 20,6% con la fórmula del método (el ~10% era OTRA definición) · FS auditados KPMG</p></td>
+  <td class="d">—</td>
+  <td class="d dim">—</td>
+</tr><tr>
+  <td class="rk">7</td>
+  <td class="tk"><span class="tick">CDNS</span><span class="nom">Cadence Design</span></td>
+  <td class="d"><span class="nivpill n3">3</span></td>
+  <td class="mec"><p class="mtx">Duopolio EDA: cambiar de flujo a mitad de diseño arriesga un tape-out de cientos de millones</p></td>
+  <td class="vec"><p class="vtxt">Sin reloj del mecanismo. DATO DEGRADADO: goodwill 117% del capital empleado — capital ex-goodwill NEGATIVO; el ROIC no es interpretable</p><p class="ref">ROIC 38,0% (no interpretable, declarado) · gw 117%</p></td>
+  <td class="d">38% <span class="flag" title="goodwill sobre capital empleado">GW 117%</span></td>
+  <td class="d dim">+45 pp</td>
+</tr><tr>
+  <td class="rk">8</td>
+  <td class="tk"><span class="tick">ISRG</span><span class="nom">Intuitive Surgical</span></td>
+  <td class="d"><span class="nivpill n5">5</span></td>
+  <td class="mec"><p class="mtx">Base instalada 11k sistemas + entrenamiento del cirujano + 85% ingreso recurrente (def. propia; 76% ex-leasing)</p></td>
+  <td class="vec"><p class="vtxt">RELOJ ARRANCADO PERO MENOR DE LO DICHO: Hugo despejada SOLO urología (K250725, 510(k)); Ottava solo abdomen superior, sin filing de J&amp;J. Procedimientos EEUU 16%→14%→12%</p><p class="ref">ROIC 24,8% · caja 8.626M sin deuda</p></td>
+  <td class="d">25%</td>
+  <td class="d dim">+74 pp</td>
+</tr><tr>
+  <td class="rk">9</td>
+  <td class="tk"><span class="tick">7741.T</span><span class="nom">HOYA</span></td>
+  <td class="d"><span class="nivpill n3">3</span></td>
+  <td class="mec"><p class="mtx">Dos cuellos de botella de ciencia de materiales: mask blanks EUV (cuasi-monopolio) + sustratos HDD + lentes</p></td>
+  <td class="vec"><p class="vtxt">Dato de cuota NO citable (no está en filings). El único hecho fechado de la ventana es el MEJOR trimestre de su historia: +16% ingresos, +30% beneficio, recompra 2,99%</p><p class="ref">ROIC 23,8% publicado (43,5% ex-caja) · tanshin 31-jul-2026 · FUENTE ÚNICA no-US</p></td>
+  <td class="d">—</td>
+  <td class="d dim">—</td>
+</tr><tr>
+  <td class="rk">10</td>
+  <td class="tk"><span class="tick">AMZN</span><span class="nom">Amazon</span></td>
+  <td class="d"><span class="nivpill n5">5</span></td>
+  <td class="mec"><p class="mtx">Doble foso: AWS (coste de cambio de arquitectura) + marketplace/Prime (coordinación)</p></td>
+  <td class="vec"><p class="vtxt">DATO ROTO DECLARADO: owner earnings NEGATIVOS (−11.800M) porque FCF−SBC con capex total no separa mantenimiento de crecimiento en ciclo de IA. Es defecto de fórmula, no veredicto</p><p class="ref">ROIC 13,1% · KO-4 formal declarado</p></td>
+  <td class="d">13%</td>
+  <td class="d dim">—</td>
+</tr><tr>
+  <td class="rk">11</td>
+  <td class="tk"><span class="tick">SPGI</span><span class="nom">S&amp;P Global</span></td>
+  <td class="d"><span class="nivpill n3">3</span></td>
+  <td class="mec"><p class="mtx">Duopolio NRSRO + el S&amp;P 500 como estándar civilizatorio + costes de cambio en Market Intelligence</p></td>
+  <td class="vec"><p class="vtxt">Mecanismo estable en el ciego (12/12, subiendo). ROIC 9,1% NO DECIDIBLE: goodwill IHS Markit = 85% del capital empleado contamina el denominador</p><p class="ref">ROIC no decidible (declarado) · 52 años subiendo dividendo</p></td>
+  <td class="d">9% <span class="flag" title="goodwill sobre capital empleado">GW 85%</span></td>
+  <td class="d dim">+31 pp</td>
+</tr><tr>
+  <td class="rk">12</td>
+  <td class="tk"><span class="tick">ADP</span><span class="nom">ADP</span></td>
+  <td class="d"><span class="nivpill n3">3</span></td>
+  <td class="mec"><p class="mtx">Nómina + cumplimiento fiscal multi-jurisdicción; retención de ingresos 92,1%</p></td>
+  <td class="vec"><p class="vtxt">DEFECTO DECLARADO: 23,6% del EBIT es interés sobre float de clientes (1.355M/5.730M) — eso es duración, no foso</p><p class="ref">ROIC 46,3% · 10-K FY26 5-ago-2026</p></td>
+  <td class="d">46%</td>
+  <td class="d dim">—</td>
+</tr></tbody></table></div>
+</section>
+<section class="bloque" id="b3">
+  <header class="bh"><div class="bnum">3</div>
+    <div><h2>Frontera</h2><p class="bsub">Foso real y grande con la grieta ya escrita en un filing — o donde el instrumento no resuelve</p></div></header>
+  <div class="tw"><table>
+    <thead><tr><th class="rk">#</th><th>Empresa</th><th class="d">Nivel</th><th>Mecanismo</th>
+    <th>Vector / reloj · evidencia</th><th class="d">ROIC</th><th class="d">Brecha*</th></tr></thead>
+    <tbody><tr>
+  <td class="rk">1</td>
+  <td class="tk"><span class="tick">NVDA</span><span class="nom">Nvidia</span></td>
+  <td class="d"><span class="nivpill n6">6</span></td>
+  <td class="mec"><p class="mtx">CUDA + ecosistema de desarrolladores + integración chip-software-networking: foso auténtico HOY</p></td>
+  <td class="vec"><p class="vtxt">GRIETA MEDIDA: top-3 clientes 54% del revenue (10-Q Q1 FY27); garantías 105.000M ligadas a OpenAI (8-K 17-ago, FUENTE ÚNICA); sus mayores clientes construyen silicio propio</p><p class="ref">ROIC 65,9% · convicción alta a 3 años, baja a 10</p></td>
+  <td class="d">66%</td>
+  <td class="d dim">—</td>
+</tr><tr>
+  <td class="rk">2</td>
+  <td class="tk"><span class="tick">MSCI</span><span class="nom">MSCI</span></td>
+  <td class="d"><span class="nivpill n6">6</span></td>
+  <td class="mec"><p class="mtx">El índice como estándar + retención 95,3% — la franquicia sigue incrustada</p></td>
+  <td class="vec"><p class="vtxt">LA TARIFA DEJÓ DE SER SUYA: basis point fee 2,44→2,28 acelerando ×5 tras la enmienda BlackRock; 2º tramo 1-ene-2027 SIN CUANTIFICAR; BlackRock 19,8% del segmento Index</p><p class="ref">ROIC 32,9% (gw 85%, declarado) · 8-K acc. 0001408198-26-000008</p></td>
+  <td class="d">33% <span class="flag" title="goodwill sobre capital empleado">GW 85%</span></td>
+  <td class="d dim">+27 pp</td>
+</tr><tr>
+  <td class="rk">3</td>
+  <td class="tk"><span class="tick">VEEV</span><span class="nom">Veeva Systems</span></td>
+  <td class="d"><span class="nivpill n6">6</span></td>
+  <td class="mec"><p class="mtx">Vault GxP: la revalidación regulatoria es el candado (54% de suscripciones) — NO refutado</p></td>
+  <td class="vec"><p class="vtxt">EL CANDADO COMERCIAL SÍ SE ROMPIÓ: Salesforce +AstraZeneca/Novartis migradas; suscripción comercial +16,9%→+10,6% en 5 trimestres; soporte CRM adelantado a 31-dic-2029</p><p class="ref">ROIC 83,4% (gw 52%) · 10-K FY26 20-mar-2026</p></td>
+  <td class="d">83% <span class="flag" title="goodwill sobre capital empleado">GW 52%</span></td>
+  <td class="d dim">+58 pp</td>
+</tr><tr>
+  <td class="rk">4</td>
+  <td class="tk"><span class="tick">IDXX</span><span class="nom">IDEXX</span></td>
+  <td class="d"><span class="nivpill n6">6</span></td>
+  <td class="mec"><p class="mtx">Razor-blade veterinario: ~80% recurrente + candado de compromisos de ~5.000M (la «exclusividad» NO está en el 10-K)</p></td>
+  <td class="vec"><p class="vtxt">GRIETA MEDIDA: visitas clínicas EEUU −2% en 2025 y guiadas a caer igual en 2026; IDEXX crece +6% same-store contra +2% de la clínica — le quita margen al veterinario; instrumentos −19,5% Q2</p><p class="ref">ROIC 46,9% · gw 19% · 10-K acc. 0000874716-26-000038</p></td>
+  <td class="d">47%</td>
+  <td class="d dim">+42 pp</td>
+</tr><tr>
+  <td class="rk">5</td>
+  <td class="tk"><span class="tick">WST</span><span class="nom">West Pharmaceutical</span></td>
+  <td class="d"><span class="nivpill n5">5</span></td>
+  <td class="mec"><p class="mtx">El tapón está nombrado en el expediente del fármaco: cambiar obliga a re-presentar datos de equivalencia</p></td>
+  <td class="vec"><p class="vtxt">CANDADO REVOCABLE POR SU PROPIO 10-K: si la regulación redujera la carga de datos, «competitive pressure would increase». GLP-1 oral nombrado como amenaza; 1 cliente = 15,8%; HVP estancado en 60% tres años</p><p class="ref">ROIC 16,5% · gw 4%</p></td>
+  <td class="d">17%</td>
+  <td class="d dim">+61 pp</td>
+</tr><tr>
+  <td class="rk">6</td>
+  <td class="tk"><span class="tick">MTD</span><span class="nom">Mettler-Toledo</span></td>
+  <td class="d"><span class="nivpill n5">5</span></td>
+  <td class="mec"><p class="mtx">Base instalada calificada GxP con servicio y consumible atados (~25% servicio)</p></td>
+  <td class="vec"><p class="vtxt">GRIETA EN EL PRECIO: devolvió 28M de recargos arancelarios — parte del «pricing power» de 2025 era arancel; FY24 orgánico fue CERO ex-partidas; su 10-K admite límites para repercutir costes</p><p class="ref">ROIC 24,4% · gw 29%</p></td>
+  <td class="d">24%</td>
+  <td class="d dim">+41 pp</td>
+</tr><tr>
+  <td class="rk">7</td>
+  <td class="tk"><span class="tick">6861.T</span><span class="nom">Keyence</span></td>
+  <td class="d"><span class="nivpill n4">4</span></td>
+  <td class="mec"><p class="mtx">Venta directa consultiva + catálogo de sensórica: margen operativo 51% sostenido, deuda cero</p></td>
+  <td class="vec"><p class="vtxt">EL CRITERIO DECIDE EL NÚMERO: ROIC 13,8% u 84,6% según se depure la cartera de 2,98 billones ¥. Punto ciego: intangibles ×4,6 sin explicación en el yuho auditado</p><p class="ref">margen op. 51,0% · yuho Deloitte 15-jun-2026 · FUENTE ÚNICA no-US</p></td>
+  <td class="d">—</td>
+  <td class="d dim">—</td>
+</tr><tr>
+  <td class="rk">8</td>
+  <td class="tk"><span class="tick">4684.T</span><span class="nom">OBIC</span></td>
+  <td class="d"><span class="nivpill n4">4</span></td>
+  <td class="mec"><p class="mtx">ERP implantado con empleados propios y atado a la regulación fiscal japonesa: margen operativo 65,7%</p></td>
+  <td class="vec"><p class="vtxt">CAJA OCIOSA: 87% del activo es caja y valores (capital invertido NEGATIVO si se depura); 100% Japón, internacional &lt;1%. El mecanismo es fuerte; el capital no trabaja</p><p class="ref">margen op. 65,7% · deuda cero · yuho 23-jun-2026 · FUENTE ÚNICA no-US</p></td>
+  <td class="d">—</td>
+  <td class="d dim">—</td>
+</tr><tr>
+  <td class="rk">9</td>
+  <td class="tk"><span class="tick">STMN.SW</span><span class="nom">Straumann</span></td>
+  <td class="d"><span class="nivpill n5">5</span></td>
+  <td class="mec"><p class="mtx">Coste de cambio clínico del implantólogo + formación + 35% de cuota global</p></td>
+  <td class="vec"><p class="vtxt">GRIETA CONTABLE: la M&amp;A (Neodent/ClearCorrect) comprimió el ROCE reportado de 35% a ~17%; el núcleo sigue élite pero opacado. Orgánico +8,9% real (CER)</p><p class="ref">ROIC 19,7% (23,5% core) · AR 2025 · FUENTE ÚNICA no-US</p></td>
+  <td class="d">—</td>
+  <td class="d dim">—</td>
+</tr><tr>
+  <td class="rk">10</td>
+  <td class="tk"><span class="tick">VRSK</span><span class="nom">Verisk Analytics</span></td>
+  <td class="d"><span class="nivpill n2">2</span></td>
+  <td class="mec"><p class="mtx">Candado de coordinación LITERAL en su 10-K: los datos contributivos siguen «unless the data contributor chooses to opt out… no cost to us»</p></td>
+  <td class="vec"><p class="vtxt">El mismo 10-K: «we do not own the information». Y crece al 3,9-4,3%: el más lento del grupo de datos. Máquina de caja, no reinvertidora</p><p class="ref">ROIC 23,0% · gw 42%</p></td>
+  <td class="d">23%</td>
+  <td class="d dim">+40 pp</td>
+</tr><tr>
+  <td class="rk">11</td>
+  <td class="tk"><span class="tick">CPRT</span><span class="nom">Copart</span></td>
+  <td class="d"><span class="nivpill n2">2</span></td>
+  <td class="mec"><p class="mtx">Coordinación aseguradoras ↔ pool global de compradores + suelo con licencia irreplicable</p></td>
+  <td class="vec"><p class="vtxt">SIN CANDADO CONTRACTUAL («no assurance that our existing agreements will not be canceled»); 81% de unidades de UNA clase de cliente cuya decisión la toma una fórmula ajena; 9M FY26: ingresos −0,2%</p><p class="ref">ROIC 22,5% · gw 8% — el denominador más limpio del ejercicio</p></td>
+  <td class="d">22%</td>
+  <td class="d dim">+15 pp</td>
+</tr><tr>
+  <td class="rk">12</td>
+  <td class="tk"><span class="tick">ADYEN.AS</span><span class="nom">Adyen</span></td>
+  <td class="d"><span class="nivpill n4">4</span></td>
+  <td class="mec"><p class="mtx">Plataforma única de pagos construida in-house; coste de cambio enterprise; 100% orgánico</p></td>
+  <td class="vec"><p class="vtxt">NO RANKEABLE POR ROIC: denominador negativo (−16% a +154% según criterio de caja). Net revenue +18%; EBITDA 53%. Entra por mecanismo, con el dato declarado</p><p class="ref">ROIC no calculable (declarado) · AR 2025 · FUENTE ÚNICA no-US</p></td>
+  <td class="d">—</td>
+  <td class="d dim">—</td>
+</tr></tbody></table></div>
+</section>
+<section class="txt">
+  <h2>Las que cayeron, con su motivo</h2>
+  <p>Nada se excluyó a priori: cada una cayó por un hecho fechado, un knock-out o una decisión declarada.</p>
+  <div class="tw"><table style="min-width:720px">
+    <thead><tr><th>Ticker</th><th>Motivo, con la evidencia</th></tr></thead>
+    <tbody><tr><td class="tk"><span class="tick">ADBE</span></td><td class="vec"><p class="vtxt">Decisión de Felipe: bajo asedio de la IA. Registro del dato: el ataque NO tiene firma en filings (+11,97% y +12,68% los dos últimos trimestres, ARR 25.200M) — queda fuera por juicio del dueño del método, con el desacuerdo del dato declarado</p></td></tr><tr><td class="tk"><span class="tick">ZTS</span></td><td class="vec"><p class="vtxt">Mecanismo de precios ROTO y medido: el precio desapareció del puente 2T-26; guía FY26 recortada a −3/−1%; Elanco Pet Health +12% y Merck CA +7% el mismo trimestre. 0/8 en el ciego</p></td></tr><tr><td class="tk"><span class="tick">WM</span></td><td class="vec"><p class="vtxt">Knock-out: ROIC 8,2% &lt; 9,70% sobre capital total. El mecanismo (vertederos a 38 años) es élite; el retorno no llega. Sin apelación (M-6)</p></td></tr><tr><td class="tk"><span class="tick">COST</span></td><td class="vec"><p class="vtxt">Fuera del alcance del instrumento: rotación alta con margen NOPAT 2,5%; la ruta alterna no mide este modelo. No es un veredicto de calidad</p></td></tr><tr><td class="tk"><span class="tick">DECK</span></td><td class="vec"><p class="vtxt">Nivel 7: permiso cultural. Su propia tesis (25-ago) lo escribe: «depende de que la dirección siga eligiendo margen sobre volumen cada trimestre». HOKA +23,6%→+15,9%→+7,7% con margen −460pb. Y YA SE ROMPIÓ UNA VEZ: 24,9% de margen (2010) → pérdida operativa (2017) con ventas +87%</p></td></tr><tr><td class="tk"><span class="tick">NOW</span></td><td class="vec"><p class="vtxt">Grieta medida: margen operativo Q2 4,1% vs 11,1%; ~11.000M de M&amp;A en 8 meses; deuda ×5. El foso se está recomprando</p></td></tr><tr><td class="tk"><span class="tick">FICO</span></td><td class="vec"><p class="vtxt">El reloj YA SE EJECUTÓ: FHFA + Fannie/Freddie aceptan VantageScore 4.0 (SEL-2026-04, 22-abr-2026). Y su 10-Q posterior declara «no material changes» en riesgos</p></td></tr><tr><td class="tk"><span class="tick">INTU</span></td><td class="vec"><p class="vtxt">Gate propio disparado (unidades TurboTax −2%); TurboTax guiado a +2/+3% desde +7%. Matiz declarado: el umbral de guía cayó DENTRO del rango (error de diseño del gate)</p></td></tr><tr><td class="tk"><span class="tick">ACN</span></td><td class="vec"><p class="vtxt">Su propio 10-K niega el mecanismo: contratos cancelables con aviso corto, RPO 0,55 años, atrición 14%. Bookings −2%, Managed Services −16%</p></td></tr><tr><td class="tk"><span class="tick">BKNG</span></td><td class="vec"><p class="vtxt">Capital empleado negativo (el compounding lo fabrica la recompra) + desintermediación IA + su múltiplo autorizado exigía la pieza 1 en cuarentena</p></td></tr><tr><td class="tk"><span class="tick">NFLX</span></td><td class="vec"><p class="vtxt">El foso hay que recomprarlo: ~18.000M/año de contenido a perpetuidad. Nivel 7-8 estable en el ciego</p></td></tr><tr><td class="tk"><span class="tick">AVGO</span></td><td class="vec"><p class="vtxt">Un distribuidor = 42% del revenue (vs 29%); VMware no se reporta separado — la tesis de cosecha no es falsable</p></td></tr><tr><td class="tk"><span class="tick">MELI</span></td><td class="vec"><p class="vtxt">Fuerte con reloj, no ultra: resultado operativo −17,2% con ingresos +49,8%; mora 90+ = 18,7%; Argentina 42% de la contribución. OE cruza cero según la base</p></td></tr><tr><td class="tk"><span class="tick">DUOL</span></td><td class="vec"><p class="vtxt">Sin mecanismo: 82% del ingreso pasa por Apple/Google; altas de pago 600k→200k; bookings +7,8% vs ingresos +18,3%. Gate de venta roto y sin ejecutar (21 días)</p></td></tr><tr><td class="tk"><span class="tick">SNPS</span></td><td class="vec"><p class="vtxt">Duopolio EDA real pero NO DECIDIBLE: ROIC 2,0% con goodwill Ansys 65% del capital; ventana contaminada 2-3 años</p></td></tr><tr><td class="tk"><span class="tick">MSFT-gemelo: BR</span></td><td class="vec"><p class="vtxt">Broadridge: peaje regulado PERO la tarifa la fija el NYSE (literal en su 10-K) y el margen ya se comprime (ingresos +9%, EBT +5%)</p></td></tr></tbody></table></div>
+  <div class="nota"><strong>Sobre Adobe, para el registro.</strong> Sale por decisión de Felipe (asedio de la IA).
+  El dato dice otra cosa hoy: +11,97% y +12,68% interanual los dos últimos trimestres, ARR 25.200 M$, y cero
+  firma del ataque en filings. Si en el trimestre que cierra el 28-ago crece &lt;10,5%, el dato le dará la razón
+  a Felipe; si no, la discrepancia queda anotada con fecha. Así se resuelven los desacuerdos en este método:
+  con un falsable, no con una discusión.</div>
+</section>
+<section class="txt">
+  <h2>Límites declarados</h2>
+  <ul class="lista">
+    <li><strong>B4 CERRADO — nada de esta página es ejecutable como compra.</strong> El re-piloto (MELI+BKNG+MSFT+MA) demostró que el motor no discrimina: C-5 comprime un abanico del 303% en uno del 23%, y no hay TAM primario en ninguno de los cuatro 10-K.</li>
+    <li><strong>La columna Brecha* es informativa y está degradada</strong>: g exigida por el precio menos CAGR de owner earnings capado por C-6. No ordena los bloques.</li>
+    <li><strong>Seis de las 36 son fuente única no-US</strong> (RMS.PA, CSU.TO, 7741.T, 6861.T, 4684.T, STMN.SW, ADYEN.AS): un solo documento auditado cada una; la regla de dos fuentes no se cumple.</li>
+    <li><strong>El lote de megacaps del triaje de mecanismo murió a medias por límite de gasto</strong>; sus veredictos (MSFT, GOOGL, AAPL, NVDA, V, MA, TSM, ASML) se apoyan en las verificaciones previas de esta misma sesión, no en ese lote.</li>
+    <li><strong>La asignación a bloques es juicio sobre evidencia, no fórmula</strong> — igual que el juicio ciego. Lo que es mecánico son los knock-outs y las cifras; lo que es juicio está a la vista, fila a fila.</li>
+    <li><strong>La venta de DUOL sigue ordenada sin ejecutar (21 días).</strong> C-11 declarado.</li>
+    <li><strong>Cero validación externa</strong>: esto mide durabilidad estimada, no rentabilidad futura.</li>
+  </ul>
+</section>
+<footer>
+  <p>Método: refundación 12 pasos (19-jul-2026) + recalibración v2 (21-ago) + Enmienda 30. Candado B intacto (r única
+  9,70% = DGS10 4,70 + 5,00). Motor de knock-outs calibrado contra Kraft Heinz 2017 (4,11% vs 4,17% del archivo).
+  Nueve agentes de verificación adversarial sobre EDGAR y fuentes primarias no-US; abogado-diablo en sesión limpia
+  tumbó la v1 y esta v2 incorpora sus tres golpes.</p>
+  <p>Documento de método dentro del marco propio de Felipe. No es asesoramiento de inversión personalizado y no soy
+  asesor registrado. Cifras fechadas al 26-ago-2026; caducan.</p>
+</footer>
+</div>

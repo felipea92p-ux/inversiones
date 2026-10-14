@@ -1,0 +1,217 @@
+{
+  "ticker": "VRSK",
+  "empresa": "Verisk Analytics, Inc.",
+  "cik": "0001442145",
+  "domicilio": "Delaware, EE.UU. — sede Jersey City, NJ",
+  "moneda_funcional": "USD",
+  "fecha_analisis": "2026-07-28",
+  "etiqueta_calidad_congelada": "PRESUNTA (3 puertas pasadas) — NO reclasificable hacia arriba",
+  "especie": "G2 — reinversion 16,1% de ventas, ROIIC bruto 13,1%, ROIIC ex-margen 12,7%",
+  "mos_exigido_pct": 25,
+  "mos_exigido_motivo": "Banda PRESUNTA, empresa NO en cartera -> umbral de ABRIR (25%). Si estuviera en cartera seria CARGAR con 35%.",
+
+  "fuentes_primarias": {
+    "10K_FY2025": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926004452/vrsk20251231_10k.htm (accession 0001437749-26-004452, presentado 18-feb-2026, periodo 31-dic-2025)",
+    "10Q_Q1_2026": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926013729/vrsk20260331_10q.htm (accession 0001437749-26-013729, presentado 29-abr-2026, periodo 31-mar-2026)",
+    "8K_resultados_FY2025": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926004451/ex_895228.htm (18-feb-2026) — guia FY2026 completa",
+    "8K_resultados_Q1_2026": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926013728/ex_926417.htm (29-abr-2026) — guia FY2026 REAFIRMADA",
+    "XBRL_companyfacts": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001442145.json"
+  },
+
+  "precio_y_capital": {
+    "precio_usd": 206.66,
+    "precio_etiqueta": "HECHO",
+    "precio_fuente": "IBKR get_price_snapshot, campo last con is_close=true, consultado 28-jul-2026 (cierre de la sesion del 27-jul-2026), NASDAQ, USD nativo. No es ADS, no hay conversion de divisa.",
+    "precio_52w_alto": 299.07,
+    "precio_52w_bajo": 155.94,
+    "caida_desde_maximo_52w_pct": -30.9,
+    "caida_desde_pico_jun_2025_pct": -35.4,
+    "acciones_en_circulacion_millones": 131.02184,
+    "acciones_fuente": "HECHO — portada del 10-Q Q1 2026, Entity Common Stock Shares Outstanding = 131.021.840 al 24-abr-2026. Cuadra con 544.003.038 emitidas - 412.986.913 en autocartera al 31-mar-2026 = 131.016.125.",
+    "acciones_diluidas_medias_2025": 140.082773,
+    "acciones_diluidas_medias_Q1_2026": 135.222570,
+    "capitalizacion_usd_mm": 27077.0,
+    "deuda_total_usd_mm": 4475.6,
+    "deuda_detalle": "HECHO — 10-Q 31-mar-2026: corto plazo y porcion corriente 258,4 + largo plazo 4.217,2. Incluye finance leases.",
+    "caja_usd_mm": 524.5,
+    "deuda_neta_usd_mm": 3951.1,
+    "ev_usd_mm": 31028.1,
+    "advertencia_balance_2025": "El balance auditado de 31-dic-2025 (caja 2.178,2 / deuda 4.737,2) esta DISTORSIONADO: contiene 1.500 M de bonos 2030/2036 emitidos para comprar AccuLynx cuyo acuerdo se termino el 26-dic-2025, disparando una redencion obligatoria especial liquidada el 6-ene-2026. Usar SIEMPRE el balance de 31-mar-2026."
+  },
+
+  "wacc_candado_B": {
+    "principio": "Bottom-up de mercado. NUNCA heredado de un tier de calidad.",
+    "tasa_libre_riesgo_pct": 4.65,
+    "tasa_libre_riesgo_fuente": "HECHO — Bono del Tesoro de EE.UU. a 10 anios. FRED serie DGS10 = 4,69% el 24-jul-2026 (ultimo dato publicado); TradingEconomics reporta 4,64% el 27-jul-2026. Central 4,65%, rango 4,55-4,71 (banda del mes de julio 2026).",
+    "prima_mercado_pct": 4.42,
+    "prima_mercado_fuente": "HECHO — Damodaran, ERP implicita de EE.UU. al 1-jul-2026 = 4,42% con el S&P 500 en 7.499,36. La prima de mercado maduro tras descontar el default spread de 0,22% del rating Aa1 de EE.UU. es 4,20%.",
+    "prima_pais_pct": 0.15,
+    "prima_pais_fuente": "INFERENCIA — El riesgo de ACTIVO de Verisk es abrumadoramente EE.UU. (las 100 mayores aseguradoras P&C de EE.UU. son sus clientes; el resto es Reino Unido, Europa y Asia desarrollada). El propio 4,42% ya incorpora el default spread Aa1 de EE.UU. Se anade 0,15 pp por la cola internacional. No material.",
+    "beta": 0.80,
+    "beta_rango": "0,69 - 0,86",
+    "fuente_beta": "TRIANGULADA. (1) Yahoo Finance, beta 5 anios mensual = 0,69, consultado 28-jul-2026 — INFERENCIA (agregador). (2) Bottom-up Damodaran: sector Information Services, datos de enero 2026, 15 firmas, beta desapalancada 0,74 (0,76 corregida por caja); reapalancada a la D/E de mercado de VRSK (16,53%) con tasa 24,5% -> beta 0,83. (3) MEDICION PROPIA DESCARTADA POR FALTA DE RESOLUCION: regresion semanal VRSK vs SPY, 2 anios (104 obs) -> beta 0,16 con correlacion 0,087; ultimo ano -> beta -0,16 con correlacion -0,053. Esas correlaciones son ruido. El desplome de VRSK fue idiosincratico y no informa el beta sistematico. Se declara el hueco y se usa la triangulacion publicada+bottom-up.",
+    "coste_deuda_pct": 5.0,
+    "coste_deuda_derivacion": "HECHO/INFERENCIA — Nota 15 del 10-K FY2025: gasto por intereses de deuda y arrendamientos financieros, incluida amortizacion de costes de emision, = 209,4 M en 2025. Se depuran los 18,9 M de amortizacion acelerada por la redencion de los bonos 2030/2036 -> 190,5 M recurrentes. Deuda media ponderada por meses vivos en 2025 aprox. 3.823 M -> 4,98%. Contraste: intereses PAGADOS 2025 = 150,3 M (subestima, cupones nuevos aun no devengados en caja). Contraste 2: guia de gasto por intereses FY2026 = 190-200 M sobre deuda media aprox. 4.200 M -> 4,52-4,76%. Cupones vivos: 4,125% (2029), 5,25% (2034), 5,25% (2035), 5,50% (2045), 5,75% (2033), 3,625% (2050). Central 5,0%, rango 4,5-5,6%.",
+    "tasa_impositiva_pct": 24.5,
+    "tasa_impositiva_fuente": "HECHO — guia FY2026 de la propia empresa: 23,0%-26,0%.",
+    "coste_equity_pct": 8.34,
+    "ponderacion_equity_pct": 85.8,
+    "ponderacion_deuda_pct": 14.2,
+    "wacc_pct": 7.69,
+    "wacc_rango": "7,1% - 8,6%",
+    "wacc_escenarios": {
+      "bajo_beta069_rf455_kd45": 7.13,
+      "central_beta080_rf465_kd50": 7.69,
+      "alto_beta086_rf471_kd56": 8.03,
+      "degradado_beta100": 8.56
+    },
+    "nota_metodologica": "El DCF se ejecuta sobre el FLUJO AL ACCIONISTA (owner earnings ya netos de intereses pagados) descontado al COSTE DEL EQUITY 8,34%, y se compara directamente contra la capitalizacion. Descontar un flujo post-intereses al WACC y luego restar la deuda seria doble conteo. El WACC de 7,69% se reporta porque el candado B lo exige y sirve de referencia para el ROIIC."
+  },
+
+  "owner_earnings": {
+    "definicion_a": "(a) Restando SOLO el capex de mantenimiento, aproximado por la depreciacion de activos fijos. El exceso sobre la depreciacion no se resta.",
+    "definicion_b": "(b) Restando TODO el capex = flujo de caja libre puro.",
+
+    "base_auditada_FY2025": {
+      "periodo": "ejercicio cerrado 31-dic-2025, 10-K presentado 18-feb-2026",
+      "ingresos_usd_mm": 3072.7,
+      "resultado_operativo_usd_mm": 1343.9,
+      "beneficio_neto_usd_mm": 908.3,
+      "cfo_usd_mm": 1436.0,
+      "capex_total_usd_mm": 244.1,
+      "depreciacion_amortizacion_activos_fijos_usd_mm": 259.2,
+      "amortizacion_intangibles_adquiridos_usd_mm": 67.5,
+      "capex_mantenimiento_usd_mm": 244.1,
+      "oe_mantenimiento_usd_mm": 1191.9,
+      "oe_capex_total_usd_mm": 1191.9,
+      "oe_por_accion_sobre_acciones_hoy_usd": 9.10,
+      "etiqueta": "HECHO — todas las cifras del estado de flujos y de resultados del 10-K FY2025.",
+      "HALLAZGO_CRITICO": "(a) y (b) son IDENTICOS. El capex total (244,1) es MENOR que la propia depreciacion de activos fijos (259,2). No existe capex discrecional que perdonar. La coartada 'esta deprimida porque reinvierte' NO aplica a Verisk: no reinvierte en activos fijos ni un dolar por encima de su carga de depreciacion. Es un caso Coca-Cola-1998, no Amazon-2005. La guia FY2026 confirma el patron: capex 260-280 contra D&A de fijos 270-290."
+    },
+
+    "base_en_curso_FY2026": {
+      "periodo": "ejercicio 2026, Q1 publicado (10-Q 29-abr-2026) + guia de la empresa reafirmada el 29-abr-2026",
+      "guia_ingresos_usd_mm": "3.190 - 3.240 (medio 3.215)",
+      "guia_ebitda_ajustado_usd_mm": "1.790 - 1.830 (medio 1.810)",
+      "guia_margen_ebitda_ajustado_pct": "56,0 - 56,5",
+      "guia_eps_ajustado_diluido_usd": "7,45 - 7,75 (medio 7,60)",
+      "guia_capex_usd_mm": "260 - 280 (medio 270)",
+      "guia_da_activos_fijos_usd_mm": "270 - 290 (medio 280)",
+      "guia_amortizacion_intangibles_usd_mm": 60,
+      "guia_gasto_intereses_usd_mm": "190 - 200 (medio 195)",
+      "guia_tasa_fiscal_pct": "23,0 - 26,0",
+      "cfo_estimado_usd_mm": 1350.0,
+      "cfo_triangulacion": "INFERENCIA — tres caminos: (i) desde la guia de EBITDA ajustado 1.810 - intereses 195 - impuestos en caja aprox. 312 + ajustes no-caja -> CFO aprox. 1.303; (ii) CFO TTM real (Q2-25 a Q1-26) = 1.436,0 - 444,7 + 390,4 = 1.381,7 (HECHO, derivado de dos filings); (iii) punto medio adoptado 1.350. El FCF resultante (1.080) queda entre el 1.033 que implica la guia y el 1.127 del TTM real.",
+      "capex_mantenimiento_usd_mm": 270.0,
+      "oe_mantenimiento_usd_mm": 1080.0,
+      "oe_capex_total_usd_mm": 1080.0,
+      "oe_por_accion_usd": 8.24,
+      "etiqueta": "INFERENCIA — construida sobre guia HECHO de la empresa y Q1 HECHO."
+    },
+
+    "distancia_entre_bases": {
+      "variacion_pct": -9.4,
+      "lectura": "El owner earnings ABSOLUTO del ejercicio en curso CAE un 9,4% respecto al ultimo auditado (1.191,9 -> 1.080). Esto NO es ruido de ciclo favorable: es deterioro con dos motores identificables. (1) Mecanico: el gasto por intereses sube de 150,3 M pagados en 2025 a una guia de 190-200 M en 2026, consecuencia directa de financiar con deuda una recompra acelerada de 1.500 M ejecutada en Q1-2026. (2) Operativo: el organico se desacelera. La empresa reporto CFO Q1-2026 de 390,4 M frente a 444,7 M en Q1-2025, -12,2%, y FCF -16,5%. La direccion lo atribuye a un reembolso fiscal del ano anterior y a mayores intereses. El beneficio POR ACCION sube porque hay un 5,5% menos de acciones; el beneficio ABSOLUTO no. Cruzando la guia de EPS ajustado (7,16 -> 7,60 medio, +6,1%) con la caida de acciones diluidas medias (140,1 -> aprox. 132,4, -5,5%), el crecimiento del beneficio ajustado ABSOLUTO guiado para 2026 es de aproximadamente +0,4%. Practicamente cero."
+    },
+    "ajuste_sbc_declarado": "La compensacion en acciones (54,2 M en 2025, 18,4 M en Q1-2026) se suma de vuelta en el CFO y por tanto esta DENTRO de los owner earnings reportados aqui. Restandola, el OE auditado bajaria a 1.137,7 M (-4,5%) y el en curso a aprox. 1.005 M. Se declara como sensibilidad, no como base, para no mezclar convenciones."
+  },
+
+  "dcf_inverso": {
+    "motor": "Que crecimiento g durante 10 anios, con valor terminal al 3%, descontado al coste del equity 8,34%, justifica exactamente la capitalizacion de hoy (27.077 M).",
+    "g_implicita_base_auditada_pct": 5.08,
+    "g_implicita_base_en_curso_pct": 6.34,
+    "sensibilidad": {
+      "Ke_7.75pct": {"g_auditada": 3.58, "g_en_curso": 4.82},
+      "Ke_8.34pct_central": {"g_auditada": 5.08, "g_en_curso": 6.34},
+      "Ke_8.66pct": {"g_auditada": 5.87, "g_en_curso": 7.14},
+      "Ke_9.28pct_beta_1.0": {"g_auditada": 7.12, "g_en_curso": 8.42}
+    },
+    "contraste_con_la_tasa_base": "El precio de hoy exige un 6,3% anual durante diez anios sobre el owner earnings del ejercicio EN CURSO. La tasa base observable del negocio es: organico constante 6,6% en FY2025 -> 4,7% en Q1-2026; ingresos guiados FY2026 +4,6%; beneficio ajustado ABSOLUTO guiado FY2026 aprox. +0,4%. El precio pide mas de lo que el negocio esta entregando ahora mismo, no menos."
+  },
+
+  "g_defendible": {
+    "g_defendible_pct": 4.5,
+    "rango": "3,5% - 5,5%",
+    "derivacion_formula_bruta": "Reinversion 16,1% de ventas x 3.072,7 = 494,7 M. NOPAT FY2025 = resultado operativo 1.343,9 x (1-0,245) = 1.014,6 M (NOPAT/ventas 33,0%). Tasa de reinversion sobre NOPAT = 48,75%. g = 48,75% x ROIIC ex-margen 12,7% = 6,19%.",
+    "derivacion_formula_neta": "Reinversion NETA (la que de verdad genera crecimiento en la formula de Damodaran) = (capex 244,1 - depreciacion 259,2) + adquisiciones 184,8 = 169,7 M. Tasa sobre NOPAT = 16,7%. g = 16,7% x 12,7% = 2,12%.",
+    "triangulacion": "El 6,19% bruto es el techo y el 2,12% neto es el suelo. El ancla empirica cae casi exactamente en medio: organico constante 4,7% en Q1-2026 (HECHO) y crecimiento de ingresos guiado FY2026 de +4,6% (HECHO). Adopto 4,5%.",
+    "por_que_no_mas": "El ROIIC bruto medido es 13,1% y el ex-margen 12,7%, apenas 5 pp por encima del WACC de 7,69%. Un diferencial de 5 pp con una tasa de reinversion neta del 16,7% no sostiene un compounding del 6-7% durante diez anios. Ademas el mecanismo NO puede probar volumen: Verisk no publica ninguna medida de volumen, y la unica linea con direccion observable (property estimating / restoration) lleva DOS trimestres consecutivos cayendo — el 8-K del 18-feb-2026 reporta 'a decrease in property estimating solutions' en Q4-2025 y el del 29-abr-2026 reporta 'modest declines in our property and restoration solutions' en Q1-2026.",
+    "por_que_no_menos": "El mecanismo de precio sin capital SIGUE VIVO y es verificable: el 8-K de Q1-2026 atribuye el +5,3% OCC de underwriting 'primarily due to price increases derived from continued enhancements to our forms, rules and loss cost solutions'. Ese es exactamente el mecanismo congelado. No esta roto; esta desacelerando."
+  },
+
+  "valoracion": {
+    "modelo": "Owner earnings creciendo a g=4,5% diez anios, terminal 3%, descontado al coste del equity 8,34%. Resultado = valor del equity, dividido por 131,02 M de acciones.",
+    "valor_por_accion_auditado_usd": 197.46,
+    "valor_por_accion_en_curso_usd": 178.92,
+    "multiplo_implicito_del_dcf": "21,7x owner earnings",
+    "piso_de_resolucion": "Sin medicion propia del ruido se aplica una banda de mas menos 25%. Base auditada: 148 - 247 USD. Base en curso: 134 - 224 USD. NO se reportan decimales del valor intrinseco: el valor esta en la banda 130-225 USD y el precio de hoy (206,66) cae DENTRO de esa banda, en su tercio superior.",
+    "mos_auditado_pct": -4.7,
+    "mos_en_curso_pct": -15.5,
+    "sensibilidad_mos_en_curso": {
+      "g_3.5pct": {"valor_usd": 165.45, "mos_pct": -24.9},
+      "g_4.5pct": {"valor_usd": 178.92, "mos_pct": -15.5},
+      "g_5.5pct": {"valor_usd": 193.48, "mos_pct": -6.8},
+      "Ke_7.75pct": {"valor_usd": 201.51, "mos_pct": -2.6},
+      "Ke_8.66pct": {"valor_usd": 168.44, "mos_pct": -22.7},
+      "Ke_9.28pct_beta1.0": {"valor_usd": 153.43, "mos_pct": -34.7}
+    },
+    "lectura": "NINGUN escenario razonable produce margen de seguridad positivo. El mejor caso (Ke en el extremo bajo del rango, 7,75%) deja el MoS en -2,6%: pagar el valor justo. El MoS exigido es +25%. La distancia es de aproximadamente 40 puntos porcentuales sobre la base en curso."
+  },
+
+  "m_estrella_p_estrella": {
+    "m_estrella": 17.0,
+    "m_estrella_justificacion": "Decidido en frio, sin barra de error. 17 veces owner earnings es lo que acepto pagar por un negocio con: mecanismo de precio real y verificado, ROIC del 29,5% al 36,3%, CFO por encima del beneficio neto los seis anos — pero con crecimiento del beneficio ABSOLUTO guiado en aproximadamente cero para 2026, patrimonio neto de -1.166,9 M por recompras financiadas con deuda, ROIIC ex-margen de 12,7% frente a un WACC de 7,7%, y una unica linea con volumen observable en declive. A 17x, exigiendo un 10% anual, el negocio tiene que entregar aproximadamente 4,5% de crecimiento y mantener el multiplo. Es una exigencia dura y consciente: el DCF con mi propio Ke implica 21,7x, y la diferencia entre 21,7x y 17x es exactamente la que separa 'descontar al Ke que sale de un beta sin resolucion medida' de 'exigir un 10% anual sin pedirle permiso al beta'.",
+    "valor_comprometido_base_en_curso_usd": 140.13,
+    "valor_comprometido_base_auditada_usd": 154.65,
+    "p_estrella_usd": 105.10,
+    "p_estrella_derivacion": "P* = m* 17x x owner earnings por accion en curso 8,24 USD x (1 - MoS exigido 25%) = 105,10 USD.",
+    "p_estrella_alternativo_via_dcf_usd": 134.19,
+    "p_estrella_alternativo_derivacion": "Si en lugar de m* se usa el valor del DCF sobre la base en curso (178,92) y se le aplica el 25% de MoS: 134,19 USD. Ambos caminos dejan el precio de compra MUY por debajo de los 206,66 de hoy, asi que el veredicto no depende de la eleccion.",
+    "multiplo_que_se_paga_hoy": "25,1x owner earnings del ejercicio en curso / 22,7x del ultimo auditado.",
+    "caida_necesaria_desde_hoy_pct": "-49,1% hasta P* via m*; -35,1% hasta P* via DCF."
+  },
+
+  "tir_esperada": {
+    "metodo": "Comprar hoy a 206,66, cobrar owner earnings por accion diez anios, vender al multiplo de salida indicado.",
+    "escenarios_base_en_curso": {
+      "oso_IA_erosiona_g1pct_salida12x": "-0,6% anual",
+      "bajo_g2.1pct_reinversion_neta_salida13x": "+1,0% anual",
+      "central_g4.5pct_salida16x": "+5,0% anual",
+      "alto_g6.2pct_formula_bruta_salida20x": "+8,5% anual",
+      "toro_g7pct_salida23x": "+10,5% anual"
+    },
+    "escenarios_base_auditada": {
+      "oso": "+0,6% anual",
+      "bajo": "+2,3% anual",
+      "central": "+6,2% anual",
+      "alto": "+9,8% anual",
+      "toro": "+11,8% anual"
+    },
+    "rango_reportado": "-1% a +10% anual a 10 anios; centro en +5% a +6%",
+    "lectura": "El caso central da un 5-6% anual durante una decada. Eso es por debajo del propio coste del equity (8,3%) y por debajo de lo que ofrece el bono a 10 anios mas una prima minima. Para batir el 10% hay que creerse un 7% de crecimiento sostenido Y una expansion del multiplo a 23x, es decir hay que creerse simultaneamente que la desaceleracion actual es temporal y que el mercado va a volver a pagar lo que pagaba en 2024."
+  },
+
+  "trampa_de_valor": {
+    "veredicto": "SOSPECHA",
+    "motivo": "La forma de la trampa esta, pero el descuento NO. La accion ha caido un 31% desde su maximo de 52 semanas (299,07) y un 35% desde el pico de junio de 2025 — la invitacion optica a comprar 'un compounder de calidad de rebajas' es fuerte. Pero a 206,66 se pagan 25,1x owner earnings del ejercicio en curso y el margen de seguridad es NEGATIVO en todos los escenarios. Es decir: no es una trampa en la que hayas caido, es una que todavia no esta barata. Al mismo tiempo, hay cuatro grietas verificables en el motor, y no son de opinion: (1) el organico constante se desacelera de 6,6% en FY2025 a 4,7% en Q1-2026; (2) property estimating / restoration, la unica linea con direccion de volumen observable, cae DOS trimestres consecutivos (Q4-2025 y Q1-2026, ambos en los 8-K de la empresa); (3) el beneficio ajustado ABSOLUTO guiado para 2026 crece aproximadamente 0,4% — todo el +6,1% del EPS viene de retirar acciones; (4) el patrimonio neto es de -1.166,9 M al 31-mar-2026 porque la retribucion se hace con recompras financiadas con deuda: la deuda subio de 3.061,1 M (dic-2024) a 4.475,6 M (mar-2026) mientras la autocartera acumulada llega a 12.132,0 M. Y un quinto dato que no aparece en los estados pero pesa: el 26-dic-2025 se termino la adquisicion de AccuLynx (ExactLogix), para la que ya se habian emitido 1.500 M en bonos que hubo que redimir con una prima del 1% (perdida total reconocida de 33,9 M). El unico intento reciente de comprar crecimiento adyacente en property estimating no se cerro. No declaro SI porque el mecanismo central sigue funcionando y esta documentado: el underwriting crecio 5,3% OCC en Q1-2026 'primarily due to price increases'. El motor no esta roto. Esta desacelerando, apalancado, y caro."
+  },
+
+  "veredicto": {
+    "accion": "NO COMPRAR",
+    "resumen": "El precio no ofrece nada. Con owner earnings del ejercicio en curso de 1.080 M sobre 131,0 M de acciones (8,24 USD por accion), pagar 206,66 son 25,1 veces. El DCF inverso al coste del equity de 8,34% pide un 6,3% anual durante diez anios sobre la base en curso; el negocio esta entregando 4,7% organico y desacelerando, con el beneficio absoluto guiado plano para 2026. Mi g defendible es 4,5% y da un valor de aproximadamente 179 USD por accion (base en curso) o 197 (base auditada), con un margen de seguridad de -15,5% y -4,7% respectivamente. El umbral es +25%. Falta aproximadamente 40 puntos porcentuales.",
+    "que_tendria_que_pasar_para_reconsiderar": [
+      "Precio por debajo de 134 USD (P* via DCF) o de 105 USD (P* via m*=17x).",
+      "Dos trimestres consecutivos de reaceleracion del organico constante por encima del 6%, con property estimating de vuelta en crecimiento.",
+      "Que la empresa publique por primera vez alguna medida de VOLUMEN (transacciones, polizas cubiertas, siniestros procesados) que permita separar precio de volumen. Hoy es imposible."
+    ]
+  },
+
+  "huecos_declarados": [
+    "Verisk NO publica ninguna medida de volumen. Es imposible verificar si el volumen bajo la subida de precio sigue vivo. Este es el mismo eslabon debil que identifico el paso de calidad y el precio no lo resuelve: lo agrava, porque el mercado ha empezado a descontarlo.",
+    "El beta esta DEGRADADO. Mi propia medicion (VRSK vs SPY, semanal, 2 anios, 104 observaciones) da beta 0,16 con correlacion 0,087 — ruido puro. El desplome de VRSK fue idiosincratico. Uso 0,80 triangulando Yahoo 5Y mensual (0,69, agregador, INFERENCIA) con el bottom-up de Damodaran (0,74 desapalancada de Information Services, enero 2026, reapalancada a 0,83). Un beta de 1,0 llevaria el Ke a 9,28% y el valor en curso a 153 USD (MoS -34,7%).",
+    "El CFO del ejercicio en curso es una INFERENCIA. La empresa no guia CFO. Triangulo entre lo que implica la guia de EBITDA (1.303 M) y el TTM real (1.381,7 M) y adopto 1.350 M. El FCF resultante (1.080) esta entre 1.033 y 1.127.",
+    "El cupon de los 1.000 M de deuda emitidos en Q1-2026 no se detalla en el 10-Q Q1; el coste de la deuda del 5,0% se deriva del ejercicio 2025 depurado y se contrasta con la guia de intereses 2026.",
+    "No he auditado el reparto geografico de ingresos para afinar la prima pais. La asumo aproximadamente nula por la concentracion en aseguradoras P&C de EE.UU. Un error de 50 pb aqui mueve el valor en curso aproximadamente un 6%.",
+    "La caida del 17,6% en la semana del 2-feb-2026 y la del 21% en lo que iba de ano al 18-feb-2026 se atribuyen en prensa a temor a disrupcion por IA y a normalizacion del mercado P&C de EE.UU. No he podido verificar esa causalidad con fuente primaria. Queda como contexto, no como HECHO."
+  ]
+}

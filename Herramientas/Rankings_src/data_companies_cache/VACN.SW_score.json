@@ -1,0 +1,59 @@
+{
+ "ticker": "VACN.SW",
+ "name": "VAT Group AG",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Modelo industrial de precision (valvulas de vacio) con EBITDA 30% y ROIC 35%, pero margenes ricos ya maduros y no escalan como software con volumen; no merece 1.5-2.0."
+  },
+  "R2": {
+   "score": 2,
+   "just": "Exposicion pura al supercycle secular de WFE (semis/AI capex, WFE estimado USD 130bn), order intake +47% YoY y backlog +42% confirman vientos de cola estructurales monstruosos."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Lider mundial #1 indiscutido en valvulas de vacio de alto rendimiento (~50%+ cuota) con el 2o jugador muy por detras, durabilidad superior justifica 1.5 (no 2.0 por ciclicidad)."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat de altos costes de cambio + IP/escasez: valvulas disenadas dentro de la herramienta del cliente (ASML/AMAT/LAM/TEL), cualificacion plurianual e ingenieria de precision dificil de replicar."
+  },
+  "R5": {
+   "score": 1,
+   "just": "Crecimiento 100% organico sin M&A destructora; FY2025 +14% reportado / +5-6% cc, pero pedidos planos a moneda constante FY2025 impide premiar 1.5."
+  },
+  "R6": {
+   "score": 0.5,
+   "just": "Multi-geografia pero concentracion fuerte en pocos OEMs de semis (ASML, AMAT, LAM, TEL probablemente >10-15% individual) y dependencia de un unico end-market ciclico."
+  },
+  "R7": {
+   "score": 2,
+   "just": "ROIC 35.2% muy por encima del WACC, FCF record CHF 230.4m (margen 21.5%), conversion FCF/NI 72% aceptable y capex moderado para industrial; calidad de capital sobresaliente."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Deuda neta solo CHF 107m (~0.3x EBITDA) con term loan reembolsado en ene-2026; balance muy solido aunque no es caja neta, por lo que no llega a 2.0 implicito."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "SBC inmaterial verificada (~0.2% ventas / 0.9% FCF), muy por debajo del umbral del 15%; contabilidad limpia tipica de industrial suizo, FCF reportado fiable."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Asignacion de capital disciplinada (R&D record +22%, sin M&A destructora, deuda repagada) y gobierno suizo solido, pero sin skin-in-the-game fundador destacado que justifique 1.5."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R2+R3+R4 se refuerzan de forma potente: monopolio efectivo (R3) sobre un componente critico con altos costes de cambio (R4) montado sobre el supercycle secular de WFE/AI (R2), creando un peaje casi irreplicable sobre cada nueva herramienta de fabricacion de chips de vanguardia. R1 es el eslabon mas debil (margenes maduros, no escalan tipo software), por lo que la amplificacion es real pero centrada en moat+industria+liderazgo mas que en escalabilidad pura.",
+ "moat_type": "switching_costs_and_intangibles",
+ "moat_one_line": "Valvulas de vacio disenadas y cualificadas dentro de las herramientas de los OEMs de semis (ASML/AMAT/LAM/TEL) con ciclos de cualificacion plurianuales e ingenieria de precision propietaria: posicion de unico proveedor cualificado dificil de desbancar.",
+ "thesis_3lines": [
+  "Calidad: negocio de calidad excepcional con ROIC 35%, EBITDA 30%, SBC inmaterial y balance casi sin deuda (0.3x EBITDA), lider mundial #1 en un nicho critico de la cadena de valor de semiconductores.",
+  "Motor de crecimiento: apalancado al supercycle secular de capex en AI/leading-edge (WFE ~USD 130bn) con order intake +47% YoY, backlog +42% y book-to-bill 1.6x, anticipando un ramp de ventas potente en 2026.",
+  "Valoracion/retorno: fwd P/E 60.8x (~+35% sobre media 5a de 45x) y trailing ~99x en MAXIMO HISTORICO tras +115% en 12 meses, descuenta a la perfeccion el ramp AI y deja escaso margen de seguridad."
+ ],
+ "bear_case_strongest": "La accion cotiza en maximo historico a ~60x fwd / ~99x trailing tras subir 115% en 12 meses, descontando un ramp AI perfecto, mientras el negocio sigue siendo profundamente ciclico (ventas Q1 2026 -19.7% YoY) y dependiente de un punado de OEMs de semis: cualquier digestion de inventario o pausa en el capex de WFE provocaria una severa des-rating desde un punto de entrada sin margen de seguridad.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Score total re-puntuado = 14.0/13.5 (R1 1.0 + R2 2.0 + R3 1.5 + R4 1.5 + R5 1.0 + R6 0.5 + R7 2.0 + R8 1.5 + R9 1.5 + R10 1.0), recortado al techo de 13.5; calidad de empresa elite confirmada por datos primarios FY2025 (ROIC 35.2%, FCF CHF 230.4m, SBC inmaterial, deuda neta 0.3x EBITDA). Riesgo dominante es VALORACION/CICLO, no calidad: NOT_DEPRESSED, en maximo historico, fwd P/E 60.8x con prima ~35% sobre media 5a y trailing ~99x. R6 penalizado por concentracion en pocos OEMs de semis y un unico end-market ciclico. Campos de mercado (precio, multiplos, % off highs) son ESTIMADOS de StockAnalysis; fundamentales VERIFICADOS de fuente primaria VAT. PEG 1.88. Conclusion: empresa de maxima calidad pero precio sin margen de seguridad; candidata a watchlist a la espera de un drawdown ciclico."
+}

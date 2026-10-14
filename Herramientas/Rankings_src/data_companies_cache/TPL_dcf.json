@@ -1,0 +1,41 @@
+{
+ "ticker": "TPL",
+ "currency": "USD",
+ "current_price": 361.11,
+ "wacc_pct": 8.5,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.85,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = FY2025 reported FCF $498.3M minus 100% of SBC $13.8M = $484.5M (owner-FCF margin ~60.7% on $798.2M revenue). SBC is treated as a cash expense per owner-earnings discipline; impact is small here since SBC is only 2.77% of FCF / 1.73% of revenue — among the lowest in the QG universe.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 13,
+  "rev_cagr_y6_10_pct": 6.5,
+  "fcf_margin_terminal_pct": 60,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% of SBC ($13.8M) deducted from reported FCF as a cash expense to derive owner earnings ($484.5M base). SBC is immaterial (1.73% of revenue, 2.77% of FCF).",
+  "shares_diluted_b": 0.069,
+  "net_debt_usd_b": -0.23
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 166,
+   "prob": 0.375,
+   "note": "Sostained oil-price softness and slower royalty/production growth. Owner-FCF grows ~8% CAGR in years 1-5, decelerating from 6% to 3% in years 6-10; terminal g 2.5%. Water segment grows but data-center/surface-monetization optionality stays muted. Yr10 owner FCF ~$887M. IV ~$166."
+  },
+  "base": {
+   "iv_per_share": 231,
+   "prob": 0.475,
+   "note": "Consistent with track record (FY2025 revenue +29% organic / +29% royalty production, Q1-26 +21% YoY, ~62% FCF margin, ROIC ~43%). Owner-FCF ~13% CAGR years 1-5, declining 9%->4% years 6-10; terminal g 3.0%. Royalty volume growth + water expansion + modest land/data-center monetization. Yr10 owner FCF ~$1.22B. IV ~$231 — still ~36% below the $361 price, confirming a rich multiple (~51x owner FCF)."
+  },
+  "optimista": {
+   "iv_per_share": 325,
+   "prob": 0.15,
+   "note": "Perfect execution: ~18% owner-FCF CAGR years 1-5 on continued Permian royalty volume growth, scaled water/produced-water business, and material surface/data-center land monetization (e.g. the Q1-26 $42.5M financing arrangement as a template). Declines 12%->5% years 6-10; terminal g 3.5%. Yr10 owner FCF ~$1.67B. IV ~$325 — approaches but still below the current price."
+  }
+ },
+ "sanity_check": "Shareholder-return contrast (not used in valuation): regular dividend $2.40/yr = ~0.66% yield at $361.11; TPL also pays special dividends and runs opportunistic buybacks, but total shareholder yield remains low (~1-2%) because the stock trades at a very high multiple. Owner-FCF yield on price is only ~1.94% (~51x price/owner-FCF), versus a ~62% reported FCF margin and net-cash balance sheet — the premium reflects scarcity, royalty quality and optionality, not current cash returns. Prob-weighted IV ~$221 sits ~39% below the $361 price; even the optimistic $325 case is below market. Cross-check: at the implied current multiple TPL prices in many years of sustained 15-20%+ owner-FCF growth, which exceeds the disciplined base path. Conclusion: business quality is elite (fortress balance sheet, ~77% operating margins, ~43% ROIC), but the share price already discounts strong execution and surface/data-center optionality — limited margin of safety at $361. Stock-split note: ~0.069B post-split shares (3-for-1 from the pre-split ~23M count) reconcile $24.91B mkt cap / $361.11.",
+ "method_notes": "10-year owner-earnings DCF. Owner FCF base = reported FCF $498.3M − 100% SBC $13.8M = $484.5M (FY2025). WACC = Rf 4.3% (UST 10Y) + ERP 5.0% x beta 0.85 = 8.55%, rounded to 8.5%; TPL carries a net-cash balance sheet (only ~$18M debt, ~$248M cash, fully undrawn $500M revolver) so WACC = cost of equity, no debt weighting and no geopolitical adjustment (US-domiciled). Phase 1 (yrs 1-5): explicit owner-FCF CAGR by scenario (8%/13%/18%) reflecting Permian royalty volume growth, water-services expansion and surface monetization, holding owner-FCF margin ~stable near 60%. Phase 2 (yrs 6-10): CAGR declines linearly toward normalization. Terminal value via Gordon growth on Yr10 owner FCF with g = 2.5%/3.0%/3.5% (wide economic moat: irreplaceable West Texas surface + royalty acreage, zero capital intensity, ~43% ROIC). Flows and terminal value discounted at 8.5%; equity value = EV − net debt (net debt is −$0.23B, i.e. net cash added back); IV/share = equity / 0.069B diluted shares. Probabilities 0.375/0.475/0.15 sum to ~1.0. Inputs verified from TPL IR Q4/FY2025 and Q1 2026 press releases and stockanalysis.com (price/shares); share count cross-checked via SEC 8-K / Macrotrends confirming post-split ~68.94M shares."
+}

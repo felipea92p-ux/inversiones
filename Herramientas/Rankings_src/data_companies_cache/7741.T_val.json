@@ -1,0 +1,48 @@
+{
+ "ticker": "7741.T",
+ "name": "HOYA Corporation",
+ "currency": "JPY",
+ "price_verified": 27050,
+ "price_source": "StockAnalysis.com + Google Finance, intraday 2026-06-23 ~09:50 JST (¥27,050; data-file ¥26,975 = prior close, consistent). An early WebSearch snippet showing ¥28,970/¥9.78T appears stale/erroneous and was discarded.",
+ "price_date": "2026-06-23",
+ "shares_diluted_b": 0.33451,
+ "implied_mcap_b_usd": 57.6,
+ "mcap_sanity_ok": true,
+ "sanity_notes": "Implied mcap = ¥27,050 x 0.33451B = ¥9.05tn; /157 USDJPY = $57.6B, matches data-file $57.5B and StockAnalysis ¥9.02tn / Google ¥9.08tn. Shares 334.51M confirmed across StockAnalysis + search (note: 3.58M treasury shares cancelled 2026-05-15, ~1.07%, already reflected). All three DCF per-share IVs (¥24,572 / ¥33,051 / ¥45,616) and weighted ¥31,713 fall within the 30–300% magnitude band vs ¥27,050 price; no unit/currency/share error detected.",
+ "wacc_pct": 6.5,
+ "wacc_components": {
+  "rf_pct": 1.3,
+  "erp_pct": 5,
+  "beta": 0.64,
+  "geo_adj_pct": 2
+ },
+ "owner_fcf_base": "~¥235bn normalized owner FCF (FY25 yr-end Mar-2026). FCF not precisely disclosed by HOYA; derived from OP ¥285.2bn / net earnings ¥253.1bn with strong cash conversion, haircut for elevated growth capex (Singapore EUV ~¥42bn, Vietnam HDD ~¥50bn Phase 1). SBC immaterial (~1.5% of FCF) so Owner FCF ≈ FCF − ~¥3bn SBC.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 24572,
+   "prob": 0.38,
+   "note": "Phase1 6% / Phase2 declining to 4% / terminal 2.5%. IT capex digestion slows, HDD-glass cyclicality, modest EUV ramp. Not apocalyptic — still a high-ROIC franchise."
+  },
+  "base": {
+   "iv_per_share": 33051,
+   "prob": 0.47,
+   "note": "Phase1 9% / Phase2 5.5% / terminal 3.0%. Organic ~8% sustained, EUV mask-blank + HDD substrate secular tailwind, Life Care steady. ROIC ~21%."
+  },
+  "optimista": {
+   "iv_per_share": 45616,
+   "prob": 0.15,
+   "note": "Phase1 12% / Phase2 7% / terminal 3.5%. EUV/AI-storage demand inflects, Singapore+Vietnam capacity drives margin-accretive volume."
+  }
+ },
+ "iv_dcf_weighted": 31713,
+ "fwd_multiple_now": 34,
+ "fwd_multiple_5y_avg": 28.5,
+ "fair_multiple": 28.5,
+ "multiple_metric": "fwd P/E",
+ "multiple_rationale": "Anchor fair_multiple to HOYA's own 5y-avg fwd P/E of 28.5x. Current 34.0x is a ~19% premium to its own history (and well above JP med-device peers ~26x). No structural DETERIORATION — ROIC 21%, net cash, secular EUV/HDD tailwinds — so the premium is cyclical/optimism, not a re-rating to defend: NO haircut to the 5y avg, but no credit for the current premium either. iv_multiple = fwd EPS ~¥795.9 (¥743.82 TTM x ~1.07) x 28.5 = ¥22,683.",
+ "iv_multiple": 22683,
+ "weight_dcf": 0.45,
+ "weight_multiple": 0.55,
+ "reconciled_iv": 26747,
+ "structural_change": "None negative. HOYA remains a best-in-class dual-engine compounder (IT: EUV/DUV mask blanks + HDD glass substrates near-monopoly; Life Care: high-value eyeglass + contact lenses). Active capex expansion (Singapore EUV, Vietnam HDD) is growth-positive, not a deterioration. New capital policy = 100% of FCF returned + ¥110bn excess-cash release over 3yrs + progressive 40% payout dividend. Mid-cycle heavy-capex phase is the only reason the multiple is not weighted even higher."
+}

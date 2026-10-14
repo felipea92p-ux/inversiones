@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "ticker": "INTU",
+    "empresa": "Intuit Inc.",
+    "cik": "0000896878",
+    "domicilio": "EEUU (Mountain View, CA) - emisor domestico, presenta 10-K/10-Q ante la SEC",
+    "moneda_funcional": "USD",
+    "moneda_reporte": "USD",
+    "ads": "NO APLICA - accion ordinaria cotizada directamente en Nasdaq. No hay ratio ADS que ajustar.",
+    "fecha_analisis": "2026-07-28",
+    "ejercicio_fiscal": "cierra el 31 de julio",
+    "ultimo_auditado": "FY2025 (12 meses cerrados 2025-07-31), 10-K presentado 2025-09-03, accession 0000896878-25-000035",
+    "ejercicio_en_curso": "FY2026 (cierra 2026-07-31, a 3 dias de cerrar). 9M reales publicados (10-Q Q1 2025-11-20, Q2 2026-02-26, Q3 2026-05-20) + guia de la compania del 2026-05-20.",
+    "nota_de_alcance": "Este documento es SOLO el eje precio. La etiqueta de calidad MUY_BUENA (4 puertas) esta CONGELADA y no se toca ni se revisa al alza."
+  },
+
+  "etiqueta_congelada": {
+    "banda": "MUY_BUENA",
+    "puertas_pasadas": 4,
+    "especie_g2": "reinversion 30.3% de ventas; ROIIC bruto 9.4%; ROIIC ex-margen 11.5%",
+    "mecanismo_heredado": "Intuit es el libro contable de la pyme estadounidense y la marca del impuesto del consumidor, y monetiza esa posicion subiendo precio 11-14% al anio sobre una base que apenas consume capital -capex del 0,7% de ventas, circulante negativo, capital tangible neto en cero o negativo cinco de siete anios- devolviendo el excedente en recompras.",
+    "eslabon_mas_debil_heredado": "La puerta de recesion no se sostiene: en FY2009 Intuit recorto I+D un 6,2% en absoluto y el capex un 50% mientras subia la publicidad -protegio la cuenta de resultados en vez de ensanchar el foso- y ningun documento primario acredita dos rivales nombrados retrocediendo.",
+    "mos_exigido": {
+      "para_abrir": "30%",
+      "para_cargar_su_banda": "40% (MUY_BUENA)",
+      "aplicable_aqui": "40% - la posicion ya existe y pesa 5,47% del NAV, luego el umbral operativo es el de CARGAR"
+    }
+  },
+
+  "precio_y_capitalizacion": {
+    "precio_usd": 302.00,
+    "etiqueta": "HECHO",
+    "fuente_precio": "IBKR MCP get_price_snapshot, contract_id 270662 (INTU, NASDAQ, STK), campo 'last' = 302,00 USD, timestamp 2026-07-28 00:16. Cierre oficial de la sesion previa (2026-07-27) = 303,91 USD, tambien IBKR (barra semanal). La diferencia de 0,6% esta muy por debajo del piso de resolucion.",
+    "conversion_divisa": "NO APLICA - cotiza en USD en Nasdaq.",
+    "acciones_en_circulacion_mm": 273.537,
+    "fuente_acciones": "HECHO - portada del 10-Q de Q3 FY2026 (dei:EntityCommonStockSharesOutstanding a 2026-05-14) = 273.537.000 acciones. Cruce: 279.129.000 a 2025-07-31 (10-K FY2025). Reduccion neta de 5,6 mm de acciones (-2,0%) en 9 meses.",
+    "capitalizacion_usd_mm": 82608,
+    "deuda_bruta_usd_mm": 6162,
+    "fuente_deuda": "HECHO - 10-Q Q3 FY2026 (us-gaap:LongTermDebt a 2026-04-30 = 6.162 M: 5.412 no corriente + 750 corriente). Confirmado en la nota de prensa de resultados del 2026-05-20: 'debt of $6.2 billion as of April 30, 2026'.",
+    "caja_e_inversiones_usd_mm": 6800,
+    "fuente_caja": "HECHO - nota de prensa de resultados Q3 FY2026 (Ex-99.01, 2026-05-20): 'total cash and investments balance of $6.8 billion... as of April 30, 2026'. Cruce con balance del 10-Q: caja y equivalentes 4.681 M a 2026-04-30.",
+    "deuda_neta_usd_mm": -638,
+    "ev_usd_mm": 81970,
+    "advertencia_balance": "Los 7.076 M de 'Funds receivable and amounts held for customers' del activo estan compensados exactamente por 7.076 M de 'Funds payable and amounts due to customers' del pasivo (dinero de nomina de clientes). NO son caja corporativa y NO se cuentan. Tampoco se cuenta como caja la cartera de 'Notes receivable held for investment' (1.403 M a 2025-07-31), que esta financiada en gran parte por los 1.014 M de lineas revolving garantizadas de la filial de prestamo, incluidas ya en la deuda bruta.",
+    "contexto_de_precio": {
+      "maximo_52_semanas_usd": 808.19,
+      "minimo_52_semanas_usd": 252.84,
+      "caida_desde_maximo": "-62,6%",
+      "volatilidad_realizada_anual": "36,7% a 5 anios; 39,8% a 2 anios; 49,4% a 1 anio (calculo propio sobre retornos semanales IBKR)",
+      "que_paso": "El 2026-05-20 Intuit publico un Q3 por encima de su propia guia y SUBIO la guia anual, y anuncio a la vez un recorte del 17% de la plantilla global (~3.000 empleos) 'AI-focused'. La accion cayo ~20% ese dia. La narrativa dominante es que la IA generativa ataca precisamente la capa de 'ayuda guiada' que hacia valiosos TurboTax y parte del ecosistema. HECHO documental: la nota de prensa del 2026-05-20 confirma el recorte del 17% y 300-340 M de cargos de reestructuracion en Q4 FY26. INFERENCIA (prensa): la atribucion causal de la caida a la tesis de disrupcion por IA."
+    }
+  },
+
+  "candado_B_wacc_de_mercado": {
+    "principio": "El WACC NO se hereda de ningun tier de calidad. Sale integramente de precios y de las cuentas.",
+    "tasa_libre_riesgo_pct": 4.64,
+    "fuente_tasa_libre_riesgo": "Bono del Tesoro de EEUU a 10 anios (moneda funcional = USD), 4,64% al 2026-07-27. Fuente: Trading Economics / Federal Reserve H.15 del 2026-07-27. Etiqueta: INFERENCIA (dato de mercado secundario; lecturas alternativas del mismo dia: 4,63%-4,65%).",
+    "prima_mercado_pct": 4.20,
+    "prima_pais_pct": 0.22,
+    "fuente_primas": "Damodaran, actualizacion al 1 de julio de 2026: con el S&P 500 en 7.499,36 la ERP implicita de EEUU es 4,42%; descontando el diferencial de impago de 0,22% del rating Aa1 (tras la bajada de Moody's desde Aaa) queda una prima de mercado maduro de 4,20%. Prima pais aplicada: 0,22%, la de EEUU, porque el riesgo del ACTIVO es estadounidense (el ingreso internacional online es minoritario). Etiqueta: INFERENCIA.",
+    "beta": 1.15,
+    "fuente_beta": "Calculo propio: regresion OLS de retornos SEMANALES de INTU contra SPY, 5 anios (2021-07-30 a 2026-07-27, n=262 semanas, precios IBKR) -> beta 1,162, correlacion 0,513. Ajuste de Blume (2/3 x 1,162 + 1/3 x 1) = 1,11. Contraste publicado: stockanalysis.com da beta 0,96 (consultado 2026-07-28, INFERENCIA - agregador). Beta central adoptada: 1,15 (se elige el extremo alto del rango defendible, es decir el WACC mas caro).",
+    "advertencia_beta": "Las betas de ventana corta han COLAPSADO precisamente porque el desplome ha sido idiosincratico, no de mercado: beta a 3 anios 0,72 (corr 0,29), a 2 anios 0,51 (corr 0,20), a 1 anio 0,24 (corr 0,06). Usar la beta de 1 anio (0,24) daria un coste de capital de 5,7% para un activo con 49% de volatilidad realizada y un debate existencial abierto. Eso seria un artefacto del CAPM, no una medicion de riesgo. Por eso se ancla en la ventana de 5 anios.",
+    "coste_deuda_pct": 4.11,
+    "fuente_coste_deuda": "HECHO - derivado del filing: gasto por intereses de deuda FY2025 = 247 M (us-gaap:InterestExpenseDebt, 10-K FY2025) sobre deuda media del ejercicio ((6.038 + 5.973)/2 = 6.006 M) = 4,11%. Coste MARGINAL mas alto: las emisiones vivas de 2023 pagan 5,125%-5,50% (notas Sep-2028 5,125%, Sep-2033 5,20%, Sep-2053 5,50%, tabla de deuda del 10-K FY2025). Las notas baratas de 2020 (0,95%, 1,35%, 1,65%) son las que abaratan la media y van venciendo. El coste marginal de ~5,3% se usa en el extremo caro del rango.",
+    "tasa_impositiva_efectiva_pct": 19.97,
+    "fuente_tasa_impositiva": "HECHO - 10-K FY2025: impuesto 965 M / beneficio antes de impuestos 4.834 M = 19,97%.",
+    "ponderacion": {
+      "equity_valor_mercado_usd_mm": 82608,
+      "deuda_valor_mercado_usd_mm": 6162,
+      "peso_equity_pct": 93.06,
+      "peso_deuda_pct": 6.94,
+      "nota": "La deuda se toma a valor contable como aproximacion del valor de mercado. Las notas de cupon 0,95-1,65% cotizan bajo la par con tipos al 4,6%, de modo que el valor de mercado real de la deuda es algo INFERIOR al contable; el efecto sobre un peso del 7% es inmaterial frente al piso de resolucion."
+    },
+    "coste_equity_pct": 9.72,
+    "wacc_pct": 9.3,
+    "wacc_rango": "8,5% - 10,0%",
+    "detalle_rango": "Extremo barato: beta 0,96 (fuente publicada) y coste de deuda 4,11% -> Ke 8,88%, WACC 8,49%. Extremo caro: beta 1,30 y coste de deuda marginal 5,30% -> Ke 10,39%, WACC 9,96%. Central: beta 1,15, kd 4,11% -> WACC 9,28%.",
+    "reserva_intelectual": "El CAPM infravalora este caso concreto. Un activo con 40-50% de volatilidad realizada y una pregunta terminal abierta (si la IA generativa desmonta la capa de ayuda guiada) no es un activo de 9,3% de coste de capital en sentido economico. La disciplina elegida es NO manipular el WACC para colar el riesgo por la puerta de atras, sino tratar ese riesgo donde corresponde: en la g defendible, en el escenario bajista y en el veredicto de trampa de valor."
+  },
+
+  "owner_earnings": {
+    "definiciones": {
+      "capex_de_mantenimiento": "Aproximado por la depreciacion, segun el mandato. HALLAZGO RELEVANTE: en Intuit el capex TOTAL es INFERIOR a la depreciacion (FY2025: capex 124 M -incluye 84 M de inmovilizado y 40 M de software de uso interno- frente a 172 M de depreciacion). Es decir, NO existe exceso de capex discrecional que proteger. Las dos versiones (a) y (b) difieren menos de un 1%. La distincion Amazon-2005 / Coca-Cola-1998 simplemente no muerde aqui: la reinversion de Intuit no pasa por el balance, pasa por la cuenta de resultados (I+D y marketing) y por M&A.",
+      "tratamiento_del_sbc": "DECISION DECLARADA. Los campos oe_* del esquema recogen la definicion LITERAL del mandato (flujo de caja de explotacion menos capex), para que sean comparables con el resto de la flota. Pero la VALORACION se hace sobre owner earnings NETOS de retribucion en acciones. Motivo: la retribucion en acciones de Intuit es 1.968 M en FY2025, el 10,5% de las ventas; el flujo de caja de explotacion la suma de vuelta como partida no monetaria, pero es un coste economico real -Intuit gasta 2.772 M (FY2025) y 3.341 M (9M FY2026) en recompras y aun asi el numero de acciones solo baja un 2%, luego una parte grande de la recompra se limita a tapar la dilucion. Valorar sobre el flujo bruto haria a Intuit parecer un 45% mas barata de lo que es. Esa es exactamente la puerta por la que se cuela la contradiccion madre.",
+      "amortizacion_de_intangibles": "Los 637 M de amortizacion de intangibles adquiridos (FY2025) NO se restan: son contabilidad de adquisiciones de Credit Karma y Mailchimp, no un desembolso recurrente. El desembolso de M&A si se registra por separado (184 M en FY2025)."
+    },
+    "base_auditada_fy2025": {
+      "fuente": "HECHO - 10-K FY2025, Estado consolidado de flujos de efectivo (R9.htm de la accession 0000896878-25-000035) y cuenta de resultados.",
+      "ventas_usd_mm": 18831,
+      "resultado_explotacion_usd_mm": 4923,
+      "beneficio_neto_usd_mm": 3869,
+      "flujo_caja_explotacion_usd_mm": 6207,
+      "depreciacion_usd_mm": 172,
+      "capex_inmovilizado_usd_mm": 84,
+      "capitalizacion_software_usd_mm": 40,
+      "capex_total_usd_mm": 124,
+      "retribucion_en_acciones_usd_mm": 1968,
+      "adquisiciones_netas_usd_mm": 184,
+      "oe_a_solo_capex_mantenimiento_LITERAL_usd_mm": 6035,
+      "oe_b_capex_total_LITERAL_usd_mm": 6083,
+      "oe_a_neto_de_sbc_usd_mm": 4067,
+      "oe_b_neto_de_sbc_usd_mm": 4115,
+      "base_desapalancada_para_dcf_usd_mm": 4313,
+      "nota_base_desapalancada": "OE (b) neto de SBC 4.115 + intereses despues de impuestos 198 (247 x (1-0,20)), porque el flujo de caja de explotacion ya va despues de intereses pagados y el descuento se hace al WACC sobre el valor de empresa."
+    },
+    "base_en_curso_fy2026": {
+      "estado": "El ejercicio cierra el 2026-07-31, dentro de 3 dias. Nueve meses REALES publicados en tres 10-Q + guia de la compania del 2026-05-20 para el trimestre que falta. Esta base es casi tan solida como una auditada: lo unico estimado de verdad es el flujo de caja del Q4.",
+      "ventas_guia_usd_mm": "21.341 - 21.374 (punto medio 21.358), +13-14%. HECHO: nota de prensa 2026-05-20.",
+      "resultado_explotacion_gaap_guia_usd_mm": "5.705 - 5.725, +16% (incluye 300 M de cargos de reestructuracion). HECHO: nota de prensa 2026-05-20.",
+      "bpa_gaap_guia_usd": "15,79 - 15,84. BPA no-GAAP guia: 23,80 - 23,85.",
+      "nueve_meses_reales": {
+        "ventas_usd_mm": 17094,
+        "resultado_explotacion_usd_mm": 5409,
+        "beneficio_neto_usd_mm": 4203,
+        "flujo_caja_explotacion_usd_mm": 7507,
+        "capex_inmovilizado_usd_mm": 148,
+        "depreciacion_usd_mm": 133,
+        "retribucion_en_acciones_usd_mm": 1549,
+        "recompras_usd_mm": 3341
+      },
+      "flujo_caja_explotacion_anual_estimado_usd_mm": 7850,
+      "metodo_estimacion_cfo": "INFERENCIA. Los nueve meses reales dan 7.507 M. El Q4 historico aporta poco flujo por estacionalidad: +381 M en FY2025, +417 M en FY2024, +842 M en FY2023. Se toma +350 M para FY2026 (algo por debajo del patron, porque parte de los 300-340 M de reestructuracion es salida de caja del Q4). Total 7.850 M.",
+      "capex_total_estimado_usd_mm": 240,
+      "depreciacion_estimada_usd_mm": 178,
+      "retribucion_en_acciones_estimada_usd_mm": 2050,
+      "oe_a_solo_capex_mantenimiento_LITERAL_usd_mm": 7672,
+      "oe_b_capex_total_LITERAL_usd_mm": 7610,
+      "oe_a_neto_de_sbc_usd_mm": 5622,
+      "oe_b_neto_de_sbc_usd_mm": 5560,
+      "base_desapalancada_para_dcf_usd_mm": 5758
+    },
+    "distancia_entre_bases_es_informacion": {
+      "salto": "Los owner earnings netos de SBC pasan de 4.115 M (FY2025) a 5.560 M (FY2026e): +35%, con las ventas creciendo solo +13,4%.",
+      "de_donde_sale": "La conversion de ventas a flujo de caja de explotacion se ha disparado: 30,0% en FY2024, 35,1% en FY2023, 32,9% en FY2025 y 36,8% en FY2026e. El FY2026 es un anio de conversion PICO, no la tasa base. Ademas los 300-340 M de reestructuracion se han reconocido como cargo pero su salida de caja es en parte posterior.",
+      "consecuencia_operativa": "Se construye una tercera base NORMALIZADA para fijar el precio de accion: conversion media FY2023-FY2026e = 33,7% sobre las ventas de FY2026 (21.358) -> flujo de caja de explotacion 7.198 M; menos SBC 2.050 y capex 240 -> owner earnings 4.908 M; base desapalancada 5.106 M. Esta es la base que se usa para P*.",
+      "lectura_de_ciclo": "La base auditada esta 12 meses rancia y subestima la potencia actual. La base en curso esta en el pico de conversion del ciclo fiscal (temporada de renta excepcional, mezcla de TurboTax Live) y la sobreestima. La verdad operativa esta entre las dos, y la distancia entre ambas (35%) es mayor que el margen de seguridad que separa comprar de no comprar. Eso, por si solo, ya dice que este caso no se decide con decimales."
+    }
+  },
+
+  "dcf_inverso": {
+    "motor": "Se resuelve la g a 10 anios, con valor terminal al 3% y descuento al WACC de 9,28%, que iguala exactamente el valor de empresa de hoy (81.970 M).",
+    "sobre_base_neta_de_sbc": {
+      "auditado_fy2025": {
+        "base_usd_mm": 4313,
+        "g_implicita_10a_pct": 4.94,
+        "multiplo_ev_sobre_oe_hoy": 19.0
+      },
+      "en_curso_fy2026e": {
+        "base_usd_mm": 5758,
+        "g_implicita_10a_pct": 1.12,
+        "multiplo_ev_sobre_oe_hoy": 14.2
+      }
+    },
+    "sobre_base_literal_sin_restar_sbc": {
+      "auditado_fy2025": { "base_usd_mm": 6281, "g_implicita_10a_pct": -0.04, "multiplo_ev_sobre_oe_hoy": 13.1 },
+      "en_curso_fy2026e": { "base_usd_mm": 7808, "g_implicita_10a_pct": -2.98, "multiplo_ev_sobre_oe_hoy": 10.5 },
+      "nota": "Sobre la definicion literal del mandato el mercado esta descontando DECRECIMIENTO. Se reporta para que quede constancia de que la conclusion cualitativa no depende del tratamiento del SBC: en las cuatro combinaciones el mercado descuenta menos crecimiento del que el negocio ha entregado."
+    },
+    "lo_que_esto_significa": "En la lectura mas exigente (base en curso, neta de SBC) el precio de hoy solo pide 1,1% anual de crecimiento durante diez anios y luego 3% a perpetuidad. En la mas indulgente para el mercado (base auditada rancia, neta de SBC) pide 4,9%. Contraste con la tasa base observada: las ventas han crecido 14,1% anual compuesto de FY2023 (14.368) a FY2026e (21.358), practicamente todo organico -las adquisiciones grandes, Credit Karma y Mailchimp, son de FY2021 y FY2022- y el resultado de explotacion 22,1% anual en el mismo tramo. El mercado no esta descontando desaceleracion; esta descontando parada tecnica."
+  },
+
+  "multiplos_actuales_de_referencia": {
+    "ev_sobre_ventas_fy26e": 3.84,
+    "per_gaap_fy26e": 19.1,
+    "per_no_gaap_fy26e": 12.7,
+    "rentabilidad_del_flujo_libre_sobre_ev_neta_de_sbc_fy26e_pct": 6.8
+  },
+
+  "g_defendible": {
+    "valor_pct": 8.0,
+    "construccion_pedida": "tasa de reinversion x ROIIC EX-MARGEN (11,5%). Con ROIIC ex-margen del 11,5%, una g del 8,0% exige una tasa de reinversion del 70% de los beneficios incrementales: 0,70 x 11,5% = 8,05%.",
+    "honestidad_sobre_el_marco": "El marco g = reinversion x ROIC se rompe parcialmente en Intuit y hay que decirlo. La reinversion NO aparece en el balance: el capex es inferior a la depreciacion y el capital invertido ex-fondo de comercio es practicamente cero. La reinversion vive en la cuenta de resultados (I+D y marketing) y por tanto ya esta descontada de los owner earnings. La tasa del 70% es la que reconcilia la g con el ROIIC ex-margen dado, no una medicion independiente. Etiqueta: INFERENCIA.",
+    "verificacion_por_abajo_construccion_por_segmentos": {
+      "global_business_solutions_pct_ventas": "~40% del negocio. Ecosistema online +19% en el Q3 (excluyendo Mailchimp, +22%); QuickBooks Online Accounting +22%; mid-market >30%. HECHO: nota de prensa 2026-05-20. Se le asigna 13-15% a diez anios, decreciendo.",
+      "consumer_pct_ventas": "~55-60% del negocio. TurboTax +7% en el anio. Pero las UNIDADES online totales caen ~2% y la cuota de e-files baja ~1 punto; el crecimiento es precio y mezcla (ARPU +11%, TurboTax Live +36% hasta 2.800 M, clientes que no pagan nada bajan de 8 a 7 millones). HECHO: guia de la nota de prensa 2026-05-20. Se le asigna 4-6%.",
+      "mezcla": "0,55 x 5% + 0,45 x 14% = 9,1%, menos ajuste por ejecucion, integracion del recorte del 17% de plantilla y riesgo de disrupcion -> 8,0%."
+    },
+    "por_que_no_mas": "Porque el mecanismo heredado dice explicitamente que el crecimiento es de PRECIO (11-14% anual) sobre una base de unidades que ahora esta cayendo. El precio sobre unidades que caen tiene un techo, y ese techo no esta a diez anios vista de distancia.",
+    "por_que_no_menos": "Porque la mitad empresarial del negocio -QuickBooks Online, nomina, dinero, mid-market- esta ACELERANDO, no rompiendose, y ahi el efecto red del contable y la friccion de cambio del libro contable siguen intactos segun los datos publicados por la propia compania."
+  },
+
+  "valoracion_y_margen_de_seguridad": {
+    "metodo": "Descuento a 10 anios de la base desapalancada creciendo a la g defendible (8,05%), valor terminal al 3%, WACC 9,28%. Valor de empresa menos deuda neta (-638, es decir mas caja neta) dividido entre 273,537 mm de acciones.",
+    "base_auditada_fy2025": {
+      "valor_por_accion_usd": 382,
+      "banda_piso_de_resolucion_25pct": "286 - 477",
+      "mos_pct": 20.9,
+      "veredicto_parcial": "NO llega al 40% exigido. Ademas el precio de hoy (302) cae DENTRO de la banda de ruido, luego sobre esta base no se puede afirmar siquiera que este barata."
+    },
+    "base_en_curso_fy2026e": {
+      "valor_por_accion_usd": 509,
+      "banda_piso_de_resolucion_25pct": "382 - 636",
+      "mos_pct": 40.7,
+      "veredicto_parcial": "Llega al 40% justo. El precio de hoy queda POR DEBAJO del extremo inferior de la banda de ruido (382), luego sobre esta base la baratura si es distinguible del ruido."
+    },
+    "base_normalizada": {
+      "valor_por_accion_usd": 451,
+      "banda_piso_de_resolucion_25pct": "338 - 564",
+      "mos_pct": 33.1,
+      "veredicto_parcial": "No llega al 40%. El precio queda dentro de la banda por muy poco."
+    },
+    "piso_de_resolucion": "Sin medicion propia del ruido se aplica una banda de mas menos 25% al valor intrinseco, como manda el protocolo. Ninguna cifra de valor por accion se reporta con decimales. La conclusion operativa es que el MoS real de este caso esta en algun punto entre 21% y 41%, y el umbral exigido (40%) esta en el extremo superior de ese rango: el caso NO es limpio.",
+    "escenarios": {
+      "bajista_g_2_85pct": {
+        "supuesto": "Consumer (55% de las ventas) decrece 3% anual durante una decada -unidades cayendo y la IA erosionando el precio- mientras GBS crece 10%. Mezcla 2,85%.",
+        "valor_por_accion_auditado_usd": 258,
+        "valor_por_accion_normalizado_usd": 305,
+        "valor_por_accion_en_curso_usd": 344,
+        "tir_10a_pct": "8,4% a 10,2%"
+      },
+      "defendible_g_8_05pct": {
+        "valor_por_accion_auditado_usd": 381,
+        "valor_por_accion_normalizado_usd": 451,
+        "valor_por_accion_en_curso_usd": 509,
+        "tir_10a_pct": "10,8% a 13,1%"
+      },
+      "alcista_g_11pct": {
+        "supuesto": "La IA resulta ser palanca y no amenaza: TurboTax Live y el mid-market siguen a >30% y el recorte del 17% de plantilla expande margen sin danar producto.",
+        "valor_por_accion_auditado_usd": 477,
+        "valor_por_accion_normalizado_usd": 564,
+        "valor_por_accion_en_curso_usd": 636,
+        "tir_10a_pct": "12,4% a 15,0%"
+      }
+    },
+    "sensibilidad_wacc_x_g_base_en_curso": {
+      "wacc_8_5": { "g_5": 463, "g_6_5": 520, "g_8": 584, "g_10": 682 },
+      "wacc_9_3": { "g_5": 403, "g_6_5": 451, "g_8": 505, "g_10": 587 },
+      "wacc_10_2": { "g_5": 351, "g_6_5": 392, "g_8": 437, "g_10": 506 }
+    }
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 14.0,
+    "definicion_m_estrella": "14 veces owner earnings NETOS de retribucion en acciones, sobre base desapalancada (owner earnings tras restar todo el capex, mas intereses despues de impuestos). Decidido en frio: el descuento a la g defendible arroja un multiplo justo de 24x; aplicando el 40% de margen de seguridad exigido a la banda MUY_BUENA, 24 x 0,60 = 14,4, redondeado a la baja a 14. No lleva barra de error porque no es una estimacion sino un compromiso.",
+    "p_estrella_usd": 271,
+    "definicion_p_estrella": "Precio que da el 40% de margen de seguridad exigido a una MUY_BUENA para CARGAR, calculado sobre la base NORMALIZADA (valor 451 x 0,60 = 271).",
+    "p_estrella_por_base": {
+      "auditada_fy2025": 229,
+      "normalizada": 271,
+      "en_curso_fy2026e": 305
+    },
+    "cruce_con_m_estrella": "Pagar 14x owner earnings implicaria 223 USD sobre la base auditada, 264 sobre la normalizada y 297 sobre la base en curso. El precio de hoy (302) esta justo por ENCIMA del techo de ese rango.",
+    "distancia_al_gatillo": "El precio de hoy (302) esta un 11% por encima de P* = 271. Sobre la base mas benigna (en curso) el gatillo ya estaria disparado por 1%; sobre la mas exigente (auditada) faltaria un 24% mas de caida."
+  },
+
+  "tir_esperada": {
+    "rango_10a": "+8% a +15% anual",
+    "banda_central": "+10% a +13% anual",
+    "desglose": "Bajista (g 2,85%): +8,4% (base auditada) a +10,2% (base en curso). Defendible (g 8,05%): +10,8% a +13,1%. Alcista (g 11%): +12,4% a +15,0%.",
+    "lectura": "Lo relevante no es la punta alcista sino el suelo: incluso en el escenario en que el negocio de consumo decrece 3% anual durante una decada, la TIR esperada sigue siendo del 8-10% anual. Es decir, comprar hoy no exige acertar la disrupcion: exige que el negocio empresarial siga funcionando."
+  },
+
+  "detector_de_trampa_de_valor": {
+    "veredicto": "SOSPECHA",
+    "a_favor_de_que_lo_sea": [
+      "El motor de UNIDADES del negocio de consumo se ha dado la vuelta. La propia guia de la compania (nota de prensa 2026-05-20, HECHO) proyecta unidades totales de TurboTax Online cayendo ~2% y la cuota de e-files bajando ~1 punto en el anio. El crecimiento del 7% de TurboTax es ARPU (+11%) y mezcla hacia Live. Subir precio sobre una base de clientes que encoge es el patron clasico de fin de ciclo, y es exactamente el mecanismo que la nota de calidad ya identifico -'monetiza esa posicion subiendo precio 11-14% al anio'- solo que ahora sin el viento de cola de las unidades.",
+      "El recorte del 17% de la plantilla repite el patron que el eslabon mas debil ya documento para FY2009: proteger la cuenta de resultados en vez de ensanchar el foso. Ningun documento primario acredita que el recorte venga acompanado de mas inversion en el producto; la nota de prensa lo presenta como 'simplify its organizational structure and become a faster, leaner, more focused company'.",
+      "La rebaja de la propia guia de ingresos de TurboTax (de 5.305-5.330 M a 5.277-5.282 M) mientras se sube la guia total dice donde esta el problema: en el consumo, que es la mitad mayor del negocio.",
+      "La caida del 62,6% desde maximos NO es un descuento de mercado indiscriminado; es especifica. La correlacion de INTU con el mercado a 1 anio es 0,06. El mercado esta emitiendo un juicio sobre esta empresa en particular."
+    ],
+    "en_contra_de_que_lo_sea": [
+      "La mitad empresarial esta acelerando, no rompiendose: ecosistema online +19% (+22% ex-Mailchimp), QuickBooks Online Accounting +22% impulsado por precio efectivo Y crecimiento de clientes Y mezcla, mid-market >30%. HECHO, nota de prensa 2026-05-20.",
+      "Los numeros consolidados no muestran deterioro: FY2026 cierra con ventas +13-14%, resultado de explotacion GAAP +16% y BPA GAAP +16%, todo por encima de la guia inicial. La compania SUBIO la guia el mismo dia que la accion cayo un 20%.",
+      "La conversion a caja mejora, no empeora: flujo de caja de explotacion sobre ventas del 36,8% en FY2026e frente a 30,0% en FY2024.",
+      "El balance no obliga a nada: deuda neta negativa (-638 M), 6,8 mil M de caja e inversiones, y la compania recompro 3.341 M en nueve meses con una nueva autorizacion de 8.000 M."
+    ],
+    "por_que_SOSPECHA_y_no_NO": "Porque la pregunta que decide el caso -si la IA generativa desmonta la capa de ayuda guiada que es el corazon de TurboTax- todavia no tiene respuesta en ningun documento primario, y el primer dato duro disponible (unidades cayendo, cuota de e-files cayendo) apunta en la direccion mala. El resto del negocio esta sano, luego no es una trampa confirmada. Pero un margen de seguridad grande sobre un motor cuya mitad puede estar girando no se puede firmar como 'oportunidad' sin decir en voz alta que la mitad puede estar girando.",
+    "por_que_SOSPECHA_y_no_SI": "Porque una trampa de valor exige que el motor se este rompiendo, y aqui hay un motor rompiendose (unidades de consumo) y otro acelerando (ecosistema empresarial). El consolidado sigue creciendo a doble digito con margen en expansion. Todavia no es una trampa; es una empresa con un ala averiada."
+  },
+
+  "veredicto_de_precio": {
+    "resumen": "El precio ha caido tanto que el DCF inverso pide 1,1-4,9% de crecimiento a diez anios frente a un 14% entregado en los ultimos tres. El margen de seguridad esta entre 21% (base auditada) y 41% (base en curso), con 33% en la base normalizada. El umbral exigido para CARGAR una MUY_BUENA es 40%. Solo la base mas favorable de las tres lo alcanza, y lo alcanza por un punto.",
+    "lectura_operativa": "NO llega el gatillo de CARGAR con la disciplina puesta. P* = 271 USD frente a 302 USD de hoy: falta un 11%. La posicion existente de 5,47% del NAV no se toca y no se amplia. Si el precio pierde los 271 con las cifras de FY2026 ya auditadas en el 10-K de septiembre confirmando la conversion de caja, el caso se vuelve mecanico.",
+    "lo_que_no_se_hace": "No se reclasifica la etiqueta. La tentacion evidente en este expediente es mirar el 41% de MoS de la base en curso, el ecosistema empresarial al 22% y el balance sin deuda, y concluir que 'en realidad si es ULTRA'. Esa conclusion esta prohibida y ademas seria falsa: el eslabon debil de la puerta de recesion sigue sin resolverse y ahora tiene compania -el patron FY2009 acaba de repetirse en 2026, con un recorte del 17% de plantilla presentado como eficiencia."
+  },
+
+  "huecos_declarados": [
+    "El flujo de caja de explotacion del Q4 FY2026 (+350 M supuestos) es una INFERENCIA sobre el patron de los tres ultimos Q4 (381, 417, 842). El 10-K de FY2026, previsto para principios de septiembre de 2026, lo cierra. Un error de 300 M mueve el valor por accion un 4%.",
+    "El capex total y la retribucion en acciones de FY2026 completo son estimaciones (240 M y 2.050 M). Solo hay nueve meses publicados (148 M y 1.549 M).",
+    "La salida real de caja de los 300-340 M de reestructuracion se reparte entre Q4 FY2026 y FY2027 y no esta desglosada en ningun documento primario. Puede rebajar el flujo de FY2026 mas de lo supuesto.",
+    "La tasa libre de riesgo (4,64%) y las primas de Damodaran (4,20% + 0,22%) son datos secundarios, no filings. Etiqueta INFERENCIA. No se pudo descargar directamente la curva del Tesoro (timeout).",
+    "La beta publicada de contraste (0,96) viene de stockanalysis.com, un agregador. Solo vale como comprobacion cruzada de la beta calculada propia (1,162 a 5 anios). El rango de beta defendible (0,96-1,30) mueve el WACC 1,5 puntos y el valor por accion un 15%.",
+    "El precio de 302,00 USD es un tick de IBKR con marca de tiempo 2026-07-28 00:16, posiblemente fuera de sesion regular. El cierre oficial de la sesion anterior fue 303,91. Diferencia 0,6%, irrelevante frente al piso de resolucion, pero queda declarado.",
+    "La atribucion causal de la caida del 62,6% a la tesis de disrupcion por IA procede de prensa (CNBC, Motley Fool, InvestingLive), no de un documento primario. HECHO documental: solo el recorte del 17% de plantilla y la rebaja de la guia de TurboTax, ambos en la nota de prensa del 2026-05-20.",
+    "No se ha medido el ruido propio de esta valoracion. Se aplica la banda por defecto de mas menos 25%, que aqui es mas ancha que la distancia entre el margen de seguridad obtenido (21-41%) y el exigido (40%). Es decir: el piso de resolucion no permite afirmar con confianza de que lado del umbral cae el caso.",
+    "El ROIIC ex-margen del 11,5% viene congelado de la ficha de especie G2 y no se ha reverificado contra filings en este expediente. La tasa de reinversion del 70% que reconcilia g=8% con ese ROIIC es una INFERENCIA, no una medicion independiente.",
+    "No se ha auditado si el recorte del 17% de plantilla toca I+D o solo funciones de soporte. Ese dato es el que decide si el patron FY2009 se esta repitiendo de verdad. Deberia aparecer en el 10-K de FY2026."
+  ],
+
+  "gatillos_falsables_propuestos": [
+    "10-K FY2026 (septiembre 2026): si el flujo de caja de explotacion del ejercicio completo queda por debajo de 7.500 M, la base en curso se cae y el MoS baja del 35%.",
+    "Q4 FY2026 (agosto 2026): Intuit se comprometio a publicar una comparativa de unidades fiscales federales de TurboTax en esa nota. Si las unidades federales caen mas del 3%, la tesis del motor de consumo girando queda confirmada y la g defendible baja del 8% al 5-6%.",
+    "FY2027: si el crecimiento del ecosistema online de GBS baja del 15%, se cae el unico motor que sostiene el caso.",
+    "Si el gasto en I+D de FY2026 cae en valor absoluto respecto a FY2025 mientras sube el de marketing, el patron FY2009 esta confirmado y el eslabon debil de la puerta de recesion pasa de no acreditado a acreditado en contra."
+  ],
+
+  "fuentes_primarias_usadas": [
+    "10-K FY2025, accession 0000896878-25-000035, presentado 2025-09-03 (periodo cerrado 2025-07-31): cuenta de resultados, balance, estado de flujos de efectivo, nota de deuda, nota de impuestos.",
+    "10-Q Q3 FY2026, accession 0000896878-26-000025, presentado 2026-05-20 (periodo cerrado 2026-04-30): balance, flujos de nueve meses, portada con acciones en circulacion.",
+    "10-Q Q2 FY2026, accession 0000896878-26-000014, presentado 2026-02-26.",
+    "10-Q Q1 FY2026, accession 0000896878-25-000048, presentado 2025-11-20.",
+    "8-K de resultados Q3 FY2026, accession 0000896878-26-000024, exhibit 99.01 (fy26q3earningspressrelease.htm), 2026-05-20: guia anual completa de FY2026, metricas de segmento, caja y deuda, recorte del 17% de plantilla.",
+    "API XBRL de SEC EDGAR: https://data.sec.gov/api/xbrl/companyfacts/CIK0000896878.json",
+    "IBKR: get_price_snapshot y get_price_history (contract_id 270662 INTU, 756733 SPY) para precio vivo y calculo propio de beta."
+  ]
+}

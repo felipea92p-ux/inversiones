@@ -1,0 +1,42 @@
+{
+ "ticker": "MSFT",
+ "currency": "USD",
+ "current_price": 367.34,
+ "name": "Microsoft Corporation",
+ "wacc_pct": 9.05,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.95,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = $59.64B = FY2025 reported FCF $71.611B menos 100% de la SBC $11.974B (SBC tratada como gasto en efectivo). Margen owner-earnings sobre ingresos FY25 ($281.724B) = 21.2%, vs margen FCF reportado 25.4%. SBC baja/saludable (4.25% de ingresos, 16.7% del FCF), bien cubierta. Punto de partida deprimido por el ciclo de capex AI (~$190B trayectoria FY26); se asume normalizacion/expansion del margen a medida que Azure AI monetiza el capex.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 13,
+  "rev_cagr_y6_10_pct": 9.4,
+  "fcf_margin_terminal_pct": 27,
+  "terminal_g_pct": 3,
+  "shares_diluted_b": 7.432,
+  "net_debt_usd_b": -21.3,
+  "sbc_treatment": "100% de la SBC restada del FCF (owner earnings). SBC FY25 = $11.974B, 4.25% de ingresos, 16.7% del FCF. rev_cagr_y6_10 = CAGR medio aprox de anios 6-10 (declina linealmente hacia ~6% en anio 10 en el caso base)."
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 223.94,
+   "prob": 0.38,
+   "note": "Crecimiento ingresos 10% Fase 1 declinando a 5% en anio 10; margen owner-earnings se recupera solo modestamente 21.2%->23.5% (capex AI permanece pesado, monetizacion lenta, mas competencia en cloud); g terminal 2.5%. NO apocaliptico: aun crece doble digito temprano. IV ~$224 implica MSFT cotiza por encima del valor en este caso pesimista."
+  },
+  "base": {
+   "iv_per_share": 323.06,
+   "prob": 0.47,
+   "note": "Consistente con el track record: ingresos +13% Fase 1 (Azure +30-40% modera, Copilot/M365 firme) declinando a 6% en anio 10; margen owner-earnings 21.2%->27% al madurar el ciclo de capex y monetizar AI; g terminal 3.0% (foso amplio). TV = 64% del EV. IV ~$323, en linea/ligeramente debajo del precio actual."
+  },
+  "optimista": {
+   "iv_per_share": 456.95,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: ingresos +16% Fase 1 declinando a 7%; AI/Azure compone, apalancamiento operativo lleva owner-margin a 30%; g terminal 3.5%. IV ~$457, ~24% sobre el precio actual."
+  }
+ },
+ "sanity_check": "Owner FCF yield sobre mkt cap ($2,730B) = 2.18% (FCF reportado 2.62%) — bajo, refleja precio premium y owner-earnings deprimidos por el capex AI. IV ponderada por probabilidad ~$305 vs precio $367.34 (~ -17%); el caso base $323 queda ligeramente debajo y el optimista $457 sobre el precio, asi que el mercado descuenta una ejecucion mejor que la conservadora. CONTRASTE rendimiento total al accionista (MSFT es megacap de software, no red de pago, pero util como contraste): dividendos FY25 ~$24.4B + recompras ~$17.5B = ~$41.9B, yield ~1.5% del mkt cap (div ~0.9% + recompra ~0.6%) — modesto; la tesis es de reinversion/crecimiento, no de retorno de caja. fwd P/E 20.5x esta muy por debajo del rango historico ~28-33x = compresion de multiplo por miedo al capex (drop_classification = fear_rotation), no deterioro del negocio (Q3 FY26 rev +18%, Azure +40%, AI run-rate $37B +123%, RPO $627B, op margin 46.3%).",
+ "method_notes": "DCF de OWNER EARNINGS a 10 anios, 2 fases + valor terminal Gordon. Base owner FCF = FCF reportado FY25 − 100% SBC = $59.64B. Fase 1 (anios 1-5): CAGR de ingresos explicito por escenario y margen owner-earnings que sube linealmente desde 21.2% hacia el margen estabilizado del anio 5. Fase 2 (anios 6-10): CAGR de ingresos declina linealmente hacia normalizacion (5-7% segun escenario) y margen se mantiene en el nivel estabilizado. Flujos = ingresos x margen owner-earnings, descontados al WACC 9.05%. WACC = Rf 4.3% (UST 10Y, emisor US, sin ajuste geopolitico) + ERP 5.0% x beta 0.95 (megacap software, beta baja). Valor terminal sobre owner FCF anio 10 con g=2.5-3.5% segun anchura del foso. EV = PV(flujos) + PV(TV); Equity = EV + caja neta ($21.3B, balance net-cash); IV/accion = Equity / 7.432B acciones diluidas (implicitas de mkt cap $2,730B / precio $367.34, no habia campo shares en FASE 2). Sin busqueda web: todos los inputs operativos/caja/SBC/deuda son VERIFICADOS de FASE 2 (Microsoft IR + SEC EDGAR 10-K FY25 / 10-Q Q3 FY26); precio, mkt cap y caja neta son del agregador StockAnalysis (ESTIMADO). Limitaciones: acciones diluidas y ROIC no estaban en FASE 2; capital returns FY25 (div $24.4B, recompras $17.5B) son aproximaciones de orden de magnitud usadas solo para el contraste de sanity_check."
+}

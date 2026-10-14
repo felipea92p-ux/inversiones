@@ -1,0 +1,42 @@
+{
+ "ticker": "ATCO-B.ST",
+ "currency": "SEK",
+ "current_price": 172.95,
+ "name": "Atlas Copco AB",
+ "wacc_pct": 8.05,
+ "wacc_components": {
+  "rf_pct": 2.8,
+  "erp_pct": 5,
+  "beta": 1.05,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = SEK 26.67B. Derived from FY2025 reported FCF of SEK 26.8B (FCF margin 15.9% on revenue SEK 168.3B) minus 100% of SBC. SBC is structurally negligible at Atlas Copco (~0.5% of FCF, ~0.1% of revenue; LTIP capped at ~7.9M series-A shares = ~0.16% of ~4.88B shares; net buybacks for LTIP hedging only MSEK -84 in 2025), so the owner-earnings adjustment removes only ~SEK 0.13B. Owner FCF margin used as starting point ~15.9%.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 7,
+  "rev_cagr_y6_10_pct": 5,
+  "fcf_margin_terminal_pct": 16.5,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% of SBC expensed as cash from reported FCF; immaterial at ~0.5% of FCF (Nordic quality trait), reducing owner FCF base by only ~SEK 0.13B",
+  "shares_diluted_b": 4.88,
+  "net_debt_usd_b": 1.5
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 106.7,
+   "prob": 0.375,
+   "note": "Pessimistic but not apocalyptic: prolonged cyclical soft patch in mining/industrial capex. Rev CAGR 4.5% yr1-5 declining to 3.0% yr6-10 (organic ~2-3% + light bolt-on M&A); owner FCF margin compresses to ~15.5% then ~15.0% on FX/tariff drag and mix; terminal g 2.5%. WACC 8.05%."
+  },
+  "base": {
+   "iv_per_share": 146.2,
+   "prob": 0.475,
+   "note": "Consistent with track record: rev CAGR 7.0% yr1-5 (organic ~5-6% + recurring bolt-on M&A) declining to 4.0% by yr10; owner FCF margin glides to ~16.5% (aftermarket/vacuum mix, operating leverage off ~20% op margin); terminal g 3.0% reflecting wide moat. WACC 8.05%. IV ~15% below price -> premium-priced quality compounder."
+  },
+  "optimista": {
+   "iv_per_share": 189.5,
+   "prob": 0.15,
+   "note": "Perfect execution: rev CAGR 9.0% yr1-5 (semi/vacuum + datacenter/electrification tailwinds, aggressive accretive M&A) declining to 4.5%; owner FCF margin expands to ~17.5%; terminal g 3.5%. WACC 8.05%. Only here does IV exceed the current price."
+  }
+ },
+ "sanity_check": "Prob-weighted IV ~138 SEK vs price 172.95 SEK => ~20% overvaluation; even the base case (146 SEK) sits ~15% below price. This corroborates the Phase 2 read: ATCO-B is NOT a value/fear setup but a high-quality compounder priced at a premium (fwd P/E ~29-30x vs ~26-27x 5y avg; PEG ~4.3 against ~8% consensus EPS growth; base-case owner FCF yield only ~3.2%). Total shareholder yield is LOW and does not provide downside support: dividend yield ~1.7% (ord. div ~SEK 2.90) + net buyback yield ~0.1% (repurchases are essentially LTIP-hedging only, MSEK -84 in 2025) = ~1.8% total shareholder yield. The investment case rests on durable double-digit total return via reinvestment at 24% ROCE, not on yield — but at this entry price the DCF leaves little or no margin of safety. The stock trades essentially at its 52-week high.",
+ "method_notes": "10-year two-stage owner-earnings DCF in SEK (quote currency), as-of 2026-06-22. Owner FCF = reported FCF - 100% SBC; SBC immaterial here. Base owner FCF SEK 26.67B (FY2025 FCF SEK 26.8B, margin 15.9%). Phase 1 (yr1-5): explicit revenue CAGR with FCF margin glide. Phase 2 (yr6-10): revenue CAGR declines linearly toward normalization. Terminal value via Gordon growth on yr10 owner FCF (g=2.5-3.5% by scenario, reflecting wide moat: vacuum/compressor leadership, ~75% revenue tied to recurring service/aftermarket, 24% ROCE). Discounted at WACC = Rf 2.8% (Sweden/eurozone bloc per instruction set, not the 4.3% UST base) + ERP 5.0% x beta 1.05; no geopolitical adjustment (not Taiwan). Beta 1.05 estimated for a diversified, low-leverage (ND/EBITDA 0.5x) industrial compounder. IV/share = (PV of explicit flows + PV of terminal value - net debt SEK 14.65B / ~$1.5B) / 4.88B diluted shares (total A+B class; A and B have identical economics so per-share IV applies to ATCO-B). Inputs from verified Phase 2 file; FCF margin, net debt USD, shares, SBC %, and dividend are aggregator/estimated. WACC sensitivity: beta 1.0->WACC 7.8%, beta 1.1->8.3% (would shift base IV roughly +/-10 SEK)."
+}

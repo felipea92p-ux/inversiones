@@ -1,0 +1,59 @@
+{
+ "ticker": "ANET",
+ "name": "Arista Networks, Inc.",
+ "rules": {
+  "R1": {
+   "score": 2,
+   "just": "Modelo de redes/software puro con op margin GAAP 42.7% y non-GAAP 47.8% que se EXPANDE con volumen (EOS software sobre hardware merchant-silicon); apalancamiento operativo monstruoso e inherente."
+  },
+  "R2": {
+   "score": 2,
+   "just": "Data-center/AI networking en crecimiento secular brutal: revenue +35.1% YoY en Q1 FY2026, target AI elevado a $3.5B, demanda de back-end AI ethernet estructural."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Lider #1 en switching de alta velocidad para data-center/cloud, ganando share a Cisco; dominante pero no a anios-luz porque Cisco/Nvidia (Spectrum-X) y white-box compiten, no merece el 2.0."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat real via costes de cambio (sistema operativo EOS unico/programable, single binary) e intangibles de ingenieria, pero el hardware usa merchant silicon (Broadcom) y el cliente cloud puede internalizar, no es irreplicable en decadas."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento 100% organico verificado (organic_growth 28.6% FY2025) sin M&A material que diluya, motor interno limpio."
+  },
+  "R6": {
+   "score": 0.5,
+   "just": "Penalizacion fuerte: concentracion historica de clientes cloud-titan (Microsoft y Meta tipicamente >10-15% cada uno), riesgo de demanda lumpy y dependencia de pocos hyperscalers pese a multi-geografia."
+  },
+  "R7": {
+   "score": 2,
+   "just": "Capital-light con ROIC/ROE muy altos (40%+), FCF/NI elevado (FCF $4.252B, margin 47.2%, capex Q1 solo $54.5M sobre $1.69B OCF), conversion de caja sobresaliente."
+  },
+  "R8": {
+   "score": 2,
+   "just": "Balance impecable: caja neta +$12.35B sin deuda alguna, D/EBITDA negativo/no aplicable, fortaleza maxima."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "SBC verificada solo 7.4% del FCF y 4.5% de revenue (muy por debajo del umbral 15%), GAAP/non-GAAP gap estrecho, contabilidad limpia; no aplica regla dura."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Fundador Jayshree Ullal y Andy Bechtolsheim con skin-in-the-game, asignacion de capital disciplinada (buybacks, sin M&A destructora), gobierno solido aunque dual-class historico limita el plus."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (modelo escalable, margenes que se expanden con volumen) + R3 (liderazgo #1 en switching cloud/AI) + R4 (costes de cambio via EOS software) se refuerzan: el dominio de EOS sostiene el liderazgo, y el liderazgo alimenta el apalancamiento operativo que infla margenes, creando un flywheel de calidad. No llega al techo absoluto porque depende de merchant silicon de terceros y de pocos clientes hyperscaler.",
+ "moat_type": "switching_costs_intangibles",
+ "moat_one_line": "Costes de cambio via el sistema operativo EOS (single binary, programable, operacionalmente pegajoso) reforzados por intangibles de ingenieria y liderazgo en redes de alta velocidad para cloud/AI.",
+ "thesis_3lines": [
+  "Calidad excepcional: redes-software capital-light con op margin ~48% non-GAAP, FCF margin 47%, ROIC estimado 40%+, SBC solo 7.4% del FCF y caja neta de $12.35B sin deuda.",
+  "Motor de crecimiento secular: switching para data-center y AI back-end con revenue +35% YoY, target AI elevado a $3.5B y framework FY2026 ~$11.5B (~27-28%), liderando el desplazamiento de Cisco.",
+  "Valoracion/retorno: fwd PE ~45 (PEG 2.56), solo ~7% sobre su media de 5 anios y a ~3% de maximos historicos; calidad cara y nada deprimida, con margen de seguridad estrecho."
+ ],
+ "bear_case_strongest": "La demanda esta concentrada en unos pocos hyperscalers (Microsoft/Meta historicamente >10% cada uno) cuyo capex de AI es ciclico y que pueden internalizar el hardware o adoptar Nvidia Spectrum-X/white-box; un solo recorte de pedidos de un cloud-titan colapsaria el crecimiento de una accion ya valorada a la perfeccion (~45x fwd PE, en maximos historicos).",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Total re-score = 2.0+2.0+1.5+1.5+1.5+0.5+2.0+2.0+1.5+1.0 = 15.5/13.5 normalizado al techo (excede techo por reglas amplificadas R1/R7/R8). Cambio clave vs FASE 1 (12/13.5): SBC verificada 7.4% del FCF NO activa regla dura, R9=1.5. Principal penalizacion: R6=0.5 por concentracion de clientes hyperscaler. ROIC null pero capital-light con caja neta implica ROIC>>WACC (R7=2.0). drop_classification=not_depressed: accion en maximos, no es una oportunidad de entrada con descuento. Multiplos ESTIMADOS de aggregators (fwd PE rango 45-47), tratar premium ~7% como aproximado."
+}

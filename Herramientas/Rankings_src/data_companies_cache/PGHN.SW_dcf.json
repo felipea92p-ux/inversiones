@@ -1,0 +1,42 @@
+{
+ "ticker": "PGHN.SW",
+ "currency": "CHF",
+ "current_price": 669.6,
+ "name": "Partners Group Holding AG",
+ "wacc_pct": 7.7,
+ "wacc_components": {
+  "rf_pct": 1.2,
+  "erp_pct": 5,
+  "beta": 1.3,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "FY2025 reported net profit CHF 1,261m used as FCF proxy (asset-light manager: minimal capex, modest D&A, high cash conversion, so FCF ~= net income). Owner FCF = FCF - 100% SBC. SBC not disclosed in FY2025 results (data_quality flagged it as the one missing field); estimated at ~CHF 100m (~4% of revenue) for a Swiss alternative-asset manager whose main employee comp is the cash carry/perf-fee pool already expensed in the P&L. Owner FCF = 1,261 - ~100 = ~CHF 1,160m, then haircut to ~CHF 1,150m to normalize for performance-fee pull-forward from 2026 into 2025 (guidance explicitly flags perf fees in the LOWER part of the 25-40% range in 2026). Owner-FCF margin ~45% of FY2025 revenue (CHF 2,563m).",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 11,
+  "rev_cagr_y6_10_pct": 6,
+  "fcf_margin_terminal_pct": 45,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% of estimated SBC (~CHF 100m, ~4% of revenue) deducted as a cash expense from reported FCF to reach owner earnings. SBC not disclosed in FY2025 results; PG's principal variable comp is the cash performance-fee/carry pool (up to ~40% of perf fees), already in the P&L, so true non-cash equity SBC is modest.",
+  "shares_diluted_b": 0.0267,
+  "net_debt_usd_b": -4.5
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 1218,
+   "prob": 0.375,
+   "note": "Owner-FCF base haircut ~3% for perf-fee pull-forward; Phase1 CAGR 7% (AuM growth decelerates to high-single digits, fee compression, evergreen redemption cap on the USD 8.6bn PE fund constrains flows), Phase2 declines 6%->3.5%, terminal g 2.5%. Pessimistic but not apocalyptic: franchise intact, ROE stays high, still grows. Even here IV > price."
+  },
+  "base": {
+   "iv_per_share": 1638,
+   "prob": 0.475,
+   "note": "Consistent with track record (FY25 rev +20%, AuM +21%, ROE 55%) decelerating. Phase1 CAGR 11%, Phase2 8.5%->4%, terminal g 3.0%. Implied terminal multiple ~21x owner FCF ~ PG's historical 22-25x fwd P/E. Re-rating from a depressed 12.5x fwd P/E plus a decade of double-digit-then-normalizing growth."
+  },
+  "optimista": {
+   "iv_per_share": 2239,
+   "prob": 0.15,
+   "note": "Private-wealth/evergreen flywheel + bespoke mandates drive AuM from USD 185bn toward USD 400bn+; Phase1 CAGR 15%, Phase2 11%->4.5%, terminal g 3.5%, slight margin expansion. Perfect execution, perf fees sustained at upper end of range."
+  }
+ },
+ "sanity_check": "PG is a private-markets asset manager (not a payment network or data/ratings name), so the owner-earnings DCF is the primary tool, but a multiples/yield cross-check confirms the deep discount: at CHF 669.60 the stock trades at ~12.5x fwd P/E (2026 consensus EPS ~CHF 53.55) vs a 5y avg ~22-25x (-48% discount), ~12.5x EV/owner-FCF, and a ~6.4% owner-FCF yield for a business compounding AuM 20%+ at 55% ROE. Total shareholder return contrast (dividend + buybacks, NOT a DDM): FY2025 dividend CHF 46.00/share = ~6.9% dividend yield alone, +10% YoY, funded by surplus FCF with a net-cash balance sheet (~CHF 3.5bn / ~USD 3.7bn liquidity, rating A-/A3) that adds to per-share value and leaves room for ongoing buybacks. Reverse-DCF: current price implies the market prices owner FCF at ~12.5x EV with near-zero long-run growth — far below PG's realistic trajectory, hence the large gap to base IV. The ~42% drawdown was driven by a 2026 perf-fee timing headwind (pull-forward into 2025) and an EPS miss, i.e. a cyclical/timing dislocation rather than a structural break — supporting an IV well above price across all three scenarios.",
+ "method_notes": "10-year two-phase owner-earnings DCF in CHF (quote currency). Owner FCF = reported FCF (proxied by FY2025 net profit CHF 1,261m given asset-light, low-capex model) minus 100% of estimated SBC (~CHF 100m), then haircut to ~CHF 1,150m base to normalize the 2025 perf-fee pull-forward. Phase 1 (yrs 1-5): explicit constant owner-FCF CAGR; Phase 2 (yrs 6-10): CAGR declines linearly toward normalization; terminal value via Gordon growth (g=2.5-3.5% by scenario/moat) on yr-10 owner FCF. Discounted at WACC = Rf(Switzerland 1.2%) + ERP(5.0%) x beta(1.30, levered alternative-asset manager with perf-fee/market sensitivity) = 7.7%; no geopolitical adjustment (Swiss domicile). IV/share = (PV of explicit + terminal flows + net cash) / diluted shares (~26.7m; market cap CHF ~17.6bn / 669.60). Net cash treated as +CHF 3.5bn (net_debt_usd_b -4.5 = net cash); added to enterprise value. CAVEATS: (1) SBC and exact FCF were NOT disclosed in FY2025 results (data file flags SBC as the one unverified field) — SBC is estimated, not reported; if true non-cash SBC is materially higher, owner FCF and IVs fall proportionally. (2) Net profit used as FCF proxy; PG does not publish a clean FCF figure. (3) FY2026 faces a real perf-fee headwind (pull-forward + USD -10 to -13bn estimated tail-down) plus an evergreen-fund redemption cap (USD 8.6bn PE fund) — captured in the conservador scenario. Probabilities sum to 1.0 (0.375 + 0.475 + 0.15)."
+}

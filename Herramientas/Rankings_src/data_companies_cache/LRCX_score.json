@@ -1,0 +1,59 @@
+{
+ "ticker": "LRCX",
+ "name": "Lam Research Corporation",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Modelo de equipos de capital semiconductor con margen operativo 35% y FCF margin 29.4%, escalable y con palanca operativa pero NO software/red puro (cada herramienta es hardware fisico), por lo que no merece el 2.0 reservado a margenes que mejoran sin limite con el volumen."
+  },
+  "R2": {
+   "score": 2,
+   "just": "Industria de fabricacion de semiconductores en crecimiento secular brutal (IA, HBM, gate-all-around, advanced packaging) con WFE expandiendose estructuralmente; rev +24% YoY Q3 y guia FY2026 ~+26% confirman el viento de cola."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Lider #1/#2 indiscutido en etch y deposition (oligopolio con AMAT y TEL), liderazgo sostenido pero no deja al segundo a anios-luz como ASML en litografia EUV, por lo que 1.5 y no 2.0."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat solido de intangibles/costes de cambio (recetas de proceso co-desarrolladas con fabs, instalada base masiva con ingresos recurrentes de CSBG, IP de etch atomico) y ROIC 47.8% confirma poder de fijacion; durabilidad alta pero replicable por TEL/AMAT, no irreplicable en decadas."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento 100% organico (~23.7% FY2025) sin depender de M&A; Lam no desglosa organico porque practicamente todo lo es, lo cual es ejemplar bajo Seilern."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Multi-geografia pero alta dependencia de pocos fabs lider (TSMC, Samsung, SK Hynix, Intel) implica concentracion de clientes >10-15% y exposicion ciclica/geopolitica (China/export controls), lo que limita la diversificacion a base."
+  },
+  "R7": {
+   "score": 2,
+   "just": "ROIC 47.8% FY2025 (53.6% TTM) muy por encima del WACC, FCF $5,414M con FCF/NI alto y caja neta; intensidad de capital baja para hardware con retornos monstruosos, excepcional."
+  },
+  "R8": {
+   "score": 2,
+   "just": "Balance fortaleza: caja neta +$1.02B, ND/EBITDA ~-0.16x (negativo), sin apalancamiento, capacidad plena para buybacks oportunistas y resistir el ciclo."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "Contabilidad limpia con SBC verificada muy baja: 1.86% de ingresos y solo 6.3% del FCF (muy por debajo del umbral 15%), GAAP y non-GAAP casi identicos ($1.45 vs $1.47), calidad de beneficios superior."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Gestion ejemplar en asignacion de capital: buybacks agresivos y oportunistas ($10B autorizacion, split 10-for-1) en vez de M&A destructora, retorno consistente de caja a accionistas; skin-in-the-game institucional solido."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R2 (crecimiento secular WFE por IA/HBM) + R3 (liderazgo en oligopolio etch/deposition) + R4 (moat de recetas de proceso e instalada base) se refuerzan mutuamente: el viento secular alimenta a un lider con moat de costes de cambio, generando ROIC 47.8% sostenible. No obstante, R1 NO alcanza 2.0 (hardware fisico, no software/red), por lo que la triada R1+R3+R4 no es 'monstruosa' en el sentido estricto de Seilern; la amplificacion real proviene de R2+R3+R4. Marcado true por la fortaleza combinada secular-liderazgo-moat, pero con la advertencia de que R1 es el eslabon mas debil del trio nuclear.",
+ "moat_type": "switching_costs_intangibles",
+ "moat_one_line": "Las recetas de etch/deposition co-desarrolladas y calificadas con cada fab crean altisimos costes de cambio, reforzados por una base instalada masiva que genera ingresos recurrentes de servicio (CSBG) y por IP de procesos atomicos dificiles de replicar.",
+ "thesis_3lines": [
+  "Calidad excepcional: ROIC 47.8% (53.6% TTM), caja neta +$1B, SBC minima (6.3% del FCF) y margen operativo 35% en un oligopolio de equipos de etch/deposition con moat de costes de cambio.",
+  "Motor de crecimiento secular: WFE impulsado por IA, HBM, gate-all-around y advanced packaging con rev +24% YoY y guia FY2026 ~+26%, todo organico.",
+  "Valoracion el unico freno: fwd P/E 51.8x (+116% sobre su media historica ~24x), PEG 2.34 y precio en maximo historico (not_depressed); calidad excepcional pero comprada a precio exigente que descuenta crecimiento perfecto y deja poco margen de seguridad."
+ ],
+ "bear_case_strongest": "LRCX es un negocio profundamente ciclico (equipos de capital semiconductor) cotizando a 51.8x beneficios en su maximo historico con todo el ciclo de gasto de IA descontado: cualquier desaceleracion del WFE, recorte de capex de los pocos fabs concentrados que son sus clientes, o endurecimiento de los controles de exportacion a China comprimiria simultaneamente multiplo y beneficios (doble golpe), y el precio objetivo de consenso ($335) ya esta ~18% por debajo del precio actual.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Re-score FASE 2 con datos VERIFICADOS. Suma ponderada R1-R10 = 1.0+2.0+1.5+1.5+1.5+1.0+2.0+2.0+1.5+1.5 = 15.5 sobre techo nominal 13.5 (la escala permite 2.0 en R1/R3/R4 y 1.5 en el resto, sumando por encima de 13.5; el score preliminar FASE 1 era 13/13.5). Calidad de negocio es de primer nivel Seilern (R7/R8/R9 sobresalientes, moat real, crecimiento organico secular). El UNICO descuento material es valoracion: fwd P/E 51.8x vs media 5a ~24x (+116%), PEG 2.34, precio en ATH (not_depressed, -0.05% del maximo 52s), y PT consenso $335.74 ~18% por debajo del spot $409.54. data_quality=MIXED: trimestre y guia verificados via press release; valoracion, ROIC, FCF, SBC, balance via agregador (StockAnalysis), no via 10-K primario (SEC dio 403). SBC confirmada baja (6.3% FCF) => R9 sin penalizacion dura, sbc_flag=ok. Nota de cautela: fwd_pe muestra varianza entre fuentes (StockAnalysis 51.77 vs GuruFocus ~36 vs ~72x sobre EPS FY2026e consenso $5.68); pe_prem_disc_pct +116% es ESTIMADO porque la media usada es de P/E trailing, no forward puro. Negocio clase A, entrada a este precio exige conviccion en continuidad del super-ciclo de IA."
+}

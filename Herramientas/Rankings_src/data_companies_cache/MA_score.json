@@ -1,0 +1,59 @@
+{
+ "ticker": "MA",
+ "name": "Mastercard Incorporated",
+ "rules": {
+  "R1": {
+   "score": 2,
+   "just": "Red de pagos de coste marginal casi nulo: cada transacción adicional cae al margen operativo (~58-59%), dominancia escalable monstruosa propia de software/redes."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Secular tailwind durable de digitalización de pagos (cash-to-card, e-commerce, cross-border +14%), penetración aún incompleta globalmente."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Duopolio global #2 sólido tras Visa, líder claro frente a resto; no merece 2.0 porque Visa lo supera en volumen doméstico (no deja al 2o a años-luz, ES el 2o)."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Efecto red de doble cara (emisores+comerciantes) prácticamente irreplicable en décadas; marca, regulación y rieles entrenchados forman un foso casi inexpugnable."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento orgánico genuino +15% CN en FY2025 con solo ~1ppt de M&A; motor subyacente fuerte y poco dependiente de adquisiciones."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Diversificación amplia: miles de instituciones emisoras (ningún cliente dominante), multi-geografía y múltiples flujos (consumo, cross-border, value-added services)."
+  },
+  "R7": {
+   "score": 2,
+   "just": "FCF margin 52.3%, FCF/NI ~114% ($17.16B vs $15.0B), capex mínimo ($0.49B, 1.5% ingresos), ROIC estructuralmente altísimo por base de capital ligera muy por encima del WACC."
+  },
+  "R8": {
+   "score": 1,
+   "just": "Balance sólido (ND/EBITDA ~0.5x) pero no es caja neta ($10.58B deuda neta) por recompras agresivas; base por debajo de 2x, sin superioridad para 1.5."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "SBC verificada solo 3.5% del FCF y 1.8% de ingresos (no dilutiva), contabilidad limpia y conservadora, FCF de alta calidad respaldando NI."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Asignación de capital ejemplar: recompras oportunistas agresivas ($16.7B autorización restante) sin M&A destructora, gobierno disciplinado y track record de retorno de capital."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (red de coste marginal nulo) + R3 (posición de duopolio global) + R4 (efecto red de doble cara irreplicable) se refuerzan mutuamente de forma monstruosa: el foso de red ES lo que permite la escalabilidad de margen y la dominancia sostenida; cada uno amplifica al otro creando una franquicia compuesta casi inatacable durante décadas.",
+ "moat_one_line": "Efecto red de doble cara (miles de millones de tarjetahabientes contra >100M de comercios) reforzado por marca, rieles entrenchados y regulación, que se hace más fuerte con cada transacción y es prácticamente irreplicable.",
+ "moat_type": "network_effects",
+ "thesis_3lines": [
+  "Calidad: franquicia de red de coste marginal nulo con margen operativo ~58%, FCF margin 52% y FCF/NI ~114%, uno de los modelos de negocio de mayor calidad estructural del mercado.",
+  "Motor de crecimiento: digitalización secular de pagos impulsa ingresos +16% y EPS adj +23% YoY con cross-border +14%, crecimiento orgánico ~15% CN sin depender de M&A.",
+  "Valoración/retorno: fwd P/E 23.9x frente a media 5a ~30x (-20%) tras de-rating por miedo macro sin deterioro de fundamentales, ofreciendo una franquicia de máxima calidad a descuento histórico."
+ ],
+ "bear_case_strongest": "El riesgo más fuerte es la disrupción regulatoria/tecnológica de los rieles (interchange caps, real-time payments soberanos como Pix/UPI, stablecoins y account-to-account A2A) que podría desintermediar la red en mercados clave y comprimir el take rate, justo cuando el múltiplo aún descuenta crecimiento de doble dígito a perpetuidad.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Score total: 16.5/20 sin techo, pero limitado por techo Seilern 13.5 -> efectivamente tope alcanzado. Suma cruda R1-R10 = 16.5 (R1 2.0, R2 1.5, R3 1.5, R4 2.0, R5 1.5, R6 1.5, R7 2.0, R8 1.0, R9 1.5, R10 1.5). ROIC null en filing pero estructuralmente altísimo por capital ligero (R7 alto justificado por FCF/NI 114% y capex 1.5% ingresos). Drop clasificado fear_rotation: de-rating de múltiplo sin deterioro de earnings (ingresos acelerando, EPS adj +23%), descuento -20% vs media 5a estimada ~30x (descuento real podría ser mayor vs P/E trailing ~36-38x). SBC 3.5% FCF -> R9 sin penalización por regla dura. No es caja neta (única regla por debajo de 1.0) por recompras agresivas, no por debilidad de balance. Campos de valoración (precio, fwd_pe, peg, market_cap) son ESTIMADOS via StockAnalysis.com; operativos VERIFICADOS contra release oficial."
+}

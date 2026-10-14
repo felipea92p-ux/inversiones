@@ -1,0 +1,37 @@
+rank,ticker,name,sector,score,tier,proc_calidad,zona,mos_pct,veredicto,proc_precio
+1,MSFT,Microsoft,Software,86.0,Núcleo,oro,OPORTUNIDAD,26.0,COMPRAR TRAMO,oro
+2,DUOL,Duolingo,Software / EdTech (consumer subscription pla,80.8,Alta convicción,oro,,17.8,VIGILAR,oro
+3,V,Visa,Pagos (infraestructura crítica de pagos glob,80.8,Alta convicción,oro,OPORTUNIDAD,16.7,ESPERAR,oro
+4,AMZN,Amazon,E-commerce / Cloud Computing (Consumer Discr,80.2,Alta convicción,oro,BURBUJA,-56.0,ESPERAR,oro
+5,4684.T,OBIC,Software - ERP (Japan mid/large-market),79.2,Alta convicción,oro,JUSTO,8.2,ESPERAR,oro
+6,ISRG,Intuitive Surgical,Med-tech / Robotic surgery (Health Care),79.2,Alta convicción,oro,BURBUJA,-119.0,ESPERAR,oro
+7,VEEV,Veeva,Software vertical SaaS — Ciencias de la salu,79.0,Alta convicción,oro,JUSTO,-4.6,VIGILAR,oro
+8,TSM,TSMC,"Semiconductores (foundry, capacidad de elite",78.4,Alta convicción,oro,BURBUJA,,ESPERAR,oro
+9,MSCI,MSCI,"Indices, data y analytics (licencia de IP, a",76.8,Alta convicción,oro,CARO,-18.8,ESPERAR,oro
+10,INTU,Intuit,Software (Financial Technology / SMB & Consu,76.8,Alta convicción,oro,GANGA,35.0,COMPRAR TRAMO,oro
+11,NEM.DE,Nemetschek,Software AEC/BIM (Design-Build-Manage),75.2,Alta convicción,oro,OPORTUNIDAD,23,ACUMULAR EN ZONA,oro
+12,MA,Mastercard,Pagos / infraestructura de redes de pago (te,74.8,Calidad sólida,oro,JUSTO,6.3,ESPERAR,oro
+13,SNPS,Synopsys,Software EDA (Electronic Design Automation) ,74.8,Calidad sólida,plata,BURBUJA,-122,ESPERAR,plata
+14,NFLX,Netflix,Streaming / Media por suscripcion (plataform,73.6,Calidad sólida,oro,BURBUJA,-57.0,ESPERAR,oro
+15,IDXX,IDEXX,Diagnóstico veterinario (salud animal / MedT,73.2,Calidad sólida,oro,BURBUJA,-82.8,ESPERAR,oro
+16,ADBE,Adobe,Software (Creative/Document/Experience Cloud,73.0,Calidad sólida,oro,JUSTO,9.1,,oro
+17,CDNS,Cadence,Software EDA,72.8,Calidad sólida,oro,BURBUJA,-175,ESPERAR,oro
+18,TYL,Tyler Tech,Software vertical GovTech (gobierno local/es,72.8,Calidad sólida,plata,JUSTO,-3.9,VIGILAR,plata
+19,PANW,Palo Alto,Ciberseguridad (Palo Alto Networks),72.8,Calidad sólida,plata,BURBUJA,-283,ESPERAR,plata
+20,ASML,ASML,Equipos semis,72.0,Calidad sólida,oro,BURBUJA,-208.6,ESPERAR,oro
+21,MELI,MercadoLibre,E-commerce / Fintech (LatAm),72.0,Calidad sólida,oro,BURBUJA,,ESPERAR,oro
+22,MANH,Manhattan Assoc.,Software vertical - supply chain commerce / ,71.2,Calidad sólida,oro,BURBUJA,-38.7,VIGILAR,oro
+23,SPGI,S&P Global,Datos financieros / Ratings / Indices (asset,71.2,Calidad sólida,oro,BURBUJA,-35.4,ESPERAR,oro
+24,SGSN.SW,SGS,"Testing, Inspection & Certification (TIC) - ",70.8,Calidad sólida,plata,JUSTO,14.9,VIGILAR,plata
+25,SOON.SW,Sonova,"MedTech - Salud auditiva (audifonos, retail ",70.8,Calidad sólida,plata,JUSTO,11.2,VIGILAR,plata
+26,0388.HK,HKEX,Bolsas / infraestructura de mercado (market ,70.4,Calidad sólida,oro,CARO,-32.2,ESPERAR,oro
+27,CME,CME Group,Bolsas / derivados (infraestructura de merca,70.4,Calidad sólida,oro,JUSTO,13.7,ESPERAR,oro
+28,BVI.PA,Bureau Veritas,"Testing, Inspection & Certification (TIC) - ",70.4,Calidad sólida,plata,,,,
+29,ALC,Alcon,Salud / Dispositivos oftalmicos (cirugia cat,70,Calidad sólida,plata,JUSTO,8.6,VIGILAR,plata
+30,RMS.PA,Hermès,,69.6,Calidad sólida,oro,BURBUJA,-65.9,ESPERAR,oro
+31,KXS.TO,Kinaxis,Software - Supply Chain Planning (SaaS),68.8,Calidad sólida,oro,CARO,-17.4,ESPERAR,oro
+32,DSY.MI,DiaSorin,Diagnostico in-vitro (inmunodiagnostico espe,68.4,Calidad sólida,plata,CARO,-14.7,ESPERAR,plata
+33,MTD,Mettler-Toledo,Instrumentos de precision (laboratorio/indus,68,Calidad sólida,oro,BURBUJA,-40.9,ESPERAR,oro
+34,PTC,PTC,"Software industrial (PLM/CAD/ALM/SLM/IoT), S",68,Calidad sólida,oro,JUSTO,-8,ESPERAR,oro
+35,SPOT,Spotify,Streaming audio,68.0,Calidad sólida,oro,JUSTO,,ESPERAR,oro
+36,VRSK,Verisk,Datos y analytics para seguros P&C (utility ,67.6,Calidad sólida,oro,JUSTO,-8.9,VIGILAR,oro

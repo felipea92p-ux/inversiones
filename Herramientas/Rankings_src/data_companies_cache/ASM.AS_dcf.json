@@ -1,0 +1,42 @@
+{
+ "ticker": "ASM.AS",
+ "currency": "EUR",
+ "current_price": 1070,
+ "name": "ASM International N.V.",
+ "wacc_pct": 9,
+ "wacc_components": {
+  "rf_pct": 2.8,
+  "erp_pct": 5,
+  "beta": 1.25,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF (FY2025 base) = reported FCF EUR 979m - 100% SBC (~EUR 48m, est. ~1.5% of revenue) = ~EUR 931m, owner-FCF margin ~29.4% of revenue (EUR 3,170m). Note: ASM did not disclose SBC in the Q1-2026 / FY2025 press releases; 1.5% of revenue is an estimate consistent with Dutch semicap peers (low-single-digit % of revenue) and the Phase-2 verified data left sbc null. Q1 2026 FCF was negative (-EUR 48m) on working-capital ramp, so FY owner FCF is the correct normalized base, not a single quarter.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 15,
+  "rev_cagr_y6_10_pct": 7,
+  "fcf_margin_terminal_pct": 30,
+  "terminal_g_pct": 3,
+  "shares_diluted_b": 0.0487,
+  "net_debt_usd_b": -1.06,
+  "sbc_treatment": "100% of SBC (~EUR 48m, ~1.5% of revenue) subtracted from reported FCF as a cash expense to derive owner earnings"
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 415,
+   "prob": 0.38,
+   "note": "WFE cycle cools after 2026 upcycle peak. Rev CAGR ~10% yrs1-5 declining to ~5% yrs6-10; owner-FCF margin held ~28%; terminal g 2.5%; WACC 9.5% (higher cyclicality). Still a healthy compounder, not apocalyptic, but far below today's price."
+  },
+  "base": {
+   "iv_per_share": 654,
+   "prob": 0.47,
+   "note": "Consistent with track record: 9 consecutive years double-digit growth, leading-edge logic/ALD/epi share gains, 2nm/1.4nm and GAA/backside-power tailwinds. Rev CAGR ~15% yrs1-5 declining to ~7% yrs6-10; owner-FCF margin ~30%; terminal g 3.0%; WACC 9.0%."
+  },
+  "optimista": {
+   "iv_per_share": 1066,
+   "prob": 0.15,
+   "note": "Perfect execution on AI-driven leading-edge buildout + Scottsdale capacity. Rev CAGR ~20% yrs1-5 declining to ~9% yrs6-10; owner-FCF margin ~32%; terminal g 3.5%; WACC 8.5%. Roughly matches today's price, i.e. the market is pricing the optimistic case."
+  }
+ },
+ "sanity_check": "Probability-weighted IV ~EUR 625 vs price EUR 1,070 => stock ~41% above intrinsic value; even the optimistic scenario (~EUR 1,066) only matches the current price. This aligns with the verified data: ASM is at/near its all-time high after a ~+112% trailing-year run, trading ~45x forward P/E (~12% premium to its own ~40.5x 5y avg) and PEG ~1.37 - classic 'priced for perfection' in a strong WFE upcycle. Capital-return contrast (not used to value): dividend EUR 3.25/share (~0.3% yield) + EUR 150m 2026/27 buyback (~0.3% of EUR 52bn cap) => total shareholder yield only ~0.6%; this is a reinvest-and-compound name, so value rests on growth/owner-FCF, not payout. Net cash ~EUR 910m (USD 1.06bn) adds modest support. Reverse-DCF: to justify EUR 1,070 you must assume sustained ~20% growth AND a sub-9% discount rate - aggressive for a cyclical equipment maker. Quality is high (ROIC ~29%, net cash, durable ALD/epi moat) but valuation is the binding constraint.",
+ "method_notes": "10-year two-stage owner-earnings DCF in EUR (quote currency). Base owner FCF = FY2025 reported FCF EUR 979m minus 100% of estimated SBC (~EUR 48m) = ~EUR 931m (~29.4% margin). Eurozone WACC = Rf 2.8% + ERP 5.0% x beta 1.25 = ~9.05% (base 9.0%; conservador 9.5%, optimista 8.5% to reflect cyclicality and execution certainty). No Taiwan geopolitical adjustment (Netherlands-domiciled; geo_adj 0%). Phase 1 (yrs 1-5): explicit revenue CAGR x stabilized owner-FCF margin. Phase 2 (yrs 6-10): declining CAGR toward normalization. Terminal value via Gordon growth on yr-10 owner FCF with g 2.5-3.5% scaled to moat. Equity value = PV(flows)+PV(terminal)+net cash EUR 909.6m; IV/share = equity / 0.0487bn diluted shares (mkt cap EUR 52.1bn / EUR 1,070). KEY CAVEAT: SBC % was null in verified data and estimated at ~1.5% of revenue from a light web check (full FY2025 IFRS cash-flow SBC line not retrieved within timebox) - a higher true SBC would lower IV slightly but not change the conclusion. The DCF method is valid for ASM (capital-light, high-ROIC, net cash); no DDM used."
+}

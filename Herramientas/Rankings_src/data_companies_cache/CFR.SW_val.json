@@ -1,0 +1,48 @@
+{
+ "ticker": "CFR.SW",
+ "name": "Compagnie Financiere Richemont SA",
+ "currency": "CHF",
+ "price_verified": 182.3,
+ "price_source": "StockAnalysis.com (SWX:CFR statistics page), cross-checked vs Yahoo Finance / Investing.com",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.58834,
+ "implied_mcap_b_usd": 132.8,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 8.25,
+ "wacc_components": {
+  "rf_pct": 2.5,
+  "erp_pct": 5,
+  "beta": 1.15,
+  "geo_adj_pct": 1.3
+ },
+ "owner_fcf_base": "FY26 owner FCF/share = CHF 6.08. Derived: CFO EUR 4,880M - capex EUR 957M = FCF EUR 3,923M; less ~EUR 40M SBC (negligible; Swiss family-controlled group with minimal equity comp, <0.2% of revenue) = owner FCF EUR 3,883M. Converted at EUR/CHF 0.9208 = CHF 3,576M / 588.34M diluted shares = CHF 6.08/share. Note owner FCF > diluted EPS (CHF 5.44) because CFO substantially exceeds net income.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 131.5,
+   "prob": 0.38,
+   "note": "Luxury slowdown / China soft, Specialist Watchmakers drag persists. Phase 1 owner-FCF CAGR 4%, declining to 2.5%, terminal g 2.5%. Includes CHF 13.30/sh net cash."
+  },
+  "base": {
+   "iv_per_share": 175.97,
+   "prob": 0.47,
+   "note": "Jewellery Maisons (70%+ of sales, 30%+ margin) keep compounding; group mid/high-single-digit growth. Phase 1 CAGR 8% declining to 4%, terminal g 3.0%. Includes net cash."
+  },
+  "optimista": {
+   "iv_per_share": 237.23,
+   "prob": 0.15,
+   "note": "Strong luxury cycle + China recovery + margin expansion. Phase 1 CAGR 12% declining to 5%, terminal g 3.5%. Includes net cash."
+  }
+ },
+ "iv_dcf_weighted": 168.26,
+ "multiple_metric": "fwd P/E (EPS)",
+ "fwd_multiple_now": 28.2,
+ "fwd_multiple_5y_avg": 22.5,
+ "fair_multiple": 22.5,
+ "multiple_rationale": "Anchored to the 5-year average forward P/E of 22.5x with NO haircut: the core franchise (Jewellery Maisons — Cartier, Van Cleef & Arpels — at 30%+ operating margin and 70%+ of group sales) shows no structural deterioration, only the small Specialist Watchmakers division is weak (3.4% margin), which is a cyclical/mix issue not a franchise impairment. Current 28.2x is a ~25% premium to the company's own history, so applying the 5y-avg multiple to FY27 fwd EPS of CHF 6.46 yields IV CHF 145.35 — well below price, flagging that the stock is priced for perfection.",
+ "iv_multiple": 145.35,
+ "weight_dcf": 0.45,
+ "weight_multiple": 0.55,
+ "reconciled_iv": 155.66,
+ "structural_change": "No franchise-level structural deterioration. Group is a proven luxury compounder (net-cash fortress balance sheet, Rupert-family control, dominant hard-luxury/jewellery position). The one soft spot is Specialist Watchmakers (EUR 3.1B sales, only 3.4% op margin, +1% cc) — a structurally challenged but small division; the dominant Jewellery Maisons (+14% cc, 30.5% margin) remain best-in-class. Net effect: cyclical luxury exposure, not secular decline. Hence weighting leans modestly to DCF (0.45) given luxury cyclicality, while still respecting the multiple anchor (0.55) for a proven compounder.",
+ "sanity_notes": "FX: 1 CHF = 1.238 USD; EUR/CHF = 0.9208 (1 EUR = 0.9208 CHF), EUR/USD 1.14, as of 22-Jun-2026. Market-cap sanity: 0.58834B shares x CHF 182.30 = CHF 107.25B = USD 132.8B — matches StockAnalysis (CHF 107.25B) and known Richemont scale, so mcap_sanity_ok=TRUE. Share count 588.34M diluted reconciles exactly to reported market cap (588.34M x 182.30 = CHF 107.2B); this is the economic share base (listed A shares + Rupert-family B shares). All IVs in CHF and fall well within the 30%-300%-of-price band (CHF 55-547), so no units/currency/share-count error. Reconciled IV CHF 155.66 is ~15% BELOW the CHF 182.30 price — consistent with a high-quality but full-valued, near-all-time-high name trading at 28.2x fwd (vs 22.5x 5y avg). DCF (CHF 168) is more generous than the multiple anchor (CHF 145) because owner FCF (CFO EUR 4.88B) exceeds reported net income (EUR 3.48B) and ~CHF 13.30/sh net cash is added to equity value. SBC is immaterial for this name (family-controlled, minimal equity comp), so the owner-earnings haircut is tiny. Verdict: quality franchise, but priced rich — limited margin of safety at current levels."
+}

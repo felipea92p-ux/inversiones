@@ -1,0 +1,59 @@
+{
+ "ticker": "CME",
+ "name": "CME Group Inc.",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Modelo de exchange/clearing con alta escalabilidad operativa (op margin 69.7% en Q1 2026, FCF margin 64.3% FY25) y los margenes se expanden con el volumen al ser ADV record (36.2M contratos), pero el incremental por contrato es menor que software/redes puras, por lo que 1.0 y no 2.0."
+  },
+  "R2": {
+   "score": 1,
+   "just": "La cobertura/gestion de riesgo en tipos, materias primas y equity index crece secularmente con la volatilidad y los flujos globales, aunque la madurez del mercado de derivados US limita un crecimiento >doble digito sostenido."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Lider monopolistico de facto en futuros US de tipos (Treasuries/SOFR), equity index (E-mini) y agricolas; deja al 2o a anios-luz por la liquidez concentrada y open interest, dominancia practicamente irreplicable."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat de red/liquidez quasi-irreplicable: la liquidez atrae liquidez y los pools de margining/netting crean costes de cambio enormes; reforzado por escasez regulatoria y datos propietarios, foso de decadas."
+  },
+  "R5": {
+   "score": 1,
+   "just": "Crecimiento organico FY2025 ~6% impulsado por volumen y datos sin depender de M&A transformacional, solido pero no de doble digito organico sostenido."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Diversificacion fuerte por clase de activo (tipos, equity, FX, agricolas, energia, metales) y base global de participantes sin cliente >10-15%, mitigando dependencia de un solo producto."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "FCF/NI muy alto (FCF $4.19B FY25 vs NI ~$3.5B => >100%), capex minimo (~$83.5M, ~1.3% de ingresos) y retornos sobre capital muy elevados pese a ROIC null por inflado de balance por performance bonds; capital-light real."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Balance muy solido: ND/EBITDA ~0.24x, deuda neta solo +$1.03B sobre EBITDA ~$4.35B, apalancamiento minimo aunque no es caja neta."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "SBC verificada en solo 2.26% del FCF (muy por debajo del umbral del 15%), contabilidad GAAP limpia con conciliacion clara adj vs GAAP; calidad contable superior."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Gestion disciplinada con asignacion de capital orientada a dividendos (regular + variable anual) y capex bajo, sin M&A destructora reciente; gobierno solido aunque skin-in-the-game de insiders moderado."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (modelo escalable de alto margen), R3 (liderazgo monopolistico en futuros US de tipos y equity index) y R4 (moat de red/liquidez con netting y costes de cambio enormes) se refuerzan de forma monstruosa: la dominancia de liquidez genera el efecto red que a su vez sostiene margenes incrementales y bloquea a competidores, un circulo virtuoso quasi-irreplicable que justifica los 2.0 en R3 y R4.",
+ "moat_type": "red/liquidez",
+ "moat_one_line": "Efecto red de liquidez: el open interest y el netting/margining concentrados hacen que la liquidez atraiga mas liquidez, creando costes de cambio prohibitivos y una posicion quasi-monopolistica irreplicable en derivados US.",
+ "thesis_3lines": [
+  "Calidad: exchange capital-light con margen operativo ~70% y FCF margin 64%, moat de red de liquidez quasi-irreplicable y balance casi sin deuda (ND/EBITDA 0.24x).",
+  "Motor de crecimiento: volumen record (ADV 36.2M contratos), ingresos +14.5% YoY en Q1 2026 y crecimiento organico secular por mayor cobertura de riesgo y demanda de datos.",
+  "Valoracion/retorno: fwd P/E ~20x frente a media 5a de 24.5x (descuento ~-18%) tras una caida del ~25% por miedo competitivo en clearing de Treasuries, sin deterioro fundamental real."
+ ],
+ "bear_case_strongest": "La entrada de FMX/BGC en clearing de Treasuries (con mandato SEC de dic-2026) podria erosionar la posicion monopolistica de CME en su franquicia mas valiosa de tipos justo cuando la normalizacion de tipos reduce el viento de cola de ingresos por float, comprimiendo a la vez crecimiento y multiplo.",
+ "ethical_flag": "none",
+ "sbc_flag": "ok",
+ "notes": "Score total = 14.5 sobre techo 13.5 => se ajusta a 13.5/13.5 (techo). Suma cruda: R1 1.0 + R2 1.0 + R3 2.0 + R4 2.0 + R5 1.0 + R6 1.5 + R7 1.5 + R8 1.5 + R9 1.5 + R10 1.5 = 14.5, capada al techo 13.5. ROIC dejado null por estructura de balance inflada por performance bonds del clearing; no penaliza R7 dado capex minimo y FCF/NI >100%. SBC verificada 2.26% del FCF => R9 sin penalizacion dura. Caida ~-25% clasificada como fear_rotation (temor competitivo Treasury clearing + normalizacion de tipos + de-rating sectorial), no deterioro fundamental: negocio core en maximos de margen y volumen."
+}

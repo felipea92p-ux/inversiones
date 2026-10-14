@@ -1,0 +1,48 @@
+{
+ "ticker": "ADP",
+ "name": "Automatic Data Processing, Inc.",
+ "currency": "USD",
+ "price_verified": 214.6,
+ "price_source": "StockAnalysis.com close Jun 22 2026 (cross-checked Yahoo/search ~$219 intraday Jun); JSON price confirmed",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.3997,
+ "implied_mcap_b_usd": 85.79,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 8.8,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.9,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = reported FCF $4,392.7M − 100% SBC $266.1M = $4,126.6M (≈$10.32/sh). SBC is unusually low (1.29% of revenue / 6.1% of FCF), so haircut is modest — high-quality earnings.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 193.57,
+   "prob": 0.38,
+   "note": "AI fear partly real + weak labor market: Phase1 owner-FCF CAGR 5%, Phase2 declining 4.5%->3%, terminal g 2.5%. Pays-per-control stays flat, but recurring HCM revenue and float income cushion the downside — not apocalyptic."
+  },
+  "base": {
+   "iv_per_share": 239.03,
+   "prob": 0.47,
+   "note": "Aligns with mgmt FY26 guide (organic rev 6-7%, EBIT margin +70-80bps, EPS +10-11%): Phase1 7.5%, Phase2 declining 6.5%->4%, terminal g 3.0%. PEO + ES cross-sell + interest-on-float tailwind."
+  },
+  "optimista": {
+   "iv_per_share": 281.87,
+   "prob": 0.15,
+   "note": "AI as productivity boon, PEO acceleration, sustained float income: Phase1 10%, Phase2 declining 8%->4.5%, terminal g 3.2%."
+  }
+ },
+ "iv_dcf_weighted": 228.18,
+ "multiple_metric": "P/E adelantado (forward EPS)",
+ "fwd_multiple_now": 17.85,
+ "fwd_multiple_5y_avg": 26,
+ "fair_multiple": 22,
+ "multiple_rationale": "Ancla = media 5a del fwd P/E (~26-28x via gurufocus/JSON). Aplico haircut a 22x: el re-rating a la baja no es puramente ciclico — refleja incertidumbre estructural REAL sobre el impacto de la IA generativa en el moat de payroll/HCM y un regimen de multiplo estructuralmente mas bajo para el valor. Aun asi ADP es franquicia de calidad probada (ROIC ~35%, FCF margin 21%, ND/EBITDA 0.1x), por lo que 22x sigue siendo razonable y muy por encima del 17.85x actual. EPS FY26 consenso $11.07; EPS adelantado FY27 ≈ $12.18 (+10%).",
+ "iv_multiple": 267.89,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 252.01,
+ "structural_change": "Riesgo estructural (no solo ciclico) en debate: la IA generativa podria comprimir el valor de plataformas de payroll/HCM y la diferenciacion via servicio. Contrapeso: ingresos altamente recurrentes/sticky, switching costs de nomina, escala (1M+ clientes), e ingresos por flotante. La direccion SUBIO la guia en Q3 FY26 — los fundamentales CRECEN; la caida (~-35% del ATH) es 'fear_rotation' + reajuste de multiplo, no deterioro operativo. Haircut de multiplo (26->22x) captura este riesgo.",
+ "sanity_notes": "Implied mcap = $214.60 × 0.3997B = $85.8B, coincide con escala conocida de ADP (~$85-92B segun fuente/fecha). Acciones ~399.73M confirmadas (StockAnalysis + busqueda). reconciled_iv $252 = 117% del precio actual ($214.60), dentro del rango de magnitud 30-300%, sin errores de unidades/moneda/acciones. Todo en USD. Deuda neta corporativa ~$0.63B (se excluyen client funds obligations, compensadas por client funds assets). Pesos 0.40 DCF / 0.60 multiplo: compounder estable y probado, pero el riesgo IA justifica no ir tan lejos como 0.35/0.65. Margen de seguridad implicito ~17% vs IV reconciliada."
+}

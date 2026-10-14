@@ -1,0 +1,41 @@
+{
+ "ticker": "MTD",
+ "currency": "USD",
+ "current_price": 1164.07,
+ "wacc_pct": 9.55,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.05,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = FCF reportado FY2025 $877.5M − 100% SBC $22.5M = $855.0M. La SBC se trata como gasto en efectivo, pero es trivialmente baja (0.56% de ventas, 2.57% del FCF), de las mejores del sector — dilucion minima. Owner FCF/accion base ~$42.3 sobre ~20.2M acciones diluidas.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 7.5,
+  "rev_cagr_y6_10_pct": 5,
+  "fcf_margin_terminal_pct": 22,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC restada del FCF como gasto en efectivo (SBC FY2025 = $22.5M, solo 2.57% del FCF; impacto minimo dado el perfil de baja dilucion de MTD)",
+  "shares_diluted_b": 0.0202,
+  "net_debt_usd_b": 2.09
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 610.39,
+   "prob": 0.375,
+   "note": "Crecimiento owner-FCF ~5% anios 1-5 declinando a 3% en anios 6-10 (organico ~3.5% + ligera expansion de margen, sin contribucion de M&A); g terminal 2.5%. Macro debil persistente, China lenta. NO apocaliptico — MTD sigue generando ROIC ~25% y FCF positivo."
+  },
+  "base": {
+   "iv_per_share": 761.42,
+   "prob": 0.475,
+   "note": "Crecimiento owner-FCF ~7.5% anios 1-5 (organico ~5% incl. tuck-ins + expansion de margen + pricing) declinando a 3.5%; g terminal 3.0%. Consistente con track record de adj EPS +8/+10% y recompras agresivas. PV terminal ~57% del EV."
+  },
+  "optimista": {
+   "iv_per_share": 961.93,
+   "prob": 0.15,
+   "note": "Crecimiento owner-FCF ~10% anios 1-5 declinando a 4.5%; g terminal 3.5%. Recuperacion de China, ganancias de cuota, ejecucion perfecta de Spinnaker/servicio y margenes record. Ejecucion impecable."
+  }
+ },
+ "sanity_check": "VI ponderada por probabilidad ~$735 vs precio $1,164 => el mercado paga ~37% por encima de un DCF de owner earnings disciplinado, incluso tras caer -32% desde maximos. La brecha es la \"prima de calidad\": MTD cotizo historicamente a ~37x fwd P/E y ahora ~24.3x (descuento -35% vs su media de 5 anios), pero 24x sigue siendo exigente para un DCF al 9.55% WACC con g terminal 3% (rendimiento owner-FCF de solo ~3.6%, P/owner-FCF ~27.5x). Contraste de rendimiento total al accionista: MTD practicamente no paga dividendo y destina ~todo el FCF a recompras => yield de recompra ~3.7% sobre market cap; con crecimiento de FCF ~7-8% da un retorno compuesto razonable pero no barato. Conclusion: negocio sobresaliente (ROIC 25%, margenes 29.6% adj, SBC minimo, balance comodo ND/EBITDA 1.6x), pero a precio actual la valoracion exige crecimiento por encima del caso base para igualar el rendimiento exigido. El de-rating ha reducido la sobrevaloracion pero aun no ofrece margen de seguridad sobre owner earnings.",
+ "method_notes": "DCF de OWNER EARNINGS a 10 anios. Base = FCF FY2025 $877.5M − 100% SBC $22.5M = $855.0M. Fase 1 (anios 1-5): CAGR de owner-FCF constante por escenario. Fase 2 (anios 6-10): CAGR declinante linealmente hacia normalizacion. Valor terminal por Gordon con g=2.5-3.5% segun foso (foso amplio: lider global en balanzas/instrumentos de precision, base instalada pegajosa, pricing power, servicio recurrente). Descuento al WACC = Rf 4.3% (UST 10Y) + ERP 5.0% x beta 1.05 = 9.55%; sin ajuste geopolitico (empresa US, manufactura diversificada). Beta 1.05 estimada (instrumentos de lab/calidad, baja ciclicidad). Acciones diluidas ~20.2M derivadas de market cap $23.52B / precio $1,164.07. VI/accion = (PV flujos + PV terminal − deuda neta $2.09B) / acciones. Inputs verificados del JSON FASE 2 (fuentes primarias SEC 8-K/10-K/10-Q FY2025 y Q1 2026); no se requirio busqueda web adicional. Limitacion: con ~20M acciones la VI/accion es muy sensible a g terminal y WACC."
+}

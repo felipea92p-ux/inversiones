@@ -1,0 +1,100 @@
+{
+ "ticker": "NVDA",
+ "name": "NVIDIA Corporation",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 208.65,
+ "market_cap_usd_b": 5050,
+ "fwd_pe": 21,
+ "fwd_pe_5y_avg": 40,
+ "pe_prem_disc_pct": -47.5,
+ "peg": 0.4,
+ "last_q": {
+  "period": "Q1 FY2027 (ended Apr 26, 2026)",
+  "revenue": "$81,615M",
+  "rev_yoy_pct": 85,
+  "op_margin_pct": 65.6,
+  "eps_gaap": "$2.39",
+  "eps_adj": "$1.87"
+ },
+ "last_fy": {
+  "period": "FY2026 (ended Jan 25, 2026)",
+  "revenue": "$215,938M",
+  "organic_growth_pct": 65,
+  "roic_pct": 90,
+  "fcf": "$96,676M",
+  "fcf_margin_pct": 44.8
+ },
+ "sbc_pct_revenue": 3,
+ "sbc_pct_fcf": 6.6,
+ "net_debt_usd_b": -54.1,
+ "nd_ebitda": -0.4,
+ "net_cash": true,
+ "guidance_fy": "Q2 FY2027 revenue guided to $91.0B +/- 2% (implies ~+60% YoY). No explicit full-year FY2027 revenue guide issued; company guides one quarter ahead. FY2027 GAAP/non-GAAP tax rate guided 16-18%.",
+ "pct_off_52w_high": -11.8,
+ "pct_off_ath": -11.8,
+ "drop_classification": "not_depressed",
+ "data_quality": "VERIFICADO_mostly",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "net_cash",
+  "guidance_fy",
+  "price",
+  "market_cap_usd_b",
+  "pct_off_52w_high"
+ ],
+ "estimated_fields": [
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "nd_ebitda",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "NVIDIA Newsroom — Q4 & Full Year Fiscal 2026 Results (press release: income/cash-flow/balance sheet)",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+   "date": "2026-02-25"
+  },
+  {
+   "label": "NVIDIA Newsroom — First Quarter Fiscal 2027 Results (press release: Q1 FY27 financials + Q2 guidance + SBC)",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027",
+   "date": "2026-05-20"
+  },
+  {
+   "label": "SEC EDGAR — NVIDIA 10-K FY2026 (filing index)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+   "date": "2026-02-25"
+  },
+  {
+   "label": "SEC EDGAR — NVIDIA 8-K Q1 FY2027 press release (q1fy27pr.htm)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000051/q1fy27pr.htm",
+   "date": "2026-05-20"
+  },
+  {
+   "label": "StockAnalysis.com — NVDA price, market cap, fwd P/E, 52-week range (aggregator)",
+   "url": "https://stockanalysis.com/stocks/nvda/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "GuruFocus / MacroTrends — NVDA forward P/E and 5-year P/E history (aggregator)",
+   "url": "https://www.gurufocus.com/term/forward-pe-ratio/NVDA",
+   "date": "2026-06-18"
+  }
+ ],
+ "notes": "FISCAL CALENDAR: NVDA FY ends late January; FY2026 ended Jan 25, 2026; latest quarter is Q1 FY2027 ended Apr 26, 2026 (reported May 20, 2026). VERIFIED core financials from NVIDIA newsroom press releases (primary IR) and SEC 8-Ks. FY2026: revenue $215,938M (+65%), GAAP op income $130,387M (op margin 60.4%), GAAP net income $120,067M, GAAP EPS $4.90, non-GAAP EPS $4.77, OCF $102,718M, capex $6,042M -> FCF $96,676M (44.8% margin), SBC $6,386M (2.96% of rev). Balance sheet: cash+marketable securities $62,556M; total debt $8,468M ($999M current + $7,469M LT) -> NET CASH ~$54.1B. Q1 FY2027: revenue $81,615M (+85% YoY, +20% QoQ), Data Center $75.2B (+92%), GAAP op margin 65.6%, GAAP gross margin 74.9%, GAAP net income $58,321M, GAAP EPS $2.39, non-GAAP EPS $1.87, SBC $1,928M, OCF $50,344M. IMPORTANT EPS NUANCE: starting Q1 FY2027 NVIDIA's non-GAAP measures NO LONGER exclude SBC, and GAAP net income was boosted by a ~$15.9B gain on equity securities — that is why GAAP EPS ($2.39) EXCEEDS non-GAAP EPS ($1.87) this quarter (reversal of historical pattern). Q2 FY2027 guide: revenue $91.0B +/-2%. Capital returns: $80B buyback authorization added; dividend raised from $0.01 to $0.25/quarter. ESTIMATED items: fwd_pe ~21 (stockanalysis 20.99, gurufocus 23.45); fwd_pe_5y_avg ~40 is an estimate (aggregators report trailing 5y P/E ~62-71; forward 5y avg historically ~35-45, so current ~21x is a deep discount, pe_prem_disc ~-48%); PEG ~0.4 given ~50%+ fwd EPS growth; ROIC ~90% estimate (extremely high given net-cash balance sheet and ~$120B GAAP NI); ND/EBITDA ~-0.4 (net cash). DROP CLASSIFICATION = not_depressed: stock $208.65 is only ~-12% off its 52-week high/ATH (~$236.54), with revenue accelerating (+85% YoY) and forward guidance of $91B — a near-highs, fast-growing name, NOT distressed. Multiple compression (fwd P/E from ~40+ to ~21) reflects EPS growing far faster than price, not fundamental deterioration."
+}

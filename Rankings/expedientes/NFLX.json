@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "ticker": "NFLX",
+    "empresa": "Netflix, Inc.",
+    "cik": "0001065280",
+    "domicilio": "Delaware, EEUU",
+    "bolsa": "NASDAQ",
+    "divisa_reporte": "USD",
+    "divisa_funcional": "USD",
+    "adr_o_ads": "NO — accion ordinaria directa, sin ratio ADS",
+    "fecha_analisis": "2026-07-28",
+    "nota_ruta_salida": "El orquestador paso el directorio de salida como 'undefined'. Escrito en /Users/felipealvarez/Library/Mobile Documents/com~apple~CloudDocs/INVESTMENTS/Rankings/expedientes/NFLX.json",
+    "aviso": "Trabajo analitico de valoracion, no asesoramiento de inversion personalizado. Las cifras y sus fuentes se declaran para que Felipe decida."
+  },
+
+  "calidad_congelada": {
+    "etiqueta": "MENOS_5_6",
+    "puertas_pasadas": 3,
+    "especie": "G2",
+    "reinversion_pct_ventas": 39.4,
+    "roiic_bruto_pct": 9.11,
+    "roiic_ex_margen_pct": 3.86,
+    "mecanismo": "Economias de escala sobre un catalogo unico: amortiza 17.096,6M USD de contenido anual sobre >325 millones de membresias (54,6 USD por membresia-anio), base 2,5x la del numero dos.",
+    "eslabon_mas_debil": "El beneficio ya no crece por capital reinvertido sino por margen (57,6% del aumento de NOPAT 2020-2025 es expansion de margen sobre un activo de contenido neto que solo crecio 6,0% en cuatro anios). La unica magnitud fisica auditable —membresias, ARM, horas vistas— fue descontinuada en 2025 y pasa a frecuencia ANUAL desde 2027.",
+    "regla": "La etiqueta NO se reclasifica hacia arriba. El valorador no toca calidad."
+  },
+
+  "precio_y_estructura_de_capital": {
+    "precio_usd": 70.77,
+    "fuente_precio": "IBKR get_price_snapshot, contract_id 15124833 (NASDAQ), ultimo negociado sesion 27-28 jul 2026; bid 70,70 / ask 70,81; cambio +0,37 (+0,53%) sobre cierre anterior. HECHO (dato vivo de mercado).",
+    "contexto_precio": {
+      "maximo_52s_usd": 126.71,
+      "minimo_52s_usd": 65.08,
+      "caida_desde_maximo_pct": -44.1,
+      "variacion_ytd_pct": -24.5,
+      "volatilidad_anual_historica_pct": 51.7,
+      "nota": "Split 10:1 ejecutado en noviembre de 2025 (8-K 2025-11-14). Todas las series de precio y las acciones estan ya ajustadas. HECHO."
+    },
+    "acciones_en_circulacion_mm": 4163.94,
+    "fuente_acciones": "Portada del 10-Q del 2T 2026 (accession 0001065280-26-000212, presentado 2026-07-17): 'Entity Common Stock, Shares Outstanding 4.163.939.676' al 30-jun-2026. HECHO.",
+    "capitalizacion_usd_mm": 294682,
+    "deuda_bruta_par_usd_mm": 14372,
+    "deuda_bruta_valor_mercado_usd_mm": 14605,
+    "fuente_deuda": "Nota 7 Debt del 10-Q 2T 2026: principal a la par 14.372M USD; valor razonable Nivel 2 14.605M USD al 30-jun-2026. Sin saldo dispuesto en la linea revolving de 3.000M ni en el programa de papel comercial de 3.000M. HECHO.",
+    "caja_e_inversiones_cp_usd_mm": 9127.9,
+    "deuda_neta_usd_mm": 5477.1,
+    "ev_usd_mm": 300159,
+    "arrendamientos_operativos_usd_mm": 2330.4,
+    "nota_arrendamientos": "Pasivo por arrendamiento operativo de 2.330,4M USD (30-jun-2026) NO incluido en el EV. Incluirlo lo subiria un 0,8%, irrelevante frente al piso de resolucion. Declarado."
+  },
+
+  "candado_b_wacc_de_mercado": {
+    "regla": "WACC bottom-up de mercado. Prohibido heredarlo de un tier de calidad.",
+    "tasa_libre_riesgo_pct": 4.64,
+    "fuente_tasa_libre_riesgo": "Bono soberano EEUU a 10 anos, 4,64% al 27-jul-2026 (Trading Economics / Fed H.15 diaria del 27-jul-2026). Moneda funcional = USD, asi que es el bono correcto. HECHO con fecha.",
+    "beta": 1.35,
+    "fuente_beta": "Blume-ajustada (2/3 x regresion + 1/3 x 1,00) sobre regresion propia de 60 retornos MENSUALES NFLX vs SPY, 60 meses cerrados jul-2021 a jul-2026, precios IBKR: beta cruda 1,506 (error estandar 0,310; R2 0,290; IC95% 0,89-2,12). Contraste externo: Investing.com beta 5 anos 1,52 (consultado 28-jul-2026) — converge con la regresion propia. GuruFocus publica 0,8951 al 18-may-2026 (ventana mas corta). Regresiones propias a 3 anos: 0,862; a 2 anos: 0,351 (R2 1,7%, sin contenido). INFERENCIA declarada: la beta de NFLX es un numero RUIDOSO; se usa banda 1,00-1,55.",
+    "beta_rango": "1,00 - 1,55",
+    "prima_mercado_pct": 4.23,
+    "fuente_prima_mercado": "Damodaran, prima implicita de mercado maduro 4,23%, tabla 'Country Default Spreads and Risk Premiums', actualizacion 5-ene-2026 (pages.stern.nyu.edu/~adamodar). HECHO con fecha.",
+    "prima_pais_pct": 0.89,
+    "fuente_prima_pais": "Ponderacion por INGRESO (riesgo del ACTIVO, no del domicilio fiscal) con el desglose regional del 2T 2026 (carta a accionistas 16-jul-2026): UCAN 5.432M (43,2%, CRP ~0,20%), EMEA 4.034M (32,1%, CRP ~0,90%), LATAM ~1,55B (12,3%, CRP ~2,80% mix Brasil 3,24%/Mexico 2,46%), APAC ~1,55B (12,3%, CRP ~1,40% mix Japon 0,91%/Corea 0,64%/India 2,85%). CRP ponderada = 0,89%. Tabla Damodaran ene-2026. INFERENCIA (ponderacion propia sobre datos HECHO).",
+    "prima_total_riesgo_pct": 5.12,
+    "coste_deuda_pct": 5.2,
+    "fuente_coste_deuda": "REAL, derivado del filing: gasto financiero FY2025 776,5M USD sobre deuda bruta media del ejercicio 15.022,9M USD (media de 14.462,9M al cierre 2025 y 15.582,9M al cierre 2024, corto+largo plazo, 10-K) = 5,17%. Intereses PAGADOS 718,6M sobre la misma base = 4,78%. Contraste de mercado: los bonos 5,400% con vencimiento 2054 cotizan a 769/800 = 96,1% del par (rinden ~5,7%); los 4,900% de 2034 a 99,8% del par. Se adopta 5,2% pre-impuestos. HECHO + INFERENCIA.",
+    "tasa_impositiva_marginal_pct": 21.0,
+    "nota_tasa_impositiva": "Para el escudo fiscal se usa la MARGINAL (21% federal EEUU), no la efectiva. La efectiva de Netflix en FY2025 fue 13,7% (10-K) por deduccion FDII y creditos; usar la efectiva inflaria el escudo.",
+    "coste_capital_propio_pct": 11.55,
+    "peso_equity_pct": 95.28,
+    "peso_deuda_pct": 4.72,
+    "wacc_pct": 11.2,
+    "wacc_rango": "9,5% - 12,2% (beta 1,00 a 1,55)",
+    "wacc_formula": "Ke = 4,64% + 1,35 x (4,23% + 0,89%) = 11,55%. WACC = 95,28% x 11,55% + 4,72% x 5,2% x (1-21%) = 11,20%."
+  },
+
+  "owner_earnings": {
+    "definicion_a": "Restando solo capex de MANTENIMIENTO, aproximado por la depreciacion/amortizacion. En Netflix el activo relevante es el CONTENIDO: el 'capex' economico son las adiciones a activos de contenido (17.096,6M en 2025) y su 'depreciacion' es la amortizacion de contenido (16.422,2M). El exceso sobre la amortizacion es inversion discrecional y NO se resta.",
+    "definicion_b": "Restando TODO el capex: flujo de caja libre puro.",
+    "tratamiento_sbc": "La retribucion en acciones (SBC) se RESTA en ambas versiones por ser coste economico real, aunque el estado de flujos la readade. 368,4M en FY2025 (0,8% de ventas) y ~560M estimados en 2026. Decision declarada; su efecto es inmaterial para el veredicto.",
+
+    "base_auditada_FY2025": {
+      "fuente": "10-K del ejercicio cerrado 31-dic-2025, accession 0001065280-26-000034, presentado 2026-01-23. Estados R3 (operaciones), R5 (flujos), R6 (balance). HECHO.",
+      "ingresos_usd_mm": 45183.0,
+      "resultado_operativo_usd_mm": 13326.6,
+      "margen_operativo_pct": 29.5,
+      "beneficio_neto_usd_mm": 10981.2,
+      "flujo_de_caja_operativo_usd_mm": 10149.3,
+      "capex_ppe_usd_mm": 688.2,
+      "da_ppe_usd_mm": 333.4,
+      "adiciones_a_contenido_usd_mm": 17096.6,
+      "amortizacion_de_contenido_usd_mm": 16422.2,
+      "sbc_usd_mm": 368.4,
+      "fcf_reportado_usd_mm": 9461.1,
+      "oe_mantenimiento_usd_mm": 10121.9,
+      "oe_capex_total_usd_mm": 9092.6,
+      "inversion_discrecional_usd_mm": 1029.2,
+      "lectura": "La distancia entre las dos versiones es de solo 1.029,2M USD (11,3%). Netflix reinvierte apenas un 6% por encima de lo que amortiza: ratio caja de contenido / amortizacion = 1,04x. Esto ES el eslabon debil congelado, visto desde la caja."
+    },
+
+    "base_en_curso_FY2026E": {
+      "fuente": "10-Q del 2T 2026 (accession 0001065280-26-000212, presentado 2026-07-17) para el 1S real, mas la guia de la carta a accionistas del 16-jul-2026 (8-K, exhibit 99.1). HECHO + guia de la propia empresa.",
+      "1s2026_ingresos_usd_mm": 24809.7,
+      "1s2026_resultado_operativo_usd_mm": 8149.6,
+      "1s2026_beneficio_neto_usd_mm": 8684.2,
+      "1s2026_fco_usd_mm": 7034.0,
+      "guia_ingresos_usd_mm": "51.000 - 51.400 (13%-14% de crecimiento)",
+      "guia_margen_operativo_pct": 31.5,
+      "guia_fcf_usd_mm": 12500,
+      "guia_ratio_caja_contenido_sobre_amortizacion": "~1,1x",
+      "guia_crecimiento_amortizacion_contenido_pct": 10,
+      "guia_ingresos_publicidad_usd_mm": "~3.000 (aproximadamente el doble de 2025)",
+
+      "AJUSTE_CRITICO_comision_de_ruptura": {
+        "importe_usd_mm": 2800,
+        "hecho": "El 4-dic-2025 Netflix firmo el acuerdo para comprar los negocios de streaming y estudios de Warner Bros. Discovery (HBO Max, HBO, estudios de cine y television), enmendado el 19-ene-2026. El 27-feb-2026 WBD lo termino para irse con Paramount Skydance, y PSKY pago en nombre de WBD una comision de ruptura de 2.800M USD a Netflix, registrada en 'Interest and other income (expense)' del 1T 2026.",
+        "fuente": "Nota 6 'Acquisitions' del 10-Q del 2T 2026. HECHO textual del filing.",
+        "efecto": "Es un ingreso NO RECURRENTE que contamina la base en curso: infla el beneficio neto del 1T 2026 (5.282,8M frente a un resultado operativo de 3.957,0M) y el FCF del 1T (5.094M). Neto de impuestos se estima en ~2.128M USD (2.800M al ~24% de tipo combinado). La guia de FCF de 12.500M para 2026 lo INCLUYE.",
+        "fcf_2026_subyacente_ex_comision_usd_mm": 10372
+      },
+
+      "ingresos_estimados_usd_mm": 51200,
+      "resultado_operativo_estimado_usd_mm": 16128,
+      "capex_ppe_estimado_usd_mm": 900,
+      "da_ppe_estimado_usd_mm": 410,
+      "amortizacion_contenido_estimada_usd_mm": 18064,
+      "adiciones_a_contenido_estimadas_usd_mm": 19871,
+      "sbc_estimado_usd_mm": 560,
+      "oe_mantenimiento_usd_mm": 12108.4,
+      "oe_capex_total_usd_mm": 9812.0,
+      "inversion_discrecional_usd_mm": 2297.0
+    },
+
+    "distancia_entre_bases": {
+      "oe_mantenimiento_variacion_pct": 19.6,
+      "oe_capex_total_variacion_pct": 7.9,
+      "lectura": "La brecha entre las dos bases NO es ruido: es el momento del ciclo. El OE de mantenimiento sube 19,6% mientras el FCF puro sube solo 7,9%, porque en 2026 Netflix pasa de gastar 1,04x su amortizacion de contenido a 1,10x. Es decir, 2026 es el primer ano en varios en que la empresa vuelve a reinvertir de verdad por encima de lo que consume. Eso mejora el mecanismo y empeora el flujo de caja libre — exactamente la tension que el metodo pide separar."
+    }
+  },
+
+  "dcf_inverso": {
+    "metodo": "Se desapalancan los owner earnings (sumando el gasto financiero neto de impuestos y restando los ingresos financieros netos de impuestos) y se descuentan contra el EV al WACC calculado, 10 anos de crecimiento explicito mas valor terminal al 3%. Base del DCF: la version de capex de MANTENIMIENTO (la que no penaliza a una reinvertidora por reinvertir).",
+    "wacc_usado_pct": 11.2,
+    "terminal_pct": 3.0,
+    "ev_objetivo_usd_mm": 300159,
+    "oe_desapalancado_auditado_usd_mm": 10599,
+    "oe_desapalancado_encurso_usd_mm": 12634,
+    "g_implicita_auditado_pct": 14.36,
+    "g_implicita_encurso_pct": 11.92,
+    "g_implicita_capex_total_auditado_pct": 15.78,
+    "g_implicita_capex_total_encurso_pct": 14.7,
+    "sensibilidad_al_wacc": {
+      "wacc_9_49_beta_1_00": "g implicita 10,70% (auditado) / 8,37% (en curso)",
+      "wacc_11_20_central": "g implicita 14,36% (auditado) / 11,92% (en curso)",
+      "wacc_12_18_beta_1_55": "g implicita 16,28% (auditado) / 13,78% (en curso)"
+    },
+    "veredicto": "Incluso despues de caer un 44% desde maximos, el precio de hoy exige que los owner earnings de Netflix crezcan entre un 12% y un 14% ANUAL durante DIEZ anos y despues perpetuamente al 3%. Con la beta mas benevola defendible (1,00) la exigencia baja al 8,4%-10,7%, que sigue estando muy por encima de cualquier tasa base derivada del motor real del negocio."
+  },
+
+  "g_defendible": {
+    "regla": "g = tasa de reinversion x ROIIC EX-MARGEN. Se usa el ex-margen porque usar el bruto asume que la expansion de margen se repite.",
+    "roiic_ex_margen_pct": 3.86,
+    "nopat_2025_usd_mm": 11500.9,
+    "reinversion_bruta_usd_mm": 17784.8,
+    "reinversion_bruta_pct_ventas": 39.4,
+    "reinversion_neta_usd_mm": 1029.2,
+    "lectura_bruta": "Reinversion bruta / NOPAT = 1,546 -> g = 1,546 x 3,86% = 5,97%",
+    "lectura_neta": "Reinversion neta (sobre amortizacion) / NOPAT = 0,089 -> g = 0,089 x 3,86% = 0,35%",
+    "g_defendible_pct": 6.0,
+    "justificacion": "Se adopta la lectura BRUTA (5,97% -> 6,0%) porque en un negocio de contenido la amortizacion NO es mantenimiento contable de un activo fisico: es el consumo real del activo que hay que reponer entero cada ano para que el catalogo siga existiendo. El capital invertido relevante es el gasto acumulado en contenido, no el incremento neto. Se declara la fragilidad: con la lectura NETA la aritmetica colapsa a 0,35%, y las dos lecturas ENCUADRAN la respuesta. 6,0% queda ademas por debajo del crecimiento actual de ingresos (13-14% en 2026, 11,7% guiado para el 3T) y por encima del terminal del 3%, que es donde debe estar una g de decada para un negocio que ya es el numero uno de su categoria.",
+    "contraste_con_lo_exigido": "El precio exige 11,9%-14,4%. Lo defendible es 6,0%. La brecha es de 6 a 8 puntos de crecimiento anual durante una decada."
+  },
+
+  "valoracion": {
+    "piso_de_resolucion": "Sin medicion propia de ruido se aplica banda de mas menos 25% sobre los owner earnings. Ninguna cifra de valor intrinseco se reporta con decimales.",
+    "valor_por_accion_auditado_usd": 38,
+    "valor_por_accion_auditado_banda": "28 - 48 USD",
+    "valor_por_accion_encurso_usd": 46,
+    "valor_por_accion_encurso_banda": "34 - 58 USD",
+    "mos_auditado_pct": -85.1,
+    "mos_encurso_pct": -54.4,
+    "mos_exigido_pct": 52,
+    "lectura_mos_exigido": "MENOS_5_6 abre con 40% de margen de seguridad. Netflix YA esta en cartera (3,64% del NAV), asi que la decision es CARGAR y el umbral SUBE 12 puntos: 52%. Lectura coherente con la escala citada por el orquestador (ULTRA 18->30, PRESUNTA 23->35, MUY_BUENA 28->40). Se declara como interpretacion: el texto recibido es ambiguo y admite tambien 28%. Con 28% el veredicto no cambia en absoluto, porque el MoS actual es NEGATIVO.",
+    "m_estrella": 18,
+    "justificacion_m_estrella": "Decidido en frio, sin barra de error: 18 veces owner earnings de mantenimiento. Justificacion: 18x equivale a un rendimiento inicial del 5,6%, que sumado a la g defendible del 6,0% da un retorno esperado de ~11,6%, justo por encima del WACC de 11,2%. Para una etiqueta MENOS_5_6 cuyo eslabon debil es precisamente que la magnitud fisica del negocio dejo de ser auditable, no se paga mas.",
+    "precio_a_m_estrella_auditado_usd": 43.76,
+    "precio_a_m_estrella_encurso_usd": 52.34,
+    "p_estrella_usd": 22.0,
+    "lectura_p_estrella": "P* = valor intrinseco de la base EN CURSO (46 USD) x (1 - 52%) = 22 USD por accion. Sobre la base auditada seria 18 USD. Es decir, el precio tendria que caer entre un 69% y un 74% adicional desde 70,77 USD para que CARGAR cumpla el umbral de su banda.",
+    "multiplos_actuales": {
+      "precio_sobre_oe_mantenimiento_2025": "29,1x",
+      "precio_sobre_oe_mantenimiento_2026E": "24,3x",
+      "ev_sobre_oe_desapalancado_2026E": "23,8x",
+      "precio_sobre_fcf_2026E_ex_comision": "28,4x",
+      "per_2026E_ex_comision": "22,7x"
+    },
+    "tir_esperada_rango": "6% - 10% anual a 10 anos; central 7,6% (base auditada) a 8,5% (base en curso) con g defendible del 6,0%",
+    "lectura_tir": "Esta es la cifra que importa mas que el MoS. Comprando hoy a 70,77 USD y acertando con la g defendible del 6,0%, el retorno anual esperado a diez anos es del 7,6%-8,5%. Con la banda de ruido de mas menos 25% sobre los owner earnings y g entre 4% y 7%, el rango completo es 6,0%-10,3%. El WACC central es 11,2%. Es decir: se cobra menos que el coste del capital del propio negocio, entre 2,7 y 3,6 puntos anuales por debajo. No es una perdida catastrofica; es un compounder que compone POR DEBAJO de su coste de capital."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "SOSPECHA",
+    "motivo": "No es una trampa de valor CLASICA — para eso tendria que estar barata, y a 24x owner earnings forward y 22,7x beneficios no lo esta. La trampa aqui es la inversa y mas peligrosa para quien ya la tiene en cartera: el ANCLAJE en el maximo. Ha caido un 44% desde 126,71 USD y sigue exigiendo un 12% de crecimiento anual durante una decada. El descuento es contra el precio de ayer, no contra el valor.",
+    "senales_del_motor": [
+      "Las horas vistas crecieron solo un +2% en el 1S 2026 (mas de 97.000 millones de horas) mientras los ingresos crecian un +14,8%. Todo el crecimiento es monetizacion por hora: precio y publicidad. Fuente: carta a accionistas 16-jul-2026. HECHO.",
+      "Deceleracion clara y secuencial del crecimiento de ingresos: 4T25 +17,6% -> 1T26 +16,2% -> 2T26 +13,4% -> 3T26 guiado +11,7%. Fuente: tabla de la carta del 2T 2026. HECHO.",
+      "En el 2T 2026 el resultado operativo crecio un +11% frente a un +13,4% de ingresos: el margen se contrajo de 34,1% a 33,4% interanual. Primer trimestre en el que el margen deja de tirar. HECHO.",
+      "La empresa CONFIRMA el estrechamiento de la magnitud fisica: tras el informe 'What We Watched' del 1S 2026 pasara a publicarlo ANUALMENTE desde 2027, con el argumento explicito de 'mantener el foco en nuestras metricas financieras primarias — ingresos y beneficio operativo'. Es exactamente el eslabon debil congelado, confirmado por escrito por la direccion. HECHO textual.",
+      "Netflix PERDIO la puja por los estudios y el streaming de Warner Bros. Discovery (HBO Max, HBO) frente a Paramount Skydance, terminada el 27-feb-2026. Cobro 2.800M de comision de ruptura, pero el activo se lo lleva un competidor que queda reforzado. HECHO (nota 6 del 10-Q 2T26)."
+    ],
+    "contrapesos_honestos": [
+      "El motor NO esta roto: 2026 guia +13-14% de ingresos, margen operativo del 31,5% (frente a 29,5% en 2025) y +20% de crecimiento del beneficio operativo. La publicidad se duplica hasta ~3.000M.",
+      "En 2026 vuelve a reinvertir de verdad: ratio caja de contenido sobre amortizacion de 1,10x frente a 1,04x en 2025. Eso reabre el canal de crecimiento por capital, no solo por margen.",
+      "Balance solido: 14,4B de deuda bruta contra 9,1B de caja, 27,1B de autorizacion de recompra restante, y 4,7B recomprados solo en el 2T 2026 (el mayor trimestre de su historia) justo con la accion caida.",
+      "La caida del 44% ha hecho un trabajo real: hace un ano el precio exigia una g muchisimo mas alta. Si sigue cayendo, esta empresa entra en rango. Hoy no."
+    ]
+  },
+
+  "huecos_declarados": [
+    "La BETA es el eslabon estadistico mas debil de todo el expediente: 1,506 a 5 anos (error estandar 0,310, R2 0,290), 0,862 a 3 anos, 0,351 a 2 anos con R2 del 1,7%. Las tres son la misma empresa y el mismo mercado. Se usa 1,35 Blume-ajustada y se reporta el WACC como banda 9,5%-12,2%. El veredicto sobrevive en todo el rango, pero la cifra de g implicita se mueve entre el 8,4% y el 16,3%.",
+    "La g defendible depende de si la reinversion se mide BRUTA o NETA. Bruta da 5,97%; neta da 0,35%. Se adopta la bruta y se declara. El ROIIC ex-margen del 3,86% viene congelado de la fase de calidad y no he podido reconstruir su denominador desde los filings, asi que no se de cual de las dos convenciones salio. Es el hueco que mas afecta al valor intrinseco.",
+    "El capex de PP&E estimado para 2026 (900M) y la SBC estimada (560M) son anualizaciones propias del 1S; la empresa no guia esas dos lineas por separado. INFERENCIA.",
+    "El impuesto atribuido a la comision de ruptura de WBD (~672M, tipo del 24%) es una estimacion propia: el filing no desglosa el impuesto de esa partida. Afecta al FCF subyacente de 2026 en unos 300-400M en cualquier direccion razonable.",
+    "El umbral de MoS para CARGAR en la banda MENOS_5_6 se ha interpretado como 52% (40% + 12 puntos). El texto recibido admite tambien la lectura de 28%. Con cualquiera de las dos el veredicto es identico porque el MoS actual es negativo.",
+    "La reparticion de ingresos entre LATAM y APAC en el 2T 2026 se estimo en ~1,55B cada una (la carta dice que ambas superaron 1,5B y el residual sobre el total es 3,094B). Afecta a la prima pais en decimas de punto.",
+    "El precio de 70,77 USD es un dato vivo intradia, no un cierre oficial confirmado. El orquestador paso la fecha de corte y el precio como 'undefined'.",
+    "El desglose de membresias y de ARM (ingreso medio por membresia) YA NO se publica desde 2025, asi que la afirmacion del mecanismo sobre '54,6 USD por membresia-anio' no se puede reauditar contra un filing de 2026. Este hueco es estructural y va a EMPEORAR: el informe de horas vistas pasa a anual en 2027."
+  ],
+
+  "resumen": "Netflix cotiza a 70,77 USD, un 44% por debajo de su maximo de 52 semanas, y sigue sin dar margen de seguridad. Con un WACC de mercado del 11,2% (beta Blume-ajustada 1,35 sobre regresion propia, bono a 10 anos al 4,64%, prima 4,23% + 0,89% de riesgo pais ponderado por ingreso) y un EV de 300.159M USD, el DCF inverso exige que los owner earnings crezcan un 14,4% anual durante diez anos sobre la base auditada de 2025 y un 11,9% sobre la base en curso de 2026 — antes de un terminal del 3%. Lo defendible, derivado de reinversion x ROIIC EX-MARGEN, es un 6,0%. Owner earnings de mantenimiento: 10.122M USD (FY2025 auditado) y 12.108M (FY2026 en curso); FCF puro: 9.093M y 9.812M. Ojo con la base en curso: la guia de FCF de 12.500M INCLUYE 2.800M de comision de ruptura de la operacion fallida de Warner Bros. Discovery, que no es recurrente; el FCF subyacente es de unos 10.400M. Valor intrinseco 38 USD por accion (banda 28-48) sobre la base auditada y 46 USD (banda 34-58) sobre la base en curso; margen de seguridad de -85% y -54% frente a un 52% exigido para CARGAR en una banda MENOS_5_6. La TIR esperada a diez anos comprando hoy y acertando con el 6,0% es del 7,6%-8,5% (rango completo 6%-10%): entre 2,7 y 3,6 puntos anuales POR DEBAJO del coste de capital del propio negocio. P* = 22 USD. Trampa de valor: SOSPECHA — no barata sino anclada, y con las tres senales del eslabon debil congelado ya visibles en los numeros de 2026 (horas vistas +2% frente a ingresos +14,8%, primer trimestre de contraccion de margen interanual, y la propia direccion confirmando por escrito que el reporte de horas pasa a anual en 2027 'para mantener el foco en las metricas financieras'). El mecanismo no esta roto —2026 guia +13-14% de ingresos, margen del 31,5% y vuelve a reinvertir a 1,10x su amortizacion de contenido— pero el precio sigue cobrando por una decada de ejecucion que la propia empresa ya no permite auditar fisicamente."
+}

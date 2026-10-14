@@ -1,0 +1,48 @@
+{
+ "ticker": "EQT.ST",
+ "name": "EQT AB",
+ "currency": "SEK",
+ "price_verified": 268.3,
+ "price_source": "StockAnalysis.com (cross-checked vs EQT IR / Yahoo / Morningstar)",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 1.17,
+ "implied_mcap_b_usd": 33.25,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 9.55,
+ "wacc_components": {
+  "rf_pct": 2.8,
+  "erp_pct": 5,
+  "beta": 1.35,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = FY2025 fee-related operations net cash flow (FRE cash flow) EUR 1,073m, less a 5% prudence haircut as an SBC/equity-alignment proxy (EQT does not disclose a GAAP SBC line; employee alignment runs mainly via carried interest and co-investment) = EUR ~1,019m. FRE cash flow chosen over reported net income (EUR 1,322m) because it isolates the durable, recurring fee engine and excludes lumpy carried-interest/investment income. Converted at EUR/SEK 10.99.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 180.7,
+   "prob": 0.38,
+   "note": "Fundraising headwinds and slow PE exit/DPI environment persist. FRE owner-earnings CAGR 8% yrs 1-5 declining to 4% yrs 6-10, terminal g 2.5%. Not apocalyptic: FAUM stable, Coller still accretive, but exit recovery delayed."
+  },
+  "base": {
+   "iv_per_share": 259.4,
+   "prob": 0.47,
+   "note": "Coller Capital (+EUR 30bn FAUM secondaries) and BPEA IX (USD 15.6bn hard cap, +40% vs predecessor) scale FRE; record evergreen/private-wealth inflows continue. CAGR 13% yrs 1-5 declining to 5%, terminal g 3.0%."
+  },
+  "optimista": {
+   "iv_per_share": 351.7,
+   "prob": 0.15,
+   "note": "Private-wealth/evergreen inflection plus exit-market recovery lifts realizations and fundraising velocity. CAGR 17% declining to 6%, terminal g 3.5%."
+  }
+ },
+ "iv_dcf_weighted": 243.4,
+ "fwd_multiple_now": 20.64,
+ "fwd_multiple_5y_avg": 28,
+ "fair_multiple": 21,
+ "multiple_metric": "Forward P/E",
+ "multiple_rationale": "Anchored to the ~5y average forward P/E of ~28x with a 25% structural haircut to ~21x. The haircut reflects a real, partly structural sector de-rating of alternative asset managers (rate normalization away from ZIRP, slower exit/DPI realizations, persistently lower fundraising appetite) — the 30-50x post-IPO TTM multiples were a ZIRP-era anomaly unlikely to fully return. It is not purely cyclical, so a hairout (not full mean-reversion) is warranted. Applied to implied FY-next EPS of ~13.0 SEK (268.30 / 20.64) gives iv_multiple ~273 SEK. Notably the current fwd P/E (20.6x) already sits below even the haircut fair multiple, signaling the franchise is being priced for a fear/rotation de-rating rather than fundamental impairment.",
+ "iv_multiple": 273,
+ "weight_dcf": 0.5,
+ "weight_multiple": 0.5,
+ "reconciled_iv": 258.2,
+ "structural_change": "Sector-wide de-rating of alternative asset managers is partly structural (post-ZIRP multiple compression, slower exit/DPI environment), warranting a permanent haircut to the historical multiple — but NOT a franchise impairment. EQT's franchise metrics are intact/improving: FAUM EUR ~142bn, BPEA IX closed at hard cap (+40% vs predecessor), Coller Capital acquisition adds ~EUR 30bn secondaries FAUM (accretive, expected close Q3 2026), record evergreen/private-wealth net inflows (EUR 1.0bn Q1), adj EBITDA margin ~60%, ND/EBITDA 0.9x. The ~30% drop from 52w high and ~52% from ATH is classified fear_rotation with a mild cyclical (realizations) component, not structural deterioration.",
+ "sanity_notes": "Mcap sanity: 268.30 SEK x 1.170bn shares outstanding (IR: 1,169,938,099 ex-treasury, 12 May 2026) = ~314B SEK = ~33.3B USD at USD/SEK 9.44; StockAnalysis reports 320.78B SEK (~34B USD, on ~1.196bn incl. partial treasury) — both reconcile to the known ~$33-34B scale. Magnitude check: reconciled IV 258 SEK = 96% of price, comfortably within the 30-300% band. DCF (243) and multiple anchor (273) bracket the price tightly. Currency discipline: price and ALL IVs in SEK; owner earnings derived in EUR (functional reporting currency) and converted at EUR/SEK 10.99; net debt EUR 1,448m. KEY CAVEAT: EQT discloses no GAAP SBC line (alignment via carry/co-invest), so the 5% SBC proxy haircut and fwd_pe_5y_avg (~28x, aggregator-estimated, not a clean primary series) are the softest inputs — true SBC dilution would require the full audited annual report. Beta 1.35 reflects high cyclicality (fundraising/exit-dependent), justifying the balanced 0.50/0.50 DCF/multiple weighting rather than a compounder-style multiple tilt. Conclusion: at ~268 SEK the stock trades close to a conservatively reconciled fair value (~258 SEK), i.e. roughly fairly valued to slightly rich on conservative assumptions, with meaningful upside in the base/optimista exit-recovery scenarios."
+}

@@ -1,0 +1,364 @@
+{
+  "expediente": "HOYCY / HOYA CORPORATION (7741.T) — eje PRECIO",
+  "fecha_analisis": "2026-07-28 (tape viva de Tokio 14:19 JST)",
+  "analista": "valorador (eje precio). La calidad esta CONGELADA y no se toca. La etiqueta no se reclasifica hacia arriba nunca.",
+  "divisa_reporte": "USD",
+  "moneda_funcional": "JPY",
+  "unidades": "JPY en millones salvo indicacion expresa; USD en millones al tipo declarado (163,75 JPY/USD)",
+
+  "aviso_de_sustitucion": {
+    "que": "Este expediente SUSTITUYE a la version escrita el 2026-07-27 en esta misma ruta.",
+    "por_que": "Aquella corrio contra una etiqueta congelada distinta (ULTRA-C, MoS exigido 18%). El encargo de hoy congela MUY_BUENA con MoS exigido del 30% para abrir, y la ficha de especie cambio (reinversion 12% de ventas frente al 9,2% anterior; ROIIC ex-margen 25,6% frente a 25,7%).",
+    "que_he_rehecho_yo_desde_cero": "Todas las cifras del filing (verificadas linea a linea contra el tanshin descargado hoy), el precio (vivo, no heredado), la BETA (medida por mi con una regresion propia — el hueco mayor del expediente anterior), el ERP y la prima pais (tabla de Damodaran consultada hoy), la g defendible (construccion distinta: decaimiento de la tuberia de proyectos) y todos los escenarios."
+  },
+
+  "identificacion": {
+    "ticker_encargado": "HOYCY",
+    "HUECO_DE_TICKER": "El simbolo 'HOYCY' NO EXISTE. Busqueda en IBKR ('HOYA') devuelve siete lineas y ninguna es HOYCY: 7741 en TSEJ (ordinaria, primaria, contrato 14017564), HOCPY en PINK (ADR patrocinado, contrato 47650624), HYB en FWB2, 7741N en MEXI, mas tres ETF/hoteles sin relacion. Trabajo sobre la ordinaria 7741 y cruzo con HOCPY.",
+    "adr": {
+      "ticker_real": "HOCPY (OTC PINK, ADR patrocinado)",
+      "ratio_ads": "1 ADR = 1 accion ordinaria",
+      "etiqueta_ratio": "INFERENCIA, con evidencia de paridad de precio: HOCPY cerro el 2026-07-27 en 148,80 USD; la ordinaria cerro ese dia en 24.725 JPY = 150,99 USD a 163,75. Ratio implicito 0,986:1, es decir 1:1 con un descuento del 1,4% por iliquidez. No he localizado el documento del depositario.",
+      "consecuencia": "No hay ajuste de ADS que hacer en la capitalizacion. Una ordinaria = un ADR."
+    },
+    "cik_sec": "0001297430 — INACTIVO",
+    "verificacion_sec": "HECHO — https://data.sec.gov/submissions/CIK0001297430.json devuelve name 'HOYA CORP' con tickers[] y exchanges[] VACIOS y el ultimo filing con fecha 2007-11-14 (SUPPL, documento en papel). HOYA no presenta ante la SEC desde 2007. Por eso la valoracion se hace con el tanshin y la presentacion de resultados de su web de RI — que es exactamente lo que el encargo autoriza."
+  },
+
+  "etiqueta_congelada": {
+    "etiqueta": "MUY_BUENA (4 puertas pasadas)",
+    "regla": "No reclasificable al alza por el valorador. Si al abrir el precio me pareciera que 'en realidad si es ULTRA', eso no seria un hallazgo sino la contradiccion madre buscando otra puerta. Ni una cifra de este expediente toca la calidad.",
+    "especie_g2": "reinversion 12% de ventas · ROIIC bruto 24,5% · ROIIC ex-margen 25,6%",
+    "mos_exigido_pct": 30.0,
+    "mos_exigido_motivo": "MUY_BUENA fuera de cartera -> umbral de ABRIR = 30%. Felipe NO la tiene, asi que no aplica el escalon de CARGAR (que la llevaria al 40%).",
+    "mecanismo_congelado": "Vidrio de precision que casi nadie sabe fabricar — mask blanks EUV y el unico sustrato de vidrio para HDD del mundo — cobrado al 30,1% de margen EBIT sin apenas capital, ROIC 45,2%, devengo negativo los nueve anos de la ventana, caja neta, reinversion del 12% de las ventas y devolucion de mas del 100% del FCF. Maquina de caja, no reinvertidora.",
+    "eslabon_debil_congelado": "El foso esta DECLARADO pero no AUDITADO: HOYA no publica ni una sola magnitud fisica, asi que su poder de precio es incomprobable (G3 NO_MEDIBLE). Y en la unica contraccion severa (2008-2010) recorto capex un 26%, dejo la I+D plana y deterioro 30.767 M sobre Pentax, sin cita de dos rivales recortando capacidad mientras ella la ampliaba (G4 NO).",
+    "por_que_me_ata_las_manos_como_valorador": "Sin unidades fisicas no puedo descomponer el crecimiento en precio x volumen. Todo lo que sigue trabaja a nivel de ingresos agregados. Consecuencia directa y no cosmetica: NO puedo suscribir expansion de margen en la proyeccion, y por eso uso el ROIIC EX-MARGEN y no el bruto."
+  },
+
+  "fuentes_primarias": [
+    {
+      "id": "TANSHIN-FY25",
+      "documento": "HOYA CORPORATION — Quarterly Report, 4th Quarter (3 meses a 31-mar-2026) y ejercicio completo (1-abr-2025 a 31-mar-2026), IFRS. 22 paginas.",
+      "url": "https://ssl4.eir-parts.net/doc/7741/tdnet/2797234/00.pdf",
+      "publicado": "2026-04-30",
+      "descargado_por_mi": "2026-07-28, HTTP 200, 710.927 bytes, texto extraido con pdftotext -layout",
+      "uso": "TODAS las cifras contables de este expediente salen de aqui y las he leido yo en el PDF: cuenta de resultados (p.17), balance (pp.14-15), estado de flujos de caja completo del ejercicio (p.16), segmentos (pp.18-19), datos suplementarios con el desglose del efecto divisa (p.21)."
+    },
+    {
+      "id": "PRES-FY25Q4",
+      "documento": "HOYA — Financial Results Presentation FY25 Q4, incluye 'Capital Policy Update'",
+      "url": "https://ssl4.eir-parts.net/doc/7741/tdnet/2797232/00.pdf",
+      "publicado": "2026-04-30",
+      "descargado_por_mi": "2026-07-28, HTTP 200, 3.467.374 bytes",
+      "uso": "Planes de capacidad (p.13 EUV Singapur, p.15 HDD Vietnam) y politica de capital (pp.18-21). Es lo que sostiene mi supuesto de capex del ejercicio en curso y mi anclaje de reinversion."
+    },
+    {
+      "id": "AR-FY25",
+      "documento": "HOYA — Consolidated Financial Statements, ejercicio terminado el 31-mar-2026 (auditadas)",
+      "url": "https://www.hoya.com/en/investor/ifrs/",
+      "publicado": "2026-07-21 (confirmado por mi en la pagina de RI el 2026-07-28)",
+      "uso": "Es el ULTIMO EJERCICIO AUDITADO. Las magnitudes que uso coinciden con el tanshin, que es de donde las he tomado y verificado."
+    },
+    {
+      "id": "DAMODARAN-CTRY",
+      "documento": "Damodaran — Country Default Spreads and Risk Premiums",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/ctryprem.html",
+      "fecha_de_la_tabla": "Last updated: January 5, 2026",
+      "consultada_por_mi": "2026-07-28",
+      "uso": "Prima de mercado madura y primas pais."
+    }
+  ],
+
+  "nota_de_calendario": {
+    "ejercicio_fiscal": "HOYA cierra el 31 de marzo. La casa llama 'FY25' al ejercicio abril-2025 / marzo-2026.",
+    "ultimo_auditado": "12 meses terminados el 31-mar-2026. Publicado como estados auditados el 2026-07-21.",
+    "ejercicio_en_curso": "FY26 = abril-2026 / marzo-2027.",
+    "HUECO_MAYOR_DE_LA_BASE_EN_CURSO": "A 2026-07-28 NO hay ni un solo trimestre del ejercicio en curso publicado (el 1T cerro el 30-jun-2026 y aun no ha salido) y HOYA NO PUBLICA GUIA. El indice del tanshin lista una seccion '3. Projected Results for the Full Year: p.22' que en el documento no contiene proyeccion numerica alguna. Por tanto la base 'en curso' que exige el encargo NO SE PUEDE ANUALIZAR con trimestres publicados ni con guia: la he CONSTRUIDO yo. Va etiquetada SUPUESTO y con sensibilidad completa. Declararlo vale mas que rellenarlo."
+  },
+
+  "precio_y_capitalizacion": {
+    "precio_ordinaria_jpy": 23740.0,
+    "fuente_precio": "HECHO — IBKR, contrato 14017564 (7741, TSEJ), ultima operacion 23.740 JPY, ts 1785215951 = 2026-07-28 ~14:19 JST, sesion de tarde de Tokio, halted=false. Cierre anterior (27-jul) 24.725. Variacion del dia -985 JPY = -3,98%.",
+    "verificacion_cruzada_del_precio": "El cierre del 27-jul de 24.725 JPY que da IBKR coincide EXACTAMENTE con el ultimo cierre semanal de la serie de Yahoo Finance para 7741.T que descargue para medir la beta. Dos fuentes independientes, misma cifra.",
+    "tipo_de_cambio_usdjpy": 163.75,
+    "fuente_fx": "Dos fuentes que coinciden: IBKR IDEALPRO USD (contrato 15016059) devuelve prior close 163,75 — el endpoint NO da operacion viva; y TradingEconomics via busqueda web da 163,757 el 2026-07-28. Etiqueta INFERENCIA por no ser documento primario, pero con doble confirmacion.",
+    "precio_usd": 144.98,
+    "triangulacion_del_precio_en_usd": "144,98 (ordinaria viva convertida a 163,75) · 148,80 (cierre de HOCPY el 27-jul, ADR) · 150,99 (cierre de Tokio del 27-jul convertido). Adopto 144,98 como central por ser el dato mas fresco y el de la linea liquida.",
+    "contexto_52_semanas": {
+      "max_52s_jpy": 30400.0,
+      "min_52s_jpy": 17248.7,
+      "max_13s_jpy": 29700.0,
+      "min_13s_jpy": 23910.0,
+      "apertura_52s_jpy": 19267.0,
+      "variacion_en_el_anio_pct": 0.86,
+      "lectura": "El precio de hoy esta un 21,9% por debajo del maximo de 52 semanas y ROMPIENDO POR ABAJO el minimo de 13 semanas (23.910). Ha corregido con fuerza. Corregir no es estar barato: como se vera, sigue descontando un 8,9% de crecimiento a diez anos."
+    },
+    "volatilidad_anual_historica_pct": 32.8,
+    "fuente_volatilidad": "HECHO — IBKR historical_vol 30 dias: 2,067% diario, 32,82% anualizado. Mi propia regresion sobre cinco anos de cierres semanales da 30,3%: coinciden.",
+    "rentabilidad_por_dividendo_pct": 1.19,
+    "acciones_en_circulacion_millones": 335.488796,
+    "fuente_acciones": "HECHO — TANSHIN-FY25 p.15: 'Total number of issued shares 335.489' (en miles) a 31-mar-2026, frente a 342.758 el ano anterior. Es la cifra ex-autocartera.",
+    "movimiento_posterior_de_acciones": "HECHO — TANSHIN-FY25 p.11: el consejo acordo cancelar 3.576.300 acciones de autocartera (1,07% del capital), dejando el total emitido tras la cancelacion en 334.838.020 acciones. NO lo incorporo: uso el numero de acciones y la caja neta AMBOS a 31-mar-2026, que es la unica combinacion internamente coherente (una recompra baja acciones y baja caja a la vez; mezclar fechas fabrica valor de la nada).",
+    "capitalizacion_jpy_mm": 7964504,
+    "capitalizacion_usd_mm": 48638,
+    "deuda_bruta_jpy_mm": 42241,
+    "detalle_deuda": "HECHO — TANSHIN-FY25 p.15: 'Interest-bearing long-term debt' 31.517 + 'Interest-bearing short-term debt' 10.724 = 42.241 a 31-mar-2026 (frente a 28.007 + 9.276 = 37.283 el ano anterior). Incluye pasivos por arrendamiento bajo NIIF 16.",
+    "caja_jpy_mm": 574092,
+    "detalle_caja": "HECHO — TANSHIN-FY25 p.15 y p.16: efectivo y equivalentes 574.092 a 31-mar-2026 (533.967 el ano anterior). El aumento de 40.125 se explica casi entero por 30.524 de efecto tipo de cambio: la caja esta mayoritariamente en dolares y el yen se debilito.",
+    "deuda_neta_jpy_mm": -531851,
+    "deuda_neta_usd_mm": -3248,
+    "DISCREPANCIA_CON_LA_FICHA_DE_CALIDAD": "La ficha congelada cita caja neta de 536.602 M. Yo calculo 531.851. La diferencia son exactamente 4.751 M = la linea 'Other short-term financial assets' del balance. No corrijo la ficha (no me toca) ni la adopto: uso la definicion estricta (deuda con coste menos efectivo y equivalentes), que es la conservadora. Impacto en el valor por accion: 14 JPY, 0,09 USD. Irrelevante.",
+    "caja_neta_por_accion": "1.585 JPY = 9,68 USD, el 6,7% de la capitalizacion.",
+    "ev_jpy_mm": 7432653,
+    "ev_usd_mm": 45390,
+    "multiplos_de_hoy": {
+      "PER_sobre_beneficio_auditado": 31.5,
+      "EV_sobre_EBIT_ordinario": 26.1,
+      "EV_sobre_owner_earnings_capex_total_auditado": 36.9,
+      "EV_sobre_owner_earnings_mantenimiento_auditado": 35.5,
+      "advertencia": "El PER de 31,5x usa un beneficio de 253.085 que esta INFLADO por partidas no recurrentes (ver owner_earnings). Los multiplos sobre owner earnings —36,9x— son los honestos, y son los que hay que mirar."
+    }
+  },
+
+  "candado_B_wacc_de_mercado": {
+    "principio": "El WACC sale del mercado, bottom-up. NO se hereda de ningun tier de calidad. Que la etiqueta sea MUY_BUENA y no ULTRA no sube ni un punto basico este WACC, igual que ser ULTRA no lo habria bajado.",
+    "moneda_del_descuento": "JPY. Descuento flujos en yenes con coste de capital en yenes y convierto el valor por accion resultante a USD al contado. NO cuento la depreciacion del yen como crecimiento.",
+
+    "tasa_libre_riesgo_pct": 2.75,
+    "fuente_tasa_libre_riesgo": "INFERENCIA — bono del Estado japones a 10 anos. Lectura localizada: 2,77% el 2026-07-10 (TradingEconomics, via busqueda web el 2026-07-28). Intente worldgovernmentbonds.com para una lectura mas fresca y la pagina devolvio los campos vacios ('-.---%'). Adopto 2,75% central, banda 2,60%-3,00%. HUECO DECLARADO: no tengo una cotizacion del JGB del dia de hoy.",
+
+    "prima_mercado_pct": 4.23,
+    "fuente_prima_mercado": "HECHO — DAMODARAN-CTRY, tabla fechada 5-ene-2026, consultada por mi el 2026-07-28. Es la prima de los mercados maduros (los paises Aaa —Alemania, Singapur— figuran con ERP total de 4,23% y prima pais 0,00%).",
+
+    "prima_pais_pct": 0.8,
+    "fuente_prima_pais": "INFERENCIA construida por mi sobre HECHOS. Regla del encargo: la prima pais es la del riesgo de ACTIVO, no la del domicilio fiscal. Ingresos por localizacion del cliente (HECHO, TANSHIN-FY25 p.20): Japon 20,4%, America 18,2%, Europa 20,6%, Asia/Oceania 39,2%, Otros 1,6%. Primas pais de la tabla de Damodaran: Japon 0,91%, EEUU 0,23%, Alemania/Singapur 0,00%, Francia 0,78%, China 0,91%, Tailandia 2,07%, Vietnam 3,90%. Ponderando: 0,204x0,91 + 0,182x0,25 + 0,206x0,40 + 0,392x1,10 + 0,016x3,00 = 0,79%. Adopto 0,80%, banda 0,60%-1,00%.",
+    "erp_total_aplicada_pct": 5.03,
+
+    "beta": {
+      "beta_central_adoptada": 0.95,
+      "banda": "0,70 – 1,10",
+      "fuente": "MEDIDA POR MI. Regresion de rendimientos logaritmicos SEMANALES de 7741.T contra el Nikkei 225, cinco anos (2021-07-25 a 2026-07-26), 261 observaciones, series de cierres descargadas de la API publica de Yahoo Finance el 2026-07-28. Resultado: beta 0,951, error estandar 0,076, IC 95% 0,80-1,10, correlacion 0,614, R2 0,378. Volatilidad anualizada HOYA 30,3%, Nikkei 19,6%.",
+      "etiqueta": "INFERENCIA — la serie de precios viene de un agregador (Yahoo), no de un documento primario. Lo compenso publicando el metodo entero y el error estandar para que sea reproducible, y verificando que el ultimo cierre de esa serie (24.725) coincide con el de IBKR.",
+      "ventanas_alternativas_medidas": {
+        "5_anios_261_obs": "beta 0,951 (EE 0,076) · corr 0,614 · R2 0,378",
+        "3_anios_156_obs": "beta 0,802 (EE 0,093) · corr 0,570 · R2 0,325",
+        "2_anios_104_obs": "beta 0,702 (EE 0,119) · corr 0,503 · R2 0,253",
+        "1_anio_52_obs": "beta 0,489 (EE 0,146) · corr 0,429 · R2 0,184"
+      },
+      "por_que_5_anios_y_no_otra": "Porque es la ventana estandar y la unica con error estandar tolerable (0,076). Las ventanas cortas caen a 0,49-0,70 pero con errores estandar de 0,12-0,15 e IC que llegan a incluir el 0,95: no son una beta distinta, son la misma beta medida peor. Adopto 0,95 y uso 0,70 (la de dos anos) como suelo de la banda para no esconder que las lecturas recientes son mas bajas.",
+      "lo_que_esto_ARREGLA_del_expediente_anterior": "La pasada del 27-jul declaraba la beta como hueco no medible y adoptaba 0,95 a ojo con una banda de 0,60-1,25. La medicion propia confirma el 0,95 casi exactamente (0,951) y estrecha la banda de 0,65 puntos a 0,40. El WACC deja de ser el parametro que se lleva por delante la conclusion."
+    },
+
+    "coste_de_la_deuda": {
+      "pre_impuestos_pct": 3.3,
+      "derivacion": "HECHO — TANSHIN-FY25 p.16, estado de flujos: 'Interests paid' 1.315 M en el ejercicio. Deuda con coste media = (37.283 + 42.241)/2 = 39.762 M. Coste real = 1.315/39.762 = 3,31%. Control de coherencia: 'Finance costs' en la cuenta de resultados es 1.991, que sobre la misma deuda media daria 5,0%, pero esa linea incluye partidas ajenas a la deuda; me quedo con el efectivo pagado.",
+      "post_impuestos_pct": 2.54,
+      "tipo_impositivo_efectivo_pct": 23.26,
+      "fuente_tipo_impositivo": "HECHO — TANSHIN-FY25 p.17: 'Income tax expense' 76.216 sobre 'Profit before tax' 327.668 = 23,26%."
+    },
+
+    "ponderaciones": {
+      "peso_equity_pct": 99.47,
+      "peso_deuda_pct": 0.53,
+      "nota": "Ponderado a valor de mercado: equity 7.964.504 (capitalizacion viva) frente a deuda 42.241 (valor contable, indistinguible del de mercado a este tamano). El peso de la deuda es decorativo: mover el coste de la deuda entre el 2% y el 6% cambia el WACC en menos de 2 puntos basicos."
+    },
+
+    "ke_central_pct": 7.53,
+    "wacc_central_pct": 7.5,
+    "wacc_rango": "6,0% – 8,7%",
+    "wacc_detalle_rango": "BAJO: Rf 2,60 + beta 0,70 x ERP 4,83 = Ke 5,98 -> WACC 5,96. CENTRAL: Rf 2,75 + beta 0,95 x ERP 5,03 = Ke 7,53 -> WACC 7,50. ALTO: Rf 3,00 + beta 1,10 x ERP 5,23 = Ke 8,75 -> WACC 8,72.",
+    "salvedad_metodologica_declarada": "Mezclo un Rf en yenes con una prima de mercado de Damodaran construida en dolares. Es la practica estandar (la prima de riesgo es aproximadamente invariante a la moneda en terminos reales y el diferencial de inflacion viaja en el Rf), pero es un supuesto y lo digo."
+  },
+
+  "owner_earnings": {
+    "definiciones": {
+      "punto_de_partida": "Flujo de caja de explotacion MENOS los ingresos financieros que genera la caja (intereses cobrados 13.547 + dividendos cobrados 402 = 13.949), MAS el escudo fiscal de esos ingresos (13.949 x 23,26% = 3.244). Por que: la caja neta de 531.851 la sumo aparte al valor del negocio; si ademas dejara dentro del flujo la renta que produce, la contaria dos veces. CFO operativo = 278.446 - 13.949 + 3.244 = 267.741.",
+      "a_mantenimiento": "CFO operativo MENOS el capex de mantenimiento aproximado por la depreciacion y amortizacion. El exceso de capex sobre la D&A es inversion DISCRECIONAL y NO se resta. Esto es lo que impide penalizar a una reinvertidora por reinvertir.",
+      "b_capex_total": "CFO operativo MENOS todo el capex en efectivo MENOS la amortizacion del principal de arrendamientos (que bajo NIIF 16 se va a financiacion pero es coste de usar activos). Flujo de caja libre puro.",
+      "por_que_no_resto_arrendamientos_en_la_version_a": "Porque la D&A ya incluye la amortizacion del activo por derecho de uso. Restar D&A y ademas el principal contaria el mismo coste dos veces."
+    },
+
+    "base_ultimo_auditado": {
+      "ejercicio": "12 meses terminados el 31-mar-2026 (auditado; estados publicados el 2026-07-21)",
+      "insumos_jpy_mm_TODOS_HECHO_TANSHIN_FY25": {
+        "ventas": 947749,
+        "ventas_anio_anterior": 866032,
+        "crecimiento_nominal_pct": 9.4,
+        "crecimiento_a_tipo_constante_pct": 8.0,
+        "beneficio_antes_de_impuestos": 327668,
+        "beneficio_atribuible_a_los_propietarios": 253085,
+        "beneficio_operativo_ordinario_definido_por_la_empresa": 285241,
+        "margen_operativo_ordinario_pct": 30.1,
+        "flujo_de_caja_de_explotacion": 278446,
+        "depreciacion_y_amortizacion": 58218,
+        "capex_en_efectivo_PPE": 56581,
+        "capex_devengado_declarado": 65711,
+        "amortizacion_principal_arrendamientos": 9700,
+        "intereses_cobrados": 13547,
+        "dividendos_cobrados": 402,
+        "intereses_pagados": 1315,
+        "impuestos_pagados_netos_de_devoluciones": 63236,
+        "I_mas_D": 36291,
+        "recompras_de_acciones": 171970,
+        "dividendos_pagados": 81903
+      },
+      "cfo_operativo_jpy_mm": 267741,
+      "oe_mantenimiento_jpy_mm": 209524,
+      "oe_mantenimiento_usd_mm": 1279.5,
+      "oe_capex_total_jpy_mm": 201461,
+      "oe_capex_total_usd_mm": 1230.3,
+      "distancia_entre_las_dos_versiones_pct": 4.0,
+      "aritmetica": "OE(a) = 278.446 - 13.949 + 3.244 - 58.218 = 209.524. OE(b) = 278.446 - 13.949 + 3.244 - 56.581 - 9.700 = 201.461.",
+      "contraste_con_el_FCF_que_publica_la_empresa": "HOYA declara 'Free cash flow 270.860' (TANSHIN p.13) definido como CFO + flujo de inversion. Ese numero esta halagado: el flujo de inversion de -7.586 incorpora 41.135 de 'Proceeds from sales of investment' y 5.947 de venta de una filial, que son desinversiones, no flujo del negocio. Mi 201.461 es la cifra honesta y esta un 26% por debajo de la que publica la casa.",
+      "advertencia_sobre_el_beneficio_contable": "HECHO — TANSHIN-FY25 p.17 y p.21: 'Other income' salta de 2.955 a 34.213 (+1.058%) y en la conciliacion de la propia empresa entre beneficio antes de impuestos y beneficio operativo ordinario aparece una linea 'Other' de 29.401 M que no existia el ano anterior. Ademas en el estado de flujos 'Others' resta -28.776 al reconstruir la caja, confirmando que es una plusvalia sin caja. Traducido: unos 29.400 M del beneficio de 327.668 —el 9%— son papel. Por eso valoro sobre owner earnings y no sobre beneficio."
+    },
+
+    "base_ejercicio_en_curso": {
+      "ejercicio": "FY26 = abril-2026 / marzo-2027",
+      "SALVEDAD_MAYOR": "Ni un trimestre publicado ni guia de la empresa. Esta base es CONSTRUIDA POR MI. Etiqueta: SUPUESTO sobre HECHOS. La reporto porque el encargo la exige y porque la distancia con la base auditada es informacion real, pero quien lea esto debe saber que no hay un solo dato de FY26 detras.",
+      "construccion": {
+        "ventas": "1.033.000 = 947.749 x 1,09. SUPUESTO. Anclajes: el 4T (ene-mar 2026) crecio un 14,5% interanual en nominal (216.756 -> 248.130, HECHO p.1), pero el crecimiento del ejercicio a tipo constante fue del 8,0% (HECHO p.21: de 81.718 M de aumento de ventas, 12.073 son divisa y 69.644 son negocio). Tomo +9% como punto medio entre la inercia del 4T y el organico del ejercicio. NO anualizo el 4T por cuatro (992.520) porque el 4T es estacionalmente el trimestre grande.",
+        "flujo_de_caja_de_explotacion_operativo": "1.033.000 x 28,25% (la conversion CFO operativo/ventas del ejercicio auditado) = 291.825.",
+        "depreciacion_y_amortizacion": "66.000. Anclaje: la D&A del 4T fue 16.458, un 29,8% mas que el ano anterior (HECHO p.8). x4 = 65.832. La base de activos se esta acelerando.",
+        "capex_total": "90.000 — SUPUESTO, y es el supuesto que mas mueve esta base. Punto de partida: 56.581 en efectivo el ejercicio auditado. Escalones comprometidos POR ESCRITO (HECHO, PRES-FY25Q4): nueva planta de blanks EUV en Singapur, inversion total ~42.000 M, obra empieza EN FY26 y produccion en masa en FY28 (p.13); nueva fabrica de sustratos de HDD en Vietnam, fase 1 ~50.000 M en expansion por fases (p.15). Total anunciado ~92.000 M repartido en unos tres anos = ~30.000/ano encima del capex corriente. 60.000 + 30.000 = 90.000.",
+        "amortizacion_principal_arrendamientos": "10.000"
+      },
+      "oe_mantenimiento_jpy_mm": 225825,
+      "oe_mantenimiento_usd_mm": 1379.1,
+      "oe_capex_total_jpy_mm": 191825,
+      "oe_capex_total_usd_mm": 1171.5,
+      "distancia_entre_las_dos_versiones_pct": 17.7,
+      "sensibilidad_al_supuesto_de_capex": [
+        {"capex_jpy_mm": 65000, "oe_capex_total_jpy_mm": 216825, "oe_usd_mm": 1324, "comentario": "sin escalon, solo inflacion del capex corriente"},
+        {"capex_jpy_mm": 80000, "oe_capex_total_jpy_mm": 201825, "oe_usd_mm": 1233, "comentario": "escalon a medias"},
+        {"capex_jpy_mm": 90000, "oe_capex_total_jpy_mm": 191825, "oe_usd_mm": 1171, "comentario": "CENTRAL adoptado"},
+        {"capex_jpy_mm": 110000, "oe_capex_total_jpy_mm": 171825, "oe_usd_mm": 1049, "comentario": "las dos plantas se solapan y se aceleran"}
+      ]
+    },
+
+    "LECTURA_DE_LA_DISTANCIA_ENTRE_BASES": "Esta es la informacion, no el ruido, y es el hallazgo del expediente. En el ejercicio AUDITADO la brecha entre owner earnings de mantenimiento (209.524) y flujo de caja libre puro (201.461) es de solo el 4,0%: HOYA apenas invirtio por encima de la depreciacion — capex devengado 65.711 contra D&A 58.218, un exceso de 7.493 M, el 0,8% de las ventas. Era literalmente una maquina de caja en modo cosecha. En el ejercicio EN CURSO esa brecha se abre al 17,7%, porque Singapur y Vietnam empiezan a consumir. Traducido a la valoracion: HOYA esta pasando de maquina de caja (donde owner earnings ~ FCF y el multiplo se paga sobre caja realizada) a reinvertidora (donde el FCF cae mientras el activo se construye y el valor depende de que el ROIIC del ladrillo nuevo sea el prometido). El mercado esta pagando el multiplo de la primera con el perfil de flujos de la segunda. Ese desajuste es, en una frase, la tesis de precio."
+  },
+
+  "dcf_inverso": {
+    "pregunta": "Que crecimiento a 10 anos, con terminal del 3%, justifica EXACTAMENTE el precio de hoy al WACC que he calculado del mercado?",
+    "objetivo": "EV = 7.432.653 M JPY (capitalizacion 7.964.504 menos caja neta 531.851)",
+    "modelo": "flujo t=1..10 creciendo a g, valor terminal con g=3% perpetuo, todo descontado al WACC. Flujo base = owner earnings con capex TOTAL (el unico coherente con poner un valor terminal, porque a perpetuidad hay que reponer el activo entero).",
+    "resultados": {
+      "base_auditada": {"wacc_5_96": 3.76, "wacc_7_50_CENTRAL": 8.93, "wacc_8_72": 12.38},
+      "base_en_curso": {"wacc_5_96": 4.34, "wacc_7_50_CENTRAL": 9.55, "wacc_8_72": 13.01},
+      "control_con_oe_de_mantenimiento_al_wacc_central": {"auditada": 8.44, "en_curso": 7.51}
+    },
+    "g_implicita_auditado_pct": 8.9,
+    "g_implicita_encurso_pct": 9.6,
+    "lectura": "Al WACC central el mercado le esta pidiendo a HOYA entre un 8,9% y un 9,6% anual de crecimiento del flujo de caja libre durante DIEZ anos, y luego un 3% perpetuo. Contraste con la tasa base del propio negocio: el crecimiento de ventas del ultimo ejercicio a tipo constante fue del 8,0% y el del beneficio operativo ordinario a tipo constante fue del 11,0% (HECHO, TANSHIN p.21) — pero eso es crecimiento de BENEFICIO en un ano en que el capex estuvo dormido. El precio exige que el FLUJO DE CAJA LIBRE crezca al 9% durante una decada precisamente mientras la empresa entra en el mayor ciclo de capex de su historia reciente. Las dos cosas no caben en el mismo modelo. Nota adicional: incluso descontando el owner earnings de MANTENIMIENTO —la version generosa, la que perdona la inversion discrecional— el precio sigue exigiendo un 8,4%. No hay lectura del flujo que abarate esto."
+  },
+
+  "g_defendible": {
+    "metodo": "tasa de reinversion NETA sobre NOPAT x ROIIC EX-MARGEN (25,6%). Uso el ex-margen y no el bruto (24,5%) porque el bruto asume que la expansion de margenes se repite, y la ficha congelada dice que el poder de precio es NO_MEDIBLE: no puedo suscribir margen que no puedo auditar.",
+    "nopat_jpy_mm": 218894,
+    "nopat_derivacion": "Beneficio operativo ORDINARIO definido por la empresa 285.241 x (1 - 23,26%) = 218.894. Uso el ordinario y no el beneficio antes de impuestos para no capitalizar los ~29.400 M de plusvalia no recurrente.",
+    "anclajes": [
+      {
+        "anclaje": "reinversion NETA historica",
+        "calculo": "capex devengado 65.711 - D&A 58.218 = 7.493; mas variacion de circulante (existencias -2.025 liberan caja, deudores +18.622 la consumen, acreedores +2.489 la consumen) = 19.086; mas adquisiciones de filiales 1.723. Total 28.302 = 12,9% del NOPAT.",
+        "g_resultante_pct": 3.31,
+        "critica": "Es el SUELO. Refleja un ejercicio en que HOYA casi no invirtio por encima de la depreciacion. Proyectarlo diez anos seria asumir que Singapur y Vietnam no existen."
+      },
+      {
+        "anclaje": "reinversion neta CON la expansion comprometida por escrito",
+        "calculo": "28.302 + 30.667 (los ~92.000 M anunciados de Singapur y Vietnam repartidos en tres anos) = 58.969 = 26,9% del NOPAT.",
+        "g_resultante_pct": 6.9,
+        "critica": "Es el TECHO defendible. Y tiene fecha de caducidad: los 92.000 M son una tuberia de tres anos, no un compromiso perpetuo. Sostener el 6,9% durante diez anos exige que HOYA siga encontrando proyectos de 90.000 M cada tres anos indefinidamente. Ha encontrado varios (Laos, Vietnam, Singapur), pero eso es un historial, no un contrato."
+      },
+      {
+        "anclaje": "reinversion BRUTA del 12% de las ventas (la ficha de especie leida al pie de la letra)",
+        "calculo": "0,12 x 947.749 = 113.730 = 52,0% del NOPAT.",
+        "g_resultante_pct": 13.3,
+        "critica": "RECHAZADO, y explico por que para que nadie lo repita: mezcla reinversion BRUTA con un NOPAT del que ya se ha descontado la depreciacion. Cuenta el mantenimiento dos veces. Lo dejo escrito porque es el numero al que llega quien aplique la ficha literalmente, y porque es —sospechosamente— el unico anclaje de los tres que valida el precio de mercado. Cuando el unico calculo que justifica la compra es tambien el unico que esta mal, eso no es una coincidencia: es la senal."
+      }
+    ],
+    "g_defendible_pct": 5.5,
+    "banda_g": "3,5% – 7,0%",
+    "defensa": "5,5% central. Construccion: el 6,9% del anclaje comprometido es correcto para los proximos tres anos, pero al agotarse la tuberia la tasa revierte hacia el 3,3% historico salvo que aparezca otra ronda de proyectos. Ponderando tres anos visibles al 6,9% y siete anos revirtiendo hacia el 4,5%, sale ~5,3%; redondeo a 5,5% concediendole a HOYA el beneficio de la duda por su historial de expansion continua. Cruce independiente: el crecimiento organico de ventas a tipo constante fue del 8,0% el ultimo ejercicio, pero el crecimiento de VENTAS no es el crecimiento del FLUJO cuando el capex se dispara — y no puedo suscribir la expansion de margen que cerraria esa brecha porque G3 es NO_MEDIBLE. Advertencia de divisa: NO cuento la depreciacion del yen como crecimiento. Los 12.073 M de efecto divisa del ejercicio auditado son yenes nominales que para un inversor en dolares no son riqueza. Descuento en yenes con crecimiento a tipo constante y convierto al final.",
+    "diferencia_con_la_pasada_anterior": "La pasada del 27-jul defendio un 6,5% tomando el anclaje comprometido casi entero. Yo bajo a 5,5% por el argumento del decaimiento de la tuberia, que aquella no hizo. Que la conclusion no cambie de signo con ninguno de los dos numeros es, por si mismo, un dato tranquilizador sobre la robustez del veredicto."
+  },
+
+  "valoracion": {
+    "piso_de_resolucion": "No he medido el ruido propio de este proceso, asi que por regla se aplica una banda de +/-25% al valor intrinseco. NADA DE DECIMALES FALSOS: el valor de HOYA no es 'US$112,37', es 'entre 84 y 140 dolares'. Aviso adicional de honestidad: la dispersion real de los escenarios (WACC 5,96-8,72 y g 3,5-7,0) es MAYOR que ese +/-25% — el valor por accion se mueve entre 12.286 y 30.964 JPY, un factor de 2,5x. Lo que sigue son escenarios, no una cifra.",
+    "supuestos_comunes": "g 5,5% diez anos, terminal 3%, caja neta integra acreditada al accionista, 335,489 M de acciones, 163,75 JPY/USD.",
+    "escenarios": [
+      {"base": "auditada", "wacc_pct": 5.96, "valor_accion_jpy": 27455, "valor_accion_usd": 167.66, "mos_pct": 13.5},
+      {"base": "auditada", "wacc_pct": 7.5, "valor_accion_jpy": 18400, "valor_accion_usd": 112.37, "mos_pct": -29.0},
+      {"base": "auditada", "wacc_pct": 8.72, "valor_accion_jpy": 14700, "valor_accion_usd": 89.77, "mos_pct": -61.5},
+      {"base": "en curso", "wacc_pct": 5.96, "valor_accion_jpy": 26218, "valor_accion_usd": 160.11, "mos_pct": 9.5},
+      {"base": "en curso", "wacc_pct": 7.5, "valor_accion_jpy": 17596, "valor_accion_usd": 107.46, "mos_pct": -34.9},
+      {"base": "en curso", "wacc_pct": 8.72, "valor_accion_jpy": 14072, "valor_accion_usd": 85.94, "mos_pct": -68.7}
+    ],
+    "sensibilidad_a_g_al_wacc_central": [
+      {"g_pct": 3.5, "valor_usd_auditado": 97.07, "mos_auditado_pct": -49.3, "valor_usd_encurso": 92.89, "mos_encurso_pct": -56.1},
+      {"g_pct": 5.5, "valor_usd_auditado": 112.37, "mos_auditado_pct": -29.0, "valor_usd_encurso": 107.46, "mos_encurso_pct": -34.9},
+      {"g_pct": 7.0, "valor_usd_auditado": 125.54, "mos_auditado_pct": -15.5, "valor_usd_encurso": 120.0, "mos_encurso_pct": -20.8},
+      {"g_pct": 8.9, "comentario": "es la g que el mercado descuenta; por construccion el MoS aqui es 0%"}
+    ],
+    "sensibilidad_a_la_caja_acreditada": [
+      {"criterio": "caja neta integra (531.851) — lo que hago yo, es lo generoso", "valor_usd": 112.37, "mos_pct": -29.0},
+      {"criterio": "caja neta menos el circulante que la direccion reserva (160.000)", "valor_usd": 109.46, "mos_pct": -32.5},
+      {"criterio": "solo el exceso que la direccion admite tener de sobra (110.000)", "valor_usd": 104.69, "mos_pct": -38.5}
+    ],
+    "sensibilidad_al_capex_del_ejercicio_en_curso": [
+      {"capex_jpy_mm": 65000, "valor_accion_usd": 120.2, "mos_pct": -20.6},
+      {"capex_jpy_mm": 80000, "valor_accion_usd": 112.55, "mos_pct": -28.8},
+      {"capex_jpy_mm": 90000, "valor_accion_usd": 107.46, "mos_pct": -34.9},
+      {"capex_jpy_mm": 110000, "valor_accion_usd": 97.26, "mos_pct": -49.1}
+    ],
+    "central_auditado": {"valor_accion_usd": 112.37, "banda_piso_resolucion_usd": "84 – 140", "mos_pct": -29.0},
+    "central_en_curso": {"valor_accion_usd": 107.46, "banda_piso_resolucion_usd": "81 – 134", "mos_pct": -34.9},
+    "veredicto_de_precio": "NO. En NINGUN escenario con el WACC central se alcanza el 30% de margen de seguridad exigido; no se alcanza siquiera CERO. El MoS central es -29% sobre la base auditada y -35% sobre la base en curso. El unico rincon del espacio de parametros con MoS positivo (+13,5%) exige coger simultaneamente la beta de 0,70, el Rf de 2,60 y la prima pais de 0,60 — los tres extremos favorables a la vez — y aun asi se queda a menos de la mitad del umbral. Cuando la compra depende de coger el extremo bueno de los tres parametros a la vez, la respuesta no es 'depende': es NO. Nota de honestidad sobre el piso de resolucion: el precio de hoy (144,98) cae DENTRO de la banda de +/-25% del valor central auditado (84-140), rozando su borde superior. Es decir: no puedo afirmar con la resolucion que tengo que HOYA este 'sobrevalorada' en sentido fuerte. Puedo afirmar algo mas util y mas duro: NO PUEDO DEMOSTRAR EL 30% DE MARGEN, y sin ese margen no se abre."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 19.0,
+    "definicion_m_estrella": "19x owner earnings con capex TOTAL. Multiplo que acepto pagar, decidido en frio, sin barra de error porque no es una estimacion sino una decision.",
+    "como_lo_fijo": "El multiplo JUSTO que sale del propio modelo con g 5,5% y WACC 7,50% es 28,0x owner earnings. Aplicarle el 30% de margen exigido da 19,6x. Redondeo a la baja a 19x, el numero redondo inmediatamente inferior. Coherencia: los dos caminos —descontar flujos y aplicar el MoS al valor, o aplicar M* directamente al owner earnings— dan practicamente el mismo precio (79,36 frente a 78,66 USD). No es casualidad: es el mismo modelo mirado por los dos lados, y sirve de control aritmetico.",
+    "p_estrella_usd": 79.0,
+    "p_estrella_jpy": 12940,
+    "detalle_p_estrella": "Por multiplo: EV* = 19 x 201.461 = 3.827.759; + caja neta 531.851 = 4.359.610; / 335,489 M acciones = 12.995 JPY = 79,36 USD. Por descuento: valor central auditado 18.400 JPY x 0,70 = 12.880 JPY = 78,66 USD. Adopto 79 USD (12.940 JPY). Sobre la base EN CURSO el P* baja a 75,22 USD.",
+    "distancia_al_precio_de_hoy": "El precio de hoy (144,98 USD) esta un 83,5% por encima de P*. Dicho al reves: HOYA tendria que caer un 45,5% desde aqui para entrar. El minimo de 52 semanas (17.248,7 JPY = 105,33 USD) sigue estando un 33% por encima de P*: ni en el peor momento del ultimo ano estuvo comprable con este umbral."
+  },
+
+  "tir_esperada": {
+    "metodo": "Tasa de descuento que iguala el modelo al precio de hoy. Es lo que se lleva un comprador de hoy si los supuestos se cumplen. Sustituye a leer un MoS negativo grande como si fuera informacion: '-29%' no dice nada util; '6,4% anual durante diez anos' si.",
+    "en_yenes_a_10_anios": [
+      {"g_pct": 3.5, "tir_pct_auditado": 5.91, "tir_pct_en_curso": 5.78},
+      {"g_pct": 5.5, "tir_pct_auditado": 6.44, "tir_pct_en_curso": 6.28},
+      {"g_pct": 7.0, "tir_pct_auditado": 6.88, "tir_pct_en_curso": 6.7},
+      {"g_pct": 9.0, "tir_pct_auditado": 7.52, "tir_pct_en_curso": 7.32}
+    ],
+    "rango": "5,8% – 6,9% anual en yenes durante 10 anos; central 6,4% con la g defendible del 5,5%",
+    "nota_de_divisa": "En dolares el numero es aproximadamente el mismo. Por paridad de tipos, con el JGB al 2,75% y el bono estadounidense a 10 anos claramente por encima, el yen deberia apreciarse y eso sumaria a la TIR en dolares; pero el coste de capital exigido en dolares sube exactamente esa misma cantidad. Se cancelan.",
+    "lectura": "La TIR esperada (6,4%) esta POR DEBAJO del coste de capital que el propio mercado le pone a esta accion (7,5%). Y esta por debajo incluso en el escenario donde le concedo el 7,0% de crecimiento (6,9%). Traducido: comprar HOYA hoy es aceptar cobrar menos que el riesgo que se asume. No es una perdida esperada —es un negocio excelente— es una prima ya cobrada por otro. Un 6,4% anual a diez anos con una accion que tiene un 33% de volatilidad anual no es una asimetria; es aceptar riesgo de renta variable a cambio de rentabilidad de bono."
+  },
+
+  "trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "El detector busca un margen de seguridad GRANDE sobre un negocio cuyo motor se esta rompiendo. Aqui no hay MoS grande: hay MoS NEGATIVO. El diagnostico no es 'barata por una razon' sino 'cara'. Y el motor no se esta rompiendo: en el ejercicio auditado el segmento de Information Technology facturo 354.751 (+14,0%) con un margen operativo ordinario del 52,5% (HECHO, TANSHIN p.19); los blanks EUV crecieron por mezcla hacia nodos avanzados; los sustratos de HDD crecieron un 25% (a tipo constante +20%) con un SEGUNDO cliente anunciando un modelo de 11 discos de vidrio para el 2S-2026 y apuntando a 12 discos en 2027 (HECHO, PRES p.15); y la empresa acaba de comprometer ~92.000 M en capacidad nueva porque la demanda se lo pide. Eso es lo contrario de un motor roto.",
+    "el_riesgo_real_es_otro": "Es riesgo de PRECIO, con dos grietas que conviene tener fechadas. (1) MULTI-SOURCING EN EUV: si un segundo proveedor cualifica blanks EUV, el peaje deja de ser peaje y el 52,5% de margen del segmento es exactamente lo que se comprime. Es el escenario que el precio de hoy prohibe. (2) LA CAJA NO ES DEL ACCIONISTA COMO YO LA HE CONTADO: la direccion define por escrito (PRES pp.19-21) su nivel optimo de caja neta como 160.000 M de circulante mas un 'shared pool' de 300.000 M para M&A y contingencias, y admite un exceso de solo ~110.000 M sobre los ~570.000 actuales. Yo acredito la caja neta integra al accionista, que es la lectura generosa; si se acredita solo el exceso que la propia empresa reconoce, el valor baja de 112,37 a 104,69 USD y el MoS empeora de -29% a -38,5%. Un fondo de 300.000 M para M&A merece mas escrutinio del que cabe en un expediente de precio.",
+    "lo_que_habria_que_ver_para_que_esto_cambiase": "No un cambio de opinion sobre la calidad —la calidad esta congelada— sino un precio. HOYA entra en zona de compra con este umbral por debajo de ~12.940 JPY / ~79 USD. Alternativamente, entra si aparece evidencia auditable de poder de precio (unidades fisicas, contratos con escalada, take-or-pay) que permita levantar G3 de NO_MEDIBLE — pero eso es trabajo del eje calidad, no mio, y no lo puedo usar yo para bajarme el umbral."
+  },
+
+  "huecos": [
+    "El ticker HOYCY no existe. La linea real es HOCPY (OTC PINK). El ratio 1 ADR = 1 ordinaria es INFERENCIA por paridad de precio (HOCPY 148,80 frente a 150,99 de la ordinaria convertida); no he localizado el contrato del depositario.",
+    "BASE EN CURSO SIN NINGUN DATO REAL: cero trimestres de FY26 publicados a 2026-07-28 y HOYA no publica guia. La seccion 'Projected Results for the Full Year' del tanshin no contiene proyeccion numerica. Toda la base 'en curso' es construccion mia (SUPUESTO), incluidos los +9% de ventas y los 90.000 M de capex.",
+    "La beta es MEDIDA POR MI pero sobre precios de un agregador (Yahoo Finance), no de un documento primario: INFERENCIA. Publico metodo, ventana, n, error estandar y R2 para que sea reproducible y auditable.",
+    "El bono japones a 10 anos que uso (2,77%) es del 2026-07-10, no de hoy: worldgovernmentbonds devolvio la pagina con los campos vacios y no consegui una lectura del dia.",
+    "El tipo de cambio USD/JPY es prior close, no operacion viva: IBKR IDEALPRO no devolvio ultima operacion. Confirmado por segunda fuente (TradingEconomics, 163,757 el 2026-07-28), pero sigue siendo INFERENCIA.",
+    "R2 de la regresion de beta = 0,378: el 62% de la variacion de HOYA no la explica el Nikkei. La beta es la mejor medicion disponible, no una medicion precisa.",
+    "Uso acciones y caja neta ambas a 31-mar-2026. Entre esa fecha y hoy han pasado casi cuatro meses de un programa de recompra que en el ejercicio anterior consumio 171.970 M (el 18% de las ventas) y una cancelacion de 3.576.300 acciones el 15-may-2026. Mantener las dos magnitudes en la misma fecha es lo coherente, pero significa que el balance que uso ya no es el de hoy.",
+    "G3 (poder de precio) esta congelado como NO_MEDIBLE porque HOYA no publica ni una magnitud fisica. Consecuencia operativa para mi: no puedo descomponer crecimiento en precio x volumen ni suscribir expansion de margen. Uso ROIIC ex-margen por eso.",
+    "El beneficio auditado incluye ~29.400 M de partidas no recurrentes sin caja que he identificado y neutralizado, pero no he podido leer la nota que las describe: las infiero de tres lineas que cuadran entre si (Other income +31.259, conciliacion 'Other' 29.401, 'Others' -28.776 en el estado de flujos).",
+    "No he verificado el coste de la deuda contra la nota del informe anual auditado; lo derivo de los intereses pagados del estado de flujos (1.315 sobre deuda media 39.762 = 3,31%). Da igual: la deuda pesa un 0,53% de la estructura y mover su coste del 2% al 6% cambia el WACC en menos de 2 puntos basicos."
+  ],
+
+  "resumen": "HOYA a 23.740 JPY (US$144,98, contrato IBKR vivo del 28-jul a las 14:19 JST, -4,0% en el dia y rompiendo el minimo de 13 semanas) capitaliza US$48.638 M y, con caja neta de US$3.248 M, tiene un EV de US$45.390 M. WACC bottom-up de mercado 7,5% (banda 6,0-8,7%), con beta 0,95 MEDIDA POR MI (261 semanas contra el Nikkei 225, EE 0,076, R2 0,378) en vez de heredada — nunca del tier de calidad. Owner earnings del ultimo auditado: US$1.279,5 M restando solo mantenimiento y US$1.230,3 M restando todo el capex, apenas un 4,0% de distancia porque HOYA venia invirtiendo solo un 0,8% de las ventas por encima de la depreciacion. En el ejercicio en curso —construido por mi, cero trimestres publicados y cero guia— esa distancia se dispara al 17,7% (US$1.379,1 frente a US$1.171,5 M) porque arrancan la planta de blanks EUV de Singapur (~42.000 M) y la de sustratos HDD de Vietnam (~50.000 M fase 1), ambas confirmadas por escrito en la presentacion del 30-abr. Esa apertura de la brecha es el hallazgo: HOYA esta dejando de ser maquina de caja para volverse reinvertidora, y el mercado le sigue pagando el multiplo de la primera. El DCF inverso lo confirma: al 7,5% el precio de hoy exige un 8,9% de crecimiento del flujo libre durante diez anos sobre la base auditada y un 9,6% sobre la en curso, justo mientras el capex se duplica. Mi g defendible es del 5,5% (reinversion neta con la expansion comprometida 26,9% del NOPAT x ROIIC ex-margen 25,6% = 6,9%, revertiendo hacia el 3,3% historico al agotarse la tuberia de tres anos); rechazo expresamente el 13,3% que sale de aplicar la ficha de especie al pie de la letra porque mezcla reinversion bruta con un NOPAT ya neto de depreciacion y cuenta el mantenimiento dos veces — y es, sospechosamente, el unico anclaje que valida el precio. Con esa g el valor por accion es de US$112 sobre la base auditada y US$107 sobre la en curso, ambos con banda de +/-25% por piso de resolucion (84-140 y 81-134). MoS: -29% y -35% frente al 30% exigido para abrir una MUY_BUENA. TIR esperada 5,8-6,9% anual en yenes a diez anos, central 6,4%: por debajo del propio coste de capital del 7,5%. M* = 19x owner earnings (el multiplo justo del modelo es 28x; con el 30% de margen queda 19,6x) y P* = US$79, un 45,5% por debajo de hoy — ni el minimo de 52 semanas (US$105) llego a esa zona. NO es trampa de valor: el motor esta intacto (IT +14,0% con margen ordinario del 52,5%, HDD +25% con un segundo cliente confirmando modelos de 11 y 12 discos) y no hay MoS grande que explicar; hay MoS negativo. VEREDICTO DE PRECIO: NO SE ABRE. No porque HOYA sea mala —no lo es— sino porque no puedo demostrar el margen del 30%, y el unico rincon con MoS positivo (+13,5%) exige coger a la vez los tres extremos favorables de beta, tasa libre de riesgo y prima pais, y aun asi se queda a menos de la mitad del umbral."
+}

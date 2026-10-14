@@ -1,0 +1,97 @@
+{
+ "ticker": "AVGO",
+ "name": "Broadcom Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 392.13,
+ "market_cap_usd_b": 1870,
+ "fwd_pe": 24.9,
+ "fwd_pe_5y_avg": 20,
+ "pe_prem_disc_pct": 24.5,
+ "peg": 0.54,
+ "last_q": {
+  "period": "Q2 FY2026 (ended May 3, 2026)",
+  "revenue": "$22,187M",
+  "rev_yoy_pct": 48,
+  "op_margin_pct": 48.6,
+  "eps_gaap": "$1.91",
+  "eps_adj": "$2.44"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Nov 2, 2025)",
+  "revenue": "$63.9B",
+  "organic_growth_pct": null,
+  "roic_pct": null,
+  "fcf": "$26.9B",
+  "fcf_margin_pct": 42.1
+ },
+ "sbc_pct_revenue": 9.4,
+ "sbc_pct_fcf": 20.4,
+ "net_debt_usd_b": 45.28,
+ "nd_ebitda": 1.05,
+ "net_cash": false,
+ "guidance_fy": "Q3 FY2026 revenue guidance ~$29.4B (+84% YoY); AI semiconductor revenue ~$16.0B (+>200% YoY), non-GAAP operating margin ~67%. No explicit full-year FY2026 revenue guide; AI full-year outlook held unchanged at Q2 report.",
+ "pct_off_52w_high": -20.8,
+ "pct_off_ath": -20.8,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.fcf",
+  "guidance_fy",
+  "net_debt_usd_b",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "nd_ebitda",
+  "last_fy.fcf_margin_pct",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "Broadcom Q2 FY2026 press release (PRNewswire, official IR distribution)",
+   "url": "https://www.prnewswire.com/news-releases/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial-results-and-quarterly-dividend-302790698.html",
+   "date": "2026-06-03"
+  },
+  {
+   "label": "Broadcom IR - Q2 FY2026 results page",
+   "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial",
+   "date": "2026-06-03"
+  },
+  {
+   "label": "StockAnalysis.com - AVGO statistics (price, mkt cap, fwd PE, PEG, debt, cash, EBITDA, FCF TTM)",
+   "url": "https://stockanalysis.com/stocks/avgo/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Macrotrends - AVGO stock price history (ATH/52w high $495.00)",
+   "url": "https://www.macrotrends.net/stocks/charts/AVGO/broadcom/stock-price-history",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "CNBC - Broadcom Q2 2026 earnings (stock plunge on software/VMware, AI forecast unchanged)",
+   "url": "https://www.cnbc.com/2026/06/03/broadcom-avgo-earnings-report-q2-2026.html",
+   "date": "2026-06-03"
+  },
+  {
+   "label": "Broadcom FY2025 Q4 8-K (SEC EDGAR, FY revenue ~$63.9B, FCF $26.9B, adj EBITDA $43.0B)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001730168/000173016825000116/avgo-11022025x8kxex99.htm",
+   "date": "2025-12-11"
+  }
+ ],
+ "notes": "Verification as of 2026-06-22. PRICE/VALUATION: Price ~$392.13 (stockanalysis intraday; another source showed $393.45). Market cap ~$1.87T. Forward P/E ~24.9x (stockanalysis); a second source showed 26.1x. PEG 0.54 (stockanalysis). fwd_pe_5y_avg is ESTIMATED (~20x) — could not isolate a clean primary forward-PE 5y-average series; available 5y averages (52-68x) were TRAILING PE, not forward, so pe_prem_disc_pct (~+24%) is an approximation and should be treated as low-confidence. NET DEBT: VERIFIED from press release balance sheet — total debt $64,907M ($2,252M ST + $62,655M LT) minus cash $19,628M = +$45.28B NET DEBT. NOTE: StockAnalysis.com showed net debt as -$45.28B (net cash), which is a SIGN ERROR by the aggregator — Broadcom carries substantial net debt from the VMware acquisition. nd/ebitda ~1.05x using FY2025 adj EBITDA $43.0B. SBC: VERIFIED Q2 FY2026 total SBC $2,092M (CoR $223M + R&D $1,395M + SG&A $474M) = 9.4% of Q2 revenue and 20.4% of Q2 FCF ($10,262M). last_q VERIFIED from official release: Q2 rev $22,187M (+48% YoY), GAAP op margin 48.6%, GAAP EPS $1.91, non-GAAP EPS $2.44. AI semi revenue $10.8B (+143% YoY). FY2025 (ended Nov 2, 2025): rev ~$63.9B, FCF $26.9B (FCF margin ~42%), adj EBITDA $43.0B (+35%); organic_growth_pct and roic_pct not cleanly disclosed (left null). GUIDANCE: Q3 FY2026 ~$29.4B revenue (+84% YoY), AI semi ~$16.0B (+>200% YoY), non-GAAP op margin ~67%. DROP: Stock ~-21% off ATH/52w high of $495.00 (set June 3, 2026, the earnings day). Classified fear_rotation: the pullback came DESPITE a strong Q2 beat (rev +48%, AI +143%) and a strong Q3 guide; selloff driven by soft infrastructure-software/VMware results and the full-year AI outlook being held UNCHANGED vs raised buy-side expectations (expectations reset / profit-taking after a large run), not by deteriorating fundamentals, which are accelerating."
+}

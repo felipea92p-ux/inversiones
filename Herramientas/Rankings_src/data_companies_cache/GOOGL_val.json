@@ -1,0 +1,48 @@
+{
+ "ticker": "GOOGL",
+ "name": "Alphabet Inc. (Class A)",
+ "currency": "USD",
+ "price_verified": 349.68,
+ "price_source": "StockAnalysis.com (cross-checked vs 10-Q share classes); close Jun 22, 2026",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 12.238,
+ "implied_mcap_b_usd": 4280,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 9.55,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.05,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = FCF $73,266M - 100% SBC $24,950M = $48,316M. Diluted shares 12.238B; net cash +$49.3B added to EV.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 82.56,
+   "prob": 0.38,
+   "note": "Owner FCF grows ~8% yrs1-5 declining to 2.5% terminal. Reflects AI competitive pressure, search monetization risk, heavy capex drag suppressing FCF conversion. Not apocalyptic: franchise intact, just decelerating reinvestment payoff."
+  },
+  "base": {
+   "iv_per_share": 113.25,
+   "prob": 0.47,
+   "note": "Owner FCF ~13% yrs1-5 declining to 3.0% terminal. Mid-teens revenue growth, Cloud scaling (+63% Q1, backlog >$460B), partial FCF margin recovery as capex cycle matures. SBC fully expensed."
+  },
+  "optimista": {
+   "iv_per_share": 156.63,
+   "prob": 0.15,
+   "note": "Owner FCF ~18% yrs1-5 to 3.5% terminal. AI/Gemini + Cloud monetization with operating leverage; capex ramp converts to durable high-ROIC FCF growth."
+  }
+ },
+ "iv_dcf_weighted": 108.09,
+ "fwd_multiple_now": 29.44,
+ "fwd_multiple_5y_avg": 24.4,
+ "fair_multiple": 24.5,
+ "multiple_metric": "forward P/E (GAAP EPS)",
+ "multiple_rationale": "Anchored to 5y avg fwd P/E ~24.4. No premium applied despite the Q1 2026 acceleration (rev +22%, Cloud +63%): the acceleration premium is offset by a haircut for the AI-research talent departures (sentiment/competitive overhang) and the unprecedented $175-185B 2026 capex ramp that pressures near-term FCF. fwd EPS ~ $11.88 (= price 349.68 / fwd P/E 29.44) x 24.5 = ~$291. Current 29.44x sits ~21% above its own 5y norm.",
+ "iv_multiple": 291,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 217.84,
+ "structural_change": "None negative — fundamentals ACCELERATING (Q1 2026 rev +22%, Cloud +63%, backlog >$460B nearly doubled QoQ, op margin 36.1%, ROIC ~31%, net cash +$49.3B). The ~14% drop from ATH is fear_rotation (AI-researcher departures to competitors), a sentiment/competitive overhang, not a fundamental deterioration. Watch item, not a thesis-breaker.",
+ "sanity_notes": "Sanity check passed: 12.238B diluted x $349.68 = ~$4,280B ≈ reported $4.27T. Total basic shares 12.116B (5,824M A + 836M B + 5,456M C per Q1 2026 10-Q, Apr 22 2026); diluted weighted-avg 12.238B used. Reconciled IV $217.84 = 0.62x price (within the 0.30-3.0x magnitude band, no units/currency error). Note the owner-FCF DCF (~$108, only 0.31x price) is structurally depressed for this name: the 100% SBC haircut plus the growth-capex ramp ($91.4B FY2025 -> $175-185B FY2026e, mostly growth not maintenance) under-credit reinvestment at 31% ROIC — exactly why the multiple anchor is weighted 0.60 for this proven, stable, net-cash compounder. Even so, reconciled IV ($218) and the multiple anchor at the 5y-avg P/E ($291) both sit BELOW today's $349.68, which itself trades ~21% above its 5y avg fwd P/E. Conclusion: high-quality franchise, but the current price already embeds the acceleration; limited margin of safety at $349.68."
+}

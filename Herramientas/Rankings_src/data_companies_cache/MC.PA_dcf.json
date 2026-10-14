@@ -1,0 +1,42 @@
+{
+ "ticker": "MC.PA",
+ "currency": "EUR",
+ "current_price": 481.35,
+ "name": "LVMH Moet Hennessy Louis Vuitton SE",
+ "wacc_pct": 8.3,
+ "wacc_components": {
+  "rf_pct": 2.8,
+  "erp_pct": 5,
+  "beta": 1.1,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base ~EUR 11.2B = operating FCF reportado FY2025 EUR 11.3B (+8% YoY, verificado via IR) menos 100% de la SBC (~EUR 0.1B/ano). LVMH apenas usa compensacion en acciones (modelo europeo de efectivo/dividendos: ~0.1% de ingresos, <1% del FCF), por lo que tratar la SBC como gasto en efectivo apenas reduce el owner FCF. Margen de owner FCF ~13.9% sobre ingresos FY2025 de EUR 80.8B.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 5.5,
+  "rev_cagr_y6_10_pct": 4.5,
+  "fcf_margin_terminal_pct": 14,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC restada del FCF como gasto en efectivo; impacto inmaterial (~EUR 0.1B, <1% del FCF) por el modelo europeo de compensacion en efectivo de LVMH",
+  "shares_diluted_b": 0.515,
+  "net_debt_usd_b": 6.9
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 386,
+   "prob": 0.38,
+   "note": "Recuperacion lenta del lujo: CAGR ingresos ~3% en fases 1-2, sin expansion de margen (owner FCF crece ~3%), terminal g=2.5%. Refleja persistencia de la rotacion fuera de lujo, FX adverso prolongado, debilidad de China/EE.UU. y ROIC estancado en minimos de 5 anios. No apocaliptico: el organico ya volvio a positivo (+1% Q4'25 y Q1'26). Implica ~-20% vs precio."
+  },
+  "base": {
+   "iv_per_share": 483,
+   "prob": 0.47,
+   "note": "Consistente con el track record: CAGR ingresos 5.5% (fase 1) declinando a 4.5% (fase 2), margen owner FCF ~14% estabilizado, terminal g=3.0% por el foso de marca excepcional (Vuitton, Dior, Hennessy) y poder de fijacion de precios. Normalizacion gradual del ciclo del lujo. IV ~EUR 483, esencialmente en linea con el precio actual."
+  },
+  "optimista": {
+   "iv_per_share": 611,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: re-aceleracion del lujo con CAGR 8% (fase 1) y 6% (fase 2), rebote de China y EE.UU., desapalancamiento operativo y expansion de margen, terminal g=3.5%. Implica ~+27% vs precio. Probabilidad baja dado el entorno macro/geopolitico incierto."
+  }
+ },
+ "sanity_check": "IV ponderada por probabilidad ~EUR 465 vs precio EUR 481.35 -> el mercado valora LVMH de forma justa (~-3%) tras el desplome de fear_rotation (-27% vs max 52s, -47% vs ATH). El caso base (~EUR 483) coincide con el precio. Contraste de rendimiento total al accionista: dividendo ~EUR 13/accion -> ~2.7% de yield, mas recompras netas modestas, sobre un owner FCF yield de ~4.5% (11.2B / 247.8B mkt cap). El balance es solido (ND/EBITDA ~0.3x, deuda neta EUR 6.9B), el FCF crecio +8% en FY2025 y el margen operativo se mantiene en ~22%, lo que respalda la sostenibilidad del dividendo/recompras. No se aplica DDM. La tesis depende de la reanudacion del crecimiento del lujo; el descuento de fwd P/E ~-16% vs media de 5 anios ofrece algun colchon.",
+ "method_notes": "DCF de owner earnings a 10 anios en EUR (misma moneda que el precio de cotizacion). Owner FCF0 = EUR 11.2B (FCF operativo reportado FY2025 EUR 11.3B menos 100% SBC ~EUR 0.1B). Fase 1 (anios 1-5) crecimiento explicito del owner FCF; Fase 2 (anios 6-10) crecimiento declinante hacia normalizacion; valor terminal con modelo de Gordon g=2.5-3.5% segun foso. WACC = Rf eurozona 2.8% + ERP 5.0% x beta 1.1 = 8.3%; sin ajuste geopolitico (es eurozona/Francia, no Taiwan). Acciones diluidas ~0.515B (mkt cap EUR 247.8B / EUR 481.35). Deuda neta EUR 6.9B (cifra EUR del IR; el JSON usa USD 7.9B convertido — campo net_debt_usd_b reportado aqui en EUR 6.9B para coherencia con el precio en EUR). IV/accion = (PV de flujos + PV del valor terminal - deuda neta) / acciones diluidas. Datos VERIFICADOS via IR de LVMH (FY2025 e Q1 2026); valoracion (precio, P/E, beta, SBC, acciones) ESTIMADA via agregadores. Beta del sector lujo ~1.1 estimada (no disponible en FASE 2). No se requirio busqueda web adicional: el JSON de FASE 2 contenia todos los inputs necesarios."
+}

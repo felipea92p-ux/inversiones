@@ -1,0 +1,327 @@
+{
+  "empresa": "Tyler Technologies, Inc.",
+  "ticker": "TYL",
+  "bolsa": "NYSE",
+  "cik": "0000860731",
+  "moneda_funcional": "USD",
+  "moneda_reporte": "USD",
+  "fecha_expediente": "2026-07-28",
+  "fecha_corte_precio": "2026-07-27",
+  "rol_de_este_documento": "VALORACION. La etiqueta de calidad viene CONGELADA desde el paso anterior y NO se reclasifica. No es asesoramiento de inversion personalizado: es la salida de un modelo de valoracion con sus supuestos declarados.",
+
+  "etiqueta_congelada": {
+    "etiqueta": "MENOS_5_6",
+    "puertas_pasadas": 2,
+    "especie": "G2",
+    "reinversion_pct_ventas": 12.0,
+    "roiic_bruto_pct": 4.6,
+    "roiic_ex_margen_pct": 4.7,
+    "mos_exigido_pct": 40.0,
+    "motivo_umbral": "No esta en cartera de Felipe -> aplica el umbral de ABRIR (40%), no el de CARGAR.",
+    "mecanismo_heredado": "Tyler es el sistema de registro de los gobiernos locales de EEUU (tribunales, catastro, nominas municipales). 87% de ingresos recurrentes, atricion 2% anual: cada emplazamiento es una anualidad de decadas que se cobra sin apenas capital tangible. Eslabon debil: en 2021 metio 2.090 M USD (el 64% de la reinversion de cinco anios) en comprar NIC, capital que rinde 4,6% -- por debajo del coste de capital. La mitad buena del negocio no necesita capital; la mitad que se llevo el capital no es la buena."
+  },
+
+  "fuentes_primarias": {
+    "10K_FY2025": "SEC EDGAR accession 0000860731-26-000016, presentado 2026-02-18 (ejercicio cerrado 2025-12-31). Auditor Ernst & Young LLP.",
+    "10Q_Q1_2026": "SEC EDGAR accession 0000860731-26-000032, presentado 2026-04-29 (trimestre cerrado 2026-03-31).",
+    "8K_resultados_Q1_2026": "SEC EDGAR accession 0000860731-26-000031, exhibit 99.1 nota de prensa 2026-04-29 (guia FY2026).",
+    "8K_convertible_pricing": "accession 0000860731-26-000038, exhibit 99.1, 2026-05-12.",
+    "8K_convertible_closing": "accession 0000860731-26-000040, exhibit 99.1, 2026-05-14.",
+    "8K_credit_agreement": "accession 0000860731-26-000042, 2026-05-29 (revolver 1.000 M, no dispuesto).",
+    "8K_10b5_1": "accession 0000860731-26-000044, 2026-06-12 (plan de recompra hasta 150 M, 16-jun a 30-jul-2026).",
+    "8K_For_The_Record": "accession 0000860731-26-000026, 2026-04-20 (adquisicion cerrada 14-abr-2026 por ~223 M en efectivo).",
+    "xbrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000860731.json",
+    "precio": "IBKR MCP get_price_snapshot, contract_id 13116 (NYSE:TYL)."
+  },
+
+  "precio_y_capital": {
+    "precio_usd": 315.88,
+    "etiqueta_precio": "HECHO (dato de mercado vivo)",
+    "fuente_precio": "IBKR MCP get_price_snapshot, contract_id 13116 (NYSE:TYL). Ultimo cierre 315,88 USD del 27-jul-2026. Cotiza en USD en NYSE: sin conversion de divisa, sin ADS.",
+    "contexto_precio": {
+      "maximo_52s_usd": 619.99,
+      "minimo_52s_usd": 271.57,
+      "caida_desde_maximo_pct": -49.1,
+      "comentario": "HECHO (IBKR). El desplome es de julio-2025 a mayo-2026. Segun prensa (INFERENCIA, no filing) es compresion de multiplo -- de ~60-70x beneficios a ~19-21x owner earnings -- tras guiar a ~9% de crecimiento de ventas para 2026 frente al ~15% anualizado previo, mas la narrativa de desplazamiento por IA del software vertical de gobierno. Los KPI operativos NO se han roto (ver seccion motor)."
+    },
+    "acciones_en_circulacion_mm": 40.9,
+    "etiqueta_acciones": "INFERENCIA",
+    "derivacion_acciones": [
+      "HECHO: 42.167.455 acciones al 2026-04-27 (portada 10-Q Q1 2026).",
+      "HECHO: -1.026.900 acciones recompradas de forma concurrente al convertible, 14-may-2026, por ~320,7 M (8-K exhibit 99.1).",
+      "INFERENCIA: -~400.000 acciones por el plan 10b5-1 de hasta 150 M vigente del 16-jun al 30-jul-2026, a precio medio ~310 USD.",
+      "INFERENCIA: +~150.000 acciones por ESPP y consolidacion de RSU en el periodo.",
+      "Rango plausible 40,7 - 41,3 M."
+    ],
+    "capitalizacion_usd_mm": 12919,
+    "deuda_bruta_usd_mm": 1437.5,
+    "detalle_deuda": "HECHO: 1.437,5 M de principal de senior convertible notes al 0,50% con vencimiento 15-jul-2031, cerradas el 14-may-2026 (incluye el ejercicio integro de la opcion de 187,5 M). Precio de conversion inicial ~405,94 USD/accion; el principal se liquida SIEMPRE en efectivo, asi que por debajo de 405,94 no hay dilucion. Capped call eleva el precio de conversion efectivo a ~655,77 USD. Revolver de 1.000 M sin disponer (8-K 29-may-2026). Deuda anterior: los 600 M de convertibles 0,25% se pagaron a vencimiento en marzo-2026.",
+    "efectivo_e_inversiones_usd_mm": 1005,
+    "etiqueta_efectivo": "INFERENCIA",
+    "derivacion_efectivo": [
+      "HECHO 31-mar-2026: efectivo 316,010 + inversiones a corto 30,344 + inversiones no corrientes 51,455 = 397,809 M.",
+      "-223 M: adquisicion de For The Record cerrada el 14-abr-2026 (HECHO, 8-K).",
+      "-~100 M: recompra de 298.144 acciones en abril (HECHO importe aproximado en nota de prensa Q1).",
+      "+1.408,1 M: producto neto del convertible (HECHO, 8-K 14-may-2026).",
+      "-187,2 M: coste de los capped call (HECHO, 8-K 14-may-2026).",
+      "-320,7 M: recompra concurrente de 1.026.900 acciones (HECHO, 8-K 14-may-2026).",
+      "-~120 M: ejecucion estimada del plan 10b5-1 (INFERENCIA).",
+      "+~150 M: flujo de caja libre estimado del Q2 2026 (INFERENCIA a partir de la guia anual).",
+      "Error plausible +/- 100 M."
+    ],
+    "deuda_neta_usd_mm": 432.5,
+    "ev_usd_mm": 13352,
+    "nota_estructura": "Cambio de regimen de balance en 2026: de caja neta a deuda neta de ~430 M. Emitieron 1.437,5 M de convertible al 0,50% para recomprar acciones a 312,27 USD. Es apalancar el balance justo en el punto de maxima incertidumbre narrativa: si la tesis de IA es correcta, habran comprado acciones caras con deuda; si es falsa, habran comprado baratas. No es un dato neutro."
+  },
+
+  "candado_B_wacc_de_mercado": {
+    "principio": "El WACC sale del mercado, nunca de un tier de calidad.",
+    "tasa_libre_riesgo_pct": 4.64,
+    "fuente_tasa_libre_riesgo": "Bono del Tesoro de EEUU a 10 anios, 4,64% al 27-jul-2026 (Trading Economics; YCharts 4,65%; MacroMicro 4,63% para la misma fecha). Moneda funcional USD -> soberano correcto. INFERENCIA (fuente secundaria de mercado, no filing).",
+    "beta": 1.0,
+    "fuente_beta": "Publicada: Yahoo Finance beta 5A mensual = 0,82 (consultado 28-jul-2026; Investing.com 0,81). Medicion propia: regresion semanal de 5 anios de TYL contra SPY con datos IBKR = 1,023 (corr 0,53). A 3 anios 0,646 (corr 0,32), a 2 anios 0,474 (corr 0,25), a 1 anio 0,282 (corr 0,10). Central adoptado 1,00, rango 0,82-1,15.",
+    "nota_beta": "La beta es INESTABLE y la correlacion con el mercado ha colapsado a 0,10-0,25: el movimiento de TYL en 2026 es idiosincratico, no de mercado. Una beta baja aqui NO significa menos riesgo -- la volatilidad anualizada propia es 30-47% frente al 12-16% del SPY. Usar 0,47 seria premiar con un WACC bajo precisamente el riesgo especifico que se acaba de materializar. Por eso 1,00.",
+    "prima_mercado_pct": 4.17,
+    "fuente_prima_mercado": "Damodaran, actualizacion de julio-2026: prima de mercado maduro 4,17%; ERP implicita EEUU 4,42-4,45% con el S&P 500 en 7.499,36 el 1-jul-2026.",
+    "prima_pais_pct": 0.28,
+    "fuente_prima_pais": "Damodaran julio-2026: diferencial de EEUU sobre mercado maduro tras la bajada de Moody's de Aaa a Aa1 (~0,22-0,28%). Riesgo de ACTIVO: 100% gobiernos estatales y locales de EEUU (mas Canada/Caribe/Australia, inmaterial). Pais de riesgo = EEUU.",
+    "coste_capital_propio_pct": 9.09,
+    "coste_deuda_pct": 3.4,
+    "derivacion_coste_deuda": {
+      "derivado_del_filing_FY2025_pct": 0.83,
+      "detalle_filing": "HECHO: gasto financiero FY2025 = 4,995 M sobre deuda media de 598,8 M ((597,934 + 599,663)/2) = 0,834%.",
+      "convertible_nuevo_contable_pct": 0.9,
+      "detalle_convertible": "HECHO: cupon 0,50% sobre 1.437,5 M = 7,2 M/anio, mas amortizacion de costes de emision (~29,4 M sobre 5,2 anios = ~5,7 M/anio) = ~0,90%.",
+      "coste_economico_all_in_pct": 3.4,
+      "detalle_all_in": "INFERENCIA: anadiendo el coste de los capped call (187,2 M repartidos en 5,2 anios = ~36 M/anio), el coste economico real de esa deuda es (7,2 + 5,7 + 36) / 1.437,5 = 3,4%. Es lo que de verdad paga Tyler por no diluirse.",
+      "deuda_simple_equivalente_pct": 5.3,
+      "detalle_simple": "INFERENCIA: emisor sin rating publico con apalancamiento neto ~0,6x EBITDA; deuda no convertible a 5 anios costaria del orden de 5,3%.",
+      "adoptado": "3,4% central (all-in derivado del filing y de los 8-K). Rango 0,9% - 5,3%."
+    },
+    "tasa_impositiva_pct": 22.0,
+    "fuente_tasa_impositiva": "HECHO: tipo efectivo GAAP FY2025 = 19,1% (10-K); Q1 2026 = 23,7% (10-Q). Tyler usa 23,0% como tipo no-GAAP normalizado. Adoptado 22%.",
+    "ponderacion": "A valor de mercado: E = 12.919 M (90,0%), D = 1.437,5 M de principal (10,0%). Los convertibles se tratan como deuda por su principal integro porque el principal se liquida en efectivo; no se computa dilucion porque a 315,88 estan fuera de dinero (conversion 405,94) y el capped call eleva el efectivo a 655,77.",
+    "wacc_pct": 8.45,
+    "wacc_rango": "7,5% - 9,2%",
+    "detalle_rango": "Bajo: beta 0,82, Kd despues de impuestos 0,70% -> 7,53%. Alto: beta 1,15, Kd despues de impuestos 4,13% -> 9,19%."
+  },
+
+  "owner_earnings": {
+    "definiciones": {
+      "a_mantenimiento": "Flujo de caja de explotacion menos capex de MANTENIMIENTO, aproximado por la depreciacion. El exceso de capex sobre la depreciacion es inversion discrecional y NO se resta.",
+      "b_capex_total": "Flujo de caja de explotacion menos TODO el capex (PP&E + software capitalizado) = flujo de caja libre puro."
+    },
+    "hallazgo_estructural": "En Tyler las dos versiones COINCIDEN, y eso es informacion, no un fallo del calculo. El capex total FY2025 (16,015 de PP&E + 16,778 de software capitalizado = 32,793 M, el 1,4% de las ventas) esta POR DEBAJO de cualquier medida de depreciacion. No existe capex discrecional que proteger: no hay nada que anadir de vuelta. Toda la reinversion discrecional de Tyler vive en M&A (fondo de comercio), que ninguna de las dos definiciones resta. Es decir, el owner earnings de este negocio es estructuralmente generoso: ignora exactamente el capital que la etiqueta congelada senala como mal invertido.",
+
+    "base_auditada_FY2025": {
+      "periodo": "1-ene-2025 a 31-dic-2025, 10-K auditado por Ernst & Young",
+      "ventas_usd_mm": 2332.34,
+      "resultado_explotacion_usd_mm": 357.676,
+      "beneficio_neto_usd_mm": 315.603,
+      "flujo_caja_explotacion_usd_mm": 653.543,
+      "capex_ppe_usd_mm": 16.015,
+      "inversion_software_capitalizado_usd_mm": 16.778,
+      "capex_total_usd_mm": 32.793,
+      "depreciacion_ppe_usd_mm": 18.9,
+      "d_y_a_total_usd_mm": 138.358,
+      "sbc_usd_mm": 151.276,
+      "oe_mantenimiento_usd_mm": 620.75,
+      "oe_capex_total_usd_mm": 620.75,
+      "oe_por_accion_usd": 15.18,
+      "margen_oe_sobre_ventas_pct": 26.6,
+      "etiqueta": "HECHO (todas las lineas del 10-K FY2025 via XBRL companyfacts)"
+    },
+
+    "base_en_curso_FY2026e": {
+      "construccion": "Q1 2026 publicado (10-Q 29-abr-2026) mas guia de la propia empresa del 29-abr-2026. NO hay 10-Q del Q2 2026 a fecha de este expediente.",
+      "q1_2026_hechos": {
+        "ventas_usd_mm": 613.503,
+        "ingresos_recurrentes_pct": 87.8,
+        "flujo_caja_explotacion_usd_mm": 107.262,
+        "capex_ppe_usd_mm": 3.237,
+        "inversion_software_usd_mm": 1.26,
+        "flujo_caja_libre_usd_mm": 102.765,
+        "variacion_fcl_interanual_pct": 112.9
+      },
+      "guia_FY2026": {
+        "ventas_usd_mm": "2.535 - 2.575",
+        "margen_fcl_pct": "26 - 28",
+        "bpa_diluido_no_gaap_usd": "12,50 - 12,75",
+        "capex_total_usd_mm": "18 - 20 (incluye 6 de software capitalizado)",
+        "id_gasto_usd_mm": "245 - 250",
+        "ingreso_financiero_neto_usd_mm": "8 - 10",
+        "fuente": "8-K 29-abr-2026, exhibit 99.1"
+      },
+      "ventas_punto_medio_usd_mm": 2555.0,
+      "flujo_caja_explotacion_implicito_usd_mm": 708.9,
+      "capex_total_usd_mm": 19.0,
+      "oe_mantenimiento_usd_mm": 689.9,
+      "oe_capex_total_usd_mm": 689.9,
+      "rango_oe_usd_mm": "659,1 - 721,0",
+      "oe_por_accion_usd": 16.87,
+      "etiqueta": "INFERENCIA (guia de la empresa, no auditado)"
+    },
+
+    "distancia_entre_bases": {
+      "variacion_pct": 11.1,
+      "lectura": "La base en curso esta un 11,1% por encima de la auditada, y el flujo de caja libre del Q1 se ha MAS QUE DUPLICADO interanualmente (102,8 frente a 48,3 M). Esto es momento de ciclo real, no ruido: Tyler ha pasado el pico de coste de la migracion a la nube y de la integracion de NIC, el capex esta cayendo (32,8 M en 2025 frente a 49,9 M en 2024) y los margenes no-GAAP se expanden por mix y por eficiencia de nube. Leerlo al reves seria un error: la base auditada INFRAVALORA el ritmo actual de caja. Contrapunto: la guia es de la empresa, no un hecho, y el Q2 no esta publicado."
+    },
+
+    "sensibilidad_sbc": {
+      "sbc_FY2025_usd_mm": 151.276,
+      "sbc_sobre_ventas_pct": 6.5,
+      "sbc_sobre_oe_pct": 24.4,
+      "oe_post_sbc_auditado_usd_mm": 469.5,
+      "oe_post_sbc_encurso_usd_mm": 540.0,
+      "oe_post_sbc_por_accion_auditado_usd": 11.48,
+      "oe_post_sbc_por_accion_encurso_usd": 13.2,
+      "por_que_importa": "El mandato define owner earnings sin restar SBC, y asi se reporta. Pero la SBC de Tyler es dilucion REAL, no contable: entre 2021 y 2025 las acciones en circulacion SUBIERON de ~41 a ~43 M pese a las recompras. Un cuarto del owner earnings se lo llevan los empleados. Todos los multiplos de este expediente deben leerse con esta correccion mentalmente aplicada: 19,6x owner earnings son 24,7x owner earnings post-SBC."
+    }
+  },
+
+  "dcf_inverso": {
+    "estructura": "10 anios de crecimiento a g, valor terminal con crecimiento perpetuo del 3%, descuento al WACC de 8,45%. Se descuenta el owner earnings DESAPALANCADO (owner earnings menos el ingreso financiero neto despues de impuestos) contra el EV, para no contar dos veces la caja.",
+    "ev_a_justificar_usd_mm": 13352,
+    "base_auditada": {
+      "oe_desapalancado_usd_mm": 605.2,
+      "g_implicita_10a_pct": 4.99,
+      "sensibilidad_wacc": {
+        "wacc_7_53_pct": 2.63,
+        "wacc_8_45_pct": 4.99,
+        "wacc_9_19_pct": 6.71
+      }
+    },
+    "base_en_curso": {
+      "oe_desapalancado_usd_mm": 682.9,
+      "g_implicita_10a_pct": 3.44,
+      "sensibilidad_wacc": {
+        "wacc_7_53_pct": 1.13,
+        "wacc_8_45_pct": 3.44,
+        "wacc_9_19_pct": 5.13
+      }
+    },
+    "sobre_oe_post_sbc": {
+      "g_implicita_auditado_pct": 8.68,
+      "g_implicita_encurso_pct": 6.62,
+      "lectura": "Esta es la version honesta. Si se cobra la SBC como lo que es -- una transferencia de valor al empleado -- el mercado esta pidiendo entre 6,6% y 8,7% de crecimiento anual durante una decada, no 3,4-5,0%."
+    },
+    "lectura": "Antes del desplome, TYL cotizaba a 60-70x beneficios y la g implicita habria sido de dos digitos. Hoy el mercado pide 3,4% - 5,0% de crecimiento del owner earnings a diez anios (6,6% - 8,7% si se resta la SBC). Contra una tasa base de ARR de +10,4%, ventas guiadas de +9% y SaaS de +23,5%, esa exigencia YA NO es delirante. El problema no es el precio frente a la trayectoria operativa: es el precio frente al RENDIMIENTO DEL CAPITAL REINVERTIDO, que es lo que la etiqueta congelada mide."
+  },
+
+  "g_defendible": {
+    "formula": "g = (reinversion / owner earnings desapalancado) x ROIIC ex-margen. Se usa el ROIIC EX-MARGEN (4,7%), no el bruto (4,6%), porque usar el bruto asume que la expansion de margen se repite.",
+    "reinversion_pct_ventas": 12.0,
+    "reinversion_usd_mm_auditado": 279.9,
+    "tasa_reinversion_sobre_oe_pct": 46.2,
+    "roiic_ex_margen_pct": 4.7,
+    "g_defendible_pct": 2.1,
+    "g_defendible_encurso_pct": 1.93,
+    "contraste": "El mercado pide 3,4% - 5,0%. Yo puedo defender 2,1%. El hueco entre ambos es la tesis bajista completa, y no depende de la narrativa de IA: depende solo de que el capital reinvertido rinde 4,7% contra un coste de capital de 8,45%.",
+    "verificacion_propia_de_la_reinversion": {
+      "advertencia": "La cifra de 12% de ventas viene CONGELADA de la fase de calidad. No la reproduzco desde los filings y lo declaro.",
+      "medicion_propia_2021_2025_bruta_pct_ventas": 26.8,
+      "detalle_2021_2025": "Adquisiciones 2.401,4 (2021: 2.089,7 / 2022: 163,9 / 2023: 62,8 / 2024: 1,4 / 2025: 83,7) + capex PP&E 113,5 + software 128,0 = 2.642,9 M sobre ventas acumuladas de 9.864,4 M.",
+      "medicion_propia_2021_2025_neta_de_d_y_a_pct_ventas": 19.4,
+      "medicion_propia_2023_2025_bruta_pct_ventas": 4.4,
+      "medicion_2026e_pct_ventas": 9.5,
+      "lectura": "La reinversion de Tyler es extremadamente irregular. NIC (2.089,7 M en 2021) representa el 79% de mi medicion de cinco anios -- no el 64% que cita el mecanismo heredado. En 2024 Tyler gasto 1,4 M en M&A y las ventas crecieron igual un 9,6%: la evidencia del propio filing dice que el crecimiento organico de Tyler NO necesita capital. Esto es un argumento a favor del negocio que NO puedo usar para subir la etiqueta, pero si debo declararlo: la formula g = reinversion x ROIIC infravalora por construccion a una empresa cuyo crecimiento organico es gratis."
+    }
+  },
+
+  "valoracion": {
+    "metodo_central": "Owner earnings desapalancado creciendo a la g defendible (2,1%) durante 10 anios, terminal 3%, WACC 8,45%. NO se resta ademas la reinversion en M&A, porque los filings demuestran que esa reinversion es DISCRECIONAL (FY2024: 1,4 M de M&A con ventas +9,6%), no obligatoria. Restarla ademas de acreditar solo el crecimiento que compra seria correcto unicamente si fuese obligatoria.",
+    "valor_por_accion_auditado_usd": 251,
+    "banda_auditado_usd": "189 - 314",
+    "mos_auditado_pct": -25.6,
+    "valor_por_accion_encurso_usd": 284,
+    "banda_encurso_usd": "213 - 355",
+    "mos_encurso_pct": -11.3,
+    "piso_de_resolucion": "Sin medicion propia del ruido se aplica una banda de +/- 25%. Ninguna cifra de valor intrinseco se reporta con decimales.",
+    "escenario_pesimista_reinversion_obligatoria": {
+      "supuesto": "Si la reinversion del 12% de ventas fuese obligatoria y perpetua, el flujo libre al dueno seria owner earnings menos 279,9 M (auditado) o 306,6 M (en curso).",
+      "valor_por_accion_auditado_usd": 130,
+      "mos_auditado_pct": -142.3,
+      "valor_por_accion_encurso_usd": 152,
+      "mos_encurso_pct": -108.3,
+      "lectura": "Un MoS de -142% no es informacion util sobre el precio: es la cuantificacion de la destruccion de valor que implica reinvertir el 46% del owner earnings al 4,7% cuando el capital cuesta 8,45%. Es el limite inferior del rango, no el caso central."
+    },
+    "rejilla_reinversion": [
+      {"reinversion_pct_ventas": 4.4, "g_pct": 0.8, "valor_accion_auditado_usd": 185, "valor_accion_encurso_usd": 211},
+      {"reinversion_pct_ventas": 6.0, "g_pct": 1.09, "valor_accion_auditado_usd": 175, "valor_accion_encurso_usd": 200},
+      {"reinversion_pct_ventas": 9.0, "g_pct": 1.63, "valor_accion_auditado_usd": 154, "valor_accion_encurso_usd": 177},
+      {"reinversion_pct_ventas": 12.0, "g_pct": 2.17, "valor_accion_auditado_usd": 130, "valor_accion_encurso_usd": 152}
+    ],
+    "escenario_alcista_para_falsarme": {
+      "supuesto": "Si la guia se cumple y el owner earnings crece al 5% durante 10 anios (por debajo del +10,4% de ARR y del +9% de ventas guiado), terminal 3%.",
+      "valor_por_accion_auditado_usd": 316,
+      "valor_por_accion_encurso_usd": 358,
+      "lectura": "A 5% de crecimiento del owner earnings, TYL vale hoy mas o menos lo que cuesta. Es decir: el precio actual NO es absurdo -- es simplemente un precio justo para un crecimiento de 5%, y yo solo puedo defender 2,1% con los datos de retorno del capital que tengo congelados. No hay margen de seguridad, pero tampoco hay un abismo."
+    },
+    "multiplos_actuales": {
+      "ev_sobre_oe_auditado": 22.1,
+      "ev_sobre_oe_encurso": 19.6,
+      "ev_sobre_oe_encurso_post_sbc": 25.1,
+      "precio_sobre_oe_por_accion_auditado": 20.8,
+      "precio_sobre_oe_por_accion_encurso": 18.7,
+      "per_gaap_FY2025": 42.9,
+      "per_no_gaap_2026e": "24,8x - 25,3x (BPA no-GAAP guiado 12,50-12,75)"
+    }
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 11.0,
+    "definicion_m_estrella": "Multiplo de EV sobre owner earnings (definicion: flujo de caja de explotacion menos capex total, SIN restar SBC) que acepto pagar. Decidido en frio, sin barra de error, porque no es una estimacion sino un compromiso.",
+    "justificacion_m_estrella": "El multiplo teoricamente JUSTO para esta empresa, con g defendible de 2,1%, terminal 3% y WACC 8,45%, es 17,6x. Pagar 11x sobre esa misma definicion equivale a ~14,6x sobre owner earnings post-SBC, comodamente por debajo del justo, y deja el 37% de recorrido que exige la banda. Por que no mas: porque el ROIIC del capital reinvertido esta por debajo del coste de capital, porque la SBC se lleva un cuarto del flujo, y porque acaba de aparecer una amenaza estructural (IA) que aun no se puede medir.",
+    "p_estrella_usd": 171,
+    "derivacion_p_estrella": "Dos caminos que convergen: (1) valor intrinseco base en curso 284 USD x (1 - 40% de MoS exigido) = 170 USD. (2) M* de 11,0x x owner earnings en curso de 689,9 M = 7.589 M de EV, menos 432,5 M de deuda neta, entre 40,9 M de acciones = 175 USD. Adoptado 171 USD.",
+    "p_estrella_sobre_base_auditada_usd": 151,
+    "distancia_al_precio_pct": -45.9,
+    "lectura": "TYL tendria que caer otro 46% desde 315,88 hasta ~171 USD para abrir posicion con el margen que exige su banda. El minimo de 52 semanas es 271,57."
+  },
+
+  "tir_esperada": {
+    "rango": "-3% a +12% anual a 10 anios; centro 5% - 7%",
+    "construccion": "Rendimiento de owner earnings sobre capitalizacion mas crecimiento por accion, a multiplo constante, y despues ajustando por convergencia del multiplo hacia el justo (17,6x frente a 19,6x actual).",
+    "escenarios": {
+      "bajista": "La narrativa de IA se materializa, la atricion sube del 2% y el crecimiento se para; el multiplo comprime a 12x. TIR -3% a 0% anual.",
+      "central": "La guia se cumple mas o menos, el owner earnings crece 2-3,5%, la recompra retira ~1,5% neto de acciones al anio, el multiplo converge lentamente al justo. TIR 5% - 7% anual. Por debajo del WACC de 8,45%.",
+      "alcista": "El ARR sigue a doble digito, la eficiencia de nube sostiene la expansion de margen, no hay derating adicional y el capital deja de ir a M&A al 4,7% para ir a recompras al 5,3% de rentabilidad de caja. TIR 10% - 12% anual."
+    },
+    "lectura": "Este es el numero que sustituye al MoS como informacion util. Un MoS de -11% a -26% se traduce en una TIR esperada central del 5% - 7% anual: no es una perdida, es un rendimiento insuficiente frente a un coste de capital del 8,45%. Comprar aqui es aceptar cobrar menos de lo que cuesta el riesgo."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "SOSPECHA",
+    "por_que_no_es_SI": [
+      "HECHO (10-Q Q1 2026): ARR 2,15 bn, +10,4% interanual. Ingresos recurrentes 87,8% de las ventas, subiendo desde el 86,3%.",
+      "HECHO: SaaS +23,5%, vigesimo primer trimestre consecutivo con crecimiento igual o mayor al 20%.",
+      "HECHO: flujo de caja libre del Q1 mas que duplicado (102,8 frente a 48,3 M). Margen operativo no-GAAP 27,2% frente a 26,8%.",
+      "HECHO: margen bruto GAAP 48,3% frente a 47,3%. La eficiencia de nube esta llegando a la cuenta de resultados.",
+      "HECHO: capex cayendo (32,8 M en 2025 frente a 49,9 M en 2024) sin que se rompa el crecimiento. Un motor que se rompe no genera mas caja cada trimestre.",
+      "Conclusion: la caida del 49% es compresion de multiplo, no deterioro operativo. Eso descarta la trampa de valor clasica."
+    ],
+    "por_que_no_es_NO": [
+      "El capital reinvertido rinde 4,6-4,7% contra un coste de capital de 8,45%: cada dolar de M&A destruye valor. Esto no lo ha arreglado la caida del precio -- solo ha bajado lo que se paga por el negocio existente, no ha mejorado el retorno del capital nuevo.",
+      "HECHO (10-K FY2025): el segmento que alberga NIC crece al 2,8% y su beneficio operativo cae -14,7% en dos anios, mientras pierde el contrato de pagos de Texas. La mitad del negocio que se llevo el capital sigue sin funcionar.",
+      "Amenaza estructural nueva y no cuantificable: la tesis de que la IA generativa permite a los gobiernos locales reemplazar o presionar el software vertical. NO aparece en ningun numero del filing y NO la he verificado -- es narrativa de prensa. Pero es exactamente el tipo de riesgo que ataca la anualidad: si la atricion del 2% se convierte en 5%, el modelo entero cambia de especie.",
+      "HECHO: acaban de meter 1.437,5 M de deuda convertible para recomprar acciones a 312,27 USD, pasando de caja neta a ~430 M de deuda neta. Es una apuesta apalancada de la direccion contra la narrativa bajista, en el punto de maxima incertidumbre. Aumenta la asimetria en ambos sentidos.",
+      "HECHO: la SBC (151,3 M, el 6,5% de las ventas) se lleva un cuarto del owner earnings y las acciones subieron de ~41 a ~43 M entre 2021 y 2025."
+    ],
+    "resolucion": "SOSPECHA. Pero el detector es casi ocioso aqui: no hay ningun MoS grande que justificar. El MoS es NEGATIVO (-11% a -26% en el caso central) bajo cualquier construccion razonable. La pregunta 'es una trampa este descuento?' no se activa porque no hay descuento."
+  },
+
+  "huecos_declarados": [
+    "No hay 10-Q del Q2 2026 a 28-jul-2026 (Tyler suele publicar a finales de julio). Todo el 'ejercicio en curso' descansa en el Q1 real mas la guia de la empresa del 29-abr-2026, que es INFERENCIA, no HECHO auditado. La guia ya incorpora la adquisicion de For The Record.",
+    "El recuento de acciones a 27-jul-2026 (40,9 M) es INFERENCIA. Ultimo HECHO: 42.167.455 al 27-abr-2026. Rango plausible 40,7 - 41,3 M. Un error de 0,5 M mueve el valor por accion ~1,2%.",
+    "La deuda neta (432,5 M) es INFERENCIA construida sumando y restando eventos de 8-K sobre el balance auditado del 31-mar-2026. Error plausible +/- 100 M, que mueve el EV ~0,7%.",
+    "La beta es inestable y la fuente publicada (0,82) discrepa de mi medicion propia (1,02 a 5 anios semanal; 0,47 a 2 anios). La correlacion con el mercado ha caido a 0,10-0,25: el CAPM esta mal equipado para este caso. Un cambio de beta de 0,82 a 1,15 mueve la g implicita del mercado del 2,6% al 6,7% -- es decir, casi todo el veredicto cabe dentro de la incertidumbre de la beta. Este es el hueco mas grande del expediente.",
+    "El coste de deuda derivado literalmente del filing (0,83%) no es economico: el convertible regala opcionalidad. Adopto 3,4% all-in incluyendo el capped call. Es una decision mia, declarada.",
+    "La 'reinversion 12% de ventas' de la especie congelada NO la reproduzco desde los filings: mi medicion 2021-2025 da 26,8% bruta y 19,4% neta de amortizaciones; 2023-2025 da 4,4%. La cifra es lumpy y dominada por NIC. La uso porque viene congelada, pero el valor central varia entre 130 y 185 USD por accion segun que cifra se use.",
+    "No separo la depreciacion de PP&E de la amortizacion de intangibles adquiridos en el FY2025 con detalle del 10-K (uso la etiqueta Depreciation = 18,9 M). Irrelevante para el resultado: el capex total (32,8 M) queda por debajo de cualquier medida de depreciacion, asi que las dos versiones de owner earnings coinciden en cualquier caso.",
+    "La tesis de desplazamiento por IA del software vertical de gobierno -- el motor narrativo del desplome -- NO esta verificada. Procede de prensa (Motley Fool, 5-jul-2026), no de filings. No la incorporo como HECHO en ningun numero, pero condiciona el escenario bajista.",
+    "El precio de 315,88 es el cierre del 27-jul-2026 segun IBKR con marca is_close; la horquilla instantanea en el momento de la consulta era muy amplia (260 / 328,22), tipica de fuera de sesion. Un cierre 3% distinto mueve el MoS ~3 puntos.",
+    "No he verificado de forma independiente la atricion del 2% ni el ROIIC del 4,6% -- vienen congelados de la fase de calidad. Toda la g defendible depende de ese 4,7%."
+  ],
+
+  "resumen_ejecutivo": "NO. TYL no llega ni de lejos al 40% de margen de seguridad que exige su banda: el MoS central es NEGATIVO, entre -11% (base en curso) y -26% (base auditada), y la TIR esperada del 5%-7% anual esta por debajo del WACC de 8,45%. Habria que pagar 171 USD (M* de 11x owner earnings) frente a los 315,88 de hoy: un 46% mas abajo. Pero el veredicto merece un matiz que no es indulgencia: tras caer un 49% desde maximos, el mercado ya solo pide un 3,4%-5,0% de crecimiento del owner earnings a diez anios, y eso NO es delirante contra un ARR que crece al 10,4% y un SaaS al 23,5%. Lo que no cierra no es el precio contra la trayectoria operativa -- es el precio contra el rendimiento del capital reinvertido. Yo solo puedo defender un 2,1% de crecimiento, porque la formula obliga a sacarlo de reinversion x ROIIC ex-margen (4,7%), y ese 4,7% esta muy por debajo del 8,45% que cuesta el capital. Tres cosas que no deben perderse de vista: (1) el owner earnings de este negocio es estructuralmente generoso -- las dos versiones exigidas COINCIDEN en 620,8 M (auditado) y 689,9 M (en curso) porque el capex total es el 1,4% de las ventas, por debajo de cualquier depreciacion; toda la reinversion mala vive en M&A y ninguna definicion de owner earnings la resta; (2) la SBC de 151,3 M se lleva el 24% del owner earnings y las acciones SUBIERON de 41 a 43 M entre 2021 y 2025 pese a las recompras -- con la SBC restada, el mercado pide 6,6%-8,7% de crecimiento, no 3,4%-5,0%; (3) Tyler acaba de pasar de caja neta a 430 M de deuda neta emitiendo 1.437,5 M de convertible al 0,50% para recomprar acciones a 312 USD, una apuesta apalancada de la direccion justo cuando aparece la narrativa de disrupcion por IA. Trampa de valor: SOSPECHA, no SI -- los KPI operativos no se estan rompiendo (FCL del Q1 duplicado, recurrentes al 87,8%, margen bruto en expansion), pero el capital reinvertido sigue rindiendo por debajo del coste y hay una amenaza estructural que aun no se puede medir. El hueco mas grande del expediente es la beta: entre 0,82 y 1,15 cabe casi todo el veredicto."
+}

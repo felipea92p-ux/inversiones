@@ -1,0 +1,486 @@
+ticker,nombre,apariciones,n_fuentes,tiene_expediente,fuentes,cik,sec_title
+IDXX,IDEXX Labs,99,26,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema,0000874716,IDEXX LABORATORIES INC /DE
+V,Visa,99,25,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/QG_Sistema/test_control | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data,0001403161,VISA INC.
+SPGI,S&P Global,98,28,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0000064040,S&P Global Inc.
+MA,Mastercard,97,26,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0001141391,Mastercard Inc
+MSFT,Microsoft,96,26,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/QG_Sistema/test_control | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data,0000789019,MICROSOFT CORP
+MSCI,MSCI,93,26,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0001408198,MSCI Inc.
+ISRG,Intuitive Surgical,91,24,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema,0001035267,INTUITIVE SURGICAL INC
+TSM,TSMC,91,25,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0001046179,TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD
+ASML,ASML Holding,88,24,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0000937966,ASML HOLDING NV
+VEEV,Veeva Systems,87,24,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema,0001393052,VEEVA SYSTEMS INC
+NVDA,Nvidia,84,23,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0001045810,NVIDIA CORP
+CME,CME Group Inc.,81,22,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27,0001156375,CME GROUP INC.
+BKNG,Booking Holdings,80,23,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema,0001075531,Booking Holdings Inc.
+GOOGL,Alphabet,80,22,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema,0001652044,Alphabet Inc.
+INTU,Intuit,80,24,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema,0000896878,INTUIT INC.
+CDNS,Cadence Design,76,24,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema,0000813672,CADENCE DESIGN SYSTEMS INC
+NOW,ServiceNow,75,22,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0001373715,"ServiceNow, Inc."
+REL.L,RELX PLC,68,14,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27,,
+WKL.AS,Wolters Kluwer,68,17,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02,,
+ADBE,Adobe,64,19,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema,0000796343,ADOBE INC.
+NFLX,Netflix,64,21,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema/cartera_ibkr,0001065280,NETFLIX INC
+SNPS,Synopsys,62,23,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema,0000883241,SYNOPSYS INC
+VRSK,Verisk Analytics,62,17,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings,0001442145,"Verisk Analytics, Inc."
+AMZN,Amazon,59,20,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/cartera_ibkr,0001018724,AMAZON COM INC
+MTD,Mettler-Toledo International,59,16,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02,0001037646,METTLER TOLEDO INTERNATIONAL INC/
+AAPL,Apple,58,16,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings,0000320193,Apple Inc.
+RMS.PA,Hermès,58,14,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema/corrida3_v2_39 | Metodo_Nuevo/2026-07-26_Seleccion_27,,
+ZTS,Zoetis Inc.,58,15,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27,0001555280,Zoetis Inc.
+FICO,Fair Isaac,57,18,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema,0000814547,FAIR ISAAC CORP
+CSU.TO,Constellation Software Inc.,55,16,SI,Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/corrida3_v2_39 | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02,,
+WST,West Pharmaceutical Services,55,15,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings,0000105770,WEST PHARMACEUTICAL SERVICES INC
+ICE,Intercontinental Exchange,53,22,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/corrida3_v2_39,0001571949,"Intercontinental Exchange, Inc."
+MELI,MercadoLibre,52,20,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/cartera_ibkr,0001099590,MERCADOLIBRE INC
+4684.T,"OBIC Co., Ltd.",51,16,SI,Herramientas/Rankings_src/ULTRA_2026-07-05 | Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10,,
+TYL,Tyler Technologies,49,16,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings | Rankings/2026-07-02 | Rankings/2026-07-08,0000860731,TYLER TECHNOLOGIES INC
+ADYEN.AS,Adyen N.V.,47,11,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02,,
+AVGO,Broadcom,46,16,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema/corrida3_v2_39 | Metodo_Nuevo/2026-07-26_Seleccion_27,0001730168,Broadcom Inc.
+MANH,Manhattan Associates,44,16,SI,Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10,0001056696,MANHATTAN ASSOCIATES INC
+FDS,FactSet Research Systems Inc.,43,11,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08,0001013237,FACTSET RESEARCH SYSTEMS INC
+DSY.MI,DiaSorin S.p.A.,39,11,SI,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11 | Rankings/2026-07-26,,
+HOYCY,Hoya Corporation,39,10,,Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-26,,
+MCO,Moody's,39,12,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0001059556,MOODYS CORP /DE/
+DSG.TO,Descartes Systems Group,36,12,SI,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-26,,
+LSEG.L,London Stock Exchange Group plc,34,10,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Metodo_Nuevo/2026-07-26_Seleccion_27 | Metodo_Nuevo/2026-08-21_Peajes | Metodo_Nuevo/2026-08-21_Triadas | Rankings/2026-07-02,,
+CLPBY,Coloplast A/S,33,9,,Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-26,,
+CPRT,Copart,33,8,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema | Rankings/2026-07-02,0000900075,COPART INC
+ACN,Accenture,31,10,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema/corrida3_v2_39 | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-01,0001467373,Accenture plc
+DUOL,Duolingo,31,12,SI,Investigacion/Valoracion_Sistema/cartera_ibkr | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11,0001562088,"Duolingo, Inc."
+DB1.DE,Deutsche Börse AG,30,12,SI,Herramientas/Rankings_src/data | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-26,,
+NEM.DE,Nemetschek SE,29,12,SI,Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11,,
+STMN.SW,Straumann Holding AG,29,10,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08,,
+NVO,Novo Nordisk,28,11,,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema/corrida3_v2_39,0000353278,NOVO NORDISK A S
+TOI.V,Topicus.com Inc.,28,9,,Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-26,,
+EFX,Equifax Inc.,27,10,SI,Herramientas/Rankings_src/data | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11,0000033185,EQUIFAX INC
+TMO,Thermo Fisher,27,14,,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Investigacion/Valoracion_Sistema/corrida3_v2_39 | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-01,0000097745,THERMO FISHER SCIENTIFIC INC.
+SPOT,Spotify,26,10,SI,Herramientas/Rankings_src/data | Investigacion/Valoracion_Sistema/cartera_ibkr | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10,0001639920,Spotify Technology S.A.
+0388.HK,Hong Kong Exchanges and Clearing,25,9,SI,Herramientas/Rankings_src/ULTRA_2026-07-05 | Investigacion/Valoracion_Sistema | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11,,
+BVI.PA,Bureau Veritas SA,24,8,,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-11 | Rankings/2026-07-26 | Rankings/_diagnostico,,
+RMD,ResMed,24,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0000943819,RESMED INC
+6861.T,Keyence,23,4,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,,
+LLY,Eli Lilly,23,7,,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/corrida3_v2_39,0000059478,ELI LILLY & Co
+SOON.SW,Sonova Holding AG,23,7,,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11 | Rankings/2026-07-26,,
+ALGN,Align Technology,22,10,,Herramientas/Rankings_src/data | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11,0001097149,ALIGN TECHNOLOGY INC
+COST,Costco,22,8,,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema,0000909832,COSTCO WHOLESALE CORP /NEW
+CRM,Salesforce,22,12,,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Investigacion/Valoracion_Sistema/corrida3_v2_39 | Metodo_Nuevo/2026-07-26_Seleccion_27,0001108524,"Salesforce, Inc."
+KXS.TO,Kinaxis Inc.,22,8,SI,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11 | Rankings/2026-07-26,,
+LMN.TO,Lumine Group Inc.,22,9,,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11 | Rankings/2026-07-26,,
+SPSC,"SPS Commerce, Inc.",22,8,,Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-26,0001092699,SPS COMMERCE INC
+7741.T,Hoya,21,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,,
+ALC,Alcon Inc.,21,8,,Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11 | Rankings/2026-07-26 | Rankings/_diagnostico,0001167379,ALCON INC
+RACE,Ferrari,21,7,,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/corrida3_v2_39,0001648416,Ferrari N.V.
+LIN,,20,3,,Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0001707925,LINDE PLC
+ORCL,Oracle,20,9,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Rankings/2026-07-02 | Rankings/2026-07-10 | Rankings/2026-07-26 | Rankings/_diagnostico,0001341439,ORACLE CORP
+PANW,Palo Alto Networks,20,8,,Herramientas/Rankings_src/data | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11,0001327567,Palo Alto Networks Inc
+PGHN.SW,,20,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,,
+SGSN.SW,SGS SA,20,7,,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11 | Rankings/2026-07-26,,
+MC.PA,LVMH Moet Hennessy Louis Vuitton,19,4,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema/corrida3_v2_39,,
+OR.PA,L'Oreal,19,4,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema/corrida3_v2_39,,
+PTC,PTC Inc.,19,9,SI,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11 | Rankings/2026-07-26,0000857005,PTC INC.
+VRSN,VeriSign,19,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0001014473,VERISIGN INC/CA
+WISE.L,Wise plc,19,7,,Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-26,,
+6146.T,Disco Corporation,18,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,,
+IT,,18,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0000749251,GARTNER INC
+VRTX,Vertex Pharmaceuticals,18,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0000875320,VERTEX PHARMACEUTICALS INC / MA
+7974.T,,17,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,,
+APP,,17,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0001751008,AppLovin Corp
+CBOE,,17,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0001374310,"Cboe Global Markets, Inc."
+SRT3.DE,Sartorius Stedim Biotech,17,8,,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-26 | Rankings/_diagnostico,,
+ANET,,16,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0001596532,"Arista Networks, Inc."
+FTNT,,16,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0001262039,"Fortinet, Inc."
+PLTR,,16,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0001321655,Palantir Technologies Inc.
+6273.T,SMC Corporation,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,,
+6857.T,Advantest,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,,
+6920.T,Lasertec,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,,
+8035.T,Tokyo Electron,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,,
+ADP,Automatic Data Processing,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0000008670,AUTOMATIC DATA PROCESSING INC
+ASM.AS,ASM International,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,,
+BX,,15,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0001393818,Blackstone Inc.
+CFR.SW,Compagnie Financiere Richemont,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,,
+CTAS,Cintas,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0000723254,CINTAS CORP
+EW,Edwards Lifesciences,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0001099800,Edwards Lifesciences Corp
+KLAC,KLA Corporation,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0000319201,KLA CORP
+LRCX,Lam Research,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0000707549,LAM RESEARCH CORP
+NDAQ,"Nasdaq, Inc.",15,8,,Herramientas/Rankings_src/data | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11,0001120193,"NASDAQ, INC."
+TXN,Texas Instruments,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0000097476,TEXAS INSTRUMENTS INC
+AME,,14,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0001037868,AMETEK INC/
+CHKP,Check Point Software Technologies,14,6,,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-26 | Rankings/_score_records,0001015922,CHECK POINT SOFTWARE TECHNOLOGIES LTD
+EQT.ST,,14,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,,
+GRMN,,14,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0001121788,GARMIN LTD
+IBKR,,14,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0001381197,"Interactive Brokers Group, Inc."
+MMC,,14,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,,
+MNST,,14,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0000865752,Monster Beverage Corp
+ODFL,,14,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0000878927,"OLD DOMINION FREIGHT LINE, INC."
+TPL,,14,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,0001811074,Texas Pacific Land Corp
+VACN.SW,,14,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache,,
+ABNB,,12,5,SI,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-10 | Rankings/2026-07-26 | Rankings/_score_records | Tesis/,0001559720,"Airbnb, Inc."
+ADYEN,Adyen,12,9,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/corrida1 | Investigacion/Valoracion_Sistema/corrida2_v2 | Investigacion/Valoracion_Sistema/corrida3_v2_39,,
+EL,EssilorLuxottica,12,6,,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-11 | Rankings/2026-07-26 | Rankings/_score_records,0001001250,ESTEE LAUDER COMPANIES INC
+ENX.PA,Euronext N.V.,12,7,,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11 | Rankings/2026-07-26,,
+BRK.B,Berkshire Hathaway,11,5,,Investigacion/Valoracion_Sistema/cartera_ibkr | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-26 | Rankings/_score_records,0001067983,BERKSHIRE HATHAWAY INC
+RMS,Hermes,9,7,,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/corrida1 | Investigacion/Valoracion_Sistema/corrida2_v2 | Investigacion/Valoracion_Sistema/corrida3_v2_39,,
+AXP,,8,6,SI,Herramientas/Rankings_src/data | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-10 | Rankings/2026-07-26 | Rankings/_score_records | Tesis/,0000004962,AMERICAN EXPRESS CO
+PDD,,8,4,SI,Herramientas/Rankings_src/data | Rankings/2026-07-10 | Rankings/_score_records | Tesis/,0001737806,PDD Holdings Inc.
+WKL,Wolters Kluwer,7,6,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/corrida3_v2_39 | Rankings/2026-07-01 | Rankings/2026-07-10 | Tesis/,,
+BABA,,6,4,SI,Rankings/2026-07-10 | Rankings/2026-07-26 | Rankings/_score_records | Tesis/,0001577552,Alibaba Group Holding Ltd
+CRWD,CrowdStrike,6,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Rankings/2026-07-02,0001535527,"CrowdStrike Holdings, Inc."
+EXPE,,6,5,SI,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-10 | Rankings/2026-07-26 | Rankings/_score_records | Tesis/,0001324424,"Expedia Group, Inc."
+MBGL,Mercedes-Benz Group,6,2,,Investigacion/Valoracion_Sistema/cartera_ibkr | Rankings/2026-07-02,0002090312,Mobility Global Inc.
+META,Meta Platforms,6,4,,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/data | Rankings/2026-07-01,0001326801,"Meta Platforms, Inc."
+PINS,,6,4,SI,Rankings/2026-07-10 | Rankings/2026-07-26 | Rankings/_score_records | Tesis/,0001506293,"PINTEREST, INC."
+RELX,RELX Group,6,6,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/corrida3_v2_39 | Rankings/2026-07-01 | Rankings/2026-07-10 | Tesis/,0000929869,RELX PLC
+SE,,6,5,SI,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-10 | Rankings/2026-07-26 | Rankings/_score_records | Tesis/,0001703399,Sea Ltd
+SYK,Stryker,6,5,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Metodo_Nuevo/2026-08-21_Triadas | Rankings/2026-08-22 | _Ultra Tesis/2026-08_Ranking_Calidad,0000310764,STRYKER CORP
+CSU,Constellation Software,5,5,,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/corrida3_v2_39 | Rankings/2026-07-01,,
+JD,,5,3,SI,Rankings/2026-07-10 | Rankings/_score_records | Tesis/,0001549802,"JD.com, Inc."
+JNJ,,5,4,SI,Herramientas/Rankings_src/data | Metodo_Nuevo/2026-08-21_Triadas | Rankings/2026-08-22 | _Ultra Tesis/2026-08_Ranking_Calidad,0000200406,JOHNSON & JOHNSON
+OR,L'Oreal,5,5,,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/corrida3_v2_39 | Rankings/2026-07-01,0001627272,OR Royalties Inc.
+TEMN.SW,Temenos AG,5,3,,Rankings/2026-07-02 | Rankings/2026-07-26 | Rankings/_score_records,,
+4063.T,Shin-Etsu Chemical,4,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,,
+4519.T,Chugai Pharmaceutical,4,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,,
+ADSK,Autodesk,4,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,0000769397,"Autodesk, Inc."
+AMAT,Applied Materials,4,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,0000006951,APPLIED MATERIALS INC /DE
+AUTO.L,Auto Trader Group,4,1,,Herramientas/Rankings_src/Screen_600_jul2026,,
+COH.AX,Cochlear,4,1,,Herramientas/Rankings_src/Screen_600_jul2026,,
+DDOG,"Datadog, Inc.",4,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Rankings/2026-07-02,0001561550,"Datadog, Inc."
+DECK,,4,2,SI,Herramientas/Rankings_src/data | Tesis/,0000910521,DECKERS OUTDOOR CORP
+EXPN.L,Experian,4,1,,Herramientas/Rankings_src/Screen_600_jul2026,,
+HUBB,,4,3,SI,Herramientas/Rankings_src/data | Rankings/2026-08-22 | _Ultra Tesis/2026-08_Ranking_Calidad,0000048898,HUBBELL INC
+MC,LVMH,4,4,,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Investigacion/Valoracion_Sistema/corrida3_v2_39 | Rankings/2026-07-01,0001596967,Moelis & Co
+MEDP,Medpace Holdings,4,1,,Herramientas/Rankings_src/Screen_600_jul2026,0001668397,"Medpace Holdings, Inc."
+MPWR,Monolithic Power Systems,4,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,0001280452,"MONOLITHIC POWER SYSTEMS, INC."
+PAYX,Paychex,4,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,0000723531,PAYCHEX INC
+PME.AX,Pro Medicus,4,1,,Herramientas/Rankings_src/Screen_600_jul2026,,
+RAA.DE,Rational AG,4,1,,Herramientas/Rankings_src/Screen_600_jul2026,,
+REGN,Regeneron Pharmaceuticals,4,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,0000872589,"REGENERON PHARMACEUTICALS, INC."
+ROP,Roper Technologies,4,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,0000882835,ROPER TECHNOLOGIES INC
+TRU,TransUnion,4,3,,Rankings/2026-07-02 | Rankings/2026-07-26 | Rankings/_score_records,0001552033,TransUnion
+VLTO,,4,3,SI,Herramientas/Rankings_src/data | Rankings/2026-08-22 | _Ultra Tesis/2026-08_Ranking_Calidad,0001967680,Veralto Corp
+4661.T,,3,1,,Herramientas/Rankings_src/data,,
+ABBV,,3,1,,Herramientas/Rankings_src/data,0001551152,AbbVie Inc.
+AENA.MC,,3,1,,Herramientas/Rankings_src/data,,
+AHT.L,,3,1,,Herramientas/Rankings_src/data,,
+BF.B,,3,1,,Herramientas/Rankings_src/data,0000014693,BROWN FORMAN CORP
+BLK,,3,1,,Herramientas/Rankings_src/data,0002012383,"BlackRock, Inc."
+BRO,,3,1,,Herramientas/Rankings_src/data,0000079282,"BROWN & BROWN, INC."
+CF,,3,1,,Herramientas/Rankings_src/data,0001324404,"CF Industries Holdings, Inc."
+CL,,3,3,SI,Herramientas/Rankings_src/data | Rankings/2026-07-10 | Tesis/,0000021665,COLGATE PALMOLIVE CO
+COP,,3,1,,Herramientas/Rankings_src/data,0001163165,CONOCOPHILLIPS
+CW,,3,2,SI,Rankings/2026-08-22 | _Ultra Tesis/2026-08_Ranking_Calidad,0000026324,CURTISS WRIGHT CORP
+DE,,3,1,,Herramientas/Rankings_src/data,0000315189,DEERE & CO
+EA,,3,1,,Herramientas/Rankings_src/data,,
+EL.PA,EssilorLuxottica,3,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Rankings/2026-07-10,,
+EOG,,3,1,,Herramientas/Rankings_src/data,0000821189,EOG RESOURCES INC
+HD,,3,1,,Herramientas/Rankings_src/data,0000354950,"HOME DEPOT, INC."
+HERMES,,3,2,SI,Rankings/2026-07-10 | Tesis/,,
+HOOD,,3,1,,Herramientas/Rankings_src/data,0001783879,"Robinhood Markets, Inc."
+HSY,,3,1,,Herramientas/Rankings_src/data,0000047111,HERSHEY CO
+III.L,,3,1,,Herramientas/Rankings_src/data,,
+JKHY,,3,1,,Herramientas/Rankings_src/data,0000779152,JACK HENRY & ASSOCIATES INC
+LULU,,3,1,,Herramientas/Rankings_src/data,0001397187,lululemon athletica inc.
+MCHP,,3,1,,Herramientas/Rankings_src/data,0000827054,MICROCHIP TECHNOLOGY INC
+MLM,,3,1,,Herramientas/Rankings_src/data,0000916076,MARTIN MARIETTA MATERIALS INC
+MRK,,3,1,,Herramientas/Rankings_src/data,0000310158,"Merck & Co., Inc."
+MSI,,3,1,,Herramientas/Rankings_src/data,0000068505,"Motorola Solutions, Inc."
+NDSN,,3,1,,Herramientas/Rankings_src/data,0000072331,NORDSON CORP
+NEM,,3,3,SI,Herramientas/Rankings_src/data | Rankings/2026-07-10 | Tesis/,0001164727,NEWMONT Corp /DE/
+NESN.SW,,3,1,,Herramientas/Rankings_src/data,,
+NXPI,,3,1,,Herramientas/Rankings_src/data,0001413447,NXP Semiconductors N.V.
+ON,,3,1,,Herramientas/Rankings_src/data,0001097864,ON SEMICONDUCTOR CORP
+PG,,3,3,SI,Herramientas/Rankings_src/data | Rankings/2026-07-10 | Tesis/,0000080424,PROCTER & GAMBLE Co
+PM,,3,1,,Herramientas/Rankings_src/data,0001413329,Philip Morris International Inc.
+QCOM,,3,1,,Herramientas/Rankings_src/data,0000804328,QUALCOMM INC/DE
+RHHBY,,3,2,SI,Rankings/2026-08-22 | _Ultra Tesis/2026-08_Ranking_Calidad,,
+STM.MI,,3,1,,Herramientas/Rankings_src/data,,
+TER,,3,1,,Herramientas/Rankings_src/data,0000097210,"TERADYNE, INC"
+TRI,,3,1,,Herramientas/Rankings_src/data,0001075124,THOMSON REUTERS CORP /CAN/
+URI,,3,1,,Herramientas/Rankings_src/data,0001067701,"UNITED RENTALS, INC."
+7733.T,Olympus,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,,
+9983.T,Fast Retailing (Uniqlo),2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,,
+ABT,Abbott Laboratories,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,0000001800,ABBOTT LABORATORIES
+ADI,Analog Devices,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,0000006281,ANALOG DEVICES INC
+BSX,Boston Scientific,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,0000885725,BOSTON SCIENTIFIC CORP
+CLX,,2,2,SI,Rankings/2026-07-10 | Tesis/,0000021076,CLOROX CO /DE/
+CMG,Chipotle Mexican Grill,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,0001058090,CHIPOTLE MEXICAN GRILL INC
+DHR,Danaher,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,0000313616,DANAHER CORP /DE/
+DIM.PA,Sartorius Stedim Biotech,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Rankings/2026-07-08,,
+GIVN.SW,Givaudan,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,,
+HKEX,,2,2,SI,Rankings/2026-07-10 | Tesis/,,
+ICLR,ICON plc,2,1,,Rankings/2026-07-02,0001060955,ICON PLC
+ITX.MC,Industria de Diseno Textil (Inditex),2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,,
+MCD,McDonald's,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,0000063908,MCDONALDS CORP
+MDT,,2,2,,Herramientas/Rankings_src/data | Metodo_Nuevo/2026-08-21_Triadas,0001613103,Medtronic plc
+OBIC,,2,2,SI,Rankings/2026-07-10 | Tesis/,,
+ROL,Rollins,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,0000084839,ROLLINS INC
+SAF.PA,Safran,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,,
+SAP.DE,SAP SE,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,,
+SIE.DE,,2,2,,Herramientas/Rankings_src/data | Metodo_Nuevo/2026-08-21_Triadas,,
+SOON,,2,2,SI,Rankings/2026-07-10 | Tesis/,,
+SU.PA,Schneider Electric,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,,
+TDG,TransDigm Group,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,0001260221,TransDigm Group INC
+TJX,TJX Companies,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,0000109198,TJX COMPANIES INC /DE/
+TOI,,2,2,SI,Rankings/2026-07-10 | Tesis/,,
+UMG.AS,Universal Music Group NV,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,,
+WAT,Waters,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data,0001000697,WATERS CORP /DE/
+WISE,,2,2,SI,Rankings/2026-07-10 | Tesis/,,
+2914.T,,1,1,,Herramientas/Rankings_src/data,,
+4452.T,,1,1,,Herramientas/Rankings_src/data,,
+4543.T,,1,1,,Herramientas/Rankings_src/data,,
+4568.T,,1,1,,Herramientas/Rankings_src/data,,
+4578.T,,1,1,,Herramientas/Rankings_src/data,,
+6098.T,,1,1,,Herramientas/Rankings_src/data,,
+6367.T,,1,1,,Herramientas/Rankings_src/data,,
+6645.T,,1,1,,Herramientas/Rankings_src/data,,
+6758.T,,1,1,,Herramientas/Rankings_src/data,,
+6762.T,,1,1,,Herramientas/Rankings_src/data,,
+6954.T,,1,1,,Herramientas/Rankings_src/data,,
+6981.T,,1,1,,Herramientas/Rankings_src/data,,
+8058.T,,1,1,,Herramientas/Rankings_src/data,,
+9433.T,,1,1,,Herramientas/Rankings_src/data,,
+ABBN.SW,,1,1,,Herramientas/Rankings_src/data,,
+ACGL,,1,1,,Herramientas/Rankings_src/data,0000947484,ARCH CAPITAL GROUP LTD.
+AFL,,1,1,,Herramientas/Rankings_src/data,0000004977,AFLAC INC
+AI.PA,,1,1,,Herramientas/Rankings_src/data,,
+AIG,,1,1,,Herramientas/Rankings_src/data,0000005272,"AMERICAN INTERNATIONAL GROUP, INC."
+AJG,,1,1,,Herramientas/Rankings_src/data,0000354190,Arthur J. Gallagher & Co.
+ALC.SW,,1,1,,Herramientas/Rankings_src/data,,
+ALFA.ST,,1,1,,Herramientas/Rankings_src/data,,
+ALL,,1,1,,Herramientas/Rankings_src/data,0000899051,ALLSTATE CORP
+AMD,,1,1,,Herramientas/Rankings_src/data,0000002488,ADVANCED MICRO DEVICES INC
+AMGN,,1,1,,Herramientas/Rankings_src/data,0000318154,AMGEN INC
+AMP,,1,1,,Herramientas/Rankings_src/data,0000820027,AMERIPRISE FINANCIAL INC
+AMT,,1,1,,Herramientas/Rankings_src/data,0001053507,AMERICAN TOWER CORP /MA/
+ANSS,Ansys,1,1,,Herramientas/Rankings_src/Screen_600_jul2026,,
+AON,,1,1,,Herramientas/Rankings_src/data,0000315293,Aon plc
+APD,,1,1,,Herramientas/Rankings_src/data,0000002969,"Air Products & Chemicals, Inc."
+APH,,1,1,,Herramientas/Rankings_src/data,0000820313,AMPHENOL CORP /DE/
+APO,,1,1,,Herramientas/Rankings_src/data,0001858681,"Apollo Global Management, Inc."
+ARES,,1,1,,Herramientas/Rankings_src/data,0001176948,Ares Management Corp
+ARGX.BR,,1,1,,Herramientas/Rankings_src/data,,
+ARM,,1,1,,Herramientas/Rankings_src/data,0001973239,ARM HOLDINGS PLC /UK
+ASML.AS,,1,1,,Herramientas/Rankings_src/data,,
+ATO,,1,1,,Herramientas/Rankings_src/data,0000731802,ATMOS ENERGY CORP
+AVB,,1,1,,Herramientas/Rankings_src/data,0000915912,AVALONBAY COMMUNITIES INC
+AVY,,1,1,,Herramientas/Rankings_src/data,0000008818,Avery Dennison Corp
+AXON,,1,1,,Herramientas/Rankings_src/data,0001069183,"AXON ENTERPRISE, INC."
+AZN,AstraZeneca,1,1,,Herramientas/Rankings_src/Screen_600_jul2026,0000901832,ASTRAZENECA PLC
+AZN.L,,1,1,,Herramientas/Rankings_src/data,,
+AZO,,1,1,,Herramientas/Rankings_src/data,0000866787,AUTOZONE INC
+BA.L,,1,1,,Herramientas/Rankings_src/data,,
+BC.MI,Brunello Cucinelli,1,1,,Herramientas/Rankings_src/Screen_600_jul2026,,
+BESI.AS,BE Semiconductor Industries,1,1,,Herramientas/Rankings_src/Screen_600_jul2026,,
+BKR,,1,1,,Herramientas/Rankings_src/data,0001701605,Baker Hughes Co
+BLDR,,1,1,,Herramientas/Rankings_src/data,0001316835,"Builders FirstSource, Inc."
+BMY,,1,1,,Herramientas/Rankings_src/data,0000014272,BRISTOL MYERS SQUIBB CO
+BR,,1,1,,Herramientas/Rankings_src/data,0001383312,"BROADRIDGE FINANCIAL SOLUTIONS, INC."
+BRK,,1,1,SI,Tesis/,,
+BRKB,,1,1,,Rankings/2026-07-10,,
+BTI.L,,1,1,,Herramientas/Rankings_src/data,,
+CAH,,1,1,,Herramientas/Rankings_src/data,0000721371,CARDINAL HEALTH INC
+CARR,,1,1,,Herramientas/Rankings_src/data,0001783180,CARRIER GLOBAL Corp
+CASY,,1,1,,Herramientas/Rankings_src/data,0000726958,CASEYS GENERAL STORES INC
+CAT,,1,1,,Herramientas/Rankings_src/data,0000018230,CATERPILLAR INC
+CB,,1,1,,Herramientas/Rankings_src/data,0000896159,Chubb Ltd
+CBRE,,1,1,,Herramientas/Rankings_src/data,0001138118,"CBRE GROUP, INC."
+CDW,,1,1,,Herramientas/Rankings_src/data,0001402057,CDW Corp
+CEG,,1,1,,Herramientas/Rankings_src/data,0001868275,Constellation Energy Corp
+CHD,,1,1,,Herramientas/Rankings_src/data,0000313927,CHURCH & DWIGHT CO INC /DE/
+CHR.CO,Chr. Hansen / Novonesis (NSIS-B.CO),1,1,,Herramientas/Rankings_src/Screen_600_jul2026,,
+CHTR,,1,1,,Herramientas/Rankings_src/data,0001091667,"CHARTER COMMUNICATIONS, INC. /MO/"
+CI,,1,1,,Herramientas/Rankings_src/data,0001739940,Cigna Group
+CIEN,,1,1,,Herramientas/Rankings_src/data,0000936395,CIENA CORP
+CINF,,1,1,,Herramientas/Rankings_src/data,0000020286,CINCINNATI FINANCIAL CORP
+CMCSA,,1,1,,Herramientas/Rankings_src/data,0001166691,COMCAST CORP
+CMI,,1,1,,Herramientas/Rankings_src/data,0000026172,CUMMINS INC
+CNC,,1,1,,Herramientas/Rankings_src/data,0001071739,CENTENE CORP
+COF,,1,1,,Herramientas/Rankings_src/data,0000927628,CAPITAL ONE FINANCIAL CORP
+COO,,1,1,,Herramientas/Rankings_src/data,0000711404,"COOPER COMPANIES, INC."
+COR,,1,1,,Herramientas/Rankings_src/data,0001140859,"Cencora, Inc."
+CPAY,,1,1,,Herramientas/Rankings_src/data,0001175454,"CORPAY, INC."
+CPG.L,,1,1,,Herramientas/Rankings_src/data,,
+CRH,,1,1,,Herramientas/Rankings_src/data,0000849395,CRH PUBLIC LTD CO
+CRH.L,,1,1,,Herramientas/Rankings_src/data,,
+CSCO,,1,1,,Herramientas/Rankings_src/data,0000858877,"CISCO SYSTEMS, INC."
+CSGP,,1,1,,Herramientas/Rankings_src/data,0001057352,"COSTAR GROUP, INC."
+CSL.AX,CSL Limited,1,1,,Herramientas/Rankings_src/Screen_600_jul2026,,
+CSX,,1,1,,Herramientas/Rankings_src/data,0000277948,CSX CORP
+CTSH,,1,1,,Herramientas/Rankings_src/data,0001058290,COGNIZANT TECHNOLOGY SOLUTIONS CORP
+CVX,,1,1,,Herramientas/Rankings_src/data,0000093410,CHEVRON CORP
+DEO.L,,1,1,,Herramientas/Rankings_src/data,,
+DG.PA,,1,1,,Herramientas/Rankings_src/data,,
+DGX,,1,1,,Herramientas/Rankings_src/data,0001022079,QUEST DIAGNOSTICS INC
+DHI,,1,1,,Herramientas/Rankings_src/data,0000882184,HORTON D R INC /DE/
+DHL.DE,,1,1,,Herramientas/Rankings_src/data,,
+DIS,,1,1,,Herramientas/Rankings_src/data,0001744489,Walt Disney Co
+DOV,,1,1,,Herramientas/Rankings_src/data,0000029905,DOVER Corp
+DPLM.L,Diploma PLC,1,1,,Herramientas/Rankings_src/Screen_600_jul2026,,
+DPZ,,1,1,,Herramientas/Rankings_src/data,0001286681,DOMINOS PIZZA INC
+DRI,,1,1,,Herramientas/Rankings_src/data,0000940944,DARDEN RESTAURANTS INC
+DSG,,1,1,SI,Tesis/,,
+DSV.CO,,1,1,,Herramientas/Rankings_src/data,,
+DSY.PA,Dassault Systemes,1,1,,Herramientas/Rankings_src/Screen_600_jul2026,,
+DTE.DE,,1,1,,Herramientas/Rankings_src/data,,
+DXCM,,1,1,,Herramientas/Rankings_src/data,0001093557,DEXCOM INC
+EBAY,,1,1,,Herramientas/Rankings_src/data,0001065088,EBAY INC
+ECL,,1,1,,Herramientas/Rankings_src/data,0000031462,ECOLAB INC.
+EMR,,1,1,,Herramientas/Rankings_src/data,0000032604,EMERSON ELECTRIC CO
+ERIE,,1,1,,Herramientas/Rankings_src/data,0000922621,ERIE INDEMNITY CO
+ETN,,1,1,,Herramientas/Rankings_src/data,0001551182,Eaton Corp plc
+EXR,,1,1,,Herramientas/Rankings_src/data,0001289490,Extra Space Storage Inc.
+FAST,,1,1,,Herramientas/Rankings_src/data,0000815556,FASTENAL CO
+FER.MC,,1,1,,Herramientas/Rankings_src/data,,
+FFIV,,1,1,,Herramientas/Rankings_src/data,0001048695,"F5, INC."
+FTV,,1,1,,Herramientas/Rankings_src/data,0001659166,Fortive Corp
+GALD.SW,,1,1,,Herramientas/Rankings_src/data,,
+GAW.L,Games Workshop Group PLC,1,1,,Herramientas/Rankings_src/Screen_600_jul2026,,
+GD,,1,1,,Herramientas/Rankings_src/data,0000040533,GENERAL DYNAMICS CORP
+GE,,1,1,,Herramientas/Rankings_src/data,0000040545,GENERAL ELECTRIC CO
+GEBN.SW,Geberit,1,1,,Herramientas/Rankings_src/Screen_600_jul2026,,
+GEHC,,1,1,,Herramientas/Rankings_src/data,0001932393,GE HealthCare Technologies Inc.
+GEN,,1,1,,Herramientas/Rankings_src/data,0000849399,Gen Digital Inc.
+GEV,,1,1,,Herramientas/Rankings_src/data,0001996810,GE Vernova Inc.
+GGG,Graco,1,1,,Herramientas/Rankings_src/Screen_600_jul2026,0000042888,GRACO INC
+GILD,,1,1,,Herramientas/Rankings_src/data,0000882095,"GILEAD SCIENCES, INC."
+GL,,1,1,,Herramientas/Rankings_src/data,0000320335,GLOBE LIFE INC.
+GLW,,1,1,,Herramientas/Rankings_src/data,0000024741,CORNING INC /NY
+GOOG,,1,1,,Herramientas/Rankings_src/data,0001652044,Alphabet Inc.
+GS,,1,1,,Herramientas/Rankings_src/data,0000886982,GOLDMAN SACHS GROUP INC
+GSK.L,,1,1,,Herramientas/Rankings_src/data,,
+GWW,,1,1,,Herramientas/Rankings_src/data,0000277135,"W.W. GRAINGER, INC."
+HCA,,1,1,,Herramientas/Rankings_src/data,0000860730,"HCA Healthcare, Inc."
+HDB,,1,1,,Herramientas/Rankings_src/data,0001144967,HDFC BANK LTD
+HEI,Heico Corporation,1,1,,Herramientas/Rankings_src/Screen_600_jul2026,0000046619,HEICO CORP
+HEIA.AS,,1,1,,Herramientas/Rankings_src/data,,
+HLMA.L,Halma,1,1,,Herramientas/Rankings_src/Screen_600_jul2026,,
+HLN.L,,1,1,,Herramientas/Rankings_src/data,,
+HLT,,1,1,,Herramientas/Rankings_src/data,0001585689,Hilton Worldwide Holdings Inc.
+HO.PA,,1,1,,Herramientas/Rankings_src/data,,
+HON,,1,1,,Herramientas/Rankings_src/data,0000773840,HONEYWELL INTERNATIONAL INC
+HWM,,1,1,,Herramientas/Rankings_src/data,0000004281,Howmet Aerospace Inc.
+IBM,,1,1,,Herramientas/Rankings_src/data,0000051143,INTERNATIONAL BUSINESS MACHINES CORP
+IEX,,1,1,,Herramientas/Rankings_src/data,0000832101,IDEX CORP /DE/
+IFX.DE,,1,1,,Herramientas/Rankings_src/data,,
+IHG.L,,1,1,,Herramientas/Rankings_src/data,,
+IMB.L,,1,1,,Herramientas/Rankings_src/data,,
+IQV,,1,1,,Herramientas/Rankings_src/data,0001478242,IQVIA HOLDINGS INC.
+IR,,1,1,,Herramientas/Rankings_src/data,0001699150,Ingersoll Rand Inc.
+ITW,,1,1,,Herramientas/Rankings_src/data,0000049826,ILLINOIS TOOL WORKS INC
+JBHT,,1,1,,Herramientas/Rankings_src/data,0000728535,HUNT J B TRANSPORT SERVICES INC
+JPM,,1,1,,Herramientas/Rankings_src/data,0000019617,JPMORGAN CHASE & CO
+KDP,,1,1,,Herramientas/Rankings_src/data,0001418135,Keurig Dr Pepper Inc.
+KEYS,,1,1,,Metodo_Nuevo/2026-08-21_Triadas,0001601046,"Keysight Technologies, Inc."
+KKR,,1,1,,Herramientas/Rankings_src/data,0001404912,KKR & Co. Inc.
+KMB,,1,1,,Herramientas/Rankings_src/data,0000055785,KIMBERLY CLARK CORP
+KMI,,1,1,,Herramientas/Rankings_src/data,0001506307,"KINDER MORGAN, INC."
+KNIN.SW,,1,1,,Herramientas/Rankings_src/data,,
+KO,,1,1,,Herramientas/Rankings_src/data,0000021344,COCA COLA CO
+KXS,,1,1,SI,Tesis/,,
+LHX,,1,1,,Herramientas/Rankings_src/data,0000202058,"L3HARRIS TECHNOLOGIES, INC. /DE/"
+LII,,1,1,,Herramientas/Rankings_src/data,0001069202,LENNOX INTERNATIONAL INC
+LISP.SW,,1,1,,Herramientas/Rankings_src/data,,
+LMT,,1,1,,Herramientas/Rankings_src/data,0000936468,LOCKHEED MARTIN CORP
+LR.PA,,1,1,,Herramientas/Rankings_src/data,,
+LSEGL,,1,1,SI,Tesis/,,
+MAR,,1,1,,Herramientas/Rankings_src/data,0001048286,MARRIOTT INTERNATIONAL INC /MD/
+MDLZ,,1,1,,Herramientas/Rankings_src/data,0001103982,"Mondelez International, Inc."
+MKC,,1,1,,Herramientas/Rankings_src/data,0000063754,MCCORMICK & CO INC
+MO,,1,1,,Herramientas/Rankings_src/data,0000764180,"ALTRIA GROUP, INC."
+MORN,,1,1,,Metodo_Nuevo/2026-08-21_Triadas,0001289419,"Morningstar, Inc."
+MRK.DE,,1,1,,Herramientas/Rankings_src/data,,
+MS,,1,1,,Herramientas/Rankings_src/data,0000895421,MORGAN STANLEY
+NEE,,1,1,,Herramientas/Rankings_src/data,0000753308,NEXTERA ENERGY INC
+NKE,,1,1,,Herramientas/Rankings_src/data,0000320187,"NIKE, Inc."
+NOC,,1,1,,Herramientas/Rankings_src/data,0001133421,NORTHROP GRUMMAN CORP /DE/
+NOVN.SW,,1,1,,Herramientas/Rankings_src/data,,
+NSC,,1,1,,Herramientas/Rankings_src/data,0000702165,NORFOLK SOUTHERN CORP
+NTRS,,1,1,,Herramientas/Rankings_src/data,0000073124,NORTHERN TRUST CORP
+NUE,,1,1,,Herramientas/Rankings_src/data,0000073309,NUCOR CORP
+NVR,,1,1,,Herramientas/Rankings_src/data,0000906163,NVR INC
+O,,1,1,,Herramientas/Rankings_src/data,0000726728,REALTY INCOME CORP
+ORLY,,1,1,,Herramientas/Rankings_src/data,0000898173,O REILLY AUTOMOTIVE INC
+OTIS,,1,1,,Herramientas/Rankings_src/data,0001781335,Otis Worldwide Corp
+P911.DE,,1,1,,Herramientas/Rankings_src/data,,
+PCAR,,1,1,,Herramientas/Rankings_src/data,0000075362,PACCAR INC
+PEP,,1,1,,Herramientas/Rankings_src/data,0000077476,PEPSICO INC
+PGR,,1,1,,Herramientas/Rankings_src/data,0000080661,PROGRESSIVE CORP/OH/
+PH,,1,1,,Herramientas/Rankings_src/data,0000076334,Parker-Hannifin Corp
+PKG,,1,1,,Herramientas/Rankings_src/data,0000075677,PACKAGING CORP OF AMERICA
+PLD,,1,1,,Herramientas/Rankings_src/data,0001045609,"Prologis, Inc."
+PODD,,1,1,,Herramientas/Rankings_src/data,0001145197,INSULET CORP
+PRX.AS,,1,1,,Herramientas/Rankings_src/data,,
+PRY.MI,,1,1,,Herramientas/Rankings_src/data,,
+PSA,,1,1,,Herramientas/Rankings_src/data,0001393311,Public Storage
+PWR,,1,1,,Herramientas/Rankings_src/data,0001050915,"QUANTA SERVICES, INC."
+PYPL,,1,1,,Herramientas/Rankings_src/data,0001633917,"PayPal Holdings, Inc."
+RACE.MI,,1,1,,Herramientas/Rankings_src/data,,
+RCL,,1,1,,Herramientas/Rankings_src/data,0000884887,ROYAL CARIBBEAN CRUISES LTD
+REA.AX,REA Group,1,1,,Herramientas/Rankings_src/Screen_600_jul2026,,
+RHM.DE,,1,1,,Herramientas/Rankings_src/data,,
+RKT.L,,1,1,,Herramientas/Rankings_src/data,,
+RMV.L,Rightmove,1,1,,Herramientas/Rankings_src/Screen_600_jul2026,,
+RO.SW,,1,1,,Herramientas/Rankings_src/data,,
+ROG.SW,Roche Holding,1,1,,Herramientas/Rankings_src/Screen_600_jul2026,,
+ROK,,1,1,,Herramientas/Rankings_src/data,0001024478,"ROCKWELL AUTOMATION, INC"
+ROST,,1,1,,Herramientas/Rankings_src/data,0000745732,"ROSS STORES, INC."
+RR.L,,1,1,,Herramientas/Rankings_src/data,,
+RSG,,1,1,,Herramientas/Rankings_src/data,0001060391,"REPUBLIC SERVICES, INC."
+RTX,,1,1,,Herramientas/Rankings_src/data,0000101829,RTX Corp
+SAN.PA,,1,1,,Herramientas/Rankings_src/data,,
+SAND.ST,,1,1,,Herramientas/Rankings_src/data,,
+SBAC,,1,1,,Herramientas/Rankings_src/data,0001034054,SBA COMMUNICATIONS CORP
+SBUX,,1,1,,Herramientas/Rankings_src/data,0000829224,STARBUCKS CORP
+SCHN.SW,,1,1,,Herramientas/Rankings_src/data,,
+SCHW,,1,1,,Herramientas/Rankings_src/data,0000316709,SCHWAB CHARLES CORP
+SCMN.SW,,1,1,,Herramientas/Rankings_src/data,,
+SHOP,,1,1,,Herramientas/Rankings_src/data,0001594805,SHOPIFY INC.
+SHW,,1,1,,Herramientas/Rankings_src/data,0000089800,SHERWIN WILLIAMS CO
+SIKA.SW,,1,1,,Herramientas/Rankings_src/data,,
+SJM,,1,1,,Herramientas/Rankings_src/data,0000091419,J M SMUCKER Co
+SLB,,1,1,,Herramientas/Rankings_src/data,0000087347,SLB LIMITED/NV
+SNA,,1,1,,Herramientas/Rankings_src/data,0000091440,Snap-on Inc
+SO,,1,1,,Herramientas/Rankings_src/data,0000092122,SOUTHERN CO
+SPG,,1,1,,Herramientas/Rankings_src/data,0001063761,SIMON PROPERTY GROUP INC.
+SPX.L,Spirax Group,1,1,,Herramientas/Rankings_src/Screen_600_jul2026,,
+STE,,1,1,,Herramientas/Rankings_src/data,0001757898,STERIS plc
+STLD,,1,1,,Herramientas/Rankings_src/data,0001022671,STEEL DYNAMICS INC
+STZ,,1,1,,Herramientas/Rankings_src/data,0000016918,"CONSTELLATION BRANDS, INC."
+SWK,,1,1,,Herramientas/Rankings_src/data,0000093556,"STANLEY BLACK & DECKER, INC."
+SYY,,1,1,,Herramientas/Rankings_src/data,0000096021,SYSCO CORP
+TDY,,1,1,,Herramientas/Rankings_src/data,0001094285,TELEDYNE TECHNOLOGIES INC
+TEL,,1,1,,Herramientas/Rankings_src/data,0001385157,TE Connectivity plc
+TMUS,,1,1,,Herramientas/Rankings_src/data,0001283699,"T-Mobile US, Inc."
+TPR,,1,1,,Herramientas/Rankings_src/data,0001116132,"TAPESTRY, INC."
+TRGP,,1,1,,Herramientas/Rankings_src/data,0001389170,Targa Resources Corp.
+TRMB,,1,1,,Herramientas/Rankings_src/data,0000864749,TRIMBLE INC.
+TROW,,1,1,,Herramientas/Rankings_src/data,0001113169,PRICE T ROWE GROUP INC
+TT,,1,1,,Herramientas/Rankings_src/data,0001466258,Trane Technologies plc
+TTD,,1,1,,Herramientas/Rankings_src/data,0001671933,"Trade Desk, Inc."
+TTWO,,1,1,,Herramientas/Rankings_src/data,0000946581,TAKE TWO INTERACTIVE SOFTWARE INC
+UBER,,1,1,,Herramientas/Rankings_src/data,0001543151,"Uber Technologies, Inc"
+UCB.BR,,1,1,,Herramientas/Rankings_src/data,,
+ULTA,,1,1,,Herramientas/Rankings_src/data,0001403568,"Ulta Beauty, Inc."
+ULVR.L,,1,1,,Herramientas/Rankings_src/data,,
+UNH,,1,1,,Herramientas/Rankings_src/data,0000731766,UNITEDHEALTH GROUP INC
+UNP,,1,1,,Herramientas/Rankings_src/data,0000100885,UNION PACIFIC CORP
+VICI,,1,1,,Herramientas/Rankings_src/data,0001705696,VICI PROPERTIES INC.
+VISA,,1,1,SI,Tesis/,,
+VMC,,1,1,,Herramientas/Rankings_src/data,0001396009,Vulcan Materials CO
+VRT,,1,1,,Herramientas/Rankings_src/data,0001674101,Vertiv Holdings Co
+VST,,1,1,,Herramientas/Rankings_src/data,0001692819,Vistra Corp.
+WAB,,1,1,,Herramientas/Rankings_src/data,0000943452,WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP
+WDAY,,1,1,,Herramientas/Rankings_src/data,0001327811,"Workday, Inc."
+WEC,,1,1,,Herramientas/Rankings_src/data,0000783325,"WEC ENERGY GROUP, INC."
+WELL,,1,1,,Herramientas/Rankings_src/data,0000766704,WELLTOWER INC.
+WFC,,1,1,,Herramientas/Rankings_src/data,0000072971,WELLS FARGO & COMPANY/MN
+WM,,1,1,,Herramientas/Rankings_src/data,0000823768,WASTE MANAGEMENT INC
+WMB,,1,1,,Herramientas/Rankings_src/data,0000107263,"WILLIAMS COMPANIES, INC."
+WMT,,1,1,,Herramientas/Rankings_src/data,0000104169,Walmart Inc.
+WRB,,1,1,,Herramientas/Rankings_src/data,0000011544,BERKLEY W R CORP
+WSM,,1,1,,Herramientas/Rankings_src/data,0000719955,WILLIAMS SONOMA INC
+WTC.AX,WiseTech Global,1,1,,Herramientas/Rankings_src/Screen_600_jul2026,,
+WTW,,1,1,,Herramientas/Rankings_src/data,0001140536,WILLIS TOWERS WATSON PLC
+XEL,,1,1,,Herramientas/Rankings_src/data,0000072903,XCEL ENERGY INC
+XOM,,1,1,,Herramientas/Rankings_src/data,0002115436,ExxonMobil Holdings Corp
+YUM,,1,1,,Herramientas/Rankings_src/data,0001041061,YUM BRANDS INC
+ZURN.SW,,1,1,,Herramientas/Rankings_src/data,,

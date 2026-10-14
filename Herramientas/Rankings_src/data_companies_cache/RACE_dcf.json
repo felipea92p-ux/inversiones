@@ -1,0 +1,42 @@
+{
+ "ticker": "RACE",
+ "name": "Ferrari N.V.",
+ "currency": "USD",
+ "current_price": 348.42,
+ "wacc_pct": 7.55,
+ "wacc_components": {
+  "rf_pct": 2.8,
+  "erp_pct": 5,
+  "beta": 0.95,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = FY2025 Industrial FCF EUR 1,538M menos 100% de la SBC (~1.6% del FCF, ~EUR 24M) = EUR ~1,513M (~USD ~1,771M a EUR/USD 1.17). Margen owner-FCF base ~21.2% sobre ingresos EUR 7,146M. SBC tratada integramente como gasto en efectivo; impacto minimo porque la SBC de Ferrari es de las mas bajas del universo (~0.34% de ingresos).",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 8.5,
+  "rev_cagr_y6_10_pct": 3.5,
+  "fcf_margin_terminal_pct": 27,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC restada del FCF como gasto en efectivo (owner earnings); impacto ~1.6% del FCF, dilucion casi nula y Ferrari recompra acciones agresivamente",
+  "shares_diluted_b": 0.177,
+  "net_debt_usd_b": -0.42
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 279,
+   "prob": 0.375,
+   "note": "Crecimiento ingresos 6% (anios 1-5) declinando a 2.5%; margen owner-FCF terminal 24%; g=2.5%. Asume desaceleracion del lujo, transicion EV (Elettrica/Luce) sin re-aceleracion de volumen/precio y normalizacion de margenes. IV ~$279 = ~20% por debajo del precio actual; de-rating continuado pero sin colapso de fundamentales."
+  },
+  "base": {
+   "iv_per_share": 393,
+   "prob": 0.475,
+   "note": "Crecimiento 8.5% (anios 1-5, consistente con +8% organico FY2025 y guia FY2026) declinando a 3.5%; margen owner-FCF terminal 27% (expansion gradual coherente con FCF +50% en FY2025 y apalancamiento operativo del mix/personalizacion). g=3.0%. IV ~$393, ~13% de upside. TV ~70% del EV."
+  },
+  "optimista": {
+   "iv_per_share": 565,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: crecimiento 11% (anios 1-5) declinando a 5%; margen owner-FCF terminal 30%; g=3.5%. Exito de Elettrica/Luce, pricing power intacto, cartera extendida y mix premium elevando margenes. IV ~$565, cercano al ATH historico (~$512)."
+  }
+ },
+ "sanity_check": "Owner FCF yield ~2.9% y rendimiento total al accionista (dividendo + recompra) ~2.7% (div FY2025 ~EUR 530M + recompra run-rate ~EUR 900M/ano sobre cap ~$61.7bn) — bajos, confirmando que RACE es un compounder de altisima calidad pero caro: la tesis depende de crecimiento sostenido mid-single-digit con expansion de margenes, no de un yield atractivo hoy. fwd P/E ~30.9x vs media historica ~40-42x (descuento -26%, de-rating por rotacion del lujo/dudas EV, NO por deterioro: FY2025 fue record). VI ponderado por probabilidad ~$376 (~8% sobre el precio actual de $348.42): valuacion razonable-a-ligeramente-barata para la calidad, pero margen de seguridad estrecho. Posicion de caja neta industrial (sin apalancamiento), ROIC historico ~30%+, foso de marca excepcional.",
+ "method_notes": "DCF de owner earnings a 10 anios en EUR (moneda de reporte de los flujos), con VI/accion convertido a USD del ADR (RACE NYSE) a EUR/USD ~1.17. Base owner FCF = Industrial FCF FY2025 EUR 1,538M menos 100% SBC. Fase 1 (anios 1-5): CAGR de ingresos explicito por escenario; Fase 2 (anios 6-10): CAGR declinando linealmente hacia normalizacion. Margen owner-FCF parte de ~21% y glida linealmente al margen terminal de cada escenario (expansion justificada por mix/personalizacion, modelo capital-light). Valor terminal por Gordon sobre FCF del anio 10, g=2.5-3.5% segun foso (foso fuerte -> g superior). WACC eurozona: Rf=2.8% (no UST por domicilio Italia/UE), ERP=5.0%, beta=0.95 (mezcla lujo/auto premium; sin ajuste geopolitico). Sin deuda neta a sumar (posicion de CAJA NETA industrial ~EUR +0.36B/USD +0.42B sumada al equity). Acciones diluidas ~0.177B (cap $61.69B / $348.42; confirmado ~177M via agregadores). TV representa 65-75% del EV (alto pero esperable para un activo de larga duracion y foso premium). Limitaciones: sensibilidad alta al margen terminal y a g; FX EUR/USD afecta el VI en USD; SBC estimada (Ferrari no la divulga por separado), pero su magnitud es inmaterial."
+}

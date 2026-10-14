@@ -1,0 +1,42 @@
+{
+ "ticker": "NVDA",
+ "currency": "USD",
+ "current_price": 208.65,
+ "name": "NVIDIA Corporation",
+ "wacc_pct": 12.8,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.7,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2026 (ended Jan 25, 2026) = FCF reportado $96,676M - 100% SBC $6,386M = $90,290M (~$90.3B), margen owner-FCF ~41.8% sobre ingresos de $215,938M. Para el DCF el ano 0 se ancla a una base FORWARD FY2027 consistente con guia verificada (Q1 FY27 ingresos $81.6B, guia Q2 $91.0B): owner FCF FY27 ~$132B (conservador), ~$147B (base), ~$158B (optimista), a margen owner ~40-42%. Anclar al trailing FY26 ($90.3B) subestimaria flujos que ya estan contratados/guiados (Q1 FY27 +85% YoY).",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 17,
+  "rev_cagr_y6_10_pct": 10,
+  "fcf_margin_terminal_pct": 41,
+  "terminal_g_pct": 3.5,
+  "sbc_treatment": "SBC tratada como gasto 100% en efectivo: Owner FCF = FCF reportado - SBC. SBC FY26 = $6,386M (2.96% de ingresos / 6.6% del FCF), relativamente baja para megacap tech, por lo que el ajuste resta solo ~6.6% al FCF. rev_cagr_y1_5 = CAGR de owner FCF anos 1-5 (caso base) desde base forward FY27.",
+  "shares_diluted_b": 24.2,
+  "net_debt_usd_b": -54.1
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 80.84,
+   "prob": 0.38,
+   "note": "Digestion del ciclo de capex de IA y perdida de cuota frente a ASICs/silicio custom de hyperscalers. Owner FCF FY27 ~$132B (margen 40%), CAGR owner anos 1-5 ~10%, fase 2 declina a ~6%, g terminal 3.0%. Implica que NVDA sigue creciendo pero la hiper-aceleracion se enfria rapido. NO apocaliptico: aun asume liderazgo y margenes altos."
+  },
+  "base": {
+   "iv_per_share": 127.35,
+   "prob": 0.47,
+   "note": "Normalizacion fuerte consistente con track record. Owner FCF FY27 ~$147B (margen 41.5%), CAGR owner anos 1-5 ~17%, fase 2 ~10% declinando a g terminal 3.5%. Liderazgo CUDA/Data Center sostenido pero ley de grandes numeros modera el crecimiento. IV ~$127 implica que a $208.65 el mercado descuenta una trayectoria mas agresiva que la del caso base."
+  },
+  "optimista": {
+   "iv_per_share": 209.14,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: dominio sostenido de la infraestructura de IA (formacion + inferencia), expansion soberana/empresarial y foso CUDA intacto. Owner FCF FY27 ~$158B (margen 42%), CAGR owner anos 1-5 ~27%, fase 2 ~15% declinando a g 3.5%. Solo este escenario justifica aprox. el precio actual."
+  }
+ },
+ "sanity_check": "VI ponderada por probabilidad = 0.38*80.84 + 0.47*127.35 + 0.15*209.14 = ~$121.9 vs precio $208.65, lo que implica una sobrevaloracion de ~42% sobre una base de owner earnings descontada a 12.8%. Solo el escenario optimista (~$209) alcanza el precio actual. CRUCE DE MULTIPLOS: a $208.65 la capitalizacion de ~$5,050B equivale a ~34x owner-FCF FY27 base (~$147B), rendimiento owner-FCF forward ~2.9%; sobre el trailing FY26 owner-FCF de $90.3B son ~56x. El P/E fwd de ~21x parece barato, pero el DCF de owner earnings (que penaliza la SBC y descuenta al alto WACC de un beta 1.7) muestra que el precio ya incorpora muchos anos de hiper-crecimiento. RETORNO TOTAL AL ACCIONISTA (contraste, no usado en la VI): NVDA tiene balance de caja neta (~$54.1B), autorizacion de recompra de $80B y dividendo subido de $0.01 a $0.25/trimestre; el yield directo es minimo (~0.5% recompra + ~0.1% dividendo sobre $5T), el valor proviene del reinvestimiento a ROIC ~90%, no del retorno de caja. Clasificacion: no_depressed (a -12% de maximos, ingresos +85% YoY).",
+ "method_notes": "DCF de OWNER EARNINGS a 10 anos en dos fases. Owner FCF = FCF reportado - 100% SBC. Base anclada a owner FCF FORWARD FY2027 (no al trailing FY26) por la fuerte aceleracion ya guiada/contratada (Q1 FY27 +85% YoY, guia Q2 $91B); usar el trailing subvaloraria gravemente flujos casi seguros. Fase 1 (anos 1-5): CAGR de owner FCF explicito por escenario (10/17/27%). Fase 2 (anos 6-10): el crecimiento declina linealmente hacia g terminal (3.0-3.5%) reflejando normalizacion y ley de grandes numeros. Valor terminal con Gordon Growth sobre el flujo del ano 10. Descuento al WACC = Rf 4.3% (UST10Y) + ERP 5.0% * beta 1.7 = 12.8%. SIN ajuste geopolitico: NVDA es estadounidense (el +1.5% de Taiwan aplica a TSM por domicilio; la dependencia de fundicion TSMC es riesgo de cadena, no ajuste de domicilio). VI/accion = (PV de flujos + PV del valor terminal + caja neta $54.1B) / acciones diluidas. Acciones diluidas ~24.2B derivadas de market_cap $5,050B / precio $208.65 (consistente con ~$120B GAAP NI y EPS GAAP FY26 $4.90). g terminal 3.0-3.5% reflejando foso amplio (CUDA, Data Center, ROIC ~90%). Datos de FASE 2 VERIFICADO_mostly desde NVIDIA IR/SEC. Limitacion: la dispersion conservador-optimista ($81-$209) refleja la incertidumbre genuina sobre la duracion del super-ciclo de IA; el DCF de owner earnings es deliberadamente mas estricto que el P/E fwd de 21x."
+}

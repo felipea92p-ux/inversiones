@@ -1,0 +1,48 @@
+{
+ "ticker": "FTNT",
+ "name": "Fortinet, Inc.",
+ "currency": "USD",
+ "price_verified": 145.39,
+ "price_source": "StockAnalysis.com FTNT overview/statistics (cross-checked vs Yahoo Finance, CNBC, Macrotrends $144.73-145.39)",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.745,
+ "implied_mcap_b_usd": 106.52,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 9.9,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.11,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF = FY2025 reported FCF $2,211.8M - 100% SBC $282.1M = $1,929.7M (~28.4% owner-FCF margin on $6.80B revenue). Per diluted share (~745M) ~$2.59. Low SBC (4.1% of revenue) makes the owner-earnings haircut small and the FCF unusually clean for a software name.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 60.68,
+   "prob": 0.38,
+   "note": "Phase1 (yr1-5) 10% CAGR, Phase2 declining to 5%, g 2.5%. Growth decelerates as firewall refresh cycle matures and SASE/SecOps competition (Palo Alto, Zscaler, CrowdStrike) compresses share gains; margins hold but no further expansion. Pesimista razonable, no apocaliptico."
+  },
+  "base": {
+   "iv_per_share": 80.5,
+   "prob": 0.47,
+   "note": "Phase1 14% CAGR (in line with FY26 guide ~15% and FY25 organic 14%), Phase2 declining to 7%, g 3.0%. Continued unified-SASE + OT/firewall refresh tailwinds, 33-36% non-GAAP op margin sustained, disciplined SBC and buybacks."
+  },
+  "optimista": {
+   "iv_per_share": 107.96,
+   "prob": 0.15,
+   "note": "Phase1 18% CAGR, Phase2 declining to 9%, g 3.5%. AI-driven security platform consolidation + accelerating firewall replacement supercycle and SASE attach; sustained high-ROIC reinvestment."
+  }
+ },
+ "iv_dcf_weighted": 77.09,
+ "multiple_metric": "fwd P/E (non-GAAP EPS)",
+ "fwd_multiple_now": 46.58,
+ "fwd_multiple_5y_avg": 38,
+ "fair_multiple": 35,
+ "multiple_rationale": "Anchored to the ~38x 5y-avg forward P/E but with a modest haircut to 35x for genuine structural reasons: (1) growth is decelerating from hypergrowth toward mid-teens, so the historical multiple was earned on faster growth; (2) the current 46.6x is a post-Q1-beat sentiment-driven re-rating (~22% above 5y avg) that is unlikely to persist; (3) intensifying SASE/platform competition. FY2026 non-GAAP EPS midpoint $3.13 x 35 = $109.6. This is a quality compounder (ROIC ~23%, net cash, high FCF conversion), so the multiple anchor deservedly sits well above the pure-DCF value, which under-credits decades of high-ROIC reinvestment.",
+ "iv_multiple": 109.55,
+ "weight_dcf": 0.45,
+ "weight_multiple": 0.55,
+ "reconciled_iv": 94.94,
+ "structural_change": "No adverse structural break. Fortinet remains a high-quality, founder-led, net-cash compounder with ~23% ROIC, ~32% FCF margin and low SBC discipline. The main structural shift is positive-to-neutral: a normalization of growth from pandemic/firewall-refresh hypergrowth toward sustainable mid-teens, plus a platform pivot to unified SASE/SecOps. Competitive intensity (Palo Alto, Zscaler, CrowdStrike, Cisco) is rising but Fortinet's ASIC/cost-advantage moat in network security is intact. The only \"change\" warranting a haircut is multiple-cyclical, not franchise-structural.",
+ "sanity_notes": "Magnitude check: implied mcap = $145.39 x 0.7326B basic shares = $106.5B USD, matches StockAnalysis $106.52B -> mcap_sanity_ok=true; no units/currency error (single currency USD throughout). Reconciled IV $94.94 = 65% of the $145.39 price, inside the 30-300% band, so no shares/units mistake. Used diluted ~0.745B shares for per-share IV (vs 0.7326B basic) per FY26 guidance share count, a conservative choice. The DCF ($77) sits well below price as expected for a richly valued high-ROIC compounder (pure DCF under-credits reinvestment), which is why the multiple anchor ($109.6) carries 55% weight; weights tilt only modestly to the multiple (0.45/0.55 not 0.35/0.65) because of product-cyclicality in the firewall refresh and the unusually rich current multiple. Reconciled IV $94.94 implies a fair fwd P/E ~30x and ~35% downside from $145.39 - corroborated by Street consensus 'Hold' with avg PT ~$112. Conclusion: excellent business, demanding price; not a value entry point today."
+}

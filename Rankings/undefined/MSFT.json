@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "ticker": "MSFT",
+    "empresa": "Microsoft Corporation",
+    "cik": "0000789019",
+    "domicilio": "Washington, EEUU",
+    "moneda_funcional": "USD",
+    "moneda_reporte": "USD",
+    "fecha_analisis": "2026-07-28",
+    "fecha_corte_recibida_del_orquestador": "undefined (variable sin resolver — se usa 2026-07-28, fecha del sistema)",
+    "ruta_salida_recibida": "undefined/MSFT.json (variable sin resolver — escrito de forma literal en Rankings/undefined/MSFT.json, junto a los expedientes hermanos)",
+    "rol_de_esta_sesion": "VALORADOR. La etiqueta de calidad esta CONGELADA y no se toca en ningun punto.",
+    "etiqueta_congelada": "ULTRA-R (5 puertas pasadas)",
+    "especie_g2": "reinversion 36,5% de ventas · ROIIC bruto 17,7% · ROIIC ex-margen 12,3%",
+    "mos_exigido_pct": 30,
+    "razon_del_umbral": "ULTRA ya en cartera (4,36% del NAV segun el orquestador) -> umbral de CARGAR = 18% + 12 puntos = 30%.",
+    "declaracion_de_no_reclasificacion": "Al abrir el precio la accion cotiza un 29% por debajo de su maximo de 52 semanas (552,28 -> 390,70). Esa caida NO se ha usado como excusa para subir la etiqueta ni para sustituir el ROIIC ex-margen congelado del 12,3% por una cifra mas amable. El 12,3% se usa como input central de valoracion aunque hunda el resultado. Las lecturas con ROIIC mas alto viven en la seccion de sensibilidad, etiquetadas como NO centrales."
+  },
+
+  "precio_y_capital": {
+    "precio_usd": 390.70,
+    "fuente_precio": "HECHO. Snapshot en vivo IBKR, contract_id 272093 (NASDAQ), campo 'last' = 390,70 USD, timestamp epoch 1785215039 = 2026-07-28T05:03Z (cierre / after-hours del 27-jul-2026 ET). Bid/ask simultaneo 390,47 / 391,10. Cambio del dia +1,60 (+0,41%). Rango 52 semanas 349,20 - 552,28; apertura hace 52 semanas 511,13. Volatilidad historica 30d anualizada 35,3%. Rendimiento por dividendo 0,93%.",
+    "cotiza_en_eeuu": true,
+    "es_ads": false,
+    "acciones_en_circulacion_mm": 7429,
+    "fuente_acciones": "HECHO. us-gaap:CommonStockSharesOutstanding = 7.429 mm al 31-mar-2026 (10-Q Q3 FY2026, accession 0001193125-26-191507). Media ponderada basica del trimestre 7.426 mm, diluida 7.445 mm (Nota 2 — Earnings per Share). La recompra sigue viva (17.692 mm gastados en 9M FY2026) pero solo compensa la dilucion del SBC: el recuento pasa de 7.434 (jun-2025) a 7.429 (mar-2026), -0,07% en nueve meses.",
+    "capitalizacion_usd_mm": 2902510,
+    "deuda_bonos_carrying_usd_mm": 40262,
+    "deuda_bonos_valor_mercado_usd_mm": 36600,
+    "fuente_valor_mercado_deuda": "HECHO. us-gaap:LongTermDebtFairValue = 36.600 mm al 31-mar-2026 (10-Q Q3 FY2026), frente a 40.262 mm de valor contable (8.839 corriente + 31.423 no corriente). Cotiza un 9% por debajo del nominal porque los cupones heredados (~2,2% medio efectivo) estan muy por debajo de la curva actual.",
+    "arrendamientos_financieros_usd_mm": 62932,
+    "arrendamientos_operativos_usd_mm": 22238,
+    "fuente_arrendamientos": "HECHO. 10-Q Q3 FY2026: FinanceLeaseLiability 62.932 mm y OperatingLeaseLiability 22.238 mm al 31-mar-2026. Los arrendamientos financieros son DEUDA REAL de centros de datos y crecen mas rapido que ninguna otra partida del balance: 27.145 (jun-2024) -> 46.172 (jun-2025) -> 62.932 (mar-2026), +132% en 21 meses. Tratarlos como no-deuda seria regalar 63.000 mm.",
+    "deuda_bruta_total_valor_mercado_usd_mm": 121770,
+    "caja_y_inversiones_liquidas_usd_mm": 78272,
+    "fuente_caja": "HECHO. 10-Q Q3 FY2026 al 31-mar-2026: efectivo y equivalentes 32.105 mm + inversiones a corto plazo 46.167 mm = 78.272 mm. NO se computan como caja los 8.726 mm de valores del Tesoro clasificados en 'Equity and Other Investments' ni la participacion en OpenAI (11.100 mm de valor contable): se declaran aparte como activos no valorados.",
+    "deuda_neta_usd_mm": 43498,
+    "ev_usd_mm": 2946008,
+    "nota_ev": "EV = capitalizacion 2.902.510 + bonos a valor de mercado 36.600 + arrendamiento financiero 62.932 + arrendamiento operativo 22.238 - liquidez 78.272 = 2.946.008 mm. La deuda neta es solo el 1,5% del EV: cualquier discusion sobre estructura de capital es irrelevante para el resultado. Lo que NO es irrelevante es que la deuda de arrendamiento financiero (62.932) ya supera a la deuda en bonos (36.600) — Microsoft se esta financiando el capex de IA por la puerta de atras del balance."
+  },
+
+  "wacc_candado_B": {
+    "principio": "El WACC sale del mercado, NO del tier de calidad. Ningun input procede de la etiqueta ULTRA-R.",
+    "tasa_libre_riesgo_pct": 4.65,
+    "fuente_tasa_libre_riesgo": "HECHO. Fuente primaria: U.S. Department of the Treasury, Daily Treasury Par Yield Curve Rates, descarga CSV directa (home.treasury.gov/resource-center/data-chart-center/interest-rates). Fila 07/27/2026: 10 Yr = 4,65%. Referencias contiguas de la misma serie: 4,69% (24-jul), 4,71% (23-jul), 4,67% (22-jul). Moneda funcional USD -> bono soberano USD a 10 anios. Sin intermediarios ni agregadores.",
+    "prima_riesgo_mercado_pct": 4.23,
+    "fuente_prima_mercado": "HECHO (fuente primaria del autor). Damodaran, 'Historical Implied Equity Risk Premiums', pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histimpl.html. ERP implicita (FCFE) de cierre de 2025 = 4,23% (S&P 500 en 6.845,50; earnings yield 3,97%; dividend yield 1,15%). Pagina actualizada enero-2026; no hay valor mensual publicado de julio-2026.",
+    "prima_pais_pct": 0.25,
+    "fuente_prima_pais": "SUPUESTO razonado. Damodaran asigna prima pais 0 a EEUU. El riesgo del ACTIVO de Microsoft es abrumadoramente de mercados desarrollados (EEUU ~50% de ingresos, resto sobre todo Europa occidental, Japon y ANZ), asi que la prima pais ponderada es pequena pero no cero: se usa 0,25 puntos, rango 0,00-0,50. Es el input mas blando del WACC y esta declarado como tal. Su efecto sobre el valor por accion es de +-7 USD: no cambia ninguna conclusion.",
+    "beta": 1.11,
+    "fuente_beta": "HECHO (medicion propia, metodo declarado). Regresion de rendimientos MENSUALES de MSFT contra SPY sobre 60 meses, cierres del 30-jul-2021 al 27-jul-2026, ambas series bajadas de IBKR (get_price_history, step ONE_MONTH, period FIVE_YEARS, contract_id 272093 y 756733). Beta 5 anios mensual = 1,105. Ventanas mas cortas de la MISMA regresion: 3 anios = 1,210; 2 anios = 1,335 — la beta esta subiendo, coherente con que la accion ha empezado a cotizar como una apuesta de capex de IA y no como una suscripcion de software. Ajuste Blume sobre la de 5 anios = 1,07. Se usa 1,11 como central; rango empleado 1,00 - 1,35. HUECO: no se ha contrastado contra una beta publicada por un tercero (Bloomberg / stockanalysis / Yahoo).",
+    "coste_capital_propio_pct": 9.57,
+    "formula_ke": "Ke = 4,65 + 1,105 x 4,23 + 0,25 = 9,57%",
+    "coste_deuda_pct": 3.59,
+    "fuente_coste_deuda": "HECHO, derivado del filing y ponderado por tramo a valor de mercado. (1) BONOS: gasto financiero FY2025 total 2.385 mm (us-gaap:InterestExpenseNonoperating, 10-K FY2025) menos el interes de arrendamiento financiero 1.417 mm (us-gaap:FinanceLeaseInterestExpense) = 968 mm sobre deuda en bonos media del ejercicio ((44.937 + 43.151)/2 = 44.044) = 2,20%. (2) ARRENDAMIENTO FINANCIERO: tipo de descuento medio ponderado DECLARADO en el 10-Q Q3 FY2026 = 4,4% (era 4,1% en mar-2025: sube trimestre a trimestre). Comprobacion realizada: 1.417/36.659 medio FY2025 = 3,87%. (3) ARRENDAMIENTO OPERATIVO: tipo de descuento declarado 3,6%. Mezcla ponderada por saldo a valor de mercado: (36.600x2,20 + 62.932x4,40 + 22.238x3,60)/121.770 = 3,59%. CONTRASTE OBLIGADO: el coste MARGINAL de deuda nueva hoy seria ~5,15% (4,65 + ~50 pb AAA/AA+); el candado pide el coste REAL del filing y eso es lo central, pero el marginal entra en el escenario alto del rango.",
+    "tasa_impositiva_pct": 18.0,
+    "fuente_tasa_impositiva": "HECHO/INFERENCIA. Tipo efectivo FY2025 realizado = 21.795/123.627 = 17,63% (10-K FY2025). 9M FY2026 = 23.904/121.887 = 19,61%, pero esta contaminado por la plusvalia de dilucion de OpenAI. Se usa 18,0%.",
+    "coste_deuda_despues_impuestos_pct": 2.94,
+    "peso_equity_pct": 95.97,
+    "peso_deuda_pct": 4.03,
+    "wacc_pct": 9.31,
+    "wacc_rango": "8,6% - 10,6%",
+    "como_se_construye_el_rango": "Bajo: beta 1,00, prima pais 0,00, coste de deuda 2,20% (solo bonos) -> Ke 8,88%, WACC 8,60%. Alto: beta 1,335 (la de 2 anios, la mas reciente), prima pais 0,50, coste de deuda marginal 5,15% -> Ke 10,86%, WACC 10,59%. Con 96% de la estructura en equity, el WACC es casi enteramente una discusion sobre la beta."
+  },
+
+  "owner_earnings": {
+    "metodo": "Partida: flujo de caja de explotacion del filing. (a) OE de MANTENIMIENTO: se resta solo el capex de mantenimiento, aproximado por la depreciacion de activos productivos = depreciacion de inmovilizado + amortizacion del derecho de uso de arrendamiento financiero. El exceso sobre esa cifra es inversion discrecional y NO se resta. (b) OE de CAPEX TOTAL: se resta todo el capex = flujo de caja libre puro.",
+    "decision_metodologica_capex": "El capex ECONOMICO de Microsoft NO es la linea de caja del estado de flujos. Cada ano entran miles de millones de centros de datos por la via del arrendamiento financiero, que no toca ni el flujo de explotacion ni el de inversion pero crea un pasivo real: 20.511 mm en FY2025 y 19.486 mm en solo 9M de FY2026 (us-gaap:RightOfUseAssetObtainedInExchangeForFinanceLeaseLiability). Ignorarlos infla el flujo de caja libre en ~20.000-26.000 mm al ano. En este expediente el capex total se define como capex de caja + altas de arrendamiento financiero, y se reporta ADEMAS la version solo-caja para que la comparacion con otras empresas siga siendo posible.",
+    "tratamiento_del_SBC": "El flujo de explotacion incorpora la readicion del SBC (11.974 mm en FY2025, ~12.600 mm estimados en FY2026). Se respeta la convencion de los expedientes hermanos —el OE principal lo lleva readido— pero se reporta ademas la linea ex-SBC. El SBC de Microsoft NO es gratis: la recompra de 18.420 mm (FY2025) apenas consigue mantener el recuento de acciones plano, lo que significa que practicamente todo el programa de recompra esta pagando la dilucion, no reduciendo el capital.",
+    "base_auditada": {
+      "ejercicio": "FY2025, cerrado 30-jun-2025",
+      "fuente": "HECHO. 10-K FY2025, accession 0000950170-25-100235, presentado 30-jul-2025. Cifras via us-gaap XBRL companyfacts CIK0000789019.",
+      "ingresos_usd_mm": 281724,
+      "resultado_operativo_usd_mm": 128528,
+      "resultado_neto_usd_mm": 101832,
+      "flujo_caja_explotacion_usd_mm": 136162,
+      "depreciacion_inmovilizado_usd_mm": 22000,
+      "amortizacion_rou_financiero_usd_mm": 3408,
+      "amortizacion_intangibles_usd_mm": 6000,
+      "capex_mantenimiento_proxy_usd_mm": 25408,
+      "capex_caja_usd_mm": 64551,
+      "altas_arrendamiento_financiero_usd_mm": 20511,
+      "capex_economico_total_usd_mm": 85062,
+      "capex_economico_pct_ventas": 30.2,
+      "sbc_usd_mm": 11974,
+      "oe_mantenimiento_usd_mm": 110754,
+      "oe_capex_total_usd_mm": 51100,
+      "oe_capex_total_solo_caja_usd_mm": 71611,
+      "oe_mantenimiento_ex_sbc_usd_mm": 98780,
+      "oe_capex_total_ex_sbc_usd_mm": 39126,
+      "nopat_usd_mm": 105393,
+      "reinversion_neta_usd_mm": 59654,
+      "tasa_reinversion_sobre_nopat_pct": 56.6
+    },
+    "base_en_curso": {
+      "ejercicio": "FY2026, cierra el 30-jun-2026 — AUN NO PUBLICADO en la fecha de este analisis",
+      "trimestres_publicados": "Q1 (30-sep-2025), Q2 (31-dic-2025) y Q3 (31-mar-2026). Ultimo 10-Q: accession 0001193125-26-191507, presentado 29-abr-2026.",
+      "reales_9M_ingresos_usd_mm": 241832,
+      "reales_9M_resultado_operativo_usd_mm": 114634,
+      "reales_9M_flujo_caja_explotacion_usd_mm": 127494,
+      "reales_9M_capex_caja_usd_mm": 80146,
+      "reales_9M_altas_arrendamiento_financiero_usd_mm": 19486,
+      "reales_9M_depreciacion_usd_mm": 24000,
+      "reales_9M_amortizacion_rou_financiero_usd_mm": 3856,
+      "reales_9M_sbc_usd_mm": 9283,
+      "metodo_anualizacion": "INFERENCIA disciplinada, SIN guia de la empresa (ver hueco H1). Ingresos: Q4 = Q3 x 1,08 (crecimiento secuencial Q3->Q4 de FY2025 = +9,1%, de FY2024 = +4,6%; se usa el punto medio-alto por el momentum de 9M, +17,8% interanual) -> Q4 ~89.500, FY2026E 331.300. Resultado operativo: se aplica un margen del 45% al Q4 (los margenes trimestrales de FY2026 van cayendo: 48,9% Q1, 47,1% Q2, 46,3% Q3, por el arrastre de la depreciacion) -> FY2026E 155.000. Flujo de explotacion: dos metodos, ratio Q4/9M historico (~45%, da 56.100) y conversion sobre ingresos (~55%, da 49.200); se toma el punto medio -> Q4 ~52.500, FY2026E 180.000 (+-8%). Capex de caja: Q4 ~33.000 (Q3 real 30.876, con la empresa guiando a incrementos secuenciales) -> FY2026E 113.100. Arrendamiento financiero: Q4 ~6.500 -> FY2026E 26.000. NO se ha inventado aceleracion en ninguna linea.",
+      "ingresos_usd_mm": 331300,
+      "resultado_operativo_usd_mm": 155000,
+      "flujo_caja_explotacion_usd_mm": 180000,
+      "depreciacion_inmovilizado_usd_mm": 34000,
+      "amortizacion_rou_financiero_usd_mm": 5350,
+      "capex_mantenimiento_proxy_usd_mm": 39350,
+      "capex_caja_usd_mm": 113100,
+      "altas_arrendamiento_financiero_usd_mm": 26000,
+      "capex_economico_total_usd_mm": 139100,
+      "capex_economico_pct_ventas": 42.0,
+      "sbc_usd_mm": 12600,
+      "oe_mantenimiento_usd_mm": 140650,
+      "oe_capex_total_usd_mm": 40900,
+      "oe_capex_total_solo_caja_usd_mm": 66900,
+      "oe_mantenimiento_ex_sbc_usd_mm": 128050,
+      "oe_capex_total_ex_sbc_usd_mm": 28300,
+      "nopat_usd_mm": 127100,
+      "reinversion_neta_usd_mm": 99750,
+      "tasa_reinversion_sobre_nopat_pct": 78.5
+    },
+    "distancia_entre_bases": {
+      "oe_mantenimiento_variacion_pct": 27.0,
+      "oe_capex_total_variacion_pct": -20.0,
+      "lectura": "Esta es la informacion mas importante del expediente y no es ruido. Entre el ultimo auditado y el ejercicio en curso, los owner earnings de MANTENIMIENTO suben un 27% y los de CAPEX TOTAL bajan un 20%. Los ingresos crecen un 18%. Todo el hueco lo abre el capex economico, que pasa de 30,2% a 42,0% de las ventas en un solo ejercicio. Es el retrato exacto de la especie G2 congelada: la maquina de explotacion funciona mejor que nunca y el accionista no ve un dolar mas de caja libre porque el 100% del incremento —y algo mas— se esta enterrando en centros de datos cuyo NOPAT, segun la propia tesis congelada, no sera medible hasta FY2028. La tasa de reinversion neta sobre NOPAT salta del 56,6% al 78,5%.",
+      "que_pasaria_si_el_capex_se_normalizase": "Si el capex economico volviese al 30% de ventas de FY2025, el OE de capex total de FY2026E seria 180.000 - 99.400 = 80.600 mm en vez de 40.900. El EV/OE caeria de 72x a 36,6x. Ese es el tamano del salto que hay que creerse: no un margen mejor, sino que el capex pare."
+    },
+    "multiplos_a_los_que_cotiza_hoy": {
+      "ev_sobre_oe_mantenimiento_auditado": 26.6,
+      "ev_sobre_oe_mantenimiento_encurso": 20.9,
+      "ev_sobre_oe_capex_total_encurso": 72.0,
+      "ev_sobre_oe_capex_total_solo_caja_encurso": 44.0,
+      "per_normalizado_encurso": 23.1,
+      "nota_per": "INFERENCIA. Beneficio neto FY2026E normalizado ~126.000 mm (se descuentan los 5.900 mm de plusvalia neta por la recapitalizacion de OpenAI reconocidos en 9M) sobre ~7.450 mm de acciones diluidas = BPA ~16,9 USD -> PER 23,1x. Para contexto: la accion cotizo por encima de 35x en 2024-2025. En terminos de PER, MSFT esta HOY mas barata que en anos. En terminos de caja libre real esta a 44x. Las dos cosas son verdad a la vez y la diferencia entre ellas ES la tesis."
+    }
+  },
+
+  "dcf_inverso": {
+    "motor": "Para cada base y cada definicion de owner earnings: que crecimiento CONSTANTE a 10 anios, con valor terminal al 3% a perpetuidad, descontado al WACC de mercado de 9,31%, iguala exactamente el EV de hoy (2.946.008 mm).",
+    "sobre_oe_de_mantenimiento": {
+      "base_auditada_g_implicita_pct": 9.44,
+      "base_en_curso_g_implicita_pct": 6.29,
+      "lectura": "Leido asi, el mercado pide que los owner earnings de mantenimiento crezcan un 6,3% anual durante diez anos. Microsoft acaba de hacerlos crecer un 27% en un ano. Sobre esta base la accion parece BARATA. Pero esta base es economicamente incoherente para valorar: supone que el accionista se queda con los 140.650 mm de OE de mantenimiento Y ADEMAS que el negocio crece, cuando el crecimiento se esta pagando con los 99.750 mm de reinversion neta que esta base no descuenta. No se puede repartir el dinero y gastarlo a la vez. Se reporta porque es informativo, no porque sea el numero de decision."
+    },
+    "sobre_oe_de_capex_total": {
+      "base_auditada_g_implicita_pct": 19.72,
+      "base_en_curso_g_implicita_pct": 22.74,
+      "base_auditada_solo_caja_g_implicita_pct": 15.21,
+      "base_en_curso_solo_caja_g_implicita_pct": 16.12,
+      "lectura": "Esta es la lectura coherente: el flujo de caja libre ya esta neto de la inversion que compra el crecimiento, asi que la g implicita es una g limpia. El precio de hoy exige que el flujo de caja libre de Microsoft crezca entre un 19,7% y un 22,7% ANUAL DURANTE DIEZ ANOS y despues al 3% a perpetuidad. Con la definicion mas benevolente (capex solo de caja, ignorando los arrendamientos financieros) sigue exigiendo 15-16%. Contraste con la tasa base del negocio: los ingresos crecen al 18% en el mejor momento de su historia y el propio flujo de caja libre economico ha CAIDO un 20% este ano."
+    },
+    "numero_de_decision": "22,7% a diez anos (base en curso, capex economico total). Ese es el listón. Ninguna empresa de 2,9 billones de dolares ha compuesto flujo de caja libre al 22% durante una decada."
+  },
+
+  "g_defendible": {
+    "formula": "g = tasa de reinversion NETA sobre NOPAT x ROIIC EX-MARGEN. Se usa el ex-margen (12,3%, congelado) y no el bruto (17,7%): usar el bruto equivale a suponer que la expansion de margen de los ultimos cinco anos se repite otros diez, y la propia tesis congelada dice que casi un tercio del crecimiento de beneficio vino de PRECIO, no de capital.",
+    "tasa_reinversion_neta_auditada_pct": 56.6,
+    "tasa_reinversion_neta_encurso_pct": 78.5,
+    "tasa_reinversion_neta_usada_pct": 66.7,
+    "roiic_ex_margen_pct": 12.3,
+    "g_defendible_pct": 8.2,
+    "rango_g_defendible": "7,0% (con la tasa de reinversion del auditado) - 9,7% (con la del ejercicio en curso). Central 8,2%.",
+    "por_que_no_mas": "La tasa de reinversion del 78,5% del ejercicio en curso no es sostenible diez anos: la propia tesis congelada dice que el 58% de la reinversion de la ventana se hizo en los ultimos 24 meses. Proyectar ese pico a una decada seria confundir una ola con una marea. Y aunque se proyectase, 78,5% x 12,3% = 9,7%, muy lejos del 22,7% que pide el precio.",
+    "la_viga_maestra": "Todo este expediente se apoya en un solo numero: ROIIC ex-margen = 12,3%. Con un WACC de 9,31%, el diferencial es de apenas 3 puntos. Eso significa que el crecimiento de Microsoft crea valor, pero muy poco valor por dolar reinvertido: hay que meter 65 centavos de cada dolar de NOPAT para comprar un 8% de crecimiento. Si el ROIIC fuese 25-30% (lo que fue el negocio de software antes de la ola de capex), la aritmetica cambia por completo. Ver sensibilidad. Pero el 12,3% esta CONGELADO y es el central."
+  },
+
+  "valoracion": {
+    "modelo": "FCFF en dos etapas, internamente consistente. Etapa 1 (anos 1-10): NOPAT crece al g defendible, tasa de reinversion = g/ROIIC, flujo libre = NOPAT x (1 - g/ROIIC). Etapa 2 (terminal): g = 3%, tasa de reinversion = 3%/ROIIC = 24,4%, flujo libre = NOPAT x 0,756. Descuento al WACC 9,31%. Al valor de empresa se le resta la deuda neta de 43.498 mm y se divide entre 7.429 mm de acciones.",
+    "por_que_este_modelo": "Es el unico que no permite hacer trampa: fija la relacion entre el crecimiento que se asume y el dinero que hay que enterrar para conseguirlo. Comprobacion de cordura: el flujo del ano 1 que arroja el modelo (NOPAT 127.100 x 0,35 = 44.485 mm) es LIGERAMENTE SUPERIOR al OE de capex total realmente estimado para FY2026 (40.900 mm). El modelo, por tanto, no esta siendo mas duro que la realidad.",
+    "base_auditada": {
+      "nopat_partida_usd_mm": 105393,
+      "g_usada_pct": 8.2,
+      "ev_modelo_usd_mm": 1499000,
+      "valor_por_accion_usd": 196,
+      "banda_de_resolucion_usd": "147 - 245",
+      "mos_pct": -99.4
+    },
+    "base_en_curso": {
+      "nopat_partida_usd_mm": 127100,
+      "g_usada_pct": 8.2,
+      "ev_modelo_usd_mm": 1808000,
+      "valor_por_accion_usd": 237,
+      "banda_de_resolucion_usd": "178 - 296",
+      "mos_pct": -64.5
+    },
+    "piso_de_resolucion": "Sin medicion propia de ruido, se aplica +-25% a todo valor intrinseco. Se reportan valores por accion redondeados a numero entero. NO hay decimales en el valor intrinseco: serian falsos. El precio de hoy (390,70) queda POR ENCIMA del techo de las dos bandas (245 y 296). Esa es la unica afirmacion de valoracion que este expediente hace con robustez.",
+    "sensibilidad_matriz_valor_por_accion": {
+      "explicacion": "Filas = g defendible; columnas = WACC (8,60% / 9,31% / 10,59%). ROIIC congelado 12,3%.",
+      "base_auditada": {
+        "g_7,0%": [221, 190, 150],
+        "g_8,0%": [229, 196, 153],
+        "g_9,7%": [244, 206, 157]
+      },
+      "base_en_curso": {
+        "g_7,0%": [267, 231, 182],
+        "g_8,0%": [277, 237, 185],
+        "g_9,7%": [296, 250, 191]
+      },
+      "conclusion_de_la_matriz": "En las 18 celdas de la matriz, con el ROIIC congelado, NO hay ni una sola en la que el valor por accion alcance el precio de 390,70. El maximo es 296."
+    },
+    "sensibilidad_al_roiic_NO_CENTRAL": {
+      "advertencia": "Esta seccion NO es la valoracion central. Existe porque el ROIIC ex-margen es la unica viga maestra y la propia tesis congelada declara que su retorno 'no sera medible hasta FY2028'. Sustituir el 12,3% por un numero mas amable en la valoracion central seria exactamente la contradiccion madre buscando otra puerta.",
+      "valor_por_accion_base_encurso": {
+        "roiic_12,3_pct_CENTRAL": 237,
+        "roiic_15_pct": 267,
+        "roiic_20_pct": 301,
+        "roiic_25_pct": 321,
+        "roiic_30_pct": 335,
+        "roiic_40_pct": 351
+      },
+      "valor_por_accion_base_auditada": {
+        "roiic_12,3_pct_CENTRAL": 196,
+        "roiic_15_pct": 220,
+        "roiic_20_pct": 248,
+        "roiic_25_pct": 265,
+        "roiic_30_pct": 276,
+        "roiic_40_pct": 290
+      },
+      "hallazgo_clave": "Ni siquiera con un ROIIC del 40% —tres veces el congelado, mas alto que cualquier cosa que Microsoft haya demostrado en la ventana— el valor por accion llega a 390,70. El techo es 351. Es decir: el precio de hoy no se justifica reparando el ROIIC. Solo se justifica con g mucho mas alta o con activos que este modelo no valora (OpenAI).",
+      "g_necesaria_a_roiic_alternativo": "Con ROIIC 20% haria falta g = 12,7% a diez anos; con ROIIC 25%, g = 11,2%; con ROIIC 30%, g = 10,4%. Con el ROIIC congelado del 12,3% NO existe ninguna g inferior al propio ROIIC que justifique el precio: el problema es estructural, no de crecimiento."
+    }
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 13.0,
+    "definicion_m_estrella": "13,0 veces los owner earnings de MANTENIMIENTO (base en curso, 140.650 mm) sobre valor de empresa. Decidido en frio, sin barra de error, porque es una decision y no una estimacion.",
+    "como_se_fija_en_frio": "Un negocio que necesita reinvertir 65 centavos de cada dolar de NOPAT para crecer al 8%, y cuyo retorno sobre ese capital nuevo (12,3%) esta a solo 3 puntos de su coste (9,31%), no merece el multiplo de un compounder de capital ligero. La perpetuidad sin crecimiento a este WACC ya vale 10,8x. Los diez anos de crecimiento al 8% anaden solo ~2 puntos de multiplo porque casi todo el crecimiento se autoconsume. 13,0x es lo que la aritmetica de los inputs congelados soporta, y es el numero que me comprometo a pagar. Tentacion registrada y rechazada: subirlo a 18-20x apelando a los 627.000 mm de cartera contratada. La cartera explica por que el ingreso es predecible, no por que el capital rinda al 12,3%.",
+    "multiplo_al_que_cotiza_hoy": 20.9,
+    "brecha_de_multiplo_pct": 61,
+    "lectura_de_la_brecha": "El mercado paga 20,9x los owner earnings de mantenimiento; yo me comprometo a 13,0x. Un 61% mas caro que mi disciplina. Sobre owner earnings de capex total la brecha es de 72,0x frente a un multiplo defendible de una sola cifra.",
+    "valor_por_accion_via_m_estrella_usd": 240,
+    "p_estrella_usd": 166,
+    "calculo_p_estrella": "Valor intrinseco central (base en curso, ROIIC congelado 12,3%, g 8,2%, WACC 9,31%) = 237 USD/accion. MoS exigido por su banda = 30% (ULTRA en cartera -> CARGAR). P* = 237 x 0,70 = 166 USD. Comprobacion cruzada por el multiplo: 13,0 x 140.650 = 1.828.450 EV -> 240 USD/accion -> P* = 168 USD. Las dos rutas coinciden dentro del ruido.",
+    "p_estrella_alternativo_declarado": "Bajo la lectura MAS generosa que este expediente considera creible pero NO central (base en curso, ROIIC 30%, valor 335 USD), el P* con el mismo 30% de MoS seria 234 USD. Ese es el techo del rango de precios de entrada bajo cualquier especificacion defendible. El precio de hoy (390,70) esta un 67% por encima incluso de ese techo.",
+    "distancia_del_precio_a_p_estrella_pct": 135
+  },
+
+  "tir_esperada": {
+    "metodo": "Tasa de descuento que iguala el EV del modelo FCFF de dos etapas al EV de mercado de hoy. Es el rendimiento anual compuesto que obtiene quien compra a 390,70 si el modelo se cumple.",
+    "escenarios": [
+      {"base": "auditada FY2025", "roiic_pct": 12.3, "g_pct": 8.0, "tir_pct": 6.65, "etiqueta": "CENTRAL BAJO — inputs congelados"},
+      {"base": "en curso FY2026E", "roiic_pct": 12.3, "g_pct": 8.0, "tir_pct": 7.27, "etiqueta": "CENTRAL — inputs congelados"},
+      {"base": "en curso FY2026E", "roiic_pct": 20.0, "g_pct": 8.0, "tir_pct": 8.06, "etiqueta": "no central — ROIIC reparado"},
+      {"base": "en curso FY2026E", "roiic_pct": 25.0, "g_pct": 9.0, "tir_pct": 8.63, "etiqueta": "no central"},
+      {"base": "en curso FY2026E", "roiic_pct": 30.0, "g_pct": 10.0, "tir_pct": 9.17, "etiqueta": "no central — techo optimista"}
+    ],
+    "rango": "6,5% - 9,2% anual durante 10 anos. Central 7,3%.",
+    "comprobacion_independiente": "Ruta del multiplo, sin DCF: comprando a 23,1x beneficio normalizado, con BPA creciendo ~10% anual y saliendo a 20x en 2036, el rendimiento seria 10% - 1,4% de compresion de multiplo + 0,9% de dividendo = ~9,5%. El modelo FCFF da menos (7,3%) porque cobra integramente la reinversion. El rango honesto es 6,5%-9,5%.",
+    "traduccion": "Esto es lo que hay que decir en voz alta en vez de 'MoS -64,5%': comprar Microsoft hoy a 390,70 probablemente rinda entre un 6,5% y un 9,5% anual durante una decada. No es una perdida. Es un rendimiento de renta variable mediocre para el mejor activo empresarial del mundo, con un bono del Tesoro a 10 anios pagando 4,65% sin riesgo. La prima sobre el bono es de 2-5 puntos. Ese es el trato."
+  },
+
+  "trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "Una trampa de valor es un MoS grande sobre un motor que se esta rompiendo. Aqui NO hay MoS grande: hay un MoS NEGATIVO del -64,5%. No se puede caer en una trampa que no ofrece descuento. Microsoft no es un negocio barato con el motor roto; es un negocio excelente con un precio caro.",
+    "el_riesgo_real_que_si_existe": "El riesgo de esta posicion no es la trampa de valor, es la TRAMPA DEL ANCLA. La accion ha caido un 29% desde 552,28 y cotiza a 23x beneficio normalizado, el PER mas bajo en anos. La tentacion —y el orquestador ya avisa de ella— es leer esa caida como 'por fin esta barata' y CARGAR. Los numeros dicen lo contrario: a 44x el flujo de caja libre de caja y 72x el flujo de caja libre economico, la caida del 29% ha llevado a Microsoft de absurdamente cara a solo cara.",
+    "senales_de_deterioro_del_motor_declaradas": [
+      "El flujo de caja libre economico CAE un 20% (51.100 -> 40.900 mm) mientras los ingresos suben un 18%. Es la primera vez en la ventana que las dos series divergen de signo.",
+      "El capex economico pasa del 30,2% al 42,0% de las ventas en un solo ejercicio.",
+      "La deuda de arrendamiento financiero crece un 132% en 21 meses (27.145 -> 62.932 mm) y ya supera a la deuda en bonos. Es capex de centro de datos financiado fuera del estado de flujos de caja.",
+      "El tipo de descuento de esos arrendamientos sube trimestre a trimestre: 4,1% (mar-2025) -> 4,2% -> 4,3% -> 4,4% (mar-2026). Financiarse le cuesta cada vez mas.",
+      "El margen operativo trimestral cae de forma monotona dentro de FY2026: 48,9% -> 47,1% -> 46,3%. Es el arrastre de la depreciacion de la ola de capex empezando a morder.",
+      "La beta sube: 1,105 a 5 anios, 1,210 a 3 anios, 1,335 a 2 anios. El mercado ya la esta cotizando como una apuesta ciclica de infraestructura, no como una suscripcion."
+    ],
+    "senales_de_que_el_motor_sigue_intacto": [
+      "HECHO, 10-Q Q3 FY2026: cartera de pedidos comercial (RPO) de 627.000 millones de dolares al 31-mar-2026, con duracion media ponderada de aproximadamente 2,5 anos. Coincide EXACTAMENTE con el mecanismo congelado. De ese total, la empresa espera reconocer solo el 25% en los proximos 12 meses.",
+      "El RPO total salta de 398.000 mm (sep-2025) a 631.000 mm (dic-2025) y 633.000 mm (mar-2026). El peaje contractual no solo no se rompe: se duplica.",
+      "Flujo de explotacion 9M +36,3% interanual (93.515 -> 127.494 mm).",
+      "Ingresos 9M +17,8% interanual."
+    ],
+    "matiz_que_rebaja_el_mecanismo": "Buena parte del salto de 233.000 mm en el RPO entre sep-2025 y dic-2025 corresponde al compromiso de Azure firmado por OpenAI en la nueva alianza de octubre-2025. Microsoft posee ~27% de OpenAI (base as-converted, metodo de la participacion con HLBV) y le ha comprometido 13.000 mm de financiacion, de los que 11.800 ya estan desembolsados (HECHO, 10-Q Q3 FY2026, Nota 1). Es decir: una parte relevante de la cartera contratada esta firmada por una contraparte de la que Microsoft es a la vez accionista y financiador. Eso NO invalida el mecanismo del peaje —el resto de la cartera es de empresas occidentales sin relacion accionarial— pero si obliga a no tratar los 627.000 mm como si todos tuvieran la misma calidad de credito. Se declara como MATIZ A LA BAJA del mecanismo; en ningun caso se usa para reclasificar la calidad."
+  },
+
+  "eslabon_debil_visto_desde_el_precio": {
+    "el_eslabon_congelado": "ROIIC ex-margen del 10-12%, por debajo del umbral del 15%, con el 58% de la reinversion de la ventana hecha en los ultimos 24 meses sin haber producido todavia un dolar de NOPAT.",
+    "que_le_hace_el_precio": "Convierte el eslabon debil en la unica variable que importa. Con el ROIIC congelado del 12,3%, el valor por accion es de 237 y no hay ninguna combinacion de g y WACC razonable que lo lleve a 390,70. Pero la sensibilidad demuestra algo aun mas incomodo para el toro: NI SIQUIERA CON ROIIC DEL 40% se llega a 390,70 (techo 351). El precio de hoy no esta apostando a que el capex de IA rinda bien. Esta apostando a algo que este modelo no captura.",
+    "que_es_ese_algo": "Casi con seguridad, la participacion del ~27% en OpenAI, que el modelo valora en cero. Ver hueco H3: para cerrar la brecha de 153,20 USD por accion (1.138.000 mm) haria falta que la participacion valiese eso, lo que implica una valoracion de OpenAI de ~4,2 billones de dolares. Esa es la apuesta implicita, dicha en voz alta y falsable.",
+    "cuando_se_resuelve": "FY2028, segun la propia tesis congelada. Hasta entonces cualquier veredicto de precio sobre MSFT es un voto sobre una incognita, no una medicion."
+  },
+
+  "huecos_declarados": [
+    "H1 — GRAVE. El Q4 de FY2026 no esta publicado. Microsoft cierra el ejercicio el 30-jun-2026 y suele reportar a finales de julio: el resultado podria publicarse en las proximas 24-72 horas desde la fecha de este analisis. TODA la base 'en curso' (ingresos 331.300, resultado operativo 155.000, flujo de explotacion 180.000, capex 139.100) es una estimacion propia construida sobre 9M reales, sin acceso a la guia de la direccion ni a la transcripcion de la conferencia del Q3. Banda declarada: +-8% en flujo de explotacion, +-15% en capex. RECOMENDACION OPERATIVA: rehacer este expediente en cuanto salga el 10-K de FY2026.",
+    "H2 — GRAVE. El ROIIC ex-margen del 12,3% es la viga maestra de toda la valoracion y viene CONGELADO de la fase de calidad. La propia tesis congelada declara que su retorno 'no sera medible hasta FY2028'. Se ha usado como central por disciplina, y se ha publicado la sensibilidad completa para que el lector vea exactamente cuanto depende de el. No se ha sustituido por un numero mas amable.",
+    "H3 — GRAVE Y EN CONTRA DE LA CONCLUSION DE ESTE EXPEDIENTE. La participacion de ~27% en OpenAI (base as-converted) NO esta valorada en el modelo. En balance figura por 11.100 mm bajo el metodo de la participacion con HLBV (10-Q Q3 FY2026), una cifra contable que casi con certeza no guarda relacion con su valor economico. En 9M de FY2026 esa participacion aporto 5.900 mm de plusvalias netas, principalmente la plusvalia de dilucion de la recapitalizacion. Cuantificacion de lo que falta: para que el precio de 390,70 quedase justificado solo con este activo, la participacion tendria que valer 1.138.000 mm, lo que implica una valoracion de OpenAI de ~4,2 billones de dolares. Esa cifra es falsable y es la apuesta implicita del mercado. Este expediente NO la valora y por tanto su MoS negativo es, en rigor, un MoS sobre el negocio operativo de Microsoft, no sobre la accion completa.",
+    "H4 — MEDIO. La beta (1,105) es medicion propia por regresion mensual a 5 anios contra SPY con datos de IBKR. No se ha contrastado contra una beta publicada por un tercero citable (Bloomberg, Yahoo, stockanalysis). El metodo esta declarado y es reproducible, pero es autoproducido.",
+    "H5 — MEDIO. La prima pais de 0,25 puntos es un SUPUESTO razonado sobre la mezcla geografica de ingresos, no una cifra sacada de la tabla de Damodaran (que asigna 0 a EEUU). Rango 0,00-0,50; efecto +-7 USD por accion.",
+    "H6 — MEDIO. El proxy de capex de mantenimiento (depreciacion de inmovilizado + amortizacion del derecho de uso financiero = 39.350 mm en FY2026E) es una aproximacion. En un negocio cuyo capex se ha duplicado en dos anos, la depreciacion reportada refleja una base de activos mucho mas pequena que la que habra que mantener dentro de tres anos: el verdadero capex de mantenimiento futuro sera MAYOR que el proxy usado, lo que hace que el OE de mantenimiento aqui reportado sea generoso, no conservador.",
+    "H7 — BAJO. El peso de la posicion (4,36% del NAV) viene del orquestador y no se ha verificado contra la cartera viva de IBKR en esta sesion. De el depende que el umbral sea 30% (CARGAR) y no 18% (abrir).",
+    "H8 — BAJO. La estimacion de altas de arrendamiento financiero del Q4 FY2026 (6.500 mm) es la linea con menos anclaje del expediente: los cuatro ultimos trimestres publicados son 9.147, 6.330, 4.009 y (9M total) 19.486, una serie muy volatil."
+  ],
+
+  "veredicto_de_precio": {
+    "una_linea": "Excelente negocio, precio malo: a 390,70 USD el mercado paga 20,9 veces los owner earnings de mantenimiento y 72 veces el flujo de caja libre economico, exige un 22,7% de crecimiento del flujo libre durante diez anos, y ofrece un rendimiento esperado del 6,5%-9,5% anual. NO se alcanza ni de lejos el 30% de margen de seguridad que exige su banda.",
+    "accion_sobre_el_eje_precio": "NO CARGAR. El expediente no dice vender —el eje precio no decide ventas y la calidad esta congelada en ULTRA-R— dice que no hay nada que anadir a este precio.",
+    "precio_al_que_esto_cambia": "166 USD bajo la especificacion central. 234 USD bajo la especificacion mas generosa que este expediente considera creible (ROIIC 30%). El precio de hoy esta un 135% por encima del primero y un 67% por encima del segundo.",
+    "que_falsaria_este_veredicto": [
+      "Que el 10-K de FY2026 muestre el capex economico estabilizandose por debajo del 35% de ventas con el crecimiento de Azure intacto: eso llevaria el OE de capex total de 40.900 a ~65.000 mm y recortaria a la mitad la g exigida.",
+      "Que aparezca evidencia auditada de NOPAT incremental atribuible a la ola de capex de IA que implique un ROIIC ex-margen por encima del 20%. La propia tesis congelada fecha eso en FY2028.",
+      "Que se materialice una valoracion de mercado observable de la participacion en OpenAI. Si vale mas de 1,1 billones, este expediente se equivoca y por mucho.",
+      "Que el WACC baje de verdad: cada 100 pb de caida del tipo a 10 anios anade ~40 USD por accion al valor central."
+    ],
+    "nota_al_socio": "El unico argumento serio del toro a este precio no esta en ninguna linea del estado de resultados de Microsoft: esta en el 27% de OpenAI que este modelo valora en cero. Si Felipe quiere comprar mas MSFT aqui, que lo haga sabiendo que esta comprando principalmente esa opcion, y que la ponga por escrito con una valoracion concreta y falsable de OpenAI. Comprar 'porque ha caido un 29%' seria el ancla, no la tesis."
+  }
+}

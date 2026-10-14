@@ -1,0 +1,100 @@
+{
+ "ticker": "ADP",
+ "name": "Automatic Data Processing, Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 214.6,
+ "market_cap_usd_b": 85.8,
+ "fwd_pe": 17.85,
+ "fwd_pe_5y_avg": 26,
+ "pe_prem_disc_pct": -31.3,
+ "peg": null,
+ "last_q": {
+  "period": "Q3 FY2026 (quarter ended March 31, 2026)",
+  "revenue": "$5.9B (~$5,899M)",
+  "rev_yoy_pct": 7,
+  "op_margin_pct": 30.2,
+  "eps_gaap": "$3.38",
+  "eps_adj": "$3.37"
+ },
+ "last_fy": {
+  "period": "FY2025 (year ended June 30, 2025)",
+  "revenue": "$20,560.9M",
+  "organic_growth_pct": 7,
+  "roic_pct": 35.3,
+  "fcf": "$4,392.7M (CFO $4,939.7M - capex $168.7M - intangibles $378.3M)",
+  "fcf_margin_pct": 21.4
+ },
+ "sbc_pct_revenue": 1.29,
+ "sbc_pct_fcf": 6.1,
+ "net_debt_usd_b": 0.63,
+ "nd_ebitda": 0.1,
+ "net_cash": false,
+ "guidance_fy": "FY2026 outlook (raised at Q3, Apr 29 2026): revenue growth 6-7%, adjusted EBIT margin expansion +70-80 bps, diluted & adjusted diluted EPS growth 10-11%, adjusted effective tax rate ~23%. PROYECCION de la direccion.",
+ "pct_off_52w_high": -34.9,
+ "pct_off_ath": -34.9,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "guidance_fy"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "drop_classification"
+ ],
+ "sources": [
+  {
+   "label": "SEC EDGAR 8-K Exhibit 99 — ADP Q3 FY2026 Results (filed Apr 29, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000008670/000000867026000016/q3fy26exhibit99.htm",
+   "date": "2026-04-29"
+  },
+  {
+   "label": "SEC EDGAR 10-K — ADP FY2025 (year ended June 30, 2025)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000008670/000000867025000037/adp-20250630.htm",
+   "date": "2025-08-06"
+  },
+  {
+   "label": "StockAnalysis.com — ADP price, market cap, fwd P/E, 52w range",
+   "url": "https://stockanalysis.com/stocks/adp/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com — ADP ratios (fwd P/E, P/E history)",
+   "url": "https://stockanalysis.com/stocks/adp/financials/ratios/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Finbox / Macrotrends — ADP ROIC FY2025",
+   "url": "https://finbox.com/NASDAQGS:ADP/explorer/roic/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Motley Fool / Trefis / Investing.com — ADP decline drivers (AI fears, employment, valuation reset), 52w low $208.43",
+   "url": "https://www.fool.com/investing/2026/02/26/1-magnificent-dividend-stock-down-x-to-buy-and-hol/",
+   "date": "2026-02-26"
+  }
+ ],
+ "notes": "VERIFICADO de filings SEC: Q3 FY2026 (qtr ended Mar 31, 2026): ingresos $5.9B (+7% reportado, +6% organico CC), EBIT ajustado $1,781.8M, margen EBIT ajustado 30.2% (+80bps), EPS GAAP $3.38, EPS ajustado $3.37, tasa fiscal 23.7%. op_margin_pct=30.2 es el margen EBIT AJUSTADO (no margen operativo GAAP estricto). FY2025: ingresos $20,560.9M (+7% organico CC), CFO $4,939.7M, capex $168.7M, adiciones a intangibles $378.3M -> FCF ~$4,392.7M (margen 21.4%); SBC $266.1M = 1.29% ingresos / 6.1% FCF (R9: SBC muy baja, alta calidad). Deuda LP $3,974.7M vs caja $3,347.8M -> deuda neta corporativa ~$0.63B (NO caja neta); ND/EBITDA ~0.1x (muy bajo). OJO: ADP tiene grandes 'client funds obligations' en balance compensadas por client funds assets — se excluyen del calculo de deuda corporativa. VALORACION (agregador stockanalysis.com, ESTIMADO): precio $214.60, mkt cap ~$85.8B, fwd P/E 17.85, P/E trailing 20.03; fwd_pe_5y_avg=26 es ESTIMACION (media historica forward ~25-26; stockanalysis muestra P/E trailing 5y ~27), por tanto pe_prem_disc_pct (-31%) es aproximado. PEG no disponible. Rango 52s $188.16-$329.93; ATH ~$326.81 (8-jun-2025); off-high ~-35%. DROP=fear_rotation: el negocio CRECE y la direccion SUBIO la guia en Q3; la caida (~-30% YoY) responde a (1) miedo a que la IA generativa erosione el modelo de payroll/HCM, (2) mercado laboral debil / 'pays per control' plano, (3) reajuste de un multiplo historicamente elevado — NO a deterioro de fundamentales. roic_pct 35.3% via Finbox/Macrotrends (ESTIMADO, no reportado directamente por ADP). market_cap pequena divergencia entre fuentes ($85.8B stockanalysis vs $92B busqueda 9-jun) por movimiento de precio."
+}

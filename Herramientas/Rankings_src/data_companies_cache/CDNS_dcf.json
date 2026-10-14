@@ -1,0 +1,41 @@
+{
+ "ticker": "CDNS",
+ "currency": "USD",
+ "current_price": 389.04,
+ "wacc_pct": 10,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.15,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base FY2025 = reported FCF $1.587B − 100% SBC $0.455B = $1.132B (owner-FCF margin ~21.4% on $5.297B revenue). Reported FCF margin was 30%, but SBC equals 28.7% of FCF, so charging it as a cash expense cuts owner margin by ~8.6 pts of revenue. This is the conservative, cash-true base for all three scenarios.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 14.5,
+  "rev_cagr_y6_10_pct": 8.5,
+  "fcf_margin_terminal_pct": 29,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% of SBC ($455M FY25, 8.6% of revenue) charged as a cash expense in every year; modeled to stay ~8% of revenue and already embedded in the owner-FCF margin path (21.4% rising to target). No add-back.",
+  "shares_diluted_b": 0.2758,
+  "net_debt_usd_b": 1.53
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 102.24,
+   "prob": 0.375,
+   "note": "Rev CAGR 11% (yrs1-5) declining 9%->5% (yrs6-10); owner margin expands modestly to 26%; terminal g 2.5%. EDA growth decelerates as the AI/design upcycle matures and SBC stays high. IV $102 implies the stock is priced ~3.8x above a cash-true conservative case."
+  },
+  "base": {
+   "iv_per_share": 144.42,
+   "prob": 0.475,
+   "note": "Rev CAGR 14.5% (yrs1-5, in line with FY25 +14% and FY26 guide +16-18%) declining 11%->6%; owner margin to 29%; terminal g 3.0%. Even matching the strong track record, IV $144 sits far below the $389 price — the gap is multiple expansion the market already pays for."
+  },
+  "optimista": {
+   "iv_per_share": 189.55,
+   "prob": 0.15,
+   "note": "Perfect execution: rev CAGR 17% (yrs1-5) declining 13%->7%; owner margin to 31% as scale dilutes SBC; terminal g 3.5%. Record $8.0B backlog + AI-driven EDA/SoC tailwind sustained for a decade. Still only ~$190 vs $389."
+  }
+ },
+ "sanity_check": "CDNS trades at ~48-49x forward P/E (FY26 non-GAAP EPS ~$7.90), ~68x reported FCF, and ~95x owner FCF (charging SBC). The owner-earnings DCF (WACC 10%, base IV $144, prob-weighted IV ~$135) is ~65% below the $389 price, confirming the Phase-2 'not_depressed / quality but expensive' tag: the stock is priced for a decade of sustained mid-teens growth WITH continued multiple richness, which a disciplined DCF will not pay for. Shareholder-return contrast (not a payout name): CDNS pays NO dividend; buybacks run ~$1.0-1.3B/yr but mostly offset SBC dilution, so net shareholder yield is only ~1%. The investment case rests entirely on durable double-digit compounding and the moat (duopoly EDA with Synopsys, ~80%+ recurring revenue, AI/chip-design secular tailwind), not on cash returned. At current levels the margin of safety on cash flows is negative.",
+ "method_notes": "Owner-earnings 2-stage DCF. Base owner FCF = FY2025 reported FCF $1.587B minus 100% of SBC $0.455B = $1.132B (owner margin 21.4%). Revenue grown two phases: Phase 1 yrs1-5 at an explicit CAGR, Phase 2 yrs6-10 at a linearly declining CAGR toward normalization; owner-FCF margin ramps linearly from 21.4% to a scenario target (26-31%) reflecting operating leverage net of persistent ~8% SBC. Each year's owner FCF discounted at WACC 10.0% = Rf 4.3% (UST 10Y) + ERP 5.0% × beta 1.15 (US EDA software/semis, low cyclicality); no geopolitical adjustment (US-domiciled; Taiwan/China is customer-mix exposure, not domicile risk). Terminal value = Gordon growth on yr-10 owner FCF with g=2.5-3.5% by moat strength. EV = PV(flows)+PV(terminal); equity = EV − net debt $1.53B; IV/share = equity / 0.2758B diluted shares (107.3B mktcap / $389.04). Probabilities: conservador 0.375, base 0.475, optimista 0.15 (sum 1.0). Inputs verified from CDNS.json (FY2025 10-K, Q1 2026 8-K/CFO commentary, StockAnalysis); no web search needed — all required fields present. Source data quality MIXED on multiples but FCF/SBC/revenue/debt all in verified_fields."
+}

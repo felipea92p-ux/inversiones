@@ -1,0 +1,42 @@
+{
+ "ticker": "WKL.AS",
+ "currency": "EUR",
+ "current_price": 56.54,
+ "wacc_pct": 7.3,
+ "wacc_components": {
+  "rf_pct": 2.8,
+  "erp_pct": 5,
+  "beta": 0.9,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "EUR ~1,318M = FY2025 adjusted FCF EUR 1,348M minus 100% of share-based comp (SBC ~2.2% of FCF ≈ EUR 30M). WKL pays nearly all variable comp in cash, so the SBC haircut is tiny (a positive for owner earnings). Owner-FCF margin ~21.5% on EUR 6,125M revenue.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 7.5,
+  "rev_cagr_y6_10_pct": 5.5,
+  "fcf_margin_terminal_pct": 22,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% of SBC subtracted from reported adjusted FCF (treated as cash expense). SBC ~0.5% of revenue / ~2.2% of FCF — immaterial because WKL settles most variable comp in cash, minimal dilution.",
+  "shares_diluted_b": 0.224,
+  "net_debt_usd_b": 4.6
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 124.6,
+   "prob": 0.38,
+   "note": "AI-disruption fear partially materializes: organic growth fades from ~4.5% (Y1-5) toward ~2.5% (Y10), some moat erosion in legal/tax info as LLMs commoditize parts of the workflow; FCF margin held ~flat (cost discipline). Terminal g=2.5%, WACC 7.3%, terminal owner-FCF mult ~21x. Still EUR ~125 — well above EUR 56.54 because the market is pricing near-zero real growth."
+  },
+  "base": {
+   "iv_per_share": 172.8,
+   "prob": 0.47,
+   "note": "Consistent with track record: ~6-8% organic growth (Y1-5 ~7.5%, FY26 guidance reiterated, +5% organic in Q1 2026) plus tuck-in M&A and ~28%+ margin, fading to ~3-4% by Y10. AI is net-neutral-to-accretive (WKL embeds GenAI into expert solutions, expands TAM). Terminal g=3.0%, terminal owner-FCF mult ~24x. ROIC 18% supports value creation."
+  },
+  "optimista": {
+   "iv_per_share": 223.5,
+   "prob": 0.15,
+   "note": "Perfect execution + AI as a tailwind: ~9-10% organic growth (Y1-5) driven by AI-enhanced premium products (CCH AnswerConnect, UpToDate AI), pricing power, share gains vs Thomson Reuters/RELX; growth fades to ~5% by Y10, margin expands. Terminal g=3.5%, terminal owner-FCF mult ~27x."
+  }
+ },
+ "sanity_check": "Probability-weighted IV ≈ EUR 162 vs price EUR 56.54 → implied ~3x upside; even the conservative scenario (EUR ~125) sits 2.2x above price, signaling the market is over-discounting AI risk. Cross-checks: (1) Current EV/owner-FCF ≈ 12.7x and owner-FCF yield on EV ≈ 7.9% — cheap for a wide-moat, ~80% recurring-revenue, 18% ROIC compounder. (2) Forward P/E ~10x vs 5-yr avg ~26x = ~-62% discount; trailing P/E ~10x. (3) Total shareholder yield as contrast (NOT used for valuation): dividend yield ~3.9% (EUR ~2.21/sh) + buyback yield ~7.5-8% (~EUR 1B annual repurchase on EUR 12.66B cap) ≈ ~11-12% combined — very high, reinforcing that the cash-return engine alone supports the floor. Key risk weighting the conservative case at 0.38: the 'Claude Crash' narrative (Morningstar cut WKL & Thomson Reuters moats to Narrow on AI-disruption fear) — genuine but, per fundamentals (FY25 +6% organic, +10% cc FCF; Q1 2026 +5% organic, +11% cc op profit, +15% cc FCF), not yet visible in operations.",
+ "method_notes": "10-year owner-earnings DCF. Owner FCF base = FY2025 adjusted FCF (EUR 1,348M) less 100% of SBC (~EUR 30M) = ~EUR 1,318M. Phase 1 (Y1-5): explicit revenue/owner-FCF CAGR per scenario with FCF margin stabilized at ~22% (FY26 guide: adj op margin ~28%, adj FCF EUR 1,300-1,350M). Phase 2 (Y6-10): CAGR declines linearly toward normalization. Terminal value via Gordon growth (g=2.5-3.5% scaled to moat width) on Y10 owner FCF, discounted at WACC. WACC = Rf(2.8% Eurozone, Netherlands-domiciled) + ERP(5.0%) × beta(0.90, defensive subscription/info-services) = 7.3%; no geopolitical adjustment (not Taiwan). VI/share = (PV of flows + PV of terminal value − net debt EUR 4,024M) / ~224M diluted shares. Net debt EUR 4,024M (≈USD 4.6B), ND/EBITDA ~2.0x (1.9x Q1 2026). Shares ≈ 223.9M (EUR 12.66B cap / EUR 56.54). All IVs in EUR (quote currency). TV is 65-73% of EV — typical for a long-duration compounder; the conservative scenario deliberately uses pessimistic-but-not-apocalyptic growth (2.5% terminal) to stress-test the AI thesis. Inputs verified from company IR (FY2025 full-year report, Q1 2026 trading update); price/cap/multiples from aggregators (stockanalysis.com, macrotrends).",
+ "name": "Wolters Kluwer N.V."
+}

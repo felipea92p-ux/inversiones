@@ -1,0 +1,99 @@
+{
+ "ticker": "EPI-A.ST",
+ "name": "Epiroc AB (Class A)",
+ "asof_date": "2026-06-22",
+ "currency": "SEK",
+ "price": 277,
+ "market_cap_usd_b": 33.2,
+ "fwd_pe": 31.99,
+ "fwd_pe_5y_avg": 25.5,
+ "pe_prem_disc_pct": 25.5,
+ "peg": 2.37,
+ "last_q": {
+  "period": "Q1 2026 (Jan-Mar 2026)",
+  "revenue": "MSEK 14,351 (SEK 14.35bn)",
+  "rev_yoy_pct": -8,
+  "op_margin_pct": 19.8,
+  "eps_gaap": "SEK 1.74 (basic)",
+  "eps_adj": "SEK 1.74 (diluted; adj op margin 20.0%)"
+ },
+ "last_fy": {
+  "period": "FY2025 (Jan-Dec 2025)",
+  "revenue": "MSEK 61,998 (SEK 62.0bn)",
+  "organic_growth_pct": 2,
+  "roic_pct": 18.9,
+  "fcf": "~SEK 8.6bn (FCF TTM per aggregator)",
+  "fcf_margin_pct": 13.9
+ },
+ "sbc_pct_revenue": 0.1,
+ "sbc_pct_fcf": 0.4,
+ "net_debt_usd_b": 1.1,
+ "nd_ebitda": 0.71,
+ "net_cash": false,
+ "guidance_fy": "No quantitative FY guidance issued (Epiroc does not give numeric guidance). Qualitative market outlook (near term, from Q1 2026 report): \"In the near term, we expect mining demand to remain high, while demand from construction customers is expected to increase somewhat from a low level.\" Q1 2026 orders +23% organic signals strong momentum.",
+ "pct_off_52w_high": -2.6,
+ "pct_off_ath": -2.6,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.roic_pct",
+  "nd_ebitda",
+  "guidance_fy",
+  "price",
+  "pct_off_52w_high"
+ ],
+ "estimated_fields": [
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "net_debt_usd_b",
+  "market_cap_usd_b",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "Epiroc Interim Report Q1 2026 (official PDF, primary source)",
+   "url": "https://www.epirocgroup.com/content/dam/epiroc/corporate/documents/quarterly-results-presentations-/2026-q1/q1-2026-english/Epiroc%20Interim%20Report%20Q1%202026.pdf",
+   "date": "2026-04-29"
+  },
+  {
+   "label": "Epiroc Q1 2026 press release (Cision / IR)",
+   "url": "https://www.epirocgroup.com/en/media/corporate-press-releases/2026/20260429-epiroc-interim-report-q1-2026",
+   "date": "2026-04-29"
+  },
+  {
+   "label": "Epiroc Q4 2025 / FY2025 interim report (IR)",
+   "url": "https://www.epirocgroup.com/en/media/corporate-press-releases/2026/20260126-epiroc-interim-report-q4-2025",
+   "date": "2026-01-26"
+  },
+  {
+   "label": "Epiroc Annual and Sustainability Report 2025 (ROCE 18.9%)",
+   "url": "https://reports.epirocgroup.com/annual-and-sustainability-report-2025/epiroc-2025/",
+   "date": "2026-03-19"
+  },
+  {
+   "label": "StockAnalysis.com — EPI.A price, market cap, fwd P/E, FCF, ROIC, net debt (aggregator)",
+   "url": "https://stockanalysis.com/quote/sto/EPI.A/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "SEK/USD FX rate ~0.1039 (June 2026)",
+   "url": "https://www.foreignexchange.org.uk/fx-rates/conversion/1/SEK/USD",
+   "date": "2026-06-22"
+  }
+ ],
+ "notes": "PRIMARY-VERIFIED (Epiroc official Q1 2026 report): Q1 2026 revenue MSEK 14,351 (-8% reported, -10% FX, +2% organic); orders received MSEK 18,340 (+11% reported, +23% organic — record large orders MSEK 1,280); EBIT MSEK 2,846, operating margin 19.8%; adjusted operating margin 20.0%; basic & diluted EPS SEK 1.74; operating cash flow MSEK 1,300; ROCE (12m) 18.5%; net debt/EBITDA 0.71. FY2025: revenue MSEK 61,998, +2% organic, adj op margin 19.6%, ROCE 18.9%, ND/EBITDA 0.73.\n\nAGGREGATOR/ESTIMATED (StockAnalysis, as-of ~Jun 2026): price 277.00 SEK; market cap SEK 319.05B (~$33.2B at 0.1039 USD/SEK); fwd P/E 31.99; trailing P/E 39.4; PEG 2.37; FCF (TTM) SEK 8.63B; revenue (TTM) SEK 60.81B → FCF margin ~14.2% (FY2025 basis ~13.9%); ROIC 17.0%; total debt SEK 19.84B, cash SEK 9.21B, net debt SEK 10.63B (~$1.10B).\n\neps_gaap/eps_adj: Epiroc reports IFRS EPS only (SEK 1.74 basic = SEK 1.74 diluted Q1 2026). 'Adjusted' refers to adjusted operating margin (20.0%, ex items affecting comparability MSEK -22). No separate adjusted EPS published.\n\nfwd_pe_5y_avg (~25.5) is an ESTIMATE — no clean primary 5yr-avg-forward-P/E source found within timebox; Epiroc has historically traded ~24-27x forward. Premium ~+25% vs that estimated mean.\n\nSBC: Epiroc uses Swedish LTI/share programs with very small P&L impact (quarterly provision changes of single-digit MSEK); SBC is immaterial — estimated <0.1% of revenue and <0.5% of FCF. No large US-tech-style add-back. Both SBC fields ESTIMATED.\n\nDROP CLASSIFICATION = not_depressed: 277 SEK vs 52-week high 284.30 SEK (only ~-2.6% off high; ~+33% over trailing 52 weeks; at/near all-time high reached early 2026). NOT a depressed/sold-off name — trades at a premium multiple (fwd P/E ~32) on record organic order growth (+23%) and resilient ~20% margins. No fear-driven drop; strong SEK (FX) is the only headwind to reported (not organic) revenue. ATH ≈ 52w high (~284 SEK); pct_off_ath approximated as -2.6% (ESTIMATED). USD market cap and net debt use FX conversion → treated as ESTIMATED."
+}

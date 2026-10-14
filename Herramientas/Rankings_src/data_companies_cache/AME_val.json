@@ -1,0 +1,48 @@
+{
+ "ticker": "AME",
+ "name": "AMETEK, Inc.",
+ "currency": "USD",
+ "price_verified": 241.55,
+ "price_source": "StockAnalysis.com (Jun-22-2026 close); cross-checked Yahoo Finance $237.42 Jun-18-2026 — used most recent/highest",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.229835,
+ "implied_mcap_b_usd": 55.52,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 10,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.15,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF = FY2025 FCF $1,671.6M − 100% SBC $47.8M = $1,623.8M total = $7.06/sh (229.835M diluted). SBC only 2.9% of FCF so owner earnings ~ reported FCF.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 122.85,
+   "prob": 0.38,
+   "note": "Phase1 6% CAGR (organic ~5% + bolt-on M&A slows), decline to 3% terminal, WACC 10%, g 3%. Reasonable-pessimistic: macro/industrial softness, fewer accretive deals — not apocalyptic."
+  },
+  "base": {
+   "iv_per_share": 141.04,
+   "prob": 0.47,
+   "note": "Phase1 8.5% CAGR (mid-single organic + steady accretive acquisitions, AME's proven playbook), decline to 3% terminal, WACC 10%, g 3%."
+  },
+  "optimista": {
+   "iv_per_share": 161.75,
+   "prob": 0.15,
+   "note": "Phase1 11% CAGR (strong organic + large accretive M&A pipeline, margin expansion), decline to 3% terminal."
+  }
+ },
+ "iv_dcf_weighted": 137.23,
+ "multiple_metric": "P/E adelantado (FY2026 adj EPS)",
+ "fwd_multiple_now": 28.6,
+ "fwd_multiple_5y_avg": 29.4,
+ "fair_multiple": 27.5,
+ "multiple_rationale": "Fair multiple 27.5x = modest haircut to 5y avg 29.4x and below current 28.6x. Haircut reflects higher-rate regime (not structural deterioration). AME is a proven serial-acquirer compounder of niche, high-margin instrument businesses; GAAP ROIC 11.2% is depressed by acquisition goodwill — underlying/cash returns far higher. Orders +23%, record backlog $3.87B, guidance raised: no cyclical/structural impairment. Applied to FY2026 guided adj EPS midpoint $8.04.",
+ "iv_multiple": 221.1,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 187.55,
+ "structural_change": "Ninguno. Sin deterioro estructural: resultados record FY2025 y Q1 2026, ordenes +23%, backlog record $3.87B, margen operativo 26.7%, guia FY2026 elevada a $7.94-$8.14 adj EPS. Apalancamiento bajo (ND/EBITDA 0.74x), SBC muy bajo (2.9% del FCF). Modelo de roll-up de instrumentacion diferenciada intacto.",
+ "sanity_notes": "Precio $241.55 verificado (StockAnalysis Jun-22; Yahoo $237.42 Jun-18). Acciones diluidas 229.835M (10-Q Q1 2026 weighted avg) — coincide con 229.2M de agregadores. Implied mcap = 241.55 × 0.229835 = $55.52B, coincide con escala conocida (~$55B). mcap_sanity_ok. Todos los IV en rango de magnitud razonable (51-92% del precio), sin error de unidades/moneda/acciones. DIVERGENCIA DCF vs multiplo: DCF puro ($137) infra-credita el reinvertir de un compounder a ROIC alto durante decadas y trata el multiplo de salida via terminal g; el mercado y la media 5a (~29x) reflejan esa capacidad de composicion — por eso se pondera mas el multiplo (0.60). reconciled_IV $187.55 implica que la accion cotiza ~29% POR ENCIMA del valor intrinseco reconciliado a $241.55: calidad alta pero NO barata, cotiza a/cerca de maximos (-0.7% del max 52s). Sin margen de seguridad al precio actual."
+}

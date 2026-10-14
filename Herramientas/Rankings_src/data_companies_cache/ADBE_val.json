@@ -1,0 +1,48 @@
+{
+ "ticker": "ADBE",
+ "name": "Adobe Inc.",
+ "currency": "USD",
+ "price_verified": 194.9,
+ "price_source": "StockAnalysis.com (close 2026-06-22, $194.90; cross-check Yahoo Finance prev close $195.16, intradia $191.21-199.25)",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.3975,
+ "implied_mcap_b_usd": 77.47,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 11.1,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.35,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = FCF reportado $9.852B - 100% SBC $1.942B = $7.91B (margen owner-FCF ~33% sobre ingresos $23.77B). Por accion ~$19.90. Capex muy bajo ($179M) -> negocio software asset-light; SBC es el verdadero coste economico, restado al 100%.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 279.53,
+   "prob": 0.38,
+   "note": "Presion real de IA generativa sobre Creative Cloud; crecimiento se desacelera a g1=6%, fase2 g2=3.5%, terminal 2.5%. Owner FCF $7.91B base, WACC 11.1%. Aun asi IV muy por encima del precio: el mercado descuenta declive terminal severo no apocaliptico."
+  },
+  "base": {
+   "iv_per_share": 361.19,
+   "prob": 0.47,
+   "note": "Compounder estable: g1=10% (alineado con ARR +12.5% y guia ingresos +12%), fase2 g2=5.5%, terminal 3%. ARR $27.1B creciendo, AI-first ARR >$500M triplicado, margen op non-GAAP ~45%."
+  },
+  "optimista": {
+   "iv_per_share": 469.09,
+   "prob": 0.15,
+   "note": "Monetizacion IA (Firefly/AI-first) acelera y compensa canibalizacion: g1=14%, fase2 g2=7.5%, terminal 3.5%. Adobe captura valor de IA en vez de ser disrumpido."
+  }
+ },
+ "iv_dcf_weighted": 346.34,
+ "fwd_multiple_now": 7.9,
+ "fwd_multiple_5y_avg": 28,
+ "fair_multiple": 16,
+ "multiple_metric": "P/E adelantado (sobre BPA non-GAAP FY2026 guia midpoint $24.40)",
+ "multiple_rationale": "Media 5a fwd P/E = 32.4x, reflejaba era de crecimiento ~18-22% + expansion de multiplo. Aplico HAIRCUT estructural fuerte (~50%) a 16x por: (1) deterioro real del perfil de crecimiento de ~20% a ~12%; (2) amenaza competitiva genuina de IA generativa (Midjourney, OpenAI imagen, Canva) sobre el foso de Creative Cloud, no puramente ciclica; (3) salida del CFO post-resultados anade ruido. 16x sigue siendo barato para una franquicia con margen FCF 41%, ARR creciendo doble digito y ND/EBITDA 0.1x, pero penaliza la incertidumbre estructural. iv_multiple = $24.40 * 16 = $390.40.",
+ "iv_multiple": 390.4,
+ "weight_dcf": 0.45,
+ "weight_multiple": 0.55,
+ "reconciled_iv": 370.57,
+ "structural_change": "SI hay cambio estructural en debate (no totalmente resuelto): la IA generativa amenaza el foso de Adobe en imagen/diseno y comprime el multiplo de 32x a ~7.5x (descuento -76% vs media 5a). Pero los fundamentales NO confirman aun deterioro: Q2 FY2026 ingresos +13%, ARR total +12.5% a $27.1B, AI-first ARR triplicado a >$500M, guia ELEVADA. Clasificacion: fear_rotation. El reprecio refleja miedo a disrupcion futura mas que deterioro presente. Por eso pondero el multiplo (0.55) ligeramente por encima del DCF (0.45): compounder probado y estable, pero con incertidumbre estructural real que justifica no ir al clasico 0.35/0.65 y aplicar haircut agresivo al fair multiple.",
+ "sanity_notes": "SANITY OK. implied_mcap = $194.90 * 0.3975B = $77.47B, coincide con escala conocida de Adobe (~$77B) y con StockAnalysis ($77.47B). Acciones 397.5M diluidas verificadas (StockAnalysis; promedio ponderado Q2'26 ~402-411M, outstanding actual ~397.5M). Precio verificado $194.90 (cierre 22-jun-2026), cerca del JSON ($191.56) y prev close Yahoo $195.16. MAGNITUD: reconciled IV $370.57 = 1.90x precio (90% upside), DCF ponderado 1.78x, multiplo 2.00x — todos dentro del rango 30%-300%, sin error de unidades/moneda/acciones. La gran brecha IV-vs-precio es coherente con la dislocacion extrema del multiplo (7.5x vs 32x media 5a): el mercado precia un escenario de declive terminal por IA que ni el caso conservador (IV $280) replica. Net debt +$1.02B (no caja neta a Q2'26, se invirtio en recompras). Todo en USD, moneda de cotizacion."
+}

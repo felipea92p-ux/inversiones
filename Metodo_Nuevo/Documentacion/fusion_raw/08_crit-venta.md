@@ -1,0 +1,36 @@
+Documento escrito en `/Users/felipealvarez/Library/Mobile Documents/com~apple~CloudDocs/INVESTMENTS/Metodo_Nuevo/_taller/criterio-venta-drawdown.md`
+
+**CONCLUSIONES OPERATIVAS**
+
+1. El precio NUNCA autoriza una venta. Un drawdown tiene tres salidas: nada / comprar más / abrir revisión formal fechada. Vender no está en el menú de una caída.
+2. Test que separa deterioro de volatilidad, una línea: sin pantalla de precios durante un año, leyendo solo filings, ¿sabrías que algo va mal? NO → volatilidad → no hacer nada.
+3. Lista CERRADA de 4 knock-outs (Akre + Sleep): K1 motor roto, K2 foso estrechado, K3 gestión/opacidad, K4 tesis no computable. Solo estos autorizan salida.
+4. Verificación de deterioro: 6 series (ROIC, margen bruto, conversión de caja, orgánico vs categoría, acciones en circulación, reinversión incremental). Se exigen **2 en rojo simultáneas**, sostenidas 3 periodos. Una sola serie roja no es deterioro.
+5. Rotación real de los compounders: Fundsmith 3,2% (2024), 4,1% (2020), negativa (2019). 4 empresas desde 2010, 15 más de 5 años.
+6. Fundsmith rotó **51,8% en H1 2026** y rompió su propia regla — por reembolsos, no por análisis. Smith: "de poco servirá que se nos dé la razón después de que nuestro fondo haya cerrado". Tu fondo no puede cerrar: esa fila es la prueba documentada de tu ventaja estructural.
+7. Algoritmo de venta por sobrevaloración (caso Apple 2024, textual): ¿compraría más hoy? no → ¿merece el slot? no → ¿tengo destino concreto? no → **NO SE RECORTA**. Sin destino, recortar es miedo con vocabulario de valoración.
+8. Sobrevaloración = RECORTE con destino (Clorox/Reckitt 2020 → Nike y Starbucks caídas 40%). Deterioro = SALIDA TOTAL en ≤5 días. Nunca se mezclan; el recorte no puede iniciarse dentro de una revisión de deterioro (es la escapatoria de Tesco 2013).
+9. Prohibida la venta parcial por incomodidad con el negocio. Buffett vendió 114 de 415 M de acciones de Tesco en 2013 "porque me agrió la gestión" — esa media venta fue la alarma que él mismo ignoró: −444 M$. Obliga a revisión completa en 5 días.
+10. Ejecutar una venta confirmada en ≤5 días hábiles. "Espero a que rebote" es un deseo, no un plan. Munger lo llama chuparse el dedo.
+11. Sesgo por defecto = NO vender, y está ganado: Odean 1998, los ganadores vendidos baten a los perdedores conservados por **3,41 pp al año** (PGR 0,148 vs PLR 0,098, p=0,001). El instinto está invertido, no solo sesgado.
+12. Conseco (aguantar hasta la quiebra) y Stagecoach (vender a 90p, hoy £2,50) son **el mismo error de Sleep**: anclarse en el análisis de entrada. El antídoto no es ser más rápido ni más paciente: es re-derivar ciego al precio de entrada.
+13. Re-derivación Ciega para tesis rota con pérdida >25%: reescribir la tesis con hechos de hoy → pasarla a `abogado-diablo` **sin precio de entrada, sin precio actual, sin decir que la posees** → si dice NO COMPRAR, se vende completa.
+14. Tres candados contra el sobreajuste antes de ejecutar: knock-out con 2 fuentes primarias, ítem nombrado en el pre-mortem **escrito antes de comprar**, y si vendes por dolor de mirar → el problema es el tamaño, se recorta al tope, no se sale.
+15. Toda venta se marca a 12/24/36 meses contra lo comprado con el dinero. Es la única métrica que puede falsar el protocolo: el error de vender pronto es contablemente invisible, aparece como beneficio.
+16. Ficha de Caída por posición, escrita el día de la compra. Sin ficha, la posición no se abre. Empieza con: "No vas a decidir nada hoy. La próxima fecha en que tienes permiso para mirar es [FECHA]."
+17. En papel, en un cajón físico. Requisito de diseño: la ficha tiene que ser más fácil de alcanzar que la app del bróker. Bróker sin biometría — 60 segundos de fricción son el 80% del efecto.
+18. Base del formato: planes si-entonces, d=0,65 sobre 94 tests (d=0,77 para evitar descarrilamiento). El efecto depende del formato: disparador explícito + respuesta única.
+19. **PROTECCIÓN CAYLA — ≤8 consultas de precio al año**, fechas fijadas en enero a 12 meses. Benartzi-Thaler sitúan el periodo de evaluación óptimo en un año; 4 revisiones ya es el triple.
+20. Gneezy-Potters 1997: triplicar el intervalo de feedback subió la toma de riesgo de 50,5% a **67,4%** (p=0,002), misma gente, mismas probabilidades. Mirar menos no es resignación, es rendimiento.
+21. Mani/Mullainathan/Shafir 2013: la preocupación financiera activa cuesta **~13 puntos de CI**, equivalente a una noche sin dormir (464 agricultores, mismo sujeto antes/después de cosecha). Tu contaminación de CAYLA es el resultado documentado por defecto, no un fallo de carácter.
+22. Regla de las 12 horas: ninguna decisión de CAYLA que comprometa dinero en las 12 h siguientes a mirar la cartera. Si coinciden, se pospone CAYLA — nunca al revés. Cero consultas en día laborable antes del cierre de la tienda.
+23. El efecto avestruz (logins −9,5% tras caídas, Vanguard) NO es el modelo: mira menos cuando cae y más cuando sube, o sea el precio decide la frecuencia. Lo que se fija no es cuánto miras, es que el calendario sea inmune al precio.
+24. Canario de contaminación, una línea cada domingo: ¿alguna decisión de CAYLA aplazada/encogida por la cartera? **Dos "Sí" en 4 semanas → cartera congelada 30 días.** Con 13 puntos de CI menos no percibes que te faltan: hace falta detector externo.
+25. **Resuelve la asunción abierta #4:** el tope de posición se deriva del dolor, no de la convicción. **Tope = U ÷ 0,50**, donde U = mayor pérdida en un nombre que toleras sin revisar a diario. U=10% → tope 20%. El 25% actual implica tolerar −12,5%, incoherente con tu propio diagnóstico. Decisión tuya, bloquea §4 y §5.
+26. Vender por caro es en promedio mala apuesta: Nifty Fifty a 41,9x en el pico de 1972 rindió 12,5% anual hasta 1998, sobrevaloradas solo ~3,2%. Fundsmith: por L'Oréal se podía pagar 281x en 1973 y aún batir al índice.
+27. Contrapeso: esa media esconde dispersión brutal (Coca-Cola bien, Polaroid destruida) y KO a 50x tardó una década. Por eso RECORTAR y no salir: captura el seguro de cola izquierda sin renunciar a la derecha, que es donde vive el retorno.
+28. Reglas de NO venta: coste de reentrada (IDEXX — "costaría recomprar, sonreír a través del dolor") y riesgo de estar fuera ("demasiado buenas para venderlas y arriesgarnos a estar fuera cuando gire"). Vender lo extraordinario intacto no reduce riesgo: lo cambia.
+29. Métricas de proceso trimestrales: consultas vs presupuesto, canario CAYLA, rotación (>20-30% = trading disfrazado), salidas completas (>3/año con 12-18 posiciones = auditar el método), % de ventas con ficha leída (debe ser 100%), coste de oportunidad.
+30. Regla de honestidad: venta rentable sin ficha o fuera de plazo = FALLO. Venta cara con protocolo completo = ACIERTO. Si se invierte una vez, el sistema deja de existir.
+
+**Pendientes que bloquean:** (a) fijar U; (b) escribir las 8 fechas del año; (c) calibrar umbrales del panel para tecnología —prerrequisito de tu decisión de abrir núcleo tech directo, es el mismo problema que Smith declaró abierto para el capex de IA; (d) construir la lista de deseos de caída general, hoy inexistente y es la defensa directa contra tu herida de omisión; (e) la cifra de 51,8% viene de prensa secundaria — delegar a `verificador` antes de usarla en definitivo.

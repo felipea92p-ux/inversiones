@@ -1,0 +1,524 @@
+<title>Seis Biotecnológicas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --paper:#F3F5F1; --surface:#FBFCFA; --sunk:#E8EBE5;
+  --ink:#141A17; --ink-2:#3D4844; --ink-3:#6B7671;
+  --rule:#D3D9CF; --rule-hard:#B4BDB0;
+  --accent:#0B5D51; --accent-soft:#DCEAE6;
+  --crit:#9C2A1C; --crit-soft:#F3DFDB;
+  --warn:#7A5E14; --warn-soft:#F0E8CE;
+  --ok:#2C5E23; --ok-soft:#E0EBDA;
+  --shadow:rgba(20,26,23,.07);
+  --f-disp:"Spectral",Georgia,"Times New Roman",serif;
+  --f-body:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#0E1310; --surface:#151B18; --sunk:#1C2420;
+    --ink:#E5EAE5; --ink-2:#B3BEB8; --ink-3:#7E8A85;
+    --rule:#2A332E; --rule-hard:#3B463F;
+    --accent:#5CC3AC; --accent-soft:#12302A;
+    --crit:#E8836F; --crit-soft:#3A1D18;
+    --warn:#DBB255; --warn-soft:#332913;
+    --ok:#8FC47E; --ok-soft:#1B2E17;
+    --shadow:rgba(0,0,0,.4);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0E1310; --surface:#151B18; --sunk:#1C2420;
+  --ink:#E5EAE5; --ink-2:#B3BEB8; --ink-3:#7E8A85;
+  --rule:#2A332E; --rule-hard:#3B463F;
+  --accent:#5CC3AC; --accent-soft:#12302A;
+  --crit:#E8836F; --crit-soft:#3A1D18;
+  --warn:#DBB255; --warn-soft:#332913;
+  --ok:#8FC47E; --ok-soft:#1B2E17;
+  --shadow:rgba(0,0,0,.4);
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:var(--f-body); font-size:16.5px; line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1080px;margin:0 auto;padding:0 clamp(18px,4vw,44px) 96px}
+.col{max-width:68ch}
+h1,h2,h3,h4{font-family:var(--f-disp);text-wrap:balance;margin:0}
+a{color:var(--accent)}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+
+/* masthead */
+header.mast{border-bottom:2px solid var(--ink);margin-bottom:44px;padding:52px 0 22px}
+.kicker{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:20px}
+header.mast h1{font-size:clamp(38px,7vw,68px);line-height:1.02;font-weight:700;letter-spacing:-.022em}
+header.mast .sub{font-family:var(--f-disp);font-style:italic;font-size:clamp(17px,2.4vw,21px);color:var(--ink-2);margin-top:16px;max-width:60ch;line-height:1.45}
+.meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:26px;font-family:var(--f-mono);font-size:11.5px;letter-spacing:.05em;color:var(--ink-3);text-transform:uppercase}
+.meta b{color:var(--ink-2);font-weight:500}
+
+section{margin:66px 0 0}
+.snum{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.14em;color:var(--accent);text-transform:uppercase;display:block;margin-bottom:9px}
+h2{font-size:clamp(26px,4vw,36px);font-weight:600;letter-spacing:-.016em;line-height:1.14}
+h2+.lede{font-family:var(--f-disp);font-size:19px;color:var(--ink-2);margin-top:14px;line-height:1.55;max-width:62ch}
+h3{font-size:21px;font-weight:600;margin-top:38px;letter-spacing:-.008em}
+h4{font-family:var(--f-body);font-size:13px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-3);margin-top:26px}
+p{margin:15px 0;max-width:68ch}
+strong{font-weight:600}
+.hr{height:1px;background:var(--rule);border:0;margin:52px 0}
+
+/* verdict cards */
+.verdicts{display:grid;grid-template-columns:repeat(auto-fit,minmax(268px,1fr));gap:14px;margin-top:30px}
+.vc{background:var(--surface);border:1px solid var(--rule);border-top:4px solid var(--vcol,var(--accent));padding:18px 20px 20px;display:flex;flex-direction:column;gap:9px}
+.vc[data-v="no"]{--vcol:var(--crit)}
+.vc[data-v="wait"]{--vcol:var(--warn)}
+.vc .tk{font-family:var(--f-mono);font-size:20px;font-weight:600;letter-spacing:.02em}
+.vc .nm{font-size:13px;color:var(--ink-3);margin-top:-7px}
+.vc .vd{font-family:var(--f-body);font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--vcol)}
+.vc .wh{font-size:14.2px;line-height:1.5;color:var(--ink-2)}
+.vc .px{font-family:var(--f-mono);font-size:11.5px;color:var(--ink-3);border-top:1px solid var(--rule);padding-top:9px;margin-top:auto}
+
+/* tables */
+.scroll{overflow-x:auto;margin:26px 0;border:1px solid var(--rule);background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14.2px;min-width:600px}
+th,td{padding:9px 13px;text-align:left;border-bottom:1px solid var(--rule);vertical-align:top}
+thead th{background:var(--sunk);font-family:var(--f-body);font-size:11.5px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-2);white-space:nowrap}
+tbody tr:last-child td{border-bottom:0}
+td.n,th.n{font-family:var(--f-mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+tbody th{font-family:var(--f-mono);font-weight:600;font-size:13.5px;white-space:nowrap;background:var(--sunk)}
+.fire{color:var(--crit);font-weight:700;font-family:var(--f-mono)}
+.pass{color:var(--ink-3);font-family:var(--f-mono)}
+.rev{color:var(--warn);font-weight:600;font-family:var(--f-mono)}
+caption{caption-side:bottom;text-align:left;padding:11px 13px;font-size:12.5px;color:var(--ink-3);border-top:1px solid var(--rule);background:var(--sunk)}
+
+/* callout */
+.note{border-left:3px solid var(--accent);background:var(--accent-soft);padding:16px 20px;margin:28px 0;max-width:70ch}
+.note.crit{border-left-color:var(--crit);background:var(--crit-soft)}
+.note.warn{border-left-color:var(--warn);background:var(--warn-soft)}
+.note p{margin:8px 0}.note p:first-child{margin-top:0}.note p:last-child{margin-bottom:0}
+.note .lbl{font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);display:block;margin-bottom:7px}
+
+/* gate box */
+.gate{background:var(--surface);border:1px solid var(--rule-hard);padding:17px 20px;margin:20px 0;max-width:72ch}
+.gate .lbl{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--crit);display:block;margin-bottom:8px}
+.gate p{font-family:var(--f-disp);font-size:16.5px;margin:0;line-height:1.5}
+
+/* company block */
+.co{border-top:2px solid var(--ink);padding-top:22px;margin-top:52px}
+.co-hd{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 16px;margin-bottom:5px}
+.co-hd .tk{font-family:var(--f-mono);font-size:27px;font-weight:600;letter-spacing:.01em}
+.co-hd .nm{font-family:var(--f-disp);font-size:20px;color:var(--ink-2)}
+.co-hd .badge{margin-left:auto;font-family:var(--f-body);font-size:11.5px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;padding:4px 11px;border:1px solid currentColor}
+.badge.no{color:var(--crit)}.badge.wait{color:var(--warn)}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);margin:20px 0}
+.facts div{background:var(--surface);padding:11px 14px}
+.facts dt{font-size:10.5px;font-family:var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
+.facts dd{margin:4px 0 0;font-family:var(--f-mono);font-size:16px;font-weight:600;font-variant-numeric:tabular-nums}
+.facts dd.sm{font-size:13px;font-weight:500;font-family:var(--f-body);line-height:1.35}
+
+ul,ol{max-width:68ch;padding-left:22px}
+li{margin:9px 0}
+.pat{counter-reset:p}
+.pat li{margin:16px 0}
+.pat li strong{display:block;font-family:var(--f-disp);font-size:17.5px;font-weight:600;margin-bottom:3px}
+.tag{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;padding:2px 7px;border:1px solid var(--rule-hard);color:var(--ink-3);white-space:nowrap;display:inline-block}
+footer{margin-top:76px;padding-top:22px;border-top:2px solid var(--ink);font-size:13px;color:var(--ink-3);max-width:70ch}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (max-width:640px){
+  body{font-size:16px}
+  .co-hd .badge{margin-left:0}
+  th,td{padding:8px 10px}
+}
+</style>
+
+<div class="wrap">
+
+<header class="mast">
+  <div class="kicker">Método QG-12 · Barrido y fase profunda</div>
+  <h1>Seis Biotecnológicas</h1>
+  <p class="sub">Dos mueren en el Paso 2. Cuatro sobreviven a la pregunta de calidad y ninguna a la de precio. Tres rondas después, sobre treinta empresas evaluadas, cinco combinan calidad real y precio justo hoy — no las seis que se pedían, y esa diferencia es el hallazgo.</p>
+  <div class="meta">
+    <span><b>Fecha</b> 21–22 · 08 · 2026</span>
+    <span><b>Agentes</b> 90+ en tres rondas</span>
+    <span><b>Fuente</b> EDGAR · Orange Book · Purple Book · clinicaltrials.gov</span>
+    <span><b>Exposición actual</b> 0,0 % del NAV</span>
+  </div>
+</header>
+
+<section>
+  <span class="snum">Veredicto</span>
+  <h2>Ninguna se compra hoy</h2>
+  <p class="lede">Dos por calidad, que es un no definitivo. Cuatro por precio, que es un no con fecha de revisión. La distinción no es cosmética: un knock-out significa que no existe precio que lo revierta.</p>
+
+  <div class="verdicts">
+    <div class="vc" data-v="no"><span class="tk">MRNA</span><span class="nm">Moderna</span><span class="vd">No</span><p class="wh">Cuatro de seis knock-outs. Sin moat identificable: pagó 950 M$ por usar la tecnología de entrega de otro y consintió sentencia de infracción.</p><span class="px">145,64 $ · +504 % a 1 año · EV/ventas 27×</span></div>
+    <div class="vc" data-v="no"><span class="tk">NTLA</span><span class="nm">Intellia</span><span class="vd">No</span><p class="wh">Once años seguidos de ROIC bajo WACC. Regeneron es el 92 % de los ingresos y el 100 % de las cuentas por cobrar.</p><span class="px">12,84 $ · −93,7 % del máximo · dilución +93,6 % en 5 años</span></div>
+    <div class="vc" data-v="wait"><span class="tk">VRTX</span><span class="nm">Vertex</span><span class="vd">No comprar todavía</span><p class="wh">El mejor moat de los seis, en máximo histórico. De doce celdas de la matriz g × WACC, solo una justifica el precio.</p><span class="px">546,55 $ · pide 12,1 % anual · entregó 7,3 %</span></div>
+    <div class="vc" data-v="wait"><span class="tk">ARGX</span><span class="nm">argenx</span><span class="vd">No comprar todavía</span><p class="wh">Calidad: pasa. Precio: no decidible. El instrumento no separa cara de barata — y el 70 % del valor vive después de 2036.</p><span class="px">1.039,76 $ · ROIC 31,7 % · caducidad 2036</span></div>
+    <div class="vc" data-v="wait"><span class="tk">ALNY</span><span class="nm">Alnylam</span><span class="vd">No comprar todavía</span><p class="wh">Caer un 52 % no la hizo barata, la hizo menos absurda. Con la g que el motor realmente produce vale 154 $.</p><span class="px">237,04 $ · valor central 154 $ · −35 %</span></div>
+    <div class="vc" data-v="wait"><span class="tk">DHR</span><span class="nm">Danaher</span><span class="vd">No comprar todavía</span><p class="wh">Foso verificado en el reglamento federal. Pero 21.000 M$ desplegados en cinco años sin acelerar el crecimiento orgánico.</p><span class="px">218,83 $ · ROIC 6,0 % · WACC 7,4–8,8 %</span></div>
+  </div>
+</section>
+
+<section>
+  <span class="snum">Paso 2 · El gate</span>
+  <h2>Los knock-outs son binarios y no admiten cuarentena</h2>
+  <p class="lede">Si dispara uno, se acaba el proceso y se archiva con fecha. Cada dato de soporte exige documento, página y fecha; sin los tres campos, el knock-out queda «no resuelto» y nunca «en cuarentena».</p>
+
+  <div class="scroll">
+  <table>
+    <caption>Lectura de mecanismo, adoptada por Felipe el 21-ago-2026. † disparó históricamente y revirtió en FY2025. ‡ el ROIC de Danaher dispara sobre capital total y no dispara excluyendo el fondo de comercio.</caption>
+    <thead><tr><th>Knock-out</th><th class="n">MRNA</th><th class="n">VRTX</th><th class="n">ARGX</th><th class="n">ALNY</th><th class="n">NTLA</th><th class="n">DHR</th></tr></thead>
+    <tbody>
+      <tr><th>Estructura VIE</th><td class="pass">—</td><td class="pass">—</td><td class="pass">—</td><td class="pass">—</td><td class="pass">—</td><td class="pass">—</td></tr>
+      <tr><th>SBC &gt; 50 % del FCF ≥ 3 años</th><td class="fire">DISPARA</td><td class="pass">—</td><td class="rev">revertido†</td><td class="rev">revertido†</td><td class="pass">—</td><td class="pass">—</td></tr>
+      <tr><th>ROIC &lt; WACC estructural ≥ 3 años</th><td class="fire">DISPARA</td><td class="pass">—</td><td class="rev">revertido†</td><td class="rev">revertido†</td><td class="fire">DISPARA</td><td class="fire">DISPARA‡</td></tr>
+      <tr><th>Reexpresión de ingresos</th><td class="pass">—</td><td class="pass">—</td><td class="pass">—</td><td class="pass">—</td><td class="pass">—</td><td class="pass">—</td></tr>
+      <tr><th>Cliente o regulador único</th><td class="fire">DISPARA</td><td class="pass">—</td><td class="pass">—</td><td class="pass">—</td><td class="fire">DISPARA</td><td class="pass">—</td></tr>
+      <tr><th>Deuda tóxica</th><td class="fire">DISPARA</td><td class="pass">—</td><td class="pass">—</td><td class="pass">—</td><td class="pass">—</td><td class="pass">—</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h3>El conflicto que hubo que resolver</h3>
+  <p>Dos agentes leyeron el mismo knock-out de forma incompatible. La lectura literal del 10-K lo disparaba en cinco de seis: McKesson es el 22 % de los ingresos brutos de Vertex, cuatro clientes son el 78 % de argenx, y un solo distribuidor es el 45 % de los ingresos <em>y</em> el 45 % de las cuentas por cobrar de Alnylam. Pero en Estados Unidos tres mayoristas manejan casi toda la distribución farmacéutica: esa concentración mide la industria, no la empresa. Un knock-out que dispara en cinco de seis no discrimina — es exactamente el fallo que la auditoría del 19 de julio diagnosticó en la rúbrica anterior, reapareciendo en otro sitio.</p>
+  <p>La lectura de mecanismo pregunta otra cosa: <strong>¿puede un regulador o un pagador matar este negocio?</strong> Y ahí sí separa. A Moderna, un mismo complejo —FDA, CDC/ACIP y BARDA— es simultáneamente su regulador, su recomendador y su comprador; en quince meses le retiró 766 M$, canceló veintidós programas, estrechó la indicación y degradó la recomendación. A Intellia la FDA le paró las dos fases 3 pivotales con una sola carta. Vertex, argenx y Alnylam están, en cambio, doblemente blindadas por la designación huérfana: el <span class="mono">ORPHAN Cures Act</span> las excluye de la negociación de precios de Medicare, y la proclamación arancelaria de abril exime a los fármacos huérfanos del arancel del 100 %.</p>
+
+  <div class="note warn">
+    <span class="lbl">El detalle que decide el futuro</span>
+    <p>Ese blindaje es <strong>autoinfligible</strong>: se rompe el día en que la empresa apruebe una indicación no huérfana. El activo de Vertex expuesto al IRA no es Trikafta, es Journavx. Y Alnylam ya paró la fase 3 de vutrisiran en Stargardt precisamente por esta aritmética — es decir, <em>la empresa ya está tomando decisiones clínicas para no romper su escudo fiscal</em>. El escudo regulatorio y el crecimiento por diversificación son la misma variable con signo opuesto.</p>
+  </div>
+</section>
+
+<section>
+  <span class="snum">Tasa base</span>
+  <h2>El sector, en agregado, apenas empata con su coste de capital</h2>
+  <p class="lede">Antes de mirar ninguna empresa: la década del CRISPR, los GLP-1, la vacuna de ARN mensajero y las CAR-T fue un récord científico y no llegó al accionista del sector.</p>
+
+  <div class="scroll">
+  <table>
+    <thead><tr><th>Medida</th><th class="n">Valor</th><th>Fuente</th></tr></thead>
+    <tbody>
+      <tr><td>Probabilidad de que un fármaco en fase 1 llegue a aprobación</td><td class="n">7,9 %</td><td>BIO / Informa / QLS, 12.728 transiciones, 2011-2020</td></tr>
+      <tr><td>Probabilidad agregada de éxito (oncología)</td><td class="n">3,4 %</td><td>Wong, Siah &amp; Lo, <em>Biostatistics</em> 2019, 406.038 registros</td></tr>
+      <tr><td>TIR de I+D de las 20 mayores biofarmas, 2025</td><td class="n">7,0 %</td><td>Deloitte, 15ª edición — y concentrada en GLP-1</td></tr>
+      <tr><td>XBI a 10 años, anualizado</td><td class="n">9,16 %</td><td>SSGA, ficha oficial al 31-jul-2026</td></tr>
+      <tr><td>S&amp;P 500 (SPY) a 10 años, anualizado</td><td class="n">14,93 %</td><td>SSGA, misma fecha de corte</td></tr>
+      <tr><td>Empresas cotizadas con valor de empresa negativo</td><td class="n">15,0 %</td><td>del universo biotech, dic-2024</td></tr>
+      <tr><td>Clase de OPV de 2021 todavía bajo su precio de salida</td><td class="n">≈ 90 %</td><td>BioPharma Dive, tracker act. 07-ago-2026</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>Un dólar puesto en el índice biotecnológico hace diez años vale hoy 2,40. En el S&amp;P 500 vale 4,03. Y el matiz que más incomoda, que doy porque es honesto: medido desde agosto de 2011 el índice biotecnológico <em>empata</em> con el mercado. Es decir, el resultado de quince años lo decide íntegramente la fecha de entrada. <strong>Eso no es un compounder: es un activo de <em>timing</em></strong>, dentro de un marco construido precisamente para no jugar a eso.</p>
+  <p>Dónde ha ganado el capital de forma repetible en veinte años: en los consumibles y reactivos, y en la comercialización a escala. Las capas de descubrimiento y desarrollo clínico son, <em>como clase</em>, destructoras de capital — el valor se transfiere hacia arriba vía fusiones y adquisiciones, no se acumula ahí. La excepción no es una capa: es un puñado de nombres individuales.</p>
+</section>
+
+<section>
+  <span class="snum">Empresa por empresa</span>
+  <h2>Los seis expedientes</h2>
+  <p class="lede">Cada uno con su mecanismo de foso nombrado, lo que el precio de hoy exige, y la observación fechada que lo falsaría.</p>
+
+  <!-- VRTX -->
+  <div class="co">
+    <div class="co-hd"><span class="tk">VRTX</span><span class="nm">Vertex Pharmaceuticals</span><span class="badge wait">No comprar todavía</span></div>
+    <div class="facts">
+      <div><dt>Ingresos FY25</dt><dd>12.001 M$</dd></div>
+      <div><dt>ROIC</dt><dd>43,7 %</dd></div>
+      <div><dt>Deuda</dt><dd>0</dd></div>
+      <div><dt>WACC</dt><dd>6,5–9,4 %</dd></div>
+      <div><dt>Desde máximo</dt><dd>−1,6 %</dd></div>
+    </div>
+    <h4>Mecanismo del foso</h4>
+    <p>Propiedad del único estándar de cuidado en una población <em>censada por genética al nacer</em>. El cribado neonatal es universal en los cincuenta estados: el paciente llega con genotipo, y el médico no elige entre marcas — elige entre modular la proteína o nada. Unos 130 centros acreditados de la Cystic Fibrosis Foundation concentran a los pacientes del mundo, de modo que el retador tiene que reclutar sus ensayos <em>en los mismos centros que Vertex ya convirtió</em>. La lista de cadáveres lo mide mejor que cualquier ratio: AbbVie cerró su capítulo de fibrosis quística en diciembre de 2023 tras cinco años y el arsenal de Galapagos; Proteostasis acabó en fusión inversa; Translate Bio, absorbida. Y el rival más avanzado del mundo hoy, Sionna, diseñó su fase 2a para administrarse <strong>encima de Trikafta</strong>, no en su lugar.</p>
+    <h4>Lo que el precio exige</h4>
+    <p>A 546,55 $, el valor de empresa de 126.209 M$ pide un 12,1 % anual de crecimiento del flujo de caja libre durante diez años al WACC medio del 8 % — y todavía un 7,8 % en el extremo más generoso del 6,5 %. Entregó un 7,31 % anual de FCF y un 2,5 % anual de EBIT entre 2021 y 2025. De las doce celdas de la matriz de crecimiento × coste de capital, <strong>solo una justifica el precio</strong>: la que combina las dos hipótesis más generosas a la vez. Y el ROIC incremental medido, del 10,5 %, cae dentro de la banda del propio WACC: creación de valor cercana a cero sobre el capital nuevo.</p>
+    <div class="note">
+      <span class="lbl">Verificado en el Orange Book, no en el 10-K</span>
+      <p>La patente de sustancia de Trikafta expira el <span class="mono">8-dic-2037</span> y la de Alyftrek el <span class="mono">13-ago-2040</span>. Pero la exclusividad huérfana solo llega a marzo de 2033: <strong>el hueco de cuatro años lo cubren patentes, no exclusividad</strong>, y ahí es donde entra el riesgo de litigio Paragraph IV. Y Journavx —la apuesta de diversificación— tiene <strong>una sola patente listada</strong> en todo el Orange Book. Trikafta tiene treinta.</p>
+    </div>
+    <div class="gate"><span class="lbl">Gate de falsificación</span><p>Si Vertex no ha reportado ingresos de productos <em>no</em> fibrosis quística de al menos 1.500 M$ acumulados en los cuatro trimestres de 2027, antes del 1 de marzo de 2028, la tesis está falsada.</p></div>
+  </div>
+
+  <!-- ARGX -->
+  <div class="co">
+    <div class="co-hd"><span class="tk">ARGX</span><span class="nm">argenx SE</span><span class="badge wait">No comprar todavía</span></div>
+    <div class="facts">
+      <div><dt>Ventas FY25</dt><dd>4.151 M$</dd></div>
+      <div><dt>Crecimiento</dt><dd>+90 %</dd></div>
+      <div><dt>ROIC</dt><dd>31,7 %</dd></div>
+      <div><dt>Caducidad</dt><dd>2036</dd></div>
+      <div><dt>Desde máximo</dt><dd>−1,7 %</dd></div>
+    </div>
+    <h4>Mecanismo del foso</h4>
+    <p>Bloquear el receptor FcRn impide que la célula recicle los anticuerpos IgG, que se degradan: como los autoanticuerpos <em>son</em> IgG, bajan con el resto. La empresa falsó ella misma la versión ingenua de la tesis de plataforma cuando el estudio de pénfigo —la enfermedad mediada por IgG de libro de texto— falló en diciembre de 2023 con una p de 0,60. Bajar la IgG no basta. Lo que queda es real pero acotado: exclusividad regulatoria sobre una molécula propia, la etiqueta más amplia del mercado, y hábito prescriptor en un gremio pequeño. Sobrevivió el ataque frontal de Johnson &amp; Johnson: pese al lanzamiento de nipocalimab en abril de 2025, Vyvgart aceleró.</p>
+    <h4>Por qué el precio es «no decidible»</h4>
+    <p>Aquí el instrumento se rompe antes que la empresa. El rango de WACC del candado B genera un rango de crecimiento exigido de 9,2 puntos — <strong>más ancho que el rango entero de crecimiento derivado del motor</strong>. Por el piso de resolución del candado C, el DCF inverso no separa cara de barata en este caso, y rankear sin pasar el test de ruido está prohibido. Lo que sí resuelve es peor: entre el 66 % y el 74 % del valor de empresa de hoy vive <em>más allá de 2036</em>, que es el año exacto en que caduca la composición de materia de efgartigimod, el 100 % de los ingresos. Con perpetuidad convencional el precio pide un 16,5 % y parece barata; con erosión post-caducidad del −8 % pide un 26,0 % y está un 27 % cara, con el mismo crecimiento. <strong>La valoración no depende del crecimiento: depende de una hipótesis científica sin datos de fase 3.</strong></p>
+    <div class="gate"><span class="lbl">Gate de falsificación</span><p>Si ARGX-213 no ha entrado en fase 3 pivotal con reclutamiento activo y registrado, sostenido por datos propios de fase 2 públicos, y sin que argenx haya anunciado otra adquisición superior a 1.000 M$ desde hoy, antes del 31 de diciembre de 2027, la tesis está falsada.</p></div>
+  </div>
+
+  <!-- ALNY -->
+  <div class="co">
+    <div class="co-hd"><span class="tk">ALNY</span><span class="nm">Alnylam Pharmaceuticals</span><span class="badge wait">No comprar todavía</span></div>
+    <div class="facts">
+      <div><dt>Ingresos FY25</dt><dd>3.714 M$</dd></div>
+      <div><dt>1er beneficio GAAP</dt><dd>314 M$</dd></div>
+      <div><dt>Amvuttra Q2-26</dt><dd>1.012 M$</dd></div>
+      <div><dt>Desde máximo 52s</dt><dd>−52,2 %</dd></div>
+      <div><dt>Valor central</dt><dd>154 $</dd></div>
+    </div>
+    <h4>Mecanismo del foso</h4>
+    <p>No es la patente, que caduca en 2035-2036, ni la red de diagnóstico, que Pfizer aprovecha igual. Es un corpus regulatorio y toxicológico de plataforma sobre un único puerto biológico —el receptor del hepatocito al que se engancha el azúcar GalNAc— que hace que cada diana nueva herede un paquete de seguridad ya validado. Protege al fármaco número doce, no al de hoy. Y el mejor argumento a su favor es lo que pasó tras el desastre de revusiran en 2016: lo que sobrevivió no fue la molécula, fue <em>la capacidad de fabricar la siguiente</em>.</p>
+    <h4>El 30 de julio de 2026, en una sola frase</h4>
+    <p>Amvuttra superó los 1.000 M$ en un trimestre, creciendo un 89 %, <em>y aun así</em> la empresa recortó la guía anual. Motivo textual: la demanda de segunda línea se normalizó tras un lanzamiento que «en retrospectiva se benefició de demanda acumulada de pacientes que progresaban con estabilizadores». La acción cayó un 28,3 % ese día. Es el patrón de la cura que agota su propio mercado disparando en vivo, y la propia dirección admitiendo por escrito que su modelo de demanda estaba mal quince meses después de la aprobación.</p>
+    <p>El DCF inverso exige un 20-23 % de crecimiento del flujo de caja libre neto de retribución en acciones durante diez años, contra el 16,6 % que el motor genera. Alimentado con la g que la empresa realmente produce, el mismo modelo da <strong>131-184 $ por acción, con centro en 154 $</strong>, frente a los 237,04 $ de hoy. Caer un 52 % no la ha hecho barata: la ha hecho menos absurda.</p>
+    <div class="note warn">
+      <span class="lbl">Bandera roja no bloqueante</span>
+      <p>La financiación por venta de regalías a Blackstone tiene un tipo efectivo del <strong>46 % en vutrisiran y del 32 % en zilebesirán</strong>, con prenda sobre la propiedad intelectual de ambos programas. Recibió unos 1.114 M$; el pasivo hoy es de 1.720 M$. El interés devengado ya supera lo cobrado en unos 606 M$.</p>
+    </div>
+    <div class="gate"><span class="lbl">Gate de falsificación</span><p>Si Alnylam no ha reportado en el 10-K de 2027 un flujo de caja libre neto de retribución en acciones acumulado de 2026 y 2027 igual o superior a 1.000 M$, con el margen bruto de producto del cuarto trimestre de 2027 en el 73,0 % o por encima, la tesis está falsada.</p></div>
+  </div>
+
+  <!-- DHR -->
+  <div class="co">
+    <div class="co-hd"><span class="tk">DHR</span><span class="nm">Danaher</span><span class="badge wait">No comprar todavía</span></div>
+    <div class="facts">
+      <div><dt>Ingresos FY25</dt><dd>24.568 M$</dd></div>
+      <div><dt>ROIC c/ goodwill</dt><dd>6,0 %</dd></div>
+      <div><dt>ROIC s/ goodwill</dt><dd>17,2 %</dd></div>
+      <div><dt>WACC</dt><dd>7,4–8,8 %</dd></div>
+      <div><dt>SBC / CFO</dt><dd>4,6 %</dd></div>
+    </div>
+    <h4>Mecanismo del foso, verificado en el reglamento</h4>
+    <p>No es una metáfora: cuando un consumible de Cytiva o Pall entra en el expediente de fabricación de un biológico aprobado, cambiarlo activa el <span class="mono">21 CFR 601.12</span>. Sustituir una resina de cromatografía o un filtro exige un suplemento con aprobación previa —unos doce meses— o la vía acelerada por riesgo de desabastecimiento, unos seis, con estudios de comparabilidad bajo la norma <span class="mono">ICH Q5E</span> repetidos en cada jurisdicción donde el fármaco está registrado. El candado no lo pone Danaher: lo pone el expediente del cliente. Por eso el segmento de biotecnología es recurrente en un 88 %.</p>
+    <h4>Por qué el goodwill sí es maligno en este caso concreto</h4>
+    <p>Felipe pidió resolverlo caso por caso, y la respuesta aquí no favorece a la empresa. Se desplegaron 21.000 M$ entre 2021 y 2025 <em>sin acelerar el crecimiento orgánico</em>: las ventas de 2025 están por debajo de las de 2021 en perímetro comparable. Masimo se compró con un 99,1 % de fondo de comercio e intangibles, a 6,6 veces ventas. El 17,2 % ex-goodwill solo sería la métrica correcta si la empresa pudiera redesplegar capital incremental en activos ex-goodwill — y con un 12,8 % de reinversión orgánica, no puede. El precio exige un 7,9-11,5 % anual de FCF durante diez años a una empresa cuyo FCF ha caído un 0,6 % anual en cinco; <strong>en el rincón más favorable de todo el espacio de parámetros, el precio sigue estando un 31 % por encima.</strong></p>
+    <p>Y un detalle de divulgación que es en sí mismo el hallazgo: no ha habido deterioro de fondo de comercio en ningún ejercicio desde 2012, pero el rastro de deterioros de <em>intangibles</em> escala de 77 a 562 M$ entre 2023 y 2025, con 654 M$ acumulados en una marca de consumibles de genómica <strong>que el filing no nombra</strong>. El comentario adyacente habla de «plásmidos y ARN mensajero en dos clientes grandes», lo que apunta a Aldevron —comprada en 2021— pero eso es inferencia, no hecho. El fondo de comercio nunca se toca; la marca que hay debajo se deteriora en silencio.</p>
+    <div class="gate"><span class="lbl">Gate de falsificación</span><p>Si el 10-K de 2027 no muestra a la vez un crecimiento orgánico consolidado del ejercicio igual o inferior al 4,0 % y un crecimiento orgánico de Biotechnology igual o inferior al 6,0 %, la tesis está falsada.</p></div>
+  </div>
+
+  <!-- MRNA -->
+  <div class="co">
+    <div class="co-hd"><span class="tk">MRNA</span><span class="nm">Moderna</span><span class="badge no">No</span></div>
+    <div class="facts">
+      <div><dt>Ingresos FY25</dt><dd>1.944 M$</dd></div>
+      <div><dt>Ingresos Q2-26</dt><dd>145 M$</dd></div>
+      <div><dt>I+D acumulada</dt><dd>20.800 M$</dd></div>
+      <div><dt>mRESVIA FY25</dt><dd>8 M$</dd></div>
+      <div><dt>EV / ventas</dt><dd>27×</dd></div>
+    </div>
+    <h4>Qué pasó el 19 de agosto</h4>
+    <p>Moderna subió un <strong>176,97 % en una sola sesión</strong>, con 126,6 millones de acciones negociadas —cerca de un tercio del capital— tras anunciar Merck y Moderna que la fase 3 de la vacuna oncológica individualizada cumplió sus objetivos en melanoma. El interés corto previo rondaba el 13,5 % del capital flotante y había llegado al 20 %: el <em>squeeze</em> es amplificador confirmado, no la causa. Es una noticia real y es la primera lectura positiva de fase 3 de una terapia neoantigénica individualizada de la historia.</p>
+    <p>Y el comunicado <strong>no publicó ni un solo <em>hazard ratio</em></strong>. Los que circulan son del ensayo de fase 2b, citados como contexto histórico dentro del mismo comunicado. La supervivencia global sigue inmadura. El mercado añadió unos 33.000 M$ de capitalización por un dato cuya magnitud es hoy desconocida — y la economía del programa se comparte al 50 % con Merck, que además aporta el Keytruda sin el cual no existe.</p>
+    <div class="note crit">
+      <span class="lbl">Lo que el precio pide</span>
+      <p>El flujo de caja libre es negativo, así que el DCF inverso estándar no aplica y no lo fabrico. Resuelto al revés, sobre el nivel terminal: para que los 52.500 M$ de valor de empresa sean justos hacen falta ingresos en 2035 de entre 25.000 y 50.500 M$, aplicando además un margen de flujo de caja del 25 % <em>a perpetuidad</em> — que es exactamente el mejor margen de la historia de la empresa, el de 2022, con producto monopolístico y compras anticipadas de gobiernos. Eso es un <strong>29,1 % a 38,5 % anual compuesto durante diez años</strong>, contra un −53,4 % anual entregado en los tres últimos.</p>
+    </div>
+    <h4>Por qué es «no» y no «no comprar todavía»</h4>
+    <p>«No comprar todavía» está reservado al negocio extraordinario que hoy cotiza caro, donde el tiempo trabaja a favor del que espera. Aquí falló la pregunta de <em>calidad</em>, no la de precio. En quince años y 20.800 M$ de I+D, el único producto comercial no-COVID de la plataforma facturó 8 M$ en 2025 — y venía de 25 M$ en 2024: <strong>se encoge en el año dos</strong>. La deuda es senior garantizada con gravamen de primer rango sobre sustancialmente todos los activos, al 9,38 %, con un covenant de caja mínima comprobado <em>cada semana</em>. Y en asignación de capital: 5.339 M$ gastados en recomprar acciones entre 2021 y 2023 con el título entre 100 y 300 $, y cero recompras en 2024-2025 con el título a 22-30 $. El manual invertido.</p>
+    <div class="gate"><span class="lbl">Gate de falsificación</span><p>Si el 10-K de 2027 no muestra, antes del 31 de marzo de 2028, o bien más de 440 millones de acciones en circulación, o bien más de 1.100 M$ de deuda dispuesta, la tesis está falsada: el negocio se autofinancia y el Paso 2 debe reabrirse.</p></div>
+  </div>
+
+  <!-- NTLA -->
+  <div class="co">
+    <div class="co-hd"><span class="tk">NTLA</span><span class="nm">Intellia Therapeutics</span><span class="badge no">No</span></div>
+    <div class="facts">
+      <div><dt>Caja</dt><dd>628 M$</dd></div>
+      <div><dt>Pista</dt><dd>≈6,3 trim.</dd></div>
+      <div><dt>Dilución 5a</dt><dd>+93,6 %</dd></div>
+      <div><dt>Regeneron</dt><dd>92 % ingr.</dd></div>
+      <div><dt>Desde máximo</dt><dd>−93,7 %</dd></div>
+    </div>
+    <h4>La ciencia acertó y el accionista perdió igual</h4>
+    <p>En abril de 2026 el ensayo de fase 3 en angioedema hereditario salió positivo y sin ambigüedad: un 87 % menos de ataques, un 62 % de pacientes libres de ataques <em>y de terapia</em> frente al 11 % con placebo, sin efectos adversos graves en el brazo activo. Es una edición génica administrada por vena que funciona. Y el que financió ese ensayo comprando acciones a 30,57 $ lo ve llegar al mercado habiendo sido diluido tres veces: los precios de colocación descienden monótonamente — 30,57, luego 25,68, luego 11,15, luego 10,75 $.</p>
+    <p>El foso no existe: la propiedad intelectual fundacional está <em>alquilada</em> —sublicencia de Caribou sobre la familia de Berkeley— y el 26 de marzo de 2026 el tribunal de patentes volvió a dar la prioridad al Broad Institute. El licenciante de Intellia perdió otra vez en Estados Unidos. Y el activo principal se comparte al 25 % con Regeneron, que además es el 92 % de los ingresos y el 100 % de las cuentas por cobrar.</p>
+    <div class="gate"><span class="lbl">Gate de falsificación</span><p>Si Intellia no ha reportado, antes del 31 de marzo de 2027, tanto la aceptación a trámite del BLA por la FDA <em>como</em> al menos 300 M$ de financiación no dilutiva ya cobrada o comprometida, la tesis está falsada.</p></div>
+  </div>
+</section>
+
+<section>
+  <span class="snum">La paradoja</span>
+  <h2>Cuanto más curativa es la terapia, peor es el negocio</h2>
+  <p class="lede">El método QG asume que el cliente satisfecho vuelve. En terapia génica curativa, el cliente satisfecho desaparece. La curva de ingresos no es una anualidad: es una cosecha.</p>
+
+  <div class="scroll">
+  <table>
+    <caption>Se trata el stock prevalente en tres a cinco años; después solo quedan los casos nuevos.</caption>
+    <thead><tr><th>Caso</th><th>Desenlace</th></tr></thead>
+    <tbody>
+      <tr><th>Glybera</th><td>Autorización expirada en octubre de 2017 tras tratar <strong>un solo paciente comercial en cinco años</strong>.</td></tr>
+      <tr><th>Zolgensma</th><td>361 → 920 → 1.350 M$ (2021), primer declive en 2023, 297 M$ en el segundo trimestre de 2025. <strong>Pico y decadencia en cuatro años y medio.</strong></td></tr>
+      <tr><th>Zynteglo</th><td>Retirado de Alemania en 2021 por falta de acuerdo de precio. bluebird bio, que llegó a valer 10.000 M$, se vendió en 2025.</td></tr>
+      <tr><th>Beqvez</th><td>Retirado por Pfizer <strong>sin un solo paciente tratado</strong>. Roctavian, retirado con ~240 M$ de deterioro.</td></tr>
+      <tr><th>Casgevy</th><td>64 infusiones en todo 2025, frente a 7,74 millones de enfermos de anemia falciforme en el mundo.</td></tr>
+      <tr><th>Sovaldi / Harvoni</th><td>El caso canónico: curar el 95 % de la hepatitis C agotó su propio mercado. 19.100 M$ en 2015 → 1.200 M$ en medio año de 2020.</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>La ironía específica de Intellia lo resume: si el 62 % de sus pacientes queda libre de ataques <em>y de terapia</em>, la empresa <strong>destruye el mercado de profilaxis crónica del angioedema hereditario</strong> —de 3.500 a 4.400 M$ al año entre cuatro fármacos rivales— y captura una fracción como pago único.</p>
+  <p>El contramodelo también existe, y su patrón es nítido: <strong>anualidad crónica más pagador organizado más población suficiente para amortizar</strong>. Cardiometabólico con endpoints de mortalidad, oncología de precisión con diagnóstico acompañante, neuroinmunología de autoanticuerpos donde un mecanismo sirve para muchas indicaciones. Y el peaje: los consumibles que se cobran por gramo fabricado, no por fármaco descubierto.</p>
+</section>
+
+<section>
+  <span class="snum">Patrones</span>
+  <h2>Ocho formas de parecer un compounder sin serlo</h2>
+  <p class="lede">Biblioteca de ángeles caídos: cada patrón con su gemelo fallido documentado y la empresa actual a la que se parece. Sin puntuar, sin comparar, sin ranking.</p>
+  <ol class="pat">
+    <li><strong>Plataforma sin producto es una opción, no un negocio.</strong> Cuatro de cuatro empresas de edición génica perdieron más del 65 % desde máximo, con <em>un</em> producto comercial entre las cuatro. Gemelo fallido: Editas. Contramodelo: la fábrica reutilizable de anticuerpos de Regeneron. <span class="tag">aplica hoy · NTLA · MRNA</span></li>
+    <li><strong>La cura que agota su propio mercado.</strong> Dos de dos casos examinados. Gemelo fallido: Harvoni. <span class="tag">alerta viva · ALNY</span></li>
+    <li><strong>La aprobación acelerada es una concesión revocable, no un foso.</strong> Tres de tres terminaron en retirada o restricción. Gemelo fallido: Elevidys de Sarepta, con advertencia de recuadro tras dos muertes por fallo hepático. <span class="tag">aplica hoy · NTLA</span></li>
+    <li><strong>Aprobado no es igual a pagado: el reembolso es el gate real.</strong> Gemelo fallido: bluebird bio, con tres productos aprobados y vendida por una fracción.</li>
+    <li><strong>Una fusión transformacional cuando se aplana el crecimiento orgánico es una confesión, no una estrategia.</strong> Illumina pagó 8.000 M$ por GRAIL contra el veto explícito de dos reguladores, con el negocio base ya plano. <span class="tag">vigilancia · DHR</span></li>
+    <li><strong>Vencimiento conocido más hipótesis científica única.</strong> La fecha de patente es el único dato del futuro que se conoce con certeza años antes. Gemelo fallido: Biogen — y la lección precisa es que Aduhelm <em>se aprobó</em>, y la acción perdió igual, porque el pagador dijo que no. <span class="tag">aplica hoy · VRTX · MRNA</span></li>
+    <li><strong>La razón técnica de la derrota suele ser pública antes de la derrota.</strong> CureVac perdió por usar uridina no modificada; estaba publicado. <span class="tag">regla operativa</span></li>
+    <li><strong>El monopolio de clase dura hasta que alguien es mejor dentro de la misma clase.</strong> Gemelo fallido: Novo Nordisk, el más incómodo de la lista — cayó un 75 % desde 640.000 M$ <em>sin que su ciencia se rompiera nunca</em>. Simplemente apareció alguien mejor.</li>
+  </ol>
+</section>
+
+<section>
+  <span class="snum">En pro de la humanidad</span>
+  <h2>El capital sigue al pagador, no a la carga de enfermedad</h2>
+  <p class="lede">La pregunta merecía rigor, no marketing. El impacto está probado y es enorme; la captura de valor solo funciona donde el pagador es rico. Ese desajuste es información de inversión de primer orden.</p>
+
+  <div class="scroll">
+  <table>
+    <thead><tr><th>Producto</th><th>Efecto medido frente al estándar previo</th></tr></thead>
+    <tbody>
+      <tr><th>Trikafta</th><td>Mediana de supervivencia <em>prevista</em> en fibrosis quística: 34 años (cohorte 2000-04) → 46 (2015-19) → <strong>65 (2020-24)</strong></td></tr>
+      <tr><th>Amvuttra</th><td>Mortalidad por cualquier causa <strong>−31 %</strong> en periodo doble ciego, <strong>−36 %</strong> hasta 42 meses</td></tr>
+      <tr><th>Casgevy</th><td>29 de 30 pacientes evaluables libres de crisis vaso-oclusivas durante 12 meses o más</td></tr>
+      <tr><th>Vyvgart</th><td>Primer biológico aprobado en todos los serotipos de miastenia gravis generalizada</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="note">
+    <span class="lbl">Candado sobre la cifra más citada</span>
+    <p>«Mediana de supervivencia prevista» es una proyección de tablas de vida, no supervivencia observada: <strong>nadie ha vivido aún la cohorte de 65 años</strong>. Y los pacientes no elegibles a moduladores tienen una mediana más de una década inferior. La cifra es real y es extraordinaria; no es lo que parece a primera lectura.</p>
+  </div>
+
+  <p>Ahora la desproporción, en dos números. La I+D mundial en tuberculosis —10,7 millones de enfermos y 1,23 millones de muertos en 2024— es de <strong>1.200 M$ al año</strong>, frente a una necesidad declarada de 5.000. Una sola empresa facturó <strong>11.150 M$ en 2025</strong> tratando a unas 100.000 personas con fibrosis quística. No es un juicio moral sobre Vertex, que hizo algo extraordinario: es el mecanismo desnudo.</p>
+  <p>Y en resistencia antimicrobiana —más de 4,7 millones de muertes asociadas— el incentivo está literalmente <em>invertido</em>: un antibiótico nuevo se reserva para no quemar su eficacia, de modo que el éxito clínico destruye el volumen. Achaogen quebró un año después de que le aprobaran el fármaco, con 800.000 dólares de ventas en su último trimestre.</p>
+  <p>La brecha entre impacto y acceso es, además, el techo real del mercado — y apunta en direcciones opuestas según la empresa. <strong>Vertex ya cubre alrededor del 95 % de su población objetivo</strong> en mercados desarrollados: no le quedan pacientes nuevos que capturar en fibrosis quística. <strong>Alnylam declara un 80 % de unos 200.000 pacientes sin tratar</strong> en amiloidosis: la pista sigue intacta. Ese contraste vale más que cualquier narrativa de biotecnología con propósito.</p>
+</section>
+
+<section>
+  <span class="snum">El candado</span>
+  <h2>Cinco lecturas de fase 3, selladas antes del 30 de septiembre</h2>
+  <p class="lede">El abogado del diablo vetó la clase de activo entera y dejó una sola puerta: demostrar el círculo de competencia en vez de afirmarlo. Felipe aceptó el test.</p>
+  <p>La regla es estricta. Antes del <span class="mono">30-sep-2026</span>, Felipe escribe y sella —sin inteligencia artificial, sin analistas, sin terceros— su predicción del endpoint primario y del veredicto regulatorio de cinco ensayos de fase 3 ya fechados. <strong>Umbral: cuatro aciertos de cinco.</strong> Con tres o menos, el círculo de competencia en biotecnología queda falsado empíricamente y la clase queda vetada sin apelación narrativa.</p>
+
+  <div class="scroll">
+  <table>
+    <caption>Fichas completas con el endpoint primario textual, tamaño muestral, comparador y tasa base por área terapéutica en el documento adjunto. Ninguna es de las seis del expediente: el test mide competencia general.</caption>
+    <thead><tr><th>Ensayo</th><th>Área</th><th>Apuesta</th></tr></thead>
+    <tbody>
+      <tr><th>HARMONi-3</th><td>Oncología</td><td>Un anticuerpo con dos brazos —anti-PD-1 y anti-VEGF a la vez— contra pembrolizumab en primera línea de cáncer de pulmón</td></tr>
+      <tr><th>ENSURE-1</th><td>Neurología</td><td>Esclerosis múltiple recurrente</td></tr>
+      <tr><th>PREVAIL</th><td>Cardiometabólico</td><td>Eventos cardiovasculares en enfermedad aterosclerótica establecida</td></tr>
+      <tr><th>OPUS-1</th><td>Vacunas</td><td>Neumococo en adultos</td></tr>
+      <tr><th>X-NOVA2</th><td>Psiquiatría</td><td>Trastorno depresivo mayor</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="note crit">
+    <span class="lbl">Instrucción al agente, cumplida</span>
+    <p>El documento no contiene ninguna predicción. Trae el ensayo, el endpoint registrado <em>verbatim</em>, el contexto numérico crudo y la tasa base histórica del área — y para. Si te doy la respuesta, el test no mide nada.</p>
+  </div>
+</section>
+
+<section>
+  <span class="snum">Disciplina de datos</span>
+  <h2>Lo que quedó degradado, dicho en vez de rellenado</h2>
+  <ul>
+    <li><strong>argenx no publica trimestres</strong>, solo semestres. Cualquier «segundo trimestre de 2026» de argenx es inferido, no primario. Con el flujo de caja auditado del ejercicio completo en vez del semestre anualizado, la exigencia del DCF inverso salta del 20,8 % al 27,0 %.</li>
+    <li><strong>El test de retribución en acciones sobre flujo de caja no es calculable</strong> en Moderna ni en Intellia: el flujo de caja operativo es negativo. El knock-out debe reformularse o queda sin resolver — no se puede fingir que no dispara.</li>
+    <li><strong>El balance de Danaher tras Masimo es provisional.</strong> La asignación del precio de compra está abierta: fondo de comercio, deuda y activos están sujetos a ajuste retroactivo por declaración expresa de la compañía.</li>
+    <li><strong>La exclusividad de doce años de Casgevy no está publicada.</strong> El Purple Book deja el campo vacío — solo 36 de 2.230 filas lo traen relleno. Cualquier fecha concreta sería inferencia, no dato de la FDA.</li>
+    <li><strong>Alnylam adoptó una norma contable nueva y una cifra ya publicada cambió</strong> entre filings. No es una reexpresión por error, pero cualquiera que compare el primer semestre de 2025 contra el de 2026 con datos de distinta añada obtiene una cifra falsa.</li>
+    <li><strong>La beta histórica no es un input, es ruido</strong> en cinco de las seis. Solo Danaher tiene una regresión utilizable. En Intellia el 85 % de la varianza no tiene ninguna relación con el mercado: lo que esa beta mide es cuánto se mueve el sentimiento sobre un ensayo.</li>
+  </ul>
+  <p>Por la regla de la casa, un dato clave sin verificar degrada la cifra y topa el veredicto en vigilar. Tres de los cuatro «no comprar todavía» de este expediente llevan ese techo puesto — y en los tres casos el signo de la respuesta es el mismo en ambos extremos del rango, así que la degradación dimensiona la conclusión pero no la cambia.</p>
+</section>
+
+<section>
+  <span class="snum">Ronda 2 · 22-ago-2026</span>
+  <h2>Ampliando la búsqueda: calidad Y precio a la vez</h2>
+  <p class="lede">Felipe pidió algo más duro que el barrido inicial: seis empresas de calidad genuina que además coticen a precio justo o con margen hoy. De las cuatro supervivientes de calidad de la ronda 1, ninguna pasa ese segundo filtro. Se examinaron doce farmacéuticas y biotecnológicas comerciales más, con la misma disciplina y la misma puerta estrecha del abogado del diablo: solo cuenta el valor que viene de producto <em>ya aprobado</em>, nunca de una apuesta de pipeline.</p>
+
+  <div class="note">
+    <span class="lbl">El resultado, sin adornar</span>
+    <p>De <strong>dieciocho</strong> empresas evaluadas en total (las seis originales más las doce nuevas), <strong>una sola combina calidad real y precio justo hoy: Bristol Myers Squibb.</strong> Tres más —Regeneron, Gilead y Roche— quedan en <strong>empate técnico genuino</strong>: el rango de coste de capital defendible cambia el signo de la respuesta, y el método prohíbe forzar un veredicto que el instrumento no sostiene. El resto son buenas empresas, caras.</p>
+  </div>
+
+  <div class="scroll">
+  <table>
+    <caption>Puerta estrecha = el precio de hoy no depende de pipeline no aprobado. Empate técnico = el veredicto de precio cambia de signo dentro del rango de WACC defendible.</caption>
+    <thead><tr><th>Empresa</th><th>Calidad</th><th>Puerta estrecha</th><th>Precio</th></tr></thead>
+    <tbody>
+      <tr><th>BMY · Bristol Myers Squibb</th><td class="pass">Pasa</td><td class="pass">Sí</td><td style="color:var(--ok);font-weight:600">Barata o justa</td></tr>
+      <tr><th>REGN · Regeneron</th><td class="pass">Pasa</td><td class="pass">Sí</td><td class="rev">Empate técnico</td></tr>
+      <tr><th>GILD · Gilead</th><td class="pass">Pasa</td><td class="pass">Sí</td><td class="rev">Empate técnico</td></tr>
+      <tr><th>RHHBY · Roche</th><td class="pass">Pasa</td><td class="pass">Sí</td><td class="rev">Empate técnico</td></tr>
+      <tr><th>NVO · Novo Nordisk</th><td class="pass">Pasa</td><td class="pass">Sí</td><td class="fire">Cara</td></tr>
+      <tr><th>ABBV · AbbVie</th><td class="pass">Pasa</td><td class="pass">Sí</td><td class="fire">Cara</td></tr>
+      <tr><th>TMO · Thermo Fisher</th><td class="pass">Pasa</td><td class="pass">Sí</td><td class="fire">Cara</td></tr>
+      <tr><th>WST · West Pharmaceutical</th><td class="pass">Pasa</td><td class="pass">Sí</td><td class="fire">Cara</td></tr>
+      <tr><th>AMGN · Amgen</th><td class="pass">Pasa</td><td class="fire">No</td><td class="pass">—</td></tr>
+      <tr><th>NVS · Novartis</th><td class="fire">Muere</td><td class="fire">No</td><td class="pass">—</td></tr>
+      <tr><th>MRK · Merck</th><td class="fire">Muere</td><td class="pass">—</td><td class="pass">—</td></tr>
+      <tr><th>SRT.DE · Sartorius</th><td class="fire">Muere</td><td class="pass">Sí</td><td class="pass">—</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h3>Bristol Myers Squibb — la única que pasa los dos filtros</h3>
+  <div class="facts">
+    <div><dt>Precio</dt><dd>65,47 $</dd></div>
+    <div><dt>P/E non-GAAP</dt><dd>~10,6×</dd></div>
+    <div><dt>Dividendo</dt><dd>~4,15 %</dd></div>
+    <div><dt>WACC real</dt><dd>5,1–5,5 %</dd></div>
+    <div><dt>Margen de seguridad</dt><dd>+6 a +12 pp</dd></div>
+  </div>
+  <p>El foso es real: exclusividad de patente reforzada en toda la cartera de crecimiento —Reblozyl, Camzyos, Breyanzi, Abecma, Sotyktu, Cobenfy, Krazati— más la complejidad de fabricación de la terapia celular. Con fecha de caducidad conocida, no una ventaja que se regenera sola. Y el riesgo también es real, sin suavizarlo: Eliquis pierde su exclusividad en Estados Unidos el 1 de abril de 2028, Opdivo el mismo año — juntos, algo más de la mitad de los ingresos de 2025. El precedente ya ocurrió dentro de la propia empresa: Revlimid cayó de unos 12.000 millones de dólares en su pico a 3.000 millones en 2025 cuando entraron los genéricos.</p>
+  <p>Con el coste de capital calculado desde el mercado —beta real medida en dos fuentes independientes, no heredada de ningún tier— el precio de hoy solo exige que el flujo de caja libre <strong>caiga</strong> entre un 10% y un 13% anual durante diez años. Lo que la empresa entregó entre 2021 y 2025 fue esencialmente plano. La brecha entre lo que el precio pide y lo que el negocio ha demostrado es amplia, y no cambia de signo ni con una beta sectorial más conservadora. La tensión honesta que no escondo: un coste de capital calculado sobre los últimos cinco años no puede anticipar el precipicio de 2028, porque ese precipicio todavía no ha ocurrido en la ventana que lo mide. El margen de seguridad es real frente a lo ya vivido; que sobreviva intacto en 2028 depende de que la cartera ya aprobada compense la pérdida, y eso es trabajo para el resto del método, no para este candado de WACC.</p>
+
+  <h3>Los tres empates técnicos: ni compra, ni descarte</h3>
+  <p>En Regeneron, Gilead y Roche el problema no es la empresa: es que el instrumento de valoración, con un coste de capital defendible en más de un extremo razonable, da respuestas de signo contrario. Regeneron pasa de un margen de seguridad positivo del 20-48% a uno negativo del 24-35% solo cambiando la beta de la medida real a una sectorial más alta. Roche pide un crecimiento del 0,25% al 8,1% del flujo de caja según el extremo del WACC —la mitad de ese rango la hace barata, la otra mitad cara. El candado de piso de resolución del método existe exactamente para este caso: prohíbe fingir una conclusión que los datos no sostienen. Las tres merecen un WACC más fino —una regresión propia, no solo la beta que reporta un agregador— antes de decidir nada.</p>
+
+  <p>Y las tres que mueren, por completar el cuadro: Novartis y Amgen quedaron fuera porque su valoración de hoy depende de lecturas de ensayos clínicos en los próximos meses —exactamente lo que la puerta estrecha excluye. Merck, porque Keytruda es casi la mitad de sus ingresos y pierde la patente en diciembre de 2028. Sartorius, porque su rentabilidad sobre el capital lleva tres años por debajo de su coste de capital.</p>
+</section>
+
+<section>
+  <span class="snum">Ronda 3 · 22-ago-2026</span>
+  <h2>Cinco, no seis — y por qué no fuerzo el sexto</h2>
+  <p class="lede">Se resolvieron con regresión propia (no beta de agregador) los tres empates de la ronda 2, y se examinaron doce candidatas más fuera de la biotecnología pura: salud animal, diagnóstico, dispositivos, servicios clínicos. De treinta empresas evaluadas en tres rondas, <strong>cinco combinan calidad genuina y precio justo hoy.</strong> Pedías seis. Encontré cinco. La sexta plaza queda vacía a propósito: dos candidatas más (Regeneron, Gilead) siguen en empate técnico incluso con mi propia regresión de beta — el R² de esa regresión es tan bajo que confirma que su precio se mueve por noticias propias, no por el mercado, y el candado de piso de resolución del método prohíbe fingir una respuesta que el instrumento no sostiene. Prefiero darte cinco verificadas que seis con una inventada.</p>
+
+  <div class="verdicts">
+    <div class="vc"><span class="tk">BMY</span><span class="nm">Bristol Myers Squibb</span><span class="vd">Barata o justa</span><p class="wh">Precipicio de patente en 2028 ya en el precio: pide que el flujo de caja <em>caiga</em> un 10-13% anual, y la empresa entregó un resultado casi plano.</p><span class="px">65,47 $ · P/E 10,6× · dividendo 4,15 %</span></div>
+    <div class="vc"><span class="tk">RHHBY</span><span class="nm">Roche</span><span class="vd">Barata o justa</span><p class="wh">Resuelta de empate técnico a barata con beta propia (0,38-0,51). En el extremo bajo del WACC el mercado solo pide 0,6-1,9 % de crecimiento a diez años.</p><span class="px">WACC 6,1-7,0 % · Ocrevus caduca 2028-29</span></div>
+    <div class="vc"><span class="tk">SNY</span><span class="nm">Sanofi</span><span class="vd">Barata o justa</span><p class="wh">Margen de 9 a 19 puntos porcentuales entre lo exigido y lo entregado. Barata porque su pipeline decepcionó dos veces en 2025-26 — el mercado castigó de más.</p><span class="px">45,42 $ · Dupixent 36 % de ventas</span></div>
+    <div class="vc"><span class="tk">GSK</span><span class="nm">GSK plc</span><span class="vd">Barata o justa</span><p class="wh">Descuento de 23-65 % frente a simplemente repetir su ritmo de los últimos cinco años. Barata por el litigio de Zantac, que ya va camino de resolverse.</p><span class="px">52,96 $ ADR · ROIC ~25 %</span></div>
+    <div class="vc"><span class="tk">ZTS</span><span class="nm">Zoetis</span><span class="vd">Barata o justa</span><p class="wh">Único caso donde el margen de seguridad no se volvió negativo en ninguna combinación de WACC probada. Barata por una alerta de seguridad de la FDA en un solo fármaco.</p><span class="px">77,73 $ · ROIC 20-24 %</span></div>
+  </div>
+
+  <div class="note">
+    <span class="lbl">El patrón que conecta a las cinco</span>
+    <p>Ninguna está barata porque el negocio se rompió. Las cinco están baratas porque el mercado sobrerreaccionó a una noticia concreta y temporal encima de un negocio que sigue intacto: un litigio heredado (GSK, Zantac), un pipeline que decepcionó dos veces seguidas sin tocar el negocio principal (Sanofi), una alerta de seguridad en un solo fármaco de una cartera de decenas (Zoetis), o simplemente un precipicio de patente ya tan descontado que el precio pide que el negocio empeore más de lo que nunca lo ha hecho (Bristol Myers, Roche). <strong>Es exactamente el patrón que el método busca: calidad real, temporalmente mal vista.</strong></p>
+  </div>
+
+  <h3>Los dos que se quedan fuera, y por qué merece la pena vigilarlos</h3>
+  <p><strong>Regeneron</strong> y <strong>Gilead</strong> pasan la calidad sin problema — ambas con moat real, cero deuda tóxica, ROIC muy por encima de cualquier coste de capital razonable. Pero en las dos, mi propia regresión de beta (no una cifra prestada) da un R² por debajo del 6-7%: menos del 7% del movimiento de su precio tiene que ver con el mercado en general. El resto es ruido propio —biosimilares, litigios, lecturas de pipeline— y ese ruido hace que el coste de capital defendible abarque un rango tan ancho que la respuesta de "barata" o "cara" cambia de signo dentro de él. No es que no sepa: es que el instrumento, con honestidad, no puede saberlo todavía. Lo que falta no es más beta: es una proyección de flujo de caja fundamentada en el negocio, no en el precio.</p>
+
+  <h3>Las que mueren, y una lección sobre el moat que no basta</h3>
+  <p>Pfizer, Becton Dickinson y Revvity comparten el mismo fallo: rentabilidad sobre el capital estructuralmente por debajo de su coste de capital durante varios años seguidos. Pfizer no tiene, en sentido estricto, un foso que se renueve solo — vive de exclusividad regulatoria que se agota, y su ROIC lo confirma: 0,6% en 2023, apenas 4,4-4,8% en 2024-2025. Charles River queda fuera por la puerta estrecha: su crecimiento reciente depende en parte de un desenlace regulatorio pendiente sobre su cadena de suministro de primates, investigado por el Departamento de Justicia desde 2023.</p>
+</section>
+
+<footer>
+  <p>Barrido, fase profunda y dos rondas de ampliación ejecutados el 21-22 de agosto de 2026 con más de 90 agentes sobre fuentes primarias: filings de EDGAR, ficheros oficiales del Orange Book y el Purple Book de la FDA, registros de clinicaltrials.gov, la serie H.15 de la Reserva Federal y datos vivos de mercado. Treinta empresas evaluadas en total. Método de 12 pasos, «Comprensión Primero con candado adversarial». Este documento es trabajo de investigación, no asesoramiento financiero personalizado.</p>
+</footer>
+
+</div>

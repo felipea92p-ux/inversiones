@@ -1,0 +1,100 @@
+{
+ "ticker": "GOOGL",
+ "name": "Alphabet Inc. (Class A)",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 349.68,
+ "market_cap_usd_b": 4270,
+ "fwd_pe": 29.44,
+ "fwd_pe_5y_avg": 24.4,
+ "pe_prem_disc_pct": 20.7,
+ "peg": 1.83,
+ "last_q": {
+  "period": "Q1 2026 (ended Mar 31, 2026)",
+  "revenue": "$109,896M",
+  "rev_yoy_pct": 22,
+  "op_margin_pct": 36.1,
+  "eps_gaap": "$5.11",
+  "eps_adj": "$2.76 (ex $2.35 equity-securities gain)"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 31, 2025)",
+  "revenue": "$402,836M",
+  "organic_growth_pct": 15,
+  "roic_pct": 31,
+  "fcf": "$73,266M",
+  "fcf_margin_pct": 18.2
+ },
+ "sbc_pct_revenue": 6.2,
+ "sbc_pct_fcf": 34.1,
+ "net_debt_usd_b": -49.3,
+ "nd_ebitda": -0.3,
+ "net_cash": true,
+ "guidance_fy": "2026 capital expenditures guided to $175-185B (raised; PROYECCION). No formal revenue/EPS guidance issued (Alphabet does not provide consolidated revenue/EPS guidance). Management commentary: continued strong double-digit revenue growth, Cloud backlog over $460B nearly doubled QoQ.",
+ "pct_off_52w_high": -14.4,
+ "pct_off_ath": -14.4,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "net_cash",
+  "guidance_fy"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "Alphabet Q1 2026 Earnings Release (official IR PDF, primary)",
+   "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q1/2026q1-alphabet-earnings-release.pdf",
+   "date": "2026-04-29"
+  },
+  {
+   "label": "Alphabet Q4 & FY2025 Earnings Release (official IR PDF, primary)",
+   "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q4/2025q4-alphabet-earnings-release.pdf",
+   "date": "2026-02-04"
+  },
+  {
+   "label": "SEC EDGAR - Alphabet 10-Q Q1 2026",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000048/goog-20260331.htm",
+   "date": "2026-04-29"
+  },
+  {
+   "label": "SEC EDGAR - Alphabet 10-K FY2025",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000018/goog-20251231.htm",
+   "date": "2026-02-04"
+  },
+  {
+   "label": "StockAnalysis.com - GOOGL statistics (price, fwd P/E, PEG, market cap, debt/cash)",
+   "url": "https://stockanalysis.com/stocks/googl/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com - GOOGL overview (price, 52w high/low)",
+   "url": "https://stockanalysis.com/stocks/googl/",
+   "date": "2026-06-22"
+  }
+ ],
+ "notes": "VERIFIED de fuentes primarias (earnings releases oficiales de Alphabet IR + 10-K/10-Q en SEC EDGAR): todas las cifras operativas de Q1 2026 y FY2025. Q1 2026: ingresos $109.9B (+22% YoY, +19% cc), op margin 36.1%, Google Cloud +63% a $20.0B, EPS GAAP $5.11 (incluye $2.35 de ganancia no realizada en valores de renta variable; EPS ajustado ex-ganancia ~$2.76). FY2025: ingresos $402.8B (+15% reportado y constant currency = crecimiento organico), op income $129.0B, FCF $73.3B (OCF $164.7B - capex $91.4B), margen FCF 18.2%. SBC FY2025 $24.95B = 6.2% ingresos y 34.1% del FCF (Q1 2026 SBC $6.75B = 6.1% ingresos). Caja neta: efectivo + valores negociables $126.8B vs deuda LP $77.5B = ~$49.3B caja neta (tras emision de $31.1B en notas senior en Q1 2026; StockAnalysis reporta deuda total ~$95.9B incl. leasing, lo que aun deja caja neta ~$31B). nd_ebitda negativo (~-0.3x) por posicion de caja neta - ESTIMADO. ROIC ~31% ESTIMADO (NOPAT/capital invertido, base operativa). VALORACION ESTIMADA de agregador (StockAnalysis, 22-jun-2026): precio $349.68 (-4.99% en el dia por salidas de talento en investigacion de IA), market cap $4.27T, fwd P/E 29.44, PEG 1.83. fwd_pe_5y_avg ~24.4 es aproximacion (los agregadores mezclan P/E trailing; rango reportado 23-26), por lo que prima ~+20.7% es indicativa. 52w high/ATH $408.61 (la accion ha estado en maximos historicos en 2026), -14.4% desde ahi. CLASIFICACION fear_rotation: la caida (~14% desde maximos) responde a preocupacion por salidas de investigadores clave de IA hacia competidores (sentimiento/rotacion), NO a deterioro de fundamentales - al contrario, Q1 2026 muestra ACELERACION (ingresos +22%, Cloud +63%, backlog Cloud >$460B casi duplicado QoQ, margenes en expansion, FCF solido). Guidance: sin guia formal de ingresos/EPS (Alphabet no la da); unica guia cuantitativa es capex 2026 de $175-185B (PROYECCION, elevada)."
+}

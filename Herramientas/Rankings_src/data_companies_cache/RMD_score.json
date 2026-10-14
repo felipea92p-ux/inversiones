@@ -1,0 +1,59 @@
+{
+ "ticker": "RMD",
+ "name": "ResMed Inc.",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Modelo de dispositivos medicos + SaaS (AirView/myAir, ~$2.5B revenue digital health): margenes operativos ya altos (34.9% Q3) y mejorando con escala (gross margin +290bps a 62.2%), pero el hardware mantiene COGS reales que impiden escalabilidad pura tipo software."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "OSA/SDB con ~80% de pacientes sin diagnosticar globalmente, COPD y crecimiento de mascarillas/recambios; tailwind secular claro de penetracion, aunque GLP-1 introduce incertidumbre sobre el TAM de largo plazo."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Lider #1 mundial indiscutido en PAP/mascarillas con ~50%+ cuota, distancia monstruosa reforzada cuando Philips se retiro del mercado US tras el recall de 2021; duopolio efectivo donde RMD domina."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat de costes de cambio (datos clinicos, prescripcion medica, cumplimiento via cloud), data network (mas de 25B noches monitorizadas) e intangibles regulatorios/IP; durable pero no irreplicable en decadas dado el riesgo de disrupcion farmacologica."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento organico fuerte ~9% constant-currency FY2025 y +11% revenue Q3 sin depender de M&A transformadora; expansion principalmente organica de penetracion y recambios."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Sin cliente >10-15%, diversificacion multi-geografia (US/EU/APAC), multi-producto (dispositivos, mascarillas, software SaaS residencial/hospitalario); concentracion en la franquicia de sueno es el unico matiz."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC ~25% muy por encima del WACC, FCF $1,660M con margen FCF 32.3%, FCF/NI alto y capex bajo (dispositivos asset-light); conversion de caja y retornos sobre capital excelentes."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Posicion de caja neta (net debt -$0.55B, ND/EBITDA negativo) tras alcanzar net-cash en FY2025; balance fortaleza con caja $1.66B vs deuda $664M en Q3."
+  },
+  "R9": {
+   "score": 1,
+   "just": "SBC verificada solo 5.5% del FCF (1.8% de revenue, $91.7M) muy por debajo del umbral del 15%; contabilidad GAAP limpia, EPS GAAP $2.74 cercano al adj $2.86, sin red flags."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Gestion disciplinada: alcanzo net-cash, SBC baja y shareholder-friendly, historial de asignacion de capital prudente con buybacks y dividendos; sin M&A destructora reciente de gran escala."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R3 (lider #1 monstruoso, ~50%+ cuota reforzada por la salida de Philips) + R4 (costes de cambio clinicos + data network de 25B+ noches monitorizadas) + R1 (capa SaaS de alto margen sobre la base instalada de dispositivos) se refuerzan circularmente: el liderazgo en dispositivos alimenta el mayor dataset clinico, que profundiza los costes de cambio del software, que blinda la cuota de mercado. Bucle de ventaja competitiva auto-reforzante en el duopolio OSA.",
+ "moat_type": "Costes de cambio + efecto red de datos + intangibles regulatorios",
+ "moat_one_line": "Duopolio de dispositivos con costes de cambio clinicos (prescripcion, cumplimiento, datos de 25B+ noches) y una capa SaaS pegajosa sobre la mayor base instalada de OSA del mundo.",
+ "thesis_3lines": [
+  "Calidad: lider #1 mundial de PAP/mascarillas con ROIC ~25%, margen FCF 32.3%, caja neta y SBC minima (5.5% del FCF) -- negocio de calidad compuesta con moat de datos auto-reforzante.",
+  "Motor: penetracion secular de OSA infradiagnosticada (~80% sin diagnostico), recambios recurrentes de mascarillas y capa SaaS de salud digital impulsando crecimiento organico de doble digito (+11% rev, +21% EPS non-GAAP).",
+  "Valoracion: fwd P/E ~16.6x frente a media normalizada ~26x (-36%, PEG ~1.0), una caida de ~35% por miedo a GLP-1/reentrada de Philips mientras los fundamentales se aceleran -- punto de entrada con margen de seguridad."
+ ],
+ "bear_case_strongest": "Los agonistas GLP-1 (tirzepatida/semaglutida) podrian reducir estructuralmente la prevalencia y severidad de la apnea obstructiva del sueno al inducir perdida de peso masiva, comprimiendo el TAM de largo plazo de RMD y justificando una des-rating permanente en lugar de una rotacion temporal por miedo.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "SCORE TOTAL: R1(1.0)+R2(1.5)+R3(2.0)+R4(1.5)+R5(1.5)+R6(1.5)+R7(1.5)+R8(1.5)+R9(1.0)+R10(1.5) = 14.5 bruto, pero techo Seilern 13.5 -> CAP a 13.5/13.5. Sube desde 12.0 preliminar FASE 1 al confirmarse caja neta, SBC ultra-baja (5.5% FCF), ROIC 25% y dominancia de mercado reforzada. R1 se mantiene en 1.0 (no 2.0) porque el componente hardware impide escalabilidad de margen tipo software puro pese a la capa SaaS. DATA QUALITY: MIXED -- valoracion (fwd_pe ~16.6x) es estimada con conflicto fuerte entre agregadores (15.9x-22x); organic growth y ROIC marcados estimados pero coherentes. drop_classification=fear_rotation valido: -35% por miedo GLP-1/Philips mientras fundamentales (rev +11%, EPS non-GAAP +21%, GM +290bps, net cash) se fortalecen. Riesgo clave a monitorizar: datos clinicos reales de impacto GLP-1 sobre adherencia PAP y reembolso."
+}

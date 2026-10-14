@@ -1,0 +1,119 @@
+{
+ "ticker": "LRCX",
+ "name": "Lam Research Corporation",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 409.54,
+ "market_cap_usd_b": 512.16,
+ "fwd_pe": 51.77,
+ "fwd_pe_5y_avg": 24,
+ "pe_prem_disc_pct": 116,
+ "peg": 2.34,
+ "last_q": {
+  "period": "Q3 FY2026 (ended 2026-03-29)",
+  "revenue": "$5,841M",
+  "rev_yoy_pct": 23.76,
+  "op_margin_pct": 35.04,
+  "eps_gaap": "$1.45",
+  "eps_adj": "$1.47"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended 2025-06-29)",
+  "revenue": "$18,436M",
+  "organic_growth_pct": 23.68,
+  "roic_pct": 47.84,
+  "fcf": "$5,414M",
+  "fcf_margin_pct": 29.4
+ },
+ "sbc_pct_revenue": 1.86,
+ "sbc_pct_fcf": 6.3,
+ "net_debt_usd_b": -1.02,
+ "nd_ebitda": -0.16,
+ "net_cash": true,
+ "guidance_fy": "Q4 FY2026 (June 2026 qtr) guidance: revenue $6.60B +/- $400M; non-GAAP EPS $1.65 +/- $0.15; gross margin ~50%. Implied full-FY2026 revenue ~$23.2B (+~26% YoY) and non-GAAP EPS ~$5.68 per consensus. PROYECCION de la direccion (Q4) + consenso FY.",
+ "pct_off_52w_high": -0.05,
+ "pct_off_ath": 0,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "guidance_fy"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.organic_growth_pct",
+  "last_fy.roic_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "Lam Research Q3 FY2026 earnings (8-K press release, March 2026 qtr) via TIKR/Investing.com",
+   "url": "https://www.tikr.com/blog/lam-research-beats-q3-estimates-with-5-84b-revenue-and-record-eps-of-1-47",
+   "date": "2026-04"
+  },
+  {
+   "label": "StockAnalysis.com LRCX statistics (price, market cap, fwd P/E, PEG, net cash, shares)",
+   "url": "https://stockanalysis.com/stocks/lrcx/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com LRCX quarterly financials (Q3 FY2026)",
+   "url": "https://stockanalysis.com/stocks/lrcx/financials/?p=quarterly",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com LRCX cash flow (FY2025 & TTM: OCF, capex, FCF, SBC)",
+   "url": "https://stockanalysis.com/stocks/lrcx/financials/cash-flow-statement/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com LRCX ratios (ROIC FY2025 47.84%)",
+   "url": "https://stockanalysis.com/stocks/lrcx/financials/ratios/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com LRCX income statement (FY2025 revenue $18,436M, op margin 32%)",
+   "url": "https://stockanalysis.com/stocks/lrcx/financials/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com LRCX forecast (FY2026 consensus EPS $5.68, rev $23.19B, PT $335.74)",
+   "url": "https://stockanalysis.com/stocks/lrcx/forecast/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "SEC 10-K FY2025 (year ended 2025-06-29) — primary, fetch blocked (403)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000707549/000070754925000075/lrcx-20250629.htm",
+   "date": "2025-08"
+  },
+  {
+   "label": "Macrotrends/Yahoo 52-week range 90.29–409.75 (split-adjusted)",
+   "url": "https://www.macrotrends.net/stocks/charts/LRCX/lam-research/stock-price-history",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "PR Newswire — 10-for-1 stock split effective Oct 2024",
+   "url": "https://www.prnewswire.com/news-releases/lam-research-corporation-announces-10-billion-share-repurchase-authorization-and-a-10-for-1-stock-split-302150679.html",
+   "date": "2024-05"
+  }
+ ],
+ "notes": "Datos a 22-jun-2026, precio cierre $409.54 (sin desplome: LRCX ESTA en/cerca de su maximo historico, +352% en 52 semanas; clasificacion = not_depressed, lo opuesto a un valor deprimido). FY = fiscal a junio; split 10-for-1 efectivo oct-2024 (todas las cifras por accion ajustadas). VARIANZA EN fwd_pe: StockAnalysis muestra 51.77 (usado aqui, dato del dia); GuruFocus mostraba ~36; P/E sobre EPS FY2026e $5.68 daria ~72x. fwd_pe_5y_avg=24 es media de P/E TRAILING a 5 anios (agregadores 23.5–24.5); no se localizo media de P/E ADELANTADO puro a 5 anios, por lo que pe_prem_disc_pct (+116%) es aproximado y ESTIMADO. ROIC 47.84% (FY2025) y 53.65% TTM. SBC FY2025 $343M sobre rev $18,436M = 1.86% ingresos y sobre FCF $5,414M = 6.3% (SBC muy bajo, favorable para R9; TTM SBC $377M / FCF $6,005M = 6.3%). Caja neta +$1.02B (net_cash=true); nd_ebitda ~-0.16 estimado (EBITDA FY2025 ~$6.5B). organic_growth_pct para last_fy se reporta como crecimiento total de ingresos 23.68% (Lam no desglosa organico). Q3 FY2026: rev $5,841M +24% YoY, margen op 35%, GAAP EPS $1.45 / non-GAAP $1.47 (record), bate guia. SEC 10-K es fuente primaria pero el fetch directo dio 403; cifras FY2025 verificadas via agregador que coincide con el 10-K (rev $18,436M confirmado en busqueda SEC). data_quality=MIXED: trimestre/guia VERIFICADO via press release, valoracion y balance via agregador."
+}

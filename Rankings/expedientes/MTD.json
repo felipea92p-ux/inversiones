@@ -1,0 +1,232 @@
+{
+  "ticker": "MTD",
+  "empresa": "Mettler-Toledo International Inc.",
+  "cik": "0001037646",
+  "domicilio_fiscal": "Delaware / EEUU (sede operativa Greifensee, Suiza; sede corporativa Columbus, Ohio)",
+  "fecha_valoracion": "2026-07-28",
+  "fecha_precio": "2026-07-27",
+  "divisa": "USD",
+  "nota_ads": "NO aplica. MTD cotiza acciones ordinarias directamente en NYSE. No hay ADS ni ratio de conversion.",
+
+  "etiqueta_calidad": {
+    "etiqueta_congelada": "MUY_BUENA",
+    "fecha_congelacion": "2026-07-27",
+    "puertas_pasadas": "5 de 6 sin fallo",
+    "especie": "ULTRA-C (maquina de caja) por G2 en NO",
+    "reclasificacion": "PROHIBIDA. El valorador no toca la etiqueta. Nada en este expediente la mueve hacia arriba.",
+    "mos_exigido_pct": 30,
+    "motivo_mos": "MUY_BUENA fuera de cartera -> umbral de ABRIR = 30%. (Si estuviera en cartera seria CARGAR con 40%.)"
+  },
+
+  "fuentes_primarias": [
+    {"id": "10K2025", "doc": "Form 10-K FY2025", "accession": "0001037646-26-000011", "fecha_presentacion": "2026-02-06", "periodo": "2025-12-31", "url": "https://www.sec.gov/Archives/edgar/data/1037646/000103764626000011/"},
+    {"id": "10Q1Q26", "doc": "Form 10-Q Q1 2026", "accession": "0001037646-26-000021", "fecha_presentacion": "2026-05-08", "periodo": "2026-03-31"},
+    {"id": "ER_Q4_25", "doc": "8-K Ex-99.1 resultados Q4 y ejercicio 2025", "accession": "0001037646-26-000008", "fecha": "2026-02-05", "url": "https://www.sec.gov/Archives/edgar/data/1037646/000103764626000008/ex-991mtd8xkq42025.htm"},
+    {"id": "ER_Q1_26", "doc": "8-K Ex-99.1 resultados Q1 2026 (incluye guia FY2026)", "accession": "0001037646-26-000019", "fecha": "2026-05-07", "url": "https://www.sec.gov/Archives/edgar/data/1037646/000103764626000019/ex-991mtd8xkq12026.htm"},
+    {"id": "XBRL", "doc": "SEC XBRL companyfacts CIK0001037646", "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001037646.json"},
+    {"id": "UST", "doc": "US Treasury Daily Yield Curve, 27/07/2026", "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all"},
+    {"id": "DAMO", "doc": "Damodaran, Country Default Spreads and Risk Premiums, actualizacion 05/01/2026", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/ctryprem.html"},
+    {"id": "IBKR", "doc": "Interactive Brokers market data, snapshot e historico de precios, 28/07/2026"}
+  ],
+
+  "precio_y_capital": {
+    "precio_usd": 1336.29,
+    "etiqueta": "HECHO",
+    "fuente": "IBKR, cierre 27/07/2026 (conId 6477908, NYSE). Cruzado con serie diaria IBKR: cierre 27/07 = 1336,29.",
+    "rango_52s": {"maximo": 1525.17, "minimo": 1023.28, "fuente": "IBKR misc_statistics 28/07/2026"},
+    "acciones_en_circulacion_mm": 20.207601,
+    "acciones_fuente": "HECHO - dei:EntityCommonStockSharesOutstanding, 10-Q Q1 2026, a 31/03/2026: 20.207.601",
+    "acciones_diluidas_medias_2025_mm": 20.671708,
+    "capitalizacion_usd_mm": 27003.2,
+    "deuda_total_usd_mm": 2228.638,
+    "deuda_detalle": "HECHO - 31/03/2026: deuda a largo plazo 2.161,596 + corto plazo y vencimientos corrientes 67,042 (ER_Q1_26, balance condensado). A 31/12/2025 la deuda total auditada era 2.152,172 (10K2025, nota de Deuda).",
+    "caja_usd_mm": 60.574,
+    "deuda_neta_usd_mm": 2168.064,
+    "ev_usd_mm": 29171.3,
+    "deuda_a_valor_de_mercado": "INFERENCIA - se aproxima por valor contable. La deuda es casi toda senior notes a tipo fijo emitidas a cupones del 1,06%-5,45%; a los tipos de hoy su valor de mercado esta POR DEBAJO del contable, luego el EV real es algo menor. El sesgo va en contra de la conclusion, no a favor."
+  },
+
+  "wacc_candado_B": {
+    "principio": "WACC construido de mercado. NO heredado de ningun tier de calidad.",
+    "tasa_libre_riesgo_pct": 4.65,
+    "tasa_libre_riesgo_fuente": "HECHO - US Treasury 10 anios, curva diaria del 27/07/2026 = 4,65%. Moneda funcional de reporte: USD.",
+    "beta": 1.15,
+    "beta_fuente": "INFERENCIA - regresion propia sobre 60 rentabilidades MENSUALES (jul-2021 a jul-2026) de MTD contra SPY, datos IBKR: beta = 1,214 (R2 0,45; error tipico 0,176; IC95 0,87-1,56). Ajuste Blume (0,67b+0,33) = 1,143. Beta 2 anios mensual = 0,604 -> inestabilidad grande, la caida de 2024-2025 fue idiosincrasica (China, destocking de ciencias de la vida), no de mercado. Se adopta 1,15 como central, rango 0,90-1,30. Volatilidad anualizada propia de MTD: 29,0% frente a 16,0% del SPY.",
+    "prima_mercado_pct": 4.23,
+    "prima_mercado_fuente": "HECHO - Damodaran, prima de mercado maduro a 05/01/2026 = 4,23% (EEUU 4,46% incluye 0,23% de spread de impago propio, Aa1).",
+    "prima_pais_pct": 0.69,
+    "prima_pais_metodo": "Ponderada por VENTAS (riesgo de ACTIVO, no de domicilio). Reparto FY2025 (HECHO, 10K2025 nota de Segmentos, ventas por destino): EEUU 1.420,7 (35,3%); resto America 258,7 (6,4%); Alemania 242,6; Francia 164,6; Reino Unido 89,1; Suiza 95,4; resto Europa 569,3 -> Europa total 1.161,0 (28,8%); China 626,8 (15,6%); resto del mundo 559,2 (13,9%). Primas Damodaran 05/01/2026: EEUU 4,46%; Suiza y Alemania 4,23%; China 5,14%. Se asignan 6,0% a resto de America, 4,6% a la mezcla europea y 6,0% a resto del mundo (INFERENCIA). Prima total ponderada = 4,92%; prima pais incremental sobre mercado maduro = 0,69 pp.",
+    "prima_total_ponderada_pct": 4.92,
+    "coste_capital_propio_pct": 10.31,
+    "coste_deuda_pct": 3.29,
+    "coste_deuda_fuente": "HECHO derivado del filing - gasto financiero FY2025 68,515 / deuda media ((2.152,172 + 2.013,888)/2 = 2.083,03) = 3,29%. Contraste directo: el 10-K declara tipo medio ponderado de la deuda del 3,20% a 31/12/2025. Intereses pagados en caja FY2025: 66,634.",
+    "coste_deuda_marginal_nota": "El 3,29% es coste HISTORICO y esta artificialmente bajo: hay senior notes en euros al 1,06%, 1,30% y 1,47% con vencimientos 2030-2034. Deuda nueva en USD hoy costaria del orden del 5,3%. El escenario alto del rango usa 5,3%.",
+    "tipo_impositivo_pct": 17.13,
+    "tipo_impositivo_fuente": "HECHO - provision por impuestos 179,716 / beneficio antes de impuestos 1.048,909 (10K2025). Q1 2026 va al 19,2%.",
+    "peso_equity_pct": 92.38,
+    "peso_deuda_pct": 7.62,
+    "wacc_pct": 9.73,
+    "wacc_rango": "8,6% - 10,5%",
+    "wacc_rango_construccion": "Bajo: beta 0,90 y coste de deuda 3,2% -> 8,59%. Alto: beta 1,30 y coste de deuda marginal 5,3% -> 10,54%."
+  },
+
+  "owner_earnings": {
+    "definicion": "Flujo de caja de explotacion MENOS retribucion en acciones (coste real, no se readade) MENOS capex. Se calculan dos versiones de capex y dos bases temporales. NO se readaden gastos de reestructuracion: MTD los tiene todos los anios (13,4 M en 2025; 23,8 M en 2024) -> son coste recurrente.",
+    "capex_mantenimiento_proxy": "Amortizacion total (D+A = 125,610 en FY2025) MENOS amortizacion de intangibles adquiridos (28,5 en FY2025, que no se repone con capex sino con adquisiciones) = 97,110. HECHO para D 51,141 y A 74,469 (10K2025 estado de flujos); INFERENCIA para el desglose de la amortizacion.",
+    "hallazgo_clave": "En MTD la distincion mantenimiento/crecimiento es IRRELEVANTE: el capex total (107,124) esta por debajo de la amortizacion total (125,610). No hay capex de crecimiento que blindar. Las dos versiones se separan solo 10 M sobre una base de ~830 M, un 1,2%, muy por debajo del ruido. Esto NO es una reinvertidora penalizada por reinvertir; es una maquina de caja que no tiene donde meter el dinero, exactamente como dice el mecanismo congelado.",
+
+    "base_auditada_FY2025": {
+      "periodo": "ejercicio cerrado 31/12/2025, auditado",
+      "etiqueta": "HECHO (todas las lineas del 10-K FY2025)",
+      "ventas_usd_mm": 4026.399,
+      "beneficio_neto_usd_mm": 869.193,
+      "flujo_caja_explotacion_usd_mm": 955.772,
+      "depreciacion_usd_mm": 51.141,
+      "amortizacion_usd_mm": 74.469,
+      "amortizacion_intangibles_adquiridos_usd_mm": 28.5,
+      "capex_usd_mm": 107.124,
+      "retribucion_en_acciones_usd_mm": 22.512,
+      "variacion_circulante_usd_mm": -65.329,
+      "gasto_financiero_usd_mm": 68.515,
+      "oe_mantenimiento_usd_mm": 836.1,
+      "oe_capex_total_usd_mm": 826.1,
+      "oe_mantenimiento_por_accion_usd": 41.38,
+      "oe_capex_total_por_accion_usd": 40.88,
+      "oe_desapalancado_mantenimiento_usd_mm": 892.9,
+      "oe_desapalancado_capex_total_usd_mm": 882.9,
+      "conciliacion_con_la_empresa": "MTD publica 'Adjusted free cash flow' FY2025 = 877,535. Mi OE(b) 826,1 = 877,5 menos las readiciones de la empresa (reestructuracion pagada 13,404 + impuesto de transicion 13,404 + costes de transaccion 0,901) menos la retribucion en acciones 22,512. La diferencia es deliberada y toda a favor de la prudencia."
+    },
+
+    "base_en_curso_FY2026E": {
+      "periodo": "ejercicio 2026, anualizado con Q1 publicado + guia de la empresa",
+      "etiqueta": "INFERENCIA construida sobre HECHOS (Q1 2026 real + guia formal del 07/05/2026)",
+      "trimestres_publicados": "solo Q1 2026 (10-Q presentado 08/05/2026). Q2 2026 aun NO publicado a 28/07/2026 -> hueco declarado.",
+      "q1_2026_real": {"ventas": 947.127, "beneficio_neto": 169.454, "fce": 139.794, "capex": 17.414, "depreciacion": 13.160, "amortizacion": 19.612, "sbc": 5.469, "bpa_diluido": 8.33, "bpa_ajustado": 8.91},
+      "guia_empresa": "FY2026: ventas en moneda local aprox +4%; BPA ajustado 46,30-46,95 USD (crecimiento 8-10%). Q2 2026: moneda local +3%, BPA ajustado 10,70-10,85.",
+      "construccion": "BPA ajustado punto medio 46,625 x acciones diluidas medias estimadas 20,05 M = beneficio neto ajustado 934,8. Conversion a caja libre ajustada del 99% (la de FY2025 fue del 99,3%: 877,5 / 883,3) -> caja libre ajustada 925,5. Menos reestructuracion pagada ~14 y retribucion en acciones ~23 -> OE(b) 888,5. Capex FY2026E 115 (Q1 17,4 y proyecto de automatizacion de Xuhui, China, con 18 M de compensacion publica contra capex futuro). Amortizacion ex-intangibles adquiridos FY2026E ~101.",
+      "oe_mantenimiento_usd_mm": 902.5,
+      "oe_capex_total_usd_mm": 888.5,
+      "oe_mantenimiento_por_accion_usd": 44.66,
+      "oe_capex_total_por_accion_usd": 43.97,
+      "oe_desapalancado_mantenimiento_usd_mm": 957.4,
+      "oe_desapalancado_capex_total_usd_mm": 943.4
+    },
+
+    "distancia_entre_bases": {
+      "oe_mantenimiento_pct": 7.9,
+      "oe_capex_total_pct": 7.6,
+      "lectura": "El salto del +8% NO es aceleracion operativa. Se descompone en: divisa (Q1 reporto +7% con solo +3% en moneda local, es decir 4 pp de viento de cola cambiario), adquisiciones (+2 pp del +3% en moneda local de Q1) y menos acciones. El crecimiento ORGANICO en moneda local excluyendo adquisiciones en Q1 2026 fue del +1%, con America plana. La base en curso es mas alta que la auditada por composicion, no por volumen. Es punto medio de ciclo con maquillaje cambiario, no salida de suelo."
+    },
+
+    "serie_historica_owner_earnings_capex_total": {
+      "2022": {"oe_usd_mm": 718.2, "por_accion": 31.78},
+      "2023": {"oe_usd_mm": 842.6, "por_accion": 38.35},
+      "2024": {"oe_usd_mm": 844.5, "por_accion": 39.61},
+      "2025": {"oe_usd_mm": 826.1, "por_accion": 39.96},
+      "cagr_2022_2025_pct": 4.78,
+      "cagr_2023_2025_pct": -0.98,
+      "lectura": "HECHO (todos los flujos salen de los 10-K). En terminos absolutos los owner earnings de MTD llevan tres anios PLANOS O A LA BAJA: 842,6 -> 844,5 -> 826,1. Por accion suben (38,35 -> 39,96, +2,1% anual) unica y exclusivamente porque la empresa recompra el 3% del capital al anio. Ese es el motor real."
+    }
+  },
+
+  "tasas_base_del_negocio": {
+    "ventas_cagr_2015_2025_pct": 5.33,
+    "ventas_cagr_2019_2025_pct": 4.98,
+    "ventas_cagr_2022_2025_pct": 0.90,
+    "fuente": "HECHO - XBRL 10-K: 2015 2.395,4 / 2019 3.008,7 / 2022 3.919,7 / 2025 4.026,4",
+    "organico_reciente": "HECHO - FY2025 moneda local +3% (+4% excluyendo adquisiciones y el efecto de envios retrasados de Q4-2023). Q1 2026 moneda local +3%, +1% excluyendo adquisiciones, America PLANA.",
+    "china": "HECHO - ventas en China: 707,6 (2023) -> 621,8 (2024) -> 626,8 (2025). Sigue un 11% por debajo del pico de 2023. Es el 15,6% de las ventas.",
+    "lectura": "La tasa base decenal es del 5,3%. La tasa base de los ultimos tres anios es del 0,9%. Cualquier valoracion tiene que decir cual de las dos cree y por que. Yo uso la reciente ajustada al alza por la guia y la reaceleracion de Q4-2025 (+5% en moneda local)."
+  },
+
+  "dcf_inverso": {
+    "metodo": "Se descuenta el owner earning DESAPALANCADO (owner earning + gasto financiero despues de impuestos) al WACC del 9,73%, 10 anios de crecimiento g mas valor terminal al 3%, y se despeja la g que iguala exactamente el valor de empresa de hoy (29.171,3 M USD). Consistente: flujo de la firma con tasa de la firma, y luego se resta la deuda neta.",
+    "g_implicita_auditado_mantenimiento_pct": 13.14,
+    "g_implicita_auditado_capex_total_pct": 13.29,
+    "g_implicita_encurso_mantenimiento_pct": 12.21,
+    "g_implicita_encurso_capex_total_pct": 12.41,
+    "veredicto": "El precio de hoy exige que los owner earnings de la FIRMA crezcan entre el 12% y el 13% anual durante diez anios, y despues al 3% para siempre. Ojo con la trampa mental: NO es 12-13% de BPA. En un descuento de flujos de la firma la recompra no aporta a g, porque la caja que la financia ya esta dentro del flujo que descuento. Los owner earnings absolutos de MTD han crecido un 4,8% anual desde 2022 y un -1,0% anual desde 2023. La distancia entre lo exigido y la tasa base es de unos 8-12 puntos porcentuales. No es un desacuerdo de matiz."
+  },
+
+  "g_defendible": {
+    "formula": "tasa de reinversion x ROIIC EX-MARGEN (nunca el bruto: usar el bruto asume que la expansion de margen se repite)",
+    "reinversion_pct_ventas": 10.17,
+    "reinversion_usd_mm": 409.5,
+    "nopat_2025_usd_mm": 926.0,
+    "nopat_calculo": "(beneficio antes de impuestos 1.048,909 + gasto financiero 68,515) x (1 - 17,13%)",
+    "tasa_reinversion_pct": 44.2,
+    "roiic_ex_margen_pct": 10.4,
+    "g_defendible_pct": 4.6,
+    "banda": "3,5% - 5,5%",
+    "contraste_con_las_tasas_base": "4,6% queda POR ENCIMA del 0,9% de ventas de los ultimos tres anios y del -1,0% de owner earnings desde 2023, y por debajo del 5,3% decenal. Es una g generosa, no prudente: le concedo a MTD que el trienio 2023-2025 fue un valle de destocking y que vuelve a su media historica. Aun asi el precio no cuadra ni de lejos.",
+    "observacion_incomoda": "ROIIC ex-margen 10,4% frente a WACC 9,73%. El capital INCREMENTAL de MTD apenas bate su coste de capital: crea unos 70 puntos basicos de valor por dolar reinvertido. El 45-51% de ROIC del mecanismo congelado es rentabilidad sobre capital HEREDADO, no sobre el marginal. La propia empresa lo sabe: por eso devuelve 800 M al anio en recompras en vez de reinvertirlos. Consecuencia de valoracion: el crecimiento de MTD es CASI NEUTRO EN VALOR. Pagar un multiplo alto por crecimiento en un negocio cuyo ROIIC iguala su WACC es pagar dos veces por lo mismo."
+  },
+
+  "valor_intrinseco": {
+    "g_usada_pct": 4.6,
+    "wacc_usado_pct": 9.73,
+    "terminal_pct": 3.0,
+    "auditado_mantenimiento": {"ev_usd_mm": 15393, "equity_usd_mm": 13225, "valor_por_accion_usd": 650},
+    "auditado_capex_total": {"ev_usd_mm": 15220, "equity_usd_mm": 13052, "valor_por_accion_usd": 645},
+    "encurso_mantenimiento": {"ev_usd_mm": 16505, "equity_usd_mm": 14337, "valor_por_accion_usd": 710},
+    "encurso_capex_total": {"ev_usd_mm": 16264, "equity_usd_mm": 14095, "valor_por_accion_usd": 700},
+    "valor_central_usd": 675,
+    "piso_de_resolucion": "No hay medicion propia de ruido -> banda de mas menos 25%: 505 - 845 USD por accion. Prohibido reportar decimales en el valor intrinseco.",
+    "sensibilidad_wacc_base_auditada_b": {"wacc_8_59_pct": 804, "wacc_9_73_pct": 646, "wacc_10_54_pct": 563},
+    "lectura": "El precio de 1.336 USD esta por encima del techo de la banda de ruido (845) incluso en el escenario mas benigno de WACC, base y capex."
+  },
+
+  "margen_de_seguridad": {
+    "definicion": "MoS = (valor - precio) / valor",
+    "mos_auditado_mantenimiento_pct": -104.2,
+    "mos_auditado_capex_total_pct": -106.9,
+    "mos_encurso_mantenimiento_pct": -88.3,
+    "mos_encurso_capex_total_pct": -91.6,
+    "mos_exigido_pct": 30,
+    "advertencia": "Un MoS del -104% no es informacion util: solo dice que el precio es mas del doble del valor. La cifra que si informa es la TIR."
+  },
+
+  "tir_esperada": {
+    "definicion": "Tasa interna que iguala el valor de empresa de hoy con el flujo de owner earnings desapalancados creciendo a g durante 10 anios y al 3% despues. Es la rentabilidad anual que se lleva quien compra a 1.336,29 USD y acierta con g.",
+    "rango_central": "6,1% - 6,9% anual",
+    "detalle_por_g": {
+      "g_3_0_pct": "6,12% (base auditada) a 6,38% (base en curso)",
+      "g_3_5_pct": "6,25% a 6,53%",
+      "g_4_6_pct": "6,56% a 6,86%",
+      "g_6_0_pct": "6,99% a 7,31%",
+      "g_8_0_pct": "7,65% a 8,02%",
+      "g_10_0_pct": "8,38% a 8,80%"
+    },
+    "el_dato_que_manda": "Aunque MTD creciera al 10% anual durante DIEZ ANIOS -mas del doble de su tasa base decenal y once veces la de los ultimos tres anios- la TIR seria del 8,4-8,8%, todavia POR DEBAJO del WACC del 9,73% y del coste del capital propio del 10,31%. No existe ninguna g razonable a la que este precio produzca la rentabilidad exigida. Ese es el hallazgo, y no depende de si mi g es 4,6% o 6%."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 16,
+    "m_estrella_base": "16 veces los owner earnings por accion con capex TOTAL (version b), base en curso",
+    "m_estrella_razonamiento_en_frio": "Decidido antes de mirar el resultado, sin barra de error porque no es una estimacion sino un compromiso. Anclaje: para un negocio cuyo ROIIC ex-margen (10,4%) practicamente iguala su WACC (9,73%), el crecimiento no anade valor, y el multiplo justo tiende al de crecimiento nulo: 1 / (WACC - 3%) = 14,9x. Le sumo algo mas de un punto por la durabilidad de la anualidad de servicio (1.018,6 M de ventas de servicio en FY2025, el 25,3% del total, +8% reportado frente a +2,6% del producto) y por la conversion de beneficio en caja de practicamente el 100%. No le sumo nada por 'calidad' en abstracto: la calidad ya esta pagada en la etiqueta, no se cobra dos veces.",
+    "precio_justo_a_m_estrella_usd": 703,
+    "p_estrella_usd": 490,
+    "p_estrella_calculo": "Precio justo 703 USD (16 x 43,97 de OE(b) por accion en curso) x (1 - 30% de MoS exigido) = 492. Redondeado a 490. Coincide con la ruta del descuento de flujos: valor en curso 700-710 x 0,70 = 490-497. Las dos rutas independientes convergen, lo cual es buena senal de que ninguna esta rota.",
+    "p_estrella_base_auditada_usd": 455,
+    "distancia_precio_a_p_estrella": "El precio de hoy (1.336,29) esta un 173% por encima de P*. MTD tendria que caer un 63% para ser comprable bajo esta disciplina.",
+    "referencia_historica": "El minimo de 52 semanas fue 1.023,28 USD. Ni en el peor momento del ultimo anio se acerco a P*. Ojo: eso no significa que P* este mal calibrado, significa que MTD lleva mucho tiempo cara."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "La pregunta de la trampa de valor es si un MoS grande esconde un motor roto. Aqui NO HAY MoS: el MoS es de -104% a -88%. No hay nada que pueda ser trampa porque no hay descuento. El riesgo de MTD no es trampa de valor, es SOBREPRECIO de un negocio bueno, que es el otro error y hace igual de dano.",
+    "matiz_obligatorio": "Dicho esto, el motor SI muestra desgaste medible, y hay que registrarlo por si algun dia el precio cae: (1) ventas planas al 0,9% anual desde 2022; (2) owner earnings absolutos en 842,6 -> 844,5 -> 826,1, es decir tres anios sin avanzar; (3) China un 11% por debajo del pico de 2023 con el 15,6% de las ventas; (4) Q1 2026 organico ex-adquisiciones del +1% con America plana; (5) ROIIC ex-margen del 10,4%, apenas el WACC; (6) apalancamiento operativo comprado con recompras -el patrimonio neto es NEGATIVO en -41,9 M a 31/03/2026, por 9.839 M de autocartera acumulada-, lo que significa que la palanca de acciones ya esta muy estirada; (7) el hueco de la puerta G3 sigue abierto: MTD no publica ni una sola cifra de VOLUMEN, con lo que no se puede distinguir precio de unidades, y con margen bruto en retroceso en Q1 2026 (58,7% frente a 59,5%) ese hueco esta empezando a doler. Si algun dia MTD cotizara cerca de P*, esta lista es exactamente lo que habria que reexaminar ANTES de comprar."
+  },
+
+  "huecos_declarados": [
+    "Q2 2026 NO publicado a fecha de valoracion (28/07/2026). La base en curso se apoya en un solo trimestre real mas la guia formal del 07/05/2026. Es el hueco mas grande del expediente y MTD suele publicar Q2 a primeros de agosto: reevaluar entonces.",
+    "MTD no publica volumen ni precio por separado en ningun filing. El hueco G3 de la etiqueta congelada sigue sin cerrar y no es cerrable con documento primario. Con margen bruto cayendo 80 puntos basicos en Q1 2026, la duda de si el crecimiento es precio sobre volumen a la baja (el patron Kraft Heinz) queda VIVA.",
+    "El desglose de la linea de Amortizacion (74,469 en FY2025) entre intangibles adquiridos (28,5, esto si es HECHO) y software capitalizado y otros (45,97) es INFERENCIA por diferencia. Afecta al reparto entre las versiones (a) y (b) de owner earnings, pero no a la conclusion: las dos versiones se separan un 1,2%.",
+    "La beta es propia y su estabilidad es mala: 1,21 a cinco anios mensual frente a 0,60 a dos anios, con R2 de 0,45. No hay una beta citable de un proveedor externo verificada en este expediente. El rango de WACC (8,6%-10,5%) absorbe esa incertidumbre, y ninguna beta dentro de ese rango cambia el veredicto.",
+    "Las primas de riesgo pais de resto-de-America (6,0%), mezcla europea (4,6%) y resto-del-mundo (6,0%) son asignaciones mias sobre la tabla Damodaran, no lecturas directas. Solo mueven 0,69 pp de prima incremental.",
+    "El valor de mercado de la deuda se aproxima por contable. Sesgo conservador: el EV real es algo menor y el valor por accion algo mayor. No mueve el veredicto.",
+    "El ROIIC ex-margen del 10,4% y la reinversion del 10,17% de ventas vienen de la etiqueta CONGELADA (especie G2), no se han recalculado aqui. Si esas dos cifras estan mal, la g defendible se mueve. Comprobacion: con reinversion 409,5 sobre NOPAT 926,0 la tasa de reinversion sale del 44,2%, coherente con capex 107,1 + adquisiciones 93,8 + I+D 199,4 = 400,3, un 9,94% de las ventas. Cuadra."
+  ],
+
+  "resumen_ejecutivo": "MTD cotiza a 1.336,29 USD (cierre 27/07/2026), capitalizacion de 27.003 M y valor de empresa de 29.171 M. El WACC construido de mercado -sin heredar nada del tier de calidad- es del 9,73%, con rango del 8,6% al 10,5%: bono a 10 anios del 4,65%, beta propia de 1,15, prima de riesgo del 4,92% ponderada por ventas segun destino, y coste de deuda del 3,29% derivado del gasto financiero sobre deuda media del filing. Los owner earnings son de 836 M (capex de mantenimiento) y 826 M (capex total) en el ultimo auditado, y de 903 M y 889 M en el ejercicio en curso; las dos versiones de capex se separan un 1,2% porque MTD invierte MENOS de lo que amortiza, asi que la distincion mantenimiento/crecimiento aqui no existe. El DCF inverso es lapidario: el precio de hoy exige que los owner earnings de la firma crezcan entre el 12,2% y el 13,3% anual durante diez anios. La g defendible, derivada de reinversion del 44,2% del NOPAT por ROIIC EX-MARGEN del 10,4%, es del 4,6%; las tasas base son del 5,3% de ventas a diez anios, del 0,9% en los ultimos tres, y de -1,0% anual en owner earnings absolutos desde 2023. Valor central 675 USD por accion, banda de ruido 505-845. MoS del -88% al -107%. TIR esperada del 6,1% al 6,9% anual. Y el dato que zanja: aunque MTD creciera al 10% durante una decada, la TIR seria del 8,4-8,8%, todavia por debajo del WACC. M* = 16 veces owner earnings, P* = 490 USD; el precio esta un 173% por encima. Veredicto: NO COMPRAR. No es una trampa de valor -no hay descuento que pueda ser trampa- sino un negocio muy bueno a un precio que ya descuenta un futuro que su propio ROIIC incremental del 10,4% no puede financiar."
+}

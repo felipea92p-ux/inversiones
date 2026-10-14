@@ -1,0 +1,446 @@
+{
+  "expediente": "NVDA — NVIDIA Corporation",
+  "fecha_analisis": "2026-07-28",
+  "divisa": "USD",
+  "unidades": "USD millones salvo indicacion contraria",
+  "rol_del_agente": "VALORADOR. La etiqueta de calidad esta CONGELADA en MUY_BUENA (4 puertas). No se reclasifica hacia arriba en ningun punto.",
+
+  "aviso_de_version": {
+    "sobrescritura": "Este fichero SUSTITUYE a un expediente previo que existia en la misma ruta y que llegaba de una fase de calidad DISTINTA: etiqueta ULTRA-R (5 puertas), reinversion 25,7% de ventas, ROIIC ex-margen 38,8%, MoS exigido 30%.",
+    "parametros_de_esta_ejecucion": "Etiqueta MUY_BUENA (4 puertas), reinversion 25,1% de ventas, ROIIC bruto 91,8%, ROIIC ex-margen 46%, MoS exigido 40% (CARGAR, empresa ya en cartera al 0,15% del NAV).",
+    "quien_decide": "Los parametros de ESTA ejecucion son los que el orquestador entrego a esta sesion y son los que se usan. La discrepancia entre las dos fases de calidad queda declarada como hueco: NO es competencia del valorador resolverla, pero cambia el MoS exigido en 10 puntos y la g defendible en varios puntos. Debe resolverse aguas arriba.",
+    "impacto_practico": "Ninguno sobre el veredicto. Con MoS exigido del 30% en vez del 40%, P* subiria de 72,6 a 84,7 USD y el precio de hoy (193,59) seguiria estando 2,3 veces por encima."
+  },
+
+  "identificacion": {
+    "cik": "0001045810",
+    "ejercicio_fiscal": "termina el ultimo domingo de enero",
+    "ultimo_auditado": "FY2026, ejercicio cerrado 2026-01-25, 10-K presentado 2026-02-25, accession 0001045810-26-000021",
+    "ultimo_trimestre": "Q1 FY2027, cerrado 2026-04-26, 10-Q presentado 2026-05-20, accession 0001045810-26-000052",
+    "adr_o_ads": "No aplica. Accion ordinaria unica, NASDAQ, USD. Sin ratio ADS que ajustar.",
+    "etiqueta_congelada": "MUY_BUENA",
+    "especie": "G2 — reinversion 25,1% de ventas · ROIIC bruto 91,8% · ROIIC ex-margen 46%",
+    "mos_exigido_pct": 40,
+    "motivo_mos": "Empresa YA en cartera (0,15% del NAV) -> umbral de CARGAR: MUY_BUENA = 40%",
+    "mecanismo_congelado": "Vende un sistema de computo cuyo verdadero producto es un lenguaje: 7,5 millones de desarrolladores atados a CUDA sobre una base instalada que ella misma expande, con la capacidad de fabricacion avanzada del planeta comprada por adelantado. Eslabon mas debil: la calidad del beneficio (Sloan 9,9% y 10,9% en FY2025-26, brecha FCF-beneficio de 23.391 M en FY2026, 17.502 M saliendo a comprar participaciones en los propios clientes).",
+    "que_confirma_esta_valoracion": "Los datos de precio CONFIRMAN el eslabon debil con material nuevo posterior al analisis de calidad: en Q1 FY2027 el 27,3% del beneficio neto reportado (15.936 de 58.321 M) fue revalorizacion no realizada de participadas, y las compras de participaciones no cotizadas de un solo trimestre (18.582 M) superaron ya las de todo FY2026."
+  },
+
+  "precio_y_capitalizacion": {
+    "precio_usd": 193.59,
+    "etiqueta": "HECHO",
+    "fuente": "IBKR MCP get_price_snapshot, conid 4815747, NASDAQ/SMART, ultimo cruce del 2026-07-27 (timestamp 1785217232). Bid 193,54 / ask 193,70. Variacion del dia -1,49%.",
+    "rango_52s": "164,04 - 236,54 (IBKR misc_statistics, 2026-07-27)",
+    "volatilidad_historica_30d_anualizada_pct": 38.3,
+    "acciones_en_circulacion_mm": 24200,
+    "fuente_acciones": "HECHO — portada del 10-Q Q1 FY2027: 'Entity Common Stock, Shares Outstanding 24.2' (miles de millones) a 2026-05-15. Contraste: 24.304 mm a 2026-01-25 (balance del 10-K); diluidas ponderadas Q1 FY27 = 24.391 mm.",
+    "capitalizacion_usd_mm": 4684878,
+    "nota_capitalizacion": "24.200 mm acciones x 193,59 USD = 4,685 billones USD. INFERENCIA por el redondeo de la portada a 0,1 mil millones (+/-0,2%)."
+  },
+
+  "candado_b_wacc_de_mercado": {
+    "principio": "El WACC sale del mercado, nunca del tier de calidad. Ningun input de este bloque procede de la etiqueta MUY_BUENA.",
+    "tasa_libre_riesgo": {
+      "valor_pct": 4.65,
+      "instrumento": "Bono del Tesoro de EEUU a 10 anos (moneda funcional USD)",
+      "fecha": "2026-07-27",
+      "fuente": "US Treasury, Daily Treasury Par Yield Curve Rates, serie CSV oficial de home.treasury.gov descargada en esta sesion. Fila 07/27/2026, columna '10 Yr' = 4,65. Contexto de la misma fila: 2 Yr 4,31 · 5 Yr 4,40 · 30 Yr 5,12.",
+      "etiqueta": "HECHO"
+    },
+    "prima_riesgo_mercado": {
+      "valor_pct": 4.23,
+      "definicion": "Prima de mercado maduro (mature market ERP)",
+      "fuente": "Damodaran (NYU Stern), fichero ctryprem.xlsx descargado en esta sesion, hoja 'ERPs by country', celda 'Enter the current risk premium for a mature equity market' = 4,23%. Fecha de actualizacion del fichero: 2026-01-01 (ratings soberanos actualizados 2026-02-16).",
+      "contraste": "Damodaran ERPbymonth.xlsx, hoja 'Historical ERP', fila 2026-07-01: ERP implicita T12m = 4,20%; con payout sostenible = 4,30%; con tipo sin riesgo ajustado = 4,42%. El T.Bond rate usado en ese calculo fue 4,45%.",
+      "etiqueta": "HECHO",
+      "aviso": "Se combina un Rf de hoy (4,65%) con una ERP calculada a 1 de julio sobre un Rf de 4,45%. Sesgo al alza de unos 20 pb en el coste de capital. Declarado, no corregido."
+    },
+    "prima_pais": {
+      "valor_pct": 0.41,
+      "metodo": "Ponderacion por ingresos segun el pais del RIESGO DE ACTIVO, no del domicilio fiscal.",
+      "pesos_de_ingreso_FY2026": {
+        "Estados Unidos": "149.617 / 215.938 = 69,3%",
+        "Taiwan": "42.345 / 215.938 = 19,6%",
+        "China (incl. Hong Kong)": "19.677 / 215.938 = 9,1%",
+        "Otros": "4.299 / 215.938 = 2,0%",
+        "fuente": "HECHO — 10-K FY2026, nota de Segmentos, tabla 'Geographic Revenue based upon Customer Headquarters Location'"
+      },
+      "crp_damodaran": {
+        "Estados Unidos": "0,233% (Aa1)",
+        "Taiwan": "0,776% (Aa3)",
+        "China": "0,913% (A1)",
+        "fuente": "Damodaran ctryprem.xlsx, hoja 'ERPs by country', columna 'Country Risk Premium'. Actualizacion 2026-01-01, ratings 2026-02-16."
+      },
+      "calculo": "0,693 x 0,233 + 0,196 x 0,776 + 0,091 x 0,913 + 0,020 x 0,500 = 0,41%",
+      "etiqueta": "INFERENCIA",
+      "objecion_propia": "La ponderacion por ingresos SUBESTIMA el riesgo Taiwan. El 100% del silicio de vanguardia y del empaquetado avanzado es taiwanes: la exposicion de ACTIVO a Taiwan no es del 19,6%, es practicamente total en el eslabon productivo. En sentido contrario, el propio 10-K declara que el 76% del ingreso de Data Center facturado a clientes con sede en Taiwan corresponde a clientes finales de EEUU y Europa, lo que empujaria el peso contable hacia EEUU. Sensibilidad honesta de la prima pais: 0,23% - 0,78%."
+    },
+    "beta": {
+      "valor_central": 1.95,
+      "fuente": "Regresion propia de rendimientos SEMANALES de NVDA contra SPY (proxy del S&P 500) sobre cierres de IBKR, ventana 2021-07-30 a 2026-07-27, 261 observaciones. Calculo ejecutado en esta sesion; datos de IBKR get_price_history, conids 4815747 y 756733.",
+      "estimaciones": {
+        "5_anos_semanal": "2,067 (error tipico 0,130 · R2 0,496 · n = 261)",
+        "3_anos_semanal": "2,139 (error tipico 0,179 · R2 0,481 · n = 156)",
+        "2_anos_semanal": "2,034 (error tipico 0,196 · R2 0,513 · n = 104)",
+        "1_ano_semanal": "1,548 (error tipico 0,292 · R2 0,360 · n = 52)"
+      },
+      "central_elegida": "1,95 = media de las cuatro ventanas. Rango empleado 1,55 - 2,14.",
+      "blume_ajustada": "2/3 x 2,03 + 1/3 x 1,00 = 1,69",
+      "etiqueta": "INFERENCIA (calculo propio sobre datos de mercado, no cifra de agregador)",
+      "nota": "El R2 de 0,50 dice que la mitad de la varianza de NVDA no la explica el indice. Una beta de ~2 no es una eleccion: es lo que mide el mercado. Y con NVDA pesando ya una fraccion enorme del propio indice contra el que se regresa, el sesgo mecanico empuja la beta HACIA 1 — es decir, 1,95 es mas probablemente un suelo que un techo."
+    },
+    "coste_deuda": {
+      "pretax_pct": 3.06,
+      "calculo": "Gasto financiero FY2026 = 259 M (cuenta de resultados del 10-K). Deuda media del ejercicio = (8.463 + 8.468)/2 = 8.465,5 M (nota de Deuda del 10-K). 259 / 8.465,5 = 3,06%.",
+      "etiqueta": "HECHO (numerador y denominador de filing primario)",
+      "contraste_cupones": "Notas vivas a 2026-01-25: 3,20% Due 2026 · 1,55% Due 2028 · 2,85% Due 2030 · 2,00% Due 2031 · 3,50% Due 2040 · 3,50% Due 2050 · 3,70% Due 2060. Tipos efectivos declarados por tramo: 1,64% - 3,73%. El 3,06% derivado es coherente con la nota.",
+      "coste_marginal_hoy": "Emitir deuda nueva a 10 anos costaria hoy del orden del 5,1-5,2% (4,65% + diferencial AA-). El candado pide el coste REAL del filing y eso es lo que se usa. Da igual: la deuda pesa el 0,18% del capital.",
+      "aftertax_pct": 2.54,
+      "tasa_impositiva_usada_pct": 17.0,
+      "fuente_tasa": "HECHO — guia de la propia empresa: 'For the full year fiscal 2027, NVIDIA expects GAAP and non-GAAP tax rates to be between 16.0% and 18.0%' (nota de prensa Q1 FY27, exhibit del 8-K de 2026-05-20). Tipo efectivo realizado FY2026 = 21.383/141.450 = 15,1%."
+    },
+    "ponderacion": {
+      "equity_valor_mercado_usd_mm": 4684878,
+      "deuda_valor_mercado_usd_mm": 8470,
+      "fuente_deuda_mercado": "El 10-K estima el valor razonable de la deuda en 7,5 mil millones a 2026-01-25 (nivel 2) sobre un carrying neto de 8.468 M. Por prudencia se usa el carrying del balance de Q1 FY27 (1.000 corto + 7.470 largo = 8.470 M). La diferencia es irrelevante al pesar 0,18%.",
+      "peso_equity_pct": 99.82,
+      "peso_deuda_pct": 0.18
+    },
+    "wacc_pct": 13.7,
+    "wacc_calculo": "Ke = 4,65% + 1,95 x (4,23% + 0,41%) = 4,65% + 9,05% = 13,70%. Kd despues de impuestos = 3,06% x (1 - 0,17) = 2,54%. WACC = 0,9982 x 13,70% + 0,0018 x 2,54% = 13,68% -> 13,7%.",
+    "wacc_rango": "12,0% - 14,6%",
+    "wacc_rango_como": "Extremo bajo: beta 1,69 (Blume) con prima pais 0,23% -> 11,99%. Extremo alto: beta 2,14 (ventana 3 anos) con prima pais 0,78% -> 14,57%.",
+    "advertencia": "Un WACC del 13,7% es alto y hunde cualquier valoracion. No es una eleccion de tier ni un castigo: es lo que sale de una beta medida de 2,0 sobre 261 semanas de mercado. Se reporta tal cual (candado B). Mas abajo se incluye un escenario de contraste con WACC del 11% (beta 1,35) para que se vea cuanto depende la conclusion de este parametro. Adelanto: no depende."
+  },
+
+  "estados_financieros_auditados_FY2026": {
+    "fuente": "10-K FY2026, accession 0001045810-26-000021, presentado 2026-02-25. Estados extraidos de R3.htm (resultados), R5.htm (balance), R9.htm (flujos), R20.htm (deuda), R25.htm (segmentos y geografia) via FilingSummary.xml.",
+    "etiqueta": "HECHO",
+    "cuenta_de_resultados": {
+      "ingresos": {"FY2026": 215938, "FY2025": 130497, "FY2024": 60922},
+      "coste_de_ventas": {"FY2026": 62475, "FY2025": 32639, "FY2024": 16621},
+      "margen_bruto_pct": {"FY2026": 71.1, "FY2025": 75.0, "FY2024": 72.7},
+      "id_i": {"FY2026": 18497, "FY2025": 12914, "FY2024": 8675},
+      "sgva": {"FY2026": 4579, "FY2025": 3491, "FY2024": 2654},
+      "resultado_operativo": {"FY2026": 130387, "FY2025": 81453, "FY2024": 32972},
+      "margen_operativo_pct": {"FY2026": 60.4, "FY2025": 62.4, "FY2024": 54.1},
+      "ingresos_financieros": {"FY2026": 2300, "FY2025": 1786, "FY2024": 866},
+      "gastos_financieros": {"FY2026": -259, "FY2025": -247, "FY2024": -257},
+      "otros_ingresos_neto": {"FY2026": 9022, "FY2025": 1034, "FY2024": 237},
+      "resultado_antes_de_impuestos": {"FY2026": 141450, "FY2025": 84026, "FY2024": 33818},
+      "impuesto": {"FY2026": 21383, "FY2025": 11146, "FY2024": 4058},
+      "tasa_efectiva_pct": {"FY2026": 15.1, "FY2025": 13.3, "FY2024": 12.0},
+      "beneficio_neto": {"FY2026": 120067, "FY2025": 72880, "FY2024": 29760},
+      "bpa_diluido": {"FY2026": 4.90, "FY2025": 2.94, "FY2024": 1.19},
+      "acciones_diluidas_mm": {"FY2026": 24514, "FY2025": 24804, "FY2024": 24940}
+    },
+    "flujo_de_caja": {
+      "flujo_operativo": {"FY2026": 102718, "FY2025": 64089, "FY2024": 28090},
+      "amortizaciones": {"FY2026": 2843, "FY2025": 1864, "FY2024": 1508},
+      "retribucion_en_acciones": {"FY2026": 6386, "FY2025": 4737, "FY2024": 3549},
+      "plusvalias_no_realizadas_restadas_del_CFO": {"FY2026": -8918, "FY2025": -1030, "FY2024": -238},
+      "variacion_circulante_neta": {"FY2026": -15949, "FY2025": -9383, "FY2024": -3722},
+      "detalle_circulante_FY2026": "clientes -15.399 · existencias -11.324 · anticipos y otros +577 · proveedores +3.096 · devengos +5.257 · otros pasivos a largo +1.844",
+      "capex_PPE_e_intangibles": {"FY2026": 6042, "FY2025": 3236, "FY2024": 1069},
+      "pagos_principal_PPE_financiado_en_financiacion": {"FY2026": 101, "FY2025": 129, "FY2024": 74},
+      "compras_de_participaciones_no_cotizadas": {"FY2026": 17502, "FY2025": 1486, "FY2024": 862},
+      "adquisicion_Groq": {"FY2026": 13000, "FY2025": 0, "FY2024": 0},
+      "otras_adquisiciones_netas_de_caja": {"FY2026": 1535, "FY2025": 1007, "FY2024": 83},
+      "recompras_de_acciones": {"FY2026": 40086, "FY2025": 33706, "FY2024": 9533},
+      "impuestos_de_planes_de_acciones": {"FY2026": 7948, "FY2025": 6930, "FY2024": 2783},
+      "dividendos": {"FY2026": 974, "FY2025": 834, "FY2024": 395},
+      "impuestos_pagados_en_caja": {"FY2026": 20288, "FY2025": 15118, "FY2024": 6549}
+    },
+    "balance_25_01_2026": {
+      "caja": 10605,
+      "valores_negociables": 51951,
+      "clientes": 38466,
+      "existencias": 21403,
+      "inmovilizado_neto": 10383,
+      "fondo_de_comercio": 20832,
+      "intangibles_netos": 3306,
+      "participaciones_no_cotizadas": 22251,
+      "activo_total": 206803,
+      "deuda_corto": 999,
+      "deuda_largo": 7469,
+      "arrendamiento_operativo_largo": 2572,
+      "pasivo_total": 49510,
+      "patrimonio_neto": 157293
+    },
+    "geografia_del_ingreso_FY2026": {
+      "EEUU": 149617,
+      "Taiwan": 42345,
+      "China_incl_HK": 19677,
+      "Otros": 4299,
+      "nota": "El 76% del ingreso de Data Center de clientes con sede en Taiwan se atribuye a clientes finales de EEUU y Europa (declaracion literal de la empresa en el 10-K). Los ingresos de fuera de EEUU pasaron del 48% (FY2024) al 41% (FY2025) al 31% (FY2026)."
+    },
+    "concentracion_de_clientes_FY2026": "Un cliente directo = 22% del ingreso total; otro cliente directo = 14%. Suman el 36% en dos manos. En FY2025 el mayor era el 12%.",
+    "segmentos_FY2026": {
+      "Compute_and_Networking": {"ingreso": 193479, "resultado_operativo_de_segmento": 130141},
+      "Graphics": {"ingreso": 22459, "resultado_operativo_de_segmento": 9156}
+    }
+  },
+
+  "ejercicio_en_curso_FY2027": {
+    "etiqueta_general": "HECHO para Q1 y para la guia de Q2; INFERENCIA para la anualizacion del segundo semestre",
+    "q1_fy2027_real": {
+      "periodo": "13 semanas cerradas el 2026-04-26",
+      "fuente": "10-Q accession 0001045810-26-000052, presentado 2026-05-20",
+      "ingresos": 81615,
+      "crecimiento_interanual_pct": 85.2,
+      "margen_bruto_pct": 74.9,
+      "resultado_operativo": 53536,
+      "margen_operativo_pct": 65.6,
+      "beneficio_neto": 58321,
+      "plusvalias_de_participadas_incluidas_en_el_neto": 15936,
+      "porcentaje_del_neto_que_es_revalorizacion": 27.3,
+      "flujo_operativo": 50344,
+      "amortizaciones": 997,
+      "retribucion_en_acciones": 1928,
+      "capex": 1757,
+      "compras_de_participaciones_no_cotizadas": 18582,
+      "recompras": 19312,
+      "participaciones_no_cotizadas_en_balance": 43364,
+      "valores_de_renta_variable_cotizados_en_balance": 30237,
+      "ingreso_data_center_del_trimestre": "75.200 M, +21% secuencial y +92% interanual (nota de prensa Q1 FY27)"
+    },
+    "guia_q2_fy2027": {
+      "fuente": "HECHO — nota de prensa de resultados de Q1 FY27, exhibit 99.1 del 8-K de 2026-05-20 (fichero q1fy27pr.htm)",
+      "ingresos_usd_mm": 91000,
+      "banda": "mas menos 2%",
+      "margen_bruto_gaap_pct": 74.9,
+      "opex_gaap_usd_mm": 8500,
+      "nota_china": "La guia NO asume ningun ingreso de computo de Data Center procedente de China.",
+      "tasa_impositiva_fy2027_pct": "16,0 - 18,0"
+    },
+    "anualizacion": {
+      "metodo": "Q1 real (81.615) + guia de Q2 (91.000) + segundo semestre al run-rate de la guia de Q2 SIN crecimiento adicional (91.000 x 2). Es la version con MENOS supuestos posibles: no se inventa aceleracion.",
+      "ingresos_fy2027e": 354615,
+      "margen_bruto_asumido_pct": 74.9,
+      "opex_fy2027e": 34021,
+      "detalle_opex": "Q1 real 7.621 + Q2 guiado 8.500 + Q3 8.800e + Q4 9.100e",
+      "resultado_operativo_fy2027e": 231586,
+      "margen_operativo_implicito_pct": 65.3,
+      "verificacion_del_margen": "Q1 real dio 65,6% y la guia de Q2 implica 65,6% (91.000 x 0,749 - 8.500 = 59.659). El 65,3% del ejercicio no es un supuesto agresivo: es el margen ya observado y ya guiado.",
+      "flujo_operativo_fy2027e": 182953,
+      "metodo_cfo": "Ratio CFO / resultado operativo: 78,8% (FY2026), 78,7% (FY2025), 85,2% (FY2024). Se aplica 79%. NO se usa el 94,0% observado en Q1 FY27, que esta inflado por +7.763 M de pasivos devengados y por impuestos diferidos y no es repetible.",
+      "amortizaciones_fy2027e": 4400,
+      "capex_fy2027e": 9000,
+      "metodo_capex": "2,5% de ventas. FY2026 fue 2,80%; Q1 FY2027 fue 2,15%.",
+      "etiqueta": "INFERENCIA — construida sobre un trimestre auditado y un trimestre guiado; la mitad del ejercicio son supuestos propios",
+      "lectura_alternativa": "Si el segundo semestre creciera secuencialmente al ritmo del primero (+6% y +5%), los ingresos FY2027 rondarian 375.000 M (+6% sobre la base usada) y los owner earnings subirian en proporcion. La base elegida es la conservadora."
+    }
+  },
+
+  "owner_earnings": {
+    "definicion_a": "Restando SOLO el capex de mantenimiento, aproximado por la amortizacion. El exceso sobre la amortizacion es inversion discrecional y NO se resta. Esto es lo que impide penalizar a una reinvertidora por reinvertir.",
+    "definicion_b": "Restando TODO el capex. Flujo de caja libre puro.",
+    "base_auditada_FY2026": {
+      "flujo_operativo": 102718,
+      "capex_mantenimiento_proxy_amortizacion": 2843,
+      "capex_total": 6042,
+      "oe_mantenimiento": 99875,
+      "oe_capex_total": 96676,
+      "oe_por_accion_mantenimiento_usd": 4.13,
+      "oe_por_accion_capex_total_usd": 3.99,
+      "multiplo_pagado_sobre_oe_mantenimiento": 46.9,
+      "etiqueta": "HECHO — los tres componentes salen del estado de flujos del 10-K"
+    },
+    "base_en_curso_FY2027e": {
+      "flujo_operativo": 182953,
+      "capex_mantenimiento_proxy_amortizacion": 4400,
+      "capex_total": 9000,
+      "oe_mantenimiento": 178553,
+      "oe_capex_total": 173953,
+      "oe_por_accion_mantenimiento_usd": 7.38,
+      "oe_por_accion_capex_total_usd": 7.19,
+      "multiplo_pagado_sobre_oe_mantenimiento": 26.2,
+      "etiqueta": "INFERENCIA"
+    },
+    "distancia_entre_bases": {
+      "oe_mantenimiento": "+78,8% (99.875 -> 178.553)",
+      "oe_capex_total": "+79,9% (96.676 -> 173.953)",
+      "lectura": "Esto no es ruido, es la posicion en el ciclo. La empresa esta duplicando su generacion de caja en un solo ejercicio. Valorar sobre la base EN CURSO es asumir que el punto mas alto jamas alcanzado es el nuevo suelo. Valorar sobre la base AUDITADA es fingir que no existe un trimestre ya publicado con 81.615 M de ingresos. La verdad esta entre las dos, y el peso que se le de a cada una decide el numero: 68 USD por accion en una, 121 en la otra. Este expediente reporta las dos y NO promedia.",
+      "multiplo_implicito": "A 193,59 USD se pagan 46,9 veces los owner earnings de mantenimiento del ultimo auditado, o 26,2 veces los del ejercicio en curso."
+    },
+    "ajustes_declarados_no_aplicados": {
+      "sbc": "La retribucion en acciones (6.386 M en FY2026; 1.928 M solo en Q1 FY27) se suma como partida no monetaria en el CFO y por tanto esta DENTRO de los owner earnings de arriba, como manda la definicion. Si se descontara como coste real de propietario, el OE de mantenimiento auditado caeria de 99.875 a 93.489 M (-6,4%) y el valor por accion de la base auditada de 68,3 a ~64 USD. NVIDIA la neutraliza con recompras de 40.086 M, pero eso es caja que sale.",
+      "plusvalias_de_participadas": "Correctamente EXCLUIDAS y sin intervencion mia: el propio estado de flujos resta 8.918 M (FY2026) y 15.936 M (Q1 FY27) del beneficio neto para llegar al CFO. Los owner earnings de este expediente NO contienen ni un dolar de esas revalorizaciones.",
+      "salidas_de_caja_no_tratadas_como_capex": "17.502 M en participaciones no cotizadas (FY2026) + 18.582 M mas en un solo trimestre (Q1 FY27) + 13.000 M por Groq. En quince meses han salido 49.084 M de caja hacia participaciones y adquisiciones. Formalmente no es capex y no se resta de los owner earnings; economicamente es caja que el propietario no ve, invertida en buena parte en los propios clientes que compran los chips."
+    }
+  },
+
+  "valor_empresa": {
+    "capitalizacion_usd_mm": 4684878,
+    "caja_y_equivalentes_26_04_2026": 13237,
+    "valores_de_renta_fija_negociables": 37098,
+    "valores_de_renta_variable_negociables": 30237,
+    "liquidez_total": 80572,
+    "deuda_total": 8470,
+    "deuda_neta_usd_mm": -72102,
+    "ev_usd_mm": 4612776,
+    "nota": "Deuda neta NEGATIVA de 72.102 M (caja neta). NO se incluyen en la liquidez las participaciones NO cotizadas (43.364 M a 2026-04-26): son iliquidas, se valoran contra eventos de financiacion observables y una parte relevante son participaciones en los propios clientes. Incluirlas subiria el valor por accion en 1,79 USD y no cambia absolutamente nada del veredicto.",
+    "fuente": "Balance del 10-Q Q1 FY2027 (2026-04-26) + precio y numero de acciones de 2026-07-27"
+  },
+
+  "dcf_inverso": {
+    "motor": "Se resuelve la g constante a 10 anos que, con crecimiento terminal del 3% y WACC del 13,7%, iguala el valor presente del flujo al EV de hoy (4.612.776 M USD).",
+    "formula_terminal": "VT = FCF10 x 1,03 / (0,137 - 0,03) = 9,63 x FCF10",
+    "resultados": {
+      "base_auditada_capex_mantenimiento": {"fcf0": 99875, "g_implicita_pct": 26.3},
+      "base_auditada_capex_total": {"fcf0": 96676, "g_implicita_pct": 26.8},
+      "base_en_curso_capex_mantenimiento": {"fcf0": 178553, "g_implicita_pct": 17.7},
+      "base_en_curso_capex_total": {"fcf0": 173953, "g_implicita_pct": 18.1}
+    },
+    "sensibilidad_wacc": {
+      "wacc_12.0_base_auditada_pct": 23.4,
+      "wacc_12.0_base_en_curso_pct": 15.0,
+      "wacc_13.7_base_auditada_pct": 26.8,
+      "wacc_13.7_base_en_curso_pct": 18.1,
+      "wacc_14.6_base_auditada_pct": 28.5,
+      "wacc_14.6_base_en_curso_pct": 19.7,
+      "wacc_11.0_base_auditada_pct": 21.2,
+      "wacc_11.0_base_en_curso_pct": 13.0
+    },
+    "lectura": "El precio de hoy exige que NVIDIA componga su flujo libre al 26,8% anual durante diez anos si se parte del ultimo ejercicio auditado, o al 18,1% si se le concede ya el run-rate de la guia de Q2. Y al cabo de esos diez anos, todavia crecer al 3% a perpetuidad. Para dimensionarlo: un 18,1% durante una decada sobre 173.953 M de flujo libre da 900.000 M de flujo libre ANUAL en FY2037; un 26,8% sobre 96.676 M da 1,05 billones. No existe tasa base historica que respalde ninguna de las dos: ninguna empresa que ya facturaba mas de 200.000 M ha compuesto al 18% durante diez anos."
+  },
+
+  "g_defendible": {
+    "formula": "g = (reinversion / NOPAT) x ROIIC EX-MARGEN",
+    "por_que_ex_margen": "Usar el ROIIC bruto del 91,8% asume que la expansion de margen se repite. No se repite, y hay dato: el margen bruto BAJO del 75,0% (FY2025) al 71,1% (FY2026). El 46% ex-margen es el que mide si el capital nuevo rinde de verdad.",
+    "nopat_fy2026": 110699,
+    "nopat_calculo": "130.387 x (1 - 15,1%)",
+    "version_generosa": {
+      "reinversion": 56576,
+      "componentes": "capex 6.042 + I+D 18.497 + adquisiciones 1.535 + participaciones no cotizadas 17.502 + Groq 13.000",
+      "reinversion_sobre_ventas_pct": 26.2,
+      "reinversion_sobre_nopat_pct": 51.1,
+      "g_pct": 23.5,
+      "veredicto": "RECHAZADA. Esta version cuadra bien con el 25,1% de ventas de la ficha de especie congelada, lo que sugiere que la fase de calidad conto las participaciones y Groq como reinversion. Pero adoptarla exige creer que 30.502 M gastados en comprar participaciones en los propios clientes y en un competidor rinden el mismo 46% operativo que una linea de producto. Eso es, literalmente, el eslabon mas debil del mecanismo congelado elevado a supuesto de valoracion."
+    },
+    "version_defendida": {
+      "reinversion": 26074,
+      "componentes": "capex 6.042 + I+D 18.497 + adquisiciones operativas 1.535. Sin participaciones. Sin Groq.",
+      "reinversion_sobre_ventas_pct": 12.1,
+      "reinversion_sobre_nopat_pct": 23.6,
+      "g_pct": 10.8,
+      "g_redondeada_pct": 11.0,
+      "rango": "9% - 14%",
+      "veredicto": "Esta es MI g. 11% anual durante diez anos, terminal 3%. Implica ingresos de unos 670.000 M en FY2036, 3,1 veces los de hoy, sobre una base que ya es la mayor del sector. No es una g timida: es una g agresiva a la que se le ha quitado la parte circular."
+    },
+    "contraste_con_la_tasa_base": "El negocio crecio 65% en FY2026 y 85% interanual en Q1 FY2027. Un 11% para la proxima decada parece ridiculamente bajo frente a eso. El punto no es que 11% acierte el ano que viene: es que ni el 11% defendible ni siquiera el 23,5% generoso llegan al 26,8% que el precio exige sobre la base auditada, y solo el 23,5% supera el 18,1% que exige sobre la base en curso."
+  },
+
+  "valoracion_con_g_defendible": {
+    "supuestos": "g 11% a 10 anos, terminal 3%, WACC 13,7%, caja neta de 72.102 M sumada al valor operativo, 24.200 mm acciones",
+    "base_auditada_capex_mantenimiento": {"valor_por_accion_usd": 70.5, "mos_pct": -174.7},
+    "base_auditada_capex_total": {"valor_por_accion_usd": 68.3, "mos_pct": -183.4},
+    "base_en_curso_capex_mantenimiento": {"valor_por_accion_usd": 123.6, "mos_pct": -56.6},
+    "base_en_curso_capex_total": {"valor_por_accion_usd": 120.5, "mos_pct": -60.6},
+    "piso_de_resolucion": {
+      "regla": "Sin medicion propia del ruido, banda de mas menos 25%. Nada de decimales falsos en el valor intrinseco.",
+      "base_auditada": "68 USD por accion, banda 51 - 85",
+      "base_en_curso": "121 USD por accion, banda 90 - 151",
+      "conclusion": "El precio de 193,59 USD esta POR ENCIMA del techo de las dos bandas. No hay solape con ninguna. La conclusion sobrevive al ruido declarado."
+    },
+    "escenario_de_contraste_wacc_11": {
+      "por_que": "Un WACC del 11% equivale a una beta de 1,35, que es lo que usa un modelo de sell-side convencional. Se incluye para medir cuanto pesa el candado B en el resultado.",
+      "valor_base_auditada_usd": 94.4,
+      "valor_base_en_curso_usd": 167.4,
+      "mos_base_en_curso_pct": -15.6,
+      "lectura": "Incluso regalando 270 puntos basicos de coste de capital y usando la base mas favorable de las dos, sigue sin haber margen de seguridad, ni de lejos el 40% exigido. Es el resultado mas robusto de todo el expediente: la conclusion NO depende de la beta."
+    },
+    "escenario_con_g_generosa_23_5": {
+      "valor_base_auditada_usd": 133,
+      "valor_base_en_curso_usd": 239,
+      "mos_base_en_curso_pct": 19.0,
+      "lectura": "Unica casilla de todo el espacio explorado en la que aparece un MoS positivo: base en curso mas g generosa del 23,5%. Y aun asi el 19% no alcanza el 40% exigido para CARGAR. Requiere ademas aceptar precisamente el supuesto que este expediente rechaza."
+    }
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 16,
+    "unidad": "veces owner earnings version capex de mantenimiento",
+    "decidido_en_frio": "16x es el multiplo que acepto pagar por un negocio que compone al 11% defendible durante una decada, con un coste de capital del 13,7% y con la calidad del beneficio como eslabon mas debil documentado. No lleva barra de error porque no es una estimacion: es una decision. Coincide con el 16,4x que sale de mi propio DCF con esos mismos parametros, lo cual es una comprobacion de coherencia, no una casualidad buscada.",
+    "valor_por_accion_con_m_estrella": {
+      "base_auditada_usd": 69.0,
+      "base_en_curso_usd": 121.0
+    },
+    "mos_exigido_pct": 40,
+    "p_estrella_usd": 72.6,
+    "p_estrella_calculo": "121,0 USD (base EN CURSO, la mas favorable de las dos) x (1 - 0,40) = 72,6 USD",
+    "p_estrella_alternativo_base_auditada_usd": 41.4,
+    "p_estrella_si_el_mos_fuera_30_pct": 84.7,
+    "distancia_al_precio": "El precio de hoy (193,59) esta 2,67 veces por encima de P* de la base en curso y 4,68 veces por encima de P* de la base auditada. Habria que caer un 62,5% para llegar a P*.",
+    "que_tendria_que_pasar": "Para que 193,59 USD fuera P*, los owner earnings de mantenimiento tendrian que ser del orden de 288.000 M anuales: un 61% por encima de mi estimacion del ejercicio EN CURSO y 2,9 veces los del ultimo auditado."
+  },
+
+  "tir_esperada": {
+    "definicion": "Tasa de descuento que iguala el valor del modelo al precio de hoy. Es lo que gana al ano, durante diez anos, quien compra hoy, si la g del escenario se cumple.",
+    "matriz": {
+      "base_auditada_g_7pct": "6,0%",
+      "base_auditada_g_11pct": "7,1%",
+      "base_auditada_g_16pct": "8,9%",
+      "base_auditada_g_23.5pct": "12,1%",
+      "base_en_curso_g_7pct": "8,3%",
+      "base_en_curso_g_11pct": "10,0%",
+      "base_en_curso_g_16pct": "12,5%",
+      "base_en_curso_g_23.5pct": "16,9%"
+    },
+    "rango_reportado": "+6% a +12,5% anual a 10 anos en el rango de g defendibles (7%-16%); central +7% (base auditada) a +10% (base en curso) con g = 11%.",
+    "lectura": "Esto es lo que un MoS de -183% quiere decir en cristiano, y por que el MoS por si solo es un numero inutil aqui. NO se pierde el 183%. Se compra una rentabilidad esperada del 7% al 10% anual en un activo cuyo coste de capital propio es del 13,7%. Se destruye valor a razon de 4 a 7 puntos al ano — no se destruye capital. Y si la version generosa de la g (23,5%) resulta cierta, la TIR sube al 12-17% y el comprador de hoy gana. Esa, exactamente, es la apuesta que el mercado esta haciendo a 193,59 USD."
+  },
+
+  "detector_de_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo_principal": "El detector busca un MoS grande sobre un motor que se rompe. Aqui no hay ni lo uno ni lo otro. MoS: negativo en las cuatro combinaciones base x version. Motor: ROIIC ex-margen del 46%, margen operativo del 65,6% en el ultimo trimestre publicado, ingresos +64,5% en FY2026 y +85,2% interanual en Q1 FY2027, Data Center 75.200 M en un trimestre (+92%), guia de 91.000 M para Q2 SIN contar un dolar de China. Nada de esto se parece a una trampa de valor. El problema de NVDA a 193,59 USD es de precio, no de negocio.",
+    "sospecha_lateral_declarada": "SOSPECHA DE CIRCULARIDAD — no es trampa de valor pero merece nombre propio, y es la confirmacion en dinero del eslabon debil congelado. HECHOS: (1) en FY2026 el beneficio neto fue 120.067 M y el flujo libre 96.676 M, brecha de 23.391 M; (2) el estado de flujos resta 8.918 M de plusvalias no realizadas en FY2026 y 15.936 M en un SOLO trimestre de FY2027, es decir el 27,3% del beneficio neto de Q1 FY2027 fue revalorizacion de participadas; (3) el saldo de participaciones no cotizadas paso de 3.387 M (FY2025) a 22.251 M (FY2026) a 43.364 M (Q1 FY2027), multiplicandose por 12,8 en cinco trimestres; (4) en quince meses han salido 49.084 M de caja hacia participaciones no cotizadas y Groq. La demanda que la empresa financia vuelve como ingreso, y la revalorizacion de lo financiado vuelve como beneficio. No es fraude ni es ilegal, y el CFO lo excluye correctamente. Pero es el gatillo mas limpio que existe para vigilar este caso: el dia que esas revalorizaciones se den la vuelta, se daran la vuelta a la vez que la demanda que las genero.",
+    "riesgo_dominante": "El riesgo de esta posicion no es que el negocio se rompa. Es que el precio ya paga diez anos de un crecimiento que ninguna empresa de este tamano ha logrado nunca."
+  },
+
+  "veredicto_de_precio": {
+    "resumen": "NO CARGAR. Ni cerca.",
+    "mos_exigido_pct": 40,
+    "mos_obtenido_base_en_curso_pct": -60.6,
+    "mos_obtenido_base_auditada_pct": -183.4,
+    "p_estrella_usd": 72.6,
+    "precio_hoy_usd": 193.59,
+    "caida_necesaria_pct": -62.5,
+    "accion": "La posicion del 0,15% del NAV no se toca por razones de precio. No se anade.",
+    "nota_de_disciplina": "La contradiccion madre en este caso tenia tres puertas, y las tres estan cerradas por escrito. (1) Reclasificar hacia arriba: la etiqueta MUY_BUENA no se ha tocado, y aunque se tocara, con un MoS del 30% el P* seria 84,7 USD y el precio seguiria 2,3 veces por encima. (2) Elegir la base EN CURSO porque da un numero mas amable: se reportan las dos y ninguna aguanta el precio. (3) Adoptar la g generosa del 23,5% porque es la unica que produce un MoS positivo: se ha nombrado, cuantificada y rechazada por escrito, porque exige creer que comprar participaciones en tus clientes rinde el 46% operativo.",
+    "que_haria_cambiar_esto": [
+      "Un precio por debajo de 90 USD sobre la base EN CURSO ya VERIFICADA (no estimada), es decir tras publicar Q2 y Q3 de FY2027 en linea con la guia.",
+      "Que los owner earnings de mantenimiento del ejercicio auditado FY2027 superen realmente los 175.000 M. Se comprueba con el 10-K de febrero de 2027: eso convertiria la base 'en curso' de este expediente en base auditada y trasladaria la valoracion de 68 a 121 USD sin cambiar un solo supuesto.",
+      "Que la brecha entre beneficio neto y flujo libre baje de 10.000 M y que las compras de participaciones no cotizadas caigan por debajo de 5.000 M anuales. Eso convertiria mi g defendible del 11% en algo legitimamente mas alto y validaria la version generosa."
+    ]
+  },
+
+  "huecos_declarados": [
+    "DISCREPANCIA DE FASE DE CALIDAD: el expediente previo en esta misma ruta traia etiqueta ULTRA-R (5 puertas), reinversion 25,7% de ventas, ROIIC ex-margen 38,8% y MoS exigido 30%. Esta ejecucion recibio MUY_BUENA (4 puertas), reinversion 25,1%, ROIIC ex-margen 46% y MoS 40%. No es competencia del valorador resolverlo. Impacto sobre el veredicto: ninguno.",
+    "Fecha de corte y ruta de salida llegaron literalmente como 'undefined'. Se usa 2026-07-28 (fecha del sistema) y se escribe en Rankings/undefined/NVDA.json de forma literal.",
+    "Acciones en circulacion: la portada del 10-Q redondea a 24,2 mil millones. El error de redondeo es de +/-50 millones de acciones, un 0,2% de la capitalizacion. No hay recuento exacto posterior al 2026-04-26.",
+    "Ejercicio en curso: solo hay UN trimestre auditado de FY2027 (Q1) y guia de UNO mas (Q2). NVIDIA solo guia un trimestre. La mitad del ano anualizado son supuestos propios.",
+    "La proyeccion de CFO del ejercicio en curso usa una ratio CFO/resultado operativo del 79%, estable en tres ejercicios; pero Q1 FY2027 marco 94,0%. Si esa fuera la nueva normalidad, el OE en curso estaria INFRAestimado en un 19% y el valor por accion de esa base subiria de 121 a unos 144 USD — todavia por debajo del precio.",
+    "El capex de mantenimiento se aproxima por la amortizacion, que en NVIDIA es solo el 1,3% de los ingresos. Con un inmovilizado que ha pasado de 6.283 a 12.403 M en cinco trimestres, la amortizacion contable va muy por detras del desgaste economico de una base de activos que se renueva cada dos o tres generaciones de GPU. Es la aproximacion que pide el metodo, pero probablemente subestima el capex de mantenimiento verdadero. Su impacto en el resultado es del 3%.",
+    "Prima de riesgo pais ponderada por ingresos segun sede del cliente. La exposicion de ACTIVO a Taiwan (fabricacion) es cualitativamente mayor que el 19,6% de ingresos. No hay forma de cuantificarla con un filing primario.",
+    "ERP de Damodaran fechada 2026-01-01 (fichero de paises) y 2026-07-01 (serie mensual), combinada con un Rf del 2026-07-27. Desfase de unos 20 pb, declarado y no corregido.",
+    "La retribucion en acciones (6.386 M) NO se resta de los owner earnings reportados, por definicion del metodo. Su impacto esta cuantificado aparte: -6,4% sobre el OE de mantenimiento auditado.",
+    "Beta calculada contra SPY como proxy del S&P 500 en vez del indice puro. La diferencia por dividendos es de segundo orden en una regresion de betas. No se ha usado ninguna beta de agregador.",
+    "No se ha auditado el valor razonable de las participaciones NO cotizadas (43.364 M a 2026-04-26). Son de nivel 3, marcadas contra eventos de financiacion observables. En un enfriamiento de la financiacion de IA ese saldo es lo primero que se deteriora, y el 27,3% del beneficio neto de Q1 FY2027 salio de ahi.",
+    "No se han verificado en filings ni unidades vendidas ni precio medio de venta: NVIDIA no los publica. El poder de precio, que es lo que sostendria el margen bruto del 74,9%, no es comprobable con fuente primaria.",
+    "Los 119.000 M de capacidad de fabricacion comprada por adelantado que cita el mecanismo congelado NO se han verificado en esta sesion. Vienen de la fase de calidad."
+  ],
+
+  "trazabilidad": {
+    "fuentes_primarias": [
+      "SEC EDGAR 10-K FY2026, accession 0001045810-26-000021, presentado 2026-02-25 — R3 (resultados), R5 (balance), R9 (flujos), R20 (deuda), R25 (segmentos y geografia)",
+      "SEC EDGAR 10-Q Q1 FY2027, accession 0001045810-26-000052, presentado 2026-05-20 — R1 (portada y acciones), R2 (resultados), R4 (balance), R7 (flujos)",
+      "SEC EDGAR 8-K de 2026-05-20, accession 0001045810-26-000051, exhibit q1fy27pr.htm — guia de Q2 FY2027, tasa impositiva FY2027, ingreso de Data Center",
+      "SEC EDGAR XBRL companyfacts CIK0001045810 — serie historica FY2018-FY2026",
+      "US Department of the Treasury, Daily Treasury Par Yield Curve Rates, fila 2026-07-27",
+      "Damodaran, NYU Stern: ctryprem.xlsx (actualizado 2026-01-01, ratings 2026-02-16) y ERPbymonth.xlsx (fila 2026-07-01)",
+      "IBKR MCP: get_price_snapshot y get_price_history, conid 4815747 (NVDA) y 756733 (SPY), datos de 2026-07-27"
+    ],
+    "agregadores_usados": "NINGUNO. No se ha usado stockanalysis, Yahoo, Trading Economics ni ningun otro agregador en este expediente. Todas las cifras salen de filings primarios, de fuentes oficiales (Tesoro de EEUU, Damodaran) o de calculo propio sobre datos de mercado de IBKR."
+  }
+}

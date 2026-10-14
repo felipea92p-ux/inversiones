@@ -1,0 +1,98 @@
+{
+ "ticker": "ASM.AS",
+ "name": "ASM International N.V.",
+ "asof_date": "2026-06-22",
+ "currency": "EUR",
+ "price": 1070,
+ "market_cap_usd_b": 60.8,
+ "fwd_pe": 45.2,
+ "fwd_pe_5y_avg": 40.5,
+ "pe_prem_disc_pct": 11.6,
+ "peg": 1.37,
+ "last_q": {
+  "period": "Q1 2026 (ended Mar 2026)",
+  "revenue": "EUR 862.5m (~EUR 863m)",
+  "rev_yoy_pct": 16,
+  "op_margin_pct": 33.1,
+  "eps_gaap": "EUR 5.01",
+  "eps_adj": "EUR 5.01"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 2025)",
+  "revenue": "EUR 3.2bn (~EUR 3,170m)",
+  "organic_growth_pct": 12,
+  "roic_pct": 29.1,
+  "fcf": "EUR ~979m",
+  "fcf_margin_pct": 30.9
+ },
+ "sbc_pct_revenue": null,
+ "sbc_pct_fcf": null,
+ "net_debt_usd_b": -1.06,
+ "nd_ebitda": -0.83,
+ "net_cash": true,
+ "guidance_fy": "FY2026: Q2 2026 revenue ~EUR 980m (+/-5%); H2 2026 revenue expected higher than H1; full-year to at least outgrow the WFE market; gross margin targeted at higher end of 47-51% range; SG&A below 9% of revenue; capex around or somewhat above EUR 150-250m (Scottsdale build). Management: 2026 a strong upcycle year. (PROJECTION)",
+ "pct_off_52w_high": -1,
+ "pct_off_ath": -1,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "guidance_fy",
+  "net_cash"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "last_fy.fcf_margin_pct",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "last_q.eps_adj"
+ ],
+ "sources": [
+  {
+   "label": "ASM Q4 & full-year 2025 results press release (primary, IR)",
+   "url": "https://www.asm.com/media/yvxbavwe/20260303-asm-reports-q4-and-full-year-2025-results.pdf",
+   "date": "2026-03-03"
+  },
+  {
+   "label": "ASM Q1 2026 results press release (primary, IR)",
+   "url": "https://www.asm.com/press-releases/3278259",
+   "date": "2026-04-21"
+  },
+  {
+   "label": "Investing.com Q1 2026 earnings call transcript (secondary)",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-asm-international-q1-2026-beats-expectations-stock-jumps-93CH-4629789",
+   "date": "2026-04-21"
+  },
+  {
+   "label": "StockAnalysis.com ASM statistics (price, fwd PE, PEG, net cash, EBITDA)",
+   "url": "https://stockanalysis.com/quote/ams/ASM/statistics/",
+   "date": "2026-06-19"
+  },
+  {
+   "label": "valueinvesting.io / GuruFocus forward PE & 5y average",
+   "url": "https://valueinvesting.io/ASM.AS/metric/forward-pe",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "GuruFocus ASM ROIC (FY2025 basis)",
+   "url": "https://www.gurufocus.com/term/roic/ASMIY",
+   "date": "2025-12-31"
+  }
+ ],
+ "notes": "PRICE: ASM trading ~EUR 1,066-1,080 around Jun 19-21, 2026 (Yahoo/Investing.com/StockAnalysis converge; 52-week range top EUR 1,080.50). Used ~EUR 1,070 as consensus. CompaniesMarketCap showed an anomalous EUR ~1,233 ATH figure that appears to be a USD-mislabel and contradicts all other sources, so disregarded. EUR/USD ~1.167 used for USD conversions; market cap ~EUR 52.1bn -> ~USD 60.8bn.\n\nDROP CLASSIFICATION = not_depressed: stock is AT/NEAR all-time high, up ~+112% over the trailing year, only ~1% off 52-week high. Opposite of a depressed/fear situation — upcycle re-rating on AI / leading-edge logic-foundry demand and 2nm/1.4nm positioning.\n\nVALUATION: fwd PE ~45.2 (StockAnalysis) vs ~40.5 5y avg (gurufocus/valueinvesting) => modest premium ~+12%. Other aggregators show fwd PE 39-49 depending on date/estimate basis (Yahoo 49.3; GuruFocus 39.4) — wide range; treat as ESTIMATED. PEG ~1.37.\n\nQ1 2026: revenue EUR 862.5m (~863m), high end of EUR 830m +/-4% guidance, +16% YoY constant currency (~+7% as reported due to USD weakness), record operating margin 33.1%, gross margin 53.3%, EPS EUR 5.01 (beat ~EUR 4.02 consensus). FCF NEGATIVE EUR 48m (working-capital ramp), cash ~EUR 1bn. ASM does not split GAAP vs adjusted EPS at headline; EPS shown is reported figure.\n\nFY2025 (VERIFIED from PR): revenue EUR 3.2bn (~3,170m), +12% constant currency (9th consecutive year double-digit growth), record gross margin 51.8%, record adjusted operating margin 30.2%, Q4 net earnings EUR 166.1m; FY net income ~EUR 724m per aggregators. Dividend EUR 3.25/share proposed (up from 3.00); new EUR 150m buyback 2026/2027 authorized. ROIC ~29% (ASM-normalized/aggregator; note GuruFocus standardized ROIC ~13.6% on stricter invested-capital basis — ESTIMATED). FCF ~EUR 979m, FCF margin ~31% (estimated).\n\nNET CASH: total cash EUR 981.6m, total debt EUR 72m => net cash EUR 909.6m (~USD 1.06bn). net_debt_usd_b = -1.06 (negative = net cash). nd_ebitda ~ -0.83 on EBITDA ~EUR 1.09bn. net_cash=true.\n\nORDER INTAKE / BOOKINGS: NOT AVAILABLE for Q1 2026 — ASM formally DISCONTINUED disclosure of quarterly bookings and backlog as of Q1 2026 (FY2025 PR Update to disclosure practices); backlog now reported only at year-end. FY2025 Q4 new orders were EUR 802.8m (+19% YoY cc) for reference.\n\nSBC: share-based compensation as % of revenue and % of FCF NOT found in the Q1 2026 / FY2025 press releases or transcript retrieved within timebox. Left null — requires full annual report IFRS cash-flow statement (employee share-based payment line). Flag for R9 follow-up; ASM SBC historically modest (low single-digit % of revenue) but unverified here.\n\nRecent corporate actions: Dec 2025 acquired Axus Technology (CMP); appointed Gary Ding CPO (Jan 2026); Scottsdale AZ fab on track for early 2027."
+}

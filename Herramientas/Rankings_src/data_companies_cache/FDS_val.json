@@ -1,0 +1,48 @@
+{
+ "ticker": "FDS",
+ "name": "FactSet Research Systems Inc.",
+ "currency": "USD",
+ "price_verified": 218.62,
+ "price_source": "StockAnalysis.com close 2026-06-22 ($218.62; intraday last ~$216.52); cross-checked Yahoo/CNBC. Range 2026-06-22: $214.22-$223.80.",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.0371,
+ "implied_mcap_b_usd": 8.1,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 9.7,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.075,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "FY25 owner FCF = reported FCF $617.5M - 100% SBC ($61.2M) = $556.3M ($M). Per diluted share (37.06M) = $15.01. Forward FY26 owner FCF ~$595M (+7%) used to anchor the multiple normalization.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 217.79,
+   "prob": 0.38,
+   "note": "AI/LLM disruption bites moderately: g1 5.0%, phase2 declining 4.5%->2.5%, gt 2.5%, WACC 9.7%. Pessimistic-but-not-apocalyptic: ASV growth halves vs history, margins stay compressed ~220bps. Lands roughly at current price."
+  },
+  "base": {
+   "iv_per_share": 259.92,
+   "prob": 0.47,
+   "note": "Proven 29-yr compounder continues mid-single/high-single digit: g1 7.0%, phase2 6.0%->3.0%, gt 3.0%, WACC 9.7%. ASV +6-7%, margins stabilize as AI investment matures into product."
+  },
+  "optimista": {
+   "iv_per_share": 311.41,
+   "prob": 0.15,
+   "note": "FactSet monetizes AI (GenAI/Pitch Creator, workflow) and re-accelerates: g1 9.0%, phase2 7.5%->3.5%, gt 3.5%, WACC 9.7%."
+  }
+ },
+ "iv_dcf_weighted": 251.64,
+ "multiple_metric": "fwd P/E on FY26 adjusted diluted EPS",
+ "fwd_multiple_now": 12,
+ "fwd_multiple_5y_avg": 29.6,
+ "fair_multiple": 20,
+ "multiple_rationale": "5y avg fwd P/E ~29.6x reflects the pre-derating premium era. Apply a deliberate ~33% haircut to 20x for genuine (not purely cyclical) factors: structural AI/LLM disruption risk to the financial-data-terminal model and real margin compression (~220-230bps GAAP/adj op margin in Q2 FY26 from AI investment). 20x is still a quality premium consistent with a 29-consecutive-year ASV-growth franchise (ROIC ~17.7%, FCF margin ~27%, low SBC ~2.6% of revenue) where the AI thesis remains a risk, not a realized impairment - revenue still +7%, EPS adj still growing, guidance raised at Q2. iv_multiple = 20.0 x FY26 adj EPS midpoint $17.50 = $350.",
+ "iv_multiple": 350,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 311,
+ "structural_change": "MODERATE/MIXED. Real but not yet impairing: (1) AI/LLM narrative threatens the data-terminal model - the core market fear driving the ~52% drop from 52w high and ~55% from ATH; (2) genuine margin compression of ~220-230bps as FactSet invests in AI capabilities. Offsetting: fundamentals are NOT deteriorating - revenue +7.1% YoY in Q2 FY26, organic ASV +6.7%, adj EPS still growing, FY26 guidance RAISED. Verdict: this is predominantly a de-rating/fear event with a moderate genuine structural overhang, not a collapse in the business. Justifies a real multiple haircut (29.6x->20x) but not an apocalyptic one.",
+ "sanity_notes": "Price $218.62 verified (StockAnalysis close 2026-06-22; Yahoo/CNBC intraday ~$216.52). Shares: 36.43M outstanding; 37.06M diluted weighted-avg (Q2 FY26 10-Q) used for per-share IV - small mismatch vs JSON note (37.456M) resolved to verified diluted count. Implied mcap = $218.62 x 37.06M = $8.10B (diluted); $7.96B on outstanding - both match FactSet's known ~$8B scale, mcap_sanity_ok=TRUE. Currency uniform USD throughout. Magnitude check: all three DCF IVs (100%/119%/142% of price) sit inside the 30-300% band; reconciled IV $311 = 142% of price - within band, no units/currency/share error. WACC 9.7% = 4.3% US Rf + 5.0% ERP x 1.075 beta. Owner FCF correctly nets 100% of SBC ($61.2M official, not the erroneous ~$152M Macrotrends figure). Reconciliation weighted 0.40 DCF / 0.60 multiple per framework for a stable, proven compounder (DCF structurally under-credits decades of high-ROIC reinvestment). Reconciled IV $311 implies ~42% upside; DCF-only ~15% upside. Net debt $1.03B (official) used in DCF bridge; StockAnalysis shows $1.27B on gross-debt basis - immaterial to conclusion."
+}

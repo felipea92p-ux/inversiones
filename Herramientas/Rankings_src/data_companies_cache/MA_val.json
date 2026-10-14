@@ -1,0 +1,48 @@
+{
+ "ticker": "MA",
+ "name": "Mastercard Incorporated",
+ "currency": "USD",
+ "price_verified": 484.09,
+ "price_source": "StockAnalysis.com (close 2026-06-22, $484.09); cross-checked Yahoo Finance ($489.79 close 2026-06-18). Mcap $427.73B consistent.",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.883,
+ "implied_mcap_b_usd": 427.6,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 9.5,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.05,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF = FY2025 FCF $17.16B - 100% SBC $0.597B = $16.56B (~$18.76/sh on 0.883B). SBC is only 1.8% of revenue / 3.5% of FCF, so owner-earnings haircut is minimal — a quality positive.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 401,
+   "prob": 0.38,
+   "note": "Phase1 9% CAGR, Phase2 declining to 5%, terminal g 2.5%. Reasonable-pessimist: consumer slowdown, FX drag, regulatory/interchange pressure and stablecoin/A2A nibbling at volumes — but franchise intact, no apocalypse."
+  },
+  "base": {
+   "iv_per_share": 518.9,
+   "prob": 0.47,
+   "note": "Phase1 12% CAGR, Phase2 declining to 7%, terminal g 3.0%. Continuation of secular cash-to-card shift + value-added services + cross-border high-teens, in line with guidance and history."
+  },
+  "optimista": {
+   "iv_per_share": 676,
+   "prob": 0.15,
+   "note": "Phase1 15% CAGR, Phase2 declining to 9%, terminal g 3.5%. Faster VAS/new-flows expansion, sustained cross-border strength, accretive M&A."
+  }
+ },
+ "iv_dcf_weighted": 497.7,
+ "multiple_metric": "fwd_PE",
+ "fwd_multiple_now": 23.92,
+ "fwd_multiple_5y_avg": 30,
+ "fair_multiple": 27,
+ "multiple_rationale": "Anchor to ~30x 5y-avg forward P/E with a ~10% haircut to 27x for a higher-for-longer rate regime and modest near-term volume softening flagged in Q1 (cyclical, not structural). FY2026 adj EPS ~$19.05 (FY2025 $17.01 x ~12% guided growth; owner-earnings basis nearly identical given tiny SBC). iv_multiple = 19.05 x 27 = $514.4. MA trades at 23.92x now, a ~20% discount to its own 5y average despite accelerating fundamentals.",
+ "iv_multiple": 514.4,
+ "weight_dcf": 0.35,
+ "weight_multiple": 0.65,
+ "reconciled_iv": 508.6,
+ "structural_change": "None material. Mastercard remains one half of a global payments duopoly with a light-capital, high-ROIC network model. The -19.6% drawdown from ATH is a multiple de-rating (fear/rotation), not an earnings problem: FY2025 revenue +16%, adj EPS +23% YoY in Q1 2026, cross-border +14%, FCF margin ~52%. Watch items (stablecoins/A2A real-time rails, interchange regulation) are long-tail risks, not present-day deterioration — captured via the conservative scenario weighting, not a structural haircut.",
+ "sanity_notes": "Price $484.09 and mcap $427.73B re-verified across StockAnalysis.com and Yahoo. Shares cluster 877-891M by source/date; used 0.883B diluted (consistent with verified $427.73B mcap / $484.09). implied_mcap = 484.09 x 0.883 = $427.6B, matches known ~$428-433B scale -> mcap_sanity_ok=true. All IVs ($401-$676) sit comfortably within the 30-300% magnitude band of the $484 price, so no shares/currency/units error. DCF ($497.7) and multiple ($514.4) methods converge tightly, raising confidence. Net debt $10.58B subtracted from EV. Reconciled IV $508.6 implies ~5% upside vs $484.09 — modestly undervalued; a proven compounder at a sensible (below-average) multiple. Weights 0.35 DCF / 0.65 multiple reflect MA's status as a stable, capital-light, proven compounder where pure DCF under-credits decades of high-ROIC reinvestment."
+}

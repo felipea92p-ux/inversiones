@@ -1,0 +1,511 @@
+{
+  "meta": {
+    "ticker": "WKL.AS",
+    "empresa": "Wolters Kluwer N.V.",
+    "domicilio": "Alphen aan den Rijn, Paises Bajos",
+    "cotizacion": "Euronext Amsterdam, EUR",
+    "adr": "WTKWY (ADR nivel 1). NO usado para el calculo: la capitalizacion se computa sobre las acciones ordinarias de Amsterdam para evitar el problema de ratio ADS/ordinaria.",
+    "presenta_ante_sec": false,
+    "fuente_primaria_usada": "Informes de la propia empresa (Full-Year Report 2025 auditado-base, Trading Update 1T 2026, Annual Report 2025). Autorizado expresamente por Felipe para emisores no-SEC.",
+    "fecha_corte": "2026-07-27",
+    "divisa_reporte": "USD",
+    "divisa_funcional": "EUR",
+    "tipo_de_cambio": {
+      "eur_usd": 1.1389,
+      "fuente": "BCE, tipo de referencia diario eurofxref-daily.xml",
+      "fecha": "2026-07-27",
+      "etiqueta": "HECHO"
+    },
+    "rol": "VALORADOR. La etiqueta de calidad esta CONGELADA y no se toca.",
+    "etiqueta_congelada": "MUY_BUENA (4 puertas pasadas)",
+    "mos_exigido_pct": 40,
+    "mos_exigido_motivo": "MUY_BUENA fuera de cartera -> umbral de ABRIR = 30% base + 10 puntos de banda = 40%. No aplica el escalon de CARGAR porque la empresa NO esta en cartera."
+  },
+
+  "mecanismo_congelado": {
+    "texto": "Wolters Kluwer vende contenido normativo incrustado en el flujo de trabajo de medicos, fiscalistas y abogados por suscripcion plurianual con renovacion por encima del 90%, cobra por adelantado y por eso opera con capital tangible NEGATIVO (-1.775 m EUR en 2025) mientras convierte cada euro de beneficio en 1,26 euros de caja libre - una maquina de caja (ULTRA-C), no una reinvertidora.",
+    "eslabon_mas_debil": "ROIIC ex-margen de 8,6% (6,8% cargando adquisiciones): el 61% de la mejora del NOPAT 2020-2025 vino de expansion de margen y solo el 39% de mas ingresos. G3 NO MEDIBLE porque la empresa no publica NINGUNA magnitud de volumen.",
+    "especie_g2": {
+      "reinversion_pct_ventas": 13.4,
+      "roiic_bruto_pct": 21.8,
+      "roiic_ex_margen_pct": 8.6,
+      "roiic_ex_margen_con_adquisiciones_pct": 6.8
+    },
+    "advertencia_al_valorador": "Al abrir el precio aparece un MoS >50%. Eso NO es una razon para reclasificar la etiqueta hacia arriba. La etiqueta sigue siendo MUY_BUENA."
+  },
+
+  "precio_y_capitalizacion": {
+    "precio_cierre_eur": 67.36,
+    "fecha_precio": "2026-07-27",
+    "hora_precio": "17:39 CET (cierre Euronext Amsterdam)",
+    "cierre_anterior_eur": 62.46,
+    "variacion_dia_pct": 7.85,
+    "motivo_del_salto": "Mejora de recomendacion de JPMorgan (Neutral -> Overweight, objetivo 73 -> 87 EUR) el 27-jul-2026, con tesis de 'foso de IA' reforzado. Es ruido de sesion, no un hecho fundamental. Se usa el cierre real, no un precio suavizado.",
+    "precio_usd": 76.72,
+    "fuente_precio": "stockanalysis.com/quote/ams/WKL (cierre 67,36 EUR, 27-jul-2026 17:39 CET) contrastado con Google Finance (67,36 EUR, 27-jul-2026 18:00 GMT+2). Etiqueta: INFERENCIA (agregador), pero doble fuente concordante.",
+    "acciones_en_circulacion_mm": 222.9,
+    "acciones_fuente": "222,9 m (stockanalysis, 27-jul-2026). Contrastado contra HECHO del filing: 224,5 m ordinarias en circulacion excluidas 8,1 m en autocartera a 31-mar-2026 (Trading Update 1T 2026), menos ~1,4 m recompradas entre mayo y julio bajo el mandato de ~80 M EUR (7-may a 3-ago-2026). Cuadra.",
+    "capitalizacion_eur_mm": 15014,
+    "capitalizacion_usd_mm": 17099,
+    "deuda_neta_eur_mm": 3788,
+    "deuda_neta_usd_mm": 4314,
+    "deuda_neta_fuente": "HECHO: 3.788 M EUR a 31-mar-2026 (Wolters Kluwer First-Quarter 2026 Trading Update, 6-may-2026, seccion 'Cash flow and net debt'). Ultima cifra publicada; los resultados del 1S 2026 se publican el 5-ago-2026, DESPUES de la fecha de corte.",
+    "deuda_bruta_eur_mm_31dic2025": 4972,
+    "caja_eur_mm_31dic2025": 932,
+    "ev_eur_mm": 18802,
+    "ev_usd_mm": 21413,
+    "nota_valor_de_mercado_de_la_deuda": "Se usa valor contable como aproximacion. Los bonos vivos incluyen cupones bajos (0,75%-2,5% de emisiones 2015-2021) y con tipos euro al ~3% cotizan por debajo de par; el valor de MERCADO de la deuda es algo inferior al contable, lo que hace mi EV ligeramente ALTO y por tanto mi valoracion ligeramente CONSERVADORA. HUECO declarado."
+  },
+
+  "wacc_candado_b": {
+    "principio": "CANDADO B: el WACC sale del mercado, nunca de un tier de calidad. Ningun input de aqui depende de la etiqueta MUY_BUENA.",
+    "tasa_libre_riesgo": {
+      "valor_pct": 3.07,
+      "instrumento": "Bono soberano de Paises Bajos a 10 anios (moneda funcional EUR, emisor Aaa)",
+      "fecha": "junio-julio 2026",
+      "fuente": "GuruFocus / OECD Main Economic Indicators: rendimiento a 10 anios Paises Bajos 3,077% (jun-2026); lecturas actuales ~3,06%. Etiqueta: INFERENCIA (agregador de serie oficial OCDE).",
+      "hueco": "No consegui un cierre oficial de curva del 27-jul-2026. Uso 3,07% con banda 3,00-3,15%."
+    },
+    "prima_de_riesgo_de_mercado": {
+      "valor_pct": 4.23,
+      "descripcion": "Prima de mercado maduro (Damodaran). Para Paises Bajos (Moody's Aaa) la Total ERP es exactamente 4,23% y la Country Risk Premium 0,00%.",
+      "fuente": "Aswath Damodaran, ctryprem.xlsx, hoja 'ERPs by country', fecha de actualizacion 1-ene-2026 (ratings soberanos actualizados 16-feb-2026). Fila 'Netherlands': Total ERP 4,23%, CRP 0,00%. Fila 'United States': Total ERP 4,46%, CRP 0,233%.",
+      "etiqueta": "HECHO (fichero descargado de pages.stern.nyu.edu)"
+    },
+    "prima_pais": {
+      "valor_pct": 0.25,
+      "metodo": "Damodaran manda usar el pais del riesgo de ACTIVO, no el domicilio fiscal. WKL genera >60% de ingresos y de beneficio operativo ajustado en Norteamerica, 29% en Europa y 8% en Asia-Pacifico/Resto (Full-Year Report 2025, p.5). Ponderacion: 0,63 x CRP EEUU (0,233%) + 0,29 x CRP Paises Bajos (0,00%) + 0,08 x CRP mixto APAC (~1,3%) = 0,25%.",
+      "efecto": "Prima total ERP ponderada = 4,23% + 0,25% = 4,48%."
+    },
+    "beta": {
+      "valor_usado": 0.95,
+      "metodo": "BOTTOM-UP, no regresion.",
+      "fuente_beta": "Damodaran betas.xls / betaEurope.xls, actualizacion 5-ene-2026: unlevered beta corregida por caja - 'Information Services' EEUU 0,756 (15 empresas), 'Publishing & Newspapers' EEUU 0,512 (19), 'Software (System & Application)' EEUU 1,248 (309). Mezcla por peso de negocio de WKL (informacion experta ~55-60%, publicacion/print ~20-25%, software cloud 23% de ingresos en 1T26) -> unlevered 0,77-0,83. Reapalancada con D/E de mercado 25,2% y tipo marginal NL 25,8% -> beta apalancada 0,91-0,99. Adopto 0,95.",
+      "betas_de_regresion_descartadas": {
+        "yahoo_finance_5y_mensual": 0.17,
+        "stockanalysis_5y": 0.16,
+        "cnbc": 0.55,
+        "fecha": "julio 2026",
+        "motivo_del_descarte": "Las regresiones de 5 anios estan calculadas sobre un periodo en el que WKL cotizaba como proxy de bono (beta real baja) y estan ademas contaminadas por una caida idiosincratica del ~50% en 12 meses que ninguna regresion con el indice puede recoger. Una beta de 0,17 daria un coste de capital de 3,8% - absurdo. Usar la beta bottom-up (mas alta) es la eleccion CONSERVADORA: sube el WACC y baja el valor.",
+        "etiqueta": "INFERENCIA"
+      }
+    },
+    "coste_de_deuda": {
+      "usado_pct": 3.3,
+      "derivacion_del_filing_HECHO": {
+        "intereses_netos_pagados_excl_arrendamientos_eur_mm": 72,
+        "deuda_neta_media_2025_eur_mm": 3579,
+        "deuda_bruta_media_2025_eur_mm": 4531,
+        "coste_embebido_sobre_deuda_neta_media_pct": 2.01,
+        "coste_embebido_sobre_deuda_bruta_media_pct": 2.12,
+        "cita": "Full-Year Report 2025, seccion Cash flow: 'Net interest paid, excluding lease interest paid, increased to EUR 72 million (FY 2024: EUR 34 million)'. Deuda bruta 4.972 M (2025) y 4.090 M (2024), Nota 7 Net Debt. Deuda neta 4.024 y 3.134."
+      },
+      "coste_marginal": {
+        "emisiones_2025": "500 M EUR a 7 anios, cupon 3,375% (20-mar-2025, Moody's A3); 500 M EUR a 5 anios, cupon 3,000% (30-jun-2025, S&P A-). Nota 7.",
+        "guia_2026": "'We expect adjusted net financing costs in constant currencies to increase to approximately EUR 110 million (FY 2025: EUR 86 million)' - Trading Update 1T 2026.",
+        "estimacion_marginal_pct": 3.4
+      },
+      "decision": "Adopto 3,3% (mezcla entre el 2,1% embebido que se esta renovando al alza y el 3,0-3,4% marginal). Es la eleccion conservadora: sube el WACC. Se declara explicitamente el desvio respecto del 2,1% que sale literalmente del filing.",
+      "coste_deuda_despues_de_impuestos_pct": 2.45,
+      "tipo_impositivo_marginal_pct": 25.8
+    },
+    "ponderacion": {
+      "equity_valor_mercado_eur_mm": 15014,
+      "deuda_valor_mercado_eur_mm": 3788,
+      "peso_equity_pct": 79.9,
+      "peso_deuda_pct": 20.1
+    },
+    "coste_de_los_fondos_propios_pct": 7.33,
+    "wacc_central_pct": 6.4,
+    "wacc_rango": "5,6% - 7,3%",
+    "wacc_rango_detalle": {
+      "bajo_5_6": "beta 0,77 (unlevered de Information Services sin reapalancar en exceso) + ERP 4,23% sin prima pais",
+      "central_6_4": "beta 0,95, ERP 4,48% (4,23 maduro + 0,25 pais), Rf 3,07%, Kd 3,3%",
+      "alto_7_3": "beta 1,05 + ERP 5,0% (prima historica mas comun frente a la implicita de Damodaran) + Rf 3,15%"
+    },
+    "advertencia": "Un WACC de 6,4% con terminal al 3% deja un diferencial (WACC-g) de solo 3,4 puntos, lo que produce un multiplo terminal de 29x y hace que el 74% del valor viva en la perpetuidad. El modelo es estructuralmente generoso. Esto NO es un hallazgo a favor de la empresa: es una debilidad del instrumento que obliga a apoyarse en el DCF INVERSO y en el multiplo m*, no en el valor absoluto del DCF directo."
+  },
+
+  "datos_financieros_auditados_2025": {
+    "fuente": "Wolters Kluwer 2025 Full-Year Report, 25-feb-2026 (assets.contenthub.wolterskluwer.com, 34 paginas). Cifras confirmadas tambien en el Annual Report 2025 publicado el 11-mar-2026. Todas HECHO salvo indicacion.",
+    "moneda": "EUR millones",
+    "ingresos": 6125,
+    "crecimiento_organico_pct": 6,
+    "crecimiento_cc_pct": 7,
+    "ingresos_recurrentes_pct": 83,
+    "crecimiento_organico_recurrentes_pct": 7,
+    "crecimiento_organico_no_recurrentes_pct": -1,
+    "cloud_software_pct_ingresos": 21,
+    "crecimiento_organico_cloud_pct": 15,
+    "beneficio_operativo_ajustado": 1687,
+    "margen_operativo_ajustado_pct": 27.5,
+    "beneficio_operativo_ifrs": 1735,
+    "nota_beneficio_ifrs": "Incluye 232 M EUR de plusvalia por la venta de Finance, Risk & Regulatory Reporting (FRR) el 1-dic-2025. Partida NO recurrente; excluida de todo calculo de owner earnings.",
+    "beneficio_neto_ifrs": 1308,
+    "beneficio_neto_ajustado": 1225,
+    "bpa_diluido_ifrs_eur": 5.64,
+    "bpa_diluido_ajustado_eur": 5.29,
+    "acciones_diluidas_medias_mm": 231.8,
+    "acciones_en_circulacion_31dic2025_mm": 226.2,
+    "flujo_de_caja_operativo_ifrs": 1668,
+    "capex_neto": 303,
+    "capex_pct_ingresos": 5.0,
+    "amortizaciones_depreciaciones_e_impairments_totales": 477,
+    "amortizacion_intangibles_adquiridos": 157,
+    "depreciacion_fisica_mas_software_interno_mas_rou": 320,
+    "pago_principal_arrendamientos": 58,
+    "interes_arrendamientos": 7,
+    "pagos_por_acciones_sbc": 26,
+    "impuestos_pagados": 358,
+    "intereses_netos_pagados_excl_arrendamientos": 72,
+    "movimiento_capital_circulante": 104,
+    "flujo_de_caja_libre_ajustado_empresa": 1348,
+    "ratio_de_conversion_de_caja_pct": 103,
+    "ebitda_ajustado": 2007,
+    "deuda_neta_31dic2025": 4024,
+    "deuda_neta_ebitda": 2.0,
+    "nopat_ajustado": 1289,
+    "capital_invertido_medio": 7183,
+    "roic_pct": 18.0,
+    "tipo_impositivo_benchmark_pct": 23.6,
+    "costes_financieros_netos_ajustados": 86,
+    "gasto_en_desarrollo_de_producto_pct_ingresos": 11,
+    "gasto_en_adquisiciones_neto_de_caja": 896,
+    "gasto_en_adquisiciones_2024": 342,
+    "recompras_de_acciones": 1100,
+    "recompras_detalle": "8,6 m acciones a precio medio 128,45 EUR",
+    "dividendos_pagados": 563,
+    "patrimonio_neto_contable": 798,
+    "fondo_de_comercio": 4787,
+    "ingresos_diferidos_corrientes": 1911
+  },
+
+  "datos_ejercicio_en_curso_2026": {
+    "fuente": "Wolters Kluwer First-Quarter 2026 Trading Update, 6-may-2026. Los resultados del 1S 2026 se publican el 5-AGO-2026, DESPUES de la fecha de corte del 27-jul-2026. No existen cifras absolutas de ingresos ni de FCF para 2026; el trading update solo da tasas de crecimiento.",
+    "etiqueta_global": "INFERENCIA. Base construida sobre tasas del 1T + guia de la empresa. Este es el hueco mas grande del expediente.",
+    "1t2026_organico_pct": 5,
+    "1t2026_cc_pct": 4,
+    "1t2026_reportado_pct": -3,
+    "1t2026_recurrentes_pct_del_total": 85,
+    "1t2026_organico_recurrentes_pct": 7,
+    "1t2026_organico_no_recurrentes_pct": -5,
+    "1t2026_cloud_pct_del_total": 23,
+    "1t2026_organico_cloud_pct": 14,
+    "1t2026_beneficio_operativo_ajustado_cc_pct": 11,
+    "1t2026_fcf_ajustado_cc_pct": 15,
+    "1t2026_advertencia_empresa": "'Favorable timing of working capital movements expected to reverse in coming quarters' - el +15% de FCF del 1T no es sostenible.",
+    "deuda_neta_31mar2026": 3788,
+    "deuda_neta_ebitda_31mar2026": 1.9,
+    "acciones_en_circulacion_31mar2026_mm": 224.5,
+    "guia_2026": {
+      "margen_operativo_ajustado_pct": "aproximadamente 28,0% (a EUR/USD 1,175)",
+      "fcf_ajustado_eur_mm": "1.300-1.350 (en moneda constante a EUR/USD 1,13)",
+      "roic_pct": "18-19%",
+      "bpa_diluido_ajustado": "crecimiento de un digito alto en moneda constante",
+      "capex_pct_ingresos": "5,0%-6,0%",
+      "ratio_conversion_caja_pct": "95%-100%",
+      "costes_financieros_netos_ajustados_eur_mm": "aproximadamente 110",
+      "tipo_impositivo_benchmark_pct": "23,5%-24,5%",
+      "gasto_desarrollo_producto_pct_ingresos": "12%-13% (SUBE desde 11% en 2025)",
+      "recompras_eur_mm": 500
+    },
+    "anualizacion_propia": {
+      "ingresos_2026e_eur_mm": 6100,
+      "razonamiento_ingresos": "6.125 M en 2025; +5-6% organico, arrastre de -1,5% por la venta de FRR, y un viento de cara cambiario que en el 1T fue -7% (EUR/USD medio 1,17 en 1T26 vs 1,05 en 1T25) pero que se suaviza en el 2S porque los comparables del 2S25 ya son de dolar debil. Resultado neto: ingresos reportados aproximadamente planos.",
+      "fcf_ajustado_2026e_reportado_eur_mm": 1310,
+      "razonamiento_fcf": "Guia de 1.300-1.350 en moneda constante a EUR/USD 1,13. Con EUR/USD real ~1,14-1,17 el reportado cae ~1,5-2%. Punto medio reportado ~1.310.",
+      "capex_2026e_eur_mm": 335,
+      "razonamiento_capex": "5,5% de 6.100 M (punto medio de la guia 5,0-6,0%). SUBE respecto a 303 M en 2025 - la propia empresa lo cita como causa de la caida de la conversion de caja al 95-100%.",
+      "depreciacion_mantenimiento_2026e_eur_mm": 270,
+      "sbc_2026e_eur_mm": 28
+    }
+  },
+
+  "owner_earnings": {
+    "metodo": "Dos versiones obligatorias x dos bases obligatorias. Punto de partida: caja generada por la operacion ajustada de partidas no recurrentes y despues del pago del principal de arrendamientos (que es gasto real), ANTES de capex.",
+    "caja_operativa_antes_de_capex_auditado_eur_mm": 1651,
+    "derivacion_caja_operativa": "FCF ajustado publicado 1.348 + capex neto 303 = 1.651 M EUR. Equivale a: flujo de caja operativo IFRS 1.668 - principal de arrendamientos 58 + costes de adquisicion pagados 25 + gastos de desinversion pagados 10 + dividendos recibidos 1 + impuesto sobre activos vendidos 5 = 1.651. Reconciliacion literal de la pagina 23 del Full-Year Report 2025.",
+
+    "capex_de_mantenimiento": {
+      "valor_eur_mm": 260,
+      "metodo": "Aproximado por la depreciacion, EXCLUYENDO la depreciacion de activos por derecho de uso (ROU) para no duplicar: el pago del principal de los arrendamientos (58 M) ya esta restado arriba.",
+      "derivacion": "La empresa declara 320 M EUR de 'depreciation of physical assets, amortization and impairment of internally developed software, and depreciation of right-of-use assets'. La depreciacion de ROU no se desglosa; se estima en ~60 M por congruencia con el pago de principal de arrendamientos (58 M) y con el saldo de activos ROU (196 M). 320 - 60 = 260.",
+      "etiqueta": "INFERENCIA. HUECO: la empresa no desglosa la depreciacion de ROU.",
+      "observacion_clave": "Capex total 303 vs mantenimiento estimado 260: el exceso discrecional es solo 43 M EUR, un 0,7% de ventas. Esto CONFIRMA la especie ULTRA-C del mecanismo congelado: WKL no es una reinvertidora en activos fijos. Su reinversion de verdad esta EXPENSADA en la cuenta de resultados (desarrollo de producto: 11% de ventas en 2025, 12-13% guiado para 2026) y por tanto ya esta descontada de estos owner earnings."
+    },
+
+    "auditado_2025": {
+      "a_solo_capex_mantenimiento": {
+        "eur_mm": 1365,
+        "usd_mm": 1555,
+        "derivacion": "1.651 - 260 (capex mantenimiento) - 26 (SBC, tratada como coste real de caja) = 1.365 M EUR"
+      },
+      "b_todo_el_capex_fcf_puro": {
+        "eur_mm": 1322,
+        "usd_mm": 1506,
+        "derivacion": "1.651 - 303 (capex total) - 26 (SBC) = 1.322 M EUR. Equivale al FCF ajustado publicado (1.348) menos SBC."
+      },
+      "por_accion_eur": {
+        "a": 6.12,
+        "b": 5.93
+      }
+    },
+
+    "en_curso_2026e": {
+      "a_solo_capex_mantenimiento": {
+        "eur_mm": 1347,
+        "usd_mm": 1534,
+        "derivacion": "(1.310 FCF ajustado 2026e + 335 capex) - 270 (mantenimiento) - 28 (SBC) = 1.347 M EUR"
+      },
+      "b_todo_el_capex_fcf_puro": {
+        "eur_mm": 1282,
+        "usd_mm": 1460,
+        "derivacion": "1.310 - 28 = 1.282 M EUR"
+      }
+    },
+
+    "distancia_entre_bases": {
+      "version_a_pct": -1.3,
+      "version_b_pct": -3.0,
+      "lectura": "En EUROS REPORTADOS los owner earnings del ejercicio en curso caen ligeramente frente al auditado. En MONEDA CONSTANTE suben un digito alto (el 1T dio +11% de beneficio operativo ajustado cc y la guia mantiene BPA ajustado de digito alto cc). La distancia NO es deterioro operativo: son tres cosas distintas superpuestas. (1) Divisa: el dolar paso de 1,05 (1T25) a ~1,17 (1T26) y mas del 60% del negocio esta en Norteamerica - esto se lleva casi todo el hueco. (2) Normalizacion de circulante: la conversion de caja baja de 103% a 95-100% guiado; los 104 M de entrada de circulante de 2025 no se repiten. (3) Escalon de inversion: capex sube de 5,0% a 5,0-6,0% de ventas y el desarrollo de producto sube de 11% a 12-13% de ventas para acelerar la IA - la empresa esta pagando en efectivo hoy por defender el foso. El punto del ciclo que describe esto es: motor operativo intacto, caja reportada aplanada por divisa y por una decision deliberada de gastar mas. Es exactamente lo contrario de una empresa que aplana la caja porque se le acaba la demanda.",
+      "peligro": "Ese mismo escalon de inversion es tambien la lectura bajista: si hay que subir el desarrollo de producto del 11% al 13% de ventas para SOSTENER un 5-6% organico, el coste de mantener el foso acaba de subir un 20% y el ROIIC ex-margen de 8,6% empeorara antes que mejorar."
+    }
+  },
+
+  "dcf_inverso": {
+    "motor": "Que crecimiento a 10 anios, con terminal del 3%, justifica exactamente el precio de hoy al WACC calculado. Se descuentan owner earnings version (a) sobre EV.",
+    "wacc_usado_pct": 6.4,
+    "terminal_pct": 3.0,
+    "horizonte_anios": 10,
+    "ev_eur_mm": 18802,
+
+    "base_auditada": {
+      "owner_earnings_eur_mm": 1365,
+      "ev_sobre_oe": 13.77,
+      "g_implicita_pct": -6.3,
+      "lectura": "El mercado, al precio de 67,36 EUR, esta pagando 13,8x owner earnings por un negocio cuyo valor sin crecimiento (perpetuidad al 3%) seria 30,3x a este WACC. Traducido: el precio de hoy solo se justifica si los owner earnings de Wolters Kluwer CAEN un 6,3% anual durante diez anios seguidos - hasta quedarse en el 52% de los de hoy - y solo entonces se estabilizan al 3%."
+    },
+    "base_en_curso": {
+      "owner_earnings_eur_mm": 1347,
+      "ev_sobre_oe": 13.96,
+      "g_implicita_pct": -6.2
+    },
+
+    "sensibilidad_al_wacc": {
+      "wacc_6_4_pct": -6.3,
+      "wacc_7_3_pct": -3.8,
+      "wacc_8_0_pct": -2.1,
+      "lectura": "Incluso empujando el WACC al 8% - por encima de todo lo que las primas de Damodaran y el coste real de la deuda del filing justifican - el precio sigue exigiendo un DECRECIMIENTO del 2,1% anual durante una decada. No existe ningun WACC razonable con el que el precio de hoy implique crecimiento positivo. Esa es la afirmacion central del expediente."
+    },
+
+    "contraste_con_la_tasa_base_del_negocio": {
+      "crecimiento_organico_2024_pct": 6,
+      "crecimiento_organico_2025_pct": 6,
+      "crecimiento_organico_1t2026_pct": 5,
+      "crecimiento_organico_recurrentes_1t2026_pct": 7,
+      "renovacion_declarada": ">90%",
+      "veredicto": "La tasa base observada es +5-7% organico sostenido, con la parte recurrente (85% del total) creciendo al 7%. El precio exige -6,3%. La brecha entre lo observado y lo descontado es de unos 11-12 puntos porcentuales anuales. Esa brecha es la tesis entera, y tambien es el riesgo entero: si el mercado tiene razon sobre la IA, la tasa base historica no vale de nada porque describe un regimen que ya termino."
+    }
+  },
+
+  "g_defendible": {
+    "formula": "tasa de reinversion (sobre NOPAT) x ROIIC EX-MARGEN. Se usa el ex-margen, no el bruto, porque el bruto (21,8%) asume que la expansion de margen se repite - y el mecanismo congelado ya dice que el 61% de la mejora 2020-2025 vino precisamente de ahi.",
+    "reinversion_pct_ventas": 13.4,
+    "reinversion_eur_mm": 821,
+    "nopat_ajustado_eur_mm": 1289,
+    "tasa_de_reinversion_sobre_nopat_pct": 63.7,
+    "composicion_de_la_reinversion": "821 M EUR = aproximadamente capex neto (303 M, 5,0% de ventas) + gasto normalizado en adquisiciones (~450-500 M, 7,3-8,2% de ventas; 896 M en 2025, 342 M en 2024). Como la reinversion INCLUYE adquisiciones, el ROIIC congruente es el que CARGA adquisiciones: 6,8%, no el 8,6%.",
+    "calculos": {
+      "con_roiic_ex_margen_sin_adquisiciones_8_6": 5.5,
+      "con_roiic_ex_margen_cargando_adquisiciones_6_8": 4.3
+    },
+    "g_defendible_pct": 4.5,
+    "justificacion": "Adopto 4,5%, algo por debajo del punto medio y mas cerca del calculo cargando adquisiciones, porque la base de reinversion (13,4% de ventas) contiene M&A. Nota critica: 4,5% esta POR DEBAJO del 6% organico historico. No es un error de mi parte ni pesimismo: es lo que dice el eslabon debil congelado. Si el capital incremental solo rinde 6,8-8,6% - apenas por encima de un WACC de 6,4% - entonces el crecimiento futuro creado por reinversion vale mucho menos que el crecimiento pasado, que fue en su mayoria margen y no volumen. Un ROIIC de 6,8% frente a un WACC de 6,4% significa que las adquisiciones de Wolters Kluwer son practicamente NEUTRAS en valor: crecen el beneficio sin crear valor. Ese es el hallazgo del valorador.",
+    "inconsistencia_declarada": "Los owner earnings (a) y (b) descuentan capex pero NO descuentan las adquisiciones. Aplicar g=4,5% - que se compra en parte con M&A - a una base que no ha pagado el M&A es contar dos veces. Por eso el valor por accion se calcula por DOS caminos congruentes y se toma el punto medio (ver abajo)."
+    },
+
+  "valoracion": {
+    "metodo": "Dos caminos internamente congruentes, para no contar dos veces el crecimiento comprado con adquisiciones. Se toma el punto medio.",
+    "camino_1_congruente_con_M_and_A": {
+      "descripcion": "Se resta de los owner earnings el gasto normalizado en adquisiciones (450 M EUR/ano) y se aplica g = 4,5%, que es el crecimiento que ese gasto compra.",
+      "oe_ajustado_auditado_eur_mm": 915,
+      "oe_ajustado_en_curso_eur_mm": 897,
+      "multiplo_dcf_a_wacc_6_4_y_g_4_5": 34.37,
+      "valor_por_accion_auditado_eur": 124.1,
+      "valor_por_accion_en_curso_eur": 121.3
+    },
+    "camino_2_solo_organico": {
+      "descripcion": "No se resta M&A y se usa solo el crecimiento que compra el capex organico: tasa de reinversion organica = capex 303 / NOPAT 1.289 = 23,5%; x ROIIC ex-margen 8,6% = 2,0%.",
+      "g_organica_pct": 2.0,
+      "multiplo_dcf_a_wacc_6_4_y_g_2_0": 27.84,
+      "valor_por_accion_auditado_eur": 153.6,
+      "valor_por_accion_en_curso_eur": 151.3
+    },
+    "convergencia": "Los dos caminos dan 124 y 154 EUR. Que converjan tanto no es casualidad: confirma que las adquisiciones de WKL, a un ROIIC de 6,8% contra un WACC de 6,4%, son casi exactamente neutras en valor. Se compra crecimiento a precio de coste.",
+
+    "valor_central_auditado_eur": 139,
+    "valor_central_en_curso_eur": 136,
+    "valor_por_accion_auditado_usd": 158,
+    "valor_por_accion_en_curso_usd": 155,
+
+    "piso_de_resolucion": {
+      "regla": "Sin medicion propia del ruido, banda de mas/menos 25%. Nada de decimales falsos.",
+      "banda_auditado_usd": "119 - 198",
+      "banda_en_curso_usd": "116 - 194",
+      "consecuencia_dura": "En el EXTREMO PESIMISTA de la banda (valor 119 USD) el MoS cae al 36% - por DEBAJO del 40% exigido por la banda MUY_BUENA para abrir. Es decir: el margen de seguridad solo aguanta si el valor central no esta en el cuartil bajo de mi propia incertidumbre. Esto hay que decirlo, no esconderlo detras del 52%."
+    },
+
+    "por_que_no_uso_el_valor_bruto_del_dcf": "Aplicar g=4,5% a los owner earnings sin restar M&A daria 193 EUR/accion (220 USD) y un MoS del 65%. Ese numero es el que la contradiccion madre quiere que publique. No lo publico como central porque cuenta dos veces el crecimiento. Queda declarado como el extremo optimista."
+  },
+
+  "margen_de_seguridad": {
+    "precio_usd": 76.72,
+    "mos_exigido_pct": 40,
+    "mos_auditado_pct": 52,
+    "mos_en_curso_pct": 51,
+    "veredicto_mos": "PASA el umbral del 40% en el escenario central, con unos 11-12 puntos de holgura. NO pasa en el extremo pesimista de la banda de resolucion (36%).",
+    "m_estrella": {
+      "valor": 16.0,
+      "definicion": "Multiplo de owner earnings (EV / owner earnings version a) que me comprometo a pagar. Decidido en frio, sin barra de error, ANTES de mirar si el precio lo cumple.",
+      "razonamiento": "Un negocio con 83-85% de ingresos recurrentes, renovacion >90%, capital tangible negativo y conversion de caja del 103% merece un multiplo muy por encima del mercado. Pero: (1) el ROIIC ex-margen es de 8,6% (6,8% con adquisiciones), apenas por encima del WACC - el capital nuevo casi no crea valor; (2) G3 es NO MEDIBLE, no puedo separar precio de volumen, que es exactamente donde atacaria la IA; (3) el ingreso no recurrente ya cae al 5% organico y el print resta 130 pb. Un compounder con ROIIC del 20%+ y volumen verificable justificaria 22-25x. Este justifica 16x. La rebaja es el precio del eslabon debil congelado.",
+      "precio_implicado_por_m_estrella_usd": 92
+    },
+    "p_estrella_usd": 95,
+    "p_estrella_derivacion": "Valor central auditado 158 USD x (1 - 0,40 de MoS exigido) = 95 USD. El anclaje alternativo por m* (16x x 1.365 M EUR de OE = 21.840 M EUR de EV, menos 3.788 de deuda neta, entre 222,9 m de acciones = 80,9 EUR = 92 USD) da un numero muy parecido. Los dos caminos coinciden en la banda 92-95 USD.",
+    "precio_actual_vs_p_estrella": "El precio de hoy (76,72 USD / 67,36 EUR) esta un 19-20% POR DEBAJO de P*. Cotiza a 13,8x owner earnings frente a un m* comprometido de 16x."
+  },
+
+  "tir_esperada": {
+    "rango": "-4% a +16% anual a 10 anios; central en torno a +11%",
+    "descomposicion_central": {
+      "rendimiento_de_caja_libre_al_accionista_despues_de_M_and_A_pct": 5.8,
+      "derivacion_rendimiento": "(FCF puro 1.322 - M&A normalizado 450) / capitalizacion 15.014 = 5,8%",
+      "crecimiento_de_ese_flujo_pct": 4.5,
+      "cambio_de_multiplo_pct": 0.0,
+      "total_pct": 10.3
+    },
+    "escenario_alto": "+16%: el multiplo revierte de 13,8x a ~20x owner earnings en diez anios (+3,8 pp anuales) sobre el 10,3% base. Requiere que el mercado acepte que la IA no rompio el foso.",
+    "escenario_bajo": "-4%: la disrupcion se materializa, los owner earnings caen ~3% anual y el multiplo se comprime mas. El 5,8% de rendimiento de caja se lo come el decrecimiento y la compresion.",
+    "nota": "Un MoS del 52% no es informacion util por si solo. La informacion es esta: si el mecanismo aguanta, se gana ~11% anual durante una decada sin necesidad de que el mercado cambie de opinion; si se rompe, se pierde dinero despacio, no rapido, porque el negocio genera 5,8% de caja libre al accionista incluso pagando las adquisiciones."
+  },
+
+  "detector_de_trampa_de_valor": {
+    "veredicto": "SOSPECHA",
+    "a_favor_de_NO_es_trampa": [
+      "HECHO: el crecimiento organico no se ha deteriorado. 6% en 2024, 6% en 2025, 5% en el 1T 2026, y los recurrentes (85% del total) crecen al 7% organico de forma sostenida.",
+      "HECHO: el margen operativo ajustado SUBE (27,1% -> 27,5% en 2025, guia de ~28,0% para 2026) mientras el precio cae un 50%.",
+      "HECHO: el software cloud, el segmento mas expuesto a la competencia tecnologica, es el que MAS crece: +15% organico en 2025, +14% en el 1T 2026, y ya es el 23% de los ingresos.",
+      "HECHO: adopcion real de producto de IA, no promesa. Mas de la mitad de los clientes UpToDate Enterprise de EEUU (~2.000 hospitales) han firmado para adoptar UpToDate Expert AI a 30-abr-2026, con objetivo del 70% a mitad de ano. Integracion activada con el escriba de IA Abridge y en curso con Microsoft Dragon Copilot.",
+      "HECHO: capital tangible negativo y cobro por adelantado (1.911 M EUR de ingresos diferidos corrientes). El cliente financia el negocio. Ese rasgo no sobrevive a una perdida de poder de fijacion de precios: si el foso se estuviera rompiendo, el circulante seria lo primero en girar - y en 2025 aporto +104 M EUR.",
+      "HECHO: la empresa recompro 1.100 M EUR de acciones en 2025 a un precio medio de 128,45 EUR y sigue recomprando a ~71 EUR en 2026. Cae la accion, no la caja."
+    ],
+    "a_favor_de_SI_es_trampa": [
+      "El eslabon debil congelado: ROIIC ex-margen de 8,6% (6,8% cargando adquisiciones) contra un WACC de 6,4-7,3%. El capital nuevo apenas cubre su coste. El motor de los ultimos cinco anios fue margen y mezcla (61% de la mejora del NOPAT), no volumen (39%).",
+      "G3 es NO MEDIBLE. La empresa no publica NINGUNA magnitud de volumen: ni usuarios, ni asientos, ni contratos, ni horas. Por tanto es literalmente imposible verificar si el 6% organico es precio o es volumen. Y el precio es exactamente la variable que un LLM ataca primero en investigacion legal y fiscal facturada por puesto.",
+      "El ingreso no recurrente YA cae: -1% organico en 2025, -5% organico en el 1T 2026, con debilidad citada en libros impresos, licencias on-premise y servicios de implantacion. Si la erosion empieza, empieza ahi - y ahi ya empezo.",
+      "El coste de defender el foso acaba de subir: el desarrollo de producto pasa del 11% al 12-13% de ventas y el capex del 5,0% al 5,0-6,0%. Sostener el mismo 5-6% organico cuesta ahora mas capital, lo que empujara el ROIIC ex-margen hacia abajo, no hacia arriba.",
+      "La deuda neta subio un 28% en 2025 (3.134 -> 4.024 M EUR) para financiar 896 M de adquisiciones y 1.100 M de recompras. Las adquisiciones se compran con deuda y rinden 6,8%.",
+      "El propio consenso es inestable: la accion sube un 7,85% en una sola sesion por una nota de un banco. Un precio que se mueve asi no esta anclado en nada; el mercado no sabe lo que vale esto, y yo tampoco puedo demostrarselo sin datos de volumen."
+    ],
+    "motivo_del_veredicto": "SOSPECHA y no NO, por una sola razon: no puedo falsar la tesis bajista con datos. Todo lo que puedo verificar (crecimiento organico, margen, conversion de caja, adopcion de producto) dice que el motor esta intacto HOY. Pero la pregunta que decide el caso - cuanto del 6% organico es subida de precio sobre una base de usuarios estancada - es exactamente la que la empresa no permite responder porque no publica volumen. Un MoS del 52% sobre un negocio cuyo motor NO PUEDO INSPECCIONAR no es lo mismo que un MoS del 52% sobre un motor verificado. No es SI porque no hay ni un solo dato de deterioro operativo. No es NO porque el instrumento que confirmaria que no lo hay no existe.",
+    "que_lo_convertiria_en_SI": [
+      "Que el crecimiento organico de los RECURRENTES baje de 7% a menos de 4% en dos trimestres consecutivos (es el nucleo del mecanismo, no la periferia).",
+      "Que la renovacion declarada caiga por debajo del 90%.",
+      "Que el margen operativo ajustado incumpla la guia del ~28,0% en 2026 pese al recorte de costes de reestructuracion (de 37 M a 10-20 M guiados).",
+      "Que el circulante gire: que los ingresos diferidos corrientes caigan en terminos de moneda constante. Seria la senal mas temprana de perdida de poder de fijacion de precios."
+    ],
+    "que_lo_convertiria_en_NO": [
+      "Que la empresa empiece a publicar cualquier magnitud de volumen (asientos, usuarios activos, contratos) que permita descomponer precio y volumen. Cerraria G3 y con ello el hueco central de este expediente.",
+      "Que el ROIIC ex-margen suba por encima del 12% en el ciclo 2026-2028, demostrando que el gasto extra en IA compra crecimiento y no solo defiende la posicion."
+    ]
+  },
+
+  "sintesis_del_valorador": {
+    "hallazgo_central": "Al precio de hoy el mercado exige que los owner earnings de Wolters Kluwer CAIGAN un 6,3% anual durante diez anios. No existe ningun WACC defendible que convierta ese precio en una expectativa de crecimiento positivo: incluso al 8% de WACC el precio sigue implicando -2,1% anual. Frente a eso, lo unico que puedo verificar de forma primaria - 6% organico en 2025, 5% en el 1T 2026, recurrentes al 7%, margen subiendo, conversion de caja al 103% - dice que el motor funciona.",
+    "el_pero": "El eslabon debil congelado no desaparece porque el precio sea bajo. Un ROIIC ex-margen de 8,6% contra un WACC de 6,4% significa que Wolters Kluwer compra crecimiento a precio de coste. Y G3 no medible significa que no puedo comprobar si el 6% organico es volumen o es precio - que es la unica pregunta que importa cuando la amenaza es que la IA desintermedia la investigacion facturada por puesto.",
+    "contradiccion_madre_vigilada": "El MoS del 52% NO reabre la etiqueta. La empresa sigue siendo MUY_BUENA, no ULTRA. De hecho el trabajo de precio REFUERZA la etiqueta a la baja: el ROIIC ex-margen que la degrado en G4 es el mismo numero que aqui obliga a usar g=4,5% en lugar del 6% historico y a recortar m* de 22-25x a 16x.",
+    "recuento": "Precio 76,72 USD. P* 95 USD. m* 16x frente a 13,8x pagados. MoS central 52% frente al 40% exigido. TIR central ~11%. Trampa de valor: SOSPECHA.",
+    "lo_que_no_puedo_afirmar": "No puedo afirmar que esto sea una oportunidad limpia. Puedo afirmar que el precio descuenta un colapso, que ningun dato publicado corrobora ese colapso, y que la razon por la que no puedo cerrar el caso es un agujero de informacion que la propia empresa mantiene abierto."
+  },
+
+  "huecos_declarados": [
+    "G3 NO MEDIBLE: Wolters Kluwer no publica ninguna magnitud de volumen (usuarios, asientos, contratos, hospitales bajo licencia salvo menciones cualitativas puntuales). Es imposible descomponer el 6% de crecimiento organico en precio vs volumen. Este es el hueco que impide cerrar el detector de trampa de valor en NO.",
+    "SIN RESULTADOS DEL 1S 2026: se publican el 5-ago-2026, nueve dias despues de la fecha de corte. Toda la base 'en curso' descansa sobre el trading update del 1T (que solo da tasas de crecimiento, ni una cifra absoluta de ingresos o de FCF) mas la guia de la empresa. Es la INFERENCIA mas fuerte del expediente.",
+    "BETA: las regresiones publicadas (0,16-0,17 en Yahoo/stockanalysis; 0,55 en CNBC) son inutilizables tras una caida idiosincratica del 50%. Uso beta bottom-up de Damodaran (fichero de 5-ene-2026) reapalancada: 0,95. Es INFERENCIA, no HECHO, y mueve el WACC entre 5,6% y 7,3%.",
+    "TASA LIBRE DE RIESGO: no consegui un cierre oficial de la curva soberana neerlandesa del 27-jul-2026. Uso 3,07% (lectura de junio 2026 de la serie OCDE via agregador) con banda 3,00-3,15%. INFERENCIA.",
+    "DESGLOSE DEL CAPEX DE MANTENIMIENTO: la empresa agrega en una sola cifra (320 M EUR) la depreciacion de activos fisicos, la amortizacion de software desarrollado internamente y la depreciacion de activos por derecho de uso. Estimo la parte ROU en ~60 M por congruencia con el pago de principal de arrendamientos. INFERENCIA.",
+    "GASTO NORMALIZADO EN ADQUISICIONES: uso 450 M EUR/ano a partir de solo dos observaciones (896 M en 2025, 342 M en 2024). Base muestral pobre; el valor por accion del camino 1 es sensible a este numero.",
+    "DEUDA NETA A FECHA DE CORTE: la ultima publicada es la del 31-mar-2026 (3.788 M EUR). Entre medias se pagaron ~356 M de dividendo final (17-jun-2026) y ~140 M de recompras, compensados por el FCF del 2T. La deuda neta real a 27-jul-2026 podria estar entre 3.700 y 4.000 M EUR.",
+    "VALOR DE MERCADO DE LA DEUDA: uso valor contable. Con bonos de cupon 0,75-3,375% y tipos euro al ~3%, el valor de mercado esta por debajo de par. El sesgo va en contra de la empresa (EV mas alto, valoracion mas conservadora).",
+    "PRECIO: cierre de 67,36 EUR verificado en dos agregadores concordantes (stockanalysis y Google Finance), no en una fuente de mercado primaria. Ademas es un cierre con +7,85% en la sesion por una nota de JPMorgan; el precio 'normal' de la semana estaba en 62-65 EUR, lo que haria el MoS ~2 puntos mayor.",
+    "PRIMA DE RIESGO: Damodaran actualizado a 1-ene-2026 (ratings a 16-feb-2026). Han pasado seis meses. Su ERP implicita de 4,23% para mercado maduro es de las mas bajas del rango historico y produce un WACC generoso; por eso el rango alto usa 5,0%."
+  ],
+
+  "fuentes": [
+    {
+      "etiqueta": "HECHO - filing primario",
+      "documento": "Wolters Kluwer 2025 Full-Year Report (25-feb-2026, 34 paginas)",
+      "url": "https://assets.contenthub.wolterskluwer.com/api/public/content/3118646-2026-02-25-wolters-kluwer-2025-full-year-results-7391945524?v=2c966da9",
+      "usado_para": "Todos los estados financieros 2025: cuenta de resultados, flujo de caja, balance, Nota 3 (conciliacion IFRS-benchmark), Nota 7 (deuda neta), Nota 8 (recompras), conciliacion FCF ajustado, calculo de ROIC, informacion por accion, tipo impositivo benchmark, ratio de conversion de caja, guia 2026."
+    },
+    {
+      "etiqueta": "HECHO - filing primario",
+      "documento": "Wolters Kluwer First-Quarter 2026 Trading Update (6-may-2026, 5 paginas)",
+      "url": "https://assets.contenthub.wolterskluwer.com/api/public/content/3316098-2026-05-06-wolters-kluwer-first-quarter-2026-trading-update-a6a04158be?v=9092ad42",
+      "usado_para": "Crecimiento 1T 2026 por division, deuda neta a 31-mar-2026 (3.788 M), acciones en circulacion (224,5 m), recompras 2026 hasta 4-may, reiteracion de guia 2026, adopcion de UpToDate Expert AI."
+    },
+    {
+      "etiqueta": "HECHO - filing primario (descargado, no citado en detalle)",
+      "documento": "Wolters Kluwer 2025 Annual Report (11-mar-2026)",
+      "url": "https://assets.contenthub.wolterskluwer.com/api/public/content/3210406-wolters-kluwer-2025-annual-report-pdf-8bb01b4e47?v=ddef685b",
+      "usado_para": "Verificacion cruzada de que las cifras del Full-Year Report son las auditadas."
+    },
+    {
+      "etiqueta": "HECHO - dato oficial",
+      "documento": "Banco Central Europeo, tipos de referencia diarios (eurofxref-daily.xml)",
+      "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+      "valor": "EUR/USD 1,1389 el 27-jul-2026",
+      "usado_para": "Toda la conversion a USD."
+    },
+    {
+      "etiqueta": "HECHO - fichero descargado",
+      "documento": "Aswath Damodaran, ctryprem.xlsx (actualizacion 1-ene-2026; ratings 16-feb-2026)",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/ctryprem.xlsx",
+      "valor": "Netherlands: Total ERP 4,23%, CRP 0,00%, Moody's Aaa. United States: Total ERP 4,46%, CRP 0,233%, Moody's Aa1.",
+      "usado_para": "Prima de riesgo de mercado y prima pais (CANDADO B)."
+    },
+    {
+      "etiqueta": "HECHO - fichero descargado",
+      "documento": "Aswath Damodaran, betas.xls y betaEurope.xls (actualizacion 5-ene-2026)",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/betas.xls",
+      "valor": "Unlevered beta corregida por caja: Information Services (EEUU) 0,756; Publishing & Newspapers (EEUU) 0,512; Software (System & Application) (EEUU) 1,248; Information Services (Europa) 0,444.",
+      "usado_para": "Beta bottom-up (CANDADO B)."
+    },
+    {
+      "etiqueta": "INFERENCIA - agregador",
+      "documento": "stockanalysis.com, cotizacion y estadisticas de AMS:WKL",
+      "url": "https://stockanalysis.com/quote/ams/WKL/",
+      "valor": "Cierre 67,36 EUR (+7,85%) el 27-jul-2026 17:39 CET; 222,90 m acciones; beta 5A 0,17; proxima publicacion 5-ago-2026.",
+      "usado_para": "Precio y numero de acciones (contrastados)."
+    },
+    {
+      "etiqueta": "INFERENCIA - agregador (contraste)",
+      "documento": "Google Finance, WKL:AMS",
+      "url": "https://www.google.com/finance/beta/quote/WKL:AMS",
+      "valor": "67,36 EUR el 27-jul-2026 18:00 GMT+2; cierre anterior 62,46 EUR.",
+      "usado_para": "Segunda fuente concordante del precio."
+    },
+    {
+      "etiqueta": "INFERENCIA - agregador de serie oficial",
+      "documento": "GuruFocus / OCDE Main Economic Indicators, rendimiento del bono a 10 anios de Paises Bajos",
+      "url": "https://www.gurufocus.com/economic_indicators/130/longterm-government-bond-yields-10year-main-including-benchmark-for-netherlands",
+      "valor": "3,077% (jun-2026)",
+      "usado_para": "Tasa libre de riesgo."
+    },
+    {
+      "etiqueta": "PRENSA - contexto, no soporta ninguna cifra",
+      "documento": "Investing.com: JPMorgan sube Wolters Kluwer a Overweight, objetivo 73 -> 87 EUR (27-jul-2026)",
+      "usado_para": "Explicar el salto del 7,85% de la sesion. No sostiene ningun numero del expediente."
+    }
+  ]
+}

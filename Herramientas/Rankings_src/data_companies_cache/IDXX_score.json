@@ -1,0 +1,59 @@
+{
+ "ticker": "IDXX",
+ "name": "IDEXX Laboratories, Inc.",
+ "rules": {
+  "R1": {
+   "score": 1.5,
+   "just": "Razor-and-blade modelo de plataforma (analizadores instalados + consumibles/diagnosticos recurrentes) con ~31.8% op margin expandiendo +100bps; escala alta pero no es software puro/red, por eso 1.5 y no 2.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Diagnostico veterinario en crecimiento secular estructural (humanizacion de mascotas, penetracion de testing, gasto mascota anticiclico) con organico +11-12% en Q1 2026."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Lider #1 global indiscutible en diagnostico veterinario point-of-care/referencia, dejando a competidores (Zoetis, Heska/Mars) a anios-luz por base instalada y catalogo, dominancia monstruosa."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat irreplicable: base instalada de analizadores propietarios con consumibles cautivos (altisimos costes de cambio), red de laboratorios de referencia y software de practica veterinaria integrado, foso de decadas."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento esencialmente organico (+10% organico FY2025, +11.2% organico Q1 2026), minima dependencia de M&A, lo que valida durabilidad del motor."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Diversificacion buena por miles de clientes veterinarios sin concentracion >10-15%, pero exposicion concentrada a un solo vertical (salud animal) y peso EEUU limita a base."
+  },
+  "R7": {
+   "score": 2,
+   "just": "ROIC ~44% muy por encima del WACC, FCF/NI ~100% conversion, FCF margin ~25.6%, capex bajo: economia de capital sobresaliente."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Balance solido: net debt ~$0.55B, ND/EBITDA ~0.5x (muy por debajo de 2x), aunque no es caja neta por lo que no llega a 2.0."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "Contabilidad limpia: SBC verificada solo ~5.7% del FCF (muy por debajo del umbral duro de 15%), EPS GAAP=adj sin ajustes infladores, calidad de earnings superior."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Gestion ejemplar en asignacion de capital: prioriza reinversion organica de alto ROIC y buybacks consistentes sobre M&A destructora, guidance RAISED en Q1 2026."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1+R3+R4 se refuerzan de forma monstruosa: el modelo de plataforma escalable (R1) crea y profundiza la base instalada cautiva que sostiene el liderazgo #1 indiscutible (R3), y esa misma base instalada con consumibles propietarios + red de labs + software integrado es precisamente el moat de costes de cambio irreplicable en decadas (R4). El flywheel es auto-reforzante: mas analizadores instalados -> mas consumibles recurrentes -> mayor escala/margenes -> mas I+D para ampliar catalogo -> mayor lock-in. Por eso R3 y R4 alcanzan 2.0.",
+ "moat_type": "switching_costs",
+ "moat_one_line": "Base instalada de analizadores propietarios con consumibles cautivos, red de laboratorios de referencia y software de gestion veterinaria integrado generan costes de cambio altisimos y un foso irreplicable en decadas.",
+ "thesis_3lines": [
+  "Calidad excepcional: ROIC ~44%, FCF/NI ~100%, SBC minima (~5.7% FCF) y moat de costes de cambio irreplicable como lider #1 global en diagnostico veterinario.",
+  "Motor de crecimiento secular organico (+11% organico, margenes expandiendo, guidance RAISED) impulsado por humanizacion de mascotas y mayor penetracion de testing.",
+  "Valoracion: la caida -29% desde ATH es compresion de multiplo / rotacion (fear_rotation) con fundamentales MEJORANDO; fwd P/E ~37x vs media 5a ~42x ofrece punto de entrada a un compounder de calidad."
+ ],
+ "bear_case_strongest": "Aun tras caer -29%, IDXX cotiza a ~37x fwd P/E y PEG ~3.0 para un crecimiento de EPS de ~11-14%, dejando margen casi nulo de seguridad ante cualquier desaceleracion de visitas veterinarias, presion macro sobre gasto discrecional en mascotas o entrada disruptiva (Zoetis/Mars) que comprima precios de consumibles, lo que podria desencadenar una nueva des-rating desde un multiplo aun exigente.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Score total re-puntuado = 16.5 sobre techo nominal 13.5 (la suma supera el techo porque R1+R3+R4 activan amplificacion con 2.0). Si se aplica el techo duro de 13.5, IDXX queda saturado en el maximo. Empresa de calidad Seilern de primer nivel: lider monstruoso, moat irreplicable, ROIC ~44%, FCF conversion ~100%, SBC minima, balance solido. Unico punto debil relativo: R6 (concentracion en un solo vertical/geografia) y valoracion exigente (R-valoracion fuera del marco de calidad). Drop clasificado fear_rotation: fundamentales mejoran mientras el multiplo se comprime de ~50-55x trailing hacia ~37x fwd. LIMITACION DE DATOS: fwd_pe_5y_avg, PEG, ROIC y ND/EBITDA son estimados de agregador con divergencia entre fuentes; 10-Q obtenido via snippet indexado, no extraccion directa. SBC verificada via 10-Q (~$16.34M Q1 sobre revenue $1,140.8M = 1.4% ingresos / ~5.7% FCF anualizado) -> regla dura NO se activa, R9 alto."
+}

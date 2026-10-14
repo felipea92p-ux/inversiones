@@ -1,0 +1,290 @@
+ticker,nombre,apariciones
+DE,DEERE & CO,3
+EL.PA,EssilorLuxottica,3
+EOG,EOG RESOURCES INC,3
+HD,"HOME DEPOT, INC.",3
+HERMES,Hermès International,3
+HSY,HERSHEY CO,3
+III.L,3i Group plc,3
+LULU,lululemon athletica inc.,3
+MLM,MARTIN MARIETTA MATERIALS INC,3
+MRK,"Merck & Co., Inc.",3
+MSI,"Motorola Solutions, Inc.",3
+NDSN,NORDSON CORP,3
+NEM,NEWMONT Corp /DE/,3
+NESN.SW,"Nestlé S.A. (inferido por ticker -- sin sec_title/CIK en el CSV, no es filer SEC)",3
+NXPI,NXP Semiconductors N.V.,3
+ON,ON SEMICONDUCTOR CORP,3
+PG,PROCTER & GAMBLE Co,3
+PM,Philip Morris International Inc.,3
+RHHBY,,3
+STM.MI,,3
+TER,,3
+TRI,,3
+URI,,3
+7733.T,Olympus,2
+9983.T,Fast Retailing (Uniqlo),2
+ABT,Abbott Laboratories,2
+ADI,Analog Devices,2
+BSX,Boston Scientific,2
+CLX,,2
+CMG,Chipotle Mexican Grill,2
+DHR,Danaher,2
+DIM.PA,Sartorius Stedim Biotech,2
+GIVN.SW,Givaudan,2
+HKEX,,2
+ICLR,ICON plc,2
+ITX.MC,Industria de Diseno Textil (Inditex),2
+MCD,McDonald's,2
+MDT,,2
+OBIC,,2
+ROL,Rollins,2
+SAF.PA,Safran,2
+SAP.DE,SAP SE,2
+SIE.DE,Siemens AG,2
+SOON,Sonova Holding AG,2
+SU.PA,Schneider Electric,2
+TDG,TransDigm Group,2
+TJX,TJX Companies,2
+TOI,Topicus.com Inc.,2
+UMG.AS,Universal Music Group NV,2
+WAT,Waters,2
+WISE,Wise plc,2
+2914.T,Japan Tobacco Inc.,1
+4452.T,Kao Corporation,1
+4543.T,Terumo Corporation,1
+4568.T,,1
+4578.T,,1
+6098.T,,1
+6367.T,,1
+6645.T,,1
+6758.T,,1
+6762.T,,1
+6954.T,,1
+6981.T,,1
+8058.T,,1
+9433.T,,1
+ABBN.SW,,1
+ACGL,Arch Capital Group Ltd.,1
+AFL,Aflac Inc,1
+AI.PA,Air Liquide S.A.,1
+AIG,"American International Group, Inc.",1
+AJG,Arthur J. Gallagher & Co.,1
+ALC.SW,Alcon Inc.,1
+ALFA.ST,Alfa Laval AB,1
+ALL,Allstate Corp,1
+AMGN,Amgen Inc,1
+AMP,Ameriprise Financial Inc,1
+AMT,American Tower Corp /MA/,1
+AON,,1
+APD,,1
+APH,,1
+APO,,1
+ARES,,1
+ARGX.BR,,1
+ASML.AS,,1
+ATO,,1
+AVB,,1
+AVY,,1
+AZN,AstraZeneca,1
+AZN.L,,1
+AZO,,1
+BA.L,,1
+BC.MI,Brunello Cucinelli,1
+BESI.AS,BE Semiconductor Industries,1
+BKR,,1
+BLDR,,1
+BMY,,1
+BR,,1
+BRK,,1
+BRKB,Berkshire Hathaway Inc (Class B),1
+BTI.L,British American Tobacco p.l.c.,1
+CARR,Carrier Global Corp,1
+CASY,Casey's General Stores Inc,1
+CAT,Caterpillar Inc,1
+CB,Chubb Ltd,1
+CBRE,"CBRE Group, Inc.",1
+CDW,CDW Corp,1
+CEG,Constellation Energy Corp,1
+CHD,Church & Dwight Co Inc,1
+CHR.CO,"Chr. Hansen Holding A/S (fusionada en Novonesis A/S, ticker NSIS-B.CO, desde ene-2024)",1
+CHTR,"Charter Communications, Inc. /MO/",1
+CI,Cigna Group,1
+CIEN,CIENA CORP,1
+CINF,CINCINNATI FINANCIAL CORP,1
+CMCSA,COMCAST CORP,1
+CMI,CUMMINS INC,1
+COF,CAPITAL ONE FINANCIAL CORP,1
+COO,"COOPER COMPANIES, INC.",1
+COR,"Cencora, Inc.",1
+CPAY,"CORPAY, INC.",1
+CPG.L,,1
+CRH,CRH plc,1
+CRH.L,,1
+CSCO,"CISCO SYSTEMS, INC.",1
+CSGP,"COSTAR GROUP, INC.",1
+CSL.AX,CSL Limited,1
+CSX,CSX CORP,1
+CTSH,COGNIZANT TECHNOLOGY SOLUTIONS CORP,1
+CVX,CHEVRON CORP,1
+DEO.L,,1
+DG.PA,,1
+DGX,QUEST DIAGNOSTICS INC,1
+DHI,HORTON D R INC /DE/,1
+DHL.DE,Deutsche Post DHL Group,1
+DIS,Walt Disney Co,1
+DOV,Dover Corp,1
+DPLM.L,Diploma PLC,1
+DPZ,Domino's Pizza Inc,1
+DRI,Darden Restaurants Inc,1
+DSG,The Descartes Systems Group Inc,1
+DSV.CO,DSV A/S,1
+DSY.PA,Dassault Systemes,1
+DTE.DE,Deutsche Telekom AG,1
+DXCM,Dexcom Inc,1
+EBAY,eBay Inc,1
+ECL,ECOLAB INC. (sec_title; columna 'nombre' del CSV vacía),1
+EMR,EMERSON ELECTRIC CO,1
+ETN,Eaton Corp plc,1
+EXR,Extra Space Storage Inc.,1
+FAST,FASTENAL CO,1
+FER.MC,Ferrovial (sec_title y nombre vacíos en el CSV; razón social: Ferrovial SE),1
+FFIV,"F5, INC.",1
+FTV,Fortive Corp,1
+GALD.SW,Galderma (sec_title y nombre vacíos en el CSV; razón social: Galderma Group AG),1
+GAW.L,Games Workshop Group PLC,1
+GD,GENERAL DYNAMICS CORP,1
+GE,,1
+GEBN.SW,Geberit,1
+GEHC,,1
+GEN,,1
+GEV,,1
+GGG,Graco,1
+GILD,,1
+GL,,1
+GLW,,1
+GOOG,,1
+GS,,1
+GSK.L,,1
+GWW,"W.W. GRAINGER, INC.",1
+HCA,"HCA Healthcare, Inc.",1
+HDB,HDFC BANK LTD,1
+HEI,Heico Corporation,1
+HEIA.AS,HEIA.AS,1
+HLMA.L,Halma,1
+HLN.L,HLN.L,1
+HLT,Hilton Worldwide Holdings Inc.,1
+HO.PA,HO.PA,1
+HON,HONEYWELL INTERNATIONAL INC,1
+HWM,Howmet Aerospace Inc.,1
+IBM,INTERNATIONAL BUSINESS MACHINES CORP,1
+IEX,IDEX Corporation,1
+IFX.DE,Infineon Technologies AG,1
+IHG.L,InterContinental Hotels Group PLC,1
+IMB.L,Imperial Brands PLC,1
+IQV,IQVIA Holdings Inc.,1
+IR,Ingersoll Rand Inc.,1
+ITW,Illinois Tool Works Inc.,1
+JBHT,"J.B. Hunt Transport Services, Inc.",1
+JPM,JPMorgan Chase & Co.,1
+KEYS,"Keysight Technologies, Inc.",1
+KKR,KKR & Co. Inc.,1
+KMB,,1
+KNIN.SW,,1
+KO,,1
+KXS,,1
+LII,,1
+LISP.SW,,1
+LR.PA,,1
+LSEGL,,1
+MAR,,1
+MDLZ,"Mondelez International, Inc.",1
+MKC,"McCormick & Company, Incorporated",1
+MO,"Altria Group, Inc.",1
+MORN,"Morningstar, Inc.",1
+MRK.DE,Merck KGaA,1
+MS,Morgan Stanley,1
+NEE,NextEra Energy Inc,1
+NKE,"Nike, Inc.",1
+NOVN.SW,Novartis AG,1
+NSC,Norfolk Southern Corp,1
+NTRS,Northern Trust Corp,1
+NUE,NUCOR CORP,1
+NVR,NVR INC,1
+O,REALTY INCOME CORP,1
+ORLY,O REILLY AUTOMOTIVE INC,1
+OTIS,Otis Worldwide Corp,1
+P911.DE,Dr. Ing. h.c. F. Porsche AG,1
+PCAR,PACCAR INC,1
+PEP,PEPSICO INC,1
+PGR,PROGRESSIVE CORP/OH/,1
+PH,Parker-Hannifin Corp,1
+PKG,PACKAGING CORP OF AMERICA,1
+PODD,Insulet Corp,1
+PRX.AS,Prosus N.V.,1
+PRY.MI,Prysmian S.p.A.,1
+PSA,Public Storage,1
+PWR,"Quanta Services, Inc.",1
+PYPL,"PayPal Holdings, Inc.",1
+RACE.MI,Ferrari N.V.,1
+RCL,ROYAL CARIBBEAN CRUISES LTD,1
+REA.AX,REA Group,1
+RHM.DE,Rheinmetall AG,1
+RKT.L,Reckitt Benckiser Group plc,1
+RMV.L,Rightmove,1
+RO.SW,"Roche Holding AG (acciones nominativas/con voto) — CSV: nombre y sec_title vacíos, cik vacío; misma sociedad operativa que ROG.SW",1
+ROG.SW,Roche Holding,1
+ROK,"ROCKWELL AUTOMATION, INC",1
+ROST,"ROSS STORES, INC.",1
+RR.L,"Rolls-Royce Holdings plc — CSV: nombre y sec_title vacíos; cik vacío en el universo, pero existe CIK 0001649568 solo para programa de ADR",1
+RSG,"REPUBLIC SERVICES, INC.",1
+RTX,RTX Corp,1
+SAN.PA,"Sanofi — CSV: nombre y sec_title vacíos, cik vacío en el universo; CIK real en EDGAR verificado: 0001121404",1
+SAND.ST,"Sandvik AB — CSV: nombre y sec_title vacíos, cik vacío; CIK de programa ADR verificado: 0000809097 (sin filings sustantivos)",1
+SBAC,SBA COMMUNICATIONS CORP,1
+SBUX,STARBUCKS CORP,1
+SCHN.SW,"Schindler Holding AG — CSV: nombre y sec_title vacíos, cik vacío; CIK de programa ADR verificado: 0001655190 (sin filings sustantivos)",1
+SCHW,,1
+SCMN.SW,,1
+SHOP,,1
+SHW,,1
+SIKA.SW,,1
+SLB,,1
+SNA,,1
+SO,,1
+SPG,,1
+SPX.L,Spirax Group,1
+STE,,1
+STLD,STEEL DYNAMICS INC,1
+STZ,"CONSTELLATION BRANDS, INC.",1
+SYY,SYSCO CORP,1
+TDY,TELEDYNE TECHNOLOGIES INC,1
+TEL,TE Connectivity plc,1
+TMUS,"T-Mobile US, Inc.",1
+TPR,"TAPESTRY, INC.",1
+TRGP,Targa Resources Corp.,1
+TRMB,TRIMBLE INC.,1
+TROW,PRICE T ROWE GROUP INC,1
+TT,Trane Technologies plc,1
+UBER,"Uber Technologies, Inc",1
+UCB.BR,UCB S.A. (sin sec_title en CSV),1
+ULTA,"Ulta Beauty, Inc.",1
+ULVR.L,Unilever PLC,1
+UNP,UNION PACIFIC CORP,1
+VISA,Visa Inc. (ticker de mercado 'V'),1
+VMC,Vulcan Materials CO,1
+VRT,Vertiv Holdings Co,1
+VST,Vistra Corp.,1
+WAB,WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP,1
+WELL,WELLTOWER INC.,1
+WFC,WELLS FARGO & COMPANY/MN,1
+WM,WASTE MANAGEMENT INC,1
+WMB,"The Williams Companies, Inc.",1
+WMT,Walmart Inc.,1
+WRB,BERKLEY W R CORP,1
+WSM,WILLIAMS SONOMA INC,1
+WTC.AX,WiseTech Global,1
+WTW,WILLIS TOWERS WATSON PLC,1
+XOM,ExxonMobil Holdings Corp,1
+YUM,YUM BRANDS INC,1
+ZURN.SW,Zurich Insurance Group AG,1

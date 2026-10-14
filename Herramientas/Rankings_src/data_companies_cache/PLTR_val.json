@@ -1,0 +1,48 @@
+{
+ "ticker": "PLTR",
+ "name": "Palantir Technologies Inc.",
+ "currency": "USD",
+ "price_verified": 119.5,
+ "price_source": "StockAnalysis.com (cross-check Yahoo/Macrotrends), close 22-jun-2026",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 2.571,
+ "implied_mcap_b_usd": 307.2,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 11.8,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.5,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "FY2026 owner FCF base ~$2.43B = FCF estimado ~$3.6B (margen FCF ~47% sobre guia ingresos $7.66B) menos 100% SBC ~$1.17B (15.3% ingresos). Conservador frente a la guia de adj FCF $4.2-4.4B de la direccion, que es generosa. FY2025 reportado: FCF $2.101B - SBC $0.684B = owner FCF $1.417B; se proyecta el salto FY2026 por aceleracion (ingresos +71% guia, +85% YoY en Q1 2026).",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 42.98,
+   "prob": 0.38,
+   "note": "Fase1 (1-5) CAGR 28%, Fase2 (6-10) declina 22%->6%, g term 2.5%. Deceleracion realista por madurez del mercado/competencia IA, NO apocaliptico. Mantiene franquicia gobierno+comercial US. +caja neta $7.18B."
+  },
+  "base": {
+   "iv_per_share": 80.11,
+   "prob": 0.47,
+   "note": "Fase1 CAGR 40% (vs +71% guia FY26, decelerando), Fase2 30%->10%, g term 3.0%. Owner FCF compone con margenes ~47% y apalancamiento operativo. Refleja el potencial AIP/ontologia."
+  },
+  "optimista": {
+   "iv_per_share": 156.13,
+   "prob": 0.15,
+   "note": "Fase1 CAGR 52%, Fase2 40%->15%, g term 3.5%. Palantir se convierte en plataforma estandar de IA empresarial/defensa; US commercial +120% se sostiene varios anios."
+  }
+ },
+ "iv_dcf_weighted": 77.4,
+ "multiple_metric": "P/E adelantado (sobre BPA ajustado FY2026)",
+ "fwd_multiple_now": 75.6,
+ "fwd_multiple_5y_avg": null,
+ "fair_multiple": 60,
+ "multiple_rationale": "No existe media fiable de 5a del P/E adelantado: PLTR cotiza solo desde fin-2020 con multiplos extremos y volatiles (50x-200x), sin fuente primaria robusta para una media de 5 anios. Se ancla fair_multiple en 60x BPA ajustado FY2026 (~$1.60), un HAIRCUT deliberado pero moderado frente al 75.6x actual. El haircut NO responde a deterioro estructural (los fundamentales ACELERAN: ingresos +85% YoY en Q1 2026, margen FCF 57%, guia subida, caja neta), sino a que 75x es en si mismo el multiplo-anomalia: ninguna franquicia de calidad sostiene 75x cuando el crecimiento se normaliza desde +71% hacia tasas mas maduras. 60x sigue siendo premium acorde a un compounder de software de altisimo crecimiento, margenes ~47% FCF y opcionalidad en IA empresarial/defensa.",
+ "iv_multiple": 96,
+ "weight_dcf": 0.6,
+ "weight_multiple": 0.4,
+ "reconciled_iv": 84.84,
+ "structural_change": "NINGUN deterioro estructural; al contrario, MEJORA estructural. El desplome de ~42% desde el ATH ($207.52, nov-2025) coincide con una ACELERACION de fundamentales: ingresos pasan de +56% (FY2025) a +85% YoY (Q1 2026), US commercial +120%+, margen GAAP operativo 46% en Q1, margen adj FCF 57%, guia FY2026 SUBIDA a $7.65-7.66B (~71% crec), caja neta $7.18B y cero deuda. Clasificacion: des-rating/rotacion por miedo al multiplo (fear_rotation), no degradacion del negocio. El unico vector de riesgo real es la valoracion (multiplo), no la franquicia.",
+ "sanity_notes": "SANITY MAGNITUD OK: reconciled_iv $84.84 = 71% del precio $119.50, dentro del rango 30%-300% -> sin error de acciones/moneda/unidades. mcap_sanity_ok=true: precio $119.50 x 2.40B basicas = $286.8B (coincide con mcap reportado ~$286.5B StockAnalysis); con 2.571B diluidas (media ponderada Q1 2026) = $307.2B (coincide con $306-308B de Yahoo/public.com). Se usa el recuento DILUIDO 2.571B como denominador de IV por accion (mas conservador y correcto para owner earnings, captura dilucion por SBC). Todo en USD (moneda de cotizacion). Precio verificado triple fuente. CONCLUSION DE VALOR: reconciled_iv ~$85 < precio $119.50 -> PLTR cotiza ~41% POR ENCIMA de su valor intrinseco reconciliado pese a la caida del 42%; el negocio es excepcional (calidad alta, caja neta, crecimiento acelerando) pero el precio sigue descontando un crecimiento extraordinario sostenido durante una decada. Sin margen de seguridad al precio actual bajo marco Terry Smith/Buffett (calidad SI, pero multiplo aun exigente). El DCF infra-credita la reinversion a ROIC altisimo (caja neta, capital invertido minimo), por eso el ancla de multiplo ($96) > DCF ($77); aun ponderando 60% DCF por la incertidumbre del multiplo, no se alcanza el precio. SBC (15.3% ingresos) restado al 100% en owner earnings -> dilucion real reflejada."
+}

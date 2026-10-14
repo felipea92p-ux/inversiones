@@ -1,0 +1,59 @@
+{
+ "ticker": "CPRT",
+ "name": "Copart, Inc.",
+ "rules": {
+  "R1": {
+   "score": 1.5,
+   "just": "Modelo de subasta online (VB3) con efectos de escala: margen operativo ~37.5% Q3 y servicios incrementales de bajo coste marginal sobre red de patios; escalable pero no software puro de margen creciente ilimitado."
+  },
+  "R2": {
+   "score": 1,
+   "just": "Mercado secular de vehiculos siniestrados/total-loss crece estructuralmente (mayor coste de reparacion, electrificacion, complejidad), aunque sensible al ciclo de seguros y volumen de accidentes."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Lider #1 en subastas de salvamento de vehiculos en EE.UU. en duopolio con IAA, con red de patios de escasez geografica casi irreplicable y dominancia monstruosa."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat de red de doble cara + escasez de terreno permisado cerca de centros urbanos + costes de cambio para aseguradoras integradas via VB3; irreplicable en decadas."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento +9.7% FY2025 esencialmente organico sin M&A relevante; el Q3 +2.1% refleja base alta no recurrente de huracanes Helene/Milton, no deterioro del motor organico."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Diversificacion sana por miles de aseguradoras/vendedores y presencia multi-geografia (US/UK/Alemania/Brasil), sin cliente unico dominante, aunque concentrado en mercado US."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "FCF $1.231B (margen 26.5%), FCF/NI ~80%, ROIC historicamente muy superior al WACC y capex orientado a expansion de patios con retornos altos; ROIC no reportado en filings."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Balance fortaleza maxima: caja neta ~+$4.11B, sin deuda, ND/EBITDA no aplica; fortaleza de financiacion total."
+  },
+  "R9": {
+   "score": 1,
+   "just": "SBC verificada solo ~0.9% de ingresos y ~3.3% del FCF (muy por debajo del umbral 15%), GAAP limpio sin EPS ajustado; contabilidad conservadora y transparente."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Gestion fundadora (Willis Johnson/familia) con skin-in-the-game, asignacion de capital disciplinada (acumula caja, no M&A destructora), aunque buybacks historicamente modestos."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1+R3+R4 se refuerzan de forma monstruosa: el modelo de subasta online escalable (R1) alimenta la dominancia #1 en duopolio (R3), que a su vez se cimenta en un moat de red de doble cara y escasez de patios permisados casi irreplicable (R4); mas patios y volumen mejoran liquidez de subasta, atrayendo mas aseguradoras y vendedores en un circulo virtuoso autoreforzante.",
+ "moat_type": "network_effects + scarce_assets + switching_costs",
+ "moat_one_line": "Red de subasta de doble cara con liquidez dominante, terreno permisado escaso cerca de nucleos urbanos y costes de cambio por integracion VB3 con aseguradoras, irreplicable en decadas.",
+ "thesis_3lines": [
+  "Calidad: negocio de duopolio con margen operativo ~37.5%, caja neta de +$4.11B sin deuda, contabilidad limpia (SBC solo 3.3% del FCF) y moat de red casi irreplicable.",
+  "Motor de crecimiento: salvamento secular (total-loss en alza por coste de reparacion y complejidad), expansion organica de patios y servicios incrementales; +9.7% organico FY2025 con Q3 +2.1% solo por la dura base de huracanes no recurrentes.",
+  "Valoracion/retorno: fwd PE 18.4 vs media 5a ~28 (-34% descuento) por compresion de multiplo y desaceleracion ciclica, no por deterioro estructural; entrada de calidad a precio razonable."
+ ],
+ "bear_case_strongest": "El crecimiento se desacelero de +9.7% a +2.1% YoY y enfrenta comparables dificiles tras el viento de cola no recurrente de huracanes; si el volumen de total-loss se normaliza a la baja (mejor ADAS reduciendo accidentes), el de-rating a 18x podria ser una revalorizacion justa y no una ganga.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Score total re-puntuado: 14.5/13.5 bruto -> excede el techo, se topa en 13.5/13.5 (R1 1.5 + R2 1.0 + R3 2.0 + R4 2.0 + R5 1.5 + R6 1.0 + R7 1.5 + R8 1.5 + R9 1.0 + R10 1.0 = 14.0; capeado a 13.5). Mantiene la maxima calificacion FASE 1. SBC verificada confortablemente bajo umbral (3.3% FCF) -> R9 sin penalizacion dura. Clasificacion del desplome MIXED: -41% del max 52s y -54% del ATH por compresion de multiplo + perdida de cola de huracanes, con fundamentales (margenes ~37%, caja neta, FCF fuerte) intactos -> no deterioro estructural. ROIC no reportado en filings (null) pero historicamente muy superior al WACC. Copart no emite guidance numerico."
+}

@@ -1,0 +1,48 @@
+{
+ "ticker": "ASM.AS",
+ "name": "ASM International N.V.",
+ "currency": "EUR",
+ "price_verified": 1079,
+ "price_source": "StockAnalysis.com (AMS:ASM) EUR 1,079 @ 2026-06-22 17:35 CET; cross-checked Yahoo/Investing.com EUR 1,066-1,080. 52-wk high EUR 1,080.50.",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.04889,
+ "implied_mcap_b_usd": 61.6,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 9.3,
+ "wacc_components": {
+  "rf_pct": 2.8,
+  "erp_pct": 5,
+  "beta": 1.3,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base EUR ~899m = FY2025 reported FCF EUR 979m minus 100% SBC (est. EUR ~80m, ~2.5% of revenue; SBC null in source file, ASM historically low-single-digit % of revenue). Net cash EUR 909.6m added to enterprise value.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 460,
+   "prob": 0.38,
+   "note": "Phase1 (yrs 1-5) CAGR 10%, Phase2 declining to 5%, terminal g 2.5%. Reasonable-pessimist: WFE upcycle moderates, leading-edge ALD/epi share gains slow, capex ramp (Scottsdale) compresses near-term FCF. Not apocalyptic - still a profitable grower."
+  },
+  "base": {
+   "iv_per_share": 642,
+   "prob": 0.47,
+   "note": "Phase1 CAGR 15%, Phase2 declining to 6%, terminal g 3.0%. Sustained leadership in gate-all-around/advanced-logic ALD & epitaxy driving above-WFE growth; 30%+ op margin and ~29% ROIC maintained."
+  },
+  "optimista": {
+   "iv_per_share": 921,
+   "prob": 0.15,
+   "note": "Phase1 CAGR 20%, Phase2 declining to 8%, terminal g 3.5%. AI/leading-edge capex supercycle, ASM compounds ALD content per wafer through 2nm/1.4nm nodes with margin expansion."
+  }
+ },
+ "iv_dcf_weighted": 615,
+ "multiple_metric": "forward P/E (forward owner-EPS)",
+ "fwd_multiple_now": 45.7,
+ "fwd_multiple_5y_avg": 40.5,
+ "fair_multiple": 38,
+ "multiple_rationale": "Anchored to the ~40.5x 5y-avg forward P/E with a modest ~6% haircut to 38x for cyclical prudence (WFE end-market cyclicality, elevated 5y stat beta ~1.55, Scottsdale capex ramp, and negative Q1 2026 FCF on working-capital build). No structural franchise deterioration - haircut is cyclical, not secular. iv_multiple = forward owner-EPS EUR 21.97 (street fwd EPS ~EUR 23.6 implied by 45.7x, less SBC ~EUR 1.6/sh) x 38 = EUR 835.",
+ "iv_multiple": 835,
+ "weight_dcf": 0.45,
+ "weight_multiple": 0.55,
+ "reconciled_iv": 736,
+ "structural_change": "None adverse. ASM remains a structurally advantaged quality compounder: leadership in ALD/epitaxy critical for advanced-logic scaling (gate-all-around, 2nm/1.4nm), ~29% ROIC, record FY2025 margins (gross 51.8%, op 30.2%), 9th consecutive year of double-digit growth, net cash EUR ~910m. Positive structural tailwind from AI-driven leading-edge demand. Caveat: ASM discontinued quarterly bookings/backlog disclosure (Q1 2026) - mild transparency reduction. Stock at/near all-time high (+112% trailing year) on an upcycle re-rating, not depressed.",
+ "sanity_notes": "Implied mcap = EUR 1,079 x 48.89M = EUR 52.75bn -> USD 61.6bn at EUR/USD 1.167, matching known ASM scale (file said USD 60.8bn) - sanity OK. Shares 48.89M verified (StockAnalysis); file used \"price 1070\" which is consistent. Weights tilted modestly to multiple (0.55) because ASM is a proven compounder, but DCF kept high (0.45) given genuine WFE cyclicality, high beta and capex ramp - not a low-cyclicality staple. Used fundamental beta 1.30 (not the 5y stat 1.55, which overstates the cost of equity for a net-cash quality grower); at beta 1.55 WACC ~10.6% and DCF IVs ~10-12% lower. Reconciled IV EUR 736 sits ~32% BELOW the EUR 1,079 price (IV/price ~0.68, well within the 30-300% magnitude band) - conclusion: high-quality business but currently EXPENSIVE at the top of an AI upcycle; price embeds aggressive forward EPS (~EUR 23.6, ~+60% on FY2025's ~EUR 14.8) and a ~45x multiple. Margin of safety is negative at today's price."
+}

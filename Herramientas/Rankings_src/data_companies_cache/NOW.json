@@ -1,0 +1,100 @@
+{
+ "ticker": "NOW",
+ "name": "ServiceNow, Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 93.01,
+ "market_cap_usd_b": 95.92,
+ "fwd_pe": 21.92,
+ "fwd_pe_5y_avg": 52,
+ "pe_prem_disc_pct": -57.8,
+ "peg": 0.88,
+ "last_q": {
+  "period": "Q1 2026 (ended Mar 31, 2026)",
+  "revenue": "$3,770M",
+  "rev_yoy_pct": 22,
+  "op_margin_pct": 13.5,
+  "eps_gaap": "$0.45",
+  "eps_adj": "$0.97"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 31, 2025)",
+  "revenue": "$13,278M",
+  "organic_growth_pct": 21,
+  "roic_pct": null,
+  "fcf": "$4,636M",
+  "fcf_margin_pct": 35
+ },
+ "sbc_pct_revenue": 14.7,
+ "sbc_pct_fcf": 42.2,
+ "net_debt_usd_b": -8.6,
+ "nd_ebitda": null,
+ "net_cash": true,
+ "guidance_fy": "FY2026: subscription revenue $15,735M-$15,775M (~22-22.5% YoY, raised in Q1); non-GAAP operating margin ~31.5%; non-GAAP FCF margin ~35%. Note: forward-looking projection from management.",
+ "pct_off_52w_high": -56,
+ "pct_off_ath": -56,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "guidance_fy",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "net_cash"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "nd_ebitda",
+  "roic_pct"
+ ],
+ "sources": [
+  {
+   "label": "ServiceNow Newsroom — Q1 2026 Financial Results (press release)",
+   "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Reports-First-Quarter-2026-Financial-Results/default.aspx",
+   "date": "2026-04"
+  },
+  {
+   "label": "ServiceNow Newsroom — Q4 & Full-Year 2025 Financial Results + $5B buyback",
+   "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-Board-of-Directors-Authorizes-Additional-5B-for-Share-Repurchase-Program/default.aspx",
+   "date": "2026-01"
+  },
+  {
+   "label": "ServiceNow Newsroom — Shareholders Approve 5-for-1 Stock Split",
+   "url": "https://newsroom.servicenow.com/press-releases/details/2025/ServiceNow-Shareholders-Approve-5-for-1-Stock-Split/default.aspx",
+   "date": "2025-12"
+  },
+  {
+   "label": "StockAnalysis.com — NOW quote & statistics",
+   "url": "https://stockanalysis.com/stocks/now/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com — NOW overview (price, market cap, 52w range)",
+   "url": "https://stockanalysis.com/stocks/NOW/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Macrotrends — ServiceNow stock-based compensation",
+   "url": "https://www.macrotrends.net/stocks/charts/NOW/servicenow/stock-based-compensation",
+   "date": "2026-06"
+  }
+ ],
+ "notes": "CRITICO: ServiceNow ejecuto un SPLIT 5-por-1 efectivo 18-dic-2025; TODOS los precios/EPS aqui son ajustados por split (precio ~$93, no ~$465 pre-split). EPS Q1 2026: $0.45 GAAP / $0.97 non-GAAP (split-adjusted). Caja neta ~$8.6B: efectivo+inversiones ~$10.1B vs deuda LP $1,491M. SBC FY2025 = $1.955B = 14.7% de ingresos y ~42% del FCF (CRITICO para R9, elevado pero el FCF reportado ya es post-SBC). nd_ebitda dejado en null (posicion de caja neta, ratio no significativo / no obtenido de fuente primaria). roic_pct no obtenido de fuente primaria (estimated). fwd_pe_5y_avg ~52x es ESTIMADO: historicamente NOW cotizo a ~50-60x fwd P/E (2021-2024); el 21.9x actual implica descuento ~-58% vs su media — descuento extremo. CLASIFICACION DEL DESPLOME = fear_rotation: la accion cae ~-56% desde maximo 52s/historico ($211.48 ajustado por split), PERO los fundamentales NO se deterioran — ingresos +22% YoY, guidance FY2026 SUBIDO en Q1, margen op non-GAAP 31-32%, margen FCF 35%, cRPO +22.5%. El desplome es por de-rating de software de alto multiplo y miedo a disrupcion por IA (rotacion), no por deterioro del negocio. El maximo 52-semanas (~$211) coincide aprox. con el maximo historico (pico pre-split ~$1,050 ene-2025 ≈ $210 ajustado), por eso pct_off_52w_high ≈ pct_off_ath."
+}

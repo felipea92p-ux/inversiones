@@ -1,0 +1,48 @@
+{
+ "ticker": "TPL",
+ "name": "Texas Pacific Land Corporation",
+ "currency": "USD",
+ "price_verified": 361.11,
+ "price_source": "StockAnalysis.com (2026-06-22), corroborado por Yahoo Finance via WebSearch (cierres recientes ~$355-361)",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.06897,
+ "implied_mcap_b_usd": 24.91,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 8.5,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.85,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = FCF $498.3M − SBC 100% $13.8M = $484.5M (owner FCF/accion ~$7.02). Negligible capex y SBC muy bajo (1.73% de ingresos) hacen que el beneficio GAAP ~ owner earnings.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 149.97,
+   "prob": 0.38,
+   "note": "Fase1 g=6% (petroleo debil/produccion madura), Fase2 declinando a g=4.5%, terminal g=2.5%. Pesimista razonable, no apocaliptico: royalty sigue creciendo pero a ritmo moderado, agua se normaliza, sin gran monetizacion de superficie/data-centers."
+  },
+  "base": {
+   "iv_per_share": 199.89,
+   "prob": 0.47,
+   "note": "Fase1 g=10% (continuacion de +29% produccion royalty FY25 moderandose, expansion de agua, primeras monetizaciones de superficie), Fase2 declinando a ~7%, terminal g=3.0%."
+  },
+  "optimista": {
+   "iv_per_share": 284.26,
+   "prob": 0.15,
+   "note": "Fase1 g=15% (royalty + agua + monetizacion material de superficie/data-centers como el acuerdo de financiacion de $42.5M en Q1 2026), Fase2 a 10%, terminal g=3.5%."
+  }
+ },
+ "iv_dcf_weighted": 193.58,
+ "fwd_multiple_now": 37.75,
+ "fwd_multiple_5y_avg": 38.72,
+ "fair_multiple": 36,
+ "multiple_metric": "P/E adelantado (beneficio GAAP FY2026 ~ owner earnings dado capex insignificante y SBC ~1.7%)",
+ "multiple_rationale": "fair_multiple 36x = media 5a del P/E adelantado (38.72x) con haircut modesto de ~7% por (i) nivel absoluto muy alto del multiplo y (ii) sensibilidad ciclica al precio del petroleo / sentimiento energetico mas blando. El haircut es CICLICO, no estructural: ROIC ~43%, margenes operativos ~77%, balance con caja neta y crecimiento de produccion +29% siguen intactos. owner-adj fwd EPS = 9.36 (fwd EPS 9.57 − SBC 0.20). iv_multiple = 9.36 * 36 = 337.06.",
+ "iv_multiple": 337.06,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 279.67,
+ "structural_change": "Ninguno negativo. La caida del ~35% desde maximos de finales-2024 es compresion de multiplo (fear_rotation + reset de valoracion desde base muy alta + rotacion fuera de nombres energeticos de alto multiplo), NO deterioro del negocio: Q1 2026 ingresos +20.8% YoY, FY2025 record en ingresos/NI/FCF, margenes operativos ~77%, produccion royalty +29%, caja neta. Cambio estructural POSITIVO emergente: opcionalidad de monetizacion de superficie/data-centers (acuerdo de financiacion de $42.5M en Q1 2026) y expansion del segmento de agua. Por eso se aplica haircut ciclico (no estructural) al multiplo.",
+ "sanity_notes": "Sanity OK. implied_mcap = $361.11 * 68.97M = $24.91B, coincide con la escala conocida (~$24.9B). Acciones diluidas 68.97M reconfirmadas por matematica de BPA (NI Q1 $142.9M / EPS $2.07 ≈ 69.0M) y por StockAnalysis/Yahoo. reconciled_iv $279.67 cae dentro de la banda de magnitud 30-300% del precio ($108-$1083) -> sin error de unidades/moneda/acciones. Todo en USD. Tension DCF vs multiplo (DCF $194 vs multiplo $337) es la tipica de un compounder de alto ROIC: el DCF puro infra-credita decadas de reinversion a ~43% ROIC y optionalidad de superficie/agua; por eso se pondera mas el ancla de multiplo (0.60). reconciled_iv $280 implica que TPL a $361 cotiza ~22% por ENCIMA del valor intrinseco reconciliado — calidad excepcional pero a precio aun exigente pese al drawdown; margen de seguridad negativo a precio actual. Beta usada 0.85 (royalty de baja beta pero con sensibilidad al crudo). WACC 8.5%."
+}

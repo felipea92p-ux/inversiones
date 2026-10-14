@@ -1,0 +1,59 @@
+{
+ "ticker": "NVO",
+ "name": "Novo Nordisk A/S",
+ "moat_type": "intangibles_brand_scale",
+ "moat_one_line": "Decades of GLP-1 peptide R&D, manufacturing scale (injectable/oral semaglutide), regulatory/clinical-data intangibles and a globally trusted diabetes-care brand — durable but, as 2026 shows, no longer impregnable against Eli Lilly.",
+ "sbc_flag": "ok",
+ "amplification": false,
+ "amplification_note": "R3/R4 are strong (clear #2 globally, intangible/scale moat) but R1 is NOT a software/network scalable model and, decisively, the moat is actively being penetrated: FY2026 is the company's first GUIDED CONTRACTION (-4% to -12% CER), Lilly's tirzepatide is taking share, CagriSema disappointed, and compounded semaglutide pressures pricing. A moat being breached in real time cannot qualify for monstrous, self-reinforcing amplification.",
+ "thesis_3lines": [
+  "CALIDAD: franquicia GLP-1/diabetes de altisima calidad — ROIC ~40%, margen operativo ajustado 46.9%, balance grado de inversion (ND/EBITDA ~0.4x) e intangibles de I+D y escala de fabricacion dificiles de replicar.",
+  "MOTOR: el crecimiento secular de obesidad/diabetes sigue intacto y Wegovy oral arranca con fuerza (>200k Rx semanales), pero el motor esta gripado a corto plazo — guidance FY2026 de CONTRACCION -4% a -12% CER por competencia de Lilly, presion de precios y traspies de pipeline (CagriSema).",
+  "VALORACION: de-rating extremo de ~26.8x fwd P/E (media 5a) a ~14.7x (-45%) descuenta mucho pesimismo; ofrece opcionalidad asimetrica SI el oral y el pipeline reaceleran, pero el descuento es merecido mientras dure la contraccion guiada."
+ ],
+ "bear_case_strongest": "El moat se erosiona en tiempo real: Eli Lilly gana cuota con eficacia superior (tirzepatide/orforglipron), CagriSema decepciono, el semaglutida compuesto y la presion de precios en EE.UU. comprimen el margen, y la propia Novo GUIA por primera vez una contraccion de ventas y beneficio (-4% a -12% CER) — deterioro fundamental, no solo miedo; el P/E \"barato\" sobre beneficios decrecientes puede ser trampa de valor.",
+ "ethical_flag": "novo_special",
+ "notes": "Re-score FASE 2 verificada. Total = 11.5/13.5 vs 13.5 preliminar FASE 1 — rebaja de 2.0 puntos concentrada en R2 (industria aun secular pero ahora hipercompetitiva), R5 (crecimiento organico real pero GUIADO a contraccion FY2026 y empanado por adquisiciones grandes que distorsionan el FCF headline), y R3/R4 (lider claro pero #2 detras de Lilly y moat penetrado, no anos-luz). SBC verificada ~2% del FCF -> regla dura NO aplica, R9 limpio salvo el ruido contable del one-off 340B (~DKK 26.8bn) que distorsiona Q1 2026 reportado. Drop MIXTO: -36% 52s / -67% desde ATH refleja deterioro fundamental + compresion de multiplo. FCF headline DKK 28.3bn (margen 9.2%) deprimido por M&A; pre-M&A op cash flow ~DKK 69.8bn (margen ~22%) — calidad de FCF subyacente mucho mejor de lo que sugiere el headline. ethical_flag=novo_special por instruccion.",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Modelo farma de alto margen (op. margin ajustado 46.9%, ROIC ~40%) con apalancamiento operativo real, pero NO es software/red escalable y la capacidad de fabricacion (capex DKK 41.7bn) limita el techo 2.0; base 1.0."
+  },
+  "R2": {
+   "score": 1,
+   "just": "Obesidad/diabetes sigue siendo un mercado secular enorme, pero la industria GLP-1 paso de oligopolio comodo a hipercompetencia (Lilly, compuestos) que la propia guidance FY2026 -4% a -12% CER refleja; secular pero ya no placido, 1.0."
+  },
+  "R3": {
+   "score": 1,
+   "just": "Lider claro #1/#2 mundial en GLP-1/diabetes, pero Eli Lilly ha tomado el liderazgo de crecimiento/eficacia — Novo es #2 acosado, no deja al rival a anos-luz; 1.0, sin 2.0 ni 1.5."
+  },
+  "R4": {
+   "score": 1,
+   "just": "Moat real de intangibles I+D + escala + marca, pero se demuestra PENETRABLE en 2026 (perdida de cuota, CagriSema, semaglutida compuesto) — durable pero no irreplicable en decadas; 1.0."
+  },
+  "R5": {
+   "score": 1,
+   "just": "FY2025 crecio +10% organico CER (motor organico genuino), pero FY2026 GUIA a contraccion organica -4% a -12% y el FCF headline esta distorsionado por M&A/business development grandes; organico pero deteriorandose, 1.0."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Multi-geografia y sin cliente >10-15%, pero altisima concentracion terapeutica en la franquicia GLP-1/semaglutida (Ozempic/Wegovy) — diversificacion geografica si, de producto no; 1.0."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC ~40% >> WACC y capex elevado NO penaliza por el ROIC alto; FCF/NI castigado en el headline (margen 9.2%) por M&A pero el op. cash flow pre-M&A ~DKK 69.8bn (margen ~22%) confirma economia excelente; 1.5."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Balance solido grado de inversion: deuda neta ~$10.7bn, ND/EBITDA ~0.4x (muy por debajo de 2x); no es caja neta, por eso 1.5 y no 2.0 equivalente, pero balance superior."
+  },
+  "R9": {
+   "score": 1,
+   "just": "SBC verificada ~2% del FCF -> regla dura NO aplica (sbc_flag=ok); contabilidad IFRS limpia salvo el one-off ~DKK 26.8bn de reversion 340B que distorsiona el Q1 2026 reportado (ajustado bien revelado); 1.0, no 1.5 por ese ruido."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Gestion historica de altisima calidad y gobierno estable (Novo Holdings/Fundacion con skin-in-the-game y vision largoplacista), asignacion de capital generalmente disciplinada; ligera cautela por M&A reciente grande que comprime el FCF headline; 1.5."
+  }
+ }
+}

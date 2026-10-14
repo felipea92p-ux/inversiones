@@ -1,0 +1,42 @@
+{
+ "ticker": "COST",
+ "name": "Costco Wholesale Corporation",
+ "currency": "USD",
+ "current_price": 951.35,
+ "wacc_pct": 8.2,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.78,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = USD 6.977B. Derivation: FY2025 reported FCF USD 7.837B (OCF 13.335B - capex 5.498B) MINUS 100% of SBC (USD 0.860B) = 6.977B. This equals ~2.53% owner-FCF margin on FY2025 total revenue (275.235B) and ~USD 15.73 owner FCF per diluted share. SBC drag is minimal (0.31% of revenue, ~11% of FCF) — one of the cleanest mega-cap comp structures, so the owner-earnings haircut is small. Note FY2025 capex was elevated for warehouse/expansion growth; no maintenance-capex add-back was taken (kept conservative).",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 10.5,
+  "rev_cagr_y6_10_pct": 7.5,
+  "fcf_margin_terminal_pct": 2.8,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% of SBC (USD 0.860B, FY2025) deducted from reported FCF as a cash expense, per owner-earnings mandate. SBC is only ~0.31% of revenue / ~11% of FCF, so the impact on intrinsic value is modest (~USD 30-35/share).",
+  "shares_diluted_b": 0.4435,
+  "net_debt_usd_b": -11.76
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 413,
+   "prob": 0.375,
+   "note": "Growth normalizes faster: owner FCF +7.5% CAGR yrs 1-5, declining 6.5%->4.0% yrs 6-10, terminal g=2.5%. Reflects maturing US warehouse base, intl/e-comm execution risk, membership fee growth slows. Pesimista but not apocaliptico — still a healthy compounder. IV ~57% below current price."
+  },
+  "base": {
+   "iv_per_share": 533,
+   "prob": 0.475,
+   "note": "Consistent with track record: owner FCF +10.5% CAGR yrs 1-5 (organic ~8% units/comps + membership fee increases + modest margin gains + buybacks), declining 9.5%->5.5% yrs 6-10, terminal g=3.0%. Even crediting the full quality franchise, IV ~44% below the current $951 — the stock discounts ~20% sustained owner-FCF growth, roughly double history."
+  },
+  "optimista": {
+   "iv_per_share": 659,
+   "prob": 0.15,
+   "note": "Perfect execution: owner FCF +13.0% CAGR yrs 1-5 (accelerated intl warehouse rollout, e-commerce/Kirkland scale, special-dividend-funded ROIC, membership pricing power), declining 11.0%->6.5% yrs 6-10, terminal g=3.5%. Still ~31% below current price."
+  }
+ },
+ "sanity_check": "Costco is a wide-moat consumer-staples retailer (89.7% global / 92.2% US-Canada membership renewal, 148.5M cardholders, ROIC ~20%), so the owner-earnings DCF is the correct lens — no DDM needed. The conclusion across all three scenarios is unambiguous: intrinsic value (USD 413 / 533 / 659) sits 31-57% below the USD 951.35 market price. Prob-weighted IV ~USD 507, implying ~47% downside. IMPLIED-GROWTH CROSS-CHECK: to justify $951 on owner FCF at an 8.2% WACC, Costco must compound owner FCF at ~20%/yr for 5 years — roughly 2x its ~8-10% historical organic growth and well above consensus EPS growth (~10-12%). Even an upper-bound case (full reported FCF with NO SBC deduction, optimista growth, 8.0% WACC) yields only ~$771. CAPITAL-RETURN CONTRAST (per mandate, as contrast not valuation): regular dividend yield is only ~0.49% (~$4.64/sh) plus periodic large special dividends funded from the $11.76B net-cash pile; net buybacks are small. Total shareholder cash yield is low (~1% incl. typical specials), so the entire return case rests on growth + multiple, both already extended. This is a fear_rotation/valuation case, not a deteriorating business — fundamentals are accelerating (Q3 FY26 net sales +11.6%, comps +6.6% ex gas/fx, GAAP EPS +15%) — but the price embeds extraordinary perfection. Verdict: exceptional company, richly overvalued on owner earnings; margin of safety is negative.",
+ "method_notes": "10-year two-stage owner-earnings DCF. OWNER FCF base = FY2025 reported FCF 7.837B - 100% SBC 0.860B = 6.977B. WACC = Rf 4.3% (UST 10Y) + ERP 5.0% x beta 0.78 = 8.2%; beta 0.78 reflects Costco's low-volatility defensive-staple profile; no geopolitical adjustment (US-domiciled). Phase 1 (yrs 1-5): owner FCF grows at an explicit CAGR (7.5% / 10.5% / 13.0% by scenario). Phase 2 (yrs 6-10): CAGR declines linearly toward normalization (ending 4.0% / 5.5% / 6.5%). Terminal value via Gordon growth at g = 2.5% / 3.0% / 3.5% (wide moat supports upper end), discounted at WACC. EV = sum of PV(flows) + PV(terminal). Equity = EV minus net debt; net debt is NEGATIVE (-11.76B net cash) so cash is ADDED to equity value. IV/share = equity / 0.4435B diluted shares (implied from $421.94B market cap / $951.35 price). Probabilities sum to 1.0 (0.375 + 0.475 + 0.15). All figures and IV in USD, the quotation currency. Inputs sourced from verified FASE 2 file (COST.json); no web search needed — all required inputs present."
+}

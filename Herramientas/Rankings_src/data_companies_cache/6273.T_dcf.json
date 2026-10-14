@@ -1,0 +1,41 @@
+{
+ "ticker": "6273.T",
+ "currency": "JPY",
+ "current_price": 74240,
+ "wacc_pct": 6.3,
+ "wacc_components": {
+  "rf_pct": 1.3,
+  "erp_pct": 5,
+  "beta": 1,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "JPY ~126,400M normalized mid-cycle owner FCF (15% margin on FY26 revenue); SBC deduction = 0 (negligible, Japanese GAAP). Raw FY26 reported FCF JPY 81,405M is depressed by a peak-capex year (capex 18.1% of sales).",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 8,
+  "rev_cagr_y6_10_pct": 3,
+  "fcf_margin_terminal_pct": 17,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "SBC deducted at 100% per mandate, but negligible (~0% of revenue/FCF) — Japanese GAAP, only an 11,200-share Board Benefit Trust. Owner FCF ≈ reported FCF on the SBC axis; the real normalization adjustment is for the peak-capex cycle, not SBC.",
+  "shares_diluted_b": 0.0634,
+  "net_debt_usd_b": -4.37
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 73800,
+   "prob": 0.375,
+   "note": "Semicap/factory-automation cyclicality bites; China demand stays soft and FX (peak-yen-weakness tailwind) reverses. Rev CAGR 5% (y1-5) decelerating to 2.5%; owner FCF margin holds at 15% mid-cycle (capex stays elevated longer); terminal g 2.5%. IV ≈ JPY 73,800, essentially at the current price — the fortress net-cash balance sheet (~JPY 707B, 15% of mkt cap) provides a floor even in a pessimistic but non-apocalyptic path."
+  },
+  "base": {
+   "iv_per_share": 105500,
+   "prob": 0.475,
+   "note": "Consistent with track record: high-single-digit revenue growth as capex cycle pays off and factory-automation/semicap secular demand resumes; rev CAGR 8% (y1-5) declining to 3%; owner FCF margin recovers to 17% as growth-capex normalizes; terminal g 3.0%. IV ≈ JPY 105,500, ~42% above price. SMC is a wide-moat global #1 in pneumatics (~35% share) with 91.5% equity ratio and rising buybacks."
+  },
+  "optimista": {
+   "iv_per_share": 164800,
+   "prob": 0.15,
+   "note": "Perfect execution: automation + semicap + reshoring supercycle drives 11% rev CAGR (y1-5) to 4%; owner FCF margin expands to 20% as the new capacity scales with operating leverage; terminal g 3.5%. IV ≈ JPY 164,800, ~122% above price. Reflects SMC re-rating as a structural automation winner."
+  }
+ },
+ "sanity_check": "Prob-weighted IV ≈ JPY 102,500 (~+38% vs price JPY 74,240). Cross-checks: (1) Shareholder yield is modest — dividend JPY 1,000/sh = 1.35% + buyback (JPY 30,018M FY26) = 0.64%, total ~2.0% — confirming this is a reinvestment/compounder story, not a cash-return one; the DCF correctly captures value in growth+capex paying off rather than distributions. (2) Reported FCF yield on mkt cap is only 1.7% (3.7% earnings yield at 25.8x fwd P/E), so the valuation case rests entirely on the capex cycle normalizing toward the ~2.7% normalized owner-FCF yield and growth resuming — if capex stays at 18% of sales indefinitely, the stock is roughly fairly-to-fully valued (conservative case). (3) WACC of 6.3% is genuinely low (Japan Rf 1.3%) and the WACC-minus-g spread is narrow (3.3-3.8pp), making terminal value dominant and sensitive — a +1pp WACC would cut base IV ~20%. Treat the wide base-to-conservative gap as a measure of how much rides on the capex/growth normalization thesis. Note (4): Phase-2 file flags the stock as 'not_depressed' (only ~14% off 52w high, +44% TTM), consistent with a near-fair-value base around the price rather than a deep bargain.",
+ "method_notes": "10-year two-stage owner-earnings DCF in JPY (quotation currency). Owner FCF = reported FCF − 100% SBC; SBC ≈ 0 for SMC (Japanese GAAP, only an 11,200-share Board Benefit Trust), so the binding adjustment is normalizing FY3/2026's depressed 9.7% FCF margin (peak growth-capex year, capex 18.1% of sales) up to a ~15% mid-cycle owner-FCF margin base = ~JPY 126,400M. Phase 1 (yrs 1-5): explicit revenue CAGR (5%/8%/11% by scenario) with owner-FCF margin gliding to terminal. Phase 2 (yrs 6-10): revenue CAGR declines linearly toward 2.5-4% normalization. Terminal value via Gordon growth on yr-10 FCF, g = 2.5-3.5% scaled to moat (SMC = wide moat, global pneumatics #1, so base 3.0%). WACC = Rf(Japan 1.3%) + ERP(5.0%)×beta(1.0) = 6.3%; no geopolitical adjustment (Japan, not Taiwan). EV discounted at WACC, then add net CASH of ~JPY 706,610M (net_debt_usd_b = −4.37, i.e. net cash ≈ 15% of equity value) to get equity value; IV/share = equity ÷ 63.37M diluted shares (net income JPY 167,302M ÷ EPS 2,640.04; share count fell ~67.4M→63.9M via buyback/cancellation). Inputs from verified Phase 2 file (official May-14-2026 tanshin); no web search needed — all required fields present. USD/JPY 161.54 used only for the net-cash USD cross-check."
+}

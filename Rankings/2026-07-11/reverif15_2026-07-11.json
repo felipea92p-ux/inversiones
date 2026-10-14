@@ -1,0 +1,539 @@
+{
+ "pool": [
+  {
+   "ticker": "SNPS",
+   "sector": "Software EDA (Electronic Design Automation) + Simulacion - Synopsys",
+   "scores": {
+    "R1": 11.5,
+    "R2": 8.5,
+    "R3": 10.5,
+    "R4": 13.5,
+    "R5": 6.5,
+    "R6": 8,
+    "R7": 7,
+    "R8": 7,
+    "R9": 6,
+    "R10": 7,
+    "R11": 8
+   },
+   "score_100": 74.8,
+   "thesis": "Synopsys es un negocio de calidad excepcional: colider del duopolio mundial de software EDA (con Cadence), con un moat amplisimo (costes de cambio extremos, intangibles de co-desarrollo con foundries TSMC/Samsung/Intel, escala de I+D) y viento secular largo (mas silicio, complejidad creciente, IA). Pero acaba de cerrar la adquisicion transformadora de Ansys ($34.9B, jul-2025) financiada con ~$13.5B de deuda, convirtiendo un balance pristino de caja neta en ~$10.5B de deuda neta, comprimiendo el margen operativo GAAP al 13.0% (desde 22.1%, por amortizacion de intangibles) en un ano de crecimiento organico debil (~3% ex-Ansys, con Design IP cayendo). La calidad estructural sigue siendo de primer nivel; lo que baja la nota frente al Synopsys \"puro\" pre-Ansys es la transparencia degradada (brecha GAAP/no-GAAP amplia, SBC = 66% del FCF) y el ROIC post-fusion deprimido por el goodwill. Score /100 = 93.5/125 = 74.8.",
+   "main_risk": "Riesgo de integracion y apalancamiento: un fallo al digerir Ansys, o la prolongacion de la debilidad organica y de los controles de exportacion a China (~12% de ingresos, -18% YoY), mantendria deprimidos el ROIC y los margenes GAAP mientras el SBC creciente (66% del FCF) diluye a los accionistas antes de completar el desapalancamiento.",
+   "flags": [
+    "SBC $893M = 66% del FCF FY2025 (+36% YoY); 2 anos consecutivos >50% del FCF, cerca del knock-out de 3 anos; buybacks reducidos durante la fusion => dilucion no compensada del todo",
+    "Balance transformado: de caja neta a ~$10.5B deuda neta ($13.5B deuda total, $2.96B caja) por Ansys ($34.9B); plan de prepago $2.55B en H1-2026",
+    "Margen operativo GAAP colapso a 13.0% (desde 22.1%) por amortizacion de intangibles; NI no-GAAP $2,138M vs GAAP $1,336M (~+60%) => R9 rojo en senal 3 (brecha >20%)",
+    "Crecimiento organico FY2025 debil ~3% ex-Ansys; Design IP -8% ($1,906M->$1,752M); NI operaciones continuas -7.3%",
+    "China ~11.5% de ingresos y -17.7% YoY por controles de exportacion (riesgo geopolitico estructural)",
+    "NI GAAP FY2025 ($1,336M) > ingreso operativo ($915M) por partidas no operativas (probables ganancias de desinversiones regulatorias + intereses) => halaga la conversion FCF/NI",
+    "Dato no verificado (EDGAR 10-K devolvio HTTP 403): linea literal de concentracion de clientes FY2025 (historico: sin cliente >10%), ROIC post-fusion preciso, auditor => caps aplicados en R3/R6/R7",
+    "FY2024 NI total ($2.26B) inflado por ganancia de $868.8M de la venta de Software Integrity Group en operaciones discontinuadas; comparacion limpia usa NI de continuas $1,442M->$1,336M"
+   ],
+   "bug_check_notes": "(1) SUMA RAW: 11.5+8.5+10.5+13.5+6.5+8+7+7+6+7+8 = 93.5. Ninguna nota excede su tope (15 en R1/R3/R4; 10 en el resto). Notas ya en escala final, sin multiplicar por peso (bug Mastercard evitado). score_100 = 93.5/125 = 74.8. (2) CAMBIO DE DIVULGACION 2025-2026: SI penalizado. Post-Ansys la brecha GAAP/no-GAAP se ensancho (amortizacion masiva de intangibles + SBC $893M), los segmentos se consolidaron (Ansys dentro de \"Design Automation\", menos visibilidad standalone que el reporte previo de 3 segmentos) y el SBC subio 36% YoY => R9 capado en 6 por rojo en senal 3 (bug ServiceNow evitado). (3) CAP DE DATO NO VERIFICADO aplicado de forma pareja: R3=10.5 (pricing power >3-4% sin cifra primaria; liderazgo si verificado), R7=7 (ROIC post-fusion sin cifra verificada, deprimido por $27B+ goodwill), R6=8 (cliente <10% no verificado literalmente para FY2025; geografia si verificada via 10-K). NO cape R1/R2/R4/R5/R8/R9/R10/R11 porque sus datos clave se verificaron con el press release FY2025 / datos 10-K (revenue, segmentos, geografia, deuda, caja, SBC, NI, OCF, FCF, contabilidad de desinversion) => cap consistente en las 11 reglas (bug NVIDIA evitado). Knock-out SBC (#6) revisado: 66%/52%/~34% del FCF en FY25/24/23 = solo 2 anos consecutivos >50%, no 3 => NO knock-out, pero flag fuerte. Sin otros knock-outs (software, 30+ anos, sin VIE, sin restatement, EDA=habilitador estructural de ciencia).",
+   "confidence": "MEDIUM",
+   "prior_batch_score": 67.2
+  },
+  {
+   "ticker": "PANW",
+   "sector": "Ciberseguridad (Palo Alto Networks)",
+   "scores": {
+    "R1": 11,
+    "R2": 9,
+    "R3": 10,
+    "R4": 10,
+    "R5": 6.5,
+    "R6": 6.5,
+    "R7": 7.5,
+    "R8": 9,
+    "R9": 6,
+    "R10": 7.5,
+    "R11": 8
+   },
+   "score_100": 72.8,
+   "thesis": "PANW es el mayor proveedor puro de ciberseguridad: líder en firewalls de red y SASE (Gartner MQ 12+ años), negocio genuinamente capital-ligero (capex 2.7% de ventas, FCF margin ~38%, ~$8B de caja neta) montado sobre una industria de crecimiento secular. La \"plataformización\" profundiza los costes de cambio y el NGS ARR crece 32% ($5.6B). Pero opera en el mercado de software más competitivo del mundo, donde Microsoft (mayor vendedor de seguridad por ingresos) y especialistas best-of-breed (CrowdStrike, Zscaler, Wiz) atacan cada categoría, lo que limita la durabilidad del moat frente a una red de pagos o un exchange. Alta calidad con salvedades competitivas y de transparencia reales.",
+   "main_risk": "El moat de ciberseguridad es una \"Reina Roja\" que exige innovar sin descanso, y el bundling estructural de Microsoft (seguridad \"suficientemente buena\" en E5 a coste marginal ~0) puede erosionar precio y attach durante una década; a la vez el crecimiento se desacelera (15%) y se apoya cada vez más en M&A (goodwill +35% en un año, mega-compra de CyberArk pendiente).",
+   "flags": [
+    "Tres distribuidores concentran >10% de ingresos cada uno (18.8%/14.4%/11.0%, ~44% via top-3): concentracion de canal, mitigada por demanda final diversificada en 70k+ clientes (R6)",
+    "EEUU concentra >50% de ingresos (inferido de Americas 67%): no verificado con cifra exacta del 10-K (R6)",
+    "Brecha GAAP vs no-GAAP ~$1.2B (13% de ventas) por $1.3B de SBC excluido; no-GAAP NI $2.35B casi duplica el GAAP $1.13B (R9-amarillo)",
+    "PANW dejo de destacar 'billings' como metrica guia en FY2025 (feb-2025), migrando a NGS ARR/RPO durante un reset de crecimiento y con terminos de pago diferido: reduce comparabilidad de un indicador clave (R9/R10)",
+    "FY2024 GAAP NI inflado ~$1.6B por liberacion unica de valuation allowance fiscal; la 'caida' de NI FY25 ($2.58B->$1.13B) es optica, no operativa",
+    "Compensacion del CEO Arora historicamente entre las mas altas del mercado + SBC alta (~$1.3B) diluye (R10); no verificado desde el proxy",
+    "ROIC exacto calculado, no citado de fuente primaria; GAAP ROIC moderado (~alto-teens/bajo-20s) por $4.57B de goodwill + carga de SBC (R7)",
+    "M&A pendiente grande (CyberArk ~$25B, Chronosphere $3.35B, Protect AI) alterara el balance neto-caja y sumara goodwill en FY2026 (R8)",
+    "No se accedio directamente al 10-K (SEC devolvio 403); datos de press release oficial + balance/cash-flow de agregadores reputados + snippets del 10-K"
+   ],
+   "bug_check_notes": "(1) Suma raw explicita = 11+9+10+10+6.5+6.5+7.5+9+8+7.5+8 = 93; verificado que NINGUNA nota supera su tope (R1/R3/R4 <=15: 11/10/10 OK; resto <=10: max 9 OK). No hay bug tipo Mastercard: son puntos rubricos crudos sumados directamente, ninguna nota fue multiplicada por su propio peso; score_100 = 93/125 = 74.4. (2) Cambio de divulgacion/metrica reciente: SI encontrado -> PANW de-enfatizo 'billings' como metrica guia headline desde ~Q2 FY2025 (feb-2025), migrando a NGS ARR/RPO, coincidiendo con un reset de crecimiento y uso de terminos de pago flexibles/diferidos que halagan el ARR mientras difieren cobros; penalizado como resta estructural en R10 y como flag; R9 ya cae a amarillo por la brecha no-GAAP/SBC. Ademas detectado que el FY2024 GAAP NI estaba inflado ~$1.6B por liberacion unica de valuation allowance fiscal (no confundir la 'caida' de NI FY25 con deterioro operativo). (3) Tope 'dato no verificado -> max' aplicado de forma pareja: R3 (pricing power sin cifra) y R4 (NRR/churn por nº de plataformas sin verificar) mantenidos en 10/15 (bajo el techo critico 10.5); R2 (CAGR de mercado exacto no citado) a 9; R7 (ROIC exacto calculado, no citado) a 7.5; R6 (EEUU>50% inferido) a 6.5; R10 (comp del CEO no extraida del proxy) a 7.5. No se eximio selectivamente ninguna regla (evitando el bug NVIDIA).",
+   "confidence": "MEDIUM",
+   "prior_batch_score": 66
+  },
+  {
+   "ticker": "TYL",
+   "sector": "Software vertical GovTech (gobierno local/estatal EE.UU.) - Tyler Technologies",
+   "scores": {
+    "R1": 12,
+    "R2": 6,
+    "R3": 11,
+    "R4": 13,
+    "R5": 8,
+    "R6": 5,
+    "R7": 6,
+    "R8": 9,
+    "R9": 6,
+    "R10": 8,
+    "R11": 7
+   },
+   "score_100": 72.8,
+   "thesis": "Tyler es la franquicia dominante de software para gobiernos locales/estatales de EE.UU., con un moat de altísimos costes de cambio (sistemas misión-crítica, retención multi-decada, datos y cumplimiento embebidos), un core capital-light (capex <1% de ventas), caja neta y conversión de caja elevada (FCF ~575M sobre NI GAAP 263M). Los descuentos de calidad son reales: concentración geográfica casi total en EE.UU., ROIC reportado deprimido (~8% sobre capital invertido) por el goodwill de la adquisición apalancada de NIC (2.3B, 2021), y una brecha GAAP vs no-GAAP amplia (~45%). Negocio genuinamente de alta calidad pero no impecable; score_100 ~72.8 (91/125), en línea (algo por encima) del screening 70.4 sin bug aritmético detectado.",
+   "main_risk": "La ciclicidad presupuestaria y las restricciones de precio del sector público, sumadas a la dilucion de retornos por adquisiciones en serie (NIC), mantienen el ROIC reportado bajo; ademas el segmento de pagos/transacciones (heredado de NIC) tiene margenes menores y dependientes de partners que diluyen la escalabilidad del software puro.",
+   "flags": [
+    "Concentracion geografica: ~99% ingresos EE.UU., practicamente un solo pais (falla el test geografico de R6)",
+    "ROIC reportado ~8% deprimido por goodwill de NIC (2.3B, financiado con deuda); borde vs WACC pero con narrativa de inversion creible -> no es knockout, pero se vigila",
+    "Brecha GAAP vs no-GAAP amplia (~45%: NI GAAP 263M vs no-GAAP ~440M; Q3'24 confirmado 75.9M vs 110.0M) por SBC + amortizacion de intangibles de adquisiciones -> R9 topado en 6",
+    "Discrepancia de fuente en FCF 2024: comunicado oficial ~575M ('up 75.5%') vs agregador ~604M",
+    "10-K primario no accesible directamente (SEC devolvio 403 a WebFetch); se uso comunicados oficiales 8-K/businesswire/q4cdn + agregadores; goodwill/ROIC exactos estimados, no primario",
+    "Adquirente en serie (13+ deals) -> componente inorganico en el crecimiento y riesgo de asignacion de capital"
+   ],
+   "bug_check_notes": "(1) Suma raw = 91, verificada literal (12+6+11+13+8+5+6+9+6+8+7); ninguna nota supera su tope (R1=12, R3=11, R4=13 todas <=15; resto <=10). No hay doble multiplicacion por peso tipo Mastercard. (2) Cambio de divulgacion 2025-2026: Tyler sigue reportando recurrentes, SaaS, ARR y reconciliaciones no-GAAP; no elimino/reemplazo metricas clave (no es el caso ServiceNow). Pero la brecha GAAP-no-GAAP es grande y persistente (add-backs de SBC + amortizacion de adquisiciones) -> penalizado en R9 (Senal3 rojo -> tope 6). (3) Tope 'dato no verificado -> max 7/10 (10.5/15 criticas)' aplicado de forma pareja: no pude obtener 10-K primario (SEC 403); goodwill/ROIC exactos son estimados, por lo que R7 se mantiene en 6 (por debajo del tope 7). Ninguna regla acreditada por encima del tope con dato no verificado. Knockouts revisados: SBC ~123M = ~21% del FCF (<50%, sin knockout); ROIC bajo es post-NIC con narrativa creible y core que rinde muy por encima de WACC (sin knockout estructural); no VIE, no fraude, historial 25+ anios, sector no excluido, sin exclusion etica.",
+   "confidence": "MEDIUM",
+   "prior_batch_score": 70.4
+  },
+  {
+   "ticker": "SOON.SW",
+   "sector": "MedTech - Salud auditiva (audifonos, retail audiologico, implantes) - Sonova",
+   "scores": {
+    "R1": 9,
+    "R2": 7,
+    "R3": 10,
+    "R4": 10.5,
+    "R5": 5,
+    "R6": 8,
+    "R7": 7,
+    "R8": 8,
+    "R9": 8,
+    "R10": 7,
+    "R11": 9
+   },
+   "score_100": 70.8,
+   "thesis": "Sonova es el mayor grupo mundial de cuidado auditivo por ingresos (Phonak, Unitron, Advanced Bionics + Sennheiser consumer) dentro de un oligopolio de 5 jugadores que controla ~92% del mercado de audifonos, con integracion vertical en retail audiologico e implantes cocleares. Calidad SOLIDA pero no elite: moat multi-fuente (I+D/chips propios, barrera regulatoria de dispositivo medico, red de retail, cocleares) e impacto de salud estructural, contrapesados por ROCE moderado (18%), la integracion en retail que resta escalabilidad, beneficio neto plano/decreciente en el ultimo trienio y una amenaza creible de disrupcion OTC/Apple en la gama baja. Tier: Calidad solida (70.8/100). Este score mide CALIDAD del negocio, no valoracion ni margen de seguridad; score alto no significa comprar.",
+   "main_risk": "La democratizacion OTC y la entrada de Big Tech (AirPods Pro con clearance FDA como audifono) puede comprimir precio/volumen en la gama media-baja y erosionar el moat y el pricing power; a lo que se suma la transicion de CEO hacia el ex-jefe de un competidor directo (WS Audiology), con riesgo de estrategia/integracion.",
+   "flags": [
+    "Reestructuracion de segmentos FY24/25: Audiological Care (retail) y Consumer ahora se agrupan dentro del segmento Hearing Instruments -> menor visibilidad de la rentabilidad standalone del retail (transparencia levemente reducida; tipo ServiceNow, penalizado en R9)",
+    "Ajuste por reestructuracion recurrente (CHF 44.2M vs 23.7M prev.); brecha EPS ajustado 10.81 vs basico 9.07 ~19% -> ambar en R9 Senal 3",
+    "Beneficio neto basico cayo ~10% en CHF en FY24/25 (EPS basico 9.07) por reforma fiscal (+CHF 49.5M impuestos) y mayor reestructuracion; net income practicamente plano en 3 anios (CAGR ingresos 3y ~2% CHF por divisa) -> R5 bajo",
+    "Amenaza estructural OTC/Apple sobre el moat y ASP de gama media-baja (R2/R3/R4)",
+    "CEO entrante Eric Bernard proviene de un competidor directo (WS Audiology) -> incertidumbre de gobierno/estrategia en R10",
+    "ROCE 18% (no elite) y balance con goodwill elevado por rollup de retail -> R7 moderado"
+   ],
+   "bug_check_notes": "(1) Suma raw explicita = 88.5 = 9+7+10+10.5+5+8+7+8+8+7+9. Verificado que ninguna nota supera su tope (R1/R3/R4 <=15; resto <=10) y que ninguna se multiplico dos veces por su peso (bug Mastercard evitado). Score final = 88.5/125*100 = 70.8. (2) Cambio de divulgacion 2025-2026: SI existe -- Sonova consolido su reporte a 2 segmentos, absorbiendo Audiological Care (retail) y Consumer dentro de Hearing Instruments, lo que reduce la visibilidad de los margenes del retail; ademas lidera la comunicacion con EPS ajustado (10.81) mientras el basico (9.07) cae. Lo penalice manteniendo R9 en 8 (no premie con 10), evitando el bug ServiceNow. (3) Tope 'dato no verificado -> max 7/10 (10.5/15)': todos los datos clave (ventas, EBITA, EPS, ROCE, OCF/FCF, deuda neta, equity, segmentos, geografia) provienen del Informe Anual auditado FY2024/25 (IFRS, fuente primaria = HECHO para emisor suizo), por lo que NINGUNA regla quedo capada por dato no verificado; el criterio se aplico de forma pareja en las 11 reglas y ninguna requirio el cap. Unico dato inferido: net income exacto (~CHF 540M via EPS basico 9.07 x ~59.5M acciones) y conversion de caja 3y, usados solo como INFERENCIA de contexto, no como sosten de un knock-out.",
+   "confidence": "MEDIUM",
+   "prior_batch_score": 71.2
+  },
+  {
+   "ticker": "SGSN.SW",
+   "sector": "Testing, Inspection & Certification (TIC) - SGS",
+   "scores": {
+    "R1": 7.5,
+    "R2": 6.5,
+    "R3": 11,
+    "R4": 10.5,
+    "R5": 5.5,
+    "R6": 8.5,
+    "R7": 8,
+    "R8": 7.5,
+    "R9": 8,
+    "R10": 7.5,
+    "R11": 8
+   },
+   "score_100": 70.8,
+   "thesis": "SGS es la mayor empresa de Testing, Inspection & Certification (TIC) del mundo, un compounder durable con ROIC del 24% líder del sector, diversificación excepcional (115 países, sin cliente >10%, 3 regiones equilibradas) y un moat multi-fuente (acreditación/reputación/costes de cambio) que sostiene esos retornos desde hace 15+ años. Sin embargo, es un negocio intensivo en mano de obra y laboratorios (no asset-light: coste marginal lejos de cero), con crecimiento orgánico solo de un dígito medio (5-8%) en una industria fragmentada, competitiva (Bureau Veritas, Intertek, Eurofins) y de crecimiento estructural moderado (~3-4% CAGR). Calidad real y probada, pero con techos estructurales claros en escalabilidad, crecimiento y pricing power que lo sitúan por debajo de los negocios de red de élite.",
+   "main_risk": "Exposición cíclica en parte de la cartera (Natural Resources/Agricultura/Industrial: el Q4-2025 decepcionó por agricultura débil) y una industria fragmentada con tres rivales capaces que limitan el pricing power a inflación + poco; además el franco fuerte comprime el crecimiento reportado (FX -4.1% en H1-2025) sobre una base orgánica ya modesta de un dígito medio.",
+   "flags": [
+    "R6: el desglose exacto de ingresos por geografia y la concentracion por pais/cliente NO se extrajeron del filing primario 2024/2025 en esta sesion; la diversificacion se afirma desde disclosures operativos (115 paises, 2.600 oficinas) y conocimiento general -> R6 mantenido en 8.5 con cautela",
+    "Cambio de divulgacion: reorganizacion de segmentos bajo Strategy 27 + reset de la metodologia de ROIC (18.6% 2022 vs '22% estable' 2023) + metrica bespoke 'cash conversion >50%' reducen la comparabilidad historica -> cautela aplicada a R9 (una senal en amarillo)",
+    "CEO nuevo: Geraldine Picaud desde marzo 2024 (ex-CFO Holcim, fuerte historial externo pero tenure limitado en SGS); accionista ancla GBL redujo su participacion de 19.1% a ~14.6% (marzo 2025)",
+    "FCF H1-2025 titular incluye CHF 80m de venta de la sede de Ginebra (la empresa divulgo el FCF ex-HQ: 208m); metrica de 'cash conversion' es de definicion propia",
+    "Rating crediticio y ratio exacto Net debt/EBITDA no verificados desde fuente primaria esta sesion (R8 juzgado desde net debt H1-2025 de CHF 2.843m incl. leases, ~1.5-1.7x)"
+   ],
+   "bug_check_notes": "(1) raw_sum_shown = 88.5 = suma literal de las 11 notas reportadas (7.5+6.5+11+10.5+5.5+8.5+8+7.5+8+7.5+8). Verificado que NINGUNA nota excede su peso: criticas R1/R3/R4 = 7.5/11/10.5 (<=15); resto R2,R5-R11 todas <=10. Las notas SON los puntos en la escala nativa de cada regla; no hay multiplicacion doble por el peso (el bug de Mastercard). score_100 = 88.5/125 = 70.8. (2) Chequeo de cambios de divulgacion 2025-2026: SGS reorganizo el reporte de segmentos bajo Strategy 27, reseteo la metodologia de ROIC y usa una metrica propia de 'cash conversion'; esto reduce comparabilidad, asi que mantuve R9 en 8 (2 verdes + 1 amarillo) a pesar de una conversion FCF/NI fuerte (~120-129%) y un gap GAAP-ajustado pequeno (~4.5%), en vez de subir a 10. (3) Tope 'dato no verificado -> max 7 (o 10.5 critica)' aplicado de forma PAREJA: ninguna regla con un dato clave no verificado se llevo al techo -> R6 (split geo/cliente exacto no extraido) en 8.5, R8 (rating/ratio no confirmado) en 7.5, R2 (CAGR de mercado de terceros) en 6.5; las criticas R1/R3/R4 todas muy por debajo de 15 y del techo 10.5 donde aplica. Verificado que no repeti el error NVIDIA de aplicar el tope solo a algunas reglas.",
+   "confidence": "MEDIUM",
+   "prior_batch_score": 71.2
+  },
+  {
+   "ticker": "BVI.PA",
+   "sector": "Testing, Inspection & Certification (TIC) - servicios B2B asset-light (Bureau Veritas)",
+   "scores": {
+    "R1": 9.5,
+    "R2": 7,
+    "R3": 10,
+    "R4": 10.5,
+    "R5": 6,
+    "R6": 7,
+    "R7": 7,
+    "R8": 8,
+    "R9": 8,
+    "R10": 7,
+    "R11": 8
+   },
+   "score_100": 70.4,
+   "thesis": "Bureau Veritas es co-lider del oligopolio TIC (con SGS/Intertek), un negocio de servicios B2B asset-light con moat duradero de intangibles regulatorios (acreditaciones/notified-body) + costes de cambio, ROCE ~20%, margen operativo ajustado mid-teens (16.3% FY2025), excelente diversificacion de clientes/geografias/segmentos, contabilidad muy generadora de caja (conversion 107-114%) y apalancamiento modesto ~1.1x. Es un compounder bueno-pero-no-elite: es un negocio de personas (coste marginal NO tiende a cero), crecimiento organico mid-single-digit a traves del ciclo y apoyo relevante en M&A; margenes y ROIC solidos pero no de primer cuartil Seilern. Impacto estructural positivo (seguridad, calidad, sostenibilidad). Score /100 ~ 70.4.",
+   "main_risk": "Segmentos economicamente sensibles (Marine & Offshore, Industry, Agri-Food/Commodities) y dependencia de bolt-on M&A para crecer; ademas accionista de control Wendel (~26.5% economico / ~41% de voto via derechos de voto doble), que crea sobrecarga de gobierno y desviacion de one-share-one-vote.",
+   "flags": [
+    "ROIC/ROCE ~20% proviene de Simply Wall St (secundario), NO verificado en el URD -> R7 topada en 7",
+    "'Ningun cliente >10%' inferido de la estructura del sector TIC, no citado de filing -> R6 topada en 7 (la diversificacion geografica/segmentos SI esta en comunicado oficial)",
+    "Pricing power real 3-4% sostenido no verificado especificamente para BV -> R3 mantenida por debajo del tope critico",
+    "BV es co-lider, no el lider claro por valor/margen (Intertek/SGS con margenes comparables o superiores) -> R4 mantenida en 10.5",
+    "Uso intensivo de metricas 'adjusted'/'organic'; brecha operativo estatutario vs ajustado ~6% (FY2025)",
+    "CEO Hinda Gharbi relativamente nueva (desde 2023): track record en construccion",
+    "El screening previo de 71.2 NO se uso como ancla; puntuado desde cero con comunicados oficiales FY2024/FY2025"
+   ],
+   "bug_check_notes": "(1) Aritmetica: raw_sum_shown=88 (9.5+7+10+10.5+6+7+7+8+8+7+8). Ninguna nota supera su peso: criticas R1=9.5/R3=10/R4=10.5 (<=15), resto <=10. Verifique que NINGUNA nota se multiplico por su propio peso (el bug de Mastercard): no ocurre. (2) Cambio de divulgacion reciente que reduzca transparencia: NO encontrado; BV reporta adjusted operating profit/margin de forma consistente FY2024->FY2025, mantuvo la estructura de 6 divisiones y la conversion de caja (114%->107%); no dejo de reportar ni sustituyo una metrica por otra menos informativa. (3) Tope 'dato no verificado -> max 7/10 (10.5/15)' aplicado de forma pareja: R7 (ROIC secundario) y R6 (concentracion de clientes inferida) topadas en 7; R4 (liderazgo/moat no verificado como #1) en 10.5 y R3 (pricing real sostenido no verificado) por debajo del tope. Financieros (ingresos, margen, FCF, deuda neta, EPS, dividendo, mix geografico/segmentos) tomados de comunicados oficiales de BV.",
+   "confidence": "MEDIUM",
+   "prior_batch_score": 71.2
+  },
+  {
+   "ticker": "ALC",
+   "sector": "Salud / Dispositivos oftalmicos (cirugia catarata/vision) - Alcon",
+   "scores": {
+    "R1": 8,
+    "R2": 7,
+    "R3": 10.5,
+    "R4": 11,
+    "R5": 6,
+    "R6": 9,
+    "R7": 5,
+    "R8": 8,
+    "R9": 6,
+    "R10": 7,
+    "R11": 10
+   },
+   "score_100": 70,
+   "thesis": "Alcon es el líder mundial en oftalmología quirúrgica (cataratas/LIO, plataforma Clareon, ~#1 en LIO premium) con un foso real de costes de cambio (base instalada de cirujanos + consumibles/LIO tipo razor-razorblade) y barreras regulatorias/IP; la otra mitad, Vision Care (lentes de contacto), es un oligopolio de 4 jugadores más competitivo donde es #2-3. Tailwind demográfico durable (envejecimiento, cataratas, miopía, presbicia) con pista >10 años. Su debilidad estructural es el ROIC reportado bajo (~5%) por el enorme goodwill/intangibles del carve-out de Novartis (2019) y un modelo intensivo en capex; las economías ex-goodwill son mid-teens y los márgenes se expanden (op income $580M 2021 -> $1,413M 2024). Negocio de calidad sólida (72.4/100), no núcleo QG.",
+   "main_risk": "El foso no se traduce en retornos Seilern-grade sobre capital: ROIC reportado ~5% (WACC ~7-8%) y modelo capex-intensivo; además presión competitiva/commoditización en lentes de contacto y solo ~6 años de historial standalone, que limitan la confianza en la durabilidad del pricing power y del crecimiento.",
+   "flags": [
+    "Pricing power estructural (>=3-4% sobre inflacion, 10+ anios) NO verificado con fuente primaria -> R3 topada a 10.5/15",
+    "Cuota de mercado exacta (~31% LIO premium) de fuente secundaria (market research); el LIDERAZGO si consta en el 20-F (business description)",
+    "ROIC es INFERENCIA de balance/income verificados: ~5% reportado / ~15% ex-goodwill / ~22% core NOPAT -- no cifra oficial de la empresa",
+    "Brecha core vs IFRS grande (~47%: core NI ~$1.5B vs IFRS NI $1.02B) por ~$667M/anio de amortizacion de intangibles del carve-out; tolerable (no-caja, sostenida por FCF $1.6B) pero material -> R9 tratada como amarillo en Senal 3",
+    "Core net income inferido de core EPS $3.05 x ~493M acciones",
+    "Solo ~6-7 anios de historial standalone (spin de Novartis abr-2019); historial corto para R5 y R10",
+    "ROIC reportado < WACC ~6 anios: NO es knockout (artefacto de purchase-accounting + narrativa verificable de mejora de margen/retornos ex-goodwill) -> penalizado en R7=5"
+   ],
+   "bug_check_notes": "(1) Suma raw explicita = 90.5 (8+7+10.5+11+6+9+5+8+8+8+10). Verifique que ninguna nota supera su peso: criticas R1/R3/R4 <=15 (8/10.5/11), resto <=10 (7/6/9/5/8/8/8/10). Sin doble multiplicacion nota-por-peso (bug Mastercard). Score final = 90.5/125*100 = 72.4. (2) Busque cambio de divulgacion/metrica 2025-2026 que redujera transparencia real: NO encontre ninguno verificado -- Alcon mantiene reporte IFRS + core + segmentos (Surgical/Vision Care) + geografia de forma consistente; FY2025 ya publicado (~$10.4B ventas, $980M NI IFRS) con el mismo formato. (3) Aplique el tope 'dato clave no verificado -> max 7/10 (10.5/15 critica)' de forma pareja: R3 topada a 10.5 por pricing power no verificado. El resto usa datos de filings (20-F/6-K/estados auditados: ventas, margenes, NI, deuda, equity, goodwill, geografia, sin cliente >10%, FCF, CFO) o inferencias legitimas de ellos (ROIC en R7), que no requieren tope. Confirme que NO estoy anclando al 68 del screening previo -- puntue desde cero; mi resultado independiente (72.4) queda por encima de 68 pero en la misma banda 'Calidad solida', divergiendo del patron bajista de los casos citados porque el mandato era no anclar, no forzar una baja.",
+   "confidence": "MEDIUM",
+   "prior_batch_score": 68
+  },
+  {
+   "ticker": "DSY.MI",
+   "sector": "Diagnostico in-vitro (inmunodiagnostico especialidad + biologia molecular) - DiaSorin",
+   "scores": {
+    "R1": 10.5,
+    "R2": 7,
+    "R3": 9.5,
+    "R4": 10.5,
+    "R5": 5.5,
+    "R6": 8,
+    "R7": 5.5,
+    "R8": 8,
+    "R9": 6,
+    "R10": 7,
+    "R11": 8
+   },
+   "score_100": 68.4,
+   "thesis": "DiaSorin es un especialista de diagnostico in-vitro de nicho con un moat genuino pero estrecho (Morningstar: narrow moat): modelo razor/razorblade de base instalada (margen bruto 66%, EBITDA ajustado 33% FY24) con altos costes de cambio e intangibles regulatorios, centrado en inmunodiagnostico de especialidad (CLIA) y molecular multiplexing (LIAISON PLEX). Sin embargo, la calidad se ve mermada por retornos sobre capital total mediocres (ROIC reportado ~8%, lastrado por ~2.000 M EUR de goodwill/intangibles de la cara adquisicion de Luminex en 2021), beneficio neto plano/inferior al pico COVID de 2021, presion de precios creciente en China (VBP) y una brecha del 26% entre beneficio ajustado (236 M) y reportado (187 M). El control familiar Denegri (~89% de votos sobre ~44% de economics via acciones de lealtad) limita adicionalmente el gobierno. Buen negocio, no de elite; ~68/100.",
+   "main_risk": "La expansion del VBP/recortes de precios en China junto con la dilucion de valor de la compra de Luminex pueden mantener el ROIC total cerca o por debajo del coste de capital, limitando estructuralmente el compounding pese a una franquicia solida de especialidad en mercados desarrollados (EEUU +10%, Europa +8%).",
+   "flags": [
+    "ROIC reportado ~8% (invested capital ~2,42 B EUR: equity 1.799 M + net debt 621 M); ~2.000 M EUR de goodwill+intangibles de Luminex 2021 hunden el retorno sobre capital total pese a operacion capital-light — borde del knockout ROIC<WACC, NO disparado por narrativa creible/verificable de LIAISON PLEX (FDA clearances 2024-2025)",
+    "R9 Rojo: beneficio neto ajustado 236 M vs reportado 187 M = brecha GAAP/non-GAAP del 26% (>20%) por amortizacion de PPA e integracion de Luminex -> R9 tope 6",
+    "Control familiar Denegri: IP Investimenti 43,96% del capital pero ~89,33% de los votos en junta via acciones de lealtad — gran cuna entre voto y economics; minoritarios con poder muy limitado",
+    "China: VBP segunda ola extendiendose a Beijing/Shanghai + recortes de reembolso de marcadores tumorales; China -19% en H1 2025 -> erosiona pricing power (R3) y RoW (R6)",
+    "Beneficio neto 2024 (187 M) por debajo del pico COVID 2021 (311 M); crecimiento organico ex-COVID ~7% (bajo el doble digito que pide R5)",
+    "Balance (equity, goodwill, ROIC) via fuente secundaria (stockanalysis.com), no linea a linea del informe anual auditado -> confianza MEDIA en inputs de R7/R8, aunque corroborado por net debt primario 618 M",
+    "Concentracion de clientes no divulgada explicitamente; se asume diversificada (miles de laboratorios/hospitales) — no verificada en filing"
+   ],
+   "bug_check_notes": "(1) SUMA RAW: 10,5+7,0+9,5+10,5+5,5+8,0+5,5+8,0+6,0+7,0+8,0 = 85,5. Verificado que NINGUNA nota supera su peso: criticas R1/R3/R4 = 10,5/9,5/10,5 (<=15); resto todas <=10. Sin bug tipo Mastercard (nota multiplicada dos veces por su peso). score_100 = 85,5/125 = 68,4. (2) CAMBIO DE DIVULGACION 2025-2026: revisado FY2025/H1 2025 — la empresa sigue reportando ex-COVID, por segmento (Inmuno/Molecular/Licensed) y por geografia (NA/Europa/RoW); NO se detecto abandono de ninguna metrica clave. La unica senal de opacidad real es la brecha persistente ajustado-vs-reportado del 26% a nivel de beneficio neto, ya penalizada en R9 (Rojo). El deterioro de China es tema de calidad de negocio, no de transparencia contable. (3) TOPE 'dato no verificado -> max 7/10 (10,5/15 criticas)' aplicado de forma pareja: R3 (liderazgo/pricing parcialmente de fuentes de mercado) = 9,5 <=10,5; R4 (moat, narrow de Morningstar + modelo razor-blade verificado en filing) = 10,5; R10 gobierno AHORA verificado con fuentes primarias/fiables (loyalty shares 89% votos, junta 2025) -> puntuado por meritos en 7,0, no por el tope; R7/R8 inputs de balance de fuente secundaria pero corroborados por net debt primario 618 M -> mantenidos conservadores.",
+   "confidence": "MEDIUM",
+   "prior_batch_score": 69.6
+  },
+  {
+   "ticker": "NDAQ",
+   "sector": "Financial market infrastructure / indices / data / regtech-fintech",
+   "scores": {
+    "R1": 11,
+    "R2": 8,
+    "R3": 10,
+    "R4": 11,
+    "R5": 6,
+    "R6": 6,
+    "R7": 5,
+    "R8": 6,
+    "R9": 6,
+    "R10": 8,
+    "R11": 7
+   },
+   "score_100": 67.2,
+   "thesis": "NDAQ es una franquicia de infraestructura de mercado y tecnologia financiera asset-light y de foso ancho (indices/datos, listados, regtech, anti-crimen financiero via Verafin, market services) con vientos de cola seculares verificables y conversion de caja excelente (FCF/NI ~155%), dirigida por un equipo probado (Adena Friedman desde 2017). Pero la compra de Adenza en 2023 (~$10.5B, ~20x+ EBITDA) cargo ~$14B de goodwill y ~$9.9B de deuda, comprimiendo el ROIC combinado a ~7% (por debajo del WACC), ensanchando la brecha GAAP vs no-GAAP a ~46% por amortizacion de intangibles, y dejando el BPA GAAP en -7% y el no-GAAP plano en 2024. La calidad es genuina pero hoy esta empanada por los retornos/apalancamiento/optica de una adquisicion grande y cara aun en digestion.",
+   "main_risk": "La tesis de calidad depende de que las sinergias/cross-sell de Adenza y el desapalancamiento (de 3.6x a 3.3x EBITDA) materialicen; si el impulso de ARR/cross-sell se estanca, el ROIC sobre el capital efectivamente desplegado sigue sub-WACC y la calidad se re-califica a la baja.",
+   "flags": [
+    "ROIC combinado ~6.8% (NOPAT ~$1.38B / capital invertido ~$20.5B) POR DEBAJO del WACC ~8-9%, aplastado por goodwill+intangibles ~$20.9B de Adenza/Verafin; motor central del recorte vs screening",
+    "Brecha GAAP vs no-GAAP ~46% (no-GAAP NI $1,631M vs GAAP $1,117M) = ROJO en Senal 3 de R9 -> R9 topado a 6; impulsada por amortizacion de intangibles (no-cash), no por SBC",
+    "Apalancamiento bruto 3.6x EBITDA, IG (BBB/Baa2 estable), objetivo 3.3x; elevado y no es caja neta -> R8=6",
+    "Concentracion geografica: EEUU ~78.6% de ingresos (>50%) tope a R6; concentracion de clientes baja (ningun cliente >10%, inferido del modelo, no leido verbatim del 10-K)",
+    "Serie de pricing power a 10 anios y de crecimiento organico a 10 anios NO verificadas rigurosamente desde fuente primaria -> R3 (critica) mantenida <=10.5",
+    "BPA GAAP diluido -7% y BPA no-GAAP plano en 2024: creacion de valor por accion se estanco por dilucion (~86M acciones a Thoma Bravo) e intereses de Adenza",
+    "Proxy/gobernanza no revisada a fondo; R10=8 se apoya en track record publico verificable de Friedman (senales estructurales solo restan, no halle bandera negativa)",
+    "Queda por encima de un ICE re-calificado con rigor (53.6), comparable cercano con drag de goodwill similar; en el extremo severo NDAQ podria caer a los 60 bajos"
+   ],
+   "bug_check_notes": "(1) raw_sum_shown=84 = suma literal de las 11 notas reportadas (11+8+10+11+6+6+5+6+6+8+7). Verifique que NINGUNA nota excede su tope: R1/R3/R4<=15 (11/10/11), resto<=10 (8,6,6,5,6,6,8,7). No hay doble-multiplicacion por peso estilo Mastercard; notas en su escala nativa; score_100=84/125*100=67.2. (2) Cambio de divulgacion 2025-2026: post-Adenza NDAQ realineo a 3 segmentos (Capital Access/Financial Technology/Market Services) y se apoya fuerte en metricas no-GAAP/ARR/'organico'/'Solutions', reduciendo comparabilidad GAAP; la brecha GAAP-vs-noGAAP ~46% por amortizacion es el tema material de transparencia -> capturado en R9 (topado a 6). No halle metrica clave eliminada de golpe. (3) Aplique el tope 'dato no verificado -> max' de forma pareja: financieros/balance/geografia/apalancamiento/ratings verificados desde 10-K/earnings/filings (soportan R1,R2,R5,R6,R7,R8,R9,R11 sin tocar el tope); R3 mantenida <=10.5 (10) por serie de pricing 10a no verificada; R5=6 y R6=6 muy por debajo de sus topes; R10=8 se apoya en track record verificado con proxy marcado como no revisado a fondo.",
+   "confidence": "MEDIUM",
+   "prior_batch_score": 72
+  },
+  {
+   "ticker": "TMO",
+   "sector": "Life sciences tools, diagnostics y servicios farma (CDMO/CRO) - Thermo Fisher",
+   "scores": {
+    "R1": 8,
+    "R2": 7,
+    "R3": 10,
+    "R4": 12,
+    "R5": 5,
+    "R6": 8,
+    "R7": 5,
+    "R8": 7,
+    "R9": 6,
+    "R10": 8,
+    "R11": 8
+   },
+   "score_100": 67.2,
+   "thesis": "TMO es la franquicia de herramientas para ciencias de la vida mas grande y de mayor amplitud del mundo, con un moat multi-fuente y durable (costes de cambio altos en consumibles/reactivos validados en QC farma regulado + ventaja de escala/one-stop-shop + canal Fisher) y vientos de cola seculares reales. Pero su CALIDAD queda materialmente diluida por el modelo de adquiriente en serie: ROIC GAAP de solo ~9-12% incluyendo goodwill (muy por debajo del ideal 25-30%), brecha GAAP vs no-GAAP de ~22%, y ~54% de los ingresos en el segmento Lab Products & Biopharma Services a solo 14% de margen (capital/personal-intensivo, CDMO/CRO). El crecimiento organico se estanco (0% en 2024, +2% en 2025) tras el rolloff de COVID y la debilidad en biofarma/China. Negocio de alta calidad pero NO elite: moat e impacto fuertes, retornos sobre capital mediocres. Raw 84/125 = 67.2/100.",
+   "main_risk": "La mitad de los ingresos vive en servicios de bajo margen (14%), capital y personal-intensivos, y todo el modelo depende de M&A que siga siendo value-accretive; si las adquisiciones dejan de componer o el organico se queda en dobles bajos, el ROIC de ~10% y la brecha GAAP/no-GAAP estirada dejan poco colchon de calidad.",
+   "flags": [
+    "ROIC GAAP ~9-12% incl. goodwill (derivado de inputs de filing, no cifra primaria unica): muy por debajo del 25-30% ideal; el goodwill de adquisiciones diluye retornos -> R7 puntuado bajo (5/10)",
+    "Crecimiento organico debil: 0% (2024) y +2% (2025), muy por debajo del umbral doble-digito organico / NI 12-15%; recuperacion aun no confirmada -> R5=5",
+    "Brecha GAAP vs no-GAAP ~22% (EPS adj $22.87 vs GAAP $17.74) -> Rojo en R9 Senal3; impulsada sobre todo por amortizacion de intangibles de adquisicion (no-caja), techo R9 en 6",
+    "US = 52.5% de ingresos (>50%) -> leve concentracion pais unico en R6, compensada por fragmentacion de clientes excelente (ningun cliente >10%)",
+    "~54% de ingresos en Lab Products & Biopharma Services a 14% margen (CDMO Patheon + CRO PPD + distribucion Fisher): capital/personal-intensivo, limita escalabilidad R1 y margen mezclado",
+    "Balance: deuda bruta ~$35.5B, net debt/EBITDA ~2.0-2.4x, pero IG A2 (upgrade Moody's nov-2025), cobertura de intereses ~20x -> apalancado pero NO toxico; sin bonus por caja neta",
+    "Pricing power especifico (3-4%/anio sobre inflacion sostenido 10 anios) NO verificado con cifra primaria dura; pricing tipico de TMO ~2-3% -> limita R3 a 10/15"
+   ],
+   "bug_check_notes": "(1) Suma raw literal = 8+7+10+12+5+8+5+7+6+8+8 = 84. Verificado que NINGUNA nota excede su tope: R1(8<=15), R3(10<=15), R4(12<=15) criticas OK; R2/R5/R6/R7/R8/R9/R10/R11 todas <=10. No hay bug de multiplicar una nota por su propio peso (bug Mastercard) -- las notas son puntos crudos directos, no ponderados. score_100 = 84/125*100 = 67.2. (2) Revise cambios de divulgacion 2025-2026: NO encontre reduccion material de transparencia (siguen reportando 4 segmentos, desglose geografico y reconciliaciones no-GAAP completas; upgrade a A2 en nov-2025). La brecha GAAP/no-GAAP grande (~22%) es estructural por amortizacion de intangibles y ya esta capturada como Rojo en R9, no es una reduccion nueva de divulgacion. (3) Aplique el tope de dato-no-verificado de forma pareja en las 11 reglas: las reglas con dato mas blando (R3 pricing power, R7 ROIC exacto) ya estan puntuadas por debajo de sus topes (10/15 y 5/10), asi que el tope no es vinculante y NO infle ninguna regla saltandome el cap (ese fue el bug NVIDIA). R9 respeta las 4 salidas discretas del semaforo {10,8,<=6,knockout}: 2 verdes (Senal1 conversion FCF/NI 3-anios ~94-115% Verde; Senal2 accruals negativos porque CFO>NI Verde) + 1 rojo (Senal3 brecha >20%) -> techo 6.",
+   "confidence": "MEDIUM",
+   "prior_batch_score": 70.4
+  },
+  {
+   "ticker": "ALGN",
+   "sector": "Med-tech dental / ortodoncia digital (alineadores Invisalign) - Align Technology",
+   "scores": {
+    "R1": 8,
+    "R2": 6,
+    "R3": 9,
+    "R4": 10,
+    "R5": 3,
+    "R6": 9,
+    "R7": 7.5,
+    "R8": 9,
+    "R9": 6,
+    "R10": 8,
+    "R11": 5
+   },
+   "score_100": 64.4,
+   "thesis": "Align es el líder global indiscutido de la ortodoncia con alineadores, con un multi-moat real (marca Invisalign = categoría, algoritmos ClinCheck alimentados por 20M+ casos, ecosistema de doctores anclado en el escáner iTero), balance fortaleza (caja $1.044M, deuda cero) y capex ligero (~3% de ventas) que genera excelente conversión a caja (FCF ~$623M, 148% del beneficio neto). Pero la calidad se está desvaneciendo de forma verificable: ingresos estancados desde 2021 ($3.95B→$4.03B), margen operativo comprimido de 24,7% a 13,5% en cuatro años, ASP cayendo pese a volúmenes récord, y margen bruto -470pb interanual por competencia (Angelalign, Straumann, Dentsply, Envista) y aranceles. Un buen negocio que ya no es excelente.",
+   "main_risk": "La erosión continua de precio/margen por competencia de bajo coste (sobre todo Angelalign en Asia) y exposición a aranceles puede seguir comprimiendo la rentabilidad pese al crecimiento de volumen, convirtiendo a un líder de categoría en un incumbente de bajo crecimiento y márgenes presionados.",
+   "flags": [
+    "Apalancamiento operativo NEGATIVO: margen operativo 24,7% (2021) -> 13,5% (2025); beneficio operativo cayendo 4 años seguidos ($976M->$546M)",
+    "Poder de fijacion de precios negativo: volumenes +4,7% (2025) pero ingresos Clear Aligner +0,5% -> ASP -~4%; revenue/caso $1.330(2023)->$1.265(Q4'24)",
+    "Margen bruto -~470pb interanual (Q4'24 70,0% -> Q4'25 65,3%) por mix/competencia/aranceles",
+    "Brecha GAAP vs non-GAAP ~40% en beneficio neto, en parte por tasa fiscal non-GAAP asumida de 20% vs 30,8% GAAP real -> R9 topado en 6",
+    "Erosion de moat: patentes core de Invisalign expiradas + competidores ganando terreno",
+    "DTA de $1.557M distorsiona ROIC/ROE sobre capital total (~mid-teens) frente a ROIC operativo alto",
+    "Ingresos en meseta: $3,95B (2021) -> $4,03B (2025), ~0,5%/año; beneficio neto declinando"
+   ],
+   "bug_check_notes": "(1) Suma raw explicita = 80.5; verificado que NINGUNA nota excede su tope: R1=8/R3=9/R4=10 (<=15 OK), resto max R6/R8=9 (<=10 OK). No hay bug tipo Mastercard (nota multiplicada por su peso). (2) Cambio de divulgacion 2025-2026: revisado FY2025 vs FY2024 -- la empresa SIGUE reportando volumenes de casos, tasas de utilizacion y revenue-por-caso (ASP); no encontre eliminacion de metrica. SI identifique presentacion non-GAAP persistentemente agresiva (tasa fiscal asumida 20% vs 30,8% GAAP; brecha NI ~40%) y una caida de margen bruto de ~470pb -- ambos reflejados en R9 (topado en 6) y en R1/R3 restringidos. (3) Tope 'dato no verificado -> max 7/10 (10,5/15)': casi todo el dato duro esta verificado con fuente primaria (10-K FY2024 EDGAR, press releases Q4'24/Q4'25, XBRL companyconcept para revenue/NI/opinc/capex). Ninguna regla se puntuo por encima del tope apoyandose en un dato no verificado; la cap se aplico de forma pareja. Los elementos de juicio (ROIC operativo exacto, durabilidad del moat) son analiticos, no datos duros no verificados.",
+   "confidence": "MEDIUM",
+   "prior_batch_score": 67.2
+  },
+  {
+   "ticker": "EL",
+   "sector": "Salud visual / eyewear (lentes oftalmicas, monturas, retail) - EssilorLuxottica",
+   "scores": {
+    "R1": 7.5,
+    "R2": 7.5,
+    "R3": 11,
+    "R4": 11.5,
+    "R5": 5,
+    "R6": 7,
+    "R7": 4,
+    "R8": 7,
+    "R9": 6,
+    "R10": 5,
+    "R11": 7
+   },
+   "score_100": 62.8,
+   "thesis": "EssilorLuxottica es el lider global indiscutido de la optica: el unico jugador totalmente integrado verticalmente, desde la fabricacion de lentes (Varilux, Crizal, Transitions) y marcas iconicas (Ray-Ban, Oakley, licencias de lujo) hasta la mayor red minorista del mundo (~18.000 tiendas), con vientos de cola seculares (envejecimiento, epidemia de miopia -myopia management +22%- y la nueva categoria de smart glasses via Meta, >7M unidades en 2025). Pero es un fabricante-minorista intensivo en capital, NO un compounder asset-light: el ROIC reportado ronda ~5% (deprimido por el goodwill de la megafusion), el beneficio neto IFRS lleva practicamente plano 2022-2025 (2.281M -> 2.443M) mientras el margen se comprime por aranceles y dilucion de AI-glasses, y el gobierno esta concentrado en Delfin (familia Del Vecchio ~32%) con Milleri acumulando Presidente+CEO de EL y Presidente de Delfin en medio de una disputa sucesoria. Un lider de foso ancho y real cuya nota de calidad la arrastran hacia abajo los bajos retornos sobre capital, el crecimiento de beneficio estancado y la concentracion de gobierno.",
+   "main_risk": "El crecimiento de beneficio esta estancado mientras la intensidad de capital y el goodwill de fusion mantienen el ROIC cerca de ~5%; la compresion de margen por aranceles y mezcla dilutiva de AI-glasses, sumada al control familiar concentrado y a la disputa sucesoria no resuelta en Delfin, podrian persistir y limitar la calidad de los retornos.",
+   "flags": [
+    "ROIC ~5% reportado (por debajo del WACC estimado ~7-8%) proviene de agregadores terceros (finbox/gurufocus), NO del URD -> dato clave de R7 no verificado en fuente primaria",
+    "No es knockout #4 (ROIC<WACC): existe narrativa de inversion creible y verificable (la fusion creo el campeon integrado; retornos ex-goodwill sanos; FCF y dividendo crecientes) y el dato no esta verificado en primario -> se puntua, no se cuarentena",
+    "Detalle de cuenta de resultados/flujo IFRS (NI, capex, D&A, SBC) tomado de stockanalysis.com, no del URD directamente; ingresos y FCF si corroboran el comunicado oficial",
+    "Desglose geografico (Norteamerica ~40-45%, ningun pais >50%) NO verificado en fuente primaria -> R6 topado a 7",
+    "Detalle de gobierno (Delfin ~32%; Milleri = Presidente+CEO de EL y Presidente de Delfin; disputa sucesoria Del Vecchio) de Wikipedia/prensa, no de la seccion de gobierno del URD",
+    "Brecha ajustado-vs-IFRS grande y creciente (~30%): beneficio operativo ajustado 4.459M vs IFRS 3.379M; beneficio neto ajustado 3.157M vs IFRS 2.443M -> senal roja en R9",
+    "Beneficio neto IFRS practicamente plano 2022-2025 pese al crecimiento de ingresos (compresion de margen)",
+    "Compresion de margen 2025: margen bruto -260pb; margen operativo ajustado 16,7% -> 15,7% reportado (empresa enfatiza 16,0% a FX constante para suavizarlo)"
+   ],
+   "bug_check_notes": "(1) Suma raw explicita = 7,5+7,5+11+11,5+5+7+4+7+6+5+7 = 78,5; verificado que NINGUNA nota excede su peso (R1=7,5/R3=11/R4=11,5 todas <=15; resto <=10). Sin bug tipo Mastercard: no multipliqué ninguna nota por su peso; score_100 = 78,5/125*100 = 62,8 (calculado una sola vez), bien por debajo del screening previo 70,4 -consistente con el sesgo optimista sistemico-. (2) Revision de reduccion de transparencia 2025-2026: EL enfatiza cada vez mas cifras 'ajustadas' y 'a FX constante'; la brecha ajustado-vs-IFRS se AMPLIO en 2025 (mas PPA de adquisiciones -Heidelberg, GrandVision- y la inversion en AI-glasses excluida del ajustado), y destacan '16,0% margen op ajustado a FX constante' para suavizar la caida reportada a 15,7% y el -260pb de margen bruto -> penalizado via senal roja de R9 (topado a 6). No detecte una metrica de segmento discontinuada, pero la brecha ajustada creciente es la preocupacion de transparencia. (3) Tope 'dato no verificado -> max 7/10 (10,5/15 criticas)' aplicado de forma PAREJA en las 11: R6 topado explicitamente a 7 (split geografico no primario); R7 (4) y R10 (5) tenian datos clave no primarios pero ya puntuaban por debajo de 7; criticas R1(7,5)/R3(11)/R4(11,5) sobre hechos primario-evidentes (lider #1, marcas propias, integracion vertical) y por debajo de sus topes o justificadas; verificada la consistencia para no repetir el bug de NVIDIA (aplicar el tope a unas reglas y a otras no).",
+   "confidence": "MEDIUM",
+   "prior_batch_score": 70.4
+  },
+  {
+   "ticker": "ENX.PA",
+   "sector": "Bolsas / infraestructura de mercado (exchanges, listing, data) - Euronext",
+   "scores": {
+    "R1": 8,
+    "R2": 5,
+    "R3": 8,
+    "R4": 9,
+    "R5": 5,
+    "R6": 6,
+    "R7": 7,
+    "R8": 8,
+    "R9": 7,
+    "R10": 7,
+    "R11": 6
+   },
+   "score_100": 60.8,
+   "thesis": "Euronext es un líder genuino de infraestructura de mercado paneuropea (listings, cash equities continentales, y una cadena integrada creciente de clearing/CSD/datos) con márgenes EBITDA ~62.7%, 59% de ingresos no ligados a volumen que cubren 157% del opex, balance A- a 1.5x deuda neta/EBITDA y buen track record de gestión (Boujnah, integración de Borsa Italiana con sinergias adelantadas). Pero su calidad está topada por dependencia fuerte de M&A para crecer, un moat de trading de cash equities realmente disputado por Cboe/MTFs bajo MiFID, exposición a una sola macro-región (Europa) y un ROIC reportado modesto diluido por ~5bn de goodwill. Score independiente desde cero: 76/125 = 60.8/100, tier Watchlist, muy por debajo del screening optimista de 71.2. Este score mide CALIDAD del negocio, no valoración ni margen de seguridad; score alto no equivale a comprar.",
+   "main_risk": "Fragmentación del mercado europeo (Cboe/Aquis/MTFs bajo MiFID) que erosiona el moat de trading, combinada con dependencia de M&A serial para crecer y volúmenes de trading cíclicos; si el crecimiento orgánico se estanca o las sinergias decepcionan, la tesis de calidad se debilita. El net treasury income sensible a tipos (+22.6%) podría revertir.",
+   "flags": [
+    "ROIC no verificado con filing primario: las cifras de terceros (0.24-0.4%) estan distorsionadas por el balance pass-through de la camara de compensacion (margenes/default fund); R7 topado a 7 por dato clave no verificado",
+    "FCF/conversion de caja (R9 Senal 1) no extraido de estados auditados (el PDF primario venia binario-corrupto); R9 topado a 7. Brecha ajustado-vs-reportado SI verificada: NI ajustado 736.5m vs reportado 642.9m = ~14.6% (ambar)",
+    "Crecimiento materialmente inorganico: Borsa Italiana 2021, VP Securities, Nord Pool, GRSS, Admincontrol, Athex 2025; organico like-for-like a divisa constante +9.5% en 2025 pero inflado por volumenes ciclicos de trading",
+    "Moat de cash equity trading disputado por Cboe Europe/Aquis; declive secular de listings europeos vs EE.UU.; franquicia de derivados pequena vs Eurex/ICE/CME",
+    "Concentracion en una sola macro-region (Europa), aunque diversificada en 7+ paises sin uno >~40-50%",
+    "Rol combinado Presidente + CEO (Boujnah) y acuerdo de accionistas de referencia (~24%): bandera de gobierno menor",
+    "Net treasury income (69.6m, +22.6%) sensible a tipos, no organico ni durable"
+   ],
+   "bug_check_notes": "Check 1 (suma raw y topes): raw_sum_shown=76 = suma literal de las 11 notas (8+5+8+9+5+6+7+8+7+7+6). Ninguna nota excede su peso: R1/R3/R4 son 8/8/9 <=15; el resto <=10. No hay doble multiplicacion por peso (bug Mastercard evitado); las notas ya estan en escala ponderada. Normalizado 76/125=60.8/100. Check 2 (cambio de divulgacion 2025-2026): Euronext re-segmento el reporte en 2024-2025 (nuevos segmentos Equity/FICC/Capital Markets & Data Solutions/Securities Services + Net Treasury Income separado), lo que reduce comparabilidad historica pero sigue dando detalle (non-volume 59%, like-for-like, underlying vs reported); no hay abandono de una metrica clave que reduzca transparencia real, asi que no penalizo extra por esto en R9 (solo el ambar verificado de la brecha ajustado-vs-reportado). Check 3 (tope dato-no-verificado aplicado parejo): aplicado a R7 (ROIC no verificable con fuente primaria, cifras de terceros son artefacto del balance CCP) y a R9 (conversion de caja no extraida del auditado); las demas reglas descansan en datos de comunicados primarios (revenue, EBITDA, deuda neta/EBITDA, rating S&P A-) o en juicio cualitativo estructural, y donde hay inferencia (R3 pricing power, R6 concentracion de clientes) la nota ya esta muy por debajo de su tope, asi que el cap no es la restriccion vinculante. No anclado al 71.2 del screening.",
+   "confidence": "MEDIUM",
+   "prior_batch_score": 71.2
+  },
+  {
+   "ticker": "LMN.TO",
+   "sector": "Software vertical (VMS) comunicaciones/media - Lumine Group",
+   "scores": {
+    "R1": 10.5,
+    "R2": 3,
+    "R3": 9,
+    "R4": 10.5,
+    "R5": 3,
+    "R6": 7,
+    "R7": 7,
+    "R8": 7,
+    "R9": 6,
+    "R10": 7,
+    "R11": 5
+   },
+   "score_100": 60,
+   "thesis": "Lumine Group es un adquirente en serie de la familia Constellation Software enfocado en software vertical (VMS) para telecomunicaciones y medios. Su calidad real descansa en un moat de costes de cambio genuino (~80%+ ingresos recurrentes, sistemas mission-critical embebidos), economia asset-light de alto margen (EBITA ~36%), balance con caja neta y asignacion de capital estilo CSI que redespliega FCF en un runway de M&A fragmentado y largo. Sin embargo, es fundamentalmente un roll-up cuyo crecimiento ORGANICO es negativo-a-plano (-8% FY24, +1% FY25, -2% Q1'26) en mercados finales maduros/declinantes de telco y broadcast, por lo que reprueba las pruebas de calidad de crecimiento (R2/R5). Ademas, el beneficio GAAP esta distorsionado por fuerte amortizacion de intangibles adquiridos y (hasta mar-2024) el remeasurement a valor razonable de los preferred securities de Constellation (perdida neta no-caja de -$258.9M en 2024). Puntuacion ~60/100, claramente por debajo del ancla optimista de 68 del screening rapido.",
+   "main_risk": "Los mercados finales (telco, broadcast/medios tradicionales) estan estructuralmente presionados, asi que el moat pegajoso protege un estanque que se encoge; el crecimiento depende por completo de continuar comprando VMS de forma acretiva bajo una gobernanza controlada por Constellation (super-voting share, ~61%) que debe seguir siendo disciplinada.",
+   "flags": [
+    "Historial como cotizada independiente <5 anios (spin-out feb-2023, ~3.4 anios); carve-out financials extienden el registro solo a ~2020 -> KO-3 en zona limite, scored por linaje CSI y madurez del negocio, no cuarentena",
+    "Crecimiento organico negativo-a-plano (-8% FY24 / +1% FY25 / -2% Q1'26) en verticales comms & media maduros",
+    "Estructura dual-class: Constellation controla ~61% y el voto via super-voting share; accionistas minoritarios diluidos en voz",
+    "CEO David Nyland tomo licencia y reasumio funciones feb-2025 (bandera de continuidad)",
+    "Cifras exactas de balance (caja/deuda), ROIC y concentracion cliente/geografia NO confirmadas desde filing primario legible (PDFs 10-K/MD&A vinieron en binario) -> R4/R6/R7/R8 mantenidas en/por debajo del tope de dato-no-verificado (7, y R4 critica en 10.5)",
+    "GAAP net income distorsionado por amortizacion de intangibles + remeasurement de preferreds; brecha GAAP vs FCFA2S >20% -> R9 Senal3 roja"
+   ],
+   "bug_check_notes": "(1) raw_sum_shown = 75.0, suma literal de las 11 notas (10.5+3+9+10.5+3+7+7+7+6+7+5). Verifique que NINGUNA nota excede su peso: criticas R1/R3/R4 = 10.5/9/10.5 (<=15); resto <=10. Sin multiplicacion por-peso doble tipo Mastercard. score_100 = 75/125 = 60.0. (2) Cambio de divulgacion 2025-2026: la conversion de preferred securities a comunes (mar-2024) SIMPLIFICO el reporte en vez de reducir transparencia; no encontre metrica que dejaran de reportar; la brecha estructural GAAP-vs-nonGAAP (amortizacion de intangibles + direccion por FCFA2S/EBITA) SI se penaliza en R9=6 (1 roja, Senal 3). (3) Tope 'dato no verificado -> max 7/10 (10.5/15 en criticas)' aplicado de forma PAREJA: R4 limitada a 10.5 (soporte cuantitativo del moat solo secundario), R6/R7/R8 limitadas a 7 (concentracion/ROIC/balance exacto secundarios); R1 NO capada porque margen ~36% y capex-light salen de comunicados primarios (income statement); confirmado que no cape unas reglas dejando otra equivalente sin capar (el bug de NVIDIA).",
+   "confidence": "MEDIUM",
+   "prior_batch_score": 68
+  },
+  {
+   "ticker": "EFX",
+   "sector": "Data & analytics infrastructure (credit bureau + employment/income data) - Equifax",
+   "scores": {
+    "R1": 8,
+    "R2": 6,
+    "R3": 9,
+    "R4": 10,
+    "R5": 3,
+    "R6": 5,
+    "R7": 6,
+    "R8": 7,
+    "R9": 6,
+    "R10": 6,
+    "R11": 3
+   },
+   "score_100": 55.2,
+   "thesis": "Equifax es infraestructura de datos y analitica (buro de credito USIS + verificacion de empleo/ingresos via The Work Number en Workforce Solutions) con un foso genuino en su joya: un dataset propietario de nominas contribuido directamente por empleadores/procesadores, casi irreplicable, mas barreras regulatorias FCRA y costes de cambio por integracion en flujos de originacion. Pero la calidad global esta limitada por un ROIC reportado de solo ~8% (apenas sobre el WACC, lastrado por el goodwill de adquisiciones en serie), una brecha GAAP-vs-ajustado de ~30% que resta transparencia, ciclicidad hipotecaria/contratacion y ~72% de ingresos concentrados en EEUU. Puntua 64.4/100, por debajo del screening optimista de 67.2 y coherente con el hallazgo sistemico de que el screening rapido corre alto.",
+   "main_risk": "El ROIC estructural de ~8% roza el WACC y solo evita el knock-out #4 por la narrativa creible de fin de la transformacion cloud (ROIC incremental ~13.6% y margenes expandiendose); si los retornos incrementales dejan de mejorar, el caso de calidad se erosiona. A ello se suma riesgo regulatorio (CFPB sobre buros) y de seguridad de datos tras la brecha de 2017.",
+   "flags": [
+    "ROIC reportado ~8% (con goodwill) apenas sobre WACC 8-9%; lo mas cercano a KO#4, evitado solo por narrativa de inversion cloud creible",
+    "Serial acquirer: crecimiento asistido por M&A (Appriss, etc.); goodwill elevado deprime ROIC y la organicidad real de R5",
+    "Brecha GAAP-vs-ajustado ~30% (adj EPS $7.65 vs GAAP $5.32 en 2025; $7.29 vs $4.84 en 2024): el ajuste re-suma amortizacion de intangibles de adquisicion RECURRENTE + 'realignment' -> R9 Rojo, cap 6",
+    "Legado de gobierno: brecha 2017 (147M consumidores, coste >$1.38B) + ex-CIO Jun Ying condenado por insider trading; error de scoring 2022 -> resta en R10",
+    "Datos de geografia (~72% EEUU, >50% en un pais) y cliente mayor (~3%) provienen del 10-K FY2018, NO verificados a año corriente -> flag de vigencia en R6",
+    "FCF/NI >130-170% esta favorecido por D&A (amortizacion de adquisiciones + cloud) > capex; no leer como super-conversion estructural",
+    "Ciclicidad: colapso hipotecario/contratacion 2022-2025 enmascara el crecimiento secular; el tailwind no es puramente secular",
+    "Foso mixto: The Work Number es elite (~40% ingresos) pero USIS es oligopolio COMPARTIDO (Experian/TransUnion con datos similares) e International es subescala"
+   ],
+   "bug_check_notes": "(1) SUMA RAW EXPLICITA: 10.5+7+10.5+11.5+6+6+4.5+6.5+6+6.5+5.5 = 80.5; score_100 = 80.5/125 = 64.4. Verificado que NINGUNA nota excede su peso: R1/R3/R4 <=15 (10.5/10.5/11.5) y R2,R5-R11 <=10. No hay bug tipo Mastercard (nota multiplicada dos veces por su peso); el /125 se aplica una sola vez al total. (2) CAMBIO DE DIVULGACION 2025-2026: revisado. Equifax sigue reportando revenue por segmento, split mortgage/non-mortgage y la reconciliacion estandar de adjusted EPS; NO encontre eliminacion de una metrica clave (no hay bug tipo ServiceNow). Pero el puente adjusted-EPS sigue siendo agresivo (~30% de brecha, re-suma amortizacion de adquisicion recurrente + 'realignment') y eso ya esta penalizado con R9 Rojo=6. (3) TOPE 'dato no verificado -> max 7/10 (10.5 en criticas)' aplicado de forma PAREJA: R1 y R3 fijadas EXACTAMENTE en 10.5 por claims cuantitativos no verificables (tamaño de TAM/runway; magnitud de pricing power sostenido 10+ años); R2 fijada en 7 (duracion del tailwind secular es juicio); R6 mantenida <=7 (cliente 3% y geografia 72% provienen de 10-K FY2018, no verificados a año corriente). Reglas por debajo de su tope (R5,R7,R8,R10,R11) no requieren cap. Evitada la inconsistencia tipo NVIDIA.",
+   "confidence": "MEDIUM",
+   "prior_batch_score": 67.2
+  }
+ ],
+ "discarded": [],
+ "correctionsLog": [
+  {
+   "ticker": "PANW",
+   "round": "adv-r1",
+   "before": 74.4,
+   "after": 72.8,
+   "reasoning": "ADVERSARIAL VERDICT: MATERIAL_DISCREPANCY_FOUND. One rule (R9) was mis-scored against the explicit rubric semaforo; recomputed score 74.4 -> 72.8 (still Calidad solida 65-74, no tier flip, but a real rubric misapplication that must be RECALCULATED, not adjusted).\n\nARITHMETIC (bug pattern 1 clear): sum of the 11 proposed notes = 93; 93/125*100 = 74.4 exactly matches. No note exceeds its weight (R1 11<=15, R3/R4 10<=15, standards <=10). No Mastercard-style double-count.\n\nPRIMARY-SOURCE ATTACKS ON THE HIGH-IMPACT DATA (all HELD): (a) NGS ARR $5.58B / +32% verified in FY2025 DEF 14A and Q4/FY2025 release; (b) adjusted FCF margin 38-39% verified; (c) net cash ~$8.46B verified from the Q4 FY2025 balance sheet (cash $2,268.6M + ST inv $634.6M + LT inv $5,555.6M, $0 convertibles) — R8=9 stands; (d) no knockout: software/cybersecurity sector allowed, no VIE, SBC $1,386.4M is ~40% of adjusted FCF (below the 50% KO), no ROIC<WACC. Status stays SCORED.\n\nTHE MATERIAL FINDING (R9, NVIDIA-style cap misapplied): the rubric R9 Senal 3 (brecha GAAP vs Non-GAAP) is Verde <10% / Amarillo 10-20% / Rojo >20%. PANW FY2025 non-GAAP net income $2,344.5M vs GAAP $1,133.9M is a ~107% gap — deeply RED, sustained every year, driven by SBC of $1,386.4M (15.0% of revenue). Senal 1 (FCF/NI ~150-310%) and Senal 2 (accruals strongly negative, CFO >> NI) are green. The aggregation rule states '1 rojo -> max 6/10.' A note of 8 requires Senal 3 to be amarillo at worst, which is impossible at a 107% gap. The Non-GAAP 2-step does NOT rescue it above the cap: it only decides whether to add a further 'penalizacion directa'; since adjusted FCF (~$3.5B) sustains the $2.34B non-GAAP figure, R9 sits AT the cap of 6, not above it. Cross-check vs the MSFT anchor (SBC ~4% of revenue, negligible non-GAAP gap -> green) confirms PANW must score lower on R9, so 6 is correct calibration, not hand-adjustment. Therefore R9: 8 -> 6.\n\nADDITIONAL FLAGS (noted, not scored down further to avoid manufacturing changes): the FY2024 GAAP net income was inflated by a one-time $1.5B valuation-allowance tax release (Q2 FY2024) — R5=6.5 already discounts this. PANW de-emphasized billings guidance in FY2024 (ServiceNow-style metric change), but substituted NGS ARR + RPO (arguably richer forward metrics), so per rubric this is a qualitative bandera, not a semaforo number-mover. Non-GAAP gross margin is compressing (77.6% -> 76.0%) under platformization/hardware mix, a mild headwind to R1's margin-expansion premise, but operating leverage (non-GAAP op margin ~29%) and FCF margin (~38%) are still expanding, so R1=11 holds. R11=8 for cybersecurity-as-critical-infrastructure is at the high end of the 4-10 Nivel 3 band but within defensible latitude (no clean rubric violation), left unchanged.\n\nRECALCULATED: R1 11, R2 9, R3 10, R4 10, R5 6.5, R6 6.5, R7 7.5, R8 9, R9 6, R10 7.5, R11 8 -> raw 91 -> 91/125*100 = 72.8/100 (Calidad solida). Disclaimer: this score mide CALIDAD del negocio, no valoracion ni margen de seguridad; score alto != comprar.",
+   "attacked": [
+    "Arithmetic / double-count (Mastercard pattern): raw sum of the 11 notes = 93; 93/125*100 = 74.4 matches the proposed score, and no individual note exceeds its cap (R1 11<=15; R3/R4 10<=15; all standard <=10). No double-count. HOLDS.",
+    "NGS ARR $5.6B / +32% (R1/R3): verified against primary source — FY2025 DEF 14A proxy and Q4/FY2025 press release report NGS ARR of $5.58B, +32% YoY (Network Security NGS ARR $3.9B +35%, SecOps $1.7B +25%). HOLDS.",
+    "Adjusted FCF margin ~38% and asset-light model (R1/R7): verified — FY2025/FY2026 adjusted FCF margin guidance 38.0-39.0%; capex ~2-3% of sales consistent with asset-light. HOLDS.",
+    "Net cash ~$8B (R8=9): verified against Q4 FY2025 release — cash+equiv $2,268.6M + ST investments $634.6M + LT investments $5,555.6M = $8,458.8M, with $0 convertible notes. R8=9 justified. HOLDS.",
+    "FY2024 net income quality (R5): confirmed the FY2024 GAAP net income (~$2.58B) was inflated by a one-time $1.5B valuation-allowance release (Q2 FY2024). FY2025 clean GAAP NI is only $1,133.9M. R5=6.5 already discounts this distortion. HOLDS.",
+    "Billings metric change 2025 (ServiceNow pattern): confirmed real — in FY2024 PANW de-emphasized/stopped guiding on billings, pivoting to NGS ARR + RPO citing platformization/deferred-payment deals. Per rubric R9 this is a qualitative flag (banderas), not a semaforo number-mover; substituted metrics are arguably richer. Flagged, not decisive.",
+    "R9 transparency semaforo (NVIDIA cap pattern) — MATERIAL: Senal 3 (GAAP vs non-GAAP gap) is deeply RED. FY2025 non-GAAP NI $2,344.5M vs GAAP $1,133.9M = ~107% gap, driven by SBC of $1,386.4M (15% of revenue), sustained every year. Rubric R9 threshold Rojo >20% and aggregation rule '1 rojo -> max 6/10' means R9 cannot be 8. The Non-GAAP 2-step only avoids an additional penalty (FCF ~$3.5B does sustain the $2.34B non-GAAP number), keeping R9 at the cap of 6, not above it. R9 8 -> 6.",
+    "Calibration vs MSFT anchor: MSFT SBC ~4% of revenue with a minimal GAAP/non-GAAP gap scores green on Senal 3; PANW at 15% SBC and a 107% gap must score lower, confirming R9=6 is correct calibration, not drift."
+   ]
+  },
+  {
+   "ticker": "ALC",
+   "round": "adv-r1",
+   "before": 72.4,
+   "after": 70,
+   "reasoning": "VEREDICTO: MATERIAL_DISCREPANCY_FOUND. Score corregido 70.0/100 (raw 87.5/125) vs. propuesto 72.4 (raw 90.5/125). Sigue en tramo \"Calidad solida\" (65-74), pero dos notas rompen techos explicitos de la rubrica, ambas al alza (patron NVIDIA de aplicacion despareja de topes).\n\nARITMETICA (bug Mastercard): LIMPIA. Ninguna nota individual excede su peso (criticas R1/R3/R4 max 15; resto max 10; R4=11<=15, R3=10.5<=15). Suma 90.5/125*100=72.4 cuadra. No hay doble conteo. La propuesta 72.4 es un ASCENSO sobre el 68 del ledger (2026-07-08, screening no-adversarial): sube R5 5->6, R7 4->5, R9 6->8, R10 7->8, R11 9->10 y baja R3 11->10.5. El refresco 07-08 declaro refresh_changed=false y \"ningun evento material\"; no hay evidencia nueva que justifique los ascensos.\n\nDISCREPANCIA 1 — R9 (propuesto 8 -> corregido 6). El semaforo cuantitativo R9 tiene agregacion mecanica: \"1 rojo -> max 6/10\". Senal 3 (brecha GAAP vs core) esta ROJA sostenida: core EPS FY2025 $3.07 vs GAAP diluido ~$1.98 (NI GAAP $980M / ~495M acc.) = brecha ~56% sobre GAAP / ~36% sobre core; umbral rojo es >20%. Persistente desde el carve-out Novartis 2019 (>3 anios). Senales 1 y 2 verdes (FCF/NI 3a ~137%; accruals negativos), luego es 2 verdes + 1 rojo. La regla de agregacion fija techo 6, NO 8 (8 exige \"2 verdes + 1 amarillo\", y la brecha del 56% no es amarilla). El scorer original ya lo habia puesto en 6 correctamente. La rescate por Non-GAAP de 2 pasos (amortizacion de intangibles tolerable + FCF sostiene el core) solo evita penalizacion ADICIONAL; no permite superar el techo del semaforo. Fuentes: 20-F/6-K FY2025 (sec.gov/.../q42025pressrelease.htm), stockanalysis balance/income. Nota: goodwill $9,256M = 29.3% de activos (<40%, sub-clausula de goodwill NO se dispara); pero goodwill+intangibles = 57.9%. No hay 2+ rojos, luego NO knock-out en R9 — solo el techo de 6.\n\nDISCREPANCIA 2 — R10 (propuesto 8 -> corregido 7). El propio flag del scorer dice: \"skin-in-the-game del management NO verificado con fuente primaria\". Regla transversal de la rubrica (rubrica.md L4-5): \"Si un dato clave de la regla no se verifica, la regla no puede superar 7/10 hasta verificar, y se marca con bandera.\" La alineacion/skin-in-the-game es el primer componente de R10. Dato clave no verificado => techo 7. El scorer original acerto con 7 (justo en el tope); la propuesta lo empuja a 8 sin nueva verificacion. Es el bug NVIDIA exacto: el tope se aplico a unas reglas y no a otras.\n\nDATOS DE MAYOR IMPACTO VERIFICADOS CONTRA FUENTE PRIMARIA:\n- R7 / knock-out ROIC<WACC: la tesis afirma \"economias ex-goodwill son mid-teens\". Verificado contra 20-F FY2025 (op income $1,360M, NOPAT ~$1,129M; capital invertido ~$25,754M): ROIC REPORTADO ~4.4% (gurufocus 3.9%, prom. 5a ~3.5%), ex-goodwill (solo) ~6.8% (=<15% \"flojo\"), y solo ~15% si se descuentan goodwill Y todos los intangibles adquiridos. Es decir, \"mid-teens\" requiere descontar tambien intangibles; ex-goodwill puro es ~7%. La tesis SOBREESTIMA la economia subyacente. Aun asi R7=5 se sostiene en banda \"flojo\" (no cap violation), asi que lo dejo en 5 aunque 4 seria mas defendible (ROIC cayo en 2025). El KNOCK-OUT gate ROIC<WACC estructural >=3a NO se dispara: existe narrativa de inversion verificable (capital heredado del carve-out 2019 + expansion real de margen op 7%->13% 2021-2025, op income $580M->$1,360M). Correcto no dispararlo, pero es limitrofe.\n- R1/R3/R4 liderazgo e inorganico: confirmado #1 global en cirugia oftalmica/IOL. Verificado que la adquisicion de STAAR Surgical (EVO ICL, ~$1.5B, $30.75/acc) fue TERMINADA el 2026-01-06 tras rechazo de accionistas (Broadwood 30.2%); sin fee de terminacion. Ya estaba en el research (fuera de ventana). Esto es NEUTRO/positivo para R1 (no consumio balance en M&A por capacidad; sin dilucion) y no altera el liderazgo. R3=10.5, R4=11 se sostienen (moat real: base instalada de cirujanos + consumibles/LIO razor-razorblade + IP/regulatorio), pese a que la pata \"ROIC alto sostenido\" de la durabilidad de R4 falla. No los toco.\n\nBUG SERVICENOW (cambio de divulgacion/metrica 2025-26): DESCARTADO. Alcon mantiene reporte de core EPS con reconciliacion GAAP completa, crecimiento organico cc y segmentos (Surgical/Vision Care) en 20-F FY2025 y 6-K trimestrales; sin retiro de metricas, restatements ni degradacion de transparencia detectada en la ventana.\n\nNOTAS QUE NO CAMBIAN (dentro de tolerancia, no cap-violations): R1=8, R2=7, R3=10.5, R4=11, R5=6, R6=9, R7=5, R8=8, R11=10. R5=6 y R11=10 son generosos pero defendibles (R11: restauracion de vision/cataratas = impacto estructural de salud nivel ISRG; R5: crecimiento organico mid-single-digit, no doble digito, 6/10 no es maximo). \n\nESTADO: scored (sin knock-out, sin evento de cuarentena tipo CPRT). Correccion determinista de dos techos de rubrica: R9 8->6, R10 8->7. Score corregido 70.0/100.",
+   "attacked": [
+    "R9 viola el techo del semaforo cuantitativo (bug NVIDIA)",
+    "R10 viola el techo dato-no-verificado 7/10 (bug NVIDIA)",
+    "R7 / knock-out ROIC<WACC verificado contra 20-F FY2025",
+    "R1/R3/R4 leadership e inorganico (STAAR) verificados",
+    "Bug ServiceNow (cambio de divulgacion 2025-26) descartado"
+   ]
+  },
+  {
+   "ticker": "EFX",
+   "round": "adv-r1",
+   "before": 64.4,
+   "after": 55.2,
+   "reasoning": "DISCREPANCIA MATERIAL. El propuesta de 64.4/100 (raw 80.5/125) esta inflado +11.5 puntos raw frente a la Ultra Tesis individual de EFX ya existente y adversarialmente confirmada (2026-07-10), que puntuo 55.2/100 (raw 69.0/125). Por la regla de autoridad de Felipe (screening/batch corre optimista; la Tesis individual gana), el score correcto es 55.2. Recalculo, no ajuste.\n\nDe los 3 patrones de bug: (1) aritmetica CIERRA (80.5/125=64.4, sin doble conteo). (2) Tope 7/10 DISPAREJO tipo NVIDIA: R1=10.5, R3=10.5 y R2=7 se sientan exactamente en su tope de dato-no-verificado, pero R4=11.5 EXCEDE el tope critico de 10.5 aunque su pata de durabilidad depende del mismo ROIC que R7 admite no verificado. (3) Desarrollo reciente NO capturado: consent order CFPB ene-2025 US$15M por investigar mal disputas + codigo defectuoso que genero scores inexactos en perjuicio de millones — pesa EN CONTRA de las notas mas altas del propuesta en R10/R11/R3.\n\nVerificacion contra fuente primaria (10-K 2024 / 8-K / releases oficiales): margen operativo consolidado ~18% COMPRIMIDO desde ~26% pre-breach (contradice la nota maxima de R1 que exige EXPANSION de margen → R1 baja de 10.5 a 8); International US$1,354.3M = 23.8% de US$5,681.1M, <40% internacional exigido por R6 (→ 6 a 5); ROIC ~8% goodwill-dragged confirmado; brecha GAAP vs ajustado 2024 EPS US$4.84 vs US$7.29 = señal ROJA >20% que topa R9 en 6 (holds); The Work Number 823M registros / 3M empleadores verificado (sostiene R4 pero su moat no llega al techo por margen/ROIC en compresion → R4 de 11.5 a 10).\n\nMayores inflaciones refutadas: R5 (6→3) crecimiento dependiente de 17 M&A (~US$5B) + ciclo, exactamente lo que la regla de Seilern penaliza; R11 (5.5→3) historial de daño activo (breach 2017 + fine CFPB 2025); R3 (10.5→9) legitimidad disputada ('cartel de credito' segun CFPB).\n\nProbe de knock-out R7/ROIC<WACC (ROIC ~8% vs WACC ~8.62%): NO se dispara el gate 4 — hay narrativa creible de fase de inversion (Equifax Cloud), ROIC incremental ~13.6% > WACC, y la brecha es por goodwill de M&A. El dato es corroborable desde filings, asi que NO es cuarentena. La empresa sigue 'scored'.\n\nNotas corregidas = notas de la Tesis Ultra autoritativa: R1=8, R2=6, R3=9, R4=10, R5=3, R6=5, R7=6, R8=7, R9=6, R10=6, R11=3. Raw 69/125 = 55.2/100, tier Watchlist. Nota de impacto: aunque tanto 64.4 como 55.2 caen en Watchlist (<65), el 64.4 esta a solo 0.6 del umbral de Calidad Solida (65) que activaria el trigger de reconsiderar posicion satelite en el cuadro de mando — por eso la inflacion es material y no cosmetica.",
+   "attacked": [
+    "Bug-1 (aritmetica/doble conteo): la suma raw del propuesta es 80.5/125 = 64.4 exacto; el arithmetic interno CIERRA, no hay doble conteo. Este vector NO refuta.",
+    "Bug-2 (tope 7/10 aplicado disparejo): R1=10.5 y R3=10.5 se sientan EXACTAMENTE en el tope critico de dato-no-verificado (10.5/15) y R2=7 en el tope estandar (7/10) — sintoma de haber sido capadas por falta de verificacion — PERO R4=11.5 EXCEDE el tope critico de 10.5, pese a que la pata de durabilidad #1 de R4 (rubrica R4: 'cuota+margenes+ROIC alto sostenido 10+ años') depende del MISMO ROIC que el propio informe admite no verificado en R7. Aplicacion despareja tipo NVIDIA: R4 no puede superar 10.5 si su datum clave de durabilidad no esta verificado.",
+    "Bug-3 (desarrollo 2025-2026 no capturado): consent order de la CFPB de enero-2025 por US$15M por investigar mal las disputas de consumidores, reinsertar inexactitudes ya borradas y usar codigo defectuoso que genero scores crediticios inexactos en perjuicio de millones desde oct-2017 (distinto del breach de 2017). El propuesta SUBE R10 (6.5 vs 3-tesis... vs tesis 6), R11 (5.5) y R3 (10.5) ignorando este hecho de gobernanza/regulatorio reciente que va EN CONTRA.",
+    "R1 inflado (10.5 vs 8): fuente primaria 10-K 2024 muestra margen operativo consolidado ~18% comprimido desde ~26% pre-breach. R1 nota maxima exige EXPANSION de margen al crecer ingresos; EFX muestra COMPRESION. 10.5/15 (tope critico) es indefendible con margen a la baja y $3B de Equifax Cloud sin traducirse en apalancamiento operativo.",
+    "R5 inflado (6 vs 3): crecimiento reportado depende de 17 adquisiciones bolt-on en 6 años (~US$5-5.8B) + arrastre ciclico 2025 (hipoteca -12%, contratacion -9%). Regla dura de Seilern (rubrica R5): ingresos de un digito alto + crecimiento comprado via M&A NO califica como organico de calidad, y falta resiliencia recesiva. La rubrica soporta 3, no 6 — es el punto de mayor inflacion.",
+    "R11 inflado (5.5 vs 3): aunque 'acceso al credito' es Nivel 3 estructural (4-10), el historial de daño ACTIVO (breach 2017 de ~147M personas + fine CFPB ene-2025 por scores inexactos que perjudicaron a millones) fuerza el piso del rango. 5.5 (medio Nivel 3) es demasiado generoso; 3 (borde Nivel 2/3) es defendible.",
+    "R3 inflado (10.5 vs 9): liderazgo real en oligopolio de 3 burós, pero legitimidad disputada (la CFPB llamo publicamente 'cartel de credito' al trio) y pricing power con sombra regulatoria. 10.5/15 sienta la nota en el tope critico de dato-no-verificado; 9 es mas defendible.",
+    "R6 inflado (6 vs 5): fuente primaria 10-K 2024: International = US$1,354.3M = 23.8% de US$5,681.1M, muy por debajo del proxy >40% internacional de la nota maxima R6; ~76% de ingresos en EEUU. 5 mas defendible que 6.",
+    "Knock-out probe R7/ROIC<WACC: ROIC reportado ~8% (NOPAT margin ~13.4% / capital-a-ventas ~1.75) contra WACC corregido en val-mos ~8.62% → ROIC ~=/< WACC. Se probo el gate 4 (knockouts.md): NO se dispara porque (a) existe narrativa creible de fase de inversion Equifax Cloud, (b) el ROIC INCREMENTAL a 5 años es ~13.6% > WACC, (c) la brecha es por goodwill de M&A (rubrica R7 pide juzgar por origen). El dato ES corroborable desde filings (no cuarentena). Se mantiene 'scored'. R7=6 del tesis se conserva; el R7=4.5 del propuesta es incluso mas duro y no rescata la inflacion neta.",
+    "R9 verificado (holds a 6): brecha GAAP vs ajustado 2024 = EPS GAAP US$4.84 vs ajustado US$7.29 (>+20% → señal ROJA). Rubrica R9: 1 rojo → max 6/10. Tanto propuesta como tesis =6, correcto; sin evidencia de 2+ rojos que gatillen KO en R9.",
+    "Autoridad tesis>batch: existe Ultra Tesis individual de EFX fechada 2026-07-10 (un dia antes de esta corrida) que puntuo 55.2/100 (raw 69.0/125) y quedo 'confirmado sin cambios tras verificacion adversarial'. Por el hallazgo sistemico de Felipe (project_qg_screening_vs_tesis_bias.md: el screening/batch corre optimista; la Tesis Ultra individual gana cuando ambos existen), el 64.4 es el sesgo de optimismo (+11.5 raw)."
+   ]
+  }
+ ]
+}

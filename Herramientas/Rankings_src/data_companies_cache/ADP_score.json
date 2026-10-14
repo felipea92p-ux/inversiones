@@ -1,0 +1,59 @@
+{
+ "ticker": "ADP",
+ "name": "Automatic Data Processing, Inc.",
+ "rules": {
+  "R1": {
+   "score": 1.5,
+   "just": "Modelo de payroll/HCM con fuerte apalancamiento operativo (margen EBIT ajustado 30.2%, +80bps YoY) y float de client funds que escala con el volumen, pero no es software puro de margen incremental ilimitado, por lo que 1.5 y no 2.0."
+  },
+  "R2": {
+   "score": 1,
+   "just": "Outsourcing de nomina/HCM y servicios PEO crecen secularmente con la complejidad regulatoria, aunque mercado laboral debil y 'pays per control' plano moderan el viento de cola ahora mismo."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Lider claro en payroll/HCM (junto a Paychot en SMB y compitiendo arriba con Workday), escala global e instalada masiva, pero no deja al 2o a anios-luz en todos los segmentos, asi que 1.5."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat real de altisimos costes de cambio (la nomina es mission-critical y dolorosa de migrar), datos, escala y compliance regulatorio; potente pero amenazado por IA generativa, lo que impide el 2.0."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento ORGANICO verificado del 7% (FY2025 +7% organico CC, Q3 FY2026 +6% organico CC) con muy baja dependencia de M&A, sostenido y de alta calidad."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Diversificacion excelente: ~1M de clientes, sin concentracion material en ningun cliente, multi-segmento (Employer Services + PEO) y multi-geografia, riesgo idiosincratico de cliente minimo."
+  },
+  "R7": {
+   "score": 2,
+   "just": "ROIC ~35.3% muy por encima del WACC, capex bajisimo (capex $168.7M sobre $20.6B ingresos), FCF margin 21.4% y FCF/NI elevado; rentabilidad del capital sobresaliente."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Balance corporativo solido: deuda neta ~$0.63B, ND/EBITDA ~0.1x muy por debajo de 2x; no es caja neta estricta, de ahi 1.5 y no 2.0."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "Contabilidad limpia y SBC verificada muy baja (1.29% de ingresos, 6.1% del FCF, muy por debajo del umbral del 15%), calidad de beneficio alta."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Gestion disciplinada en asignacion de capital: buybacks y dividendos consistentes (Dividend Aristocrat), poco M&A destructor, y la direccion SUBIO la guia en Q3 demostrando confianza fundamentada."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R3 (liderazgo), R4 (costes de cambio mission-critical + compliance) y R1 (apalancamiento operativo con escala) se refuerzan mutuamente: la escala instalada hace el moat mas profundo, el moat sostiene el liderazgo, y el liderazgo alimenta el apalancamiento operativo (margenes en expansion +80bps). Circulo virtuoso compuesto durante decadas, aunque la amenaza de IA generativa impide calificarlo de 'irreplicable monstruoso' al nivel de un 2.0 generalizado.",
+ "moat_type": "Costes de cambio + escala/compliance",
+ "moat_one_line": "La nomina es un sistema mission-critical de altisima friccion de migracion, reforzado por escala global, datos propietarios y un foso de compliance regulatorio multi-jurisdiccion dificil de replicar.",
+ "thesis_3lines": [
+  "Calidad: compounder de altisima calidad con ROIC ~35%, FCF margin 21%, SBC irrisoria (6% del FCF) y balance casi sin deuda (ND/EBITDA 0.1x).",
+  "Motor: crecimiento organico sostenido del ~7% con margenes EBIT en expansion (+80bps a 30.2%) y guia de EPS +10-11% que la direccion SUBIO en Q3 FY2026.",
+  "Valoracion: fwd P/E 17.85x frente a media historica ~26x (-31%), una caida de ~-35% por miedo a la IA y no por deterioro de fundamentales que ofrece punto de entrada asimetrico."
+ ],
+ "bear_case_strongest": "La IA generativa podria comoditizar el procesamiento de nomina/HCM y erosionar los costes de cambio que sostienen el moat, comprimiendo estructuralmente el multiplo premium historico hacia el de un servicio maduro de bajo crecimiento; ademas el mercado laboral debil y los 'pays per control' planos limitan el motor cliclico de corto plazo.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Score total re-puntuado: R1 1.5 + R2 1.0 + R3 1.5 + R4 1.5 + R5 1.5 + R6 1.5 + R7 2.0 + R8 1.5 + R9 1.5 + R10 1.5 = 15.0 sobre techo 13.5 nominal; normalizado al techo se mantiene como empresa de altisima calidad QG (efectivamente ~13.5/13.5 al recortar al techo). DATOS CLAVE VERIFICADOS: FY2025 ingresos $20,560.9M (+7% organico CC), FCF $4,392.7M (margen 21.4%), ROIC 35.3% (estimado Finbox/Macrotrends), SBC $266.1M = 1.29% ingresos / 6.1% FCF (regla dura SBC NO aplica, muy por debajo del 15%). Q3 FY2026: ingresos $5.9B (+7% reportado, +6% organico CC), margen EBIT ajustado 30.2% (+80bps), EPS ajustado $3.37, direccion SUBIO guia FY2026 (EPS +10-11%). Deuda neta corporativa ~$0.63B, ND/EBITDA ~0.1x (excluye client funds obligations compensadas por client funds assets). Valoracion (estimada stockanalysis.com): fwd P/E 17.85x vs media historica ~26x (-31%); caida -35% desde ATH ~$326.81 clasificada como fear_rotation (miedo a IA + reajuste de multiplo, NO deterioro fundamental). Calidad de datos MIXED: cifras de filings SEC verificadas; valoracion y ROIC estimados de agregadores. R7=2.0 justificado por la combinacion excepcional ROIC 35%+capex minimo+FCF alto. amplification=true por refuerzo mutuo R1/R3/R4 pero sin 2.0 generalizado por la amenaza tangible de IA al moat de costes de cambio."
+}

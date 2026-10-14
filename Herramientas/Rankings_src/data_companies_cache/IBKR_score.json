@@ -1,0 +1,59 @@
+{
+ "ticker": "IBKR",
+ "name": "Interactive Brokers Group, Inc.",
+ "rules": {
+  "R1": {
+   "score": 1.5,
+   "just": "Modelo de broker electronico altamente escalable: margen pretax 77.2% en Q1 2026 sobre rev +17%, plataforma automatizada que apalanca volumen sin sumar coste proporcional, pero no es software/red puro que justifique 2.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Viento secular real (4.4M cuentas +32% YoY, retailizacion global del trading y migracion a brokers de bajo coste), aunque sensible al ciclo de tipos/volumen de mercado."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Lider claro en broker electronico global por margenes y escala (mayor automatizacion del sector, presencia en 150+ mercados), pero compite con Schwab/Robinhood en distintos segmentos, no domina a anios-luz."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat solido por ventaja de coste estructural (tecnologia propietaria, tasas mas bajas), costes de cambio moderados y escala de balance >$100B en liquidos, aunque replicable parcialmente por gigantes."
+  },
+  "R5": {
+   "score": 2,
+   "just": "Crecimiento 100% organico verificado (+20% rev FY2025, +17% Q1 2026) sin M&A, puro apalancamiento de cuentas e intereses netos."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Excelente diversificacion: 4.4M cuentas sin concentracion de cliente, multi-geografia (150+ mercados, fuerte mix internacional) y multi-stream (comisiones, NII, FX)."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "Rentabilidad sobre capital muy alta para un broker (net income $4.36B FY2025, margen pretax 77%, caja neta enorme), aunque ROIC/FCF estandar no aplican limpiamente a un broker-dealer."
+  },
+  "R8": {
+   "score": 2,
+   "just": "Balance fortaleza: caja neta ~$49B (EV negativo), sin deuda neta, >$100B en activos liquidos; D/EBITDA no aplica por caja neta."
+  },
+  "R9": {
+   "score": 1,
+   "just": "Contabilidad limpia (10-K/8-K SEC verificados, sin red flags); SBC reportada 1.9% rev (alphaquery $118M) muy por debajo del umbral de 15% FCF, aunque conflicto de agregadores (rango 1.9%-5.8% rev) impide un 1.5."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Gobierno fuerte: Peterffy/insiders ~83% economico (skin-in-the-game extremo), asignacion conservadora, dividendo subido a $0.0875, pero estructura up-C y control de fundador limitan flotante y derechos del minoritario."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (escalabilidad, margen pretax 77%), R3 (liderazgo en broker electronico global) y R4 (ventaja de coste tecnologico + escala de balance) se refuerzan mutuamente: la automatizacion propietaria genera el menor coste por trade del sector, lo que sostiene el liderazgo, atrae mas cuentas (4.4M, +32%) y profundiza la ventaja de escala en un circulo virtuoso. No alcanza 2.0 individual porque ninguna dimension es monstruosamente irreplicable frente a Schwab/Robinhood, pero la combinacion es genuinamente reforzante.",
+ "moat_one_line": "Ventaja de coste estructural via tecnologia de ejecucion propietaria altamente automatizada, reforzada por escala de balance (>$100B liquidos) y diversificacion global de 4.4M cuentas.",
+ "moat_type": "cost-advantage + scale (tecnologia propietaria + escala de balance/red global)",
+ "thesis_3lines": [
+  "Calidad: broker electronico lider con margen pretax del 77%, balance de caja neta ~$49B y contabilidad SEC limpia; uno de los negocios mas escalables y mejor capitalizados del sector financiero.",
+  "Motor: crecimiento 100% organico (+20% rev FY2025, +17% Q1 2026 record) impulsado por 4.4M cuentas (+32% YoY), retailizacion global del trading y apalancamiento de intereses netos.",
+  "Valoracion/retorno: prima fuerte (fwd P/E ~37 vs media 5a ~24, +53%; PEG 1.95) con la accion a ~1% de su maximo historico, lo que limita el margen de seguridad pese a la calidad excepcional."
+ ],
+ "bear_case_strongest": "El motor de NII (~$904M, +17%) y de margenes record es altamente sensible al ciclo: un recorte de tipos, caida de volumenes de trading o normalizacion de saldos de clientes comprimirian ingresos y multiplo a la vez, justo cuando la accion cotiza en maximos historicos a +53% sobre su P/E medio de 5 anios sin margen de seguridad.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Re-score FASE 2: 15.5/13.5 normalizado al techo -> total bruto 15.5 excede techo 13.5; suma R1-R10 = 1.5+1.5+1.5+1.5+2+1.5+1.5+2+1+1.5 = 15.5. Caps: empresa de calidad excepcional pero NO deprimida (cotiza a ~1% del ATH, prima de valoracion +53% vs media 5a). SBC marcada 'ok' por dato documentado 1.9% rev (alphaquery), pero existe conflicto con macrotrends (~5.8% rev); sbc_pct_fcf no calculable porque FCF no es metrica significativa para broker-dealer (OCF distorsionado por saldos de clientes). ROIC/FCF estandar no aplicables; net income $4.36B usado como proxy de poder de ganancias. Estructura up-C: market cap economico real ~$163.5B (incluye 83% NCI de IBG Holdings) vs ~$43.1B float Clase A. Riesgo principal: valoracion en maximos + sensibilidad ciclica de NII. data_quality MIXED."
+}

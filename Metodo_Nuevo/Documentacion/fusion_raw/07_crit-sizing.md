@@ -1,0 +1,32 @@
+**Escrito en** `/Users/felipealvarez/Library/Mobile Documents/com~apple~CloudDocs/INVESTMENTS/Metodo_Nuevo/_taller/criterio-sizing.md`
+
+1. **PESO = min(T_A, T_T).** T_A = mínimo de 5 topes discretos (nada de scores). T_T = una división. Ambos se escriben antes de conocer el precio de ejecución.
+2. **T_A** = min(C_falsabilidad, C_MoS, C_pista, C_impairment, C_atención). Única función continua: `w_max = 12% + (MoS−18%)/0,8`, tope 25% → MoS 18%→12%; MoS 28,4%→25%. Lee exactamente su matriz de dos ejes.
+3. **C_falsabilidad resuelve tecnología sin escalera:** el asiento del círculo no limita el TAMAÑO, limita la FORMA de la evidencia. Fuera del círculo, los 3 números deben ser partidas del filing. Puede abrir núcleo en tech el día uno.
+4. **C_pista:** múltiplo >30-35x con pista documentada → techo 12%, no techo pleno. Cobrar la diferencia en tamaño, no en prohibición: permite Amazon 2005, bloquea KO 1998.
+5. **T_T se elicita EN SOLES, no en %:** `T_T = Presupuesto de Contaminación (pp) / 0,40`. El 0,40 es el diferencial entre un nombre roto (−85%) y el mercado de calidad en pánico (−45%). PC 4 pp → 10%; 5 pp → 12,5%.
+6. Junto al número se escribe su CAUSA: (a) tesis incompleta o (b) capacidad real. Fisher y Akre —las 2 lentes disidentes de 12— tienen razón en que (a) se arregla terminando el trabajo, no comprando poco.
+7. **VEREDICTO SOBRE EL 25%: es una autorización que ejercerá y lamentará si la ejerce con dinero; es inofensiva si sólo la alcanza por apreciación.**
+8. La cuenta de Felipe está mal escalada: 25% cayendo 50% no cuesta 12,5% de cartera — cuesta 12,5 pp **sobre un −45% que ya corre en todo lo demás** = **−55% de cartera**. Su línea declarada es −50%. Al 12% a coste: −49,8%.
+9. **Solución sin reabrir su constante: desdoblar el tope.** 25% = peso de mercado (intacto, alcanzable, no obliga a vender). **12% = peso a coste** (restricción nueva, más estricta, compatible). 15% sólo con las tres puertas y T_T≥15%.
+10. El mismo −12,5 pp es pérdida si entró al 25% y **devolución de ganancia** si entró al 10% y triplicó. El cerebro ancla al precio de compra, no al máximo.
+11. **El 25% no es control de dolor: es control de error de juicio.** Deterioro −70% al 25% = −17,5 pp y el resto debe subir +21,2%. Al 12%: −8,4 pp y +9,2%.
+12. **Y no es cola, es agenda:** con núcleo de 5-7 y tasa base 10-15% de deterioro por nombre/década, P(al menos uno en 10 años) = **41-68%**.
+13. Escenarios reales de cartera completa: núcleo 5 al tope sin caja → **2008 −45,0% · 2022 −37,5% · Nifty Fifty −72,0%**. La misma cartera a tamaño de entrada + cantera + 26% caja → −33,3% / −27,7% / −53,3%.
+14. Monte Carlo 200k, ρ=0,8: **P(caída >50%) = 35,8%** al tope sin caja; **15,6%** con 15% de caja; **4,8%** a tamaño de entrada con 26% de caja.
+15. **Kelly de cartera converge con el Monte Carlo** (dos métodos independientes): al 100% invertido, P(tocar −50%) = 25-42%. Al 74% invertido: 12-24%.
+16. **El dial no es el tope ni el número de posiciones: es la caja.** P(−50%)≤15% exige 20% de caja; ≤10% exige 31%; ≤5% exige 44% y cuesta 39% del crecimiento.
+17. **Verdad incómoda que hay que firmar antes:** ningún diseño compatible con componer baja P(−50%) por debajo de ~10%. Se pasa de 1 de cada 3 a 1 de cada 8-10. Eso es todo.
+18. **Caja = munición pendiente pre-comprometida. Suelo 15%, techo 25%.** Por encima deja de ser residuo aritmético y es pronóstico disfrazado (Klarman/Pabrai).
+19. **Cadencia trimestral, la palanca de coste cero:** P(ver rojo) casi no cambia con la frecuencia (49,5% diaria vs 46,4% trimestral); lo que cambia 65x es el NÚMERO de eventos: **125 vistas en rojo/año vs 1,9**.
+20. Su conducta es la norma, no un defecto: el "efecto suricata" (Gherzi et al. 2014) refutó el efecto avestruz para inversores activos — vigilan MÁS tras los movimientos. La cadencia es parámetro de diseño, no fuerza de voluntad.
+21. **TRAMOS — forma:** iguales en dinero dentro del círculo; **decrecientes 1/0,75/0,5 fuera**; crecientes PROHIBIDOS (ganan en el papel, destruyen al que se equivoca).
+22. **La munición cuenta DENTRO del tope a coste:** entrada 6% + munición 6% ≤ 12%. Nunca encima.
+23. **Seis puertas verificables por un tercero** para todo tramo bajo coste: hecho (filing) · causa escrita ("no sé por qué cayó" = knock-out) · escalón · firma de `abogado-diablo` · calendario (1/trimestre, ≤10 días post-filing) · munición cerrada.
+24. **La puerta nº3 es la pieza decisiva y responde tu pregunta:** componer vs promediar no se distingue por intención sino por ASIMETRÍA DE LA PUERTA. T2 exige los 3 números en umbral; **T3 exige al menos uno MEJOR que antes de la caída**. El test se endurece a la misma velocidad a la que crece la tentación. "Tesis intacta" es la hipótesis nula: pasarla no prueba nada.
+25. Freno duro: si la caída supera el escenario bajista del pre-mortem, todo tramo prohibido hasta reescribir la tesis. Sin excepción por MoS.
+26. **DERIVA: dejar correr.** El desempate es su impuesto: ganancias de fuente extranjera en Perú **NO son 5% — se suman a renta de trabajo, escala 8/14/17/20/30%** (HECHO, SUNAT ×2).
+27. Recortar 10 pp de una posición 3x al 30% destruye **2,00 pp de cartera** (20% del importe). El reemplazo debe batir a lo vendido en **+2,26% anual durante 10 años sólo para empatar**.
+28. **Freno 1 (por defecto, gratis): de flujo.** Por encima del 25% no entra dinero nuevo; con aportes del 5%/año, 25%→20% en **5 años sin vender nada**. **Freno 2 (el que manda): conductual** — >3 vistas fuera de cadencia en un mes → recorte hasta el peso al que dejó de mirarla. **Freno 3: valoración heroica**, g implícita >p90 de la tasa base, máximo 1/3, verificado. **Salida completa por tamaño: prohibida.** Evidencia viva: Buffett recortó Apple 50%→22% y dijo que vendió "demasiado pronto"; Terry Smith abandonó "do nothing" con >50% de rotación en 2026 bajo presión de tres años — presión que Felipe no tiene.
+29. **PRIMERA ENTRADA: 50% del techo, ejecutado el mismo día, sin condiciones.** Núcleo típico 12% → 6% hoy + 3% + 3%. Piso 3% o no entra.
+30. **La pieza nueva contra su herida: el tramo vence HACIA LA COMPRA.** A 12 meses, si ninguna puerta se activó, **se compra el remanente al precio que haya**. "Todavía no" deja de ser estado estable. Más D+30 obligatorio y contador de omisión. **Criterio de fracaso escrito por adelantado: si en 12 meses este documento no produce ni una compra ejecutada, el criterio falló** — por bien argumentado que esté.

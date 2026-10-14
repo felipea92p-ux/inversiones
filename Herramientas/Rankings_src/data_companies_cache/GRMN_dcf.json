@@ -1,0 +1,42 @@
+{
+ "ticker": "GRMN",
+ "currency": "USD",
+ "current_price": 236.34,
+ "name": "Garmin Ltd.",
+ "wacc_pct": 9.3,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 reportado = FCF $1,363M - 100% SBC $166M = $1,197M (margen 16.5% s/ ingresos $7,245M). Base normalizada para escenario base/optimista: FY2025 fue ano de capex pico (nuevas instalaciones), con FCF=73% del op income vs ~90% historico; normalizado a 85% conversion de op income ($1,876M) = $1,595M, menos SBC = $1,429M owner FCF (margen ~19.7%). El conservador usa la base reportada deprimida ($1,197M).",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 8,
+  "rev_cagr_y6_10_pct": 4.75,
+  "fcf_margin_terminal_pct": 19,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de SBC ($166M FY25, 2.29% de ingresos / 12.2% del FCF) restada como gasto en efectivo del owner FCF. Baja dilucion, muy positivo.",
+  "shares_diluted_b": 0.1929,
+  "net_debt_usd_b": -4.3
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 136.44,
+   "prob": 0.375,
+   "note": "Base owner FCF reportada deprimida ($1,197M). Crecimiento owner FCF 6% anios 1-5, declinando 5%->3% anios 6-10, g terminal 2.5%. Asume normalizacion lenta del margen FCF y desaceleracion del ciclo wearables/auto OEM. TV ~55% del EV."
+  },
+  "base": {
+   "iv_per_share": 181.38,
+   "prob": 0.475,
+   "note": "Base owner FCF normalizada ($1,429M, conversion 85% op income). Crecimiento 8% anios 1-5 (vs guia FY26 +9%, track record ~10-15%), declinando 6%->3.5%, g terminal 3.0%. Consistente con foso de marca, ROIC 24%, caja neta $4.3B."
+  },
+  "optimista": {
+   "iv_per_share": 222.4,
+   "prob": 0.15,
+   "note": "Owner FCF normalizada, ejecucion perfecta: 11% anios 1-5, declinando 8%->4.5%, g terminal 3.5%. Expansion de margen sostenida y nuevas categorias (aviacion, salud, auto OEM). Aun asi por debajo del precio actual."
+  }
+ },
+ "sanity_check": "VI ponderada por probabilidad ~$171/accion vs precio $236.34 => sobrevaloracion ~28%. La accion cotiza con prima incluso en el escenario optimista ($222). DCF inverso: el precio actual descuenta ~16% de crecimiento sostenido del owner FCF, muy por encima de la guia FY26 (+9%) y del consenso. Consistente con fwd P/E 24.5x (prima +7.6% vs media 5a), PEG 3.53 y -13.5% del ATH ('not_depressed'). Contraste rendimiento total al accionista: dividendo ~$3.60/accion (yield ~1.5%) + recompras modestas; la calidad (ROIC 24%, caja neta $4.3B, dilucion SBC solo 2.3% de ingresos) justifica una prima de calidad, pero no el precio actual sobre owner earnings. No es DDM; es contraste de yield.",
+ "method_notes": "DCF de owner earnings a 10 anios en dos fases. WACC = Rf 4.3% (UST 10Y; Garmin Ltd. esta domiciliada en Suiza pero reporta, cotiza y genera flujos en USD globalmente, por lo que se usa Rf USD, no suizo) + ERP 5.0% x beta 1.0 (consumer electronics/wearables defensivo, sin deuda; beta de sector ~1.0) = 9.3%. Sin ajuste geopolitico (no es Taiwan-domiciliada pese a tener manufactura alli). Owner FCF = FCF reportado - 100% SBC. Equity = PV flujos + PV valor terminal + caja neta $4.3B (deuda neta negativa). VI/accion = equity / 0.1929B acciones diluidas. Escenario conservador usa FCF reportado FY25 (deprimido por capex pico); base/optimista normalizan a 85% de conversion op income para no penalizar un ano de capex elevado. Inputs verificados de filings FY2025 (10-K/ARS SEC EDGAR CIK 0001121788) y Q1 2026; precio y acciones de StockAnalysis.com al 22-jun-2026. Sin busqueda web adicional necesaria; datos completos en FASE 2."
+}

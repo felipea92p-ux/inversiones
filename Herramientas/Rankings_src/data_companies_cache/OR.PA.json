@@ -1,0 +1,98 @@
+{
+ "ticker": "OR.PA",
+ "name": "L'Oreal S.A.",
+ "asof_date": "2026-06-22",
+ "currency": "EUR",
+ "price": 378.1,
+ "market_cap_usd_b": 218,
+ "fwd_pe": 27.18,
+ "fwd_pe_5y_avg": 35.7,
+ "pe_prem_disc_pct": -23.9,
+ "peg": 3.76,
+ "last_q": {
+  "period": "Q1 2026 (ended Mar 31, 2026)",
+  "revenue": "EUR 12.15B",
+  "rev_yoy_pct": 3.6,
+  "op_margin_pct": null,
+  "eps_gaap": "n/a (sales-only release)",
+  "eps_adj": "n/a (sales-only release)"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 31, 2025)",
+  "revenue": "EUR 44.05B",
+  "organic_growth_pct": 4,
+  "roic_pct": 13.5,
+  "fcf": "EUR 7.16B (net cash flow)",
+  "fcf_margin_pct": 16.3
+ },
+ "sbc_pct_revenue": 0.4,
+ "sbc_pct_fcf": 2.5,
+ "net_debt_usd_b": -2.2,
+ "nd_ebitda": -0.21,
+ "net_cash": true,
+ "guidance_fy": "FY2026: No specific numeric guidance. Management \"optimistic about the outlook for the global beauty market\" and \"confident in our ability to keep outperforming it,\" targeting \"another year of growth in sales and profit\" despite macro/geopolitical uncertainties (PROJECTION).",
+ "pct_off_52w_high": -7.4,
+ "pct_off_ath": -22.6,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_q.period",
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "guidance_fy",
+  "price",
+  "fwd_pe"
+ ],
+ "estimated_fields": [
+  "market_cap_usd_b",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "last_q.op_margin_pct"
+ ],
+ "sources": [
+  {
+   "label": "L'Oreal Finance IR - 2025 Annual Results (press release, PRIMARY)",
+   "url": "https://www.loreal-finance.com/eng/press-release/2025-annual-results",
+   "date": "2026-02"
+  },
+  {
+   "label": "L'Oreal Finance IR - First Quarter 2026 Sales (press release, PRIMARY)",
+   "url": "https://www.loreal-finance.com/eng/press-release/first-quarter-2026-sales",
+   "date": "2026-04-22"
+  },
+  {
+   "label": "StockAnalysis.com - L'Oreal statistics (price, fwd PE, net debt, EBITDA)",
+   "url": "https://stockanalysis.com/quote/epa/OR/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "FinanceCharts / GuruFocus - 5yr avg P/E and ROIC",
+   "url": "https://www.financecharts.com/stocks/LRLCY/value/pe-ratio",
+   "date": "2026-06"
+  },
+  {
+   "label": "Yahoo Finance - 52-week range (EUR 338.85-408.35)",
+   "url": "https://finance.yahoo.com/quote/OR.PA/",
+   "date": "2026-06-20"
+  },
+  {
+   "label": "CompaniesMarketCap - all-time high (EUR ~488 May 2024)",
+   "url": "https://companiesmarketcap.com/l-oreal/stock-price-history/",
+   "date": "2024-05"
+  }
+ ],
+ "notes": "PRIMARY IR data verified for FY2025 and Q1 2026. FY2025: sales EUR 44.05B (+4.0% LFL, +1.3% reported), operating profit EUR 8,891.9M, operating margin 20.2% (+20bps, record gross margin 74.3%), diluted EPS ex-non-recurring EUR 12.71 (+0.4%), reported EPS EUR 11.44, net cash flow EUR 7,161.6M (+7.8%), dividend EUR 7.20 proposed. Q1 2026: sales EUR 12.15B, +3.6% reported, +7.6% LFL (+6.7% adjusted ex-IT-transformation one-offs), FX -5.5%, perimeter +1.5% (Kering Beaute closed Mar 31, 2026 added ~1.5pp), constant-FX +9.1%; Q1 was sales-only release so no margin/EPS. fcf_margin computed 7.16/44.05=16.3%. ROIC ~13.5% per aggregators (GuruFocus 13.3%, some sources cite higher 18% on different methodology). SBC is ESTIMATED and structurally immaterial: L'Oreal is a French company paying mostly cash comp; historical share-based payment ~EUR 175-200M/yr (~0.4% of revenue, ~2.5% of FCF) - low dilution risk for R9; exact FY2025 figure not pulled from Universal Registration Document within timebox. Net cash position -EUR 2.05B (cash EUR 9.87B vs debt EUR 11.92B) per stockanalysis; converted to ~-USD 2.2B at EUR/USD ~1.08; ND/EBITDA -0.21x. Market cap EUR ~201.8B -> ~USD 218B at ~1.08. Forward P/E 27.18 (stockanalysis, Jun 22) vs ~35.7 5yr avg forward = ~24% discount; PEG 3.76. DROP CLASSIFICATION = not_depressed: stock only ~7% off 52w high and ~22% off May-2024 ATH, while Q1 2026 organic accelerated to +7.6% (beat, shares +8-9% on print) and FY2025 hit record margins. Valuation de-rated from COVID-era peak multiples (now ~24% below own 5yr fwd avg) but fundamentals are improving, not deteriorating - this is multiple normalization, not a fear-driven selloff of a broken business."
+}

@@ -1,0 +1,42 @@
+{
+ "ticker": "MNST",
+ "name": "Monster Beverage Corporation",
+ "currency": "USD",
+ "current_price": 93.02,
+ "wacc_pct": 8.55,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.85,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = FY2025 reported FCF $1,965.9M (OCF $2,098.2M - capex $132.3M, margin 23.7%) MENOS 100% de la SBC $125.7M = $1,840.2M (~$1.84B), margen owner-earnings ~22.2% sobre ventas FY2025 $8,294.3M. Trato la SBC como gasto en efectivo. Punto de partida del crecimiento: ingresos FY2025 $8.294B.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 9.5,
+  "rev_cagr_y6_10_pct": 7,
+  "fcf_margin_terminal_pct": 23.5,
+  "terminal_g_pct": 3,
+  "shares_diluted_b": 0.978,
+  "net_debt_usd_b": -2.9,
+  "sbc_treatment": "100% de la SBC ($125.7M, 1.5% ventas / 6.4% FCF) restada del FCF como gasto en efectivo para owner earnings; SBC baja y poco dilutiva. Fase 2 (anios 6-10) con CAGR declinante linealmente desde Fase 1 hacia ~4-6% segun escenario; margen owner estabilizado 22.5-24.5%."
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 46.01,
+   "prob": 0.375,
+   "note": "CAGR ingresos Fase1 7%, declinando a ~4% en Fase2; margen owner ~22.5%; g terminal 2.5%. Desaceleracion internacional, saturacion del energetico en EE.UU., mas competencia (Celsius, marcas blancas) y presion de margen por insumos/aluminio. No apocaliptico: sigue creciendo doble digito bajo y manteniendo foso."
+  },
+  "base": {
+   "iv_per_share": 58.89,
+   "prob": 0.475,
+   "note": "CAGR ingresos Fase1 9.5% (consistente con track record; intl ~45% ventas creciendo +30-45% compensa madurez EE.UU.), Fase2 declinando a ~5%; margen owner ~23.5%; g terminal 3.0%. EV/owner-FCF descontado ~30x, razonable para compounder de alta calidad, ROIC ~28%, caja neta."
+  },
+  "optimista": {
+   "iv_per_share": 76.18,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: CAGR Fase1 12% (expansion internacional agresiva + pricing + nuevas categorias Alcohol/Bang), Fase2 declinando a ~6%; margen owner ~24.5%; g terminal 3.5%. Aun asi queda por debajo del precio de mercado."
+  }
+ },
+ "sanity_check": "Acciones/EV: ~0.978B acciones diluidas (mktcap $90.97B / $93.02); caja neta ~$2.9B (deuda LP $0 tras repago del Term Loan de Bang en abr-2025; ~$94M de leases residuales). EV actual ~$88.1B. MULTIPLOS ACTUALES MUY EXIGENTES: P/owner-FCF ~49x, EV/owner-FCF ~48x, fwd P/E ~39x (vs media 5a ~34), PEG 3.36. La accion cotiza practicamente en maximos historicos (-1% del 52w high, +47% en 12 meses). Rendimiento total al accionista (contraste, NO DDM): Monster NO paga dividendo; retorna capital via recompras (~$1.9B en FY2025 -> buyback yield ~2.1%), por lo que casi todo el retorno futuro depende de crecimiento de owner earnings, no de yield. El DCF de owner earnings (IV ponderada ~$56.6, base ~$58.9) implica que el mercado descuenta crecimiento mas rapido y/o por mas tiempo, o un WACC menor, que mis supuestos: a precio actual el mercado paga ~48x owner-FCF vs ~30x implicito en mi caso base. Conclusion: negocio de altisima calidad (ROIC ~28%, foso de marca, asset-light, caja neta) pero SOBREVALORADO frente a owner earnings a $93; sin margen de seguridad (caso base ~-37% bajo el precio).",
+ "method_notes": "DCF de OWNER EARNINGS a 10 anios en USD. Owner FCF = FCF reportado FY2025 ($1,965.9M) - 100% SBC ($125.7M) = $1,840.2M; margen ~22.2% sobre ventas. Estructura bietapica: Fase 1 (anios 1-5) CAGR de ingresos explicito y margen owner-earnings estabilizado por escenario; Fase 2 (anios 6-10) CAGR declinante linealmente hacia normalizacion; valor terminal con Gordon (g=2.5%/3.0%/3.5% segun foso de marca, ancho y duradero). Flujos = ingresos proyectados x margen owner; descontados al WACC. WACC = Rf 4.3% (UST 10Y) + ERP 5.0% x beta 0.85 = 8.55%; beta ~0.85 refleja baja sensibilidad ciclica del energetico (consumo discrecional defensivo). Sin ajuste geopolitico (empresa estadounidense; +1.5% aplica solo a Taiwan/TSM). VI por accion = (PV de flujos + PV valor terminal) - deuda neta, todo dividido por 0.978B acciones diluidas; deuda neta negativa (caja neta $2.9B) suma al equity value. Inputs de resultados VERIFICADOS de SEC EDGAR (10-K FY2025, 10-Q Q1 2026); precio/market cap/multiplos/beta de agregador-modelo. No se hizo busqueda web adicional: todos los inputs criticos estaban en el JSON verificado de FASE 2."
+}

@@ -1,0 +1,315 @@
+{
+  "expediente": "Booking Holdings Inc. — Valoracion (eje PRECIO)",
+  "fecha_corte": "2026-07-27",
+  "divisa_reporte": "USD",
+  "nota_ruta": "El orquestador paso el directorio de salida como 'undefined'. Se escribe en la carpeta de sesion Rankings/2026-07-27/, igual que ASML.json, CSU_TO.json y RMS_PA.json de la misma tanda.",
+
+  "identificacion": {
+    "ticker": "BKNG",
+    "nombre": "Booking Holdings Inc.",
+    "cik": "0001075531",
+    "domicilio": "Norwalk, Connecticut, EE.UU. (constituida en Delaware)",
+    "moneda_funcional": "USD (consolidado). Ojo: 90,4% de los ingresos se reportan fuera de EE.UU. y 80,6% se atribuyen a una entidad domiciliada en Paises Bajos — funcional EUR en la mayor filial operativa.",
+    "norma_contable": "US GAAP (10-K y 10-Q ante la SEC)",
+    "estructura_listado": "Accion ordinaria NASDAQ:BKNG. NO es ADR, no hay ratio que ajustar.",
+    "split": "HECHO — el 2 de abril de 2026 se ejecuto un split 25-por-1. Fuente: 10-Q Q1 2026 (accession 0001075531-26-000025), nota BASIS OF PRESENTATION: 'On April 2, 2026, the Company effected the 25-for-1 stock split... All share and per share information has been retroactively adjusted'. Valor nominal 0,008 USD. TODO lo que sigue esta en base post-split."
+  },
+
+  "etiqueta_congelada": {
+    "tier": "MUY_BUENA",
+    "puertas_pasadas": 4,
+    "mos_exigido_pct": 30.0,
+    "regla_banda": "Esta en cartera (1,66% del NAV) -> aplica el umbral de CARGAR: 30% para MUY_BUENA (banda base 40% menos 12 puntos por ser CARGAR, con suelo en 30%).",
+    "advertencia": "La calidad esta congelada. Nada de lo que sigue reclasifica la etiqueta hacia arriba. El precio no es un argumento de calidad."
+  },
+
+  "mecanismo_heredado": {
+    "motor": "Mayor red de dos caras del viaje convertida en ventaja de coste unitario de adquisicion: mueve 1,56x el volumen de Expedia con presupuesto de marketing identico al millon (8.186 vs 8.185 M USD en 2025), y lo cobra con capital invertido neto NEGATIVO (-4.627 M), de modo que el crecimiento se autofinancia con el float de las reservas merchant diferidas.",
+    "eslabon_mas_debil": "No ejerce poder de precio nominal (take rate propio +0,93%/ano frente a IPC 2,7%-8%). Toda la creacion de NOPAT desde 2019 viene de VOLUMEN con el margen contrayendose 303 pb. El dia que el volumen deje de crecer no hay palanca de precio detras — y la desintermediacion por agentes de IA ataca exactamente esa variable.",
+    "verificacion_del_eslabon_con_filing_2025": {
+      "hallazgo": "HECHO, y es el dato mas importante de todo este expediente. El 10-K FY2025 (nota GOODWILL AND INTANGIBLE ASSETS, R20.htm) registra un deterioro de 457 M USD en KAYAK: 180 M de fondo de comercio + 277 M de intangibles (marcas y acuerdos de suministro y distribucion).",
+      "cita_textual_del_filing": "'The impairments were primarily driven by a reduction in the forecasted cash flows for KAYAK, reflecting its meta-search business being impacted by expected increases in customer acquisition costs.'",
+      "lectura": "El eslabon debil no es una hipotesis de futuro: ya se materializo, auditado, en la pieza del grupo que vive de la capa de DESCUBRIMIENTO. La metabusqueda es precisamente el estrato que un agente de IA sustituye primero, y el filing dice que sus costes de adquisicion de cliente suben. Booking.com todavia no lo sufre (marketing/reservas brutas plano en 3,8% en Q1 2026, canal directo estable en el 50-y-pico por ciento), pero el termometro ya marco fiebre en una habitacion de la casa.",
+      "valor_contable_residual_kayak_goodwill_usd_mm": 203,
+      "deterioro_acumulado_de_goodwill_del_grupo_usd_mm": 2200
+    },
+    "especie": "G2 — reinversion 4,6% de ventas · ROIIC bruto 46,5% · ROIIC ex-margen 61,0%"
+  },
+
+  "precio_y_capitalizacion": {
+    "precio_usd": 187.49,
+    "fuente_precio": "HECHO — snapshot en vivo IBKR, NASDAQ:BKNG (contract_id 308728373): last 187,49 USD, ts 2026-07-27 19:20 ET; cierre previo 186,79; variacion del dia +0,37%. Cruce con stockanalysis.com (agregador, INFERENCIA), que marca 186,79 al cierre del 27-jul-2026. Diferencia 0,4%: inmaterial para el veredicto.",
+    "rango_52s_usd": { "min": 150.14, "max": 230.45 },
+    "ytd_pct": -12.27,
+    "distancia_al_maximo_52s_pct": -18.6,
+    "volatilidad_historica_anual_pct": 39.6,
+    "acciones_en_circulacion_mm": 774.878436,
+    "fuente_acciones": "HECHO — portada del 10-Q Q1 2026: 774.878.436 acciones en circulacion a 20-abr-2026 (dei:EntityCommonStockSharesOutstanding). Post-split. Nota: en Q1 2026 se recompraron 3.770 M USD, asi que a 27-jul el numero real es probablemente algo menor; usar 774,9 M es CONSERVADOR para el valor por accion.",
+    "acciones_diluidas_medias_Q1_2026_mm": 794,
+    "capitalizacion_usd_mm": 145282,
+    "comprobacion_cruzada_capitalizacion": "stockanalysis.com: 144,74 bn con precio 186,79 y 774,88 M acciones. Coherente."
+  },
+
+  "deuda_y_caja": {
+    "fecha_balance": "2026-03-31 (10-Q Q1 2026, R2.htm)",
+    "deuda_corto_plazo_usd_mm": 3015,
+    "deuda_largo_plazo_usd_mm": 15398,
+    "deuda_financiera_total_usd_mm": 18413,
+    "arrendamientos_operativos_usd_mm": 650,
+    "fuente_arrendamientos": "INFERENCIA — 530 M no corrientes visibles en el balance Q1 2026; la porcion corriente esta dentro de 'Accrued expenses'. El total FY2025 auditado (us-gaap:OperatingLeaseLiability) es 672 M. Se usa 650 M.",
+    "caja_y_equivalentes_usd_mm": 16024,
+    "inversiones_largo_plazo_usd_mm": 473,
+    "deuda_neta_usd_mm": 2566,
+    "ev_usd_mm": 147848,
+    "comprobacion_cruzada_ev": "stockanalysis.com: EV 147,57 bn. Coherente (diferencia por el tratamiento de arrendamientos).",
+    "advertencia_caja": "AVISO SERIO. De los 16.024 M de caja, 8.189 M son 'Deferred merchant bookings' a 31-mar-2026 (pico estacional; 5.270 M al cierre de 2025) — dinero de viajeros que Booking custodia y debe a hoteles. Netear TODA la caja como excedente es generoso. Caja verdaderamente libre ~7.800 M en el pico y ~11.900 M al cierre de ano. Si las reservas brutas cayeran, ese float se drena y la deuda neta pasa de 2.566 M a mas de 10.000 M sin que nadie emita un bono.",
+    "estructura_de_la_deuda": {
+      "principal_vivo_31dic2025_usd_mm": 18882,
+      "valor_razonable_31dic2025_usd_mm": 18900,
+      "nota": "HECHO (10-K nota DEBT). El valor razonable practicamente iguala al principal, asi que ponderar por valor de mercado ~ ponderar por libros. 20 de las 22 emisiones vivas son en EUROS.",
+      "cupon_de_caja_2025_usd_mm": 630,
+      "pagos_de_intereses_2025_usd_mm": 1100,
+      "emisiones_marginales_2025": "3,0% EUR nov-2030; 3,125% EUR may-2031; 3,625% EUR nov-2035; 4,125% EUR may-2038; 4,5% EUR may-2046",
+      "trampa_contable_a_no_comer": "El gasto financiero de 1.617 M en 2025 NO es coste de caja: 523 M son amortizacion del descuento del convertible que vencio en mayo de 2025 (nota DEBT). El coste recurrente de caja es ~1.100 M."
+    }
+  },
+
+  "wacc_candado_B": {
+    "principio": "El WACC sale del mercado, nunca del tier de calidad. Ninguna cifra de aqui se hereda de MUY_BUENA.",
+    "tasa_libre_riesgo_pct": 4.65,
+    "fuente_tasa_libre_riesgo": "HECHO — Daily Treasury Par Yield Curve Rates, US Department of the Treasury, fila 07/27/2026, columna 10 Yr = 4,65. Descargado directamente del CSV oficial el 27-jul-2026. (30 anos: 5,12% — curva empinada en el tramo largo; ver sensibilidad.)",
+    "beta": 1.08,
+    "fuente_beta": "INFERENCIA (no hay beta en filing primario). Beta 5 anos mensual = 1,08 en DOS agregadores independientes consultados el 27-jul-2026: Yahoo Finance (Beta 5Y Monthly) y stockanalysis.com (Beta 5Y). Coincidencia exacta entre fuentes distintas. Rango de sensibilidad usado 0,95-1,20.",
+    "prima_mercado_pct": 4.23,
+    "fuente_prima_mercado": "HECHO — Damodaran, tabla 'Country Default Spreads and Risk Premiums', ultima actualizacion 5-ene-2026: prima de mercado maduro 4,23%; EE.UU. lleva 0,23% de prima pais propia (ERP total EE.UU. 4,46%).",
+    "prima_pais_pct": 0.80,
+    "fuente_prima_pais": "INFERENCIA — ponderacion propia sobre la tabla Damodaran de 5-ene-2026, aplicada al pais del riesgo de ACTIVO (donde se genera la reserva), no al domicilio fiscal. Cesta aproximada: Europa Occidental ~55-60% (NL 0,00 / DE 0,00 / FR-UK 0,78 / ES 1,55 / IT 2,46 -> ~0,9%), Asia-Pacifico ~20% via Agoda (CN 0,91 / TH 2,07 / SG 0,00 -> ~1,2%), EE.UU. ~15% (0,23%), resto ~5-10%. Blended 0,7-0,8%. Se usa 0,80%.",
+    "coste_capital_propio_pct": 10.08,
+    "formula_ke": "Ke = 4,65% + 1,08 x (4,23% + 0,80%) = 10,08%",
+    "coste_deuda_pct": 5.40,
+    "fuente_coste_deuda": "Se reportan DOS y se usa la segunda. (1) REALIZADO, HECHO: cupon de caja de los senior notes 630 M USD en 2025 sobre principal medio 18.055 M ((17.228+18.882)/2) = 3,49%. Bajisimo porque casi toda la deuda es en euros. (2) EQUIVALENTE USD, INFERENCIA: 4,65% (UST 10a) + ~0,75-0,90 pb de diferencial para emisor grado A = 5,40%. Se usa el (2) porque todo el modelo esta en USD y usar el cupon euro dentro de un descuento en dolares regala 1,9 puntos de coste de capital que no existen.",
+    "por_que_no_vale_el_3_49_pct": "HECHO que lo demuestra: en 2025 la deuda en euros costo 630 M de cupon MAS 1.428 M de perdida por tipo de cambio no realizada sobre la deuda denominada en euros (estado de flujos, y nota OTHER INCOME (EXPENSE), NET: perdidas de 1.400 M relacionadas con deuda en euros no designada como cobertura). El cupon barato no es dinero gratis, es una posicion de divisa.",
+    "tipo_impositivo_pct": 21.0,
+    "fuente_tipo_impositivo": "HECHO — tipo efectivo FY2025 = 1.428/6.832 = 20,9%.",
+    "ponderaciones": {
+      "peso_equity_pct": 88.4,
+      "peso_deuda_pct": 11.6,
+      "nota": "Equity a valor de mercado (145.282 M). Deuda a valor de mercado (18.413 M financiera + 650 M arrendamientos = 19.063 M; el valor razonable de la deuda ~ principal segun la nota DEBT del 10-K)."
+    },
+    "wacc_pct": 9.41,
+    "wacc_rango": "8,2% - 10,5%",
+    "construccion_del_rango": {
+      "bajo_8_18_pct": "beta 0,95 · ERP 4,46% (solo EE.UU., sin prima pais) · coste de deuda al cupon euro realizado 3,49% -> Ke 8,89%",
+      "alto_10_46_pct": "beta 1,20 · ERP 5,50% (prima implicita al alza tras el choque de marzo 2026) · coste de deuda 5,60% -> Ke 11,25%"
+    }
+  },
+
+  "owner_earnings": {
+    "metodo": "Punto de partida = flujo de caja de explotacion del filing. Version (a) resta solo capex de MANTENIMIENTO aproximado por la DEPRECIACION pura (D&A menos amortizacion de intangibles adquiridos, que no es capex de nada). Version (b) resta TODO el capex.",
+
+    "base_auditada_FY2025": {
+      "fuente": "HECHO — 10-K FY2025, accession 0001075531-26-000009, presentado 18-feb-2026. Estados R5 (resultados), R9 (flujos), R20 (intangibles).",
+      "ingresos_usd_mm": 26917,
+      "resultado_explotacion_usd_mm": 8825,
+      "resultado_explotacion_ex_extraordinarios_usd_mm": 9487,
+      "detalle_extraordinarios": "impairment KAYAK 457 M + costes de transformacion 205 M",
+      "beneficio_neto_usd_mm": 5404,
+      "flujo_de_caja_de_explotacion_usd_mm": 9409,
+      "capex_usd_mm": 322,
+      "D_and_A_usd_mm": 623,
+      "amortizacion_de_intangibles_usd_mm": 204,
+      "depreciacion_pura_usd_mm": 419,
+      "stock_based_compensation_usd_mm": 617,
+      "oe_mantenimiento_usd_mm": 8990,
+      "oe_capex_total_usd_mm": 9087,
+      "observacion_capital": "Aqui la version (a) sale MENOR que la (b) — 8.990 frente a 9.087 — porque el capex (322) es INFERIOR a la depreciacion (419). No es un error: Booking no es una reinvertidora de balance. Su reinversion va por la cuenta de resultados (8.186 M de marketing, 3.403 M de personal), no por el activo fijo. La regla de 'no penalizar al que reinvierte' aqui no cambia nada porque no hay nada que capitalizar."
+    },
+
+    "base_en_curso_FY2026E": {
+      "fuente_dura": "HECHO — 10-Q Q1 2026 (accession 0001075531-26-000025) y nota de prensa Q1 2026 (8-K 28-abr-2026, ex 99.1).",
+      "trimestres_publicados": "Solo Q1 2026. Los resultados de Q2 2026 aun no estan publicados a 27-jul-2026.",
+      "Q1_2026": {
+        "ingresos_usd_mm": 5532,
+        "crecimiento_ingresos_pct": 16.2,
+        "crecimiento_ingresos_moneda_constante_pct": 10,
+        "noches_de_habitacion_mm": 338,
+        "crecimiento_noches_pct": 6,
+        "reservas_brutas_usd_bn": 53.8,
+        "crecimiento_reservas_brutas_pct": 15,
+        "resultado_explotacion_usd_mm": 1271,
+        "beneficio_neto_usd_mm": 1083,
+        "flujo_de_caja_de_explotacion_usd_mm": 3215,
+        "variacion_fco_pct": -2,
+        "capex_usd_mm": 107,
+        "marketing_sobre_reservas_brutas_pct": 3.8,
+        "recompras_usd_mm": 3770
+      },
+      "guia_de_la_empresa_FY2026": {
+        "reservas_brutas": "High single digits a low double digits (moneda constante: high single digits)",
+        "ingresos": "High single digits (moneda constante: mid to high single digits; ~1,5 pp de viento de cola por divisa)",
+        "adjusted_ebitda": "Ligeramente mas rapido que los ingresos",
+        "adjusted_eps": "Low to mid-teens",
+        "supuesto_de_la_empresa": "HECHO, cita del release: la guia asume que el impacto directo e indirecto del conflicto en Oriente Medio dura hasta finales de junio y luego hay recuperacion en el segundo semestre. Q1 se llevo ~2 pp de las noches de habitacion por ese conflicto."
+      },
+      "anualizacion": {
+        "ingresos_usd_mm": 29200,
+        "metodo_ingresos": "INFERENCIA — 26.917 x 1,085 (punto medio de 'high single digits').",
+        "flujo_de_caja_de_explotacion_usd_mm": 10050,
+        "metodo_fco": "INFERENCIA/SUPUESTO — la razon FCO/ingresos ha sido notablemente estable: 34,4% (2023), 35,1% (2024), 35,0% (2025). Se aplica 34,4% a 29.200 = 10.050 M. Se rebaja el ratio respecto de 2025 porque el FCO de Q1 2026 cayo un 2% interanual pese a que el beneficio neto subio, senal de que el aporte de circulante se esta enfriando.",
+        "capex_usd_mm": 400,
+        "D_and_A_usd_mm": 521,
+        "amortizacion_de_intangibles_usd_mm": 141,
+        "fuente_amortizacion": "HECHO — el 10-K FY2025 publica el calendario: 141 M en 2026, 131 M en 2027, 130 M en 2028.",
+        "depreciacion_pura_usd_mm": 380,
+        "stock_based_compensation_usd_mm": 630
+      },
+      "oe_mantenimiento_usd_mm": 9665,
+      "oe_capex_total_usd_mm": 9650
+    },
+
+    "distancia_entre_bases": {
+      "delta_oe_capex_total_pct": 6.2,
+      "lectura": "La base en curso esta un 6,2% por encima de la auditada en owner earnings, contra un crecimiento de ingresos guiado del 8,5%. Es decir: el flujo de caja crece MENOS que las ventas. Eso es exactamente el eslabon debil hablando — margen que se contrae. Ademas, del 8,5% de crecimiento de ingresos guiado, ~1,5 pp son divisa: el motor real en moneda constante es 'mid to high single digits', y las noches de habitacion crecieron 6% (8% ajustado por Oriente Medio). La distancia entre bases no es ruido de ciclo: es la pendiente del margen."
+    },
+
+    "normalizacion_usada_en_el_DCF": {
+      "aviso": "DECLARADO EN ALTO, no escondido. El DCF no usa las cifras de arriba tal cual: les resta la retribucion en acciones.",
+      "por_que": "El estado de flujos suma la SBC como partida no monetaria (617 M en 2025, 630 M estimados en 2026). Es un coste economico real: Booking recompra 6.440 M de acciones al ano y una parte de esa recompra solo compensa la dilucion. No restarla seria contar dos veces el mismo dolar.",
+      "oe_normalizado_auditado_usd_mm": 8470,
+      "oe_normalizado_encurso_usd_mm": 9020,
+      "puente_a_flujo_libre_para_toda_la_estructura": "FCFF = OE normalizado + intereses pagados x (1-t) - ingresos financieros x (1-t). Auditado: 8.470 + 1.100x0,79 - 921x0,79 = 8.611 M. En curso: 9.020 + 1.000x0,79 - 740x0,79 = 9.225 M.",
+      "contraste_independiente": "Segmento 'Adjusted EBITDA less Capex' FY2025 = 9.852 M (nota SEGMENT REPORTING, HECHO). Bajando por impuestos de caja (~1.900), intereses netos de caja (~200), costes de transformacion (205), circulante (+535) y corporativo (-180) se llega a ~7.900 M. Mi 8.470 esta un 7% por encima de ese camino alternativo. No los concilio al centimo: declaro que el owner earnings verdadero esta en 7.900-8.500 M y que he usado el extremo alto.",
+      "dependencia_del_circulante": "De los 8.470 M, unos 535 M (6,3%) vienen de la expansion del circulante negativo — el float crece porque las reservas crecen. En un mundo de volumen plano ese aporte se va a cero, y con volumen en caida se vuelve negativo. Es la misma variable del eslabon debil, apareciendo por segunda vez."
+    }
+  },
+
+  "dcf_inverso": {
+    "motor": "Buscar la g a 10 anos, con terminal 3%, que iguala exactamente el EV de hoy (147.848 M) al WACC calculado (9,41%).",
+    "g_implicita_base_auditada_pct": 3.88,
+    "g_implicita_base_en_curso_pct": 2.96,
+    "sensibilidad": {
+      "auditada_con_wacc_8_18_pct": 1.12,
+      "auditada_con_wacc_10_46_pct": 6.00,
+      "en_curso_con_wacc_8_18_pct": 0.30,
+      "en_curso_con_wacc_10_46_pct": 5.11
+    },
+    "lectura": "El mercado esta pagando por un 3-4% de crecimiento anual del flujo durante una decada. La empresa ACABA DE GUIAR un 8,5% de crecimiento de ingresos para 2026 (mid-to-high single digits en moneda constante) con las noches de habitacion subiendo un 6% y las reservas brutas un 15%. La accion cae un 12,3% en el ano y esta un 18,6% por debajo de su maximo de 52 semanas. Es decir: el precio ya descuenta una desaceleracion severa. Esto NO es una accion con expectativas eufóricas. La pregunta correcta no es 'esta cara' sino 'es suficiente el descuento para el riesgo que hay'."
+  },
+
+  "g_defendible": {
+    "formula_mecanica": {
+      "reinversion_sobre_ventas_pct": 4.6,
+      "reinversion_usd_mm": 1238,
+      "nopat_estimado_usd_mm": 7500,
+      "tasa_de_reinversion_sobre_nopat_pct": 16.5,
+      "roiic_ex_margen_pct": 61.0,
+      "g_resultante_pct": 10.06
+    },
+    "por_que_NO_uso_el_10_06_pct": "Porque la formula g = reinversion x ROIIC se rompe cuando el capital invertido es NEGATIVO. Booking tiene -4.627 M de capital invertido neto: el denominador de un ROIIC no significa lo que la formula supone. Con capital casi cero, cualquier ROIIC produce una g arbitrariamente grande, y el resultado dice mas de la aritmetica que del negocio. En Booking la restriccion que ata el crecimiento NO es el capital — es la DEMANDA y la cuota. Usar 10,06% seria dejarme llevar por una identidad contable en vez de por el mecanismo. La etiqueta esta congelada en MUY_BUENA y esto tampoco es una puerta trasera para subirla.",
+    "g_que_defiendo_pct": 5.5,
+    "senda_usada": "7,0% anos 1-3 · 5,5% anos 4-7 · 4,0% anos 8-10 · terminal 3,0%. CAGR de la senda = 5,49%.",
+    "justificacion": [
+      "HECHO: guia FY2026 de ingresos 'high single digits' nominal, 'mid to high single digits' en moneda constante. Los primeros anos parten de ahi (7%).",
+      "HECHO: noches de habitacion +6% en Q1 2026 (~8% ajustando los 2 pp de Oriente Medio). El volumen, que es TODO el motor segun el mecanismo, crece a un digito medio-alto y se desacelera desde el rebote post-pandemia (+25,0% ingresos 2023, +11,1% 2024, +13,4% 2025).",
+      "HECHO del mecanismo: take rate propio +0,93% al ano contra IPC 2,7%-8%, y margen contrayendose 303 pb desde 2019. Eso resta ~1 a 1,5 puntos al crecimiento del flujo respecto al crecimiento de ingresos.",
+      "HECHO de este expediente: los owner earnings de la base en curso crecen 6,2% mientras los ingresos guiados crecen 8,5%. La cuna es real y ya esta medida.",
+      "SUPUESTO: decaimiento a 4% en los anos 8-10 y 3% terminal, que es aproximadamente el crecimiento nominal del gasto mundial en viajes sin ganancia adicional de cuota online."
+    ]
+  },
+
+  "valoracion": {
+    "valor_por_accion_auditado_usd": 215,
+    "valor_por_accion_encurso_usd": 231,
+    "valor_intrinseco_central_usd": 223,
+    "piso_de_resolucion": {
+      "regla": "Sin medicion propia del ruido, banda de mas/menos 25%.",
+      "banda_valor_intrinseco_usd": "167 - 279",
+      "advertencia": "No se reportan decimales del valor intrinseco. Escribir '223,47' seria mentir sobre la precision: el rango de WACC por si solo (8,2%-10,5%) mueve el valor de 183 a 288 USD sobre la base auditada."
+    },
+    "mos_auditado_pct": 12.8,
+    "mos_encurso_pct": 18.7,
+    "mos_exigido_pct": 30.0,
+    "veredicto_mos": "NO CUMPLE. El mejor de los dos margenes de seguridad (18,7%, base en curso) se queda a 11,3 puntos del 30% exigido por la banda MUY_BUENA en modo CARGAR.",
+    "sensibilidad_valor_por_accion": {
+      "auditada_wacc_8_18_pct": 269,
+      "auditada_wacc_9_41_pct": 215,
+      "auditada_wacc_10_46_pct": 183,
+      "encurso_wacc_8_18_pct": 288,
+      "encurso_wacc_9_41_pct": 231,
+      "encurso_wacc_10_46_pct": 197
+    },
+    "observacion_dura": "Con el WACC en el extremo alto de su propio rango de mercado (10,46%), la base auditada da 183 USD — POR DEBAJO del precio de hoy. El margen de seguridad no sobrevive a un WACC adverso. Eso solo ya descalifica la compra bajo la disciplina de la banda."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 16.0,
+    "definicion_m_estrella": "Multiplo de owner earnings normalizados (FCO - capex - SBC) que acepto pagar por Booking. Decidido en frio, sin barra de error, porque no es una estimacion sino una decision.",
+    "por_que_16x": "El DCF a mi g defendible (5,5%) y mi WACC (9,41%) implicaria un multiplo justo de ~19-20x. Bajo deliberadamente a 16x por tres razones nombrables: (1) un negocio SIN poder de precio nominal no merece el multiplo de uno que lo tiene, y el mecanismo lo dice con numeros (+0,93% de take rate contra un IPC de 2,7%-8%); (2) el deterioro auditado de KAYAK por subida de costes de adquisicion de cliente es la primera evidencia contable de que la capa de descubrimiento se esta encareciendo, y no se puede cuantificar cuanto de eso llega a Booking.com; (3) un 6% de los owner earnings depende de que el float siga creciendo, lo que hace el flujo mas fragil de lo que parece.",
+    "multiplo_actual_pagado": {
+      "sobre_base_auditada": 17.2,
+      "sobre_base_en_curso": 16.1,
+      "lectura": "A 187,49 USD se paga 17,2x los owner earnings del ultimo ejercicio auditado y 16,1x los del ejercicio en curso. Es decir: el precio de hoy esta JUSTO EN mi multiplo maximo sobre la base forward y por encima de el sobre la base trailing. Ni caro por delirio ni barato: pagando el precio completo."
+    },
+    "precio_que_da_m_estrella": {
+      "sobre_base_auditada_usd": 175,
+      "sobre_base_en_curso_usd": 186
+    },
+    "p_estrella_usd": 156,
+    "definicion_p_estrella": "Precio que da el 30% de margen de seguridad exigido por la banda MUY_BUENA en modo CARGAR, sobre el valor intrinseco central de 223 USD. 223 x 0,70 = 156 USD.",
+    "distancia_desde_hoy_pct": -16.8
+  },
+
+  "tir_esperada": {
+    "metodo": "Tasa de descuento que iguala el valor presente del FCFF proyectado al EV de hoy. Equivale a la rentabilidad anual esperada si mis supuestos de crecimiento aciertan.",
+    "rango": "8,5% - 11,9% anual a 10 anos",
+    "escenarios": {
+      "bajista": {
+        "senda": "4% x3 · 3% x4 · 2,5% x3 · terminal 2%",
+        "tir_base_auditada_pct": 8.5,
+        "tir_base_en_curso_pct": 9.0,
+        "narrativa": "Los agentes de IA erosionan gradualmente el canal, el take rate no se mueve, el margen sigue cayendo. Aun asi se gana un 8,5-9% anual porque el precio ya descuenta un 3-4%."
+      },
+      "central": {
+        "senda": "7% x3 · 5,5% x4 · 4% x3 · terminal 3%",
+        "tir_base_auditada_pct": 10.3,
+        "tir_base_en_curso_pct": 10.8
+      },
+      "alcista": {
+        "senda": "9% x3 · 7% x4 · 5% x3 · terminal 3,5%",
+        "tir_base_auditada_pct": 11.4,
+        "tir_base_en_curso_pct": 11.9,
+        "narrativa": "El Connected Trip funciona, Booking se convierte en el agente en vez de ser desintermediado por uno, y las recompras (6.440 M en 2025, 3.770 M solo en Q1 2026) siguen comprimiendo el numero de acciones un 4% al ano."
+      }
+    },
+    "lectura": "Esto es lo que hay que mirar, no el MoS. Un margen de seguridad del 18,7% suena a poco; una TIR esperada de 10,3%-10,8% anual durante una decada, con un suelo bajista del 8,5%, es una descripcion honesta de lo mismo. Booking a este precio no es una ganga: es un activo que probablemente rinda entre el 8,5% y el 12% anual, contra un bono a 10 anos al 4,65%. Prima sobre el bono: 4-7 puntos. Suficiente para tener; insuficiente para el 30% que la banda exige para CARGAR."
+  },
+
+  "detector_de_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "No hay descuento grande que explicar. El MoS es 13-19%, no un 50% inexplicado — y una trampa de valor se define por la desproporcion entre el descuento aparente y el deterioro real. Aqui no la hay: el motor sigue moviendose (reservas brutas +15%, noches +6%, ingresos +16% en Q1 2026), el coste de adquisicion en el nucleo esta plano (marketing/reservas brutas 3,8%, identico al ano anterior), y la mezcla de canal directo se mantiene en el 50-y-pico por ciento. La caida del beneficio neto de 2025 (5.404 frente a 5.882 M) es casi toda no operativa y no de caja: 1.491 M de perdidas por tipo de cambio sobre la deuda en euros mas el convertible. El resultado de explotacion SUBIO un 16,8%.",
+    "lo_que_si_hay_y_hay_que_vigilar": "Una SOSPECHA localizada, no sistemica: el deterioro auditado de 457 M en KAYAK por subida esperada de costes de adquisicion en metabusqueda. Es la primera evidencia contable, firmada por auditor, de que la capa de descubrimiento se esta encareciendo. Si el mismo fenomeno migra de KAYAK a Booking.com, el 3,8% de marketing sobre reservas brutas empieza a subir, y ese ratio es el corazon del mecanismo entero — mover 1,56x el volumen de Expedia con el mismo presupuesto. Ese ratio es el gatillo falsable de esta tesis.",
+    "reglas_de_falsacion_propuestas": [
+      "Marketing sobre reservas brutas supera el 4,2% en dos trimestres consecutivos -> el mecanismo se esta rompiendo, revisar la etiqueta a la baja.",
+      "La mezcla de canal directo cae por debajo del 50% en la media movil de cuatro trimestres -> la desintermediacion esta ocurriendo.",
+      "Crecimiento de noches de habitacion en moneda constante por debajo del 3% en dos trimestres sin causa exogena identificable -> el motor de volumen se apago y no hay palanca de precio detras."
+    ]
+  },
+
+  "huecos_declarados": [
+    "Beta 1,08 es de agregador (Yahoo Finance y stockanalysis.com, ambos 27-jul-2026), no de filing. Coinciden dos fuentes independientes, pero sigue siendo INFERENCIA. Con beta 1,20 el valor por accion baja de 215 a ~192 sobre la base auditada.",
+    "La prima de mercado de Damodaran que uso (4,23%) es de la tabla actualizada el 5-ene-2026. Damodaran empezo a publicar estimaciones DIARIAS a partir del choque de marzo de 2026 por la guerra y el petroleo, y no he podido recuperar el valor de julio de 2026. Si la prima implicita actual esta por encima del 4,23%, mi WACC esta subestimado y el valor por accion sobrestimado. Es el hueco mas caro de este expediente.",
+    "La prima pais de 0,80% es una ponderacion propia: Booking NO desglosa reservas brutas por pais de destino. El desglose geografico del 10-K es por entidad juridica (80,6% de los ingresos atribuidos a una entidad de Paises Bajos), no por mercado final. La composicion real de la cesta de riesgo de activo es una estimacion mia.",
+    "Solo hay UN trimestre publicado del ejercicio 2026 (Q1). Los resultados de Q2 2026 no estan disponibles a 27-jul-2026. La base 'en curso' descansa en la guia de la empresa, que ella misma califica de entorno 'inusualmente impredecible' por el conflicto en Oriente Medio.",
+    "El FCO FY2026E de 10.050 M es INFERENCIA sobre una razon historica (FCO/ingresos 34-35%), no un dato. Q1 2026 mostro el FCO cayendo un 2% interanual, lo que es una senal en contra de esa extrapolacion. Si el FCO se queda plano en 9.400 M, el valor de la base en curso baja de 231 a ~215 USD.",
+    "El owner earnings normalizado de 8.470 M esta un 7% por encima de lo que sale por el camino alternativo (Adjusted EBITDA less Capex del segmento, ~7.900 M). No he conciliado la diferencia partida a partida. He usado el extremo alto, lo cual es generoso.",
+    "El tratamiento del float es una decision de criterio, no un hecho. Neteo los 16.024 M de caja completos en el EV siguiendo la convencion, pero 8.189 M de esa caja son dinero de viajeros. Con un criterio conservador (netear solo la caja libre de float) el EV subiria a ~156.000 M y el MoS de la base auditada caeria de 12,8% a ~7%.",
+    "El numero de acciones (774,9 M al 20-abr-2026) es anterior en tres meses a la fecha de valoracion. Booking recompro 3.770 M en Q1 2026 solo; si el ritmo continuo, hoy habria unos 15-20 M de acciones menos y el valor por accion seria un 2% mayor. He preferido no ajustarlo: usar el dato del filing es conservador."
+  ],
+
+  "resumen_ejecutivo": {
+    "veredicto": "NO CARGAR. Precio justo, no oportunidad.",
+    "una_frase": "Booking a 187,49 USD cotiza a 16,1x los owner earnings del ejercicio en curso y descuenta un 3% de crecimiento a diez anos cuando la empresa acaba de guiar un 8,5%; el problema no es que este cara, es que un margen de seguridad del 18,7% no llega al 30% que exige una MUY_BUENA en cartera, y el WACC en su extremo alto de mercado borra el margen entero.",
+    "lo_que_cambia_el_veredicto": "A 156 USD (-16,8% desde hoy) se abre CARGAR con el 30% exigido. A 175 USD ya se estaria pagando mi multiplo maximo sobre la base auditada. Entre 156 y 187 la respuesta correcta es esperar, no promediar.",
+    "el_dato_que_mas_pesa": "El deterioro de 457 M en KAYAK del 10-K FY2025, motivado explicitamente por 'expected increases in customer acquisition costs' en metabusqueda. Es la unica evidencia auditada, en todo el expediente, de que el eslabon debil del mecanismo se esta moviendo — y esta en la pieza del grupo mas expuesta a la desintermediacion por agentes de IA. No afecta todavia a Booking.com (marketing sobre reservas brutas plano en 3,8%), pero define exactamente que hay que vigilar."
+  }
+}

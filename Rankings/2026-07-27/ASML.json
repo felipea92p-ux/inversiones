@@ -1,0 +1,284 @@
+{
+  "expediente": "ASML Holding NV — Valoracion (eje PRECIO)",
+  "fecha_corte": "2026-07-27",
+  "divisa_reporte": "USD",
+  "nota_ruta": "El orquestador paso el directorio de salida como 'undefined'. Se escribe en la carpeta de sesion Rankings/2026-07-27/.",
+  "identificacion": {
+    "ticker": "ASML",
+    "nombre": "ASML Holding N.V.",
+    "cik": "0000937966",
+    "domicilio": "Veldhoven, Paises Bajos",
+    "moneda_funcional": "EUR",
+    "norma_contable_primaria": "US GAAP (20-F); IFRS-EU en el informe estatutario",
+    "estructura_listado": "HECHO — la linea de NASDAQ es 'ASML Holding NV - NY Registry Shares', accion ordinaria 1:1, NO un ADR con ratio distinto. Verificado por paridad de precio: 1.648,94 USD / 1.458,80 EUR = 1,1303, igual al tipo EUR/USD del dia."
+  },
+  "etiqueta_congelada": {
+    "tier": "ULTRA-C",
+    "puertas_pasadas": 5,
+    "mos_exigido_pct": 18.0,
+    "regla_banda": "18% para ABRIR (no esta en cartera). Si estuviera en cartera el umbral de CARGAR seria 30%.",
+    "advertencia": "La calidad esta congelada. Nada de lo que sigue reclasifica la etiqueta hacia arriba."
+  },
+  "mecanismo_heredado": {
+    "motor": "ASML posee ~24,9% de Carl Zeiss SMT, unico fabricante mundial de la optica capaz de imprimir a 13,5 nm, con suministro en exclusiva. Peaje sobre cada nodo avanzado, cobrado subiendo el precio por sistema.",
+    "eslabon_mas_debil": "El crecimiento es PRECIO, no volumen. Unidades de litografia 449 (2023) -> 583 sistemas totales (2024) -> 535 (2025). El ASP lo sostiene ahora High-NA (EXE), del que solo se reconocieron 4 unidades en 2025. Reinversion 15,8% de ventas con ROIIC ex-margen 27%.",
+    "verificacion_del_eslabon_con_filing": {
+      "fuente": "20-F FY2025, R66.htm — Net System Sales per Technology",
+      "unidades_sistemas_totales": {"2023": 600, "2024": 583, "2025": 535},
+      "EXE_high_NA_unidades": {"2023": 0, "2024": 2, "2025": 4},
+      "EXE_ventas_EUR_mm": {"2023": 0.0, "2024": 465.0, "2025": 1156.9},
+      "NXE_unidades": {"2023": 53, "2024": 42, "2025": 44},
+      "ASP_medio_sistema_EUR_mm": {"2023": 36.6, "2024": 37.3, "2025": 45.7},
+      "lectura": "HECHO. El ASP medio por sistema sube de 36,6 a 45,7 M EUR (+25%) entre 2023 y 2025 mientras las unidades caen de 600 a 535. Confirma el eslabon: el motor es mix/precio. Ademas, EXE ya son 1.157 M EUR de ventas (4 unidades a ~289 M EUR cada una) — el ASP consolidado depende de una base de 4 maquinas."
+    }
+  },
+  "precio_y_capitalizacion": {
+    "precio_usd": 1648.94,
+    "fuente_precio": "HECHO — snapshot IBKR, NASDAQ:ASML (contract_id 117902840), last 1.648,94 USD, ts 2026-07-27. Cotizacion cruzada AEB:ASML 1.458,80 EUR (contract_id 117589399, mismo dia).",
+    "variacion_dia_pct": -0.38,
+    "rango_52s_usd": {"min": 679.84, "max": 1999.96},
+    "ytd_pct": 54.68,
+    "volatilidad_historica_anual_pct": 61.5,
+    "eur_usd": 1.1303,
+    "fuente_eur_usd": "INFERENCIA — implicito de la doble cotizacion ASML NASDAQ/AEB del 27-jul-2026 (1.648,94/1.458,80). Referencia externa del dia: 1,1397 (TradingEconomics). Se usa el implicito para mantener coherencia interna entre precio y valor.",
+    "acciones_en_circulacion_mm": 384.0,
+    "fuente_acciones": "HECHO — 384,1 M acciones emitidas y en circulacion a 28-jun-2026 (Statutory Interim Report 2026, Estado de Cambios en el Patrimonio). INFERENCIA: ~384,0 M a 27-jul-2026 por recompra continuada.",
+    "capitalizacion_usd_mm": 633193,
+    "capitalizacion_eur_mm": 560199
+  },
+  "deuda_y_caja": {
+    "fecha_balance": "2026-06-28",
+    "caja_y_equivalentes_eur_mm": 6671.9,
+    "inversiones_corto_plazo_eur_mm": 909.6,
+    "deuda_total_eur_mm": 3684.0,
+    "detalle_deuda": {
+      "eurobonos_valor_nominal_eur_mm": 3750.0,
+      "cupones": ["1,375% 2026 (1.000 M)", "1,625% 2027 (750 M)", "0,625% 2029 (750 M)", "0,250% 2030 (750 M)", "2,250% 2032 (500 M)"],
+      "deuda_no_corriente_jun26_eur_mm": 1984.4,
+      "porcion_corriente_inferida_eur_mm": 1699.6,
+      "papel_comercial_jun26_eur_mm": 0.0,
+      "nota": "HECHO — a 28-jun-2026 no hay papel comercial vivo (0,7 bn a 31-dic-2025); los 693,2 M de 'repayment of debt' de H1-2026 son ese papel. La porcion corriente es INFERENCIA (total LT a cierre 2025 3.699,2 M menos amortizaciones, menos el no corriente publicado)."
+    },
+    "deuda_neta_eur_mm": -3897.5,
+    "deuda_neta_usd_mm": -4405.0,
+    "ev_eur_mm": 556302,
+    "ev_usd_mm": 628788,
+    "advertencia_ciclo": "La caja de ASML oscila brutalmente por anticipos de clientes: 12.916 M EUR a 31-dic-2025 frente a 6.672 M a 28-jun-2026. Se usa el punto de junio, que es el conservador."
+  },
+  "wacc_candado_B": {
+    "principio": "Bottom-up de mercado. NO heredado de ningun tier de calidad.",
+    "tasa_libre_riesgo_pct": 3.07,
+    "fuente_rf": "Bono soberano holandes a 10 anios, 3,077% (jun-2026, serie OCDE/GuruFocus); cotizacion viva ~3,06%. Moneda funcional EUR. INFERENCIA (dato secundario, no filing).",
+    "beta": 1.39,
+    "fuente_beta": "Yahoo Finance, Beta 5Y mensual = 1,39, consulta 27-jul-2026. INFERENCIA (agregador). Contraste: GuruFocus 1,4868; volatilidad historica anual propia 61,5% frente a ~15-18% del S&P500, lo que apunta a un beta no inferior a 1,3.",
+    "prima_mercado_pct": 4.23,
+    "fuente_prima_mercado": "Damodaran, tabla de Country Default Spreads and Risk Premiums, actualizada 5-ene-2026. ERP de mercado maduro = 4,23%.",
+    "prima_pais_pct": 0.70,
+    "calculo_prima_pais": {
+      "criterio": "Pais del riesgo de ACTIVO (donde estan los clientes), no del domicilio fiscal. Ponderacion por ventas netas FY2025 del 20-F (R71.htm).",
+      "ventas_fy2025_eur_mm": {"China": 9519.7, "Taiwan": 8337.9, "Corea_del_Sur": 8159.6, "EEUU": 4089.1, "Japon": 1420.9, "Singapur": 608.4, "EMEA": 524.3, "Paises_Bajos": 4.7, "Resto_Asia": 2.7},
+      "crp_damodaran_ene2026": {"China": 0.91, "Taiwan": 0.78, "Corea_del_Sur": 0.64, "EEUU": 0.23, "Japon": 0.91, "Singapur": 0.0, "EMEA": 0.50, "Paises_Bajos": 0.0},
+      "resultado_pct": 0.70,
+      "comentario": "El 54,7% de las ventas esta en China + Taiwan. Damodaran no captura el riesgo de estrangulamiento por controles de exportacion ni el de Estrecho de Taiwan mas alla del spread de deuda soberana. Es un suelo, no un techo."
+    },
+    "coste_capital_propio_pct": 9.65,
+    "coste_deuda_pct": 2.61,
+    "calculo_coste_deuda": "HECHO — gasto financiero no operativo FY2025 = 118,3 M EUR (20-F R104.htm) sobre deuda total media FY2024-FY2025 = (4.687,6 + 4.390,9)/2 = 4.539,3 M EUR -> 2,61%. Nota: el coste marginal hoy seria mayor (~3,6%: bund/holandes 3,07% + spread A+); irrelevante porque la deuda pesa 0,65% del capital.",
+    "tasa_impositiva_pct": 17.5,
+    "ponderacion": "Equity a valor de mercado 560.199 M EUR (99,35%); deuda a valor de mercado 3.684 M EUR (0,65%). Valor razonable de los eurobonos a 31-dic-2025: 3.590,8 M EUR frente a 3.740,3 M de coste amortizado (20-F R106.htm) — cotizan por debajo del par, lo que refuerza usar el nominal como techo.",
+    "wacc_pct": 9.60,
+    "wacc_rango": "8,4% - 11,3%",
+    "sensibilidad_rango": "Bajo: rf 2,9% + beta 1,25 x ERP 4,0% + CRP 0,5% = 8,4%. Alto: rf 3,3% + beta 1,55 x ERP 4,6% + CRP 0,9% = 11,3%."
+  },
+  "owner_earnings": {
+    "definicion_a": "OE mantenimiento = Flujo de caja de operaciones - capex de mantenimiento aproximado por la depreciacion y amortizacion. El exceso de capex sobre D&A es inversion discrecional y NO se resta.",
+    "definicion_b": "OE capex total = Flujo de caja de operaciones - todo el capex (inmovilizado material + intangibles). Flujo de caja libre puro.",
+    "base_auditada_FY2025": {
+      "fuente": "HECHO — 20-F FY2025 presentado 25-feb-2026, accession 0001628280-26-011378; XBRL companyfacts.",
+      "ventas_eur_mm": 32667.3,
+      "beneficio_neto_eur_mm": 9609.4,
+      "resultado_explotacion_eur_mm": 11301.5,
+      "flujo_caja_operaciones_eur_mm": 12658.5,
+      "d_y_a_eur_mm": 1025.9,
+      "capex_inmovilizado_eur_mm": 1573.6,
+      "capex_intangibles_eur_mm": 57.6,
+      "capex_total_eur_mm": 1631.2,
+      "sbc_eur_mm": 202.3,
+      "oe_mantenimiento_eur_mm": 11632.6,
+      "oe_mantenimiento_usd_mm": 13148.0,
+      "oe_capex_total_eur_mm": 11027.3,
+      "oe_capex_total_usd_mm": 12464.0,
+      "aviso_calidad_del_flujo": "El FCO FY2025 esta INFLADO. Beneficio neto + D&A + SBC = 10.837,6 M EUR; el FCO de 12.658,5 incorpora ~+1,8 bn de circulante favorable, concentrado en Q4-2025 (pasivos corrientes de 19.224,9 a 24.263,9 M EUR entre sep y dic-2025: anticipos de clientes). El OE auditado esta sobreestimado en el mismo orden."
+    },
+    "base_en_curso_FY2026E": {
+      "metodo": "H1-2026 publicado (HECHO) + guia de la empresa para el resto (HECHO documental, estimacion economica).",
+      "h1_2026_publicado": {
+        "fuente": "HECHO — 6-K 15-jul-2026, accession 0001628280-26-048235, Ex-99.3 Financial Statements US GAAP Q2 2026",
+        "ventas_eur_mm": 18093.4,
+        "beneficio_neto_eur_mm": 5674.3,
+        "margen_bruto_pct": 53.5,
+        "flujo_caja_operaciones_eur_mm": -482.5,
+        "capex_inmovilizado_eur_mm": 701.8,
+        "capex_intangibles_eur_mm": 106.6,
+        "d_y_a_eur_mm": 506.3,
+        "sistemas_litografia_vendidos": 170
+      },
+      "guia_empresa": {
+        "ventas_2026_eur_bn": "43 - 45",
+        "margen_bruto_2026_pct": "54 - 56",
+        "q3_2026_ventas_eur_bn": "11,0 - 12,0",
+        "q3_2026_margen_bruto_pct": "55 - 57",
+        "q3_2026_id_eur_bn": 1.2,
+        "q3_2026_gastos_generales_eur_bn": 0.4,
+        "fuente": "HECHO — nota de prensa de resultados Q2-2026, 15-jul-2026 (Ex-99.1)"
+      },
+      "ventas_2026e_eur_mm": 44000,
+      "beneficio_neto_2026e_eur_mm": 15100,
+      "rango_beneficio_neto_2026e_eur_mm": "14.300 - 15.900",
+      "derivacion_beneficio": "H1 real 5.674,3 + H2 implicito por guia. H2 ventas 25.906,6; margen bruto H2 implicito 56,1% para llegar al 55% del ejercicio; I+D ~2.450 y generales ~850 segun guia Q3 extrapolada; impuestos 17,5% (tasa efectiva H1-2026 real); resultado de puestas en equivalencia ~120. BPA 2026E ~39,3 EUR.",
+      "flujo_caja_operaciones_2026e_eur_mm": 15000,
+      "rango_fco_2026e_eur_mm": "13.000 - 18.000",
+      "derivacion_fco": "SUPUESTO declarado. Ancla superior: BN 15.100 + D&A 1.050 + SBC 200 = 16.350 sin absorcion de circulante. Ancla inferior: H1 real -482,5 mas una reversion parcial del pico de clientes (de 3.023 a 7.252,6 M EUR entre dic-25 y jun-26). Se toma 15.000 como central. ESTE ES EL SUPUESTO MAS FRAGIL DE TODO EL EXPEDIENTE.",
+      "d_y_a_2026e_eur_mm": 1050,
+      "capex_total_2026e_eur_mm": 1700,
+      "oe_mantenimiento_eur_mm": 13950,
+      "oe_mantenimiento_usd_mm": 15768.0,
+      "oe_capex_total_eur_mm": 13300,
+      "oe_capex_total_usd_mm": 15033.0
+    },
+    "control_ttm_solo_hechos": {
+      "periodo": "12 meses hasta 28-jun-2026",
+      "fco_eur_mm": 11486.9,
+      "d_y_a_eur_mm": 1036.0,
+      "capex_total_eur_mm": 1594.2,
+      "beneficio_neto_eur_mm": 10638.4,
+      "oe_mantenimiento_eur_mm": 10450.9,
+      "oe_capex_total_eur_mm": 9892.7,
+      "nota": "HECHO puro (suma y resta de estados publicados). El TTM esta POR DEBAJO del ejercicio auditado, no por encima: el 'en curso' anualizado por guia es 34% superior al TTM real. Esa brecha es la promesa de la guia, no un hecho."
+    },
+    "distancia_entre_bases": {
+      "oe_mantenimiento_pct": 19.9,
+      "oe_capex_total_pct": 20.6,
+      "beneficio_neto_pct": 57.1,
+      "ventas_pct": 34.7,
+      "lectura_de_ciclo": "El beneficio salta un 57% y las ventas un 35%, pero el owner earnings solo un 20%. La diferencia es circulante: 2025 cobro anticipos, 2026 los devuelve en forma de cuentas a cobrar. Estamos en la parte alta y acelerante del ciclo — el punto exacto en el que un multiplo sobre beneficios enganya mas."
+    }
+  },
+  "dcf_inverso": {
+    "metodo": "Se descuentan los owner earnings (definicion b, capex total) al WACC de mercado. 10 anios de crecimiento g, valor terminal con g=3%. Se resuelve la g que iguala exactamente el EV de hoy.",
+    "wacc_usado_pct": 9.60,
+    "g_terminal_pct": 3.0,
+    "ev_objetivo_eur_mm": 556302,
+    "g_implicita_base_auditada_pct": 18.67,
+    "g_implicita_base_en_curso_pct": 16.15,
+    "g_implicita_sobre_oe_mantenimiento": {"auditado_pct": 17.95, "en_curso_pct": 15.51},
+    "g_implicita_sobre_beneficio_neto_2026e_pct": 14.45,
+    "traduccion": "Al precio de hoy el mercado exige que el flujo de caja libre de ASML crezca al 16-19% anual durante DIEZ anios y luego al 3% para siempre. Sobre la base en curso (13.300 M EUR) eso significa multiplicar el FCF por 4,5 hasta ~59.000 M EUR en 2036. Con margen neto del 34%, exige ventas de ~170.000 M EUR. El mercado mundial de equipo para semiconductores completo ronda hoy los 130.000 M USD."
+  },
+  "g_defendible": {
+    "mecanica_pedida": "tasa de reinversion x ROIIC ex-margen",
+    "reinversion_pct_ventas": 15.8,
+    "reinversion_eur_mm": 5161.4,
+    "nopat_fy2025_eur_mm": 9323.7,
+    "tasa_reinversion_sobre_nopat": 0.554,
+    "roiic_ex_margen_pct": 27.0,
+    "g_mecanica_pct": 14.95,
+    "por_que_no_defiendo_la_mecanica": "14,95% durante 10 anios lleva las ventas de ASML de 44.000 a ~175.000 M EUR en 2036, mas que todo el mercado mundial de equipo de semiconductores de hoy. La formula no sabe que existe un techo de mercado.",
+    "techo_del_propio_emisor": {
+      "modelo_2030_asml": "44.000 - 60.000 M EUR de ventas con margen bruto 56-60%",
+      "fuente": "HECHO — ASML Investor Day, 14-nov-2024 (6-K accession 0000937966-24-000024, press release Investor Day 2024)",
+      "implicacion": "La guia de 2026 (43-45 bn) ya toca el SUELO del modelo 2030, cuatro anios antes. Ir del punto medio de 2026 (44 bn) al TECHO del propio modelo 2030 (60 bn) son 8,1% anuales. La empresa actualizara su vision el 10-jun-2027 (Capital Markets Day) y probablemente la suba; pero el unico techo publicado hoy por la propia empresa implica 8%."
+    },
+    "g_defendible_pct": 10.0,
+    "justificacion": "Por encima del 8,1% del techo publicado por la propia ASML (porque 2026 ya lo rompio y la entrada de pedidos es 'extremadamente fuerte'), y muy por debajo del 14,95% mecanico (porque no cabe en el mercado). Ademas se aplica sobre una base 2026 que YA incorpora un salto del 35% en ventas: crecer otro 10% anual durante una decada encima de eso no es conservador."
+  },
+  "valor_intrinseco": {
+    "piso_de_resolucion": "Sin medicion propia de ruido se aplica +-25%. No se reportan decimales en el valor por accion.",
+    "base_auditada": {
+      "flujo_partida_eur_mm": 11027.3,
+      "g_pct": 10.0,
+      "valor_patrimonio_eur_mm": 294837,
+      "valor_por_accion_eur": 768,
+      "valor_por_accion_usd": 868,
+      "banda_usd": "650 - 1.085",
+      "mos_pct": -90.0
+    },
+    "base_en_curso": {
+      "flujo_partida_eur_mm": 13300,
+      "g_pct": 10.0,
+      "valor_patrimonio_eur_mm": 354799,
+      "valor_por_accion_eur": 924,
+      "valor_por_accion_usd": 1044,
+      "banda_usd": "785 - 1.305",
+      "mos_pct": -57.9
+    },
+    "mos_exigido_pct": 18.0,
+    "veredicto_precio": "Ni en el extremo mas favorable de la banda de ruido (valor 1.305 USD sobre la base en curso, es decir +25% sobre mi valor central) aparece margen de seguridad: el precio de 1.648,94 USD sigue un 26% por encima. El fallo no es marginal."
+  },
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 25.0,
+    "definicion_m": "Multiplo de owner earnings (capex total) que acepto pagar por ASML, decidido en frio y sin barra de error. 25x equivale a un rendimiento inicial del 4,0% con un WACC del 9,6% y terminal 3%: incorpora ya ~6,5% de crecimiento perpetuo. Es generoso para un negocio con 55% de las ventas en China+Taiwan y unidades en descenso.",
+    "precio_implicito_por_m_estrella_usd": 979,
+    "p_estrella_usd": 856,
+    "base_de_p_estrella": "Valor intrinseco base EN CURSO (1.044 USD) x (1 - 18%) = 856 USD.",
+    "p_estrella_base_auditada_usd": 712,
+    "cuanto_tiene_que_caer": "El precio tiene que caer un 48% desde 1.648,94 hasta 856 USD para abrir posicion con el MoS que exige la banda ULTRA. Un 57% si se exige sobre la base auditada.",
+    "multiplos_actuales": {
+      "precio_sobre_oe_en_curso": 42.1,
+      "precio_sobre_oe_auditado": 50.8,
+      "precio_sobre_beneficio_2026e": 37.1
+    }
+  },
+  "tir_esperada": {
+    "metodo": "Tasa que iguala el precio de hoy con los owner earnings creciendo a mi g defendible durante 10 anios y 3% a perpetuidad.",
+    "con_g_10pct_base_auditada": 6.64,
+    "con_g_10pct_base_en_curso": 7.34,
+    "con_g_8pct": "6,1% (auditado) a 6,7% (en curso)",
+    "con_g_13pct": "7,5% (auditado) a 8,4% (en curso)",
+    "rango": "+6% a +8% anual durante 10 anios; central ~7%",
+    "lectura": "Comprar hoy no destruye capital en terminos absolutos: se gana un 6-8% anual si el negocio cumple. Pero se cobra por debajo del coste de capital (9,6%) y sin ninguna almohadilla. Se asume todo el riesgo de Taiwan, de controles de exportacion y de que High-NA cumpla, para cobrar menos que el coste del capital propio."
+  },
+  "trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "El detector busca un MoS grande sobre un motor que se rompe. Aqui no hay MoS de ningun signo positivo: el MoS es -58% / -90%. No es una trampa de valor, es lo contrario — un negocio excelente con un precio que ya descuenta una decada de ejecucion perfecta. El riesgo no es que el mercado tenga razon en el descuento; es que no hay descuento que analizar.",
+    "matiz_a_vigilar": "El eslabon debil sigue vivo y empeorado por el precio: si el ASP deja de subir (unidades ya cayeron de 600 a 535 entre 2023 y 2025) y High-NA no escala mas alla de las 4 unidades de 2025, la g implicita del 16-19% se vuelve absurda y la caida seria de multiplo Y de beneficio a la vez. Ese es el escenario que convierte una sobrevaloracion en una perdida permanente."
+  },
+  "disciplina_de_datos": {
+    "hechos": [
+      "Todos los estados FY2023-FY2025: 20-F presentado 25-feb-2026, accession 0001628280-26-011378 (XBRL companyfacts CIK 0000937966).",
+      "H1-2026 y guia: 6-K de 15-jul-2026, accession 0001628280-26-048235 (Ex-99.1 nota de prensa, Ex-99.3 estados US GAAP, Ex-99.4 informe estatutario).",
+      "Ventas por geografia FY2025: 20-F R71.htm.",
+      "Unidades y ventas por tecnologia FY2025: 20-F R66.htm.",
+      "Deuda, cupones y valor razonable: 20-F R103/R104/R106.htm.",
+      "Acciones emitidas y en circulacion 384,1 M a 28-jun-2026: Statutory Interim Report 2026, estado de cambios en el patrimonio.",
+      "Modelo 2030 (44-60 bn EUR): 6-K Investor Day 14-nov-2024.",
+      "Precio: snapshot IBKR 27-jul-2026."
+    ],
+    "inferencias": [
+      "Beta 1,39 (Yahoo Finance, agregador, no filing).",
+      "Tasa libre de riesgo holandesa 3,07% (serie estadistica, no filing).",
+      "Prima de mercado 4,23% y primas pais (Damodaran, 5-ene-2026).",
+      "Tipo EUR/USD 1,1303 implicito de la doble cotizacion.",
+      "Acciones a 27-jul-2026 = 384,0 M (desde 384,1 M a 28-jun-2026).",
+      "Porcion corriente de la deuda a jun-2026 (1.699,6 M EUR)."
+    ],
+    "supuestos": [
+      "Beneficio neto 2026E = 15.100 M EUR (derivado de la guia de ventas y margen).",
+      "FCO 2026E = 15.000 M EUR — el supuesto mas fragil del expediente; el H1 real fue NEGATIVO (-482,5).",
+      "Capex total 2026E = 1.700 M EUR y D&A = 1.050 M EUR.",
+      "Prima pais EMEA 0,50% (media aproximada).",
+      "g defendible 10% (juicio, con el techo del propio emisor como ancla)."
+    ]
+  },
+  "huecos_declarados": [
+    "El FCO 2026E (15.000 M EUR) es un supuesto, no un dato. El H1-2026 real fue -482,5 M EUR de flujo operativo. Toda la base 'en curso' cuelga de que ASML cobre en H2 las cuentas a cobrar que dispararon de 3.023 a 7.253 M EUR. Si no revierte, el owner earnings en curso se acerca mas al TTM real (9.893 M EUR) y la g implicita sube por encima del 20%.",
+    "El beta es de un agregador (Yahoo), no de una medicion propia ni de una fuente institucional citable con metodologia publicada. GuruFocus da 1,4868 para el mismo titulo: dispersion de 7 puntos porcentuales entre proveedores.",
+    "No he verificado el reparto exacto de capex de mantenimiento frente a expansion. La D&A como proxy es una convencion; con capex de 1.631 M EUR frente a D&A de 1.026 M en 2025, hay 605 M EUR clasificados como discrecionales por definicion, no por evidencia del filing.",
+    "ASML no publica guia de capex 2026; el 1.700 M EUR es extrapolacion del H1.",
+    "La prima pais de Damodaran no captura el riesgo de controles de exportacion (29% de ventas en China) ni el riesgo del Estrecho de Taiwan (26%). El WACC del 9,6% es probablemente un suelo para este activo concreto.",
+    "El resultado por puesta en equivalencia (Carl Zeiss SMT, ~24,9%) se incluye en el beneficio, pero los prestamos a Zeiss (2.036 M EUR entre corriente y no corriente) y las inversiones en instrumentos de patrimonio (1.325 M EUR) NO se suman como activos no operativos, para evitar doble conteo. Si se sumaran, el valor por accion subiria ~9 EUR — irrelevante frente al ruido.",
+    "El tipo EUR/USD implicito (1,1303) difiere un 0,8% del cotizado del dia (1,1397). Se prioriza la coherencia interna precio-valor.",
+    "No he auditado si la subida del margen bruto guiada para H2-2026 (56,1% implicito frente a 53,5% en H1) es alcanzable; se toma la guia de la empresa tal cual, lo que sesga el 'en curso' A FAVOR de la empresa."
+  ],
+  "resumen_ejecutivo": "ASML cotiza a 42x owner earnings del ejercicio en curso y 51x los del ultimo auditado. El DCF inverso al WACC de mercado del 9,6% dice que el precio de hoy exige un 16-19% de crecimiento del flujo libre durante diez anios seguidos, seguido de un 3% perpetuo. La g que yo defiendo es del 10% — ya generosa, porque supera el 8,1% que implica el techo del propio modelo 2030 de ASML y se aplica sobre una base 2026 que incorpora un salto del 35% en ventas. Con esa g, el valor esta entre 868 y 1.044 USD por accion segun la base, con una banda de ruido de 650 a 1.305 USD. El margen de seguridad va de -58% a -90% frente al 18% exigido. El precio tendria que caer un 48% hasta 856 USD para abrir. La TIR esperada es del 6-8% anual, por debajo del coste de capital, asumiendo el riesgo de que el 55% de las ventas este en China y Taiwan. No es una trampa de valor —es un negocio extraordinario— pero al precio de hoy no es una decision de inversion, es una apuesta a que la aceleracion de 2026 se repita una decada."
+}

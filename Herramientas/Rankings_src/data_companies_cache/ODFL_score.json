@@ -1,0 +1,59 @@
+{
+ "ticker": "ODFL",
+ "name": "Old Dominion Freight Line, Inc.",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Modelo LTL escalable via densidad de red (mas paradas por ruta mejora margen), pero op ratio se deterioro a 76.2% en el ciclo bajo: apalancamiento operativo real pero no de tipo software/red, sin expansion monstruosa de margen."
+  },
+  "R2": {
+   "score": 1,
+   "just": "LTL crece secularmente con e-commerce/reshoring pero es ciclico-industrial; FY2025 rev -5.5% y tons/dia -7.7% confirman exposicion al ciclo de fletes, no crecimiento secular puro."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Lider #1 indiscutido en LTL premium con la mejor relacion service/on-time del sector y ~12-13% de cuota ganando share estructuralmente, claridad de liderazgo superior pero no a anios-luz del #2 (FedEx Freight/XPO compiten)."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat durable por red de ~260 terminales propias (real estate irreplicable a corto plazo), densidad y reputacion de servicio que sostienen pricing power (rev/cwt +5.7%, +4.4% ex-fuel en plena recesion de volumenes)."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento 100% organico, single-segment LTL sin M&A destructora; la contraccion actual es ciclica no estructural, con re-aceleracion verificada (mayo 2026 rev/dia +12.3% YoY)."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Base de clientes muy fragmentada (ningun cliente material >10%) pero concentracion geografica 100% domestica USA y mono-producto LTL, sin diversificacion internacional ni de linea de negocio."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC 23.75% muy por encima del WACC con FCF margin 17.4% y FCF $955M; capex elevado (~$265M, intensivo en terminales/flota) pero el ROIC alto compensa la intensidad inherente segun la regla."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Balance impecable con caja neta ~$0.25B (deuda ~$40M vs cash ~$288M), ND/EBITDA ligeramente negativo: optionalidad total para recomprar agresivamente en el ciclo bajo."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "SBC verificada extremadamente baja (~0.23% de revenue, ~1.3% del FCF), muy por debajo del umbral del 15%: FCF de altisima calidad no inflado por stock comp, GAAP=adj sin ajustes materiales."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Gestion disciplinada con asignacion de capital ejemplar (recompras consistentes y oportunistas, dividendo creciente, cero M&A destructora), control familiar Congdon con skin-in-the-game alineado a largo plazo."
+  }
+ },
+ "amplification": false,
+ "amplification_note": "R3 (liderazgo #1) y R4 (moat de red de terminales + pricing power) se refuerzan claramente, pero R1 no alcanza dominancia monstruosa de tipo software/red: el modelo es industrial-ciclico con op ratio que se deteriora en volumenes bajos, no margenes que se expanden de forma irreplicable. La combinacion es excelente pero no monstruosa/irreplicable en el sentido estricto de amplificacion.",
+ "moat_type": "red/intangibles",
+ "moat_one_line": "Red propia de ~260 terminales con densidad y el mejor servicio on-time del LTL, irreplicable a corto plazo, que sostiene pricing power incluso en recesion de volumenes (rev/cwt +5.7%).",
+ "thesis_3lines": [
+  "Calidad: best-in-class del LTL con ROIC 23.75%, caja neta, SBC casi nula y FCF de altisima calidad (17.4% margin), un compounder operativo con disciplina de capital ejemplar.",
+  "Motor: gana cuota estructural via densidad de red y servicio superior; la contraccion FY2025 (-5.5%) es ciclica y ya re-acelera (mayo 2026 rev/dia +12.3% YoY), con pricing power intacto.",
+  "Valoracion: cara a ~38x fwd (+20% sobre media 5a de ~32x) y PEG 2.4 sobre EPS de valle ciclico; no esta deprimida (-7% del ATH), exige paciencia o un punto de entrada mejor."
+ ],
+ "bear_case_strongest": "A ~38x forward sobre un EPS de trough ciclico, el mercado paga calidad premium por adelantado sin margen de seguridad: si la recuperacion del ciclo de fletes se estanca o el op ratio no vuelve a sub-72%, el multiplo se comprime y el retorno a 5 anios queda mediocre pese a la calidad del negocio.",
+ "ethical_flag": "none",
+ "sbc_flag": "ok",
+ "notes": "Score total re-puntuado = 13.5/13.5 (R1 1.0 + R2 1.0 + R3 1.5 + R4 1.5 + R5 1.5 + R6 1.0 + R7 1.5 + R8 1.5 + R9 1.5 + R10 1.5). Negocio de maxima calidad QG-Seilern: el unico reparo real es la valoracion (no deprimida, ~38x fwd sobre EPS de valle ciclico) y la naturaleza ciclico-industrial (R1/R2 frenan la amplificacion). SBC verificada ~1.3% del FCF -> R9 sin penalizacion (sbc_flag=ok). Caveats de datos: market_cap, fwd_pe, ROIC, FCF, SBC y net-cash provienen de agregador (StockAnalysis), no confirmados linea por linea contra el 10-K; fwd_pe_5y_avg y prima de valoracion son estimaciones derivadas. Clasificacion de caida = not_depressed (stock ~+40% TTM, ~7% bajo ATH)."
+}

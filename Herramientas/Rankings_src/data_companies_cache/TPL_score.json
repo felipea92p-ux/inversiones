@@ -1,0 +1,59 @@
+{
+ "ticker": "TPL",
+ "name": "Texas Pacific Land Corporation",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Royalty/surface model with ~77% operating margins and 62% FCF margin scales beautifully (zero incremental capex on third-party drilling), but it is not software/network economics so no 2.0."
+  },
+  "R2": {
+   "score": 1,
+   "just": "Permian Basin royalties + water + emerging data-center/surface monetization sit in a structurally productive basin, though long-run oil demand is a secular question mark, hence base 1.0 not 1.5."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "TPL owns the largest, most concentrated private surface/royalty footprint in the Permian (~880k acres) with no true #2 peer of equal acreage quality, sustained for decades."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat is irreplaceable physical land scarcity from an 1888 land grant — perpetual royalty + surface rights that cannot be replicated at any price, the strongest possible moat category."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "+29% FY2025 royalty production growth and +21% Q1 2026 revenue is essentially all organic (third-party drilling on owned acreage), no dilutive M&A."
+  },
+  "R6": {
+   "score": 0.5,
+   "just": "Multi-operator royalty base helps, but single-commodity (oil/gas price), single-basin (Permian) concentration is a real diversification weakness despite water/surface optionality."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC ~42.8%, FCF/NI ~104% (FCF $498.3M vs NI $481.4M), near-zero maintenance capex — exceptional capital economics well above WACC."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Net cash (~-$0.23B net debt), ND/EBITDA negative, only ~$18M debt with a fully undrawn $500M revolver — pristine balance sheet."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "SBC just 2.77% of FCF and 1.73% of revenue ($13.8M), clean GAAP=adjusted EPS with no non-GAAP gaming — superior accounting quality."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Disciplined capital return (dividends + buybacks) and a recovered-from-proxy-fight governance, but a still-evolving board/management track record caps it at base 1.0."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R3 (mayor propietario de superficie/royalties del Permico), R4 (escasez irreplicable por concesion de 1888) y R1 (modelo de royalties sin capex con margenes ~77%) se refuerzan de forma monstruosa: la tierra unica y perpetua permite capturar crecimiento de produccion financiado por terceros a margen incremental cercano al 100%, sin que ningun competidor pueda ensamblar acreage equivalente — un flywheel de escasez + escalabilidad.",
+ "moat_type": "Asset scarcity / irreplaceable intangible (perpetual land & royalty rights)",
+ "moat_one_line": "Perpetual, irreplaceable ~880k-acre Permian land grant (since 1888) generating no-cost-base royalties plus surface/water/data-center monetization that no rival can replicate at any price.",
+ "thesis_3lines": [
+  "Calidad: activo de escasez irreplicable (concesion de tierras de 1888) con margenes operativos ~77%, ROIC ~43%, conversion FCF/NI >100% y balance con caja neta.",
+  "Motor: produccion de royalties +29% y ingresos +21% organicos, mas opcionalidad creciente en agua y monetizacion de superficie/data-centers (ej. arreglo de $42.5M en Q1 2026).",
+  "Valoracion/retorno: ~38x fwd P/E (~-2.5% vs su media 5a) tras caer ~35% desde maximos por compresion de multiplo, no por deterioro — entrada razonable en un compounder unico."
+ ],
+ "bear_case_strongest": "A ~38x fwd P/E TPL cotiza a una prima enorme (~3x) sobre pares energeticos y depende estructuralmente del precio y la demanda del petroleo del Permico; una caida sostenida del crudo o la transicion energetica de largo plazo podria desinflar el multiplo y los volumenes de royalties a la vez.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Re-score total ponderado: R1 1.0 + R2 1.0 + R3 1.5 + R4 2.0 + R5 1.5 + R6 0.5 + R7 1.5 + R8 1.5 + R9 1.5 + R10 1.0 = 13.0/13.5. Baja desde el preliminar 13.5 por R6 (concentracion mono-commodity/mono-cuenca Permico) y R10 (track record de gobierno aun en consolidacion). SBC verificada muy baja (2.77% del FCF, 1.73% de ingresos) -> R9 no penalizado, sbc_flag=ok. Caida ~-35% clasificada fear_rotation/reset de valoracion, no deterioro fundamental: Q1 2026 +21% YoY, FY2025 record en ingresos/NI/FCF, caja neta. Amplificacion=true por refuerzo monstruoso R1+R3+R4 (escasez irreplicable + escalabilidad sin capex). Riesgo clave: prima de multiplo (~38x) y exposicion estructural al precio/demanda del petroleo."
+}

@@ -1,0 +1,258 @@
+{
+  "expediente": "Mastercard Incorporated — eje PRECIO (valoracion). Calidad CONGELADA, no reclasificable.",
+  "fecha_analisis": "2026-07-27",
+  "divisa": "USD",
+  "unidades": "millones de USD salvo indicacion contraria",
+  "analista": "valorador (subagente)",
+  "nota_alcance": "Esto es analisis cuantitativo de valoracion, no asesoramiento de inversion personalizado. La decision es de Felipe.",
+
+  "identificacion": {
+    "ticker": "MA",
+    "nombre": "MASTERCARD INCORPORATED",
+    "cik": "0001141391",
+    "domicilio": "Delaware, EEUU — 2000 Purchase Street, Purchase NY",
+    "bolsa": "NYSE",
+    "moneda_funcional": "USD",
+    "es_ADS": false,
+    "nota_ADS": "No aplica. Accion ordinaria Clase A cotizada directamente en NYSE. No hay ratio ADS que corregir.",
+    "clases_de_accion": {
+      "Class_A": 877036230,
+      "Class_B": 6547625,
+      "total": 883583855,
+      "nota": "Las Clase B son convertibles en Clase A y economicamente equivalentes; se incluyen en el recuento. No hay accionista de control.",
+      "etiqueta": "HECHO",
+      "fuente": "Portada del 10-Q Q1 2026 (accession 0001141391-26-000031), recuento a 2026-04-27: 'there were 877,036,230 shares outstanding of the registrant's Class A common stock ... and 6,547,625 shares outstanding of the registrant's Class B common stock'."
+    }
+  },
+
+  "etiqueta_congelada": {
+    "banda": "ULTRA-C",
+    "puertas_pasadas": 5,
+    "especie": "G2",
+    "reinversion_pct_ventas": 10.9,
+    "roiic_bruto_pct": 61.9,
+    "roiic_ex_margen_pct": 55.3,
+    "mos_exigido_pct": 30.0,
+    "motivo_mos": "Esta en cartera de Felipe (3,69% del NAV) -> aplica el umbral de CARGAR: 18% base + 12 puntos = 30% para ULTRA.",
+    "nota_disciplina": "No se ha tocado ni reinterpretado la calidad. Todo lo que sigue es exclusivamente precio. La etiqueta no se reclasifica hacia arriba jamas."
+  },
+
+  "precio_y_capitalizacion": {
+    "precio_usd": 551.71,
+    "precio_etiqueta": "HECHO",
+    "precio_fuente": "IBKR, barra diaria de cierre 2026-07-27 (close 551,71; open 543,18; high 553,89; low 542,02; volumen 1.370.360). Snapshot posterior de after-hours a 21:00 ET marcaba 549,51 — se usa el cierre regular.",
+    "maximo_52s_usd": 598.78,
+    "minimo_52s_usd": 464.58,
+    "maximo_13s_usd": 553.86,
+    "minimo_13s_usd": 464.58,
+    "variacion_ytd_pct": -3.43,
+    "volatilidad_historica_anual_pct": 23.1,
+    "volatilidad_implicita_anual_pct": 27.3,
+    "rentabilidad_por_dividendo_pct": 0.62,
+    "contexto_precio": "Derating de 12 meses: de 598,78 (maximo 52s) a 464,58 (minimo 52s, alcanzado en el trimestre en curso), -22,4%. Rebote a 551,71. El mes de junio 2026 cerro en 513,60 y julio recupera. La accion lleva -3,4% en el anio mientras el beneficio crece +18%: el multiplo se ha comprimido, no el negocio.",
+    "acciones_en_circulacion_mm": 883.584,
+    "acciones_nota": "Recuento a 2026-04-27 (HECHO). Entre esa fecha y hoy Mastercard ha seguido recomprando (~4.000 M USD/trimestre); el recuento real hoy es probablemente ~876 M (INFERENCIA). Usar 883,58 sesga la capitalizacion al ALZA ~0,9% — direccion conservadora para la valoracion.",
+    "capitalizacion_usd_mm": 487482,
+    "deuda_bruta_valor_contable_usd_mm": 18960,
+    "deuda_bruta_valor_razonable_usd_mm": 17700,
+    "deuda_fuente": "10-Q Q1 2026, Nota 9 (Debt): 'Total debt outstanding 18.960' a 2026-03-31 (17.212 largo plazo + 1.748 corto plazo). Nota de valor razonable: 'At March 31, 2026, the carrying value and fair value of debt was $19.0 billion and $17.7 billion, respectively.' HECHO. Se pondera la deuda a VALOR DE MERCADO (17.700) como exige el candado B.",
+    "caja_y_equivalentes_usd_mm": 7906,
+    "inversiones_corrientes_usd_mm": 313,
+    "deuda_neta_usd_mm": 9481,
+    "ev_usd_mm": 496963,
+    "nota_caja": "NO se computan como caja: efectivo restringido (551), depositos de garantia restringidos de clientes (2.307) ni activos de liquidacion (2.062) — es dinero de terceros en transito, con contrapartida identica en el pasivo. Tampoco se computan las inversiones en renta variable no cotizada (1.677 en 'Other assets'), lo que sesga la deuda neta al alza: direccion conservadora.",
+    "nota_papel_comercial": "El 10-Q declara (HECHO): 'As of April 27, 2026, the Company had $2.5 billion of commercial paper outstanding, with a weighted-average interest rate of 3.82%'. Ese papel NO esta en el balance de 2026-03-31. Si se anadiese integro, la deuda neta subiria a ~11.981 y el EV a ~499.463: +0,5% sobre el EV. Por debajo del piso de resolucion: irrelevante para el veredicto, pero declarado."
+  },
+
+  "wacc": {
+    "candado_B": "El WACC sale integramente del mercado. NO se ha heredado de ningun tier de calidad.",
+    "tasa_libre_riesgo_pct": 4.65,
+    "tasa_libre_riesgo_fuente": "Bono del Tesoro de EEUU a 10 anios, 4,65% al cierre de 2026-07-27. Fuente: U.S. Department of the Treasury, Daily Treasury Par Yield Curve Rates, fichero CSV oficial (home.treasury.gov), fila 07/27/2026. HECHO. Moneda funcional USD, asi que el bono soberano correcto es el americano.",
+    "beta": 0.85,
+    "beta_fuente": "Medicion propia: regresion de 60 retornos MENSUALES de MA contra SPY, ventana 2021-07 a 2026-07, datos de precio IBKR. Beta cruda 0,705 (correlacion 0,544). Ajuste Blume (0,67*b + 0,33) = 0,80. Contraste externo con fecha: Yahoo Finance beta 5A mensual 0,73; Investing.com beta 5A 0,82; stockanalysis.com 0,83 (consultados 2026-07-27, INFERENCIA por ser agregadores). Se adopta 0,85 como central — por ENCIMA de mi propia medicion y del cluster publicado, para no dejar que un beta bajo infle el valor.",
+    "beta_fragilidad": "El beta de MA es inestable: 0,705 a 5 anios mensual, 0,482 a 3 anios, 0,254 a 2 anios. La correlacion con el indice es solo 0,544 — el R2 es 0,30. Un beta con ese R2 explica menos de un tercio de la varianza: es una medida fragil y por eso el rango de WACC es ancho.",
+    "prima_mercado_pct": 4.23,
+    "prima_mercado_fuente": "Damodaran, 'Country Default Spreads and Risk Premiums', tabla con fecha explicita 'Last updated: January 5, 2026'. Mature market ERP = 4,23% (fila Alemania/Australia, Aaa, spread de impago 0,00%). EEUU figura con rating Aa1, spread de impago 0,23%, ERP total 4,46%. Al usar el 10Y observado (4,65%) en lugar del rf ajustado de Damodaran (4,42%), la prima consistente es exactamente la ERP de mercado maduro: 4,65% + 4,23% = 8,88% = retorno esperado implicito del S&P 500 de Damodaran. Cierra sin doble conteo.",
+    "prima_pais_pct": 1.0,
+    "prima_pais_fuente": "INFERENCIA. Mastercard opera en mas de 210 paises y solo desglosa geografia en dos bloques: Americas 14.044 M (42,8%) y Asia Pacifico/Europa/Oriente Medio/Africa 18.747 M (57,2%) en FY2025 (10-K 2025, Nota 3). Con ese detalle NO se puede construir un CRP pais a pais. Estimacion ponderada propia sobre la tabla Damodaran de 2026-01-05: ~1/3 EEUU (CRP 0,23%), ~25% Europa desarrollada (~0,2%), ~10% Asia desarrollada (~0,5%), ~32% emergentes (CRP medio ~2,5%) -> 0,98%, redondeado a 1,00%. El riesgo pais se aplica al ACTIVO (donde se mueve el volumen), no al domicilio fiscal de Delaware.",
+    "coste_equity_pct": 9.096,
+    "coste_equity_formula": "Ke = 4,65% + 0,85 x (4,23% + 1,00%) = 9,10%",
+    "coste_deuda_pct": 5.25,
+    "coste_deuda_fuente": "Se usa el coste MARGINAL, no el historico. Anclajes primarios del 10-Q Q1 2026, Nota 9: la emision mas reciente (2025 USD Notes) lleva tipos efectivos de 4,727% (2028), 4,727% (2028) y 5,063% (2032); el papel comercial vivo a 2026-04-27 paga 3,82%. El tipo efectivo medio ponderado del libro entero es 3,656% (calculo propio sobre los 24 tramos de la Nota 9, ponderado por principal). El coste REALIZADO derivado del filing es 3,88% = gasto financiero FY2025 722 M / deuda media ((18.226 + 19.000)/2 = 18.613 M) — 10-K 2025 y 10-K 2024. Se adopta 5,25% marginal (rf 4,65% + ~60 pb de diferencial para un emisor A+/Aa3) porque el WACC es prospectivo y el libro actual esta cargado de deuda emitida al 2-3% que se refinanciara mas cara.",
+    "coste_deuda_realizado_pct": 3.879,
+    "tasa_impositiva_marginal_pct": 21.0,
+    "tasa_impositiva_efectiva_pct": 19.4,
+    "tasa_impositiva_nota": "Efectiva FY2025 = 3.610 / 18.578 = 19,43% (10-K 2025). Q1 2026 = 19,3% (930/4.812). Para el escudo fiscal de la deuda se usa la MARGINAL del 21% (estatutaria federal), no la efectiva, porque la deduccion de intereses se produce en EEUU.",
+    "peso_equity_pct": 96.5,
+    "peso_deuda_pct": 3.5,
+    "wacc_pct": 8.92,
+    "wacc_rango": "8,2% – 9,9%",
+    "wacc_sensibilidad": {
+      "beta_0_70": 8.17,
+      "beta_0_85": 8.92,
+      "beta_1_05": 9.93
+    },
+    "nota_apalancamiento": "La deuda es el 3,5% de la estructura de capital a valor de mercado. El WACC es, a efectos practicos, el coste del equity. Toda la sensibilidad del WACC vive en el beta y en la prima pais, no en la deuda."
+  },
+
+  "owner_earnings": {
+    "metodo": "Dos versiones obligatorias x dos bases obligatorias.",
+    "base_auditada": {
+      "ejercicio": "FY2025",
+      "fuente": "10-K presentado 2026-02-11, accession 0001141391-26-000013, periodo 2025-01-01 a 2025-12-31. Todas las cifras HECHO, via XBRL companyfacts de la SEC y contrastadas contra el texto del 10-K.",
+      "ingreso_neto_ventas_usd_mm": 32791,
+      "beneficio_operativo_usd_mm": 18897,
+      "margen_operativo_pct": 57.6,
+      "beneficio_neto_usd_mm": 14968,
+      "flujo_caja_operativo_usd_mm": 17648,
+      "cfo_sobre_beneficio_neto": 1.179,
+      "depreciacion_y_amortizacion_usd_mm": 1143,
+      "capex_propiedad_y_equipo_usd_mm": 489,
+      "capex_software_capitalizado_usd_mm": 726,
+      "capex_total_usd_mm": 1215,
+      "gasto_financiero_usd_mm": 722,
+      "compensacion_en_acciones_usd_mm": 597,
+      "acciones_diluidas_medias_mm": 906,
+      "oe_a_mantenimiento_usd_mm": 16505,
+      "oe_a_formula": "CFO 17.648 - capex de mantenimiento aproximado por la D&A 1.143 = 16.505. El exceso de capex sobre D&A (1.215 - 1.143 = 72) es inversion discrecional y NO se resta.",
+      "oe_b_capex_total_usd_mm": 16433,
+      "oe_b_formula": "CFO 17.648 - capex total 1.215 = 16.433 (flujo de caja libre puro).",
+      "distancia_entre_las_dos_versiones_pct": 0.44,
+      "nota_capex": "La distancia entre las dos versiones es del 0,4%. En Mastercard el debate capex de mantenimiento vs discrecional es IRRELEVANTE: el negocio consume 3,7% de las ventas en capex total. Esta metrica, que existe para no penalizar a un Amazon 2005, aqui no cambia nada. Lo que si importa es que la D&A (1.143) incluye 760 M de amortizacion de intangibles adquiridos (10-K 2025), que no es capex de mantenimiento en absoluto: restarla como si lo fuera INFRAVALORA los owner earnings en hasta ~700 M. Se mantiene la convencion del metodo y se declara el sesgo (es conservador).",
+      "oe_ajustado_por_sbc_usd_mm": 15908,
+      "nota_sbc": "Si se dedujera la compensacion en acciones (597 M), los owner earnings de mantenimiento caerian a 15.908 (-3,6%). No se deduce por convencion del metodo, pero se declara: Mastercard recompro 11.727 M en 2025 frente a 597 M de SBC — la dilucion neta es fuertemente negativa (acciones diluidas 946 -> 927 -> 906 en tres anios)."
+    },
+    "base_en_curso": {
+      "ejercicio": "FY2026 anualizado",
+      "etiqueta": "INFERENCIA",
+      "trimestres_publicados": 1,
+      "fuente_trimestre": "10-Q Q1 2026 presentado 2026-04-30, accession 0001141391-26-000031. Ingreso neto 8.398; beneficio operativo 4.907; beneficio neto 3.882; CFO 2.999; capex PP&E 154 + software 181 = 335; D&A 299. Todo HECHO.",
+      "metodo_anualizacion": "NO se multiplica Q1 por 4: el Q1 de Mastercard es estacionalmente bajo en caja (el Q1 2025 fue el 13,5% del CFO anual y el Q1 2024 el 11,3%). Se anualiza por PROPORCION historica: el Q1 2025 represento el 21,9% del beneficio neto de FY2025, luego BN 2026E = 3.882/0,219 = 17.726 (+18,4%); el CFO se deriva aplicando la razon CFO/BN de FY2025 (1,179) -> CFO 2026E ~20.900. Capex 2026E ~1.300 (3,7% sobre ventas 2026E ~38.000, misma intensidad que 2025). D&A 2026E ~1.250 (Q1 299 sobre el 24,1% que represento el Q1 2025).",
+      "ingreso_neto_ventas_estimado_usd_mm": 38000,
+      "beneficio_neto_estimado_usd_mm": 17726,
+      "flujo_caja_operativo_estimado_usd_mm": 20900,
+      "depreciacion_y_amortizacion_estimada_usd_mm": 1250,
+      "capex_total_estimado_usd_mm": 1300,
+      "oe_a_mantenimiento_usd_mm": 19650,
+      "oe_b_capex_total_usd_mm": 19600,
+      "rango_por_ruido": "OE de mantenimiento 2026E: 17.700 – 21.600 (mas menos el piso de resolucion del 10% aplicado solo a la anualizacion, no el 25% general)."
+    },
+    "distancia_entre_bases": {
+      "oe_mantenimiento_variacion_pct": 19.1,
+      "lectura": "Los owner earnings del ejercicio en curso estan un 19% por encima de los del ultimo auditado. Eso NO es ruido: es el momento del ciclo. Tres componentes identificables. (1) Divisa: el Q1 2026 crecio 16% reportado pero 12% a divisa constante — 4 puntos porcentuales, casi un tercio del crecimiento, son debilidad del dolar. Es caja real en USD hoy pero NO es repetible ni compuesto. (2) Mix hacia servicios de valor anadido: +22% (18% a divisa constante) frente al +12% (8%) de la red de pagos; los VAS ya son el 41,1% del ingreso neto del trimestre (3.450 de 8.398) frente al 40,6% de FY2025. (3) Apalancamiento operativo genuino: margen operativo 58,4% en Q1 2026 vs 57,2% un anio antes. Conclusion: de los 19 puntos de distancia entre bases, aproximadamente 4-5 son divisa y por tanto la base en curso esta INFLADA respecto de la capacidad estructural. Por eso el veredicto se ancla en la base AUDITADA."
+    }
+  },
+
+  "dcf_inverso": {
+    "motor": "Para cada base: que crecimiento constante a 10 anios, con crecimiento terminal del 3%, justifica exactamente el EV de hoy (496.963 M) al WACC calculado (8,92%).",
+    "flujo_descontado": "Owner earnings DESAPALANCADOS (OE + gasto financiero x (1 - 21%)), para ser consistentes con descontar a WACC contra EV y no contra capitalizacion.",
+    "cf0_auditado_mantenimiento_usd_mm": 17075,
+    "cf0_auditado_capex_total_usd_mm": 17003,
+    "cf0_encurso_mantenimiento_usd_mm": 20235,
+    "cf0_encurso_capex_total_usd_mm": 20185,
+    "g_implicita_auditado_mantenimiento_pct": 9.71,
+    "g_implicita_auditado_capex_total_pct": 9.77,
+    "g_implicita_encurso_mantenimiento_pct": 7.50,
+    "g_implicita_encurso_capex_total_pct": 7.53,
+    "sensibilidad_al_wacc": {
+      "beta_0_70_wacc_8_17": {"g_impl_auditado_pct": 7.80, "g_impl_encurso_pct": 5.65},
+      "beta_0_85_wacc_8_92": {"g_impl_auditado_pct": 9.71, "g_impl_encurso_pct": 7.50},
+      "beta_1_05_wacc_9_93": {"g_impl_auditado_pct": 12.05, "g_impl_encurso_pct": 9.77}
+    },
+    "lectura": "El mercado esta pidiendo a Mastercard entre un 7,5% y un 9,7% de crecimiento anual de owner earnings durante una decada, segun la base. Contra la tasa base del negocio — beneficio operativo compuesto al 17,0% anual y ventas al 14,8% entre 2021 y 2025 (10-K, cifras auditadas) — esas exigencias estan POR DEBAJO de lo que el negocio ha entregado. El precio no es una apuesta heroica. Pero tampoco es una ganga: exigir 9,7% a una decada vista a un negocio cuyo peaje propio (yield 0,176% -> 0,184%) crece por debajo de la inflacion es asumir que el mix hacia servicios de valor anadido sigue haciendo el trabajo pesado durante diez anios seguidos."
+  },
+
+  "g_defendible": {
+    "formula_obligatoria": "g = reinversion x ROIIC EX-MARGEN. Se usa el ex-margen (55,3%) y NO el bruto (61,9%), porque el bruto asume que la expansion de margen se repite. Mastercard lleva el margen operativo de 53,4% (2021) a 57,6% (2025) a 58,4% (Q1 2026): usar el ROIIC bruto seria extrapolar 4 puntos mas de margen sobre un negocio que ya opera al 58%.",
+    "calculo": "Reinversion = 10,9% x ventas FY2025 (32.791) = 3.574 M. NOPAT incremental = 3.574 x 55,3% = 1.976 M. NOPAT FY2025 = 18.897 x (1 - 19,4%) = 15.231 M. g = 1.976 / 15.231 = 12,98%.",
+    "g_defendible_pct": 12.98,
+    "contraste_con_la_historia": "El beneficio operativo compuso al 17,0% anual 2021-2025 y las ventas al 14,8%. Un 13,0% ex-expansion-de-margen es coherente con esa tasa base, incluso ligeramente por debajo. La formula no esta inventando crecimiento.",
+    "por_que_no_me_la_creo_diez_anios_plana": "Mantener 13,0% durante diez anios seguidos implica que los owner earnings se multiplican por 3,4x hasta 2036. Sobre un negocio que ya procesa 2,7 billones de dolares de volumen bruto trimestral y cuyo eslabon mas debil es precisamente la erosion del precio realizado del peaje — rebates +23% frente a +12% del ingreso neto de red en Q1 2026 — la extrapolacion plana es la forma educada de no pensar. Por eso se calcula tambien la variante con desvanecimiento lineal de 13,0% a 3,0% en diez anios, y es la que gobierna el veredicto."
+  },
+
+  "valor_intrinseco": {
+    "convencion": "Mismo motor que el DCF inverso (g constante 10 anios + terminal 3%, WACC 8,92%) para que la comparacion sea manzana con manzana. Deuda neta 9.481 restada del EV. 883,584 M de acciones.",
+    "piso_de_resolucion": "No hay medicion propia del ruido de este modelo -> se aplica la banda de mas menos 25% obligatoria. Ninguna cifra de valor intrinseco se reporta con decimales.",
+    "escenario_g_plana_12_98": {
+      "auditado_mantenimiento": {"ev_usd_mm": 637956, "valor_por_accion_usd": 711, "banda_mas_menos_25": "533 – 889", "mos_pct": 22.4},
+      "auditado_capex_total": {"valor_por_accion_usd": 708, "mos_pct": 22.1},
+      "encurso_mantenimiento": {"ev_usd_mm": 755988, "valor_por_accion_usd": 845, "banda_mas_menos_25": "634 – 1056", "mos_pct": 34.7},
+      "encurso_capex_total": {"valor_por_accion_usd": 843, "mos_pct": 34.5}
+    },
+    "escenario_con_desvanecimiento": {
+      "descripcion": "g desvaneciendo linealmente de 12,98% a 3,0% a lo largo de los diez anios. Es el escenario que respeta el eslabon mas debil del mecanismo.",
+      "auditado_mantenimiento": {"valor_por_accion_usd": 497, "mos_pct": -11.1},
+      "encurso_mantenimiento": {"valor_por_accion_usd": 591, "mos_pct": 6.6}
+    },
+    "sensibilidad_al_wacc_g_plana": {
+      "beta_0_70_wacc_8_17": {"v_auditado_usd": 832, "mos_auditado_pct": 34, "v_encurso_usd": 988, "mos_encurso_pct": 44},
+      "beta_0_85_wacc_8_92": {"v_auditado_usd": 711, "mos_auditado_pct": 22, "v_encurso_usd": 845, "mos_encurso_pct": 35},
+      "beta_1_05_wacc_9_93": {"v_auditado_usd": 592, "mos_auditado_pct": 7, "v_encurso_usd": 704, "mos_encurso_pct": 22}
+    }
+  },
+
+  "margen_de_seguridad": {
+    "mos_exigido_pct": 30.0,
+    "mos_auditado_pct": 22.4,
+    "mos_encurso_pct": 34.7,
+    "mos_auditado_con_fade_pct": -11.1,
+    "mos_encurso_con_fade_pct": 6.6,
+    "veredicto_mos": "NO CARGAR. De las cuatro lecturas, solo UNA supera el 30% exigido (base en curso con g plana, 34,7%) — y esa es precisamente la lectura mas contaminada: descansa en un solo trimestre publicado, incorpora ~4 puntos porcentuales de viento de cola cambiario que no se compone, y extrapola 13% plano durante una decada. La base auditada, que es la unica verificable de punta a punta, da 22,4% con g plana y -11,1% con desvanecimiento. Ademas, la banda del piso de resolucion sobre el valor auditado (533-889 USD) CONTIENE el precio de hoy (551,71): el modelo no distingue el precio del valor. Cuando el ruido se traga la senal, la respuesta es no actuar.",
+    "que_haria_falta_para_cargar": "Un precio de 498 USD o menos (P estrella) sobre la base auditada, o la publicacion del 10-Q del Q2 2026 confirmando que el crecimiento a divisa constante se sostiene por encima del 12% y que los rebates dejan de crecer al doble que el ingreso neto de red."
+    },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 26.0,
+    "m_estrella_definicion": "26,0 veces los owner earnings de MANTENIMIENTO del ultimo ejercicio AUDITADO (FY2025: 16.505 M, es decir 18,68 USD por accion). Decidido en frio, sin barra de error, porque no es una estimacion: es una politica.",
+    "m_estrella_justificacion": "A 26x, el rendimiento inicial de owner earnings es del 3,85%. Con un negocio que compone entre el 9% y el 13% y devuelve practicamente todo el flujo (11.727 M de recompras + 3.000 M de dividendos en 2025 sobre 16.433 M de FCF), 26x entrega una TIR de dos digitos bajos sin necesidad de que el multiplo se expanda. Por encima de 26x estoy pagando por la expansion del multiplo, que no controlo. Es el numero al que me comprometo antes de ver el precio.",
+    "multiplo_actual_sobre_oe_auditado": 29.5,
+    "multiplo_actual_sobre_oe_encurso": 24.8,
+    "p_estrella_usd": 498,
+    "p_estrella_derivacion": "Valor intrinseco de la base AUDITADA con g plana (711 USD) x (1 - 30% de MoS exigido) = 498 USD. Comprobacion cruzada independiente: m estrella 26,0 x 18,68 USD de OE auditado por accion = 486 USD. Los dos caminos convergen en 486-498, un 2,5% de diferencia. Tercera comprobacion: 498 USD es tambien, casi exactamente, el valor razonable de la base auditada bajo el escenario con desvanecimiento (497 USD) — es decir, pagando 498 uno obtiene el 30% de margen si el negocio compone plano al 13%, y no pierde nada si el crecimiento se desvanece al 3%. Eso es lo que se compra con un margen de seguridad.",
+    "distancia_al_precio_pct": -9.7,
+    "distancia_lectura": "El precio tiene que caer un 9,7% desde 551,71 hasta 498 para abrir la compra. No es una distancia grande. Es una distancia real."
+  },
+
+  "tir_esperada": {
+    "definicion": "Tasa de descuento que iguala el EV de hoy al flujo de owner earnings desapalancados proyectado. Es lo que uno se lleva si el modelo acierta, a 10 anios.",
+    "rango": "+8,4% a +11,5% anual durante 10 anios",
+    "central_pct": 9.5,
+    "desglose": {
+      "auditado_g_plana_12_98": 10.36,
+      "auditado_con_fade": 8.37,
+      "encurso_g_plana_12_98": 11.51,
+      "encurso_con_fade": 9.31
+    },
+    "lectura": "La TIR esperada central (~9,5%) esta apenas 60 puntos basicos por encima del WACC (8,92%). Traducido: comprando hoy a 551,71 uno gana el coste del capital y poco mas. Eso no es un error del modelo ni una trampa — es un negocio excelente a un precio adecuado. Y un precio adecuado no es una oportunidad."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "No hay trampa de valor porque no hay un margen grande sobre un motor roto — no hay margen grande, punto, y el motor no esta roto. Evidencia de que el motor funciona, toda de filing primario: margen operativo 57,6% en FY2025 y 58,4% en Q1 2026 (subiendo, no cayendo); CFO/beneficio neto de 1,179 en 2025; beneficio operativo compuesto al 17,0% anual 2021-2025; volumen bruto +7%, transacciones conmutadas +9% y volumen transfronterizo +13% en Q1 2026 en moneda local; servicios de valor anadido +22%. Un negocio que se estuviera rompiendo no genera 17.648 M de caja operativa sobre 32.791 M de ventas.",
+    "vigilancia_del_eslabon": "El eslabon debil de la etiqueta congelada SI se esta moviendo y hay que mirarlo cada trimestre: en Q1 2026 los rebates e incentivos de la red crecieron +23% (+19% a divisa constante) frente a un +12% (+8%) del ingreso neto de la red de pagos. En FY2025 los rebates fueron 20.522 M creciendo +16% (10-K 2025, MD&A) sobre un ingreso neto de red de 19.476 M — es decir, Mastercard ya devuelve a sus clientes MAS de lo que se queda de la red. Que la expansion del yield venga del mix hacia servicios y no de subir la tarifa del riel es exactamente el hecho que la etiqueta congelada identifico, y sigue vigente. Eso no lo convierte en trampa de valor hoy; lo convierte en el gatillo de falsacion a vigilar."
+  },
+
+  "huecos_declarados": [
+    "El 10-Q del Q2 2026 NO estaba presentado a fecha de este analisis (ultimo 10-Q: Q1 2026, presentado 2026-04-30). Toda la base 'ejercicio en curso' descansa en UN solo trimestre publicado. Mastercard suele presentar el 10-Q del Q2 a finales de julio: este expediente puede quedar desfasado en dias.",
+    "Mastercard NO publica guia cuantitativa de ejercicio completo en su nota de prensa de resultados (verificado leyendo integra la EX-99.1 del 8-K de 2026-04-30). La guia se da verbalmente en la conferencia telefonica y no he podido anclarla a documento primario. La anualizacion del ejercicio en curso es por tanto INFERENCIA propia por estacionalidad historica, sin guia de la empresa.",
+    "La prima de riesgo pais ponderada (1,00%) es INFERENCIA. Mastercard solo desglosa geografia en dos bloques (Americas / Asia-Pacifico-Europa-Oriente Medio-Africa), lo que impide construir un CRP pais a pais con datos primarios. Un CRP de 0,5% subiria el valor auditado a ~790 USD; uno de 2,0% lo bajaria a ~590 USD.",
+    "El beta es fragil: R2 de solo 0,30 contra el S&P 500 y dispersion de 0,25 (2 anios) a 0,71 (5 anios). Todo el ancho del rango de WACC (8,2%-9,9%) viene de aqui, y ese rango mueve el valor auditado entre 592 y 832 USD por accion.",
+    "Papel comercial de 2.500 M USD vivo a 2026-04-27 (HECHO, 10-Q Nota 9) que no figura en el balance de 2026-03-31 usado para la deuda neta. Impacto maximo: +0,5% sobre el EV.",
+    "El recuento de acciones es a 2026-04-27. Las recompras posteriores (ritmo de ~4.000 M/trimestre) implican probablemente ~876 M de acciones hoy: INFERENCIA. Usar 883,58 sobreestima la capitalizacion ~0,9%, que es la direccion conservadora.",
+    "La compensacion en acciones (597 M en FY2025) NO se deduce de los owner earnings por convencion del metodo. Deducirla baja el OE auditado de mantenimiento a 15.908 (-3,6%) y el valor auditado a ~685 USD.",
+    "La adquisicion de BVNK (1.500 M mas hasta 300 M contingentes, acuerdo de marzo 2026, cierre previsto antes de fin de 2026 — 10-Q Nota 2) NO esta en el balance ni en las proyecciones. Reduce la caja futura en ~1.500 M (0,3% del EV) y aporta ingresos no cuantificables todavia.",
+    "Los litigios de intercambio (interchange) no estan cuantificados en esta valoracion. El 10-K los trata en la nota de contingencias; no he auditado su provision ni su exposicion maxima.",
+    "La D&A (1.143 M en FY2025) incluye 760 M de amortizacion de intangibles adquiridos, que no es capex de mantenimiento. Restarla como proxy de mantenimiento infravalora los owner earnings en hasta ~700 M (+4% sobre el OE de mantenimiento). Se mantiene la convencion y se declara el sesgo, que es conservador."
+  ],
+
+  "veredicto_precio": {
+    "decision": "NO CARGAR",
+    "sintesis": "Mastercard a 551,71 USD cotiza a 29,5x owner earnings auditados y 24,8x los del ejercicio en curso, con un EV de 496.963 M. Al WACC de mercado de 8,92% — construido desde cero con el 10Y americano al 4,65%, un beta propio de 0,705 elevado prudentemente a 0,85, la ERP de mercado maduro de Damodaran del 4,23% y una prima pais ponderada del 1,00% — el precio de hoy exige un 9,7% de crecimiento a diez anios sobre la base auditada y un 7,5% sobre la base en curso. La tasa base del negocio (17,0% anual de beneficio operativo entre 2021 y 2025) supera ambas exigencias, y la g defendible derivada de reinversion x ROIIC ex-margen es del 13,0%. Con esa g, el valor auditado sale 711 USD (MoS 22,4%) y el del ejercicio en curso 845 USD (MoS 34,7%). Pero el umbral de CARGAR es del 30% y la unica lectura que lo supera es la mas contaminada: un solo trimestre publicado, con cuatro puntos porcentuales de viento cambiario dentro, extrapolando trece por ciento plano durante una decada sobre un negocio cuyo peaje propio crece por debajo de la inflacion. Si el crecimiento se desvanece linealmente a 3%, el valor auditado cae a 497 USD y el margen se vuelve NEGATIVO. Y la banda del piso de resolucion sobre el valor auditado (533-889 USD) contiene el precio actual: el modelo, honestamente medido, no distingue precio de valor. La TIR esperada, +8,4% a +11,5% anual, se solapa con el propio WACC. La respuesta correcta es esperar a 498 USD.",
+    "gatillos_de_revision": [
+      "10-Q del Q2 2026 (esperado finales de julio 2026): confirmar si el crecimiento a divisa constante se sostiene sobre el 12% y si los rebates siguen creciendo al doble que el ingreso neto de la red de pagos.",
+      "Precio en o por debajo de 498 USD (P estrella): abre la compra sobre la base auditada.",
+      "Ingreso neto de la red de pagos creciendo por debajo del 6% a divisa constante dos trimestres seguidos: el eslabon debil se rompe y hay que rehacer la g defendible.",
+      "Cierre de la adquisicion de BVNK y su contribucion: previsto antes de fin de 2026."
+    ]
+  }
+}

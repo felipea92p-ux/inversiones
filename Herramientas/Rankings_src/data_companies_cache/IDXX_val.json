@@ -1,0 +1,48 @@
+{
+ "ticker": "IDXX",
+ "name": "IDEXX Laboratories, Inc.",
+ "currency": "USD",
+ "price_verified": 545.73,
+ "price_source": "StockAnalysis.com / Yahoo Finance (cierre 2026-06-22); after-hours intradia ~$556. Rango del dia $540.99-$562.74.",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.0796,
+ "implied_mcap_b_usd": 43.44,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 9.5,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.05,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF = FCF FY2025 ~$1,100M - 100% SBC (~$65M/anio) = ~$1,035M; por accion ~$13.0 (sobre 79.6M acciones diluidas). Nota: EPS FY26 guia mid $14.675 > owner-FCF/accion porque la conversion FCF/NI ~90-100% deja el FCF algo por debajo del beneficio neto por timing de capex/working capital; el DCF resulta conservador frente al poder de reinversion a ROIC ~44%.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 246.97,
+   "prob": 0.38,
+   "note": "Crecimiento organico se modera a 7% Fase1 -> 4.5% Fase2, g terminal 2.5%. Pesimista razonable (presion de competidores en in-clinic, ralentizacion de visitas veterinarias) pero NO apocaliptico; margenes se mantienen."
+  },
+  "base": {
+   "iv_per_share": 316.14,
+   "prob": 0.47,
+   "note": "Crecimiento organico ~10% Fase1 (en linea con FY25/guia FY26) declinando a 6% Fase2, g terminal 3.0%. Continua la expansion de margen y la franquicia CAG/recurring revenue."
+  },
+  "optimista": {
+   "iv_per_share": 381.11,
+   "prob": 0.15,
+   "note": "Aceleracion a 12% Fase1 -> 7% Fase2, g terminal 3.5%, impulsado por nuevos instrumentos (inVue Dx), penetracion internacional y pricing premium sostenido."
+  }
+ },
+ "iv_dcf_weighted": 299.6,
+ "fwd_multiple_now": 37.2,
+ "fwd_multiple_5y_avg": 42,
+ "fair_multiple": 38,
+ "multiple_metric": "P/E adelantado (sobre EPS FY2026 guia mid $14.675)",
+ "multiple_rationale": "Ancla = media 5a del P/E fwd ~42x. Aplico haircut a 38x (no por deterioro estructural — el negocio MEJORA: organico +10-11%, margenes expandiendo, ROIC ~44%, SBC minimo 1.4% rev) sino por normalizacion de regimen de tipos: la media 5a incorpora el periodo ZIRP donde IDXX cotizo 50-57x trailing. 38x reconoce la calidad excepcional (monopolio efectivo en diagnostico veterinario, ingresos recurrentes, pricing power) a un multiplo sensato post-derating. fwd_now 37.2x ya cerca de fair.",
+ "iv_multiple": 557.65,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 454.43,
+ "structural_change": "Ninguno negativo. La caida del -29% desde ATH ($769.98) es fear_rotation / compresion de multiplo, NO deterioro operativo. Q1 2026: revenue +14.3% reportado / +11.2% organico, CAG +15%, op margin GAAP 31.8% (+100bps comparable), EPS $3.47 (+15% comparable), FCF fuerte, guia FY2026 RAISED (EPS $14.45-14.90, op margin 32.1-32.5%). Riesgo estructural a vigilar (no materializado): entrada de competidores en analizadores in-clinic y posible saturacion del gasto veterinario en EE.UU.",
+ "sanity_notes": "Precio $545.73 verificado en StockAnalysis/Yahoo (cierre 2026-06-22). Acciones diluidas ~79.6M (0.0796B): derivadas de net income Q1 $278.4M / EPS $3.47 = ~80.2M ponderadas; recompras reducen ~2.1% YoY; mcap-derivado $43.05B/$545.73 = ~78.9M. Uso 79.6M. Implied mcap = 545.73 x 0.0796 = $43.44B, coincide con escala conocida ($43.0-45.6B segun timing) -> mcap_sanity_ok=true. IV reconciliado $454.43 cae dentro del rango de magnitud (83% del precio, >30% y <300%) -> sin error de unidades/moneda. Brecha grande DCF ($300) vs multiplo ($558): tipica de compounders de calidad; el DCF de owner-earnings infra-credita decadas de reinversion a ROIC ~44%. Ponderacion 40/60 (favor multiplo) justificada: IDXX es compounder ESTABLE, probado, bajo capex, ingresos recurrentes. Conclusion: a $545.73 IDXX cotiza ~ligeramente por ENCIMA del IV reconciliado $454 — incluso tras el -29% no ofrece margen de seguridad amplio en base mixta; el ancla de multiplo (~$558) esta cerca de precio mientras el DCF queda bien por debajo. LIMITACION: fwd_pe_5y_avg ~42x tiene incertidumbre (fuentes divergen 36-57x entre P/E trailing vs fwd); beta 1.05 estimado para diagnostico veterinario de baja volatilidad."
+}

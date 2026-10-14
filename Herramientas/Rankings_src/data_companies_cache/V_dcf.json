@@ -1,0 +1,42 @@
+{
+ "ticker": "V",
+ "currency": "USD",
+ "current_price": 327.24,
+ "name": "Visa Inc.",
+ "wacc_pct": 9.05,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.95,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = FCF reportado $21.6B − 100% SBC (EIP) $0.861B = $20.74B (margen owner FCF ~51.8% sobre net revenue $40.0B). Base de partida del DCF.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 11.5,
+  "rev_cagr_y6_10_pct": 8,
+  "fcf_margin_terminal_pct": 52,
+  "terminal_g_pct": 3,
+  "shares_diluted_b": 1.925,
+  "net_debt_usd_b": 5.2,
+  "sbc_treatment": "SBC tratada como gasto 100% en efectivo: se resta el costo EIP FY25 de $861M (2.2% de ingresos, ~4% del FCF) del FCF reportado para obtener owner FCF. SBC baja, dilucion minima dada la fuerte recompra."
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 256.92,
+   "prob": 0.375,
+   "note": "Crecimiento owner FCF +8.5% anios 1-5, declinando hacia +4% anios 6-10; g terminal 3.0%. Asume desaceleracion de volumenes, presion regulatoria (interchange/litigios antimonopolio), competencia de RTP/fintech y leve compresion de margen. No apocaliptico: Visa sigue creciendo doble digito bajo."
+  },
+  "base": {
+   "iv_per_share": 312.87,
+   "prob": 0.475,
+   "note": "Crecimiento owner FCF low-teens +11.5% anios 1-5 (consistente con guia FY26 elevada y track record), declinando a +5% anios 6-10; margen owner FCF ~52% sostenido; g terminal 3.0%. IV implica fwd P/E ~24x vs ~25x actual."
+  },
+  "optimista": {
+   "iv_per_share": 380.44,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: +13.5% anios 1-5 (cross-border, value-added services, nuevos flujos B2B/Visa Direct), declinando a +6% anios 6-10; g terminal 3.5% por foso (efecto red). Sin shocks regulatorios."
+  }
+ },
+ "sanity_check": "Contraste por rendimiento total al accionista (NO DDM): a precio actual el yield es ~3.3% (recompra ~$16B/ano ~2.5% + dividendo ~$4.5B ~0.7%), igual al owner FCF yield ~3.3% (owner FCF $20.7B / market cap $630B), lo que confirma que casi todo el owner FCF se devuelve via buyback+dividendo. VI base ponderada por probabilidad ~$302/accion vs precio $327 → Visa cotiza ~8% por encima del valor intrinseco central; ligeramente caro / cerca de valor justo, coherente con clasificacion 'not_depressed' (solo -12.9% del maximo). Margen de seguridad escaso al precio actual.",
+ "method_notes": "DCF de owner earnings a 10 anios en dos fases. Base = owner FCF FY2025 ($21.6B FCF − $0.861B SBC = $20.74B). Fase 1 (anios 1-5): CAGR de owner FCF explicito por escenario (8.5%/11.5%/13.5%). Fase 2 (anios 6-10): crecimiento declina linealmente hacia normalizacion (4%/5%/6%). Valor terminal por Gordon con g=3.0-3.5% (foso de red de pagos de alta calidad justifica extremo alto del rango). Descuento al WACC 9.05% = Rf 4.3% (UST 10Y) + ERP 5.0% × beta 0.95 (beta baja tipica de Visa/redes de pago); sin ajuste geopolitico (emisor US). EV − deuda neta $5.2B = equity; IV/accion = equity / 1.925B acciones diluidas (derivado de market cap $630B / precio $327.24). Acciones diluidas GAAP ponderadas FY25 ~1.97B; se usa 1.925B por reduccion via recompra. Probabilidades 0.375/0.475/0.15 = 1.0. Datos de FASE 2 verificados (SEC EDGAR + Visa IR); no se requirio busqueda web adicional."
+}

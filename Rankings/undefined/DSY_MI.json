@@ -1,0 +1,316 @@
+{
+  "meta": {
+    "ticker": "DSY.MI",
+    "ticker_nativo": "DIA.MI / BVME (Borsa Italiana, FTSE MIB)",
+    "isin": "IT0003497168",
+    "empresa": "Diasorin S.p.A.",
+    "domicilio": "Saluggia (Vercelli), Italia",
+    "moneda_funcional": "EUR",
+    "moneda_reporte": "USD",
+    "fecha_corte": "2026-07-28 (precio = ultimo cierre disponible, 27-jul-2026)",
+    "fx_eur_usd": 1.1397,
+    "fx_fuente": "[INFERENCIA] EUR/USD 1,1397 al 27-jul-2026 (TradingEconomics). Agregador; solo se usa para convertir el reporte, no sostiene ningun veredicto.",
+    "etiqueta_calidad_congelada": "MENOS_5_6 (1 puerta pasada) — NO reclasificable al alza bajo ninguna circunstancia",
+    "especie": "G2 — reinversion 41,5% de ventas (medida acumulada de ventana), ROIIC bruto -3,5%, ROIIC ex-margen +3,5%",
+    "mos_exigido_pct": 40,
+    "motivo_mos": "Umbral de ABRIR de la banda MENOS_5_6. Diasorin NO esta en cartera, luego NO aplica la rebaja de 12 puntos de CARGAR.",
+    "rol": "VALORADOR. La calidad esta congelada aguas arriba y no se toca en esta sesion."
+  },
+
+  "fuentes_primarias": [
+    {
+      "id": "AR2025",
+      "doc": "Diasorin S.p.A. — Financial Statements at 31.12.2025 (Annual Financial Report, auditado)",
+      "url": "https://int.diasorin.com/sites/default/files/annual-interim-reports/Financial%20Statements%2031.12.2025.pdf",
+      "descargado_y_leido": true,
+      "auditado": true,
+      "uso": "Cuenta de resultados, estado de flujos de caja (2.4), notas 7/8/11/12/21, deuda financiera neta, pasivos financieros, capital social y acciones propias, propuesta de dividendo"
+    },
+    {
+      "id": "PR-Q1-26",
+      "doc": "Diasorin — Q1 2026 Results (08-may-2026, no auditado)",
+      "url": "https://int.diasorin.com/sites/default/files/press-releases/Diasorin%20-%20Q1%202026%20Results%20ENG.pdf",
+      "descargado_y_leido": true,
+      "auditado": false,
+      "uso": "Base en curso: ingresos 287, EBITDA ajustado 90, FCF 32, deuda financiera neta 711 a 31-mar-2026, guia FY26 confirmada"
+    },
+    {
+      "id": "DAMODARAN-CRP",
+      "doc": "Damodaran — Country and Equity Risk Premiums (ctryprem.xlsx, hoja 'ERPs by country')",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/ctryprem.xlsx",
+      "descargado_y_leido": true,
+      "fecha_tabla": "2026-01-01 (ratings soberanos actualizados 16-feb-2026)",
+      "uso": "ERP de mercado maduro 4,23% (Alemania, CRP=0). CRP: EEUU 0,2334%, Italia 2,465%, Francia 0,776%, Espana 1,552%, China 0,9129%, Brasil 3,241%, Mexico 2,465%, Israel 2,0694%"
+    },
+    {
+      "id": "DAMODARAN-BETA-EU",
+      "doc": "Damodaran — Betas by Sector, Western Europe (betaEurope.xls, hoja 'Industry Averages')",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/betaEurope.xls",
+      "descargado_y_leido": true,
+      "fecha_tabla": "2026-01-05",
+      "uso": "'Healthcare Products', 163 empresas: beta apalancada media 1,2560; D/E 0,1896; beta desapalancada 1,0991; beta desapalancada corregida por caja 1,1287"
+    },
+    {
+      "id": "IBKR",
+      "doc": "Interactive Brokers — market data snapshot, contract_id 75975372 (DIASORIN SPA, BVME)",
+      "uso": "Precio y estadisticas de 52 semanas"
+    }
+  ],
+
+  "precio_y_capital": {
+    "precio_cierre_eur": 67.08,
+    "precio_cierre_usd": 76.45,
+    "fuente_precio": "[HECHO] IBKR snapshot 28-jul-2026 (pre-apertura de Borsa Italiana): last 67,08 EUR con is_close=true y prior_close 67,08 EUR, contract_id 75975372, exchange BVME. Es el cierre del 27-jul-2026. Cruce independiente: stockanalysis.com/quote/bit/DIA muestra 67,08 EUR a 27-jul-2026 17:36 CET.",
+    "estadisticas_52s_eur": {"max_52s": 92.32, "min_52s": 52.34, "apertura_52s": 90.78, "max_13s": 75.30, "min_13s": 56.14},
+    "lectura_precio": "[HECHO] Cotiza a -27,3% de su maximo de 52 semanas y a -26,1% de donde abrio el periodo. Hay una caida real y grande. La pregunta del expediente es si es descuento o es re-nivelacion del negocio.",
+    "acciones_emitidas": 55948257,
+    "acciones_emitidas_fuente": "[HECHO] AR2025: 'At 12.31.2025, the share capital consisted of 55,948,257 shares (par value of EUR 1.00)'.",
+    "acciones_propias": {
+      "31_12_2025": 2947590,
+      "19_03_2026": 4788381,
+      "10_07_2026_estimadas": 6500000,
+      "fuente": "[HECHO] 2.947.590 (5,27% del capital) a 31-12-2025 y 4.788.381 a 19-03-2026, ambas en AR2025 (propuesta de dividendo). [INFERENCIA] ~6,5 M (~11,6% del capital) tras las compras de la semana del 6 al 10 de julio de 2026 (15.370 acciones a 67,327 EUR de media, ~1,0 MEUR), segun MarketScreener recogiendo la comunicacion semanal obligatoria de la sociedad. NO verificado contra el comunicado primario."
+    },
+    "acciones_en_circulacion_usadas": 49450000,
+    "programa_recompra": "[HECHO] La Junta del 27-ene-2026 autorizo compra Y CANCELACION de acciones propias por un maximo de 250 MEUR (hasta 4,5 M de acciones, ~8% del capital), ademas de la autorizacion ordinaria para planes de acciones. En 2025 ya hubo una salida neta de 96,277 MEUR por acciones propias (AR2025, estado de flujos).",
+    "capitalizacion_eur_mm": 3317,
+    "capitalizacion_usd_mm": 3780,
+    "ads": "NO APLICA. Cotiza directamente en EUR en Borsa Italiana. Existe un ADR OTC (DSRNY, PINK) pero no se usa: no hay ratio de ADS que ajustar en esta valoracion.",
+    "advertencia_agregadores": "[HECHO] stockanalysis.com calcula la capitalizacion con 53,00 M de acciones (= 55,948 - 2,948 de acciones propias a 31-12-2025) y da 3,56 bn EUR. Esa cifra IGNORA los ~3,5 M de acciones recompradas en 2026. Mi capitalizacion de 3.317 MEUR usa 49,45 M de acciones. Quien use el dato del agregador sobrestima la capitalizacion un 7%."
+  },
+
+  "deuda_y_ev": {
+    "deuda_financiera_bruta_31_12_2025_meur": {
+      "pasivos_financieros_no_corrientes": 476860,
+      "leasing_ifrs16_no_corriente": 57071,
+      "pasivos_financieros_corrientes": 247070,
+      "leasing_ifrs16_corriente": 10163,
+      "derivados": 311,
+      "total": 791475,
+      "fuente": "[HECHO] AR2025, tabla de clasificacion de activos y pasivos financieros. Total pasivos financieros 904.371 menos proveedores 108.804 menos put/call 4.093 = 791.474."
+    },
+    "deuda_financiera_bruta_31_12_2024_meur": 1014564,
+    "deuda_financiera_neta": {
+      "31_12_2025_eur_mm": 579.8,
+      "31_03_2026_eur_mm": 711.0,
+      "27_07_2026_estimada_eur_mm": 835.0,
+      "fuente": "[HECHO] 579.823 mEUR a 31-12-2025 (AR2025) y 711 MEUR a 31-03-2026 (PR-Q1-26: 'CONSOLIDATED NET FINANCIAL DEBT: -EUR 711 million (-EUR 580 million as of December 31, 2025)'). [INFERENCIA] Puente propio a 27-jul-2026: 711 + 66,5 de dividendo pagado el 20-may-2026 (1,30 EUR/accion sobre 51,16 M de acciones, AR2025) + ~111 de recompra entre 19-mar y 10-jul (~1,71 M de acciones a ~65 EUR) - ~50 de FCF de Q2 = ~838. Se adopta 835 MEUR con banda de +/-60."
+    },
+    "incluye_leasing_ifrs16": true,
+    "deuda_neta_usd_mm": 952,
+    "ev_eur_mm": 4152,
+    "ev_usd_mm": 4732,
+    "estructura_de_la_deuda": "[HECHO] 476,9 MEUR de los 791,5 de deuda bruta son el 'Euro 500 million Zero Coupon Equity Linked Bond due 2028', que NO devenga cupon (AR2025: 'interest expense does not accrue on the convertible bond'); solo genera 9.616 mEUR de carga nocional a coste amortizado. El resto: term loan de Diasorin Inc. para financiar Luminex (4.953 mEUR de intereses en 2025, la mitad que los 8.439 de 2024, luego se esta amortizando), leasing IFRS16 (67,2 MEUR de pasivo, 4.064 mEUR de intereses) y lineas revolving."
+  },
+
+  "wacc": {
+    "candado_B": "WACC construido enteramente de mercado. NO heredado de ningun tier de calidad.",
+    "tasa_libre_riesgo_pct": 3.18,
+    "tasa_libre_riesgo_fuente": "[INFERENCIA] Bund aleman a 10 anios ~3,18% al 27-jul-2026. TradingEconomics registra 3,20% el 24-jul-2026, maximo de mas de quince anios, tras la senal del BCE sobre riesgos inflacionistas, y una relajacion por debajo de 3,2% el viernes. Se usa el Bund y NO el BTP italiano (~4,0-4,1%) porque el BTP ya incorpora el spread de credito soberano de Italia; usar el BTP Y ADEMAS sumar prima pais contaria el riesgo pais dos veces. El BTP se declara como referencia del soberano de la divisa funcional.",
+    "btp_10a_referencia_pct": 4.05,
+    "prima_mercado_pct": 4.23,
+    "prima_mercado_fuente": "[HECHO] Damodaran ctryprem.xlsx, hoja 'ERPs by country', fecha 01-ene-2026: Alemania (Aaa, CRP=0) tiene Total ERP = 0,0423. Ese es el ERP de mercado maduro.",
+    "prima_pais_pct": 0.70,
+    "prima_pais_derivacion": "[INFERENCIA sobre HECHOS] Ponderada por donde vive el ACTIVO, no por domicilio fiscal. Mezcla de ingresos FY25 (AR2025, tabla 'Breakdown of Revenues by geography'): Norteamerica directa 583.802 = 48,9%; Europa directa 423.710 = 35,5%; Resto del Mundo 174.935 = 14,6%; COVID 12.608 = 1,1%. CRP aplicadas (Damodaran): EEUU 0,233%; mezcla europea ~0,85% (Italia 2,465 / Alemania 0 / Francia 0,776 / Espana 1,552 / Reino Unido 0,776); RdM ~1,70% (China 0,913 es el mayor, mas Brasil 3,241, Mexico 2,465, Israel 2,069). Suma ponderada = 0,67%, redondeada a 0,70%. NO se usa la CRP de Italia (2,465%) porque Italia aporta una parte menor de los ingresos: es el domicilio, no el riesgo.",
+    "erp_total_pct": 4.93,
+    "beta": 1.00,
+    "fuente_beta": "[HECHO citable, dos lecturas irreconciliables] (1) REGRESION: Yahoo Finance beta 5A mensual = 0,68 y stockanalysis.com beta 5A = 0,70, ambas al 27-jul-2026. (2) BOTTOM-UP: Damodaran betaEurope.xls, hoja 'Industry Averages', 05-ene-2026, sector 'Healthcare Products' de Europa Occidental (163 empresas): beta desapalancada 1,0991; reapalancada al D/E de mercado de Diasorin (900/3.317 = 0,271) con tipo efectivo del 29,1% da 1,0991 x (1 + 0,709 x 0,271) = 1,31. [INFERENCIA] Las regresiones estan contaminadas por el ciclo COVID: entre 2021 y 2023 la accion cayo mientras el mercado subia, lo que deprime artificialmente la covarianza y produce una beta que no describe el riesgo del negocio. El bottom-up de 1,31, en cambio, arrastra la beta de un sector mucho mas pequeno y mas biotecnologico que Diasorin. CENTRAL ADOPTADO = 1,00, punto medio de un rango de 0,68 a 1,31 que NO se puede estrechar honestamente. Esto es la mayor fragilidad del expediente y se declara como hueco, no se disfraza.",
+    "coste_equity_pct": 8.11,
+    "coste_deuda_pct": 2.59,
+    "coste_deuda_derivacion": "[HECHO] AR2025 nota 8: 'Interest expenses and other financial expenses' 2025 = 23.418 mEUR (incluye 4.064 de intereses de leasing IFRS16). Deuda financiera bruta media 2025 = (1.014.564 + 791.475)/2 = 903.020 mEUR. Kd antes de impuestos = 23.418/903.020 = 2,59%. Tipo impositivo efectivo 2025 = 61.569/211.606 = 29,1% (AR2025). Kd despues de impuestos = 1,84%.",
+    "coste_deuda_advertencia": "[HECHO + INFERENCIA] Este 2,59% esta estructuralmente deprimido y no es el coste marginal. 476,9 de los 791,5 MEUR de deuda bruta son el convertible CUPON CERO con vencimiento 2028; con la accion a 67 EUR ese bono esta muy fuera de dinero y no se convertira, luego habra que devolverlo o refinanciarlo EN EFECTIVO en 2028 a tipo de mercado. Con el Bund a 3,18% y un emisor italiano de grado medio, el coste marginal realista hoy es ~4,3-4,5%, casi el DOBLE del contable. Se usa el derivado del filing en el central (por instruccion) y el marginal en el techo del rango.",
+    "pesos": {
+      "equity_eur_mm": 3317,
+      "deuda_a_valor_de_mercado_eur_mm": 900,
+      "peso_equity_pct": 78.7,
+      "peso_deuda_pct": 21.3,
+      "nota": "E = 49,45 M de acciones x 67,08 EUR. D = deuda financiera bruta estimada al 27-jul-2026 (791,5 a cierre de 2025 mas el tiro de lineas para financiar recompra y dividendo), tomada a valor contable: el convertible cupon cero cotiza cerca de su suelo de bono con dos anios al vencimiento, luego el descuento sobre el coste amortizado es de segundo orden."
+    },
+    "wacc_pct": 6.77,
+    "wacc_rango": "5,5% - 8,3%",
+    "wacc_rango_derivacion": "Suelo 5,53% = beta 0,68 (regresion Yahoo) con Kd contable 2,59%. Techo 8,26% = beta 1,31 (bottom-up Damodaran reapalancado) con Kd marginal 4,50%. El rango es ancho porque el hueco de beta es real y no se puede cerrar con los datos disponibles.",
+    "fragilidad_dominante": "Con WACC 6,77% y crecimiento terminal del 3%, el multiplo terminal implicito es 1,03/(0,0677-0,03) = 27,3x el flujo del ano 10, y ahi vive alrededor del 60% del valor presente. Cien puntos basicos de WACC mueven la g implicita mas de dos puntos y medio. Esto se dice ANTES que cualquier resultado, no despues."
+  },
+
+  "owner_earnings": {
+    "definiciones": {
+      "a_mantenimiento": "CFO neto (despues de impuestos e intereses netos pagados) menos capex de MANTENIMIENTO, aproximado por la depreciacion y amortizacion. El exceso de capex sobre D&A es inversion discrecional y NO se resta.",
+      "b_capex_total": "CFO neto menos TODO el capex (tangible mas intangible). Flujo de caja libre puro."
+    },
+    "base_auditada_FY2025": {
+      "etiqueta": "HECHO — AR2025, seccion 2.4 'Consolidated statement of cash flows', lineas transcritas literalmente",
+      "cfo_neto_meur": 342760,
+      "d_and_a_meur": 128246,
+      "capex_intangible_meur": 75953,
+      "capex_tangible_meur": 61728,
+      "capex_total_meur": 137681,
+      "desinversiones_meur": 5280,
+      "oe_mantenimiento_eur_mm": 214.5,
+      "oe_mantenimiento_usd_mm": 244.5,
+      "oe_capex_total_eur_mm": 205.1,
+      "oe_capex_total_usd_mm": 233.7,
+      "cruce": "[HECHO] Diasorin reporta un 'Free cash flow' FY2025 de 208,7 MEUR (definido como CFO incluyendo usos de inversion y ANTES del pago de intereses y de adquisiciones). Mi OE(b) de 205,1 cuadra con el dentro del 2%.",
+      "advertencia_calidad_del_CFO": "[HECHO] Los 342.760 de CFO incluyen una LIBERACION de circulante de +55.030 mEUR: existencias +34.064, clientes +5.120, proveedores +14.752, otros +1.094. Sin ese viento de cola de una sola vez el CFO normalizado seria ~287.700 y el OE(b) ~150 MEUR. La base auditada esta INFLADA por circulante, y esa es la razon aritmetica de por que valora tanto mas alto que la base en curso. No es una opinion: son cuatro lineas del estado de flujos.",
+      "advertencia_D_and_A": "[HECHO + INFERENCIA] Los 128.246 de D&A incluyen la amortizacion de los intangibles reconocidos en la asignacion del precio de compra de Luminex, que NO es capex de mantenimiento reponible: eso sobreestima el capex de mantenimiento y por tanto infraestima el OE(a). En sentido contrario, los 75.953 de capex intangible son en buena parte capitalizacion de desarrollo, es decir reinversion real que el OE(a) no penaliza. Los dos sesgos van en direcciones opuestas y se compensan de forma aproximada, pero NO medida."
+    },
+    "base_en_curso_FY2026E": {
+      "etiqueta": "INFERENCIA — Q1'26 real (HECHO) mas guia FY26 confirmada (HECHO), puente propio",
+      "trimestres_publicados": 1,
+      "q1_2026_hechos": {
+        "ingresos_meur": 287,
+        "ingresos_var_cer_pct": -3,
+        "ingresos_var_corriente_pct": -8,
+        "impacto_fx_meur": -17,
+        "ebitda_ajustado_meur": 90,
+        "ebitda_ajustado_var_cer_pct": -13,
+        "margen_ebitda_ajustado_pct": 31,
+        "margen_ebitda_ajustado_q1_25_pct": 34,
+        "beneficio_neto_ajustado_meur": 49,
+        "fcf_meur": 32,
+        "fcf_q1_25_meur": 42,
+        "deuda_neta_meur": 711,
+        "fuente": "[HECHO] PR-Q1-26, tablas y texto. Titular literal del comunicado: ingresos y EBITDA en linea con la evolucion trimestral esperada, afectados por una temporada de gripe debil; guia 2026 confirmada."
+      },
+      "guia_fy2026": "[HECHO] PR-Q1-26: ingresos +5%/+6% a tipo de cambio constante sobre 2025; margen EBITDA ajustado 32%/33%. Confirmada el 08-may-2026 pese al Q1 flojo. La guia EXCLUYE expresamente el impacto de un conflicto militar prolongado en Oriente Medio.",
+      "puente_propio": "Ingresos a CER = 1.195 x 1,055 = 1.261 MEUR. Arrastre FX: en Q1 la brecha entre CER (-3%) y corriente (-8%) fue de 5 puntos con el euro donde esta; aplicando ~-4,5% al ano, ingresos reportados ~1.204 MEUR. EBITDA ajustado: escenario 'guia cumplida' al 32,5% = ~391 MEUR; escenario 'run-rate de Q1' (90 sobre el 27,2% del ano que Q1 represento en 2025) = ~331 MEUR; punto medio ~360. Cruce INDEPENDIENTE y preferido: el FCF de Q1'26 (32) sobre el de Q1'25 (42) es 0,762; aplicado al FCF FY25 de 208,7 da ~159 MEUR de FCF FY26. Restando el sesgo de que la guia carga la mejora en H2 y que 2025 tuvo el viento de cola del circulante, se adopta OE(b) 2026E = 145 MEUR.",
+      "cfo_estimado_eur_mm": 293,
+      "d_and_a_estimada_eur_mm": 123,
+      "capex_estimado_eur_mm": 148,
+      "oe_mantenimiento_eur_mm": 170.0,
+      "oe_mantenimiento_usd_mm": 193.8,
+      "oe_capex_total_eur_mm": 145.0,
+      "oe_capex_total_usd_mm": 165.3
+    },
+    "distancia_entre_bases": {
+      "oe_a_variacion_pct": -20.7,
+      "oe_b_variacion_pct": -29.3,
+      "lectura": "La distancia del 21-29% entre auditado y en curso NO es ruido, y solo una parte es ciclo. Se descompone en cuatro cosas de naturaleza distinta: (1) REVERSION DE CIRCULANTE — el auditado se beneficio de +55,0 MEUR de liberacion que ahora se deshace; contable, de una vez, no ciclica; (2) FX — el euro se ha fortalecido y el 48,9% de los ingresos son norteamericanos; -17 MEUR de impacto solo en Q1; es de nivel mientras el euro se quede donde esta; (3) TEMPORADA DE GRIPE DEBIL — esto SI es ciclo y SI revierte; (4) CHINA / VBP — reprecio administrativo; esto NO es ciclo, es un escalon permanente hacia abajo en el precio. Solo el punto (3) es 'momento del ciclo'. Los otros tres son degradacion de nivel. Quien lea la distancia como 'un mal ano' esta leyendo mal tres cuartas partes de ella."
+    }
+  },
+
+  "dcf_inverso": {
+    "metodo": "Se resuelve la g a 10 anios, con crecimiento terminal fijo del 3% y WACC del 6,77%, que iguala el valor presente de los owner earnings al EV de hoy (4.152 MEUR). El flujo base es OE(b) — flujo de caja libre con TODO el capex restado — porque es la unica version internamente consistente con asignar crecimiento: el crecimiento lo paga el capex que ya se ha restado. Se reporta ademas la version con OE(a) para que se vea la diferencia.",
+    "ev_objetivo_eur_mm": 4152,
+    "wacc_usado_pct": 6.77,
+    "g_implicita_base_auditada_pct": -0.59,
+    "g_implicita_base_encurso_pct": 3.58,
+    "g_implicita_con_OE_a": {"auditada_pct": -1.13, "encurso_pct": 1.66},
+    "sensibilidad_wacc_sobre_OEb": [
+      {"wacc_pct": 5.5, "g_auditada_pct": -5.04, "g_encurso_pct": -1.14},
+      {"wacc_pct": 6.0, "g_auditada_pct": -3.13, "g_encurso_pct": 0.89},
+      {"wacc_pct": 6.77, "g_auditada_pct": -0.59, "g_encurso_pct": 3.58},
+      {"wacc_pct": 7.5, "g_auditada_pct": 1.48, "g_encurso_pct": 5.78},
+      {"wacc_pct": 8.3, "g_auditada_pct": 3.52, "g_encurso_pct": 7.95}
+    ],
+    "lectura": "Esta es la contradiccion central del expediente y hay que mirarla de frente. Sobre la base AUDITADA el mercado esta descontando una CAIDA del -0,6% anual durante diez anios: el precio de hoy no exige nada, exige estancamiento con leve deterioro. Sobre la base EN CURSO el mercado exige +3,6% anual, por encima de la inflacion. Es decir: si 2025 fuera representativo, la accion no seria cara; si 2026 lo es, el precio ya pide mas de lo que el motor sabe dar. Y el motor congelado dice ROIIC ex-margen del 3,5% y NOPAT 2025 (162,1 MEUR) POR DEBAJO del de 2020 (250,5). La base que hay que creer es la de en curso, por las razones del apartado de distancia entre bases: tres cuartas partes de la caida son nivel, no fase. Ahi el mercado pide 3,58% y el negocio defiende 1,4%."
+  },
+
+  "g_defendible": {
+    "formula": "g = tasa de reinversion sobre NOPAT x ROIIC EX-MARGEN. Se usa el ex-margen (+3,5%) y NO el bruto (-3,5%) por instruccion metodologica: el bruto asume que la expansion de margen se repite. En Diasorin ademas el margen se esta CONTRAYENDO, no expandiendo — la guia 2026 es 32-33% de EBITDA ajustado frente al 33% real de 2025, y Q1'26 ya vino al 31%. Usar el bruto seria aun mas destructivo que lo que aqui se reporta.",
+    "roiic_ex_margen_pct": 3.5,
+    "roiic_bruto_pct": -3.5,
+    "nopat_2025_eur_mm": 162.1,
+    "nopat_verificacion": "[HECHO] EBIT reportado FY25 = 228.564 mEUR (AR2025). Tipo efectivo = 61.569/211.606 = 29,10%. NOPAT = 228.564 x 0,709 = 162.051 mEUR. La cifra congelada de calidad cuadra con el filing.",
+    "escenario_organico": {"reinversion_eur_mm": 40, "detalle": "(capex 2026E 148 - D&A 2026E 123) + construccion de circulante ~15", "tasa_sobre_nopat_pct": 24.7, "g_pct": 0.86},
+    "escenario_con_bolt_on": {"reinversion_eur_mm": 90, "detalle": "lo anterior mas 50 MEUR/ano de adquisiciones complementarias", "tasa_sobre_nopat_pct": 55.5, "g_pct": 1.94},
+    "g_defendible_pct": 1.4,
+    "g_defendible_rango": "0,9% - 1,9%",
+    "por_que_1_4": "El techo del 1,9% exige creer que las adquisiciones futuras rentaran mejor que Luminex. La unica evidencia de asignacion de capital a gran escala que existe en esta compania es que enterro 1.586,6 MEUR de fondo de comercio e intangibles en Luminex en 2021, que reinvirtio 2.540 MEUR entre 2021 y 2025 para un ROIIC bruto del -3,5%, y que el ROIC del grupo cayo del 38,5% al 7,5%. Por prudencia el central se pone en 1,4%, mas cerca del suelo organico que del techo con M&A.",
+    "nota_sobre_la_cifra_congelada_41_5": "La 'reinversion 41,5% de ventas' de la especie G2 es una medida ACUMULADA sobre la ventana de 8 anos (incluye la compra de Luminex) sobre ventas acumuladas. NO es una tasa anual sobre NOPAT y NO es insertable en g = reinversion x ROIIC sin producir un absurdo (daria mas del 300% de reinversion sobre NOPAT y una g del 10%). Se re-deriva desde el filing y se declara la diferencia en lugar de ocultarla."
+  },
+
+  "valoracion": {
+    "metodo": "Con g defendible del 1,4% durante 10 anios y terminal del 3%, descontado al WACC central del 6,77%. Se resta la deuda financiera neta estimada (835 MEUR) y se divide entre 49,45 M de acciones.",
+    "base_auditada": {
+      "flujo_base_eur_mm": 205.1,
+      "ev_eur_mm": 4901,
+      "equity_eur_mm": 4066,
+      "valor_por_accion_eur": 82.2,
+      "valor_por_accion_usd": 93.7,
+      "mos_pct": 18.4
+    },
+    "base_encurso": {
+      "flujo_base_eur_mm": 145.0,
+      "ev_eur_mm": 3465,
+      "equity_eur_mm": 2630,
+      "valor_por_accion_eur": 53.2,
+      "valor_por_accion_usd": 60.6,
+      "mos_pct": -26.1
+    },
+    "sensibilidad_terminal_0_pct": {
+      "argumento": "Un ROIIC ex-margen del 3,5% esta MUY por debajo de un WACC del 6,77%. En esa situacion crecer DESTRUYE valor, y asignar un terminal del 3% es regalarle al negocio una perpetuidad que su propio motor no genera. Con terminal 0% — que es el supuesto coherente con el ROIIC medido — el valor cae a 51,2 EUR (base auditada) y 31,3 EUR (base en curso). Con terminal honesto, la base auditada ya implica un MoS del -31% y la base en curso del -115%.",
+      "valor_auditada_eur": 51.2,
+      "valor_encurso_eur": 31.3,
+      "mos_auditada_pct": -31.0,
+      "mos_encurso_pct": -114.6
+    },
+    "piso_de_resolucion": {
+      "medicion_propia_de_ruido": false,
+      "banda_aplicada": "+/- 25%",
+      "valor_auditada_usd_banda": "70 - 117",
+      "valor_encurso_usd_banda": "45 - 76",
+      "nota": "El precio de hoy (76,45 USD) cae DENTRO de las dos bandas — justo en el borde superior de la base en curso y en el tercio inferior de la auditada. A la resolucion que este expediente puede sostener honestamente, el valor intrinseco de Diasorin y su precio de mercado son INDISTINGUIBLES. Ninguna decision de compra puede apoyarse en la diferencia entre ambos. Ninguna cifra de este apartado se reporta con decimales: el ruido es de +/-25%, no de +/-0,1 EUR."
+    }
+  },
+
+  "m_estrella_p_estrella": {
+    "m_estrella": 15,
+    "base_del_multiplo": "OE(a) NORMALIZADO de 165 MEUR = media entre el OE(a) auditado limpiado de la liberacion de circulante (342,8 - 55,0 - 128,2 = 159,5) y el OE(a) 2026E (170,0).",
+    "definicion": "15 veces owner earnings version (a). Decidido en frio, sin barra de error, porque no es una estimacion sino un compromiso.",
+    "por_que_15x": "15x NO es un numero elegido a ojo: 1/0,0677 = 14,8x es exactamente la perpetuidad SIN CRECIMIENTO al WACC de mercado que he calculado. Y sin crecimiento es precisamente lo que corresponde pagar a un negocio cuyo ROIIC ex-margen (3,5%) esta por debajo de su coste de capital (6,8%), porque en esa situacion cada euro reinvertido devuelve menos de lo que cuesta y el crecimiento resta en vez de sumar. A eso se anaden dos razones que ni siquiera estan en los flujos y que empujan hacia abajo, no hacia arriba: (1) el comprador chino demuestra por VBP que el coste de cambio del laboratorio no protege el PRECIO cuando quien decide ya no es el laboratorio, y eso es riesgo de nivel, no de ciclo; (2) el historial de asignacion de capital obliga a asumir que el exceso de caja se reinvierte por debajo del coste de capital. Con esas dos, 15x es generoso, no severo.",
+    "valor_por_m_estrella_eur": 33.16,
+    "valor_por_m_estrella_usd": 37.80,
+    "p_estrella_eur": 19.90,
+    "p_estrella_usd": 22.68,
+    "p_estrella_derivacion": "(15 x 165 - 835) / 49,45 = 33,16 EUR. Aplicando el 40% de MoS exigido para ABRIR: 33,16 x 0,60 = 19,90 EUR = 22,68 USD.",
+    "tension_declarada": "El DCF al WACC de mercado con terminal del 3% da 82,2 EUR sobre la base auditada y 53,2 sobre la en curso. El m* comprometido da 33,2. TODA la diferencia es el multiplo terminal: el DCF asigna 27,3x al flujo del ano 10 solo porque WACC menos terminal son 3,8 puntos; el m* comprometido es 15x. NO resuelvo la tension con un promedio. La declaro: el DCF con terminal del 3% aplicado a un negocio cuyo ROIIC es la mitad de su coste de capital es un instrumento que aqui produce un numero, no una respuesta. Notese que la version con terminal 0% del DCF (51,2 y 31,3 EUR) se acerca mucho al m*, y esa convergencia es la senal de que el m* es el numero que manda."
+  },
+
+  "margen_de_seguridad": {
+    "mos_exigido_pct": 40,
+    "mos_base_auditada_pct": 18.4,
+    "mos_base_encurso_pct": -26.1,
+    "mos_contra_m_estrella_pct": -102.3,
+    "mos_terminal_0_auditada_pct": -31.0,
+    "mos_terminal_0_encurso_pct": -114.6,
+    "veredicto_mos": "NINGUNA de las cinco lecturas alcanza el 40% exigido para ABRIR. La mas generosa de todas — base auditada, terminal del 3%, WACC central — da 18,4%, menos de la mitad del umbral. Y esa lectura descansa a la vez sobre un CFO inflado por 55 MEUR de liberacion de circulante que no se repite y sobre un multiplo terminal de 27,3x que no defiendo. Las otras cuatro son negativas."
+  },
+
+  "tir_esperada": {
+    "rango": "-6% a +11% anual a 10 anios; central +2%",
+    "construccion": "Se resuelve la TIR que iguala el precio de hoy (capitalizacion 3.317 MEUR) al valor presente de diez anos de FCFE (OE(b) menos ~12 MEUR/ano de intereses netos despues de impuestos) mas el valor terminal del equity (multiplo de salida sobre OE(b) del ano 10, menos deuda neta). Multiplo de entrada hoy: EV/OE(b) en curso = 28,6x; EV/OE(b) auditado = 20,2x.",
+    "escenarios": [
+      {"nombre": "Bajista", "supuesto": "El VBP chino se extiende y el precio en Europa lo sigue, la guia 2026 se incumple, OE(b) se estanca en 130 MEUR, la deuda neta sube a 900 por seguir recomprando con deuda, el multiplo comprime de 28,6x a 14x", "tir_anual_pct": -5.7},
+      {"nombre": "Central", "supuesto": "OE(b) normalizado 150 MEUR, g del 1,4% defendible, deuda neta plana en 835, el multiplo comprime de 28,6x a 19x", "tir_anual_pct": 2.1},
+      {"nombre": "Alcista", "supuesto": "La guia 2026 se cumple, NES y PLEX escalan de verdad en EEUU, el margen vuelve al 33%+, OE(b) 180 MEUR creciendo al 4%, la deuda neta baja a 650, el multiplo aguanta en 24x", "tir_anual_pct": 10.6}
+    ],
+    "lectura": "Aqui esta el argumento entero, y no necesita ninguna cifra mas. El escenario CENTRAL da +2% anual durante diez anios. El Bund aleman a diez anios, en la misma moneda, sin riesgo de credito, sin riesgo de VBP chino y sin riesgo de que el convertible haya que refinanciarlo en 2028, paga 3,18%. No se trata de que Diasorin vaya a perder dinero: se trata de que el escenario central no compensa el riesgo, ni siquiera empata con no correrlo. Y para llegar al alcista hay que creer simultaneamente en la recuperacion del margen, en el escalado de dos plataformas nuevas y en que el mercado siga pagando 24x un negocio con ROIIC del 3,5%."
+  },
+
+  "trampa_de_valor": {
+    "veredicto": "SOSPECHA",
+    "motivo": "El test formal es 'MoS grande sobre un motor que se rompe'. Aqui el motor SI se esta rompiendo — ROIC del 38,5% al 7,5%, ROIIC ex-margen del 3,5%, NOPAT 2025 (162,1) muy por debajo del de 2020 (250,5), ingresos de China cayendo por VBP, margen EBITDA ajustado guiado a la baja y ya en el 31% en Q1'26 — pero el MoS NO es grande: 18% en la lectura mas generosa de las cinco y negativo en las otras cuatro. Por tanto NO es una trampa de valor clasica. Es algo distinto y de peor nombre: un precio pleno sobre un motor en degradacion. La trampa de valor al menos te paga por equivocarte; esto no.",
+    "cebo_identificado": "Lo que hace que Diasorin PAREZCA barata es el PER ajustado. El EBIT ajustado FY25 es 303.825 mEUR frente a un EBIT reportado de 228.564: hay 75,3 MEUR de 'ajustes' en un solo ano. Con el beneficio neto ajustado el PER sale cerca de 15x; el PER reportado que publica stockanalysis es 25,1x; y el EV sobre owner earnings de la base en curso es 28,6x. La distancia entre 15x y 28,6x es exactamente la trampa. Y esos 'no recurrentes' — integracion de Luminex, cierres de planta, reorganizacion de la filial china — llevan repitiendose desde 2021: un coste que aparece cinco anios seguidos no es no recurrente, es el coste de operar.",
+    "senal_de_falsacion_fechada": "Los resultados de H1'26 se publican a finales de julio de 2026 (H1'25 se publico el 31-jul-2025) y NO estaban disponibles al cierre de este expediente. Si el H1'26 confirma la guia del 32-33% de margen con una aceleracion real en H2 y con China estabilizada, la lectura 'motor roto' se debilita y la base en curso de 145 MEUR de OE(b) seria un suelo. Si el H1'26 recorta la guia, esos 145 MEUR son el techo y toda la valoracion de este expediente se queda corta por arriba."
+  },
+
+  "veredicto": {
+    "accion": "NO COMPRAR",
+    "resumen": "El MoS exigido para abrir es del 40% y ninguna de las cinco lecturas se acerca: 18,4% en la mas generosa (base auditada, terminal 3%), -26,1% en la base viva, -31% y -115% con terminal honesto, -102% contra el multiplo comprometido. Ademas, al piso de resolucion aplicable — mas menos 25%, porque no hay medicion propia del ruido — el precio de hoy cae DENTRO de la banda de valor en las dos bases: valor y precio son indistinguibles a la resolucion que este trabajo puede sostener. Y la TIR central es del +2% anual frente a un Bund del 3,18%. No hay decision que tomar aqui, y la ausencia de decision es la decision.",
+    "que_haria_cambiar_esto": "Dos cosas, ninguna a mano. (1) Un precio por debajo de 22,68 USD (19,90 EUR) contra el multiplo comprometido: un -70% desde aqui. (2) Una demostracion, en H1'26 y en el FY26, de que el ROIIC ex-margen sale del 3,5% — es decir, de que la reinversion en NES y PLEX rinde por encima del coste de capital. Pero eso segundo es una pregunta de CALIDAD, y la calidad esta congelada en MENOS_5_6. Si el precio hiciera lo primero, el candado sigue siendo el mismo umbral del 40%; si la calidad hiciera lo segundo, esa revision no ocurre en esta sesion ni por esta puerta.",
+    "advertencia_de_proceso": "La tentacion aqui es evidente: una accion a -27% de maximos, un PER ajustado de 15x, un DCF que sobre la base auditada da un MoS positivo. Es exactamente la forma en que la contradiccion madre busca la puerta de atras. La etiqueta congelada es MENOS_5_6 con una sola puerta pasada, y este expediente no la mueve ni un milimetro."
+  },
+
+  "huecos": [
+    "[BETA — el mas grave] Las dos betas medibles y citables (Yahoo 0,68 y stockanalysis 0,70, ambas 5A al 27-jul-2026) y la bottom-up sectorial de Damodaran reapalancada (1,31, tabla de 05-ene-2026) difieren en casi el doble. El central de 1,00 es un punto medio razonado, no una medicion. Mueve el WACC entre 5,5% y 8,3% y con el la g implicita del DCF inverso entre -5,0% y +3,5% sobre la base auditada. Todo el expediente cuelga de este hueco.",
+    "[H1 2026 NO DISPONIBLE] Solo hay UN trimestre real de 2026 (Q1, publicado el 08-may-2026). Los resultados de H1'26, que en 2025 salieron el 31 de julio, no estaban publicados al cierre. La base en curso es Q1 real mas guia, no dos trimestres reales. Es el hueco que mas rapido se cierra: cuestion de dias.",
+    "[ACCIONES PROPIAS] No hay confirmacion primaria del numero de acciones propias al 27-jul-2026. Se usan ~6,5 M (~11,6% del capital) recogidos de MarketScreener citando la comunicacion semanal de la sociedad del 6-10 de julio de 2026. Impacto de +/-2% en capitalizacion y en EV.",
+    "[DEUDA NETA] Los 835 MEUR al 27-jul-2026 son una ESTIMACION propia. El ultimo dato publicado es 711 MEUR al 31-mar-2026. El puente (dividendo de 66,5 pagado el 20-may-2026 mas ~111 de recompra menos ~50 de FCF de Q2) es inferencia. Banda de +/-60 MEUR, ~1,4% del EV.",
+    "[COSTE DE DEUDA] El 2,59% derivado del filing esta deprimido por el convertible cupon cero (476,9 de 791,5 MEUR de deuda bruta) que vence en 2028 y que, con la accion a 67 EUR, no se convertira. El coste marginal real hoy es ~4,3-4,5%. Se usa el del filing en el central por instruccion, y el marginal solo en el techo del rango.",
+    "[CAPEX DE MANTENIMIENTO] Aproximarlo por la D&A es especialmente ruidoso en Diasorin: la D&A incluye amortizacion del PPA de Luminex (no reponible, sobreestima) mientras que 76,0 MEUR/ano de capex intangible SI son reinversion real (infraestima). Los sesgos se compensan de forma aproximada pero NO medida.",
+    "[CIFRAS DE CALIDAD CONGELADAS] ROIIC bruto -3,5%, ROIIC ex-margen +3,5%, reinversion del 41,5% de ventas, ROIC del 38,5% al 7,5%, NOPAT 2020 de 250,5 y Luminex por 1.586,6 MEUR vienen del analisis de calidad y NO se han re-verificado contra filings en esta sesion. SI se ha verificado el NOPAT 2025: EBIT 228.564 x (1-29,10%) = 162,1 MEUR, cuadra.",
+    "[TASA LIBRE DE RIESGO] El Bund a 10 anios se toma de TradingEconomics (3,20% el 24-jul-2026, maximo de quince anios, relajandose por debajo de 3,2%), no de la curva del Bundesbank ni del BCE. Se adopta 3,18%. Un movimiento de 20 pb mueve el WACC ~16 pb.",
+    "[FX] EUR/USD 1,1397 al 27-jul-2026 procede de TradingEconomics, no del tipo de referencia del BCE. Afecta solo a la conversion del reporte a USD, no a ningun veredicto: toda la valoracion se hace en EUR y se convierte al final.",
+    "[VBP CHINA] La magnitud del reprecio administrativo chino no esta cuantificada en ninguna fuente primaria a la que haya podido acceder en esta sesion. Entra en el expediente como riesgo de nivel nombrado y como una de las tres razones del recorte de m*, pero no como una cifra en los flujos."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+ "ticker": "8035.T",
+ "currency": "JPY",
+ "current_price": 75360,
+ "name": "Tokyo Electron Limited",
+ "wacc_pct": 8.05,
+ "wacc_components": {
+  "rf_pct": 1.3,
+  "erp_pct": 5,
+  "beta": 1.35,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2026 = JPY 425.9B = FCF reportado JPY 433.2B menos SBC estimada ~JPY 7.3B (0.3% de ingresos). Margen owner-FCF ~17.4% sobre ingresos de JPY 2,443.5B. SBC no se desglosa en las fuentes resumidas; TEL es reportante japones (IFRS/J-GAAP) con compensacion en acciones muy baja vs. pares tecnologicos de EEUU (mayormente acciones restringidas a directivos), por lo que el ajuste 100% SBC es inmaterial (~1.7% del FCF).",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 8,
+  "rev_cagr_y6_10_pct": 5.6,
+  "fcf_margin_terminal_pct": 19,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de SBC tratada como gasto en efectivo; SBC estimada ~0.3% de ingresos (~JPY 7.3B), restada del FCF reportado para llegar a owner earnings. Impacto inmaterial (reportante japones, SBC minima).",
+  "shares_diluted_b": 0.455,
+  "net_debt_usd_b": -3.3
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 18999,
+   "prob": 0.38,
+   "note": "Ciclo semicap se normaliza tras el pico de IA: CAGR ingresos ~4% anios 1-5 declinando a ~2% anios 6-10; margen owner-FCF se comprime a 16.5%; g terminal 2.5%. Coherente con la fuerte ciclicidad (FY2026 organico +0.5%) y riesgo de restricciones a exportaciones a China. No apocaliptico: asume crecimiento positivo continuo."
+  },
+  "base": {
+   "iv_per_share": 28883,
+   "prob": 0.47,
+   "note": "WFE crece con WACC 8.05%: CAGR ingresos 8% anios 1-5 declinando a 3.5% anios 6-10 (hacia meta >JPY3T de ventas), margen owner-FCF mejora a 19% por mix de etch/deposition y servicios; g terminal 3.0%. Consistente con track record de calidad y ROIC ~30%. TV ~66% del EV."
+  },
+  "optimista": {
+   "iv_per_share": 44528,
+   "prob": 0.15,
+   "note": "Supercycle de IA sostenido y ejecucion perfecta: CAGR 12% anios 1-5 declinando a 5% anios 6-10, margen owner-FCF a 21.5%, g terminal 3.5%. Aun asi por debajo del precio actual."
+  }
+ },
+ "sanity_check": "VI ponderada por probabilidad ~JPY 27,500/accion vs precio JPY 75,360 => el mercado paga ~2.7x mi valor intrinseco central; ningun escenario (ni el optimista a JPY 44,528) alcanza el precio. Rendimiento owner-FCF al precio actual es solo ~1.2% (FCF reportado ~1.26%), extremadamente bajo. DCF inverso: el precio actual exige CAGR de ingresos ~17% sostenido 10 anios CON margen expandiendose a 21% Y g terminal 3.5% -- supuestos de 'ejecucion perfecta del supercycle de IA a perpetuidad', muy por encima del historico (FY2026 organico +0.5%; negocio profundamente ciclico). Valuacion corrobora la senal de FASE 2: fwd P/E ~38 vs media 5a ~22 (prima ~73%), PEG 2.86, accion en maximo historico (+224% en 12m, momentum). Contraste de retorno al accionista: TEL paga dividendo (~payout 50%) + recompras, pero el yield combinado es bajo (~2-3%) dado el multiplo; no compensa la falta de margen de seguridad. Net cash ~JPY 511B (sin riesgo de balance). Conclusion: empresa de altisima calidad (ROIC ~30%, lider en etch/deposition/coater-developer), pero el precio descuenta una decada impecable; sin margen de seguridad a JPY 75,360.",
+ "method_notes": "DCF de owner earnings a 10 anios en dos fases descontado al WACC. WACC Japon = Rf 1.3% (JGB 10Y) + ERP 5.0% x beta 1.35 (beta sectorial semicap, alta por ciclicidad y exposicion global; sin ajuste geopolitico ya que la sede/cotizacion es Japon, no Taiwan) = 8.05%. Base owner-FCF = FCF reportado FY2026 JPY 433.2B menos SBC estimada ~JPY 7.3B = JPY 425.9B (margen 17.4%). Fase 1 (anios 1-5): CAGR de ingresos explicito por escenario; Fase 2 (anios 6-10): CAGR declina linealmente hacia normalizacion. Margen owner-FCF converge linealmente al margen terminal en el anio 10. Valor terminal por Gordon con g=2.5-3.5% segun foso (foso amplio: oligopolio en equipos de etch/deposition con Lam y AMAT, switching costs altos -> g superior). EV = PV(flujos 1-10) + PV(TV). Equity = EV + caja neta JPY 511.5B (TEL es net cash, ~-$3.3B deuda neta). VI/accion = Equity / 0.455B acciones diluidas (derivado de market cap JPY ~34.3T / precio). Inputs verificados de FASE 2; SBC complementada con busqueda web ligera (no desglosada en fuentes; estimada conservadoramente al 0.3% de ingresos dado el perfil de reportante japones). Cifras en JPY (moneda de cotizacion). Deuda neta expresada en USD (-3.3) por el esquema; en el modelo se uso caja neta JPY 511.5B (~$3.3B x 155 USD/JPY)."
+}

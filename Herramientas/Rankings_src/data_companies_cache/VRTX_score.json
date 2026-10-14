@@ -1,0 +1,59 @@
+{
+ "ticker": "VRTX",
+ "name": "Vertex Pharmaceuticals Incorporated",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Op margin 38.1% (Q1'26) y FCF margin 26.6% son altos, pero el modelo biofarma escala con apalancamiento operativo limitado por I+D/comercializacion continua, no exponencial como software/redes; sin 2.0."
+  },
+  "R2": {
+   "score": 1,
+   "just": "Fibrosis quistica es nicho de crecimiento secular durable (TRIKAFTA/ALYFTREK) y expansion a no-CF (CASGEVY, JOURNAVX, dolor) abre TAM, pero base CF madura limita el secular tailwind a moderado."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Monopolio de facto en moduladores CFTR (~90% del mercado de fibrosis quistica) sin competidor cercano; dominancia monstruosa e irreplicable por la cartera de patentes y datos clinicos, justifica 2.0."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat irreplicable por decadas: patentes CFTR, escasez de know-how en small-molecule modulators, costes de cambio altos (pacientes cronicos de por vida) y barreras regulatorias; dominancia de categoria sin rival viable."
+  },
+  "R5": {
+   "score": 1,
+   "just": "Crecimiento organico real +8.9% FY2025 / +8% Q1'26 impulsado por productos propios (ALYFTREK, CASGEVY), aunque FY2024 tuvo cargos de IPR&D adquirido/impairment que reflejan dependencia de M&A/licencias para el pipeline post-CF."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Multi-geografia, pero altisima concentracion de producto: ~$10.9B de $12B (>90%) viene de la franquicia CF (TRIKAFTA $2.35B solo en Q1), riesgo de concentracion terapeutica severo pese a diversificacion incipiente."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC 28.6% muy por encima del WACC, capex bajo (~3.6% ingresos) y FCF $3.19B; FCF/NI ~81% (3194/3953) supera el umbral 80%, calidad de capital superior."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Caja neta robusta ~$11B positiva ($13B caja+valores vs $1.99B deuda), balance fortaleza, D/EBITDA no aplica; balance impecable."
+  },
+  "R9": {
+   "score": 0.5,
+   "just": "REGLA DURA: SBC verificada 21.5% del FCF (>15%) limita R9 a maximo 0.5; contabilidad GAAP limpia pero dilucion por SBC material penaliza."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Asignacion de capital disciplinada (buybacks $344.5M Q1, recompras oportunistas vs M&A masiva), pero historial de IPR&D/impairments FY2024 y skin-in-the-game moderado mantienen en base."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R3 (monopolio CFTR ~90% cuota) + R4 (moat irreplicable: patentes + know-how small-molecule + costes de cambio cronicos) se refuerzan mutuamente de forma monstruosa: la posicion #1 indiscutible ES el moat y viceversa, creando una franquicia de fibrosis quistica practicamente sin competencia durante decadas. R1 escala con apalancamiento operativo (38% op margin) pero no exponencialmente, por lo que la amplificacion se ancla en R3+R4 con R1 como soporte.",
+ "moat_type": "intangibles",
+ "moat_one_line": "Monopolio de facto en moduladores CFTR (~90% del mercado) blindado por patentes, datos clinicos propietarios y costes de cambio de pacientes cronicos, irreplicable durante decadas.",
+ "thesis_3lines": [
+  "Calidad excepcional: ROIC 28.6%, op margin 38%, caja neta ~$11B y monopolio CFTR (~90% cuota) configuran una franquicia biofarma de calidad fortaleza con FCF record $3.19B.",
+  "Motor de crecimiento: franquicia CF madura crece +8-9% organico (ALYFTREK ramp) mientras CASGEVY, JOURNAVX y el pipeline de dolor/renal diversifican y extienden el TAM mas alla de fibrosis quistica.",
+  "Valoracion/retorno: fwd P/E 23.8x con descuento ~8% vs media 5a (25.9x) y PEG 1.9; no esta deprimida (-10% del ATH) pero ofrece calidad-compuesto a multiplo razonable, no ganga."
+ ],
+ "bear_case_strongest": "Concentracion terapeutica extrema: >90% de los ingresos depende de la franquicia de fibrosis quistica, por lo que la expiracion de patentes CFTR (acantilado a inicios de la decada de 2030), la entrada de un competidor genetico, o el fracaso repetido del pipeline no-CF (historial de impairments IPR&D FY2024) descarrilaria la tesis pese a la fortaleza actual.",
+ "sbc_flag": "sbc_gt_15_fcf",
+ "ethical_flag": "none",
+ "notes": "Score total re-puntuado: R1(1.0)+R2(1.0)+R3(2.0)+R4(2.0)+R5(1.0)+R6(1.0)+R7(1.5)+R8(1.5)+R9(0.5)+R10(1.0) = 12.5/13.5. Bajada desde FASE 1 (13.5) impulsada por: (1) REGLA DURA SBC -> R9 capado a 0.5 (SBC 21.5% del FCF verificada), (2) concentracion terapeutica CF >90% limita R6 a 1.0, (3) cargos IPR&D/impairment FY2024 moderan R5 y R10. Compensado por amplificacion R3+R4 a 2.0 cada uno (monopolio CFTR irreplicable). FCF/NI 81% justo sobre umbral 80%. Datos de mercado (precio, P/E, ROIC) son ESTIMADOS de agregador; metricas operativas (ingresos, margenes, FCF, SBC) VERIFICADAS de 10-K/10-Q. Drop 'not_depressed': valoracion razonable pero sin margen de seguridad de desplome."
+}

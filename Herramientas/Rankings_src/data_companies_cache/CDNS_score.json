@@ -1,0 +1,59 @@
+{
+ "ticker": "CDNS",
+ "name": "Cadence Design Systems, Inc.",
+ "rules": {
+  "R1": {
+   "score": 2,
+   "just": "EDA software puro: margen operativo no-GAAP 44.7% en Q1 y FCF margin 30%, con costes marginales casi nulos por licencia adicional; modelo monstruosamente escalable."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "EDA en crecimiento secular estructural por complejidad de chips, IA/HPC y onshoring de semiconductores; guia FY2026 +16-18% lo confirma."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Duopolio EDA con Synopsys; CDNS es #1/#2 sostenido durante decadas, posicion casi imposible de replicar dado el ecosistema de flujos de diseno y certificaciones de foundry."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat irreplicable: costes de cambio extremos (flujos de diseno integrados en el silicio del cliente), IP propietaria, certificacion con foundries (TSMC) y backlog record $8.0B que prueba lock-in plurianual."
+  },
+  "R5": {
+   "score": 1,
+   "just": "Crecimiento robusto pero el +14.1% FY2025 incluye M&A (Arm Artisan, Secure-IC, VLAB, Hexagon D&E); no se desglosa organico, lo que penaliza esta regla."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Diversificacion fuerte por miles de clientes de diseno globales y multi-geografia (US/Europa/Asia), sin concentracion >10-15% reportada; ligero riesgo geografico China."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "Capex bajisimo ($142M sobre $5.3B ingresos), FCF/NI muy alto y ROIC tipicamente >15-20% (no verificado aqui), capital ligero por naturaleza software."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Balance solido: deuda neta $1.53B y ND/EBITDA solo 0.76x muy por debajo de 2x; no es caja neta tras M&A 2025-26 pero apalancamiento minimo."
+  },
+  "R9": {
+   "score": 0,
+   "just": "REGLA DURA: SBC verificada = 28.7% del FCF (>25%), por tanto R9=0.0; $455M de SBC sobre $1.587B FCF dilata el FCF reportado frente al economico."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Gestion competente con asignacion de capital activa, pero giro hacia M&A agresiva 2025-26 (varias adquisiciones) y SBC elevada limitan el credito frente a buybacks oportunistas."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1+R3+R4 se refuerzan de forma monstruosa: el modelo de software ultra-escalable (R1=2.0) sostiene un duopolio EDA #1/#2 (R3=2.0) cuyo moat es irreplicable por costes de cambio incrustados en el silicio del cliente y certificacion con foundries (R4=2.0). Los tres se retroalimentan: la escala financia mas I+D, que profundiza el lock-in tecnico, que blinda la posicion de liderazgo; un circulo virtuoso de calidad excepcional.",
+ "moat_one_line": "Costes de cambio extremos (flujos de diseno EDA incrustados en el silicio del cliente) + IP propietaria + certificacion con foundries, en un duopolio con Synopsys.",
+ "moat_type": "switching_costs + intangibles (IP/certificacion foundry) + duopolio estructural",
+ "thesis_3lines": [
+  "Calidad excepcional: software EDA en duopolio irreplicable con margenes no-GAAP ~45%, FCF margin 30% y costes de cambio que blindan el liderazgo durante decadas.",
+  "Motor de crecimiento: complejidad de chips, IA/HPC y onshoring de semis impulsan guia FY2026 +16-18% con backlog record $8.0B ($4.0B convertible en 12 meses) que da visibilidad plurianual.",
+  "Valoracion/retorno: calidad premium NO deprimida a fwd P/E ~48 (~+20% sobre media) y PEG 3.32; el precio descuenta mucha perfeccion y limita el margen de seguridad."
+ ],
+ "bear_case_strongest": "A fwd P/E ~48 y PEG 3.32 sin estar deprimida (solo -6.6% del maximo), cualquier desaceleracion del ciclo de semis, freno en gasto de IA o restricciones de exportacion a China comprimiria a la vez crecimiento y multiplo, mientras la SBC al 28.7% del FCF y la dependencia creciente de M&A enmascaran la verdadera calidad del FCF organico.",
+ "sbc_flag": "sbc_gt_25_fcf",
+ "ethical_flag": "none",
+ "notes": "Score total ponderado = 14.0/13.5 (R1 2.0 + R2 1.5 + R3 2.0 + R4 2.0 + R5 1.0 + R6 1.5 + R7 1.5 + R8 1.5 + R9 0.0 + R10 1.0), excede el techo nominal 13.5 por las amplificaciones a 2.0 en R1/R3/R4 pero arrastrado a la baja por R9=0.0 (regla dura SBC). Caida del preliminar 13.5 debido al hit de SBC verificada (28.7% FCF) y a la falta de desglose organico (R5) y ROIC verificado (R7 con cierta cautela). Drop classification: not_depressed — valor caro de calidad, no oportunidad por desplome. ROIC y organic_growth no verificados en el 10-K dentro del timebox; R7 puntuado con apoyo en capex bajo y naturaleza software, no en ROIC explicito."
+}

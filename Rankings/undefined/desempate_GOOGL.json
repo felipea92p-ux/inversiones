@@ -1,0 +1,92 @@
+{
+  "ticker": "GOOGL",
+  "empresa": "Alphabet Inc.",
+  "cik": "0001652044",
+  "fecha_juicio": "2026-07-28",
+  "juez": "desempate en sesion limpia (tercer analista, sin conocer las dos etiquetas previas)",
+  "candado_B_prima": "CUMPLIDO. No se consultaron cotizacion, capitalizacion ni multiplo. El 10-K FY2025 menciona de pasada el valor de mercado de non-affiliates en la portada; se leyo por barrido de texto, se descarto de inmediato y no entra en ninguna puerta.",
+  "ventana": "FY2016-FY2025 (10 ejercicios auditados), mas FY2007-FY2009 de Google Inc para G4",
+  "fuentes_primarias": [
+    "10-K FY2025 Alphabet, accession 0001652044-26-000018, goog-20251231.htm (presentado 2026-02-05)",
+    "10-K FY2015 a FY2024 Alphabet (accessions 0001652044-16-000012 ... 0001652044-25-000014)",
+    "10-K FY2009 Google Inc, accession 0001193125-10-030774, CIK 0001288776",
+    "XBRL companyfacts CIK0001652044 y CIK0001288776"
+  ],
+  "orden_ejecutado": "G5 -> G1 -> G3 -> G4 -> G2 -> G6 (anti-halo, respetado)",
+
+  "G5": {
+    "veredicto": "SI_REFORZADO",
+    "cifra": "CFO > BN en 10/10 ejercicios. Sloan entre -13,4% y -4,6%, NUNCA positivo (umbral +5%). FCF (CFO-capex) positivo los 10 anios; FY2025 73.266 MUSD = 18,2% de ventas, y 48.313 MUSD = 12,0% tras descontar la SBC completa (24.953 MUSD), sin sumarla de vuelta. Desviacion tipica del crecimiento: BN 51,1 pp vs CFO 12,8 pp -> el beneficio es MAS volatil que la caja que lo produce, signo contrario al delator de General Electric.",
+    "cita": "10-K FY2025, estado de flujos: 'Net cash provided by operating activities 101,746 125,299 164,713' y 'Purchases of property and equipment ( 32,251 ) ( 52,535 ) ( 91,447 )'.",
+    "detalle_anual": {
+      "2016": {"CFO": 36036, "capex": 10212, "FCF": 25824, "BN": 19478, "FCF_ex_SBC": 19121, "sloan_pct": -10.5},
+      "2017": {"CFO": 37091, "capex": 13184, "FCF": 23907, "BN": 12662, "FCF_ex_SBC": 16228, "sloan_pct": -13.4},
+      "2018": {"CFO": 47971, "capex": 25139, "FCF": 22832, "BN": 30736, "FCF_ex_SBC": 13479, "sloan_pct": -8.0},
+      "2019": {"CFO": 54520, "capex": 23548, "FCF": 30972, "BN": 34343, "FCF_ex_SBC": 20178, "sloan_pct": -7.9},
+      "2020": {"CFO": 65124, "capex": 22281, "FCF": 42843, "BN": 40269, "FCF_ex_SBC": 29852, "sloan_pct": -8.3},
+      "2021": {"CFO": 91652, "capex": 24640, "FCF": 67012, "BN": 76033, "FCF_ex_SBC": 51636, "sloan_pct": -4.6},
+      "2022": {"CFO": 91495, "capex": 31485, "FCF": 60010, "BN": 59972, "FCF_ex_SBC": 40648, "sloan_pct": -8.7},
+      "2023": {"CFO": 101746, "capex": 32251, "FCF": 69495, "BN": 73795, "FCF_ex_SBC": 47035, "sloan_pct": -7.3},
+      "2024": {"CFO": 125299, "capex": 52535, "FCF": 72764, "BN": 100118, "FCF_ex_SBC": 49979, "sloan_pct": -5.9},
+      "2025": {"CFO": 164713, "capex": 91447, "FCF": 73266, "BN": 132170, "FCF_ex_SBC": 48313, "sloan_pct": -6.2}
+    },
+    "nota": "FCF-BN es negativo desde 2023 (-58.904 MUSD en 2025) pero eso es el ciclo de capex de IA, no calidad del devengo: el devengo (BN-CFO) es negativo, es decir conservador, en los diez anios sin excepcion."
+  },
+
+  "G1": {
+    "veredicto": "SI",
+    "cifra": "ROIC (NOPAT / capital invertido medio, con capital invertido = fondos propios + deuda + arrendamientos - caja y valores negociables): minimo de la ventana 32,6% (2020) excluyendo el ejercicio distorsionado por la Tax Act de 2017; incluyendo 2017 tal cual, 21,9%. Ambos por encima del 20% y de 2x el WACC de referencia (10%). 2017 normalizado a tasa fiscal del 19,3% da 37,9%. NOPAT/ventas 17,7%-26,8% (26,7% en FY2025). Higiene de denominador: capital invertido minimo 54.657 MUSD frente a 30.393 MUSD (20% de su media) -> el ratio MIDE, no amplifica; no procede NO_MEDIBLE.",
+    "cita": "10-K FY2025: resultado de explotacion 129.039 MUSD, impuesto 26.656 MUSD sobre base imponible 158.826 MUSD (tasa efectiva 16,8%) -> NOPAT 107.382 MUSD sobre capital invertido medio 304.732 MUSD = 35,2%.",
+    "serie_roic_pct": {"2016": 35.7, "2017": 21.9, "2018": 38.1, "2019": 34.8, "2020": 32.6, "2021": 51.7, "2022": 40.1, "2023": 38.9, "2024": 41.1, "2025": 35.2},
+    "serie_nopat_sobre_ventas_pct": {"2016": 21.2, "2017": 11.0, "2018": 17.7, "2019": 18.3, "2020": 18.9, "2021": 25.6, "2022": 22.2, "2023": 23.6, "2024": 26.8, "2025": 26.7},
+    "ambiguedad_declarada": "Si el umbral del 20% se aplicase tambien a NOPAT/ventas como segundo obstaculo de igual rango, 2018-2020 (17,7 / 18,3 / 18,9%) suspenderian. Leo que el obstaculo vinculante es el ROIC — la clausula '2 veces el WACC' solo tiene sentido sobre retorno del capital, y la propia higiene de denominador designa a ventas como normalizador de RESPALDO, no como co-umbral. Por eso G1 = SI. Es el punto donde otro juez razonable podria discrepar."
+  },
+
+  "G3": {
+    "veredicto": "NO",
+    "cifra": "Elasticidad MEDIDA con la magnitud fisica que la propia empresa publica (clics pagados y coste por clic en Google Search & other; impresiones y coste por impresion en Google Network). El precio/mix supero el IPC+100 pb en solo 3 de 10 ejercicios (2021, 2024, 2025). Serie CPC: 2016 -13%, 2017 -21%, 2018 -25%, 2019 -7%, 2020 -10%, 2021 +15%, 2022 -1%, 2023 +1%, 2024 +7%, 2025 +7%. El volumen si cumple: clics pagados positivos los 10 anios (+40, +54, +62, +23, +19, +23, +10, +7, +5, +6%). Es decir, el crecimiento es abrumadoramente VOLUMEN con precio/mix cayendo o por debajo de inflacion en 7 de 10 anios.",
+    "cita": "10-K FY2025: 'Google Search & other Paid clicks change 6 % Cost-per-click change 7 % Google Network Impressions change (7) % Cost-per-impression change 7 %'. 10-K FY2018: 'Paid clicks change 54 % 62 % Cost-per-click change (21 )% (25 )%'.",
+    "no_medible_descartado": "La empresa SI publica magnitud unitaria, de forma ininterrumpida en toda la ventana. Por tanto es medible, se midio, y suspende. NO_MEDIBLE seria una evasiva injustificada.",
+    "delator_kraft_heinz": "PRESENTE en el subsegmento Google Network: impresiones -5% (2023), -11% (2024), -7% (2025) con coste por impresion 0%, +10%, +7%. Precio subiendo sobre volumen cayendo = cosecha del foso en AdSense/AdMob. El segmento dominante (Search & other) NO presenta ese patron: alli el volumen crece.",
+    "matiz_a_favor": "Los ultimos dos ejercicios (2024 y 2025) son la mejor lectura combinada de la decada: clics +5%/+6% CON CPC +7%/+7%. Si la ventana fuese de 3 anios en vez de 10, G3 pasaria. Con la ventana exigida de historia auditada completa, no pasa."
+  },
+
+  "G4": {
+    "veredicto": "NO_PROBADA",
+    "cifra": "Alphabet/Google jamas ha atravesado una contraccion sectorial de -30% pico a valle, ni ha tenido un solo ejercicio completo de ingresos a la baja en mas de 20 anios de cotizacion. En la unica sacudida de demanda global disponible (2009) la empresa COSECHO en vez de invertir: capex recortado un 66% (2.358 -> 809,9 MUSD), I+D practicamente plana (+1,8%: 2.793 -> 2.843 MUSD) con INTENSIDAD de I+D CAYENDO del 12,8% al 12,0% de ventas, plantilla reducida (20.222 -> 19.835), mientras el resultado de explotacion subia +25,3% (6.632 -> 8.312 MUSD) y el beneficio neto +54,2% (4.227 -> 6.520 MUSD).",
+    "cita": "10-K FY2009 de Google Inc: 'capital expenditures of $809.9 million'; y 'headcount was 20,222 at December 31, 2008 and 19,835 at' cierre de 2009.",
+    "cicatriz": "NO EXISTE en 2009. No hay una sola linea del P&L ni del balance que se deteriorase para pagar capacidad competitiva: margen operativo EXPANDIDO 470 pb (30,4% -> 35,1%) en el ano de la recesion. Es el reverso exacto del precedente ASML 2009 (ventas -46%, perdidas, I+D sostenida al 29% de unas ventas colapsadas).",
+    "candidata_alternativa_2023": "Existe cicatriz nombrada — 3.900 MUSD de cargos por reduccion de plantilla y optimizacion de espacio de oficinas, mas 269 MUSD de renta y amortizacion aceleradas (10-K FY2023) — pero falla las dos condiciones restantes: (a) no hubo contraccion sectorial de -30%; los ingresos de Alphabet CRECIERON +8,7% ese ano con margen en expansion; (b) no hay DOS rivales nombrados reduciendo capacidad competitiva: Microsoft, Meta y Amazon recortaron plantilla pero AUMENTARON simultaneamente su capex de IA a lo largo de 2023-2025. Recortar grasa mientras se sube la inversion no es reducir capacidad competitiva.",
+    "consecuencia": "Techo de etiqueta rebajado. El foso de Alphabet nunca ha sido sometido a la prueba de fuego que esta puerta exige."
+  },
+
+  "G2": {
+    "veredicto": "NO",
+    "cifra": "Reinversion (capex + I+D + adquisiciones netas) = 154.126 MUSD en FY2025, 38,3% de ventas; media de la ventana 29,4%; >=25% en 9 de 10 ejercicios (unica excepcion 2021, 22,8%, por el salto del denominador post-COVID). La puerta de reinversion PASA. Lo que suspende es la productividad del capital: ROIIC bruto 15,4% (2020->2025), 17,3% (2019->2024), 15,2% (2018->2023) — apenas sobre el 15%; y ROIIC EX-MARGEN 8,8% / 9,3% / 9,5% — por debajo del umbral en las tres ventanas. Mas de la mitad del incremento de NOPAT 2020->2025 (31.185 de 72.857 MUSD) es EXPANSION DE MARGEN, no volumen a margen constante.",
+    "cita": "10-K FY2025: capex 91.447 MUSD, I+D 61.087 MUSD, adquisiciones netas 1.592 MUSD, sobre ingresos de 402.836 MUSD.",
+    "reinversion_pct_NOPAT": 143.5,
+    "roiic_bruto_pct": 15.4,
+    "roiic_ex_margen_pct": 8.8,
+    "correccion_aplicada": "La tasa de reinversion que entra en g = tasa x ROIIC va sobre NOPAT, no sobre ventas. Reportadas por separado: reinversion/VENTAS = 38,3% (FY2025), media 29,4%; reinversion/NOPAT = 143,5% (FY2025), es decir Alphabet reinvierte MAS que la totalidad de su NOPAT, financiandolo con amortizacion, la posicion de tesoreria y 37.000 MUSD de deuda nueva en 2025.",
+    "caveat_conceptual": "La I+D esta gastada, luego ya va deducida del NOPAT; incluirla en el numerador de la reinversion sin capitalizarla y devolverla al NOPAT infla la tasa. Se reporta como pide la puerta, con la advertencia declarada.",
+    "especie": "ULTRA-C (reinversion abundante, retorno sobre el capital incremental insuficiente una vez despojado del efecto margen)."
+  },
+
+  "G6": {
+    "veredicto": "SI",
+    "poder": "ESCALA (economias de escala): el bucle datos-infraestructura-modelo de la busqueda y ahora de Gemini, amortizado sobre una base de uso que ningun rival puede igualar.",
+    "magnitud": "En la unidad propia del poder de escala: siete productos con DOS MIL MILLONES de usuarios cada uno y quince con quinientos millones, todos corriendo sobre los mismos modelos; mas de 200.000 MUSD de I+D en cinco anios; y 152.534 MUSD de inversion tecnica anual (capex 91.447 + I+D 61.087) en FY2025 que se reparte sobre esa base. Un competidor de busqueda tendria que igualar ese gasto anual absoluto sobre una fraccion del volumen.",
+    "cita": "10-K FY2025, Item 1: 'all 15 of our half-billion-user products — including seven with two billion users — use our Gemini models'; y 'invested more than $200 billion in research and development in the last five years'.",
+    "caducidad": ">10 anios, PERO CON RELOJ YA ARRANCADO Y DECLARADO.",
+    "arranque_del_reloj_24_meses": "SE ENCONTRO, y es material. Agosto 2024: el Tribunal de Distrito de Columbia falla contra Google en el caso de busqueda del DOJ. Diciembre 2025: sentencia firme que impone restricciones a como Google distribuye sus servicios y le OBLIGA a compartir ciertos datos de busqueda y a ofrecer servicios de sindicacion a competidores determinados. Enero 2026: Google recurre y pide suspension. Febrero 2026: recurren tambien el DOJ y los fiscales generales. En paralelo: 3.500 MUSD de multa de la Comision Europea provisionados en el 3T 2025 (adtech) y sentencia de remedios pendiente en el caso de tecnologia publicitaria. Es un ataque judicial dirigido exactamente contra el mecanismo nombrado.",
+    "por_que_se_otorga_igualmente": "Tres razones, todas declaradas: (1) el remedio obliga a sindicar el RESULTADO del indice, no transfiere la capacidad de construir 91.000 MUSD anuales de infraestructura — el licenciatario se convierte en revendedor, no en constructor de un indice rival; (2) el tribunal NO ordeno remedios estructurales (ni desinversion de Chrome ni de Android), que era lo que pedia el DOJ; (3) en el ultimo ejercicio auditado, justo en el momento del arranque del reloj, el mecanismo seguia componiendo: clics pagados +6% CON coste por clic +7%, la mejor lectura combinada de la decada. No se observa degradacion todavia.",
+    "honestidad": "Este es un SI MARCADO, no limpio. Es la unica puerta del expediente que no se decide con aritmetica sino con un juicio sobre una sentencia viva."
+  },
+
+  "etiqueta": "MUY_BUENA",
+  "puertas_pasadas": 4,
+  "aritmetica_de_la_etiqueta": "Puertas que cuentan: G5, G1, G3, G4, G6. Resultado: G5 SI_REFORZADO, G1 SI, G6 SI (3 afirmativas); G3 NO (1 suspenso franco); G4 NO_PROBADA (no computa como fallo, tiene su propia consecuencia). G2 no suspende, solo fija especie: ULTRA-C. Con un unico suspenso franco entre las contadoras, la lectura es 'cinco de seis' = MUY_BUENA. PRESUNTA queda descartada porque PRESUNTA es la etiqueta de una ULTRA a la que solo le falta probar la recesion, y a Alphabet le falta ademas G3. MENOS_5_6 exigiria dos suspensos francos y solo hay uno. Se reporta puertas_pasadas = 4 contando G2, que por construccion no puede suspender; entre las cinco contadoras las afirmativas son 3.",
+  "confianza": "MEDIA",
+  "puerta_mas_dudosa": "G6",
+  "resumen": "Alphabet es una maquina de caja de calidad excepcional y una asignadora de capital cada vez peor. Lo mecanico es aplastante a su favor: el devengo es negativo los diez ejercicios de la ventana (Sloan entre -13,4% y -4,6%, nunca cerca del umbral +5%), el beneficio es cuatro veces mas volatil que la caja que lo produce — el reverso del delator de General Electric — y el ROIC no baja del 32,6% en ningun ano limpio, con un denominador sano que si mide. Ahi se acaban las buenas noticias. Las tres puertas que dependen de que el foso haga algo, y no solo de que exista, no se sostienen. G3 suspende porque la elasticidad se puede medir y se midio: Alphabet publica clics pagados y coste por clic sin interrupcion, y el precio/mix solo supero el IPC+100 pb en 3 de 10 ejercicios; el crecimiento es volumen, con el CPC cayendo -25% en 2018 y -21% en 2017. Peor: la firma de Kraft Heinz esta presente y localizada — en Google Network las impresiones caen -5%, -11% y -7% en los tres ultimos anos mientras el coste por impresion sube 0%, +10% y +7%; eso es cosecha de AdSense/AdMob, no poder de precio. G4 no se puede probar y no por falta de busqueda: la empresa nunca ha tenido un ejercicio de ingresos a la baja, y en 2009, la unica sacudida real disponible, hizo justo lo contrario del precedente ASML — recorto el capex un 66%, congelo la I+D, redujo plantilla y expandio el margen operativo 470 pb. No hay cicatriz que nombrar porque no hubo herida. G2 confirma el diagnostico con numeros: reinvierte el 143% de su NOPAT, pero el ROIIC ex-margen es del 8,8%, la mitad del umbral; mas de la mitad del NOPAT ganado desde 2020 vino de expandir margen, no de poner capital a trabajar. Y G6, la unica puerta que decidi con juicio y no con aritmetica, se otorga a regañadientes: el poder de escala es colosal y esta bien medido — siete productos de dos mil millones de usuarios sobre los mismos modelos, 200.000 MUSD de I+D en cinco anios — pero el reloj ARRANCO dentro de la ventana de 24 meses y arranco fuerte: sentencia firme de diciembre de 2025 que obliga a compartir datos de busqueda y a sindicar el indice a competidores, recurrida en enero de 2026, mas 3.500 MUSD de multa europea. Lo otorgo porque el remedio cede el resultado del indice y no la capacidad de construir 91.000 MUSD anuales de infraestructura, y porque el ultimo ejercicio auditado aun compone (clics +6% con CPC +7%, la mejor lectura de la decada). Veredicto: MUY_BUENA, y la empresa esta genuinamente en la frontera — no lo digo para evitar mojarme. Dos decisiones mueven la etiqueta en direcciones opuestas y ninguna es forzada: si G6 cayera, seria MENOS_5_6; si la ventana de G3 fuese de tres anios en vez de diez, subiria. Sostengo mi lectura de G3 con fuerza (el dato esta publicado y es inequivoco) y la de G6 con reservas. Por eso la confianza es MEDIA y la puerta mas dudosa es G6: es la unica donde estoy apostando sobre el resultado de un litigio vivo que ataca exactamente el mecanismo que acabo de nombrar como foso."
+}

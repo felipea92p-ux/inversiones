@@ -1,0 +1,173 @@
+{
+  "ticker": "NVDA",
+  "empresa": "NVIDIA Corporation",
+  "cik": "0001045810",
+  "fecha_juicio": "2026-07-28",
+  "juez": "desempate — tercer juicio independiente, sin conocer las dos etiquetas previas",
+  "candado_B_prima": "CUMPLIDO — no se consultó cotización, capitalización ni múltiplo en ningún momento.",
+  "ventana": "FY2017 (ene-2017) a FY2026 (ene-2026), 10 ejercicios auditados; G4 usa además FY2008-FY2010.",
+  "fuentes_primarias": [
+    "10-K FY2026 acc. 0001045810-26-000021 (R3 income, R5 balance, R9 cash flow, R11 Groq, R82/R85 segmentos), nvda-20260125.htm",
+    "10-K FY2024 acc. 0001045810-24-000029 (R9 cash flow FY2022-24)",
+    "10-K FY2022 acc. 0001045810-22-000036 (R9 cash flow FY2020-22)",
+    "10-K FY2019 acc. 0001045810-19-000023 (R8 cash flow FY2017-19)",
+    "10-K FY2010 acc. 0001045810-10-000006 (Selected Financial Data, MD&A I+D, cargo weak die/packaging, resumen trimestral)",
+    "10-K FY2009 acc. 0001045810-09-000013 (resumen trimestral FY2008-FY2009)",
+    "XBRL companyconcept AMD CIK 0000002488 y Intel CIK 0000050863 — ResearchAndDevelopmentExpense, PaymentsToAcquirePropertyPlantAndEquipment"
+  ],
+
+  "orden_ejecutado": "G5 -> G1 -> G3 -> G4 -> G2 -> G6 (anti-halo respetado)",
+
+  "G5_CAJA": {
+    "veredicto": "SI",
+    "no_es_reforzado_porque": "CFO NO está por encima del beneficio neto de forma sostenida: FY2024, FY2025 y FY2026 tienen BN > CFO.",
+    "serie_USD_millones": {
+      "FY2026": {"CFO": 102718, "capex": 6042, "FCF": 96676, "FCF_pct_ventas": 44.8, "FCF_ex_SBC": 90290, "FCF_ex_SBC_pct_ventas": 41.8, "FCF_menos_BN": -23391, "sloan_pct": 10.9},
+      "FY2025": {"CFO": 64089, "capex": 3236, "FCF": 60853, "FCF_pct_ventas": 46.6, "FCF_ex_SBC": 56116, "FCF_ex_SBC_pct_ventas": 43.0, "FCF_menos_BN": -12027, "sloan_pct": 9.9},
+      "FY2024": {"CFO": 28090, "capex": 1069, "FCF": 27021, "FCF_pct_ventas": 44.4, "FCF_menos_BN": -2739, "sloan_pct": 3.1},
+      "FY2023": {"CFO": 5641, "capex": 1833, "FCF": 3808, "FCF_pct_ventas": 14.1, "FCF_menos_BN": -560, "sloan_pct": -3.0},
+      "FY2022": {"CFO": 9108, "capex": 976, "FCF": 8132, "FCF_pct_ventas": 30.2, "sloan_pct": 1.8},
+      "FY2021": {"CFO": 5822, "capex": 1128, "FCF": 4694, "sloan_pct": -6.5},
+      "FY2020": {"CFO": 4761, "capex": 489, "FCF": 4272, "sloan_pct": -12.8},
+      "FY2019": {"CFO": 3743, "capex": 600, "FCF": 3143, "sloan_pct": 3.2},
+      "FY2018": {"CFO": 3502, "capex": 593, "FCF": 2909, "sloan_pct": -4.3},
+      "FY2017": {"CFO": 1672, "capex": 176, "FCF": 1496, "sloan_pct": -0.1}
+    },
+    "acumulado_10_anios": {
+      "CFO": 229146, "capex": 16142, "FCF": 213004, "BN": 252809, "ventas": 517178, "SBC": 22821,
+      "FCF_sobre_BN_pct": 84.3, "FCF_sobre_ventas_pct": 41.2, "FCF_ex_SBC_sobre_ventas_pct": 36.8
+    },
+    "sloan_breach": "UMBRAL DEL 5% INCUMPLIDO en FY2025 (9,9%) y FY2026 (10,9%), y empeorando. Mediana de los 9 años medibles: +1,8%. Media: +0,3%.",
+    "descomposicion_devengo_FY2026_USDm": {
+      "BN_menos_CFO": 17349,
+      "circulante_neto": 15949,
+      "plusvalias_no_realizadas_equity_no_cotizado": 8918,
+      "impuesto_diferido": 1424,
+      "menos_SBC": -6386,
+      "menos_DyA": -2843,
+      "otros": 287
+    },
+    "por_que_paso_pese_al_breach": [
+      "DSO plano: 65 días en FY2026 vs 65 en FY2025 — no hay relleno de canal en cuentas a cobrar.",
+      "Único deterioro real: existencias 125 días vs 113 (+12 días), consistente con la rampa de Rubin.",
+      "El 51% del devengo de FY2026 es una partida NO OPERATIVA nombrada ($8.918M de plusvalías de equity no cotizado), no un devengo de explotación.",
+      "PRUEBA ÁCIDA — en el año malo (FY2023) los devengos revirtieron LIMPIAMENTE en caja: CFO $5.641M SUPERÓ al BN $4.368M en $1.273M. Un devengo fabricado explota en la recesión; éste se convirtió en caja.",
+      "El beneficio es MÁS volátil que el CFO (FY2020: BN -33% con CFO +27%; FY2023: BN -55% con CFO -38%): NO hay delator General Electric.",
+      "Verificación de tesorería: con $40.086M de recompras + $974M de dividendos + $7.948M de impuestos de planes de acciones saliendo, caja+valores subió de $43.210M a $62.556M. Un beneficio falso no financia eso."
+    ],
+    "cifra": "FY2026: FCF (CFO-capex) $96.676M = 44,8% de ventas; tras SBC completa $90.290M = 41,8%. Acumulado 10 años: FCF $213.004M = 84,3% del beneficio neto acumulado y 41,2% de las ventas. Sloan FY2026 +10,9% e FY2025 +9,9%: UMBRAL DEL 5% INCUMPLIDO en los dos últimos ejercicios.",
+    "cita": "10-K FY2026 (acc. 0001045810-26-000021), Consolidated Statements of Cash Flows: 'Net cash provided by operating activities 102,718 / Purchases related to property and equipment and intangible assets (6,042)'; y en los ajustes: 'Gains on non-marketable equity securities and publicly-held equity securities, net (8,918)', 'Accounts receivable (15,399)', 'Inventories (11,324)'."
+  },
+
+  "G1_ROIC": {
+    "veredicto": "SI",
+    "definicion_capital_invertido": "Circulante operativo neto (activo corriente - caja - valores negociables - pasivo corriente sin deuda) + inmovilizado neto + activos por arrendamiento + fondo de comercio + intangibles. Excluye caja, valores, equity no cotizado y activos por impuesto diferido.",
+    "higiene_denominador": "MEDIBLE. El capital invertido nunca cruza cero ni se acerca: $1.193M (FY2017) a $69.273M (FY2026), siempre positivo y siempre material. La caída de los primeros años por debajo del 20% de la media del periodo es efecto de haber multiplicado el capital por 58x, no inestabilidad del denominador. No se activa la cláusula NO MEDIBLE.",
+    "serie": {
+      "FY2017": {"NOPAT_pct_ventas": 24.5, "ROIC_pct": 141.8},
+      "FY2018": {"NOPAT_pct_ventas": 31.5, "ROIC_pct": 115.0},
+      "FY2019": {"NOPAT_pct_ventas": 34.5, "ROIC_pct": 104.4},
+      "FY2020": {"NOPAT_pct_ventas": 24.5, "ROIC_pct": 67.5},
+      "FY2021": {"NOPAT_pct_ventas": 26.7, "ROIC_pct": 39.2},
+      "FY2022": {"NOPAT_pct_ventas": 36.6, "ROIC_pct": 72.5},
+      "FY2023": {"NOPAT_pct_ventas": 16.4, "ROIC_pct": 28.7, "ROIC_pct_tax_normalizado_15": 23.4, "nota": "MÍNIMO DE LA VENTANA"},
+      "FY2024": {"NOPAT_pct_ventas": 47.6, "ROIC_pct": 146.7},
+      "FY2025": {"NOPAT_pct_ventas": 54.1, "ROIC_pct": 214.5},
+      "FY2026": {"NOPAT_pct_ventas": 51.3, "ROIC_pct": 159.8}
+    },
+    "prueba_umbral": "Mínimo de ventana 28,7% (FY2023) > 20% y > 2x WACC de referencia (10%). Con tipo impositivo normalizado al 15% en vez del beneficio fiscal real de FY2023, el mínimo baja a 23,4% — sigue pasando. Sobre capital medio FY22-23, 24,8%.",
+    "prueba_de_estres_mas_dura": "Con la definición más punitiva posible (activo total menos caja y valores, sin restar ningún pasivo operativo), FY2023 caería a 15,8%. Se rechaza esa definición porque no netea el pasivo espontáneo no oneroso, que es doctrina estándar de capital invertido.",
+    "cifra": "ROIC mínimo de la ventana 28,7% en FY2023 (NOPAT $4.413M / capital invertido $15.357M) — 2,87x el WACC de referencia del 10%. FY2026: 159,8% (NOPAT $110.676M / $69.273M). NOPAT/ventas entre 16,4% y 54,1%.",
+    "cita": "10-K FY2026, Consolidated Statements of Income: 'Operating income 130,387 / Income tax expense 21,383 / Income before income tax 141,450'; Consolidated Balance Sheets: 'Total current assets 125,605 / Cash and cash equivalents 10,605 / Marketable securities 51,951 / Total current liabilities 32,163 / Property and equipment, net 10,383 / Goodwill 20,832 / Intangible assets, net 3,306'."
+  },
+
+  "G3_PRECIO": {
+    "veredicto": "NO_MEDIBLE",
+    "busqueda_realizada": "Búsqueda de texto completo sobre los 10-K de FY2019, FY2023 y FY2026 con los patrones: units shipped/sold/sales, average selling price, ASP, unit demand, unit volume, million GPUs, gigawatts, racks, systems shipped.",
+    "resultado": "NVIDIA NO publica NINGUNA magnitud física ni unitaria en ningún ejercicio de la ventana. 'Average selling price' aparece sólo como prosa genérica de factor de riesgo, nunca cuantificada. La única desagregación es ingresos por plataforma de mercado (Data Center $193.737M, Gaming $16.042M, ProViz $3.191M, Automotive $2.349M, OEM $619M en FY2026). Sin denominador de volumen, la elasticidad NO SE PUEDE MEDIR; derivarla del margen sería exactamente el error que la puerta prohíbe.",
+    "nota_historica": "El 10-K de FY2010 sí discutía cualitativamente 'a decline in unit demand and a decline in average selling price', pero nunca publicó una serie de unidades, y en todo caso queda fuera de la ventana.",
+    "delator_kraft_heinz": "DESCARTADO, no confirmado. El patrón de KHC es margen SUBIENDO con volumen CAYENDO. En NVDA el margen bruto CAYÓ de 75,0% (FY2025) a 71,1% (FY2026) mientras los ingresos subían 65% y las existencias 112%. Y en la ventana larga el margen subió de 56,9% (FY2023) a 71,1% con los ingresos multiplicados por 8,0x y las existencias por 4,1x: el volumen físico subió inequívocamente. No hay cosecha del foso. Pero refutar el delator NO es medir la elasticidad.",
+    "cifra": "Ninguna magnitud física publicada en FY2017-FY2026. Margen bruto FY2026 71,1% vs 75,0% FY2025 (-392 pb) con ingresos +65,5%: el margen bajó mientras el negocio crecía, lo contrario del delator KHC.",
+    "cita": "10-K FY2026, Segment Information — Schedule of Revenue by Market: 'Data Center 193,737 / Gaming 16,042 / Professional Visualization 3,191 / Automotive 2,349 / OEM and Other 619'. Única mención de precio, en Factores de Riesgo: 'We have had to reduce average selling prices, including due to our channel pricing programs' — sin cifra."
+  },
+
+  "G4_RECESION": {
+    "veredicto": "SI",
+    "contraccion_severa_acreditada": "Ingresos trimestrales de NVDA de $1.202,7M (T4 FY2008, ene-2008) a $481,1M (T4 FY2009, ene-2009): -60,0% pico a valle. Cuatro trimestres consecutivos de pérdidas (T4 FY2009 -$147,7M, T1 FY2010 -$201,3M, T2 FY2010 -$105,3M). Dos ejercicios consecutivos de pérdida operativa. Supera holgadamente el listón del -30%.",
+    "aumento_de_capacidad_competitiva": "I+D en DÓLARES ABSOLUTOS: $691,6M (FY2008) -> $855,9M (FY2009, +23,8%) -> $908,9M (FY2010, +6,2%) = +31,4% acumulado, mientras los ingresos caían -18,8% ($4.097,9M -> $3.326,4M). I+D sobre ingresos: 16,9% -> 25,0% -> 27,3%. Es el precedente ASML-2009 y además MEJOR: ASML sostuvo I+D, NVIDIA la SUBIÓ un tercio en dólares. Ese gasto financió Fermi, Tesla y CUDA — el activo exacto que produce hoy $193.737M de ingresos de Data Center.",
+    "dos_rivales_nombrados_reduciendo": [
+      "AMD (nombrado como competidor en el propio 10-K de NVIDIA): I+D $1.848M (2008) -> $1.721M (2009) -> $1.405M (2010) = -24,0%. HECHO, 10-K de AMD vía XBRL, CIK 0000002488.",
+      "Intel (nombrado como competidor en el propio 10-K de NVIDIA): I+D $5.722M (2008) -> $5.653M (2009) = -1,2%; capex $5.197M (2008) -> $4.515M (2009) = -13,1%. HECHO, 10-K de Intel vía XBRL, CIK 0000050863. Refuerzo no-filing (INFERENCIA): Intel canceló Larrabee, su GPU discreta, en diciembre de 2009, abandonando el campo durante una década."
+    ],
+    "CICATRIZ_NOMBRADA": {
+      "linea_1": "Margen bruto: 45,6% (FY2008) -> 34,3% (FY2009) -> 35,4% (FY2010). Deterioro de 1.130 puntos básicos.",
+      "linea_2": "Resultado de explotación: +$836,3M (FY2008) -> -$70,7M (FY2009) -> -$98,9M (FY2010). Vuelco de -$935,2M y margen operativo de +20,4% a -2,9%.",
+      "linea_3_la_mas_especifica": "Cargo neto de garantía contra COSTE DE VENTAS por el 'weak die/packaging material set' de MCP y GPU de portátil: $189,3M en FY2009 más $95,8M netos en FY2010 = $285,1M acumulados. Es la línea concreta del P&L que se deterioró para pagar el sostenimiento del I+D.",
+      "linea_4": "Cargos de reestructuración de $26,9M en FY2009."
+    },
+    "refuerzo_episodio_FY2023": "Repetición del patrón en el ciclo cripto/gaming: I+D $5.268M -> $7.339M (+39,3%) con ingresos planos ($26.914M -> $26.974M), mientras el resultado de explotación caía -57,9% ($10.041M -> $4.224M) y el margen bruto 800 pb (64,9% -> 56,9%). Cicatriz adicional: coste de $1.353M por la terminación de la adquisición de Arm. En ese ciclo Intel recortó I+D -8,5% (2023 vs 2022), pero AMD la SUBIÓ +17,3%: sólo UN rival reduciendo, por eso el episodio de 2008-09 es el que otorga la puerta y éste sólo la refuerza.",
+    "cifra": "-60,0% de ingresos trimestrales pico a valle (T4 FY2008 $1.202,7M -> T4 FY2009 $481,1M) con I+D subiendo +31,4% ($691,6M -> $908,9M) y de 16,9% a 27,3% de las ventas. Cicatriz: margen bruto -1.130 pb y $285,1M de cargos de garantía contra coste de ventas.",
+    "cita": "10-K FY2010 (acc. 0001045810-10-000006), Selected Financial Data: 'Revenue $3,326,445 / $3,424,859 / $4,097,860 ... Net income (loss) $(67,987) / $(30,041) / $797,645'; cuenta de resultados: 'Research and development 908,851 / 855,879 / 691,637'; y nota: 'we recorded a net warranty charge of $95.8 million against cost of revenue to cover ... a weak die/packaging material set ... During fiscal year 2009, we recorded a net warranty charge of $189.3 million'."
+  },
+
+  "G2_PISTA": {
+    "veredicto": "SI",
+    "especie_resultante": "ULTRA-R",
+    "formula_reinversion": "capex + I+D + adquisiciones + variación de circulante. MARCA EXCLUIDA por hueco declarado: NVIDIA no desglosa gasto de marca/marketing; SG&A total FY2026 $4.579M (2,1% de ventas). Incluirla sólo mejoraría el resultado.",
+    "serie_reinversion_USDm": {
+      "FY2022": {"capex": 976, "ID": 5268, "adquisiciones": 263, "circulante": 3363, "total": 9870, "pct_ventas": 36.7, "pct_NOPAT": 100},
+      "FY2023": {"capex": 1833, "ID": 7339, "adquisiciones": 49, "circulante": 2207, "total": 11428, "pct_ventas": 42.4, "pct_NOPAT": 259},
+      "FY2024": {"capex": 1069, "ID": 8675, "adquisiciones": 83, "circulante": 3722, "total": 13549, "pct_ventas": 22.2, "pct_NOPAT": 47},
+      "FY2025": {"capex": 3236, "ID": 12914, "adquisiciones": 1007, "circulante": 9383, "total": 26540, "pct_ventas": 20.3, "pct_NOPAT": 38},
+      "FY2026": {"capex": 6042, "ID": 18497, "adquisiciones": 14535, "circulante": 15949, "total": 55023, "pct_ventas": 25.5, "pct_NOPAT": 50}
+    },
+    "AVISO_ERROR_PREVIO_CORREGIDO": "Se reportan POR SEPARADO y sin confundirlas: la tasa de reinversión sobre VENTAS (umbral de la puerta, 25%) y la tasa sobre NOPAT (la que entra en la identidad g = tasa x ROIIC). Son 25,24% y 51,83% respectivamente. NO son intercambiables.",
+    "reinversion_5y_pct_ventas": 25.24,
+    "reinversion_5y_pct_NOPAT": 51.83,
+    "reinversion_5y_total_USDm": 116410,
+    "ventas_5y_USDm": 461245,
+    "NOPAT_5y_USDm": 224598,
+    "ROIIC": {
+      "delta_NOPAT_USDm": 106244,
+      "detalle": "NOPAT FY2026 $110.699M menos NOPAT FY2021 $4.455M; denominador = suma de la reinversión de los cinco ejercicios FY2022-FY2026. Numerador y denominador ambos de flujos.",
+      "bruto_pct": 91.3,
+      "descomposicion": {"volumen_a_margen_constante_USDm": 53236, "expansion_de_margen_USDm": 53008},
+      "ex_margen_pct": 45.7,
+      "lectura": "Incluso quitando TODA la expansión de margen — es decir, midiendo sólo productividad del capital — el ROIIC es 45,7%, tres veces el umbral del 15%."
+    },
+    "identidad_g": "51,83% x 91,3% = 47,3% de crecimiento implícito. El NOPAT real creció al 90,1% anual compuesto en cinco años; la diferencia la aportó la expansión de margen, que no es reinvertible.",
+    "FRAGILIDAD_DECLARADA": "El 25,24% supera el umbral del 25% por 24 puntos básicos, y sólo gracias a UNA transacción: los $13.000M pagados por Groq en FY2026. Sin Groq, FY2026 baja a 19,5% y la ventana de cinco años a 22,42% — G2 sería NO y la especie ULTRA-C. Año a año sólo 3 de 5 ejercicios superan el 25% (FY2024 22,2%, FY2025 20,3%). Si se usara la contraprestación económica total de Groq ($17.400M incluidos $4.000M aplazados) en vez de la caja desembolsada, la ventana subiría a 26,2%.",
+    "cifra": "Reinversión 5 años (FY2022-FY2026) $116.410M = 25,24% de VENTAS y 51,83% del NOPAT. ROIIC bruto 91,3%; ROIIC EX-MARGEN 45,7%. Pasa el umbral del 25% de ventas por 24 pb y sólo con Groq incluido (sin Groq: 22,42%).",
+    "cita": "10-K FY2026, Consolidated Statements of Cash Flows: 'Purchases related to property and equipment and intangible assets (6,042) / Groq, Inc. (13,000) / Acquisitions, net of cash acquired (1,535)'; Statements of Income: 'Research and development 18,497'."
+  },
+
+  "G6_MECANISMO": {
+    "veredicto": "SI",
+    "poder_de_helmer": "COSTES DE CAMBIO (switching costs) sobre CUDA, apalancados por ECONOMÍAS DE ESCALA en I+D. No es efecto de red puro: el valor no viene de que los desarrolladores se conecten entre sí, sino de que el capital humano y el código acumulados son específicos de la arquitectura y no portables.",
+    "magnitud_en_su_unidad_propia": {
+      "desarrolladores": "más de 7.500.000 desarrolladores usando CUDA (unidad propia del coste de cambio: personas cuyo código y destreza no son transferibles)",
+      "aplicaciones": "6.000 aplicaciones soportadas",
+      "ID_acumulada": "más de $76.700M invertidos en I+D desde la fundación",
+      "escala_relativa": "I+D anual $18.497M (FY2026) = 2,29x la de AMD ($8.091M, 2025) y 1,34x la de Intel ($13.774M, 2025), amortizada sobre una base de ingresos ~6x la de AMD. I+D sobre ventas 8,6% frente a ~24% en AMD: la misma innovación cuesta menos por dólar vendido.",
+      "migracion_del_foso": "El foso pasó del chip al bastidor: ingresos de Networking $8.575M (FY2024) -> $12.990M (FY2025) -> $31.376M (FY2026). Sustituir a NVIDIA ya no es sustituir un chip sino un dominio NVLink completo."
+    },
+    "caducidad_estimada": ">10 años. CUDA lleva 20 años acumulando (introducido en 2006 según el propio 10-K); la cadencia anual de arquitectura (Blackwell -> Blackwell Ultra -> Rubin) obliga al retador a acertar un blanco móvil; y el silicio propietario de los hiperescaladores (TPU desde 2016, Trainium, Maia, MTIA) ha coexistido con un crecimiento de Data Center de $15.000M a $193.737M, es decir, no ha frenado la cuota histórica.",
+    "BUSQUEDA_DE_ARRANQUE_DEL_RELOJ_24_MESES": {
+      "hallazgo_1_el_mas_grave": "Diciembre de 2025: NVIDIA pagó $17.400M ($13.000M al cierre más $4.000M aplazados) por una licencia NO EXCLUSIVA de la tecnología LPU de Groq y por contratar a parte de su plantilla, registrando $14.400M de fondo de comercio 'primarily attributable to the workforce'. Sin contratos de clientes, sin productos existentes, sin participación en capital. Es el titular comprando un seguro contra el silicio especializado en inferencia — la evidencia más fuerte de que NVIDIA misma no considera que el candado GPU+CUDA esté a salvo en inferencia.",
+      "hallazgo_2": "FY2026: $17.502M invertidos en equity no cotizado (frente a $1.486M en FY2025), saldo $22.251M, con $8.918M de plusvalías reconocidas en el resultado. Financiar a los propios clientes es sostén de demanda, no foso, y contamina el 6,3% del beneficio antes de impuestos.",
+      "hallazgo_3": "Concentración: un cliente directo = 22% de los ingresos y otro = 14% (36% entre dos). El propio 10-K nombra como competidores a 'Alibaba Group, Alphabet Inc., Amazon, Baidu, Huawei, and Microsoft' por su silicio interno: son cliente y rival a la vez.",
+      "hallazgo_4": "Controles de exportación: el 10-K reconoce 'excess inventory and purchase obligations as we recently experienced with the H20' y que los controles 'may increase investment in foreign competitors'. Pérdida estructural de un mercado.",
+      "juicio": "Los cuatro hallazgos son reales y ninguno es descartable. Aun así no bajan la caducidad por debajo de 10 años: 7,5 millones de desarrolladores y un foso ya migrado a escala de bastidor no se desplazan en menos de una década, ni siquiera con un ASIC de inferencia superior. La pierna frágil de esta puerta es la caducidad, no el mecanismo."
+    },
+    "cita": "10-K FY2026, Item 1 Business: 'There are over 7.5 million developers worldwide using CUDA and our other software tools'; 'With support for 6,000 applications'; 'We have invested over $76.7 billion in research and development since our inception'. Nota Groq: 'we entered into a non-exclusive license agreement with Groq, Inc. ... We recorded $14.4 billion of goodwill and a $2.5 billion developed technology intangible asset ... Total consideration consists of $13.0 billion paid at closing and $4 billion ... payable within one year'."
+  },
+
+  "RESULTADO": {
+    "puertas_pasadas": 6,
+    "detalle_recuento": "Cuentan G5, G1, G3, G4 y G6. G5 SI, G1 SI, G3 NO_MEDIBLE (nunca cuenta como fallo), G4 SI, G6 SI = seis de seis sin ningún NO. G2 SI decide la especie: R.",
+    "etiqueta": "ULTRA-R",
+    "confianza": "MEDIA",
+    "puerta_mas_dudosa": "G5",
+    "distancia_a_la_etiqueta_vecina": "A UNA decisión de MUY_BUENA (si se aplica el umbral de Sloan del 5% de forma literal, G5 cae y quedan cinco de seis) y a UNA transacción de ULTRA-C (si se excluye Groq de la reinversión, G2 cae a 22,42% de ventas). NVDA está genuinamente en la frontera de ambas fronteras, y eso es información, no una evasiva."
+  }
+}

@@ -1,0 +1,48 @@
+{
+ "ticker": "GRMN",
+ "name": "Garmin Ltd.",
+ "currency": "USD",
+ "price_verified": 236.34,
+ "price_source": "StockAnalysis.com (close 22-jun-2026), cross-checked vs Yahoo/Investing.com (~$234-236)",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.19286,
+ "implied_mcap_b_usd": 45.58,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 9.3,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF = FY2025 reported FCF $1,363M − 100% SBC $166M = $1,197M (~$6.21/sh). Note: reported FCF understates earning power — FY2026 pro forma net income ~$1.8B (EPS $9.35) well exceeds FCF due to capex/WC timing; DCF on owner-FCF is therefore structurally conservative for this name.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 132.87,
+   "prob": 0.38,
+   "note": "Phase1 (yr1-5) owner-FCF CAGR 5%, Phase2 (yr6-10) 3%, g_term 3.0%, WACC 9.3%. Reasonable-pessimistic: hardware demand normalizes, growth stalls toward GDP, margins flat. Includes +$4.3B net cash."
+  },
+  "base": {
+   "iv_per_share": 156.4,
+   "prob": 0.47,
+   "note": "Phase1 8%, Phase2 5%, g_term 3.0%. Aligns with FY26 guide (+9%) decelerating to mid-single digits; steady share gains in wearables/fitness/auto, stable margins."
+  },
+  "optimista": {
+   "iv_per_share": 184.83,
+   "prob": 0.15,
+   "note": "Phase1 11%, Phase2 7%, g_term 3.0%. Continued category expansion (premium watches, aviation/marine, auto OEM), margin expansion, FCF conversion improves toward net income."
+  }
+ },
+ "iv_dcf_weighted": 151.72,
+ "multiple_metric": "P/E adelantado (FY2026 pro forma EPS $9.35)",
+ "fwd_multiple_now": 25.28,
+ "fwd_multiple_5y_avg": 22.8,
+ "fair_multiple": 22,
+ "multiple_rationale": "Anclado a la media 5a del P/E adelantado (22.8) con un haircut leve a 22.0 por la deceleracion del crecimiento de +15% (FY25) a la guia +9% (FY26) — deceleracion mayormente ciclica/normalizacion, no deterioro estructural. ROIC ~24%, caja neta $4.3B (~$22/sh, no apalancada) y margenes en expansion justifican un multiplo cercano a su media historica. El P/E actual (25.3x fwd, +11% vs media) refleja una accion algo cara. iv_multiple = 9.35 x 22.0 = $205.7.",
+ "iv_multiple": 205.7,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 184.11,
+ "structural_change": "Sin deterioro estructural. La desaceleracion a +9% guiado es normalizacion ciclica tras un FY25 record (+15%), no perdida de ventaja competitiva. Negocio diversificado (fitness/wearables, outdoor, aviacion, marine, auto OEM), liderazgo en categorias premium, ROIC ~24%, caja neta $4.3B y cero deuda. Q1 2026 fue record (+14% ingresos, op margin 24.6%). Riesgo principal: ciclicidad del hardware de consumo y dependencia de innovacion de producto.",
+ "sanity_notes": "Precio $236.34 y 192.86M acciones re-verificados (StockAnalysis 22-jun; Yahoo/Investing ~$234-236) → mcap $45.58B, coherente con escala conocida (~$45-46B). mcap_sanity_ok=true. reconciled_iv $184 = 78% del precio → dentro del rango de magnitud 30-300%, sin error de unidades/moneda. Brecha DCF-vs-multiplo: el DCF sobre owner-FCF ($152) queda muy por debajo del ancla de multiplo ($206) porque el FCF reportado FY25 subestima el poder de beneficio (NI pro forma ~$1.8B >> FCF $1.36B por timing capex/working capital) y el DCF infra-credita reinvertir a ROIC 24% + la caja neta. Pesos 0.40 DCF / 0.60 multiplo: compounder estable y probado, caja neta, pero con ciclicidad de hardware que justifica peso DCF no trivial. CONCLUSION: a $236 la accion cotiza ~28% por encima de la IV reconciliada ($184) — calidad alta pero precio exigente; sin margen de seguridad a precio actual."
+}

@@ -1,0 +1,94 @@
+{
+ "ticker": "EQT.ST",
+ "name": "EQT AB",
+ "asof_date": "2026-06-22",
+ "currency": "SEK",
+ "price": 268.3,
+ "market_cap_usd_b": 33.98,
+ "fwd_pe": 20.64,
+ "fwd_pe_5y_avg": 28,
+ "pe_prem_disc_pct": -26,
+ "peg": null,
+ "last_q": {
+  "period": "Q1 2026 (announcement, operating metrics only — EQT reports full P&L semi-annually)",
+  "revenue": "n/d (no income statement in Q1 announcement)",
+  "rev_yoy_pct": null,
+  "op_margin_pct": null,
+  "eps_gaap": "n/d",
+  "eps_adj": "n/d"
+ },
+ "last_fy": {
+  "period": "FY2025 (year-end report, 22 Jan 2026)",
+  "revenue": "EUR 2,732m total income / EUR 2,283m fee-related revenue",
+  "organic_growth_pct": null,
+  "roic_pct": null,
+  "fcf": "EUR 1,073m net cash flow from fee-related operations",
+  "fcf_margin_pct": 39
+ },
+ "sbc_pct_revenue": null,
+ "sbc_pct_fcf": null,
+ "net_debt_usd_b": 1.68,
+ "nd_ebitda": 0.9,
+ "net_cash": false,
+ "guidance_fy": "EQT does not issue formal numerical FY guidance. Management framing for 2026: Coller Capital acquisition (EUR 30bn FAUM in secondaries) expected to close mid-to-late Q3 2026 and be accretive to fee-related earnings; BPEA IX closed at USD 15.6bn hard cap (~+40% vs predecessor) lifting FAUM; record evergreen/private-wealth net inflows (EUR 1.0bn in Q1); fundraising and exit pace dependent on market conditions. PROYECCION.",
+ "pct_off_52w_high": -29.9,
+ "pct_off_ath": -51.9,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_fy.revenue",
+  "last_fy.fcf",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "guidance_fy",
+  "last_q.period"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "drop_classification"
+ ],
+ "sources": [
+  {
+   "label": "EQT AB Year-end Report 2025 (IR primary) — total income EUR 2,732m, adj EBITDA EUR 1,642m (60% margin), fee-related EBITDA EUR 1,194m (52%), net income EUR 1,322m, EPS EUR 1.122, net debt EUR 1,448m, ND/EBITDA 0.9x, FRE cash flow EUR 1,073m, FAUM EUR 141bn, total AUM EUR 270bn, dividend SEK 5.00",
+   "url": "https://eqtgroup.com/news/eqt-ab-publ-year-end-report-2025-2026-01-22",
+   "date": "2026-01-22"
+  },
+  {
+   "label": "EQT AB Q1 Announcement 2026 (IR primary) — FAUM EUR 142bn, total AUM EUR 269bn, gross inflows EUR 2.6bn, BPEA IX USD 15.6bn close, Coller Capital acquisition (EUR 30bn FAUM), record evergreen net inflows EUR 1.0bn, 1,874 FTEs",
+   "url": "https://www.prnewswire.com/news-releases/eqt-ab-publ-q1-announcement-2026-302749826.html",
+   "date": "2026-04-16"
+  },
+  {
+   "label": "StockAnalysis.com — price 268.30 SEK, market cap 320.78B SEK, fwd P/E 20.64, TTM P/E 41.30, 52w high 383.00 / low 262.10, div 5.00 SEK",
+   "url": "https://stockanalysis.com/quote/sto/EQT/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "GuruFocus / aggregator — EQT AB fwd P/E ~21.28 (Feb 2026)",
+   "url": "https://www.gurufocus.com/term/forward-pe-ratio/OSTO:EQT",
+   "date": "2026-02-21"
+  },
+  {
+   "label": "ECB / Wise FX — EUR/SEK ~10.99, USD/SEK ~9.44 (Jun 2026)",
+   "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-sek.en.html",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Aggregator — EQT AB all-time high 557.8 SEK (19 Nov 2021)",
+   "url": "https://www.investing.com/equities/eqt-ab-historical-data",
+   "date": "2021-11-19"
+  }
+ ],
+ "notes": "EQT AB reporta P&L completo de forma SEMESTRAL (year-end y half-year); los Q1/Q3 son solo anuncios operativos sin estado de resultados, por eso last_q queda con revenue/EPS = n/d. last_fy = FY2025 (informe anual 22-ene-2026): cifras VERIFICADAS de IR en EUR. Reporta en EUR; precio y dividendo en SEK. market_cap_usd_b = 320.78B SEK / 9.44 USDSEK ≈ 33.98. net_debt_usd_b = EUR 1,448m * ~1.16 EURUSD ≈ 1.68. fcf_margin_pct (39%) = FRE cash flow 1,073 / total income 2,732 (ESTIMADO/calculado). fwd_pe_5y_avg (~28) y pe_prem_disc_pct (-26%) son ESTIMADOS aproximados: EQT cotizo historicamente a multiplos muy altos (30-50x P/E TTM post-IPO Sep-2019); el fwd P/E actual ~20.6x esta claramente por debajo de su rango historico — los agregadores no dan una media fwd 5a limpia. SBC: EQT AB no divulga una linea GAAP de share-based compensation en el resumen anual; la alineacion de empleados corre principalmente via carried interest y co-inversion mas que via RSUs dilutivas masivas, por eso sbc_pct_revenue y sbc_pct_fcf = null (no estimable de forma fiable; CRITICO para R9 — requeriria el informe anual auditado completo / notas). peg = null (sin estimacion de crecimiento de BPA fiable de fuente primaria). Clasificacion del desplome: fear_rotation — caida ~30% desde max 52s y ~52% desde ATH impulsada por la re-calificacion sectorial de gestores de activos alternativos (entorno lento de exits PE, miedos de fundraising, sensibilidad a tipos, rotacion fuera de compounders de multiplo alto), no por deterioro del franquicia: FAUM estable EUR 142bn, BPEA IX cerro en hard cap (+40% vs antecesor), inflows record en evergreens, adquisicion de Coller (+EUR 30bn FAUM), margen EBITDA 60%, ND/EBITDA 0.9x. Hay algo de presion ciclica real en realizaciones (componente mixto leve) pero el peso dominante es miedo/rotacion."
+}

@@ -1,0 +1,59 @@
+{
+ "ticker": "6273.T",
+ "name": "SMC Corporation",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Pneumatic-automation hardware: high incremental margins on volume (op margin 22.6% even in a soft year) but it's a physical-component model, not a software/network business with truly increasing returns to scale, so no amplification to 2.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Factory automation/robotics is a durable secular tailwind (labor scarcity, reshoring, semiconductor capex, EV/automation), and FY27 guidance of +18.7% revenue toward JPY 1T reflects that structural demand."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Global #1 in pneumatic control components with ~35-40% world share, multiples ahead of the #2 (Festo/SMC's nearest peers), a dominant position monstrously hard to replicate given its catalog breadth and distribution."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat from switching costs (components designed-in to customers' production lines), unrivaled SKU catalog/availability and brand, durable for decades but not fully irreplicable like a network monopoly, so 1.5 not 2.0."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Growth is essentially all organic — no debt-funded M&A roll-up, share count actually fell via buybacks; +6.4% revenue this year is genuine demand, not acquired."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Highly diversified across geographies (Japan, China, Americas, Europe, Asia) and tens of thousands of end-customers across many end-markets, no single customer concentration risk."
+  },
+  "R7": {
+   "score": 1,
+   "just": "FCF/NI healthy and net-cash funded, but ROIC ~10% is only modestly above WACC and capex is heavy (CapEx JPY 152.7B > op profit, FCF margin only 9.7% in a peak-investment year), capping this at base."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Fortress balance sheet: net cash ~JPY 707B (~-USD 4.4B), ND/EBITDA ~-3x, equity ratio 91.5% — essentially debt-free, well above the bar but not amplifiable."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "Japanese-GAAP clean accounting, SBC ~0% of FCF (only a tiny Board Benefit Trust), share count FELL via buyback/cancellation — superior, no dilution; ordinary profit boosted by FX is the only minor noise."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Disciplined Japanese family-influenced management with strong capital allocation: opportunistic buybacks (JPY 30B treasury purchases + cancellation), rising dividends, no value-destroying M&A — superior governance with skin in the game."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R3 es el ancla monstruosa: lider global #1 con ~35-40% de cuota, anos-luz por delante del #2. Se refuerza con R1 (escala que mejora economia unitaria) y R4 (componentes especificados con altos costes de cambio + catalogo de ~700k SKU). El flywheel — dominio -> poder de precios/escala -> catalogo mas profundo -> mayor coste de cambio — justifica amplification=true. La naturaleza de hardware (no red pura) mantiene R1 y R4 por debajo del techo 2.0.",
+ "moat_type": "switching_costs",
+ "moat_one_line": "Designed-in pneumatic components with an unrivaled catalog and global distribution make SMC the default specified part, creating high switching costs reinforced by ~35-40% global share.",
+ "thesis_3lines": [
+  "Calidad: lider mundial #1 indiscutible en automatizacion neumatica (~35-40% cuota global), margen operativo 22.6%, balance fortaleza con caja neta ~JPY 707B (equity ratio 91.5%) y contabilidad limpia sin dilucion (SBC ~0%, recompras que reducen el numero de acciones).",
+  "Motor de crecimiento: viento secular de automatizacion de fabricas, reshoring y capex de semiconductores; el guidance FY27 apunta a JPY 1T de ventas (+18.7%) tras un ano de transicion con margen comprimido (22.6% vs 24.0%).",
+  "Valoracion/retorno: fwd P/E 25.84 (prima ~+15% sobre media 5a ~22.5x), PEG ~3 y ROIC solo ~10% — compounder de altisima calidad pero cotizando cerca de maximos de ciclo (+44% LTM), no es un punto de entrada deprimido."
+ ],
+ "bear_case_strongest": "SMC es un fabricante de componentes ciclico ligado al capex industrial/semiconductor con ROIC de solo ~10% y capex que ya supera el beneficio operativo, cotizando a prima (25.8x fwd P/E, PEG ~3) cerca de maximos de ciclo con margen operativo en contraccion (22.6% vs 24.0%) y crecimiento de beneficio neto guiado plano (+1.6%): si la recuperacion de semiconductores que desconto el rerate del +44% se estanca, la valoracion se comprime sin colchon de descuento.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Total re-score = 14.0 raw, capped at techo 13.5. Breakdown: R1 1.0, R2 1.5, R3 2.0, R4 1.5, R5 1.5, R6 1.5, R7 1.0, R8 1.5, R9 1.5, R10 1.5 = 14.5 -> capped 13.5. ROIC ~10% (estimated) is the genuine soft spot dragging R7 to base despite the fortress balance sheet; this is an inherently capital-intensive component maker, so high ROIC is not expected, but ~10% is only modestly above WACC. Drop classification = not_depressed: stock UP ~44% LTM, only ~14.5% off 52w high and ~20% off ATH — a high-quality compounder near cycle highs at a modest premium, not a fear-driven discount. SBC verified ~0% of FCF -> R9 rewarded, no hard-rule penalty. FX-boosted ordinary profit (+12.2%) vs flat operating profit (+0.2%) is the main quality caveat to flag. FY note: most recent reported year is FY ended Mar 2026; FY27 guidance assumes USD/JPY 155."
+}

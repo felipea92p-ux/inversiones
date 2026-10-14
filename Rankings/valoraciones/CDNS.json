@@ -1,0 +1,271 @@
+{
+  "meta": {
+    "ticker": "CDNS",
+    "empresa": "Cadence Design Systems, Inc.",
+    "cik": "0000813672",
+    "bolsa": "NASDAQ Global Select Market",
+    "moneda_funcional": "USD",
+    "moneda_reporte": "USD",
+    "adr_o_ads": "NO — accion ordinaria directa, $0,01 valor par. No hay ratio ADS que ajustar.",
+    "fecha_valoracion": "2026-07-27",
+    "rol_del_agente": "VALORADOR. La calidad esta congelada y no se toca.",
+    "etiqueta_congelada": "MUY_BUENA (4 puertas pasadas)",
+    "mos_exigido_pct": 30,
+    "motivo_mos": "No esta en cartera -> umbral de ABRIR para su banda (30%). Si estuviera en cartera seria CARGAR y el umbral subiria a 40%.",
+    "advertencia_contradiccion_madre": "El precio NO reclasifica la etiqueta. Nada de lo que sigue eleva a CDNS a ULTRA."
+  },
+
+  "mecanismo_congelado": {
+    "texto": "Cadence cobra el peaje de unos flujos de diseno certificados con las fundiciones mediante licencias de dos a tres anos que atan a una base instalada de ingenieros ya entrenados, y devuelve el 33% de sus ventas a I+D para renovar esa certificacion en cada nodo — de ahi un ROIC que nunca baja del 22% (79% ex-goodwill) y un devengo negativo seis de siete anios.",
+    "eslabon_mas_debil": "En la unica recesion severa que ha atravesado recorto la I+D un 22,5% mientras Synopsys la subia un 6,4% y le arrebataba el liderazgo de gasto que ya no ha recuperado. El negocio de hoy —otro modelo, 2.074,5 M recien pagados por Hexagon D&E y un ROIIC de flujos del 7,5%— jamas ha vuelto a ser puesto a prueba.",
+    "especie_g2": {
+      "reinversion_pct_ventas": 47.9,
+      "roiic_bruto_pct": 7.5,
+      "roiic_ex_margen_pct": 5.6,
+      "nota": "El ROIIC ex-margen (5,6%) esta POR DEBAJO del WACC de mercado (9,8%). Este es el hecho central de toda la valoracion: el crecimiento marginal de Cadence, medido asi, destruye valor en lugar de crearlo."
+    },
+    "verificacion_i_d_2025": "HECHO — 10-K FY2025: I+D 1.768,772 M sobre ingresos 5.296,759 M = 33,4% de ventas. Confirma el mecanismo."
+  },
+
+  "precio_y_capital": {
+    "precio_usd": 350.45,
+    "etiqueta": "HECHO",
+    "fuente": "IBKR market data snapshot en vivo, ultimo negociado, 27-jul-2026. Cierre previo 338,61 USD; +11,84 USD (+3,50%) intradia tras publicar el Q2 esa misma manana.",
+    "rango_52s_usd": {"maximo": 416.69, "minimo": 262.75, "fuente": "IBKR misc_statistics 27-jul-2026"},
+    "acciones_diluidas_mm": 276.163,
+    "acciones_fuente": "HECHO — press release Q2-2026 (8-K 27-jul-2026, Ex-99.01): weighted average common shares outstanding - diluted, tres meses cerrados el 30-jun-2026 = 276.163 miles. Basicas 273.955 miles. Cruce: portada 10-Q Q1-2026 declara 275.816.000 acciones en circulacion al 31-mar-2026 (dei:EntityCommonStockSharesOutstanding); stockanalysis.com muestra 275,82 M (coincide).",
+    "capitalizacion_usd_mm": 96781,
+    "deuda_bruta_usd_mm": 2500.0,
+    "deuda_detalle": "HECHO — 10-K FY2025, Nota 5 y MD&A: emision de sept-2024 de 2.500 M en senior notes: 500,0 M al 4,200% con vencimiento 2027; 1.000 M al 4,300% con vencimiento 2029; 1.000 M al 4,700% con vencimiento 2034. Valor en libros al 30-jun-2026 = 2.482,200 M (neto de descuento y costes de emision). Linea revolving: 600 M dispuestos y 600 M devueltos en el 1S-2026, saldo cero al cierre.",
+    "caja_usd_mm": 1440.443,
+    "caja_fuente": "HECHO — balance condensado al 30-jun-2026 (8-K 27-jul-2026). Cayo desde 3.001,317 M al 31-dic-2025 por los 2.100,292 M pagados en combinaciones de negocios (Hexagon D&E) y 400,006 M de recompras.",
+    "deuda_neta_usd_mm": 1060,
+    "ev_usd_mm": 97841
+  },
+
+  "candado_b_wacc": {
+    "principio": "El WACC sale del mercado. Nunca de un tier de calidad.",
+    "beta": {
+      "valor": 1.145,
+      "etiqueta": "HECHO (medicion propia)",
+      "metodo": "Regresion OLS de 60 retornos mensuales de CDNS contra SPY, ventana ago-2021 a jul-2026, precios de cierre mensuales de IBKR get_price_history (contract_id 5552 y 756733), descargados el 27-jul-2026.",
+      "error_estandar": 0.201,
+      "ic95": [0.75, 1.54],
+      "r2": 0.36,
+      "volatilidad_anualizada_cdns_pct": 30.6,
+      "volatilidad_anualizada_spy_pct": 16.0,
+      "beta_blume_ajustada": 1.097,
+      "cruce_independiente": "stockanalysis.com, ficha CDNS consultada el 27-jul-2026: Beta (5Y) = 1,15. Coincide con mi medicion hasta el segundo decimal.",
+      "nota_de_honestidad": "R2 de 0,36 y un IC95 de [0,75-1,54] significan que la beta es un instrumento romo. Por eso el WACC se reporta con banda, no con un punto."
+    },
+    "tasa_libre_riesgo": {
+      "valor_pct": 4.64,
+      "instrumento": "Bono del Tesoro de EEUU a 10 anos (moneda funcional USD)",
+      "fecha": "2026-07-27",
+      "etiqueta": "INFERENCIA (dato de mercado secundario, no filing)",
+      "fuente": "tradingeconomics.com / cotizacion del US10Y al 27-jul-2026, recuperada por busqueda web. Contexto del mes: 4,55% el 17-jul-2026 y 4,56% el 10-jul-2026 (Advisor Perspectives, Treasury Yields Snapshot). Rango de julio 2026 aprox. 4,55%-4,70%."
+    },
+    "prima_riesgo_mercado": {
+      "valor_pct": 4.17,
+      "concepto": "Prima de mercado maduro (implied ERP de Damodaran neta del diferencial de impago Aa1)",
+      "fecha_tabla": "1-jul-2026 (actualizacion de julio 2026)",
+      "etiqueta": "INFERENCIA",
+      "detalle": "Con el S&P 500 en 7.499,36 el 1-jul-2026, el implied ERP de EEUU es 4,42%-4,45% y, restado el diferencial de impago de 0,22% del rating Aa1, la prima de mercado maduro queda en 4,17%-4,20%. Fuente: workbook de primas por pais de julio 2026 de A. Damodaran (pages.stern.nyu.edu/~adamodar) via recopilaciones publicas."
+    },
+    "prima_pais": {
+      "valor_pct": 0.55,
+      "principio_aplicado": "Riesgo del ACTIVO, no del domicilio fiscal. Cadence esta domiciliada en Delaware pero solo el 43% de sus ingresos son de America.",
+      "mezcla_de_ingresos_q2_2026": {"Americas": 43, "China": 15, "Otros_Asia": 20, "EMEA": 15, "Japon": 7, "fuente": "HECHO — tabla Revenue Mix by Geography, press release Q2-2026, 8-K 27-jul-2026"},
+      "primas_pais_usadas": {"EEUU": 0.28, "China": 1.01, "Otros_Asia_ponderado": 0.90, "EMEA_ponderado": 0.40, "Japon": 0.60},
+      "calculo": "0,43x0,28 + 0,15x1,01 + 0,20x0,90 + 0,15x0,40 + 0,07x0,60 = 0,554% -> 0,55%",
+      "fuente_primas": "Damodaran, tabla de primas por pais de julio 2026: ERP total EEUU 4,45%, China 5,18%, India 7,31%, sobre prima de mercado maduro 4,17%.",
+      "etiqueta": "INFERENCIA"
+    },
+    "coste_deuda": {
+      "valor_pct": 4.70,
+      "etiqueta": "HECHO (derivado del filing)",
+      "derivacion": "10-K FY2025, nota de gasto financiero: interes contractual en efectivo de senior notes 111,0 M + revolving 1,0 M + amortizacion de descuento y costes de emision 4,3 M + otros 0,2 M = gasto financiero total 116,5 M. Sobre 2.481 M de deuda media del ejercicio (las notes de 2.500 M nominales estuvieron vivas los 12 meses) = 4,70% antes de impuestos. Solo el componente contractual da 4,48%.",
+      "coste_marginal_hoy": "INFERENCIA — con el Tesoro a 10 anos en 4,64% y un diferencial investment-grade de ~0,6-0,8 pp, el coste marginal de nueva deuda estaria en 5,2%-5,4%. Uso el 4,70% del filing por mandato, y senalo que subestima ligeramente el coste marginal.",
+      "tasa_impositiva_usada_pct": 26.0,
+      "tasa_impositiva_fuente": "HECHO — tasa efectiva 27,1% en FY2025 (10-K: provision 413,155 M sobre 1.522,043 M de beneficio antes de impuestos) y 25,1% en el 1S-2026 (235,601 / 938,337). Uso 26,0%."
+    },
+    "estructura_de_capital_a_mercado": {
+      "equity_pct": 97.48,
+      "deuda_pct": 2.52,
+      "nota": "La deuda es el 2,5% del capital a valor de mercado. El WACC es esencialmente el coste de los recursos propios; el escudo fiscal apenas mueve 9 puntos basicos."
+    },
+    "coste_recursos_propios_pct": 9.96,
+    "wacc_central_pct": 9.80,
+    "wacc_rango": {
+      "banda_de_trabajo": "9,0% - 10,6%",
+      "banda_ic95_beta": "8,2% - 11,4%",
+      "detalle": [
+        {"beta": 0.75, "wacc_pct": 8.20},
+        {"beta": 0.95, "wacc_pct": 9.01},
+        {"beta": 1.145, "wacc_pct": 9.80},
+        {"beta": 1.35, "wacc_pct": 10.63},
+        {"beta": 1.54, "wacc_pct": 11.41}
+      ]
+    }
+  },
+
+  "owner_earnings": {
+    "principio": "Dos versiones obligatorias, cada una sobre dos bases. El exceso de capex sobre depreciacion es inversion discrecional y no se resta en la version (a).",
+    "base_auditada": {
+      "ejercicio": "FY2025, cerrado el 31-dic-2025",
+      "filing": "10-K presentado el 19-feb-2026, accession 0000813672-26-000016",
+      "etiqueta": "HECHO",
+      "ingresos_usd_mm": 5296.759,
+      "beneficio_operativo_usd_mm": 1492.042,
+      "beneficio_neto_usd_mm": 1108.888,
+      "flujo_de_caja_operativo_usd_mm": 1728.781,
+      "capex_ppe_usd_mm": 141.871,
+      "depreciacion_ppe_usd_mm": 111.400,
+      "amortizacion_intangibles_usd_mm": 116.428,
+      "d_y_a_total_usd_mm": 227.828,
+      "sbc_usd_mm": 455.175,
+      "gasto_financiero_usd_mm": 116.541,
+      "oe_a_solo_capex_mantenimiento_usd_mm": 1617.4,
+      "oe_a_calculo": "1.728,781 (FCO) - 111,400 (depreciacion de inmovilizado material, us-gaap:Depreciation FY2025) = 1.617,4 M",
+      "oe_b_capex_total_usd_mm": 1586.9,
+      "oe_b_calculo": "1.728,781 (FCO) - 141,871 (capex total) = 1.586,9 M",
+      "oe_b_menos_sbc_usd_mm": 1131.7,
+      "nota_capex": "En Cadence el capex (141,9 M) esta muy cerca de la depreciacion (111,4 M), de modo que las dos versiones apenas se separan un 2%. La reinversion de esta empresa no pasa por el inmovilizado: pasa por I+D (1.768,8 M, gastados en cuenta de resultados) y por adquisiciones. Ese es el motivo de que la version (a) NO la rescate: el capex nunca fue su problema."
+    },
+    "base_en_curso": {
+      "ejercicio": "FY2026, anualizado con 1S publicado + guia de la empresa del 27-jul-2026",
+      "etiqueta": "HECHO para el 1S y para la guia; INFERENCIA para la desagregacion anual",
+      "ingresos_1s_usd_mm": 3058.671,
+      "guia_ingresos_anual_usd_mm": "6.260 - 6.340 (punto medio 6.300; +19% interanual)",
+      "guia_fco_anual_usd_mm": 2000.0,
+      "guia_fuente": "HECHO — press release Q2-2026 del 27-jul-2026: 'raising our 2026 outlook to 19% revenue growth, non-GAAP operating margin to 44.25%, non-GAAP EPS to $8.10, and operating cash flow to $2 billion at the midpoint'. FCO real del 1S-2026 = 990,711 M.",
+      "capex_estimado_usd_mm": 205.0,
+      "capex_derivacion": "INFERENCIA — capex del 1S-2026 = 101,448 M + 6,975 M de intangibles comprados; anualizado ~205 M.",
+      "depreciacion_ppe_estimada_usd_mm": 135.0,
+      "depreciacion_derivacion": "INFERENCIA — D&A del 1S-2026 = 201,611 M (frente a 106,592 M en el 1S-2025; el salto es amortizacion de los intangibles de Hexagon D&E). La guia cifra la amortizacion de intangibles adquiridos en el 5% de ingresos (~315 M anuales), lo que deja ~135 M de depreciacion de inmovilizado material.",
+      "sbc_estimada_usd_mm": 567.0,
+      "sbc_derivacion": "INFERENCIA — la guia cifra la SBC en el 9% de ingresos; 9% x 6.300 = 567 M. SBC real del 1S-2026 = 285,073 M.",
+      "gasto_financiero_estimado_usd_mm": 134.0,
+      "oe_a_solo_capex_mantenimiento_usd_mm": 1865.0,
+      "oe_b_capex_total_usd_mm": 1795.0,
+      "oe_b_menos_sbc_usd_mm": 1228.0
+    },
+    "distancia_entre_bases": {
+      "oe_a_variacion_pct": 15.3,
+      "oe_b_variacion_pct": 13.1,
+      "lectura": "La distancia es informacion, no ruido. Cadence esta en la parte alta de su ciclo: backlog record de 8.100 M, margen operativo GAAP del 28,4% en el Q2 frente al 19,0% de hace un ano, IP +40% interanual y System Design +37%. La base en curso es la mas favorable que Cadence ha ensenado nunca. Valorar sobre ella ya es conceder el escenario bueno; si aun asi no hay margen de seguridad, no lo hay bajo ningun supuesto razonable. Aviso: el Q2-2025 arrastraba un cargo de 128,5 M por 'loss related to contingent liability' (el asunto de exportaciones a China) que infla artificialmente la mejora interanual del margen."
+    },
+    "multiplos_implicitos_hoy": {
+      "ev_sobre_oe_b_auditado": 61.7,
+      "ev_sobre_oe_b_en_curso": 54.5,
+      "ev_sobre_oe_b_en_curso_ex_sbc": 79.7,
+      "per_gaap_2026e": "72,9x sobre el punto medio de la guia GAAP de 4,81 USD/accion",
+      "per_no_gaap_2026e": "43,3x sobre la guia no-GAAP de 8,10 USD/accion",
+      "ev_sobre_ventas_2026e": 15.5
+    }
+  },
+
+  "dcf_inverso": {
+    "motor": "Que crecimiento de owner earnings durante 10 anos, con crecimiento terminal del 3%, justifica exactamente el EV de hoy (97.841 M) al WACC de 9,80%.",
+    "flujo_descontado": "Owner earnings desapalancados = OE + gasto financiero x (1 - 26%). Se descuentan al WACC y se compara con el EV; luego se resta la deuda neta.",
+    "resultados": [
+      {"base": "auditada FY2025, version (b) capex total", "flujo_base_usd_mm": 1673, "g_implicita_10a_pct": 21.18},
+      {"base": "auditada FY2025, version (a) mantenimiento", "flujo_base_usd_mm": 1704, "g_implicita_10a_pct": 20.93},
+      {"base": "en curso FY2026e, version (b) capex total", "flujo_base_usd_mm": 1894, "g_implicita_10a_pct": 19.49},
+      {"base": "en curso FY2026e, version (a) mantenimiento", "flujo_base_usd_mm": 1964, "g_implicita_10a_pct": 18.99},
+      {"base": "en curso FY2026e, (b) restando ademas la SBC", "flujo_base_usd_mm": 1327, "g_implicita_10a_pct": 24.36}
+    ],
+    "tasa_base_del_negocio_para_contrastar": {
+      "cagr_ingresos_2021_2026e_pct": 16.1,
+      "cagr_fco_2021_2026e_pct": 12.7,
+      "cagr_owner_earnings_b_2021_2026e_pct": 11.6,
+      "serie_oe_b_usd_mm": [1035.7, 1118.7, 1246.8, 1118.0, 1586.9, 1795.0],
+      "serie_anos": [2021, 2022, 2023, 2024, 2025, "2026e"],
+      "veredicto_del_contraste": "El precio de hoy exige que los owner earnings crezcan al 19,5%-21,2% anual durante DIEZ anos seguidos. La propia tasa base de Cadence en owner earnings es del 11,6% y la de flujo de caja operativo del 12,7%, incluso incluyendo el ano en curso, que es su mejor ano. El mercado no esta extrapolando la tasa base: esta pidiendo casi el doble de ella, durante una decada entera, justo despues de la mayor adquisicion de su historia y con un ROIIC ex-margen del 5,6%."
+    }
+  },
+
+  "g_defendible": {
+    "valor_pct": 2.7,
+    "derivacion": "Tasa de reinversion (47,9% de ventas) x ROIIC ex-margen (5,6%) = 2,68%. Se usa el ex-margen y no el bruto (7,5%) porque el bruto asume que la expansion de margen se repite indefinidamente, y la expansion de margen no es una fuente de crecimiento renovable.",
+    "etiqueta": "INFERENCIA, derivada de inputs de calidad congelados",
+    "salvedad_declarada": "El 47,9% esta medido sobre VENTAS, mientras que la formula canonica (Damodaran) mide la reinversion sobre NOPAT. Si se recalculase sobre NOPAT el resultado podria diferir de forma material. Este es el numero que mas me gustaria volver a cortar, y lo declaro como hueco abierto. Aun asi, la conclusion no depende del decimal: con un ROIIC ex-margen de 5,6% frente a un WACC de 9,8%, el crecimiento marginal destruye valor sea cual sea la tasa de reinversion, y por tanto ninguna g elevada es 'defendible' en sentido economico.",
+    "valoracion_resultante": [
+      {"base": "auditada (b)", "ev_intrinseco_usd_mm": 24750, "valor_por_accion_usd": 85.78, "banda_25pct": [64, 107], "mos_pct": -308.5},
+      {"base": "auditada (a)", "ev_intrinseco_usd_mm": 25201, "valor_por_accion_usd": 87.42, "banda_25pct": [66, 109], "mos_pct": -300.9},
+      {"base": "en curso (b)", "ev_intrinseco_usd_mm": 28019, "valor_por_accion_usd": 97.62, "banda_25pct": [73, 122], "mos_pct": -259.0},
+      {"base": "en curso (a)", "ev_intrinseco_usd_mm": 29055, "valor_por_accion_usd": 101.37, "banda_25pct": [76, 127], "mos_pct": -245.7}
+    ],
+    "piso_de_resolucion": "Sin medicion propia del ruido, se aplica una banda de mas/menos 25%. El valor intrinseco se reporta como 'del orden de 86 USD (auditado) y 98 USD (en curso)', con bandas de 64-107 y 73-122. Ningun decimal por debajo del dolar es significativo."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 18.0,
+    "m_estrella_definicion": "Multiplo de owner earnings (version b, capex total) que acepto pagar por un negocio de esta especie. Decidido en frio, sin barra de error, porque no es una estimacion sino un compromiso.",
+    "m_estrella_justificacion": "Con un WACC del 9,8% y un crecimiento terminal del 3%, una renta perpetua sin crecimiento real vale 1/(0,098-0,03) = 14,9x. Mi propio DCF con la g defendible da 15,6x. Fijo m* en 18,0x: por encima de mi propio calculo, concediendo deliberadamente un margen por la durabilidad del peaje y por la opcionalidad de la IA agentica. Es el techo, no el objetivo.",
+    "valor_a_m_estrella": {
+      "sobre_oe_b_auditado_usd_por_accion": 99.60,
+      "sobre_oe_b_en_curso_usd_por_accion": 113.16
+    },
+    "p_estrella_usd": 68.34,
+    "p_estrella_definicion": "Precio que da el MoS exigido del 30% sobre mi valor intrinseco central (base en curso, version b, g defendible): 97,62 x 0,70 = 68,34 USD.",
+    "p_estrella_sobre_base_auditada_usd": 60.05,
+    "distancia_al_precio_de_hoy": "El precio de hoy (350,45) esta 5,1 veces por encima de P*. Incluso pagando mi techo m*=18x sobre la base en curso mas favorable (113,16 USD), el precio de hoy sigue estando 3,1 veces por encima."
+  },
+
+  "tir_esperada": {
+    "principio": "Un MoS de -259% no es informacion; una TIR anual si lo es.",
+    "metodo": "Comprando el EV de hoy (97.841 M), owner earnings desapalancados de partida 1.894 M, acumulando el flujo libre al 4% y saliendo al ano 10 a un multiplo de 20x-25x los owner earnings de ese ano.",
+    "escenarios": [
+      {"g_pct": 2.7, "descripcion": "mi g defendible", "tir_salida_20x_pct": -2.54, "tir_salida_25x_pct": -1.06},
+      {"g_pct": 5.0, "descripcion": "menos de la mitad de su tasa base", "tir_salida_20x_pct": -0.69, "tir_salida_25x_pct": 0.87},
+      {"g_pct": 8.0, "descripcion": "dos tercios de su tasa base historica", "tir_salida_20x_pct": 1.76, "tir_salida_25x_pct": 3.42},
+      {"g_pct": 10.0, "descripcion": "algo por debajo de su tasa base", "tir_salida_20x_pct": 3.42, "tir_salida_25x_pct": 5.14},
+      {"g_pct": 12.0, "descripcion": "su tasa base historica de owner earnings, sostenida una decada entera", "tir_salida_20x_pct": 5.09, "tir_salida_25x_pct": 6.87},
+      {"g_pct": 15.0, "descripcion": "por encima de su tasa base, una decada entera", "tir_salida_20x_pct": 7.63, "tir_salida_25x_pct": 9.49}
+    ],
+    "rango_resumen": "-2,5% a +6,9% anual durante 10 anos. Centro plausible (g 8%-12%, salida 20x-25x): +1,8% a +6,9%.",
+    "frase_clave": "Aunque Cadence sostuviera un 12% anual de crecimiento de owner earnings durante diez anos —por encima de su tasa base realizada del 11,6% e incluyendo ya en la base su mejor ano— y aunque saliera dentro de diez anos a 25x owner earnings, el comprador de hoy a 350,45 USD gana un 6,9% anual. Es decir, menos que el 9,8% que le cuesta el capital. Para batir el coste de capital hace falta un 15% anual durante toda la decada Y una salida a 25x."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "No hay trampa de valor porque no hay valor aparente en el que caer: no existe MoS positivo bajo ningun supuesto de este expediente. El detector de trampas busca un descuento grande sobre un motor que se rompe; aqui el descuento es negativo del 259% al 308%. El riesgo de CDNS no es comprar barato algo que se pudre: es pagar caro algo excelente.",
+    "advertencia_separada_sobre_el_motor": "Dicho eso, el motor SI ensena dos grietas que hay que dejar escritas, sin que ninguna cambie la etiqueta congelada ni convierta esto en trampa de valor: (1) el ROIIC ex-margen del 5,6% esta por debajo del WACC del 9,8%, de modo que el crecimiento comprado —incluidos los 2.100,292 M pagados por Hexagon D&E en el 1S-2026— no esta creando valor a esa medida; (2) el fondo de comercio ha pasado de 2.749,143 M a 4.914,788 M y los intangibles adquiridos de 718,223 M a 1.874,455 M en seis meses, lo que traslada una parte creciente del beneficio reportado a la diferencia entre GAAP y no-GAAP (la guia reconoce 9 pp de SBC + 5 pp de amortizacion + 2 pp de costes de integracion entre el margen GAAP del 28,25% y el no-GAAP del 44,25%). Si Felipe quisiera una senal de falsificacion fechada, la mia seria: mirar el ROIIC de flujos incluyendo Hexagon a cierre de FY2027."
+  },
+
+  "sensibilidad_sbc": {
+    "por_que_importa": "La SBC de Cadence es del 8,6% de ventas en FY2025 (455,175 M) y la guia la situa en el 9% en FY2026 (~567 M). El flujo de caja operativo la suma de vuelta como partida no monetaria, de modo que 'FCO menos capex' —el flujo de caja libre convencional que exige el mandato— la ignora. Es un coste economico real: se paga con propiedad de la empresa, y Cadence lo compensa recomprando (400,006 M en el 1S-2026, menos de lo que emite).",
+    "efecto": "Restando la SBC, los owner earnings en curso caen de 1.795 M a 1.228 M (-32%), el EV/OE sube de 54,5x a 79,7x y la g implicita del DCF inverso sube del 19,5% al 24,4% anual durante diez anos.",
+    "tratamiento": "Los campos del esquema siguen el mandato literal (FCO - capex, sin ajuste de SBC) para que CDNS sea comparable con el resto del lote. Esta sensibilidad queda declarada aparte y empeora el veredicto, nunca lo mejora."
+  },
+
+  "huecos_declarados": [
+    "El 47,9% de reinversion de la especie G2 esta medido sobre ventas y no sobre NOPAT, que es la base de la formula canonica g = tasa de reinversion x ROIIC. Heredo el numero congelado y lo aplico literalmente, pero no puedo verificar su base de calculo desde este expediente. Es el input mas fragil de toda la valoracion.",
+    "La depreciacion de inmovilizado material del FY2026 en curso (135 M) es una inferencia mia: parto de los 201,611 M de D&A del 1S-2026 y descuento la amortizacion de intangibles adquiridos que la guia cifra en el 5% de ingresos. Cadence no desglosa depreciacion y amortizacion por separado en el press release trimestral. El 10-K del FY2026 lo resolvera.",
+    "El capex del FY2026 (205 M) esta anualizado desde el 1S sin guia especifica de la empresa; los 108,4 M del 1S incluyen 6,975 M de compra de intangibles.",
+    "La tasa libre de riesgo (4,64%) procede de una cotizacion de mercado recuperada por busqueda web, no de un filing. Es INFERENCIA por definicion. La banda de julio de 2026 (4,55%-4,70%) mueve el WACC menos de 10 puntos basicos, asi que no altera ninguna conclusion.",
+    "Las primas por pais de Otros Asia, EMEA y Japon son ponderaciones estimadas por mi sobre la tabla de Damodaran de julio de 2026, porque el desglose geografico de Cadence agrupa paises. El efecto total de la prima pais sobre el WACC es de 0,54 pp; incluso poniendola a cero el WACC seria 9,26% y las conclusiones no cambiarian.",
+    "No he podido verificar en filing primario el ROIIC bruto del 7,5% ni el ex-margen del 5,6%: vienen congelados del expediente de calidad. Si esos numeros estuvieran mal calculados, la g defendible cambiaria; el DCF inverso, en cambio, NO depende de ellos y sigue exigiendo un 19,5%-21,2% pase lo que pase.",
+    "No he auditado el efecto de la integracion de Hexagon D&E sobre los owner earnings normalizados. Los 2.100,292 M salieron de caja en el 1S-2026 y el negocio adquirido solo aporta parcialmente al ejercicio; la base en curso puede, por tanto, estar subestimando ingresos de 2027 y sobreestimando la conversion en caja de 2026.",
+    "El valor de mercado de la deuda se aproxima por el nominal de 2.500 M. Con las notes emitidas en sept-2024 al 4,2%-4,7% y el Tesoro a 10 anos hoy en 4,64%, cotizaran ligeramente por debajo del par; el error es de decenas de millones sobre un EV de 97.841 M, es decir, irrelevante."
+  ],
+
+  "sintesis": {
+    "veredicto": "NO COMPRAR. El precio no admite discusion: no hay margen de seguridad ni bajo la base auditada ni bajo la base en curso, que es la mejor foto que Cadence ha ensenado nunca.",
+    "una_frase": "Cadence es exactamente el negocio que dice el mecanismo —un peaje certificado, con backlog record de 8.100 M y 19% de crecimiento— y a 350,45 USD el mercado ya ha pagado por diez anos seguidos de un crecimiento de owner earnings del 19,5%-21,2% anual que la propia empresa nunca ha entregado (su tasa base son 11,6 puntos), justo cuando acaba de gastar 2.100 M en la mayor adquisicion de su historia y cuando su ROIIC ex-margen del 5,6% queda por debajo de su coste de capital del 9,8%.",
+    "que_haria_cambiar_esto": "P* = 68 USD (base en curso) o 60 USD (base auditada). Incluso mi techo declarado de 18x owner earnings solo justifica 113 USD. Entre 113 y 350 no hay ninguna lectura defendible de este expediente; hay una apuesta a que la IA agentica reescriba la tasa base del negocio, y esa apuesta no es un margen de seguridad.",
+    "que_NO_dice_este_informe": "No dice que Cadence sea un mal negocio. La etiqueta MUY_BUENA sigue congelada, arriba y abajo. Dice que el precio de hoy la valora como si fuera mejor de lo que la evidencia sostiene, y que esa diferencia la paga el comprador."
+  },
+
+  "fuentes_primarias_utilizadas": [
+    "10-K FY2025 de Cadence Design Systems, presentado el 19-feb-2026, accession 0000813672-26-000016, documento cdns-20251231.htm (SEC EDGAR)",
+    "8-K del 27-jul-2026, accession 0000813672-26-000089, Exhibit 99.01 (press release de resultados del Q2-2026, con balance, cuenta de resultados, estado de flujos del 1S-2026, mezcla geografica y por producto, y guia FY2026)",
+    "10-Q Q1-2026, presentado el 1-may-2026, accession 0000813672-26-000047 (acciones en circulacion en portada)",
+    "XBRL companyfacts CIK0000813672 (series historicas us-gaap 2009-2026)",
+    "IBKR market data: snapshot en vivo de CDNS (contract_id 5552) y series mensuales de 5 anos de CDNS y SPY (contract_id 756733), 27-jul-2026",
+    "Damodaran, actualizacion de primas de riesgo por pais de julio 2026 (secundaria, INFERENCIA)",
+    "Cotizacion del bono del Tesoro de EEUU a 10 anos al 27-jul-2026 (secundaria, INFERENCIA)",
+    "stockanalysis.com, ficha CDNS al 27-jul-2026 (SOLO como comprobacion cruzada de beta y acciones en circulacion, INFERENCIA)"
+  ]
+}

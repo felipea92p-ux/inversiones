@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+    <author>
+      <email>webmaster@sec.gov</email>
+      <name>Webmaster</name>
+    </author>
+    <company-info>
+      <addresses>
+        <address type="mailing">
+          <city>LONDON</city>
+          <street1>79 NEW OXFORD STREET</street1>
+          <zip>WC1A 1DG</zip>
+        </address>
+        <address type="business">
+          <city>LONDON</city>
+          <phone>44 20 8047 5000</phone>
+          <street1>79 NEW OXFORD STREET</street1>
+          <zip>WC1A 1DG</zip>
+        </address>
+      </addresses>
+      <assigned-sic>2834</assigned-sic>
+      <assigned-sic-desc>PHARMACEUTICAL PREPARATIONS</assigned-sic-desc>
+      <assigned-sic-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;SIC=2834&amp;owner=include&amp;count=40</assigned-sic-href>
+      <cik>0001131399</cik>
+      <cik-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001131399&amp;owner=include&amp;count=40</cik-href>
+      <conformed-name>GSK plc</conformed-name>
+      <formerly-names count="1">
+        <names>
+          <date>2022-05-16</date>
+          <name>GLAXOSMITHKLINE PLC</name>
+        </names>
+      </formerly-names>
+      <state-of-incorporation>X0</state-of-incorporation>
+    </company-info>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001131399-26-000004</accession-number>
+        <act>34</act>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2026-03-06</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000113139926000004/0001131399-26-000004-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>26728707</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>101 MB</size>
+        <xbrl_href>https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1131399&amp;accession_number=0001131399-26-000004&amp;xbrl_type=f</xbrl_href>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001131399-26-000004</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000113139926000004/0001131399-26-000004-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2026-03-06 &lt;b&gt;AccNo:&lt;/b&gt; 0001131399-26-000004 &lt;b&gt;Size:&lt;/b&gt; 101 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2026-03-06T09:11:32-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001131399-25-000007</accession-number>
+        <act>34</act>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2025-03-03</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000113139925000007/0001131399-25-000007-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>25695104</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>90 MB</size>
+        <xbrl_href>https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1131399&amp;accession_number=0001131399-25-000007&amp;xbrl_type=r</xbrl_href>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001131399-25-000007</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000113139925000007/0001131399-25-000007-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2025-03-03 &lt;b&gt;AccNo:&lt;/b&gt; 0001131399-25-000007 &lt;b&gt;Size:&lt;/b&gt; 90 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2025-03-03T11:03:39-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001131399-24-000007</accession-number>
+        <act>34</act>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2024-03-05</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000113139924000007/0001131399-24-000007-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>24719111</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>152 MB</size>
+        <xbrl_href>https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1131399&amp;accession_number=0001131399-24-000007&amp;xbrl_type=v</xbrl_href>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001131399-24-000007</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000113139924000007/0001131399-24-000007-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2024-03-05 &lt;b&gt;AccNo:&lt;/b&gt; 0001131399-24-000007 &lt;b&gt;Size:&lt;/b&gt; 152 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2024-03-05T12:10:12-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F/A" />
+      <content type="text/xml">
+        <accession-number>0001193125-23-102401</accession-number>
+        <act>34</act>
+        <amend>[Amend]</amend>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2023-04-17</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000119312523102401/0001193125-23-102401-index.htm</filing-href>
+        <filing-type>20-F/A</filing-type>
+        <film-number>23822642</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>460 KB</size>
+        <xbrl_href>https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1131399&amp;accession_number=0001193125-23-102401&amp;xbrl_type=v</xbrl_href>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001193125-23-102401</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000119312523102401/0001193125-23-102401-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-04-17 &lt;b&gt;AccNo:&lt;/b&gt; 0001193125-23-102401 &lt;b&gt;Size:&lt;/b&gt; 460 KB</summary>
+      <title>20-F/A [Amend]  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2023-04-14T20:35:03-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001193125-23-067105</accession-number>
+        <act>34</act>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2023-03-10</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000119312523067105/0001193125-23-067105-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>23722271</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>68 MB</size>
+        <xbrl_href>https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1131399&amp;accession_number=0001193125-23-067105&amp;xbrl_type=v</xbrl_href>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001193125-23-067105</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000119312523067105/0001193125-23-067105-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-03-10 &lt;b&gt;AccNo:&lt;/b&gt; 0001193125-23-067105 &lt;b&gt;Size:&lt;/b&gt; 68 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2023-03-10T11:13:13-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001193125-22-068957</accession-number>
+        <act>34</act>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2022-03-08</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000119312522068957/0001193125-22-068957-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>22721042</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>72 MB</size>
+        <xbrl_href>https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1131399&amp;accession_number=0001193125-22-068957&amp;xbrl_type=v</xbrl_href>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001193125-22-068957</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000119312522068957/0001193125-22-068957-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-03-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001193125-22-068957 &lt;b&gt;Size:&lt;/b&gt; 72 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2022-03-08T13:05:42-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001193125-21-079417</accession-number>
+        <act>34</act>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2021-03-12</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000119312521079417/0001193125-21-079417-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>21736883</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>50 MB</size>
+        <xbrl_href>https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1131399&amp;accession_number=0001193125-21-079417&amp;xbrl_type=v</xbrl_href>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001193125-21-079417</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000119312521079417/0001193125-21-079417-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2021-03-12 &lt;b&gt;AccNo:&lt;/b&gt; 0001193125-21-079417 &lt;b&gt;Size:&lt;/b&gt; 50 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2021-03-12T15:07:45-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001193125-20-065064</accession-number>
+        <act>34</act>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2020-03-06</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000119312520065064/0001193125-20-065064-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>20694823</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>57 MB</size>
+        <xbrl_href>https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1131399&amp;accession_number=0001193125-20-065064&amp;xbrl_type=v</xbrl_href>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001193125-20-065064</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000119312520065064/0001193125-20-065064-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2020-03-06 &lt;b&gt;AccNo:&lt;/b&gt; 0001193125-20-065064 &lt;b&gt;Size:&lt;/b&gt; 57 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2020-03-06T16:07:55-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001193125-19-076716</accession-number>
+        <act>34</act>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2019-03-15</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000119312519076716/0001193125-19-076716-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>19685308</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>40 MB</size>
+        <xbrl_href>https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1131399&amp;accession_number=0001193125-19-076716&amp;xbrl_type=v</xbrl_href>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001193125-19-076716</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000119312519076716/0001193125-19-076716-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2019-03-15 &lt;b&gt;AccNo:&lt;/b&gt; 0001193125-19-076716 &lt;b&gt;Size:&lt;/b&gt; 40 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2019-03-15T16:21:02-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F/A" />
+      <content type="text/xml">
+        <accession-number>0001193125-18-088407</accession-number>
+        <act>34</act>
+        <amend>[Amend]</amend>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2018-03-20</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000119312518088407/0001193125-18-088407-index.htm</filing-href>
+        <filing-type>20-F/A</filing-type>
+        <film-number>18700645</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>23 MB</size>
+        <xbrl_href>https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=1131399&amp;accession_number=0001193125-18-088407&amp;xbrl_type=v</xbrl_href>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001193125-18-088407</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000119312518088407/0001193125-18-088407-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2018-03-20 &lt;b&gt;AccNo:&lt;/b&gt; 0001193125-18-088407 &lt;b&gt;Size:&lt;/b&gt; 23 MB</summary>
+      <title>20-F/A [Amend]  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2018-03-20T07:13:20-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001193125-18-086062</accession-number>
+        <act>34</act>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2018-03-16</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000119312518086062/0001193125-18-086062-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>18696671</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>22 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001193125-18-086062</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000119312518086062/0001193125-18-086062-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2018-03-16 &lt;b&gt;AccNo:&lt;/b&gt; 0001193125-18-086062 &lt;b&gt;Size:&lt;/b&gt; 22 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2018-03-16T17:20:24-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001193125-17-087259</accession-number>
+        <act>34</act>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2017-03-17</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000119312517087259/0001193125-17-087259-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>17697815</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>25 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001193125-17-087259</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000119312517087259/0001193125-17-087259-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2017-03-17 &lt;b&gt;AccNo:&lt;/b&gt; 0001193125-17-087259 &lt;b&gt;Size:&lt;/b&gt; 25 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2017-03-17T15:51:32-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001193125-16-510261</accession-number>
+        <act>34</act>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2016-03-18</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000119312516510261/0001193125-16-510261-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>161515986</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>28 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001193125-16-510261</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000119312516510261/0001193125-16-510261-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2016-03-18 &lt;b&gt;AccNo:&lt;/b&gt; 0001193125-16-510261 &lt;b&gt;Size:&lt;/b&gt; 28 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2016-03-18T15:42:35-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001193125-15-070125</accession-number>
+        <act>34</act>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2015-02-27</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000119312515070125/0001193125-15-070125-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>15660117</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>23 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001193125-15-070125</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000119312515070125/0001193125-15-070125-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2015-02-27 &lt;b&gt;AccNo:&lt;/b&gt; 0001193125-15-070125 &lt;b&gt;Size:&lt;/b&gt; 23 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2015-02-27T16:54:57-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001193125-14-077405</accession-number>
+        <act>34</act>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2014-02-28</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000119312514077405/0001193125-14-077405-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>14655687</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>22 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001193125-14-077405</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000119312514077405/0001193125-14-077405-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2014-02-28 &lt;b&gt;AccNo:&lt;/b&gt; 0001193125-14-077405 &lt;b&gt;Size:&lt;/b&gt; 22 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2014-02-28T16:22:05-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001193125-13-098802</accession-number>
+        <act>34</act>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2013-03-08</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000119312513098802/0001193125-13-098802-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>13678228</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>21 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001193125-13-098802</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000119312513098802/0001193125-13-098802-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2013-03-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001193125-13-098802 &lt;b&gt;Size:&lt;/b&gt; 21 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2013-03-08T16:57:47-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001193125-12-112357</accession-number>
+        <act>34</act>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2012-03-13</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000119312512112357/0001193125-12-112357-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>12687933</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>17 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001193125-12-112357</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000119312512112357/0001193125-12-112357-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2012-03-13 &lt;b&gt;AccNo:&lt;/b&gt; 0001193125-12-112357 &lt;b&gt;Size:&lt;/b&gt; 17 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2012-03-13T17:17:57-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0000950123-11-022182</accession-number>
+        <act>34</act>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2011-03-04</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000095012311022182/0000950123-11-022182-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>11664810</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>7 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000950123-11-022182</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000095012311022182/0000950123-11-022182-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2011-03-04 &lt;b&gt;AccNo:&lt;/b&gt; 0000950123-11-022182 &lt;b&gt;Size:&lt;/b&gt; 7 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2011-03-04T16:14:24-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0000950123-10-019098</accession-number>
+        <act>34</act>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2010-03-01</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000095012310019098/0000950123-10-019098-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>10643175</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>6 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000950123-10-019098</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000095012310019098/0000950123-10-019098-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2010-03-01 &lt;b&gt;AccNo:&lt;/b&gt; 0000950123-10-019098 &lt;b&gt;Size:&lt;/b&gt; 6 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2010-03-01T13:16:34-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001156973-09-000126</accession-number>
+        <act>34</act>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2009-03-04</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000115697309000126/0001156973-09-000126-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>09655985</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>6 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001156973-09-000126</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000115697309000126/0001156973-09-000126-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2009-03-04 &lt;b&gt;AccNo:&lt;/b&gt; 0001156973-09-000126 &lt;b&gt;Size:&lt;/b&gt; 6 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2009-03-04T16:42:22-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001156973-08-000248</accession-number>
+        <act>34</act>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2008-02-29</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000115697308000248/0001156973-08-000248-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>08656247</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>6 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001156973-08-000248</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000115697308000248/0001156973-08-000248-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2008-02-29 &lt;b&gt;AccNo:&lt;/b&gt; 0001156973-08-000248 &lt;b&gt;Size:&lt;/b&gt; 6 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2008-02-29T16:33:27-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001156973-07-000334</accession-number>
+        <act>34</act>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2007-03-02</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000115697307000334/0001156973-07-000334-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>07668420</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>5 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001156973-07-000334</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000115697307000334/0001156973-07-000334-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2007-03-02 &lt;b&gt;AccNo:&lt;/b&gt; 0001156973-07-000334 &lt;b&gt;Size:&lt;/b&gt; 5 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2007-03-02T16:49:02-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001021231-06-000123</accession-number>
+        <act>34</act>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2006-03-03</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000102123106000123/0001021231-06-000123-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>06664728</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>6 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001021231-06-000123</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000102123106000123/0001021231-06-000123-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2006-03-03 &lt;b&gt;AccNo:&lt;/b&gt; 0001021231-06-000123 &lt;b&gt;Size:&lt;/b&gt; 6 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2006-03-03T16:56:21-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001021231-05-000197</accession-number>
+        <act>34</act>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2005-03-08</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000102123105000197/0001021231-05-000197-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>05666070</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>5 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001021231-05-000197</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000102123105000197/0001021231-05-000197-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2005-03-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001021231-05-000197 &lt;b&gt;Size:&lt;/b&gt; 5 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2005-03-08T12:45:26-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001021231-04-000207</accession-number>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2004-03-26</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000102123104000207/0001021231-04-000207-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>04692394</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>6 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001021231-04-000207</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000102123104000207/0001021231-04-000207-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2004-03-26 &lt;b&gt;AccNo:&lt;/b&gt; 0001021231-04-000207 &lt;b&gt;Size:&lt;/b&gt; 6 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2004-03-26T14:22:09-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001021231-03-000405</accession-number>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2003-03-28</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/000102123103000405/0001021231-03-000405-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>03623118</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>8 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001021231-03-000405</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/000102123103000405/0001021231-03-000405-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2003-03-28 &lt;b&gt;AccNo:&lt;/b&gt; 0001021231-03-000405 &lt;b&gt;Size:&lt;/b&gt; 8 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2003-03-28T10:56:29-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>9999999997-02-018778</accession-number>
+        <file-number>001-15170</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-15170&amp;owner=include&amp;count=40</file-number-href>
+        <filing-date>2002-03-28</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1131399/999999999702018778/9999999997-02-018778-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>02026716</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>1 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=9999999997-02-018778</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1131399/999999999702018778/9999999997-02-018778-index.htm" rel="alternate" type="text/html" />
+      <summary type="html">&lt;b&gt;Film#:&lt;/b&gt; 02026716  &lt;b&gt;Filed:&lt;/b&gt; 2002-03-28 &lt;b&gt;AccNo:&lt;/b&gt; 9999999997-02-018778 &lt;b&gt;Size:&lt;/b&gt; 1 KB</summary>
+      <title>20-F [Paper] - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2002-03-28T00:00:00-05:00</updated>
+    </entry>
+    <id>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001131399</id>
+    <link href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;company=GSK&amp;type=20-F&amp;owner=include&amp;start=0&amp;count=40" rel="alternate" type="text/html" />
+    <link href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;company=GSK&amp;type=20-F&amp;owner=include&amp;start=0&amp;count=40&amp;output=atom" rel="self" type="application/atom+xml" />
+    <title>GSK plc  (0001131399)</title>
+    <updated>2026-08-22T21:39:48-04:00</updated>
+  </feed>

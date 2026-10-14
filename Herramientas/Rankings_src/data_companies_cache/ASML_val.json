@@ -1,0 +1,48 @@
+{
+ "ticker": "ASML",
+ "name": "ASML Holding N.V.",
+ "currency": "EUR",
+ "price_verified": 1657.8,
+ "price_source": "Euronext Amsterdam (primary listing, NL0010273215) via MarketScreener/Euronext live, 21-Jun-2026 close EUR 1,657.80; cross-checked US ADR NASDAQ:ASML $1,929.25 (StockAnalysis.com, 22-Jun-2026). EUR/USD ~1.146 (ECB, 21-Jun-2026).",
+ "price_date": "2026-06-21",
+ "shares_diluted_b": 0.3854,
+ "implied_mcap_b_usd": 743.5,
+ "mcap_sanity_ok": true,
+ "sanity_notes": "Sanity OK. Acciones diluidas 385.40M (0.3854B) confirmadas en StockAnalysis.com. Implied mcap USD = ADR $1,929.25 x 0.3854B = $743.5B, consistente con mcap reportado $729-731B (la pequena diferencia es por precio intradia/redondeo). Cross-check Euronext: EUR 1,657.80 x 0.3854B = EUR 638.9B; x1.146 FX = ~$732B, coincide. NO hay error de unidades/moneda: el archivo JSON marca precio/cap en USD (ADR) pero los fundamentales (FCF, ingresos, neto) son en EUR; valoro en EUR para evitar ruido FX y reporto IV en EUR. Magnitud: reconciled_iv EUR 1,057 = 64% del precio Euronext (EUR 1,658), dentro del rango 30-300%. La accion NO esta deprimida: cotiza ~1-2% bajo maximos historicos y a fwd P/E ~49x (vs media 5a ~40x), un premium del ~22%. IV < precio => sobrevalorada hoy frente a fundamentales; calidad excepcional pero descontada de forma agresiva.",
+ "wacc_pct": 9.5,
+ "wacc_components": {
+  "rf_pct": 2.8,
+  "erp_pct": 5,
+  "beta": 1.35,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = FCF reportado EUR 12,253M (StockAnalysis: OCF EUR 13,827M - capex EUR 1,574M) - 100% SBC EUR 215.4M = EUR ~12,038M. Por accion (385.4M) = EUR 31.24/sh. SBC trivial (0.66% ingresos, 1.96% FCF) - ventaja europea, sin dilucion estilo tech US.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 621,
+   "prob": 0.38,
+   "note": "Pesimista razonable NO apocaliptico: la oleada de capex AI/EUV se modera tras 2027-28; Fase 1 (a1-5) CAGR owner-earnings 8%, declina a 3% en Fase 2, g terminal 2.5%. Incorpora ciclicalidad semi y restricciones de exportacion a China que recortan TAM."
+  },
+  "base": {
+   "iv_per_share": 864,
+   "prob": 0.47,
+   "note": "Demanda EUV/High-NA sostenida por fabs de IA (TSMC/Intel/Samsung); Fase 1 CAGR 13% (consistente con guia FY2026 +10-22% y backlog), declina a 4%, g terminal 3.0%. Monopolio EUV intacto, ROIC ~68%."
+  },
+  "optimista": {
+   "iv_per_share": 1207,
+   "prob": 0.15,
+   "note": "Supercycle de capex IA prolongado + adopcion High-NA acelerada; Fase 1 CAGR 18%, declina, g terminal 3.5%. Poder de fijacion de precios del monopolio litografico."
+  }
+ },
+ "iv_dcf_weighted": 823,
+ "multiple_metric": "P/E adelantado (fwd EPS)",
+ "fwd_multiple_now": 48.8,
+ "fwd_multiple_5y_avg": 40,
+ "fair_multiple": 38,
+ "multiple_rationale": "Ancla a la media 5a del multiplo adelantado (~40x, proxy P/E trailing 2021-2025 de FinanceCharts; el fwd P/E historico real de ASML suele ser menor ~33-35x, asi que 40x es generoso). Aplico haircut leve a 38x: NO por deterioro estructural (el monopolio EUV/High-NA esta intacto, ROIC ~68%, caja neta), sino por (a) ciclicalidad inherente del semi-cap, (b) overhang de controles de exportacion a China que comprime TAM estructuralmente, y (c) el fwd P/E actual de 48.8x ya descuenta optimismo extremo. iv_multiple = fwd EPS EUR 33.97 (precio/48.8) x 38 = EUR 1,291. Nota: el multiplo ancla queda muy por encima del DCF puro porque el DCF infra-credita la reinversion a ROIC ~68% durante decadas, el patron tipico de las grandes franquicias de calidad.",
+ "iv_multiple": 1291,
+ "weight_dcf": 0.5,
+ "weight_multiple": 0.5,
+ "reconciled_iv": 1057,
+ "structural_change": "SIN deterioro estructural del foso. ASML conserva el monopolio mundial de litografia EUV y el liderazgo unico en High-NA EUV, indispensable para nodos avanzados de IA. ROIC FY2025 ~68%, margen bruto 51-53%, caja neta ~EUR 8-9B, SBC trivial. El UNICO viento estructural en contra son los controles de exportacion a China (recorte de TAM accesible, no del poder competitivo) - capturado en el haircut de multiplo (40x->38x) y en el escenario conservador. La ciclicalidad y la alta dependencia del capex de pocos clientes (TSMC/Intel/Samsung) son cualidades del negocio, no deterioro."
+}

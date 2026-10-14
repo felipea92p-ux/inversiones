@@ -1,0 +1,42 @@
+{
+ "ticker": "ADYEN.AS",
+ "currency": "EUR",
+ "current_price": 874.2,
+ "name": "Adyen N.V.",
+ "wacc_pct": 9.3,
+ "wacc_components": {
+  "rf_pct": 2.8,
+  "erp_pct": 5,
+  "beta": 1.3,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base ~ EUR 860M = FY2025 reported FCF EUR 907M menos 100% de SBC (~EUR 47M, estimado en ~2% de los ingresos netos de EUR 2,364.2M; Adyen corre SBC estructuralmente baja por el tope de bonos del 20% en Paises Bajos). Owner-FCF margin base ~36.4% sobre ingresos netos. La SBC se trata como gasto en efectivo.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 19,
+  "rev_cagr_y6_10_pct": 9,
+  "fcf_margin_terminal_pct": 44,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de SBC restada del FCF reportado (gasto en efectivo). SBC ~2% de ingresos / ~5% del FCF, estructuralmente baja por tope de bonos NL del 20%, aunque al alza con expansion en EE.UU.",
+  "shares_diluted_b": 0.0315,
+  "net_debt_usd_b": -12.1
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 1360,
+   "prob": 0.375,
+   "note": "Desaceleracion mas rapida: CAGR ingresos 16% (anios 1-5) declinando a ~7% (anios 6-10); margen owner-FCF expande modestamente a 40%; g terminal 2.5%. Competencia de Stripe/Worldpay y compresion de take-rate, pero sin colapso. Aun ~+56% sobre precio actual: el de-rating a ~22x fwd P/E (vs media 5a ~45x) deja colchon."
+  },
+  "base": {
+   "iv_per_share": 1776,
+   "prob": 0.475,
+   "note": "Consistente con track record: CAGR ingresos 19% (1-5) hacia ~9% (6-10), en linea con guidance FY2026 20-22% cc; margen owner-FCF a 44% (objetivo EBITDA >55% para 2028 con conversion FCF ~80-87%); g terminal 3.0%. EV ~EUR 45B + caja neta EUR 10.58B."
+  },
+  "optimista": {
+   "iv_per_share": 2367,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: CAGR ingresos 22% (1-5) hacia ~11% (6-10); margen owner-FCF a 48% por apalancamiento operativo y single-platform; g terminal 3.5%. Plataforma unica gana wallet share en unified commerce y plataformas/embedded finance."
+  }
+ },
+ "sanity_check": "VI ponderada por probabilidad ~EUR 1,709 vs precio EUR 874.20 (~+95% upside). El caso descansa en reinversion y crecimiento de FCF, no en retorno al accionista: Adyen NO paga dividendo y hace recompras insignificantes, asi que el shareholder yield (div+recompra) es ~0% y no sirve de contraste para una red de pagos como esta — el valor viene del compounding del owner-FCF. Triangulacion de multiplos: cotiza a ~22.6x fwd P/E vs media 5a ~45x (descuento ~-50%), con ingresos +18-21% y margen EBITDA expandiendo a 53% (FY2025) — clasico fear_rotation / de-rating de growth-a-value, no deterioro fundamental (-43% del maximo 52s, -69% del ATH). Owner-FCF yield reportado ~3.3%. El valor terminal pesa ~55-65% del EV (tipico en compounder), por eso se mantiene g terminal conservador 2.5-3.5% y beta 1.30 honesta. Caja neta EUR ~10.58B (sin deuda) anade ~EUR 335/accion de soporte.",
+ "method_notes": "DCF de Owner Earnings a 10 anios en EUR (misma moneda que current_price). Owner FCF = FCF reportado (EUR 907M FY2025) menos 100% de SBC (~EUR 47M). Fase 1 (anios 1-5): CAGR de ingresos explicito por escenario (16/19/22%). Fase 2 (anios 6-10): CAGR declinando linealmente hacia normalizacion (7/9/11%). El margen owner-FCF transita linealmente desde 36.4% (base) hacia el margen terminal (40/44/48%) reflejando el objetivo de EBITDA >55% para 2028 y conversion FCF ~80-87%. Valor terminal por crecimiento perpetuo (g 2.5-3.5%, foso fuerte: red single-platform, escala, switching costs). Descuento al WACC 9.3% = Rf 2.8% (eurozona) + ERP 5.0% x beta 1.30 (fintech/pagos volatil; sin ajuste geopolitico). VI/accion = (PV flujos + PV valor terminal + caja neta) / acciones diluidas. Acciones diluidas ~31.5M (0.0315B); caja neta EUR ~10.58B (net debt negativo, equivalente a ~-USD 12.1B). Datos VERIFICADOS de FASE 2 (Adyen IR FY2025/H2 2025); EPS/FCF/SBC son estimaciones de agregador (StockAnalysis). Nota: Adyen reporta semestralmente."
+}

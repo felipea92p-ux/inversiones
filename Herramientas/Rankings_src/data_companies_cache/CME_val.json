@@ -1,0 +1,48 @@
+{
+ "ticker": "CME",
+ "currency": "USD",
+ "name": "CME Group Inc.",
+ "price_verified": 245.2,
+ "price_source": "StockAnalysis.com (cross-checked Yahoo/CNBC), close 2026-06-22",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.36236,
+ "implied_mcap_b_usd": 88.85,
+ "mcap_sanity_ok": true,
+ "owner_fcf_base": "Owner FCF FY2025 = FCF $4,193.6M - 100% SBC $94.8M = $4,098.8M ($11.31/sh). SBC es minimo (1.45% rev / 2.26% FCF), negocio capital-light (capex ~$84M). Base de partida para el DCF.",
+ "wacc_pct": 7.5,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.45,
+  "geo_adj_pct": 1
+ },
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 253.1,
+   "prob": 0.38,
+   "note": "Fase1 g=4%, fase2 declina a 3%, g terminal 2.5%. Presion competitiva real en US Treasury clearing (FMX/BGC, mandato SEC dic-2026 erosiona algo de share/pricing) y normalizacion de tipos que reduce ingresos por float; crecimiento de volumen ralentiza pero franquicia core resiliente. Pesimista razonable, no apocaliptico."
+  },
+  "base": {
+   "iv_per_share": 312.84,
+   "prob": 0.47,
+   "note": "Fase1 g=6.5%, fase2 declina a 4%, g terminal 2.8%. Volumenes record persistentes (ADV 36.2M contratos), crecimiento de OI, nuevos productos (micro/event futures, cripto), poder de fijacion de precios intacto. Defensa exitosa pero no dominante en Treasury clearing."
+  },
+  "optimista": {
+   "iv_per_share": 418.55,
+   "prob": 0.15,
+   "note": "Fase1 g=9.5%, fase2 declina a 5.5%, g terminal 3.3%. Volatilidad estructuralmente elevada sostiene volumenes altos, expansion internacional, captura de nuevas clases de activo; competencia en clearing fracasa en ganar traccion material."
+  }
+ },
+ "iv_dcf_weighted": 306,
+ "fwd_multiple_now": 20,
+ "fwd_multiple_5y_avg": 24.46,
+ "fair_multiple": 22,
+ "multiple_metric": "P/E adelantado (NTM)",
+ "multiple_rationale": "Ancla a la media 5a del fwd P/E (24.46) con un haircut ~10% a 22.0x por deterioro estructural parcial REAL (no solo ciclico): entrada de competidores en US Treasury clearing (FMX/BGC) ante el mandato SEC de clearing obligatorio (dic-2026), que puede erosionar pricing/share en ese segmento, mas normalizacion de tipos que reduce el viento de cola de ingresos por float sobre performance bonds. El negocio core (futuros de tasas, equity index, energia, agricolas) mantiene un foso casi monopolistico (open interest, netting, liquidez) que justifica seguir cerca de la media historica. NTM EPS ~$12.26 (implicito de precio/fwdPE 20.0; coherente con Q1 2026 adj EPS $3.36 anualizado).",
+ "iv_multiple": 269.72,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 284.23,
+ "structural_change": "Cambio estructural PARCIAL y acotado, no deterioro del foso core. (1) US Treasury clearing: el mandato de la SEC (efectivo dic-2026) abre la puerta a competidores (FMX Futures Exchange respaldado por BGC/Citadel/otros) en un segmento donde CME tenia ventaja; riesgo de erosion de share/pricing pero limitado a una fraccion de los ingresos. (2) Normalizacion de tipos: menos ingresos por float sobre margenes/performance bonds del clearing (viento de cola transitorio que se desvanece). (3) De-rating sectorial de exchanges. NINGUNO afecta el monopolio efectivo de CME en futuros de tasas de interes, equity index, energia y agricolas (open interest, netting cross-margin, liquidez profunda) — de ahi un haircut moderado (10%) y no severo.",
+ "sanity_notes": "Precio $245.20, acciones 362.36M y mcap $88.85B verificados en StockAnalysis.com (2026-06-22), consistentes con el archivo. Sanity check: 245.20 * 0.36236B = $88.85B, coincide con escala conocida (mcap_sanity_ok=true). Todas las IV (cons $253, base $313, opt $419, multiplo $270, reconciliada $284) dentro de la banda de plausibilidad (30%-300% del precio). Beta reportada muy baja (0.02-0.26 segun fuente) probablemente subestima el riesgo; se uso beta floor 0.45 + prima estructural ~1% para WACC 7.5% sensato (a 7.0% el DCF inflaba TV via (WACC-g) estrecho). El DCF puro ($306) sale por encima del ancla de multiplo ($270) — patron tipico de compounder capital-light que el DCF infra-penaliza; por eso se pondera mas el multiplo (0.60). Reconciliada $284 implica ~+16% de upside sobre el precio; nombre de calidad cotizando con descuento (-18% vs su media 5a de fwd P/E) por miedo/rotacion, no por deterioro fundamental (Q1 2026 ingresos +14.5%, adj EPS +20%, volumenes record). Deuda neta minima (ND/EBITDA 0.24x)."
+}

@@ -1,0 +1,59 @@
+{
+ "ticker": "MMC",
+ "name": "Marsh & McLennan Companies, Inc.",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Negocio de servicios profesionales asset-light (capex solo 1.1% de ingresos, $291M sobre $27B) con apalancamiento operativo real —18 años consecutivos de expansión de margen— pero no es software/red con coste marginal cero, asi que no 2.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Corretaje de seguros y consultoria de riesgo/RRHH es secular: endurecimiento de tarifas, complejidad de riesgo (clima, cyber, salud) y subaseguro global empujan demanda estructural, con crecimiento subyacente sostenido ~4%."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Marsh es el #1 mundial en corretaje de seguros y Mercer lider en consultoria; junto a Aon forman un duopolio global de escala irreplicable que deja al resto a años-luz en clientes corporativos grandes."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat profundo por costes de cambio (broker integrado en la gestion de riesgo del cliente), datos/intangibles y escala regulatoria; muy duradero pero replicable parcialmente por Aon/WTW, por eso no 2.0."
+  },
+  "R5": {
+   "score": 1,
+   "just": "Crecimiento subyacente/organico solido y consistente (~4% FY2025 y Q1 2026), pero el crecimiento reportado +8-10% se apoya fuertemente en M&A (bolt-ons constantes), lo que limita la nota base."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Diversificacion excelente: cuatro negocios (Marsh, Guy Carpenter, Mercer, Oliver Wyman), base de clientes atomizada sin concentracion >10-15%, y multi-geografia global."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "FCF $5.0B con margen 18.5% y FCF/NI alto, capex minimo (1.1% ingresos); ROIC no extraido del filing pero historicamente muy por encima del WACC para este compounder asset-light."
+  },
+  "R8": {
+   "score": 0.5,
+   "just": "Deuda neta ~$18.76B y ND/EBITDA ~2.3x (sin caja neta) supera el umbral de <2x; apalancamiento moderado pero penalizado por la regla dura del balance."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "SBC verificada solo 7.9% del FCF (1.46% de ingresos), muy por debajo del umbral de 15%; contabilidad limpia, EPS ajustado creible y el golpe GAAP es un cargo legal puntual one-off (Greensill $425M)."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Asignacion de capital ejemplar (18 años de expansion de margen, dividendos crecientes, buybacks y M&A acretiva disciplinada), gestion de alta calidad con largo historial de creacion de valor."
+  }
+ },
+ "amplification": false,
+ "amplification_note": "R3 es monstruoso (duopolio global #1) y R4/R1 son fuertes, pero R4 no es totalmente irreplicable (compite con Aon/WTW) y R1 no es software de coste marginal cero; el refuerzo es excelente pero no llega al umbral 'monstruoso e irreplicable en decadas' de los tres a la vez.",
+ "moat_type": "Escala + costes de cambio + intangibles",
+ "moat_one_line": "Marsh McLennan es la mitad del duopolio global de corretaje de seguros y consultoria de riesgo, con costes de cambio altos por integracion profunda en la gestion de riesgo del cliente y escala de datos/regulatoria que un nuevo entrante no puede replicar.",
+ "thesis_3lines": [
+  "Calidad: compounder asset-light con 18 años consecutivos de expansion de margen, FCF $5B (margen 18.5%), SBC minima (7.9% del FCF) y posicion #1 mundial en un duopolio con Aon.",
+  "Motor: crecimiento subyacente solido ~4% mas M&A bolt-on acretiva y endurecimiento secular del riesgo (cyber, clima, salud) que sostienen +8-9% de BPA ajustado.",
+  "Valoracion: fwd P/E 15x es un de-rating de ~28% vs su media historica ~21x impulsado por miedo/rotacion y un cargo legal one-off, no por deterioro operativo —entrada de calidad a precio de descuento."
+ ],
+ "bear_case_strongest": "El crecimiento reportado de doble digito depende estructuralmente de M&A continua (organico solo ~4%) mientras carga ~$18.8B de deuda neta (2.3x EBITDA), de modo que un freno en adquisiciones acretivas o subida de costes de financiacion expondria un crecimiento organico mediocre que no justifica la prima historica de ~21x.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Total ponderado: R1 1.0 + R2 1.5 + R3 2.0 + R4 1.5 + R5 1.0 + R6 1.5 + R7 1.5 + R8 0.5 + R9 1.5 + R10 1.5 = 13.5/13.5 (techo). Re-score ligeramente por debajo del preliminar 13/13.5 en composicion pero alcanza el techo gracias a R3=2.0 (duopolio monstruoso). Unica debilidad clara: R8 (balance) por ND/EBITDA 2.3x sin caja neta. ROIC no verificado en filing (null) pero historicamente muy superior al WACC; R7 mantiene 1.5 por FCF/capex excelentes. El desplome GAAP de Q1 2026 es un cargo legal puntual Greensill $425M (one-off), no deterioro de fundamentales —clasificacion fear_rotation valida. fwd_pe_5y_avg 21x es estimado; descuento ~-28%."
+}

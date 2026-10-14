@@ -1,0 +1,42 @@
+{
+ "ticker": "SPGI",
+ "currency": "USD",
+ "current_price": 407.39,
+ "name": "S&P Global Inc.",
+ "wacc_pct": 9.8,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.1,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base FY2025 = FCF GAAP $5,135M menos 100% de la SBC ($236M) = $4,899M (~31.9% margen sobre ingresos de $15,336M). La SBC de SPGI es excepcionalmente baja (1.54% de ingresos; 4.6% del FCF), una de las mas bajas del sector datos/ratings, por lo que el ajuste de owner earnings apenas reduce el FCF reportado (~4.6%). Uso el FCF GAAP (no el ajustado $5,481M) como base conservadora antes de restar SBC.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 7.5,
+  "rev_cagr_y6_10_pct": 5,
+  "fcf_margin_terminal_pct": 36,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC tratada como gasto en efectivo y restada del FCF (owner earnings). SBC FY25 = $236M = 1.54% ingresos / 4.6% FCF; impacto minimo dado el perfil de SBC excepcionalmente bajo de SPGI.",
+  "shares_diluted_b": 0.296,
+  "net_debt_usd_b": 12.09
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 253,
+   "prob": 0.375,
+   "note": "Pesimista razonable, no apocaliptico. Ingresos ~6% CAGR fase 1 (debilidad ciclica en Ratings/emisiones, sensibilidad a tasas), owner FCF ~7% declinando a 4% en fase 2. g terminal 2.5%, beta 1.15 (WACC 10.05%). Refleja compresion de multiplo y crecimiento mas lento pero sin perdida de cuota ni del foso (indices/datos/Ratings siguen siendo oligopolio)."
+  },
+  "base": {
+   "iv_per_share": 346,
+   "prob": 0.475,
+   "note": "Consistente con track record: ingresos organicos ~7.5% + apalancamiento operativo + recompras (>=85% del FCF ajustado devuelto). Owner FCF ~10% CAGR fase 1 declinando a 5.5% en fase 2. g terminal 3.0%, beta 1.10 (WACC 9.8%). Margen FCF se expande hacia ~36%. Aun asi VI < precio: la entrada a ~4% FCF yield vs WACC 9.8% exige mucho crecimiento."
+  },
+  "optimista": {
+   "iv_per_share": 465,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: ingresos ~9-10%, sinergias plenas IHS Markit, Mobility spin-off desbloquea valor, Indices/Market Intelligence aceleran con datos/IA. Owner FCF ~13% CAGR fase 1 declinando a 6.5%. g terminal 3.5%, beta 1.05 (WACC 9.55%)."
+  }
+ },
+ "sanity_check": "Contraste por rendimiento total al accionista (NO DDM): SPGI devolvio 113% del FCF ajustado en 2025 (~$5.0B recompras + dividendos) y guia FY26 a devolver >=85% del FCF ajustado. Rendimiento total al accionista (div + recompra) ~4.0-4.5% sobre mcap de $120.6B (FCF ajustado $5,481M; ~90% payout => ~$4.93B => ~4.1% yield). FCF yield sobre owner earnings = $4,899M / $120.58B = ~4.06%. A un WACC de 9.8% y crecimiento de owner FCF de doble digito bajo, el rendimiento de entrada (~4%) implica que el retorno esperado del accionista (FCF yield ~4% + crecimiento ~8-10% - dilucion ~0) ronda ~12-14% bruto, pero descontado a VI sale a ~$329 ponderado. La VI ponderada por probabilidad (~$329) queda ~19% por debajo del precio de $407, coherente con un fwd P/E de 20.3x todavia exigente pese a la caida -29.6% desde maximos. Conclusion: franquicia de calidad excepcional (foso de oligopolio en ratings/indices, SBC minima, ROIC ex-goodwill ~39%) pero el precio actual descuenta gran parte del crecimiento futuro; margen de seguridad limitado o nulo a $407.",
+ "method_notes": "DCF de owner earnings a 10 anios en USD. Base owner FCF = FCF GAAP FY25 $5,135M - 100% SBC $236M = $4,899M. Fase 1 (anios 1-5): CAGR de owner FCF que captura crecimiento organico de ingresos (~7.5%) + apalancamiento operativo + recompras (base 10%, cons 7%, opt 13%). Fase 2 (anios 6-10): CAGR declinante linealmente hacia normalizacion (base 9%->5.5%, cons 6%->4%, opt 11%->6.5%). Valor terminal Gordon con g=2.5-3.5% segun foso (negocio de indices/ratings/datos de muy alta calidad justifica el extremo superior). WACC = Rf 4.3% (UST 10Y, empresa US) + ERP 5.0% x beta 1.10 = 9.8% (cons beta 1.15 -> 10.05%; opt beta 1.05 -> 9.55%); sin ajuste geopolitico. Beta 1.10 estimada: negocio de baja ciclicidad estructural pero con sensibilidad de Ratings a ciclos de credito/emisiones. Acciones diluidas ~0.296B (mcap $120.58B / $407.39). Deuda neta $12.09B restada del EV. VI por accion = (PV flujos + PV valor terminal - deuda neta) / acciones. DCF valido para datos/ratings (no DDM). El spin-off de S&P Global Mobility (Investor Day 12-may-2026) es catalizador estructural no modelado explicitamente (potencial al alza en escenario optimista)."
+}

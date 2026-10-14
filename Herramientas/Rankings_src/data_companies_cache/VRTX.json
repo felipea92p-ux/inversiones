@@ -1,0 +1,104 @@
+{
+ "ticker": "VRTX",
+ "name": "Vertex Pharmaceuticals Incorporated",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 466.79,
+ "market_cap_usd_b": 118.5,
+ "fwd_pe": 23.83,
+ "fwd_pe_5y_avg": 25.88,
+ "pe_prem_disc_pct": -7.9,
+ "peg": 1.9,
+ "last_q": {
+  "period": "Q1 2026 (ended 2026-03-31)",
+  "revenue": "$2.99B",
+  "rev_yoy_pct": 8,
+  "op_margin_pct": 38.1,
+  "eps_gaap": "$4.02",
+  "eps_adj": "$4.47"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended 2025-12-31)",
+  "revenue": "$12.00B",
+  "organic_growth_pct": 8.9,
+  "roic_pct": 28.57,
+  "fcf": "$3.19B",
+  "fcf_margin_pct": 26.6
+ },
+ "sbc_pct_revenue": 5.7,
+ "sbc_pct_fcf": 21.5,
+ "net_debt_usd_b": -11,
+ "nd_ebitda": null,
+ "net_cash": true,
+ "guidance_fy": "FY2026 total revenue guidance reiterated at $12.95B-$13.10B (PROYECCION), including at least $500M from non-CF products (CASGEVY, JOURNAVX).",
+ "pct_off_52w_high": -8.1,
+ "pct_off_ath": -10.2,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_q.op_margin_pct",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "guidance_fy"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "nd_ebitda"
+ ],
+ "sources": [
+  {
+   "label": "SEC EDGAR - VRTX FY2025 Form 10-K (filed 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000875320/000087532026000056/vrtx-20251231.htm",
+   "date": "2026-02"
+  },
+  {
+   "label": "Vertex IR - Q4 & Full Year 2025 Financial Results",
+   "url": "https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-fourth-quarter-and-full-year-2025-financial",
+   "date": "2026-02"
+  },
+  {
+   "label": "StockTitan - VRTX Q1 2026 10-Q summary ($2.99B revenue)",
+   "url": "https://www.stocktitan.net/sec-filings/VRTX/10-q-vertex-pharmaceuticals-inc-ma-quarterly-earnings-report-d96775ba926f.html",
+   "date": "2026-05-06"
+  },
+  {
+   "label": "StockAnalysis.com - VRTX overview/statistics (price, fwd P/E, PEG, ROIC, debt/cash)",
+   "url": "https://stockanalysis.com/stocks/vrtx/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com - VRTX cash flow (OCF, capex, FCF, SBC)",
+   "url": "https://stockanalysis.com/stocks/vrtx/financials/cash-flow-statement/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "FullRatio - VRTX P/E ratio history (5Y avg P/E 25.88)",
+   "url": "https://fullratio.com/stocks/nasdaq-vrtx/pe-ratio",
+   "date": "2026-06"
+  },
+  {
+   "label": "Macrotrends - VRTX stock price history (ATH $519.88)",
+   "url": "https://www.macrotrends.net/stocks/charts/VRTX/vertex-pharmaceuticals/stock-price-history",
+   "date": "2026-06"
+  }
+ ],
+ "notes": "FUENTE PRIMARIA: 10-K FY2025 y comunicado IR de resultados Q4/FY2025; resultados Q1 2026 del 10-Q (StockTitan resume el filing oficial). Datos de mercado (precio, fwd P/E, PEG, ROIC, deuda/caja) de StockAnalysis.com (agregador, ESTIMADO).\n\nPRECIO: discrepancia entre fuentes el 22-jun-2026 — Yahoo cotizaba ~$452.94 (intradia, rango $450.40-$464.98), StockAnalysis.com $466.79 (consistente con market cap $118.5B). Uso $466.79 por consistencia con la capitalizacion; el precio real puede estar en rango $453-467.\n\nCAJA NETA: cash, equivalentes y valores negociables = ~$13.0B (Q1 2026); deuda total ~$1.99B. Caja neta ~ -$11.0B (fuertemente positiva). nd_ebitda no aplica/null por caja neta. StockAnalysis muestra 'total cash' $7.25B (solo efectivo+equiv corto plazo, excluye valores negociables a largo plazo); la cifra de $13.0B del comunicado IR incluye todos los marketable securities.\n\nFY2025: ingresos $12,001M (+8.9%), op income GAAP $4,173M (margen 34.8%), net income $3,953M, EPS GAAP diluido $15.32, OCF $3,631M, capex $437.6M, FCF $3,194M (margen 26.6%), SBC $685.9M (5.7% de ingresos, 21.5% del FCF). FY2024 fue año de pérdida GAAP (op income -$232.9M, EPS -$2.08) por cargos de IPR&D adquirido/impairment, por eso 'organic_growth' se basa en crecimiento de ingresos reportado.\n\nQ1 2026: ingresos $2.99B (+8% YoY), CF $2.92B (TRIKAFTA/KAFTRIO $2.35B, ALYFTREK $424M), no-CF (CASGEVY+JOURNAVX) ~$72M; op margin GAAP ~38.1%; EPS GAAP $4.02 vs $2.49; EPS no-GAAP $4.47; net income $1.03B; caja+valores $13.0B tras $344.5M de recompras.\n\nVALORACION: fwd P/E 23.83 vs media 5a ~25.88 (descuento ~ -8%); PEG 1.9. La media de 5a citada por FullRatio mezcla P/E trailing/forward — usar con cautela. pe_prem_disc_pct calculado: (23.83/25.88-1)*100 = -7.9%.\n\nDROP: 'not_depressed' — la acción cotiza ~8% por debajo del máximo de 52s ($507.92) y ~10% del máximo histórico ($519.88, nov-2024). No hay desplome: ingresos crecientes, FCF récord, caja neta robusta, guía FY2026 reiterada al alza. No es ni fear_rotation ni deterioro; simplemente no está deprimida."
+}

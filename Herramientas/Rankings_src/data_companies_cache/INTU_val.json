@@ -1,0 +1,48 @@
+{
+ "ticker": "INTU",
+ "currency": "USD",
+ "name": "Intuit Inc.",
+ "price_verified": 258.67,
+ "price_source": "StockAnalysis.com overview + statistics pages (cross-checked vs Yahoo Finance / search aggregators); close Jun 22, 2026",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.27354,
+ "implied_mcap_b_usd": 70.51,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 10.3,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.2,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY25 = reported FCF $6.083B − 100% SBC $1.968B = $4.115B (owner FCF margin ~21.9% of revenue; SBC is material at ~32% of FCF, so the SBC deduction is the key adjustment). Projection grows this base; FY26 owner FCF est ~$4.73B (~$17.3/sh).",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 280.03,
+   "prob": 0.38,
+   "note": "Pesimista razonable NO apocaliptico: AI agentico erosiona parcialmente el moat de TurboTax (software guiado se comoditiza), crecimiento de owner FCF g1=8% fase 1, declinando a g=3% terminal. SMB/QuickBooks+Mailchimp+Credit Karma siguen creciendo pero a ritmo menor; margenes estables tras el recorte del 17% de plantilla. TV weight ~53%."
+  },
+  "base": {
+   "iv_per_share": 367.29,
+   "prob": 0.47,
+   "note": "Compounder durable: AI net-neutral-a-positivo (Intuit Assist/agentes integran IA en su plataforma y defienden el moat de datos QuickBooks); g1=13% (en linea con guia FY26 +13-14% ingresos), declinando a g=3% terminal. Posicion de caja neta, ROIC ~16%, expansion de margen operativo. TV weight ~56%."
+  },
+  "optimista": {
+   "iv_per_share": 506.46,
+   "prob": 0.15,
+   "note": "La plataforma de IA acelera el cross-sell y la monetizacion (mid-market QuickBooks, ESP, Credit Karma), g1=18%, terminal g=3.5%. Apalancamiento operativo post-reestructuracion expande margenes. El recorte de plantilla resulta acretivo. TV weight ~60%."
+  }
+ },
+ "iv_dcf_weighted": 355.01,
+ "multiple_metric": "P / Owner-FCF por accion (owner-FCF = FCF − 100% SBC); anclado a la media historica de multiplo adelantado tras haircut por riesgo estructural",
+ "fwd_multiple_now": 9.47,
+ "fwd_multiple_5y_avg": 34,
+ "fair_multiple": 22,
+ "multiple_rationale": "El fwd P/E actual de 9.6x (sobre EPS non-GAAP NTM ~$26-27) esta brutalmente deprimido vs la media 5a de ~34x (dispersion de fuentes 34-52; se usa 34 conservadoramente). En base owner-FCF, INTU historicamente cotizo ~30-40x EV/FCF. Aplico un HAIRCUT estructural fuerte hasta 22x sobre owner-FCF/accion FY26 (~$17.3): no es un ajuste ciclico sino reconocimiento de un riesgo REAL (aunque probablemente sobreestimado por el mercado) de que la IA agentica comoditice el 'software guiado' de TurboTax. iv_multiple = 17.3 × 22 = ~$381. Incluso con ese haircut del ~35% vs media historica, el valor implicito supera ampliamente el precio, evidenciando la magnitud del fear_rotation.",
+ "iv_multiple": 437.12,
+ "weight_dcf": 0.45,
+ "weight_multiple": 0.55,
+ "reconciled_iv": 400.11,
+ "structural_change": "Cambio estructural PARCIAL y genuino (no solo ciclico), pero acotado. Lo real: (1) la IA agentica amenaza el moat de 'software guiado' de TurboTax (~28% de ingresos, segmento Consumer), riesgo de comoditizacion a 3-5 anios; (2) recorte del 17% de plantilla (cargo de reestructuracion $300-340M) que la direccion enmarca como pivote hacia IA, no como debilidad de demanda. Lo que NO cambio: guia FY26 SUBIDA (ingresos +13-14%, EPS non-GAAP +18%), margen operativo GAAP 46.9%, FCF $6.1B (32% margen), posicion de caja neta, ROIC ~16%, y el moat de datos de QuickBooks/SMB (mas defendible ante IA que TurboTax). El recorte del precio (-68% desde maximos) excede masivamente el deterioro fundamental: solo se recorto ~0.5% el forecast de TurboTax mientras se subio la guia global. Justifica el haircut de multiplo pero no la dislocacion del precio.",
+ "sanity_notes": "SANITY CHECK OK. Precio $257.77 × 0.27354B acciones = $70.51B mcap, coincide con la escala conocida de INTU (~$70B) y con StockAnalysis/Yahoo. Se descarto un valor erroneo de $97B que aparecio en un agregador (implicaria ~376M acciones, inconsistente). Acciones diluidas verificadas dos veces en StockAnalysis.com (273.54M). Net debt -$0.12B (caja neta) confirmado (deuda total $6.90B vs caja+inversiones $6.78B). Todos los IV en USD, misma moneda que el precio. REGLA DE MAGNITUD: reconciled_iv $369 = 143% del precio, dentro del rango 30-300% ($77-$773); escenarios DCF ($280/$367/$506) tambien dentro de rango. Convergencia estrecha DCF $355 vs multiplo $381 refuerza la robustez. Pesos 0.45 DCF / 0.55 multiplo: compounder probado y estable (favorece multiplo) PERO con incertidumbre estructural REAL por IA (favorece disciplina DCF), por eso no se usa el 0.35/0.65 reservado a compounders sin amenaza. Conclusion: IV reconciliado ~$369 implica ~43% de upside; el selloff luce como fear_rotation con margen de seguridad amplio incluso aplicando haircuts conservadores. Riesgo clave a monitorear: trayectoria de ingresos de TurboTax/Consumer en proximas 2-3 temporadas fiscales."
+}

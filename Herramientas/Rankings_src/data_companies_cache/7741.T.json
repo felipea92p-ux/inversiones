@@ -1,0 +1,106 @@
+{
+ "ticker": "7741.T",
+ "name": "HOYA Corporation",
+ "asof_date": "2026-06-22",
+ "currency": "JPY",
+ "price": 26975,
+ "market_cap_usd_b": 57.5,
+ "fwd_pe": 34.1,
+ "fwd_pe_5y_avg": 28.5,
+ "pe_prem_disc_pct": 19.6,
+ "peg": 3.85,
+ "last_q": {
+  "period": "Q4 FY25 (quarter ended March 31, 2026)",
+  "revenue": "¥248.1bn",
+  "rev_yoy_pct": 15,
+  "op_margin_pct": 30.1,
+  "eps_gaap": "¥160.80 (quarterly basic)",
+  "eps_adj": "n/a (IFRS, no adjusted EPS reported)"
+ },
+ "last_fy": {
+  "period": "FY25 (year ended March 31, 2026)",
+  "revenue": "¥947.7bn",
+  "organic_growth_pct": 8,
+  "roic_pct": 21.1,
+  "fcf": "~¥65.8bn (latest quarter; FY FCF not precisely disclosed)",
+  "fcf_margin_pct": null
+ },
+ "sbc_pct_revenue": 0.3,
+ "sbc_pct_fcf": 1.5,
+ "net_debt_usd_b": -3.5,
+ "nd_ebitda": -1.4,
+ "net_cash": true,
+ "guidance_fy": "HOYA does not issue conventional numeric full-year guidance. For FY26 (year ending March 2027) management gave qualitative aims: continued growth in IT (EUV mask blanks, HDD glass substrates - new Singapore EUV facility ~¥42bn and Vietnam HDD substrate facility ~¥50bn Phase 1), Life Care growth via high-value-added eyeglass lenses (MiYOSMART iQ rollout) and contact lenses. New capital policy: release ~¥110bn excess cash over ~3 years via buybacks, return 100% of FCF (dividends + buybacks), progressive dividend at 40% payout. No revenue/OP forecast figure provided.",
+ "pct_off_52w_high": -11.3,
+ "pct_off_ath": -11.3,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.roic_pct",
+  "last_fy.fcf",
+  "net_cash",
+  "guidance_fy",
+  "currency",
+  "asof_date"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "last_fy.fcf_margin_pct",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "HOYA IR - FY25 Q4 Earnings Presentation (year ended Mar 31, 2026), released 2026-04-30 (PRIMARY)",
+   "url": "https://ssl4.eir-parts.net/doc/7741/tdnet/2797232/00.pdf",
+   "date": "2026-04-30"
+  },
+  {
+   "label": "HOYA IR - Financial Results Briefing Materials index",
+   "url": "https://www.hoya.com/en/investor/kessan/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com - HOYA 7741 Statistics (price, mkt cap, fwd P/E, PEG, net cash, EV/EBITDA)",
+   "url": "https://stockanalysis.com/quote/tyo/7741/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com - HOYA 7741 overview (52w range, EPS TTM, performance)",
+   "url": "https://stockanalysis.com/quote/tyo/7741/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "TradingEconomics - HOYA 7741 P/E",
+   "url": "https://tradingeconomics.com/7741:jp:pe",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "CompaniesMarketCap - HOYA ATH (¥30,400 on 2026-04-15)",
+   "url": "https://companiesmarketcap.com/hoya/pe-ratio/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Simply Wall St - HOYA valuation (P/E ~36x vs JP med-device peers ~25.9x)",
+   "url": "https://simplywall.st/stocks/jp/healthcare/tse-7741/hoya-shares",
+   "date": "2026-06-22"
+  }
+ ],
+ "notes": "FY labeling: HOYA's fiscal year ends March 31; the company labels its year ended Mar-2026 as \"FY25\" (by start year). As of today (2026-06-22) the latest reported full year is the year ended Mar 31, 2026 and the latest quarter is Q4 (Jan-Mar 2026); Q1 of the new year (ending Jun 2026) is not yet reported. VERIFIED from primary IR presentation: FY revenue ¥947.7bn (+9%, CC +8%), operating profit ¥285.2bn (FY OP margin ~30.1%), pretax profit ¥327.7bn (+26%), ROIC 21.1% FY / 19.5% Q4. Q4 revenue ¥248.1bn (+15%, CC +9%), OP ¥74.7bn (+14%), pretax ¥76.6bn (+15%), Q4 OP margin ~30.1%. IT business (EUV/DUV mask blanks, HDD glass substrates) main driver; Imaging recovered (+30%). DROP CLASSIFICATION = not_depressed: stock is +59.8% over the past year, set an all-time/52-week high of ¥30,400 on 2026-04-15, and trades only ~11.3% below it — near record highs, not a sell-off. ESTIMATED: fwd_pe_5y_avg (~28.5x), pe_prem_disc_pct (~+20%) and peg lack a clean primary 5y-average source; HOYA historically ~27-30x (27.8x end-2022), so current fwd P/E ~34x is a modest premium to its own history and well above JP medical-device peers (~25.9x). Net cash ESTIMATED ~¥531.85bn (StockAnalysis); company cites ~¥570bn net cash excl. direct bank borrowings and ¥574bn cash & deposits at end-FY25; net_debt_usd_b ≈ -3.5 at USD/JPY ~157; nd_ebitda approximate (EBITDA ~¥380bn). SBC negligible for this Japanese IFRS issuer (no large equity-comp program); sbc_pct_revenue/sbc_pct_fcf are rough ~0.3%/~1.5% estimates, not filing line items — immaterial for R9. last_q.eps_gaap ¥160.80 is QUARTERLY basic EPS; TTM EPS ≈ ¥743.82. FY free cash flow not precisely disclosed in the deck; ¥65.8bn is the latest-quarter figure. market_cap_usd_b ¥9.02tn / ~157 ≈ $57.5bn."
+}

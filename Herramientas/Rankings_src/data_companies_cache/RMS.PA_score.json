@@ -1,0 +1,59 @@
+{
+ "ticker": "RMS.PA",
+ "name": "Hermès International SCA",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Modelo de manufactura artesanal (talleres, cuero hecho a mano) NO escala como software: margen recurrente 41% es excepcional pero deriva de pricing/escasez, no de apalancamiento operativo creciente con volumen; sin el 2.0 reservado a redes/software."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Lujo personal de gama alta es tendencia secular (riqueza global, Asia/EEUU +17%/+10%), pero el ciclo actual de normalizacion del lujo (-1% ventas corrientes Q1, FX) muestra ciclicidad; durabilidad superior pero no inmune."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Hermes es el lider indiscutible y solitario del ultra-lujo (Birkin/Kelly con lista de espera de anios); deja a LVMH/Kering a anios-luz en margen (41% vs ~20-25%) y poder de fijacion de precios -> dominancia monstruosa e irreplicable."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat de marca + escasez deliberada + intangibles artesanales de 188 anios es irreplicable en decadas: el control de oferta y la mistica del Birkin no se pueden comprar ni copiar; foso del nivel mas alto."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento 100% organico (+8.9% cc FY25, +6% cc Q1-26) sin M&A; Hermes crece por talleres propios y pricing, no por adquisiciones -> calidad superior del crecimiento."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Multi-geografia solida (America +17%, Japon +10%, Europa +11%) y sin dependencia de un cliente; pero concentracion alta en Cuero/Marroquineria (+9%, motor dominante) y exposicion a Asia limita el 1.5."
+  },
+  "R7": {
+   "score": 2,
+   "just": "ROIC ~28% muy por encima del WACC con caja neta; FCF €3,880M margen 24.2% y conversion FCF/NI ~86% (>80%); intensidad de capital artesanal NO penaliza dado el ROIC excepcional -> perfil de capital de elite."
+  },
+  "R8": {
+   "score": 2,
+   "just": "Balance fortaleza absoluta: caja neta €12.2B (net_debt -€14B USD), ND/EBITDA ~-1.7x; cero riesgo financiero, optionalidad total."
+  },
+  "R9": {
+   "score": 1,
+   "just": "SBC verificada ~3.5% del FCF (muy por debajo del umbral duro de 15%); dilucion inmaterial, contabilidad limpia de fuente primaria (PR FY25/Q1), sin senales de agresividad; estimado pero conservador -> sin penalizacion."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Familia Dumas con control y skin-in-the-game multigeneracional, asignacion de capital disciplinada (dividendo €18 + bono €3,000 a empleados, sin M&A destructora ni buybacks caros), orientacion a largo plazo ejemplar."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R3 (lider solitario del ultra-lujo) + R4 (moat de marca/escasez irreplicable en decadas) se refuerzan de forma monstruosa y alimentan directamente el R7 (ROIC ~28%, margen 41%): la escasez deliberada y la mistica de marca SON el motor del pricing power que produce los margenes y retornos de elite. La marca crea el foso, el foso crea el pricing, el pricing crea el margen. R1 no amplifica (manufactura artesanal no escala como red/software), pero el binomio R3+R4 es de los mas potentes del universo cotizado.",
+ "moat_type": "Marca / escasez / intangibles",
+ "moat_one_line": "Foso de marca irreplicable basado en escasez controlada de la oferta (listas de espera de anios para Birkin/Kelly) y artesania propia, que genera pricing power estructural y margenes operativos del 41% imposibles de replicar por competidores.",
+ "thesis_3lines": [
+  "Calidad: negocio de la mas alta calidad del universo cotizado -- margen operativo recurrente 41%, ROIC ~28%, caja neta €12.2B y crecimiento 100% organico, con un moat de marca/escasez irreplicable en decadas.",
+  "Motor de crecimiento: crecimiento secular doble digito a tipo constante (FY25 +8.9% cc, Q1-26 +6% cc) impulsado por pricing power, expansion de talleres propios y demanda en America (+17%) y Japon (+10%), sin depender de M&A.",
+  "Valoracion/retorno: a fwd P/E 37.2 cotiza ~-19% bajo su media de 5 anios (~46) tras un de-rating de -35% por miedo/rotacion y FX (no deterioro de demanda) -- entrada inusualmente razonable en un compounder de calidad maxima."
+ ],
+ "bear_case_strongest": "A fwd P/E 37 y PEG ~4.7 con crecimiento de EPS desacelerando a ~6-8% cc y ventas a tipo corriente ya en -1% (Q1), una normalizacion prolongada del ciclo del lujo y un FX adverso podrian comprimir simultaneamente multiplo Y crecimiento, dejando el retorno plano durante anios pese a la calidad excepcional del negocio.",
+ "ethical_flag": "none",
+ "sbc_flag": "ok",
+ "notes": "Score total ponderado: R1 1.0 + R2 1.5 + R3 2.0 + R4 2.0 + R5 1.5 + R6 1.0 + R7 2.0 + R8 2.0 + R9 1.0 + R10 1.5 = 15.5 sobre techo de 13.5 -> el modelo concentra el maximo en R3/R4/R7/R8 (los 2.0). Ajuste vs FASE 1 (13.5/13.5 preliminar): se mantiene en el techo efectivo del marco; el unico recorte real es R1 (1.0, manufactura artesanal no escala como software) compensado por amplificacion R3+R4+R7. SBC ~3.5% FCF (estimado, bajo umbral de 15%) -> R9 sin penalizacion pero marcado como estimado en datos. Riesgos a vigilar: ciclo del lujo, FX (-€290M impacto Q1), Oriente Medio -6%. Drop = fear_rotation, NO deterioro de fundamental."
+}

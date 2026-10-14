@@ -1,0 +1,307 @@
+{
+  "ticker": "ISRG",
+  "empresa": "Intuitive Surgical, Inc.",
+  "cik": "0001035267",
+  "domicilio": "EEUU (Sunnyvale, CA) — Nasdaq",
+  "divisa_reporte": "USD",
+  "fecha_valoracion": "2026-07-28",
+  "etiqueta_calidad_congelada": "ULTRA-R (5 puertas pasadas)",
+  "etiqueta_reclasificada": "NO — la etiqueta congelada no se toca. Nada de lo hallado en el precio la mueve, ni hacia arriba ni hacia abajo.",
+  "especie": "G2 — reinversion 26,1% de ventas, ROIIC bruto 18,7%, ROIIC ex-margen 14,0%",
+  "mos_exigido_pct": 18.0,
+  "mos_exigido_motivo": "Umbral de ABRIR para banda ULTRA. La empresa NO esta en cartera, luego no aplica el escalon de CARGAR (+12 puntos, que la llevaria al 30%).",
+
+  "mecanismo_congelado": "ISRG vende barato el consumible y regala margen a proposito (precio por procedimiento -3,5% nominal en cinco anios) para multiplicar por 2,5 el volumen de cirugias sobre una base instalada que nunca se ha encogido, y cobra el 84% de sus ingresos como renta recurrente de una flota que ningun hospital puede sustituir sin tirar 1,6 M USD y reentrenar a su equipo. Eslabon mas debil: ROIIC ex-margen 14,0%-16,2%, justo en el umbral; y dos erosiones fechadas del coste de cambio declaradas por escrito (China 2025 y el propio giro al arrendamiento).",
+
+  "precio": {
+    "precio_usd": 357.12,
+    "fuente": "IBKR market data snapshot, ultimo negociado 2026-07-28 (ts 1785204666 = 2026-07-27 sesion regular / after-hours). Contract_id 9063285, NASDAQ. Bid 355,00 / Ask 359,50.",
+    "cambio_ytd_pct": -36.94,
+    "rango_52s_usd": [328.57, 603.88],
+    "rango_13s_usd": [328.57, 473.86],
+    "vol_anual_historica_pct": 46.0,
+    "etiqueta": "HECHO (dato vivo de mercado, no memoria)",
+    "ADS": "No aplica. Accion ordinaria domestica, 1 accion = 1 accion.",
+    "contexto_de_la_caida": "La accion cae 36,9% en 2026 y toca minimo de 52 semanas la misma semana de esta valoracion. La caida NO viene de resultados malos: Q2 2026 batio (ingresos +18,5%, BPA no-GAAP 2,80 USD). Viene de (i) moderacion del crecimiento de procedimientos en EEUU al ~12% i.a. con debilidad en categorias benignas, (ii) expiracion de los creditos fiscales reforzados del ACA como viento en contra de acceso del paciente, (iii) competencia en China, (iv) iniciativas de precio. Fuente: rueda de prensa/cobertura del 16-18 julio 2026 (Motley Fool, Benzinga) — INFERENCIA de prensa, no HECHO de filing; el filing solo confirma la guia."
+  },
+
+  "acciones_y_capitalizacion": {
+    "acciones_en_circulacion_mm": 353.9,
+    "fuente_acciones": "10-Q Q2 2026 (accession 0001035267-26-000058), Condensed Consolidated Balance Sheets al 2026-06-30: 353,9 mm acciones emitidas y en circulacion. HECHO.",
+    "acciones_diluidas_ponderadas_q2_mm": 357.3,
+    "capitalizacion_usd_mm": 126385,
+    "nota_capitalizacion": "353,9 mm x 357,12 USD. Usando la diluida ponderada de Q2 (357,3 mm) la capitalizacion seria 127.600 USD mm; la diferencia (1,0%) esta muy dentro del piso de resolucion."
+  },
+
+  "deuda_y_caja": {
+    "deuda_financiera_usd_mm": 0.0,
+    "nota_deuda_financiera": "HECHO: el balance del 10-K 2025 y del 10-Q Q2 2026 NO contienen ninguna linea de deuda. Pasivo total 2.578,9 USD mm al 2026-06-30, integramente operativo (cuentas a pagar, nominas devengadas, ingresos diferidos, impuestos). No existe tag XBRL de LongTermDebt ni de InterestExpense en el companyfacts de la SEC.",
+    "arrendamientos_operativos_usd_mm": 180.0,
+    "fuente_arrendamientos": "10-K 2025: OperatingLeaseLiability 170,9 USD mm al 2025-12-31 (39,0 corriente + 131,9 no corriente). Estimo ~180 al 2026-06-30. INFERENCIA (extrapolacion de medio anio).",
+    "efectivo_e_inversiones_usd_mm": 8625.5,
+    "desglose_efectivo": "Efectivo y equivalentes 2.760,4 + inversiones a corto 2.455,8 + inversiones a largo 3.409,3 = 8.625,5 al 2026-06-30. HECHO (10-Q Q2 2026, balance). Cuadra con el 'ended the second quarter with $8.63 billion in cash, cash equivalents, and investments' de la nota de prensa (8-K 2026-07-16, Ex-99.1).",
+    "deuda_neta_usd_mm": -8445.5,
+    "nota": "Caja neta de 8.446 USD mm = 6,7% de la capitalizacion. Sin deuda financiera, el WACC colapsa al coste de los fondos propios."
+  },
+
+  "ev_usd_mm": 117939,
+
+  "wacc": {
+    "candado_B": "El WACC sale del mercado, no del tier de calidad. Ninguna cifra de aqui se ha heredado de la etiqueta ULTRA-R.",
+    "tasa_libre_riesgo_pct": 4.65,
+    "fuente_tasa_libre_riesgo": "Bono del Tesoro EEUU a 10 anios (moneda funcional USD). FRED serie DGS10: 4,69% al 2026-07-24 (ultima observacion publicada). TradingEconomics reporta 4,64% al 2026-07-27. Uso 4,65% central. HECHO (FRED) + comprobacion cruzada.",
+    "beta": 1.45,
+    "fuente_beta": "Calculo propio: regresion de 60 retornos MENSUALES de ISRG contra SPY, ago-2021 a jul-2026, barras de IBKR (contract_id 9063285 y 756733) descargadas el 2026-07-28. Beta = 1,449, correlacion 0,66, vol anual ISRG 35,2% vs SPY 16,0%. Comprobacion cruzada: Yahoo Finance 'Beta (5Y Monthly)' = 1,46 al 2026-07-27. HECHO (calculo propio replicable) + fuente citable coincidente.",
+    "beta_alternativas": {
+      "beta_3a_mensual": 1.17,
+      "beta_2a_mensual": 0.75,
+      "beta_blume_ajustada_5a": 1.30,
+      "comentario": "La beta a 5 anios esta inflada por el desplome idiosincratico de 2026 (-37% YTD mientras el SPY sube). La de 2 anios (0,75) esta deprimida por el tramo 2024-25 en el que ISRG subio contra un mercado plano. Uso 1,45 como central por ser la citable y la mas conservadora para la valoracion; el rango de sensibilidad va de 1,15 a 1,50."
+    },
+    "prima_mercado_pct": 4.23,
+    "fuente_prima_mercado": "Damodaran, prima de riesgo de mercado maduro. Tabla 'Country Default Spreads and Risk Premiums', ultima actualizacion 5-enero-2026: ERP mercado maduro 4,23%; ERP total EEUU 4,46% (incluye 0,23% de spread de default soberano de EEUU, Moody's Aa1). Prima implicita de Damodaran al inicio de 2026 = 4,23%. HECHO (fuente citable, fechada).",
+    "prima_pais_pct": 0.45,
+    "fuente_prima_pais": "Ponderada por el origen del riesgo de ACTIVO, no por domicilio fiscal. 10-K 2025 nota de segmentos: ingresos domesticos 68%, OUS 32% (2024: 67/33; 2023: 66/34). Prima pais Damodaran (5-ene-2026): EEUU 0,23%; Alemania 0,00%; Japon y China 0,91%; Corea 0,64%; India 2,85%. Mezcla OUS estimada ~0,85%. Ponderado: 0,68x0,23 + 0,32x0,85 = 0,43% -> 0,45%. INFERENCIA (la mezcla exacta por pais no se desglosa en el filing).",
+    "prima_total_aplicada_pct": 4.70,
+    "coste_fondos_propios_pct": 11.47,
+    "coste_deuda_pct": 4.6,
+    "fuente_coste_deuda": "No existe deuda financiera ni gasto por intereses en ningun filing. La unica obligacion financiera con tasa explicita es el arrendamiento operativo: 10-K 2025, OperatingLeaseWeightedAverageDiscountRatePercent = 4,6%. HECHO. Coste despues de impuestos (tasa efectiva 13,1%) = 4,0%.",
+    "peso_deuda_pct": 0.14,
+    "peso_equity_pct": 99.86,
+    "wacc_pct": 11.5,
+    "wacc_rango": "10,0% – 12,5%",
+    "wacc_rango_detalle": "Extremo bajo: beta 1,15 (media de las ventanas 2a/3a/Blume) y ERP 4,46% -> 4,65 + 1,15x4,68 = 10,03%. Extremo alto: beta 1,50 y ERP 5,2% -> 4,65 + 1,50x5,20 = 12,45%. Central 11,5%.",
+    "nota_estructura": "Con 0 de deuda financiera el WACC es, a efectos practicos, el coste de los fondos propios. La caja neta de 8.446 USD mm se suma aparte al valor de empresa, no se mete en la tasa."
+  },
+
+  "cuentas_base": {
+    "ultimo_ejercicio_auditado": "FY2025, 10-K presentado 2026-02-03, accession 0001035267-26-000010. Auditor: dictamen incluido (R2 Audit Information).",
+    "FY2025_HECHOS": {
+      "ingresos_usd_mm": 10064.7,
+      "beneficio_operativo_usd_mm": 2945.5,
+      "beneficio_neto_atribuible_usd_mm": 2856.0,
+      "flujo_de_caja_operativo_usd_mm": 3030.5,
+      "capex_pp_e_usd_mm": 539.8,
+      "depreciacion_y_bajas_pp_e_usd_mm": 614.7,
+      "amortizacion_intangibles_usd_mm": 62.4,
+      "compensacion_en_acciones_usd_mm": 788.2,
+      "impuestos_pagados_neto_usd_mm": 537.9,
+      "tasa_impositiva_efectiva_pct": 13.1,
+      "recompras_usd_mm": 2295.3,
+      "transferencias_no_monetarias_inventario_a_pp_e_usd_mm": 808.9,
+      "fuente": "10-K 2025: R6 (cuenta de resultados), R9 (flujos de caja), R12 (detalles). Todo HECHO."
+    },
+    "H1_2026_HECHOS": {
+      "ingresos_usd_mm": 5663.1,
+      "beneficio_operativo_usd_mm": 1827.2,
+      "beneficio_neto_atribuible_usd_mm": 1639.6,
+      "flujo_de_caja_operativo_usd_mm": 1972.9,
+      "capex_pp_e_usd_mm": 215.9,
+      "depreciacion_y_bajas_pp_e_usd_mm": 371.2,
+      "amortizacion_intangibles_usd_mm": 59.9,
+      "compensacion_en_acciones_usd_mm": 419.4,
+      "impuestos_diferidos_add_back_usd_mm": 370.3,
+      "adquisiciones_usd_mm": 528.2,
+      "tasa_impositiva_efectiva_H1_pct": 17.3,
+      "fuente": "10-Q Q2 2026, accession 0001035267-26-000058: R4 (resultados), R5 (flujos), R2 (balance). Todo HECHO.",
+      "aviso_calidad_del_flujo": "El FCO de H1 2026 incluye +370,3 USD mm de impuestos diferidos (el activo por impuesto diferido cae de 1.018,6 a 652,4). En H1 2025 esa linea fue -29,4. Es un swing de ~400 USD mm no repetible que infla el FCO del semestre. Sin el, el FCO H1 seria 1.602,6 (28,3% de ventas) en vez de 34,8%."
+    },
+    "guia_de_la_empresa_2026": {
+      "crecimiento_procedimientos_da_vinci_pct": "13,5% – 15,5%, 'mas cerca del punto medio'",
+      "margen_bruto_no_gaap_pct": "68,0% – 69,0% (incluye -1,0% de impacto arancelario)",
+      "crecimiento_opex_no_gaap_pct": "11% – 13%",
+      "fuente": "8-K 2026-07-16, Ex-99.1 (nota de resultados Q2 2026), seccion '2026 Financial Outlook'. HECHO."
+    },
+    "operativos_Q2_2026": {
+      "procedimientos_mundiales_crecimiento_pct": 16,
+      "procedimientos_da_vinci_crecimiento_pct": 15,
+      "procedimientos_ion_crecimiento_pct": 36,
+      "sistemas_da_vinci_colocados": 468,
+      "de_los_cuales_da_vinci_5": 246,
+      "colocados_bajo_arrendamiento_operativo": 254,
+      "de_los_cuales_basados_en_uso": 131,
+      "base_instalada_da_vinci": 11710,
+      "base_instalada_da_vinci_hace_un_anio": 10488,
+      "base_instalada_ion": 1096,
+      "fuente": "8-K 2026-07-16, Ex-99.1. HECHO.",
+      "lectura": "La base instalada crece 12% i.a. y los procedimientos 16%. El motor del mecanismo congelado sigue girando. Pero el 54% de las colocaciones del trimestre fueron bajo arrendamiento operativo (254 de 468) frente al 49% hace un anio: la erosion del coste de cambio que la propia empresa declaro se sigue materializando por su propia mano."
+    }
+  },
+
+  "hallazgo_contable_clave": {
+    "titulo": "El capex de ISRG NO mide su inversion en activo fijo. Falta la mitad, y esta escondida en el circulante.",
+    "evidencia": "10-K 2025, R12, 'Supplemental Cash Flow Information': 'Equipment transfers, including operating lease assets, from inventory to property, plant, and equipment' = 808,9 USD mm en 2025; 614,9 en 2024; 422,4 en 2023. HECHO.",
+    "mecanica": "Los sistemas da Vinci que ISRG coloca en arrendamiento operativo se fabrican, entran en inventario (salida de caja real, contabilizada en la linea de 'Inventory' del estado de flujos) y despues se reclasifican a PP&E sin tocar caja. Prueba: en 2025 el inventario de balance sube 352,8 (1.487,2 -> 1.840,0) pero la linea de flujos muestra -1.063,4; la diferencia (710,6) es justamente la transferencia a PP&E. La flota arrendada es, por tanto, INVERSION DE CRECIMIENTO pagada a traves del capital circulante.",
+    "consecuencias": [
+      "El capex declarado (539,8 en 2025) subestima la inversion real en activo fijo, que fue 539,8 + 808,9 = 1.348,7 USD mm.",
+      "El FCO ya esta neto de esa inversion de crecimiento. Por tanto el FCO y el FCF PENALIZAN a ISRG por reinvertir — exactamente lo que la regla del owner earnings quiere evitar.",
+      "La depreciacion total (614,7) incluye la depreciacion de la flota arrendada (estimada ~267 USD mm/anio). Restar la depreciacion COMPLETA como proxy de capex de mantenimiento seria doble conteo.",
+      "Por eso el capex de mantenimiento que uso es la depreciacion EX-FLOTA (~350 USD mm en 2025), no la depreciacion total."
+    ],
+    "estimacion_depreciacion_ex_flota": {
+      "metodo": "Composicion del PP&E bruto del 10-K 2025 (R12) sobre saldos medios 2024-2025: edificios 2.160 med /35 anios = 62; maquinaria 955 med /6 = 159; equipo informatico 216 med /4 = 54; software capitalizado 291 med /4 = 73. Suma ~348. Residuo asignado a la flota: 614,7 - 348 = 267, lo que implica una vida util de ~6,9 anios para la flota arrendada (coherente con el rango 5-7 anios).",
+      "valor_2025_usd_mm": 350,
+      "valor_2026E_usd_mm": 400,
+      "rango": "300 – 400 (2025)",
+      "etiqueta": "INFERENCIA. El 10-K no desglosa la depreciacion por clase de activo."
+    }
+  },
+
+  "owner_earnings": {
+    "definicion_a": "FCO menos capex de MANTENIMIENTO. Mantenimiento aproximado por la depreciacion EX-FLOTA arrendada (ver hallazgo contable). El exceso de capex sobre esa cifra es inversion discrecional y no se resta.",
+    "definicion_b": "FCO menos TODO el capex de PP&E = flujo de caja libre puro.",
+    "base_auditada_FY2025": {
+      "fco_usd_mm": 3030.5,
+      "capex_mantenimiento_usd_mm": 350,
+      "capex_total_usd_mm": 539.8,
+      "oe_mantenimiento_usd_mm": 2680,
+      "oe_capex_total_usd_mm": 2491,
+      "oe_mantenimiento_por_accion_usd": 7.57,
+      "oe_capex_total_por_accion_usd": 7.04,
+      "margen_oe_sobre_ventas_pct": 26.6
+    },
+    "base_en_curso_FY2026E": {
+      "metodo": "H1 2026 real + guia de la empresa + estacionalidad 2023-2025.",
+      "ingresos_usd_mm": 12000,
+      "derivacion_ingresos": "H1 2026 = 5.663,1. En 2025 el H1 fue el 46,63% del ejercicio; aplicando la misma estacionalidad salen 12.145. Ajusto a la baja a 12.000 (+19,2% i.a.) por la moderacion declarada del crecimiento de procedimientos en EEUU al ~12% en Q2. INFERENCIA.",
+      "fco_usd_mm": 4000,
+      "derivacion_fco": "Dos rutas. (1) FCO/ventas: 25,5% en 2023, 28,9% en 2024, 30,1% en 2025; H1 2026 limpio de impuestos diferidos = 28,3%. A 31% sobre 12.000 = 3.720, mas los 370 de impuestos diferidos ya realizados en H1 = 4.090. (2) Ratio H2/H1 de 2025 (1,337) aplicado al H1 limpio: 1.972,9 + 2.143 = 4.116. Tomo 4.000 como central. Rango 3.750 – 4.300. INFERENCIA.",
+      "capex_total_usd_mm": 450,
+      "derivacion_capex": "H1 2026 = 215,9. En 2025 el ejercicio completo fue 1,985x el H1 -> 429. Uso 450. INFERENCIA.",
+      "depreciacion_usd_mm": 780,
+      "capex_mantenimiento_usd_mm": 400,
+      "oe_mantenimiento_usd_mm": 3600,
+      "oe_capex_total_usd_mm": 3550,
+      "oe_mantenimiento_por_accion_usd": 10.17,
+      "oe_capex_total_por_accion_usd": 10.03,
+      "beneficio_neto_2026E_usd_mm": 3400,
+      "derivacion_beneficio": "H1 2026 atribuible = 1.639,6. Ratio ejercicio/H1: 2,105 en 2025, 2,167 en 2024, 2,317 en 2023. Aplico 2,10 -> 3.443. Ajusto a 3.400 por la subida de la tasa impositiva efectiva (21,9% en Q2 2026 vs 20,2% en Q2 2025) y por menores beneficios fiscales por ejercicio de opciones. INFERENCIA."
+    },
+    "distancia_entre_bases": {
+      "oe_capex_total_variacion_pct": 42.5,
+      "oe_mantenimiento_variacion_pct": 34.3,
+      "lectura": "No es ruido, es el ciclo. ISRG acaba de salir de su mayor programa de construccion de planta: el capex fue 1.064 (2023), 1.111 (2024) y se derrumbo a 540 (2025) y a un ritmo de ~430-450 en 2026. La prueba esta en el balance: la construccion en curso pasa de 1.631,6 (2024) a 638,1 (2025) mientras 'edificios' salta de 1.486,3 a 2.833,9 — el edificio se termino y se activo. El flujo libre se esta normalizando al alza porque el ladrillo ya esta pagado. Comprar sobre la base auditada de 2025 es comprar el peor anio de flujo del ciclo; comprar sobre la base 2026 es comprar la normalizacion. La verdad esta mas cerca de 2026, pero la distancia de 42% es exactamente el tamano del error si me equivoco de anio base."
+    },
+    "sensibilidad_no_incluida_en_la_base": {
+      "reintegro_de_la_flota": "Si se fuese estrictamente fiel a la filosofia del owner earnings (no penalizar al que reinvierte), habria que devolver al FCO la parte de CRECIMIENTO de la inversion en la flota arrendada que el circulante absorbe: ~808,9 de transferencias menos ~267 de depreciacion de flota = ~542 USD mm en 2025. Eso llevaria el OE(a) auditado de 2.680 a ~3.220 (+20%). NO lo incluyo en la base por prudencia y porque descansa sobre dos inferencias encadenadas. Es la mayor decision de juicio de este expediente y esta declarada.",
+      "sbc_como_coste_real": "En sentido contrario: el FCO devuelve la compensacion en acciones (788,2 en 2025, ~870 en 2026E) como si fuera gratis. No lo es. ISRG recompro 2.295,3 USD mm en 2025 y las acciones en circulacion solo bajaron de 356,6 a 355,1 — practicamente toda la recompra fue tapar la dilucion. Si se trata la SBC como coste en efectivo, el OE 2026E cae de 3.600 a ~2.730 y el valor por accion de 199 a ~157. Es el escenario bajista honesto."
+    }
+  },
+
+  "dcf_inverso": {
+    "motor": "Que crecimiento del owner earnings a 10 anios, con crecimiento terminal del 3%, justifica exactamente el EV de hoy (117.939 USD mm) al WACC calculado (11,5%).",
+    "base_auditada_FY2025": {
+      "oe_usado_usd_mm": 2680,
+      "ev_sobre_oe": 44.0,
+      "g_implicita_10a_pct": 21.1
+    },
+    "base_en_curso_FY2026E": {
+      "oe_usado_usd_mm": 3600,
+      "ev_sobre_oe": 32.8,
+      "g_implicita_10a_pct": 17.0
+    },
+    "sensibilidad_al_wacc": {
+      "wacc_10_0_pct": {"g_implicita_auditado_pct": 17.8, "g_implicita_encurso_pct": 13.8},
+      "wacc_11_5_pct": {"g_implicita_auditado_pct": 21.1, "g_implicita_encurso_pct": 17.0},
+      "wacc_12_5_pct": {"g_implicita_auditado_pct": 23.2, "g_implicita_encurso_pct": 19.0}
+    },
+    "contraste_con_la_tasa_base_del_negocio": "La tasa base observada de ISRG: ingresos +19,2% (2025), +20,7% (H1 2026); procedimientos +16% (Q2 2026); base instalada +12%. El OE crecio de 2.491 a ~3.550 entre 2025 y 2026E, pero ese +42% es rebote de ciclo de capex, no tasa base. Sobre 10 anios, exigir 17,0% de crecimiento del OE compuesto es pedir que ISRG sostenga su ritmo ACTUAL durante toda la decada, justo cuando la propia empresa acaba de senalar moderacion en EEUU y su guia de procedimientos (13,5-15,5%) ya esta por debajo del 16% realizado. Incluso con el WACC mas benevolo defendible (10,0%), la exigencia es del 13,8% — es decir, el extremo BAJO de la guia de procedimientos de 2026 sostenido durante diez anios, sin caida de precio y sin compresion de margen. Eso no es una hipotesis conservadora."
+  },
+
+  "g_defendible": {
+    "formula": "g = tasa de reinversion sobre NOPAT x ROIIC EX-MARGEN (14,0%, congelado). Se usa el ex-margen deliberadamente: el bruto (18,7%) asume que la expansion de margen se repite, y no hay derecho a suponerlo.",
+    "calculo_sin_capitalizar_I_D": {
+      "nopat_2025_usd_mm": 2559.6,
+      "detalle_nopat": "EBIT 2.945,5 x (1 - 13,1%)",
+      "reinversion_neta_2025_usd_mm": 1310,
+      "detalle_reinversion": "capex 539,8 + transferencias a PP&E 808,9 - depreciacion 614,7 = 734,0; mas incremento de inventario de balance 352,8; mas circulante neto no-inventario 208,9 (deudores 301,7 + anticipos 187,1 - proveedores 57,9 - nominas 112,7 - ingresos diferidos 75,2 - otros 34,1); mas adquisiciones 13,9.",
+      "tasa_reinversion_pct": 51.2,
+      "g_pct": 7.2
+    },
+    "calculo_capitalizando_I_D": {
+      "metodo": "I+D amortizada a 5 anios (Damodaran). Amortizacion 2025 = media de I+D 2020-2024 = (595,1 + 671,0 + 879,0 + 998,8 + 1.145,3)/5 = 857,8.",
+      "ebit_ajustado_usd_mm": 3399.5,
+      "nopat_ajustado_usd_mm": 2954,
+      "reinversion_ajustada_usd_mm": 1764,
+      "tasa_reinversion_pct": 59.7,
+      "g_pct": 8.4
+    },
+    "g_defendible_pct": 8.0,
+    "rango": "7,0% – 8,5%",
+    "nota_de_honestidad": "Esta g de 8,0% esta MUY por debajo del crecimiento observado (19-20% en ingresos). No es que crea que ISRG solo crecera al 8%: es que su ROIIC ex-margen de 14,0% y su tasa de reinversion de ~57% no dan mas de si por la via del capital. Todo lo que ISRG crezca por encima del 8% vendra de palanca operativa y de precio/volumen sobre base instalada, no de capital nuevo — y eso es precisamente lo que el ex-margen se niega a extrapolar. Si Felipe cree que la palanca operativa se repite otra decada, tiene que decirlo por escrito y aceptar que esta usando el ROIIC bruto (18,7%), que daria g = 10,8% y valor por accion ~236 USD (MoS -51%). Ni siquiera esa version compra."
+  },
+
+  "valoracion": {
+    "supuestos": "g defendible 8,0% durante 10 anios, terminal 3,0%, WACC 11,5%. Caja neta (8.446) sumada al final.",
+    "base_auditada": {
+      "ev_intrinseco_usd_mm": 46190,
+      "multiplo_implicito_sobre_oe": 17.2,
+      "valor_equity_usd_mm": 54635,
+      "valor_por_accion_usd": 154,
+      "rango_piso_resolucion_25pct": "116 – 193",
+      "mos_pct": -131.3
+    },
+    "base_en_curso": {
+      "ev_intrinseco_usd_mm": 62046,
+      "multiplo_implicito_sobre_oe": 17.2,
+      "valor_equity_usd_mm": 70491,
+      "valor_por_accion_usd": 199,
+      "rango_piso_resolucion_25pct": "149 – 249",
+      "mos_pct": -79.3
+    },
+    "piso_de_resolucion": "Sin medicion propia de ruido, +/-25% sobre el valor intrinseco. El extremo alto del rango de la base en curso (249 USD) sigue estando un 30% por debajo del precio de hoy. La conclusion no depende de la precision: sobrevive al ruido entero.",
+    "sensibilidad_wacc_base_en_curso": {
+      "10_0_pct": {"valor_por_accion_usd": 241, "mos_pct": -48},
+      "10_5_pct": {"valor_por_accion_usd": 225, "mos_pct": -59},
+      "11_5_pct": {"valor_por_accion_usd": 199, "mos_pct": -79},
+      "12_5_pct": {"valor_por_accion_usd": 179, "mos_pct": -99}
+    },
+    "sensibilidad_g_base_en_curso_wacc_11_5": {
+      "g_6_pct": {"valor_por_accion_usd": 176, "multiplo": 15.0},
+      "g_8_pct": {"valor_por_accion_usd": 199, "multiplo": 17.2},
+      "g_10_pct": {"valor_por_accion_usd": 226, "multiplo": 19.9},
+      "g_12_pct": {"valor_por_accion_usd": 257, "multiplo": 22.9}
+    },
+    "punto_de_cruce": "Para que el precio de hoy (357,12) sea el valor intrinseco haria falta, sobre la base 2026E y WACC 11,5%, una g de 17,0% durante diez anios. Con WACC 10,0%, una g de 13,8%. No hay combinacion razonable de WACC de mercado y g derivada del ROIIC ex-margen que llegue al precio."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 17.0,
+    "justificacion_m_estrella": "Decidido en frio, sin barra de error: es el multiplo de owner earnings que sale de mi propia aritmetica —g defendible 8%, terminal 3%, WACC de mercado 11,5%— y no del precio de la accion. Para un G2 con ROIIC ex-margen de 14,0% (es decir, justo en el umbral, no espectacular) y sin deuda, 17x owner earnings es el techo que acepto pagar. Si alguien quiere pagar 33x, tiene que traer una g de 17%, y esa g no sale del negocio: sale de la esperanza.",
+    "p_estrella_usd": 162,
+    "derivacion_p_estrella": "EV* = 17,0 x OE(a) 2026E 3.600 = 61.200; mas caja neta 8.446 = 69.646 de equity; entre 353,9 mm acciones = 196,8 USD/accion de valor. Aplicando el MoS exigido del 18% para ABRIR: 196,8 x 0,82 = 161,4 -> 162 USD.",
+    "p_estrella_base_auditada_usd": 125,
+    "distancia_al_precio_pct": -54.6,
+    "lectura": "El precio tendria que caer otro 55% desde 357 para llegar a P*. Ya ha caido 37% en 2026 y sigue a mas del doble de P*."
+  },
+
+  "tir_esperada": {
+    "definicion": "Tasa que iguala el EV de hoy con la corriente de owner earnings a la g indicada, terminal 3%, 10 anios.",
+    "matriz": {
+      "base_auditada_2680": {"g_6": 6.02, "g_8": 6.55, "g_10": 7.14, "g_12": 7.79, "g_14": 8.50},
+      "base_encurso_3600": {"g_6": 7.02, "g_8": 7.69, "g_10": 8.43, "g_12": 9.23, "g_14": 10.09},
+      "base_encurso_optimista_4300": {"g_8": 8.54, "g_12": 10.28, "g_14": 11.24}
+    },
+    "rango": "6,5% – 10,0% anual durante 10 anios (central 7,7%)",
+    "lectura": "Con la g que YO defiendo (8,0%), comprar hoy a 357,12 renta entre 6,6% (base auditada) y 7,7% (base en curso) anual durante una decada. Frente a un coste de capital de 11,5% y a un bono del Tesoro a 10 anios al 4,65%, eso es cobrar ~3 puntos sobre el bono sin riesgo por asumir una accion con volatilidad anual del 46% que acaba de caer 37%. Para que la TIR alcance el WACC (11,5%) hay que suponer simultaneamente el escenario de flujo optimista (OE 4.300) Y un crecimiento del 14% durante diez anios. Es el unico rincon de la matriz que funciona, y necesita que las dos palancas acierten a la vez."
+  },
+
+  "detector_de_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "El motor NO se esta rompiendo, y hay que decirlo con la misma disciplina con la que se dice que esta cara. Q2 2026: procedimientos mundiales +16%, da Vinci +15%, Ion +36%; base instalada da Vinci 11.710 (+12% i.a.), Ion 1.096 (+21%); ingresos +18,5%; margen operativo GAAP 33,6% frente a 30,5% hace un anio. La base instalada sigue sin encogerse nunca. El desplome del 37% en 2026 es compresion de multiplo por miedo al techo de crecimiento (moderacion a ~12% en procedimientos EEUU, expiracion de creditos ACA, competencia china), no deterioro del negocio. Por tanto NO es trampa de valor. Pero tampoco es una oportunidad: una accion que cae 37% y sigue exigiendo 17% de crecimiento del owner earnings durante diez anios no ha caido lo suficiente para ser barata. Es un gran negocio a un precio que sigue siendo exigente.",
+    "vigilancia": "Los dos indicadores que convertirian el NO en SOSPECHA: (1) que el porcentaje de colocaciones bajo arrendamiento operativo siga subiendo (254/468 = 54% en Q2 2026 vs 49% hace un anio) sin que suba el ingreso recurrente por sistema — seria la erosion autoinfligida del coste de cambio confirmandose en el P y G; (2) que el crecimiento de procedimientos en EEUU baje del 10% dos trimestres seguidos, porque el mecanismo entero descansa en el volumen, no en el precio (el precio por procedimiento cae -3,5% nominal a proposito)."
+  },
+
+  "huecos_declarados": [
+    "El FY2026E completo es INFERENCIA construida sobre H1 real + guia + estacionalidad de 2023-2025. La guia de la empresa es de PROCEDIMIENTOS, margen bruto no-GAAP y crecimiento de opex no-GAAP; NO da guia de ingresos, de FCO ni de capex. El FCO 2026E de 4.000 tiene un rango honesto de 3.750-4.300.",
+    "El desglose de la depreciacion entre flota arrendada y resto (350 vs 267 en 2025) NO esta en el 10-K. Es una estimacion propia por composicion del PP&E bruto y vidas utiles supuestas. Rango 300-400. De ella depende la separacion entre OE(a) y OE(b), aunque no la conclusion (ambos dan MoS profundamente negativo).",
+    "La prima pais de 0,45% descansa en una mezcla geografica OUS estimada: el 10-K solo dice 68% domestico / 32% OUS y que ningun pais distinto de EEUU llega al 10% de los activos de larga duracion. No hay desglose de ingresos por pais.",
+    "La beta de 1,45 es la de 5 anios; la de 2 anios es 0,75 y la de 3 anios 1,17. La dispersion es enorme y mueve el WACC entre 10,0% y 12,5%, lo que mueve el valor por accion entre 179 y 241. Ninguna de esas cifras cambia el veredicto, pero la beta es el parametro mas fragil del expediente.",
+    "El pasivo por arrendamiento operativo a 2026-06-30 (180 USD mm) esta extrapolado del cierre de 2025 (170,9). Es irrelevante para el resultado (0,14% de la estructura de capital).",
+    "La causa de la caida del 37% en 2026 esta documentada en prensa (moderacion de procedimientos EEUU, creditos ACA, competencia china), no en un filing. El filing solo confirma la guia y la moderacion del crecimiento; la atribucion causal es INFERENCIA de prensa.",
+    "El giro al arrendamiento operativo (254 de 468 colocaciones en Q2 2026) cambia el perfil temporal del reconocimiento de ingresos y de la inversion. No he modelado su efecto sobre el capital circulante a diez anios; a corto plazo drena caja y a largo la devuelve, y eso significa que el OE de 2026E podria estar subestimado si el mix de arrendamiento se estabiliza.",
+    "No he verificado con transcripcion de la conferencia de resultados de Q2 2026 (16-jul-2026) lo que la direccion dijo sobre el ritmo de EEUU en H2. Es la pieza que mas afinaria el FY2026E y no la tengo."
+  ],
+
+  "veredicto_de_precio": "NO COMPRAR. No por el negocio —el mecanismo congelado sigue girando y el motor no esta roto— sino por el precio. Con el WACC de mercado (11,5%, beta 1,45, sin deuda) y la g que la propia productividad del capital de ISRG sostiene (8,0% = 57% de reinversion x 14,0% de ROIIC ex-margen), el valor por accion sale entre 154 (base auditada) y 199 (base en curso). El precio es 357,12. El margen de seguridad es de -79% en el mejor de los dos casos, cuando el umbral para abrir posicion es +18%. P* = 162 USD; el precio tendria que caer otro 55%. La TIR esperada a diez anios es del 6,5% al 10,0%, es decir, por debajo del coste de capital en todos los escenarios salvo el rincon en el que aciertan a la vez el flujo optimista y un 14% de crecimiento durante una decada. La caida del 37% de 2026 no ha creado una oportunidad: ha reducido la exigencia implicita del precio del ~24% al 17% anual durante diez anios. Sigue siendo una exigencia que el negocio no ha demostrado que pueda cumplir, y que la propia guia de la empresa (procedimientos 13,5-15,5%, con precio por procedimiento cayendo a proposito) ya contradice."
+}

@@ -1,0 +1,48 @@
+{
+ "ticker": "RMD",
+ "name": "ResMed Inc.",
+ "currency": "USD",
+ "price_verified": 188.5,
+ "price_source": "StockAnalysis.com $188.45 + Yahoo/Investing.com $188.63, as of Jun 22, 2026 (NYSE close)",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.145,
+ "implied_mcap_b_usd": 27.33,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 8.5,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.8,
+  "geo_adj_pct": 0
+ },
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 245.7,
+   "prob": 0.38,
+   "note": "GLP-1 erosion of OSA demand + Philips US PAP re-entry compress growth to ~5.5% Phase1 declining to 3%; terminal g 2.5%. Pesimista razonable, no apocaliptico - franquicia mantiene liderazgo y net cash."
+  },
+  "base": {
+   "iv_per_share": 314.5,
+   "prob": 0.47,
+   "note": "Crecimiento organico continuado ~9% Phase1 declinando a 4%; expansion de margen bruto (62-63%); GLP-1 neto neutral/positivo via mayor diagnostico. Terminal g 2.8%."
+  },
+  "optimista": {
+   "iv_per_share": 413.5,
+   "prob": 0.15,
+   "note": "Doble digito durable (~12.5%) por GLP-1 ampliando pool diagnosticado + SaaS/software residencial; terminal g 3.2%."
+  }
+ },
+ "iv_dcf_weighted": 303.2,
+ "owner_fcf_base": "FY2026 owner FCF base ~$1,700M = FCF est ~$1,800M (rev $5.65B x ~32% margin) menos 100% SBC ~$100M. FY2025 ref: FCF $1,660M - SBC $91.7M = $1,568M. SBC bajo (1.8% rev / 5.5% FCF), shareholder-friendly.",
+ "multiple_metric": "P/E adelantado (non-GAAP)",
+ "fwd_multiple_now": 17,
+ "fwd_multiple_5y_avg": 26,
+ "fair_multiple": 22,
+ "multiple_rationale": "Media 5a normalizada ~26x (excluye pico COVID que distorsiona el trailing a ~40x). Aplico haircut a 22x por incertidumbre estructural genuina: temor GLP-1 sobre demanda OSA y reentrada de Philips en PAP USA (downgrade Morgan Stanley). El haircut NO es colapso porque (i) RMD mantiene liderazgo dual ResMed/AirView, (ii) margenes brutos expandiendo +290bps a 62.2%, (iii) net cash ~$1B, (iv) EPS non-GAAP +21% YoY - el deterioro es de sentimiento/ciclo de miedo, no de fundamentales. Cotiza hoy a 17x vs media 26x: descuento ~35%.",
+ "iv_multiple": 244.4,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 267.9,
+ "structural_change": "Riesgo estructural real pero acotado: (1) GLP-1 (tirzepatida/semaglutida) podria reducir incidencia/severidad de apnea del sueno a largo plazo - pero data SURMOUNT-OSA hasta ahora sugiere mayor diagnostico neto, no destruccion de demanda; RMD lo enmarca como tailwind de awareness. (2) Reentrada de Philips Respironics en el mercado PAP USA tras retiro del 2021 reintroduce competencia en duopolio. Ninguno es apocaliptico; justifica haircut de multiplo (26x->22x) no recorte de calidad. ROIC ~25%, net cash, SBC bajo: franquicia de calidad intacta.",
+ "sanity_notes": "Precio re-verificado $188.45-188.63 (uso $188.50); acciones diluidas ~144.4-145.1M (uso 0.145B). Implied mcap = 188.50 x 0.145B = $27.33B, coincide con escala conocida ~$27.4B (StockAnalysis/Yahoo) - sanity OK. Todos los IV en USD, misma moneda que el precio. IV reconciliado $267.9 = 1.42x precio, dentro de la regla de magnitud (30%-300%). DCF (303) > multiplo (244): el DCF infra-penaliza menos por net cash + WACC bajo (8.5%) en compounder de margen alto; por eso pondero el ancla de multiplo 60/40 (compounder estable y probado per marco Terry Smith). WACC: beta 0.80 (medtech defensiva baja-beta), Rf US 4.3% + ERP 5.0% x 0.80 = 8.3%, redondeo a 8.5% por disciplina. Net cash ~$0.8B incluido en equity. FY2026 EPS non-GAAP consenso $11.11, rev $5.65B (StockAnalysis forecast)."
+}

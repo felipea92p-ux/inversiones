@@ -1,0 +1,48 @@
+{
+ "ticker": "TXN",
+ "name": "Texas Instruments Incorporated",
+ "currency": "USD",
+ "price_verified": 332.28,
+ "price_source": "StockAnalysis.com cierre 22-jun-2026 (corroborado por Yahoo/Google $322.86 al 20-jun y JSON verificado). Rango 52s $152.73-$331.51; accion en/cerca de maximos historicos.",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.91,
+ "implied_mcap_b_usd": 302.4,
+ "mcap_sanity_ok": true,
+ "structural_change": "POSITIVO neto pero con matices. Mejora estructural real: mix hacia data center (rev data center +~90% YoY) e industrial/automotive, ventaja de coste de la mayor capacidad propia 300mm (Sherman TX RFAB2/SM1, Lehi UT) que eleva margen bruto estructural >70% a largo plazo, y adquisicion de Silicon Labs (~$7.5B efectivo, cierre 1S2027) que refuerza el portfolio de conectividad embebida. CONTRAPESO: TI esta en el pico de su mayor ciclo de capex de la historia (capex FY2025 $4.55B; FY2026 ~$5B), lo que deprime el FCF actual artificialmente, y los beneficios estan cerca de un pico ciclico. La adquisicion de Silicon Labs aumentara la deuda neta. No hay deterioro estructural de franquicia; el riesgo es ciclico + intensidad de capital transitoria.",
+ "owner_fcf_base": "Owner FCF = FCF reportado - 100% SBC. FY2025: FCF $2.94B (CFO $7.15B - capex $4.55B) menos SBC $0.419B = ~$2.52B en base TROUGH (deprimido por super-ciclo de capex 300mm). El DCF se ancla en owner FCF NORMALIZADO de mitad de ciclo ~$5.0B, reflejando la caida del capex post-2026 (de ~$5B hacia $2-3B/anio) con CFO escalando con ingresos hacia ~$23-26B a margenes incrementales altos. SBC baja (2.37% de ingresos, ~14.3% del FCF) -> dilucion no material.",
+ "wacc_pct": 9.65,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.07,
+  "geo_adj_pct": 0
+ },
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 112.81,
+   "prob": 0.38,
+   "note": "Capex permanece elevado mas tiempo y demanda mas blanda. Owner FCF base $5.0B; Fase1 CAGR 10%, Fase2 declina a 4%, g terminal 2.5%. Castiga normalizacion de FCF y riesgo de pico ciclico de beneficios."
+  },
+  "base": {
+   "iv_per_share": 162.07,
+   "prob": 0.47,
+   "note": "Capex normaliza post-2026, FCF inflexiona al alza con apalancamiento operativo de 300mm. Owner FCF base $5.0B; Fase1 CAGR 15%, Fase2 declina a 5%, g terminal 3.0%."
+  },
+  "optimista": {
+   "iv_per_share": 232.22,
+   "prob": 0.15,
+   "note": "Normalizacion plena de FCF + super-ciclo de data center/industrial sostenido y sinergias Silicon Labs. Owner FCF base $5.0B; Fase1 CAGR 20%, Fase2 declina a 6%, g terminal 3.5%."
+  }
+ },
+ "iv_dcf_weighted": 153.87,
+ "multiple_metric": "P/E adelantado sobre EPS FY proximo (FY2027 consenso ~$7.73)",
+ "fwd_multiple_now": 43,
+ "fwd_multiple_5y_avg": 30.13,
+ "fair_multiple": 32,
+ "multiple_rationale": "Ancla a la media 5a del P/E adelantado (~30.1x) con una prima modesta a 32x por mejora estructural genuina de mix (data center/industrial) y ventaja de coste 300mm que elevan el ROIC normalizado y el crecimiento de FCF/accion a la salida del ciclo de capex. NO se aplica prima mayor porque: (1) el P/E actual (~39-43x sobre $7.73) refleja euforia tras +80% YTD en/cerca de maximos, (2) los beneficios estan cerca de un pico ciclico (riesgo de E sobre-extrapolada), y (3) intensidad de capital aun elevada. iv_multiple = $7.73 * 32 = $247.4.",
+ "iv_multiple": 247.36,
+ "weight_dcf": 0.55,
+ "weight_multiple": 0.45,
+ "reconciled_iv": 195.94,
+ "sanity_notes": "SANITY OK. implied_mcap = $332.28 * 0.910B = $302.4B, coincide con escala reportada ($300-302B en Yahoo/StockAnalysis) -> sin error de acciones/moneda/unidades. Acciones 910.09M consistentes en multiples fuentes; moneda USD (cotiza en NASDAQ). Regla de magnitud: IV reconciliado $195.94 = 59% del precio, dentro del rango valido 30%-300% ($99.7-$996.8) -> no hay error de escala. Mcap justa implicita ~$178B. CONCLUSION DE VALORACION: a $332 TXN cotiza MUY por encima de su valor intrinseco (~$196), implicando ~-41% de sobrevaloracion. Coherente con el contexto cualitativo (P/E adelantado 39-43x vs media 5a 30x = prima ~+30-43%, PEG 1.87, P/E trailing ~55x, accion +80% YTD en maximos historicos) y con el objetivo consenso sell-side ~$293 (por DEBAJO del precio actual). Divergencia DCF ($154) vs multiplo ($247) tipica de compounder con FCF deprimido por capex: pondero 0.55 DCF / 0.45 multiplo por ser nombre CICLICO de alto capex con beneficios cerca de pico (el prompt sugiere 0.6/0.4 para ciclicos; uso 0.55 reconociendo la calidad de franquicia y el ROIC alto historico ~25-30%). Calidad del negocio ALTA (franquicia analog/embedded dominante, SBC baja, margenes elevados), pero PRECIO claramente caro: calidad a un multiplo NO sensato hoy."
+}

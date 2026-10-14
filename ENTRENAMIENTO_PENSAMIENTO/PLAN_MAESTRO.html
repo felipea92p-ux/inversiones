@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<title>Plan Maestro — Entrenamiento de Pensamiento</title>
+<style>
+  :root{
+    --cream:#FBF4E9; --panel:#FFFDF6; --ink:#221D15; --red:#E3120B;
+    --rule:#DBCEB6; --rule-soft:#E9DFCC; --muted:#84744F; --good:#2F6B4F;
+    --serif:Georgia,"Times New Roman",serif;
+    --sans:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+  body{background:var(--cream);color:var(--ink);font-family:var(--serif);line-height:1.55;margin:0;}
+  .page{max-width:880px;margin:0 auto;padding:0 28px 80px;}
+
+  /* ---------- masthead ---------- */
+  .flag{background:var(--red);color:#fff;display:inline-block;padding:10px 18px 9px;margin-top:36px;
+        font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;}
+  h1{font-size:clamp(34px,5.5vw,52px);line-height:1.06;margin:22px 0 10px;font-weight:700;text-wrap:balance;}
+  .dek{font-size:19px;font-style:italic;color:var(--muted);margin:0 0 22px;max-width:44ch;}
+  .meta{display:flex;flex-wrap:wrap;gap:8px 0;font-family:var(--sans);font-size:12.5px;letter-spacing:.02em;
+        color:var(--ink);border-top:3px solid var(--ink);border-bottom:1px solid var(--rule);padding:10px 0;}
+  .meta span{display:inline-block;}
+  .meta span+span::before{content:"·";margin:0 10px;color:var(--red);font-weight:700;}
+
+  /* ---------- sections ---------- */
+  section{margin-top:52px;}
+  .kicker{font-family:var(--sans);font-size:11.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;
+          color:var(--red);margin:0 0 6px;}
+  h2{font-size:27px;margin:0 0 6px;line-height:1.15;text-wrap:balance;}
+  h2+.rule{border:0;border-top:1px solid var(--rule);margin:14px 0 20px;}
+  p{margin:0 0 14px;max-width:66ch;}
+  strong{font-weight:700;}
+
+  /* ---------- chips ---------- */
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 18px;}
+  .chip{font-family:var(--sans);font-size:12px;letter-spacing:.04em;border:1px solid var(--ink);
+        padding:5px 12px;background:var(--panel);}
+
+  /* ---------- fallos ---------- */
+  .fallos{display:flex;flex-direction:column;gap:12px;margin:18px 0 4px;}
+  .fallo{display:flex;gap:16px;background:var(--panel);border:1px solid var(--rule);padding:16px 18px;}
+  .fallo .n{font-family:var(--sans);font-weight:700;font-size:13px;color:#fff;background:var(--red);
+            align-self:flex-start;padding:3px 9px;white-space:nowrap;}
+  .fallo .n.sec{background:var(--ink);}
+  .fallo h3{font-size:17px;margin:0 0 4px;}
+  .fallo p{font-size:15px;margin:0;color:#4c4433;}
+
+  /* ---------- 6 preguntas ---------- */
+  .qgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:14px;margin:20px 0;}
+  .q{background:var(--panel);border:1px solid var(--rule);border-top:3px solid var(--red);padding:18px 20px 16px;
+     display:flex;flex-direction:column;gap:10px;}
+  .q .num{font-size:15px;font-style:italic;color:var(--red);font-weight:700;}
+  .q h3{font-size:19px;margin:0;line-height:1.25;}
+  .q .ataca{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);}
+  .q dl{margin:2px 0 0;display:flex;flex-direction:column;gap:8px;font-size:14.5px;}
+  .q dt{font-family:var(--sans);font-size:10.5px;font-weight:700;letter-spacing:.16em;color:var(--ink);margin-bottom:1px;}
+  .q dd{margin:0;color:#4c4433;}
+  .mantra{background:var(--ink);color:var(--cream);padding:18px 22px;font-size:17px;font-style:italic;text-align:center;margin:6px 0 0;}
+  .mantra b{color:#fff;font-style:normal;}
+
+  /* ---------- anti-tilt ---------- */
+  ol.tilt{list-style:none;counter-reset:t;margin:18px 0 0;padding:0;display:flex;flex-direction:column;}
+  ol.tilt li{counter-increment:t;display:flex;gap:18px;padding:14px 2px;border-bottom:1px solid var(--rule-soft);}
+  ol.tilt li::before{content:counter(t);font-family:var(--sans);font-weight:700;font-size:20px;color:var(--red);
+                     min-width:26px;text-align:right;line-height:1.3;}
+  ol.tilt h3{font-size:16.5px;margin:0 0 3px;}
+  ol.tilt p{font-size:15px;margin:0;color:#4c4433;}
+
+  /* ---------- tables ---------- */
+  .twrap{overflow-x:auto;margin:18px 0 6px;}
+  table{border-collapse:collapse;width:100%;font-family:var(--sans);font-size:14px;background:var(--panel);}
+  th{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;text-align:left;
+     border-bottom:2px solid var(--ink);padding:10px 14px;background:var(--cream);}
+  td{padding:11px 14px;border-bottom:1px solid var(--rule-soft);vertical-align:top;font-variant-numeric:tabular-nums;}
+  tr:last-child td{border-bottom:1px solid var(--rule);}
+  td.min{font-weight:700;white-space:nowrap;color:var(--red);}
+
+  /* ---------- fases ---------- */
+  .fases{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin:20px 0 4px;}
+  .fase{background:var(--panel);border:1px solid var(--rule);padding:18px 20px;}
+  .fase .sem{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);}
+  .fase h3{font-size:18px;margin:6px 0 8px;}
+  .fase p{font-size:14.5px;margin:0;color:#4c4433;}
+  .fase .foco{display:inline-block;margin-top:10px;font-family:var(--sans);font-size:11.5px;font-weight:700;
+              color:var(--red);letter-spacing:.06em;}
+
+  /* ---------- baseline ---------- */
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin:20px 0;}
+  .stat{background:var(--panel);border:1px solid var(--rule);padding:16px 18px 14px;}
+  .stat .lbl{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);}
+  .stat .val{font-family:var(--sans);font-size:34px;font-weight:700;line-height:1.1;margin-top:6px;font-variant-numeric:tabular-nums;}
+  .stat .sub{font-family:var(--sans);font-size:12.5px;color:var(--muted);margin-top:3px;font-variant-numeric:tabular-nums;}
+  .stat .down{color:var(--red);} .stat .up{color:var(--good);}
+  .spark{background:var(--panel);border:1px solid var(--rule);padding:18px 20px 10px;margin:0 0 20px;}
+  .spark .lbl{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:8px;}
+  .lecturas{counter-reset:l;list-style:none;margin:10px 0 0;padding:0;}
+  .lecturas li{counter-increment:l;position:relative;padding:0 0 14px 40px;max-width:66ch;}
+  .lecturas li::before{content:counter(l);position:absolute;left:0;top:1px;font-family:var(--sans);
+                       font-weight:700;font-size:13px;color:#fff;background:var(--ink);padding:2px 8px;}
+
+  /* ---------- teoría / estado ---------- */
+  .libros{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;}
+  .libros li{padding:10px 2px;border-bottom:1px solid var(--rule-soft);font-size:15.5px;}
+  .libros .tag{font-family:var(--sans);font-size:10.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+               color:var(--red);display:inline-block;min-width:150px;}
+  .estado{margin:16px 0 0;padding:0;list-style:none;font-family:var(--sans);font-size:14.5px;}
+  .estado li{padding:9px 2px;border-bottom:1px solid var(--rule-soft);}
+  .estado .ok{color:var(--good);font-weight:700;margin-right:10px;}
+  .estado .todo{color:var(--muted);font-weight:700;margin-right:10px;}
+
+  footer{margin-top:64px;border-top:3px solid var(--ink);padding-top:20px;text-align:center;}
+  footer .cierre{font-size:21px;font-style:italic;margin:8px 0 4px;}
+  footer .fin{font-family:var(--sans);font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);}
+
+  @media (max-width:560px){
+    .page{padding:0 18px 60px;}
+    .fallo{flex-direction:column;gap:8px;}
+    .lecturas li{padding-left:34px;}
+  }
+</style>
+
+<div class="page">
+
+  <header>
+    <div class="flag">Entrenamiento de pensamiento</div>
+    <h1>El plan maestro</h1>
+    <p class="dek">Toma de decisiones entrenada a diario, con el ajedrez como laboratorio: feedback inmediato, sin ruido y sin excusas.</p>
+    <div class="meta">
+      <span><strong>Felipe Álvarez</strong></span>
+      <span>Feltilt @ Chess.com</span>
+      <span>Sesión diaria 7:45–8:45 AM (Lima)</span>
+      <span>Entrenador socrático: Claude</span>
+      <span>v1.0 — 4 de julio de 2026</span>
+    </div>
+  </header>
+
+  <section>
+    <p class="kicker">Sección 1</p>
+    <h2>Diagnóstico</h2>
+    <hr class="rule">
+    <p><strong>Ámbitos donde debe impactar:</strong></p>
+    <div class="chips">
+      <span class="chip">Diálogo interno</span><span class="chip">Inversiones QG</span>
+      <span class="chip">CAYLA</span><span class="chip">Vida personal</span><span class="chip">Pensamiento general</span>
+    </div>
+    <p><strong>Fallos identificados</strong> (entrevista del 4-jul-2026, en orden de prioridad):</p>
+    <div class="fallos">
+      <div class="fallo">
+        <span class="n">FALLO RAÍZ</span>
+        <div><h3>Frustración súbita → tilt</h3>
+        <p>Ante un error: rencor, decepción profunda, rumiación que no suelta — y después decisiones más rápidas y peores intentando «recuperar». Multiplica los otros dos fallos.</p></div>
+      </div>
+      <div class="fallo">
+        <span class="n sec">FALLO 2</span>
+        <div><h3>Decide demasiado rápido</h3>
+        <p>Actúa con la primera idea que parece buena, sin generar alternativas ni calcular la réplica.</p></div>
+      </div>
+      <div class="fallo">
+        <span class="n sec">FALLO 3</span>
+        <div><h3>Sesgos</h3>
+        <p>Confirmación, anclaje, exceso de confianza: busca lo que confirma lo que ya cree.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <p class="kicker">Sección 2 · El checklist maestro</p>
+    <h2>Las seis preguntas</h2>
+    <hr class="rule">
+    <p>Se aplican <strong>antes</strong> de cada jugada crítica y de cada decisión real. En ~90 días dejan de ser checklist y son reflejo.</p>
+    <div class="qgrid">
+      <div class="q"><span class="num">Pregunta 1</span><h3>¿Estoy decidiendo o reaccionando?</h3>
+        <span class="ataca">Ataca: frustración / tilt</span>
+        <dl><div><dt>Tablero</dt><dd>¿Vengo de perder una pieza? ¿Juego para «vengarme»?</dd></div>
+            <div><dt>Vida real</dt><dd>¿Cansado, molesto, apurado, herido en el ego? (HALT)</dd></div></dl></div>
+      <div class="q"><span class="num">Pregunta 2</span><h3>¿Qué quiere el otro?</h3>
+        <span class="ataca">Ataca: egocentrismo del cálculo</span>
+        <dl><div><dt>Tablero</dt><dd>¿Cuál fue la idea de SU última jugada? ¿Qué amenaza?</dd></div>
+            <div><dt>Vida real</dt><dd>¿Qué incentivos tiene la contraparte, el mercado, mi equipo?</dd></div></dl></div>
+      <div class="q"><span class="num">Pregunta 3</span><h3>¿Cuáles son mis tres candidatas?</h3>
+        <span class="ataca">Ataca: decidir demasiado rápido</span>
+        <dl><div><dt>Tablero</dt><dd>Nunca mover con la primera jugada que «se ve bien». Listar 3.</dd></div>
+            <div><dt>Vida real</dt><dd>Nunca ejecutar el primer plan; generar 3 opciones aunque 2 parezcan tontas.</dd></div></dl></div>
+      <div class="q"><span class="num">Pregunta 4</span><h3>¿Qué haría que esto fuera un error?</h3>
+        <span class="ataca">Ataca: sesgo de confirmación</span>
+        <dl><div><dt>Tablero</dt><dd>Buscar la refutación de MI jugada favorita, no su justificación.</dd></div>
+            <div><dt>Vida real</dt><dd>Pre-mortem: «es 2027 y esto salió mal, ¿por qué?»</dd></div></dl></div>
+      <div class="q"><span class="num">Pregunta 5</span><h3>¿Qué pasa después de la respuesta?</h3>
+        <span class="ataca">Ataca: falta de profundidad</span>
+        <dl><div><dt>Tablero</dt><dd>Calcular la réplica y mi siguiente jugada (mínimo yo-él-yo).</dd></div>
+            <div><dt>Vida real</dt><dd>Segunda y tercera consecuencia: ¿cómo responde el sistema?</dd></div></dl></div>
+      <div class="q"><span class="num">Pregunta 6</span><h3>¿Es reversible o irreversible?</h3>
+        <span class="ataca">Ataca: calibración de velocidad</span>
+        <dl><div><dt>Tablero</dt><dd>¿Cambio de estructura o de damas? Irreversible = más tiempo.</dd></div>
+            <div><dt>Vida real</dt><dd>Puertas de un sentido vs. dos (Bezos): reversible → rápido; irreversible → lento.</dd></div></dl></div>
+    </div>
+    <p class="mantra">«¿Reacciono? · ¿Qué quiere él? · ¿Mis tres? · ¿Cómo me equivoco? · ¿Y después? · ¿Hay vuelta atrás?»</p>
+  </section>
+
+  <section>
+    <p class="kicker">Sección 3 · Prioridad nº 1</p>
+    <h2>Protocolo anti-tilt</h2>
+    <hr class="rule">
+    <p>El error ya pagó su precio una vez. La rumiación es pagarlo dos, tres, diez veces.</p>
+    <ol class="tilt">
+      <li><div><h3>Regla de los 10 segundos</h3><p>Tras un error o mala noticia: manos fuera. Tres respiraciones. Nombrar la emoción en voz baja («esto es frustración») — nombrarla la baja de intensidad; es fisiología, no filosofía.</p></div></li>
+      <li><div><h3>La pregunta de reinicio</h3><p>«¿Cuál es la mejor jugada AHORA, desde esta posición?» El tablero no sabe que estás enojado. El rencor no mueve piezas.</p></div></li>
+      <li><div><h3>Regla de las dos derrotas</h3><p>Dos derrotas seguidas = fin de las partidas por hoy. El tilt no se vence jugando más; se vence parando. Aplica igual a decisiones: dos malas seguidas = hoy no se decide nada importante.</p></div></li>
+      <li><div><h3>Decisión ≠ resultado</h3><p>Una jugada buena que salió mal sigue siendo buena; una mala que salió bien sigue siendo mala (Annie Duke). En el diario se califica el proceso, nunca solo el resultado.</p></div></li>
+      <li><div><h3>Reencuadre del rencor</h3><p>Cuando aparezca el «pierdo la esperanza»: el error no es evidencia sobre la humanidad; es una posición más en el tablero. La pregunta útil nunca es «¿por qué me pasa esto?» sino «¿qué hago desde aquí?».</p></div></li>
+      <li><div><h3>Blitz prohibido 60 días</h3><p>El blitz entrena exactamente el músculo equivocado: decidir rápido bajo presión emocional. Ritmo mínimo: 15|10.</p></div></li>
+    </ol>
+  </section>
+
+  <section>
+    <p class="kicker">Sección 4</p>
+    <h2>La sesión diaria, 7:45–8:45 AM</h2>
+    <hr class="rule">
+    <div class="twrap">
+      <table>
+        <thead><tr><th>Minutos</th><th>Bloque</th><th>Detalle</th></tr></thead>
+        <tbody>
+          <tr><td class="min">0–5</td><td><strong>Check-in</strong></td><td>¿Cómo llego hoy? (1 línea en el diario). Recitar las 6 preguntas de memoria.</td></tr>
+          <tr><td class="min">5–25</td><td><strong>Ejercicio dirigido</strong></td><td>Puzzles o posiciones asignadas según el fallo-foco de la semana. Nunca al azar.</td></tr>
+          <tr><td class="min">25–50</td><td><strong>Partida seria</strong></td><td>Una partida 15|10 aplicando el checklist. En 2-3 momentos críticos, anotar qué pensaste antes de mover.</td></tr>
+          <tr><td class="min">50–60</td><td><strong>Revisión socrática</strong></td><td>Claude pregunta, tú descubres. Una entrada en el diario de decisiones (ajedrez o vida real).</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p><strong>Ritmo semanal:</strong> lunes a viernes, sesión estándar. Sábado, partida larga (30 min+) o análisis profundo de la peor partida de la semana. Domingo, auditoría semanal: diario, partidas, métricas, lectura y fallo-foco de la semana siguiente.</p>
+  </section>
+
+  <section>
+    <p class="kicker">Sección 5</p>
+    <h2>Currículo: doce semanas, tres fases</h2>
+    <hr class="rule">
+    <div class="fases">
+      <div class="fase"><span class="sem">Semanas 1–4</span><h3>Dominar el tilt</h3>
+        <p>Protocolo anti-tilt obligatorio; puzzles de defensa (salvar posiciones peores entrena jugar bien cuando duele); registro del índice de tilt.</p>
+        <span class="foco">FOCO: PREGUNTAS 1 Y 2</span></div>
+      <div class="fase"><span class="sem">Semanas 5–8</span><h3>Matar la primera idea</h3>
+        <p>Tres candidatas escritas antes de calcular; puzzles donde la jugada «obvia» pierde; un pre-mortem escrito por semana en decisiones reales.</p>
+        <span class="foco">FOCO: PREGUNTAS 3 Y 4</span></div>
+      <div class="fase"><span class="sem">Semanas 9–12</span><h3>Profundidad y calibración</h3>
+        <p>Cálculo yo-él-yo-él; predicciones con probabilidad explícita («70% de que X pase») revisadas después — el antídoto del exceso de confianza.</p>
+        <span class="foco">FOCO: PREGUNTAS 5 Y 6</span></div>
+    </div>
+    <p>Tras la semana 12: re-diagnóstico y nuevo ciclo.</p>
+  </section>
+
+  <section>
+    <p class="kicker">Sección 6 · API Chess.com, 4-jul-2026</p>
+    <h2>Línea base</h2>
+    <hr class="rule">
+    <div class="stats">
+      <div class="stat"><span class="lbl">Rapid actual</span><div class="val down">1.360</div><div class="sub">pico 1.544 · abr-2026</div></div>
+      <div class="stat"><span class="lbl">Caída en 3 meses</span><div class="val down">−184</div><div class="sub">firma de racha de tilt</div></div>
+      <div class="stat"><span class="lbl">Partidas en vivo</span><div class="val">≈13.000</div><div class="sub">5.060 rapid · 7.800 blitz</div></div>
+      <div class="stat"><span class="lbl">Tactics</span><div class="val down">1.424</div><div class="sub">mínimo reciente · pico 1.569</div></div>
+    </div>
+    <div class="spark">
+      <div class="lbl">Rating rapid — abril a julio 2026</div>
+      <svg viewBox="0 0 640 130" width="100%" role="img" aria-label="Caída del rating rapid de 1544 en abril a 1360 en julio de 2026">
+        <line x1="20" y1="24" x2="620" y2="24" stroke="#E9DFCC" stroke-width="1"/>
+        <line x1="20" y1="98" x2="620" y2="98" stroke="#E9DFCC" stroke-width="1"/>
+        <line x1="60" y1="24" x2="580" y2="98" stroke="#E3120B" stroke-width="2.5"/>
+        <circle cx="60" cy="24" r="5" fill="#221D15"/>
+        <circle cx="580" cy="98" r="6" fill="#E3120B"/>
+        <text x="60" y="14" font-family="Helvetica,Arial" font-size="13" font-weight="700" fill="#221D15">1.544</text>
+        <text x="60" y="42" font-family="Helvetica,Arial" font-size="11" fill="#84744F">abril</text>
+        <text x="545" y="88" font-family="Helvetica,Arial" font-size="13" font-weight="700" fill="#E3120B">1.360</text>
+        <text x="560" y="116" font-family="Helvetica,Arial" font-size="11" fill="#84744F">julio</text>
+      </svg>
+    </div>
+    <ol class="lecturas">
+      <li><strong>Volumen enorme, rating en meseta.</strong> ~13.000 partidas sin progreso proporcional: jugar mucho no es entrenar. Este programa sustituye volumen por práctica deliberada.</li>
+      <li><strong>Pico y declive simultáneos en rapid y tactics</strong> desde abril sugieren una racha de tilt sostenida — exactamente el fallo raíz. Recuperar el 1.544 con proceso limpio es la meta natural de las primeras 12 semanas.</li>
+      <li><strong>Más blitz que rapid</strong> (7.800 vs. 5.060): años entrenando el músculo de decidir rápido bajo presión. La prohibición de blitz no es capricho; es prescripción.</li>
+    </ol>
+  </section>
+
+  <section>
+    <p class="kicker">Sección 7 · Auditoría dominical</p>
+    <h2>Métricas</h2>
+    <hr class="rule">
+    <div class="twrap">
+      <table>
+        <thead><tr><th>Métrica</th><th>Tipo</th><th>Fuente</th></tr></thead>
+        <tbody>
+          <tr><td>% de jugadas críticas con checklist aplicado</td><td>Proceso (leading)</td><td>Auto-reporte en partida</td></tr>
+          <tr><td>Índice de tilt: errores en las 3 jugadas post-error</td><td>Proceso</td><td>Análisis de partidas</td></tr>
+          <tr><td>Blunders por partida</td><td>Resultado intermedio</td><td>Análisis Chess.com</td></tr>
+          <tr><td>Rating rapid</td><td>Resultado (lagging)</td><td>Chess.com</td></tr>
+          <tr><td>Entradas en diario de decisiones por semana</td><td>Proceso</td><td>Diario</td></tr>
+          <tr><td>Calidad de proceso en decisiones reales (auto-nota 1–5)</td><td>Proceso</td><td>Diario</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <p class="kicker">Sección 8 · Una dosis semanal</p>
+    <h2>Teoría</h2>
+    <hr class="rule">
+    <p>Máximo un concepto nuevo por semana, siempre ilustrado con TU partida o TU decisión de esa semana.</p>
+    <ul class="libros">
+      <li><span class="tag">Tilt y emoción</span> Annie Duke, <em>Thinking in Bets</em> · Jonathan Rowson, <em>The Seven Deadly Chess Sins</em></li>
+      <li><span class="tag">Sesgos</span> Kahneman, <em>Pensar rápido, pensar despacio</em> (por capítulos) · Munger, <em>Psychology of Human Misjudgment</em></li>
+      <li><span class="tag">Modelos mentales</span> Farnam Street, <em>The Great Mental Models</em></li>
+      <li><span class="tag">Ajedrez pensante</span> Rowson, <em>Chess for Zebras</em> — esfuerzo vs. conocimiento</li>
+    </ul>
+  </section>
+
+  <section>
+    <p class="kicker">Sección 9</p>
+    <h2>Estado del programa</h2>
+    <hr class="rule">
+    <ul class="estado">
+      <li><span class="ok">✓</span> Plan maestro y diario de decisiones creados (carpeta ENTRENAMIENTO_PENSAMIENTO, iCloud)</li>
+      <li><span class="ok">✓</span> Sesión diaria programada: 7:45 AM, todos los días</li>
+      <li><span class="ok">✓</span> Usuario Chess.com registrado: Feltilt — partidas descargables por API</li>
+      <li><span class="todo">○</span> Primera sesión: partida de diagnóstico + índice de tilt inicial (partidas jun–jul)</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p class="cierre">«Se celebra el proceso, no el rating. El rating llega solo.»</p>
+    <p class="fin">Plan Maestro · Felipe Álvarez · Julio 2026</p>
+  </footer>
+
+</div>
+
+</body>
+</html>

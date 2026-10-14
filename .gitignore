@@ -1,0 +1,10 @@
+.DS_Store
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+*.bak-*
+*.icloud
+__pycache__/
+Investigacion/Libros/
+Investigacion/Blog/
+*.bak
+*.lock

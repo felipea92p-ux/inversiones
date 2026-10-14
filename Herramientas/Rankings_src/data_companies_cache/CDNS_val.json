@@ -1,0 +1,48 @@
+{
+ "ticker": "CDNS",
+ "name": "Cadence Design Systems, Inc.",
+ "currency": "USD",
+ "price_verified": 389.04,
+ "price_source": "StockAnalysis.com (cierre 22-jun-2026; corroborado por WallStreetZen $387.39 al 18-jun-2026)",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.276,
+ "implied_mcap_b_usd": 107.4,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 9.8,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.1,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Base normalizada de owner-earnings ~$1.62B = NI no-GAAP FY2026 (~$2.18B = EPS $7.90 x 0.276B acc.) menos 100% SBC (~$0.56B, ~9% de ingresos $6.175B). Se usa la base FY2026 en vez del owner-FCF trailing FY2025 ($1.587B FCF - $0.455B SBC = $1.132B) porque el FCF de 2025 estuvo deprimido por M&A (Hexagon D&E, Arm Artisan, Secure-IC) y vaivenes de capital de trabajo; el owner-FCF puro daria IV-DCF ~$121 (24-45% del precio), claramente infra-creditando la reinversion a ROIC alto del duopolio EDA.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 134.91,
+   "prob": 0.38,
+   "note": "Fase1 (a1-5) CAGR 11%, glide a 6% en fase2, g terminal 2.5%. Desaceleracion razonable no apocaliptica: presion competitiva de Synopsys, normalizacion post-boom de diseno de chips IA, conversion de backlog mas lenta."
+  },
+  "base": {
+   "iv_per_share": 184.36,
+   "prob": 0.47,
+   "note": "Fase1 15% (consistente con guia FY2026 16-18% y backlog record $8.0B), glide a 8%, g terminal 3.0%. Continuidad del compounding del duopolio EDA con vientos de cola de IA/diseno de silicio."
+  },
+  "optimista": {
+   "iv_per_share": 252.94,
+   "prob": 0.15,
+   "note": "Fase1 19%, glide a 10%, g terminal 3.5%. Aceleracion estructural por IA, expansion de SysDA/hardware (Palladium) y system design analysis; cuota creciente."
+  }
+ },
+ "iv_dcf_weighted": 175.86,
+ "fwd_multiple_now": 49.2,
+ "fwd_multiple_5y_avg": 40,
+ "fair_multiple": 38,
+ "multiple_metric": "P/E adelantado (EPS no-GAAP FY2026)",
+ "multiple_rationale": "fwd P/E actual ~49.2 (precio $389.04 / EPS no-GAAP FY2026 $7.90, punto medio de guia $7.85-$7.95); StockAnalysis reporta ~47.8. Media 5a del fwd P/E ~40 (estimacion; rango historico fwd ~35-45). Se aplica fair_multiple=38, un haircut modesto (~5%) sobre la media 5a — NO por deterioro estructural (la franquicia EDA es solida, ROIC alto, crecimiento acelerando), sino por: (1) valuacion ya muy rica en terminos absolutos, (2) brecha persistente entre FCF reportado y beneficio no-GAAP por SBC alto (28.7% del FCF) y M&A, (3) prudencia ante reversion de multiplo desde niveles de pico. iv_multiple = $7.90 x 38 = $300.20.",
+ "iv_multiple": 300.2,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 250.46,
+ "structural_change": "Sin deterioro estructural. CDNS es la mitad de un duopolio EDA (con Synopsys) con foso profundo (costes de cambio, criticidad para el diseno de chips, IP). Tendencias FAVORABLES: backlog record $8.0B ($4.0B convertible en 12m), guia FY2026 elevada tras Q1 (+18.7% ingresos), expansion en system design/hardware y vientos de cola de IA. Apalancamiento muy bajo (ND/EBITDA 0.76x). Unico matiz: el FCF trailing FY2025 quedo deprimido por integracion de adquisiciones (Hexagon D&E 2026, Arm Artisan, Secure-IC, VLAB) — temporal, no estructural.",
+ "sanity_notes": "Sanity de magnitud OK: implied_mcap = $389.04 x 0.276B = $107.4B, coincide con escala conocida (~$107.3B). Acciones verificadas: ~275.82M en circulacion (StockAnalysis/WallStreetZen); diluidas ponderadas ~273.7M (10-Q Q1 2026, end-Mar-2026); se usa 0.276B diluidas. reconciled_iv $250.46 = 64% del precio — dentro de la banda 30-300%, sin error de unidades/moneda/acciones. CONCLUSION: franquicia de alta calidad pero CARA — el precio $389 implica ~36% de sobrevaloracion vs IV reconciliado ($250); fwd P/E ~49 vs media 5a ~40 (prima ~+20-23%). El DCF puro sobre owner-FCF trailing daria ~$121 (infra-credita reinversion a ROIC alto, caso tipico que el marco advierte); por eso se pondera mas el ancla de multiplo (0.40 DCF / 0.60 multiplo) por ser compounder estable y probado, y se normaliza la base de owner-earnings a FY2026. Aun asi, ni el escenario optimista DCF ($253) supera el precio actual: margen de seguridad negativo a $389."
+}

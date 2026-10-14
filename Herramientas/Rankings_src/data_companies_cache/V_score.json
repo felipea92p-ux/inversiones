@@ -1,0 +1,59 @@
+{
+ "ticker": "V",
+ "name": "Visa Inc.",
+ "rules": {
+  "R1": {
+   "score": 2,
+   "just": "Red de pagos pura: marginal cost ~cero por transaccion adicional, op margin GAAP ~60% y 64.4% en Q2 FY26 que SUBE con volumen — escalabilidad monstruosa tipo software/red."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Crecimiento secular del pago digital vs efectivo, e-commerce y cross-border (+12% vol); +17% rev en Q2 FY26 (mayor desde 2013 ex-extraordinarios) confirma viento de cola estructural."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Lider #1 global indiscutible junto a Mastercard en un duopolio, con escala de red de aceptacion que deja a competidores a anios-luz — dominancia irreplicable."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat de efecto de red de doble cara (titulares de tarjeta + comercios) reforzado por marca y costes de cambio; tomaria decadas y miles de millones replicar la aceptacion global — foso irreplicable."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento 100% organico verificado (+12% cc FY25, +17% Q2 FY26) sin depender de M&A para crecer; guia FY26 elevada a low-double-digit/low-teens organico."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Diversificacion multi-geografia, multi-emisor y multi-comercio; ningun cliente concentra el ingreso y mix consumer + cross-border + value-added services bien repartido."
+  },
+  "R7": {
+   "score": 2,
+   "just": "FCF $21.6B con margen FCF ~54%, capex solo ~$1.5B (3.75% ventas), FCF/NI ~108% (21.6/20.06) y ROIC/ROE muy por encima del WACC — economia de capital de elite."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Deuda neta solo +$5.2B con ND/EBITDA ~0.2x; apalancamiento minimo aunque NO es caja neta (caja+inv $20.0B vs deuda senior ~$25.2B), por eso no llega a 2.0."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "SBC (EIP) FY25 $861M = solo 2.2% de ingresos y ~4% del FCF (muy por debajo del umbral 15%); contabilidad limpia, GAAP vs non-GAAP gap estrecho — sin red flags."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Asignacion de capital ejemplar: $24.9B buyback restante autorizado, recompras consistentes y dividendos crecientes sin M&A destructora; gobierno solido."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (escalabilidad de red con margenes crecientes hasta 64.4%), R3 (liderazgo #1 en duopolio global) y R4 (efecto de red de doble cara irreplicable) se refuerzan de forma monstruosa: la misma infraestructura de red que da el moat es la que escala sin coste marginal y consolida el liderazgo — un trio auto-reforzante que justifica las tres puntuaciones de 2.0.",
+ "moat_one_line": "Efecto de red de doble cara (titulares + comercios) con escala de aceptacion global, marca y costes de cambio que tomarian decadas y enorme capital replicar.",
+ "moat_type": "network_effect",
+ "thesis_3lines": [
+  "CALIDAD: red de pagos con moat de doble cara irreplicable, op margin ~64%, FCF ~54% y SBC trivial (4% del FCF) — calidad de compounding de elite.",
+  "MOTOR: viento de cola secular efectivo-a-digital + cross-border (+12% vol) impulsa +17% de ingresos en Q2 FY26 y guia FY26 elevada a low-teens, crecimiento 100% organico.",
+  "VALORACION: fwd P/E ~22 vs media 5a ~28.5 (-23% descuento) con EPS ajustado creciendo low-teens (PEG ~1.7); calidad premium a precio razonable, no deprimida pero atractiva."
+ ],
+ "bear_case_strongest": "El riesgo regulatorio/antimonopolio (litigios de interchange, presion sobre fees, demanda DOJ de debito en EE.UU.) sumado a rieles de pago alternativos (account-to-account, stablecoins, FedNow/RTP) podria erosionar gradualmente el peaje de red que sostiene todo el modelo.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Score total re-puntuado: R1 2.0 + R2 1.5 + R3 2.0 + R4 2.0 + R5 1.5 + R6 1.5 + R7 2.0 + R8 1.5 + R9 1.5 + R10 1.5 = 17.0 sobre techo nominal, pero el sistema pondera a techo 13.5 — Visa satura practicamente todas las reglas. SBC VERIFICADA en 4% del FCF (10-K: EIP $861M), muy por debajo del umbral de 15%, R9 sin cap. Unico matiz vs FASE 1: NO es caja neta (deuda neta +$5.2B), por eso R8 = 1.5 en lugar de 2.0. DROP: -12.9% del maximo, not_depressed; con aceleracion a +17% y guia elevada el caso es de calidad-a-precio-razonable mas que de oportunidad por caida. data_quality=MIXED (fundamentales de filings SEC verificados; precio/valoracion de agregadores)."
+}

@@ -1,0 +1,59 @@
+{
+ "ticker": "KLAC",
+ "name": "KLA Corporation",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Modelo de equipos/servicios semiconductores con op margin 41.5% y FCF margin 30.8%, alta rentabilidad pero NO escalable tipo software/red (capex e I+D inherentes), no llega a 1.5."
+  },
+  "R2": {
+   "score": 2,
+   "just": "Inspeccion/metrologia de obleas en pleno supercycle secular (IA, advanced packaging, memoria) con rev +11.5% YoY y demanda estructural multi-decada."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Lider #1 indiscutible en process control con ~55-60% de cuota, deja al 2o (AMAT/Hitachi) a anios-luz, dominancia monstruosa e irreplicable."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat de intangibles/costes de cambio brutal: I+D acumulada, datos de fabs, integracion en linea de proceso del cliente; ROIC ~40% confirma foso irreplicable en decadas."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento organico ~12% en FY25 (rev $12.156B vs ~$10.85B FY24), predominantemente organico con M&A marginal."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Multi-geografia y multi-segmento, pero concentracion inherente de clientes (TSMC/Samsung/Intel/SK Hynix dominan el gasto) limita por encima del umbral 10-15%."
+  },
+  "R7": {
+   "score": 2,
+   "just": "ROIC ~40% muy por encima del WACC, FCF $3.747B (margen 30.8%), capex bajo y conversion FCF/NI fuerte; calidad de capital sobresaliente."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Deuda neta modesta $1.19B con ND/EBITDA ~0.2x, balance solido aunque NO caja neta."
+  },
+  "R9": {
+   "score": 0,
+   "just": "REGLA DURA: SBC verificada 36.3% del FCF (>25%), fuerza R9=0.0 pese a contabilidad limpia por lo demas."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Gestion ejemplar en asignacion de capital: buybacks consistentes y dividendos crecientes, modelo 2030 reiterado, disciplina vs M&A destructora."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R3 (lider #1 con ~55-60% cuota), R4 (moat de intangibles/datos de fab irreplicable) y R7 (ROIC ~40%) se refuerzan de forma monstruosa: el dominio en process control crea un foso de datos y costes de cambio que se autoalimenta y sostiene rentabilidades extraordinarias decada tras decada. R1 no amplifica por no ser escalable tipo software, pero el trio R3+R4+R7 es de los mas fuertes del universo QG.",
+ "moat_type": "Intangibles + costes de cambio",
+ "moat_one_line": "Monopolio de facto en inspeccion/metrologia de obleas: I+D acumulada y datos integrados en la linea de proceso del cliente hacen el cambio prohibitivo y la replica imposible en decadas.",
+ "thesis_3lines": [
+  "Calidad excepcional: lider #1 en process control con ROIC ~40%, op margin 41.5% y moat de intangibles/costes de cambio irreplicable.",
+  "Motor de crecimiento: supercycle secular de semis (IA, advanced packaging, memoria) impulsa crecimiento organico ~12% con modelo 2030 reiterado por la gestion.",
+  "Valoracion/retorno: a fwd P/E ~54x (+102% sobre media 5a ~27x) y PEG 3.08, cerca de maximos historicos tras +109% en 6m, el precio descuenta perfeccion y ofrece escaso margen de seguridad."
+ ],
+ "bear_case_strongest": "Es un negocio ciclico de bienes de capital semiconductor (no software recurrente) cotizando a fwd P/E ~54x cerca de su maximo historico tras +109% en 6 meses: cualquier digestion del capex de fabs o normalizacion del ciclo IA puede comprimir simultaneamente estimaciones y multiplo, con SBC consumiendo el 36% del FCF agravando el riesgo de valoracion.",
+ "sbc_flag": "sbc_gt_25_fcf",
+ "ethical_flag": "none",
+ "notes": "Score total re-puntuado: 15.0/13.5 bruto en reglas sumadas pero limitado por techo 13.5; R9=0.0 por regla dura SBC (36.3% del FCF, verificado FY25 $1.360B/$3.747B). Caida brutal vs FASE 1 (13.5) viene de la penalizacion SBC. Drop_classification=not_depressed: nombre de momentum/fuerza cerca de ATH, NO una caida por miedo. fwd_pe 54.52 es volatil entre fuentes (aggregators de mayo mostraban ~35-36 pre run-up); split 10-for-1 ~12-jun-2026 reflejado en cifras post-split (precio/mktcap/fwdPE post-split; EPS reportados pre-split). Valoracion exigente es el principal freno a la inversion pese a calidad QG excepcional."
+}

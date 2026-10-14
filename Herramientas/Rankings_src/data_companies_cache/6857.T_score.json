@@ -1,0 +1,59 @@
+{
+ "ticker": "6857.T",
+ "name": "Advantest Corporation",
+ "rules": {
+  "R1": {
+   "score": 1.5,
+   "just": "ATE testers are hardware-centric, not pure software, but operating leverage is extreme — FY25 OI +118.8% on sales +44.7%, op margin expanding to 46.7% in Q4 and ~44% FY core, so margins scale superbly with volume without being a network/software model (no 2.0)."
+  },
+  "R2": {
+   "score": 2,
+   "just": "Secular AI/HPC tester demand is the purest pick-and-shovel exposure to AI compute — SoC test (JPY 1,019.4B of FY25 sales) rides rising chip complexity/test-intensity per GPU/HBM, with FY26 guided another +25.8%."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Clear #1 in SoC ATE with dominant share in AI/HPC/HBM test, leaving Teradyne (the #2) materially behind in the highest-growth AI tester segment — durable, irreplicable leadership justifies 2.0."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Deep moat from intangibles (decades of test IP, co-development lock-in with leading foundries/fabless on next-node test programs, high switching costs), but ATE remains a duopoly with a credible #2, so durable not unassailable (no 2.0)."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Organic growth 44.7% FY25 with no reliance on M&A — pure end-demand-driven expansion, the cleanest possible organic signal."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Multi-geography (test demand global across foundries/OSATs), but heavy concentration in SoC test tied to a handful of leading-edge AI chipmakers creates customer/end-market concentration risk that caps this at base."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "Outstanding capital returns — ROE 57.6% (ROIC very high on net-cash base), FCF JPY 300.6B = 26.6% margin, but FCF/NI ~0.80 (300.6/375.4) is at the lower bound and capex/working-capital intensity in an up-cycle tempers a perfect mark."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Net cash JPY ~340B (+$2.1B), essentially zero interest-bearing debt at FY-end, ND/EBITDA ~-0.65x, equity ratio 67.9% — a fortress balance sheet."
+  },
+  "R9": {
+   "score": 1,
+   "just": "No accounting red flags (IFRS, 67.9% equity ratio, Q4 included a flagged one-off JPY 17.3B financial gain that is properly disclosed); SBC undisclosed but plan scale (treasury only 6.48M of 732M shares) implies it is immaterial (well under ~0.3% of revenue), so conservatively base."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Strong execution and a net-cash, dividend-paying posture with disciplined organic growth and no destructive M&A, but limited verified detail on insider skin-in-the-game or opportunistic buyback policy keeps this at base."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (apalancamiento operativo extremo: OI +118.8% sobre ventas +44.7%) + R2/R3 (dominio #1 en test SoC de AI/HPC) + R4 (IP de test de decadas y lock-in de co-desarrollo con foundries) se refuerzan de forma monstruosa: a mayor complejidad de chips AI, mayor test-intensity, y el liderazgo de Advantest captura esa demanda con margenes en expansion — un flywheel auto-reforzante de cuota x precio x apalancamiento.",
+ "moat_type": "intangibles + switching costs (test-IP / co-development lock-in)",
+ "moat_one_line": "Decadas de IP de test SoC/HBM acumulada y co-desarrollo profundo con foundries/fabless de vanguardia hacen sus testers estructuralmente dificiles de desplazar en el segmento AI de mayor crecimiento.",
+ "thesis_3lines": [
+  "Calidad: lider #1 en testers SoC con margenes operativos 44-47%, ROE 57.6%, caja neta JPY ~340B y FCF record (26.6% margen) — apalancamiento operativo extremo (OI +118.8% sobre ventas +44.7%).",
+  "Motor de crecimiento: demanda secular de test para chips AI/HPC/HBM llevo ventas +44.7% en FY25 y guia otro +25.8% en FY26 — el pick-and-shovel mas puro del ciclo de AI.",
+  "Valoracion/retorno: a ~45-50x fwd P/E (prima +37% a +50% sobre media 33.5x, PEG ~2.1) en maximos historicos, el precio descuenta ejecucion perfecta; calidad indiscutible pero entrada cara."
+ ],
+ "bear_case_strongest": "A ~45-50x fwd P/E en maximos historicos el mercado descuenta crecimiento perfecto perpetuo en un negocio inherentemente ciclico cuya demanda depende del capex de un punado de fabricantes de chips AI; una pausa/digestion en el gasto AI/HBM golpearia beneficios y multiplo a la vez.",
+ "sbc_flag": "unknown",
+ "ethical_flag": "none",
+ "notes": "Re-score total ponderado: R1 1.5 + R2 2.0 + R3 2.0 + R4 1.5 + R5 1.5 + R6 1.0 + R7 1.5 + R8 1.5 + R9 1.0 + R10 1.0 = 14.5 bruto, recortado al techo de 13.5. Calidad de datos: VERIFICADO_mostly; campos clave (ingresos, margenes, FCF, caja neta, guia) verificados via IR primario. CAVEATS: (1) valoracion estimada — fwd P/E 45-50x dependiente de si se usa EPS de guia conservadora (641.61, 150 JPY/USD) o consenso (~stockanalysis 45.8x); prima del +37/+50% sobre media 33.5x. (2) ROIC no divulgado, dejado null; muy alto por inferencia (ROE 57.6%, caja neta, ~44% margen OI). (3) SBC sin cifra primaria hasta el informe anual del 26-jun-2026; plan de acciones inmaterial (treasury 6.48M de 732M acc.) — sbc_flag=unknown de forma conservadora, R9 no penalizado a la baja por ausencia de dato pero tampoco premiado. (4) Q4 EPS ~JPY 175 derivado e incluye one-off JPY 17.3B; lectura limpia es margen operativo recurrente 46.7%. (5) drop_classification=not_depressed — la accion esta en/cerca de maximos historicos (+310% en 12m), sin valoracion deprimida; el unico retroceso fue ~10% de toma de beneficios tras resultados record. Score preliminar FASE 1 era 12/13.5; el re-score VERIFICADO eleva a 13.5/13.5 (techo) por la confirmacion del apalancamiento operativo monstruoso, el dominio en AI test y el balance fortaleza — el unico freno real es la valoracion, que no afecta el score de calidad Seilern sino el timing de entrada."
+}

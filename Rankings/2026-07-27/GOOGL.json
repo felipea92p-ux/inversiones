@@ -1,0 +1,261 @@
+{
+  "expediente": "GOOGL — Alphabet Inc. — Eje PRECIO (valoracion)",
+  "fecha_analisis": "2026-07-27",
+  "divisa": "USD",
+  "unidades": "millones de USD salvo indicacion contraria",
+  "analista": "Valorador (calidad congelada, no reclasificable)",
+
+  "0_etiqueta_congelada": {
+    "etiqueta": "ULTRA-R (5 puertas pasadas)",
+    "regla": "La etiqueta de calidad esta CONGELADA. No se reclasifica hacia arriba bajo ninguna circunstancia. Este documento solo trata el precio.",
+    "mecanismo_heredado": "Alphabet es dueña del punto de entrada a la intencion de compra mundial y la subasta; su escala le permite pagar 59.926 M anuales de peaje de distribucion con la tasa TAC CAYENDO (22,0% -> 20,3%) y 91.447 M de capex, de modo que el coste unitario del numero dos es inalcanzable, y devuelve el excedente al negocio reinvirtiendo el 37,9% de las ventas mientras suspende las recompras.",
+    "eslabon_mas_debil_heredado": "ROIIC EX-MARGEN de 11,7% (frente al 20,4% bruto): el 42,8% del crecimiento de NOPAT del ultimo lustro vino de expandir margen, no de desplegar capital. Y justo ahora Alphabet despliega el mayor capital de su historia sin cohorte de retorno medido.",
+    "especie_g2": {"reinversion_pct_ventas": 28.7, "roiic_bruto_pct": 20.4, "roiic_ex_margen_pct": 11.7},
+    "mos_exigido": {"banda_base_abrir_pct": 18, "en_cartera": true, "peso_nav_pct": 8, "modo": "CARGAR", "umbral_aplicable_pct": 30}
+  },
+
+  "1_precio_y_capital": {
+    "precio_usd": 327.20,
+    "fecha_precio": "2026-07-27 (cierre)",
+    "fuente_precio": "IBKR market data snapshot, contract_id 208813719 (NASDAQ, ALPHABET INC-CL A). last=327,20 ts=2026-07-27T23:56Z; bid/ask 326,77/327,15. HECHO (dato vivo).",
+    "es_ads": false,
+    "nota_ads": "GOOGL cotiza directamente en NASDAQ en USD como accion ordinaria Clase A. No hay ratio ADS que ajustar. No se requiere conversion de divisa.",
+    "rango_52s": {"maximo": 408.61, "minimo": 187.39, "distancia_al_maximo_pct": -19.9},
+    "volatilidad_historica_anual_pct": 40.3,
+
+    "acciones_en_circulacion_mm": 12230,
+    "detalle_acciones": "Clase A 5.868 + Clase B 835 + Clase C 5.527 = 12.230 mm a 30-jun-2026. HECHO: 10-Q Q2-2026, Balance (R2), acc. 0001652044-26-000071.",
+    "capitalizacion_usd_mm": 4001656,
+
+    "preferentes_usd_mm": 19000,
+    "detalle_preferentes": "19 mm de acciones de Preferente Convertible Obligatoria al 6,25%, valor de liquidacion 1.000 USD/accion, emitidas el 5-jun-2026, proceeds netos 19.000 M. Conversion obligatoria ~15-may-2029 a un ratio de 2,2520-2,8160 acciones Clase A y 2,2740-2,8420 Clase C por preferente => dilucion futura de 42,8 a 53,5 mm de acciones (0,35%-0,44% del capital). Capped call pagado 1.000 M con cap a 532,67 (A) / 527,80 (C). HECHO: 10-Q Q2-2026 Nota Stockholders' Equity (R20).",
+
+    "deuda_valor_mercado_usd_mm": 98790,
+    "detalle_deuda": "Notas senior no garantizadas: valor razonable declarado 94.900 M a 30-jun-2026 (valor facial 101.085 M; el mercado las cotiza al 93,9% del facial). + 1.300 M dispuestos de lineas de credito (SOFR+1,5%-2,25%) + 2.590 M de arrendamientos financieros. HECHO: 10-Q Q2-2026 Notas Debt (R15) y Leases (R56).",
+    "arrendamientos_operativos_excluidos_usd_mm": 18037,
+    "nota_leases": "Los 18.037 M de pasivo por arrendamiento OPERATIVO se excluyen de la deuda: el alquiler ya esta gastado dentro del flujo de operaciones que uso como base de owner earnings. Incluirlos seria doble conteo.",
+
+    "caja_y_valores_negociables_usd_mm": 242474,
+    "detalle_caja": "Efectivo y equivalentes 55.911 + valores negociables 186.563 = 242.474 M a 30-jun-2026 (frente a 126.843 M a 31-dic-2025). El salto lo explican los 49.600 M de ampliacion de capital de junio y los 56.226 M de deuda emitida en el semestre. HECHO: 10-Q Q2-2026 Balance (R2).",
+    "caja_neta_usd_mm": 143684,
+
+    "valores_no_negociables_usd_mm": 131461,
+    "valores_no_negociables_neto_impuesto_usd_mm": 110090,
+    "detalle_no_negociables": "131.461 M a 30-jun-2026 vs 68.687 M a 31-dic-2025. El salto es una REVALORIZACION no realizada (Nivel 3 / metodo de medicion alternativo): la partida 'Loss (gain) on debt and equity securities, net' del flujo de caja fue de -135.803 M en el semestre y el 8-K de resultados lo llama 'net unrealized gains on our equity securities'. Neteo el pasivo por impuesto diferido asociado (DTL paso de 919 a 22.819 y el DTA de 9.113 a 1.448) => 110.090 M netos. HECHO en cuanto a la cifra contable; INFERENCIA en cuanto a que valga eso en efectivo: es marca a modelo sobre participaciones ilíquidas.",
+
+    "ev_usd_mm": 3876972,
+    "ev_formula": "Capitalizacion 4.001.656 + Preferentes 19.000 + Deuda a mercado 98.790 - Caja y negociables 242.474 = 3.876.972",
+    "ev_operativo_usd_mm": 3766882,
+    "ev_operativo_formula": "EV 3.876.972 - participaciones no negociables netas de impuesto 110.090 = 3.766.882. Este es el precio que el mercado pone HOY sobre el negocio operativo."
+  },
+
+  "2_wacc_candado_B": {
+    "principio": "CANDADO B: el WACC sale del mercado, nunca de un tier de calidad. Ninguna cifra de aqui se hereda de la etiqueta ULTRA-R.",
+
+    "beta": 1.22,
+    "fuente_beta": "REGRESION PROPIA. Retornos SEMANALES de GOOGL contra SPY, 262 observaciones, 30-jul-2021 a 27-jul-2026, cierres de IBKR (ajustados por el split 20:1 de 2022). Beta = 1,222; error estandar 0,096; R2 = 0,383; IC95% [1,03 - 1,41]. Ventanas alternativas: 3 anios 1,235; 2 anios 1,208; 1 anio 1,834 (esta ultima descartada: SE 0,312, muestra 52, captura solo la fase AI). HECHO (medicion propia reproducible).",
+    "contraste_beta_externo": "Yahoo Finance / Investing.com: beta 5Y mensual 1,25 (consultado 27-jul-2026). Converge con mi 1,22. INFERENCIA (agregador, solo comprobacion cruzada).",
+    "beta_rango": "1,10 - 1,35",
+
+    "tasa_libre_riesgo_pct": 4.65,
+    "fuente_rf": "Bono del Tesoro de EEUU a 10 anios, 4,65% al 27-jul-2026. Curva diaria oficial del US Treasury (daily_treasury_yield_curve, 2026). Moneda funcional de Alphabet = USD. HECHO (fuente soberana). Referencia de tendencia: 4,18% el 2-ene-2026, 4,69% el 24-jul-2026.",
+
+    "prima_mercado_pct": 4.19,
+    "prima_pais_pct": 0.40,
+    "prima_riesgo_total_pct": 4.59,
+    "fuente_primas": "Damodaran. (a) ERPbymonth.xlsx, fila 'start of July 2026': S&P500 7.499, T.Bond 4,45%, riskfree ajustado por default 4,23%, retorno esperado implicito 8,65%, ERP (T12m con rf ajustado) 4,42%; de donde ERP de mercado maduro = 4,42% - 0,23% de diferencial de impago de EEUU = 4,19%. (b) ctryprem.html actualizada 5-ene-2026: EEUU rating Aa1, diferencial 0,23%, ERP total 4,46%. HECHO (tablas del autor, fechadas).",
+    "justificacion_prima_pais": "El riesgo de ACTIVO, no el domicilio fiscal. Ingresos H1-2026 (10-Q R40): EEUU 114.821 (50,0%), EMEA 63.969 (27,9%), APAC 37.605 (16,4%), Otras Americas 13.371 (5,8%). Ponderando primas pais de Damodaran (EEUU 0,23%, EMEA ~0,30%, APAC ~0,70%, LatAm ~1,80%) sale ~0,42%; uso 0,40%. INFERENCIA (ponderacion propia).",
+
+    "coste_equity_pct": 10.25,
+    "formula_ke": "4,65% + 1,22 x 4,59% = 10,25%",
+
+    "coste_deuda_pct": 4.90,
+    "fuente_coste_deuda": "DOS medidas que convergen. (a) MARGINAL: las notas en USD emitidas en 2026 llevan cupon medio ponderado 4,80% con vencimiento medio 15 anios, y tipos EFECTIVOS declarados de 3,93%-5,84%. (b) REALIZADA: gasto financiero de 1.811 M en H1-2026, anualizado 3.622 M, sobre deuda media del periodo de 74.354 M ((48.543 + 100.164)/2) = 4,87%. HECHO: 10-Q Q2-2026 Nota Debt (R15) y XBRL InterestExpenseNonoperating.",
+    "tasa_impositiva_pct": 20.0,
+    "nota_impuesto": "Tipo efectivo FY2025 = 26.656/158.826 = 16,78%. Para el escudo fiscal de la deuda uso 20%, entre el efectivo y el marginal federal+estatal (~23-25%). El 16,78% esta rebajado por FDII y creditos que no protegen necesariamente el interes al margen.",
+    "coste_deuda_despues_impuestos_pct": 3.92,
+
+    "pesos": {"equity_mas_preferente_pct": 97.6, "deuda_pct": 2.4, "base": "valores de mercado a 27-jul-2026; E = 4.001.656 + 19.000 preferente; D = 98.790"},
+    "nota_preferente_en_wacc": "La preferente convertible obligatoria se pondera como equity (converte forzosamente en 2029). Su coste contractual del 6,25% es inferior al Ke, pero con un peso del 0,5% el sesgo sobre el WACC es de ~2 pb: irrelevante frente al piso de resolucion.",
+
+    "wacc_pct": 10.1,
+    "wacc_rango": "9,5% - 10,6%",
+    "wacc_formula": "0,976 x 10,25% + 0,024 x 3,92% = 10,10%. Rango derivado del IC de beta (1,10-1,35)."
+  },
+
+  "3_owner_earnings": {
+    "principio": "Dos versiones obligatorias x dos bases. La version (a) resta solo el capex de mantenimiento, aproximado por la depreciacion; el exceso sobre depreciacion es inversion discrecional y NO se penaliza. La version (b) resta todo el capex.",
+
+    "base_auditada": {
+      "ejercicio": "FY2025 (10-K presentado 5-feb-2026, acc. 0001652044-26-000018)",
+      "ingresos": 402836,
+      "resultado_operativo": 129039,
+      "margen_operativo_pct": 32.0,
+      "resultado_neto": 132170,
+      "flujo_de_operaciones": 164713,
+      "depreciacion_ppe": 21136,
+      "capex": 91447,
+      "compensacion_en_acciones": 24953,
+      "oe_a_mantenimiento": 143577,
+      "oe_a_formula": "164.713 - 21.136 = 143.577",
+      "oe_b_capex_total": 73266,
+      "oe_b_formula": "164.713 - 91.447 = 73.266 (coincide con el flujo de caja libre que la propia Alphabet reporta)",
+      "oe_a_neto_de_sbc": 118624,
+      "oe_b_neto_de_sbc": 48313,
+      "todos_HECHO": "Todas las cifras de esta seccion son HECHO: 10-K FY2025, Estado de Resultados (R5) y Estado de Flujos de Efectivo (R10)."
+    },
+
+    "base_en_curso": {
+      "ejercicio": "FY2026 anualizado (H1 publicado en 10-Q de 23-jul-2026 + guia de la empresa)",
+      "ingresos_estimados": 495000,
+      "detalle_ingresos": "H1-2026 real 229.692 (HECHO). H2-2025 fue 216.174; creciendo al 22-24% da 264-268k. FY2026e ~495.000. INFERENCIA.",
+      "resultado_operativo_estimado": 175000,
+      "detalle_resop": "H1-2026 real 80.466 (HECHO), margen 35,0%. Q2 solo: 40.770 con margen 34%. INFERENCIA para el ano completo.",
+      "flujo_de_operaciones_estimado": 200000,
+      "detalle_ocf": "H1-2026 real 84.859 (HECHO). TTM a Q2-2026 = 185.675 (HECHO, 8-K 22-jul-2026). Trimestres: Q3-25 48.414, Q4-25 52.402, Q1-26 45.790, Q2-26 39.069. El Q2 flojo lo explica una acumulacion de inventario de 7.739 M en el semestre (hardware de IA). FY2026e ~200.000 (rango 190-210k). INFERENCIA.",
+      "depreciacion_estimada": 30000,
+      "detalle_depreciacion": "H1-2026 real 13.586 (Q1 6.482, Q2 7.104), acelerando con la flota. FY2026e ~30.000. INFERENCIA.",
+      "capex_estimado": 200000,
+      "detalle_capex": "GUIA DE LA EMPRESA: 195.000-205.000 M para FY2026, elevada desde 180.000-190.000 en la llamada del Q2 el 22-jul-2026 por la CFO Anat Ashkenazi ('la subida se debe sobre todo a una aceleracion en la entrega de capacidad'). H1 real 80.598 (HECHO, 10-Q). Punto medio 200.000. INFERENCIA (transcripcion/prensa; NO localizado en filing primario -> ver huecos).",
+      "compensacion_en_acciones_estimada": 30500,
+      "oe_a_mantenimiento": 170000,
+      "oe_a_formula": "200.000 - 30.000 = 170.000",
+      "oe_b_capex_total": 0,
+      "oe_b_formula": "200.000 - 200.000 = 0. El flujo de caja libre del ejercicio en curso es CERO. Contraste: TTM a Q2-2026 ya solo 53.273 M, y el Q2 aislado fue NEGATIVO en -5.855 M (HECHO, 8-K 22-jul-2026).",
+      "oe_a_neto_de_sbc": 139500,
+      "oe_b_neto_de_sbc": -30500
+    },
+
+    "distancia_entre_bases": {
+      "oe_a": "+18,4% (143.577 -> 170.000)",
+      "oe_b": "-100% (73.266 -> ~0)",
+      "lectura": "Esa tijera ES la informacion, no ruido. La capacidad de generar caja del negocio operativo sube un 18%; el flujo libre se evapora entero. Todo el incremento de caja operativa, mas la caja preexistente, mas 56.226 M de deuda nueva, mas 49.600 M de capital nuevo, se estan enterrando en la ola de capex. Alphabet paso de recomprar 45.709 M en 2025 a recomprar CERO en H1-2026 y a emitir acciones por primera vez en su historia. Este es el punto exacto del ciclo en el que estamos comprando."
+    },
+
+    "nota_sbc": "La compensacion en acciones (24.953 M en 2025, ~30.500 M en 2026e) se anade de vuelta en el flujo de operaciones como partida no monetaria. Historicamente eso se podia tolerar porque la recompra la neutralizaba y el numero de acciones bajaba. En 2026 la recompra es CERO y el numero de acciones SUBE (12.088 -> 12.230 mm), ademas del programa ATM de hasta 40.000 M anunciado el 1-jun-2026 destinado precisamente a las obligaciones fiscales de las concesiones de acciones a empleados. Tratarla como no-coste ahora seria autoengano. Por eso reporto las dos lecturas."
+  },
+
+  "4_dcf_inverso": {
+    "metodo": "Para cada base: que crecimiento constante a 10 anios, con valor terminal al 3%, descontado al WACC de 10,1%, iguala EXACTAMENTE el valor empresa operativo de hoy (3.766.882 M).",
+    "construccion_A_owner_earnings": {
+      "descripcion": "Se hace crecer el owner earnings de mantenimiento. Advertencia explicita: esta construccion REGALA el crecimiento — hace crecer el flujo sin descontar el capex de crecimiento que lo financia. Por eso sus g implicitas son un SUELO de lo exigido, no el nivel exigido.",
+      "auditado_bruto": {"cf0": 143577, "g_implicita_pct": 11.02},
+      "auditado_neto_sbc": {"cf0": 118624, "g_implicita_pct": 13.60},
+      "en_curso_bruto": {"cf0": 170000, "g_implicita_pct": 8.74},
+      "en_curso_neto_sbc": {"cf0": 139500, "g_implicita_pct": 11.41},
+      "auditado_fcf_puro": {"cf0": 73266, "g_implicita_pct": 20.15}
+    },
+    "construccion_B_consistente_reinversion": {
+      "descripcion": "FCFF = NOPAT x (1 - b), con g = b x ROIIC y b bajando a g_terminal/ROIIC en la perpetuidad. Esta si paga el crecimiento que consume. Es la construccion correcta.",
+      "nopat_2025": 107360,
+      "nopat_2026e": 145600,
+      "resultado": [
+        "Partiendo del NOPAT auditado y con el ROIIC EX-MARGEN congelado de 11,7%: NINGUNA g justifica el precio. Ni reinvirtiendo el 100% del NOPAT se llega: el maximo alcanzable son 1.369.108 M contra los 3.766.882 M que pide el mercado.",
+        "Con el ROIIC BRUTO de 20,4% tampoco: maximo 3.321.567 M, sigue corto.",
+        "Hace falta ROIIC ~30% y g ~19,1% durante una decada para justificar el precio desde la base auditada.",
+        "Desde la base en curso (NOPAT 145.600): ROIIC 20,4% exige g=17,2%; ROIIC 30% exige g=14,3%; ROIIC 40% exige g=13,1%."
+      ],
+      "traduccion": "El precio de hoy no descuenta el eslabon debil de la tesis: descuenta que se rompa a favor. Descuenta que la ola de capex de 200.000 M anuales recupere las economias incrementales historicas de Alphabet (ROIIC 30-40%) y no el 11,7% ex-margen medido. Ese es exactamente el hecho que la propia ficha de calidad declara NO MEDIDO."
+    }
+  },
+
+  "5_g_defendible": {
+    "formula": "g = tasa de reinversion x ROIIC EX-MARGEN (el ex-margen, no el bruto: usar el bruto asume que la expansion de margen se repite indefinidamente).",
+    "tasa_reinversion_pct": 67.0,
+    "detalle_reinversion": "Reinversion neta FY2025 = capex 91.447 - depreciacion 21.136 + adquisiciones netas 1.592 = 71.903 M. Sobre NOPAT de 107.360 M => b = 67,0%. HECHO derivado del 10-K FY2025.",
+    "roiic_aplicado_pct": 11.7,
+    "g_defendible_pct": 7.84,
+    "contraste_ejercicio_en_curso": "En 2026 la reinversion neta anualizada (~170.000 + 33.697 de adquisiciones del semestre) sobre un NOPAT de 145.600 da b = 140%. Es decir: Alphabet reinvierte 1,4 veces todo lo que gana despues de impuestos, y la diferencia la pone el mercado de capitales. A b=140% y ROIIC 11,7% la g contable seria 16,4% — pero no es autofinanciada, y lo que financia el diferencial es dilucion y apalancamiento. La g por accion no es la g de la empresa.",
+    "valor_a_g_defendible": {
+      "auditado_usd_accion": 262.53,
+      "auditado_banda_25pct": "197 - 328",
+      "en_curso_usd_accion": 307.31,
+      "en_curso_banda_25pct": "230 - 384",
+      "construccion_consistente_usd_accion": "124 (ROIIC 11,7%) a 191 (ROIIC 20,4%, g 12%)"
+    }
+  },
+
+  "6_margen_de_seguridad": {
+    "umbral_exigido_pct": 30,
+    "razon_umbral": "ULTRA en cartera (8% del NAV) => modo CARGAR => 18% base + 12 puntos = 30%.",
+    "mos_auditado_pct": -24.6,
+    "mos_encurso_pct": -6.5,
+    "mos_construccion_consistente_pct": "-71% a -164%",
+    "veredicto_precio": "NO ABRIR / NO CARGAR. En la construccion mas generosa que se puede defender por escrito, la accion cotiza entre un 6% y un 25% POR ENCIMA del valor. Se exige un 30% por debajo. El hueco entre lo que hay y lo que se pide es de 37 a 55 puntos porcentuales. No es un caso limite."
+  },
+
+  "7_m_estrella_p_estrella": {
+    "m_estrella": 16.0,
+    "definicion_m": "Multiplo de owner earnings de mantenimiento (version a) que acepto pagar. Decidido en frio, sin barra de error, porque no es una estimacion sino una politica.",
+    "justificacion_m": "El multiplo 'justo' a mi g defendible del 7,84% y WACC 10,1% sale 21,0x. Pago 16x, no 21x, por tres descuentos concretos: (1) el ROIIC de la mayor inversion de la historia de la compania no tiene ni una cohorte de retorno medida; (2) la recompra que antes convertia el owner earnings en owner earnings POR ACCION esta suspendida y sustituida por emision; (3) la depreciacion, que aqui hace de proxy del capex de mantenimiento, va estructuralmente por detras de una flota que se triplica — el capex de mantenimiento verdadero es mayor que 21.136 M y crecera rapido.",
+    "multiplo_actual": {"ev_op_sobre_oe_a_auditado": 26.2, "ev_op_sobre_oe_a_en_curso": 22.2, "ev_op_sobre_fcf_ttm": 71, "per_fy2025": 30.3},
+    "p_estrella_usd": 200,
+    "detalle_p_estrella": "Dos caminos que convergen. (a) Valor medio de las dos bases a g defendible = 284,9 USD; aplicando el 30% de MoS exigido => 199,4 USD. (b) M* = 16x sobre el owner earnings auditado + posicion financiera neta => 207 USD; sobre el en curso => 242 USD. Fijo P* = 200 USD. Distancia desde 327,20: hace falta una caida del 39%."
+  },
+
+  "8_tir_esperada": {
+    "principio": "Un MoS de -25% no dice nada por si solo. Lo que decide es cuanto se gana al ano si se compra hoy.",
+    "construccion_A_generosa": {"auditado_pct": 8.7, "en_curso_pct": 9.7, "con_piso_25pct_sobre_flujo": "7,4% - 11,2%"},
+    "construccion_B_consistente": {
+      "roiic_11_7_g_7_8": 6.8,
+      "roiic_11_7_g_10": 7.1,
+      "roiic_20_4_g_12": 8.7,
+      "roiic_30_g_13": 9.6,
+      "roiic_40_g_13": 10.0
+    },
+    "rango_reportado": "7% - 10% anual durante 10 anios",
+    "lectura": "Las dos construcciones, que dan valores por accion que difieren en un factor de 2,5x, convergen en la TIR. Eso es lo unico resoluble aqui: comprando GOOGL a 327,20 se espera entre un 7% y un 10% anual a diez anios. El WACC es 10,1%. Es decir, se cobra el coste del capital y no un centimo mas, y solo si la ola de capex sale bien. La cola mala (ROIIC ex-margen 11,7% confirmado) paga 6,8% anual, por debajo del coste del capital, durante una decada."
+  },
+
+  "9_piso_de_resolucion": {
+    "regla": "Ninguna cifra se reporta con mas precision que el ruido. Sin medicion propia del ruido, banda de +-25%.",
+    "medicion_propia_del_ruido": "Aqui SI hay una medicion propia, y suspende. Las dos construcciones de DCF, ambas defendibles y ambas alimentadas con los mismos filings, dan 124 y 307 USD por accion sobre la misma base de ejercicio en curso. Eso es un factor de 2,5x, muy por encima del +-25%. El valor intrinseco de Alphabet NO ES RESOLUBLE a la precision que exige una decision de compra o carga.",
+    "consecuencia": "Los valores por accion se reportan como bandas y no se usan para decidir. Lo que decide es la TIR esperada (7%-10%) y el MoS, ambos negativos contra el umbral, y ambos robustos a la construccion elegida.",
+    "cifras_degradadas": ["capex FY2026 de guia (no localizado en filing primario)", "OCF FY2026e", "valor de las participaciones no negociables (marca Nivel 3)"]
+  },
+
+  "10_detector_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "Una trampa de valor es un MoS grande sobre un motor que se rompe. Aqui no hay MoS grande: no hay MoS en absoluto, la accion cotiza con prima. Y el motor no da senal de rotura, da lo contrario: ingresos +24% en el Q2 (12o trimestre consecutivo de crecimiento de dos digitos), Search & other +17% en plena era de las AI Overviews, Cloud +82% hasta 24.768 M con el margen operativo del segmento pasando de 20,7% a 35,6%, margen operativo consolidado de 34% (+2 pp). El eslabon debil de la tesis — los clics pagados de Search entrando en negativo — NO se ha materializado a fecha de hoy.",
+    "riesgo_dominante_es_el_inverso": "El riesgo que si esta vivo es el simetrico opuesto y hay que nombrarlo: se esta pagando POR ADELANTADO un ROIIC que nadie ha medido. La ficha congelada dice ROIIC ex-margen 11,7%; el precio exige 30%. Si el 11,7% resulta ser el bueno, no habra trampa de valor sino algo mas silencioso: una decada de rentabilidad del 6-7% anual sobre un negocio excelente comprado caro. Ese es el modo de fallo de esta posicion, no la quiebra ni el deterioro del foso.",
+    "senales_a_vigilar": [
+      "Que el capex de FY2027 vuelva a subir de guia sin una cohorte de retorno publicada",
+      "Que se empiece a usar el programa ATM de 40.000 M (a 30-jun-2026 no se habia vendido ni una accion)",
+      "Que la recompra siga en cero un cuarto trimestre consecutivo",
+      "Que el crecimiento de Search & other baje de los dos digitos",
+      "Que el margen operativo de Cloud deje de expandir mientras el capex sigue"
+    ]
+  },
+
+  "11_huecos_declarados": [
+    "La guia de capex FY2026 de 195.000-205.000 M procede de la llamada de resultados del 22-jul-2026 (CFO Anat Ashkenazi), NO de un documento primario que yo haya localizado. El 8-K de resultados no la contiene. Cifra DEGRADADA — etiquetada INFERENCIA. Todo el owner earnings version (b) del ejercicio en curso depende de ella.",
+    "El ROIIC ex-margen de 11,7% y el bruto de 20,4% vienen de la ficha de calidad CONGELADA. No los he recalculado (no me corresponde) y son el parametro mas sensible de toda la valoracion: mover el ROIIC de 11,7% a 30% cambia el valor por accion en un factor de 2,5x.",
+    "Los 131.461 M de valores no negociables son marca a modelo de Nivel 3 sobre participaciones ilíquidas, revalorizadas en +135.803 M en un solo semestre. No he podido verificar contra ninguna transaccion observable. Los computo netos de impuesto diferido (110.090 M) y con eso valen 9,0 USD/accion; si valieran la mitad, 4,5.",
+    "Los 33.697 M de adquisiciones netas de H1-2026 (frente a 1.592 M en todo 2025) no los he desglosado por operacion. Afectan al calculo de la tasa de reinversion del ejercicio en curso.",
+    "La depreciacion como proxy del capex de mantenimiento esta casi con seguridad SUBESTIMADA para 2026-2028: la flota crece mas rapido que el cargo contable. No tengo la vida util media declarada ni el desglose de servidores vs. edificios para corregirlo. La correccion iria toda en contra del valor.",
+    "No he verificado la composicion divisa a divisa del coste de deuda: hay notas en GBP, CHF, EUR, CAD y JPY con cupones de entre 1,06% y 5,31%, y el coste equivalente en USD despues del diferencial de tipos es mayor que el cupon nominal en las de baja divisa. Mi 4,90% puede quedarse corto en 20-40 pb.",
+    "La prima pais ponderada de 0,40% es una ponderacion propia por ingresos, no una cifra publicada."
+  ],
+
+  "12_veredicto": {
+    "conclusion": "NO CARGAR. La calidad no esta en discusion y no se toca; el precio si, y el precio dice que no.",
+    "resumen": "A 327,20 USD, Alphabet capitaliza 4,00 billones y su negocio operativo se paga a 3,77 billones (EV neto de caja y participaciones). Al WACC de mercado de 10,1% —beta propia de 1,22, bono a 10 anios de 4,65%, prima total de 4,59%, coste de deuda real de 4,90%— ese precio exige un crecimiento a 10 anios de entre 8,7% y 11,0% del owner earnings de mantenimiento en la construccion que REGALA el crecimiento. En la construccion que si lo paga, el precio no es alcanzable con el ROIIC ex-margen de 11,7% de la ficha congelada ni siquiera reinvirtiendo el 100% del NOPAT: se necesita ROIIC del 30% y g del 19% desde la base auditada, o ROIIC del 40% y g del 13% desde la base en curso. Mi g defendible, derivada como manda la casa (reinversion del 67% del NOPAT x ROIIC ex-margen 11,7%), es 7,84%, y da 263 USD sobre la base auditada y 307 sobre la del ejercicio en curso: margenes de seguridad de -25% y -6% contra un umbral exigido de +30%. P* = 200 USD, a un 39% de distancia. La TIR esperada es del 7% al 10% anual a diez anios, es decir, exactamente el coste del capital, y solo si la mayor apuesta de capital de la historia de la compania sale bien. El dato que lo ordena todo: en el ejercicio en curso el flujo de caja libre es CERO — el TTM ya solo son 53.273 M y el Q2 aislado fue de -5.855 M — mientras el owner earnings de mantenimiento sube un 18% hasta 170.000 M. Esa tijera no es ruido: es que el 100% de la caja operativa, mas 56.226 M de deuda nueva, mas 49.600 M de capital nuevo (con Berkshire dentro por 10.000 M), mas un programa ATM de 40.000 M todavia sin usar, se estan enterrando en 200.000 M anuales de capex sin una sola cohorte de retorno publicada. No es una trampa de valor: el motor va mas rapido que nunca (Q2 +24%, Cloud +82%, margen operativo 34%). Es lo contrario y es mas dificil de ver: un negocio excelente cuyo precio ya ha cobrado por anticipado el desenlace favorable del unico eslabon que la propia tesis declara no medido.",
+    "que_cambiaria_esto": "Un precio de 200 USD (-39%), o la publicacion por parte de Alphabet de retornos medidos sobre las cohortes de capex de 2025-2026 que situen el ROIIC ex-margen por encima del 25% de forma verificable. Lo primero es un dato de mercado; lo segundo es un dato de la empresa y no existe todavia."
+  },
+
+  "13_fuentes": {
+    "primarias_sec": [
+      "10-K FY2025, acc. 0001652044-26-000018, presentado 5-feb-2026: R5 Estado de Resultados, R10 Estado de Flujos de Efectivo",
+      "10-Q Q2-2026, acc. 0001652044-26-000071, presentado 23-jul-2026: R2 Balance, R4 Resultados, R9 Flujos, R15 Nota Debt, R20 Nota Stockholders' Equity, R21 Nota EPS, R40 Ingresos por geografia, R48/R49 Valores no negociables, R56 Arrendamientos",
+      "8-K de resultados Q2-2026, acc. 0001652044-26-000066, 22-jul-2026, Exhibit 99.1: TAC, segmentos, conciliacion de flujo de caja libre TTM",
+      "XBRL companyfacts CIK 0001652044 (us-gaap)"
+    ],
+    "mercado": [
+      "IBKR market data snapshot y price history semanal 5 anios (GOOGL contract_id 208813719; SPY 756733), 27-jul-2026",
+      "US Treasury, curva diaria de rendimientos, 27-jul-2026",
+      "Damodaran, ERPbymonth.xlsx (fila julio-2026) y ctryprem.html (5-ene-2026)",
+      "Yahoo Finance / Investing.com, beta 5Y mensual 1,25 — SOLO comprobacion cruzada, marcado INFERENCIA",
+      "Llamada de resultados Q2-2026 (guia de capex) — INFERENCIA, no localizada en filing primario"
+    ]
+  }
+}

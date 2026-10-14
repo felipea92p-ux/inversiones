@@ -1,0 +1,7 @@
+[ENX.PA] SALIÓ del T2
+[LMN.TO] SALIÓ del T3
+[NDAQ] SALIÓ del T2
+[PANW] ENTRÓ al T2
+[SNPS] ENTRÓ al T2
+[SOON.SW] SALIÓ del T2
+[TYL] ENTRÓ al T2

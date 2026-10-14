@@ -1,0 +1,296 @@
+{
+  "ticker": "V",
+  "empresa": "Visa Inc.",
+  "cik": "0001403161",
+  "domicilio": "Delaware, EEUU",
+  "moneda_funcional": "USD",
+  "moneda_reporte": "USD",
+  "ejercicio_fiscal": "cierra el 30 de septiembre",
+  "fecha_valoracion": "2026-07-28",
+  "etapa": "VALORACION (la calidad esta CONGELADA y no se toca)",
+
+  "etiqueta_congelada": {
+    "banda": "ULTRA-C",
+    "puertas_pasadas": 5,
+    "especie": "G2",
+    "reinversion_pct_ventas": 10.1,
+    "roiic_bruto_pct": 41.5,
+    "roiic_ex_margen_pct": 48.5,
+    "mos_exigido_pct": 30,
+    "motivo_umbral": "Visa SI esta en cartera de Felipe (4,04% del NAV, 15 acciones, coste medio 332,23 USD - HECHO, posiciones IBKR en vivo 2026-07-28). Aplica el umbral de CARGAR: 18% base + 12 puntos = 30%.",
+    "mecanismo": "Visa cobra un peaje ad valorem sobre el gasto nominal del mundo a traves de una red de dos caras en la que el emisor firma exclusividad plurianual comprada con 15.751 MUSD/anio de incentivos, y como el coste marginal de la transaccion numero 257.546 es cero y el capital invertido ex-goodwill es negativo, cada punto basico de take rate y cada dolar de inflacion caen integros al NOPAT sin pedir capital.",
+    "eslabon_mas_debil": "El foso es del DUOPOLIO, no de Visa frente a Mastercard. El unico reloj fechado que ha arrancado (demanda del DOJ sobre el debito de 24-sep-2024, mas los rieles A2A tipo FedNow, Pix y UPI) apunta al permiso regulatorio del par, no a la posicion relativa de Visa dentro de el.",
+    "nota_del_valorador": "NO se reclasifica hacia arriba. El precio CONFIRMA el eslabon debil en lugar de contradecirlo: el mercado esta pagando hoy una g de 9,3% a diez anios, practicamente identica a la extrapolacion mecanica del motor congelado (reinversion/NOPAT 20,3% x ROIIC ex-margen 48,5% = 9,86%). Es decir, el precio descuenta el motor entero SIN NINGUN descuento por el reloj regulatorio. Eso no es una razon para subir la etiqueta; es la razon exacta por la que no hay margen."
+  },
+
+  "fuentes_primarias": {
+    "10K_FY2025": {
+      "accession": "0001403161-25-000089",
+      "fecha_presentacion": "2025-11-06",
+      "periodo": "2024-10-01 a 2025-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/",
+      "estados_usados": [
+        "R3.htm CONSOLIDATED BALANCE SHEETS",
+        "R5.htm CONSOLIDATED STATEMENTS OF OPERATIONS",
+        "R9.htm CONSOLIDATED STATEMENTS OF CASH FLOWS",
+        "R24.htm Segment Information (39% de ingresos netos en EEUU en FY2025)"
+      ]
+    },
+    "10Q_Q2_FY2026": {
+      "accession": "0001403161-26-000079",
+      "fecha_presentacion": "2026-04-29",
+      "periodo": "2025-10-01 a 2026-03-31 (semestre)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000079/",
+      "estados_usados": [
+        "R1.htm Cover (acciones en circulacion al 2026-04-21)",
+        "R2.htm CONSOLIDATED BALANCE SHEETS",
+        "R4.htm CONSOLIDATED STATEMENTS OF OPERATIONS",
+        "R8.htm CONSOLIDATED STATEMENTS OF CASH FLOWS",
+        "R15.htm Fair Value (valor razonable de la deuda)",
+        "R17.htm Debt (detalle instrumento a instrumento)",
+        "R21.htm Earnings Per Share (acciones as-converted diluidas)"
+      ]
+    },
+    "8K_resultados_Q2_FY2026": {
+      "accession": "0001403161-26-000077",
+      "fecha": "2026-04-28",
+      "exhibit": "q22026earningsrelease.htm",
+      "uso": "serie trimestral de ingresos y provision de litigios; nuevo programa de recompra de 20.000 MUSD; confirmacion de la oferta de canje clase B-1/B-2"
+    },
+    "8K_escrow_junio_2026": {
+      "accession": "0001403161-26-000086",
+      "fecha": "2026-06-26",
+      "hallazgo": "Deposito de 250 MUSD en el escrow de litigios EEUU. Redujo el recuento as-converted de clase B: B-1 3.373.814 -> 3.367.156; B-2 733.661 -> 730.688; B-3 91.340.149 -> 90.599.965. Total as-converted clase B tras la operacion: ~94,70 M acciones. Confirma que entre marzo y junio de 2026 se ejecuto la oferta de canje B-1/B-2 -> B-3/clase A."
+    },
+    "xbrl_companyfacts": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001403161.json"
+  },
+
+  "precio_y_capitalizacion": {
+    "precio_usd": 363.01,
+    "fecha_precio": "2026-07-28 (snapshot en vivo)",
+    "fuente_precio": "HECHO - snapshot de mercado IBKR en vivo, contract_id 49462172, bid 362,87 / ask 364,30. Cross-check INFERENCIA: stockanalysis.com/stocks/v cierre 362,53 USD del 2026-07-27 16:00 EDT.",
+    "no_es_ADS": "Accion ordinaria clase A, NYSE, USD. No hay conversion de divisa ni ratio de ADS que ajustar.",
+    "rango_52s": "293,90 - 365,14 (cotiza a 0,6% de su maximo de 52 semanas)",
+    "ytd_pct": 3.72,
+    "acciones_clase_A_en_circulacion_mm": 1659.7,
+    "fuente_acciones_clase_A": "HECHO - portada 10-Q Q2 FY2026: 1.659.709.932 acciones clase A al 2026-04-21.",
+    "acciones_as_converted_diluidas_mm": 1885,
+    "fuente_acciones_as_converted": "INFERENCIA triangulada. (1) HECHO: media ponderada diluida as-converted clase A del Q2 FY2026 = 1.916 M (nota 12 del 10-Q). (2) HECHO: recompras de 11.625 MUSD en el semestre y recompras+dividendos de 9.200 MUSD solo en Q2 (8-K de resultados). (3) HECHO: as-converted clase B tras el deposito de junio = 94,70 M. (4) Cross-check INFERENCIA: stockanalysis publica 1,88 MM de acciones y 682,97 MMUSD de capitalizacion al 2026-07-27. Se adopta 1.885 M. Sensibilidad: +/-25 M acciones mueve el valor por accion ~1,3%.",
+    "aviso_clases": "El recuento correcto NO es el de clase A sola (1.659,7 M). Hay clase B-1, B-2, B-3 y C convertibles y acciones preferentes de la RRP europea. Usar 1.659,7 M subestimaria la capitalizacion en ~12% y regalaria un margen de seguridad falso.",
+    "capitalizacion_usd_mm": 684274,
+    "deuda_carrying_usd_mm": 23976,
+    "deuda_valor_mercado_usd_mm": 21800,
+    "fuente_deuda_mercado": "HECHO - nota de valor razonable del 10-Q Q2 FY2026: 'As of March 31, 2026, the carrying value and estimated fair value of debt was $24.0 billion and $21.8 billion'. La deuda cotiza al 90,9% del carrying porque casi toda es de cupon bajo (1,10%-3,15%) emitida en 2020-2021.",
+    "caja_y_valores_usd_mm": 14221,
+    "detalle_caja": "HECHO - balance 2026-03-31: efectivo 12.404 + valores de inversion corrientes 1.509 + no corrientes 308 = 14.221.",
+    "excluido_del_neto": "Escrow restringido de litigios EEUU 665 MUSD (2026-03-31) - restringido y afecto al plan de responsabilidad retrospectiva. Tambien se excluye el colateral de clientes (4.292) por ser pasivo espejo.",
+    "deuda_neta_usd_mm": 7579,
+    "ev_usd_mm": 691853,
+    "cross_check_ev": "stockanalysis publica EV de 693,03 MMUSD al 2026-07-27. Coincide dentro del 0,2%.",
+    "aviso_fecha_balance": "El balance es del 2026-03-31. Han pasado cuatro meses de recompras agresivas. La deuda neta real hoy es probablemente mayor (menos caja), lo que EMPEORA ligeramente el margen, no lo mejora."
+  },
+
+  "wacc_candado_B": {
+    "principio": "CANDADO B - el WACC sale del MERCADO, nunca de un tier de calidad. Ninguna cifra de aqui se ha heredado de la etiqueta ULTRA-C.",
+    "tasa_libre_riesgo_pct": 4.64,
+    "fuente_tasa_libre_riesgo": "Bono del Tesoro EEUU a 10 anios (moneda funcional USD), 4,64% al 2026-07-27, via tradingeconomics; segunda fuente da 4,63% el mismo dia - INFERENCIA (agregador, no FRED de primera mano).",
+    "beta": 0.75,
+    "fuente_beta": "stockanalysis.com/stocks/v/statistics, beta 5A al 2026-07-27, coincidente con Yahoo Finance (5 anios mensual) - INFERENCIA. AVISO: la dispersion entre proveedores es grande (0,58 en marzo 2026, 0,60 en junio 2026 segun otros agregadores). No hay regresion propia. Esta dispersion es la razon principal de que el rango de WACC sea ancho.",
+    "prima_mercado_pct": 4.2,
+    "fuente_prima_mercado": "Damodaran, lectura de julio 2026 de la casa: ERP implicita EEUU 4,42% neta del spread de impago soberano 0,22% = 4,20% de prima de mercado maduro - INFERENCIA. No se pudo verificar de primera mano en esta sesion (pages.stern.nyu.edu/~adamodar/ es un frameset y WebFetch no resolvio los marcos). Se hereda de la misma tabla usada en el expediente ICE del 2026-07-27, para que ambas valoraciones sean comparables.",
+    "prima_pais_pct": 0.9,
+    "fuente_prima_pais": "INFERENCIA propia, ponderada por riesgo de ACTIVO y no de domicilio fiscal. HECHO de partida (10-K FY2025, nota 14 de segmentos): 'Net revenue earned in the U.S. was approximately 39%, 41% and 43% of total net revenue in fiscal 2025, 2024 and 2023'. El 61% restante es internacional. Ponderacion naif con primas Damodaran por region (EEUU 0,22% x39%, Europa ~0,5% x20%, Asia-Pacifico ~1,5% x15%, LatAm ~3,0% x10%, CEMEA ~3,5% x16%) da 1,27%. Se modera a 0,90% porque una parte material del ingreso 'internacional' son comisiones transfronterizas y de cambio denominadas en USD y facturadas a emisores globalmente diversificados, no exposicion economica local pura.",
+    "coste_capital_propio_pct": 8.47,
+    "calculo_ke": "4,64% + 0,75 x (4,20% + 0,90%) = 8,47%",
+    "coste_deuda_pct": 2.56,
+    "derivacion_coste_deuda": "HECHO - gasto por intereses FY2025 de 589 MUSD (cuenta de resultados 10-K) sobre deuda media del ejercicio ((25.171 + 20.836)/2 = 23.004) = 2,56%. Este es el coste EMBEBIDO.",
+    "coste_deuda_marginal_pct": 4.6,
+    "aviso_coste_deuda": "IMPORTANTE: el WACC se calcula con el coste MARGINAL de 4,6%, no con el embebido de 2,56%. Justificacion HECHO: en febrero de 2026 Visa emitio 3.000 MUSD a tipos de 3,80% a 4,70% (nota 8 del 10-Q); y su deuda cotiza a 21,8 MMUSD frente a 24,0 de carrying (90,9% del par), lo que implica un rendimiento de mercado muy por encima del cupon medio. Usar el embebido inflaria el valor. Da igual en la practica: la deuda pesa 3,1% del EV, y la diferencia mueve el WACC 6 puntos basicos.",
+    "tasa_impositiva_pct": 21.0,
+    "fuente_tasa_impositiva": "Tipo efectivo FY2025 = 4.136/24.194 = 17,1% (HECHO, 10-K). Se usa 21% marginal federal para el escudo fiscal, mas conservador. El tipo efectivo del semestre FY2026 es aun mas bajo (14,6%) por creditos fiscales federales transferibles comprados por 1.800 MUSD.",
+    "ponderacion": "A valor de MERCADO: E = 684.274 (96,9%), D = 21.800 (3,1%). Visa es esencialmente una empresa sin apalancamiento neto relevante: la deuda neta es el 1,1% del EV.",
+    "wacc_pct": 8.32,
+    "wacc_rango": "7,4% - 10,4%",
+    "detalle_rango": "Bajo 7,40% (beta 0,60 -el extremo que publican dos agregadores-, CRP 0,60%). Central 8,32% (beta 0,75, CRP 0,90%). Alto 10,42% (beta 1,00, ERP 4,70%, CRP 1,30%).",
+    "friccion_declarada": "El rango es incomodo de ancho (3 puntos) y no se disimula. Todo viene de la beta: no hay regresion propia y los proveedores discrepan entre 0,58 y 0,75. Con beta 0,60 el valor por accion sube a ~419 y aparece un MoS de +13%; con beta 1,00 baja a ~237 y el MoS es -53%. Es decir: la conclusion de esta valoracion es SENSIBLE a un dato que solo tengo de agregador. Ese es el hueco mas grande del expediente y no se tapa con un decimal."
+  },
+
+  "owner_earnings": {
+    "metodo": "Dos versiones (capex de mantenimiento aproximado por la D&A / capex total) sobre dos bases (FY2025 auditado / FY2026 en curso).",
+
+    "base_auditada_FY2025": {
+      "periodo": "2024-10-01 a 2025-09-30",
+      "ingresos_netos_usd_mm": 40000,
+      "resultado_operativo_usd_mm": 23994,
+      "margen_operativo_gaap_pct": 60.0,
+      "beneficio_neto_usd_mm": 20058,
+      "flujo_caja_operativo_usd_mm": 23059,
+      "capex_total_usd_mm": 1482,
+      "capex_mantenimiento_usd_mm": 1220,
+      "fuente": "HECHO - 10-K FY2025, R5 (resultados), R9 (flujos), R3 (balance). Capex = 'Purchases of property, equipment and technology' 1.482. Capex de mantenimiento = D&A 1.220.",
+      "exceso_discrecional_usd_mm": 262,
+      "oe_mantenimiento_usd_mm": 21839,
+      "oe_capex_total_usd_mm": 21577,
+      "fidelidad_de_caja": "FCF 21.577 / beneficio neto 20.058 = 107,6%. Convierte mas que 100 centimos por dolar contabilizado, coherente con el mecanismo congelado.",
+      "distorsion_declarada_litigios": {
+        "hecho": "La provision de litigios de FY2025 fue de 2.562 MUSD, frente a 462 en FY2024 y 927 en FY2023 (HECHO, R5 del 10-K). De esos 2.562, solo ~1.259 se pagaron en caja: el estado de flujos muestra +1.303 de 'Accrued litigation' devengado y no desembolsado.",
+              "efecto": "El CFO auditado de 23.059 esta INFLADO en 1.303 MUSD por ese devengo. Base ajustada: CFO 21.756 -> OE mantenimiento 20.536, OE capex total 20.274 (-6,0%).",
+        "por_que_no_se_aplica_al_titular": "Porque el ajuste simetrico ya aparece solo en la base en curso, donde Visa esta PAGANDO ese pasivo (-2.052 en el semestre). Aplicarlo a las dos bases seria contarlo dos veces. Se declara y se deja a la vista."
+      },
+      "ajustes_no_aplicados_declarados": {
+        "stock_based_compensation": "El CFO devuelve 897 MUSD de SBC (HECHO). Restandola: OE capex total ex-SBC = 20.680 (-4,2%). Visa recompro por encima de la dilucion (11.625 MUSD solo en el semestre FY2026), asi que el efecto en el recuento de acciones ya esta neteado en la capitalizacion; se declara igualmente.",
+        "plan_de_responsabilidad_retrospectiva": "El escrow de litigios EEUU es una peculiaridad economica real: Visa deposita caja, y a cambio se reduce el ratio de conversion de las clases B, es decir el recuento as-converted baja. El deposito de 250 MUSD de junio de 2026 elimino ~0,75 M de acciones as-converted (HECHO, 8-K 2026-06-26). Es una recompra pagada por los bancos titulares de clase B. NO se ha cuantificado su valor presente aqui. Queda ~90,6 M de acciones as-converted de clase B-3 como colchon, unos 32.900 MUSD al precio de hoy."
+      }
+    },
+
+    "base_en_curso_FY2026E": {
+      "estado_de_la_informacion": "AVISO DE OPORTUNIDAD: solo hay DOS trimestres publicados (Q1 dic-2025 y Q2 mar-2026). El 10-Q del Q3 (junio 2026) NO existe todavia; Visa presenta resultados del 3T26 el 2026-07-28/29, es decir el mismo dia de esta valoracion. Se valora a ciegas del trimestre inmediato.",
+      "semestre_real": {
+        "ingresos_netos_usd_mm": 22131,
+        "variacion_interanual_pct": 15.8,
+        "resultado_operativo_usd_mm": 13971,
+        "margen_operativo_gaap_pct": 63.1,
+        "provision_de_litigios_usd_mm": 1037,
+        "margen_operativo_ex_litigios_pct": 67.8,
+        "beneficio_neto_usd_mm": 11874,
+        "variacion_interanual_bn_pct": 22.5,
+        "cfo_usd_mm": 9788,
+        "variacion_interanual_cfo_pct": -3.0,
+        "capex_usd_mm": 761,
+        "d_and_a_usd_mm": 659,
+        "fuente": "HECHO - 10-Q Q2 FY2026, R4 y R8."
+      },
+      "hallazgo_mas_importante_de_la_base_en_curso": "El beneficio neto del semestre sube 22,5% y el flujo de caja operativo BAJA 3,0%. No es ruido ni contabilidad creativa: son dos partidas identificadas en el propio estado de flujos. (1) 'Accrued litigation' -2.052 MUSD frente a +351 el anio anterior: Visa esta escribiendo los cheques del MDL de intercambio que llevaba anios devengando. (2) 'Other assets' -1.851 frente a -400: la nota suplementaria declara 1.800 MUSD de caja pagada por creditos fiscales federales transferibles (HECHO, nota al pie del R8). El primero es un pasivo real que se convierte en caja saliente; el segundo es una compra de escudo fiscal futuro con descuento, economicamente casi neutra.",
+      "construccion_H2": {
+        "supuesto_crecimiento_H2": "SUPUESTO PROPIO: +13% interanual sobre Q3 FY2025 (10.172) y Q4 FY2025 (10.724) -> 11.494 + 12.118 = 23.612. Se modera deliberadamente desde el +17% del Q2 porque (a) el propio 8-K declara que el Q2 fue +17% nominal pero +16% en dolares constantes, es decir hubo viento de cola de divisa, y (b) las comparativas de H2 FY2025 son mas duras.",
+        "ingresos_netos_FY2026E_usd_mm": 45743,
+        "crecimiento_FY2026E_pct": 14.4,
+        "beneficio_neto_FY2026E_usd_mm": 23300,
+        "bpa_FY2026E_usd": 12.36,
+        "cfo_FY2026E_usd_mm": 23000,
+        "justificacion_cfo": "Semestre real 9.788 + H2E ~13.200. El H2 de FY2025 genero 12.968 de CFO; se sube solo un 1,8% pese al 13% de crecimiento de ingresos porque el drenaje de litigios acumulados sigue. SUPUESTO PROPIO.",
+        "capex_total_FY2026E_usd_mm": 1650,
+        "capex_mantenimiento_FY2026E_usd_mm": 1360
+      },
+      "oe_mantenimiento_usd_mm": 21640,
+      "oe_capex_total_usd_mm": 21350
+    },
+
+    "distancia_entre_bases": {
+      "oe_mantenimiento_pct": -0.9,
+      "oe_capex_total_pct": -1.1,
+      "lectura": "La distancia es negativa y casi nula, y ESO es la informacion. Un negocio que crece los ingresos un 14% y el beneficio neto un 16% genera el mismo owner earnings que el anio pasado. No porque el motor falle -el Q2 fue el mejor crecimiento de ingresos desde 2022, con volumen transfronterizo +12%- sino porque el pasivo de litigios que se acumulo durante anos ha empezado a salir en efectivo. Es un momento del ciclo de CAJA, no del ciclo del negocio. Si se normaliza el pago de litigios por encima de la provision, el OE en curso seria ~24.000-25.000 MUSD y la distancia positiva del 10-14%. Se declaran las dos lecturas y se valora con la conservadora."
+    }
+  },
+
+  "dcf_inverso": {
+    "motor": "Que crecimiento del owner earnings a 10 anios, con terminal del 3%, justifica exactamente el EV de hoy (691.853 MUSD) al WACC de 8,32%.",
+    "base_auditada": {
+      "oe_partida_usd_mm": 21839,
+      "g_implicita_10a_pct": 9.29,
+      "multiplo_implicito_ev_oe": 31.7
+    },
+    "base_en_curso": {
+      "oe_partida_usd_mm": 21640,
+      "g_implicita_10a_pct": 9.41,
+      "multiplo_implicito_ev_oe": 32.0
+    },
+    "contraste_con_la_tasa_base": "La tasa base del propio negocio: ingresos FY2023 32.653 -> FY2025 40.000 = +10,7% anual compuesto (HECHO); FY2026E +14,4% (supuesto). Es decir, la g implicita de 9,3% NO es absurda contra la historia reciente. El problema es otro y hay que decirlo con precision: el precio de hoy exige que ese 9,3% dure DIEZ ANIOS SEGUIDOS, y despues un 3% perpetuo, sin que ninguno de los relojes fechados del eslabon debil marque nunca. El mercado no esta pagando de mas por el motor; esta pagando cero por el riesgo del permiso."
+  },
+
+  "g_defendible": {
+    "derivacion_mecanica": {
+      "reinversion_pct_ventas": 10.1,
+      "margen_nopat_pct": 49.7,
+      "reinversion_sobre_nopat_pct": 20.3,
+      "roiic_ex_margen_pct": 48.5,
+      "g_mecanica_pct": 9.86,
+      "nota": "Se usa el ROIIC EX-MARGEN (48,5%), no el bruto (41,5%) - el ex-margen es el mas alto en este caso porque la comparativa ex-margen limpia un anio de compresion, no de expansion. Aun asi, la formula correcta convierte la reinversion sobre VENTAS en reinversion sobre NOPAT antes de multiplicar."
+    },
+    "g_defendible_aplicada_pct": 8.5,
+    "motivo_del_recorte": "Recorte del ~14% sobre la derivacion mecanica (9,86% -> 8,5%). Dos motivos, ninguno de opinion: (1) la derivacion mecanica extrapola un ROIIC del 48,5% durante una decada entera, y el propio eslabon debil congelado dice que el permiso regulatorio del duopolio -no la posicion de Visa dentro de el- es lo que tiene reloj fechado desde el 24-sep-2024; (2) el mecanismo es ad valorem sobre gasto nominal, asi que una parte de esa g es inflacion, y el terminal del 3% ya la recoge, con lo que extrapolar 9,9% de g real+nominal durante diez anios la cuenta dos veces en el tramo largo.",
+    "aviso": "Incluso con la g mecanica intacta de 9,9% el valor por accion sale ~381 y el margen de seguridad es +4,7%, muy por debajo del 30% exigido. La conclusion NO depende del recorte."
+  },
+
+  "valoracion": {
+    "g_aplicada_pct": 8.5,
+    "wacc_aplicado_pct": 8.32,
+    "terminal_pct": 3.0,
+    "base_auditada": {
+      "ev_calculado_usd_mm": 650298,
+      "equity_usd_mm": 642719,
+      "valor_por_accion_usd": 341,
+      "mos_pct": -6.5
+    },
+    "base_en_curso": {
+      "ev_calculado_usd_mm": 644372,
+      "equity_usd_mm": 636793,
+      "valor_por_accion_usd": 338,
+      "mos_pct": -7.5
+    },
+    "piso_de_resolucion": {
+      "regla": "Sin medicion propia del ruido se aplica +/-25%. Nada de decimales falsos.",
+      "valor_intrinseco_banda_usd": "255 - 425 (central ~340)",
+      "confirmacion_independiente": "La banda de ruido del +/-25% coincide casi exactamente con la banda que produce el rango de WACC de 7,4%-10,4%: 237 - 419. Las dos formas de medir la incertidumbre dan el mismo ancho, lo que es una buena senial de que el +/-25% no es un adorno.",
+      "consecuencia_honesta": "Con el precio en 363 dentro de la banda 255-425, el MoS de -6,5% NO es distinguible de cero. Reportar '-6,5%' como si fuera un dato seria un decimal falso. Lo unico defendible es: a este precio NO HAY MARGEN DE SEGURIDAD MEDIBLE, ni a favor ni en contra."
+    },
+    "sensibilidad_wacc": {
+      "7,40%": "valor 419 / MoS +13,3%",
+      "7,80%": "valor 381 / MoS +4,8%",
+      "8,32%": "valor 341 / MoS -6,5%",
+      "9,00%": "valor 299 / MoS -21,4%",
+      "10,40%": "valor 237 / MoS -53,2%"
+    }
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 22,
+    "definicion_m_estrella": "22 veces owner earnings de mantenimiento sobre EV. Decidido en frio, sin barra de error, ANTES de mirar el resultado: es el multiplo al que una red de peaje ad valorem con margen NOPAT del 50%, capital invertido ex-goodwill negativo y un reloj regulatorio fechado sobre su permiso -no sobre su posicion- me parece pagable. A 22x el rendimiento de entrada es 4,5% y una salida a 24x con g de 8,5% da una TIR de dos digitos.",
+    "precio_implicito_por_m_estrella_usd": 251,
+    "p_estrella_usd": 239,
+    "derivacion_p_estrella": "Valor por accion base auditada 341 x (1 - 0,30) = 238,7. Se redondea a 239.",
+    "coherencia": "Los dos candados independientes -el multiplo comprometido en frio (251) y el MoS exigido por la banda (239)- caen en la misma zona de 240-250 USD. No estaban calibrados el uno con el otro.",
+    "caida_necesaria_pct": -34.2,
+    "multiplo_actual_ev_oe": 31.7,
+    "per_actual_FY2025": 34.1,
+    "per_actual_FY2026E": 29.4
+  },
+
+  "tir_esperada": {
+    "metodo": "Entrada al EV de hoy, owner earnings creciendo a g, salida a un multiplo de owner earnings a 10 anios, mas la caja libre distribuida por el camino.",
+    "bajista": "g 6,0% y salida a 20x -> 5,4% anual",
+    "central": "g 8,5% y salida a 24x -> 9,4% anual",
+    "alcista": "g 9,9% y salida a 28x -> 12,2% anual",
+    "rango": "5% - 12% anual a 10 anios, central ~9%",
+    "lectura": "Este es el numero que sustituye al MoS ilegible. La TIR central esperada de ~9,4% frente a un WACC de 8,3% deja ~1 punto de exceso sobre el coste de capital. Traducido: comprar Visa a 363 USD probablemente no pierda dinero, pero paga por asumir el riesgo regulatorio del duopolio poco mas de lo que paga un bono corporativo largo. Para CARGAR una posicion que ya existe eso no basta."
+  },
+
+  "detector_de_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "La pregunta esta invertida en este caso: una trampa de valor es un MoS grande sobre un motor que se rompe, y aqui NO hay MoS grande que explicar. El motor ademas esta demostrablemente intacto en el ultimo dato duro: ingresos del Q2 FY2026 +17% -el mejor crecimiento desde 2022 segun el propio 8-K-, volumen transfronterizo +12%, transacciones procesadas +9%, margen operativo ex-litigios del 67,8%. Ni un solo indicador operativo se esta deteriorando.",
+    "bandera_amarilla_que_si_hay_que_vigilar": "La conversion de caja. El beneficio neto del semestre +22,5% con el CFO -3,0% es una divergencia de 25 puntos. En esta ocasion tiene explicacion identificada y benigna (pago del MDL acumulado + compra de creditos fiscales). Si se repite en el trimestre de junio SIN esas dos explicaciones, deja de ser timing y pasa a ser un gate de falsificacion. Merece entrar en gates.md."
+  },
+
+  "huecos": [
+    "No existe guia numerica de FY2026 en ningun filing primario. Visa da guia en la llamada, no en el 8-K de resultados. Toda la construccion del ejercicio en curso (ingresos +13% en H2, CFO 23.000, capex 1.650) es SUPUESTO PROPIO declarado, no guia de la empresa.",
+    "El trimestre de junio de 2026 (Q3 FY2026) no esta publicado: Visa presenta resultados el mismo dia de esta valoracion. Se valora a ciegas de datos que existen y salen en horas.",
+    "El recuento de acciones as-converted (1.885 M) es INFERENCIA triangulada entre la media ponderada diluida del 10-Q (1.916 M), las recompras declaradas y el recuento post-canje del 8-K de junio. La oferta de canje clase B-1/B-2 -> B-3/clase A movio la composicion entre marzo y junio de 2026 y no hay portada de 10-Q posterior que la fije. Sensibilidad: +/-25 M acciones = ~1,3% del valor por accion.",
+    "La BETA es de agregador (0,75, stockanalysis/Yahoo 5A mensual al 2026-07-27) y otros proveedores publican 0,58-0,60. No hay regresion propia. Este es el hueco de mayor impacto de todo el expediente: con beta 0,60 el MoS pasa de -6,5% a +13,3%.",
+    "La prima de riesgo de mercado de Damodaran (4,20% maduro + 0,22% de CRP EEUU, julio 2026) no se pudo verificar de primera mano en esta sesion; la web de Damodaran es un frameset que WebFetch no resolvio. Se hereda de la lectura de la casa usada el 2026-07-27 en el expediente ICE - INFERENCIA.",
+    "La prima pais ponderada por riesgo de activo (0,90%) es una construccion propia sobre el HECHO del 39% de ingresos en EEUU. La ponderacion naif por region daria 1,27%; se recorto por el caracter USD de las comisiones transfronterizas. Es un juicio, no un dato.",
+    "El balance usado es del 2026-03-31. Cuatro meses de recompras despues, la deuda neta real hoy es probablemente mayor. El sesgo del hueco va CONTRA la conclusion optimista, no a favor.",
+    "El valor presente del plan de responsabilidad retrospectiva (el escrow que diluye a la clase B en vez de a la clase A) NO esta cuantificado. Queda un colchon de ~90,6 M de acciones as-converted de clase B-3, ~32.900 MUSD al precio de hoy. Cuantificarlo elevaria el valor para el accionista clase A en una magnitud no estimada aqui.",
+    "El WACC se ha aplicado a un flujo (owner earnings) que ya es posterior a intereses pagados. Estrictamente ese flujo se descuenta al coste de los recursos propios (8,47%), no al WACC (8,32%). Se ha usado el WACC por consistencia con el metodo de la casa. El efecto es de 15 puntos basicos y va a favor del valor, no en contra."
+  ],
+
+  "veredicto_de_precio": {
+    "mos_exigido_pct": 30,
+    "mos_obtenido_encurso_pct": -7.5,
+    "mos_obtenido_auditado_pct": -6.5,
+    "distancia_al_umbral": "37 puntos porcentuales. Hace falta que el precio caiga un 34%, hasta 239 USD, para que CARGAR sea defendible.",
+    "accion": "NO CARGAR. Mantener la posicion existente del 4,04% del NAV. No es una venta: el motor no se ha roto, la TIR central esperada de ~9% no destruye capital, y el coste medio de Felipe (332,23 USD) esta por debajo del precio. Es simplemente que a 0,6% del maximo de 52 semanas y a 31,7 veces owner earnings, la casa no compra mas.",
+    "que_tendria_que_pasar": "O el precio baja a la zona de 239-251 USD, o el owner earnings normalizado sube a ~31.000 MUSD manteniendo el precio (lo que exigiria dos o tres anios de ejecucion sin sobresalto regulatorio), o mi beta esta mal y el WACC real es 7,4%. Las tres son verificables."
+  },
+
+  "resumen": "Visa a 363,01 USD (2026-07-28) capitaliza 684.274 MUSD y vale 691.853 de EV. El WACC bottom-up de mercado es 8,3% (rango 7,4%-10,4%), construido con beta 0,75 de agregador, bono a 10 anios al 4,64%, prima de mercado 4,20% y prima pais ponderada por activo de 0,90% sobre el HECHO de que solo el 39% de los ingresos netos son de EEUU. El owner earnings es de 21.839 MUSD (mantenimiento) y 21.577 (capex total) sobre la base auditada FY2025, y de 21.640 / 21.350 sobre el ejercicio en curso: la distancia entre bases es de -1%, y esa planitud es el hallazgo, porque los ingresos crecen 14% y el beneficio neto 16% mientras el flujo de caja operativo del semestre CAE un 3% -Visa esta pagando en efectivo el MDL de intercambio que llevaba anios devengando (-2.052 MUSD) y ha comprado 1.800 MUSD de creditos fiscales transferibles. El DCF inverso dice que el precio de hoy exige una g de 9,3% durante diez anios con terminal del 3%. Esa cifra es casi identica a la extrapolacion mecanica del motor congelado (reinversion sobre NOPAT 20,3% x ROIIC ex-margen 48,5% = 9,86%): el mercado esta pagando el motor completo y cero por el reloj regulatorio del duopolio, que es exactamente el eslabon debil que la etapa de calidad marco. Con una g defendible de 8,5% el valor por accion sale ~340 (banda de resolucion 255-425), con margenes de seguridad de -6,5% (auditado) y -7,5% (en curso) frente al 30% exigido por su banda de CARGAR. La TIR esperada a diez anios es 5%-12% anual, central ~9%, es decir un punto por encima del coste de capital. Trampa de valor: NO -no hay descuento que explicar y ningun indicador operativo se deteriora (Q2 +17%, transfronterizo +12%, margen ex-litigios 67,8%). El precio comprometido en frio es 22 veces owner earnings (251 USD) y el precio que da el MoS exigido es 239 USD; los dos candados independientes coinciden. Veredicto: NO CARGAR, mantener. Hace falta una caida del 34%. El hueco que mas puede mover esto es la beta: es de agregador, otros proveedores publican 0,60, y con esa beta el MoS pasaria de -6,5% a +13,3%."
+}

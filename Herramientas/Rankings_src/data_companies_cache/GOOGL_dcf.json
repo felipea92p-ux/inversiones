@@ -1,0 +1,42 @@
+{
+ "ticker": "GOOGL",
+ "name": "Alphabet Inc. (Class A)",
+ "currency": "USD",
+ "current_price": 349.68,
+ "wacc_pct": 9.55,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.05,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base FY2025 = FCF reportado $73.27B - 100% de SBC $24.95B = $48.32B (margen owner ~12.0% sobre ingresos de $402.84B). Este base es un MINIMO CICLICO: el FCF reportado de 18.2% esta deprimido por el supercicло de capex de IA/Cloud ($91.4B en 2025, guiado a $175-185B en 2026). Op margin 36.1% y subiendo; el margen owner-FCF se recupera en el DCF a medida que el capex de crecimiento se monetiza.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 13,
+  "rev_cagr_y6_10_pct": 7.5,
+  "fcf_margin_terminal_pct": 22,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC ($24.95B FY2025, 6.2% de ingresos / 34.1% del FCF) tratada como gasto en efectivo y restada del FCF reportado para obtener owner earnings",
+  "shares_diluted_b": 12.21,
+  "net_debt_usd_b": -49.3
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 121,
+   "prob": 0.38,
+   "note": "Crecimiento ingresos 10% anios 1-5 declinando a 4% en fase 2; capex de IA permanece elevado mas tiempo y el margen owner-FCF solo se recupera a ~17%; g terminal 2.5%. Pesimista razonable, no apocaliptico (asume desaceleracion del gasto en IA y compresion competitiva en Search por LLMs)."
+  },
+  "base": {
+   "iv_per_share": 187,
+   "prob": 0.47,
+   "note": "Consistente con track record (FY2025 +15% organico, Q1 2026 +22%, Cloud +63%, backlog >$460B). Ingresos +13% CAGR anios 1-5 declinando a 5%; margen owner-FCF se recupera a ~22% al normalizarse el capex y monetizarse IA/Cloud; g terminal 3.0% por foso amplio. TV = 66% del EV."
+  },
+  "optimista": {
+   "iv_per_share": 275,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: Search+Gemini+Cloud+Waymo componen; ingresos +16% CAGR anios 1-5; fuerte apalancamiento operativo lleva el margen owner-FCF a ~26%; g terminal 3.5%. Aun asi por debajo del precio de mercado."
+  }
+ },
+ "sanity_check": "HALLAZGO CLAVE: bajo un DCF de owner earnings ESTRICTO (100% de SBC como gasto en efectivo), las tres VI quedan POR DEBAJO del precio de $349.68 — conservador $121 (-65%), base $187 (-47%), optimista $275 (-21%); VI ponderada por probabilidad ~$175 (-50%). El mercado capitaliza $4.27T = ~88x el owner FCF actual ($48.3B), un minimo ciclico por el supercicло de capex de IA. La VI base implica un fwd P/E de ~16x vs 29.4x actual. La brecha refleja que el mercado descuenta (a) que el capex de IA se convertira en flujos mucho mayores de lo que un margen owner-FCF de 22% asume, y/o (b) crecimiento sostenido >13% por mas tiempo. CONTRASTE rendimiento total al accionista (no DDM): recompras ~$70B/anio (~1.6%) + dividendo (~0.4%) = ~2.0% de yield al accionista, modesto y no compensa la brecha de valoracion. Posicion de caja neta solida (~$49B). Conclusion: la accion luce CARA bajo disciplina de owner earnings; la tesis alcista depende de monetizacion excepcional del capex de IA no capturada en margenes historicos.",
+ "method_notes": "DCF de owner earnings a 10 anios. Base owner FCF = FCF reportado FY2025 $73.27B - 100% SBC $24.95B = $48.32B (margen ~12.0%). Fase 1 (anios 1-5): CAGR ingresos explicito por escenario (10/13/16%) con recuperacion del margen owner-FCF desde el minimo ciclico de capex. Fase 2 (anios 6-10): CAGR declina linealmente hacia normalizacion (4/5/6% al anio 10). Margen owner-FCF se rampa (curva back-loaded) hacia 17/22/26% reflejando que el capex de crecimiento de IA/Cloud se monetiza. Valor terminal con g=2.5/3.0/3.5% (foso amplio: Search, YouTube, Android, Cloud, distribucion) descontado al WACC. WACC = Rf 4.3% (UST 10Y) + ERP 5.0% x beta 1.05 = 9.55%; sin ajuste geopolitico (empresa US). VI por accion = (PV flujos + PV TV - deuda neta) / acciones diluidas. Deuda neta = -$49.3B (caja neta, suma valor). Acciones diluidas ~12.21B (market cap $4.27T / precio $349.68). Todos los inputs operativos VERIFICADOS de FASE 2 (earnings releases oficiales + 10-K/10-Q SEC); no se requirio busqueda web adicional. Beta 1.05 estimada (mega-cap tech, ligeramente sobre el mercado)."
+}

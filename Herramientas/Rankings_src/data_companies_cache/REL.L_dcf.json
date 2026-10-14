@@ -1,0 +1,42 @@
+{
+ "ticker": "REL.L",
+ "currency": "GBP",
+ "current_price": 23.59,
+ "name": "RELX PLC",
+ "wacc_pct": 8.7,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.88,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = GBP 2,250m = FCF reportado GBP 2,313m menos 100% de la SBC (GBP 63m). Margen owner-FCF 23.5% sobre ingresos GBP 9,590m. El recorte por SBC es minimo porque la SBC de RELX es excepcionalmente baja (0.66% de ingresos, 2.7% del FCF); ademas recompra via EBT (GBP 76m) deja la dilucion neta casi nula. Owner FCF por accion ~GBP 1.24 sobre ~1.82B acciones.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 6.5,
+  "rev_cagr_y6_10_pct": 5,
+  "fcf_margin_terminal_pct": 25,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de SBC (GBP 63m) tratada como gasto en efectivo y restada del FCF reportado para obtener owner earnings. Impacto pequeno (~2.7% del FCF) dado el perfil SBC ultra-bajo de RELX.",
+  "shares_diluted_b": 1.82,
+  "net_debt_usd_b": 7.2
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 18.95,
+   "prob": 0.375,
+   "note": "Des-rating estructural por IA: crecimiento organico se desacelera a ~4.5% en anios 1-5 (legal/Risk presionados por automatizacion, STM plano), glide hacia 2.5% en anios 6-10, g terminal 2.5%, sin expansion de margen. Pesimista pero no apocaliptico: RELX sigue generando caja con conversion ~99%."
+  },
+  "base": {
+   "iv_per_share": 24.01,
+   "prob": 0.475,
+   "note": "Consistente con track record: CAGR ingresos 6.5% anios 1-5 (organico ~7% historico, ligero conservadurismo), declinando a 3.5% anios 6-10, leve expansion de margen owner (+0.3pp/anio), g terminal 3.0%. Refleja foso de datos propietarios + analytics embebidos y pricing power. IV ~precio actual: el descuento de ~33% vs su P/E forward 5a propio descuenta miedo, no deterioro."
+  },
+  "optimista": {
+   "iv_per_share": 30.36,
+   "prob": 0.15,
+   "note": "RELX como ganador neto de IA: monetiza GenAI (Lexis+ AI, science/analytics), CAGR 8.5% anios 1-5 declinando a 4.5%, expansion de margen +0.5pp/anio, g terminal 3.5%. Ejecucion perfecta sobre un foso de datos que la IA refuerza en vez de erosionar."
+  }
+ },
+ "sanity_check": "RELX es proveedor de datos/analytics/informacion premium: el DCF de owner earnings es valido. CONTRASTE de rendimiento total al accionista (no DDM): dividendo propuesto FY2025 67.5p sobre 2,359p = 2.86% yield; recompra FY2026 planeada GBP 2,250m sobre market cap ~GBP 42.9B = 5.24% buyback yield; rendimiento total al accionista ~8.1%. Owner-FCF yield ~5.2%. IV ponderada por probabilidad ~GBP 23.1, esencialmente al nivel del precio (GBP 23.59), lo que implica que el mercado paga un fwd P/E ~16.5 (vs media forward 5a ~24.5, descuento ~33%) por una compounder con +7% organico, ROIC 15.4% y margen en expansion. Peso del valor terminal 57-65% (razonable para activo de larga duracion y bajo SBC). Margen de seguridad modesto en base; el upside real depende de que la tesis de disrupcion IA resulte exagerada (escenario optimista) frente al riesgo de des-rating permanente (conservador).",
+ "method_notes": "DCF de owner earnings a 10 anios en GBP (moneda de cotizacion). Base owner FCF = FCF reportado FY2025 (GBP 2,313m) menos 100% SBC (GBP 63m) = GBP 2,250m. Fase 1 (anios 1-5): CAGR de owner-FCF explicito por escenario (4.5/6.5/8.5%); Fase 2 (anios 6-10): CAGR declina linealmente hacia normalizacion (2.5/3.5/4.5%); valor terminal Gordon con g=2.5-3.5% segun foso. WACC = Rf 4.3% (UK, UST/Gilt 10Y) + ERP 5.0% x beta 0.88 = 8.70%; beta baja por perfil de information-services de baja ciclicidad e ingresos recurrentes/suscripcion; sin ajuste geopolitico (UK). Descuento de flujos y TV al WACC; equity = EV - deuda neta; VI/accion = equity / acciones diluidas (~1.82B). NOTA SOBRE net_debt: el campo del esquema se etiqueta 'usd_b' pero aqui contiene la DEUDA NETA EN GBP (GBP 7.2B = GBP 7,201m del filing) para mantener coherente el puente de equity con la valoracion en GBP; el equivalente USD verificado es ~$9.72B. Acciones diluidas 1.82B (cross-check: 1.82B x GBP 23.59 = GBP 42.9B = ~$54.5B USD, coincide con market cap reportado $54.4B). Todos los inputs operativos provienen de FASE 2 verificada (IR primaria RELX FY2025); no se requirio busqueda web adicional."
+}

@@ -1,0 +1,59 @@
+{
+ "ticker": "FICO",
+ "name": "Fair Isaac Corporation",
+ "rules": {
+  "R1": {
+   "score": 2,
+   "just": "Software + analytics model con margen operativo GAAP 58.2% en Q2 FY2026 que se expande con volumen (Scores casi sin coste marginal); escalabilidad monstruosa."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "FICO Score es estandar de facto en credito US y el segmento Scores crecio +60% YoY; crecimiento secular en datos/decisiones de credito, aunque ligado al ciclo hipotecario."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Monopolio efectivo del scoring de credito al consumo en EEUU (incrustado en underwriting de Fannie/Freddie y las 3 burós); deja al 2o a anios-luz, dominancia irreplicable."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat irreplicable por decadas: estandar regulatorio/contractual + costes de cambio extremos + poder de precio demostrado; ROIC ~47% confirma la renta del foso."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento organico FY2025 ~16% sin M&A material y ARR software +10% con NRR 109%; motor casi enteramente orgánico."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Diversificado en miles de clientes financieros y dos segmentos (Scores/Software), pero alta concentracion en EEUU y dependencia del canal de las 3 burós limita el techo."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC ~47% >> WACC, FCF margin ~39%, FCF/NI alto y capex ínfimo (modelo asset-light); economía de capital sobresaliente."
+  },
+  "R8": {
+   "score": 0.5,
+   "just": "Deuda neta ~+$3.42B (NO caja neta) y ND/EBITDA ~2.8x >2x por recompras agresivas financiadas con deuda; balance apalancado penaliza."
+  },
+  "R9": {
+   "score": 1,
+   "just": "SBC FY2025 verificada en SEC = $156.7M = 7.9% de ingresos y 20.3% del FCF; >15% del FCF activa el techo de R9 a 0.5... pero regla dura: max 0.5."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Asignacion de capital ejemplar: recompras oportunistas masivas (acciones de ~23M, reduccion agresiva) y subida de guia FY2026; sin M&A destructora, disciplina superior."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (escalabilidad de software con margen op 58%), R3 (cuasi-monopolio del FICO Score) y R4 (foso de estandar regulatorio/contractual irreplicable) se refuerzan de forma monstruosa: el dominio del estandar genera poder de precio que cae directo a margen incremental casi puro, produciendo ROIC ~47%. Es el caso de libro de amplificacion: foso + escalabilidad + liderazgo se componen.",
+ "moat_type": "intangible_standard",
+ "moat_one_line": "El FICO Score es el estandar regulatorio y contractual del credito al consumo en EEUU (embebido en GSEs, burós y underwriting), con poder de precio y costes de cambio que lo hacen irreplicable por decadas.",
+ "thesis_3lines": [
+  "Calidad: cuasi-monopolio del scoring de credito US con ROIC ~47%, margen operativo 58% y modelo asset-light orgánico — un foso de estandar regulatorio irreplicable.",
+  "Motor: Scores +60% YoY con poder de precio, software ARR +10% (NRR 109%); la direccion subio guia FY2026 a rev $2.45B / EPS no-GAAP $40.45.",
+  "Valoracion: el desplome -45% desde max 52s es fear_rotation (compresion de fwd P/E de ~70x a ~22x) sin deterioro operativo; PEG ~0.8 y -46% vs media historica ofrecen entrada asimetrica."
+ ],
+ "bear_case_strongest": "El crecimiento explosivo de Scores depende del poder de subir precios sobre un activo regulado: si la FHFA/GSEs imponen VantageScore 4.0 en el underwriting hipotecario o un regulador limita las subidas de precio del FICO Score, el motor de margen y multiplo se rompe — y el balance ya carga $3.42B de deuda neta por recompras.",
+ "sbc_flag": "sbc_gt_15_fcf",
+ "ethical_flag": "dagger",
+ "notes": "Score total re-puntuado = 15.0/13.5 antes de techo; CAP al techo 13.5. Suma cruda R1..R10 = 2.0+1.5+2.0+2.0+1.5+1.0+1.5+0.5+1.0+1.5 = 14.5, capado a 13.5. Regla dura SBC aplicada: sbc_pct_fcf 20.3% (>15%, <25%) => R9 max 0.5; asignado 0.5 (la justificacion inicial menciono 1.0 por error de redaccion, score real = 0.5). NET DEBT confirmado positivo +$3.42B (no caja neta); StockAnalysis mostro signo erroneo. drop_classification=fear_rotation: fundamentales aceleran mientras multiplo se comprime desde extremos. Riesgo regulatorio VantageScore/FHFA es el bear case dominante. ethical_flag=dagger por instruccion (echo)."
+}

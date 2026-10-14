@@ -1,0 +1,42 @@
+{
+ "ticker": "IDXX",
+ "currency": "USD",
+ "current_price": 545.73,
+ "wacc_pct": 9.55,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.05,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = FCF reportado FY2025 ~$1,100M - 100% SBC (~$65M anualizado, verificado ~$16.34M en Q1 2026, ~1.4% de ingresos) = ~$1,035M. Margen owner FCF ~24.0% sobre ingresos FY2025 de $4,304M. SBC excepcionalmente baja (R9 positivo). FCF reportado ~100% de conversion de net income (~$1,059M).",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 9,
+  "rev_cagr_y6_10_pct": 7,
+  "fcf_margin_terminal_pct": 27,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC tratada como gasto en efectivo y restada del FCF reportado (owner earnings). SBC ~1.4% de ingresos / ~5.7% del FCF, anualizada ~$65M.",
+  "shares_diluted_b": 0.0809,
+  "net_debt_usd_b": 0.55
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 249,
+   "prob": 0.35,
+   "note": "Desaceleracion del crecimiento: Fase 1 (anios 1-5) CAGR ingresos ~7%, Fase 2 (anios 6-10) declina de 7% a 4%. Margen owner FCF expande levemente de 24% a 25%. g terminal 2.5%. Refleja mayor competencia en diagnostico veterinario (Zoetis/Antech-Mars), presion macro en visitas a clinicas y normalizacion del crecimiento post-COVID, pero SIN colapso del foso."
+  },
+  "base": {
+   "iv_per_share": 319,
+   "prob": 0.45,
+   "note": "Consistente con track record: Fase 1 CAGR ~9% (organico ~8-10% historico + mix premium/instrumentos), Fase 2 declina 9% a 5%. Margen owner FCF 24%->27% por apalancamiento operativo y software/recurring. g terminal 3.0%. Foso amplio (razor-and-blade, base instalada de analizadores, datos)."
+  },
+  "optimista": {
+   "iv_per_share": 410,
+   "prob": 0.2,
+   "note": "Ejecucion perfecta: Fase 1 CAGR ~11% (penetracion de cancer screening/IA, expansion internacional, nuevos instrumentos), Fase 2 declina 11% a 6%. Margen owner FCF 24%->29%. g terminal 3.5%. Aun asi por debajo del precio: el mercado descuenta crecimiento mas agresivo que el modelo de owner earnings valida."
+  }
+ },
+ "sanity_check": "El precio actual ($545.73) cotiza con prima notable sobre la VI por DCF de owner earnings (VI ponderada por probabilidad ~$312-320; base $319). Esto es coherente con IDXX como compounder de multiplo elevado: P/E forward ~37x (vs ~42-55x historico), -29% desde ATH ($769.98) por compresion de multiplo / rotacion, NO por deterioro fundamental (Q1 2026 +14% reportado/+11% organico, margenes expandiendo, guia RAISED, ROIC ~44%, SBC minima). Rendimiento al accionista (contraste, NO DDM): IDXX no paga dividendo; retorno via recompras. FCF yield reportado ~2.6%; owner FCF yield ~2.4% sobre mkt cap ~$43B. El gap precio-VI implica que a este WACC (9.55%) el mercado paga por un crecimiento sostenido >10% por mas tiempo del que el DCF prudente capitaliza; la calidad (foso, ROIC 44%, recurrencia) justifica parte de la prima pero el margen de seguridad es negativo a precio actual.",
+ "method_notes": "DCF de owner earnings a 10 anios en dos fases. Base owner FCF = FCF reportado FY2025 (~$1,100M) menos 100% de SBC (~$65M) = ~$1,035M (margen 24.0%). WACC = Rf 4.3% (UST 10Y, empresa US) + ERP 5.0% * beta 1.05 = 9.55%; sin ajuste geopolitico (no Taiwan). Beta 1.05 estimada para diagnostico veterinario / med-tech defensivo de crecimiento. Acciones diluidas ~80.9M (derivadas de net income FY2025 ~$1,059M / EPS $13.08, reconcilia con mkt cap ~$43-44B). Deuda neta $0.55B (deuda total ~$946M - caja/ST inv ~$397M). Fase 1 (anios 1-5): CAGR de ingresos explicito constante. Fase 2 (anios 6-10): CAGR declinante lineal hacia normalizacion. Margen owner FCF evoluciona linealmente del 24% base al margen terminal de cada escenario. Valor terminal por crecimiento perpetuo g=2.5-3.5% segun amplitud del foso. VI/accion = (PV flujos + PV valor terminal - deuda neta) / acciones diluidas. Probabilidades: conservador 0.35, base 0.45, optimista 0.20 (suman 1.0). LIMITACION: cifras del 10-Q via snippet indexado (SEC EDGAR bloqueado en entorno); FCF FY2025 redondeado a ~$1.1B segun IR.",
+ "name": "IDEXX Laboratories, Inc."
+}

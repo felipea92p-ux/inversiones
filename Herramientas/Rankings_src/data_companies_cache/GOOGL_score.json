@@ -1,0 +1,59 @@
+{
+ "ticker": "GOOGL",
+ "name": "Alphabet Inc. (Class A)",
+ "rules": {
+  "R1": {
+   "score": 2,
+   "just": "Search/Ads/Cloud son software puro con margenes que se expanden con volumen (op margin 36.1% y en expansion, Cloud +63% a $20B con apalancamiento operativo creciente): escalabilidad monstruosa."
+  },
+  "R2": {
+   "score": 2,
+   "just": "Publicidad digital, cloud computing e IA son vientos seculares de decadas; backlog Cloud >$460B casi duplicado QoQ confirma demanda estructural."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Lider #1 absoluto en busqueda (~90% share global) y top-3 en cloud, con distancia de anios-luz sobre cualquier rival en search; dominancia irreplicable."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat multicapa irreplicable en decadas: red/datos de Search, marca, costes de cambio en Android/Chrome/YouTube e intangibles de IA (TPUs, talento, datos de entrenamiento)."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento +15% FY2025 reportado=constant currency=100% organico (sin distorsion de divisa ni M&A material), aceleracion a +22% YoY en Q1 2026."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Sin cliente >10%, multi-geografia global, multiples motores (Search, YouTube, Cloud, Android); dependencia estructural de ingresos publicitarios limita el 2.0."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC ~31% muy por encima del WACC y FCF $73.3B; pero capex 2026 elevado a $175-185B presiona FCF/NI y margen FCF (18.2%), por intensidad de capital de IA."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Caja neta ~$49.3B (ND/EBITDA -0.3x) tras emision de notas; balance fortaleza pero apalancamiento de deuda bruta creciente lo aleja del 2.0 maximo del rango."
+  },
+  "R9": {
+   "score": 0,
+   "just": "REGLA DURA: SBC verificada en 34.1% del FCF (>25%) fuerza R9=0.0 pese a contabilidad GAAP limpia; el EPS GAAP Q1 ademas infla por $2.35 de ganancia no realizada en valores."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Asignacion de capital disciplinada (buybacks masivos, dividendo iniciado, sin M&A destructora), gobierno con control dual-class de fundadores reduce skin-in-the-game externo."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (escalabilidad de software), R3 (dominancia #1 monstruosa en Search) y R4 (moat de red/datos/intangibles de IA irreplicable) se refuerzan circularmente: el liderazgo genera mas datos, que alimentan mejores modelos de IA y producto, que profundizan el moat y amplian margenes con volumen. Flywheel autorreforzante de clase mundial.",
+ "moat_type": "red/datos + intangibles + costes de cambio",
+ "moat_one_line": "Efecto de red y volumen de datos en Search que alimenta un flywheel de IA, reforzado por marca global, ecosistema Android/Chrome/YouTube e intangibles (TPUs, talento, indice web) irreplicables en decadas.",
+ "thesis_3lines": [
+  "Calidad excepcional: ROIC ~31%, op margin 36.1% en expansion, caja neta ~$49B y moat multicapa irreplicable en busqueda, ecosistema e IA.",
+  "Motor de crecimiento acelerando: ingresos +22% YoY en Q1 2026, Google Cloud +63% con backlog >$460B casi duplicado QoQ, viento secular de publicidad digital + cloud + IA.",
+  "Valoracion exigente pero razonable para la calidad: fwd P/E 29.4x (prima ~+21% vs media 5a, PEG 1.83); la caida -14% es rotacion por miedo (salidas de talento IA), no deterioro de fundamentales."
+ ],
+ "bear_case_strongest": "La IA generativa amenaza con desintermediar la busqueda tradicional (su mayor fuente de FCF) justo cuando el capex se dispara a $175-185B/anio y se fugan investigadores clave de IA, comprimiendo el FCF y arriesgando que Alphabet financie su propia disrupcion sin garantizar monetizacion equivalente.",
+ "sbc_flag": "sbc_gt_25_fcf",
+ "ethical_flag": "none",
+ "notes": "Score total re-puntuado: R1 2.0 + R2 2.0 + R3 2.0 + R4 2.0 + R5 1.5 + R6 1.5 + R7 1.5 + R8 1.5 + R9 0.0 + R10 1.5 = 14.0 bruto, pero techo Seilern 13.5 -> capado a 13.5. NOTA CRITICA: la REGLA DURA de SBC (34.1% del FCF >25%) impone R9=0.0, un riesgo de gobierno/contabilidad que el score techo enmascara; el inversor debe tratar la dilucion por SBC como coste real recurrente. EPS GAAP Q1 2026 ($5.11) inflado por $2.35 de ganancia no realizada en valores; EPS ajustado ~$2.76 es la cifra economica. Valoracion ESTIMADA de agregador (fwd P/E 5a y prima son indicativos). drop_classification=fear_rotation: fundamentales ACELERANDO, no deteriorando. data_quality MIXED."
+}

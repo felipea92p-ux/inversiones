@@ -1,0 +1,59 @@
+{
+ "ticker": "ZTS",
+ "name": "Zoetis Inc.",
+ "moat_type": "intangibles",
+ "moat_one_line": "Cartera de marcas veterinarias lider (Apoquel, Simparica, Librela) protegida por patentes/regulacion, datos clinicos propios y altos costes de cambio via la relacion veterinario-clinica, pero con erosion visible por genericos/competencia en companion animal US.",
+ "amplification": false,
+ "amplification_note": "R1+R3+R4 NO se refuerzan de forma monstruosa ahora mismo: aunque ZTS es lider #1 global en sanidad animal con moat real (intangibles + costes de cambio), el modelo es de farma especializada (no escalable tipo software/red, R1 bajo) y el moat esta siendo activamente perforado por genericos/competencia en su franquicia clave (companion animal US -11% en Q1 2026). La dominancia existe pero es replicable/erosionable, no irreplicable por decadas, por lo que la amplificacion no aplica.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "bear_case_strongest": "El deterioro no es ciclico sino estructural: la franquicia core (companion animal US, el motor de margen) cae doble digito (-11%) por genericos y competidores (p.ej. presion en dermatologia/dolor osteoarticular), el crecimiento organico colapso de +6% a 0%, la direccion recorto la guia FY2026, y un fwd P/E de 10.8x puede ser una \"value trap\" si el de-rating refleja un techo de crecimiento permanente y compresion de margenes futura, no una sobre-reaccion.",
+ "thesis_3lines": [
+  "CALIDAD: lider #1 global en sanidad animal con margenes operativos altos (~33.5%), FCF solido (~$2.28B, margen ~24%), SBC trivial (<1% de ingresos, ~3.6% del FCF) y balance manejable (ND/EBITDA 1.83x), pero con grietas reales en el moat de companion animal US.",
+  "MOTOR: el crecimiento secular del gasto en mascotas e International (+17%, fuerte livestock) sigue intacto, pero el motor domestico de companion animal se ha gripado (-11% US, organico 0% vs +6% FY2025) por genericos/competencia, forzando un recorte de guia FY2026 a ~2-5% organico.",
+  "VALORACION/RETORNO: a fwd P/E 10.8x (PEG 1.57) cotiza ~61% por debajo de su media historica estimada, ofreciendo margen de seguridad SI el deterioro es ciclico, pero el riesgo de value-trap es real si la erosion de la franquicia core es permanente."
+ ],
+ "notes": "Score total re-puntuado FASE 2: 8.0/13.5 (vs 13.5/13.5 preliminar FASE 1). El recorte es severo y justificado: la FASE 1 ignoraba el deterioro fundamental verificado. R5 (crecimiento organico) y R2/R3/R4 (durabilidad de industria, liderazgo y moat) se penalizan fuerte porque el crecimiento organico cayo a 0%, la franquicia clave (companion animal US -11%) muestra erosion estructural por genericos/competencia, y la direccion recorto guia FY2026. Atenuantes que sostienen una calidad aun decente: margenes ~33.5%, FCF ~$2.28B (24% margen), SBC verificada muy baja (~$83M, 0.87% ingresos, 3.6% FCF -> R9 sin penalizacion, sbc_flag=ok), balance ND/EBITDA 1.83x, e International +17%. ROIC FY2025 no localizado en fuente primaria (null) -> R7 puntuado con cautela apoyandose en margenes/FCF observados, no en ROIC verificado. Valoracion fwd P/E 10.8x es atractiva en superficie pero conlleva riesgo de value-trap dado el de-rating como amplificador del desplome (-53% desde maximo 52s, -70% desde ATH). Clasificacion del desplome: genuine_deterioration. data_quality MIXED (varios campos de valoracion/balance ESTIMADOS). No es candidato QG de compra a este score; requiere monitorizar si el deterioro de companion animal US es ciclico o secular antes de cualquier tesis de reversion.",
+ "rules": {
+  "R1": {
+   "score": 0.5,
+   "just": "Modelo de farma especializada animal: NO escalable tipo software/red (margenes no mejoran materialmente con volumen y dependen de I+D y patentes); margen operativo alto (~33.5%) pero estructuralmente limitado, sin apalancamiento operativo monstruoso."
+  },
+  "R2": {
+   "score": 1,
+   "just": "Industria de sanidad animal tiene crecimiento secular real (humanizacion de mascotas, proteina animal), pero el segmento domestico clave (companion animal US) se contrajo -11% en Q1 2026 por genericos/menor demanda premium, recortando la tesis secular en su mercado principal."
+  },
+  "R3": {
+   "score": 1,
+   "just": "Lider #1 global sostenido en sanidad animal, pero deja de ser una dominancia 'a anios-luz' cuando los genericos/competidores le quitan doble digito en companion animal US; liderazgo intacto pero no inexpugnable."
+  },
+  "R4": {
+   "score": 1,
+   "just": "Moat real via intangibles (patentes, datos clinicos, marcas Apoquel/Simparica/Librela) y costes de cambio del canal veterinario, pero VERIFICADAMENTE perforable: la erosion por genericos en la franquicia core demuestra que no es irreplicable por decadas."
+  },
+  "R5": {
+   "score": 0,
+   "just": "Crecimiento organico colapso de +6% (FY2025) a PLANO 0% en Q1 2026, con ingresos US -8%; la direccion recorto guia FY2026 a ~2-5% organico: el motor de crecimiento organico, pilar de la tesis, esta gripado."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Buena diversificacion por geografia (International +17% compensa parcialmente la caida US) y por especie/producto (companion + livestock), sin dependencia de un unico cliente; diversificacion solida y funcionando como amortiguador."
+  },
+  "R7": {
+   "score": 1,
+   "just": "FCF solido ~$2.28B (margen ~24%) y capex razonable indican generacion de caja de calidad, pero ROIC FY2025 NO verificado en fuente primaria (null) -> se puntua con cautela sin poder confirmar ROIC>>WACC."
+  },
+  "R8": {
+   "score": 1,
+   "just": "Balance manejable: ND/EBITDA 1.83x (<2x), net debt ~$6.7B (deuda LP ~$9.0B menos caja ~$2.3B); solido pero NO es caja neta, por lo que no merece nota superior."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "Contabilidad limpia con SBC VERIFICADA muy baja (~$83M FY2025 = 0.87% de ingresos, ~3.6% del FCF), muy por debajo del umbral del 15%: regla dura SBC no penaliza, FCF reportado es de alta calidad (sbc_flag=ok)."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Gestion con margenes altos y FCF disciplinado, pero la ejecucion reciente es cuestionable (perdio consenso EPS ~$1.53 vs ~$1.62 y recorto guia); asignacion de capital aceptable sin evidencia verificada de buybacks oportunistas vs M&A destructora."
+  }
+ }
+}

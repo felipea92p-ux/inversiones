@@ -1,0 +1,101 @@
+{
+ "ticker": "SNPS",
+ "name": "Synopsys, Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 464.58,
+ "market_cap_usd_b": 88.96,
+ "fwd_pe": 31.5,
+ "fwd_pe_5y_avg": 36.4,
+ "pe_prem_disc_pct": -13.5,
+ "peg": 1.2,
+ "last_q": {
+  "period": "Q2 FY2026 (ended 2026-04-30)",
+  "revenue": "$2,275.985M",
+  "rev_yoy_pct": 41.9,
+  "op_margin_pct": 5.3,
+  "eps_gaap": "$0.09",
+  "eps_adj": "$3.35"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended 2025-10-31)",
+  "revenue": "~$6.13B (FY2025 standalone, pre-full-Ansys)",
+  "organic_growth_pct": null,
+  "roic_pct": null,
+  "fcf": "~$1.4B (H1 FY2026: OCF $1,485.8M - capex $89.5M = $1,396.2M)",
+  "fcf_margin_pct": null
+ },
+ "guidance_fy": "FY2026 (raised at Q2): revenue $9.625B-$9.705B; non-GAAP EPS $14.72-$14.80; FCF ~$2.0B",
+ "sbc_pct_revenue": 10.3,
+ "sbc_pct_fcf": 34.5,
+ "net_debt_usd_b": 7.5,
+ "nd_ebitda": 2,
+ "net_cash": false,
+ "pct_off_52w_high": -28.7,
+ "pct_off_ath": -28,
+ "drop_classification": "mixed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "price",
+  "market_cap_usd_b",
+  "asof_date",
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "guidance_fy",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "last_fy.fcf"
+ ],
+ "estimated_fields": [
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.roic_pct",
+  "last_fy.fcf_margin_pct",
+  "drop_classification"
+ ],
+ "sources": [
+  {
+   "label": "SEC 10-Q Q2 FY2026 (period ended 2026-04-30, filed 2026-05-27)",
+   "url": "https://www.sec.gov/Archives/edgar/data/883241/000088324126000018/snps-20260430.htm",
+   "date": "2026-05-27"
+  },
+  {
+   "label": "SEC EDGAR submissions index (filing list)",
+   "url": "https://data.sec.gov/submissions/CIK0000883241.json",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockTitan 8-K summary Q2 FY2026 results & guidance",
+   "url": "https://www.stocktitan.net/sec-filings/SNPS/8-k-synopsys-inc-reports-material-event-cbc0fdf27739.html",
+   "date": "2026-05-27"
+  },
+  {
+   "label": "StockAnalysis.com SNPS overview & statistics (price, mcap, fwd PE, PEG, debt, cash)",
+   "url": "https://stockanalysis.com/stocks/snps/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "GuruFocus / aggregators forward PE 5-yr average context",
+   "url": "https://www.gurufocus.com/term/forward-pe-ratio/SNPS",
+   "date": "2026-06-02"
+  },
+  {
+   "label": "Reuters/Investing.com - China export restrictions guidance context",
+   "url": "https://www.investing.com/news/stock-market-news/synopsys-forecasts-muted-quarter-on-china-export-restrictions-shares-fall-4526246",
+   "date": "2026-05-28"
+  }
+ ],
+ "notes": "VERIFIED from SEC 10-Q (period ended 2026-04-30, filed 2026-05-27): Q2 revenue $2,275.985M (+41.9% YoY vs $1,604.266M); GAAP operating income $120.4M -> op margin 5.3% (GAAP depressed by Ansys intangible amortization, SBC, restructuring); GAAP EPS $0.09; non-GAAP EPS $3.35 (beat). H1 FY2026: revenue $4,684.783M; OCF $1,485.766M; capex $89.518M -> FCF $1,396.2M; SBC pre-tax $481.027M -> SBC/rev 10.3%, SBC/FCF 34.5%. Q2 SBC $222.303M (9.8% of Q2 rev). Balance sheet 2026-04-30: cash $2,412M + ST inv $72M, LT debt $10,014M -> net debt ~$7.53B (NOT net cash; leverage from Ansys deal closed Jul 2025). FY2026 guidance RAISED at Q2: rev $9.625-9.705B, non-GAAP EPS $14.72-14.80, FCF ~$2.0B.\n\nESTIMATED/aggregator: fwd_pe — divergence across sources. On CURRENT-FY guide midpoint ($14.76) fwd PE = 464.58/14.76 = 31.5 (reported here); aggregators show 28.7 (StockAnalysis, NTM/FY2027 basis) to ~36 (GuruFocus trailing-of-next-FY). fwd_pe_5y_avg ~36.4 (GuruFocus); prem/disc -13.5% computed on 31.5 vs 36.4. PEG 1.20 (StockAnalysis). nd_ebitda ~2.0x is ESTIMATED: aggregator GAAP EBITDA ($1.70B TTM) is artificially low due to Ansys amortization; on a normalized/non-GAAP operating-EBITDA run-rate (~$3.7-4B) net debt $7.5B implies ~1.9-2.0x. 52w high/ATH ~$651.73 (intraday) / $645.35 close (Jul-2025) -> ~-28.7%/-28.0% off; price $464.58 confirmed at close 2026-06-22.\n\nDROP CLASSIFICATION = MIXED (leans fear/rotation): ~29% below ATH driven primarily by (a) growth-guidance reset (FY growth cut to ~36% from 40%+) and multiple compression off a previously rich ~36x, plus (b) GENUINE soft spots — China revenue declined (~22% in FY25, export-restriction headwinds) and IP segment -6% YoY ($407M) on weak consumer electronics. Core EDA franchise intact, Q2 beat and FY guide raised, but Ansys integration risk + ~$10B debt load weigh on sentiment. last_fy ROIC, organic growth, and fcf_margin left null — distorted/not cleanly available post-Ansys; last_fy.revenue is approximate standalone FY2025 (Ansys closed mid-FY)."
+}

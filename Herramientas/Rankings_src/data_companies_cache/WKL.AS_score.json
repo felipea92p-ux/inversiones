@@ -1,0 +1,59 @@
+{
+ "ticker": "WKL.AS",
+ "name": "Wolters Kluwer N.V.",
+ "rules": {
+  "R1": {
+   "score": 1.5,
+   "just": "Digital subscription/expert-software model with ~80%+ recurring digital revenue and high incremental margins (adj op margin 27.5%, +40bps in FY25 toward ~28% guided), but software-plus-content rather than a pure zero-marginal-cost network, so 1.5 not 2.0."
+  },
+  "R2": {
+   "score": 1,
+   "just": "Serves structurally growing legal, tax/accounting, health and compliance verticals (FY25 +6% organic) but these are GDP-plus, mature niches now facing the AI-disruption overhang."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Clear #1/#2 in its core professional-information niches (health, legal/regulatory, tax & accounting, governance/compliance) with durable expert-solutions leadership, though not a years-ahead monopolist across all segments."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Deep moat from high switching costs, embedded workflow software, proprietary regulated content and trusted brands; Morningstar's cut to Narrow on AI fear argues against a 2.0 irreplaceable-for-decades rating."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "FY25 +6% organic (Q1 2026 +5% organic), growth genuinely internally generated rather than acquisition-led, a superior organic engine."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Highly diversified across four divisions, multiple geographies (Europe/North America) and a vast fragmented professional-customer base with no client concentration risk."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC 18% comfortably above WACC, adj FCF EUR 1,348M at a 22% margin and high FCF conversion in a capital-light model (FCF/NI well above 80%)."
+  },
+  "R8": {
+   "score": 1,
+   "just": "Net debt EUR ~4.0B with ND/EBITDA 2.0x at FY25 / 1.9x at Q1 2026 — investment-grade and serviceable but right at the 2x threshold, not net cash."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "SBC only ~0.5% of revenue and ~2.2% of FCF (most variable comp paid in cash), far below the 15% hard-rule trigger, so clean accounting with minimal dilution."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Disciplined management with consistent organic-led capital allocation, steady margin expansion, recurring buybacks and a reiterated FY26 guide (margin ~28%, high-single-digit adj EPS growth cc)."
+  }
+ },
+ "amplification": false,
+ "amplification_note": "R3 (#1/#2 leadership) and R4 (switching-cost/intangibles moat) reinforce each other strongly, but R1 is software-plus-content rather than a pure scalable network and none of the three reaches the monstrous, years-ahead-of-#2 2.0 standard; the active AI-disruption overhang (Morningstar moat cut to Narrow) further argues against monstrous amplification.",
+ "moat_type": "switching_costs_intangibles",
+ "moat_one_line": "Embedded expert-solution software plus proprietary, regulation-driven content create high switching costs and trusted brands across legal, tax, health and compliance workflows.",
+ "thesis_3lines": [
+  "Calidad: informacion profesional con ~80%+ ingresos digitales recurrentes, ROIC 18%, margen op ajustado 27.5% y FCF EUR 1,348M (22% margen) — calidad QG genuina.",
+  "Motor: crecimiento organico +6% FY25 / +5% Q1 2026 en nichos regulados (salud, legal, fiscal, compliance) con margen guiado a ~28% y EPS ajustado de doble-digito-bajo en cc.",
+  "Valoracion: fwd P/E ~10.1 vs media ~26 (~-62% descuento) por MIEDO a la disrupcion AI ('Claude Crash'), no por deterioro operativo — asimetria atractiva si el moat resiste."
+ ],
+ "bear_case_strongest": "Generative AI (Anthropic/Claude, OpenAI) could commoditize the proprietary legal/tax/regulatory content and answer-retrieval that underpins WKL's switching costs, structurally compressing pricing power and growth — exactly why Morningstar cut the moat to Narrow and the multi-year re-rating may be a permanent reset rather than a fear-driven dip.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Re-score total = 14.0 raw, capped at framework ceiling 13.5. Drop is fear_rotation (AI-disruption sell-off), not operating deterioration: FY25 +6% organic, ROIC 18%, adj FCF +10% cc; Q1 2026 +5% organic, adj op profit +11% cc, FY26 guide reiterated. Key risk concentrated in R2/R4: secular demand intact but AI overhang caps both. R8 held at 1.0 (ND/EBITDA 2.0x, not net cash). SBC verified clean (2.2% of FCF) — no R9 penalty. Valuation figures (fwd P/E, 5y-avg P/E, PEG, USD conversions) are aggregator-estimated; FY/Q fundamentals, guidance, net debt and SBC are company-verified."
+}

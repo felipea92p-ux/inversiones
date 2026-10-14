@@ -1,0 +1,89 @@
+{
+ "ticker": "7974.T",
+ "name": "Nintendo Co., Ltd.",
+ "asof_date": "2026-06-22",
+ "currency": "JPY",
+ "price": 7000,
+ "market_cap_usd_b": 50,
+ "fwd_pe": 19.94,
+ "fwd_pe_5y_avg": 25,
+ "pe_prem_disc_pct": -20.2,
+ "peg": 2.03,
+ "last_q": {
+  "period": "Q4 FY26 (Jan-Mar 2026)",
+  "revenue": "Q4 standalone not cleanly disclosed; full-year FY26 net sales ¥2,313.0bn. Switch 2 sold 2.49M units in Q4 (lowest quarter). See last_fy.",
+  "rev_yoy_pct": null,
+  "op_margin_pct": null
+ },
+ "last_fy": {
+  "period": "FY26 (ended Mar 31, 2026)",
+  "revenue": "¥2,313.0bn (~$14.3B at ¥161.5)",
+  "organic_growth_pct": 98.6,
+  "roic_pct": 37.84,
+  "fcf": "¥262.6bn (~$1.63B)",
+  "fcf_margin_pct": 11.35
+ },
+ "guidance_fy": "FY27 (ending Mar 2027) forecast: net sales ¥2,050.0bn (-11.4%), operating profit ¥370.0bn (+2.7%), ordinary profit ¥430.0bn (-20.7%), net profit ¥310.0bn (-26.9%). Assumes 150 JPY/USD, 175 JPY/EUR; ~¥100bn cost impact from rising memory/component prices and tariffs. Switch 2 HW forecast 16.5M units (-16.9%), SW 60M units (+23.2%). PROJECTION.",
+ "sbc_pct_revenue": null,
+ "sbc_pct_fcf": null,
+ "net_debt_usd_b": -13.7,
+ "nd_ebitda": null,
+ "net_cash": true,
+ "pct_off_52w_high": -52.7,
+ "pct_off_ath": -52.7,
+ "drop_classification": "mixed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "guidance_fy",
+  "price",
+  "net_cash",
+  "last_fy.period"
+ ],
+ "estimated_fields": [
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "net_debt_usd_b",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "drop_classification",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf"
+ ],
+ "sources": [
+  {
+   "label": "Nintendo IR - Financial Results Explanatory Material FY ended Mar 2026 (PDF, 260508_4e)",
+   "url": "https://www.nintendo.co.jp/ir/pdf/2026/260508_4e.pdf",
+   "date": "2026-05-08"
+  },
+  {
+   "label": "Nintendo IR - Investor Relations Information (English)",
+   "url": "https://www.nintendo.co.jp/ir/en/index.html",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com - Nintendo (TYO:7974) quote & statistics",
+   "url": "https://stockanalysis.com/quote/tyo/7974/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "TradingEconomics - USD/JPY exchange rate",
+   "url": "https://tradingeconomics.com/japan/currency",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Wisesheets - Nintendo 7974.T P/E history (10y mean 33.2x; 5y high 36.8x / low 13.1x)",
+   "url": "https://www.wisesheets.io/pe-ratio/7974.T",
+   "date": "2026-06-22"
+  }
+ ],
+ "notes": "PRICE/MARKET CAP: ¥7,000 as of 2026-06-22 ~15:30 JST (stockanalysis.com). Market cap ¥8.07T ÷ 161.54 USD/JPY ≈ $50.0B. FY26 ACTUALS (VERIFIED, IR PDF 260508_4e): net sales ¥2,313.0bn (+98.6% YoY, driven by Switch 2 launch – 19.86M units sold); operating profit ¥360.1bn (op margin 15.6%, down from 24.3% – margin halved on higher HW mix, memory/component costs); ordinary profit ¥542.1bn (+45.6%, boosted by ¥44.3bn FX gains); net profit ¥424.0bn (+52.1%, record). Basic EPS ~¥369 (¥424.0bn/~1.149B sh); stockanalysis diluted TTM EPS ¥364.51. Annual dividend ¥219 (FY27 forecast ¥162). LAST QUARTER: Japanese issuer emphasizes annual reporting; Q4 FY26 (Jan-Mar 2026) standalone P&L not cleanly broken out in IR materials – Switch 2 Q4 units 2.49M (weakest quarter); last_q eps left null. last_fy is primary actuals window. BALANCE SHEET: total assets ¥3,805.3bn; net cash ~¥2.22T, zero financial debt (-$13.7B at 161.54); nd_ebitda null (net cash, N/M). FY27 GUIDANCE is a PROJECTION showing deliberate softness: sales -11.4%, net profit -26.9% on ~¥100bn memory-cost + tariff headwind and conservative Switch 2 HW (16.5M, -16.9%). VALUATION: fwd P/E 19.94, trailing 19.20, PEG 2.03 (stockanalysis). fwd_pe_5y_avg ~25x is an ESTIMATE – no clean forward-P/E-5y-avg published; trailing 10y mean 33.2x, 5y trailing range 13.1x–36.8x; current ~20x sits below historical mean => ~-20% discount (ESTIMATED). SBC: Japanese issuer with minimal/undisclosed stock-based compensation; sbc_pct_revenue and sbc_pct_fcf left null – treat as negligible (CRITICAL for R9: not a dilution risk). DROP (MIXED): -52.7% from ATH ¥14,795 (2025-08-18, also 52w high). Reflects (a) de-rating from a euphoric ~36.8x peak P/E + (b) genuine near-term EPS compression in FY27 guidance (-27%) from memory/tariff cost pressure and a SW 'drought'/HW deceleration – not pure fear/rotation, but the business is structurally healthy (record FY26 profit, fortress net-cash B/S, 37.8% ROIC). pct_off figures recomputed at -52.7% (7,000/14,795-1); the -45% search snippet reflects a different/intraday window and is not used."
+}

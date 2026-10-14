@@ -1,0 +1,105 @@
+{
+ "ticker": "ASML",
+ "name": "ASML Holding N.V.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 1929.25,
+ "market_cap_usd_b": 729.18,
+ "fwd_pe": 48.8,
+ "fwd_pe_5y_avg": 40,
+ "pe_prem_disc_pct": 22,
+ "peg": null,
+ "last_q": {
+  "period": "Q1 2026 (ended Mar 2026)",
+  "revenue": "EUR 8.767B (~$9.5B)",
+  "rev_yoy_pct": 13.9,
+  "op_margin_pct": 37,
+  "eps_gaap": "EUR 7.15 (basic)",
+  "eps_adj": "EUR 7.15"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 2025)",
+  "revenue": "EUR 32.7B (~$35.3B)",
+  "organic_growth_pct": 15.6,
+  "roic_pct": 67.8,
+  "fcf": "EUR ~11.0B (co. def.; stockanalysis ~12.25B excl. intangibles)",
+  "fcf_margin_pct": 33.6
+ },
+ "sbc_pct_revenue": 0.66,
+ "sbc_pct_fcf": 1.96,
+ "net_debt_usd_b": -9.2,
+ "nd_ebitda": -0.7,
+ "net_cash": true,
+ "guidance_fy": "FY2026: total net sales EUR 36-40B (raised at Q1 2026 from initial EUR 34-39B guided Jan 2026); gross margin 51-53%. PROYECCION de la direccion.",
+ "pct_off_52w_high": -1.5,
+ "pct_off_ath": -1.5,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "guidance_fy",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_cash"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_q.op_margin_pct",
+  "last_fy.roic_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "ASML Q1 2026 financial results press release (IR primary)",
+   "url": "https://www.asml.com/en/news/press-releases/2026/q1-2026-financial-results",
+   "date": "2026-04"
+  },
+  {
+   "label": "ASML FY2025 results press release (GlobeNewswire/IR primary)",
+   "url": "https://www.globenewswire.com/news-release/2026/01/28/3227191/0/en/ASML-reports-32-7-billion-total-net-sales-and-9-6-billion-net-income-in-2025.html",
+   "date": "2026-01-28"
+  },
+  {
+   "label": "ASML Q1 2025 results press release (for YoY base)",
+   "url": "https://www.asml.com/en/news/press-releases/2025/q1-2025-financial-results",
+   "date": "2025-04-16"
+  },
+  {
+   "label": "StockAnalysis.com ASML overview (price, mkt cap, fwd P/E, 52w range)",
+   "url": "https://stockanalysis.com/stocks/asml/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com ASML cash flow (SBC, FCF, capex FY2025)",
+   "url": "https://stockanalysis.com/stocks/asml/financials/cash-flow-statement/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "FinanceCharts ASML P/E history (5yr avg ~40x trailing)",
+   "url": "https://www.financecharts.com/stocks/ASML/value/pe-ratio",
+   "date": "2026-06"
+  },
+  {
+   "label": "ASML 2025 Form 20-F (FY2025 ROIC, FCF definition, op income)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026011378/asml-20251231.htm",
+   "date": "2026-02"
+  }
+ ],
+ "notes": "VALORACION/PRECIO: precio y market cap corresponden al ADR de EE.UU. (NASDAQ: ASML) en USD a 22-jun-2026 ($1,929.25; cap $729.18B). El listado primario en Amsterdam (EURONEXT) cotizaba ~EUR 1,657.80 a 21-jun-2026 con cap ~EUR 638B; ambos son la misma empresa. Marcado precio/cap como ESTIMADO por venir de agregador (no de IR). \n\nDROP_CLASSIFICATION = not_depressed: la accion esta ~1-2% por debajo de su maximo 52s (~$1,959) y practicamente en maximos historicos; NO esta deprimida. Subio +182% desde el minimo 52s ($683). El interes es por demanda de litografia EUV vinculada a IA (TSMC/Intel/Samsung acelerando fabs), no por deterioro.\n\nFWD_PE_5Y_AVG: dato debil. El ~40x documentado (FinanceCharts) es P/E TRAILING medio 2021-2025, usado como proxy; el P/E forward historico de ASML suele ser menor (~30-35x). Premium calculado vs ese proxy (+22%) es por tanto conservador y debe tratarse como ESTIMADO. fwd_pe HOY ~48.8x (GuruFocus 48.91 a 16-jun; stockanalysis 48.79). PEG = null (no obtenido de fuente fiable). \n\nQ1 2026 op_margin (~37%) ESTIMADO: el comunicado dio gross margin 53.0% pero no desglosó margen operativo del trimestre; FY2025 op margin fue 34.6% (verificado en 20-F). EPS Q1 2026 = EUR 7.15 basico (GAAP); ASML no reporta EPS 'ajustado' separado, por lo que adj=gaap.\n\nFY2025 verificado: ventas EUR 32.7B (+15.6% vs EUR 28.263B 2024), neto EUR 9.6B, gross margin 52.8%, op income EUR 11.3B (34.6%), ROIC ~67.8%. FCF: definicion de la compañia (OCF EUR 12,658.5M - capex PP&E EUR 1,573.6M - intangibles EUR 57.6M) ~= EUR 11.0B; stockanalysis reporta EUR 12,253M (excluye intangibles). fcf_margin ~33.6% usando ~EUR 11.0B.\n\nSBC: EUR 215.4M en FY2025 = 0.66% de ingresos y ~1.96% del FCF. MUY BAJO (tipico de europea; sin la dilucion de las tech US). Critico para R9: ASML NO tiene problema de SBC.\n\nCAJA NETA: ~EUR 13.3B caja+inversiones CP fin 2025 vs ~EUR 4-5.4B deuda total => caja neta ~EUR 8-9B (negativo net debt). net_debt_usd_b ~ -9.2 y nd_ebitda ~ -0.7 son ESTIMADOS (conversion EUR->USD ~1.08 y EBITDA FY2025 ~EUR 12B). \n\nGUIDANCE: ojo, hubo dos cifras: guia inicial EUR 34-39B (28-ene-2026) y guia ELEVADA EUR 36-40B en Q1 2026. Se usa la mas reciente (36-40B). EDGAR/SEC devolvio 403 en fetch directo; se usaron comunicados IR y agregadores como respaldo."
+}

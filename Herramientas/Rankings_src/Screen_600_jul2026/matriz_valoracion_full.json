@@ -1,0 +1,2006 @@
+[
+ {
+  "ticker": "ADYEN.AS",
+  "name": "Adyen NV",
+  "sector": "Fintech / Infraestructura de pagos (merchant acquiring, gateway, procesamiento)",
+  "exchange": "Euronext Amsterdam",
+  "qg_score": 83.2,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 26,
+  "precio_actual": 855,
+  "fuente_precio": "stockanalysis.com — quote EUR 855.00 al 2-jul-2026 17:35 CET (cross-check Yahoo/MarketScreener EUR ~817-847 mismo dia; 52w range 772.4-1600.8)",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos net revenue +18% rep / +21% cc FY2025, margen EBITDA EXPANDIENDO 50%->53%, ROE ~23% (asset-light, casi sin deuda), take rate SUBIENDO 16.2->17.1 bps por mejora de mix. Trayectoria creciente con multiplo comprimido (26x P/OE vs historia 40x+) = candidato a mispricing por sentimiento CONFIRMADO. Ninguna metrica de deterioro: margen op subiendo, ROIC alto, orgnico creciente.",
+   "notas": "0/6 senales estructurales. Signal 2 (perdida de cuota) DESCARTADA: la desaceleracion de volumen procesado (33%->8%) es el run-off de un unico cliente grande de bajo take-rate (Block Cash App); ex-Cash App el volumen crecio +21% y net revenue +21% cc mientras el take rate SUBIO. No es perdida de cuota ni disrupcion: es mejora de mix. Signal 5 (recortes consenso) DESCARTADA: consenso Strong Buy 28/33 compra, target medio EUR ~1380-1460. SBC estructuralmente bajo (tope 20% bonus NL). Sin restatements. Net cash propio ~EUR 3.8B (ex fondos de merchants)."
+  },
+  "dcf_inverso": {
+   "veredicto": "BAJAS",
+   "g_implicita": "~5.4% de owner earnings a perpetuidad (base OE EUR 1025M, WACC 8.5% tier AltaConv, terminal g 3%, 10y explicitos)",
+   "vs_base_rate": "El precio de HOY descuenta ~5% de crecimiento perpetuo para un negocio que crece net revenue +18-21% cc con margen expandiendo y guia 2026 de +20-22% cc. La g implicita esta MUY por debajo de base rates razonables (Mauboussin: un lider de pagos de ~EUR 27B mcap con ROIC alto y runway largo justifica 12-18% durante una decada). Expectativas deprimidas, NO heroicas: es la senal inversa al candado GANGA -> el mercado ya descuenta demasiado pesimismo."
+  },
+  "valor": {
+   "pwfv_valor": 1476,
+   "banda_baja": 1113,
+   "banda_alta": 1921,
+   "owner_earnings_norm": 32.5,
+   "epv": 517
+  },
+  "zona": "GANGA FUERTE",
+  "mos": {
+   "actual_pct": 42.1,
+   "exigido_pct": 25,
+   "cumple": true,
+   "multiplo_actual": 26.3,
+   "techo_tier": 30,
+   "cumple_techo": true
+  },
+  "asimetria": {
+   "pasa": true,
+   "ratio": 4.14
+  },
+  "patron": {
+   "aplica": "P1 (herida superficial, franquicia intacta) + P7 (el miedo golpea al peaje equivocado)",
+   "evidencia": "P1: divergencia precio/consenso extrema — precio EUR 855 (-47% desde maximo 52s EUR 1600.8) vs consenso Strong Buy 28/33 y target medio EUR ~1380-1460 (>3:1). La desercion es del accionista, no del cliente: net revenue +21% cc, take rate al alza, unified commerce +32%, platforms +50%. P7: el mercado castigo el titular de 'volumen procesado +8%' cuando ese peaje cobra por VALOR y mix, no por volumen bruto — la economia (net revenue, take rate, margen) mejoro mientras caia el volumen optico del cliente de bajo margen que salia.",
+   "amplifica": true
+  },
+  "veredicto_final": "COMPRAR TRAMO",
+  "veredicto_original": null,
+  "tamano_sugerido": "Tramo inicial 4-5% del NAV (AltaConv en GANGA FUERTE con patron doble P1+P7, 0 trampas, asimetria 4:1). Reservar polvora para promediar mas abajo (zona EUR 772 52w-low) SOLO tras re-verificar detector por escrito. NO categoria excepcional (15%): falta pnico general macro (P2) y tier Nucleo.",
+  "ritual": {
+   "frase_tesis": "El mercado teme que Adyen esta perdiendo crecimiento (volumen procesado +8% vs +33% en 2024); ese miedo esta mal dimensionado porque la caida de volumen es el run-off de UN cliente de bajo take-rate (Block Cash App) — ex-ese cliente el volumen crecio +21%, el net revenue crecio +21% cc, el take rate SUBIO de 16.2 a 17.1 bps y el margen EBITDA se expandio de 50% a 53%. Se abarato el peaje justo cuando su economia por transaccion mejoraba.",
+   "condicion_oportunidad": "Herida superficial con franquicia intacta (P1) + el miedo golpea al peaje equivocado (P7): sobrerreaccion a una metrica optica (volumen bruto) que no gobierna la economia del negocio (net revenue x take rate x margen).",
+   "elemento_falsable": "Mataria la tesis, en 2-3 trimestres consecutivos: (a) net revenue cc cayendo por debajo de +12% EX-Cash-App (senal de perdida de cuota real, no de mix); (b) take rate en descenso sostenido >100bps (competencia comprimiendo el peaje); (c) margen EBITDA contrayendo por debajo de 50% con net revenue desacelerando (des-apalancamiento operativo); o (d) 3+ recortes consecutivos de consenso EPS FY+1. Cualquiera de estas reactiva el detector ANTES de todo tramo adicional."
+  },
+  "data_confidence": "HIGH",
+  "degradada": false,
+  "verify": "CONFIRMADO",
+  "verify_note": "COMPRAR TRAMO resiste todos los ataques adversariales. (1) PRECIO re-verificado en vivo: Yahoo/stockanalysis EUR ~854-855 al 2-jul-2026 (mktcap 26.9bn), coincide con ficha. (2) DETECTOR DE TRAMPAS re-corrido buscando 2a senal = 0 senales confirmado, PASA. Signal 1 REFUTADA (ROIC 51.8->64.7% SUBIENDO 3yr, no declive). Signal 2 REFUTADA (rev +16-18%, PoS vol +34%, Platforms +40%cc, Unified Commerce +28%cc Q1-26 — gana cuota). Signal 3 (disrupcion) es la carta mas fuerte del oso: Digital volumen casi plano (-1%) vs Braintree +12%, temor 'otro PayPal'. Pero take rate EXPANDIO 16.2->17.1bps y digital 0.169->0.183%: Adyen churnea volumen low-margin (Cash App) y captura enterprise high-margin — indicadores adelantados (guidance REAFIRMADA Q1-26 6-may-2026, take rate, margen) refutan disrupcion. NO se dispara. Signal 4 REFUTADA (EBITDA margin EXPANDIENDO 43->50->53->55%). Signal 5 REFUTADA (EPS BEAT 18.46 vs 18.16, sin restatements, guidance reafirmada, accion subio). Signal 6 REFUTADA (CAJA NETA 10.6bn, deuda 252M). (3) ATAQUE A PWFV/supuestos heroicos: al reves — la caja neta de 10.6bn (335/accion) colapsa el EV a ~16.4bn, EV/OE ~19x, P/E ex-caja ~15.5x para un compounder 20%+ con ROIC 64%. Mi DCF inverso (WACC 8.5% Alta conviccion, terminal 3%) muestra que el precio implica crecimiento de owner earnings <8%; el DCF a solo 8% ya da ~1081/accion (por encima de 855). Guidance 20-22%, Q1-26 entrego 20%cc. Implica BAJAS confirmado, no heroico. (4) MoS REAL: ficha 42.1% es agresivo pero mi blend conservador (DCF 8/10/12% = ~1214) da ~30% MoS, sobre el piso 25% del tier; multiplo 15.5x muy debajo del techo 30x. UNICO punto debil: asimetria ~2.5:1 vs filtro 3:1 (borderline), pero el piso EPV ya incluye 10.6bn de caja, protegiendo el downside. La unica preocupacion bajista genuina (deceleracion Digital vs Braintree) es mix-shift, no deterioro estructural. El buy resiste."
+ },
+ {
+  "ticker": "VEEV",
+  "name": "Veeva Systems",
+  "sector": "Health-Tech / Vertical SaaS (software para ciencias de la vida)",
+  "exchange": "NYSE",
+  "qg_score": 88,
+  "qg_tier": "Nucleo QG",
+  "rank_qg": 6,
+  "precio_actual": 192.74,
+  "fuente_precio": "stockanalysis.com — cierre 2026-07-02 ($192.74; mktcap $31.3B; 162.44M acc.; P/E 34.2; rango 52s $148-$310)",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Trayectoria 4-8T CRECIENTE y sana: ingresos orgánicos +16% (FY26 $3,195M vs FY25 $2,750M, sin M&A material), margen op non-GAAP 42.0%(FY25)→44.9%(FY26) expandiendo, ROIC ~34% >> WACC 7.5%. Consenso siendo REVISADO AL ALZA (guía FY27 subida a $3,585-3,600M tras Q1). No es deterioro ni trampa: es apalancamiento operativo genuino.",
+   "notas": "0 de 6 señales estructurales. (1) ROIC ~34% creciente, no en declive. (2) Gana cuota: Vault CRM desplaza a Salesforce/IQVIA, sector life-sciences en crecimiento. (3) IA es viento de cola (apuesta agentic labor), no sustituye el system-of-record vertical. (4) Margen bruto ~75% estable/expandiendo, sin compresión. (5) Sin restatements; guía SUBIDA, no recortes de consenso 3T+. (6) $0 deuda, $6.56B caja neta. Vertical SaaS regulado con switching cost extremo."
+  },
+  "dcf_inverso": {
+   "veredicto": "BAJAS",
+   "g_implicita": "~5.1% crec. de owner earnings a 10a si se valora el negocio a EV=$24.7B (neto de $6.56B caja); ~8.0% si el objetivo es la market cap completa. El EV paga solo 27.1x owner earnings.",
+   "vs_base_rate": "Muy por debajo de base rates: un compounder de $30B creciendo ingresos +16% con margen expandiendo (42%→45%) y ROIC 34% debería sostener crecimiento de owner earnings de doble dígito (12-15%). El precio de hoy descuenta ~5-8%, muy conservador. NO activa candado GANGA (lo contrario de HEROICAS)."
+  },
+  "valor": {
+   "pwfv_valor": 257,
+   "banda_baja": 227,
+   "banda_alta": 355,
+   "owner_earnings_norm": 914,
+   "epv": 115
+  },
+  "zona": "GANGA FUERTE",
+  "mos": {
+   "actual_pct": 25.1,
+   "exigido_pct": 15,
+   "cumple": true,
+   "multiplo_actual": 34.2,
+   "techo_tier": 35,
+   "cumple_techo": true
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": 1.6
+  },
+  "patron": {
+   "aplica": "P5 (la duración es el descuento) + P3 parcial (error de categoría)",
+   "amplifica": true,
+   "evidencia": "P5: moat de 20+ años (system-of-record regulado, retención de suscripción >90%, switching cost extremo en life-sciences) a precio que ningún screen marca como ganga — el mercado solo descuenta ~10a de reinversión a ROIC 34%. P3: el mercado castiga a VEEV con múltiplo de 'software genérico' pese a economics de peaje vertical cuasi-monopólico. Vía sin crisis (solo Núcleo) parcialmente activa: OE-yield+crec = 16.9% >> 11-12%, aunque OE-yield 2.9% < bono 4.3% (falla la primera condición por SBC pesado que deprime owner earnings)."
+  },
+  "veredicto_final": "COMPRAR TRAMO",
+  "veredicto_original": null,
+  "tamano_sugerido": "Tramo INICIAL 3% del NAV (no ampliar a sizing excepcional). La zona GANGA FUERTE y el MoS 25% (> 15% exigido Núcleo) habilitan la compra; PERO la asimetría stress-realista es ~1.6:1 (< 3:1 universal) porque el SBC pesado (14.8% de ventas) deprime owner earnings y el downside a de-rate 20x es -21% (piso duro EPV $115 = -40%). Ese filtro bloquea despliegue agresivo. Entrada escalonada: 3% ahora, resto solo con mejor asimetría (caída del precio o expansión verificada de owner earnings al reducirse SBC/ventas).",
+  "ritual": {
+   "frase_tesis": "El mercado teme que VEEV sea 'un SaaS más' cuyo crecimiento se agota tras la migración de Vault CRM; ese miedo está mal dimensionado porque el negocio es un peaje regulado de life-sciences con retención >90%, ROIC ~34% y margen operativo aún EXPANDIÉNDOSE (42%→45%), y el EV paga solo 27x owner earnings descontando apenas ~5% de crecimiento — cuando los ingresos crecen +16%.",
+   "condicion_oportunidad": "Condición 5 de 5: calidad extrema (Núcleo QG 88/100) a precio dentro de su propia zona GANGA FUERTE por el ancla PWFV, vía duración-del-moat (P5). NO es pánico general (P2) ni herida puntual (P1) — es una franquicia de calidad cotizando 38% por debajo de su valor intrínseco tras el de-rate de su múltiplo histórico.",
+   "elemento_falsable": "Mata la tesis en tiempo real: (a) desaceleración de suscripción por debajo de +10% orgánico 2 trimestres seguidos; (b) pérdida neta de cuentas de Vault CRM frente a competidores (churn de cohortes nuevas al alza); (c) margen operativo non-GAAP cayendo >200bps interanual; (d) SBC/ventas subiendo en vez de bajar (destruye la convergencia FCF→owner earnings que sostiene el valor). Cualquiera de estas revierte de COMPRAR a VIGILAR/ESPERAR."
+  },
+  "data_confidence": "HIGH",
+  "degradada": false,
+  "verify": "CONFIRMADO",
+  "verify_note": "Ataque adversarial no logra tumbar el COMPRAR TRAMO. Resiste en los tres frentes.\n\n1) PRECIO re-verificado. stockanalysis.com confirma cierre 2026-07-02 = $192.74 (mktcap $31.3B, 162.44M acc., P/E 34.2, rango 52s $148-$310.50). Yahoo mostraba $187.58 pero es tick intradia (rango del dia $182.09-$192.90); el precio de la ficha es correcto. La MoS no se degrada por precio.\n\n2) DETECTOR DE TRAMPAS genuinamente 0/6, sin 2a senal. Busque agresivamente una senal que lo pasara a GRIS y ninguna se sostiene estructuralmente:\n - Sig1 ROIC en declive: FALSO. ROIC 34%+ (medida conservadora ene-2026) >> WACC; negocio capital-light, net-cash. Incremental ROIC muy alto.\n - Sig2 Perdida de cuota: FALSO. Ingresos FY26 $3.195B (+16%), guia FY27 $3.585-3.6B (+13% midpoint) POR ENCIMA del ~10% de crecimiento del mercado. Gana cuota, no la pierde.\n - Sig3 Disrupcion: FALSO. Fundamentales crecen; no hay sustitucion del core.\n - Sig4 Compresion margen bruto: FALSO. Margen bruto ~75% estable; margen operativo non-GAAP EXPANDIENDO a ~45-46% en Q1 FY27.\n - Sig5 Contabilidad/recortes consenso: FALSO. La guia FY27 SUPERO consenso (accion +11% en marzo), es upgrade no downgrade. Brecha GAAP/non-GAAP (SBC ~$0.35-0.4B) existe pero estable.\n - Sig6 Deuda opaca: FALSO. Sin deuda, net-cash, OCF Q1 ~$1.1B.\n Overhang historico IQVIA (litigio 8 anos) RESUELTO ago-2025 en partnership sin danos: mayor riesgo estructural ELIMINADO, no empeorando. Detector correcto = PASA.\n\n3) PWFV-Valor 257 NO es heroico. Multiplo justificado por calidad (ROIC alto + crec 13% + moat durable) cae en banda 25-30x; VEEV cotiza ~25x owner earnings / ~34x P/E GAAP, por DEBAJO del techo 35x del tier Nucleo. Owner earnings = FCF FY26 ~$1.64B - SBC ~$0.38B = ~$1.26B; yield ~4.0% sobre mktcap, ~20x EV/OE ajustando net-cash. MoS real = (257-192.74)/257 = 25.0%, coincide con ficha (25.1%), holgado sobre el 15% exigido a Nucleo. Zona GANGA FUERTE justo en el umbral 25% pero valida.\n\n4) DCF INVERSO = BAJAS confirmado. A 7.5% WACC Nucleo y ~25x entrada, el precio implica crecimiento sub-guia (por debajo del 13% propio y del 12-15% de consenso a 2030). No activa candado GANGA.\n\nUNICO matiz de vigilancia (no veto): compounder en desaceleracion 16%->13% acercandose a inflexion de madurez; el valor justo se apoya en ~13% durable. Si el crecimiento cae bajo ~10% la tesis se comprime. Eso justifica precisamente TRAMO (posicion parcial), no posicion completa. La asimetria y el MoS aguantan. Compra CONFIRMADA como COMPRAR TRAMO."
+ },
+ {
+  "ticker": "MA",
+  "name": "Mastercard Incorporated",
+  "sector": "Pagos / Infraestructura financiera",
+  "exchange": "NYSE",
+  "qg_score": 89.6,
+  "qg_tier": "Nucleo QG",
+  "rank_qg": 3,
+  "precio_actual": 539,
+  "fuente_precio": "stockanalysis.com cierre 2026-07-02 $539.39 (corroborado WebSearch intradia $535.82); uso $539",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos, margen operativo y ROIC ULTIMOS 4-8T todos CRECIENTES: rev FY25 +16% (VAS +21%), margen op 53.4%->57.6% (expande, no comprime), ROIC 41-49% subiendo, EPS 1Q26 $4.36 vs $3.60. Cross-border +9%, switched txns +10%: indicadores adelantados sin erosion. Ninguna de las 6 senales estructurales presente.",
+   "notas": "1)ROIC 41-49% muy >WACC, en alza -> NO declive. 2)Gana cuota (+16% rev, VAS +21%) -> NO perdida. 3)Stablecoin/RTP es riesgo MONITOREADO no deterioro medible; fundamentales intactos. 4)Margen op EXPANDE +420bps 4a -> NO compresion. 5)Consenso EPS SUBE ($17->$20->$23) -> NO recortes. 6)Deuda neta ~$8.1B (~0.4x EBITDA) con margenes en alza -> NO deuda opaca."
+  },
+  "dcf_inverso": {
+   "veredicto": "BAJAS",
+   "g_implicita": "~6.3% crecimiento de owner earnings a 10 anos (WACC 7.5% Nucleo, terminal 3%) para justificar $539",
+   "vs_base_rate": "Muy por DEBAJO del historico: rev CAGR 5a 14.8%, consenso EPS ~15%, VAS +21%. El precio descuenta pesimismo, no expectativas heroicas -> NO activa candado GANGA; al contrario, es margen de expectativas a favor."
+  },
+  "valor": {
+   "pwfv_valor": 650,
+   "banda_baja": 522,
+   "banda_alta": 767,
+   "owner_earnings_norm": 16.56,
+   "epv": 219
+  },
+  "zona": "OPORTUNIDAD",
+  "mos": {
+   "actual_pct": 17.1,
+   "exigido_pct": 15,
+   "cumple": true,
+   "multiplo_actual": 29.5,
+   "techo_tier": 35,
+   "cumple_techo": true
+  },
+  "asimetria": {
+   "pasa": true,
+   "ratio": 3
+  },
+  "patron": {
+   "aplica": "P7 el miedo golpea al peaje equivocado + P5 la duracion es el descuento",
+   "amplifica": true,
+   "evidencia": "P7: mercado teme sustitucion del rail de interchange por stablecoins/RTP; indicadores adelantados (cross-border +9%, switched txns +10%, VAS +21%) muestran cero erosion de fundamentales. P5: moat de red 20+ anos, calidad extrema (ROIC ~45%) a precio con descuento moderado -> caso clasico via-sin-crisis Nucleo (OE yield 3.4% + crec ~10.5% = 13.9% >= 11-12%)."
+  },
+  "veredicto_final": "COMPRAR TRAMO",
+  "veredicto_original": null,
+  "tamano_sugerido": "Tramo 3-4% NAV. Nucleo QG en zona OPORTUNIDAD; no es GANGA (MoS 17%, no >25%) por lo que no aplica categoria excepcional. Segundo tramo si cae a banda baja $522 o MoS>25%.",
+  "ritual": {
+   "frase_tesis": "El mercado teme que stablecoins/pagos en tiempo real desintermedien el peaje de interchange de Mastercard; el temor esta mal dimensionado porque los indicadores adelantados no muestran erosion alguna (cross-border +9%, switched transactions +10%, value-added services +21% en 1Q26) y el DCF inverso solo exige 6.3% de crecimiento cuando el historico es ~15%.",
+   "condicion_oportunidad": "Duracion como descuento (P5) via-sin-crisis Nucleo: calidad extrema (ROIC ~45%, moat de red 20+ anos) a precio modestamente descontado, amplificado por miedo mal dirigido al peaje equivocado (P7).",
+   "elemento_falsable": "Mataria la tesis: (a) 2+ trimestres consecutivos de switched-transactions o cross-border volume DESACELERANDO hacia <5% sin causa macro; (b) margen operativo cayendo >200bps multianual; (c) 3+ recortes consecutivos de consenso EPS FY+1; (d) evidencia de que un rail de stablecoin capta >5% del volumen de e-commerce con perdida de take-rate de MA. Vigilar cada release trimestral."
+  },
+  "data_confidence": "HIGH",
+  "degradada": false,
+  "verify": "CONFIRMADO",
+  "verify_note": "PRECIO: confirmado. Ficha $539; fuentes en vivo 2026-07-02 $535.82 intradia / $539.39 cierre (stockanalysis, Yahoo, Investing). Sin gap material. Mkt cap ~$476.6B, EV $487.2B, 883.6M acciones, posicion de CAJA NETA ~$10.6B.\n\nDETECTOR RE-CORRIDO (busque agresivamente 2a senal para convertir a GRIS/TRAMPA — NO existe): (1) ROIC 41.4% estable, no declive. (2) Cuota GANANDO: ingresos +16% TTM, cross-border +13%, switched txns +9%, VAS +22%. (3) Disrupcion (stablecoins/A2A) es NARRATIVA, no fundamentales; indicadores adelantados (VAS +22%, cross-border +13%) refutan erosion hoy. (4) Margen operativo EXPANDIENDO +120bps (58.4%), gross margin sin compresion. (5) Sin restatements; consenso al alza, no 3+ recortes. (6) Caja neta, sin deuda opaca. Resultado = 0 senales = PASA genuino. No hay falso-PASA que explotar.\n\nDCF INVERSO: a $539, ~30.5x owner earnings (FCF $16.4B menos SBC ~$0.75B = ~$15.7B; ~$17.7/accion). Implica ~10-11% crec owner earnings 10 anos con WACC Nucleo 7.5% y g terminal 3%. Consenso modela 10% rev / 13% EPS. Veredicto BAJAS/RAZONABLES — NO heroicas. NO activa candado GANGA. Consistente con ficha.\n\nATAQUE PWFV/MULTIPLO (no rompe el buy): (a) Multiplo de entrada ~26.6x fwd EPS / ~30.5x owner earnings esta DENTRO del techo Nucleo 35x — NO sobre el techo. (b) Multiplo justificado por calidad: ROIC>40% + crec 10-13% + moat duopolio durable -> 25-30x, tope 35x; entrada dentro. (c) FCF-yield+crecimiento: 3.7% + ~10% sostenible = ~13.7% > WACC+1-2pp; via sin crisis Nucleo tambien pasa (FCF yield 3.73% > bono10Y y FCF yield+crec >11-12%). PWFV 650 implica ~28x fwd EPS FY27 (~$23) — defendible para duopolio 41% ROIC dentro de techo. MoS 17.1% internamente consistente (539/650).\n\nDEBILIDADES HONESTAS (justifican DISCIPLINA DE TAMANO, no anular): (1) Colchon FINO: MoS 17.1% vs piso 15% = solo 2.1pp; un recorte modesto de multiplo terminal (30x->27x) o crec (10%->8%) borra casi todo el margen. (2) PEG 1.64 y fwd PE ~26.6 = calidad a precio JUSTO-a-lleno, no ganga. (3) Opcionalidad disrupcion (A2A/stablecoins) es cola larga que el DCF a 10 anos no estresa, aunque indicadores adelantados hoy la refutan.\n\nCONCLUSION: El buy resiste. Precio confirmado, detector 0 senales real, DCF inverso no heroico, multiplo bajo el techo del tier, MoS 17.1% >= piso Nucleo 15%. Regla VAL-MOS v2 para compounder Nucleo: NO exige descuento deep-value, solo multiplo razonable + runway largo + ROIC alto — los tres presentes. Mi hallazgo mas fuerte (colchon 2.1pp) argumenta a favor de TRAMO PEQUENO con vigilancia de indicadores de disrupcion, que es EXACTAMENTE lo que prescribe COMPRAR TRAMO (entrada parcial), no un all-in. No hay base para degradar a ESPERAR/VIGILAR: el MoS limpia el piso legitimamente y ninguna senal estructural aparece. CONFIRMADO."
+ },
+ {
+  "ticker": "CPRT",
+  "name": "Copart, Inc.",
+  "sector": "Marketplace B2B / Servicios de remarketing de vehiculos",
+  "exchange": "NASDAQ",
+  "qg_score": 83.2,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 23,
+  "precio_actual": 30.01,
+  "fuente_precio": "stockanalysis.com — cierre 2026-07-02, 4:00 PM EDT ($30.01; mcap $27.78B; 925.81M acc.; P/E 17.9x)",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos orgánicos: revenue TTM ~$4.64B (plano vs FY25 $4.65B tras 5 años a ~11% CAGR); margen operativo TTM 36.6% ESTABLE (no cae); ROIC ~29% (≈3.5x WACC); operating income Q3 +3% pese a volumen insurance -4%. Trayectoria de earnings CRECIENTE con múltiplo comprimido (P/OE de ~30x a 21x) = candidato a mispricing por sentimiento (condición necesaria cumplida, no suficiente). NO es deterioro.",
+   "notas": "0/6 señales estructurales. (1) ROIC 31-35%→29%: leve dip cíclico, incremental ROIC>>WACC, NO declive secular. (2) Volumen baja pero por contracción sectorial de siniestros (consumidores bajan cobertura colisión por primas altas), NO pérdida de cuota: Copart GANA cuota (ASPs +4-7% superando industria, internacional +14%, gross margin EXPANDE +71bps a 46%). (3) Sin disrupción: frecuencia de siniestro-total sube secularmente (23.6%, +5pp/4a) = tailwind estructural. (4) Margen BRUTO EXPANDE, no comprime. (5) Contabilidad limpia (adjusted=reported), sin restatements; recortes de consenso reflejan volumen real, no maquillaje. (6) Sin deuda: ~$5.2B caja+inversiones netas. Es P1: herida superficial, franquicia intacta."
+  },
+  "dcf_inverso": {
+   "veredicto": "BAJAS",
+   "g_implicita": "~1.5% de crecimiento inicial de owner earnings sobre base EV (descontando los $5.2B de caja neta); ~6.5% incluso sobre market cap. WACC 8.5%, terminal 3%.",
+   "vs_base_rate": "Muy por DEBAJO de la historia propia (revenue ~11% CAGR 5 años) y del tailwind secular de frecuencia de siniestro-total. Base rate Mauboussin para negocio de ~$28B con moat: 6-10% sostenible es normal; el mercado descuenta casi nulo crecimiento real. Sin candado GANGA (lo contrario de HEROICAS)."
+  },
+  "valor": {
+   "pwfv_valor": 39.55,
+   "banda_baja": 37.21,
+   "banda_alta": 43.06,
+   "epv": 22.43,
+   "owner_earnings_norm": 1300
+  },
+  "zona": "OPORTUNIDAD",
+  "mos": {
+   "actual_pct": 24.1,
+   "exigido_pct": 25,
+   "cumple": false,
+   "cumple_techo": true,
+   "multiplo_actual": 21.4,
+   "techo_tier": 30
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": 1.3
+  },
+  "patron": {
+   "aplica": "P1 — herida superficial, franquicia intacta",
+   "amplifica": true,
+   "evidencia": "Precio -53% desde ATH ($63.84→$30) mientras operating income crece +3%, gross margin expande a 46%, ROIC ~29%, fortaleza de balance ($5.2B caja neta). Divergencia precio/fundamentales masiva. Secundario: P7 (el miedo golpea al peaje equivocado — la debilidad de volumen de siniestros es cíclica-consumidor, no estructural del duopolio Copart/IAA). NO genera la señal, solo amplifica convicción cuando el MoS se cumpla."
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% hoy. Gatillo de compra: precio ≤ ~$28 (MoS ≥30%, zona GANGA incipiente y toca mínimo 52s $27.85) → iniciar tramo 3-4% del NAV; escalonar hasta 5% si el detector sigue en verde tras próximos resultados. No promediar sin re-correr el detector por escrito.",
+  "ritual": {
+   "frase_tesis": "El mercado teme que la caída de volumen de siniestros de aseguradoras (consumidores bajando cobertura por primas altas) sea el fin del crecimiento de Copart; está mal dimensionado porque el operating income sigue creciendo (+3%), el gross margin EXPANDE a 46%, los ASPs están en máximos históricos y la frecuencia de siniestro-total sube secularmente (+5pp en 4 años, ya 23.6%) — el volumen es un headwind cíclico-consumidor, no una erosión estructural del duopolio de subastas de salvamento.",
+   "condicion_oportunidad": "Herida superficial en franquicia intacta (P1): compounder de calidad extrema con drawdown de -53% impulsado por sentimiento sobre un headwind cíclico, mientras la economía del negocio (ROIC ~29%, margen, caja neta $5.2B) permanece intacta.",
+   "elemento_falsable": "La tesis MUERE si en 2-3 trimestres consecutivos: (a) el margen BRUTO empieza a comprimirse >100bps secuencialmente, o (b) los ASPs de insurance dejan de subir/caen mientras el volumen sigue bajando (señal de que el pricing power se agotó), o (c) el ROIC cae por debajo de ~20% de forma sostenida, o (d) la frecuencia de siniestro-total se estanca/revierte por debajo de ~22%. Cualquiera reclasifica de cíclico a estructural."
+  },
+  "data_confidence": "MEDIUM",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "EXPN.L",
+  "name": "Experian plc",
+  "sector": "Datos e Informacion / Bureau de Credito (Data & Analytics)",
+  "exchange": "London Stock Exchange (LSE)",
+  "qg_score": 81.6,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 33,
+  "precio_actual": 2622,
+  "fuente_precio": "stockanalysis.com (LON:EXPN) cierre 2,622.00 GBX, cruzado con LSE/Yahoo, dato 2026-07-02 (rango intradía reciente 2,511-2,635p)",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos orgánicos REALES +8% cc en FY26 (7% FY25) — ACELERANDO, no cayendo; margen Benchmark EBIT 28.6% (+60bps cc) — EXPANDIENDO; ROCE 17.2% estable/al alza; EPS Benchmark +15%, guía FY27 doble dígito. Trayectoria 4-8 trimestres CRECIENTE con múltiplo COMPRIMIDO (de ~28x a ~20x) = mispricing, no deterioro. La sospecha de disrupción (señal #3) se resuelve con indicadores ADELANTADOS (crecimiento orgánico, margen, guía) que REFUTAN la tesis de sustitución.",
+   "notas": "0 señales estructurales. El drawdown de ~30% es 100% de-rating por narrativa 'AI loser' (Citi ene-2026), NO por fundamentales: FY26 fue año récord. Contabilidad limpia (Benchmark reconciliado, consenso EPS al ALZA no recortado), ND/EBITDA 1.7x (baja, no opaca), sin pérdida de cuota (gana), sin compresión de margen bruto. Candidato a señal #3 evaluado y descartado por fundamentales."
+  },
+  "dcf_inverso": {
+   "veredicto": "BAJAS",
+   "g_implicita": "~6-7% CAGR owner earnings 10a (precio 2,622p ≈ 20x owner earnings ~$1.55B; a WACC 8.5% y g terminal 2.5%)",
+   "vs_base_rate": "Franquicia entrega 8% orgánico + 15% EPS y guía doble dígito; base rate Mauboussin para compounder $30B-cap ROIC alto ~7-9%. El precio descuenta DESACELERACIÓN por debajo de la tendencia demostrada. NO heroicas — al contrario, el mercado paga por un Experian que crece MENOS de lo que ya crece. No activa candado GANGA."
+  },
+  "valor": {
+   "pwfv_valor": 3450,
+   "banda_baja": 3100,
+   "banda_alta": 3800,
+   "epv": 1450,
+   "owner_earnings_norm": 1550
+  },
+  "zona": "OPORTUNIDAD",
+  "mos": {
+   "actual_pct": 24,
+   "exigido_pct": 25,
+   "cumple": false,
+   "multiplo_actual": 19.7,
+   "techo_tier": 30,
+   "cumple_techo": true
+  },
+  "asimetria": {
+   "pasa": true,
+   "ratio": 2.9
+  },
+  "patron": {
+   "aplica": "P1 (herida superficial, franquicia intacta) + P3 (error de categoría) + P7 (el miedo golpea al peaje equivocado)",
+   "evidencia": "Resultados FY26 RÉCORD (13% total / 8% orgánico, margen +60bps, EPS +15%) con acción -30% en 12m por etiqueta 'AI loser'. Divergencia precio/consenso EPS FY+1 (consenso al alza, precio a mínimo de 2 años) >3:1 → P1. Retención de datos/decisioning contradice etiqueta de disrupción → P3. El mercado teme que la IA desintermedie el peaje de crédito, pero el bureau (dato propietario regulado + red) es el peaje equivocado a golpear → P7.",
+   "amplifica": true
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "Medio tramo 2-3% AHORA a 2,622p (MoS 24%, a ~1pp del umbral Alta convicción 25%, bajo techo 30x, asimetría ~2.9:1). Completar a tramo pleno (4-5%) si toca <=2,590p (MoS>=25%) o tras confirmación FY27 H1 de orgánico >=6% + margen estable. Escalonar: la duración del foso (P5) permite promediar en el de-rating narrativo.",
+  "ritual": {
+   "frase_tesis": "El mercado teme que la IA convierta a Experian en un 'AI loser' desintermediando el scoring; ese miedo está mal dimensionado porque el foso no es el algoritmo sino el DATO propietario regulado (bureau de crédito con barreras legales y de red), y los fundamentales lo confirman: FY26 récord con orgánico ACELERANDO a 8% y margen EXPANDIENDO a 28.6% mientras el múltiplo se comprimió de ~28x a ~20x.",
+   "condicion_oportunidad": "Comprar tramo completo si el precio cae a <=2,590p (MoS>=25%, escalera Alta convicción) o si en FY27 H1 el orgánico se mantiene >=6% con margen estable — confirmando que la de-rating fue solo narrativa. A 2,622p hoy: iniciar medio tramo (MoS 24%, a 1pp del umbral).",
+   "elemento_falsable": "La tesis se ROMPE si: (a) el crecimiento orgánico cae por debajo de 4% dos trimestres seguidos, (b) el margen Benchmark EBIT se comprime >200bps multianual, o (c) aparece evidencia de pérdida de cuota real (ingresos cayendo mientras el mercado de datos crediticios crece) — cualquiera reclasificaría de mispricing a disrupción genuina (señal #3 activa)."
+  },
+  "data_confidence": "MEDIUM",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "RMD",
+  "name": "ResMed Inc.",
+  "sector": "Med-Tech / Apnea del Sueno (dispositivos + consumibles + SaaS)",
+  "exchange": "NYSE",
+  "qg_score": 83.2,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 28,
+  "precio_actual": 209.63,
+  "fuente_precio": "stockanalysis.com, cierre 2026-07-02 16:00 EDT ($209.63); cross-check Yahoo/multiples ~$208.37 mismo dia",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [
+    "1 ROIC declive secular: NO — ROIC ~25-26% estable/creciente, muy por encima de WACC 8.5%",
+    "2 Perdida de cuota: NO — ingresos +9% a +11% ultimos 4+ trimestres (Q1 FY26 +9%, Q3 FY26 +11%) mientras el mercado de apnea crece",
+    "3 Disrupcion GLP-1 (el miedo central): NO confirmada en fundamentales — revenue acelera, altas de pacientes crecen, aprobacion Zepbound OSA impulsa diagnostico/screening (viento de cola, no sustitucion)",
+    "4 Compresion margen bruto: NO — lo CONTRARIO: GM GAAP +290bps YoY (59.4% FY25 -> 62.2% Q3 FY26)",
+    "5 Contabilidad/recortes de consenso: NO — beats consistentes, EPS non-GAAP +21%, sin restatements",
+    "6 Deuda opaca: NO — posicion de CAJA NETA $541M (paso a net cash en FY25)"
+   ],
+   "test_decisivo": "Ingresos organicos REALES + margen operativo + ROIC ultimos 4-8 trimestres TODOS crecientes (rev +9/+11% cc +8%, op margin 32.8%->subiendo, ROIC ~25-26%) con multiplo comprimido (18.5x OE vs media 5a ~29x) = mispricing por sentimiento GLP-1, no deterioro. Indicadores ADELANTADOS (altas de pacientes, GM de renovaciones) confirman: sin huella de disrupcion.",
+   "notas": "0 senales estructurales. El miedo GLP-1 es narrativa, no fundamentales; refutado por trailing Y leading. Downgrade Morgan Stanley (a $230, Philips re-entry + GLP-1) es riesgo de multiplo, no de tesis."
+  },
+  "dcf_inverso": {
+   "veredicto": "BAJAS",
+   "g_implicita": "~2.0-2.5% p.a. owner earnings",
+   "vs_base_rate": "muy por debajo del base rate (rev ~10%, EPS ~20%, ROIC 25%); precio descuenta casi-estancamiento"
+  },
+  "valor": {
+   "pwfv_valor": 273.27,
+   "banda_baja": 239,
+   "banda_alta": 332,
+   "epv": 113.58,
+   "owner_earnings_norm": 11.36
+  },
+  "zona": "OPORTUNIDAD",
+  "mos": {
+   "actual_pct": 23.3,
+   "exigido_pct": 25,
+   "cumple": false,
+   "cumple_techo": true,
+   "multiplo_actual": 18.5,
+   "techo_tier": 30
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": 2.2
+  },
+  "patron": {
+   "aplica": "P1 (herida superficial, franquicia intacta) + P7 (el miedo golpea al peaje equivocado)",
+   "evidencia": "Precio -29% desde maximo 52s ($293.81->$209.63) y fwd P/E ~17.7x vs media 5a ~29x, MIENTRAS EPS non-GAAP +21% y rev +11% (Q3 FY26). El mercado castiga a RMD por un miedo GLP-1 mal dimensionado; el peaje (dispositivos+mascaras+SaaS) sigue creciendo. Divergencia precio/consenso EPS FY+1 alta.",
+   "amplifica": true
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% ahora (ESPERAR). Gatillo de compra: tramo inicial 3% del NAV si el precio toca ~$195 (MoS >=25% + asimetria >=3:1 vs suelo 52s). Segundo tramo hasta 3% adicional bajo ~$180 (test del suelo empirico). Cap total 5-6% NAV. Nunca >30x OE.",
+  "ritual": {
+   "frase_tesis": "El mercado teme que los GLP-1 (Zepbound/tirzepatida) destruyan la demanda de CPAP; ese miedo esta mal dimensionado porque los fundamentales van al reves: Q3 FY26 ingresos +11%, altas de pacientes crecientes, margen bruto +290bps, y la propia aprobacion de Zepbound para OSA impulsa el DIAGNOSTICO y screening (mas pacientes entran al embudo), mientras RMD cotiza a ~18x owner earnings vs ~29x su media de 5 anos.",
+   "condicion_oportunidad": "Herida superficial en franquicia intacta / panico narrativo sobre el mejor operador del sector (P1+P7): calidad extrema (ROIC 25%, net cash, moat de datos+consumibles recurrentes) a precio comprimido por un miedo estructural refutado por leading indicators.",
+   "elemento_falsable": "Mata la tesis: (a) 2 trimestres consecutivos de CAIDA en altas netas de pacientes/nuevos setups atribuible a GLP-1; (b) compresion de margen bruto >150bps secuencial no explicada por mix; (c) revenue de dispositivos plano o negativo cc por 2 trimestres; (d) Philips re-entra en PAP USA y RMD pierde cuota medible (rev cc<+3%) 2 trimestres. Cualquiera dispara re-corrida del detector antes de promediar."
+  },
+  "data_confidence": "HIGH",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "CME",
+  "name": "CME Group Inc.",
+  "sector": "Datos/Mercados - Infraestructura de mercados de derivados",
+  "exchange": "NASDAQ",
+  "qg_score": 83.2,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 24,
+  "precio_actual": 236.6,
+  "fuente_precio": "Finviz cierre 2026-07-02 ($236.60; mkt cap $85.73B, P/E 20.2x, 361.79M acc, rango 52s $218.31-$322.82). Corroborado por Yahoo/Google Finance (~$236) y Trefis 30-jun (-19% en 10 sesiones).",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos + margen op + ROIC ultimos 4-8T CRECIENTES con multiplo comprimido: rev FY2025 $6.5B (+6.4%), margen op 64.9% (+70bps), FCF $4.2B (+16.6%), ADV record mayo-2026 (33.2M contratos, +15% YoY), Q1 2026 revenue record. Trayectoria ascendente + P/E cayo de ~28x a 20x = posible mispricing por sentimiento (necesario, no suficiente).",
+   "notas": "0 de 6 senales estructurales. (1) ROIC: el ROIC GAAP screenea bajo ~8-9% por goodwill de fusiones CBOT/NYMEX (artefacto contable de hace 2 decadas), NO declive; retorno sobre capital tangible/operativo es enorme (margen op 65%, capex ~$85M/ano, negocio capital-light). (2) Cuota: GANANDO, no perdiendo (cripto ADV +38% YoY, volumen total record). (3) Disrupcion: aprobacion de perpetual futures (CFTC, 2-jun) es amenaza NARRATIVA a un sliver cripto; el core (tasas/indices/energia/agro) intacto, network effect de open interest + margin-offset moat firmes; fundamentales siguen en record -> narrativa, no deterioro fundamental. (4) Margen bruto: SUBIENDO. (5) Contabilidad: sin restatements; consenso EPS FY+1 REVISANDO AL ALZA (~$12.3, +10%), racha de beats intacta. (6) Deuda: caja neta (~$4.6B caja vs $3.4B deuda), ND/EBITDA negativo. Transicion CEO (Duffy->Fitzpatrick, CFO/Presidente veterana 20 anos, efectiva mar-2027) = sucesion interna ordenada, ruido de gobernanza leve, NO senal estructural."
+  },
+  "dcf_inverso": {
+   "veredicto": "BAJAS",
+   "g_implicita": "~3.5-4% crecimiento perpetuo de owner earnings",
+   "vs_base_rate": "A $236.60 con FCF yield ~4.9% y WACC 8.5% (tier Alta conviccion), el precio implica g~3.5-4%. Muy POR DEBAJO de la historia (rev ~6-7%/ano, FCF +16.6% ultimo ano) y del consenso (~10% EPS FY2026). El mercado descuenta crecimiento sub-historico y sub-consenso -> el precio NO es exigente; expectativas BAJAS. No activa candado GANGA."
+  },
+  "valor": {
+   "pwfv_valor": 277,
+   "banda_baja": 255,
+   "banda_alta": 300,
+   "owner_earnings_norm": 11.1,
+   "epv": 133
+  },
+  "zona": "OPORTUNIDAD",
+  "mos": {
+   "actual_pct": 14.6,
+   "exigido_pct": 25,
+   "cumple": false,
+   "multiplo_actual": 21,
+   "techo_tier": 30,
+   "cumple_techo": true
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": 0.4
+  },
+  "patron": {
+   "aplica": "P7 (el miedo golpea al peaje equivocado) + P1 (herida superficial, franquicia intacta)",
+   "evidencia": "P7: el susto por perpetual futures cripto y la salida de Duffy golpean un peaje cuyo core (tasas/indices/energia) es inmune; el moat de open interest y margin-offset no lo toca ninguna de las dos noticias. P1: precio -27% desde maximo mientras consenso EPS FY+1 sube (~$12.3, +10%) -> divergencia precio/consenso alcista. P4 (denominador roto) NO aplica: earnings en record, no deprimidos.",
+   "amplifica": true
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% hoy. Preparar tramo 3-4% NAV si el precio entra en zona MoS>=25% (~$208 o menos), donde ademas la asimetria mejora hacia el rango aceptable con el suelo EPV $133 amortiguando el downside. Comprador paciente: el negocio es de primera, el precio aun no.",
+  "ritual": {
+   "frase_tesis": "El mercado teme que (a) los perpetual futures cripto aprobados por la CFTC canibalicen a CME y (b) la salida de Terry Duffy erosione la franquicia; ambos miedos estan mal dimensionados porque el core de CME (tasas, indices, energia, agro ~90%+ del negocio) es inmune a los perps, su moat es el network effect de open interest + el margin-offset de portfolio margining (no replicable por exchanges cripto), y la sucesora Fitzpatrick es CFO/Presidente veterana de 20 anos -> sucesion interna ordenada. Los fundamentales estan en RECORD (rev +6.4%, margen op 64.9%, FCF +16.6%, ADV +15%) mientras el multiplo se comprimio de ~28x a 20x.",
+   "condicion_oportunidad": "Panico selectivo / miedo mal dirigido a un compounder de calidad (P7+P1): herida superficial, franquicia intacta, -27% desde maximo por narrativa no fundamental.",
+   "elemento_falsable": "Mataria la tesis: (1) caida secuencial del open interest agregado 2+ trimestres consecutivos (perdida real del network effect, no ruido de volumen); (2) perdida de cuota verificable en el core de tasas/indices frente a un competidor (no cripto); (3) recortes de consenso EPS FY+1 en 3+ trimestres seguidos; (4) compresion del margen operativo >200bps multianual. Cualquiera de ellas convierte la senal 3 (disrupcion) o 2 (cuota) del detector en real y reclasifica a GRIS/TRAMPA."
+  },
+  "data_confidence": "HIGH",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "COH.AX",
+  "name": "Cochlear Limited",
+  "sector": "Salud - MedTech (implantes auditivos)",
+  "exchange": "ASX",
+  "qg_score": 84,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 20,
+  "precio_actual": 120.35,
+  "fuente_precio": "stockanalysis.com, 120.35 AUD al 2026-07-02 16:10 AEST (cross-check Yahoo Finance ~119-120)",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos CRECIENTES (FY25 +4% a $2.356B; implantes +13% en H1FY25), margen operativo ESTABLE ~22-23% cinco anos, margen BRUTO estable 72.6%->73.7% FY21-25 (cero compresion), ROIC 17-19% >> WACC 8.5%. El shock FY26 es un air-pocket de DEMANDA (referrals de audifonos caidos, capacidad hospitalaria, rollout lento del Nexa, Medio Oriente, FX), NO deterioro de moat ni perdida de cuota (el sector CRECE ~9% CAGR y Cochlear sigue liderando ~60%). P&L trailing deprimido pero franquicia intacta = denominador roto, no trampa.",
+   "notas": "0/6 senales estructurales. Vigilar senal 5: hubo UN recorte grande de guia (abril-2026, de $435-460M a $290-330M), no el patron de 3+ recortes consecutivos que dispara la senal; si el consenso FY27 se recorta 2-3 trimestres mas, reevaluar. Deuda: NET CASH +40M AUD (senal 6 despejada). Underlying vs statutory FY25 conservador (392 vs 389, no inflado)."
+  },
+  "dcf_inverso": {
+   "veredicto": "BAJAS",
+   "g_implicita": "~4.4% perpetuo sobre base deprimida FY26 (310M underlying); ~3.4% sobre base normalizada pre-shock (392M). Precio de HOY apenas descuenta 3-4% de crecimiento perpetuo.",
+   "vs_base_rate": "BAJAS vs base rates: una MedTech lider con ~5% de penetracion global en un mercado que crece ~9% CAGR (a $4.67B en 2033) e historial de crecimiento de implantes de doble digito no deberia estar limitada a 3-4% perpetuo. El mercado esta pricing el shock como cuasi-permanente. NO activa candado GANGA (expectativas ya bajas, no heroicas)."
+  },
+  "valor": {
+   "pwfv_valor": 138.69,
+   "banda_baja": 101.53,
+   "banda_alta": 168.81,
+   "epv": 67.17,
+   "owner_earnings_norm": 330
+  },
+  "zona": "PRECIO JUSTO",
+  "mos": {
+   "actual_pct": 13.2,
+   "exigido_pct": 25,
+   "cumple": false,
+   "cumple_techo": true,
+   "multiplo_actual": 23.9,
+   "techo_tier": 30
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": 0.7
+  },
+  "patron": {
+   "aplica": "P4 denominador roto + P1 herida superficial franquicia intacta",
+   "amplifica": true,
+   "evidencia": "P4: earnings FY26 deprimidos (310M vs 392M FY25) por causa CADUCABLE (air-pocket de demanda en mercados desarrollados, capacidad hospitalaria, rollout Nexa, Medio Oriente) sin dano al moat -> normalizables. P1: divergencia precio (-62% desde maximo ~320) vs consenso que mantiene rating Buy/Hold y EPS FY27 ~$6.42; management refuerza inversion en crecimiento adulto/senior y reshaping de costos. AMPLIFICAN conviccion pero NO generan la senal ni cambian que el MoS no cumple."
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% ahora (ESPERAR). Entrada objetivo: tramo inicial 3% del NAV a <=104 AUD (MoS>=25% / zona OPORTUNIDAD-GANGA); segundo tramo hacia el minimo 52s ~89 AUD (MoS ~36%, zona GANGA). Re-correr detector POR ESCRITO antes de cada tramo.",
+  "ritual": {
+   "frase_tesis": "El mercado teme que la debilidad de demanda de implantes en mercados desarrollados sea estructural y permanente; esta mal dimensionado porque la penetracion global es solo ~5% de candidatos en un mercado que crece ~9% CAGR, el margen bruto (72.6%->73.7%) y el ROIC (17-19%) NO se han deteriorado, y las causas del shock (referrals, capacidad hospitalaria, rollout Nexa, Medio Oriente) son caducables, no una perdida de cuota ni disrupcion del core.",
+   "condicion_oportunidad": "Denominador roto (P4) + herida superficial en franquicia de calidad (P1): compounder de alta conviccion cuyo P&L trailing esta deprimido por un air-pocket ciclico/temporal, no por dano al moat.",
+   "elemento_falsable": "MATA la tesis: (a) 2+ trimestres mas de recortes de consenso FY27 (activa senal 5 estructural), o (b) el margen BRUTO cae >300bps sostenido (senal 4), o (c) evidencia verificable de perdida de cuota a Advanced Bionics/MED-EL con el sector aun creciendo (senal 2), o (d) que el crecimiento de unidades de implantes NO se recupere a doble digito bajo en FY27-28 (confirma que el air-pocket era estructural en las vias de referral)."
+  },
+  "data_confidence": "MEDIUM",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "REL.L",
+  "name": "RELX PLC",
+  "sector": "Datos / Informacion y analitica (cientifica, legal, riesgo, exhibiciones)",
+  "exchange": "London LSE",
+  "qg_score": 82.4,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 30,
+  "precio_actual": 2353,
+  "fuente_precio": "Google Finance (REL:LON) 2-jul-2026 17:30 BST = 2353p; triangulado con Hargreaves Lansdown (2353p, mktcap £41.18bn) y RNS buyback RELX 22-26 jun-2026 (VWAP ~2326-2366p). 52s rango ~2039-4030p.",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [
+    "1 ROIC declive: NO - ROIC post-tax 14.8%->15.4% CRECIENTE (FY2025 filing, avg inv cap £16.8bn)",
+    "2 Perdida de cuota: NO - rev underlying +7%, las 4 divisiones organicas positivas (Risk +8%, STM +5%, Legal +9%, Exhibitions +8%)",
+    "3 Disrupcion modelo (AI): NO CONFIRMADA - narrativa (Anthropic legal AI feb-2026, -15% dia) contradicha por fundamentales adelantados: Legal org ACELERA a +9%, margen +90bps, RELX embebe IA en productos. Riesgo #1 vigilado, no senal activa",
+    "4 Compresion margen bruto: NO - adj op margin 33.9%->34.8% (+90bps, EXPANDE)",
+    "5 Contabilidad/recortes consenso: NO - sin restatements, adj-vs-reportado estrecho, guidance 2026 op profit>revenue growth, sin recortes",
+    "6 Deuda opaca: NO - ND/EBITDA 1.8x->2.0x pero con margenes SUBIENDO (la condicion exige margenes cayendo); deuda transparente bonos USD/EUR"
+   ],
+   "test_decisivo": "Ingresos organicos +7% (acelerando), margen op +90bps, ROIC 14.8->15.4%: TODO CRECIENTE con multiplo COMPRIMIDO de ~32-36x a ~18x P/E adj -> candidato a mispricing por sentimiento (condicion necesaria, no suficiente). Disrupcion resuelta con leading indicators al alza, no revenue trailing (leccion Kodak/Nokia)",
+   "notas": "0/6 senales estructurales. AI = elemento falsable (riesgo de tesis), NO trampa confirmada hoy. Franquicia intacta, herida de multiplo por miedo sectorial."
+  },
+  "dcf_inverso": {
+   "veredicto": "BAJAS",
+   "g_implicita": "~3.3% crecimiento owner-earnings 10a (WACC 8.5% tier Alta conviccion, terminal 3%)",
+   "vs_base_rate": "MUY por debajo de su propia entrega reciente: rev org +7%, adj op profit org +9%, adj EPS +10% cc. El precio de HOY descuenta una DECELERACION fuerte hacia ~3%, no crecimiento heroico. NO activa candado GANGA (lo contrario: expectativas deprimidas)."
+  },
+  "valor": {
+   "pwfv_valor": 2541,
+   "banda_baja": 2036,
+   "banda_alta": 3211,
+   "owner_earnings_norm": 123.2,
+   "epv": 1285
+  },
+  "zona": "PRECIO JUSTO",
+  "mos": {
+   "actual_pct": 7.4,
+   "exigido_pct": 25,
+   "cumple": false,
+   "multiplo_actual": 19.1,
+   "techo_tier": 30,
+   "cumple_techo": true
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": 1.4
+  },
+  "patron": {
+   "aplica": "P1 herida superficial, franquicia intacta",
+   "amplifica": true,
+   "evidencia": "Divergencia precio/fundamentales: -42% desde maximo 52s (4030p->2353p) por miedo AI, mientras FY2025 (publicado 12-feb-2026, DESPUES del susto) muestra org rev +7%, op profit +9%, margen +90bps, ROIC al alza. Franquicia (85%+ recurrente, pricing power, 4/4 divisiones creciendo) intacta. Amplifica conviccion para tramo cuando el precio ceda mas."
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% hoy (ESPERAR). Gatillo de compra: primer tramo 3% del NAV si el precio toca ~1900-1950p (MoS ~25% vs PWFV 2541p, zona OPORTUNIDAD/GANGA) o si un resultado (H1 23-jul-2026) confirma org rev >=6% y margen estable pese al ruido AI. Reservar segundo tramo hasta 3% adicional si cae a EPV-adjacent ~1500p sin deterioro del detector. Max acumulado 5-6% NAV en tier Alta conviccion.\"",
+  "ritual": {
+   "frase_tesis": "El mercado teme que la IA generativa destruya el peaje de LexisNexis/STM de RELX; ese temor esta mal dimensionado porque los fundamentales ADELANTADOS van al reves de la narrativa: Legal organico ACELERA a +9%, STM +5%, margen operativo +90bps y ROIC sube a 15.4% en el mismo ano del panico, mientras RELX embebe IA en sus propios productos con datos propietarios que el modelo generico no tiene.",
+   "condicion_oportunidad": "Herida superficial de multiplo en franquicia intacta (P1) por miedo sectorial indiscriminado (P2). Compounder de calidad de-rateado ~42% desde maximo; a ~18x owner earnings ya no esta caro (tope tier 30x), pero AUN no alcanza el MoS >=25% del tier -> se ESPERA el precio, no se paga el 'casi'.",
+   "elemento_falsable": "La tesis MUERE si en 2-3 trimestres consecutivos aparece: (a) crecimiento organico de Legal o STM cayendo por debajo de +3% (senal de sustitucion real por IA), O (b) compresion de margen bruto/operativo >200bps multianual, O (c) 3+ recortes consecutivos de consenso EPS FY+1, O (d) caida de renovaciones/pricing en cohortes nuevas. Cualquiera reactiva el detector (senal #3 disrupcion) y convierte ESPERAR en VIGILAR/VETO. Recordatorio anti-sesgo: re-correr el detector POR ESCRITO antes de cada tramo; no promediar a ciegas; no vender el compounder por ancla de precio si la tesis sigue viva; falsable definido ANTES de comprar."
+  },
+  "data_confidence": "HIGH",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "SPGI",
+  "name": "S&P Global Inc.",
+  "sector": "Datos financieros / Ratings e Indices",
+  "exchange": "NYSE",
+  "qg_score": 84,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 15,
+  "precio_actual": 439.89,
+  "fuente_precio": "stockanalysis.com — cierre 2026-07-02 4:00 PM EDT ($439.89, dia +6.0%; nota: rebote fuerte desde minimos ~$406-415 esa misma semana). 52s high $579, low $381.",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos, margen operativo y ROIC de la franquicia TODOS crecientes en 4-8T (organico FY25 +8%, Q1-2026 +9%; indices +17%, ratings +13%; margen adj op +140bps a 50.4%) con multiplo COMPRIMIDO 26.6x OE vs 28-35x historico = candidato a mispricing por sentimiento (necesario, no suficiente). No hay deterioro.",
+   "notas": "0 senales estructurales. (1) ROIC: el reportado ~10-11% esta inflado por goodwill de la fusion IHS Markit; el ROIC incremental del negocio asset-light (duopolio de ratings + oligopolio de indices, margen 50%+) es muy superior al WACC, no en declive. (2) Sin perdida de cuota: organico +8% mientras el sector crece. (3) Disrupcion IA: amenaza NARRATIVA concentrada en Market Intelligence; indicadores adelantados (bookings/organico Q1-2026 acelerando, data propietaria protege Capital IQ Pro; ratings e indices con riesgo IA bajo) NO muestran deterioro de fundamentales. (4) Margen bruto/operativo EXPANDIENDO, no comprimiendo. (5) Contabilidad: brecha ajustado-vs-GAAP existe pero el GAAP EPS crecio MAS rapido (+19%) que el ajustado (+14%); UNICA precaucion = guia 2026 EPS $19.40-19.65 por debajo del consenso ~$19.96 disparo recortes de consenso, pero es UN reset puntual, no 3+ trimestres consecutivos -> no cuenta como senal estructural. (6) ND/EBITDA ~2x, grado inversion, bajando. Caso claro de franquicia intacta castigada por sentimiento."
+  },
+  "dcf_inverso": {
+   "veredicto": "RAZONABLES",
+   "g_implicita": "~7.3% crecimiento de owner earnings 10 anos + terminal 3%, a WACC 8.5% (tier Alta conviccion)",
+   "vs_base_rate": "POR DEBAJO de la base rate propia de SPGI: adj EPS FY25 +14%, guia FY26 adj EPS +9-10%, ingresos organicos +8% con vientos seculares (indexacion pasiva, ratings de credito privado). El mercado descuenta un crecimiento inferior al demostrado por la franquicia -> no activa candado GANGA; roza BAJAS."
+  },
+  "valor": {
+   "pwfv_valor": 459,
+   "banda_baja": 362,
+   "banda_alta": 534,
+   "epv": 180,
+   "owner_earnings_norm": 16.55
+  },
+  "zona": "PRECIO JUSTO",
+  "mos": {
+   "actual_pct": 4.1,
+   "exigido_pct": 25,
+   "cumple": false,
+   "multiplo_actual": 26.6,
+   "techo_tier": 30,
+   "cumple_techo": true
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": 0.9
+  },
+  "patron": {
+   "aplica": "P1 — herida superficial, franquicia intacta",
+   "evidencia": "Divergencia precio/fundamentales: accion -24% desde maximo 52s ($579) y venta gatillada por guia FY26 bajo consenso + miedo IA, mientras organico ACELERA (Q1-2026 +9%), margen expande (+140bps) y GAAP EPS +19%. La franquicia (duopolio ratings + oligopolio indices, 50%+ margen, 85%+ FCF a accionistas) esta intacta. Tambien roza P4 (denominador no roto pero castigado) y P7 (miedo golpea el peaje equivocado: IA amenaza mas a MI que a ratings/indices).",
+   "amplifica": true
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% hoy (no cumple escalera MoS del tier). Cuando el precio toque ~$345-360 (~25% MoS y asimetria >=3:1), abrir tramo 3-4% del NAV; ampliar en debilidad adicional re-verificando el detector por escrito.",
+  "ritual": {
+   "frase_tesis": "El mercado teme que la IA (Claude Opus, research automatizado) desintermedie los datos financieros de SPGI y que la debilidad de emision de deuda sea estructural; ambos estan mal dimensionados porque el riesgo IA se concentra en Market Intelligence (~32% de ingresos) mientras ratings e indices —el motor de margen y foso— tienen riesgo IA bajo y ACELERARON en Q1-2026 (indices +17%, ratings +13%), y la emision debil es ciclica (recortes de tipos retrasados), no un cambio de modelo.",
+   "condicion_oportunidad": "Herida superficial en franquicia de ultra-calidad (P1) — panico por narrativa de disrupcion + reset de guia puntual sobre un compounder cuyo organico y margen siguen creciendo.",
+   "elemento_falsable": "Mataria la tesis: (a) organico de Ratings+Indices desacelerando <5% durante 2+ trimestres consecutivos (no ciclo de emision sino perdida de peaje), o (b) churn/renovaciones de Market Intelligence deteriorandose con caida de bookings 2+T (senal adelantada de sustitucion por IA), o (c) recortes de consenso EPS FY+1 encadenando 3+ trimestres = pasa el detector a senal 5. Vigilar tambien margen bruto: compresion >300bps/8T sin transicion anunciada."
+  },
+  "data_confidence": "MEDIUM",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "MSFT",
+  "name": "Microsoft Corporation",
+  "sector": "Software / Cloud (Technology)",
+  "exchange": "NASDAQ",
+  "qg_score": 90.4,
+  "qg_tier": "Nucleo QG",
+  "rank_qg": 1,
+  "precio_actual": 390.66,
+  "fuente_precio": "IBKR live snapshot (last trade $390.66; bid/ask 390.65/390.90), 2026-07-02; corroborado por WebSearch (~$385-390)",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [
+    "Senal 1 (ROIC en declive): PARCIAL — ROIC bajo de ~28.8% (3 anos atras) a ~21-23% hoy, pero sigue MUY por encima del WACC ~8.8%; el descenso es fase de capex de crecimiento (build-out AI/Azure), NO deterioro secular con ROIC incremental sub-WACC. No cuenta como senal plena.",
+    "Senal 4 (compresion margen bruto): margen bruto 67.6% vs 68.7% (-110bps), por debajo del umbral -300bps/8T; ademas es transicion ANUNCIADA y CUANTIFICADA (depreciacion de infraestructura AI), exenta por regla."
+   ],
+   "test_decisivo": "Ingresos organicos REALES crecientes (+18% Q3 FY26, Azure +40% cc), margen operativo EXPANDIENDO (+60bps a 46.3%), ROIC ~22% >> WACC ~8.8%. Trayectoria creciente con multiplo comprimido (fwd P/E 23x vs media historica ~30x) = posible mispricing, no trampa.",
+   "notas": "0 senales estructurales plenas. La caida de FCF reportado (-3% FY25, TTM ~$73B) es capex de crecimiento (build AI ~$190B CY26), no maintenance; denominador roto (P4). Balance solido: net debt ~$47B (ND/EBITDA <0.5x). Sin restatements ni contabilidad cuestionada; consenso EPS FY+1 SUBE (~$16.84 FY26 -> ~$19.4 FY27)."
+  },
+  "dcf_inverso": {
+   "veredicto": "RAZONABLES",
+   "g_implicita": "~4.3% perpetua sobre FCF normalizado ~$90B (o ~5.3% sobre owner earnings ~$60B), r=7.5% Nucleo; en base earnings el fwd P/E 23x FY26 implica crecimiento EPS de doble digito bajo sostenido",
+   "vs_base_rate": "Para una mega-cap de ~$2.9T sostener ~4-5% real perpetuo esta en el extremo alto pero es alcanzable para un compounder elite con Azure +40%, ROIC ~22% y runway cloud/AI largo. NO son heroicas: el precio ya descuenta la desaceleracion del capex, no una extrapolacion agresiva. No activa candado GANGA."
+  },
+  "valor": {
+   "pwfv_valor": 405,
+   "banda_baja": 360,
+   "banda_alta": 470,
+   "owner_earnings_norm": 60,
+   "epv": 203
+  },
+  "zona": "PRECIO JUSTO",
+  "mos": {
+   "actual_pct": 3.5,
+   "exigido_pct": 15,
+   "cumple": false,
+   "multiplo_actual": 23.2,
+   "techo_tier": 35,
+   "cumple_techo": true
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": 0.42
+  },
+  "patron": {
+   "aplica": "P1 (herida superficial, franquicia intacta) + P5 (la duracion es el descuento)",
+   "evidencia": "Caida -19% YTD desde $552 a ~$391 por PANICO al capex (~$190B CY26), mientras consenso EPS FY+1 SIGUE subiendo (+15% a ~$19.4) y fundamentales aceleran (rev +18%, Azure +40%, op margin +60bps). Divergencia precio/consenso >=3:1. P5: moat 20+ anos, calidad extrema. PERO: la via-sin-crisis de P5/Nucleo exige FCF yield >= bono10Y, y falla (FCF yield 2.5-3.1% < 4.47%).",
+   "amplifica": false
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% hoy. Compounder Nucleo elite (PASA, sin trampa) pero SIN margen de seguridad a $391 (MoS ~3.5% vs 15% exigido; asimetria ~0.4:1 << 3:1; via-sin-crisis falla porque FCF yield 2.5-3.1% < bono 4.47%). Iniciar tramos 3-5% en zona $344-352 (15% MoS, coincide con minimo 52sem $349); acumular agresivo <$331 (20% MoS).",
+  "ritual": {
+   "frase_tesis": "El mercado teme que el capex de ~$190B/CY26 destruya el perfil de retornos del viejo Microsoft; ese miedo esta MAL dimensionado como deterioro estructural porque el ROIC sigue en ~22% (>> WACC ~8.8%), los ingresos organicos ACELERAN (+18%, Azure +40% cc) y el margen operativo EXPANDE (+60bps a 46.3%) — la caida de FCF es capex de crecimiento (denominador roto P4), no perdida de poder de ganancias. Pero calidad != precio: a $391 NO hay margen de seguridad.",
+   "condicion_oportunidad": "Comprar tramo Nucleo cuando el precio caiga a $344-352 (>=15% MoS, ~minimo 52sem $349) o mejor <$331 (>=20% MoS). A esos niveles el fwd P/E baja a ~20x FY26 / ~18x FY27, historicamente barato para MSFT.",
+   "elemento_falsable": "La tesis se ROMPE si: (a) Azure desacelera por debajo de ~25% cc de forma sostenida 2+ trimestres (fin del runway cloud), o (b) el margen operativo cae >200bps multianual sin recuperacion de FCF tras moderar el capex (senal de que el capex AI NO genera retorno), o (c) ROIC incremental cae por debajo del WACC 2 anos seguidos. Cualquiera convierte el build de capex de inversion en destruccion de valor."
+  },
+  "data_confidence": "MEDIUM",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "V",
+  "name": "Visa Inc.",
+  "sector": "Pagos / Infraestructura de red de pagos",
+  "exchange": "NYSE",
+  "qg_score": 88,
+  "qg_tier": "Nucleo QG",
+  "rank_qg": 4,
+  "precio_actual": 360,
+  "fuente_precio": "Yahoo Finance $360.31 y stockanalysis.com $362.13, ambos 2026-07-02 (uso $360 de trabajo)",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos REALES acelerando (net revenue Q2 FY26 +17% cc, el mayor desde 2022; payments volume +9%, cross-border +12%, processed txns +9%), margen operativo ~60% en expansion, ROIC ~54% muy por encima del WACC. Crecientes con multiplo comprimido = posible mispricing (condicion necesaria CUMPLIDA).",
+   "notas": "0 senales estructurales de 6. La unica candidata (senal 3, disrupcion por stablecoins/comercio agentico) es NARRATIVA, no fundamento: indicadores ADELANTADOS (volumenes, cross-border, txns procesadas) aceleran y la propia Visa monetiza el stablecoin ($7B run-rate anualizado de liquidacion, +50% t/t). ROIC estable ~54%>WACC; cuota estable/ganando; margen bruto/op en expansion; consenso al alza + guidance subida + beats; ND/EBITDA ~0.3x con margenes subiendo. La accion cayo ~19% desde pico por miedo a disrupcion mientras los fundamentales aceleran."
+  },
+  "dcf_inverso": {
+   "veredicto": "RAZONABLES",
+   "g_implicita": "~9.5-10% CAGR owner earnings 10 anos (g1~9.7% desvaneciendo a ~5.7%, terminal 3%) para justificar $360 con WACC 7.5%",
+   "vs_base_rate": "Por DEBAJO del consenso (11.7% FY26 / 13.2% FY27 / 12.4% CAGR a FY28) y del historico low-teens de Visa. Para un compounder top-decile de ~$680B, sostener low-double-digit esta dentro de base rates Mauboussin. El mercado descuenta crecimiento MODESTAMENTE INFERIOR al que la franquicia viene entregando; no heroico, mas bien razonable-tirando-a-bajo. No activa candado GANGA."
+  },
+  "valor": {
+   "pwfv_valor": 365,
+   "banda_baja": 290,
+   "banda_alta": 440,
+   "epv": 137,
+   "owner_earnings_norm": 10.8
+  },
+  "zona": "PRECIO JUSTO",
+  "mos": {
+   "actual_pct": 1.4,
+   "exigido_pct": 15,
+   "cumple": false,
+   "cumple_techo": true,
+   "techo_tier": 35,
+   "multiplo_actual": 33.3
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": 0.5
+  },
+  "patron": {
+   "aplica": "P7 - el miedo golpea al peaje equivocado (+P1 herida superficial, franquicia intacta)",
+   "amplifica": true,
+   "evidencia": "Analogo explicito V/MA interchange: accion -19% desde pico por temor a stablecoins/agentic mientras net revenue +17% (mayor desde 2022) y non-GAAP EPS +20%. Divergencia precio (cae) vs consenso EPS FY+1 (sube, guidance elevada). El patron AMPLIFICA conviccion pero NO genera senal ni suple el MoS insuficiente."
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% ahora (esperar). Iniciar tramo 3-4% si el precio toca ~$310 (MoS ~15%, zona OPORTUNIDAD); tramo pleno hacia ~$275 (MoS ~25%). Nucleo QG: acumular en debilidad, no perseguir.",
+  "ritual": {
+   "frase_tesis": "El mercado teme que stablecoins y el comercio agentico desintermedien el peaje de Visa; ese miedo esta mal dimensionado porque los indicadores ADELANTADOS lo refutan: volumenes de pago +9%, cross-border +12% y net revenue +17% (el mayor desde 2022) ACELERAN justo cuando la accion cae ~19%, y Visa ya monetiza el stablecoin ($7B run-rate, +50% t/t) construyendo los rails en vez de sufrirlos.",
+   "condicion_oportunidad": "Comprar tramo cuando el precio caiga a ~$310 o menos (MoS>=15%, zona OPORTUNIDAD), idealmente con VIX elevado / panico sectorial de pagos amplificando el descuento; a $360 es PRECIO JUSTO y no compensa.",
+   "elemento_falsable": "La tesis se ROMPE si en 2-4 trimestres los volumenes de pago o cross-border se desaceleran materialmente (<mid-single-digit cc), si el take rate/net-revenue-yield cae de forma sostenida (senal real de desintermediacion), o si el crecimiento organico de net revenue baja de ~8% cc sin causa caducable."
+  },
+  "data_confidence": "HIGH",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "NOW",
+  "name": "ServiceNow, Inc.",
+  "sector": "Software / SaaS (plataforma de flujos de trabajo empresariales)",
+  "exchange": "NYSE",
+  "qg_score": 83.6,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 21,
+  "precio_actual": 106.32,
+  "fuente_precio": "stockanalysis.com — cierre 2026-07-02 4:00pm EDT ($106.32); confirmado rango intradia $103.27-107.68 y split 5:1 vigente desde 18-dic-2025 (precios ajustados)",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "APROBADO. Ingresos organicos ACELERANDO: FY25 +21%, Q1'26 +22% reportado (+19% cc), guia sub. FY26 22-22.5%. cRPO +22.5% y RPO +25% (indicadores ADELANTADOS, no trailing) — lo contrario a deterioro. Margen op no-GAAP 32% y subiendo (31%->32%), margen op GAAP 4.9%->13.7% en 4 anos. ROIC reportado mid-teens estable. Ninguna metrica cae >200bps ni ROIC<WACC. Es candidato a mispricing por sentimiento (necesario, no suficiente).",
+   "notas": "Los 6 estructurales en verde. (1) ROIC sin declive: op margin expandiendo. (2) Sin perdida de cuota: gana share, revenue +22% vs sector. (3) Disrupcion = MIEDO del mercado (agentes IA matan pricing por asiento), pero indicadores adelantados la REFUTAN: Now Assist ACV $600M->$750M->target $1.5B FY26, >50% del net-new ya es consumo/no-asiento, cRPO acelera. Narrativa, no fundamentales. NO se cuenta. (4) Margen bruto estable ~77-79%, sub. GM 81.5%: sin compresion. (5) EPS GAAP FY26 recortado $2.47->$1.96 PERO es dilucion Armis + SBC/amort; revenue consensus SUBIO $16.0B->$16.2B y FCF +44% — no es deterioro organico ni contable. Alerta suave, no estructural. (6) Caja neta ~$2.75B: sin deuda opaca. Veredicto 0 senales = PASA."
+  },
+  "dcf_inverso": {
+   "veredicto": "BAJAS",
+   "g_implicita": "~13% crec. owner earnings 10a (base owner earnings, WACC 8.5%); solo ~6% en base FCF",
+   "vs_base_rate": "BAJAS. El precio de hoy exige ~13% de crecimiento de owner earnings a 10 anos (o apenas ~6% de crecimiento de FCF) para una empresa que crece ingresos ~20-22%, expande margen FCF (guia 35%) y tiene cRPO +22.5% acelerando. Muy por DEBAJO de la trayectoria real y de base rates Mauboussin para un $110B-cap de calidad. El mercado descuenta un colapso del crecimiento que los indicadores adelantados no confirman. NO activa candado GANGA (lo contrario a HEROICAS)."
+  },
+  "valor": {
+   "pwfv_valor": 107,
+   "banda_baja": 73,
+   "banda_alta": 154,
+   "owner_earnings_norm": 2621,
+   "epv": 33
+  },
+  "zona": "PRECIO JUSTO",
+  "mos": {
+   "actual_pct": 1,
+   "exigido_pct": 25,
+   "cumple": false,
+   "cumple_techo": false,
+   "multiplo_actual": 42,
+   "techo_tier": 30
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": 1.43
+  },
+  "patron": {
+   "aplica": "P7 (el miedo golpea al peaje equivocado) + P1 (herida superficial, franquicia intacta)",
+   "amplifica": true,
+   "evidencia": "P7/P1: el mercado castiga -50% desde $211 por miedo a que la IA agentica erosione el pricing por asiento, mientras cRPO acelera a +22.5%, FCF crece +44% y el ACV de IA (Now Assist) sube de $600M a target $1.5B. La franquicia de workflow/governance es exactamente la que gobierna a los agentes IA (mas necesaria, no menos). Divergencia precio/fundamentales clara. PERO los patrones solo AMPLIFICAN cuando la zona/MoS ya habilitan compra — aqui NO lo hacen, asi que el patron queda registrado como catalizador de vigilancia, no como senal de compra."
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% hoy (sin compra). Vigilancia activa. Al gatillo (ver ritual): tramo inicial 3% NAV, escalable a 4-5% si el pesimismo se profundiza con fundamentales intactos.",
+  "ritual": {
+   "frase_tesis": "El mercado teme que los agentes de IA destruyan el pricing por asiento de ServiceNow; ese miedo esta mal dimensionado porque cRPO acelera a +22.5% YoY, >50% del net-new ya es consumo/no-asiento, el ACV de Now Assist salta de $600M a un target de $1.5B FY26 y FCF crece +44% — los indicadores ADELANTADOS niegan el deterioro que el precio descuenta.",
+   "condicion_oportunidad": "Panico sectorial indiscriminado sobre el mejor peaje del nicho (workflow/governance empresarial) — el miedo golpea al peaje equivocado. Aun NO cumple la escalera de MoS del tier.",
+   "elemento_falsable": "Compra habilitada SOLO si el precio cae hacia ~$80 (MoS ~25% vs PWFV $107 y multiplo Precio/OE bajo el techo de 30x). Tesis se MATA (no comprar / vender si en cartera) si en 2 trimestres consecutivos: cRPO cc desacelera por debajo de +12%, o el ACV de Now Assist se estanca por debajo de ~$1B, o el churn/net-new gira negativo hacia asientos — es decir, si los indicadores adelantados confirman la disrupcion que hoy es solo narrativa."
+  },
+  "data_confidence": "MEDIUM",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "LLY",
+  "name": "Eli Lilly and Company",
+  "sector": "Farma / Metabolismo (GLP-1, neurologia, oncologia)",
+  "exchange": "NYSE",
+  "qg_score": 84,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 16,
+  "precio_actual": 1210,
+  "fuente_precio": "Yahoo Finance / CNBC quote, 2026-07-02 (intradia ~$1,210; rango $1,180-1,232)",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos REALES crecientes (+45% FY2025, +43% Q4, guia 2026 +25% a $80-83B), margen operativo ~47% y EXPANDIENDO, ROIC ~42% y subiendo. Trayectoria acelerante con multiplo alto = lo contrario de trampa; es el disruptor del mercado GLP-1, no el disrumpido.",
+   "notas": "Cero de las 6 senales estructurales. (1) ROIC ~42% creciente, muy por encima del WACC ~8.5%. (2) Ganando cuota agresivamente (Mounjaro +109% y Zepbound +185% YoY en Q3'25) mientras el mercado crece. (3) LLY ES la nueva tecnologia (GLP-1 incretinas + oral orforglipron), no la sustituida. (4) Margen bruto ~83% expandiendo, no comprimiendo. (5) Contabilidad limpia, consenso EPS FY+1 REVISADO AL ALZA (2026e $36.21, 2027e $44.47), sin restatements. (6) ND/EBITDA <1.5x con margenes subiendo. FCF reportado TTM ~$6.7-11.8B esta deprimido por capex de crecimiento (~$10.1B FY2025 en construccion de capacidad manufacturera GLP-1), no por deterioro: patron P4 denominador roto sobre el FCF, NO senal de trampa."
+  },
+  "dcf_inverso": {
+   "veredicto": "RAZONABLES",
+   "g_implicita": "~18% owner earnings 5 anos fading a ~8% (base owner earnings = NI FY2025 ~$25.3B; SBC ~$1.6B negligible; WACC 8.5% tier Alta conviccion, terminal 3%). El precio de $1,210 = ~$1,079B equity se explica con path 18%x5y->8%x5y.",
+   "vs_base_rate": "Exigente pero NO heroico para ESTA franquicia: el consenso ya tiene 2026 EPS +50% y 2027 +23%, que front-loadean gran parte del crecimiento implicito; el TAM de obesidad global + lanzamiento de orforglipron oral da soporte estructural al 18% cercano. Para un negocio de ~$25B de earnings, sostener ~15%+ a 10 anos es top-decil Mauboussin, pero el runway GLP-1 lo justifica sin recurrir a supuestos irreales. No dispara el candado GANGA; deja poco margen de error."
+  },
+  "valor": {
+   "pwfv_valor": 1194,
+   "banda_baja": 1106,
+   "banda_alta": 1282,
+   "epv": 275,
+   "owner_earnings_norm": 25.3
+  },
+  "zona": "PRECIO JUSTO",
+  "mos": {
+   "actual_pct": -1.3,
+   "exigido_pct": 25,
+   "cumple": false,
+   "multiplo_actual": 33.4,
+   "techo_tier": 30,
+   "cumple_techo": false
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": 1.1
+  },
+  "patron": {
+   "aplica": "P7 (el miedo golpea al peaje equivocado) - parcial",
+   "amplifica": false,
+   "evidencia": "El miedo generico a 'patent cliff' y presion de precios GLP-1 golpea al sector farma, pero LLY esta al INICIO de su ciclo de franquicia (no en el cliff) y el multiplo NO refleja miedo sino optimismo. El patron no amplifica una compra aqui porque no hay dislocacion de precio que explotar; el activo cotiza a valor justo con prima. Ningun patron genera senal de todos modos."
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% ahora. Calidad excepcional (QG 84, detector PASA), pero a valor justo con multiplo por encima del techo del tier. Iniciar tramo 3-5% NAV SOLO si el precio cae a la banda de OPORTUNIDAD (>=15% dcto sobre PWFV): ~$1,015 o menos (y bajo el techo 30x fwd, i.e. EPS 2026e $36.21 x 30 = ~$1,086). Nivel de alerta de watchlist: -25% desde maximo 52s.",
+  "ritual": {
+   "frase_tesis": "El mercado teme que la competencia GLP-1 (Novo, orales de terceros, biosimilares futuros) y la presion de precios Medicare erosionen los margenes de Lilly; ese miedo esta CORRECTAMENTE dimensionado en el precio hoy (multiplo fwd 33x, MoS -1%), por lo que NO hay mispricing que explotar: la calidad es real pero ya esta pagada.",
+   "condicion_oportunidad": "Ninguna de las 5 condiciones activa hoy. La aplicable seria P4/P5 (denominador FCF roto por capex de crecimiento + duracion del moat) SOLO si un panico de precio abriera >=15% de descuento; sin ese gatillo, es SOSTENER/ESPERAR, no comprar.",
+   "elemento_falsable": "Mataria la tesis de calidad (no la de precio): (a) 3+ trimestres consecutivos de recorte de consenso EPS FY+1 -> pasa a GRIS; (b) datos de fase III de orforglipron oral o competidores que muestren perdida de eficacia/cuota vs Novo -> revisar disrupcion; (c) margen bruto cayendo >300bps en 8 trimestres sin transicion anunciada. Del lado del PRECIO: caida a <=$1,015 con detector aun en PASA activa el tramo inicial."
+  },
+  "data_confidence": "MEDIUM",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "NVDA",
+  "name": "NVIDIA Corporation",
+  "sector": "Semiconductores / Plataforma de computación acelerada (IA)",
+  "exchange": "NASDAQ",
+  "qg_score": 84.8,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 10,
+  "precio_actual": 193.37,
+  "fuente_precio": "stockanalysis/CNN/Investing.com via WebSearch, cierre 2026-07-02 ($193.37; rango 52s $157.34-$236.54)",
+  "arquetipo": "ciclico-semis",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos REALES crecientes (Q1FY27 rev $81.6B +85% YoY; data center +73%), margen operativo en maximos (60-66%), ROIC muy por encima de WACC. Cero senales de deterioro; multiplo NO comprimido sino elevado -> no es mispricing por sentimiento, es una franquicia en aceleracion a precio pleno.",
+   "notas": "0 de 6 senales estructurales. (1) ROIC en maximos historicos, incremental >> WACC. (2) Gana cuota (~90% aceleradores IA). (3) Disrupcion por ASICs custom de hyperscalers/TPU es el UNICO watch item, pero resolver con indicadores adelantados: bookings Blackwell y demanda siguen acelerando, no deteriorando -> no cuenta hoy. (4) Margen bruto 71-75% cerca de record; la caida FY26 a 71% fue el cargo H20/China (evento puntual), no erosion estructural. (5) Consenso EPS FY+1 REVISADO AL ALZA, no recortes; la brecha GAAP-vs-noGAAP viene de ganancias en equity securities ($15.9B en Q1FY27, divulgadas y transparentes), no de contabilidad agresiva. (6) Caja neta positiva (~$45B+), ND/EBITDA negativo."
+  },
+  "dcf_inverso": {
+   "veredicto": "RAZONABLES",
+   "g_implicita": "~16-17% CAGR owner earnings 10 anos (sobre base OE FY26 ~$90B, WACC 8.5%)",
+   "vs_base_rate": "Alto pero no heroico dado el runway estructural de infraestructura IA. Para una mega-cap con ~$216B ingresos, sostener >15% 10 anos es top-decil (Mauboussin), pero el mercado paga eso, no un absurdo. NO activa candado GANGA."
+  },
+  "valor": {
+   "pwfv_valor": 186,
+   "banda_baja": 130,
+   "banda_alta": 286,
+   "epv": 72,
+   "owner_earnings_norm": 3.52
+  },
+  "zona": "PRECIO JUSTO",
+  "mos": {
+   "actual_pct": -4.1,
+   "exigido_pct": 25,
+   "cumple": false,
+   "multiplo_actual": 32.6,
+   "techo_tier": 30,
+   "cumple_techo": false
+  },
+  "asimetria": {
+   "ratio": 1.5,
+   "pasa": false
+  },
+  "patron": {
+   "aplica": "P5 la duracion es el descuento (parcial)",
+   "amplifica": false,
+   "evidencia": "Moat CUDA + calidad extrema, pero la via 'calidad a precio justo sin crisis' es SOLO para tier Nucleo; NVDA es Alta conviccion, no aplica. Ningun patron genera senal aqui: precio pleno, sin panico, sin venta forzada, sin denominador roto."
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% ahora. Zona de compra por tramos (3% NAV) si PWFV cae a OPORTUNIDAD: precio <=$158 (MoS>=15% intermedio) o idealmente <=$140 (MoS ~25% pleno del tier). El drawdown 52s ya toco $157; vigilar re-test.",
+  "ritual": {
+   "frase_tesis": "El mercado teme que los ASICs custom de los hyperscalers (TPU de Google, Trainium de Amazon, silicio de Meta/OpenAI) erosionen la franquicia; ese riesgo esta REAL pero AUN NO dimensionado en los fundamentales: data center +73% YoY, ~90% de cuota en aceleradores IA y bookings de Blackwell acelerando -> la disrupcion es una tesis de 2027+, no un hecho de 2026. El problema hoy NO es la calidad ni una trampa: es el PRECIO (32.6x earnings normalizados-forward, por encima del techo 30x del tier).",
+   "condicion_oportunidad": "Ninguna de las 5 condiciones de oportunidad se cumple a $193 (no hay panico, ni venta forzada, ni denominador roto, ni ganga por duracion en tier Nucleo, ni herida superficial). La condicion se activaria con un drawdown que lleve el precio a zona OPORTUNIDAD ($140-158).",
+   "elemento_falsable": "Mata la tesis de calidad (y convierte ESPERAR en VETO-TRAMPA): (a) 3+ trimestres consecutivos de recortes de consenso EPS FY+1; (b) margen bruto cayendo >300bps estructural en 8 trimestres sin evento puntual; (c) data center revenue PLANO o cayendo mientras el capex IA del sector sigue creciendo (perdida de cuota real por ASICs) durante 4+ trimestres. Elemento falsable de la VALORACION: si los ingresos normalizados-forward se confirman por encima de $320B con margen sostenido >55%, PWFV sube hacia $215+ y $193 pasaria a OPORTUNIDAD."
+  },
+  "data_confidence": "MEDIUM",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "RAA.DE",
+  "name": "Rational AG",
+  "sector": "Industrial de calidad (equipos profesionales de cocina / hornos combi)",
+  "exchange": "XETRA",
+  "qg_score": 83.2,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 25,
+  "precio_actual": 655,
+  "fuente_precio": "stockanalysis.com — €655.00 al 2026-07-02 17:38 CET (cross-check Yahoo/Bloomberg: cierre €645.50 el 26-jun-2026)",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos +11% Q1-2026 (vs mercado combi ~9% CAGR) manteniendo 50% cuota global; EBIT margin ~24% guiado a recuperar 25-26% en H2; ROIC ~47%. Fundamentales crecientes = NO trampa.",
+   "notas": "Compresion de margen bruto ~150bps YoY (57.6% vs 59.2%) TRANSITORIA y cuantificada: tariffs -240bps + FX, con reembolso one-off de €40M en Q2; cae en la excepcion 'transicion anunciada/cuantificada/con fecha', no estructural (<300bps y EBIT margin sostenido). Cero deuda, €186M caja neta. Sin restatements. RATIONAL es el disruptor (iCombi AI), no el disrumpido. 0/6 senales estructurales."
+  },
+  "dcf_inverso": {
+   "veredicto": "RAZONABLES",
+   "g_implicita": "~8.5-10% en owner earnings (WACC 8.5%, g terminal 3%)",
+   "vs_base_rate": "Para compounder ~€7.5B, 8.5-10% es alcanzable dado organico +11% y pricing power; dentro de base rates Mauboussin, ni bajas ni heroicas. NO activa candado GANGA."
+  },
+  "valor": {
+   "pwfv_valor": 594,
+   "banda_baja": 476,
+   "banda_alta": 705,
+   "epv": 264,
+   "owner_earnings_norm": 240
+  },
+  "zona": "PRECIO JUSTO",
+  "mos": {
+   "actual_pct": -10.2,
+   "exigido_pct": 25,
+   "cumple": false,
+   "cumple_techo": true,
+   "multiplo_actual": 29.3,
+   "techo_tier": 30
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": -0.16
+  },
+  "patron": {
+   "aplica": "P5 la duracion es el descuento",
+   "evidencia": "Moat 20+ anos (50% cuota, marca, coste de cambio, red de chefs/ChefLine), ROIC ~47%, calidad extrema. Pero P5 solo habilita compra a 'precio justo' por via sin crisis para NUCLEO; RAA es Alta conviccion (no Nucleo), asi que P5 NO habilita entrada aqui, solo eleva prioridad de vigilancia.",
+   "amplifica": false
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% ahora. En zona OPORTUNIDAD (MoS>=25%, ~€445) iniciar tramo 3-4%; escalar a 6-7% en GANGA (~€400) o con recuperacion de margen a 26%+ confirmada.",
+  "ritual": {
+   "frase_tesis": "El mercado teme que los tariffs de EEUU y el euro fuerte compriman el margen de forma estructural; ese temor esta MAL dimensionado porque el golpe de -240bps es un pass-through ciclico con reembolso one-off de €40M ya en Q2, mientras el organico crece +11% y el ROIC sigue en ~47% — el problema es de precio de entrada, no de calidad del negocio.",
+   "condicion_oportunidad": "Comprar cuando el precio caiga a ~€445 (MoS 25%) o si el mercado castiga un trimestre de margen debil sin que se rompa el organico ni el ROIC (herida superficial, franquicia intacta).",
+   "elemento_falsable": "La tesis se ROMPE si el organico cae por debajo del crecimiento del mercado combi 2+ trimestres (perdida de cuota real), si el EBIT margin no recupera 25-26% en H2-2026/2027 (compresion estructural, no ciclica), o si el ROIC baja de 30% sostenido."
+  },
+  "data_confidence": "HIGH",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "MSCI",
+  "name": "MSCI Inc.",
+  "sector": "Datos / Indices financieros (nominalmente Diversified Financials; negocio real = licencia de indices + analitica, no banca)",
+  "exchange": "NYSE",
+  "qg_score": 84,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 18,
+  "precio_actual": 603.11,
+  "fuente_precio": "stockanalysis.com — cierre 2026-07-02 16:00 EDT ($603.11); corroborado por Yahoo/CNN mismo día",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos +10.2% FY2025, run-rate suscripcion organica +7.7%, margen operativo 53.6%->54.7% (expande), ROIC estable 24-26% 5 anos >> WACC ~8.5%. Trayectoria CRECIENTE con margen al alza = cero deterioro. Retention 93.4% (Q4-25, sube vs 93.1%). Ninguna senal adelantada de disrupcion en fundamentales.",
+   "notas": "6/6 senales negativas: (1) ROIC estable-alto no declive; (2) gana cuota, organico doble digito mientras el sector crece; (3) riesgo AI/direct-indexing/compresion de fees pasivos es narrativa, fundamentales aceleran; (4) margen bruto/operativo EXPANDE, no comprime; (5) consenso al alza, adj EPS +11.5%, sin restatements; (6) ND/EBITDA ~3.0x estable, NO >4x, margenes subiendo. ROE negativo es artefacto de equity contable negativo por recompras agresivas (modelo capital-light), no senal de deterioro."
+  },
+  "dcf_inverso": {
+   "veredicto": "RAZONABLES",
+   "g_implicita": "~10-11% owner earnings/ano 10 anos con fade a 3% terminal (yield owner-earnings ~3.0% + ~5.5% perpetuo simple; front-loaded ~10-11%)",
+   "vs_base_rate": "Por DEBAJO del base rate propio de MSCI (organico +8-10% + apalancamiento de recompras => ~12-14% FCF/accion historico). Consenso FY26 EPS +14%, FY27 +14.5%. Implicito ~10-11% es razonable y no heroico para large-cap de peaje segun Mauboussin. NO activa candado GANGA."
+  },
+  "valor": {
+   "pwfv_valor": 534,
+   "banda_baja": 486,
+   "banda_alta": 580,
+   "owner_earnings_norm": 18,
+   "epv": 172
+  },
+  "zona": "CARO",
+  "mos": {
+   "actual_pct": -12.9,
+   "exigido_pct": 25,
+   "cumple": false,
+   "cumple_techo": false,
+   "multiplo_actual": 33.5,
+   "techo_tier": 30
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": 0.3
+  },
+  "patron": {
+   "aplica": "P5 (la duracion es el descuento) — moat 20+ anos, indices de red con costes de cambio altos",
+   "amplifica": false,
+   "evidencia": "P5 solo da via-sin-crisis a tier NUCLEO; MSCI es Alta conviccion (84/100), asi que NO releva del techo de multiplo ni del MoS 25%. No hay panico (P2), ni vendedor forzado (P6), ni divergencia precio/consenso (P1): consenso EPS al alza. Ningun patron amplifica una senal de compra que no existe a este precio."
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% ahora. Calidad plenamente comprable (PASA, 0 trampas) pero precio $603 esta ~13% SOBRE el PWFV $534, a 33.5x owner earnings (por encima del techo 30x del tier) y con MoS NEGATIVO (-13% vs +25% exigido). Objetivo de entrada: zona OPORTUNIDAD/GANGA = ~$400-455 (dcto 15-25% sobre PWFV) que ademas cae bajo el techo 30x. Tramo inicial 3-4% NAV si toca ~$450; construir a 4-5% en escalones si sigue cediendo, re-corriendo el detector por escrito antes de cada tramo.\"",
+  "ritual": {
+   "frase_tesis": "El mercado teme que la IA y la indexacion directa/compresion de fees pasivos erosionen el peaje de indices de MSCI; ese temor esta mal dimensionado porque los fundamentales ADELANTADOS aceleran — retention 93.4%, run-rate de suscripcion organica +7.7%, organico total +10.2% y margen operativo expandiendo a 54.7% — pero HOY el precio ya paga esa calidad (33.5x, 13% sobre valor), asi que la tesis es de PACIENCIA, no de compra.",
+   "condicion_oportunidad": "Aun no cumple ninguna de las 5 condiciones de oportunidad a $603. Se activaria la condicion 'calidad extrema a precio justo/con descuento' si el precio entra en ~$400-455 (OPORTUNIDAD/GANGA vs PWFV $534 y bajo techo 30x), idealmente con un pico de VIX o venta indiscriminada del sector datos.",
+   "elemento_falsable": "Mata la tesis de calidad (no solo la de precio): (a) run-rate de suscripcion organica cae por debajo de ~5% dos trimestres seguidos; (b) Retention Rate baja de ~92%; (c) margen operativo se comprime >200bps interanual; (d) ROIC cae hacia el WACC. Cualquiera reclasifica de ESPERAR a VIGILAR/VETO y anula el plan de entrada en debilidad."
+  },
+  "data_confidence": "MEDIUM",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "VRTX",
+  "name": "Vertex Pharmaceuticals",
+  "sector": "Biotech / Enfermedades Raras",
+  "exchange": "NASDAQ",
+  "qg_score": 84.8,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 14,
+  "precio_actual": 498,
+  "fuente_precio": "Yahoo Finance / TradingEconomics, cierre 1-jul-2026 (~$498); ligero lag intradía a 2-jul-2026",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos crecientes (+8% YoY Q1-2026, FY2025 $12.0B vs $9.9B en 2023), margen operativo ~35% estable, ROIC ~27%: trayectoria CRECIENTE con multiplo elevado -> NO es trampa, es compounder caro. El GAAP loss de 2024 fue cargo unico IPR&D de $4.4B por Alpine Immune (no recurrente, divulgado), no problema de contabilidad.",
+   "notas": "0/6 senales estructurales. (1) ROIC ~27% sin declive. (2) Sin perdida de cuota: franquicia CF domina, Alyftrek/Journavx/Casgevy en rampa. (3) VRTX es el disruptor, no el disrupido; core CF con patentes ~2037+. (4) Margen bruto estable ~86%. (5) Consenso EPS FY+1 SUBIENDO (2026 +4%, 2027 +11%), sin restatements. (6) Caja neta ~$13B, deuda ~cero. Concentracion de flujo en franquicia CF y riesgo pipeline son riesgos de calidad ya capturados en el score QG, no senales de trampa."
+  },
+  "dcf_inverso": {
+   "veredicto": "RAZONABLES",
+   "g_implicita": "~9.6% de owner earnings (OE norm ~$14.3/acc, WACC 8.5% tier Alta conviccion, terminal 3%)",
+   "vs_base_rate": "g implicita ~9.6% esta en linea con el consenso EPS (~10-11%) y por debajo del crecimiento historico de ingresos (~15%). Para un compounder de ~$128B es exigente pero no heroico (base rate Mauboussin de doble digito sostenido es alcanzable con pipeline diversificado). No activa candado GANGA."
+  },
+  "valor": {
+   "pwfv_valor": 432,
+   "banda_baja": 390,
+   "banda_alta": 591,
+   "epv": 203,
+   "owner_earnings_norm": 14.3
+  },
+  "zona": "CARO",
+  "mos": {
+   "actual_pct": -15.3,
+   "exigido_pct": 25,
+   "cumple": false,
+   "cumple_techo": false,
+   "multiplo_actual": 34.7,
+   "techo_tier": 30
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": 0.3
+  },
+  "patron": {
+   "aplica": "P5 (la duracion es el descuento) — parcial",
+   "amplifica": false,
+   "evidencia": "Moat de 20+ anos en CF y calidad extrema, pero P5 exige 'a precio justo' y aqui el precio es +15% sobre PWFV con multiplo sobre techo; el patron NO aplica a favor de comprar hoy. Via sin crisis es SOLO Nucleo (VRTX es Alta conviccion), no disponible."
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% hoy (esperar). Zona de tramo 3-4% del NAV si toca <=$481 (techo 30x) e idealmente <=$360-380 (banda baja / OPORTUNIDAD); tramo pleno con MoS>=25% en ~$324.",
+  "ritual": {
+   "frase_tesis": "El mercado NO teme nada mal dimensionado hoy; paga ~35x owner earnings normalizados por una franquicia excelente, descontando ya ~9.6% de crecimiento perpetuo. No hay mispricing a la baja que explotar: la calidad es real, el precio es caro.",
+   "condicion_oportunidad": "Ninguna de las 5 condiciones activa hoy (no hay panico, no hay herida superficial, no hay vendedor forzado, no hay denominador roto normalizable, y la duracion-como-descuento exige precio justo que no existe). Vigilar por: (a) decepcion en lanzamiento de Journavx/suzetrigine o povetacicept que hunda el precio sin romper el moat; (b) rotacion sectorial biotech que lleve el multiplo a <=25x OE.",
+   "elemento_falsable": "La tesis de CALIDAD (no la de compra) se rompe si: margen bruto cae >300bps en 8T, ROIC baja de WACC dos anos, o 3+ trimestres de recortes de consenso EPS FY+1 (hoy el consenso SUBE). La tesis de VALOR mejora si el precio cae bajo $432 (PWFV) y sobre todo bajo $360."
+  },
+  "data_confidence": "HIGH",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "AMZN",
+  "name": "Amazon.com, Inc.",
+  "sector": "Internet Retail / Cloud Infrastructure (Consumer Services + Technology)",
+  "exchange": "NASDAQ",
+  "qg_score": 84.8,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 13,
+  "precio_actual": 242.69,
+  "fuente_precio": "CNN Markets / consenso web (Yahoo, CNBC) — cierre/intradía 2026-07-02; rango del día $240.92–$246.72, mkt cap ~$2.61T, P/E ~28.9x",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos orgánicos +12% FY25 ($638B→$716.9B), AWS +28% YoY Q1-26 (máximo en 15 trimestres), margen operativo EXPANDIÉNDOSE (OI $80.0B, margen 11.2% vs ~10.8% previo; márgenes AWS récord), OI por segmento AL ALZA (AWS $39.8B→$45.6B, NA $25.0B→$29.6B, Intl $3.8B→$4.7B). ROIC en ascenso. Trayectoria CRECIENTE en las 3 métricas → confirma NO-trampa; el múltiplo NO está comprimido (está lleno), así que ni siquiera es candidato a mispricing por sentimiento.",
+   "notas": "0 de 6 señales estructurales. (1) ROIC NO en declive: retornos incrementales AWS altos y crecientes. (2) NO pérdida de cuota: gana share en cloud (+28%) y e-commerce. (3) NO disrupción: Amazon ES el disruptor; la IA es viento de cola (run-rate IA de AWS >$15B). (4) NO compresión de margen bruto: márgenes expandiéndose. (5) Contabilidad limpia, consenso EPS AL ALZA (2026 $7.72 → 2027 $9.34 → 2028 $11.69), rating Strong Buy — cero recortes. (6) Caja neta POSITIVA (~$123B caja/valores vs deuda modesta; D/E 0.16; ND/EBITDA negativo). Patrón P4 activo pero benigno: FCF reportado ($11.19B) está roto por capex de crecimiento IA ($131.8B vs OCF $139.5B), causa caducable — NO es señal de trampa."
+  },
+  "dcf_inverso": {
+   "veredicto": "RAZONABLES",
+   "g_implicita": "~9.7% CAGR owner earnings a 10 años sobre base EPS-fwd 2026 ($7.72); ~14.3% sobre base owner-earnings normalizada muy conservadora ($5.40, capex-mantenimiento=depreciación). WACC 8.5% (tier Alta conv.), g terminal 3%.",
+   "vs_base_rate": "Para un mega-cap de ~$717B de ingresos, sostener ~10-14% de crecimiento de owner earnings 10 años está en el límite alto de las base rates de Mauboussin, pero es plausible y coherente con lo YA logrado (AWS +28%, publicidad y márgenes expandiendo). NO son heroicas: el precio pide crecimiento fuerte pero alcanzable, no fantasía. Candado GANGA NO se activa."
+  },
+  "valor": {
+   "pwfv_valor": 210,
+   "banda_baja": 160,
+   "banda_alta": 250,
+   "epv": 80,
+   "owner_earnings_norm": 7.72
+  },
+  "zona": "CARO",
+  "mos": {
+   "actual_pct": -15.4,
+   "exigido_pct": 25,
+   "cumple": false,
+   "multiplo_actual": 31.4,
+   "techo_tier": 30,
+   "cumple_techo": false
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": -0.2
+  },
+  "patron": {
+   "aplica": "P4 denominador roto",
+   "amplifica": false,
+   "evidencia": "FCF colapsó de ~$38B a $11.19B PURO por capex de crecimiento IA ($131.8B FY25, guía ~$200B 2026), no por deterioro operativo — causa caducable clásica. Esto NO genera oportunidad aquí porque incluso normalizando owner earnings el precio ya está en zona CARO; el patrón EXPLICA por qué el FCF trailing es engañoso, pero no rescata el veredicto (los patrones amplifican, no generan la señal)."
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% ahora (ESPERAR). Abrir tramo 3-5% del NAV solo bajo ~$155-175/acción, donde se cumplen simultáneamente MoS≥25% sobre PWFV $210 Y múltiplo <30x owner earnings fwd. Escalonar en 2-3 compras.",
+  "ritual": {
+   "frase_tesis": "El mercado teme que el capex IA de $200B destruya el FCF de Amazon; ese miedo está MAL dimensionado en la dirección del NEGOCIO (AWS +28%, run-rate IA >$15B, OI segmento +15%), pero el PRECIO ya lo incorpora: a $242.69 pagas ~31x owner earnings fwd, ~15% por ENCIMA del valor justo — buen negocio, mal precio de entrada.",
+   "condicion_oportunidad": "Ninguna de las 5 condiciones activa hoy (no hay pánico, no hay GANGA, no hay vendedor forzado). La condición a esperar: 'la duración es el descuento' solo se vuelve comprable si un susto de capex/IA lleva la acción a zona OPORTUNIDAD (≥15% dcto sobre PWFV, es decir <~$178).",
+   "elemento_falsable": "Mataría la calidad de la tesis (no el precio): (a) desaceleración de AWS por debajo de ~12% dos trimestres seguidos con margen AWS cayendo >300bps; o (b) capex creciendo mientras el ROIC incremental de AWS cae por debajo del WACC (señal de que el gasto IA NO se monetiza). Verificar en cada release trimestral: crecimiento AWS, margen AWS, y OCF−capex normalizado."
+  },
+  "data_confidence": "MEDIUM",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "RMS.PA",
+  "name": "Hermes International",
+  "sector": "Lujo / Bienes de consumo premium",
+  "exchange": "Euronext Paris",
+  "qg_score": 84.8,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 11,
+  "precio_actual": 1647,
+  "fuente_precio": "stockanalysis.com (EPA:RMS), €1.647 al 2026-07-02 17:35 CET; corroborado por Yahoo/Google Finance €1.626-1.647",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos REALES crecientes (+6% cc Q1'26, +9% cc FY25), margen operativo AL ALZA (40.5%->41.0%), ROIC ~46% estable y muy por encima de WACC. Es DESACELERACION desde base altisima (China + Oriente Medio -150bps geopolitico), NO deterioro. Franquicia intacta.",
+   "notas": "0/6 senales. (1) ROIC ~46% estable/creciente >> WACC, no declive. (2) Gana cuota mientras Kering/LVMH se contraen. (3) Modelo escasez/artesania sin sustituto tecnologico. (4) Margen bruto/operativo AL ALZA. (5) Contabilidad limpia; caida de beneficio neto solo por contribucion excepcional francesa one-off, subyacente +5.5%. (6) EUR 12.77B CAJA NETA, cero apalancamiento. Patron P1: herida superficial, precio -29%/12m sobre bache ciclico-geopolitico."
+  },
+  "dcf_inverso": {
+   "veredicto": "RAZONABLES",
+   "g_implicita": "~13.7% crecimiento owner earnings 10 anos (WACC 8.5%, g terminal 3%)",
+   "vs_base_rate": "Al nivel del historico propio (~12.7% CAGR ingresos / ~16.6% beneficio neto 10 anos) pero EXIGENTE vs base rates Mauboussin para EUR 16B ingresos (13-14% sostenido es decil superior). Razonable-en-el-limite; el candado que ata NO es la g implicita sino el TECHO DE MULTIPLO."
+  },
+  "valor": {
+   "pwfv_valor": 1400,
+   "banda_baja": 1140,
+   "banda_alta": 1550,
+   "owner_earnings_norm": 35.6,
+   "epv": 627
+  },
+  "zona": "CARO",
+  "mos": {
+   "actual_pct": -17.6,
+   "exigido_pct": 25,
+   "cumple": false,
+   "cumple_techo": false,
+   "multiplo_actual": 46.3,
+   "techo_tier": 30
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": -0.14
+  },
+  "patron": {
+   "aplica": "P1 herida superficial, franquicia intacta",
+   "amplifica": true,
+   "evidencia": "Precio -29% en 12m (~EUR 2.300 pico -> EUR 1.647) por miss Q1'26 (+6% vs ~7% consenso) atribuible a Oriente Medio (-150bps) y China; fundamentales (margen, ROIC, caja) intactos o al alza. Amplificaria CONVICCION en la compra, pero NO genera senal ni anula el techo de multiplo. P5 (la duracion es el descuento) aplica a la calidad, no rescata el precio."
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% hoy (sin compra por encima del techo de multiplo 30x). Ordenes escalonadas: tramo 3-5% en EUR 1.190 (techo 30x P/OE) escalando a EUR 1.120 (MoS 15%); GANGA FUERTE hacia EUR 990 (MoS 25%). Tier Alta conviccion, tramos hasta 5% en conjunto.",
+  "ritual": {
+   "frase_tesis": "El mercado teme que la desaceleracion de Hermes (China + Oriente Medio) sea estructural; esta mal dimensionado como deterioro porque el margen operativo SUBIO a 41%, el ROIC sigue en ~46% y crece organico +6% cc mientras el resto del lujo se contrae — es un bache ciclico-geopolitico, no una fractura del moat. PERO a EUR 1.647 (46x owner earnings, 38x PER) el gran negocio esta bien identificado y mal precio: no exige descuento deep-value, exige multiplo de entrada razonable, y 46x esta por ENCIMA del techo de 30x del tier.",
+   "condicion_oportunidad": "Compra activa cuando el precio caiga por debajo del techo 30x P/OE (~EUR 1.190) — idealmente EUR 1.120 (MoS 15%) o EUR 990 (MoS 25%). Un segundo trimestre de organico >8% cc con Oriente Medio normalizado reforzaria el caso sin necesidad de precio mas bajo, pero el multiplo debe comprimirse igual.",
+   "elemento_falsable": "La tesis de CALIDAD se rompe si: (a) crecimiento organico cae por debajo de +3% cc dos trimestres consecutivos con volumen (no precio) negativo, (b) margen operativo cae >200bps multianual, o (c) ROIC baja de ~35%. Cualquiera reclasificaria de 'herida superficial' a posible deterioro estructural y anularia el patron P1."
+  },
+  "data_confidence": "HIGH",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "MCO",
+  "name": "Moody's Corporation",
+  "sector": "Datos/Ratings (Servicios de informacion financiera)",
+  "exchange": "NYSE",
+  "qg_score": 82.4,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 29,
+  "precio_actual": 490.51,
+  "fuente_precio": "stockanalysis.com, quote 2-jul-2026 16:00 EDT",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos +6% cc (Q1'26), margen op adj SUBIENDO +150bps a 53.2%, ROIC estable/recuperando ~22-29%, MA 68 trimestres consecutivos de expansion. Franquicia sana y acelerando: NO es trampa, es compounder caro.",
+   "notas": "0/6 senales estructurales. IA es TAILWIND (financiacion de data-centers impulsa issuance MIS; MA vende 'decision-grade connected intelligence' para entornos IA), no disrupcion. Deuda transparente ND/EBITDA ~1.2x con margenes en expansion. Sin restatements; consenso FY+1 al alza (guia 2026 ELEVADA en Q1)."
+  },
+  "dcf_inverso": {
+   "veredicto": "RAZONABLES",
+   "g_implicita": "~11.6% CAGR owner earnings 10 anos (WACC 8.5%, terminal 3%)",
+   "vs_base_rate": "Alto pero defendible para un duopolio de ratings + MA 98% recurrente; ~decil superior Mauboussin para ~$86B mkt cap pero justificado por moat. NO heroicas: no activa candado GANGA."
+  },
+  "valor": {
+   "pwfv_valor": 411,
+   "banda_baja": 340,
+   "banda_alta": 553,
+   "epv": 177,
+   "owner_earnings_norm": 2343
+  },
+  "zona": "CARO",
+  "mos": {
+   "actual_pct": -19.4,
+   "exigido_pct": 25,
+   "cumple": false,
+   "cumple_techo": false,
+   "multiplo_actual": 36.6,
+   "techo_tier": 30
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": 0.25
+  },
+  "patron": {
+   "aplica": "P5 - La duracion es el descuento (calidad extrema a precio 'justo'), y P7 - el miedo golpea al peaje equivocado (MCO cobra el peaje del credito en ambos escenarios de tasas)",
+   "evidencia": "Moat 20+ anos, ROIC alto, MA recurrente 98%; el caso Kantesaria 2018 (20-22x). PERO hoy el multiplo es 36.6x, MUY por encima del rango que hizo de P5 una ganga. El patron NO genera senal ni anula el techo de multiplo.",
+   "amplifica": false
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% (sin compra). Vigilar; preparar tramo 3-5% si el precio entra en zona (<=$370). No promediar ni forzar entrada por FOMO de calidad.",
+  "ritual": {
+   "frase_tesis": "El mercado teme poco: paga ~37x owner earnings porque asume que MCO compone al ~11-12% indefinidamente con IA como viento de cola; ese precio NO deja margen de seguridad aunque la franquicia sea intachable.",
+   "condicion_oportunidad": "Ninguna activa hoy. La via seria P1/P2 (herida superficial o panico sectorial) que lleve el precio a <=$370 (>=25% MoS y bajo 30x OE); condicion mas realista: correccion del ciclo de emisiones de credito o susto macro que comprima el multiplo.",
+   "elemento_falsable": "La tesis de ESPERAR se rompe (pasa a COMPRAR) si el precio cae a <=$370/sh manteniendo detector en verde. La tesis de CALIDAD se rompe si: (a) organico MA <4% cc dos trimestres, (b) margen op adj cae >200bps interanual, o (c) issuance MIS cae con el sector creciendo (perdida de cuota)."
+  },
+  "data_confidence": "HIGH",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "GOOGL",
+  "name": "Alphabet Inc.",
+  "sector": "Internet / Publicidad digital (buscador, YouTube, Ads) + Cloud",
+  "exchange": "NASDAQ",
+  "qg_score": 88,
+  "qg_tier": "Nucleo QG",
+  "rank_qg": 5,
+  "precio_actual": 360.22,
+  "fuente_precio": "StockAnalysis/Yahoo/Robinhood agregado, 2026-07-02 ($360.22; rango 52s $172.77-$408.61; mktcap $4.39T)",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos REALES crecientes y acelerando (FY25 +15% a $402.8B; Q1'26 +22% a $109.9B, 11o trimestre consecutivo de doble digito), margen operativo EXPANDIENDO (+2pp YoY a 36.1%), ROIC ~28% estable-al-alza. Cloud +63% con margen 17.8%->32.9% y backlog $462B. La supuesta disrupcion por IA se resuelve con indicadores adelantados (Search sigue creciendo, AI Overviews monetizando, revenue acelera) -> NO hay deterioro, es un miedo narrativo. Posible mispricing por sentimiento, no trampa.",
+   "notas": "6 senales estructurales: 1) ROIC en declive secular=NO (28%, estable/al alza); 2) perdida de cuota=NO (gana en Cloud, Search crece); 3) disrupcion del modelo=miedo del mercado pero fundamentales INTACTOS por indicadores adelantados; 4) compresion margen bruto >300bps=NO, margen operativo EXPANDE +2pp; 5) contabilidad/recortes consenso=NO, consenso 2026 REVISADO AL ALZA ($11.63->$14.22 EPS); 6) deuda opaca=NO, caja neta +$31B ($126.8B caja vs $95.9B deuda). Cero senales = PASA limpio."
+  },
+  "dcf_inverso": {
+   "veredicto": "RAZONABLES",
+   "g_implicita": "~10-11% de crecimiento de owner earnings a 10 anos (WACC 7.5% Nucleo, terminal 3%, base owner earnings normalizados ~$100-107B). El precio de HOY descuenta crecimiento de doble digito bajo, sostenido una decada.",
+   "vs_base_rate": "Para una firma de ~$400B de ingresos, sostener >10% de earnings 10 anos esta en el borde ALTO de las base rates de Mauboussin por tamano, pero alcanzable dado ROIC 28% y reinversion elevada (g=ROIC x reinversion coherente con mid-teens near-term). No heroico ni barato. Candado GANGA NO se activa."
+  },
+  "valor": {
+   "pwfv_valor": 298,
+   "banda_baja": 258,
+   "banda_alta": 486,
+   "epv": 119,
+   "owner_earnings_norm": 107
+  },
+  "zona": "CARO",
+  "mos": {
+   "actual_pct": -20.3,
+   "exigido_pct": 15,
+   "cumple": false,
+   "cumple_techo": false,
+   "multiplo_actual": 41,
+   "techo_tier": 35
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": 0.52
+  },
+  "patron": {
+   "aplica": "P5 (la duracion es el descuento) - parcial",
+   "amplifica": false,
+   "evidencia": "Moat 20+ anos y calidad extrema, pero la via sin crisis (solo Nucleo) FALLA su primera pata: OE yield normalizado ~2.3-2.5% < bono10Y ~4.3%. El patron reconoce la calidad pero NO habilita compra a precio justo/caro. Ningun patron genera senal; aqui ni siquiera amplifica."
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% hoy (sin tramo). Gatillo: primer tramo 3-5% del NAV si el precio cae a <=$253 (MoS 15%, entrada zona OPORTUNIDAD sobre PWFV $298); escalar hacia 5% si llega a <=$224 (GANGA, 25% dcto). Reevaluar PWFV con rf del momento antes de cada tramo.",
+  "ritual": {
+   "frase_tesis": "El mercado teme que la IA generativa canibalice la Busqueda; ese miedo esta MAL dimensionado porque los indicadores adelantados lo refutan (ingresos Q1'26 +22%, Search sigue creciendo con AI Overviews monetizando, margen operativo EXPANDE a 36.1% y Cloud acelera a +63% con backlog $462B). El problema NO es la calidad - es que el precio ya la incorpora y cotiza ~20% sobre valor.",
+   "condicion_oportunidad": "Aun sin clasificar en ninguna de las 5 condiciones de oportunidad a $360: no hay panico, ni herida superficial con divergencia, ni vendedor forzado, ni denominador roto. La oportunidad aparecera solo con correccion de precio (miedo IA re-emergente, rotacion mega-cap, o susto antimonopolio) que lleve el precio a zona de MoS.",
+   "elemento_falsable": "Mataria la tesis de calidad (no la de precio): (a) desaceleracion de Google Services a un digito bajo dos trimestres seguidos con caida de clics/impresiones en Search; (b) margen operativo comprimiendose >200bps multianual sin re-aceleracion de Cloud; (c) 3+ trimestres de recortes de consenso EPS FY+1. Ninguno presente hoy."
+  },
+  "data_confidence": "HIGH",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "MEDP",
+  "name": "Medpace Holdings",
+  "sector": "CRO / Ensayos Clinicos (Health Care Services)",
+  "exchange": "NASDAQ",
+  "qg_score": 84,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 19,
+  "precio_actual": 557.6,
+  "fuente_precio": "Google Finance / stockanalysis.com, cierre 2026-07-02 ($557.60; stockanalysis $555.54)",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos +26.5% YoY Q1'26, margen op 17.4%->21.1% multianual, ROIC 40%+ y creciente (3yr avg 29.5%->43%) en ultimos 4-8T: TODOS crecientes. No hay deterioro; confirma calidad intacta (no genera mispricing a la baja porque el precio esta en maximos).",
+   "notas": "0 de 6 senales estructurales. Balance fortaleza: caja neta ~$507M, practicamente sin deuda. Unica bandera amarilla NO estructural: retiro del Presidente Jesse Geiger (mayo 2026) tras ventas de insider elevadas en 2025-mar'26; el fundador-CEO August Troendle (33 anos, ~19% insider ownership) reasume Presidencia interina -> continuidad de management, no salida del fundador. Guidance FY26 RAISED en Q1 -> sin cascada de recortes de consenso. No toca senal 5 estructural."
+  },
+  "dcf_inverso": {
+   "veredicto": "RAZONABLES",
+   "g_implicita": "~13-14% owner earnings/ano ~10 anos con terminal 3% y WACC 8.5%",
+   "vs_base_rate": "Sostenido en el borde alto de base rates Mauboussin (~$16B cap): un grower probado del 22% historico con ROIC 40%+ puede justificarlo, PERO guidance FY26 es +9-13% (desaceleracion desde 20-26%) y backlog +2.9% -> el implicito ~13% queda en el techo de lo que soporta el corto plazo. No HEROICAS (no activa candado GANGA), pero deja CERO margen: el precio ya paga la continuidad del compounding mientras las reservas se enfrian."
+  },
+  "valor": {
+   "pwfv_valor": 446,
+   "banda_baja": 400,
+   "banda_alta": 500,
+   "owner_earnings_norm": 675,
+   "epv": 200
+  },
+  "zona": "CARO",
+  "mos": {
+   "actual_pct": -25,
+   "exigido_pct": 25,
+   "cumple": false,
+   "cumple_techo": true,
+   "multiplo_actual": 23.5,
+   "techo_tier": 30
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": 0.3
+  },
+  "patron": {
+   "aplica": "Ninguno",
+   "amplifica": false,
+   "evidencia": "Sin herida (P1) ni panico (P2): la accion sube +73% en 52 semanas y cotiza en/cerca de maximos. No hay error de categoria ni denominador roto (earnings en pico, no deprimidos). P5 (la duracion es el descuento) no habilita: aunque el moat es durable, el precio ya esta 25% SOBRE valor justo, no a precio justo. Ningun patron aplica."
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% ahora (ESPERAR). Si ya se posee: SOSTENER (regla de venta dual Alta conviccion = solo por deterioro de moat/tesis, jamas por multiplo caro; el detector esta en verde). Tramo de entrada solo si el precio cae a la banda ~$335-400 (MoS>=25% del tier).",
+  "ritual": {
+   "frase_tesis": "El mercado NO teme nada aqui: paga con entusiasmo (+73% en 52s, P/E 35) la continuidad del compounding de un CRO excelente. La tesis de VALOR falla no por calidad sino por PRECIO: cotiza ~25% sobre valor justo mientras el backlog (+2.9%) y la guidance (+9-13%) desaceleran desde ritmos del 20-26%.",
+   "condicion_oportunidad": "Ninguna de las 5 condiciones activa hoy. La via de entrada seria un 'invierno de financiacion biotech' que golpee el sentimiento del sector CRO (P7: el miedo golpea al peaje) y arrastre a MEDP a la banda $335-400 con fundamentales intactos -> ahi se reactiva el detector y se abre tramo.",
+   "elemento_falsable": "Lo que MATA la paciencia (comprar): caida a <=$400 con backlog y net new business awards aun creciendo YoY y guidance mantenida. Lo que MATA la calidad (vender si se poseyera): 2+ trimestres de net awards/book-to-bill <1.0x con cancelaciones al alza, O margen operativo cayendo >200bps multianual, O recortes sucesivos de consenso EPS FY+1 (senal 5) -> el detector pasaria a GRIS/TRAMPA."
+  },
+  "data_confidence": "HIGH",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "7741.T",
+  "name": "HOYA Corporation",
+  "sector": "Componentes de precision / Optica medica y semiconductores",
+  "exchange": "TSE",
+  "qg_score": 83.2,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 27,
+  "precio_actual": 25590,
+  "fuente_precio": "stockanalysis.com, cierre TSE 2026-07-02 15:30 JST (¥25,590; cross-check Google Finance ¥27,670 intradia descartado por menor trazabilidad de fecha)",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos + margen op + ROIC ultimos 4-8T TODOS crecientes: rev FY25 866B (+13.6%), op profit +22% a 255.8B, op margin 32->33%+, ROIC ~47% y estable-al-alza, TTM rev 947.75B. Cero de las 6 senales estructurales.",
+   "notas": "Antitesis de trampa de valor. ROIC ~47% (no declive secular); GANANDO cuota en EUV mask blanks (>75%) y HDD glass (cuasi-monopolio) mientras el mercado del sector CRECE (EUV blanks CAGR ~15%); no hay disrupcion del core (Hoya ES el habilitador de sub-2nm/High-NA); margen bruto/op en expansion; contabilidad IFRS limpia con buybacks; net cash ~532B (deuda cero). Calidad no esta en duda (QG 83.2)."
+  },
+  "dcf_inverso": {
+   "veredicto": "HEROICAS",
+   "g_implicita": "~18-19% (modelo fade a 2.5%) / ~12% (crecimiento constante) sobre owner earnings normalizados ~243B",
+   "vs_base_rate": "Consenso propio ~8% y base rate Mauboussin para cap ~8.5T muy por debajo. El precio de HOY descuenta crecimiento sin justificacion estructural que llegue a 18%. Activa candado GANGA (+10pp al MoS exigido)."
+  },
+  "valor": {
+   "pwfv_valor": 19406,
+   "banda_baja": 16270,
+   "banda_alta": 23522,
+   "epv": 9366,
+   "owner_earnings_norm": 243
+  },
+  "zona": "BURBUJA",
+  "mos": {
+   "actual_pct": -31.9,
+   "exigido_pct": 35,
+   "cumple": false,
+   "cumple_techo": false,
+   "multiplo_actual": 35.2,
+   "techo_tier": 30
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": -0.13
+  },
+  "patron": {
+   "aplica": "P5 (la duracion es el descuento) — moat 20+ anos, calidad extrema; PERO la via sin crisis es SOLO Nucleo, no aplica a Alta conviccion",
+   "amplifica": false,
+   "evidencia": "El moat (duopolio EUV blanks Hoya/AGC ~90%, unico validado para High-NA <2nm; cuasi-monopolio HDD glass) es real y duradero, pero P5 no genera senal ni habilita compra a este precio; ademas la via sin crisis esta reservada a Nucleo. Ningun patron anula el fallo de zona/MoS."
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% ahora (ESPERAR). Al re-ratear: iniciar tramo 3-4% NAV en zona OPORTUNIDAD (<=~16,500 = 15% dcto) y ampliar en GANGA (<=~14,550 = 25% dcto, tras candado heroicas). Techo dureza 30x owner earnings: no comprar por encima de ~20,600/accion (26x EPS791) aunque el sentimiento mejore.",
+  "ritual": {
+   "frase_tesis": "El mercado teme que Hoya sea un semi-ciclico caro; pero el temor esta mal dirigido: el negocio es excelente (ROIC ~47%, duopolio EUV blanks, cuasi-monopolio HDD glass, net cash 532B). El problema NO es la calidad — es el PRECIO: a 35x owner earnings el mercado ya paga ~18% de crecimiento heroico vs ~8% de base rate.",
+   "condicion_oportunidad": "Ninguna de las 5 condiciones se cumple HOY (no hay panico, no hay herida superficial, no hay denominador roto, no hay vendedor forzado, la via sin-crisis es solo Nucleo). Esperar a que una se active — tipicamente un drawdown sectorial de semis o un trimestre debil de memoria/HDD que comprima el multiplo sin danar el moat.",
+   "elemento_falsable": "Mata la tesis de calidad (no la de precio): (1) perdida de cuota en EUV mask blanks por debajo de ~65% frente a AGC o un tercer entrante validado para High-NA; (2) margen IT segment cayendo >500bps de forma sostenida por comoditizacion del blank; (3) ROIC consolidado bajando de 30% dos anos. Mata la tesis de ESPERA (gatillo de compra): precio <=16,500 (OPORTUNIDAD) con moat intacto."
+  },
+  "data_confidence": "HIGH",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "IDXX",
+  "name": "IDEXX Laboratories",
+  "sector": "Salud Animal / Diagnostico Veterinario",
+  "exchange": "NASDAQ",
+  "qg_score": 84.8,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 12,
+  "precio_actual": 551.26,
+  "fuente_precio": "stockanalysis.com / Yahoo Finance, cierre 1-jul-2026 ($551.26; ref 25-jun $554.94)",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos +11% Q1'26 (vs mercado vet-dx ~7%), margen operativo 31.8% (+100bps comparable) y ROIC ~35% TODOS crecientes ultimos 4-8 trimestres = franquicia intacta, no deterioro. Necesario-no-suficiente para mispricing, pero aqui el precio NO esta comprimido.",
+   "notas": "0/6 senales estructurales. (1) ROIC ~35% estable, >>WACC, no declive. (2) Gana cuota: ~50% share, organico +11% vs mercado +7%. (3) Zoetis VetScan OptiCell es competencia real pero fundamentales de IDXX aceleran; narrativa de disrupcion contradicha por los numeros. (4) Margen BRUTO SUBIENDO 59.8%(23)->61.0%(24)->~62%(25), lo contrario de compresion. (5) Consenso EPS al ALZA, guidance 2026 subido a $14.45-14.90, sin restatements. (6) ND/EBITDA ~0.6x, deuda minima y transparente. Franquicia pristina."
+  },
+  "dcf_inverso": {
+   "veredicto": "HEROICAS",
+   "g_implicita": "~18-22% crecimiento inicial de owner earnings (yrs1-5) desvaneciendo a 3% terminal, sobre base OE 2026e ~$1,100M, WACC 8.5%",
+   "vs_base_rate": "Muy por encima de base rates Mauboussin para una empresa de ~$45B mktcap: sostener ~18%+ de OE una decada es top-decil raro. IDXX crece ingresos ~10-11% historico; el precio exige que margen+buybacks amplifiquen a ~18-22%, improbable de sostener 10 anos. Activa candado GANGA (+10pp MoS -> 35% exigido)."
+  },
+  "valor": {
+   "pwfv_valor": 415,
+   "banda_baja": 380,
+   "banda_alta": 543,
+   "epv": 143,
+   "owner_earnings_norm": 1100
+  },
+  "zona": "CARO",
+  "mos": {
+   "actual_pct": -32.8,
+   "exigido_pct": 35,
+   "cumple": false,
+   "cumple_techo": false,
+   "multiplo_actual": 40.6,
+   "techo_tier": 30
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": 0.33
+  },
+  "patron": {
+   "aplica": "P5 (la duracion es el descuento) — RECONOCIDO pero NO ACCIONABLE",
+   "amplifica": false,
+   "evidencia": "Moat 20+ anos (base instalada de analizadores + consumibles recurrentes + red de referencia, cambio de proveedor costoso), calidad extrema. P5 pide 'calidad extrema a PRECIO JUSTO' y la via sin crisis es SOLO Nucleo; IDXX es Alta conviccion y cotiza en CARO (32.8% premium), no a precio justo. El patron confirma la tesis de calidad pero no genera senal de compra ni rebaja el MoS exigido."
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% hoy. Negocio comprable (PASA, Alta conviccion), pero precio fuera de zona: sin tramo a $551. Objetivo de entrada ~$415 (PWFV) o max ~$470 (aplicando solo el MoS base 25% del tier); con candado GANGA por DCF inverso HEROICAS, la entrada ideal exige ~$355 (GANGA). Iniciar en tramos de 3-5% NAV solo al perforar esos niveles.",
+  "ritual": {
+   "frase_tesis": "El mercado teme que Zoetis (VetScan OptiCell) erosione el moat de diagnostico veterinario de IDXX; ese temor esta MAL dimensionado porque IDXX crece organico +11% mientras el mercado crece ~7% (gana cuota), con margen bruto subiendo a ~62% y ROIC ~35% — la disrupcion no aparece en los fundamentales. PERO el mercado ya PAGA por esa fortaleza: a 40x owner earnings el precio descuenta ~18-22% de crecimiento heroico. El error no es de calidad, es de precio.",
+   "condicion_oportunidad": "Ninguna activa hoy. Se activaria 'calidad extrema a precio razonable' (P5) o 'panico indiscriminado' (P2) si el precio cae a la zona PWFV (~$415) — p.ej. por un susto competitivo Zoetis exagerado o correccion sectorial/mercado. Vigilar drawdown >25% desde maximo 52s como gatillo de re-analisis.",
+   "elemento_falsable": "La tesis de CALIDAD muere si: (a) crecimiento organico CAG cae <5% dos trimestres seguidos con mercado vet-dx creciendo (perdida de cuota real), (b) margen bruto comprime >300bps en 8 trimestres sin transicion anunciada, o (c) 3+ trimestres consecutivos de recortes de consenso EPS FY+1. La tesis de PRECIO (esperar) se invalida —pasa a comprable— si el precio perfora ~$470 (MoS 25%) o idealmente ~$415 (PWFV) sin deterioro del detector."
+  },
+  "data_confidence": "HIGH",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "ISRG",
+  "name": "Intuitive Surgical",
+  "sector": "Med-Tech / Cirugia Robotica",
+  "exchange": "NASDAQ",
+  "qg_score": 88,
+  "qg_tier": "Nucleo QG",
+  "rank_qg": 7,
+  "precio_actual": 426.01,
+  "fuente_precio": "stockanalysis.com + Google Finance, cierre 2026-07-02 (prev close $402.38, +5.87% en el dia)",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos, margen operativo y ROIC CRECIENTES ultimos 4-8T: FY25 ingresos +21% a $10.065B, procedimientos +19% (da Vinci +18%, Ion +44%), margen op GAAP 24.8%->28.1%->29.3% (FY23-25), Q1'26 EPS $1.81->$2.50 con guia de procedimientos SUBIDA a 13.5-15.5%. Trayectoria creciente con multiplo comprimiendose = herida de sentimiento, NO deterioro. Indicadores adelantados (colocaciones dV5: 870 en 2025; base instalada creciente) positivos.",
+   "notas": "Caida -29% en 6 meses es evento de VALORACION, no de negocio. Gatillos del selloff (recall Class I SureForm + componentes da Vinci X/Xi; competencia China con placements Q1 cayendo a 4 sistemas; miedo GLP-1 sobre bariatrica US; ruido OpenAI robotics) son reales pero acotados/cuantificables frente a un core que compone ~19% en procedimientos. Cero de las 6 senales estructurales: ROIC estable-alto, sin perdida de cuota agregada, sin disrupcion en fundamentales, margen bruto oscila ~150bps (no >300bps secular), sin restatements ni recortes de consenso (guia SUBIDA), CERO deuda con ~$8.9B caja+inversiones."
+  },
+  "dcf_inverso": {
+   "veredicto": "HEROICAS",
+   "g_implicita": "~22% crec. owner earnings 10 anos (fade a 6%) para justificar $426; base owner earnings normalizado ~$7.18/acc",
+   "vs_base_rate": "Base rate Mauboussin para mega-cap ($150B): crec sostenido >15% a 10 anos es top-decil; 22% es heroico. La franquicia crece ~15-19% hoy pero el precio exige que NO desacelere una decada -> descuenta demasiado. Activa candado GANGA y +10pp al MoS exigido."
+  },
+  "valor": {
+   "pwfv_valor": 314,
+   "banda_baja": 240,
+   "banda_alta": 434,
+   "epv": 122,
+   "owner_earnings_norm": 7.18
+  },
+  "zona": "BURBUJA",
+  "mos": {
+   "actual_pct": -35.7,
+   "exigido_pct": 25,
+   "cumple": false,
+   "cumple_techo": false,
+   "multiplo_actual": 51.6,
+   "techo_tier": 35
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": 0.02
+  },
+  "patron": {
+   "aplica": "P1 herida superficial, franquicia intacta (+ rasgos de P5 duracion del moat y P7 miedo mal direccionado en China/GLP-1)",
+   "amplifica": false,
+   "evidencia": "Recalls y competencia golpean el precio de forma desproporcionada mientras el cliente no deserta (procedimientos +19%, guia subida). PERO P1/P5/P7 SOLO amplifican si el precio esta en zona de compra; aqui el precio sigue en BURBUJA (+36% sobre PWFV, 51.6x owner earnings > techo 35x), por lo que el patron NO habilita compra: confirma que es el negocio correcto a esperar, no a comprar hoy."
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "$0 hoy. Zona de compra (interseccion candado GANGA <=$236 y techo 35x <=$289, la restriccion vinculante es GANGA por DCF inverso HEROICAS): tramo inicial 3-5% NAV solo <=$236 (~-45% desde hoy). Excepcional hasta 15% NAV solo si coincide panico general de mercado + Nucleo + GANGA + P1 confirmado + falsable escrito.",
+  "ritual": {
+   "frase_tesis": "El mercado teme que los recalls, la competencia china y los GLP-1 rompan el peaje robotico de Intuitive; ese miedo esta mal dimensionado porque el core sigue componiendo ~19% en procedimientos con guia 2026 SUBIDA a 13.5-15.5%, cero deuda y ~$8.9B de caja -- es una herida de sentimiento, no de franquicia. El problema no es la empresa; es que ni tras caer 29% el precio ($426) baja del valor intrinseco (~$314).",
+   "condicion_oportunidad": "Condicion 1 (P1: herida superficial, franquicia intacta) -- pero SIN cumplir la zona de precio; queda en VIGILANCIA/ESPERAR hasta que el de-rate llegue a GANGA (<=$236).",
+   "elemento_falsable": "Mata la tesis de CALIDAD (no de precio): (a) crecimiento de procedimientos organicos cae a un digito 2+ trimestres seguidos con margen operativo bajando >200bps interanual; (b) placements de da Vinci se contraen globalmente (no solo China) 2T seguidos; (c) recorte de consenso EPS FY+1 3T consecutivos; (d) margen bruto erosion >300bps en 8T sin transicion anunciada. Cualquiera reactiva el detector. Mientras no ocurran, el unico gatillo pendiente es PRECIO <=$236."
+  },
+  "data_confidence": "MEDIUM",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "6861.T",
+  "name": "Keyence Corporation",
+  "sector": "Automatizacion industrial - sensores, vision y medicion de fabrica",
+  "exchange": "TSE (Tokyo)",
+  "qg_score": 84,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 17,
+  "precio_actual": 80400,
+  "fuente_precio": "Yahoo Finance / Investing.com, cierre-intradia 2026-07-02 (JPY 80,400; prev close 81,630; rango 52s 51,510-84,170)",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos, margen operativo y ROIC CRECIENTES ultimos 4-8T: FY2026 revenue ¥1.17T (+10.4%, supera ¥1B por primera vez), OP ¥595.7B margen 51.0% estable, NI ¥445.2B (+11.7%) 5o record consecutivo; overseas +14%. Trayectoria ascendente con multiplo NO comprimido (todo lo contrario). No hay mispricing por deterioro: es calidad cara, no trampa.",
+   "notas": "0/6 senales. (1) ROIC reportado 19.5% deprimido por ¥1.33T de caja+valores no operativos que inflan el capital; el ROIC OPERATIVO ex-caja es altisimo (asset-light, margen OP 51%): no hay declive. (2) Gana cuota (overseas +14%, Asia/America). (3) Sin disrupcion del core FA sensores/vision. (4) Margen bruto/operativo estable ~51%, sin compresion. (5) JGAAP, equity ratio 95.9%, sin restatements, batio consenso; consenso al alza. (6) Caja neta ~¥1.33T, deuda ~cero. SBC despreciable en JGAAP -> owner earnings = FCF."
+  },
+  "dcf_inverso": {
+   "veredicto": "HEROICAS",
+   "g_implicita": "~16.7% anual de owner earnings 10 anos (sobre EV ¥18.2T, WACC 8.5% tier Alta conviccion, terminal g 1.5%); sensibilidad 14.2% @7.5% / 18.9% @9.5%",
+   "vs_base_rate": "Por encima de su propia historia (10y CAGR ingresos ~11.9%, 5y 16.8% pero 3y solo 8.2%) y por encima de las base rates de Mauboussin para una empresa ya de ¥1.17T ingresos / ¥445B NI: sostener 15-17% real una decada a esa escala es raro. HEROICAS -> +10pp al MoS exigido y activa candado GANGA."
+  },
+  "valor": {
+   "pwfv_valor": 52219,
+   "banda_baja": 45045,
+   "banda_alta": 71834,
+   "owner_earnings_norm": 1659,
+   "epv": 25711
+  },
+  "zona": "BURBUJA",
+  "mos": {
+   "actual_pct": -54,
+   "exigido_pct": 35,
+   "cumple": false,
+   "cumple_techo": false,
+   "multiplo_actual": 45.2,
+   "techo_tier": 30
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": 0.5
+  },
+  "patron": {
+   "aplica": "ninguno",
+   "amplifica": false,
+   "evidencia": "No hay vendedor forzado, ni panico, ni denominador deprimido, ni divergencia precio/consenso a favor. Es el reverso de todo patron de compra: calidad extrema a precio de burbuja. P5 (la duracion es el descuento) solo aplica a Nucleo y ademas exige precio JUSTO, no +54% premium."
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% ahora. Vigilar hacia zona OPORTUNIDAD ¥39,000-44,400 (15-25% dcto) y compra en tramos 3-5% solo bajo ¥39,200 (GANGA, requerido por candado HEROICAS + techo 30x). Precio para 35% MoS exigido: ~¥33,900. Nota: ni el minimo de 52s (¥51,510) alcanza descuento suficiente.",
+  "ritual": {
+   "frase_tesis": "El mercado teme perderse el compounder japones de FA de mas alta calidad y paga 45x owner earnings; el error NO esta en la calidad (real, QG 84/100) sino en el precio: el DCF inverso exige 16.7% de crecimiento por 10 anos cuando la propia empresa crece ~12% (10y) y ~8% (3y), y la caja de ¥1.33T no justifica un premium de +54% sobre valor.",
+   "condicion_oportunidad": "Ninguna activa hoy. Futura: 'gran empresa a precio justo/ganga' (P5-adyacente) solo si un derating cíclico de FA (China/JPY/capex industrial) la lleva a <¥39,200; o venta forzada/pánico sectorial de semis-automatización que golpee el peaje equivocado (P7).",
+   "elemento_falsable": "La tesis de ESPERAR se rompe si: (a) el precio cae a <=¥39,200 (>=25% dcto, GANGA) con fundamentales intactos -> pasa a COMPRAR TRAMO; (b) evidencia verificable de que el crecimiento de owner earnings acelera de forma estructural y sostenible a >=15% (nuevos verticales/geografias con pricing power probado), lo que subiria el PWFV y bajaria la g implícita a RAZONABLE. Mata la CALIDAD (no esta valoracion): margen OP cae >200bps multianual o perdida de cuota 4+ trimestres."
+  },
+  "data_confidence": "MEDIUM",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "TSM",
+  "name": "Taiwan Semiconductor Manufacturing (TSMC) - ADR NYSE",
+  "sector": "Semiconductores / Foundry",
+  "exchange": "NYSE (ADR)",
+  "qg_score": 85.6,
+  "qg_tier": "Nucleo QG",
+  "rank_qg": 9,
+  "precio_actual": 434.16,
+  "fuente_precio": "stockanalysis.com, cierre 2026-07-02 16:00 EDT ($434.16); corroborado con rango intradía Yahoo/Investing $438-465 el mismo día (mercado volátil). Mkt cap ~$2.00T.",
+  "arquetipo": "ciclico-semis",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos + margen op + ROIC ultimos 4-8T: TODOS crecientes y acelerando. FY25 rev +35.9% (NT$3,809B), op margin 45.7%->50.8%, ROIC 23.3%->28.2%, margen bruto ->59.9%. Trayectoria ascendente = NO deterioro. TSM es el habilitador del ciclo AI (N3/N2), no el disruptido. El test confirma calidad intacta; no genera senal de trampa.",
+   "notas": "0 de 6 senales estructurales. ROIC sube (19.2/23.3/28.2), gana cuota en nodos avanzados, margen bruto expande (opuesto a compresion), sin restatements, consenso EPS FY+1 al alza (no recortes), net cash ~$71.6B (cero apalancamiento). El unico 'riesgo' es geopolitico (Taiwan) = ruido macro, NO senal estructural del detector. Franquicia intacta: el problema es 100% PRECIO, no calidad."
+  },
+  "dcf_inverso": {
+   "veredicto": "HEROICAS",
+   "g_implicita": "~14.3% crecimiento de owner earnings anual durante 10 anos (2 etapas, WACC 8.5%, terminal 3%), partiendo de OE normalizado mid-cycle ~$9.64/ADR",
+   "vs_base_rate": "Sostener >14% de crecimiento de owner earnings durante una decada en una empresa de $2T, PARTIENDO de margenes operativos en pico (50.8% > p80 de 10 anos = 45.7%), esta en el decil superior de las base rates de Mauboussin por tamano. Exigiria que la euforia AI+margenes pico sean el nuevo permanente. HEROICAS -> +10pp al MoS exigido Y activa candado GANGA (solo comprable con >=25% descuento)."
+  },
+  "valor": {
+   "pwfv_valor": 260,
+   "banda_baja": 184,
+   "banda_alta": 328,
+   "epv": 129,
+   "owner_earnings_norm": 9.64
+  },
+  "zona": "BURBUJA",
+  "mos": {
+   "actual_pct": -67.2,
+   "exigido_pct": 25,
+   "cumple": false,
+   "multiplo_actual": 45,
+   "techo_tier": 35,
+   "cumple_techo": false
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": 0.25
+  },
+  "patron": {
+   "aplica": "Ninguno favorable; anti-patron de PEAK earnings (checklist trampas): PER bajo aparente enmascarado por margen operativo en p80+ de 10 anos.",
+   "amplifica": false,
+   "evidencia": "Accion +93% en 52 semanas, margen op 50.8% vs media 10a 42.9% y p80 45.7%. Usar P/E trailing 40.8x sobre earnings pico seria comprar el espejismo del multiplo. El sistema obliga mid-cycle: OE normalizado ~$9.64 (no $10.64 trailing). Ningun patron P1-P8 genera oportunidad porque no hay miedo ni descuento; hay euforia y prima."
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% ahora. Calidad Nucleo comprable en tesis, pero a este precio NINGUN tramo. Zona de entrada por tramos 3-5% solo si el precio cae a <=$260 (PWFV, empieza a cumplir escalera) y idealmente <=$225 (GANGA que exige el candado HEROICAS + techo 35x sobre OE normalizado). Vigilancia activa en watchlist con alerta -25%/-35% desde maximo.",
+  "ritual": {
+   "frase_tesis": "El mercado NO teme nada de TSM ahora mismo: lo celebra. El error no es de miedo mal dimensionado sino de EUFORIA mal dimensionada — paga 45x owner earnings NORMALIZADOS y 40.8x EPS trailing sobre margenes operativos en pico historico (50.8% vs p80 de 45.7%), descontando ~14% de crecimiento de OE por una decada en una empresa de $2T. La calidad (QG 85.6, ROIC 28% y subiendo, net cash) es real e intacta; el PRECIO descuenta un futuro heroico como si fuera base.",
+   "condicion_oportunidad": "NINGUNA de las 5 condiciones de oportunidad se cumple hoy (no hay panico, ni venta forzada, ni denominador roto a la baja, ni calidad a precio justo). La condicion que aplicaria en el futuro: 'la duracion es el descuento' (P5, moat 20+ anos, via sin crisis solo Nucleo) PERO requiere precio justo, y hoy hay prima del 67%. Ademas la via sin crisis FALLA: FCF yield 1.6% < bono 10Y 4.2% (capex $52-56B/2026 deprime el FCF).",
+   "elemento_falsable": "La tesis de SOBREVALORACION se mata (y pasaria a comprable) si: (a) el precio cae a <=$260 sin deterioro del detector; O (b) los margenes operativos en pico resultan estructuralmente permanentes — evidencia falsable: 8 trimestres consecutivos de margen op >=50% CON ROIC incremental >WACC durante una desaceleracion de capex, lo que elevaria el OE normalizado y bajaria el multiplo real. La tesis de CALIDAD se mataria si el detector marca >=2 senales (perdida de cuota en nodos avanzados a Intel/Samsung, o compresion de margen bruto >300bps/8T)."
+  },
+  "data_confidence": "MEDIUM",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "CDNS",
+  "name": "Cadence Design Systems",
+  "sector": "Software - Electronic Design Automation (EDA)",
+  "exchange": "NASDAQ",
+  "qg_score": 83.2,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 22,
+  "precio_actual": 377.27,
+  "fuente_precio": "Yahoo/Google Finance, cierre intradía 2026-07-02 ($377.27; rango día $370.50-$381.49; MktCap ~$102-103B)",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos REALES crecientes (FY25 +14% a $5.297B; Q1'26 +18.6%; todos los segmentos doble digito), margen operativo EXPANDIENDO (non-GAAP 44.6%->44.7%), ROIC core alto (cash-ROIC 30%+; GAAP-ROIC ~19-20% solo deprimido por goodwill Hexagon, NO por deterioro economico), backlog record $8.0B. Multiplo NO comprimido (79x owner earnings) -> lo contrario de una trampa: accion cara de calidad, no barata en deterioro.",
+   "notas": "0 senales estructurales. (1) ROIC: caida 21%->19% es inflacion del denominador por adquisicion Hexagon (2.7B EUR goodwill), no ROIC incremental<WACC; incremental ROIC del core EDA >> WACC. (2) Cuota: GANANDO cuota en duopolio con Synopsys. (3) Disrupcion: la IA es viento de cola (AgentStack, Super Agent), no sustituto del core. (4) Margen bruto estable ~90%; dilucion Hexagon anunciada/cuantificada/fechada (~$0.28 EPS dilutiva 2026, accretiva 2027). (5) Sin restatements; bate consenso trimestre tras trimestre. (6) Caja neta ~+$0.5B; prestamo Hexagon divulgado y modesto. Detector PASA limpio."
+  },
+  "dcf_inverso": {
+   "veredicto": "HEROICAS",
+   "g_implicita": "~27% CAGR owner earnings 5 anos (con fade a la mitad despues), WACC 8.5%, terminal 3% — necesario para justificar $377 partiendo de owner earnings 2025 de $1.13B ($4.14/accion)",
+   "vs_base_rate": "Para una empresa de ~$100B de capitalizacion, sostener ~27% de crecimiento de owner earnings 5 anos esta en el decil superior de las base rates de Mauboussin por tamano. La guia oficial 2026 (+16-18% ingresos, EPS non-GAAP +10-11% por dilucion Hexagon) queda MUY por debajo de lo implicito. HEROICAS -> +10pp al MoS exigido y activa candado GANGA."
+  },
+  "valor": {
+   "pwfv_valor": 175,
+   "banda_baja": 149,
+   "banda_alta": 198,
+   "owner_earnings_norm": 4.14,
+   "epv": 86
+  },
+  "zona": "BURBUJA",
+  "mos": {
+   "actual_pct": -115.6,
+   "exigido_pct": 35,
+   "cumple": false,
+   "cumple_techo": false,
+   "multiplo_actual": 79,
+   "techo_tier": 30
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": -0.5
+  },
+  "patron": {
+   "aplica": "P5 la duracion es el descuento (moat 20+ anos, calidad extrema) — RELEVANTE como arquetipo pero NO se cumple su condicion",
+   "amplifica": false,
+   "evidencia": "P5 exige 'calidad extrema a PRECIO JUSTO'; aqui el precio es BURBUJA (~2x valor intrinseco), por lo que el patron NO se activa. Los patrones amplifican conviccion, nunca generan la senal ni rescatan un techo de multiplo roto ni una asimetria negativa. Ningun patron aplica para comprar a este precio."
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% hoy. Negocio de altisima calidad (QG 83.2, Alta conviccion) pero a precio de burbuja (~79x owner earnings, 52x EPS non-GAAP, ~116% de premium sobre PWFV). Vigilar y comprar en tramos 3-5% solo si el precio corrige hacia el techo de multiplo del tier (30x owner earnings fwd), zona ~$145-175. Primer tramo defendible si cae a OPORTUNIDAD (~$150 = -15/-25% dcto vs PWFV). Techo de multiplo roto HOY = sin compra a cualquier tamano.\"",
+  "ritual": {
+   "frase_tesis": "El mercado cree que Cadence componra ~27% anual una decada; esta MAL dimensionado al alza porque, aun con el duopolio EDA intacto, backlog record $8B y viento de cola de IA, la guia real 2026 es +16-18% ingresos y +10-11% EPS (dilucion Hexagon), y ninguna empresa de $100B sostiene 27% 5 anos — el precio descuenta perfeccion, no probabilidad.",
+   "condicion_oportunidad": "Comprar solo si el precio cae a ~$145-175 (multiplo <=30x owner earnings fwd y MoS>=25-35%), tipicamente en un drawdown sectorial de semis/software o un trimestre que decepcione la narrativa de IA sin danar fundamentales (herida superficial, franquicia intacta = P1).",
+   "elemento_falsable": "La tesis de sobrevaloracion se REFUTA si Cadence demuestra owner-earnings creciendo sostenidamente >20% (no solo ingresos), con margen operativo expandiendo hacia 48-50% y ROIC core subiendo tras integrar Hexagon; en ese caso el multiplo estaria justificado y habria que revisar el PWFV al alza. Se CONFIRMA si el crecimiento de owner earnings converge hacia el +10-16% de la guia mientras el multiplo se mantiene en 50-80x."
+  },
+  "data_confidence": "HIGH",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "ASML",
+  "name": "ASML Holding N.V.",
+  "sector": "Equipo de Semiconductores (litografia)",
+  "exchange": "NASDAQ",
+  "qg_score": 89.6,
+  "qg_tier": "Nucleo QG",
+  "rank_qg": 2,
+  "precio_actual": 1769.32,
+  "fuente_precio": "stockanalysis.com — cierre NASDAQ 2026-07-02 ($1,769.32; -4.0% en el dia; rango 52s $683-$2,000). Corroborado por Yahoo/Investing (~$1,760-1,844 intradia).",
+  "arquetipo": "ciclico-semis",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos REALES crecientes (+15.6% 2025 a EUR32.7B), margen operativo en expansion (34.5%->36.9%), ROIC 24-27% y subiendo, muy por encima del WACC. Cero deterioro: es lo opuesto a una trampa. La 'senal peak' de valoracion (margen 36.9% > p80 de 10 anos = 36.0%) obliga a normalizar mid-cycle, pero NO es senal estructural del detector.",
+   "notas": "Monopolio de litografia EUV/High-NA (~100% cuota EUV). Balance con caja neta (~EUR10B). Ninguna de las 6 senales estructurales presente. Calidad impecable: el problema es 100% de PRECIO, no de negocio. Backlog EUR38.8B, buyback EUR12B, dividendo +17%."
+  },
+  "dcf_inverso": {
+   "veredicto": "HEROICAS",
+   "g_implicita": "~17.5% anual de owner earnings NORMALIZADOS durante 10 anos (o ~16.3% partiendo de owner earnings 2025 en pico), con WACC 8% y terminal 3%",
+   "vs_base_rate": "El propio modelo 2030 de ASML implica ~8-11% CAGR de ingresos (EUR44-60B a 2030, margen bruto 56-60%). Sostener >13% de crecimiento de owner earnings 10 anos en una mega-cap de >EUR600B es top-decil segun base rates de Mauboussin. 17.5% es materialmente superior al techo estructural razonable -> HEROICAS. Activa candado GANGA (+10pp al MoS exigido)."
+  },
+  "valor": {
+   "pwfv_valor": 741,
+   "banda_baja": 571,
+   "banda_alta": 865,
+   "epv": 381,
+   "owner_earnings_norm": 23.65
+  },
+  "zona": "BURBUJA",
+  "mos": {
+   "actual_pct": -138.8,
+   "exigido_pct": 25,
+   "cumple": false,
+   "cumple_techo": false,
+   "multiplo_actual": 65.4,
+   "techo_tier": 35
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": 0.3
+  },
+  "patron": {
+   "aplica": "P7 (el miedo golpea al peaje equivocado / ciclo memoria) - NO aplica en direccion favorable",
+   "amplifica": false,
+   "evidencia": "Los patrones AMPLIFICAN convicciones de compra; aqui no hay senal de compra que amplificar. Lo contrario de P4 (denominador roto): el denominador esta INFLADO (earnings en pico ciclico), no deprimido. El mercado esta pagando por un supra-ciclo de IA/High-NA ya descontado y mas."
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% (sin posicion nueva). Es un negocio Nucleo QG (89.6/100) que se DEBE tener en la watchlist de maxima prioridad, pero a $1,769 el precio veta la compra. La calidad no autoriza el sobrepago. Zona de interes para iniciar tramo 3-5%: por debajo de ~$770 (PWFV) exigiendo MoS>=25% + candado GANGA por HEROICAS -> entrada objetivo <=$560-620 (banda baja / GANGA). Si ya se posee: SOSTENER (regla de venta Nucleo: solo vender por deterioro de moat, jamas por multiplo caro; el detector esta en verde).",
+  "ritual": {
+   "frase_tesis": "El mercado NO teme nada de ASML: paga por un supra-ciclo de IA + adopcion de High-NA como si el pico ciclico (margen 36.9%, p80 de 10 anos) fuera el nuevo suelo permanente y el crecimiento de ~17.5%/ano de owner earnings durase una decada. Eso esta mal dimensionado al ALZA porque el propio modelo 2030 de ASML implica ~8-11% CAGR de ingresos y ~26% ROIC, no un compounding heroico; a 59x P/E trailing / 65x owner earnings normalizados el precio ya cobro ese escenario dos veces.",
+   "condicion_oportunidad": "Ninguna de las 5 condiciones activa hoy. La aplicable seria 'panico indiscriminado / el miedo golpea al peaje equivocado' (P2/P7): comprar el mejor del sector en un shock de memoria o export-controls a China que hunda el precio hacia PWFV, no en euforia de IA.",
+   "elemento_falsable": "La tesis de SOBREVALORACION se refutaria si: (a) el margen bruto se estabiliza estructuralmente >=57-58% con High-NA a escala Y los ingresos superan sostenidamente EUR50B antes de 2028 (validando que el 'pico' es en realidad piso), o (b) el precio corrige a <=$770 restaurando MoS. La tesis de CALIDAD (no vender) se refutaria si el detector girase a rojo: perdida de cuota EUV, ROIC<WACC 2 anos, o disrupcion real de la litografia — nada de eso ocurre hoy."
+  },
+  "data_confidence": "HIGH",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "PME.AX",
+  "name": "Pro Medicus Limited",
+  "sector": "Software - Imagen medica / Health IT (SaaS radiologia)",
+  "exchange": "ASX",
+  "qg_score": 87.2,
+  "qg_tier": "Nucleo QG",
+  "rank_qg": 8,
+  "precio_actual": 205.93,
+  "fuente_precio": "Google Finance / TradingEconomics, cierre ASX 2026-07-02 (A$205.93; prev close A$202.87; mktcap ~A$21.5B; P/E ~92)",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos REALES crecientes (FY25 +31.9%; H1 FY26 underlying +28.4% rev, +29.7% NPAT excluyendo la ganancia no realizada de A$149M en 4D Medical), margen operativo estable ~74% (record), ROIC ~74% muy por encima del WACC. Cero deterioro: el 'lumpy quarter' de feb-2026 fue timing de implementaciones plurianuales, no perdida de negocio; backlog contratado record (FY25 $520M nuevos incl. Trinity $330M/10a; H1 FY26 $280M+ incl. Colorado $170M; Beth Israel $90M may-26). NECESARIO+SUFICIENTE lado negocio: sin trampa.",
+   "notas": "0 de 6 senales estructurales. (1) ROIC creciente, no en declive. (2) GANA cuota en radiologia US, no la pierde. (3) NO disrupcion: PME ES el disruptor (Visage 7 cloud/AI); indicadores adelantados (bookings/backlog) aceleran. (4) Margen bruto en expansion, no compresion. (5) Contabilidad limpia; ojo unico: el headline NPAT H1 FY26 esta inflado por revaluacion no realizada de 4D Medical (A$149M) - hay que usar el underlying, y el consenso 'recorta' NPAT FY26 solo porque compara contra ese headline no-recurrente, no por deterioro. (6) Caja neta ~A$210M, deuda ~A$2.5M (leases). El unico riesgo real es de VALORACION, no de calidad."
+  },
+  "dcf_inverso": {
+   "veredicto": "HEROICAS",
+   "g_implicita": "~28-32% CAGR de owner earnings sostenido 10 anos (owner earnings norm ~A$1.30/accion; WACC Nucleo 7.5%; terminal 3%). El precio descuenta ejecucion casi perfecta de todo el runway de contratos + ganancia continua de cuota por una decada.",
+   "vs_base_rate": "Muy por encima de base rates de Mauboussin: para una empresa de ~US$14B, sostener >25% una decada lo logra una fraccion minima del universo cotizado. Activa candado GANGA (+10pp al MoS exigido)."
+  },
+  "valor": {
+   "pwfv_valor": 76.73,
+   "banda_baja": 60,
+   "banda_alta": 100,
+   "epv": 14.77,
+   "owner_earnings_norm": 1.3
+  },
+  "zona": "BURBUJA",
+  "mos": {
+   "actual_pct": -168.4,
+   "exigido_pct": 25,
+   "cumple": false,
+   "cumple_techo": false,
+   "multiplo_actual": 158.2,
+   "techo_tier": 35
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": 0.4
+  },
+  "patron": {
+   "aplica": "P5 - la duracion es el descuento",
+   "amplifica": false,
+   "evidencia": "Es exactamente el arquetipo P5 (moat 20+ anos, ROIC extremo, reinversion a tasas altas) — PERO el patron NO amplifica aqui: el mercado YA descuenta la duracion y bastante mas. P5 exige 'calidad extrema a precio justo' (See's 12x, KO 15x, Moody's 20-22x); a 158x owner earnings normalizados PME esta muy por encima incluso del techo de 35x del tier. El patron confirma la CALIDAD del negocio pero refuerza el veto de precio, no lo levanta."
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% hoy (no comprar). Negocio Nucleo-QG comprable en calidad, pero fuera de zona por precio: veto de techo de multiplo (158x vs 35x) + candado GANGA por DCF inverso HEROICO + asimetria <3:1. Watchlist con alerta de compra por debajo de ~A$90-100 (>=15% MoS Nucleo sobre PWFV A$77 = tramo inicial 3%; ampliar solo si panico general lo lleva mas abajo). Regla de venta si ya se posee: SOSTENER (Nucleo se vende solo por deterioro de moat, jamas por multiplo caro).",
+  "ritual": {
+   "frase_tesis": "El mercado teme que un 'trimestre grumoso' (feb-2026, -24%) senalara un negocio roto; ese miedo esta BIEN dimensionado como no-tesis (fue timing de implementaciones, el backlog es record) — pero el precio de recuperacion a A$206 vuelve a incorporar crecimiento HEROICO (~30%/10a) que ni el mejor caso justifica. No hay margen: se paga hoy ~2.7x el valor intrinseco.",
+   "condicion_oportunidad": "Ninguna de las 5 condiciones activa hoy. La unica via seria una condicion 'panico general / vendedor forzado' que devuelva el precio a zona: PWFV A$77 = techo comprable ~A$65-77 (MoS>=15% Nucleo). Incluso el minimo de 52s (A$107.75) sigue ~40% por encima del valor. Vigilar por debajo de ~A$90-100.",
+   "elemento_falsable": "Mata la tesis de sobrevaloracion (= justifica el precio) si: (a) el crecimiento de ingresos ORGANICOS se re-acelera y SOSTIENE >30% varios anos con expansion de margen, elevando owner earnings normalizados hacia A$2.5-3/accion; o (b) el TAM/penetracion se expande materialmente (nuevos verticales AI/cardiologia via 4D Medical/EchoIQ monetizando de verdad). Mata la tesis de CALIDAD (activa detector) si: ROIC<WACC 2 anos, o perdida de un cliente ancla top-5 sin reemplazo, o margen operativo cae >200bps multianual."
+  },
+  "data_confidence": "MEDIUM",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "6146.T",
+  "name": "Disco Corporation",
+  "sector": "Semiconductores - equipamiento (back-end: corte/dicing, rectificado/grinding, pulido)",
+  "exchange": "TSE (Tokyo Stock Exchange)",
+  "qg_score": 82.4,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 32,
+  "precio_actual": 76860,
+  "fuente_precio": "stockanalysis.com, cierre 2026-07-02 15:30 JST (76,860 JPY; -9.06% intradia). Cross-check Yahoo/Google Finance 1-jul 84,520 JPY.",
+  "arquetipo": "ciclico-semis",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [],
+   "test_decisivo": "Ingresos organicos, margen operativo y ROIC CRECIENTES ultimos 4-8 trimestres (rev +11.5% 9M FY26, op margin 36%->42% en 5 anos, ROIC 45%). Negocio superior, sin deterioro. El test confirma que NO es trampa de valor: es lo contrario, calidad extrema a precio de burbuja.",
+   "notas": "0/6 senales. (1) ROIC 45% y en ascenso, no en declive. (2) Cuota ~70-80% en dicing/grinding estable/creciente mientras el mercado crece. (3) DISCO ES el habilitador de HBM/advanced packaging (viento de cola IA), no el disruptido. (4) Margen bruto SUBE 60.7%->70.2%, no comprime. (5) Filings japoneses limpios, consenso al alza, sin restatements. (6) Caja neta 284.6bn JPY, deuda cero, equity ratio ~80%."
+  },
+  "dcf_inverso": {
+   "veredicto": "HEROICAS",
+   "g_implicita": "~23% anual de owner earnings NORMALIZADOS durante 10 anos (o ~15%+ incluso sobre earnings PICO actuales). El precio exige crecimiento perpetuo extraordinario partiendo de margenes ya en maximo historico.",
+   "vs_base_rate": "Base rate Mauboussin para una empresa de ~8.3tn JPY de capitalizacion: crecimiento sostenible de dobles digitos altos es percentil superior y raro >5-7 anos; 23% perpetuo sobre earnings normalizados carece de soporte estructural. HEROICAS -> +10pp al MoS exigido Y activa candado GANGA."
+  },
+  "valor": {
+   "pwfv_valor": 24635,
+   "banda_baja": 19428,
+   "banda_alta": 31307,
+   "epv": 13042,
+   "owner_earnings_norm": 886
+  },
+  "zona": "BURBUJA",
+  "mos": {
+   "actual_pct": -212,
+   "exigido_pct": 35,
+   "cumple": false,
+   "cumple_techo": false,
+   "multiplo_actual": 86.8,
+   "techo_tier": 30
+  },
+  "asimetria": {
+   "pasa": false,
+   "ratio": -0.82
+  },
+  "patron": {
+   "aplica": "P5 invertido / anti-Templeton'39",
+   "amplifica": false,
+   "evidencia": "Es el caso 'la duracion es el descuento' pero SIN el descuento: moat de 20+ anos y calidad extrema, pero NO a precio justo sino a ~212% de premium sobre valor normalizado. Munger/Graham-GEICO y Templeton'39: sobrepagar calidad excepcional destruye retorno aunque el negocio sea impecable. Ningun patron amplifica una compra aqui."
+  },
+  "veredicto_final": "ESPERAR",
+  "veredicto_original": null,
+  "tamano_sugerido": "0% ahora. Vigilar para tramo 3-4% del NAV solo si el precio cae hacia la banda de valor (~19,000-25,000 JPY) o si un valle ciclico deprime earnings con causa caducable (patron P4 denominador roto). Regla de venta Alta conviccion: si ya se poseyera, NO vender por multiplo caro salvo deterioro de moat (detector en rojo) — pero como entrada nueva, el precio veta la compra.",
+  "ritual": {
+   "frase_tesis": "El mercado NO teme nada aqui; extrapola el super-ciclo de IA/HBM a perpetuidad. La tesis alcista esta mal dimensionada porque margenes operativos de 42% son un PICO (>p80 de 10 anos; media ~30%) y el precio ya descuenta ~23% de crecimiento perpetuo de earnings normalizados, sin base rate que lo sostenga.",
+   "condicion_oportunidad": "Ninguna de las 5 condiciones de oportunidad aplica: no hay panico, ni herida superficial, ni vendedor forzado, ni denominador roto, ni via sin crisis (FCF yield 1.18% << bono 10Y). Es simplemente un gran negocio caro.",
+   "elemento_falsable": "La tesis de sobrevaloracion se refutaria si: (a) el margen operativo de ~42% demuestra ser el nuevo suelo estructural sostenido >=8 trimestres a traves de un valle ciclico completo (no solo en el pico de demanda IA), reseteando al alza los earnings normalizados; O (b) el precio cae hacia 19,000-25,000 JPY, restaurando MoS>=35% sobre valor normalizado. Vigilar resultados del 23-jul-2026 y la guia FY27."
+  },
+  "data_confidence": "MEDIUM",
+  "degradada": false,
+  "verify": null,
+  "verify_note": null
+ },
+ {
+  "ticker": "AUTO.L",
+  "name": "Auto Trader Group plc",
+  "sector": "Marketplace / Automotive Classifieds & Data Platform",
+  "exchange": "London LSE",
+  "qg_score": 82.4,
+  "qg_tier": "Alta conviccion",
+  "rank_qg": 31,
+  "precio_actual": 510.8,
+  "fuente_precio": "stockanalysis.com + marketbeat.com, 510.80 GBX intradía 2026-07-02 (corroborado por 2 fuentes; descartadas lecturas stale de 439/459p)",
+  "arquetipo": "compounder",
+  "detector": {
+   "veredicto": "PASA",
+   "senales_estructurales": [
+    "ROIC declive secular: NO — ROIC 40% (con goodwill) a ~60% (ex-goodwill), estable/creciente, ROIC incremental >> WACC",
+    "Perdida de cuota: NO — ingresos +4% FY26 y guia retailer +5-7% FY27 mientras gana cuota de audiencia (75% de los minutos, 6x todos los competidores juntos, >10x el segundo)",
+    "Disrupcion del modelo (IA agentica): fear LIVE pero REFUTADO por indicadores adelantados — audiencia 6x y creciendo, 2/3 de compradores lo usan en exclusiva, ARPR aun +5%; narrativa, no fundamentales",
+    "Compresion margen bruto >300bps/8T: NO — margen operativo estable ~70% core / ~63% grupo",
+    "Contabilidad cuestionada: NO restatements; solo AMBAR SUAVE — 3T de recortes de consenso EPS FY+1 (fair value analistas £6.54->£5.84, Jefferies 10%->guia 5-7%), pero reflejan reset de guidance, no brecha ajustado-reportado",
+    "Deuda opaca creciente: NO — leverage 0.3x, deuda dibujada deliberadamente para recompras (58.5m acc, 6.6%), margenes subiendo"
+   ],
+   "test_decisivo": "Ingresos organicos reales CRECIENTES (+4% FY26, guia +5-7% retailer FY27), margen operativo ESTABLE ~70% core, ROIC ALTO y estable 40-60%, con multiplo COMPRIMIDO a ~15x FCF (P/E 14.9) => mispricing por miedo, no deterioro. Indicadores adelantados de disrupcion (share de audiencia, exclusividad, engagement) MEJORAN, no se degradan",
+   "notas": "0 senales estructurales confirmadas (la #3 disrupcion es narrativa refutada por leading indicators; la #5 es un unico ambar suave de recortes de consenso). Ante sospecha de disrupcion se corre con indicadores ADELANTADOS: audiencia 75% de minutos y creciente, 6x competidores, 2/3 compradores exclusivos => franquicia intacta. Caida ~40% desde 844p es re-rating de multiplo, no colapso de fundamentales"
+  },
+  "dcf_inverso": {
+   "veredicto": "BAJAS",
+   "g_implicita": "~0.0-0.1% crecimiento real de owner earnings a 10 años (reverse DCF, WACC 8.5%, g terminal 3%); g perpetua implicita Gordon ~1.8%. El precio de HOY descuenta CRECIMIENTO CASI NULO durante una decada",
+   "vs_base_rate": "HEROICAMENTE BAJAS: para un negocio con ROIC 40-60%, moat 6x, guia retailer +5-7% y recompra del 6.6%/año, ~0% de crecimiento owner-earnings esta MUY por debajo de la base rate de Mauboussin para compounders mid-cap (mediana ~7-10%). No activa candado GANGA (expectativas bajas, no heroicas); el mercado paga como si el negocio estuviese en declive terminal"
+  },
+  "valor": {
+   "pwfv_valor": 794,
+   "banda_baja": 651,
+   "banda_alta": 959,
+   "owner_earnings_norm": 34.36,
+   "epv": 386
+  },
+  "zona": "GANGA FUERTE",
+  "mos": {
+   "actual_pct": 35.7,
+   "exigido_pct": 25,
+   "cumple": true,
+   "multiplo_actual": 14.9,
+   "techo_tier": 30,
+   "cumple_techo": true
+  },
+  "asimetria": {
+   "pasa": true,
+   "ratio": 3.59
+  },
+  "patron": {
+   "aplica": "P1 (herida superficial, franquicia intacta) + P7 (el miedo golpea al peaje equivocado)",
+   "evidencia": "Divergencia precio/franquicia: accion -40% desde 844p y consenso EPS FY+1 recortado, PERO fundamentales (ingresos +4%, ARPR +5%, margen 70%, ROIC 40-60%, audiencia 75% y creciente) intactos. El miedo a la desintermediacion por IA agentica golpea el peaje equivocado: Auto Trader es el agregador dominante que la IA debera consultar, no la victima. Componente autoinfligido (cambio de monetizacion de Deal Builder) => sesga a entrada en tramos",
+   "amplifica": true
+  },
+  "veredicto_final": "VIGILAR",
+  "veredicto_original": "COMPRAR TRAMO",
+  "tamano_sugerido": "Tramo inicial 3-4% (Alta conviccion). Reservar 2-3% para promediar si re-testea banda 418-470p (52-sem low 418.6p) o al confirmarse pico de recorte de consenso. Tope de posicion ~6-7% por el unico ambar suave (recortes de consenso) y el overhang narrativo de IA. Entrada escalonada por el componente autoinfligido (Deal Builder).",
+  "ritual": {
+   "frase_tesis": "El mercado teme que la IA agentica desintermedie el marketplace de coches; ese miedo esta mal dimensionado porque los indicadores ADELANTADOS lo refutan — Auto Trader acumula 75% de todos los minutos del sector, 6x el tiempo de TODOS sus competidores juntos, y 2/3 de los compradores lo usan en exclusiva; es el agregador que cualquier agente de IA tendra que consultar, no su victima. A 15x FCF el precio descuenta ~0% de crecimiento a 10 anos para un negocio con ROIC 40-60% que guia +5-7% y recompra 6.6%/ano.",
+   "condicion_oportunidad": "GANGA FUERTE: 35.7% de descuento sobre PWFV 794p, MoS>25% del tier, multiplo 14.9x muy por debajo del techo 30x, y precio 24% por debajo incluso del bear-DCF (672p). FCF yield 6.7% > bono 10Y; FCF yield + crecimiento sostenible ~12%.",
+   "elemento_falsable": "La tesis se ROMPE (pasa a trampa) si en 2-4 trimestres: (a) el share de audiencia/minutos cae de forma sostenida hacia rivales o agentes de IA que capturen la transaccion aguas arriba; (b) los retailers caen >5% anual (no el -1/-2% ciclico guiado) senalando huida estructural; (c) ARPR se vuelve negativo multi-trimestre por perdida de poder de fijacion de precios; o (d) el margen operativo core cae >200bps multianual. Cualquiera = deterioro estructural, revender."
+  },
+  "data_confidence": "MEDIUM",
+  "degradada": false,
+  "verify": "CORREGIR",
+  "verify_note": "PRECIO: CONFIRMADO 510.80p (stockanalysis.com + marketbeat.com, ambos 2026-07-02, 52-sem 418.6-844.4 -> cerca de minimos, -38% en 12m). El MoS 35.7% vs PWFV 794 es aritmeticamente consistente; el precio NO es el error.\n\nDONDE SE CAE EL \"COMPRAR TRAMO\": el detector no PASA limpio. Senal #5 (contabilidad/consenso) esta LITERALMENTE gatillada: la propia ficha admite \"3T de recortes de consenso EPS FY+1\", que es exactamente el umbral estructural de la regla (3+ trimestres consecutivos de recortes FY+1); la ficha la rebaja a \"AMBAR SUAVE\" argumentando que es \"reset de guidance, no brecha ajustado-vs-reportado\", pero la clausula de consenso es independiente de la brecha contable y esta cumplida. Confirmacion en vivo: FY26 revenue Y operating profit AMBOS por debajo del consenso compilado; Jefferies Buy->Hold, target 895->650p (-27%); Citi avisa ARPR FY27 por debajo de consenso por \"weaker stock lever\"; rating de consenso ahora = REDUCE (target ~553-582p, un 27% por DEBAJO del PWFV 794). => Senal #5 = 1 senal estructural viva => detector pasa de PASA a GRIS.\n\nSenal #3 (disrupcion) tampoco se puede cerrar a \"NO\" limpio: la palanca de precio (Deal Builder, el \"tent-pole\" del pricing event abril-2026) tiene modelo de monetizacion roto (dealers auto-opted-in, walk-back) y ARPR guiado por DEBAJO de consenso. El test manda resolver disrupcion con indicadores ADELANTADOS: el indicador adelantado de pricing power (palanca ARPR) YA se esta doblando -> resuelve en contra del alcista, no a favor.\n\nREGLAS GRIS: comprable solo con MoS>=40% + tramo max 3% + test decisivo POSITIVO. Falla en los tres: (1) MoS reclamado 35.7% < piso GRIS 40%; (2) test decisivo NEGATIVO -> ingresos organicos +4% y DECELERANDO (consenso 3A fwd 4.7%), operating profit MISS, ARPR guiado a la baja: la compresion de multiplo esta JUSTIFICADA por fundamentales, no es mispricing (margen/ROIC estables ~63/70% y ROIC ~45-49% son lo unico solido). (3) El PWFV 794 depende de ~5% de crecimiento de owner earnings + accrecion por recompra; mi reverse DCF a WACC 8.5% muestra que 510.80p YA descuenta ~4-5%, es decir el MoS real es mas fino que 35.7% una vez ajustas el PWFV por el reset de guidance.\n\nCONCLUSION: el buy no resiste. Detector -> GRIS; MoS bajo el piso GRIS; test decisivo negativo (deceleracion con compresion justificada). No es trampa estructural dura (ROIC alto, sin deuda opaca, sin restatements, sin perdida de cuota real), por eso NO es VETO-TRAMPA ni ESPERAR pasivo. Accion correcta: VIGILAR -> negocio de calidad genuina en re-rating, esperar el resultado del pricing event/ARPR para confirmar si el pricing power se estabiliza; reconsiderar tramo solo si (a) MoS>=40% (precio hacia ~475p o PWFV recortado sube el descuento) o (b) ARPR/organico reacelera y frenan los recortes de consenso."
+ }
+]

@@ -1,0 +1,48 @@
+{
+ "ticker": "MSFT",
+ "name": "Microsoft Corporation",
+ "currency": "USD",
+ "price_verified": 367.34,
+ "price_source": "StockAnalysis.com quote (close 6/22/2026), cross-checked vs Microsoft IR + 10-Q Q3 FY2026 diluted share count",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 7.445,
+ "implied_mcap_b_usd": 2735,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 9,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.95,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "FY2025 reported FCF $71.611B minus 100% SBC ($11.974B) = $59.637B owner FCF ($8.01/diluted share). NOTE: owner FCF is temporarily depressed by the ~$190B AI capex ramp (FY25 capex $64.6B, FY26 trajectory >$190B), so the raw owner-FCF base under-states normalized cash earnings power.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 207.33,
+   "prob": 0.38,
+   "note": "Phase1 CAGR 10%, Phase2 declining to ~3%, g_term 3.0%. Reasonable-pessimistic: AI capex stays elevated longer, Azure growth normalizes toward ~25%, margins stay compressed ~44%. NOT apocalyptic."
+  },
+  "base": {
+   "iv_per_share": 276.33,
+   "prob": 0.47,
+   "note": "Phase1 CAGR 14% (Azure +40% cc decelerating, M365 Copilot monetization), Phase2 declining to 3.5%, g_term 3.5%. Capex moderates after FY26-27 peak, FCF re-expands."
+  },
+  "optimista": {
+   "iv_per_share": 343.64,
+   "prob": 0.15,
+   "note": "Phase1 CAGR 18% (AI run-rate compounding from $37B +123%, RPO $627B converts, capex digestion lifts FCF margins), Phase2 declining to 3.5%, g_term 3.5%."
+  }
+ },
+ "iv_dcf_weighted": 260.21,
+ "multiple_metric": "Forward P/E on NTM GAAP EPS",
+ "fwd_multiple_now": 20.52,
+ "fwd_multiple_5y_avg": 30,
+ "fair_multiple": 27,
+ "multiple_rationale": "5y avg forward P/E ~30x (historical fwd range 28-33x; trailing P/E ranged 26.5x in 2022 to 38.5x in 2024 per Macrotrends). Applied a ~10% haircut to 27x for genuine near-term pressure: heavy AI capex ramp (~$190B) compressing FCF and op margin guided down to ~44% — but this is a reinvestment/capex-cycle headwind, NOT structural deterioration (Azure +40% cc, AI run-rate +123%, RPO $627B). iv_multiple = NTM GAAP EPS ~$17.90 (implied by reported fwd P/E 20.52 at $367.34) x 27 = $483.30.",
+ "iv_multiple": 483.3,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 394.06,
+ "structural_change": "None negative. MSFT is in a heavy AI-capex reinvestment phase that temporarily depresses FCF and op margin (guided ~44% vs 46.3% in Q3), but the franchise is ACCELERATING, not deteriorating: rev +18% YoY, Azure +40% cc, AI run-rate $37B +123% YoY, RPO $627B, net-cash balance sheet (~$21.3B), low SBC dilution (16.7% of FCF). Classified as fear_rotation / multiple de-rating, not impairment. Modest fair-multiple haircut applied for capex-cycle uncertainty.",
+ "sanity_notes": "Price $367.34 re-verified (StockAnalysis.com). Diluted shares 7.445B from 10-Q Q3 FY2026 weighted-avg diluted (9-mo avg 7.457B). Implied mcap = 367.34 x 7.445 = $2,735B, matches reported ~$2.73T -> mcap_sanity_ok=TRUE. Reconciled IV $394 = 1.07x price, well inside the 0.3-3.0x magnitude band. Pure-DCF ($260) sits below price because current owner FCF is artificially suppressed by the $190B capex ramp (DCF under-credits high-ROIC reinvestment, as the framework warns) -> deliberately weighted toward the normalized multiple anchor (0.40/0.60), tempered from the 0.35/0.65 stable-compounder default given near-term capex/margin uncertainty. WACC 9.0% (Rf 4.3% US + 5.0% ERP x 0.95 beta). Net cash +$21.3B added to DCF equity value. Verdict: roughly fairly valued to modestly undervalued (~7% upside to reconciled IV); de-rating from ~30x to ~20.5x fwd P/E is the opportunity if capex digests and FCF re-expands."
+}

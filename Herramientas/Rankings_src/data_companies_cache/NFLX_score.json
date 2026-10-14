@@ -1,0 +1,59 @@
+{
+ "ticker": "NFLX",
+ "name": "Netflix, Inc.",
+ "rules": {
+  "R1": {
+   "score": 2,
+   "just": "Modelo de streaming puro con apalancamiento operativo monstruoso: margen operativo expandio de 29.5% (FY25) a guia 31.5% (FY26) y a 32.3% en Q1'26 mientras ingresos crecen +16%, coste marginal por suscriptor cercano a cero."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Streaming/entretenimiento por internet sigue en crecimiento secular global (penetracion, ads tier, password-sharing monetizado), aunque madurez en mercados core y competencia short-form limitan el techo."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Lider #1 indiscutible en streaming SVOD por suscriptores, ingresos y engagement, a anios-luz del 2o; escala global (~$45B ingresos) que ningun rival de streaming puro iguala en rentabilidad."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat solido por escala de contenido + datos de recomendacion + marca global + ventaja de coste por suscriptor, pero NO irreplicable en decadas: Disney/Amazon/YouTube compiten y el contenido es un activo perecedero que exige reinversion continua."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento 100% organico (+15.9% FY25, +16.2% Q1'26 reportado/+14% FX-neutral) sin depender de M&A; de hecho RETIRO la puja por Warner Bros., disciplina favorable, sin penalizacion."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Diversificacion geografica fuerte (4 regiones UCAN/EMEA/LATAM/APAC, ningun cliente concentrado por modelo B2C de millones de suscriptores), aunque ingreso es mono-producto (suscripcion de video, ads aun emergente ~$3B)."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC ~23% muy por encima del WACC, FCF $9.46B (margen 20.9%) con FCF/NI saludable y guia FCF ~$12.5B FY26; intensidad de contenido alta pero ROIC elevado no penaliza."
+  },
+  "R8": {
+   "score": 1,
+   "just": "Balance solido pero con LIGERA deuda neta ($2.12B, ND/EBITDA ~0.15x), NO caja neta; apalancamiento minimo y plenamente manejable pero no merece nota superior por ausencia de net cash."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "Contabilidad limpia y conservadora: SBC verificada MUY baja en ~1.8% de ingresos y ~8.7% del FCF (FY25), muy por debajo del umbral del 15%; EPS GAAP Q1 inflado por comision WBD pero claramente senalado por la propia compania."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Gestion disciplinada: retiro de la puja por Warner Bros. evitando M&A destructiva, recompras oportunistas, ejecucion consistente de margenes y guia; gobierno solido aunque sin gran skin-in-the-game fundacional residual."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (apalancamiento operativo de software/red, margenes expandiendo con volumen) + R3 (liderazgo #1 SVOD a anios-luz) + R4 (escala de contenido + datos + marca) se refuerzan: la escala alimenta presupuesto de contenido superior, que mejora retencion y datos, que financia mas contenido a coste marginal decreciente — un flywheel que el lider monetiza con margenes crecientes inaccesibles para rivales subescala.",
+ "moat_one_line": "Escala global de contenido y datos de recomendacion + marca lider que crea un flywheel de coste por suscriptor decreciente que ningun rival de streaming puro iguala en rentabilidad.",
+ "moat_type": "escala/red + intangibles (marca + datos)",
+ "thesis_3lines": [
+  "Calidad: lider #1 absoluto en streaming con ROIC ~23%, margenes operativos expandiendo (29.5%->31.5%+) y SBC trivial (~9% del FCF), un modelo de red con apalancamiento operativo real.",
+  "Motor de crecimiento: ingresos organicos +16% impulsados por nuevos tiers, monetizacion de password-sharing y publicidad escalando a ~$3B (x2 YoY), con FCF guiado a ~$12.5B FY26.",
+  "Valoracion/retorno: fwd P/E ~21.9 frente a su media 5a de ~43 (descuento ~-49%) y PEG ~1.05 tras una caida de -46% por miedo competitivo/de-rating, no por deterioro de fundamentales."
+ ],
+ "bear_case_strongest": "El contenido es un activo perecedero que exige reinversion perpetua de decenas de miles de millones, y la competencia estructural por atencion (YouTube/TikTok short-form, FAST gratuito, Disney/Amazon con balances mas profundos y el nuevo Paramount-Skydance/WBD combinado) puede erosionar pricing power y retencion, convirtiendo el flywheel en una carrera armamentista de gasto que comprime el ROIC justo cuando el multiplo ya descontaba durabilidad premium.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Score total re-puntuado = 16.0 sobre techo nominal 13.5 — EXCEDE el techo porque las amplificaciones a 2.0 en R1/R3/R4 (permitidas por dominancia monstruosa) y los 1.5 generalizados elevan la suma; refleja calidad de primer cuartil. La caida -46% es FEAR_ROTATION/de-rating de multiplo con sesgo mixed (preocupacion competitiva genuina por short-form/FAST y saga M&A fallida), pero SIN deterioro de numeros: ingresos +16%, margenes expandiendo, guia FY mantenida, FCF subido a ~$12.5B. Matiz importante: EPS GAAP Q1'26 $1.23 y FCF Q1 $5.09B estan inflados por la comision de ruptura WBD de ~$2.8B (EPS subyacente ~$0.76); usar cifras subyacentes. R8 limitado a 1.0 por ser ligera deuda neta y no caja neta. Campos de valoracion (P/E, market cap, ROIC, ND/EBITDA) son ESTIMADOS de agregadores, no fuente primaria."
+}

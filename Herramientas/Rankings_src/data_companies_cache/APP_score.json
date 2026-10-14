@@ -1,0 +1,59 @@
+{
+ "ticker": "APP",
+ "name": "AppLovin Corporation",
+ "rules": {
+  "R1": {
+   "score": 2,
+   "just": "Pure-play AI ad engine (AXON) where each incremental advertiser/impression feeds the model at ~zero marginal cost — 78.2% op margin and 72.1% FCF margin prove monstrous operating leverage that improves with volume."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Mobile/programmatic and now web/e-commerce performance advertising is a large, secularly growing pool, and AI-driven targeting is a clear share-gainer — durable secular tailwind."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Clear #1 in mobile in-app performance advertising with AXON delivering ROAS rivals (Unity, ironSource legacy) cannot match, but web/e-commerce push still faces Meta/Google scale, so not 2.0."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat is a self-reinforcing data/algorithm flywheel plus advertiser switching costs from proven ROAS; strong and widening but AI edges are less century-durable than a brand/network, so 1.5 not 2.0."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "FY2025 +70% and Q1'26 +59% growth is essentially organic engine-driven (post-Apps divestiture = cleaner continuing ops), with M&A used to shed rather than buy revenue."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Diversified across thousands of advertisers with no disclosed >10% customer and multi-geography reach, though revenue concentrated in a single product line (ad engine) and historically gaming verticals."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "Asset-light model throwing ~$4.0B FCF on $5.5B revenue (FCF/NI well above 80%), minimal capex, implied ROIC far above WACC on ~$4.15B operating income — elite capital efficiency."
+  },
+  "R8": {
+   "score": 1,
+   "just": "~$1.09B net debt with ND/EBITDA ~0.24x against ~$4.5B Adj. EBITDA is negligible leverage, well under the 2x bar, but it is net debt not net cash so not above base."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "SBC exceptionally low for software at ~3.8% of revenue and only ~5.3% of FCF (far below the 15% hard-rule threshold), with clean GAAP profitability and audited 10-K — superior accounting quality."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Founder-led with skin-in-the-game and shareholder-friendly capital allocation ($1B buyback in Q1), though lingering short-seller scrutiny on ad-attribution practices tempers the score."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (infinitely scalable AI ad engine), R3 (#1 in mobile performance advertising) and R4 (self-reinforcing data/algorithm flywheel) reinforce monstrously: more advertisers and spend feed AXON, improving ROAS, attracting more spend at ~zero marginal cost — a compounding loop visible in 78% op margins and accelerating 59-70% growth at a $5.5B revenue base.",
+ "moat_one_line": "Self-reinforcing AI ad-engine (AXON) data flywheel: superior ROAS attracts ad spend, which further trains the model, compounding the advantage at near-zero marginal cost.",
+ "moat_type": "network/intangibles",
+ "thesis_3lines": [
+  "Calidad: motor publicitario de IA puro (AXON) con apalancamiento operativo monstruoso — 78% margen operativo, 72% margen FCF, ~$4.0B FCF y SBC minimo (~5% del FCF), capital-light con ROIC muy superior al WACC.",
+  "Motor de crecimiento: flywheel de datos auto-reforzante que acelera (FY25 +70%, Q1'26 +59%) con expansion hacia web/e-commerce ampliando el mercado direccionable mas alla del gaming movil.",
+  "Valoracion/retorno: ~27x fwd P/E con PEG ~0.73 y ~37% por debajo de maximos pese a fundamentales ACELERANDO — castigo por rotacion/de-rating, no por deterioro del negocio."
+ ],
+ "bear_case_strongest": "El crecimiento y los margenes dependen de una caja negra algoritmica (AXON) cuya atribucion ha sido cuestionada por vendedores en corto, y un cambio en politicas de privacidad de plataformas (Apple/Google) o una caida en la eficacia del modelo podria desacelerar bruscamente lo que hoy parece imparable.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Total ponderado = 14.0/13.5 (techo excedido por amplificacion R1+R3+R4). R8 limitado a 1.0 por ser deuda neta (~$1.09B), no caja neta, aunque ND/EBITDA ~0.24x es trivial. R7 sin ROIC explicito pero claramente elite por modelo capital-light. SBC verificada en 5.3% del FCF -> regla dura NO aplica, R9 supera base. Principal riesgo no-fundamental: escrutinio de short-sellers sobre atribucion publicitaria y dependencia de politicas de privacidad de plataformas."
+}

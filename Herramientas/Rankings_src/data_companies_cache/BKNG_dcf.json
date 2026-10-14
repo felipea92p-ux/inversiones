@@ -1,0 +1,41 @@
+{
+ "ticker": "BKNG",
+ "currency": "USD",
+ "current_price": 167.77,
+ "wacc_pct": 10.55,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.25,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = FCF reportado FY2025 ($9.1B) menos 100% de la SBC ($0.617B, 2.3% de ingresos) = ~$8.48B. Margen owner-FCF ~31.5% sobre ingresos de $26.9B (vs 33.8% margen FCF reportado). SBC muy baja (6.8% del FCF), por lo que el ajuste a owner earnings es leve y BKNG sigue siendo una fuerte maquina de caja.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 9,
+  "rev_cagr_y6_10_pct": 6.5,
+  "fcf_margin_terminal_pct": 33,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC ($617M, 2.3% rev) tratada como gasto en efectivo; restada del FCF reportado para llegar al owner FCF base de ~$8.48B",
+  "shares_diluted_b": 0.775,
+  "net_debt_usd_b": 2.83
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 170.85,
+   "prob": 0.35,
+   "note": "CAGR ingresos y1-5 ~6% (desaceleracion de room nights persiste por conflicto Oriente Medio y comparables duros, pero sin recesion de viajes), sin expansion de margen, fase 2 declina 5.5%->3.5%, g terminal 2.75%. IV ~$171, esencialmente en linea con el precio: el mercado ya descuenta este escenario de miedo."
+  },
+  "base": {
+   "iv_per_share": 215.67,
+   "prob": 0.48,
+   "note": "CAGR ingresos y1-5 ~9% (consistente con crecimiento organico 13% FY25 normalizandose hacia guia de alto digito simple), leve expansion de margen (~0.5pp/ano via mix Connected Trip, alt-accommodations y publicidad), fase 2 declina 8.5%->4.5%, g terminal 3.0% (foso de red/escala). Upside ~29%."
+  },
+  "optimista": {
+   "iv_per_share": 267.32,
+   "prob": 0.17,
+   "note": "Ejecucion perfecta: CAGR ingresos y1-5 ~12% (cuota ganada a OTAs y agencias, Genius/AI Trip Planner, pagos y publicidad escalan), margen +0.75pp/ano, fase 2 declina 11%->5.5%, g terminal 3.25%. Upside ~59%."
+  }
+ },
+ "sanity_check": "Owner FCF yield = $8.48B / $130B mktcap = 6.5% (FCF reportado 7.0%) — atractivo para un compounder de calidad. fwd P/E 15.6x vs media historica de P/E adelantado ~20x (descuento ~-22%); PEG 0.98. Rendimiento total al accionista (recompra ~$6.5B + dividendo ~$1.4B = ~$7.9B/ano) ~6.1% sobre el mktcap; sumado a crecimiento de FCF/accion de digito doble bajo (amplificado por reduccion de acciones), implica retorno esperado del accionista de doble digito, coherente con la IV base. La IV ponderada por probabilidad (~$209) esta ~25% sobre el precio. Caida de -28% clasificada como fear_rotation, no deterioro: fundamentales intactos (ingresos +16% Q1, FCF +15%, EBITDA adj margen estable). BKNG no es red de pago ni rating; el DCF de owner earnings es plenamente valido (sin DDM).",
+ "method_notes": "DCF de owner earnings a 10 anos en dos fases. Base owner FCF = FCF reportado FY2025 $9.1B menos 100% SBC $0.617B = $8.48B. Fase 1 (anos 1-5): el owner FCF crece con el CAGR de ingresos del escenario mas un leve drift de margen. Fase 2 (anos 6-10): CAGR declinante linealmente hacia normalizacion. Valor terminal por Gordon sobre el flujo del ano 10 con g=2.75-3.25% segun foso (red de dos lados, escala global, ventaja de datos/marca = foso amplio, justifica el extremo alto del rango). Descuento al WACC = Rf 4.3% (UST 10Y, empresa US) + ERP 5.0% x beta 1.25 (sector OTA/plataformas de viajes online, beta levemente >1 por ciclicidad de viajes) = 10.55%; sin ajuste geopolitico (no Taiwan). VI/accion = (PV de flujos + PV del valor terminal - deuda neta $2.83B) / 0.775B acciones diluidas (mktcap $130B / precio $167.77; post split 25:1 efectivo abr-2026). El PV del valor terminal representa ~54% del EV en el caso base, razonable para un negocio de larga duracion con foso. Probabilidades: conservador 0.35 + base 0.48 + optimista 0.17 = 1.00. Todos los inputs (precio, FCF, SBC, deuda neta, ingresos) tomados de los datos verificados de FASE 2 (BKNG.json); beta estimada del sector. Moneda USD."
+}

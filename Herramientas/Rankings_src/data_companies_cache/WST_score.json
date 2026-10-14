@@ -1,0 +1,59 @@
+{
+ "ticker": "WST",
+ "name": "West Pharmaceutical Services, Inc.",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Manufactura de elastomeros (no software), pero el mix hacia componentes de alto valor da apalancamiento operativo real: margen op. ajustado +350pb a 21.4% en Q1 2026; escalable pero no margenes-de-red."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Viento secular durable: biologicos/GLP-1/inyectables en expansion estructural exigen contencion de alto rendimiento, guia FY2026 de crecimiento organico 7%-9% confirma demanda subyacente."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Lider #1 indiscutible en componentes de contencion para inyectables con cuota dominante, escala de fabricacion y validacion regulatoria que el 2o no replica facilmente."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat irreplicable en decadas: sus stoppers/plungers se especifican dentro del dossier regulatorio (FDA/EMA) del farmaco, cambiar de proveedor obliga a re-validar y re-filar — costes de cambio extremos x componente de bajo coste/alto riesgo."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento genuinamente organico: FY2025 +4.3% organico y Q1 2026 +15.3% organico, sin dependencia de M&A (de hecho desinvierte SmartDose), motor de volumen propio."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Multi-geografia y base amplia de clientes farma/biotech (ningun cliente domina), aunque concentrada en un unico vertical (contencion/entrega de inyectables)."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC 17.8% muy por encima del WACC y conversion FCF/NI excelente (468.9/493.7 = 95%); intensidad de capital inherente compensada por retornos altos y caja neta."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Balance fortaleza: caja neta +$200M (caja $521M vs deuda $321M), ND/EBITDA -0.23x — practicamente sin apalancamiento."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "Contabilidad limpia con SBC VERIFICADA muy baja: $23.8M = 0.77% de ingresos y 5.08% del FCF (<<15%), dilucion minima; fuentes primarias SEC EDGAR/XBRL."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Asignacion de capital disciplinada (desinversion de SmartDose no-core, sin M&A destructora, dividendo+buybacks), gobierno solido aunque sin gran skin-in-the-game fundador."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R3+R4 se refuerzan de forma monstruosa: la posicion #1 (R3) esta blindada por el moat regulatorio (R4) — el componente esta escrito en el dossier de aprobacion del farmaco, asi que el liderazgo no se erosiona con competencia de precio sino que se auto-refuerza a cada nuevo lanzamiento de inyectable; R1 (apalancamiento de mix) lo amplifica al convertir ese volumen blindado en expansion de margen.",
+ "moat_type": "Costes de cambio + intangibles regulatorios (spec-in)",
+ "moat_one_line": "Sus componentes de contencion estan especificados dentro del expediente regulatorio del farmaco: cambiar de proveedor obliga a re-validar y re-filar ante la FDA/EMA, un coste/riesgo prohibitivo por una pieza barata pero critica.",
+ "thesis_3lines": [
+  "Calidad: lider global irreplicable en contencion de inyectables, moat de spec-in regulatorio, ROIC 17.8%, caja neta y SBC casi nula (5% del FCF).",
+  "Crecimiento: motor organico durable (7%-9% guiado FY2026) impulsado por el viento secular de biologicos, GLP-1 y high-value products, con apalancamiento de margen.",
+  "Valoracion/retorno: fwd-PE 37.8x (-15% vs media historica) y PEG 2.84 — calidad excelente pero precio exigente que limita el retorno futuro, no esta deprimida."
+ ],
+ "bear_case_strongest": "A 37.8x fwd-PE y PEG 2.84 sin estar deprimida (-2.1% del maximo 52s), la valoracion ya descuenta la calidad y deja escaso margen de seguridad: una recaida del destocking biotech o presion de margenes comprimiria el multiplo desde un punto caro.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Score total ponderado = 14.5/20 en escala bruta; en techo Seilern 13.5 equivale a empresa de altisima calidad. SBC verificada (EDGAR XBRL $23.8M) = 5.08% del FCF -> R9 sin penalizacion (regla dura no aplica). Caja neta +$200M, ND/EBITDA -0.23x. ROIC 17.8% (GuruFocus, concuerda con calculo propio NOPAT/IC ~17%). Conversion FCF/NI ~95%. Riesgo principal NO es calidad sino VALORACION (fwd-PE 37.8x, PEG 2.84) y la naturaleza no_deprimida (-2.1% del maximo 52s). pe_prem_disc_pct -15.4% interpretar con cautela (compara fwd-PE actual vs media TTM 5a, no fwd-PE medio estricto). Guia FY2026 es proyeccion de la direccion. Amplificacion activa por refuerzo R3+R4 (spec-in regulatorio)."
+}

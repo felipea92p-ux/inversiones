@@ -1,0 +1,109 @@
+{
+ "ticker": "ATCO-B.ST",
+ "name": "Atlas Copco AB",
+ "asof_date": "2026-06-22",
+ "currency": "SEK",
+ "price": 172.95,
+ "market_cap_usd_b": 96.3,
+ "fwd_pe": 29.7,
+ "fwd_pe_5y_avg": 26.5,
+ "pe_prem_disc_pct": 12,
+ "peg": 4.3,
+ "last_q": {
+  "period": "Q1 2026",
+  "revenue": "MSEK 40,540 (SEK 40.5B)",
+  "rev_yoy_pct": -5,
+  "op_margin_pct": 20.4,
+  "eps_gaap": "n/d (adj op margin 20.5%)",
+  "eps_adj": "n/d"
+ },
+ "last_fy": {
+  "period": "FY2025",
+  "revenue": "MSEK 168,343 (SEK 168.3B)",
+  "organic_growth_pct": 1,
+  "roic_pct": 24,
+  "fcf": "SEK 26.8B",
+  "fcf_margin_pct": 15.9
+ },
+ "sbc_pct_revenue": 0.1,
+ "sbc_pct_fcf": 0.5,
+ "net_debt_usd_b": 1.5,
+ "nd_ebitda": 0.5,
+ "net_cash": false,
+ "guidance_fy": "Guidance is qualitative (no quantitative targets). As of Q1 2026 report (Apr 28, 2026): \"Atlas Copco Group expects the customer activity to remain at the current level\" — unchanged from the outlook given Jan 27, 2026. PROJECTION.",
+ "pct_off_52w_high": 0,
+ "pct_off_ath": -13,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "price",
+  "currency",
+  "asof_date",
+  "last_q.period",
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_fy.period",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.roic_pct",
+  "last_fy.fcf",
+  "nd_ebitda",
+  "guidance_fy"
+ ],
+ "estimated_fields": [
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "net_cash",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "last_q.eps_gaap",
+  "last_q.eps_adj"
+ ],
+ "sources": [
+  {
+   "label": "Atlas Copco IR — First-quarter report 2026 (press release)",
+   "url": "https://www.atlascopcogroup.com/en/media/press-releases/2026/2026-q1",
+   "date": "2026-04-28"
+  },
+  {
+   "label": "Atlas Copco IR — Interim report Q4 & full-year 2025",
+   "url": "https://www.atlascopcogroup.com/en/media/press-releases/2026/20260127-q4",
+   "date": "2026-01-27"
+  },
+  {
+   "label": "Atlas Copco IR — Remuneration report 2025 (LTIP / SBC detail)",
+   "url": "https://www.atlascopcogroup.com/content/dam/atlas-copco/group/documents/investors/corporate-governance/annual-general-meeting/2026/Item-12a-Remuneration-report-2025.pdf.coredownload.pdf",
+   "date": "2026-03-20"
+  },
+  {
+   "label": "TradingEconomics — ATCOB live price",
+   "url": "https://tradingeconomics.com/atcob:ss",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com — Atlas Copco statistics (fwd P/E, PEG, EPS, net debt, EBITDA)",
+   "url": "https://stockanalysis.com/quote/sto/ATCO.A/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Yahoo Finance — ATCO-B.ST quote (52-week range)",
+   "url": "https://finance.yahoo.com/quote/ATCO-B.ST/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "GuruFocus — Atlas Copco forward P/E",
+   "url": "https://www.gurufocus.com/term/forward-pe-ratio/OSTO:ATCO%20A",
+   "date": "2026-05-28"
+  }
+ ],
+ "notes": "DROP CLASSIFICATION = not_depressed: ATCO-B is NOT a depressed stock. Live price 172.95 SEK (22-Jun-2026) sits essentially AT the 52-week high (B-share 52w range ~126.65–172.85) and is up ~32% over the trailing 12 months. The 156.7 SEK figure surfaced in one search was stale (21-May-2026). pct_off_ath approx -13% is an estimate vs the ~198–199 SEK area touched on A-shares; treat as indicative only.\n\nVALUATION: This is a high-quality compounder trading at a PREMIUM, not a value/fear setup. Fwd P/E ~29-30x vs a ~5yr average around ~26-27x (5y-avg ESTIMATED, not from a primary source) => roughly +10-12% premium. PEG ~4.3 is very rich given consensus EPS growth of only ~8-8.5%/yr. fwd_pe and fwd_pe_5y_avg are aggregator-sourced (GuruFocus/StockAnalysis) and reflect ATCO-A; A and B shares have identical economics/dividends so multiples are interchangeable.\n\nFUNDAMENTALS (verified from IR): FY2025 revenue MSEK 168,343 (record), operating margin 20.3%, ROCE 24%, FCF SEK 26.8B (=> FCF margin ~15.9%, computed/ESTIMATED), but organic growth only ~1% for FY2025 (cyclical soft patch + heavy FX/tariff drag). Q1 2026: revenue MSEK 40,540 (-5% reported, +3% organic; -11% FX), orders +5% organic, operating margin 20.4% (adj 20.5%) — re-acceleration in organic orders led by vacuum equipment. EPS not broken out in Q1 press release excerpt (eps_gaap/eps_adj = n/d). FY2025 basic EPS ~SEK 5.35 (TTM, aggregator); the SEK 1.36 figure seen in search is Q4-only.\n\nSBC (R9): structurally NEGLIGIBLE — a hallmark Nordic quality trait. LTIP caps at ~7.9M series-A shares (~0.16% of ~4.88B total shares) and net share repurchases for LTIP hedging were only MSEK -84 in 2025. Exact Note 4 expense not extracted, so sbc_pct_revenue (~0.1%) and sbc_pct_fcf (~0.5%) are ESTIMATED upper-bound magnitudes — clearly immaterial, well inside R9 thresholds.\n\nBALANCE SHEET: ND/EBITDA 0.5x (VERIFIED from Q4/FY2025 release). Net debt ~SEK 14.65B (StockAnalysis) => ~$1.5B USD at USD/SEK ~9.55. net_cash = false (modest net debt, very comfortable leverage).\n\nGUIDANCE: qualitative only — \"customer activity to remain at the current level\" (Apr-2026); no quantitative FY targets. PROJECTION.\n\nFX: market_cap_usd_b ~$96B uses full company (A+B) market cap ~919.6B SEK at USD/SEK ~9.55 (ESTIMATED); ATCO-B class alone is ~843B SEK. data_quality MIXED: operating fundamentals VERIFIED from IR filings; valuation multiples, net debt USD, SBC %, and market cap USD are aggregator/computed ESTIMATES."
+}

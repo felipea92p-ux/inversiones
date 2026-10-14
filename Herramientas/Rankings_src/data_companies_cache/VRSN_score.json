@@ -1,0 +1,59 @@
+{
+ "ticker": "VRSN",
+ "name": "Verisign, Inc.",
+ "moat_type": "regulatory_monopoly_intangible",
+ "moat_one_line": "Contrato exclusivo y perpetuo con ICANN para operar el registro .com/.net: monopolio legal con poder de subida de precios fijado por contrato y costes marginales casi nulos.",
+ "amplification": true,
+ "amplification_note": "R1+R3+R4 se refuerzan de forma monstruosa: el registro .com es una red de infraestructura de internet (R1 escalable, margen operativo 68.5% con costes marginales nulos por dominio adicional), monopolio #1 absoluto e insustituible del DNS raiz de .com/.net (R3, sin competidor #2 real), protegido por un contrato regulatorio exclusivo e irreplicable con subidas de precio contractuales (.com $10.26 -> $10.97 en Nov 2026) (R4). La combinacion -infraestructura critica + monopolio legal + pricing power garantizado- es una de las posiciones competitivas mas blindadas del universo cotizado.",
+ "sbc_flag": "ok",
+ "ethical_flag": "dagger",
+ "thesis_3lines": [
+  "Calidad: monopolio regulatorio del registro .com/.net con margen operativo de 68.5% y FCF margin de 64.3%, una maquina de imprimir caja con costes marginales nulos y foso irreplicable.",
+  "Motor de crecimiento: base record de 176.1M dominios (+3.7%) mas subidas de precio contractuales (.com a $10.97 en Nov 2026) que impulsan ingresos +6.6% YoY con guia FY2026 subida a $1.73-1.745B.",
+  "Valoracion/retorno: fwd P/E 25.5x (~-12% bajo su media de 5 anos de ~29x) tras una caida del -20.7% desde maximos por rotacion/sentimiento, no por deterioro; recompras agresivas ($214M en Q1) componen el EPS."
+ ],
+ "bear_case_strongest": "El crecimiento esta estructuralmente limitado a un solo digito (la base de dominios crece lento y depende de subidas de precio reguladas por contrato que pueden ser congeladas o revisadas politicamente por el gobierno de EE.UU./ICANN), de modo que pagar 25x por un activo monopolistico pero de bajo crecimiento secular ofrece poco margen de error si el regulador endurece los terminos o si .com pierde relevancia frente a nuevos TLDs y plataformas que desintermedian el dominio.",
+ "rules": {
+  "R1": {
+   "score": 2,
+   "just": "Modelo de registro DNS hiperescalable: margen operativo 68.5% y FCF margin 64.3% con coste marginal practicamente nulo por dominio adicional; cada subida de precio cae casi integra al operativo."
+  },
+  "R2": {
+   "score": 1,
+   "just": "Internet/dominios crece secularmente pero la base .com madura crece solo +3.7%; secular pero de bajo single-digit, no hipercrecimiento."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Operador #1 monopolistico y exclusivo del registro .com/.net por contrato con ICANN; no existe un competidor #2 real, dominancia monstruosa e irreplicable."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Foso irreplicable durante decadas: contrato regulatorio exclusivo, infraestructura DNS critica y pricing power contractual (.com $10.26->$10.97 Nov 2026); imposible de replicar."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento 100% organico (negocio puro de registro, sin M&A): ingresos +6.6% YoY y FY2025 organico +6.4%; pureza superior sin diluir con adquisiciones."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Sin concentracion de clientes (millones de registrantes via registradores) y alcance global, pero monolinea de producto (.com/.net) limita la diversificacion a 1.5."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "FCF/NI muy alto y capex minimo ($7.2M en Q1 vs $272.4M CFO); ROIC>WACC evidente economicamente aunque distorsionado (equity negativo por recompras), capital ultra-eficiente."
+  },
+  "R8": {
+   "score": 1,
+   "just": "Deuda neta +$1.23B (NO caja neta) con ND/EBITDA ~1.05x; balance solido y <2x pero apalancado por las recompras, no fortaleza de caja neta."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "SBC verificada muy baja: 4.2% de ingresos y 6.8% del FCF (muy por debajo del umbral de 15%); contabilidad limpia, EPS GAAP=ajustado $2.34 sin add-backs."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Asignacion de capital ejemplar via recompras oportunistas masivas ($214M Q1) sin M&A destructora; disciplina monolinea, gobierno solido y enfoque en composicion del EPS."
+  }
+ },
+ "notes": "Score total re-puntuado: R1 2.0 + R2 1.0 + R3 2.0 + R4 2.0 + R5 1.5 + R6 1.0 + R7 1.5 + R8 1.0 + R9 1.5 + R10 1.5 = 15.0 bruto, capado al techo de 13.5. Ajuste a techo: la empresa satura el maximo Seilern. R9 NO penalizado: sbc_pct_fcf 6.8% << 15%, regla dura no aplica (sbc_flag=ok). ROIC reportado >100% por equity negativo (recompras), economicamente ROIC>>WACC pero no usable como cifra; valorado por intensidad de capital minima y FCF/NI. Unico matiz de calidad: R8 a 1.0 (deuda neta, no caja neta) y R6 a 1.0 (monolinea .com/.net). Clasificacion de la caida: fear_rotation -fundamentales mejorando (ingresos +6.6%, dominios record, guia subida)- no deterioro. Valoracion atractiva: fwd P/E 25.5x vs media 5a ~29x (~-12% descuento), -20.7% desde ATH de mayo 2026. data_quality MIXED: varios campos de valoracion/balance ESTIMADOS (fwd_pe, market_cap, net_debt, sbc) pero Q1 2026 y FCF VERIFICADOS via 8-K/press release. ethical_flag=dagger (echo segun instruccion)."
+}

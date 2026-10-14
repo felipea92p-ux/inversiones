@@ -1,0 +1,48 @@
+{
+ "ticker": "WST",
+ "name": "West Pharmaceutical Services, Inc.",
+ "currency": "USD",
+ "price_verified": 329.71,
+ "price_source": "StockAnalysis.com (cross-checked vs Yahoo Finance / MarketBeat), 2026-06-22",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.0724,
+ "implied_mcap_b_usd": 23.29,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 9,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.94,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF = FY2025 FCF $468.9M − 100% SBC $23.8M = $445.1M (~$6.15/diluted sh). This trough figure was depressed by elevated capex during the high-value-product capacity buildout (Dublin/Phoenix/Grand Rapids) plus working-capital drag from post-COVID destocking; FY2025 organic growth was only 4.3%. Base scenario normalizes owner FCF to ~$540M (~$7.46/sh) as capex normalizes and FCF converges toward GAAP NI ($493.7M) / FY2026 adj earnings (~$620M on guide), reflecting the 7-9% organic reacceleration. SBC dilution is negligible (5.1% of FCF).",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 125.72,
+   "prob": 0.38,
+   "note": "Owner FCF base $500M, Phase1 CAGR 6% declining to 2.5% terminal, WACC 9.5%. Capex stays elevated longer, organic settles back to mid-single digits, multiple normalization continues. Reasonable-pessimistic, not apocalyptic."
+  },
+  "base": {
+   "iv_per_share": 177.78,
+   "prob": 0.47,
+   "note": "Owner FCF base $540M, Phase1 CAGR 8.5% declining to 3.0% terminal, WACC 9.0%. FCF margin normalizes as capacity ramps; 7-9% organic per guidance sustained; high-value injectable franchise compounds."
+  },
+  "optimista": {
+   "iv_per_share": 263.6,
+   "prob": 0.15,
+   "note": "Owner FCF base $575M, Phase1 CAGR 11.5% declining to 3.5% terminal, WACC 8.5%. GLP-1 / biologics / high-value-component mix shift accelerates, FCF margin expands materially."
+  }
+ },
+ "iv_dcf_weighted": 170.87,
+ "multiple_metric": "Forward P/E (adj EPS FY2026)",
+ "fwd_multiple_now": 37.84,
+ "fwd_multiple_5y_avg": 44.71,
+ "fair_multiple": 39,
+ "multiple_rationale": "5y avg forward P/E proxy is 44.71x; current is 37.84x. West is a genuine high-quality compounder (ROIC ~18%, net cash, wide moat in injectable drug containment/delivery, negligible SBC dilution), so the DCF infra-credits decades of high-ROIC reinvestment. However the historic ~45x reflected post-COVID supernormal vaccine-driven growth that has structurally normalized; applying a haircut to a mid-cycle-fair ~39x (still a premium, below the 5y avg but above the current de-rated level). iv_multiple = FY2026 adj EPS midpoint $8.575 × 39.0 = $334.4.",
+ "iv_multiple": 334.42,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 269,
+ "structural_change": "No adverse structural deterioration in the franchise — moat (regulatory-locked elastomer/injectable containment, high switching costs) intact, ROIC ~18%, net cash, raised FY2026 guidance. The one structural shift is to the VALUATION regime: the ~45x post-COVID forward multiple has structurally de-rated to high-30s as vaccine-era supernormal growth normalized to a 7-9% organic algorithm; this is a multiple reset, not a business-quality impairment. Pending SmartDose 3.5mL divestiture to AbbVie (mid-2026 close) is minor/portfolio-pruning.",
+ "sanity_notes": "Sanity check passes: 70.65M basic sh × $329.71 = $23.29B, matching reported mcap scale (per-share IVs use ~72.4M Q1-2026 diluted weighted-avg shares). All scenario IVs fall within the 30-300%-of-price magnitude band (conservador 38%, base 54%, optimista 80%, multiple 101%, reconciled 82%) — no unit/currency/share-count error. Quotation currency USD throughout. Weighting tilts to the multiple (0.40 DCF / 0.60 multiple) because WST is a stable, proven compounder with net cash and very low SBC, where pure DCF systematically undervalues high-ROIC reinvestment; the multiple anchor is the more reliable cross-check. Reconciled IV $269 vs price $329.71 implies the stock trades ~18% ABOVE intrinsic value — a top-quality franchise at a full-to-rich price, not a bargain (consistent with 'not_depressed': only -2% off 52w high). Note the wide DCF-vs-multiple gap stems from the FCF/EPS divergence (owner FCF ~$6-7.5/sh vs adj EPS $8.57) driven by elevated growth capex; if capex normalizes toward depreciation, FCF-based DCF would lift toward the multiple anchor."
+}

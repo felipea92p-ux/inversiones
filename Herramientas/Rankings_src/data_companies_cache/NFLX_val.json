@@ -1,0 +1,48 @@
+{
+ "ticker": "NFLX",
+ "name": "Netflix, Inc.",
+ "currency": "USD",
+ "price_verified": 72.88,
+ "price_source": "StockAnalysis.com (close Jun 22, 2026); cross-checked vs Yahoo/Nasdaq intraday $77.38 Jun 23. Price is POST 10-for-1 split (effective Nov 14, 2025).",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 4.298,
+ "implied_mcap_b_usd": 313.2,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 10.3,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.2,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "$8.8B normalized owner FCF = FY2026 underlying FCF ~$9.7B (guidance $12.5B minus the ~$2.8B Warner Bros. break-fee one-off) minus 100% SBC ~$0.9B. Cross-check: FY2025 reported FCF $9.46B - SBC $0.827B = $8.63B owner FCF, consistent.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 41.95,
+   "prob": 0.38,
+   "note": "Phase-1 CAGR 10% (growth decelerates faster than guidance as short-form/FAST competition and a larger Paramount-Skydance/WBD rival bite); Phase-2 fades to 3%; terminal g=3.0%. Pessimistic-but-not-apocalyptic: margins hold, no collapse."
+  },
+  "base": {
+   "iv_per_share": 52.2,
+   "prob": 0.47,
+   "note": "Phase-1 CAGR 14% (top of mgmt FY26 guidance 12-14%), declining to terminal 3% over yrs 6-10; ads to ~$3B doubling, margin expansion to 31.5%. terminal g=3.0%."
+  },
+  "optimista": {
+   "iv_per_share": 64.71,
+   "prob": 0.15,
+   "note": "Phase-1 CAGR 18%: ad-tier scaling + pricing power + share gains; live/sports/gaming optionality. terminal g=3.0%."
+  }
+ },
+ "iv_dcf_weighted": 50.18,
+ "multiple_metric": "Forward P/E (FY2026 consensus EPS)",
+ "fwd_multiple_now": 19.9,
+ "fwd_multiple_5y_avg": 43.3,
+ "fair_multiple": 31,
+ "multiple_rationale": "Anchored to NFLX's 5y avg forward P/E of 43.3x but with a deliberate ~28% haircut to 31x. The haircut reflects REAL structural normalization (not cyclical): topline growth has stepped down from the 25-30% era to 12-15%, and competitive intensity is genuinely higher (short-form TikTok/YouTube, FAST channels, a larger combined Paramount-Skydance/WBD rival after the failed M&A). 31x is still a premium quality multiple, justified by ~23% ROIC, expanding operating margins (29.5%->31.5% target), very low SBC (1.8% of revenue), minimal leverage (ND/EBITDA ~0.15x) and durable franchise. iv_multiple = $3.66 FY26 EPS x 31x = $113.46.",
+ "iv_multiple": 113.46,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 88.15,
+ "structural_change": "Mixed, leaning to fear-rotation/de-rate rather than fundamental deterioration. NEGATIVE structural elements: growth has permanently normalized down from 25-30% to ~12-15%; genuine competitive intensification (short-form video, FAST, and a larger Paramount-Skydance/WBD combined competitor after Netflix withdrew its Warner Bros. bid). NO numeric deterioration: revenue +16% YoY, operating margin EXPANDING (32.3% in Q1'26 vs 31.7% prior year), FY26 guidance maintained, FCF raised to ~$12.5B, ROIC ~23%, ad revenue on track to ~$3B (2x YoY). The -46% drawdown from the post-split ATH ($134.12) is overwhelmingly multiple compression, not earnings impairment. The fair-multiple haircut (43.3x->31x) prices the structural piece.",
+ "sanity_notes": "Sanity OK. Price x diluted shares = $72.88 x 4.298B = $313.2B, in line with the ~$307B mcap reported on basic shares (4.21B) - confirms correct scale and POST-split units (split 10-for-1 Nov 2025; both price and ATH are post-split). Reconciled IV $88.15 = +21% vs price $72.88, comfortably inside the 30%-300% band ($22-$219). Note the wide DCF-vs-multiple spread ($50 vs $113): this is the classic compounder problem the framework warns about - pure owner-earnings DCF under-credits Netflix's ability to reinvest at ~23% ROIC for many years, so weighting leans to the multiple anchor (0.40/0.60). Conservatism applied: owner FCF base strips the ~$2.8B WBD one-off break-fee that temporarily inflates FY26 FCF/EPS, and uses 100% SBC deduction. Beta 1.2 assumed for WACC. If one instead trusted FY26 guided FCF ($12.5B) without stripping the one-off, DCF IV would be materially higher; the reported figure is the conservative version."
+}

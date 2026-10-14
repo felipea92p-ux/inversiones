@@ -1,0 +1,59 @@
+{
+ "ticker": "ISRG",
+ "name": "Intuitive Surgical, Inc.",
+ "rules": {
+  "R1": {
+   "score": 1.5,
+   "just": "Razor/razor-blade model con ~80% ingresos recurrentes (instrumentos/accesorios/servicio) sobre base instalada; margenes operativos suben con volumen (op income +48% vs rev +23% en Q1'26), aunque es hardware con coste de bienes real, no software puro."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Cirugia robotica en crecimiento secular con penetracion baja en la mayoria de procedimientos; guidance de procedimientos da Vinci SUBIDA a 13.5%-15.5% confirma demanda estructural sostenida."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Lider #1 indiscutible global en cirugia robotica de tejido blando con ~10.000+ sistemas instalados y decadas de datos clinicos; deja a Medtronic/J&J/CMR a anios-luz en base instalada y evidencia, dominancia monstruosa."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat irreplicable por decadas: altisimos costes de cambio (entrenamiento de cirujanos, workflow hospitalario, validacion clinica), flywheel regulatorio/datos y base instalada acumulada que ningun rival puede replicar a corto plazo."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento ORGANICO puro 17% FY2025 y +23% Q1'26 sin depender de M&A; expansion por adopcion de procedimientos y nuevas plataformas (da Vinci 5), no por adquisiciones."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Multi-geografia (US, Europa, China, Japon, Corea) y miles de hospitales clientes sin concentracion >10-15%; diversificada por procedimiento y region, con cierta exposicion concentrada al sistema da Vinci como plataforma."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC ~26.2% muy por encima del WACC pese a base de caja elevada; FCF FY2025 $2.491M (margen 24.7%) y FCF/NI saludable, capex bajo (~10% de OCF en Q1'26); intensidad de capital del hardware no penaliza dado el ROIC alto."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Balance fortaleza: caja neta ~$8.0B (cash+inversiones $7.98B, CERO deuda), D/EBITDA no significativo por caja neta; liquidez $7.979M."
+  },
+  "R9": {
+   "score": 0,
+   "just": "REGLA DURA aplicada: SBC verificada = 26.4% del FCF (>25%), por tanto R9=0.0 obligatorio; SBC $213.3M en Q1'26 (7.7% de ingresos) diluye retorno al accionista pese a contabilidad limpia GAAP."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Gestion disciplinada: crecimiento 100% organico sin M&A destructora, balance prudente con caja neta; guidance subido de forma transparente, aunque el alto SBC matiza la alineacion pura con el accionista."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1+R3+R4 se refuerzan de forma monstruosa: el modelo razor/razor-blade (R1) genera ingresos recurrentes sobre una base instalada de ~10.000+ sistemas que consolida el liderazgo #1 absoluto (R3), y ese liderazgo alimenta un moat de costes de cambio + datos clinicos + flywheel regulatorio irreplicable por decadas (R4), un volante de inercia auto-reforzante.",
+ "moat_type": "switching_costs",
+ "moat_one_line": "Costes de cambio extremos (entrenamiento de cirujanos, workflow hospitalario, validacion clinica) sobre ~10.000+ sistemas instalados con decadas de datos clinicos y aval regulatorio, irreplicable a corto-medio plazo.",
+ "thesis_3lines": [
+  "Calidad: lider #1 monolitico en cirugia robotica con moat de costes de cambio irreplicable, ROIC ~26%, caja neta $8B y cero deuda.",
+  "Motor de crecimiento: adopcion secular con procedimientos da Vinci en doble digito (guidance subido a 13.5%-15.5%) e ingresos organicos +23% en Q1'26.",
+  "Valoracion/retorno: fwd P/E 37.8 con descuento -33.7% vs media 5a (~57) tras caida ~33% por rotacion, no por deterioro fundamental."
+ ],
+ "bear_case_strongest": "Pese a la caida del ~33%, fwd P/E 37.8 y PEG 2.5 siguen exigentes para EPS ~15%, y la entrada de Medtronic/J&J + presion de precios en China + presion de capital en Europa podrian comprimir margen y multiplo a la vez, dejando el 'descuento' como valoracion meramente justa.",
+ "sbc_flag": "sbc_gt_25_fcf",
+ "ethical_flag": "none",
+ "notes": "Score ponderado total = 1.5+1.5+2.0+2.0+1.5+1.5+1.5+1.5+0.0+1.5 = 14.5 sobre techo 13.5 -> capado a 13.5. NOTA CRITICA: la regla dura de SBC (26.4% del FCF >25%) fuerza R9=0.0, unico lastre estructural en un perfil de calidad excepcional. Caida ~33% clasificada como fear_rotation (de-rating de valoracion/rotacion, NO deterioro del negocio: ingresos +23%, op income +48%, guidance SUBIDA, caja neta $8B). Datos Q1'26/guidance/SBC VERIFICADOS via filings SEC (espejo StockTitan); precio, market cap, fwd P/E, ROIC y FCF FY2025 ESTIMADOS de agregadores. Riesgos direccion: presion capital Europa, precios China, expiracion subsidios ACA, tariffs ~1% GM."
+}

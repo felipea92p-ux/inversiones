@@ -1,0 +1,92 @@
+{
+ "ticker": "CFR.SW",
+ "name": "Compagnie Financiere Richemont SA",
+ "asof_date": "2026-06-22",
+ "currency": "CHF",
+ "price": 182.3,
+ "market_cap_usd_b": 132.8,
+ "fwd_pe": 28.2,
+ "fwd_pe_5y_avg": 22.5,
+ "pe_prem_disc_pct": 25,
+ "peg": 2.17,
+ "last_q": {
+  "period": "Q4 FY2026 (Jan-Mar 2026, sales-only update)",
+  "revenue": "n/d (sales +13% cc; no quarterly P&L)",
+  "rev_yoy_pct": 13,
+  "op_margin_pct": null,
+  "eps_gaap": "n/d (semi-annual reporting)",
+  "eps_adj": "n/d (semi-annual reporting)"
+ },
+ "last_fy": {
+  "period": "FY2026 (ended 31 March 2026)",
+  "revenue": "EUR 22,420M",
+  "organic_growth_pct": 11,
+  "roic_pct": null,
+  "fcf": "~EUR 3.8B (est; CFO EUR 4,880M less ~EUR 1.0-1.1B capex)",
+  "fcf_margin_pct": 17
+ },
+ "sbc_pct_revenue": null,
+ "sbc_pct_fcf": null,
+ "net_debt_usd_b": -9.7,
+ "nd_ebitda": -1.5,
+ "net_cash": true,
+ "guidance_fy": "No formal numeric revenue/EPS guidance issued (Richemont does not give quantitative guidance). Management commentary at FY26 results (22 May 2026) struck a confident tone on continued momentum (Q4 +13% cc) while flagging macro/geopolitical and China risks; proposed 10% higher ordinary dividend (CHF 3.30) plus CHF 1.00 special dividend signals confidence.",
+ "pct_off_52w_high": -1.5,
+ "pct_off_ath": -1.8,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "price",
+  "currency",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_q.rev_yoy_pct",
+  "net_cash",
+  "guidance_fy",
+  "pct_off_52w_high"
+ ],
+ "estimated_fields": [
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "last_fy.roic_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "pct_off_ath"
+ ],
+ "notes": "PRIMARY SOURCE: Richemont FY26 press release (year ended 31 Mar 2026, published 22 May 2026). Group sales EUR 22,420M (+11% constant FX / +5% actual), all business areas/regions/channels growing. Operating profit EUR 4,492M, op margin 20.0%. Profit for the year EUR 3,484M (vs EUR 2,800M prior). Diluted IFRS EPS EUR 5.909. CFO EUR 4,880M. Net cash position EUR 8,496M (+3% YoY) — fortress balance sheet, NO net debt. By Maison: Jewellery Maisons EUR 16.5B (+14% cc, 30.5% margin); Specialist Watchmakers EUR 3.1B (+1% cc, only 3.4% margin — weak watch division); Other EUR 2.7B (+3% cc, -EUR 96M loss). Q4 (Jan-Mar 2026) sales +13% cc, strong momentum.\n\nREPORTING CADENCE: Richemont reports SEMI-ANNUALLY (H1 to Sep, FY to Mar) with quarterly SALES-only updates — there is NO quarterly P&L, so last_q op_margin/EPS are null/n.d. by design; only Q4 sales growth (+13% cc) is available.\n\nEPS: Richemont reports under IFRS with no separate non-GAAP/adjusted EPS — eps_gaap = eps_adj = EUR 5.909 (diluted, FY26 full year). Per-quarter EPS not disclosed.\n\nVALUATION (ESTIMATED, from StockAnalysis.com 22-Jun-2026): fwd P/E 28.2x, trailing P/E 33.6x, PEG 2.17. fwd_pe_5y_avg (~22.5x) and pe_prem_disc_pct (~+25%) are MODELED estimates — not from a primary feed; treat with caution. Stock screens RICH vs its own history and vs broader European luxury (~19x), roughly in line with megacap luxury peers.\n\nFX: USD/CHF ~0.808 (1 CHF~1.238 USD), EUR/USD ~1.14 as of 22-Jun-2026. Market cap CHF 107.25B -> ~USD 132.8B. Net cash EUR 8,496M -> ~USD 9.7B (net_debt_usd_b=-9.7). nd_ebitda ~-1.5x is an APPROXIMATION (net cash / est EBITDA ~EUR 5.5-6B); company is net cash so leverage metric is informational only.\n\nFCF: CFO EUR 4,880M is VERIFIED; FCF (~EUR 3.8B) and FCF margin (~17%) are ESTIMATES — capex not extracted within timebox.\n\nSBC (CRITICAL for R9): Could NOT extract exact share-based payment figure from FY26 Annual Report within timebox -> sbc_pct_revenue and sbc_pct_fcf left null. STRUCTURAL NOTE: Richemont is a Swiss family-controlled luxury group (Rupert family via 'B' shares) that uses minimal equity compensation; share-based payment is a small non-cash line historically well under ~1% of revenue. SBC dilution risk is LOW — unlike US tech this is not a concern for R9, but the precise % should be confirmed from the FY26 Accounts (share-based payment note) before finalizing.\n\nDROP CLASSIFICATION = not_depressed: Stock at CHF 182.30, only ~1.5% below 52-week high of CHF 185.10, +23% over trailing 12 months, trading near all-time highs after RECORD FY26 results. NOT a fallen/fear-driven name — a strong-momentum, full-valuation luxury leader. Only soft spot is Specialist Watchmakers (3.4% margin), but group results and share price are at highs. pct_off_ath (~-1.8%) is approximate (ATH ~CHF 185-186 area).\n\nROIC: not disclosed directly in press release; left null (high-margin Jewellery Maisons + net-cash balance sheet imply strong returns, but no verified figure).",
+ "sources": [
+  {
+   "label": "Richemont FY26 results press release (year ended 31 March 2026)",
+   "url": "https://www.richemont.com/news-media/press-releases-news/richemont-delivers-strong-sales-growth-and-solid-results-for-the-year-ended-31-march-2026/",
+   "date": "2026-05-22"
+  },
+  {
+   "label": "Richemont FY26 Annual Results Presentation (PDF)",
+   "url": "https://www.richemont.com/media/ngtd2kgn/richemont-fy26-annual-results-presentation-en.pdf",
+   "date": "2026-05-22"
+  },
+  {
+   "label": "Richemont FY26 Annual Report and Accounts (PDF)",
+   "url": "https://www.richemont.com/media/045hlucv/richemont-fy26-annual-report-and-accounts.pdf",
+   "date": "2026-05-29"
+  },
+  {
+   "label": "StockAnalysis.com - Richemont statistics (price, fwd P/E, PEG, market cap)",
+   "url": "https://stockanalysis.com/quote/swx/CFR/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Yahoo Finance - CFR.SW quote (52-week range 127.20-185.10)",
+   "url": "https://finance.yahoo.com/quote/CFR.SW/",
+   "date": "2026-06-22"
+  }
+ ]
+}

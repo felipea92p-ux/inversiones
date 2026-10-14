@@ -1,0 +1,42 @@
+{
+ "ticker": "AME",
+ "currency": "USD",
+ "current_price": 241.55,
+ "wacc_pct": 10,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.15,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base (FY2025) = FCF reportado $1,671.6M − 100% SBC $47.8M = $1,623.8M. SBC verificado vía SEC XBRL (CIK 1037868): solo 0.65% de revenue y 2.9% del FCF, por lo que el ajuste de owner earnings es mínimo (calidad alta). Margen owner-FCF base ≈ 21.9% sobre revenue FY2025 de $7,401.1M. Owner-FCF yield sobre market cap ($55.36B) ≈ 2.93%.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 8,
+  "rev_cagr_y6_10_pct": 5,
+  "fcf_margin_terminal_pct": 22,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC tratada como gasto en efectivo (restada del FCF). SBC FY2025 = $47.8M (0.65% rev / 2.9% FCF), impacto mínimo dado el bajísimo nivel de SBC de AMETEK.",
+  "shares_diluted_b": 0.2292,
+  "net_debt_usd_b": 1.7
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 108.87,
+   "prob": 0.375,
+   "note": "Crecimiento orgánico se modera (~4%) y M&A más limitado: Fase 1 CAGR 5.5%, Fase 2 declina a 3.5%, g terminal 2.5%, margen owner-FCF estable ~22%. WACC 10%. Captura un entorno industrial más débil sin ser apocalíptico."
+  },
+  "base": {
+   "iv_per_share": 135.34,
+   "prob": 0.475,
+   "note": "Consistente con el track record: orgánico ~5% + M&A acretivo ~3% => Fase 1 CAGR 8%, Fase 2 declina a 5%, g terminal 3.0%, margen owner-FCF ~22%. Refleja el modelo de compounder de AMETEK (ROIC sólido, despliegue disciplinado de capital, backlog récord $3.87B)."
+  },
+  "optimista": {
+   "iv_per_share": 164.31,
+   "prob": 0.15,
+   "note": "Ejecución perfecta: orgánico fuerte + M&A agresivo y acretivo => Fase 1 CAGR 10%, Fase 2 declina a 6.5%, g terminal 3.5%, expansión de margen. Aun así por debajo del precio actual."
+  }
+ },
+ "sanity_check": "VI ponderada por probabilidad ≈ $129.8/acción, ~46% POR DEBAJO del precio actual de $241.55. El DCF de owner earnings indica SOBREVALORACIÓN clara: a 10% WACC, el precio actual implica un crecimiento perpetuo de owner-FCF de ~7.0% (single-stage), exigente frente al WACC. Coherente con la clasificación 'not_depressed' (acción a -0.7% de máximos históricos, fwd P/E ~28.6x vs media 5a 29.4x, PEG 3.26, owner-FCF yield solo 2.93% y earnings yield fwd 3.33%). AMETEK es un negocio de altísima calidad (SBC mínima, ROIC sólido, M&A disciplinado), pero el mercado ya descuenta años de compounding impecable; el margen de seguridad es negativo a estos precios. La calidad justifica una prima sobre el DCF, pero no cierra la brecha del ~46%.",
+ "method_notes": "DCF de OWNER EARNINGS a 10 años, dos fases. Base owner-FCF = FCF FY2025 $1,671.6M − 100% SBC $47.8M = $1,623.8M. Fase 1 (años 1-5) CAGR de owner-FCF explícito; Fase 2 (años 6-10) CAGR declinante linealmente hacia normalización; valor terminal con modelo de Gordon (g=2.5-3.5% según foso/escenario). Descuento al WACC = Rf 4.3% (UST 10Y, empresa estadounidense) + ERP 5.0% × beta 1.15 (sector industrial diversificado) = 10.05% ≈ 10.0%; sin ajuste geopolítico (EE.UU.). VI/acción = (PV flujos + PV valor terminal − deuda neta $1.70B) / acciones diluidas 229.2M (0.2292B). Inputs verificados vía SEC EDGAR XBRL / 10-K FY2025 / 10-Q Q1-2026. No se requirió búsqueda web adicional: el JSON de Fase 2 contenía todos los inputs necesarios (precio, FCF, margen, SBC, deuda neta, acciones implícitas de market cap/precio = 229.2M). DCF estándar válido para AMETEK (industrial con FCF predecible), no se requiere normalización por provisiones ni DDM.",
+ "name": "AMETEK, Inc."
+}

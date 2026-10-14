@@ -1,0 +1,59 @@
+{
+ "ticker": "BKNG",
+ "name": "Booking Holdings Inc.",
+ "rules": {
+  "R1": {
+   "score": 1.5,
+   "just": "Plataforma OTA con alto apalancamiento operativo (margen FCF ~34%, op margin adj EBITDA ~23%) y efectos de red, pero no es software puro con costes marginales casi nulos: el coste de marketing/performance escala con el volumen, lo que limita el 2.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Viajes online crecen secularmente (ingresos +13-16% YoY) con penetracion digital creciente, aunque es ciclico/sensible a shocks macro (room nights Q2 solo +2-4% por Oriente Medio)."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Lider mundial #1 indiscutible en alojamiento online (Booking.com), con escala de inventario y GMV muy por delante de Expedia/Airbnb en mercados internacionales: dominancia a anios-luz que justifica el 2.0."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat de red de doble cara (oferta-demanda) e intangibles de marca/escala con coste de cambio y efectos de aglomeracion casi irreplicables en una decada; supply de propiedades y datos refuerzan la ventaja."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento mayormente organico (organico FY2025 +13%) sin dependencia de M&A transformador; ligeramente por debajo de 2.0 por el componente adquirido historico (KAYAK/OpenTable/agoda ya integrados)."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Multi-marca y multi-geografia (Booking, agoda, KAYAK, OpenTable, Priceline) con millones de propiedades y sin concentracion de cliente >10%, aunque con sesgo a alojamiento europeo y exposicion FX/geopolitica."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC muy alto (patrimonio negativo por recompras distorsiona la cifra contable pero el negocio es asset-light, capex ~$300M sobre $26.9B), FCF/NI elevado y conversion fuerte (FCF $9.1B, +15%); ROIC no extraido (null) impide confirmar 2.0."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Balance solido: ND/EBITDA ~0.27x (deuda neta $2.83B sobre EBITDA ~$10.4B), muy por debajo de 2x; no es caja neta segun la fuente conservadora, lo que evita el 2.0."
+  },
+  "R9": {
+   "score": 1,
+   "just": "Contabilidad limpia: SBC verificada FY2025 $617M = solo 2.3% de ingresos y 6.8% del FCF, muy por debajo del umbral duro del 15%, sin banderas; GAAP solido."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Asignacion de capital ejemplar: recompras masivas y oportunistas (patrimonio negativo) en vez de M&A destructora, split 25-for-1 para liquidez, equipo disciplinado; menos skin-in-the-game fundador limita el 2.0."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1+R3+R4 se refuerzan de forma monstruosa: el modelo escalable asset-light (R1) alimenta el liderazgo #1 global (R3), que a su vez profundiza el moat de red de doble cara y de marca/escala (R4) — mas propiedades atraen mas viajeros y viceversa, creando un foso auto-reforzante casi irreplicable en una decada.",
+ "moat_one_line": "Red de doble cara (oferta-demanda) con marca y escala de inventario globales que se auto-refuerza: mas propiedades atraen mas viajeros y mas viajeros atraen mas propiedades.",
+ "moat_type": "network_effect",
+ "thesis_3lines": [
+  "Calidad: lider mundial #1 en viajes online, asset-light con margen FCF ~34%, SBC minima (6.8% del FCF) y balance solido (ND/EBITDA 0.27x).",
+  "Motor: crecimiento secular organico de ingresos +13-16% impulsado por efectos de red de doble cara y migracion digital de viajes, pese a desaceleracion ciclica puntual de room nights.",
+  "Valoracion/retorno: fwd P/E 15.6x (~-22% bajo su media historica ~20x, PEG 0.98) tras caer -28% por miedo macro, no por deterioro del negocio — entrada atractiva en un compounder."
+ ],
+ "bear_case_strongest": "La desaceleracion de room nights a +2-4% sugiere que el TAM de viajes madura y que la disrupcion estructural (Google/IA en busqueda de viajes, desintermediacion por hoteles/Airbnb) erosione el moat y el poder de precios, justificando una compresion permanente del multiplo en vez de una caida temporal.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Re-score FASE 2 total = 16.0/20 ponderado bruto; sobre techo Seilern 13.5 la suma de bases (R1-R10) refleja una empresa de altisima calidad. SBC verificada 6.8% del FCF -> R9 sin penalizacion (ok). ROIC null impide elevar R7 a 2.0 pese a perfil asset-light. drop_classification=fear_rotation confirmado: fundamentales intactos (FCF +15%, ingresos +13-16%, margenes estables) frente a caida de -28% por miedo macro a demanda de viajes y conflicto Oriente Medio. Amplificacion activa por refuerzo monstruoso R1+R3+R4. Datos estimados a vigilar: ROIC, net debt (discrepancia $2.83B vs -$5.6B caja neta segun tratamiento de inversiones), fwd_pe_5y_avg ~20x (distorsion COVID)."
+}

@@ -1,0 +1,102 @@
+{
+ "ticker": "VRSK",
+ "name": "Verisk Analytics, Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 168.99,
+ "market_cap_usd_b": 22.14,
+ "fwd_pe": 21.3,
+ "fwd_pe_5y_avg": 30,
+ "pe_prem_disc_pct": -29,
+ "peg": 1.82,
+ "last_q": {
+  "period": "Q1 2026 (ended 2026-03-31)",
+  "revenue": "$782.6M",
+  "rev_yoy_pct": 3.9,
+  "op_margin_pct": 45,
+  "eps_gaap": "$1.73",
+  "eps_adj": "$1.82"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended 2025-12-31)",
+  "revenue": "$3,072.7M",
+  "organic_growth_pct": 6.6,
+  "roic_pct": null,
+  "fcf": "$1,191.9M",
+  "fcf_margin_pct": 38.8
+ },
+ "sbc_pct_revenue": 1.76,
+ "sbc_pct_fcf": 4.5,
+ "net_debt_usd_b": 3.95,
+ "nd_ebitda": 2.2,
+ "net_cash": false,
+ "guidance_fy": "FY2026: Revenue $3.19B-$3.24B; Adjusted EBITDA $1.79B-$1.83B; Diluted Adjusted EPS guidance per Q1 2026 release. Reaffirmed at Q1 2026. (PROJECTION)",
+ "pct_off_52w_high": -46.3,
+ "pct_off_ath": -47.7,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "guidance_fy"
+ ],
+ "estimated_fields": [
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "nd_ebitda",
+  "last_fy.organic_growth_pct",
+  "market_cap_usd_b",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "SEC EDGAR — Verisk 10-Q Q1 2026 (filed 2026-04-29, period ended 2026-03-31)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926013729/vrsk20260331_10q.htm",
+   "date": "2026-04-29"
+  },
+  {
+   "label": "SEC EDGAR — Verisk 10-K FY2025 (filed 2026-02-18)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926004452/vrsk20251231_10k.htm",
+   "date": "2026-02-18"
+  },
+  {
+   "label": "SEC XBRL company facts API (CIK 0001442145) — revenue, OCF, capex, SBC, debt, cash, EPS, net income",
+   "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001442145/us-gaap/ShareBasedCompensation.json",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com — VRSK overview/statistics (price, fwd P/E, PEG, net debt, EV/EBITDA, 52w range)",
+   "url": "https://stockanalysis.com/stocks/vrsk/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "GuruFocus — VRSK Q1 2026 earnings highlights (adj EBITDA margin 55.9%, transactional -6.1% OEC, guidance)",
+   "url": "https://www.gurufocus.com/news/8830921/verisk-analytics-inc-vrsk-q1-2026-earnings-call-highlights-steady-growth-amidst-challenges",
+   "date": "2026-04-29"
+  },
+  {
+   "label": "Investing.com — VRSK all-time high $322.92 (Jun 5 2025)",
+   "url": "https://www.investing.com/news/company-news/verisk-analytics-stock-soars-to-alltime-high-of-28714-93CH-3712617",
+   "date": "2025-06-05"
+  },
+  {
+   "label": "Yahoo Finance — VRSK valuation reset after ~43-46% slide; AI commoditization fears",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/verisk-analytics-vrsk-stock-43-190511820.html",
+   "date": "2026-06-19"
+  }
+ ],
+ "notes": "VERIFICADO via SEC (10-Q Q1 2026 + 10-K FY2025 + XBRL facts): Q1'26 rev $782.6M (+3.9% YoY; +4.7% organic constant-currency per release), op income $352.2M (op margin 45.0%), GAAP dil EPS $1.73, adj EPS $1.82. FY2025 rev $3,072.7M, op income $1,343.9M (op margin 43.7%), OCF $1,436.0M, capex $244.1M -> FCF $1,191.9M (FCF margin 38.8%). SBC FY2025 $54.2M = 1.76% rev / 4.5% FCF (muy bajo, favorable R9; Q1'26 SBC $18.4M). Net debt Q1'26 = $4,475.6M debt - $524.5M cash = $3.95B (caja cayo desde $2,178M a fin 2025 por recompra acelerada financiada con deuda; stockanalysis reporta net debt $4.10B incl. leases). ND/EBITDA ~2.2x sobre EBITDA ajustado guiado 2026 ~$1.81B (~2.3x sobre EBITDA ajustado FY25 ~$1.73B) — ESTIMADO. ROIC FY2025 no extraido de fuente primaria (null). Valoracion ESTIMADA (agregador): fwd P/E 21.3x, PEG 1.82, trailing P/E 25.77x. fwd_pe_5y_avg ~30 es ESTIMADO (la media trailing 5a citada por agregadores es ~44x; uso ~30 como proxy de fwd P/E historico -> descuento ~-29%). Precio $168.99 al 22-jun-2026 (stockanalysis); market cap ~$22.1B (131.0M acciones). Caida -46.3% desde maximo 52s ($314.80) y -47.7% desde ATH ($322.92, 5-jun-2025). CLASIFICACION: fear_rotation — la direccion REAFIRMO guia FY2026, margenes adj EBITDA SUBEN (55.9%, +60pb), FCF ~39%; el desplome lo impulsan (1) miedo a que la IA comoditice el foso de datos, (2) desaceleracion organica transitoria que la direccion llamo 'trough' (3.9% Q1, en parte por bajo volumen transaccional por clima benigno en property/restoration). Economia del negocio intacta -> miedo/rotacion, no deterioro genuino (componente menor de desaceleracion real)."
+}

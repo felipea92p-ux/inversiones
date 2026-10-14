@@ -1,0 +1,59 @@
+{
+ "ticker": "RACE",
+ "name": "Ferrari N.V.",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Margenes operativos altos y en expansion (EBIT 29.5-29.7%, EBITDA ~39%) pero el modelo es de produccion fisica con volumen deliberadamente limitado, no escalable tipo software/red, asi que base 1.0 sin 2.0."
+  },
+  "R2": {
+   "score": 1,
+   "just": "El ultra-lujo/coleccionables de motor sigue creciendo secularmente con riqueza global, aunque no es un mercado en hiper-expansion: crecimiento organico FY2025 +8% cc lo confirma sin ser explosivo."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Lider indiscutido del super-deportivo de lujo con marca y herencia de carreras unicas, claramente #1 en su nicho de prestigio, justificando 1.5 por durabilidad superior aunque no domina volumen frente a McLaren/Lamborghini en unidades."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat irreplicable en decadas: marca-icono + escasez deliberada + lista de espera/cartera hasta fin de 2027 + poder de fijacion de precios (pricing power) que ninguna marca puede recrear, la combinacion R3+R4 es monstruosa."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento 100% organico (+8% cc FY2025) sin M&A diluyente, impulsado por mix/precio y personalizacion, durabilidad superior justifica 1.5."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Multi-geografia (EMEA, Americas, China/APAC) y base de clientes atomizada sin concentracion >10-15%, pero linea de negocio unica (autos) limita a base 1.0."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC historicamente ~30%+ muy por encima del WACC con capital ligero, Industrial FCF EUR 1,538M (+50%, margen 21.5%) y conversion FCF/NI fuerte, justifica 1.5 (ROIC no divulgado este periodo pero estructuralmente excelente)."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Caja neta industrial (Net Industrial Cash EUR +388M a Mar-2026), ND/EBITDA ~-0.1x, balance fortaleza con recompras de EUR 226M en el trimestre, justifica 1.5."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "SBC verificada diminuta (~0.34% de ingresos, ~1.6% del FCF), muy por debajo del umbral de 15%, contabilidad limpia (adjusted=reported sin ajustes), claridad superior justifica 1.5."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Asignacion de capital ejemplar: recompras oportunistas agresivas en vez de M&A destructora, guia conservadora y cumplida, gobierno solido (familia Agnelli/Exor con skin-in-the-game), justifica 1.5."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R3 (lider indiscutido del nicho de prestigio) + R4 (marca-icono irreplicable + escasez deliberada + pricing power) se refuerzan de forma monstruosa: la escasez controlada ALIMENTA la marca y la marca SOSTIENE el pricing power y la cartera de pedidos extendida hasta fin de 2027. R1 es solido (margenes ~39% EBITDA en expansion) pero no escalable tipo software, por lo que el eje de amplificacion es R3+R4 (no el triple completo con fuerza de 2.0 en R1).",
+ "moat_type": "marca/intangibles + escasez",
+ "moat_one_line": "Marca-icono irreplicable con escasez deliberada que genera pricing power extremo y cartera de pedidos hasta fin de 2027, imposible de recrear en decadas.",
+ "thesis_3lines": [
+  "Calidad: negocio de calidad excepcional con margenes EBITDA ~39% en expansion, ROIC ~30%+, caja neta y SBC diminuta (~1.6% del FCF) - moat de marca irreplicable.",
+  "Crecimiento: motor organico puro (+8% cc) via mix/precio/personalizacion y cartera de pedidos extendida hasta fin de 2027, con Industrial FCF +50% record y guia 2026 elevada y confirmada en Q1.",
+  "Valoracion/retorno: fwd P/E ~31x (-26% vs su media 5a ~42x) tras de-rating por fear_rotation con fundamentales intactos (-33% desde ATH), pero PEG ~4-6.6x sigue exigente sobre crecimiento EPS modesto ~5%."
+ ],
+ "bear_case_strongest": "El crecimiento de EPS guiado (~5% para 2026) es modesto frente a un multiplo aun elevado (PEG ~4-6.6x): el precio descuenta perfeccion y la transicion EV (Elettrica/Luce) podria erosionar la mistica del motor de combustion que sostiene el moat y el pricing power.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Re-score total: 14.0 puntos brutos pero TECHO 13.5 (Seilern ponderado) -> 13.5/13.5. SBC verificada ~1.6% del FCF (muy por debajo de 15%), R9 sin penalizacion. Caja neta industrial confirmada (net_cash=true, ND/EBITDA ~-0.1x). Caida -32.9% desde ATH clasificada fear_rotation (de-rating de multiplo de ~45x a ~31x), NO deterioro de fundamentales: FY2025 record (rev +7%, FCF +50%), guia 2026 confirmada en Q1, cartera hasta fin 2027. Riesgo principal de valoracion: PEG ~4-6.6x exigente sobre crecimiento EPS ~5%. R1 limitado a 1.0 (no escalable tipo software, modelo de produccion fisica con volumen deliberadamente limitado). Cifras operativas en EUR (fuente primaria SEC 6-K); valuacion en USD via ADR (estimado)."
+}

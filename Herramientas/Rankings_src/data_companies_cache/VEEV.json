@@ -1,0 +1,100 @@
+{
+ "ticker": "VEEV",
+ "name": "Veeva Systems Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 153.16,
+ "market_cap_usd_b": 24.88,
+ "fwd_pe": 16.6,
+ "fwd_pe_5y_avg": 44.5,
+ "pe_prem_disc_pct": -63,
+ "peg": 0.77,
+ "last_q": {
+  "period": "Q1 FY2027 (ended Apr 30, 2026)",
+  "revenue": "$882.9M",
+  "rev_yoy_pct": 16.3,
+  "op_margin_pct": 30.9,
+  "eps_gaap": "$1.57",
+  "eps_adj": "$2.24"
+ },
+ "last_fy": {
+  "period": "FY2026 (ended Jan 31, 2026)",
+  "revenue": "$3,195.3M",
+  "organic_growth_pct": 16,
+  "roic_pct": null,
+  "fcf": "$1,386M",
+  "fcf_margin_pct": 43.4
+ },
+ "sbc_pct_revenue": 14.8,
+ "sbc_pct_fcf": 34.1,
+ "net_debt_usd_b": -7.31,
+ "nd_ebitda": null,
+ "net_cash": true,
+ "guidance_fy": "FY2027 (ending Jan 31, 2027): total revenue $3,635-$3,645M (~14% growth); non-GAAP operating income ~$1,610M; non-GAAP diluted EPS ~$9.05. (PROYECCION de la direccion, anunciada 3-jun-2026)",
+ "pct_off_52w_high": -50.7,
+ "pct_off_ath": -55.5,
+ "drop_classification": "fear_rotation",
+ "data_quality": "VERIFICADO_mostly",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "net_cash",
+  "guidance_fy"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "roic_pct",
+  "nd_ebitda"
+ ],
+ "sources": [
+  {
+   "label": "Veeva Q1 FY2027 results (press release via StockTitan)",
+   "url": "https://www.stocktitan.net/news/VEEV/veeva-announces-fiscal-2027-first-quarter-cj8m023xbkc0.html",
+   "date": "2026-06-03"
+  },
+  {
+   "label": "Veeva Q1 FY2027 Earnings Prepared Remarks (Veeva IR, q4cdn)",
+   "url": "https://s206.q4cdn.com/200001835/files/doc_earnings/2027/q1/supplemental-info/Veeva-Q1-27-Earnings-Prepared-Remarks.pdf",
+   "date": "2026-06-03"
+  },
+  {
+   "label": "Veeva FY2026 Q4 & Full Year Results (PRNewswire press release)",
+   "url": "https://www.prnewswire.com/news-releases/veeva-announces-fourth-quarter-and-fiscal-year-2026-results-302704492.html",
+   "date": "2026-03-04"
+  },
+  {
+   "label": "Veeva FY2026 10-K (SEC EDGAR)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001393052/000139305226000014/veev-20260131.htm",
+   "date": "2026-03-20"
+  },
+  {
+   "label": "StockAnalysis.com VEEV overview & statistics (price, fwd PE, PEG, net cash, FCF)",
+   "url": "https://stockanalysis.com/stocks/veev/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "MacroTrends / valuation history (5y avg fwd PE, ATH)",
+   "url": "https://www.macrotrends.net/stocks/charts/VEEV/veeva-systems/pe-ratio",
+   "date": "2026-06-22"
+  }
+ ],
+ "notes": "Veeva fiscal year ends Jan 31. Last reported quarter = Q1 FY2027 (ended Apr 30, 2026), announced Jun 3, 2026. Last full FY = FY2026 (ended Jan 31, 2026). KEY VALUATION: stock ~$153, down ~50% from 52-wk high ($310.50) and ~55% from ATH ($343.96, Aug 2021), yet fundamentals are HEALTHY and growing — Q1 FY27 rev +16% YoY, non-GAAP op margin 44.8%, FY27 guidance RAISED to ~$3.64B (~14% growth), FCF margin ~43%, net cash >$7B, no debt. Drop is a valuation de-rating: fwd PE compressed from ~44x (5y avg) to ~16.6x, classic fear/rotation out of high-multiple SaaS (likely AI-disruption sentiment), NOT genuine deterioration -> fear_rotation. SBC verified from FY2026 press release: $472.7M total SBC (note: an earlier aggregator figure of ~$119M was a single-component/quarter misread; full-year SBC is $472.7M). SBC/rev=14.8%, SBC/FCF=34.1% (using FCF $1,386M = OCF $1,415.2M minus capex/long-term assets ~$29.1M). net_debt uses cash+ST investments at Apr 30, 2026 = $7,312.7M (FY2026 year-end was $6,560.8M); Veeva has no debt. ROIC not directly disclosed (left null); nd_ebitda not meaningful (net cash). fwd_pe 16.6 reconciles with FY27 non-GAAP EPS guide ~$9.05 ($153.16/$9.05=16.9). organic_growth ~ reported growth (Veeva grows organically; minimal M&A). 5y avg fwd PE ~44.5 is an aggregator estimate (ESTIMADO); some sources show trailing-PE 5y avg of 60-66x which would imply an even deeper discount."
+}

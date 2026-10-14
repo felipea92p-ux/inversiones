@@ -1,0 +1,110 @@
+{
+ "ticker": "ISRG",
+ "name": "Intuitive Surgical, Inc.",
+ "asof_date": "2026-06-18",
+ "currency": "USD",
+ "price": 402.95,
+ "market_cap_usd_b": 142.71,
+ "fwd_pe": 37.8,
+ "fwd_pe_5y_avg": 57,
+ "pe_prem_disc_pct": -33.7,
+ "peg": 2.5,
+ "last_q": {
+  "period": "Q1 2026 (3M ended Mar 31, 2026)",
+  "revenue": "$2,770.8M",
+  "rev_yoy_pct": 23,
+  "op_margin_pct": 30.9,
+  "eps_gaap": "$2.28",
+  "eps_adj": "$2.50"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 31, 2025)",
+  "revenue": "$10,065M",
+  "organic_growth_pct": 17,
+  "roic_pct": 26.2,
+  "fcf": "$2,491M",
+  "fcf_margin_pct": 24.7
+ },
+ "sbc_pct_revenue": 7.7,
+ "sbc_pct_fcf": 26.4,
+ "net_debt_usd_b": -8,
+ "nd_ebitda": null,
+ "net_cash": true,
+ "guidance_fy": "FY2026: worldwide da Vinci procedure growth raised to 13.5%-15.5% (from initial 13%-15%); pro-forma gross margin 67.5%-68.5% of revenue (incl. ~1.0% tariff impact). PROYECCION de la direccion.",
+ "pct_off_52w_high": -33.3,
+ "pct_off_ath": -34,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_fy.revenue",
+  "guidance_fy",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_cash",
+  "net_debt_usd_b"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_q.eps_adj",
+  "last_fy.organic_growth_pct",
+  "last_fy.roic_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "nd_ebitda"
+ ],
+ "sources": [
+  {
+   "label": "SEC EDGAR — ISRG 10-Q Q1 2026 (period ended Mar 31, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000032/isrg-20260331.htm",
+   "date": "2026-04"
+  },
+  {
+   "label": "StockTitan — ISRG 10-Q Q1 2026 summary (OCF $911.9M, capex $103.3M, rev $2,770.8M, op income $855.3M, EPS $2.28, liquidity $7,979.2M)",
+   "url": "https://www.stocktitan.net/sec-filings/ISRG/10-q-intuitive-surgical-inc-quarterly-earnings-report-a75820ad0806.html",
+   "date": "2026-04"
+  },
+  {
+   "label": "SEC EDGAR — ISRG 8-K Q1 2026 earnings release (FY2026 guidance, procedure growth 13.5%-15.5%, GM 67.5%-68.5%)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000029/q126ex-991earningsrelease.htm",
+   "date": "2026-04"
+  },
+  {
+   "label": "StockAnalysis.com — ISRG overview (price $402.95, mkt cap $142.71B, fwd P/E 37.83, 52w high $603.88, off high 33.3%)",
+   "url": "https://stockanalysis.com/stocks/isrg/",
+   "date": "2026-06-18"
+  },
+  {
+   "label": "StockAnalysis.com — ISRG balance sheet (cash+ST/LT investments ~$8.0B, no debt)",
+   "url": "https://stockanalysis.com/stocks/isrg/financials/balance-sheet/",
+   "date": "2026-06"
+  },
+  {
+   "label": "StockAnalysis.com — ISRG FY2025 financials (rev $10,065M, FCF $2,491M, FCF margin 24.7%, op margin 29.3%)",
+   "url": "https://stockanalysis.com/stocks/isrg/financials/",
+   "date": "2026-06"
+  },
+  {
+   "label": "stock-analysis-on.net — ISRG ROIC 2025 (~26.2%)",
+   "url": "https://www.stock-analysis-on.net/NASDAQ/Company/Intuitive-Surgical-Inc/Performance-Measure/Return-on-Capital",
+   "date": "2026"
+  },
+  {
+   "label": "FinanceCharts / FullRatio — ISRG forward P/E history (5y avg ~57)",
+   "url": "https://www.financecharts.com/stocks/ISRG/value/pe-ratio",
+   "date": "2026-06"
+  }
+ ],
+ "notes": "Datos de Q1 2026, guidance FY2026 y SBC son VERIFICADOS (filings SEC 10-Q/8-K, via espejo StockTitan por bloqueo 403 de WebFetch a sec.gov directamente). Precio, market cap, fwd P/E, valuacion historica, ROIC, FY2025 FCF y maximos son de agregadores (ESTIMADO). asof_date del precio = 18-jun-2026 (cierre $402.95; rango intradia reciente ~$396.68-$406.78). CALCULOS: FCF Q1 2026 = OCF $911.9M - capex $103.3M = $808.6M; FCF margin Q1 = 29.2%. SBC Q1 2026 = $213.3M (pre-tax) -> 7.7% de ingresos, 26.4% del FCF trimestral. Net cash ~$8.0B (cash+inversiones $7.98B, sin deuda) -> net_debt = -8.0; nd_ebitda null (caja neta, ratio no significativo). EPS adj Q1 $2.50 vs $1.81 a/a (non-GAAP, de prensa). PEG ~2.5 (fwd P/E 37.8 / ~15% crec EPS). pe_prem_disc -33.7% = descuento fuerte vs media 5a (~57). CLASIFICACION fear_rotation: la caida ~33% desde maximos contrasta con fundamentales en aceleracion (ingresos +23%, op income +48%, procedimientos da Vinci +17%, guidance SUBIDA, FCF robusto, caja neta $8B). Es de-rating de valoracion/rotacion, NO deterioro del negocio. Riesgos citados por la direccion: presion capital en Europa, precios competitivos en China, expiracion subsidios ACA, tariffs ~1% GM. ROIC FY2025 ~26% pese a base de caja elevada."
+}

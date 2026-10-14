@@ -1,0 +1,97 @@
+{
+ "ticker": "KLAC",
+ "name": "KLA Corporation",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 269.16,
+ "market_cap_usd_b": 351.6,
+ "fwd_pe": 54.52,
+ "fwd_pe_5y_avg": 27,
+ "pe_prem_disc_pct": 102,
+ "peg": 3.08,
+ "last_q": {
+  "period": "Q3 FY2026 (ended Mar 31, 2026)",
+  "revenue": "$3.415B",
+  "rev_yoy_pct": 11.5,
+  "op_margin_pct": 41.5,
+  "eps_gaap": "$9.12",
+  "eps_adj": "$9.40"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Jun 30, 2025)",
+  "revenue": "$12.156B",
+  "organic_growth_pct": 12,
+  "roic_pct": 40,
+  "fcf": "$3.747B",
+  "fcf_margin_pct": 30.8
+ },
+ "sbc_pct_revenue": 11.2,
+ "sbc_pct_fcf": 36.3,
+ "net_debt_usd_b": 1.19,
+ "nd_ebitda": 0.2,
+ "net_cash": false,
+ "guidance_fy": "No full-FY guidance issued. Q4 FY2026 guide (qtr ending Jun 30, 2026): revenue $3.575B +/-$200M; GAAP diluted EPS $9.66 +/-$1.00; non-GAAP diluted EPS $9.87 +/-$1.00. Implies full FY2026 revenue ~$13.9B. Management reiterated confidence in its 2030 target model. PROYECCION.",
+ "pct_off_52w_high": -0.3,
+ "pct_off_ath": -0.3,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.period",
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.period",
+  "last_fy.revenue",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "guidance_fy",
+  "net_debt_usd_b",
+  "net_cash"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.organic_growth_pct",
+  "last_fy.roic_pct",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "KLA IR - Fiscal 2026 Q3 Results press release",
+   "url": "https://ir.kla.com/news-events/press-releases/detail/514/kla-corporation-reports-fiscal-2026-third-quarter-results",
+   "date": "2026-04"
+  },
+  {
+   "label": "KLA IR - Fiscal 2025 Q4 & Full Year Results press release",
+   "url": "https://ir.kla.com/news-events/press-releases/detail/500/kla-corporation-reports-fiscal-2025-fourth-quarter-and-full",
+   "date": "2025-07"
+  },
+  {
+   "label": "SEC EDGAR - KLA 10-K FY2025",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000319201/000031920125000024/klac-20250630.htm",
+   "date": "2025-08-08"
+  },
+  {
+   "label": "StockAnalysis.com - KLAC overview & statistics",
+   "url": "https://stockanalysis.com/stocks/klac/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "FinanceCharts/GuruFocus - KLAC PE ratio (5yr avg context)",
+   "url": "https://www.financecharts.com/stocks/KLAC/value/pe-ratio",
+   "date": "2026-05"
+  }
+ ],
+ "notes": "10-for-1 stock split effective ~June 12, 2026 — all per-share figures below reflect split context. CAUTION: last_q EPS ($9.12 GAAP / $9.40 adj) and FY2025 GAAP EPS ($30.37) were reported PRE-split; post-split equivalents are ~$0.91/$0.94 (Q3) and ~$3.04 (FY25). Price/mktcap/fwdPE are POST-split. fwd_pe 54.52 is from StockAnalysis as of 2026-06-22 at ~$269; aggregators dated early May 2026 showed ~35-36 (pre run-up), so fwd_pe is volatile across sources — flagged estimated. fwd_pe_5y_avg ~27 is a blended estimate from aggregators (range 25.7-30.5 cited); pe_prem_disc ~+102% derived from these. Net debt: total debt $6.15B less total cash/marketable securities $4.96B = ~$1.19B modest net debt (NOT net cash); nd/ebitda ~0.2x. SBC $1.360B (FY25) / revenue $12.156B = 11.2%; / FCF $3.747B = 36.3% — VERIFICADO from FY25 release. organic_growth ~12% (FY25 rev $12.156B vs FY24 ~$10.85B, predominantly organic) and roic ~40% are ESTIMATES. drop_classification = not_depressed: stock is at/near all-time high (~0% off 52w high), up ~109% over 6 months, driven by AI/advanced-packaging/memory demand — this is a momentum/strength name, not a fear-driven drawdown. Q4 FY26 guidance and 2030 target model are PROYECCION. Stock trades at NASDAQ."
+}

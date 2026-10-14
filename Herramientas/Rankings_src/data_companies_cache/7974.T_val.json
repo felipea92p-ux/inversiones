@@ -1,0 +1,48 @@
+{
+ "ticker": "7974.T",
+ "name": "Nintendo Co., Ltd.",
+ "currency": "JPY",
+ "price_verified": 7000,
+ "price_source": "StockAnalysis.com / Yahoo Finance — ¥7,000 prior close 2026-06-22 (¥6,889 intraday 2026-06-23)",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 1.15,
+ "implied_mcap_b_usd": 49.9,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 5.6,
+ "wacc_components": {
+  "rf_pct": 1.3,
+  "erp_pct": 5,
+  "beta": 0.85,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF ≈ normalized net income, since SBC is negligible for this Japanese issuer (file confirms null/minimal). FY26 reported FCF ¥262.6bn is depressed by Switch 2 launch working-capital/inventory build and peak memory/component costs; FY26 record net profit was ¥424bn and operating profit ¥360bn. DCF base-case owner earnings set to ~¥320bn (mid-console-cycle normalized), conservative ~¥290bn, optimistic ~¥370bn. Net cash ~¥2.22T added to PV.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 10432,
+   "prob": 0.38,
+   "note": "Owner earnings base ¥290bn (below FY27 guide net ¥310bn), g1 3% / g2 declining to 2% / terminal 2.5%. Persistent memory+tariff cost drag, muted next-cycle. Includes ¥2.22T net cash."
+  },
+  "base": {
+   "iv_per_share": 14423,
+   "prob": 0.47,
+   "note": "Base ¥320bn normalized, g1 5% / declining to 3% / terminal 3.0%. Switch 2 software attach + digital mix re-accelerate through cycle. Note: low ~5.6% JPY WACC on fortress net-cash base inflates DCF — cross-checked against multiple anchor."
+  },
+  "optimista": {
+   "iv_per_share": 21938,
+   "prob": 0.15,
+   "note": "Base ¥370bn (FY26 op-profit-level normalized), g1 7% / declining to 4% / terminal 3.5%. Strong SW lifecycle, high-margin digital/IP (movies, parks) compounding."
+  }
+ },
+ "iv_dcf_weighted": 14034,
+ "multiple_metric": "Forward P/E on normalized net EPS",
+ "fwd_multiple_now": 19.94,
+ "fwd_multiple_5y_avg": 22,
+ "fair_multiple": 22,
+ "multiple_rationale": "Multiple anchored to ~22x on normalized EPS of ¥317 (normalized net income ~¥365bn, blending FY26 record ¥424bn and deliberately-soft FY27 guide ¥310bn, ex one-off FX gains). On this normalized base the stock trades at ~22x vs a ~25x 5y-avg forward P/E and a 33x trailing 10y mean — i.e. already a modest discount. Applied a small haircut from the 25x 5y avg to 22x to reflect GENUINE near-term FY27 cost/tariff headwind (~¥100bn memory/component + tariff) and console-cycle maturity, but NOT structural impairment (record FY26 profit, 37.8% ROIC, net-cash fortress). On the trough FY27 guided EPS (¥270) the implied 'now' multiple is ~26x, which overstates richness because earnings are cyclically depressed — hence normalized EPS is the correct anchor.",
+ "iv_multiple": 7020,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 9826,
+ "structural_change": "No structural impairment. The -52.7% drawdown from the ¥14,795 ATH (Aug 2025) is a de-rating from a euphoric ~36.8x peak P/E PLUS genuine cyclical EPS compression in FY27 guidance (net profit -26.9%) driven by memory/component cost inflation and tariffs, layered on a normal post-launch software 'drought' and hardware deceleration. The franchise is structurally healthy: record FY26 net profit ¥424bn, ROIC 37.8%, ~¥2.22T net cash / zero financial debt, expanding high-margin digital + IP monetization (film, parks, merchandising). Negligible SBC — not a dilution risk. Console hardware cyclicality remains the key swing factor, not secular decline.",
+ "sanity_notes": "Price ¥7,000 × 1.15B shares = ¥8.05T ≈ $49.9B at 161.5 USD/JPY — matches Nintendo's known ~$50B scale (mcap_sanity_ok=true). Reconciled IV ¥9,800 = 140% of price, comfortably inside the 30–300% sanity band. Reported raw beta of 0.13 (StockAnalysis) is implausibly low for cost-of-equity purposes (reflects yen-denominated defensive behavior + net-cash B/S); floored effective beta to 0.85 for a quality consumer franchise, giving WACC ~5.6%. The pure DCF (¥14,034) runs rich precisely because the ultra-low Japanese discount rate compounds terminal value on a fortress net-cash base — so per the framework's compounder caveat (here DCF OVER-credits rather than under-credits) the reconciliation tilts toward the multiple anchor (0.40 DCF / 0.60 multiple) given real console-cycle cyclicality. Reconciled IV ¥9,800 implies ~+40% upside vs ¥7,000; quality + net-cash + reasonable normalized multiple support a constructive but not heroic stance."
+}

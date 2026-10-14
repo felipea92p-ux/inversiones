@@ -1,0 +1,42 @@
+{
+ "ticker": "FDS",
+ "name": "FactSet Research Systems Inc.",
+ "currency": "USD",
+ "current_price": 218.62,
+ "wacc_pct": 9.6,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.05,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = FCF reportado $617.5M - 100% SBC $61.2M = $556.3M (margen owner ~24.0% sobre ingresos $2,321.7M; ~$14.85 por accion sobre 37.456M acciones diluidas). SBC baja (2.6% ingresos / 9.9% FCF), por lo que el ajuste de owner earnings es modesto, lo que favorece la calidad del flujo.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 6,
+  "rev_cagr_y6_10_pct": 4.7,
+  "fcf_margin_terminal_pct": 24.5,
+  "terminal_g_pct": 3,
+  "shares_diluted_b": 0.037456,
+  "net_debt_usd_b": 1.03,
+  "sbc_treatment": "100% de la SBC tratada como gasto en efectivo (restada del FCF reportado); SBC FY25 $61.2M = 9.9% del FCF"
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 198.42,
+   "prob": 0.375,
+   "note": "Disrupcion por IA/LLMs sobre terminales de datos erosiona la propuesta de valor: crecimiento de ingresos se desacelera a ~4.5% en Fase 1 fundiendose hacia 2.5%, margen owner comprime a ~23.5% por inversion defensiva en IA. WACC 9.9% (beta efectivo mayor por incertidumbre estructural), g terminal 2.5%. IV ~$198, ligeramente bajo el precio: el de-rating ya descuenta buena parte de este escenario."
+  },
+  "base": {
+   "iv_per_share": 255.03,
+   "prob": 0.475,
+   "note": "Consistente con track record: ASV organico ~6% (en linea con guia FY26 +5.4-6.7%) declinando hacia 3.5% en Fase 2, margen owner ~24.5% estable. FactSet integra IA en su plataforma sin perder retencion (~90%+). WACC 9.6%, g terminal 3.0%. IV ~$255, ~17% sobre el precio."
+  },
+  "optimista": {
+   "iv_per_share": 345.34,
+   "prob": 0.15,
+   "note": "La IA se vuelve viento de cola: FactSet monetiza copilotos/datos premium, ASV reacelera a ~8% en Fase 1 hacia 4% terminal, margen owner se expande a ~26% por apalancamiento operativo. WACC 9.3%, g terminal 3.5%. IV ~$345 implica re-rating parcial hacia el multiplo historico."
+  }
+ },
+ "sanity_check": "Como red de datos/analitica financiera con foso (suscripcion recurrente, retencion ~90%+, 29 anios consecutivos de crecimiento de EPS ajustado), el DCF de owner earnings es valido. Contraste por rendimiento total al accionista (NO DDM): dividendo $4.40 -> yield ~2.0%; owner FCF yield (FCF-SBC)/market cap = 6.8% ($556M sobre $8.19B mkt cap); capacidad de recompra tras dividendo ~$391M = ~4.8% yield -> rendimiento total al accionista ~6.8% (dividendo + recompra financiados con owner FCF), o ~7.5% sobre FCF bruto. Un yield total de 6.8% sin crecimiento ya supera el coste de capital implicito si se asume cualquier crecimiento positivo, lo que respalda que el VI base (~$255) este sobre el precio. VI ponderado por probabilidad ~$247 vs precio $218.62 -> ~13% de margen. El de-rating masivo (fwd P/E ~12.5x vs media 5a ~29.6x, -58%) ha llevado la accion a un nivel donde incluso el escenario conservador (IA disruptiva) esta razonablemente descontado.",
+ "method_notes": "DCF owner earnings 10 anios en dos fases. Owner FCF base = FCF reportado FY2025 $617.5M menos 100% SBC ($61.2M) = $556.3M. Fase 1 (anios 1-5): CAGR ingresos explicito por escenario (4.5%/6.0%/8.0%), margen owner FCF deslizandose linealmente desde 24.0% (base FY25) hacia el margen objetivo. Fase 2 (anios 6-10): CAGR declinando linealmente hacia normalizacion (2.5%/3.5%/4.0%). Valor terminal por Gordon con g=2.5-3.5% segun fortaleza del foso. Descuento al WACC = Rf 4.3% (UST 10Y, empresa US, sin ajuste geopolitico) + ERP 5.0% x beta ~1.05 (negocio de suscripcion de baja volatilidad operativa pero con riesgo de disrupcion estructural por IA) = 9.6% base; conservador 9.9%, optimista 9.3%. VI/accion = (PV flujos + PV valor terminal - deuda neta $1.03B) / 37.456M acciones diluidas. Datos de FASE 2 verificados en FDS.json; no se requirio busqueda web adicional. SBC tomada del valor oficial del press release ($61.2M), no del dato erroneo de Macrotrends (~$152M)."
+}

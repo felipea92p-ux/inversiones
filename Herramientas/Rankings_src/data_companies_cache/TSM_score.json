@@ -1,0 +1,59 @@
+{
+ "ticker": "TSM",
+ "name": "Taiwan Semiconductor Manufacturing Company (ADR)",
+ "rules": {
+  "R1": {
+   "score": 1.5,
+   "just": "Foundry no es software puro pero la escala extrema apalanca op margin 58.1% en Q1'26 con ROIC ~35%: el liderazgo en nodos avanzados genera margenes crecientes con volumen, aunque la intensidad de capital limita el 2.0."
+  },
+  "R2": {
+   "score": 2,
+   "just": "Semiconductores avanzados (AI/HPC, 3nm/2nm) en megatendencia secular con rev +35.1% YoY en Q1'26 y guia mid-20s% para FY2026; demanda estructural irreplicable a corto plazo."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Lider #1 indiscutible de foundry pura (~60-70% cuota global, monopolio de facto en nodos punta) que deja a Samsung/Intel a anios-luz en rendimiento y volumen de 3nm/2nm."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat irreplicable por decadas: intangibles de proceso, escala de capex (~US$40B+/anio), costes de cambio para clientes (Apple/Nvidia) y know-how acumulado imposible de copiar en el corto plazo."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento 100% organico (organic_growth 31.6% FY2025, +35.1% YoY Q1'26) sin dependencia de M&A; pura expansion de capacidad y nodos."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Multi-geografia (EE.UU./Asia/Europa) y base amplia de clientes fabless, pero concentracion en pocos megaclientes (Apple/Nvidia >10%) y riesgo geopolitico Taiwan limita la diversificacion a base."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC 35.4% muy por encima del WACC y FCF margin ~33% (US$40.5B); capex alto inherente al negocio NO penaliza dado el retorno excepcional sobre capital."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Caja neta US$71.58B (ND/EBITDA ~-0.9x), balance fortaleza con caja > deuda, capaz de autofinanciar capex masivo sin apalancamiento."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "Contabilidad IFRS limpia, EPS GAAP = reportado sin ajustes non-GAAP; SBC ~0% del FCF (remunera con bonos en efectivo, sin dilucion material) -> flag ok, calidad contable superior."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Gestion disciplinada con asignacion de capital a capex de alto retorno y dividendos crecientes; gobierno solido aunque sin recompras oportunistas agresivas y con sensibilidad geopolitica/estatal taiwanesa."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1+R3+R4 se refuerzan de forma monstruosa: el liderazgo absoluto en foundry (R3) sostiene un moat irreplicable de proceso/escala/costes de cambio (R4) que a su vez alimenta margenes crecientes con volumen y nodos punteros (R1). La combinacion crea un cuasi-monopolio de los semiconductores avanzados que ningun competidor puede replicar en una decada.",
+ "moat_one_line": "Cuasi-monopolio en fabricacion de nodos avanzados (3nm/2nm) blindado por intangibles de proceso, escala de capex irreplicable y altisimos costes de cambio para clientes fabless.",
+ "moat_type": "intangibles_escala_costes_de_cambio",
+ "thesis_3lines": [
+  "Calidad excepcional: lider monopolico de foundry con op margin 58%, ROIC 35.4%, caja neta US$71.58B y contabilidad IFRS limpia sin SBC dilutiva.",
+  "Motor de crecimiento: demanda secular AI/HPC impulsa rev +35.1% YoY y guia mid-20s% FY2026 sobre liderazgo irreplicable en 3nm/2nm.",
+  "Valoracion/retorno: fwd P/E ~24x con prima modesta (~+12% vs media 5a) y PEG ~0.6, razonable para un compounder de calidad monstruosa pese a cotizar cerca de maximos."
+ ],
+ "bear_case_strongest": "El riesgo geopolitico de concentracion fisica en Taiwan (invasion/bloqueo chino) es un riesgo de cola binario que ninguna calidad operativa puede compensar y que podria destruir gran parte del valor de la noche a la manana.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Score total re-puntuado: 16.0/13.5 nominal (R1 1.5 + R2 2.0 + R3 2.0 + R4 2.0 + R5 1.5 + R6 1.0 + R7 1.5 + R8 1.5 + R9 1.5 + R10 1.0). Si se aplica techo 13.5 la empresa lo satura claramente (caso de maxima calidad). SBC ~0% del FCF (verificado favorable): R9 sin penalizacion por regla dura, flag ok. Valoracion en/cerca de maximos (not_depressed, -1.8% del ATH) -> no hay catalizador de descuento; entrada a precio pleno. R6 es la unica regla por debajo de 1.5 ademas de R10 por concentracion de megaclientes y riesgo geopolitico de cola. Datos de price/market_cap/fwd_pe/FCF/SBC son ESTIMADOS (data_quality MIXED); cifras core de ingresos/margenes/EPS/caja neta VERIFICADAS via 6-K SEC y 20-F."
+}

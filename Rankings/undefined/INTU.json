@@ -1,0 +1,212 @@
+{
+  "ticker": "INTU",
+  "empresa": "Intuit Inc.",
+  "cik": "0000896878",
+  "fecha_valoracion": "2026-07-27",
+  "divisa": "USD",
+  "moneda_funcional": "USD",
+  "etiqueta_calidad_congelada": "MUY_BUENA",
+  "puertas_pasadas": 4,
+  "especie": "G2",
+  "advertencia_valorador": "La etiqueta de calidad esta CONGELADA. Nada de lo que sigue la reclasifica. Al abrir el precio aparece la tentacion clasica: -62% desde maximos, un negocio con nombre de campeon, y la contradiccion madre pidiendo la puerta de atras. No se abre.",
+
+  "mecanismo_heredado": "Intuit es duena del registro contable vivo de la pyme estadounidense y del asesor que lo lleva, y esa propiedad le permite subir el precio efectivo un 11-14% al ano sin que los clientes de pago dejen de crecer, sobre una base operativa que no consume capital neto. Eslabon debil heredado: el destino del capital de ayer (8.746 M hacia Credit Karma y Mailchimp con ROIIC de ventana 7,9% bruto / 9,7% ex-margen).",
+
+  "precio_y_capitalizacion": {
+    "precio_usd": 303.97,
+    "fuente_precio": "IBKR MCP get_price_snapshot, contract_id 270662, last=303.97, ts 2026-07-26/27. HECHO (dato vivo de mercado).",
+    "cross_check_precio": "stockanalysis.com: cierre 303.91 el 27-jul-2026, +2.56%. INFERENCIA (agregador, solo comprobacion cruzada).",
+    "acciones_en_circulacion_mm": 273.537,
+    "fuente_acciones": "10-Q FY26Q3 (acc 0000896878-26-000025), portada dei:EntityCommonStockSharesOutstanding = 273.537.000 al 14-may-2026. HECHO.",
+    "no_es_ads": "Accion ordinaria Nasdaq, $0,01 par. No hay ratio ADS que ajustar. HECHO (8-K portada).",
+    "capitalizacion_usd_mm": 83147,
+    "deuda_bruta_usd_mm": 7912,
+    "detalle_deuda": "Al 30-abr-2026 (10-Q, HECHO): deuda corto plazo 750 + deuda largo plazo 5.412 = 6.162. Mas emision del 11-jun-2026 (8-K acc 0001193125-26-267866, HECHO): 750 M al 4,950% vto 2031 + 1.000 M al 5,500% vto 2036 = 1.750 M. Pro-forma bruto 7.912. La empresa declara intencion de refinanciar 750 M al 5,250% vto 2026 y 500 M al 1,350% vto 2027; si lo ejecuta, la deuda neta post-refi baja a ~6.662. INFERENCIA sobre el timing.",
+    "caja_e_inversiones_usd_mm": 6780,
+    "fuente_caja": "Nota de prensa FY26Q3 (Ex-99.01, 20-may-2026): 'total cash and investments balance of $6.8 billion and debt of $6.2 billion as of April 30, 2026'. Cuadra con balance: caja 4.681 + inversiones 2.099 = 6.780. HECHO. Excluidos los 7.760 de 'funds receivable and amounts held for customers' porque tienen contrapartida identica en pasivo.",
+    "deuda_neta_usd_mm": -618,
+    "ev_usd_mm": 82529,
+    "cross_check_ev": "stockanalysis.com EV 83,25 B. Diferencia <1%. INFERENCIA."
+  },
+
+  "candado_b_wacc_de_mercado": {
+    "regla": "El WACC sale del mercado, nunca de un tier de calidad. PROHIBIDO heredarlo.",
+    "tasa_libre_riesgo_pct": 4.69,
+    "fuente_tasa_libre_riesgo": "Bono del Tesoro de EEUU a 10 anios, cierre 24-jul-2026 = 4,69% (Treasury Yields Snapshot 24-jul-2026, Advisor Perspectives/dshort; 2 anios 4,33%). Moneda funcional USD, luego el soberano correcto es el americano. INFERENCIA (fuente secundaria de mercado, no primaria).",
+    "beta": 1.10,
+    "fuente_beta": "Yahoo Finance y stockanalysis.com, Beta 5Y = 1,00 (consultado 27-jul-2026). Investing.com Beta 5Y = 1,25. Uso 1,10 como central y reporto el rango 1,00-1,25. INFERENCIA. AVISO: es una beta retrospectiva de 5 anos que NO recoge el regimen actual: la volatilidad historica anualizada que reporta IBKR hoy es 57,7%, propia de una accion en crisis idiosincratica, no de una beta 1,0.",
+    "beta_rango": "1,00 - 1,25",
+    "prima_mercado_pct": 4.20,
+    "fuente_prima_mercado": "Damodaran, actualizacion del 1-jul-2026: ERP implicita EEUU 4,42% con el S&P 500 en 7.499,36; neteando el diferencial de impago Aa1 de 0,22% resulta una prima de mercado maduro de 4,20%. HECHO (tabla del autor, fecha citada).",
+    "prima_pais_pct": 0.22,
+    "fuente_prima_pais": "Damodaran 1-jul-2026: diferencial de impago soberano EEUU con rating Moody's Aa1 = 0,22%. El riesgo de ACTIVO de Intuit es esencialmente estadounidense (TurboTax, QuickBooks y Credit Karma son negocios de EEUU; el internacional es minoritario). ERP total aplicada = 4,20 + 0,22 = 4,42%. HECHO.",
+    "coste_capital_propio_pct": 9.55,
+    "coste_deuda_pct": 4.6,
+    "derivacion_coste_deuda": "REAL, de los filings: gasto financiero de deuda 9M FY26 = 186 M (10-Q) anualizado 248 M sobre deuda media (5.973 al 31-jul-2025 y 6.162 al 30-abr-2026, media 6.068) = 4,09%. FY2025 completo: 247 / media 6.005 = 4,11%. Coste MARGINAL observado: emision del 11-jun-2026, mezcla ponderada (750x4,95% + 1.000x5,50%)/1.750 = 5,26%. Uso 4,6% central (mezcla del historico del filing y el marginal, porque estan refinanciando papel barato de 2027 al 1,35% con papel al 5,5%). Rango 4,1-5,3%. HECHO las dos puntas, INFERENCIA la mezcla.",
+    "tasa_impositiva_pct": 24,
+    "fuente_tasa_impositiva": "10-Q FY26Q3: 'Excluding discrete tax items... our effective tax rate for both periods was approximately 24%'. HECHO.",
+    "ponderacion": "E = 83.147 (capitalizacion de mercado). D = 7.912 (valor de mercado aproximado por el nominal; emisiones investment grade recientes cerca de par). E/V = 91,3%, D/V = 8,7%.",
+    "wacc_pct": 9.03,
+    "wacc_rango": "8,6% - 9,7%",
+    "wacc_escenario_beta_regimen": "Si en vez de la beta retrospectiva de 1,00 se usara una que recogiera el regimen actual (vol anualizada 57,7%, riesgo idiosincratico de disrupcion), el WACC se iria a 10,5%+ y el valor por accion caeria a ~259 USD, es decir MoS de -17%. Lo dejo como sensibilidad declarada, NO como caso central, porque el candado exige beta citable."
+  },
+
+  "owner_earnings": {
+    "definicion_declarada": "OE = Flujo de caja de operaciones NORMALIZADO - compensacion en acciones (SBC) - capex. Version (a) resta la depreciacion como aproximacion del capex de mantenimiento; version (b) resta todo el capex. La SBC se resta integra por decision explicita: son 2.000 M al ano de dilucion real que la empresa recompra con caja; no restarla seria contar dos veces.",
+    "normalizacion_critica_seccion_174": {
+      "que_es": "El renglon 'Deferred income taxes' del estado de flujos cambia de signo de forma violenta: -435 M en FY2025 (y -554 en FY2024, -628 en FY2023) frente a +1.150 M en solo 9 meses de FY2026. El activo por impuesto diferido de largo plazo cae de 1.222 M (31-jul-2025) a 113 M (30-abr-2026).",
+      "lectura": "Es la reversion de la capitalizacion fiscal de I+D (Seccion 174): durante FY23-FY25 Intuit pagaba mas caja en impuestos que su gasto contable, y en FY2026 recupera el atraso de golpe. Es caja real pero NO recurrente, y el activo diferido ya esta practicamente agotado (quedan 113 M).",
+      "consecuencia": "El flujo de caja operativo reportado de FY2026 esta inflado en ~1.200 M. Sin normalizar, los owner earnings 'en curso' parecen crecer un 37% sobre el ultimo auditado. Normalizados, crecen un 2%. Esta es la cifra mas importante de todo el expediente.",
+      "etiqueta": "HECHO las cifras (10-K FY2025 R9 y 10-Q FY26Q3 R7); INFERENCIA la atribucion a Seccion 174 y la decision de normalizar."
+    },
+    "base_1_ultimo_auditado_FY2025": {
+      "ejercicio": "FY2025, cerrado 31-jul-2025, 10-K acc 0000896878-25-000035, auditor Ernst & Young",
+      "ingresos_usd_mm": 18831,
+      "resultado_operativo_gaap_usd_mm": 4923,
+      "beneficio_neto_usd_mm": 3869,
+      "cfo_reportado_usd_mm": 6207,
+      "impuestos_diferidos_en_cfo_usd_mm": -435,
+      "cfo_normalizado_usd_mm": 6642,
+      "sbc_usd_mm": 1968,
+      "depreciacion_usd_mm": 172,
+      "capex_total_usd_mm": 124,
+      "detalle_capex": "Compra de inmovilizado 84 + desarrollo de software capitalizado 40 = 124. Notese que el capex TOTAL (124) es INFERIOR a la depreciacion (172): Intuit no solo no invierte en exceso, invierte por debajo del desgaste contable. La reinversion de esta empresa no pasa por el capex sino por la cuenta de resultados (I+D 2.519 M y marketing 4.270 M en 9M FY26) y por las adquisiciones.",
+      "oe_a_mantenimiento_usd_mm": 4502,
+      "oe_b_capex_total_usd_mm": 4550,
+      "sin_normalizar_referencia": "OE(a) 4.067 / OE(b) 4.115 si NO se normaliza el diferido de impuestos.",
+      "sin_cargar_sbc_referencia": "OE(b) 6.518 si NO se resta la SBC.",
+      "comprobacion_cruzada": "Beneficio neto 3.869 + amortizacion de intangibles adquiridos 637 = 4.506, practicamente identico a OE(b) 4.550. La coherencia por dos caminos independientes da confianza en el orden de magnitud."
+    },
+    "base_2_en_curso_FY2026_anualizado": {
+      "ejercicio": "FY2026, cierra 31-jul-2026 (a 4 dias de esta valoracion). NO AUDITADO. 9 meses publicados en 10-Q + guia de la empresa para Q4.",
+      "guia_empresa": "Nota de prensa FY26Q3 del 20-may-2026: ingresos FY26 21.341-21.374 M (+13-14%); resultado operativo GAAP 5.705-5.725 M (+16%); BPA diluido GAAP 15,79-15,84; BPA no-GAAP 23,80-23,85. Q4: ingresos +11-12%, BPA GAAP 0,73-0,79 (incluye 300 M de reestructuracion). HECHO.",
+      "ingresos_9m_usd_mm": 17094,
+      "ingresos_fy26e_usd_mm": 21357,
+      "cfo_9m_reportado_usd_mm": 7507,
+      "impuestos_diferidos_9m_en_cfo_usd_mm": 1150,
+      "cfo_fy26e_reportado_usd_mm": 7807,
+      "cfo_fy26e_normalizado_usd_mm": 6607,
+      "sbc_fy26e_usd_mm": 2039,
+      "depreciacion_fy26e_usd_mm": 178,
+      "capex_fy26e_usd_mm": 220,
+      "oe_a_mantenimiento_usd_mm": 4692,
+      "oe_b_capex_total_usd_mm": 4650,
+      "sin_normalizar_referencia": "OE(a) 5.590 / OE(b) 5.548 si NO se normaliza el diferido de impuestos.",
+      "sin_cargar_sbc_referencia": "OE(b) 6.387 si NO se resta la SBC.",
+      "supuestos_q4": "CFO Q4 ~300 M (Q4 es el valle estacional: 381 M en FY25, 417 M en FY24, porque la caja de la campana fiscal entra en Q3) menos la parte en caja de la reestructuracion. Capex Q4 ~70 M. SBC Q4 ~490 M. INFERENCIA."
+    },
+    "distancia_entre_bases": {
+      "nominal_reportado": "+37% (OE b: 4.115 -> 5.548). Es la lectura ingenua y es falsa.",
+      "normalizado": "+2,2% (OE b: 4.550 -> 4.650).",
+      "contraste_con_ingresos": "Los ingresos crecen 13-14%. Los owner earnings normalizados crecen 2%. Contrastado tambien 9M contra 9M: OE normalizado 4.660 (FY26) frente a 4.527 (FY25), +2,9%, con ingresos +14,0%.",
+      "que_significa": "El crecimiento de ingresos NO esta llegando al dueno. La brecha se explica por SBC creciente (1.478 -> 1.549 en 9M), provision por perdidas crediticias que se duplica (101 -> 189, es el libro de prestamos de QuickBooks Capital, 1.662 M de notes receivable) y capital circulante. Este es el dato del ciclo que pedia el encargo, y no es un dato amable."
+    }
+  },
+
+  "dcf_inverso": {
+    "motor": "Que crecimiento a 10 anios, con valor terminal al 3%, justifica exactamente el precio de hoy al WACC calculado (9,03%). Descuento el flujo del dueno (ya es post-interes y post-impuesto) y sumo la caja neta de 618 M.",
+    "g_implicita_base_auditada_pct": 3.79,
+    "g_implicita_base_encurso_pct": 3.50,
+    "lectura": "El mercado a 304 USD pide que Intuit crezca sus owner earnings un 3,5-3,8% anual durante diez anios y luego un 3% para siempre. Ese es un liston BAJO en terminos absolutos: es apenas inflacion mas un punto. Es la constatacion de que el mercado ha dejado de pagar por la historia de crecimiento; la accion cayo de 808 a 304 (-62% desde maximos) y ya cotiza como una utility de software. El problema no es que el liston sea alto, es que ni siquiera con un liston bajo aparece un margen de seguridad, porque lo que YO puedo defender esta apenas por encima."
+  },
+
+  "g_defendible": {
+    "formula": "g = tasa de reinversion x ROIIC EX-MARGEN (nunca el bruto: usar el bruto asume que la expansion de margen se repite, y no se repite).",
+    "reinversion_pct": 44.7,
+    "roiic_ex_margen_pct": 9.7,
+    "roiic_bruto_pct": 7.9,
+    "g_defendible_pct": 4.34,
+    "observacion_demoledora": "El ROIIC ex-margen (9,7%) es practicamente identico al WACC (9,03%). Cuando el retorno del capital incremental iguala al coste del capital, el crecimiento NO crea valor: es movimiento sin avance. El valor del negocio se aproxima al de una renta perpetua sin crecimiento sobre los owner earnings actuales, que da 4.650/0,0903 = 51.500 M, es decir 191 USD por accion. Todo lo que hay por encima de 191 USD es fe en que el ROIIC futuro supere al pasado.",
+    "por_que_no_uso_una_g_mayor": "La tentacion es tomar el +19% del Online Ecosystem o el +22% de QuickBooks Online Accounting y extrapolar. No se puede: esas cifras son de segmento y ya estan dentro de un consolidado cuyos owner earnings normalizados crecen 2%. La g defendible se deriva del motor (reinversion x retorno), no del titular."
+  },
+
+  "valoracion": {
+    "valor_por_accion_auditado_usd": 317,
+    "valor_por_accion_encurso_usd": 324,
+    "piso_de_resolucion": "Sin medicion propia del ruido aplico +-25% sobre los owner earnings, como manda el encargo. Rango de valor por accion: 243 - 404 USD (base en curso). NO reporto decimales en el valor intrinseco: seria precision falsa sobre una cifra con 160 USD de amplitud.",
+    "sensibilidad_wacc": {
+      "8_59_pct": 350,
+      "9_03_pct": 324,
+      "9_68_pct": 292,
+      "10_50_pct": 259
+    },
+    "mos_auditado_pct": 4.1,
+    "mos_encurso_pct": 6.1,
+    "mos_rango_por_ruido": "de -25% (si los OE son 25% menores) a +25% (si son 25% mayores)",
+    "mos_exigido_pct": 40,
+    "nota_mos_exigido": "Banda MUY_BUENA, umbral de CARGAR (la posicion existe: 24 acciones, 7.295 USD, 5,47% del NAV, precio medio 262,23). El encargo admite dos lecturas aritmeticas, 40% (tabla explicita para MUY_BUENA) o 42% (30% base + 12 puntos). La diferencia es irrelevante: el MoS observado es 6%.",
+    "veredicto_mos": "SUSPENSO POR GOLEADA. Se exige 40%, hay 6%. Y el 6% esta dentro del ruido de la propia estimacion, es decir, es indistinguible de cero.",
+    "prueba_de_robustez": "Incluso en la version mas generosa imaginable -no normalizar nada seria hacer trampa, pero SI se puede probar el caso de no cargar la SBC-, los OE en curso serian 6.387 M, el valor por accion 444 USD y el MoS 31,5%. Sigue por debajo del 40% exigido. Es decir: NO existe un tratamiento contable defendible que haga que Intuit a 304 USD pase el liston de CARGAR."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 12.0,
+    "justificacion_m_estrella": "Decidido en frio, sin barra de error porque no es una estimacion sino un compromiso. Doce veces los owner earnings sostenibles. Razon: un negocio cuyo capital incremental rinde 9,7% contra un coste del 9,0% no merece multiplo de crecimiento; merece el multiplo de una renta con crecimiento de inflacion. 12x implica un crecimiento perpetuo de 9,03% - 1/12 = 0,7%... por debajo de inflacion, que es exactamente la prima de incertidumbre que exijo por tener una pregunta existencial abierta sobre el 50% de los ingresos (TurboTax). Si el mecanismo se confirma intacto en dos anos, subire m*; hoy no.",
+    "precio_al_multiplo_m_estrella_usd": 206,
+    "p_estrella_usd": 194,
+    "derivacion_p_estrella": "Valor por accion base en curso 324 USD x (1 - 40% de MoS exigido) = 194 USD. Coherencia: 194 USD equivalen a 11,3 veces los owner earnings por accion (17,00 USD), muy cerca del m* de 12x decidido por separado. Que los dos anclajes independientes converjan en 194-206 USD es la mejor senal de que el numero no esta amanado.",
+    "precio_hoy_vs_p_estrella": "304 USD frente a 194 USD: el precio tendria que caer otro 36% para que CARGAR fuese defendible. El minimo de 13 semanas fue 252,84 USD; ni siquiera en el suelo del panico llego a P*.",
+    "multiplo_actual_pagado": "17,7x owner earnings normalizados (o 12,8x el BPA no-GAAP guiado de 23,83, que es la cifra que usa el vendedor y que ignora 2.039 M de SBC)."
+  },
+
+  "tir_esperada": {
+    "rango": "7,6% a 10,2% anual a 10 anios; central 9,4%",
+    "escenarios": {
+      "g_0_pct": "7,6% anual",
+      "g_2_pct": "8,4% anual",
+      "g_4_3_pct_defendible": "9,4% anual",
+      "g_6_pct": "10,2% anual",
+      "g_10_pct_caso_toro": "12,4% anual"
+    },
+    "lectura": "Comprando hoy a 304 USD con la g que puedo defender, se gana el coste del capital y nada mas: 9,4% frente a un WACC de 9,0%. No es una perdida, es una ausencia de ventaja. Y para eso hay bonos del Tesoro al 4,69% sin pregunta existencial abierta. Solo si el negocio crece al 6%+ (por encima de lo que su propio ROIIC ex-margen permite) la TIR pasa del 10%."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "SOSPECHA",
+    "por_que_no_es_un_SI": "El motor de precio sigue funcionando y esta documentado en el filing: Online Ecosystem +19% (+22% ex-Mailchimp), QuickBooks Online Accounting +22% 'driven by higher effective prices', ARPU de TurboTax +11%, Global Business Solutions +15%. La empresa sigue subiendo el precio efectivo y cobrandolo. Eso no es un negocio roto.",
+    "por_que_no_es_un_NO": "Tres avisos independientes, todos de fuente primaria:",
+    "avisos": [
+      "AVISO 1 - Unidades cayendo en el corazon del negocio. Guia propia de la empresa para FY26: unidades totales de TurboTax Online -2%, cuota de e-files -1 punto, clientes que no pagan 8 M -> 7 M. El crecimiento del segmento consumo (+8%) es integramente precio y mezcla, cero volumen. Es el patron 'sube precio, pierde unidades', que es extraccion tardia, no expansion. HECHO (nota de prensa FY26Q3).",
+      "AVISO 2 - Los ingresos crecen 14% y los owner earnings normalizados crecen 2,9%. El motor mueve la rueda pero la rueda no mueve el coche. HECHO (10-Q + 10-K, calculo propio).",
+      "AVISO 3 - Recorte del 17% de la plantilla anunciado el 20-may-2026, con 300-340 M de cargo de reestructuracion en Q4 FY26. Una empresa que crece al 14% y despide a uno de cada seis empleados esta reconociendo que su estructura de costes no sobrevive al escenario que ella misma ve. Y encaja de forma incomoda con el eslabon debil heredado de la fase de calidad: en la unica recesion severa que atraveso, su respuesta fue recortar I+D y capex para comprar cuota con marketing. HECHO (nota de prensa FY26Q3)."
+    ],
+    "senal_ambigua_de_gestion": "El 16-mar-2026 el fundador y todo el equipo directivo cancelaron sus planes 10b5-1 de venta programada y la empresa reitero su intencion de acelerar la recompra hasta agotar 3.500 M (8-K acc 0000896878-26-000017, HECHO). Se puede leer como conviccion genuina de infravaloracion. Tambien se puede leer como gestion de la senal en plena caida. Lo que SI es verificable: en 9M FY26 recompraron 3.341 M y pagaron 1.015 M de dividendo, es decir 4.356 M de retorno al accionista frente a 4.660 M de owner earnings normalizados de 9M; y en junio emitieron 1.750 M de deuda nueva. La recompra acelerada esta parcialmente financiada con deuda, no con excedente.",
+    "ruido_declarado": "El 14-jul-2026 un bufete anuncio una investigacion por fraude de valores. Es prensa, es un bufete buscando demandantes tras una caida del 60%, y NO he verificado ninguna presentacion judicial. INFERENCIA de baja calidad. No lo uso en el veredicto.",
+    "conclusion": "SOSPECHA. El motor no esta roto, pero esta pasando de 'cobra mas a mas clientes' a 'cobra mas a los mismos o a menos'. Y lo importante para la decision de hoy: aunque el detector diera NO, el precio no ofrece descuento. Es la peor combinacion posible - un motor con tres senales de degradacion Y sin margen de seguridad que compense el riesgo de estar equivocado."
+  },
+
+  "veredicto": {
+    "accion": "NO CARGAR. MANTENER Y VIGILAR.",
+    "razonamiento_en_una_linea": "Intuit a 304 USD ofrece un 6% de margen de seguridad cuando su banda exige 40%, y una TIR esperada de 9,4% que es exactamente su coste de capital; la caida del 62% ha eliminado la sobrevaloracion pero no ha creado una oportunidad.",
+    "que_tendria_que_pasar_para_cargar": "Precio por debajo de 194 USD (otro -36%) manteniendo el mecanismo intacto; o bien evidencia dura de que el ROIIC ex-margen sube claramente por encima del 12-13%, lo que haria que el crecimiento volviese a crear valor y elevaria tanto la g defendible como el m*.",
+    "gatillo_falsable_propuesto": "En el 10-K de FY2026 (esperado principios de septiembre de 2026, a semanas de esta valoracion) y en el Q1 FY2027: (1) si las unidades totales de TurboTax Online caen mas de un 4% o la cuota de e-files cae mas de 2 puntos, el AVISO 1 pasa de sospecha a confirmacion y el detector se mueve a SI; (2) si los owner earnings normalizados de FY2027 no crecen al menos un 6%, queda demostrado que el precio no llega al dueno y hay que reconsiderar la posicion entera, no solo la carga.",
+    "nota_sobre_la_posicion_existente": "No estoy diciendo vender. El precio medio de Felipe es 262,23 y la posicion pesa 5,47% del NAV. Estoy diciendo que a 304 USD comprar mas es pagar el valor intrinseco central sin descuento, y que la banda MUY_BUENA existe precisamente para impedir eso."
+  },
+
+  "huecos_declarados": [
+    "El ejercicio FY2026 cierra el 31-jul-2026, dentro de 4 dias, y no hay 10-K. Todo el Q4 es guia de la empresa mas estimacion propia; no esta auditado. El expediente entero deberia rehacerse cuando salga el 10-K (esperado ~3-sep-2026).",
+    "La beta es INFERENCIA de agregadores, no hay fuente primaria: Yahoo/stockanalysis dan 1,00 (5Y), Investing.com da 1,25. La discrepancia no la he podido resolver. Peor: una beta de 5 anos no describe el regimen actual, con volatilidad anualizada realizada del 57,7%. La sensibilidad a WACC 10,5% (valor 259 USD, MoS -17%) queda declarada.",
+    "La tasa libre de riesgo (4,69%, 24-jul-2026) viene de un boletin de mercado secundario, no de la curva del Tesoro directamente.",
+    "La normalizacion del diferido de impuestos (Seccion 174) es JUICIO MIO: los 1.150 M de 9M FY26 son HECHO, pero la decision de tratarlos como no recurrentes y la estimacion de la tasa de caja recurrente post-FY26 no estan desglosadas en ningun filing.",
+    "El desglose del capex Q4 FY26 y del capex de software capitalizado trimestral no se publica (solo anual en el 10-K). Capex FY26E de 220 M es INFERENCIA.",
+    "La parte EN CAJA de los 300-340 M de reestructuracion, y su reparto entre Q4 FY26 y FY27, no esta cuantificada. Asumo ~150 M en Q4.",
+    "La deuda pro-forma de 7.912 M supone que aun no se ha retirado el papel de 2026 y 2027; la empresa declara intencion de refinanciarlo pero ningun filing posterior lo confirma. Impacto en el WACC: despreciable (la deuda pesa 8,7%).",
+    "No he tratado por separado el libro de prestamos de QuickBooks Capital (1.662 M de notes receivable held for investment, provision por perdidas crediticias que se duplica a 189 M en 9M). La provision se suma de vuelta en el CFO y por tanto los owner earnings estan algo sobrestimados por ese lado. Magnitud estimada <200 M, dentro del ruido, pero es un hueco real.",
+    "No he leido la transcripcion de la llamada del Q3 FY26. La explicacion de la direccion sobre el recorte del 17% y sobre la caida de unidades de TurboTax no esta capturada literalmente.",
+    "La investigacion por fraude de valores del 14-jul-2026 es prensa sin verificar contra ninguna presentacion judicial. No entra en el veredicto.",
+    "El ROIIC bruto 7,9% y ex-margen 9,7% y la reinversion del 44,7% vienen CONGELADOS de la fase de calidad. No los he recalculado ni los puedo tocar; toda la g defendible descansa sobre ellos."
+  ],
+
+  "fuentes_primarias": [
+    "10-K FY2025, acc 0000896878-25-000035, presentado 3-sep-2025, ejercicio cerrado 31-jul-2025 (auditor Ernst & Young LLP, ratificado en junta del 22-ene-2026).",
+    "10-Q FY26Q3, acc 0000896878-26-000025, presentado 20-may-2026, periodo cerrado 30-abr-2026.",
+    "8-K 20-may-2026, acc 0000896878-26-000024, Ex-99.01 nota de prensa de resultados del Q3 FY26 y guia FY26.",
+    "8-K 16-mar-2026, acc 0000896878-26-000017: cancelacion de planes 10b5-1 y aceleracion de recompra.",
+    "8-K 11-jun-2026, acc 0001193125-26-267866: emision de 750 M al 4,950% vto 2031 y 1.000 M al 5,500% vto 2036.",
+    "8-K 28-abr-2026, acc 0000896878-26-000020: salida de Marianna Tessel de Small Business Group.",
+    "8-K 27-ene-2026, acc 0000896878-26-000006: junta anual, ratificacion de E&Y para FY2026.",
+    "XBRL companyfacts CIK 0000896878 (data.sec.gov), namespace us-gaap.",
+    "Damodaran, actualizacion de primas de riesgo del 1-jul-2026 (ERP EEUU 4,42%; prima de mercado maduro 4,20%; diferencial Aa1 0,22%).",
+    "IBKR MCP: precio vivo INTU 303,97 y posicion de cartera (24 acciones, precio medio 262,23)."
+  ]
+}

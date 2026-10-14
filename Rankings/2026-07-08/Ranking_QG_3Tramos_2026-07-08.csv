@@ -1,0 +1,29 @@
+tramo,orden,ticker,sector,score_100,score_R1,score_R2,score_R3,score_R4,score_R5,score_R6,score_R7,score_R8,score_R9,score_R10,score_R11,precio,moneda,pwfv,descuento_pct,zona,veredicto
+Tramo1_Monstruosas,1,MA,"Pagos / infraestructura de redes de pago (tecnologia, no ban",86.4,12,8,12,13,9,9,10,9,10,9,7,,,,,,
+Tramo1_Monstruosas,2,MSFT,Software,84,14,9,13,13,9,8,9,10,7,7,6,,,,,,
+Tramo1_Monstruosas,3,NOW,Software (SaaS enterprise workflow / plataforma),83.2,14,9,13,13,10,6,7,10,8,8,6,,,,,,
+Tramo1_Monstruosas,4,ISRG,Med-tech / Robotic surgery (Health Care),83.2,14,9,11,12,9,8,8,10,6,7,10,,,,,,
+Tramo1_Monstruosas,5,VEEV,Software vertical SaaS - Ciencias de la salud,81.2,13,8,12,12.5,9,7,9,10,7,8,6,,,,,,
+Tramo1_Monstruosas,6,NEM.DE,Software AEC/BIM (Design-Build-Manage),80.8,13,9,12,13,9,9,6,8,8,8,6,,,,,,
+Tramo1_Monstruosas,7,ADYEN.AS,Pagos / infraestructura de software fintech,80.8,13,8,12,12,9,7,9,9,8,8,6,,,,,,
+Tramo1_Monstruosas,8,ASML,Equipos semis,80,12,8,14,15,8,3,9,10,8,8,5,,,,,,
+Tramo1_Monstruosas,9,REL.L,"Informacion / analytics / decision tools (Risk, STM, Legal)",80,13.5,8,11.5,13,7,8,8,8,9,8,6,,,,,,
+Tramo1_Monstruosas,10,MANH,Software vertical - supply chain commerce / WMS-OMS,80,13,8,12,11,9,7,10,10,7,7,6,,,,,,
+Tramo1_Monstruosas,11,TSM,"Semiconductores (foundry, capacidad de elite)",79.2,11,9,13,13,9,4,9,10,9,7,5,,,,,,
+Tramo1_Monstruosas,12,TOI.V,Software vertical (VMS) / serial acquirer europeo,79.2,12,7,11,13,6,9,8,9,9,9,6,,,,,,
+Tramo2_AltaCalidad,1,V,Pagos (infraestructura critica de pagos globales),79.2,13,8,14,12,8,7,7,10,7,8,5,,,,,,
+Tramo2_AltaCalidad,2,WISE.L,"Pagos transfronterizos / fintech (plataforma, NO banco)",79.2,12,8,11,11,9,9,8,9,8,6,8,,,,,,
+Tramo2_AltaCalidad,3,NVDA,Semiconductores / Infraestructura de computo acelerado (IA),79.2,13,9,10,11,9,5,9,10,7,10,6,,,,,,
+Tramo2_AltaCalidad,4,MSCI,"Indices, data y analytics (licencia de IP, asset-light)",78.9,13.2,9,12.5,12,8,6.8,9,5,9,8.1,6,,,,,,
+Tramo2_AltaCalidad,5,0388.HK,Bolsas / infraestructura de mercado,78.4,12,6,14,14,7,4,9,10,9,7,6,,,,,,
+Tramo2_AltaCalidad,6,GOOGL,Publicidad/Internet,78.4,12.5,9,12,12.5,8,8.5,9,7.5,8,6,5,,,,,,
+Tramo2_AltaCalidad,7,MELI,E-commerce / Fintech (LatAm),78.4,13,9,12,12,8,6,6,7,7,8,10,,,,,,
+Tramo2_AltaCalidad,8,CME,"Bolsas / derivados (infraestructura de mercado, clearing)",77.6,13,6,14,14,7,5,8,10,9,6,5,,,,,,
+Tramo2_AltaCalidad,9,4684.T,Software - ERP (Japan mid/large-market),77.6,12,6,13,13,10,3,8,10,9,8,5,,,,,,
+Tramo2_AltaCalidad,10,AMZN,E-commerce / Cloud Computing,77.6,14,9,12,13,8,7,7,8,7,7,5,,,,,,
+Tramo2_AltaCalidad,11,MTD,Instrumentos de precision (laboratorio/industrial) + servicio,77.6,8,6,14,10,6,10,10,8,10,8,7,,,,,,
+Tramo2_AltaCalidad,12,WKL.AS,Software e informacion profesional (legal/fiscal/salud),77.2,11,6,11.5,12.5,7,7.5,8,8,9,9,7,,,,,,
+Tramo3_Infravaloradas_Verificadas,1,LSEG.L,"Financial data, indices y market infrastructure",75.2,12,7,13,13,7,9,6,7,6,8,6,8862,GBX,11448,22.6,OPORTUNIDAD,ACUMULAR EN ZONA
+Tramo3_Infravaloradas_Verificadas,2,ICE,Exchanges / Financial market infrastructure & data,75.6,12.5,6,14,14,7,7,7,6,8,8,5,137.17,USD,170.22,19.4,OPORTUNIDAD,VIGILAR
+Tramo3_Infravaloradas_Verificadas,3,SOON.SW,MedTech - Salud auditiva,71.2,9,7,10,10,6,9,6,7,8,8,9,201,CHF,229.1,12.3,JUSTO,VIGILAR
+Tramo3_Infravaloradas_Verificadas,4,EFX,Data & analytics infrastructure (credit bureau),67.2,10,7,11,12,7,6,6,6,7,6,6,168.61,USD,192,12.2,JUSTO,ESPERAR

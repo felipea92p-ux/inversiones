@@ -1,0 +1,42 @@
+{
+ "ticker": "6861.T",
+ "currency": "JPY",
+ "current_price": 77990,
+ "name": "Keyence Corporation",
+ "wacc_pct": 6.05,
+ "wacc_components": {
+  "rf_pct": 1.3,
+  "erp_pct": 5,
+  "beta": 0.95,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = JPY 402.3B = reported FY2026 FCF (JPY 402.3B, 34.4% margin on JPY 1.17T sales) minus 100% of SBC. Keyence is a Japanese factory-automation firm with NO meaningful stock-based-compensation program (SBC ~0% of revenue and FCF), so owner FCF equals reported FCF with no haircut. Net income FY2026 JPY 445.2B, EPS JPY 1,835.62 -> ~242.5M diluted shares. Balance sheet ~95% equity, net cash ~JPY 1.49T (cash + securities), zero meaningful interest-bearing debt.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 8,
+  "rev_cagr_y6_10_pct": 4.5,
+  "fcf_margin_terminal_pct": 34.4,
+  "terminal_g_pct": 3,
+  "shares_diluted_b": 0.2425,
+  "net_debt_usd_b": -8.95,
+  "sbc_treatment": "SBC ~0% of FCF (Keyence has no material SBC program); owner FCF = reported FCF with no deduction"
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 61740,
+   "prob": 0.375,
+   "note": "FA market maturing; owner-FCF CAGR ~5% yrs 1-5 decelerating to ~3% by yr10, terminal g 2.5%, slight margin compression (-2% terminal). Yen-neutral to mild headwind, slower China/auto-capex cycle. IV JPY ~61,700 implies ~21% downside from JPY 77,990 — quality compounder simply re-rates lower toward a still-rich ~30x. WACC 6.05%; TV = 72% of EV."
+  },
+  "base": {
+   "iv_per_share": 84985,
+   "prob": 0.475,
+   "note": "Consistent with track record (10-yr ~9-10% rev CAGR, 5 consecutive record years). Owner-FCF CAGR 8% yrs 1-5 decaying to 4.5% by yr10, terminal g 3.0%, 34.4% FCF margin held. IV JPY ~85,000 ~ +9% vs price and in line with analyst 12m target ~JPY 84,475. Fair-to-slightly-cheap; wide-moat direct-sales model, 51% op margin, net cash. TV = 77% of EV."
+  },
+  "optimista": {
+   "iv_per_share": 122331,
+   "prob": 0.15,
+   "note": "Perfect execution: sustained low-double-digit owner-FCF growth (11% yrs 1-5, fading to 6%), terminal g 3.5%, +3% terminal margin uplift from overseas mix and pricing. Captures continued global FA penetration + weak-yen tailwind on overseas revenue (+14% FY26). IV JPY ~122,000, ~+57% upside. TV = 82% of EV."
+  }
+ },
+ "sanity_check": "Prob-weighted IV ~JPY 81,900 (0.375/0.475/0.15) = ~+5% vs price JPY 77,990 -> roughly fairly valued, near record highs (only -7.3% off ATH). DCF cross-checks: FCF yield on price ~2.1%, earnings yield ~2.7% (fwd P/E 37.3x, in line with Keyence's historical 38-42x). Shareholder-yield contrast (not used to value, just sanity): dividend JPY 550/sh = ~0.71% yield (payout raised to 30%), with minimal buyback -> total shareholder yield only ~0.7-0.8%; the ~JPY 1.49T net cash hoard is a drag on ROE (13.5%) and represents optionality not returned to holders. Valuation rests heavily on terminal value (72-82% of EV) given low 6.05% WACC, so the verdict is sensitive to terminal g and the durability of growth — typical for a premium compounder. Caveat: in USD terms the stock is well below its 2021 peak due to yen weakness, so a yen reversal would be an FX headwind to USD investors not captured in this JPY-denominated DCF.",
+ "method_notes": "10-yr two-stage owner-earnings DCF in JPY. Owner FCF base = JPY 402.3B (reported FY2026 FCF; SBC ~0 so no deduction). Phase 1 (yrs 1-5) explicit owner-FCF CAGR; Phase 2 (yrs 6-10) CAGR declines linearly toward normalization; Gordon terminal value on yr-10 owner FCF. Discounted at WACC = Rf(Japan 1.3%) + ERP(5.0%) x beta(0.95) = 6.05%; no geopolitical add-on (Japan domicile, not Taiwan). Equity value = PV(explicit) + PV(TV) + net cash JPY 1.49T (net debt strongly negative, ~ -USD 8.95B); IV/share = equity / 242.5M diluted shares (derived from net income JPY 445.2B / EPS JPY 1,835.62). All inputs from verified FASE 2 data (6861.T.json): price, currency, FCF, FCF margin, revenue, net cash, SBC, EPS/net income for share count. No web search needed; data complete. Beta 0.95 estimated for low-cyclicality FA/industrial-automation with net-cash balance sheet. Note Keyence FYE = March 31; FY2026 = year ended Mar 31, 2026."
+}

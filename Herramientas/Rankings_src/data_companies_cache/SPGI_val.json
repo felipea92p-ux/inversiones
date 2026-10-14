@@ -1,0 +1,48 @@
+{
+ "ticker": "SPGI",
+ "name": "S&P Global Inc.",
+ "currency": "USD",
+ "price_verified": 407.39,
+ "price_source": "StockAnalysis.com (cross-check Yahoo Finance ~$405-407; same NYSE close)",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.296,
+ "implied_mcap_b_usd": 120.59,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 9.5,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.15,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY25 = Adj FCF $5,481M − 100% SBC ($236M) ≈ $5,245M; base-case run uses ~$5,100M (between GAAP-FCF-minus-SBC $4,899M and adj-FCF-minus-SBC $5,245M for prudence). SBC is exceptionally low (1.5% of revenue), so the owner-earnings haircut is minimal — a quality positive.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 238.47,
+   "prob": 0.38,
+   "note": "OF base $4.90B (GAAP FCF − SBC). Fase 1 (1-5) 6% CAGR (desaceleracion en emisiones/Ratings + presion macro de tasas), Fase 2 decae a 3.5%, g terminal 2.5%, WACC 10.0%. Pesimista razonable, NO apocaliptico: asume crecimiento estructural de un solo digito medio en datos/indices que continua pero a menor ritmo."
+  },
+  "base": {
+   "iv_per_share": 352.54,
+   "prob": 0.47,
+   "note": "OF base $5.10B. Fase 1 9% CAGR (en linea con guia organica 6-8% + apalancamiento operativo + recompras del >85% del FCF), Fase 2 decae a 4.5%, g terminal 3.0%, WACC 9.5%. Refleja el motor recurrente (Indices, Market Intelligence, Ratings)."
+  },
+  "optimista": {
+   "iv_per_share": 498,
+   "prob": 0.15,
+   "note": "OF base $5.25B. Fase 1 11% CAGR, Fase 2 decae a 6.0%, g terminal 3.5%, WACC 9.0%. Spin-off de Mobility libera valor/foco, aceleracion en datos privados/IA y mercados de capital fuertes."
+  }
+ },
+ "iv_dcf_weighted": 331.01,
+ "multiple_metric": "P/E adelantado (sobre EPS ajustado FY2026)",
+ "fwd_multiple_now": 20.84,
+ "fwd_multiple_5y_avg": 27,
+ "fair_multiple": 24,
+ "multiple_rationale": "EPS ajustado FY26 ~$19.55 (punto medio de guia $19.40-19.65; consenso ~$20.0). Multiplo actual 20.84x vs media 5a adelantada ~27x => cotiza con ~23% de descuento. Aplico HAIRCUT de 27x a 24x (no a 27x) por un regimen de tasas mas altas que comprime de forma semi-estructural los multiplos de franquicias de calidad, NO por deterioro del negocio (Q1 2026 acelero: ingresos +10%, EPS +32%, margen op +620pb). iv_multiple = 24.0 x $19.55 = $469.20. La franquicia de datos/indices reinvierte a ROIC ex-goodwill ~39%, por lo que el DCF puro infra-valora el compounding; el ancla de multiplo es el lado mas fiable.",
+ "iv_multiple": 469.2,
+ "weight_dcf": 0.35,
+ "weight_multiple": 0.65,
+ "reconciled_iv": 420.83,
+ "structural_change": "Sin deterioro estructural genuino — clasificacion fear_rotation. La caida de ~30% desde maximo coincide con fundamentales ACELERANDO (Q1 2026: ingresos +10%, EPS +32%, margen op +620pb, guia FY26 al alza). Unico cambio estructural: spin-off de S&P Global Mobility en curso (Investor Day 12-may-2026), que es liberador de valor/foco, no destructivo. La compresion de multiplo es de regimen macro (sensibilidad a tasas, miedo a debilidad ciclica en emisiones/Ratings), no de la calidad del negocio. ROIC reportado 9.25% esta deprimido por goodwill de IHS Markit; ROIC ex-goodwill ~39% refleja la baja intensidad de capital real.",
+ "sanity_notes": "Sanity check OK: precio $407.39 x 0.296B acciones = $120.6B mcap, coincide con la escala conocida (~$121B) y con agregadores. Todos los IV (conservador $238, base $353, optimista $498, reconciliado $421) caen dentro del guardarrail de magnitud (30%-300% del precio = $122-$1,222), sin errores de unidades/moneda/acciones. Mcap implicado del IV reconciliado ~$124.6B, razonable. Pesos 0.35 DCF / 0.65 multiplo justificados: compounder ESTABLE y probado de ingresos recurrentes (Indices/MI/Ratings) con baja ciclicidad real => el ancla de multiplo es mas informativa que el DCF, que infra-credita decadas de reinversion a ROIC alto. reconciled_iv $420.83 implica ~+3% sobre el precio: la accion cotiza cerca de valor justo tras la caida, con sesgo de calidad a precio sensato (margen de seguridad modesto, no profundo). Moneda unica USD en precio y todos los IV."
+}

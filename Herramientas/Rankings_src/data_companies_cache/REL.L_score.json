@@ -1,0 +1,59 @@
+{
+ "ticker": "REL.L",
+ "name": "RELX PLC",
+ "rules": {
+  "R1": {
+   "score": 1.5,
+   "just": "Modelo de datos/analytics con alto apalancamiento operativo: margen operativo ajustado 34.8% en expansion (+0.9pp) y la guia FY2026 explicita que el crecimiento del beneficio operativo superara al de ingresos; escala pero no es software puro de margen incremental ~100%, por eso 1.5 y no 2.0."
+  },
+  "R2": {
+   "score": 1,
+   "just": "Industrias seculares (informacion cientifica, legal, riesgo/analytics, exhibiciones) con crecimiento organico +7%, pero la propia amenaza de IA generativa introduce duda sobre la durabilidad del viento de cola secular, lo que limita a base 1.0."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Lider #1/#2 sostenido en sus cuatro divisiones (Elsevier en ciencia, LexisNexis en legal/riesgo) con datasets propietarios; dominancia clara y duradera pero no monstruosamente irreplicable a escala unica, por eso 1.5."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat fuerte por datos propietarios, altos costes de cambio (workflows embebidos en clientes legales/cientificos) e intangibles, pero la IA generativa es precisamente el vector que cuestiona la irreplicabilidad a decadas, lo que descarta el 2.0."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento organico/subyacente +7% verificado (FY2025) con expansion de margen y conversion de caja 99%, motor genuinamente organico mas que de M&A, merece premium 1.5."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Diversificacion excelente: cuatro divisiones (Risk, STM, Legal, Exhibitions), multi-geografia y base de clientes muy fragmentada sin concentracion >10-15%, claridad superior."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC 15.4% (al alza desde 14.8%) muy por encima del WACC, FCF/NI alto con conversion de caja 99% y capex bajo (margen FCF 24.1%); excelente economia de capital, premium 1.5 (no 2.0 por ROIC alto pero no extremo)."
+  },
+  "R8": {
+   "score": 1,
+   "just": "Balance solido pero no en caja neta: deuda neta GBP 7,201m con Net debt/EBITDA 2.0x reportado (1.87x bruto), justo en el limite del umbral <2x, por eso base 1.0 sin premium."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "SBC verificada extremadamente baja: solo 0.66% de ingresos y 2.7% del FCF (GBP 63m), muy por debajo del umbral del 15%, y RELX recompra via EBT (GBP 76m) neutralizando dilucion; contabilidad limpia, premium 1.5."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Asignacion de capital disciplinada: buybacks recurrentes (GBP 2,250m planeado FY2026), dividendo +7% y M&A bolt-on no destructiva, con historico de creacion de valor y expansion de ROIC; gestion de alta calidad."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (modelo escalable con expansion de margen), R3 (liderazgo #1/#2 en cuatro nichos) y R4 (moat de datos propietarios + costes de cambio) se refuerzan mutuamente: el liderazgo genera mas datos propietarios, que profundizan los workflows embebidos, que sostienen pricing power y expansion de margen a escala. El bucle es potente, aunque la amenaza de IA introduce una grieta en la irreplicabilidad a decadas que impide los 2.0.",
+ "moat_one_line": "Datos propietarios no replicables (Elsevier, LexisNexis) embebidos en workflows criticos de clientes cientificos/legales/de riesgo, con altisimos costes de cambio y analytics encima.",
+ "moat_type": "intangibles_datos_propietarios_costes_de_cambio",
+ "thesis_3lines": [
+  "Calidad: negocio de informacion/analytics con moat de datos propietarios, costes de cambio embebidos, ROIC 15.4% en alza, margen ajustado 34.8% en expansion y SBC casi nula (2.7% del FCF).",
+  "Crecimiento: motor organico +7% subyacente con conversion de caja 99%, guia FY2026 de crecimiento fuerte y apalancamiento operativo que hace crecer el beneficio mas rapido que los ingresos.",
+  "Valoracion/retorno: fwd P/E ~16.5x, un ~-33% bajo su media forward 5a tras una caida -44% por MIEDO a la IA (no por deterioro operativo), con buyback de GBP 2,250m que amplifica el retorno por accion."
+ ],
+ "bear_case_strongest": "La IA generativa puede des-intermediar el valor de los datasets premium de RELX (busqueda legal/cientifica resuelta por LLMs, fuentes abiertas/agregadas erosionando pricing power), comprimiendo permanentemente crecimiento y multiplo si el moat de costes de cambio resulta mas fragil de lo que asume el mercado.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Score total ponderado = 14.0 sobre techo 13.5, por lo que en la practica RELX queda al maximo (capeado a 13.5): R1 1.5, R2 1.0, R3 1.5, R4 1.5, R5 1.5, R6 1.5, R7 1.5, R8 1.0, R9 1.5, R10 1.5. Unicos puntos base (1.0): R2 (amenaza IA limita durabilidad del viento secular) y R8 (ND/EBITDA 2.0x justo en el limite, sin caja neta). SBC verificada 2.7% del FCF -> R9 sin penalizacion (regla dura no aplica). Caida clasificada fear_rotation: fundamentales FY2025 intactos (+7% organico, expansion margen, ROIC al alza) mientras precio -44% desde maximo por des-rating de IA. PEG ~1.65 y fwd_pe_5y_avg ~24.5 son ESTIMADOS (incertidumbre); el descuento de valoracion es el principal atractivo. Riesgo clave a monitorizar: evidencia real de erosion de pricing/retencion por IA en LexisNexis/Elsevier en proximos reportes."
+}

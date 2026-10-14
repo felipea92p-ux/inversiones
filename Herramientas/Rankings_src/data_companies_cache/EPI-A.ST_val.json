@@ -1,0 +1,48 @@
+{
+ "ticker": "EPI-A.ST",
+ "name": "Epiroc AB (Class A)",
+ "currency": "SEK",
+ "price_verified": 277,
+ "price_source": "StockAnalysis.com (sto/EPI.A) and Investing.com EPIRa, cross-checked; both quote 277.00 SEK. Note: stock dipped to ~261-266 SEK on Jun 11-12 (post-CMD) then recovered to 277 by Jun 22-23.",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 1.152,
+ "implied_mcap_b_usd": 33.3,
+ "mcap_sanity_ok": true,
+ "sanity_notes": "Implied mcap = 277 SEK x 1.152B shares = SEK 319.1B = ~$33.3B at 0.1043 USD/SEK — matches StockAnalysis (SEK 319.05B) and Investing.com (SEK 319.05B) exactly, confirming scale. Shares: total economic shares ~1.21B gross (Class A + Class B, equal economic rights, differ only in voting); used 1.152B mcap-consistent (net of treasury) so per-share IV ties to reported mcap. Both share classes valued identically since dividends/economics are pari passu. IV per share (205 SEK) = 74% of price — comfortably inside the 30-300% magnitude band, so no units/FX/shares error. All figures in SEK. FX 0.1043 USD/SEK (Jun 22 2026).",
+ "owner_fcf_base": "Owner FCF base = SEK 8.6B = FCF TTM (SEK 8.63B per StockAnalysis) minus ~100% SBC. Epiroc's SBC is immaterial (Swedish LTI/share programs, single-digit MSEK P&L impact, <0.5% of FCF ≈ SEK 0.04B), so the haircut is negligible. FCF margin ~14% on ~SEK 62B revenue. Note FCF is modestly suppressed by working-capital build amid record organic orders (+23% Q1 2026), so reported FCF is a conservative starting base.",
+ "wacc_pct": 8.5,
+ "wacc_components": {
+  "rf_pct": 2.8,
+  "erp_pct": 5,
+  "beta": 1.15,
+  "geo_adj_pct": 0
+ },
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 137.7,
+   "prob": 0.38,
+   "note": "Mining capex cycle softens from current peak; organic growth fades to low-single-digit, construction stays weak. Phase-1 owner-FCF CAGR 5%, Phase-2 3.5%, terminal g 2.5%. Margins held ~20% (no collapse — not apocalyptic). Net debt SEK 10.63B."
+  },
+  "base": {
+   "iv_per_share": 191.6,
+   "prob": 0.47,
+   "note": "CMD (Jun 8 2026) reaffirmed 8% revenue growth over the cycle (2/3 organic, 1/3 M&A); ~20% op margin, ROCE ~18-19%, automation/electrification mix supports aftermarket. Phase-1 owner-FCF CAGR 9%, Phase-2 6%, terminal g 3.0%."
+  },
+  "optimista": {
+   "iv_per_share": 252,
+   "prob": 0.15,
+   "note": "Mining electrification/automation supercycle, share gains, margin expansion above 20%, accretive M&A. Phase-1 owner-FCF CAGR 12%, Phase-2 8%, terminal g 3.5%."
+  }
+ },
+ "iv_dcf_weighted": 180.2,
+ "multiple_metric": "fwd P/E",
+ "fwd_multiple_now": 31.99,
+ "fwd_multiple_5y_avg": 25.5,
+ "fair_multiple": 26,
+ "multiple_rationale": "Anchored to the ~25.5x 5-year average forward P/E. A small premium (to 26x) is warranted because the quality is intact and arguably improving — CMD (Jun 2026) reaffirmed the 8% through-cycle growth algorithm, ROCE ~18-19%, resilient ~20% margins, record +23% organic orders, growing high-margin aftermarket/automation mix. No structural deterioration justifying a haircut. But no expansion above the historical mean either: the current 31.99x is a cyclical/sentiment-driven premium at all-time highs (record mining capex), and mining-equipment demand is genuinely cyclical, so paying above the proven 5y norm is imprudent. fwd EPS implied = 277/31.99 = SEK 8.66; iv_multiple = 8.66 x 26 = SEK 225.",
+ "iv_multiple": 225.1,
+ "weight_dcf": 0.45,
+ "weight_multiple": 0.55,
+ "reconciled_iv": 204.9,
+ "structural_change": "None negative. Positive/affirming: Capital Markets Day Jun 8 2026 reaffirmed the 8% through-cycle revenue growth target (2/3 organic, 1/3 acquisitive) and the mid-term value-creation algorithm. Business is a proven high-ROCE compounder (mining drilling/rock-excavation equipment + recurring aftermarket/service + electrification & automation). The genuine caveat is cyclicality: revenue is tied to global mining capex, currently near a peak, and growth relies partly on M&A — hence the meaningful DCF weight and refusal to validate the 32x peak multiple."
+}

@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "ticker": "VEEV",
+    "empresa": "Veeva Systems Inc. (Class A Common Stock)",
+    "cik": "0001393052",
+    "bolsa": "NYSE",
+    "moneda_funcional": "USD",
+    "moneda_reporte": "USD",
+    "adr_o_ads": "NO. Accion ordinaria Clase A, cotizacion directa en NYSE (10-K FY2026, portada: 'Class A Common Stock, par value $0.00001 per share', Security Exchange Name NYSE). No hay ratio ADS que ajustar.",
+    "fecha_analisis": "2026-07-28",
+    "precio_referencia_fecha": "cierre del 2026-07-27",
+    "cierre_fiscal": "31 de enero",
+    "ultimo_ejercicio_auditado": "FY2026 = 1-feb-2025 a 31-ene-2026. 10-K presentado 2026-03-20, accession 0001393052-26-000014",
+    "ejercicio_en_curso": "FY2027 = 1-feb-2026 a 31-ene-2027. Q1 publicado (10-Q 2026-06-05, accession 0001393052-26-000026) y guia revisada del 3-jun-2026 (8-K accession 0001393052-26-000022, EX-99.1)",
+    "etiqueta_calidad_congelada": "PRESUNTA (4 puertas pasadas). NO reclasificable al alza por este agente.",
+    "mos_exigido_pct": 35,
+    "motivo_mos": "Banda PRESUNTA. La posicion YA existe en cartera (0,44% del NAV), luego la decision es CARGAR y el umbral sube 12 puntos: 23% -> 35%.",
+    "rol_del_agente": "VALORADOR. La calidad esta congelada y no se toca. Ninguna cifra de precio puede reclasificar la etiqueta.",
+    "veredicto": "NO CARGAR. Margen de seguridad NEGATIVO en las dos bases (-45% auditada, -23% en curso). El precio de hoy exige que la direccion cumpla su propio plan de 2030 durante una decada entera, sin fugas."
+  },
+
+  "precio_y_capital": {
+    "precio_usd": 194.46,
+    "fuente_precio": "HECHO. Snapshot IBKR (contract_id 136254493, NYSE, campo 'last' con is_close=true) consultado el 2026-07-28: 194,46 USD, cierre de la sesion del 2026-07-27. Comprobacion cruzada: stockanalysis.com/stocks/veev, 194,46 USD, cierre 27-jul-2026, pagina actualizada 28-jul-2026 (agregador, solo cruce).",
+    "bid_ask_al_cierre": {"bid": 189.50, "ask": 204.00, "nota": "Horquilla ancha porque el mercado estaba cerrado en el momento de la consulta; el cierre es el dato bueno."},
+    "volatilidad_historica_30d_anualizada_pct": 43.3,
+    "fuente_volatilidad": "HECHO. IBKR historical_vol, 2026-07-28.",
+    "rango_52s_usd": {"maximo": 310.24, "minimo": 148.12, "apertura_hace_52s": 291.09, "fuente": "HECHO. IBKR misc_statistics, 2026-07-28."},
+    "caida_desde_maximo_52s_pct": -37.3,
+    "acciones_clase_a_en_circulacion_mm": 162.443291,
+    "fuente_acciones": "HECHO. Portada del 10-Q Q1 FY2027 (dei:EntityCommonStockSharesOutstanding a 2026-06-01) = 162.443.291. Portada del 10-K FY2026 a 2026-03-17 = 163.330.933. La caja esta recomprando: -887.642 acciones en ~2,5 meses (-0,54%, ~-2,6% anualizado).",
+    "acciones_diluidas_medias_q1_fy2027_mm": 165.989,
+    "fuente_diluidas": "HECHO. 10-Q Q1 FY2027, estado de resultados: diluted weighted-average shares 165.989 miles.",
+    "capitalizacion_usd_mm": 31588.7,
+    "caja_e_inversiones_cp_usd_mm": 7312.719,
+    "detalle_caja": "HECHO. Balance a 30-abr-2026 (10-Q Q1 FY2027): efectivo y equivalentes 1.896,580 M + inversiones a corto plazo 5.416,139 M.",
+    "deuda_financiera_usd_mm": 0.0,
+    "deuda_total_incl_arrendamientos_usd_mm": 103.067,
+    "detalle_deuda": "HECHO. Veeva NO tiene deuda financiera: no hay ninguna linea de deuda en el balance a 30-abr-2026. Unico pasivo asimilable: arrendamientos, corriente 13,131 M + largo plazo 89,936 M = 103,067 M.",
+    "deuda_neta_usd_mm": -7209.652,
+    "ev_usd_mm": 24379.1,
+    "posicion_en_cartera_pct_nav": 0.44
+  },
+
+  "wacc_candado_B": {
+    "principio": "Candado B: el WACC sale del mercado, NUNCA de un tier de calidad.",
+    "tasa_libre_riesgo_pct": 4.64,
+    "fuente_tasa_libre_riesgo": "INFERENCIA (fuente secundaria fechada). Bono del Tesoro de EEUU a 10 anios, 4,64% el 27-jul-2026 (TradingEconomics, serie US 10Y Government Bond Yield; -4 pb frente a la sesion anterior). Segunda lectura concordante el mismo dia: 4,63%. Moneda funcional USD -> soberano americano.",
+    "beta": 0.94,
+    "fuente_beta": "INFERENCIA. Beta 5 anios mensual = 0,94. Dos fuentes independientes y concordantes consultadas el 28-jul-2026: Yahoo Finance (Beta 5Y Monthly) y stockanalysis.com/stocks/veev. Ningun documento primario publica beta; por eso NO es HECHO. Contraste incomodo: la volatilidad historica 30d anualizada es 43,3%, muy alta para un beta de 0,94 -> el beta bajo refleja baja correlacion con el indice, no baja volatilidad. Por eso el rango de WACC usa 0,85-1,20.",
+    "prima_riesgo_mercado_pct": 4.20,
+    "fuente_prima_mercado": "INFERENCIA. Damodaran, actualizacion de julio 2026: con el S&P 500 en 7.499,36 el 1-jul-2026, la prima implicita de EEUU es 4,42%; descontando el diferencial de impago del rating Aa1 (0,22%) queda una prima de mercado maduro de 4,20%.",
+    "prima_pais_pct": 0.44,
+    "fuente_prima_pais": "INFERENCIA. Prima pais ponderada por el riesgo del ACTIVO (donde estan los ingresos), no por el domicilio fiscal. Mezcla geografica FY2026 (HECHO, 10-K nota 'Information about Geographic Areas', R79): Norteamerica 1.903,342 M (59,6%), Europa 939,630 M (29,4%), Asia-Pacifico 280,162 M (8,8%), Otros internacionales 72,177 M (2,3%). Aplicando CRP de Damodaran 2026 por bloque (EEUU/Canada ~0,22%, Europa desarrollada ~0,55%, APAC mezcla ~1,0%, resto ~2,5%) sale 0,44%.",
+    "prima_total_pct": 4.64,
+    "coste_capital_propio_pct": 9.00,
+    "coste_deuda_pct": 4.8,
+    "fuente_coste_deuda": "HECHO con salvedad declarada. Veeva NO tiene deuda financiera ni gasto por intereses de deuda, luego no existe un coste de deuda real derivable de costes financieros sobre deuda media. El unico tipo observable en el filing es el tipo de descuento medio ponderado de sus arrendamientos: 4,8% (us-gaap:OperatingLeaseWeightedAverageDiscountRatePercent = 0,048; 10-K FY2026 y 10-Q Q1 FY2027). Es lo que le cobrarian por financiacion asimilable. Despues de impuestos (23,9%): 3,65%.",
+    "peso_deuda_a_valor_mercado_pct": 0.33,
+    "peso_equity_a_valor_mercado_pct": 99.67,
+    "wacc_central_pct": 9.0,
+    "wacc_rango_pct": "8,6% - 10,4%",
+    "detalle_rango": "beta 0,85 -> Ke 8,58%; beta 0,94 -> Ke 9,00%; beta 1,20 -> Ke 10,21%. Sumando +/-25 pb de tipo libre de riesgo se llega a 8,6%-10,4%. La deuda es irrelevante (0,33% de la estructura).",
+    "wacc_del_activo_operativo_pct": 10.29,
+    "por_que_dos_tasas": "La caja neta (7.209,7 M) es el 22,8% de la capitalizacion y no tiene beta. Desapalancando por caja: beta_operativo = 0,94 / (24.379,1 / 31.588,7) = 1,218 -> Ke operativo = 4,64% + 1,218 x 4,64% = 10,29%. Cuando la caja neta se valora aparte a valor nominal (que es lo correcto), los flujos OPERATIVOS deben descontarse al 10,3%, no al 9,0%. Ambas tasas salen de los mismos insumos de mercado; no hay ningun tier de calidad tocando esto."
+  },
+
+  "owner_earnings": {
+    "advertencia_central": "La definicion de owner earnings del mandato (flujo de explotacion menos capex) NO carga la retribucion en acciones. En Veeva eso son 472,7 M en FY2026 = 14,8% de las ventas, y ademas el flujo de explotacion incluye ~267 M de intereses cobrados sobre la caja, que se estarian contando dos veces si luego se suma la caja neta. Se reportan las dos versiones del mandato Y una tercera version honesta. TODA la valoracion corre sobre la honesta.",
+
+    "base_auditada_FY2026": {
+      "fuente": "HECHO. 10-K FY2026, accession 0001393052-26-000014, estado consolidado de flujos de caja (R8) y de resultados.",
+      "ingresos_usd_mm": 3195.311,
+      "beneficio_operativo_usd_mm": 916.369,
+      "beneficio_neto_usd_mm": 908.906,
+      "beneficio_operativo_no_gaap_usd_mm": 1433.8,
+      "flujo_de_explotacion_usd_mm": 1415.225,
+      "depreciacion_y_amortizacion_usd_mm": 37.972,
+      "capex_usd_mm": 29.131,
+      "detalle_capex": "En el estado de flujos la linea es 'Long-term assets' dentro de inversion: 29,131 M (FY2026), 20,519 M (FY2025), 26,196 M (FY2024).",
+      "retribucion_en_acciones_usd_mm": 472.703,
+      "ingresos_financieros_netos_usd_mm": 267.219,
+      "otros_ingresos_no_operativos_netos_usd_mm": 278.139,
+      "tipo_impositivo_efectivo_pct": 23.9,
+      "variacion_capital_circulante_usd_mm": -91.938,
+      "nota_circulante": "HECHO derivado. El circulante DRENO 91,9 M en FY2026 (clientes -244,7; no facturado -9,8; costes diferidos -20,0; anticipos -33,8; proveedores +6,1; devengos +3,0; impuestos -2,3; ingresos diferidos +213,1; arrendamientos -5,8; otros +2,5). Es decir: el flujo de explotacion NO esta inflado por circulante; el crecimiento se lo come.",
+
+      "oe_a_capex_mantenimiento_usd_mm": 1377.3,
+      "oe_a_capex_mantenimiento_formula": "1.415,225 - 37,972 (capex de mantenimiento aproximado por la depreciacion) = 1.377,3",
+      "oe_b_capex_total_usd_mm": 1386.1,
+      "oe_b_capex_total_formula": "1.415,225 - 29,131 (todo el capex) = 1.386,1",
+      "observacion_clave": "Aqui el capex real (29,1 M) es MENOR que la depreciacion (38,0 M), asi que la version de mantenimiento sale MAS BAJA que la de capex total. No hay capex discrecional que proteger: Veeva no reinvierte por el balance, reinvierte por la cuenta de resultados (I+D 767,4 M = 24,0% de ventas, ya restados dentro del beneficio operativo). La proteccion que da restar solo el mantenimiento -no penalizar al reinvertidor- aqui no cambia nada.",
+
+      "oe_c_honesto_operativo_usd_mm": 637.3,
+      "oe_c_formula": "1.415,225 - 37,972 (mantenimiento) - 472,703 (retribucion en acciones, coste real) - 267,219 (intereses de la caja, que se valoran aparte con la caja) = 637,3",
+      "oe_c_por_que": "Es el dinero que el NEGOCIO genera para el dueno un ano cualquiera, sin regalar el 14,8% de las ventas en acciones y sin contar dos veces el rendimiento de la caja. Es la unica de las tres que se puede comparar con el valor de empresa."
+    },
+
+    "base_en_curso_FY2027E": {
+      "fuente_datos_duros": "HECHO. 10-Q Q1 FY2027 (accession 0001393052-26-000026): ingresos 882,948; beneficio operativo 273,112; beneficio neto 260,936; flujo de explotacion 1.127,116; retribucion en acciones 119,259; D&A 11,587; capex 1,751. Q1 FY2026 comparativo: flujo de explotacion 877,158.",
+      "fuente_guia": "HECHO. 8-K del 3-jun-2026, EX-99.1: ingresos FY2027 entre 3.635 y 3.645 M; beneficio operativo no-GAAP ~1.610 M; BPA diluido no-GAAP ~9,05 USD. La empresa declara expresamente que NO puede dar objetivos GAAP por la imposibilidad de estimar la retribucion en acciones.",
+      "ingresos_estimados_usd_mm": 3640,
+      "crecimiento_ingresos_pct": 13.9,
+      "margen_operativo_no_gaap_guiado_pct": 44.2,
+      "margen_operativo_no_gaap_FY2026_pct": 44.9,
+      "senal_de_margen": "HECHO incomodo: el margen operativo no-GAAP GUIADO para FY2027 (1.610/3.640 = 44,2%) es 65 pb MENOR que el realizado en FY2026 (1.433,8/3.195,3 = 44,9%). Y en Q1 FY2027 cayo de 46,1% a 44,8% interanual. La expansion de margen se ha parado. Esto valida usar ROIIC EX-MARGEN y no el bruto.",
+      "flujo_de_explotacion_estimado_usd_mm": 1660,
+      "fuente_flujo_estimado": "INFERENCIA, rango 1.600-1.720. Tres anclas: (a) el flujo de explotacion de los ultimos doce meses hasta 30-abr-2026 es 1.415,225 - 877,158 + 1.127,116 = 1.665,2 M, todo de filings; (b) 1.415,2 x 1,17 = 1.656; (c) crecimiento de ingresos guiado 13,9%. NO se anualiza el Q1 x4: el Q1 concentra el cobro de la facturacion anual (clientes +696,6 M en el trimestre) y anualizarlo seria un disparate.",
+      "depreciacion_estimada_usd_mm": 50,
+      "capex_estimado_usd_mm": 20,
+      "retribucion_en_acciones_estimada_usd_mm": 505,
+      "ingresos_financieros_estimados_usd_mm": 295,
+
+      "oe_a_capex_mantenimiento_usd_mm": 1610,
+      "oe_b_capex_total_usd_mm": 1640,
+      "oe_c_honesto_operativo_usd_mm": 810
+    },
+
+    "distancia_entre_bases": {
+      "oe_mantenimiento_pct": 16.9,
+      "oe_honesto_pct": 27.1,
+      "lectura": "El ejercicio en curso va POR ENCIMA del auditado, no por debajo. La caja acelera mas rapido que los ingresos (+17% a +27% frente a +13,9% de ventas). Esto NO es ruido, es informacion sobre el momento del ciclo: (i) el cobro del ciclo anual de facturacion mejoro (clientes +696,6 M en Q1 FY2027 frente a +522,7 M en Q1 FY2026), (ii) el circulante deja de drenar. Pero OJO: es aceleracion de COBRO, no de margen. El margen no-GAAP guiado BAJA. Traducido: el ciclo esta en su punto bueno de conversion de caja y en su punto de inflexion malo de margen."
+    }
+  },
+
+  "dcf_inverso": {
+    "metodo": "Para cada base: crecimiento constante durante 10 anios, valor terminal con crecimiento perpetuo del 3%, descontado al WACC de mercado. Se despeja el crecimiento que iguala exactamente el precio de hoy.",
+
+    "lectura_del_mandato_sin_cargar_acciones": {
+      "descuento_pct": 9.0,
+      "contra": "capitalizacion 31.588,7 M (el flujo incluye los intereses de la caja, asi que no se suma la caja aparte)",
+      "g_implicita_base_auditada_pct": 6.8,
+      "g_implicita_base_en_curso_pct": 4.7,
+      "lectura": "Con esta definicion el mercado solo pide 5-7% durante una decada, frente a una tasa base de 16%. Pareceria una ganga historica. ES UN ESPEJISMO: esta definicion regala 473 M anuales de retribucion en acciones y cuenta dos veces el rendimiento de la caja."
+    },
+
+    "lectura_honesta_acciones_cargadas": {
+      "descuento_pct": 10.29,
+      "contra": "valor de empresa 24.379,1 M (flujo operativo puro; la caja neta de 7.209,7 M se valora aparte a valor nominal)",
+      "g_implicita_base_auditada_pct": 16.6,
+      "g_implicita_base_en_curso_pct": 13.3,
+      "lectura": "ESTE es el numero. El precio de hoy exige que los owner earnings operativos de Veeva compongan al 13,3% durante DIEZ anos y despues al 3% para siempre. La propia direccion guia 13,9% de ingresos para FY2027 con el margen BAJANDO, y su objetivo publico es 6.000 M de run-rate en 2030 = 13,3% anual compuesto. Es decir: el precio de hoy paga exactamente el plan de la direccion, ejecutado sin un solo tropiezo, durante una decada. Cero holgura."
+    }
+  },
+
+  "g_defendible": {
+    "valor_pct": 10.0,
+    "rango_pct": "8% - 12%",
+    "derivacion": "Punto de partida congelado del paso de calidad: ROIIC ex-margen 14,2% (se usa el ex-margen, no el bruto de 17,2%, porque usar el bruto asume que la expansion de margen se repite, y la guia FY2027 dice literalmente lo contrario: el margen no-GAAP baja 65 pb). Sobre ese 14,2% se aplican tres correcciones a la baja, todas ancladas en documento primario: (a) la propia guia de la empresa, 13,9% de crecimiento de ingresos en FY2027 frente al 16,3% de FY2026 -la deceleracion es un hecho, no una opinion-; (b) el objetivo propio de la direccion de 6.000 M de run-rate en 2030, que desde FY2027 es 13,3% anual compuesto, y las direcciones no publican objetivos conservadores; (c) la fuga de la migracion de CRM, cuantificada abajo. Perfil resultante: 12% en los anios 1-3, 10% en los 4-6, 8% en los 7-10 -> CAGR a 10 anios 9,8%, se redondea a 10,0%.",
+    "por_que_no_se_usa_la_formula_reinversion_x_roiic_tal_cual": "En Veeva la formula g = reinversion x ROIIC se rompe: el capital invertido neto esta congelado en ~750 M y el capex (29 M) es menor que la depreciacion (38 M). El crecimiento no esta limitado por capital sino por el tamano del mercado y por la I+D que ya pasa por la cuenta de resultados (767,4 M, 24,0% de ventas). Aplicar la formula literalmente daria un crecimiento infinito. Por eso la g defendible se ancla en el ROIIC ex-margen congelado y se corrige con las tres anclas externas de arriba, que es lo que la formula intenta capturar."
+  },
+
+  "eslabon_debil_cuantificado": {
+    "hallazgo": "El eslabon debil congelado (la migracion forzada de Veeva CRM a Vault CRM antes del apagon del 31-dic-2029) se puede convertir en aritmetica con cifras de la propia empresa, y la aritmetica no sale.",
+    "hechos": [
+      "HECHO. Al cierre de FY2026 (8-K 4-mar-2026, EX-99.1): 1.552 clientes totales, de los cuales 767 en Veeva Commercial Solutions y 1.196 en R&D y Quality.",
+      "HECHO. Al cierre de FY2026: mas de 125 clientes en vivo con Vault CRM.",
+      "HECHO. Al cierre de Q1 FY2027 (8-K 3-jun-2026, EX-99.1): mas de 150 clientes en vivo con Vault CRM, tras anadir 27 en el trimestre."
+    ],
+    "aritmetica": "150 de 767 clientes comerciales migrados = 19,6% de la base, coherente con el '<20%' del mecanismo congelado. Desde el 30-abr-2026 quedan ~14 trimestres hasta el 31-dic-2029. Al ritmo observado de 27 por trimestre se llegaria a 150 + 378 = 528 de 767 = 69% de la base. LA CADENCIA ES INSUFICIENTE para completar la migracion antes del apagon; haria falta ~44 por trimestre.",
+    "matiz_honesto": "Recuento de CLIENTES, no de ingresos. Veeva migra primero a las grandes farmaceuticas, asi que el porcentaje ponderado por ingresos es sin duda mayor que el 19,6%. Y la empresa puede acelerar o extender el soporte. Pero el sentido de la senal no cambia: a tres anios y medio del apagon, la ventana en la que irse a un rival cuesta lo mismo que quedarse sigue abierta de par en par para la mayoria de la base comercial.",
+    "impacto_en_la_valoracion": "El tercio comercial es la parte del negocio con foso fechado. Es exactamente la razon por la que la g defendible se pone en 10% y no en el 13-14% que pide el precio."
+  },
+
+  "valoracion": {
+    "base_de_calculo": "Owner earnings honestos operativos (retribucion en acciones cargada, intereses de la caja fuera), descontados al 10,29%, crecimiento 10,0% a 10 anios y 3% terminal, mas caja neta de 7.209,7 M a valor nominal, dividido entre 165,989 M de acciones diluidas.",
+    "valor_por_accion_base_auditada_usd": 134,
+    "banda_resolucion_auditada_usd": "101 - 168",
+    "valor_por_accion_base_en_curso_usd": 159,
+    "banda_resolucion_encurso_usd": "119 - 198",
+    "piso_de_resolucion": "Sin medicion propia del ruido se aplica +/-25%. Por eso el valor intrinseco se reporta SIN decimales y con banda. Cualquier cifra tipo '158,73 USD' seria decimal falso.",
+    "mos_base_auditada_pct": -45.0,
+    "mos_base_en_curso_pct": -22.6,
+    "mos_exigido_pct": 35,
+    "distancia_al_umbral": "Para dar el 35% exigido sobre la base en curso el precio tendria que ser ~103 USD, es decir un -47% desde 194,46 USD. Ni siquiera el minimo de 52 semanas (148,12 USD) lo daba.",
+    "mos_con_la_definicion_del_mandato": "Si NO se carga la retribucion en acciones, el MoS sale +20% (auditada) y +32% (en curso). Ese es el numero que hace que Veeva 'parezca' una ganga tras caer un 37% desde maximos. La diferencia entre +32% y -23% son exactamente los 505 M anuales de acciones regaladas. Elegir cual creer es toda la decision.",
+
+    "m_estrella": {
+      "multiplo_x": 22,
+      "sobre": "owner earnings honestos operativos (retribucion en acciones cargada)",
+      "decidido_en_frio": "22x es lo maximo que se paga por un negocio con: crecimiento defendible del 10%, cero intensidad de capital, ingresos recurrentes de sistema de registro validado, caja neta del 23% de la capitalizacion... y un foso FECHADO en un tercio del negocio con el reloj corriendo. Se le da prima sobre el mercado (~20x beneficios) por la recurrencia y la ausencia de capital; se le niega prima de compounder porque el tercio comercial tiene fecha de caducidad conocida. Sin barra de error: es una decision, no una estimacion.",
+      "valor_por_accion_implicito_usd": 151,
+      "detalle": "22 x 810 M = 17.820 M de valor operativo + 7.209,7 M de caja neta = 25.029,7 M / 165,989 M acciones = 150,8 USD. Converge con el DCF (159 USD) dentro de la banda de resolucion: buena senal de que las dos rutas dicen lo mismo."
+    },
+
+    "p_estrella_usd": 100,
+    "p_estrella_detalle": "Precio que da el MoS exigido del 35%. Por DCF sobre base en curso: 159 x 0,65 = 103 USD. Por M estrella: 151 x 0,65 = 98 USD. Se compromete 100 USD, redondeado al piso de resolucion. Es un -49% desde el precio de hoy.",
+
+    "tir_esperada": {
+      "rango_central": "+7,7% a +8,9% anual durante 10 anios",
+      "detalle": "Comprando a 194,46 USD y suponiendo la g defendible del 10%: 7,7% anual sobre la base auditada, 8,9% sobre la base en curso. Sensibilidad al crecimiento: g=8% -> 8,1%; g=10% -> 8,9%; g=12% -> 9,7%; g=14% -> 10,6%.",
+      "lectura": "Ni siquiera en el escenario en que Veeva compone al 14% durante una decada -por encima de su propia guia y de su propio objetivo de 2030- la TIR (10,6%) supera de forma significativa el coste de capital del activo operativo (10,3%). Al crecimiento defendible del 10%, la TIR de 8,9% esta 1,4 puntos POR DEBAJO del coste de capital: el precio de hoy destruye valor para el comprador marginal. Esto es mucho mas util que decir 'MoS -23%'."
+    }
+  },
+
+  "detector_de_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "El motor NO se esta rompiendo. Ingresos +16,3% en FY2026 y +16% en Q1 FY2027; ingresos por suscripcion +15%; ingresos diferidos +18,5% interanual (1.476,5 M a 30-abr-2026 frente a 1.246,2 M a 30-abr-2025); conversion de beneficio en caja de 1,56x (1.415,2 M de flujo de explotacion sobre 908,9 M de beneficio neto); cero deuda financiera y 7.313 M de caja e inversiones; capital invertido congelado. Nada de eso es una trampa de valor. La caida del 37% desde maximos no esconde un negocio roto, esconde una desinflacion de multiplo. Lo que pasa es lo contrario de una trampa: el negocio es bueno y el precio sigue sin serlo. La bandera amarilla -no roja- es la migracion de CRM: cadencia insuficiente frente al apagon de 2029 y margen no-GAAP guiado a la baja por primera vez en anos. Si dentro de cuatro trimestres la cadencia de Vault CRM no ha subido de 27 por trimestre, esto pasa a SOSPECHA."
+  },
+
+  "huecos_y_salvedades": [
+    "HUECO. La empresa no publica objetivo de flujo de caja para FY2027 y declara expresamente que no puede dar objetivos GAAP. El flujo de explotacion de 1.660 M del ejercicio en curso es INFERENCIA (rango 1.600-1.720), anclada en los ultimos doce meses reales de 1.665,2 M. Si el real cae a 1.600 M, el valor por accion en curso baja de 159 a ~154; no cambia el veredicto.",
+    "HUECO. El beta (0,94) no es HECHO: ningun documento primario lo publica. Dos agregadores independientes coinciden, pero es INFERENCIA. Con beta 1,20 el coste de capital del activo operativo sube a ~11,5% y el valor por accion en curso cae a ~140 USD, empeorando el MoS.",
+    "HUECO. No existe coste de deuda real: Veeva no tiene deuda financiera ni gasto por intereses de deuda. Se usa el tipo de descuento de arrendamientos del filing (4,8%) como el mejor sustituto observable. Es irrelevante: la deuda pesa 0,33% de la estructura de capital.",
+    "HUECO. La prima pais de 0,44% se construye con pesos de ingresos del filing (HECHO) pero con primas por bloque estimadas (INFERENCIA). Un error de +/-30 pb mueve el WACC menos de 30 pb.",
+    "SALVEDAD METODOLOGICA GRAVE. Las dos definiciones de owner earnings del mandato (flujo menos capex de mantenimiento y flujo menos capex total) dan un MoS POSITIVO (+20% y +32%) porque no cargan los 473-505 M anuales de retribucion en acciones ni excluyen los ~267-295 M de intereses de la caja. Este agente NO las usa para el veredicto y reporta la valoracion sobre la version que si los carga. Si el orquestador compara g_implicita entre empresas, tiene que saber que aqui esta la version honesta (13,3% en curso), no la del mandato (4,7%).",
+    "SALVEDAD. El recuento de migracion de Vault CRM (150 de 767) es por CLIENTES, no por ingresos. Veeva no desglosa ingresos comerciales migrados. El porcentaje ponderado por ingresos es mayor y no es publico: es el hueco de informacion mas importante de toda la tesis.",
+    "SALVEDAD. Las recompras se han acelerado (169,9 M en todo FY2026 frente a 226,9 M solo en Q1 FY2027). Si Veeva sostiene ~900 M anuales, neutraliza la dilucion de la retribucion en acciones. Eso NO cambia el calculo -el efectivo gastado en recomprar es efectivo que no llega al dueno, igual que la dilucion- pero si mejora los beneficios POR ACCION frente a los agregados. Ya se observa: 163.330.933 acciones el 17-mar-2026 -> 162.443.291 el 1-jun-2026."
+  ],
+
+  "conclusion": "Veeva sigue siendo el negocio que dice el mecanismo congelado: sistema de registro validado, capital invertido en cero, conversion de beneficio en caja de 1,5x, 7.300 M de caja y ni un dolar de deuda. Nada de eso esta en discusion y nada de eso reclasifica la etiqueta PRESUNTA hacia arriba. La pregunta que le tocaba a este agente es el precio, y el precio de 194,46 USD exige que los owner earnings operativos compongan al 13,3% anual durante diez anios enteros. Eso no es una hipotesis agresiva del mercado: es literalmente el plan de la direccion -6.000 M de run-rate en 2030- cotizando al 100% de probabilidad de cumplimiento, en el mismo trimestre en que la propia guia baja el margen operativo no-GAAP 65 pb y en el que la migracion de CRM avanza a 27 clientes por trimestre cuando necesitaria ir a ~44 para llegar al apagon de 2029. Con la g defendible del 10%, el valor por accion es 159 USD (banda 119-198) sobre la base en curso y 134 USD sobre la auditada: margen de seguridad de -23% y -45% frente al 35% POSITIVO que exige la banda PRESUNTA de una posicion que ya esta en cartera. La TIR esperada de 7,7-8,9% anual queda por debajo del coste de capital del propio activo operativo. VEREDICTO: NO CARGAR. Precio comprometido en frio: 100 USD. Vigilar la cadencia trimestral de Vault CRM: si no supera 35-40 clientes por trimestre en cuatro trimestres, la bandera pasa de amarilla a roja y hay que reabrir la etiqueta por el lado malo, no por el bueno."
+}

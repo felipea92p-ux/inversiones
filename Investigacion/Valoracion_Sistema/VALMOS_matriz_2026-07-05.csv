@@ -1,0 +1,37 @@
+ticker,nombre,qg_score,tier,moneda,precio,pwfv_valor,dcto_pct,zona,detector,dcf_inverso,mos_exigido_pct,gatillo_compra,veredicto,ia_nivel,auditada,gravedad_auditoria,seleccionada_top12
+TOI.V,Topicus.com,79.2,Alta convicción,CAD,94.24,122.8,23.3,OPORTUNIDAD,PASA,BAJAS,25,92.1,ESPERAR,neutral,True,menor,True
+NEM.DE,Nemetschek SE,84,Alta convicción,EUR,55.45,72.0,23.0,OPORTUNIDAD,PASA,BAJAS,25,54.0,VIGILAR,neutral,True,mayor,True
+MA,Mastercard,91.2,Núcleo,USD,539.66,605,10.8,JUSTO,PASA,BAJAS,15,514.25,ESPERAR,se_fortalece,True,menor,True
+REL.L,RELX PLC,82.4,Alta convicción,GBp,2333.69,2874.0,18.8,OPORTUNIDAD,PASA,BAJAS,25,2155.5,ESPERAR,neutral,True,ninguna,True
+CSU.TO,Constellation Software,84.8,Alta convicción,CAD,2778.12,3175,12.5,JUSTO,PASA,RAZONABLES,25,2381.25,ESPERAR,amenaza,True,ninguna,True
+VEEV,Veeva Systems,81.2,Alta convicción,USD,192.74,219,12.0,JUSTO,PASA,BAJAS,25,164.25,ESPERAR,se_fortalece,True,menor,True
+ADYEN.AS,Adyen,80.8,Alta convicción,EUR,864.26,981,11.9,JUSTO,PASA,BAJAS,25,735.75,ESPERAR,neutral,True,menor,True
+NOW,ServiceNow,83.2,Alta convicción,USD,106.32,118.6,10.8,JUSTO,PASA,RAZONABLES,25,88.95,ESPERAR,se_fortalece,True,menor,True
+MSFT,Microsoft,88,Núcleo,USD,390.61,391,0.1,JUSTO,PASA,RAZONABLES,15,332.35,ESPERAR,se_fortalece,True,menor,True
+SPGI,S&P Global,84.8,Alta convicción,USD,439.89,417,-5.5,JUSTO,PASA,RAZONABLES,25,312.75,ESPERAR,neutral,True,menor,True
+V,Visa,86.4,Núcleo,USD,362.21,336,-7.8,JUSTO,PASA,RAZONABLES,15,285.6,ESPERAR,se_fortalece,True,menor,True
+ZTS,Zoetis,81.6,Alta convicción,USD,74.8,88.6,15.6,OPORTUNIDAD,GRIS,BAJAS,40,53.16,ESPERAR,neutral,True,menor,True
+ISRG,Intuitive Surgical,90.4,Núcleo,USD,402.38,267,-50.8,BURBUJA,PASA,HEROICAS,25,200.25,ESPERAR,se_fortalece,False,,False
+MSCI,MSCI,84.8,Alta convicción,USD,603.11,500,-20.7,CARO,PASA,RAZONABLES,25,375.0,ESPERAR,neutral,False,,False
+NVDA,Nvidia,83.2,Alta convicción,USD,197.58,93.4,-111.7,BURBUJA,PASA,HEROICAS,35,60.71,ESPERAR,se_fortalece,False,,False
+HOYCY,Hoya Corporation,82.8,Alta convicción,JPY,25930,18200,-42.5,BURBUJA,PASA,HEROICAS,35,11830.0,ESPERAR,se_fortalece,False,,False
+MTD,Mettler-Toledo,82.4,Alta convicción,USD,1300.38,976,-33.2,CARO,PASA,HEROICAS,35,634.4,ESPERAR,neutral,False,,False
+STMN.SW,Straumann,81.6,Alta convicción,CHF,105.9,52,-103.6,BURBUJA,PASA,HEROICAS,35,33.8,ESPERAR,neutral,False,,False
+IDXX,Idexx Laboratories,81.6,Alta convicción,USD,557.8,380,-46.8,BURBUJA,PASA,HEROICAS,35,247.0,ESPERAR,se_fortalece,False,,False
+ASML,ASML Holding,81.6,Alta convicción,USD,1843.04,694,-165.8,BURBUJA,PASA,HEROICAS,35,451.1,ESPERAR,se_fortalece,False,,False
+MANH,Manhattan Associates,80,Alta convicción,USD,151.04,131,-15.3,CARO,PASA,RAZONABLES,25,98.25,ESPERAR,se_fortalece,True,mayor,False
+TSM,Taiwan Semiconductor,80,Alta convicción,USD,444.23,243,-82.5,BURBUJA,PASA,HEROICAS,35,157.95,ESPERAR,se_fortalece,False,,False
+WISE.L,Wise plc,79.2,Alta convicción,GBX,963,1021,5.7,JUSTO,PASA,RAZONABLES,25,765.75,ESPERAR,neutral,False,,False
+0388.HK,HK Exchanges,78.4,Alta convicción,HKD,367.6,297,-23.8,CARO,PASA,RAZONABLES,25,222.75,ESPERAR,neutral,False,,False
+MELI,MercadoLibre,78.4,Alta convicción,USD,1742.19,1925,9.5,JUSTO,GRIS,RAZONABLES,40,1155.0,ESPERAR,se_fortalece,False,,False
+CPRT,Copart,78.4,Alta convicción,USD,28.79,29.8,3.3,JUSTO,PASA,RAZONABLES,25,22.35,ESPERAR,neutral,False,,False
+4684.T,OBIC,78.4,Alta convicción,JPY,3955.6,4433,10.8,JUSTO,PASA,RAZONABLES,25,3324.75,ESPERAR,neutral,False,,False
+GOOGL,Alphabet,78.4,Alta convicción,USD,361.21,208,-73.7,BURBUJA,PASA,HEROICAS,35,135.2,ESPERAR,neutral,False,,False
+CME,CME Group,77.6,Alta convicción,USD,231,257,10.1,JUSTO,GRIS,BAJAS,40,154.2,ESPERAR,neutral,False,,False
+AMZN,Amazon,77.6,Alta convicción,USD,241.7,151,-59.9,BURBUJA,PASA,HEROICAS,35,98.15,ESPERAR,se_fortalece,False,,False
+WKL.AS,Wolters Kluwer,77.2,Alta convicción,EUR,57.9,102,43.2,GANGA FUERTE,PASA,BAJAS,25,76.5,COMPRAR TRAMO,amenaza,False,,False
+VRSK,Verisk,76.8,Alta convicción,USD,183.72,176.5,-4.1,JUSTO,PASA,RAZONABLES,25,132.38,ESPERAR,neutral,False,,False
+WST,West Pharmaceutical,76.8,Alta convicción,USD,365,197,-85.3,BURBUJA,PASA,HEROICAS,35,128.05,ESPERAR,neutral,False,,False
+CDNS,Cadence Design,76.8,Alta convicción,USD,377.73,156,-141.5,BURBUJA,PASA,HEROICAS,35,101.4,ESPERAR,se_fortalece,False,,False
+SPSC,SPS Commerce,76,Alta convicción,USD,58.29,64.8,10.1,JUSTO,PASA,BAJAS,25,48.6,ESPERAR,neutral,False,,False
+CLPBY,Coloplast,76,Alta convicción,USD,6.04,7.49,19.4,OPORTUNIDAD,GRIS,BAJAS,40,4.49,ESPERAR,neutral,False,,False

@@ -1,0 +1,103 @@
+{
+ "ticker": "6146.T",
+ "name": "Disco Corporation",
+ "asof_date": "2026-06-22",
+ "currency": "JPY",
+ "price": 88480,
+ "market_cap_usd_b": 59.4,
+ "fwd_pe": 53.2,
+ "fwd_pe_5y_avg": 30,
+ "pe_prem_disc_pct": 77,
+ "peg": null,
+ "last_q": {
+  "period": "Q4 FY2026 (Jan-Mar 2026, derived from FY minus 9M)",
+  "revenue": "JPY 133.0B (~$0.82B)",
+  "rev_yoy_pct": null,
+  "op_margin_pct": 44.1,
+  "eps_gaap": "~JPY 395",
+  "eps_adj": "~JPY 395"
+ },
+ "last_fy": {
+  "period": "FY2026 (ended Mar 31, 2026)",
+  "revenue": "JPY 436.8B (~$2.70B)",
+  "organic_growth_pct": 11.1,
+  "roic_pct": null,
+  "fcf": "JPY 98.4B (~$0.61B)",
+  "fcf_margin_pct": 22.5
+ },
+ "sbc_pct_revenue": null,
+ "sbc_pct_fcf": null,
+ "net_debt_usd_b": -1.76,
+ "nd_ebitda": null,
+ "net_cash": true,
+ "guidance_fy": "Disco only issues ONE-QUARTER-AHEAD guidance (no full-year FY2027 forecast due to semiconductor demand volatility). Q1 FY2027 (Apr-Jun 2026) PROJECTION: net sales JPY 106.1B (+18.0% YoY), operating profit JPY 42.0B (+21.8% YoY), net income JPY 29.5B (+24.1% YoY), EPS JPY 271.98; shipment value JPY 132.0B.",
+ "pct_off_52w_high": -0.9,
+ "pct_off_ath": -0.9,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_q.op_margin_pct",
+  "guidance_fy"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "last_q.revenue",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "net_debt_usd_b",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "Japan IR — DISCO FY2026 Financial Results (official summary, Apr 22 2026)",
+   "url": "https://japanir.jp/en/company/company-6146/ir/6146-20260422-01_wp_financial_summary/",
+   "date": "2026-04-22"
+  },
+  {
+   "label": "DISCO Q1 FY2027 Earnings Forecast Notice (TDnet via BigGo)",
+   "url": "https://finance.biggo.com/news/jpx_tdnet_140120260421507835",
+   "date": "2026-04-21"
+  },
+  {
+   "label": "DISCO Q3 FY2026 Results (9M, TDnet via BigGo)",
+   "url": "https://finance.biggo.com/news/jpx_tdnet_140120260120535984",
+   "date": "2026-01-20"
+  },
+  {
+   "label": "StockAnalysis.com — DISCO quote (price, mkt cap, fwd P/E, 52w hi/lo)",
+   "url": "https://stockanalysis.com/quote/tyo/6146/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com — DISCO cash flow (FCF, capex)",
+   "url": "https://stockanalysis.com/quote/tyo/6146/financials/cash-flow-statement/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com — DISCO balance sheet (cash, net cash)",
+   "url": "https://stockanalysis.com/quote/tyo/6146/financials/balance-sheet/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "GuruFocus / Yahoo — fwd P/E and historical P/E median context",
+   "url": "https://www.gurufocus.com/term/pettm/TSE:6146",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "TradingEconomics — USD/JPY ~161.5 (FX for USD conversion)",
+   "url": "https://tradingeconomics.com/japan/currency",
+   "date": "2026-06-22"
+  }
+ ],
+ "notes": "FY ends March 31; FY2026 = year ended Mar 31 2026. PRICE/VALUATION NOT DEPRESSED: stock JPY 88,480 sits within 1% of its 52-week (and effectively all-time) high of JPY 89,250, after rallying from a JPY 35,270 low — driven by generative-AI / HBM / GPU dicing & grinding demand. Fwd P/E ~53 vs a long-run TTM median ~28 (10y); pe_prem_disc_pct (~+77%) computed vs an ESTIMATED 5y avg fwd P/E of ~30 (no clean published 5y fwd-P/E series found — treat as estimate). Q4 FY2026 standalone DERIVED as FY total minus 9M cumulative (Rev 436.8-303.8=133.0; OP 184.9-126.2=58.7 → 44.1% margin; NI 135.5-92.6=42.9; EPS approx). rev_yoy_pct for Q4 left null (prior-year Q4 not isolated). NET CASH: cash & ST investments JPY 284.6B vs negligible interest-bearing debt (total liabilities only JPY 155.3B); net_debt_usd_b -1.76 at USD/JPY 161.5. Market cap JPY 9.60T / 161.5 ≈ $59.4B. SBC: not separately disclosed; for a Japanese precision-equipment maker SBC is immaterial vs revenue/FCF — left null rather than fabricated; this is the main gap for R9. ROIC, PEG, ND/EBITDA not computed from primary filing (null). GUIDANCE is a one-quarter-ahead PROJECTION only — Disco deliberately withholds full-year FY2027 guidance citing demand volatility. drop_classification=not_depressed (stock at record high, fundamentals at record high, no fear/rotation drop). data_quality MIXED: FY2026 headline P&L and guidance VERIFIED from official IR/TDnet; price, valuation multiples, FCF, balance-sheet/net-cash figures sourced from StockAnalysis aggregator (ESTIMADO)."
+}

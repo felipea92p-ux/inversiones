@@ -1,0 +1,340 @@
+{
+  "expediente": "Valoracion — eje PRECIO. La etiqueta de calidad esta CONGELADA y no se toca.",
+  "fecha_analisis": "2026-07-28",
+  "divisa": "USD",
+  "unidades": "millones de USD salvo donde se indique por accion",
+  "analista": "Valorador QG (agente). Toda cifra lleva HECHO o INFERENCIA.",
+
+  "identificacion": {
+    "ticker": "MANH",
+    "nombre": "Manhattan Associates, Inc.",
+    "cik": "0001056696",
+    "domicilio": "Georgia, EEUU (sede en Atlanta, GA)",
+    "bolsa": "Nasdaq Global Select Market",
+    "moneda_funcional": "USD",
+    "es_ADS": false,
+    "nota_ADS": "No aplica. Accion ordinaria unica, valor nominal 0,01 USD, 200.000.000 autorizadas. No hay clases duales ni ADS. HECHO (balance 10-K FY2025).",
+    "cierre_fiscal": "31 de diciembre",
+    "ultimo_auditado": "FY2025, 10-K presentado el 2026-02-04 (accession 0001193125-26-037138)",
+    "ultimo_trimestre_publicado": "Q1 2026, 10-Q presentado el 2026-04-24 (accession 0001193125-26-175715)"
+  },
+
+  "etiqueta_congelada": {
+    "banda": "MENOS_5_6",
+    "puertas_pasadas": 3,
+    "especie": "G2",
+    "reinversion_pct_ventas": 15.04,
+    "roiic_bruto_pct": 21.84,
+    "roiic_ex_margen_pct": 12.62,
+    "mos_exigido_pct": 40.0,
+    "motivo_mos": "No esta en cartera de Felipe, luego aplica el umbral de ABRIR (40%), no el de CARGAR.",
+    "nota_disciplina": "Al abrir el precio NO se reclasifica la etiqueta hacia arriba. Nada de lo que sigue toca la calidad. Validacion cruzada favorable: el NOPAT FY2025 que yo calculo desde el filing (279,800 x (1 - 23,07%) = 215,26 M) coincide con el 215,25 M del dato congelado hasta el segundo decimal. La cadena de calidad y esta valoracion estan mirando el mismo libro."
+  },
+
+  "precio_y_capitalizacion": {
+    "precio_usd": 159.29,
+    "precio_etiqueta": "HECHO",
+    "precio_fuente": "Snapshot IBKR (contract_id 4814485, NASDAQ), campo 'last' con is_close=true, consultado el 2026-07-28. Corresponde al cierre del 2026-07-27. El bid/ask del momento (154,68 / 176,00) esta muy abierto porque el mercado esta cerrado: no usar como referencia.",
+    "maximo_52s_usd": 229.575,
+    "minimo_52s_usd": 119.06,
+    "maximo_26s_usd": 179.77,
+    "maximo_13s_usd": 167.42,
+    "minimo_13s_usd": 124.33,
+    "maximo_cierre_semanal_5a_usd": 302.59,
+    "contexto_precio": "Cotiza un 30,6% por debajo del maximo de 52 semanas y un 47,4% por debajo del maximo de cierre semanal de la serie de 5 anios (302,59 USD, semana del 2025-06-02). Hubo una semana de -27,9% (la peor de los 262 registros semanales) frente a un SPY de -1,0% en la misma semana: caida idiosincratica, no de mercado. Volatilidad anualizada propia 37,4% contra 16,2% del SPY.",
+    "acciones_en_circulacion": 59164602,
+    "acciones_fuente": "HECHO — portada del 10-Q de Q1 2026 (dei:EntityCommonStockSharesOutstanding a 2026-04-21). Conservador: la empresa sigue recomprando, luego el recuento real de hoy es probablemente algo menor, lo que ELEVARIA el valor por accion. Uso el numero alto a proposito.",
+    "capitalizacion_usd_mm": 9424.3,
+    "deuda_financiera_usd_mm": 0.0,
+    "deuda_fuente": "HECHO — el balance consolidado del 10-K FY2025 no contiene ninguna linea de deuda: pasivo corriente = proveedores + compensacion devengada + otros devengados + ingresos diferidos + impuestos; no corriente = arrendamientos operativos + otros. Cero prestamos, cero bonos, cero linea dispuesta.",
+    "arrendamientos_capitalizados_usd_mm": 60.568,
+    "arrendamientos_nota": "INFERENCIA de detalle. A 2025-12-31 el pasivo total por arrendamientos operativos era 61,063 M (4,883 corriente + 56,180 no corriente, HECHO 10-K). A 2026-03-31 el no corriente es 55,685 M (HECHO 10-Q); la porcion corriente no se desglosa (esta dentro de 'accrued and other liabilities'), la supongo estable en 4,883 M. Error maximo del orden de 1 M sobre un EV de 9.259 M: irrelevante.",
+    "caja_y_equivalentes_usd_mm": 226.133,
+    "caja_fuente": "HECHO — balance 10-Q a 2026-03-31. Bajo desde 328,747 M a 2025-12-31 por 179,4 M de recompras en el trimestre.",
+    "valores_negociables_usd_mm": 0.0,
+    "nota_valores": "HECHO — la etiqueta us-gaap:Investments vale 0 en los tres ultimos cierres anuales. Toda la liquidez esta en caja y equivalentes.",
+    "deuda_neta_usd_mm": -165.565,
+    "ev_usd_mm": 9258.8,
+    "nota_ev": "EV = capitalizacion 9.424,3 + arrendamientos 60,6 - caja 226,1. La caja neta es de 165,6 M, es decir 2,80 USD por accion: el 1,8% de la capitalizacion. En MANH el balance no mueve la aguja de la valoracion; el multiplo lo es casi todo."
+  },
+
+  "wacc_candado_B": {
+    "principio": "El WACC sale del mercado, nunca del tier de calidad. Nada de lo que sigue depende de que MANH sea o no una buena empresa.",
+    "tasa_libre_riesgo_pct": 4.65,
+    "rf_fuente": "HECHO — bono del Tesoro de EEUU a 10 anios, 4,65% al cierre del 2026-07-27. Daily Treasury Par Yield Curve, home.treasury.gov (descarga CSV directa). Moneda funcional USD, luego es el soberano correcto. Contexto: la curva ha subido en julio (4,55% el 17-jul, 4,65% el 27-jul).",
+    "prima_mercado_madura_pct": 4.23,
+    "prima_pais_eeuu_pct": 0.23,
+    "prima_mercado_total_eeuu_pct": 4.46,
+    "erp_fuente": "HECHO — Damodaran. ERP implicita de mercado maduro 4,23% (fichero histimpl, valor de cierre de 2025, actualizacion de enero-2026). Tabla ctryprem con 'last updated January 5, 2026': ERP total EEUU 4,46% con prima pais de 0,23% derivada del diferencial de impago ajustado. HUECO: existe una actualizacion de julio-2026 que no he podido abrir en fuente primaria; uso la de enero.",
+    "prima_pais_ponderada_pct": 0.31,
+    "nota_pais": "INFERENCIA. Prima pais del riesgo de ACTIVO, no del domicilio fiscal. Geografia de ingresos FY2025 del 10-K (nota de segmentos, HECHO): Americas 810,426 M (74,9%), EMEA 215,796 M (20,0%), APAC 55,170 M (5,1%). Pondero 0,749 x 0,23% + 0,200 x 0,50% + 0,051 x 0,80% = 0,31%. Todo el riesgo esta en mercados desarrollados; el ajuste es cosmetico.",
+    "beta": {
+      "valor_central": 1.20,
+      "rango": "1,05 - 1,35",
+      "fuente": "HECHO derivado — calculo propio. Regresion de 262 retornos SEMANALES de MANH contra SPY, ventana 2021-07-30 a 2026-07-27, barras semanales de IBKR (get_price_history, FIVE_YEARS / ONE_WEEK). Beta cruda = 1,266 con correlacion 0,548 (R2 = 0,30). Excluyendo la peor semana (-27,9%) la beta baja a 1,241: el resultado no depende del outlier. Beta a 2 anios = 1,231 (corr 0,477). Beta a 1 anio = 0,768 pero con correlacion 0,237 (R2 = 0,06) — la DESCARTO por ruido, no por conveniencia. Ajuste Blume sobre la de 5 anios: 0,67 x 1,266 + 0,33 x 1,00 = 1,178. Tomo 1,20 como centro entre la cruda (1,27) y la ajustada (1,18).",
+      "nota_honestidad": "No he cotejado esta beta contra una publicada por un proveedor comercial. Es un numero mio, replicable, con su ventana y su R2 declarados. Un R2 de 0,30 significa que el 70% del movimiento de MANH no lo explica el mercado — coherente con una accion que hizo -28% en una semana en la que el SPY hizo -1%."
+    },
+    "coste_deuda": {
+      "kd_bruto_pct": 5.46,
+      "kd_despues_impuestos_pct": 4.20,
+      "tipo_impositivo_efectivo_pct": 23.07,
+      "fuente": "HECHO con salvedad de metodo. MANH no tiene deuda financiera, luego NO existe un gasto por intereses del que derivar un coste real (de hecho la linea financiera es INGRESO: +4,389 M en FY2025). Uso la tasa de descuento media ponderada de los arrendamientos operativos declarada en el 10-K FY2025 (us-gaap:OperatingLeaseWeightedAverageDiscountRatePercent = 5,46%; era 5,27% en FY2024), que es el coste incremental de endeudamiento que la propia empresa declara ante la SEC. Tipo efectivo FY2025 = 65,946 / 285,894 = 23,07% (HECHO, calculado desde la cuenta de resultados del 10-K).",
+      "salvedad": "Es lo mejor disponible, pero no es un cupon de mercado. Da igual: la deuda pesa el 0,64% de la estructura."
+    },
+    "ponderaciones": {
+      "equity_valor_mercado_usd_mm": 9424.3,
+      "deuda_valor_mercado_usd_mm": 60.568,
+      "peso_equity_pct": 99.361,
+      "peso_deuda_pct": 0.639,
+      "nota": "Ambos a valor de mercado. El equity a precio de hoy; la deuda es arrendamiento capitalizado, cuyo valor en libros descontado al 5,46% ya ES su valor razonable."
+    },
+    "coste_equity_pct": 10.10,
+    "wacc_pct": 10.06,
+    "wacc_rango": "9,38% - 10,74%",
+    "detalle_rango": [
+      {"beta": 1.05, "ke_pct": 9.42, "wacc_pct": 9.38},
+      {"beta": 1.20, "ke_pct": 10.10, "wacc_pct": 10.06},
+      {"beta": 1.35, "ke_pct": 10.78, "wacc_pct": 10.74}
+    ],
+    "formula": "Ke = 4,65% + 1,20 x (4,23% + 0,31%) = 10,10%.  WACC = 0,99361 x 10,10% + 0,00639 x 4,20% = 10,06%."
+  },
+
+  "owner_earnings": {
+    "definiciones": {
+      "base_de_partida": "Flujo de caja de explotacion (us-gaap:NetCashProvidedByUsedInOperatingActivities) del filing.",
+      "version_a_mantenimiento": "OCF menos capex de MANTENIMIENTO, aproximado por la depreciacion y amortizacion. El exceso de capex sobre la D&A es inversion discrecional y NO se resta. Esta es la version que impide penalizar a una reinvertidora por reinvertir.",
+      "version_b_capex_total": "OCF menos TODO el capex. Flujo de caja libre puro.",
+      "version_ajustada_sbc": "Las dos anteriores menos la compensacion en acciones. NO es una tercera version caprichosa: es la correccion sin la cual la valoracion de MANH no se sostiene. Ver hallazgo_estructural."
+    },
+    "hallazgo_estructural": "LA COMPENSACION EN ACCIONES ES EL DATO QUE DECIDE ESTE EXPEDIENTE. En FY2025 la SBC fue de 111,263 M = 10,3% de los ingresos = el 50,6% del beneficio neto. La propia guia de 2026 la cifra en el 10,2-10,3% de los ingresos, es decir la empresa admite que el 10% de sus ventas se paga en papel. El OCF la suma de vuelta como gasto no monetario; tratarla como gratis infla los owner earnings un 41%. Y no es teorica: MANH recompro 315,162 M en FY2025 y 179,387 M solo en Q1 2026, y aun asi el recuento de acciones solo cayo de 60,921 M a 59,165 M en quince meses (-2,9%) — buena parte de la recompra es tapar dilucion, no retribuir. Reporto las cuatro combinaciones. La que defiendo es la ajustada por SBC. SEGUNDO HALLAZGO: los ingresos diferidos corrientes pasaron de 277,970 a 337,049 M en FY2025 (+59,1 M). Ese 'build' de flotante es el 15% del OCF y solo existe mientras la cartera crece; en una parada de crecimiento desaparece primero y en una contraccion se vuelve negativo.",
+    "base_auditada_FY2025": {
+      "etiqueta": "HECHO — todas las lineas del 10-K presentado el 2026-02-04",
+      "ingresos": 1081.392,
+      "beneficio_operativo": 279.800,
+      "margen_operativo_pct": 25.87,
+      "beneficio_neto": 219.948,
+      "nopat": 215.26,
+      "ocf": 389.470,
+      "dya": 6.317,
+      "capex": 15.457,
+      "sbc": 111.263,
+      "acciones_diluidas_medias": 61.054,
+      "oe_a_mantenimiento": 383.153,
+      "oe_b_capex_total": 374.013,
+      "oe_a_ajustado_sbc": 271.890,
+      "oe_b_ajustado_sbc": 262.750,
+      "nota": "Capex (15,457) supera a la D&A (6,317) en 9,1 M: el inmovilizado neto pasa de 13,971 a 23,120 M. Hay inversion discrecional real, pequena en terminos absolutos. La version (a) no la penaliza, que es su proposito."
+    },
+    "base_en_curso_FY2026E": {
+      "etiqueta": "INFERENCIA — un solo trimestre publicado mas guia de la empresa",
+      "trimestres_publicados": "Solo Q1 2026 (10-Q de 2026-04-24). A 2026-07-28 el 10-Q de Q2 2026 aun NO esta en EDGAR.",
+      "q1_2026_hechos": {
+        "ingresos": 282.215,
+        "crecimiento_ingresos_ia_pct": 7.4,
+        "beneficio_operativo": 64.937,
+        "beneficio_neto": 49.295,
+        "bpa_gaap": 0.82,
+        "bpa_gaap_q1_2025": 0.85,
+        "ocf": 84.045,
+        "ocf_q1_2025": 75.260,
+        "capex": 4.103,
+        "dya": 1.833,
+        "sbc": 26.524,
+        "nube_suscripcion": 117.1,
+        "nube_suscripcion_q1_2025": 94.3,
+        "licencia": 2.2,
+        "licencia_q1_2025": 9.3,
+        "servicios": 125.7,
+        "rpo_usd_mm": 2350,
+        "rpo_crecimiento_ia_pct": 24,
+        "recompra_q1": 179.387
+      },
+      "guia_2026": {
+        "fuente": "HECHO — nota de prensa Q1 2026 (8-K de 2026-04-21, EX-99.1), REAFIRMADA en el 8-K de 2026-06-01.",
+        "ingresos_rango": "1.147 - 1.157 M (+6% a +7%)",
+        "margen_operativo_gaap_rango": "24,6% - 24,9%",
+        "bpa_gaap_rango": "3,55 - 3,63 USD (-1% a +1%)",
+        "compensacion_en_acciones_pct_ingresos": "10,2% - 10,3%"
+      },
+      "ingresos": 1152.0,
+      "beneficio_operativo": 285.1,
+      "margen_operativo_pct": 24.75,
+      "beneficio_neto": 213.6,
+      "nopat": 219.5,
+      "ocf": 410.0,
+      "ocf_rango": "380 - 435",
+      "ocf_metodo": "Dos caminos que no coinciden y por eso doy rango. (i) Escalado por estacionalidad: el Q1 2025 fue el 19,3% del OCF anual; 84,045 / 0,193 = 435 M. (ii) Construccion desde abajo: BN 213,6 + SBC 118,1 + D&A 8,0 + build de diferidos ~50 - caja de reestructuracion ~8 = 382 M. Tomo el punto medio 410 M y declaro el +-7%.",
+      "dya": 8.0,
+      "capex": 18.0,
+      "sbc": 118.1,
+      "acciones_diluidas_medias": 59.5,
+      "oe_a_mantenimiento": 402.0,
+      "oe_b_capex_total": 392.0,
+      "oe_a_ajustado_sbc": 283.9,
+      "oe_b_ajustado_sbc": 273.9
+    },
+    "distancia_entre_bases": {
+      "delta_oe_a_pct": 4.9,
+      "delta_oe_b_pct": 4.8,
+      "lectura": "La distancia es PEQUENA, y eso es exactamente la informacion. En un compounder en aceleracion la base en curso se despega de la auditada; aqui apenas se mueve. El motivo esta en la guia: los ingresos crecen 6-7% pero el MARGEN OPERATIVO GAAP esta guiado A LA BAJA (24,6-24,9% frente al 25,87% realizado en 2025) y el BPA GAAP se guia entre -1% y +1% pese a que el recuento de acciones cae. Es decir: el beneficio neto de 2026 sera MENOR que el de 2025 en terminos absolutos. Estamos en la parte del ciclo en la que el precio del negocio deja de mejorar."
+    },
+    "descomposicion_del_motor": {
+      "nopat_2024": 214.09,
+      "nopat_2025": 215.26,
+      "nopat_2026E": 219.53,
+      "cagr_nopat_2024_2026E_pct": 1.26,
+      "cagr_ingresos_2024_2026E_pct": 5.13,
+      "americas_beneficio_operativo_2024": 167.343,
+      "americas_beneficio_operativo_2025": 167.571,
+      "americas_variacion_pct": 0.14,
+      "emea_beneficio_operativo_2024": 72.496,
+      "emea_beneficio_operativo_2025": 88.073,
+      "emea_variacion_pct": 21.5,
+      "lectura": "HECHO, nota de segmentos del 10-K FY2025. Americas es el 74,9% de los ingresos y su beneficio operativo esta PLANO: 167,343 -> 167,571 M. Todo el crecimiento del beneficio operativo del grupo en 2025 salio de EMEA (20% de los ingresos). Y el NOPAT consolidado crece al 1,26% anual entre 2024 y 2026E mientras los ingresos crecen al 5,13%: la conversion de ingresos en beneficio se ha detenido. Esto es la contrapartida numerica del eslabon debil congelado — el 42,2% de la mejora de NOPAT de cinco anios vino de expansion de margen, y esa palanca ahora empuja en sentido contrario."
+    }
+  },
+
+  "dcf_inverso": {
+    "motor": "Se descuentan los owner earnings al WACC durante 10 anios de crecimiento explicito y despues terminal al 3% a perpetuidad. Se resuelve la g que iguala el valor presente al EV de hoy. Es el numero que hay que contrastar contra la tasa base del negocio.",
+    "wacc_usado_pct": 10.06,
+    "terminal_pct": 3.0,
+    "ev_a_justificar_usd_mm": 9258.8,
+    "resultados": {
+      "auditado_a_mantenimiento": {"oe": 383.153, "g_implicita_pct": 9.83},
+      "auditado_b_capex_total": {"oe": 374.013, "g_implicita_pct": 10.15},
+      "encurso_a_mantenimiento": {"oe": 402.0, "g_implicita_pct": 9.18},
+      "encurso_b_capex_total": {"oe": 392.0, "g_implicita_pct": 9.52},
+      "auditado_a_ajustado_sbc": {"oe": 271.890, "g_implicita_pct": 14.45},
+      "auditado_b_ajustado_sbc": {"oe": 262.750, "g_implicita_pct": 14.91},
+      "encurso_a_ajustado_sbc": {"oe": 283.900, "g_implicita_pct": 13.87},
+      "encurso_b_ajustado_sbc": {"oe": 273.900, "g_implicita_pct": 14.35}
+    },
+    "g_implicita_auditado_pct": 9.83,
+    "g_implicita_encurso_pct": 9.18,
+    "sensibilidad_wacc": [
+      {"beta": 1.05, "wacc_pct": 9.40, "g_implicita_auditado_pct": 8.38},
+      {"beta": 1.20, "wacc_pct": 10.06, "g_implicita_auditado_pct": 9.83},
+      {"beta": 1.35, "wacc_pct": 10.90, "g_implicita_auditado_pct": 11.56}
+    ],
+    "lectura": "ESTE ES EL NUMERO. A 159,29 USD el mercado le esta pidiendo a Manhattan Associates que haga crecer sus owner earnings entre un 9,2% y un 10,2% anual durante DIEZ ANIOS, y despues un 3% para siempre — y eso tratando la compensacion en acciones como si fuera gratis. Si la SBC se cuenta como el coste que es, la exigencia sube a 13,9%-14,9% anual durante una decada. Contra eso, la tasa base: el NOPAT crecio un 1,26% anual entre 2024 y 2026E, el beneficio operativo de Americas (75% del negocio) esta plano dos anios, y el margen operativo esta guiado a la baja. La brecha entre lo que el precio pide y lo que el negocio esta entregando es de ocho puntos porcentuales anuales. Incluso en el escenario de beta baja (WACC 9,40%) el precio sigue pidiendo 8,4%. No hay lectura del WACC que rescate el precio: la caida del 47% desde maximos ha desinflado una expectativa que era absurda hasta una expectativa que sigue siendo exigente."
+  },
+
+  "g_defendible": {
+    "derivacion_mecanica": {
+      "formula": "g = (reinversion / NOPAT) x ROIIC ex-margen",
+      "reinversion_pct_ventas": 15.04,
+      "reinversion_usd_mm": 162.64,
+      "composicion_reinversion": "INFERENCIA de reconstruccion: I+D FY2025 ~147 M + capex 15,5 M = ~162,5 M, que cuadra con el 15,04% de 1.081,392 M congelado.",
+      "nopat_usd_mm": 215.26,
+      "tasa_reinversion_sobre_nopat_pct": 75.6,
+      "roiic_ex_margen_pct": 12.62,
+      "g_mecanica_pct": 9.54
+    },
+    "lectura_alternativa": "Si se lee la reinversion sobre VENTAS y no sobre NOPAT (0,1504 x 12,62%), la formula da 1,90%. Declaro las dos lecturas porque el dato congelado viene expresado sobre ventas y la identidad de Damodaran exige NOPAT. La diferencia es de 5 veces.",
+    "degradacion_declarada": "LA IDENTIDAD ESTA DEGRADADA EN MANH Y HAY QUE DECIRLO EN VOZ ALTA. El capital invertido neto es NEGATIVO (-14,0 M, dato congelado): el cliente financia el negocio por adelantado. Cuando el denominador cambia de signo, reinversion x ROIIC deja de tener contenido causal — el crecimiento de MANH no viene del capital que pone sino del gasto en I+D y del flotante de los clientes. Y hay una prueba empirica de que la formula no esta siendo validada: da 9,54% mientras el NOPAT observado crece al 1,26% anual. Curiosamente la lectura sobre ventas (1,90%) SI coincide con la cinta. Cuando una identidad y la realidad se separan en 8 puntos, manda la realidad.",
+    "g_defendible_pct": 5.5,
+    "rango": "3,5% - 7,5%",
+    "justificacion": "Defiendo 5,5%, ni el 9,54% mecanico ni el 1,26% observado. Cuatro razones. (1) A favor de no anclar en el 1,26%: la transicion de licencia a nube es un lastre que se agota — la licencia cayo de 9,3 a 2,2 M en Q1 2026 mientras la suscripcion en nube subio de 94,3 a 117,1 M (+24,2%), y cuando la licencia llegue a cero deja de restar. El RPO de 2.350 M a 31-mar-2026 (+24% interanual, 2,17 veces las ventas anuales) da visibilidad real de ingresos. (2) A favor de no aceptar el 9,54%: el candado ex-margen prohibe suponer que la expansion de margen se repite, y la propia guia de 2026 dice que el margen va A LA BAJA. Con margen plano o menguante el NOPAT no puede crecer mas que los ingresos. (3) El techo natural es el crecimiento de ingresos guiado, 6-7%; el suelo es el margen contrayendose. 5,5% = crecimiento de ingresos menos aproximadamente un punto de arrastre de margen y mezcla. (4) La conducta de tijera importa: I+D -24,2% en 2009, recortes en 2020, en enero-2025 (2,937 M de cargo de reestructuracion en el FY2025) y el 1-junio-2026 (6% de la plantilla global, 7-9 M). Una empresa que corta I+D cuando aprieta no compone al 9% durante diez anios."
+  },
+
+  "valoracion": {
+    "metodo": "Mismo motor del DCF inverso, ahora hacia delante: owner earnings creciendo a la g defendible durante 10 anios, terminal 3%, descontado al WACC de 10,06%. Al valor operativo se le suma la caja neta de 165,565 M.",
+    "g_usada_pct": 5.5,
+    "wacc_usado_pct": 10.06,
+    "resultados_por_accion": {
+      "auditado_a_mantenimiento_usd": 116.37,
+      "auditado_b_capex_total_usd": 113.66,
+      "encurso_a_mantenimiento_usd": 121.96,
+      "encurso_b_capex_total_usd": 118.99,
+      "auditado_a_ajustado_sbc_usd": 83.39,
+      "auditado_b_ajustado_sbc_usd": 80.68,
+      "encurso_a_ajustado_sbc_usd": 86.95,
+      "encurso_b_ajustado_sbc_usd": 83.99
+    },
+    "valor_por_accion_auditado_usd": 116.37,
+    "valor_por_accion_encurso_usd": 121.96,
+    "mos_auditado_pct": -36.9,
+    "mos_encurso_pct": -30.6,
+    "mos_auditado_ajustado_sbc_pct": -91.0,
+    "mos_encurso_ajustado_sbc_pct": -83.2,
+    "mos_exigido_pct": 40.0,
+    "brecha_contra_umbral": "Para dar un MoS del 40% sobre la base mas favorable (en curso, mantenimiento, SBC ignorada, valor 121,96 USD) el precio tendria que ser 73,18 USD. Hoy es 159,29. Sobre la base que defiendo (ajustada por SBC) el precio tendria que ser 52,17 USD."
+  },
+
+  "piso_de_resolucion": {
+    "banda_declarada": "+-25% sobre el valor intrinseco. No he medido el ruido propio de este modelo, luego aplico la banda por defecto. No reporto decimales del valor intrinseco: 116 y 122, no 116,37 y 121,96.",
+    "banda_auditado_usd": "87 - 145",
+    "banda_encurso_usd": "91 - 152",
+    "banda_ajustado_sbc_auditado_usd": "63 - 104",
+    "test_de_ruido": "EL SIGNO SOBREVIVE. El precio de 159,29 USD queda POR ENCIMA del techo de la banda de las cuatro combinaciones, incluida la mas generosa (152 USD, base en curso, mantenimiento, SBC ignorada). Es decir: no hace falta afinar el modelo para saber que no hay margen de seguridad. Si el precio estuviera en 140 la conclusion seria 'no decidible por ruido'; en 159 no lo es."
+  },
+
+  "m_estrella_p_estrella": {
+    "m_estrella": 17.0,
+    "definicion": "Multiplo de owner earnings de MANTENIMIENTO (base auditada FY2025) que acepto pagar. Decidido en frio, sin barra de error, porque no es una estimacion sino una decision.",
+    "razonamiento_m_estrella": "17 veces es lo que estoy dispuesto a pagar por un negocio que: crece los ingresos al 5-6% con un RPO de 2,17 veces las ventas que lo hace visible; convierte casi el 100% del beneficio en caja; no tiene deuda y opera con capital invertido negativo. Y no mas de 17 porque: el NOPAT esta plano dos anios, el margen esta guiado a la baja, Americas (75% del negocio) tiene el beneficio operativo congelado, el 10% de los ingresos se paga en acciones, y la conducta demostrada ante la adversidad es cortar I+D — cuatro veces ya. 17x sobre owner earnings de mantenimiento equivale a una rentabilidad de owner earnings del 5,9% mas crecimiento. Coincide, y no por casualidad, con el multiplo implicito de mi propio DCF a g 5,5% (17,4x).",
+    "oe_mantenimiento_por_accion_usd": 6.476,
+    "caja_neta_por_accion_usd": 2.798,
+    "valor_justo_m_estrella_usd": 112.89,
+    "p_estrella_usd": 67.73,
+    "p_estrella_calculo": "P* = (17 x 6,476 + 2,798) x (1 - 0,40) = 112,89 x 0,60 = 67,73 USD.",
+    "p_estrella_base_ajustada_sbc_usd": 48.55,
+    "distancia_precio_a_p_estrella_pct": -57.5,
+    "lectura": "El precio tendria que caer un 57,5% desde 159,29 hasta 67,73 USD para que MANH cruzase el umbral de apertura de su banda. En la base ajustada por SBC, un 69,5% hasta 48,55 USD. Para dimensionarlo: el minimo de 52 semanas es 119,06 USD, todavia un 76% por encima de P*."
+  },
+
+  "tir_esperada": {
+    "definicion": "TIR de comprar a 159,29 USD hoy y cobrar los owner earnings durante 10 anios mas el terminal al 3%. Es la respuesta a 'y si me equivoco y no pasa nada malo, cuanto gano'.",
+    "matriz": {
+      "auditado_mantenimiento": {"g_3.5": 7.44, "g_5.5": 8.19, "g_7.5": 9.01, "g_9.5": 9.91},
+      "encurso_mantenimiento": {"g_3.5": 7.66, "g_5.5": 8.43, "g_7.5": 9.29, "g_9.5": 10.21},
+      "auditado_ajustado_sbc": {"g_3.5": 6.16, "g_5.5": 6.72, "g_7.5": 7.35, "g_9.5": 8.05},
+      "encurso_ajustado_sbc": {"g_3.5": 6.29, "g_5.5": 6.88, "g_7.5": 7.54, "g_9.5": 8.26}
+    },
+    "rango_central": "6,7% - 8,4% anual durante 10 anios",
+    "rango_amplio": "6,2% - 10,2% anual",
+    "lectura": "Esto es lo que sustituye a un 'MoS de -91%', que no es informacion. Comprando hoy y acertando con la g defendible del 5,5%, el inversor gana entre un 6,7% y un 8,4% anual durante una decada. Contra un WACC de 10,06%, eso es destruir alrededor de 2 puntos de valor al anio: se paga por encima de lo que el riesgo exige. Contra el bono a 10 anios al 4,65%, es una prima de 2 a 4 puntos por asumir riesgo de renta variable en un negocio cuyo NOPAT esta plano. Solo si el mercado tiene razon y MANH compone al 9,5% durante diez anios se llega al 10%, es decir a empatar con el coste del capital. El precio de hoy no ofrece prima; ofrece la esperanza de no perder."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "SOSPECHA",
+    "motivo": "No es la trampa clasica porque no hay valor aparente que atrapar: el MoS es NEGATIVO en las ocho combinaciones. Pero se dan los marcadores de motor deteriorandose Y la invitacion optica. (1) MOTOR: NOPAT 214,09 (2024) -> 215,26 (2025) -> 219,53 (2026E) = +1,26% anual, mientras los ingresos crecen 5,13% — la conversion se ha roto. (2) NUCLEO: Americas, el 74,9% de los ingresos, con beneficio operativo plano dos anios (167,343 -> 167,571 M); todo el crecimiento del beneficio del grupo salio de EMEA. (3) MARGEN: la guia de 2026 marca margen operativo GAAP a la BAJA (24,6-24,9% frente a 25,87%) y BPA GAAP entre -1% y +1% pese a menos acciones — es decir beneficio neto absoluto en descenso. (4) CONDUCTA: el 1-junio-2026 la empresa recorto el 6% de la plantilla global con 7-9 M de cargo, la cuarta vez que aparece la tijera (2009, 2020, enero-2025, junio-2026), exactamente el eslabon mas debil del mecanismo congelado. (5) INVITACION OPTICA: la accion ha caido un 47,4% desde el maximo de cierre semanal (302,59 USD) y un 30,6% desde el maximo de 52 semanas. Esa caida invita a leer 'barato'. No lo esta: sigue pidiendo un 9,2%-10,2% de crecimiento durante diez anios. La sospecha no es que este barata y rota; es que el drawdown se lea como descuento cuando todavia es prima.",
+    "contrapesos_honestos": "En el otro platillo hay hechos reales que no ignoro: RPO de 2.350 M a 31-mar-2026, +24% interanual y 2,17 veces las ventas; suscripcion en nube +24,2% interanual en Q1 2026; cero deuda; caja neta; conversion de caja del 100%+; y un margen que se contrae en parte por mezcla (la licencia, de margen casi total, se apaga) y no solo por perdida de poder de precio. Un negocio con esas caracteristicas no es una trampa de valor a cualquier precio — es una trampa a ESTE precio."
+  },
+
+  "veredicto_precio": {
+    "veredicto": "NO — no cruza el umbral de apertura ni de lejos",
+    "mos_exigido_pct": 40.0,
+    "mos_obtenido_mejor_caso_pct": -30.6,
+    "mos_obtenido_caso_defendido_pct": -91.0,
+    "sintesis": "MANH es un buen negocio con un precio equivocado. El precio de 159,29 USD exige 9,2%-10,2% de crecimiento anual de owner earnings durante una decada (13,9%-14,9% si la compensacion en acciones se cuenta como el coste que es), frente a un NOPAT que crece al 1,26% y un margen guiado a la baja. La g que puedo defender es 5,5%, y da un valor de 116-122 USD por accion sin ajustar por SBC y de 83-87 ajustando. El precio esta por encima del techo de la banda de ruido de +-25% en todos los casos: la conclusion no depende del afinado del modelo. El umbral del 40% para abrir se alcanzaria en 68 USD (P* con M*=17), un 57,5% por debajo del precio de hoy. La caida del 47% desde maximos ya elimino la parte absurda de la expectativa; no ha llegado a crear oportunidad."
+  },
+
+  "huecos_declarados": [
+    "La base EN CURSO es INFERENCIA con un solo trimestre publicado. A 2026-07-28 el 10-Q de Q2 2026 aun no esta en EDGAR (el ultimo es el de Q1, presentado el 2026-04-24). Ademas la reestructuracion del 1-junio-2026 (6% de plantilla, 7-9 M de cargo) es POSTERIOR a la guia de abril; la empresa la reafirmo ese mismo dia, pero no hay ningun trimestre que la valide.",
+    "El OCF de 2026E (410 M) es una estimacion mia, no un dato. Los dos metodos que uso dan 382 M y 435 M — un +-7%. Todas las cifras de la base en curso heredan ese ruido.",
+    "Las acciones diluidas medias de 2026 (59,5 M) son supuesto. Quedaban 350 M de autorizacion de recompra a 31-mar-2026 y el ritmo de Q1 (179,4 M) no es extrapolable a todo el anio.",
+    "La beta (1,20) es calculo propio y no esta cotejada contra ninguna beta publicada por un proveedor. El R2 a 5 anios es 0,30 y a 1 anio 0,06. El WACC se mueve +-0,7 puntos con el rango de beta y la g implicita +-1,6 puntos.",
+    "La ERP de Damodaran que uso (4,23% madura; 4,46% total EEUU con 0,23% de prima pais) es la actualizacion de ENERO de 2026. Existe una actualizacion de julio-2026 que no he podido abrir en fuente primaria.",
+    "La prima pais ponderada (0,31%) es INFERENCIA: pondero por geografia de INGRESOS del 10-K, no por localizacion de activos ni por domicilio de los clientes finales.",
+    "El coste de la deuda NO se deriva de gastos financieros porque no existen: MANH no tiene deuda y su linea financiera es un INGRESO de 4,389 M. Uso la tasa de descuento de arrendamientos operativos (5,46%, 10-K FY2025) como coste incremental de endeudamiento declarado por la empresa. Es lo mejor disponible, no es un cupon de mercado.",
+    "El ROIIC ex-margen (12,62%) y la reinversion (15,04% de ventas) vienen CONGELADOS del eje de calidad. No los he reauditado y no puedo hacerlo desde este expediente. Mi g defendible se apoya en ellos y los corrige a la baja con datos observados, pero no los verifica.",
+    "Sigue abierto el hueco que el propio mecanismo congelado declara: no hay dato primario que demuestre si la expansion de margen 2020-2025 fue poder de precio o cosecha del foso. La guia de margen a la baja para 2026 es evidencia circunstancial en contra del poder de precio, no prueba. Un desglose de precio por asiento o por modulo lo resolveria; no esta publicado.",
+    "El precio (159,29 USD) es el campo 'last' con is_close=true del snapshot de IBKR consultado el 2026-07-28, correspondiente al cierre del 2026-07-27. No lo he cotejado contra el cierre oficial publicado por Nasdaq.",
+    "La composicion de la reinversion (I+D ~147 M + capex 15,5 M) es una reconstruccion mia que cuadra con el 15,04% congelado, pero no la he verificado contra la definicion exacta que uso el eje de calidad."
+  ],
+
+  "cadena_de_fuentes": [
+    {"dato": "Cuentas FY2025, FY2024, FY2023 (ingresos, beneficio operativo, beneficio neto, OCF, capex, D&A, SBC, balance, segmentos)", "fuente": "10-K FY2025, SEC EDGAR, CIK 0001056696, accession 0001193125-26-037138, presentado 2026-02-04. Extraido de la API XBRL companyfacts y de los estados R4 (balance) y R46 (segmentos) del propio filing.", "etiqueta": "HECHO"},
+    {"dato": "Cuentas Q1 2026 y caja a 2026-03-31", "fuente": "10-Q de Q1 2026, accession 0001193125-26-175715, presentado 2026-04-24.", "etiqueta": "HECHO"},
+    {"dato": "Guia 2026 (ingresos, margen operativo GAAP, BPA GAAP, SBC como % de ingresos), RPO de 2.350 M (+24%), desglose nube/licencia/servicios, recompras del trimestre", "fuente": "Nota de prensa de resultados Q1 2026, 8-K de 2026-04-21, exhibit EX-99.1 (manh-ex99_1.htm).", "etiqueta": "HECHO"},
+    {"dato": "Reduccion del 6% de la plantilla global, cargo de 7-9 M en Q2 2026, reafirmacion de la guia 2026", "fuente": "8-K de 2026-06-01, items 2.05 y 7.01 (manh-20260601.htm).", "etiqueta": "HECHO"},
+    {"dato": "Acciones en circulacion 59.164.602 a 2026-04-21", "fuente": "Portada del 10-Q de Q1 2026 (dei:EntityCommonStockSharesOutstanding).", "etiqueta": "HECHO"},
+    {"dato": "Precio 159,29 USD y estadisticas de 52/26/13 semanas, volatilidad historica", "fuente": "IBKR get_price_snapshot, contract_id 4814485 (NASDAQ), consultado 2026-07-28; cierre del 2026-07-27.", "etiqueta": "HECHO"},
+    {"dato": "Serie de 262 cierres semanales de MANH y de SPY para el calculo de beta", "fuente": "IBKR get_price_history, FIVE_YEARS / ONE_WEEK, contract_id 4814485 y 756733, 2021-07-30 a 2026-07-27.", "etiqueta": "HECHO"},
+    {"dato": "Beta 1,266 cruda / 1,178 Blume / 1,20 adoptada", "fuente": "Regresion propia sobre la serie anterior. Replicable.", "etiqueta": "INFERENCIA"},
+    {"dato": "Tasa libre de riesgo 4,65% a 2026-07-27", "fuente": "US Treasury, Daily Treasury Par Yield Curve Rates, home.treasury.gov, descarga CSV del anio 2026.", "etiqueta": "HECHO"},
+    {"dato": "ERP madura 4,23%; ERP total EEUU 4,46%; prima pais EEUU 0,23%", "fuente": "Damodaran, NYU Stern: ficheros histimpl.html y ctryprem.html, actualizacion de enero-2026 (la tabla de paises dice 'Last updated: January 5, 2026').", "etiqueta": "HECHO"},
+    {"dato": "Coste de deuda 5,46%", "fuente": "10-K FY2025, us-gaap:OperatingLeaseWeightedAverageDiscountRatePercent a 2025-12-31.", "etiqueta": "HECHO"}
+  ]
+}

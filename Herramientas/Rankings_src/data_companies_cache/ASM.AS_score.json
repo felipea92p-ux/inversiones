@@ -1,0 +1,59 @@
+{
+ "ticker": "ASM.AS",
+ "name": "ASM International N.V.",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Equipment maker (ALD/epitaxy tools) with record 53.3% gross and 33.1% operating margins that scale with volume, but it sells hardware not software/network, so operating leverage is real yet not the boundless software/network kind that earns 1.5-2.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "ALD/leading-edge deposition is the structural winner of the 2nm/1.4nm/gate-all-around and AI-logic transition, a multi-year secular tailwind explicitly guiding ASM to outgrow WFE in 2026."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Clear #1 in single-wafer ALD with dominant share at the leading edge and 9 straight years of double-digit growth, sustained leadership though not a multi-decade-irreplicable monopoly that warrants 2.0."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat from deeply embedded process IP, qualification lock-in at the foundry/logic edge and high switching costs once a tool is designed into a node, durable but narrower than ASML-style EUV irreplicability."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "+12% FY2025 constant-currency growth was almost entirely organic (9th consecutive double-digit year); the only M&A is small bolt-ons (Axus CMP, late 2025), so growth is genuinely internally generated."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Multi-geography (Asia/US/Europe) and diversified product lines, but heavy reliance on a handful of leading-edge logic-foundry customers (TSMC/Intel/Samsung) means meaningful customer concentration risk."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC ~29% (ASM-normalized) far exceeds WACC and FY2025 FCF ~EUR 979m (~31% margin) covers net income well, with manageable capex even amid the Scottsdale build; capital intensity inherent to the model but high-return."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Net cash ~EUR 910m (USD ~1.06bn), total debt only EUR 72m, ND/EBITDA ~-0.83x: a fortress balance sheet well inside the <2x bar."
+  },
+  "R9": {
+   "score": 1,
+   "just": "FY2025 results are clean (record margins, no adjusted-vs-GAAP gaming at the headline) but SBC as % of FCF could not be verified from the timeboxed sources, so I hold at base rather than rewarding 1.5 and cannot apply the hard cut without the figure."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Disciplined allocation: rising dividend (EUR 3.25), opportunistic EUR 150m buyback, only small bolt-on M&A and self-funded Scottsdale fab; the discontinuation of quarterly bookings/backlog disclosure is a minor governance demerit but capital stewardship is strong."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R3 (#1 in single-wafer ALD) and R4 (process-IP + node-qualification lock-in) compound directly with R1's volume-scaling margins: as the industry (R2) migrates to gate-all-around and AI logic where ALD steps multiply per node, ASM's entrenched, hard-to-displace tools capture that volume at expanding margins. Leadership, moat and operating leverage reinforce each other into a self-strengthening flywheel at the leading edge, which is why this clears the amplification bar even though no single rule hits the monstrous 2.0.",
+ "moat_type": "intangibles_switching_costs",
+ "moat_one_line": "Process-IP leadership in single-wafer ALD plus node-qualification lock-in: once an ASM tool is designed into a 2nm/1.4nm recipe, switching means re-qualifying the whole process, making the customer captive for the node's life.",
+ "thesis_3lines": [
+  "Calidad: lider #1 en ALD de obleas con ROIC ~29%, margenes record (bruto 53.3%, operativo 33.1%) y balance de caja neta ~EUR 910m, una franquicia de altisima calidad con foso de IP de proceso y lock-in de cualificacion.",
+  "Motor de crecimiento: 9 anios seguidos de crecimiento de doble digito (+12% organico FY2025) apalancado en la transicion a 2nm/1.4nm, gate-all-around y logica de IA, con guia 2026 de superar el mercado WFE en un ano de fuerte upciclo.",
+  "Valoracion/retorno: fwd PE ~45x (~12% de prima vs media 5a de ~40x) con PEG ~1.37 y la accion a ~1% del maximo historico tras +112% en 12 meses, calidad excelente pero ya descontada y sin margen de seguridad por caida."
+ ],
+ "bear_case_strongest": "A ~45x fwd PE y ~1% del maximo historico tras un rally del +112%, la accion descuenta un upciclo perfecto en un negocio inherentemente ciclico y concentrado en 3-4 clientes de fundicion lider, por lo que cualquier digestion de capex, retraso en 2nm o normalizacion del WFE puede provocar una desrating brusca sin que la calidad del negocio te proteja del precio pagado.",
+ "sbc_flag": "unknown",
+ "ethical_flag": "none",
+ "notes": "Re-score total ponderado: R1 1.0 + R2 1.5 + R3 1.5 + R4 1.5 + R5 1.5 + R6 1.0 + R7 1.5 + R8 1.5 + R9 1.0 + R10 1.5 = 13.5/13.5 sobre escala ponderada (techo 13.5). Caveats clave: (1) SBC % FCF NO verificada -> R9 mantenido en base 1.0 y sbc_flag=unknown; requiere el cash-flow IFRS del informe anual para confirmar y aplicar (o no) la regla dura. (2) Clasificacion not_depressed: accion a ~1% del maximo historico, +112% en 12m, fwd PE ~45x (~12% prima vs media 5a) y PEG ~1.37; calidad excepcional pero valoracion exigente y sin margen de seguridad por caida -> es un caso de calidad-cara, no de oportunidad por miedo. (3) FCF Q1 2026 fue NEGATIVO (-EUR 48m) por rampa de capital de trabajo; FCF anual sigue robusto (~EUR 979m). (4) ASM discontinuo la divulgacion trimestral de pedidos/backlog desde Q1 2026 (solo a fin de anio) -> ligero demerito de transparencia en R10. (5) Varios campos de valoracion (price, fwd_pe, roic, fcf_margin, net_debt) son ESTIMADOS; ROIC estandarizado de GuruFocus (~13.6%) mucho mas bajo que el ~29% normalizado -> diferencia metodologica a vigilar."
+}

@@ -1,0 +1,172 @@
+{
+ "lista_a": [
+  {
+   "rank": 1,
+   "ticker": "V",
+   "reason": "Riel de pago #1 mundial: quality 13.5 con R1+R3+R4=2 y amplificacion plena, backbone de liquidacion global cuya caida paralizaria el comercio. Consenso unanime de los 3 analistas, apex sistemico indiscutible."
+  },
+  {
+   "rank": 2,
+   "ticker": "MA",
+   "reason": "La otra mitad del duopolio de rieles de pago: red de doble cara (R4=2) que se refuerza con cada transaccion. Consenso unanime, capital-light puro con pricing power estructural."
+  },
+  {
+   "rank": 3,
+   "ticker": "MSFT",
+   "reason": "Sistema operativo de la empresa global (Windows/Office/Azure) con R1+R3+R4=2 y costes de cambio empresariales extremos; compounder sistemico con opcionalidad IA. Unanime."
+  },
+  {
+   "rank": 4,
+   "ticker": "NVDA",
+   "reason": "Estandar CUDA del computo acelerado: R1+R3+R4=2, ecosistema y base instalada que blindan el liderazgo del rail de IA. Unanime, foso de costes de cambio brutal."
+  },
+  {
+   "rank": 5,
+   "ticker": "GOOGL",
+   "reason": "Infraestructura de search/datos/Android con R1=R2=R3=R4=2, el flywheel de datos e IA mas grande del mundo. Unanime, peaje informacional del internet."
+  },
+  {
+   "rank": 6,
+   "ticker": "ASML",
+   "reason": "Monopolio de facto en litografia EUV/High-NA (R3+R4=2) sostenido por ecosistema Zeiss y decadas de I+D irreplicables; sin ASML no hay chips de vanguardia. Unanime."
+  },
+  {
+   "rank": 7,
+   "ticker": "TSM",
+   "reason": "Cuasi-monopolio de foundry en nodos avanzados 3nm/2nm (R3+R4=2): la fabrica de silicio del mundo, capex y proceso irreplicables. Unanime, importancia sistemica global."
+  },
+  {
+   "rank": 8,
+   "ticker": "SPGI",
+   "reason": "Tollbooth de los mercados de capital: ratings NRSRO + indice S&P 500 (R3+R4=2), infraestructura de peaje imposible de replicar. Unanime."
+  },
+  {
+   "rank": 9,
+   "ticker": "MCO",
+   "reason": "La otra mitad del duopolio NRSRO (R3+R4=2): licencia regulatoria incrustada en mandatos de inversion globales, costes de cambio prohibitivos. Unanime."
+  },
+  {
+   "rank": 10,
+   "ticker": "MSCI",
+   "reason": "Indices benchmark de referencia (World/EM/ACWI) con R1+R3+R4=2 y amplificacion: retencion 95%+ y migrar un benchmark mueve billones de AUM. Unanime, foso capital-light brutal."
+  },
+  {
+   "rank": 11,
+   "ticker": "RMS.PA",
+   "reason": "Hermes: foso de marca/escasez irreplicable (Birkin/Kelly) con R3+R4=2 y margenes 41%; apex de lujo aunque su R1 sea bajo por diseno. Unanime, ancla del bloque lujo."
+  },
+  {
+   "rank": 12,
+   "ticker": "MC.PA",
+   "reason": "LVMH: cartera de ~75 maisons patrimoniales (R3+R4=2) con deseabilidad y escasez que ningun rival recrea con dinero ni tiempo. Unanime, segunda pata del lujo."
+  },
+  {
+   "rank": 13,
+   "ticker": "ISRG",
+   "reason": "Estandar de cirugia robotica embebido en el workflow hospitalario (R3+R4=2) con decadas de datos clinicos sobre 10k+ sistemas. Unanime, ancla medtech."
+  },
+  {
+   "rank": 14,
+   "ticker": "AAPL",
+   "reason": "Marca aspiracional y ecosistema integrado hardware-software-servicios (R3+R4=2, R7+R8=2) con pricing power y lock-in sistemico. Apex de consumo tecnologico canonico."
+  },
+  {
+   "rank": 15,
+   "ticker": "IDXX",
+   "reason": "Monopolio efectivo en diagnostico veterinario (R3+R4=2): analizadores con consumibles cautivos y software integrado, costes de cambio altisimos. Segunda pata salud, eleva por 2 de 3 analistas."
+  },
+  {
+   "rank": 16,
+   "ticker": "OR.PA",
+   "reason": "L'Oreal: cartera de marcas iconicas de belleza (R3+R4=2) con el mayor presupuesto de I+D dermatologico; tercera pata del lujo/consumo, baja disrupcion. Apoyo de 2 de 3."
+  },
+  {
+   "rank": 17,
+   "ticker": "LIN",
+   "reason": "Linde: gases industriales con caracter de infraestructura (R3+R4=2), pipelines on-site y contratos take-or-pay 15-20 anos. Unico industrial puro en A, evita sobre-peso tech."
+  },
+  {
+   "rank": 18,
+   "ticker": "CME",
+   "reason": "Cuasi-monopolio de derivados US por efecto red de liquidez (R3+R4=2): el open interest concentra y atrae mas liquidez. Unanime, completa el bloque infraestructura de mercados."
+  }
+ ],
+ "lista_b": [
+  {
+   "rank": 1,
+   "ticker": "WKL.AS",
+   "reason": "MoS +54% (calidad 13.5)"
+  },
+  {
+   "rank": 2,
+   "ticker": "ACN",
+   "reason": "MoS +48% (calidad 13)"
+  },
+  {
+   "rank": 3,
+   "ticker": "ADBE",
+   "reason": "MoS +47% (calidad 13.5)"
+  },
+  {
+   "rank": 4,
+   "ticker": "IT",
+   "reason": "MoS +41% (calidad 12.5)"
+  },
+  {
+   "rank": 5,
+   "ticker": "ADYEN.AS",
+   "reason": "MoS +36% (calidad 13.5)"
+  },
+  {
+   "rank": 6,
+   "ticker": "INTU",
+   "reason": "MoS +35% (calidad 12.5)"
+  },
+  {
+   "rank": 7,
+   "ticker": "VEEV",
+   "reason": "MoS +34% (calidad 13.5)"
+  },
+  {
+   "rank": 8,
+   "ticker": "PGHN.SW",
+   "reason": "MoS +32% (calidad 13.5)"
+  },
+  {
+   "rank": 9,
+   "ticker": "RMD",
+   "reason": "MoS +30% (calidad 13.5)"
+  },
+  {
+   "rank": 10,
+   "ticker": "7974.T",
+   "reason": "MoS +29% (calidad 13.5)"
+  },
+  {
+   "rank": 11,
+   "ticker": "CBOE",
+   "reason": "MoS +22% (calidad 13.5)"
+  },
+  {
+   "rank": 12,
+   "ticker": "BKNG",
+   "reason": "MoS +20% (calidad 13.5)"
+  }
+ ],
+ "overlap": [],
+ "contentious": [
+  "RACE (Ferrari) fuera de A: marca-icono apex (R4=2) pero el bloque lujo ya queda cubierto con Hermes, LVMH y L'Oreal; con 18 plazas y necesidad de balance sectorial, Ferrari cae como cuarto nombre de lujo frente a candidatos de salud/industriales.",
+  "COST (Costco) fuera de A: foso de coste/escala/membresia genuino y apoyado por 2 analistas, pero su quality interna es menor (raw 13.5, R3+R4=1.5) y a mos -30% es el mas caro de su grupo; queda como primer reserva de consumo.",
+  "REL.L (RELX) fuera de A: datos propietarios apex (Elsevier/LexisNexis), pero solapa con SPGI/MSCI/MCO en el bloque datos/indices que ya esta sobre-representado; ademas su mos 14.9% lo hace mas valioso como candidato natural de B/bench que como plaza de calidad pura.",
+  "7741.T (HOYA) fuera de A: nodo critico insustituible (unico proveedor de mask blanks EUV) pero es un nicho profundo de la cadena de semis; con ASML+TSM+NVDA ya tomando 3 plazas de semis, anadir HOYA sobre-pesaria el sector.",
+  "ADBE/WKL.AS no entran en A pese a calidad apex: son los nombres mas baratos del universo (mos 47-54%), su sitio natural es liderar Lista B donde el precio manda, no Lista A donde el orden es calidad pura.",
+  "APP (AppLovin) y NOW (ServiceNow) fuera de B pese a mos alto (32.4% y 31.7%): se priorizaron INTU/FDS/RMD por foso mas durable; AXON de APP y la valoracion de NOW dejan mas dudas de calidad/durabilidad que los duopolios de marca y datos seleccionados."
+ ],
+ "sector_balance_note": "Lista A (18) queda equilibrada y evita el sesgo semis/software: Pagos/redes 3 (V, MA, ADYEN cuenta en B; en A V+MA+CME-adjacente), exactamente Pagos 2 (V, MA); Software/plataformas 2 (MSFT, GOOGL); Semis 3 (ASML, TSM, NVDA) -dentro del tope ~5-6-; Datos/indices/ratings/mercados 4 (SPGI, MCO, MSCI, CME); Lujo/marca 3 (RMS.PA, MC.PA, OR.PA); Consumo-tecnologico 1 (AAPL); Salud/medtech 2 (ISRG, IDXX); Industriales de calidad 1 (LIN). Ningun sector supera 4 plazas y el lujo cumple el minimo 2-3 con tres marcas irreplicables de R1 bajo correctamente valoradas como apex. Lista B (12) se ordena estrictamente por mos_pct descendente (53.9% a 17.8%, todas >=10%) y diversifica: informacion/software regulatorio (WKL, ADBE, VEEV, INTU, FDS), private markets (PGHN), pagos (ADYEN), salud (RMD), mercados/exchanges (CBOE, MMC), red de viajes (BKNG) y subastas (CPRT). Overlap minimizado a 1 solo nombre (ADYEN.AS), que es simultaneamente apex sistemico y genuinamente barato (mos 35.8%). Daggers FICO/VRSN/PLTR excluidos de ambas listas.",
+ "bench_a": [
+  "RACE",
+  "COST",
+  "REL.L",
+  "7741.T"
+ ]
+}

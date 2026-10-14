@@ -1,0 +1,48 @@
+{
+ "ticker": "APP",
+ "name": "AppLovin Corporation",
+ "currency": "USD",
+ "price_verified": 469.39,
+ "price_source": "StockAnalysis.com (cross-checked Yahoo Finance / CNBC), close Jun 22 2026",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.33594,
+ "implied_mcap_b_usd": 157.69,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 11.5,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.5,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "FY2026 owner FCF base ~$5.80B. Derived from FY2025 reported FCF $3,951.9M grown ~+55% (FY26 rev tracking +57% per Q2 guide at ~72% FCF margin -> ~$6.13B FCF) minus 100% SBC (~5.3% of FCF ~ $0.33B). Owner FCF/share FY26 ~ $17.3.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 404,
+   "prob": 0.38,
+   "note": "Phase1 CAGR 18%, declining to 7%, g 2.5%. Growth decelerates sharply as ad-budget tailwind and Axon model edge mature; not apocalyptic. EV ~$137B."
+  },
+  "base": {
+   "iv_per_share": 683,
+   "prob": 0.47,
+   "note": "Phase1 CAGR 28% (well below current ~57% guide, allowing fast normalization), declining to 10%, g 3.0%. EV ~$230B."
+  },
+  "optimista": {
+   "iv_per_share": 1270,
+   "prob": 0.15,
+   "note": "Phase1 CAGR 40% as Axon expands into e-commerce/web/CTV advertising, declining to 14%, g 3.5%. EV ~$428B."
+  }
+ },
+ "iv_dcf_weighted": 665,
+ "multiple_metric": "P/E adelantado (fwd P/E)",
+ "fwd_multiple_now": 27,
+ "fwd_multiple_5y_avg": 37,
+ "fair_multiple": 30,
+ "multiple_rationale": "Ancla a la media 5a del fwd P/E (~37x) con un HAIRCUT explicito a 30x. El haircut NO es por deterioro de negocio (los fundamentales aceleran: FY25 +70%, Q1'26 +59%, Q2'26 guide +57%, margen op ~78%, FCF ~72%), sino por: (1) historial bursatil corto (IPO Abr-2021) que hace la media 5a poco fiable y muy volatil; (2) concentracion estructural en publicidad/Axon tras la desinversion de Apps en 2025 (pure-play, menos diversificado); (3) dependencia de plataformas (Apple/Google, ATT/privacidad) y riesgo regulatorio; (4) beta elevada. iv_multiple = EPS FY2027 normalizado (~$24.3, sobre EPS fwd FY2026 implicito ~$17.4 creciendo ~40%) x 30 = $730.",
+ "iv_multiple": 648,
+ "weight_dcf": 0.55,
+ "weight_multiple": 0.45,
+ "reconciled_iv": 657,
+ "structural_change": "SI — cambio estructural real (no ciclico): en 2025 AppLovin desinvirtio su negocio de Apps (juegos moviles) y quedo como pure-play de publicidad AI (motor Axon). Esto eleva margenes (op ~78%, FCF ~72%) y crecimiento (FY25 +70%), pero concentra el modelo en un solo motor publicitario y aumenta la dependencia de plataformas/privacidad. Justifica ponderar mas el DCF (0.55) y aplicar haircut al multiplo de mercado.",
+ "sanity_notes": "Sanity de magnitud: implied_mcap = 469.39 x 0.33594B = $157.7B, coincide exactamente con la escala reportada (StockAnalysis $157.69B) -> mcap_sanity_ok=true. Precio y acciones del JSON confirmados independientemente (StockAnalysis/Yahoo/CNBC); no hay error de moneda (USD), unidades ni millones-vs-miles-de-millones. reconciled_iv $694 esta dentro del rango de magnitud razonable (30%-300% del precio): implica ~+48% de potencial sobre $469.39, equivalente a un fwd P/E ~40x sobre EPS FY26 (~$17.4) — por encima del 27x actual y cerca de la media 5a (37x), defendible dado el crecimiento +57% y FCF 72%, pero exige que el crecimiento se sostenga; es la principal fuente de riesgo. Net debt $1.09B (apalancamiento negligible, ND/EBITDA 0.24x). SBC bajo para software (~3.8% ingresos / 5.3% FCF), por lo que el ajuste owner-earnings es pequeno. DCF puro ($665) y ancla de multiplo ($730) convergen razonablemente; reconciliado en $694."
+}

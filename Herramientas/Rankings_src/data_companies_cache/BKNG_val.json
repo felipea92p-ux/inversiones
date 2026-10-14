@@ -1,0 +1,48 @@
+{
+ "ticker": "BKNG",
+ "name": "Booking Holdings Inc.",
+ "currency": "USD",
+ "price_verified": 167.77,
+ "price_source": "StockAnalysis.com / StockTitan (post 25-for-1 split efectivo 2-abr-2026); cruzado con Yahoo Finance (~$170-172 intradia). Consistente con el JSON verificado.",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.775,
+ "implied_mcap_b_usd": 130,
+ "mcap_sanity_ok": true,
+ "structural_change": "Sin deterioro estructural. La caida (~-28% desde maximos) es fear_rotation: desaceleracion de room nights a +2-4% en Q2 2026 por conflicto en Oriente Medio (-2pp) y comparables dificiles, NO erosion de la franquicia. Ingresos +13-16% YoY, FCF +15% (margen ~34%), margen adj EBITDA estable ~30%+, SBC muy baja (2.3% ingresos), balance solido (ND/EBITDA ~0.27x) y motor de recompras agresivo (acciones diluidas -4% YoY). Ventaja de red en alojamiento (Booking.com), connected trip y palanca de IA intactas. Aplico haircut leve (20x->19x) al multiplo por la suavidad ciclica de la demanda de viajes.",
+ "owner_fcf_base": "Owner FCF FY2025 = FCF reportado $9.1B - 100% SBC ($0.617B) = $8.48B; por accion ~$10.95 sobre 0.775B acciones diluidas.",
+ "wacc_pct": 10.5,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.25,
+  "geo_adj_pct": 0
+ },
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 180.26,
+   "prob": 0.38,
+   "note": "Fase 1 g=7%, Fase 2 declina a 4%, g_term 2.5%. Demanda de viajes floja, drag de Oriente Medio persiste, ganancias de cuota modestas, presion competitiva de OTAs/Google. Pesimista razonable, no apocaliptico."
+  },
+  "base": {
+   "iv_per_share": 229.17,
+   "prob": 0.47,
+   "note": "Fase 1 g=10%, Fase 2 declina a 6%, g_term 3.0%. Crecimiento high-single/low-double digit, margenes estables, recompras continuas, connected trip y direct booking ganan terreno."
+  },
+  "optimista": {
+   "iv_per_share": 290.5,
+   "prob": 0.15,
+   "note": "Fase 1 g=13%, Fase 2 declina a 7.5%, g_term 3.5%. Aceleracion por IA/agentic travel, ganancia de cuota global, alza de mix de pagos/conectividad."
+  }
+ },
+ "iv_dcf_weighted": 219.78,
+ "fwd_multiple_now": 15.64,
+ "fwd_multiple_5y_avg": 20,
+ "fair_multiple": 19,
+ "multiple_metric": "P/E adelantado",
+ "multiple_rationale": "Media 5a del P/E adelantado ~20x (la media trailing esta distorsionada por COVID). Aplico haircut leve a 19x por la desaceleracion ciclica de room nights (Q2 +2-4%) y el drag de Oriente Medio; el deterioro es ciclico, no estructural, asi que el haircut es modesto. EPS adelantado FY2026 implicito ~$10.73 (precio $167.77 / fwd P/E 15.64). iv_multiple = 10.73 * 19 = $203.81. El P/E actual de 15.64x (~-22% vs media) refleja miedo macro, no deterioro del negocio.",
+ "iv_multiple": 203.87,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 210.22,
+ "sanity_notes": "Mcap implicado = $167.77 * 0.775B = $130.0B, coincide con la escala conocida (~$130-133B); mcap_sanity_ok=true. Todos los IV (cons $180, base $229, opt $291, reconciliado $210) caen dentro del rango de magnitud 30%-300% del precio ($167.77), sin error de unidades/moneda/acciones. Precio y todos los IV en USD. Acciones: outstanding actuales ~774.88M (base del mcap); diluidas weighted-average Q1 2026 ~794M y bajando por recompras — uso 0.775B (base actual) para coherencia con el mcap. WACC 10.5% = Rf 4.3% + ERP 5.0%*beta 1.25 (negocio de viajes, ciclico). Pesos 0.40 DCF / 0.60 multiplo: compounder probado, asset-light, ROIC alto y fuerte generacion de caja -> peso al ancla de multiplo, pero NO extremo (0.35/0.65) por la ciclicidad genuina de la demanda de viajes y la suavidad actual de room nights. DCF y ancla de multiplo convergen ($204-$220), dando reconciliado ~$210 -> ~25% de upside frente a $167.77, consistente con el descuento de fwd P/E de -22% por fear_rotation. TV weight en el DCF ~51-59% (razonable para un compounder de larga duracion). Net debt $2.83B restado del EV."
+}

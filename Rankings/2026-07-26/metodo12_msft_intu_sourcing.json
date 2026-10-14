@@ -1,0 +1,965 @@
+{
+ "analisis": [
+  {
+   "ticker": "MSFT",
+   "nombre": "Microsoft Corporation",
+   "pasos": {
+    "ticker": "MSFT",
+    "paso0_monologo_previo": "Antes de tocar un filing, lo que creo y lo que temo, para congelar el sesgo.\n\nQUÉ HACE: Microsoft cobra un alquiler mensual a las empresas por dos cosas: las herramientas con las que sus empleados trabajan (Office/Teams/Windows/identidad) y los ordenadores ajenos donde guardan sus datos y ejecutan sus modelos (Azure). El resto -Xbox, LinkedIn, publicidad de Bing- es ruido rentable.\n\nPOR QUÉ GANA DINERO: porque el que decide no es el que sufre el cambio. El director financiero firma un Enterprise Agreement de tres años; el que tendría que migrar 30.000 identidades a otro proveedor es un departamento de TI que sabe que si sale mal, lo señalan a él. El coste de cambio no está en el precio del software, está en el riesgo personal de quien ejecutaría la migración. Eso es lo que sostiene un margen operativo del 45%+ en un producto de 35 años.\n\nPOR QUÉ DUDARÍA (mi sesgo declarado ANTES de mirar): mi prejuicio de entrada es que MSFT es \"la posición trivial que se mantiene y no se piensa\" -así está registrada en la cartera de Felipe- y ese prejuicio es exactamente el que me impediría ver el cambio. Y hay uno grande: Microsoft dejó de ser un negocio de software para ser un negocio de software MÁS un negocio de infraestructura pesada. Un negocio que necesita hormigón, terrenos con acceso a red eléctrica y memoria DRAM no merece el múltiplo de uno que necesita programadores. Si el capex se ha comido el flujo de caja libre, el mercado tiene razón en pagar menos, y el error sería mío por anclarme al Microsoft de 2019.\n\nSEGUNDA DUDA: sé que el sistema viejo le puso a MSFT un 86,0/100 y un WACC de 7,5% heredado de un \"tier de calidad\". Eso es la contradicción madre. Entro asumiendo que ese veredicto está envenenado y que el WACC real de mercado va a ser bastante más alto. Si al final me sale un WACC parecido al viejo, tengo que sospechar de mí mismo.\n\nTERCERA DUDA: reporta el Q4 FY2026 el 29 de julio de 2026, dentro de tres días. Cualquier conclusión que emita hoy tiene fecha de caducidad de 72 horas.\n\nAPUESTA PREVIA (para poder equivocarme por escrito): espero encontrar un negocio cuya calidad sigue intacta pero cuyo ROIC incremental se ha deteriorado mucho, y un precio que ya no es caro pero tampoco barato. Espero que la conclusión sea incómoda: ni comprar ni vender.",
+    "paso1_circulo_competencia": "SÍ se puede nombrar en una frase sin jerga del management, y sin usar ni una palabra de las que Nadella repite en las llamadas (\"copilot\", \"agentic\", \"intelligence\", \"platform shift\"):\n\n\"Microsoft cobra un alquiler mensual a las empresas por las herramientas con las que sus empleados trabajan y por los ordenadores ajenos donde guardan sus datos.\"\n\nDos frases más de comprobación, porque un círculo de competencia auténtico tiene que resistir el \"¿y cómo se rompe?\":\n- Se rompe si el empleado deja de necesitar la herramienta (que alguien más barato haga lo mismo dentro del navegador) o si el dato deja de necesitar estar en un ordenador ajeno concreto (que mover una carga de Azure a otro sitio cueste una tarde en vez de un año).\n- Y se comprueba con dos números del filing, no con la narrativa: el 46,8% de margen operativo TTM dice que hoy nadie le disputa el precio; el crecimiento de 19% de Microsoft 365 Commercial cloud sobre un producto de 35 años dice que el alquiler sigue subiendo.\n\nUn matiz honesto sobre los límites del círculo: entiendo el negocio de alquiler de software y entiendo el negocio de alquiler de servidores. NO entiendo -y nadie fuera de la empresa entiende- cuánto vale realmente una GPU comprada hoy dentro de cuatro años. Esa es la única variable que decide la valoración y está fuera de mi círculo. Eso no vetea el análisis, pero sí obliga a que la valoración se resuelva por el lado de las expectativas implícitas (Paso 9) y no por proyección propia.\n\nVETO: NO.",
+    "paso1_veto": false,
+    "paso2_knockouts": [
+     {
+      "gate": "(a) Estructura VIE",
+      "resultado": "PASA",
+      "dato": "Microsoft Corporation es una sociedad del estado de Washington con clase única de acciones y un voto por acción; no hay estructura VIE interpuesta entre el accionista y el negocio. La única mención de VIE en el filing se refiere a sus INVERSIONES: 'We have determined we are not the primary beneficiary of any of our VIE investments. Therefore, our VIE investments are not consolidated'. La inversión en OpenAI (~27% en base convertida) se contabiliza por método de participación con HLBV, no consolidada.",
+      "fuente": "10-Q Q3 FY2026 (periodo cerrado 31-mar-2026, presentado 29-abr-2026), Nota 1 Accounting Policies, apartado Investments; DEF 14A presentado 21-oct-2025, Shareholder Rights ('Single class of shares with each share entitled to one vote')"
+     },
+     {
+      "gate": "(b) SBC > 50% del FCF ajustado 3 años seguidos",
+      "resultado": "PASA",
+      "dato": "SBC / FCF: FY2023 9.611/59.475 = 16,2%; FY2024 10.734/74.071 = 14,5%; FY2025 11.974/71.611 = 16,7%; TTM (Q4FY25+9M FY26) 12.356/72.916 = 16,9%. Nunca se acerca al 50%. Dilución neta negativa: acciones diluidas bajan de 7.469M (FY2024) a 7.445M (Q3 FY2026).",
+      "fuente": "10-K FY2025 (ejercicio cerrado 30-jun-2025, presentado 30-jul-2025), Cash Flows Statements; 10-Q Q3 FY2026, Cash Flows Statements e Income Statements; datos XBRL SEC companyfacts CIK 0000789019 (descargado 26-jul-2026)"
+     },
+     {
+      "gate": "(c) ROIC < WACC estructural 3 años",
+      "resultado": "PASA",
+      "dato": "ROIC (NOPAT / capital invertido, capital invertido = activo total - caja e inversiones CP - pasivos corrientes sin coste): FY2024 89.516/320.276 = 27,9%; FY2025 105.136/386.219 = 27,2%; TTM a mar-2026 119.744/488.134 = 24,5%. Contra un WACC de mercado de 9,8% (Paso 9). Spread de +14,7 puntos incluso en el peor año. ALERTA que NO activa el knock-out pero que es el hallazgo central: el ROIC INCREMENTAL cayó de 23,7% (FY24->FY25) a 14,3% (FY25->TTM).",
+      "fuente": "10-K FY2025, Balance Sheets e Income Statements; 10-Q Q3 FY2026, Balance Sheets e Income Statements; tipo impositivo efectivo 9M FY2026 = 23.904/121.887 = 19,6% (10-Q Q3 FY2026)"
+     },
+     {
+      "gate": "(d) Restatement / opacidad contable",
+      "resultado": "PASA",
+      "dato": "Sin restatement, sin material weakness. 'management concluded that the Company's internal control over financial reporting was effective as of June 30, 2025. There were no changes in our internal control over financial reporting during the quarter ended June 30, 2025 that have materially affected...'. Auditor Deloitte & Touche LLP, que audita también el control interno. Vidas útiles sin cambios: 'computer equipment, two to six years' -las mismas que en ejercicios anteriores, sin extensión oportunista en el año del capex récord.",
+      "fuente": "10-K FY2025, Item 9A Controls and Procedures, pág. 89; Nota 1 Accounting Policies, apartado Property and Equipment"
+     },
+     {
+      "gate": "(e) Dependencia de cliente o regulador único",
+      "resultado": "PASA",
+      "dato": "Sobre INGRESOS RECONOCIDOS pasa limpio: 'No sales to an individual customer or country other than the United States accounted for more than 10% of revenue for the three or nine months ended March 31, 2026 or 2025'. PERO sobre CARTERA CONTRATADA no: la CFO Amy Hood declaró 'Approximately 45% of our commercial RPO balance is from OpenAI' con un RPO comercial de 625.000M (627.000M al cierre de Q3 FY2026). Es decir ~282.000M de compromiso contratado con una única contraparte que no genera caja, que Microsoft financia (13.000M comprometidos, 11.800M desembolsados) y de la que Microsoft posee ~27%. Por la letra del knock-out (cliente >10% de ingresos) PASA; por su espíritu es la exposición individual más grande del balance.",
+      "fuente": "10-Q Q3 FY2026, Nota 16 Segment Information and Geographic Data (concentración de ingresos) y Nota 1 (compromiso de 13.000M a OpenAI); llamada de resultados Q2 FY2026 de Microsoft (28-ene-2026), Amy Hood, EVP & CFO, transcripción en microsoft.com/investor/events/fy-2026/earnings-fy-2026-q2"
+     },
+     {
+      "gate": "(f) Deuda tóxica (refinanciación, tapar pérdidas, covenants)",
+      "resultado": "PASA",
+      "dato": "Deuda financiera total 40.262M (valor nominal 46.156M) contra caja e inversiones a corto de 78.272M: posición de caja neta positiva. Ninguna emisión nueva desde 2024; cupones legacy de 1,35% a 5,30%. OCF TTM 170.141M cubre la deuda total 4,2 veces. Riesgo de refinanciación nulo. NOTA que no activa el knock-out pero cambia la fotografía: el apalancamiento real no está en bonos sino en arrendamientos financieros (62.932M al 31-mar-2026 vs 46.172M al 30-jun-2025, tipo de descuento medio 4,4%, plazo medio 13 años) MÁS 196.600M de arrendamientos de centros de datos firmados y aún no iniciados, que comenzarán entre FY2026 y FY2031 con plazos de 1 a 21 años.",
+      "fuente": "10-Q Q3 FY2026, Nota 9 Debt, Nota 12 Leases y Balance Sheets; 10-K FY2025, Nota de Leases"
+     }
+    ],
+    "paso3_mecanismo_moat": "POR QUÉ EL CLIENTE NO SE VA (mecanismo, no el ROIC pasado como excusa)\n\nEl cliente empresarial no compra productos de Microsoft. Compra UN contrato -el Enterprise Agreement- que dentro trae cinco cosas que se han vuelto la misma cosa: quién eres cuando enciendes el ordenador (Entra/Active Directory), dónde está tu correo y tus ficheros (Exchange/SharePoint/OneDrive), la herramienta en la que pasas ocho horas (Teams/Office), el sistema operativo del parque de PCs, y ahora también los servidores.\n\nIrse de UNA de esas cinco significa tocar el directorio de identidades, y tocar el directorio de identidades significa que el lunes por la mañana treinta mil personas no pueden entrar a trabajar. El coste de cambio no es económico, es POLÍTICO: el director de TI que propone la migración está firmando que si algo falla, la culpa tiene su nombre. Nadie hace esa apuesta para ahorrar un 15% en una partida que representa el 2% del presupuesto operativo.\n\nEse mecanismo tiene una firma en los números, y esa firma es lo que lo separa de la narrativa: un producto de treinta y cinco años (Office/M365 Commercial cloud) creciendo al 19% interanual, y 627.000M de ingresos ya contratados con duración media de 2,5 años -casi dos años de facturación firmada antes de vender nada nuevo (10-Q Q3 FY2026).\n\nDÓNDE EL MECANISMO ES DÉBIL: en Azure el mecanismo es distinto y peor. Una carga de trabajo de inferencia de IA no está atada a la identidad corporativa; está atada a dónde hay GPUs disponibles y a qué precio. El coste de cambio de un cliente de cómputo puro es un fin de semana, no un año. Por eso el 40% de crecimiento de Azure es más frágil que el 19% de M365, aunque el titular lo celebre al revés.\n\nTEST DE SLEEP (¿a quién va el ahorro de escala?)\n\nEn la mitad software: el ahorro se lo queda LA EMPRESA, y encima sube el precio. Copilot añade ~30 USD por asiento sobre un M365 E3 de ~36 USD -casi duplica el ticket sin duplicar el coste- y el margen operativo del segmento Productivity and Business Processes subió de 57,9% a 60,7% en nueve meses (61.979M sobre 102.149M, contra 50.780M sobre 87.698M). Escala capturada por el accionista. Esto es Costco al revés, y funciona porque el cliente no compara precios: compara riesgos de migración.\n\nEn la mitad nube/IA: el ahorro NO se lo queda Microsoft, y aquí está el hallazgo incómodo. La propia CFO atribuyó ~25.000M del capex de 2026 a la subida del precio de los componentes de memoria (llamada del 29-abr-2026). Es decir: Microsoft crece, compra más, y el proveedor de insumos le sube el precio hasta capturar la renta. El coste de ingresos de Intelligent Cloud creció 47% (15.120M vs 10.307M) contra unos ingresos que crecieron 30%, y el margen operativo del segmento cayó de 41,5% a 39,7% en el trimestre. En la parte del negocio que absorbe todo el capital, la escala se la está comiendo Nvidia y los fabricantes de memoria, no Microsoft.\n\nConclusión del test de Sleep: Microsoft tiene DOS negocios con signo opuesto pegados en el mismo estado de resultados. Uno captura la escala; el otro se la entrega a su proveedor. El mercado los valora juntos, y ahí está toda la discusión.",
+    "paso3_test_sleep": "Resultado dividido, y esa división es la tesis entera. En Productivity and Business Processes el ahorro de escala se lo queda la empresa Y sube precio: margen operativo del segmento 57,9% -> 60,7% en nueve meses (61.979M/102.149M vs 50.780M/87.698M, 10-Q Q3 FY2026, Nota 16), con Copilot añadiendo ~30 USD/asiento sobre un ticket de ~36 USD. Escala capturada por el accionista. En Intelligent Cloud pasa lo contrario: el coste de ingresos crece 47% contra ingresos que crecen 30% y el margen operativo cae 41,5% -> 39,7% (13.753M/34.681M vs 11.095M/26.751M); la CFO atribuye ~25.000M del capex de 2026 a la subida del precio de la memoria (llamada 29-abr-2026). O sea: en la nube el ahorro de escala se lo está comiendo el PROVEEDOR de insumos, no el cliente ni Microsoft. Microsoft está comprando crecimiento a un precio que le fija Nvidia y los fabricantes de DRAM. En la mitad del negocio que absorbe el 30,5% de las ventas en capex, Microsoft no es el que manda en la cadena de valor.",
+    "paso4_scuttlebutt": "TRES FUENTES, FECHADAS, CERRADAS. No se reabre sin razón nueva y fechada.\n\nFUENTE 1 - Llamada de resultados Q3 FY2026, Microsoft Investor Relations, 29-abr-2026.\nAmy Hood (CFO): \"For calendar year 2026, we expect to invest roughly $190 billion in capital expenditures\". Sobre el salto secuencial: \"The sequential increase includes roughly $5 billion from higher component pricing as well as the impact from finance leases\". Y la frase que hay que subrayar porque es lo ÚNICO que la dirección ofrece sobre retornos: \"We remain confident in the return on these investments given higher demand signals and increasing product usage\". Satya Nadella: \"Our AI business surpassed $37 billion ARR, up 123%\" y \"we now have over 20 million Microsoft 365 Copilot paid seats\".\nLO QUE ESTO ME DICE: la dirección no cuantifica el retorno. Ofrece \"señales de demanda\" y \"uso creciente\" como sustitutos de un número de retorno sobre capital. Un CFO que tiene el número lo da; uno que no lo tiene, habla de señales.\n\nFUENTE 2 - Llamada de resultados Q2 FY2026, Microsoft Investor Relations, 28-ene-2026.\nAmy Hood: \"Approximately 45% of our commercial RPO balance is from OpenAI\", sobre un RPO comercial que \"increased to $625 billion and was up 110% year-over-year with a weighted average duration of approximately two and a half years\". Nadella en esa misma llamada: 15 millones de asientos pagados de M365 Copilot.\nLO QUE ESTO ME DICE: el dato de RPO que todo el mundo celebra (+99%, +110%) es en casi la mitad un compromiso de una contraparte que Microsoft financia y de la que posee el 27%. Y sobre Copilot: pasar de 15M a 20M asientos en un trimestre es real, pero sobre una base instalada de M365 Commercial de cientos de millones de asientos sigue siendo penetración de un dígito bajo tras tres años.\n\nFUENTE 3 - CNBC, \"Microsoft calls for $190 billion in 2026 capital spending on soaring memory prices\", 29-abr-2026.\nCuantifica el impacto de precio de componentes en ~25.000M sobre la guía, y sitúa la cifra ~35.000M por encima del consenso previo.\nLO QUE ESTO ME DICE: la revisión al alza del capex NO fue por más capacidad; fue en buena parte por precio de insumo. Gastar 25.000M más para comprar lo mismo es destrucción de valor pura, no inversión.\n\nSÍNTESIS DEL SCUTTLEBUTT: las tres fuentes apuntan al mismo sitio y ninguna lo dice en voz alta. Microsoft está reinvirtiendo prácticamente todo su beneficio en un activo cuyo precio de reposición le sube por encima de la inflación, comprometido en casi la mitad con una contraparte que es a la vez su cliente, su participada y su competidor potencial, y la dirección responde a la pregunta del retorno con adjetivos. RELOJ CERRADO.",
+    "paso5_motor_g": "g = tasa de reinversión x ROIC incremental. Ambos calculados de los filings, no asumidos por separado.\n\nCAPITAL INVERTIDO (activo total - caja e inversiones CP - pasivos corrientes sin coste financiero):\nFY2024 (30-jun-2024): 512.163 - 75.543 - 116.344 = 320.276M\nFY2025 (30-jun-2025): 619.003 - 94.565 - 138.219 = 386.219M\nTTM (31-mar-2026): 694.228 - 78.272 - 127.822 = 488.134M\n\nNOPAT (resultado operativo x (1 - tipo efectivo)):\nFY2024: 109.433 x 0,818 = 89.516M\nFY2025: 128.528 x 0,818 = 105.136M\nTTM: 148.957 x 0,804 = 119.744M  (tipo efectivo 9M FY2026 = 23.904/121.887 = 19,6%)\n\nEL MOTOR, DOS AÑOS SEGUIDOS:\nFY2024 -> FY2025: reinversión 65.943/89.516 = 73,7%; ROIC incremental 15.620/65.943 = 23,7%; g = 0,737 x 0,237 = 17,4%. Crecimiento real del NOPAT: 17,4%. Cuadra exacto.\nFY2025 -> TTM: reinversión 101.915/105.136 = 96,9%; ROIC incremental 14.608/101.915 = 14,3%; g = 0,969 x 0,143 = 13,9%. Crecimiento real del NOPAT: 13,9%. Cuadra exacto.\n\nLO QUE DICE ESTE MOTOR, SIN ADORNOS: en doce meses Microsoft pasó de reinvertir tres cuartas partes de su beneficio al 24% a reinvertir la práctica totalidad al 14%. El crecimiento apenas bajó (17,4% -> 13,9%) porque subió el volumen de reinversión justo lo suficiente para tapar la caída del retorno. Eso es exactamente lo que hace una empresa cuyo plan de incentivos paga por crecimiento de ingresos y no por retorno sobre capital (Paso 6).\n\nY aquí está la consecuencia que el estado de resultados esconde y el estado de flujos revela: con reinversión al 97%, el dueño no cobra. FCF: FY2023 59.475M -> FY2024 74.071M -> FY2025 71.611M -> TTM 72.916M. Owner earnings (FCF - SBC): 49.864 -> 63.337 -> 59.637 -> 60.560M. Llevan DOS AÑOS planos, y por debajo del pico de FY2024. Microsoft crece el beneficio contable al 14% y el flujo del dueño al 0%. Toda la diferencia está en el capex.\n\nMATIZ HONESTO A MI FAVOR Y EN MI CONTRA (INFERENCIA): un ROIC incremental medido en trayecto (trailing) durante una ola de inversión está estructuralmente sesgado a la baja -el denominador entra hoy y el numerador llega en dos o tres años. El 14,3% no es el estado estacionario. Pero eso corta en ambas direcciones: tampoco tengo derecho a suponer que el estado estacionario es 24%. Es exactamente la variable que está fuera de mi círculo (Paso 1).",
+    "paso5_reinversion_pct": 96.9,
+    "paso5_roic_incremental_pct": 14.3,
+    "paso5_g_implicita_pct": 13.9,
+    "paso5_cuello_botella": "EL CUELLO DE BOTELLA NO ES LA DEMANDA NI EL CAPITAL. Microsoft tiene 78.272M en caja e inversiones a corto, caja neta positiva, calificación de máxima calidad crediticia y 627.000M de ingresos ya contratados. Nada de eso limita.\n\nLO QUE LIMITA SON TRES COSAS FÍSICAS, y las tres están documentadas en el propio filing:\n1) TERRENO CON ELECTRICIDAD Y EDIFICIOS. 196.600M de arrendamientos de centros de datos firmados y AÚN NO INICIADOS, que empezarán entre FY2026 y FY2031, plazos de 1 a 21 años (10-Q Q3 FY2026, Nota 12). Microsoft ya ha firmado la capacidad de los próximos cinco años; el límite es cuándo se puede enchufar, no cuándo se puede pagar.\n2) SUMINISTRO Y PRECIO DE MEMORIA/GPU. ~25.000M del capex de 2026 son subida de precio de componentes, no más capacidad (Hood, 29-abr-2026). El cuello de botella se ha vuelto inflacionario: pagas más por lo mismo.\n3) MONETIZACIÓN EN EL LADO SOFTWARE. 20 millones de asientos pagados de Copilot tras tres años, sobre una base instalada de M365 Commercial de cientos de millones. Ahí el límite no es capacidad, es adopción.\n\nAÑOS DE PISTA -y aquí hay que separar dos pistas distintas, porque confundirlas es el error clásico:\n- PISTA DE CRECIMIENTO: larga. El RPO comercial de 627.000M con duración media 2,5 años ya cubre casi dos años de facturación actual. Con los 196.600M de arrendamientos comprometidos hasta FY2031, la pista de reinversión bruta es de al menos cinco años. HECHO.\n- PISTA DE CRECIMIENTO A ROIC INCREMENTAL SUPERIOR AL 20%: probablemente ya se acabó. Se acabó en FY2025. INFERENCIA, basada en que el ROIC incremental cayó a 14,3% justo cuando la reinversión saltó al 97%.\n\nEsa distinción es la que decide todo. Microsoft tiene mucha pista para crecer. Lo que ya no está claro es que tenga pista para crear valor creciendo, y esa es una pregunta distinta.",
+    "paso6_gestion_incentivos": "LEÍDO COMO TEXTO DEL DEF 14A (presentado 21-oct-2025, junta del 5-dic-2025), no como un proxy cuantitativo agregado.\n\nA QUÉ MÉTRICA PAGA EL BONUS -textual del documento:\nIncentivo en efectivo del CEO: 70% formulaico contra \"Incentive Plan Revenue\" e \"Incentive Plan Operating Income\" (medidas no-GAAP definidas en pág. 41), 30% evaluación operacional en tres categorías (Security; Product, Customers & Stakeholders; Culture). Para el resto de directivos, 50/50.\n\nMétricas de las Performance Stock Awards FY2025, con sus pesos, copiadas del proxy:\n- Azure and Other Cloud Services Revenue Growth: 35%\n- Microsoft Cloud Revenue Growth, excluding Azure and Other Cloud Services: 35%\n- Consumer Services Revenue Growth: 15%\n- Xbox Content and Services Revenue Growth: 15%\n\nLEA ESA LISTA OTRA VEZ. El 100% de las métricas de la retribución en acciones del equipo directivo de Microsoft es CRECIMIENTO DE INGRESOS. Ni una sola métrica de retorno sobre capital empleado. Ni una de flujo de caja libre. Ni una de eficiencia de capital. Ni una de margen. Único contrapeso: un modificador de TSR relativo al S&P 500 a tres años, con la condición de que el TSR absoluto sea positivo.\n\nFILTRO MUNGER, INVIRTIENDO EL PROBLEMA: si yo diseño un plan que paga a un CEO 50 millones de dólares al año, 100% en acciones, atadas exclusivamente a que los ingresos de Azure crezcan, y no le descuento absolutamente nada por el capital que consuma para conseguirlo -¿qué esperaría que hiciera cuando aparece una tecnología que ofrece ingresos ilimitados a cambio de capital ilimitado? Respuesta: 190.000 millones de capex. El proxy de octubre de 2025 explica el balance de marzo de 2026 mejor que cualquier tesis sobre inteligencia artificial. Esto no es acusar a nadie de mala fe: es que el plan hace exactamente lo que dice que hace.\n\nRESULTADOS DEL PAGO FY2025 -textual: 117,00% del objetivo en la porción financiera del incentivo en efectivo; 103,69% en las métricas estratégicas de las PSA; y para Nadella, 151,67% en la evaluación operacional. Todo por encima del objetivo, en un año en el que los owner earnings CAYERON de 63.337M a 59.637M.\n\nCUÁNTO CAPITAL PROPIO TIENEN (tabla de propiedad al 30-sep-2025):\n- Satya Nadella: 900.572 acciones. A 381,58 USD son ~344M de dólares -mucho dinero para una persona, pero MENOS del 0,013% de la compañía. El proxy marca su participación con asterisco: \"Less than 1%\".\n- Amy Hood: 465.746. Bradford Smith: 402.131. Judson Althoff: 82.187.\n- TODOS los consejeros y directivos como grupo (18 personas): 2.279.620 acciones = ~0,031% de 7.428 millones de acciones.\n- Los verdaderos propietarios: Vanguard 8,95%, BlackRock 7,30%.\n\nCONCLUSIÓN SIN ANESTESIA: aquí no hay un dueño. Hay administradores profesionales excelentes, honestos y bien gobernados -prohibición estricta de cobertura y pignoración, política de recuperación 'no-fault', consejo no escalonado, voto mayoritario, un voto por acción, y un CEO cuyo equity es 100% de rendimiento, que es genuinamente mejor que la práctica del mercado. Pero cuando el gestor posee el 0,013% y cobra por crecer ingresos, la asimetría es evidente: si los 190.000 millones funcionan, gana una fortuna; si no funcionan, pierde el 0,013% del daño. La única defensa estructural del accionista contra ese sesgo es el modificador de TSR relativo a tres años -y con la acción cayendo 20,9% en el año, ese modificador está a punto de convertirse en el único mecanismo que ha funcionado en todo el plan. Lo que hay que vigilar es el proxy de octubre de 2026: si aparece una métrica de retorno sobre capital, la dirección ha entendido; si no aparece, el motor que produjo este balance sigue intacto y volverá a producirlo.",
+    "paso7_percepcion_variante": "QUÉ CREE EL CONSENSO (y está en el precio, no en la opinión): que Microsoft está enterrando el capital del accionista en una carrera armamentística de centros de datos cuyo retorno nadie puede verificar; que el flujo de caja del dueño lleva dos años parado mientras el beneficio contable sube; y que casi la mitad de la cartera contratada depende de una contraparte que pierde dinero. Evidencia de que esto ES el consenso, no una caricatura: la acción cae 20,9% en el año y 30,9% desde el máximo de 52 semanas (552,28 -> 381,58) MIENTRAS los ingresos crecen 18% y el margen operativo se expande. Nadie vende un negocio que mejora salvo que crea que el capital que consume vale más que el beneficio que produce.\n\nQUÉ CREO YO DISTINTO: intenté articular tres variantes y las tres se me cayeron. Lo escribo porque el candado del método está para esto.\n\nVARIANTE 1 (rechazada): \"más de la mitad del beneficio operativo viene de un negocio ligero en capital -Productivity and Business Processes, 61.979M de 114.634M, con margen SUBIENDO de 57,9% a 60,7%- y el mercado le está aplicando el múltiplo deprimido del negocio pesado\". Por qué se cae: el propio 10-Q dice \"Assets are not allocated to segments for internal reporting purposes\". NO PUEDO verificar desde fuentes primarias que PBP sea ligero en capital. Es una inferencia razonable, no un hecho. Una variante que no se puede verificar no es una variante, es una esperanza.\n\nVARIANTE 2 (rechazada): \"el ROIC incremental de 14,3% está subestimado porque el capital entra hoy y los ingresos llegan en tres años, y además 22.600M de capex están todavía en cuentas por pagar\". Es verdad -y verificable en la Nota 6 del 10-Q: 22.600M contra 6.900M nueve meses antes. Por qué se cae como variante: corta en ambas direcciones con la misma fuerza. Si el sesgo del trailing hace que 14,3% subestime, también hace que el 23,7% del año anterior estuviera inflado por el capital que aún no había entrado. No es información asimétrica, es ruido en las dos direcciones.\n\nVARIANTE 3 (rechazada): \"el mercado ignora que 627.000M de RPO son ingresos contratados, no esperanza\". Se cae con el dato de la propia CFO: 45% de ese RPO es OpenAI. El mercado no lo ignora; es precisamente lo que descuenta.\n\nCONCLUSIÓN, INCÓMODA Y NECESARIA: coincido con el consenso en el MECANISMO (el capital intensivo está comprimiendo el retorno incremental). Solo discrepo en el GRADO DE CERTEZA con que el mercado lo da por hecho. Discrepar en el grado de certeza no es una percepción variante: es tener la misma tesis que todo el mundo con más matices. Eso es consenso con pasos extra. Y comprar consenso con pasos extra, tres días antes de un resultado que va a revelar la guía de capex de FY2027 (29-jul-2026), no es invertir: es apostar a una moneda con la ilusión de haber hecho los deberes.",
+    "paso7_hay_variante": false,
+    "paso8_premortem": [
+     {
+      "mecanismo": "OLA DE DEPRECIACIÓN. El equipo informático se amortiza en 'two to six years' (10-K FY2025, Nota 1). Microsoft está añadiendo activo fijo a un ritmo de ~130.000M/año bruto mientras la depreciación TTM es solo 30.300M (Q3 aislado: 9.000M, o ~36.000M anualizados). El capex TTM es 3,2 veces la depreciación. Ese desfase no es un ahorro: es un gasto diferido con fecha. Cuando la ola llegue, el margen del negocio pesado se hunde y el P/E de hoy resulta haber sido mucho más alto de lo que parecía.",
+      "metrica": "Margen operativo del segmento Intelligent Cloud (hoy 39,7% en el trimestre, ya caído desde 41,5%) y la línea 'Depreciation' del estado de flujos. Gatillo de falsación: margen operativo de Intelligent Cloud por debajo del 36% en DOS trimestres consecutivos, o depreciación trimestral por encima de 14.000M.",
+      "ventana": "10-Q de Q2 FY2027 (publicación ~finales de enero de 2027) y 10-Q de Q3 FY2027 (~finales de abril de 2027). Falsable a 9 meses vista."
+     },
+     {
+      "mecanismo": "LA CONTRAPARTE OPENAI SE ROMPE O SE RENEGOCIA. ~282.000M (45% de 627.000M de RPO comercial, según Amy Hood el 28-ene-2026) dependen de una empresa que no genera caja, que se financia en mercados de capital, de la que Microsoft posee ~27% por método de participación con HLBV y a la que ha comprometido 13.000M (11.800M ya desembolsados). Es cliente, participada, deudora y competidora a la vez. Si OpenAI no puede levantar capital, Microsoft pierde simultáneamente la cartera contratada, el valor de la participación y la justificación del capex.",
+      "metrica": "Tres observables, cualquiera basta: (a) que Microsoft deje de desglosar el crecimiento del RPO ex-OpenAI en la llamada; (b) una pérdida por método de participación superior a 3.000M en un solo trimestre dentro de 'Other income (expense), net' -recuérdese que en 9M FY2026 fue una GANANCIA de 5.900M por dilución en la recapitalización, no una ganancia operativa; (c) cualquier reserva o deterioro reconocido sobre el RPO (que la empresa ya declara 'reported net of reserves').",
+      "ventana": "Cuatro trimestres desde el 10-K de FY2026 (previsto ~30-jul-2026) hasta el 10-Q de Q3 FY2027 (~abril 2027)."
+     },
+     {
+      "mecanismo": "LOS 196.600M DE ARRENDAMIENTOS NO INICIADOS SE CONVIERTEN EN CAPACIDAD OCIOSA. Microsoft tiene firmados 196.600M de arrendamientos de centros de datos que aún no han comenzado, con inicio entre FY2026 y FY2031 y plazos de hasta 21 años (10-Q Q3 FY2026, Nota 12). Son obligaciones contractuales sobre demanda futura estimada. Si el consumo de IA se enfría, esos contratos no se cancelan: se pagan igual, con centros medio vacíos y con un tipo de descuento del 4,4% a 13 años de plazo medio.",
+      "metrica": "La propia cifra de 'leases that had not yet commenced' en la Nota de Arrendamientos de cada 10-Q, cruzada con el crecimiento de Azure. Gatillo doble: (a) si esa cifra cae más de 25% en dos trimestres seguidos sin que el capex la sustituya, Microsoft está frenando -bueno para el flujo, muerte de la narrativa de crecimiento; (b) si sigue subiendo MIENTRAS el crecimiento de Azure baja de 30% interanual, están firmando capacidad contra una demanda que ya no llega.",
+      "ventana": "10-Q de Q1 FY2027 (~finales de octubre de 2026) y 10-Q de Q2 FY2027 (~finales de enero de 2027)."
+     },
+     {
+      "mecanismo": "COPILOT NO MONETIZA Y LA IA SE COME EL MARGEN DEL LADO BUENO. La tesis entera asume que la IA hace más valioso el software de escritorio. Si en cambio el asistente se vuelve una funcionalidad esperada e incluida -como pasó con el antivirus, la búsqueda dentro del correo o el almacenamiento en la nube- entonces Microsoft habrá gastado 190.000M en infraestructura para defender un precio, no para subirlo. Los 20 millones de asientos pagados tras tres años, sobre una base instalada de cientos de millones, son consistentes con AMBAS historias; no distinguen.",
+      "metrica": "Crecimiento de 'Microsoft 365 Commercial products and cloud services' (hoy +19% interanual en el trimestre, 25.593M vs 21.883M) y margen operativo de Productivity and Business Processes (hoy 60,7%). Gatillo: si el crecimiento de M365 Commercial cloud baja de 14% interanual, o si el margen de PBP retrocede por debajo del 58%, con Copilot ya desplegado y cobrado, la tesis de 'la IA hace más valioso al software' queda falsada por los propios números de la empresa.",
+      "ventana": "Cuatro trimestres: 10-Q de Q1 FY2027 (~oct-2026) hasta el 10-K de FY2027 (~jul-2027)."
+     },
+     {
+      "mecanismo": "EL PLAN DE INCENTIVOS NO SE CORRIGE Y VUELVE A PRODUCIR LO MISMO. El 100% de las métricas de las PSA de FY2025 es crecimiento de ingresos (Azure 35%, Microsoft Cloud ex-Azure 35%, Consumer 15%, Xbox 15%) y el bonus en efectivo paga contra Incentive Plan Revenue e Incentive Plan Operating Income. Cero métricas de retorno sobre capital. Mientras ese plan siga vigente, la respuesta racional del directivo a cualquier duda sobre capex será gastar más, no menos -exactamente como en FY2026.",
+      "metrica": "El DEF 14A de octubre de 2026: ¿aparece alguna métrica de retorno sobre capital empleado, de flujo de caja libre o de eficiencia de capital entre las métricas de las PSA o del incentivo en efectivo? Es una lectura binaria del texto, no requiere interpretación.",
+      "ventana": "Presentación del DEF 14A, previsible entre el 15 y el 25 de octubre de 2026 (los tres últimos se presentaron el 21-oct-2025, 24-oct-2024 y 19-oct-2023)."
+     }
+    ],
+    "paso9_wacc_pct": 9.8,
+    "paso9_wacc_construccion": "CANDADO B: construido componente a componente desde el mercado. Cero herencia de ningún tier de calidad.\n\nTASA LIBRE DE RIESGO = 4,71%. Bono del Tesoro de EE.UU. a 10 años, serie DGS10 de la Reserva Federal de St. Louis (FRED), último dato disponible 23-jul-2026: 4,71%. Referencias del mismo día: 30 años (DGS30) 5,17%. HECHO, descargado 26-jul-2026.\n\nPRIMA DE RIESGO DE MERCADO = 4,42%. Prima implícita de EE.UU. calculada por Aswath Damodaran (NYU Stern) con el S&P 500 en 7.499,36 al 1-jul-2026. No es una prima histórica ni una convención: es la prima que el propio índice está descontando hoy. HECHO citado con fecha. (Nota metodológica: la prima de mercado maduro depurada del diferencial de impago soberano Aa1 sería 4,20%; uso la prima de EE.UU. sin depurar, 4,42%, porque el flujo de MSFT es predominantemente estadounidense.)\n\nBETA = 1,20. Dos fuentes independientes, ambas de julio de 2026: GuruFocus 1,2460 al 21-jul-2026; Yahoo Finance 1,13 (beta a 5 años mensual) en julio de 2026. Uso el punto medio, 1,20. CANDADO C: no reporto tres decimales de una magnitud que dos fuentes serias sitúan entre 1,13 y 1,25.\n\nCOSTE DE LOS RECURSOS PROPIOS = 4,71% + 1,20 x 4,42% = 10,01%. (Rango según beta: 9,70% con 1,13; 10,24% con 1,25.)\n\nCOSTE DE LA DEUDA ANTES DE IMPUESTOS = 5,5%. Construido, no supuesto: el índice Moody's Seasoned Aaa Corporate Bond Yield (FRED, serie DAAA) está en 5,86% al 23-jul-2026 -Microsoft es una de las poquísimas empresas estadounidenses con calificación de máxima categoría, así que ese índice es su referencia natural para plazo largo. Sus propias emisiones vivas tienen tipos efectivos de 2,46% a 5,49% (10-Q Q3 FY2026, Nota 9), pero son cupones legacy: no ha emitido nada relevante desde 2024 y por tanto no reflejan su coste MARGINAL de hoy. El tipo de descuento medio de sus arrendamientos financieros -que es su forma real de financiar centros de datos- es 4,4% con plazo medio de 13 años, y ha subido desde 4,2% en junio de 2025. Tomo 5,5% como coste marginal razonable entre el índice largo Aaa (5,86%) y su coste de arrendamiento (4,4%).\n\nTIPO IMPOSITIVO = 20%. Tipo efectivo 9M FY2026 = 23.904/121.887 = 19,6% (10-Q Q3 FY2026); tipo estatutario federal EE.UU. 21%.\nCOSTE DE LA DEUDA DESPUÉS DE IMPUESTOS = 5,5% x 0,80 = 4,4%.\n\nPONDERACIONES A VALOR DE MERCADO:\nRecursos propios = 7.428M acciones en circulación al 23-abr-2026 (portada del 10-Q) x 381,58 USD = 2.834.000M USD.\nDeuda = bonos 40.262M + arrendamientos financieros 62.932M + arrendamientos operativos 22.238M = 125.432M. Capitalizo los arrendamientos porque para un negocio que alquila centros de datos son deuda económica indiscutible.\nCapital total = 2.959.400M. D/V = 4,24%. E/V = 95,76%.\n\nWACC = 0,9576 x 10,01% + 0,0424 x 4,40% = 9,59% + 0,19% = 9,78% -> 9,8%.\nRango honesto según beta: 9,5% (beta 1,13) a 10,0% (beta 1,25).\n\nSENSIBILIDAD DECLARADA: si se incorporaran a la deuda los 196.600M de arrendamientos aún no iniciados, D/V subiría a ~10,2% y el WACC bajaría a ~9,4%. NO los incluyo porque todavía no son capital captado, pero dejo el número para que el abogado del diablo pueda atacarlo.\n\nCONTRASTE CON EL SISTEMA VIEJO, QUE ES EL PUNTO DE TODO ESTO: el sistema retirado asignaba a MSFT un WACC de 7,5% por pertenecer al tier 'Núcleo'. El WACC de mercado es 9,8%: 230 puntos básicos más. Ese solo cambio -sin tocar una sola proyección de negocio- reduce el valor presente de una perpetuidad al 3% en aproximadamente un 34%. La contradicción madre no era un detalle técnico: era la mitad de la valoración.",
+    "paso9_owner_earnings": "OWNER EARNINGS = FCF - SBC. Calculado sobre TTM (Q4 FY2025 + 9M FY2026), fuente 10-K FY2025 y 10-Q Q3 FY2026.\n\nFlujo de caja de operaciones TTM: 136.162 - 93.515 + 127.494 = 170.141M\nCapex en efectivo TTM (payments to acquire property and equipment): 64.551 - 47.472 + 80.146 = 97.225M -> 30,5% de las ventas\nFLUJO DE CAJA LIBRE TTM = 72.916M\nCompensación en acciones TTM: 11.974 - 8.901 + 9.283 = 12.356M\nOWNER EARNINGS TTM = 60.560M -> 8,13 USD por acción sobre 7.445M diluidas -> RENDIMIENTO SOBRE EL PRECIO DE HOY: 2,13%\n\nLA SERIE, QUE ES LO QUE IMPORTA:\nFY2023: 87.582 - 28.107 - 9.611 = 49.864M\nFY2024: 118.548 - 44.477 - 10.734 = 63.337M\nFY2025: 136.162 - 64.551 - 11.974 = 59.637M\nTTM mar-2026: 60.560M\n\nEs decir: el flujo del dueño hizo techo en FY2024 y lleva dos años plano, un 4,4% POR DEBAJO de aquel pico. En ese mismo intervalo los ingresos pasaron de 245.122M a 318.273M (+30%) y el beneficio operativo de 109.433M a 148.957M (+36%). Microsoft crece el beneficio contable a doble dígito alto y el flujo del dueño a cero. Toda la diferencia está en la línea de capex.\n\nAJUSTE QUE EMPEORA LA FOTO (y que hay que hacer, porque si no el número miente): el capex EN EFECTIVO subestima el capex DEVENGADO. El 10-Q Q3 FY2026, Nota 6, dice literalmente: \"purchases of property and equipment remaining in accounts payable were $22.6 billion and $6.9 billion\" al 31-mar-2026 y al 30-jun-2025 respectivamente. Son 15.700M de capex ya comprometido y no pagado acumulados en nueve meses. Sobre base devengada, los owner earnings de esos nueve meses son ~15.700M inferiores a lo que muestra el estado de flujos. CANDADO C: no puedo convertir eso limpiamente a TTM porque no dispongo del saldo al 31-mar-2025; lo que sí puedo afirmar es que los owner earnings TTM de 60.560M están SOBRESTIMADOS en un orden de magnitud de diez mil millones largos, y que el rendimiento real está más cerca del 1,6% que del 2,13%.\n\nCONTRASTE QUE CIERRA EL PASO: el bono del Tesoro a 10 años rinde 4,71% sin riesgo. Microsoft rinde 2,13% de flujo del dueño -o ~1,6% ajustado por devengo- con todo el riesgo de ejecución de una reconversión industrial de 190.000M. Al accionista no le pagan por esperar. Le pagan solo si la historia se cumple.",
+    "paso9_dcf_inverso_g_implicita_pct": 18.3,
+    "paso9_veredicto_expectativas": "HEROICAS",
+    "paso9_test_trampa_valor": "NO ES TRAMPA DE VALOR. Los tres criterios se comprueban uno a uno y los tres salen limpios pese a la caída del 30,9% desde máximos.\n\n1) INGRESOS ORGÁNICOS: intactos y ACELERANDO. Q3 FY2026 (ene-mar 2026) 82.886M vs 70.066M = +18,3% interanual. Nueve meses 241.832M vs 205.283M = +17,8%. Azure +40% en el trimestre, por encima del rango que la propia dirección había guiado (37-38% en divisa constante). Microsoft Cloud 54.500M, +29%. Sin adquisiciones relevantes: el fondo de comercio solo subió de 119.509M a 119.661M en nueve meses -108M de adquisiciones. El crecimiento es orgánico al 100%.\n\n2) MARGEN: EXPANDIÉNDOSE, no comprimiéndose. Margen operativo consolidado 45,6% en FY2025 -> 46,8% TTM. En el trimestre: 38.398/82.886 = 46,3% vs 32.000/70.066 = 45,7%. Y donde importa la calidad: Productivity and Business Processes pasó de 57,9% a 60,7% en nueve meses. Una trampa de valor tiene el margen cayendo; esta empresa lo tiene subiendo.\n\n3) ROIC: por encima del coste de capital con muchísimo margen. 24,5% TTM contra un WACC de mercado de 9,8%. Spread de +14,7 puntos. Ha bajado desde 27,9% (FY2024), sí -pero desde una altura a la que casi nadie llega.\n\n4) PRUEBA ADICIONAL DE QUE LA DEMANDA NO SE ESTÁ EVAPORANDO: el RPO comercial subió 99% hasta 627.000M con duración media de 2,5 años -casi dos años de facturación ya firmada. Una empresa en deterioro no dobla su cartera contratada.\n\nDIAGNÓSTICO CORRECTO: esto NO es Nokia 2007 ni Intel 2014 -no hay deterioro operativo escondido detrás del abaratamiento. Es una RECALIFICACIÓN DE MÚLTIPLO por cambio de naturaleza del negocio: el mercado ha dejado de pagar múltiplo de software puro a una empresa que ahora tiene 283.228M de activo fijo neto (0,89 veces sus ventas, cuando en FY2024 eran 0,55 veces) y que reinvierte el 97% de su beneficio. El mercado no se ha equivocado de dirección; está descontando exactamente el hecho correcto.\n\nPERO -y esto es lo único que la etiqueta 'no es trampa de valor' podría hacer olvidar- hay UNA grieta real, y no está en el ROIC medio sino en el incremental: 23,7% -> 14,3% en un año. El ROIC medio de 24,5% es el retrovisor, pagado por el capital de 2019-2023. El ROIC incremental de 14,3% es el parabrisas, y es el que decide lo que valen los próximos diez años. No es una trampa de valor. Es una empresa excelente convirtiéndose, delante de nuestros ojos y con nuestro dinero, en una empresa buena.",
+    "precio_hoy": "USD 381,58 por acción — último cierre (viernes 24-jul-2026), snapshot en vivo de IBKR tomado el 26-jul-2026. Variación en el año: -20,92%. Máximo de 52 semanas 552,28 / mínimo 349,20: cotiza un 30,9% por debajo del máximo y un 9,3% por encima del mínimo anual. Rentabilidad por dividendo 0,93%. Capitalización ≈ 2.834.000M USD (7.428M acciones en circulación al 23-abr-2026, portada del 10-Q). Valor de empresa ≈ 2.882.000M (capitalización + 125.432M de deuda y arrendamientos capitalizados − 78.272M de caja e inversiones a corto). ATENCIÓN OPERATIVA: Microsoft publica resultados de Q4 y del ejercicio FY2026 el miércoles 29 de julio de 2026 tras el cierre — dentro de tres días.",
+    "hechos_para_abogado_diablo": [
+     "PRECIO Y MERCADO — Cierre 24-jul-2026: 381,58 USD (snapshot IBKR 26-jul-2026). YTD -20,92%. Máximo 52s 552,28; mínimo 52s 349,20. Capitalización ~2.834.000M USD sobre 7.428M acciones en circulación (portada 10-Q Q3 FY2026, al 23-abr-2026). Acciones diluidas medias Q3 FY2026: 7.445M.",
+     "CUENTA DE RESULTADOS TTM (Q4 FY2025 + 9M FY2026, fuentes 10-K FY2025 y 10-Q Q3 FY2026): Ingresos 318.273M (+13,0% vs FY2025 de 281.724M). Beneficio operativo 148.957M, margen 46,8% (FY2025: 45,6%). Beneficio neto 125.216M.",
+     "TRIMESTRE Q3 FY2026 (ene-mar 2026, 10-Q presentado 29-abr-2026): Ingresos 82.886M vs 70.066M (+18,3%). Beneficio operativo 38.398M vs 32.000M (+20,0%). Beneficio neto 31.778M vs 25.824M. BPA diluido 4,27 vs 3,46.",
+     "SEGMENTOS 9M FY2026 vs 9M FY2025 (10-Q Nota 16): Productivity and Business Processes ingresos 102.149M vs 87.698M, beneficio operativo 61.979M vs 50.780M (margen 60,7% vs 57,9%). Intelligent Cloud ingresos 98.485M vs 76.387M, beneficio operativo 41.017M vs 32.449M (margen 41,6% vs 42,5%). More Personal Computing ingresos 41.198M vs 41.198M (plano), beneficio operativo 11.638M vs 10.976M.",
+     "SEGMENTO INTELIGENT CLOUD, TRIMESTRE Q3 FY2026: ingresos 34.681M vs 26.751M (+29,6%); coste de ingresos 15.120M vs 10.307M (+46,7%); beneficio operativo 13.753M vs 11.095M; margen operativo 39,7% vs 41,5%.",
+     "FLUJO DE CAJA TTM: OCF 170.141M. Capex en efectivo (payments to acquire property and equipment) 97.225M = 30,5% de las ventas. FCF 72.916M. SBC 12.356M. Owner earnings (FCF−SBC) 60.560M = 8,13 USD/acción = 2,13% sobre el precio.",
+     "SERIE HISTÓRICA DE FCF: FY2023 59.475M; FY2024 74.071M; FY2025 71.611M; TTM 72.916M. SERIE DE OWNER EARNINGS: FY2023 49.864M; FY2024 63.337M; FY2025 59.637M; TTM 60.560M (por debajo del pico de FY2024).",
+     "CAPEX EN EFECTIVO POR EJERCICIO: FY2023 28.107M; FY2024 44.477M; FY2025 64.551M; 9M FY2026 80.146M (vs 47.472M en 9M FY2025, +68,8%). Q3 FY2026 aislado: 30.876M en un solo trimestre.",
+     "CAPEX DEVENGADO NO PAGADO (10-Q Q3 FY2026, Nota 6, literal): 'purchases of property and equipment remaining in accounts payable were $22.6 billion and $6.9 billion' al 31-mar-2026 y al 30-jun-2025 respectivamente. Incremento de 15.700M en nueve meses.",
+     "DEPRECIACIÓN: TTM 30.300M (FY2025 22.000M − 9M FY2025 15.700M + 9M FY2026 24.000M). Q3 FY2026 aislado 9.000M. Ratio capex TTM / depreciación TTM = 3,2x. Vidas útiles (10-K FY2025, Nota 1, literal): 'software developed or acquired for internal use, three years; computer equipment, two to six years; buildings and improvements, five to 15 years'. Sin cambios respecto a ejercicios anteriores.",
+     "ACTIVO FIJO: Property and equipment neto 283.228M al 31-mar-2026 vs 204.966M al 30-jun-2025 vs 135.591M al 30-jun-2024. Depreciación acumulada 111.723M. Ratio activo fijo neto / ingresos: FY2024 0,55x; FY2025 0,73x; TTM 0,89x.",
+     "CAPITAL INVERTIDO Y ROIC (cálculo propio sobre balances de 10-K FY2025 y 10-Q Q3 FY2026; capital invertido = activo total − caja e inversiones CP − pasivos corrientes sin coste): FY2024 320.276M, NOPAT 89.516M, ROIC 27,9%. FY2025 386.219M, NOPAT 105.136M, ROIC 27,2%. TTM 488.134M, NOPAT 119.744M, ROIC 24,5%. ROIC INCREMENTAL: FY24->FY25 23,7%; FY25->TTM 14,3%. TASA DE REINVERSIÓN: 73,7% y 96,9% respectivamente.",
+     "TIPO IMPOSITIVO EFECTIVO 9M FY2026: 23.904/121.887 = 19,6% (10-Q Q3 FY2026).",
+     "BALANCE al 31-mar-2026 (10-Q Q3 FY2026): Activo total 694.228M. Caja e inversiones a corto 78.272M. Fondos propios 414.367M. Pasivo total 279.861M. Deuda financiera 40.262M (valor nominal 46.156M; porción corriente 8.839M). Fondo de comercio 119.661M (119.509M al 30-jun-2025; solo 108M de adquisiciones en nueve meses).",
+     "ARRENDAMIENTOS (10-Q Q3 FY2026, Nota 12): arrendamientos financieros totales 62.932M (46.172M al 30-jun-2025; 27.145M al 30-jun-2024), plazo medio restante 13 años, tipo de descuento medio 4,4% (4,2% un año antes). Arrendamientos operativos 22.238M, plazo medio 6 años, tipo 3,6%. Literal: 'As of March 31, 2026, we had additional leases, primarily for datacenters, that had not yet commenced of $196.6 billion. These leases will commence between fiscal year 2026 and fiscal year 2031 with lease terms of 1 year to 21 years.'",
+     "DEUDA (10-Q Q3 FY2026, Nota 9): sin emisiones nuevas desde 2024. Cupones declarados de 1,35% a 5,30%; tipos efectivos de 2,46% a 5,49%. Vencimientos de 2026 a 2062. Prima por canje de deuda −4.779M.",
+     "CARTERA CONTRATADA: 'Revenue allocated to remaining performance obligations related to the commercial portion of revenue was $627 billion as of March 31, 2026, with a weighted average duration of approximately 2.5 years' (10-Q Q3 FY2026). Crecimiento declarado +99% interanual. Al cierre de Q2 FY2026 era 625.000M, +110% interanual.",
+     "CONCENTRACIÓN EN OPENAI: Amy Hood (EVP & CFO), llamada de resultados Q2 FY2026, 28-ene-2026, literal: 'Approximately 45% of our commercial RPO balance is from OpenAI.' Sobre 627.000M implica ~282.000M. Adicionalmente (10-Q Q3 FY2026, Nota 1): participación de ~27% en OpenAI en base convertida, contabilizada por método de participación mediante HLBV; 'We have made total funding commitments of $13 billion, of which $11.8 billion has been funded as of March 31, 2026.'",
+     "RESULTADO NO OPERATIVO: 'Other income (expense), net' 9M FY2026 = +7.253M vs −3.194M en 9M FY2025. De los cuales '$5.9 billion of net gains' proceden de las inversiones en OpenAI, principalmente por la ganancia de dilución de la recapitalización (10-Q Q3 FY2026, Nota 3). Es decir, ~5.900M del beneficio antes de impuestos de nueve meses es una plusvalía contable no operativa y no recurrente.",
+     "CONCENTRACIÓN DE INGRESOS RECONOCIDOS (10-Q Q3 FY2026, Nota 16, literal): 'No sales to an individual customer or country other than the United States accounted for more than 10% of revenue for the three or nine months ended March 31, 2026 or 2025.' Ingresos EE.UU. 9M: 123.823M de 241.832M (51,2%).",
+     "LÍNEAS DE PRODUCTO Q3 FY2026 (interanual): Server products and cloud services 32.592M vs 24.761M (+31,6%); Microsoft 365 Commercial 25.593M vs 21.883M (+17,0%); Gaming 5.341M vs 5.721M (−6,6%); LinkedIn 4.832M vs 4.311M; Windows and Devices 4.041M vs 4.144M (−2,5%); Search advertising 3.808M vs 3.504M. Métricas declaradas por la empresa: Azure +40%, Microsoft Cloud 54.500M +29%, M365 Commercial cloud +19%, Windows OEM y Devices −2%, Xbox content and services −5%.",
+     "GUÍA Y MÉTRICAS DE LA DIRECCIÓN (llamada Q3 FY2026, 29-abr-2026): Amy Hood, literal: 'For calendar year 2026, we expect to invest roughly $190 billion in capital expenditures' y 'The sequential increase includes roughly $5 billion from higher component pricing as well as the impact from finance leases'; ~25.000M del capex atribuidos a subida del precio de memoria (CNBC, 29-abr-2026). Satya Nadella, literal: 'Our AI business surpassed $37 billion ARR, up 123%' y 'we now have over 20 million Microsoft 365 Copilot paid seats' (eran 15M un trimestre antes).",
+     "RETRIBUCIÓN (DEF 14A presentado 21-oct-2025): métricas de las PSA FY2025 y pesos — Azure and Other Cloud Services Revenue Growth 35%; Microsoft Cloud Revenue Growth excluding Azure 35%; Consumer Services Revenue Growth 15%; Xbox Content and Services Revenue Growth 15%. NINGUNA métrica de retorno sobre capital, flujo de caja libre ni eficiencia de capital. Incentivo en efectivo del CEO: 70% contra 'Incentive Plan Revenue' e 'Incentive Plan Operating Income', 30% evaluación operacional. Modificador de TSR relativo al S&P 500 a 3 años, con TSR absoluto positivo como condición. PSA objetivo de Nadella: 50.000.000 USD (sin cambios desde FY2022), 100% en PSA, sin acciones por tiempo. Pagos FY2025: 117,00% del objetivo en la parte financiera, 103,69% en métricas estratégicas de PSA, 151,67% en la evaluación operacional de Nadella.",
+     "PROPIEDAD DE INSIDERS (DEF 14A, tabla al 30-sep-2025): Satya Nadella 900.572 acciones (marcado '*' = menos del 1%); Amy Hood 465.746; Bradford Smith 402.131; Judson Althoff 82.187; Takeshi Numoto 32.582. Consejeros y directivos como grupo (18 personas): 2.279.620 acciones ≈ 0,031% del capital. Accionistas principales: Vanguard 8,95%, BlackRock 7,30%.",
+     "CONTROL INTERNO (10-K FY2025, Item 9A): 'management concluded that the Company's internal control over financial reporting was effective as of June 30, 2025'. Auditor Deloitte & Touche LLP, que audita también el control interno. Sin restatement ni material weakness. Sin menciones de restatement ni material weakness en el 10-Q Q3 FY2026.",
+     "SBC / FCF: FY2023 16,2%; FY2024 14,5%; FY2025 16,7%; TTM 16,9%. Acciones diluidas medias: 7.469M (FY2024) -> 7.465M (FY2025) -> 7.445M (Q3 FY2026): recompra neta positiva.",
+     "COMPONENTES DEL WACC (todos de mercado, con fecha): bono EE.UU. 10 años 4,71% (FRED DGS10, 23-jul-2026; 30 años 5,17%). Prima de riesgo implícita de EE.UU. 4,42% (Damodaran, S&P 500 en 7.499,36 al 1-jul-2026). Beta 1,2460 (GuruFocus, 21-jul-2026) y 1,13 (Yahoo Finance, 5 años mensual, julio 2026). Índice Moody's Seasoned Aaa Corporate Bond Yield 5,86% (FRED DAAA, 23-jul-2026). WACC resultante 9,8% (rango 9,5%-10,0% según beta).",
+     "CALENDARIO: Microsoft publica resultados de Q4 y ejercicio completo FY2026 el miércoles 29 de julio de 2026 tras el cierre de mercado (anuncio de la compañía del 8-jul-2026). El 10-K de FY2026 aún no está presentado; el último 10-K disponible es el de FY2025 (30-jul-2025).",
+     "GOBIERNO (DEF 14A 2025): clase única de acciones, un voto por acción; consejo no escalonado con elección anual; voto por mayoría; prohibición estricta de cobertura y pignoración para consejeros y directivos; política de recuperación de retribución 'no-fault'. Reid Hoffman no se presenta a reelección (8-K de 2-jun-2026); Carmine Di Sibio incorporado al consejo, comités de Auditoría y Retribuciones (8-K de 13-may-2026)."
+    ],
+    "veredicto_preliminar": "NO COMPRAR TODAVIA",
+    "razon_veredicto": "VEREDICTO PRIMERO: no comprar todavía. Calidad sí, precio no, y -esto es lo que más pesa- tesis no.\n\nTRES RAZONES, EN ORDEN DE FUERZA.\n\nPRIMERA, Y LA QUE MANDA: no hay percepción variante. Coincido con el consenso en el mecanismo exacto por el que la acción ha caído un 31% desde máximos (la intensidad de capital está comprimiendo el retorno incremental), y mis propios números lo confirman en vez de contradecirlo: el ROIC incremental cayó de 23,7% a 14,3% mientras la reinversión saltaba del 74% al 97% del beneficio. Intenté articular tres variantes y las tres se cayeron por falta de verificación primaria -la mejor de ellas, que más de la mitad del beneficio viene de un negocio ligero en capital, es indemostrable porque el propio 10-Q dice que los activos no se asignan a segmentos. Discrepar del consenso en el GRADO DE CERTEZA no es una variante: es consenso con pasos extra. Y el método es explícito: sin variante articulable, no hay tesis.\n\nSEGUNDA: a WACC de mercado, las expectativas son heroicas. Con 9,8% construido componente a componente (bono a 10 años 4,71% del 23-jul-2026, prima implícita 4,42% de Damodaran al 1-jul-2026, beta 1,20 de dos fuentes de julio), el precio de hoy exige que los owner earnings crezcan 18,3% anual durante diez años y luego al 3% a perpetuidad. Sobre una base -60.560M- que hizo techo en FY2024 y lleva dos años PLANA, y que además está sobrestimada porque 15.700M de capex de nueve meses siguen en cuentas por pagar. La contraprueba por el lado del motor no salva el caso: a la reinversión observada del 97% y al ROIC incremental observado del 14,3%, el precio exige 13,6% anual de NOPAT durante una década -es decir, que Microsoft repita los últimos siete años durante los próximos diez reinvirtiendo prácticamente todo su beneficio y sin devolver casi nada al dueño. El accionista cobra hoy un 2,13% de flujo del dueño -~1,6% ajustado por devengo- contra un bono del Tesoro sin riesgo al 4,71%. No te pagan por esperar; te pagan solo si la historia se cumple entera.\n\nTERCERA: el motor que produjo este balance sigue encendido. El 100% de las métricas de las PSA -Azure 35%, Microsoft Cloud ex-Azure 35%, Consumer 15%, Xbox 15%- es crecimiento de ingresos. Cero métricas de retorno sobre capital. Un CEO con el 0,013% de la empresa, 50M al año atados exclusivamente a que Azure crezca, y ningún cargo por el capital consumido, responde a la aparición de la IA con 190.000M de capex. No es un fallo de carácter: es el plan funcionando como está escrito. Mientras el DEF 14A de octubre de 2026 no incorpore una métrica de retorno sobre capital, el mismo mecanismo volverá a producir el mismo resultado.\n\nLO QUE **NO** DIGO, Y HAY QUE DECIRLO IGUAL DE ALTO: esto no es un NO. No falla ni un solo knock-out. El mecanismo del moat es real y verificable -un producto de treinta y cinco años creciendo al 19% y 627.000M de facturación ya contratada no son narrativa, son notas del 10-Q. El margen operativo se está EXPANDIENDO (45,6% -> 46,8%), el ROIC medio sigue 14,7 puntos por encima del coste de capital, y el crecimiento es 100% orgánico. La caída del 31% es una recalificación de múltiplo por cambio de naturaleza del negocio, correctamente descontada por el mercado, no un deterioro escondido. Microsoft no se ha roto: se está convirtiendo, con el dinero del accionista y delante de nuestros ojos, de una empresa extraordinaria en una empresa buena. Comprar más es apostar a que la conversión sale bien; y esa apuesta, hoy, no tiene margen de seguridad ni ventaja informativa.\n\nTEST DEL HOY, PARA LA POSICIÓN EXISTENTE: ¿la comprarías hoy, a 381,58, con esta tesis? No. Por tanto la carga de la prueba se invierte y MANTENER es lo que debe justificarse -no vender. Se justifica, y sin forzarlo: cero knock-outs fallados, ROIC 24,5% sobre WACC 9,8%, caja neta positiva, contabilidad limpia con Deloitte y control interno efectivo, y una recalificación que ya ha ocurrido en vez de estar por ocurrir. Mantener sí; añadir no.\n\nADVERTENCIA OPERATIVA QUE INVALIDA CUALQUIER PRISA: Microsoft publica el FY2026 completo el miércoles 29 de julio de 2026, dentro de tres días, y ahí llega la guía de capex de FY2027 -exactamente el dato que resuelve la mitad de esta discusión. Comprar hoy es pagar por adelantado el derecho a enterarse el miércoles. Ni Felipe tiene reembolsos ni presión trimestral, ni hay nada que se pierda esperando 72 horas.\n\nEL DATO QUE RESOLVERÍA EL HEDGE, NOMBRADO CON PRECISIÓN: la guía de capex para FY2027 y el desglose del crecimiento del RPO ex-OpenAI en la llamada del 29 de julio. Si el capex se modera hacia una zona de 1,5-2 veces la depreciación y el RPO ex-OpenAI mantiene el 28% de crecimiento que la dirección citó en enero, el ROIC incremental se estabiliza y esto pasa a ser una discusión de precio, no de calidad. Si el capex vuelve a subir con la misma respuesta cualitativa de siempre -\"confiamos en el retorno dadas las señales de demanda\"- entonces el pre-mortem número 1 (la ola de depreciación) queda armado y el veredicto empeora.\n\nPASO 10 PENDIENTE Y BLOQUEANTE: los hechos desnudos ya están aislados para el abogado del diablo en sesión limpia. Aunque este veredicto no es COMPRA y por tanto el candado A no bloquea, recomiendo lanzarlo igual: la posición existe en cartera y el sesgo de compromiso es real -llevo dos revisiones seguidas concluyendo lo mismo sobre MSFT, y verbalizar endurece la posición."
+   }
+  },
+  {
+   "ticker": "INTU",
+   "nombre": "Intuit Inc.",
+   "pasos": {
+    "ticker": "INTU",
+    "precio_hoy": "296,33 USD (cierre del 24-jul-2026, stockanalysis.com, consultado 26-jul-2026). Capitalización 81,06 mil M USD; 273,54 M acciones (portada 10-Q FY26 Q3: 273.537.000 al 14-may-2026). Rango 52 sem.: 252,84–813,70 USD; −61,8% en 12 meses. Deuda neta ≈ 0 (deuda 6.162 M vs caja+inversiones 6.800 M al 30-abr-2026), luego EV ≈ capitalización ≈ 81,2 mil M USD.",
+    "paso0_monologo_previo": "Antes de abrir un solo filing, lo que creo saber: Intuit vende software de suscripción a dos clientelas que no se parecen — pequeñas empresas (QuickBooks: contabilidad, nómina, cobros) y personas físicas una vez al año (TurboTax). Gana dinero porque el cliente mete sus datos financieros dentro del producto y salir cuesta más que pagar la subida de precio anual; el resto (Credit Karma, Mailchimp) son compras para alimentar el embudo. Por qué dudaría: (1) el negocio de impuestos DIY es el candidato más obvio del mercado a ser comoditizado por un LLM — rellenar formularios a partir de documentos es exactamente lo que hace bien un modelo; (2) Intuit lleva años creciendo por PRECIO, no por unidades, y eso siempre tiene techo; (3) Mailchimp costó ~12.000 M USD en el pico de 2021 y nunca he visto la prueba de que valiera eso; (4) el SBC ronda los 2.000 M al año y las recompras parecen servir para tapar la dilución, no para reducir el capital; (5) la relación con la FTC y con el IRS es una fuente permanente de riesgo político. Sesgo que me tengo que vigilar: la caída del −62% invita a la trampa de \"un gran negocio a precio de saldo\"; el sistema viejo ya le puso 76,8/100, tier \"Alta convicción\" y \"GANGA\" con un WACC heredado del tier — eso es exactamente el error que refundó el método. Empiezo con WACC de mercado y sin nota previa. Hipótesis inicial honesta: negocio bueno en su mitad empresarial, negocio mediocre en su mitad de consumo, y un precio que probablemente ya descuenta el escenario malo. La pregunta no es si está barato: es si lo que se rompió es el precio o la tecnología.",
+    "paso1_circulo_competencia": "Sí, en una frase y sin jerga: Intuit cobra una suscripción a ~10 millones de pequeñas empresas por llevarles la contabilidad, la nómina y el cobro a clientes, y cobra a decenas de millones de personas por preparar y enviar su declaración de impuestos; el cliente no se va porque, una vez que un año entero de sus datos financieros vive dentro del programa (cuentas conciliadas, historial de nómina, declaraciones anteriores), rehacer eso en otro sitio cuesta más tiempo y más riesgo que aceptar la subida de precio. Todo lo demás —Credit Karma, Mailchimp, \"plataforma de expertos con IA\"— es embudo de captación o vocabulario de marketing sobre esas dos cajas registradoras. El negocio es comprensible sin jerga del management, y la unidad económica es verificable en los filings (ingreso por cliente, número de clientes de pago, unidades de e-file). NO hay veto.",
+    "paso1_veto": false,
+    "paso2_knockouts": [
+     {
+      "gate": "(a) Estructura VIE",
+      "resultado": "PASA",
+      "dato": "Intuit Inc. es una sociedad de Delaware que opera a través de subsidiarias 100% consolidadas. No existe entidad de interés variable ni estructura contractual de control. Las únicas entidades separadas citadas son subsidiarias íntegramente consolidadas que emiten deuda garantizada SIN RECURSO frente a Intuit Inc. para financiar los préstamos de QuickBooks Capital (2019, 2022 y 2024 Secured Facilities, 1.200 M USD dispuestos al 30-abr-2026); esa estructura está descrita como no-recurso pero consolidada, no como VIE fuera de balance.",
+      "fuente": "10-Q FY2026 Q3 (periodo 30-abr-2026, presentado 20-may-2026), Item 2 MD&A, sección 'Secured Revolving Credit Facilities' y Nota 6; 10-K FY2025 (31-jul-2025, presentado 03-sep-2025), portada e Item 8."
+     },
+     {
+      "gate": "(b) SBC > 50% del FCF ajustado ≥3 años consecutivos",
+      "resultado": "PASA",
+      "dato": "SBC / FCF (FCF = flujo de caja operativo − capex): FY2023 1.712/4.836 = 35%; FY2024 1.940/4.693 = 41%; FY2025 1.968/6.123 = 32%; TTM a 30-abr-2026 2.039/7.755 = 26%. Nunca supera el 50%; el máximo del periodo fue el 41% en FY2024. Matiz relevante: las acciones diluidas medias fueron 284 M (FY2022), 283 M (FY2023), 284 M (FY2024) y 283 M (FY2025) pese a 6.727 M USD de recompras acumuladas en FY23-FY25 — es decir, la recompra apenas neutralizó la emisión por SBC.",
+      "fuente": "XBRL SEC companyfacts CIK 0000896878 (tags ShareBasedCompensation, NetCashProvidedByUsedInOperatingActivities, PaymentsToAcquirePropertyPlantAndEquipment, WeightedAverageNumberOfDilutedSharesOutstanding, PaymentsForRepurchaseOfCommonStock), procedentes de los 10-K FY2023/FY2024/FY2025 y del 10-Q FY2026 Q3."
+     },
+     {
+      "gate": "(c) ROIC < WACC estructural ≥3 años",
+      "resultado": "PASA",
+      "dato": "ROIC = NOPAT (EBIT × (1−20%), tasa efectiva FY2025 = 965/4.834 ≈ 20%) sobre capital invertido medio (patrimonio + deuda − caja e inversiones): FY2023 ≈13%, FY2024 ≈15%, FY2025 ≈19%. Con I+D capitalizada a 3 años (tratamiento económicamente correcto en software): FY2024 ≈13%, FY2025 ≈16%. WACC de mercado calculado bottom-up = 8,7%. El ROIC excede el WACC en los tres ejercicios por un margen amplio y creciente. Capital invertido: 19.622 M (31-jul-2023), 20.269 M (31-jul-2024), 21.037 M (31-jul-2025).",
+      "fuente": "10-K FY2023/FY2024/FY2025 vía XBRL SEC (OperatingIncomeLoss, IncomeTaxExpenseBenefit, StockholdersEquity, LongTermDebt, CashAndCashEquivalentsAtCarryingValue, DebtSecuritiesAvailableForSale..., ResearchAndDevelopmentExpense); cálculo propio de capital invertido."
+     },
+     {
+      "gate": "(d) Restatement / opacidad contable",
+      "resultado": "PASA",
+      "dato": "No hay restatement. Los controles de divulgación fueron evaluados como efectivos al 30-abr-2026 y no hubo cambios materiales en el control interno sobre información financiera durante el trimestre. La orden de la FTC fue ANULADA por el Tribunal de Apelaciones del 5º Circuito el 20-mar-2026 y devuelta a la FTC. Las 'investigaciones por fraude de valores' de jun-jul 2026 son comunicados de bufetes de demandantes (BFA Law y otros) tras la caída del 20% del 21-may-2026 (383,93 → 307,07 USD): no hay acción de la SEC ni imputación contable divulgada en el 10-Q. RESERVA EXPLÍCITA que no llega a knock-out: desde el 01-ago-2025 Intuit fusionó Consumer + Credit Karma + ProTax en un único segmento 'Consumer', eliminando el resultado operativo de segmento separado de Credit Karma; y el 10-Q ya no publica el número de clientes de pago del ecosistema online (sólo aparece en el 10-K anual). La granularidad de divulgación se redujo justo en el ejercicio en que las unidades de TurboTax se volvieron negativas.",
+      "fuente": "10-Q FY2026 Q3 (30-abr-2026), Item 4 'Controls and Procedures', Nota 11 'Legal Proceedings' y Nota 12 'Segment Information'; 10-K FY2025, MD&A."
+     },
+     {
+      "gate": "(e) Dependencia de cliente o regulador único",
+      "resultado": "PASA",
+      "dato": "Cliente: 'No customer accounted for 10% or more of total net revenue in the three or nine months ended April 30, 2026 or April 30, 2025' (misma afirmación para FY2025, FY2024 y FY2023). Regulador: el riesgo IRS/estatal es real (la autorización de e-file es un punto único de fallo para el segmento Consumer, ~45% de los ingresos de 9M FY26) pero se MOVIÓ A FAVOR en el periodo: el IRS comunicó en nov-2025 que Direct File —el competidor público gratuito— no estaría disponible en la temporada 2026 y quedó descontinuado, y el 5º Circuito anuló la orden de la FTC el 20-mar-2026. No hay concentración regulatoria que descalifique hoy.",
+      "fuente": "10-Q FY2026 Q3, Nota 1 'Concentration of Credit Risk and Significant Customers'; 10-K FY2025 Nota 'Concentration of Credit Risk...'; 10-Q FY2026 Q3 Nota 11 (FTC); comunicación del IRS a los estados de nov-2025 sobre la no disponibilidad de Direct File en 2026 (cobertura Federal News Network y Nextgov, nov-2025)."
+     },
+     {
+      "gate": "(f) Deuda tóxica (refinanciación, tapar pérdidas, covenants ajustados)",
+      "resultado": "PASA",
+      "dato": "Deuda total 6.162 M USD y caja + inversiones 6.800 M USD al 30-abr-2026 (deuda neta ≈ 0). Único covenant financiero: deuda bruta/EBITDA ≤ 4,00x en el 2026 Credit Facility (2.200 M, sin disponer); el ratio real es ≈0,8x. El 11-jun-2026 —después del desplome— Intuit colocó 1.750 M USD en el mercado abierto (750 M al 4,950% con vencimiento 2031 y 1.000 M al 5,500% con vencimiento 2036), con BofA, J.P. Morgan y Scotia como representantes, destinados a usos generales incluida la refinanciación de los 750 M al 5,250% de 2026 y los 500 M al 1,350% de 2027. Emitir a 10 años al 5,50% tres semanas después de perder el 20% de la capitalización es lo contrario de una deuda tóxica: el mercado de crédito no comparte el pánico del mercado de acciones.",
+      "fuente": "10-Q FY2026 Q3, MD&A 'Commitments for Senior Unsecured Notes' y 'Credit Facilities'; 8-K presentado el 11-jun-2026, Item 8.01."
+     }
+    ],
+    "paso3_mecanismo_moat": "El foso es ASIMÉTRICO y hay que nombrarlo por partes, no en agregado. (1) QuickBooks — 55% de los ingresos de 9M FY26 (9.440 M, +17%) con 77% de margen operativo de segmento. El cliente no se va por tres mecanismos concretos y encadenados: el libro mayor acumulado (plan de cuentas, conciliaciones bancarias de años, historial de nómina y declaraciones presentadas) que hay que reconstruir y volver a cuadrar para migrar; el canal de contadores —Intuit declara ~1 millón de contadores y ~10 millones de clientes empresa— donde el que recomienda el software es quien tendría que reaprender su herramienta de trabajo; y la fontanería de dinero (nómina que ya paga a la agencia tributaria, procesamiento de pagos, ahora BNPL y tarjeta), que al moverse obliga a rehacer relaciones con bancos y autoridades fiscales. Ese foso es mecánico, describible y no depende de que el software sea mejor. (2) TurboTax DIY — el mecanismo es mucho más delgado: el arrastre automático de la declaración del año anterior se replica subiendo un PDF en cualquier competidor. Lo que queda es marca, confianza y la garantía de exactitud frente al riesgo de auditoría. En FY2026 ese foso delgado fue probado en la realidad y CEDIÓ: el CEO lo dijo textualmente el 20-may-2026 — \"We lost on price\" en los declarantes con ingresos inferiores a 50.000 USD. Y cedió con el competidor público (IRS Direct File) YA ELIMINADO, es decir, contra rivales privados baratos, no contra el Estado. (3) Credit Karma — foso de dos lados (los prestamistas pagan por leads cualificados) alimentado por el embudo de TurboTax; medio, y demostrablemente funcional: +22% en 9M FY26 y ARPU ~30% superior en el cliente que usa TurboTax y Credit Karma a la vez. Conclusión del mecanismo: lo que se rompió en 2026 es el ~11% de ingresos de menor foso (DIY no asistido, estimado en ~2.400 M USD y en caída de doble dígito, inferido de que TurboTax Live creció 36% hasta 2.800 M mientras el total TurboTax creció 7%). El 55% de mayor foso creció 17%. Usar el ROIC pasado como prueba del foso sería trampa: el ROIC del 19% está inflado por un capital invertido casi todo compuesto de goodwill de compras (13.982 M) — sin goodwill ni intangibles el capital operativo es de ~1.800 M y el ROIC es absurdo, lo que confirma que el activo real no está en el balance sino en el coste de cambio del cliente.",
+    "paso3_test_sleep": "Sleep pregunta quién se queda el ahorro de escala cuando la empresa crece. La respuesta en Intuit, medida y no opinada, es: SE LO QUEDA LA EMPRESA — y en 2026 se le volvió en contra. Las cifras: en FY2025 el ecosistema online creció 20% con clientes de pago +5% e ingreso medio por cliente +14% (10-K FY2025); en FY2026 TurboTax crece 7% con unidades online totales −2% y ARPU +11%, y la cuota de e-files cae 1 punto. Es decir, ~3/4 del crecimiento de AMBOS motores viene de precio y ~1/4 de unidades. Ese es el patrón inverso al de Costco o Amazon: Intuit no devolvió el ahorro de escala al cliente, lo capturó vía precio año tras año, y en la temporada 2026 el cliente marginal —el declarante de menos de 50.000 USD— se fue con un competidor más barato. La confirmación llega de la propia empresa: en la misma llamada anuncian que van a \"evolucionar el modelo de negocio para dar el lineup y el punto de precio correctos en la gama baja\" y lanzan QuickBooks Free y QuickBooks Lite. Eso es economía de escala compartida, sí, pero FORZADA Y TARDÍA, hecha porque se perdió cuota, no porque se eligiera el modelo. Simultáneamente anuncian que \"tomarán acciones de precio en la gama alta del portafolio\" y un modelo de consumo para los servicios de IA — o sea, doblan la apuesta de capturar el ahorro donde el cliente todavía no se puede ir. Veredicto del test de Sleep: SUSPENDE en la gama baja (probado empíricamente en 2026) y sigue sin aplicarse en la gama alta, lo que es un modelo de rentas defendible mientras el coste de cambio aguante, pero no es el modelo de escala compartida que produce compounders de 20 años. Este es el hallazgo que más pesa contra la tesis alcista.",
+    "paso4_scuttlebutt": "Tres fuentes, reloj cerrado el 26-jul-2026. NO reabrir sin dato nuevo y fechado; el próximo dato programado es el informe del 4T FY2026 el 20-ago-2026. FUENTE 1 (primaria, 20-may-2026): guion preparado de la llamada del 3T FY2026 de Intuit. Extrae tres hechos que no están en el comunicado: el CEO admite literalmente \"We lost on price\" en los declarantes DIY de menos de 50.000 USD; dimensiona el segmento en riesgo — DIY = 5.000 M USD de TAM = 12% del TAM total de TurboTax, frente a 37.000 M (88%) del asistido; y sitúa el contexto macro — los declarantes totales del IRS caerían ~30 pb esta temporada, ~2 millones de unidades por debajo de la expectativa, \"la contracción sectorial más significativa desde la temporada post-COVID\". También: mid-market (QBO Advanced + Intuit Enterprise Suite) +38% en el trimestre, volumen total de pagos online +30%, y el lanzamiento defensivo de QuickBooks Free y QuickBooks Lite. FUENTE 2 (regulatoria, nov-2025 + 15-abr-2026): el IRS comunicó a los estados en nov-2025 que Direct File no estaría disponible en la temporada 2026 y el programa quedó descontinuado (coste citado ~138 USD por declaración, uso <0,5% de 146 M de declaraciones). Consecuencia analítica: el competidor gratuito público desapareció y TurboTax AUN ASÍ perdió la gama baja — la erosión es privada, no estatal, y por tanto no es reversible por vía política. Coste reputacional asociado: cobertura de Fortune del 15-abr-2026 atribuyendo el cierre al lobby de Intuit y H&R Block. FUENTE 3 (competitiva, agregada 2026): el mapa de rivales IA-nativos es real y está financiado — Perplexity lanzó \"Computer for Taxes\" para la temporada fiscal 2026 (lee documentos, hace preguntas de seguimiento y redacta la declaración federal); Basis alcanzó valoración de 1.150 M USD en feb-2026 y está desplegada en el 30% de las 25 mayores firmas contables de EE.UU.; Byron levantó 6,5 M USD (Square Peg) para agentes de preparación fiscal de empresas; Cash App Taxes ofrece federal gratis. Contrapeso dentro de la misma fuente: Column Tax concluye que la automatización fiscal total NO es alcanzable a finales de 2026 y que requiere dominio fiscal y datos propietarios que los LLM de propósito general no tienen. Lectura del scuttlebutt: la amenaza IA es verificable y está entrando por dos puertas distintas — la gama baja del consumidor (donde ya ganó) y las firmas contables profesionales (ProTax, 613 M USD, plano). No hay evidencia todavía de desplazamiento de QuickBooks en la PYME, que es donde está el 55% de los ingresos y el 77% de margen.",
+    "paso5_motor_g": "El motor está calculado de los filings, no supuesto, y con I+D capitalizada a 3 años porque en software la reinversión no pasa por el capex (84 M USD en FY2025) sino por el gasto de I+D (2.928 M USD en FY2025). Ventana de 3 años FY2022→FY2025, elegida deliberadamente para empezar DESPUÉS de la compra de Mailchimp y medir así reinversión orgánica. Cálculo: capital invertido ajustado 23.906 M (31-jul-2022) → 26.647 M (31-jul-2025), incremento 2.741 M; NOPAT ajustado acumulado FY23+FY24+FY25 = 10.699 M; NOPAT ajustado 2.787 M (FY22) → 4.243 M (FY25), incremento 1.456 M. De ahí: tasa de reinversión = 2.741/10.699 = 26%; ROIC incremental = 1.456/2.741 = 53%; g implícita = 26% × 53% = 13,6%. Prueba de coherencia: los ingresos crecieron de 12.726 M (FY2022) a 18.831 M (FY2025), un CAGR del 14,0% — la identidad reproduce la realidad con un error de 0,4 puntos, lo que valida que el motor está bien medido y no es un artefacto. Composición del motor hoy, desagregada: el 55% del ingreso (Global Business Solutions) crece al 17% con clientes de pago +5% y precio por cliente +14%; el 45% (Consumer) crece al 10% con unidades de TurboTax Online totales −2% y ARPU +11%, sostenido por TurboTax Live (+36%, ya 53% del ingreso de TurboTax) y Credit Karma (+22%). Es decir: el motor es real, es de alta calidad (53% de ROIC incremental no se falsifica) y está funcionando — pero está compuesto en ~3/4 partes de PRECIO y ~1/4 de UNIDADES en los dos segmentos a la vez. Un motor de precio con ROIC incremental del 53% es extraordinariamente rentable mientras dura; la pregunta no es su rentabilidad sino su duración.",
+    "paso5_reinversion_pct": 26,
+    "paso5_roic_incremental_pct": 53,
+    "paso5_g_implicita_pct": 13.5,
+    "paso5_cuello_botella": "El cuello de botella NO es el capital (reinvierten sólo el 26% del NOPAT y devuelven el resto: 2.772 M de recompras y 1.189 M de dividendos en FY2025) ni el talento en abstracto. Es la PENETRACIÓN DE UNIDADES, y está probado empíricamente en FY2026 por primera vez: la disposición a pagar más de la base instalada tiene techo y ese techo se tocó por abajo. Los tres marcadores: unidades totales de TurboTax Online −2%, cuota de e-files −1 punto, clientes que no pagan nada 8 M → 7 M; clientes de pago del ecosistema online +5% en FY2025 mientras el ingreso por cliente subía 14%; ProTax plano en el trimestre (278 M, 0%). Años de pista que quedan, honestamente: la pista de PRECIO en la gama alta es corta —dos o tres subidas más antes de repetir el episodio de 2026 un escalón más arriba— y la propia empresa ya la está agotando anunciando \"acciones de precio en la gama alta\" más un modelo de consumo para servicios de IA. La pista de UNIDADES que sigue viva es concreta y medible: mid-market (QBO Advanced + Intuit Enterprise Suite, +38% en el trimestre, con el equipo de venta directa creciendo ~30% y TAM declarado de ~90.000 M USD), el portafolio de dinero (volumen de pagos online +30%, QuickBooks Capital, BNPL, tarjeta de crédito) y la gama de entrada recién lanzada (QuickBooks Free/Lite). Mi estimación: 3 a 5 años de pista de crecimiento de doble dígito apoyada en mid-market y dinero, tras los cuales el crecimiento converge al de la base instalada más inflación de precio, del orden del 5-7%. El dato que resolvería esto sin ambigüedad —el crecimiento de clientes de pago del ecosistema online de FY2026— se publica en el 10-K de FY2026, hacia el 03-sep-2026.",
+    "paso6_gestion_incentivos": "Leído como TEXTO del DEF 14A presentado el 26-nov-2025, no como proxy agregado. (1) A QUÉ SE LE PAGA EL BONO: la fórmula base del bono anual de los ejecutivos es 50% INGRESOS + 50% RESULTADO OPERATIVO NO-GAAP, con objetivos FY2025 de 18.450 M y 7.360 M respectivamente (máximo 19.950 M / 8.060 M), más un modificador discrecional de hasta ±30% por los \"True North Goals\". El resultado operativo no-GAAP EXCLUYE los ~2.000 M anuales de SBC y ~660 M de amortización de intangibles adquiridos: se paga por un beneficio del que se ha borrado el mayor coste real del negocio. No hay ROIC, ni flujo de caja libre, ni ninguna métrica POR ACCIÓN en el bono. El 50% de peso en ingresos brutos es exactamente el incentivo que produce compras como Mailchimp y subidas de precio agresivas. Contrapeso genuino: en FY2025 la fórmula generó un 117,8% y el comité lo bajó al 100%, alineándolo con el pool general de empleados — hubo disciplina discrecional real. Los PSU sí miran al accionista: TSR relativo frente a un grupo de pares, 100% de pago en el percentil 60, tope del 100% si el TSR absoluto es negativo. (2) CUÁNTO CAPITAL PROPIO TIENEN: aquí está el hallazgo incómodo. Sasan Goodarzi (CEO) figura con 284.112 acciones en propiedad beneficiosa al 31-oct-2025, de las cuales 231.567 son opciones y RSU consolidadas no liberadas — es decir, acciones REALMENTE POSEÍDAS: ~52.545, en un trust, unos 15,6 M USD al precio de hoy y ~0,02% de la compañía. El único propietario relevante entre los insiders es el fundador Scott Cook con 6.162.547 acciones (2,21%); el conjunto de consejeros y directivos suma 2,49%, casi todo Cook. Existen guías de propiedad (CEO 10× salario base), pero se cumplen con equity no consolidado. (3) GOBIERNO: el 20-nov-2025 Intuit anunció que la presidenta INDEPENDIENTE del consejo no se presentaba a reelección y que el propio CEO pasaba a presidir el consejo, con un consejero independiente principal como contrapeso. Combinar presidencia y CEO justo antes del peor ejercicio bursátil de la historia de la compañía es un dato de gobierno claramente negativo. (4) ASIGNACIÓN DE CAPITAL, juzgada por resultados: Mailchimp, ~12.000 M USD en nov-2021, hoy RESTA crecimiento (excluyéndolo, GBS creció 17% frente al 15% reportado y el ecosistema online 22% frente al 19%); y 6.727 M USD de recompras en FY2023-FY2025 dejaron las acciones diluidas medias en 283 M frente a 284 M — recompra que financió la dilución, no al accionista. A favor, y es material: el 07-may-2026 el consejo autorizó 8.000 M USD adicionales de recompra (sobre 1.900 M restantes) con la acción a menos de la mitad, y subió el dividendo un 15% hasta 1,20 USD trimestrales. Si ejecutan esos ~9.900 M a precios cercanos a 296 USD, retiran ~12% de la compañía — sería la primera asignación de capital claramente creadora de valor de la década. Veredicto: gestión operativamente competente y con historial de ejecución, pero con incentivos apuntados a ingresos y beneficio no-GAAP, piel en el juego personal escasa fuera del fundador, y una consolidación de poder en el consejo en el peor momento posible.",
+    "paso7_percepcion_variante": "EL CONSENSO SELL-SIDE: 22 analistas, recomendación agregada de Compra, precio objetivo medio 463,68 USD (+56% sobre 296,33). EL CONSENSO DEL PRECIO, que es el que importa: a 296,33 USD el mercado paga por Intuit un crecimiento perpetuo de los beneficios del propietario de ~1,5-2,2% —por debajo de la inflación— para una empresa que guía +13-14% de ingresos este ejercicio. Los dos consensos son incompatibles, así que la variante no puede ser \"está barata\" (eso ya lo dicen 22 analistas) ni \"la IA lo destruye\" (eso ya lo dice el precio). MI VARIANTE: ambos bandos discuten sobre TurboTax y ninguno está anclado en la descomposición que sí se puede verificar — que el crecimiento de LOS DOS segmentos, no sólo del fiscal, es ~3/4 precio y ~1/4 unidades (QuickBooks FY2025: clientes de pago +5%, ingreso por cliente +14%; TurboTax FY2026: unidades totales −2%, ARPU +11%). Lo que ocurrió en 2026 no es una historia de IA ni una historia de crecimiento: es la primera evidencia empírica de AGOTAMIENTO DE PODER DE FIJACIÓN DE PRECIOS, y lo dijo el propio CEO sin eufemismos — \"We lost on price\" —, además con el competidor público gratuito ya eliminado del tablero (IRS Direct File descontinuado en nov-2025) y con la orden de la FTC anulada en mar-2026. Es decir: perdieron por precio, no por tecnología ni por regulación. Si el diagnóstico es precio, es corregible con precio, y ya están corrigiendo (QuickBooks Free, QuickBooks Lite, \"el punto de precio correcto en la gama baja\"); si fuera tecnología, no lo sería. La pregunta correcta no es 13-14% ni 2%: es cuánto vale un negocio que crezca unidades ~4% y precio ~4%, o sea ~8%. DATO VERIFICABLE Y FECHADO que discrimina: el 20-ago-2026 (informe del 4T FY2026, tras el cierre) Intuit publicará la comparación de UNIDADES FISCALES FEDERALES de TurboTax, que ella misma difirió explícitamente en el comunicado del 20-may-2026. Si la pérdida se concentra en el cohorte \"pay-nothing\" (8 M → 7 M, clientes que no pagaban nada) y las unidades DE PAGO sostienen el +2% guiado, el impacto económico de la \"pérdida de cuota\" es cercano a cero y el precio está equivocado. Si son las unidades de pago las que se erosionan, el precio tiene razón y mi variante muere. Segundo dato: el crecimiento de clientes de pago del ecosistema online en el 10-K de FY2026 (~03-sep-2026); si vuelve a ser ~5% con ARPC de doble dígito, mi descomposición queda confirmada como el marco operativo correcto.",
+    "paso7_hay_variante": true,
+    "paso8_premortem": [
+     {
+      "mecanismo": "La erosión del DIY sube de banda de renta. Lo que en 2026 se perdió entre declarantes de menos de 50.000 USD migra a la banda media, donde el competidor barato ya tiene marca y producto probado; en ese caso las unidades DE PAGO (no sólo las totales) se vuelven negativas y el ARPU +11% deja de compensar. Este es el mecanismo que mata la tesis, porque destruye la premisa de que lo roto era sólo el 12% del TAM que no pagaba.",
+      "metrica": "Unidades de pago de TurboTax Online (crecimiento interanual) y cuota de e-files de TurboTax. Umbral de falsación: unidades de pago <0% o pérdida de cuota de e-files >1 punto por segundo año consecutivo. Métrica puente inmediata: la comparación de unidades fiscales FEDERALES que Intuit prometió publicar.",
+      "ventana": "20-ago-2026 (informe 4T FY2026) para la comparación federal diferida; confirmación completa en el informe del 3T FY2027, ~mayo 2027."
+     },
+     {
+      "mecanismo": "El motor de precio se agota también en QuickBooks. El ecosistema online crece 20% con clientes +5% y precio por cliente +14%. Si las subidas anunciadas para 'la gama alta del portafolio' más el modelo de consumo de IA empiezan a generar churn —con QuickBooks Free/Lite canibalizando además la gama de entrada de pago y herramientas contables IA-nativas atacando por abajo— el 55% de los ingresos que hoy sostiene la tesis pierde su motor. Sería la repetición del episodio de TurboTax un año después, en el segmento que no puede fallar.",
+      "metrica": "Clientes de pago del ecosistema online (crecimiento interanual) e ingreso medio por cliente. Umbral: clientes de pago <3% interanual, o ARPC cayendo por debajo del 10% sin aceleración compensatoria de clientes.",
+      "ventana": "10-K FY2026, ~03-sep-2026 (primera lectura); 10-K FY2027, ~sep-2027 (confirmación de tendencia)."
+     },
+     {
+      "mecanismo": "El cambio de mezcla hacia TurboTax Live degrada estructuralmente el margen y el foso. TurboTax Live es ya el 53% del ingreso de TurboTax y crece 36%; pero es un servicio con expertos humanos (coste de servicio, no software), que compite contra H&R Block y contra los propios contadores, no contra software. Intuit está sustituyendo ingreso de software al ~99% de margen bruto por ingreso de servicio intensivo en personal, y llamándolo disrupción. El margen del segmento Consumer ya bajó de 82% a 81% en el trimestre y de 76% a 75% en los nueve meses.",
+      "metrica": "Margen operativo del segmento Consumer y margen operativo no-GAAP consolidado. Umbral: margen de segmento Consumer <73% en los 9M de FY2027, o el margen no-GAAP consolidado sin expandir pese al recorte del 17% de plantilla.",
+      "ventana": "Trimestres 2T y 3T FY2027 (feb-2027 y may-2027), que es cuando el recorte de plantilla ya debería estar íntegramente en la base de costes."
+     },
+     {
+      "mecanismo": "Crisis de retención por equity bajo el agua combinada con el recorte del 17%. Hay 7,135 millones de RSU no consolidadas con precio medio de concesión de 592,66 USD y la acción a 296,33 — un ~50% bajo el agua — y 3.600 M USD de coste de compensación aún no reconocido a 2,5 años. Para retener a los ingenieros críticos justo cuando se despide al 17% de la plantilla habrá que reconceder a 296 USD, lo que duplica las acciones emitidas por dólar de retención. Con la recompra histórica ya consumida sólo en neutralizar la dilución (6.727 M en FY23-25 para reducir 1 M de acciones), esto convierte los 8.000 M de nueva autorización en gasto de mantenimiento en vez de creación de valor.",
+      "metrica": "Gasto de SBC anual y acciones diluidas medias. Umbral: SBC >2.400 M en FY2027, o acciones diluidas medias que SUBAN interanualmente pese a ≥4.000 M USD de recompra ejecutada.",
+      "ventana": "10-Q del 2T FY2027 (~feb-2027) para la primera señal de SBC; 10-K FY2027 (~sep-2027) para el recuento de acciones."
+     },
+     {
+      "mecanismo": "Deterioro contable de Mailchimp que revela que el problema de asignación de capital es estructural. Mailchimp costó ~12.000 M USD en nov-2021 y hoy es un lastre demostrado (excluyéndolo, GBS creció 17% frente al 15% reportado). Hay 13.982 M USD de goodwill y 4.807 M de intangibles finitos frente a 20.629 M de patrimonio neto. Un deterioro no destruye caja, pero destruiría la credibilidad de una dirección que pide confianza para reposicionar precios y que a la vez habría quemado el 15% de la capitalización actual en una compra.",
+      "metrica": "Cargo por deterioro de goodwill o intangibles en el estado de resultados; ingresos de Mailchimp divulgados o inferibles del diferencial 'GBS ex-Mailchimp' del comunicado trimestral. Umbral: cualquier deterioro material, o un diferencial ex-Mailchimp que se amplíe por encima de 3 puntos.",
+      "ventana": "10-K FY2026 (~03-sep-2026), que es cuando se hace la prueba anual de deterioro de unidades reportadoras."
+     }
+    ],
+    "paso9_wacc_pct": 8.7,
+    "paso9_wacc_construccion": "Construido componente a componente desde el MERCADO, sin heredar nada de ninguna calificación cualitativa (Candado B). TASA LIBRE DE RIESGO: 4,69%, rendimiento del bono del Tesoro de EE.UU. a 10 años al cierre del 24-jul-2026 (mismo día que el precio de la acción usado). BETA: 1,00, beta a 5 años publicada por stockanalysis.com, consultada el 26-jul-2026. Advertencia de honestidad: esa beta está medida sobre una ventana que incluye el desplome del −62%, y la beta histórica de INTU en ciclos anteriores rondaba 1,2; presento la sensibilidad más abajo en vez de elegir el número que me conviene. PRIMA DE RIESGO DE MERCADO: 4,42%, prima implícita de EE.UU. de Damodaran con el S&P 500 en 7.499,36 al 01-jul-2026 (la prima de mercado maduro tras descontar el diferencial de impago Aa1 de 0,22% es 4,20%). COSTE DE LA DEUDA: 5,50% antes de impuestos — no estimado, sino el cupón REAL que Intuit pagó al mercado el 11-jun-2026 al colocar 1.000 M USD de notas senior a 10 años con vencimiento 2036 (la tramo a 5 años salió al 4,950%); es un dato primario de 8-K, posterior al desplome, y por tanto ya incorpora la percepción de riesgo actual. TASA FISCAL: 20,0%, tasa efectiva de FY2025 (965 M de impuesto sobre 4.834 M de resultado antes de impuestos). Coste de deuda después de impuestos = 4,40%. ESTRUCTURA DE CAPITAL a valores de mercado: equity 81,06 mil M USD; deuda bruta ≈ 6,7-7,9 mil M USD (6.162 M al 30-abr-2026 + 1.750 M emitidos el 11-jun-2026 − 1.250 M de refinanciación anunciada). Peso de la deuda 7,6-8,9%. CÁLCULO: Ke = 4,69% + 1,00 × 4,42% = 9,1%. WACC = 0,92 × 9,1% + 0,08 × 4,40% = 8,7%. SENSIBILIDAD documentada: con beta 1,2 el WACC sube a ~9,5%; con beta 0,9 baja a ~8,3%. Uso 8,7% como central y reporto abajo el crecimiento implícito bajo los tres. Nota explícita contra el error madre: el sistema viejo habría asignado a INTU un WACC del 8,5% por ser \"Alta convicción\"; la coincidencia numérica es casual — este 8,7% sale de un bono del Tesoro fechado, una beta con fuente, una prima con fecha y un cupón que la propia empresa pagó hace seis semanas.",
+    "paso9_owner_earnings": "Beneficios del propietario = FCF − SBC, calculados de los filings. TTM cerrado el 30-abr-2026 (= FY2025 − 9M FY2025 + 9M FY2026): flujo de caja operativo 7.888 M USD (6.207 − 5.826 + 7.507); capex 133 M (84 − 99 + 148); FCF 7.755 M; SBC 2.039 M (1.968 − 1.478 + 1.549). BENEFICIOS DEL PROPIETARIO TTM = 5.716 M USD, es decir ~20,9 USD por acción sobre 273,5 M de acciones y un rendimiento del 7,1% sobre la capitalización de 81,06 mil M. VERSIÓN NORMALIZADA, más conservadora y que es la que uso como base del DCF inverso: el TTM está inflado por el capital circulante estacional del pico fiscal (el flujo operativo creció 29% en 9M mientras el beneficio neto crecía 20%). Reconstruyendo desde la guía de FY2026 de la propia empresa: beneficio neto GAAP ~4.350 M (BPA 15,79-15,84 sobre ~275 M de acciones diluidas) + SBC ~2.100 M + amortización de intangibles adquiridos ~660 M + depreciación ~190 M − capex ~190 M ≈ 7.100 M de FCF; menos SBC 2.100 M = ~5.000 M, más el efecto no recurrente de los 300 M de reestructuración después de impuestos ≈ 5.200 M USD normalizados. RANGO DE TRABAJO: 5.200-5.700 M USD, o 19,0-20,9 USD por acción. Comprobación de que el SBC es un coste real y no un ajuste contable: 6.727 M USD de recompras en FY2023-FY2025 sólo redujeron las acciones diluidas medias de 284 M a 283 M — la emisión por compensación se comió prácticamente toda la recompra. Restar el SBC íntegro no es conservador, es exacto.",
+    "paso9_dcf_inverso_g_implicita_pct": 1.7,
+    "paso9_veredicto_expectativas": "BAJAS",
+    "paso9_test_trampa_valor": "Test estándar de trampa de valor — ¿siguen intactos ingresos orgánicos, margen y ROIC pese al de-rating? Los tres, SÍ, y en dos de los tres van a mejor. INGRESOS ORGÁNICOS: +14% en los nueve meses de FY2026 (GBS +17%, Consumer +10%); excluyendo Mailchimp, GBS +17% y ecosistema online +22% en el trimestre — el crecimiento no depende de adquisiciones, la única adquisición grande es un lastre. MARGEN: margen operativo no-GAAP guiado para FY2026 de 41,2% (8.794 sobre 21.357) frente al 40,1% de FY2025 (7.559 sobre 18.831); margen operativo GAAP TTM 27,5% frente a 26,1% en FY2025, y eso ANTES de que entre el ahorro del recorte del 17% de plantilla. El margen se está EXPANDIENDO mientras la acción cae 62%. ROIC: ~13% (FY2023) → ~15% (FY2024) → ~19% (FY2025), y ~16% con I+D capitalizada, todos muy por encima del WACC del 8,7% y en ascenso. Balance: deuda neta ≈ 0, covenant de 4,0x con ratio real de 0,8x, y el mercado de crédito prestándole a 10 años al 5,50% seis semanas después del desplome. Conclusión del test contable: NO ES UNA TRAMPA DE VALOR según los tres criterios. PERO —y esto es lo que impide firmar una compra hoy— el test contable mira indicadores retrasados, y el indicador ADELANTADO sí está roto en una parte del negocio: unidades totales de TurboTax Online −2%, cuota de e-files −1 punto, clientes sin pago 8 M → 7 M, ProTax plano. Ingresos y márgenes al alza mientras la cuota unitaria se erosiona silenciosamente es EXACTAMENTE el patrón de Nokia en 2007 y de Intel en 2014: los dos pasaban el test contable el año antes de romperse. La diferencia decisiva con esos gemelos fallidos es que en Nokia e Intel la erosión unitaria estaba en el producto principal, mientras que aquí está en un ~11% de los ingresos (TurboTax DIY no asistido, ~2.400 M USD inferidos) y el 55% de mayor foso crece al 17% con clientes de pago aún en positivo. Veredicto: pasa el test de trampa de valor por contabilidad, queda EN OBSERVACIÓN por indicador adelantado, y el dato que cierra la observación tiene fecha — 20-ago-2026.",
+    "hechos_para_abogado_diablo": [
+     "Precio de cierre INTU: 296,33 USD el 24-jul-2026. Capitalización 81,06 mil M USD. Acciones en circulación 273.537.000 al 14-may-2026 (portada del 10-Q FY2026 Q3). Rango 52 semanas 252,84-813,70 USD; −61,8% en 12 meses. Fuente: stockanalysis.com consultado el 26-jul-2026 y 10-Q FY2026 Q3.",
+     "Ingresos: FY2023 14.368 M USD; FY2024 16.285 M; FY2025 18.831 M (+16%); 9M FY2026 (ago-2025 a abr-2026) 17.094 M (+14% vs 15.000 M); TTM a 30-abr-2026 20.925 M. Fuente: XBRL SEC CIK 0000896878, 10-K FY2023/24/25 y 10-Q FY2026 Q3.",
+     "Resultado operativo GAAP: FY2024 3.630 M; FY2025 4.923 M; 9M FY2026 5.409 M; TTM a 30-abr-2026 5.748 M. Beneficio neto FY2025 3.869 M; 9M FY2026 4.203 M. Fuente: XBRL SEC, mismos filings.",
+     "Segmentos 9M FY2026: Global Business Solutions 9.440 M USD (+17%) con resultado operativo de segmento 7.257 M (77% de margen); Consumer 7.654 M (+10%) con 5.745 M (75%). Costes corporativos no asignados de los nueve meses: 7.600 M. Fuente: 10-Q FY2026 Q3, Nota 12 e Item 2.",
+     "Desglose Consumer 9M FY2026: TurboTax 5.143 M USD (+7%); Credit Karma 1.898 M (+22%); ProTax 613 M (+4%). En el 3T aislado: TurboTax 4.364 M (+7%), Credit Karma 631 M (+15%), ProTax 278 M (0%). Fuente: 10-Q FY2026 Q3, Item 2.",
+     "Desglose GBS 3T FY2026: QuickBooks Online Accounting 1.278 M (+22%); Online Services 1.219 M (+15%); Ecosistema Desktop 788 M (+6%). 9M: QBO Accounting 3.732 M (+24%); Ecosistema Online total 7.315 M (+20%). Fuente: 10-Q FY2026 Q3, Item 2.",
+     "Guía FY2026 publicada el 20-may-2026: ingresos 21.341-21.374 M USD (+13-14%); resultado operativo GAAP 5.705-5.725 M; no-GAAP 8.784-8.804 M; BPA diluido GAAP 15,79-15,84 USD; BPA no-GAAP 23,80-23,85 USD. Segmentos: GBS ~+16%; Consumer ~+10% (TurboTax ~+7%, Credit Karma ~+19%, ProTax ~+4%). Fuente: 8-K del 20-may-2026, Exhibit 99.01.",
+     "Métricas de unidades de TurboTax guiadas para FY2026: unidades TOTALES de TurboTax Online −2%; unidades DE PAGO +2%; ARPU +11%; cuota de e-files de TurboTax −1 punto; clientes 'pay-nothing' ~7 millones frente a 8 millones el año anterior; TurboTax Live +36% hasta 2.800 M USD = ~53% del ingreso total de TurboTax (subida de 11 puntos interanual); clientes de TurboTax Live +38%. Fuente: 8-K del 20-may-2026, Exhibit 99.01, y guion preparado de la llamada del 20-may-2026.",
+     "Intuit declaró que publicará la comparación de UNIDADES FISCALES FEDERALES de TurboTax en el informe del 4T FY2026. Fecha del informe confirmada: 20-ago-2026, tras el cierre de mercado. Fuente: 8-K del 20-may-2026 Exhibit 99.01; calendario de relaciones con inversores.",
+     "Cita literal del CEO Sasan Goodarzi, guion preparado del 3T FY2026 del 20-may-2026: 'We lost on price', referido a los declarantes DIY con ingresos inferiores a 50.000 USD anuales. En el mismo documento dimensiona el segmento DIY en 5.000 M USD de TAM = 12% del TAM total de TurboTax, frente a 37.000 M = 88% del asistido, y afirma que los declarantes totales del IRS caerían ~30 puntos básicos en la temporada 2026, ~2 millones de unidades por debajo de la expectativa macro, 'la contracción sectorial más significativa desde la temporada post-COVID'.",
+     "10-K FY2025: los clientes de pago del ecosistema online crecieron 5% interanual al 31-jul-2025 y el ingreso medio por cliente creció 14%. Fuente: 10-K FY2025 (presentado 03-sep-2025), Item 7 MD&A, sección Global Business Solutions. Este dato NO se actualiza en los 10-Q.",
+     "Excluyendo Mailchimp, los ingresos de GBS crecieron 17% (frente al 15% reportado) y los del ecosistema online 22% (frente al 19% reportado) en el 3T FY2026. Mailchimp fue adquirida por ~12.000 M USD en nov-2021. Fuente: 8-K del 20-may-2026, Exhibit 99.01.",
+     "Plan de reestructuración 2026 aprobado en mayo de 2026: reducción de ~17% de la plantilla a tiempo completo (~3.000 puestos según cobertura de prensa); cargo estimado de 300 a 340 M USD, principalmente en el 4T cerrado el 31-jul-2026; acciones sustancialmente completas en el 1T FY2027. Cargo por reestructuración registrado en 9M FY2026: 0 USD. Fuente: 10-Q FY2026 Q3, nota de reestructuración e Item 2.",
+     "SBC: FY2023 1.712 M USD; FY2024 1.940 M; FY2025 1.968 M; TTM a 30-abr-2026 2.039 M. FCF (flujo operativo − capex): FY2023 4.836 M; FY2024 4.693 M; FY2025 6.123 M; TTM 7.755 M. Ratio SBC/FCF: 35%, 41%, 32%, 26%. Fuente: XBRL SEC, 10-K FY2023/24/25 y 10-Q FY2026 Q3.",
+     "Acciones diluidas medias: FY2022 284 M; FY2023 283 M; FY2024 284 M; FY2025 283 M. Recompras: FY2023 1.967 M USD; FY2024 1.988 M; FY2025 2.772 M; 9M FY2026 3.341 M (6,6 millones de acciones). Fuente: XBRL SEC y 10-Q FY2026 Q3, Item 2.",
+     "RSU no consolidadas al 30-abr-2026: 7.135 miles de acciones con precio medio de concesión de 592,66 USD por acción; coste de compensación no reconocido ~3.600 M USD con periodo medio de consolidación de 2,5 años. Opciones vivas: 1.232 miles a precio medio de ejercicio de 570,08 USD. Precio de la acción al 24-jul-2026: 296,33 USD. Fuente: 10-Q FY2026 Q3, nota de compensación basada en acciones.",
+     "Balance al 30-abr-2026: activos totales 39.330 M USD; patrimonio neto 20.629 M; deuda total 6.162 M; caja + inversiones 6.800 M; goodwill 13.982 M; intangibles finitos netos 4.807 M. Covenant financiero del 2026 Credit Facility: deuda bruta/EBITDA ≤ 4,00x, cumplido; sin importes dispuestos. Fuente: 10-Q FY2026 Q3.",
+     "El 11-jun-2026 Intuit emitió 750 M USD de notas senior al 4,950% con vencimiento 2031 y 1.000 M USD al 5,500% con vencimiento 2036 (total 1.750 M, ingresos netos ~1.740 M), con BofA Securities, J.P. Morgan Securities y Scotia Capital como representantes de los aseguradores; destino declarado: usos corporativos generales, que pueden incluir la refinanciación de 750 M al 5,250% con vencimiento 2026 y 500 M al 1,350% con vencimiento 2027. Fuente: 8-K presentado el 11-jun-2026, Item 8.01.",
+     "Retribución al accionista: el 07-may-2026 el consejo autorizó 8.000 M USD adicionales de recompra, sobre 1.900 M restantes al 30-abr-2026. Dividendo trimestral declarado en mayo de 2026: 1,20 USD por acción, pagadero el 17-jul-2026, un 15% superior interanual. Fuente: 10-Q FY2026 Q3, Item 2.",
+     "Fórmula de bono anual de directivos FY2025: 50% ingresos + 50% resultado operativo NO-GAAP. Objetivos FY2025: ingresos 18.450 M USD y resultado operativo no-GAAP 7.360 M; máximos 19.950 M y 8.060 M; umbrales 16.610 M y 6.630 M. Modificador discrecional de hasta ±30% por 'True North Goals'. La fórmula generó un 117,8% del objetivo y el comité lo redujo al 100%. Los PSU se pagan por TSR relativo (100% en el percentil 60 de los pares, 0% por debajo del percentil 25, 200% en el percentil 100, con tope del 100% si el TSR absoluto es negativo). Fuente: DEF 14A presentado el 26-nov-2025.",
+     "Propiedad de insiders al 31-oct-2025 (sobre 278.508.855 acciones): Sasan Goodarzi (CEO) 284.112 acciones en propiedad beneficiosa, de las cuales 231.567 son opciones ejercitables y RSU consolidadas no liberadas; Scott Cook (fundador) 6.162.547 acciones = 2,21%; todos los consejeros y directivos como grupo (21 personas) 6.943.198 = 2,49%. Vanguard 10,28%; BlackRock 8,39%. Guías de propiedad: CEO 10x salario base. Fuente: DEF 14A del 26-nov-2025, tabla de propiedad de valores.",
+     "El 20-nov-2025 Intuit anunció que la presidenta independiente del consejo, Suzanne Nora Johnson, no se presentaría a reelección y que el consejo nombró al CEO Sasan Goodarzi presidente del consejo, y a Vasant Prabhu consejero independiente principal, con efecto desde la junta. Fuente: DEF 14A del 26-nov-2025.",
+     "El 20-mar-2026 el Tribunal de Apelaciones del Quinto Circuito ANULÓ la orden final de la FTC contra Intuit (emitida el 19-ene-2024, efectiva el 23-mar-2024, sin sanciones monetarias) y devolvió el caso a la FTC. El acuerdo de 2022 con los 50 fiscales generales estatales y el Distrito de Columbia fue de 141 M USD, pagado íntegramente en el trimestre cerrado el 31-ene-2023. Intuit declara no poder estimar una pérdida razonablemente posible ni un rango para los procedimientos restantes. Fuente: 10-Q FY2026 Q3, Nota 11 'Legal Proceedings'.",
+     "El IRS comunicó a los estados en nov-2025 que su programa Direct File (e-file federal gratuito gubernamental, piloto en 2024, ampliado a 25 estados en 2025) no estaría disponible en la temporada 2026 y quedó descontinuado; el Tesoro citó un coste de ~138 USD por declaración y una participación inferior al 0,5% de los 146 millones de declaraciones de 2025. Fuente: comunicación del IRS a los estados de nov-2025 (cobertura de Federal News Network y Nextgov/FCW, nov-2025).",
+     "Ningún cliente representó el 10% o más de los ingresos netos totales en los tres ni en los nueve meses cerrados el 30-abr-2026 ni el 30-abr-2025, ni el 10% o más de las cuentas a cobrar brutas. Misma afirmación para FY2025, FY2024 y FY2023. Fuente: 10-Q FY2026 Q3 Nota 1; 10-K FY2025.",
+     "Los controles de divulgación fueron evaluados como efectivos al 30-abr-2026 por el CEO y el CFO, sin cambios en el control interno sobre información financiera durante el trimestre y sin restatement. Fuente: 10-Q FY2026 Q3, Item 4.",
+     "La acción cayó de 383,93 USD (cierre del 20-may-2026) a 307,07 USD (cierre del 21-may-2026), un −20,0%, tras la publicación de los resultados del 3T FY2026. Varios bufetes de demandantes abrieron investigaciones por presunto fraude de valores en jun-jul 2026 relativas a las declaraciones sobre la estrategia de precios de TurboTax. No hay acción divulgada de la SEC. Fuente: comunicados de PRNewswire y AccessNewswire de jun-2026 citando los cierres; ausencia de divulgación en el 10-Q FY2026 Q3 (presentado el 20-may-2026, anterior a los hechos).",
+     "Efectivo por I+D y marketing FY2025: I+D 2.928 M USD; ventas y marketing 5.035 M; generales y administrativos 1.601 M; depreciación 172 M; amortización de intangibles 481 M; capex 84 M; adquisiciones netas de efectivo 184 M. Fuente: XBRL SEC, 10-K FY2025.",
+     "Entradas de mercado para el coste de capital, con fecha: bono del Tesoro de EE.UU. a 10 años 4,69% al 24-jul-2026; beta a 5 años de INTU 1,00 (stockanalysis.com, consultado el 26-jul-2026); prima de riesgo implícita de EE.UU. de Damodaran 4,42% con el S&P 500 en 7.499,36 al 01-jul-2026; tasa fiscal efectiva de INTU en FY2025 20,0% (965 M sobre 4.834 M). Consenso sell-side: 22 analistas, recomendación agregada de Compra, precio objetivo medio 463,68 USD.",
+     "Contexto competitivo con fecha: Perplexity lanzó 'Computer for Taxes' (agente de IA que redacta declaraciones federales) para la temporada fiscal 2026; Basis alcanzó una valoración de 1.150 M USD en feb-2026 y está desplegada en el 30% de las 25 mayores firmas contables de EE.UU.; Byron cerró una ronda semilla de 6,5 M USD liderada por Square Peg para agentes de preparación fiscal empresarial; Cash App Taxes ofrece declaración federal gratuita. Column Tax concluyó públicamente que la automatización fiscal total no es alcanzable a finales de 2026 sin dominio fiscal y datos propietarios que los LLM de propósito general no poseen."
+    ],
+    "veredicto_preliminar": "NO COMPRAR TODAVIA",
+    "razon_veredicto": "Veredicto primero: NO COMPRAR TODAVÍA — y el 'todavía' NO es por precio. El precio es lo bueno de este caso. A 296,33 USD el mercado paga un crecimiento perpetuo de los beneficios del propietario de ~1,7% (rango 0,5-2,2% según se use el WACC de 8,7% o la sensibilidad de beta, y beneficios del propietario de 5.200 o 5.700 M USD) para un negocio cuyo motor de reinversión medido de los filings —26% de reinversión × 53% de ROIC incremental— soporta 13,6% y cuya propia guía es +13-14%. Las expectativas incorporadas son BAJAS sin ambigüedad: incluso con un crecimiento de sólo el 4% anual durante diez años y 2,5% terminal, el valor sale en ~388 USD por acción (+31%); al 8% —mi escenario central de 'unidades ~4% + precio ~4%'— sale ~478-526 USD (+61% a +77%). No falla ningún knock-out: sin VIE, SBC en el 26-41% del FCF sin acercarse al 50%, ROIC del 13-19% muy por encima del WACC de mercado del 8,7% en los tres ejercicios, sin restatement y con controles efectivos, sin cliente que llegue al 10%, y con deuda neta cero más un mercado de crédito que le prestó a 10 años al 5,50% seis semanas después del desplome. El test de trampa de valor lo pasa por los tres criterios contables: los ingresos orgánicos crecen 14%, el margen se está EXPANDIENDO y el ROIC sube. Entonces, ¿por qué no comprar hoy? Por tres razones que sí son de calidad, no de precio, y una de ellas tiene fecha. PRIMERA Y DECISIVA: el único indicador adelantado que está roto —las unidades de TurboTax— se resuelve el 20-AGO-2026, dentro de 25 días, cuando Intuit publique la comparación de unidades fiscales FEDERALES que ella misma difirió explícitamente el 20-may-2026. Que la dirección haya elegido aplazar precisamente el número que discrimina entre 'perdimos clientes que no pagaban' (irrelevante) y 'perdimos clientes de pago' (letal) es en sí mismo información. Comprar 25 días antes de un dato conocido, fechado y deliberadamente retenido no es paciencia mal entendida ni perfeccionismo epistémico: es renunciar gratis a la única prueba barata que existe, cuando el coste de esperar está acotado (~10-20% del recorrido) y la ganancia informativa es binaria. SEGUNDA: el test de Sleep lo suspende. Tres cuartas partes del crecimiento de AMBOS segmentos vienen de precio y no de unidades (QuickBooks FY2025: clientes de pago +5%, ingreso por cliente +14%; TurboTax FY2026: unidades −2%, ARPU +11%), y en 2026 quedó demostrado empíricamente que ese motor tiene techo — con el CEO diciéndolo textualmente, 'We lost on price', y encima con el competidor público gratuito ya eliminado y la orden de la FTC anulada. Perdieron por precio, no por regulación ni (todavía) por tecnología. Eso es reparable, y lo están reparando, pero convierte la tesis en una apuesta a la ejecución de un reposicionamiento de precios, no en la compra de un compounder tranquilo. TERCERA: la gestión no cobra por lo que a mí me importa. El bono es 50% ingresos y 50% resultado operativo NO-GAAP —métrica que borra los 2.000 M anuales de SBC—, sin ROIC, sin flujo de caja libre y sin nada por acción; el CEO posee en propiedad real ~52.545 acciones (~15 M USD, 0,02% de la compañía) y se acaba de nombrar presidente del consejo tras la salida de la presidenta independiente, en noviembre de 2025; y 6.727 M USD de recompras en tres años redujeron el recuento de acciones en un millón. LO QUE HAY QUE HACER EN CONCRETO: no añadir tramo hoy; ejecutar el veto de abogado-diablo en sesión limpia (Paso 10) sobre los hechos desnudos; y dejar precomprometido el gatillo del 20-ago-2026 — si las unidades de PAGO de TurboTax sostienen el +2% guiado y la pérdida se concentra en el cohorte que no pagaba (8 M → 7 M), la variante queda confirmada y esto pasa a COMPRAR con convicción incluso si la acción ya ha subido; si las unidades de pago son las que se erosionan, el precio tenía razón, la tesis muere y hay que revisar la posición existente en vez de ampliarla. Nombro el dato exacto que resuelve el hedge, con su fecha, y no lo dejo abierto."
+   }
+  }
+ ],
+ "sourcing": {
+  "si": [
+   "4684.T",
+   "AAPL",
+   "ABNB",
+   "ACN",
+   "ADBE",
+   "ADYEN.AS",
+   "ALGN",
+   "AMZN",
+   "ASML",
+   "AVGO",
+   "BKNG",
+   "BVI.PA",
+   "CDNS",
+   "CHKP",
+   "CLPBY",
+   "CME",
+   "CRM",
+   "CSU.TO",
+   "DB1.DE",
+   "DSG.TO",
+   "DSY.MI",
+   "DUOL",
+   "EFX",
+   "EL",
+   "ENX.PA",
+   "EXPE",
+   "FDS",
+   "FICO",
+   "GOOGL",
+   "HOYCY",
+   "ICE",
+   "IDXX",
+   "INTU",
+   "ISRG",
+   "KXS.TO",
+   "LMN.TO",
+   "LSEG.L",
+   "MA",
+   "MANH",
+   "MELI",
+   "MSCI",
+   "MSFT",
+   "MTD",
+   "NDAQ",
+   "NEM.DE",
+   "NFLX",
+   "NOW",
+   "NVDA",
+   "NVO",
+   "PANW",
+   "PTC",
+   "REL.L",
+   "RMS.PA",
+   "SE",
+   "SGSN.SW",
+   "SNPS",
+   "SOON.SW",
+   "SPGI",
+   "SPOT",
+   "SPSC",
+   "SRT3.DE",
+   "STMN.SW",
+   "TMO",
+   "TOI.V",
+   "TSM",
+   "TYL",
+   "V",
+   "VEEV",
+   "VRSK",
+   "WISE.L",
+   "WKL.AS",
+   "WST",
+   "ZTS"
+  ],
+  "no": [
+   {
+    "ticker": "0388.HK",
+    "decision": "NO",
+    "gate_que_falla": "(a) sector financiero + (f) regulador/accionista único",
+    "dato": "Negocio real = bolsa MÁS cámara de compensación: asume riesgo de contraparte y su balance está dominado por margin funds y clearing house funds (cientos de miles de millones de HKD); el ingreso neto de inversión sobre esos fondos ha sido ~25-30% de los ingresos, es decir sensibilidad pura a tipos, no economía de peaje limpia. Además el Gobierno de HK es accionista y, bajo la SFO, nombra 6 de 13 consejeros y designa al presidente; el pipeline de listings depende de SFC/CSRC.",
+    "fuente": "HKEX Annual Report 2024 + Securities and Futures Ordinance (Cap. 571) — conocimiento fechado, no reabierto en esta sesión"
+   },
+   {
+    "ticker": "AXP",
+    "decision": "NO",
+    "gate_que_falla": "(a) exclusión de sector — financiera/banco",
+    "dato": "American Express es bank holding company regulada por la Fed desde 2008: capta depósitos (~US$130-140 mil MM) y retiene el riesgo de crédito de su cartera de tarjetas. El negocio real es prestamista + red, no red de pagos pura tipo V/MA.",
+    "fuente": "AXP Form 10-K (SEC), Item 1 Business y balance consolidado (segmento de depósitos y provisiones por pérdidas crediticias)"
+   },
+   {
+    "ticker": "BABA",
+    "decision": "NO",
+    "gate_que_falla": "(b) estructura VIE (China)",
+    "dato": "Alibaba mantiene las licencias reguladas (ICP, contenido, pagos) en entidades de propiedad variable controladas por contratos, no por propiedad accionaria; el propio 20-F declara el riesgo de inejecutabilidad de esos contratos.",
+    "fuente": "Alibaba Form 20-F (SEC), sección 'Our Corporate Structure' / Risk Factors sobre VIEs"
+   },
+   {
+    "ticker": "BRK.B",
+    "decision": "NO",
+    "gate_que_falla": "(a) exclusión de sector — seguros + ferrocarril + utilities",
+    "dato": "El núcleo económico es asegurador (GEICO, Gen Re, BHRG y su float), más BNSF (ferrocarril cíclico) y Berkshire Hathaway Energy (utilities reguladas). Tres sectores excluidos a la vez.",
+    "fuente": "BRK Form 10-K (SEC), reporte por segmentos (Insurance, BNSF, BHE)"
+   },
+   {
+    "ticker": "ORCL",
+    "decision": "NO",
+    "gate_que_falla": "(g) deuda tóxica + (f) dependencia de un cliente único",
+    "dato": "FY2026: FCF de −$23.700M (OCF $32bn contra capex $55.700M), deuda total ~$130-156bn tras levantar $43bn de deuda + $5bn de equity en el año y ~$40bn más previstos en FY2027. El backlog de $638bn tiene ~$300bn atribuidos a OpenAI — una contraparte que quema decenas de miles de millones al año. Esto es exactamente el patrón que el gate (g) describe: deuda masiva financiando capex cuyo retorno depende de un cliente único no rentable, con FCF profundamente negativo mientras se sostiene el dividendo. No es 'inversión con narrativa verificable': es apalancamiento contra una sola contraparte.",
+    "fuente": "Oracle resultados Q4 FY2026 (jun-2026) y 8-K; cobertura de la emisión de deuda FY2026"
+   },
+   {
+    "ticker": "PINS",
+    "decision": "NO",
+    "gate_que_falla": "(c) SBC > 50% del FCF ajustado ≥3 años sin recompras compensatorias",
+    "dato": "SBC/FCF: 2022 $532M/$457M=116%; 2023 $779M/$706M=110%; 2024 ~$772M/~$940M=82%; 2025 $880M/~$1.250M=70%. Cuatro años seguidos por encima del umbral, dos de ellos con el SBC excediendo TODO el flujo libre. Las recompras no son compensatorias: el conteo de acciones sigue subiendo pese a los programas (672M en 2022 a ~683M), o sea que solo amortiguan la dilución sin revertirla. Existe tendencia decreciente, pero después de cuatro años sigue en 70% — demasiado lenta para servir de escape. Llamada estricta y consciente: es el gate (c) en su lectura sustantiva (los empleados se llevan la mayor parte del flujo del dueño), no en la lectura literal de la cláusula de escape. Si prefieres la lectura literal, este voltea a SI — te lo dejo visible.",
+    "fuente": "Pinterest 10-K FY2024; SBC FY2025 $880M y FCF TTM ~$1,25bn (datos a dic-2025)"
+   },
+   {
+    "ticker": "TEMN.SW",
+    "decision": "NO",
+    "gate_que_falla": "(e) opacidad contable",
+    "dato": "Temenos: el examen independiente encargado por el propio Comité Especial del consejo (Schellenberg Wittmer, Sullivan & Cromwell y forenses de Alvarez & Marsal; >300.000 documentos, publicado 15-abr-2024 tras el informe de Hindenburg del 15-feb-2024) concluyó que las acusaciones eran inexactas, PERO identificó 7 casos de backdating de contratos, en 4 de los cuales se adelantó ingreso al trimestre anterior. Súmese DSO ~124 días (casi el doble de sus pares) y reconocimiento anticipado de licencias a plazo. No hubo restatement ni material weakness declarada, pero el backdating de ingresos documentado por su propia investigación forense es opacidad contable suficiente para tumbarlo en un filtro de entrada. Si se quisiera revertir esta decisión haría falta leer el informe completo del examen independiente y las notas de reconocimiento de ingresos y venta de cuentas por cobrar del Annual Report 2025.",
+    "fuente": "Temenos, comunicado ad hoc 'completion of independent examination and publication of report' (15-abr-2024, temenos.com); informe de respuesta de Hindenburg Research (hindenburgresearch.com/temenos-response)"
+   }
+  ],
+  "no_verificable": [
+   "ALC",
+   "TRU"
+  ],
+  "detalle": [
+   {
+    "ticker": "0388.HK",
+    "decision": "NO",
+    "gate_que_falla": "(a) sector financiero + (f) regulador/accionista único",
+    "dato": "Negocio real = bolsa MÁS cámara de compensación: asume riesgo de contraparte y su balance está dominado por margin funds y clearing house funds (cientos de miles de millones de HKD); el ingreso neto de inversión sobre esos fondos ha sido ~25-30% de los ingresos, es decir sensibilidad pura a tipos, no economía de peaje limpia. Además el Gobierno de HK es accionista y, bajo la SFO, nombra 6 de 13 consejeros y designa al presidente; el pipeline de listings depende de SFC/CSRC.",
+    "fuente": "HKEX Annual Report 2024 + Securities and Futures Ordinance (Cap. 571) — conocimiento fechado, no reabierto en esta sesión"
+   },
+   {
+    "ticker": "4684.T",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "ERP propietario OBIC7 para mid-market japonés con venta directa; margen operativo ~60%, caja neta sin deuda financiera, SBC prácticamente nula (práctica japonesa), miles de clientes sin concentración. Sin VIE, sin restatement conocido, ROIC muy por encima de cualquier WACC de mercado.",
+    "fuente": "Obic Yuho (有価証券報告書) FY2025, cierre mar-2025, y resultados TSE"
+   },
+   {
+    "ticker": "AAPL",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Hardware+servicios de consumo (no excluido). SBC ~$11,7bn FY24 contra FCF ~$109bn (≈11%) y recompras ~$95bn que reducen acciones; ROIC muy por encima del WACC; contabilidad sin material weakness. A analizar en la tesis, no knock-out: los pagos de Google (~$20bn/año) concentrados en el beneficio de Servicios y los remedios antimonopolio.",
+    "fuente": "Apple Form 10-K FY2024 (cierre 28-sep-2024)"
+   },
+   {
+    "ticker": "ABNB",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Marketplace de alojamiento asset-light (no aerolínea ni hotelera). SBC ~$1,4bn 2024 vs FCF ~$4,5bn (≈31%) con recompras ~$3,4bn; caja neta; ROIC alto. La regulación de alquiler corto es municipal y fragmentada (NYC, Barcelona), no un regulador único del que dependa el negocio.",
+    "fuente": "Airbnb Form 10-K FY2024"
+   },
+   {
+    "ticker": "ACN",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Servicios profesionales de TI, no industrial cíclico ni financiera. Ningún cliente individual llega a ~2% de ingresos (el mayor riesgo, el gasto federal de EEUU, es ~8% del segmento Américas, no un cliente único). SBC ~$1,9bn vs FCF ~$9,5bn FY24; ROIC ~25-30% sobre WACC; deuda neta negativa.",
+    "fuente": "Accenture Form 10-K FY2024 (cierre 31-ago-2024)"
+   },
+   {
+    "ticker": "ADBE",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Software por suscripción. SBC ~$1,9bn FY24 vs FCF ~$8,1bn (≈24%) y recompras ~$9,5bn con recuento de acciones a la baja; ROIC muy por encima del WACC; apalancamiento bajo y sin riesgo de refinanciación; sin VIE ni restatement.",
+    "fuente": "Adobe Form 10-K FY2024 (cierre 29-nov-2024)"
+   },
+   {
+    "ticker": "ADYEN.AS",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Plataforma única de procesamiento de pagos: no origina crédito ni asume riesgo de balance, así que no cae en 'financiera' pese a su licencia bancaria holandesa (instrumental para liquidar/adquirir). Margen EBITDA >50%, caja neta, SBC baja, ROIC muy alto. La supervisión DNB/BCE es tema del Paso 3, no un knock-out de entrada.",
+    "fuente": "Adyen Annual Report 2024"
+   },
+   {
+    "ticker": "ALC",
+    "decision": "NO_VERIFICABLE",
+    "gate_que_falla": "(d) ROIC < WACC estructural",
+    "dato": "El ROIC IFRS post-escisión queda en una franja ~5-8% porque el capital invertido carga goodwill e intangibles asignados en la separación de Novartis (2019), frente a un WACC de mercado ~7-8%: el gate cae exactamente dentro del error de estimación y no se estima un knock-out. Resolverlo exige calcular NOPAT y capital invertido 2022-2024 y separar la amortización de intangibles heredados del capex real de capacidad (lentes/LIO).",
+    "fuente": "Falta abrir: Alcon Form 20-F FY2024 (y FY2022-FY2023) — balance, cuenta de resultados y estado de flujos"
+   },
+   {
+    "ticker": "ALGN",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Dispositivo médico dental (Invisalign + escáner iTero), no excluido. SBC ~$150m vs FCF ~$650m 2024 con recompras activas; caja neta y sin deuda; ROIC >20% sobre el WACC; sin cliente ni regulador único (venta a decenas de miles de ortodoncistas). La desaceleración de casos es materia de tesis, no knock-out.",
+    "fuente": "Align Technology Form 10-K FY2024"
+   },
+   {
+    "ticker": "AMZN",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "SBC $22,0bn 2024 contra FCF reportado $32,9bn (≈67%), pero el gate (c) exige además ausencia de tendencia decreciente y la SBC ya bajó de $24,0bn (2023) a $22,0bn (2024); sobre FCF ajustado el denominador está deprimido por capex de crecimiento de AWS (>$75bn en 2024) frente a un OCF de $115,9bn, con lo que la SBC cae muy por debajo del 50%. Sin VIE relevante, sin restatement.",
+    "fuente": "Amazon Form 10-K FY2024"
+   },
+   {
+    "ticker": "ASML",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Monopolio efectivo de EUV con margen bruto ~51% y ROIC >30% incluso en el valle del ciclo: no es el industrial cíclico de retorno bajo que persigue el gate (a). Concentración de clientes (top-3 ~dos tercios de ventas) y licencias de exportación NL/EEUU sobre China son riesgos de tesis, pero no hay un cliente único >50% ni un solo regulador que habilite el negocio entero.",
+    "fuente": "ASML Annual Report / Form 20-F 2024"
+   },
+   {
+    "ticker": "AVGO",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Semis custom (XPU/networking) + software de infraestructura. SBC ~$5,5bn FY24 vs FCF ~$19,4bn (≈28%), con recompras y dividendo cubiertos. Deuda ~$66bn tras VMware pero con FCF ~$20-25bn/año y calendario escalonado: no hay riesgo real de refinanciación. ROIC con goodwill ~10-12% FY24 sobre un WACC ~8-9% y subiendo con fuerza en FY25. Cliente mayor ~20% de ingresos: concentración alta, no cliente único.",
+    "fuente": "Broadcom Form 10-K FY2024 (cierre 3-nov-2024)"
+   },
+   {
+    "ticker": "AXP",
+    "decision": "NO",
+    "gate_que_falla": "(a) exclusión de sector — financiera/banco",
+    "dato": "American Express es bank holding company regulada por la Fed desde 2008: capta depósitos (~US$130-140 mil MM) y retiene el riesgo de crédito de su cartera de tarjetas. El negocio real es prestamista + red, no red de pagos pura tipo V/MA.",
+    "fuente": "AXP Form 10-K (SEC), Item 1 Business y balance consolidado (segmento de depósitos y provisiones por pérdidas crediticias)"
+   },
+   {
+    "ticker": "BABA",
+    "decision": "NO",
+    "gate_que_falla": "(b) estructura VIE (China)",
+    "dato": "Alibaba mantiene las licencias reguladas (ICP, contenido, pagos) en entidades de propiedad variable controladas por contratos, no por propiedad accionaria; el propio 20-F declara el riesgo de inejecutabilidad de esos contratos.",
+    "fuente": "Alibaba Form 20-F (SEC), sección 'Our Corporate Structure' / Risk Factors sobre VIEs"
+   },
+   {
+    "ticker": "BKNG",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Marketplace de viajes asset-light (no aerolínea): FCF ~US$8 mil MM, SBC muy por debajo del 50% del FCF y recompras masivas, ROIC muy por encima de cualquier WACC de mercado. Patrimonio negativo por recompras, pero deuda investment grade con cobertura amplia de FCF: no es deuda tóxica.",
+    "fuente": "BKNG Form 10-K (SEC), estado de flujos de efectivo y notas de deuda"
+   },
+   {
+    "ticker": "BRK.B",
+    "decision": "NO",
+    "gate_que_falla": "(a) exclusión de sector — seguros + ferrocarril + utilities",
+    "dato": "El núcleo económico es asegurador (GEICO, Gen Re, BHRG y su float), más BNSF (ferrocarril cíclico) y Berkshire Hathaway Energy (utilities reguladas). Tres sectores excluidos a la vez.",
+    "fuente": "BRK Form 10-K (SEC), reporte por segmentos (Insurance, BNSF, BHE)"
+   },
+   {
+    "ticker": "BVI.PA",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Bureau Veritas: servicios de ensayo, inspección y certificación (TIC), asset-light y recurrente por mandato regulatorio; ROIC estructuralmente por encima del WACC, apalancamiento ~1x EBITDA, cartera de clientes atomizada (sin cliente único) y SBC irrelevante. La exposición a marine/oil&gas es de mercado final, no la convierte en industrial cíclico ni en materias primas.",
+    "fuente": "Bureau Veritas Document d'Enregistrement Universel (URD) anual, cuentas consolidadas y desglose por división"
+   },
+   {
+    "ticker": "CDNS",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "EDA/IP: SBC FY2025 ~US$455 MM contra FCF ~US$1,1-1,4 mil MM (≈30-35%, nunca ≥50% tres años) más recompras; ROIC muy superior al WACC, deuda baja, base de clientes amplia. Nota de vigilancia (no tumba gate): exposición a controles de exportación a China (~10-12% de ingresos) y el acuerdo con DOJ/BIS de 2025 — es compliance de exportación, no restatement ni debilidad de control contable.",
+    "fuente": "CDNS Form 10-K (SEC), estado de flujos de efectivo y nota de SBC; comunicado de resultados FY2025"
+   },
+   {
+    "ticker": "CHKP",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Ciberseguridad con caja neta y sin deuda financiera; FCF ~US$1 mil MM anual con SBC muy por debajo del 50% del FCF y recompras sistemáticas que compensan la dilución; ROIC muy por encima del WACC; sin cliente ni regulador único.",
+    "fuente": "Check Point Form 20-F (SEC), estados financieros consolidados y programa de recompra"
+   },
+   {
+    "ticker": "CLPBY",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Coloplast A/S (ADR): dispositivos médicos consumibles (ostomía, continencia, cuidado de heridas), demanda recurrente y ROIC estructuralmente muy por encima del WACC; SBC irrelevante (danesa); apalancamiento elevado tras Kerecis pero ~2x EBITDA con FCF que lo cubre — no es deuda tóxica. Reembolso sanitario diversificado entre decenas de sistemas nacionales, no un pagador único.",
+    "fuente": "Coloplast Annual Report (cuentas consolidadas y nota de deuda neta / adquisición Kerecis)"
+   },
+   {
+    "ticker": "CME",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "El negocio real es infraestructura de mercado: comisiones por transacción y compensación más datos de mercado; no capta depósitos, no suscribe riesgo asegurador ni presta su balance (los márgenes de clearing son colateral segregado). Deuda baja, SBC menor, ROIC sobre capital tangible muy por encima del WACC. Nota: modelo dependiente del marco de la CFTC — a vigilar en Paso 3, no tumba el filtro de entrada.",
+    "fuente": "CME Group Form 10-K (SEC), Item 1 Business y desglose de ingresos (clearing & transaction fees vs market data)"
+   },
+   {
+    "ticker": "CRM",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "SBC FY2025 US$3,2 mil MM contra FCF US$12,4 mil MM (≈26%), con tendencia decreciente desde ~50% en FY2022-23 y recompras masivas (US$12,7 mil MM en FY2026) — no cumple 'SBC>50% del FCF ≥3 años sin compensación ni tendencia decreciente'. Deuda moderada, sin cliente único.",
+    "fuente": "Salesforce Form 10-K FY2025 (SEC, crm-20250131), estado de flujos de efectivo; comunicado de resultados FY2026"
+   },
+   {
+    "ticker": "CSU.TO",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Constellation Software: software vertical de misión crítica adquirido en serie, ROIC muy por encima del WACC de forma sostenida; SBC prácticamente nula (los bonos se pagan en acciones compradas en mercado abierto, no emitidas); sin restatement ni material weakness; deuda de las filiales (Topicus/Lumine) sin recurso relevante al holding. Miles de clientes, muchos públicos, sin concentración en uno solo.",
+    "fuente": "Constellation Software AIF y MD&A anual (SEDAR+), estados consolidados y nota de compensación"
+   },
+   {
+    "ticker": "DB1.DE",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Deutsche Börse: infraestructura de mercado (Eurex, Xetra, Clearstream post-trade, datos e ISS/SimCorp). La propia compañía reporta net revenue sin treasury result de €5,2 mil MM en FY2025, lo que confirma que el interés neto de saldos de Clearstream es complemento y no el motor; la licencia bancaria de Clearstream es vehículo de liquidación, no negocio de crédito. Nota: el NII es sensible a tipos — a modelar después, no tumba el gate.",
+    "fuente": "Deutsche Börse, resultados FY2025 (nota de prensa 12-feb-2026 y presentación de la conferencia anual de prensa)"
+   },
+   {
+    "ticker": "DSG.TO",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Descartes Systems: software SaaS de logística (red GLN), no es sector excluido ni VIE. Caja neta sin deuda relevante, SBC ~10-15% del FCF con tendencia estable, ROIC>WACC, base de clientes atomizada (>26k). Ningún knock-out se activa.",
+    "fuente": "Annual Report / 40-F FY2025 de Descartes (conocimiento fechado; filing no abierto en esta pasada)"
+   },
+   {
+    "ticker": "DSY.MI",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Identificación: no existe DSY en Borsa Italiana; el único DSY europeo relevante es Dassault Systèmes SE (Euronext Paris, DSY.PA) — corregir el sufijo en la lista. Como Dassault Systèmes: software PLM/3D + Medidata, no sector excluido, sin VIE, caja neta, SBC baja vs FCF, ROIC>WACC. Exposición a autos/aeroespacial es de mercado final, no dependencia de cliente único.",
+    "fuente": "Document d'enregistrement universel 2025 (conocimiento fechado) + verificación de ticker vía búsqueda (Yahoo/TradingView: DSY = Euronext Paris)"
+   },
+   {
+    "ticker": "DUOL",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Único gate que roza es (c): SBC/FCF >50% en 2021-2023 (2022 >100%), pero cae a ~45% en 2024 y sigue bajando en 2025, con programa de recompra anunciado — el gate exige ausencia de tendencia decreciente Y de recompras, así que no se activa. (h) no aplica: la gamificación es retención, no daño de diseño; el producto sobrevive sin el mecanismo. Sin VIE, sin deuda, ROIC en expansión.",
+    "fuente": "10-K FY2024 DUOL (SEC) + 10-Q 2025 (conocimiento fechado)"
+   },
+   {
+    "ticker": "EFX",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Equifax es servicios de información/analítica, no banco ni aseguradora ni prestamista: no cae en (a). La brecha de 2017 y el error de scores de 2022 son fallos operativos/legales, no restatement ni material weakness → (e) no se activa. Apalancamiento ~2,5x grado de inversión, FCF cubre servicio de deuda. Regulación FCRA/CFPB es intensa pero no es dependencia de un regulador único.",
+    "fuente": "10-K FY2024 EFX (SEC), conocimiento fechado"
+   },
+   {
+    "ticker": "EL",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Pasa por poco y con bandera roja en (d): ROIC cae bajo WACC en FY2024 (~6%) y FY2025 (~3-4% con deterioros), pero FY2023 estaba en ~9-12% sobre capital invertido neto, es decir en/por encima del WACC (~8%) → no hay 3 años consecutivos. El 10-K FY2026 (publicación agosto 2026) es el documento que decide si el gate se activa. Deuda IG sin riesgo de refinanciación pese al recorte de dividendo de 2025 → (g) no se activa.",
+    "fuente": "10-K FY2023/FY2024 EL (SEC) + resultados FY2025 (conocimiento fechado). Falta 10-K FY2026 para cerrar (d)"
+   },
+   {
+    "ticker": "ENX.PA",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Euronext es infraestructura de mercado y datos (listing, trading, data), no banca/seguros/crédito: el negocio real es un peaje, no intermediación de balance → (a) no se activa. Sí tiene clearing (CCP) y CSD con balance propio: apuntar como tema del Paso 3, no como knock-out. Regulado por un colegio de reguladores nacionales, no por uno solo. Deuda moderada con FCF recurrente.",
+    "fuente": "Universal Registration Document 2025 Euronext NV (conocimiento fechado)"
+   },
+   {
+    "ticker": "EXPE",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Marketplace de viajes asset-light, no es aerolínea ni industrial cíclico → (a) no se activa aunque la ciclicidad sea alta (eso es materia del análisis, no del filtro). SBC ~10-20% del FCF, muy lejos del 50%. Deuda ~6 mil MM cubierta por FCF y float de merchant bookings, sin riesgo de refinanciación. ROIC bajo WACC solo en 2020-2021 (COVID), no en los últimos 3 años.",
+    "fuente": "10-K FY2024 EXPE (SEC), conocimiento fechado"
+   },
+   {
+    "ticker": "FDS",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "FactSet vende datos y software por suscripción a clientes financieros: servir al sector no es ser del sector → (a) no se activa. SBC ~10% del FCF, recompras activas, ROIC muy por encima del WACC, apalancamiento ~2x post-CGS en descenso, sin cliente que supere el 1% de ingresos.",
+    "fuente": "10-K FY2025 FDS (SEC), conocimiento fechado"
+   },
+   {
+    "ticker": "FICO",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Pasa con bandera en (f): Scores se distribuye vía los 3 burós y la parte hipotecaria depende de FHFA/GSE (admisión de VantageScore 4.0 en 2025 + programa de licencia directa de FICO). Es exposición material (~20% de ingresos), no existencial: queda Software y el resto de B2B → no hay cliente ni regulador ÚNICO. Patrimonio negativo por recompras financiadas con deuda no es deuda tóxica: FCF ~700 MM y cobertura amplia → (g) no se activa.",
+    "fuente": "10-K FY2025 FICO (SEC) + anuncios FHFA 2025 (conocimiento fechado)"
+   },
+   {
+    "ticker": "GOOGL",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Publicidad, cloud y suscripciones: sector no excluido, sin VIE. SBC ~30-35% del FCF con recompras muy superiores a la dilución → (c) no se activa. ROIC muy por encima del WACC, caja neta, sin cliente único. Antitrust es riesgo de tesis, no dependencia de un regulador único que autorice el negocio.",
+    "fuente": "10-K FY2025 Alphabet (SEC), conocimiento fechado"
+   },
+   {
+    "ticker": "HOYCY",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Hoya (ADR): Life Care (~60%: lentes oftálmicas, lentes de contacto, endoscopios) + Information Technology (mask blanks EUV, sustratos HDD) — no es industrial cíclico clásico ni sector excluido; posición cuasi-monopólica en mask blanks. Caja neta, sin deuda, ROIC >20%, márgenes estables. El vehículo ADR y el reporting japonés no son knock-out, solo condicionan la calidad de fuente en pasos posteriores.",
+    "fuente": "Annual Securities Report / Integrated Report FY2025 de Hoya (conocimiento fechado; no abierto en esta pasada)"
+   },
+   {
+    "ticker": "ICE",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "ICE es infraestructura de mercado + datos de renta fija + mortgage technology: peaje, no banca ni seguros → (a) no se activa (clearing houses a vigilar en Paso 3). ROIC contable comprimido (~7-8%) por el goodwill de Black Knight, pero con narrativa de adquisición verificable y ROIC ex-goodwill muy alto → (d) no se cumple. Deuda ~3x, grado de inversión, en desapalancamiento con FCF fuerte → (g) no se activa.",
+    "fuente": "10-K FY2025 ICE (SEC), conocimiento fechado"
+   },
+   {
+    "ticker": "IDXX",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Diagnostico veterinario (CAG ~90% ingresos, consumibles recurrentes sobre base instalada). Ningun sector excluido, sin VIE, sin cliente unico (miles de clinicas). ROIC >30% sostenido muy por encima de cualquier WACC de mercado. SBC muy por debajo del 50% del FCF y recompras netas reducen acciones. Deuda neta baja frente a FCF. Sin restatement ni material weakness conocidos.",
+    "fuente": "IDEXX Laboratories 10-K FY2024/FY2025 (SEC EDGAR CIK 874716), estados de flujo de efectivo y nota de SBC"
+   },
+   {
+    "ticker": "INTU",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Software de gestion financiera (QuickBooks/Global Business Solutions ya es el segmento mayor, mas TurboTax y Credit Karma). SBC FY2024 ~$2,2B contra FCF ~$4,6B (~47%), y ademas recompras de $2-3B/ano con conteo de acciones a la baja: no cumple el gate (c). ROIC muy superior al WACC. Sin VIE, sin deuda toxica. FLAG no bloqueante: exposicion regulatoria del consumidor a la politica del IRS (Direct File), pero no es dependencia de un regulador unico dado el peso de QuickBooks.",
+    "fuente": "Intuit 10-K FY2024 (SEC EDGAR CIK 896878), estado de flujos y desglose por segmento"
+   },
+   {
+    "ticker": "ISRG",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Equipos medicos y consumibles (da Vinci; ~85% ingresos recurrentes de instrumentos/servicio). El unico gate dudoso era (c): SBC FY2024 $688M contra FCF ~$1,3B (~53%), pero la serie es claramente decreciente (FY2025 SBC ~$0,8B contra FCF $2,49B, ~32%) y hubo recompras de $2,30B en 2025 (4,8M acciones). Requisito del gate (3 anos consecutivos, sin tendencia decreciente ni recompras compensatorias) NO se cumple. Sin deuda (caja neta), sin VIE, sin cliente unico.",
+    "fuente": "Intuitive Surgical 10-K FY2024 y FY2025 (SEC EDGAR CIK 1035267): SBC FY2024 $688M; recompra FY2025 4,8M acciones por $2,30B; FCF FY2025 $2,49B"
+   },
+   {
+    "ticker": "KXS.TO",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Software SaaS de planificacion de cadena de suministro (Maestro/RapidResponse). Unico gate en riesgo era (c): SBC FY2024 $39,6M contra FCF FY2024 $95M = ~42%, por debajo del umbral, y con tendencia claramente decreciente frente a 2021-2023 (cuando el SBC superaba el FCF). No se cumple el requisito de 3 anos consecutivos sin tendencia decreciente. Sin sector excluido, sin VIE, caja neta sin deuda, sin cliente unico, sin restatement.",
+    "fuente": "Kinaxis Inc. Reports Fourth Quarter 2024 Results (comunicado 2025) y Annual Report FY2024 (SEDAR+ / investors.kinaxis.com): SBC FY2024 $39,581M; FCF FY2024 $95M"
+   },
+   {
+    "ticker": "LMN.TO",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Software vertical (VMS) para comunicaciones y medios, modelo adquirente en serie de la familia Constellation. Sus CLIENTES son telecos, pero el negocio real es software, no teleco: gate (a) no aplica. Sin VIE, SBC minimo (modelo CSU, casi no usa acciones como pago), sin dependencia de cliente unico (cartera fragmentada de operadores). Deuda y acciones preferentes emitidas a CSU cubiertas por FCF recurrente; no hay senal de refinanciacion forzada ni deuda para tapar perdidas. ROIC alto con narrativa de reinversion via M&A verificable.",
+    "fuente": "Lumine Group Inc., estados financieros anuales consolidados y MD&A FY2024/FY2025 (SEDAR+)"
+   },
+   {
+    "ticker": "LSEG.L",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Negocio real = datos y analitica (Data & Analytics + FTSE Russell + Risk Intelligence son la mayoria del income) mas infraestructura de mercado (Markets: Capital Markets + Post Trade fusionados desde 2025). No es banco, aseguradora ni prestamista: no intermedia credito ni asume riesgo de balance crediticio, vende licencias y suscripciones. Total income FY2025 GBP 8.986M, +5,8%. Sin VIE, SBC inmaterial frente al FCF, apalancamiento investment grade con FCF recurrente. FLAG no bloqueante: parte del ingreso de LCH depende de intereses sobre margenes.",
+    "fuente": "LSEG 2025 Preliminary Results RNS, 26-feb-2026 (lseg.com/investor-relations): total income excl. recoveries GBP 8.986M"
+   },
+   {
+    "ticker": "MA",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Red de pagos de cuatro partes: cobra peaje por transaccion, NO asume riesgo de credito del tarjetahabiente ni presta (eso queda en los bancos emisores). Gate (a) no aplica pese a la etiqueta 'financials'. Sin VIE, SBC muy por debajo del 50% del FCF con recompras masivas y conteo de acciones decreciente, ROIC >50%, deuda holgadamente cubierta por FCF. Sin restatement ni cliente unico.",
+    "fuente": "Mastercard Inc. 10-K FY2024/FY2025 (SEC EDGAR CIK 1141391)"
+   },
+   {
+    "ticker": "MANH",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Software de ejecucion de cadena de suministro (WMS/TMS, transicion a cloud). Sin deuda, caja neta. SBC por debajo del 50% del FCF y recompras que consumen practicamente todo el FCF con conteo de acciones a la baja: gate (c) no se cumple. ROIC muy alto (negocio de capital ligero). Sin VIE, sin cliente unico, sin restatement ni material weakness.",
+    "fuente": "Manhattan Associates 10-K FY2024/FY2025 (SEC EDGAR CIK 1056696)"
+   },
+   {
+    "ticker": "MELI",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Marketplace + logistica + publicidad (Commerce sigue siendo mas de la mitad del ingreso) con brazo fintech: Fintech FY2025 $12.599M sobre ingreso total de ~$29B. El motor economico y el moat siguen siendo el marketplace, no la intermediacion de credito: gate (a) no se dispara. Sin VIE, SBC inmaterial, sin restatement. FLAG SERIO no bloqueante para el analisis posterior: cartera de credito +90% interanual en 2025 y licencia bancaria en Mexico — si el credito pasa a dominar economia y riesgo, el gate (a) debe reevaluarse; ademas la deuda crece para fondear el libro de credito.",
+    "fuente": "MercadoLibre 10-K FY2025 (SEC EDGAR CIK 1099590): ingresos Fintech $8.618M FY2024 a $12.599M FY2025; cartera de credito +90% interanual"
+   },
+   {
+    "ticker": "MSCI",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Proveedor de indices, analitica y datos por suscripcion/licencia; no toma riesgo financiero propio, gate (a) no aplica. Sin VIE, SBC muy por debajo del 50% del FCF con recompras y conteo de acciones a la baja, ROIC extraordinario. Deuda ~2,5-3x EBITDA a tipo fijo y vencimientos escalonados, cubierta con holgura por FCF recurrente (apalancamiento elegido para recomprar, no para tapar perdidas): no es deuda toxica. FLAG no bloqueante: BlackRock ~10% de ingresos via licencias de ETF — concentracion a vigilar, no dependencia fatal.",
+    "fuente": "MSCI Inc. 10-K FY2024/FY2025 (SEC EDGAR CIK 1408198), nota de clientes y calendario de deuda"
+   },
+   {
+    "ticker": "MSFT",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Software, cloud y licencias empresariales. Ningun sector excluido, sin VIE, SBC muy por debajo del 50% del FCF con recompras compensatorias, ROIC muy superior al WACC de mercado, caja neta, sin restatement ni material weakness, sin cliente ni regulador unico. Ya en cola del metodo con veredicto previo de mantener.",
+    "fuente": "Microsoft 10-K FY2024/FY2025 (SEC EDGAR CIK 789019)"
+   },
+   {
+    "ticker": "MTD",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Instrumentos de precision para laboratorio, inspeccion de producto y pesaje industrial; margen bruto ~60% y ~25% de ingreso recurrente de servicio. No es industrial ciclico de bienes de capital/commodity: gate (a) no aplica pese a la ciclicidad ligada al capex farma y a China. ROIC >40%, SBC inmaterial frente al FCF, recompras agresivas (patrimonio negativo es consecuencia de recompras, no de perdidas). Deuda ~2x EBITDA cubierta por FCF ~$900M: no es deuda toxica. Sin VIE, sin cliente unico, sin restatement.",
+    "fuente": "Mettler-Toledo International 10-K FY2024/FY2025 (SEC EDGAR CIK 1037646)"
+   },
+   {
+    "ticker": "NDAQ",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Negocio real = datos/índices/software (Capital Access Platforms + Financial Technology: Adenza, Verafin) ~78% del ingreso neto; Market Services ~22%. No es banco, aseguradora ni prestamista: no toma riesgo de crédito ni de balance. Deuda post-Adenza ~4x EBITDA en 2023 pero desapalancando con grado de inversión (BBB). ROIC ~7% desde 2024 por goodwill de Adenza, pero son <3 años y hay narrativa de M&A verificable, así que (d) no dispara. RESERVA: si tu lista de exclusión trata a los operadores de bolsa como 'financieras' por etiqueta GICS, este pasa a NO sin más análisis — lo dejo explícito para que lo decidas tú, no yo.",
+    "fuente": "Nasdaq Inc. 10-K FY2024 (segmentos y deuda); mezcla de ingresos por segmento reportada"
+   },
+   {
+    "ticker": "NEM.DE",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "VERIFICADO que NEM.DE = Nemetschek SE (software AEC/BIM: Allplan, Graphisoft, Bluebeam, Vectorworks, Maxon), ISIN DE0006452907, ticker Xetra NEM — NO es Newmont (minera), que era el riesgo de confusión y habría sido NO por gate (a) materias primas. Ingresos 2024 €995,6M. Software con familia controladora, sin VIE, SBC irrelevante, caja neta, ROIC muy sobre WACC.",
+    "fuente": "Deutsche Börse / Wikipedia / finanzen.net (verificación de identidad del ticker, jul-2026); Nemetschek FY2024"
+   },
+   {
+    "ticker": "NFLX",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Streaming por suscripción + publicidad; no es sector excluido. SBC ~$400M contra FCF ~$8-9bn (FY2024) = <5%. Deuda ~$14bn con FCF que la cubre varias veces, grado de inversión. Sin cliente único. Sobre (h): existe la tensión del diseño de binge/autoplay ('nuestro competidor es el sueño', Hastings 2017), pero el daño no es el mecanismo económico del negocio — el producto es contenido cobrado por suscripción, no un motor de adicción publicitaria. No cumple el triple test de intención + core + inviabilidad sin el mecanismo.",
+    "fuente": "Netflix 10-K FY2024"
+   },
+   {
+    "ticker": "NOW",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "BORDERLINE que sobrevive por la cláusula de escape del gate (c). SBC/FCF: 2022 $1.398M/$2.175M=64%; 2023 $1.606M/$2.700M=59%; 2024 $1.746M/$3.431M=51%; 2025 $1.955M/$4.624M=42%. Sí hubo >50% tres años seguidos (2022-2024), pero la tendencia es claramente decreciente y ya rompió el umbral hacia abajo en 2025 (SBC 15% de ingresos vs 16% en 2024). Las recompras NO compensan (el conteo de acciones sigue subiendo), así que el único escape es la tendencia — y es real, no cosmética. Recomendación: si entra a tesis, SBC es el primer punto a auditar, no un tema cerrado.",
+    "fuente": "ServiceNow 10-K FY2025 (SBC $1.955M, 15% de ingresos); resultados FY2025 (OCF $5,44bn − capex $804M = FCF $4,62bn)"
+   },
+   {
+    "ticker": "NVDA",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Diseñador fabless con moat de software (CUDA); no es 'industrial cíclico' en el sentido del gate. SBC ~$4,7bn contra FCF ~$60bn = ~8%. ROIC muy por encima de cualquier WACC. Sin deuda problemática. Sobre (f): en FY2025 hubo cuatro clientes directos entre 10-13% cada uno — concentrado pero no un cliente único; y la exposición a China (de ~25% a dígito simple bajo por controles de exportación) ya se materializó sin matar el negocio, o sea que no es dependencia de un regulador único, es riesgo regulatorio ya realizado.",
+    "fuente": "NVIDIA 10-K FY2025 (concentración de clientes y mezcla geográfica)"
+   },
+   {
+    "ticker": "NVO",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Farma; no es sector excluido y el producto trata diabetes/obesidad — no aplica (h). ROIC muy sobre WACC, deuda baja, sin VIE, sin restatement. La presión de precios en EE.UU. (negociación IRA sobre semaglutida, acuerdo MFN/TrumpRx de nov-2025) y los PBM son riesgo de tesis, NO dependencia de un cliente o regulador único: la base es global y multipagador. Ojo aparte: los tropiezos de CagriSema y el cambio de CEO (Doustdar, ago-2025) son material de tesis, no de knock-out.",
+    "fuente": "Novo Nordisk Annual Report 2024/2025; anuncios de acuerdo de precios EE.UU. nov-2025"
+   },
+   {
+    "ticker": "ORCL",
+    "decision": "NO",
+    "gate_que_falla": "(g) deuda tóxica + (f) dependencia de un cliente único",
+    "dato": "FY2026: FCF de −$23.700M (OCF $32bn contra capex $55.700M), deuda total ~$130-156bn tras levantar $43bn de deuda + $5bn de equity en el año y ~$40bn más previstos en FY2027. El backlog de $638bn tiene ~$300bn atribuidos a OpenAI — una contraparte que quema decenas de miles de millones al año. Esto es exactamente el patrón que el gate (g) describe: deuda masiva financiando capex cuyo retorno depende de un cliente único no rentable, con FCF profundamente negativo mientras se sostiene el dividendo. No es 'inversión con narrativa verificable': es apalancamiento contra una sola contraparte.",
+    "fuente": "Oracle resultados Q4 FY2026 (jun-2026) y 8-K; cobertura de la emisión de deuda FY2026"
+   },
+   {
+    "ticker": "PANW",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Ciberseguridad, sector no excluido. SBC/FCF: FY2022 $856M/$1.790M=48%; FY2023 $1.000M/$2.600M=39%; FY2024 $1.130M/$3.100M=36%. Nunca tres años seguidos sobre 50%, así que (c) no dispara (SBC sigue alto sobre ingresos, ~13-14%: tema de tesis, no de gate). Convertibles ya liquidados en gran parte, sin riesgo de refinanciación. Sin cliente único.",
+    "fuente": "Palo Alto Networks 10-K FY2024 y FY2023"
+   },
+   {
+    "ticker": "PINS",
+    "decision": "NO",
+    "gate_que_falla": "(c) SBC > 50% del FCF ajustado ≥3 años sin recompras compensatorias",
+    "dato": "SBC/FCF: 2022 $532M/$457M=116%; 2023 $779M/$706M=110%; 2024 ~$772M/~$940M=82%; 2025 $880M/~$1.250M=70%. Cuatro años seguidos por encima del umbral, dos de ellos con el SBC excediendo TODO el flujo libre. Las recompras no son compensatorias: el conteo de acciones sigue subiendo pese a los programas (672M en 2022 a ~683M), o sea que solo amortiguan la dilución sin revertirla. Existe tendencia decreciente, pero después de cuatro años sigue en 70% — demasiado lenta para servir de escape. Llamada estricta y consciente: es el gate (c) en su lectura sustantiva (los empleados se llevan la mayor parte del flujo del dueño), no en la lectura literal de la cláusula de escape. Si prefieres la lectura literal, este voltea a SI — te lo dejo visible.",
+    "fuente": "Pinterest 10-K FY2024; SBC FY2025 $880M y FCF TTM ~$1,25bn (datos a dic-2025)"
+   },
+   {
+    "ticker": "PTC",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Software industrial (Creo CAD, Windchill PLM, Codebeamer ALM) — vende A industriales cíclicos, no ES uno; el gate (a) mira el negocio y este es suscripción de software. Deuda 0,8x EBITDA ($1.200M) al Q2 FY2026, caja $439M: sin riesgo de refinanciación. FCF $585,7M en el primer semestre FY2026 (+14%), recompras de $1.225-1.325M guiadas para FY26 y nueva autorización de $2bn — SBC ampliamente cubierto. Sigue independiente (desinvirtió Kepware/ThingWorx por $375M netos en mar-2026); no hay adquisición consumada.",
+    "fuente": "PTC resultados Q2 FY2026 (may-2026) y 8-K asociado"
+   },
+   {
+    "ticker": "REL.L",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "RELX: analítica de información (Risk, STM/Elsevier, Legal, Exhibitions). Sector no excluido, sin VIE, SBC irrelevante, ROIC muy sobre WACC de forma estructural, deuda neta ~2x EBITDA con grado de inversión. Sin cliente único: base atomizada de bibliotecas académicas, aseguradoras, despachos y gobiernos. Las críticas éticas al modelo de publicación científica y a los contratos de LexisNexis Risk con agencias de EE.UU. no cumplen el triple test de (h) — el negocio sobrevive sin ese mecanismo.",
+    "fuente": "RELX Annual Report 2024/2025"
+   },
+   {
+    "ticker": "RMS.PA",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Hermès: lujo, sector no excluido (consumo discrecional, no industrial cíclico). Caja neta muy grande, sin deuda; SBC insignificante; ROIC extraordinario y estructural; control familiar sin VIE; sin cliente único ni dependencia regulatoria; sin (h). No hay gate que siquiera se acerque.",
+    "fuente": "Hermès International Document d'Enregistrement Universel 2024/2025"
+   },
+   {
+    "ticker": "SE",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Sea Limited: e-commerce (Shopee) + juegos (Garena) + crédito (Monee). No es banco/seguro/utility; holdco Cayman con operativa en SE Asia, no VIE china. FCF 2023 $1.9B y 2024 $2.97B con SBC muy por debajo del 50% del FCF y en tendencia decreciente → (c) no aplica. Las pérdidas 2017-2022 (ROIC<WACC) tenían narrativa de inversión que SÍ se verificó: beneficio neto positivo desde 2023 → (d) no aplica. FLAG para Paso 3-4, no knock-out: cajas de botín de Free Fire (adicción por diseño) y préstamos al consumo de alta tasa aportan una parte desproporcionada del EBITDA; verificar mezcla de beneficio por segmento en el 20-F antes de avanzar.",
+    "fuente": "Sea 4Q2025/FY2025 results deck (cdn.sea.com, PDF no accesible por 403); FCF FY2023-FY2024 vía Macrotrends/stockanalysis sobre cash flow statement reportado"
+   },
+   {
+    "ticker": "SGSN.SW",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "SGS SA: ensayo, inspección y certificación (TIC). Negocio real = servicios recurrentes impulsados por regulación y comercio, no industrial cíclico ni materias primas (aunque el segmento Natural Resources da exposición a commodities, no produce ni las posee). ROIC muy por encima del WACC, apalancamiento moderado, sin cliente único (millones de encargos), sin restatement conocido.",
+    "fuente": "SGS Annual Report / perfil de negocio; sin evidencia de restatement ni material weakness"
+   },
+   {
+    "ticker": "SNPS",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Synopsys: software EDA + IP. Sector no excluido. SBC ~35-50% del FCF según el año, nunca ≥3 años consecutivos >50% y con historial de recompras → (c) no aplica. Deuda ~$10B levantada para Ansys (cerrada jul-2025) pero grado de inversión con EBITDA >$3B y FCF fuerte → (g) no aplica. Sin cliente >10% de ventas. Sin restatement ni material weakness.",
+    "fuente": "Synopsys 10-K FY2023/FY2024 (cash flow statement y nota de SBC); comunicados de financiación de la adquisición de Ansys"
+   },
+   {
+    "ticker": "SOON.SW",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Sonova: audífonos, implantes cocleares y retail audiológico. Dispositivos médicos, sector no excluido. ROIC estructuralmente sobre el WACC, deuda baja, FCF positivo. Reembolso sanitario varía por país (Alemania, EEUU, Suiza…) → no hay regulador ni cliente único. Sin restatement ni material weakness conocidos.",
+    "fuente": "Sonova Annual Report; perfil de negocio y estructura de capital"
+   },
+   {
+    "ticker": "SPGI",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "S&P Global: calificaciones, índices, Market Intelligence, Platts, Mobility. Negocio real = información y licencias, NO intermediación financiera: no presta, no asegura, no toma riesgo de balance → (a) no aplica pese a la etiqueta 'Financials'. Múltiples reguladores (SEC/NRSRO, ESMA, FCA), sin cliente único. ROIC muy sobre WACC, deuda investment grade, recompras grandes vs SBC pequeña.",
+    "fuente": "S&P Global 10-K (desglose de ingresos por división); sin restatement ni material weakness"
+   },
+   {
+    "ticker": "SPOT",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Spotify: streaming de audio por suscripción y publicidad. Sector no excluido. (d) NO se dispara: las pérdidas 2018-2023 dejaron de ser estructurales — beneficio operativo positivo y creciente desde 2024 con capital invertido ex-caja mínimo, así que el sub-WACC no es una condición permanente demostrada. (f) tampoco: la dependencia es de PROVEEDORES (tres grandes sellos), no de un cliente ni de un regulador único — es un problema de moat y de poder de precios para el Paso 3-4, no un knock-out. SBC muy por debajo del 50% del FCF.",
+    "fuente": "Spotify 20-F FY2024 (income statement y cash flow); resultados trimestrales posteriores"
+   },
+   {
+    "ticker": "SPSC",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "SPS Commerce: red cloud de EDI/supply chain entre retailers y proveedores. Sector no excluido. ~45.000 clientes recurrentes, ninguno material → (f) no aplica. Balance con caja neta o deuda mínima tras adquisiciones pequeñas → (g) no aplica. SBC ~1/3 del FCF. ROIC sobre WACC, sin restatement ni material weakness.",
+    "fuente": "SPS Commerce 10-K (concentración de clientes, deuda y SBC en el cash flow statement)"
+   },
+   {
+    "ticker": "SRT3.DE",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Sartorius AG (acción preferente sin voto): bioprocesamiento y equipos de laboratorio para biofarma — herramientas de ciencias de la vida, no industrial cíclico clásico. (g) NO se dispara: deuda neta €3,76B con ND/EBITDA subyacente 3,51x a jun-2026 bajando desde 3,55x, calificación investment grade BBB- (S&P, ago-2025), FCF libre positivo y creciente, dividendo recortado para desapalancar — no hay riesgo real de refinanciación ni deuda para tapar pérdidas. (d) tampoco: el ROIC deprimido 2023-2025 viene del destocking post-COVID y del goodwill de Polyplus, no de una economía estructuralmente sub-WACC (ROIC histórico >15%).",
+    "fuente": "Sartorius H1-2026 report y FY2025 Annual Report; informe S&P Global Ratings sobre Sartorius AG (25-ago-2025 y 30-abr-2026), ambos publicados en sartorius.com"
+   },
+   {
+    "ticker": "STMN.SW",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Straumann: implantes dentales, biomateriales y ortodoncia (ClearCorrect). Sector no excluido. ROIC estructuralmente sobre el WACC, apalancamiento bajo, FCF positivo, base de clientes atomizada (clínicas dentales) → sin cliente ni regulador único. Sin restatement ni material weakness conocidos.",
+    "fuente": "Straumann Annual Report; perfil de negocio y estructura de capital"
+   },
+   {
+    "ticker": "TEMN.SW",
+    "decision": "NO",
+    "gate_que_falla": "(e) opacidad contable",
+    "dato": "Temenos: el examen independiente encargado por el propio Comité Especial del consejo (Schellenberg Wittmer, Sullivan & Cromwell y forenses de Alvarez & Marsal; >300.000 documentos, publicado 15-abr-2024 tras el informe de Hindenburg del 15-feb-2024) concluyó que las acusaciones eran inexactas, PERO identificó 7 casos de backdating de contratos, en 4 de los cuales se adelantó ingreso al trimestre anterior. Súmese DSO ~124 días (casi el doble de sus pares) y reconocimiento anticipado de licencias a plazo. No hubo restatement ni material weakness declarada, pero el backdating de ingresos documentado por su propia investigación forense es opacidad contable suficiente para tumbarlo en un filtro de entrada. Si se quisiera revertir esta decisión haría falta leer el informe completo del examen independiente y las notas de reconocimiento de ingresos y venta de cuentas por cobrar del Annual Report 2025.",
+    "fuente": "Temenos, comunicado ad hoc 'completion of independent examination and publication of report' (15-abr-2024, temenos.com); informe de respuesta de Hindenburg Research (hindenburgresearch.com/temenos-response)"
+   },
+   {
+    "ticker": "TMO",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Thermo Fisher: instrumentos, consumibles, diagnóstico y CDMO para ciencias de la vida. Sector no excluido. ROIC ~10-11% sobre un WACC ~8% (pesado en goodwill, pero no sub-WACC estructural). Deuda ~$30B con grado de inversión y FCF ~$7B → (g) no aplica. Base de clientes diversificada (farma, académico, industrial, clínico); la exposición a NIH es relevante pero no es un cliente único. SBC pequeña frente al FCF.",
+    "fuente": "Thermo Fisher 10-K (segmentos, deuda y cash flow statement)"
+   },
+   {
+    "ticker": "TOI.V",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "Topicus.com: software vertical (VMS) europeo, spin-off de Constellation Software. Sector no excluido, sin VIE. Cultura CSI: SBC mínima, deuda modesta, ROIC muy sobre el WACC, adquisiciones pagadas con FCF. Estructura de acciones con voto múltiple (Joday/Ijssel) y relación con CSI = tema de gobernanza para el Paso 7, no un knock-out. Sin restatement ni material weakness; auditoría y reporting IFRS en SEDAR. Exposición grande a sector público/educación/salud en Países Bajos, pero repartida en miles de clientes → (f) no aplica.",
+    "fuente": "Topicus.com Inc. estados financieros anuales y MD&A en SEDAR+"
+   },
+   {
+    "ticker": "TRU",
+    "decision": "NO_VERIFICABLE",
+    "gate_que_falla": "(d) ROIC<WACC estructural — indecidible sin filing + WACC bottom-up",
+    "dato": "HECHO: margen de beneficio neto GAAP 7% en 2024 y -5% en 2023 (impairment de goodwill, incl. 414 M$ en la unidad UK en Q3-2023); EPS diluido 1,45 $ en 2024 vs -1,07 $ en 2023. INFERENCIA: con ~10.000 M$ de capital invertido dominado por goodwill (Neustar/Sontiq/Argus), el ROIC GAAP quedaría ~5% en 2022-2024, por debajo de cualquier WACC de mercado razonable. El candado B prohíbe estimar el WACC, y el gate (d) exige además comprobar si existe narrativa de inversión verificable (OneTru, transformación) — eso no se decide sin el filing. Documento necesario: 10-K 2022, 2023 y 2024 (capital invertido, EBIT, impairments por unidad) + WACC bottom-up de mercado.",
+    "fuente": "TransUnion, Q4 y año completo 2024 earnings release, 13-feb-2025 (https://www.globenewswire.com/news-release/2025/02/13/3025706/0/en/TransUnion-Announces-Fourth-Quarter-and-Full-Year-2024-Results-and-Refreshed-Capital-Allocation-Framework.html)"
+   },
+   {
+    "ticker": "TSM",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "HECHO: foundry con ~90% del nodo líder y margen bruto >50%; sin estructura VIE (empresa taiwanesa con ADR directo, no china); Apple ~25% de los ingresos 2024 y un segundo cliente >10%. INFERENCIA: no cae en (a) — no es cíclico-industrial tomador de precio sino formador de precio con ROIC de doble dígito alto a lo largo del ciclo; la concentración en Apple es bilateral (no hay alternativa al nodo líder), no dependencia de cliente único en el sentido del gate (f). Riesgos reales (Taiwán, capex ~40.000 M$/año) son materia del Paso 3, no knock-outs.",
+    "fuente": "TSMC Form 20-F 2024 (SEC) y estados financieros consolidados auditados 2024"
+   },
+   {
+    "ticker": "TYL",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "HECHO: software vertical para miles de gobiernos estatales/locales de EE.UU. (tribunales, seguridad pública, ERP, pagos); ingresos recurrentes >80%; deuda neta ~0 tras amortizar el convertible de NIC. INFERENCIA: (f) no aplica — la base es de miles de clientes, no uno; el ROIC GAAP bajo (~7%) es artefacto del goodwill de NIC (2021) con narrativa de inversión verificable y corroborada (transición a cloud, margen y FCF crecientes), por lo que (d) no dispara.",
+    "fuente": "Tyler Technologies Form 10-K 2024 (SEC)"
+   },
+   {
+    "ticker": "V",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "HECHO: red de pagos de cuatro partes: los emisores asumen el riesgo de crédito, Visa no presta ni mantiene riesgo crediticio — no es una financiera en el sentido del gate (a); margen operativo >65%, FCF ~19.000 M$, SBC muy por debajo del 10% del FCF; deuda investment grade. INFERENCIA: la demanda antimonopolio del DOJ (sep-2024) y la presión sobre intercambio son riesgo regulatorio a valorar en el Paso 3, no un regulador único del que dependa el negocio.",
+    "fuente": "Visa Inc. Form 10-K FY2024 (SEC)"
+   },
+   {
+    "ticker": "VEEV",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "HECHO: software cloud vertical para ciencias de la vida; FY2025 (cerrado 31-ene-2025) ingresos ~2.750 M$, flujo de caja operativo ~1.090 M$, SBC ~380 M$ → ~35% del FCF, con tendencia decreciente en % de ingresos; caja neta, sin deuda. INFERENCIA: (c) no dispara (<50% y bajando); base de clientes amplia dentro de pharma, sin cliente único dominante.",
+    "fuente": "Veeva Systems Form 10-K FY2025 (SEC)"
+   },
+   {
+    "ticker": "VRSK",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "HECHO: proveedor de datos y analítica a aseguradoras P&C — no suscribe riesgo, no tiene reservas ni siniestros; ~80% de ingresos por suscripción, margen EBITDA ~54%; apalancamiento ~2x EBITDA con grado de inversión (patrimonio negativo por recompras, no por pérdidas). INFERENCIA: (a) no aplica pese a la etiqueta 'seguros' del sector al que sirve; miles de clientes, sin dependencia de uno solo.",
+    "fuente": "Verisk Analytics Form 10-K 2024 (SEC)"
+   },
+   {
+    "ticker": "WISE.L",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "HECHO: FY2025 (cerrado 31-mar-2025) ingreso subyacente 1.360 M£, de los cuales ~594 M£ son intereses sobre saldos de clientes (~44%); saldos de clientes ~21.500 M£. INFERENCIA: no es banco ni financiera en el sentido del gate (a) — no presta, no asume riesgo de crédito ni apalanca balance; es infraestructura de pagos transfronterizos con float. PERO el 44% del ingreso (y una proporción mayor del beneficio, por su margen casi puro) depende de los tipos de interés, variable que la empresa no controla: eso es lo primero que debe romper el Paso 3/6, no un knock-out de entrada.",
+    "fuente": "Wise plc, resultados del ejercicio cerrado el 31-mar-2025 (https://wise.com/imaginary-v2/images/7225a78f5d177b9bba2c8152e664ee7e-Wiseplc-FY2025.pdf)"
+   },
+   {
+    "ticker": "WKL.AS",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "HECHO: información profesional y software para fiscalidad/contabilidad, legal, salud y compliance; ~80%+ de ingresos recurrentes; deuda neta ~1,6x EBITDA con grado de inversión; sin VIE, sin restatement. INFERENCIA: ningún gate dispara — negocio de suscripción con ROIC muy por encima de cualquier WACC de mercado y base de clientes atomizada.",
+    "fuente": "Wolters Kluwer Annual Report 2024 (estados financieros consolidados auditados)"
+   },
+   {
+    "ticker": "WST",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "HECHO: fabrica componentes de contención y administración de fármacos inyectables (tapones elastoméricos, sellos, componentes de jeringa) que quedan especificados dentro del expediente regulatorio del fármaco del cliente; caja neta, sin deuda relevante; ROIC de doble dígito alto incluso en el año de destocking (2024). INFERENCIA: no es industrial cíclico —es consumible regulado con coste de cambio alto—, y la concentración de clientes (top farmacéuticas, exposición GLP-1) es materia de Paso 3, no dependencia de un pagador único.",
+    "fuente": "West Pharmaceutical Services Form 10-K 2024 (SEC)"
+   },
+   {
+    "ticker": "ZTS",
+    "decision": "SI",
+    "gate_que_falla": "—",
+    "dato": "HECHO: salud animal (farmacéuticos, vacunas, diagnóstico), ~2/3 animales de compañía; ROIC muy por encima del WACC de forma sostenida; deuda ~2x EBITDA con grado de inversión y FCF que la cubre con holgura; sin VIE ni restatement. INFERENCIA: (h) no aplica —el daño no es el mecanismo del negocio—; el escrutinio de la FDA sobre Librela es riesgo de producto a tratar en el Paso 3, no un knock-out.",
+    "fuente": "Zoetis Inc. Form 10-K 2024 (SEC)"
+   }
+  ]
+ }
+}

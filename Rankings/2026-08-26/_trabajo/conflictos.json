@@ -1,0 +1,151 @@
+[
+ {
+  "ticker": "0388.HK",
+  "motivos": [
+   "rubricas sumativas difieren 78 vs 65 = 14 pts"
+  ]
+ },
+ {
+  "ticker": "4684.T",
+  "motivos": [
+   "rubricas sumativas difieren 78 vs 66 = 12 pts"
+  ]
+ },
+ {
+  "ticker": "ADYEN.AS",
+  "motivos": [
+   "rubricas sumativas difieren 81 vs 65 = 16 pts"
+  ]
+ },
+ {
+  "ticker": "ASML",
+  "motivos": [
+   "rubricas sumativas difieren 82 vs 72 = 10 pts",
+   "ciego nivel 3 (elite) vs score 81.6 (bajo)"
+  ]
+ },
+ {
+  "ticker": "AVGO",
+  "motivos": [
+   "nivel ciego se movio 7->10"
+  ]
+ },
+ {
+  "ticker": "CLPBY",
+  "motivos": [
+   "estaba en top36 jul y DESAPARECE en ago"
+  ]
+ },
+ {
+  "ticker": "GOOGL",
+  "motivos": [
+   "rubricas sumativas difieren 78 vs 65 = 13 pts"
+  ]
+ },
+ {
+  "ticker": "HOYCY",
+  "motivos": [
+   "estaba en top36 jul y DESAPARECE en ago"
+  ]
+ },
+ {
+  "ticker": "INTU",
+  "motivos": [
+   "nivel ciego se movio 7->10"
+  ]
+ },
+ {
+  "ticker": "ISRG",
+  "motivos": [
+   "rubricas sumativas difieren 90 vs 79 = 11 pts"
+  ]
+ },
+ {
+  "ticker": "LSEG.L",
+  "motivos": [
+   "estaba en top36 jul y DESAPARECE en ago"
+  ]
+ },
+ {
+  "ticker": "MA",
+  "motivos": [
+   "rubricas sumativas difieren 91 vs 75 = 16 pts"
+  ]
+ },
+ {
+  "ticker": "MANH",
+  "motivos": [
+   "rubricas sumativas difieren 80 vs 62 = 18 pts"
+  ]
+ },
+ {
+  "ticker": "MSCI",
+  "motivos": [
+   "rubricas sumativas difieren 85 vs 68 = 17 pts",
+   "nivel ciego se movio 5->10",
+   "ciego nivel 10 (cola) vs score 84.8 (elite)"
+  ]
+ },
+ {
+  "ticker": "MTD",
+  "motivos": [
+   "rubricas sumativas difieren 82 vs 61 = 22 pts"
+  ]
+ },
+ {
+  "ticker": "NEM.DE",
+  "motivos": [
+   "rubricas sumativas difieren 84 vs 62 = 22 pts"
+  ]
+ },
+ {
+  "ticker": "NOW",
+  "motivos": [
+   "rubricas sumativas difieren 83 vs 62 = 21 pts",
+   "nivel ciego se movio 6->9"
+  ]
+ },
+ {
+  "ticker": "NVDA",
+  "motivos": [
+   "rubricas sumativas difieren 83 vs 63 = 20 pts"
+  ]
+ },
+ {
+  "ticker": "REL.L",
+  "motivos": [
+   "rubricas sumativas difieren 82 vs 63 = 19 pts"
+  ]
+ },
+ {
+  "ticker": "SPGI",
+  "motivos": [
+   "rubricas sumativas difieren 85 vs 71 = 14 pts"
+  ]
+ },
+ {
+  "ticker": "TOI.V",
+  "motivos": [
+   "rubricas sumativas difieren 79 vs 58 = 21 pts"
+  ]
+ },
+ {
+  "ticker": "WISE.L",
+  "motivos": [
+   "rubricas sumativas difieren 79 vs 67 = 12 pts"
+  ]
+ },
+ {
+  "ticker": "WKL.AS",
+  "motivos": [
+   "rubricas sumativas difieren 77 vs 61 = 16 pts",
+   "estaba en top36 jul y DESAPARECE en ago"
+  ]
+ },
+ {
+  "ticker": "ZTS",
+  "motivos": [
+   "estaba en top36 jul y DESAPARECE en ago"
+  ]
+ }
+]

@@ -1,0 +1,97 @@
+{
+ "ticker": "MC.PA",
+ "name": "LVMH Moet Hennessy Louis Vuitton SE",
+ "asof_date": "2026-06-22",
+ "currency": "EUR",
+ "price": 481.35,
+ "market_cap_usd_b": 271.6,
+ "fwd_pe": 21.6,
+ "fwd_pe_5y_avg": 25.8,
+ "pe_prem_disc_pct": -16,
+ "peg": null,
+ "last_q": {
+  "period": "Q1 2026 (ene-mar 2026)",
+  "revenue": "EUR 19.121B",
+  "rev_yoy_pct": -6,
+  "op_margin_pct": null,
+  "eps_gaap": "n/d (LVMH no reporta EPS trimestral; solo ingresos en Q1)",
+  "eps_adj": "n/d"
+ },
+ "last_fy": {
+  "period": "FY2025 (ene-dic 2025)",
+  "revenue": "EUR 80.8B",
+  "organic_growth_pct": -1,
+  "roic_pct": 11.8,
+  "fcf": "EUR 11.3B (operating free cash flow, +8% YoY)",
+  "fcf_margin_pct": 14
+ },
+ "sbc_pct_revenue": 0.1,
+ "sbc_pct_fcf": 0.9,
+ "net_debt_usd_b": 7.9,
+ "nd_ebitda": 0.3,
+ "net_cash": false,
+ "guidance_fy": "LVMH NO da guia numerica. Tono cualitativo para 2026: \"vigilante pero confiado\" (vigilant but confident); seguira su estrategia centrada en desarrollo de marcas, innovacion, inversion selectiva y busqueda de deseabilidad/calidad, en un entorno geopolitico y macro que sigue incierto. Q1 2026 ya publicado: ingresos EUR 19.1B (-6% reportado, +1% organico), con impacto ~-1% del conflicto en Oriente Medio.",
+ "pct_off_52w_high": -26.5,
+ "pct_off_ath": -46.6,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_q.period",
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "guidance_fy"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "LVMH IR - 2025 Full Year Results press release",
+   "url": "https://www.lvmh.com/en/publications/solid-performance-in-a-disrupted-global-economic-and-geopolitical-environment",
+   "date": "2026-01-28"
+  },
+  {
+   "label": "LVMH IR - Q1 2026 revenue press release (GlobeNewswire)",
+   "url": "https://www.globenewswire.com/news-release/2026/04/13/3272720/0/en/lvmh-continues-to-achieve-organic-growth-in-the-first-quarter-in-a-global-environment-impacted-by-the-conflict-in-the-middle-east.html",
+   "date": "2026-04-13"
+  },
+  {
+   "label": "StockAnalysis.com - MC.PA quote (price, mkt cap, fwd P/E, 52w range)",
+   "url": "https://stockanalysis.com/quote/epa/MC/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "CompaniesMarketCap - LVMH P/E ratio history (2021-2025)",
+   "url": "https://companiesmarketcap.com/lvmh/pe-ratio/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "FinanceCharts - LVMH ROIC (11.8% FY2025)",
+   "url": "https://www.financecharts.com/stocks/LVMUY/value/roic",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "S&P Global - LVMH post-earnings review 2025 results / 2026 outlook",
+   "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/02/lvmh-post-earnings-review-2025-results-beat-forecast-2026-outlook-cloudier",
+   "date": "2026-02"
+  }
+ ],
+ "notes": "FY2025 (VERIFICADO via IR): ingresos EUR 80.8B (-5% reportado, -1% organico); profit from recurring operations EUR 17.8B; margen operativo 22%; beneficio neto grupo EUR 10.9B (-13%); operating free cash flow EUR 11.3B (+8%); deuda neta EUR 6.9B (~<10% de ingresos). ROIC 11.8% (FY2025, agregador FinanceCharts; minimo de 5 anios, baja desde 13.3% en 2024). fcf_margin 14.0% calculado = 11.3/80.8.\n\nVALORACION (ESTIMADO, StockAnalysis/agregadores, 22-jun-2026): precio EUR 481.35 (-3.59% en el dia, 17:38 CET); P/E trailing ~22.9; fwd P/E ~21.6. Media fwd P/E 5a aprox ~25-26x (P/E anuales 2021-2025: 34.0/24.9/23.5/24.0/22.5 -> media ~25.8). Prima/descuento ~-16% vs media. PEG en null: con BPA ~plano/negativo el PEG no es significativo. Mkt cap EUR 247.8B; ~USD 271.6B (companiesmarketcap; FX EUR/USD ~1.10-1.14).\n\nSBC: LVMH apenas usa stock-based compensation (modelo europeo, dividendos/efectivo). Plan de acciones gratuitas/opciones minimo, ~EUR 0.1B/ano -> ~0.1% de ingresos y <1% del FCF (estimado/aprox). NO es riesgo de dilucion material (favorable para R9).\n\nDeuda neta EUR 6.9B -> ~USD 7.9B; ND/EBITDA ~0.3x (EBITDA ~EUR 22B). NO es caja neta pero apalancamiento muy bajo / balance fuerte.\n\n52w range EUR 436.55 - 654.70; pct_off_52w_high -26.5%. ATH ~EUR 902-904 (abr-2023); pct_off_ath ~-46.6% (estimado).\n\nCLASIFICACION = fear_rotation: el desplome (-27% vs max 52s, ~-47% vs ATH) NO refleja deterioro genuino del negocio - el organico volvio a positivo (+1% Q4'25 y Q1'26), margenes resilientes (~22% op, ~35% en Fashion&Leather), FCF +8%, balance solido. La caida es por rotacion fuera de lujo, FX adverso (-7% en Q1'26) y miedo geopolitico (Oriente Medio ~-1% organico). Matiz: ROIC en minimo de 5a y BPA aun cayendo -> podria etiquetarse \"mixed\", pero predomina fear_rotation.\n\nQ1 2026: LVMH solo publica ingresos en Q1/Q3 (no margen ni EPS), por eso op_margin_pct/eps en null para last_q."
+}

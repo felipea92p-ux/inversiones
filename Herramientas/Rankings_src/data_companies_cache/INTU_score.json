@@ -1,0 +1,59 @@
+{
+ "ticker": "INTU",
+ "name": "Intuit Inc.",
+ "rules": {
+  "R1": {
+   "score": 2,
+   "just": "Pure SaaS/platform model with 46.9% GAAP operating margins that expand with scale (data/AI network effects across TurboTax + QuickBooks); monstrous operating leverage justifies 2.0."
+  },
+  "R2": {
+   "score": 1,
+   "just": "SMB accounting, consumer tax-prep and fintech are structurally growing but mature/penetrated in core US markets, not a hyper-secular tailwind; solid 1.0."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Clear #1 in both US consumer tax (TurboTax) and SMB accounting (QuickBooks) with durable lead, but not 'years ahead' enough vs ADP/H&R Block/Xero to merit 2.0."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Wide moat from switching costs (financial data lock-in), brand and ecosystem/intangibles, but AI/agentic disruption thesis is a real long-term question mark, so 1.5 not 2.0."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "FY25 organic growth ~16% (verified) is genuinely strong and largely internally driven despite past M&A (Credit Karma, Mailchimp), warranting superior 1.5."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Highly diversified across millions of consumers and SMBs with no client >10%, but revenue is heavily US-concentrated geographically, capping at 1.0."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC ~16% comfortably exceeds WACC, FCF margin 32.3% and FCF $6.083B with low capex and FCF/NI well above 80%, asset-light excellence earns 1.5."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Net cash position (net debt -$0.12B, ND/EBITDA -0.02x) with strong FCF coverage; pristine balance sheet earns superior 1.5."
+  },
+  "R9": {
+   "score": 0,
+   "just": "HARD RULE: verified SBC = 32.4% of FCF (>25%), so R9 forced to 0.0 despite clean GAAP reporting; dilution materially overstates economic FCF."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Disciplined capital allocation with buybacks and dividends and credible guidance, but large M&A history (Credit Karma/Mailchimp) and heavy SBC temper governance to a base 1.0."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1+R3+R4 se refuerzan monstruosamente: el flywheel de datos financieros que bloquea a decenas de millones de usuarios ensancha el moat, entrincha el liderazgo dual (tax + contabilidad PYME) y deja caer ingresos incrementales al margen operativo de 46.9%. El miedo a la IA es la unica grieta en un triangulo de calidad autorreforzado.",
+ "moat_type": "switching_costs",
+ "moat_one_line": "Switching costs profundos por anios de datos financieros/fiscales bloqueados, reforzados por el duopolio de marca TurboTax/QuickBooks y un flywheel de datos propietario que alimenta ventaja de producto via IA.",
+ "thesis_3lines": [
+  "Calidad excepcional: lider #1 en tax (TurboTax) y contabilidad PYME (QuickBooks) con margen operativo GAAP 46.9%, ROIC ~16%, FCF de $6.1B (margen 32%) y posicion de caja neta.",
+  "Motor de crecimiento: crecimiento organico ~16% con guidance FY26 elevada (ingresos +13-14%, BPA non-GAAP +18%), impulsado por monetizacion de IA, fintech y plataforma SMB integrada.",
+  "Valoracion/retorno: fwd P/E ~9.7x frente a media 5a ~34x (desc. ~71%) tras caida del ~68% por miedo a disrupcion de IA muy superior al deterioro real (solo TurboTax -0.5%)."
+ ],
+ "bear_case_strongest": "Agentic AI (Anthropic/OpenAI y verticales) podria comoditizar el software guiado que sostiene TurboTax y QuickBooks, erosionando switching costs y pricing power justo cuando Intuit recorta 17% de plantilla, lo que validaria que el descuento del mercado refleja deterioro estructural del moat y no rotacion de miedo.",
+ "sbc_flag": "sbc_gt_25_fcf",
+ "ethical_flag": "none",
+ "notes": "Score ponderado total = 12.5/13.5 (R1 2.0, R2 1.0, R3 1.5, R4 1.5, R5 1.5, R6 1.0, R7 1.5, R8 1.5, R9 0.0, R10 1.0). La regla dura de SBC (32.4% de FCF >25%) fuerza R9 a 0.0 y resta ~1.0 punto frente al preliminar 13/13.5; este es el unico defecto serio de calidad. Campos R9-criticos VERIFICADOS: SBC $1.968B / FCF $6.083B = 32.4%. fwd_pe_5y_avg ESTIMADO (dispersion 34-52, usado 34 conservador). ROIC ~16% ESTIMADO. Caida ~68% clasificada fear_rotation: guidance FY26 ELEVADA vs deterioro marginal (TurboTax -0.5%). Tesis: calidad de primer nivel a valoracion deprimida por miedo a IA; el riesgo real (disrupcion de moat por agentic AI) es de tesis, no de balance."
+}

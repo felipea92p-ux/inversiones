@@ -1,0 +1,48 @@
+{
+ "ticker": "6861.T",
+ "name": "Keyence Corporation",
+ "currency": "JPY",
+ "price_verified": 77990,
+ "price_source": "StockAnalysis.com (JPY 77,990, 22-Jun-2026); cross-checked Yahoo Finance JPY 77,580-77,700 (18-19 Jun); market cap JPY 18.91T consistent",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.2425,
+ "implied_mcap_b_usd": 113.9,
+ "mcap_sanity_ok": true,
+ "structural_change": "Real but modest structural de-rating, not a cyclical dip. Keyence has compressed from peak multiples of ~45-62x trailing P/E (2021-2022) toward high-30s today (fwd ~37x, trailing ~42x) as FA/automation revenue growth normalizes from the 2021 boom to a high-single-digit/low-double-digit cadence (FY2026 net sales +10.4%, op margin held at a stellar 51%, net income +11.7% = 5th consecutive record). This is maturation of an already-huge franchise plus China/global capex sensitivity, NOT franchise impairment. Quality intact: ~51% operating margin, 94.6% equity ratio, ~JPY 1.49T net cash, negligible SBC, asset-light direct-sales model with structurally high ROIC. Dividend nearly doubled (JPY 350->550). Justifies a fair multiple modestly below the 5y average, not a deep haircut.",
+ "wacc_pct": 7,
+ "wacc_components": {
+  "rf_pct": 1.3,
+  "erp_pct": 5,
+  "beta": 1.1,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "FY2026 reported FCF JPY 402.3B (FCF margin 34.4% on net sales JPY 1.17T). SBC is negligible (~0% of revenue/FCF — Japanese FA company with no material equity-comp program), so Owner FCF = FCF - 100% SBC = ~JPY 402.3B. Net income JPY 445.2B, EPS JPY 1,835.62; consensus FY2027 EPS ~JPY 2,048.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 50946,
+   "prob": 0.38,
+   "note": "Phase1 g=5%, Phase2 declining to 3.5%, terminal g=2.5%. Reasonable-pessimistic: prolonged China/global FA capex softness, growth maturation toward GDP-plus, but margins and net-cash franchise intact. NOT apocalyptic."
+  },
+  "base": {
+   "iv_per_share": 66357,
+   "prob": 0.47,
+   "note": "Phase1 g=8% (in line with ~9% consensus revenue and +11% EPS), Phase2 declining to 5%, terminal g=3.0%. Continued share gains in machine vision/sensors, overseas expansion (+14% overseas in FY26)."
+  },
+  "optimista": {
+   "iv_per_share": 89443,
+   "prob": 0.15,
+   "note": "Phase1 g=11%, Phase2 declining to 7%, terminal g=3.5%. Automation/AI-driven reacceleration, deeper overseas penetration, sustained pricing power and ~51% margins."
+  }
+ },
+ "iv_dcf_weighted": 63964,
+ "fwd_multiple_now": 37.3,
+ "fwd_multiple_5y_avg": 39.6,
+ "fair_multiple": 36,
+ "multiple_metric": "Forward P/E",
+ "multiple_rationale": "Anchored to Keyence's own ~5y average forward P/E of ~39.6x (derived from year-end trailing P/E history ex-2021 outlier: 2022 45.0, 2023 41.9, 2024 45.6, 2025 35.2, 2026 30.2; the 2021 62.6x was a bubble outlier excluded). Applied a modest haircut to ~36.0x (below the 5y avg, ~3.6x below) to reflect the genuine structural normalization of growth as the franchise matures and the post-2021 de-rate proves persistent. iv_multiple = consensus FY2027 EPS JPY 2,048 x 36.0 = JPY 73,728. Forward P/E (not EV/FCF) chosen because clean, well-tracked consensus EPS and a long P/E history exist; net-cash balance sheet means EV/equity gap is small.",
+ "iv_multiple": 73728,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 69822,
+ "sanity_notes": "UNITS/MAGNITUDE: All three DCF scenarios (JPY 50,946 / 66,357 / 89,443) and the multiple IV (JPY 73,728) sit in a tight band around the JPY 77,990 price — every figure within the 30%-300% rule, so no shares/currency/units error. SHARES: confirmed ~242.5M diluted (0.2425B) via two independent checks — StockAnalysis 242.53M and market-cap-derived (JPY 18.91T / JPY 77,580 = ~243.7M) and Dec-2025 quarter filing (243M). DISREGARDED Yahoo's 121.26M figure (inconsistent with the market cap; likely stale/erroneous). MCAP SANITY: implied mcap = JPY 77,990 x 0.2425B = JPY 18,915B = USD 113.9B at ~166 JPY/USD; matches verified ~USD 114B (companiesmarketcap ~USD 114-117B, Yahoo ~USD 113.6B). PASS. WACC: Japan Rf 1.3% + ERP 5.0% x beta 1.1 = 6.8%, rounded to 7.0% (no geo premium; net-cash, high-quality, but FA demand has global cyclicality). RECONCILED IV JPY 69,822 implies the stock trades ~12% ABOVE intrinsic value (price/IV ~1.12x) — consistent with a not-depressed, near-record-price (-7.3% off ATH) premium compounder. Weights 0.40 DCF / 0.60 multiple: proven stable compounder favors the multiple anchor, but kept a meaningful 40% DCF weight (vs 0.35) because FA capex-cycle/China exposure adds more cyclicality than a pure consumer-staple compounder. Owner-earnings = reported FCF (SBC ~0). Modest valuation gap is sensitive to fair-multiple choice; at the full 5y-avg ~39.6x the multiple IV would be ~JPY 81,100 and reconciled ~JPY 74,800 (roughly fair)."
+}

@@ -1,0 +1,48 @@
+{
+ "ticker": "MC.PA",
+ "name": "LVMH Moet Hennessy Louis Vuitton SE",
+ "currency": "EUR",
+ "price_verified": 481.35,
+ "price_source": "StockAnalysis.com (EPA:MC), cross-checked Yahoo Finance / companiesmarketcap",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.496,
+ "implied_mcap_b_usd": 273.6,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 8.5,
+ "wacc_components": {
+  "rf_pct": 2.8,
+  "erp_pct": 5,
+  "beta": 1.15,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "EUR 11.2B = FY2025 operating FCF 11.3B menos ~0.1B SBC (LVMH apenas usa SBC, <1% del FCF). Por accion ~EUR 22.6.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 410.6,
+   "prob": 0.38,
+   "note": "Normalizacion lenta del lujo: Fase1 (a1-5) CAGR 4%, Fase2 (6-10) declina a 3%, g terminal 2.5%. Pesimista razonable (China/aspiracional debil, FX adverso persistente), NO apocaliptico."
+  },
+  "base": {
+   "iv_per_share": 529.5,
+   "prob": 0.47,
+   "note": "Recuperacion a crecimiento mid-to-high single: Fase1 CAGR 7%, Fase2 declina a 4%, g terminal 3.0%. Organico vuelve a positivo, margenes ~22% resilientes, FCF +8%."
+  },
+  "optimista": {
+   "iv_per_share": 688.7,
+   "prob": 0.15,
+   "note": "Rebote ciclico + recuperacion China: Fase1 CAGR 10%, Fase2 declina a 5%, g terminal 3.5%."
+  }
+ },
+ "iv_dcf_weighted": 508.2,
+ "fwd_multiple_now": 21.6,
+ "fwd_multiple_5y_avg": 25.8,
+ "fair_multiple": 22.5,
+ "multiple_metric": "P/E adelantado (fwd EPS FY-proximo ~EUR 22.3)",
+ "multiple_rationale": "Anclado a la media 5a del fwd P/E (~25.8x) pero con un HAIRCUT de ~13% a 22.5x por deterioro estructural real (no solo ciclico): ROIC cayo de 13.3% (2024) a 11.8% (2025, minimo de 5a), normalizacion estructural del lujo aspiracional/China, y crecimiento organico estancado (-1% FY25). El fwd P/E actual de 21.6x ya esta cerca de mi multiplo justo, sugiriendo que el mercado paga un precio sensato pero no de ganga para una franquicia de esta calidad.",
+ "iv_multiple": 501.4,
+ "weight_dcf": 0.45,
+ "weight_multiple": 0.55,
+ "reconciled_iv": 504.5,
+ "structural_change": "MIXTO con sesgo a ciclico. Mayoria de la caida (-27% vs max 52s, -47% vs ATH) es fear_rotation: organico volvio a positivo (+1% Q4'25 y Q1'26), margenes ~22% resilientes, FCF +8%, balance fuerte (ND/EBITDA 0.3x). PERO hay deterioro estructural genuino moderado: ROIC bajo a minimo de 5a (13.3%->11.8%), saturacion/normalizacion del consumidor aspiracional y debilidad estructural en China, BPA aun cayendo (-13% beneficio neto FY25). Por eso aplico haircut al multiplo y NO pondero el multiplo al maximo (0.55, no 0.65).",
+ "sanity_notes": "Sanity check OK: price EUR 481.35 x 0.496B acciones = EUR 238.7B; x EUR/USD ~1.146 (jun-2026) = USD ~273.6B, coincide con escala conocida (StockAnalysis EUR 247.8B, companiesmarketcap ~USD 271.6B). Acciones diluidas ~496M confirmadas en StockAnalysis/Yahoo (rango 494-498M). REGLA DE MAGNITUD: los 3 IV (410.6 / 529.5 / 688.7) y el reconciled 504.5 estan todos dentro del 30-300% del precio (rango 144-1444 EUR), sin errores de unidades/moneda. reconciled_iv EUR 504.5 = ~+4.8% sobre precio: LVMH cotiza cerca de valor justo, calidad a multiplo sensato pero margen de seguridad estrecho. WACC 8.5% (eurozona Rf 2.8% + 5.0%*1.15 beta). Convergencia notable DCF (508) vs multiplo (501), lo que refuerza confianza en el rango ~EUR 500-510."
+}

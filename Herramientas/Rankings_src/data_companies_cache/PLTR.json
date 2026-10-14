@@ -1,0 +1,97 @@
+{
+ "ticker": "PLTR",
+ "name": "Palantir Technologies Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 119.5,
+ "market_cap_usd_b": 286.5,
+ "fwd_pe": 75.6,
+ "fwd_pe_5y_avg": null,
+ "pe_prem_disc_pct": null,
+ "peg": 1.1,
+ "last_q": {
+  "period": "Q1 2026 (ended Mar 31, 2026)",
+  "revenue": "$1.633B",
+  "rev_yoy_pct": 85,
+  "op_margin_pct": 46,
+  "eps_gaap": "$0.34",
+  "eps_adj": "$0.33"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 31, 2025)",
+  "revenue": "$4.475B",
+  "organic_growth_pct": 56.2,
+  "roic_pct": null,
+  "fcf": "$2.101B",
+  "fcf_margin_pct": 46.9
+ },
+ "sbc_pct_revenue": 15.3,
+ "sbc_pct_fcf": 32.6,
+ "net_debt_usd_b": -7.18,
+ "nd_ebitda": null,
+ "net_cash": true,
+ "guidance_fy": "FY2026 revenue guidance raised to $7.650-$7.662B (~71% growth); US commercial revenue >=$3.224B (>=120% growth); adjusted FCF $4.2-$4.4B. PROYECCION de la direccion (Q1 2026 release, May 4, 2026).",
+ "pct_off_52w_high": -42.4,
+ "pct_off_ath": -42.4,
+ "drop_classification": "fear_rotation",
+ "data_quality": "VERIFICADO_mostly",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.period",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "net_cash",
+  "guidance_fy",
+  "pct_off_ath",
+  "pct_off_52w_high"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "peg",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "roic_pct",
+  "nd_ebitda",
+  "drop_classification"
+ ],
+ "sources": [
+  {
+   "label": "SEC 10-K FY2025 (Palantir IR PDF) - consolidated statements: revenue $4,475,446K, op income $1,414,015K, SBC $684,033K, OCF $2,134,473K, capex $33,882K, cash $1,423,796K + marketable securities $5,753,247K, no debt",
+   "url": "https://investors.palantir.com/files/2025%20FY%20PLTR%2010-K.pdf",
+   "date": "2026-02"
+  },
+  {
+   "label": "Palantir Q1 2026 8-K earnings release (via StockTitan) - rev $1.633B +85%, GAAP op margin 46%, EPS GAAP $0.34/adj $0.33, adj FCF $925M (57% margin), cash+treasuries $8.0B, FY2026 guidance raised",
+   "url": "https://www.stocktitan.net/sec-filings/PLTR/8-k-palantir-technologies-inc-reports-material-event-e4ff3e917756.html",
+   "date": "2026-05-04"
+  },
+  {
+   "label": "StockAnalysis.com PLTR quote - price $119.50, market cap $286.48B, fwd PE 75.64, 52w range $119.20-$207.52",
+   "url": "https://stockanalysis.com/stocks/pltr/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com PLTR cash flow - FY2025 FCF $2,101M, SBC $684M, FCF margin 46.94%",
+   "url": "https://stockanalysis.com/stocks/pltr/financials/cash-flow-statement/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "GuruFocus PLTR forward PE 83.38 (alternate estimate)",
+   "url": "https://www.gurufocus.com/term/forward-pe-ratio/PLTR",
+   "date": "2026-06-22"
+  }
+ ],
+ "notes": "VERIFICADO desde 10-K FY2025 (SEC/IR): Revenue $4.475B (+56.2% YoY), GAAP op income $1.414B (op margin 31.6%), net income to common $1.625B, diluted EPS $0.63, SBC $684.0M (15.3% de ingresos), OCF $2.134B, capex $33.9M, FCF $2.101B (margen 46.9%), SBC/FCF 32.6%. Balance: caja+treasuries $7.18B, CERO deuda financiera -> caja neta ~-$7.18B (net_cash=true); equity $7.49B. ND/EBITDA=null (caja neta). organic_growth_pct: Palantir no separa organico vs inorganico; crece esencialmente todo organicamente -> usado el total revenue growth 56.2%. ROIC=null: con caja neta masiva y deuda cero, el capital invertido operativo es minimo/negativo, por lo que ROIC convencional no es significativo (efectivamente muy alto). Q1 2026 (8-K, 4-may-2026): rev $1.633B +85% YoY (ACELERANDO vs 56% FY2025), US +104%, GAAP op margin 46%, adj op margin 60%, adj FCF $925M (margen 57%), EPS GAAP $0.34/adj $0.33. GUIA FY2026 SUBIDA a $7.65-7.66B (~71% crec). VALORACION/MERCADO (estimado, agregadores 22-jun-2026): precio $119.50 (cayo ~7% en el dia hasta minimo de 52 semanas $119.20), market cap ~$286.5B, fwd PE ~75.6 (StockAnalysis) a ~83 (GuruFocus). fwd_pe_5y_avg y pe_prem_disc_pct=null: PLTR solo cotiza desde fin-2020 y con multiplos extremos/variables, una media fiable de 5 anios de fwd PE no es localizable de fuente primaria. PEG ~1.1 usando crec. de ingresos ~71% guia FY26 (en base a crec. de BPA seria mas alto). DROP: ATH=$207.52 (3-nov-2025); precio actual -42.4% desde ATH y desde maximo 52s (coinciden). CLASIFICACION fear_rotation: el desplome de ~42% ocurre MIENTRAS los fundamentales ACELERAN (ingresos pasan de +56% a +85%, margen FCF 57%, guia subida) -> es des-rating de valoracion/rotacion por miedo a multiplo, NO deterioro genuino del negocio. data_quality VERIFICADO_mostly: todos los fundamentales operativos verificados en filing oficial; solo precio/valoracion de mercado y clasificacion son estimados/juicio."
+}

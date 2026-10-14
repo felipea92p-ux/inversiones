@@ -1,0 +1,60 @@
+# LRCX (Lam Research) — Pase Ligero Fase 2
+
+Fecha del pase: 2026-09-07. Punto de partida: no existe tesis previa en `Tesis/LRCX/` (carpeta inexistente). Contexto de arranque de Fase 1 (`01_Universo_60.csv`): nivel 2, **score_diagnostico 81**, dossier ciego centrado en ROIC 47-72% sobre cinco años dentro de un oligopolio de equipos de etch/depósito. LRCX no aparece en `Rankings/2026-08-26/Los36_QG_2026-08-26.csv`, así que no hay roic/roiic/ev_sobre_oe/g_exigida ya calculados por el método EDGAR — todos los números de este pase son de investigación propia (EDGAR + fuentes de mercado con fecha), etiquetados abajo.
+
+Fuentes: 10-K FY2026 de Lam Research (SEC EDGAR, CIK 707549, ejercicio cerrado 28-jun-2026), datos agregados de stockanalysis.com (financials/cash-flow/statistics, consultados 2026-09-07), y prensa especializada (Yahoo Finance/BigGo Finance) sobre mezcla geográfica y controles de exportación. Precio y capitalización: HECHO con fecha (stockanalysis.com, 2026-09-06/07), no memoria — no se verificó contra IBKR en vivo por tratarse de un pase ligero sobre una empresa que aún no es posición.
+
+---
+
+## Paso 1 — Círculo de competencia
+
+**Sí.** El negocio es comprensible con evidencia pública razonable: Lam vende máquinas de grabado (etch) y depósito de materiales usadas para fabricar obleas de semiconductores, más un negocio de repuestos/servicio sobre la base instalada. No hace falta información privilegiada para entender el mecanismo — los 10-K, las transcripciones de resultados y los trackers de gasto de equipos de fabricación de semiconductores (WFE, publicados por SEMI/Gartner) documentan con detalle el tamaño del mercado, los pocos competidores creíbles (Applied Materials, Tokyo Electron, KLA, ASML, cada uno con su nicho de proceso) y la naturaleza cíclica de la demanda. El único componente genuinamente técnico —por qué un proceso de grabado o depósito específico es difícil de sustituir en un nodo de fabricación dado— es verificable en el lenguaje de las propias presentaciones a inversores sin necesitar ser ingeniero de procesos.
+
+## Paso 3 — Mecanismo del moat, no su síntoma
+
+El cliente no se va por tres mecanismos que se refuerzan entre sí, no por hábito ni por marca:
+
+1. **Costo de cambio real a nivel de "receta" de proceso.** Una vez que una herramienta de grabado o depósito queda calificada dentro de la línea de producción de un cliente para un nodo específico, recalificar un proveedor alternativo implica un ciclo de 12-24 meses con riesgo real de pérdida de rendimiento (yield) de la fábrica completa — no es un costo de cambio contractual o de marca, es un costo de cambio de ingeniería de proceso con dinero real en juego en cada oblea perdida.
+2. **Anualidad de base instalada.** Los ingresos de repuestos, actualizaciones y servicio crecen con la flota acumulada de máquinas ya instaladas, independientemente del ciclo de compra de equipo nuevo — esto amortigua (aunque no elimina) la ciclicidad y da una segunda fuente de poder de fijación de precios no ligada a la decisión de compra puntual de un fab.
+3. **Escala compartida de I+D en un oligopolio genuino.** El costo fijo de desarrollar la siguiente generación de herramientas (transistores gate-all-around, entrega de energía por la cara posterior de la oblea) solo se amortiza si vendes a escala global — de ahí que sobrevivan 3-5 jugadores creíbles en el mundo entero, no 20.
+
+**Ataque más serio ya sobrevivido, con fecha:** los controles de exportación de EE.UU. del 7 de octubre de 2022 (BIS), que restringieron la venta de equipo avanzado de semiconductores a China. Lam advirtió en su momento un impacto de USD 2.000-2.500 millones en ingresos. El desenlace real fue más complejo que un simple golpe: la porción de ingresos de China de Lam en realidad **subió** a corto plazo (hasta ~48% de los ingresos totales en un trimestre, desde ~30% el año anterior) porque los fabricantes chinos adelantaron pedidos de equipo de nodo maduro aún no restringido, en paralelo con una corrección cíclica genuina del gasto de memoria en 2023 (los ingresos totales de Lam cayeron de USD 17.429M en FY2023 a USD 14.905M en FY2024, -14,5%). Hacia FY2026 la mezcla se ha normalizado a la baja (China cayendo a ~26% de ingresos en el trimestre de junio-2026, con guía de <30% para el año calendario 2026) mientras Taiwán alcanzó un récord de 27% de ingresos en el mismo trimestre, impulsado por el gasto en lógica avanzada y memoria de alto ancho de banda (HBM) ligado a IA. Conclusión: el moat absorbió un shock geopolítico serio con volatilidad de ingresos real en el camino, pero sin pérdida estructural de posición relativa — los ingresos totales llegaron a USD 23.233M en FY2026, muy por encima del pico pre-shock.
+
+## Paso 5 — Motor de reinversión (g = tasa de reinversión × ROIC incremental)
+
+Del 10-K FY2026 (ejercicio cerrado 28-jun-2026, HECHO EDGAR/agregador):
+- Capex total: USD 966,4M
+- D&A: USD 441,5M → **capex de mantenimiento ≈ D&A ≈ USD 441,5M**
+- **Capex de crecimiento = capex total − D&A ≈ USD 524,9M**
+- Ingreso neto (proxy de NOPAT, razonable dado el efectivo neto positivo y deuda mínima de ~USD 4.100M contra caja de ~USD 5.580M): USD 7.265M
+- ROIC reportado por agregador: ~70% (consistente con el rango 47-72% de cinco años ya visto en Fase 1)
+
+**Tasa de reinversión (solo capex de crecimiento) ≈ 524,9 / 7.265 ≈ 7,2%.** Aplicando el ROIC del ~70%: g "motor puro" ≈ 7,2% × 70% ≈ **5-7% anual**. Esta cifra es baja no porque el negocio esté estancado, sino porque es un negocio de capital ligero: el capex total es apenas ~4,2% de los ingresos FY2026. Comparar esto contra el CAGR de ingresos realmente demostrado entre FY2022 (USD 17.227M, un mini-pico previo del ciclo) y FY2026 (USD 23.233M) da ~7,8% anual — es decir, **el motor de reinversión "limpio" y el crecimiento demostrado a través del ciclo convergen razonablemente en la zona de 5-8% anual.** El +26% interanual de FY2026 no vino de que Lam desplegara mucho más capital propio, sino de apalancamiento operativo sobre una capacidad instalada relativamente fija, montado sobre la ola de gasto de capex de los fabricantes de chips (WFE) impulsada por IA.
+
+**Qué limita el crecimiento:** no es el capital desplegable (Lam genera más caja de la que reinvierte — USD 3.851M de recompras en FY2026 frente a solo USD 524,9M de capex de crecimiento), sino el techo de demanda de sus clientes: el gasto de capex de fabricantes de memoria y lógica avanzada (Samsung, SK Hynix, Micron, TSMC, Intel) se mueve en oleadas plurianuales, y ese techo de demanda total del mercado (WFE) es compartido con 3-5 competidores. Los controles de exportación y el talento de ingeniería para mantener el ritmo de la hoja de ruta de nodos (gate-all-around, entrega de energía por la cara posterior) son limitantes secundarias, no la principal. **Pista genuina:** el superciclo de capex de IA (HBM, lógica avanzada) da varios años más de viento de cola documentado (guía de WFE de la industria elevada a ~USD 140.000M citada en la llamada de resultados de abril-2026), pero es—por definición de la propia historia de la empresa— temporal: ya hubo una caída de -14,5% en ingresos entre FY2023 y FY2024.
+
+## Paso 8 ligero — Pre-mortem resumido
+
+1. **Endurecimiento adicional de controles de exportación a China / sustitución doméstica china.** Mecanismo específico: si Washington cierra las excepciones que aún permiten vender equipo de nodo maduro, o si NAURA/AMEC (competidores domésticos chinos) capturan cuota en el segmento de nodo maduro que hoy sigue siendo de Lam, la porción de ingresos de China (ya cayendo de ~48% a <30% desde 2022) podría seguir erosionándose de forma estructural, no cíclica. Métrica observable: % de ingresos de China por trimestre y cuota de mercado reportada de NAURA/AMEC en el gasto doméstico chino de WFE.
+2. **Corrección cíclica del gasto de capex de memoria/lógica (repetición de 2023).** Mecanismo específico: si los precios de DRAM/NAND o las señales de sobre-inversión en IA llevan a Samsung/SK Hynix/Micron a recortar guía de capex (como ocurrió en 2023, cuando los ingresos de Lam cayeron -14,5% en un año), el ingreso y el FCF actuales —que están en o cerca de un pico de ciclo— se contraerían con fuerza. Métrica observable: guía de capex trimestral de los tres grandes fabricantes de memoria y el pronóstico de gasto de WFE de SEMI/Gartner.
+3. **Pérdida de "cuota de oblea" en la transición de nodo.** Mecanismo específico: si la litografía EUV de alta apertura numérica u otra innovación de proceso reduce el número de pasos de grabado/depósito necesarios por oblea en los próximos nodos, o si Tokyo Electron/Applied Materials ganan la calificación en un nodo clave (gate-all-around, entrega de energía por la cara posterior), Lam perdería ingresos por oblea aunque el mercado total de WFE siga creciendo. Métrica observable: ingresos por oblea/paso de proceso de etch+depósito reportados o inferidos en los nodos N2/A16 de TSMC y equivalentes de Samsung/Intel, y anuncios de multi-sourcing de los clientes.
+
+## Paso 9 ligero — DCF inverso rápido
+
+Datos de precio (HECHO con fecha, stockanalysis.com, 2026-09-06/07): precio USD 306,67, capitalización de mercado USD 384.960M, valor de empresa (EV) USD 383.510M (caja neta positiva). Base de FCF: USD 4.891M (FCF FY2026, cerca de un pico de ciclo — sesgo a tener en cuenta).
+
+**Supuesto de WACC (rápido, de mercado, NO el bottom-up completo del Candado B):** 8-9%. Justificación: mega-cap de mercado desarrollado sin riesgo país propio, pero con beta elevado (1,86) y ciclicidad de ingresos real y demostrada (-14,5% en un solo año de bajada de ciclo) — eso empuja el WACC hacia el extremo alto del rango típico de mega-caps, no al 7% de un negocio verdaderamente estable tipo peaje.
+
+Con un modelo de dos etapas (N=10 años de crecimiento alto + perpetuidad terminal al 2,5%), el crecimiento anual sostenido que el precio de hoy exige para justificar el EV actual es de aproximadamente **21-24% anual durante una década completa** (21% en el extremo de WACC 8%, 24% en el extremo de WACC 9%) antes de caer a un 2,5% terminal.
+
+**Comparación con el Paso 5:** el motor de reinversión "limpio" (tasa de reinversión × ROIC) da ~5-7% anual, y el CAGR de ingresos realmente demostrado a través del ciclo (FY2022→FY2026) da ~7,8% anual. El precio de hoy exige entre **13 y 16 puntos porcentuales por encima** de cualquiera de esas dos medidas independientes de crecimiento sostenible, y lo exige sostenido diez años seguidos sin una sola corrección de ciclo — algo que la propia historia reciente de la empresa contradice (ya hubo una caída de -14,5% hace apenas tres años fiscales). El mercado, en otras palabras, está pagando como si el pico cíclico actual impulsado por capex de IA fuera la tasa de crecimiento estructural permanente de la empresa, no un pico de ola de gasto de clientes.
+
+---
+
+## Síntesis y veredicto preliminar
+
+Calidad: el mecanismo del moat es real y específico (costo de cambio de calificación de proceso + anualidad de base instalada + oligopolio de I+D compartida), y ya sobrevivió un shock geopolítico serio y verificable (controles de exportación de octubre-2022) sin pérdida estructural de posición — solo con volatilidad de ingresos real en el camino. El motor de reinversión es sano precisamente por ser de capital ligero (ROIC ~70%, reinversión de crecimiento de solo ~7% del NOPAT), aunque su techo de crecimiento lo pone la demanda cíclica de los clientes, no el capital disponible. El pre-mortem tiene riesgos concretos y medibles (geopolítica, ciclo de memoria, transición de nodo), ninguno de los cuales rompe el mecanismo del moat por sí solo, pero todos son reales y ya se han materializado parcialmente antes.
+
+Precio: el DCF inverso rápido exige un crecimiento del orden de 21-24% anual durante una década, muy por encima tanto del motor de reinversión calculado (~5-7%) como del crecimiento demostrado a través del ciclo (~7,8%). Es una exigencia extrema que solo se sostiene si el pico actual del superciclo de capex de IA se trata como permanente.
+
+**Veredicto preliminar: CALIDAD_SOLIDA_PRECIO_NO_LO_PERMITE_HOY.**

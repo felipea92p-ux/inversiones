@@ -1,0 +1,59 @@
+{
+ "ticker": "ACN",
+ "name": "Accenture plc",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Servicios profesionales con apalancamiento operativo moderado (op margin 17% Q3, ~15-16% FY) pero NO escalable estilo software: el crecimiento exige headcount, no es modelo de margen creciente con volumen."
+  },
+  "R2": {
+   "score": 1,
+   "just": "Transformacion digital/cloud/datos es secular, pero el +3% organico LC y la amenaza GenAI al modelo de horas-consultoria nublan la durabilidad del viento de cola."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Lider global #1 en IT services/consulting con escala (~$70B revenue, 700k+ empleados) muy por delante de pares puros, aunque compite con IBM/Deloitte/TCS en frentes distintos."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat de intangibles: marca, relaciones C-suite Fortune 500, escala de talento y costes de cambio en proyectos largos; solido pero replicable parcialmente y vulnerable a disrupcion GenAI."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento organico real +7% FY25 / +3% LC Q3 con M&A bolt-on disciplinado y reinvertido, no roll-up destructor de capital."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Diversificacion ejemplar: ningun cliente material >10%, multi-geografia, multi-industria y multi-servicio (Strategy/Consulting/Technology/Operations/Song)."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC ~27% (estimado) muy por encima del WACC, FCF $10.9B con margen 15.6%, capex bajo (negocio asset-light) y FCF/NI alto."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Caja neta ~$1.78B (o ~$5B base funded-debt), ND/EBITDA -0.14x: balance fortaleza con cero apalancamiento neto."
+  },
+  "R9": {
+   "score": 0.5,
+   "just": "REGLA DURA: SBC verificada ~22.5% del FCF (>15%) limita R9 a maximo 0.5; contabilidad por lo demas limpia y conservadora (GAAP=adj)."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Gestion solida: asignacion de capital balanceada (dividendo + buybacks + M&A bolt-on), guidance RAISED pese al crash, historial de retorno de caja; skin-in-the-game modesto."
+  }
+ },
+ "amplification": false,
+ "amplification_note": "R3 (lider #1) y R4 (moat de intangibles) se refuerzan, pero R1 NO es escalable estilo software (modelo people-based intensivo en headcount), por lo que el triangulo R1+R3+R4 no alcanza la dominancia monstruosa e irreplicable que exige la amplificacion.",
+ "moat_type": "intangibles + costes de cambio",
+ "moat_one_line": "Marca global #1 en IT services, relaciones C-suite Fortune 500 y escala de talento (700k+) generan costes de cambio en proyectos plurianuales, aunque la intensidad people-based y la disrupcion GenAI lo hacen menos irreplicable que un moat de red.",
+ "thesis_3lines": [
+  "Calidad: lider global #1 en consultoria/IT services con ROIC ~27%, caja neta y FCF $10.9B (margen 15.6%), un compounder asset-light de diversificacion ejemplar.",
+  "Motor: crecimiento organico secular en digital/cloud/datos y ahora GenAI, con guidance FY26 RAISED a +3-4% LC y EPS adj +7-8% pese al ruido macro/federal.",
+  "Valoracion: tras caer ~56% en 52 semanas cotiza a fwd P/E ~9x vs media 5a ~25.5x (descuento ~-66%) con PEG 1.24, un de-rating que descuenta exceso de pesimismo sobre la disrupcion GenAI."
+ ],
+ "bear_case_strongest": "La GenAI puede comprimir estructuralmente el modelo de consultoria basado en horas-hombre (deflactando el valor de cada proyecto), evidenciado por bookings cayendo 2-3% y crecimiento organico desacelerando a +3% LC: el descuento del 66% podria no ser una ganga sino el mercado descontando correctamente una compresion permanente del TAM y de los margenes de Accenture.",
+ "sbc_flag": "sbc_gt_15_fcf",
+ "ethical_flag": "none",
+ "notes": "Re-score total = 13.5/13.5 antes de aplicar techo conceptual; suma efectiva = 13.5. Desglose: R1 1.0, R2 1.0, R3 1.5, R4 1.5, R5 1.5, R6 1.5, R7 1.5, R8 1.5, R9 0.5 (REGLA DURA SBC ~22.5% FCF), R10 1.5 = 13.0. La penalizacion SBC (R9 capada a 0.5 por SBC >15% pero <25% del FCF) es el principal lastre frente al score preliminar 12.5. Calidad estructural QG intacta (lider, caja neta, ROIC alto, organico) pero la tesis es CONTRARIAN: depende de que el de-rating del 66% sobreestime la amenaza GenAI. Datos clave estimados (no verificados primariamente): ROIC, fwd_pe, SBC%; la SBC%FCF verificada por cash-flow statement (~$2.4-2.5B SBC vs $10.9B FCF) es robusta para la regla dura. data_quality MIXED."
+}

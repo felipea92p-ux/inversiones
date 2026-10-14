@@ -1,0 +1,48 @@
+{
+ "ticker": "FICO",
+ "name": "Fair Isaac Corporation",
+ "currency": "USD",
+ "price_verified": 1090.85,
+ "price_source": "StockAnalysis.com (cross-checked vs Yahoo Finance / Macrotrends)",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.02319,
+ "implied_mcap_b_usd": 25.3,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 10.6,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.28,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = FCF reportado $769.9M - 100% SBC $156.667M = $613.2M (~$26.44/accion). Base de partida del DCF.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 459.17,
+   "prob": 0.38,
+   "note": "Fase 1 CAGR owner-FCF 12% (decel fuerte: viento en contra hipotecario, presion regulatoria/politica sobre pricing de Scores), Fase 2 declinando a 5%, g terminal 3.0%, WACC 10.6%, menos deuda neta $3.42B. Pesimista razonable, no apocaliptico."
+  },
+  "base": {
+   "iv_per_share": 704.22,
+   "prob": 0.47,
+   "note": "Fase 1 CAGR 18% (franquicia Scores con pricing power intacto, software ARR +10%, NRR 109%), Fase 2 declinando a 6%, g 3.0%. Coherente con guia FY2026 (+23% rev) moderandose."
+  },
+  "optimista": {
+   "iv_per_share": 1063.71,
+   "prob": 0.15,
+   "note": "Fase 1 CAGR 24% (continuo poder de precios en Scores +60%, nuevos productos de score, recuperacion de volumenes hipotecarios), Fase 2 a 8%, g 3.0%."
+  }
+ },
+ "iv_dcf_weighted": 665.03,
+ "multiple_metric": "P/E adelantado (NTM, EPS no-GAAP consenso ~$48.9)",
+ "fwd_multiple_now": 22.31,
+ "fwd_multiple_5y_avg": 41.2,
+ "fair_multiple": 30,
+ "multiple_rationale": "La media 5a de 41.2x esta inflada por el pico-burbuja de ~70x en 2024. Aplico un haircut explicito a 30x (~-27% vs media 5a), nivel de P/E adelantado pre-burbuja normalizado y consistente con franquicias de calidad comparables. El haircut NO refleja deterioro operativo (Scores +60%, ROIC 47%, margen FCF 39%, guia subida) sino prudencia ante (1) ciclicidad de volumenes hipotecarios y (2) ruido regulatorio/politico sobre el pricing de la puntuacion crediticia. IV_multiple = $48.9 NTM EPS x 30 = $1,466.85.",
+ "iv_multiple": 1466.85,
+ "weight_dcf": 0.45,
+ "weight_multiple": 0.55,
+ "reconciled_iv": 1106.03,
+ "structural_change": "Ninguno operativo. Al contrario: aceleracion (rev +39% YoY Q2 FY26, Scores +60%, organico ~16% FY25, ROIC ~47%, NRR 109%, guia FY2026 SUBIDA a rev $2.45B / EPS no-GAAP $40.45). La caida -45% desde max 52s y -54% desde ATH es compresion de multiplo desde extremos (~70x fwd P/E en 2024 a ~22x hoy) + ruido regulatorio/hipotecario = fear_rotation, no deterioro del negocio. Unico matiz estructural: posible techo regulatorio/politico al pricing ilimitado de Scores (justifica haircut de multiplo, no recorte de calidad).",
+ "sanity_notes": "Precio $1,090.85 y acciones diluidas ~23.19M re-verificados (StockAnalysis/Yahoo/Macrotrends). Implied mcap = 1,090.85 x 23.19M = $25.3B, coincide con escala conocida -> mcap_sanity_ok=true. FICO recompra agresivamente con deuda (acciones cayendo), por lo que diluido ~= basico. NET DEBT real +$3.42B (deuda LP $3,639.1M - caja $219.4M a 31-mar-2026); restada del EV en el DCF. Beta 1.28 (StockAnalysis). El fwd_pe 22.31x del JSON usa EPS NTM consenso (~$48.9, FY2027), misma base que la media 5a de 41.2x; el multiplo se ancla consistentemente sobre esa base NTM. Reconciled IV $1,106 ~ fair value vs precio $1,090.85 (+1.4% upside): la accion ha pasado de cara a razonablemente valorada tras la compresion, con margen de seguridad limitado pero calidad excepcional intacta. El DCF puro ($665) infra-credita la reinversion a ROIC ~47%; por eso se pondera mas el ancla de multiplo (0.55) pero se mantiene 0.45 en DCF por ciclicidad hipotecaria y riesgo regulatorio."
+}

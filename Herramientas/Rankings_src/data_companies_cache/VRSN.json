@@ -1,0 +1,98 @@
+{
+ "ticker": "VRSN",
+ "name": "Verisign, Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 247.69,
+ "market_cap_usd_b": 22.57,
+ "fwd_pe": 25.51,
+ "fwd_pe_5y_avg": 29,
+ "pe_prem_disc_pct": -12,
+ "peg": null,
+ "last_q": {
+  "period": "Q1 2026 (ended Mar 31, 2026)",
+  "revenue": "$428.9M",
+  "rev_yoy_pct": 6.6,
+  "op_margin_pct": 68.5,
+  "eps_gaap": "$2.34",
+  "eps_adj": "$2.34"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 31, 2025)",
+  "revenue": "$1.66B",
+  "organic_growth_pct": 6.4,
+  "roic_pct": null,
+  "fcf": "$1.068B",
+  "fcf_margin_pct": 64.3
+ },
+ "sbc_pct_revenue": 4.2,
+ "sbc_pct_fcf": 6.8,
+ "net_debt_usd_b": 1.23,
+ "nd_ebitda": 1.05,
+ "net_cash": false,
+ "guidance_fy": "FY2026: revenue $1.73B-$1.745B; operating income $1.17B-$1.185B (raised/affirmed at Q1; PROYECCION de la direccion). .com wholesale fee rises $10.26 -> $10.97 effective Nov 1, 2026.",
+ "pct_off_52w_high": -20.7,
+ "pct_off_ath": -20.7,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "guidance_fy",
+  "price",
+  "last_fy.fcf"
+ ],
+ "estimated_fields": [
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "market_cap_usd_b",
+  "last_fy.organic_growth_pct",
+  "last_fy.roic_pct",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "Verisign Reports First Quarter 2026 Results (8-K / press release, mirrored on StockTitan)",
+   "url": "https://www.stocktitan.net/sec-filings/VRSN/8-k-verisign-inc-ca-reports-material-event-22ce1a2ea808.html",
+   "date": "2026-04-23"
+  },
+  {
+   "label": "Verisign IR - Q1 2026 results press release (PDF)",
+   "url": "https://investor.verisign.com/static-files/fe73cf1b-c2fb-496e-91a9-52582845cffd",
+   "date": "2026-04-23"
+  },
+  {
+   "label": "StockAnalysis.com - VRSN overview (price, market cap, fwd P/E)",
+   "url": "https://stockanalysis.com/stocks/vrsn/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com - VRSN cash flow statement (FCF, SBC)",
+   "url": "https://stockanalysis.com/stocks/vrsn/financials/cash-flow-statement/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "FullRatio / Public.com - VRSN historical P/E (5yr avg ~29.6-30)",
+   "url": "https://fullratio.com/stocks/nasdaq-vrsn/pe-ratio",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Macrotrends - VRSN stock price history (52w high / ATH)",
+   "url": "https://www.macrotrends.net/stocks/charts/VRSN/verisign/stock-price-history",
+   "date": "2026-06-22"
+  }
+ ],
+ "notes": "Precio HOY $247.69 (-6.4% en el dia); market cap ~$22.6B. Q1 2026 VERIFICADO via press release/8-K: ingresos $428.9M (+6.6% YoY), margen operativo 68.5%, EPS GAAP diluido $2.34, FCF $265.2M (CFO $272.4M - capex $7.2M), repurchases $214M. Verisign no separa \"organico\" (negocio puro de registro .com/.net, asi que crecimiento reportado = organico). ROIC = null: equity es NEGATIVO por recompras masivas, lo que distorsiona ROIC (cifras reportadas >100%, no significativas economicamente). Deuda total $1,788.8M vs caja+valores $556.4M => deuda neta ~+$1.23B (NO es caja neta); ND/EBITDA ~1.05x (estimado, EBITDA ~$1.17B TTM con D&A baja). SBC TTM ~$71.3M => ~4.2% ingresos / ~6.8% FCF (SBC muy baja, positivo para R9). fwd_pe 25.51 (StockAnalysis) vs media 5a ~29 => descuento ~-12% (ESTIMADO; gurufocus 403). PEG null (no publicado). 52w high $312.48 ~ ATH (mayo 2026); -20.7% desde max. CLASIFICACION fear_rotation/not_depressed: fundamentales MEJORANDO (ingresos +6.6%, base de dominios record 176.1M +3.7%, subida de precio .com, guia FY2026 subida), por lo que la caida del ~20% desde maximos es rotacion/sentimiento, no deterioro genuino. guidance_fy es PROYECCION de la direccion."
+}

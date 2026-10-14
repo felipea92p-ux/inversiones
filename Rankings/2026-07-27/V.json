@@ -1,0 +1,250 @@
+{
+  "ticker": "V",
+  "empresa": "Visa Inc.",
+  "cik": "0001403161",
+  "fecha_analisis": "2026-07-27",
+  "divisa": "USD",
+  "etiqueta_calidad_congelada": "MUY_BUENA",
+  "nota_congelacion": "La etiqueta de calidad viene congelada del eje de comprension (4 puertas pasadas). El valorador NO la toca. Nada de lo que sigue reclasifica a V hacia arriba. Al abrir el precio aparecio la tentacion de decir 'en realidad esto es ULTRA porque la red no tiene sustituto'. Eso no es un hallazgo: es la contradiccion madre buscando otra puerta. Queda MUY_BUENA.",
+  "especie": "G2 — reinversion 10,1% de ventas · ROIIC bruto 53,8% · ROIIC ex-margen 56,4%",
+  "mecanismo_congelado": "Red de dos lados con 4.805 millones de credenciales frente a 3.146 del numero dos. Convierte el desplazamiento secular de efectivo a digital en 19.892 MUSD de NOPAT con solo 43.084 MUSD de capital invertido (ROIC minimo de ventana 27,7%) y devuelve la caja casi integra: reinvierte el 10,1% de las ventas y genera 1,06 USD de flujo libre por cada USD de beneficio.",
+  "eslabon_mas_debil_congelado": "No hay poder de precio unitario demostrable: el ingreso neto por transaccion procesada CAE de 0,166 a 0,155 USD entre FY2019 y FY2025 mientras el IPC sube un 26% — un 25% de caida REAL de precio por unidad. Todo el crecimiento depende de que el volumen corra mas rapido que la erosion regulatoria del interchange, cuyo reloj ya arranco.",
+  "posicion_en_cartera": {"si": true, "peso_nav_pct": 4.04, "decision_aplicable": "CARGAR", "posicion_ibkr": "15 acciones, precio medio 332,23 USD, valor 5.437,50 USD (HECHO — get_account_positions IBKR 2026-07-27)"},
+
+  "precio": {
+    "precio_usd": 362.31,
+    "fuente": "HECHO — snapshot en vivo IBKR (contract_id 49462172, NYSE), 2026-07-27. Ultimo trade 362,31; ultimo cierre semanal de la misma serie 362,53; precio de mercado en la linea de posicion 362,50.",
+    "cotiza_en": "NYSE, USD — no hay ADS ni conversion de divisa. Solo cotiza la clase A.",
+    "rango_52s": {"max": 365.14, "min": 293.90, "fuente": "HECHO — misc_statistics IBKR 2026-07-27"},
+    "contexto": "V cotiza a 0,8% de su maximo de 52 semanas (365,14) y un 23% por encima de su minimo (293,90, semana del 22-jun-2026). Ha rebotado un 23% en cinco semanas. Esto NO es un precio de panico: es un maximo historico practicamente exacto. Cualquier lectura de 'oportunidad' tiene que empezar admitiendo eso.",
+    "dividendo_yield_pct": 0.73
+  },
+
+  "acciones": {
+    "clase_a_en_circulacion": 1659709932,
+    "clase_b1": 4835384,
+    "clase_b2": 120338948,
+    "clase_c": 8880326,
+    "fecha_recuento": "2026-04-21",
+    "fuente_recuento": "HECHO — portada del 10-Q Q2 FY2026 (accession 0001403161-26-000079, v-20260331.htm)",
+    "acciones_usadas_para_capitalizacion": 1916000000,
+    "definicion": "Acciones diluidas EQUIVALENTES clase A (as-converted), Q2 FY2026 = 1.916 millones. HECHO — nota de BPA del 10-Q Q2 FY2026 (R61/R62): clase A basica 1.674 + B-1 as-converted 7 + B-2 as-converted 182 + C as-converted 36 + participating securities 16 = 1.915-1.916.",
+    "nota": "Visa tiene cuatro clases de comun (A, B-1, B-2, C) mas preferentes serie A/B/C convertibles. Valorar solo sobre la clase A subestimaria la capitalizacion en un 15%. Uso el recuento as-converted diluido, que es el que la propia empresa emplea para el BPA y para su guia. Media diluida FY2025 = 1.966 M; Q2 FY2026 = 1.916 M: la recompra retira ~2,5% al año neto.",
+    "recompra": "HECHO — 11.625 MUSD recomprados en el semestre a 31-mar-2026 (25 M acciones en Q2 a 320,66 USD de media). 18.316 MUSD en FY2025. En abril de 2026 el consejo autorizo un nuevo programa de 20.000 MUSD. Quedaban 13.200 MUSD autorizados al 31-mar-2026.",
+    "advertencia_estructura": "El 13-abr-2026 Visa lanzo una oferta de canje de clase B-1 y B-2 por clase B-3 + clase C + efectivo, con vencimiento el 8-may-2026. Los depositos al escrow de litigio reducen mecanicamente el recuento as-converted de las clases B — es decir, el coste del litigio MDL lo pagan los accionistas B via dilucion inversa, no los accionistas A via caja. Esto es material para interpretar el flujo de caja de FY2026 y esta declarado abajo."
+  },
+
+  "capitalizacion_y_ev_usd_mm": {
+    "capitalizacion": 694186,
+    "deuda_financiera_bruta": 23976,
+    "detalle_deuda": "Current maturities of debt 1.559 + Long-term debt 22.417 al 2026-03-31 (HECHO, 10-Q Q2 FY2026, balance). Valor nominal de los senior notes 24.261, menos 172 de descuentos y costes de emision y 113 de ajustes de cobertura a valor razonable. Papel comercial en circulacion: 0 al 31-mar-2026 (500 M emitidos en abril, posterior al corte).",
+    "efectivo_y_equivalentes": 12404,
+    "inversiones_corto_plazo": 1509,
+    "inversiones_largo_plazo": 308,
+    "deuda_neta": 9755,
+    "ev": 703941,
+    "nota_escrow": "NO cuento como caja los 665 MUSD de 'restricted cash equivalents — U.S. litigation escrow'. Estan pignorados contra el pasivo de litigio (accrued litigation 981 MUSD). Contarlos inflaria el equity con dinero que ya tiene dueño. Simetricamente tampoco sumo el pasivo de litigio a la deuda: se compensan aproximadamente.",
+    "nota_customer_collateral": "Los 4.292 MUSD de customer collateral aparecen identicos en activo y pasivo: son garantias de clientes, netos cero. No tocan el EV.",
+    "nota_valor_mercado_deuda": "HUECO: uso valor contable de la deuda como aproximacion de su valor de mercado. Con el 10 años al 4,65% y una escalera de cupones que va del 0,75% al 4,70% (la mayoria emitida en 2020-2021 muy por debajo del mercado actual), el valor de mercado real es MENOR que el contable — probablemente entre 20.000 y 22.000 MUSD. El EV verdadero seria 2.000-4.000 MUSD mas bajo, un 0,5% del total. Efecto sobre el WACC: despreciable, la deuda pesa el 3,3%."
+  },
+
+  "candado_b_wacc_de_mercado": {
+    "principio": "El WACC sale del mercado, jamas de un tier de calidad. Ninguna cifra de aqui se ha heredado de la etiqueta MUY_BUENA.",
+    "tasa_libre_riesgo_pct": 4.65,
+    "tasa_libre_riesgo_fuente": "HECHO — US Treasury, Daily Treasury Par Yield Curve Rates, bono a 10 años, 27-jul-2026: 4,65%. Descargado del csv oficial de home.treasury.gov. Moneda funcional de Visa = USD, luego el soberano correcto es el Tesoro de EE.UU. (referencia: 24-jul 4,69%; 23-jul 4,71%; la curva ha bajado 6 pb en tres sesiones).",
+    "beta": 0.833,
+    "beta_fuente": "HECHO (medicion propia, reproducible) — regresion OLS de 262 rendimientos SEMANALES de V contra SPY, cierres IBKR del 2021-07-30 al 2026-07-27. Beta 5 años = 0,833 (R2 0,379; error estandar 0,066; IC95 0,70-0,96).",
+    "beta_cross_checks": "3 años = 0,739 (SE 0,088); 2 años = 0,743 (SE 0,110); mensual 60 meses = 0,734 (SE 0,130); ajuste Blume sobre la de 5 años = 0,888. Volatilidad anualizada V 21,9% vs SPY 16,2%. La beta de V es sistematicamente inferior a la de MA (0,878) medida con el mismo metodo y la misma ventana — coherente con una base de ingresos mas diversificada geograficamente y menos apalancada al ciclo estadounidense.",
+    "beta_hueco": "HUECO: no cito una beta de un tercero (Bloomberg, Barra, Value Line) porque no tengo acceso verificable a ninguna. La beta usada es medicion propia con datos, ventana y metodo declarados, no un numero copiado de un agregador.",
+    "prima_mercado_pct": 4.23,
+    "prima_mercado_fuente": "HECHO — Aswath Damodaran (NYU Stern), ctryprem.xlsx descargado de pages.stern.nyu.edu el 2026-07-27. Prima de mercado MADURO = 4,23%. La ERP total de EE.UU. en el mismo archivo es 4,46% = 4,23% madura + 0,23% de prima pais estadounidense (EE.UU. rebajado a Aa1 por Moody's). Cross-check en la pagina principal del autor: 'Implied ERP on July 1, 2026 = 4,18% (trailing 12 month, with adjusted payout)' con tipo del Tesoro del 4,45%.",
+    "prima_pais_pct": 1.12,
+    "prima_pais_metodo": "INFERENCIA — prima pais del riesgo de ACTIVO, no del domicilio fiscal. HECHO de partida: Visa desglosa ingreso neto FY2025 en EE.UU. 15.633 MUSD (39,1%) e Internacional 24.367 MUSD (60,9%) — 10-K FY2025, nota de ingresos (R53). Damodaran solo publica CRP por pais y Visa no da reparto pais a pais, asi que construyo una cesta con pesos SUPUESTOS que aproximan donde vive el volumen: 39% EE.UU. (CRP 0,233%), 22% Europa occidental desarrollada (mezcla RU 0,776% / Francia 0,776% / Alemania 0,000% / Italia 2,465% / España 1,551% ≈ 0,85%), 9% Asia desarrollada (Japon 0,913%, Australia 0,000%, Singapur 0,000%, Corea ≈ 0,6%), 3% Canada (0,000%), 10% Latam (Brasil 3,241%, Mexico 2,465%, Chile 1,096%, Colombia 2,845%, Argentina 9,707% ≈ 2,9%), 17% CEMEA + India + sudeste asiatico + China (India 2,845%, China 0,913%, Sudafrica 3,895%, Turquia 4,660%, Polonia 1,096% ≈ 2,9%). Resultado ponderado: 1,12%.",
+    "prima_pais_hueco": "HUECO declarado: los pesos de la cesta son SUPUESTO mio, no un dato de Visa. Rango razonable de la CRP mezclada: 0,7% (si la exposicion emergente es menor de lo que supongo, dado que buena parte del 'internacional' de Visa es volumen transfronterizo originado en paises ricos) a 1,7% (si la compra de Prisma/Newpay en Argentina marca una linea de expansion hacia mercados de rating bajo). El rango del WACC lo cubre.",
+    "coste_deuda_pct": 2.56,
+    "coste_deuda_metodo": "HECHO/INFERENCIA — coste REAL derivado del filing, como manda el candado: gasto financiero FY2025 = 589 MUSD (10-K, cuenta de resultados) sobre deuda media ((20.836 + 0) + (19.602 + 5.569)) / 2 = 23.004 MUSD => 2,56% antes de impuestos. Tipo impositivo efectivo FY2025 = 4.136 / 24.194 = 17,10% (HECHO, 10-K) => coste de deuda despues de impuestos 2,12%. Cruce independiente: pagos de intereses en efectivo FY2025 = 587 MUSD (nota suplementaria del estado de flujos), practicamente identico al gasto devengado.",
+    "coste_deuda_nota": "El coste MARGINAL hoy es MUY superior: Visa emitio 3.000 MUSD el 12-feb-2026 con cupones del 3,80% (3 años) al 4,70% (10 años) — HECHO, 10-Q Q2 FY2026, nota de deuda. Con el 10 años al 4,65% y el diferencial de un emisor AA-, el marginal esta en 4,9-5,1%. Uso el real del filing (2,56%) porque es lo que pide el candado; con el marginal el WACC sube 8 pb (a 9,13%), lo cual esta dentro del rango declarado y no cambia nada.",
+    "coste_equity_pct": 9.29,
+    "coste_equity_formula": "Ke = 4,65% + 0,833 x 4,23% + 1,12% = 9,29%. Aplico la prima pais como sumando separado (metodo Damodaran de exposicion directa) en lugar de multiplicarla por la beta; multiplicandola saldria 9,15%, 14 pb menos. Irrelevante.",
+    "ponderacion": "A valor de mercado: equity 694.186 MUSD (96,66%), deuda 23.976 MUSD (3,34%).",
+    "wacc_pct": 9.05,
+    "wacc_rango": "8,1% - 9,7%",
+    "wacc_rango_metodo": "Extremo bajo: beta 0,739 (ventana de 3 años) y ERP total 4,9% => Ke 8,27% => WACC 8,07%. Extremo alto: beta 0,888 (ajuste Blume) y ERP total 6,0% => Ke 9,98% => WACC 9,72%.",
+    "nota_comparabilidad": "Mismo metodo, misma ventana y mismas fuentes que el expediente de MA de la misma fecha (MA: beta 0,878, WACC 9,20%). La diferencia entre ambos WACC (15 pb) es beta pura, no juicio."
+  },
+
+  "owner_earnings": {
+    "principio": "Dos versiones obligatorias sobre dos bases. La version (a) resta solo el capex de MANTENIMIENTO, aproximado por la depreciacion y amortizacion: el exceso sobre la D&A es inversion discrecional y NO se penaliza. La version (b) resta TODO el capex — flujo de caja libre puro. Punto de partida en ambas: el flujo de caja operativo del filing.",
+    "base_auditada": {
+      "ejercicio": "FY2025 (cerrado el 30-sep-2025)",
+      "fuente": "HECHO — 10-K presentado el 2025-11-06, accession 0001403161-25-000089. Cuenta de resultados (R5), estado de flujos de caja (R9), nota de ingresos (R53), nota de BPA (R89).",
+      "ingreso_neto_usd_mm": 40000,
+      "resultado_operativo_usd_mm": 23994,
+      "beneficio_neto_usd_mm": 20058,
+      "flujo_caja_operativo_usd_mm": 23059,
+      "depreciacion_y_amortizacion_usd_mm": 1220,
+      "capex_ppe_y_tecnologia_usd_mm": 1482,
+      "oe_mantenimiento_usd_mm": 21839,
+      "oe_capex_total_usd_mm": 21577,
+      "oe_mantenimiento_desapalancado_usd_mm": 22327,
+      "oe_capex_total_desapalancado_usd_mm": 22065,
+      "observacion_clave": "La distancia entre las dos versiones es de 262 MUSD sobre 21.800 — un 1,2%. En Visa el debate mantenimiento-vs-crecimiento en el capex no existe practicamente: el capex total (1.482 MUSD, el 3,7% de las ventas) apenas supera la depreciacion (1.220). Este NO es el negocio donde la version (a) rescata a una reinvertidora de ser penalizada — no hay nada que rescatar. La reinversion de Visa del 10,1% de ventas no vive en el capex: vive en los incentivos a clientes (15.751 MUSD devengados en FY2025) y en las adquisiciones (887 MUSD)."
+    },
+    "base_en_curso": {
+      "ejercicio": "FY2026E (cierra el 30-sep-2026)",
+      "trimestres_publicados": "Q1 FY2026 (10-Q del 2026-01-30) y Q2 FY2026 (10-Q del 2026-04-29). Semestre completo a 31-mar-2026 en la mano. Q3 FY2026 se publica el 28-jul-2026: UN DIA despues de esta fecha de corte.",
+      "semestre_hechos": {
+        "ingreso_neto_usd_mm": 22131,
+        "ingreso_neto_var_pct": 15.8,
+        "resultado_operativo_usd_mm": 13971,
+        "beneficio_neto_usd_mm": 11874,
+        "beneficio_neto_var_pct": 22.5,
+        "bpa_diluido_usd": 6.17,
+        "flujo_caja_operativo_usd_mm": 9788,
+        "flujo_caja_operativo_var_pct": -3.0,
+        "capex_usd_mm": 761,
+        "d_and_a_usd_mm": 659,
+        "tipo_impositivo_efectivo_pct": 14.6
+      },
+      "drivers_q2_hechos": "Volumen de pagos +9% a moneda constante; volumen transfronterizo excluyendo intra-Europa +11% constante (+17% nominal); transacciones procesadas 66.100 millones, +9%; ingreso de servicios +13%; procesamiento de datos +18%; transaccion internacional +10%; 'otros ingresos' +41%; incentivos a clientes +14%. Ingreso neto +17% nominal, +16% a moneda constante. (HECHO — 8-K del 2026-04-28, EX-99.1).",
+      "ocf_estimado_usd_mm": 24600,
+      "d_and_a_estimado_usd_mm": 1370,
+      "capex_total_estimado_usd_mm": 1680,
+      "oe_mantenimiento_usd_mm": 23230,
+      "oe_capex_total_usd_mm": 22920,
+      "oe_mantenimiento_desapalancado_usd_mm": 23868,
+      "oe_capex_total_desapalancado_usd_mm": 23558,
+      "metodo": "INFERENCIA. El OCF del semestre (9.788) NO se puede duplicar: el flujo de Visa esta cargado al segundo semestre (H1 fue el 43,8% del año en FY2025 y el 40,9% en FY2024). Ademas H1 FY2026 arrastra un cargo excepcional: la partida 'accrued litigation' del estado de flujos resta 2.052 MUSD (frente a un +351 en H1 FY2025) porque Visa por fin esta PAGANDO el MDL de interchange — el escrow de litigio restringido cayo de 2.990 a 665 MUSD. H2 FY2025 genero 12.968 MUSD de OCF; aplicando el +18% subyacente y descontando ~500 MUSD mas de pagos de litigio, estimo H2 FY2026 en ~14.800 => FY2026E OCF ≈ 24.600 MUSD (+6,7%). D&A y capex anualizados con la estacionalidad de FY2025 (H1 fue el 48,1% y el 45,3% respectivamente).",
+      "lectura_alternativa_ex_litigio": "Si se excluyen de ambos años los movimientos de la provision de litigio, el OCF subyacente de FY2025 fue 21.756 MUSD y el de FY2026E seria ≈ 26.400 MUSD: +21,5%. Esa es la cifra que veria quien acepte el argumento (correcto en la estructura de Visa) de que el MDL lo paga el escrow financiado por los accionistas clase B, no la caja operativa de los clase A. Reporto la version conservadora (24.600) en cabecera y esta declarada. Usar 26.400 subiria el valor por accion un 12% y seguiria sin producir margen de seguridad.",
+      "hueco": "HUECO IMPORTANTE: la guia oficial de Visa para FY2026 NO aparece en ningun documento primario. La empresa la da verbalmente en la conferencia de resultados; la nota de prensa del 8-K del 28-abr-2026 (accession 0001403161-26-000077, EX-99.1) no la contiene. No he accedido a la transcripcion. El ejercicio en curso es estimacion mia, no guia de la empresa."
+    },
+    "distancia_entre_bases": {
+      "oe_mantenimiento_pct": 6.4,
+      "oe_capex_total_pct": 6.2,
+      "lectura": "Aqui esta la informacion, y NO es ruido. El beneficio neto del semestre crece un 22,5% pero el flujo de caja operativo CAE un 3%. La tijera son 25 puntos y tiene nombre: Visa esta desembolsando el litigio MDL que llevaba una decada provisionado (2.052 MUSD salidos por 'accrued litigation' en seis meses, escrow restringido de 2.990 a 665). Al mismo tiempo el beneficio contable se infla por tres vias que no son motor: divisa (volumen transfronterizo +21% nominal contra +12% constante, nueve puntos de dolar debil), la adquisicion de Prisma y Newpay en Argentina cerrada en febrero de 2026, y una base de comparacion floja en la provision de litigio (329 MUSD en Q2 FY2026 contra 1.000 en Q2 FY2025). Quien valore sobre el beneficio en curso esta capitalizando divisa, M&A y un cargo que no se repitio. Quien valore sobre el flujo en curso esta penalizando a Visa por pagar una factura vieja. Por eso reporto las dos bases y no promedio ninguna."
+    },
+    "nota_sbc": "La retribucion en acciones fue de 897 MUSD en FY2025 (HECHO, 10-K) y 506 en el semestre — un 4,1% de los owner earnings. El OCF la readmite como gasto no monetario. Si se resta como coste economico real, el OE de mantenimiento auditado baja a 20.942 MUSD y el valor por accion cae ~4%. No la resto en la cifra de cabecera, pero queda declarada. Contrapeso: Visa recompra 18.000-23.000 MUSD al año, veinte veces la SBC — la dilucion neta es negativa.",
+    "nota_incentivos": "El punto contable mas importante de Visa y el que mas mueve el numero: los incentivos a clientes devengados fueron 15.751 MUSD en FY2025 (39,4% del ingreso neto) y se pagaron 15.314 — practicamente a la par. En el semestre a 31-mar-2026: devengados 8.514, pagados 7.762. La reinversion del 10,1% de ventas que sostiene la especie G2 vive aqui, no en el capex. Este pago es exactamente el eslabon debil del mecanismo: es el precio de mantener el riel cuando no se puede subir el peaje. Si el ratio pagado/devengado se deteriorase, el OE se caeria sin que ningun capex lo avisara."
+  },
+
+  "dcf_inverso": {
+    "principio": "Para cada base: que crecimiento a 10 años, con terminal del 3%, justifica exactamente el precio de hoy al WACC calculado.",
+    "convencion": "Descuento flujos DESAPALANCADOS (owner earnings + intereses despues de impuestos) al WACC y comparo contra el EV; despues resto la deuda neta para llegar al valor por accion. Los owner earnings de cabecera son apalancados (el OCF ya paga intereses); les sumo 488 MUSD (auditado: 589 x 0,829) y 638 MUSD (en curso: 760 x 0,839) para desapalancarlos. La diferencia es del 2,2% y esta declarada.",
+    "wacc_usado_pct": 9.05,
+    "terminal_pct": 3.0,
+    "horizonte_anios": 10,
+    "g_implicita_auditado_mantenimiento_pct": 11.08,
+    "g_implicita_auditado_capex_total_pct": 11.23,
+    "g_implicita_encurso_mantenimiento_pct": 10.20,
+    "g_implicita_encurso_capex_total_pct": 10.38,
+    "lectura": "Comprar V hoy a 362,31 es firmar que los owner earnings crecen un 11,2% anual durante diez años si se parte del ultimo ejercicio auditado, o un 10,4% si se acepta el ejercicio en curso como punto de partida. Un punto de referencia duro: el ingreso neto de Visa crecio a un 10,7% compuesto entre FY2023 (32.653) y FY2025 (40.000), y las transacciones procesadas crecen al 9%. Es decir: el precio de hoy exige que Visa repita durante una decada entera su mejor tasa base reciente, sin desaceleracion, con el reloj regulatorio ya en marcha y con el precio unitario cayendo un 25% en real. No pide un milagro. Pide que nada se rompa nunca."
+  },
+
+  "g_defendible": {
+    "formula": "tasa de reinversion (% de ventas) x ROIIC EX-MARGEN — misma convencion aplicada a MA, MSFT y GOOGL en esta serie, para que las cifras sean comparables entre expedientes.",
+    "reinversion_pct_ventas": 10.1,
+    "roiic_ex_margen_pct": 56.4,
+    "roiic_bruto_pct": 53.8,
+    "g_defendible_pct": 5.7,
+    "por_que_ex_margen": "El ROIIC ex-margen (56,4%) es en este caso SUPERIOR al bruto (53,8%), algo poco frecuente: significa que en la ventana medida el margen operativo de Visa no ayudo, lo estorbo — coherente con la provision de litigio de 2.562 MUSD de FY2025. Uso el ex-margen igualmente, por disciplina de metodo: no quiero que la valoracion dependa de si el margen operativo del 60,0% (FY2025) se mueve arriba o abajo.",
+    "variante_declarada": "Si la tasa de reinversion se midiera sobre el NOPAT en vez de sobre las ventas (4.040 MUSD de reinversion / 19.892 de NOPAT = 20,3% x 56,4%), g saldria 11,45% — casualmente casi identica a la g implicita en el precio. NO uso esa variante porque rompe la comparabilidad con el resto de la serie y porque produce la respuesta que uno querria oir, que es exactamente el motivo para desconfiar de ella. Queda declarada porque es la diferencia entre 'V esta un 44% cara' y 'V esta en precio justo', y el lector merece saber que la conclusion depende de una convencion de denominador.",
+    "contraste_con_la_implicita": "El mercado pide 10,2%-11,2%. Yo defiendo 5,7%. El hueco es de 4,5 a 5,5 puntos de crecimiento anual durante diez años. No es un matiz: es la tesis entera."
+  },
+
+  "valor_intrinseco": {
+    "con_g_defendible_5_7pct_y_wacc_9_05pct": {
+      "auditado_mantenimiento_usd_accion": 238,
+      "auditado_capex_total_usd_accion": 236,
+      "encurso_mantenimiento_usd_accion": 255,
+      "encurso_capex_total_usd_accion": 252
+    },
+    "piso_de_resolucion": {
+      "regla": "Sin medicion propia del ruido, banda de mas/menos 25%. Nada de decimales falsos en el valor intrinseco.",
+      "banda_encurso_usd_accion": "189 - 315",
+      "banda_auditado_usd_accion": "177 - 294",
+      "lectura_honesta": "El precio de hoy (362) queda FUERA de las dos bandas por arriba. No es que este en el borde: esta un 15% por encima del techo de la banda mas generosa. Esta es la lectura mas limpia de todo el expediente, porque no depende de decimales — depende solo de que la g defendible sea 5,7% y no 10%."
+    },
+    "sensibilidad_wacc_base_encurso": {
+      "wacc_8_07_pct": {"valor_usd_accion": 304, "mos_pct": -19},
+      "wacc_9_05_pct": {"valor_usd_accion": 252, "mos_pct": -44},
+      "wacc_9_72_pct": {"valor_usd_accion": 225, "mos_pct": -61},
+      "lectura": "Incluso en el extremo mas benevolo del rango del WACC — beta de tres años y ERP total del 4,9% — el valor solo llega a 304 contra un precio de 362. No existe combinacion defendible de parametros de mercado que produzca descuento."
+    },
+    "sensibilidad_g_base_encurso": {
+      "g_5_7_pct": 252,
+      "g_7_0_pct": 285,
+      "g_9_0_pct": 349,
+      "g_10_4_pct": 362,
+      "lectura": "El precio de hoy equivale exactamente a g = 10,4%. Con la tasa base historica de ingresos (10,7%) el precio esta justificado; con la tasa base de transacciones procesadas (9%) faltaria un 4%; con la g del metodo (5,7%) sobra un 44%. La valoracion de Visa no es un problema de flujos ni de descuento: es una apuesta sobre una sola variable, la durabilidad de la tasa base."
+    }
+  },
+
+  "margen_de_seguridad": {
+    "mos_exigido_pct": 40,
+    "mos_exigido_nota": "V esta en cartera (4,04% del NAV), luego la decision aplicable es CARGAR. Segun la tabla recibida, CARGAR sobre etiqueta MUY_BUENA exige 40%. AMBIGUEDAD DECLARADA: el enunciado dice a la vez '30% para abrir, sube 12 puntos' (=42%) y lista '40% MUY_BUENA'. Tomo el 40% de la lista explicita. Con 42% la conclusion no cambia en absoluto.",
+    "mos_auditado_pct": -53.8,
+    "mos_encurso_pct": -43.9,
+    "veredicto_mos": "NO CARGAR. No hay margen de seguridad: hay prima. Falta el 40% exigido y ademas los 44-54 puntos de sobreprecio. La distancia total al umbral es de ~84 a ~94 puntos."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 20.0,
+    "m_estrella_definicion": "Multiplo de owner earnings DESAPALANCADOS (EV/OE) que acepto pagar por este negocio, decidido en frio. Sin barra de error: no es una estimacion, es una decision.",
+    "m_estrella_justificacion": "A un WACC del 9,05%, g del 5,7% durante diez años y terminal del 3%, el modelo escupe 20,9x. Fijo M* en 20,0x — un pelo por debajo, por la misma razon que en MA y agravada: el eslabon debil de Visa no es que el peaje crezca poco, es que el peaje CAE en terminos reales un 25% en seis años. Un negocio cuyo precio unitario retrocede solo puede pagarse por su volumen, y el volumen (transacciones procesadas +9%) es una variable que la regulacion puede tocar. No le pago el multiplo teorico completo a un motor cuya mitad esta expuesta a decisiones de terceros.",
+    "referencia_perpetuidad": "El multiplo de no crecimiento (terminal 3% desde el año 1) a este WACC es 16,8x. M* de 20,0x paga por unos seis puntos de crecimiento real; ni un centimo por opcionalidad de stablecoins, pagos agenticos ni servicios de valor añadido.",
+    "multiplo_actual_ev_oe_encurso": 29.9,
+    "multiplo_actual_ev_oe_auditado": 31.9,
+    "per_fy2025": 34.6,
+    "per_fy2026e": 28.8,
+    "precio_implicito_por_m_estrella_usd": 241,
+    "p_estrella_usd": 144.5,
+    "p_estrella_definicion": "Precio que da el MoS exigido del 40% sobre el valor por M* de la base en curso: (20,0 x 23.558 - 9.755) / 1.916 = 240,8; 240,8 x 0,60 = 144,5. Sobre la base auditada seria 135,1.",
+    "distancia_al_precio": "El precio de hoy esta un 151% por encima de P*. V tendria que caer un 60% para llegar al umbral de CARGAR. Que ese numero parezca absurdo es informacion, no un error del modelo: significa que un MoS del 40% sobre una calidad MUY_BUENA cotizando a 30 veces sus owner earnings es un umbral que solo se alcanza en un panico de mercado. La respuesta correcta no es bajar el umbral, es aceptar que hoy no toca."
+  },
+
+  "tir_esperada": {
+    "rango": "+3,8% a +7,2% anual a 10 años",
+    "detalle": {
+      "g_5_7_salida_16x_encurso": 3.8,
+      "g_5_7_salida_20x_encurso": 5.7,
+      "g_5_7_salida_24x_encurso": 7.2,
+      "g_5_7_salida_20x_auditado": 4.8,
+      "g_7_0_salida_20x_encurso": 7.0,
+      "g_9_0_salida_20x_encurso": 9.0,
+      "g_10_5_salida_20x_encurso": 10.5
+    },
+    "lectura": "Esta es la frase honesta que sustituye a un MoS negativo sin contenido: comprando a 362,31, si los owner earnings crecen al 5,7% durante diez años y el mercado paga entonces entre 16 y 24 veces, el comprador se lleva entre un 3,8% y un 7,2% anual — contra un coste de capital del 9,05% y un bono del Tesoro a 10 años al 4,65%. En el escenario central (g 5,7%, salida a 20x) son 5,7% anuales: un punto por encima del bono sin riesgo, asumiendo riesgo de renta variable, riesgo regulatorio y riesgo de ejecucion. Solo aceptando la tasa base historica (g 9-10,5%) se llega al 9-10,5% anual, que es exactamente el coste de capital: ni un punto de premio. No se pierde dinero; se renuncia a rentabilidad durante una decada."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "Una trampa de valor exige dos cosas a la vez: un descuento aparente y un motor rompiendose. Aqui no hay descuento — hay prima del 44% al 54%, con la accion a un 0,8% de su maximo de 52 semanas. Y el motor no se esta rompiendo: transacciones procesadas 66.100 millones (+9%), volumen de pagos +9% constante, volumen transfronterizo +11-12% constante, margen operativo del 64,4% en Q2 FY2026, ROIC minimo de ventana del 27,7%. El riesgo de quien compra V hoy no es caer en una trampa: es sobrepagar por un negocio excelente. Son errores distintos y se corrigen distinto.",
+    "advertencia_del_motor": "SOSPECHA PARCIAL sobre el eslabon debil, y esta si merece vigilancia fechada. Primero, el precio: el ingreso neto por transaccion procesada cae de 0,166 a 0,155 USD entre FY2019 y FY2025 mientras el IPC sube un 26% — un 25% de erosion real. Segundo, el reloj regulatorio ya no es teorico: el escrow de litigio de EE.UU. paso de 2.990 a 665 MUSD en seis meses y la provision de litigio acumulada de FY2025 fue de 2.562 MUSD. Tercero, los incentivos a clientes se llevan el 39,4% del ingreso bruto y siguen creciendo (+14% en Q2 FY2026 contra +17% del ingreso neto — por ahora crecen MENOS, lo cual es un contrapeso HECHO a favor de Visa y una diferencia real frente a MA, donde los incentivos crecen al doble de velocidad que el ingreso). Contrapeso adicional: 'otros ingresos' +41% y procesamiento de datos +18% en Q2 — Visa esta sustituyendo peaje por servicios, igual que MA, y de momento con mas exito en la relacion incentivos/ingreso. Ese es el debate real de la tesis. El precio no lo resuelve."
+  },
+
+  "monologo_final": "Visa cotiza a 362,31 dolares, a menos de un uno por ciento de su maximo de cincuenta y dos semanas y un veintitres por ciento por encima del minimo de hace cinco semanas. La capitalizacion, contando las 1.916 millones de acciones equivalentes clase A y no solo las 1.660 millones de clase A puras, es de 694.200 millones; el valor de empresa, 703.900. El coste del capital sale de mercado y solo de mercado: Tesoro a diez años al 4,65% del 27 de julio, beta 0,833 medida sobre 262 semanas contra el SPY, prima madura del 4,23% de Damodaran, 1,12 puntos de prima pais sobre una cesta que aproxima donde vive el volumen de Visa (39% Estados Unidos, 61% internacional segun el 10-K) y un coste de deuda real del 2,56% derivado de los 589 millones de gasto financiero sobre 23.000 de deuda media. Resultado: 9,05%, con un rango del 8,1% al 9,7%. Los owner earnings apenas se mueven segun como se trate el capex, porque en Visa el capex es el 3,7% de las ventas: 21.839 millones restando solo el mantenimiento, 21.577 restandolo todo, sobre el ultimo ejercicio auditado. Sobre el ejercicio en curso, 23.230 y 22.920 — solo un 6% mas, y ahi esta el dato que importa mas que ningun otro: el beneficio neto del semestre crece un 22,5% pero el flujo de caja operativo CAE un 3%. Veinticinco puntos de tijera con nombre y apellido. Visa esta pagando por fin el litigio del interchange que llevaba una decada provisionado — el escrow restringido bajo de 2.990 a 665 millones en seis meses — mientras el beneficio contable se infla con nueve puntos de dolar debil, la compra de Prisma en Argentina y una base de comparacion floja en la provision de litigio. El DCF inverso pone la cifra sobre la mesa sin adornos: el precio de hoy exige un 11,2% de crecimiento anual durante diez años partiendo de lo auditado, o un 10,4% partiendo del ejercicio en curso. La tasa base real de Visa es un 10,7% de crecimiento de ingresos en los dos ultimos años y un 9% de transacciones procesadas. Es decir: el mercado esta pagando por que Visa repita su mejor decada entera, sin una sola desaceleracion, mientras el peaje por transaccion cae un veinticinco por ciento en terminos reales. Lo que yo puedo defender, con reinversion por ROIIC ex-margen, es un 5,7%. Con ese 5,7% el valor sale en 252 dolares sobre la base en curso y 236 sobre la auditada, con bandas de resolucion del mas/menos veinticinco por ciento que van de 189 a 315 y de 177 a 294. El precio de hoy queda fuera de las dos por arriba, un quince por ciento por encima del techo mas generoso. El margen de seguridad es del -44% en el mejor caso y del -54% en el mas honesto; el umbral para cargar es del +40%. La TIR esperada, que es la forma util de decir lo mismo, va del 3,8% al 7,2% anual durante diez años contra un coste de capital del 9,05% y un bono sin riesgo al 4,65%. No es una trampa de valor: no hay valor que trampear, y el motor gira a nueve por ciento con un ROIC del veintisiete. Es un negocio excelente cotizando a 30 veces sus owner earnings desapalancados cuando yo he decidido en frio pagar 20. P estrella son 144,5 dolares. Faltan 218. La posicion que Felipe ya tiene, un 4,04% del NAV comprada a 332,23, no se toca por esto — pero no se amplia ni un dolar mas a estos precios.",
+
+  "huecos_declarados": [
+    "La guia oficial de Visa para FY2026 no existe en ningun documento primario: la empresa la da verbalmente en la conferencia de resultados y la nota de prensa del 8-K del 28-abr-2026 no la contiene. No accedi a la transcripcion. El ejercicio en curso es estimacion mia, no guia de la empresa.",
+    "Los resultados de Q3 FY2026 se publican el 28-jul-2026, UN DIA despues de esta fecha de corte. Con el tercer trimestre en la mano — y sobre todo con el dato de si el drenaje del escrow de litigio ya termino — la mitad del ruido de la base en curso desaparece. Merece la pena esperar veinticuatro horas antes de mover nada.",
+    "La g defendible depende de una convencion de denominador que cambia el resultado por completo. Con la convencion de la casa (reinversion como % de VENTAS x ROIIC ex-margen) sale 5,7% y V esta un 44% cara. Con la convencion alternativa (reinversion sobre NOPAT x ROIIC ex-margen) sale 11,45% y V esta en precio justo. Aplico la de la casa por comparabilidad con MA, MSFT y GOOGL de esta misma serie, pero el lector debe saber que este es el unico supuesto que decide el veredicto.",
+    "La beta es medicion propia (262 semanas V vs SPY, cierres IBKR), no una cifra citada de Bloomberg o Barra. Metodo, ventana y errores estandar declarados; el rango 0,74-0,89 cubre las ventanas alternativas y el ajuste Blume.",
+    "Los pesos de la cesta de prima pais son SUPUESTO mio. Visa solo desglosa ingresos en dos bloques (EE.UU. / Internacional) y ningun filing da el reparto por pais. Rango razonable de la CRP mezclada: 0,7% a 1,7%.",
+    "Uso valor contable de la deuda como aproximacion de su valor de mercado. Con cupones del 0,75% al 4,70% frente a un 10 años al 4,65%, el valor de mercado real es sensiblemente MENOR (probablemente 20.000-22.000 MUSD frente a 23.976 contables). Sesgo: el EV verdadero es unos 2.000-4.000 MUSD mas bajo, un 0,5%. Efecto en el WACC despreciable con una deuda que pesa el 3,3%.",
+    "El recuento de acciones as-converted es del 21-abr-2026 (clase A) y de la media diluida de Q2 FY2026 (equivalentes). Visa recompro 11.625 MUSD en el semestre y tiene un nuevo programa de 20.000 MUSD autorizado en abril: la capitalizacion real de hoy es probablemente algo menor. Sesgo conservador.",
+    "La oferta de canje de clase B-1 y B-2 por clase B-3 + clase C lanzada el 13-abr-2026 y vencida el 8-may-2026 pudo alterar el recuento as-converted despues de mi fecha de recuento. No he verificado el resultado del canje. El efecto sobre el total as-converted deberia ser neutro por construccion, pero no lo he comprobado en documento primario.",
+    "Trato los 12.404 MUSD de efectivo y los 1.817 de inversiones como excedente integro. Parte es caja operativa de un negocio de liquidacion diaria; si el 30% fuera operativo, la deuda neta subiria ~4.300 MUSD y el valor por accion bajaria ~2 dolares. Irrelevante para la conclusion.",
+    "No he verificado de forma independiente las cifras congeladas del mecanismo (4.805 millones de credenciales, NOPAT 19.892, capital invertido 43.084, ROIC minimo 27,7%, ingreso neto por transaccion 0,166 -> 0,155). Vienen del eje de comprension y las tomo como dadas; el valorador no las toca."
+  ],
+
+  "fuentes": [
+    "SEC EDGAR — 10-K FY2025, accession 0001403161-25-000089, presentado 2025-11-06. Cuenta de resultados (R5), estado de flujos de caja (R9), desglose de ingresos por geografia (R53), BPA (R89), deuda (R74).",
+    "SEC EDGAR — 10-Q Q2 FY2026, accession 0001403161-26-000079, presentado 2026-04-29. Portada (R1: acciones en circulacion al 2026-04-21), balance (R2), flujos de caja (R8), BPA (R61/R62), deuda (R53/R54).",
+    "SEC EDGAR — 10-Q Q1 FY2026, accession 0001403161-26-000045, presentado 2026-01-30.",
+    "SEC EDGAR — 8-K del 2026-04-28, accession 0001403161-26-000077, EX-99.1 nota de resultados de Q2 FY2026 (drivers de volumen, recompras, emision de senior notes de feb-2026, deposito al escrow de 125 MUSD, adquisicion de Prisma y Newpay, oferta de canje de clase B).",
+    "SEC EDGAR — API XBRL companyfacts CIK0001403161, consultada 2026-07-27.",
+    "US Department of the Treasury — Daily Treasury Par Yield Curve Rates, csv oficial, 27-jul-2026: 10 años 4,65%.",
+    "Aswath Damodaran (NYU Stern) — ctryprem.xlsx descargado de pages.stern.nyu.edu el 2026-07-27 (prima madura 4,23%; ERP total EE.UU. 4,46%; CRP por pais) y pagina principal del autor (ERP implicita al 1-jul-2026 = 4,18%).",
+    "Interactive Brokers — snapshot de precio en vivo, posiciones de cuenta e historico semanal y mensual de 5 años de V (contract_id 49462172) y SPY (756733), 2026-07-27."
+  ]
+}

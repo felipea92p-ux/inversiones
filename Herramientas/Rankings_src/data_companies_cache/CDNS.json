@@ -1,0 +1,97 @@
+{
+ "ticker": "CDNS",
+ "name": "Cadence Design Systems, Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 389.04,
+ "market_cap_usd_b": 107.3,
+ "fwd_pe": 48,
+ "fwd_pe_5y_avg": 40,
+ "pe_prem_disc_pct": 20,
+ "peg": 3.32,
+ "last_q": {
+  "period": "Q1 2026 (ended Mar 2026)",
+  "revenue": "$1.474B",
+  "rev_yoy_pct": 18.7,
+  "op_margin_pct": 29.3,
+  "eps_gaap": "$1.23",
+  "eps_adj": "$1.96"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 31, 2025)",
+  "revenue": "$5.297B",
+  "organic_growth_pct": null,
+  "roic_pct": null,
+  "fcf": "$1.587B",
+  "fcf_margin_pct": 30
+ },
+ "sbc_pct_revenue": 8.6,
+ "sbc_pct_fcf": 28.7,
+ "net_debt_usd_b": 1.53,
+ "nd_ebitda": 0.76,
+ "net_cash": false,
+ "guidance_fy": "FY2026 (PROYECCION direccion): ingresos $6.125B-$6.225B (~16-18% crecimiento); EPS no-GAAP $7.85-$7.95. Q2 2026: ingresos $1.555B-$1.595B, EPS no-GAAP $2.02-$2.08. Backlog record $8.0B ($4.0B convertible en 12 meses). Guia elevada tras Q1.",
+ "pct_off_52w_high": -6.6,
+ "pct_off_ath": -6.6,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.fcf",
+  "guidance_fy",
+  "net_debt_usd_b",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf"
+ ],
+ "estimated_fields": [
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "price",
+  "market_cap_usd_b",
+  "last_fy.fcf_margin_pct",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "SEC EDGAR — Cadence 8-K Q1 2026 CFO Commentary (Form 8-K, exhibit 99.02)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000813672/000081367226000044/cfocommentary04272026ex9902.htm",
+   "date": "2026-04-27"
+  },
+  {
+   "label": "SEC EDGAR — Cadence 10-K FY2025",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000813672/000081367226000016/cdns-20251231.htm",
+   "date": "2026-02-17"
+  },
+  {
+   "label": "StockTitan — Cadence Q1 2026 8-K summary (revenue, margins, EPS, FCF, debt, guidance, backlog)",
+   "url": "https://www.stocktitan.net/sec-filings/CDNS/8-k-cadence-design-systems-inc-reports-material-event-ba555d4cb1b9.html",
+   "date": "2026-04-27"
+  },
+  {
+   "label": "StockAnalysis.com — CDNS overview (price, market cap, fwd P/E, 52w range)",
+   "url": "https://stockanalysis.com/stocks/CDNS/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com — CDNS cash flow statement FY2025 (OCF, capex, FCF, SBC)",
+   "url": "https://stockanalysis.com/stocks/cdns/financials/cash-flow-statement/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com — CDNS statistics (PEG, debt, cash, EBITDA, EV)",
+   "url": "https://stockanalysis.com/stocks/cdns/statistics/",
+   "date": "2026-06-22"
+  }
+ ],
+ "notes": "DROP CLASSIFICATION: not_depressed. CDNS cotiza a ~$389, solo ~6.6% por debajo del maximo 52s ($416.69) y cerca de maximos historicos. No hay desplome: la accion subio ~14.7% en el ultimo mes y la direccion ELEVO la guia FY2026 tras un Q1 fuerte (+18.7% ingresos). Es un valor caro de calidad, no deprimido.\n\nVALORACION: P/E adelantado ~47.6-48 (StockAnalysis 47.59; GuruFocus ~45). El P/E historico 5a trailing GAAP es ~68 pero refleja beneficios GAAP, NO el adelantado ajustado. fwd_pe_5y_avg=40 es ESTIMACION (rango historico fwd ~35-45); prima ~+20% es por tanto ESTIMADA. YCharts/fullratio requieren suscripcion para el fwd P/E 5a exacto. PEG 3.32 (StockAnalysis).\n\nQ1 2026 (VERIFICADO via 8-K/StockTitan): ingresos $1.474B (+18.7% YoY), margen operativo GAAP 29.3% / no-GAAP 44.7%, EPS GAAP $1.23 / no-GAAP $1.96. OCF $356M, FCF $307M. Backlog record $8.0B.\n\nFY2025 (ano completo cerrado 31-dic-2025): ingresos $5.297B (+14.1%), OCF $1.729B, capex $141.9M, FCF $1.587B -> margen FCF 30.0%. Margen operativo GAAP 28.2% / no-GAAP 44.6%.\n\nSBC (CRITICO R9): FY2025 SBC = $455.2M. % ingresos = 455/5297 = 8.6%. % FCF = 455/1587 = 28.7%. SBC consistente con guia trimestral 7.0-8.6% de costes operativos.\n\nDEUDA: deuda total ~$3.08B, caja+inversiones ~$1.55B -> deuda neta ~$1.53B (NO caja neta tras adquisiciones 2025: Arm Artisan, Secure-IC, VLAB; y Hexagon D&E cerrada en 2026). ND/EBITDA ~0.76x (EBITDA ~$2.01B). Apalancamiento muy bajo.\n\nROIC y organic_growth_pct: no extraidos del 10-K en el timebox (null). CDNS no desglosa crecimiento organico de forma estandar; el +14.1% FY2025 incluye M&A. ROIC tipicamente alto (>15-20%) pero no verificado aqui.\n\nSEC EDGAR bloqueo WebFetch directo (HTTP 403); cifras oficiales corroboradas via StockTitan (resumen del 8-K) y StockAnalysis. URLs SEC son reales y validas."
+}

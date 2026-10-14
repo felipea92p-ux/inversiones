@@ -1,0 +1,48 @@
+{
+ "ticker": "6920.T",
+ "name": "Lasertec Corporation",
+ "currency": "JPY",
+ "price_verified": 56900,
+ "price_source": "StockAnalysis.com (JPY 56,430 @ Jun 23 2026) and data/companies/6920.T.json (JPY 57,490 @ Jun 22 2026); midpoint used. Corroborated by companiesmarketcap.com mcap $31.23B and Morningstar.",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.0896,
+ "implied_mcap_b_usd": 31.6,
+ "mcap_sanity_ok": true,
+ "structural_change": "No structural deterioration of the franchise: Lasertec remains the global near-monopoly (~100% share) in EUV photomask/blank actinic inspection, ROIC ~60%, net cash, FCF margin ~30%. The negative is CYCLICAL, not structural: order backlog end-Q2 FY2026 JPY 315.9B (down ~32% YoY) and FY2026 order forecast JPY 170-220B (below ~JPY 250B consensus), signaling order/revenue recovery pushed to FY2027+. Watch item (not yet realized): High-NA EUV transition and potential competition in actinic mask inspection could erode the monopoly over the long run. No haircut for structural decline applied yet; modest haircut vs 10y-median multiple applied for cyclical order softness.",
+ "wacc_pct": 8.5,
+ "wacc_components": {
+  "rf_pct": 1.3,
+  "erp_pct": 5,
+  "beta": 1.45,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "FY2025 reported FCF JPY 75.8B (OCF 77.9B − capex 2.1B). SBC not disclosed by Japanese issuer and immaterial (no line item in cash-flow statement; not broken out by aggregators), so Owner FCF = FCF − 100% SBC ≈ JPY 75.8B unchanged. Owner FCF/share ≈ JPY 845. Note: current FCF/earnings elevated partly by yen weakness (USDJPY ~161.5) and some revenue pull-forward.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 17668,
+   "prob": 0.38,
+   "note": "Order recovery slow; semicap demand plateaus. Phase1 (yr1-5) Owner FCF CAGR 4%, Phase2 (yr6-10) declining to 3%, terminal g 3.0%, WACC 8.5%. EV JPY 1.50T + net cash JPY 80B."
+  },
+  "base": {
+   "iv_per_share": 23699,
+   "prob": 0.47,
+   "note": "EUV adoption cycle resumes FY2027+, High-NA EUV mask inspection ramps. Phase1 CAGR 9%, Phase2 declining to 4%, terminal g 3.0%. EV JPY 2.04T + net cash."
+  },
+  "optimista": {
+   "iv_per_share": 33513,
+   "prob": 0.15,
+   "note": "High-NA + actinic mask inspection super-cycle, leading-edge capex re-accelerates. Phase1 CAGR 15%, Phase2 declining to 5%, terminal g 3.0%. EV JPY 2.92T + net cash."
+  }
+ },
+ "iv_dcf_weighted": 22879,
+ "multiple_metric": "fwd P/E",
+ "fwd_multiple_now": 54.32,
+ "fwd_multiple_5y_avg": 43.35,
+ "fair_multiple": 40,
+ "multiple_rationale": "Anchor = Lasertec's 10y MEDIAN P/E of 43.35x (range 8.72x-180.43x; 2022 P/E 68.3x), the best available long-run proxy (clean 5y-avg fwd P/E not published; fwd_pe_5y_avg field in source was null). Applied a modest haircut to ~40x vs the 43.35x median to reflect cyclical order-backlog softness (-32% YoY) and delayed order recovery, while still crediting the intact near-monopoly franchise (ROIC ~60%, net cash). Current 54.32x sits above the long-run median = the multiple itself signals richness. fair_multiple 40x x fwd EPS ~JPY 1,047 (= price/54.32) = iv_multiple ~JPY 41,900, which corroborates the analyst consensus target JPY 43,167.",
+ "iv_multiple": 41900,
+ "weight_dcf": 0.55,
+ "weight_multiple": 0.45,
+ "reconciled_iv": 31438,
+ "sanity_notes": "Sanity OK: implied mcap 0.0896B sh x JPY 56,900 = JPY 5.10T = $31.6B USD at USDJPY 161.5, matching companiesmarketcap ($31.23B), StockAnalysis ($31.9B/JPY 5.15T) and Morningstar (JPY 4.33T-5.15T across dates). Shares converge at 89.63M outstanding (94.29M issued less treasury) across Morningstar + StockAnalysis. Reconciled IV JPY 31,438 = ~55% of price, inside the 30%-300% magnitude band -> no units/currency error. WEIGHTING: tilted to DCF (0.55/0.45) because Lasertec, despite high quality, is CYCLICAL semicap whose revenue depends on customers' (TSMC/Samsung/Intel) leading-edge capex timing; near-term order recovery is delayed and current FCF is flattered by yen weakness and pull-forward, so the multiple anchor alone would over-extrapolate. RESULT: reconciled IV ~JPY 31,400 implies the stock is roughly 45% ABOVE intrinsic value at JPY 56,900 (price ~1.8x IV). Both DCF (JPY 22,900) and the multiple anchor / analyst target (~JPY 42,000-43,000) sit well below market price. Great business, demanding price -> not a buy here; would require a meaningful pullback toward ~JPY 35,000 or order/revenue inflection. SBC treatment immaterial. Caveats: owner-FCF base may be cyclically high; if normalized lower, DCF IV would be lower still."
+}

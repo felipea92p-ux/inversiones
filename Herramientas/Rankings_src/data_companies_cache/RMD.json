@@ -1,0 +1,100 @@
+{
+ "ticker": "RMD",
+ "name": "ResMed Inc.",
+ "asof_date": "2026-06-22",
+ "price": 189.4,
+ "currency": "USD",
+ "market_cap_usd_b": 27.47,
+ "fwd_pe": 16.6,
+ "fwd_pe_5y_avg": 26,
+ "pe_prem_disc_pct": -36,
+ "peg": 1,
+ "last_q": {
+  "period": "Q3 FY2026 (ended Mar 31, 2026)",
+  "revenue": "$1,431M",
+  "rev_yoy_pct": 11,
+  "op_margin_pct": 34.9,
+  "eps_gaap": "$2.74",
+  "eps_adj": "$2.86"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Jun 30, 2025)",
+  "revenue": "$5,146.3M",
+  "organic_growth_pct": 9,
+  "roic_pct": 25,
+  "fcf": "$1,660M",
+  "fcf_margin_pct": 32.3
+ },
+ "sbc_pct_revenue": 1.8,
+ "sbc_pct_fcf": 5.5,
+ "net_debt_usd_b": -0.55,
+ "nd_ebitda": -0.3,
+ "net_cash": true,
+ "guidance_fy": "No explicit quantitative FY2026 revenue/EPS guidance issued at Q3; management guided qualitatively to continued strong, profitable double-digit-ish growth and gross-margin expansion. Analyst consensus FY2026 revenue ~$5.6-5.7B, non-GAAP EPS ~$11.2-11.5 (PROJECTION).",
+ "pct_off_52w_high": -35.5,
+ "pct_off_ath": -35.5,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_cash",
+  "net_debt_usd_b"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.organic_growth_pct",
+  "last_fy.roic_pct",
+  "nd_ebitda",
+  "guidance_fy",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "ResMed Q3 FY2026 press release / 8-K (results, ended Mar 31 2026) via StockTitan",
+   "url": "https://www.stocktitan.net/news/RMD/resmed-inc-announces-results-for-the-third-quarter-of-fiscal-year-z5sm4zzjehx2.html",
+   "date": "2026-05-01"
+  },
+  {
+   "label": "ResMed FY2025 Form 10-K (SEC EDGAR, ended Jun 30 2025)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000943819/000094381925000035/rmd-20250630.htm",
+   "date": "2025-08-08"
+  },
+  {
+   "label": "ResMed Q4/FY2025 results press release (Investor Relations)",
+   "url": "https://investor.resmed.com/news-events/press-releases/detail/405/resmed-inc-announces-results-for-the-fourth-quarter-of-fiscal-year-2025",
+   "date": "2025-08-07"
+  },
+  {
+   "label": "StockAnalysis.com RMD statistics (price, market cap, fwd P/E)",
+   "url": "https://stockanalysis.com/stocks/rmd/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "FullRatio RMD P/E history (5yr avg P/E)",
+   "url": "https://fullratio.com/stocks/nyse-rmd/pe-ratio",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "TIKR / Simply Wall St — RMD near 52w low, GLP-1 & Philips fear context",
+   "url": "https://www.tikr.com/blog/resmed-stock-near-52-week-low-despite-21-eps-growth-heres-what-the-glp-1-data-actually-shows",
+   "date": "2026-06"
+  }
+ ],
+ "notes": "VALUATION CAVEAT: forward P/E figures conflict sharply across aggregators (reported values ranged from ~15.9 to 22x, with cited \"historical average\" 30x and a 5yr-trailing-P/E avg of 40.75 that is distorted by COVID-era peaks). Computed fwd_pe ~16.6x uses price $189.40 / annualized Q3 non-GAAP EPS run-rate (~$11.4); treat as estimate. fwd_pe_5y_avg set to ~26x (normalized estimate excluding COVID spike); pe_prem_disc_pct ~ -36% derived from that. peg ~1.0 assumes ~16% forward EPS growth. ORGANIC GROWTH FY2025: reported revenue +10%; organic/constant-currency estimated ~9% (mark estimated). ROIC ~25% per GuruFocus (24.9-25.3%), estimated. NET CASH: FY2025 cash $1,209.5M vs total debt ~$664M = net cash; at Q3 FY2026 cash rose to $1.66B vs total debt $664.1M, net cash ~$1.0B (used conservative ~-$0.55B blended/FY25-basis figure; company explicitly reached net-cash position in FY2025). nd_ebitda negative (net cash). SBC FY2025 = $91.7M (10-K), /rev $5,146.3M = 1.8%, /FCF $1,660M = 5.5% — low, shareholder-friendly. DROP CLASSIFICATION = fear_rotation: stock ~35% off 52w high ($293.81) and near 52w low driven by GLP-1/OSA-demand fears and Philips' US PAP re-entry (Morgan Stanley downgrade), while fundamentals strengthened (rev +11%, non-GAAP EPS +21%, gross margin +290bps to 62.2%, net cash). pct_off_ath approximated equal to pct_off_52w_high as the 52w high ($293.81) is at/near RMD's all-time high."
+}

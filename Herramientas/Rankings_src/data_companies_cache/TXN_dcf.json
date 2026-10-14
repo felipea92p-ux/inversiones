@@ -1,0 +1,41 @@
+{
+ "ticker": "TXN",
+ "currency": "USD",
+ "current_price": 332.28,
+ "wacc_pct": 10.8,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.3,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base (FY2025) = FCF reportado $2.94B − 100% SBC ($0.419B, 2.37% de ingresos) = ~$2.52B (margen owner ~14.3%). ESTE ES UN MINIMO CICLICO: el FCF de FY2025 esta deprimido artificialmente por el super-ciclo de capex de fabs 300mm (capex $4.55B = 26% de ingresos vs CFO $7.15B). La tesis entera de TI es que el capex se normaliza hacia ~13-15% de ingresos en 2027-2030, recuperando el margen FCF hacia 25-30%. Modelo owner earnings sobre una trayectoria de margen FCF ascendente (no sobre el minimo plano), restando SBC al 100% en cada anio.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 9,
+  "rev_cagr_y6_10_pct": 5.75,
+  "fcf_margin_terminal_pct": 29,
+  "terminal_g_pct": 3,
+  "shares_diluted_b": 0.91,
+  "net_debt_usd_b": 8.95,
+  "sbc_treatment": "100% de la SBC tratada como gasto en efectivo (restada del FCF cada anio); SBC FY25 = $419M = 2.37% de ingresos / 14.3% del FCF -> dilucion baja, favorable. Fase 2 CAGR declina linealmente 7.0%->4.5% (promedio 5.75%)."
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 59.04,
+   "prob": 0.375,
+   "note": "Crecimiento ingresos CAGR 7% (Fase 1), declinando 6%->4% (Fase 2). Capex permanece elevado mas tiempo: margen FCF owner sube solo 17%->24%. g=2.5%. Refleja digestion de inventario en analog, normalizacion lenta del capex y compresion de margen."
+  },
+  "base": {
+   "iv_per_share": 84.18,
+   "prob": 0.475,
+   "note": "CAGR ingresos 9% (data center + industrial), declinando 7%->4.5%. Capex se normaliza hacia ~13-15%: margen FCF owner sube 18%->29% (consistente con historico pre-super-ciclo). g=3.0%, foso ancho (analog/embedded, escala 300mm, fabs en EE.UU.). EV~$85.6B."
+  },
+  "optimista": {
+   "iv_per_share": 113.3,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: CAGR ingresos 11%, declinando 8%->5%. Capex se normaliza completo + apalancamiento operativo: margen FCF owner 19%->33%. g=3.5%. Liderazgo en analog/embedded con ganancia de cuota via capacidad domestica y CHIPS Act."
+  }
+ },
+ "sanity_check": "IV ponderada por probabilidad = ~$79/accion (0.375*$59.0 + 0.475*$84.2 + 0.15*$113.3), aprox -76% vs precio $332.28. CONCLUSION: TXN cotiza MUY por encima del valor intrinseco por owner earnings; el mercado descuenta una normalizacion de capex impecable Y crecimiento de doble digito sostenido durante anios. Coherente con los flags de FASE 2: fwd P/E 39.1x vs media 5a 30.1x (prima ~+30%), P/E trailing ~55x, PEG 1.87, a 0.5% de maximos 52 semanas (not_depressed, +~80% en 2026). Contraste de rendimiento al accionista (NO DDM): dividendo ~1.6% + recompras modestas ~0.3% = shareholder yield ~1.9%; FCF yield owner (minimo ciclico) ~0.8%, FCF yield normalizado ~1.8% -> rendimientos bajos que confirman valoracion exigente. Riesgo adicional: adquisicion de Silicon Labs ~$7.5B en efectivo (cierre 1S2027) elevara la deuda neta. La gran sensibilidad esta en el margen FCF terminal: si el capex no se normaliza como se espera, el valor cae hacia el escenario conservador.",
+ "method_notes": "DCF de OWNER EARNINGS a 10 anios. Owner FCF = FCF reportado − 100% SBC, modelado sobre trayectoria de margen FCF ascendente desde el minimo ciclico FY2025 (capex super-ciclo deprime el FCF; CFO FY25 $7.15B vs FCF $2.94B). Base ingresos FY2025 $17.68B. Fase 1 (anios 1-5): CAGR ingresos explicito. Fase 2 (anios 6-10): CAGR declinante linealmente hacia normalizacion. Margen FCF owner ramping lineal de inicio a terminal durante 10 anios (captura la normalizacion del capex de 26% hacia ~13-15% de ingresos). Valor terminal por Gordon sobre el owner FCF del anio 10, g=2.5-3.5% segun foso (foso ancho -> base 3.0%). Descuento al WACC=10.8% (Rf 4.3% UST10Y + ERP 5.0% * beta 1.30 sector semiconductores; SIN ajuste geopolitico: TXN domiciliada y fabricando en EE.UU.). VI/accion = (PV flujos + PV terminal − deuda neta $8.95B) / acciones diluidas 0.910B (=market cap $302.41B / precio $332.28). Acciones y deuda neta de FASE 2 verificada. Beta estimada del sector (no en datos). Yield al accionista calculado como contraste; no se usa DDM. No se requirio busqueda web: todos los inputs criticos estaban en el archivo verificado."
+}

@@ -1,0 +1,42 @@
+{
+ "ticker": "6146.T",
+ "currency": "JPY",
+ "current_price": 88480,
+ "name": "Disco Corporation",
+ "wacc_pct": 8.3,
+ "wacc_components": {
+  "rf_pct": 1.3,
+  "erp_pct": 5,
+  "beta": 1.4,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = JPY 98.4B (FY2026 reported FCF, margin 22.5% on JPY 436.8B revenue). SBC subtraction = ~0: Disco is a Japanese precision-equipment maker whose stock-based comp is immaterial vs revenue/FCF (sbc_pct_fcf null in verified data), so Owner FCF = reported FCF. No SBC add-back was ever included in reported FCF either, so no distortion.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 11.7,
+  "rev_cagr_y6_10_pct": 6.5,
+  "fcf_margin_terminal_pct": 22.5,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "SBC immaterial for this precision-equipment maker (not separately disclosed; sbc_pct_fcf null). Owner FCF = reported FCF; no add-back present to remove. Effective 100%-of-SBC-as-cash treatment is moot given ~0 SBC.",
+  "shares_diluted_b": 0.1085,
+  "net_debt_usd_b": -1.76
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 18911,
+   "prob": 0.375,
+   "note": "Cyclical normalization: rev CAGR ~5% y1-5 declining to 2.5% by y10, FCF margin compresses to 20%, terminal g 2.5%. Reflects semi-cap demand mean-reverting after AI super-cycle. Implies ~21x P/FCF."
+  },
+  "base": {
+   "iv_per_share": 31533,
+   "prob": 0.475,
+   "note": "Consistent with track record (FY2026 organic +11.1%): rev CAGR 14%->10% y1-5 (AI/HBM/GPU dicing & grinding tailwind) decaying to 4% by y10, FCF margin held at 22.5%, terminal g 3.0%. Implies ~35x P/FCF, a premium justified by the moat but far below the market's 97x."
+  },
+  "optimista": {
+   "iv_per_share": 48192,
+   "prob": 0.15,
+   "note": "AI dicing/grinding super-cycle with perfect execution: rev CAGR 20%->15% y1-5 decaying to 5% by y10, FCF margin expands to 25%, terminal g 3.5%. Implies ~53x P/FCF. Still ~46% below the current price."
+  }
+ },
+ "sanity_check": "DCF flags severe overvaluation. Current price JPY 88,480 = market cap JPY ~9.60T = 97.5x current FCF (JPY 98.4B) and fwd P/E ~53 vs a 10y TTM median ~28. Even the optimist IV (JPY 48,192, perfect AI super-cycle execution) sits ~46% below price; prob-weighted IV ~JPY 29,300 (~67% downside). The stock is at an all-time high (-0.9% off ATH) on generative-AI/HBM euphoria, NOT depressed. Net cash of ~JPY 284B (+JPY 2,620/sh) is already included. Disco pays only a modest dividend and does not run a large buyback, so total shareholder yield is low (~1-2%) and does not rescue the valuation — the entire bull thesis rests on multi-year hypergrowth the DCF cannot justify at this WACC. Treat as a richly-priced quality compounder where price has run far ahead of intrinsic value.",
+ "method_notes": "10-yr two-phase Owner-Earnings DCF in JPY. Phase 1 (y1-5): explicit revenue CAGR with FCF at a stabilized margin on owner earnings; Phase 2 (y6-10): revenue CAGR declines linearly toward normalization; Gordon terminal value on y10 FCF with g per moat (2.5-3.5%). All flows discounted at WACC 8.3% = Rf 1.3% (Japan 10Y) + ERP 5.0% x beta 1.40 (semiconductor capital-equipment sector beta — highly cyclical); no geopolitical adjustment (Japan, not Taiwan). EV = PV(flows) + PV(TV); equity = EV + net cash JPY ~284B (net_debt_usd_b -1.76 at USD/JPY 161.5). IV/share = equity / 0.1085B diluted shares (cross-checked: mkt cap JPY 9.60T / price = 108.5M shares; StockAnalysis 108.46-108.48M). Owner FCF = reported FCF since SBC is immaterial and not separately disclosed for this maker. FY ends Mar 31; FY2026 base = year ended Mar 31 2026. Inputs from verified Phase 2 file (6146.T.json); shares confirmed via light web search (StockAnalysis/Morningstar). FCF, net cash and multiples in that file are aggregator-sourced (ESTIMADO) per data_quality MIXED."
+}

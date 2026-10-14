@@ -1,0 +1,486 @@
+ticker,nombre,apariciones,n_fuentes,tiene_expediente,fuentes
+IDXX,IDEXX Labs,99,26,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema
+V,Visa,99,25,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/QG_Sistema/test_control | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data
+SPGI,S&P Global,98,28,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+MA,Mastercard,97,26,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+MSFT,Microsoft,96,26,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/QG_Sistema/test_control | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data
+MSCI,MSCI,93,26,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+ISRG,Intuitive Surgical,91,24,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema
+TSM,TSMC,91,25,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+ASML,ASML Holding,88,24,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+VEEV,Veeva Systems,87,24,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema
+NVDA,Nvidia,84,23,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+CME,CME Group Inc.,81,22,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27
+BKNG,Booking Holdings,80,23,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema
+GOOGL,Alphabet,80,22,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema
+INTU,Intuit,80,24,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema
+CDNS,Cadence Design,76,24,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema
+NOW,ServiceNow,75,22,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+REL.L,RELX PLC,68,14,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27
+WKL.AS,Wolters Kluwer,68,17,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02
+ADBE,Adobe,64,19,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema
+NFLX,Netflix,64,21,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema/cartera_ibkr
+SNPS,Synopsys,62,23,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema
+VRSK,Verisk Analytics,62,17,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings
+AMZN,Amazon,59,20,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/cartera_ibkr
+MTD,Mettler-Toledo International,59,16,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02
+AAPL,Apple,58,16,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings
+RMS.PA,Hermès,58,14,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema/corrida3_v2_39 | Metodo_Nuevo/2026-07-26_Seleccion_27
+ZTS,Zoetis Inc.,58,15,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27
+FICO,Fair Isaac,57,18,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema
+CSU.TO,Constellation Software Inc.,55,16,SI,Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/corrida3_v2_39 | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02
+WST,West Pharmaceutical Services,55,15,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings
+ICE,Intercontinental Exchange,53,22,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/corrida3_v2_39
+MELI,MercadoLibre,52,20,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/cartera_ibkr
+4684.T,"OBIC Co., Ltd.",51,16,SI,Herramientas/Rankings_src/ULTRA_2026-07-05 | Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10
+TYL,Tyler Technologies,49,16,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings | Rankings/2026-07-02 | Rankings/2026-07-08
+ADYEN.AS,Adyen N.V.,47,11,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02
+AVGO,Broadcom,46,16,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema/corrida3_v2_39 | Metodo_Nuevo/2026-07-26_Seleccion_27
+MANH,Manhattan Associates,44,16,SI,Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10
+FDS,FactSet Research Systems Inc.,43,11,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08
+DSY.MI,DiaSorin S.p.A.,39,11,SI,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11 | Rankings/2026-07-26
+HOYCY,Hoya Corporation,39,10,,Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-26
+MCO,Moody's,39,12,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+DSG.TO,Descartes Systems Group,36,12,SI,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-26
+LSEG.L,London Stock Exchange Group plc,34,10,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Metodo_Nuevo/2026-07-26_Seleccion_27 | Metodo_Nuevo/2026-08-21_Peajes | Metodo_Nuevo/2026-08-21_Triadas | Rankings/2026-07-02
+CLPBY,Coloplast A/S,33,9,,Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-26
+CPRT,Copart,33,8,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema | Rankings/2026-07-02
+ACN,Accenture,31,10,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema/corrida3_v2_39 | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-01
+DUOL,Duolingo,31,12,SI,Investigacion/Valoracion_Sistema/cartera_ibkr | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11
+DB1.DE,Deutsche Börse AG,30,12,SI,Herramientas/Rankings_src/data | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-26
+NEM.DE,Nemetschek SE,29,12,SI,Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11
+STMN.SW,Straumann Holding AG,29,10,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08
+NVO,Novo Nordisk,28,11,,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema/corrida3_v2_39
+TOI.V,Topicus.com Inc.,28,9,,Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-26
+EFX,Equifax Inc.,27,10,SI,Herramientas/Rankings_src/data | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11
+TMO,Thermo Fisher,27,14,,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Investigacion/Valoracion_Sistema/corrida3_v2_39 | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-01
+SPOT,Spotify,26,10,SI,Herramientas/Rankings_src/data | Investigacion/Valoracion_Sistema/cartera_ibkr | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10
+0388.HK,Hong Kong Exchanges and Clearing,25,9,SI,Herramientas/Rankings_src/ULTRA_2026-07-05 | Investigacion/Valoracion_Sistema | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11
+BVI.PA,Bureau Veritas SA,24,8,,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-11 | Rankings/2026-07-26 | Rankings/_diagnostico
+RMD,ResMed,24,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+6861.T,Keyence,23,4,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+LLY,Eli Lilly,23,7,,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/corrida3_v2_39
+SOON.SW,Sonova Holding AG,23,7,,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11 | Rankings/2026-07-26
+ALGN,Align Technology,22,10,,Herramientas/Rankings_src/data | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11
+COST,Costco,22,8,,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema
+CRM,Salesforce,22,12,,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Investigacion/Valoracion_Sistema/corrida3_v2_39 | Metodo_Nuevo/2026-07-26_Seleccion_27
+KXS.TO,Kinaxis Inc.,22,8,SI,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11 | Rankings/2026-07-26
+LMN.TO,Lumine Group Inc.,22,9,,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11 | Rankings/2026-07-26
+SPSC,"SPS Commerce, Inc.",22,8,,Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-26
+7741.T,Hoya,21,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+ALC,Alcon Inc.,21,8,,Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11 | Rankings/2026-07-26 | Rankings/_diagnostico
+RACE,Ferrari,21,7,,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/corrida3_v2_39
+LIN,,20,3,,Herramientas/Rankings_src/ULTRA_2026-07-05 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+ORCL,Oracle,20,9,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Rankings/2026-07-02 | Rankings/2026-07-10 | Rankings/2026-07-26 | Rankings/_diagnostico
+PANW,Palo Alto Networks,20,8,,Herramientas/Rankings_src/data | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11
+PGHN.SW,,20,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+SGSN.SW,SGS SA,20,7,,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11 | Rankings/2026-07-26
+MC.PA,LVMH Moet Hennessy Louis Vuitton,19,4,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema/corrida3_v2_39
+OR.PA,L'Oreal,19,4,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache | Investigacion/Valoracion_Sistema/corrida3_v2_39
+PTC,PTC Inc.,19,9,SI,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11 | Rankings/2026-07-26
+VRSN,VeriSign,19,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+WISE.L,Wise plc,19,7,,Investigacion/Valoracion_Sistema | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-26
+6146.T,Disco Corporation,18,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+IT,,18,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+VRTX,Vertex Pharmaceuticals,18,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+7974.T,,17,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+APP,,17,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+CBOE,,17,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+SRT3.DE,Sartorius Stedim Biotech,17,8,,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-26 | Rankings/_diagnostico
+ANET,,16,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+FTNT,,16,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+PLTR,,16,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+6273.T,SMC Corporation,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+6857.T,Advantest,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+6920.T,Lasertec,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+8035.T,Tokyo Electron,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+ADP,Automatic Data Processing,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+ASM.AS,ASM International,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+BX,,15,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+CFR.SW,Compagnie Financiere Richemont,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+CTAS,Cintas,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+EW,Edwards Lifesciences,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+KLAC,KLA Corporation,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+LRCX,Lam Research,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+NDAQ,"Nasdaq, Inc.",15,8,,Herramientas/Rankings_src/data | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11
+TXN,Texas Instruments,15,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+AME,,14,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+CHKP,Check Point Software Technologies,14,6,,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-26 | Rankings/_score_records
+EQT.ST,,14,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+GRMN,,14,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+IBKR,,14,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+MMC,,14,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+MNST,,14,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+ODFL,,14,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+TPL,,14,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+VACN.SW,,14,2,,Herramientas/Rankings_src/data | Herramientas/Rankings_src/data_companies_cache
+ABNB,,12,5,SI,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-10 | Rankings/2026-07-26 | Rankings/_score_records | Tesis/
+ADYEN,Adyen,12,9,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/corrida1 | Investigacion/Valoracion_Sistema/corrida2_v2 | Investigacion/Valoracion_Sistema/corrida3_v2_39
+EL,EssilorLuxottica,12,6,,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-11 | Rankings/2026-07-26 | Rankings/_score_records
+ENX.PA,Euronext N.V.,12,7,,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-08 | Rankings/2026-07-10 | Rankings/2026-07-11 | Rankings/2026-07-26
+BRK.B,Berkshire Hathaway,11,5,,Investigacion/Valoracion_Sistema/cartera_ibkr | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-02 | Rankings/2026-07-26 | Rankings/_score_records
+RMS,Hermes,9,7,,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/corrida1 | Investigacion/Valoracion_Sistema/corrida2_v2 | Investigacion/Valoracion_Sistema/corrida3_v2_39
+AXP,,8,6,SI,Herramientas/Rankings_src/data | Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-10 | Rankings/2026-07-26 | Rankings/_score_records | Tesis/
+PDD,,8,4,SI,Herramientas/Rankings_src/data | Rankings/2026-07-10 | Rankings/_score_records | Tesis/
+WKL,Wolters Kluwer,7,6,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/corrida3_v2_39 | Rankings/2026-07-01 | Rankings/2026-07-10 | Tesis/
+BABA,,6,4,SI,Rankings/2026-07-10 | Rankings/2026-07-26 | Rankings/_score_records | Tesis/
+CRWD,CrowdStrike,6,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Rankings/2026-07-02
+EXPE,,6,5,SI,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-10 | Rankings/2026-07-26 | Rankings/_score_records | Tesis/
+MBGL,Mercedes-Benz Group,6,2,,Investigacion/Valoracion_Sistema/cartera_ibkr | Rankings/2026-07-02
+META,Meta Platforms,6,4,,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Herramientas/Rankings_src/data | Rankings/2026-07-01
+PINS,,6,4,SI,Rankings/2026-07-10 | Rankings/2026-07-26 | Rankings/_score_records | Tesis/
+RELX,RELX Group,6,6,SI,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/corrida3_v2_39 | Rankings/2026-07-01 | Rankings/2026-07-10 | Tesis/
+SE,,6,5,SI,Metodo_Nuevo/2026-07-26_Seleccion_27 | Rankings/2026-07-10 | Rankings/2026-07-26 | Rankings/_score_records | Tesis/
+SYK,Stryker,6,5,SI,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Metodo_Nuevo/2026-08-21_Triadas | Rankings/2026-08-22 | _Ultra Tesis/2026-08_Ranking_Calidad
+CSU,Constellation Software,5,5,,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/corrida3_v2_39 | Rankings/2026-07-01
+JD,,5,3,SI,Rankings/2026-07-10 | Rankings/_score_records | Tesis/
+JNJ,,5,4,SI,Herramientas/Rankings_src/data | Metodo_Nuevo/2026-08-21_Triadas | Rankings/2026-08-22 | _Ultra Tesis/2026-08_Ranking_Calidad
+OR,L'Oreal,5,5,,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Investigacion/Valoracion_Sistema | Investigacion/Valoracion_Sistema/corrida3_v2_39 | Rankings/2026-07-01
+TEMN.SW,Temenos AG,5,3,,Rankings/2026-07-02 | Rankings/2026-07-26 | Rankings/_score_records
+4063.T,Shin-Etsu Chemical,4,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+4519.T,Chugai Pharmaceutical,4,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+ADSK,Autodesk,4,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+AMAT,Applied Materials,4,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+AUTO.L,Auto Trader Group,4,1,,Herramientas/Rankings_src/Screen_600_jul2026
+COH.AX,Cochlear,4,1,,Herramientas/Rankings_src/Screen_600_jul2026
+DDOG,"Datadog, Inc.",4,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Rankings/2026-07-02
+DECK,,4,2,SI,Herramientas/Rankings_src/data | Tesis/
+EXPN.L,Experian,4,1,,Herramientas/Rankings_src/Screen_600_jul2026
+HUBB,,4,3,SI,Herramientas/Rankings_src/data | Rankings/2026-08-22 | _Ultra Tesis/2026-08_Ranking_Calidad
+MC,LVMH,4,4,,Herramientas/Rankings_src/QG_Sistema/produccion_v1_final | Herramientas/Rankings_src/QG_Sistema/produccion_v1_parcial | Investigacion/Valoracion_Sistema/corrida3_v2_39 | Rankings/2026-07-01
+MEDP,Medpace Holdings,4,1,,Herramientas/Rankings_src/Screen_600_jul2026
+MPWR,Monolithic Power Systems,4,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+PAYX,Paychex,4,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+PME.AX,Pro Medicus,4,1,,Herramientas/Rankings_src/Screen_600_jul2026
+RAA.DE,Rational AG,4,1,,Herramientas/Rankings_src/Screen_600_jul2026
+REGN,Regeneron Pharmaceuticals,4,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+ROP,Roper Technologies,4,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+TRU,TransUnion,4,3,,Rankings/2026-07-02 | Rankings/2026-07-26 | Rankings/_score_records
+VLTO,,4,3,SI,Herramientas/Rankings_src/data | Rankings/2026-08-22 | _Ultra Tesis/2026-08_Ranking_Calidad
+4661.T,,3,1,,Herramientas/Rankings_src/data
+ABBV,,3,1,,Herramientas/Rankings_src/data
+AENA.MC,,3,1,,Herramientas/Rankings_src/data
+AHT.L,,3,1,,Herramientas/Rankings_src/data
+BF.B,,3,1,,Herramientas/Rankings_src/data
+BLK,,3,1,,Herramientas/Rankings_src/data
+BRO,,3,1,,Herramientas/Rankings_src/data
+CF,,3,1,,Herramientas/Rankings_src/data
+CL,,3,3,SI,Herramientas/Rankings_src/data | Rankings/2026-07-10 | Tesis/
+COP,,3,1,,Herramientas/Rankings_src/data
+CW,,3,2,SI,Rankings/2026-08-22 | _Ultra Tesis/2026-08_Ranking_Calidad
+DE,,3,1,,Herramientas/Rankings_src/data
+EA,,3,1,,Herramientas/Rankings_src/data
+EL.PA,EssilorLuxottica,3,3,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data | Rankings/2026-07-10
+EOG,,3,1,,Herramientas/Rankings_src/data
+HD,,3,1,,Herramientas/Rankings_src/data
+HERMES,,3,2,SI,Rankings/2026-07-10 | Tesis/
+HOOD,,3,1,,Herramientas/Rankings_src/data
+HSY,,3,1,,Herramientas/Rankings_src/data
+III.L,,3,1,,Herramientas/Rankings_src/data
+JKHY,,3,1,,Herramientas/Rankings_src/data
+LULU,,3,1,,Herramientas/Rankings_src/data
+MCHP,,3,1,,Herramientas/Rankings_src/data
+MLM,,3,1,,Herramientas/Rankings_src/data
+MRK,,3,1,,Herramientas/Rankings_src/data
+MSI,,3,1,,Herramientas/Rankings_src/data
+NDSN,,3,1,,Herramientas/Rankings_src/data
+NEM,,3,3,SI,Herramientas/Rankings_src/data | Rankings/2026-07-10 | Tesis/
+NESN.SW,,3,1,,Herramientas/Rankings_src/data
+NXPI,,3,1,,Herramientas/Rankings_src/data
+ON,,3,1,,Herramientas/Rankings_src/data
+PG,,3,3,SI,Herramientas/Rankings_src/data | Rankings/2026-07-10 | Tesis/
+PM,,3,1,,Herramientas/Rankings_src/data
+QCOM,,3,1,,Herramientas/Rankings_src/data
+RHHBY,,3,2,SI,Rankings/2026-08-22 | _Ultra Tesis/2026-08_Ranking_Calidad
+STM.MI,,3,1,,Herramientas/Rankings_src/data
+TER,,3,1,,Herramientas/Rankings_src/data
+TRI,,3,1,,Herramientas/Rankings_src/data
+URI,,3,1,,Herramientas/Rankings_src/data
+7733.T,Olympus,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+9983.T,Fast Retailing (Uniqlo),2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+ABT,Abbott Laboratories,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+ADI,Analog Devices,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+BSX,Boston Scientific,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+CLX,,2,2,SI,Rankings/2026-07-10 | Tesis/
+CMG,Chipotle Mexican Grill,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+DHR,Danaher,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+DIM.PA,Sartorius Stedim Biotech,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Rankings/2026-07-08
+GIVN.SW,Givaudan,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+HKEX,,2,2,SI,Rankings/2026-07-10 | Tesis/
+ICLR,ICON plc,2,1,,Rankings/2026-07-02
+ITX.MC,Industria de Diseno Textil (Inditex),2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+MCD,McDonald's,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+MDT,,2,2,,Herramientas/Rankings_src/data | Metodo_Nuevo/2026-08-21_Triadas
+OBIC,,2,2,SI,Rankings/2026-07-10 | Tesis/
+ROL,Rollins,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+SAF.PA,Safran,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+SAP.DE,SAP SE,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+SIE.DE,,2,2,,Herramientas/Rankings_src/data | Metodo_Nuevo/2026-08-21_Triadas
+SOON,,2,2,SI,Rankings/2026-07-10 | Tesis/
+SU.PA,Schneider Electric,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+TDG,TransDigm Group,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+TJX,TJX Companies,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+TOI,,2,2,SI,Rankings/2026-07-10 | Tesis/
+UMG.AS,Universal Music Group NV,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+WAT,Waters,2,2,,Herramientas/Rankings_src/Screen_600_jul2026 | Herramientas/Rankings_src/data
+WISE,,2,2,SI,Rankings/2026-07-10 | Tesis/
+2914.T,,1,1,,Herramientas/Rankings_src/data
+4452.T,,1,1,,Herramientas/Rankings_src/data
+4543.T,,1,1,,Herramientas/Rankings_src/data
+4568.T,,1,1,,Herramientas/Rankings_src/data
+4578.T,,1,1,,Herramientas/Rankings_src/data
+6098.T,,1,1,,Herramientas/Rankings_src/data
+6367.T,,1,1,,Herramientas/Rankings_src/data
+6645.T,,1,1,,Herramientas/Rankings_src/data
+6758.T,,1,1,,Herramientas/Rankings_src/data
+6762.T,,1,1,,Herramientas/Rankings_src/data
+6954.T,,1,1,,Herramientas/Rankings_src/data
+6981.T,,1,1,,Herramientas/Rankings_src/data
+8058.T,,1,1,,Herramientas/Rankings_src/data
+9433.T,,1,1,,Herramientas/Rankings_src/data
+ABBN.SW,,1,1,,Herramientas/Rankings_src/data
+ACGL,,1,1,,Herramientas/Rankings_src/data
+AFL,,1,1,,Herramientas/Rankings_src/data
+AI.PA,,1,1,,Herramientas/Rankings_src/data
+AIG,,1,1,,Herramientas/Rankings_src/data
+AJG,,1,1,,Herramientas/Rankings_src/data
+ALC.SW,,1,1,,Herramientas/Rankings_src/data
+ALFA.ST,,1,1,,Herramientas/Rankings_src/data
+ALL,,1,1,,Herramientas/Rankings_src/data
+AMD,,1,1,,Herramientas/Rankings_src/data
+AMGN,,1,1,,Herramientas/Rankings_src/data
+AMP,,1,1,,Herramientas/Rankings_src/data
+AMT,,1,1,,Herramientas/Rankings_src/data
+ANSS,Ansys,1,1,,Herramientas/Rankings_src/Screen_600_jul2026
+AON,,1,1,,Herramientas/Rankings_src/data
+APD,,1,1,,Herramientas/Rankings_src/data
+APH,,1,1,,Herramientas/Rankings_src/data
+APO,,1,1,,Herramientas/Rankings_src/data
+ARES,,1,1,,Herramientas/Rankings_src/data
+ARGX.BR,,1,1,,Herramientas/Rankings_src/data
+ARM,,1,1,,Herramientas/Rankings_src/data
+ASML.AS,,1,1,,Herramientas/Rankings_src/data
+ATO,,1,1,,Herramientas/Rankings_src/data
+AVB,,1,1,,Herramientas/Rankings_src/data
+AVY,,1,1,,Herramientas/Rankings_src/data
+AXON,,1,1,,Herramientas/Rankings_src/data
+AZN,AstraZeneca,1,1,,Herramientas/Rankings_src/Screen_600_jul2026
+AZN.L,,1,1,,Herramientas/Rankings_src/data
+AZO,,1,1,,Herramientas/Rankings_src/data
+BA.L,,1,1,,Herramientas/Rankings_src/data
+BC.MI,Brunello Cucinelli,1,1,,Herramientas/Rankings_src/Screen_600_jul2026
+BESI.AS,BE Semiconductor Industries,1,1,,Herramientas/Rankings_src/Screen_600_jul2026
+BKR,,1,1,,Herramientas/Rankings_src/data
+BLDR,,1,1,,Herramientas/Rankings_src/data
+BMY,,1,1,,Herramientas/Rankings_src/data
+BR,,1,1,,Herramientas/Rankings_src/data
+BRK,,1,1,SI,Tesis/
+BRKB,,1,1,,Rankings/2026-07-10
+BTI.L,,1,1,,Herramientas/Rankings_src/data
+CAH,,1,1,,Herramientas/Rankings_src/data
+CARR,,1,1,,Herramientas/Rankings_src/data
+CASY,,1,1,,Herramientas/Rankings_src/data
+CAT,,1,1,,Herramientas/Rankings_src/data
+CB,,1,1,,Herramientas/Rankings_src/data
+CBRE,,1,1,,Herramientas/Rankings_src/data
+CDW,,1,1,,Herramientas/Rankings_src/data
+CEG,,1,1,,Herramientas/Rankings_src/data
+CHD,,1,1,,Herramientas/Rankings_src/data
+CHR.CO,Chr. Hansen / Novonesis (NSIS-B.CO),1,1,,Herramientas/Rankings_src/Screen_600_jul2026
+CHTR,,1,1,,Herramientas/Rankings_src/data
+CI,,1,1,,Herramientas/Rankings_src/data
+CIEN,,1,1,,Herramientas/Rankings_src/data
+CINF,,1,1,,Herramientas/Rankings_src/data
+CMCSA,,1,1,,Herramientas/Rankings_src/data
+CMI,,1,1,,Herramientas/Rankings_src/data
+CNC,,1,1,,Herramientas/Rankings_src/data
+COF,,1,1,,Herramientas/Rankings_src/data
+COO,,1,1,,Herramientas/Rankings_src/data
+COR,,1,1,,Herramientas/Rankings_src/data
+CPAY,,1,1,,Herramientas/Rankings_src/data
+CPG.L,,1,1,,Herramientas/Rankings_src/data
+CRH,,1,1,,Herramientas/Rankings_src/data
+CRH.L,,1,1,,Herramientas/Rankings_src/data
+CSCO,,1,1,,Herramientas/Rankings_src/data
+CSGP,,1,1,,Herramientas/Rankings_src/data
+CSL.AX,CSL Limited,1,1,,Herramientas/Rankings_src/Screen_600_jul2026
+CSX,,1,1,,Herramientas/Rankings_src/data
+CTSH,,1,1,,Herramientas/Rankings_src/data
+CVX,,1,1,,Herramientas/Rankings_src/data
+DEO.L,,1,1,,Herramientas/Rankings_src/data
+DG.PA,,1,1,,Herramientas/Rankings_src/data
+DGX,,1,1,,Herramientas/Rankings_src/data
+DHI,,1,1,,Herramientas/Rankings_src/data
+DHL.DE,,1,1,,Herramientas/Rankings_src/data
+DIS,,1,1,,Herramientas/Rankings_src/data
+DOV,,1,1,,Herramientas/Rankings_src/data
+DPLM.L,Diploma PLC,1,1,,Herramientas/Rankings_src/Screen_600_jul2026
+DPZ,,1,1,,Herramientas/Rankings_src/data
+DRI,,1,1,,Herramientas/Rankings_src/data
+DSG,,1,1,SI,Tesis/
+DSV.CO,,1,1,,Herramientas/Rankings_src/data
+DSY.PA,Dassault Systemes,1,1,,Herramientas/Rankings_src/Screen_600_jul2026
+DTE.DE,,1,1,,Herramientas/Rankings_src/data
+DXCM,,1,1,,Herramientas/Rankings_src/data
+EBAY,,1,1,,Herramientas/Rankings_src/data
+ECL,,1,1,,Herramientas/Rankings_src/data
+EMR,,1,1,,Herramientas/Rankings_src/data
+ERIE,,1,1,,Herramientas/Rankings_src/data
+ETN,,1,1,,Herramientas/Rankings_src/data
+EXR,,1,1,,Herramientas/Rankings_src/data
+FAST,,1,1,,Herramientas/Rankings_src/data
+FER.MC,,1,1,,Herramientas/Rankings_src/data
+FFIV,,1,1,,Herramientas/Rankings_src/data
+FTV,,1,1,,Herramientas/Rankings_src/data
+GALD.SW,,1,1,,Herramientas/Rankings_src/data
+GAW.L,Games Workshop Group PLC,1,1,,Herramientas/Rankings_src/Screen_600_jul2026
+GD,,1,1,,Herramientas/Rankings_src/data
+GE,,1,1,,Herramientas/Rankings_src/data
+GEBN.SW,Geberit,1,1,,Herramientas/Rankings_src/Screen_600_jul2026
+GEHC,,1,1,,Herramientas/Rankings_src/data
+GEN,,1,1,,Herramientas/Rankings_src/data
+GEV,,1,1,,Herramientas/Rankings_src/data
+GGG,Graco,1,1,,Herramientas/Rankings_src/Screen_600_jul2026
+GILD,,1,1,,Herramientas/Rankings_src/data
+GL,,1,1,,Herramientas/Rankings_src/data
+GLW,,1,1,,Herramientas/Rankings_src/data
+GOOG,,1,1,,Herramientas/Rankings_src/data
+GS,,1,1,,Herramientas/Rankings_src/data
+GSK.L,,1,1,,Herramientas/Rankings_src/data
+GWW,,1,1,,Herramientas/Rankings_src/data
+HCA,,1,1,,Herramientas/Rankings_src/data
+HDB,,1,1,,Herramientas/Rankings_src/data
+HEI,Heico Corporation,1,1,,Herramientas/Rankings_src/Screen_600_jul2026
+HEIA.AS,,1,1,,Herramientas/Rankings_src/data
+HLMA.L,Halma,1,1,,Herramientas/Rankings_src/Screen_600_jul2026
+HLN.L,,1,1,,Herramientas/Rankings_src/data
+HLT,,1,1,,Herramientas/Rankings_src/data
+HO.PA,,1,1,,Herramientas/Rankings_src/data
+HON,,1,1,,Herramientas/Rankings_src/data
+HWM,,1,1,,Herramientas/Rankings_src/data
+IBM,,1,1,,Herramientas/Rankings_src/data
+IEX,,1,1,,Herramientas/Rankings_src/data
+IFX.DE,,1,1,,Herramientas/Rankings_src/data
+IHG.L,,1,1,,Herramientas/Rankings_src/data
+IMB.L,,1,1,,Herramientas/Rankings_src/data
+IQV,,1,1,,Herramientas/Rankings_src/data
+IR,,1,1,,Herramientas/Rankings_src/data
+ITW,,1,1,,Herramientas/Rankings_src/data
+JBHT,,1,1,,Herramientas/Rankings_src/data
+JPM,,1,1,,Herramientas/Rankings_src/data
+KDP,,1,1,,Herramientas/Rankings_src/data
+KEYS,,1,1,,Metodo_Nuevo/2026-08-21_Triadas
+KKR,,1,1,,Herramientas/Rankings_src/data
+KMB,,1,1,,Herramientas/Rankings_src/data
+KMI,,1,1,,Herramientas/Rankings_src/data
+KNIN.SW,,1,1,,Herramientas/Rankings_src/data
+KO,,1,1,,Herramientas/Rankings_src/data
+KXS,,1,1,SI,Tesis/
+LHX,,1,1,,Herramientas/Rankings_src/data
+LII,,1,1,,Herramientas/Rankings_src/data
+LISP.SW,,1,1,,Herramientas/Rankings_src/data
+LMT,,1,1,,Herramientas/Rankings_src/data
+LR.PA,,1,1,,Herramientas/Rankings_src/data
+LSEGL,,1,1,SI,Tesis/
+MAR,,1,1,,Herramientas/Rankings_src/data
+MDLZ,,1,1,,Herramientas/Rankings_src/data
+MKC,,1,1,,Herramientas/Rankings_src/data
+MO,,1,1,,Herramientas/Rankings_src/data
+MORN,,1,1,,Metodo_Nuevo/2026-08-21_Triadas
+MRK.DE,,1,1,,Herramientas/Rankings_src/data
+MS,,1,1,,Herramientas/Rankings_src/data
+NEE,,1,1,,Herramientas/Rankings_src/data
+NKE,,1,1,,Herramientas/Rankings_src/data
+NOC,,1,1,,Herramientas/Rankings_src/data
+NOVN.SW,,1,1,,Herramientas/Rankings_src/data
+NSC,,1,1,,Herramientas/Rankings_src/data
+NTRS,,1,1,,Herramientas/Rankings_src/data
+NUE,,1,1,,Herramientas/Rankings_src/data
+NVR,,1,1,,Herramientas/Rankings_src/data
+O,,1,1,,Herramientas/Rankings_src/data
+ORLY,,1,1,,Herramientas/Rankings_src/data
+OTIS,,1,1,,Herramientas/Rankings_src/data
+P911.DE,,1,1,,Herramientas/Rankings_src/data
+PCAR,,1,1,,Herramientas/Rankings_src/data
+PEP,,1,1,,Herramientas/Rankings_src/data
+PGR,,1,1,,Herramientas/Rankings_src/data
+PH,,1,1,,Herramientas/Rankings_src/data
+PKG,,1,1,,Herramientas/Rankings_src/data
+PLD,,1,1,,Herramientas/Rankings_src/data
+PODD,,1,1,,Herramientas/Rankings_src/data
+PRX.AS,,1,1,,Herramientas/Rankings_src/data
+PRY.MI,,1,1,,Herramientas/Rankings_src/data
+PSA,,1,1,,Herramientas/Rankings_src/data
+PWR,,1,1,,Herramientas/Rankings_src/data
+PYPL,,1,1,,Herramientas/Rankings_src/data
+RACE.MI,,1,1,,Herramientas/Rankings_src/data
+RCL,,1,1,,Herramientas/Rankings_src/data
+REA.AX,REA Group,1,1,,Herramientas/Rankings_src/Screen_600_jul2026
+RHM.DE,,1,1,,Herramientas/Rankings_src/data
+RKT.L,,1,1,,Herramientas/Rankings_src/data
+RMV.L,Rightmove,1,1,,Herramientas/Rankings_src/Screen_600_jul2026
+RO.SW,,1,1,,Herramientas/Rankings_src/data
+ROG.SW,Roche Holding,1,1,,Herramientas/Rankings_src/Screen_600_jul2026
+ROK,,1,1,,Herramientas/Rankings_src/data
+ROST,,1,1,,Herramientas/Rankings_src/data
+RR.L,,1,1,,Herramientas/Rankings_src/data
+RSG,,1,1,,Herramientas/Rankings_src/data
+RTX,,1,1,,Herramientas/Rankings_src/data
+SAN.PA,,1,1,,Herramientas/Rankings_src/data
+SAND.ST,,1,1,,Herramientas/Rankings_src/data
+SBAC,,1,1,,Herramientas/Rankings_src/data
+SBUX,,1,1,,Herramientas/Rankings_src/data
+SCHN.SW,,1,1,,Herramientas/Rankings_src/data
+SCHW,,1,1,,Herramientas/Rankings_src/data
+SCMN.SW,,1,1,,Herramientas/Rankings_src/data
+SHOP,,1,1,,Herramientas/Rankings_src/data
+SHW,,1,1,,Herramientas/Rankings_src/data
+SIKA.SW,,1,1,,Herramientas/Rankings_src/data
+SJM,,1,1,,Herramientas/Rankings_src/data
+SLB,,1,1,,Herramientas/Rankings_src/data
+SNA,,1,1,,Herramientas/Rankings_src/data
+SO,,1,1,,Herramientas/Rankings_src/data
+SPG,,1,1,,Herramientas/Rankings_src/data
+SPX.L,Spirax Group,1,1,,Herramientas/Rankings_src/Screen_600_jul2026
+STE,,1,1,,Herramientas/Rankings_src/data
+STLD,,1,1,,Herramientas/Rankings_src/data
+STZ,,1,1,,Herramientas/Rankings_src/data
+SWK,,1,1,,Herramientas/Rankings_src/data
+SYY,,1,1,,Herramientas/Rankings_src/data
+TDY,,1,1,,Herramientas/Rankings_src/data
+TEL,,1,1,,Herramientas/Rankings_src/data
+TMUS,,1,1,,Herramientas/Rankings_src/data
+TPR,,1,1,,Herramientas/Rankings_src/data
+TRGP,,1,1,,Herramientas/Rankings_src/data
+TRMB,,1,1,,Herramientas/Rankings_src/data
+TROW,,1,1,,Herramientas/Rankings_src/data
+TT,,1,1,,Herramientas/Rankings_src/data
+TTD,,1,1,,Herramientas/Rankings_src/data
+TTWO,,1,1,,Herramientas/Rankings_src/data
+UBER,,1,1,,Herramientas/Rankings_src/data
+UCB.BR,,1,1,,Herramientas/Rankings_src/data
+ULTA,,1,1,,Herramientas/Rankings_src/data
+ULVR.L,,1,1,,Herramientas/Rankings_src/data
+UNH,,1,1,,Herramientas/Rankings_src/data
+UNP,,1,1,,Herramientas/Rankings_src/data
+VICI,,1,1,,Herramientas/Rankings_src/data
+VISA,,1,1,SI,Tesis/
+VMC,,1,1,,Herramientas/Rankings_src/data
+VRT,,1,1,,Herramientas/Rankings_src/data
+VST,,1,1,,Herramientas/Rankings_src/data
+WAB,,1,1,,Herramientas/Rankings_src/data
+WDAY,,1,1,,Herramientas/Rankings_src/data
+WEC,,1,1,,Herramientas/Rankings_src/data
+WELL,,1,1,,Herramientas/Rankings_src/data
+WFC,,1,1,,Herramientas/Rankings_src/data
+WM,,1,1,,Herramientas/Rankings_src/data
+WMB,,1,1,,Herramientas/Rankings_src/data
+WMT,,1,1,,Herramientas/Rankings_src/data
+WRB,,1,1,,Herramientas/Rankings_src/data
+WSM,,1,1,,Herramientas/Rankings_src/data
+WTC.AX,WiseTech Global,1,1,,Herramientas/Rankings_src/Screen_600_jul2026
+WTW,,1,1,,Herramientas/Rankings_src/data
+XEL,,1,1,,Herramientas/Rankings_src/data
+XOM,,1,1,,Herramientas/Rankings_src/data
+YUM,,1,1,,Herramientas/Rankings_src/data
+ZURN.SW,,1,1,,Herramientas/Rankings_src/data

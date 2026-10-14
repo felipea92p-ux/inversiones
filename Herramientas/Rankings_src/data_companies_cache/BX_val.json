@@ -1,0 +1,48 @@
+{
+ "ticker": "BX",
+ "name": "Blackstone Inc.",
+ "currency": "USD",
+ "price_verified": 123.26,
+ "price_source": "StockAnalysis.com (close Jun 22, 2026, $123.26); cross-checked Google Finance/companiesmarketcap (~$123-124) and CNBC quote",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 1.229,
+ "implied_mcap_b_usd": 151.5,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 11.55,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.45,
+  "geo_adj_pct": 0
+ },
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 83.19,
+   "prob": 0.38,
+   "note": "Owner-earnings (DE/sh) base $6.10; Phase1 CAGR 6%, Phase2 4%, g 2.5%. Private-credit redemption drag (BCRED $82B outflows), slower realizations and fundraising in a higher-for-longer rate regime; decelerating but NOT collapsing franchise."
+  },
+  "base": {
+   "iv_per_share": 106.81,
+   "prob": 0.47,
+   "note": "Phase1 CAGR 10%, Phase2 6%, g 3.0%. Double-digit FRE/DE growth normalizes to high-single-digit; record AUM $1.30T, strong inflows ($68.5B Q1) and perpetual-capital base sustain compounding through the cycle."
+  },
+  "optimista": {
+   "iv_per_share": 133.14,
+   "prob": 0.15,
+   "note": "Phase1 CAGR 14%, Phase2 8%, g 3.0%. Re-acceleration on secular flows into infra/AI/energy and private credit; private-wealth (BCRED/perpetual) engine re-rates as redemption scare proves technical."
+  }
+ },
+ "iv_dcf_weighted": 101.78,
+ "owner_fcf_base": "Distributable Earnings (DE) used as owner-earnings proxy (cleaner than GAAP FCF for an alt-manager: nets non-cash items, captures fee + realized performance economics). FY2025 DE $7.1B / $5.57 per sh; FY2026E DE ~$6.10-6.30 per sh (~$7.6B). DCF base $6.10/sh = forward DE/sh with a small residual cushion for ongoing equity-comp dilution (FY2025 equity-based comp $1,445M, +24% YoY, ~10% of revenue / ~32% of GAAP FCF — flagged). Reported FCF $4.55B less 100% SBC ($1.445B) = ~$3.1B owner-FCF would understate the franchise's true cash economics, hence DE-based approach.",
+ "multiple_metric": "P/DE (price to Distributable Earnings per share, forward)",
+ "fwd_multiple_now": 19.88,
+ "fwd_multiple_5y_avg": 24,
+ "fair_multiple": 20.5,
+ "multiple_rationale": "Forward P/DE now ~19.9x ($123.26 / FY2026E DE ~$6.20) vs a ~24x 5y-average forward multiple (BX forward P/DE has historically run low-to-mid 20s; trailing-PE 5y avg ~40x is much higher but not apples-to-apples). Applied a ~15% haircut to the historical average to reach fair_multiple 20.5x, reflecting REAL (not purely cyclical) structural overhangs: private-credit redemption risk in BCRED ($82B fund, first monthly loss since 2022, gating risk to the private-wealth flywheel), sharply rising equity-based comp, and rate-sensitive realization/fundraising headwinds. iv_multiple = $6.20 x 20.5 = $127.10.",
+ "iv_multiple": 127.1,
+ "weight_dcf": 0.45,
+ "weight_multiple": 0.55,
+ "reconciled_iv": 115.71,
+ "structural_change": "MIXED / mostly fear-rotation with a genuine-deterioration overlay. The ~35% drop from the 52w high ($190) is driven predominantly by the 2026 private-credit redemption scare (BCRED outflows; Partners Group capping withdrawals triggered a sector-wide alt-manager sell-off in KKR/Apollo/Ares/Blue Owl) — sentiment/contagion, NOT a collapse in BX fundamentals (Q1'26 DE +25%, FRE +23%, record AUM $1.30T, $68.5B inflows). The real structural risks: sustained elevated BCRED redemptions could force gating and damage the private-wealth growth engine; higher-for-longer rates pressure realizations and fundraising; equity-based comp rising fast (+24% YoY). Net: a high-quality, proven compounder (largest global alt-manager, perpetual-capital base) but cyclical and credit-cycle-exposed — hence a balanced/slightly-DCF-weighted reconciliation (0.45/0.55) rather than the 0.35/0.65 used for stable non-cyclical compounders.",
+ "sanity_notes": "SHARES: used 1.229B total economic shares (Distributable Earnings Shares Outstanding = Class A common ~743-760M + BX Holdings partnership units), NOT the ~743M Class A float. This is the correct denominator because DE/FRE per-share are reported on this base and the StockAnalysis market cap of $151.6B at $123.26 implies ~1.23B shares — confirms. Using only Class A shares would have understated mcap by ~40% and inflated per-share IV erroneously. MCAP SANITY: $123.26 x 1.229B = $151.5B, matches known scale ($150.6-152.7B across companiesmarketcap/MacroTrends/StockAnalysis) -> mcap_sanity_ok=true. MAGNITUDE: reconciled IV $115.71 = 94% of price, comfortably inside the 30-300% sanity band. Both methods bracket the price tightly (DCF $101.78 below, multiple $127.10 above), reconciled $115.71 sits ~6% below price. Currency clean USD throughout (US listing). WACC uses beta 1.45 reflecting BX's high cyclicality (alt-manager). All IVs in USD, same currency as price."
+}

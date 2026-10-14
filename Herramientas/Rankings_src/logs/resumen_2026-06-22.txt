@@ -1,0 +1,51 @@
+RESUMEN DE EJECUCION — RANKING QG 18+12 — 22 jun 2026
+================================================================
+EMBUDO: universo 719 -> cribado FASE0 119 (umbral margen 15%, ROIC 12%) -> long-list 80 -> pool calidad>=12,0 77 -> finalistas 30.
+
+LISTA A — 18 ULTRA MONSTRUOSAS (por calidad):
+   1. V         cal 13.5/13.5  MoS +2%  APEX A PRECIO JUSTO  — Visa Inc.
+   2. MA        cal 13.5/13.5  MoS +5%  APEX A PRECIO JUSTO  — Mastercard Incorporated
+   3. MSFT      cal 13.5/13.5  MoS +7%  APEX A PRECIO JUSTO  — Microsoft Corporation
+   4. NVDA      cal 13.5/13.5  MoS -8%  APEX A PRECIO JUSTO  — NVIDIA Corporation
+   5. GOOGL     cal 13.5/13.5  MoS -60%  CARO / MOMENTUM  — Alphabet Inc. (Class A)
+   6. ASML      cal 13.5/13.5  MoS -57%  CARO / MOMENTUM  — ASML Holding N.V.
+   7. TSM       cal 13.5/13.5  MoS -55%  CARO / MOMENTUM  — Taiwan Semiconductor Manufacturing Company (ADR)
+   8. SPGI      cal 13.5/13.5  MoS +3%  APEX A PRECIO JUSTO  — S&P Global Inc.
+   9. MCO       cal 13.5/13.5  MoS -8%  APEX A PRECIO JUSTO  — Moody's Corporation
+  10. MSCI      cal 13.5/13.5  MoS -7%  APEX A PRECIO JUSTO  — MSCI Inc.
+  11. RMS.PA    cal 13.5/13.5  MoS +1%  APEX A PRECIO JUSTO  — Hermès International SCA
+  12. MC.PA     cal 13.5/13.5  MoS +5%  APEX A PRECIO JUSTO  — LVMH Moet Hennessy Louis Vuitton SE
+  13. ISRG      cal 13.5/13.5  MoS -2%  APEX A PRECIO JUSTO  — Intuitive Surgical, Inc.
+  14. AAPL      cal 13.5/13.5  MoS -43%  CARO / MOMENTUM  — Apple Inc.
+  15. IDXX      cal 13.5/13.5  MoS -20%  CARO / MOMENTUM  — IDEXX Laboratories, Inc.
+  16. OR.PA     cal 13.5/13.5  MoS +4%  APEX A PRECIO JUSTO  — L'Oreal S.A.
+  17. LIN       cal 13.5/13.5  MoS -6%  APEX A PRECIO JUSTO  — Linde plc
+  18. CME       cal 13.5/13.5  MoS +14%  OPORTUNIDAD  — CME Group Inc.
+
+LISTA B — 12 MAS INFRAVALORADAS (por margen de seguridad):
+   1. WKL.AS    MoS +54%  cal 13.5/13.5  — Wolters Kluwer N.V.
+   2. ADBE      MoS +47%  cal 13.5/13.5  — Adobe Inc.
+   3. PGHN.SW   MoS +40%  cal 13.5/13.5  — Partners Group Holding AG
+   4. ADYEN.AS  MoS +36%  cal 13.5/13.5  — Adyen N.V.
+   5. VEEV      MoS +34%  cal 13.5/13.5  — Veeva Systems Inc.
+   6. INTU      MoS +30%  cal 12.5/13.5  — Intuit Inc.
+   7. FDS       MoS +30%  cal 13.5/13.5  — FactSet Research Systems Inc.
+   8. RMD       MoS +30%  cal 13.5/13.5  — ResMed Inc.
+   9. CBOE      MoS +22%  cal 13.5/13.5  — Cboe Global Markets, Inc.
+  10. BKNG      MoS +20%  cal 13.5/13.5  — Booking Holdings Inc.
+  11. MMC       MoS +18%  cal 13.5/13.5  — Marsh & McLennan Companies, Inc.
+  12. CPRT      MoS +18%  cal 13.5/13.5  — Copart, Inc.
+
+DESCUBRIMIENTOS (no estaban en la lista de calibracion previa):
+  Lista A: IDEXX, CME, Linde.  Lista B: Adyen, Partners Group, Veeva, FactSet, ResMed, Cboe, Copart, Marsh&McLennan.
+  Otros surgidos del cribado: AppLovin, Garmin, Keyence, Cintas, Old Dominion, Disco, Lasertec, Tokyo Electron, Nintendo.
+
+ESPERADAS QUE NO PASARON EL PISO 12,0 (sobre datos verificados):
+  NVO Novo Nordisk 11,5 (deterioro activo, WATCHLIST) | SNPS Synopsys 11,5 (SBC>25% FCF) | ZTS Zoetis 9,0 (deterioro).
+
+DIVERGENCIAS vs calibracion: ACN (~12,5x->~9x) e INTU (~12,4x->~10x): reflejan caidas reales de precio (-50%/-57%), no errores.
+HALLAZGO CENTRAL: rotacion violenta fuera del software/SaaS/info-services (-~50% por miedo a IA) = origen de las gangas de Lista B.
+
+CASOS ETICOS ‡ (fuera del 18+12, decision del usuario): FICO, Verisign, Palantir.  Meta: EXCLUIDA permanentemente.
+INCOMPLETOS / fallback: 1 incompleto en verificacion (Lasertec 6920.T). Sin fallback FMP (no se uso FMP).
+DATOS: premium MCP (Bigdata/Quartr/S&P) no disponibles; verificacion 100% web (EDGAR/IR/StockAnalysis).

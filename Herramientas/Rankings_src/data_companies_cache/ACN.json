@@ -1,0 +1,109 @@
+{
+ "ticker": "ACN",
+ "name": "Accenture plc",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 124.83,
+ "market_cap_usd_b": 76.4,
+ "fwd_pe": 8.67,
+ "fwd_pe_5y_avg": 25.5,
+ "pe_prem_disc_pct": -66,
+ "peg": 1.24,
+ "last_q": {
+  "period": "Q3 FY2026 (ended 2026-05-31)",
+  "revenue": "$18.72B",
+  "rev_yoy_pct": 6,
+  "op_margin_pct": 17,
+  "eps_gaap": "$3.80",
+  "eps_adj": "$3.80"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended 2025-08-31)",
+  "revenue": "$69.7B",
+  "organic_growth_pct": 7,
+  "roic_pct": 27,
+  "fcf": "$10.9B",
+  "fcf_margin_pct": 15.6
+ },
+ "sbc_pct_revenue": 3.5,
+ "sbc_pct_fcf": 22.5,
+ "net_debt_usd_b": -1.78,
+ "nd_ebitda": -0.14,
+ "net_cash": true,
+ "guidance_fy": "FY2026 (raised at Q3): revenue +3% to +4% local currency (4-5% ex ~1% US federal drag); GAAP diluted EPS $13.38-$13.50 (+10-11%); adjusted EPS $13.78-$13.90 (+7-8%); GAAP operating margin ~15.3%; free cash flow $10.8B-$11.5B. This is management PROJECTION.",
+ "pct_off_52w_high": -59.4,
+ "pct_off_ath": -67.7,
+ "drop_classification": "mixed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "guidance_fy",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "nd_ebitda"
+ ],
+ "sources": [
+  {
+   "label": "Accenture Q3 FY2026 earnings release (BusinessWire / 8-K, primary)",
+   "url": "https://www.businesswire.com/news/home/20260618029271/en/Accenture-Reports-Third-Quarter-Fiscal-2026-Results",
+   "date": "2026-06-18"
+  },
+  {
+   "label": "Accenture Q3 FY2026 8-K summary (StockTitan)",
+   "url": "https://www.stocktitan.net/sec-filings/ACN/8-k-accenture-plc-reports-material-event-ab18d11dbf08.html",
+   "date": "2026-06-18"
+  },
+  {
+   "label": "SEC EDGAR Q3 FY2026 8-K exhibit (primary, 403 on direct fetch)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001467373/000146737326000031/q3fy26earnings8-kexhibit.htm",
+   "date": "2026-06-18"
+  },
+  {
+   "label": "StockAnalysis.com ACN overview (price, mkt cap, fwd P/E, trailing P/E)",
+   "url": "https://stockanalysis.com/stocks/acn/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com ACN statistics (PEG, cash, debt, EV, EBITDA)",
+   "url": "https://stockanalysis.com/stocks/acn/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Accenture Q4/FY2025 earnings release (newsroom PDF, primary)",
+   "url": "https://newsroom.accenture.com/content/4q-full-fy25-earnings/accenture-reports-fourth-quarter-and-full-year-fiscal-2025-results.pdf",
+   "date": "2025-09-25"
+  },
+  {
+   "label": "Macrotrends ACN stock-based compensation history",
+   "url": "https://macrotrends.net/stocks/charts/ACN/accenture/stock-based-compensation",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Macrotrends ACN stock price history (ATH reference)",
+   "url": "https://www.macrotrends.net/stocks/charts/ACN/accenture/stock-price-history",
+   "date": "2026-06-22"
+  }
+ ],
+ "notes": "FY end Aug 31. Latest reported quarter = Q3 FY2026 (ended 2026-05-31); last completed FY = FY2025 (ended 2025-08-31). Stock crashed ~18% on 2026-06-18 after Q3 print and now ~$124.83 (down ~56% over 52 weeks; near 52w low $125.60). PRICE/VALUATION: ATH closing $386.21 (2025-02-05); 52w high $307.77. fwd_pe 8.67 from StockAnalysis uses NTM (~FY27) consensus; on current-FY adjusted guidance midpoint (~$13.84) the forward P/E is ~9.0x. fwd_pe_5y_avg ~25.5x is an aggregator-derived estimate (sources spanned ~25-26.5x); implied discount ~-66%. NET CASH: StockAnalysis shows cash $10.17B vs total debt $8.39B (incl. operating leases) => net cash ~$1.78B; SEC funded debt is only ~$5.14B so net cash on a funded-debt basis is closer to ~$5B (net_cash=true either way). nd_ebitda computed off EBITDA ~$12.94B. ROIC ~27% is an ESTIMATE (Accenture historically high-20s%; not disclosed in release). SBC: GAAP share-based comp ~$2.4-2.5B/yr (cash-flow statement) => ~3.5% of FY25 revenue and ~22-23% of FCF; ESTIMATED due to inconsistent aggregator figures (Macrotrends TTM $5.2B appears to conflate items). DROP CLASSIFICATION = mixed: Q3 BEAT adj EPS ($3.80 vs ~$3.72), expanded margin to 17.0%, and FY revenue guide was RAISED to 3-4% LC — arguing fear/de-rating; BUT new bookings fell 2-3%, organic/local-currency growth only +3%, and there are genuine concerns about GenAI disrupting the consulting model plus US federal spending drag — arguing some genuine deceleration. Net: valuation de-rating/rotation amplified by real but modest fundamental softening."
+}

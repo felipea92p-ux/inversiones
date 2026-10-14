@@ -1,0 +1,59 @@
+{
+ "ticker": "GRMN",
+ "name": "Garmin Ltd.",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Hardware-led model (consumer electronics + aviation/marine devices); margins are healthy (op 24.6%) but do NOT scale monstruously with volume like software/networks, so no amplification to 2.0."
+  },
+  "R2": {
+   "score": 1,
+   "just": "Mixed secular exposure: fitness/wearables and outdoor grow but face Apple/Samsung saturation; aviation/marine are structurally growing niches — overall moderate secular tailwind, not a runaway."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Clear #1/#2 in fitness GPS wearables, outdoor handhelds, marine and general-aviation avionics with durable share; dominant in niches but not light-years ahead across all segments, so 1.5 not 2.0."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Genuine moat from brand, vertical integration, and high switching costs/certification barriers in aviation & marine (intangibles + regulation); strong but replicable at the consumer-wearable level, so 1.5 not 2.0."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "FY25 +15% and Q1 FY26 +14% growth is overwhelmingly organic (no material M&A dependence), exactly the clean compounding Seilern prizes."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Five end-markets (fitness, outdoor, aviation, marine, auto) and broad geographic spread with no single customer >10-15% — excellent diversification."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC ~24% far above WACC, FCF $1,363M (18.8% margin) with FCF/NI healthy and low capital intensity — high-quality returns on capital."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Net cash $4.3B, zero financial debt, ND/EBITDA ~-2.0x — pristine balance sheet, top of the scale."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "SBC verified at only 2.29% of revenue and 12.2% of FCF (below the 15% hard-cap), GAAP and adjusted EPS nearly identical ($2.09 vs $2.08) — very clean accounting, low dilution."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Founder-influenced governance with conservative, disciplined capital allocation (net cash, steady dividend, organic reinvestment) but Swiss-domiciled control structure and modest buyback ambition keep it at base 1.0."
+  }
+ },
+ "amplification": false,
+ "amplification_note": "R1+R3+R4 do not reinforce monstruously: scalability (R1) is structurally capped by the hardware model, so despite strong niche leadership (R3) and a real moat (R4), there is no software-like flywheel that would justify amplification.",
+ "moat_type": "Intangibles + switching costs",
+ "moat_one_line": "Marca de confianza mas barreras de certificacion/regulacion y altos costes de cambio en aviacion y marina, reforzados por integracion vertical interna dificil de replicar en coste y fiabilidad.",
+ "thesis_3lines": [
+  "Calidad: negocio excepcional con ROIC ~24%, margen FCF 18.8%, caja neta de $4.3B sin deuda y contabilidad limpia (SBC solo 12.2% del FCF, EPS GAAP=ajustado).",
+  "Motor de crecimiento: crecimiento ~15% organico en cinco segmentos diversificados, con aviacion y marina como nichos defendibles de alto margen que sostienen la guia FY26 (+9%).",
+  "Valoracion/retorno: fwd P/E 24.5 (~+7.6% sobre su media de 5 anos) y PEG 3.53 con la accion a solo -13.5% del ATH — calidad confirmada pero sin margen de seguridad, no es entrada barata."
+ ],
+ "bear_case_strongest": "El nucleo de ingresos (fitness/wearables/outdoor) es hardware de consumo expuesto a Apple y Samsung y a ciclos de reemplazo, sin escalabilidad de software; pagar PEG 3.53 por un crecimiento que la propia guia desacelera a +9% deja poco margen si la saturacion del consumidor erosiona crecimiento o multiplo.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Re-score FASE 2: total 13.5/13.5 ponderado (R1 1.0, R2 1.0, R3 1.5, R4 1.5, R5 1.5, R6 1.5, R7 1.5, R8 1.5, R9 1.5, R10 1.0). Sube vs FASE 1 (12.5) por confirmacion de SBC baja (12.2% FCF, sin hard-cap), caja neta verificada y crecimiento organico ~15%. Sin amplificacion: modelo de hardware limita R1. Valoracion no es deprimida (-13.5% de ATH, PEG 3.53) — vigilar punto de entrada. Datos VERIFICADO_mostly; campos estimados: fwd_pe_5y_avg, roic, nd_ebitda."
+}

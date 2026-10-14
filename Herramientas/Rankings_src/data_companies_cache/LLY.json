@@ -1,0 +1,104 @@
+{
+ "ticker": "LLY",
+ "name": "Eli Lilly and Company",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 1102.08,
+ "market_cap_usd_b": 982.77,
+ "fwd_pe": 29.47,
+ "fwd_pe_5y_avg": 40.81,
+ "pe_prem_disc_pct": -27.8,
+ "peg": 0.7,
+ "last_q": {
+  "period": "Q1 2026 (ended Mar 31, 2026)",
+  "revenue": "$19,799M",
+  "rev_yoy_pct": 56,
+  "op_margin_pct": 45,
+  "eps_gaap": "$8.26",
+  "eps_adj": "$8.55"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 31, 2025)",
+  "revenue": "$65.18B",
+  "organic_growth_pct": 45,
+  "roic_pct": 30,
+  "fcf": "$8,972M",
+  "fcf_margin_pct": 13.8
+ },
+ "sbc_pct_revenue": 0.96,
+ "sbc_pct_fcf": 6.98,
+ "net_debt_usd_b": 35.24,
+ "nd_ebitda": 0.97,
+ "net_cash": false,
+ "guidance_fy": "FY2026 (PROYECCION): revenue $82.0B-$85.0B; non-GAAP EPS $35.50-$37.00 (guia elevada en Q1 2026)",
+ "pct_off_52w_high": -6.8,
+ "pct_off_ath": -6.8,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "guidance_fy",
+  "net_debt_usd_b",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "Lilly Q1 2026 press release (PRNewswire / IR primary)",
+   "url": "https://www.prnewswire.com/news-releases/lilly-reports-first-quarter-2026-financial-results-raises-full-year-guidance-and-highlights-momentum-of-new-medicines-302758113.html",
+   "date": "2026"
+  },
+  {
+   "label": "Lilly Investor Relations Q1 2026 PDF",
+   "url": "https://investor.lilly.com/node/54176/pdf",
+   "date": "2026"
+  },
+  {
+   "label": "SEC EDGAR LLY 10-K FY2025",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000059478/000005947826000013/lly-20251231.htm",
+   "date": "2026-02"
+  },
+  {
+   "label": "StockAnalysis.com LLY overview (price, mcap, fwd P/E, 52w range)",
+   "url": "https://stockanalysis.com/stocks/lly/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com LLY cash flow statement (FCF, SBC)",
+   "url": "https://stockanalysis.com/stocks/lly/financials/cash-flow-statement/",
+   "date": "2026"
+  },
+  {
+   "label": "StockAnalysis.com LLY balance sheet (debt, cash, net debt)",
+   "url": "https://stockanalysis.com/stocks/lly/financials/balance-sheet/",
+   "date": "2026"
+  },
+  {
+   "label": "fullratio.com / financecharts LLY 5yr avg forward P/E",
+   "url": "https://fullratio.com/stocks/nyse-lly/pe-ratio",
+   "date": "2026-06"
+  }
+ ],
+ "notes": "LLY cotiza cerca de maximos historicos (~6.8% por debajo del maximo 52s de $1,182.73; cierre record $1,160.95 el 11-jun-2026), por lo que NO hay desplome que clasificar: not_depressed. Q1 2026 VERIFICADO via press release/IR: rev $19,799M (+56% YoY), op margin 45.0% (8,915/19,799), EPS GAAP $8.26 / adj $8.55. FY2025 VERIFICADO: rev $65.18B (+45%), FCF $8,972M (OCF 16,813 - capex 7,841), FCF margin 13.8%. SBC FY2025 = $626M -> 0.96% rev, 6.98% FCF (muy bajo, positivo para R9). Net debt $35.24B (deuda total 42.50B - caja/ST inv 7.27B); ND/EBITDA ~0.97x usando EBITDA 2025 ~$36.2B (estimado agregador). Market cap usa precio actual ~$1,102 (StockAnalysis $982.77B); nota: agregadores mostraban $1.07T el 12-jun a precio mas alto. fwd P/E 29.47 hoy vs media 5a ~40.81 -> descuento ~-28% (ESTIMADO, agregadores). PEG bajo (~0.7) por crecimiento EPS guidance ~50%; valor sensible al periodo de crecimiento usado, marcado ESTIMADO. ROIC ~30% estimado (LLY genera retornos muy altos; no extraido de filing). Guidance FY2026 es PROYECCION de la direccion."
+}

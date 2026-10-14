@@ -1,0 +1,59 @@
+{
+ "ticker": "6861.T",
+ "name": "Keyence Corporation",
+ "moat_type": "intangibles_switching_costs",
+ "moat_one_line": "Direct-sales consultative model + proprietary application know-how across 300k+ customers create deep switching costs and pricing power, producing structurally ~50% operating margins no rival in factory automation can match.",
+ "sbc_flag": "ok",
+ "amplification": true,
+ "amplification_note": "R1+R3+R4 self-reinforce monstrously: the fabless direct-sales model (R1) scales at ~51% op margin / 34% FCF margin with near-zero capital, the same model makes Keyence the undisputed #1/#2 sensor & machine-vision player globally (R3), and the proprietary application database harvested through direct sales is the very source of the switching-cost/intangible moat (R4). Each pillar feeds the next, which is why margins stay at a level competitors structurally cannot reach.",
+ "bear_case_strongest": "At ~37x forward earnings / PEG 3.68 with ROE only ~13.5% (high equity ratio of 94.6% means an enormous idle-cash drag dilutes returns on capital), the stock is priced near all-time highs for low-double-digit growth, so a yen rebound, a capex/FA-cycle downturn, or any deceleration in China/auto demand offers little valuation cushion and meaningful multiple-compression risk.",
+ "ethical_flag": "none",
+ "thesis_3lines": [
+  "Calidad excepcional: modelo fabless de venta directa con margen operativo ~51% y margen FCF 34.4%, balance ~95% equity y caja neta de ~USD 9B, sin SBC ni deuda — una de las maquinas de capital mas limpias del mundo.",
+  "Motor de crecimiento: lider mundial en sensores y vision artificial con crecimiento organico de doble digito (ventas FY2026 +10.4%, exterior +14%), apalancado en automatizacion de fabricas, calidad e inspeccion como tendencia secular multidecada.",
+  "Valoracion/retorno: a ~37x fwd PE y PEG 3.68 cotiza cerca de maximos historicos en JPY; calidad sobresaliente pero margen de seguridad estrecho — retorno futuro dependera mas del crecimiento de beneficios que de re-rating."
+ ],
+ "rules": {
+  "R1": {
+   "score": 2,
+   "just": "Modelo fabless de venta directa que escala con margen operativo ~51% y FCF margin 34.4% sin capital pesado; la dominancia de margen es monstruosa e irreplicable, merece el techo de 2.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Automatizacion industrial, vision artificial e inspeccion de calidad son tendencia secular multidecada (mano de obra escasa, reshoring), con exterior +14% YoY confirmando demanda global durable."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Lider #1/#2 mundial en sensores y machine vision; el margen operativo ~51% deja al segundo competidor a anios-luz en rentabilidad, dominancia irreplicable que justifica 2.0."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat de intangibles + costes de cambio: base de datos de aplicaciones y consultoria de venta directa sobre 300k+ clientes generan pricing power y stickiness que ningun rival ha replicado en decadas."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento puramente organico (ventas FY2026 +10.4%, exterior +14%, sin M&A material ni dilucion); claridad superior del motor organico merece 1.5."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Diversificacion fuerte: decenas de miles de clientes sin concentracion >10-15%, multi-industria (auto, semis, farma, alimentacion) y multi-geografia con exterior ya >50% de ventas."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "FCF/NI muy alto (FCF 402.3B vs NI 445.2B = ~90%), capex bajo y ROIC sobre el capital operativo enorme; se descuenta de 2.0 porque ROE reportado solo ~13.5% por la caja ociosa que infrautiliza el balance."
+  },
+  "R8": {
+   "score": 1,
+   "just": "Balance excepcional: ~95% equity, caja neta ~USD 9B, ND/EBITDA negativo, cero deuda con intereses — fortaleza maxima (1.0 = base por regla de balance)."
+  },
+  "R9": {
+   "score": 1,
+   "just": "SBC verificada negligible (~0% de ventas y FCF), sin red flags contables; conversion FCF limpia y consistente — sin gatillar la regla dura de SBC."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Gestion disciplinada y politica conservadora (sin guidance publico, sin M&A destructiva), pero capital allocation subóptima: enorme caja ociosa deprime ROE y payout solo 30% pese a subir dividendo, lo que limita a 1.0."
+  }
+ },
+ "notes": "Total ponderado = 2.0+1.5+2.0+2.0+1.5+1.5+1.5+1.0+1.0+1.0 = 15.0, recortado al techo de 13.5. Calidad de empresa entre las mas altas del universo QG (Seilern). El unico punto debil real es R10/R7: una montana de caja (~JPY 1.4T+) infrautilizada que deprime el ROE reportado a ~13.5% pese a una rentabilidad operativa monstruosa — capital allocation es la palanca de mejora. Drop_classification = not_depressed: cotiza a solo -7.3% de su maximo historico en JPY, no es una oportunidad por miedo sino una compra de calidad a precio pleno (PEG 3.68). En base USD esta muy por debajo del pico de 2021 por la debilidad del yen, lo que introduce riesgo/oportunidad cambiaria para un inversor en USD. Datos clave verificados; ROIC exacto, organic growth % y fwd PE 5y avg quedaron estimados/nulos dentro del timebox."
+}

@@ -1,0 +1,100 @@
+{
+ "ticker": "WKL.AS",
+ "name": "Wolters Kluwer N.V.",
+ "asof_date": "2026-06-22",
+ "currency": "EUR",
+ "price": 56.54,
+ "market_cap_usd_b": 14.5,
+ "fwd_pe": 10.1,
+ "fwd_pe_5y_avg": 26.35,
+ "pe_prem_disc_pct": -61.7,
+ "peg": 1.13,
+ "last_q": {
+  "period": "Q1 2026 (trading update, 3 months to Mar 31, 2026)",
+  "revenue": "Not disclosed in EUR (Q1 trading update gives growth rates only); revenue -3% reported, +4% constant currency",
+  "rev_yoy_pct": -3,
+  "op_margin_pct": null,
+  "eps_gaap": "n/a (no quarterly EPS in trading update)",
+  "eps_adj": "n/a"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 31, 2025)",
+  "revenue": "EUR 6,125 million",
+  "organic_growth_pct": 6,
+  "roic_pct": 18,
+  "fcf": "EUR 1,348 million (adjusted free cash flow)",
+  "fcf_margin_pct": 22
+ },
+ "sbc_pct_revenue": 0.5,
+ "sbc_pct_fcf": 2.2,
+ "net_debt_usd_b": 4.6,
+ "nd_ebitda": 2,
+ "net_cash": false,
+ "guidance_fy": "FY2026 guidance (PROJECTION, reiterated at Q1 2026): another year of good organic growth; adjusted operating profit margin approximately 28.0% (vs 27.5% in 2025); adjusted free cash flow EUR 1,300-1,350 million; high single-digit growth in diluted adjusted EPS in constant currencies. ND/EBITDA 1.9x at Mar 31, 2026.",
+ "pct_off_52w_high": -61.2,
+ "pct_off_ath": -68.8,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.roic_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "last_q.rev_yoy_pct",
+  "guidance_fy",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "pct_off_ath"
+ ],
+ "estimated_fields": [
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "pct_off_52w_high",
+  "net_debt_usd_b (FX conversion from EUR using ~1.146 EUR/USD)"
+ ],
+ "sources": [
+  {
+   "label": "Wolters Kluwer 2025 Full-Year Report (IR press release, GlobeNewswire)",
+   "url": "https://www.globenewswire.com/news-release/2026/02/25/3244280/0/en/Wolters-Kluwer-2025-Full-Year-Report.html",
+   "date": "2026-02-25"
+  },
+  {
+   "label": "Wolters Kluwer 2025 Full-Year Results PDF (company IR contenthub)",
+   "url": "https://assets.contenthub.wolterskluwer.com/api/public/content/3118646-2026-02-25-wolters-kluwer-2025-full-year-results-7391945524?v=2c966da9",
+   "date": "2026-02-25"
+  },
+  {
+   "label": "Wolters Kluwer First-Quarter 2026 Trading Update (company IR PDF)",
+   "url": "https://assets.contenthub.wolterskluwer.com/api/public/content/3316098-2026-05-06-wolters-kluwer-first-quarter-2026-trading-update-a6a04158be?v=9092ad42",
+   "date": "2026-05-06"
+  },
+  {
+   "label": "Wolters Kluwer Q1 2026 Trading Update summary (StockTitan)",
+   "url": "https://www.stocktitan.net/news/WTKWY/wolters-kluwer-first-quarter-2026-trading-f77k1r2mnneq.html",
+   "date": "2026-05-06"
+  },
+  {
+   "label": "StockAnalysis.com WKL quote & statistics (price, market cap, fwd P/E, PEG, 52w range)",
+   "url": "https://stockanalysis.com/quote/ams/WKL/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Macrotrends WKL stock price history (all-time high ~EUR 181.30, Feb 2025)",
+   "url": "https://www.macrotrends.net/stocks/charts/WTKWY/wolters-kluwer/stock-price-history",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Artificial Lawyer / Morningstar - 'Claude Crash' AI-disruption sell-off in legal/info-services (RELX, Thomson Reuters, Wolters Kluwer)",
+   "url": "https://www.artificiallawyer.com/2026/02/04/claude-crash-impact-on-thomson-reuters-lexisnexis-is-irrational/",
+   "date": "2026-02-04"
+  }
+ ],
+ "notes": "PRICE/VALUATION: WKL.AS = EUR 56.54 (Jun 22, 2026, 17:38 CET), near 52-week low. 52w range EUR 55.90-145.90; ATH ~EUR 181.30 (Feb 12, 2025). Market cap EUR 12.66B; USD ~14.5B at EUR/USD ~1.146 (ECB ref ~1.1462 on Jun 21, 2026). Forward P/E ~10.1 vs ~5yr avg forward P/E ~26.35 => ~-62% discount; trailing P/E ~10.0. PEG ~1.13. EPS FY2025: diluted IFRS EUR 5.64 / diluted adjusted EUR 5.29. THESIS: The ~60-69% drawdown is driven by AI-disruption FEAR ('Claude Crash' - Anthropic/Claude entering legal tech; Morningstar cut WKL & Thomson Reuters moats to Narrow), NOT by operating deterioration. Fundamentals are accelerating: FY2025 +6% organic, adj op margin 27.5% (+40bps), ROIC 18.0%, adj FCF EUR 1,348M (+10% cc, 22% margin). Q1 2026 (May 6): +5% organic, adj op profit +11% cc, adj FCF +15% cc, FY26 guidance reiterated. => drop_classification = fear_rotation. SBC: Wolters Kluwer pays most variable comp in CASH; equity-settled SBC very small - total share-based payments ~EUR 26-30M FY2025 (RSU plan ~EUR 4M). SBC ~0.5% of revenue, ~2.2% of FCF - a clear positive for R9 (minimal shareholder dilution). NET DEBT: EUR 4,024M (~USD 4.6B), ND/EBITDA 2.0x at FY25 / 1.9x at Q1 2026 - NOT net cash. DATA QUALITY: FY/Q figures, guidance, net debt and SBC are VERIFIED from company IR; price, market cap, fwd P/E, 5yr-avg P/E, PEG and FX-converted USD figures are ESTIMATED via aggregators (stockanalysis.com, macrotrends). Q1 trading update reports growth rates only (no absolute EUR revenue or quarterly EPS), hence last_q revenue/op_margin/EPS left as not-disclosed. 5yr avg forward P/E ~26.35 is an aggregator figure, somewhat elevated by the 2021-2024 re-rating; the prem/disc magnitude is directionally robust (deep discount) regardless."
+}

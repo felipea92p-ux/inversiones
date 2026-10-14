@@ -1,0 +1,48 @@
+{
+ "ticker": "ATCO-B.ST",
+ "name": "Atlas Copco AB",
+ "currency": "SEK",
+ "price_verified": 172.95,
+ "price_source": "StockAnalysis.com (ATCO.B) cross-checked vs ATCO.A 195.80 SEK and total mcap 919.57B SEK; matches data file",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 4.88,
+ "implied_mcap_b_usd": 95.9,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 8.3,
+ "wacc_components": {
+  "rf_pct": 2.8,
+  "erp_pct": 5,
+  "beta": 1.1,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "FY2025 reported FCF SEK 26.8B minus ~100% SBC (negligible, ~0.13B; SBC ~0.5% of FCF) = ~SEK 26.67B owner FCF; per share ~5.47 SEK on 4.88B shares. Note FY2025 was a cyclical soft patch (organic +1%), so this base is conservative vs a normalized year.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 119.4,
+   "prob": 0.38,
+   "note": "Phase 1 (yrs 1-5) 6% CAGR, Phase 2 declining to 3%, terminal g 2.5%. Reasonable-pessimistic: prolonged industrial-capex soft patch, FX/tariff drag persists, organic growth stays low-single-digit. Not apocalyptic."
+  },
+  "base": {
+   "iv_per_share": 155,
+   "prob": 0.47,
+   "note": "Phase 1 9% CAGR, Phase 2 declining to 4.5%, terminal g 3.0%. Cyclical recovery in compressor/vacuum/industrial, organic orders re-accelerating (Q1'26 +5% organic), ROCE ~24% reinvested at high incremental returns."
+  },
+  "optimista": {
+   "iv_per_share": 203.5,
+   "prob": 0.15,
+   "note": "Phase 1 12% CAGR, Phase 2 declining to 6%, terminal g 3.5%. Strong semiconductor/vacuum and data-center/electrification demand cycle plus bolt-on M&A; sustained mid-teens compounding."
+  }
+ },
+ "iv_dcf_weighted": 148.8,
+ "multiple_metric": "fwd P/E",
+ "fwd_multiple_now": 29.7,
+ "fwd_multiple_5y_avg": 26.5,
+ "fair_multiple": 26.5,
+ "multiple_rationale": "Fair multiple anchored to the 5-year average forward P/E (26.5x), with NO structural haircut: the soft FY2025 (organic +1%) is cyclical/FX-driven, not a structural deterioration — Q1'26 organic orders re-accelerated (+5%), operating margin held ~20.4%, ROCE ~24%, SBC negligible. Current fwd P/E (29.7x) is ~12% above the 5y average, so anchoring to the mean (rather than the current premium) bakes in mild multiple reversion. iv_multiple = normalized FY2026 fwd EPS ~6.0 SEK x 26.5 = 159 SEK.",
+ "iv_multiple": 159,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 154.9,
+ "structural_change": "None. High-quality, proven serial compounder (decentralized model, ~24% ROCE, ~16% FCF margin, structurally negligible SBC, ND/EBITDA 0.5x). FY2025 weakness is cyclical (industrial capex soft patch + heavy FX/tariff drag), not structural; orders are re-accelerating. No moat erosion identified.",
+ "sanity_notes": "Price 172.95 SEK (ATCO-B) re-verified vs StockAnalysis/Yahoo; total mcap 919.57B SEK and ~4.88B shares (A+B) confirmed. Implied mcap = 919.57B SEK / 9.59 USD-SEK = ~$95.9B USD, matching the known ~$96B scale (mcap_sanity_ok=true). Reconciled IV ~155 SEK = ~90% of price, comfortably inside the 30%-300% magnitude band. DCF (149) and multiple (159) anchors agree closely, raising confidence. Stable proven compounder => multiple weighted more (0.40/0.60). Stock trades at a ~12% premium to its 5y-avg multiple and sits essentially at its 52w high — quality name, but priced for perfection; reconciled IV implies the price is ~10-12% above intrinsic value, i.e. fully valued / modest premium, not a margin-of-safety entry. fwd EPS normalized to ~6.0 SEK FY2026 (B-share implied ~5.8, A-share implied ~6.5 bracket it; A/B economics identical). WACC uses eurozone-proxy Rf 2.8% for Sweden (not in the provided Rf table; Swedish 10y is comparable)."
+}

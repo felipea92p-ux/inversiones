@@ -1,0 +1,102 @@
+{
+ "ticker": "TPL",
+ "name": "Texas Pacific Land Corporation",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 361.11,
+ "market_cap_usd_b": 24.9,
+ "fwd_pe": 37.75,
+ "fwd_pe_5y_avg": 38.72,
+ "pe_prem_disc_pct": -2.5,
+ "peg": null,
+ "last_q": {
+  "period": "Q1 2026 (ended 2026-03-31)",
+  "revenue": "$236.8M",
+  "rev_yoy_pct": 20.8,
+  "op_margin_pct": 76.9,
+  "eps_gaap": "$2.07",
+  "eps_adj": "$2.07"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended 2025-12-31)",
+  "revenue": "$798.2M",
+  "organic_growth_pct": 29,
+  "roic_pct": 42.8,
+  "fcf": "$498.3M",
+  "fcf_margin_pct": 62.4
+ },
+ "sbc_pct_revenue": 1.73,
+ "sbc_pct_fcf": 2.77,
+ "net_debt_usd_b": -0.23,
+ "nd_ebitda": -0.33,
+ "net_cash": true,
+ "guidance_fy": "No formal full-year 2026 financial guidance issued (TPL does not provide explicit FY revenue/EPS guidance). Management commentary points to continued oil & gas royalty production growth, water segment expansion, and emerging surface/data-center land monetization (e.g. Q1 2026 $42.5M data-center-related land financing arrangement).",
+ "pct_off_52w_high": -34,
+ "pct_off_ath": -36.8,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.period",
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.period",
+  "last_fy.revenue",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "last_fy.organic_growth_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_cash",
+  "guidance_fy"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "TPL IR press release — Q1 2026 results (Land & Resource Mgmt $153.6M, Water $83.3M, total $236.8M, EPS $2.07, net income $142.9M)",
+   "url": "https://www.texaspacific.com/investors/news-events/press-releases/detail/184/texas-pacific-land-corporation-announces-first-quarter",
+   "date": "2026-05"
+  },
+  {
+   "label": "TPL IR press release — Q4 & Full Year 2025 results (revenue $798.2M, net income $481.4M, FCF $498.3M, SBC $13.8M, production +29%, net cash, undrawn $500M facility)",
+   "url": "https://www.texaspacific.com/investors/news-events/press-releases/detail/179/texas-pacific-land-corporation-announces-fourth-quarter-and",
+   "date": "2026-02"
+  },
+  {
+   "label": "StockAnalysis.com — TPL statistics (price $361.11, mkt cap $24.91B, fwd P/E 37.75, cash $247.57M, debt $17.99M, net cash $229.58M, EV $24.68B, TTM rev $839.0M, EBITDA $690.3M, FCF $493.3M, ROE 36.5%)",
+   "url": "https://stockanalysis.com/stocks/tpl/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Macrotrends — TPL stock price history (52-week high $547.20, 52-week low $269.23, all-time high $571.05 on 2024-11-22)",
+   "url": "https://www.macrotrends.net/stocks/charts/TPL/texas-pacific-land/stock-price-history",
+   "date": "2026-06-18"
+  },
+  {
+   "label": "FullRatio — TPL P/E history (5-year average P/E ~38.72, 3-year avg ~38.27)",
+   "url": "https://fullratio.com/stocks/nyse-tpl/pe-ratio",
+   "date": "2026-06"
+  },
+  {
+   "label": "GuruFocus — TPL ROIC (FY2025 ROIC ~42.8%)",
+   "url": "https://www.gurufocus.com/term/roic/TPL",
+   "date": "2026-06"
+  }
+ ],
+ "notes": "VERIFICADO via TPL IR press releases: Q1 2026 (period ended 2026-03-31) total revenue $236.8M (+20.8% YoY vs $196.0M), operating income $182.3M (op margin 76.9%), net income $142.9M, GAAP & diluted EPS $2.07 (no non-GAAP adjustment; eps_adj = eps_gaap). Segments: Land & Resource Mgmt $153.6M, Water Services & Operations $83.3M. Q1 included $20.9M land-sale revenue from a $42.5M data-center developer financing arrangement. Quarterly dividend $0.60/sh. FY2025 (ended 2025-12-31): record revenue $798.2M, net income $481.4M, FCF $498.3M (FCF margin 62.4%), SBC $13.8M, oil & gas royalty production +29% YoY (34.6 vs 26.8 MBoe/d) used as organic_growth proxy. TPL holds a NET CASH position with a fully undrawn $500M revolving credit facility; only ~$18M total debt per aggregator, hence net_debt ~ -$0.23B and nd_ebitda negative (net cash). SBC ratios computed off FY2025: SBC/revenue = 13.8/798.2 = 1.73%; SBC/FCF = 13.8/498.3 = 2.77% — very low, supportive for R9.\n\nESTIMADO (aggregator/computed): price $361.11 and mkt cap ~$24.9B (stockanalysis.com 2026-06-22; recent closes ~$355). Forward P/E 37.75 (stockanalysis.com); other aggregators show wide dispersion (42–59x) so flagged estimated. fwd_pe_5y_avg uses FullRatio's 5y average P/E (~38.72) as a TRAILING-based proxy — a true forward-P/E 5y mean was not cleanly available, so pe_prem_disc_pct (~-2.5%, i.e. roughly in line / slight discount to its own history) is approximate; note current multiple is a large premium to energy peers (~13x). ROIC ~42.8% from GuruFocus (not in the FY2025 release). PEG null (no clean consensus growth-adjusted figure; TPL is not a standard PEG name). 52-week high $547.20, ATH $571.05 (2024-11-22) → ~-34% off 52w high, ~-36.8% off ATH (computed off $361.11).\n\nDROP = fear_rotation: shares are down ~34-37% from late-2024 highs, yet fundamentals are accelerating — Q1 2026 revenue +21% YoY, record FY2025 revenue/NI/FCF, ~77% operating margins, +29% royalty production growth, net cash balance sheet, and an optional data-center/surface-monetization upside. The decline reflects multiple compression from a very high base (mid-2024 froth + index-inclusion unwind), softer oil-price sentiment and rotation out of high-multiple energy/royalty names — not deterioration of the underlying business. Classified fear_rotation (with a valuation-reset component) rather than genuine_deterioration."
+}

@@ -1,0 +1,315 @@
+{
+  "meta": {
+    "ticker": "RMS.PA",
+    "empresa": "Hermès International SCA",
+    "domicilio": "Francia (Euronext Paris)",
+    "moneda_funcional": "EUR",
+    "moneda_reporte": "USD",
+    "fecha_analisis": "2026-07-27",
+    "rol_del_agente": "VALORADOR. La calidad esta CONGELADA y no se toca.",
+    "etiqueta_congelada": "MUY_BUENA (4 puertas pasadas)",
+    "especie": "G2",
+    "banda_mos_exigida_pct": 30,
+    "banda_mos_motivo": "No esta en cartera -> umbral de ABRIR (30%). Si estuviera en cartera seria CARGAR con 40% por ser MUY_BUENA.",
+    "nota_ruta_salida": "El orquestador paso el directorio de salida como 'undefined'. Expediente escrito en Rankings/2026-07-27/RMS_PA.json.",
+    "advertencia_contradiccion_madre": "Al abrir el precio la tentacion es decir 'en realidad si es ULTRA porque el foso es unico'. No se reclasifica. La etiqueta sigue MUY_BUENA y el MoS exigido sigue siendo 30%."
+  },
+
+  "fuentes_primarias": [
+    {
+      "id": "URD2025",
+      "tipo": "Documento de Registro Universal 2025 (informe financiero anual auditado)",
+      "url": "https://assets-finance.hermes.com/s3fs-public/node/pdf_file/2026-04/1777391712/260320_hermes_urd2025_en.pdf",
+      "fecha_publicacion": "2026-03-19",
+      "descargado": "2026-07-27",
+      "nota": "Hermes NO presenta ante la SEC. Fuente primaria = su propio informe anual auditado (autorizado expresamente por Felipe)."
+    },
+    {
+      "id": "PR_FY2025",
+      "tipo": "Press release de resultados anuales 2025 (estados consolidados completos)",
+      "url": "https://assets-finance.hermes.com/s3fs-public/node/pdf_file/2026-02/1770842738/hermes_20260212_pr_2025fullyearresults_va.pdf",
+      "fecha_publicacion": "2026-02-12"
+    },
+    {
+      "id": "PR_Q1_2026",
+      "tipo": "Press release de ingresos del primer trimestre 2026",
+      "url": "https://assets-finance.hermes.com/s3fs-public/node/pdf_file/2026-04/1776186951/hermes_20260415_revenue_q1_en.pdf",
+      "fecha_publicacion": "2026-04-15"
+    }
+  ],
+
+  "hueco_temporal_critico": {
+    "hecho": "H1 2026 se publica el 29 de julio de 2026 (calendario del propio PR de Q1). Hoy es 27 de julio de 2026.",
+    "consecuencia": "El 'ejercicio en curso' se construye SOLO con Q1 2026 (un trimestre) mas una guia CUALITATIVA sin cifra. Es la base mas debil del expediente y esta a 2 dias de quedar obsoleta. Cualquier decision deberia esperar al 29 de julio."
+  },
+
+  "precio_y_capital": {
+    "precio_eur": 1659.0,
+    "precio_usd": 1890.76,
+    "fuente_precio": "StockAnalysis.com quote EPA:RMS, €1,659.00 (+0.97%), 27-jul-2026 17:35 CET. INFERENCIA (agregador). Cruce: TradingEconomics/Yahoo situan RMS en €1,640-1,675 esa misma semana. Ningun agregador se usa para sostener una cifra de los estados financieros.",
+    "tipo_cambio_eurusd": 1.1397,
+    "fuente_tipo_cambio": "TradingEconomics EUR/USD 1.1397 al 27-jul-2026 (INFERENCIA)",
+    "acciones_totales_emitidas": 105569412,
+    "acciones_autocartera": 733097,
+    "acciones_en_circulacion": 104836315,
+    "acciones_diluidas": 105040000,
+    "fuente_acciones": "HECHO — URD2025 / PR_FY2025: capital de 105,569,412 acciones de €0.51 nominal al 31-dic-2025, de las cuales 733,097 en autocartera. Acciones diluidas derivadas de BPA diluido €43.07 sobre resultado neto grupo €4,524M.",
+    "nota_ads": "NO aplica. RMS.PA es la accion ordinaria en Euronext Paris. Existe un ADR no patrocinado (HESAY) pero la valoracion se hace sobre la ordinaria; no hay ratio ADS que corregir.",
+    "capitalizacion_eur_mm": 173923,
+    "capitalizacion_usd_mm": 198221,
+    "deuda_bruta_financiera_eur_mm": 35,
+    "pasivos_por_arrendamiento_eur_mm": 2311,
+    "caja_neta_eur_mm": 12239,
+    "caja_neta_reexpresada_eur_mm": 12773,
+    "deuda_neta_eur_mm": -12239,
+    "deuda_neta_usd_mm": -13948,
+    "ev_eur_mm": 161684,
+    "ev_usd_mm": 184272,
+    "tratamiento_arrendamientos": "Los arrendamientos se tratan como GASTO OPERATIVO: el repago del principal (€332M) se resta del owner earnings. Por coherencia NO se suman los €2,311M de pasivo por arrendamiento a la deuda neta (seria doble conteo). Si se sumaran, el EV subiria a €163,995M (+1.4%) — irrelevante frente al ruido."
+  },
+
+  "candado_b_wacc": {
+    "principio": "El WACC sale del mercado, nunca de un tier de calidad.",
+    "beta": 1.0,
+    "fuente_beta": "INFERENCIA — Beta 5Y mensual = 1.00, StockAnalysis.com (perfil EPA:RMS, consultado 27-jul-2026) y Yahoo Finance RMS.PA 'Beta (5Y Monthly) 1.00'. Dos agregadores independientes coinciden. NO es un HECHO de filing: Hermes no publica beta.",
+    "tasa_libre_riesgo_pct": 3.13,
+    "fuente_tasa_libre_riesgo": "Bund aleman a 10 anos 3.13% al 27-jul-2026 (TradingEconomics). Se usa el Bund y NO el OAT frances (~3.8%) porque el riesgo pais de Francia ya entra por la prima de riesgo pais de Damodaran; usar el OAT lo contaria dos veces.",
+    "prima_mercado_madura_pct": 4.23,
+    "prima_pais_ponderada_pct": 0.8,
+    "prima_riesgo_total_ponderada_pct": 5.03,
+    "fuente_primas": "Damodaran, tabla de country risk premiums, ultima actualizacion 5-ene-2026 (pages.stern.nyu.edu). Prima de mercado maduro 4.23%. ERP total: Francia 5.01%, EEUU 4.46%, China 5.14%, Japon 5.14%, Alemania 4.23%.",
+    "ponderacion_geografica_del_riesgo_de_activo": {
+      "base": "HECHO — Ingresos por area geografica FY2025 (PR_FY2025, pag. de ingresos por zona)",
+      "detalle": [
+        {"zona": "Francia", "ingresos_eur_mm": 1575, "peso_pct": 9.84, "erp_pct": 5.01},
+        {"zona": "Europa ex-Francia", "ingresos_eur_mm": 2362, "peso_pct": 14.76, "erp_pct": 4.70},
+        {"zona": "Japon", "ingresos_eur_mm": 1591, "peso_pct": 9.94, "erp_pct": 5.14},
+        {"zona": "Asia-Pacifico ex-Japon", "ingresos_eur_mm": 6702, "peso_pct": 41.88, "erp_pct": 5.10},
+        {"zona": "Americas", "ingresos_eur_mm": 3075, "peso_pct": 19.22, "erp_pct": 4.55},
+        {"zona": "Otros (Oriente Medio)", "ingresos_eur_mm": 697, "peso_pct": 4.36, "erp_pct": 5.20}
+      ],
+      "erp_ponderado_pct": 5.03,
+      "nota": "Se pondera por DONDE ESTA EL RIESGO DEL ACTIVO (destino de la venta), no por el domicilio fiscal frances. Los ERP de las agrupaciones (Europa ex-Francia, Asia-Pac ex-Japon, Americas, Oriente Medio) son INFERENCIA: medias razonadas de los paises de cada bloque a partir de la tabla de Damodaran."
+    },
+    "coste_capital_propio_pct": 8.16,
+    "coste_deuda_pct": 2.49,
+    "fuente_coste_deuda": "HECHO derivado de filing — URD2025 nota 10.1: gasto por intereses de pasivos por arrendamiento €55M; nota 8.3.2: pasivos por arrendamiento €2,113M (2024) y €2,311M (2025), media €2,212M. 55/2,212 = 2.49%. Hermes NO tiene deuda financiera real: 'Borrowings and financial liabilities' = €35M y son integramente opciones put a minoritarios. El unico coste de deuda observable es el implicito de los arrendamientos.",
+    "coste_deuda_despues_impuestos_pct": 1.84,
+    "peso_equity_pct": 98.69,
+    "peso_deuda_pct": 1.31,
+    "wacc_pct": 8.1,
+    "wacc_rango": "6.9% - 9.5%",
+    "wacc_rango_construccion": "Extremo bajo: Rf 2.9% + beta 0.85 x ERP 4.7% = 6.90%. Extremo alto: Rf 3.3% + beta 1.15 x ERP 5.4% = 9.51%.",
+    "cruce_independiente": "HECHO — URD2025 nota 8.4: la propia Hermes usa un WACC despues de impuestos del 9.16% en 2025 (8.60% en 2024) para sus tests de deterioro. Mi 8.1% bottom-up es MAS GENEROSO que el de la propia compania. Al 9.16% de Hermes, la g implicita del precio de hoy salta del 12.65% al 15.47%."
+  },
+
+  "estados_financieros_auditados_FY2025": {
+    "etiqueta": "HECHO — todas las cifras de PR_FY2025 / URD2025, estados consolidados auditados, en millones de EUR",
+    "ingresos": 16002,
+    "ingresos_2024": 15170,
+    "crecimiento_publicado_pct": 5.5,
+    "crecimiento_tipo_constante_pct": 8.9,
+    "efecto_divisa_eur_mm": -515,
+    "coste_ventas": -4623,
+    "margen_bruto": 11379,
+    "margen_bruto_pct": 71.1,
+    "resultado_operativo_recurrente": 6569,
+    "margen_operativo_recurrente_pct": 41.05,
+    "resultado_financiero_neto": 207,
+    "resultado_antes_impuestos": 6775,
+    "impuestos": -2263,
+    "tasa_impositiva_efectiva_pct": 33.4,
+    "nota_impuestos": "El 33.4% incluye la contribucion excepcional francesa sobre beneficios de grandes empresas. Excluida, el beneficio neto grupo ajustado fue €4,860M (+5.5%), lo que implica una tasa normalizada de ~28.5%.",
+    "resultado_neto_grupo": 4524,
+    "margen_neto_pct": 28.3,
+    "bpa_basico_eur": 43.15,
+    "bpa_diluido_eur": 43.07,
+    "flujo_operativo_antes_wc": 5607,
+    "variacion_capital_circulante": -233,
+    "flujo_actividades_operativas": 5374,
+    "inversiones_operativas_capex": -1161,
+    "repago_arrendamientos": -332,
+    "free_cash_flow_ajustado_reportado": 3880,
+    "amortizacion_total_incluye_derechos_uso": 926,
+    "amortizacion_derechos_de_uso": 353,
+    "amortizacion_inmovilizado_ex_derechos_uso": 573,
+    "fuente_amortizacion_rou": "HECHO — URD2025 nota 8.3.1: amortizaciones y deterioros del ejercicio sobre derechos de uso €353M (tiendas €257M + oficinas y otros €95M). Diferencia con los €926M totales del estado de flujos = €573M de amortizacion de inmovilizado material e intangible.",
+    "pagos_basados_en_acciones": 132,
+    "caja_neta": 12239,
+    "caja_neta_reexpresada": 12773,
+    "patrimonio_grupo": 18840,
+    "dividendos_pagados": -2796,
+    "plantilla": 26494,
+    "plantilla_2024": 25185
+  },
+
+  "ejercicio_en_curso_2026": {
+    "etiqueta_global": "SUPUESTO construido sobre un unico HECHO trimestral",
+    "hechos_disponibles": {
+      "q1_2026_ingresos_eur_mm": 4070,
+      "q1_2025_ingresos_eur_mm": 4129,
+      "q1_variacion_publicada_pct": -1.4,
+      "q1_variacion_tipo_constante_pct": 5.6,
+      "efecto_divisa_q1_eur_mm": -290,
+      "fuente": "HECHO — PR_Q1_2026, tabla de ingresos por area geografica y por sector",
+      "desglose_dolor": "Asia-Pacifico ex-Japon -4.6% publicado (+2.2% cc), Oriente Medio -13.4% (-5.9% cc), Relojes -10.3% (-3.7% cc), Confeccion y Accesorios -6.4% (+0.4% cc). Marroquineria +2.0% publicado (+9.4% cc) y Americas +6.4% (+17.2% cc) sostienen el trimestre.",
+      "guia": "HECHO — PR_Q1_2026, seccion Outlook: 'a medio plazo el grupo confirma un objetivo ambicioso de crecimiento de ingresos a tipos de cambio constantes'. SIN CIFRA. No hay guia numerica de ingresos, margen ni capex para 2026."
+    },
+    "supuestos_de_anualizacion": {
+      "ingresos_2026e_eur_mm": 15778,
+      "metodo_ingresos": "Extrapolacion mecanica del -1.4% publicado de Q1 sobre los €16,002M de 2025. Se elige lo mecanico frente a lo estimado precisamente porque no hay guia numerica.",
+      "margen_operativo_recurrente_2026e_pct": 40.0,
+      "justificacion_margen": "SUPUESTO. -105 pb frente al 41.05% de 2025 por efecto transaccional de divisa y desapalancamiento operativo con ingresos planos en euros. Hermes no ha guiado margen.",
+      "resultado_neto_2026e_eur_mm": 4587,
+      "tasa_impositiva_2026e_pct": 29.5,
+      "flujo_operativo_2026e_eur_mm": 5460,
+      "capex_2026e_eur_mm": 1250,
+      "amortizacion_ex_rou_2026e_eur_mm": 620,
+      "repago_arrendamientos_2026e_eur_mm": 350,
+      "sbc_2026e_eur_mm": 135
+    },
+    "lectura_del_momento_del_ciclo": "El owner earnings del ejercicio en curso sale PRACTICAMENTE IGUAL al auditado (mantenimiento €4,355M vs €4,337M; capex total €3,725M vs €3,749M). Eso no es ruido: es la firma de una meseta. El negocio subyacente sigue creciendo +5.6% a tipo constante, pero en euros —la moneda en la que Felipe compraria la accion— la generacion de caja lleva un ano sin moverse. La distancia entre bases es de +0.4% y -0.6%: el ciclo esta en pausa, no en ruptura."
+  },
+
+  "owner_earnings": {
+    "definicion_usada": "OE = flujo de actividades operativas (despues de circulante) - capex - repago del principal de arrendamientos - pagos basados en acciones. El repago de arrendamientos se resta porque el estado de flujos lo clasifica en financiacion mientras su amortizacion (€353M) ya se readiciono dentro del flujo operativo; no restarlo regalaria caja que no existe. Los SBC se restan como coste real (€132M).",
+    "version_a_mantenimiento": {
+      "regla": "Capex de mantenimiento aproximado por la amortizacion de inmovilizado EX derechos de uso (€573M en 2025). El exceso sobre esa cifra (€588M) es inversion discrecional y NO se resta.",
+      "auditado_2025_eur_mm": 4337,
+      "auditado_2025_usd_mm": 4943,
+      "en_curso_2026e_eur_mm": 4355,
+      "en_curso_2026e_usd_mm": 4963,
+      "aritmetica_auditado": "5,374 - 573 - 332 - 132 = 4,337"
+    },
+    "version_b_capex_total": {
+      "regla": "Se resta TODO el capex (€1,161M). Flujo de caja libre puro.",
+      "auditado_2025_eur_mm": 3749,
+      "auditado_2025_usd_mm": 4273,
+      "en_curso_2026e_eur_mm": 3725,
+      "en_curso_2026e_usd_mm": 4245,
+      "aritmetica_auditado": "5,374 - 1,161 - 332 - 132 = 3,749",
+      "cruce": "Coincide con el FCF ajustado reportado por Hermes (€3,880M) menos los SBC (€132M) = €3,748M. Diferencia de €1M por redondeo."
+    },
+    "multiplos_pagados_hoy": {
+      "ev_sobre_oe_mantenimiento": 37.3,
+      "ev_sobre_oe_capex_total": 43.1,
+      "per_2025_diluido": 38.5
+    }
+  },
+
+  "dcf_inverso": {
+    "motor": "Se resuelve la g de 10 anios que, con terminal del 3% y WACC del 8.1%, hace que el valor del equity (VA de los owner earnings + caja neta) iguale exactamente la capitalizacion de hoy.",
+    "flujo_usado": "OE version (b), capex total. Razon: una g positiva exige el capex completo; descontar owner earnings de mantenimiento CRECIENDO al 12% seria contar el crecimiento sin pagar la fabrica que lo produce.",
+    "g_implicita_base_auditada_pct": 12.65,
+    "g_implicita_base_en_curso_pct": 12.73,
+    "sensibilidades": {
+      "g_implicita_auditada_con_wacc_9_16_de_la_propia_hermes_pct": 15.47,
+      "g_implicita_auditada_sobre_oe_de_mantenimiento_pct": 10.78,
+      "lectura": "Cualquiera que sea el flujo o el WACC que se elija dentro del rango honesto, el precio de hoy exige entre el 10.8% y el 15.5% anual de crecimiento del flujo libre durante DIEZ anos antes de caer al 3% perpetuo."
+    },
+    "contraste_contra_la_tasa_base_del_negocio": {
+      "cagr_ingresos_ultima_decada": "~15% (HECHO agregado del historico: 2015 ~€4.8bn -> 2025 €16.0bn). Ese fue el periodo del boom chino irrepetible.",
+      "crecimiento_organico_FY2025_pct": 8.9,
+      "crecimiento_organico_Q1_2026_pct": 5.6,
+      "crecimiento_publicado_Q1_2026_pct": -1.4,
+      "veredicto": "El mercado esta pagando por una VUELTA a la tasa base de la decada dorada (12.65%) justo cuando la tasa base corriente se ha reducido a 5.6% a tipo constante y a NEGATIVA en euros. La g implicita esta por encima del run-rate actual por un factor de 2.3x."
+    }
+  },
+
+  "g_defendible": {
+    "calculo_mecanico_pedido": {
+      "reinversion_pct_ventas": 11.13,
+      "reinversion_eur_mm": 1781,
+      "nopat_2025_eur_mm": 4664,
+      "nopat_metodo": "Resultado operativo recurrente €6,569M x (1 - 29% tasa normalizada)",
+      "tasa_de_reinversion_sobre_nopat_pct": 38.2,
+      "roiic_ex_margen_pct": 49.8,
+      "g_mecanica_pct": 19.0,
+      "aritmetica": "38.2% x 49.8% = 19.0%"
+    },
+    "por_que_NO_uso_el_19_0_pct": "Porque la formula g = reinversion x ROIIC supone que el capital es el factor limitante. En Hermes NO lo es. El propio MECANISMO congelado dice que el cuello de botella es FISICO y administrado: artesanos formados en casa, un taller nuevo al ano, calendario publicado hasta 2030. Hermes podria reinvertir el doble y no fabricaria el doble de Birkins. Un g del 19% derivado de la aritmetica del capital contradice el mecanismo que sostiene la propia tesis de calidad. Cuando la formula y el mecanismo se pelean, gana el mecanismo.",
+    "g_defendible_pct": 8.0,
+    "construccion_de_la_g_defendible": {
+      "volumen_pct": 3.8,
+      "volumen_evidencia": "Plantilla +5.2% en 2025 (26,494 vs 25,185, HECHO PR_FY2025). Cadencia declarada de un taller de marroquineria al ano (~250-280 artesanos cada uno sobre una base de artesanos de marroquineria de varios miles). El crecimiento de volumen no puede superar de forma sostenida la formacion de artesanos.",
+      "precio_mix_pct": 4.2,
+      "precio_evidencia": "Los aumentos anuales de tarifa de Hermes se han movido historicamente en el 4-8%; se toma el extremo bajo porque el ejercicio de 2026 ya muestra elasticidad a la baja en las lineas menos racionadas (Relojes -3.7% cc, Confeccion +0.4% cc).",
+      "total_pct": 8.0,
+      "cruce": "Coincide con el organico FY2025 (+8.9%) descontando algo, y esta por ENCIMA del run-rate de Q1 2026 (+5.6% cc). Es decir: mi g defendible ya es optimista frente al ultimo dato publicado."
+    },
+    "honestidad": "El campo g_defendible_pct del esquema recibe 8.0, NO el 19.0 que sale de la formula. La justificacion esta escrita arriba y es la unica razon por la que se rompe la regla literal."
+  },
+
+  "valor_intrinseco": {
+    "metodo": "OE capex total creciendo al 8.0% durante 10 anos, terminal 3%, descontado al 8.1%, mas caja neta, dividido entre 105.04M acciones diluidas.",
+    "base_auditada": {
+      "equity_eur_mm": 124556,
+      "valor_por_accion_eur": 1186,
+      "valor_por_accion_usd": 1351,
+      "mos_pct": -39.9
+    },
+    "base_en_curso": {
+      "equity_eur_mm": 123837,
+      "valor_por_accion_eur": 1179,
+      "valor_por_accion_usd": 1344,
+      "mos_pct": -40.7
+    },
+    "piso_de_resolucion": {
+      "regla": "Sin medicion propia del ruido se aplica una banda de +/- 25%. Ninguna cifra de valor intrinseco se reporta con decimales.",
+      "banda_auditada_eur": "890 - 1,480 por accion",
+      "banda_auditada_usd": "1,010 - 1,690 por accion",
+      "consecuencia": "El precio de hoy (€1,659 / $1,891) queda POR ENCIMA del extremo superior de la banda. Este es el hallazgo robusto: la conclusion de sobrevaloracion sobrevive al ruido de +/-25%. No hay que afinar el modelo para saber que esta cara."
+    }
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 25.0,
+    "m_estrella_definicion": "25x owner earnings de MANTENIMIENTO. Decidido en frio, sin barra de error, porque no es una estimacion sino un compromiso.",
+    "m_estrella_razonamiento": "25x owner earnings de mantenimiento es lo que estoy dispuesto a pagar por un negocio con margen operativo del 41%, ROIC del 31.6%, caja neta de €12.2bn, devengo negativo siete anos seguidos... y una puerta G3 SIN CITA. El descuento frente al 30x que pagaria por un compounder con elasticidad DEMOSTRADA es exactamente el precio de la duda que la fase de calidad dejo abierta. Hoy el mercado paga 37.3x esa misma cifra.",
+    "valor_razonable_por_m_estrella_eur": 1149,
+    "valor_razonable_por_m_estrella_usd": 1309,
+    "p_estrella_usd": 946,
+    "p_estrella_eur": 830,
+    "p_estrella_definicion": "Precio que da el 30% de MoS exigido por la banda MUY_BUENA para ABRIR, sobre el valor intrinseco de la base auditada (€1,186 x 0.70 = €830 = $946).",
+    "p_estrella_alternativo_por_m_estrella_usd": 916,
+    "distancia_al_precio_de_hoy": "El precio de hoy ($1,891) esta un 100% por encima de P* ($946). Haria falta una caida del 50% para que esta empresa entre por la puerta que su propia banda exige."
+  },
+
+  "tir_esperada": {
+    "metodo": "TIR a 10 anos comprando hoy a €1,659: dividendos anuales (payout 42%), caja neta acumulada, y salida a un multiplo de owner earnings del ano 10.",
+    "escenarios": [
+      {"nombre": "BAJISTA", "g_pct": 3.5, "multiplo_salida": 18, "tir_pct": -1.4, "precio_salida_eur": 1274},
+      {"nombre": "BASE (mi g defendible)", "g_pct": 8.0, "multiplo_salida": 25, "tir_pct": 4.8, "precio_salida_eur": 2367},
+      {"nombre": "ALCISTA", "g_pct": 11.0, "multiplo_salida": 32, "tir_pct": 9.6, "precio_salida_eur": 3744}
+    ],
+    "rango": "-1% a +10% anual durante 10 anos; centro ~+5%",
+    "lectura": "El escenario BASE devuelve un 4.8% anual frente a un coste de capital propio del 8.16%. Se destruye valor incluso acertando con el negocio. Solo el escenario ALCISTA —crecimiento del 11% durante una decada Y salida a 32x— iguala el coste de capital. Y para que el mercado tenga razon al precio de hoy hace falta un 12.65% de crecimiento del flujo libre durante diez anos sin compresion de multiplo."
+  },
+
+  "detector_de_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "Una trampa de valor es un MoS grande sobre un motor que se rompe. Aqui NO HAY MoS: el margen de seguridad es NEGATIVO (-40%). La pregunta ni siquiera se plantea en la direccion habitual. El motor esta intacto y verificado en el auditado: margen operativo recurrente 41.05% (subiendo desde 40.5%), margen bruto 71%, caja neta €12.2bn creciendo, sin deuda financiera, plantilla +5.2%, MSCI de A a AA. Lo que se ha roto NO es el negocio sino el precio al que el mercado dejo de pagarlo: -30% en 12 meses.",
+    "contra_observaciones_que_obligan_a_vigilar": [
+      "Oriente Medio -13.4% publicado / -5.9% a tipo constante en Q1 2026: es la PRIMERA zona con caida organica. En un negocio de escasez racionada, una caida de volumen a tipo constante es exactamente la senal que la puerta G3 no pudo medir.",
+      "Relojes -3.7% a tipo constante y Confeccion +0.4%: las lineas MENOS racionadas se paran primero. La marroquineria (+9.4% cc), la unica con lista de espera real, sigue firme. Esa divergencia es informacion sobre donde acaba el poder de precio y donde empieza la cosecha del foso.",
+      "Asia-Pacifico ex-Japon (41.9% de los ingresos) crece solo +2.2% a tipo constante."
+    ],
+    "por_que_no_es_SOSPECHA": "Porque las tres observaciones anteriores serian decisivas si hubiera que justificar un descuento. No lo hay. No hace falta explicar por que esta barata: no lo esta."
+  },
+
+  "huecos_declarados": [
+    "H1 2026 se publica el 29 de julio de 2026, dos dias despues de este analisis. TODA la base 'en curso' descansa en un solo trimestre (Q1). Este expediente caduca el 29 de julio.",
+    "Hermes NO da guia numerica: ni de ingresos, ni de margen, ni de capex para 2026. Los €15,778M de ingresos, el 40.0% de margen, los €1,250M de capex, los €350M de repago de arrendamientos y los €135M de SBC del ejercicio en curso son SUPUESTOS mios, no proyecciones de la compania.",
+    "Beta 1.00 es INFERENCIA de agregadores (StockAnalysis + Yahoo, 5Y mensual, 27-jul-2026). Hermes no publica beta y no existe una beta de filing primario. Toda la sensibilidad del WACC al beta esta sin anclar en fuente primaria.",
+    "El precio €1,659 y el tipo EUR/USD 1.1397 son de agregadores (INFERENCIA), no de una fuente oficial de mercado con sello. Ningun numero de los estados financieros depende de ellos.",
+    "Las primas de riesgo pais de los BLOQUES (Europa ex-Francia 4.70%, Asia-Pac ex-Japon 5.10%, Americas 4.55%, Oriente Medio 5.20%) son medias razonadas mias sobre la tabla de Damodaran de enero 2026, no cifras leidas directamente de ella. Solo Francia (5.01%), Japon (5.14%), China (5.14%), EEUU (4.46%) y Alemania (4.23%) son cita directa.",
+    "El reparto de la g defendible entre volumen (3.8%) y precio (4.2%) es un SUPUESTO. Es el mismo hueco que la fase de calidad ya declaro: Hermes no publica NI UNA cifra de volumen, de modo que no se puede verificar si el crecimiento viene de vender mas o de cobrar mas. La valoracion HEREDA ese hueco entero.",
+    "La separacion del capex de mantenimiento se hace con la amortizacion de inmovilizado ex-derechos de uso (€573M). Hermes no desglosa capex de mantenimiento vs expansion. La linea entre los dos es mia.",
+    "El payout del 42% usado en la TIR es INFERENCIA (dividendos pagados €2,796M sobre owner earnings de mantenimiento €4,337M = 64%; sobre resultado neto €4,524M = 62%). Se uso 42% sobre OE capex-total; una calibracion distinta mueve la TIR menos de 50 pb.",
+    "La contribucion excepcional francesa sobre grandes beneficios distorsiona la tasa impositiva de 2025 (33.4% frente a ~28.5% normalizada). No he verificado en el auditado si se prorroga a 2026 ni en que proporcion."
+  ],
+
+  "resumen_del_valorador": "Hermes al cierre del 27-jul-2026 cotiza a €1,659 ($1,891), con una capitalizacion de $198,221M y un EV de $184,272M despues de €12.2bn de caja neta. Con el WACC salido del mercado —Bund 3.13% + beta 1.00 x ERP ponderado por geografia de ventas 5.03% = 8.1%, mas generoso que el 9.16% que la propia Hermes usa en sus tests de deterioro— el DCF inverso dice que el precio de hoy exige un 12.65% anual de crecimiento del flujo libre durante DIEZ anos antes de caer al 3% perpetuo. El run-rate publicado de Q1 2026 es -1.4% en euros y +5.6% a tipo constante. El mercado paga por la decada del boom chino con los numeros de la meseta actual. Mi g defendible es del 8%: la formula reinversion x ROIIC ex-margen daria un 19%, pero ese numero supone que el limite de Hermes es el capital, y el mecanismo congelado dice que el limite es fisico —un taller al ano, artesanos formados en casa. Con g=8% el valor sale en ~€1,186/accion ($1,351), con banda de resolucion de +/-25% que va de $1,010 a $1,690: el precio de hoy queda POR ENCIMA del techo de la banda, asi que la conclusion sobrevive al ruido sin afinar nada. MoS -39.9% sobre el auditado y -40.7% sobre el ejercicio en curso; la TIR esperada va de -1% a +10% anual con centro en +4.8%, por debajo del 8.16% de coste de capital propio incluso acertando con el negocio. m* = 25x owner earnings de mantenimiento (hoy se pagan 37.3x); el descuento frente al 30x que pagaria por un compounder con elasticidad demostrada ES el precio de la puerta G3 sin cita. P* = $946 por accion, un 50% por debajo de hoy. NO es trampa de valor —el motor esta intacto, margen 41.05% subiendo, caja neta creciendo— pero tampoco es una oportunidad: es un negocio excepcional a un precio que ya lo sabe. La banda MUY_BUENA exige 30% de MoS para abrir y el MoS es negativo del 40%: no se abre. Y el expediente caduca en dos dias, cuando salga H1 2026 el 29 de julio.",
+
+  "veredicto": "NO ABRIR. MoS -39.9% (auditado) / -40.7% (en curso) frente al +30% exigido por la banda MUY_BUENA para abrir posicion. Distancia hasta P*: -50% desde el precio de hoy. Reevaluar tras H1 2026 (29-jul-2026)."
+}

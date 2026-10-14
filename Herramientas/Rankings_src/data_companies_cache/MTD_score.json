@@ -1,0 +1,59 @@
+{
+ "ticker": "MTD",
+ "name": "Mettler-Toledo International Inc.",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Adj op margin solido ~29.6% FY25 / 26% Q1 con poder de fijacion de precios, pero es manufactura de instrumentos de precision (no software/red): los margenes no escalan exponencialmente con el volumen, base 1.0."
+  },
+  "R2": {
+   "score": 1,
+   "just": "Lab/industrial/food-retail weighing y analitica crece secularmente con farma, biotech y QA, pero crecimiento organico modesto (+4% FY25, +1% ex-M&A Q1) indica madurez ciclica, no hipercrecimiento."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Lider #1 global indiscutido en balanzas de precision e instrumentos analiticos con cuota dominante y fragmentacion del resto del campo, claridad de liderazgo superior a la base."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat profundo: base instalada enorme, altos costes de cambio (validacion/regulacion en labs farma-GMP), servicio recurrente, marca de referencia e intangibles tecnicos; durable pero replicable a decadas, no 2.0."
+  },
+  "R5": {
+   "score": 1,
+   "just": "Crecimiento mayoritariamente organico (FY25 +4% organico; Q1 +3% moneda local, +1% ex-M&A) con M&A bolt-on pequeno, sano pero el ritmo organico es bajo, base 1.0."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Diversificacion excelente: multi-geografia global, multiples mercados finales (lab, industrial, food retail) y base de clientes atomizada sin concentracion >10-15%, superior a la base."
+  },
+  "R7": {
+   "score": 2,
+   "just": "ROIC ~24.7% (hasta 31% por otra metodologia) muy por encima del WACC, FCF margin 21.8% con capex bajisimo (capex $107M vs op cash $956M = ~2.7% ventas), conversion y eficiencia de capital monstruosas."
+  },
+  "R8": {
+   "score": 1,
+   "just": "Deuda neta ~$2.09B (NO caja neta) con ND/EBITDA ~1.6x: apalancamiento moderado y comodo pero no balance fortaleza, base 1.0."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "SBC verificada solo 0.56% de ventas y 2.57% del FCF (muy por debajo del umbral del 15%), contabilidad limpia y dilucion minima de las mejores del sector, calidad contable superior."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Asignacion de capital ejemplar: recompras agresivas y consistentes que reducen acciones (motor clave del EPS +8-10%), M&A disciplinado bolt-on y guia subida pese al miedo macro, gestion de elite."
+  }
+ },
+ "amplification": false,
+ "amplification_note": "R3 (liderazgo #1) y R4 (moat por costes de cambio) se refuerzan claramente, pero R1 NO es un modelo escalable monstruoso (manufactura de hardware de precision sin economias de red ni margen incremental de software) y el crecimiento organico es modesto (+1% ex-M&A en Q1). Sin la pata escalable R1, la triada no alcanza el umbral \"monstruoso e irreplicable\" requerido para amplification.",
+ "moat_one_line": "Costes de cambio y base instalada: instrumentos MTD validados en flujos regulados (GMP farma/biotech) y enlazados a software/servicio recurrente son caros, lentos y arriesgados de sustituir.",
+ "moat_type": "switching_costs_installed_base",
+ "thesis_3lines": [
+  "CALIDAD: compounder de elite con ROIC ~25%, margenes op ~30%, FCF margin 22%, capex minimo y SBC de las mas bajas del sector (2.6% del FCF) - maquina de conversion de caja excepcional.",
+  "MOTOR: lider global #1 en pesaje de precision e instrumentacion analitica con costes de cambio altos en labs regulados, crecimiento organico modesto (~4%) amplificado a EPS +8-10% via recompras consistentes.",
+  "VALORACION: fwd P/E 24x vs media 5a de 37x (-35% de descuento) tras caer ~15% post-Q1 PESE a batir EPS y SUBIR guia - de-rating por miedo macro/rotacion, no por deterioro del negocio."
+ ],
+ "bear_case_strongest": "El crecimiento organico real es estructuralmente bajo (solo +1% ex-adquisiciones en Q1, +4% FY25) y el EPS depende criticamente de las recompras para llegar a +8-10%: si el capex de farma/biotech y la demanda china se deterioran mas, el de-rating de 37x a 24x podria ser una re-calificacion PERMANENTE a la realidad de un compounder maduro de crecimiento mono-digito, no una oportunidad temporal.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Score total re-puntuado FASE 2 = 1.0+1.0+1.5+1.5+1.0+1.5+2.0+1.0+1.5+1.5 = 13.5/13.5 (techo). Calidad intacta y CONFIRMADA por datos primarios SEC: ROIC 24.7%, FCF margin 21.8%, SBC 2.57% del FCF (REGLA DURA SBC superada con holgura, R9 sin penalizacion). Unico recorte de calidad real es R8 (deuda neta ~$2.09B, NO caja neta, ND/EBITDA 1.6x) y R1 (hardware no escalable), compensados por R7 monstruoso y R3/R4/R6/R9/R10 a 1.5. Clasificacion de caida = fear_rotation: -23.7% de max 52s, -32% de ATH, cayo ~15% post-Q1 a PESAR de batir EPS y subir guia. fwd P/E 24x vs media 37x = descuento -35% sin deterioro fundamental. Campos estimados a vigilar: fwd_pe_5y_avg y PEG (agregador), ROIC (GuruFocus), ND/EBITDA (EBITDA estimado). ethical_flag=none."
+}

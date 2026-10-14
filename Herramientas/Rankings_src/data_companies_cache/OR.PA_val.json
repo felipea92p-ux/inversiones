@@ -1,0 +1,48 @@
+{
+ "ticker": "OR.PA",
+ "name": "L'Oreal S.A.",
+ "currency": "EUR",
+ "price_verified": 378.1,
+ "price_source": "StockAnalysis.com (EPA:OR) Jun 22 2026 5:35pm CET; corroborated by Yahoo Finance OR.PA and companiesmarketcap",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.5337,
+ "implied_mcap_b_usd": 231.3,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 7,
+ "wacc_components": {
+  "rf_pct": 2.8,
+  "erp_pct": 5,
+  "beta": 0.85,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "FY2025 net cash flow (reported FCF proxy) EUR 7,161.6M minus 100% SBC ~EUR 185M (0.4% of revenue) = owner FCF ~EUR 6,977M; per share ~EUR 13.07 on 533.7M diluted shares",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 289,
+   "prob": 0.38,
+   "note": "Phase1 ~4% CAGR, Phase2 declining to 2.5%, terminal g=2.5%, WACC 7.0%. Beauty market matures, China/travel-retail soft, FX headwinds persist; record margins hold but top-line slows. PV equity ~EUR 154B incl. ~EUR 2B net cash."
+  },
+  "base": {
+   "iv_per_share": 354,
+   "prob": 0.47,
+   "note": "Phase1 ~6% CAGR (in line with mgmt 'beauty market outperformer' framing), Phase2 declining to 3%, terminal g=3.0%, WACC 7.0%. Continued share gains, Kering Beaute integration, mix-led margin resilience. PV equity ~EUR 189B."
+  },
+  "optimista": {
+   "iv_per_share": 407,
+   "prob": 0.15,
+   "note": "Phase1 ~8% CAGR, Phase2 declining to 3.5%, terminal g=3.0%. Dermatological Beauty + Luxe re-acceleration, China recovery, margin expansion toward gross-margin records. PV equity ~EUR 217B."
+  }
+ },
+ "iv_dcf_weighted": 337,
+ "multiple_metric": "forward P/E (diluted EPS ex-non-recurring)",
+ "fwd_multiple_now": 27.18,
+ "fwd_multiple_5y_avg": 35.7,
+ "fair_multiple": 31,
+ "multiple_rationale": "5y avg fwd P/E ~35.7x reflects COVID-era premium multiples that have structurally normalized. Apply a deliberate haircut to ~31x (about 13% below the 5y mean, above today's 27.2x) to reflect a lower-for-longer growth regime (mid-single-digit organic vs 2018-21 highs), China/travel-retail softness, and FX drag — but NOT a broken franchise: net cash, record 74.3% gross margin and 20.2% operating margin in FY2025, 35+ years of growth, ROIC ~13.5%. A premium-but-trimmed multiple is warranted for a proven, defensive consumer compounder.",
+ "iv_multiple": 431,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 393,
+ "structural_change": "No structural impairment — this is multiple normalization, not deterioration. FY2025 hit record gross margin (74.3%) and operating margin (20.2%); Q1 2026 organic re-accelerated to +7.6% LFL (beat). De-rating from peak ~35x to ~27x fwd P/E reflects post-COVID growth-regime reset and FX/China cyclicality, with Kering Beaute (closed Mar 31 2026) adding ~1.5pp perimeter. Franchise quality (net cash, ~13.5% ROIC, decades of compounding) intact.",
+ "sanity_notes": "Price EUR 378.10 and ~533.7M diluted shares triangulated across StockAnalysis (533.78M), companiesmarketcap (533.72M) and Yahoo. Implied mcap = 378.10 x 0.5337B = EUR 201.8B; at EUR/USD ~1.1462 (Jun 21 2026) = ~USD 231B, matching Yahoo's ~$230B scale — sanity OK. NOTE: the JSON's USD figures (mcap $218B, net debt -$2.2B) used a STALE EUR/USD ~1.08; the correct rate is now ~1.146, so USD mcap is ~$231B not $218B (EUR analysis unaffected). All IVs in EUR. Reconciled IV EUR 393 is +4% vs price EUR 378 — fairly valued to modestly cheap; weights tilt to multiple (0.60) given a stable, proven compounder, but DCF kept at 0.40 because the franchise's mid-single-digit growth makes pure-DCF and multiple anchors diverge (~28% gap), warranting blend discipline. IV/price = 1.04, well within the 0.30-3.00x magnitude band."
+}

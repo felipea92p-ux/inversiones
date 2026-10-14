@@ -1,0 +1,42 @@
+{
+ "ticker": "6857.T",
+ "currency": "JPY",
+ "current_price": 32170,
+ "name": "Advantest Corporation",
+ "wacc_pct": 8.55,
+ "wacc_components": {
+  "rf_pct": 1.3,
+  "erp_pct": 5,
+  "beta": 1.45,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base ~ JPY 298.6B = FY2025 reported FCF JPY 300.6B (year ended Mar 2026) minus 100% of SBC (~JPY 2.0B; share-remuneration plans only, immaterial, <0.3% of revenue per verified notes). Owner FCF margin on FY25 revenue JPY 1,128.6B = ~26.4%. Note FY25 FCF margin is cyclically depressed by heavy working-capital and capex during the AI-tester ramp; the DCF lets margin normalize upward toward the ~44% op-margin / ~33% net-margin economics as the ramp matures.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 14.5,
+  "rev_cagr_y6_10_pct": 7,
+  "fcf_margin_terminal_pct": 30,
+  "terminal_g_pct": 3,
+  "shares_diluted_b": 0.7255,
+  "net_debt_usd_b": -2.1,
+  "sbc_treatment": "100% of SBC expensed as cash cost in owner FCF; SBC immaterial (~JPY 2B, <0.3% of revenue) so haircut is small. Margins modeled net of SBC. FCF margin ramps linearly from 26.4% (FY25) to the terminal margin in each scenario; net cash JPY ~340B (= -$2.1B net debt) added to EV."
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 10307,
+   "prob": 0.38,
+   "note": "AI-tester boom moderates fast. Rev CAGR 9% (y1-5) then 4% (y6-10); FCF conversion stays cyclical, margin only to 27%; terminal g 2.5%. Not apocalyptic: still a net-cash compounder with mid-single-digit long-run growth. IV ~10,300 = ~68% below price."
+  },
+  "base": {
+   "iv_per_share": 16361,
+   "prob": 0.47,
+   "note": "Consistent with track record. Strong near-term AI/HPC test demand (FY26 guide +25.8%) averaging ~14.5% CAGR y1-5, decelerating to 7% y6-10; FCF margin normalizes to 30% as WC/capex ramp matures; terminal g 3.0%, terminal ~18.6x P/FCF. IV ~16,360 = ~49% below price."
+  },
+  "optimista": {
+   "iv_per_share": 26294,
+   "prob": 0.15,
+   "note": "Perfect execution: sustained AI/HPC test super-cycle and share gains. Rev CAGR 20% y1-5, 10% y6-10; FCF margin to 33%; terminal g 3.5%. IV ~26,300 = ~18% below price. Even flawless execution does not reach today's quote."
+  }
+ },
+ "sanity_check": "Probability-weighted IV ~ JPY 15,550 vs price JPY 32,170 -> stock trades at ~2.1x weighted intrinsic value; even the optimista case (~26,300) sits ~18% below the quote. Consistent with verified flags: fwd P/E ~50x (49.6% premium to 33.5x 5y avg), PEG 2.1, stock at all-time high (+310% in 1y), drop_classification = not_depressed. Reverse-DCF: today's market cap (~JPY 23.3 trillion, EV ~JPY 23.0T) requires sustaining ~20%+ growth with rising margins for a decade — pricing a perpetual AI super-cycle. Shareholder-yield contrast (no DDM): Advantest's dividend yield is low (~0.5-0.8%) with only modest buybacks (treasury just 6.48M of 732M shares); total cash return to holders is low-single-digit, giving no valuation support at this multiple. Bottom line: exceptional business, extreme price — wide negative margin of safety.",
+ "method_notes": "10-year two-stage owner-earnings DCF in JPY (quote currency). Owner FCF = reported FCF minus 100% SBC; SBC immaterial for Advantest so haircut ~JPY 2B. Base year owner FCF JPY 298.6B (FY2025, ended Mar 2026) at ~26.4% margin on revenue JPY 1,128.6B. Each scenario projects revenue via Phase-1 (y1-5) and Phase-2 (y6-10, declining) CAGRs and ramps FCF margin linearly from 26.4% toward a stabilized terminal margin (FY25 margin is cyclically depressed by AI-ramp WC/capex; op margin ~44%, net ~33% support upward normalization). Terminal value via Gordon growth (g 2.5-3.5% by moat/cyclicality) on year-10 FCF, discounted at WACC. WACC = Rf(Japan 1.3%) + ERP(5.0%) x beta(1.45, semiconductor capital-equipment / ATE sector, highly cyclical) = 8.55%; no Taiwan geopolitical adjustment (Japan-domiciled). EV = PV(flows) + PV(terminal); equity = EV + net cash JPY ~340B (= -$2.1B net debt, at ~161.5 USD/JPY); IV/share = equity / 0.7255B diluted shares (ex-treasury). Inputs from verified Phase-2 file (E_FR_FY2025_FN.pdf, IFRS) and a light web confirmation of share count (~725.5M) and immaterial SBC. Exact SBC yen figure finalizes in the annual report due 2026-06-26; immaterial to the result."
+}

@@ -1,0 +1,59 @@
+{
+ "ticker": "IT",
+ "name": "Gartner, Inc.",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Modelo de research/suscripcion con alto margen incremental, pero Adj EBITDA margin ~26% sin clara expansion con volumen y CV frenado; escalable pero no monstruoso."
+  },
+  "R2": {
+   "score": 1,
+   "just": "Demanda secular de research/advisory en IT, pero la IA generativa amenaza el nucleo de 'sintesis de informacion' y el gasto IT/federal US presiona; secular pero cuestionado."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Lider indiscutido global en IT research/advisory (#1 muy por delante de Forrester/IDC), franquicia dominante pero no a 'anios-luz' irreplicable a nivel 2.0."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat de marca + costes de cambio + datos propietarios con ~75% ingresos recurrentes de suscripcion, pero la IA erosiona parte de la propuesta de valor, no merece 2.0."
+  },
+  "R5": {
+   "score": 1,
+   "just": "Crecimiento principalmente organico (+3% FX-neutral FY2025) sin M&A destructora, pero la desaceleracion del CV a +1% FX-neutral debilita el motor."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Base muy fragmentada (~16.500 clientes, ningun cliente material >limite), multi-geografia y multi-sector; excelente diversificacion."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC ~24% muy por encima del WACC, capex bajo (modelo asset-light), FCF $1.175B con FCF/NI alto; calidad de capital sobresaliente pese a FCF -15% YoY."
+  },
+  "R8": {
+   "score": 1,
+   "just": "Deuda neta +$1.69B (NO caja neta) con ND/EBITDA ~1.1x; balance sano y manejable pero no fortaleza de caja neta."
+  },
+  "R9": {
+   "score": 1,
+   "just": "SBC verificada ~13.3% del FCF (<15%, no activa la regla dura) y ~2.4% de ingresos; contabilidad limpia, EPS GAAP solido +17%."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Gestion disciplinada: recompras agresivas y oportunistas (~$2.0B en 2025 + $535M Q1 2026 a precios deprimidos), asignacion de capital orientada a buybacks vs M&A destructora."
+  }
+ },
+ "amplification": false,
+ "amplification_note": "R3 (liderazgo) y R4 (moat) se refuerzan solidamente, pero R1 es solo base (margenes no expanden claramente con volumen y CV frenado), por lo que la triada R1+R3+R4 no alcanza el refuerzo 'monstruoso e irreplicable' que exige amplification=true.",
+ "moat_type": "marca + costes de cambio + intangibles",
+ "moat_one_line": "Marca de referencia institucional en IT research con ~75% ingresos recurrentes de suscripcion, datos propietarios y altos costes de cambio, aunque parcialmente expuesta a la disrupcion de IA generativa.",
+ "thesis_3lines": [
+  "Calidad: franquicia lider global asset-light con ROIC ~24%, ~75% ingresos recurrentes y FCF $1.175B, balance sano (ND/EBITDA ~1.1x) y SBC contenida (13% del FCF).",
+  "Motor: crecimiento organico que se ha frenado de forma real (CV solo +1% FX-neutral, organico +3%) por presion de gasto IT/federal US y disrupcion de IA sobre research/advisory.",
+  "Valoracion: multiplo desplomado a fwd P/E ~9.5x (vs ~26x medio, -64%, PEG 0.63) con recompras agresivas; retorno atractivo SI el motor de suscripciones se reacelera."
+ ],
+ "bear_case_strongest": "La IA generativa puede comoditizar el research sindicado de Gartner mientras el Contract Value ya se frena a +1% FX-neutral, de modo que el multiplo barato sea una value trap que descuenta erosion estructural permanente del motor de suscripciones, no una compresion temporal.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Score total re-puntuado: 12.0/13.5 (R1 1.0 + R2 1.0 + R3 1.5 + R4 1.5 + R5 1.0 + R6 1.5 + R7 1.5 + R8 1.0 + R9 1.0 + R10 1.5). Confirma el preliminar de FASE 1 (12). SBC verificada 13.3% del FCF NO activa la regla dura (umbral 15%), R9 queda en 1.0. Punto debil clave: deceleracion genuina del CV (+1% FX-neutral) que es el indicador adelantado, mas amenaza estructural de IA sobre el nucleo de research; punto fuerte: ROIC ~24%, FCF abundante, diversificacion de clientes y recompras oportunistas a multiplo deprimido (~9.5x). 'mixed drop': hay deterioro real del crecimiento Y sobre-reaccion del mercado (de ~35x a ~9.5x). Calidad alta pero con vigilancia sobre durabilidad del moat frente a IA."
+}

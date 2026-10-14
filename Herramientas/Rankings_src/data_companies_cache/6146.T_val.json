@@ -1,0 +1,48 @@
+{
+ "ticker": "6146.T",
+ "name": "Disco Corporation",
+ "currency": "JPY",
+ "price_verified": 89490,
+ "price_source": "StockAnalysis.com (TYO:6146) quote, cross-checked vs companiesmarketcap.com ($60.19B USD mcap) and JSON (JPY 88,480)",
+ "price_date": "2026-06-23",
+ "shares_diluted_b": 0.10846,
+ "implied_mcap_b_usd": 60.08,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 8.05,
+ "wacc_components": {
+  "rf_pct": 1.3,
+  "erp_pct": 5,
+  "beta": 1.35,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2026 = reported FCF JPY 98.4B - SBC ~0 (immaterial / not separately disclosed for this Japanese precision-equipment maker) = JPY 98.4B (~JPY 907/share). Note: reported FCF understates earnings power (FY26 net income JPY 135.5B) because capex is elevated during the AI/HBM-driven expansion; this depresses the pure-DCF result.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 22327,
+   "prob": 0.38,
+   "note": "Phase1 CAGR 5%, Phase2 declining to 3%, g_term 2.5%. AI dicing/grinding demand normalizes off peak; capex stays high. Reasonable-pessimistic, not apocalyptic. Equity = EV + net cash JPY 284B. TV ~61% of EV."
+  },
+  "base": {
+   "iv_per_share": 32120,
+   "prob": 0.47,
+   "note": "Phase1 CAGR 10%, Phase2 declining to 5%, g_term 3.0%. Structural AI/HBM/GPU dicing & grinding tailwind sustains double-digit growth then matures. WACC 8.05%. TV ~67%."
+  },
+  "optimista": {
+   "iv_per_share": 50893,
+   "prob": 0.15,
+   "note": "Phase1 CAGR 16%, Phase2 declining to 8%, g_term 3.5%. AI semicap supercycle extends, Disco's near-monopoly in precision dicing/grinding compounds at high ROIC. TV ~73%."
+  }
+ },
+ "iv_dcf_weighted": 31215,
+ "fwd_multiple_now": 53.17,
+ "fwd_multiple_5y_avg": 30,
+ "fair_multiple": 32,
+ "multiple_metric": "P/E (forward)",
+ "multiple_rationale": "Anchored to the 5y avg forward P/E of 30x with a small uplift to 32x crediting a genuine structural mix improvement (AI/HBM/GPU dicing & grinding is a secular step-up in demand and value-add, not purely cyclical). But a large haircut is applied vs the spot 53.2x, which reflects cyclical-peak euphoria at an all-time high (also far above the ~28x 10y TTM median). Fwd EPS ~JPY 1,683 (consistent with reported fwd P/E 53.17 on a price of 89,490; implies FY27 NI ~JPY 182B vs FY26 135.5B) x 32 = JPY 53,859.",
+ "iv_multiple": 53859,
+ "weight_dcf": 0.6,
+ "weight_multiple": 0.4,
+ "reconciled_iv": 40272,
+ "structural_change": "Positive but partly cyclical: generative-AI / HBM / advanced-packaging demand for precision wafer dicing and grinding is a real secular step-up in Disco's addressable market and product mix (Disco holds a near-monopoly here). This justifies a fair multiple modestly above the 5y average. However, it does NOT justify the spot 53x; semicap remains cyclical and high-capex, and Disco itself refuses to issue full-year guidance citing demand volatility. No structural deterioration — the concern is valuation, not franchise quality.",
+ "sanity_notes": "Price JPY 89,490 (StockAnalysis Jun 23 2026); JSON had 88,480 (Jun 22) — used the fresher verified figure, immaterial difference. Shares 108.46M = 0.10846B. Implied mcap = 89,490 x 108.46M = JPY 9.706T; /161.54 USD/JPY = $60.08B USD, matching companiesmarketcap.com ($60.19B) and JSON ($59.4B) — scale CONFIRMED. DISCARDED an erroneous Yahoo-derived $43.29B (implied stale FX ~224). USD/JPY = 161.54 verified (Jun 22 2026). Magnitude check: reconciled IV JPY 40,272 sits within the 30-300% band (26,847-268,470), so no units/currency/shares error. Weighting tilted to DCF (0.6/0.4) because Disco is cyclical, high-capex, and demand-volatile (no full-year guidance) — the multiple anchor alone would overstate IV by extrapolating peak conditions. Both methods independently flag overvaluation: DCF IV ~31k, multiple IV ~54k, reconciled ~40k vs price ~89k => stock trades ~2x reconciled fair value, a quality franchise at a cyclical-peak multiple near all-time highs. SBC left at 0 (immaterial/undisclosed); net cash JPY 284B added to EV in all DCF scenarios."
+}

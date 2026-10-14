@@ -1,0 +1,75 @@
+{
+  "ticker": "CME",
+  "empresa": "CME Group Inc.",
+  "cik": "0001156375",
+  "fecha_juicio": "2026-07-28",
+  "ventana": "FY2007-FY2025 (19 ejercicios auditados; nucleo de medida FY2016-FY2025)",
+  "fuentes_primarias": [
+    "10-K FY2025 acc. 0001156375-26-000009 (cme-20251231.htm) - balance R3, PyG R4, flujos R8, MD&A",
+    "10-K FY2024 acc. 0001156375-25-000021",
+    "10-K FY2023 acc. 0001156375-24-000010",
+    "10-K FY2022 acc. 0001156375-23-000020",
+    "10-K FY2021 acc. 0001156375-22-000076",
+    "10-K FY2020 acc. 0001156375-21-000020",
+    "10-K FY2019 acc. 0001156375-20-000013",
+    "10-K FY2018 acc. 0001156375-19-000010",
+    "10-K FY2015 acc. 0001156375-16-000116",
+    "10-K FY2013 acc. 0001156375-14-000012",
+    "10-K FY2011 acc. 0001156375-12-000016",
+    "10-K FY2009 acc. 0001193125-10-043180",
+    "XBRL companyfacts CIK0001156375"
+  ],
+  "candado_B_prima": "CUMPLIDO. No se consulto cotizacion, capitalizacion ni multiplo en ningun momento.",
+  "orden_ejecutado": "G5 -> G1 -> G3 -> G4 -> G2 -> G6",
+
+  "G5": {
+    "veredicto": "SI_REFORZADO",
+    "cifra": "FCF post-SBC completa (CFO - capex - SBC) 2025 = 4.098,8 M$ = 62,9% de ventas; minimo de la decada 43,8% (2016). Supera al beneficio neto en 7 de 10 anios. Sloan sobre activos operativos medios (activos totales menos fianzas de garantia, que son colateral de clientes en transito) entre -0,42% y -1,60% en 9 de 10 anios; unica lectura positiva 2017 (+7,29%), integramente explicada por el beneficio fiscal diferido no monetario de la TCJA (provision fiscal de -1.537,1 M$). Sobre activos TOTALES el peor Sloan es +3,19% (2017), por debajo del umbral del 5% incluso ese anio. DELATOR GE AUSENTE Y AL REVES: desviacion tipica de la variacion anual del CFO 14,2 pp frente a 54,9 pp del beneficio neto; el beneficio es casi 4 veces MAS volatil que la caja que lo produce.",
+    "serie_FCF_post_SBC_pct_ventas": {"2016": 43.8, "2017": 44.2, "2018": 51.7, "2019": 48.4, "2020": 49.6, "2021": 46.9, "2022": 57.4, "2023": 59.1, "2024": 57.2, "2025": 62.9},
+    "cita": "10-K FY2025, Consolidated Statements of Cash Flows (R8): 'Net Cash Provided by Operating Activities 4.277,1 / Purchases of property, net (83,5) / Stock-based compensation 94,8'. Consolidated Statements of Income (R4): 'Net income 4.072,2'. Balance (R3): 'Performance bonds and guaranty fund contributions 159.656,1' en activo y pasivo por el mismo importe."
+  },
+
+  "G1": {
+    "veredicto": "SI",
+    "cifra": "NOPAT/ventas 49,6% en 2025; minimo de toda la ventana 30,9% (2012); rango 2016-2025 = 41,0%-49,8%. NOPAT/capital invertido: el denominador operativo (inmovilizado neto + circulante operativo, excluida la contabilidad de compra) es NEGATIVO en 13 de los ultimos 14 ejercicios (-1.939,1 M$ en 2023; -1.128,3 M$ en 2020; +148,6 M$ en 2025) con NOPAT siempre positivo -> PASADA POR CONSTRUCCION, y ademas el denominador cruza cero, de modo que la higiene de denominador exige decidir por el NIVEL normalizado por VENTAS, que pasa de forma abrumadora. CONTRA-DATO DECLARADO Y NO ESCONDIDO: si se incluye en el capital invertido el fondo de comercio (10.514,7 M$) y los intangibles de adquisicion (productos de negociacion 17.175,3 M$ + otros 2.610,7 M$) pagados por CBOT (2007), NYMEX (2008) y NEX (2018), el capital invertido es 27.733,6 M$ y el ROIC cae a 11,7% en 2025, con un rango de 4,1%-11,7% en la ventana. Es decir: el negocio no necesita capital, pero CME se compro a si misma cara. Eso es un hecho de asignacion de capital, no de calidad del capital operativo, y por eso no tumba G1 - pero queda escrito.",
+    "capital_invertido_operativo_por_anio_MUSD": {"2013": -629.6, "2014": -294.0, "2015": -588.9, "2016": -1002.5, "2017": -976.1, "2018": -555.5, "2019": -1201.6, "2020": -1128.3, "2021": -1228.3, "2022": -1779.8, "2023": -1939.1, "2024": -1871.2, "2025": 148.6},
+    "roic_con_fondo_de_comercio_pct": {"2016": 7.1, "2018": 6.5, "2020": 7.3, "2022": 8.4, "2024": 11.6, "2025": 11.7},
+    "cita": "10-K FY2025, Balance (R3): 'Property, net 362,7 / Accounts receivable, net 639,2 / Other current assets 522,1 / Accounts payable 71,8 / Other current liabilities 568,8 / Other liabilities 734,8 / Goodwill 10.514,7 / Intangible assets-trading products 17.175,3 / Intangible assets-other, net 2.610,7 / Total CME Group Shareholders Equity 28.728,2 / Long-term debt 3.422,3 / Cash and cash equivalents 4.416,9'. PyG (R4): 'Operating Income 4.229,5 / Income before Income Taxes 5.330,5 / Income tax provision 1.258,3' -> tipo efectivo 23,6%, NOPAT 3.231,1."
+  },
+
+  "G3": {
+    "veredicto": "NO",
+    "cifra": "Elasticidad MEDIDA con la unidad fisica y el precio que la propia empresa publica. Tarifa media por contrato: 0,754$ (2016) -> 0,741$ (2017) -> 0,725$ (2018) -> 0,703$ (2019) -> 0,702$ (2020) -> 0,669$ (2021) -> 0,643$ (2022) -> 0,692$ (2023) -> 0,692$ (2024) -> 0,696$ (2025). Caida acumulada -7,7% nominal en nueve anios = -0,89%/anio. Volumen total de contratos 3.943,7 -> 7.060,4 millones (+79,0%); ADV 15.649 -> 28.129 miles. Umbral exigido IPC+100pb = aprox. +3,9%/anio: el deficit es de unos 480 pb anuales. Incluso midiendo con INGRESOS TOTALES entre contratos totales (+81,4% ingresos vs +79,0% volumen) el precio/mix sale +0,14%/anio, muy por debajo del umbral. NO es el delator de Kraft Heinz - el volumen sube con fuerza, no cae -, pero la puerta mide poder de precio y CME no lo ejerce: crece por volumen y devuelve precio via incentivos por tramos, descuentos de miembro y dilucion de mix por micro-contratos (ADV de micros +32% en 2025). El unico segmento con precio real positivo es datos de mercado (406,5 M$ en 2016 -> 803,1 M$ en 2025, +7,9%/anio; tarifa basica subida de 85$ a 105$ por dispositivo y mes en 2018, +23,5%), pero CME no publica el numero de dispositivos, asi que ese tramo es NO MEDIBLE y ademas la propia empresa reconoce descenso de dispositivos - patron Kraft Heinz en el 12% del negocio.",
+    "cita": "10-K FY2025, MD&A: 'Total contract volume (in millions) 7.060,4 / 6.685,0 ... Average rate per contract 0,696 / 0,692'. 10-K FY2018, MD&A: 'Total contract volume (in millions) 4.844,4 4.089,2 3.943,7 ... Average rate per contract 0,725 0,741 0,754'. 10-K FY2019, MD&A: 'fees for legacy CME basic real-time market data services increased to $105 per month from $85 per month for each device beginning in the second quarter of 2018'."
+  },
+
+  "G4": {
+    "veredicto": "NO_PROBADA",
+    "cifra": "CME nunca ha atravesado una contraccion severa: sus ingresos jamas cayeron mas de un 11% en un ejercicio (2011 3.280,6 -> 2012 2.914,6). En la crisis financiera CRECIO: 2008 +46,3% (1.756,1 -> 2.561,0 con NYMEX desde agosto) y 2009 +2,0% (2.612,8) con beneficio neto subiendo de 715,5 a 825,8 M$. En 2020 los ingresos quedaron planos (4.883,6 vs 4.868,0). El negocio es estructuralmente anticiclico: la volatilidad es su materia prima. Volumen medio diario agregado: pico 12.775 (2008) -> valle 10.258 (2009) = -19,7%, no alcanza el -30% exigido; en 2011-2013 el retroceso maximo fue 13.439 -> 11.423 = -15,0%. La UNICA franquicia que si sufrio una contraccion severa fue la de tipos de interes: ADV 7.093 (2007) -> 4.260 (2009) = -39,9%, y siguio deprimida hasta 4.834 en 2012 por la politica de tipos cero. CICATRIZ SI EXISTE Y ESTA NOMBRADA (cerro la compra de NYMEX Holdings por unos 8.300 M$ el 22-08-2008, semanas antes de Lehman): deuda total de 0 en 2007 a 3.216,0 M$ en 2008 (249,9 corto + 2.966,1 largo), la linea 'Interest and other borrowing costs' paso de 3,6 M$ (2007) a 56,5 (2008) y 133,9 (2009) - x37 -, y la linea no operativa se hundio de +43,9 M$ (2007) a -334,2 M$ (2008) por un deterioro de 274,5 M$ en la participacion en BM&FBOVESPA, mas 46,0 M$ de deterioros en IMAREX y DME en 2009; el margen neto cayo del 37,5% al 27,9%. PERO la puerta exige DOS RIVALES NOMBRADOS reduciendo capacidad y no puedo documentarlo en fuente primaria: los competidores que CME nombra en sus propios 10-K (ICE, Deutsche Boerse, HKEX, Cboe, Euronext, Nasdaq) expandieron capacidad en ese periodo. Los rivales que si se retiraron (ELX Futures, NYSE Liffe US, Eurex US) no aparecen nombrados en los filings y sostenerlos con prensa seria degradar el dato. Ademas los dos rivales que si desaparecieron - CBOT Holdings y NYMEX Holdings - no redujeron capacidad: CME se los compro con su propio dinero, que es ganar por compra, no por resistencia. Veredicto honesto: la puerta esta SIN PROBAR, no suspendida.",
+    "cita": "10-K FY2009 (acc. 0001193125-10-043180), Selected Financial Data: 'Non-operating income (expense) (151,6) (334,2) 43,9 ... Net income 825,8 715,5 658,5 ... Short-term debt 299,8 249,9 164,4 - - / Long-term debt 2.014,7 2.966,1 - - -'; 'Total Average Daily Volume 10.258 12.775 11.134 5.343 4.158' y 'Interest rate 4.260 6.085 7.093 3.078 2.380'; MD&A: 'a 2008 impairment charge on our investment in BM&FBOVESPA S.A. of $274.5 million' y '2009 impairment charges of $46.0 million related to IMAREX and DME'. 10-K FY2025, Business-Competition: 'Our competitors include, among other entities, exchanges such as Intercontinental Exchange, Inc. (ICE), Cboe Global Markets (Cboe), Euronext N.V., the Hong Kong Exchanges and Clearing Limited (HKEX), and Deutsche Boerse AG.'"
+  },
+
+  "G2": {
+    "veredicto": "NO",
+    "cifra": "Reinversion acumulada 2021-2025 = 861,6 M$ (capex 470,8 + variacion de circulante operativo 390,8 + I+D no reportada por separado + marca 0 + adquisiciones 0; de hecho hubo DESINVERSION neta: 1.591,4 M$ de ingresos por venta de participaciones en 2025). Eso son 2,6% de ventas anuales, muy por debajo del umbral del 25% de VENTAS: la puerta no se pasa ni de lejos. Incluso metiendo TODO el gasto de tecnologia (283,2 M$ en 2025) como si fuese I+D, la tasa se queda en 5,6% de ventas. TASA DE REINVERSION SOBRE NOPAT (la que entra en g = tasa x ROIIC, y que las lecturas anteriores confundieron con la de ventas): 861,6 / 13.344,8 de NOPAT acumulado = 6,46%. ROIIC BRUTO = variacion de NOPAT (3.231,1 - 2.040,8 = 1.190,3) / 861,6 = 138,2%. Descomposicion: parte de VOLUMEN a margen constante 684,1 M$ y parte de EXPANSION DE MARGEN 506,3 M$ (margen NOPAT del 41,8% al 49,6%); ROIIC EX-MARGEN = 684,1 / 861,6 = 79,4%. Identidad comprobada: 6,46% x 138,2% = 8,9% frente a un CAGR real del NOPAT del 9,6% a cinco anios. CME no es un compounder de PISTA: es un compounder de CAJA que crece a doble digito bajo sin apenas capital y devuelve casi todo (3.933,0 M$ de dividendos en 2025 frente a 4.098,8 M$ de FCF post-SBC). Especie: ULTRA-C.",
+    "reinversion_pct_NOPAT": 6.46,
+    "roiic_bruto_pct": 138.2,
+    "roiic_ex_margen_pct": 79.4,
+    "cita": "10-K FY2025, Consolidated Statements of Cash Flows (R8): 'Purchases of property, net (83,5) / Proceeds from sale of business ventures 1.591,4 / Cash dividends (3.933,0)'. Capex 2021-2025: 127,2 + 89,7 + 76,4 + 94,0 + 83,5 = 470,8. Balance (R3) y equivalentes de 2020 para la variacion de circulante: cuentas a cobrar 461,3 -> 639,2; otros activos corrientes 306,7 -> 522,1; acreedores 69,3 -> 71,8."
+  },
+
+  "G6": {
+    "veredicto": "SI",
+    "poder": "ECONOMIAS DE RED (Helmer) - el interes abierto de un futuro no es fungible entre camaras: una posicion abierta en CME solo se puede cerrar en CME, de modo que la liquidez se auto-refuerza en un unico libro de ordenes - REFORZADO POR COSTES DE CAMBIO derivados de la compensacion cruzada de margenes dentro de una sola camara (SPAN/SPAN 2, portfolio margining).",
+    "magnitud": "72.000 M$ de ahorro MEDIO DIARIO de margen para los clientes en 2025 - esa es la magnitud en la unidad propia del poder: lo que un cliente pierde el dia que saca su cartera de la camara. A un coste de capital del 5% equivale a ~3.600 M$ anuales de coste de capital evitado por el sistema, del mismo orden de magnitud que los 5.281,1 M$ que CME cobra por compensacion y transaccion: el valor creado por el neteo es comparable al peaje entero. Masa gravitatoria complementaria: 159.656,1 M$ de fianzas y aportaciones al fondo de garantia custodiados a 31-12-2025. Cierre estructural: 85% del volumen de contratos de 2025 procede de miembros con derechos de negociacion que tienen 'substantial independent value' segun la propia empresa.",
+    "caducidad": "Superior a 10 anios. El candado de interes abierto obliga a un retador a mover simultaneamente las dos patas de cada posicion abierta Y a replicar la cesta de compensaciones de margen; se ha intentado y ha fracasado en tres oleadas (Eurex US 2004, ELX 2009, NYSE Liffe US 2011) sin desplazar el complejo de tipos. En 2025 el ADV de tipos marco el tercer record consecutivo (14.203 miles, +4%).",
+    "arranque_del_reloj_24_meses": "FMX Futures Exchange, nombrada explicitamente por la propia CME en el 10-K FY2025 como nueva entrante (respaldada por un consorcio de intermediarios y compensando fuera de CME), es el candidato real a arrancar el reloj sobre SOFR y Tesoro. Secundarios: plataformas de activos digitales y mercados de prediccion en contratos de evento, y competencia en precio en el negocio de contado (BrokerTec/EBS), donde la propia empresa admite que rivales 'compete on price... thereby shifting market share'. A julio de 2026 no hay perdida de cuota visible en los datos publicados.",
+    "cita": "10-K FY2025, Business: 'Our commitment to providing customers with valuable opportunities for operational and capital efficiencies has resulted in significant market savings estimated at billions of dollars daily. In 2025, the average daily margin saving was approximately $72 billion.'; 'In 2025, 85% of our contract volume was from trades by our members.'; 'We also face competition from new entrants into the marketplace, including newly launched FMX Futures Exchange, as well as digital asset platforms and emerging prediction markets.'; Balance (R3): 'Performance bonds and guaranty fund contributions 159.656,1'."
+  },
+
+  "etiqueta": "MUY_BUENA",
+  "puertas_pasadas": 5,
+  "confianza": "MEDIA",
+  "puerta_mas_dudosa": "G1",
+  "resumen": "CME es una maquina de caja casi sin capital y con un foso medible, que falla la puerta de precio y llega sin examen de recesion. Cinco de seis: G3 es el unico NO contable, G4 es NO_PROBADA (no suspende, no examina), G2 decide especie y sale ULTRA-C. Etiqueta MUY_BUENA."
+}

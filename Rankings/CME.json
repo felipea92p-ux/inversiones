@@ -1,0 +1,256 @@
+{
+  "ticker": "CME",
+  "empresa": "CME Group Inc.",
+  "cik": "0001156375",
+  "bolsa": "NASDAQ",
+  "divisa_funcional": "USD",
+  "divisa_reporte": "USD",
+  "fecha_analisis": "2026-07-28",
+  "etiqueta_calidad_congelada": "MUY_BUENA",
+  "puertas_pasadas": 4,
+  "especie": "G2",
+  "mos_exigido_pct": 30,
+  "regla_mos": "No esta en cartera -> umbral de ABRIR (30%). Si estuviera en cartera el umbral seria 40% (CARGAR, +12 puntos sobre banda MUY_BUENA).",
+  "rol": "VALORADOR. La calidad esta congelada y no se reclasifica hacia arriba bajo ninguna circunstancia.",
+
+  "mecanismo_heredado": {
+    "motor": "Peaje minusculo por contrato sobre el open interest que vive dentro de su propia camara de compensacion; el neteo cruzado devuelve >95.000 M USD/dia de colateral, de modo que sacar una pata de la cartera cuesta mas de lo que se ahorra en comisiones.",
+    "eslabon_mas_debil": "NO SUBE EL PRECIO. RPC -13% nominal desde 2011 con volumen duplicado; la subida listada del 1-feb-2025 se diluyo a +1% por incentivos de escalones de volumen. El foso se cobra en VOLUMEN, no en PRECIO.",
+    "reinversion_pct_ventas": 2.5,
+    "roiic_bruto_pct": 203.5,
+    "roiic_ex_margen_pct": 117.0
+  },
+
+  "precio_y_capital": {
+    "precio_usd": 255.36,
+    "fuente_precio": "HECHO - snapshot IBKR (contract_id 45127739, NASDAQ), campo last con is_close=true, consultado 2026-07-28. Cierre de la sesion del 2026-07-27.",
+    "rango_52s": {"alto": 321.32, "bajo": 218.31, "apertura_52s": 269.51},
+    "comentario_precio": "-20,5% desde el maximo de 52 semanas (321,32). La caida es COINCIDENTE con el print del 2T-2026, no con un de-rating general del sector.",
+    "acciones_clase_A": 359576125,
+    "acciones_clase_B": 3138,
+    "acciones_totales_mm": 359.579,
+    "fuente_acciones": "HECHO - portada 10-Q 2T-2026 (accession 0001156375-26-000047), R1.htm, recuento a 8-jul-2026. Incluye las 4,6 M de acciones Clase A surgidas de la conversion 1:1 de la preferente Serie G el 5-mar-2026.",
+    "acciones_diluidas_2t26_mm": 361.282,
+    "no_es_ADS": true,
+    "capitalizacion_usd_mm": 91822.1,
+    "deuda_lp_usd_mm": 3424.2,
+    "caja_usd_mm": 2144.2,
+    "valores_negociables_usd_mm": 131.4,
+    "deuda_neta_usd_mm": 1148.6,
+    "ev_usd_mm": 92970.7,
+    "fuente_balance": "HECHO - 10-Q 2T-2026, R2.htm CONSOLIDATED BALANCE SHEETS a 30-jun-2026 y R14.htm nota de Deuda.",
+    "nota_balance": "Los 158.110,7 M USD de performance bonds y guaranty fund del activo estan compensados exactamente por el mismo importe en el pasivo: NO son ni caja disponible ni deuda. Se excluyen del EV. El 27% de S&P Dow Jones Indices (valor en libros 1.400 M USD) NO se suma como activo aparte porque sus beneficios por puesta en equivalencia ya estan dentro de los owner earnings: sumarlo seria doble conteo."
+  },
+
+  "wacc_candado_B": {
+    "principio": "CANDADO B respetado: el WACC sale integramente del mercado. En ningun punto se hereda del tier de calidad.",
+    "tasa_libre_riesgo_pct": 4.64,
+    "fuente_tasa_libre_riesgo": "HECHO/INFERENCIA - bono soberano EEUU a 10 anios (moneda funcional USD), 4,64% al 27-jul-2026 segun Trading Economics; una segunda fuente da 4,63% la misma fecha. Se toma 4,64%.",
+    "prima_mercado_madura_pct": 4.20,
+    "prima_pais_pct": 0.22,
+    "prima_riesgo_total_eeuu_pct": 4.42,
+    "fuente_primas": "HECHO - Damodaran, implied ERP con el S&P 500 en 7.499,36 al 1-jul-2026: ERP implicita EEUU 4,42%, de la cual 0,22% es el diferencial de impago del rating Aa1 (EEUU degradado de Aaa a Aa1) y 4,20% es la prima de mercado maduro. Pais del riesgo de ACTIVO = EEUU (>85% del negocio es la camara de Chicago).",
+    "beta": 0.28,
+    "fuente_beta": "HECHO/INFERENCIA - Beta 5 anios = 0,28 (stockanalysis.com, sello 28-jul-2026). Comprobacion cruzada: Google Finance 0,23; Motley Fool 0,25. Rango observado 0,23-0,28.",
+    "beta_ajustada_blume": 0.5276,
+    "justificacion_beta_ajustada": "La beta cruda de 0,28 produce un coste de fondos propios de 5,88%, POR DEBAJO del coste de la deuda pretax de CME (4,4-5,7%) y practicamente al nivel del cupon de su bono a 2043 (5,30%). Eso es internamente incoherente: el equity es junior a la deuda y no puede exigir menos prima. Se aplica el ajuste de Blume (0,67 x beta cruda + 0,33 x 1,00), que es el metodo estandar de Bloomberg, para obtener el caso central. La beta cruda se conserva como escenario bajo y una beta 0,80 (infraestructura de mercado apalancada al ciclo) como escenario alto.",
+    "coste_deuda_pct": 4.8,
+    "derivacion_coste_deuda": "HECHO - de los filings: (a) 'Interest and other borrowing costs' FY2025 = 173,4 M sobre deuda media ((2.678,2+3.422,3)/2 = 3.050,3) = 5,68%; (b) intereses PAGADOS en efectivo FY2025 = 135,6 M / 3.050,3 = 4,45%; (c) cupon medio ponderado de la nota R14 = 3,95% (500 al 3,75%, 750 al 4,40%, 750 al 2,65%, 750 swapeado a 4,73%, 700 al 4,15%); (d) emision marginal mar-2025: 750 M al 4,40%. Se toma 4,8% central, rango 4,4-5,7%. La brecha entre (a) y (b) son comisiones de facilidad crediticia y amortizacion de costes de emision, no interes economico.",
+    "tasa_impositiva_pct": 22.6,
+    "fuente_tasa_impositiva": "HECHO - 642,5 / 2.838,6 = 22,6% (10-Q 1S-2026). FY2025 fue 23,6%, inflada por el impuesto de la plusvalia de OSTTRA.",
+    "peso_equity_pct": 96.4,
+    "peso_deuda_pct": 3.6,
+    "coste_equity_central_pct": 6.97,
+    "wacc_pct": 6.85,
+    "wacc_rango": "5,8% - 8,0%",
+    "wacc_escenarios": [
+      {"beta": 0.28, "etiqueta": "cruda de mercado", "ke_pct": 5.88, "wacc_pct": 5.80},
+      {"beta": 0.5276, "etiqueta": "Blume-ajustada (CENTRAL)", "ke_pct": 6.97, "wacc_pct": 6.85},
+      {"beta": 0.80, "etiqueta": "infraestructura de mercado apalancada al ciclo", "ke_pct": 8.18, "wacc_pct": 8.02}
+    ],
+    "advertencia": "El WACC de CME es tan bajo que el spread frente al crecimiento terminal (3%) es de solo 2,8 a 5,0 puntos. Eso implica un MULTIPLO TERMINAL de 36,8x / 26,8x / 20,5x segun el escenario, y hace que el 65-79% del valor total viva en el valor terminal. La respuesta de esta valoracion es una apuesta sobre la beta, no sobre el negocio."
+  },
+
+  "owner_earnings": {
+    "metodo": "Base = flujo de caja de explotacion del filing. Se RESTA la retribucion en acciones (coste economico real que el estado de flujos suma). Version (a): se resta solo el capex de MANTENIMIENTO, aproximado por la depreciacion de PP&E; el exceso sobre depreciacion es discrecional y NO se resta. Version (b): se resta TODO el capex = flujo de caja libre puro. La amortizacion de intangibles comprados (223,4 M/ano de relaciones de cliente de CBOT/NYMEX/NEX) NO se vuelve a restar: no exige reposicion en efectivo, y el gasto de mantener a esos clientes ya vive en el opex.",
+
+    "base_auditada": {
+      "ejercicio": "FY2025",
+      "fuente": "HECHO - 10-K FY2025, accession 0001156375-26-000009, presentado 26-feb-2026. R4 (Cuenta de resultados) y R8 (Flujos de caja).",
+      "ingresos_usd_mm": 6520.6,
+      "resultado_explotacion_usd_mm": 4229.5,
+      "margen_explotacion_pct": 64.9,
+      "resultado_neto_usd_mm": 4072.2,
+      "flujo_caja_explotacion_usd_mm": 4277.1,
+      "retribucion_acciones_usd_mm": 94.8,
+      "depreciacion_pp_e_usd_mm": 107.5,
+      "capex_total_usd_mm": 83.5,
+      "capex_pct_ventas": 1.28,
+      "oe_mantenimiento_usd_mm": 4074.8,
+      "oe_capex_total_usd_mm": 4098.8,
+      "contaminacion_no_recurrente": "FY2025 incluye una plusvalia neta de 306,1 M USD por la venta de OSTTRA a KKR (oct-2025, participacion del 50% compartida con S&P Global), registrada dentro de 'Investment income', y 1.591,4 M USD de entrada de caja por la venta en actividades de inversion. La plusvalia YA esta neutralizada dentro del flujo de explotacion (la linea 'Net realized and unrealized gains on investments' resta -352,8 M). El flujo de 4.277,1 M esta por tanto LIMPIO de ese extraordinario. Lo que si desaparece a futuro es la aportacion de OSTTRA a los beneficios por puesta en equivalencia (parte de los 371,7 M de FY2025): impacto estimado menor a 60 M/ano. HUECO declarado."
+    },
+
+    "base_en_curso": {
+      "ejercicio": "FY2026E",
+      "trimestres_publicados": "1T-2026 y 2T-2026 (10-Q accession 0001156375-26-000047, presentado 24-jul-2026)",
+      "datos_1s26_hecho": {
+        "ingresos_usd_mm": 3586.3,
+        "resultado_explotacion_usd_mm": 2416.8,
+        "resultado_neto_usd_mm": 2196.1,
+        "flujo_caja_explotacion_usd_mm": 2207.0,
+        "capex_usd_mm": 45.4,
+        "depreciacion_usd_mm": 55.4,
+        "retribucion_acciones_usd_mm": 46.6,
+        "bpa_diluido_usd": 6.06
+      },
+      "metodo_anualizacion": "INFERENCIA. No se duplica el 1S porque el 1T-2026 fue un record (1.880,1 M de ingresos) y el 2T se desacelero bruscamente (1.706,2 M, +0,8% interanual). Se proyecta el 2S aplicando el patron estacional 2S/2T observado en 2025 (1,942x) sobre el 2T-2026: 2S-2026E = 3.313 M -> ingresos FY2026E ~6.900 M (+5,8%). El flujo de explotacion se estima en 4.450 M (el 1S se vio deprimido por circulante: -112,9 de clientes y -141,9 de otros activos, parcialmente reversible).",
+      "ingresos_estimados_usd_mm": 6900,
+      "flujo_caja_explotacion_estimado_usd_mm": 4450,
+      "depreciacion_estimada_usd_mm": 111,
+      "capex_estimado_usd_mm": 95,
+      "retribucion_acciones_estimada_usd_mm": 94,
+      "oe_mantenimiento_usd_mm": 4245,
+      "oe_capex_total_usd_mm": 4261
+    },
+
+    "distancia_entre_bases": {
+      "delta_oe_mantenimiento_pct": 4.2,
+      "delta_oe_capex_total_pct": 4.0,
+      "lectura": "La distancia es PEQUENA y esa pequenez es la informacion. El ejercicio en curso NO esta acelerando: el record del 1T se comio con la desaceleracion del 2T. Momento del ciclo: meseta. El 2T-2026 es el primer trimestre en el que caen a la vez volumen (ADV -1%) y precio (RPC -2%), con margen de explotacion de 64,9% frente a 66,7% un ano antes (-180 pb). Verificado contra el filing: 2T-2026 ingresos 1.706,2 vs 1.692,0 (+0,8%) y resultado de explotacion 1.107,1 vs 1.129,3 (-2,0%). El resultado de explotacion CAYO en terminos absolutos."
+    },
+
+    "hallazgo_estructural": {
+      "titulo": "Para CME, la distincion Amazon-2005 / Coca-Cola-1998 no muerde.",
+      "detalle": "Las dos versiones de owner earnings difieren en un 0,6%. El capex total (83,5 M) es INFERIOR a la depreciacion (107,5 M): no hay inversion discrecional que proteger. CME no es una reinvertidora. El capex es el 1,3% de las ventas y ademas va a la baja porque la migracion a Google Cloud convierte capex en opex tecnologico (gasto de Tecnologia: 218,7 -> 255,8 -> 283,2 M entre 2023 y 2025, +29% en dos anos, mientras el capex caia de 76,4 a 83,5 con un pico de 94,0). El motor de crecimiento de esta empresa NO es el balance."
+    },
+
+    "renta_del_flotante": {
+      "descripcion": "La estructura no operativa de CME es enorme y se compensa a si misma: 'Investment income' 5.736,5 M en FY2025 contra 'Other income (expense)' -4.833,8 M (intereses devueltos a los miembros compensadores por sus performance bonds). El neto es la renta del flotante que CME se queda.",
+      "neto_fy2025_usd_mm": 902.7,
+      "neto_fy2025_limpio_de_plusvalias_usd_mm": 549.9,
+      "neto_1s2026_usd_mm": 308.9,
+      "neto_1s2025_usd_mm": 236.3,
+      "riesgo": "Los performance bonds pasaron de 98.895 M (dic-2024) a 159.656 M (dic-2025), +61%, y 158.111 M a jun-2026. Ese salto explica buena parte del crecimiento de resultados de 2025 y es sensible A LA VEZ al nivel de tipos y al regimen de volatilidad. NO es una renta contractual. Esta dentro de los owner earnings; si los tipos bajan o el flotante se normaliza, se va."
+    }
+  },
+
+  "dcf_inverso": {
+    "motor": "Que crecimiento a 10 anios, con terminal del 3%, justifica exactamente el EV de hoy (92.971 M USD) al WACC calculado. Se descuentan owner earnings DESAPALANCADOS (owner earnings + gasto financiero despues de impuestos) para ser homogeneos con el EV.",
+    "oe_desapalancado_auditado_usd_mm": 4209.0,
+    "oe_desapalancado_encurso_usd_mm": 4379.7,
+    "resultados": [
+      {"wacc_pct": 5.80, "g_implicita_auditado_pct": -2.87, "g_implicita_encurso_pct": -3.32},
+      {"wacc_pct": 6.85, "g_implicita_auditado_pct": 0.70, "g_implicita_encurso_pct": 0.22, "central": true},
+      {"wacc_pct": 8.02, "g_implicita_auditado_pct": 3.93, "g_implicita_encurso_pct": 3.43}
+    ],
+    "lectura": "Al WACC central el mercado esta pagando por owner earnings PLANOS durante diez anos (+0,2% a +0,7%), contra una compania que los ha compuesto a doble digito los ultimos cuatro. Eso suena a gran oportunidad. Pero al WACC alto (8,0%) la g implicita sube a 3,4-3,9%, es decir el PIB nominal, y entonces no hay ninguna oportunidad: el mercado esta pagando por una empresa que crece con la economia. TODA la diferencia entre 'ganga' y 'precio justo' esta en la beta. Es una apuesta sobre la tasa de descuento disfrazada de apuesta sobre el negocio."
+  },
+
+  "g_defendible": {
+    "valor_pct": 5.91,
+    "derivacion": "g = tasa de reinversion x ROIIC EX-MARGEN (nunca el bruto: usar el bruto asume que la expansion de margen se repite). Reinversion = 2,5% de ventas. NOPAT/ventas = 49,5%. Tasa de reinversion sobre NOPAT = 2,5/49,5 = 5,05%. g = 5,05% x 117% = 5,91%.",
+    "contraste_con_la_tasa_base": "Historico 2021-2025: ingresos +8,6% CAGR, resultado de explotacion +12,4% CAGR, resultado neto +11,5% CAGR. Pero ese historico incluye expansion de margen (56,4% -> 64,9% de margen de explotacion) y un ciclo de tipos que inflo la renta del flotante. Descontadas ambas cosas, 5,9% es la cifra honesta. Y esta en el extremo optimista: el 2T-2026 registro ADV -1%. Si el volumen se queda plano y el RPC sigue cayendo, la g real es 2-3%.",
+    "sensibilidad_al_valor_wacc_central": [
+      {"g_pct": 2.0, "valor_accion_usd": 297, "mos_pct": 14},
+      {"g_pct": 3.0, "valor_accion_usd": 323, "mos_pct": 21},
+      {"g_pct": 4.0, "valor_accion_usd": 351, "mos_pct": 27},
+      {"g_pct": 5.0, "valor_accion_usd": 381, "mos_pct": 33},
+      {"g_pct": 5.91, "valor_accion_usd": 411, "mos_pct": 38},
+      {"g_pct": 7.0, "valor_accion_usd": 450, "mos_pct": 43}
+    ]
+  },
+
+  "valoracion": {
+    "con_g_defendible_5_91_pct": [
+      {"wacc_pct": 5.80, "base": "auditado", "ev_usd_mm": 198780, "valor_accion_usd": 550, "mos_pct": 53.5},
+      {"wacc_pct": 5.80, "base": "en curso", "ev_usd_mm": 206840, "valor_accion_usd": 572, "mos_pct": 55.4},
+      {"wacc_pct": 6.85, "base": "auditado", "ev_usd_mm": 142999, "valor_accion_usd": 395, "mos_pct": 35.3, "central": true},
+      {"wacc_pct": 6.85, "base": "en curso", "ev_usd_mm": 148798, "valor_accion_usd": 411, "mos_pct": 37.8, "central": true},
+      {"wacc_pct": 8.02, "base": "auditado", "ev_usd_mm": 108722, "valor_accion_usd": 299, "mos_pct": 14.6},
+      {"wacc_pct": 8.02, "base": "en curso", "ev_usd_mm": 113131, "valor_accion_usd": 311, "mos_pct": 18.0}
+    ],
+    "valor_por_accion_auditado_usd": 395,
+    "valor_por_accion_encurso_usd": 411,
+    "mos_auditado_pct": 35.3,
+    "mos_encurso_pct": 37.8,
+    "peso_del_valor_terminal": [
+      {"wacc_pct": 5.80, "share_terminal_pct": 78.7, "multiplo_terminal": 36.8},
+      {"wacc_pct": 6.85, "share_terminal_pct": 72.0, "multiplo_terminal": 26.8},
+      {"wacc_pct": 8.02, "share_terminal_pct": 65.2, "multiplo_terminal": 20.5}
+    ]
+  },
+
+  "piso_de_resolucion": {
+    "medicion_propia_del_ruido": "NO REALIZADA en esta sesion. Se aplica por tanto el rango por defecto de mas/menos 25%.",
+    "valor_encurso_rango_usd": "308 - 513",
+    "valor_auditado_rango_usd": "296 - 494",
+    "mos_encurso_dentro_del_ruido_pct": "17% a 50%",
+    "veredicto_del_piso": "EL UMBRAL DE 30% CAE DENTRO DE LA BANDA DE RUIDO. Con el piso de resolucion aplicado, el MoS del ejercicio en curso va del 17% al 50%. No se puede afirmar que CME supere el 30% exigido: se puede afirmar que puede que lo supere. Segun la disciplina de la casa, esto NO ES DECIDIBLE POR MoS. Ninguna cifra de valor intrinseco se reporta con decimales."
+  },
+
+  "m_estrella_p_estrella": {
+    "m_estrella": 22.0,
+    "unidad": "veces owner earnings de mantenimiento (base equity, ejercicio en curso)",
+    "decidido_en_frio": true,
+    "sin_barra_de_error": "Correcto: M* no es una estimacion, es un compromiso. No lleva rango.",
+    "razonamiento": "22x implica una rentabilidad inicial de owner earnings del 4,5%. Con la g defendible de 5,9% eso da ~10,4% de retorno total antes de cualquier cambio de multiplo: retribucion adecuada, no generosa. Se descuenta desde el 28-30x que pagaria por un peaje con poder de precios REAL, precisamente por el eslabon documentado: el RPC de CME cae en terminos NOMINALES. Un peaje que no puede indexar a la inflacion no merece multiplo de peaje que si puede.",
+    "valor_a_m_estrella_encurso_usd": 256.53,
+    "valor_a_m_estrella_auditado_usd": 246.11,
+    "mos_actual_a_m_estrella_encurso_pct": 0.5,
+    "mos_actual_a_m_estrella_auditado_pct": -3.8,
+    "p_estrella_usd": 179.57,
+    "p_estrella_derivacion": "256,53 x (1 - 0,30) = 179,57 USD. Es el precio al que se abre posicion.",
+    "distancia_a_p_estrella_pct": -29.7,
+    "multiplo_actual_sobre_oe_encurso": 21.6,
+    "contradiccion_central": "El DCF con g defendible dice MoS +38%. La disciplina de multiplo dice MoS +0,5%. La diferencia entera es el valor terminal: el DCF esta subscribiendo implicitamente un multiplo terminal de 26,8x owner earnings a perpetuidad, que es exactamente lo que M*=22x se niega a firmar. Cuando el motor y la disciplina se contradicen, manda la disciplina, porque el multiplo terminal no es un dato de mercado sino un supuesto."
+  },
+
+  "tir_esperada": {
+    "rango": "+5% a +12% anual a 10 anios",
+    "central_pct": 10.3,
+    "descomposicion": [
+      {"escenario": "BAJO - ADV plano, RPC -2%, multiplo comprime a 18x", "yield_pct": 4.39, "g_pct": 2.5, "cambio_multiplo_pct": -1.82, "tir_pct": 5.1},
+      {"escenario": "CENTRAL - g defendible 5,9%, multiplo estable en 21,6x", "yield_pct": 4.39, "g_pct": 5.9, "cambio_multiplo_pct": -0.01, "tir_pct": 10.3},
+      {"escenario": "ALTO - g 7%, re-rating a 24x", "yield_pct": 4.39, "g_pct": 7.0, "cambio_multiplo_pct": 1.04, "tir_pct": 12.4}
+    ],
+    "nota_payout": "El yield asume un reparto del 95% de los owner earnings, coherente con la realidad: dividendos FY2025 = 3.933,0 M (97% del resultado neto) y ademas 1.236,9 M de recompra en el 1S-2026. CME devuelve practicamente todo porque no tiene donde reinvertir."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "SOSPECHA",
+    "no_es_SI_porque": "El mecanismo sigue intacto y verificable: los performance bonds estan en 158.111 M USD a jun-2026 (record), el neteo cruzado sigue funcionando, la renta del flotante crece (1S-2026: 308,9 M vs 236,3 M el ano anterior), y el margen de explotacion del ejercicio completo 2025 fue el mas alto de la serie (64,9%). No hay evidencia primaria de rotura del foso.",
+    "no_es_NO_porque": "El unico eslabon debil documentado registro su primer fallo simultaneo justo ahora. En el trimestre cerrado el 30-jun-2026 caen a la vez volumen (ADV -1%) y precio (RPC -2%), y el resultado de explotacion CAE en absoluto (-2,0% interanual) por primera vez en el ciclo. La tesis entera cuelga de que el volumen macro siga creciendo, y este es el primer trimestre en que dejo de hacerlo.",
+    "la_trampa_especifica_es_reflexiva": "La beta de 0,28 es lo que produce el MoS. Y esa beta baja existe porque durante quince anos CME ha sido una cobertura de volatilidad: sus ingresos suben cuando los mercados caen. Si el volumen deja de responder a la volatilidad -que es precisamente lo que insinua el 2T-2026-, la beta sube, el WACC sube, y el MoS se evapora sin que ninguna cifra del negocio haya empeorado todavia. El MoS y la razon para dudar del MoS son el MISMO hecho.",
+    "amenazas_estructurales_no_verificadas_en_esta_sesion": [
+      "FMX/BGC con compensacion en LCH atacando el complejo de futuros de tesoro: es el primer intento creible en decadas de romper el monopolio de neteo cruzado del Treasury complex. NO he verificado su traccion con fuente primaria en esta sesion.",
+      "Mercados de prediccion / event contracts minoristas: CME formo en dic-2025 la JV FanDuel Prediction Markets (51%, aportacion de 10,2 M USD, contabilizada por puesta en equivalencia). Es un movimiento ofensivo, pero tambien es la evidencia de que la frontera competitiva se esta moviendo hacia un terreno donde el foso de compensacion no protege."
+    ]
+  },
+
+  "huecos_declarados": [
+    "El flujo de caja de explotacion FY2026E (4.450 M) es una INFERENCIA mia, no una guia de la empresa. No he localizado en esta sesion la guia formal de CME para gastos operativos y capex de 2026 (vive en el press release 8-K de resultados, no en el 10-Q). Toda la base 'en curso' hereda ese hueco.",
+    "El estado de flujos no incluye ninguna partida de ajuste por los beneficios por puesta en equivalencia (371,7 M en FY2025, principalmente el 27% de S&P Dow Jones Indices). Su ausencia implica que las distribuciones recibidas son aproximadamente iguales a los beneficios devengados y que ambos circulan por explotacion. Es INFERENCIA, no HECHO: no he localizado la nota que lo confirme.",
+    "La beta es un dato de agregador (stockanalysis.com), no de fuente primaria, y las tres fuentes consultadas discrepan entre 0,23 y 0,28. Dado que TODO el veredicto depende de la beta, esta es la debilidad mas grave del expediente. Cifra DEGRADADA.",
+    "La caja corporativa de 2.144,2 M se ha tratado integramente como excedente al calcular la deuda neta. CME tiene requisitos de capital regulatorio en sus camaras de compensacion que probablemente inmovilizan una parte. No he localizado la cifra minima. Impacto acotado: <1,5% del EV.",
+    "No hay medicion propia del ruido de esta valoracion. Se aplica el rango por defecto de mas/menos 25%, y ese rango es el que hace que el veredicto no sea decidible.",
+    "No he verificado con fuente primaria la traccion de FMX/BGC ni el impacto de los mercados de prediccion sobre el open interest de CME."
+  ],
+
+  "veredicto_del_valorador": {
+    "resumen": "NO COMPRAR TODAVIA. El precio esta a 255,36 y P* esta en 179,57: falta un 30% de caida. El MoS aparente del 38% es un artefacto del WACC, y el WACC es un artefacto de la beta.",
+    "por_que_no_se_reclasifica": "La calidad esta congelada en MUY_BUENA. Nada de lo hallado en el precio la toca, y la tentacion de decir 'con estos margenes y este flotante en realidad es ULTRA' es exactamente la contradiccion madre buscando otra puerta. No se abre.",
+    "la_pregunta_que_decide": "Se responde con UN dato, no con una valoracion: el ADV del 3T-2026. Si vuelve a crecer, el 2T fue el bache post-record del 1T y la g de 5,9% se sostiene. Si encadena un segundo trimestre plano o negativo con el RPC tambien cayendo, el eslabon debil se convirtio en el mecanismo y la etiqueta MUY_BUENA se queda corta por arriba.",
+    "orden_operativa": "Vigilar. Limite de entrada 179,57 USD. Revision obligatoria al publicarse el 3T-2026 (finales de octubre 2026) con la serie ADV y RPC del filing, no de prensa."
+  },
+
+  "fuentes_primarias_usadas": [
+    "SEC EDGAR - CME Group Inc., CIK 0001156375, submissions y companyfacts XBRL",
+    "10-K FY2025, accession 0001156375-26-000009, presentado 26-feb-2026 (R4 cuenta de resultados, R8 flujos de caja, R16 inversiones a largo plazo)",
+    "10-Q 2T-2026, accession 0001156375-26-000047, presentado 24-jul-2026 (R1 portada, R2 balance, R4 cuenta de resultados, R8 flujos de caja, R14 deuda, R20 BPA)",
+    "Snapshot de precio IBKR, contract_id 45127739, 28-jul-2026",
+    "Damodaran, actualizacion de datos 2026, ERP implicita EEUU al 1-jul-2026",
+    "Trading Economics, rendimiento del bono EEUU a 10 anios al 27-jul-2026",
+    "stockanalysis.com (SOLO como comprobacion cruzada de beta, capitalizacion y acciones; la capitalizacion y el numero de acciones coinciden con mi calculo desde el filing)"
+  ]
+}

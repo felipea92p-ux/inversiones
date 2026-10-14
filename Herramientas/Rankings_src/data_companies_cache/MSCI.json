@@ -1,0 +1,99 @@
+{
+ "ticker": "MSCI",
+ "name": "MSCI Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 580.85,
+ "market_cap_usd_b": 42.29,
+ "fwd_pe": 28.48,
+ "fwd_pe_5y_avg": 33,
+ "pe_prem_disc_pct": -13.7,
+ "peg": 2.08,
+ "last_q": {
+  "period": "Q1 2026 (ended 2026-03-31)",
+  "revenue": "$850.8M",
+  "rev_yoy_pct": 14.1,
+  "op_margin_pct": 53.7,
+  "eps_gaap": "$5.53",
+  "eps_adj": "$4.55"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended 2025-12-31)",
+  "revenue": "$3,134.5M",
+  "organic_growth_pct": 9.7,
+  "roic_pct": 20.06,
+  "fcf": "$1,549M",
+  "fcf_margin_pct": 49.4
+ },
+ "sbc_pct_revenue": 3.55,
+ "sbc_pct_fcf": 7.19,
+ "net_debt_usd_b": 6.12,
+ "nd_ebitda": 3.3,
+ "net_cash": false,
+ "guidance_fy": "FY2026 (reaffirmed Q1): Free cash flow $1,470-$1,530M; net cash from operating activities $1,640-$1,690M; D&A raised to $190-$200M. Adjusted EBITDA expense, interest expense, tax rate and capex guidance reaffirmed.",
+ "pct_off_52w_high": -9.9,
+ "pct_off_ath": -14.6,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "guidance_fy",
+  "net_debt_usd_b"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.organic_growth_pct",
+  "last_fy.roic_pct",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "MSCI Q1 2026 earnings release (SEC 8-K / StockTitan mirror)",
+   "url": "https://www.stocktitan.net/news/MSCI/msci-reports-financial-results-for-first-quarter-45k5657ontbm.html",
+   "date": "2026-04-21"
+  },
+  {
+   "label": "MSCI Q1 2026 8-K earnings exhibit (SEC EDGAR)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001408198/000140819826000032/earningsrelease-20260331xe.htm",
+   "date": "2026-04-21"
+  },
+  {
+   "label": "MSCI FY2025 full-year results (IR / search summary)",
+   "url": "https://ir.msci.com/news-releases/news-release-details/msci-reports-financial-results-fourth-quarter-and-full-year-2025",
+   "date": "2026-01-28"
+  },
+  {
+   "label": "StockAnalysis.com - MSCI quote, statistics & cash flow (price, mcap, fwd P/E, PEG, FCF, SBC)",
+   "url": "https://stockanalysis.com/stocks/msci/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Macrotrends - MSCI historical stock price / ATH",
+   "url": "https://www.macrotrends.net/stocks/charts/MSCI/msci-inc/stock-price-history",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "GuruFocus / FullRatio - MSCI forward P/E and historical PE averages",
+   "url": "https://www.gurufocus.com/term/forward-pe-ratio/MSCI",
+   "date": "2026-06-15"
+  }
+ ],
+ "notes": "PRIMARY SOURCES: Q1 2026 figures verified vs MSCI 8-K earnings release (rev $850.8M +14.1%, op margin 53.7%, adj EPS $4.55, GAAP diluted EPS $5.53, FCF $278.0M, op cash flow $306.8M, adj EBITDA $504.7M / 59.3% margin, organic op rev growth 13.3%, cash $385.3M, total debt ~$6.5B). FY2025 verified: revenue $3,134.5M (+9.7% reported), FY2025 operating cash flow $1,588M, capex ~$39M, FCF $1,549M (FCF margin 49.4%), SBC $111.34M, 11th consecutive year of ~14% adjusted EPS growth. NOTE on organic_growth_pct field: stored 9.7% is FY2025 TOTAL reported revenue growth (organic for FY2025 runs slightly higher ~9-10%; Q1 2026 organic was 13.3%). ROIC 20.06% from FinanceCharts (Dec 2025) - estimated. NET DEBT/LEVERAGE: MSCI is deliberately leveraged with negative book equity; net debt ~$6.12B, ND/EBITDA ~3.2-3.3x on ~$1.9B TTM adj EBITDA. Q1 2026 GAAP EPS $5.53 inflated by a one-time discrete tax benefit; adjusted EPS $4.55 is the cleaner figure. VALUATION: fwd P/E 28.48 (StockAnalysis); fwd_pe_5y_avg ~33 and pe_prem_disc_pct (-14%) are ESTIMATED (5y trailing avg P/E ~44.5 per aggregators implies meaningful discount to history; current trailing P/E 33.25). PEG 2.08. DROP CLASSIFICATION = not_depressed: stock only ~10% off 52w high ($644.68) and ~15% off ATH (~$679.85, Nov 2021), well above 52w low $501.08, while fundamentals are accelerating (double-digit organic growth, record ABF run rate $872M +25%, retention 95.4%, FY guidance reaffirmed). Not a fear/rotation selloff nor genuine deterioration - simply a high-quality compounder trading modestly below its high."
+}

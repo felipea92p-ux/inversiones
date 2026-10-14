@@ -1,0 +1,47 @@
+[
+ {
+  "ticker": "CPRT",
+  "eje": "estado",
+  "estado": "cuarentena",
+  "motivo": "Salida abrupta e inexplicada del CEO Jeff Liaw (8-K, efectiva 31-jul-2026) + investigaciones de bufetes por posible fraude de valores + investigación DOJ. Sin knock-out confirmado; re-evaluable al resolverse.",
+  "fecha": "2026-07-08",
+  "fuente": "Rankings/2026-07-08 (discardedNew del workflow adversarial)"
+ },
+ {
+  "ticker": "ZTS",
+  "eje": "estado",
+  "add_flags": [
+   "detector-TRAMPA-2026-07-08 (deterioro medible: companion US -11%, guidance recortada)"
+  ]
+ },
+ {
+  "ticker": "CHKP",
+  "eje": "estado",
+  "add_flags": [
+   "detector-TRAMPA-2026-07-08 (margen operativo en compresión acelerada 5 años)"
+  ]
+ },
+ {
+  "ticker": "CLPBY",
+  "eje": "estado",
+  "add_flags": [
+   "precio-ADR-no-confiable-2026-07-08 (discrepancia entre fuentes)"
+  ]
+ },
+ {
+  "ticker": "JD",
+  "eje": "estado",
+  "estado": "knock-out",
+  "motivo": "Gate 5 — estructura VIE, knock-out permanente sin excepción posible (dictado por su Tesis Ultra).",
+  "fecha": "2026-07-09",
+  "fuente": "Tesis/JD/2026-07-09_Tesis_Ultra_JD_v1.pdf (portada)"
+ },
+ {
+  "ticker": "PDD",
+  "eje": "estado",
+  "estado": "knock-out",
+  "motivo": "Gate 5 — estructura VIE + VETO-TRAMPA del detector (dictado por su Tesis Ultra: 'una trampa no se valora').",
+  "fecha": "2026-07-09",
+  "fuente": "Tesis/PDD/2026-07-09_Tesis_Ultra_PDD_v1.pdf (portada)"
+ }
+]

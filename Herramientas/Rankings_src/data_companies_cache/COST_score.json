@@ -1,0 +1,59 @@
+{
+ "ticker": "COST",
+ "name": "Costco Wholesale Corporation",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Modelo de membresia recurrente (89.7% renovacion mundial, 148.5M tarjetahabientes) donde las cuotas son casi todo el beneficio operativo, pero el margen operativo de 3.99% es estructural de retail fisico y NO mejora monstruosamente con volumen como software/redes, asi que no merece 2.0."
+  },
+  "R2": {
+   "score": 1,
+   "just": "Retail de membresia/valor crece secularmente (comps +6.6% ex gas/fx, ventas +11.6% YoY) tomando cuota a retail tradicional, pero es un sector maduro de bajo crecimiento estructural, no una ola secular explosiva."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Lider #1 indiscutible en warehouse club por productividad de ventas por club y escala de compra, deja a Sam's y BJ's claramente atras (1.5), no 2.0 porque Sam's (Walmart) sigue siendo competidor capaz a escala."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat real y durable por ventaja de costes/escala + lealtad de membresia (~90% renovacion) y marca Kirkland, foso superior a 1.0; no 2.0 porque es replicable conceptualmente y carece del lock-in/efecto red irreplicable por decadas de un monopolio de software."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento 100% organico (organic_growth FY2025 8%, comps +6.6% ex gas/fx) sin M&A relevante, impulsado por aperturas de clubs y trafico; calidad de crecimiento superior."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Sin cliente concentrado (retail masivo), multi-categoria y multi-geografia, pero ~73% de ventas en EE.UU. y exposicion concentrada al consumidor norteamericano limita el 1.5."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC ~20% muy por encima del WACC con baja intensidad de capital (capex 5.5B = 2% ventas) y FCF/NI ~0.97; capital efficiency excelente pese a FCF margin de solo 2.85% inherente al modelo de bajo margen."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Balance impecable: caja neta +$11.76B, nd_ebitda -0.85x, cero apalancamiento neto (1.5 por fortaleza superior; matiz: ~$5B+ leases operativos fuera de balance)."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "Contabilidad GAAP limpia sin ajustes non-GAAP recurrentes (eps_adj = eps_gaap) y SBC verificada en solo 11% del FCF (0.31% de ventas), muy por debajo del umbral duro de 15%; una de las comp structures mas limpias del mega-cap."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Gestion ejemplar: dividendos especiales oportunistas desde la caja, buybacks disciplinados, sin M&A destructora, cultura de largo plazo y filosofia de no dar guidance enfocada en el negocio."
+  }
+ },
+ "amplification": false,
+ "amplification_note": "R3 (lider #1) y R4 (moat de escala/membresia) se refuerzan solidamente, pero R1 NO es un modelo de margenes crecientes con volumen (retail fisico, margen operativo ~4%); falta el componente de escalabilidad monstruosa tipo software/red, por lo que no se cumple el refuerzo triple monstruoso requerido para amplification=true.",
+ "moat_type": "Ventaja de costes/escala + costes de cambio (membresia)",
+ "moat_one_line": "Escala de compra global que permite los precios mas bajos, monetizada via cuotas de membresia con ~90% de renovacion y la marca propia Kirkland, creando un circulo virtuoso volumen-precio dificil de igualar.",
+ "thesis_3lines": [
+  "Calidad: negocio de membresia con renovacion ~90% y 148.5M tarjetahabientes, ROIC ~20%, caja neta +$11.76B, contabilidad GAAP limpia y SBC minima (11% del FCF), uno de los compounders defensivos mas limpios del mega-cap.",
+  "Motor de crecimiento: 100% organico con comps +6.6% ex gas/fx, ventas +11.6% YoY y EPS GAAP +15%, impulsado por aperturas de clubs, trafico creciente y poder de precios estructural sobre el retail tradicional.",
+  "Valoracion/retorno: a ~43-46x forward (PEG 4.43, ~50x trailing) cotiza en su media de 5 anios pero en un multiplo absoluto extremo y solo -13% del ATH, asi que el retorno futuro depende casi enteramente de que el EPS de doble digito sostenga una valoracion ya de perfeccion."
+ ],
+ "bear_case_strongest": "A ~43-46x forward con PEG 4.43 y solo ~13% por debajo de maximos, Costco descuenta perfeccion sobre un margen operativo de apenas 4% y crecimiento de EPS de ~10-12%, de modo que cualquier desaceleracion de comps o compresion del multiplo hacia su media historica generaria perdidas significativas sin que el negocio se deteriore.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Suma bruta de las 10 reglas = 13.5/13.5 exacto al techo Seilern (R1 1.0 + R2 1.0 + R3 1.5 + R4 1.5 + R5 1.5 + R6 1.0 + R7 1.5 + R8 1.5 + R9 1.5 + R10 1.5). Calidad excepcional confirmada por datos verificados; el unico riesgo material es la VALORACION, no el negocio. drop_classification = fear_rotation (solo -13.2% del ATH, fundamentales acelerando), por lo que la oportunidad de entrada es debil pese al maximo score de calidad. Valoracion ESTIMADA (dependencia de agregador): fwd_pe 43.49 (StockAnalysis NTM) vs ~46.4 sobre consenso explicito FY2026 EPS $20.52. ROIC ~20% estimado (GuruFocus 16% con leases). Costco NO emite guidance formal; cifras FY son consenso. Net cash excluye ~$5B+ leases operativos."
+}

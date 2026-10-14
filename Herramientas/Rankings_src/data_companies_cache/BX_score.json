@@ -1,0 +1,59 @@
+{
+ "ticker": "BX",
+ "name": "Blackstone Inc.",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Fee-based alt-management scales (FRE margin ~57-58%, FRE/sh +23% Q1'26), but capital-light is not a pure software/network margin-amplifier, so no 1.5/2.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Durable secular tailwind into alternatives: record AUM $1.30T, $68.5B Q1 inflows, structural shift of institutional+retail capital into private markets."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Clear #1 global alternative-asset manager by AUM ($1.30T), ahead of KKR/Apollo/Ares/Blue Owl, but leadership gap is strong not light-years-monstrous."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Strong moat from brand, track record, LP relationships, scale and high switching costs (locked-up multi-year fund capital); durable but not irreplicable-over-decades."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Growth is overwhelmingly organic (inflows/deployment, DE +25%, FRE +23%) rather than M&A-driven, a genuine strength."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Highly diversified across PE, real estate, credit/insurance, hedge-fund solutions and infrastructure with multi-geography LPs and no single-client concentration."
+  },
+  "R7": {
+   "score": 1,
+   "just": "Capital-light, high-margin, strong FCF (~$4.55B, ~31% margin), but DE/FRE returns are sensitive to realizations and performance fees, so solid not exceptional."
+  },
+  "R8": {
+   "score": 1,
+   "just": "Investment-grade A+ with low corporate leverage (~$9.8B net debt, ~1.2x ND/EBITDA, consolidated incl. fund/CLO items); sound but not net-cash."
+  },
+  "R9": {
+   "score": 0,
+   "just": "HARD RULE: verified equity-based comp FY2025 $1,445M = 31.8% of FCF (>25%), up +24% YoY, plus large separate carry comp; forces R9=0.0."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Founder-led (Schwarzman), heavy insider skin-in-the-game, disciplined capital allocation, growing dividend; strong governance though dual-class caps the top score."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R3 (#1 alt-manager at $1.30T AUM), R4 (brand + locked-up-capital switching costs + track-record moat) and R2/R1 (scalable fee engine riding the secular private-markets shift) reinforce each other into a fundraising flywheel: scale begets credibility, which deepens the moat and compounds AUM/fees. Genuine self-reinforcing dynamic, hence amplification=true, though short of monstrous winner-take-all network dominance.",
+ "moat_one_line": "Scale, brand and multi-year locked-up LP capital create high switching costs and a self-reinforcing fundraising flywheel atop the world's largest alternative-asset platform.",
+ "moat_type": "scale_brand_switching_costs",
+ "thesis_3lines": [
+  "CALIDAD: #1 global alternative-asset manager ($1.30T AUM, A+ rated, capital-light ~31% FCF margin) with a durable brand/track-record/locked-up-capital moat, though high SBC (31.8% of FCF) is a real accounting blemish.",
+  "MOTOR: Secular shift of institutional and retail capital into private markets drives organic compounding (DE +25%, FRE +23%, $68.5B Q1 inflows) into digital/AI/energy infrastructure, partly offset by private-credit redemption pressure and slower realizations.",
+  "VALORACION: Fwd P/E ~19.8x sits ~21% below its multi-year average after a ~35% drop from the 52w high, a mostly fear-driven de-rating offering an attractive entry on strong-but-decelerating fundamentals."
+ ],
+ "bear_case_strongest": "If the credit cycle turns, the 2026 private-credit redemption scare (BCRED outflows, sector-wide withdrawal caps) becomes structural, collapsing realizations, fundraising and performance fees on an inherently cyclical earnings base whose equity comp keeps climbing, so today's \"fear discount\" may be correctly-priced deterioration rather than opportunity.",
+ "sbc_flag": "sbc_gt_25_fcf",
+ "ethical_flag": "none",
+ "notes": "FASE 2 re-score. Total ponderado = 1.0+1.5+1.5+1.5+1.5+1.5+1.0+1.0+0.0+1.5 = 12.0/13.5 (FASE 1 preliminar fue 13.5/13.5). Cambio clave: R9=0.0 por REGLA DURA de SBC, equity-based comp verificada FY2025 $1,445.4M = 31.8% del FCF (>25%), +24% YoY, mas carry comp separada. Resto solido (lider, moat, organico, diversificado) pero sin 2.0 porque la dominancia no es monstruosa/irreplicable ni el modelo amplifica margenes como software/red. Q1'26 fuerte (DE +25%, FRE +23%, AUM record $1.30T) pero desacelerando; de-rating ~-35% predominantemente miedo/rotacion por susto de redenciones en credito privado (BCRED/Partners Group), MIXED. Fwd P/E ~19.8x (~-21% vs media), direccionalmente barata. Hard data VERIFICADO via SEC 10-K XBRL e IR; precio/multiplos/ND ESTIMADOS."
+}

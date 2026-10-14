@@ -1,0 +1,541 @@
+{
+  "expediente": "4684.T / 株式会社オービック — OBIC Co., Ltd. — eje PRECIO",
+  "fecha_analisis": "2026-07-28 (tape viva de Tokio, 14:58 JST)",
+  "analista": "valorador (eje precio). La calidad esta CONGELADA en PRESUNTA y no se toca. La etiqueta no se reclasifica hacia arriba nunca.",
+  "divisa_reporte": "USD",
+  "moneda_funcional": "JPY",
+  "unidades": "JPY en millones salvo indicacion expresa; USD en millones al tipo declarado (163,71 JPY/USD, 2026-07-28)",
+
+  "advertencia_de_lectura": "Este expediente tiene UN solo nudo y esta declarado sin adornos: la beta. Mi propia regresion dice 0,49 y el bottom-up sectorial de Damodaran para software japones dice 1,87. Esa diferencia vale 7,1 puntos de WACC y mueve el valor por accion de 7.625 a 3.696 yenes — de +40% de margen de seguridad a -24%. TODO lo demas de este expediente (los filings, los owner earnings, el balance) es solido y verificado linea a linea. La conclusion no lo es en la misma medida, y decirlo es parte del trabajo.",
+
+  "etiqueta_congelada": {
+    "etiqueta": "PRESUNTA (4 puertas pasadas)",
+    "regla": "No reclasificable al alza por el valorador. Si al abrir el precio me pareciera que 'en realidad si es ULTRA', eso no seria un hallazgo sino la contradiccion madre buscando otra puerta.",
+    "especie_g2": "reinversion 6,8% de ventas · ROIIC bruto 132,4% · ROIIC ex-margen 96%",
+    "mos_exigido_pct": 25.0,
+    "mos_exigido_motivo": "PRESUNTA fuera de cartera -> umbral de ABRIR = 25%. Felipe NO la tiene. Si la tuviera, el umbral de CARGAR seria 35%.",
+    "mecanismo_congelado": "OBIC vende su propio ERP (OBIC7) directamente a la empresa japonesa con ingenieros formados en casa desde recien titulados y sin una sola capa de subcontratacion, de modo que se queda integro el margen que la integracion japonesa clasica reparte entre subcontratistas — 78,2% bruto, 65,7% operativo, capital invertido neto negativo, cero deuda en nueve anios y 32 ejercicios seguidos de aumento del beneficio operativo.",
+    "eslabon_debil_congelado": "G4, y no por debilidad sino por falta de examen — la peor contraccion documentada de su historia fue -2,3% de ventas CON el beneficio operativo subiendo +7,5%, no hay dos rivales nombrados con evidencia primaria de haber recortado capacidad, y las dos magnitudes que sostienen G3 y G6 (empresas implantadas y costes de cambio) son un grafico de barras redondeado al millar y un dato que la empresa no publica.",
+    "como_me_ata_las_manos_como_valorador": "Un G4 no examinado significa que NO tengo un escenario de recesion auditado. Consecuencia operativa y no cosmetica: (1) no suscribo expansion de margen en la proyeccion — uso ROIIC ex-margen y ancle mi g en el crecimiento de VENTAS, no de beneficio; (2) recorto el multiplo comprometido M* por debajo del que mi propio DCF bendice; (3) no puedo desmentir un escenario en el que la demanda de ERP japonesa se detiene dos anios, porque nunca lo he visto pasar en la ventana documentada."
+  },
+
+  "identificacion": {
+    "ticker": "4684 (Tokyo Stock Exchange Prime)",
+    "nombre_legal": "株式会社オービック (OBIC Co., Ltd.)",
+    "adr": "NO HAY ADR patrocinado localizado. No existe cuestion de ratio ADS: la valoracion se hace sobre la ordinaria de Tokio y se convierte a USD al contado.",
+    "sec": "NO presenta ante la SEC. Emisor puramente domestico japones, normas contables JGAAP (la propia empresa lo declara: 'IFRSの適用については、国内外の諸情勢を考慮の上、適切に対応していく方針'). Por eso toda la evidencia primaria de este expediente sale de su web de relaciones con inversores, que es exactamente lo que el encargo autoriza.",
+    "cierre_de_ejercicio": "31 de marzo",
+    "split": "HECHO — split 5:1 con efecto 2024-10-01. Todas las cifras por accion de este expediente estan post-split."
+  },
+
+  "fuentes_primarias": [
+    {
+      "id": "YUHO-59",
+      "documento": "有価証券報告書 (Annual Securities Report, AUDITADO) — 第59期, ejercicio 2025-04-01 a 2026-03-31",
+      "url": "https://www.obic.co.jp/ir/pdf/security_report/20260623.pdf",
+      "presentado": "2026-06-23",
+      "descargado_por_mi": "2026-07-28, HTTP 200, 998.383 bytes, texto extraido con pdftotext -layout",
+      "uso": "ES EL ULTIMO EJERCICIO AUDITADO. De aqui salen: serie de 5 anios (linea 101 del texto extraido), gasto de I+D 2.956 M (linea 1027), inversion en instalaciones 2.137 M (linea 1041), plantilla 2.256 personas (linea 136), cuenta de resultados (linea 2524 y ss.), segmentos (linea 3735 y ss.), PER historico."
+    },
+    {
+      "id": "TANSHIN-FY26",
+      "documento": "2026年3月期 決算短信〔日本基準〕(連結) — ejercicio completo 2025-04-01 a 2026-03-31",
+      "url": "https://www.obic.co.jp/ir/pdf/financial_result/594q.pdf",
+      "publicado": "2026-04-21",
+      "descargado_por_mi": "2026-07-28, HTTP 200, 301.946 bytes",
+      "uso": "Balance completo (pp.5-6), cuenta de resultados (p.7), estado de flujos de caja completo (p.11), numero de acciones emitidas y autocartera, guia FY2027/3. NOTA: el tanshin en si NO esta auditado ('決算短信は公認会計士又は監査法人の監査の対象外です'), pero sus cifras coinciden una a una con el YUHO-59 que si lo esta — lo he verificado (135.209 / 88.823 / 75.191 aparecen identicas en ambos)."
+    },
+    {
+      "id": "TANSHIN-1Q27",
+      "documento": "2027年3月期 第1四半期決算短信〔日本基準〕(連結) — 2026-04-01 a 2026-06-30",
+      "url": "https://www.obic.co.jp/ir/pdf/financial_result/601q.pdf",
+      "publicado": "2026-07-22",
+      "descargado_por_mi": "2026-07-28, HTTP 200, 252.262 bytes",
+      "uso": "ES LA BASE 'EN CURSO'. Balance a 2026-06-30 (efectivo 194.287, inversiones financieras 309.548), resultados Q1, recuento de acciones actualizado (492.000.000 emitidas menos 61.062.510 de autocartera), reiteracion de guia sin revisar."
+    },
+    {
+      "id": "TANSHIN-FY25",
+      "documento": "2025年3月期 決算短信 — ejercicio comparativo",
+      "url": "https://www.obic.co.jp/ir/pdf/financial_result/584q.pdf",
+      "descargado_por_mi": "2026-07-28, HTTP 200, 301.820 bytes",
+      "uso": "Comparativo del ejercicio anterior."
+    },
+    {
+      "id": "DAMODARAN-CTRY",
+      "documento": "Country Default Spreads and Risk Premiums — Aswath Damodaran, NYU Stern",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/ctryprem.html",
+      "actualizado": "2026-01-05 (fecha impresa en la propia tabla)",
+      "consultado_por_mi": "2026-07-28, HTTP 200, 277.049 bytes, tabla parseada por mi",
+      "cita_literal_de_la_fila_de_japon": "Japan | A1 | 0.60% | 0.91% | 5.14% | 29.74% | 0.30% | 4.69%",
+      "lectura": "Japon: rating A1, default spread 0,60%, prima de riesgo PAIS 0,91%, ERP TOTAL 5,14%, tipo impositivo 29,74%. Prima de mercado maduro implicita = 5,14 - 0,91 = 4,23%."
+    },
+    {
+      "id": "DAMODARAN-BETA-JP",
+      "documento": "Betas by Sector — JAPAN (betaJapan.xls), hoja 'Industry Averages'",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/betaJapan.xls",
+      "actualizado": "enero 2026",
+      "descargado_por_mi": "2026-07-28, HTTP 200, 69.632 bytes, parseado con pandas",
+      "cita_literal_de_la_fila": "Software (System & Application) | 185 firmas | Beta 1,5673 | D/E 0,0322 | tipo efectivo 21,22% | Beta desapalancada 1,5326 | Caja/Valor de firma 18,03% | Beta desapalancada corregida por caja 1,8698",
+      "uso": "ES EL BOTTOM-UP QUE EXIGE EL CANDADO B. La beta corregida por caja (1,87) es la beta de los ACTIVOS OPERATIVOS, que es la que corresponde a un DCF sobre EV."
+    },
+    {
+      "id": "PRECIO",
+      "documento": "Cotizacion viva 4684.T",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/4684.T",
+      "consultado_por_mi": "2026-07-28 05:58 UTC = 14:58 JST",
+      "dato": "4.568 JPY. Serie diaria verificada: 4.192 (24-jul) -> 4.485 (27-jul) -> 4.568 (28-jul).",
+      "cruce": "stockanalysis.com/quote/tyo/4684 devolvio 4.573 JPY a las 14:49 JST del mismo dia y 430,94 M de acciones — coincide con mi recuento del tanshin (430.937.490). Marcado INFERENCIA como fuente, pero cruzado contra HECHO."
+    },
+    {
+      "id": "FX",
+      "documento": "USD/JPY contado",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/JPY=X",
+      "consultado_por_mi": "2026-07-28",
+      "dato": "163,71 JPY/USD. Serie: 163,19 (21-jul) · 163,08 (22) · 163,83 (23) · 163,61 (26) · 163,71 (28)."
+    },
+    {
+      "id": "JGB10",
+      "documento": "Rendimiento del bono japones a 10 anios",
+      "url": "https://tradingeconomics.com/japan/government-bond-yield",
+      "consultado_por_mi": "2026-07-28",
+      "dato": "2,78% al 28-jul-2026 (+0,01 pp sobre la sesion anterior)",
+      "etiqueta": "INFERENCIA — fuente secundaria fechada. Intente la serie oficial del Ministerio de Hacienda japones (mof.go.jp/jgbs/reference/interest_rate/data/jgbcm.csv) y devolvio 404 tras un muro Incapsula. HUECO declarado."
+    }
+  ],
+
+  "cifras_del_ultimo_ejercicio_AUDITADO": {
+    "periodo": "FY2026/3 — 2025-04-01 a 2026-03-31",
+    "etiqueta_global": "HECHO — leidas por mi en YUHO-59 y en TANSHIN-FY26, coincidentes",
+    "cuenta_de_resultados_JPYm": {
+      "ventas": 135209,
+      "coste_de_ventas": 29544,
+      "margen_bruto": 105665,
+      "margen_bruto_pct": 78.15,
+      "gastos_generales_y_venta": 16841,
+      "beneficio_operativo": 88823,
+      "margen_operativo_pct": 65.69,
+      "ingresos_no_operativos": {
+        "intereses_cobrados": 413,
+        "dividendos_cobrados": 5014,
+        "resultado_por_puesta_en_equivalencia": 6630,
+        "alquileres_cobrados": 2153,
+        "plusvalias_por_venta_de_valores": 3264,
+        "otros": 54,
+        "total": 17530
+      },
+      "gastos_no_operativos": {"coste_de_los_alquileres": 1568, "otros": 6, "total": 1574},
+      "COMENTARIO_INTERESES_PAGADOS": "NO EXISTE la linea 支払利息 (intereses pagados). Los unicos gastos no operativos son el coste de los inmuebles alquilados y 6 M de 'otros'. Este es el HECHO que hace inobservable el coste de la deuda.",
+      "beneficio_ordinario": 104779,
+      "beneficio_antes_de_impuestos": 104744,
+      "impuestos": 29553,
+      "beneficio_neto_atribuible": 75191,
+      "bpa_JPY": 171.61
+    },
+    "balance_a_2026_03_31_JPYm": {
+      "efectivo_y_depositos": 207385,
+      "clientes_mas_activos_de_contrato": 18665,
+      "existencias": 307,
+      "activo_corriente": 227866,
+      "inmovilizado_material_neto": 55450,
+      "de_lo_cual_terrenos": 29700,
+      "inmovilizado_inmaterial": 152,
+      "inversiones_en_valores": 332375,
+      "activo_total": 618796,
+      "proveedores": 5842,
+      "impuestos_a_pagar": 17519,
+      "pasivo_corriente": 34852,
+      "pasivo_por_impuesto_diferido": 59521,
+      "provision_por_pensiones": 5534,
+      "pasivo_no_corriente": 67932,
+      "pasivo_total": 102784,
+      "patrimonio_neto": 516011,
+      "ratio_de_fondos_propios_pct": 83.4,
+      "DEUDA_FINANCIERA": 0,
+      "COMENTARIO_DEUDA": "HECHO — CERO. No hay ni una linea de 借入金 (prestamos), 社債 (bonos) ni deuda por arrendamiento en todo el balance. El pasivo entero son proveedores, impuestos, diferidos y pensiones.",
+      "plusvalias_latentes_en_OCI_netas_de_impuesto": 144415
+    },
+    "flujos_de_caja_JPYm": {
+      "beneficio_antes_de_impuestos": 104744,
+      "amortizacion": 2695,
+      "resultado_puesta_en_equivalencia_restado": -6630,
+      "plusvalias_de_valores_restadas": -3264,
+      "intereses_y_dividendos_restados": -5428,
+      "variacion_de_clientes": -803,
+      "variacion_de_proveedores": 596,
+      "subtotal": 92877,
+      "intereses_y_dividendos_COBRADOS": 8232,
+      "impuestos_PAGADOS": -27363,
+      "CFO": 73746,
+      "capex_material": -2219,
+      "capex_inmaterial": -67,
+      "capex_total": -2286,
+      "compra_de_valores": -4315,
+      "venta_de_valores": 4767,
+      "CFI": -2022,
+      "recompra_de_acciones": -31411,
+      "dividendos_pagados": -32992,
+      "CFF": -64404
+    },
+    "otros_HECHOS_del_YUHO": {
+      "gasto_de_I_mas_D_JPYm": 2956,
+      "gasto_de_I_mas_D_pct_ventas": 2.19,
+      "inversion_en_instalaciones_declarada_JPYm": 2137,
+      "plantilla_consolidada": 2256,
+      "plantilla_matriz": 2030,
+      "ventas_por_empleado_JPYm": 59.9
+    },
+    "segmentos_JPYm": {
+      "system_integration": {"ventas_externas": 55250, "var_pct": 9.8, "beneficio": 32982, "margen_pct": 59.7},
+      "system_support": {"ventas_externas": 71508, "var_pct": 13.5, "beneficio": 52896, "margen_pct": 74.0},
+      "office_automation": {"ventas_externas": 8451, "var_pct": 7.2, "beneficio": 2944, "margen_pct": 34.8},
+      "lectura": "El 52,9% de las ventas y el 59,6% del beneficio ya vienen del segmento de SOPORTE (nube, mantenimiento, operacion) — recurrente y con 74% de margen. El motor no es la venta de proyectos, es la cola de mantenimiento de la base instalada. Esto importa para la g: la parte recurrente crece mas rapido (+13,5%) que la de proyectos (+9,8%)."
+    }
+  },
+
+  "serie_de_5_anios_HECHO_YUHO_linea_101": {
+    "ventas_JPYm": {"FY2022_3": 89476, "FY2023_3": 100167, "FY2024_3": 111590, "FY2025_3": 121240, "FY2026_3": 135209},
+    "beneficio_neto_JPYm": {"FY2022_3": 43500, "FY2023_3": 50116, "FY2024_3": 58007, "FY2025_3": 64621, "FY2026_3": 75191},
+    "beneficio_ordinario_JPYm": {"FY2022_3": 60174, "FY2023_3": 70223, "FY2024_3": 81151, "FY2025_3": 89770, "FY2026_3": 104779},
+    "CFO_JPYm": {"FY2022_3": 38972, "FY2023_3": 52960, "FY2024_3": 55831, "FY2025_3": 62794, "FY2026_3": 73746},
+    "plantilla": {"FY2022_3": 2054, "FY2023_3": 2082, "FY2024_3": 2107, "FY2025_3": 2189, "FY2026_3": 2256},
+    "ROE_pct": {"FY2022_3": 15.5, "FY2023_3": 16.1, "FY2024_3": 16.0, "FY2025_3": 15.5, "FY2026_3": 15.8},
+    "PER_de_cierre": {"FY2022_3": 37.6, "FY2023_3": 37.0, "FY2024_3": 34.8, "FY2025_3": 29.3, "FY2026_3": 22.4},
+    "TASAS_BASE_QUE_SALEN_DE_AQUI": {
+      "CAGR_ventas_4a_pct": 10.87,
+      "CAGR_beneficio_neto_4a_pct": 14.66,
+      "CAGR_beneficio_ordinario_4a_pct": 14.87,
+      "CAGR_plantilla_4a_pct": 2.38,
+      "CAGR_ventas_por_empleado_4a_pct": 8.29,
+      "LECTURA_CRITICA": "Esta es la observacion mas importante del expediente y no aparece en ninguna nota de la empresa. OBIC crece las ventas al 10,9% con la plantilla creciendo al 2,4%. Es decir: el 76% de su crecimiento es MAS INGRESO POR INGENIERO, no mas ingenieros. Y el mecanismo congelado dice que forma a sus ingenieros en casa desde recien titulados — eso es un techo fisico. Si el ingreso por ingeniero deja de subir, el crecimiento cae al 2-3% de la plantilla. Por eso mi g defendible se ancla en las VENTAS y decae, y por eso uso el ROIIC EX-MARGEN.",
+      "DE_RATING_OBSERVADO": "El PER paso de 37,6x a 22,4x en cuatro anios mientras el beneficio compuso al 14,7%. El mercado lleva cuatro anios pagando cada vez menos por el mismo motor. Hoy, tras el salto de dos sesiones, vuelve a 26,6x. Un valorador debe preguntarse por que el mercado des-rateaba: la respuesta honesta es que no lo se."
+    }
+  },
+
+  "ejercicio_EN_CURSO": {
+    "periodo": "FY2027/3 — 2026-04-01 a 2027-03-31",
+    "Q1_publicado_HECHO": {
+      "fuente": "TANSHIN-1Q27, publicado 2026-07-22",
+      "ventas_JPYm": 36698, "var_pct": 13.2,
+      "beneficio_operativo_JPYm": 24860, "var_pct": 15.7, "margen_operativo_pct": 67.74,
+      "beneficio_ordinario_JPYm": 32049, "var_pct": 17.7,
+      "beneficio_neto_JPYm": 22697, "var_pct": 16.3,
+      "bpa_JPY": 53.01,
+      "CFO_Q1_JPYm": 14850,
+      "capex_Q1_JPYm": 172,
+      "recompra_Q1_JPYm": 9999,
+      "dividendos_Q1_JPYm": 20366
+    },
+    "guia_de_la_empresa_HECHO": {
+      "fuente": "TANSHIN-FY26 (2026-04-21), reiterada sin cambios en TANSHIN-1Q27 (2026-07-22)",
+      "ventas_JPYm": 148700, "var_pct": 10.0,
+      "beneficio_operativo_JPYm": 98000, "var_pct": 10.3,
+      "beneficio_ordinario_JPYm": 114500, "var_pct": 9.3,
+      "beneficio_neto_JPYm": 82000, "var_pct": 9.1,
+      "bpa_JPY": 189.23,
+      "dividendo_JPY": 94.00,
+      "payout_pct": 49.7,
+      "cita": "当第１四半期連結会計期間末現在、業績は概ね順調に推移しております。よって、2026年４月21日に公表しました業績予想の見直しは行っておりません。"
+    },
+    "anualizacion_que_uso": {
+      "metodo": "INFERENCIA — Q1 anualizado con la estacionalidad real del ejercicio anterior, promediado 50/50 con la guia.",
+      "Q1_como_pct_del_BO_anual_anterior": "21.479 / 88.823 = 24,18%",
+      "BO_implicito_por_estacionalidad_JPYm": 102806,
+      "BO_guia_JPYm": 98000,
+      "BO_mezcla_que_uso_JPYm": 100400,
+      "por_que": "La guia de OBIC ha sido conservadora: en FY2026/3 guio y batio. El Q1 va 5,4% por delante de la forma estacional de la guia. Ni ignoro la guia (es el unico compromiso firmado) ni la tomo al pie de la letra (el trimestre publicado la contradice al alza). Mezclo y lo declaro."
+    }
+  },
+
+  "precio_y_capitalizacion": {
+    "precio_JPY": 4568.0,
+    "precio_USD": 27.90,
+    "fecha_hora": "2026-07-28, 14:58 JST",
+    "tipo_de_cambio": "163,71 JPY/USD, 2026-07-28",
+    "acciones_emitidas_2026_06_30": 492000000,
+    "autocartera_2026_06_30": 61062510,
+    "acciones_en_circulacion": 430937490,
+    "etiqueta_acciones": "HECHO — TANSHIN-1Q27 nota (4). Verificado por dos vias: 492.000.000 - 61.062.510 = 430.937.490, y patrimonio 492.772 Mm / valor contable por accion 1.143,49 JPY = 430,95 M. Coinciden.",
+    "capitalizacion_JPYm": 1968522,
+    "capitalizacion_USDm": 12024,
+    "ALERTA_DE_PRECIO": "HUECO DECLARADO Y RELEVANTE. El precio ha subido +9,0% en dos sesiones (4.192 el 24-jul -> 4.485 el 27-jul -> 4.568 el 28-jul). Los resultados del Q1 se publicaron el 22-jul y el valor CAYO el 23-jul. NO he localizado el hecho relevante que explica el salto del 27-jul. Todo margen de seguridad de este expediente esta medido contra un precio que acaba de moverse un 9% por una razon que no se. Al precio del 24-jul (4.192) todos los MoS de abajo suben unos 8 puntos.",
+    "recompras_en_marcha": "HECHO — la empresa amortizo 6.000.000 de acciones entre marzo y junio de 2026 (498.000.000 emitidas -> 492.000.000) y gasto 31.411 Mm en recompra en FY2026/3 frente a 6 Mm el ejercicio anterior. Es un cambio de politica de capital, no ruido. Rendimiento total al accionista hoy = dividendo 2,1% + recompra ~1,1% = ~3,2%."
+  },
+
+  "CANDADO_B_WACC_BOTTOM_UP": {
+    "principio": "El WACC sale del mercado. No se hereda de un tier de calidad. Cada componente con fuente y fecha.",
+    "tasa_libre_de_riesgo": {
+      "valor_pct": 2.78,
+      "instrumento": "Bono del Estado japones a 10 anios (JGB 10Y). Moneda funcional = JPY, luego el tipo sin riesgo tiene que ser japones, no americano.",
+      "fecha": "2026-07-28",
+      "fuente": "tradingeconomics.com/japan/government-bond-yield",
+      "etiqueta": "INFERENCIA — fuente secundaria fechada; el CSV oficial del Ministerio de Hacienda japones devolvio 404 tras muro Incapsula. HUECO declarado.",
+      "nota": "2,78% es un maximo de mas de dos decadas para el JGB. Esto importa mucho: hace tres anios este mismo calculo habria partido de ~0,5% y habria dado un WACC 2,3 puntos menor y un valor un 40% mayor. Buena parte del des-rating del PER de OBIC (37,6x -> 22,4x) es simplemente esto."
+    },
+    "prima_de_riesgo_de_mercado": {
+      "prima_mercado_maduro_pct": 4.23,
+      "prima_pais_japon_pct": 0.91,
+      "ERP_total_japon_pct": 5.14,
+      "rating_soberano": "A1 (Moody's)",
+      "default_spread_pct": 0.60,
+      "fuente": "Damodaran, Country Default Spreads and Risk Premiums, tabla actualizada 2026-01-05, descargada y parseada por mi el 2026-07-28",
+      "pais_del_riesgo_de_ACTIVO": "JAPON, y coincide con el domicilio fiscal. Justificacion: el YUHO-59 no reporta ningun segmento geografico ni ninguna filial extranjera relevante; el negocio es ERP vendido a empresas japonesas por vendedores japoneses. La exposicion de activo es 100% Japon. No hay ninguna dilucion internacional que rebaje la prima pais.",
+      "etiqueta": "HECHO — cita literal de la fila de Japon transcrita arriba"
+    },
+    "beta": {
+      "EL_NUDO": "Aqui esta toda la incertidumbre del expediente. Presento las tres mediciones y elijo entre ellas a la vista.",
+      "medicion_1_regresion_propia": {
+        "valor": 0.491,
+        "metodo": "Regresion OLS de rentabilidades SEMANALES de 4684.T contra el ETF de TOPIX (1306.T), 5 anios, n=262 observaciones, precios ajustados (post-split), calculada por mi el 2026-07-28.",
+        "error_estandar": 0.084,
+        "IC95": "[0,33 ; 0,66]",
+        "R2": 0.116,
+        "correlacion_con_el_mercado": 0.34,
+        "volatilidad_anualizada_de_OBIC_pct": 23.4,
+        "volatilidad_anualizada_de_TOPIX_pct": 16.2,
+        "beta_contra_Nikkei225": 0.376,
+        "beta_ultimos_2_anios": 0.229,
+        "cruce_externo": "stockanalysis.com publica Beta(5Y) = 0,46 para 4684, consultado 2026-07-28. Mi 0,491 y su 0,46 coinciden. La medicion es solida como medicion.",
+        "PERO": "R2 = 0,116. La beta es baja no porque OBIC sea tranquila sino porque esta DESCORRELACIONADA: su volatilidad propia (23,4%) es MAYOR que la del mercado (16,2%); lo que es bajo es la correlacion (0,34). Una beta con R2 de 0,12 explica el 12% de lo que le pasa al valor. Usarla sola para fijar el coste de capital es apoyar todo el edificio en la parte mas debil del dato."
+      },
+      "medicion_2_beta_total": {
+        "valor": 1.44,
+        "metodo": "beta de regresion / correlacion = 0,491 / 0,34. Es la beta que Damodaran recomienda para un inversor NO diversificado, que es exactamente el caso de una cartera concentrada de convicciones. Captura el riesgo total, no solo el sistematico.",
+        "etiqueta": "INFERENCIA — derivada de mi propia regresion"
+      },
+      "medicion_3_bottom_up_sectorial_LA_QUE_EXIGE_EL_CANDADO": {
+        "valor": 1.87,
+        "metodo": "Damodaran, betas por sector para JAPON, industria 'Software (System & Application)', 185 firmas: beta desapalancada 1,5326; caja/valor de firma 18,03%; beta desapalancada CORREGIDA POR CAJA 1,8698. Uso la corregida por caja porque mi DCF descuenta flujos OPERATIVOS y valora solo el EV — la beta que corresponde es la de los activos operativos, no la de la firma con su caja dentro.",
+        "reapalancamiento": "D/E de OBIC = 0. No hay que reapalancar nada: la beta apalancada de los activos operativos = la desapalancada = 1,87.",
+        "etiqueta": "HECHO — fila transcrita literalmente de betaJapan.xls"
+      },
+      "beta_que_uso": 1.10,
+      "rango_de_beta": "0,70 - 1,60",
+      "justificacion_de_la_eleccion": "El candado B dice bottom-up, y el bottom-up dice 1,87. Pero 1,87 es la media de 185 firmas de software japones, un universo dominado por integradores pequenios, ciclicos y con margenes de un digito — OBIC tiene 65,7% de margen operativo, cero deuda y 32 anios seguidos de aumento del beneficio operativo, y es empiricamente la MENOS correlacionada del grupo. Aplicarle la media del sector es tan mecanico como aplicarle su propia regresion de R2=0,12. Tomo 1,10 como central, que es aproximadamente el punto medio geometrico entre mi suelo defendible (0,70 = mi regresion con ajuste Blume y correccion por la cartera financiera) y el techo del sector (1,87), y paso por encima de la beta total (1,44) que es el ancla del inversor concentrado. El rango 0,70-1,60 NO es cosmetico: es la banda dentro de la cual no puedo distinguir, y su consecuencia esta cuantificada abajo.",
+      "ajuste_intermedio_calculado": {
+        "beta_Blume": "0,33 + 0,67 x 0,491 = 0,66",
+        "correccion_por_cartera_financiera": "La beta observada de OBIC es una mezcla: 9,9% de la capitalizacion es caja (beta 0), 13,0% es una cartera de renta variable japonesa cotizada neta de impuesto diferido (beta ~1,0) y 77,1% es el negocio. beta_negocio = (0,66 - 0,130 x 1,0) / 0,771 = 0,687 -> 0,70. Ese 0,70 es mi SUELO, no mi central."
+      }
+    },
+    "coste_de_la_deuda": {
+      "valor_sintetico_pct": 3.28,
+      "HUECO_DECLARADO": "EL COSTE REAL DE LA DEUDA NO ES OBSERVABLE. El encargo pide derivarlo de los costes financieros sobre la deuda media del filing. En OBIC no hay ninguno de los dos: no existe la linea 支払利息 en la cuenta de resultados (los unicos gastos no operativos son 1.568 Mm de coste de inmuebles alquilados y 6 Mm de 'otros'), y no existe ninguna linea de deuda financiera en el balance. Nueve anios sin deuda, como dice el mecanismo congelado.",
+      "sintetico_usado": "JGB 10a 2,78% + 0,50 pp de diferencial sintetico para un emisor con 83,4% de fondos propios y caja neta de 436.000 Mm (calificacion sintetica AAA) = 3,28% antes de impuestos, 2,29% despues.",
+      "efecto_en_el_WACC": "NINGUNO. El peso de la deuda a valor de mercado es 0,0%. Lo declaro por completitud del candado, no porque mueva un decimal."
+    },
+    "ponderacion": {
+      "valor_de_mercado_de_los_fondos_propios_JPYm": 1968522,
+      "valor_de_mercado_de_la_deuda_JPYm": 0,
+      "peso_fondos_propios_pct": 100.0,
+      "peso_deuda_pct": 0.0
+    },
+    "tipo_impositivo": {
+      "valor_pct": 30.1,
+      "derivacion": "HECHO derivado del filing: impuestos 29.553 Mm sobre una base imponible ajustada de 104.744 - 6.630 (resultado por puesta en equivalencia, que llega ya tributado desde la participada) = 98.114 Mm -> 30,12%. Coincide con el 29,74% que publica Damodaran para Japon. Uso 30,1%.",
+      "tipo_efectivo_bruto_publicado": "29.553 / 104.744 = 28,2%"
+    },
+    "WACC_CENTRAL_pct": 8.43,
+    "WACC_formula": "Ke = 2,78% + 1,10 x 5,14% = 8,43%. Al ser el peso de la deuda cero, WACC = Ke.",
+    "WACC_RANGO": "6,38% (beta 0,70) — 11,00% (beta 1,60)",
+    "AVISO_DE_SENSIBILIDAD": "Al WACC central de 8,43% con terminal del 3%, el multiplo terminal implicito es 1,03/0,0543 = 19,0x — sano. Al WACC bajo de 6,38% seria 30,5x y la valoracion entera dejaria de ser una valoracion para pasar a ser una division entre un numero pequenio. Ese es el motivo real por el que rechazo usar mi propia regresion de beta como central, aunque este bien medida."
+  },
+
+  "OWNER_EARNINGS": {
+    "principio_metodologico": "Valoro el NEGOCIO OPERATIVO y trato la caja y la cartera de valores como activos financieros separados. Por eso saco de los owner earnings los intereses y dividendos cobrados y el resultado por puesta en equivalencia: si los dejara dentro Y ademas restara la cartera del EV, estaria contando lo mismo dos veces.",
+    "puente_desde_el_CFO_AUDITADO_JPYm": {
+      "CFO_reportado": 73746,
+      "menos_intereses_y_dividendos_cobrados": -8232,
+      "mas_impuesto_atribuible_a_esa_renta_financiera": 2013,
+      "detalle_del_impuesto": "INFERENCIA. La empresa no desglosa como se reparten los 27.363 Mm de impuestos pagados. Estimo: intereses 413 x 30,1% = 124; plusvalias por venta de valores 3.264 x 30,1% = 983 (la plusvalia se resto del CFO pero su impuesto no); dividendos 5.014 con ~60% tributable al 30,1% = 906. Total ~2.013 Mm.",
+      "CFO_OPERATIVO_central": 66500,
+      "banda_del_CFO_operativo": "65.500 - 67.500 Mm (+-1,5%)",
+      "CONTRASTE_INDEPENDIENTE": "Camino distinto, mismo resultado: BO 88.823 + alquiler neto 585 = 89.408; x (1 - 30,1%) = 62.496 de NOPAT; + amortizacion 2.695 = 65.191; + desfase de caja del impuesto (27.363 pagados frente a 29.553 devengados) 2.190 = 67.381. Dos rutas independientes convergen en ~66.500. El numero aguanta."
+    },
+    "version_a_capex_de_MANTENIMIENTO_aproximado_por_la_amortizacion": {
+      "auditado_JPYm": 63805,
+      "auditado_USDm": 389.7,
+      "calculo": "66.500 - 2.695 de amortizacion",
+      "en_curso_JPYm": 71100,
+      "en_curso_USDm": 434.3
+    },
+    "version_b_restando_TODO_el_capex_flujo_de_caja_libre_puro": {
+      "auditado_JPYm": 64214,
+      "auditado_USDm": 392.2,
+      "calculo": "66.500 - 2.286 de capex total (2.219 material + 67 inmaterial)",
+      "en_curso_JPYm": 71400,
+      "en_curso_USDm": 436.1
+    },
+    "HALLAZGO_LAS_DOS_VERSIONES_SE_COLAPSAN": "En OBIC la version (b) es MAYOR que la (a), no menor. Capex total 2.286 Mm < amortizacion 2.695 Mm. Es decir: NO HAY CAPEX DISCRECIONAL QUE PROTEGER. La distincion entre 'Amazon 2005' y 'Coca-Cola 1998' que la version (a) existe para capturar no aplica aqui: OBIC no es una reinvertidora de capital fisico, es una maquina de caja que invierte en PERSONAS (2.956 Mm de I+D + los salarios de 2.256 ingenieros, todo por la cuenta de resultados) y que NO reinvierte los 500.000 Mm de activos financieros que acumula. Las dos versiones distan un 0,6%. Cualquier debate sobre cual usar es ruido frente a la banda de la beta.",
+    "reconciliacion_con_la_ficha_de_especie_congelada": {
+      "ficha": "reinversion 6,8% de ventas",
+      "lo_que_veo_en_el_filing": "capex 2.286 + I+D 2.956 = 5.242 Mm = 3,88% de las ventas",
+      "HUECO": "No consigo reconciliar el 6,8% con ninguna combinacion de lineas del YUHO-59. 6,8% de 135.209 serian 9.194 Mm. Uso el 6,8% congelado para calcular la g mecanica que pide el encargo, y declaro que si el numero correcto fuera 3,9% la g mecanica caeria de 14,1% a 8,1%."
+    },
+    "distancia_entre_las_dos_BASES": {
+      "auditado_a_en_curso_pct": 11.4,
+      "LECTURA_DEL_MOMENTO_DEL_CICLO": "La distancia es POSITIVA y se esta ensanchando. No estoy comprando un pico que empieza a girar: estoy comprando una aceleracion. Ventas del ejercicio auditado +11,5%; Q1 del ejercicio en curso +13,2%. Margen operativo del ejercicio auditado 65,7%; del Q1 67,7%. El segmento recurrente (soporte) crece mas rapido (+15,5% en Q1) que el de proyectos (+11,8%). Si hubiera un techo de demanda a la vista, el trimestre publicado no lo ensenia. Esto es informacion a favor del activo, no ruido — pero tambien significa que compro caro un momento bueno, que es la forma clasica de equivocarse."
+    }
+  },
+
+  "VALOR_DE_EMPRESA": {
+    "capitalizacion_JPYm": 1968522,
+    "efectivo_y_depositos_2026_06_30_JPYm": 194287,
+    "menos_caja_operativa_retenida_JPYm": -15000,
+    "nota_caja_operativa": "INFERENCIA prudente. OBIC necesita algo de caja de trabajo (proveedores 5.842, impuestos a pagar 17.519). Retengo 15.000 Mm y trato el resto como excedente. Es conservador: la mayoria trataria los 194.287 enteros como excedente.",
+    "cartera_de_valores_a_mercado_2026_06_30_JPYm": 309548,
+    "menos_pasivo_por_impuesto_diferido_JPYm": -52723,
+    "nota_impuesto_diferido": "INFERENCIA — 59.521 al 31-mar menos la caida de 6.798 que narra el Q1. Es el impuesto latente sobre las plusvalias no realizadas de la cartera. Restarlo es lo honesto: esa cartera no vale su valor de mercado para el accionista, vale su valor de mercado menos el impuesto.",
+    "deuda_financiera_JPYm": 0,
+    "ACTIVOS_FINANCIEROS_NETOS_JPYm": 436112,
+    "ACTIVOS_FINANCIEROS_NETOS_USDm": 2664,
+    "DEUDA_NETA_JPYm": -436112,
+    "DEUDA_NETA_USDm": -2664,
+    "peso_sobre_la_capitalizacion_pct": 22.2,
+    "EV_JPYm": 1532410,
+    "EV_USDm": 9361,
+    "OBSERVACION_DE_ASIGNACION_DE_CAPITAL": "El 22,2% de lo que cuesta OBIC hoy es una cartera pasiva de acciones japonesas cotizadas y depositos bancarios que la direccion ni despliega en el negocio ni devuelve entera. Esa es la explicacion aritmetica de por que el ROE es 15,8% cuando el capital invertido en el negocio es NEGATIVO — sobre el negocio la rentabilidad es practicamente infinita, y el 15,8% es lo que queda tras diluirla con 500.000 Mm de activos financieros de baja rentabilidad. No es una trampa contable: es una decision de asignacion de capital que el accionista paga. La noticia buena es que esta cambiando: 31.411 Mm de recompra en FY2026/3 frente a 6 Mm el ejercicio anterior, y 6 millones de acciones amortizadas."
+  },
+
+  "DCF_INVERSO": {
+    "pregunta": "Que crecimiento de owner earnings a 10 anios, con terminal del 3%, justifica EXACTAMENTE el EV de hoy (1.532.410 Mm) al WACC calculado.",
+    "al_WACC_CENTRAL_8_43_pct": {
+      "g_implicita_base_AUDITADA_pct": 6.04,
+      "g_implicita_base_EN_CURSO_pct": 4.65
+    },
+    "al_WACC_BAJO_6_38_pct": {"g_implicita_auditada_pct": 0.18, "g_implicita_en_curso_pct": -1.10},
+    "al_WACC_ALTO_11_00_pct": {"g_implicita_auditada_pct": 11.68, "g_implicita_en_curso_pct": 10.18},
+    "CONTRASTE_CONTRA_LA_TASA_BASE_DEL_NEGOCIO": {
+      "tasa_base_observada_ventas_4a_pct": 10.87,
+      "guia_de_la_empresa_ventas_pct": 10.0,
+      "trimestre_publicado_ventas_pct": 13.2,
+      "ejercicios_consecutivos_de_aumento_del_BO": 32,
+      "VEREDICTO_DEL_CONTRASTE": "Al WACC central el mercado exige un 6,0% a diez anios sobre una base que lleva cuatro creciendo al 10,9%, que la propia empresa guia al 10,0% y que en el trimestre recien publicado va al 13,2%. El listón está unos 4,8 puntos por debajo de la tasa base. Para que el precio de hoy sea meramente justo, OBIC tendria que decelerar un 45% respecto de su tendencia. Eso NO es lo que pasa cuando un mercado esta eufórico con un activo. Es un listón bajo. Ahora bien — al WACC alto de mi banda (11,0%) el listón sube al 11,7% y pasa a estar POR ENCIMA de la tasa base, es decir el precio pasaria a exigir aceleracion. Toda la conclusion vive dentro de la banda de la beta."
+    }
+  },
+
+  "G_DEFENDIBLE": {
+    "g_mecanica_del_encargo": {
+      "formula": "tasa de reinversion sobre NOPAT x ROIIC EX-MARGEN",
+      "reinversion_ficha_congelada_pct_ventas": 6.8,
+      "reinversion_JPYm": 9194,
+      "NOPAT_operativo_JPYm": 62496,
+      "tasa_de_reinversion_sobre_NOPAT_pct": 14.71,
+      "ROIIC_ex_margen_pct": 96.0,
+      "g_mecanica_pct": 14.12,
+      "por_que_NO_la_suscribo_tal_cual": "Tres razones, todas del filing y no de mi opinion. (1) La plantilla crece al 2,4% anual y el mecanismo congelado dice que forma ingenieros en casa desde recien titulados — el 76% del crecimiento historico es mas ingreso por ingeniero, y eso es precisamente lo que el ROIIC EX-MARGEN pretende excluir; sostener 14% durante diez anios exigiria repetir la expansion de productividad que el ex-margen ya declara no repetible. (2) La propia empresa guia al 10,0%, no al 14%. (3) La reinversion del 6,8% de la ficha no la consigo reconciliar con el filing (veo 3,9%); si el 3,9% fuera el correcto, la g mecanica seria 8,1%."
+    },
+    "g_QUE_YO_DEFIENDO": {
+      "senda": "10,0% los anios 1-3 (guia de la empresa 10,0%, tasa base 10,9%, Q1 13,2%), decaimiento lineal hasta 3,5% en el anio 10, terminal 3,0%.",
+      "senda_anio_a_anio_pct": [10.0, 10.0, 10.0, 9.1, 8.1, 7.2, 6.3, 5.4, 4.4, 3.5],
+      "CAGR_equivalente_10a_pct": 7.38,
+      "anclaje": "El ancla es el crecimiento de VENTAS, no de beneficio, precisamente porque el ROIIC ex-margen prohibe suscribir mas expansion de margen. El decaimiento no es pesimismo decorativo: es el techo de plantilla (+2,4%/anio) mordiendo, y es el reconocimiento de que el mercado ERP japones de empresas medianas y grandes es finito y OBIC ya vende a mas de la mitad de su base por la via recurrente.",
+      "por_que_el_terminal_del_3_pct_es_generoso": "3% nominal a perpetuidad en Japon, cuyo PIB nominal crece ~1,5-2,5%, implica que OBIC gana cuota para siempre. Lo uso porque lo manda el encargo, pero calculo la sensibilidad: al WACC central, bajar el terminal a 2,0% recorta el valor por accion de 5.048 a ~4.400 JPY y se lleva casi todo el margen de seguridad."
+    }
+  },
+
+  "VALOR_INTRINSECO_Y_MARGEN_DE_SEGURIDAD": {
+    "metodo": "Owner earnings version (a) creciendo por la senda defendible durante 10 anios, terminal 3%, descontado al WACC; mas los activos financieros netos; dividido por 430.937.490 acciones.",
+    "AL_WACC_CENTRAL_8_43_pct": {
+      "base_AUDITADA": {
+        "multiplo_EV_OE_implicito": 27.3,
+        "valor_por_accion_JPY": 5048,
+        "valor_por_accion_USD": 30.84,
+        "precio_USD": 27.90,
+        "MoS_pct": 9.5
+      },
+      "base_EN_CURSO": {
+        "multiplo_EV_OE_implicito": 27.3,
+        "valor_por_accion_JPY": 5510,
+        "valor_por_accion_USD": 33.66,
+        "MoS_pct": 17.1
+      },
+      "con_owner_earnings_version_b": {"auditada_MoS_pct": 10.0, "en_curso_MoS_pct": 17.4, "nota": "irrelevante, 0,5 puntos de diferencia"}
+    },
+    "AL_WACC_BAJO_6_38_pct": {"valor_auditado_JPY": 7625, "MoS_auditado_pct": 40.1, "valor_en_curso_JPY": 8381, "MoS_en_curso_pct": 45.5},
+    "AL_WACC_ALTO_11_00_pct": {"valor_auditado_JPY": 3696, "MoS_auditado_pct": -23.6, "valor_en_curso_JPY": 4003, "MoS_en_curso_pct": -14.1},
+    "MoS_EXIGIDO_pct": 25.0,
+    "VEREDICTO_DEL_MoS": "NO ALCANZA. El MoS central es 9,5% (base auditada) y 17,1% (base en curso) frente al 25% exigido para ABRIR una PRESUNTA. Falla en las dos bases. Y falla incluso en la mas favorable de las dos."
+  },
+
+  "PISO_DE_RESOLUCION": {
+    "regla": "Ninguna cifra se reporta con mas precision que el ruido.",
+    "banda_por_defecto_del_encargo": "+-25% sobre el valor central -> 3.786 a 6.310 JPY (23,13 a 38,55 USD)",
+    "banda_REAL_medida_por_mi": "La banda que domina no es el +-25% por defecto, es la de la beta: de 3.696 a 7.625 JPY, es decir +-39% sobre el central de 5.048. Mi propia incertidumbre es MAS ANCHA que el suelo del encargo, y por tanto es la que manda.",
+    "CONSECUENCIA_QUE_HAY_QUE_DECIR_EN_VOZ_ALTA": "El precio de hoy (4.568 JPY) esta DENTRO de mi banda de valor (3.696 - 7.625). En sentido estricto no puedo distinguir el precio del valor con las herramientas que tengo. Todo numero de este expediente con dos decimales es cortesia tipografica, no informacion. Lo unico que si puedo afirmar con las dos manos es lo negativo: NO puedo demostrar un 25% de margen de seguridad. Y esa es la unica afirmacion que la decision necesita."
+  },
+
+  "M_ESTRELLA_Y_P_ESTRELLA": {
+    "M_estrella": 20.0,
+    "definicion": "Multiplo de owner earnings version (a) sobre el VALOR DE EMPRESA que acepto pagar. Decidido en frio, sin barra de error, porque no es una estimacion sino un compromiso.",
+    "como_lo_decido": "Mi propio DCF al WACC central bendice 27,3x. Me comprometo a 20x, siete puntos por debajo, y la diferencia son tres descuentos que el DCF no sabe capturar: (1) el G4 congelado nunca ha sido examinado — no tengo un escenario de recesion japonesa auditado y no puedo tenerlo; (2) concentracion total: un pais, una moneda, una familia de producto, un canal; (3) el 22% del precio es una cartera financiera que la direccion no despliega, y ese capital tiene un coste de oportunidad que el DCF del negocio no ve. 20x tambien resiste el WACC alto de mi banda (que bendice 18,1x) casi entero, que es lo que un multiplo comprometido tiene que hacer.",
+    "multiplo_que_paga_el_mercado_HOY": {"sobre_base_auditada": 24.0, "sobre_base_en_curso": 21.6},
+    "valor_justo_a_M_estrella": {
+      "base_auditada_JPY": 3973,
+      "base_auditada_USD": 24.27,
+      "base_en_curso_JPY": 4312,
+      "base_en_curso_USD": 26.34
+    },
+    "P_ESTRELLA": {
+      "base_auditada_JPY": 2980,
+      "base_auditada_USD": 18.20,
+      "base_en_curso_JPY": 3234,
+      "base_en_curso_USD": 19.75,
+      "formula": "valor justo a M* x (1 - 25% de MoS exigido)",
+      "el_que_reporto": "18,20 USD (base auditada, la que lleva firma de auditor). El de base en curso, 19,75 USD, exige que la guia y el Q1 se cumplan."
+    },
+    "TENSION_QUE_DECLARO": "Mi DCF dice MoS +9,5% y mi M* dice MoS -15,0%. Se contradicen en 24 puntos. La razon es que M* incorpora a mano el descuento por G4 no examinado que el DCF no sabe modelar. No las promedio ni elijo la que me gusta: la restriccion que manda es la MAS DURA, que es M*. Las dos, en todo caso, apuntan al mismo sitio: no llega al 25%."
+  },
+
+  "TIR_ESPERADA": {
+    "metodo": "Comprar hoy el EV a 24,0x owner earnings, cobrar los owner earnings de la senda defendible durante 10 anios (distribuibles integros: el capital invertido neto en el negocio es negativo, no hay que retener nada) y salir al multiplo indicado. Luego mezclar con la cartera financiera (22,2% del precio) a un 4% supuesto.",
+    "TIR_del_NEGOCIO_JPY": {
+      "salida_14x_OE": {"auditada_pct": 7.7, "en_curso_pct": 9.2},
+      "salida_17x_OE": {"auditada_pct": 9.2, "en_curso_pct": 10.7},
+      "salida_20x_OE": {"auditada_pct": 10.6, "en_curso_pct": 12.0},
+      "salida_24x_OE_el_de_hoy": {"auditada_pct": 12.1, "en_curso_pct": 13.6}
+    },
+    "TIR_DEL_ACCIONISTA_JPY_mezclada_con_la_cartera": {
+      "salida_14x": {"auditada_pct": 6.9, "en_curso_pct": 8.0},
+      "salida_17x": {"auditada_pct": 8.1, "en_curso_pct": 9.2},
+      "salida_20x": {"auditada_pct": 9.1, "en_curso_pct": 10.3},
+      "salida_24x": {"auditada_pct": 10.3, "en_curso_pct": 11.5}
+    },
+    "RANGO_QUE_REPORTO": "+6,9% a +11,5% anual en YEN durante 10 anios; central ~9,5%",
+    "comparacion": "Frente a un JGB a 10 anios del 2,78%, es un exceso de 4 a 9 puntos. Es una rentabilidad razonable. No es una rentabilidad excepcional, y desde luego no es la que justifica saltarse un umbral de margen de seguridad.",
+    "AVISO_DE_DIVISA": "Todo lo anterior esta en YENES. Un inversor en USD anade encima una apuesta al yen que NO he modelado y que probablemente pese mas que la mitad de las decisiones de este expediente. A 163,71 JPY/USD el yen esta historicamente debil; si revirtiera hacia 130 en diez anios sumaria ~2,3 puntos anuales en USD, y si siguiera debilitandose los restaria. Ni lo se ni lo pretendo."
+  },
+
+  "DETECTOR_DE_TRAMPA_DE_VALOR": {
+    "veredicto": "NO",
+    "motivo": "Un margen de seguridad grande sobre un motor que se rompe no es una oportunidad. Aqui ni hay margen grande ni hay motor roto. La evidencia de que el motor NO se esta rompiendo es primaria y reciente: Q1 del ejercicio en curso publicado el 22-jul-2026 con ventas +13,2%, beneficio operativo +15,7% y margen operativo SUBIENDO de 65,7% a 67,7%; el segmento recurrente (soporte, ya el 52,9% de las ventas) crece mas rapido (+15,5%) que el de proyectos (+11,8%); cero deuda por noveno anio; 32 ejercicios consecutivos de aumento del beneficio operativo; y la propia direccion reitero la guia sin tocarla. No hay deterioro de cobros (clientes crecen menos que las ventas), no hay capitalizacion agresiva (el capex esta POR DEBAJO de la amortizacion), no hay adquisiciones que maquillen crecimiento, no hay dilucion (hay amortizacion de acciones).",
+    "lo_que_SI_hay_y_no_es_trampa_pero_es_coste": "Una cartera de 309.548 Mm de acciones japonesas y 194.287 Mm de depositos que la direccion no despliega. Diluye el ROE del negocio (infinito sobre capital negativo) hasta el 15,8% consolidado. Es un coste real para el accionista, no un fraude, y esta corrigiendose (recompra multiplicada por 5.000 en un ejercicio).",
+    "el_riesgo_QUE_SI_es_real_y_no_puedo_cerrar": "El eslabon G4 congelado. La peor contraccion documentada de OBIC fue -2,3% de ventas CON el beneficio operativo subiendo +7,5% — es decir, la empresa NUNCA ha sido examinada en una recesion de inversion en sistemas de verdad. Su base de coste es casi enteramente personal fijo formado en casa, que es exactamente el tipo de coste que no se puede recortar en Japon. No tengo forma de valorar ese escenario porque no existe en el registro. Por eso el veredicto es NO trampa, pero el M* lleva descuento.",
+    "sospecha_menor": "El precio subio +9,0% en dos sesiones sin que yo haya identificado el hecho relevante que lo explica. No es una senal de trampa; es una senal de que estoy midiendo contra un precio recien movido."
+  },
+
+  "VEREDICTO_DEL_EJE_PRECIO": {
+    "salida": "NO ABRIR — el margen de seguridad no llega al umbral",
+    "aritmetica_de_la_decision": "PRESUNTA fuera de cartera exige 25% de MoS para abrir. Al WACC central de 8,43% obtengo 9,5% (base auditada) y 17,1% (base en curso). Bajo la disciplina de M*=20x obtengo -15,0% y -5,9%. Ninguna de las cuatro cifras llega al 25%. El unico escenario en que llega es el WACC de 6,38%, que es mi propia regresion de beta con R2 de 0,12 — es decir, el escenario que depende de la pieza de evidencia mas debil de todo el expediente.",
+    "lo_que_NO_estoy_diciendo": "No estoy diciendo que sea un mal negocio. Es un negocio extraordinario y el eje calidad ya lo dijo. Tampoco estoy diciendo que este caro en terminos absolutos: al WACC central el mercado exige un 6,0% de crecimiento a diez anios a una empresa que crece al 10,9% y guia al 10,0%, y eso es un listón bajo. Estoy diciendo exactamente una cosa: no puedo demostrar 25 puntos de colchon, y el umbral no se negocia a posteriori.",
+    "precio_al_que_esto_cambiaria": "P* = 2.980 JPY / 18,20 USD (base auditada) o 3.234 JPY / 19,75 USD (base en curso). Es decir, una caida del 29-35% desde 4.568 JPY. Alternativamente: si el ejercicio en curso bate la guia y los owner earnings del proximo auditado aterrizan cerca de 71.100 Mm, el mismo P* subiria a ~3.234 JPY sin que el precio se mueva.",
+    "que_vigilaria": [
+      "El hecho relevante que explica el salto de precio del 27-jul-2026, que no he localizado.",
+      "El Q2 (previsto finales de octubre de 2026): si el margen operativo sigue por encima del 67% y las ventas por encima del 12%, la base en curso se consolida y P* sube.",
+      "La plantilla del proximo YUHO. Si la contratacion se acelera por encima del 2,4%, el techo fisico que sostiene mi decaimiento de la g se afloja y mi g defendible sube.",
+      "La politica de capital: si la recompra de 31.411 Mm se repite o crece, el 22,2% de activos financieros muertos empieza a convertirse en retorno y el M* deberia subir.",
+      "El JGB a 10 anios. En 2,78% y subiendo, cada 50 pb mas se lleva ~8% del valor por accion por la via del WACC."
+    ]
+  },
+
+  "HUECOS_DECLARADOS": [
+    "BETA — el hueco que manda. Mi regresion propia da 0,491 (R2=0,116, n=262, semanal 5a vs 1306.T) y el bottom-up sectorial de Damodaran para Japon da 1,87 en beta operativa corregida por caja. La diferencia vale 7,1 puntos de WACC y mueve el valor por accion de 3.696 a 7.625 JPY. Elijo 1,10 con banda 0,70-1,60 y lo declaro como la incertidumbre dominante del expediente, mayor que todo lo demas junto.",
+    "COSTE DE LA DEUDA NO OBSERVABLE — no existe la linea de intereses pagados en la cuenta de resultados ni ninguna linea de deuda financiera en el balance. Uso un sintetico de 3,28%. Peso 0%, efecto cero en el WACC, pero el candado exige declararlo y queda declarado.",
+    "TASA LIBRE DE RIESGO DE FUENTE SECUNDARIA — 2,78% de tradingeconomics fechado 2026-07-28. El CSV oficial del Ministerio de Hacienda japones (mof.go.jp .../jgbcm.csv) devolvio 404 tras un muro Incapsula. INFERENCIA, no HECHO.",
+    "REPARTO DEL IMPUESTO PAGADO — la empresa no desglosa como se reparten los 27.363 Mm de impuestos pagados entre el negocio operativo y la renta de la cartera financiera. Mi estimacion de 2.013 Mm de reasignacion es INFERENCIA y deja los owner earnings operativos con una banda de +-1,5%.",
+    "IMPUESTO DIFERIDO A 2026-06-30 — 52.723 Mm derivado de la narrativa del Q1 ('繰延税金負債が67億98百万円減少'), no leido de una linea del balance trimestral, que no desglosa el pasivo no corriente. INFERENCIA.",
+    "LA REINVERSION DEL 6,8% DE LA FICHA CONGELADA NO SE RECONCILIA CON EL FILING — veo capex 2.286 + I+D 2.956 = 3,88% de ventas. Si el 3,9% fuera el correcto, la g mecanica del encargo caeria de 14,1% a 8,1%. Mi g defendible (7,38% CAGR) no depende de esa cifra porque la ancle en el crecimiento observado de ventas, pero el hueco queda.",
+    "SALTO DE PRECIO SIN EXPLICAR — +9,0% en dos sesiones (4.192 el 24-jul, 4.568 el 28-jul) sin que haya localizado el hecho relevante. Todo MoS de este expediente esta medido contra ese precio. Al precio del 24-jul los MoS suben unos 8 puntos y la base en curso rozaria el umbral.",
+    "DIVISA NO MODELADA — todo el analisis es en yenes. La conversion a USD a 163,71 es una foto. Un tenedor en USD anade una apuesta al yen a diez anios que no he modelado y que puede pesar mas que la mitad de las decisiones de aqui.",
+    "SIN MEDICION PROPIA DEL RUIDO DE LA ETIQUETA — no he medido test-retest de la banda PRESUNTA. Acepto la etiqueta congelada como dada, incluido su umbral del 25%.",
+    "NO HE LEIDO TRANSCRIPCIONES — OBIC celebra 決算説明会 pero no publica transcripcion en ingles ni japones en la web de RI que revise. Todo el juicio sobre la intencion de la direccion (politica de capital, techo de contratacion) sale de los documentos escritos, no de sus palabras."
+  ]
+}

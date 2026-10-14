@@ -1,0 +1,42 @@
+{
+ "ticker": "CFR.SW",
+ "currency": "CHF",
+ "current_price": 182.3,
+ "name": "Compagnie Financiere Richemont SA",
+ "wacc_pct": 7.45,
+ "wacc_components": {
+  "rf_pct": 1.2,
+  "erp_pct": 5,
+  "beta": 1.25,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base ~EUR 3,740M (FY26 reported FCF ~EUR 3.8B = CFO EUR 4,880M less ~EUR 1.0-1.1B capex, minus 100% of SBC ~EUR 60M). In CHF ~5.28B. SBC is minimal at Richemont (Swiss family-controlled group, share-based payment well under ~1% of revenue), so the owner-earnings haircut is immaterial (~1.6% of FCF) — unlike US tech. Owner FCF yield ex-cash ~5.5% at current price.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 6.5,
+  "rev_cagr_y6_10_pct": 3.5,
+  "terminal_g_pct": 2.8,
+  "fcf_margin_terminal_pct": 17,
+  "sbc_treatment": "100% de la SBC tratada como gasto en efectivo (deducida del FCF). SBC ~EUR 60M (~0.27% de ingresos) -> impacto inmaterial; Richemont usa compensacion en acciones minima (grupo familiar suizo, acciones B Rupert).",
+  "shares_diluted_b": 0.59,
+  "net_debt_usd_b": -9.7
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 209,
+   "prob": 0.375,
+   "note": "Division relojera debil persiste (Specialist Watchmakers margen 3.4%), China/Asia floja y normalizacion del ciclo del lujo tras un FY26 record. CAGR ingresos 3.5% anios 1-5, decel a 2.0% anios 6-10, g terminal 2.5%. Base de owner FCF rebajada ~3% (pico ciclico). Aun ~+15% sobre precio: el balance neto-caja (EUR 8.5B) y el bajo Rf suizo sostienen el valor incluso en supuestos pesimistas no apocalipticos."
+  },
+  "base": {
+   "iv_per_share": 270,
+   "prob": 0.475,
+   "note": "Consistente con track record: Jewellery Maisons (Cartier/VCA, ~30% margen, +14% cc) siguen liderando, relojeria estabiliza. CAGR ingresos 6.5% anios 1-5, decel a 3.5% anios 6-10, g terminal 2.8%. TV ~67% del PV. VI CHF 270 (~+48% vs precio). El sesgo alcista viene mas del bajo WACC suizo (7.45%) que de crecimiento agresivo."
+  },
+  "optimista": {
+   "iv_per_share": 337,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: momentum sostenido en joyeria de alta gama, recuperacion de relojeria, expansion de margen y poder de fijacion de precios del foso de marca. CAGR ingresos 9.5% anios 1-5, 5.0% anios 6-10, g terminal 3.0%."
+  }
+ },
+ "sanity_check": "Contraste de valoracion: a CHF 182.30 la accion cotiza a P/E fwd ~28.2x (vs media 5a ~22.5x, prima ~+25%) y PEG 2.17 — RICA frente a su historia y a lujo europeo (~19x), cerca de maximos historicos tras un FY26 record (ventas EUR 22,420M +11% cc, op margin 20.0%, beneficio EUR 3,484M). Rendimiento al accionista (NO DDM): dividendo ordinario propuesto CHF 3.30 (~1.81%) + dividendo especial CHF 1.00 -> yield total ~2.36%; recompra historicamente baja (grupo familiar, prioriza dividendos y balance fortaleza). Owner FCF yield ex-caja ~5.5%. El DCF de owner earnings da VI ponderada ~CHF 257 (+41%), pero ese margen depende fuertemente del bajo Rf suizo (1.2%) que comprime el WACC a 7.45%; los multiplos de mercado dicen lo contrario (accion plena/cara). Resolucion: calidad y neto-caja justifican prima, pero el upside del DCF es sensible al discount rate, no a hipotesis de crecimiento heroicas (base decel a 2.8% terminal).",
+ "method_notes": "DCF owner-earnings 10 anios en EUR convertido a CHF/accion. FX EUR/USD 1.14, USD/CHF 1.238 -> EUR/CHF ~1.411. Acciones diluidas ~0.590B. Neto-caja EUR 8,496M sumado al equity. WACC = Rf Suiza 1.2% + ERP 5.0% x beta 1.25 = 7.45%, sin ajuste geopolitico. Fase 1 CAGR explicito, Fase 2 declinante, TV Gordon g 2.5-3.0%. Owner FCF = FCF ~EUR 3.8B - 100% SBC ~EUR 60M. LIMITACIONES: FCF, margen FCF y SBC son estimados; SBC inmaterial dado perfil familiar suizo. Upside dominado por bajo WACC suizo; multiplos (28x fwd) sugieren valoracion plena cerca de maximos."
+}

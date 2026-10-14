@@ -1,0 +1,111 @@
+{
+ "ticker": "WST",
+ "name": "West Pharmaceutical Services, Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 329.71,
+ "market_cap_usd_b": 23.29,
+ "fwd_pe": 37.84,
+ "fwd_pe_5y_avg": 44.71,
+ "pe_prem_disc_pct": -15.4,
+ "peg": 2.84,
+ "last_q": {
+  "period": "Q1 2026 (ended 2026-03-31)",
+  "revenue": "$844.9M",
+  "rev_yoy_pct": 21,
+  "op_margin_pct": 21,
+  "eps_gaap": "$1.92",
+  "eps_adj": "$2.13"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended 2025-12-31)",
+  "revenue": "$3.074B",
+  "organic_growth_pct": 4.3,
+  "roic_pct": 17.8,
+  "fcf": "$468.9M",
+  "fcf_margin_pct": 15.25
+ },
+ "sbc_pct_revenue": 0.77,
+ "sbc_pct_fcf": 5.08,
+ "net_debt_usd_b": -0.2,
+ "nd_ebitda": -0.23,
+ "net_cash": true,
+ "guidance_fy": "FY2026 (raised at Q1): net sales $3.295B-$3.350B; organic revenue growth 7%-9%; adjusted-diluted EPS $8.40-$8.75. Assumes mid-year close of SmartDose 3.5mL divestiture to AbbVie and ~2pts FX tailwind. (PROYECCION de la direccion)",
+ "pct_off_52w_high": -2.1,
+ "pct_off_ath": -30.6,
+ "drop_classification": "not_depressed",
+ "data_quality": "VERIFICADO_mostly",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "guidance_fy",
+  "net_debt_usd_b",
+  "net_cash"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "drop_classification"
+ ],
+ "sources": [
+  {
+   "label": "SEC EDGAR 8-K Q1 2026 Earnings Release (exh99.1)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000105770/000010577026000047/exh991q12026earningsrelease.htm",
+   "date": "2026-04-23"
+  },
+  {
+   "label": "SEC EDGAR FY2025 10-K (wst-20251231)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000105770/000010577026000010/wst-20251231.htm",
+   "date": "2026-02"
+  },
+  {
+   "label": "SEC EDGAR XBRL API - ShareBasedCompensation FY2025 = $23.8M; NetIncome $493.7M; OperatingIncome $584.9M",
+   "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000105770/us-gaap/ShareBasedCompensation.json",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockTitan - WST FY2025 results & 2026 guidance, and Q1 2026 8-K",
+   "url": "https://www.stocktitan.net/sec-filings/WST/8-k-west-pharmaceutical-services-inc-reports-material-event-e55514615e94.html",
+   "date": "2026-02-12"
+  },
+  {
+   "label": "StockAnalysis.com - WST price, market cap, fwd P/E, 52w range",
+   "url": "https://stockanalysis.com/stocks/wst/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com - WST statistics (PEG, cash, debt, EBITDA, net cash)",
+   "url": "https://stockanalysis.com/stocks/wst/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "FullRatio - WST PE ratio 5-year average (TTM proxy 44.71)",
+   "url": "https://fullratio.com/stocks/nyse-wst/pe-ratio",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "GuruFocus - WST ROIC ~17.8%",
+   "url": "https://www.gurufocus.com/term/roic/WST",
+   "date": "2026-06-22"
+  }
+ ],
+ "notes": "Acciones VERIFICADAS de fuentes primarias SEC EDGAR (8-K Q1 2026, 10-K FY2025, XBRL API). SBC FY2025 = $23.8M (EDGAR XBRL, us-gaap:ShareBasedCompensation), sobre ingresos $3.074B = 0.77% y sobre FCF $468.9M = 5.08% — dilucion por SBC MUY BAJA, favorable para R9. Posicion de CAJA NETA: caja $521.4M vs deuda $321.0M = +$200.4M caja neta (net_debt -$0.2B); ND/EBITDA negativo (-0.23x). ROIC ~17.8% es ESTIMADO (GuruFocus); calculo propio NOPAT/IC concuerda (~17%). fwd_pe_5y_avg (44.71) es la MEDIA DE PE TTM a 5 anios de FullRatio usada como PROXY del fwd-PE historico — no es estrictamente el fwd-PE medio; pe_prem_disc_pct (-15.4%) debe interpretarse con cautela (compara fwd-PE actual 37.84x contra media TTM 44.71x). PEG 2.84 (StockAnalysis). DROP_CLASSIFICATION = not_depressed: la accion cotiza a solo -2.1% de su maximo 52 semanas ($336.82) tras un Q1 2026 muy fuerte (+21% ventas, +15.3% organico, margen op. ajustado +350pb a 21.4%) y SUBIDA de guia FY2026. No hay desplome; ~-31% vs ATH historico (~$475 de 2021) refleja la correccion ya superada, no una caida actual. Guia FY2026 es PROYECCION de la direccion. Cap. bursatil $23.29B (70.65M acciones x $329.71)."
+}

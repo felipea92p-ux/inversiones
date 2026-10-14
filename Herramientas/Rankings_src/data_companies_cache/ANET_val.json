@@ -1,0 +1,48 @@
+{
+ "ticker": "ANET",
+ "name": "Arista Networks, Inc.",
+ "currency": "USD",
+ "price_verified": 174.56,
+ "price_source": "StockAnalysis.com (closing price, cross-checked vs Yahoo/Investing.com); shares from Q1 FY2026 10-Q",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 1.27,
+ "implied_mcap_b_usd": 221.7,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 10.65,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.27,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF (FY2025) = reported FCF $4.252B - 100% SBC (~$0.35B; SBC 7.4% of FCF / 4.5% of revenue) = ~$3.90B base. Net cash $12.35B added to EV. 1.27B diluted shares.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 85.3,
+   "prob": 0.38,
+   "note": "Phase1 (yr1-5) 14% CAGR, Phase2 declining 10%->4%, g=3.0%. Reasonable-pessimist: AI buildout digestion / hyperscaler capex normalization slows growth but no collapse; ANET keeps net-cash balance sheet and high margins."
+  },
+  "base": {
+   "iv_per_share": 126,
+   "prob": 0.47,
+   "note": "Phase1 22% CAGR (in line with mgmt ~27-28% FY26 framework tapering), Phase2 16%->5%, g=3.0%. AI/cloud + campus/enterprise share gains continue, FCF margin ~45-47% sustained."
+  },
+  "optimista": {
+   "iv_per_share": 168.35,
+   "prob": 0.15,
+   "note": "Phase1 28% CAGR, Phase2 20%->6%, g=3.0%. AI revenue target ($3.5B+) overdelivers, Ethernet displaces InfiniBand broadly, enterprise/campus accelerates."
+  }
+ },
+ "iv_dcf_weighted": 116.89,
+ "multiple_metric": "P/E adelantado (forward non-GAAP EPS)",
+ "fwd_multiple_now": 44.96,
+ "fwd_multiple_5y_avg": 41.96,
+ "fair_multiple": 38,
+ "multiple_rationale": "Anchor to 5y avg fwd P/E (41.96x) with a modest ~9% haircut to 38x. No structural deterioration — ANET is a high-ROIC, net-cash, share-gaining franchise riding AI/cloud Ethernet. Haircut reflects (a) law of large numbers at ~$220B mcap with growth decelerating from 35% toward high-20s/20s, (b) customer concentration in a few hyperscalers, and (c) AI-capex cyclicality risk — all of which argue for a multiple slightly below the recent richer-tape average rather than at/above it. Forward FY2026 non-GAAP EPS ~$3.88 (price/fwd P/E). iv_multiple = 3.88 x 38 = $147.44.",
+ "iv_multiple": 147.44,
+ "weight_dcf": 0.45,
+ "weight_multiple": 0.55,
+ "reconciled_iv": 133.69,
+ "structural_change": "Ninguno negativo — al contrario, tendencia estructural favorable. ANET es beneficiario primario del gasto en infraestructura de IA/cloud (Ethernet desplazando a InfiniBand), gana cuota en data-center switching de alta velocidad (400G/800G) y expande hacia campus/enterprise y routing. Balance con caja neta ($12.35B), margen FCF ~47%, márgenes operativos no-GAAP ~46-48%. El único matiz es la concentración en pocos hiperescaladores y la ciclicidad del capex de IA, que justifican un haircut de multiplo (no un deterioro estructural).",
+ "sanity_notes": "Precio $174.56 verificado en StockAnalysis.com (cierre 22-jun-2026), consistente con Yahoo/Investing ($169.67 el 20-jun). Acciones diluidas ~1.27B (10-Q Q1 FY2026 weighted-avg 1,273.8M; recuento básico actual ~1.26B). Implied mcap = 174.56 x 1.27 = $221.7B USD, coincide con la escala conocida (~$220B) -> mcap_sanity_ok=true. ANET hizo split 4-por-1 a finales de 2025; precio/EPS ya ajustados por split, mcap es el cross-check fiable. WACC=10.65% (Rf 4.3% + ERP 5.0% x beta 1.27). Owner FCF base ~$3.9B (FCF $4.252B - SBC ~$0.35B). Las 3 IV por accion ($85-$168) caen dentro del rango 30-300% del precio -> sin error de unidades/moneda/acciones. El DCF puro ($116.89) queda por debajo del ancla de multiplo ($147.44) porque infra-acredita el reinvertir a ROIC alto, por eso se pondera mas el multiplo (0.55). reconciled_iv=$133.69, ~23% por DEBAJO del precio actual -> ANET cotiza a prima sobre el valor intrinseco (no_depressed, ~3% del maximo historico). Pesos 0.45/0.55: compounder probado y estable (favorece multiplo) pero con alto crecimiento y ciclicidad de capex de IA (impide ir a 0.35/0.65)."
+}

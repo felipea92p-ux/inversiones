@@ -1,0 +1,312 @@
+{
+  "ticker": "SNPS",
+  "empresa": "Synopsys, Inc.",
+  "cik": "0000883241",
+  "domicilio": "EEUU (Delaware; sede en Sunnyvale, CA) — Nasdaq Global Select Market",
+  "divisa_reporte": "USD",
+  "ejercicio_fiscal": "Cierra el 31 de octubre. Ultimo AUDITADO = FY2025 (1-nov-2024 a 31-oct-2025). EN CURSO = FY2026 (cierra 31-oct-2026), con Q1 y Q2 publicados y Q3 aun sin publicar.",
+  "fecha_valoracion": "2026-07-28",
+  "etiqueta_calidad_congelada": "MUY_BUENA (4 puertas pasadas)",
+  "etiqueta_reclasificada": "NO. La etiqueta no se toca. Nada de lo hallado en el precio la mueve hacia arriba, y lo hallado en el precio tampoco es motivo para bajarla: solo el eje calidad decide eso.",
+  "especie": "G2 — reinversion 42,53% de ventas · ROIIC bruto 7,16% · ROIIC ex-margen 3,95% (CONGELADO, no re-auditado en esta fase)",
+  "mos_exigido_pct": 30.0,
+  "mos_exigido_motivo": "Umbral de ABRIR para la banda MUY_BUENA. La empresa NO esta en cartera, luego no aplica el escalon de CARGAR (+12 puntos, que la llevaria al 40%).",
+
+  "precio": {
+    "precio_usd": 390.15,
+    "fuente": "IBKR market data snapshot, ultimo negociado 390,15 USD, marca de tiempo 2026-07-27 (NASDAQ, contract_id 274499), consultado 2026-07-28. Bid 385,38 / Ask 395,74.",
+    "rango_52s_usd": [366.00, 651.73],
+    "caida_desde_maximo_52s_pct": -40.1,
+    "variacion_ytd_pct": -16.94,
+    "vol_anual_historica_pct": 43.4,
+    "etiqueta": "HECHO (dato vivo de mercado, no memoria)",
+    "ADS": "No aplica. Accion ordinaria domestica de EEUU, 1 accion = 1 accion. No hay conversion de divisa."
+  },
+
+  "acciones_y_capitalizacion": {
+    "acciones_en_circulacion_mm": 191.479325,
+    "fuente_acciones": "Portada del 10-Q Q2 FY2026 (dei:EntityCommonStockSharesOutstanding a 2026-05-22) = 191.479.325 acciones. HECHO.",
+    "acciones_diluidas_FY2026e_mm": 193.0,
+    "fuente_acciones_diluidas": "8-K 2026-05-27 Ex-99.1, 'Shares used in non-GAAP calculation (midpoint of target range)' = 193.000 miles. HECHO.",
+    "nota_salto_acciones": "El recuento salto de 155,2 mm (may-2025) a 185,7 mm (sep-2025) por la parte en acciones de la contraprestacion de Ansys (0,3399 acciones SNPS por accion ANSS). Es dilucion por adquisicion, no por SBC.",
+    "capitalizacion_usd_mm": 74706,
+    "deuda_financiera_contable_usd_mm": 10035.962,
+    "deuda_financiera_valor_mercado_usd_mm": 10100,
+    "fuente_valor_mercado_deuda": "10-Q Q2 FY2026: 'Based on the trading prices of the Senior Notes, the fair value of our Senior Notes was $10.0 billion as of April 30, 2026' (Nivel 2). Sumo el pago diferido del treasury lock (~110,6 MUSD) y otros prestamos (~13 MUSD) a valor contable. HECHO + INFERENCIA menor.",
+    "caja_y_equivalentes_usd_mm": 2412.472,
+    "inversiones_corto_plazo_usd_mm": 71.966,
+    "deuda_neta_usd_mm": 7616,
+    "ev_usd_mm": 82321,
+    "fuente_balance": "10-Q Q2 FY2026 (accession 0000883241-26-000018, snps-20260430.htm), balance a 30-abr-2026, via XBRL companyfacts. HECHO.",
+    "nota_leases": "Pasivo por arrendamiento operativo de 806,0 MUSD a 30-abr-2026 NO incluido en la deuda neta. Incluirlo subiria el EV un 1,0% — dentro del ruido.",
+    "nota_desapalancamiento": "En Q1 FY2026 amortizaron los Term Loans (3.450 MUSD): la deuda bruta cayo de 13.573,7 MUSD (31-oct-2025) a 10.111,7 MUSD (30-abr-2026). La estructura viva es 10.000 MUSD de bonos senior a tipo FIJO."
+  },
+
+  "candado_B_wacc": {
+    "principio": "WACC bottom-up de mercado. PROHIBIDO heredarlo de un tier de calidad. Ningun input de aqui viene de la etiqueta MUY_BUENA.",
+    "tasa_libre_riesgo_pct": 4.64,
+    "fuente_rf": "Bono del Tesoro de EEUU a 10 anos, 4,64% el 2026-07-27 (Trading Economics, US 10Y Government Bond Yield; segunda fuente da 4,63%). Moneda funcional USD. INFERENCIA — fuente secundaria de mercado, no filing.",
+    "beta": 1.241,
+    "fuente_beta": "Calculo propio: regresion de 60 rendimientos MENSUALES de SNPS contra SPY (S&P 500), de ago-2021 a jul-2026, con barras mensuales descargadas de IBKR el 2026-07-28. Beta bruta = 1,241 (R2 = 0,323; vol anual SNPS 35,0% vs SPY 16,0%). Beta 3 anos = 1,279. Beta 2 anos = 1,442. Beta ajustada Blume (0,67b+0,33) = 1,161. Central adoptada 1,241; rango 1,16-1,44. INFERENCIA (calculo propio sobre precios).",
+    "prima_riesgo_mercado_pct": 4.42,
+    "fuente_erp": "Damodaran, actualizacion de primas por pais de JULIO 2026 (S&P 500 en 7.499,36 el 1-jul-2026): ERP implicita de EEUU 4,42%; prima de mercado maduro 4,20% tras netear el diferencial de impago Aa1 de 0,22%. HECHO citado de la actualizacion; INFERENCIA en cuanto a que accedi a traves de resumenes de la tabla, no al workbook completo.",
+    "prima_pais_pct": 0.27,
+    "fuente_crp": "Ponderacion por riesgo de ACTIVO usando la mezcla geografica de ingresos del 10-K FY2025 (Nota 19): EEUU 3.100,1 MUSD (43,9%) al 4,42%; Europa 888,5 (12,6%) al 4,70%; China 814,3 (11,5%) al 5,18% (cifra citada de Damodaran jul-2026); Corea 947,0 (13,4%) al 4,70%; Otros 1.304,2 (18,5%) al 5,00%. ERP ponderada resultante = 4,688%, es decir +0,27 pp sobre la ERP de EEUU. Los ERP de Europa, Corea y 'Otros' son INFERENCIA (no pude leer sus filas exactas del workbook de julio 2026).",
+    "erp_total_usada_pct": 4.69,
+    "coste_deuda_pct": 5.22,
+    "coste_deuda_derivacion": "Media ponderada por principal de las TASAS EFECTIVAS declaradas en la Nota 10 del 10-K FY2025 para los 10.000 MUSD de bonos senior emitidos el 17-mar-2025: 1.000 al 4,840% (2027) + 1.000 al 4,850% (2028) + 2.000 al 4,980% (2030) + 1.500 al 5,150% (2032) + 2.400 al 5,270% (2035) + 2.100 al 5,800% (2055) = 5,220%. Los Term Loans (5,39% y 5,48%) ya estan amortizados. HECHO — sale directo de la tabla del filing.",
+    "coste_deuda_cotejo": "Cotejo independiente: gasto financiero FY2025 de 446,729 MUSD sobre deuda media estimada de ~9.010 MUSD = 4,96%. H1 FY2026: 296,079 MUSD sobre deuda media de 11.842,7 MUSD = 5,00% anualizado. Los tres metodos convergen en ~5,0-5,2%.",
+    "tasa_impositiva_pct": 18.0,
+    "fuente_tasa": "Tasa efectiva no-GAAP guiada por la empresa para FY2026 = 18,0% (8-K 2026-05-27). Tasa efectiva GAAP H1 FY2026 = 17,0%. FY2025 GAAP = 55,991/1.393,142 = 4,0% (distorsionada por creditos y ajustes de la fusion). Uso 18% como marginal.",
+    "coste_deuda_despues_impuestos_pct": 4.28,
+    "coste_capital_propio_pct": 10.46,
+    "peso_equity_pct": 88.09,
+    "peso_deuda_pct": 11.91,
+    "wacc_pct": 9.72,
+    "wacc_rango": "8,97% - 11,33%",
+    "wacc_rango_derivacion": "Bajo: beta 1,16, Rf 4,50%, ERP 4,40% -> Ke 9,60% -> WACC 8,97%. Alto: beta 1,44, Rf 4,80%, ERP 5,20% -> Ke 12,29% -> WACC 11,33%."
+  },
+
+  "base_auditada_FY2025": {
+    "fuente": "10-K FY2025 presentado 2025-12-22, accession 0000883241-25-000028, documento snps-20251031.htm; y XBRL companyfacts CIK0000883241. Todo HECHO salvo indicacion.",
+    "advertencia_de_contaminacion": "Esta base esta CONTAMINADA por tres cosas a la vez y no representa el negocio normalizado: (1) solo 3,5 meses de Ansys dentro del perimetro (cerro el 17-jul-2025, aporto 756,6 MUSD de ingresos); (2) 924,9 MUSD de 'otros ingresos, neto' generados en buena parte por el interes de un colchon de caja de 14.119 MUSD que existia el 30-abr-2025 para pagar Ansys y que ya NO existe; (3) el paron de exportaciones a China del Q3 2025 (BIS), con China cayendo un 22% interanual ex-Ansys. Reportarla es obligatorio; apoyarse en ella seria un error.",
+    "ingresos_usd_mm": 7054.178,
+    "resultado_operativo_usd_mm": 914.927,
+    "gasto_financiero_usd_mm": 446.729,
+    "otros_ingresos_neto_usd_mm": 924.944,
+    "beneficio_antes_impuestos_usd_mm": 1393.142,
+    "beneficio_neto_atribuido_usd_mm": 1332.220,
+    "flujo_caja_operativo_usd_mm": 1518.608,
+    "capex_ppe_usd_mm": 169.454,
+    "depreciacion_ppe_usd_mm": 171.9,
+    "DyA_total_usd_mm": 660.430,
+    "SBC_usd_mm": 893.294,
+    "I_mas_D_usd_mm": 2479.338,
+    "caja_31_10_2025_usd_mm": 2888.030,
+    "deuda_bruta_31_10_2025_usd_mm": 13484.515,
+    "fondo_comercio_usd_mm": 26899.215,
+    "intangibles_netos_usd_mm": 12679.591,
+    "activo_total_usd_mm": 48224.461,
+    "backlog_31_10_2025_usd_mm": 11400,
+    "backlog_no_cancelable_FSA_usd_mm": 2000,
+    "owner_earnings_mantenimiento_usd_mm": 1346.7,
+    "owner_earnings_mantenimiento_calculo": "OCF 1.518,608 - depreciacion de PP&E 171,9 (proxy de capex de mantenimiento). Aqui el capex total (169,5) es MENOR que la depreciacion (171,9): Synopsys NO reinvierte en inmovilizado material. Su reinversion vive en I+D (2.479 MUSD) y en M&A (34.900 MUSD por Ansys), que el metodo no resta. Por eso el ajuste 'no penalizar al reinversor' no le da ninguna ventaja: los dos owner earnings salen practicamente iguales.",
+    "owner_earnings_capex_total_usd_mm": 1349.2,
+    "owner_earnings_capex_total_calculo": "OCF 1.518,608 - capex total 169,454 = FCF puro.",
+    "owner_earnings_desapalancado_mantenimiento_usd_mm": 954.6,
+    "owner_earnings_desapalancado_calculo": "1.346,7 - (otros ingresos netos no operativos 478,215) x (1-18%) = 954,6. El resultado no operativo NETO de FY2025 fue POSITIVO en 478,2 MUSD (otros ingresos 924,9 menos gasto financiero 446,7): la caja de la guerra de Ansys genero mas interes del que costo la deuda. Es un ingreso que no se repite.",
+    "owner_earnings_mantenimiento_ex_SBC_usd_mm": 453.4,
+    "owner_earnings_desapalancado_ex_SBC_usd_mm": 61.3
+  },
+
+  "base_en_curso_FY2026e": {
+    "fuente": "8-K 2026-05-27, Ex-99.1 (d126227dex991.htm) — resultados Q2 FY2026 y guia FY2026 elevada; 10-Q Q2 FY2026 presentado 2026-05-27 (accession 0000883241-26-000018). H1 real + guia oficial de la empresa. HECHO.",
+    "publicado_H1_FY2026": {
+      "ingresos_usd_mm": 4684.783,
+      "resultado_operativo_GAAP_usd_mm": 323.472,
+      "beneficio_neto_GAAP_usd_mm": 82.063,
+      "beneficio_neto_no_GAAP_usd_mm": 1362.203,
+      "flujo_caja_operativo_usd_mm": 1485.766,
+      "capex_ppe_usd_mm": 89.518,
+      "DyA_total_usd_mm": 907.177,
+      "amortizacion_intangibles_adquiridos_usd_mm": 807.866,
+      "SBC_usd_mm": 481.027,
+      "cargos_reestructuracion_usd_mm": 234.176,
+      "gasto_financiero_usd_mm": 296.079
+    },
+    "guia_FY2026_empresa": {
+      "ingresos_usd_mm": "9.625 - 9.705 (punto medio 9.665; +37% interanual)",
+      "flujo_caja_operativo_usd_mm": "~2.300",
+      "flujo_caja_libre_usd_mm": "~2.000",
+      "capex_usd_mm": "~300",
+      "BPA_diluido_GAAP_usd": "2,49 - 2,91 (medio 2,70)",
+      "BPA_diluido_no_GAAP_usd": "14,72 - 14,80 (medio 14,76)",
+      "SBC_usd_mm": "945 - 965 (medio 955)",
+      "amortizacion_intangibles_adquiridos_usd_mm": "1.610 - 1.620",
+      "reestructuracion_usd_mm": "200 - 250",
+      "interes_y_otros_no_GAAP_neto_usd_mm": "-495 a -485",
+      "tasa_impositiva_no_GAAP_pct": 18.0,
+      "acciones_diluidas_mm": 193.0,
+      "etiqueta": "HECHO (guia publicada por la empresa el 2026-05-27). Incluye 2.960 MUSD de ingresos esperados de Ansys."
+    },
+    "backlog_30_04_2026_usd_mm": 11000,
+    "backlog_no_cancelable_FSA_usd_mm": 1800,
+    "depreciacion_ppe_FY2026e_usd_mm": 200,
+    "depreciacion_FY2026e_etiqueta": "INFERENCIA — D&A total del H1 (907,177) menos amortizacion de intangibles adquiridos del H1 (807,866) = 99,3 MUSD, anualizado a ~200 MUSD. No hay desglose auditado de FY2026.",
+    "owner_earnings_mantenimiento_usd_mm": 2100.0,
+    "owner_earnings_mantenimiento_calculo": "OCF guiado 2.300 - depreciacion de PP&E 200. Aqui SI hay exceso de capex sobre depreciacion (300 vs 200): esos 100 MUSD son inversion discrecional y NO se restan.",
+    "owner_earnings_capex_total_usd_mm": 2000.0,
+    "owner_earnings_capex_total_calculo": "FCF guiado por la empresa = OCF 2.300 - capex 300 = 2.000. Es la propia definicion de la nota (2) del 8-K.",
+    "owner_earnings_desapalancado_mantenimiento_usd_mm": 2501.8,
+    "owner_earnings_desapalancado_capex_total_usd_mm": 2401.8,
+    "owner_earnings_desapalancado_calculo": "OE + interes y otros neto guiado (490 MUSD) x (1-18%) = OE + 401,8.",
+    "owner_earnings_mantenimiento_ex_SBC_usd_mm": 1145.0,
+    "owner_earnings_capex_total_ex_SBC_usd_mm": 1045.0,
+    "distancia_entre_bases": {
+      "OE_mantenimiento_pct": 55.9,
+      "OE_capex_total_pct": 48.2,
+      "lectura": "La base en curso esta un 48-56% por encima de la auditada. NO es ruido y NO es aceleracion organica: es casi enteramente PERIMETRO. FY2025 llevaba 3,5 meses de Ansys y FY2026 lleva doce (2.960 MUSD guiados frente a 756,6 reconocidos). El resto viene de sinergias de coste y de la reestructuracion en curso (200-250 MUSD de cargos este ano). Traducido: la distancia entre bases mide el momento de la INTEGRACION, no el momento del ciclo del negocio. Y hay un contrapeso en direccion opuesta que la base en curso no recoge — el backlog cayo de 11,4 mil M (31-oct-2025) a 11,0 mil M (30-abr-2026) mientras los ingresos crecian un 37%."
+    }
+  },
+
+  "dcf_inverso": {
+    "metodo": "Se descuenta el owner earnings DESAPALANCADO al WACC de mercado de 9,72%; 10 anos de crecimiento g, terminal 3% a perpetuidad; el valor asi obtenido se compara con el EV de hoy (82.321 MUSD) y se despeja la g que lo iguala exactamente.",
+    "wacc_usado_pct": 9.72,
+    "terminal_pct": 3.0,
+    "g_implicita_auditado_mantenimiento_pct": 26.33,
+    "g_implicita_auditado_capex_total_pct": 26.29,
+    "g_implicita_encurso_mantenimiento_pct": 13.22,
+    "g_implicita_encurso_capex_total_pct": 13.77,
+    "g_implicita_encurso_mantenimiento_ex_SBC_pct": 19.70,
+    "cross_check_apalancado": "Ruta alternativa (owner earnings APALANCADO descontado al coste del capital propio de 10,46% y comparado con la capitalizacion de 74.706 MUSD): g implicita auditada 22,0%, g implicita en curso 15,9% (mantenimiento) y 16,6% (capex total). Las dos rutas cuentan la misma historia; la desapalancada es la que reporto porque el esquema pide EV.",
+    "sensibilidad_wacc_base_encurso_mantenimiento": {
+      "wacc_8_97_pct": "g implicita 11,7%",
+      "wacc_9_72_pct": "g implicita 13,2%",
+      "wacc_11_33_pct": "g implicita 16,4%"
+    },
+    "lectura": "Sobre la base EN CURSO — la mas favorable de las dos, la que ya incorpora doce meses de Ansys y las sinergias — el precio de hoy exige que el owner earnings de Synopsys componga al 13,2% ANUAL durante DIEZ ANOS y luego se estabilice al 3%. Contraste: los ingresos crecieron un 15% en FY2024 y un 15% en FY2025, pero de ese 15% de FY2025 casi la mitad fue Ansys comprado, no crecimiento; el organico ex-Ansys fue de un digito medio con China cayendo un 22%. Y para que el owner earnings crezca al 13,2% con los ingresos creciendo menos, hace falta expansion de margen sostenida durante una decada. El ROIIC EX-MARGEN de 3,95% dice exactamente que eso es lo que no hay que dar por hecho. Sobre la base AUDITADA la exigencia sube al 26,3% anual, pero esa cifra vale poco: el denominador esta roto por perimetro y por los intereses de la caja de la guerra."
+  },
+
+  "g_defendible": {
+    "formula_mandada": "tasa de reinversion x ROIIC EX-MARGEN",
+    "reinversion_pct_ventas": 42.53,
+    "roiic_ex_margen_pct": 3.95,
+    "g_defendible_pct": 1.68,
+    "advertencia_dimensional": "HUECO DECLARADO Y MATERIAL, identico al que aparece en el expediente de CDNS y que afecta a TODA la especie G2. La reinversion viene expresada sobre VENTAS (42,53%), no sobre NOPAT. El producto literal 0,4253 x 0,0395 = 1,68% es un incremento de NOPAT medido sobre ventas, no una tasa de crecimiento del NOPAT. La formula canonica g = (reinversion/NOPAT) x ROIIC da, con NOPAT no-GAAP FY2026e = (9.665 - 5.700) x (1-18%) = 3.251 MUSD y reinversion = 0,4253 x 9.665 = 4.111 MUSD, una tasa de reinversion de 1,264 veces el NOPAT y por tanto g = 1,264 x 3,95% = 4,99%. Reporto 1,68% como cifra mandada por el metodo y 4,99% como escenario alternativo declarado. Con NOPAT GAAP (927 MUSD, aplastado por 1.615 MUSD de amortizacion de intangibles) la formula devuelve un absurdo del 17,5%; la descarto por construccion. NINGUNA de las tres justifica el precio.",
+    "anomalia_terminal": "Con g mandada de 1,68% a diez anos y terminal del 3% a perpetuidad, el negocio crece MAS DESPACIO en la decada explicita que en la perpetuidad. Es incoherente y JUEGA A FAVOR del precio: el 3% terminal es un regalo que el motor del negocio no ha ganado. Lo mantengo porque el metodo lo manda, y lo declaro porque infla el valor intrinseco.",
+    "valoracion_con_g_1_68_pct": {
+      "auditado_mantenimiento_valor_accion_usd": 29.5,
+      "auditado_capex_total_valor_accion_usd": 29.7,
+      "encurso_mantenimiento_valor_accion_usd": 141.8,
+      "encurso_capex_total_valor_accion_usd": 134.5,
+      "mos_auditado_mantenimiento_pct": -1222.6,
+      "mos_encurso_mantenimiento_pct": -175.2,
+      "tir_esperada_pct": "-3,1% anual a 10 anos"
+    },
+    "valoracion_con_g_4_99_pct_alternativa": {
+      "auditado_mantenimiento_valor_accion_usd": 48.8,
+      "encurso_mantenimiento_valor_accion_usd": 192.4,
+      "encurso_capex_total_valor_accion_usd": 183.1,
+      "mos_encurso_mantenimiento_pct": -102.8,
+      "tir_esperada_pct": "0,1% (salida a 15x) a 2,3% (salida a 20x) anual a 10 anos"
+    },
+    "valoracion_con_g_8_pct_escenario_amable": {
+      "encurso_mantenimiento_valor_accion_usd": 251.0,
+      "mos_encurso_mantenimiento_pct": -55.4,
+      "tir_esperada_pct": "5,3% anual a 10 anos (salida a 20x)",
+      "nota": "Un 8% de crecimiento del owner earnings durante una decada es mas de lo que soporta cualquier lectura del ROIIC ex-margen, y aun asi la TIR se queda 4,4 puntos POR DEBAJO del WACC de 9,72% y solo 0,6 puntos por encima del bono a 10 anos."
+    },
+    "valoracion_con_g_10_pct_escenario_alcista": {
+      "encurso_mantenimiento_valor_accion_usd": 298.1,
+      "mos_encurso_mantenimiento_pct": -30.9,
+      "tir_esperada_pct": "9,2% anual a 10 anos (salida a 25x)",
+      "nota": "Este es el unico escenario en el que la TIR se acerca al coste de capital. Exige g del 10% durante diez anos Y que el mercado siga pagando 25 veces el flujo dentro de una decada. Ni siquiera asi hay margen de seguridad: el MoS sigue siendo -31%."
+    }
+  },
+
+  "multiplos_de_hoy": {
+    "EV_sobre_OE_mantenimiento_encurso_desapalancado": 32.9,
+    "EV_sobre_OE_capex_total_encurso_desapalancado": 34.3,
+    "EV_sobre_OE_auditado_desapalancado": 86.2,
+    "EV_sobre_FCF_encurso_apalancado": 41.2,
+    "P_sobre_FCF_encurso": 37.4,
+    "rentabilidad_FCF_pct": 2.68,
+    "EV_sobre_FCF_ex_SBC": 78.8,
+    "rentabilidad_FCF_ex_SBC_pct": 1.40,
+    "PER_no_GAAP_FY2026e": 26.4,
+    "PER_GAAP_FY2026e": 144.5,
+    "EV_sobre_ventas_FY2026e": 8.52,
+    "EV_sobre_EBIT_no_GAAP_FY2026e": 20.8,
+    "deuda_neta_sobre_EBITDA_no_GAAP": 1.83,
+    "fondo_comercio_mas_intangibles_sobre_activo_pct": 82.6,
+    "nota_PER": "390,15 / 2,70 BPA GAAP = 144,5x. 390,15 / 14,76 BPA no-GAAP = 26,4x. La brecha de 12,06 USD por accion entre ambos se descompone en 8,37 de amortizacion de intangibles adquiridos, 4,95 de SBC, 1,17 de reestructuracion y 0,20 de costes de adquisicion, menos 2,63 de ajustes fiscales. Es una de las brechas GAAP/no-GAAP mas anchas del universo de calidad, y no es contable menor: 4,95 USD por accion de SBC son 955 MUSD de compensacion real pagada en propiedad de la empresa."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 15.0,
+    "m_estrella_definicion": "15x owner earnings. Decidido en FRIO, sin barra de error, porque no es una estimacion sino un compromiso.",
+    "m_estrella_justificacion": "Al WACC de mercado de 9,72%, una renta perpetua SIN crecimiento vale 10,3x. Una renta que crece al 3% para siempre desde el primer dia vale 1/(0,0972-0,03) = 14,9x. 15x es exactamente eso: acepto pagar por un 3% perpetuo y por nada mas. La razon es aritmetica, no de humor: con un ROIIC ex-margen del 3,95% frente a un coste de capital del 9,72%, cada dolar que Synopsys reinvierte destruye unos 6 centimos de valor al ano. Pagar un multiplo que descuente crecimiento es pagar por que reinvierta mas. 15x es ademas GENEROSO frente a la g mandada por el metodo (1,68%, que solo soporta 12,4x) y esta muy por debajo de lo que descuenta el mercado (13,2%, que exige 32,9x).",
+    "valor_accion_a_m_estrella_encurso_mantenimiento_usd": 156.2,
+    "valor_accion_a_m_estrella_encurso_capex_total_usd": 148.4,
+    "valor_accion_a_m_estrella_auditado_usd": 35.1,
+    "p_estrella_usd": 110,
+    "p_estrella_calculo": "Dos rutas, deliberadamente cruzadas. Ruta M*: 15 x 2.501,8 MUSD de owner earnings desapalancado en curso = 37.527 MUSD de valor de empresa, menos 7.616 de deuda neta = 29.911 de valor del capital propio / 191,479 mm de acciones = 156,2 USD; x (1 - 30% de MoS) = 109,4 USD. Ruta DCF con g mandada de 1,68%: 141,8 USD de valor por accion x 0,70 = 99,3 USD. Adopto 110 USD como P*, el techo de las dos rutas, para no acusar al precio con la version mas dura.",
+    "p_estrella_rango_piso_resolucion": "83 - 138 USD (+/-25%)",
+    "distancia_precio_a_p_estrella_pct": -71.8,
+    "nota": "El precio tendria que caer un 72% desde 390,15 hasta 110 para abrir posicion bajo la disciplina del 30% de MoS de la banda MUY_BUENA. No es una prediccion de que vaya a caer: es la constatacion de que a este precio no hay conversacion. Y conviene decirlo entero: la accion YA ha caido un 40% desde su maximo de 651,73, y sigue sin estar cerca."
+  },
+
+  "piso_de_resolucion": {
+    "regla": "Sin medicion propia del ruido, +/-25% sobre el valor intrinseco. Ninguna cifra se reporta con mas precision que el ruido. Nada de decimales falsos.",
+    "valor_por_accion_auditado_usd": 30,
+    "valor_por_accion_auditado_rango": "22 - 37 USD",
+    "valor_por_accion_auditado_advertencia": "Esta cifra es un artefacto, no una medida. Sale de una base auditada con 3,5 meses de Ansys en el numerador de ingresos y con 478 MUSD de intereses irrepetibles dentro del flujo. La reporto porque el metodo obliga a las dos bases, no porque signifique algo. La base util es la EN CURSO.",
+    "valor_por_accion_encurso_usd": 142,
+    "valor_por_accion_encurso_rango": "106 - 177 USD",
+    "nota": "Aunque se lleve el valor intrinseco al techo del rango (177 USD sobre la base en curso con la g mandada), y aunque ademas se use la g canonica alternativa del 4,99% (192 USD) o incluso el escenario amable del 8% (251 USD), el precio de 390,15 sigue por encima de todos ellos. Para que la conclusion cambiara habria que equivocarse por un factor de dos o tres, no por un 25%. La conclusion NO es sensible al ruido de la medicion. Ese es el unico dato que importa aqui."
+  },
+
+  "tir_esperada": {
+    "rango": "-10,0% a +9,2% anual durante 10 anos; central aprox. 0%",
+    "metodo": "TIR del capital propio: se compra una accion a 390,15 USD, se cobra el owner earnings apalancado por accion creciendo a g durante diez anos, y se vende en el ano 10 a un multiplo de salida declarado.",
+    "escenarios": {
+      "g_1_68_defendible_salida_15x": "-3,1%",
+      "g_1_68_con_SBC_cargado_salida_15x": "-10,0%",
+      "g_4_99_canonica_salida_15x": "+0,1%",
+      "g_4_99_canonica_salida_20x": "+2,3%",
+      "g_8_salida_20x": "+5,3%",
+      "g_10_salida_25x": "+9,2%",
+      "g_13_8_implicita_salida_al_multiplo_de_hoy": "+17,8% (esto es simplemente re-derivar el precio: es lo que el mercado ya paga)"
+    },
+    "lectura": "El escenario que sostiene el motor real del negocio devuelve un -3% ANUAL durante diez anos. Cargar el SBC como el coste real que es lo lleva al -10%. Para llegar siquiera a igualar el bono del Tesoro a 10 anos (4,64%) hay que suscribir un crecimiento del 8% anual del flujo durante una decada Y una salida a 20 veces. Esa es la asimetria: el escenario central pierde dinero y el escenario bueno empata con la renta fija."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "NO es trampa de valor, por definicion estricta: una trampa de valor es un margen de seguridad grande sobre un motor que se rompe, y aqui NO hay margen de seguridad. El MoS es de -175%, no de +175%. Lo que hay es una accion que ha caido un 40% desde su maximo y que aun asi cotiza a 2,7 veces mi valor intrinseco. La caida del 40% esta JUSTIFICADA por los fundamentales, no es una oportunidad creada por el panico.",
+    "pero_el_motor_esta_bajo_sospecha_fundada": [
+      "BACKLOG EN RETROCESO. El mecanismo congelado se apoya en 11,4 mil M de backlog (1,62 veces las ventas). A 30-abr-2026 el backlog es de 11,0 mil M (10-Q Q2 FY2026) — cayo 400 MUSD en seis meses mientras los ingresos crecian un 37%. El tramo NO CANCELABLE cayo de 2,0 a 1,8 mil M. La ratio backlog/ventas se hundio de 1,62x a 1,14x. Parte de la caida de la ratio es mecanica (el denominador incorpora doce meses de Ansys), pero la caida en DOLARES ABSOLUTOS no lo es. La metrica que sostiene la frase del mecanismo se esta deteriorando.",
+      "REINVERSION SIN RETORNO. Reinvierte el 42,53% de las ventas para sacar un ROIIC ex-margen del 3,95%, contra un WACC de mercado del 9,72%. La brecha es de 5,8 puntos: cada dolar reinvertido destruye valor. Y el 44,9% del crecimiento del NOPAT vino de expandir margen, no de poner capital a trabajar — es decir, de una palanca que se agota.",
+      "BALANCE DE PAPEL. 26.854 MUSD de fondo de comercio mas 11.875 de intangibles = 38.729 MUSD, el 82,6% del activo total. La amortizacion de esos intangibles se lleva 1.615 MUSD al ano de la cuenta de resultados GAAP — por eso el PER GAAP es de 144x. Si Ansys no rinde, ese 82,6% se deteriora contra fondos propios de 30.478 MUSD.",
+      "SBC DEL 9,9% DE LAS VENTAS. 955 MUSD guiados para FY2026 (893 en FY2025). El metodo manda calcular el owner earnings desde el flujo de caja operativo, que devuelve el SBC como si no fuera un coste. Si se carga como el coste real que es, el owner earnings FY2026 cae de 2.000 a 1.045 MUSD, el EV/OE sube de 41x a 79x, la rentabilidad del flujo baja del 2,68% al 1,40% y la TIR central pasa de -3% a -10%. La conclusion EMPEORA, no mejora.",
+      "DESIGN IP ROTO Y CHINA CAYENDO. El propio 10-K FY2025 admite crecimiento 'muted' en Design IP para FY2026, por restricciones de exportacion, demanda mas floja de un cliente de fundicion grande, y decisiones de hoja de ruta 'que no dieron el resultado buscado'. China cayo un 22% interanual ex-Ansys y sigue siendo el 11,5% de los ingresos.",
+      "SIN OBJETIVOS FINANCIEROS DE LARGO PLAZO. No existen hasta el Investor Day del 30-sep-2026. Se esta pagando 13,2% de crecimiento anual durante una decada a una empresa que no ha publicado un solo objetivo de largo plazo que lo respalde.",
+      "ELLIOTT EN EL CONSEJO. El 8-K del 2026-05-27 documenta un Cooperation Agreement con Elliott Investment Management: Jesse Cohn entra al consejo el 1-jun-2026, con standstill y exposicion economica de hasta el 7,5%. Un activista de ese perfil entrando tras una caida del 40% es una senal de que el mercado tampoco cree que la asignacion de capital de los ultimos dieciocho meses este funcionando. Es informacion, no ruido."
+    ],
+    "que_seria_lo_contrario": "Lo que desactivaria esta lectura no es un precio mas bajo: es que el Investor Day del 30-sep-2026 publique objetivos de largo plazo con un ROIC sobre capital invertido INCLUYENDO el fondo de comercio de Ansys, y que el backlog vuelva a crecer en dolares absolutos. Hasta entonces, la pregunta de si el mecanismo sigue intacto es una pregunta abierta, y la esta contestando el precio, no la empresa."
+  },
+
+  "resumen_veredicto": "NO COMPRAR — y no por poco. Synopsys a 390,15 USD, ya un 40% por debajo de su maximo de 651,73, sigue cotizando a 33 veces su owner earnings desapalancado del ejercicio EN CURSO (el mas favorable, el que ya lleva doce meses de Ansys y las sinergias dentro) y a 41 veces su flujo de caja libre guiado. El DCF inverso al WACC de mercado de 9,72% — beta propia de 1,241 medida sobre 60 meses contra el S&P 500, Rf del 4,64% del bono a 10 anos del 27-jul-2026, ERP de Damodaran de julio 2026 ponderada por la mezcla geografica de ingresos del 10-K — exige que ese flujo componga al 13,2% ANUAL durante diez anos y luego se estabilice al 3%. La g que defiende el propio motor del negocio es del 1,68% por la formula mandada (42,53% de reinversion x 3,95% de ROIIC ex-margen) y del 4,99% corrigiendo el problema dimensional de esa formula. Con la primera, el valor por accion sale en 142 USD (rango 106-177 con el piso de resolucion del +/-25%) y la TIR esperada es del -3,1% ANUAL durante diez anos. Con la segunda, 192 USD y una TIR de entre el 0% y el 2%. Para llegar siquiera al 4,64% del Tesoro hay que suscribir un 8% de crecimiento del flujo durante una decada. El precio que da el 30% de MoS de la banda MUY_BUENA es de 110 USD: una caida adicional del 72%. Y no es sensible al ruido — habria que equivocarse por un factor de dos o tres para que cambiara. NO es trampa de valor, porque para que haya trampa tiene que haber descuento y aqui no lo hay; pero el motor si esta bajo sospecha fundada: el backlog cayo de 11,4 a 11,0 mil M en seis meses mientras los ingresos subian un 37%, el tramo no cancelable bajo de 2,0 a 1,8 mil M, el 82,6% del activo es fondo de comercio e intangibles, el SBC se come el 9,9% de las ventas (cargarlo lleva la TIR al -10%), y Elliott acaba de sentarse en el consejo. La contradiccion madre no tiene puerta por aqui: la etiqueta sigue siendo MUY_BUENA y el precio sigue siendo imposible.",
+
+  "huecos_declarados": [
+    "Depreciacion de PP&E FY2026e (200 MUSD): INFERENCIA obtenida restando la amortizacion de intangibles adquiridos del H1 (807,9) al D&A total del H1 (907,2) y anualizando. La empresa no guia esta linea. Impacto sobre el owner earnings de mantenimiento: +/-5%. No cambia nada.",
+    "Formula de g defendible dimensionalmente ambigua: la reinversion viene sobre VENTAS y la formula canonica la quiere sobre NOPAT. Diferencia de 1,68% vs 4,99%, un factor de 3x. Es el hueco mas grande del expediente, afecta a TODAS las empresas de especie G2 (aparece igual en CDNS) y deberia resolverse a nivel de metodo, no caso a caso. Reporto las dos y ninguna justifica el precio.",
+    "Primas de riesgo pais de Europa (4,70%), Corea (4,70%) y 'Otros' (5,00%): INFERENCIA. Solo pude citar de primera mano la ERP de EEUU (4,42%) y la de China (5,18%) de la actualizacion de Damodaran de julio 2026. No descargue el workbook completo. Impacto: mover la prima pais ponderada entre 0,0 y 0,6 pp mueve el WACC unos 35 pb y el valor por accion un +/-6%.",
+    "Tasa libre de riesgo: 4,64% procede de Trading Economics (2026-07-27), fuente secundaria, no del Tesoro directo. INFERENCIA.",
+    "Beta: R2 de la regresion = 0,323. Es una estimacion ruidosa. La beta a 2 anos (1,442) es un 16% mas alta que la de 5 anos y la ajustada de Blume (1,161) un 6% mas baja. Por eso el WACC va como rango 8,97-11,33% y no como punto.",
+    "TODA la base FY2026 es GUIA de la empresa (8-K del 2026-05-27), no cifra auditada. El Q3 FY2026 cierra el 31-jul-2026 y aun no se ha publicado. Si la guia se incumple, el owner earnings en curso baja y el veredicto empeora; si se supera, no cambia el orden de magnitud.",
+    "No verifique la composicion exacta de los 924,9 MUSD de 'Other income (expense), net' de FY2025. Trato el neto no operativo de +478,2 MUSD como integramente no recurrente, lo cual es una simplificacion: parte podria ser interes estructural sobre caja operativa. Si un 20% fuera recurrente, el owner earnings desapalancado auditado subiria de 955 a 1.033 MUSD y la g implicita auditada bajaria del 26,3% al 25,3%. Irrelevante para la conclusion.",
+    "La reinversion del 42,53% y el ROIIC ex-margen del 3,95% vienen CONGELADOS de la fase de calidad. No los he re-auditado ni tengo derecho a hacerlo. Todo el bloque de g defendible hereda cualquier error que tuvieran.",
+    "Valor de mercado de la deuda: uso los 10,0 mil M de valor razonable declarado en el 10-Q para los bonos senior, y valor contable para el resto (110,6 de pago diferido + 13,1 de otros). La deuda pesa el 11,9% del capital total; una desviacion del 10% en su valor de mercado moveria el WACC unos 7 pb.",
+    "Objetivos financieros de largo plazo: NO EXISTEN hasta el Investor Day del 30-sep-2026. Es el hueco de la propia empresa, no mio, pero condiciona cualquier g que se quiera defender por encima del 5%."
+  ],
+
+  "gates_sugeridos": [
+    "30-sep-2026 — Investor Day. Publicacion de objetivos financieros de largo plazo. Comprobar si dan ROIC INCLUYENDO el fondo de comercio de Ansys o solo margenes.",
+    "~2026-09 (Q3 FY2026, cierra 31-jul-2026) — comprobar si el backlog sigue por debajo de 11,4 mil M. Dos trimestres consecutivos de caida en dolares absolutos es una senal sobre el mecanismo, no sobre el ciclo.",
+    "Vigilar el tramo NO CANCELABLE del backlog (2,0 -> 1,8 mil M). Es la parte del mecanismo que de verdad no se puede cancelar."
+  ],
+
+  "citas_primarias": [
+    "SEC EDGAR, CIK 0000883241 — Synopsys, Inc.",
+    "10-K FY2025, presentado 2025-12-22, accession 0000883241-25-000028, documento snps-20251031.htm. Cuenta de resultados, balance, Nota 10 (Senior Notes, tabla de tasas efectivas), Nota 19 (ingresos por area geografica), backlog.",
+    "10-Q Q2 FY2026, presentado 2026-05-27, accession 0000883241-26-000018, documento snps-20260430.htm. Balance a 30-abr-2026, backlog de 11,0 mil M, valor razonable de los bonos senior (10,0 mil M).",
+    "10-Q Q1 FY2026, presentado 2026-02-25, accession 0000883241-26-000014, documento snps-20260131.htm.",
+    "8-K 2026-05-27, accession 0001193125-26-241911, Ex-99.1 (d126227dex991.htm) — resultados Q2 FY2026, guia FY2026 elevada (ingresos 9.625-9.705; OCF ~2.300; FCF ~2.000; capex ~300; SBC 945-965; BPA no-GAAP 14,72-14,80), anuncio del Investor Day del 30-sep-2026.",
+    "8-K 2026-05-27, accession 0001193125-26-241920 (d96543d8k.htm) — Cooperation Agreement con Elliott Investment Management; Jesse Cohn al consejo desde el 1-jun-2026.",
+    "XBRL companyfacts: https://data.sec.gov/api/xbrl/companyfacts/CIK0000883241.json",
+    "IBKR market data: snapshot de SNPS (contract_id 274499, NASDAQ) y barras mensuales de SNPS y SPY (contract_id 756733) a 5 anos, consultados 2026-07-28.",
+    "Trading Economics — US 10 Year Government Bond Yield, 4,64% al 2026-07-27 (fuente secundaria, INFERENCIA).",
+    "Damodaran — actualizacion de primas de riesgo por pais de julio 2026 (S&P 500 en 7.499,36 el 1-jul-2026): ERP implicita EEUU 4,42%, prima de mercado maduro 4,20%, China 5,18% (fuente secundaria, INFERENCIA)."
+  ]
+}

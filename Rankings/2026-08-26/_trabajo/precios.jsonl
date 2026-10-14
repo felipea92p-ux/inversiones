@@ -1,0 +1,485 @@
+{"ticker": "IDXX", "yahoo": "IDXX", "precio": 551.18, "divisa": "USD", "ts": 1787758301, "exchange": "NasdaqGS", "nombre": "IDEXX Laboratories, Inc.", "min_1m": 545.8599853515625, "max_1m": 595.760009765625}
+{"ticker": "V", "yahoo": "V", "precio": 381.6, "divisa": "USD", "ts": 1787758297, "exchange": "NYSE", "nombre": "Visa Inc.", "min_1m": 358.8399963378906, "max_1m": 384.1400146484375}
+{"ticker": "SPGI", "yahoo": "SPGI", "precio": 433.84, "divisa": "USD", "ts": 1787758301, "exchange": "NYSE", "nombre": "S&P Global Inc.", "min_1m": 405.239990234375, "max_1m": 439.8299865722656}
+{"ticker": "MA", "yahoo": "MA", "precio": 596.79, "divisa": "USD", "ts": 1787758284, "exchange": "NYSE", "nombre": "Mastercard Incorporated", "min_1m": 551.7100219726562, "max_1m": 599.8599853515625}
+{"ticker": "MSFT", "yahoo": "MSFT", "precio": 495.2, "divisa": "USD", "ts": 1787758306, "exchange": "NasdaqGS", "nombre": "Microsoft Corporation", "min_1m": 389.1000061035156, "max_1m": 506.05999755859375}
+{"ticker": "MSCI", "yahoo": "MSCI", "precio": 561.75, "divisa": "USD", "ts": 1787758265, "exchange": "NYSE", "nombre": "MSCI Inc.", "min_1m": 550.6799926757812, "max_1m": 582.9199829101562}
+{"ticker": "ISRG", "yahoo": "ISRG", "precio": 368.42, "divisa": "USD", "ts": 1787758289, "exchange": "NasdaqGS", "nombre": "Intuitive Surgical, Inc.", "min_1m": 352.9700012207031, "max_1m": 401.2699890136719}
+{"ticker": "TSM", "yahoo": "TSM", "precio": 417.22, "divisa": "USD", "ts": 1787758308, "exchange": "NYSE", "nombre": "Taiwan Semiconductor Manufacturing Company Limited", "min_1m": 374.6700134277344, "max_1m": 430.9700012207031}
+{"ticker": "ASML", "yahoo": "ASML", "precio": 1744.445, "divisa": "USD", "ts": 1787758308, "exchange": "NasdaqGS", "nombre": "ASML Holding N.V.", "min_1m": 1550.68994140625, "max_1m": 1883.1199951171875}
+{"ticker": "VEEV", "yahoo": "VEEV", "precio": 246.57, "divisa": "USD", "ts": 1787758301, "exchange": "NYSE", "nombre": "Veeva Systems Inc.", "min_1m": 194.4600067138672, "max_1m": 252.63999938964844}
+{"ticker": "NVDA", "yahoo": "NVDA", "precio": 211.015, "divisa": "USD", "ts": 1787758310, "exchange": "NasdaqGS", "nombre": "NVIDIA Corporation", "min_1m": 190.00999450683594, "max_1m": 225.3000030517578}
+{"ticker": "CME", "yahoo": "CME", "precio": 279.81, "divisa": "USD", "ts": 1787758303, "exchange": "NasdaqGS", "nombre": "CME Group Inc.", "min_1m": 255.36000061035156, "max_1m": 279.80999755859375}
+{"ticker": "BKNG", "yahoo": "BKNG", "precio": 210.8, "divisa": "USD", "ts": 1787758306, "exchange": "NasdaqGS", "nombre": "Booking Holdings Inc.", "min_1m": 186.7899932861328, "max_1m": 214.4199981689453}
+{"ticker": "GOOGL", "yahoo": "GOOGL", "precio": 342.46, "divisa": "USD", "ts": 1787758313, "exchange": "NasdaqGS", "nombre": "Alphabet Inc.", "min_1m": 326.55999755859375, "max_1m": 377.6499938964844}
+{"ticker": "INTU", "yahoo": "INTU", "precio": 342.485, "divisa": "USD", "ts": 1787758313, "exchange": "NasdaqGS", "nombre": "Intuit Inc.", "min_1m": 303.9100036621094, "max_1m": 369.9200134277344}
+{"ticker": "CDNS", "yahoo": "CDNS", "precio": 335.17, "divisa": "USD", "ts": 1787758296, "exchange": "NasdaqGS", "nombre": "Cadence Design Systems, Inc.", "min_1m": 313.5899963378906, "max_1m": 344.7200012207031}
+{"ticker": "NOW", "yahoo": "NOW", "precio": 124.79, "divisa": "USD", "ts": 1787758315, "exchange": "NYSE", "nombre": "ServiceNow, Inc.", "min_1m": 105.55999755859375, "max_1m": 129.75}
+{"ticker": "REL.L", "yahoo": "REL.L", "precio": 2593.0, "divisa": "GBp", "ts": 1787757410, "exchange": "LSE", "nombre": "RELX PLC", "min_1m": 2470.0, "max_1m": 2874.0}
+{"ticker": "WKL.AS", "yahoo": "WKL.AS", "precio": 68.84, "divisa": "EUR", "ts": 1787757416, "exchange": "Amsterdam", "nombre": "Wolters Kluwer N.V.", "min_1m": 67.36000061035156, "max_1m": 74.0999984741211}
+{"ticker": "ADBE", "yahoo": "ADBE", "precio": 270.72, "divisa": "USD", "ts": 1787758316, "exchange": "NasdaqGS", "nombre": "Adobe Inc.", "min_1m": 237.75, "max_1m": 276.2699890136719}
+{"ticker": "NFLX", "yahoo": "NFLX", "precio": 81.77, "divisa": "USD", "ts": 1787758320, "exchange": "NasdaqGS", "nombre": "Netflix, Inc.", "min_1m": 70.4000015258789, "max_1m": 82.2300033569336}
+{"ticker": "SNPS", "yahoo": "SNPS", "precio": 409.337, "divisa": "USD", "ts": 1787758307, "exchange": "NasdaqGS", "nombre": "Synopsys, Inc.", "min_1m": 372.3299865722656, "max_1m": 421.5}
+{"ticker": "VRSK", "yahoo": "VRSK", "precio": 187.185, "divisa": "USD", "ts": 1787758312, "exchange": "NasdaqGS", "nombre": "Verisk Analytics, Inc.", "min_1m": 175.6199951171875, "max_1m": 213.14999389648438}
+{"ticker": "AMZN", "yahoo": "AMZN", "precio": 260.075, "divisa": "USD", "ts": 1787758320, "exchange": "NasdaqGS", "nombre": "Amazon.com, Inc.", "min_1m": 226.64999389648438, "max_1m": 284.0199890136719}
+{"ticker": "MTD", "yahoo": "MTD", "precio": 1403.73, "divisa": "USD", "ts": 1787758316, "exchange": "NYSE", "nombre": "Mettler-Toledo International Inc.", "min_1m": 1336.2900390625, "max_1m": 1445.0}
+{"ticker": "AAPL", "yahoo": "AAPL", "precio": 312.53, "divisa": "USD", "ts": 1787758324, "exchange": "NasdaqGS", "nombre": "Apple Inc.", "min_1m": 302.25, "max_1m": 340.0799865722656}
+{"ticker": "RMS.PA", "yahoo": "RMS.PA", "precio": 1554.5, "divisa": "EUR", "ts": 1787757423, "exchange": "Paris", "nombre": "Herm\u00e8s International Soci\u00e9t\u00e9 en commandite par actions", "min_1m": 1508.5, "max_1m": 1695.5}
+{"ticker": "ZTS", "yahoo": "ZTS", "precio": 77.715, "divisa": "USD", "ts": 1787758326, "exchange": "NYSE", "nombre": "Zoetis Inc.", "min_1m": 72.66000366210938, "max_1m": 77.93000030517578}
+{"ticker": "FICO", "yahoo": "FICO", "precio": 1131.58, "divisa": "USD", "ts": 1787758293, "exchange": "NYSE", "nombre": "Fair Isaac Corporation", "min_1m": 1031.8900146484375, "max_1m": 1373.0799560546875}
+{"ticker": "CSU.TO", "yahoo": "CSU.TO", "precio": 3065.55, "divisa": "CAD", "ts": 1787757850, "exchange": "Toronto", "nombre": "Constellation Software Inc.", "min_1m": 2837.320068359375, "max_1m": 3304.360107421875}
+{"ticker": "WST", "yahoo": "WST", "precio": 351.92, "divisa": "USD", "ts": 1787758202, "exchange": "NYSE", "nombre": "West Pharmaceutical Services, Inc.", "min_1m": 331.25, "max_1m": 354.07000732421875}
+{"ticker": "ICE", "yahoo": "ICE", "precio": 161.9, "divisa": "USD", "ts": 1787758229, "exchange": "NYSE", "nombre": "Intercontinental Exchange, Inc.", "min_1m": 148.72999572753906, "max_1m": 162.99000549316406}
+{"ticker": "MELI", "yahoo": "MELI", "precio": 1966.09, "divisa": "USD", "ts": 1787758331, "exchange": "NasdaqGS", "nombre": "MercadoLibre, Inc.", "min_1m": 1779.1400146484375, "max_1m": 1997.0}
+{"ticker": "4684.T", "yahoo": "4684.T", "precio": 4774.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "OBIC Co.,Ltd.", "min_1m": 4373.0, "max_1m": 4787.0}
+{"ticker": "TYL", "yahoo": "TYL", "precio": 350.96, "divisa": "USD", "ts": 1787758320, "exchange": "NYSE", "nombre": "Tyler Technologies, Inc.", "min_1m": 305.5400085449219, "max_1m": 355.7900085449219}
+{"ticker": "ADYEN.AS", "yahoo": "ADYEN.AS", "precio": 1070.4, "divisa": "EUR", "ts": 1787757412, "exchange": "Amsterdam", "nombre": "Adyen N.V.", "min_1m": 835.7999877929688, "max_1m": 1079.0}
+{"ticker": "AVGO", "yahoo": "AVGO", "precio": 351.26, "divisa": "USD", "ts": 1787758336, "exchange": "NasdaqGS", "nombre": "Broadcom Inc.", "min_1m": 351.260009765625, "max_1m": 427.760009765625}
+{"ticker": "MANH", "yahoo": "MANH", "precio": 215.025, "divisa": "USD", "ts": 1787758297, "exchange": "NasdaqGS", "nombre": "Manhattan Associates, Inc.", "min_1m": 159.2899932861328, "max_1m": 215.02499389648438}
+{"ticker": "FDS", "yahoo": "FDS", "precio": 292.63, "divisa": "USD", "ts": 1787758292, "exchange": "NYSE", "nombre": "FactSet Research Systems Inc.", "min_1m": 263.0299987792969, "max_1m": 305.30999755859375}
+{"ticker": "DSY.MI", "yahoo": "DSY.MI", "error": "HTTP Error 404: Not Found"}
+{"ticker": "HOYCY", "yahoo": "HOYCY", "error": "HTTP Error 404: Not Found"}
+{"ticker": "MCO", "yahoo": "MCO", "precio": 514.365, "divisa": "USD", "ts": 1787758338, "exchange": "NYSE", "nombre": "Moody's Corporation", "min_1m": 473.1300048828125, "max_1m": 514.364990234375}
+{"ticker": "DSG.TO", "yahoo": "DSG.TO", "precio": 106.01, "divisa": "CAD", "ts": 1787758336, "exchange": "Toronto", "nombre": "The Descartes Systems Group Inc.", "min_1m": 100.43000030517578, "max_1m": 111.41000366210938}
+{"ticker": "LSEG.L", "yahoo": "LSEG.L", "precio": 8660.0, "divisa": "GBp", "ts": 1787757437, "exchange": "LSE", "nombre": "London Stock Exchange Group plc", "min_1m": 8398.0, "max_1m": 9198.0}
+{"ticker": "CLPBY", "yahoo": "CLPBY", "precio": 7.14, "divisa": "USD", "ts": 1787753440, "exchange": "OTC Markets OTCPK", "nombre": "Coloplast A/S", "min_1m": 6.46999979019165, "max_1m": 7.260000228881836}
+{"ticker": "CPRT", "yahoo": "CPRT", "precio": 32.99, "divisa": "USD", "ts": 1787758343, "exchange": "NasdaqGS", "nombre": "Copart, Inc.", "min_1m": 28.90999984741211, "max_1m": 34.33000183105469}
+{"ticker": "ACN", "yahoo": "ACN", "precio": 181.8, "divisa": "USD", "ts": 1787758337, "exchange": "NYSE", "nombre": "Accenture plc", "min_1m": 154.05999755859375, "max_1m": 186.92999267578125}
+{"ticker": "DUOL", "yahoo": "DUOL", "precio": 139.98, "divisa": "USD", "ts": 1787758303, "exchange": "NasdaqGS", "nombre": "Duolingo, Inc.", "min_1m": 122.58000183105469, "max_1m": 147.02999877929688}
+{"ticker": "DB1.DE", "yahoo": "DB1.DE", "precio": 285.6, "divisa": "EUR", "ts": 1787757439, "exchange": "XETRA", "nombre": "Deutsche B\u00f6rse AG", "min_1m": 262.29998779296875, "max_1m": 287.5}
+{"ticker": "NEM.DE", "yahoo": "NEM.DE", "precio": 64.9, "divisa": "EUR", "ts": 1787757444, "exchange": "XETRA", "nombre": "Nemetschek SE", "min_1m": 56.5, "max_1m": 67.19999694824219}
+{"ticker": "STMN.SW", "yahoo": "STMN.SW", "precio": 93.18, "divisa": "CHF", "ts": 1787757394, "exchange": "Swiss", "nombre": "Straumann Holding AG", "min_1m": 91.54000091552734, "max_1m": 105.0}
+{"ticker": "NVO", "yahoo": "NVO", "precio": 47.285, "divisa": "USD", "ts": 1787758350, "exchange": "NYSE", "nombre": "Novo Nordisk A/S", "min_1m": 44.279998779296875, "max_1m": 51.61000061035156}
+{"ticker": "TOI.V", "yahoo": "TOI.V", "precio": 102.36, "divisa": "CAD", "ts": 1787757472, "exchange": "TSXV", "nombre": "Topicus.com Inc.", "min_1m": 99.56999969482422, "max_1m": 106.73999786376953}
+{"ticker": "EFX", "yahoo": "EFX", "precio": 190.54, "divisa": "USD", "ts": 1787758275, "exchange": "NYSE", "nombre": "Equifax Inc.", "min_1m": 172.6199951171875, "max_1m": 194.6300048828125}
+{"ticker": "TMO", "yahoo": "TMO", "precio": 632.9, "divisa": "USD", "ts": 1787758353, "exchange": "NYSE", "nombre": "Thermo Fisher Scientific Inc.", "min_1m": 559.530029296875, "max_1m": 632.9000244140625}
+{"ticker": "SPOT", "yahoo": "SPOT", "precio": 544.58, "divisa": "USD", "ts": 1787758345, "exchange": "NYSE", "nombre": "Spotify Technology S.A.", "min_1m": 475.07000732421875, "max_1m": 552.5700073242188}
+{"ticker": "0388.HK", "yahoo": "0388.HK", "precio": 420.8, "divisa": "HKD", "ts": 1787731681, "exchange": "HKSE", "nombre": "Hong Kong Exchanges and Clearing Limited", "min_1m": 400.3999938964844, "max_1m": 421.0}
+{"ticker": "BVI.PA", "yahoo": "BVI.PA", "precio": 27.86, "divisa": "EUR", "ts": 1787757424, "exchange": "Paris", "nombre": "Bureau Veritas SA", "min_1m": 27.06999969482422, "max_1m": 29.270000457763672}
+{"ticker": "RMD", "yahoo": "RMD", "precio": 234.47, "divisa": "USD", "ts": 1787758309, "exchange": "NYSE", "nombre": "ResMed Inc.", "min_1m": 203.0800018310547, "max_1m": 236.58999633789062}
+{"ticker": "6861.T", "yahoo": "6861.T", "precio": 81500.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "Keyence Corporation", "min_1m": 70950.0, "max_1m": 87660.0}
+{"ticker": "LLY", "yahoo": "LLY", "precio": 1200.83, "divisa": "USD", "ts": 1787758357, "exchange": "NYSE", "nombre": "Eli Lilly and Company", "min_1m": 1115.6800537109375, "max_1m": 1280.3399658203125}
+{"ticker": "SOON.SW", "yahoo": "SOON.SW", "precio": 241.2, "divisa": "CHF", "ts": 1787757420, "exchange": "Swiss", "nombre": "Sonova Holding AG", "min_1m": 218.0, "max_1m": 245.0}
+{"ticker": "ALGN", "yahoo": "ALGN", "precio": 160.9, "divisa": "USD", "ts": 1787758279, "exchange": "NasdaqGS", "nombre": "Align Technology, Inc.", "min_1m": 158.94000244140625, "max_1m": 181.30999755859375}
+{"ticker": "COST", "yahoo": "COST", "precio": 956.775, "divisa": "USD", "ts": 1787758344, "exchange": "NasdaqGS", "nombre": "Costco Wholesale Corporation", "min_1m": 933.510009765625, "max_1m": 974.030029296875}
+{"ticker": "CRM", "yahoo": "CRM", "precio": 203.37, "divisa": "USD", "ts": 1787758360, "exchange": "NYSE", "nombre": "Salesforce, Inc.", "min_1m": 173.60000610351562, "max_1m": 209.1699981689453}
+{"ticker": "KXS.TO", "yahoo": "KXS.TO", "precio": 172.745, "divisa": "CAD", "ts": 1787758296, "exchange": "Toronto", "nombre": "Kinaxis Inc.", "min_1m": 157.27000427246094, "max_1m": 180.19000244140625}
+{"ticker": "LMN.TO", "yahoo": "LMN.TO", "error": "HTTP Error 404: Not Found"}
+{"ticker": "SPSC", "yahoo": "SPSC", "precio": 79.77, "divisa": "USD", "ts": 1787758288, "exchange": "NasdaqGS", "nombre": "SPS Commerce, Inc.", "min_1m": 65.6500015258789, "max_1m": 81.3499984741211}
+{"ticker": "7741.T", "yahoo": "7741.T", "precio": 24965.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "HOYA Corporation", "min_1m": 23685.0, "max_1m": 26645.0}
+{"ticker": "ALC", "yahoo": "ALC", "precio": 72.72, "divisa": "USD", "ts": 1787758360, "exchange": "NYSE", "nombre": "Alcon Inc.", "min_1m": 67.27999877929688, "max_1m": 75.3499984741211}
+{"ticker": "RACE", "yahoo": "RACE", "precio": 415.925, "divisa": "USD", "ts": 1787758357, "exchange": "NYSE", "nombre": "Ferrari N.V.", "min_1m": 380.010009765625, "max_1m": 436.5400085449219}
+{"ticker": "LIN", "yahoo": "LIN", "precio": 490.98, "divisa": "USD", "ts": 1787758347, "exchange": "NasdaqGS", "nombre": "Linde plc", "min_1m": 474.3299865722656, "max_1m": 511.17999267578125}
+{"ticker": "ORCL", "yahoo": "ORCL", "precio": 147.7, "divisa": "USD", "ts": 1787758369, "exchange": "NYSE", "nombre": "Oracle Corporation", "min_1m": 117.73999786376953, "max_1m": 156.22000122070312}
+{"ticker": "PANW", "yahoo": "PANW", "precio": 338.11, "divisa": "USD", "ts": 1787758370, "exchange": "NasdaqGS", "nombre": "Palo Alto Networks, Inc.", "min_1m": 314.1499938964844, "max_1m": 396.0}
+{"ticker": "PGHN.SW", "yahoo": "PGHN.SW", "precio": 736.0, "divisa": "CHF", "ts": 1787757464, "exchange": "Swiss", "nombre": "Partners Group Holding AG", "min_1m": 671.5999755859375, "max_1m": 739.4000244140625}
+{"ticker": "SGSN.SW", "yahoo": "SGSN.SW", "precio": 93.5, "divisa": "CHF", "ts": 1787757467, "exchange": "Swiss", "nombre": "SGS SA", "min_1m": 92.54000091552734, "max_1m": 98.04000091552734}
+{"ticker": "MC.PA", "yahoo": "MC.PA", "precio": 454.05, "divisa": "EUR", "ts": 1787757467, "exchange": "Paris", "nombre": "LVMH Mo\u00ebt Hennessy - Louis Vuitton, Soci\u00e9t\u00e9 Europ\u00e9enne", "min_1m": 443.1000061035156, "max_1m": 486.8999938964844}
+{"ticker": "OR.PA", "yahoo": "OR.PA", "precio": 388.15, "divisa": "EUR", "ts": 1787757474, "exchange": "Paris", "nombre": "L'Or\u00e9al S.A.", "min_1m": 370.0, "max_1m": 394.0}
+{"ticker": "PTC", "yahoo": "PTC", "precio": 149.97, "divisa": "USD", "ts": 1787758330, "exchange": "NasdaqGS", "nombre": "PTC Inc.", "min_1m": 125.20999908447266, "max_1m": 154.67999267578125}
+{"ticker": "VRSN", "yahoo": "VRSN", "precio": 294.31, "divisa": "USD", "ts": 1787758007, "exchange": "NasdaqGS", "nombre": "VeriSign, Inc.", "min_1m": 272.7699890136719, "max_1m": 299.20001220703125}
+{"ticker": "WISE.L", "yahoo": "WISE.L", "precio": 972.2, "divisa": "GBp", "ts": 1787757456, "exchange": "LSE", "nombre": "Wise Group plc", "min_1m": 885.5999755859375, "max_1m": 972.2000122070312}
+{"ticker": "6146.T", "yahoo": "6146.T", "precio": 60610.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "Disco Corporation", "min_1m": 51320.0, "max_1m": 65910.0}
+{"ticker": "IT", "yahoo": "IT", "precio": 192.33, "divisa": "USD", "ts": 1787758361, "exchange": "NYSE", "nombre": "Gartner, Inc.", "min_1m": 147.4499969482422, "max_1m": 202.77999877929688}
+{"ticker": "VRTX", "yahoo": "VRTX", "precio": 549.78, "divisa": "USD", "ts": 1787758373, "exchange": "NasdaqGS", "nombre": "Vertex Pharmaceuticals Incorporated", "min_1m": 470.7200012207031, "max_1m": 552.8499755859375}
+{"ticker": "7974.T", "yahoo": "7974.T", "precio": 8896.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "Nintendo Co., Ltd.", "min_1m": 7428.0, "max_1m": 8900.0}
+{"ticker": "APP", "yahoo": "APP", "precio": 308.0, "divisa": "USD", "ts": 1787758369, "exchange": "NasdaqGS", "nombre": "AppLovin Corporation", "min_1m": 298.5899963378906, "max_1m": 419.70001220703125}
+{"ticker": "CBOE", "yahoo": "CBOE", "precio": 310.51, "divisa": "USD", "ts": 1787758350, "exchange": "Cboe US", "nombre": "Cboe Global Markets, Inc.", "min_1m": 280.75, "max_1m": 310.510009765625}
+{"ticker": "SRT3.DE", "yahoo": "SRT3.DE", "precio": 244.2, "divisa": "EUR", "ts": 1787757435, "exchange": "XETRA", "nombre": "Sartorius Aktiengesellschaft", "min_1m": 214.3000030517578, "max_1m": 248.89999389648438}
+{"ticker": "ANET", "yahoo": "ANET", "precio": 197.55, "divisa": "USD", "ts": 1787758374, "exchange": "NYSE", "nombre": "Arista Networks, Inc.", "min_1m": 157.97000122070312, "max_1m": 210.5}
+{"ticker": "FTNT", "yahoo": "FTNT", "precio": 157.29, "divisa": "USD", "ts": 1787758365, "exchange": "NasdaqGS", "nombre": "Fortinet, Inc.", "min_1m": 149.97999572753906, "max_1m": 168.2899932861328}
+{"ticker": "PLTR", "yahoo": "PLTR", "precio": 174.155, "divisa": "USD", "ts": 1787758383, "exchange": "NasdaqGS", "nombre": "Palantir Technologies Inc.", "min_1m": 122.26000213623047, "max_1m": 179.94000244140625}
+{"ticker": "6273.T", "yahoo": "6273.T", "precio": 71520.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "SMC Corporation", "min_1m": 64930.0, "max_1m": 78340.0}
+{"ticker": "6857.T", "yahoo": "6857.T", "precio": 35700.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "Advantest Corporation", "min_1m": 25200.0, "max_1m": 37780.0}
+{"ticker": "6920.T", "yahoo": "6920.T", "precio": 34620.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "Lasertec Corporation", "min_1m": 33620.0, "max_1m": 46680.0}
+{"ticker": "8035.T", "yahoo": "8035.T", "precio": 55500.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "Tokyo Electron Limited", "min_1m": 50000.0, "max_1m": 62800.0}
+{"ticker": "ADP", "yahoo": "ADP", "precio": 281.98, "divisa": "USD", "ts": 1787758376, "exchange": "NasdaqGS", "nombre": "Automatic Data Processing, Inc.", "min_1m": 254.97999572753906, "max_1m": 283.010009765625}
+{"ticker": "ASM.AS", "yahoo": "ASM.AS", "precio": 822.4, "divisa": "EUR", "ts": 1787757470, "exchange": "Amsterdam", "nombre": "ASM International NV", "min_1m": 720.0, "max_1m": 907.7999877929688}
+{"ticker": "BX", "yahoo": "BX", "precio": 143.525, "divisa": "USD", "ts": 1787758321, "exchange": "NYSE", "nombre": "Blackstone Inc.", "min_1m": 127.75, "max_1m": 149.32000732421875}
+{"ticker": "CFR.SW", "yahoo": "CFR.SW", "precio": 191.1, "divisa": "CHF", "ts": 1787757472, "exchange": "Swiss", "nombre": "Compagnie Financi\u00e8re Richemont SA", "min_1m": 182.9499969482422, "max_1m": 200.8000030517578}
+{"ticker": "CTAS", "yahoo": "CTAS", "precio": 205.66, "divisa": "USD", "ts": 1787758349, "exchange": "NasdaqGS", "nombre": "Cintas Corporation", "min_1m": 197.82000732421875, "max_1m": 216.52999877929688}
+{"ticker": "EW", "yahoo": "EW", "precio": 90.98, "divisa": "USD", "ts": 1787758383, "exchange": "NYSE", "nombre": "Edwards Lifesciences Corporation", "min_1m": 83.04000091552734, "max_1m": 93.66000366210938}
+{"ticker": "KLAC", "yahoo": "KLAC", "precio": 182.48, "divisa": "USD", "ts": 1787758396, "exchange": "NasdaqGS", "nombre": "KLA Corporation", "min_1m": 170.19000244140625, "max_1m": 209.3699951171875}
+{"ticker": "LRCX", "yahoo": "LRCX", "precio": 312.5, "divisa": "USD", "ts": 1787758392, "exchange": "NasdaqGS", "nombre": "Lam Research Corporation", "min_1m": 252.35000610351562, "max_1m": 343.8399963378906}
+{"ticker": "NDAQ", "yahoo": "NDAQ", "precio": 98.875, "divisa": "USD", "ts": 1787758341, "exchange": "NasdaqGS", "nombre": "Nasdaq, Inc.", "min_1m": 93.62000274658203, "max_1m": 98.875}
+{"ticker": "TXN", "yahoo": "TXN", "precio": 262.305, "divisa": "USD", "ts": 1787758385, "exchange": "NasdaqGS", "nombre": "Texas Instruments Incorporated", "min_1m": 258.94000244140625, "max_1m": 286.0799865722656}
+{"ticker": "AME", "yahoo": "AME", "precio": 245.655, "divisa": "USD", "ts": 1787758310, "exchange": "NYSE", "nombre": "AMETEK, Inc.", "min_1m": 235.25, "max_1m": 258.5199890136719}
+{"ticker": "CHKP", "yahoo": "CHKP", "precio": 128.065, "divisa": "USD", "ts": 1787758261, "exchange": "NasdaqGS", "nombre": "Check Point Software Technologies Ltd.", "min_1m": 122.97000122070312, "max_1m": 139.6699981689453}
+{"ticker": "EQT.ST", "yahoo": "EQT.ST", "precio": 336.9, "divisa": "SEK", "ts": 1787758175, "exchange": "Stockholm", "nombre": "EQT AB (publ)", "min_1m": 318.1000061035156, "max_1m": 347.70001220703125}
+{"ticker": "GRMN", "yahoo": "GRMN", "precio": 287.31, "divisa": "USD", "ts": 1787758310, "exchange": "NYSE", "nombre": "Garmin Ltd.", "min_1m": 242.47000122070312, "max_1m": 313.1600036621094}
+{"ticker": "IBKR", "yahoo": "IBKR", "precio": 96.865, "divisa": "USD", "ts": 1787758396, "exchange": "NasdaqGS", "nombre": "Interactive Brokers Group, Inc.", "min_1m": 86.0199966430664, "max_1m": 98.19000244140625}
+{"ticker": "MMC", "yahoo": "MMC", "error": "HTTP Error 404: Not Found"}
+{"ticker": "MNST", "yahoo": "MNST", "precio": 48.425, "divisa": "USD", "ts": 1787758401, "exchange": "NasdaqGS", "nombre": "Monster Beverage Corporation", "min_1m": 45.52000045776367, "max_1m": 97.73999786376953}
+{"ticker": "ODFL", "yahoo": "ODFL", "precio": 199.45, "divisa": "USD", "ts": 1787758323, "exchange": "NasdaqGS", "nombre": "Old Dominion Freight Line, Inc.", "min_1m": 198.33999633789062, "max_1m": 226.77000427246094}
+{"ticker": "TPL", "yahoo": "TPL", "precio": 374.905, "divisa": "USD", "ts": 1787758333, "exchange": "NYSE", "nombre": "Texas Pacific Land Corporation", "min_1m": 340.6499938964844, "max_1m": 406.1499938964844}
+{"ticker": "VACN.SW", "yahoo": "VACN.SW", "precio": 607.4, "divisa": "CHF", "ts": 1787757494, "exchange": "Swiss", "nombre": "VAT Group AG", "min_1m": 580.2000122070312, "max_1m": 652.0}
+{"ticker": "ABNB", "yahoo": "ABNB", "precio": 189.05, "divisa": "USD", "ts": 1787758400, "exchange": "NasdaqGS", "nombre": "Airbnb, Inc.", "min_1m": 146.86000061035156, "max_1m": 190.5}
+{"ticker": "ADYEN", "yahoo": "ADYEN.AS", "precio": 1069.8, "divisa": "EUR", "ts": 1787757491, "exchange": "Amsterdam", "nombre": "Adyen N.V.", "min_1m": 835.7999877929688, "max_1m": 1079.0}
+{"ticker": "EL", "yahoo": "EL", "precio": 104.855, "divisa": "USD", "ts": 1787758400, "exchange": "NYSE", "nombre": "The Est\u00e9e Lauder Companies Inc.", "min_1m": 83.19999694824219, "max_1m": 104.8550033569336}
+{"ticker": "ENX.PA", "yahoo": "ENX.PA", "precio": 162.9, "divisa": "EUR", "ts": 1787757499, "exchange": "Paris", "nombre": "Euronext N.V.", "min_1m": 149.39999389648438, "max_1m": 165.1999969482422}
+{"ticker": "BRK.B", "yahoo": "BRK-B", "precio": 505.105, "divisa": "USD", "ts": 1787758400, "exchange": "NYSE", "nombre": "Berkshire Hathaway Inc.", "min_1m": 495.82000732421875, "max_1m": 529.4199829101562}
+{"ticker": "RMS", "yahoo": "RMS.PA", "precio": 1555.0, "divisa": "EUR", "ts": 1787757503, "exchange": "Paris", "nombre": "Herm\u00e8s International Soci\u00e9t\u00e9 en commandite par actions", "min_1m": 1508.5, "max_1m": 1695.5}
+{"ticker": "AXP", "yahoo": "AXP", "precio": 335.005, "divisa": "USD", "ts": 1787758407, "exchange": "NYSE", "nombre": "American Express Company", "min_1m": 331.1499938964844, "max_1m": 348.989990234375}
+{"ticker": "PDD", "yahoo": "PDD", "precio": 86.41, "divisa": "USD", "ts": 1787758404, "exchange": "NasdaqGS", "nombre": "PDD Holdings Inc.", "min_1m": 84.16999816894531, "max_1m": 93.0}
+{"ticker": "WKL", "yahoo": "WKL.AS", "precio": 68.84, "divisa": "EUR", "ts": 1787757506, "exchange": "Amsterdam", "nombre": "Wolters Kluwer N.V.", "min_1m": 67.36000061035156, "max_1m": 74.0999984741211}
+{"ticker": "BABA", "yahoo": "BABA", "precio": 120.89, "divisa": "USD", "ts": 1787758413, "exchange": "NYSE", "nombre": "Alibaba Group Holding Limited", "min_1m": 115.0, "max_1m": 132.32000732421875}
+{"ticker": "CRWD", "yahoo": "CRWD", "precio": 187.335, "divisa": "USD", "ts": 1787758415, "exchange": "NasdaqGS", "nombre": "CrowdStrike Holdings, Inc.", "min_1m": 179.3800048828125, "max_1m": 225.52999877929688}
+{"ticker": "EXPE", "yahoo": "EXPE", "precio": 337.345, "divisa": "USD", "ts": 1787758413, "exchange": "NasdaqGS", "nombre": "Expedia Group, Inc.", "min_1m": 278.3699951171875, "max_1m": 339.1300048828125}
+{"ticker": "MBGL", "yahoo": "MBGL", "precio": 20.49, "divisa": "USD", "ts": 1787758415, "exchange": "NYSE", "nombre": "Mobility Global, Inc.", "min_1m": 19.0, "max_1m": 21.719999313354492}
+{"ticker": "META", "yahoo": "META", "precio": 581.15, "divisa": "USD", "ts": 1787758419, "exchange": "NasdaqGS", "nombre": "Meta Platforms, Inc.", "min_1m": 539.030029296875, "max_1m": 599.1199951171875}
+{"ticker": "PINS", "yahoo": "PINS", "precio": 23.35, "divisa": "USD", "ts": 1787758410, "exchange": "NYSE", "nombre": "Pinterest, Inc.", "min_1m": 22.899999618530273, "max_1m": 25.579999923706055}
+{"ticker": "RELX", "yahoo": "RELX", "precio": 35.44, "divisa": "USD", "ts": 1787758408, "exchange": "NYSE", "nombre": "RELX PLC", "min_1m": 33.560001373291016, "max_1m": 38.22999954223633}
+{"ticker": "SE", "yahoo": "SE", "precio": 119.52, "divisa": "USD", "ts": 1787758417, "exchange": "NYSE", "nombre": "Sea Limited", "min_1m": 104.38999938964844, "max_1m": 131.50999450683594}
+{"ticker": "SYK", "yahoo": "SYK", "precio": 330.58, "divisa": "USD", "ts": 1787758422, "exchange": "NYSE", "nombre": "Stryker Corporation", "min_1m": 325.70001220703125, "max_1m": 352.25}
+{"ticker": "CSU", "yahoo": "CSU.TO", "precio": 3065.55, "divisa": "CAD", "ts": 1787757850, "exchange": "Toronto", "nombre": "Constellation Software Inc.", "min_1m": 2837.320068359375, "max_1m": 3304.360107421875}
+{"ticker": "JD", "yahoo": "JD", "precio": 28.875, "divisa": "USD", "ts": 1787758398, "exchange": "NasdaqGS", "nombre": "JD.com, Inc.", "min_1m": 28.5, "max_1m": 33.470001220703125}
+{"ticker": "JNJ", "yahoo": "JNJ", "precio": 270.62, "divisa": "USD", "ts": 1787758421, "exchange": "NYSE", "nombre": "Johnson & Johnson", "min_1m": 254.41000366210938, "max_1m": 273.4100036621094}
+{"ticker": "OR", "yahoo": "OR.PA", "precio": 388.1, "divisa": "EUR", "ts": 1787757529, "exchange": "Paris", "nombre": "L'Or\u00e9al S.A.", "min_1m": 370.0, "max_1m": 394.0}
+{"ticker": "TEMN.SW", "yahoo": "TEMN.SW", "precio": 75.2, "divisa": "CHF", "ts": 1787757529, "exchange": "Swiss", "nombre": "Temenos AG", "min_1m": 65.1500015258789, "max_1m": 75.5}
+{"ticker": "4063.T", "yahoo": "4063.T", "precio": 5967.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "Shin-Etsu Chemical Co., Ltd.", "min_1m": 5690.0, "max_1m": 6410.0}
+{"ticker": "4519.T", "yahoo": "4519.T", "precio": 7051.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "Chugai Pharmaceutical Co., Ltd.", "min_1m": 6680.0, "max_1m": 7184.0}
+{"ticker": "ADSK", "yahoo": "ADSK", "precio": 251.34, "divisa": "USD", "ts": 1787758402, "exchange": "NasdaqGS", "nombre": "Autodesk, Inc.", "min_1m": 225.91000366210938, "max_1m": 257.9599914550781}
+{"ticker": "AMAT", "yahoo": "AMAT", "precio": 479.215, "divisa": "USD", "ts": 1787758425, "exchange": "NasdaqGS", "nombre": "Applied Materials, Inc.", "min_1m": 436.45001220703125, "max_1m": 548.1500244140625}
+{"ticker": "AUTO.L", "yahoo": "AUTO.L", "precio": 538.2, "divisa": "GBp", "ts": 1787757529, "exchange": "LSE", "nombre": "Autotrader Group plc", "min_1m": 510.79998779296875, "max_1m": 549.2000122070312}
+{"ticker": "COH.AX", "yahoo": "COH.AX", "precio": 137.71, "divisa": "AUD", "ts": 1787724616, "exchange": "ASX", "nombre": "Cochlear Limited", "min_1m": 114.5, "max_1m": 141.1999969482422}
+{"ticker": "DDOG", "yahoo": "DDOG", "precio": 229.73, "divisa": "USD", "ts": 1787758418, "exchange": "NasdaqGS", "nombre": "Datadog, Inc.", "min_1m": 222.99000549316406, "max_1m": 288.1499938964844}
+{"ticker": "DECK", "yahoo": "DECK", "precio": 88.8, "divisa": "USD", "ts": 1787758424, "exchange": "NYSE", "nombre": "Deckers Outdoor Corporation", "min_1m": 88.73999786376953, "max_1m": 103.91999816894531}
+{"ticker": "EXPN.L", "yahoo": "EXPN.L", "precio": 2975.0, "divisa": "GBp", "ts": 1787757539, "exchange": "LSE", "nombre": "Experian plc", "min_1m": 2790.0, "max_1m": 3009.0}
+{"ticker": "HUBB", "yahoo": "HUBB", "precio": 469.159, "divisa": "USD", "ts": 1787758422, "exchange": "NYSE", "nombre": "Hubbell Incorporated", "min_1m": 460.9599914550781, "max_1m": 519.6199951171875}
+{"ticker": "MC", "yahoo": "MC.PA", "precio": 454.1, "divisa": "EUR", "ts": 1787757530, "exchange": "Paris", "nombre": "LVMH Mo\u00ebt Hennessy - Louis Vuitton, Soci\u00e9t\u00e9 Europ\u00e9enne", "min_1m": 443.1000061035156, "max_1m": 486.8999938964844}
+{"ticker": "MEDP", "yahoo": "MEDP", "precio": 614.464, "divisa": "USD", "ts": 1787758212, "exchange": "NasdaqGS", "nombre": "Medpace Holdings, Inc.", "min_1m": 570.969970703125, "max_1m": 620.75}
+{"ticker": "MPWR", "yahoo": "MPWR", "precio": 1302.025, "divisa": "USD", "ts": 1787758396, "exchange": "NasdaqGS", "nombre": "Monolithic Power Systems, Inc.", "min_1m": 1248.760009765625, "max_1m": 1426.030029296875}
+{"ticker": "PAYX", "yahoo": "PAYX", "precio": 124.65, "divisa": "USD", "ts": 1787758421, "exchange": "NasdaqGS", "nombre": "Paychex, Inc.", "min_1m": 115.4800033569336, "max_1m": 126.01000213623047}
+{"ticker": "PME.AX", "yahoo": "PME.AX", "precio": 184.6, "divisa": "AUD", "ts": 1787724616, "exchange": "ASX", "nombre": "Pro Medicus Limited", "min_1m": 160.6999969482422, "max_1m": 206.00999450683594}
+{"ticker": "RAA.DE", "yahoo": "RAA.DE", "precio": 641.0, "divisa": "EUR", "ts": 1787757222, "exchange": "XETRA", "nombre": "RATIONAL Aktiengesellschaft", "min_1m": 614.0, "max_1m": 683.0}
+{"ticker": "REGN", "yahoo": "REGN", "precio": 816.43, "divisa": "USD", "ts": 1787758410, "exchange": "NasdaqGS", "nombre": "Regeneron Pharmaceuticals, Inc.", "min_1m": 667.1699829101562, "max_1m": 840.8400268554688}
+{"ticker": "ROP", "yahoo": "ROP", "precio": 412.1, "divisa": "USD", "ts": 1787758443, "exchange": "NasdaqGS", "nombre": "Roper Technologies, Inc.", "min_1m": 375.0199890136719, "max_1m": 415.510009765625}
+{"ticker": "TRU", "yahoo": "TRU", "precio": 84.045, "divisa": "USD", "ts": 1787758444, "exchange": "NYSE", "nombre": "TransUnion", "min_1m": 77.23999786376953, "max_1m": 85.11000061035156}
+{"ticker": "VLTO", "yahoo": "VLTO", "precio": 98.79, "divisa": "USD", "ts": 1787758447, "exchange": "NYSE", "nombre": "Veralto Corporation", "min_1m": 94.16999816894531, "max_1m": 100.0999984741211}
+{"ticker": "4661.T", "yahoo": "4661.T", "precio": 3037.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "Oriental Land Co., Ltd.", "min_1m": 2831.5, "max_1m": 3167.0}
+{"ticker": "ABBV", "yahoo": "ABBV", "precio": 260.445, "divisa": "USD", "ts": 1787758451, "exchange": "NYSE", "nombre": "AbbVie Inc.", "min_1m": 243.8000030517578, "max_1m": 265.9700012207031}
+{"ticker": "AENA.MC", "yahoo": "AENA.MC", "precio": 27.6, "divisa": "EUR", "ts": 1787757390, "exchange": "MCE", "nombre": "Aena S.M.E., S.A.", "min_1m": 26.059999465942383, "max_1m": 27.6200008392334}
+{"ticker": "AHT.L", "yahoo": "AHT.L", "error": "HTTP Error 404: Not Found"}
+{"ticker": "BF.B", "yahoo": "BF-B", "precio": 27.98, "divisa": "USD", "ts": 1787758193, "exchange": "NYSE", "nombre": "Brown-Forman Corporation", "min_1m": 27.149999618530273, "max_1m": 29.520000457763672}
+{"ticker": "BLK", "yahoo": "BLK", "precio": 1175.781, "divisa": "USD", "ts": 1787758450, "exchange": "NYSE", "nombre": "BlackRock, Inc.", "min_1m": 1062.1400146484375, "max_1m": 1182.8399658203125}
+{"ticker": "BRO", "yahoo": "BRO", "precio": 73.09, "divisa": "USD", "ts": 1787758431, "exchange": "NYSE", "nombre": "Brown & Brown, Inc.", "min_1m": 68.86000061035156, "max_1m": 74.87000274658203}
+{"ticker": "CF", "yahoo": "CF", "precio": 125.44, "divisa": "USD", "ts": 1787758450, "exchange": "NYSE", "nombre": "CF Industries Holdings, Inc.", "min_1m": 114.3499984741211, "max_1m": 129.60000610351562}
+{"ticker": "CL", "yahoo": "CL", "precio": 92.04, "divisa": "USD", "ts": 1787758441, "exchange": "NYSE", "nombre": "Colgate-Palmolive Company", "min_1m": 89.69999694824219, "max_1m": 93.48999786376953}
+{"ticker": "COP", "yahoo": "COP", "precio": 131.86, "divisa": "USD", "ts": 1787758449, "exchange": "NYSE", "nombre": "ConocoPhillips", "min_1m": 114.0999984741211, "max_1m": 134.88999938964844}
+{"ticker": "CW", "yahoo": "CW", "precio": 616.24, "divisa": "USD", "ts": 1787758445, "exchange": "NYSE", "nombre": "Curtiss-Wright Corporation", "min_1m": 609.7100219726562, "max_1m": 757.3099975585938}
+{"ticker": "DE", "yahoo": "DE", "precio": 634.97, "divisa": "USD", "ts": 1787758458, "exchange": "NYSE", "nombre": "Deere & Company", "min_1m": 580.6300048828125, "max_1m": 648.6400146484375}
+{"ticker": "EA", "yahoo": "EA", "precio": 209.7, "divisa": "USD", "ts": 1785873600, "exchange": "NasdaqGS", "nombre": "Electronic Arts Inc", "min_1m": 209.6999969482422, "max_1m": 209.6999969482422}
+{"ticker": "EL.PA", "yahoo": "EL.PA", "precio": 160.15, "divisa": "EUR", "ts": 1787757522, "exchange": "Paris", "nombre": "EssilorLuxottica Soci\u00e9t\u00e9 anonyme", "min_1m": 159.14999389648438, "max_1m": 172.3000030517578}
+{"ticker": "EOG", "yahoo": "EOG", "precio": 145.68, "divisa": "USD", "ts": 1787758453, "exchange": "NYSE", "nombre": "EOG Resources, Inc.", "min_1m": 134.22999572753906, "max_1m": 153.0500030517578}
+{"ticker": "HD", "yahoo": "HD", "precio": 337.15, "divisa": "USD", "ts": 1787758459, "exchange": "NYSE", "nombre": "The Home Depot, Inc.", "min_1m": 331.9599914550781, "max_1m": 355.6199951171875}
+{"ticker": "HERMES", "yahoo": "RMS.PA", "precio": 1555.0, "divisa": "EUR", "ts": 1787757550, "exchange": "Paris", "nombre": "Herm\u00e8s International Soci\u00e9t\u00e9 en commandite par actions", "min_1m": 1508.5, "max_1m": 1695.5}
+{"ticker": "HOOD", "yahoo": "HOOD", "precio": 109.31, "divisa": "USD", "ts": 1787758467, "exchange": "NasdaqGS", "nombre": "Robinhood Markets, Inc.", "min_1m": 86.55999755859375, "max_1m": 112.08999633789062}
+{"ticker": "HSY", "yahoo": "HSY", "precio": 186.235, "divisa": "USD", "ts": 1787758434, "exchange": "NYSE", "nombre": "The Hershey Company", "min_1m": 175.0500030517578, "max_1m": 189.94000244140625}
+{"ticker": "III.L", "yahoo": "III.L", "precio": 2849.0, "divisa": "GBp", "ts": 1787757570, "exchange": "LSE", "nombre": "3i Group Ord", "min_1m": 2742.0, "max_1m": 2934.0}
+{"ticker": "JKHY", "yahoo": "JKHY", "precio": 172.37, "divisa": "USD", "ts": 1787758471, "exchange": "NasdaqGS", "nombre": "Jack Henry & Associates, Inc.", "min_1m": 149.8699951171875, "max_1m": 173.6199951171875}
+{"ticker": "LULU", "yahoo": "LULU", "precio": 116.79, "divisa": "USD", "ts": 1787758470, "exchange": "NasdaqGS", "nombre": "lululemon athletica inc.", "min_1m": 115.69000244140625, "max_1m": 128.5800018310547}
+{"ticker": "MCHP", "yahoo": "MCHP", "precio": 73.79, "divisa": "USD", "ts": 1787758464, "exchange": "NasdaqGS", "nombre": "Microchip Technology Incorporated", "min_1m": 71.37000274658203, "max_1m": 84.69000244140625}
+{"ticker": "MLM", "yahoo": "MLM", "precio": 539.08, "divisa": "USD", "ts": 1787758413, "exchange": "NYSE", "nombre": "Martin Marietta Materials, Inc.", "min_1m": 522.8099975585938, "max_1m": 583.6699829101562}
+{"ticker": "MRK", "yahoo": "MRK", "precio": 153.71, "divisa": "USD", "ts": 1787758468, "exchange": "NYSE", "nombre": "Merck & Co., Inc.", "min_1m": 127.7699966430664, "max_1m": 156.4499969482422}
+{"ticker": "MSI", "yahoo": "MSI", "precio": 488.125, "divisa": "USD", "ts": 1787758457, "exchange": "NYSE", "nombre": "Motorola Solutions, Inc.", "min_1m": 423.79998779296875, "max_1m": 488.125}
+{"ticker": "NDSN", "yahoo": "NDSN", "precio": 334.46, "divisa": "USD", "ts": 1787758460, "exchange": "NasdaqGS", "nombre": "Nordson Corporation", "min_1m": 294.9800109863281, "max_1m": 334.70001220703125}
+{"ticker": "NEM", "yahoo": "NEM", "precio": 131.735, "divisa": "USD", "ts": 1787758484, "exchange": "NYSE", "nombre": "Newmont Corporation", "min_1m": 91.33999633789062, "max_1m": 135.13999938964844}
+{"ticker": "NESN.SW", "yahoo": "NESN.SW", "precio": 80.04, "divisa": "CHF", "ts": 1787757570, "exchange": "Swiss", "nombre": "Nestl\u00e9 S.A.", "min_1m": 78.70999908447266, "max_1m": 82.70999908447266}
+{"ticker": "NXPI", "yahoo": "NXPI", "precio": 223.95, "divisa": "USD", "ts": 1787758476, "exchange": "NasdaqGS", "nombre": "NXP Semiconductors N.V.", "min_1m": 222.44000244140625, "max_1m": 267.6700134277344}
+{"ticker": "ON", "yahoo": "ON", "precio": 73.28, "divisa": "USD", "ts": 1787758481, "exchange": "NasdaqGS", "nombre": "ON Semiconductor Corporation", "min_1m": 71.93000030517578, "max_1m": 89.04000091552734}
+{"ticker": "PG", "yahoo": "PG", "precio": 145.19, "divisa": "USD", "ts": 1787758491, "exchange": "NYSE", "nombre": "The Procter & Gamble Company", "min_1m": 142.97000122070312, "max_1m": 148.8800048828125}
+{"ticker": "PM", "yahoo": "PM", "precio": 195.295, "divisa": "USD", "ts": 1787758471, "exchange": "NYSE", "nombre": "Philip Morris International Inc.", "min_1m": 184.52000427246094, "max_1m": 200.1699981689453}
+{"ticker": "QCOM", "yahoo": "QCOM", "precio": 160.635, "divisa": "USD", "ts": 1787758484, "exchange": "NasdaqGS", "nombre": "QUALCOMM Incorporated", "min_1m": 147.61000061035156, "max_1m": 170.0399932861328}
+{"ticker": "RHHBY", "yahoo": "RHHBY", "precio": 57.19, "divisa": "USD", "ts": 1787757559, "exchange": "OTC Markets OTCQX", "nombre": "Roche Holding AG", "min_1m": 54.52000045776367, "max_1m": 58.470001220703125}
+{"ticker": "STM.MI", "yahoo": "STM.MI", "error": "HTTP Error 404: Not Found"}
+{"ticker": "TER", "yahoo": "TER", "precio": 364.22, "divisa": "USD", "ts": 1787758499, "exchange": "NasdaqGS", "nombre": "Teradyne, Inc.", "min_1m": 319.4100036621094, "max_1m": 443.1400146484375}
+{"ticker": "TRI", "yahoo": "TRI", "precio": 102.62, "divisa": "USD", "ts": 1787758435, "exchange": "NasdaqGS", "nombre": "Thomson Reuters Corporation", "min_1m": 97.76000213623047, "max_1m": 109.1500015258789}
+{"ticker": "URI", "yahoo": "URI", "precio": 1059.16, "divisa": "USD", "ts": 1787758481, "exchange": "NYSE", "nombre": "United Rentals, Inc.", "min_1m": 1053.1400146484375, "max_1m": 1164.8199462890625}
+{"ticker": "7733.T", "yahoo": "7733.T", "precio": 2133.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "Olympus Corporation", "min_1m": 1802.0, "max_1m": 2187.0}
+{"ticker": "9983.T", "yahoo": "9983.T", "precio": 72120.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "Fast Retailing Co., Ltd.", "min_1m": 72530.0, "max_1m": 80400.0}
+{"ticker": "ABT", "yahoo": "ABT", "precio": 115.055, "divisa": "USD", "ts": 1787758508, "exchange": "NYSE", "nombre": "Abbott Laboratories", "min_1m": 104.48999786376953, "max_1m": 116.66999816894531}
+{"ticker": "ADI", "yahoo": "ADI", "precio": 375.42, "divisa": "USD", "ts": 1787758508, "exchange": "NasdaqGS", "nombre": "Analog Devices, Inc.", "min_1m": 353.3699951171875, "max_1m": 390.2799987792969}
+{"ticker": "BSX", "yahoo": "BSX", "precio": 47.675, "divisa": "USD", "ts": 1787758502, "exchange": "NYSE", "nombre": "Boston Scientific Corporation", "min_1m": 45.5099983215332, "max_1m": 52.0099983215332}
+{"ticker": "CLX", "yahoo": "CLX", "precio": 104.59, "divisa": "USD", "ts": 1787758497, "exchange": "NYSE", "nombre": "The Clorox Company", "min_1m": 95.52999877929688, "max_1m": 108.25}
+{"ticker": "CMG", "yahoo": "CMG", "precio": 37.331, "divisa": "USD", "ts": 1787758516, "exchange": "NYSE", "nombre": "Chipotle Mexican Grill, Inc.", "min_1m": 32.0, "max_1m": 38.52000045776367}
+{"ticker": "DHR", "yahoo": "DHR", "precio": 215.63, "divisa": "USD", "ts": 1787758456, "exchange": "NYSE", "nombre": "Danaher Corporation", "min_1m": 194.77999877929688, "max_1m": 218.85000610351562}
+{"ticker": "DIM.PA", "yahoo": "DIM.PA", "precio": 192.2, "divisa": "EUR", "ts": 1787757545, "exchange": "Paris", "nombre": "Sartorius Stedim Biotech S.A.", "min_1m": 162.6999969482422, "max_1m": 195.0}
+{"ticker": "GIVN.SW", "yahoo": "GIVN.SW", "precio": 3366.0, "divisa": "CHF", "ts": 1787757597, "exchange": "Swiss", "nombre": "Givaudan SA", "min_1m": 3162.0, "max_1m": 3403.0}
+{"ticker": "HKEX", "yahoo": "0388.HK", "precio": 420.8, "divisa": "HKD", "ts": 1787731681, "exchange": "HKSE", "nombre": "Hong Kong Exchanges and Clearing Limited", "min_1m": 400.3999938964844, "max_1m": 421.0}
+{"ticker": "ICLR", "yahoo": "ICLR", "precio": 167.74, "divisa": "USD", "ts": 1787758374, "exchange": "NasdaqGS", "nombre": "ICON Public Limited Company", "min_1m": 156.85000610351562, "max_1m": 180.24000549316406}
+{"ticker": "ITX.MC", "yahoo": "ITX.MC", "precio": 58.28, "divisa": "EUR", "ts": 1787757622, "exchange": "MCE", "nombre": "Industria de Dise\u00f1o Textil, S.A.", "min_1m": 55.47999954223633, "max_1m": 59.099998474121094}
+{"ticker": "MCD", "yahoo": "MCD", "precio": 267.175, "divisa": "USD", "ts": 1787758522, "exchange": "NYSE", "nombre": "McDonald's Corporation", "min_1m": 265.2300109863281, "max_1m": 276.260009765625}
+{"ticker": "MDT", "yahoo": "MDT", "precio": 91.8, "divisa": "USD", "ts": 1787758523, "exchange": "NYSE", "nombre": "Medtronic plc", "min_1m": 84.22000122070312, "max_1m": 94.12999725341797}
+{"ticker": "OBIC", "yahoo": "4684.T", "precio": 4774.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "OBIC Co.,Ltd.", "min_1m": 4373.0, "max_1m": 4787.0}
+{"ticker": "ROL", "yahoo": "ROL", "precio": 37.32, "divisa": "USD", "ts": 1787758527, "exchange": "NYSE", "nombre": "Rollins, Inc.", "min_1m": 36.02000045776367, "max_1m": 39.06999969482422}
+{"ticker": "SAF.PA", "yahoo": "SAF.PA", "precio": 350.5, "divisa": "EUR", "ts": 1787757616, "exchange": "Paris", "nombre": "Safran SA", "min_1m": 333.20001220703125, "max_1m": 363.6000061035156}
+{"ticker": "SAP.DE", "yahoo": "SAP.DE", "precio": 180.0, "divisa": "EUR", "ts": 1787757630, "exchange": "XETRA", "nombre": "SAP SE", "min_1m": 151.27999877929688, "max_1m": 188.1199951171875}
+{"ticker": "SIE.DE", "yahoo": "SIE.DE", "precio": 288.7, "divisa": "EUR", "ts": 1787757633, "exchange": "XETRA", "nombre": "Siemens Aktiengesellschaft", "min_1m": 271.25, "max_1m": 288.70001220703125}
+{"ticker": "SOON", "yahoo": "SOON.SW", "precio": 241.0, "divisa": "CHF", "ts": 1787757592, "exchange": "Swiss", "nombre": "Sonova Holding AG", "min_1m": 218.0, "max_1m": 245.0}
+{"ticker": "SU.PA", "yahoo": "SU.PA", "precio": 299.4, "divisa": "EUR", "ts": 1787757635, "exchange": "Paris", "nombre": "Schneider Electric S.E.", "min_1m": 256.79998779296875, "max_1m": 311.0}
+{"ticker": "TDG", "yahoo": "TDG", "precio": 1209.94, "divisa": "USD", "ts": 1787758540, "exchange": "NYSE", "nombre": "TransDigm Group Incorporated", "min_1m": 1180.4000244140625, "max_1m": 1307.969970703125}
+{"ticker": "TJX", "yahoo": "TJX", "precio": 136.837, "divisa": "USD", "ts": 1787758542, "exchange": "NYSE", "nombre": "The TJX Companies, Inc.", "min_1m": 136.83680725097656, "max_1m": 162.05999755859375}
+{"ticker": "TOI", "yahoo": "TOI.V", "precio": 102.35, "divisa": "CAD", "ts": 1787758502, "exchange": "TSXV", "nombre": "Topicus.com Inc.", "min_1m": 99.56999969482422, "max_1m": 106.73999786376953}
+{"ticker": "UMG.AS", "yahoo": "UMG.AS", "precio": 14.69, "divisa": "EUR", "ts": 1787757640, "exchange": "Amsterdam", "nombre": "Universal Music Group N.V.", "min_1m": 14.345000267028809, "max_1m": 19.80500030517578}
+{"ticker": "WAT", "yahoo": "WAT", "precio": 415.59, "divisa": "USD", "ts": 1787758448, "exchange": "NYSE", "nombre": "Waters Corporation", "min_1m": 371.20001220703125, "max_1m": 416.1499938964844}
+{"ticker": "WISE", "yahoo": "WISE.L", "precio": 972.4, "divisa": "GBp", "ts": 1787757621, "exchange": "LSE", "nombre": "Wise Group plc", "min_1m": 885.5999755859375, "max_1m": 972.4000244140625}
+{"ticker": "2914.T", "yahoo": "2914.T", "precio": 6983.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "Japan Tobacco Inc.", "min_1m": 6531.0, "max_1m": 7135.0}
+{"ticker": "4452.T", "yahoo": "4452.T", "precio": 3593.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "Kao Corporation", "min_1m": 3188.0, "max_1m": 3738.0}
+{"ticker": "4543.T", "yahoo": "4543.T", "precio": 2572.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "Terumo Corporation", "min_1m": 2249.0, "max_1m": 2672.5}
+{"ticker": "4568.T", "yahoo": "4568.T", "precio": 2900.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "Daiichi Sankyo Company, Limited", "min_1m": 2500.0, "max_1m": 2889.5}
+{"ticker": "4578.T", "yahoo": "4578.T", "precio": 12225.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "Otsuka Holdings Co., Ltd.", "min_1m": 11100.0, "max_1m": 12705.0}
+{"ticker": "6098.T", "yahoo": "6098.T", "precio": 17155.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "Recruit Holdings Co., Ltd.", "min_1m": 12385.0, "max_1m": 16790.0}
+{"ticker": "6367.T", "yahoo": "6367.T", "precio": 20985.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "Daikin Industries,Ltd.", "min_1m": 20700.0, "max_1m": 24135.0}
+{"ticker": "6645.T", "yahoo": "6645.T", "precio": 6455.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "OMRON Corporation", "min_1m": 5165.0, "max_1m": 7043.0}
+{"ticker": "6758.T", "yahoo": "6758.T", "precio": 3878.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "Sony Group Corporation", "min_1m": 3539.0, "max_1m": 3912.0}
+{"ticker": "6762.T", "yahoo": "6762.T", "precio": 3031.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "TDK Corporation", "min_1m": 2746.0, "max_1m": 3244.0}
+{"ticker": "6954.T", "yahoo": "6954.T", "precio": 6023.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "Fanuc Corporation", "min_1m": 6035.0, "max_1m": 7135.0}
+{"ticker": "6981.T", "yahoo": "6981.T", "precio": 7185.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "Murata Manufacturing Co., Ltd.", "min_1m": 6231.0, "max_1m": 8311.0}
+{"ticker": "8058.T", "yahoo": "8058.T", "precio": 4718.0, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "Mitsubishi Corporation", "min_1m": 4641.0, "max_1m": 4868.0}
+{"ticker": "9433.T", "yahoo": "9433.T", "precio": 2897.5, "divisa": "JPY", "ts": 1787725800, "exchange": "Tokyo", "nombre": "KDDI Corporation", "min_1m": 2830.0, "max_1m": 3108.0}
+{"ticker": "ABBN.SW", "yahoo": "ABBN.SW", "precio": 79.72, "divisa": "CHF", "ts": 1787757595, "exchange": "Swiss", "nombre": "ABB Ltd", "min_1m": 76.30000305175781, "max_1m": 83.4800033569336}
+{"ticker": "ACGL", "yahoo": "ACGL", "precio": 100.74, "divisa": "USD", "ts": 1787758521, "exchange": "NasdaqGS", "nombre": "Arch Capital Group Ltd.", "min_1m": 97.29000091552734, "max_1m": 106.4800033569336}
+{"ticker": "AFL", "yahoo": "AFL", "precio": 117.19, "divisa": "USD", "ts": 1787758563, "exchange": "NYSE", "nombre": "Aflac Incorporated", "min_1m": 116.06999969482422, "max_1m": 129.5500030517578}
+{"ticker": "AI.PA", "yahoo": "AI.PA", "precio": 168.74, "divisa": "EUR", "ts": 1787757678, "exchange": "Paris", "nombre": "L'Air Liquide S.A.", "min_1m": 166.77999877929688, "max_1m": 177.17999267578125}
+{"ticker": "AIG", "yahoo": "AIG", "precio": 77.11, "divisa": "USD", "ts": 1787758582, "exchange": "NYSE", "nombre": "American International Group, Inc.", "min_1m": 75.69999694824219, "max_1m": 80.83000183105469}
+{"ticker": "AJG", "yahoo": "AJG", "precio": 268.75, "divisa": "USD", "ts": 1787758523, "exchange": "NYSE", "nombre": "Arthur J. Gallagher & Co.", "min_1m": 247.7899932861328, "max_1m": 271.989990234375}
+{"ticker": "ALC.SW", "yahoo": "ALC.SW", "precio": 58.7, "divisa": "CHF", "ts": 1787757599, "exchange": "Swiss", "nombre": "Alcon Inc.", "min_1m": 55.380001068115234, "max_1m": 61.060001373291016}
+{"ticker": "ALFA.ST", "yahoo": "ALFA.ST", "precio": 577.2, "divisa": "SEK", "ts": 1787758198, "exchange": "Stockholm", "nombre": "Alfa Laval AB (publ)", "min_1m": 547.4000244140625, "max_1m": 577.2000122070312}
+{"ticker": "ALL", "yahoo": "ALL", "precio": 260.365, "divisa": "USD", "ts": 1787758580, "exchange": "NYSE", "nombre": "The Allstate Corporation", "min_1m": 253.8300018310547, "max_1m": 275.1099853515625}
+{"ticker": "AMD", "yahoo": "AMD", "precio": 484.545, "divisa": "USD", "ts": 1787758588, "exchange": "NasdaqGS", "nombre": "Advanced Micro Devices, Inc.", "min_1m": 429.55999755859375, "max_1m": 518.5800170898438}
+{"ticker": "AMGN", "yahoo": "AMGN", "precio": 439.71, "divisa": "USD", "ts": 1787758547, "exchange": "NasdaqGS", "nombre": "Amgen Inc.", "min_1m": 376.260009765625, "max_1m": 443.8399963378906}
+{"ticker": "AMP", "yahoo": "AMP", "precio": 558.785, "divisa": "USD", "ts": 1787758586, "exchange": "NYSE", "nombre": "Ameriprise Financial, Inc.", "min_1m": 538.010009765625, "max_1m": 570.6799926757812}
+{"ticker": "AMT", "yahoo": "AMT", "precio": 177.81, "divisa": "USD", "ts": 1787758589, "exchange": "NYSE", "nombre": "American Tower Corporation", "min_1m": 166.74000549316406, "max_1m": 179.25999450683594}
+{"ticker": "ANSS", "yahoo": "ANSS", "error": "HTTP Error 404: Not Found"}
+{"ticker": "AON", "yahoo": "AON", "precio": 354.21, "divisa": "USD", "ts": 1787758591, "exchange": "NYSE", "nombre": "Aon plc", "min_1m": 343.20001220703125, "max_1m": 381.260009765625}
+{"ticker": "APD", "yahoo": "APD", "precio": 307.66, "divisa": "USD", "ts": 1787758558, "exchange": "NYSE", "nombre": "Air Products and Chemicals, Inc.", "min_1m": 292.5799865722656, "max_1m": 309.30999755859375}
+{"ticker": "APH", "yahoo": "APH", "precio": 162.125, "divisa": "USD", "ts": 1787758596, "exchange": "NYSE", "nombre": "Amphenol Corporation", "min_1m": 143.85000610351562, "max_1m": 172.24000549316406}
+{"ticker": "APO", "yahoo": "APO", "precio": 134.13, "divisa": "USD", "ts": 1787758596, "exchange": "NYSE", "nombre": "Apollo Global Management, Inc.", "min_1m": 119.7699966430664, "max_1m": 143.5800018310547}
+{"ticker": "ARES", "yahoo": "ARES", "precio": 143.87, "divisa": "USD", "ts": 1787758568, "exchange": "NYSE", "nombre": "Ares Management Corporation", "min_1m": 124.12000274658203, "max_1m": 149.4499969482422}
+{"ticker": "ARGX.BR", "yahoo": "ARGX.BR", "precio": 901.2, "divisa": "EUR", "ts": 1787757702, "exchange": "Brussels", "nombre": "argenx SE", "min_1m": 722.2000122070312, "max_1m": 902.0}
+{"ticker": "ARM", "yahoo": "ARM", "precio": 240.66, "divisa": "USD", "ts": 1787758594, "exchange": "NasdaqGS", "nombre": "Arm Holdings plc", "min_1m": 224.88999938964844, "max_1m": 286.67999267578125}
+{"ticker": "ASML.AS", "yahoo": "ASML.AS", "precio": 1494.8, "divisa": "EUR", "ts": 1787757697, "exchange": "Amsterdam", "nombre": "ASML Holding N.V.", "min_1m": 1362.199951171875, "max_1m": 1621.199951171875}
+{"ticker": "ATO", "yahoo": "ATO", "precio": 168.73, "divisa": "USD", "ts": 1787758560, "exchange": "NYSE", "nombre": "Atmos Energy Corporation", "min_1m": 166.85000610351562, "max_1m": 179.3800048828125}
+{"ticker": "AVB", "yahoo": "AVB", "precio": 184.06, "divisa": "USD", "ts": 1786737603, "exchange": "NYSE", "nombre": "AvalonBay Communities Inc", "min_1m": 63.65999984741211, "max_1m": 68.90440368652344}
+{"ticker": "AVY", "yahoo": "AVY", "precio": 181.645, "divisa": "USD", "ts": 1787758600, "exchange": "NYSE", "nombre": "Avery Dennison Corporation", "min_1m": 163.02999877929688, "max_1m": 183.7100067138672}
+{"ticker": "AXON", "yahoo": "AXON", "precio": 601.04, "divisa": "USD", "ts": 1787758603, "exchange": "NasdaqGS", "nombre": "Axon Enterprise, Inc.", "min_1m": 522.4600219726562, "max_1m": 645.719970703125}
+{"ticker": "AZN", "yahoo": "AZN", "precio": 166.44, "divisa": "USD", "ts": 1787758541, "exchange": "NYSE", "nombre": "AstraZeneca PLC", "min_1m": 155.6199951171875, "max_1m": 173.3000030517578}
+{"ticker": "AZN.L", "yahoo": "AZN.L", "precio": 12248.0, "divisa": "GBp", "ts": 1787757709, "exchange": "LSE", "nombre": "AstraZeneca PLC", "min_1m": 11460.0, "max_1m": 13134.0}
+{"ticker": "AZO", "yahoo": "AZO", "precio": 2994.665, "divisa": "USD", "ts": 1787758599, "exchange": "NYSE", "nombre": "AutoZone, Inc.", "min_1m": 2957.949951171875, "max_1m": 3142.169921875}
+{"ticker": "BA.L", "yahoo": "BA.L", "precio": 2096.0, "divisa": "GBp", "ts": 1787757706, "exchange": "LSE", "nombre": "BAE Systems plc", "min_1m": 2000.0, "max_1m": 2270.0}
+{"ticker": "BC.MI", "yahoo": "BC.MI", "precio": 88.36, "divisa": "EUR", "ts": 1787757665, "exchange": "Milan", "nombre": "Brunello Cucinelli S.p.A.", "min_1m": 83.55999755859375, "max_1m": 92.9000015258789}
+{"ticker": "BESI.AS", "yahoo": "BESI.AS", "precio": 191.5, "divisa": "EUR", "ts": 1787757702, "exchange": "Amsterdam", "nombre": "BE Semiconductor Industries N.V.", "min_1m": 189.5, "max_1m": 237.8000030517578}
+{"ticker": "BKR", "yahoo": "BKR", "precio": 61.87, "divisa": "USD", "ts": 1787758584, "exchange": "NasdaqGS", "nombre": "Baker Hughes Company", "min_1m": 58.459999084472656, "max_1m": 64.9000015258789}
+{"ticker": "BLDR", "yahoo": "BLDR", "precio": 69.23, "divisa": "USD", "ts": 1787758615, "exchange": "NYSE", "nombre": "Builders FirstSource, Inc.", "min_1m": 66.01000213623047, "max_1m": 75.86000061035156}
+{"ticker": "BMY", "yahoo": "BMY", "precio": 67.5, "divisa": "USD", "ts": 1787758600, "exchange": "NYSE", "nombre": "Bristol-Myers Squibb Company", "min_1m": 62.560001373291016, "max_1m": 67.91999816894531}
+{"ticker": "BR", "yahoo": "BR", "precio": 181.71, "divisa": "USD", "ts": 1787758610, "exchange": "NYSE", "nombre": "Broadridge Financial Solutions, Inc.", "min_1m": 152.77999877929688, "max_1m": 185.4499969482422}
+{"ticker": "BRK", "yahoo": "BRK", "precio": null, "divisa": null, "ts": 1561759658, "exchange": "YHD", "nombre": ""}
+{"ticker": "BRKB", "yahoo": "BRKB", "error": "HTTP Error 404: Not Found"}
+{"ticker": "BTI.L", "yahoo": "BTI.L", "error": "HTTP Error 404: Not Found"}
+{"ticker": "CAH", "yahoo": "CAH", "precio": 238.3, "divisa": "USD", "ts": 1787758615, "exchange": "NYSE", "nombre": "Cardinal Health, Inc.", "min_1m": 227.07000732421875, "max_1m": 240.25999450683594}
+{"ticker": "CARR", "yahoo": "CARR", "precio": 59.2, "divisa": "USD", "ts": 1787758604, "exchange": "NYSE", "nombre": "Carrier Global Corporation", "min_1m": 58.52000045776367, "max_1m": 69.33000183105469}
+{"ticker": "CASY", "yahoo": "CASY", "precio": 823.755, "divisa": "USD", "ts": 1787758571, "exchange": "NasdaqGS", "nombre": "Casey's General Stores, Inc.", "min_1m": 823.7550048828125, "max_1m": 871.0}
+{"ticker": "CAT", "yahoo": "CAT", "precio": 820.782, "divisa": "USD", "ts": 1787758620, "exchange": "NYSE", "nombre": "Caterpillar Inc.", "min_1m": 782.7100219726562, "max_1m": 881.6500244140625}
+{"ticker": "CB", "yahoo": "CB", "precio": 343.88, "divisa": "USD", "ts": 1787758616, "exchange": "NYSE", "nombre": "Chubb Limited", "min_1m": 340.8599853515625, "max_1m": 363.5}
+{"ticker": "CBRE", "yahoo": "CBRE", "precio": 150.84, "divisa": "USD", "ts": 1787758533, "exchange": "NYSE", "nombre": "CBRE Group, Inc.", "min_1m": 143.8800048828125, "max_1m": 155.07000732421875}
+{"ticker": "CDW", "yahoo": "CDW", "precio": 140.363, "divisa": "USD", "ts": 1787758619, "exchange": "NasdaqGS", "nombre": "CDW Corporation", "min_1m": 132.50999450683594, "max_1m": 154.0}
+{"ticker": "CEG", "yahoo": "CEG", "precio": 281.45, "divisa": "USD", "ts": 1787758625, "exchange": "NasdaqGS", "nombre": "Constellation Energy Corporation", "min_1m": 257.95001220703125, "max_1m": 282.5}
+{"ticker": "CHD", "yahoo": "CHD", "precio": 102.55, "divisa": "USD", "ts": 1787758626, "exchange": "NYSE", "nombre": "Church & Dwight Co., Inc.", "min_1m": 97.41000366210938, "max_1m": 103.63999938964844}
+{"ticker": "CHR.CO", "yahoo": "CHR.CO", "error": "HTTP Error 404: Not Found"}
+{"ticker": "CHTR", "yahoo": "CHTR", "precio": 153.58, "divisa": "USD", "ts": 1787758623, "exchange": "NasdaqGS", "nombre": "Charter Communications, Inc.", "min_1m": 131.61000061035156, "max_1m": 157.69000244140625}
+{"ticker": "CI", "yahoo": "CI", "precio": 282.78, "divisa": "USD", "ts": 1787758625, "exchange": "NYSE", "nombre": "The Cigna Group", "min_1m": 270.5, "max_1m": 301.05999755859375}
+{"ticker": "CIEN", "yahoo": "CIEN", "precio": 395.39, "divisa": "USD", "ts": 1787758629, "exchange": "NYSE", "nombre": "Ciena Corporation", "min_1m": 330.3699951171875, "max_1m": 445.17999267578125}
+{"ticker": "CINF", "yahoo": "CINF", "precio": 172.59, "divisa": "USD", "ts": 1787757939, "exchange": "NasdaqGS", "nombre": "Cincinnati Financial Corporation", "min_1m": 168.19000244140625, "max_1m": 184.22999572753906}
+{"ticker": "CMCSA", "yahoo": "CMCSA", "precio": 27.12, "divisa": "USD", "ts": 1787758623, "exchange": "NasdaqGS", "nombre": "Comcast Corporation", "min_1m": 22.799999237060547, "max_1m": 27.1200008392334}
+{"ticker": "CMI", "yahoo": "CMI", "precio": 578.803, "divisa": "USD", "ts": 1787758589, "exchange": "NYSE", "nombre": "Cummins Inc.", "min_1m": 571.6199951171875, "max_1m": 661.8400268554688}
+{"ticker": "CNC", "yahoo": "CNC", "precio": 66.92, "divisa": "USD", "ts": 1787758621, "exchange": "NYSE", "nombre": "Centene Corporation", "min_1m": 60.84000015258789, "max_1m": 67.47000122070312}
+{"ticker": "COF", "yahoo": "COF", "precio": 215.485, "divisa": "USD", "ts": 1787758638, "exchange": "NYSE", "nombre": "Capital One Financial Corporation", "min_1m": 207.0500030517578, "max_1m": 227.33999633789062}
+{"ticker": "COO", "yahoo": "COO", "precio": 72.45, "divisa": "USD", "ts": 1787758629, "exchange": "NasdaqGS", "nombre": "The Cooper Companies, Inc.", "min_1m": 70.29000091552734, "max_1m": 76.81999969482422}
+{"ticker": "COR", "yahoo": "COR", "precio": 329.02, "divisa": "USD", "ts": 1787758638, "exchange": "NYSE", "nombre": "Cencora, Inc.", "min_1m": 306.2799987792969, "max_1m": 333.8699951171875}
+{"ticker": "CPAY", "yahoo": "CPAY", "precio": 405.59, "divisa": "USD", "ts": 1787758623, "exchange": "NYSE", "nombre": "Corpay, Inc.", "min_1m": 379.7099914550781, "max_1m": 425.239990234375}
+{"ticker": "CPG.L", "yahoo": "CPG.L", "precio": 30.2, "divisa": "USD", "ts": 1787757727, "exchange": "LSE", "nombre": "Compass Group PLC", "min_1m": 30.200000762939453, "max_1m": 33.099998474121094}
+{"ticker": "CRH", "yahoo": "CRH", "precio": 97.94, "divisa": "USD", "ts": 1787758641, "exchange": "NYSE", "nombre": "CRH plc", "min_1m": 93.08999633789062, "max_1m": 103.4000015258789}
+{"ticker": "CRH.L", "yahoo": "CRH.L", "error": "HTTP Error 404: Not Found"}
+{"ticker": "CSCO", "yahoo": "CSCO", "precio": 111.77, "divisa": "USD", "ts": 1787758644, "exchange": "NasdaqGS", "nombre": "Cisco Systems, Inc.", "min_1m": 109.58999633789062, "max_1m": 123.87999725341797}
+{"ticker": "CSGP", "yahoo": "CSGP", "precio": 32.22, "divisa": "USD", "ts": 1787758627, "exchange": "NasdaqGS", "nombre": "CoStar Group, Inc.", "min_1m": 28.760000228881836, "max_1m": 33.72999954223633}
+{"ticker": "CSL.AX", "yahoo": "CSL.AX", "precio": 172.44, "divisa": "AUD", "ts": 1787724667, "exchange": "ASX", "nombre": "CSL Limited", "min_1m": 116.38999938964844, "max_1m": 173.63999938964844}
+{"ticker": "CSX", "yahoo": "CSX", "precio": 51.99, "divisa": "USD", "ts": 1787758630, "exchange": "NasdaqGS", "nombre": "CSX Corporation", "min_1m": 49.83000183105469, "max_1m": 51.9900016784668}
+{"ticker": "CTSH", "yahoo": "CTSH", "precio": 61.445, "divisa": "USD", "ts": 1787758645, "exchange": "NasdaqGS", "nombre": "Cognizant Technology Solutions Corporation", "min_1m": 47.04999923706055, "max_1m": 63.060001373291016}
+{"ticker": "CVX", "yahoo": "CVX", "precio": 201.12, "divisa": "USD", "ts": 1787758644, "exchange": "NYSE", "nombre": "Chevron Corporation", "min_1m": 186.41000366210938, "max_1m": 205.77000427246094}
+{"ticker": "DEO.L", "yahoo": "DEO.L", "precio": null, "divisa": null, "ts": 1561759658, "exchange": "YHD", "nombre": ""}
+{"ticker": "DG.PA", "yahoo": "DG.PA", "precio": 119.65, "divisa": "EUR", "ts": 1787757730, "exchange": "Paris", "nombre": "Vinci SA", "min_1m": 117.9000015258789, "max_1m": 126.80000305175781}
+{"ticker": "DGX", "yahoo": "DGX", "precio": 245.165, "divisa": "USD", "ts": 1787758557, "exchange": "NYSE", "nombre": "Quest Diagnostics Incorporated", "min_1m": 231.83999633789062, "max_1m": 245.1649932861328}
+{"ticker": "DHI", "yahoo": "DHI", "precio": 150.565, "divisa": "USD", "ts": 1787758597, "exchange": "NYSE", "nombre": "D.R. Horton, Inc.", "min_1m": 143.05999755859375, "max_1m": 151.86000061035156}
+{"ticker": "DHL.DE", "yahoo": "DHL.DE", "precio": 56.86, "divisa": "EUR", "ts": 1787757746, "exchange": "XETRA", "nombre": "Deutsche Post AG", "min_1m": 54.58000183105469, "max_1m": 57.81999969482422}
+{"ticker": "DIS", "yahoo": "DIS", "precio": 110.13, "divisa": "USD", "ts": 1787758650, "exchange": "NYSE", "nombre": "The Walt Disney Company", "min_1m": 96.16000366210938, "max_1m": 111.25}
+{"ticker": "DOV", "yahoo": "DOV", "precio": 205.25, "divisa": "USD", "ts": 1787758648, "exchange": "NYSE", "nombre": "Dover Corporation", "min_1m": 197.99000549316406, "max_1m": 211.1300048828125}
+{"ticker": "DPLM.L", "yahoo": "DPLM.L", "precio": 7355.98, "divisa": "GBp", "ts": 1787757754, "exchange": "LSE", "nombre": "Diploma PLC", "min_1m": 7105.0, "max_1m": 7700.0}
+{"ticker": "DPZ", "yahoo": "DPZ", "precio": 344.225, "divisa": "USD", "ts": 1787758575, "exchange": "NasdaqGS", "nombre": "Domino's Pizza, Inc.", "min_1m": 334.3699951171875, "max_1m": 367.6300048828125}
+{"ticker": "DRI", "yahoo": "DRI", "precio": 219.02, "divisa": "USD", "ts": 1787758631, "exchange": "NYSE", "nombre": "Darden Restaurants, Inc.", "min_1m": 203.5800018310547, "max_1m": 227.67999267578125}
+{"ticker": "DSG", "yahoo": "DSG", "precio": 0.0, "divisa": null, "ts": 1561759658, "exchange": "YHD", "nombre": "2180"}
+{"ticker": "DSV.CO", "yahoo": "DSV.CO", "precio": 1375.0, "divisa": "DKK", "ts": 1787756381, "exchange": "Copenhagen", "nombre": "DSV A/S", "min_1m": 1333.5, "max_1m": 1437.0}
+{"ticker": "DSY.PA", "yahoo": "DSY.PA", "precio": 22.54, "divisa": "EUR", "ts": 1787757752, "exchange": "Paris", "nombre": "Dassault Syst\u00e8mes SE", "min_1m": 20.049999237060547, "max_1m": 22.65999984741211}
+{"ticker": "DTE.DE", "yahoo": "DTE.DE", "precio": 28.93, "divisa": "EUR", "ts": 1787757746, "exchange": "XETRA", "nombre": "Deutsche Telekom AG", "min_1m": 26.760000228881836, "max_1m": 29.18000030517578}
+{"ticker": "DXCM", "yahoo": "DXCM", "precio": 88.265, "divisa": "USD", "ts": 1787758645, "exchange": "NasdaqGS", "nombre": "DexCom, Inc.", "min_1m": 73.37000274658203, "max_1m": 92.33999633789062}
+{"ticker": "EBAY", "yahoo": "EBAY", "precio": 104.57, "divisa": "USD", "ts": 1787758635, "exchange": "NasdaqGS", "nombre": "eBay Inc.", "min_1m": 100.94000244140625, "max_1m": 117.44000244140625}
+{"ticker": "ECL", "yahoo": "ECL", "precio": 291.802, "divisa": "USD", "ts": 1787758618, "exchange": "NYSE", "nombre": "Ecolab Inc.", "min_1m": 271.3800048828125, "max_1m": 291.8023986816406}
+{"ticker": "EMR", "yahoo": "EMR", "precio": 156.845, "divisa": "USD", "ts": 1787758657, "exchange": "NYSE", "nombre": "Emerson Electric Co.", "min_1m": 145.72999572753906, "max_1m": 164.3800048828125}
+{"ticker": "ERIE", "yahoo": "ERIE", "precio": 253.678, "divisa": "USD", "ts": 1787758324, "exchange": "NasdaqGS", "nombre": "Erie Indemnity Company", "min_1m": 228.25999450683594, "max_1m": 268.6400146484375}
+{"ticker": "ETN", "yahoo": "ETN", "precio": 416.79, "divisa": "USD", "ts": 1787758662, "exchange": "NYSE", "nombre": "Eaton Corporation plc", "min_1m": 361.8800048828125, "max_1m": 459.9599914550781}
+{"ticker": "EXR", "yahoo": "EXR", "precio": 145.025, "divisa": "USD", "ts": 1787758636, "exchange": "NYSE", "nombre": "Extra Space Storage Inc.", "min_1m": 144.8699951171875, "max_1m": 152.85000610351562}
+{"ticker": "FAST", "yahoo": "FAST", "precio": 51.235, "divisa": "USD", "ts": 1787758667, "exchange": "NasdaqGS", "nombre": "Fastenal Company", "min_1m": 46.65999984741211, "max_1m": 52.380001068115234}
+{"ticker": "FER.MC", "yahoo": "FER.MC", "precio": 51.54, "divisa": "EUR", "ts": 1787757761, "exchange": "MCE", "nombre": "Ferrovial N.V.", "min_1m": 51.540000915527344, "max_1m": 57.779998779296875}
+{"ticker": "FFIV", "yahoo": "FFIV", "precio": 394.4, "divisa": "USD", "ts": 1787758597, "exchange": "NasdaqGS", "nombre": "F5, Inc.", "min_1m": 377.7900085449219, "max_1m": 422.95001220703125}
+{"ticker": "FTV", "yahoo": "FTV", "precio": 60.56, "divisa": "USD", "ts": 1787758601, "exchange": "NYSE", "nombre": "Fortive Corporation", "min_1m": 58.47999954223633, "max_1m": 64.08999633789062}
+{"ticker": "GALD.SW", "yahoo": "GALD.SW", "precio": 170.35, "divisa": "CHF", "ts": 1787757595, "exchange": "Swiss", "nombre": "Galderma Group AG", "min_1m": 169.1999969482422, "max_1m": 181.35000610351562}
+{"ticker": "GAW.L", "yahoo": "GAW.L", "precio": 18750.0, "divisa": "GBp", "ts": 1787757761, "exchange": "LSE", "nombre": "Games Workshop Group PLC", "min_1m": 18510.0, "max_1m": 20220.0}
+{"ticker": "GD", "yahoo": "GD", "precio": 380.57, "divisa": "USD", "ts": 1787758658, "exchange": "NYSE", "nombre": "General Dynamics Corporation", "min_1m": 376.5799865722656, "max_1m": 395.9700012207031}
+{"ticker": "GE", "yahoo": "GE", "precio": 354.23, "divisa": "USD", "ts": 1787758675, "exchange": "NYSE", "nombre": "GE Aerospace", "min_1m": 341.8399963378906, "max_1m": 381.2200012207031}
+{"ticker": "GEBN.SW", "yahoo": "GEBN.SW", "precio": 587.4, "divisa": "CHF", "ts": 1787757595, "exchange": "Swiss", "nombre": "Geberit AG", "min_1m": 517.5999755859375, "max_1m": 587.4000244140625}
+{"ticker": "GEHC", "yahoo": "GEHC", "precio": 73.63, "divisa": "USD", "ts": 1787758677, "exchange": "NasdaqGS", "nombre": "GE HealthCare Technologies Inc.", "min_1m": 61.119998931884766, "max_1m": 74.81999969482422}
+{"ticker": "GEN", "yahoo": "GEN", "precio": 29.235, "divisa": "USD", "ts": 1787758671, "exchange": "NasdaqGS", "nombre": "Gen Digital Inc.", "min_1m": 26.739999771118164, "max_1m": 29.56999969482422}
+{"ticker": "GEV", "yahoo": "GEV", "precio": 939.205, "divisa": "USD", "ts": 1787758678, "exchange": "NYSE", "nombre": "GE Vernova Inc.", "min_1m": 900.280029296875, "max_1m": 1079.0}
+{"ticker": "GGG", "yahoo": "GGG", "precio": 79.73, "divisa": "USD", "ts": 1787758676, "exchange": "NYSE", "nombre": "Graco Inc.", "min_1m": 78.69999694824219, "max_1m": 83.54000091552734}
+{"ticker": "GILD", "yahoo": "GILD", "precio": 148.51, "divisa": "USD", "ts": 1787758670, "exchange": "NasdaqGS", "nombre": "Gilead Sciences, Inc.", "min_1m": 130.2100067138672, "max_1m": 148.77000427246094}
+{"ticker": "GL", "yahoo": "GL", "precio": 173.955, "divisa": "USD", "ts": 1787758680, "exchange": "NYSE", "nombre": "Globe Life Inc.", "min_1m": 170.49000549316406, "max_1m": 186.02000427246094}
+{"ticker": "GLW", "yahoo": "GLW", "precio": 149.44, "divisa": "USD", "ts": 1787758681, "exchange": "NYSE", "nombre": "Corning Incorporated", "min_1m": 124.05000305175781, "max_1m": 173.2100067138672}
+{"ticker": "GOOG", "yahoo": "GOOG", "precio": 338.605, "divisa": "USD", "ts": 1787758680, "exchange": "NasdaqGS", "nombre": "Alphabet Inc.", "min_1m": 326.57000732421875, "max_1m": 375.3500061035156}
+{"ticker": "GS", "yahoo": "GS", "precio": 1042.67, "divisa": "USD", "ts": 1787758623, "exchange": "NYSE", "nombre": "The Goldman Sachs Group, Inc.", "min_1m": 980.75, "max_1m": 1060.3800048828125}
+{"ticker": "GSK.L", "yahoo": "GSK.L", "precio": 1901.5, "divisa": "GBp", "ts": 1787757783, "exchange": "LSE", "nombre": "GSK plc", "min_1m": 1817.5, "max_1m": 2029.0}
+{"ticker": "GWW", "yahoo": "GWW", "precio": 1331.495, "divisa": "USD", "ts": 1787758622, "exchange": "NYSE", "nombre": "W.W. Grainger, Inc.", "min_1m": 1277.550048828125, "max_1m": 1398.949951171875}
+{"ticker": "HCA", "yahoo": "HCA", "precio": 425.38, "divisa": "USD", "ts": 1787758681, "exchange": "NYSE", "nombre": "HCA Healthcare, Inc.", "min_1m": 389.6199951171875, "max_1m": 429.239990234375}
+{"ticker": "HDB", "yahoo": "HDB", "precio": 23.43, "divisa": "USD", "ts": 1787758688, "exchange": "NYSE", "nombre": "HDFC Bank Limited", "min_1m": 23.100000381469727, "max_1m": 24.139999389648438}
+{"ticker": "HEI", "yahoo": "HEI", "precio": 344.57, "divisa": "USD", "ts": 1787758686, "exchange": "NYSE", "nombre": "HEICO Corporation", "min_1m": 344.57000732421875, "max_1m": 374.6700134277344}
+{"ticker": "HEIA.AS", "yahoo": "HEIA.AS", "precio": 72.52, "divisa": "EUR", "ts": 1787757758, "exchange": "Amsterdam", "nombre": "Heineken N.V.", "min_1m": 71.77999877929688, "max_1m": 80.0199966430664}
+{"ticker": "HLMA.L", "yahoo": "HLMA.L", "precio": 3614.0, "divisa": "GBp", "ts": 1787757771, "exchange": "LSE", "nombre": "Halma plc", "min_1m": 3410.0, "max_1m": 3802.0}
+{"ticker": "HLN.L", "yahoo": "HLN.L", "precio": 373.7, "divisa": "GBp", "ts": 1787757762, "exchange": "LSE", "nombre": "Haleon plc", "min_1m": 350.20001220703125, "max_1m": 380.8999938964844}
+{"ticker": "HLT", "yahoo": "HLT", "precio": 332.557, "divisa": "USD", "ts": 1787758690, "exchange": "NYSE", "nombre": "Hilton Worldwide Holdings Inc.", "min_1m": 311.0, "max_1m": 334.7300109863281}
+{"ticker": "HO.PA", "yahoo": "HO.PA", "precio": 250.1, "divisa": "EUR", "ts": 1787757791, "exchange": "Paris", "nombre": "Thales S.A.", "min_1m": 243.3000030517578, "max_1m": 271.8999938964844}
+{"ticker": "HON", "yahoo": "HON", "precio": 218.325, "divisa": "USD", "ts": 1787758648, "exchange": "NasdaqGS", "nombre": "Honeywell International Inc.", "min_1m": 214.77000427246094, "max_1m": 248.7899932861328}
+{"ticker": "HWM", "yahoo": "HWM", "precio": 269.34, "divisa": "USD", "ts": 1787758667, "exchange": "NYSE", "nombre": "Howmet Aerospace Inc.", "min_1m": 263.2900085449219, "max_1m": 292.6499938964844}
+{"ticker": "IBM", "yahoo": "IBM", "precio": 229.865, "divisa": "USD", "ts": 1787758689, "exchange": "NYSE", "nombre": "International Business Machines Corporation", "min_1m": 216.27999877929688, "max_1m": 238.4199981689453}
+{"ticker": "IEX", "yahoo": "IEX", "precio": 234.8, "divisa": "USD", "ts": 1787758624, "exchange": "NYSE", "nombre": "IDEX Corporation", "min_1m": 223.8300018310547, "max_1m": 240.52000427246094}
+{"ticker": "IFX.DE", "yahoo": "IFX.DE", "precio": 55.11, "divisa": "EUR", "ts": 1787757793, "exchange": "XETRA", "nombre": "Infineon Technologies AG", "min_1m": 54.15999984741211, "max_1m": 63.720001220703125}
+{"ticker": "IHG.L", "yahoo": "IHG.L", "precio": 164.85, "divisa": "USD", "ts": 1787757781, "exchange": "LSE", "nombre": "InterContinental Hotels Group PLC", "min_1m": 155.5500030517578, "max_1m": 164.85000610351562}
+{"ticker": "IMB.L", "yahoo": "IMB.L", "precio": 2562.198, "divisa": "GBp", "ts": 1787757791, "exchange": "LSE", "nombre": "Imperial Brands PLC", "min_1m": 2503.0, "max_1m": 2929.0}
+{"ticker": "IQV", "yahoo": "IQV", "precio": 261.08, "divisa": "USD", "ts": 1787758666, "exchange": "NYSE", "nombre": "IQVIA Holdings Inc.", "min_1m": 213.22000122070312, "max_1m": 261.0799865722656}
+{"ticker": "IR", "yahoo": "IR", "precio": 80.51, "divisa": "USD", "ts": 1787758699, "exchange": "NYSE", "nombre": "Ingersoll Rand Inc.", "min_1m": 78.56999969482422, "max_1m": 90.0}
+{"ticker": "ITW", "yahoo": "ITW", "precio": 285.39, "divisa": "USD", "ts": 1787758699, "exchange": "NYSE", "nombre": "Illinois Tool Works Inc.", "min_1m": 281.6499938964844, "max_1m": 297.32000732421875}
+{"ticker": "JBHT", "yahoo": "JBHT", "precio": 263.665, "divisa": "USD", "ts": 1787758320, "exchange": "NasdaqGS", "nombre": "J.B. Hunt Transport Services, Inc.", "min_1m": 259.8800048828125, "max_1m": 283.3699951171875}
+{"ticker": "JPM", "yahoo": "JPM", "precio": 355.58, "divisa": "USD", "ts": 1787758702, "exchange": "NYSE", "nombre": "JPMorgan Chase & Co.", "min_1m": 344.7099914550781, "max_1m": 365.17999267578125}
+{"ticker": "KDP", "yahoo": "KDP", "precio": 31.94, "divisa": "USD", "ts": 1787758704, "exchange": "NasdaqGS", "nombre": "Keurig Dr Pepper Inc.", "min_1m": 29.18000030517578, "max_1m": 32.5099983215332}
+{"ticker": "KEYS", "yahoo": "KEYS", "precio": 325.795, "divisa": "USD", "ts": 1787758656, "exchange": "NYSE", "nombre": "Keysight Technologies, Inc.", "min_1m": 296.7200012207031, "max_1m": 361.1499938964844}
+{"ticker": "KKR", "yahoo": "KKR", "precio": 107.98, "divisa": "USD", "ts": 1787758684, "exchange": "NYSE", "nombre": "KKR & Co. Inc.", "min_1m": 99.27999877929688, "max_1m": 115.30000305175781}
+{"ticker": "KMB", "yahoo": "KMB", "precio": 110.82, "divisa": "USD", "ts": 1787758705, "exchange": "NasdaqGS", "nombre": "Kimberly-Clark Corporation", "min_1m": 107.55999755859375, "max_1m": 113.20999908447266}
+{"ticker": "KMI", "yahoo": "KMI", "precio": 32.03, "divisa": "USD", "ts": 1787758701, "exchange": "NYSE", "nombre": "Kinder Morgan, Inc.", "min_1m": 30.850000381469727, "max_1m": 32.869998931884766}
+{"ticker": "KNIN.SW", "yahoo": "KNIN.SW", "precio": 221.2, "divisa": "CHF", "ts": 1787757591, "exchange": "Swiss", "nombre": "Kuehne + Nagel International AG", "min_1m": 197.64999389648438, "max_1m": 221.1999969482422}
+{"ticker": "KO", "yahoo": "KO", "precio": 90.565, "divisa": "USD", "ts": 1787758706, "exchange": "NYSE", "nombre": "The Coca-Cola Company", "min_1m": 84.06999969482422, "max_1m": 91.98999786376953}
+{"ticker": "KXS", "yahoo": "KXS", "precio": null, "divisa": null, "ts": null, "exchange": "NasdaqGS", "nombre": ""}
+{"ticker": "LHX", "yahoo": "LHX", "precio": 261.425, "divisa": "USD", "ts": 1787758686, "exchange": "NYSE", "nombre": "L3Harris Technologies, Inc.", "min_1m": 261.42498779296875, "max_1m": 305.20001220703125}
+{"ticker": "LII", "yahoo": "LII", "precio": 396.12, "divisa": "USD", "ts": 1787758613, "exchange": "NYSE", "nombre": "Lennox International Inc.", "min_1m": 389.05999755859375, "max_1m": 547.3499755859375}
+{"ticker": "LISP.SW", "yahoo": "LISP.SW", "precio": 9085.0, "divisa": "CHF", "ts": 1787757485, "exchange": "Swiss", "nombre": "Chocoladefabriken Lindt & Spr\u00fcngli AG", "min_1m": 9075.0, "max_1m": 9585.0}
+{"ticker": "LMT", "yahoo": "LMT", "precio": 565.86, "divisa": "USD", "ts": 1787758678, "exchange": "NYSE", "nombre": "Lockheed Martin Corporation", "min_1m": 556.52001953125, "max_1m": 608.6799926757812}
+{"ticker": "LR.PA", "yahoo": "LR.PA", "precio": 137.4, "divisa": "EUR", "ts": 1787757774, "exchange": "Paris", "nombre": "Legrand SA", "min_1m": 128.6999969482422, "max_1m": 142.6999969482422}
+{"ticker": "LSEGL", "yahoo": "LSEGL", "error": "HTTP Error 404: Not Found"}
+{"ticker": "MAR", "yahoo": "MAR", "precio": 358.49, "divisa": "USD", "ts": 1787758710, "exchange": "NasdaqGS", "nombre": "Marriott International, Inc.", "min_1m": 345.20001220703125, "max_1m": 383.5199890136719}
+{"ticker": "MDLZ", "yahoo": "MDLZ", "precio": 63.225, "divisa": "USD", "ts": 1787758711, "exchange": "NasdaqGS", "nombre": "Mondelez International, Inc.", "min_1m": 60.66999816894531, "max_1m": 64.98999786376953}
+{"ticker": "MKC", "yahoo": "MKC", "precio": 54.2, "divisa": "USD", "ts": 1787758719, "exchange": "NYSE", "nombre": "McCormick & Company, Incorporated", "min_1m": 50.61000061035156, "max_1m": 56.47999954223633}
+{"ticker": "MO", "yahoo": "MO", "precio": 68.935, "divisa": "USD", "ts": 1787758720, "exchange": "NYSE", "nombre": "Altria Group, Inc.", "min_1m": 63.959999084472656, "max_1m": 74.91999816894531}
+{"ticker": "MORN", "yahoo": "MORN", "precio": 212.065, "divisa": "USD", "ts": 1787758028, "exchange": "NasdaqGS", "nombre": "Morningstar, Inc.", "min_1m": 182.42999267578125, "max_1m": 217.5}
+{"ticker": "MRK.DE", "yahoo": "MRK.DE", "precio": 139.1, "divisa": "EUR", "ts": 1787757796, "exchange": "XETRA", "nombre": "Merck KGaA", "min_1m": 136.3000030517578, "max_1m": 146.35000610351562}
+{"ticker": "MS", "yahoo": "MS", "precio": 212.725, "divisa": "USD", "ts": 1787758691, "exchange": "NYSE", "nombre": "Morgan Stanley", "min_1m": 203.1300048828125, "max_1m": 218.3800048828125}
+{"ticker": "NEE", "yahoo": "NEE", "precio": 84.3, "divisa": "USD", "ts": 1787758718, "exchange": "NYSE", "nombre": "NextEra Energy, Inc.", "min_1m": 83.6500015258789, "max_1m": 89.27999877929688}
+{"ticker": "NKE", "yahoo": "NKE", "precio": 38.505, "divisa": "USD", "ts": 1787758723, "exchange": "NYSE", "nombre": "NIKE, Inc.", "min_1m": 38.505001068115234, "max_1m": 43.220001220703125}
+{"ticker": "NOC", "yahoo": "NOC", "precio": 551.51, "divisa": "USD", "ts": 1787758630, "exchange": "NYSE", "nombre": "Northrop Grumman Corporation", "min_1m": 534.8499755859375, "max_1m": 589.1400146484375}
+{"ticker": "NOVN.SW", "yahoo": "NOVN.SW", "precio": 127.38, "divisa": "CHF", "ts": 1787757598, "exchange": "Swiss", "nombre": "Novartis AG", "min_1m": 122.44000244140625, "max_1m": 130.39999389648438}
+{"ticker": "NSC", "yahoo": "NSC", "precio": 354.8, "divisa": "USD", "ts": 1787758714, "exchange": "NYSE", "nombre": "Norfolk Southern Corporation", "min_1m": 333.92999267578125, "max_1m": 354.79998779296875}
+{"ticker": "NTRS", "yahoo": "NTRS", "precio": 186.4, "divisa": "USD", "ts": 1787758717, "exchange": "NasdaqGS", "nombre": "Northern Trust Corporation", "min_1m": 177.64999389648438, "max_1m": 191.47000122070312}
+{"ticker": "NUE", "yahoo": "NUE", "precio": 252.94, "divisa": "USD", "ts": 1787758693, "exchange": "NYSE", "nombre": "Nucor Corporation", "min_1m": 240.47999572753906, "max_1m": 274.739990234375}
+{"ticker": "NVR", "yahoo": "NVR", "precio": 6378.98, "divisa": "USD", "ts": 1787758656, "exchange": "NYSE", "nombre": "NVR, Inc.", "min_1m": 6147.0498046875, "max_1m": 6471.3701171875}
+{"ticker": "O", "yahoo": "O", "precio": 62.57, "divisa": "USD", "ts": 1787758717, "exchange": "NYSE", "nombre": "Realty Income Corporation", "min_1m": 61.88999938964844, "max_1m": 65.7300033569336}
+{"ticker": "ORLY", "yahoo": "ORLY", "precio": 90.215, "divisa": "USD", "ts": 1787758701, "exchange": "NasdaqGS", "nombre": "O'Reilly Automotive, Inc.", "min_1m": 87.36000061035156, "max_1m": 93.52999877929688}
+{"ticker": "OTIS", "yahoo": "OTIS", "precio": 72.565, "divisa": "USD", "ts": 1787758733, "exchange": "NYSE", "nombre": "Otis Worldwide Corporation", "min_1m": 70.3499984741211, "max_1m": 73.98999786376953}
+{"ticker": "P911.DE", "yahoo": "P911.DE", "precio": 43.12, "divisa": "EUR", "ts": 1787757826, "exchange": "XETRA", "nombre": "Dr. Ing. h.c. F. Porsche AG", "min_1m": 42.439998626708984, "max_1m": 45.0099983215332}
+{"ticker": "PCAR", "yahoo": "PCAR", "precio": 129.65, "divisa": "USD", "ts": 1787758729, "exchange": "NasdaqGS", "nombre": "PACCAR Inc", "min_1m": 127.47000122070312, "max_1m": 138.2100067138672}
+{"ticker": "PEP", "yahoo": "PEP", "precio": 142.25, "divisa": "USD", "ts": 1787758726, "exchange": "NasdaqGS", "nombre": "PepsiCo, Inc.", "min_1m": 137.72999572753906, "max_1m": 144.6699981689453}
+{"ticker": "PGR", "yahoo": "PGR", "precio": 222.21, "divisa": "USD", "ts": 1787758699, "exchange": "NYSE", "nombre": "The Progressive Corporation", "min_1m": 203.83999633789062, "max_1m": 223.9199981689453}
+{"ticker": "PH", "yahoo": "PH", "precio": 1041.275, "divisa": "USD", "ts": 1787758725, "exchange": "NYSE", "nombre": "Parker-Hannifin Corporation", "min_1m": 951.0700073242188, "max_1m": 1073.8699951171875}
+{"ticker": "PKG", "yahoo": "PKG", "precio": 248.52, "divisa": "USD", "ts": 1787758440, "exchange": "NYSE", "nombre": "Packaging Corporation of America", "min_1m": 245.83999633789062, "max_1m": 257.42999267578125}
+{"ticker": "PLD", "yahoo": "PLD", "precio": 143.23, "divisa": "USD", "ts": 1787758715, "exchange": "NYSE", "nombre": "Prologis, Inc.", "min_1m": 138.75999450683594, "max_1m": 147.25999450683594}
+{"ticker": "PODD", "yahoo": "PODD", "precio": 142.77, "divisa": "USD", "ts": 1787758740, "exchange": "NasdaqGS", "nombre": "Insulet Corporation", "min_1m": 133.25999450683594, "max_1m": 170.6199951171875}
+{"ticker": "PRX.AS", "yahoo": "PRX.AS", "precio": 37.975, "divisa": "EUR", "ts": 1787757826, "exchange": "Amsterdam", "nombre": "Prosus N.V.", "min_1m": 36.959999084472656, "max_1m": 42.47999954223633}
+{"ticker": "PRY.MI", "yahoo": "PRY.MI", "precio": 121.6, "divisa": "EUR", "ts": 1787757840, "exchange": "Milan", "nombre": "Prysmian S.p.A.", "min_1m": 114.69999694824219, "max_1m": 131.39999389648438}
+{"ticker": "PSA", "yahoo": "PSA", "precio": 321.48, "divisa": "USD", "ts": 1787758716, "exchange": "NYSE", "nombre": "Public Storage", "min_1m": 317.45001220703125, "max_1m": 330.4700012207031}
+{"ticker": "PWR", "yahoo": "PWR", "precio": 612.66, "divisa": "USD", "ts": 1787758731, "exchange": "NYSE", "nombre": "Quanta Services, Inc.", "min_1m": 561.1400146484375, "max_1m": 722.3099975585938}
+{"ticker": "PYPL", "yahoo": "PYPL", "precio": 61.9, "divisa": "USD", "ts": 1787758740, "exchange": "NasdaqGS", "nombre": "PayPal Holdings, Inc.", "min_1m": 56.06999969482422, "max_1m": 62.29999923706055}
+{"ticker": "RACE.MI", "yahoo": "RACE.MI", "precio": 357.15, "divisa": "EUR", "ts": 1787757814, "exchange": "Milan", "nombre": "Ferrari N.V.", "min_1m": 331.79998779296875, "max_1m": 371.1000061035156}
+{"ticker": "RCL", "yahoo": "RCL", "precio": 291.4, "divisa": "USD", "ts": 1787758746, "exchange": "NYSE", "nombre": "Royal Caribbean Cruises Ltd.", "min_1m": 287.6199951171875, "max_1m": 327.4200134277344}
+{"ticker": "REA.AX", "yahoo": "REA.AX", "precio": 177.25, "divisa": "AUD", "ts": 1787724616, "exchange": "ASX", "nombre": "REA Group Limited", "min_1m": 156.19000244140625, "max_1m": 179.30999755859375}
+{"ticker": "RHM.DE", "yahoo": "RHM.DE", "precio": 1145.4, "divisa": "EUR", "ts": 1787757841, "exchange": "XETRA", "nombre": "Rheinmetall AG", "min_1m": 1050.5999755859375, "max_1m": 1214.0}
+{"ticker": "RKT.L", "yahoo": "RKT.L", "precio": 5174.0, "divisa": "GBp", "ts": 1787757835, "exchange": "LSE", "nombre": "Reckitt Benckiser Group plc", "min_1m": 4990.0, "max_1m": 5400.0}
+{"ticker": "RMV.L", "yahoo": "RMV.L", "precio": 511.2, "divisa": "GBp", "ts": 1787757835, "exchange": "LSE", "nombre": "Rightmove plc", "min_1m": 456.79998779296875, "max_1m": 514.5999755859375}
+{"ticker": "RO.SW", "yahoo": "RO.SW", "precio": 375.6, "divisa": "CHF", "ts": 1787757437, "exchange": "Swiss", "nombre": "Roche Holding AG", "min_1m": 358.6000061035156, "max_1m": 379.6000061035156}
+{"ticker": "ROG.SW", "yahoo": "ROG.SW", "error": "HTTP Error 404: Not Found"}
+{"ticker": "ROK", "yahoo": "ROK", "precio": 430.585, "divisa": "USD", "ts": 1787758752, "exchange": "NYSE", "nombre": "Rockwell Automation, Inc.", "min_1m": 429.3999938964844, "max_1m": 480.9800109863281}
+{"ticker": "ROST", "yahoo": "ROST", "precio": 236.29, "divisa": "USD", "ts": 1787758735, "exchange": "NasdaqGS", "nombre": "Ross Stores, Inc.", "min_1m": 228.99000549316406, "max_1m": 255.22999572753906}
+{"ticker": "RR.L", "yahoo": "RR.L", "precio": 1543.6, "divisa": "GBp", "ts": 1787757851, "exchange": "LSE", "nombre": "Rolls-Royce Holdings plc", "min_1m": 1380.0, "max_1m": 1570.4000244140625}
+{"ticker": "RSG", "yahoo": "RSG", "precio": 221.715, "divisa": "USD", "ts": 1787758736, "exchange": "NYSE", "nombre": "Republic Services, Inc.", "min_1m": 207.02000427246094, "max_1m": 223.0800018310547}
+{"ticker": "RTX", "yahoo": "RTX", "precio": 211.85, "divisa": "USD", "ts": 1787758740, "exchange": "NYSE", "nombre": "RTX Corporation", "min_1m": 209.22000122070312, "max_1m": 225.49000549316406}
+{"ticker": "SAN.PA", "yahoo": "SAN.PA", "precio": 78.43, "divisa": "EUR", "ts": 1787757853, "exchange": "Paris", "nombre": "Sanofi", "min_1m": 72.7699966430664, "max_1m": 79.91999816894531}
+{"ticker": "SAND.ST", "yahoo": "SAND.ST", "precio": 394.5, "divisa": "SEK", "ts": 1787758189, "exchange": "Stockholm", "nombre": "Sandvik AB (publ)", "min_1m": 346.79998779296875, "max_1m": 394.79998779296875}
+{"ticker": "SBAC", "yahoo": "SBAC", "precio": 188.01, "divisa": "USD", "ts": 1787758611, "exchange": "NasdaqGS", "nombre": "SBA Communications Corporation", "min_1m": 172.61000061035156, "max_1m": 188.00999450683594}
+{"ticker": "SBUX", "yahoo": "SBUX", "precio": 107.03, "divisa": "USD", "ts": 1787758741, "exchange": "NasdaqGS", "nombre": "Starbucks Corporation", "min_1m": 103.0999984741211, "max_1m": 108.55000305175781}
+{"ticker": "SCHN.SW", "yahoo": "SCHN.SW", "precio": 258.0, "divisa": "CHF", "ts": 1787757595, "exchange": "Swiss", "nombre": "Schindler Holding AG", "min_1m": 244.5, "max_1m": 258.5}
+{"ticker": "SCHW", "yahoo": "SCHW", "precio": 108.637, "divisa": "USD", "ts": 1787758761, "exchange": "NYSE", "nombre": "The Charles Schwab Corporation", "min_1m": 104.18000030517578, "max_1m": 113.6500015258789}
+{"ticker": "SCMN.SW", "yahoo": "SCMN.SW", "precio": 637.5, "divisa": "CHF", "ts": 1787757599, "exchange": "Swiss", "nombre": "Swisscom AG", "min_1m": 616.0, "max_1m": 643.0}
+{"ticker": "SHOP", "yahoo": "SHOP", "precio": 151.48, "divisa": "USD", "ts": 1787758762, "exchange": "NasdaqGS", "nombre": "Shopify Inc.", "min_1m": 117.01000213623047, "max_1m": 158.52999877929688}
+{"ticker": "SHW", "yahoo": "SHW", "precio": 349.755, "divisa": "USD", "ts": 1787758681, "exchange": "NYSE", "nombre": "The Sherwin-Williams Company", "min_1m": 327.2699890136719, "max_1m": 369.7300109863281}
+{"ticker": "SIKA.SW", "yahoo": "SIKA.SW", "precio": 193.15, "divisa": "CHF", "ts": 1787757590, "exchange": "Swiss", "nombre": "Sika AG", "min_1m": 161.25, "max_1m": 195.5}
+{"ticker": "SJM", "yahoo": "SJM", "precio": 128.84, "divisa": "USD", "ts": 1787758762, "exchange": "NYSE", "nombre": "The J. M. Smucker Company", "min_1m": 117.33999633789062, "max_1m": 128.83999633789062}
+{"ticker": "SLB", "yahoo": "SLB", "precio": 53.415, "divisa": "USD", "ts": 1787758763, "exchange": "NYSE", "nombre": "SLB N.V.", "min_1m": 48.90999984741211, "max_1m": 54.0}
+{"ticker": "SNA", "yahoo": "SNA", "precio": 398.345, "divisa": "USD", "ts": 1787758598, "exchange": "NYSE", "nombre": "Snap-on Incorporated", "min_1m": 391.2699890136719, "max_1m": 419.30999755859375}
+{"ticker": "SO", "yahoo": "SO", "precio": 90.13, "divisa": "USD", "ts": 1787758761, "exchange": "NYSE", "nombre": "The Southern Company", "min_1m": 88.94000244140625, "max_1m": 96.77999877929688}
+{"ticker": "SPG", "yahoo": "SPG", "precio": 218.28, "divisa": "USD", "ts": 1787758726, "exchange": "NYSE", "nombre": "Simon Property Group, Inc.", "min_1m": 218.27999877929688, "max_1m": 236.6999969482422}
+{"ticker": "SPX.L", "yahoo": "SPX.L", "precio": 7270.0, "divisa": "GBp", "ts": 1787757747, "exchange": "LSE", "nombre": "Spirax Group plc", "min_1m": 6925.0, "max_1m": 7650.0}
+{"ticker": "STE", "yahoo": "STE", "precio": 236.41, "divisa": "USD", "ts": 1787758762, "exchange": "NYSE", "nombre": "STERIS plc", "min_1m": 218.39999389648438, "max_1m": 238.91000366210938}
+{"ticker": "STLD", "yahoo": "STLD", "precio": 235.41, "divisa": "USD", "ts": 1787758716, "exchange": "NasdaqGS", "nombre": "Steel Dynamics, Inc.", "min_1m": 219.0, "max_1m": 268.6000061035156}
+{"ticker": "STZ", "yahoo": "STZ", "precio": 134.85, "divisa": "USD", "ts": 1787758771, "exchange": "NYSE", "nombre": "Constellation Brands, Inc.", "min_1m": 129.7100067138672, "max_1m": 139.17999267578125}
+{"ticker": "SWK", "yahoo": "SWK", "precio": 99.395, "divisa": "USD", "ts": 1787758728, "exchange": "NYSE", "nombre": "Stanley Black & Decker, Inc.", "min_1m": 93.05000305175781, "max_1m": 104.0}
+{"ticker": "SYY", "yahoo": "SYY", "precio": 83.675, "divisa": "USD", "ts": 1787758718, "exchange": "NYSE", "nombre": "Sysco Corporation", "min_1m": 81.8499984741211, "max_1m": 85.31999969482422}
+{"ticker": "TDY", "yahoo": "TDY", "precio": 637.37, "divisa": "USD", "ts": 1787758756, "exchange": "NYSE", "nombre": "Teledyne Technologies Incorporated", "min_1m": 625.2100219726562, "max_1m": 691.2999877929688}
+{"ticker": "TEL", "yahoo": "TEL", "precio": 203.9, "divisa": "USD", "ts": 1787758726, "exchange": "NYSE", "nombre": "TE Connectivity plc", "min_1m": 200.5399932861328, "max_1m": 218.69000244140625}
+{"ticker": "TMUS", "yahoo": "TMUS", "precio": 181.22, "divisa": "USD", "ts": 1787758757, "exchange": "NasdaqGS", "nombre": "T-Mobile US, Inc.", "min_1m": 172.7100067138672, "max_1m": 183.3800048828125}
+{"ticker": "TPR", "yahoo": "TPR", "precio": 130.395, "divisa": "USD", "ts": 1787758770, "exchange": "NYSE", "nombre": "Tapestry, Inc.", "min_1m": 128.38999938964844, "max_1m": 164.77999877929688}
+{"ticker": "TRGP", "yahoo": "TRGP", "precio": 292.63, "divisa": "USD", "ts": 1787758760, "exchange": "NYSE", "nombre": "Targa Resources Corp.", "min_1m": 256.8699951171875, "max_1m": 302.25}
+{"ticker": "TRMB", "yahoo": "TRMB", "precio": 59.21, "divisa": "USD", "ts": 1787758762, "exchange": "NasdaqGS", "nombre": "Trimble Inc.", "min_1m": 55.689998626708984, "max_1m": 60.66999816894531}
+{"ticker": "TROW", "yahoo": "TROW", "precio": 111.925, "divisa": "USD", "ts": 1787758757, "exchange": "NasdaqGS", "nombre": "T. Rowe Price Group, Inc.", "min_1m": 110.31999969482422, "max_1m": 121.68000030517578}
+{"ticker": "TT", "yahoo": "TT", "precio": 463.095, "divisa": "USD", "ts": 1787758714, "exchange": "NYSE", "nombre": "Trane Technologies plc", "min_1m": 440.2799987792969, "max_1m": 483.9599914550781}
+{"ticker": "TTD", "yahoo": "TTD", "precio": 13.03, "divisa": "USD", "ts": 1787758777, "exchange": "NasdaqGM", "nombre": "The Trade Desk, Inc.", "min_1m": 13.029899597167969, "max_1m": 19.34000015258789}
+{"ticker": "TTWO", "yahoo": "TTWO", "precio": 232.76, "divisa": "USD", "ts": 1787758784, "exchange": "NasdaqGS", "nombre": "Take-Two Interactive Software, Inc.", "min_1m": 232.47000122070312, "max_1m": 253.57000732421875}
+{"ticker": "UBER", "yahoo": "UBER", "precio": 79.64, "divisa": "USD", "ts": 1787758784, "exchange": "NYSE", "nombre": "Uber Technologies, Inc.", "min_1m": 68.18000030517578, "max_1m": 80.3499984741211}
+{"ticker": "UCB.BR", "yahoo": "UCB.BR", "precio": 220.9, "divisa": "EUR", "ts": 1787757695, "exchange": "Brussels", "nombre": "UCB SA", "min_1m": 212.3000030517578, "max_1m": 250.89999389648438}
+{"ticker": "ULTA", "yahoo": "ULTA", "precio": 532.94, "divisa": "USD", "ts": 1787758759, "exchange": "NasdaqGS", "nombre": "Ulta Beauty, Inc.", "min_1m": 480.510009765625, "max_1m": 565.1500244140625}
+{"ticker": "ULVR.L", "yahoo": "ULVR.L", "precio": 4785.5, "divisa": "GBp", "ts": 1787757886, "exchange": "LSE", "nombre": "Unilever PLC", "min_1m": 4512.5, "max_1m": 4998.0}
+{"ticker": "UNH", "yahoo": "UNH", "precio": 401.66, "divisa": "USD", "ts": 1787758789, "exchange": "NYSE", "nombre": "UnitedHealth Group Incorporated", "min_1m": 384.8500061035156, "max_1m": 428.7900085449219}
+{"ticker": "UNP", "yahoo": "UNP", "precio": 313.155, "divisa": "USD", "ts": 1787758787, "exchange": "NYSE", "nombre": "Union Pacific Corporation", "min_1m": 289.4599914550781, "max_1m": 313.1549987792969}
+{"ticker": "VICI", "yahoo": "VICI", "precio": 26.15, "divisa": "USD", "ts": 1787758781, "exchange": "NYSE", "nombre": "VICI Properties Inc.", "min_1m": 25.90999984741211, "max_1m": 27.1299991607666}
+{"ticker": "VISA", "yahoo": "V", "precio": 381.37, "divisa": "USD", "ts": 1787758791, "exchange": "NYSE", "nombre": "Visa Inc.", "min_1m": 358.8399963378906, "max_1m": 384.1400146484375}
+{"ticker": "VMC", "yahoo": "VMC", "precio": 275.8, "divisa": "USD", "ts": 1787758783, "exchange": "NYSE", "nombre": "Vulcan Materials Company", "min_1m": 268.57000732421875, "max_1m": 288.4200134277344}
+{"ticker": "VRT", "yahoo": "VRT", "precio": 261.46, "divisa": "USD", "ts": 1787758793, "exchange": "NYSE", "nombre": "Vertiv Holdings Co", "min_1m": 223.0399932861328, "max_1m": 293.8399963378906}
+{"ticker": "VST", "yahoo": "VST", "precio": 140.5, "divisa": "USD", "ts": 1787758740, "exchange": "NYSE", "nombre": "Vistra Corp.", "min_1m": 135.66000366210938, "max_1m": 157.0800018310547}
+{"ticker": "WAB", "yahoo": "WAB", "precio": 300.86, "divisa": "USD", "ts": 1787758636, "exchange": "NYSE", "nombre": "Westinghouse Air Brake Technologies Corporation", "min_1m": 290.8599853515625, "max_1m": 305.7900085449219}
+{"ticker": "WDAY", "yahoo": "WDAY", "precio": 190.045, "divisa": "USD", "ts": 1787758791, "exchange": "NasdaqGS", "nombre": "Workday, Inc.", "min_1m": 147.5399932861328, "max_1m": 206.4499969482422}
+{"ticker": "WEC", "yahoo": "WEC", "precio": 107.645, "divisa": "USD", "ts": 1787758778, "exchange": "NYSE", "nombre": "WEC Energy Group, Inc.", "min_1m": 106.01000213623047, "max_1m": 113.81999969482422}
+{"ticker": "WELL", "yahoo": "WELL", "precio": 241.97, "divisa": "USD", "ts": 1787758770, "exchange": "NYSE", "nombre": "Welltower Inc.", "min_1m": 226.00999450683594, "max_1m": 248.33999633789062}
+{"ticker": "WFC", "yahoo": "WFC", "precio": 85.03, "divisa": "USD", "ts": 1787758781, "exchange": "NYSE", "nombre": "Wells Fargo & Company", "min_1m": 83.69999694824219, "max_1m": 89.16999816894531}
+{"ticker": "WM", "yahoo": "WM", "precio": 221.52, "divisa": "USD", "ts": 1787758801, "exchange": "NYSE", "nombre": "Waste Management, Inc.", "min_1m": 221.52000427246094, "max_1m": 239.41000366210938}
+{"ticker": "WMB", "yahoo": "WMB", "precio": 74.265, "divisa": "USD", "ts": 1787758789, "exchange": "NYSE", "nombre": "The Williams Companies, Inc.", "min_1m": 70.12999725341797, "max_1m": 75.19999694824219}
+{"ticker": "WMT", "yahoo": "WMT", "precio": 104.22, "divisa": "USD", "ts": 1787758802, "exchange": "NasdaqGS", "nombre": "Walmart Inc.", "min_1m": 103.69999694824219, "max_1m": 116.01000213623047}
+{"ticker": "WRB", "yahoo": "WRB", "precio": 68.53, "divisa": "USD", "ts": 1787758791, "exchange": "NYSE", "nombre": "W. R. Berkley Corporation", "min_1m": 68.4800033569336, "max_1m": 76.16999816894531}
+{"ticker": "WSM", "yahoo": "WSM", "precio": 234.56, "divisa": "USD", "ts": 1787758803, "exchange": "NYSE", "nombre": "Williams-Sonoma, Inc.", "min_1m": 228.66000366210938, "max_1m": 251.77999877929688}
+{"ticker": "WTC.AX", "yahoo": "WTC.AX", "precio": 40.89, "divisa": "AUD", "ts": 1787725054, "exchange": "ASX", "nombre": "WiseTech Global Limited", "min_1m": 32.119998931884766, "max_1m": 45.470001220703125}
+{"ticker": "WTW", "yahoo": "WTW", "precio": 344.18, "divisa": "USD", "ts": 1787758690, "exchange": "NasdaqGS", "nombre": "Willis Towers Watson Public Limited Company", "min_1m": 302.6400146484375, "max_1m": 350.75}
+{"ticker": "XEL", "yahoo": "XEL", "precio": 77.73, "divisa": "USD", "ts": 1787758801, "exchange": "NasdaqGS", "nombre": "Xcel Energy Inc.", "min_1m": 76.30000305175781, "max_1m": 80.70999908447266}
+{"ticker": "XOM", "yahoo": "XOM", "precio": 160.06, "divisa": "USD", "ts": 1787758806, "exchange": "NYSE", "nombre": "ExxonMobil Holdings Corporation", "min_1m": 151.6300048828125, "max_1m": 166.14999389648438}
+{"ticker": "YUM", "yahoo": "YUM", "precio": 155.065, "divisa": "USD", "ts": 1787758780, "exchange": "NYSE", "nombre": "Yum! Brands, Inc.", "min_1m": 144.75, "max_1m": 157.35000610351562}
+{"ticker": "ZURN.SW", "yahoo": "ZURN.SW", "precio": 598.0, "divisa": "CHF", "ts": 1787757598, "exchange": "Swiss", "nombre": "Zurich Insurance Group AG", "min_1m": 584.4000244140625, "max_1m": 623.5999755859375}

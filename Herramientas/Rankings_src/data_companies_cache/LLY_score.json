@@ -1,0 +1,59 @@
+{
+ "ticker": "LLY",
+ "name": "Eli Lilly and Company",
+ "moat_type": "intangibles_patents_scale",
+ "moat_one_line": "Patent-protected incretin franchise (tirzepatide/orforglipron) plus decades of R&D, manufacturing scale and regulatory know-how that cannot be replicated quickly.",
+ "sbc_flag": "ok",
+ "amplification": true,
+ "amplification_note": "R2+R3+R4 se refuerzan de forma monstruosa: el mercado secular de obesidad/diabetes (TAM multi-cien-mil-millones) coincide con liderazgo duopolico junto a Novo y un moat de patentes + escala de fabricacion (capacidad de incretinas irreplicable en anios). Crecimiento de ingresos +45-56% con margen operativo 45% y ROIC ~30% es el sello de una franquicia dominante. R1 NO amplifica por completo (farma no es software escalable puro: capex pesado, FCF margin solo 13.8%), pero la combinacion R2/R3/R4 justifica amplification=true.",
+ "thesis_3lines": [
+  "Calidad: franquicia farmaceutica de altisima calidad con ROIC ~30%, margen operativo 45% y SBC irrelevante (7% del FCF), protegida por patentes y escala de fabricacion de incretinas irreplicable.",
+  "Motor de crecimiento: mercado secular de obesidad/diabetes con tirzepatide (Mounjaro/Zepbound) y orforglipron oral impulsando ingresos +45-56% YoY y guia FY2026 de $82-85B con EPS $35.50-37.00.",
+  "Valoracion/retorno: fwd P/E 29.5x con ~28% de descuento vs su media 5a (40.8x) y PEG ~0.7; precio cerca de maximos (no deprimido) pero la valoracion no descuenta plenamente la duracion del crecimiento."
+ ],
+ "bear_case_strongest": "El crecimiento depende de forma extrema de la franquicia de incretinas (concentracion de pipeline), expuesta a competencia intensa de Novo Nordisk y nuevos entrantes orales, presion de precios via IRA/payors, riesgos de capacidad de fabricacion y un eventual cliff de patentes que podria comprimir margenes y multiplo de forma simultanea.",
+ "ethical_flag": "none",
+ "notes": "FASE 2 verificado: Q1 2026 rev $19,799M (+56% YoY), op margin 45%, EPS adj $8.55; FY2025 rev $65.18B (+45% organico), FCF $8,972M (margen 13.8%), ROIC ~30% (estimado). SBC FY2025 $626M = 6.98% del FCF -> muy por debajo del umbral del 15%, R9 sin penalizacion. Balance: net debt $35.24B, ND/EBITDA ~0.97x (<2x, comodo, NO caja neta -> R8 no llega a 1.5). Valoracion fwd P/E 29.47 vs media 5a 40.81 (-28%), PEG ~0.7; precio -6.8% del maximo 52s (not_depressed). Campos estimados: price, mcap, fwd_pe, fwd_pe_5y_avg, roic, nd_ebitda. Score total re-puntuado = 12.0/13.5.",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Modelo con apalancamiento operativo real (margen operativo 45%, op income 8,915/19,799) pero NO software/red escalable puro: capex pesado y FCF margin solo 13.8%, por lo que 1.0 base, no 2.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Industria en crecimiento secular fortisimo (obesidad/diabetes/incretinas) con TAM multi-cien-mil-millones y demanda estructural creciente, claridad de durabilidad superior."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Lider co-#1/#2 sostenido del mercado de incretinas junto a Novo, con ingresos +45-56% ganando cuota; dominante pero comparte el podio (no deja al 2o a anios-luz), por eso 1.5 y no 2.0."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat de patentes + intangibles + escala de fabricacion de incretinas (capacidad irreplicable a corto plazo); fuerte pero con vencimiento de patentes a futuro, 1.5 no 2.0."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento organico verificado (FY2025 +45% organico, Q1 2026 +56% YoY) impulsado por lanzamientos propios, sin dependencia de M&A; claridad superior."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Diversificacion geografica amplia pero alta concentracion de producto/pipeline en la franquicia de incretinas (Mounjaro/Zepbound), lo que limita la puntuacion a base 1.0."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC ~30% >> WACC con margen operativo 45%; capex alto inherente a farma no penaliza dado ROIC altisimo, aunque FCF/NI es modesto (FCF margin 13.8%) por inversion en capacidad, por eso 1.5 no 2.0."
+  },
+  "R8": {
+   "score": 1,
+   "just": "Balance solido con ND/EBITDA ~0.97x (<2x) pero NO caja neta (net debt $35.24B), por lo que 1.0 base y no 1.5."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "Contabilidad limpia con SBC verificada de solo 6.98% del FCF (muy por debajo del umbral del 15%), sin penalizacion y calidad de earnings superior."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Gestion competente con buena asignacion de capital hacia R&D y capacidad, dividendos y buybacks; sin skin-in-the-game excepcional verificado ni senales de M&A destructora, base 1.0."
+  }
+ }
+}

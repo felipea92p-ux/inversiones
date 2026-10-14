@@ -1,0 +1,102 @@
+{
+ "ticker": "6920.T",
+ "name": "Lasertec Corporation",
+ "asof_date": "2026-06-22",
+ "currency": "JPY",
+ "price": 57490,
+ "market_cap_usd_b": 31.9,
+ "fwd_pe": 54.32,
+ "fwd_pe_5y_avg": null,
+ "pe_prem_disc_pct": null,
+ "peg": 3.99,
+ "last_q": {
+  "period": "Q3 FY2026 (Jan-Mar 2026, ended Mar 31 2026)",
+  "revenue": "approx JPY 41.3B (Q3 standalone); 9M cumulative net sales JPY 169.5B",
+  "rev_yoy_pct": 3.5,
+  "op_margin_pct": null,
+  "eps_gaap": "JPY 124",
+  "eps_adj": "JPY 124"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Jun 30 2025)",
+  "revenue": "JPY 251.5B",
+  "organic_growth_pct": null,
+  "roic_pct": 59.8,
+  "fcf": "JPY 75.8B",
+  "fcf_margin_pct": 30.1
+ },
+ "sbc_pct_revenue": null,
+ "sbc_pct_fcf": null,
+ "net_debt_usd_b": -0.5,
+ "nd_ebitda": null,
+ "net_cash": true,
+ "guidance_fy": "FY2026 (ending Jun 30 2026): operating profit guidance REVISED UP from JPY 85B to JPY 100B at Q2 (Jan 30 2026). Orders-received forecast JPY 170-220B (below market expectation of ~JPY 250B), signaling order recovery delayed to FY2027+. Order backlog end-Q2 JPY 315.9B (down ~32% YoY). Net sales/net income FY guidance not captured from primary filing. PROJECTION.",
+ "pct_off_52w_high": -0.1,
+ "pct_off_ath": 0,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": true,
+ "verified_fields": [
+  "price",
+  "currency",
+  "asof_date",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "guidance_fy",
+  "last_q.period",
+  "last_q.revenue",
+  "last_fy.period"
+ ],
+ "estimated_fields": [
+  "market_cap_usd_b",
+  "fwd_pe",
+  "peg",
+  "last_q.rev_yoy_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.roic_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "net_debt_usd_b",
+  "net_cash"
+ ],
+ "notes": "CRITICAL CONTEXT: Lasertec is NOT a depressed/dropped stock as of 2026-06-22. It trades at JPY 57,490, essentially AT its 52-week high (JPY 57,550) and at/above its prior all-time high (~JPY 45,000+ set May 2024), UP +249% over the trailing 12 months after rebounding from a JPY 13,715 low. Hence drop_classification = not_depressed. Valuation is RICH: fwd P/E ~54x, trailing P/E ~58x, PEG ~4.0, P/S ~20x, EV/EBITDA ~40x; analyst avg target ~JPY 43,167 implies downside. Company is global near-monopoly in EUV photomask/blank inspection. FY ends June 30 (so 'FY2026' = Jul 2025-Jun 2026; Q3 FY2026 = Jan-Mar 2026). 9M FY2026 net sales JPY 169.5B (+0.4% YoY); semiconductor-related JPY 124.7B (-6.7% YoY). Operating margin elevated (~48-49% interim) partly aided by yen weakness (USDJPY ~161.5) and revenue pull-forward. FY2025 revenue JPY 251.5B, op income JPY 122.8B (op margin ~48.8%), net income JPY 84.7B, FCF JPY 75.8B (30.1% margin). TTM (to Mar 2026) revenue JPY 252.2B, net income JPY 88.8B, net margin 35.2%, ROE 44%, ROIC ~60%. Balance sheet: cash ~JPY 80B, no debt => net cash (~$0.5B USD). USD market cap computed as JPY 5.15T / 161.5 = ~$31.9B (yen near multi-decade low). SBC not disclosed by aggregators; Japanese issuer, SBC likely immaterial -> left null. fwd_pe_5y_avg and pe_prem_disc_pct not obtainable from accessed sources (left null). PRIMARY SOURCES NOT REACHED: Lasertec IR PDFs are JS-rendered and MarketScreener returned 403; financials sourced from StockAnalysis.com aggregator + Simply Wall St + a detailed third-party note. Hence data_quality MIXED and incomplete=true.",
+ "sources": [
+  {
+   "label": "StockAnalysis.com - Lasertec 6920 overview (price, mkt cap, fwd P/E, 52w range)",
+   "url": "https://stockanalysis.com/quote/tyo/6920/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com - Lasertec statistics (fwd P/E 54.32, PEG 3.99, op margin, ROIC, net cash)",
+   "url": "https://stockanalysis.com/quote/tyo/6920/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com - Lasertec financials (FY2025 revenue, op income, FCF)",
+   "url": "https://stockanalysis.com/quote/tyo/6920/financials/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Simply Wall St - Lasertec past/earnings (TTM revenue, net income, margins, growth)",
+   "url": "https://simplywall.st/stocks/jp/semiconductors/tse-6920/lasertec-shares/past",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "note.com - Lasertec FY2026 Q2 detailed analysis (guidance revision to JPY 100B, orders JPY 170-220B, backlog JPY 315.9B)",
+   "url": "https://note.com/noted_jacana411/n/n02408209fcf0?hl=en",
+   "date": "2026-06"
+  },
+  {
+   "label": "Lasertec IR (primary, not fully extractable - JS rendered)",
+   "url": "https://www.lasertec.co.jp/en/ir/data/result.html",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "TradingEconomics - USDJPY rate ~161.5 on 2026-06-22",
+   "url": "https://tradingeconomics.com/japan/currency",
+   "date": "2026-06-22"
+  }
+ ]
+}

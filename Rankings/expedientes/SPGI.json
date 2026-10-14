@@ -1,0 +1,372 @@
+{
+  "ticker": "SPGI",
+  "empresa": "S&P Global Inc.",
+  "cik": "0000064040",
+  "fecha_analisis": "2026-07-27",
+  "divisa": "USD",
+  "unidades": "millones de USD salvo donde se indique",
+  "etiqueta_calidad_congelada": "MENOS_5_6",
+  "nota_etiqueta": "CONGELADA. Nada en el trabajo de precio la reclasifica. El precio no es evidencia de calidad.",
+
+  "ADVERTENCIA_ESTRUCTURAL_1": {
+    "titulo": "El precio de hoy es EX-MOBILITY; el ultimo ejercicio auditado es CON-Mobility",
+    "hecho": "El 1 de julio de 2026 SPGI completo la escision (spin-off pro rata, 1 accion MBGL por cada accion SPGI) de S&P Global Mobility en Mobility Global Inc. (NYSE: MBGL). S&P Global no retiene participacion alguna.",
+    "fuente": "8-K de 2026-07-02, Item 1.01/2.01, accession 0001104659-26-080005",
+    "consecuencia": "Comparar los 15.336 M de ventas y los 5.135 M de FCF del 10-K FY2025 contra los 439,67 USD de hoy seria un error de ~12-13% al alza. TODO el analisis se hace sobre la base PRO FORMA DE OPERACIONES CONTINUADAS que la propia SEC recibio en el 8-K/A de 2026-07-06 (accession 0001104659-26-080571, Exhibit 99.2).",
+    "etiqueta": "HECHO (el spin) + INFERENCIA (los ajustes de caja que yo derivo de el)"
+  },
+  "ADVERTENCIA_ESTRUCTURAL_2": {
+    "titulo": "Analisis realizado a UN DIA de resultados",
+    "hecho": "SPGI publica resultados del 2T 2026 el martes 28 de julio de 2026 a las 7:15 ET, y en esa fecha introducira por primera vez guia GAAP 2026 y guia ajustada 2026 EXCLUYENDO Mobility.",
+    "fuente": "Nota de prensa del 6 de julio de 2026, 8-K/A accession 0001104659-26-080571, Exhibit 99.1",
+    "consecuencia": "La unica guia viva hoy (28-abr-2026) INCLUYE Mobility todo el ano y por tanto esta obsoleta. La base 'en curso' de este expediente es reconstruccion propia, no guia de la compania."
+  },
+
+  "precio_y_capitalizacion": {
+    "precio_usd": 439.67,
+    "fuente_precio": "Snapshot en vivo IBKR (contract_id 229629397, NYSE), 2026-07-27. Cruce: stockanalysis.com da cierre 439,83 USD el 2026-07-27 y capitalizacion 130,18 bn.",
+    "etiqueta_precio": "HECHO (dato vivo de broker)",
+    "acciones_en_circulacion_mm": 296.0,
+    "fuente_acciones": "Portada del 10-Q del 1T2026 (dei:EntityCommonStockSharesOutstanding a 2026-04-24) = 296,0 M",
+    "nota_acciones": "SPGI recompro 1.000 M en el 1T26 y guia a devolver >=100% del FCF ajustado en 2026; el recuento real hoy es probablemente ~293-295 M. Uso el ultimo HECHO (296,0) porque infla ligeramente la capitalizacion y por tanto es conservador CONTRA la compra.",
+    "capitalizacion_usd_mm": 130142,
+    "cotiza_fuera_eeuu": false,
+    "es_ads": false,
+    "rango_52s_usd": [359.36, 543.25],
+    "variacion_ytd_pct": -10.65,
+    "vol_historica_anual_pct": 34.8,
+    "rentabilidad_dividendo_pct": 0.86
+  },
+
+  "estructura_de_capital_proforma_2026_03_31": {
+    "fuente": "8-K/A 2026-07-06, Exhibit 99.2, Balance pro forma no auditado a 31-mar-2026 (columna Pro Forma)",
+    "etiqueta": "HECHO",
+    "deuda_corto_plazo": 2697,
+    "deuda_largo_plazo": 10621,
+    "deuda_total_valor_libros": 13318,
+    "deuda_total_valor_mercado": 11100,
+    "fuente_deuda_mercado": "10-Q 1T2026: valor razonable de la deuda total = 11,1 bn (10-K FY2025: 11,3 bn sobre 13,088 de valor libros). La deuda cotiza al ~83% de libros: cupones heredados de 1,25%-2,95% muy por debajo de mercado.",
+    "caja_y_equivalentes": 3663,
+    "nota_caja": "Incluye 1.974 M recibidos de Mobility Global en la escision (ajuste (b) del pro forma). Es caja real que se queda en SPGI.",
+    "deuda_neta_usd_mm": 9655,
+    "intereses_minoritarios_redimibles": 4917,
+    "nota_minoritarios": "Es el ~27% de S&P Dow Jones Indices en manos de CME Group, contabilizado a valor de redencion. Es una reclamacion real sobre el mejor negocio del grupo (margen ajustado 70%). Sale por caja: 321 M de distribuciones en FY2025.",
+    "ev_usd_mm": 144714,
+    "formula_ev": "capitalizacion 130.142 + deuda neta 9.655 + minoritarios redimibles 4.917"
+  },
+
+  "CANDADO_B_wacc_bottom_up_de_mercado": {
+    "principio": "El WACC NO se hereda de ningun tier de calidad. Sale del mercado, pieza a pieza.",
+    "tasa_libre_riesgo_pct": 4.69,
+    "fuente_tasa_libre_riesgo": "Bono del Tesoro de EEUU a 10 anos, cierre del 2026-07-24 = 4,69%. Moneda funcional = USD, asi que es el bono correcto. Fuente secundaria (Advisor Perspectives / dshort, Treasury Yields Snapshot 2026-07-24).",
+    "etiqueta_rf": "INFERENCIA (fuente secundaria con fecha; no es un filing)",
+    "beta": 1.08,
+    "fuente_beta": "stockanalysis.com, beta 5 anos mensual, consultado 2026-07-27 = 1,08. Dispersion entre proveedores: GuruFocus 0,99; Finbox (5Y) 1,20. Rango usado 0,99-1,20.",
+    "etiqueta_beta": "INFERENCIA (agregador, nunca HECHO)",
+    "prima_mercado_pct": 4.20,
+    "fuente_prima_mercado": "Damodaran, actualizacion de 1-jul-2026: con el S&P 500 en 7.499,36 la ERP implicita de EEUU es 4,42%; netando el diferencial de impago de 0,22% del rating Aa1 queda una prima de mercado maduro de 4,20%.",
+    "prima_pais_pct": 0.45,
+    "fuente_prima_pais": "Ponderacion propia por riesgo de ACTIVO, no de domicilio. ~60% de los ingresos son EEUU y el resto abrumadoramente mercados desarrollados (Europa, Reino Unido, Japon, Australia) con una cola emergente (Crisil en India, Ratings en LatAm/Asia). Prima pais ponderada estimada 0,45% sobre la prima de mercado maduro.",
+    "etiqueta_prima_pais": "INFERENCIA",
+    "coste_capital_propio_pct": 9.68,
+    "formula_ke": "4,69% + 1,08 x 4,20% + 0,45% = 9,68%",
+    "coste_deuda_pct": 4.0,
+    "derivacion_coste_deuda": {
+      "coste_incorporado_del_filing_pct": 3.19,
+      "detalle_incorporado": "Intereses pagados en efectivo FY2025 = 390 M (10-K, estado de flujos) sobre deuda media 2025 = (11.398 + 13.088)/2 = 12.243 M -> 3,19%. Etiqueta HECHO.",
+      "coste_marginal_pct": 4.5,
+      "detalle_marginal": "Emision del 4-dic-2025: 600 M al 4,25% con vencimiento 2031 y 400 M al 4,80% con vencimiento 2035 (10-K, nota de Deuda). Ademas los 715 M de papel comercial se refinancian a tipos corrientes. Etiqueta HECHO.",
+      "cruce_guia": "La guia 2026 de gasto financiero neto de 405-415 M sobre ~13,3 bn de deuda implica un coste bruto del orden del 4,0-4,3%.",
+      "elegido": "4,0% antes de impuestos, mezcla del incorporado y el marginal. Con tipo impositivo del 23% -> 3,08% despues de impuestos."
+    },
+    "tipo_impositivo_pct": 23.0,
+    "fuente_tipo": "Guia 2026 de la compania: tasa efectiva 22,0%-23,0% (nota de resultados 1T2026). Uso el extremo alto.",
+    "ponderacion": "Equity a mercado (130.142 + 4.917 de minoritarios redimibles = 135.059) 92,4% / Deuda a VALOR DE MERCADO (11.100) 7,6%.",
+    "wacc_pct": 9.2,
+    "wacc_rango": "8,5% - 10,0%",
+    "detalle_rango": "Extremo bajo: beta 0,99 y prima pais 0 -> WACC 8,5%. Extremo alto: beta 1,20 y ERP 4,42% con prima pais 0,45% -> WACC 10,0%.",
+    "nota_metodologica": "Los owner earnings que uso ya estan netos de las distribuciones a minoritarios, es decir son flujo del accionista. Descontarlos al WACC (9,2%) en vez de al Ke (9,7%) es una GENEROSIDAD deliberada de ~0,5 pp hacia el caso alcista. Aun asi no aparece margen. La conclusion es robusta por construccion."
+  },
+
+  "base_A_ultimo_ejercicio_AUDITADO_proforma_continuadas": {
+    "ejercicio": "FY2025",
+    "fuente_auditada": "10-K presentado el 2026-02-11 (accession 0000064040-26-000013), auditado por Ernst & Young LLP",
+    "fuente_proforma": "8-K/A 2026-07-06, Exhibit 99.2 (pro forma no auditado, Regulation S-X Article 11)",
+    "cifras_TAL_COMO_SE_AUDITARON_con_Mobility": {
+      "ingresos": 15336,
+      "beneficio_operativo": 6478,
+      "beneficio_neto_atribuible": 4471,
+      "flujo_de_caja_operativo": 5651,
+      "capex": 195,
+      "depreciacion": 110,
+      "amortizacion_de_intangibles": 1069,
+      "retribucion_en_acciones": 236,
+      "distribuciones_a_minoritarios": 321,
+      "dividendos": 1170,
+      "recompras": 5001,
+      "fcf_definicion_compania": 5135,
+      "fcf_ajustado_ex_partidas": 5481,
+      "etiqueta": "HECHO"
+    },
+    "cifras_PRO_FORMA_operaciones_continuadas_ex_Mobility": {
+      "ingresos": 13589,
+      "beneficio_operativo": 6140,
+      "beneficio_neto_continuadas_atribuible": 4192,
+      "depreciacion": 96,
+      "amortizacion_de_intangibles": 766,
+      "bpa_diluido_continuadas_usd": 13.74,
+      "etiqueta": "HECHO (columna Pro Forma del Exhibit 99.2)"
+    },
+    "derivacion_de_caja_continuadas": {
+      "flujo_operativo_estimado": 5031,
+      "como": "CFO consolidado 5.651 menos la aportacion de Mobility, estimada en 620 M = beneficio neto de Mobility 305 + depreciacion 14 + amortizacion 303 (todos del Exhibit 99.2), sin variacion material de circulante.",
+      "capex_continuadas": 175,
+      "depreciacion_continuadas": 96,
+      "distribuciones_a_minoritarios": 321,
+      "etiqueta": "INFERENCIA (derivada de HECHOS auditados + pro forma SEC)"
+    },
+    "oe_mantenimiento_usd_mm": 4614,
+    "formula_oe_mantenimiento": "CFO continuado 5.031 - depreciacion 96 (proxy de capex de mantenimiento) - distribuciones a minoritarios 321",
+    "oe_capex_total_usd_mm": 4535,
+    "formula_oe_capex_total": "CFO continuado 5.031 - capex total 175 - distribuciones a minoritarios 321",
+    "distancia_entre_las_dos_versiones_pct": 1.7,
+    "lectura_de_la_distancia": "79 M, un 1,7%. En SPGI la distincion mantenimiento/crecimiento en el capex es IRRELEVANTE: el capex son 175 M sobre 13.589 M de ventas (1,3%). El verdadero gasto discrecional de esta compania no esta en el capex, esta en la cuenta de resultados (tecnologia, datos, personas) y en las adquisiciones (2.023 M en 2025). El truco de 'no penalizar a la reinvertidora' aqui no cambia nada.",
+    "sensibilidad_retribucion_en_acciones": {
+      "sbc_continuada_estimada": 215,
+      "oe_capex_total_cargando_sbc": 4320,
+      "nota": "El CFO reincorpora 236 M de retribucion en acciones como no-caja. Es un coste real para el propietario. Cargarlo baja el owner earnings un 4,7%. Queda dentro del piso de resolucion de +-25% y no cambia ningun veredicto."
+    }
+  },
+
+  "base_B_ejercicio_EN_CURSO_2026_anualizado": {
+    "estado": "RECONSTRUCCION PROPIA. La compania NO tiene guia viva ex-Mobility; la publica manana 28-jul-2026.",
+    "guia_viva_obsoleta_del_28_abr_2026": {
+      "crecimiento_ingresos_gaap_pct": "6,3% - 8,3%",
+      "crecimiento_organico_moneda_constante_pct": "6,0% - 8,0%",
+      "bpa_diluido_ajustado_usd": "19,40 - 19,65",
+      "capex_gaap": "215 - 225",
+      "gasto_financiero_neto": "405 - 415",
+      "tasa_impositiva_pct": "22,0 - 23,0",
+      "amortizacion_de_operaciones": "~1.110",
+      "expansion_margen_operativo_pb": "10 - 35 (50 - 75 excluyendo OSTTRA)",
+      "fcf_ajustado": "crecimiento de digito medio simple",
+      "advertencia": "TODO ESTO INCLUYE MOBILITY. Sirve de referencia de ritmo, no de nivel.",
+      "etiqueta": "HECHO (8-K de 2026-04-28) pero OBSOLETO en perimetro"
+    },
+    "primer_trimestre_2026_continuadas": {
+      "ingresos": 3717,
+      "beneficio_operativo": 1921,
+      "nota_beneficio_operativo": "Incluye 175 M de plusvalia por desinversiones. Sin ella: 1.746 M.",
+      "beneficio_neto_continuadas_atribuible": 1329,
+      "flujo_operativo_estimado": 891,
+      "fcf_continuado_estimado": 776,
+      "etiqueta": "HECHO en ingresos y beneficio (Exhibit 99.2); INFERENCIA en la caja"
+    },
+    "anualizacion": {
+      "metodo_1_estacionalidad": "El 1T aporta historicamente el 15,7%-15,9% del FCF anual (1T24 = 15,7% de FY24; 1T25 = 15,9% de FY25). 776 / 0,158 = 4.911 M.",
+      "metodo_2_crecimiento": "OE auditado continuado 4.535 x 1,08 (crecimiento organico guiado ~7% mas expansion de margen) = 4.898 M.",
+      "convergencia": "Ambos metodos dan ~4.900 M. Uso 4.900."
+    },
+    "capex_continuado_estimado": 205,
+    "depreciacion_continuada_estimada": 105,
+    "oe_mantenimiento_usd_mm": 5000,
+    "oe_capex_total_usd_mm": 4900,
+    "etiqueta": "INFERENCIA en su totalidad",
+    "DISTANCIA_ENTRE_BASES": {
+      "oe_mantenimiento_auditado": 4614,
+      "oe_mantenimiento_en_curso": 5000,
+      "variacion_pct": 8.4,
+      "LECTURA_DE_CICLO": "La base en curso esta un 8,4% por encima de la auditada. Eso NO es ruido: 2026 esta siendo un ano bueno de volumen (los ingresos del 1T crecieron un 10%, con emision calificada fuerte y AUM indexado en maximos). Pero el contrapunto importa mas: el FCF AJUSTADO de 2025 CAYO un 4% frente a 2024 (5.481 M contra 5.704 M). Es decir, la serie no es una rampa; es un dientes de sierra que depende del volumen que fija el mercado. Anclar el valor en la base en curso es anclarlo en un punto alto del ciclo."
+    }
+  },
+
+  "DCF_INVERSO": {
+    "motor": "Que crecimiento a 10 anos, con crecimiento terminal del 3%, justifica EXACTAMENTE el precio de hoy al WACC calculado.",
+    "parametros": {
+      "precio_objetivo_a_justificar_usd_mm": 130142,
+      "wacc_pct": 9.2,
+      "horizonte_anos": 10,
+      "crecimiento_terminal_pct": 3.0
+    },
+    "g_implicita_base_auditada_proforma_pct": 9.96,
+    "g_implicita_base_en_curso_pct": 8.91,
+    "g_implicita_con_capex_total_auditado_pct": 10.13,
+    "g_implicita_con_capex_total_en_curso_pct": 9.12,
+    "sensibilidad_al_wacc": {
+      "wacc_8_5_auditado_pct": 8.26,
+      "wacc_8_5_en_curso_pct": 7.23,
+      "wacc_10_0_auditado_pct": 11.78,
+      "wacc_10_0_en_curso_pct": 10.70
+    },
+    "multiplo_pagado_hoy": {
+      "sobre_oe_auditado_proforma": "28,2x",
+      "sobre_oe_en_curso": "26,0x",
+      "cruce_per": "~24,7x el BPA ajustado 2026 ex-Mobility que yo estimo (~17,8 USD, tras quitar ~1,75 USD de Mobility a la guia de 19,40-19,65)"
+    },
+    "TRADUCCION": "El mercado pide que los owner earnings de S&P Global crezcan entre un 8,9% y un 10,0% ANUAL DURANTE DIEZ ANOS, y despues al 3% para siempre. Eso es exigirle a la compania que multiplique por 2,4-2,6 veces sus owner earnings en una decada."
+  },
+
+  "g_DEFENDIBLE": {
+    "punto_de_partida_del_encargo": {
+      "especie": "G2",
+      "reinversion_pct_ventas": 5.0,
+      "roiic_bruto_pct": 55.0,
+      "roiic_ex_margen_pct": 90.6
+    },
+    "aplicacion_mecanica_de_la_formula": {
+      "reinversion_absoluta": 679,
+      "como": "5% de las ventas continuadas de 13.589 M",
+      "nopat": 4728,
+      "como_nopat": "beneficio operativo pro forma 6.140 x (1 - 0,23)",
+      "tasa_de_reinversion_sobre_nopat_pct": 14.4,
+      "g_mecanica_pct": 13.0,
+      "formula": "14,4% x 90,6% = 13,0%"
+    },
+    "POR_QUE_RECHAZO_LOS_13_PCT": [
+      "1. Un ROIIC ex-margen del 90,6% no es una tasa a la que SPGI pueda desplegar capital: es un artefacto de que casi toda su inversion pasa por la cuenta de resultados (tecnologia, datos, personal) y por tanto el capital incremental MEDIDO es diminuto. Dividir por un denominador casi nulo produce un ROIIC casi infinito. No es una oportunidad de reinversion; es un problema de medicion.",
+      "2. La propia compania declara que devolvera el 100% o mas del FCF ajustado a los accionistas en 2026 via dividendo y recompra (nota de resultados del 1T2026). Una compania que devuelve TODA su caja no puede componer sus owner earnings TOTALES al 13%. Ha decidido explicitamente no hacerlo.",
+      "3. El crecimiento de SPGI no lo limita el capital: lo limita la DEMANDA. Sus dos motores son volumenes que fija el mercado, no la compania: los activos indexados y la emision de deuda calificada.",
+      "4. La evidencia observada lo confirma: ingresos continuados 11.013 (2023) -> 12.599 (2024) -> 13.589 (2025). Crecimiento organico en moneda constante FY2025 = 8%. Nunca 13%."
+    ],
+    "construccion_de_la_g_que_SI_defiendo": {
+      "crecimiento_de_ingresos_a_largo_plazo_pct": 6.0,
+      "razonamiento_ingresos": "Guia organica en moneda constante 6,0%-8,0% en un punto ALTO de ciclo (emision fuerte, AUM en maximos). Descuento a 6,0% para diez anos: Ratings tiende al PIB nominal mas intensidad de deuda (4-6%), Indices crece con el AUM (~8-10%) menos la compresion de tarifa, Market Intelligence crece al 6% y esta en reestructuracion, Energy al 7% y ademas encoge por la venta anunciada del software geocientifico y de ingenieria de yacimientos.",
+      "expansion_de_margen_pct_anual": 0.4,
+      "razonamiento_margen": "La guia 2026 es de 50-75 pb ex-OSTTRA. Asumo 40 pb anuales durante cinco anos y despues plano. Aporta ~0,3 pp anualizados a diez anos al crecimiento del beneficio.",
+      "g_defendible_pct": 6.2,
+      "nota_recompras": "El DCF compara owner earnings TOTALES contra capitalizacion TOTAL, asi que las recompras (~2-3% anual de reduccion de acciones) NO son crecimiento aqui. Aparecen en la TIR del accionista, no en la g del negocio."
+    },
+    "EL_ESLABON_MAS_DEBIL_CUANTIFICADO": {
+      "hecho": "La elasticidad medida dice que el peaje se ESTRECHA: la tarifa de Indices cayo -8,4% en 2024 y -7,3% en 2025, y el precio/mix de Ratings retrocedio -4,0% en 2025.",
+      "consecuencia_para_la_g": "Si el precio aporta NEGATIVO, el 6-8% de crecimiento es 100% volumen. El volumen lo fija el mercado. En 2022 la emision calificada se desplomo y SPGI no tuvo palanca de precio con la que compensarlo. Cualquier g superior al 6,5% supone implicitamente que el volumen no se para nunca durante diez anos seguidos.",
+      "confirmacion_en_la_caja": "El FCF ajustado ex-partidas de 2025 (5.481 M) fue un 3,9% INFERIOR al de 2024 (5.704 M) pese a un crecimiento de ingresos del 8%. La conversion a caja se deterioro."
+    }
+  },
+
+  "VALOR_INTRINSECO_Y_MARGEN_DE_SEGURIDAD": {
+    "metodo": "Owner earnings creciendo a la g defendible del 6,2% durante 10 anos, terminal 3%, descontado al WACC del 9,2%. Multiplo implicito resultante: 21,3x owner earnings.",
+    "base_auditada_proforma": {
+      "oe_mantenimiento": 4614,
+      "valor_total_usd_mm": 97739,
+      "valor_por_accion_usd": 330.2,
+      "banda_piso_de_resolucion_25_pct_usd": [248, 413],
+      "mos_pct": -33.2
+    },
+    "base_en_curso": {
+      "oe_mantenimiento": 5000,
+      "valor_total_usd_mm": 105909,
+      "valor_por_accion_usd": 357.8,
+      "banda_piso_de_resolucion_25_pct_usd": [268, 447],
+      "mos_pct": -22.9
+    },
+    "PISO_DE_RESOLUCION": {
+      "regla": "Sin medicion propia del ruido, banda de +-25%. Nada de decimales falsos.",
+      "declaracion_honesta": "El valor intrinseco de SPGI esta entre 250 y 450 USD por accion. No se mas que eso. El precio de hoy, 440 USD, cae DENTRO del extremo superior de esa banda, no por encima de ella. Por tanto NO puedo afirmar que la accion este objetivamente sobrevalorada mas alla del ruido. Lo que SI puedo afirmar, y es lo unico que la decision necesita, es que en el caso central esta un 23%-33% por ENCIMA del valor y que ni siquiera en el borde mas optimista de la banda (447 USD) queda margen de seguridad: quedaria un 2%.",
+      "por_que_esto_basta": "Un margen de seguridad exigido del 52% requiere que el precio este por debajo de 172 USD. Ninguna combinacion razonable de supuestos dentro de la banda acerca el precio a esa cifra."
+    },
+    "mos_auditado_pct": -33.2,
+    "mos_encurso_pct": -22.9,
+    "mos_exigido_pct": 52.0,
+    "derivacion_del_umbral": "Umbral de ABRIR para la banda MENOS_5_6 = 40%. Felipe YA la tiene en cartera (3,91% del NAV) -> el veredicto posible es CARGAR y el umbral sube 12 puntos -> 52%. Coherencia interna del sistema: los umbrales de CARGAR citados (30% ULTRA, 35% PRESUNTA, 40% MUY_BUENA) son exactamente los de ABRIR (18/23/28) mas 12. Es el candado anti-promediar-a-la-baja. Nota: incluso con la lectura alternativa de 40%, el veredicto no cambia.",
+    "M_ESTRELLA": {
+      "valor": 18.0,
+      "unidad": "veces owner earnings de mantenimiento",
+      "decidido_en_frio": "Comprometo 18x los owner earnings de un negocio G2 cuyo precio/mix es NEGATIVO en sus dos motores y cuyo crecimiento es volumen exogeno. El modelo con g=6,2% y WACC=9,2% soporta 21,3x; me quedo deliberadamente por debajo porque la elasticidad medida es el eslabon roto y no quiero pagar por el multiplo que asume que no lo esta. Sin barra de error: es una decision, no una estimacion.",
+      "valor_por_accion_a_M_estrella_usd": 304,
+      "lectura": "Ni siquiera mi multiplo mas generoso llega al precio: hoy se paga 26,0x. La accion cotiza un 45% por encima de lo que yo pagaria."
+    },
+    "P_ESTRELLA": {
+      "p_estrella_usd": 172,
+      "derivacion": "Valor por accion de la base EN CURSO (la mas favorable a la compania), 357,8 USD, x (1 - 0,52) = 171,7 USD.",
+      "variantes": {
+        "sobre_base_auditada_proforma_umbral_52_pct": 158,
+        "sobre_base_en_curso_umbral_40_pct": 215,
+        "sobre_base_auditada_umbral_40_pct": 198,
+        "sobre_M_estrella_18x_con_MoS_52_pct": 146
+      },
+      "distancia_al_precio_de_hoy_pct": -61,
+      "lectura": "El precio tendria que caer un 61% para dar el margen que la banda MENOS_5_6 exige a una CARGA. Historicamente SPGI nunca ha cotizado ahi en la ultima decada: el minimo de 52 semanas es 359 USD y el minimo del ciclo COVID rondo los 190 USD."
+    }
+  },
+
+  "TIR_ESPERADA": {
+    "regla": "Un MoS de -33% no es informacion. La TIR anual si lo es.",
+    "metodo": "Tasa de descuento que iguala el precio de hoy con el flujo de owner earnings a diez anos mas terminal al 3%.",
+    "escenarios": {
+      "pesimista_g_4_5_pct": {"auditado": 7.13, "en_curso": 7.47},
+      "defendible_g_6_2_pct": {"auditado": 7.72, "en_curso": 8.09},
+      "optimista_g_8_0_pct": {"auditado": 8.40, "en_curso": 8.81}
+    },
+    "tir_esperada_rango": "7,1% - 8,8% anual durante 10 anos; central 7,7% - 8,1%",
+    "LECTURA_DECISIVA": "Comprar SPGI hoy a 439,67 USD no destruye capital: renta entre el 7% y el 9% anual durante una decada. El problema es que el coste de capital de este mismo activo es 9,2%. Es decir, se espera ganar aproximadamente 1,2 puntos porcentuales MENOS al ano que la tasa que compensa su riesgo. Durante diez anos eso son ~12 puntos de rentabilidad acumulada regalados. No es una perdida; es una plaza ocupada sin cobrar por ocuparla.",
+    "nota_recompras": "A esta TIR habria que sumarle el efecto por accion de la reduccion del recuento (~2-3% anual), pero eso ya esta dentro: las recompras se pagan con los mismos owner earnings que estoy descontando. No se cuentan dos veces."
+  },
+
+  "DETECTOR_DE_TRAMPA_DE_VALOR": {
+    "veredicto": "NO",
+    "motivo_principal": "Una trampa de valor es un MoS GRANDE sobre un motor que se rompe. Aqui NO HAY MoS: el MoS es negativo (-23% a -33%). No puede ser trampa lo que ni siquiera parece barato. El riesgo de esta posicion no es de trampa, es de SOBREPRECIO.",
+    "senales_del_motor_que_SI_estan_activas": [
+      "Elasticidad negativa medida: tarifa de Indices -8,4% (2024) y -7,3% (2025); precio/mix de Ratings -4,0% (2025). El peaje se estrecha, no se ensancha.",
+      "El FCF ajustado ex-partidas CAYO un 3,9% en 2025 (5.481 M frente a 5.704 M en 2024) pese a un crecimiento de ingresos del 8%.",
+      "Cirugia de cartera intensa y simultanea: Mobility escindida (1-jul-2026, -1.747 M de ventas), OSTTRA vendida (1.549 M de ingresos por desinversion en 2025), software geocientifico y de yacimientos de Energy en venta (cierre 2S26/principios 2027), reorganizacion completa de Market Intelligence en dos verticales anunciada el 6-jul-2026, y salida del Chief Legal Officer. Mucha reorganizacion a la vez reduce la comparabilidad y facilita que el deterioro operativo pase inadvertido.",
+      "Capital tangible NEGATIVO (-10.332 M en 2025): fondo de comercio 36.475 M mas intangibles 16.271 M contra 31.235 M de patrimonio. No es un defecto en si (es el sello de un peaje), pero elimina cualquier suelo de valor de activos si el motor se para.",
+      "Los 4.917 M de minoritarios redimibles son un derecho de CME Group sobre el 27% de S&P Dow Jones Indices, precisamente el negocio de 70% de margen. La mejor parte del peaje no es enteramente del accionista de SPGI."
+    ],
+    "lo_que_NO_esta_roto": [
+      "Ratings crecio un 8,1% en 2025 y mantiene un margen ajustado del 65%.",
+      "Indices crecio un 13,6% en 2025 (1.850 M frente a 1.628 M): el crecimiento del AUM esta superando a la compresion de tarifa, no al reves.",
+      "Los ingresos por suscripcion son 7.865 M sobre 15.336 M, y hay 4.088 M de ingresos diferidos en balance. La visibilidad es real.",
+      "El 1T2026 crecio un 10% con expansion de margen en las cuatro divisiones."
+    ],
+    "sintesis": "El motor funciona; lo que no funciona es el PRECIO del motor. Y hay una grieta declarada, no una rotura: la compania ya no puede subir tarifas y depende integramente de volumenes que no controla."
+  },
+
+  "HUECOS_DECLARADOS": [
+    "Resultados del 2T 2026 se publican el 28 de julio de 2026, un dia despues de este analisis. Con ellos llega la PRIMERA guia 2026 ex-Mobility (GAAP y ajustada). Toda la base 'en curso' de este expediente queda sujeta a revision en 24 horas.",
+    "No existe un estado de flujos de caja pro forma ex-Mobility. La SEC solo recibio cuenta de resultados y balance pro forma. Los 5.031 M de CFO continuado, los 4.614 M de owner earnings auditados y los 4.900 M de la base en curso son INFERENCIA mia, derivada de restar una aportacion estimada de Mobility de ~620 M. Si Mobility aportaba realmente 500 M o 750 M, el valor por accion se mueve entre ~320 y ~345 USD. No cambia el veredicto, pero es el hueco mas grande del expediente.",
+    "El reparto del capex entre Mobility y continuadas (20 M frente a 175 M) es estimacion propia por proporcionalidad con la depreciacion. Impacto maximo ~0,5% sobre el valor. Irrelevante.",
+    "La beta es un dato de agregador, no de filing. Tres proveedores dan 0,99, 1,08 y 1,20. Esa dispersion sola mueve el WACC entre 8,8% y 9,6% y el valor por accion entre ~305 y ~355 USD. Es la mayor fuente de ruido del descuento.",
+    "La prima pais del 0,45% es juicio propio: SPGI no desglosa ingresos por pais con suficiente detalle en el 10-K para ponderar Damodaran con rigor. Solo desglosa EEUU / Europa / Asia / Resto.",
+    "El recuento de acciones (296,0 M) es del 24-abr-2026. Las recompras del 2T lo habran reducido probablemente a 293-295 M. Uso el dato viejo porque infla la capitalizacion y por tanto endurece el veredicto contra la compra.",
+    "No he verificado con cifras propias las elasticidades citadas en el mecanismo (-8,4% / -7,3% de tarifa de Indices, -4,0% de precio/mix de Ratings). Vienen del trabajo de calidad ya congelado y las trato como dadas.",
+    "No he modelado el impacto de la venta anunciada del software geocientifico y de ingenieria de yacimientos de Energy (cierre 2S26/principios 2027). Encogera la base de nuevo por un importe que la compania no ha cuantificado publicamente."
+  ],
+
+  "TABLA_RESUMEN": {
+    "precio_usd": 439.67,
+    "capitalizacion_usd_mm": 130142,
+    "ev_usd_mm": 144714,
+    "deuda_neta_usd_mm": 9655,
+    "wacc_pct": 9.2,
+    "wacc_rango": "8,5% - 10,0%",
+    "oe_mantenimiento_auditado_usd_mm": 4614,
+    "oe_capex_total_auditado_usd_mm": 4535,
+    "oe_mantenimiento_encurso_usd_mm": 5000,
+    "oe_capex_total_encurso_usd_mm": 4900,
+    "g_implicita_auditado_pct": 9.96,
+    "g_implicita_encurso_pct": 8.91,
+    "g_defendible_pct": 6.2,
+    "valor_por_accion_auditado_usd": 330,
+    "valor_por_accion_encurso_usd": 358,
+    "mos_auditado_pct": -33.2,
+    "mos_encurso_pct": -22.9,
+    "mos_exigido_pct": 52.0,
+    "m_estrella": 18.0,
+    "p_estrella_usd": 172,
+    "tir_esperada_rango": "7,1% - 8,8% anual a 10 anos",
+    "trampa_de_valor": "NO"
+  },
+
+  "VEREDICTO_DE_PRECIO": {
+    "accion": "NO CARGAR. MANTENER lo que ya se tiene.",
+    "una_frase": "El mercado le exige a S&P Global un 8,9%-10,0% de crecimiento anual de owner earnings durante diez anos; el motor, con el precio ya restando y el volumen fuera de su control, defiende un 6,2%. La brecha no es una tesis: es la factura.",
+    "por_que_no_es_una_venta": "La TIR esperada del 7%-9% no destruye capital y el negocio no esta roto. Vender un peaje funcional por estar un 25% caro es la forma mas cara de tener razon. El coste real de mantener es de oportunidad: ~1,2 pp anuales por debajo del coste de capital.",
+    "por_que_no_es_una_carga": "Para CARGAR hace falta un 52% de margen de seguridad, es decir un precio de 172 USD. Hoy son 440 USD. Ni el borde mas optimista de la banda de resolucion (447 USD de valor) deja margen alguno.",
+    "que_lo_cambiaria": [
+      "Un precio por debajo de 215 USD (umbral del 40%) o de 172 USD (umbral estricto de CARGA).",
+      "Que la guia ex-Mobility del 28-jul-2026 revele un perfil de caja materialmente mejor que los ~4.900 M que he reconstruido.",
+      "Que la tarifa de Indices deje de caer o que el precio/mix de Ratings vuelva a positivo dos anos seguidos. Eso reabriria la g por encima del 7% y valdria revisar todo el expediente.",
+      "Una parada de volumen (emision o AUM) que hunda el precio sin romper el peaje: seria la ventana, no el problema."
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+ "ticker": "AAPL",
+ "currency": "USD",
+ "current_price": 297.01,
+ "name": "Apple Inc.",
+ "wacc_pct": 10.3,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.2,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF (FY2025) = FCF reportado $98.77B - 100% SBC $12.86B = $85.9B. Margen owner-FCF ~20.6% sobre ingresos FY2025 de $416.2B. Base de partida para proyeccion; el margen owner-FCF se expande gradualmente hacia 24-27% segun escenario a medida que crece la mezcla de Servicios (mayor margen).",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 7,
+  "rev_cagr_y6_10_pct": 4.8,
+  "fcf_margin_terminal_pct": 24.5,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC ($12.86B, ~3.1% de ingresos / ~13% del FCF) tratada como gasto en efectivo y restada del FCF reportado para obtener Owner FCF",
+  "shares_diluted_b": 14.67,
+  "net_debt_usd_b": -61.88
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 89.58,
+   "prob": 0.375,
+   "note": "Crecimiento ingresos 4%->2%, margen owner-FCF estable ~20.6%->21.5% (presion competitiva iPhone/China, regulacion App Store comprime Servicios), g terminal 2.5%. No apocaliptico: Apple mantiene foso pero sin expansion de margen."
+  },
+  "base": {
+   "iv_per_share": 122.06,
+   "prob": 0.475,
+   "note": "Crecimiento ingresos 7%->3% (consistente con track record: FY25 +6%, Q2 FY26 +17% por ciclo iPhone 17/IA), margen owner-FCF expande 20.6%->24.5% por mezcla Servicios, g terminal 3.0%. Valor terminal ~55% del EV."
+  },
+  "optimista": {
+   "iv_per_share": 166.5,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: ingresos 10%->4.5% (super-ciclo IA en dispositivo, Servicios doble digito sostenido, nuevas categorias), margen owner-FCF hacia 27%, g terminal 3.5%."
+  }
+ },
+ "sanity_check": "VI base ~$122 vs precio $297 implica que el mercado paga ~2.4x el valor de un DCF de owner earnings disciplinado. La accion cotiza a fwd P/E 32.6 (prima ~+14% sobre su media 5a ~28.5x) y PEG 2.84 — precio para perfeccion. Reverse-DCF: para justificar $297 se requeriria crecimiento ~13% y margen owner-FCF ~28% sostenidos (sale ~$214, aun por debajo), supuestos por encima del track record. Contraste de rendimiento total al accionista (NO DDM): recompras ~$90B/anio + dividendos ~$15B = ~$105B sobre cap. mkt $4.36T => yield al accionista ~2.4% — modesto a este precio, insuficiente para cerrar la brecha de valoracion. Conclusion: sobrevalorada respecto a owner earnings; la calidad del negocio es maxima (ROIC ~55%, net cash $61.9B) pero el precio descuenta crecimiento extraordinario.",
+ "method_notes": "DCF de owner earnings a 10 anios en USD. Owner FCF = FCF reportado - 100% SBC. Fase 1 (anios 1-5): CAGR ingresos explicito con margen owner-FCF expandiendose linealmente; Fase 2 (anios 6-10): CAGR declinante linealmente hacia normalizacion. Valor terminal por Gordon sobre el flujo del anio 10. WACC = Rf 4.3% (UST 10Y, sin ajuste geopolitico — Apple es EE.UU.) + ERP 5.0% x beta 1.20 = 10.3%. Equity = EV + net cash $61.88B (Apple es net cash, net_debt = -61.88). VI/accion = Equity / 14.67B acciones diluidas (implicito de cap. mkt $4.36T / $297.01). Datos fundamentales (ingresos, FCF, SBC, margenes) verificados del 10-K FY2025 (As-Filed PDF) y 10-Q Q2 FY2026; precio/cap/PE/net debt de StockAnalysis al 2026-06-22. Sin busqueda web adicional: todos los inputs presentes en FASE 2. Beta 1.20 estimada para mega-cap tech (no provista en el JSON)."
+}

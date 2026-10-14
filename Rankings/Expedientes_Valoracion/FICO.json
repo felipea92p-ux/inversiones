@@ -1,0 +1,300 @@
+{
+  "ticker": "FICO",
+  "empresa": "Fair Isaac Corporation",
+  "cik": "0000814547",
+  "moneda_funcional": "USD",
+  "moneda_reporte": "USD",
+  "fecha_valoracion": "2026-07-27",
+  "etiqueta_congelada": "ULTRA-C",
+  "nota_etiqueta": "La etiqueta de calidad esta CONGELADA (4 puertas pasadas). Este expediente solo valora el PRECIO. En ningun punto se reclasifica hacia arriba. Si al abrir el precio aparece la tentacion de decir 'en realidad es ULTRA de verdad', eso es la contradiccion madre buscando otra puerta, no un hallazgo.",
+  "especie": "G2 — reinversion 12,21% de ventas · ROIIC bruto 54,3% · ROIIC ex-margen 16,6%",
+  "en_cartera": false,
+  "mos_exigido_pct": 18.0,
+  "mos_exigido_nota": "18% por ser ULTRA fuera de cartera (umbral de ABRIR). No aplica el escalon +12 de CARGAR (que llevaria a 30%).",
+
+  "precio": {
+    "precio_usd": 1280.57,
+    "fuente": "IBKR get_price_snapshot, contract_id 269280 (NYSE), campo 'last' con is_close=true, sesion del 27-jul-2026. Bid/ask fuera de sesion 1181,32 / 1329,00 (horquilla ancha, no usable).",
+    "etiqueta": "HECHO",
+    "cotiza_en_eeuu": true,
+    "ads": false,
+    "nota_ads": "FICO cotiza como accion ordinaria en NYSE. No hay ratio ADS que ajustar.",
+    "rango_52s": {"max": 1995.00, "min": 871.13, "apertura_52s": 1529.51},
+    "high_13s": 1333.33,
+    "low_13s": 966.10,
+    "ytd_pct": -24.25,
+    "caida_desde_maximo_52s_pct": -35.8,
+    "volatilidad_anual_historica_pct": 44.9,
+    "nota_precio": "El precio ha caido un 35,8% desde el maximo de 52 semanas (1.995) y un 24,3% en lo que va de ano, mientras la empresa SUBIA la guia el 28-abr-2026. Divergencia entre precio y cuenta de resultados: el mercado esta repreciando la DURABILIDAD del peaje, no su tamano actual."
+  },
+
+  "capital_estructura": {
+    "acciones_en_circulacion_millones": 23.190906,
+    "fuente_acciones": "Portada del 10-Q Q2 FY2026 (dei:EntityCommonStockSharesOutstanding a 2026-04-16): 23.190.906. Balance a 31-mar-2026: 23.295 miles. Accession 0000814547-26-000021, presentado 28-abr-2026.",
+    "etiqueta_acciones": "HECHO",
+    "nota_acciones": "HUECO: FICO recompro 776,6 M USD en H1 FY2026 (inclusive impuesto especial). A precios de 1.200-1.900 USD eso son ~0,5 M de acciones por semestre. El recuento de HOY es casi seguro menor que 23,19 M, lo que sobreestima la capitalizacion e infravalora el valor por accion. Sesgo conservador, declarado.",
+    "capitalizacion_usd_mm": 29697.5,
+    "deuda_carrying_usd_mm": 3639.063,
+    "deuda_carrying_detalle": "Long-term debt neto de costes de emision a 31-mar-2026 (10-Q Q2 FY2026, Nota 6). Sin porcion corriente: los 2018 Senior Notes (400 M al 5,25%) se repagaron el 26-mar-2026.",
+    "deuda_facial_usd_mm": 3665.0,
+    "deuda_facial_detalle": "Senior Notes 3.400 M (900 M al 4,00% venc. 2028 + 1.500 M al 6,00% venc. 2033 + 1.000 M al 6,25% venc. 2034) + linea revolvente dispuesta 265 M al 4,931% (venc. mayo-2030). Facilidad total revolvente 1.000 M.",
+    "deuda_valor_mercado_usd_mm": 3562.875,
+    "deuda_valor_mercado_detalle": "Fair value de los Senior Notes declarado en el 10-Q Q2 FY2026: 868.500 (2019+2021) + 1.456.875 (2025) + 972.500 (2026) = 3.297.875 miles. Mas revolvente 265.000 a la par (tipo variable). Total 3.562.875 miles.",
+    "etiqueta_deuda": "HECHO (10-Q al 31-mar-2026) / INFERENCIA (que ese fair value sigue vigente el 27-jul-2026)",
+    "caja_usd_mm": 219.419,
+    "caja_fuente": "Balance 10-Q Q2 FY2026 a 31-mar-2026.",
+    "deuda_neta_usd_mm": 3343.456,
+    "ev_usd_mm": 33040.9,
+    "apalancamiento": "Deuda facial / owner earnings FY2026E de mantenimiento = 3,85x. Deuda neta / EBITDA FY2026E aproximado (~1.320 M) = 2,5x. Covenant maximo del revolver: 3,5x consolidated leverage. El apalancamiento SUBE: la deuda facial pasa de 2.800 M (sep-2025) a 3.665 M (mar-2026), y el destino es recompra de acciones, no crecimiento."
+  },
+
+  "candado_B_wacc": {
+    "principio": "El WACC sale del mercado. No se hereda de ningun tier de calidad. PROHIBIDO usar el ULTRA-C como atajo para bajar la tasa.",
+    "tasa_libre_riesgo_pct": 4.63,
+    "tasa_libre_riesgo_fuente": "Bono del Tesoro EEUU a 10 anios (moneda funcional USD), cierre del 27-jul-2026. Contrastado contra Federal Reserve H.15 (Selected Interest Rates, 27-jul-2026), FRED DGS10 y TradingEconomics.",
+    "tasa_libre_riesgo_etiqueta": "INFERENCIA (dato de mercado secundario, no filing; la serie H.15 es oficial pero no la he descargado en bruto)",
+    "beta": 1.35,
+    "beta_fuente": "MEDICION PROPIA: regresion de rendimientos mensuales de FICO contra SPY, cierres mensuales 2021-07 a 2026-07 (precios: IBKR get_price_history, ONE_MONTH, FIVE_YEARS, contract_id 269280 y 756733). Beta 5 anios = 1,273 (R2 = 0,26, n = 60). Beta 3 anios = 1,385 (R2 = 0,21). Beta 2 anios = 0,974 (R2 = 0,09). Blume ajustada 5a = 1,183. Volatilidad anual historica de FICO 44,9% (IBKR historical_vol, 27-jul-2026) frente a ~16% de SPY.",
+    "beta_etiqueta": "HECHO (calculo propio sobre serie de precios verificable)",
+    "beta_contraste_terceros": "Zacks / stockanalysis publican beta 5 anios de 1,42 (consulta 27-jul-2026). INFERENCIA (agregador). Mi 1,273-1,385 cae por debajo pero dentro del racimo. Se adopta 1,35 como central: media aproximada entre mi ventana de 5 anios, la de 3 anios y la publicada.",
+    "beta_advertencia": "El R2 de la regresion a 5 anios es 0,26. El 74% de la varianza de FICO NO la explica el mercado. La beta es el eslabon debil del WACC en esta empresa: es un valor idiosincratico, movido por decisiones de la FHFA y por su propia politica de precios, no por el ciclo. Toda la banda de WACC nace de aqui.",
+    "prima_mercado_madura_pct": 4.20,
+    "prima_pais_pct": 0.22,
+    "prima_riesgo_total_usada_pct": 4.42,
+    "prima_fuente": "Damodaran, prima de riesgo implicita de EEUU con el S&P 500 en 7.499,36 el 1-jul-2026: 4,42% implicita; descontando el spread de default de 0,22% del rating Aa1 (rebaja de Moody's desde Aaa) queda una prima de mercado maduro de 4,20%.",
+    "prima_metodo": "Prima ponderada por el riesgo del ACTIVO, no del domicilio fiscal. Mix de ventas H1 FY2026 (10-Q Q2 FY2026, desglose geografico): Americas 1.075.299 miles = 89,3% (de los cuales EEUU 967.800 = 80,4%); EMEA 86.329 = 7,2%; Asia-Pacifico 42.008 = 3,5%. El riesgo de activo de FICO es EEUU casi puro. Se usa la prima de EEUU sin ponderar: 4,42%.",
+    "prima_etiqueta": "INFERENCIA (cifra de Damodaran via busqueda, no descargada de pages.stern.nyu.edu) / HECHO (el mix de ventas, del filing)",
+    "coste_deuda_pretax_pct": 5.50,
+    "coste_deuda_despues_impuestos_pct": 4.35,
+    "coste_deuda_fuente": "DERIVADO DEL FILING, dos vias que se cruzan. (1) Media ponderada del stack vigente al 31-mar-2026: 900 M al 4,00% + 1.500 M al 6,00% + 1.000 M al 6,25% + 265 M al 4,931% = 201,6 M / 3.665 M = 5,50%. (2) Coste realizado: gasto financiero H1 FY2026 86.585 miles, anualizado 173,2 M, sobre deuda media del periodo ((3.055,7 + 3.639,1)/2 = 3.347,4 M) = 5,17% — pero esa cifra esta contaminada a la baja porque el bono de 1.000 M al 6,25% solo estuvo vivo 11 dias del semestre. El coste MARGINAL es 6,25% (emision de marzo-2026). Se adopta 5,50% como central.",
+    "coste_deuda_etiqueta": "HECHO (tipos y saldos del 10-Q Q2 FY2026, Nota 6)",
+    "tipo_impositivo_pct": 21.0,
+    "tipo_impositivo_nota": "Marginal estatutario federal. El efectivo de FY2025 fue 18,77% (150.649 / 802.595) por beneficios fiscales del SBC; el de H1 FY2026 fue 22,84% (125.129 / 547.960). Se usa 21% para el escudo de la deuda por prudencia.",
+    "ponderacion": "A valor de mercado. Equity 29.697,5 M (89,29%) + deuda a fair value 3.562,9 M (10,71%).",
+    "coste_equity_pct": 10.60,
+    "coste_equity_calculo": "4,63% + 1,35 x 4,42% = 10,60%",
+    "wacc_pct": 9.93,
+    "wacc_calculo": "0,8929 x 10,60% + 0,1071 x 4,35% = 9,47% + 0,47% = 9,93%",
+    "wacc_rango": "8,9% - 10,9%",
+    "wacc_rango_metodo": "Extremo bajo: beta 1,20, Rf 4,38%, prima 4,20%, Kd 5,20%. Extremo alto: beta 1,45, Rf 4,88%, prima 4,60%, Kd 6,30%. La banda la domina la beta, cuyo R2 es 0,26."
+  },
+
+  "owner_earnings": {
+    "definicion_a": "Flujo de caja de operaciones menos capex de MANTENIMIENTO, aproximado por la depreciacion y amortizacion. El exceso de capex sobre la D&A es inversion discrecional y NO se resta.",
+    "definicion_b": "Flujo de caja de operaciones menos TODO el capex = flujo de caja libre puro. En FICO 'todo el capex' son DOS lineas del estado de flujos: 'Purchases of property and equipment' y 'Capitalized internal-use software costs'. Usar solo la primera (que es la que devuelve el tag XBRL PaymentsToAcquirePropertyPlantAndEquipment) subestima el capex en un factor de cuatro.",
+    "nota_estructural": "En FICO el capex total (39,4 M en FY2025) es 2,6 veces la D&A (15,0 M). Es una empresa que esta CONSTRUYENDO activo de software interno (el bruto de internal-use software pasa de 47,2 a 64,4 M en solo seis meses). Por eso el OE de mantenimiento es MAYOR que el FCF puro: hay inversion discrecional real, aunque sea pequena en terminos absolutos.",
+
+    "base_auditada": {
+      "ejercicio": "FY2025, cerrado el 30-sep-2025",
+      "fuente": "10-K FY2025, accession 0000814547-25-000030, presentado 07-nov-2025",
+      "etiqueta": "HECHO",
+      "ventas_usd_mm": 1990.869,
+      "resultado_operativo_usd_mm": 924.850,
+      "beneficio_antes_impuestos_usd_mm": 802.595,
+      "beneficio_neto_usd_mm": 651.946,
+      "cfo_usd_mm": 778.807,
+      "da_usd_mm": 14.952,
+      "capex_ppe_usd_mm": 8.922,
+      "capex_software_capitalizado_usd_mm": 30.485,
+      "capex_total_usd_mm": 39.407,
+      "sbc_usd_mm": 156.667,
+      "gasto_financiero_usd_mm": 133.647,
+      "oe_mantenimiento_usd_mm": 763.855,
+      "oe_capex_total_usd_mm": 739.400,
+      "oe_mantenimiento_menos_sbc_usd_mm": 607.188,
+      "oe_capex_total_menos_sbc_usd_mm": 582.733,
+      "margen_oe_sobre_ventas_pct": 38.4
+    },
+
+    "base_en_curso": {
+      "ejercicio": "FY2026, cierra el 30-sep-2026",
+      "publicado": "Solo H1 FY2026 (hasta 31-mar-2026). A 27-jul-2026 el Q3 FY2026 NO estaba presentado: el ultimo 10-Q es el de 28-abr-2026. FICO presento el Q3 del ano anterior el 30-jul-2025, asi que el Q3 FY2026 llega en dias. HUECO DECLARADO.",
+      "fuente": "10-Q Q2 FY2026 (accession 0000814547-26-000021) y 8-K de resultados de 28-abr-2026, Ex-99.1 (accession 0000814547-26-000020).",
+      "h1_ventas_usd_mm": 1203.636,
+      "h1_resultado_operativo_usd_mm": 636.514,
+      "h1_beneficio_neto_usd_mm": 422.831,
+      "h1_cfo_usd_mm": 397.440,
+      "h1_da_usd_mm": 7.905,
+      "h1_capex_ppe_usd_mm": 0.492,
+      "h1_capex_software_usd_mm": 17.256,
+      "h1_sbc_usd_mm": 89.579,
+      "h1_gasto_financiero_usd_mm": 86.585,
+      "guia_empresa": "Guia FY2026 ELEVADA el 28-abr-2026: ventas 2.450 M (antes 2.350), beneficio neto GAAP 825 M (antes 795), BPA GAAP 35,60 USD (antes 33,47), beneficio neto no-GAAP 946 M, BPA no-GAAP 40,45 USD. HECHO (8-K Ex-99.1).",
+      "anualizacion_metodo": "Ventas y beneficio neto se toman DIRECTAMENTE de la guia elevada (2.450 M y 825 M). El CFO no lo guia la empresa; se estima por dos vias que se cruzan: (1) ratio CFO/BN de FY2025 = 1,195 aplicado a 825 M -> 986 M; (2) construccion bottom-up: 825 + D&A 16,5 + SBC 185 + impuestos diferidos ~15 + leases no monetarios ~9,5 - drag de circulante ~90 (el doble del de FY2025, coherente con clientes creciendo 82 M solo en H1) = 961 M. Se adopta 970 M como central, banda 930-1.010 M.",
+      "cfo_estimado_usd_mm": 970.0,
+      "cfo_etiqueta": "INFERENCIA",
+      "da_estimada_usd_mm": 17.0,
+      "capex_total_estimado_usd_mm": 37.5,
+      "sbc_estimado_usd_mm": 185.0,
+      "gasto_financiero_estimado_usd_mm": 195.0,
+      "gasto_financiero_nota": "H1 real 86,6 M. El bono de 1.000 M al 6,25% se emitio el 20-mar-2026 y sustituye a 400 M al 5,25%: eso anade ~10,4 M por trimestre. Q3 y Q4 estimados en ~55 M cada uno.",
+      "oe_mantenimiento_usd_mm": 953.0,
+      "oe_capex_total_usd_mm": 932.5,
+      "oe_mantenimiento_menos_sbc_usd_mm": 768.0,
+      "oe_capex_total_menos_sbc_usd_mm": 747.5,
+      "margen_oe_sobre_ventas_pct": 38.9
+    },
+
+    "distancia_entre_bases": {
+      "oe_mantenimiento_pct": 24.8,
+      "oe_capex_total_pct": 26.1,
+      "ventas_pct": 23.1,
+      "lectura": "La distancia NO es ruido y no es un ciclo que se recupera: es un ESCALON DE PRECIO. El 8-K del 28-abr-2026 lo dice con todas las letras: los ingresos de Scores B2B suben un 72% interanual 'primarily attributable to a higher mortgage origination scores unit price and an increase in volume of mortgage originations'. Sin unidades publicadas no puedo separar cuanto del +72% es precio y cuanto es volumen — pero el orden de las palabras de la propia empresa pone el precio primero. Valorar sobre la base EN CURSO es valorar el ano en que el peaje se subio, y extrapolarlo diez anios es extrapolar que se puede volver a subir asi cada ano."
+    }
+  },
+
+  "tasa_base_del_negocio": {
+    "ventas_fy2019_usd_mm": 1160.083,
+    "ventas_fy2021_usd_mm": 1316.536,
+    "ventas_fy2023_usd_mm": 1513.557,
+    "ventas_fy2025_usd_mm": 1990.869,
+    "cagr_ventas_fy19_fy25_pct": 9.42,
+    "cagr_ventas_fy21_fy25_pct": 10.89,
+    "crecimiento_fy26e_pct": 23.06,
+    "fuente": "Todas del tag XBRL RevenueFromContractWithCustomerExcludingAssessedTax en los 10-K correspondientes. HECHO.",
+    "lectura": "La tasa base de VENTAS a seis anios es 9,4%. La de owner earnings es mayor porque el margen se expandio (NOPAT del 19,4% al 37,7% de ventas segun la ficha de calidad congelada), y esa expansion es exactamente la parte que la formula de g defendible se niega a extrapolar."
+  },
+
+  "dcf_inverso": {
+    "metodo": "Se busca el crecimiento g del FCFF durante 10 anios que, con valor terminal creciendo al 3% a perpetuidad y descontando todo al WACC de 9,93%, iguala exactamente el enterprise value de hoy (33.041 M USD). El FCFF se construye desapalancando el owner earnings: OE + gasto financiero x (1 - t), porque el CFO ya esta despues de intereses pagados y el WACC es una tasa desapalancada.",
+    "terminal_pct": 3.0,
+    "wacc_pct": 9.93,
+    "ev_objetivo_usd_mm": 33040.9,
+    "resultados": [
+      {"base": "Auditado FY2025, capex de mantenimiento", "oe": 763.9, "fcff": 869.4, "g_implicita_pct": 15.63},
+      {"base": "Auditado FY2025, capex total", "oe": 739.4, "fcff": 845.0, "g_implicita_pct": 16.02},
+      {"base": "Auditado FY2025, mantenimiento menos SBC", "oe": 607.2, "fcff": 712.8, "g_implicita_pct": 18.32},
+      {"base": "En curso FY2026E, capex de mantenimiento", "oe": 953.0, "fcff": 1105.1, "g_implicita_pct": 12.40},
+      {"base": "En curso FY2026E, capex total", "oe": 932.5, "fcff": 1084.6, "g_implicita_pct": 12.65},
+      {"base": "En curso FY2026E, mantenimiento menos SBC", "oe": 768.0, "fcff": 920.1, "g_implicita_pct": 14.87}
+    ],
+    "veredicto": "Sobre la base mas favorable que se puede defender con papel — el ejercicio en curso, que ya lleva dentro el escalon de precio del score hipotecario, sin descontar el SBC — el precio de 1.280,57 USD exige que el owner earnings de FICO crezca al 12,4% anual durante DIEZ anios antes de asentarse en el 3%. Sobre el ultimo ejercicio auditado exige el 15,6%. La tasa base de ventas a seis anios es 9,4%. La g que produce el motor de reinversion es 2,0%. Lo interesante de FICO frente a otras ULTRA caras es que el 12,4% no es absurdo a primera vista: FICO ha hecho eso y mas en owner earnings durante la ultima decada. Lo que hay que preguntar no es si el 12,4% es posible, sino DE DONDE saldria — y la respuesta es: de seguir subiendo el precio del peaje una decada mas, en el mismo momento en que la FHFA ya permite al originador elegir el score."
+  },
+
+  "g_defendible": {
+    "formula": "g = tasa de reinversion x ROIIC EX-MARGEN. Se usa el ex-margen (16,6%), no el bruto (54,3%), porque usar el bruto asume que la expansion de margen del NOPAT del 19,4% al 37,7% de las ventas se repite en la proxima decada. Y esa expansion es precisamente lo que no se puede demostrar: FICO no publica una sola unidad de score en ningun filing desde hace quince anios, asi que no puedo separar el margen ganado por precio del ganado por volumen.",
+    "reinversion_pct_ventas": 12.21,
+    "roiic_ex_margen_pct": 16.6,
+    "roiic_bruto_pct": 54.3,
+    "g_defendible_pct": 2.03,
+    "banda_g": "1,5% - 2,5% (piso de resolucion +-25%)",
+    "advertencia_honesta": "Esta formula esta estructuralmente sesgada CONTRA un negocio como FICO. La identidad g = reinversion x ROIIC describe a una empresa que crece desplegando capital. FICO no despliega capital: despliega PRECIO. Su capex es el 2,0% de las ventas y su reinversion total el 12,2%; su motor real es que el peaje por unidad sube y el numero de unidades apenas cambia. La formula devuelve 2,03% porque mide la palanca que FICO no usa. Dicho eso: la formula es el candado de la casa y no se le pone una excepcion a la empresa que uno tiene ganas de comprar. Se reporta el 2,03% como g defendible, y la brecha contra el 12,4% implicito se declara como lo que es — la parte de la tesis que NO se puede sostener con esta metodologia y que habria que sostener con evidencia de poder de precio futuro, evidencia que hoy no tengo.",
+    "contraste": "g defendible 2,03% frente a g implicita en el precio 12,40% (base en curso) o 15,63% (base auditada). Brecha de 10 a 14 puntos porcentuales anuales durante una decada. Aunque se concediera que la formula subestima el motor por un factor de DOS (g = 4,1%), la TIR esperada solo subiria a ~6,8% frente a un coste de equity del 10,6%."
+  },
+
+  "valoracion": {
+    "g_usada_pct": 2.03,
+    "wacc_usado_pct": 9.93,
+    "terminal_pct": 3.0,
+    "nota_incoherencia_declarada": "Con g defendible de 2,03% y terminal de 3,0%, el modelo hace ACELERAR el crecimiento al entrar en la perpetuidad. Es una incoherencia formal que INFLA el valor, no lo deprime. Se deja asi porque el terminal del 3% es parte del mandato; se declara para que nadie crea que el resultado esta sesgado a la baja por construccion.",
+    "multiplo_justo_equity_sobre_oe": 12.5,
+    "resultados": [
+      {"base": "Auditado FY2025, capex mantenimiento", "ev_usd_mm": 12034, "equity_usd_mm": 8691, "valor_por_accion_usd": 375, "banda_25pct": "281 - 469", "mos_pct": -241.7},
+      {"base": "Auditado FY2025, capex total", "ev_usd_mm": 11696, "equity_usd_mm": 8352, "valor_por_accion_usd": 360, "banda_25pct": "270 - 450", "mos_pct": -255.6},
+      {"base": "Auditado FY2025, mantenimiento menos SBC", "ev_usd_mm": 9860, "equity_usd_mm": 6516, "valor_por_accion_usd": 281, "banda_25pct": "211 - 351", "mos_pct": -355.3},
+      {"base": "En curso FY2026E, capex mantenimiento", "ev_usd_mm": 15296, "equity_usd_mm": 11953, "valor_por_accion_usd": 515, "banda_25pct": "387 - 644", "mos_pct": -148.5},
+      {"base": "En curso FY2026E, capex total", "ev_usd_mm": 15012, "equity_usd_mm": 11669, "valor_por_accion_usd": 503, "banda_25pct": "377 - 629", "mos_pct": -154.5},
+      {"base": "En curso FY2026E, mantenimiento menos SBC", "ev_usd_mm": 12735, "equity_usd_mm": 9392, "valor_por_accion_usd": 405, "banda_25pct": "304 - 506", "mos_pct": -216.2}
+    ],
+    "precio_sobre_valor": {"auditado": 3.42, "en_curso": 2.49},
+    "multiplos_de_hoy": {
+      "ev_sobre_fcff_auditado": 38.0,
+      "ev_sobre_fcff_en_curso": 29.9,
+      "precio_sobre_oe_mantenimiento_en_curso": 31.2,
+      "per_fy2026e_guia": 35.97,
+      "ev_sobre_ventas_fy2026e": 13.49
+    }
+  },
+
+  "piso_de_resolucion": {
+    "regla": "Sin medicion propia del ruido se aplica una banda de +-25% al valor intrinseco. Nada de decimales falsos en el valor por accion.",
+    "banda_auditada_usd": "281 - 469",
+    "banda_en_curso_usd": "387 - 644",
+    "test": "El precio de 1.281 USD esta un 99% por encima del EXTREMO SUPERIOR de la banda en curso (644) y un 173% por encima del de la banda auditada (469). El veredicto de precio sobrevive al ruido con holgura: no es un caso limite. Para que el precio de hoy fuera defendible habria que equivocarse simultaneamente en la beta, en la g y en la base de owner earnings, todos en la misma direccion y por mucho.",
+    "sensibilidad_vps_en_curso": {
+      "WACC 8,9% / g 2,5%": 651,
+      "WACC 9,9% / g 2,0%": 515,
+      "WACC 10,9% / g 1,5%": 418,
+      "WACC 9,9% / g 4,1% (formula subestimando por 2x)": 640,
+      "WACC 9,9% / g 8,0% (concediendo la mitad del camino al mercado)": 1030
+    },
+    "nota_sensibilidad": "El ultimo escenario es el interesante: HABRIA que conceder una g del 8% anual durante diez anios — cuatro veces la que da el motor, y cerca de la tasa base historica de ventas — para acercarse a 1.030 USD, y aun asi el precio de hoy quedaria un 24% por encima."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 14.0,
+    "m_estrella_definicion": "Multiplo de owner earnings de MANTENIMIENTO (medida apalancada, despues de intereses) que se acepta pagar por el equity. Decidido en frio y sin barra de error, porque es una DECISION, no una estimacion. 14x equivale a un rendimiento de owner earnings del 7,1% que, sumado a una g del 2%, da un retorno esperado del ~9,1%, aproximadamente el coste del equity de 10,6% con un pequeno descuento de calidad concedido al peaje.",
+    "m_estrella_justificacion": "El DCF con g defendible implica 12,5x. Se concede una prima deliberada hasta 14x — no hasta 20x — reconociendo que la identidad de reinversion subestima a un negocio de precio, pero negandose a que ese reconocimiento se convierta en la puerta trasera por la que entra la contradiccion madre. El mercado paga hoy 31,2x sobre el owner earnings del mejor ano del ciclo y 38,9x sobre el auditado.",
+    "valor_por_accion_desde_m_en_curso_usd": 575,
+    "valor_por_accion_desde_m_auditado_usd": 461,
+    "p_estrella_usd": 472,
+    "p_estrella_calculo": "Base EN CURSO (la mas favorable defendible): 14 x 953,0 M = 13.342 M de equity / 23,19 M acciones = 575 USD. Aplicando el MoS exigido del 18% para abrir: 575 x 0,82 = 472 USD.",
+    "p_estrella_alternativo_usd": 378,
+    "p_estrella_alternativo_calculo": "Base AUDITADA: 14 x 763,9 M = 10.695 M / 23,19 M = 461 USD; 461 x 0,82 = 378 USD. Es el numero que usaria si no me dejaran valorar sobre un ejercicio sin cerrar.",
+    "p_estrella_desde_dcf_usd": 423,
+    "p_estrella_desde_dcf_calculo": "Si en vez de m* se usa directamente el DCF con g defendible sobre la base en curso (515 USD): 515 x 0,82 = 423 USD.",
+    "caida_necesaria_pct": -63.1,
+    "caida_necesaria_nota": "De 1.281 a 472 hacen falta un -63%. De 1.281 a 378, un -70%. El minimo de 52 semanas (871) sigue estando un 85% por encima de P*."
+  },
+
+  "tir_esperada": {
+    "metodo": "Tasa que iguala el valor presente del flujo de FCFF (10 anios a la g defendible, terminal al 3%) con el EV de hoy. Es lo que se gana comprando a 1.280,57 USD si el modelo acierta. Se reporta como rango porque un MoS de -148% no es informacion y un -14% anual si lo seria.",
+    "rango": "4,9% - 7,0% anual durante 10 anios",
+    "central_pct": 6.0,
+    "detalle": [
+      {"base": "Auditado, FCFF -25%", "tir_pct": 4.86},
+      {"base": "Auditado, central", "tir_pct": 5.49},
+      {"base": "Auditado, FCFF +25%", "tir_pct": 6.12},
+      {"base": "En curso, FCFF -25%", "tir_pct": 5.37},
+      {"base": "En curso, central", "tir_pct": 6.17},
+      {"base": "En curso, FCFF +25%", "tir_pct": 6.98},
+      {"base": "En curso con g 5% (concediendo mas del doble del motor)", "tir_pct": 7.06},
+      {"base": "En curso con g 8% (concediendo la tasa base historica de ventas)", "tir_pct": 8.11},
+      {"base": "En curso con g 12,4% (la que el precio exige)", "tir_pct": 9.93}
+    ],
+    "tir_equity_implicita": "Descontando el owner earnings apalancado contra la capitalizacion: 5,4% (base auditada) a 6,0% (base en curso).",
+    "lectura": "Traduccion honesta del MoS de -148%: no se pierde el 148%. Se compra un peaje excelente a un precio que, si mi g acierta, rinde entre el 4,9% y el 7,0% anual durante una decada, cuando el coste del capital es 9,93%, el coste del equity 10,60% y el bono del Tesoro a 10 anios paga 4,63%. Es decir: entre 3 y 5 puntos por debajo de lo exigido cada ano, y entre 0,3 y 2,4 puntos por encima del bono sin riesgo, asumiendo el riesgo entero de una accion con una volatilidad anual del 45% y con el reloj regulatorio corriendo. Para que la TIR llegue al coste del capital hay que creerse el 12,4% del mercado."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "SOSPECHA",
+    "motivo": "Formalmente no hay trampa de valor porque no hay MoS: el precio esta entre un 149% y un 242% POR ENCIMA del valor, asi que no hay descuento falso que auditar. Pero el patron que aparece merece la etiqueta SOSPECHA por una razon distinta y mas incomoda. La accion ha caido un 36% desde el maximo de 52 semanas mientras la empresa SUBIA la guia: ventas +23%, Scores B2B +72%, guia elevada de 2.350 a 2.450 M el 28-abr-2026. Cuando el precio se desploma un tercio contra fundamentales que aceleran, la hipotesis por defecto no es que el mercado se equivoque: es que el mercado esta descontando que el motor de esa aceleracion es finito. Y aqui el motor de la aceleracion es un ESCALON DE PRECIO en el score hipotecario, es decir, exactamente el acto de cosechar el foso. Ese es el patron de Kraft Heinz 2017: margenes y beneficios en maximos mientras la base del negocio se estrecha. La diferencia con Kraft es que en FICO no puedo verificarlo, porque G3 es literalmente inmedible — la empresa no publica una sola unidad desde hace quince anios. Y el reloj de G6 ya arranco con fecha: julio de 2025, cuando la FHFA permitio al originador elegir el score, con lo que el peaje pasa de mandato regulatorio a estandar de facto. SOSPECHA, no NO, precisamente porque no tengo los datos para descartarlo: la ausencia de unidades no es una laguna menor, es la unica serie que distinguiria 'estamos creciendo' de 'estamos cobrando mas por lo mismo mientras podamos'.",
+    "que_lo_convertiria_en_SI": "Que en los proximos 4-6 trimestres los ingresos de Scores B2B crezcan menos que la subida de precio unitaria anunciada — senal de que las unidades estan cayendo — o que un competidor (VantageScore) capture cuota verificable en originacion hipotecaria bajo el regimen de eleccion de la FHFA.",
+    "que_lo_convertiria_en_NO": "Que FICO empiece a publicar unidades, o que un tercero verificable (FHFA, un buro, MBA) publique volumenes de score por originacion que permitan separar precio de volumen y demuestren que el volumen no se erosiona."
+  },
+
+  "veredicto_precio": {
+    "decision": "NO COMPRAR A ESTE PRECIO",
+    "mos_exigido_pct": 18.0,
+    "mos_obtenido_en_curso_pct": -148.5,
+    "mos_obtenido_auditado_pct": -241.7,
+    "resumen": "El precio de 1.280,57 USD exige que el owner earnings crezca un 12,4% anual durante diez anios sobre la base del ejercicio en curso — que ya lleva dentro el escalon de precio del score hipotecario — o un 15,6% sobre el ultimo auditado. El motor, medido como reinversion (12,21% de ventas) por ROIIC ex-margen (16,6%), da un 2,0%. La tasa base de ventas a seis anios da un 9,4%. El valor por accion sale entre 375 y 515 USD segun la base, con banda de ruido de 281 a 644. La TIR esperada es del 4,9% al 7,0% anual frente a un coste de equity del 10,6%. La caida del 36% desde maximos NO ha abierto la ventana: ha reducido una sobrevaloracion de cinco veces a una de dos veces y media. La etiqueta ULTRA-C no se toca y no hace falta tocarla: el negocio es lo que la calidad dijo que era, un peaje magnifico sobre la unidad de cuenta del credito estadounidense. Lo que falla es el precio, y falla por un factor de dos y medio incluso concediendo la base mas favorable.",
+    "que_haria_falta_para_cambiar": "Un precio de 472 USD o menos sobre la base en curso (378 sobre la auditada). O evidencia primaria de que el poder de precio del score puede sostenerse una decada mas bajo el regimen de eleccion del originador que la FHFA abrio en julio de 2025 — evidencia que, sin unidades publicadas, hoy no existe en ningun filing.",
+    "vigilancia": "Vale la pena mantenerla en radar por el patron de precio: 52 semanas de 1.995 a 871, volatilidad anual del 45%. Un negocio de esta calidad con esa amplitud de oscilacion puede visitar niveles interesantes. Pero el nivel interesante esta en 472, no en 871."
+  },
+
+  "huecos_declarados": [
+    "El Q3 FY2026 (trimestre cerrado el 30-jun-2026) NO estaba presentado el 27-jul-2026. La base 'en curso' descansa en H1 real mas la guia elevada del 28-abr-2026, no en nueve meses de datos. FICO presento el Q3 del ano anterior el 30-jul-2025: el dato llega en dias y puede mover la base.",
+    "G3 inmedible: FICO no publica unidades de score en ningun filing desde hace ~15 anios. Es imposible separar precio de volumen con datos propios. Toda la discusion sobre si el crecimiento de FY2026 es motor o cosecha depende de una serie que la empresa no da.",
+    "El CFO de FY2026E (970 M) es INFERENCIA. La empresa guia beneficio neto e ingresos, no caja. Banda usada 930-1.010 M.",
+    "El fair value de la deuda (3.297,9 M de Senior Notes) es al 31-mar-2026. No he marcado los bonos a mercado del 27-jul-2026. Con el 10 anios en 4,63%, el error probable es de decimas sobre un EV de 33.000 M.",
+    "Las acciones en circulacion (23,190906 M) son al 16-abr-2026. Con 776,6 M recomprados en H1 FY2026 el recuento de hoy es menor. Sesgo: sobreestima la capitalizacion, infravalora el valor por accion.",
+    "El R2 de la beta a 5 anios es 0,26. El 74% de la varianza de FICO no la explica el mercado. Es el eslabon debil del WACC y la fuente principal de la banda 8,9%-10,9%.",
+    "La prima de riesgo de Damodaran (4,42% EEUU, 1-jul-2026) viene de busqueda web, no descargada de pages.stern.nyu.edu. INFERENCIA.",
+    "La tasa libre de riesgo (4,63%) es dato de mercado secundario. No he descargado la serie H.15 de la Reserva Federal en bruto.",
+    "NO he localizado en ningun filing el precio unitario del score hipotecario de FY2026. El 8-K solo dice 'higher mortgage origination scores unit price', sin cifra. La magnitud del escalon de precio es, por tanto, indeterminada con fuente primaria.",
+    "La reinversion (12,21% de ventas) y el ROIIC ex-margen (16,6%) vienen CONGELADOS del paso de calidad. No los he recalculado ni auditado en este expediente."
+  ],
+
+  "citas_primarias": [
+    "10-K FY2025 (ejercicio cerrado 30-sep-2025), accession 0000814547-25-000030, presentado 07-nov-2025 — ventas 1.990.869; resultado operativo 924.850; BAI 802.595; impuestos 150.649; BN 651.946; CFO 778.807; D&A 14.952; capex PP&E 8.922; software capitalizado 30.485; SBC 156.667; gasto financiero 133.647; intereses pagados 103.564; acciones en circulacion 23.764 miles al 30-sep-2025.",
+    "10-Q Q2 FY2026 (semestre cerrado 31-mar-2026), accession 0000814547-26-000021, presentado 28-abr-2026 — ventas H1 1.203.636; resultado operativo H1 636.514; BAI H1 547.960; BN H1 422.831; CFO H1 397.440; D&A H1 7.905; capex PP&E H1 492; software capitalizado H1 17.256; SBC H1 89.579; gasto financiero H1 86.585; recompras H1 776.565; caja 219.419; deuda 3.639.063; acciones en portada 23.190.906 al 16-abr-2026.",
+    "10-Q Q2 FY2026, Nota 6 (Debt) — Senior Notes: 900.000 al 4,00% venc. 15-jun-2028; 1.500.000 al 6,00% venc. 15-may-2033; 1.000.000 al 6,25% venc. 15-sep-2034 (emitidos 20-mar-2026); 2018 Senior Notes de 400.000 al 5,25% repagados el 26-mar-2026. Revolvente de 1.000.000 con 265.000 dispuestos al 4,931%, venc. 13-may-2030. Fair value total de los Senior Notes 3.297.875 al 31-mar-2026.",
+    "8-K de 28-abr-2026, Ex-99.1, accession 0000814547-26-000020 — Q2 FY2026: ventas 691,7 M (+39%); Scores 475,0 M (+60%), B2B +72% 'primarily attributable to a higher mortgage origination scores unit price and an increase in volume of mortgage originations'; B2C +5%; Software 216,7 M (+7%); ARR de software +10% (plataforma +49%, no-plataforma -8%); NRR total 109% (plataforma 136%, no-plataforma 90%). Guia FY2026 ELEVADA: ventas 2.450 M (antes 2.350), BN GAAP 825 M (antes 795), BPA GAAP 35,60 (antes 33,47), BN no-GAAP 946 M, BPA no-GAAP 40,45.",
+    "10-Q Q2 FY2026, desglose geografico H1 FY2026 — Americas 1.075.299 (89%), de los cuales EEUU 967.800; EMEA 86.329 (7%); Asia-Pacifico 42.008 (4%).",
+    "Serie de ventas de los 10-K (tag RevenueFromContractWithCustomerExcludingAssessedTax): FY2019 1.160.083; FY2020 1.294.562; FY2021 1.316.536; FY2022 1.377.270; FY2023 1.513.557; FY2024 1.717.526; FY2025 1.990.869.",
+    "Precio y beta: IBKR market data. Snapshot 27-jul-2026 (last 1.280,57, is_close; 52s max 1.995,00 / min 871,13; YTD -24,25%; volatilidad anual 44,9%). Series mensuales de 5 anios de FICO (269280) y SPY (756733) para la regresion de beta.",
+    "Damodaran, prima implicita de EEUU al 1-jul-2026 con el S&P 500 en 7.499,36: 4,42%; mercado maduro 4,20% tras descontar el spread de default de 0,22% del rating Aa1.",
+    "Bono del Tesoro EEUU a 10 anios: 4,63% el 27-jul-2026."
+  ]
+}

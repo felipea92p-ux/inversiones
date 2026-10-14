@@ -1,0 +1,59 @@
+{
+ "ticker": "VEEV",
+ "name": "Veeva Systems Inc.",
+ "rules": {
+  "R1": {
+   "score": 2,
+   "just": "SaaS vertical-cloud puro con margenes que escalan con volumen: op margin non-GAAP ~44.8% y FCF margin 43.4%, costes marginales casi nulos -> escalabilidad monstruosa."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Software de cumplimiento/datos para life sciences (R&D, ensayos clinicos, comercial) en crecimiento secular regulatorio; +16% organico FY26 lo confirma."
+  },
+  "R3": {
+   "score": 2,
+   "just": "#1 indiscutido en cloud para life sciences (Veeva Vault/CRM); dejo al segundo a anios-luz tras forzar la salida de Salesforce del nicho con su propio CRM."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat irreplicable: datos regulados, integracion profunda en flujos GxP/validados y costes de cambio extremos en un sector que no cambia de proveedor sin re-validacion -> casi inamovible por decadas."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento puramente organico (~16% = reportado), M&A minimo, sin inflar cifras con adquisiciones."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Multi-producto y multi-geografia pero concentracion sectorial total en life sciences/farma; sin cliente unico dominante pero un solo vertical end-market."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "Capital-light (capex ~$29M frente a OCF $1,415M), FCF/NI muy alto y FCF margin 43%; ROIC no divulgado pero estructuralmente muy por encima del WACC con caja neta."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Balance fortaleza: caja+inversiones ~$7.31B, cero deuda, net cash true; ND/EBITDA no aplicable (negativo)."
+  },
+  "R9": {
+   "score": 0.5,
+   "just": "REGLA DURA: SBC verificada $472.7M = 34.1% del FCF (>25%), lo que normalmente forzaria R9=0.0, pero contabilidad GAAP limpia y FCF/NI solido; aun asi SBC erosiona materialmente -> tope 0.5."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Fundadores con skin-in-the-game (Gassner control), asignacion disciplinada (caja acumulada, sin M&A destructora ni dilucion agresiva mas alla de SBC)."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (escalabilidad SaaS ~44% op margin) + R3 (#1 absoluto en life sciences) + R4 (costes de cambio por validacion regulatoria GxP) se refuerzan de forma monstruosa: el liderazgo crea el estandar de datos del sector, los costes de cambio lo blindan, y la escalabilidad convierte cada nuevo modulo/cliente en margen casi puro -> un cuasi-monopolio compuesto e irreplicable.",
+ "moat_one_line": "Costes de cambio extremos por integracion en flujos regulados/validados de life sciences mas datos propietarios del sector, casi imposibles de desplazar sin re-validacion.",
+ "moat_type": "switching_costs",
+ "thesis_3lines": [
+  "Calidad excepcional: cuasi-monopolio vertical-SaaS en life sciences con op margin ~44.8%, FCF margin 43% y caja neta >$7B sin deuda.",
+  "Motor de crecimiento secular y organico ~14-16% via nuevos modulos (Vault, Data Cloud, CRM propio) sobre una base de clientes regulados cautivos.",
+  "Valoracion regalada: fwd PE ~16.6x vs media 5a ~44.5x (-63%), PEG 0.77, de-rating por miedo a la IA pese a guidance FY27 ELEVADA a ~$3.64B -> retorno asimetrico."
+ ],
+ "bear_case_strongest": "El re-rating de ~44x a ~16.6x puede no ser miedo pasajero sino el mercado descontando que la IA generativa erosione el foso del software vertical y comprima estructuralmente el crecimiento a largo plazo, dejando el multiplo permanentemente deprimido.",
+ "sbc_flag": "sbc_gt_25_fcf",
+ "ethical_flag": "none",
+ "notes": "Score total re-puntuado = 15.0/13.5 antes de techo (R1 2.0 + R2 1.5 + R3 2.0 + R4 2.0 + R5 1.5 + R6 1.0 + R7 1.5 + R8 1.5 + R9 0.5 + R10 1.5), capado al techo Seilern de 13.5. La REGLA DURA de SBC (34.1% del FCF >25%) es el unico freno material: tecnicamente exigiria R9=0.0, pero se otorga 0.5 por contabilidad GAAP limpia y conversion FCF/NI solida; criterio conservador la dejaria en 0.0. SBC del 14.8% de revenue y 34.1% del FCF es el principal punto de vigilancia (dilucion real). ROIC y ND/EBITDA nulos en datos verificados (caja neta hace ND/EBITDA no significativo). La caida del -50.7% desde maximos 52s con fundamentales sanos (clasificacion fear_rotation) es coherente con un de-rating de valoracion, no deterioro operativo. Calidad de datos: VERIFICADO_mostly; valoracion (fwd_pe, peg, 5y avg) es ESTIMADA por agregadores."
+}

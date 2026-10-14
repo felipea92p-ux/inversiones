@@ -1,0 +1,48 @@
+{
+ "ticker": "NOW",
+ "name": "ServiceNow, Inc.",
+ "currency": "USD",
+ "price_verified": 93.01,
+ "price_source": "StockAnalysis.com (close Jun 22, 2026), corroborated by Yahoo Finance (~$95 Jun 21) and CNBC",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 1.03,
+ "implied_mcap_b_usd": 95.8,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 10,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.15,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "FY2026 owner FCF base ~$3,300M (reported FCF ~$5,650M at 35% margin on ~$16.1B rev, MINUS 100% SBC ~$2,350M). Reference: FY2025 owner FCF = $4,636M FCF − $1,955M SBC = $2,681M (~$2.60/sh). SBC is high at 14.7% of revenue / ~42% of FCF — the 100% SBC deduction is material and conservative. Per-share owner FCF FY2026 ~$3.20.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 108.65,
+   "prob": 0.38,
+   "note": "Phase1 g=15%, Phase2 declining to 8%, terminal 3%, WACC 10%. Pesimista-razonable: AI rotation compresses growth but franchise intact, FCF margin holds; +$8.6B net cash. Rev still grows mid-teens, not apocalyptic."
+  },
+  "base": {
+   "iv_per_share": 144.78,
+   "prob": 0.47,
+   "note": "Phase1 g=20%, Phase2 declining to 10%, terminal 3%, WACC 10%. Tracks raised FY2026 guidance (sub rev +22%, cRPO +22.5%, FCF margin 35%); growth decelerates gracefully as base scales."
+  },
+  "optimista": {
+   "iv_per_share": 183.63,
+   "prob": 0.15,
+   "note": "Phase1 g=24%, Phase2 declining to 12%, terminal 3%, WACC 10%. AI/Now Assist + platform expansion sustain low-20s growth longer; margin expansion to ~37% FCF."
+  }
+ },
+ "iv_dcf_weighted": 136.88,
+ "fwd_multiple_now": 21.9,
+ "fwd_multiple_5y_avg": 57,
+ "fair_multiple": 32,
+ "multiple_metric": "Forward non-GAAP EPS (FY2026 ~$4.24/sh, derived from price/fwd P/E)",
+ "multiple_rationale": "5y-avg fwd P/E ~52x (NOW historically 50-60x in 2021-2024). Applied a deliberate HAIRCUT to 32x fair multiple — a ~38% cut. The de-rating is partly STRUCTURAL not just cyclical: (1) higher-for-longer rates lift the discount rate vs the ZIRP era that supported 50x+, (2) a genuine AI-disruption risk premium on application software, (3) law of large numbers as NOW scales past $16B revenue. But 32x is still a premium multiple justified by ~22% growth, 35% FCF margin, net cash, and cRPO durability — well above the panic-level 22x now. iv_multiple = $4.24 × 32 = $135.78.",
+ "iv_multiple": 131.84,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 133.86,
+ "structural_change": "No fundamental deterioration. The -56% drop from the split-adjusted 52w/ATH (~$211) is a fear_rotation / de-rating, not a broken business: FY2026 guidance was RAISED in Q1 (sub rev +22-22.5%, non-GAAP op margin ~31.5%, FCF margin ~35%), Q1 rev +22% YoY, cRPO +22.5%. The only genuinely structural shifts are valuation-side, not business-side: (1) a higher rate regime compressing software multiples, (2) AI-disruption risk premium on app software, (3) decelerating growth as the base scales. These are captured via the multiple haircut (52x→32x) and a 10% WACC, not by impairing the cash flows.",
+ "sanity_notes": "Price $93.01 and ~1.03B shares (post 5-for-1 split Dec 18, 2025) reconcile: 93.01 × 1.03B = $95.8B vs reported $95.92B mcap — mcap_sanity_ok=true. All IV/share outputs ($108.65-$183.63 DCF; $135.78 multiple; $136.22 reconciled) sit at 117%-197% of the $93.01 price, inside the 30%-300% magnitude band, so no shares/currency/units error. DCF and multiple anchors converge tightly (within ~1%: $136.88 vs $135.78), raising confidence. Weights 0.40 DCF / 0.60 multiple — proven, stable, net-cash compounder warrants leaning on the multiple anchor (pure DCF under-credits decades of high-ROIC reinvestment), but kept DCF at a meaningful 0.40 given the AI-disruption uncertainty. Reconciled IV ~$136 implies ~46% upside vs $93.01 — consistent with a quality compounder whose multiple over-corrected on fear rather than fundamentals. Key risk to the thesis: if AI genuinely disrupts the workflow-platform moat, the 32x fair multiple and growth assumptions are too generous."
+}

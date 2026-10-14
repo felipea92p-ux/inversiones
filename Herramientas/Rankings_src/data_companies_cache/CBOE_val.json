@@ -1,0 +1,48 @@
+{
+ "ticker": "CBOE",
+ "currency": "USD",
+ "name": "Cboe Global Markets, Inc.",
+ "price_verified": 255.98,
+ "price_source": "StockAnalysis.com (cross-checked Yahoo/Macrotrends/Public.com)",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.1047,
+ "implied_mcap_b_usd": 26.79,
+ "mcap_sanity_ok": true,
+ "owner_fcf_base": "FY2025 reported FCF $1,681.6M (op CF $1,752.6M - capex $71.0M) minus 100% SBC $50.4M = $1,631.2M true owner FCF. Normalized DOWN to ~$1,450M base for DCF because operating cash flow is structurally inflated/volatile from clearinghouse margin and restricted-cash movements (not durable owner cash). ~$13.9/sh owner FCF; consensus FY2026 adj EPS ~$13.2.",
+ "wacc_pct": 8.6,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.85,
+  "geo_adj_pct": 0
+ },
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 325,
+   "prob": 0.38,
+   "note": "Owner FCF base $1,450M; Phase1 CAGR 8% (crypto-derivatives competition + ~20% workforce cut/realignment caps growth), Phase2 declining to terminal g=2.5%. Net cash +$0.69B added."
+  },
+  "base": {
+   "iv_per_share": 409.04,
+   "prob": 0.47,
+   "note": "Owner FCF base $1,450M; Phase1 CAGR 11% (in line with raised FY26 low-double-digit/mid-teens organic guide + Data Vantage), Phase2 declining to g=3.0%. Reflects durable exclusive-index options (VIX/SPX) franchise + recurring data revenue."
+  },
+  "optimista": {
+   "iv_per_share": 523.97,
+   "prob": 0.15,
+   "note": "Owner FCF base $1,520M; Phase1 CAGR 14%, Phase2 to g=3.25%. Assumes sustained options volume highs, Data Vantage scaling, and successful realignment margin expansion."
+  }
+ },
+ "iv_dcf_weighted": 394.34,
+ "multiple_metric": "fwd P/E (adjusted EPS)",
+ "fwd_multiple_now": 18.65,
+ "fwd_multiple_5y_avg": 24,
+ "fair_multiple": 21,
+ "multiple_rationale": "Anchor to 5y avg fwd P/E ~24x, with a ~3-turn haircut to 21x for genuine (not purely cyclical) overhangs: crypto/24-7 derivatives competition encroaching on the options franchise, and a defensive ~20% workforce cut plus divestitures (Canada, Australia, CEDX, corporate listings) signaling that prior expansion bets disappointed. Franchise core (exclusive SPX/VIX index options, recurring Data Vantage) remains a wide-moat compounder, so haircut is modest. Current 18.65x is ~22% below the 5y avg, a valuation reset off a sharp run-up (-31% from $371 ATH) despite record Q1 (net rev +29%, adj EPS +48%) and RAISED FY26 guidance => fear_rotation, not deterioration.",
+ "iv_multiple": 281.4,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 326.58,
+ "structural_change": "Strategic realignment in progress: ~20% workforce reduction; divesting Cboe Canada & Australia; winding down CEDX (Europe derivatives) and corporate listings. Genuine competitive overhang from crypto/round-the-clock derivatives venues. Offsetting positives: net-cash balance sheet (-$0.69B net debt), very low SBC (2.1% of net rev / 3% of FCF), exclusive-license index options moat (SPX/VIX), and growing recurring Data Vantage revenue. Net: a high-quality, lightly cyclical exchange/data compounder de-rating on fear, not fundamental decay.",
+ "sanity_notes": "Implied mcap = $255.98 x 0.1047B = $26.79B, matches StockAnalysis/Yahoo (~$26.8B) => mcap_sanity_ok TRUE. All IVs (conservador $325 to optimista $524; reconciled $328) sit within the 30%-300% of price band ($77-$768). DCF runs rich vs multiple anchor because the low WACC (8.6%, beta 0.85) against a ~69% FCF-margin machine over-credits the compounder (textbook reason to cross-check with the multiple). Reconciled IV $327.84 (+28% vs $255.98 price) leans 60% on the more disciplined multiple anchor; weighting tilts to multiple because CBOE is a proven, stable, net-cash compounder rather than a high-capex cyclical. Owner FCF base deliberately haircut below reported FCF given clearinghouse restricted-cash distortion in op CF. ROIC not cleanly computable (asset-heavy clearing balance sheet)."
+}

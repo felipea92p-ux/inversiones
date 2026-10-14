@@ -1,0 +1,59 @@
+{
+ "ticker": "6146.T",
+ "name": "Disco Corporation",
+ "moat_type": "cost_advantage_switching_costs",
+ "moat_one_line": "Quasi-monopoly in precision dicing/grinding equipment plus a razor-and-blade consumables/services attach (proprietary blades, hub, process know-how) that creates deep switching costs at every leading-edge fab.",
+ "rules": {
+  "R1": {
+   "score": 1.5,
+   "just": "Operating margin ~44% at FY2026 record volumes shows real scale leverage from the high-margin consumables/services attach, but it is precision-equipment manufacturing (not zero-marginal-cost software), so 1.5 not 2.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Back-end dicing/grinding rides secular semiconductor demand, now turbo-charged by HBM/GPU/advanced-packaging for generative AI, though the segment remains cyclical rather than steadily compounding."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Disco holds ~70-80% global share in precision dicing and grinding equipment plus the dominant blade franchise, leaving the #2 light-years behind in an irreplaceable installed base — monstrous, durable #1."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat is real (process know-how, qualified-tool switching costs, blade/consumable lock-in, near-impossible to displace inside a qualified line), but it is narrower and more cyclical than a decades-irreplicable 2.0 franchise."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "FY2026 organic growth +11.1% with no M&A dependence — purely internally generated, consumables-led compounding, exactly the clean organic profile Seilern rewards."
+  },
+  "R6": {
+   "score": 0.5,
+   "just": "Multi-geography and multi-customer across the chip supply chain, but heavy concentration in a single back-end niche and exposure to a handful of leading-edge logic/memory/OSAT buyers caps diversification; customer-mix detail unverified."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "FCF JPY 98.4B at 22.5% FCF margin with 44% operating margins implies very high returns on capital well above WACC; ROIC and FCF/NI not formally verified, so strong-but-not-perfect."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Net cash position (net debt -$1.76B; JPY 284.6B cash vs negligible interest-bearing debt) — a fortress balance sheet, capped only because ND/EBITDA not formally computed."
+  },
+  "R9": {
+   "score": 1,
+   "just": "FY2026 headline P&L and guidance verified from official IR/TDnet and clean Japanese GAAP; SBC not separately disclosed and immaterial for a Japanese precision-equipment maker, so no hard SBC penalty applies but data quality is MIXED (price/valuation/FCF from aggregator)."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Disciplined, conservative Japanese management with a strong cash-return record and no destructive M&A, but skin-in-the-game and explicit capital-allocation policy not verified here, so base rather than superior."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (44% margins with scale leverage), R3 (~70-80% share, #2 light-years behind) and R4 (qualified-tool switching costs + blade/consumable lock-in) reinforce monstrously: a near-monopoly installed base feeds a high-margin recurring consumables/services stream that funds the R&D maintaining the share lead — a self-reinforcing flywheel. Tempered only by cyclicality.",
+ "sbc_flag": "unknown",
+ "thesis_3lines": [
+  "Calidad: cuasi-monopolio (~70-80%) en equipos de dicing/grinding con margen operativo ~44% y caja neta de $1.76B, con foso de costes de cambio y lock-in de consumibles proprietarios.",
+  "Motor: crecimiento organico +11.1% impulsado por HBM/GPU/advanced-packaging de IA generativa, con guidance Q1 FY2027 de +18% ventas / +24% beneficio neto.",
+  "Valoracion: fwd P/E ~53 vs media historica ~28, +77% sobre la media de 5 anios estimada y a <1% de maximos historicos — calidad excepcional pero precio exigente y sin margen de seguridad."
+ ],
+ "bear_case_strongest": "El back-end de semiconductores es profundamente ciclico y la accion cotiza a fwd P/E ~53 (record historico), descontando demanda de IA permanente; cualquier digestion del ciclo HBM/GPU normalizaria la demanda y desrataria el multiplo brutalmente desde maximos.",
+ "ethical_flag": "none",
+ "notes": "Total ponderado = 14.0 sobre techo 13.5 → efectivamente en el techo (13.5). Score preliminar FASE 1 de 13.5 se sostiene: calidad de negocio monstruosa (R3=2.0, amplification=true). La unica rebaja real vs un score perfecto es R6 (diversificacion limitada al nicho back-end, 0.5) y la valoracion NO depresiva (accion a maximos, fwd P/E ~53, +77% prima) que aunque no se puntua en R1-R10 es el principal riesgo de retorno. SBC no divulgada por separado (tipico de fabricante japones de equipos de precision); sbc_flag=unknown y R9 mantenido en 1.0 base de forma conservadora dado que no hay SBC verificada que dispare la regla dura, pero data_quality MIXED (precio/valoracion/FCF de StockAnalysis, P&L y guidance VERIFICADOS de IR/TDnet). drop_classification=not_depressed: comprar aqui es pagar calidad excepcional a precio de maximos historicos sin margen de seguridad."
+}

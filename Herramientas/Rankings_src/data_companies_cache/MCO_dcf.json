@@ -1,0 +1,42 @@
+{
+ "ticker": "MCO",
+ "currency": "USD",
+ "current_price": 447.33,
+ "wacc_pct": 9.05,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.95,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = FCF reportado $2.575B − 100% SBC (~$0.57B, ~7.4% de ingresos) = ~$2.00B (margen owner ~26% sobre ingresos de $7.7B). El margen owner se modela en expansion modesta (~26%->~28-29%) reflejando el track record de apalancamiento operativo de Moody's, partiendo del margen FCF reportado ~33.4% menos la SBC tratada como gasto en efectivo (~7.4pp).",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 8.5,
+  "rev_cagr_y6_10_pct": 6.5,
+  "fcf_margin_terminal_pct": 28.5,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC tratada como gasto en efectivo: Owner FCF = FCF reportado − SBC (~$0.57B, ~7.4% ingresos / ~22% FCF). Esto reduce el margen FCF reportado (~33.4%) al margen owner (~26% base, expandiendo hacia ~28-29%).",
+  "shares_diluted_b": 0.1746,
+  "net_debt_usd_b": 5.89
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 185,
+   "prob": 0.375,
+   "note": "Crecimiento ingresos Fase1 ~6% (ciclo de emision de deuda mas debil/normalizacion de ratings tras anios fuertes), declinando a ~3.5%; margen owner ~26.5% sin expansion material; beta 1.0 -> WACC 9.3%; g terminal 2.5%. Pesimista razonable, NO apocaliptico: asume desaceleracion de MIS (ratings) y competencia en Analytics, no perdida de foso."
+  },
+  "base": {
+   "iv_per_share": 271,
+   "prob": 0.475,
+   "note": "Consistente con track record: ingresos CAGR ~8.5% Fase1 (MIS ciclico + MA/Analytics recurrente high-single/low-double), declinando a ~5% en Fase2; margen owner expande a ~28.5%; WACC 9.05% (beta 0.95); g terminal 3.0% por foso duopolico (con SPGI) y pricing power. Aun asi por debajo del precio: refleja multiplo premium actual (~26x fwd vs ~38x media 5a)."
+  },
+  "optimista": {
+   "iv_per_share": 378,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: CAGR ingresos ~11% Fase1 (super-ciclo de emision + crecimiento ARR de Moody's Analytics/Decision Solutions + monetizacion de IA/GenAI sobre datos propietarios), declinando a ~6%; margen owner ~31%; g terminal 3.5%. Sigue por debajo del precio actual, lo que ilustra la valuacion exigente del mercado."
+  }
+ },
+ "sanity_check": "VI ponderada = 0.375*185 + 0.475*271 + 0.15*378 = ~$255/accion, ~43% por DEBAJO del precio de $447.33. Lectura: incluso tras la caida de ~18% desde maximos, MCO cotiza con multiplo premium (fwd P/E ~26.4x vs media 5a ~38.4x); el DCF de owner earnings (que penaliza la SBC) no respalda el precio salvo asumiendo crecimiento/margenes muy por encima del track record. Contraste de rendimiento total al accionista (NO DDM): dividendo ~$3.84/accion = ~0.86% + recompras guiadas ~$2.5B = ~3.2% -> rendimiento total al accionista ~4.1%. Es solido y creciente pero modesto frente al precio; el caso alcista depende de re-rating de multiplo y composicion del foso, no del flujo descontado a este precio. Foso: duopolio de ratings con SPGI, ingresos recurrentes en Analytics, altas barreras regulatorias y de marca -> g terminal 3.0% justificado.",
+ "method_notes": "DCF de OWNER EARNINGS a 10 anios en USD (moneda de cotizacion). Base FY2025 (verificada FASE 2): ingresos $7.7B, FCF reportado $2.575B (margen 33.4%), SBC ~$567M (~7.4% ingresos / ~22% FCF, ESTIMADO - fuentes en conflicto, verificar en 10-K FY2025). Owner FCF0 = $2.575B − $0.57B = ~$2.00B. Acciones diluidas ~0.1746B (mktcap $78.1B / $447.33). Deuda neta $5.89B (NO caja neta; ND/EBITDA ~1.55x). WACC = Rf 4.3% (UST 10Y, empresa US, sin ajuste geopolitico) + ERP 5.0% * beta 0.95 (sector datos/ratings, baja ciclicidad, beta <1) = 9.05% (base/optimista); 9.3% en conservador con beta 1.0. Fase1 (anios 1-5): CAGR ingresos explicito por escenario, margen owner estabilizado. Fase2 (anios 6-10): CAGR declinante linealmente hacia normalizacion. Valor terminal por crecimiento perpetuo (Gordon) con g 2.5-3.5% segun foso, descontado a 10 anios. VI/accion = (PV flujos + PV terminal − deuda neta) / acciones diluidas. Para datos/ratings (MCO) el DCF es valido; sanity_check provee rendimiento total al accionista (div+recompra ~4.1%) como contraste, NO DDM. Limitacion: SBC estimada (R9 abierto); ROIC FY2025 no reportado (estimado ~25-30%).",
+ "name": "Moody's Corporation"
+}

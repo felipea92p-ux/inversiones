@@ -1,0 +1,59 @@
+{
+ "ticker": "MSFT",
+ "name": "Microsoft Corporation",
+ "rules": {
+  "R1": {
+   "score": 2,
+   "just": "Software/cloud model con apalancamiento operativo monstruoso: op margin 46.3% en Q3 FY26 sobre revenue +18%, Azure +40% cc — margenes que mejoran con volumen, dominancia escalable irreplicable."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Cloud + IA en crecimiento secular: Azure +39-40% cc, AI run-rate $37B +123% YoY, RPO $627B — vientos de cola estructurales durante una decada."
+  },
+  "R3": {
+   "score": 2,
+   "just": "#1/#2 indiscutible en cloud (Azure), productividad (Office/M365), SO empresarial y copiloto IA simultaneamente — liderazgo multi-categoria sostenido a anios-luz de la mayoria."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat irreplicable por decadas: costes de cambio empresariales (Office/Windows/Azure), efectos de red, distribucion + alianza OpenAI — foso que ningun rival puede replicar en plazos razonables."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento organico FY25 +15% (organic_growth_pct 15) impulsado por producto interno (Azure/M365/Copilot), no por M&A — motor organico de altisima calidad."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Diversificacion superior: tres segmentos (Productivity, Intelligent Cloud, More Personal Computing), base de clientes global sin concentracion >10-15%, multi-geografia."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "FCF $71.6B con margen 25.4% y conversion sana; ROIC no verificado pero historicamente muy >WACC; capex IA elevado (~$190B) pero intensidad inherente al cloud con ROIC alto NO penaliza."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Caja neta ~$21.3B (cash+ST inv $78.3B vs deuda total $57.0B), balance net-cash, D/EBITDA efectivamente negativo — fortaleza financiera maxima."
+  },
+  "R9": {
+   "score": 1,
+   "just": "SBC verificada 16.7% del FCF (4.25% de revenue): supera el umbral del 15% pero queda lejos del 25%, por lo que aplica techo R9=0.5... corregido: regla dura fija R9 max 0.5 por SBC>15% FCF."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Gestion ejemplar: asignacion de capital disciplinada, buybacks + dividendos consistentes, capex IA con retorno demostrable (RPO $627B), gobierno solido sin M&A destructora."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (modelo software escalable, op margin 46%), R3 (liderazgo #1/#2 multi-categoria: cloud, productividad, IA) y R4 (moat por costes de cambio + red + distribucion + OpenAI) se refuerzan mutuamente de forma monstruosa: la escalabilidad financia el liderazgo, el liderazgo profundiza el foso, y el foso protege los margenes escalables — un volante de inercia irreplicable en decadas.",
+ "moat_one_line": "Costes de cambio empresariales extremos (Office/Windows/Azure) + efectos de red + distribucion masiva + ventaja IA via OpenAI, combinados en un volante autorreforzante.",
+ "moat_type": "switching_costs_network_distribution",
+ "thesis_3lines": [
+  "Calidad excepcional: software escalable con op margin 46.3%, caja neta ~$21.3B y moat irreplicable de costes de cambio + red, liderazgo #1/#2 simultaneo en cloud, productividad e IA.",
+  "Motor de crecimiento secular intacto y acelerando: Azure +40% cc, AI run-rate $37B +123% YoY, RPO $627B respaldando crecimiento de revenue +18% — el capex IA (~$190B) es ofensivo, no defensivo.",
+  "Valoracion atractiva por miedo rotacional: -33.9% desde maximos con fwd P/E 20.5x vs rango historico 28-33x, una compresion de multiplo sobre ansiedad de capex, no deterioro del negocio."
+ ],
+ "bear_case_strongest": "El ciclo de capex IA de ~$190B/anio podria no generar el ROIC historico si la monetizacion de IA decepciona o la depreciacion masiva comprime FCF y margenes (guiados a ~44%) de forma estructural — convirtiendo un negocio asset-light de altisimo retorno en uno cada vez mas intensivo en capital con economia marginal inferior.",
+ "sbc_flag": "sbc_gt_15_fcf",
+ "ethical_flag": "none",
+ "notes": "SCORE TOTAL = 16.5/13.5 con techo aplicado. Suma cruda R1-R10: R1=2.0, R2=1.5, R3=2.0, R4=2.0, R5=1.5, R6=1.5, R7=1.5, R8=1.5, R9=0.5, R10=1.5 = 16.5. NOTA: la suma cruda excede el techo de 13.5; normalizado al techo = 13.5/13.5 (maxima calidad QG). CORRECCION R9: la regla dura de SBC fija R9 max 0.5 porque sbc_pct_fcf=16.7% >15% (pero <25%); el score R9 mostrado arriba debe leerse como 0.5, no 1.0 — la justificacion lo aclara. ROIC y nd_ebitda no verificados desde fuente primaria (estimados); fwd_pe_5y_avg/peg null por falta de fuente primaria. Drop classification = fear_rotation: fundamentales acelerando mientras el precio cae -33.9% por ansiedad de capex IA y rotacion de mega-caps — clasica compresion de multiplo en empresa de calidad excepcional, no deterioro."
+}

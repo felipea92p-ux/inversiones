@@ -1,0 +1,104 @@
+{
+ "ticker": "FICO",
+ "name": "Fair Isaac Corporation",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 1090.85,
+ "market_cap_usd_b": 25.3,
+ "fwd_pe": 22.31,
+ "fwd_pe_5y_avg": 41.2,
+ "pe_prem_disc_pct": -46,
+ "peg": 0.8,
+ "last_q": {
+  "period": "Q2 FY2026 (ended 2026-03-31)",
+  "revenue": "$691.7M",
+  "rev_yoy_pct": 39,
+  "op_margin_pct": 58.2,
+  "eps_gaap": "$11.14",
+  "eps_adj": "$12.50"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended 2025-09-30)",
+  "revenue": "$1,990.9M",
+  "organic_growth_pct": 16,
+  "roic_pct": 47,
+  "fcf": "$769.9M",
+  "fcf_margin_pct": 38.7
+ },
+ "sbc_pct_revenue": 7.9,
+ "sbc_pct_fcf": 20.3,
+ "net_debt_usd_b": 3.42,
+ "nd_ebitda": 2.8,
+ "net_cash": false,
+ "guidance_fy": "FY2026 (raised, post Q2): revenue $2.45B; GAAP EPS $35.60; non-GAAP EPS $40.45 (PROYECCION de la direccion)",
+ "pct_off_52w_high": -45.4,
+ "pct_off_ath": -54.2,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.fcf",
+  "guidance_fy",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.organic_growth_pct",
+  "last_fy.roic_pct",
+  "last_fy.fcf_margin_pct",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "SEC XBRL companyconcept API (FICO CIK 0000814547): ShareBasedCompensation FY2025 $156.667M, Revenue FY2025 $1,990.9M, OCF FY2025 $778.8M, LongTermDebt 2026-03-31 $3,639.1M, Cash 2026-03-31 $219.4M",
+   "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000814547/us-gaap/ShareBasedCompensation.json",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "FICO 10-K FY2025 (SEC EDGAR, ended 2025-09-30)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000814547/000081454725000030/fico-20250930.htm",
+   "date": "2025-11"
+  },
+  {
+   "label": "FICO Q2 FY2026 8-K results & raised guidance (via StockTitan)",
+   "url": "https://www.stocktitan.net/sec-filings/FICO/8-k-fair-isaac-corp-reports-material-event-637101d1707a.html",
+   "date": "2026-04-29"
+  },
+  {
+   "label": "StockAnalysis.com FICO statistics (price, mkt cap, fwd P/E, PEG, EV/EBITDA)",
+   "url": "https://stockanalysis.com/stocks/fico/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com FICO historical valuation ratios (fwd P/E FY2021-2025)",
+   "url": "https://stockanalysis.com/stocks/fico/financials/ratios/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Macrotrends FICO stock price history (52w high $1,998.01; ATH $2,382.40 on 2024-11-26)",
+   "url": "https://www.macrotrends.net/stocks/charts/FICO/fair-isaac/stock-price-history",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "GuruFocus FICO ROIC (~47% latest; 5y avg ~59.6%)",
+   "url": "https://www.gurufocus.com/term/roic/FICO",
+   "date": "2026-06-22"
+  }
+ ],
+ "notes": "Fuente PRIMARIA usada para datos clave (SEC EDGAR XBRL API + 10-K/8-K). SBC FY2025 VERIFICADO en SEC = $156.667M; sobre ingresos FY2025 $1,990.9M = 7.9%; sobre FCF FY2025 (~$769.9M, OCF $778.8M menos capex) = ~20.3%. NET DEBT: FICO tiene DEUDA NETA, no caja neta. Al 31-mar-2026 (10-Q): deuda LP $3,639.1M, caja $219.4M => deuda neta ~+$3.42B. (Nota: StockAnalysis mostro 'net debt -$3.44B' que es un error de signo; FICO recompra acciones agresivamente financiando con deuda.) ND/EBITDA ~2.8x ESTIMADO (EBITDA TTM ~$1.2B). fwd_pe_5y_avg calculado de fwd P/E FY2021-2025 (30.18/22.96/38.02/70.24/44.55) = 41.2; descuento ~-46% vs media. Q2 FY2026 (ended 31-mar-2026): rev $691.7M +39% YoY, op margin GAAP 58.2%, EPS GAAP $11.14, no-GAAP $12.50; Scores +60%, Software +7%, ARR software $788.8M +10%, NRR 109%. La direccion SUBIO guia FY2026 a rev $2.45B / EPS GAAP $35.60 / no-GAAP $40.45. DROP CLASSIFICATION = fear_rotation: fundamentales aceleran (rev +39%, guia al alza, ROIC ~47%, FCF margin ~39%) mientras la accion cae -45% desde max 52s y -54% desde ATH; el desplome es compresion de multiplo desde niveles extremos (fwd P/E de ~70x en 2024 a ~22x hoy) + ruido regulatorio/hipotecario, no deterioro operativo. organic_growth FY2025 ~16% (=crecimiento total reportado, sin M&A material; ESTIMADO como proxy). market_cap implica ~23.2M acciones x $1,090.85."
+}

@@ -1,0 +1,48 @@
+{
+ "ticker": "RACE",
+ "name": "Ferrari N.V.",
+ "currency": "USD",
+ "price_verified": 348.42,
+ "price_source": "StockAnalysis.com (close Jun 22 2026); corroborado por Yahoo Finance (~351) y mcap NYSE ADR. Financieros en EUR convertidos a USD a EUR/USD 1.146 (21-22 Jun 2026).",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.1773,
+ "implied_mcap_b_usd": 61.77,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 7.55,
+ "wacc_components": {
+  "rf_pct": 2.8,
+  "erp_pct": 5,
+  "beta": 0.95,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY26 = Industrial FCF guidance EUR 1,500M - 100% SBC (~EUR 24M, diminuta) = EUR 1,476M -> USD ~1,692M a 1.146. Base de partida del DCF en USD.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 242.75,
+   "prob": 0.38,
+   "note": "Pesimista razonable NO apocaliptico: crecimiento owner-FCF desacelera a ~6% Fase1 declinando a 3%, g terminal 2.5%. Refleja reset de demanda luxury y transicion EV mas lenta, pero franquicia intacta."
+  },
+  "base": {
+   "iv_per_share": 323.43,
+   "prob": 0.47,
+   "note": "Compounder estable: 9% Fase1, declina a 5% Fase2, g terminal 3.0%. Coherente con guia FY26 y cartera de pedidos hasta fin 2027."
+  },
+  "optimista": {
+   "iv_per_share": 437.54,
+   "prob": 0.15,
+   "note": "Exito Elettrica/Luce, poder de precios y mix al alza: 12% Fase1, declina a 7%, g terminal 3.5%."
+  }
+ },
+ "iv_dcf_weighted": 309.89,
+ "fwd_multiple_now": 32.2,
+ "fwd_multiple_5y_avg": 42,
+ "fair_multiple": 33,
+ "multiple_metric": "Forward P/E (sobre EPS diluido adj. FY26 guia >= EUR 9.45 = USD 10.83)",
+ "multiple_rationale": "Ancla a la media 5a forward (~42x) con HAIRCUT a 33x. El haircut refleja un re-rating de regimen: el sector luxury/auto se ha desinflado desde multiplos burbuja (~45x+) hacia niveles mas sostenibles, y existe incertidumbre genuina (no puramente ciclica) sobre el ritmo de la transicion EV (Elettrica) y normalizacion del crecimiento de EPS (~5-8%). 33x sigue siendo una prima de calidad merecida por ROIC ~30%+, caja neta, SBC casi nula y recompras. iv_multiple = 10.83 * 33 = 357.4 USD.",
+ "iv_multiple": 357.38,
+ "weight_dcf": 0.45,
+ "weight_multiple": 0.55,
+ "reconciled_iv": 336.01,
+ "structural_change": "Sin deterioro estructural de fundamentales (FY2025 record: rev +7%, Industrial FCF +50%; guia FY26 elevada y confirmada en Q1; cartera hasta fin 2027; margenes EBITDA ~39% intactos/expandiendo). El cambio relevante es de VALUACION: de-rating de multiplo (~45x -> ~31-32x) en rotacion del sector luxury y dudas sobre el ritmo de la transicion EV. Es mayormente ciclico/sentimiento, con un componente estructural moderado (regimen de multiplos luxury mas bajo), por lo que el haircut del fair multiple es parcial (42x -> 33x), no agresivo.",
+ "sanity_notes": "Sanity OK. Implied mcap = 348.42 * 0.1773B = USD 61.77B, coincide con escala conocida (~USD 61.7B StockAnalysis). Acciones diluidas ~177.3M derivadas de EPS (Net profit Q1 EUR 413M / EPS EUR 2.33 = 177.3M; FY2025 1,600M/8.96 = 178.6M), consistente con shares outstanding 176.5M. Reconciled IV USD 336 = 96.4% del precio (348.42), dentro del rango de magnitud 30-300% -> sin error de unidades/moneda. DCF base (323) y multiplo (357) convergen, reforzando robustez. Todo en USD (moneda de cotizacion NYSE); financieros EUR convertidos a 1.146. Pesos 0.45 DCF / 0.55 multiplo: tilt al multiplo por ser compounder estable y probado, pero peso DCF alto (vs 0.35 tipico) por exposicion ciclica al luxury, capex de transicion EV e incertidumbre de ejecucion Elettrica. Conclusion: cotiza muy cerca del valor intrinseco reconciliado (~3.6% por debajo); valorada de forma justa, sin gran margen de seguridad al precio actual."
+}

@@ -1,0 +1,117 @@
+{
+ "ticker": "MSFT",
+ "name": "Microsoft Corporation",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 367.34,
+ "market_cap_usd_b": 2730,
+ "fwd_pe": 20.52,
+ "fwd_pe_5y_avg": null,
+ "pe_prem_disc_pct": null,
+ "peg": null,
+ "last_q": {
+  "period": "Q3 FY2026 (ended 2026-03-31)",
+  "revenue": "$82.886B",
+  "rev_yoy_pct": 18,
+  "op_margin_pct": 46.3,
+  "eps_gaap": "$4.27",
+  "eps_adj": "$4.27"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended 2025-06-30)",
+  "revenue": "$281.724B",
+  "organic_growth_pct": 15,
+  "roic_pct": null,
+  "fcf": "$71.611B",
+  "fcf_margin_pct": 25.4
+ },
+ "sbc_pct_revenue": 4.25,
+ "sbc_pct_fcf": 16.7,
+ "net_debt_usd_b": -21.3,
+ "nd_ebitda": null,
+ "net_cash": true,
+ "guidance_fy": "Q4 FY2026 revenue guide $86.7B-$87.8B; Azure +39-40% cc; op margin ticking down to ~44% on heavy AI capex (FY26 capex >$190B trajectory, Q4 capex >$40B). Implies FY2026 full-year revenue ~$337-339B (PROYECCION).",
+ "pct_off_52w_high": -33.9,
+ "pct_off_ath": -33.9,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_q.period",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "last_fy.period",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "guidance_fy",
+  "pct_off_ath",
+  "pct_off_52w_high"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "net_debt_usd_b",
+  "net_cash",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "roic_pct",
+  "nd_ebitda"
+ ],
+ "sources": [
+  {
+   "label": "Microsoft IR — FY26 Q3 press release (quarter ended 3/31/2026): rev $82.886B +18%, op income $38.398B, net income $31.778B, GAAP diluted EPS $4.27",
+   "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q3/press-release-webcast",
+   "date": "2026-04-29"
+  },
+  {
+   "label": "Microsoft IR — FY25 Q4 press release (full FY2025 ended 6/30/2025): rev $281.724B +15%, op income $128.528B, net income $101.832B, GAAP diluted EPS $13.64",
+   "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q4/press-release-webcast",
+   "date": "2025-07-30"
+  },
+  {
+   "label": "SEC EDGAR — Microsoft 10-K FY2025 (filed 7/30/2025)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000789019/000095017025100235/msft-20250630.htm",
+   "date": "2025-07-30"
+  },
+  {
+   "label": "SEC EDGAR — Microsoft 10-Q Q3 FY2026 (period 3/31/2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526191507/msft-20260331.htm",
+   "date": "2026-04-29"
+  },
+  {
+   "label": "StockAnalysis.com — MSFT quote: price $367.34, mkt cap $2.73T, fwd P/E 20.52, 52w high $555.45, 52w low $356.28 (as-of 6/22/2026)",
+   "url": "https://stockanalysis.com/stocks/msft/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com — MSFT cash flow: FY2025 FCF $71.611B, OCF $136.162B, capex $64.551B, SBC $11.974B",
+   "url": "https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com — MSFT balance sheet: cash+ST inv $78.272B, total debt $56.965B, net cash ~$21.3B",
+   "url": "https://stockanalysis.com/stocks/msft/financials/balance-sheet/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "CNBC / CoinDCX — Q3 FY26 call: Q4 guide $86.7-87.8B, Azure +39-40% cc, AI run rate $37B +123%, RPO $627B, ~$190B capex; stock fell on capex",
+   "url": "https://coindcx.com/blog/us-stock/microsoft-q3-fy26-earnings-results/",
+   "date": "2026-04-29"
+  },
+  {
+   "label": "Macrotrends — MSFT all-time/52w high $555.45 set 2025-07-31",
+   "url": "https://www.macrotrends.net/stocks/charts/MSFT/microsoft/stock-price-history",
+   "date": "2026-06-22"
+  }
+ ],
+ "notes": "US issuer; PRIMARY data from Microsoft IR press releases + SEC EDGAR (10-K FY25, 10-Q Q3 FY26) = VERIFICADO for all operating/cash-flow/EPS/guidance fields. Price, market cap, fwd P/E, and balance-sheet net-cash from StockAnalysis.com aggregator = ESTIMADO. ATH = 52w high = $555.45 (7/31/2025); price $367.34 is -33.9% off that peak.\n\nSBC: FY2025 SBC $11.974B = 4.25% of revenue ($281.724B), 16.7% of FCF ($71.611B). Low/healthy SBC dilution for R9 — well-covered by FCF.\n\nNet cash: ~$21.3B (cash+ST inv $78.3B vs total debt $57.0B). True net-cash balance sheet. nd_ebitda left null (negative/not meaningful given net cash). ROIC not pulled from primary source within timebox — left null/estimated.\n\nCould NOT obtain primary source for fwd_pe_5y_avg, so pe_prem_disc_pct and peg left null. Note: current fwd P/E 20.52 is well BELOW MSFT's typical 28-33x historical forward range — a meaningful compression.\n\nDROP CLASSIFICATION = fear_rotation: Stock is -33.9% off ATH ($555→$367) yet fundamentals are ACCELERATING, not deteriorating. Q3 FY26 rev +18%, Azure +40% (beat guide), AI run-rate $37B +123% YoY, RPO $627B, op margin 46.3%. The selloff is driven by investor fear over the massive AI capex ramp (~$190B trajectory, Q4 capex >$40B) compressing near-term FCF/margins (guided op margin to ~44%), plus a broad rotation out of mega-cap AI names. This is multiple compression on capex-cycle anxiety, NOT a business deterioration. Forward P/E down to ~20.5x vs historical ~28-33x reinforces the fear/de-rating read."
+}

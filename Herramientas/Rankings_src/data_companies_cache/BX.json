@@ -1,0 +1,101 @@
+{
+ "ticker": "BX",
+ "name": "Blackstone Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 123.26,
+ "market_cap_usd_b": 151.6,
+ "fwd_pe": 19.83,
+ "fwd_pe_5y_avg": 25,
+ "pe_prem_disc_pct": -21,
+ "peg": null,
+ "last_q": {
+  "period": "Q1 2026 (ended Mar 31, 2026)",
+  "revenue": "$3.62B GAAP total revenues",
+  "rev_yoy_pct": 10,
+  "op_margin_pct": null,
+  "eps_gaap": "$0.83 (basic)",
+  "eps_adj": "$1.36 (Distributable EPS); FRE $1.26/sh"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 31, 2025)",
+  "revenue": "$14.45B GAAP total revenues",
+  "organic_growth_pct": null,
+  "roic_pct": null,
+  "fcf": "~$4.55B (op CF less modest capex)",
+  "fcf_margin_pct": 31
+ },
+ "sbc_pct_revenue": 10,
+ "sbc_pct_fcf": 31.8,
+ "net_debt_usd_b": 9.8,
+ "nd_ebitda": 1.2,
+ "net_cash": false,
+ "guidance_fy": "No formal FY EPS guidance (asset-manager). Management (Q1'26 call) guides qualitatively to continued double-digit FRE/DE growth, record AUM ($1.30T), strong inflows ($68.5B in Q1), and heavy deployment into digital/AI/energy infrastructure; offset by private-credit redemption pressure (BCRED) and slower realizations. PROJECTION.",
+ "pct_off_52w_high": -35.2,
+ "pct_off_ath": -38.7,
+ "drop_classification": "mixed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.fcf",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b (components from 10-K XBRL)",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.fcf_margin_pct",
+  "nd_ebitda",
+  "drop_classification"
+ ],
+ "sources": [
+  {
+   "label": "SEC EDGAR — Blackstone FY2025 10-K (filed 2026-02-27, accession 0001193125-26-082531); XBRL companyconcept: ShareBasedCompensation FY2025 = $1,445,352,000; LoansPayable = $12,445,144,000; Cash = $2,631,241,000",
+   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526082531/0001193125-26-082531-index.htm",
+   "date": "2026-02-27"
+  },
+  {
+   "label": "Blackstone 4Q & FY2025 Earnings Press Release (IR PDF) — FY2025 DE $7.1B, FRE $5.7B, AUM $1.27T (year-end); dividend $1.49",
+   "url": "https://www.blackstone.com/wp-content/uploads/sites/2/2026/01/Blackstone4Q25EarningsPressRelease.pdf",
+   "date": "2026-01-29"
+  },
+  {
+   "label": "StockTitan — Blackstone Q1 2026 8-K results (revenue $3.62B, DE $1.76B/+25%, FRE $1.55B, GAAP EPS $0.83, AUM $1.30T, fee-earning AUM $937.6B, inflows $68.5B, dividend $1.16)",
+   "url": "https://www.stocktitan.net/sec-filings/BX/8-k-blackstone-inc-reports-material-event-3961c6c2ec7e.html",
+   "date": "2026-04-23"
+  },
+  {
+   "label": "StockAnalysis.com — BX quote/financials (price $123.26, mkt cap $151.6B, fwd P/E 19.83, EPS TTM $3.90, rev TTM $14.40B, FY2025 rev $14,450M, NI $6,047M, dil EPS $3.87, FCF $4,547M, 52w high $190.09)",
+   "url": "https://stockanalysis.com/stocks/bx/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "MacroTrends / search — BX all-time high $200.96 on Nov 25, 2024",
+   "url": "https://www.macrotrends.net/stocks/charts/BX/blackstone/stock-price-history",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Public.com — BX 5-year average (trailing) P/E ~41.4; current ~31.8 (used as context, not forward)",
+   "url": "https://public.com/stocks/bx/pe-ratio",
+   "date": "2026-06-18"
+  },
+  {
+   "label": "CNBC / TIKR / Fortune — 2026 private-credit redemption scare (BCRED outflows; Partners Group caps withdrawals) driving PE/alt-manager sell-off",
+   "url": "https://www.cnbc.com/2026/06/03/private-credit-jitters-kkr-blackstone-blue-owl-ares-partners-group-pressure.html",
+   "date": "2026-06-03"
+  }
+ ],
+ "notes": "VERIFICATION SUMMARY (BX, Blackstone Inc., as-of 2026-06-22).\n\nPRICE/CAP: $123.26, mkt cap ~$151.6B (StockAnalysis, Jun 22; intraday quotes showed $123.79-124.03). ESTIMADO (aggregator real-time).\n\nQ1 2026 (VERIFICADO via 8-K/press): GAAP total revenues $3.62B vs $3.29B (+10% YoY); GAAP net income to BX $649.7M; GAAP basic EPS $0.83 (vs $0.80). Distributable Earnings $1.76B / $1.36 per share (+25% YoY); Fee-Related Earnings $1.55B / $1.26 per share (+23%). Total AUM record $1.30T; fee-earning AUM $937.6B. Inflows $68.5B, deployed $35.6B, realized $35.9B. Quarterly dividend $1.16. op_margin not meaningful as reported for an alt-manager (FRE margin ~57-58% on segment basis) — left null.\n\nFY2025 (VERIFICADO via 10-K XBRL + IR): GAAP total revenues $14,450M (XBRL); GAAP net income to BX $6,047M; GAAP diluted EPS $3.87; Distributable Earnings ~$7.1B (+~20%); FRE ~$5.7B (+9%); year-end AUM $1.27T. FCF ~$4,547M (StockAnalysis; cash-light model, ~31% FCF margin). organic_growth_pct and roic_pct not standard/meaningful disclosures for an alt-manager — left null.\n\nSBC (CRITICO R9, VERIFICADO from SEC XBRL ShareBasedCompensation): FY2025 equity-based comp $1,445.4M. = 10.0% of revenue ($1,445.4/$14,450). = ~31.8% of FCF ($1,445.4/$4,547). Note: BX equity-based comp has risen sharply (FY2024 $1,168M -> FY2025 $1,445M, +24%); as % of FCF this is elevated and worth flagging for R9. (Note BX also has large performance-allocation comp tied to carried interest, separate from equity-based comp.)\n\nNET DEBT: Consolidated 10-K: LoansPayable $12,445M, Cash & equiv $2,631M -> ~+$9.8B net debt (positive). net_cash=false. nd_ebitda ~1.2x is an ESTIMATE (vs segment DE/FRE ~$7-8B; BX is investment-grade rated A+/A-1, low leverage, ample liquidity). Caveat: consolidated balance sheet includes consolidated-fund/CLO items; corporate-only leverage is modest. Treat net_debt/nd_ebitda as approximate.\n\nVALUATION: fwd_pe ~19.8 (StockAnalysis); GuruFocus showed ~20.8 (Jun 20). fwd_pe_5y_avg is ESTIMADO ~25 (clean forward-PE 5y average not obtainable from primary sources; BX forward P/E has historically averaged low-to-mid 20s; trailing-P/E 5y avg is much higher at ~41 per Public.com but is NOT apples-to-apples with a forward multiple). pe_prem_disc ~-21% is therefore an ESTIMATE; on a trailing basis the discount vs the 5y avg is far larger (~-50%). peg null (no clean forward growth consensus captured). TREAT VALUATION DISCOUNT AS DIRECTIONAL: BX is clearly trading well below its multi-year average multiple.\n\nDROP CLASSIFICATION = MIXED. Stock ~-35% from 52w high ($190.09) and ~-39% from ATH ($200.96, Nov 25 2024). Predominantly FEAR/ROTATION: 2026 private-credit redemption scare (BCRED $82B fund outflows; Partners Group capping withdrawals triggered sector-wide PE/alt-manager sell-off in KKR/Apollo/Ares/Blue Owl) — sentiment/contagion, NOT a collapse in BX fundamentals (Q1'26 DE +25%, FRE +23%, record AUM, strong inflows). BUT a genuine-deterioration overlay exists: real risk to forward realizations, fundraising and private-credit flows if the credit cycle worsens, plus rising equity-based comp. Net: de-rating is mostly fear-driven multiple compression on strong-but-decelerating fundamentals -> classified MIXED (leans fear_rotation).\n\nDATA QUALITY MIXED: hard fundamentals (revenue, EPS, DE, FRE, SBC, balance sheet) VERIFICADO from SEC 10-K XBRL and IR press releases; price/cap/valuation multiples and net-debt ratio ESTIMADO from aggregators. SEC HTML 10-K not directly fetchable (403/blocked) but XBRL companyconcept API used as primary source for SBC, debt, cash."
+}

@@ -1,0 +1,39 @@
+Quiero que le des a [NOMBRE DEL DOCUMENTO / TICKER] el mismo diseño visual "estilo editorial cálido"
+que ya usé en la Ultra Tesis de ESLOY (portada oscura con degradado, acento terracota, secciones
+numeradas, tarjetas KPI, callouts con borde de color, gráficos planos sin rejilla).
+
+El motor de diseño ya existe, guardado en:
+INVESTMENTS/Herramientas/DesignSystem_Editorial/
+  - motor_deckers.py       (motor ReportLab: portada, secciones, callouts, KPI, tablas, timeline)
+  - paleta_deckers.py      (colores: crema, terracota, grises, azul/verde de acento)
+  - chart_style_deckers.py (estilo de gráficos matplotlib a juego)
+  - README.md              (API completa de cada función, con ejemplos)
+  - test_engine.py / test_chart.py (ejemplos mínimos que puedes correr para ver el motor funcionando)
+
+Instrucciones:
+1. Lee primero README.md en esa carpeta para entender la API completa (section_header, lede, p,
+   callout, kpi_row, tabla, timeline, chart, cover) antes de escribir nada.
+2. Copia los tres archivos de motor (motor_deckers.py, paleta_deckers.py, chart_style_deckers.py) a
+   tu carpeta de trabajo de esta sesión — el motor es de solo diseño, cero prosa, no lo edites salvo
+   que encuentres un bug real.
+3. Escribe un archivo de contenido nuevo (ej. contenido_[nombre].py) que importe motor_deckers y
+   construya el documento sección por sección, con el contenido de [NOMBRE DEL DOCUMENTO / TICKER].
+   Usa la función X() del README para escapar "&" y convertir **negrita** antes de pasar cualquier
+   texto a M.p/M.lede/M.callout (M.tabla ya escapa solo).
+4. Genera los gráficos que necesites con matplotlib + chart_style_deckers.py (mismo patrón: sin
+   título propio en el gráfico, caption de fuente al pie, colores de paleta_deckers).
+5. Compílalo con un build de dos pasadas (patrón en el README, sección "Build en dos pasadas") para
+   que la numeración "Página N de Y" salga bien.
+6. Antes de dármelo por terminado: renderiza el PDF a imágenes (pdftoppm) y revisa visualmente al
+   menos la portada, una página con tabla, una con gráfico y el cierre — busca en particular texto
+   cortado a la mitad (portadas con una sola palabra muy larga) y "&" sin escapar en tablas.
+
+Contenido que quiero convertir a este formato: [PEGA AQUÍ EL TEXTO, O DI DÓNDE ESTÁ EL DOCUMENTO
+FUENTE — .md, .pdf, etc.]
+
+Nota: este es un formato de PRUEBA (así lo dejamos con Felipe el 12-sep-2026) — no es el estándar
+oficial de la casa todavía. El canon vigente para tesis de inversión sigue siendo el estilo
+Economist (fondo crema, bandera roja, ver `economist-qg`/`ultra-tesis-qg`). Si este documento es una
+tesis de inversión bajo el método de 12 pasos, el CONTENIDO sigue las reglas de `metodologia-qg`
+(candados A/B/C, HECHO/INFERENCIA/SUPUESTO, etc.) igual que siempre — este prompt solo pide un
+cambio de piel visual, no de método.

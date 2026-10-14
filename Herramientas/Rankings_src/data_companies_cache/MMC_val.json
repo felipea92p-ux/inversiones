@@ -1,0 +1,48 @@
+{
+ "ticker": "MMC",
+ "name": "Marsh & McLennan Companies, Inc.",
+ "currency": "USD",
+ "price_verified": 160.12,
+ "price_source": "StockAnalysis.com (ticker MRSH/MMC, NYSE), cierre 22-jun-2026; cross-check companiesmarketcap.com (~484M acc) y StockTitan",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.485,
+ "implied_mcap_b_usd": 77.66,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 8.55,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.85,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = FCF reportado $5,001M - 100% SBC $394M = $4,607M (~$9.50/accion). FCF = OCF $5,292M - capex $291M. SBC muy baja (1.46% ingresos, 7.9% FCF), tipica de broker asset-light.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 154.12,
+   "prob": 0.38,
+   "note": "g1=5%, declina a 4% (anios 6-10), terminal 2.5%. De-rating estructural leve + crecimiento subyacente moderado (~4% organico) sin gran apalancamiento operativo. Pesimista razonable, NO apocaliptico: el negocio de correduria/consultoria es resiliente y recurrente."
+  },
+  "base": {
+   "iv_per_share": 201.37,
+   "prob": 0.47,
+   "note": "g1=7.5% (organico ~4-5% + M&A bolt-on + expansion de margen, 18 anios consecutivos), declina a 5%, terminal 3%. Consistente con BPA ajustado +9% historico y guia FY2026 de crecimiento solido."
+  },
+  "optimista": {
+   "iv_per_share": 263.13,
+   "prob": 0.15,
+   "note": "g1=10%, declina a 6%, terminal 3.5%. M&A acretivo (cierre adquisicion 1-jul-2026), reinversion a ROIC alto y expansion de margen sostenida."
+  }
+ },
+ "iv_dcf_weighted": 192.68,
+ "multiple_metric": "P/E adelantado (BPA ajustado FY2026e ~$10.65, proxy de owner earnings)",
+ "fwd_multiple_now": 15.03,
+ "fwd_multiple_5y_avg": 21,
+ "fair_multiple": 18.5,
+ "multiple_rationale": "Ancla a la media 5a del P/E adelantado (~21x) con HAIRCUT a 18.5x. El haircut es prudencial, NO por deterioro estructural: el desplome GAAP de Q1 2026 fue un cargo legal puntual de $425M (litigio Greensill), no operativo; el negocio mantiene crecimiento subyacente ~4%, BPA ajustado +8-9% y 18 anios de expansion de margen. El de-rating de 21x->15x es fear_rotation. Aplico 18.5x (no 21x) para reconocer un entorno de tipos mas alto que el promedio quinquenal y un crecimiento organico algo mas moderado. BPA FY26e $10.65 x 18.5 = $197.03.",
+ "iv_multiple": 197.03,
+ "weight_dcf": 0.35,
+ "weight_multiple": 0.65,
+ "reconciled_iv": 195.5,
+ "structural_change": "Sin deterioro estructural real. El golpe al BPA GAAP de Q1 2026 es un one-off (cargo legal Greensill $425M), no operativo. Negocio intacto: ingresos +8% reportado/+4% subyacente, margen operativo 23.1%, 18o anio consecutivo de expansion de margen, FCF $5.0B. Adquisicion con cierre previsto 1-jul-2026 (potencial acretivo). El unico cambio relevante es macro/de-rating (compresion de multiplo de ~21x a ~15x fwd), tipico de rotacion por miedo, no de impairment de franquicia.",
+ "sanity_notes": "Sanity check OK: 160.12 x 0.485B = $77.66B, coincide con la escala conocida (~$77B; aggregador reporta $77.35B con 483.1M acc). El precio $182/mcap $89.5B que aparece en busquedas es dato OBSOLETO de finales de mayo; precio vigente al cierre 22-jun-2026 es $160.12, cerca del minimo 52s ($156.60). Acciones diluidas ~485M (media ponderada FY2025 496M; acciones en circulacion a 31-dic-2025 485M; aggregadores 483-484M) — uso 485M. Deuda neta $18.76B (ND/EBITDA ~2.3x, apalancamiento moderado). MAGNITUD: IV/accion DCF $193 (120% del precio), multiplo $197 (123%), reconciliada $195.50 (122%) — dentro del rango 30-300%, sin error de unidades/moneda/acciones. Pesos 0.35 DCF / 0.65 multiplo: compounder estable y probado (correduria de seguros/consultoria, ingresos recurrentes, baja ciclicidad, ROIC alto), por lo que el ancla de multiplo pondera mas. Convergencia estrecha DCF-multiplo ($193 vs $197) refuerza la confianza. Implica que MMC cotiza con ~18% de descuento vs IV reconciliada."
+}

@@ -1,0 +1,42 @@
+{
+ "ticker": "INTU",
+ "currency": "USD",
+ "current_price": 257.77,
+ "wacc_pct": 10.3,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.2,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = FCF reportado $6.083B − 100% SBC $1.968B = $4.115B (margen owner-FCF 21.9% sobre ingresos $18.831B). La SBC se trata como gasto en efectivo: es material a ~32.4% del FCF reportado, el ajuste clave para INTU.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 12,
+  "rev_cagr_y6_10_pct": 8,
+  "fcf_margin_terminal_pct": 27,
+  "terminal_g_pct": 3,
+  "shares_diluted_b": 0.2735,
+  "net_debt_usd_b": -0.12,
+  "sbc_treatment": "100% de la SBC ($1.968B, 10.4% de ingresos / 32.4% del FCF) restada del FCF reportado para obtener owner earnings. En el caso base el margen owner-FCF se expande de 22% a 27% por apalancamiento operativo y descenso gradual de la SBC como % de ingresos a medida que la empresa madura."
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 269,
+   "prob": 0.375,
+   "note": "La IA agentica (amenaza Anthropic/agentes) comprime el foso de 'software guiado': TurboTax y QuickBooks pierden poder de fijacion de precios. Rev CAGR y1-5 ~8%, declinando a 3% en y6-10. Margen owner-FCF casi plano 21%->22% (SBC se mantiene alta, presion de precios). g terminal 2.5%. Aun asi la VI iguala el precio actual: el mercado ya descuenta este escenario."
+  },
+  "base": {
+   "iv_per_share": 432,
+   "prob": 0.475,
+   "note": "Consistente con el track record (FY25 crecimiento organico 16%, guia FY26 +13-14%). Rev CAGR y1-5 ~12% (por debajo de lo reciente por incertidumbre IA), declinando 10%->6% en y6-10. Margen owner-FCF expande 22%->27%. g terminal 3.0%. Implica +68% sobre el precio actual."
+  },
+  "optimista": {
+   "iv_per_share": 603,
+   "prob": 0.15,
+   "note": "La IA es acretiva: Intuit Assist/agentes monetizan, ganancias de cuota en consumidor y mid-market. Rev CAGR y1-5 ~15%, declinando 12%->8%. Margen owner-FCF expande 23%->30%. g terminal 3.5%. Ejecucion perfecta."
+  }
+ },
+ "sanity_check": "VI ponderada por probabilidad ~$397 (+54% sobre $257.77). El mercado valora INTU a ~17x owner-FCF trailing (tras gastar 100% de SBC) y ~11.6x FCF reportado, multiplos extraordinariamente baratos para un negocio que ELEVO su guia a +13-14% de ingresos y posicion de caja neta. Contraste de rendimiento al accionista (sin DDM): dividendo ~1.56% + recompras ~4.7% = ~6.2% de yield total sobre capitalizacion, sostenible dado el FCF. fwd P/E ~9.7-10.8x vs media 5a ~34x. El selloff de -68% desde maximos (fear_rotation por temor a disrupcion IA + shock por recorte del 17% de plantilla) excede ampliamente el cambio fundamental (guia recortada solo ~0.5% en TurboTax mientras se elevo la guia global). Asimetria fuerte: incluso el escenario conservador (~$269) cubre el precio actual.",
+ "method_notes": "DCF de owner earnings a 10 anos. Owner FCF = FCF reportado − 100% SBC. Base FY2025: ingresos $18.831B, FCF $6.083B (32.3% margen), SBC $1.968B => owner FCF $4.115B (21.9% margen). Fase 1 (anos 1-5): CAGR de ingresos explicito por escenario; margen owner-FCF estabilizado y en expansion gradual. Fase 2 (anos 6-10): CAGR declinante linealmente hacia normalizacion. Valor terminal con g=2.5-3.5% segun foso (foso ancho: ecosistema fiscal/contable, datos, switching costs). WACC = Rf 4.3% (UST 10Y) + ERP 5.0% x beta 1.2 = 10.3% (empresa US, sin ajuste geopolitico). Beta 1.2 estimada (software de alta calidad, flujos recurrentes y defensivos pero sensible a tasas/sentimiento tech). Acciones diluidas 0.2735B (derivadas de mktcap $70.5B / precio $257.77). Deuda neta -$0.12B (caja neta), sumada al equity value. VI/accion = (PV flujos + PV valor terminal − deuda neta) / acciones diluidas. Inputs verificados de FASE 2 (10-K FY2025, press releases IR oficiales). No se requirio busqueda web adicional.",
+ "name": "Intuit Inc."
+}

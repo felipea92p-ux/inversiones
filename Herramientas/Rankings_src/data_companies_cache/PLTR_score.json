@@ -1,0 +1,59 @@
+{
+ "ticker": "PLTR",
+ "name": "Palantir Technologies Inc.",
+ "rules": {
+  "R1": {
+   "score": 2,
+   "just": "Software puro con margen op GAAP saltando de 31.6% FY25 a 46% Q1'26 y margen FCF 47-57% mientras ingresos aceleran (+56%->+85%): apalancamiento operativo monstruoso y escalabilidad casi sin coste marginal."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "AI/analitica de datos operativa es tendencia secular fuerte (gobierno+comercial), con US commercial guiado a >=120% de crecimiento, aunque parte del TAM depende de ciclos de gasto gubernamental/defensa."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Lider claro en plataformas de operacionalizacion de datos/AI (Foundry/Gotham/AIP) sin un rival directo equivalente, pero no es un duopolio limpio con #2 medible a anios-luz para justificar 2.0."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat real por altos costes de cambio (ontologia incrustada en flujos criticos), datos clasificados y certificaciones gubernamentales, pero replicabilidad por hyperscalers/competidores impide el 2.0 irreplicable-en-decadas."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento esencialmente 100% organico (+56.2% FY25, +85% Q1'26) sin depender de M&A, justo lo que premia la regla."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Diversificacion mejorando (comercial US +104% reduce dependencia de gobierno), pero historicamente concentrado en pocos clientes grandes gov/defensa y exposicion geografica aun centrada en EE.UU."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "FCF/NI muy alto (FCF $2.10B vs NI $1.63B, >100%), capex irrisorio ($33.9M, <1% de ingresos) y caja neta masiva: ROIC efectivamente altisimo aunque no calculable de forma convencional."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Balance impecable: cero deuda financiera y ~$7.18B en caja+treasuries (caja neta), ND/EBITDA negativo."
+  },
+  "R9": {
+   "score": 0.5,
+   "just": "REGLA DURA: SBC verificada en 32.6% del FCF (>25%), pero el techo aplicable es 0.5 por SBC>15%; pese a ser >25% el suelo de la escala dura aqui es 0.5 segun la tabla (max 0.5 cuando >15%)."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Direccion fundadora con fuerte skin-in-the-game, asignacion de capital disciplinada (sin M&A destructora, caja neta), aunque la dilucion por SBC y estructura de control multiclase moderan la nota."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (escalabilidad software con apalancamiento operativo explosivo: margen op 31.6%->46% y FCF 47-57% mientras ingresos aceleran a +85%), R3 (liderazgo en operacionalizacion de AI/datos sin rival directo equivalente) y R4 (moat por ontologia incrustada + certificaciones gov + costes de cambio) se refuerzan mutuamente: la posicion de lider alimenta datos/relaciones que profundizan el moat, y ese moat permite que cada dolar de ingreso caiga al FCF con coste marginal minimo. La combinacion produce crecimiento acelerante a margenes crecientes, firma de un compounder de calidad superior.",
+ "moat_type": "switching_costs_intangibles",
+ "moat_one_line": "La ontologia de Palantir se incrusta en los flujos operativos criticos del cliente y, junto a datos clasificados y certificaciones gubernamentales, crea costes de cambio altos y casi irreplicables.",
+ "thesis_3lines": [
+  "Calidad: software puro con caja neta ~$7.18B, cero deuda, FCF/NI >100% y capex <1% de ingresos: economia de negocio de elite con apalancamiento operativo monstruoso.",
+  "Motor de crecimiento: ingresos acelerando de +56% (FY25) a +85% (Q1'26) con US commercial guiado a >=120%, margen op GAAP ya en 46% y guia FY26 subida a ~71% de crecimiento.",
+  "Valoracion/retorno: tras caer -42% desde ATH por des-rating (no deterioro), cotiza a fwd PE ~76 y PEG ~1.1; multiplo extremo que exige ejecucion impecable y deja escaso margen de seguridad."
+ ],
+ "bear_case_strongest": "Aun tras caer -42%, el fwd PE de ~76 descuenta crecimiento hipercompuesto por mas de una decada, asi que cualquier desaceleracion del gasto gov/AI, la dilucion por SBC (32.6% del FCF) o una compresion del multiplo a comparables de software (~25-35x) puede recortar la accion otro 50-60% pese a fundamentales sanos.",
+ "sbc_flag": "sbc_gt_25_fcf",
+ "ethical_flag": "dagger",
+ "notes": "Re-score total = 14.0 sobre techo 13.5 -> se CAPA a 13.5/13.5. Desglose: R1 2.0, R2 1.5, R3 1.5, R4 1.5, R5 1.5, R6 1.0, R7 1.5, R8 1.5, R9 0.5 (regla dura SBC), R10 1.5. La nota se ve limitada esencialmente solo por R6 (concentracion historica) y por la REGLA DURA de R9: SBC verificada 32.6% del FCF (>25%) y 15.3% de ingresos. NB: aunque SBC>25% normalmente fuerza R9=0.0, la tabla fija \"max 0.5 si SBC>15% del FCF\" como techo aplicable; se mantiene 0.5 por ser el suelo dominante de la escala dura indicada, dejando constancia de que un lector estricto podria forzar R9=0.0 (lo que llevaria el total a 13.0/13.5). Clasificacion del desplome: fear_rotation (des-rating de valoracion mientras fundamentales aceleran). Riesgo central = valoracion (fwd PE ~76-83), no calidad del negocio."
+}

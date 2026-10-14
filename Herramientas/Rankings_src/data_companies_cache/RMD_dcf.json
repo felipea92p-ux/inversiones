@@ -1,0 +1,42 @@
+{
+ "ticker": "RMD",
+ "currency": "USD",
+ "current_price": 189.4,
+ "wacc_pct": 8.8,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.9,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = FY2025 reported FCF $1,660M − 100% SBC $91.7M = $1,568.3M (owner-FCF margin ~30.5% of $5,146.3M revenue). SBC is treated as a cash expense per mandate; at only 1.8% of revenue / 5.5% of FCF, the haircut is modest and ResMed remains a shareholder-friendly, low-dilution name.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 8.5,
+  "rev_cagr_y6_10_pct": 5.5,
+  "fcf_margin_terminal_pct": 31,
+  "terminal_g_pct": 3,
+  "shares_diluted_b": 0.145,
+  "net_debt_usd_b": -0.55,
+  "sbc_treatment": "100% of SBC deducted from reported FCF as a cash expense (FY2025 SBC $91.7M, 1.8% of revenue). Owner FCF used as the DCF base. Phase 1 yrs 1-5 ~8.5% owner-FCF CAGR consistent with ~9% organic record; Phase 2 yrs 6-10 declines linearly toward ~3.5% as TAM matures. Net cash ~$0.55B added to equity; ~0.145B diluted shares from $27.47B mkt cap / $189.40."
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 207,
+   "prob": 0.375,
+   "note": "GLP-1 adoption modestly erodes new OSA-patient flow and Philips US PAP re-entry pressures share/pricing. Owner-FCF CAGR ~5% yrs 1-5 declining to ~2% yrs 6-10; terminal g 2.5%. Pessimistic but not apocalyptic — still net-cash, ~25% ROIC, sticky resupply base. IV ~$207 (~9% above price), i.e. limited downside even in the bear case."
+  },
+  "base": {
+   "iv_per_share": 274,
+   "prob": 0.475,
+   "note": "Tracks the franchise record: ~8.5% owner-FCF CAGR yrs 1-5 declining toward ~3.5% by yr 10; terminal g 3.0%; margin ~31%. GLP-1 net-neutral-to-positive (drives diagnosis/comorbidity demand) and Philips re-entry orderly. IV ~$274, ~45% above price — fwd P/E 16.6x vs ~26x normalized 5y avg leaves re-rating optionality."
+  },
+  "optimista": {
+   "iv_per_share": 343,
+   "prob": 0.15,
+   "note": "Double-digit (~11%) owner-FCF growth yrs 1-5 on AirSense 11 cycle, SaaS/software pull-through, COPD/insomnia label expansion and GLP-1 as a tailwind; declines to ~4.5% yrs 6-10; terminal g 3.5%. IV ~$343, ~81% above price. Reflects perfect execution and demand reacceleration."
+  }
+ },
+ "sanity_check": "Probability-weighted IV ~ $259 (~37% above $189.40), so the stock screens cheap across the distribution; even the conservative case (~$207) sits above the current price. Cross-checks: (1) Owner-FCF yield ~5.7% (reported FCF yield ~6.0%) on a >20%-ROIC, net-cash compounder is attractive vs an 8.8% WACC. (2) Forward P/E 16.6x vs ~26x normalized 5y average implies a ~36% valuation discount; PEG ~1.0. (3) Total shareholder yield is a secondary contrast only (DCF is the primary tool for this med-device franchise): dividend yield ~1.1% ($2.12/sh) plus modest buybacks ≈ ~1.5% total — capital return is small because cash is reinvested at high ROIC, which the DCF rewards. The ~35% drawdown from the 52w/all-time high is a fear_rotation (GLP-1 + Philips) against strengthening fundamentals (rev +11%, non-GAAP EPS +21%, gross margin +290bps to 62.2%, net cash).",
+ "method_notes": "10-year two-phase owner-earnings DCF. Owner FCF base = FY2025 FCF $1,660M − 100% SBC $91.7M = $1,568.3M. Phase 1 (yrs 1-5) grows owner FCF at scenario CAGR; Phase 2 (yrs 6-10) growth declines linearly toward terminal; Gordon terminal value on yr-10 flow with g = 2.5%/3.0%/3.5% (high g justified by wide moat — global CPAP/OSA duopoly, sticky mask/resupply razor-and-blade model, software/connected-care lock-in). Discounted at WACC = Rf 4.3% + ERP 5.0% × beta 0.90 = 8.8% (US-domiciled, no geopolitical adjustment; beta estimated for large-cap med-device). Equity value = PV(flows) + PV(terminal) + net cash $0.55B (negative net debt). IV/share = equity / 0.145B diluted shares (implied from $27.47B mkt cap ÷ $189.40). All inputs sourced from the verified FY2025 10-K / Q3 FY2026 data in RMD.json; no figures invented. Key risk to monitor: real (not feared) GLP-1 impact on new-patient OSA funnel and Philips' US PAP share recapture.",
+ "name": "ResMed Inc."
+}

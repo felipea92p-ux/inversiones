@@ -1,0 +1,311 @@
+{
+  "ticker": "ZTS",
+  "empresa": "Zoetis Inc.",
+  "cik": "0001555280",
+  "bolsa": "NYSE",
+  "divisa_funcional": "USD",
+  "divisa_reporte": "USD",
+  "fecha_analisis": "2026-07-28",
+  "cierre_usado": "2026-07-27",
+  "etiqueta_calidad_congelada": "MENOS_5_6",
+  "puertas_pasadas": 2,
+  "especie": "G2",
+  "mos_exigido_pct": 40,
+  "regla_mos": "No esta en cartera -> umbral de ABRIR = 40%. Si estuviera en cartera seria CARGAR y bajaria 12 puntos. NO aplica.",
+  "rol": "VALORADOR. La calidad esta congelada en MENOS_5_6 y NO se reclasifica hacia arriba bajo ninguna circunstancia. Que el precio haya caido un 52% desde maximos no convierte a Zoetis en ULTRA: convierte a Zoetis en una MENOS_5_6 mas barata.",
+
+  "mecanismo_heredado": {
+    "motor": "Zoetis convierte la mayor escala de la sanidad animal -un coste unitario de producto 37% inferior al del comparable puro mas grande y casi el doble de I+D absoluta- en una cartera de moleculas aprobadas y patentadas que se venden en efectivo a un cliente fragmentado sin aseguradora que negocie el precio, y devuelve el resultado en recompras porque no encuentra donde reinvertirlo.",
+    "eslabon_mas_debil": "El poder de precio nunca se probo bajo presion. En Q1-2026, el primer trimestre en que la presion llego, la elasticidad medida por la propia empresa se dio la vuelta: franquicias clave -3% de volumen con solo +2% de precio, justo cuando el margen tocaba maximos historicos. Margen arriba con volumen abajo es la firma de la COSECHA del foso, no la de su fortaleza.",
+    "reinversion_pct_ventas": 22.5,
+    "roiic_bruto_pct": 12.0,
+    "roiic_ex_margen_pct": 9.4,
+    "nota_del_valorador": "El ROIIC EX-MARGEN de 9,4% es el dato que decide todo este expediente: apenas 180 puntos basicos por encima del WACC de mercado (7,6%). Un negocio que reinvierte a 180pb sobre su coste de capital NO merece multiplo de compounder, por muy alto que sea su margen contable."
+  },
+
+  "precio_y_capital": {
+    "precio_usd": 76.92,
+    "fuente_precio": "HECHO - snapshot IBKR (contract_id 121665622, NYSE), campo last con is_close=true, consultado 2026-07-28. Cierre de la sesion del 2026-07-27. Comprobacion cruzada: stockanalysis.com da 76,92 USD al cierre del 27-jul-2026 (INFERENCIA, solo cruce).",
+    "rango_52s": {"alto": 158.43, "bajo": 71.48, "apertura_52s": 150.17},
+    "variacion_ytd_pct": -38.34,
+    "comentario_precio": "-51,4% desde el maximo de 52 semanas (158,43) y a solo 7,6% del minimo de 52 semanas (71,48). La caida NO es de mercado: es especifica. El 27-jul-2026 la capitalizacion es de 32.247 M USD frente a un free float de 69.233 M USD al 30-jun-2025 declarado en el propio 10-K. El mercado ha borrado la mitad de Zoetis en doce meses.",
+    "acciones_en_circulacion_mm": 419.228,
+    "fuente_acciones": "HECHO - portada del 10-Q Q1-2026 (dei:EntityCommonStockSharesOutstanding = 419.228.118 al 1-may-2026). En el balance del 31-mar-2026 figuran 420.348.495 en circulacion.",
+    "capitalizacion_usd_mm": 32247,
+    "ads": "NO APLICA. Accion ordinaria estadounidense cotizada directamente en NYSE, sin ADS ni conversion de divisa.",
+    "deuda_principal_usd_mm": 9150,
+    "deuda_contable_usd_mm": 9045,
+    "deuda_valor_mercado_usd_mm": 8842,
+    "fuente_deuda_mercado": "HECHO - 10-K FY2025 (accession 0001555280-26-000011), nota Financial Instruments, R71 'Fair Value of Debt': valor razonable Nivel 2 = 8.842 M USD al 31-dic-2025 frente a 9.150 M de principal (96,6% del par). Se usa esta cifra como deuda a valor de mercado. ADVERTENCIA: el convertible al 0,250% con vencimiento 2029 (2.000 M) se emitio el 18-dic-2025 con la accion cerca de maximos; con la accion hoy a la mitad su opcion esta muy fuera de dinero y su valor razonable habra caido, por lo que la deuda a mercado HOY es probablemente 8.400-8.600 M. Usar 8.842 es conservador (infla el EV).",
+    "caja_usd_mm": 1941,
+    "fuente_caja": "HECHO - balance del 10-Q Q1-2026, 31-mar-2026: 1.941 M USD (incluye 1 M de efectivo restringido).",
+    "deuda_neta_usd_mm": 6901,
+    "ev_usd_mm": 39148,
+    "estructura_de_deuda_31dic2025": [
+      {"instrumento": "3,000% senior notes 2027", "principal_usd_mm": 750},
+      {"instrumento": "3,900% senior notes 2028", "principal_usd_mm": 500},
+      {"instrumento": "4,150% senior notes 2028 (emitidas 18-ago-2025)", "principal_usd_mm": 850},
+      {"instrumento": "0,250% CONVERTIBLE senior notes 2029 (emitidas 18-dic-2025)", "principal_usd_mm": 2000},
+      {"instrumento": "2,000% senior notes 2030", "principal_usd_mm": 750},
+      {"instrumento": "5,600% senior notes 2032", "principal_usd_mm": 750},
+      {"instrumento": "5,000% senior notes 2035 (emitidas 18-ago-2025)", "principal_usd_mm": 1000},
+      {"instrumento": "4,700% senior notes 2043", "principal_usd_mm": 1150},
+      {"instrumento": "3,950% senior notes 2047", "principal_usd_mm": 500},
+      {"instrumento": "4,450% senior notes 2048", "principal_usd_mm": 400},
+      {"instrumento": "3,000% senior notes 2050", "principal_usd_mm": 500}
+    ],
+    "fuente_estructura_deuda": "HECHO - 10-K FY2025, R70 'Schedule of Long-term Debt'. Total principal 9.150 M USD, sin vencimientos en 2026.",
+    "apalancamiento": {
+      "ebitda_fy2025_usd_mm": 4033,
+      "deuda_neta_contable_sobre_ebitda": 1.76,
+      "ev_sobre_ebitda": 9.7,
+      "comentario": "El balance NO esta roto. Lo que si es relevante es la TRAYECTORIA: la deuda principal paso de 6.650 M (31-dic-2024) a 9.150 M (31-dic-2025), +2.500 M en un ano, y ese dinero se fue integro a recomprar acciones."
+    }
+  },
+
+  "capital_allocation_bandera_roja": {
+    "hecho": "HECHO - 10-K FY2025 y 10-Q Q1-2026. Recompras FY2025 = 3.235 M USD; acciones en circulacion 448.473.073 (31-dic-2024) -> 424.927.535 (31-dic-2025) = 23,54 M acciones a un precio medio implicito de 137,4 USD. Q1-2026 = 606 M USD por 4,58 M acciones a 132,3 USD implicitos. Del 10-K: 1.535 M de esas recompras se ejecutaron entre el 19 y el 31 de diciembre de 2025.",
+    "lectura": "Zoetis se endeudo en 2.500 M para recomprar 3.841 M de acciones propias a una media de ~136 USD durante los quince meses previos a un desplome a 77 USD. Destruccion de valor frente a haber conservado la caja: ~1.680 M USD, un 5,2% de la capitalizacion actual. El propio 'devuelve el resultado en recompras porque no encuentra donde reinvertirlo' del mecanismo es, medido, el capitulo mas caro de los ultimos dos ejercicios.",
+    "por_que_importa_para_el_precio": "No cambia el valor intrinseco del negocio. Cambia la confianza en que el equipo gestor reconozca el techo de su propio ciclo. Es un argumento para exigir el MoS completo, no para relajarlo."
+  },
+
+  "wacc_candado_B": {
+    "principio": "CANDADO B respetado. El WACC sale integramente del mercado. En ningun punto se hereda del tier de calidad MENOS_5_6.",
+    "tasa_libre_riesgo_pct": 4.64,
+    "fuente_tasa_libre_riesgo": "HECHO/INFERENCIA - bono soberano de EEUU a 10 anios (moneda funcional del negocio = USD), 4,64% al 27-jul-2026 segun Trading Economics; una segunda fuente da 4,63% la misma fecha. Se toma 4,64%.",
+    "prima_mercado_madura_pct": 4.20,
+    "prima_pais_pct": 0.72,
+    "prima_riesgo_total_ponderada_pct": 4.92,
+    "fuente_primas": "HECHO - Aswath Damodaran, tabla de Country Default Spreads and Risk Premiums; ERP de mercado maduro 4,20-4,23% y primas de riesgo pais por jurisdiccion (tabla consultada 28-jul-2026; ultima actualizacion publicada ene-2026 con revision jul-2026). El pais del riesgo de ACTIVO no es solo EEUU: Zoetis factura el 54,5% en EEUU y el 45,5% fuera.",
+    "ponderacion_geografica_del_riesgo": {
+      "metodo": "Prima de riesgo total = media ponderada por INGRESOS del ejercicio auditado FY2025 (10-K, R51 'Revenue by Geographic Area', total geografico 9.351 M USD).",
+      "detalle": [
+        {"pais": "Estados Unidos", "ventas_usd_mm": 5097, "peso_pct": 54.5, "erp_pct": 4.46},
+        {"pais": "Otros emergentes", "ventas_usd_mm": 913, "peso_pct": 9.8, "erp_pct": 7.00},
+        {"pais": "Otros desarrollados", "ventas_usd_mm": 641, "peso_pct": 6.9, "erp_pct": 4.60},
+        {"pais": "Brasil", "ventas_usd_mm": 393, "peso_pct": 4.2, "erp_pct": 7.47},
+        {"pais": "Australia", "ventas_usd_mm": 329, "peso_pct": 3.5, "erp_pct": 4.23},
+        {"pais": "Reino Unido", "ventas_usd_mm": 325, "peso_pct": 3.5, "erp_pct": 5.01},
+        {"pais": "Canada", "ventas_usd_mm": 290, "peso_pct": 3.1, "erp_pct": 4.23},
+        {"pais": "Alemania", "ventas_usd_mm": 236, "peso_pct": 2.5, "erp_pct": 4.23},
+        {"pais": "China", "ventas_usd_mm": 227, "peso_pct": 2.4, "erp_pct": 5.14},
+        {"pais": "Francia", "ventas_usd_mm": 165, "peso_pct": 1.8, "erp_pct": 4.70},
+        {"pais": "Mexico", "ventas_usd_mm": 160, "peso_pct": 1.7, "erp_pct": 6.69},
+        {"pais": "Japon", "ventas_usd_mm": 154, "peso_pct": 1.6, "erp_pct": 5.14},
+        {"pais": "Espana", "ventas_usd_mm": 145, "peso_pct": 1.6, "erp_pct": 5.00},
+        {"pais": "Chile", "ventas_usd_mm": 139, "peso_pct": 1.5, "erp_pct": 5.50},
+        {"pais": "Italia", "ventas_usd_mm": 137, "peso_pct": 1.5, "erp_pct": 5.60}
+      ],
+      "resultado_pct": 4.92,
+      "nota": "Las primas de 'Otros emergentes' (7,00%), 'Otros desarrollados' (4,60%), Chile (5,50%), Italia (5,60%), Francia (4,70%) y Espana (5,00%) son INFERENCIA: estimaciones a partir del rango de la tabla Damodaran para esos bloques, no lecturas linea a linea. El efecto total sobre el WACC de moverlas +-1 punto es de +-9pb."
+    },
+    "beta": 0.83,
+    "fuente_beta": "HECHO/INFERENCIA - Beta 5 anos = 0,75 (stockanalysis.com, sello 28-jul-2026). Comprobacion cruzada: Investing.com da 0,96 (beta 5 anos). Se usa 0,83, que es la beta cruda de 0,75 ajustada por Blume (0,67 x 0,75 + 0,33 x 1,00 = 0,83), metodo estandar de Bloomberg. El rango observado 0,75-0,96 se usa como escenarios bajo y alto.",
+    "por_que_beta_ajustada": "Zoetis acaba de caer un 51% por razones IDIOSINCRATICAS (demanda de mascotas, competencia en dermatologia y parasiticidas). Una caida no correlacionada con el mercado BAJA la beta medida justo cuando el riesgo del negocio SUBE. Tomar la beta cruda de 0,75 seria dejar que el desplome se pague a si mismo con un WACC mas bajo. El ajuste de Blume corrige parcialmente ese artefacto.",
+    "coste_deuda_pct": 4.20,
+    "derivacion_coste_deuda": "HECHO de los filings, tres lecturas: (a) 10-K FY2025 R73: gasto financiero neto de intereses capitalizados 222 M + 47 M capitalizados = 269 M de coste financiero bruto, sobre deuda media FY2025 de ~7.005 M (6.650 al inicio, amortizacion de 1.350 M de las notas 4,500% y 5,400% de 2025, emision de 1.850 M el 18-ago y 2.000 M el 18-dic) = 3,84% pretax. (b) 10-K FY2025 R72, calendario de pagos de intereses contractuales 2026 = 296 M sobre 9.150 M de principal = 3,23% de cupon medio ponderado; el Q1-2026 confirma la cifra (62 M de gasto neto + ~48 M capitalizados anualizados = ~296 M). (c) COSTE MARGINAL: la emision mas reciente a 10 anos son las notas al 5,000% de ago-2025; con el bono a 10 anos hoy en 4,64%, una emision nueva costaria ~5,2%. Se toma 4,20% como central porque el 3,23% contractual esta ARTIFICIALMENTE deprimido por el convertible al 0,250% (2.000 M, 21,9% de la deuda), cuyo coste economico real no es el cupon sino la opcion de conversion entregada. Rango 3,23% - 5,20%.",
+    "tasa_impositiva_pct": 20.4,
+    "fuente_tasa_impositiva": "HECHO - 10-K FY2025: impuestos 687 M sobre resultado antes de impuestos 3.360 M = 20,4%. El Q1-2026 confirma 20,7% (157/758).",
+    "ponderacion": {
+      "equity_valor_mercado_usd_mm": 32247,
+      "deuda_valor_mercado_usd_mm": 8842,
+      "peso_equity_pct": 78.5,
+      "peso_deuda_pct": 21.5
+    },
+    "escenarios": [
+      {"escenario": "BAJO", "beta": 0.75, "ke_pct": 8.33, "kd_pretax_pct": 3.23, "kd_postimpuestos_pct": 2.57, "wacc_pct": 7.09},
+      {"escenario": "CENTRAL", "beta": 0.83, "ke_pct": 8.72, "kd_pretax_pct": 4.20, "kd_postimpuestos_pct": 3.34, "wacc_pct": 7.57, "central": true},
+      {"escenario": "ALTO", "beta": 0.96, "ke_pct": 9.36, "kd_pretax_pct": 5.20, "kd_postimpuestos_pct": 4.14, "wacc_pct": 8.24}
+    ],
+    "wacc_pct": 7.6,
+    "wacc_rango": "7,1% - 8,2%"
+  },
+
+  "owner_earnings": {
+    "metodo": "Base = flujo de caja de explotacion del filing. Version (a) MANTENIMIENTO: se resta solo el capex de mantenimiento, aproximado por la depreciacion y amortizacion del estado de flujos; el exceso de capex sobre esa cifra es inversion discrecional y NO se resta. Version (b) CAPEX TOTAL: se resta todo el capex = flujo de caja libre puro. Para el DCF contra EV se DESAPALANCAN ambas sumando el gasto financiero neto despues de impuestos.",
+    "base_auditada": {
+      "ejercicio": "FY2025",
+      "fuente": "HECHO - 10-K FY2025, accession 0001555280-26-000011, presentado 12-feb-2026. R3 (Cuenta de resultados) y estado de flujos de caja via XBRL companyfacts.",
+      "ingresos_usd_mm": 9467,
+      "crecimiento_ingresos_pct": 2.3,
+      "coste_de_ventas_usd_mm": 2666,
+      "sgya_usd_mm": 2378,
+      "id_usd_mm": 698,
+      "amortizacion_intangibles_usd_mm": 128,
+      "resultado_explotacion_usd_mm": 3546,
+      "margen_explotacion_pct": 37.5,
+      "resultado_neto_usd_mm": 2673,
+      "flujo_caja_explotacion_usd_mm": 2904,
+      "depreciacion_y_amortizacion_usd_mm": 487,
+      "depreciacion_solo_pp_e_usd_mm": 359,
+      "capex_total_usd_mm": 621,
+      "capex_pct_ventas": 6.6,
+      "retribucion_en_acciones_usd_mm": 83,
+      "oe_mantenimiento_usd_mm": 2417,
+      "oe_capex_total_usd_mm": 2283,
+      "oe_mantenimiento_por_accion_usd": 5.77,
+      "oe_capex_total_por_accion_usd": 5.45,
+      "ajuste_desapalancamiento_usd_mm": 103,
+      "oe_mantenimiento_desapalancado_usd_mm": 2520,
+      "oe_capex_total_desapalancado_usd_mm": 2386
+    },
+    "base_encurso": {
+      "ejercicio": "FY2026 anualizado (Q1-2026 real + guia revisada de la empresa)",
+      "fuente": "HECHO - 10-Q Q1-2026 (accession 0001555280-26-000024) y nota de prensa de resultados del 7-may-2026 (8-K, exhibit99q12026.htm). Guia revisada: ingresos 9.680-9.960 M; resultado neto reportado 2.680-2.760 M; BPA diluido reportado 6,35-6,50 USD; BPA ajustado 6,85-7,00 USD.",
+      "ingresos_guia_medio_usd_mm": 9820,
+      "resultado_neto_guia_medio_usd_mm": 2720,
+      "flujo_caja_explotacion_estimado_usd_mm": 2880,
+      "derivacion_cfo": "INFERENCIA - resultado neto guiado 2.720 + D&A ~480 + retribucion en acciones ~95 - variacion de circulante y otros ~-415 (el mismo puente que en FY2025: 2.673+487+83 = 3.243 frente a CFO real 2.904, brecha de -339; se usa una brecha algo mayor porque el Q1-2026 ya mostro CFO 401 M frente a 515 M el ano anterior, con acumulacion de existencias y cuentas a cobrar).",
+      "depreciacion_y_amortizacion_estimada_usd_mm": 480,
+      "capex_estimado_usd_mm": 560,
+      "derivacion_capex": "INFERENCIA - Q1-2026 real 110 M frente a 178 M en Q1-2025. La empresa esta recortando. Se anualiza a 560 M frente a 621 M en FY2025.",
+      "oe_mantenimiento_usd_mm": 2400,
+      "oe_capex_total_usd_mm": 2320,
+      "oe_mantenimiento_por_accion_usd": 5.72,
+      "oe_capex_total_por_accion_usd": 5.53,
+      "ajuste_desapalancamiento_usd_mm": 130,
+      "oe_mantenimiento_desapalancado_usd_mm": 2531,
+      "oe_capex_total_desapalancado_usd_mm": 2451
+    },
+    "distancia_entre_bases": {
+      "oe_mantenimiento_delta_pct": -0.7,
+      "oe_capex_total_delta_pct": 1.6,
+      "lectura": "ESTO ES LA INFORMACION MAS IMPORTANTE DEL EXPEDIENTE Y HAY QUE LEERLA BIEN. La caja NO se ha roto: los owner earnings del ejercicio en curso son practicamente identicos a los del ultimo auditado (2.400 frente a 2.417 en mantenimiento; 2.320 frente a 2.283 en capex total). Lo que se ha roto no es el flujo, es la TRAYECTORIA y el MULTIPLO. En quince meses la accion perdio el 51% mientras los owner earnings se movian menos del 2%. El mercado no esta descontando una caida de la caja: esta descontando que esta caja no vuelva a crecer nunca. Eso es exactamente lo que hay que juzgar."
+    },
+    "contaminacion_no_recurrente": "El FY2025 auditado incluye 51 M de cargos de reestructuracion y costes de adquisicion/desinversion (R3) y 82 M de 'certain significant items' en el puente por segmentos. Nada de eso distorsiona materialmente el flujo de caja. El unico ajuste contable relevante no es un extraordinario sino un cambio de perimetro temporal: el ALINEAMIENTO DEL EJERCICIO FISCAL efectivo el 1-ene-2026 (eliminacion del desfase de un mes en las filiales fuera de EEUU), que reexpresa 2024 y 2025. El Q1-2025 reexpresado pasa de 2.220 a 2.198 M de ingresos, y el Q1-2026 recibe un beneficio estimado de ~100 M en el segmento Internacional derivado de ese alineamiento, que la empresa cuantifica expresamente. La guia 2026 esta sobre base reexpresada; el FY2025 auditado NO. Esa asimetria esta declarada en huecos."
+  },
+
+  "dcf_inverso": {
+    "motor": "Que crecimiento a 10 anos, con terminal del 3%, justifica exactamente el EV de hoy (39.148 M USD) al WACC calculado. Se descuentan owner earnings DESAPALANCADOS para ser homogeneos con el EV.",
+    "ev_objetivo_usd_mm": 39148,
+    "resultados": [
+      {"wacc_pct": 7.1, "g_implicita_auditado_mantenimiento_pct": -2.87, "g_implicita_auditado_capex_total_pct": -2.20, "g_implicita_encurso_mantenimiento_pct": -2.92, "g_implicita_encurso_capex_total_pct": -2.53},
+      {"wacc_pct": 7.6, "g_implicita_auditado_mantenimiento_pct": -1.56, "g_implicita_auditado_capex_total_pct": -0.87, "g_implicita_encurso_mantenimiento_pct": -1.61, "g_implicita_encurso_capex_total_pct": -1.21, "central": true},
+      {"wacc_pct": 8.2, "g_implicita_auditado_mantenimiento_pct": -0.10, "g_implicita_auditado_capex_total_pct": 0.60, "g_implicita_encurso_mantenimiento_pct": -0.16, "g_implicita_encurso_capex_total_pct": 0.26}
+    ],
+    "g_implicita_auditado_pct": -1.56,
+    "g_implicita_encurso_pct": -1.61,
+    "lectura": "Al WACC central el mercado esta pagando por owner earnings que DECRECEN un 1,6% anual durante diez anos antes de estabilizarse en el 3% terminal. Contra una compania cuya propia guia para 2026 -emitida DESPUES del trimestre malo y ya revisada a la baja- es +2% a +5% de crecimiento organico de ingresos y +2% a +6% de resultado neto ajustado organico. La distancia entre lo que el mercado firma (-1,6%) y lo que la empresa promete (+2 a +6%) es de siete a ocho puntos de crecimiento anual. Ese hueco es la oportunidad, y tambien es la trampa: solo existe si la guia se cumple, y la guia de hace tres meses ya fue revisada a la baja una vez.",
+    "contraste_con_multiplos_observables": "PER sobre la guia reportada de 2026 (punto medio 6,425 USD) = 12,0x. PER sobre BPA ajustado (6,925 USD) = 11,1x. EV/EBITDA FY2025 = 9,7x. Multiplo sobre owner earnings de mantenimiento del ejercicio en curso = 13,4x. Zoetis cotizo por encima de 30x beneficios durante la mayor parte de la ultima decada."
+  },
+
+  "g_defendible": {
+    "valor_pct": 3.0,
+    "banda_pct": "2,3% - 3,5%",
+    "derivacion": "g = tasa de reinversion x ROIIC EX-MARGEN (nunca el bruto: usar el bruto de 12% asume que la expansion de margen se repite, y el propio eslabon debil dice que el margen esta en maximos precisamente porque se esta cosechando). Reinversion NETA reconciliada con el filing FY2025 = (capex 621 - D&A 487) + I+D 698 = 832 M. NOPAT ajustado por capitalizacion de I+D = (resultado de explotacion 3.546 + I+D 698) x (1 - 20,4%) = 3.378 M. Tasa de reinversion = 832/3.378 = 24,6%. g = 24,6% x 9,4% = 2,3%. Se eleva a 3,0% como central para no penalizar el capex de capacidad ya desplegado que aun no rinde.",
+    "por_que_NO_se_usa_el_22_5_pct_congelado": "Si se toma literalmente la reinversion congelada del 22,5% de ventas (2.130 M) sobre el NOPAT ajustado de 3.378 M, la tasa de reinversion seria del 63% y la g resultante del 5,9%. Esa cifra esta REFUTADA por tres hechos primarios: (1) los ingresos FY2025 crecieron 2,3%; (2) la guia 2026 revisada es +2% a +5% organico; (3) el resultado neto reportado guiado para 2026 (punto medio 2.720 M) crece un 1,8% sobre los 2.673 M de FY2025. Ademas, el 22,5% no se reconcilia con el filing: capex 6,6% + I+D 7,4% = 14,0% de ventas en FY2025, y no hubo adquisiciones materiales. Declarado como hueco.",
+    "contraste_con_la_tasa_base": "2023-2025: ingresos 8.544 -> 9.256 -> 9.467, CAGR 5,3%, pero decelerando a 2,3% en el ultimo ano. Resultado neto 2.344 -> 2.486 -> 2.673, CAGR 6,8% -- casi toda la diferencia entre el 5,3% de ingresos y el 6,8% de beneficio ES expansion de margen, que es justo lo que el ROIIC ex-margen esta disenado para no extrapolar. Con margen congelado, la tasa base real de Zoetis hoy es 2-3%. La g defendible de 3,0% es IGUAL a la terminal: no queda prima de crecimiento que capitalizar.",
+    "sensibilidad_al_valor_wacc_central_7_6_pct": [
+      {"g_pct": 0.0, "valor_accion_usd": 77, "mos_pct": 0},
+      {"g_pct": 1.5, "valor_accion_usd": 94, "mos_pct": 18},
+      {"g_pct": 2.3, "valor_accion_usd": 105, "mos_pct": 27},
+      {"g_pct": 3.0, "valor_accion_usd": 116, "mos_pct": 34},
+      {"g_pct": 4.0, "valor_accion_usd": 134, "mos_pct": 43}
+    ]
+  },
+
+  "valoracion": {
+    "con_g_defendible_3_0_pct": [
+      {"wacc_pct": 7.1, "base": "auditado", "valor_accion_usd": 130, "mos_pct": 41},
+      {"wacc_pct": 7.1, "base": "en curso", "valor_accion_usd": 133, "mos_pct": 42},
+      {"wacc_pct": 7.6, "base": "auditado", "valor_accion_usd": 115, "mos_pct": 33, "central": true},
+      {"wacc_pct": 7.6, "base": "en curso", "valor_accion_usd": 117, "mos_pct": 34, "central": true},
+      {"wacc_pct": 8.2, "base": "auditado", "valor_accion_usd": 99, "mos_pct": 22},
+      {"wacc_pct": 8.2, "base": "en curso", "valor_accion_usd": 101, "mos_pct": 24}
+    ],
+    "valor_por_accion_auditado_usd": 115,
+    "valor_por_accion_encurso_usd": 117,
+    "mos_auditado_pct": 33.1,
+    "mos_encurso_pct": 34.2,
+    "nota": "Cada valor por accion es la media de las dos versiones de owner earnings (mantenimiento y capex total) en esa base. Sin decimales: el piso de resolucion no los soporta.",
+    "peso_del_valor_terminal_pct": 68,
+    "multiplo_terminal_implicito": 21.3,
+    "advertencia_terminal": "El DCF a g=3% y WACC 7,6% esta firmando implicitamente un multiplo terminal de 21,3x owner earnings desapalancados a perpetuidad. Eso es un multiplo de compounder para un negocio cuyo ROIIC ex-margen es 9,4%, es decir 180pb sobre su coste de capital. Es exactamente lo que M* se niega a firmar.",
+    "escenario_cosecha": {
+      "supuesto": "El eslabon debil se materializa: el margen de explotacion, hoy en maximos de la serie (37,5% en FY2025; margen bruto del segmento EEUU 83,5% frente a 80,2% en 2023), se normaliza 300 puntos basicos, y el crecimiento se queda en 1,5%.",
+      "impacto_fcf_usd_mm": -235,
+      "valor_accion_usd": 88,
+      "mos_pct": 13,
+      "lectura": "En el escenario que el propio mecanismo senala como el modo de fallo, el margen de seguridad a 76,92 USD es del 13%, no del 34%."
+    }
+  },
+
+  "piso_de_resolucion": {
+    "medicion_propia_del_ruido": "NO REALIZADA en esta sesion. Se aplica el rango por defecto de mas/menos 25%.",
+    "valor_auditado_rango_usd": "86 - 144",
+    "valor_encurso_rango_usd": "88 - 146",
+    "mos_encurso_dentro_del_ruido_pct": "12% a 47%",
+    "veredicto_del_piso": "EL UMBRAL DEL 40% CAE DENTRO DE LA BANDA DE RUIDO. Con el piso de resolucion aplicado, el MoS del ejercicio en curso va del 12% al 47%. No se puede afirmar que Zoetis supere el 40% exigido; solo que PUEDE que lo supere. Segun la disciplina de la casa, esto NO ES DECIDIBLE POR MoS a este precio, y cuando no es decidible por MoS manda la disciplina de multiplo, que dice NO. Ninguna cifra de valor intrinseco se reporta con decimales."
+  },
+
+  "m_estrella_p_estrella": {
+    "m_estrella": 16.0,
+    "unidad": "veces owner earnings de MANTENIMIENTO (base equity, ejercicio en curso = 2.400 M USD)",
+    "decidido_en_frio": true,
+    "sin_barra_de_error": "Correcto: M* no es una estimacion, es un compromiso. No lleva rango.",
+    "razonamiento": "El suelo teorico de un negocio sin crecimiento es 1/WACC = 13,2x. El techo teorico con g=3% y WACC 7,6% es ~21x. Me quedo en 16x, mas cerca del suelo que del techo, por tres razones documentadas y ninguna sentimental: (1) el ROIIC ex-margen de 9,4% supera al WACC en solo 180pb, asi que el crecimiento aporta poquisimo valor por encima de la perpetuidad plana; (2) el poder de precio -el supuesto que sostiene TODO el mecanismo- acaba de fallar su primera prueba real, con el segmento EEUU (54,5% de los ingresos) cayendo 8% y animal de compania 11% en Q1-2026; (3) el equipo gestor se endeudo 2.500 M para recomprar acciones a 136 USD de media justo antes de un desplome a 77 USD, lo que rebaja lo que estoy dispuesto a pagar por su juicio sobre reinversion. 16x implica una rentabilidad inicial de owner earnings del 6,25%; con la g defendible de 3% eso da ~9,3% de retorno total antes de cambios de multiplo. Retribucion adecuada para un MENOS_5_6, no generosa.",
+    "valor_a_m_estrella_usd": 91.6,
+    "mos_actual_a_m_estrella_pct": 16.0,
+    "p_estrella_usd": 55.0,
+    "p_estrella_derivacion": "91,60 x (1 - 0,40) = 54,96 -> 55 USD. Es el precio al que se abre posicion. A 76,92 USD faltan 28,5 puntos de caida.",
+    "distancia_a_p_estrella_pct": -28.5,
+    "multiplo_actual_sobre_oe_mantenimiento_encurso": 13.4,
+    "contradiccion_central": "El DCF con g defendible dice MoS 33-34%. La disciplina de multiplo dice MoS 16%. La diferencia entera es el valor terminal: el DCF capitaliza a perpetuidad, a 21,3x, un margen que la propia empresa acaba de reconocer bajo presion. Cuando el motor y la disciplina se contradicen, manda la disciplina, porque el multiplo terminal no es un dato de mercado sino un supuesto -- y en este caso es el supuesto EXACTO que el eslabon debil pone en duda. Nota adicional: ni siquiera el DCF alcanza el 40% exigido en el escenario central."
+  },
+
+  "tir_esperada": {
+    "rango": "+5% a +12% anual a 10 anos",
+    "central_pct": 9.5,
+    "descomposicion": [
+      {"escenario": "BAJO - cosecha: margen -300pb, g 0-1%, sin re-rating", "yield_pct": 6.5, "g_pct": 0.5, "cambio_multiplo_pct": -2.0, "tir_pct": 5.0},
+      {"escenario": "CENTRAL - g defendible 3%, margen se mantiene, multiplo estable en 13-14x", "yield_pct": 7.2, "g_pct": 3.0, "cambio_multiplo_pct": -0.7, "tir_pct": 9.5},
+      {"escenario": "ALTO - la guia se cumple por arriba, g 4%, re-rating a 17x", "yield_pct": 7.2, "g_pct": 4.0, "cambio_multiplo_pct": 1.3, "tir_pct": 12.5}
+    ],
+    "lectura": "Comprar Zoetis HOY a 76,92 USD no es una apuesta a perdida: la TIR central de ~9,5% anual a diez anos es razonable en terminos absolutos. Pero es apenas 190pb por encima del WACC de 7,6%, y en el escenario que el propio mecanismo senala como modo de fallo cae al 5%. No hay asimetria 3:1. Un MoS del 16-34% con una TIR de 5-12% describe una empresa correctamente valorada con riesgo a la baja no compensado, no una ganga."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "SOSPECHA",
+    "no_es_SI_porque": "El flujo de caja NO se ha roto y es verificable: CFO FY2025 de 2.904 M sobre 2.673 M de beneficio neto (conversion 108,7%); el ejercicio en curso apunta a ~2.880 M. El balance esta sano (deuda neta/EBITDA 1,76x, sin vencimientos en 2026). El segmento Internacional crecio 10% organico en Q1-2026 y el ganado creció 7% en EEUU y 14% organico fuera. La cartera de I+D declara mas de 12 candidatos con potencial de blockbuster. No hay evidencia primaria de rotura del negocio.",
+    "no_es_NO_porque": "El eslabon debil registro su fallo justo ahora y en el 54,5% del negocio. Q1-2026: EEUU -8% reportado y organico; animal de compania en EEUU -11%. Y las causas que la propia empresa enumera son ESTRUCTURALES, no ciclicas: presion competitiva en dermatologia y en Simparica Trio, competencia GENERICA en Convenia y Cerenia, y caida de Librela. La empresa lo describe literalmente como mayor sensibilidad al precio de los duenos de mascotas y caida de visitas veterinarias en los productos premium innovadores 'donde Zoetis lidera'. Un foso cuya renta depende de vender innovacion premium a un cliente que acaba de descubrir que puede decir que no, con el margen en maximos historicos, es la definicion de cosecha.",
+    "la_trampa_especifica": "Zoetis es barata en multiplo (12,0x beneficio guiado, 13,4x owner earnings) y NO es barata en descuento sobre valor defendible (16% sobre M*). Esa combinacion es el patron clasico del angel caido: el multiplo comprime primero, los beneficios comprimen despues, y el inversor que compro por el multiplo se encuentra con que el denominador tambien cedia. Lo que impide declarar SI es que la caja aun no ha cedido; lo que impide declarar NO es que la razon por la que podria ceder ya esta impresa en un filing.",
+    "el_dato_que_desempata": "El Q2-2026, que se publica a comienzos de agosto de 2026. Concretamente: si el segmento EEUU de animal de compania encadena un segundo trimestre de caida de doble digito, la elasticidad no fue un bache y el mecanismo cambio de signo. Si rebota a plano o positivo, el Q1 fue un trimestre y el descuento actual es real."
+  },
+
+  "huecos_declarados": [
+    "La reinversion congelada del 22,5% de ventas NO se reconcilia con el filing FY2025: capex 6,6% + I+D 7,4% = 14,0% de ventas, sin adquisiciones materiales en el ejercicio. La g defendible se derivo de la reinversion reconciliada con el filing (2,3%-3,0%), no de la cifra congelada (que daria 5,9%). Si la cifra del 22,5% procede de una definicion mas amplia (M&A plurianual, parte de SG&A de construccion de marca), habria que reconstruirla antes de usarla.",
+    "La beta observable va de 0,75 (stockanalysis.com) a 0,96 (Investing.com), un rango que mueve el WACC 63pb y el valor por accion de 99 a 130 USD. NO se calculo una beta propia por regresion en esta sesion.",
+    "El FY2025 auditado (10-K) es ANTERIOR al Alineamiento del Ejercicio Fiscal; la guia 2026 esta sobre base REEXPRESADA. Las cifras anuales reexpresadas de 2024 y 2025 estan publicadas por la empresa en su web de relaciones con inversores, no en un filing, y NO se han verificado en esta sesion. Las dos bases del expediente no son perfectamente homogeneas.",
+    "El valor de mercado de la deuda usado (8.842 M) es el valor razonable Nivel 2 al 31-dic-2025 del 10-K. Con la accion a la mitad desde entonces, el convertible al 0,250% de 2029 (2.000 M) valdra menos hoy; el EV real es probablemente 200-400 M inferior y el MoS ligeramente superior. Se opto por la cifra auditada.",
+    "El capex de mantenimiento se aproximo por la D&A del estado de flujos (487 M), que incluye 128 M de amortizacion de intangibles comprados que NO exige reposicion en caja. Si se usa solo la depreciacion de PP&E (359 M), los owner earnings de mantenimiento suben ~128 M (de 2.417 a 2.545) y el valor por accion sube ~5 USD. Se opto por la version conservadora.",
+    "El CFO y el capex del ejercicio EN CURSO son INFERENCIA: solo hay un trimestre real publicado (Q1-2026) mas la guia revisada. El Q2-2026 se publica a comienzos de agosto de 2026 y puede mover materialmente la base en curso.",
+    "Las primas de riesgo pais de 'Otros emergentes', 'Otros desarrollados', Chile, Italia, Francia y Espana son estimaciones dentro del rango de la tabla Damodaran, no lecturas linea a linea. Efecto maximo sobre el WACC: +-9pb.",
+    "NO se midio el ruido propio de la valoracion. Se aplico el rango por defecto de +-25%, y con el, el umbral del 40% cae dentro de la banda.",
+    "La adquisicion del negocio de genomica animal de Neogen (160 M USD, anunciada el 2-mar-2026, cierre previsto en el 2S-2026, ~90 M de ventas) NO esta incorporada a la deuda neta. Es inmaterial: 0,5% de la capitalizacion.",
+    "El dato del mecanismo de '-3% de volumen con +2% de precio en franquicias clave' procede de la fase de calidad congelada; en esta sesion se verifico el hecho equivalente en el filing y la nota de prensa (EEUU -8%, animal de compania EEUU -11% en Q1-2026), pero NO la descomposicion precio/volumen linea a linea, que vive en la transcripcion de la conferencia y no se leyo."
+  ],
+
+  "veredicto_del_valorador": {
+    "veredicto": "NO COMPRAR",
+    "resumen": "El precio esta en 76,92 y P* en 55: falta un 28,5% de caida. El MoS del DCF (33-34%) NO alcanza el 40% exigido ni siquiera en el escenario central y favorable; con la disciplina de multiplo cae al 16%, y en el escenario de cosecha que el propio mecanismo describe, al 13%.",
+    "el_hallazgo": "El mercado esta pagando por owner earnings que DECRECEN un 1,6% anual durante diez anos. Eso es agresivo a la baja frente a una guia de la propia empresa de +2 a +5% organico. Pero la respuesta correcta a un mercado agresivo no es comprar automaticamente: es preguntar si el mercado sabe algo. Aqui lo sabe: el 54,5% del negocio cayo un 8% en el ultimo trimestre publicado, el animal de compania estadounidense un 11%, y las causas que enumera la propia empresa (genericos en Convenia y Cerenia, competencia en dermatologia y parasiticidas, caida de Librela, sensibilidad al precio del dueno de mascota) son estructurales.",
+    "por_que_no_se_reclasifica": "La calidad esta congelada en MENOS_5_6 con 2 puertas pasadas. Nada de lo hallado en el precio la toca. La tentacion de decir 'a 12 veces beneficios y con esta cartera esto en realidad es ULTRA' es exactamente la contradiccion madre buscando otra puerta: el precio no es un argumento de calidad. No se abre.",
+    "la_pregunta_que_decide": "Se responde con UN dato, no con una valoracion: el segmento EEUU de animal de compania en el Q2-2026 (publicacion prevista a comienzos de agosto de 2026). Si encadena un segundo trimestre de caida de doble digito, el eslabon debil se convirtio en el mecanismo y ni siquiera P*=55 es suficiente. Si rebota a plano o mejor, el Q1 fue un trimestre y el descuento merece revisarse.",
+    "orden_operativa": "Vigilar. Limite de entrada 55,00 USD. Revision obligatoria al publicarse el 10-Q del Q2-2026, con la descomposicion precio/volumen del filing y de la transcripcion, no de prensa. No se abre posicion por encima de P* bajo ninguna narrativa de 'esta demasiado barata para ignorarla'."
+  },
+
+  "fuentes_primarias_usadas": [
+    "SEC EDGAR - Zoetis Inc., CIK 0001555280, indice de presentaciones (data.sec.gov/submissions/CIK0001555280.json), consultado 2026-07-28.",
+    "10-K FY2025, accession 0001555280-26-000011, presentado 2026-02-12 (ejercicio cerrado 2025-12-31). Usados: R3 cuenta de resultados, R51 ingresos por area geografica, R54 ingresos por producto, R70 calendario de deuda a largo plazo, R71 valor razonable de la deuda, R72 vencimientos y pagos de intereses, R73 gasto financiero, R103 cuenta de resultados por segmentos.",
+    "10-Q Q1-2026, accession 0001555280-26-000024, presentado 2026-05-07 (trimestre cerrado 2026-03-31). Usados: R2 cuenta de resultados, R5 balance, R8 estado de flujos de caja, R15 otros ingresos y deducciones.",
+    "8-K de 2026-05-07, accession 0001555280-26-000021, exhibit99q12026.htm: nota de prensa de resultados del Q1-2026 con la guia revisada para 2026 y el detalle por segmentos.",
+    "8-K de 2026-05-20, accession 0001555280-26-000026: declaracion del dividendo del 3T-2026 de 0,53 USD por accion.",
+    "8-K de 2026-05-22, accession 0001555280-26-000029: resultados de la junta general y retiro de consejera.",
+    "XBRL companyfacts de la SEC (data.sec.gov/api/xbrl/companyfacts/CIK0001555280.json), consultado 2026-07-28, para las series historicas de ingresos, resultado, D&A, capex, CFO, recompras, dividendos, acciones y deuda.",
+    "Snapshot de precio IBKR, contract_id 121665622 (NYSE), consultado 2026-07-28: last 76,92 con is_close=true, rango de 52 semanas 71,48-158,43, variacion en el ano -38,34%, rentabilidad por dividendo 2,72%.",
+    "Aswath Damodaran, Country Default Spreads and Risk Premiums (pages.stern.nyu.edu), consultado 2026-07-28: ERP de mercado maduro y primas de riesgo pais.",
+    "Trading Economics y FRED, rendimiento del bono del Tesoro de EEUU a 10 anos, 4,64% al 27-jul-2026 (INFERENCIA: fuente secundaria de mercado, no filing).",
+    "stockanalysis.com (beta 5 anos 0,75) e Investing.com (beta 5 anos 0,96), consultados 2026-07-28. INFERENCIA: agregadores, usados solo para la beta y como cruce del precio.",
+    "Nota de prensa de Zoetis del 2026-03-02 sobre la adquisicion del negocio de genomica animal de Neogen por 160 M USD (via prensa especializada; INFERENCIA, no verificada contra el 8-K)."
+  ]
+}

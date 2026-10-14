@@ -1,0 +1,332 @@
+{
+  "ticker": "VRSK",
+  "empresa": "Verisk Analytics, Inc.",
+  "cik": "0001442145",
+  "fecha_analisis": "2026-07-27",
+  "divisa": "USD",
+  "bolsa": "NASDAQ (emisor domestico, presenta 10-K/10-Q ante la SEC; sin ADS, accion ordinaria directa)",
+
+  "etiqueta_calidad_congelada": "PRESUNTA (3 puertas pasadas)",
+  "nota_congelacion": "La etiqueta esta CONGELADA y no se toca. Este documento es SOLO el eje precio. En ningun punto se reclasifica la calidad hacia arriba. Se deja constancia expresa: al abrir el precio aparecio la tentacion de leer el 56% de margen EBITDA y el 80% de ingresos prepagados como prueba de ULTRA. Es la contradiccion madre buscando otra puerta. Rechazada.",
+  "especie_g2": {
+    "reinversion_pct_ventas": 19.3,
+    "roiic_bruto_pct": 10.6,
+    "roiic_ex_margen_pct": 10.3
+  },
+  "mecanismo_heredado": "Verisk cobra un peaje de precio creciente sobre un deposito de datos de siniestralidad que le regalan sus propios clientes y que los reguladores estatales incrustan en los formularios de poliza, un recurso acorralado que ningun capital rival puede comprar, monetizado con 70% de margen bruto y mas del 80% de ingresos prepagados, y devuelto a los accionistas en recompras (6.877,6 M en seis anios, 2,6x toda su reinversion) hasta dejar el patrimonio en negativo: una maquina de caja, no una reinvertidora. ESLABON MAS DEBIL: no se puede probar que el crecimiento sea sano porque la empresa no publica NINGUNA medida de volumen.",
+  "posicion_en_cartera": "NO. Aplica el umbral de ABRIR: MoS exigido 25%.",
+
+  "precio": {
+    "precio_usd": 207.20,
+    "fecha_hora": "2026-07-27 20:36:02 UTC (16:36 ET, sesion abierta)",
+    "fuente": "IBKR MCP get_price_snapshot, contract_id 69293559, campo 'last'. HECHO (dato vivo).",
+    "comprobacion_cruzada": "stockanalysis.com/stocks/vrsk/statistics 2026-07-27 da 206,66 USD. Diferencia 0,3%, dentro del ruido intradiario. INFERENCIA.",
+    "maximo_52s_usd": 299.07,
+    "minimo_52s_usd": 155.94,
+    "caida_desde_maximo_52s_pct": -30.7,
+    "variacion_ytd_pct": -7.14,
+    "volatilidad_historica_anual_pct": 40.8,
+    "nota": "La accion ha recorrido 299 -> 156 -> 207 en doce meses. No es una cotizada tranquila; el mercado ha reprecificado el negocio a la baja de forma violenta y solo lo ha recuperado a medias."
+  },
+
+  "acciones": {
+    "acciones_en_circulacion_mm": 131.021840,
+    "fecha_recuento": "2026-04-24",
+    "fuente": "10-Q Q1 2026 (acc. 0001437749-26-013729), portada, 'Entity Common Stock, Shares Outstanding'. HECHO.",
+    "acciones_31dic2025_mm": 138.397709,
+    "acciones_diluidas_medias_q1_2026_mm": 135.222570,
+    "advertencia_asr": "El ASR de 1.500 M USD de febrero 2026 NO esta liquidado. Entrega inicial 6.986.302 acciones a 182,50 USD (85% del importe). La liquidacion final se espera en Q3 2026 y puede entregar ~0,9 M de acciones adicionales a Verisk, o -en circunstancias limitadas- obligar a Verisk a entregar acciones o efectivo. El recuento definitivo NO esta fijado. HECHO (10-Q Q1 2026, Nota 8).",
+    "advertencia_ads": "No aplica. VRSK es accion ordinaria de emisor domestico, no ADS."
+  },
+
+  "capitalizacion_y_ev_usd_mm": {
+    "capitalizacion_usd_mm": 27147.7,
+    "calculo_capitalizacion": "131,021840 M acciones x 207,20 USD",
+    "deuda_total_usd_mm": 4475.6,
+    "efectivo_usd_mm": 524.5,
+    "deuda_neta_usd_mm": 3951.1,
+    "fecha_balance": "2026-03-31",
+    "fuente_deuda": "10-Q Q1 2026, balance consolidado y Nota 7 Debt: deuda corto plazo 258,4 + deuda largo plazo 4.217,2 = 4.475,6; efectivo 524,5. HECHO.",
+    "ev_usd_mm": 31098.8,
+    "deuda_a_valor_de_mercado": "Se usa valor contable. Justificacion: el unico dato de valor razonable del filing es a 31-dic-2025 (senior notes valor razonable 4.670,6 vs contable 4.715,4 = 99,1%). La diferencia es 0,9%, muy por debajo del ruido de la valoracion. HECHO (10-K FY2025, Nota 7 Fair Value Measurements).",
+    "patrimonio_neto_contable_usd_mm": -1166.9,
+    "nota_patrimonio": "Patrimonio NEGATIVO de -1.166,9 M a 31-mar-2026, tras un trimestre en el que se recompraron 1.401,8 M de acciones financiados con deuda. A 31-dic-2025 el patrimonio aun era +309,8 M. El deficit no es contable-cosmetico: es el resultado de 12.132,0 M de autocartera acumulada."
+  },
+
+  "candado_b_wacc_de_mercado": {
+    "declaracion": "El WACC sale del mercado. NO se hereda de ningun tier de calidad. Candado B respetado.",
+    "tasa_libre_riesgo": {
+      "valor_pct": 4.65,
+      "instrumento": "Bono del Tesoro de EEUU a 10 anios (moneda funcional USD)",
+      "fecha": "2026-07-27",
+      "fuente": "U.S. Department of the Treasury, Daily Treasury Par Yield Curve Rates, descarga CSV directa. HECHO.",
+      "contexto_curva": "1M 3,80 | 2A 4,31 | 5A 4,40 | 10A 4,65 | 30A 5,12. Curva con pendiente positiva."
+    },
+    "prima_riesgo_mercado": {
+      "valor_pct": 4.23,
+      "descripcion": "Implied Equity Risk Premium (FCFE) de mercado maduro",
+      "fecha_tabla": "enero 2026",
+      "fuente": "Aswath Damodaran, NYU Stern, 'Historical Implied Equity Risk Premiums' (pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histimpl.html). HECHO."
+    },
+    "prima_pais": {
+      "valor_pct": 0.35,
+      "metodo": "Ponderada por geografia del riesgo de ACTIVO (donde estan los ingresos), no por domicilio fiscal.",
+      "desglose_ingresos_fy2025": {
+        "EEUU_usd_mm": 2522.3,
+        "EEUU_pct": 82.1,
+        "ReinoUnido_usd_mm": 250.1,
+        "ReinoUnido_pct": 8.1,
+        "otros_usd_mm": 300.3,
+        "otros_pct": 9.8,
+        "fuente": "10-K FY2025, Nota 6 Revenues - Disaggregated Revenues. HECHO."
+      },
+      "calculo": "0,821 x 0,23% (EEUU) + 0,081 x 0,78% (Reino Unido) + 0,098 x ~1,0% (otros, mezcla desarrollada) = 0,35%",
+      "fuente_tabla": "Damodaran, 'Country Default Spreads and Risk Premiums', ultima actualizacion 5-ene-2026: EEUU CRP 0,23% / ERP 4,46%; Reino Unido CRP 0,78% / ERP 5,01%. HECHO."
+    },
+    "beta": {
+      "beta_central": 0.70,
+      "fuente_beta": "Beta 5 anios mensual 0,69 (Yahoo Finance via stockanalysis.com, consultado 2026-07-27) — INFERENCIA por ser fuente secundaria. Corroborado con calculo propio: 0,644 sobre 60 cierres mensuales VRSK vs SPY desde 2021-07 hasta 2026-07, datos IBKR — HECHO en cuanto a los precios, INFERENCIA en cuanto al estimador.",
+      "rango_usado": "0,64 - 1,00",
+      "ADVERTENCIA_DE_RESOLUCION": "La beta de VRSK NO es un parametro medible con la fiabilidad que esta valoracion exige. Calculo propio: correlacion con el SPY 0,41 a 5 anios (R2 = 0,17), 0,22 a 3 anios (R2 = 0,05) y 0,03 a 2 anios (beta 2 anios = 0,05). Volatilidad total anualizada de VRSK 24,7% frente a 15,9% del SPY: la accion es MAS volatil que el mercado y aun asi la beta sale por debajo de 1, porque el 83% de su varianza es idiosincratica. Una beta de 0,70 dice 'defensiva'; los hechos dicen 'desacoplada, y desacoplada a la baja'. Esto NO es un detalle tecnico: es el input dominante de todo el expediente y el que hace que el signo del margen de seguridad cambie."
+    },
+    "coste_deuda": {
+      "coste_deuda_pct": 4.9,
+      "metodo": "Cupon medio ponderado del stock real de senior notes a 31-mar-2026, derivado del filing.",
+      "detalle_cupones_principal_usd_mm": {
+        "4,125% venc. 2029": 600,
+        "4,450% venc. 2031": 500,
+        "5,750% venc. 2033": 500,
+        "5,250% venc. 2034": 600,
+        "5,250% venc. 2035": 700,
+        "5,125% venc. 2036": 500,
+        "5,500% venc. 2045": 350,
+        "3,625% venc. 2050": 500,
+        "total_principal": 4250
+      },
+      "calculo": "Media ponderada = 4,871%. Redondeado a 4,9%.",
+      "comprobacion_marginal": "La emision mas reciente (26-feb-2026) salio al 4,450% a 5 anios y 5,125% a 10 anios. El coste marginal real de hoy coincide con el medio. HECHO.",
+      "comprobacion_de_caja": "Intereses pagados FY2025 = 150,3 M sobre deuda media (3.061,1 + 4.737,2)/2 = 3.899,2 M -> 3,85%. Cifra mas baja porque 1.500 M se emitieron en agosto de 2025 y solo devengaron parte del anio. Se descarta como estimador del coste corriente.",
+      "fuente": "10-Q Q1 2026 Nota 7 Debt y 10-K FY2025 Nota 15 Debt. HECHO."
+    },
+    "tasa_impositiva": {
+      "valor_pct": 24.0,
+      "justificacion": "Tipo efectivo FY2025 = 263,0/1.171,3 = 22,5% (HECHO, 10-K). Guia FY2026 de la empresa: 23,0%-26,0% (HECHO, nota de prensa Q1 2026). Se usa 24% como punto medio operativo."
+    },
+    "ponderacion": {
+      "peso_equity_pct": 87.3,
+      "peso_deuda_pct": 12.7,
+      "nota": "A valor de mercado: 27.147,7 de equity contra 3.951,1 de deuda neta sobre EV de 31.098,8."
+    },
+    "wacc_pct": 7.33,
+    "wacc_rango": "7,1% - 8,5%",
+    "detalle_rango": {
+      "beta_0_64": {"ke_pct": 7.58, "wacc_pct": 7.09},
+      "beta_0_70_central": {"ke_pct": 7.86, "wacc_pct": 7.33},
+      "beta_1_00": {"ke_pct": 9.23, "wacc_pct": 8.53}
+    },
+    "lectura_honesta_del_wacc": "Un coste de capital propio del 7,86% para una accion que acaba de perder la mitad de su valor por razones que nada tienen que ver con el mercado es una cifra que sale del modelo, no del riesgo real. La respeto porque el candado B obliga a sacarla del mercado y no de un juicio de calidad, pero NO la trato como precisa. Todo el expediente se reporta a dos WACC: 7,33% y 8,53%. La diferencia entre ambos invierte el signo del margen de seguridad, y ese hecho es el resultado mas importante de este documento."
+  },
+
+  "owner_earnings": {
+    "definiciones": {
+      "a_mantenimiento": "Flujo de caja operativo menos SOLO el capex de mantenimiento, aproximado por la depreciacion de activos fijos. El exceso de capex sobre depreciacion es inversion discrecional y no se resta.",
+      "b_capex_total": "Flujo de caja operativo menos TODO el capex. Flujo de caja libre puro."
+    },
+    "HALLAZGO_ESTRUCTURAL": "En Verisk las dos versiones se cruzan: el capex (244,1) es MENOR que la depreciacion (259,2). No hay inversion discrecional que proteger. La prueba de las dos versiones -disenada para no penalizar a una reinvertidora por reinvertir, la diferencia entre Amazon 2005 y Coca-Cola 1998- devuelve el veredicto contrario: Verisk gasta en activos fijos MENOS de lo que amortiza. Es un Coca-Cola 1998 por construccion, y confirma el mecanismo congelado (maquina de caja, no reinvertidora) desde el lado del flujo, sin tocar la etiqueta.",
+
+    "base_1_ultimo_auditado_fy2025": {
+      "periodo": "1-ene-2025 a 31-dic-2025",
+      "fuente": "10-K FY2025, accession 0001437749-26-004452, presentado 2026-02-18. Estados consolidados de flujos de efectivo (R9) y de operaciones (R4). HECHO.",
+      "flujo_caja_operativo_usd_mm": 1436.0,
+      "capex_usd_mm": 244.1,
+      "depreciacion_activos_fijos_usd_mm": 259.2,
+      "amortizacion_intangibles_usd_mm": 67.5,
+      "oe_mantenimiento_usd_mm": 1176.8,
+      "oe_capex_total_usd_mm": 1191.9,
+      "memo_sbc_usd_mm": 54.2,
+      "memo_adquisiciones_usd_mm": 184.8,
+      "advertencia_de_calidad_del_flujo": "El CFO FY2025 salto de 1.144,0 a 1.436,0 (+25,5%) mientras el beneficio neto CAIA de 958,2 a 908,3. La causa no es operativa: (i) el circulante aporto +36,1 M en 2025 frente a -83,2 M en 2024, un viento de cola de ~119 M; (ii) los impuestos pagados en caja bajaron de 287,7 a 218,0 M, otros ~70 M. Normalizado, el FCF FY2025 esta mas cerca de 1.060 M que de 1.192 M. INFERENCIA, derivada de partidas del propio estado de flujos."
+    },
+
+    "base_2_ejercicio_en_curso_fy2026_anualizado": {
+      "periodo": "1-ene-2026 a 31-dic-2026",
+      "metodo": "Q1 2026 publicado (real) + guia de la empresa reafirmada el 29-abr-2026 para el resto del anio. Q2 2026 aun NO presentado a fecha de este analisis.",
+      "q1_2026_real": {
+        "ingresos_usd_mm": 782.6,
+        "cfo_usd_mm": 390.4,
+        "capex_usd_mm": 64.0,
+        "fcf_usd_mm": 326.4,
+        "fuente": "10-Q Q1 2026. HECHO."
+      },
+      "guia_empresa_fy2026": {
+        "ingresos_usd_mm": "3.190 - 3.240 (medio 3.215)",
+        "ebitda_ajustado_usd_mm": "1.790 - 1.830 (medio 1.810)",
+        "margen_ebitda_ajustado_pct": "56,0 - 56,5",
+        "bpa_ajustado_diluido_usd": "7,45 - 7,75 (medio 7,60)",
+        "tipo_impositivo_pct": "23,0 - 26,0",
+        "capex_usd_mm": "260 - 280 (medio 270)",
+        "depreciacion_activos_fijos_usd_mm": "270 - 290 (medio 280)",
+        "amortizacion_intangibles_usd_mm": 60,
+        "gasto_financiero_usd_mm": "190 - 200 (medio 195)",
+        "dividendo_por_accion_usd": 2.00,
+        "fuente": "Nota de prensa de resultados Q1 2026, Exhibit 99.1 del 8-K de 29-abr-2026 (acc. 0001437749-26-013728), seccion 'Full Year 2026 Outlook'. HECHO.",
+        "advertencia": "La empresa NO guia flujo de caja operativo. Guia EBITDA ajustado y BPA ajustado. TODO el CFO de la base en curso es construccion mia."
+      },
+      "cfo_estimado_usd_mm": 1410.0,
+      "construccion_del_cfo": "Beneficio neto GAAP estimado 963 (= EBITDA 1.810 - D&A fijos 280 - amort. intangibles 60 - intereses 195, x (1-24,5%)) + D&A 340 + SBC ~75 + impuestos diferidos y otros no monetarios ~30 + circulante ~0. Cuadre cruzado: 963 + 45 (amort. intangibles neta de impuestos) = 1.008, contra los ~1.000 M que implica el BPA ajustado de 7,60 sobre ~131,5 M de acciones. Consistente. INFERENCIA.",
+      "capex_usd_mm": 270.0,
+      "depreciacion_activos_fijos_usd_mm": 280.0,
+      "oe_mantenimiento_usd_mm": 1130.0,
+      "oe_capex_total_usd_mm": 1140.0,
+      "rango_razonable_oe": "1.100 - 1.200 M"
+    },
+
+    "distancia_entre_bases": {
+      "oe_capex_total_aud_vs_encurso_pct": -4.4,
+      "lectura": "El flujo de caja libre BAJA un 4,4% en 2026 mientras los ingresos suben un 4,6%. Esto es informacion sobre el momento del ciclo, no ruido. Las cuatro causas son identificables y todas apuntan a lo mismo: (1) el gasto financiero pasa de 170,9 a ~195 M porque la empresa endeudo el balance para recomprar acciones -intereses pagados en Q1 2026: 60,0 M contra 10,4 M en Q1 2025, casi seis veces; (2) el tipo impositivo sube de 22,5% a ~24,5%; (3) el capex sube de 244 a 270 M; (4) no se repite el viento de cola de circulante e impuestos de 2025. El FCF POR ACCION sigue subiendo, pero no porque el negocio genere mas caja: porque hay un 5,6% menos de acciones. Es aritmetica de tesoreria, no crecimiento.",
+      "confirmacion_del_eslabon_debil": "Q1 2026, palabras de la propia empresa: el crecimiento organico a divisa constante fue del 4,7%, y en Underwriting (5,3%) se atribuye 'principalmente a subidas de precio derivadas de mejoras continuas en nuestras soluciones de formularios, reglas y costes de siniestro'. En Claims (3,4%) se reconoce que el avance quedo 'compensado por descensos modestos en nuestras soluciones de propiedad y restauracion' -es decir, la unica linea con lectura de unidades disponible sigue encogiendose. La CFO afirmo que espera que el crecimiento 'vuelva a niveles consistentes con nuestros objetivos a largo plazo', lo que es un reconocimiento de que hoy esta POR DEBAJO de ellos. El eslabon debil congelado no solo sigue vivo: se ha tensado."
+    }
+  },
+
+  "dcf_inverso": {
+    "planteamiento": "Que crecimiento a 10 anios, con terminal del 3%, justifica exactamente el EV de hoy (31.098,8 M) al WACC calculado. Se descuentan flujos DESAPALANCADOS (owner earnings + intereses pagados netos de impuestos) contra el EV, para no mezclar flujo despues de intereses con un descuento al WACC.",
+    "flujos_base_desapalancados_usd_mm": {
+      "auditado_capex_total": 1306.1,
+      "auditado_mantenimiento": 1291.0,
+      "encurso_capex_total": 1287.2,
+      "encurso_mantenimiento": 1277.2
+    },
+    "resultados": {
+      "wacc_central_7_33_pct": {
+        "g_implicita_auditado_capex_total_pct": 3.01,
+        "g_implicita_auditado_mantenimiento_pct": 3.15,
+        "g_implicita_encurso_capex_total_pct": 3.19,
+        "g_implicita_encurso_mantenimiento_pct": 3.29
+      },
+      "wacc_alto_8_53_pct": {
+        "g_implicita_auditado_capex_total_pct": 6.09,
+        "g_implicita_auditado_mantenimiento_pct": 6.24,
+        "g_implicita_encurso_capex_total_pct": 6.27,
+        "g_implicita_encurso_mantenimiento_pct": 6.37
+      }
+    },
+    "lectura": "Al WACC central de 7,33% el mercado esta pidiendo apenas un 3% de crecimiento a diez anios -practicamente inflacion-, lo que a primera vista parece una barra bajisima para un peaje regulatorio. Al WACC de 8,53% la barra sube a ~6,2%, que es exactamente la tasa base historica del negocio (ingresos 2023-2026e: +6,2% anual compuesto; EBIT: +9,1%). Traducido: el precio de hoy NO exige nada extraordinario, pero tampoco regala nada. Y la diferencia entre 'barra bajisima' y 'barra justa' NO es un hallazgo sobre Verisk: es enteramente el artefacto de una beta con R2 de 0,17. El DCF inverso, aqui, no discrimina."
+  },
+
+  "g_defendible": {
+    "valor_pct": 6.02,
+    "formula": "g = tasa de reinversion x ROIIC EX-MARGEN (ex-margen, no bruto: usar el bruto asumiria que la expansion de margen se repite)",
+    "calculo": {
+      "reinversion_pct_ventas_congelado": 19.3,
+      "ventas_fy2025_usd_mm": 3072.7,
+      "reinversion_usd_mm": 593.0,
+      "nopat_fy2025_usd_mm": 1014.6,
+      "nota_nopat": "EBIT 1.343,9 x (1 - 24,5%)",
+      "tasa_reinversion_sobre_nopat_pct": 58.4,
+      "roiic_ex_margen_pct": 10.3,
+      "g": "58,4% x 10,3% = 6,02%"
+    },
+    "contraste_con_la_tasa_base": "Ingresos 2.681,4 (2023) -> 2.881,7 -> 3.072,7 -> 3.215 (2026e): +6,2% anual compuesto. EBIT 1.131,7 -> 1.470e: +9,1% anual. La g defendible de 6,0% esta en linea con la tasa base de ingresos y por debajo de la de EBIT. NO es una g heroica.",
+    "PERO_LA_ADVERTENCIA_QUE_IMPORTA": "Esa g de 6,0% solo existe si se PAGA la reinversion que la produce. Y de los 593,0 M de reinversion, solo 244,1 M son capex (ya restado en los owner earnings). Los otros 184,8 M identificables son adquisiciones, que NO estan restadas en ninguna de las dos versiones de owner earnings. Aplicar g = 6,0% al owner earnings sin restar el M&A es cobrar el crecimiento sin pagarlo. Por eso el caso que defiendo resta las adquisiciones.",
+    "hueco_de_reconciliacion": "Capex (244,1) + M&A (184,8) = 428,9 M = 14,0% de ventas. El dato congelado dice 19,3%. Quedan 5,3 puntos porcentuales (~163 M) que NO puedo reconciliar contra el estado de flujos del 10-K. Si esos 163 M no son gasto real, la g defendible cae hacia 4,4%; si lo son y estan dentro del gasto operativo, ya estan restados del CFO y la g de 6,0% es correcta pero la base de flujo esta bien medida. Declarado como hueco, no rellenado."
+  },
+
+  "valor_intrinseco": {
+    "metodo": "DCF a 10 anios con g defendible de 6,02%, terminal 3%, descontado al WACC, menos deuda neta de 3.951,1 M, dividido entre 131,02 M de acciones.",
+    "caso_que_defiendo": "Flujo desapalancado DESPUES de restar las adquisiciones, porque la g de 6% las exige. Auditado: OE 1.191,9 - M&A 184,8 = 1.007,1 (+ intereses netos de impuestos) = 1.121,3. En curso: OE 1.140,0 - M&A medio de 3 anios 97,2 = 1.042,8 (+ intereses) = 1.190,1.",
+
+    "valor_por_accion_auditado_usd": 230,
+    "valor_por_accion_encurso_usd": 246,
+    "piso_de_resolucion": "Sin medicion propia del ruido de la valoracion se aplica una banda de mas/menos 25%. Auditado: 172 - 287 USD. En curso: 184 - 307 USD. NADA de decimales: el valor intrinseco de VRSK es 'algo entre 170 y 310 dolares', y el precio de hoy (207,20) esta DENTRO de las dos bandas.",
+
+    "tabla_completa_por_caso": [
+      {"base": "auditado, capex total, sin restar M&A", "wacc_pct": 7.33, "valor_accion_usd": 273, "mos_pct": 24.0},
+      {"base": "auditado, capex total, sin restar M&A", "wacc_pct": 8.53, "valor_accion_usd": 206, "mos_pct": -0.6},
+      {"base": "auditado, mantenimiento, sin restar M&A", "wacc_pct": 7.33, "valor_accion_usd": 269, "mos_pct": 23.1},
+      {"base": "auditado, mantenimiento, sin restar M&A", "wacc_pct": 8.53, "valor_accion_usd": 203, "mos_pct": -1.9},
+      {"base": "en curso, capex total, sin restar M&A", "wacc_pct": 7.33, "valor_accion_usd": 268, "mos_pct": 22.8},
+      {"base": "en curso, capex total, sin restar M&A", "wacc_pct": 8.53, "valor_accion_usd": 203, "mos_pct": -2.3},
+      {"base": "en curso, mantenimiento, sin restar M&A", "wacc_pct": 7.33, "valor_accion_usd": 266, "mos_pct": 22.1},
+      {"base": "en curso, mantenimiento, sin restar M&A", "wacc_pct": 8.53, "valor_accion_usd": 201, "mos_pct": -3.2},
+      {"base": "AUDITADO COHERENTE (tras M&A) <- el que defiendo", "wacc_pct": 7.33, "valor_accion_usd": 230, "mos_pct": 9.9},
+      {"base": "AUDITADO COHERENTE (tras M&A)", "wacc_pct": 8.53, "valor_accion_usd": 173, "mos_pct": -20.1},
+      {"base": "EN CURSO COHERENTE (tras M&A) <- el que defiendo", "wacc_pct": 7.33, "valor_accion_usd": 246, "mos_pct": 15.7},
+      {"base": "EN CURSO COHERENTE (tras M&A)", "wacc_pct": 8.53, "valor_accion_usd": 185, "mos_pct": -12.0}
+    ],
+    "hallazgo_central": "De los doce casos, NINGUNO alcanza el 25% exigido. El mejor -24,0%- requiere simultaneamente el WACC mas bajo defendible Y no pagar las adquisiciones que generan el crecimiento que se esta capitalizando. Es decir: el unico camino al 25% pasa por dos generosidades a la vez."
+  },
+
+  "margen_de_seguridad": {
+    "mos_exigido_pct": 25,
+    "razon_del_umbral": "Etiqueta PRESUNTA + empresa NO en cartera -> aplica el umbral de ABRIR: 25%.",
+    "mos_auditado_pct": 9.9,
+    "mos_encurso_pct": 15.7,
+    "mos_al_wacc_alto_auditado_pct": -20.1,
+    "mos_al_wacc_alto_encurso_pct": -12.0,
+    "veredicto_del_eje_precio": "NO ABRIR. El margen de seguridad no existe con la resolucion que tengo. En el mejor caso defendible es 15,7%, diez puntos por debajo del umbral; en el caso simetricamente defendible es -12%. El MoS de VRSK hoy es indistinguible de cero."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 20,
+    "definicion": "20 veces owner earnings (version capex total, base en curso). Decidido en frio, sin barra de error, porque no es una estimacion sino un compromiso.",
+    "razonamiento_del_multiplo": "20x es un rendimiento del 5% sobre owner earnings para un negocio que: (i) crece a un digito medio y desacelerando por debajo de su propio objetivo declarado; (ii) no puede demostrar que ese crecimiento sea volumen y no solo precio, porque no publica ninguna medida de unidades; (iii) tiene su unica linea con lectura de unidades en contraccion; (iv) acaba de sustituir crecimiento inorganico por recompra financiada con deuda tras fallarle una adquisicion que ahora esta en juicio. NO se sube de 20x por el margen del 56% ni por el 80% de ingresos prepagados: esos son los argumentos de la etiqueta congelada, y la etiqueta es PRESUNTA. El multiplo lo fija la calidad de la EVIDENCIA, no el WACC. Se rechaza expresamente el multiplo implicito de ~28x que saldria de aplicar Gordon con el Ke del CAPM: ese Ke tiene un R2 de 0,17 y no merece gobernar un compromiso.",
+    "owner_earnings_por_accion_encurso_usd": 8.70,
+    "valor_a_m_estrella_usd": 174.0,
+    "p_estrella_usd": 130.5,
+    "calculo_p_estrella": "174,0 x (1 - 25%) = 130,5 USD",
+    "distancia_al_precio_actual_pct": -37.0,
+    "referencia_alternativa": "Si en lugar del M* se usa el valor del DCF central (230-246 USD), el precio con el 25% de MoS seria 172-185 USD. Se reporta el par: P* disciplinado = 130,5; P* segun DCF central = 172-185. En ambos casos el precio de hoy (207,20) esta por encima. La banda de entrada honesta esta entre 130 y 185 USD, y hoy no estamos en ella.",
+    "multiplo_pagado_hoy": "207,20 / 8,70 = 23,8x owner earnings (capex total). 26,0x si se restan las adquisiciones. 27,3x el BPA ajustado guiado de 7,60."
+  },
+
+  "tir_esperada": {
+    "rango": "+2% a +11% anual a 10 anios; centro +6% a +8%",
+    "metodo": "Compra a 207,20; owner earnings crecen a g; el 100% del owner earnings se devuelve (29% dividendo, 71% recompra, replicando el reparto real FY2025: 251,1 M de dividendo y 624,0 M de recompra); salida al multiplo de referencia en el anio 10.",
+    "escenarios": [
+      {"g_pct": 2, "salida_x": 18, "tir_pct": 3.6},
+      {"g_pct": 2, "salida_x": 20, "tir_pct": 4.6},
+      {"g_pct": 4, "salida_x": 20, "tir_pct": 7.0},
+      {"g_pct": 6, "salida_x": 20, "tir_pct": 9.6},
+      {"g_pct": 6, "salida_x": 24, "tir_pct": 11.4},
+      {"g_pct": 2, "salida_x": 18, "tir_pct": 2.3, "nota": "base tras restar M&A"},
+      {"g_pct": 6, "salida_x": 20, "tir_pct": 8.1, "nota": "base tras restar M&A"}
+    ],
+    "lectura": "El escenario central -crecer al 4-6% y salir a 20x- devuelve entre el 6% y el 9,5% anual. Eso no es un desastre; es sencillamente el rendimiento de un bono corporativo largo con riesgo de accion encima. Para justificar una compra habria que creerse el extremo superior (6% de crecimiento sostenido durante diez anios Y una salida a 24x), y el extremo superior es precisamente lo que el eslabon debil congelado impide verificar."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "SOSPECHA",
+    "motivo": "No es un SI porque no se cumple la premisa clasica: no hay un MoS grande sobre un motor roto -aqui sencillamente NO HAY MoS, y el motor no esta roto sino tensado. Pero tampoco es un NO, por cinco hechos que apuntan en la misma direccion: (1) el crecimiento organico a divisa constante de Q1 2026 fue 4,7%, por debajo del objetivo a largo plazo de la propia empresa, que la CFO reconocio implicitamente al decir que espera que 'vuelva' a esos niveles; (2) la unica linea con lectura de unidades disponible -propiedad y restauracion, el territorio de Xactimate- sigue en descenso, confirmado por la empresa en Q1 2026; (3) la empresa firmo una adquisicion de 2.000+ M (AccuLynx, 29-jul-2025), emitio 1.500 M de deuda para pagarla, la termino el 26-dic-2025, tuvo que redimir esa deuda al 101% con 33,9 M de perdida, y esta en juicio en el Delaware Court of Chancery -vista fijada del 23 al 26 de junio de 2026- con un pasivo que la propia empresa declara imposible de estimar; (4) acto seguido, en febrero de 2026, redirigio el mismo balance a un ASR de 1.500 M a 182,50 USD por accion, financiado con credito revolving y prestamo a plazo, llevando el patrimonio neto a -1.166,9 M; (5) el flujo de caja libre BAJA en 2026 pese a crecer los ingresos, y el FCF por accion solo sube por la reduccion del recuento. La silueta es la de una empresa que ha dejado de encontrar donde reinvertir y compra sus propias acciones con deuda mientras el precio del peaje sigue subiendo. Puede acabar bien -el deposito de datos no se lo quita nadie- pero es exactamente la forma que tiene una trampa de valor antes de serlo.",
+    "que_lo_convertiria_en_SI": "Que el crecimiento organico a divisa constante caiga por debajo del 4% dos trimestres seguidos, o que la linea de Claims entre en descenso reportado, o que el juicio de AccuLynx cristalice un pasivo material.",
+    "que_lo_convertiria_en_NO": "Que la empresa empiece a publicar UNA sola medida de volumen -numero de polizas cubiertas, formularios procesados, siniestros estimados- que permita separar precio de unidades. Es el mismo dato que falta para que G3 se otorgue. No es casualidad."
+  },
+
+  "monologo_final": "El precio de Verisk no es el problema de Verisk. Con el WACC que sale del mercado -7,33%- la accion vale unos 230 dolares sobre el ultimo auditado y unos 246 sobre el ejercicio en curso, contra 207,20 de cotizacion: un margen de seguridad del 10% al 16%, cuando el umbral para abrir una PRESUNTA es del 25%. No llega, y no llega por un margen comodo. Pero ese calculo descansa sobre una beta de 0,70 cuya correlacion con el mercado es 0,41 a cinco anios y 0,03 a dos. Subiendo la beta a 1,00 -algo que la volatilidad total del 24,7% anual respalda mejor que la beta medida-, el WACC pasa a 8,53%, el valor cae a 173-185 dolares y el margen de seguridad se vuelve NEGATIVO en un 12% a un 20%. El signo cambia. Ese es el resultado: no puedo resolver el margen de seguridad de VRSK con la precision que el umbral exige, y cuando el ruido es mayor que la senal, la respuesta no es un numero, es un NO. Debajo del ruido hay ademas dos hechos que empujan en la misma direccion. El primero es que la prueba de los dos owner earnings -la que existe para no castigar a una reinvertidora por reinvertir- se cruza aqui: el capex (244,1 M) es MENOR que la depreciacion (259,2 M). No hay inversion discrecional que proteger. Verisk no es Amazon 2005 y el flujo lo confirma sin ambiguedad. El segundo es que el flujo de caja libre BAJA un 4,4% en 2026 mientras los ingresos suben un 4,6%, porque la empresa endeudo el balance -intereses pagados en Q1: 60,0 M contra 10,4 M el anio anterior- para ejecutar un ASR de 1.500 M tras fallarle la compra de AccuLynx, que ahora esta en juicio. El beneficio por accion sube; la caja del negocio no. Y todo eso ocurre mientras el crecimiento organico a divisa constante cae al 4,7%, por debajo del objetivo de la propia empresa, con la unica linea que permite leer unidades -propiedad y restauracion- en descenso reconocido. El eslabon debil que dejo la etiqueta en PRESUNTA no se ha aflojado: se ha tensado. La banda de entrada honesta esta entre 130 dolares -20x owner earnings menos el 25% de MoS, el numero disciplinado- y 185 dolares -el DCF central menos el 25%-. A 207,20 no estamos en ella. NO ABRIR. Vigilar a 185, y solo si para entonces la empresa ha publicado una medida de volumen o el crecimiento organico ha vuelto por encima del 6%.",
+
+  "veredicto": "NO ABRIR",
+
+  "huecos_declarados": [
+    "La beta no es medible con la fiabilidad que esta valoracion exige. Calculo propio sobre 60 cierres mensuales VRSK vs SPY: beta 0,644 pero correlacion 0,41 (R2 = 0,17). A 3 anios beta 0,359 (R2 = 0,05); a 2 anios beta 0,049. La volatilidad total anualizada de VRSK es 24,7% frente al 15,9% del SPY. El input dominante del expediente es el menos fiable, y es el que invierte el signo del MoS.",
+    "La empresa NO guia flujo de caja operativo, solo EBITDA ajustado y BPA ajustado. Los 1.410 M de CFO FY2026 son construccion mia a partir de la guia, no un dato. Rango razonable de owner earnings en curso: 1.100 - 1.200 M.",
+    "Q2 2026 aun no presentado a 27-jul-2026. La base 'en curso' descansa sobre UN trimestre real (Q1) mas la guia. El 10-Q de Q2 puede moverla.",
+    "El dato congelado de reinversion (19,3% de ventas) no lo puedo reconciliar contra el estado de flujos: capex 244,1 + M&A 184,8 = 428,9 M = 14,0% de ventas. Faltan 5,3 puntos porcentuales (~163 M) sin identificar. Si esa reinversion no existe, la g defendible cae de 6,02% hacia ~4,4%.",
+    "Litigio AccuLynx (Delaware Court of Chancery, vista 23-26 junio 2026): la propia empresa declara que no es posible estimar razonablemente el pasivo. No hay ninguna provision reflejada en esta valoracion. Pasivo contingente no cuantificado, y a fecha de este analisis no he localizado el resultado de la vista.",
+    "La liquidacion final del ASR de febrero 2026 se espera en Q3 2026: el recuento definitivo de acciones NO esta fijado. Uso 131,021840 M (portada del 10-Q, 24-abr-2026). Podrian entregarse ~0,9 M de acciones adicionales a Verisk, o -bajo circunstancias limitadas- Verisk podria tener que entregar acciones o efectivo.",
+    "CERO medidas de volumen publicadas. Es el eslabon debil congelado y sigue intacto: no puedo separar precio de unidades en ninguna de las dos lineas de negocio. Todo juicio sobre la sostenibilidad del crecimiento es, por construccion, no verificable con documento primario.",
+    "Deuda valorada a coste contable. El unico valor razonable disponible en filings es a 31-dic-2025 (4.670,6 vs 4.715,4 contable = 99,1%). No hay dato a 31-mar-2026 ni a fecha de hoy.",
+    "El coste de la deuda (4,9%) es el cupon medio ponderado del stock de notas, no una TIR de mercado de los bonos de Verisk. La emision de 26-feb-2026 (4,450% a 5 anios, 5,125% a 10 anios) lo corrobora como coste marginal, pero no es lo mismo que un yield de mercado observado hoy.",
+    "La prima pais para 'otros paises' (9,8% de los ingresos) se estima en ~1,0% sin desglose pais a pais: el 10-K solo separa EEUU, Reino Unido y 'otros'."
+  ],
+
+  "fuentes": [
+    {"tipo": "filing primario", "doc": "10-K FY2025, Verisk Analytics Inc., CIK 0001442145, accession 0001437749-26-004452, presentado 2026-02-18", "url": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926004452/", "uso": "Estados de operaciones (R4), balance (R2), flujos de efectivo (R9), Nota 6 Revenues desglose geografico (R59), Nota 7 Fair Value deuda (R62), Nota 15 Debt (R89), Nota 22 Subsequent Events (R36)"},
+    {"tipo": "filing primario", "doc": "10-Q Q1 2026, accession 0001437749-26-013729, presentado 2026-04-29", "url": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926013729/vrsk20260331_10q.htm", "uso": "Balance y flujos a 31-mar-2026, recuento de acciones, Nota 7 Debt, Nota 8 Stockholders' Deficit (ASR), litigio AccuLynx"},
+    {"tipo": "filing primario", "doc": "8-K de 2026-04-29, Exhibit 99.1 (nota de prensa de resultados Q1 2026), accession 0001437749-26-013728", "url": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926013728/ex_926417.htm", "uso": "Guia completa FY2026, crecimiento organico a divisa constante, comentarios de CEO y CFO"},
+    {"tipo": "dato de mercado vivo", "doc": "IBKR MCP get_price_snapshot, contract_id 69293559 (VRSK NASDAQ), 2026-07-27 20:36:02 UTC", "uso": "Precio 207,20 USD, maximo/minimo 52 semanas, volatilidad historica"},
+    {"tipo": "dato de mercado vivo", "doc": "IBKR MCP get_price_history, 60 cierres mensuales VRSK y SPY, 2021-07 a 2026-07", "uso": "Calculo propio de beta, correlacion y volatilidad"},
+    {"tipo": "oficial", "doc": "U.S. Department of the Treasury, Daily Treasury Par Yield Curve Rates, fila 07/27/2026", "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/", "uso": "Tasa libre de riesgo 10 anios = 4,65%"},
+    {"tipo": "academico", "doc": "Aswath Damodaran, NYU Stern, Historical Implied Equity Risk Premiums (enero 2026)", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histimpl.html", "uso": "Prima de riesgo de mercado maduro 4,23%"},
+    {"tipo": "academico", "doc": "Aswath Damodaran, NYU Stern, Country Default Spreads and Risk Premiums, actualizado 2026-01-05", "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/ctryprem.html", "uso": "Prima pais EEUU 0,23%, Reino Unido 0,78%"},
+    {"tipo": "agregador - SOLO comprobacion cruzada", "doc": "stockanalysis.com/stocks/vrsk/statistics, consultado 2026-07-27", "uso": "Beta 5 anios 0,69 y precio 206,66 como contraste. INFERENCIA: no sostiene por si solo ninguna cifra del veredicto."}
+  ]
+}

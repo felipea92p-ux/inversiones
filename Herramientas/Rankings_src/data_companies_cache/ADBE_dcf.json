@@ -1,0 +1,42 @@
+{
+ "ticker": "ADBE",
+ "name": "Adobe Inc.",
+ "currency": "USD",
+ "current_price": 191.56,
+ "wacc_pct": 10.5,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.27,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base (FY2025) = FCF reportado $9.85B − 100% SBC $1.942B = $7.91B. Margen owner FCF = 7.91/23.77 = 33.3% (vs margen FCF reportado 41.4%). SBC tratada como gasto en efectivo al 100%. Owner FCF/accion base ≈ $19.90; precio actual paga solo ~9.6x owner FCF.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 11,
+  "rev_cagr_y6_10_pct": 5.5,
+  "fcf_margin_terminal_pct": 35,
+  "terminal_g_pct": 3,
+  "shares_diluted_b": 0.3975,
+  "net_debt_usd_b": 1.02,
+  "sbc_treatment": "100% de SBC restada del FCF reportado como gasto en efectivo (owner earnings). SBC FY2025 = $1,942M = 8.2% ingresos / 19.7% del FCF. No se asume re-emision compensatoria mas alla de esto; las recompras (~$8-9B/anio) absorben la dilucion y reducen acciones netas, conservadoramente no modelada."
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 340,
+   "prob": 0.375,
+   "note": "Crecimiento ingresos 8% CAGR anios 1-5 declinando a 4% anios 6-10; margen owner FCF cae a 32% por presion IA/competencia; g terminal 2.5%. Refleja disrupcion parcial por IA generativa (Canva, modelos texto-a-imagen) pero NO colapso: Adobe retiene base empresarial/Document Cloud y monetiza Firefly. Aun asi VI ~$340 (+77% vs $191.56). Peso valor terminal 51%."
+  },
+  "base": {
+   "iv_per_share": 458,
+   "prob": 0.475,
+   "note": "Crecimiento 11% CAGR anios 1-5 (consistente con +13% YoY Q2'26, ARR +12.5%, guia FY26 ~12%) declinando a 5.5%; margen owner FCF se estabiliza en 35% (expansion operativa parcialmente compensada por SBC); g terminal 3.0%. Track record de doble digito sostenido + IA-first ARR triplicando >$500M. VI ~$458 (+139%). Peso valor terminal 56%."
+  },
+  "optimista": {
+   "iv_per_share": 605,
+   "prob": 0.15,
+   "note": "Crecimiento 13.5% CAGR anios 1-5 declinando a 7%; margen owner FCF 38% por apalancamiento operativo y monetizacion AI premium; g terminal 3.5% (foso ancho ecosistema creativo/documento). Ejecucion perfecta de la transicion AI como acelerador y no amenaza. VI ~$605 (+216%). Peso valor terminal 61%."
+  }
+ },
+ "sanity_check": "VI ponderada por probabilidad ≈ $436/accion (+128% vs $191.56). Triangulacion: (1) Rendimiento al accionista — Adobe NO paga dividendo; retorna capital via recompra (~$8-9B/anio sobre autorizacion ~$25B), rendimiento de recompra ~11% del market cap a precio actual; owner FCF yield 10.3% y FCF reportado yield 12.9% — extraordinariamente alto para un compounder de software con +13% de crecimiento. (2) Multiplo: fwd P/E 7.9x vs media 5A 32.4x (descuento -76%); precio paga solo 9.6x owner FCF cuando el base implica ~23x justificado. (3) ND/EBITDA 0.1x, balance solido. Incluso el escenario conservador (340) deja margen de seguridad amplio. La clasificacion 'fear_rotation' es coherente: la caida -73% desde ATH refleja miedo a disrupcion IA, no deterioro fundamental (resultados record, guia elevada).",
+ "method_notes": "DCF de OWNER EARNINGS a 10 anios. Base owner FCF FY2025 = FCF $9.85B − 100% SBC $1.942B = $7.91B (margen 33.3%). Fase 1 (anios 1-5): CAGR ingresos explicito por escenario aplicado sobre ingresos FY2025 $23.77B. Fase 2 (anios 6-10): CAGR declina linealmente hacia normalizacion. Margen owner FCF transita linealmente desde 33.3% al margen terminal del escenario hacia el anio 10. Valor terminal por Gordon con g=2.5-3.5% segun foso (foso ancho: ecosistema creativo/Document Cloud, costes de cambio altos). Descuento al WACC = Rf 4.3% (UST 10Y) + ERP 5.0% × beta 1.27 (software apps) ≈ 10.65%, redondeado a 10.5%; sin ajuste geopolitico (empresa US). VI/accion = (PV flujos + PV valor terminal − deuda neta $1.02B) / 0.3975B acciones diluidas. Conservadoramente NO se modela reduccion de acciones por recompras (sesgo a la baja en VI). Precio y acciones de fuente estimada/agregador; FCF, SBC, ingresos y deuda neta VERIFICADOS via SEC EDGAR XBRL (CIK 0000796343)."
+}

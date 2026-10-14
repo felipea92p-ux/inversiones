@@ -1,0 +1,173 @@
+{
+  "ticker": "ADBE",
+  "empresa": "Adobe Inc. (CIK 0000796343)",
+  "fecha_juicio": "2026-07-28",
+  "candado_B_prima": "RESPETADO. No se ha consultado cotizacion, capitalizacion ni multiplo. La unica cifra de precio que aparece en los filings leidos (precio medio de recompra, valor de mercado de no-afiliados) NO se ha usado en ningun juicio; se cita unicamente el importe en dolares de las recompras como uso de caja.",
+  "orden_ejecutado": "G5 -> G1 -> G3 -> G4 -> G2 -> G6",
+  "fuentes_primarias": [
+    "10-K FY2025 (accession 0000796343-26-000003, presentado 2026-01-15, ejercicio cerrado 2025-11-28) — https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+    "10-K FY2022 (accession 0000796343-23-000007) — gasto de publicidad FY2020-FY2022",
+    "10-K FY2016 (accession 0000796343-17-000031) — verificacion de ausencia de metrica unitaria",
+    "10-K FY2009 (accession 0000796343-10-000003) — recesion, reestructuracion, Omniture, elasticidad cualitativa",
+    "XBRL companyfacts CIK0000796343 (us-gaap) — series anuales 2007-2025"
+  ],
+  "ventana": {
+    "historia_auditada_disponible": "FY1995-FY2025 en EDGAR; series XBRL utilizables desde FY2007",
+    "ventana_de_juicio_G5_G1_G2_G6": "FY2016-FY2025 (10 ejercicios)",
+    "ventana_ampliada_reportada": "FY2013-FY2025 (13 ejercicios) para exponer el hoyo de la transicion",
+    "justificacion_del_corte": "FY2013-FY2015 contiene una discontinuidad de base contable, no un ciclo: la conversion de licencia perpetua (reconocimiento en un punto) a suscripcion (reconocimiento lineal). Los ingresos diferidos pasaron de 619 M$ (FY2012) a 1.485 M$ (FY2015) mientras los ingresos GAAP CAIAN. La serie no es homogenea a traves de ese corte. Se declara y se reporta el hoyo igualmente."
+  },
+
+  "G5_CAJA": {
+    "veredicto": "SI_REFORZADO",
+    "cifra_titular": "FY2025: FCF (CFO-capex) = 9.852 M$ = 41,4% de ventas; FCF - BN = +2.722 M$. CFO > BN en los 19 ejercicios auditados disponibles (2007-2025), sin una sola excepcion.",
+    "tabla": {
+      "columnas": ["ejercicio", "CFO_M$", "capex_M$", "FCF_M$", "FCF_pct_ventas", "BN_M$", "FCF_menos_BN_M$", "FCF_post_SBC_M$", "SBC_M$", "Sloan_pct"],
+      "filas": [
+        [2016, 2200, 204, 1996, 34.1, 1169, 827, 1647, 349, -8.4],
+        [2017, 2913, 178, 2735, 37.5, 1694, 1041, 2281, 454, -9.0],
+        [2018, 4029, 267, 3762, 41.7, 2591, 1171, 3152, 610, -8.6],
+        [2019, 4422, 395, 4027, 36.0, 2951, 1076, 3239, 788, -7.4],
+        [2020, 5727, 419, 5308, 41.2, 5260, 48, 4399, 909, -2.1],
+        [2021, 7230, 348, 6882, 43.6, 4822, 2060, 5813, 1069, -9.3],
+        [2022, 7838, 442, 7396, 42.0, 4756, 2640, 5956, 1440, -11.3],
+        [2023, 7302, 360, 6942, 35.8, 5428, 1514, 5224, 1718, -6.6],
+        [2024, 8056, 183, 7873, 36.6, 5560, 2313, 6040, 1833, -8.3],
+        [2025, 10031, 179, 9852, 41.4, 7130, 2722, 7910, 1942, -9.7]
+      ]
+    },
+    "signo_del_devengo": "CFO por encima del beneficio neto en 10/10 ejercicios de la ventana y en 19/19 desde FY2007. Motor estructural: los ingresos diferidos son cobro por adelantado (7.030 M$ al cierre de FY2025).",
+    "sloan": "Sloan = (BN - CFO)/activos medios: rango -2,1% (FY2020) a -11,3% (FY2022); FY2025 = -9,7%. Umbral +5%: no se acerca en ningun ejercicio. Devengo negativo sostenido = calidad de beneficio alta.",
+    "FCF_tras_SBC_completa": "Restando la SBC integra sin devolverla: FY2025 7.910 M$ = 33,3% de ventas; sigue por encima del beneficio neto (7.130 M$) en FY2021, FY2022, FY2024 y FY2025. Unica excepcion FY2023 (5.224 vs 5.428 M$, -204 M$). La SBC ha crecido de 349 M$ (FY2016) a 1.942 M$ (FY2025) = 8,2% de ventas; es la unica grieta real de esta puerta y se declara.",
+    "test_General_Electric": "NO se dispara. Desviacion tipica del crecimiento interanual FY2017-FY2025: beneficio neto 28,5 pp vs CFO 14,4 pp. El beneficio es DOS VECES mas volatil que el flujo de caja que lo produce — direccion sana. El delator de GE (beneficio alisado sobre un CFO erratico) exigiria lo contrario.",
+    "cita": "10-K FY2025, Consolidated Statements of Cash Flows via MD&A: 'Net cash provided by operating activities $ 10,031 $ 8,056 $ 7,302' (2025/2024/2023); Consolidated Statements of Income: 'Net income 7,130'; capex FY2025 179 M$ (XBRL PaymentsToAcquirePropertyPlantAndEquipment, 10-K FY2025); SBC FY2025 1.942 M$ (XBRL ShareBasedCompensation)."
+  },
+
+  "G1_ROIC": {
+    "veredicto": "SI",
+    "cifra_titular": "Ventana FY2016-FY2025: ROIC minimo 25,2% (FY2019), maximo 60,3% (FY2025). NOPAT/ventas minimo 20,4% (FY2016), maximo 29,3% (FY2025). Umbral 20% y 2xWACC(ref 10%)=20%: superado en los diez ejercicios.",
+    "metodo": "NOPAT = EBIT x (1 - 20%), tasa normalizada para neutralizar la transferencia intra-grupo de PI de FY2020 (tipo efectivo -26,0%) y los tipos anomalos de FY2018-FY2019 (7,3% y 7,9%). Capital invertido = fondos propios + deuda total - efectivo - inversiones a corto. Verificado por la identidad operativa: activos - efectivo - inv.CP - pasivos operativos no financieros = 11.238 M$ en FY2025, identico al calculo por el pasivo.",
+    "tabla": {
+      "columnas": ["ejercicio", "capital_invertido_M$", "NOPAT20_M$", "ROIC_pct", "NOPAT_sobre_ventas_pct"],
+      "filas": [
+        [2016, 4553, 1195, 25.3, 20.4],
+        [2017, 4521, 1734, 38.2, 23.8],
+        [2018, 10258, 2272, 30.7, 25.2],
+        [2019, 10491, 2614, 25.2, 23.4],
+        [2020, 11389, 3390, 31.0, 26.3],
+        [2021, 13122, 4642, 37.9, 29.4],
+        [2022, 12084, 4878, 38.7, 27.7],
+        [2023, 12310, 5320, 43.6, 27.4],
+        [2024, 11847, 5393, 44.6, 25.1],
+        [2025, 11238, 6965, 60.3, 29.3]
+      ]
+    },
+    "nota_FY2024": "El EBIT de FY2024 (6.741 M$) incluye la tarifa de ruptura de Figma de 1.000 M$ en gastos operativos. Excluyendola, ROIC FY2024 = 51,3% y NOPAT/ventas = 28,8%. Se reporta el dato SIN ajustar (mas conservador) y aun asi pasa.",
+    "higiene_de_denominador": "NO se activa. El capital invertido oscila entre 4.521 y 13.122 M$ con media 10.181 M$; el minimo (FY2017) es el 44% de la media, muy por encima del suelo del 20%, y nunca cruza cero. El ratio mide. Nota estructural: si se descontara el fondo de comercio (12.857 M$ en FY2025), el capital invertido seria NEGATIVO (-1.619 M$) con NOPAT de 6.965 M$ — es decir, el negocio organico es una pasada por construccion; el denominador positivo lo aportan integramente las adquisiciones pagadas (Omniture, Marketo, Magento, Workfront, Frame.io).",
+    "el_hoyo_declarado": "En la historia completa el minimo NO es 25,2% sino 6,9% (FY2014) y 7,0% (FY2013), con NOPAT/ventas de 8,0% y 8,3%. Causa documentada: la conversion a Creative Cloud. Contra-prueba de que fue artefacto de reconocimiento y no deterioro economico: (a) el CFO cayo solo -14% de FY2012 a FY2014 (1.500 -> 1.287 M$) mientras el beneficio neto caia -68% (833 -> 268 M$); (b) el ingreso diferido crecio +326 M$ en FY2014 solo, de modo que los pedidos (ingresos + variacion de diferido) de FY2014 fueron 4.473 M$ frente a 4.492 M$ en FY2012 — planos, no en caida; (c) el ROIC en base caja (FCF/capital medio) fue 23,8% en FY2014 y 19,9% en FY2013, nunca por debajo de ~20%. AUN ASI: con la reinversion ajustada por diferido el ROIC de FY2014 seguiria en ~12,3%, por debajo del 20%. Es decir, la puerta SOLO pasa si se acepta el corte de ventana en FY2016. Esta es la decision mas contestable del expediente y se declara como tal.",
+    "cita": "10-K FY2025, balance: 'Total stockholders equity 11,623'; 'Debt 6,210' (largo plazo) y 'Debt —' (corriente); 'Cash and cash equivalents $ 5,431'; 'Short-term investments 1,164'. Cuenta de resultados FY2025: 'Operating income 8,706' sobre 'Total revenue 23,769'. FY2019 (minimo de la ventana): EBIT 3.268 M$ / capital medio 10.375 M$ = 25,2% (XBRL OperatingIncomeLoss, 10-K FY2019 y FY2020)."
+  },
+
+  "G3_PRECIO": {
+    "veredicto": "NO_MEDIBLE",
+    "cifra_titular": "Adobe no publica NINGUNA magnitud fisica ni unitaria en ningun 10-K de la ventana. Verificado en los 10-K de FY2016, FY2022 y FY2025: no hay recuento de suscriptores, ni de asientos, ni de unidades licenciadas, ni de usuarios activos. Sin denominador de volumen, la elasticidad no se puede derivar.",
+    "por_que_ARR_no_sirve": "La unica metrica de gestion publicada es ARR (Total Adobe ARR 25.200 M$ +11,5% en FY2025; Digital Media ARR 19.200 M$ +11,5%) y RPO (22.520 M$ +13%). Ambas son medidas de INGRESO contratado, no de volumen. Dividir crecimiento de ingresos entre crecimiento de ARR da ~1,0 y no informa de precio/mix: es dividir ingreso entre ingreso.",
+    "unico_dato_de_elasticidad_en_filings": "10-K FY2009, MD&A de segmentos, sobre Creative Solutions: 'Also contributing to the decrease was an overall decline in the number of units licensed. Average unit selling prices have remained relatively consistent.' Es decir: en la unica ventana con datos de volumen, el volumen CAYO y el precio quedo PLANO. Eso no es poder de precio; es absorcion de un ciclo con precio congelado. Es un solo ejercicio, cualitativo, y hace 17 anios — no sostiene un SI ni un NO.",
+    "delator_Kraft_Heinz": "NO se puede evaluar por falta de la serie de volumen. Se deja constancia de la sombra: el margen operativo ha subido de 25,5% (FY2016) a 36,6% (FY2025) sin ninguna serie publicada de volumen que permita descartar cosecha del foso. El contraindicio duro es que el RPO crece +13% frente a ingresos +10,5%, lo que es incompatible con una base de clientes en contraccion — pero RPO no es volumen.",
+    "cita": "10-K FY2025, MD&A: 'Total Adobe ARR grew to $25.20 billion exiting fiscal 2025, representing 11.5% year-over-year growth'; 'Remaining performance obligations of $22.52 billion as of November 28, 2025 increased by 13% from $19.96 billion'. 10-K FY2009, Segment Information: 'an overall decline in the number of units licensed. Average unit selling prices have remained relatively consistent.'"
+  },
+
+  "G4_RECESION": {
+    "veredicto": "NO_PROBADA",
+    "cifra_titular": "La peor contraccion exogena atravesada por Adobe es FY2009: ingresos 2.945,9 M$ frente a 3.579,9 M$ en FY2008 = -17,7%. El peor segmento fue Knowledge Worker -23%; Creative Solutions -18%; Platform -22%. Ninguna magnitud alcanza el gatillo de -30% pico a valle.",
+    "por_que_no_probada": "El gatillo exige una contraccion severa de SECTOR (-30% pico a valle). Ni Adobe ni su mercado final llegaron ahi: 2001-2002 (ingresos -2,8% y -5,3%), 2009 (-17,7%), 2020 (ingresos +13,2%, ninguna contraccion), 2022-2023 (+11,5% y +10,2%). El precedente que fija el liston es ASML 2009 con ventas -46%; -17,7% esta a menos de la mitad de esa distancia.",
+    "el_episodio_FY2013_FY2015_no_cuenta": "La caida del beneficio operativo de 1.180 M$ (FY2012) a 413 M$ (FY2014) = -65% fue AUTOINFLIGIDA (conversion a suscripcion decidida por la direccion), no una contraccion del entorno. Una prueba de foso necesita un choque exogeno. Se registra como prueba de temple de la direccion, no como puerta 4.",
+    "lo_que_SI_hizo_en_FY2009_para_el_archivo": {
+      "aumento_de_capacidad": "Compro Omniture el 23-10-2009 por 1.582,7 M$ netos de caja adquirida = 53,7% de los ingresos de todo el ejercicio, en el trimestre del suelo del ciclo. Esa compra creo el segmento Digital Experience, que en FY2025 aporta 5.410 M$ de ingresos de suscripcion. Intensidad de I+D: subio de 18,5% (662,1/3.579,9) a 19,2% (565,1/2.945,9) sobre unas ventas que caian -17,7%. Forma identica al precedente ASML, magnitud muy inferior.",
+      "cicatriz_nombrada": [
+        "Balance — deuda: Adobe dispuso del 100% de su linea de credito para pagar Omniture. Deuda a largo plazo 350 M$ (FY2008) -> 1.000 M$ (FY2009). Cita: 'At November 27, 2009, our existing credit facility is $1.0 billion and we have borrowed against the entire amount.'",
+        "P&L — cargos de reestructuracion: 41,3 M$ en FY2009 (+29% sobre 32,1 M$ en FY2008), 1% de los ingresos; 560 puestos eliminados en el 4T de FY2008 y hasta 630 mas anunciados el 10-11-2009.",
+        "P&L — margen operativo: 28,7% (1.028,3/3.579,9) -> 23,4% (690,5/2.945,9), deterioro de 530 puntos basicos.",
+        "P&L — I+D en valor absoluto: 662,1 -> 565,1 M$, -14,6%. Adobe subio la INTENSIDAD pero recorto el GASTO. ASML sostuvo el gasto."
+      ],
+      "rivales_nombrados_reduciendo": "NO ACREDITADO CON DOCUMENTO PRIMARIO EN ESTE EXPEDIENTE. La puerta exige DOS rivales nombrados con su reduccion de capacidad documentada; no se ha localizado el filing primario de Autodesk ni de Corel en esta sesion. Como el gatillo de severidad ya falla, no se ha invertido en cerrar este hueco. Se declara el hueco en vez de rellenarlo."
+    },
+    "consecuencia": "Etiqueta maxima alcanzable = PRESUNTA. No es un fallo de la empresa: es que el examen nunca se le ha puesto.",
+    "cita": "10-K FY2009, Segment Information: 'Creative Solutions $ 1,702.1 (18)% $ 2,072.8 ... Total revenue $ 2,945.9 (18)% $ 3,579.9'; 'Restructuring Charges Fiscal 2009 ... Expenses $ 41.3 29 % $ 32.1'; 'At November 27, 2009, our existing credit facility is $1.0 billion and we have borrowed against the entire amount.'; flujo de inversion FY2009: 'net of cash acquired (1,582,669)'."
+  },
+
+  "G2_PISTA": {
+    "veredicto": "NO",
+    "cifra_titular": "Reinversion FY2021-FY2025 = 23.661 M$ sobre ventas de 98.074 M$ = 24,1% de VENTAS (umbral 25%). Ultimo ejercicio 20,8%. Solo FY2021 (36,3%, por la compra de Frame.io) supera el umbral.",
+    "definicion_usada": "Reinversion = capex + I+D + marca (publicidad, linea revelada en las notas) + adquisiciones netas de caja + variacion del circulante operativo.",
+    "tabla": {
+      "columnas": ["ejercicio", "capex", "I+D", "publicidad", "adquisiciones", "delta_circulante", "reinversion_M$", "pct_ventas"],
+      "filas": [
+        [2021, 348, 2540, 865, 2682, -707, 5728, 36.3],
+        [2022, 442, 2987, 1040, 126, -656, 3939, 22.4],
+        [2023, 360, 3473, 970, 0, -285, 4518, 23.3],
+        [2024, 183, 3944, 1040, 0, -631, 4536, 21.1],
+        [2025, 179, 4294, 1370, 17, -920, 4940, 20.8]
+      ]
+    },
+    "las_dos_tasas_separadas_no_confundir": {
+      "reinversion_sobre_VENTAS_umbral_de_la_puerta": "24,1% acumulado FY2021-FY2025; 20,8% en FY2025. NO alcanza el 25%.",
+      "reinversion_sobre_NOPAT_la_que_entra_en_g_igual_tasa_por_ROIIC": "23.661 / 27.198 = 87,0%. ADVERTENCIA METODOLOGICA: esta tasa esta inflada porque I+D y publicidad ya estan deducidos ANTES del NOPAT (se cuentan como inversion en el numerador de la reinversion y como gasto en el denominador). Con la identidad: g = 0,870 x 15,1% = 13,1%, frente al CAGR real del NOPAT FY2020-FY2025 de 15,5%. Reconcilia razonablemente."
+    },
+    "ROIIC": {
+      "delta_NOPAT_FY2020_a_FY2025": "3.575 M$ (de 3.390 a 6.965 M$, ambos a tipo normalizado 20%)",
+      "descomposicion": "Parte de VOLUMEN a margen constante = (23.769 - 12.868) x 26,34% = +2.871 M$ (80,3% de la mejora). Parte de EXPANSION DE MARGEN = 23.769 x (29,30% - 26,34%) = +704 M$ (19,7%).",
+      "roiic_bruto": "3.575 / 23.661 = 15,1% — pasa el 15% por 10 puntos basicos, con la piel de los dientes.",
+      "roiic_ex_margen": "2.871 / 23.661 = 12,1% — NO llega al 15%. La productividad limpia del capital incremental esta por debajo del umbral; una quinta parte del crecimiento del NOPAT vino de apalancamiento operativo, no de capital nuevo trabajando."
+    },
+    "que_hace_Adobe_con_la_caja_en_su_lugar": "Recompras: 11.281 M$ en FY2025 (frente a un FCF post-SBC de 7.910 M$), 9.500 M$ en FY2024, 4.400 M$ en FY2023. Acciones en circulacion 441 -> 413 M (-6,3% en un ejercicio). El exceso sobre el FCF se financio con deuda nueva (5.628 -> 6.210 M$). Autorizacion vigente de 25.000 M$ hasta el 14-03-2028. Esto no es un negocio con pista de reinversion: es un negocio que devuelve caja, y lo hace con agresividad creciente.",
+    "consecuencia": "ESPECIE = ULTRA-C (compounder de retorno de caja), no ULTRA-R. G2 no suspende a la empresa; la clasifica.",
+    "cita": "10-K FY2025: 'Research and development 4,294'; 'Advertising expenses for fiscal 2025, 2024 and 2023 were $ 1.37 billion, $ 1.04 billion and $ 970 million, respectively'; 10-K FY2022: 'Advertising expenses for fiscal 2022, 2021 and 2020 were $ 1.04 billion, $ 865 million and $ 592 million'; 'In March 2024, our Board of Directors granted authority to repurchase up to $25 billion in our common stock through March 14, 2028'; recompras FY2025 11.281 M$ (XBRL PaymentsForRepurchaseOfCommonStock)."
+  },
+
+  "G6_MECANISMO": {
+    "veredicto": "SI",
+    "poder_de_Helmer": "COSTES DE CAMBIO (switching costs) como poder primario, reforzado por ECONOMIAS DE RED via estandar de formato (PDF/ISO 32000, PSD, AI, INDD como moneda de intercambio entre diseniador, agencia, cliente e imprenta) y por MARCA (Photoshop convertido en verbo; canalizacion educativa de la profesion).",
+    "magnitud_en_la_unidad_propia": {
+      "unidad_elegida": "Compromiso contractual ya firmado y no ejecutado (RPO) — la unidad natural del coste de cambio es cuanto tiene el cliente ya comprometido antes de poder irse.",
+      "valor": "RPO = 22.520 M$ al 28-11-2025 = 0,95 veces los ingresos anuales completos (23.769 M$). Crece +13% interanual, MAS RAPIDO que los ingresos (+10,5%) — el compromiso se alarga, no se acorta.",
+      "corroboracion": "Ingreso diferido (ya cobrado) 7.030 M$ = 29,6% de las ventas anuales. Suscripcion = 96% de los ingresos de FY2025 (22.904 / 23.769), frente al 94% de FY2023. ARR total 25.200 M$ (+11,5%).",
+      "hueco_declarado": "Adobe NO publica tasa de abandono ni retencion neta de ingresos (NRR) en ningun 10-K. Esa seria la unidad ideal del coste de cambio. Se declara el hueco: el RPO es el mejor sustituto auditable, no el ideal."
+    },
+    "caducidad_estimada": "Por encima de 10 anios. Razon: el activo que ancla el poder no es el software sino el FORMATO. PDF es norma ISO 32000 escrita por Adobe; la base instalada de archivos PSD/AI/INDD acumulada durante tres decadas no se puede migrar sin perdida; y el canal educativo reproduce la dependencia por cohortes. Ninguno de esos tres tiene una fecha de expiracion visible a 10 anios.",
+    "busqueda_de_arranque_del_reloj_a_24_meses": {
+      "senales_de_que_el_reloj_YA_ARRANCO": [
+        "P&L FY2024, linea propia en gastos operativos: 'Acquisition termination fee 1,000'. Adobe pago 1.000 M$ por NO comprar Figma, tras haber acordado pagar 20.000 M$ por ella. Es la valoracion que la propia direccion puso a una amenaza en disenio de interfaz, un terreno donde Adobe XD fracaso. La caja salio en FY2025: 'Fiscal 2024 cash flows from operations were adversely impacted by payment of the $1 billion Figma termination fee.'",
+        "10-K FY2025, litigios: demanda colectiva de valores que alega que declaraciones publicas de Adobe 'related to competition from Figma and the adequacy of Adobe's existing offerings to counter harms Adobe may have faced due to Figma's growing market position were materially false and misleading'. Que un tribunal este examinando si Adobe minimizo una amenaza competitiva es, en si mismo, un dato sobre el reloj.",
+        "Adobe ha empezado a reportar 'AI-influenced ARR' como metrica: senal de que necesita demostrar monetizacion de IA generativa ante modelos que puentean el flujo de trabajo de edicion de pixeles.",
+        "Crecimiento en meseta: ingresos +11,5% (FY2022), +10,2% (FY2023), +10,8% (FY2024), +10,5% (FY2025). Cuatro anios sin aceleracion pese al mayor cambio tecnologico de su industria en 30 anios."
+      ],
+      "contra_indicios_duros": [
+        "RPO +13% > ingresos +10,5%: el compromiso contratado se alarga.",
+        "Margen NOPAT en maximo historico (29,3%) y ROIC en maximo historico (60,3%) en FY2025.",
+        "Mezcla de suscripcion subiendo (94% -> 96% en dos anios)."
+      ],
+      "conclusion_del_reloj": "El reloj esta arrancado pero no corriendo deprisa. Los indicadores blandos (litigio, tarifa de ruptura, meseta de crecimiento) apuntan a erosion; los duros (RPO, mezcla, margen) todavia no la registran. La puerta se otorga; el gate de falsificacion natural es el RPO: si el RPO crece por debajo de los ingresos dos ejercicios seguidos, esta puerta cae."
+    },
+    "cita": "10-K FY2025, MD&A: 'Remaining performance obligations of $22.52 billion as of November 28, 2025 increased by 13% from $19.96 billion as of November 29, 2024'; balance: 'Deferred revenue 6,905' (corriente) y 'Deferred revenue 125' (no corriente); cuenta de resultados FY2024: 'Acquisition termination fee — 1,000 —'; litigios: 'related to competition from Figma and the adequacy of Adobe's existing offerings to counter harms Adobe may have faced due to Figma's growing market position were materially false and misleading'."
+  },
+
+  "resolucion": {
+    "etiqueta": "PRESUNTA",
+    "puertas_pasadas": 5,
+    "desglose_del_recuento": "De las cinco que cuentan (G5, G1, G3, G4, G6): TRES afirmativas (G5 SI_REFORZADO, G1 SI, G6 SI), DOS que no son fallo pero tampoco prueba (G3 NO_MEDIBLE por ausencia de metrica unitaria publicada, G4 NO_PROBADA por no haber atravesado nunca una contraccion de -30%). CERO fallos. G2 = NO, que no suspende sino que fija la ESPECIE: C, no R.",
+    "por_que_no_ULTRA_C": "Porque G4 esta en NO_PROBADA y la regla impone techo PRESUNTA. Si Adobe atravesara manana una contraccion sectorial del -30% y saliera con el foso mas ancho, la etiqueta seria ULTRA-C sin tocar ninguna otra cifra.",
+    "confianza": "MEDIA",
+    "por_que_MEDIA_y_no_ALTA": "Porque la etiqueta NO es robusta a una sola decision: la ventana de G1. Con la ventana literal ('toda la historia auditada disponible') el minimo de ROIC es 6,9% (FY2014), G1 = NO, y la etiqueta cae a MUY_BUENA. He elegido FY2016-FY2025 con argumento explicito (discontinuidad de base contable, contra-prueba de caja), pero es una eleccion, no una lectura mecanica. Un juez igualmente honesto puede leerlo al reves. Sospecho que ahi esta el empate que me han pedido romper.",
+    "por_que_no_BAJA": "Porque cuatro de las seis puertas son practicamente indiscutibles: G5 es de las mas limpias que se pueden ver (CFO > BN 19 de 19, Sloan negativo siempre), G3 es NO_MEDIBLE por un hecho verificable y binario (Adobe no publica volumen), G2 es NO por un margen holgado (24,1% frente a 25%, y ex-margen 12,1% frente a 15%), y G4 es NO_PROBADA porque -17,7% no es -30%. La incertidumbre esta concentrada, no repartida.",
+    "puerta_mas_dudosa": "G1 ROIC, por la ventana.",
+    "si_tuviera_que_apostar": "PRESUNTA. Pero declaro que la empresa esta genuinamente en la frontera entre PRESUNTA y MUY_BUENA, y que la frontera no la marca la calidad del negocio sino una regla de ventana que la metodologia deja ambigua ('toda la historia disponible' contra 'minimo 5 ejercicios'). Eso es un hallazgo sobre la METODOLOGIA, no sobre Adobe."
+  },
+
+  "huecos_declarados": [
+    "Tasa de abandono / retencion neta de ingresos (NRR): no publicada en ningun 10-K. Es la unidad ideal de G6 y no existe.",
+    "Volumen / unidades / suscriptores: no publicados en ningun 10-K de la ventana. Bloquea G3 de forma estructural, no coyuntural.",
+    "Gasto de marca separado del comercial: solo se publica 'Advertising expenses' en notas (1.370 M$ en FY2025). El resto de los 6.488 M$ de ventas y marketing no se desglosa; se ha excluido de la reinversion por prudencia. Incluyendo TODO el gasto comercial la reinversion seria 46,2% de ventas y G2 pasaria — decision de criterio que se declara.",
+    "Rivales nombrados con reduccion de capacidad documentada en 2009 (Autodesk, Corel): no verificados con filing primario en esta sesion. No se ha cerrado porque el gatillo de severidad de G4 ya fallaba."
+  ]
+}

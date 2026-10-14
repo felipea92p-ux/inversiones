@@ -1,0 +1,59 @@
+{
+ "ticker": "7974.T",
+ "name": "Nintendo Co., Ltd.",
+ "rules": {
+  "R1": {
+   "score": 1.5,
+   "just": "Software scales (60M SW units guided, high-margin attach), but the model is hardware-cyclical and HW mix halved op margin 24.3%->15.6% in FY26, so not pure software operating leverage."
+  },
+  "R2": {
+   "score": 1,
+   "just": "Gaming is secularly growing, yet Nintendo's revenue swings violently around console cycles, evidenced by the FY27 -11.4% sales guide as Switch 2 normalizes."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Undisputed #1 in the hybrid/dedicated console niche with no comparable rival; Switch family 150M+ and Switch 2 at 19.86M units in launch year leave peers a category away."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Mario/Zelda/Pokemon IP plus first-party studios are an intangibles+brand moat that is effectively irreplicable over decades, anchoring software attach and pricing."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "+98.6% FY26 net-sales growth is 100% organic (Switch 2 launch), zero reliance on M&A."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Well diversified geographically (Americas/Europe/Japan/Other) with no single-customer concentration, but the franchise/platform concentration on one console ecosystem caps the score."
+  },
+  "R7": {
+   "score": 1,
+   "just": "ROIC 37.84% dwarfs WACC, but FCF/NI is only ~62% (FCF Y262.6bn vs NI Y424.0bn) this launch year on working-capital/inventory build, below the 80% bar."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Fortress balance sheet: ~Y2.22T net cash, zero financial debt, net-cash ~$13.7B, so D/EBITDA is N/M."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "Japanese issuer with negligible/undisclosed SBC and no dilution risk; record FY26 profit on clean, conservative reporting and FX-aided ordinary profit clearly footnoted."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Disciplined, no value-destructive M&A and a rising dividend, but historically insular governance and modest opportunistic buybacks keep capital allocation merely solid."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R3+R4 reinforce monstrously: irreplicable first-party IP (R4=2.0) is precisely what makes Nintendo the uncontested #1 in its console niche (R3=2.0), and that IP gives software scalability (R1=1.5) by driving high-margin attach onto the installed base. The trio compounds into a self-reinforcing platform moat; R1 stops short of 2.0 only because the hardware-cyclical mix prevents pure software operating leverage.",
+ "moat_type": "intangibles/brand",
+ "moat_one_line": "Decades-deep, irreplicable first-party IP (Mario, Zelda, Pokemon) plus a captive console platform that no rival can replicate, driving high-margin software attach on a large installed base.",
+ "thesis_3lines": [
+  "Calidad excepcional: ROIC 37.8%, caja neta ~Y2.22T sin deuda y un foso de IP propietaria irreplicable que sostiene el liderazgo #1 en su nicho de consolas.",
+  "Motor de crecimiento: el ciclo Switch 2 (19.86M unidades en FY26, +98.6% ventas) instala una base sobre la que el software de alto margen (60M unidades guiadas) compone ingresos durante varios anios.",
+  "Valoracion/retorno: a fwd P/E ~20x (-20% vs su media historica) tras caer -52.7% desde maximos, paga un descuento por una compresion de BPA FY27 deliberadamente conservadora (-27%) en un negocio estructuralmente sano."
+ ],
+ "bear_case_strongest": "Nintendo sigue siendo un negocio de hardware profundamente ciclico cuyos beneficios dependen del exito de un unico lanzamiento de consola: la guia FY27 (-27% en beneficio neto) y el margen operativo ya reducido a la mitad por costes de memoria/aranceles muestran que el pico de FY26 puede no ser un suelo sostenible, y una PEG de 2.03 deja poco margen si el ciclo Switch 2 decepciona.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Total ponderado = 1.5+1.0+2.0+2.0+1.5+1.0+1.0+1.5+1.5+1.0 = 14.0/13.5, por lo que se acota al techo 13.5/13.5 (calidad maxima). Score preliminar FASE 1 era 12.5/13.5; la verificacion confirma y eleva la tesis. Banderas: (1) FCF/NI ~62% en FY26 es debil pero atribuible a working capital de lanzamiento (no estructural) — vigilar normalizacion. (2) Beneficio ordinario FY26 inflado por +Y44.3bn de ganancias FX; el beneficio operativo 'limpio' Y360.1bn es la cifra de calidad. (3) Guia FY27 es PROYECCION conservadora, no actual. (4) fwd_pe_5y_avg ~25x y varios campos de valoracion/balance son ESTIMADOS (estimated_fields); ROIC, FCF y net_debt marcados como estimados aunque derivados del IR PDF. (5) SBC nula tratada como negligible: R9 sin penalizacion por regla dura. Drop -52.7% clasificado 'mixed': de-rating desde ~36.8x + compresion real de BPA, negocio estructuralmente intacto."
+}

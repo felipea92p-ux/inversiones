@@ -1,0 +1,99 @@
+{
+ "ticker": "V",
+ "name": "Visa Inc.",
+ "asof_date": "2026-06-19",
+ "currency": "USD",
+ "price": 327.24,
+ "market_cap_usd_b": 630,
+ "fwd_pe": 22,
+ "fwd_pe_5y_avg": 28.5,
+ "pe_prem_disc_pct": -23,
+ "peg": 1.7,
+ "last_q": {
+  "period": "Q2 FY2026 (ended Mar 31, 2026)",
+  "revenue": "$11.23B",
+  "rev_yoy_pct": 17,
+  "op_margin_pct": 64.4,
+  "eps_gaap": "$3.14",
+  "eps_adj": "$3.31"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Sep 30, 2025)",
+  "revenue": "$40.0B",
+  "organic_growth_pct": 12,
+  "roic_pct": null,
+  "fcf": "$21.6B",
+  "fcf_margin_pct": 54
+ },
+ "sbc_pct_revenue": 2.2,
+ "sbc_pct_fcf": 4,
+ "net_debt_usd_b": 5.2,
+ "nd_ebitda": 0.2,
+ "net_cash": false,
+ "guidance_fy": "FY2026 (PROYECCION): crecimiento de net revenue de low-double-digit a low-teens; crecimiento de EPS ajustado low-teens (guia ELEVADA en Q2 FY26 desde high-single/low-double digit en revenue y mid-to-high single digit en EPS)",
+ "pct_off_52w_high": -12.9,
+ "pct_off_ath": -12.9,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "guidance_fy",
+  "net_debt_usd_b"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "roic_pct"
+ ],
+ "sources": [
+  {
+   "label": "SEC 8-K Q2 FY2026 earnings release (filed Apr 28, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001403161/000140316126000077/q22026earningsrelease.htm",
+   "date": "2026-04-28"
+  },
+  {
+   "label": "Visa IR Q4 & Full-Year 2025 earnings release PDF (primary; net rev $40.0B, GAAP EPS $10.20, non-GAAP EPS $11.47, op exp $16,006M, cash+investments $20.0B, $24.9B buyback authorization remaining)",
+   "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2025/q4/Q4-2025-Earnings-Release_vF.pdf",
+   "date": "2025-10-28"
+  },
+  {
+   "label": "Visa 10-K FY2025 (SBC EIP cost $861M; senior notes $25.4B principal; cash & equiv $17.2B + AFS $2.4B)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001403161/000140316125000089/v-20250930.htm",
+   "date": "2025-11-06"
+  },
+  {
+   "label": "GuruFocus / financecharts forward P/E (~22) and macrotrends PE history",
+   "url": "https://www.gurufocus.com/term/forward-pe-ratio/V",
+   "date": "2026-06-18"
+  },
+  {
+   "label": "StockAnalysis/Yahoo 52-week range $293.89-$375.51, price $327.24 (Jun 19, 2026)",
+   "url": "https://stockanalysis.com/stocks/v/statistics/",
+   "date": "2026-06-19"
+  },
+  {
+   "label": "Seeking Alpha — Visa raises FY2026 guidance to low-double-digit/low-teens net revenue, low-teens EPS",
+   "url": "https://seekingalpha.com/news/4581251-visa-outlines-full-year-net-revenue-growth-of-low-double-digit-to-low-teens-amid-33b-total",
+   "date": "2026-04-28"
+  }
+ ],
+ "notes": "Emisor US — fuentes primarias SEC EDGAR + Visa IR. FY2025 (cierre 30-sep-2025): net revenue $40,000M (+11%, +12% cc); GAAP op income = $40,000M − $16,006M op exp = $23,994M → op margin GAAP ~60.0%; GAAP net income $20,058M, GAAP EPS $10.20, non-GAAP EPS $11.47 (+14%); OCF $23.1B, capex $1.5B → FCF $21.6B (margen FCF ~54%, MUY alto). SBC (EIP) FY25 $861M = 2.2% de ingresos y ~4.0% del FCF — bajo, positivo para R9. Q2 FY26 (cierre 31-mar-2026): net revenue $11.23B (+17%, mayor crecimiento desde 2013 ex-pandemia/Visa Europe), GAAP op income $7,234M → op margin 64.4%; GAAP EPS $3.14 (+36%), non-GAAP EPS $3.31 (+20%); volumen cross-border +12%, transacciones procesadas +9%. Balance: deuda senior ~$25.2-25.4B vs caja+inversiones $20.0B → deuda neta ~+$5.2B (NO es caja neta); ND/EBITDA ~0.2x (estimado, EBITDA FY25 ~$25B) — apalancamiento minimo. Valoracion: fwd P/E ~22 (rango fuentes 21.5-23.5); media fwd P/E 5a ~28-29 → cotiza ~-23% bajo su media (descuento). PEG ~1.7 (fwd P/E ~22 / crec. EPS low-teens ~13). roic_pct dejado null (no verificado en fuente primaria; Visa tiene ROIC/ROE muy alto >25% pero no extraido). DROP: precio $327 vs maximo 52s/historico $375.51 (jun-2025) = solo -12.9%; con aceleracion de ingresos a +17% y guia ELEVADA, NO esta deprimida (not_depressed). data_quality=MIXED porque fundamentales VERIFICADOS en filings pero precio/valoracion/maximos de agregadores."
+}

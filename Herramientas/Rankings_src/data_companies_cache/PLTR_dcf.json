@@ -1,0 +1,42 @@
+{
+ "ticker": "PLTR",
+ "currency": "USD",
+ "current_price": 119.5,
+ "name": "Palantir Technologies Inc.",
+ "wacc_pct": 11.8,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.5,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "FY2025 owner FCF = FCF reportado $2.101B menos 100% de la SBC $0.684B = $1.417B (margen owner ~31.7% sobre ingresos de $4.475B). La SBC se trata como gasto en efectivo. Nota: el FCF \"adjusted\" que reporta la direccion ($4.2-4.4B guia FY2026) NO descuenta SBC, por lo que el owner FCF FY2026 estimado es ~$3.2B (adj FCF 4.3 menos SBC ~$1.1B a 14% de ingresos). La base owner-earnings ancla en el FCF GAAP del 10-K, no en cifras ajustadas.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 51,
+  "rev_cagr_y6_10_pct": 19,
+  "fcf_margin_terminal_pct": 40,
+  "terminal_g_pct": 3,
+  "shares_diluted_b": 2.5,
+  "net_debt_usd_b": -7.18,
+  "sbc_treatment": "100% de la SBC restada del FCF como gasto en efectivo (owner earnings). SBC FY2025 = $684M = 15.3% de ingresos / 32.6% del FCF; se asume que el % de SBC sobre ingresos baja gradualmente hacia ~10-12% en el horizonte a medida que la empresa madura, pero nunca a cero."
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 46.24,
+   "prob": 0.38,
+   "note": "Crecimiento de ingresos desacelera mas rapido (CAGR ~40% anios 1-5, ~17% anios 6-10), margen owner sube solo a 35% en anio 10, g terminal 2.5%. Ingresos anio 10 ~$50B (vs $4.5B hoy). Es pesimista razonable, NO apocaliptico: aun asume un negocio que se multiplica >10x. VI $46 implica que a $119.5 el mercado descuenta ejecucion casi perfecta."
+  },
+  "base": {
+   "iv_per_share": 91.48,
+   "prob": 0.47,
+   "note": "Consistente con track record y guia FY2026 (~71% crec.): CAGR ingresos ~51% anios 1-5 descendiendo desde ~65%, ~19% anios 6-10; margen owner sube de 31.7% a 40% en anio 10; g terminal 3.0%. Ingresos anio 10 ~$93B. Incluso este escenario favorable deja VI ($91) por debajo del precio ($119.5): el des-rating de 42% desde ATH aun no ha llevado el precio a margen de seguridad."
+  },
+  "optimista": {
+   "iv_per_share": 169.25,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: PLTR como capa de sistema operativo de IA empresarial/gubernamental. CAGR ingresos ~58% anios 1-5, ~26% anios 6-10; margen owner a 45%; g terminal 3.5%. Ingresos anio 10 ~$157B. Unico escenario donde VI > precio actual, con upside moderado (~+42%)."
+  }
+ },
+ "sanity_check": "VI ponderada por probabilidad = 0.38*46.24 + 0.47*91.48 + 0.15*169.25 = ~$86, es decir ~28% por DEBAJO del precio de $119.50. PLTR cotiza a ~87x EV/owner-FCF forward (FY2026 owner FCF ~$3.2B sobre EV ~$279B) y ~76x fwd PE GAAP, multiplos extremos que exigen anos de hipercrecimiento ya descontados. Contraste de rendimiento total al accionista: NO aplica el contraste positivo tipico de V/MA/SPGI: Palantir NO paga dividendo y su SBC (15.3% de ingresos) es netamente DILUTIVA; las recompras son menores y principalmente compensan dilucion. El \"shareholder yield\" neto es cercano a cero o negativo, lo que REFUERZA tratar la SBC como costo real en owner earnings. Caja neta de $7.18B (cero deuda) es una fortaleza del balance, ya incorporada (suma ~$2.87/accion). Conclusion: negocio excepcional (crec. ACELERANDO a +85% YoY, margen FCF 57% en Q1 2026), pero valoracion descuenta ejecucion casi perfecta; margen de seguridad negativo salvo en el escenario optimista.",
+ "method_notes": "DCF de owner earnings a 10 anios en dos fases. Owner FCF = FCF GAAP reportado menos 100% de SBC (la cifra \"adjusted FCF\" de la direccion se ignora como base porque no descuenta SBC). Fase 1 (anios 1-5): CAGR de ingresos explicito descendiendo desde ~65% (anclado en guia FY2026 ~71% y Q1 2026 +85%) hacia ~40%. Fase 2 (anios 6-10): CAGR declina hacia 6-12% (normalizacion). Margen owner-FCF sube linealmente desde 31.7% (FY2025) hacia 35-45% segun escenario, reflejando apalancamiento operativo del modelo SaaS/AIP y descenso gradual del % de SBC. Valor terminal por Gordon con g=2.5-3.5% (foso amplio: switching costs gubernamentales/empresariales, ontologia propietaria, efectos de red en datos). WACC = Rf 4.3% (UST 10Y, empresa estadounidense) + ERP 5.0% * beta 1.5 = 11.8%; beta 1.5 refleja la alta volatilidad/momentum del valor (no se aplica ajuste geopolitico, no es Taiwan). Acciones diluidas ~2.50B (basicas implicitas 2.40B = mktcap/precio; diluidas mayores por RSU/opciones intensivas en SBC). Deuda neta -$7.18B (caja neta) se SUMA al equity value. VI/accion = (PV flujos + PV TV - deuda neta) / acciones diluidas. Limitaciones: PLTR cotiza desde fin-2020 con historial corto y multiplos extremos; la sensibilidad al margen terminal y a la tasa de crecimiento de Fase 2 es muy alta. Datos operativos VERIFICADOS del 10-K FY2025 (SEC/IR) y 8-K Q1 2026; precio/valoracion de agregadores al 22-jun-2026."
+}

@@ -1,0 +1,42 @@
+{
+ "ticker": "ADP",
+ "name": "Automatic Data Processing, Inc.",
+ "currency": "USD",
+ "current_price": 214.6,
+ "wacc_pct": 8.5,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.85,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base (FY2025) = FCF reportado $4,392.7M − 100% SBC $266.1M = $4,126.6M (~$4.13B). Margen owner-FCF ~20.1% sobre ingresos FY25 de $20,560.9M. La SBC es muy baja (1.29% de ingresos / 6.1% del FCF), por lo que tratarla como gasto en efectivo apenas reduce el FCF reportado — senal de alta calidad. Nota: el FCF excluye el movimiento de client funds (assets compensados por obligations); la deuda neta corporativa tambien excluye client funds obligations.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 6.5,
+  "rev_cagr_y6_10_pct": 4.5,
+  "fcf_margin_terminal_pct": 22,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC ($266.1M, 1.29% de ingresos) restada del FCF como gasto en efectivo para llegar a owner earnings; impacto minimo dada la baja SBC de ADP.",
+  "shares_diluted_b": 0.4,
+  "net_debt_usd_b": 0.63
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 196,
+   "prob": 0.35,
+   "note": "Miedo a IA materializa parcialmente: crecimiento de ingresos ~4.5% en anios 1-5 (mercado laboral plano, 'pays per control' estancado, presion competitiva de plataformas HCM con IA), ligera compresion de margen owner-FCF (-0.2pp/anio), Fase 2 desacelera a ~2.5%, g terminal 2.5%. Pesimista razonable, NO apocaliptico: ADP sigue creciendo y generando caja. IV ~$196, ~9% bajo el precio."
+  },
+  "base": {
+   "iv_per_share": 241,
+   "prob": 0.47,
+   "note": "Consistente con track record: ~6.5% CAGR ingresos anios 1-5 (organico ~6-7% como FY25 y guia FY26), expansion modesta de margen owner-FCF (+0.3pp/anio via apalancamiento operativo y mix Employer Services/PEO), Fase 2 declina 6.0%->3.5%, g terminal 3.0% por foso ancho (costes de cambio, escala, datos de nomina). IV ~$241, ~12% sobre el precio."
+  },
+  "optimista": {
+   "iv_per_share": 293,
+   "prob": 0.18,
+   "note": "Ejecucion perfecta + IA acretiva: ADP monetiza IA generativa en HCM (productividad, upsell, nuevos modulos), ~8.5% CAGR ingresos anios 1-5, expansion de margen +0.5pp/anio, Fase 2 7.5%->4.0%, g terminal 3.5%. IV ~$293, ~36% sobre el precio."
+  }
+ },
+ "sanity_check": "VI ponderada por probabilidad ~$234/accion (+9% sobre $214.60), lo que sugiere ADP cotiza cerca de su valor justo con modesto margen de seguridad tras la caida del ~-35% desde maximos (reajuste de multiplo + miedo a IA, NO deterioro de fundamentales: la direccion SUBIO la guia FY26 en Q3). CONTRASTE de rendimiento total al accionista (no DDM): dividendo anual $6.80/accion = ~3.2% yield (Dividend King, 51 anios consecutivos de subidas), mas recompras (~$1.8B/anio bajo la nueva autorizacion de $6B) = ~2.1% -> rendimiento total ~5.3%. Dividendos+recompras (~$4.5B) cubren ~110% del owner-FCF (~$4.13B), financiado en parte con balance ultra-solido (ND/EBITDA ~0.1x). Cross-check de multiplo: fwd P/E 17.85x vs media 5a ~26x (descuento ~-31%); a un fwd P/E normalizado conservador de ~22x sobre EPS adj FY26 (~$10.4-10.6 con crecimiento guiado 10-11%) el valor implicito ronda $230-235, coherente con la VI base/ponderada del DCF.",
+ "method_notes": "DCF de owner earnings a 10 anios sobre base FY2025. Owner FCF base = FCF reportado $4,392.7M − 100% SBC $266.1M = $4,126.6M. Se proyecta el owner-FCF combinando CAGR de ingresos y deriva de margen owner-FCF: Fase 1 (anios 1-5) CAGR explicito por escenario; Fase 2 (anios 6-10) CAGR declinante linealmente hacia normalizacion; valor terminal de Gordon con g=2.5-3.5% segun foso. Descuento al WACC = Rf 4.3% (UST 10Y) + ERP 5.0% × beta 0.85 = 8.55%, redondeado a 8.5% (empresa US, sin ajuste geopolitico). Beta 0.85 estimada: negocio defensivo de nomina/HCM, baja ciclicidad, balance fortaleza. VI por accion = (PV de flujos + PV del valor terminal − deuda neta corporativa $0.63B) / 0.40B acciones diluidas (market cap $85.8B / $214.60). Peso del valor terminal 58-65% (razonable para compounder de calidad). La deuda neta excluye client funds obligations (compensadas por client funds assets). Inputs verificados de filings SEC (10-K FY2025, 8-K Q3 FY2026); dividendo $6.80/accion y autorizacion de recompra $6B confirmados via busqueda web ligera."
+}

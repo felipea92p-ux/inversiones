@@ -1,0 +1,195 @@
+{
+  "ticker": "MSCI",
+  "empresa": "MSCI Inc.",
+  "cik": "0001408198",
+  "fecha_expediente": "2026-07-28",
+  "fecha_precio": "2026-07-27",
+  "divisa": "USD",
+  "cotiza_en": "NYSE (domestica, sin ADS: 1 accion = 1 accion ordinaria)",
+
+  "etiqueta_calidad_congelada": {
+    "etiqueta": "MENOS_5_6",
+    "puertas_pasadas": 3,
+    "estado": "CONGELADA — el valorador no la puede tocar ni reclasificar hacia arriba",
+    "mecanismo": "Vende el estandar de medicion sobre el que estan escritos los folletos de fondos y mandatos institucionales: coste marginal cero, multi-homing cero por construccion, retencion 95,3% anual.",
+    "eslabon_mas_debil": "El precio de la unica parte medible del negocio (fees sobre activos) lleva nueve trimestres cayendo (2,50 -> 2,28 pb, -8,8% nominal, ~-16% real) y el mayor cliente, que posee el 7,3% de la empresa, tiene contratados por escrito dos escalones mas de rebaja con efecto 1-ene-2026 y 1-ene-2027.",
+    "especie_G2": {"reinversion_pct_ventas": 20.2, "roiic_bruto_pct": 21.7, "roiic_ex_margen_pct": 23.7},
+    "mos_exigido_pct": 40,
+    "motivo_umbral": "No esta en cartera -> aplica umbral de ABRIR (40%), no el de CARGAR (28%)."
+  },
+
+  "precio_y_capital": {
+    "precio_usd": 571.03,
+    "fuente_precio": "HECHO — snapshot IBKR MCP, conid 47101335, campo last con is_close=true, cierre 27-jul-2026. Cross-check: ultima barra semanal IBKR 2026-07-27 close 571,03; stockanalysis.com muestra 571,03 y cap 41,51 mm$ a 27-jul-2026 (INFERENCIA, solo comprobacion cruzada).",
+    "acciones_en_circulacion_mm": 72.7,
+    "fuente_acciones": "HECHO — 10-Q Q2-2026 (acc. 0001408198-26-000046), balance a 30-jun-2026: 72,7 mm acciones en circulacion; portada dei:EntityCommonStockSharesOutstanding 72,7 mm a 14-jul-2026.",
+    "capitalizacion_usd_mm": 41513.9,
+    "deuda_principal_usd_mm": 6425.0,
+    "deuda_valor_contable_usd_mm": 6380.4,
+    "deuda_valor_de_mercado_usd_mm": 6126.3,
+    "caja_usd_mm": 356.4,
+    "deuda_neta_usd_mm": 6068.6,
+    "ev_usd_mm": 47582.5,
+    "fuente_deuda": "HECHO — 10-Q Q2-2026, nota DEBT (R15): principal total 6.425,0 mm$, valor contable 6.380,4 mm$, valor razonable (nivel 2) 6.126,3 mm$ a 30-jun-2026. Caja 356,4 mm$ (incluye 3,7 mm restringida).",
+    "nota_ev": "EV usa deuda a PRINCIPAL (lo que hay que devolver). La ponderacion del WACC usa la deuda a VALOR DE MERCADO (6.126,3), como manda el candado B.",
+    "no_incluido_en_ev": "First Street Technology: acuerdo firmado 24-jun-2026, 120,0 mm$ en efectivo al cierre (previsto Q3-2026) mas earn-outs contingentes a dos anios. No esta en el balance de 30-jun-2026."
+  },
+
+  "wacc_candado_B": {
+    "wacc_central_pct": 9.26,
+    "wacc_rango": "8,2% - 9,7%",
+    "beta": 1.15,
+    "fuente_beta": "HECHO (calculo propio) — regresion de rendimientos logaritmicos semanales MSCI vs SPY, 262 semanas, 30-jul-2021 a 27-jul-2026, datos IBKR: beta cruda 1,190 (R=0,634); ajuste Blume 0,67b+0,33 = 1,127. Cross-check INFERENCIA: stockanalysis.com Beta(5Y) = 1,24 a 27-jul-2026. Dispersion real de la medicion: beta 2 anios 0,862; beta 1 anio 0,942. Se adopta 1,15 central, rango 0,90 - 1,24.",
+    "tasa_libre_riesgo_pct": 4.64,
+    "fuente_rf": "INFERENCIA — rendimiento del bono del Tesoro de EEUU a 10 anios, 4,64% al 27-jul-2026 (tradingeconomics.com; segunda fuente da 4,63%). Moneda funcional de reporte: USD.",
+    "prima_mercado_pct": 4.23,
+    "fuente_prima_mercado": "HECHO — Damodaran, prima de mercado maduro implicita (S&P 500), edicion 17 del ERP study, marzo 2026; tabla de paises 'Country Default Spreads and Risk Premiums' actualizada 5-ene-2026: ERP mercado maduro 4,23%, EEUU total 4,46% (CRP EEUU 0,23% tras la bajada de Moody's a Aa1).",
+    "prima_pais_pct": 0.50,
+    "fuente_prima_pais": "INFERENCIA — ponderacion propia por RIESGO DE ACTIVO (no domicilio fiscal), usando ingresos por geografia del 10-K FY2025 (nota SEGMENT INFORMATION): Americas 1.408,1 mm$ (44,9%), EMEA 1.242,0 mm$ (39,6%), Asia y Australia 484,4 mm$ (15,5%). Aplicando las CRP de la tabla Damodaran 5-ene-2026 (EEUU 0,23%, Alemania 0,00%, Reino Unido 0,78%, China 0,91%) sale ~0,5%. Es una estimacion mia, no una cifra publicada.",
+    "coste_capital_propio_pct": 10.08,
+    "coste_deuda_pct": 4.60,
+    "fuente_coste_deuda": "HECHO derivado del filing — FY2025: gasto financiero 209,889 mm$ (10-K, cuenta de resultados) sobre deuda media contable ((4.510,816 + 6.202,119)/2 = 5.356,5) = 3,92%. FY2026E: guia de gasto financiero 282-286 mm$ (8-K 21-jul-2026) sobre deuda media ~6.350 mm$ = 4,47%. Coste MARGINAL real: notas 5,250% ago-2025 (1.250 mm$) y 5,150% nov-2025 (500 mm$); revolver al 5,3% a 31-dic-2025. Central adoptado 4,60% antes de impuestos; rango 3,92% - 5,25%.",
+    "tasa_impositiva_pct": 19.5,
+    "fuente_tasa_impositiva": "HECHO — FY2025 efectiva = 291,951 / 1.494,256 = 19,54% (10-K). Guia FY2026: 18,0%-20,0% excluyendo el beneficio fiscal discreto de 88 mm$ por reestructuracion de entidades legales reconocido en Q1-2026.",
+    "ponderacion": "E = 41.513,9 (87,1%), D a mercado = 6.126,3 (12,9%). WACC = 0,871 x 10,08% + 0,129 x 4,60% x (1-0,195) = 9,26%.",
+    "advertencia": "Con terminal al 3%, el spread WACC-g es solo 6,26 pp. El valor terminal domina. Mover el WACC 1 pp mueve el valor por accion ~25%. Esto NO es precision, es fragilidad estructural del metodo a este nivel de tipos."
+  },
+
+  "owner_earnings": {
+    "base_auditada": {
+      "ejercicio": "FY2025 (10-K acc. 0001408198-26-000011, presentado 06-feb-2026)",
+      "ingresos_usd_mm": 3134.459,
+      "resultado_operativo_usd_mm": 1713.567,
+      "beneficio_neto_usd_mm": 1202.305,
+      "flujo_de_operaciones_usd_mm": 1588.446,
+      "capex_pp_e_usd_mm": 39.319,
+      "software_capitalizado_usd_mm": 90.542,
+      "capex_total_usd_mm": 129.861,
+      "depreciacion_pp_e_usd_mm": 23.405,
+      "amortizacion_software_interno_usd_mm": 78.874,
+      "amortizacion_intangibles_adquiridos_usd_mm": 90.606,
+      "proxy_capex_mantenimiento_usd_mm": 102.279,
+      "explicacion_proxy": "Mantenimiento = depreciacion de PP&E (23,405) + amortizacion de software desarrollado internamente (78,874) = 102,279. NO se incluye la amortizacion de intangibles ADQUIRIDOS (90,606) porque no la alimenta el capex sino el M&A, que es discrecional. El exceso de capex sobre esa cifra (129,861 - 102,279 = 27,6 mm$) es inversion discrecional y no se resta en la version (a).",
+      "oe_mantenimiento_usd_mm": 1486.2,
+      "oe_capex_total_usd_mm": 1458.6
+    },
+    "base_en_curso": {
+      "ejercicio": "FY2026E — semestre publicado (10-Q Q2-2026) + guia de la empresa (8-K 21-jul-2026)",
+      "publicado_H1_2026": {
+        "ingresos_usd_mm": 1717.8,
+        "resultado_operativo_usd_mm": 944.4,
+        "flujo_de_operaciones_usd_mm": 677.6,
+        "capex_pp_e_usd_mm": 13.8,
+        "software_capitalizado_usd_mm": 59.4
+      },
+      "guia_FY2026": {
+        "gasto_operativo_usd_mm": "1.535 - 1.575",
+        "gasto_adj_ebitda_usd_mm": "1.340 - 1.370",
+        "gasto_financiero_usd_mm": "282 - 286",
+        "d_y_a_usd_mm": "195 - 205",
+        "tasa_efectiva_pct": "18,0 - 20,0",
+        "capex_total_usd_mm": "160 - 170",
+        "flujo_de_operaciones_usd_mm": "1.655 - 1.705",
+        "free_cash_flow_usd_mm": "1.485 - 1.545",
+        "nota": "La guia asume que First Street cierra en Q3-2026."
+      },
+      "cfo_punto_medio_usd_mm": 1680.0,
+      "capex_total_punto_medio_usd_mm": 165.0,
+      "proxy_capex_mantenimiento_usd_mm": 115.0,
+      "explicacion_proxy_2026": "INFERENCIA: la guia solo da D&A total 195-205 mm$. Reparto estimado por mi: depreciacion PP&E ~25 + amortizacion software interno ~90 = 115 de mantenimiento; el resto (~85) es amortizacion de intangibles adquiridos. La empresa no publica el desglose prospectivo.",
+      "oe_mantenimiento_usd_mm": 1565.0,
+      "oe_capex_total_usd_mm": 1515.0
+    },
+    "distancia_entre_bases": "El OE de mantenimiento sube de 1.486 a 1.565 mm$ (+5,3%) y el FCF puro de 1.459 a 1.515 (+3,9%), mientras los ingresos crecen +12,2% organico en Q2-2026. La caja crece MENOS QUE LA MITAD de lo que crecen las ventas. Motivo verificado: el capex total salta de 129,9 a 165 mm$ (+27%) y el gasto financiero de 210 a ~284 mm$ (+35%) tras endeudarse 1.750 mm$ en 2025 (notas 2035 al 5,25% y 2036 al 5,15%) para recomprar acciones. El apalancamiento operativo del negocio esta intacto (margen operativo 56,2% en Q2-2026 vs 55,0% en Q2-2025); lo que se come el diferencial es la ESTRUCTURA DE CAPITAL, no el negocio. Esto es informacion sobre el momento del ciclo de balance, no ruido.",
+    "memo_sbc": "El flujo de operaciones readiciona la retribucion en acciones: 111,343 mm$ en FY2025 (3,6% de las ventas) y 73,1 mm$ en H1-2026. Es un coste real. Si se resta, el OE de mantenimiento en curso baja de 1.565 a ~1.415 mm$ y todo el valor por accion cae ~9%. NO esta restado en las cifras de cabecera porque el encargo define OE como flujo de operaciones menos capex."
+  },
+
+  "dcf_inverso": {
+    "metodo": "Owner earnings DESAPALANCADOS (OE + interes neto despues de impuestos) descontados al WACC y contrastados contra el EV. FY2025: +156,1 mm$ (209,889 gasto - 16,012 ingreso financiero, al 19,5%). FY2026E: +222,0 mm$ (284 - ~10, al 19%). 10 anios de crecimiento explicito + terminal al 3%.",
+    "ev_a_justificar_usd_mm": 47582.5,
+    "wacc_usado_pct": 9.26,
+    "g_implicita_auditado_mantenimiento_pct": 10.46,
+    "g_implicita_auditado_capex_total_pct": 10.68,
+    "g_implicita_encurso_mantenimiento_pct": 9.34,
+    "g_implicita_encurso_capex_total_pct": 9.72,
+    "lectura": "El mercado exige que MSCI componga entre 9,3% y 10,7% anual durante DIEZ anios y despues siga al 3% para siempre. Contra la tasa base del propio negocio (12,2% organico en Q2-2026, 8,1% de crecimiento organico del Run Rate de suscripcion) eso no es absurdo — pero tampoco deja nada. El precio de hoy no incorpora ningun descuento por el eslabon debil ya identificado."
+  },
+
+  "g_defendible": {
+    "g_pct": 9.0,
+    "derivacion_mecanica": "Reinversion 20,2% de ventas x ROIIC EX-MARGEN 23,7% = 4,79% de las ventas en NOPAT incremental. Sobre un margen NOPAT de 44,0% (1.713,567 x (1-0,195) / 3.134,459), eso es g = 4,79 / 44,0 = 10,9%.",
+    "haircut_aplicado": "Bajo de 10,9% a 9,0% (−1,9 pp). Motivo, y solo este: el ROIIC ex-margen limpia la expansion de margen pero NO limpia la erosion de precio. El unico precio observable del negocio lleva nueve trimestres cayendo (2,50 -> 2,28 pb) y hay dos escalones mas contratados por escrito con efecto 1-ene-2026 y 1-ene-2027. Ademas la retencion del 95,3% implica 4,7% de churn anual que el motor tiene que reponer antes de crecer. Uso el ex-margen (23,7%), no el bruto (21,7% — nota: aqui el bruto es MENOR que el ex-margen, lo que ya de por si es una senal de que la serie es corta o ruidosa).",
+    "advertencia": "Este haircut es un JUICIO mio, no una medicion. Con g=10,9% el valor por accion en curso sube a ~652 y el MoS pasa de −3% a +12% — sigue muy lejos del 40% exigido, asi que la conclusion no depende del haircut."
+  },
+
+  "valoracion": {
+    "valor_por_accion_auditado_mantenimiento_usd": 502.5,
+    "valor_por_accion_auditado_capex_total_usd": 492.6,
+    "valor_por_accion_encurso_mantenimiento_usd": 554.1,
+    "valor_por_accion_encurso_capex_total_usd": 536.3,
+    "valor_central_usd": 528,
+    "piso_de_resolucion": "Sin medicion propia del ruido se aplica ±25%: banda 396 - 660 USD/accion. NINGUNA cifra de valor intrinseco se reporta con decimales. El precio de hoy (571) cae DENTRO de la banda: al nivel de resolucion de este trabajo, MSCI no es distinguible de su propio valor intrinseco.",
+    "mos_auditado_pct": -13.6,
+    "mos_encurso_pct": -3.1,
+    "mos_exigido_pct": 40,
+    "brecha": "Faltan entre 43 y 54 puntos de margen de seguridad.",
+    "sensibilidad_valor_por_accion": {
+      "descripcion": "Base en curso, capex de mantenimiento. Filas = WACC, columnas = g a 10 anios.",
+      "WACC_8.16": {"g7": 589, "g9": 703, "g11": 837},
+      "WACC_9.26": {"g7": 464, "g9": 554, "g11": 659},
+      "WACC_9.70": {"g7": 426, "g9": 509, "g11": 604}
+    }
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 16,
+    "justificacion_m_estrella": "Multiplo de owner earnings (mantenimiento) comprometido en frio, sin barra de error porque no es una estimacion sino una decision. 16x para una MENOS_5_6 con 3 de 5 puertas, retencion 95,3%, y una grieta de precio DOCUMENTADA Y CONTRATADA en la unica parte medible del negocio. Referencia: el precio de hoy paga 26,5x el OE de mantenimiento del ejercicio en curso y 27,9x el del ultimo auditado.",
+    "p_estrella_usd": 317,
+    "derivacion_p_estrella": "Valor central 528 x (1 - 0,40) = 317 USD. Comprobacion cruzada por multiplo: M* 16x x OE mantenimiento en curso por accion (21,53) = 344 USD. Adopto 317, el mas exigente de los dos.",
+    "distancia_al_precio": "El precio tendria que caer un 44,5% desde 571,03 hasta 317 para abrir posicion."
+  },
+
+  "tir_esperada": {
+    "rango": "7,7% - 10,0% anual",
+    "central_pct": 9.1,
+    "metodo": "Tasa que iguala la capitalizacion de hoy (41.514 mm$) con el valor presente de los owner earnings APALANCADOS (base en curso, mantenimiento: 1.565 mm$) creciendo a g durante 10 anios y al 3% despues.",
+    "detalle": {"g6": 7.93, "g7": 8.31, "g9": 9.13, "g11": 10.02},
+    "lectura": "Comprar hoy a 571,03 compra una TIR de un digito alto. No es un desastre — es exactamente el coste del capital. Se cobra el riesgo de renta variable sin prima por el trabajo."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "El detector busca un MoS grande sobre un motor que se rompe. Aqui NO HAY MoS: el margen de seguridad es −13,6% (base auditada) a −3,1% (base en curso). No puede haber trampa donde no hay descuento. Pero conviene nombrar el riesgo simetrico, que si esta presente: el motor SI tiene una grieta documentada (nueve trimestres de caida de precio en fees sobre activos, dos escalones mas contratados por escrito con el mayor cliente para 1-ene-2026 y 1-ene-2027, retencion 95,3%) y el precio de hoy no descuenta ni uno de esos escalones. Riesgo de pagar caro por un motor agrietado, no de comprar barato una trampa."
+  },
+
+  "hechos_de_apoyo": {
+    "crecimiento_organico_ingresos_Q2_2026_pct": 12.2,
+    "crecimiento_organico_run_rate_suscripcion_pct": 8.1,
+    "retencion_pct": 95.3,
+    "margen_operativo_Q2_2026_pct": 56.2,
+    "deuda_total_sobre_adj_ebitda_x": 3.1,
+    "objetivo_apalancamiento_empresa": "3,0x - 3,5x",
+    "dividendo_trimestral_usd": 2.05,
+    "rentabilidad_por_dividendo_pct": 1.44,
+    "fcf_yield_sobre_capitalizacion_pct": 3.65,
+    "recompras_Q2_2026_usd_mm": 145.0,
+    "precio_medio_recompra_Q2_2026_usd": 557.34,
+    "autorizacion_recompra_restante_usd_mm": 1600,
+    "patrimonio_neto_usd_mm": -2689.5,
+    "nota_patrimonio_negativo": "Patrimonio neto de −2.689,5 mm$ a 30-jun-2026 por recompras acumuladas de 10.400,0 mm$ en autocartera. No es una senal de deterioro: es un negocio sin activos que ha devuelto mas caja de la que tiene contablemente. Pero inutiliza cualquier ratio sobre fondos propios.",
+    "fuentes": "10-K FY2025 acc. 0001408198-26-000011 (06-feb-2026); 10-Q Q2-2026 acc. 0001408198-26-000046 (21-jul-2026); 8-K acc. 0001408198-26-000044 con exhibit 99.1 earnings release (21-jul-2026). Todos descargados de SEC EDGAR con User-Agent."
+  },
+
+  "huecos_declarados": [
+    "El dato congelado del eslabon debil (2,50 -> 2,28 pb en nueve trimestres, y los dos escalones contratados con el mayor cliente para 1-ene-2026 y 1-ene-2027) viene del paso de CALIDAD ya cerrado. NO lo he re-verificado en filing primario en esta sesion de valoracion; lo trato como dado y no lo reabro.",
+    "La prima pais de 0,50% es una INFERENCIA propia: ponderacion de los ingresos por geografia del 10-K FY2025 contra la tabla de Damodaran de 5-ene-2026. No es una cifra publicada por nadie.",
+    "La beta tiene dispersion real grande: 1,24 (5 anios, stockanalysis), 1,19 (mi regresion 5 anios semanal vs SPY), 1,13 (Blume), 0,94 (1 anio), 0,86 (2 anios). Adopto 1,15. Ese rango solo mueve el WACC ±0,8 pp, pero eso mueve el valor por accion ±25%. Es el mayor hueco cuantitativo del expediente.",
+    "El reparto de la guia de D&A 2026 (195-205 mm$) entre intangibles adquiridos y software desarrollado internamente es estimacion mia. La empresa publica el desglose historico (nota GOODWILL AND INTANGIBLE ASSETS) pero no el prospectivo. De ahi sale el proxy de capex de mantenimiento 2026 de 115 mm$.",
+    "La retribucion en acciones (111,3 mm$ FY2025) NO esta restada del owner earnings de cabecera, por definicion del encargo. Restarla baja el valor por accion ~9%.",
+    "First Street (120 mm$ al cierre + earn-outs contingentes a dos anios) no esta en la deuda neta ni en el EV. La guia FY2026 SI asume que cierra en Q3-2026: si no cierra, la guia de gasto operativo sobrestima y el FCF real seria algo mayor.",
+    "El beneficio fiscal discreto de 88 mm$ reconocido en Q1-2026 por reestructuracion de entidades legales infla el beneficio neto del semestre (748,0 mm$). Lo he excluido usando una tasa normalizada del 19,5%, pero el flujo de caja real del ano si se beneficia de menores pagos de impuestos y eso no lo he desglosado.",
+    "No he abierto la transcripcion de la conferencia de Q2-2026. Toda la guia sale del 8-K, que es fuente primaria, pero el color cualitativo sobre los escalones de precio de 2027 estaria en la llamada."
+  ],
+
+  "resumen_valorador": "MSCI cierra a 571,03 USD el 27-jul-2026 con una capitalizacion de 41.514 mm$ y un EV de 47.583 mm$. El WACC bottom-up de mercado sale 9,26% (rango 8,2-9,7%): beta 1,15 (regresion propia 5 anios semanal 1,19; publicada 1,24), bono a 10 anios 4,64%, prima de mercado maduro Damodaran 4,23%, prima pais propia 0,50%, coste de deuda 4,60% derivado del gasto financiero del 10-K sobre deuda media, ponderado 87/13 con la deuda a valor de mercado. Owner earnings: base auditada FY2025 1.486 mm$ restando solo mantenimiento y 1.459 restando todo el capex; base en curso FY2026E 1.565 y 1.515. La caja crece la mitad de rapido que las ventas (+5,3% vs +12,2% organico) y la causa esta verificada: no es el negocio (margen operativo sube a 56,2%) sino la estructura de capital (1.750 mm$ emitidos en 2025 al 5,15-5,25% para recomprar acciones, gasto financiero +35%). El DCF inverso dice que el precio de hoy exige entre 9,3% y 10,7% de crecimiento durante diez anios y 3% despues. Mi g defendible es 9,0%: sale de reinversion 20,2% x ROIIC ex-margen 23,7% sobre margen NOPAT 44%, que da 10,9%, menos 1,9 puntos porque el ex-margen limpia la expansion de margen pero no limpia la erosion de precio ya contratada. Con esa g el valor por accion es 503 (auditado) a 554 (en curso), central 528, banda de resolucion 396-660: el precio de hoy cae DENTRO de la banda, o sea que a mi nivel de resolucion MSCI no es distinguible de su valor. El MoS es -13,6% a -3,1% contra el 40% que exige su banda. M* comprometido 16x owner earnings de mantenimiento; P* = 317 USD, un 44,5% por debajo de hoy. TIR esperada 7,7%-10,0% anual, central 9,1%: exactamente el coste del capital, cero prima por el trabajo. Trampa de valor: NO, porque no hay descuento que pueda ser trampa; el riesgo aqui es el simetrico — pagar 26,5x owner earnings por un negocio cuyo unico precio observable lleva nueve trimestres cayendo y tiene dos escalones mas de rebaja ya firmados. Sin accion al precio de hoy."
+}

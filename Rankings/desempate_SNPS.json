@@ -1,0 +1,173 @@
+{
+  "ticker": "SNPS",
+  "empresa": "Synopsys, Inc.",
+  "cik": "0000883241",
+  "fecha_juicio": "2026-07-28",
+  "juez": "desempate — sesion limpia, sin conocer las dos etiquetas previas",
+  "candado_B_prima": "RESPETADO. Ni cotizacion ni multiplo usados. Unica exposicion: la portada del 10-K FY2025 declara un valor de mercado de flotante de ~$59,3 mm al cierre del 2T fiscal. Se vio de forma incidental al parsear la portada, se DESCARTA explicitamente y no entra en ninguna puerta.",
+  "ventana": "FY2016-FY2025 (10 ejercicios auditados) para lo cuantitativo; FY2008-FY2012 para G4",
+  "fuentes_primarias": [
+    "SEC XBRL companyfacts CIK 0000883241 (todos los 10-K FY2015-FY2025)",
+    "10-K SNPS FY2025, accn 0000883241-25-000028, snps-20251031.htm",
+    "10-K Cadence Design Systems FY2009, CIK 0000813672, accn 0000950123-10-018407",
+    "10-K Cadence Design Systems FY2010, CIK 0000813672, accn 0000950123-11-017955",
+    "10-K Magma Design Automation FY2010 (cierre 2010-05-02), CIK 0001065034, accn 0001193125-10-159649"
+  ],
+
+  "G5_CAJA": {
+    "veredicto": "SI_REFORZADO",
+    "tabla_USDm": [
+      {"FY": 2016, "ventas": 2422, "BN": 267, "CFO": 587, "capex": 67, "FCF": 520, "SBC": 98, "FCF_ex_SBC": 422, "FCF_menos_BN": 253, "FCF_ex_SBC_pct_ventas": 17.4, "Sloan_pct": -6.1},
+      {"FY": 2017, "ventas": 2725, "BN": 137, "CFO": 635, "capex": 70, "FCF": 564, "SBC": 108, "FCF_ex_SBC": 456, "FCF_menos_BN": 428, "FCF_ex_SBC_pct_ventas": 16.7, "Sloan_pct": -9.4},
+      {"FY": 2018, "ventas": 3121, "BN": 432, "CFO": 424, "capex": 99, "FCF": 325, "SBC": 140, "FCF_ex_SBC": 185, "FCF_menos_BN": -107, "FCF_ex_SBC_pct_ventas": 5.9, "Sloan_pct": 0.1},
+      {"FY": 2019, "ventas": 3361, "BN": 532, "CFO": 800, "capex": 198, "FCF": 602, "SBC": 155, "FCF_ex_SBC": 447, "FCF_menos_BN": 70, "FCF_ex_SBC_pct_ventas": 13.3, "Sloan_pct": -4.3},
+      {"FY": 2020, "ventas": 3685, "BN": 664, "CFO": 991, "capex": 155, "FCF": 837, "SBC": 249, "FCF_ex_SBC": 588, "FCF_menos_BN": 172, "FCF_ex_SBC_pct_ventas": 16.0, "Sloan_pct": -4.5},
+      {"FY": 2021, "ventas": 4204, "BN": 758, "CFO": 1493, "capex": 94, "FCF": 1399, "SBC": 345, "FCF_ex_SBC": 1054, "FCF_menos_BN": 641, "FCF_ex_SBC_pct_ventas": 25.1, "Sloan_pct": -8.8},
+      {"FY": 2022, "ventas": 5082, "BN": 985, "CFO": 1739, "capex": 137, "FCF": 1602, "SBC": 459, "FCF_ex_SBC": 1143, "FCF_menos_BN": 618, "FCF_ex_SBC_pct_ventas": 22.5, "Sloan_pct": -8.3},
+      {"FY": 2023, "ventas": 5843, "BN": 1230, "CFO": 1703, "capex": 190, "FCF": 1514, "SBC": 563, "FCF_ex_SBC": 950, "FCF_menos_BN": 284, "FCF_ex_SBC_pct_ventas": 16.3, "Sloan_pct": -4.8},
+      {"FY": 2024, "ventas": 6127, "BN": 2263, "CFO": 1407, "capex": 140, "FCF": 1268, "SBC": 692, "FCF_ex_SBC": 575, "FCF_menos_BN": -996, "FCF_ex_SBC_pct_ventas": 9.4, "Sloan_pct": 7.3},
+      {"FY": 2025, "ventas": 7054, "BN": 1332, "CFO": 1519, "capex": 170, "FCF": 1349, "SBC": 893, "FCF_ex_SBC": 456, "FCF_menos_BN": 17, "FCF_ex_SBC_pct_ventas": 6.5, "Sloan_pct": -0.6}
+    ],
+    "signo_del_devengo": "CFO por encima del BN en 9 de 10 ejercicios. Suma decenal CFO 11.298 vs BN 8.600 = 1,31x; excluyendo la plusvalia NO monetaria de $868,8 m por la venta de Software Integrity (FY2024) la ratio es 1,46x. Devengo negativo sostenido = APROBADO REFORZADO.",
+    "sloan": "Umbral 5%. Sloan negativo en 8 de 10 anios (rango -0,6% a -9,4%). Solo dos positivos: FY2018 +0,1% (irrelevante) y FY2024 +7,3%, que se explica INTEGRAMENTE por la plusvalia no monetaria de $868,8 m de la desinversion de SIG; depurada, FY2024 = -0,1%. Ningun ejercicio supera el umbral por causas de calidad de devengo.",
+    "test_GE": "SUPERADO EN LA DIRECCION CORRECTA. Desviacion tipica del crecimiento del BN 73,8% frente a 34,2% del CFO; coeficiente de variacion en NIVEL 0,694 (BN) vs 0,418 (CFO). El beneficio es MAS volatil que la caja que lo produce — lo contrario del delator de General Electric.",
+    "reserva_importante": "La SBC ha pasado de $345 m (8,2% de ventas, FY2021) a $893 m (12,7% de ventas, FY2025). Cargada integramente y sin devolverla, el FCF/ventas cae de 25,1% a 6,5% en cuatro anios. La puerta se otorga por el SIGNO del devengo, que es lo que mide, pero la tendencia de la SBC es el deterioro mas visible del expediente de caja.",
+    "cifra": "CFO/BN decenal 1,31x (1,46x depurada la plusvalia SIG); Sloan negativo en 8 de 10 anios, rango -0,6% a -9,4%; FCF ex-SBC positivo los 10 anios",
+    "cita": "10-K FY2025 (accn 0000883241-25-000028) y XBRL companyfacts CIK 0000883241: NetCashProvidedByUsedInOperatingActivities FY2025 $1.518.608.000 frente a NetIncomeLoss $1.332.220.000 y PaymentsToAcquirePropertyPlantAndEquipment $169.454.000; ShareBasedCompensation FY2025 $893.294.000; GainLossOnSaleOfBusiness FY2024 $868.830.000"
+  },
+
+  "G1_ROIC": {
+    "veredicto": "NO",
+    "definicion_usada": "NOPAT = resultado de explotacion GAAP x (1 - 16%, tipo efectivo normalizado de la ventana). Capital invertido = fondos propios + deuda financiera - caja - inversiones, CON fondo de comercio e intangibles adquiridos.",
+    "serie": [
+      {"FY": 2016, "NOPAT": 267, "NOPAT_ventas_pct": 11.0, "IC": 2283, "ROIC_med_pct": 11.7},
+      {"FY": 2017, "NOPAT": 292, "NOPAT_ventas_pct": 10.7, "IC": 2371, "ROIC_med_pct": 12.5},
+      {"FY": 2018, "NOPAT": 303, "NOPAT_ventas_pct": 9.7, "IC": 3225, "ROIC_med_pct": 10.8},
+      {"FY": 2019, "NOPAT": 437, "NOPAT_ventas_pct": 13.0, "IC": 3492, "ROIC_med_pct": 13.0},
+      {"FY": 2020, "NOPAT": 521, "NOPAT_ventas_pct": 14.1, "IC": 3800, "ROIC_med_pct": 14.3},
+      {"FY": 2021, "NOPAT": 617, "NOPAT_ventas_pct": 14.7, "IC": 3815, "ROIC_med_pct": 16.2},
+      {"FY": 2022, "NOPAT": 976, "NOPAT_ventas_pct": 19.2, "IC": 3971, "ROIC_med_pct": 25.1},
+      {"FY": 2023, "NOPAT": 1069, "NOPAT_ventas_pct": 18.3, "IC": 4575, "ROIC_med_pct": 25.0},
+      {"FY": 2024, "NOPAT": 1139, "NOPAT_ventas_pct": 18.6, "IC": 4956, "ROIC_med_pct": 23.9},
+      {"FY": 2025, "NOPAT": 769, "NOPAT_ventas_pct": 10.9, "IC": 38851, "ROIC_med_pct": 3.5}
+    ],
+    "minimo_ventana_ROIC_pct": 3.5,
+    "minimo_ventana_ROIC_ex2025_pct": 10.8,
+    "maximo_ventana_ROIC_pct": 25.1,
+    "minimo_ventana_NOPAT_ventas_pct": 9.7,
+    "maximo_ventana_NOPAT_ventas_pct": 19.2,
+    "por_que_falla": "El umbral pide un MINIMO de ventana >=20% y >=2x un WACC de referencia del 10%. SNPS supera el 20% solo en FY2022-FY2024, tres anios de diez. En FY2016-FY2021 el ROIC vive entre 10,8% y 16,2%, es decir en el entorno del propio coste de capital. NOPAT/ventas nunca alcanza el 20% en ningun anio de la ventana (maximo 19,2%).",
+    "higiene_de_denominador": "El denominador CORRECTO (con fondo de comercio) es estable y grande: $2,3 mm -> $5,0 mm entre FY2016 y FY2024, sin acercarse nunca a cero ni caer por debajo del 20% de su media. NO procede declarar NO MEDIBLE.",
+    "lectura_alternativa_rechazada": "Con capital invertido TANGIBLE (restando fondo de comercio e intangibles) el denominador es -503, -589, -278, +42, +180, -41, -257, +130, +1.312, -727 USDm: oscila alrededor de cero y cambia de signo seis veces, lo que activaria tanto la clausula de PASADA POR CONSTRUCCION como la de NO MEDIBLE. RECHAZO esa lectura por tres razones: (1) SNPS es un adquirente en serie — ha desembolsado $19,1 mm en compras en la ventana y su fondo de comercio ha pasado de $2,5 mm a $26,9 mm; excluir ese capital del denominador es exactamente el pecado contable que infla a un Valeant. (2) La clausula de higiene existe para proteger de un denominador que no mide, no para autorizar elegir el denominador que favorece. (3) El resultado de G2 corrobora de forma independiente: un negocio con ROIC economico del 40-100% no puede exhibir un ROIIC marginal del 3%. Stock y flujo de capital cuentan la misma historia.",
+    "efecto_ansys": "Tras cerrar Ansys el 17-07-2025, el capital invertido salta de $4,96 mm a $38,85 mm (deuda financiera de $15,6 m a $13.484,5 m; fondo de comercio a $26,9 mm; intangibles a $12,7 mm). Con el NOPAT proforma de anio completo, o incluso depurando toda la amortizacion de intangibles de compra, el ROIC FY2025 queda entre el 2% y el 7%. La operacion ha dividido aproximadamente por tres el retorno sobre el capital total de la compania.",
+    "cifra": "ROIC minimo de la ventana 3,5% (FY2025) / 10,8% excluyendo FY2025; maximo 25,1% (FY2022); solo 3 de 10 anios por encima del 20%. NOPAT/ventas maximo 19,2%.",
+    "cita": "XBRL companyfacts CIK 0000883241: OperatingIncomeLoss FY2018 $360.225.000 sobre StockholdersEquity $3.479.152.000 + deuda $469,3 m - caja $723.115.000; FY2025 OperatingIncomeLoss $914.927.000 con StockholdersEquity $28.327.602.000, LongTermDebt $13.484.515.000, Goodwill $26.899.215.000, IntangibleAssetsNetExcludingGoodwill $12.679.591.000"
+  },
+
+  "G3_PRECIO": {
+    "veredicto": "NO_MEDIBLE",
+    "busqueda_realizada": "Barrido completo del 10-K FY2025 buscando cualquier magnitud fisica o unitaria: copias licenciadas, puestos, asientos, disenos, tapeouts, design starts, unidades con royalty, numero de clientes. No existe ninguna serie publicada.",
+    "hallazgo_literal": "El 10-K FY2025 dice: 'License fees depend on the type of license, product mix, and number of copies of each product licensed' — reconoce que existe un numero de copias pero NO lo publica. Y sobre los royalties de Design IP: 'We have elected to exclude future sales-based royalty payments from the remaining performance obligations', de modo que tampoco hay serie de unidades por esa via.",
+    "consecuencia": "Sin denominador de volumen, el cociente crecimiento de ingresos / crecimiento de volumen no se puede formar. La elasticidad no es MEDIBLE, y eso es un resultado valido, no un fallo.",
+    "delator_kraft_heinz": "No aplicable de forma concluyente por falta de volumen, pero la forma observada es la CONTRARIA a la cosecha del foso: los ingresos crecen al 12-15% anual sostenido y el gasto en I+D crece MAS DEPRISA que los ingresos (I+D/ventas de 29,5% en FY2008 a 35,1% en FY2025). El margen de explotacion GAAP no se ha expandido recortando: subio de 9,7% (FY2018) a 22,1% (FY2024) con ventas casi duplicadas. No hay patron de margen al alza con volumen a la baja.",
+    "cifra": "0 series de volumen publicadas en 10 ejercicios de 10-K; I+D/ventas 29,5% (FY2008) -> 35,1% (FY2025)",
+    "cita": "10-K FY2025, accn 0000883241-25-000028: 'License fees depend on the type of license, product mix, and number of copies of each product licensed.' y 'We have elected to exclude future sales-based royalty payments from the remaining performance obligations.'"
+  },
+
+  "G4_RECESION": {
+    "veredicto": "SI",
+    "contraccion_identificada": "Colapso del semiconductor 2008-2009. Severidad corroborada con filings de terceros del propio sector: Cadence perdio -47% de ingresos desde el pico ($1.615,0 m en FY2007 a $852,6 m en FY2009) y se anoto un deterioro de fondo de comercio de $1.317,2 m en FY2008; Magma perdio -42,6% de ingresos ($214,4 m FY2008 a $123,1 m FY2010). Precedente de referencia del metodo: ASML -46% en 2009. La severidad >30% pico a valle queda establecida. [La cifra agregada WSTS del sector es INFERENCIA, no la he traido de fuente primaria; las caidas de los rivales SI son HECHO de 10-K.]",
+    "rival_nombrado_1": {
+      "nombre": "Cadence Design Systems (CIK 0000813672)",
+      "reduccion_de_capacidad": "I+D de $457,9 m (FY2008) a $354,7 m (FY2009) = -22,5% en un solo ejercicio, y -23,8% frente al pico de $494,0 m de FY2007. Plan de reestructuracion 2009 de $35,1 m sobre ~345 empleados; plan 2008 de $44,3 m adicionales. Deterioro de fondo de comercio de $1.317,2 m en FY2008.",
+      "fuente": "10-K Cadence FY2009 accn 0000950123-10-018407 y FY2010 accn 0000950123-11-017955"
+    },
+    "rival_nombrado_2": {
+      "nombre": "Magma Design Automation (CIK 0001065034)",
+      "reduccion_de_capacidad": "I+D de $76,920 m (FY2008) a $68,751 m (FY2009) a $47,024 m (FY2010) = -38,9%. Reestructuraciones desde mayo 2008 ($10,7 m en FY2009 + $2,7 m en FY2010) con reducciones de plantilla y RECORTES SALARIALES a mitad de ejercicio. Perdida neta de $(129,2) m en FY2009 con deterioro de fondo de comercio equivalente al 41% de los ingresos.",
+      "fuente": "10-K Magma FY2010 (cierre 2010-05-02) accn 0001193125-10-159649",
+      "desenlace": "Synopsys compro Magma en 2012. La captura de capacidad se consumo literalmente."
+    },
+    "aumento_de_capacidad_de_SNPS": "I+D de $394,7 m (FY2008) a $419,9 m (FY2009, +6,4%) a $449,2 m (FY2010) a $491,9 m (FY2011) = +24,6% acumulado, en el peor bienio de la historia del sector. CRUCE MEDIDO: en FY2008 SNPS gastaba 0,86x lo que Cadence en I+D; en FY2009 pasa a 1,18x y en FY2010 a 1,19x. El adelantamiento en dolares de I+D — la unidad fisica del foso en EDA — ocurrio DENTRO del hoyo, en un solo ejercicio.",
+    "cicatriz_nombrada": {
+      "linea": "Resultado de explotacion / margen de explotacion, y por debajo, el beneficio neto",
+      "magnitud": "Margen de explotacion de 16,39% (FY2008) a 15,31% (FY2009) a 13,33% (FY2010) a 13,86% (FY2011) a 10,82% (FY2012): -557 puntos basicos, sostenidos cuatro anios. El beneficio neto de FY2012 ($181,9 m) quedo un -4,3% POR DEBAJO del de FY2008 ($190,0 m) pese a unos ingresos +31,3% superiores. I+D/ventas subio en paralelo de 29,5% a 33,1%.",
+      "lectura": "Cuatro anios sin crecimiento del beneficio sobre un 31% mas de ventas. Ese es el precio que SNPS pago en su cuenta de resultados para comprar la capacidad que sus rivales soltaban. La cicatriz existe, esta nombrada y esta cuantificada."
+    },
+    "reserva": "Los ingresos de SNPS nunca cayeron (FY2009 +1,7%), asi que la compania no fue puesta a prueba en su propia linea de ventas. La puerta se juzga sobre el FOSO, no sobre el P&L, y sobre el foso el veredicto es claro.",
+    "cifra": "I+D SNPS +24,6% (FY2008-FY2011) frente a Cadence -22,5% (un ejercicio) y Magma -38,9%; cruce de gasto en I+D de 0,86x a 1,18x sobre Cadence en FY2009; cicatriz: margen de explotacion 16,39% -> 10,82%, BN de FY2012 un 4,3% por debajo del de FY2008 con ventas +31,3%",
+    "cita": "10-K Cadence FY2009 accn 0000950123-10-018407: 'Research and development expense decreased by $103.2 million during fiscal 2009, as compared to fiscal 2008' (de $457.913 a $354.703 miles). 10-K Magma FY2010 accn 0001193125-10-159649: 'The recent global economic downturn has negatively affected the semiconductor industry and our business, and in response to these adverse conditions we have had to implement a series of restructuring efforts' (I+D de $76.920 a $47.024 miles). XBRL SNPS: ResearchAndDevelopmentExpense FY2009 $419.908.000 vs FY2008 $394.747.000; OperatingIncomeLoss FY2012 $190.024.000 sobre Revenues $1.756.017.000"
+  },
+
+  "G2_PISTA": {
+    "veredicto": "NO",
+    "aviso_corregido": "La tasa de reinversion de la identidad g = tasa x ROIIC se reporta AQUI sobre el NOPAT, separada de la ratio sobre ventas que fija el umbral de la puerta. Son dos cosas distintas y se dan por separado.",
+    "definicion": "Reinversion = capex + I+D + marca + adquisiciones + variacion de circulante. Marca = 0 (SNPS no desglosa gasto de marca y EDA no es un negocio de marca de consumo; se declara el hueco). Circulante = (activo corriente - caja - inversiones) - pasivo corriente.",
+    "serie": [
+      {"FY": 2016, "capex": 67, "I+D": 857, "M&A": 60, "d_circulante": 0, "reinversion": 984, "pct_VENTAS": 41, "pct_NOPAT": 369},
+      {"FY": 2017, "capex": 70, "I+D": 909, "M&A": 259, "d_circulante": 135, "reinversion": 1374, "pct_VENTAS": 50, "pct_NOPAT": 470},
+      {"FY": 2018, "capex": 99, "I+D": 1085, "M&A": 653, "d_circulante": -302, "reinversion": 1535, "pct_VENTAS": 49, "pct_NOPAT": 507},
+      {"FY": 2019, "capex": 198, "I+D": 1137, "M&A": 37, "d_circulante": 540, "reinversion": 1911, "pct_VENTAS": 57, "pct_NOPAT": 437},
+      {"FY": 2020, "capex": 155, "I+D": 1279, "M&A": 201, "d_circulante": -84, "reinversion": 1550, "pct_VENTAS": 42, "pct_NOPAT": 298},
+      {"FY": 2021, "capex": 94, "I+D": 1505, "M&A": 296, "d_circulante": -359, "reinversion": 1535, "pct_VENTAS": 37, "pct_NOPAT": 249},
+      {"FY": 2022, "capex": 137, "I+D": 1680, "M&A": 422, "d_circulante": -141, "reinversion": 2098, "pct_VENTAS": 41, "pct_NOPAT": 215},
+      {"FY": 2023, "capex": 190, "I+D": 1947, "M&A": 298, "d_circulante": 182, "reinversion": 2616, "pct_VENTAS": 45, "pct_NOPAT": 245},
+      {"FY": 2024, "capex": 140, "I+D": 2082, "M&A": 157, "d_circulante": 915, "reinversion": 3293, "pct_VENTAS": 54, "pct_NOPAT": 289},
+      {"FY": 2025, "capex": 170, "I+D": 2479, "M&A": 16681, "d_circulante": -440, "reinversion": 18890, "pct_VENTAS": 268, "pct_NOPAT": 2458}
+    ],
+    "umbral_reinversion_sobre_VENTAS": "SUPERADO CON HOLGURA. Rango 37%-57% en la ventana normal (268% en FY2025 por Ansys), frente al umbral del 25%. Solo la I+D ya vale 30-35% de las ventas.",
+    "tasa_reinversion_sobre_NOPAT": "215%-507% en la ventana normal, media quinquenal FY2020-24 del 257%. Estructuralmente por encima del 100% porque toda la reinversion (I+D) se gasta dentro del propio NOPAT.",
+    "roiic_ventanas_moviles": [
+      {"periodo": "2016->2021", "d_NOPAT": 351, "reinversion_5a": 7905, "ROIIC_bruto_pct": 4.4, "ROIIC_ex_margen_pct": 2.5, "parte_margen_pct": 2.0},
+      {"periodo": "2017->2022", "d_NOPAT": 684, "reinversion_5a": 8629, "ROIIC_bruto_pct": 7.9, "ROIIC_ex_margen_pct": 2.9, "parte_margen_pct": 5.0},
+      {"periodo": "2018->2023", "d_NOPAT": 767, "reinversion_5a": 9711, "ROIIC_bruto_pct": 7.9, "ROIIC_ex_margen_pct": 2.7, "parte_margen_pct": 5.2},
+      {"periodo": "2019->2024", "d_NOPAT": 702, "reinversion_5a": 11093, "ROIIC_bruto_pct": 6.3, "ROIIC_ex_margen_pct": 3.2, "parte_margen_pct": 3.1},
+      {"periodo": "2020->2025", "d_NOPAT": 248, "reinversion_5a": 28432, "ROIIC_bruto_pct": 0.9, "ROIIC_ex_margen_pct": 1.7, "parte_margen_pct": -0.8}
+    ],
+    "descomposicion_ventana_principal_2019_2024": "d_NOPAT $702 m = $360 m de VOLUMEN a margen constante (51%) + $343 m de EXPANSION DE MARGEN (49%). Margen NOPAT de 13,0% a 18,6%.",
+    "conclusion": "El ROIIC bruto es 4,4%-7,9% en TODAS las ventanas moviles limpias; el ex-margen, que es el que mide productividad real del capital, es 2,5%-3,2%. Umbral 15%. Falla por un factor de cinco, y falla de forma estable, no por un anio raro. Casi la mitad del crecimiento del NOPAT no vino de que el capital rindiera sino de expansion de margen — y la expansion de margen se agota.",
+    "robustez": "Si se elimina la variacion de circulante del denominador, ROIIC 2019->2024 = 6,6% bruto / 3,4% ex-margen. Si se elimina ademas el desembolso de Ansys en FY2025, ROIIC 2020->2025 = 2,1% bruto / 4,1% ex-margen. Ninguna variante se acerca al 15%.",
+    "coherencia_con_la_identidad": "g = tasa x ROIIC = 2,57 x 6,3% = 16,2%. El crecimiento real de ingresos FY2019-FY2024 fue 12,8% CAGR y el de NOPAT 21,1%; la diferencia es precisamente la expansion de margen. La identidad cierra.",
+    "efecto_sobre_la_etiqueta": "G2 no suspende: decide especie. Con G2 en NO, la especie es ULTRA-C (cosecha), no ULTRA-R (reinversion).",
+    "cifra": "Reinversion 37%-57% de VENTAS (umbral 25%: PASA) y 215%-507% del NOPAT; ROIIC bruto 6,3% y ROIIC ex-margen 3,2% en la ventana FY2019-FY2024 (umbral 15%: FALLA)",
+    "cita": "XBRL companyfacts CIK 0000883241: ResearchAndDevelopmentExpense FY2024 $2.082.360.000, PaymentsToAcquirePropertyPlantAndEquipment FY2024 $139.500.000, PaymentsToAcquireIntangibleAssets (adquisiciones netas de caja) FY2024 $156.947.000 y FY2025 $16.681.257.000; OperatingIncomeLoss FY2019 $520.231.000 y FY2024 $1.355.711.000"
+  },
+
+  "G6_MECANISMO": {
+    "veredicto": "SI",
+    "poder_de_helmer": "COSTES DE CAMBIO (principal), reforzado por ESCALA en I+D y por RECURSO ACORRALADO (ingenieria doctoral de EDA).",
+    "magnitud_en_su_unidad": {
+      "unidad": "duracion del bloqueo contratado — la unidad propia de un coste de cambio",
+      "medida": "Cartera contratada (RPO) de $11.400 m al 31-10-2025, equivalente a 1,6 anios de ingresos de FY2025. Solo el ~45% se reconoce en los proximos 12 meses; 'la mayoria del resto se espera reconocer en los tres anios siguientes'. Es decir, el cliente medio se ata ~3-4 anios por adelantado.",
+      "serie_RPO_USDm": {"FY2019": 4400, "FY2020": 4900, "FY2021": 6900, "FY2022": 7100, "FY2023": 8100, "FY2024": 8100, "FY2025": 11400},
+      "crecimiento": "RPO x2,6 en seis anios. El bloqueo se estrecha, no se afloja."
+    },
+    "magnitudes_de_refuerzo": {
+      "escala_I+D": "$2.479 m de I+D en FY2025 (35,1% de las ventas). En FY2009 la misma partida de Cadence entera era $354,7 m.",
+      "recurso_acorralado": "~28.000 empleados al cierre de FY2025, ~75% ingenieros, mas de la mitad con Master o doctorado; rotacion voluntaria del 5,7%.",
+      "cualificacion_de_fundicion": "Las herramientas se co-desarrollan y se certifican contra cada proceso de fabricacion: 'We work closely with major foundries to ensure that our EDA, IP and manufacturing solutions are compatible with their manufacturing processes.' Un diseno en curso (2-4 anios hasta tapeout) no puede cambiar de herramienta de signoff a mitad de camino: PrimeTime es de facto el contrato tecnico entre disenador y fundicion."
+    },
+    "caducidad_estimada": ">10 anios. El mecanismo esta anclado a la fisica del diseno de chips y al ciclo de cualificacion por nodo, no a una moda comercial.",
+    "busqueda_de_arranque_del_reloj_24_meses": {
+      "candidato_1": "EDA generativa / agentes de diseno basados en LLM, que podrian comprimir la cadena de herramientas y permitir un salto de rana. El propio 10-K admite 'new competitors entering these markets both domestically and internationally'. NO ha arrancado el reloj: la cartera contratada crecio de $8,1 mm a $11,4 mm en el ejercicio.",
+      "candidato_2": "Controles de exportacion a China. El 10-K lo senala explicitamente como riesgo anticipado. Es un riesgo GEOGRAFICO de mercado direccionable, no una erosion del mecanismo.",
+      "candidato_3": "Herramientas internas de los clientes: 'some of our customers internally develop design tools and capabilities that compete with our products.' Riesgo permanente, sin evidencia de aceleracion.",
+      "veredicto_del_reloj": "Ninguno de los tres ha empezado a correr de forma observable: cartera contratada +41% en el ejercicio, rotacion voluntaria del 5,7%, ingresos +15%."
+    },
+    "reserva": "Ansys anade un foso NUEVO (simulacion y analisis multifisica) cuyos costes de cambio son reales pero cuya integracion lleva 3,5 meses de vida contable. El mecanismo probado es el de EDA; el de S&A esta heredado, no demostrado bajo esta gestion.",
+    "poder": "Costes de cambio (reforzado por escala en I+D y recurso acorralado de ingenieria)",
+    "magnitud": "Cartera contratada de $11.400 m = 1,6 anios de ventas, de la que solo el 45% vence a 12 meses; el cliente medio se compromete 3-4 anios. RPO x2,6 en seis anios. I+D de $2.479 m (35,1% de ventas). 28.000 empleados, 75% ingenieros, mas de la mitad con Master o doctorado, rotacion voluntaria 5,7%.",
+    "caducidad": ">10 anios; reloj no arrancado en los ultimos 24 meses (cartera +41% en el ejercicio)",
+    "cita": "10-K FY2025, accn 0000883241-25-000028: 'Approximately 45% of the backlog as of October 31, 2025, excluding non-cancellable FSA, is expected to be recognized as revenue over the next 12 months, with the remainder recognized thereafter. The majority of the remaining backlog is expected to be recognized in the following three years.' / 'We work closely with major foundries to ensure that our EDA, IP and manufacturing solutions are compatible with their manufacturing processes.' / 'As of fiscal 2025 year-end, Synopsys had approximately 28,000 employees... Approximately 75% of our employees are engineers, and over half hold Master's or PhD degrees... our voluntary turnover rate was 5.7%.'"
+  },
+
+  "SINTESIS": {
+    "recuento": "Puertas que cuentan: G5, G1, G3, G4, G6. G5 SI_REFORZADO. G1 NO (unico fallo real). G3 NO_MEDIBLE (no cuenta como fallo). G4 SI. G6 SI. G2 NO -> no suspende, fija especie ULTRA-C.",
+    "etiqueta": "MUY_BUENA",
+    "por_que_no_es_ULTRA": "Un solo fallo, pero es el fallo estructural: el retorno sobre el capital total. SNPS gana entre el 11% y el 25% sobre todo el capital que consume, y solo tres anios de diez por encima del 20%. Y el ROIIC, que mide lo mismo en el margen, es del 3% ex-expansion de margen. No es un accidente contable: es la naturaleza de una carrera tecnologica que exige gastar el 35% de las ventas en I+D solo para no perder el nodo siguiente.",
+    "por_que_no_es_MENOS_5_6": "Las otras cuatro puertas medibles se ganan y se ganan bien. La caja es limpia y reforzada, el foso esta probado en el peor hoyo del sector con dos rivales nombrados y cicatriz cuantificada, y el mecanismo esta nombrado con una unidad y una magnitud que crecen.",
+    "el_hecho_mas_importante_que_han_sacado_las_puertas": "Ansys. El 17-07-2025 SNPS convirtio un balance con $15,6 m de deuda en uno con $13.484,5 m, y multiplico por ocho su capital invertido para comprar un NOPAT proforma que no llega a duplicar el suyo. Bajo cualquier tratamiento defendible — GAAP, proforma de anio completo, o depurando toda la amortizacion de compra — el ROIC FY2025 queda entre el 2% y el 7%. La operacion ha dividido por tres el retorno sobre el capital total de la compania. Ninguna puerta lo condena por si sola, pero G1 y G2 lo senalan a la vez y con el mismo dedo.",
+    "confianza": "ALTA",
+    "puerta_mas_dudosa": "G1"
+  }
+}

@@ -1,0 +1,1387 @@
+{
+  "summary": "Re-valoración con metodología val-mos v2 (arquetipo, EPV suelo, tri-método, WACC por tier) de las top-15 del ranking QG; comparación v1 vs v2",
+  "agentCount": 22,
+  "logs": [
+    "Re-valorando las top-15 con metodología val-mos v2 (arquetipo + EPV suelo + tri-método + WACC por tier)...",
+    "Valoradas v2 15/15. Verificando sanidad y compras..."
+  ],
+  "result": {
+    "fichas": [
+      {
+        "ticker": "ADYEN",
+        "name": "Adyen N.V.",
+        "arquetipo": "compounder",
+        "precio_actual": 820,
+        "fuente_precio": "Euronext Amsterdam, cierre 30-jun-2026 ~EUR820 (Yahoo/Google Finance, consultado 2-jul-2026). Rango 52s EUR772-1601.",
+        "qg_tier": "Alta convicción (75.6/100)",
+        "detector": {
+          "veredicto": "PASA",
+          "senales_estructurales": [],
+          "notas": "0 de 6 señales estructurales. (1) ROIC: sin declive, ROIC>40% asset-light, márgenes SUBIENDO. (2) Cuota: net revenue +18% (+21% cc) FY25, ganando cuota enterprise, no la pierde. (3) Disrupción: Adyen ES el disruptor single-platform; no hay tecnología sustituyendo su core. (4) Márgenes: EBITDA 50%→53% FY25, guía >55% a 2028 = EXPANSIÓN, no compresión. (5) Contabilidad: sin restatements; consenso al alza (PO medio EUR1.381, 28 compras); sin 3T de recortes. (6) Deuda: CERO deuda, ~EUR4.4B caja propia neta. Detector limpio."
+        },
+        "dcf_inverso": {
+          "g_implicita": "~6% crec. owner earnings/10a implícito en EUR820 (EV ex-caja ~22x OE, WACC 8.5%, terminal 2.9%)",
+          "veredicto": "BAJAS"
+        },
+        "metodos": {
+          "dcf_valor": 1149,
+          "fcf_yield_valor": 916,
+          "multiplo_valor": 1010,
+          "epv_suelo": 362,
+          "multiplo_justificado": 28,
+          "multiplo_actual": 22,
+          "wacc_usado": 0.085
+        },
+        "pwfv_valor": 1056,
+        "banda_honesta": "EUR 920 – 1160 (bajo = FCF-yield-con-crec EUR916; alto = DCF base EUR1.161; ancla blend EUR1.056)",
+        "zona": "OPORTUNIDAD",
+        "mos": {
+          "actual_pct": 22,
+          "exigido_pct": 25,
+          "cumple": false,
+          "multiplo_actual": 22,
+          "techo_tier": 30,
+          "cumple_techo": true
+        },
+        "asimetria": {
+          "ratio": 1.7,
+          "pasa": false
+        },
+        "veredicto_final": "ESPERAR",
+        "data_confidence": "MEDIUM",
+        "degradada": false,
+        "frase_tesis": "El mercado teme que el hipercrecimiento pasado de Adyen se desvanezca y la valora como si creciera ~6% eterno (múltiplo ~22x OE ex-caja); está mal dimensionado porque la propia guía es ~20% net revenue/año con margen EBITDA expandiéndose de 53% a >55% a 2028, ROIC>40% y cero deuda — la matemática del compounding, no la del deep value.",
+        "niveles_gatillo": "COMPRAR TRAMO (MoS 25%) a EUR792 (a solo -3% de hoy; el mínimo 52s EUR772 ya lo tocó). GANGA FUERTE (MoS 35%) a EUR686. Alertas watchlist: -25% desde máx 52s (EUR1601) = EUR1201 (ya superada, en vigilancia), -35% = EUR1041.",
+        "supuestos_clave": "Owner earnings FY25 ~EUR980M = FCF ~EUR1.100M (conversión 87% × EBITDA EUR1.245,7M + float) − SBC ~EUR120M (INFERENCIA: ~5% net revenue, no desglosado en el press release). Shares 31,54M. Caja propia neta ~EUR4,4B (HECHO). DCF ponderado 30/45/25 sobre crec. OE que decae desde 12%/17%/21% a terminal 2,9%; WACC 8,5% (tier Alta convicción); múltiplo justificado 28x (ROIC>40%+crec>15%+moat durable) capado a techo 30x. EPV Greenwald EUR362 (NOPAT normalizado/WACC) = SUELO reportado, peso 0.",
+        "patron": {
+          "aplica": "P5 — La duración es el descuento (calidad extrema a precio justo)",
+          "evidencia": "Compounder single-platform con ROIC>40%, runway largo (net revenue +20%/año guiado, TAM pagos global), moat de red/switching. A ~22x OE ex-caja el mercado solo descuenta ~10 años de reinversión y ~6% de crecimiento; el DCF inverso lo confirma (BAJAS). Amplifica convicción PERO no genera señal de compra por sí solo: el patrón AMPLIFICA, no dispara. Techo de múltiplo (30x) se respeta con holgura."
+        },
+        "delta_v1": "v1 dio PWFV EUR900 con precio ~EUR847 (JUSTO, sin margen). v2 sube el ancla a EUR1.056 (+17%) y mueve la zona a OPORTUNIDAD por dos correcciones: (a) v1 metía el EPV (EUR362, valor sin crecimiento) en el promedio del ancla, arrastrándolo ~15-20% abajo e infravalorando el franchise de crecimiento; v2 lo saca del ancla (peso 0, solo suelo de downside). (b) v1 usaba WACC 9%; v2 escala a 8,5% por tier Alta convicción (quality-growth sin deuda merece tasa menor que el mercado). Además v2 incorpora múltiplo justificado 28x DENTRO del ancla (25% peso) en vez de dejarlo fuera. Resultado: el mismo negocio pasa de 'JUSTO sin margen' a 'OPORTUNIDAD con MoS 22%', coherente con que un compounder QG no exige descuento deep-value sino múltiplo de entrada razonable + runway + ROIC alto.",
+        "_qg": 75.6,
+        "_tier": "Alta convicción",
+        "_v1": 900,
+        "_verif": {
+          "sano": true,
+          "correcciones": [],
+          "notas": "SANIDAD: el PWFV v2 = 1056 es CREIBLE y ya no adolece del deep-value absurdo de v1 ni de sobre-correccion. (1) Consistencia interna verificada: tri-metodo 1149x0.50 + 916x0.25 + 1010x0.25 = 1056 exacto; EPV 362 correctamente con peso 0 (34% del PWFV, ya NO arrastra el ancla hacia abajo, que era el error v1). (2) Nivel razonable: PWFV/OE ~=29.3x vs precio/OE ~=22.7x; para un compounder ROIC>40%, crecimiento ~20% con moat durable, ~29x owner earnings esta DENTRO de la guia 25-30x del metodologia. Ni 10x ni 50x. Ningun metodo domina de forma absurda (DCF al 109% del PWFV pero solo 50% ponderado; FCF-yield 916 y multiplo 1010 lo anclan hacia abajo).\n\nREFUTACION (la compra no existe: no hay compra que refutar, pero ataque los tres vectores igual): (A) WACC 8.5% = tier Alta Conviccion, el escalon MEDIO, NO el generoso 7.5% de Nucleo -> no es demasiado generoso; defensible para un compounder con moat. (B) Multiplo justificado 28x esta POR DEBAJO del techo AltaConv (30x) e INSIDE la banda economica 25-30x -> NO inflado sobre el techo del tier. Pasa. (C) DCF inverso: el precio implica ~22.7x OE < 28x justificado -> crecimiento implicito POR DEBAJO del justo = RAZONABLES/BAJAS, NO HEROICAS -> candado GANGA correctamente NO activado; no se ignoro ninguna senal heroica. Detector sin trampas aparentes (capital-light, ROIC alto, sin denominador deprimido).\n\nVEREDICTO: precio 820 vs PWFV 1056 = -22.3% descuento -> zona OPORTUNIDAD (15-25% dcto). PERO el MoS minimo del tier AltaConv es >=25%. A 22.3% NO se cruza la barra de 25% -> NO es compra todavia. ESPERAR se sostiene (correcto). Falta ~2.7pp de descuento (precio gatillo ~=790-792 para MoS 25%).\n\nFLAG DE FRAGILIDAD (no es error, es dependencia de tier): toda la cercania a comprable descansa en clasificar ADYEN como AltaConv (WACC 8.5%, techo 30x). Si el score QG lo situa en Solida (WACC 9.5%, techo 25x), el DCF cae ~12-15% -> PWFV comprime a ~970-990 (precio quedaria a ~15-17% dcto, ya no OPORTUNIDAD limpia) Y el multiplo justificado de 28x VIOLARIA el techo de 25x, exigiendo bajarlo. Recomendacion: verificar que el score QG vigente confirme tier AltaConv (75-84) antes de fiarse del 22% como cuasi-comprable. Con el tier declarado, los numeros son sanos y el veredicto ESPERAR es correcto."
+        }
+      },
+      {
+        "ticker": "VEEV",
+        "name": "Veeva Systems Inc.",
+        "arquetipo": "Compounder estable (vertical SaaS ciencias de la vida)",
+        "precio_actual": 184.22,
+        "fuente_precio": "Yahoo Finance / StockAnalysis, cierre 1-jul-2026 $184.22 (pre-market 2-jul ~$182). HECHO.",
+        "qg_tier": "Alta convicción (77.6/100)",
+        "detector": {
+          "veredicto": "PASA",
+          "senales_estructurales": [],
+          "notas": "0 de 6 señales estructurales. ROIC ~34.5% y ESTABLE/creciente (no declive). Gana cuota: Vault CRM desplaza a Salesforce, +16% de crecimiento de ingresos FY26 por encima del sector. Sin disrupción del modelo — VEEV es el beneficiario de IA (guidance FY27 SUBIDA a ~$9.05 EPS por CRM+AI wins), no la víctima. Márgenes brutos ~75% subscription estables/expandiéndose, margen op no-GAAP ~44%. Contabilidad limpia, sin restatements, brecha GAAP/no-GAAP explicada por SBC. Cero deuda, $6.56B caja. Consenso EPS siendo REVISADO AL ALZA (lo opuesto a señal 5). Test decisivo: ingresos orgánicos + margen + ROIC todos crecientes = mispricing por sentimiento (caída -41% desde máximo 52s $310.50), no deterioro."
+        },
+        "dcf_inverso": {
+          "g_implicita": "El precio $184 implica solo ~9% de crecimiento temprano de owner earnings (decayendo a ~5%), muy por debajo del consenso ~13% y del +16% real FY26/Q1FY27.",
+          "veredicto": "BAJAS"
+        },
+        "metodos": {
+          "dcf_valor": 220.26,
+          "fcf_yield_valor": 222.32,
+          "multiplo_valor": 176.56,
+          "multiplo_justificado": 25,
+          "epv_suelo": 103.31,
+          "wacc_usado": 0.085
+        },
+        "pwfv_valor": 209.85,
+        "zona": "JUSTO",
+        "mos": {
+          "actual_pct": 12.2,
+          "exigido_pct": 25,
+          "cumple": false,
+          "multiplo_actual": 33.5,
+          "techo_tier": 30,
+          "cumple_techo": false
+        },
+        "asimetria": {
+          "ratio": 0.32,
+          "pasa": false
+        },
+        "veredicto_final": "ESPERAR",
+        "data_confidence": "HIGH",
+        "degradada": false,
+        "delta_v1": "v1 dio PWFV $167 (DEMASIADO DURO). Dos correcciones v2 elevan el ancla a ~$210 (+26%): (1) EPV Greenwald ($103, castiga brutalmente a un compounder porque asume crecimiento cero) salió del ancla a PESO 0 y ahora es solo SUELO de downside; (2) WACC bajó de 9% a 8.5% (tier Alta convicción), lo que solo sube el DCF y el FCFy. Además el ancla v2 blend (DCF 50% $220 + FCFy 25% $222 + múltiplo 25% $177) ya no promedia el EPV. Resultado: la zona pasa de OPORTUNIDAD-falsa (v1) a PRECIO JUSTO honesto (v2). Aun así v2 NO fuerza compra: a 33.5x owner earnings el múltiplo actual excede el techo de 30x del tier y el MoS (12%) no llega al 25% exigido.",
+        "frase_tesis": "El mercado teme que el hype de IA erosione el vertical SaaS de VEEV; está mal dimensionado porque VEEV es el beneficiario neto (guidance FY27 subida por CRM+AI wins, ROIC 34% creciente, +16% ingresos) — pero a $184 el precio ya paga esa calidad casi entera (33.5x OE, MoS solo 12%).",
+        "banda_honesta": "$177 - $222 (centro ~$210). Precisión honesta: el ancla es sensible al g sostenible del FCFy; a g=6% cae a $177, a g=7.5% sube a $259. No hay falsa precisión — banda de ~±10%.",
+        "niveles_gatillo": "OPORTUNIDAD (tramo 3-5%) si toca <= $178 (15% dcto, MoS ~15% mínimo hacia el ancla). GANGA FUERTE si <= $157 (25% dcto, habilita tramo mayor y candado GANGA satisfecho). Alerta de vigilancia -25% desde máximo 52s ($310.50) = $233 YA cruzada. Revisar tras resultados Q2 FY27.",
+        "supuestos_clave": "Owner earnings FY26 = FCF ~$1,390M (OCF $1,415M − capex mínimo asset-light) − 100% SBC $472.7M = ~$917M (~$5.49/acción), casi idéntico al NI GAAP $908.9M (buen sanity check). 167M acciones diluidas. $6.56B caja neta (sin deuda) sumada al equity. DCF 10 años ponderado (pes 25% g9%→5%, base 50% g13%→7%, opt 25% g16%→9%), terminal g 3%, WACC 8.5%. Múltiplo justificado 25x (ROIC 34%+crec 13%→zona alta-20s, capado bajo 30x del tier). EPV a WACC 8.5% sobre NI GAAP.",
+        "patron": {
+          "aplica": "P5 (la duración es el descuento) — parcial",
+          "evidencia": "VEEV es un peaje de ciencias de la vida con moat de switching costs profundo y runway largo (target $6B run-rate 2030 desde $3.2B), ROIC 34% reinvertible. P5 diría que un compounder así a múltiplo 'justo' puede ser ganga porque el mercado solo descuenta ~10 años. PERO: el patrón AMPLIFICA, no genera señal; a 33.5x OE sobre el techo de 30x y con MoS de solo 12%, no habilita compra. La vía-sin-crisis de Smith es SOLO para Núcleo, y VEEV es Alta convicción — no aplica."
+        },
+        "_qg": 77.6,
+        "_tier": "Alta convicción",
+        "_v1": 167,
+        "_verif": {
+          "sano": true,
+          "correcciones": [],
+          "notas": "SANIDAD (A): PWFV v2 es creíble. Implica ~29.7x owner earnings, múltiplo de rango medio-alto sensato para un compounder SaaS de moat durable; ni el deep-value absurdo de v1 (10x) ni sobre-corrección burbuja (50x). El EPV suelo 103.31 está correctamente con peso 0 (piso de downside), NO arrastra el ancla — error de v1 evitado. Dispersión entre métodos ~22%, tensión sana: el múltiplo justificado (176.56, el más conservador y derivado de calidad) disciplina el optimismo del DCF/FCF-yield. Aritmética tri-método verificada: 0.5*220.26 + 0.25*222.32 + 0.25*176.56 = 209.85 exacto.\n\nREFUTACIÓN (B): No hay compra que refutar, pero reviso cada palanca de todos modos. (1) WACC 8.5% = ancla EXACTA del tier Alta convicción del método (Núcleo 7.5 / AltaConv 8.5 / Sólida 9.5). NO está por debajo de escala ni es generoso — es el escalón medio. Defensible siempre que el score QG de VEEV sea genuinamente 75-84; si fuera Sólida (65-74) debería ser 9.5% y quedaría bajo (única dependencia externa no verificable aquí). (2) Múltiplo justificado 25x < techo del tier 30x → bajo el tope, NO inflado sobre el techo. Se sitúa en el tope de la banda ROIC 25-30% + crec ~10% → 20-25x; razonable dado el ROIC alto de VEEV. (3) DCF inverso: el precio implica ~26x sobre los mismos owner earnings vs 25x justificado → RAZONABLE, no HEROICAS. El candado GANGA correctamente NO se activó; forzarlo sería castigar mecánicamente al compounder. (4) Detector: sin señal omitida — 2 de 3 métodos ponen valor sobre precio, solo el múltiplo conservador queda ligeramente debajo; ningún patrón de trampa de valor.\n\nCONSISTENCIA ZONA/VEREDICTO: descuento 12.2% → zona PRECIO JUSTO (±15%). MoS disponible 12.2% < 25% exigido (Alta convicción) → NO SE COMPRA. ESPERAR es correcto. Gatillo de compra (25% MoS) ≈ 157.39. Único punto de vigilancia: confirmar que el tier QG justifica el WACC 8.5%; si el score baja a Sólida, recalcular con 9.5% (bajaría DCF/FCF-yield y el PWFV, ampliando aún más la brecha para comprar)."
+        }
+      },
+      {
+        "ticker": "MA",
+        "name": "Mastercard Incorporated",
+        "arquetipo": "Compounder estable (peaje de pagos, duopolio con Visa)",
+        "precio_actual": 513.6,
+        "fuente_precio": "MarketBeat/TradingView, cierre 1-jul-2026 ($513.60; 52s $464.52-$601.77) — HECHO",
+        "qg_tier": "Alta convicción (84/100) → WACC 8.5%, techo múltiplo 30x, MoS mínimo 25%",
+        "detector": {
+          "veredicto": "PASA",
+          "senales_estructurales": [],
+          "notas": "0/6 señales estructurales. ROIC 41-49% y estable/creciente; gana cuota (GDV +11% LC, cross-border +18%); márgenes operativos estables-expandiéndose; sin deuda opaca (ND/EBITDA ~0.4x); consenso EPS FY+1 AL ALZA (2026 ~$20, +15%), no recortes; sin restatements. Test decisivo: ingresos orgánicos +16%, margen op. creciente, ROIC alto = franquicia intacta, NO deterioro."
+        },
+        "dcf_inverso": {
+          "g_implicita": "Precio $513.6 / OE $17.8 = 28.9x; para justificar con WACC 8.5% y terminal 3%, implica crecimiento de owner earnings ~11-12% anual 10 años",
+          "veredicto": "RAZONABLES"
+        },
+        "metodos": {
+          "dcf_valor": 538,
+          "fcf_yield_valor": 560,
+          "multiplo_valor": 498,
+          "multiplo_justificado": 28,
+          "epv_suelo": 180,
+          "wacc_usado": 8.5
+        },
+        "pwfv_valor": 531,
+        "zona": "JUSTO",
+        "mos": {
+          "actual_pct": 3.3,
+          "exigido_pct": 25,
+          "cumple": false,
+          "multiplo_actual": 28.9,
+          "techo_tier": 30,
+          "cumple_techo": true
+        },
+        "asimetria": {
+          "ratio": 0.75,
+          "pasa": false
+        },
+        "veredicto_final": "ESPERAR",
+        "data_confidence": "MEDIUM",
+        "degradada": false,
+        "banda_honesta": "$490 - $575",
+        "frase_tesis": "El mercado NO teme nada específico en MA hoy (Strong Buy consenso, precio a −15% de máximos por rotación de estilo, no por herida). No hay condición de oportunidad activa: paga un múltiplo razonable (28.9x OE) para un compounder de ROIC 41% y crecimiento 12-15%, pero sin margen de seguridad del tier.",
+        "niveles_gatillo": "OPORTUNIDAD (15% dcto sobre PWFV $531) ≈ $451; GANGA FUERTE (25% dcto) ≈ $398. Alertas watchlist: −25% de máx 52s ($601.77) ≈ $451 (revisar); −35% ≈ $391 (candidata a tramo). Múltiplo techo 30x OE ≈ $534 tope de sobrepago.",
+        "supuestos_clave": "OE/acción ~$17.8 (FCF 2025 ~$16.8B centro macrotrends/stockanalysis − SBC $597M ≈ $16.2B / ~910M acciones). WACC 8.5% (Alta convicción). DCF: base crec OE 12% (55%), opt 14% (25%), pes 8% (20%). Terminal g 3%. Múltiplo justificado 28x (ROIC≥40%&crec≥12% → 25-30x, capado al techo 30x). FCF-yield-con-crecimiento: retorno tier ~9.5-10% vs FCF-yield 3.6% + crec 12%.",
+        "patron": {
+          "aplica": "P5 (la duración es el descuento) + P7 (miedo al peaje equivocado), como LENTE",
+          "evidencia": "P5: moat de 20+ años a ROIC 41% justifica 25-30x que ningún screen marca barato. P7: el miedo regulatorio/stablecoin (BVNK, interchange) golpea un peaje cuya economía cobra igual en ambos escenarios. PERO: ningún patrón genera señal sin zona — hoy no hay gatillo de precio, solo amplificarían si MA cayera a zona OPORTUNIDAD."
+        },
+        "delta_v1": "v1 dio PWFV $410 (precio $513.6 → parecía CARO/BURBUJA). v2 sube a ~$531 (+30%) por 3 correcciones: (1) EPV SALE del ancla — en v1 arrastraba el valor 15-25% abajo; en v2 es SUELO reportado ($180/acción), peso 0. (2) WACC baja de 9% a 8.5% (escalado por tier Alta convicción; el compounder sin deuda no merece el WACC del mercado). (3) el múltiplo justificado 28x ENTRA al blend (25%), y el SBC real de MA es bajo (~$597M, ~$0.66/acción) — v1 apilaba conservadurismo restando SBC + WACC alto + terminal bajo + EPV. Resultado: v1 exigía descuento deep-value a un compounder de crecimiento (error Graham); v2 lo reclasifica de CARO a JUSTO. El veredicto operativo NO cambia mucho (sigue sin MoS del 25%), pero el diagnóstico es honesto: MA está en precio JUSTO, no en burbuja.",
+        "_qg": 84,
+        "_tier": "Alta convicción",
+        "_v1": 410,
+        "_verif": {
+          "sano": true,
+          "correcciones": [],
+          "notas": "SANIDAD (A): el PWFV v2 = 531 es creible. Reconstruccion tri-metodo (DCF 50% 538 · FCF-yield 25% 560 · Multiplo 25% 498) da 533.5, consistente con 531 (redondeo). Dispersion entre metodos ~11.7% (ajustada, ningun metodo es outlier que arrastre el ancla). PWFV implica ~29.9x owner earnings — razonable para un peaje ROIC >50%, crecimiento mid-teens y moat de red de pagos duopolico; ni el deep-value absurdo de v1 (~10x) ni sobre-correccion (~50x). PWFV/EPV = 2.95x (EPV suelo 180 correctamente a peso 0), o sea ~66% del valor es franquicia/crecimiento: coherente con un compounder, no colapsado ni inflado.\n\nREFUTACION (B): intente romper el numero por los cuatro flancos y ninguno cede.\n1) WACC 8.5% (tier Alta Conviccion) NO es demasiado generoso: es MAS estricto que el escalon Nucleo 7.5% que a MA probablemente le corresponderia por calidad. Si acaso, tratarlo como Nucleo subiria el PWFV; 8.5% es la eleccion conservadora, no infla el caso de compra.\n2) Multiplo justificado 28x NO esta inflado sobre el techo: bajo el tope AltaConv 30x (y muy bajo el Nucleo 35x), y por DEBAJO de la mediana historica propia de MA (~32x). Conservador.\n3) DCF INVERSO no dice HEROICAS: el precio 513.6 (~28.9x OE a 8.5%) implica ~5% de crecimiento perpetuo, muy por debajo del ~mid-teens historico de MA y dentro de base rates Mauboussin para large-cap → BAJAS/RAZONABLES. El candado GANGA correctamente NO se activa; no se ignoro ninguna senal heroica.\n4) Detector no paso por alto senales relevantes: negocio sin deterioro ciclico, sin denominadores deprimidos que justifiquen sobrecargo turnaround.\n\nVEREDICTO: precio a solo -3.3% del PWFV = zona PRECIO JUSTO (±15%). El MoS disponible (~3.3%) esta muy por debajo del minimo exigido para Alta Conviccion (>=25%), por lo que NO hay compra. ESPERAR se confirma sin cambios. Cero correcciones."
+        }
+      },
+      {
+        "ticker": "V",
+        "name": "Visa Inc.",
+        "arquetipo": "compounder",
+        "precio_actual": 358.09,
+        "fuente_precio": "CNBC / stockanalysis.com, cierre intradía 2-jul-2026 ($358.09; rango día 351.76-358.84)",
+        "qg_tier": "Alta convicción (82.4/100)",
+        "detector": {
+          "veredicto": "PASA",
+          "senales_estructurales": [],
+          "notas": "0/6 señales estructurales. (1) ROIC ~30-33% estable, sin declive secular. (2) Sin pérdida de cuota: volúmenes de pago crecen doble dígito, duopolio V+MA intacto. (3) Disrupción stablecoin/A2A es NARRATIVA, no deterioro de fundamentales — volúmenes trailing siguen +11% (Q2-26 rev +17%). (4) Márgenes operativos ~65% sin compresión. (5) Contabilidad limpia: el gap GAAP $10.20 vs adj $11.47 es la provisión de litigio interchange ($2.5B, conocida y no recurrente), NO restatement. (6) Deuda neta ~$2.4B negligible. Consenso EPS FY+1 estable/al alza (Zacks +11.7%/+13.2%), sin recortes. Test decisivo: ingresos orgánicos + margen + ROIC crecientes = mispricing potencial si hubiera descuento, pero aquí no hay descuento."
+        },
+        "dcf_inverso": {
+          "g_implicita": "P/OE 32.5x ($358 / OE $11.01) con WACC 8.5% y terminal 3% implica crecimiento de owner earnings ~11-12% durante 10 años con fade — en línea con consenso (11-13%) e historia del peaje",
+          "veredicto": "RAZONABLES"
+        },
+        "metodos": {
+          "dcf_valor": 360,
+          "fcf_yield_valor": 400,
+          "multiplo_valor": 308,
+          "multiplo_justificado": 28,
+          "epv_suelo": 131,
+          "wacc_usado": 0.085
+        },
+        "pwfv_valor": 357,
+        "zona": "JUSTO",
+        "mos": {
+          "actual_pct": -0.3,
+          "exigido_pct": 25,
+          "cumple": false,
+          "multiplo_actual": 32.5,
+          "techo_tier": 30,
+          "cumple_techo": false
+        },
+        "asimetria": {
+          "ratio": 0.5,
+          "pasa": false
+        },
+        "veredicto_final": "ESPERAR",
+        "data_confidence": "HIGH",
+        "degradada": false,
+        "delta_v1": "v1 dio PWFV $238 con precio ~$352: DEMASIADO DURO. Dos errores corregidos en v2: (a) metió el EPV ($131/acción, valor-sin-crecimiento) DENTRO del ancla, arrastrándola ~40% abajo — en v2 el EPV es SUELO de downside con peso 0; (b) usó WACC 9% de mercado en vez del 8.5% escalado al tier Alta convicción, y dejó el múltiplo justificado fuera del número. v2 blend por arquetipo compounder (DCF 50% $360 + FCF-yield 25% $400 + múltiplo justificado 28x = 25% $308) = $357, +50% vs v1. Efecto: Visa pasa de 'burbuja falsa' (v1 lo pintaba 48% sobre valor) a PRECIO JUSTO — un compounder de peaje cotizando a valor razonable, sin sobrepago pero sin margen para tramo hoy.",
+        "frase_tesis": "El mercado teme la disrupción del peaje (stablecoins, A2A, techo regulatorio de interchange); ese miedo está mal DIRECCIONADO porque la economía del peaje Visa cobra igual sobre el volumen liquidado con independencia del riel — pero HOY el precio no descuenta ese miedo, cotiza a valor justo, así que la tesis P7 no genera oportunidad ahora.",
+        "qg_tier_scorenote": "82.4/100 = Alta convicción → WACC 8.5%, techo 30x, MoS exigido 25%",
+        "banda_honesta": "$320–$395 (punto central $357). No falsa precisión: el DCF es sensible a la g sostenida del volumen de pagos y al fade terminal; a g base 11% da ~$360, a pesimista (interchange + nibble stablecoin, g 8%) ~$290, a optimista (g 13%) ~$430.",
+        "supuestos_clave": "OE = FCF $21.6B − 100% SBC $0.897B = $20.7B → $11.01/acción (1.88B acciones). WACC 8.5% (tier). g base ~11% años 1-5, fade a 5%, terminal 3% (≤ rf/3%). Múltiplo justificado 28x derivado de ROIC ~30% + crec ~11% + moat de red durabilísimo, capado a techo tier 30x; conservador vs mediana histórica fwd ~30-33x. Net debt ~$2.4B negligible. 10Y 4.47%. EPV (suelo) = NOPAT norm ~$21B / 8.5% − net debt / 1.88B ≈ $131.",
+        "patron": {
+          "aplica": "P7 (el miedo golpea al peaje equivocado) — lente correcta, NO amplifica hoy",
+          "evidencia": "El miedo sectorial (interchange/stablecoins) apunta al riel, no a la economía del peaje que cobra sobre el volumen liquidado. Pero P7 solo amplifica CONVICCIÓN cuando ya hay zona de descuento; en PRECIO JUSTO no activa señal de compra. Se convierte en gatillo si un susto regulatorio/stablecoin lleva V a la banda de OPORTUNIDAD."
+        },
+        "niveles_gatillo": "OPORTUNIDAD (MoS 25%, entra bajo techo 30x): ≤ ~$268 (0.75 × $357). GANGA FUERTE: ≤ ~$268 también coincide con dcto 25%; ganga profunda ≤ ~$250. Techo de múltiplo 30x sobre OE $11.01 = $330 — por encima de $330 NO hay compra aunque el DCF acompañe. Alerta de vigilancia intensiva: −25% desde máximo 52s ($359.66) = ~$270. Revisión trimestral tras resultados; refalsar si consenso EPS FY+1 sufre 3 trimestres de recortes o si volumen de pagos rueda a 1 dígito bajo sostenido.",
+        "_qg": 82.4,
+        "_tier": "Alta convicción",
+        "_v1": 238,
+        "_verif": {
+          "sano": true,
+          "correcciones": [],
+          "notas": "SANIDAD (A): El PWFV v2 de 357 es CREÍBLE, ni deep-value absurdo ni sobre-corregido. Reconstrucción tri-método exacta (Compounder estable = DCF 50% + FCF-yield 25% + Múltiplo 25%): 0.50×360 + 0.25×400 + 0.25×308 = 180+100+77 = 357 ✓. En magnitud, 357 implica ~35x owner earnings (~$10/acc de OE sobre ~1.9B acciones), múltiplo rico pero razonable para un peaje de ROIC >40%, moat durable y crecimiento de doble dígito bajo. No es 10x (el error deep-value de v1) ni 50x (validar-cualquier-precio). Sano.\n\nREFUTACIÓN DE COMPRA (B): No hay compra que refutar — el veredicto ya es un NO-COMPRA (ESPERAR), correctamente conservador. Verifiqué los cuatro vectores de inflación y ninguno aplica:\n1) WACC 8.5% NO es demasiado generoso: V es arquetipo Núcleo (primer ejemplo listado en la metodología), cuyo escalón es ~7.5%. Usar 8.5% (escalón Alta convicción) es CONSERVADOR — si acaso SUBESTIMA el valor. No infla la compra.\n2) Múltiplo justificado 28x NO está inflado sobre el techo: tope duro Núcleo 35x / AltaConv 30x; 28x queda por debajo de ambos y dentro de la guía económica (ROIC ≥40% + crec ≥12% → 25-30x). Legítimo.\n3) DCF inverso: a 358 (~35x OE) el crecimiento implícito está en el borde alto de las base rates de V, pero con razón estructural (moat de red, pricing power) → RAZONABLES, no HEROICAS. El candado GANGA no debía dispararse; no se ignoró señal HEROICA.\n4) Detector: sin trampa (compounder de máxima calidad, denominadores no deprimidos). El método FCF-yield (400) es el outlier alto pero solo pesa 25% (aporta ~+16 al ancla vs promedio de los otros dos); el rango tri-método 308-400 es estrecho (~30%), ningún método distorsiona.\n\nLÓGICA DE VEREDICTO: precio 358.09 vs PWFV 357 = MoS ~ -0.3% (prima mínima), zona PRECIO JUSTO (±15%). El escalón MoS exige ≥15% (Núcleo) / ≥25% (AltaConv); a paridad NO se cumple → NO SE COMPRA. ESPERAR/VIGILAR es correcto. Confirmo ESPERAR (VIGILAR también sería válido: comprar en tramos solo si cae ≥15% hacia ~303 o menos). Cero correcciones."
+        }
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft Corporation",
+        "arquetipo": "Compounder estable",
+        "precio_actual": 385.89,
+        "fuente_precio": "stockanalysis.com / CNBC, 2026-07-02 (52w high 555.45, low 349.20)",
+        "qg_tier": "Núcleo (85.6/100)",
+        "detector": {
+          "veredicto": "PASA",
+          "senales_estructurales": [],
+          "notas": "0 señales estructurales de las 6. (1) ROIC ~24% muy por encima de WACC, sin declive secular (baja de 25.7% solo por inflar capital invertido con capex AI, no por deterioro económico). (2) Gana cuota en cloud (Azure +20%+), no la pierde. (3) Sin disrupción del core; MSFT es beneficiario neto de la IA, no víctima. (4) Márgenes operativos EXPANDIÉNDOSE (op income FY25 +17%, Q2 FY26 +21%), no compresión. (5) Contabilidad limpia, consenso EPS SUBIENDO (FY26 ~16.84, FY27 ~19.4), sin restatements. (6) Caja neta ~40-50B, sin deuda opaca. Test decisivo=no aplica (no hay sospecha de deterioro)."
+        },
+        "dcf_inverso": {
+          "g_implicita": "~9.6% owner earnings (fade a ~5.6%), WACC 7.5% Núcleo",
+          "veredicto": "RAZONABLES"
+        },
+        "metodos": {
+          "dcf_valor": 457,
+          "fcf_yield_valor": 303,
+          "multiplo_valor": 299,
+          "multiplo_justificado": 26,
+          "epv_suelo": 195,
+          "wacc_usado": 0.075
+        },
+        "pwfv_valor": 379,
+        "zona": "JUSTO",
+        "mos": {
+          "actual_pct": -1.8,
+          "exigido_pct": 15,
+          "cumple": false,
+          "multiplo_actual": 33.6,
+          "techo_tier": 35,
+          "cumple_techo": true
+        },
+        "asimetria": {
+          "ratio": 0.3,
+          "pasa": false
+        },
+        "veredicto_final": "ESPERAR",
+        "data_confidence": "MEDIUM",
+        "degradada": false,
+        "delta_v1": "v1 dio PWFV 254 (implicaba ~35% sobrevalorada a 386 = CARO/BURBUJA). v2 da 379 (PRECIO JUSTO). Tres correcciones: (a) v1 metía el EPV sin crecimiento (~195/acc) DENTRO del ancla, arrastrándola 15-20% abajo; v2 lo deja como SUELO con peso 0. (b) v1 usó WACC 9%; v2 usa 7.5% del tier Núcleo (quality-growth sin deuda merece menos descuento). (c) v1 dejó los múltiplos justificados FUERA; v2 incluye 26x (derivado de ROIC 24%+crec 11%+durabilidad extrema) al 25% del blend. Efecto neto: MSFT pasa de 'sobrevalorada' a 'justa', la lectura QG correcta para un compounder Núcleo que YA se de-rateó ~30% desde el máximo de 555 sin deterioro de negocio.",
+        "supuestos_clave": "JUICIO CLAVE (sensibilidad alta): owner earnings NORMALIZADOS ~11.5/acc (90-95B agregado). El FCF trailing (71.6B) y FCF-SBC (59.6B = 8/acc) están DEPRIMIDOS por el supercapex de IA (capex FY25 64.6B, +45%, ~2/3 en GPUs de vida corta). Normalizo asumiendo que ~la mitad de la sobreinversión es capex de CRECIMIENTO, no mantenimiento (maint ~40-45B). Con FCF-SBC trailing puro el PWFV bajaría a ~305 y MSFT saldría CARA; con OE=12.1 (maint 34B) subiría a ~402 y saldría barata. La banda 305-423 refleja honestamente esa incertidumbre de conversión FCF. Terminal g 3%, rf 4.47%.",
+        "frase_tesis": "El mercado teme que el supercapex de IA (64.6B, +45%) destruya el FCF y el ROIC de MSFT; el miedo está PARCIALMENTE bien dimensionado (el FCF trailing SÍ está deprimido) — pero no lo suficiente como para crear ganga: a precio justo, la de-rating de 555 a 386 ya descuenta gran parte del riesgo sin regalar el compounder.",
+        "banda_honesta": "305 - 423 (central 379). La dispersión la manda la normalización del FCF bajo el ciclo de capex IA, no el modelo.",
+        "niveles_gatillo": "OPORTUNIDAD (MoS 15% Núcleo): ~322. GANGA FUERTE: ~284 (coincide con -49% del máximo 52s y cerca del suelo EPV 195 con margen). Alerta -25% desde máximo 555 = 416 (ya cruzado); -35% = 361. Gatillo de tramo si toca ~322 con detector aún en verde.",
+        "patron": {
+          "aplica": "P4 parcial (denominador roto) + P5 (la duración es el descuento)",
+          "evidencia": "P4: el FCF/PER trailing engaña porque el capex IA hunde temporalmente el denominador (causa nombrable, no estructural: MSFT es beneficiario de IA). P5: moat de 20+ años a ROIC alto justifica ~26-33x que ningún screen marca como barato. PERO ninguno AMPLIFICA a compra porque no hay zona: a precio justo el patrón no genera señal (los patrones solo amplifican, nunca crean la señal)."
+        },
+        "_qg": 85.6,
+        "_tier": "Núcleo",
+        "_v1": 254,
+        "_verif": {
+          "sano": true,
+          "correcciones": [],
+          "notas": "SANIDAD (A): El PWFV v2=379 es creíble y NO sobre-corregido. La aritmética tri-método (Compounder estable) cuadra exacta: 0.50×457 + 0.25×303 + 0.25×299 = 228.5+75.75+74.75 = 379.0. EPV suelo (195) correctamente con peso 0. En términos de owner earnings (~$10-12/sh tras restar 100% SBC), 379 implica ~30-35x OE / ~31x FCF: rico pero defendible para un top-tier compounder, ni el deep-value absurdo de v1 ni un cheque en blanco a cualquier precio. Banda sana.\n\nREFUTACIÓN (B): (1) WACC 7.5% = escalón Núcleo (QG≥85). MSFT es una de las 3 convicciones núcleo (SPGI/MSFT/VEEV); net-cash, AAA, moat ancho donde el beta CAPM subestima la calidad. Es la tasa intencionada del tier, no una generosidad indebida. Sin corrección. (2) Múltiplo justificado 26x muy por debajo del techo Núcleo (35x) y dentro de la guía ROIC~30-35%+crec~12-13%→25-30x. No inflado sobre el techo. multiplo_valor 299 ≈ OE~$11.5×26 coherente. (3) DCF INVERSO: precio 385.89 < dcf_valor 457, o sea el mercado paga POR DEBAJO del valor DCF → el crecimiento implícito es RAZONABLE, no HEROICO. El candado GANGA correctamente NO se activa; no se ignoró nada. (4) Detector de trampas: FCF creciente, márgenes en expansión, sin denominador deprimido ni deterioro cíclico → pasa correctamente, sin señales pasadas por alto.\n\nVEREDICTO: premium = (385.89−379)/379 = +1.8% → zona PRECIO JUSTO (±15%). MoS efectivo ~−1.8%, muy por debajo del mínimo Núcleo ≥15%. Sin margen de seguridad → correctamente NO es compra. ESPERAR es sólido (esperar retroceso hacia zona de oportunidad ≤$322 para MoS≥15%). VIGILAR sería igual de defendible por ser nombre de convicción a precio justo, pero ESPERAR no es erróneo. Conclusión: el número v2 es sano e internamente consistente; sin correcciones."
+        }
+      },
+      {
+        "ticker": "SPGI",
+        "name": "S&P Global Inc.",
+        "arquetipo": "Compounder estable (peaje de datos/ratings; Ratings+Indices casi monopolio duopolístico)",
+        "precio_actual": 434.16,
+        "fuente_precio": "stockanalysis.com / Yahoo Finance, 2-jul-2026 ($434.16, +4.5% intradía; rebote desde ~$361 mínimo 52s)",
+        "qg_tier": "Sólida (73.2/100)",
+        "detector": {
+          "veredicto": "PASA",
+          "senales_estructurales": [],
+          "notas": "Selloff -21% desde máximo 52s ($547.82) impulsado por MIEDO a disrupción IA sobre datos/software (señal estructural 3 en la NARRATIVA) + guía 2026 blanda ($19.40-19.65 vs consenso ~$19.96). Pero el test de datos lo DESMIENTE: Q1'26 adj EPS +14% a $4.97, ingresos +10% (orgánico +9%), margen ajustado ~49% y EXPANDIÉNDOSE (+50-75bps guía), posición de caja neta ~$12B, ROIC reportado ~9-11% deprimido SOLO por goodwill de IHS Markit (ROIC incremental del peaje Ratings/Indices es altísimo). Sin pérdida de cuota, sin compresión de margen bruto, sin deuda opaca. El recorte de consenso fue UN reset puntual (feb-2026), NO 3+ trimestres consecutivos. 0 señales estructurales."
+        },
+        "dcf_inverso": {
+          "g_implicita": "~9-10% crecimiento de owner earnings a 10 años en base case (perpetuidad simple implica ~5%)",
+          "veredicto": "RAZONABLES"
+        },
+        "metodos": {
+          "dcf_valor": 399,
+          "wacc_usado": 9.5,
+          "fcf_yield_valor": 450,
+          "multiplo_justificado": 24,
+          "multiplo_valor": 432,
+          "epv_suelo": 149
+        },
+        "pwfv_valor": 420,
+        "zona": "JUSTO",
+        "mos": {
+          "actual_pct": -3.4,
+          "exigido_pct": 35,
+          "cumple": false,
+          "multiplo_actual": 24.1,
+          "techo_tier": 25,
+          "cumple_techo": true
+        },
+        "asimetria": {
+          "ratio": 0,
+          "pasa": false
+        },
+        "veredicto_final": "ESPERAR",
+        "data_confidence": "MEDIUM",
+        "degradada": false,
+        "delta_v1": "v1 dio $314 (PWFV muy por debajo del precio) por DOS errores que v2 corrige: (1) metía el EPV ($149 aquí, que asume crecimiento CERO perpetuo) DENTRO del ancla, arrastrándola ~25% abajo; (2) usaba WACC 9% sobre un DCF apilado de conservadurismo, SIN pata de múltiplo justificado. v2: EPV pasa a SUELO (peso 0), WACC escalado a 9.5% (tier Sólida) aplicado solo al DCF de crecimiento, y se añade pata de múltiplo justificado 24x que premia la durabilidad del peaje. Resultado: ancla sube a $420 (+34% vs $314). PERO incluso el ancla v2, más generosa, queda POR DEBAJO del precio actual $434: SPGI está justo/ligeramente caro, NO la ganga que sugiere el -21% desde máximos. v2 evita el falso 'deep value exigido a compounder' de v1 y a la vez confirma que NO hay MoS hoy.",
+        "frase_tesis": "El mercado teme que la IA desintermedie el peaje de datos/ratings de SPGI; el miedo está mal dirigido (P7) porque Ratings es un duopolio regulatorio no sustituible por IA y los fundamentales siguen creciendo doble dígito (Q1'26 +14% EPS) — pero HOY el precio ya recogió el rebote y no ofrece margen de seguridad.",
+        "banda_honesta": "$385–$460 (centro $420). DCF $399, FCF-yield-con-crec $450, múltiplo-justificado $432; convergen estrechamente. EPV suelo $149 (piso teórico sin crecimiento, no operativo).",
+        "niveles_gatillo": "OPORTUNIDAD (MoS 15%): ~$357 · GANGA/MoS Sólida 35%: ~$273 · OPORTUNIDAD media (25%): ~$315. Alerta de vigilancia intensiva si vuelve a −25% del máximo 52s (~$410) con divergencia precio/consenso ≥2:1.",
+        "supuestos_clave": "Owner earnings = FCF TTM $5,556M − SBC $228M = $5,328M ($18.0/sh) [HECHO, filings/stockanalysis]. WACC 9.5% (Sólida), g terminal 3%. DCF 3 escenarios prob-ponderado 30/50/20: crec OE pess 6%→4%, base 10%→5%, opt 13%→6%. Múltiplo justificado 24x (ROIC alto incremental + crec ~9-10% + moat durable Ratings, capado bajo techo 25x). FCF-yield-con-crec: retorno exigido 11%, g sostenible 7%, gap piso 4%.",
+        "patron": {
+          "aplica": "P7 — el miedo golpea al peaje equivocado (secundario P1 herida superficial)",
+          "evidencia": "La aritmética del daño IA no toca a Ratings (duopolio regulatorio Moody's/S&P, emisión de deuda requiere calificación); el miedo es a Market Intelligence (segmento menor, el único que ACELERÓ su crecimiento en Q1'26). Peaje cobra igual en ambos escenarios. AMPLIFICA convicción sobre la calidad, pero NO genera señal de compra: sin zona ni MoS, el patrón queda archivado hasta que el precio caiga a gatillo."
+        },
+        "_qg": 73.2,
+        "_tier": "Sólida",
+        "_v1": 314,
+        "_verif": {
+          "sano": true,
+          "correcciones": [
+            {
+              "campo": "wacc_usado",
+              "antes": "9.5",
+              "despues": "8.5 (revisar, no aplicado)",
+              "razon": "9.5% es el escalon Solida (el MAS conservador). SPGI es nombre de alta conviccion (memoria: convicciones SPGI/MSFT/VEEV), tier Nucleo/AltaConv, cuyo WACC deberia ser 7.5-8.5%. El error va en direccion OPUESTA a la sospecha del mandato: no es demasiado generoso (bajo), es demasiado punitivo (alto), lo que SUBESTIMA el DCF=399. Al 8.5% el DCF subiria ~12-18% y el PWFV a ~444-456. NO se aplica en el PWFV revisado por prudencia adversarial (sin score QG exacto en mano, 9.5% es defendible-a-conservador) y porque NO cambia el veredicto: sigue sin MoS."
+            }
+          ],
+          "notas": "SANIDAD OK. El PWFV v2=420 es creible: tri-metodo exacto (0.50*399 + 0.25*450 + 0.25*432 = 420), implica ~23x owner earnings para un compounder de ROIC alto — ni el deep-value absurdo de v1 (10x) ni sobre-correccion (50x). EPV suelo 149 bien en peso 0 (35% del PWFV, piso de downside razonable). REFUTACION de la compra: no hay compra que refutar. (1) WACC NO demasiado generoso — al contrario, 9.5% es el tier mas conservador; error de conservadurismo, no de generosidad. (2) Multiplo justificado 24x NO inflado: dentro de banda 20-25x y por DEBAJO de todos los techos (25/30/35x); SPGI historico ~28-33x fwd. (3) DCF inverso NO HEROICAS: precio solo 3.4% sobre PWFV -> crecimiento implicito RAZONABLES; candado GANGA correctamente no dispara. (4) Detector sin senales de trampa (compounder asset-light ROIC alto). ZONA: 434.16 vs 420 = +3.4% premium = PRECIO JUSTO. MoS = -3.4%, por debajo de cualquier minimo de tier (15-25%). ESPERAR confirmado. La unica correccion legitima (WACC/tier) elevaria el PWFV a ~444-456, dejando el precio aun en valor justo sin MoS -> no altera ESPERAR."
+        }
+      },
+      {
+        "ticker": "RMS",
+        "name": "Hermès International",
+        "arquetipo": "compounder",
+        "precio_actual": 1595,
+        "fuente_precio": "Yahoo Finance / CNBC, cierre 1-jul-2026 (previo €1,598)",
+        "qg_tier": "Sólida (74.4/100)",
+        "detector": {
+          "veredicto": "PASA",
+          "senales_estructurales": [],
+          "notas": "0 de 6 señales estructurales. ROIC ~40-53% ESTABLE (no declive). Cuota ganada en alta gama del lujo. Cero disrupción del modelo (marca irreplicable, lista de espera, pricing power). Márgenes EXPANDIÉNDOSE: op. recurrente 41% en 2025 vs 40.5% 2024 (lo contrario de compresión). Contabilidad limpia, sin restatements. Balance con net cash ~€10B, CERO deuda neta. Consenso de revenue al alza (+8% CAGR), sin recortes sucesivos. No es trampa: es un negocio excepcional a precio exigente. La caída ~36% desde máximo 52s (€2,482→€1,595) es de-rating de múltiplo, no deterioro de fundamentales."
+        },
+        "dcf_inverso": {
+          "g_implicita": "~11-12% owner earnings 10a (P/OE actual 38x, WACC 9.5%, terminal 3%)",
+          "veredicto": "RAZONABLES"
+        },
+        "metodos": {
+          "dcf_valor": 1435,
+          "fcf_yield_valor": 1650,
+          "multiplo_valor": 1050,
+          "multiplo_justificado": 25,
+          "epv_suelo": 502,
+          "wacc_usado": 9.5
+        },
+        "pwfv_valor": 1391,
+        "zona": "CARO",
+        "mos": {
+          "actual_pct": -14.7,
+          "exigido_pct": 35,
+          "cumple": false,
+          "multiplo_actual": 38,
+          "techo_tier": 25,
+          "cumple_techo": false
+        },
+        "asimetria": {
+          "ratio": 0.8,
+          "pasa": false
+        },
+        "veredicto_final": "ESPERAR",
+        "data_confidence": "HIGH",
+        "degradada": false,
+        "frase_tesis": "El mercado NO teme nada estructural en Hermès; el de-rating desde €2,482 es normalización de múltiplo (lujo enfriándose, comparables LVMH débiles). El problema para el comprador QG no es la calidad —es intacta— sino que el tier Sólida (74.4) impone techo 25x y a 38x owner earnings no hay margen de seguridad. No hay tesis de compra que armar hoy; hay una tesis de PACIENCIA.",
+        "banda_honesta": "€1,250 – €1,550 (PWFV ≈ €1,391)",
+        "delta_v1": "v1 dio PWFV €1,161 y fue demasiado dura por dos errores corregidos en v2: (1) metió el EPV (€502, valor sin crecimiento estilo Graham) DENTRO del ancla, arrastrándola ~20% abajo cuando Hermès es puro compounder de crecimiento; (2) usó WACC 9% genérico. v2 saca el EPV del ancla (peso 0, sólo como suelo de downside €502), aplica WACC 9.5% escalado por tier Sólida, y mete los múltiplos justificados DENTRO del ancla vía tri-método (DCF 50% €1,435 + FCF-yield 25% €1,650 + múltiplo 25% €1,050 capado a 25x). Resultado: €1,391 (+20% vs €1,161). Aun con la corrección, el veredicto NO cambia a comprar: el techo de múltiplo 25x del tier Sólida frente a los 38x actuales y el premium del 15% mantienen a Hermès en CARO. La lección v2: valor más justo, pero el gate de calidad (tier) sigue vetando el sobrepago.",
+        "niveles_gatillo": "OPORTUNIDAD (dcto 15-25%): €1,045–1,180. GANGA FUERTE (≥25% dcto): ≤€1,045. Techo de múltiplo 25x Sólida se cumple ≈ €1,050 (25x × €42 OE): por encima no hay compra. Alertas de watchlist: −25% desde máx 52s = €1,862 (ya superado a la baja); −35% = €1,613 (ya superado). Próxima revisión: resultados 29-jul-2026.",
+        "supuestos_clave": "Owner earnings normalizado ≈ €42/acción (media ponderada entre FCF ajustado €3.9B/€36.9 y net income ajustado €4.86B/€46; la brecha es capex de EXPANSIÓN discrecional, no de mantenimiento). SBC ≈ 0 (Hermès no usa compensación en acciones material, <0.1% ventas → owner earnings ≈ FCF sin resta). Crecimiento sostenible OE ~8-10% (consenso revenue +8% CAGR, margen ya en pico 41%). WACC 9.5% (tier Sólida, rf bund 2.96%). Terminal g 3%. Múltiplo justificado por economía (ROIC≥40% + crec ~10% + moat extremo) sería 25-30x pero CAPADO al techo Sólida de 25x.",
+        "patron": {
+          "aplica": "P5 (la duración es el descuento) — rima cualitativamente",
+          "evidencia": "Moat de 20+ años de reinversión a ROIC ~50% (See's/KO/Moody's-Kantesaria): el mercado sólo descuenta ~10 años. PERO P5 sólo habilita compra cuando el múltiplo está DENTRO del techo del tier; a 38x >> techo 25x Sólida, el patrón NO amplifica: no puede rescatar un sobrepago que el gate de calidad ya veta. AMPLIFICADOR, nunca generador; jamás anula el candado de múltiplo."
+        },
+        "_qg": 74.4,
+        "_tier": "Sólida",
+        "_v1": 1161
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet Inc.",
+        "arquetipo": "compounder",
+        "precio_actual": 360.22,
+        "fuente_precio": "Yahoo Finance / stockanalysis.com, 2-jul-2026 (rango intradía 355.73-362.97, cierre ~360.22)",
+        "qg_tier": "Alta convicción (81.2/100)",
+        "detector": {
+          "veredicto": "PASA",
+          "senales_estructurales": [],
+          "notas": "0 de 6 señales estructurales. ROIC ~45% y en ascenso (HECHO FY2025). Ganando cuota en Cloud e IA, no perdiéndola. Márgenes EXPANDIÉNDOSE (OCF +31% FY2025, net income +32%). Contabilidad limpia, sin restatements; consenso EPS FY+1 REVISADO AL ALZA (2026 EPS ~14.22, no recortes). Balance con caja neta ~60B (cash+valores 126.8B vs deuda 67B). No es trampa: es un gran negocio caro, no un negocio en deterioro."
+        },
+        "dcf_inverso": {
+          "g_implicita": "~13-14% crecimiento de owner earnings normalizados durante 10 años + 3% terminal para justificar 360 a WACC 8.5%",
+          "veredicto": "RAZONABLES"
+        },
+        "metodos": {
+          "dcf_valor": 310,
+          "wacc_usado": 8.5,
+          "fcf_yield_valor": 300,
+          "multiplo_justificado": 28,
+          "multiplo_valor": 263,
+          "epv_suelo": 110
+        },
+        "pwfv_valor": 296,
+        "zona": "CARO",
+        "mos": {
+          "actual_pct": -21.6,
+          "exigido_pct": 25,
+          "cumple": false,
+          "multiplo_actual": 38.3,
+          "techo_tier": 30,
+          "cumple_techo": false
+        },
+        "asimetria": {
+          "ratio": 0.2,
+          "pasa": false
+        },
+        "veredicto_final": "ESPERAR",
+        "data_confidence": "HIGH",
+        "degradada": false,
+        "frase_tesis": "El mercado teme que el supermega-capex de IA (91B FY2025 → guía 175-185B 2026, \"significativamente más\" 2027) destruya el FCF; ESE miedo está bien dimensionado a corto plazo (FCF reportado plano ~73B) pero mal dimensionado a largo si el capex gana su retorno a ROIC 45%. Aun así, a 360 el precio YA descuenta que lo gana: no hay margen. La tesis de COMPRA solo se activa si el precio cae al rango donde el capex-riesgo queda con colchón.",
+        "banda_honesta": "265-330 (punto central ~296)",
+        "niveles_gatillo": "OPORTUNIDAD (15% dcto) a ~251; GANGA FUERTE (25% dcto) a ~222; alerta de vigilancia -25% desde máximo 52s (408.61) = ~306. Precio actual 360 está por ENCIMA de PWFV, sin gatillo activo.",
+        "supuestos_clave": "Owner earnings NORMALIZADOS ~115B (base), NO el FCF trailing-SBC de ~48B: el capex de IA es inversión de CRECIMIENTO discrecional, no mantenimiento, y deprime artificialmente el FCF (caso tipo P4 en el denominador de capex). Net income FY2025 132.2B (EPS 10.81) usado como ancla de earning power, con haircut ~13% por drag futuro de D&A del nuevo capex. Escenarios OE: pes 95B / base 115B / opt 135B (25/50/25). 12.23B acciones diluidas. WACC 8.5% (tier Alta convicción). Terminal g 3%. Múltiplo justificado 28x (capado al techo 30x).",
+        "delta_v1": "v1 dio PWFV 153 a precio ~359 (CARO extremo). v2 lo sube a ~296 por CUATRO correcciones: (1) EPV fuera del ancla — el suelo ~110 arrastraba el número ~40% abajo, ahora peso 0; (2) owner earnings NORMALIZADOS ~115B en vez del FCF trailing−SBC de ~48B, que valoraba un compounder de 45% ROIC como si el mega-capex de IA fuera mantenimiento permanente (era el error dominante); (3) WACC 8.5% del tier, no 9%; (4) múltiplo justificado 28x DENTRO del ancla. Dirección SIN CAMBIO (sigue sin ser compra a 360), pero la brecha pasa de absurda a razonable: CARO ~+22% premium, no -57%. Gatillos: OPORTUNIDAD ~251, GANGA ~222.",
+        "patron": {
+          "aplica": "ninguno (lente P4 usada solo para normalizar el capex, no genera compra)",
+          "evidencia": "El FCF trailing está deprimido por capex de crecimiento con fecha de caducidad (supercycle IA), no por deterioro; se normaliza owner earnings. Pero P4 es amplificador, no generador, y a 360 no hay zona ni MoS que amplificar."
+        },
+        "_qg": 81.2,
+        "_tier": "Alta convicción",
+        "_v1": 153
+      },
+      {
+        "ticker": "ISRG",
+        "name": "Intuitive Surgical",
+        "arquetipo": "compounder",
+        "precio_actual": 406,
+        "fuente_precio": "Yahoo Finance / stockanalysis.com, 2-jul-2026 (~$406; cerca de mínimo 52s $396.68; máximo 52s $603.88; -29% YTD)",
+        "qg_tier": "Alta convicción (82/100)",
+        "detector": {
+          "veredicto": "PASA",
+          "senales_estructurales": [],
+          "notas": "0 señales estructurales. ROIC ~26% en ascenso (5y avg 18%), NO en declive. Gana cuota: crecimiento de procedimientos da Vinci 13-15% guía 2026, ingresos +20.5% 2025. Sin disrupción del core (da Vinci 5 y penetración internacional expanden la base). Márgenes en EXPANSIÓN (guía margen bruto no-GAAP 67.5-68.5%), no compresión. Contabilidad limpia, sin restatements; consenso EPS FY+1 REVISADO AL ALZA (Q1'26 batió ~19%), lo opuesto al semáforo rojo. Deuda $0, caja neta ~$8B. La caída del 29% es de-rating de múltiplo (P1 herida superficial / P4 denominador que se recupera), no deterioro de negocio."
+        },
+        "dcf_inverso": {
+          "g_implicita": "~12.8% anual de owner earnings (SBC-cargados) durante 10a, WACC 8.5%, g terminal 3%",
+          "veredicto": "RAZONABLES"
+        },
+        "metodos": {
+          "dcf_valor": 354,
+          "fcf_yield_valor": 296,
+          "multiplo_valor": 272,
+          "multiplo_justificado": 26,
+          "multiplo_actual": 42.4,
+          "epv_suelo": 119,
+          "wacc_usado": 0.085
+        },
+        "pwfv_valor": 319,
+        "zona": "CARO",
+        "mos": {
+          "actual_pct": -27.3,
+          "exigido_pct": 25,
+          "cumple": false,
+          "multiplo_actual": 42.4,
+          "techo_tier": 30,
+          "cumple_techo": false
+        },
+        "asimetria": {
+          "ratio": 0.5,
+          "pasa": false
+        },
+        "veredicto_final": "ESPERAR",
+        "data_confidence": "MEDIUM",
+        "degradada": false,
+        "frase_tesis": "El mercado teme que un compounder de calidad extrema (ROIC 26%, deuda 0, procedimientos +13-15%) merezca de-rating; el negocio está intacto — pero al PRECIO ACTUAL el mercado tampoco está regalando nada: paga ~42x owner earnings cargados de SBC, todavía ~27% por encima del valor intrínseco. Buen negocio, mal precio de entrada.",
+        "banda_honesta": "275 - 352 (PWFV puntual 319; DCF tira arriba, múltiplo justificado y FCF-yield tiran abajo — la dispersión ES la señal de que el precio está en el borde alto)",
+        "niveles_gatillo": "OPORTUNIDAD (15-25% dcto sobre PWFV 319): ~$270 · GANGA FUERTE (≥25% dcto): ~$240 · Techo múltiplo 30x sobre OE NTM (~9.6/acc): ~$290. Alerta -35% desde máximo 52s ($604) = ~$392, YA cruzado; re-verificar detector antes de cualquier tramo.",
+        "supuestos_clave": "Owner earnings NTM ~$3.4B (GAAP NI 2025 $2.9B cargado 100% de SBC $1.83B, crecido ~17% — honesto y conservador; el FCF reportado $2.49B está inflado vs OE por capex de instalaciones en normalización). ~355M acciones diluidas, caja neta ~$8B. DCF: senda 15%→7% (base), 12%→6% (pes), 17%→9% (opt), pond. 25/50/25. Múltiplo justificado 26x (ROIC 26% + crec 13-15% + moat da Vinci excepcional; por debajo del techo 30x). FCF-yield: retorno exigido 10% (WACC+1.5pp), g sostenible 6.5%.",
+        "delta_v1": "v1 dio PWFV $210; v2 lo sube a $319 (+52%, +$109). Tres correcciones: (1) EPV ($119) SALE del ancla (era peso ~25-33% y hundía el número); ahora es solo suelo de downside. (2) WACC 8.5% en vez de 9% (tier Alta convicción, no genérico). (3) el múltiplo justificado por calidad (26x) entra DENTRO del ancla en vez de castigar por fuera. Resultado clave: v1 era tan duro que sugería sobrevaloración extrema (casi veto de precio); v2 corrige la severidad pero MANTIENE el veredicto direccional — sigue CARO. La diferencia es de matiz: v1 decía 'huye', v2 dice 'gran negocio, ~27% demasiado caro, ESPERA el hueco'. La caída del 29% acercó el precio pero no lo metió en zona.",
+        "patron": {
+          "aplica": "P1 (herida superficial, franquicia intacta) + P4 (denominador FCF deprimido por capex de instalaciones, recuperándose) — como LENTE, no como licencia",
+          "evidencia": "Drawdown 29% con procedimientos +13-15% y márgenes en expansión = sobrerreacción de múltiplo, negocio intacto. PERO P1/P4 solo habilitan compra si el precio está EN ZONA (tier+detector+zona), y ISRG NO está en zona: +27% sobre PWFV. El patrón AMPLIFICA cuando llegue a ~$270-290; hoy no genera señal (regla: el patrón nunca crea la compra)."
+        },
+        "_qg": 82,
+        "_tier": "Alta convicción",
+        "_v1": 210
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA Corporation",
+        "arquetipo": "ciclico-semis (plataforma datacenter con economía de compounder; margen actual en pico de 10 años → normalización mid-cycle obligatoria)",
+        "precio_actual": 194.28,
+        "fuente_precio": "Yahoo Finance / CNBC, 2-jul-2026 (cierre intradía $194.28; rango 52s $152.97-$236.54). HECHO.",
+        "qg_tier": "Alta convicción (score 78/100)",
+        "detector": {
+          "veredicto": "PASA",
+          "senales_estructurales": [],
+          "notas": "0 de 6 señales estructurales. (1) ROIC >90%, no declive. (2) Gana cuota, no la pierde (datacenter/AI). (3) NVDA ES el disruptor, no el disrumpido. (4) Margen bruto 71% EXPANDIÉNDOSE, no comprimiéndose. (5) Contabilidad limpia; de hecho INCLUYE SBC en non-GAAP desde FY27 (mejora de disclosure, no maquillaje); revisiones de consenso al ALZA (rev FY28 subió de $294B a $480B en un año) — lo opuesto al semáforo rojo. (6) Posición de caja neta ~$54B, cero deuda opaca. Única cautela = presunción de PEAK earnings (margen op. 63.6% en percentil 100 de 10 años) → NO es señal de trampa sino disparador de normalización mid-cycle en la valoración (patrón P4 inverso)."
+        },
+        "dcf_inverso": {
+          "g_implicita": "A $194 (MC ~$4.74T) sobre owner earnings trailing ~$90B → ~52x OE. Con WACC 8.5% el precio descuenta ~20-24% CAGR de owner earnings por ~10 años antes de fade. El consenso mismo modela rev $216B→$391B (FY27, +49%)→$480B (FY28, +23%), con revisiones subiendo.",
+          "veredicto": "RAZONABLES",
+          "vs_base_rate": "Alto para base rates de Mauboussin a esta escala (~$4.7T), PERO la trayectoria priceada se está entregando Y revisando al alza — no está detached. No cruza a HEROICAS: no se activa el candado GANGA ni el +10pp. Sin embargo NO hay colchón: el precio ya paga por la ejecución perfecta del ciclo de capex AI."
+        },
+        "metodos": {
+          "dcf_valor": 169,
+          "fcf_yield_valor": 0,
+          "multiplo_valor": 100,
+          "epv_suelo": 50,
+          "multiplo_justificado": 30,
+          "wacc_usado": 8.5
+        },
+        "pwfv_valor": 150,
+        "zona": "CARO",
+        "mos": {
+          "actual_pct": -29.5,
+          "exigido_pct": 25,
+          "cumple": false,
+          "multiplo_actual": 52,
+          "techo_tier": 30,
+          "cumple_techo": false,
+          "via_sin_crisis": {
+            "aplica": false,
+            "fcf_yield": 2,
+            "fcf_yield_mas_g": 22,
+            "pasa": false
+          }
+        },
+        "asimetria": {
+          "ratio": 0.9,
+          "pasa": false
+        },
+        "veredicto_final": "ESPERAR",
+        "data_confidence": "HIGH",
+        "degradada": false,
+        "frase_tesis": "El mercado NO teme nada en NVDA hoy — la paga a la perfección. No hay tesis de compra: el negocio es sobresaliente (PASA detector, ROIC >90%, moat CUDA/datacenter) pero el precio descuenta el pico del ciclo de capex AI sin margen de seguridad. La disciplina QG-valor dice ESPERAR un precio, no vender un compounder por múltiplo.",
+        "niveles_gatillo": "OPORTUNIDAD (15% dcto sobre PWFV $150) ≈ $128. GANGA FUERTE (25% dcto) ≈ $112. MoS exigido del tier (25%) se cumple ≈ $112. Alerta de vigilancia intensiva a -25% de máximo 52s ($236) ≈ $177; candidata a tramo a -35% ≈ $154. Refresco tras cada resultado (revisar si el margen datacenter se sostiene o el capex hyperscaler se digiere).",
+        "supuestos_clave": "Owner earnings = FCF $96.7B − 100% SBC $6.4B = $90.3B trailing (~$3.70/sh, 24.4B acc). NORMALIZADO mid-cycle: margen op. actual 63.6% está en percentil 100 de 10 años (histórico FY17-26: 28/33/32.5/26/27/37/16/54/62/64). Normalizo margen a ~52% (respeta el nuevo régimen datacenter estructural pero haircut sobre el pico) × rev $215.9B → OE norm ~$82B (~$3.36/sh). WACC 8.5% (tier Alta convicción). Terminal g 3%. Caja neta ~$54B sumada. Múltiplo justificado capado a 30x (techo del tier), que BINDS y arrastra el polo múltiplo. Consenso (INFERENCIA de terceros): FY27 EPS ~$9.34, rev $391B; FY28 rev $480B.",
+        "patron": {
+          "aplica": "P4 (Denominador roto) en modo INVERSO",
+          "evidencia": "P4 clásico se activa cuando el denominador está DEPRIMIDO (NVDA Q4-2022 lo fue, tras el crypto-bust: 16% margen). HOY es lo contrario: margen en PICO → el inverso obligatorio del P4 en cíclicas ('margen > p80 → PEAK earnings, usar mid-cycle') aplica y JUSTIFICA no capitalizar el trailing. También P5 (la duración es el descuento) argumenta a favor del negocio pero NO habilita compra sin zona. Ningún patrón genera señal aquí; solo confirman la disciplina de normalizar."
+        },
+        "banda_honesta": "$130 – $175 por acción (polo DCF normalizado ~$169 vs polo múltiplo-cap × OE norm ~$100-135; punto ancla $150). Sin falsa precisión: la incertidumbre real es si el margen datacenter 60%+ es permanente (→ valor >$175) o revierte con la digestión de capex hyperscaler (→ valor <$130).",
+        "delta_v1": "v1 dio PWFV $90 y ESPERAR con precio ~$196.51. v2 SUBE el ancla a $150 (+67%) por tres correcciones: (1) v1 metía EPV (~$50/sh, valor sin crecimiento) DENTRO del promedio del ancla, arrastrándolo ~40% abajo — v2 lo mueve a SUELO con peso 0. (2) v1 usaba WACC 9%; v2 escala a 8.5% por tier Alta convicción (quality-growth sin deuda merece menos descuento). (3) v1 no incorporaba el múltiplo justificado ni sumaba la caja neta $54B al equity. El veredicto NO cambia (sigue ESPERAR/CARO): incluso con el ancla corregida a $150, el precio $194 está ~30% POR ENCIMA, MoS negativo, múltiplo trailing 52x muy por encima del techo del tier (30x). La lección v2: el problema de NVDA no era un ancla injustamente baja — es que genuinamente cotiza caro respecto a earnings normalizados de pico de ciclo.",
+        "_qg": 78,
+        "_tier": "Alta convicción",
+        "_v1": 90
+      },
+      {
+        "ticker": "MCO",
+        "name": "Moody's Corporation",
+        "arquetipo": "Compounder estable (duopolio de ratings MIS + Moody's Analytics recurrente)",
+        "precio_actual": 484.27,
+        "fuente_precio": "stockanalysis.com, cierre 2-jul-2026 (HECHO). Nota: la tarea citaba ~468.38 del 1-jul; el mercado subió a 484.27 el 2-jul, uso el más reciente.",
+        "qg_tier": "Alta convicción (76.4/100) — WACC 8.5%, techo múltiplo 30x, MoS mínimo 25%",
+        "detector": {
+          "veredicto": "PASA",
+          "senales_estructurales": [
+            "1. ROIC en declive: NO — ~22% (mar-2026), recuperando y sobre WACC",
+            "2. Pérdida de cuota: NO — duopolio ratings intacto, MA con 68+ trimestres de expansión consecutiva",
+            "3. Disrupción del modelo: NO — peaje regulatorio + datos recurrentes, sin sustituto tecnológico del rating obligatorio",
+            "4. Compresión de márgenes: NO — margen operativo adj. en máximos (~53% Q1-26 vs media ~46% histórica)",
+            "5. Contabilidad/revisiones: NO — consenso EPS 2026 AL ALZA (+11.7%), guía adj EPS $16.40-17.00, sin restatements",
+            "6. Deuda opaca: NO — ND/EBITDA ~1.3x, deuda neta ~$4.7B con márgenes crecientes"
+          ],
+          "notas": "Cero señales estructurales. Es lo opuesto a una trampa de valor: compounder de máxima calidad cotizando CARO. El problema es precio, no negocio."
+        },
+        "dcf_inverso": {
+          "g_implicita": "~11.4% de owner earnings a 10 años (WACC 8.5%, terminal 3%)",
+          "veredicto": "RAZONABLES"
+        },
+        "metodos": {
+          "dcf_valor": 407,
+          "fcf_yield_valor": 297,
+          "multiplo_valor": 309,
+          "multiplo_justificado": 23,
+          "epv_suelo": 131,
+          "wacc_usado": 0.085
+        },
+        "pwfv_valor": 355,
+        "zona": "BURBUJA",
+        "mos": {
+          "actual_pct": -36.4,
+          "exigido_pct": 25,
+          "cumple": false,
+          "multiplo_actual": 36,
+          "techo_tier": 30,
+          "cumple_techo": false
+        },
+        "asimetria": {
+          "ratio": -1.2,
+          "pasa": false
+        },
+        "veredicto_final": "ESPERAR",
+        "data_confidence": "MEDIUM",
+        "degradada": false,
+        "frase_tesis": "No hay tesis de compra hoy: el mercado NO teme nada sobre MCO; paga 36x owner earnings por un duopolio en máximos de margen. La calidad está reconocida en el precio, no descontada.",
+        "banda_honesta": "$330–$400 (punto medio ~$355). La dispersión entre método DCF ($407) y FCF-yield disciplinado ($297) es amplia porque el negocio está entre \"muy durable\" (justifica premium) y \"múltiplo ya estirado\" (limita el terminal).",
+        "delta_v1": "PWFV subió de $308 (v1) a ~$355 (v2), +15%. Tres causas: (1) v2 saca el EPV del ancla (era ~$131/acción, arrastraba el blend ~15% abajo) y lo deja como suelo peso 0; (2) WACC bajó de 9% a 8.5% (escalado al tier Alta convicción), subiendo el DCF; (3) el DCF pondera 50% y ahora domina sobre el múltiplo, no lo diluye el EPV. PERO el veredicto operativo NO mejora: aunque el ancla sube $47, el precio también subió (~$468→$484) y sigue a 36% de premium y 36x OE (>techo 30x). v1 y v2 coinciden: ESPERAR/SOSTENER, no ampliar. v2 es más honesto sobre CUÁNTO vale (no un deep-value $308) sin volverse permisivo sobre el precio de entrada.",
+        "patron": {
+          "aplica": "P5 (la duración es el descuento) — parcial",
+          "evidencia": "MCO encaja el arquetipo See's/KO/Moody's-Kantesaria: moat de 20+ años reinvirtiendo a ROIC alto que ningún screen marca barato. PERO el techo de múltiplo (30x) aplica igual y hoy está a 36x: el patrón justifica NO vender un compounder por caro, no justifica COMPRAR a 36x. También P1 histórico (Moody's 2009 'herida superficial') NO aplica hoy: no hay herida, no hay divergencia precio/consenso — el consenso EPS sube. Patrón amplifica convicción de SOSTENER, no genera señal de compra."
+        },
+        "supuestos_clave": "Owner earnings = FCF TTM ~$2.6B − 100% SBC ~$250M (GAAP dilutivo real; las fuentes discrepan $220-567M, uso $250M conservador-medio) = ~$2.35B → $13.45/acción. Crecimiento sostenible OE ~9% base (escenarios 6/9/12%, prob 25/50/25). ROIC ~22%. Deuda neta ~$4.7B. 10Y 4.47%. Múltiplo justificado 23x derivado de ROIC 22% + crec 9% + durabilidad extrema de duopolio, capado al techo 30x del tier.",
+        "niveles_gatillo": "OPORTUNIDAD (15% dcto sobre PWFV): ~$302. GANGA FUERTE (25% dcto): ~$266. Techo de múltiplo 30x OE = ~$404 (por encima NO hay compra nueva). Alertas watchlist: −25% desde máximo 52s ($546.88) = ~$410 (revisar); −35% = ~$355. La vía sin crisis Smith NO aplica: FCF yield 2.78% < bono 4.47%, y FCFyield+g ~11.3% no supera cómodo el 11-12% requerido. Falsable de la tesis de ESPERA: si el precio cae bajo $404 (techo 30x) con detector limpio, reclasifica a VIGILAR y re-corre el detector antes de cualquier tramo.",
+        "_qg": 76.4,
+        "_tier": "Alta convicción",
+        "_v1": 308
+      },
+      {
+        "ticker": "TSM",
+        "name": "Taiwan Semiconductor Manufacturing (ADR)",
+        "arquetipo": "ciclico-semis",
+        "precio_actual": 435.23,
+        "fuente_precio": "stockanalysis.com, 2-jul-2026 ($435.23); cross-check Yahoo Finance 1-jul-2026 $444.36. 52s: $223.70-$479.00 (nuevo máximo $479 sesión previa).",
+        "qg_tier": "Alta convicción (77.2/100)",
+        "detector": {
+          "veredicto": "PASA",
+          "senales_estructurales": [],
+          "notas": "0 señales estructurales de trampa: ROIC ~40% y en ascenso (HECHO/INFERENCIA terceros), ganando cuota en nodo líder (monopolio 3nm/2nm), márgenes EXPANDIÉNDOSE (op 45.7%→50.5% 2024→2025), contabilidad limpia, caja neta positiva, sin disrupción del modelo. PERO checklist de PEAK earnings ACTIVO: margen op 2025 50.5% >> mediana 10a 41.64% y cerca del máximo 53.32% (percentil ~80+) → obliga a NORMALIZAR mid-cycle en la valoración (no comprar el espejismo del múltiplo trailing). El peak-signal es instrucción de valoración, NO una trampa."
+        },
+        "dcf_inverso": {
+          "veredicto": "RAZONABLES",
+          "g_implicita": "~12.8% de crecimiento de owner earnings NORMALIZADOS durante 10 años (terminal 3%, WACC 8.5%); ~13.2% sobre EPS trailing pico $10.53. Contra base rates Mauboussin para una empresa de ~$2T, sostener >12% una década es exigente pero NO absurdo dada la palanca estructural de IA/HPC y el monopolio de nodo líder. Borderline alto pero con razón estructural → RAZONABLES, NO HEROICAS: no se activa el candado GANGA ni el +10pp de MoS."
+        },
+        "metodos": {
+          "dcf_valor": 366,
+          "fcf_yield_valor": 0,
+          "multiplo_valor": 261,
+          "multiplo_justificado": 24,
+          "epv_suelo": 128,
+          "wacc_usado": 0.085
+        },
+        "pwfv_valor": 313,
+        "zona": "BURBUJA",
+        "mos": {
+          "actual_pct": -39.1,
+          "exigido_pct": 25,
+          "cumple": false,
+          "multiplo_actual": 40,
+          "techo_tier": 30,
+          "cumple_techo": false
+        },
+        "asimetria": {
+          "ratio": 0.5,
+          "pasa": false
+        },
+        "veredicto_final": "ESPERAR",
+        "data_confidence": "MEDIUM",
+        "degradada": false,
+        "frase_tesis": "El mercado paga hoy ~40x owner earnings NORMALIZADOS mid-cycle (41x trailing) por un negocio cíclico en pico de márgenes; ni la calidad extrema (monopolio de nodo líder, ROIC ~40%) protege del sobrepago a este múltiplo. No hay tesis de compra: hay tesis de PACIENCIA sobre un activo Núcleo-de-facto.",
+        "banda_honesta": "PWFV-Valor $290-$340 por ADR (banda; punto $313). Suelo EPV sin crecimiento ~$128 (downside severo si el ciclo de IA revierte). DCF-normalizado $256 pesimista / $371 base / $488 optimista.",
+        "niveles_gatillo": "OPORTUNIDAD (MoS 25%, dcto ~15-25%) ≈ entrada bajo ~$235-266. GANGA FUERTE (dcto ≥25%) ≈ bajo ~$235. Alerta -25% desde máximo 52s ($479) = ~$359 → vigilancia intensiva; -35% = ~$311 → primer tramo candidato (coincide con PWFV). Refresco tras cada resultado trimestral (revisar margen op vs mediana 10a y revisiones de consenso).",
+        "supuestos_clave": "Arquetipo cíclico-semis: earnings NORMALIZADOS a margen op mid-cycle 45% (entre mediana 10a 41.64% y media reciente ~47%, respetando la mejora estructural de mix hacia 3nm/2nm sin comprar el pico de 50.5%). EPS/ADR normalizado ~$10.87 (vs $10.53 trailing 2025). ADRs ~4.62B (mktcap $2.01T/precio). SBC despreciable (~$0.3B, estructura de comp Taiwán) → owner earnings ≈ ganancias normalizadas; el FCF headline se distorsiona por capex de crecimiento ($40.9B 2025, ~33% de ventas), por eso el ancla se construye sobre poder de ganancias, no sobre FCF deprimido. WACC 8.5% (tier Alta convicción). Múltiplo justificado 24x (ROIC ~40% + crec ~13% + moat durable apuntarían a 25-30x, pero se aplica haircut cíclico y se reporta bajo el techo 30x). Ancla cíclico = DCF-norm 50% + múltiplo×OE-norm 50%; EPV peso 0.",
+        "delta_v1": "v1 dio PWFV $215 (precio ~$445) y fue DEMASIADO DURO por tres errores que v2 corrige: (1) metía el EPV (~$128, valor sin crecimiento) DENTRO del ancla, arrastrándola ~20-25% abajo — en v2 el EPV es SUELO con peso 0; (2) WACC 9% en v1 → 8.5% en v2 (tier Alta convicción, la calidad merece menos que el mercado); (3) v1 no daba crédito completo al DCF-normalizado ni al múltiplo justificado. Resultado: el ancla sube de $215 a $313 (+46%). PERO la conclusión operativa NO cambia: incluso con el ancla v2 corregida y más generosa, el precio $435 queda +39% por encima → BURBUJA, MoS -39%, múltiplo 40x sobre-normalizado vs techo 30x. El veredicto ESPERAR es ROBUSTO a la corrección v1→v2: no era un artefacto de la severidad de v1, es que TSM cotiza caro sobre earnings de pico. La diferencia real es de dimensión (v2 aleja menos el precio del valor y fija gatillos de entrada más altos: ~$235-266 vs los ~$180 que habría implicado v1).",
+        "patron": {
+          "aplica": "P4-inverso (denominador INFLADO)",
+          "evidencia": "P4 'denominador roto' aquí opera al REVÉS: el múltiplo trailing engaña porque el denominador está en PICO (margen op p80+), no deprimido. El propio patrón ordena su inverso obligatorio en cíclicas (margen > p80 → PEAK earnings → usar mid-cycle, no comprar el múltiplo aparentemente 'sano'). Ningún patrón AMPLIFICADOR aplica: no hay pánico (P2, máximo 52s reciente), no hay herida (P1), no hay error de categoría (P3). Sin patrón que amplifique compra."
+        },
+        "_qg": 77.2,
+        "_tier": "Alta convicción",
+        "_v1": 215
+      },
+      {
+        "ticker": "IDXX",
+        "name": "IDEXX Laboratories, Inc.",
+        "arquetipo": "compounder",
+        "precio_actual": 551.26,
+        "fuente_precio": "Yahoo/StockAnalysis, cierre 1-jul-2026 ($551.26); 52s $506.91–$769.98 (HECHO)",
+        "qg_tier": "Alta convicción (76/100)",
+        "detector": {
+          "veredicto": "PASA",
+          "senales_estructurales": [],
+          "notas": "0 de 6 señales estructurales. ROIC ~40.7% estable (no en declive). Gana cuota: organico +10% en mercado de diagnostico veterinario en crecimiento. Sin disrupcion: moat razor-razorblade de base instalada intacto (instrumentos + consumibles recurrentes). Margen bruto ~60%+ estable. Contabilidad limpia (FCF 100% NI). Deuda trivial ND ~$668M (<0.6x EBITDA). SEMAFORO REVISIONES EN VERDE: consenso EPS 2026 siendo SUBIDO ($14.29-14.80 -> $14.45-14.90) tras beat Q1, no recortado. Es un negocio de altisima calidad, no una trampa."
+        },
+        "dcf_inverso": {
+          "g_implicita": "~14% anual de owner earnings (sobre OE forward), vs guia organica ~9-10% y consenso EPS ~10-14%",
+          "veredicto": "HEROICAS"
+        },
+        "metodos": {
+          "dcf_valor": 361,
+          "fcf_yield_valor": 280,
+          "multiplo_valor": 350,
+          "multiplo_justificado": 26,
+          "multiplo_valor_calc": 350,
+          "epv_suelo": 141,
+          "wacc_usado": 0.085
+        },
+        "pwfv_valor": 338,
+        "zona": "BURBUJA",
+        "mos": {
+          "actual_pct": -63,
+          "exigido_pct": 25,
+          "cumple": false,
+          "multiplo_actual": 38.8,
+          "techo_tier": 30,
+          "cumple_techo": false
+        },
+        "asimetria": {
+          "ratio": 0.1,
+          "pasa": false
+        },
+        "veredicto_final": "ESPERAR",
+        "data_confidence": "HIGH",
+        "degradada": false,
+        "frase_tesis": "No hay tesis de compra: el mercado NO teme nada mal dimensionado. Es un compounder excepcional (ROIC ~40%, recurrencia de consumibles, +10% organico) cotizando a ~38x owner earnings forward, un precio que exige ~14% de crecimiento perpetuo (HEROICAS). El -15% YTD lo bajo de absurdo a solo caro; sigue ~63% sobre valor.",
+        "banda_honesta": "$310–$365 (centro $338). Rango ancho por sensibilidad al escenario de crecimiento y a rf 4.47%. No hay falsa precision: cualquier version razonable deja el precio muy por encima.",
+        "niveles_gatillo": "OPORTUNIDAD (dcto 15-25% s/PWFV) ~ $255-287. GANGA FUERTE (candado por HEROICAS, requiere ≥25% dcto) ~ ≤$254. Alerta -25% desde max 52s ($770) = $577 (ya cruzada); -35% = $500. Ojo: aunque cruce -35% desde maximos ($500), seguiria ~48% sobre PWFV — el drawdown NO lo vuelve barato, solo menos caro. Revisar tras cada trimestre.",
+        "supuestos_clave": "Owner earnings ≈ FCF (SBC ~$0.35/accion de impacto = NEGLIGIBLE, <1% ventas; por eso restar 100% SBC casi no mueve el numero). OE trailing ~$12.70/accion, forward 2026 ~$14.20. WACC 8.5% (escalado tier Alta conviccion). Multiplo justificado 26x (ROIC~40% + crec ~9-10% + moat durable; capado a techo tier 30x). Crecimiento base 9%->6% fade, terminal 3%. EPV $141 (peso 0, solo suelo teorico sin crecimiento).",
+        "patron": {
+          "aplica": "ninguno (inverso de P5)",
+          "evidencia": "IDXX ES un caso P5 de calidad-por-duracion, PERO a 38x el precio ya rebasa el 'justo' de P5 (que topa en ~20-25x y respeta el techo 35x/30x). No hay pat de OPORTUNIDAD: sin panico general (P2), sin herida acotable (P1), sin denominador roto (P4). El pullback YTD no es una tesis, es reversion de sobrevaloracion."
+        },
+        "delta_v1": "v1 dio PWFV $320 (precio ~$627); v2 da $338 (precio $551). El ancla SUBE modestamente (+$18, ~+6%) por las 3 correcciones: (1) EPV fuera del ancla (peso 0) en vez de arrastrarlo abajo; (2) multiplos DENTRO del blend (25% mult justificado 26x); (3) WACC 8.5% en vez de 9%. PERO la conclusion NO cambia: IDXX cotiza a ~38x owner earnings forward un negocio que crece ~10%, muy por encima del techo 30x del tier y con DCF inverso HEROICAS (~14%). v2 demuestra que v1 NO fue 'demasiado duro' en el veredicto — la valoracion honesta con parametros generosos (forward OE, WACC tier, multiplos dentro) sigue dejando el precio ~55-63% sobre valor. La correccion de v2 refina el numero, no revierte la señal: sigue siendo ESPERAR, zona BURBUJA. La calidad (QG 76) es real; el precio es el problema.",
+        "_qg": 76,
+        "_tier": "Alta convicción",
+        "_v1": 320
+      },
+      {
+        "ticker": "ASML",
+        "name": "ASML Holding N.V.",
+        "arquetipo": "ciclico-semis (monopolio EUV con economía de compounder montado sobre el ciclo de capex de semis)",
+        "precio_actual": 1641.6,
+        "fuente_precio": "ASML.AS EUR, ~€1641.6 al 2-jul-2026 (ancla del encargo); ATH €1741 30-jun-2026",
+        "qg_tier": "Alta convicción (81.2/100) — WACC 8.5%, techo múltiplo 30x",
+        "detector": {
+          "veredicto": "PASA",
+          "senales_estructurales": [],
+          "notas": "CERO señales estructurales de trampa de valor. ROIC en ascenso (>100% reportado, capital-light, caja neta ~€5B). Cuota GANANDO: monopolio EUV/High-NA, backlog récord, output Low-NA 44→80 sistemas 2025→2027. Márgenes EXPANDIÉNDOSE (bruto 52.8% FY25, guía 56-60% a 2030; op ~35%). Contabilidad limpia, consenso EPS al ALZA (2027 +33%, guía 2026 subida a €36-40B). SBC ínfima (~€0.5B, ~1.5% de ventas). El detector protege contra TRAMPAS DE VALOR (deterioro barato), no contra SOBREVALORACIÓN — este es el caso opuesto: negocio impecable a precio de burbuja. El riesgo aquí lo capturan zona+MoS+techo de múltiplo, no el detector."
+        },
+        "dcf_inverso": {
+          "g_implicita": "~24% anual de owner earnings normalizados en años 1-5 (con 0.6x en 6-10) para justificar €1641.6 a WACC 8.5% — muy por encima de la guía propia (rev CAGR ~11% a 2030, EPS mid-case ~16%) y de base rates Mauboussin para una empresa de €640B de cap.",
+          "veredicto": "HEROICAS"
+        },
+        "metodos": {
+          "dcf_valor": 739,
+          "fcf_yield_valor": 1611,
+          "multiplo_valor": 725,
+          "epv_suelo": 266,
+          "multiplo_justificado": 30,
+          "multiplo_actual": 60,
+          "wacc_usado": 0.085
+        },
+        "pwfv_valor": 732,
+        "zona": "BURBUJA",
+        "mos": {
+          "actual_pct": -124,
+          "exigido_pct": 25,
+          "cumple": false,
+          "multiplo_actual": 60,
+          "techo_tier": 30,
+          "cumple_techo": false
+        },
+        "asimetria": {
+          "ratio": -0.45,
+          "pasa": false
+        },
+        "veredicto_final": "ESPERAR",
+        "data_confidence": "HIGH",
+        "degradada": false,
+        "banda_honesta": "€660–1020/acción. Piso EPV (sin crecimiento) €266. Techo alcista defendible €1020 usa OE TRAILING sin recorte de normalización + crecimiento agresivo 15%/10% + 35x — y aun así queda ~38% por debajo del precio. Ningún escenario razonable alcanza €1641.",
+        "delta_v1": "v1 dio PWFV €568 con precio €1641.6 (MoS profundamente negativo). v2 SUBE el ancla a €732 (+29%) corrigiendo las tres sobre-severidades: (1) EPV fuera del ancla (peso 0, solo como suelo €266 en vez de arrastrar el promedio); (2) WACC 8.5% del tier Alta convicción en vez de 9% genérico; (3) múltiplo justificado 30x DENTRO del ancla (50% del peso en cíclico) en vez de castigar con solo DCF+EPV. Aun con la corrección al alza, el VEREDICTO NO CAMBIA: el precio está tan estirado (~60x owner earnings, 124% sobre el ancla v2, ~50% sobre el techo alcista más generoso) que la diferencia €568→€732 es irrelevante para la decisión. ASML sigue en BURBUJA. La lección de v2 no es 'ASML está barata', es 'v1 no era demasiado duro AQUÍ — el precio simplemente descuenta una década de perfección'.",
+        "frase_tesis": "NO hay tesis de compra. El mercado NO teme nada de ASML; al contrario, paga ~60x owner earnings (P/E trailing máximo de 10 años) descontando ~24% de crecimiento anual, muy por encima de la propia guía de ~11-16%. Es una 'expectations trap': negocio de máxima calidad (monopolio EUV, caja neta, márgenes al alza) a precio de euforia. La tesis correcta es de PACIENCIA, no de compra.",
+        "niveles_gatillo": "OPORTUNIDAD (dcto ≥15% sobre PWFV €732 + MoS 25% del tier ⇒ ~€620 o menos, i.e. múltiplo ~23x owner earnings normalizados). GANGA FUERTE ⇒ ~€550 (~20x). Ojo: son ~62-66% por DEBAJO del precio actual — requeriría un desplome tipo pánico de ciclo semis (patrón P7 'el miedo golpea al peaje equivocado' se ACTIVARÍA ahí, no ahora). Alerta de vigilancia: −25% desde ATH €1741 ⇒ €1306 (revisar, aún caro); −35% ⇒ €1132 (aún sobre el techo alcista, seguir esperando).",
+        "supuestos_clave": "OE FY25 = FCF €11.08B − 100% SBC €0.5B = €10.58B (€27.2/acción, HECHO derivado). OE normalizado mid-cycle = margen neto medio 10a 26.1% × ingresos actuales €32.7B × ratio OE/NI 1.10 = €9.4B (€24.2/acción). Nota clave: 2025 NO es peak-earnings (margen neto 29% vs pico 2021 35.6%), así que la normalización cíclica apenas alivia — el problema es el PRECIO (P), no el denominador (E). Shares ~389M. Caja neta ~€5B. WACC 8.5%, g terminal 2.96% (=Bund 10Y). Múltiplo justificado 30x (ROIC>40% + crec ~11-14% ⇒ banda alta, capado al techo del tier).",
+        "patron": {
+          "aplica": "P7 (latente, NO activo)",
+          "evidencia": "ASML es el caso canónico de P7 'el miedo golpea al peaje equivocado' — su economía no depende del punto temido del ciclo de memoria. Pero P7 es un AMPLIFICADOR que requiere que el precio ya esté en zona; HOY el precio está en el extremo OPUESTO (euforia). El patrón queda archivado como plantilla para el próximo pánico de semis, cuando el precio caiga a ~€620 o menos. Ningún patrón puede generar señal de compra sobre un precio en BURBUJA."
+        },
+        "_qg": 81.2,
+        "_tier": "Alta convicción",
+        "_v1": 568
+      },
+      {
+        "ticker": "MELI",
+        "name": "MercadoLibre, Inc.",
+        "arquetipo": "compounder",
+        "precio_actual": 1742.37,
+        "fuente_precio": "Yahoo Finance / stockanalysis, cierre 1-jul-2026 (previo 1697.39; rango 52s 1495-2548.50) — HECHO",
+        "qg_tier": "Alta convicción (75.6/100)",
+        "detector": {
+          "veredicto": "GRIS",
+          "senales_estructurales": [
+            "Contabilidad/revisiones: 4 trimestres consecutivos de profit miss y recortes de consenso EPS FY26 de ~48 a ~41 USD (3+ recortes = el semaforo de revisiones vive aqui) -> 1 senal estructural"
+          ],
+          "notas": "Test decisivo = MISPRICING/reinversion, no deterioro: ingresos organicos ACELERANDO (+49% Q1'26, GMV y cuota ganando), la compresion de margen operativo (-600bps a 6.9%) es DELIBERADA y cuantificada por la empresa (~2/3 provisioning upfront del credito que crece 87% a/a + logistica/fulfillment), con mecanismo y fecha implicita -> cae en la excepcion (transicion anunciada+cuantificada), no cuenta como compresion estructural de margen. ROIC ~18-20% no es declive secular sino efecto contable del provisioning upfront del libro de credito. Sin disrupcion (MELI ES el disruptor LatAm), sin perdida de cuota, deuda transparente que financia el credito. Solo 1 senal -> GRIS, NO trampa."
+        },
+        "dcf_inverso": {
+          "g_implicita": "~11.5% CAGR de owner earnings normalizados a 10 anos implicito en 1742 USD (WACC 8.5%, tg 3%)",
+          "veredicto": "RAZONABLES"
+        },
+        "metodos": {
+          "dcf_valor": 2883,
+          "fcf_yield_valor": 1317,
+          "multiplo_valor": 1098,
+          "multiplo_justificado": 25,
+          "epv_suelo": 544,
+          "wacc_usado": 0.085
+        },
+        "pwfv_valor": 1790,
+        "zona": "JUSTO",
+        "mos": {
+          "actual_pct": 14.8,
+          "exigido_pct": 25,
+          "cumple": false,
+          "multiplo_actual": 39.7,
+          "techo_tier": 30,
+          "cumple_techo": false
+        },
+        "asimetria": {
+          "ratio": 1.06,
+          "pasa": false
+        },
+        "veredicto_final": "SOSTENER",
+        "data_confidence": "MEDIUM",
+        "degradada": false,
+        "frase_tesis": "El mercado teme que el desplome del margen operativo a 6.9% (4 misses seguidos) sea deterioro estructural; esta mal dimensionado porque ~2/3 del golpe es provisioning contable UPFRONT de un libro de credito que crece 87% a/a (perdida esperada reconocida al originar, antes de que el prestamo sea rentable) y el resto es capex deliberado de logistica — no perdida de demanda: los ingresos crecen +49% y MELI gana cuota.",
+        "banda_honesta": "1460 - 2930 USD/accion (ancla central ~2045); banda amplia por sensibilidad alta del DCF al CAGR de owner earnings y a la normalizacion de margen (a margen 14-15% el multiplo cae a 33-35x, a 11.5% sube a 43x)",
+        "niveles_gatillo": "OPORTUNIDAD (habilita anadir pese a ser >20% NAV solo si ademas baja de 30x): ~1550 (dcto 25% vs PWFV, MoS Alta conv. 25%). GANGA FUERTE / candidato tramo excepcional: <=1495 (minimo 52s) o dcto >=35%. Revisar detector cada trimestre tras resultados; alerta -35% desde maximo 52s (2548) = ~1656.",
+        "supuestos_clave": "Owner earnings NORMALIZADOS ~$2.24B ($43.9/accion): margen operativo normalizado 12.5% (bajo el pico FY23 de 14.6%, sobre el 6.9% deprimido de Q1'26 por provisioning), tasa efectiva ~30% LatAm, NI margin ~62% del EBIT. 51M acciones diluidas. DCF: WACC 8.5% (tier Alta conv.), tg 3%, escenarios OE 12/17/22% ponderados 35/45/20. FCF headline ($10.8B FY25) DESCARTADO como owner earnings: esta inflado por float/fondos de clientes fintech; la propia adjusted FCF de MELI fue ~$454M en Q2'25. Deuda neta corporativa ~$2B (el grueso de la deuda financia el libro de credito, compensado por cuentas por cobrar).",
+        "patron": {
+          "aplica": "P4 — Denominador roto (parcial) + P1 — Herida superficial",
+          "evidencia": "P4: el P/E trailing (~44x sobre EPS reportado) enga�a porque el denominador esta deprimido por provisioning upfront del credito, una causa nombrable y caducable (el libro madura y los prestamos se vuelven rentables). P1: herida acotada (compresion deliberada de margen) que hace desertar al accionista pero no al cliente (usuarios y GMV suben). PERO: los patrones solo AMPLIFican; aqui NO habilitan compra porque MoS (15%<25%), techo de multiplo (40x>30x) y asimetria (1.06<3) no pasan los gates del tier."
+        },
+        "delta_v1": "v1 dio PWFV ~900 (implicaba MELI ~48% SOBREVALORADA -> vender/evitar). Era un FALSO NEGATIVO por 3 defectos que v2 corrige: (1) v1 promediaba el EPV (~$544, valor estatico SIN crecimiento) DENTRO del ancla, arrastrandola ~40% abajo — v2 lo trata como SUELO de downside con peso 0; (2) v1 usaba WACC 9% en vez del 8.5% escalado al tier Alta conviccion (quality-growth sin apalancamiento operativo real merece menos tasa); (3) v1 dejaba el multiplo-justificado FUERA del numero. v2 aplica tri-metodo por arquetipo compounder (DCF 50% $2883 + FCF-yield-con-crecimiento 25% $1317 + multiplo-justificado 25x 25% $1098) -> PWFV ~2045. Resultado: MELI pasa de 'sobrevalorada, vender' (v1) a 'valorada en zona JUSTA, MoS ~15%, sostener' (v2). El veredicto operativo NO cambia (no se anade), pero por la razon correcta: no es cara, es que no ofrece el MoS de 25% ni la asimetria 3:1 que exige el tier para AMPLIAR una posicion que ya pesa >20% NAV.",
+        "_qg": 75.6,
+        "_tier": "Alta convicción",
+        "_v1": 900,
+        "_verif": {
+          "sano": false,
+          "correcciones": [
+            {
+              "campo": "pwfv_valor",
+              "antes": "2045",
+              "despues": "1790",
+              "razon": "El PWFV v2 esta cautivo de un solo metodo. El DCF (2883) es 2.2-2.6x los otros dos metodos y es el UNICO por encima del precio; la media FCF-yield+Multiplo es ~1208 (precio 44% por encima). Un DCF que duplica a los otros metodos de owner earnings a 50% de peso arrastra el ancla de ~1208 a 2045. Reconstruido: DCF con haircut anti-Damodaran + WACC corregido -> los tres metodos convergen ~1786-1790."
+            },
+            {
+              "campo": "wacc_usado",
+              "antes": "0.085",
+              "despues": "0.095",
+              "razon": "8.5% (tier Alta conviccion) es demasiado generoso para MELI: exposicion soberana y FX Argentina/LatAm mas un libro de credito fintech en rapido crecimiento (riesgo de ciclo crediticio, no economia de peaje pura) y margenes mucho mas volatiles que V/MA/MSFT. Tier Solida ~9.5% es mas honesto; 1pp mas en un DCF de larga duracion recorta ~18% -> DCF ~2364 -> PWFV ~1786."
+            },
+            {
+              "campo": "dcf_inverso",
+              "antes": "ignorado / no gatilla candado",
+              "despues": "HEROICAS -> candado GANGA activo",
+              "razon": "El precio de 1742 paga 39.7x los mismos owner earnings (43.9/accion) sobre los que el propio metodo justifico solo 25x. 39.7x supera incluso el techo Nucleo (35x). Eso ES la senal HEROICAS del DCF inverso expresada en multiplos: el precio ya exige expansion muy por encima de lo que la calidad justifica. Gatilla candado GANGA (exige >=25% dcto). El precio esta a solo ~15% del PWFV -> NO es ganga -> se prohibe cualquier compra/ampliacion."
+            },
+            {
+              "campo": "dcf_valor",
+              "antes": "2883",
+              "despues": "~2364 (marcar como sospechoso)",
+              "razon": "Un DCF 2.2x el FCF-yield y 2.6x el multiplo casi con certeza viola los checks anti-Damodaran del metodo (margen ano10 <= max historico; g = ROIC x reinversion). Los owner earnings de MELI son finos precisamente porque reinvierte fuerte en logistica + credito; un DCF que normaliza esos flujos a un margen terminal alto es la asuncion heroica. Debe recibir haircut, no peso 50% ciego."
+            }
+          ],
+          "notas": "Diagnostico: el PWFV v2 corrigio el deep-value absurdo de v1 pero se sobre-corrigio a DCF-worship. La aritmetica del tri-metodo es correcta (0.5*2883+0.25*1317+0.25*1098 = 2045.2 ✓) y el multiplo justificado (25x) SI respeta el techo de tier (<=30x AltaConv), asi que esos checks pasan. El problema no es el multiplo — es el DCF y el WACC. Dos de los tres metodos (FCF-yield 1317, Multiplo 1098) dicen que MELI ya cotiza POR ENCIMA de valor justo; solo el DCF rescata la tesis, y lo hace por si solo. Refutacion decisiva: el precio paga 39.7x owner earnings vs 25x justificado = HEROICAS, candado GANGA que fue ignorado. EPV suelo 544 -> el precio es 3.2x el piso de downside = proteccion delgada. Veredicto revisado SOSTENER se mantiene (no gatilla venta), pero el PWFV honesto es ~1790 (no 2045), lo que pone al precio en PRECIO JUSTO, no en OPORTUNIDAD. Implicacion practica: SOSTENER si ya se tiene, NO ampliar; sin MoS a este precio."
+        }
+      }
+    ],
+    "verificadas": 7
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Valorar v2"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Verificar"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "v2:MSFT",
+      "phaseIndex": 1,
+      "phaseTitle": "Valorar v2",
+      "agentId": "aea04a7e95191b293",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1783011138239,
+      "queuedAt": 1783011138222,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "MSFT",
+      "promptPreview": "Aplica el skill \"val-mos\" METODOLOGÍA v2 a Microsoft (MSFT). Score QG: 85.6/100, tier Núcleo. Arquetipo: compounder. (v1 dio PWFV 254 con precio ~386.58 — v1 fue DEMASIADO DURO por meter EPV en el ancla y WACC 9%; v2 lo corrige. NO copies v1.)\n\nPASO 0 — Lee (Read): /Users/felipealvarez/.claude/skills/val-mos/SKILL.md, /Users/felipealvarez/.claude/skills/val-mos/references/metodologia.md (v2), /Use…",
+      "lastProgressAt": 1783011332069,
+      "tokens": 69761,
+      "toolCalls": 18,
+      "durationMs": 193830,
+      "resultPreview": "{\"ticker\":\"MSFT\",\"name\":\"Microsoft Corporation\",\"arquetipo\":\"Compounder estable\",\"precio_actual\":385.89,\"fuente_precio\":\"stockanalysis.com / CNBC, 2026-07-02 (52w high 555.45, low 349.20)\",\"qg_tier\":\"Núcleo (85.6/100)\",\"detector\":{\"veredicto\":\"PASA\",\"senales_estructurales\":[],\"notas\":\"0 señales estructurales de las 6. (1) ROIC ~24% muy por encima de WACC, sin declive secular (baja de 25.7% solo po…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "v2:MA",
+      "phaseIndex": 1,
+      "phaseTitle": "Valorar v2",
+      "agentId": "a1b7e2724167b021f",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1783011138240,
+      "queuedAt": 1783011138222,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "MA",
+      "promptPreview": "Aplica el skill \"val-mos\" METODOLOGÍA v2 a Mastercard (MA). Score QG: 84/100, tier Alta convicción. Arquetipo: compounder. (v1 dio PWFV 410 con precio ~513.6 — v1 fue DEMASIADO DURO por meter EPV en el ancla y WACC 9%; v2 lo corrige. NO copies v1.)\n\nPASO 0 — Lee (Read): /Users/felipealvarez/.claude/skills/val-mos/SKILL.md, /Users/felipealvarez/.claude/skills/val-mos/references/metodologia.md (v2),…",
+      "lastProgressAt": 1783011254556,
+      "tokens": 64116,
+      "toolCalls": 18,
+      "durationMs": 116316,
+      "resultPreview": "{\"ticker\":\"MA\",\"name\":\"Mastercard Incorporated\",\"arquetipo\":\"Compounder estable (peaje de pagos, duopolio con Visa)\",\"precio_actual\":513.6,\"fuente_precio\":\"MarketBeat/TradingView, cierre 1-jul-2026 ($513.60; 52s $464.52-$601.77) — HECHO\",\"qg_tier\":\"Alta convicción (84/100) → WACC 8.5%, techo múltiplo 30x, MoS mínimo 25%\",\"detector\":{\"veredicto\":\"PASA\",\"senales_estructurales\":[],\"notas\":\"0/6 señale…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "v2:V",
+      "phaseIndex": 1,
+      "phaseTitle": "Valorar v2",
+      "agentId": "a2b4d3d3b4bf12304",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1783011138241,
+      "queuedAt": 1783011138222,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "V",
+      "promptPreview": "Aplica el skill \"val-mos\" METODOLOGÍA v2 a Visa (V). Score QG: 82.4/100, tier Alta convicción. Arquetipo: compounder. (v1 dio PWFV 238 con precio ~352.64 — v1 fue DEMASIADO DURO por meter EPV en el ancla y WACC 9%; v2 lo corrige. NO copies v1.)\n\nPASO 0 — Lee (Read): /Users/felipealvarez/.claude/skills/val-mos/SKILL.md, /Users/felipealvarez/.claude/skills/val-mos/references/metodologia.md (v2), /Us…",
+      "lastProgressAt": 1783011242489,
+      "tokens": 59354,
+      "toolCalls": 13,
+      "durationMs": 104248,
+      "resultPreview": "{\"ticker\":\"V\",\"name\":\"Visa Inc.\",\"arquetipo\":\"compounder\",\"precio_actual\":358.09,\"fuente_precio\":\"CNBC / stockanalysis.com, cierre intradía 2-jul-2026 ($358.09; rango día 351.76-358.84)\",\"qg_tier\":\"Alta convicción (82.4/100)\",\"detector\":{\"veredicto\":\"PASA\",\"senales_estructurales\":[],\"notas\":\"0/6 señales estructurales. (1) ROIC ~30-33% estable, sin declive secular. (2) Sin pérdida de cuota: volúmen…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "v2:ISRG",
+      "phaseIndex": 1,
+      "phaseTitle": "Valorar v2",
+      "agentId": "a070bc1fe806161c4",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1783011138242,
+      "queuedAt": 1783011138222,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "ISRG",
+      "promptPreview": "Aplica el skill \"val-mos\" METODOLOGÍA v2 a Intuitive Surgical (ISRG). Score QG: 82/100, tier Alta convicción. Arquetipo: compounder. (v1 dio PWFV 210 con precio ~405.33 — v1 fue DEMASIADO DURO por meter EPV en el ancla y WACC 9%; v2 lo corrige. NO copies v1.)\n\nPASO 0 — Lee (Read): /Users/felipealvarez/.claude/skills/val-mos/SKILL.md, /Users/felipealvarez/.claude/skills/val-mos/references/metodolog…",
+      "lastProgressAt": 1783011339521,
+      "tokens": 68987,
+      "toolCalls": 18,
+      "durationMs": 201279,
+      "resultPreview": "{\"ticker\":\"ISRG\",\"name\":\"Intuitive Surgical\",\"arquetipo\":\"compounder\",\"precio_actual\":406,\"fuente_precio\":\"Yahoo Finance / stockanalysis.com, 2-jul-2026 (~$406; cerca de mínimo 52s $396.68; máximo 52s $603.88; -29% YTD)\",\"qg_tier\":\"Alta convicción (82/100)\",\"detector\":{\"veredicto\":\"PASA\",\"senales_estructurales\":[],\"notas\":\"0 señales estructurales. ROIC ~26% en ascenso (5y avg 18%), NO en declive. …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "v2:GOOGL",
+      "phaseIndex": 1,
+      "phaseTitle": "Valorar v2",
+      "agentId": "ad059cfdb4cca6642",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1783011138242,
+      "queuedAt": 1783011138222,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "GOOGL",
+      "promptPreview": "Aplica el skill \"val-mos\" METODOLOGÍA v2 a Alphabet (GOOGL). Score QG: 81.2/100, tier Alta convicción. Arquetipo: compounder. (v1 dio PWFV 153 con precio ~359.01 — v1 fue DEMASIADO DURO por meter EPV en el ancla y WACC 9%; v2 lo corrige. NO copies v1.)\n\nPASO 0 — Lee (Read): /Users/felipealvarez/.claude/skills/val-mos/SKILL.md, /Users/felipealvarez/.claude/skills/val-mos/references/metodologia.md (…",
+      "lastProgressAt": 1783011317666,
+      "tokens": 71514,
+      "toolCalls": 19,
+      "durationMs": 179424,
+      "resultPreview": "{\"ticker\":\"GOOGL\",\"name\":\"Alphabet Inc.\",\"arquetipo\":\"compounder\",\"precio_actual\":360.22,\"fuente_precio\":\"Yahoo Finance / stockanalysis.com, 2-jul-2026 (rango intradía 355.73-362.97, cierre ~360.22)\",\"qg_tier\":\"Alta convicción (81.2/100)\",\"detector\":{\"veredicto\":\"PASA\",\"senales_estructurales\":[],\"notas\":\"0 de 6 señales estructurales. ROIC ~45% y en ascenso (HECHO FY2025). Ganando cuota en Cloud e …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "v2:ASML",
+      "phaseIndex": 1,
+      "phaseTitle": "Valorar v2",
+      "agentId": "ac92b4d06e64b18f7",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1783011138243,
+      "queuedAt": 1783011138223,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "ASML",
+      "promptPreview": "Aplica el skill \"val-mos\" METODOLOGÍA v2 a ASML Holding (ASML). Score QG: 81.2/100, tier Alta convicción. Arquetipo: ciclico-semis. (v1 dio PWFV 568 con precio ~1641.6 — v1 fue DEMASIADO DURO por meter EPV en el ancla y WACC 9%; v2 lo corrige. NO copies v1.)\n\nPASO 0 — Lee (Read): /Users/felipealvarez/.claude/skills/val-mos/SKILL.md, /Users/felipealvarez/.claude/skills/val-mos/references/metodologi…",
+      "lastProgressAt": 1783011332049,
+      "tokens": 71043,
+      "toolCalls": 18,
+      "durationMs": 193806,
+      "resultPreview": "{\"ticker\":\"ASML\",\"name\":\"ASML Holding N.V.\",\"arquetipo\":\"ciclico-semis (monopolio EUV con economía de compounder montado sobre el ciclo de capex de semis)\",\"precio_actual\":1641.6,\"fuente_precio\":\"ASML.AS EUR, ~€1641.6 al 2-jul-2026 (ancla del encargo); ATH €1741 30-jun-2026\",\"qg_tier\":\"Alta convicción (81.2/100) — WACC 8.5%, techo múltiplo 30x\",\"detector\":{\"veredicto\":\"PASA\",\"senales_estructurales…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "v2:NVDA",
+      "phaseIndex": 1,
+      "phaseTitle": "Valorar v2",
+      "agentId": "ab36468491fb8532d",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1783011138244,
+      "queuedAt": 1783011138223,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "NVDA",
+      "promptPreview": "Aplica el skill \"val-mos\" METODOLOGÍA v2 a Nvidia (NVDA). Score QG: 78/100, tier Alta convicción. Arquetipo: ciclico-semis. (v1 dio PWFV 90 con precio ~196.51 — v1 fue DEMASIADO DURO por meter EPV en el ancla y WACC 9%; v2 lo corrige. NO copies v1.)\n\nPASO 0 — Lee (Read): /Users/felipealvarez/.claude/skills/val-mos/SKILL.md, /Users/felipealvarez/.claude/skills/val-mos/references/metodologia.md (v2)…",
+      "lastProgressAt": 1783011316054,
+      "tokens": 70861,
+      "toolCalls": 21,
+      "durationMs": 177809,
+      "resultPreview": "{\"ticker\":\"NVDA\",\"name\":\"NVIDIA Corporation\",\"arquetipo\":\"ciclico-semis (plataforma datacenter con economía de compounder; margen actual en pico de 10 años → normalización mid-cycle obligatoria)\",\"precio_actual\":194.28,\"fuente_precio\":\"Yahoo Finance / CNBC, 2-jul-2026 (cierre intradía $194.28; rango 52s $152.97-$236.54). HECHO.\",\"qg_tier\":\"Alta convicción (score 78/100)\",\"detector\":{\"veredicto\":\"P…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "v2:VEEV",
+      "phaseIndex": 1,
+      "phaseTitle": "Valorar v2",
+      "agentId": "ac96a7e0d68af8fa0",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1783011138244,
+      "queuedAt": 1783011138223,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "VEEV",
+      "promptPreview": "Aplica el skill \"val-mos\" METODOLOGÍA v2 a Veeva Systems (VEEV). Score QG: 77.6/100, tier Alta convicción. Arquetipo: compounder. (v1 dio PWFV 167 con precio ~185.33 — v1 fue DEMASIADO DURO por meter EPV en el ancla y WACC 9%; v2 lo corrige. NO copies v1.)\n\nPASO 0 — Lee (Read): /Users/felipealvarez/.claude/skills/val-mos/SKILL.md, /Users/felipealvarez/.claude/skills/val-mos/references/metodologia.…",
+      "lastProgressAt": 1783011289615,
+      "tokens": 65314,
+      "toolCalls": 16,
+      "durationMs": 151371,
+      "resultPreview": "{\"ticker\":\"VEEV\",\"name\":\"Veeva Systems Inc.\",\"arquetipo\":\"Compounder estable (vertical SaaS ciencias de la vida)\",\"precio_actual\":184.22,\"fuente_precio\":\"Yahoo Finance / StockAnalysis, cierre 1-jul-2026 $184.22 (pre-market 2-jul ~$182). HECHO.\",\"qg_tier\":\"Alta convicción (77.6/100)\",\"detector\":{\"veredicto\":\"PASA\",\"senales_estructurales\":[],\"notas\":\"0 de 6 señales estructurales. ROIC ~34.5% y ESTAB…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 9,
+      "label": "v2:TSM",
+      "phaseIndex": 1,
+      "phaseTitle": "Valorar v2",
+      "agentId": "af0caaf3d4a0430fb",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1783011242493,
+      "queuedAt": 1783011138223,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "TSM",
+      "promptPreview": "Aplica el skill \"val-mos\" METODOLOGÍA v2 a TSMC (TSM). Score QG: 77.2/100, tier Alta convicción. Arquetipo: ciclico-semis. (v1 dio PWFV 215 con precio ~444.95 — v1 fue DEMASIADO DURO por meter EPV en el ancla y WACC 9%; v2 lo corrige. NO copies v1.)\n\nPASO 0 — Lee (Read): /Users/felipealvarez/.claude/skills/val-mos/SKILL.md, /Users/felipealvarez/.claude/skills/val-mos/references/metodologia.md (v2)…",
+      "lastProgressAt": 1783011447935,
+      "tokens": 72520,
+      "toolCalls": 21,
+      "durationMs": 205442,
+      "resultPreview": "{\"ticker\":\"TSM\",\"name\":\"Taiwan Semiconductor Manufacturing (ADR)\",\"arquetipo\":\"ciclico-semis\",\"precio_actual\":435.23,\"fuente_precio\":\"stockanalysis.com, 2-jul-2026 ($435.23); cross-check Yahoo Finance 1-jul-2026 $444.36. 52s: $223.70-$479.00 (nuevo máximo $479 sesión previa).\",\"qg_tier\":\"Alta convicción (77.2/100)\",\"detector\":{\"veredicto\":\"PASA\",\"senales_estructurales\":[],\"notas\":\"0 señales estruc…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 10,
+      "label": "v2:MCO",
+      "phaseIndex": 1,
+      "phaseTitle": "Valorar v2",
+      "agentId": "ace7d7f669bed9061",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1783011254560,
+      "queuedAt": 1783011138223,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "MCO",
+      "promptPreview": "Aplica el skill \"val-mos\" METODOLOGÍA v2 a Moody's (MCO). Score QG: 76.4/100, tier Alta convicción. Arquetipo: compounder. (v1 dio PWFV 308 con precio ~468.38 — v1 fue DEMASIADO DURO por meter EPV en el ancla y WACC 9%; v2 lo corrige. NO copies v1.)\n\nPASO 0 — Lee (Read): /Users/felipealvarez/.claude/skills/val-mos/SKILL.md, /Users/felipealvarez/.claude/skills/val-mos/references/metodologia.md (v2)…",
+      "lastProgressAt": 1783011447683,
+      "tokens": 71041,
+      "toolCalls": 21,
+      "durationMs": 193123,
+      "resultPreview": "{\"ticker\":\"MCO\",\"name\":\"Moody's Corporation\",\"arquetipo\":\"Compounder estable (duopolio de ratings MIS + Moody's Analytics recurrente)\",\"precio_actual\":484.27,\"fuente_precio\":\"stockanalysis.com, cierre 2-jul-2026 (HECHO). Nota: la tarea citaba ~468.38 del 1-jul; el mercado subió a 484.27 el 2-jul, uso el más reciente.\",\"qg_tier\":\"Alta convicción (76.4/100) — WACC 8.5%, techo múltiplo 30x, MoS mínim…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 11,
+      "label": "v2:IDXX",
+      "phaseIndex": 1,
+      "phaseTitle": "Valorar v2",
+      "agentId": "a466663fb566e20ec",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1783011289618,
+      "queuedAt": 1783011138223,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "IDXX",
+      "promptPreview": "Aplica el skill \"val-mos\" METODOLOGÍA v2 a IDEXX Labs (IDXX). Score QG: 76/100, tier Alta convicción. Arquetipo: compounder. (v1 dio PWFV 320 con precio ~627.43 — v1 fue DEMASIADO DURO por meter EPV en el ancla y WACC 9%; v2 lo corrige. NO copies v1.)\n\nPASO 0 — Lee (Read): /Users/felipealvarez/.claude/skills/val-mos/SKILL.md, /Users/felipealvarez/.claude/skills/val-mos/references/metodologia.md (v…",
+      "lastProgressAt": 1783011452869,
+      "tokens": 67002,
+      "toolCalls": 16,
+      "durationMs": 163251,
+      "resultPreview": "{\"ticker\":\"IDXX\",\"name\":\"IDEXX Laboratories, Inc.\",\"arquetipo\":\"compounder\",\"precio_actual\":551.26,\"fuente_precio\":\"Yahoo/StockAnalysis, cierre 1-jul-2026 ($551.26); 52s $506.91–$769.98 (HECHO)\",\"qg_tier\":\"Alta convicción (76/100)\",\"detector\":{\"veredicto\":\"PASA\",\"senales_estructurales\":[],\"notas\":\"0 de 6 señales estructurales. ROIC ~40.7% estable (no en declive). Gana cuota: organico +10% en merca…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 12,
+      "label": "v2:ADYEN",
+      "phaseIndex": 1,
+      "phaseTitle": "Valorar v2",
+      "agentId": "adbd7a232a42e58e6",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1783011316056,
+      "queuedAt": 1783011138223,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "ADYEN",
+      "promptPreview": "Aplica el skill \"val-mos\" METODOLOGÍA v2 a Adyen (ADYEN). Score QG: 75.6/100, tier Alta convicción. Arquetipo: compounder. (v1 dio PWFV 900 con precio ~847.6 — v1 fue DEMASIADO DURO por meter EPV en el ancla y WACC 9%; v2 lo corrige. NO copies v1.)\n\nPASO 0 — Lee (Read): /Users/felipealvarez/.claude/skills/val-mos/SKILL.md, /Users/felipealvarez/.claude/skills/val-mos/references/metodologia.md (v2),…",
+      "lastProgressAt": 1783011518682,
+      "tokens": 68215,
+      "toolCalls": 21,
+      "durationMs": 202624,
+      "resultPreview": "{\"ticker\":\"ADYEN\",\"name\":\"Adyen N.V.\",\"arquetipo\":\"compounder\",\"precio_actual\":820,\"fuente_precio\":\"Euronext Amsterdam, cierre 30-jun-2026 ~EUR820 (Yahoo/Google Finance, consultado 2-jul-2026). Rango 52s EUR772-1601.\",\"qg_tier\":\"Alta convicción (75.6/100)\",\"detector\":{\"veredicto\":\"PASA\",\"senales_estructurales\":[],\"notas\":\"0 de 6 señales estructurales. (1) ROIC: sin declive, ROIC>40% asset-light, m…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 13,
+      "label": "v2:MELI",
+      "phaseIndex": 1,
+      "phaseTitle": "Valorar v2",
+      "agentId": "a14def273a829cb5b",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1783011317669,
+      "queuedAt": 1783011138223,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "MELI",
+      "promptPreview": "Aplica el skill \"val-mos\" METODOLOGÍA v2 a MercadoLibre (MELI). Score QG: 75.6/100, tier Alta convicción. Arquetipo: compounder. (v1 dio PWFV 900 con precio ~1742.37 — v1 fue DEMASIADO DURO por meter EPV en el ancla y WACC 9%; v2 lo corrige. NO copies v1.)\n\nPASO 0 — Lee (Read): /Users/felipealvarez/.claude/skills/val-mos/SKILL.md, /Users/felipealvarez/.claude/skills/val-mos/references/metodologia.…",
+      "lastProgressAt": 1783011531578,
+      "tokens": 73539,
+      "toolCalls": 21,
+      "durationMs": 213909,
+      "resultPreview": "{\"ticker\":\"MELI\",\"name\":\"MercadoLibre, Inc.\",\"arquetipo\":\"compounder\",\"precio_actual\":1742.37,\"fuente_precio\":\"Yahoo Finance / stockanalysis, cierre 1-jul-2026 (previo 1697.39; rango 52s 1495-2548.50) — HECHO\",\"qg_tier\":\"Alta convicción (75.6/100)\",\"detector\":{\"veredicto\":\"GRIS\",\"senales_estructurales\":[\"Contabilidad/revisiones: 4 trimestres consecutivos de profit miss y recortes de consenso EPS F…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 14,
+      "label": "v2:RMS",
+      "phaseIndex": 1,
+      "phaseTitle": "Valorar v2",
+      "agentId": "a04c18eeccca603bb",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1783011332052,
+      "queuedAt": 1783011138223,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "RMS",
+      "promptPreview": "Aplica el skill \"val-mos\" METODOLOGÍA v2 a Hermès (RMS). Score QG: 74.4/100, tier Sólida. Arquetipo: compounder. (v1 dio PWFV 1161 con precio ~1620 — v1 fue DEMASIADO DURO por meter EPV en el ancla y WACC 9%; v2 lo corrige. NO copies v1.)\n\nPASO 0 — Lee (Read): /Users/felipealvarez/.claude/skills/val-mos/SKILL.md, /Users/felipealvarez/.claude/skills/val-mos/references/metodologia.md (v2), /Users/fe…",
+      "lastProgressAt": 1783011438208,
+      "tokens": 60514,
+      "toolCalls": 13,
+      "durationMs": 106155,
+      "resultPreview": "{\"ticker\":\"RMS\",\"name\":\"Hermès International\",\"arquetipo\":\"compounder\",\"precio_actual\":1595,\"fuente_precio\":\"Yahoo Finance / CNBC, cierre 1-jul-2026 (previo €1,598)\",\"qg_tier\":\"Sólida (74.4/100)\",\"detector\":{\"veredicto\":\"PASA\",\"senales_estructurales\":[],\"notas\":\"0 de 6 señales estructurales. ROIC ~40-53% ESTABLE (no declive). Cuota ganada en alta gama del lujo. Cero disrupción del modelo (marca ir…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 15,
+      "label": "v2:SPGI",
+      "phaseIndex": 1,
+      "phaseTitle": "Valorar v2",
+      "agentId": "a3209e3fc9d94b99d",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1783011332071,
+      "queuedAt": 1783011138223,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "SPGI",
+      "promptPreview": "Aplica el skill \"val-mos\" METODOLOGÍA v2 a S&P Global (SPGI). Score QG: 73.2/100, tier Sólida. Arquetipo: compounder. (v1 dio PWFV 314 con precio ~418.08 — v1 fue DEMASIADO DURO por meter EPV en el ancla y WACC 9%; v2 lo corrige. NO copies v1.)\n\nPASO 0 — Lee (Read): /Users/felipealvarez/.claude/skills/val-mos/SKILL.md, /Users/felipealvarez/.claude/skills/val-mos/references/metodologia.md (v2), /Us…",
+      "lastProgressAt": 1783011514171,
+      "tokens": 70219,
+      "toolCalls": 20,
+      "durationMs": 182100,
+      "resultPreview": "{\"ticker\":\"SPGI\",\"name\":\"S&P Global Inc.\",\"arquetipo\":\"Compounder estable (peaje de datos/ratings; Ratings+Indices casi monopolio duopolístico)\",\"precio_actual\":434.16,\"fuente_precio\":\"stockanalysis.com / Yahoo Finance, 2-jul-2026 ($434.16, +4.5% intradía; rebote desde ~$361 mínimo 52s)\",\"qg_tier\":\"Sólida (73.2/100)\",\"detector\":{\"veredicto\":\"PASA\",\"senales_estructurales\":[],\"notas\":\"Selloff -21% d…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 16,
+      "label": "verif:MSFT",
+      "phaseIndex": 2,
+      "phaseTitle": "Verificar",
+      "agentId": "a83825781812ceb38",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1783011531602,
+      "queuedAt": 1783011531584,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "MSFT",
+      "promptPreview": "Verificación ADVERSARIAL v2 de Microsoft Corporation (MSFT). PWFV-Valor v2 = 379, precio 385.89, veredicto ESPERAR. Métodos: {\"dcf_valor\":457,\"fcf_yield_valor\":303,\"multiplo_valor\":299,\"multiplo_justificado\":26,\"epv_suelo\":195,\"wacc_usado\":0.075}.\nDoble mandato: (A) SANIDAD — ¿el PWFV v2 es ahora creíble (ni el deep-value absurdo de v1 ni sobre-corregido a validar cualquier precio)? Un compounder …",
+      "lastProgressAt": 1783011568124,
+      "tokens": 39439,
+      "toolCalls": 2,
+      "durationMs": 36522,
+      "resultPreview": "{\"ticker\":\"MSFT\",\"sano\":true,\"correcciones\":[],\"pwfv_revisado\":379,\"veredicto_revisado\":\"ESPERAR\",\"notas\":\"SANIDAD (A): El PWFV v2=379 es creíble y NO sobre-corregido. La aritmética tri-método (Compounder estable) cuadra exacta: 0.50×457 + 0.25×303 + 0.25×299 = 228.5+75.75+74.75 = 379.0. EPV suelo (195) correctamente con peso 0. En términos de owner earnings (~$10-12/sh tras restar 100% SBC), 379 …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 17,
+      "label": "verif:MA",
+      "phaseIndex": 2,
+      "phaseTitle": "Verificar",
+      "agentId": "ad8897130697090b2",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1783011531612,
+      "queuedAt": 1783011531584,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "MA",
+      "promptPreview": "Verificación ADVERSARIAL v2 de Mastercard Incorporated (MA). PWFV-Valor v2 = 531, precio 513.6, veredicto ESPERAR. Métodos: {\"dcf_valor\":538,\"fcf_yield_valor\":560,\"multiplo_valor\":498,\"multiplo_justificado\":28,\"epv_suelo\":180,\"wacc_usado\":8.5}.\nDoble mandato: (A) SANIDAD — ¿el PWFV v2 es ahora creíble (ni el deep-value absurdo de v1 ni sobre-corregido a validar cualquier precio)? Un compounder de …",
+      "lastProgressAt": 1783011604060,
+      "tokens": 43144,
+      "toolCalls": 5,
+      "durationMs": 72448,
+      "resultPreview": "{\"ticker\":\"MA\",\"sano\":true,\"correcciones\":[],\"pwfv_revisado\":531,\"veredicto_revisado\":\"ESPERAR\",\"notas\":\"SANIDAD (A): el PWFV v2 = 531 es creible. Reconstruccion tri-metodo (DCF 50% 538 · FCF-yield 25% 560 · Multiplo 25% 498) da 533.5, consistente con 531 (redondeo). Dispersion entre metodos ~11.7% (ajustada, ningun metodo es outlier que arrastre el ancla). PWFV implica ~29.9x owner earnings — raz…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 18,
+      "label": "verif:V",
+      "phaseIndex": 2,
+      "phaseTitle": "Verificar",
+      "agentId": "a834139c3cb7d2272",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1783011531618,
+      "queuedAt": 1783011531584,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "V",
+      "promptPreview": "Verificación ADVERSARIAL v2 de Visa Inc. (V). PWFV-Valor v2 = 357, precio 358.09, veredicto ESPERAR. Métodos: {\"dcf_valor\":360,\"fcf_yield_valor\":400,\"multiplo_valor\":308,\"multiplo_justificado\":28,\"epv_suelo\":131,\"wacc_usado\":0.085}.\nDoble mandato: (A) SANIDAD — ¿el PWFV v2 es ahora creíble (ni el deep-value absurdo de v1 ni sobre-corregido a validar cualquier precio)? Un compounder de calidad debe…",
+      "lastProgressAt": 1783011575496,
+      "tokens": 39435,
+      "toolCalls": 2,
+      "durationMs": 43878,
+      "resultPreview": "{\"ticker\":\"V\",\"sano\":true,\"pwfv_revisado\":357,\"veredicto_revisado\":\"ESPERAR\",\"correcciones\":[],\"notas\":\"SANIDAD (A): El PWFV v2 de 357 es CREÍBLE, ni deep-value absurdo ni sobre-corregido. Reconstrucción tri-método exacta (Compounder estable = DCF 50% + FCF-yield 25% + Múltiplo 25%): 0.50×360 + 0.25×400 + 0.25×308 = 180+100+77 = 357 ✓. En magnitud, 357 implica ~35x owner earnings (~$10/acc de OE s…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 19,
+      "label": "verif:VEEV",
+      "phaseIndex": 2,
+      "phaseTitle": "Verificar",
+      "agentId": "afdcb7ab2e519b9c2",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1783011531624,
+      "queuedAt": 1783011531584,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "VEEV",
+      "promptPreview": "Verificación ADVERSARIAL v2 de Veeva Systems Inc. (VEEV). PWFV-Valor v2 = 209.85, precio 184.22, veredicto ESPERAR. Métodos: {\"dcf_valor\":220.26,\"fcf_yield_valor\":222.32,\"multiplo_valor\":176.56,\"multiplo_justificado\":25,\"epv_suelo\":103.31,\"wacc_usado\":0.085}.\nDoble mandato: (A) SANIDAD — ¿el PWFV v2 es ahora creíble (ni el deep-value absurdo de v1 ni sobre-corregido a validar cualquier precio)? Un…",
+      "lastProgressAt": 1783011612551,
+      "tokens": 42866,
+      "toolCalls": 7,
+      "durationMs": 80927,
+      "resultPreview": "{\"ticker\":\"VEEV\",\"sano\":true,\"correcciones\":[],\"pwfv_revisado\":209.85,\"veredicto_revisado\":\"ESPERAR\",\"notas\":\"SANIDAD (A): PWFV v2 es creíble. Implica ~29.7x owner earnings, múltiplo de rango medio-alto sensato para un compounder SaaS de moat durable; ni el deep-value absurdo de v1 (10x) ni sobre-corrección burbuja (50x). El EPV suelo 103.31 está correctamente con peso 0 (piso de downside), NO arr…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 20,
+      "label": "verif:ADYEN",
+      "phaseIndex": 2,
+      "phaseTitle": "Verificar",
+      "agentId": "a018ca5d3ef846e38",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1783011531629,
+      "queuedAt": 1783011531584,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "ADYEN",
+      "promptPreview": "Verificación ADVERSARIAL v2 de Adyen N.V. (ADYEN). PWFV-Valor v2 = 1056, precio 820, veredicto ESPERAR. Métodos: {\"dcf_valor\":1149,\"fcf_yield_valor\":916,\"multiplo_valor\":1010,\"epv_suelo\":362,\"multiplo_justificado\":28,\"multiplo_actual\":22,\"wacc_usado\":0.085}.\nDoble mandato: (A) SANIDAD — ¿el PWFV v2 es ahora creíble (ni el deep-value absurdo de v1 ni sobre-corregido a validar cualquier precio)? Un …",
+      "lastProgressAt": 1783011604601,
+      "tokens": 41927,
+      "toolCalls": 5,
+      "durationMs": 72972,
+      "resultPreview": "{\"ticker\":\"ADYEN\",\"sano\":true,\"pwfv_revisado\":1056,\"veredicto_revisado\":\"ESPERAR\",\"correcciones\":[],\"notas\":\"SANIDAD: el PWFV v2 = 1056 es CREIBLE y ya no adolece del deep-value absurdo de v1 ni de sobre-correccion. (1) Consistencia interna verificada: tri-metodo 1149x0.50 + 916x0.25 + 1010x0.25 = 1056 exacto; EPV 362 correctamente con peso 0 (34% del PWFV, ya NO arrastra el ancla hacia abajo, que…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 21,
+      "label": "verif:MELI",
+      "phaseIndex": 2,
+      "phaseTitle": "Verificar",
+      "agentId": "a70fb8dc047308008",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1783011531634,
+      "queuedAt": 1783011531584,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "MELI",
+      "promptPreview": "Verificación ADVERSARIAL v2 de MercadoLibre, Inc. (MELI). PWFV-Valor v2 = 2045, precio 1742.37, veredicto SOSTENER. Métodos: {\"dcf_valor\":2883,\"fcf_yield_valor\":1317,\"multiplo_valor\":1098,\"multiplo_justificado\":25,\"epv_suelo\":544,\"wacc_usado\":0.085}.\nDoble mandato: (A) SANIDAD — ¿el PWFV v2 es ahora creíble (ni el deep-value absurdo de v1 ni sobre-corregido a validar cualquier precio)? Un compound…",
+      "lastProgressAt": 1783011627576,
+      "tokens": 43335,
+      "toolCalls": 5,
+      "durationMs": 95942,
+      "resultPreview": "{\"ticker\":\"MELI\",\"sano\":false,\"pwfv_revisado\":1790,\"veredicto_revisado\":\"SOSTENER\",\"correcciones\":[{\"campo\":\"pwfv_valor\",\"antes\":\"2045\",\"despues\":\"1790\",\"razon\":\"El PWFV v2 esta cautivo de un solo metodo. El DCF (2883) es 2.2-2.6x los otros dos metodos y es el UNICO por encima del precio; la media FCF-yield+Multiplo es ~1208 (precio 44% por encima). Un DCF que duplica a los otros metodos de owner …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 22,
+      "label": "verif:SPGI",
+      "phaseIndex": 2,
+      "phaseTitle": "Verificar",
+      "agentId": "aa989488fd900eb5f",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1783011531637,
+      "queuedAt": 1783011531585,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "SPGI",
+      "promptPreview": "Verificación ADVERSARIAL v2 de S&P Global Inc. (SPGI). PWFV-Valor v2 = 420, precio 434.16, veredicto ESPERAR. Métodos: {\"dcf_valor\":399,\"wacc_usado\":9.5,\"fcf_yield_valor\":450,\"multiplo_justificado\":24,\"multiplo_valor\":432,\"epv_suelo\":149}.\nDoble mandato: (A) SANIDAD — ¿el PWFV v2 es ahora creíble (ni el deep-value absurdo de v1 ni sobre-corregido a validar cualquier precio)? Un compounder de calid…",
+      "lastProgressAt": 1783011607031,
+      "tokens": 42920,
+      "toolCalls": 5,
+      "durationMs": 75394,
+      "resultPreview": "{\"ticker\":\"SPGI\",\"sano\":true,\"pwfv_revisado\":420,\"veredicto_revisado\":\"ESPERAR\",\"correcciones\":[{\"campo\":\"wacc_usado\",\"antes\":\"9.5\",\"despues\":\"8.5 (revisar, no aplicado)\",\"razon\":\"9.5% es el escalon Solida (el MAS conservador). SPGI es nombre de alta conviccion (memoria: convicciones SPGI/MSFT/VEEV), tier Nucleo/AltaConv, cuyo WACC deberia ser 7.5-8.5%. El error va en direccion OPUESTA a la sospec…"
+    }
+  ],
+  "totalTokens": 1317066,
+  "totalToolCalls": 305
+}

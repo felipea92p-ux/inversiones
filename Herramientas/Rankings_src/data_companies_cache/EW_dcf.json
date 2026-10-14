@@ -1,0 +1,41 @@
+{
+ "ticker": "EW",
+ "currency": "USD",
+ "current_price": 85.88,
+ "wacc_pct": 9.3,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = FCF reportado $1,335M − 100% SBC $158.1M = $1,176.9M (~$1,177M). Margen owner-FCF implicito 19.4% sobre ventas $6,067.6M (deprimido vs FCF reportado 22% por tratar SBC como efectivo; tambien presionado por capex elevado y gastos de litigio).",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 9.5,
+  "rev_cagr_y6_10_pct": 6,
+  "fcf_margin_terminal_pct": 21,
+  "terminal_g_pct": 3,
+  "shares_diluted_b": 0.576,
+  "net_debt_usd_b": -2.97,
+  "sbc_treatment": "100% de SBC restada del FCF (SBC FY2025 $158.1M = 2.6% ventas / 11.8% FCF; baja, favorable). Owner FCF base $1,176.9M."
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 45.33,
+   "prob": 0.4,
+   "note": "CAGR owner-FCF a1-5 ~7% (debajo de guia, desaceleracion TAVR por competencia mitral/competidores TAVR de nueva generacion); Fase 2 declina 6%->3.5%; g terminal 2.5%. Margen owner-FCF estable ~19-20%. Sin expansion de margen. VT ~56% del EV."
+  },
+  "base": {
+   "iv_per_share": 53.89,
+   "prob": 0.45,
+   "note": "CAGR owner-FCF a1-5 ~9.5% (consistente con guia ventas +9-11% y track record organico ~10-11%); Fase 2 declina 7.5%->4.5%; g terminal 3.0% (foso solido en valvulas estructurales TAVR/TMTT, caja neta). Leve recuperacion de margen al madurar inversiones en TMTT. VT ~59% del EV."
+  },
+  "optimista": {
+   "iv_per_share": 64.21,
+   "prob": 0.15,
+   "note": "CAGR owner-FCF a1-5 ~12% (ejecucion perfecta: TMTT +35-45% sostenido, nuevas indicaciones TAVR de bajo riesgo/asintomaticos, apalancamiento operativo); Fase 2 declina 9%->5%; g terminal 3.5%. Expansion de margen owner-FCF hacia ~24%. VT ~63% del EV."
+  }
+ },
+ "sanity_check": "VI ponderada por probabilidad = $52.01 vs precio $85.88 => sobrevaloracion ~39% bajo owner earnings disciplinados. Reverse DCF: el mercado descuenta un CAGR de owner-FCF de ~18% durante 5 anios para justificar $85.88, muy por encima de la guia de ventas (+9-11%) y del crecimiento organico historico (~10-11%); requiere tanto alto crecimiento sostenido como fuerte expansion de margen. Multiplos: fwd P/E ~28.5x y PEG ~2.37 corroboran valoracion exigente (clasificada 'not_depressed', solo -4% del maximo 52s). Contraste de rendimiento al accionista: EW NO paga dividendo; recompra ~$1.0B/ano => yield de recompra ~2.0%, inferior al yield de owner-FCF ~2.4% sobre capitalizacion. Caja neta de $2.97B aporta colchon pero no cierra la brecha de valoracion. Conclusion: negocio QG de alta calidad (foso en corazon estructural, caja neta, SBC baja), pero precio descuenta ejecucion casi perfecta; margen de seguridad negativo a $85.88.",
+ "method_notes": "DCF de owner earnings a 10 anios en dos fases. Base owner-FCF $1,176.9M = FCF reportado $1,335M (OCF $1,595M − capex $260M) menos 100% de SBC $158.1M (FY2025, verificado via 10-K/StockAnalysis). Fase 1 (a1-5): CAGR constante por escenario. Fase 2 (a6-10): CAGR en declive lineal hacia normalizacion. Valor terminal Gordon sobre el flujo del anio 10 con g=2.5-3.5% segun foso. Descuento al WACC=9.3% (Rf 4.3% UST10Y + ERP 5.0% × beta 1.0; empresa estadounidense, sin ajuste geopolitico; beta ~1.0 tipica de dispositivos medicos de gran capitalizacion). EV = PV flujos explicitos + PV valor terminal; Equity = EV + caja neta $2.97B; VI/accion = Equity / 0.576B acciones diluidas (derivadas de mcap $49.5B / precio $85.88). Datos verificados de FASE 2 (EW.json): precio, FCF, SBC, ventas, guia, caja neta. No se requirio busqueda web adicional. Nota: el FCF/owner-FCF actual esta deprimido por reinversion intensa (TMTT) y litigios; los escenarios base/optimista incorporan recuperacion parcial de margen. La sensibilidad al valor terminal es alta (56-63% del EV), consistente con un compositor de larga duracion."
+}

@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "ticker": "CSU.TO",
+    "empresa": "Constellation Software Inc.",
+    "fecha_analisis": "2026-07-27",
+    "divisa_reporte": "USD",
+    "divisa_cotizacion": "CAD",
+    "divisa_funcional_y_de_reporte_de_la_empresa": "USD",
+    "rol": "VALORADOR — la calidad esta CONGELADA y no se toca",
+    "etiqueta_congelada": "ULTRA-C (4 puertas pasadas)",
+    "mecanismo_congelado": "Compra bases instaladas de software vertical de mision critica, cobra mantenimiento por adelantado (caja 3-4x el beneficio contable) y recicla el 100% de esa caja + deuda + capital de minoritarios en comprar mas bases. Capital tangible invertido NEGATIVO los ocho anios de la ventana.",
+    "eslabon_mas_debil_congelado": "ROIIC ex-margen comprimido a 10,9% (bruto 9,4%), organico ex-divisa +2%, licencias negativas 8 de 10 trimestres. Es una maquina de caja, NO una reinvertidora.",
+    "especie_G2": "reinversion 37,9% de ventas · ROIIC bruto 9,4% · ROIIC ex-margen 10,9%",
+    "mos_exigido_pct": 18.0,
+    "motivo_mos": "Umbral de ABRIR para ULTRA (no esta en cartera; si lo estuviera seria CARGAR con 30%)",
+    "en_cartera": false,
+    "acceso_a_filings": "CSU no presenta estados financieros ante la SEC (solo Forms 3/4/13D de terceros y prospectos F-7/F-X). Fuente primaria = PDFs oficiales del emisor en csisoftware.com, auditados por KPMG."
+  },
+
+  "fuentes_primarias": [
+    {
+      "doc": "Estados Financieros Consolidados Auditados FY2025 (KPMG LLP)",
+      "url": "https://www.csisoftware.com/wp-content/uploads/2026/04/CSI-Financial-Statement-Q425-Final.pdf",
+      "etiqueta": "HECHO"
+    },
+    {
+      "doc": "MD&A FY2025 (Q4-2025)",
+      "url": "https://www.csisoftware.com/wp-content/uploads/2026/04/CSI-MDA-Q4-2025-Final.pdf",
+      "etiqueta": "HECHO"
+    },
+    {
+      "doc": "Estados Financieros Intermedios Q1-2026 (no auditados)",
+      "url": "https://www.csisoftware.com/wp-content/uploads/2026/05/CSI-Financial-Statement-Q126-Final.pdf",
+      "etiqueta": "HECHO"
+    },
+    {
+      "doc": "MD&A Q1-2026",
+      "url": "https://www.csisoftware.com/wp-content/uploads/2026/05/CSI-MDA-Q1-2026-Final.pdf",
+      "etiqueta": "HECHO"
+    },
+    {
+      "doc": "Banco de Canada, Valet API, serie FXUSDCAD, observacion 2026-07-27 = 1,4114",
+      "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json",
+      "etiqueta": "HECHO"
+    },
+    {
+      "doc": "FRED DGS10 (US Treasury 10y), 2026-07-24 = 4,69%",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+      "etiqueta": "HECHO"
+    },
+    {
+      "doc": "Damodaran, Country Default Spreads and Risk Premiums, actualizado 5-ene-2026: ERP mercado maduro 4,23%; EEUU 4,46% (CRP 0,23%); Canada 4,23% (CRP 0%); Paises Bajos 4,23%; Reino Unido 5,01% (CRP 0,78%); Polonia 5,33% (CRP 1,10%)",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/ctryprem.html",
+      "etiqueta": "HECHO"
+    },
+    {
+      "doc": "Yahoo Finance chart API — serie semanal CSU.TO, ^GSPTSE, ^GSPC hasta 2026-07-27 (base del beta propio); precio de cierre CSU.TO 2026-07-27 = C$2.837,32",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/CSU.TO",
+      "etiqueta": "HECHO (precio) / INFERENCIA (beta derivado)"
+    },
+    {
+      "doc": "stockanalysis.com — capitalizaciones Topicus.com (TOI, C$7,73B) y Lumine Group (LMN, C$5,37B) al 27-jul-2026; beta 5Y de CSU 0,69. Comprobacion cruzada, nunca fuente unica de una cifra de veredicto.",
+      "url": "https://stockanalysis.com/quote/tsx/CSU/",
+      "etiqueta": "INFERENCIA"
+    }
+  ],
+
+  "precio_y_capitalizacion": {
+    "precio_cad": 2837.32,
+    "fecha_precio": "2026-07-27 (cierre)",
+    "fx_usdcad": 1.4114,
+    "fuente_fx": "Banco de Canada, serie FXUSDCAD, 2026-07-27 [HECHO]",
+    "precio_usd": 2010.29,
+    "acciones_en_circulacion": 21191530,
+    "fuente_acciones": "Nota 17 y nota 19 EEFF auditados FY2025: 21.191.530 acciones, identicas a 2024 (cero dilucion) [HECHO]",
+    "capitalizacion_usd_mm": 42601,
+    "es_ADS": false,
+    "nota_ADS": "Existe un CIK de ADR (0002074122, alta 2026) pero la valoracion se hace sobre la ordinaria TSX; no se usa el ADS."
+  },
+
+  "puente_a_enterprise_value": {
+    "base_balance": "31-mar-2026 (Q1-2026, el mas reciente publicado) [HECHO]",
+    "deuda_con_recurso_a_CSI_usd_mm": 1480,
+    "deuda_sin_recurso_a_CSI_usd_mm": 2510,
+    "deuda_financiera_total_usd_mm": 3990,
+    "pasivo_IRGA_TSS_usd_mm": 1133,
+    "acquisition_holdback_payables_usd_mm": 472,
+    "caja_y_equivalentes_usd_mm": 3010,
+    "deuda_neta_usd_mm": 2585,
+    "valor_de_mercado_del_NCI_usd_mm": 3624,
+    "detalle_NCI": "39,35% de Topicus.com (C$7,73B) + 38,60% de Lumine Group (C$5,37B) = C$5.115mm / 1,4114 = US$3.624mm. Participaciones tomadas de la nota 28 de los EEFF FY2025 [HECHO]; capitalizaciones de stockanalysis [INFERENCIA]. Adapt IT (26,07%) omitido por inmaterial.",
+    "ev_usd_mm": 48810,
+    "arrendamientos_excluidos_del_EV": "Si — las obligaciones de arrendamiento (US$438mm) NO se suman a la deuda neta porque los pagos de arrendamiento se restan como coste operativo dentro de los owner earnings. Evita doble conteo.",
+    "contraste_externo": "stockanalysis reporta EV C$64,70B (US$45.840mm). La diferencia con mis US$48.810mm es el NCI marcado a mercado, el pasivo IRGA y los holdbacks de adquisicion, que ese agregador no incorpora."
+  },
+
+  "wacc_candado_B": {
+    "principio": "El WACC sale del mercado. NUNCA se hereda de un tier de calidad.",
+    "tasa_libre_riesgo_pct": 4.69,
+    "fuente_rf": "US Treasury 10y (FRED DGS10), 24-jul-2026 = 4,69%. Se usa el bono en USD porque la moneda funcional y de reporte de CSU es el dolar estadounidense, aunque la accion cotice en CAD. Referencia cruzada: bono de Canada a 10 anios 3,60% (Banco de Canada, 24-jul-2026) — usarlo bajaria el WACC ~1,1pp y ese diferencial es puro diferencial de inflacion esperada, no de riesgo.",
+    "beta": 0.95,
+    "fuente_beta": "Calculo propio sobre 156 retornos SEMANALES de CSU.TO contra el S&P/TSX Composite (^GSPTSE), ventana 3 anios cerrada el 27-jul-2026, series de Yahoo Finance: beta 0,94 (correlacion 0,358; vol anualizada CSU 31,5% vs indice 12,0%). Contra el S&P 500: 0,79. Ventana de 2 anios: 0,96 (TSX) / 0,77 (SPX). Cifra citable de tercero para contraste: stockanalysis.com beta 5Y = 0,69 al 27-jul-2026 — se DESCARTA como central por ser incompatible con una caida pico-valle del -56% y un -42% a 12 meses. Central adoptado: 0,95.",
+    "prima_mercado_maduro_pct": 4.23,
+    "fuente_prima_mercado": "Damodaran, tabla actualizada 5-ene-2026: ERP de mercado maduro = ERP EEUU (4,46%) menos spread de impago EEUU (0,23%) = 4,23%",
+    "prima_pais_pct": 0.55,
+    "detalle_prima_pais": "Ponderada por el riesgo del ACTIVO, no del domicilio fiscal. Pesos por region tomados de la exposicion de cuentas por cobrar de la nota 21 FY2025 (proxy de ingresos): EEUU 44,2% (CRP 0,23%), Canada 4,6% (0%), Reino Unido 8,8% (0,78%), Europa 30,3% (0,45% supuesto propio, mezcla NL/DE/FR/PL), Otros 11,9% (2,00% supuesto propio). Suma ponderada = 0,55%.",
+    "erp_total_pct": 4.78,
+    "coste_capital_propio_pct": 9.23,
+    "coste_deuda_pct": 5.15,
+    "detalle_coste_deuda": "REAL, derivado del filing: intereses pagados sobre deuda FY2025 US$196mm / deuda financiera media del anio ((4.131+3.474)/2 = 3.802mm) = 5,15%. Coherente con los cupones de los Senior Notes (5,158% y 5,461%) [HECHO, estado de flujos y nota 11].",
+    "tasa_impositiva_marginal_pct": 26.5,
+    "coste_deuda_despues_impuestos_pct": 3.79,
+    "peso_equity_pct": 92.1,
+    "peso_deuda_pct": 7.9,
+    "nota_pesos": "Equity a valor de mercado = capitalizacion CSI (42.601) + NCI a mercado (3.624) = 46.225. Deuda a valor de mercado aproximada por su valor en libros (3.990) — no hay cotizacion de los bonos en el expediente [INFERENCIA].",
+    "wacc_pct": 8.80,
+    "wacc_rango": "7,7% (beta 0,70) a 9,7% (beta 1,15)"
+  },
+
+  "owner_earnings": {
+    "principio": "Dos versiones obligatorias x dos bases obligatorias. Nivel CONSOLIDADO (incluye el flujo de los minoritarios), coherente con un EV que ya incorpora el NCI a valor de mercado.",
+    "construccion": "Flujo de caja de operaciones (que en CSU ya es PRE-intereses: los intereses pagados van en financiacion) menos pagos de arrendamiento (principal + intereses, que la NIIF 16 saco del CFO) = caja operativa ajustada. De ahi se resta el capex segun la version. NO se resta el cargo de revaluacion del pasivo IRGA/TSS (no es caja); ese pasivo se lleva integro a la deuda neta. NO se suman intereses ni dividendos cobrados (la caja ya se resta en el puente de deuda neta).",
+    "auditado_FY2025": {
+      "cfo_usd_mm": 2732,
+      "pagos_de_arrendamiento_usd_mm": 147,
+      "caja_operativa_ajustada_usd_mm": 2585,
+      "depreciacion_de_PPE_usd_mm": 83,
+      "capex_PPE_usd_mm": 68,
+      "oe_mantenimiento_usd_mm": 2502,
+      "oe_capex_total_usd_mm": 2517,
+      "etiqueta": "HECHO (todas las partidas salen del estado de flujos y de las notas 8 y 9 de los EEFF auditados FY2025)"
+    },
+    "en_curso_TTM_Q2_2025_a_Q1_2026": {
+      "cfo_usd_mm": 2802,
+      "pagos_de_arrendamiento_usd_mm": 154,
+      "caja_operativa_ajustada_usd_mm": 2648,
+      "depreciacion_de_PPE_usd_mm": 87,
+      "capex_PPE_usd_mm": 72,
+      "oe_mantenimiento_usd_mm": 2561,
+      "oe_capex_total_usd_mm": 2576,
+      "etiqueta": "HECHO para CFO/capex/arrendamientos; INFERENCIA para la depreciacion de PP&E (la empresa no desglosa PP&E vs derecho de uso en los trimestrales; se escala la de FY2025 por la depreciacion total)."
+    },
+    "por_que_TTM_y_no_anualizado": "CSU no publica guia — es politica explicita de la casa. Anualizar 4xQ1 seria un error grosero: el Q1 concentra el 32,8% del CFO anual (897 de 2.732) por el cobro anticipado del mantenimiento. La base 'en curso' correcta es el TTM Q2-2025 a Q1-2026 = FY2025 + Q1-2026 - Q1-2025.",
+    "distancia_entre_bases": {
+      "oe_mantenimiento_pct": 2.4,
+      "lectura": "Es el hallazgo mas incomodo del expediente. Los ingresos TTM son US$12.150mm frente a US$11.623mm de FY2025, y el Q1-2026 crecio +19,9% interanual (3.181 vs 2.654), pero los owner earnings consolidados ex-IRGA solo suben +2,4% (2.502 a 2.561). Veinte puntos de crecimiento de ingresos se traducen en dos puntos de crecimiento de caja del duenio. La metrica propia de la empresa (FCFA2S) sube +13,2% (1.683 a 1.906), pero ese salto lo produce el cargo IRGA, que pasa de -440 en FY2025 a -270 en el TTM (en el Q1-2026 fue una GANANCIA de +76 al caer Asseco/Sygnity). Descontado ese vaiven contable, el motor esta plano.",
+      "momento_del_ciclo": "Digestion. La maquina esta comprando mas (US$2.093mm desplegados en M&A e inversiones en FY2025) y facturando mas, sin que la caja del duenio siga el ritmo."
+    },
+    "metrica_propia_de_la_empresa_para_contraste": {
+      "FCFA2S_FY2025_usd_mm": 1683,
+      "FCFA2S_TTM_usd_mm": 1906,
+      "diferencia_con_mi_OE": "FCFA2S es a nivel EQUITY (deduce el 100% del flujo atribuible a minoritarios, US$243mm en FY2025), deduce los intereses pagados y ademas trata el cargo de revaluacion IRGA como si fuera caja. Mi OE es a nivel EMPRESA y ex-IRGA. Ambos son defendibles; se reportan los dos."
+    },
+    "nota_sobre_el_test_(a)_vs_(b)": "El test de (a) capex de mantenimiento vs (b) capex total existe para no penalizar a una reinvertidora por reinvertir. En CSU casi no muerde: el capex tangible es el 0,6% de los ingresos (US$68mm) y la depreciacion de PP&E (US$83mm) es incluso mayor que el capex, asi que la version (a) sale LIGERAMENTE POR DEBAJO de la (b) — 15 millones de diferencia sobre 2.500, ruido puro. La reinversion de verdad de esta empresa no es capex: son US$2.093mm de adquisiciones e inversiones en FY2025 (1.227 de negocios + 286 de liquidaciones post-adquisicion + 580 de inversiones, la mayor parte la minoria en Asseco). Eso es el 83,6% de los owner earnings. Coherente con la etiqueta congelada: maquina de caja que recicla, no reinvertidora de capital tangible."
+  },
+
+  "dcf_inverso": {
+    "protocolo": "Se resuelve la g a 10 anios, con crecimiento terminal 3%, que iguala el valor presente de los owner earnings al EV de hoy (US$48.810mm) al WACC de 8,80%.",
+    "g_implicita_auditado_oe_mantenimiento_pct": 4.22,
+    "g_implicita_auditado_oe_capex_total_pct": 4.14,
+    "g_implicita_encurso_oe_mantenimiento_pct": 3.92,
+    "g_implicita_encurso_oe_capex_total_pct": 3.84,
+    "lectura": "El mercado NO esta pidiendo heroismo. Pide 3,8%-4,2% de crecimiento anual de owner earnings durante una decada y luego 3% para siempre. Eso es lo que el precio de hoy exige.",
+    "construccion_alternativa_de_la_propia_empresa": {
+      "descripcion": "Mismo ejercicio a nivel EQUITY: FCFA2S descontado al coste de capital propio (9,23%) contra la capitalizacion de CSI (US$42.601mm).",
+      "g_implicita_FY2025_pct": 8.61,
+      "g_implicita_TTM_pct": 6.98,
+      "por_que_difiere": "Dos razones, ambas declaradas: (1) FCFA2S carga el cargo IRGA como coste, lo que reduce el flujo; (2) mi construccion marca el NCI a precio de mercado, y Topicus y Lumine cotizan hoy a multiplos mucho mas bajos que CSI (el NCI a mercado, US$3.624mm, vale 14,3x su flujo, frente a los 22,4x que paga el mercado por CSI). Consolidar a precios de mercado abarata la mezcla y baja la g implicita. NO se puede elegir la que convenga: se reportan las dos, y la conclusion operativa es la misma en ambas."
+    }
+  },
+
+  "g_defendible": {
+    "formula": "g = tasa de reinversion x ROIIC EX-MARGEN (el ex-margen, nunca el bruto: usar el bruto asume que la expansion de margen se repite)",
+    "insumos_congelados": "reinversion 37,9% de ventas · ROIIC ex-margen 10,9%",
+    "g_defendible_pct": 4.13,
+    "aritmetica": "0,379 x 0,109 = 4,13%",
+    "hueco_de_unidades_declarado": "La tasa de reinversion congelada esta normalizada sobre VENTAS, y la formula g = b x ROIIC exige normalizarla sobre BENEFICIO. Si se mide la reinversion sobre owner earnings (US$2.161mm de M&A + inversiones + capex sobre US$2.502mm de OE = 86,4%), la g saldria 9,4%. NO uso esa version como central por dos motivos: (1) la calidad esta congelada y no me toca reabrir la definicion de la reinversion; (2) si la reinversion es realmente el 86% de los owner earnings, entonces el flujo LIBRE no es el OE completo sino el 14% de el, y el DCF habria que rehacerlo sobre esa base — al hacerlo, el valor sale por DEBAJO del precio de hoy (~US$38.000mm de EV frente a 48.810), es decir, MoS aun peor. En ninguna de las dos lecturas se abre la posicion.",
+    "contraste_con_la_g_implicita": "g defendible 4,13% frente a g implicita 3,8%-4,2%. Estan pegadas. El mercado pide exactamente lo que el motor puede dar. Eso no es una oportunidad: es un empate."
+  },
+
+  "valor_intrinseco": {
+    "metodo": "DCF a 10 anios con g defendible 4,13%, terminal 3%, WACC 8,80%, sobre owner earnings de mantenimiento; se resta deuda neta y NCI a valor de mercado.",
+    "base_auditada": {
+      "ev_intrinseco_usd_mm": 48482,
+      "equity_usd_mm": 42273,
+      "valor_por_accion_usd": 1995,
+      "valor_por_accion_cad": 2815,
+      "mos_pct": -0.8
+    },
+    "base_en_curso": {
+      "ev_intrinseco_usd_mm": 49625,
+      "equity_usd_mm": 43416,
+      "valor_por_accion_usd": 2049,
+      "valor_por_accion_cad": 2892,
+      "mos_pct": 1.9
+    },
+    "piso_de_resolucion": {
+      "regla": "Sin medicion propia del ruido se aplica una banda de mas menos 25%. Nada de decimales falsos.",
+      "valor_por_accion_cad_banda": "C$2.100 - C$3.500 (punto medio ~C$2.800)",
+      "valor_por_accion_usd_banda": "US$1.500 - US$2.500",
+      "lectura": "El precio de hoy (C$2.837) cae DENTRO de la banda. Con la resolucion que tengo, CSU es indistinguible de su valor justo. Cualquier afirmacion mas fina que eso seria un decimal inventado."
+    },
+    "sensibilidad_al_beta": [
+      {"beta": 0.70, "wacc_pct": 7.70, "valor_cad": 3586, "mos_pct": 20.9},
+      {"beta": 0.85, "wacc_pct": 8.40, "valor_cad": 3086, "mos_pct": 8.0},
+      {"beta": 0.95, "wacc_pct": 8.80, "valor_cad": 2815, "mos_pct": -0.8},
+      {"beta": 1.05, "wacc_pct": 9.20, "valor_cad": 2584, "mos_pct": -9.8},
+      {"beta": 1.15, "wacc_pct": 9.70, "valor_cad": 2382, "mos_pct": -19.1}
+    ],
+    "nota_sensibilidad": "Solo con el beta de 0,69 que publican los agregadores se alcanzaria el 18% de MoS exigido — y ese beta es justo el que descarto por incompatible con el drawdown observado. Es decir: el unico camino aritmetico a la compra pasa por el insumo que menos me creo.",
+    "contraste_a_nivel_equity_con_FCFA2S": "Descontando FCFA2S al coste de capital propio con la misma g defendible: C$2.019/accion (base FY2025, MoS -40,6%) y C$2.286/accion (base TTM, MoS -24,1%). La construccion de la propia empresa es MAS dura con el precio que la mia."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 17.0,
+    "definicion_m_estrella": "17x owner earnings de mantenimiento a nivel EMPRESA (EV/OE). Decidido en frio, sin barra de error, porque no es una estimacion sino un compromiso. Justificacion: 1/(WACC 8,80% - terminal 3,0%) = 17,2x. Es decir, 17x es exactamente lo que vale una perpetuidad que crece al 3% a mi coste de capital: pago por la maquina de caja, NO pago por adelantado el crecimiento que su ROIIC ex-margen del 10,9% ya no garantiza.",
+    "multiplo_pagado_hoy": {
+      "ev_sobre_oe_mantenimiento_TTM": 19.1,
+      "capitalizacion_sobre_FCFA2S_TTM": 22.4,
+      "veredicto": "Hoy se pide 19,1x. Mi compromiso es 17x. Pago de mas."
+    },
+    "valor_con_m_estrella": {
+      "base_auditada_cad": 2419,
+      "base_en_curso_cad": 2486
+    },
+    "p_estrella_cad": 2309,
+    "p_estrella_usd": 1636,
+    "definicion_p_estrella": "Precio que deja el MoS del 18% exigido por la banda ULTRA para ABRIR, sobre el valor intrinseco de la base AUDITADA (la mas conservadora de las dos): C$2.815 x 0,82 = C$2.309 = US$1.636.",
+    "p_estrella_alternativo_mas_estricto": "Si en vez del DCF se ancla en el multiplo comprometido (m* = 17x), el disparador baja a C$1.984 (US$1.406). Se declara como el nivel duro: es el precio al que la compra no depende de creerse ninguna g.",
+    "distancia_desde_el_precio_de_hoy": "El precio tiene que caer un 18,6% hasta C$2.309, o un 30,1% hasta C$1.984. Hoy no esta ahi."
+  },
+
+  "tir_esperada": {
+    "definicion": "Tasa de descuento que iguala el precio de HOY al flujo de owner earnings creciendo a la g defendible (4,13%) durante 10 anios y 3% despues.",
+    "central_pct": 8.8,
+    "rango": "7,3% a 10,3% anual",
+    "detalle_del_rango": [
+      {"escenario": "owner earnings -25% (piso de resolucion)", "tir_pct": 7.3},
+      {"escenario": "central, g 4,13%, base auditada", "tir_pct": 8.8},
+      {"escenario": "central, g 4,13%, base en curso", "tir_pct": 8.9},
+      {"escenario": "g decepciona a 2%", "tir_pct": 7.9},
+      {"escenario": "g sorprende a 6%", "tir_pct": 9.6},
+      {"escenario": "owner earnings +25%", "tir_pct": 10.3}
+    ],
+    "lectura": "Comprar hoy es firmar una TIR esperada de entre el 7% y el 10% anual, con centro en 8,8% — que es, por construccion, exactamente mi coste de capital. Un MoS de cero traducido a lo unico que importa: no gano nada por encima del riesgo que asumo. Y la TIR de 10,3% del extremo bueno exige un 25% mas de owner earnings de los que la empresa genera hoy."
+  },
+
+  "detector_de_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "No hay trampa porque no hay descuento que la disfrace: el MoS es de -1% a +2%, cero. Una trampa de valor es un MoS grande sobre un motor roto; aqui no hay MoS. Ahora bien, el motor SI muestra fatiga documentada y ya esta en el precio: (1) el ROIIC ex-margen congelado (10,9%) supera mi WACC de mercado (8,80%) por apenas 2,1 puntos — el spread que justifica reinvertir el 84% de la caja se ha estrechado hasta casi desaparecer; (2) los owner earnings consolidados ex-IRGA estan planos (+2,4% TTM) mientras los ingresos crecen +19,9% interanual; (3) el crecimiento organico ex-divisa es +2% y las licencias nuevas llevan 8 trimestres negativos de 10. Lo que NO se rompe: la caja sigue siendo real y enorme (21,1% de margen de owner earnings sobre ingresos TTM), la dilucion sigue siendo cero (21.191.530 acciones identicas a 2024, nota 17) y la conversion de contabilidad a caja sigue siendo excepcional.",
+    "senal_a_vigilar": "Si el ROIIC marginal cae por debajo del WACC, cada dolar reciclado destruye valor y la maquina se convierte en un fondo de private equity caro. Con 2,1 puntos de colchon, eso esta a un mal anio de distancia."
+  },
+
+  "veredicto_del_valorador": {
+    "abre_posicion": false,
+    "mos_exigido_pct": 18.0,
+    "mos_obtenido_pct": "-0,8% (base auditada) / +1,9% (base en curso)",
+    "conclusion": "NO ABRIR. Falla el umbral por 16-19 puntos. Y falla por la razon menos apelable de todas: no porque el mercado exija un crecimiento heroico que yo pueda discutir, sino porque el mercado exige exactamente el crecimiento que el motor puede dar (pide 3,8-4,2%, el motor rinde 4,1%). No hay percepcion variante que explotar en el precio. Nota de disciplina: la etiqueta congelada es ULTRA-C, maquina de caja, no reinvertidora — al abrir el precio la tentacion era reclasificar hacia arriba porque los numeros de caja son magnificos. No se hace. La etiqueta no sube nunca."
+  },
+
+  "huecos_declarados": [
+    "CSU no publica guia — es politica declarada de la casa. La base 'en curso' es TTM (Q2-2025 a Q1-2026), no un ejercicio anualizado con guia. Anualizar 4xQ1 estaria mal: el Q1 concentra el 32,8% del CFO anual.",
+    "Q2-2026 aun no publicado (Topicus anuncia el 5-ago-2026; CSU suele reportar en la misma ventana). La base 'en curso' esta a un trimestre de quedarse vieja.",
+    "Divergencia grande y no reconciliable entre construcciones: g implicita 3,8-4,2% (mi construccion empresarial, ex-IRGA, NCI marcado a mercado) frente a 7,0-8,6% (construccion FCFA2S de la propia empresa, a nivel equity, con el IRGA como coste y sin marcar el NCI). Mismo veredicto operativo, magnitudes muy distintas. Se reportan las dos.",
+    "El beta es estadisticamente debil: la correlacion semanal de CSU con el S&P/TSX es de solo 0,358 a 3 anios (R2 ~0,13). Un beta con ese R2 es un numero con mucho ruido dentro. El valor por accion se mueve entre C$2.382 y C$3.586 solo por el beta.",
+    "El beta publicado por agregadores (0,69, stockanalysis 27-jul-2026) se descarta como central por incompatible con el -42% a 12 meses y el -56% pico-valle. Esa decision es mia y es discutible; si el 0,69 fuera correcto el MoS seria +20,9% y la conclusion se daria la vuelta.",
+    "Unidad de la tasa de reinversion congelada: 37,9% esta sobre VENTAS y la formula g = b x ROIIC exige b sobre BENEFICIO. Con b medida sobre owner earnings (86,4%) la g saldria 9,4%, pero entonces el flujo libre a descontar seria el 14% del OE y el valor caeria aun mas. Declarado, no resuelto — no me corresponde reabrirlo porque la calidad esta congelada.",
+    "NCI a valor de mercado usa las capitalizaciones de Topicus (C$7,73B) y Lumine (C$5,37B) de stockanalysis [INFERENCIA, no filing]. Adapt IT (26,07% de NCI) se omite por inmaterial. Un error del 20% en esas capitalizaciones mueve el EV un 1,5%.",
+    "Depreciacion de PP&E del TTM (US$87mm) estimada escalando la de FY2025 (US$83mm, HECHO nota 8) por la depreciacion total del periodo: la empresa no desglosa PP&E vs derecho de uso en los estados intermedios.",
+    "La depreciacion de la nota 8 (83) mas la de la nota 9 (133) suma 216, frente a los 201 de la cuenta de resultados. No se reconcilia esa diferencia de 15 en el filing; se usa el 83 de la nota 8 por ser el dato especifico de PP&E.",
+    "Sesgo al alza de aproximadamente US$52mm (2% del OE) por no desapalancar el escudo fiscal de intereses: los impuestos pagados (US$556mm) ya reflejan la deduccion de los intereses, asi que un FCFF puro seria algo menor. Dentro del ruido, declarado.",
+    "Prima pais 0,55% ponderada con la exposicion de cuentas por cobrar por region (proxy de ingresos, nota 21), con supuestos propios para las cestas 'Europa' (0,45%) y 'Otros' (2,00%) que Damodaran no agrega. La tabla de Damodaran es de 5-ene-2026, siete meses vieja.",
+    "Deuda a valor de mercado aproximada por valor en libros: no hay cotizacion de los Senior Notes ni de las Debentures en el expediente.",
+    "El pasivo IRGA/TSS (US$1.133mm al 31-mar-2026) se lleva integro a deuda neta y su revaluacion se excluye del flujo. Es la decision metodologica mas cargada del expediente: la empresa hace lo contrario. Si se hiciera como la empresa, el MoS empeoraria entre 24 y 40 puntos.",
+    "La tasa impositiva marginal del 26,5% es la estatutaria canadiense; la efectiva de FY2025 esta distorsionada al alza por el IRGA no deducible (impuesto corriente 606 sobre 939 de beneficio antes de impuestos). Supuesto propio."
+  ]
+}

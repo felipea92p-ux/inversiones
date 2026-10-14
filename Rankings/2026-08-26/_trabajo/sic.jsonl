@@ -1,0 +1,327 @@
+{"ticker": "IDXX", "sic": "2835", "sic_desc": "In Vitro & In Vivo Diagnostic Substances", "nombre": "IDEXX LABORATORIES INC /DE", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "V", "sic": "7389", "sic_desc": "Services-Business Services, NEC", "nombre": "VISA INC.", "pais": "DE", "fiscal_fin": "0930"}
+{"ticker": "SPGI", "sic": "7320", "sic_desc": "Services-Consumer Credit Reporting, Collection Agencies", "nombre": "S&P Global Inc.", "pais": "NY", "fiscal_fin": "1231"}
+{"ticker": "MA", "sic": "7389", "sic_desc": "Services-Business Services, NEC", "nombre": "Mastercard Inc", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "MSFT", "sic": "7372", "sic_desc": "Services-Prepackaged Software", "nombre": "MICROSOFT CORP", "pais": "WA", "fiscal_fin": "0630"}
+{"ticker": "MSCI", "sic": "7389", "sic_desc": "Services-Business Services, NEC", "nombre": "MSCI Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "ISRG", "sic": "3842", "sic_desc": "Orthopedic, Prosthetic & Surgical Appliances & Supplies", "nombre": "INTUITIVE SURGICAL INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "TSM", "sic": "3674", "sic_desc": "Semiconductors & Related Devices", "nombre": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "ASML", "sic": "3559", "sic_desc": "Special Industry Machinery, NEC", "nombre": "ASML HOLDING NV", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "VEEV", "sic": "7372", "sic_desc": "Services-Prepackaged Software", "nombre": "VEEVA SYSTEMS INC", "pais": "DE", "fiscal_fin": "0131"}
+{"ticker": "NVDA", "sic": "3674", "sic_desc": "Semiconductors & Related Devices", "nombre": "NVIDIA CORP", "pais": "DE", "fiscal_fin": "0131"}
+{"ticker": "CME", "sic": "6200", "sic_desc": "Security & Commodity Brokers, Dealers, Exchanges & Services", "nombre": "CME GROUP INC.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "BKNG", "sic": "4700", "sic_desc": "Transportation Services", "nombre": "Booking Holdings Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "GOOGL", "sic": "7370", "sic_desc": "Services-Computer Programming, Data Processing, Etc.", "nombre": "Alphabet Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "INTU", "sic": "7372", "sic_desc": "Services-Prepackaged Software", "nombre": "INTUIT INC.", "pais": "DE", "fiscal_fin": "0731"}
+{"ticker": "CDNS", "sic": "7372", "sic_desc": "Services-Prepackaged Software", "nombre": "CADENCE DESIGN SYSTEMS INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "NOW", "sic": "7372", "sic_desc": "Services-Prepackaged Software", "nombre": "ServiceNow, Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "ADBE", "sic": "7372", "sic_desc": "Services-Prepackaged Software", "nombre": "ADOBE INC.", "pais": "DE", "fiscal_fin": "1127"}
+{"ticker": "NFLX", "sic": "7841", "sic_desc": "Services-Video Tape Rental", "nombre": "NETFLIX INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "SNPS", "sic": "7372", "sic_desc": "Services-Prepackaged Software", "nombre": "SYNOPSYS INC", "pais": "DE", "fiscal_fin": "1031"}
+{"ticker": "VRSK", "sic": "7374", "sic_desc": "Services-Computer Processing & Data Preparation", "nombre": "Verisk Analytics, Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "AMZN", "sic": "5961", "sic_desc": "Retail-Catalog & Mail-Order Houses", "nombre": "AMAZON COM INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "MTD", "sic": "3826", "sic_desc": "Laboratory Analytical Instruments", "nombre": "METTLER TOLEDO INTERNATIONAL INC/", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "AAPL", "sic": "3571", "sic_desc": "Electronic Computers", "nombre": "Apple Inc.", "pais": "CA", "fiscal_fin": "0926"}
+{"ticker": "ZTS", "sic": "2834", "sic_desc": "Pharmaceutical Preparations", "nombre": "Zoetis Inc.", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "FICO", "sic": "7389", "sic_desc": "Services-Business Services, NEC", "nombre": "FAIR ISAAC CORP", "pais": "DE", "fiscal_fin": "0930"}
+{"ticker": "WST", "sic": "3841", "sic_desc": "Surgical & Medical Instruments & Apparatus", "nombre": "WEST PHARMACEUTICAL SERVICES INC", "pais": "PA", "fiscal_fin": "1231"}
+{"ticker": "ICE", "sic": "6200", "sic_desc": "Security & Commodity Brokers, Dealers, Exchanges & Services", "nombre": "Intercontinental Exchange, Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "MELI", "sic": "7389", "sic_desc": "Services-Business Services, NEC", "nombre": "MERCADOLIBRE INC", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "TYL", "sic": "7372", "sic_desc": "Services-Prepackaged Software", "nombre": "TYLER TECHNOLOGIES INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "AVGO", "sic": "3674", "sic_desc": "Semiconductors & Related Devices", "nombre": "Broadcom Inc.", "pais": "", "fiscal_fin": "1101"}
+{"ticker": "MANH", "sic": "7372", "sic_desc": "Services-Prepackaged Software", "nombre": "MANHATTAN ASSOCIATES INC", "pais": "GA", "fiscal_fin": "1231"}
+{"ticker": "FDS", "sic": "7370", "sic_desc": "Services-Computer Programming, Data Processing, Etc.", "nombre": "FACTSET RESEARCH SYSTEMS INC", "pais": "DE", "fiscal_fin": "0831"}
+{"ticker": "MCO", "sic": "7320", "sic_desc": "Services-Consumer Credit Reporting, Collection Agencies", "nombre": "MOODYS CORP /DE/", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "CPRT", "sic": "5500", "sic_desc": "Retail-Auto Dealers & Gasoline Stations", "nombre": "COPART INC", "pais": "DE", "fiscal_fin": "0731"}
+{"ticker": "ACN", "sic": "7389", "sic_desc": "Services-Business Services, NEC", "nombre": "Accenture plc", "pais": "L2", "fiscal_fin": "0831"}
+{"ticker": "DUOL", "sic": "7372", "sic_desc": "Services-Prepackaged Software", "nombre": "Duolingo, Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "NVO", "sic": "2834", "sic_desc": "Pharmaceutical Preparations", "nombre": "NOVO NORDISK A S", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "EFX", "sic": "7320", "sic_desc": "Services-Consumer Credit Reporting, Collection Agencies", "nombre": "EQUIFAX INC", "pais": "GA", "fiscal_fin": "1231"}
+{"ticker": "TMO", "sic": "3829", "sic_desc": "Measuring & Controlling Devices, NEC", "nombre": "THERMO FISHER SCIENTIFIC INC.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "SPOT", "sic": "4832", "sic_desc": "Radio Broadcasting Stations", "nombre": "Spotify Technology S.A.", "pais": "N4", "fiscal_fin": "1231"}
+{"ticker": "RMD", "sic": "3841", "sic_desc": "Surgical & Medical Instruments & Apparatus", "nombre": "RESMED INC", "pais": "DE", "fiscal_fin": "0630"}
+{"ticker": "LLY", "sic": "2834", "sic_desc": "Pharmaceutical Preparations", "nombre": "ELI LILLY & Co", "pais": "IN", "fiscal_fin": "1231"}
+{"ticker": "ALGN", "sic": "3842", "sic_desc": "Orthopedic, Prosthetic & Surgical Appliances & Supplies", "nombre": "ALIGN TECHNOLOGY INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "COST", "sic": "5331", "sic_desc": "Retail-Variety Stores", "nombre": "COSTCO WHOLESALE CORP /NEW", "pais": "WA", "fiscal_fin": "0830"}
+{"ticker": "CRM", "sic": "7372", "sic_desc": "Services-Prepackaged Software", "nombre": "Salesforce, Inc.", "pais": "DE", "fiscal_fin": "0131"}
+{"ticker": "SPSC", "sic": "7372", "sic_desc": "Services-Prepackaged Software", "nombre": "SPS COMMERCE INC", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "ALC", "sic": "3851", "sic_desc": "Ophthalmic Goods", "nombre": "ALCON INC", "pais": "V8", "fiscal_fin": "1231"}
+{"ticker": "RACE", "sic": "3711", "sic_desc": "Motor Vehicles & Passenger Car Bodies", "nombre": "Ferrari N.V.", "pais": "P7", "fiscal_fin": "1231"}
+{"ticker": "LIN", "sic": "2810", "sic_desc": "Industrial Inorganic Chemicals", "nombre": "LINDE PLC", "pais": "L2", "fiscal_fin": "1231"}
+{"ticker": "ORCL", "sic": "7372", "sic_desc": "Services-Prepackaged Software", "nombre": "ORACLE CORP", "pais": "", "fiscal_fin": "0531"}
+{"ticker": "PANW", "sic": "3577", "sic_desc": "Computer Peripheral Equipment, NEC", "nombre": "Palo Alto Networks Inc", "pais": "DE", "fiscal_fin": "0731"}
+{"ticker": "PTC", "sic": "7372", "sic_desc": "Services-Prepackaged Software", "nombre": "PTC INC.", "pais": "MA", "fiscal_fin": "0930"}
+{"ticker": "VRSN", "sic": "7371", "sic_desc": "Services-Computer Programming Services", "nombre": "VERISIGN INC/CA", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "IT", "sic": "8741", "sic_desc": "Services-Management Services", "nombre": "GARTNER INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "VRTX", "sic": "2834", "sic_desc": "Pharmaceutical Preparations", "nombre": "VERTEX PHARMACEUTICALS INC / MA", "pais": "MA", "fiscal_fin": "1231"}
+{"ticker": "APP", "sic": "7370", "sic_desc": "Services-Computer Programming, Data Processing, Etc.", "nombre": "AppLovin Corp", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "CBOE", "sic": "6200", "sic_desc": "Security & Commodity Brokers, Dealers, Exchanges & Services", "nombre": "Cboe Global Markets, Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "ANET", "sic": "3576", "sic_desc": "Computer Communications Equipment", "nombre": "Arista Networks, Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "FTNT", "sic": "3577", "sic_desc": "Computer Peripheral Equipment, NEC", "nombre": "Fortinet, Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "PLTR", "sic": "7372", "sic_desc": "Services-Prepackaged Software", "nombre": "Palantir Technologies Inc.", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "ADP", "sic": "7374", "sic_desc": "Services-Computer Processing & Data Preparation", "nombre": "AUTOMATIC DATA PROCESSING INC", "pais": "DE", "fiscal_fin": "0630"}
+{"ticker": "BX", "sic": "6282", "sic_desc": "Investment Advice", "nombre": "Blackstone Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "CTAS", "sic": "2320", "sic_desc": "Men's & Boys' Furnishgs, Work Clothg, & Allied Garments", "nombre": "CINTAS CORP", "pais": "WA", "fiscal_fin": "0531"}
+{"ticker": "EW", "sic": "3842", "sic_desc": "Orthopedic, Prosthetic & Surgical Appliances & Supplies", "nombre": "Edwards Lifesciences Corp", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "KLAC", "sic": "3827", "sic_desc": "Optical Instruments & Lenses", "nombre": "KLA CORP", "pais": "DE", "fiscal_fin": "0630"}
+{"ticker": "LRCX", "sic": "3559", "sic_desc": "Special Industry Machinery, NEC", "nombre": "LAM RESEARCH CORP", "pais": "DE", "fiscal_fin": "0628"}
+{"ticker": "NDAQ", "sic": "6200", "sic_desc": "Security & Commodity Brokers, Dealers, Exchanges & Services", "nombre": "NASDAQ, INC.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "TXN", "sic": "3674", "sic_desc": "Semiconductors & Related Devices", "nombre": "TEXAS INSTRUMENTS INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "AME", "sic": "3823", "sic_desc": "Industrial Instruments For Measurement, Display, and Control", "nombre": "AMETEK INC/", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "CHKP", "sic": "7372", "sic_desc": "Services-Prepackaged Software", "nombre": "CHECK POINT SOFTWARE TECHNOLOGIES LTD", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "GRMN", "sic": "3812", "sic_desc": "Search, Detection, Navigation, Guidance, Aeronautical Sys", "nombre": "GARMIN LTD", "pais": "V8", "fiscal_fin": "1226"}
+{"ticker": "IBKR", "sic": "6211", "sic_desc": "Security Brokers, Dealers & Flotation Companies", "nombre": "Interactive Brokers Group, Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "MNST", "sic": "2086", "sic_desc": "Bottled & Canned Soft Drinks & Carbonated Waters", "nombre": "Monster Beverage Corp", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "ODFL", "sic": "4213", "sic_desc": "Trucking (No Local)", "nombre": "OLD DOMINION FREIGHT LINE, INC.", "pais": "VA", "fiscal_fin": "1231"}
+{"ticker": "TPL", "sic": "6792", "sic_desc": "Oil Royalty Traders", "nombre": "Texas Pacific Land Corp", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "ABNB", "sic": "7340", "sic_desc": "Services-To Dwellings & Other Buildings", "nombre": "Airbnb, Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "EL", "sic": "2844", "sic_desc": "Perfumes, Cosmetics & Other Toilet Preparations", "nombre": "ESTEE LAUDER COMPANIES INC", "pais": "DE", "fiscal_fin": "0630"}
+{"ticker": "BRK.B", "sic": "6331", "sic_desc": "Fire, Marine & Casualty Insurance", "nombre": "BERKSHIRE HATHAWAY INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "AXP", "sic": "6199", "sic_desc": "Finance Services", "nombre": "AMERICAN EXPRESS CO", "pais": "NY", "fiscal_fin": "1231"}
+{"ticker": "PDD", "sic": "7389", "sic_desc": "Services-Business Services, NEC", "nombre": "PDD Holdings Inc.", "pais": "E9", "fiscal_fin": "1231"}
+{"ticker": "BABA", "sic": "7389", "sic_desc": "Services-Business Services, NEC", "nombre": "Alibaba Group Holding Ltd", "pais": "K3", "fiscal_fin": null}
+{"ticker": "CRWD", "sic": "7372", "sic_desc": "Services-Prepackaged Software", "nombre": "CrowdStrike Holdings, Inc.", "pais": "DE", "fiscal_fin": "0131"}
+{"ticker": "EXPE", "sic": "4700", "sic_desc": "Transportation Services", "nombre": "Expedia Group, Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "MBGL", "sic": "7389", "sic_desc": "Services-Business Services, NEC", "nombre": "Mobility Global Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "META", "sic": "7370", "sic_desc": "Services-Computer Programming, Data Processing, Etc.", "nombre": "Meta Platforms, Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "PINS", "sic": "7370", "sic_desc": "Services-Computer Programming, Data Processing, Etc.", "nombre": "PINTEREST, INC.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "RELX", "sic": "7389", "sic_desc": "Services-Business Services, NEC", "nombre": "RELX PLC", "pais": "X0", "fiscal_fin": "1231"}
+{"ticker": "SE", "sic": "7380", "sic_desc": "Services-Miscellaneous Business Services", "nombre": "Sea Ltd", "pais": "E9", "fiscal_fin": "1231"}
+{"ticker": "SYK", "sic": "3841", "sic_desc": "Surgical & Medical Instruments & Apparatus", "nombre": "STRYKER CORP", "pais": "MI", "fiscal_fin": "1231"}
+{"ticker": "JD", "sic": "5990", "sic_desc": "Retail-Retail Stores, NEC", "nombre": "JD.com, Inc.", "pais": "E9", "fiscal_fin": "1231"}
+{"ticker": "JNJ", "sic": "2834", "sic_desc": "Pharmaceutical Preparations", "nombre": "JOHNSON & JOHNSON", "pais": "NJ", "fiscal_fin": "0103"}
+{"ticker": "OR", "sic": "1040", "sic_desc": "Gold and Silver Ores", "nombre": "OR Royalties Inc.", "pais": "A8", "fiscal_fin": "1231"}
+{"ticker": "ADSK", "sic": "7372", "sic_desc": "Services-Prepackaged Software", "nombre": "Autodesk, Inc.", "pais": "DE", "fiscal_fin": "0131"}
+{"ticker": "AMAT", "sic": "3674", "sic_desc": "Semiconductors & Related Devices", "nombre": "APPLIED MATERIALS INC /DE", "pais": "DC", "fiscal_fin": "1026"}
+{"ticker": "DDOG", "sic": "7372", "sic_desc": "Services-Prepackaged Software", "nombre": "Datadog, Inc.", "pais": "NV", "fiscal_fin": "1231"}
+{"ticker": "DECK", "sic": "3021", "sic_desc": "Rubber & Plastics Footwear", "nombre": "DECKERS OUTDOOR CORP", "pais": "DE", "fiscal_fin": "0331"}
+{"ticker": "HUBB", "sic": "3670", "sic_desc": "Electronic Components & Accessories", "nombre": "HUBBELL INC", "pais": "CT", "fiscal_fin": "1231"}
+{"ticker": "MC", "sic": "6282", "sic_desc": "Investment Advice", "nombre": "Moelis & Co", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "MEDP", "sic": "8731", "sic_desc": "Services-Commercial Physical & Biological Research", "nombre": "Medpace Holdings, Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "MPWR", "sic": "3674", "sic_desc": "Semiconductors & Related Devices", "nombre": "MONOLITHIC POWER SYSTEMS, INC.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "PAYX", "sic": "8700", "sic_desc": "Services-Engineering, Accounting, Research, Management", "nombre": "PAYCHEX INC", "pais": "DE", "fiscal_fin": "0531"}
+{"ticker": "REGN", "sic": "2834", "sic_desc": "Pharmaceutical Preparations", "nombre": "REGENERON PHARMACEUTICALS, INC.", "pais": "NY", "fiscal_fin": "1231"}
+{"ticker": "ROP", "sic": "3823", "sic_desc": "Industrial Instruments For Measurement, Display, and Control", "nombre": "ROPER TECHNOLOGIES INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "TRU", "sic": "7320", "sic_desc": "Services-Consumer Credit Reporting, Collection Agencies", "nombre": "TransUnion", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "VLTO", "sic": "3825", "sic_desc": "Instruments For Meas & Testing of  Electricity & Elec Signals", "nombre": "Veralto Corp", "pais": "X1", "fiscal_fin": "1231"}
+{"ticker": "ABBV", "sic": "2834", "sic_desc": "Pharmaceutical Preparations", "nombre": "AbbVie Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "BF.B", "sic": "2080", "sic_desc": "Beverages", "nombre": "BROWN FORMAN CORP", "pais": "DE", "fiscal_fin": "0430"}
+{"ticker": "BLK", "sic": "6211", "sic_desc": "Security Brokers, Dealers & Flotation Companies", "nombre": "BlackRock, Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "BRO", "sic": "6411", "sic_desc": "Insurance Agents, Brokers & Service", "nombre": "BROWN & BROWN, INC.", "pais": "FL", "fiscal_fin": "0119"}
+{"ticker": "CF", "sic": "2870", "sic_desc": "Agricultural Chemicals", "nombre": "CF Industries Holdings, Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "CL", "sic": "2844", "sic_desc": "Perfumes, Cosmetics & Other Toilet Preparations", "nombre": "COLGATE PALMOLIVE CO", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "COP", "sic": "2911", "sic_desc": "Petroleum Refining", "nombre": "CONOCOPHILLIPS", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "CW", "sic": "3590", "sic_desc": "Misc Industrial & Commercial Machinery & Equipment", "nombre": "CURTISS WRIGHT CORP", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "DE", "sic": "3523", "sic_desc": "Farm Machinery & Equipment", "nombre": "DEERE & CO", "pais": "DE", "fiscal_fin": "1101"}
+{"ticker": "EOG", "sic": "1311", "sic_desc": "Crude Petroleum & Natural Gas", "nombre": "EOG RESOURCES INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "HD", "sic": "5211", "sic_desc": "Retail-Lumber & Other Building Materials Dealers", "nombre": "HOME DEPOT, INC.", "pais": "DE", "fiscal_fin": "0131"}
+{"ticker": "HOOD", "sic": "6211", "sic_desc": "Security Brokers, Dealers & Flotation Companies", "nombre": "Robinhood Markets, Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "HSY", "sic": "2060", "sic_desc": "Sugar & Confectionery Products", "nombre": "HERSHEY CO", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "JKHY", "sic": "7373", "sic_desc": "Services-Computer Integrated Systems Design", "nombre": "JACK HENRY & ASSOCIATES INC", "pais": "DE", "fiscal_fin": "0630"}
+{"ticker": "LULU", "sic": "2300", "sic_desc": "Apparel & Other Finishd Prods of  Fabrics & Similar Matl", "nombre": "lululemon athletica inc.", "pais": "DE", "fiscal_fin": "0202"}
+{"ticker": "MCHP", "sic": "3674", "sic_desc": "Semiconductors & Related Devices", "nombre": "MICROCHIP TECHNOLOGY INC", "pais": "DE", "fiscal_fin": "0331"}
+{"ticker": "MLM", "sic": "1400", "sic_desc": "Mining & Quarrying of  Nonmetallic Minerals (No Fuels)", "nombre": "MARTIN MARIETTA MATERIALS INC", "pais": "NC", "fiscal_fin": "1231"}
+{"ticker": "MRK", "sic": "2834", "sic_desc": "Pharmaceutical Preparations", "nombre": "Merck & Co., Inc.", "pais": "NJ", "fiscal_fin": "1231"}
+{"ticker": "MSI", "sic": "3663", "sic_desc": "Radio & Tv Broadcasting & Communications Equipment", "nombre": "Motorola Solutions, Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "NDSN", "sic": "3569", "sic_desc": "General Industrial Machinery & Equipment, NEC", "nombre": "NORDSON CORP", "pais": "OH", "fiscal_fin": "1031"}
+{"ticker": "NEM", "sic": "1040", "sic_desc": "Gold and Silver Ores", "nombre": "NEWMONT Corp /DE/", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "NXPI", "sic": "3674", "sic_desc": "Semiconductors & Related Devices", "nombre": "NXP Semiconductors N.V.", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "ON", "sic": "3674", "sic_desc": "Semiconductors & Related Devices", "nombre": "ON SEMICONDUCTOR CORP", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "PG", "sic": "2840", "sic_desc": "Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics", "nombre": "PROCTER & GAMBLE Co", "pais": "OH", "fiscal_fin": "0630"}
+{"ticker": "PM", "sic": "2111", "sic_desc": "Cigarettes", "nombre": "Philip Morris International Inc.", "pais": "VA", "fiscal_fin": "1231"}
+{"ticker": "QCOM", "sic": "3663", "sic_desc": "Radio & Tv Broadcasting & Communications Equipment", "nombre": "QUALCOMM INC/DE", "pais": "DE", "fiscal_fin": "0927"}
+{"ticker": "TER", "sic": "3825", "sic_desc": "Instruments For Meas & Testing of  Electricity & Elec Signals", "nombre": "TERADYNE, INC", "pais": "MA", "fiscal_fin": "1231"}
+{"ticker": "TRI", "sic": "2741", "sic_desc": "Miscellaneous Publishing", "nombre": "THOMSON REUTERS CORP /CAN/", "pais": "A6", "fiscal_fin": "1231"}
+{"ticker": "URI", "sic": "7359", "sic_desc": "Services-Equipment Rental & Leasing, NEC", "nombre": "UNITED RENTALS, INC.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "ABT", "sic": "2834", "sic_desc": "Pharmaceutical Preparations", "nombre": "ABBOTT LABORATORIES", "pais": "IL", "fiscal_fin": "1231"}
+{"ticker": "ADI", "sic": "3674", "sic_desc": "Semiconductors & Related Devices", "nombre": "ANALOG DEVICES INC", "pais": "MA", "fiscal_fin": "1031"}
+{"ticker": "BSX", "sic": "3841", "sic_desc": "Surgical & Medical Instruments & Apparatus", "nombre": "BOSTON SCIENTIFIC CORP", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "CLX", "sic": "2842", "sic_desc": "Specialty Cleaning, Polishing and Sanitation Preparations", "nombre": "CLOROX CO /DE/", "pais": "DE", "fiscal_fin": "0630"}
+{"ticker": "CMG", "sic": "5812", "sic_desc": "Retail-Eating  Places", "nombre": "CHIPOTLE MEXICAN GRILL INC", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "DHR", "sic": "3823", "sic_desc": "Industrial Instruments For Measurement, Display, and Control", "nombre": "DANAHER CORP /DE/", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "ICLR", "sic": "8731", "sic_desc": "Services-Commercial Physical & Biological Research", "nombre": "ICON PLC", "pais": "", "fiscal_fin": null}
+{"ticker": "MCD", "sic": "5812", "sic_desc": "Retail-Eating  Places", "nombre": "MCDONALDS CORP", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "MDT", "sic": "3845", "sic_desc": "Electromedical & Electrotherapeutic Apparatus", "nombre": "Medtronic plc", "pais": "", "fiscal_fin": "0424"}
+{"ticker": "ROL", "sic": "7340", "sic_desc": "Services-To Dwellings & Other Buildings", "nombre": "ROLLINS INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "TDG", "sic": "3728", "sic_desc": "Aircraft Parts & Auxiliary Equipment, NEC", "nombre": "TransDigm Group INC", "pais": "DE", "fiscal_fin": "0930"}
+{"ticker": "TJX", "sic": "5651", "sic_desc": "Retail-Family Clothing Stores", "nombre": "TJX COMPANIES INC /DE/", "pais": "DE", "fiscal_fin": "0201"}
+{"ticker": "WAT", "sic": "3826", "sic_desc": "Laboratory Analytical Instruments", "nombre": "WATERS CORP /DE/", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "ACGL", "sic": "6331", "sic_desc": "Fire, Marine & Casualty Insurance", "nombre": "ARCH CAPITAL GROUP LTD.", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "AFL", "sic": "6321", "sic_desc": "Accident & Health Insurance", "nombre": "AFLAC INC", "pais": "GA", "fiscal_fin": "1231"}
+{"ticker": "AIG", "sic": "6331", "sic_desc": "Fire, Marine & Casualty Insurance", "nombre": "AMERICAN INTERNATIONAL GROUP, INC.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "AJG", "sic": "6411", "sic_desc": "Insurance Agents, Brokers & Service", "nombre": "Arthur J. Gallagher & Co.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "ALL", "sic": "6331", "sic_desc": "Fire, Marine & Casualty Insurance", "nombre": "ALLSTATE CORP", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "AMD", "sic": "3674", "sic_desc": "Semiconductors & Related Devices", "nombre": "ADVANCED MICRO DEVICES INC", "pais": "DE", "fiscal_fin": "1226"}
+{"ticker": "AMGN", "sic": "2836", "sic_desc": "Biological Products, (No Diagnostic Substances)", "nombre": "AMGEN INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "AMP", "sic": "6282", "sic_desc": "Investment Advice", "nombre": "AMERIPRISE FINANCIAL INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "AMT", "sic": "6798", "sic_desc": "Real Estate Investment Trusts", "nombre": "AMERICAN TOWER CORP /MA/", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "AON", "sic": "6411", "sic_desc": "Insurance Agents, Brokers & Service", "nombre": "Aon plc", "pais": "L2", "fiscal_fin": "1231"}
+{"ticker": "APD", "sic": "2810", "sic_desc": "Industrial Inorganic Chemicals", "nombre": "Air Products & Chemicals, Inc.", "pais": "DE", "fiscal_fin": "0930"}
+{"ticker": "APH", "sic": "3678", "sic_desc": "Electronic Connectors", "nombre": "AMPHENOL CORP /DE/", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "APO", "sic": "6282", "sic_desc": "Investment Advice", "nombre": "Apollo Global Management, Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "ARES", "sic": "6282", "sic_desc": "Investment Advice", "nombre": "Ares Management Corp", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "ARM", "sic": "3674", "sic_desc": "Semiconductors & Related Devices", "nombre": "ARM HOLDINGS PLC /UK", "pais": "X0", "fiscal_fin": "0331"}
+{"ticker": "ATO", "sic": "4924", "sic_desc": "Natural Gas Distribution", "nombre": "ATMOS ENERGY CORP", "pais": "TX", "fiscal_fin": "0930"}
+{"ticker": "AVB", "sic": "6798", "sic_desc": "Real Estate Investment Trusts", "nombre": "AVALONBAY COMMUNITIES INC", "pais": "MD", "fiscal_fin": "1231"}
+{"ticker": "AVY", "sic": "2670", "sic_desc": "Converted Paper & Paperboard Prods (No Contaners/Boxes)", "nombre": "Avery Dennison Corp", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "AXON", "sic": "3480", "sic_desc": "Ordnance & Accessories, (No Vehicles/Guided Missiles)", "nombre": "AXON ENTERPRISE, INC.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "AZN", "sic": "2834", "sic_desc": "Pharmaceutical Preparations", "nombre": "ASTRAZENECA PLC", "pais": "X0", "fiscal_fin": "1231"}
+{"ticker": "AZO", "sic": "5531", "sic_desc": "Retail-Auto & Home Supply Stores", "nombre": "AUTOZONE INC", "pais": "NV", "fiscal_fin": "0829"}
+{"ticker": "BKR", "sic": "3533", "sic_desc": "Oil & Gas Field Machinery & Equipment", "nombre": "Baker Hughes Co", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "BLDR", "sic": "5211", "sic_desc": "Retail-Lumber & Other Building Materials Dealers", "nombre": "Builders FirstSource, Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "BMY", "sic": "2834", "sic_desc": "Pharmaceutical Preparations", "nombre": "BRISTOL MYERS SQUIBB CO", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "BR", "sic": "7389", "sic_desc": "Services-Business Services, NEC", "nombre": "BROADRIDGE FINANCIAL SOLUTIONS, INC.", "pais": "DE", "fiscal_fin": "0630"}
+{"ticker": "CAH", "sic": "5122", "sic_desc": "Wholesale-Drugs, Proprietaries & Druggists' Sundries", "nombre": "CARDINAL HEALTH INC", "pais": "OH", "fiscal_fin": "0630"}
+{"ticker": "CARR", "sic": "3585", "sic_desc": "Air-Cond & Warm Air Heatg Equip & Comm & Indl Refrig Equip", "nombre": "CARRIER GLOBAL Corp", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "CASY", "sic": "5500", "sic_desc": "Retail-Auto Dealers & Gasoline Stations", "nombre": "CASEYS GENERAL STORES INC", "pais": "IA", "fiscal_fin": "0430"}
+{"ticker": "CAT", "sic": "3531", "sic_desc": "Construction Machinery & Equip", "nombre": "CATERPILLAR INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "CB", "sic": "6331", "sic_desc": "Fire, Marine & Casualty Insurance", "nombre": "Chubb Ltd", "pais": "V8", "fiscal_fin": "1231"}
+{"ticker": "CBRE", "sic": "6500", "sic_desc": "Real Estate", "nombre": "CBRE GROUP, INC.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "CDW", "sic": "5961", "sic_desc": "Retail-Catalog & Mail-Order Houses", "nombre": "CDW Corp", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "CEG", "sic": "4911", "sic_desc": "Electric Services", "nombre": "Constellation Energy Corp", "pais": "PA", "fiscal_fin": "1231"}
+{"ticker": "CHD", "sic": "2840", "sic_desc": "Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics", "nombre": "CHURCH & DWIGHT CO INC /DE/", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "CHTR", "sic": "4841", "sic_desc": "Cable & Other Pay Television Services", "nombre": "CHARTER COMMUNICATIONS, INC. /MO/", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "CI", "sic": "6324", "sic_desc": "Hospital & Medical Service Plans", "nombre": "Cigna Group", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "CIEN", "sic": "3661", "sic_desc": "Telephone & Telegraph Apparatus", "nombre": "CIENA CORP", "pais": "MD", "fiscal_fin": "1031"}
+{"ticker": "CINF", "sic": "6331", "sic_desc": "Fire, Marine & Casualty Insurance", "nombre": "CINCINNATI FINANCIAL CORP", "pais": "OH", "fiscal_fin": "1231"}
+{"ticker": "CMCSA", "sic": "4841", "sic_desc": "Cable & Other Pay Television Services", "nombre": "COMCAST CORP", "pais": "PA", "fiscal_fin": "1231"}
+{"ticker": "CMI", "sic": "3510", "sic_desc": "Engines & Turbines", "nombre": "CUMMINS INC", "pais": "IN", "fiscal_fin": "1231"}
+{"ticker": "CNC", "sic": "6324", "sic_desc": "Hospital & Medical Service Plans", "nombre": "CENTENE CORP", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "COF", "sic": "6021", "sic_desc": "National Commercial Banks", "nombre": "CAPITAL ONE FINANCIAL CORP", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "COO", "sic": "3851", "sic_desc": "Ophthalmic Goods", "nombre": "COOPER COMPANIES, INC.", "pais": "DE", "fiscal_fin": "1031"}
+{"ticker": "COR", "sic": "5122", "sic_desc": "Wholesale-Drugs, Proprietaries & Druggists' Sundries", "nombre": "Cencora, Inc.", "pais": "DE", "fiscal_fin": "0930"}
+{"ticker": "CPAY", "sic": "7389", "sic_desc": "Services-Business Services, NEC", "nombre": "CORPAY, INC.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "CRH", "sic": "3241", "sic_desc": "Cement, Hydraulic", "nombre": "CRH PUBLIC LTD CO", "pais": "L2", "fiscal_fin": "1231"}
+{"ticker": "CSCO", "sic": "3576", "sic_desc": "Computer Communications Equipment", "nombre": "CISCO SYSTEMS, INC.", "pais": "DE", "fiscal_fin": "0725"}
+{"ticker": "CSGP", "sic": "7389", "sic_desc": "Services-Business Services, NEC", "nombre": "COSTAR GROUP, INC.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "CSX", "sic": "4011", "sic_desc": "Railroads, Line-Haul Operating", "nombre": "CSX CORP", "pais": "VA", "fiscal_fin": "1231"}
+{"ticker": "CTSH", "sic": "7371", "sic_desc": "Services-Computer Programming Services", "nombre": "COGNIZANT TECHNOLOGY SOLUTIONS CORP", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "CVX", "sic": "2911", "sic_desc": "Petroleum Refining", "nombre": "CHEVRON CORP", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "DGX", "sic": "8071", "sic_desc": "Services-Medical Laboratories", "nombre": "QUEST DIAGNOSTICS INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "DHI", "sic": "1531", "sic_desc": "Operative Builders", "nombre": "HORTON D R INC /DE/", "pais": "DE", "fiscal_fin": "0930"}
+{"ticker": "DIS", "sic": "7990", "sic_desc": "Services-Miscellaneous Amusement & Recreation", "nombre": "Walt Disney Co", "pais": "DE", "fiscal_fin": "1003"}
+{"ticker": "DOV", "sic": "3530", "sic_desc": "Construction, Mining & Materials Handling Machinery & Equip", "nombre": "DOVER Corp", "pais": "NY", "fiscal_fin": "1231"}
+{"ticker": "DPZ", "sic": "5140", "sic_desc": "Wholesale-Groceries & Related Products", "nombre": "DOMINOS PIZZA INC", "pais": "DE", "fiscal_fin": "0102"}
+{"ticker": "DRI", "sic": "5812", "sic_desc": "Retail-Eating  Places", "nombre": "DARDEN RESTAURANTS INC", "pais": "FL", "fiscal_fin": "0531"}
+{"ticker": "DXCM", "sic": "3841", "sic_desc": "Surgical & Medical Instruments & Apparatus", "nombre": "DEXCOM INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "EBAY", "sic": "7389", "sic_desc": "Services-Business Services, NEC", "nombre": "EBAY INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "ECL", "sic": "2840", "sic_desc": "Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics", "nombre": "ECOLAB INC.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "EMR", "sic": "3600", "sic_desc": "Electronic & Other Electrical Equipment (No Computer Equip)", "nombre": "EMERSON ELECTRIC CO", "pais": "MO", "fiscal_fin": "0930"}
+{"ticker": "ERIE", "sic": "6411", "sic_desc": "Insurance Agents, Brokers & Service", "nombre": "ERIE INDEMNITY CO", "pais": "PA", "fiscal_fin": "1231"}
+{"ticker": "ETN", "sic": "3590", "sic_desc": "Misc Industrial & Commercial Machinery & Equipment", "nombre": "Eaton Corp plc", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "EXR", "sic": "6798", "sic_desc": "Real Estate Investment Trusts", "nombre": "Extra Space Storage Inc.", "pais": "MD", "fiscal_fin": "1231"}
+{"ticker": "FAST", "sic": "5200", "sic_desc": "Retail-Building Materials, Hardware, Garden Supply", "nombre": "FASTENAL CO", "pais": "MN", "fiscal_fin": "1231"}
+{"ticker": "FFIV", "sic": "3576", "sic_desc": "Computer Communications Equipment", "nombre": "F5, INC.", "pais": "WA", "fiscal_fin": "0930"}
+{"ticker": "FTV", "sic": "3823", "sic_desc": "Industrial Instruments For Measurement, Display, and Control", "nombre": "Fortive Corp", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "GD", "sic": "3730", "sic_desc": "Ship & Boat Building & Repairing", "nombre": "GENERAL DYNAMICS CORP", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "GE", "sic": "3600", "sic_desc": "Electronic & Other Electrical Equipment (No Computer Equip)", "nombre": "GENERAL ELECTRIC CO", "pais": "NY", "fiscal_fin": "1231"}
+{"ticker": "GEHC", "sic": "3844", "sic_desc": "X-Ray Apparatus & Tubes & Related Irradiation Apparatus", "nombre": "GE HealthCare Technologies Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "GEN", "sic": "7372", "sic_desc": "Services-Prepackaged Software", "nombre": "Gen Digital Inc.", "pais": "DE", "fiscal_fin": "0328"}
+{"ticker": "GEV", "sic": "3600", "sic_desc": "Electronic & Other Electrical Equipment (No Computer Equip)", "nombre": "GE Vernova Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "GGG", "sic": "3561", "sic_desc": "Pumps & Pumping Equipment", "nombre": "GRACO INC", "pais": "MN", "fiscal_fin": "1226"}
+{"ticker": "GILD", "sic": "2836", "sic_desc": "Biological Products, (No Diagnostic Substances)", "nombre": "GILEAD SCIENCES, INC.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "GL", "sic": "6311", "sic_desc": "Life Insurance", "nombre": "GLOBE LIFE INC.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "GLW", "sic": "3357", "sic_desc": "Drawing & Insulating of  Nonferrous Wire", "nombre": "CORNING INC /NY", "pais": "NY", "fiscal_fin": "1231"}
+{"ticker": "GOOG", "sic": "7370", "sic_desc": "Services-Computer Programming, Data Processing, Etc.", "nombre": "Alphabet Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "GS", "sic": "6211", "sic_desc": "Security Brokers, Dealers & Flotation Companies", "nombre": "GOLDMAN SACHS GROUP INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "GWW", "sic": "5000", "sic_desc": "Wholesale-Durable Goods", "nombre": "W.W. GRAINGER, INC.", "pais": "IL", "fiscal_fin": "1231"}
+{"ticker": "HCA", "sic": "8062", "sic_desc": "Services-General Medical & Surgical Hospitals, NEC", "nombre": "HCA Healthcare, Inc.", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "HDB", "sic": "6029", "sic_desc": "Commercial Banks, NEC", "nombre": "HDFC BANK LTD", "pais": "K7", "fiscal_fin": "0331"}
+{"ticker": "HEI", "sic": "3724", "sic_desc": "Aircraft Engines & Engine Parts", "nombre": "HEICO CORP", "pais": "FL", "fiscal_fin": "1031"}
+{"ticker": "HLT", "sic": "7011", "sic_desc": "Hotels & Motels", "nombre": "Hilton Worldwide Holdings Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "HON", "sic": "3724", "sic_desc": "Aircraft Engines & Engine Parts", "nombre": "HONEYWELL INTERNATIONAL INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "HWM", "sic": "3350", "sic_desc": "Rolling Drawing & Extruding of  Nonferrous Metals", "nombre": "Howmet Aerospace Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "IBM", "sic": "3570", "sic_desc": "Computer & office Equipment", "nombre": "INTERNATIONAL BUSINESS MACHINES CORP", "pais": "NY", "fiscal_fin": "1231"}
+{"ticker": "IEX", "sic": "3561", "sic_desc": "Pumps & Pumping Equipment", "nombre": "IDEX CORP /DE/", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "IQV", "sic": "8731", "sic_desc": "Services-Commercial Physical & Biological Research", "nombre": "IQVIA HOLDINGS INC.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "IR", "sic": "3560", "sic_desc": "General Industrial Machinery & Equipment", "nombre": "Ingersoll Rand Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "ITW", "sic": "3560", "sic_desc": "General Industrial Machinery & Equipment", "nombre": "ILLINOIS TOOL WORKS INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "JBHT", "sic": "4213", "sic_desc": "Trucking (No Local)", "nombre": "HUNT J B TRANSPORT SERVICES INC", "pais": "AR", "fiscal_fin": "1231"}
+{"ticker": "JPM", "sic": "6021", "sic_desc": "National Commercial Banks", "nombre": "JPMORGAN CHASE & CO", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "KDP", "sic": "2080", "sic_desc": "Beverages", "nombre": "Keurig Dr Pepper Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "KEYS", "sic": "3823", "sic_desc": "Industrial Instruments For Measurement, Display, and Control", "nombre": "Keysight Technologies, Inc.", "pais": "DE", "fiscal_fin": "1031"}
+{"ticker": "KKR", "sic": "6282", "sic_desc": "Investment Advice", "nombre": "KKR & Co. Inc.", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "KMB", "sic": "2670", "sic_desc": "Converted Paper & Paperboard Prods (No Contaners/Boxes)", "nombre": "KIMBERLY CLARK CORP", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "KMI", "sic": "4922", "sic_desc": "Natural Gas Transmission", "nombre": "KINDER MORGAN, INC.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "KO", "sic": "2080", "sic_desc": "Beverages", "nombre": "COCA COLA CO", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "LHX", "sic": "3812", "sic_desc": "Search, Detection, Navigation, Guidance, Aeronautical Sys", "nombre": "L3HARRIS TECHNOLOGIES, INC. /DE/", "pais": "DE", "fiscal_fin": "0102"}
+{"ticker": "LII", "sic": "3585", "sic_desc": "Air-Cond & Warm Air Heatg Equip & Comm & Indl Refrig Equip", "nombre": "LENNOX INTERNATIONAL INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "LMT", "sic": "3760", "sic_desc": "Guided Missiles & Space Vehicles & Parts", "nombre": "LOCKHEED MARTIN CORP", "pais": "MD", "fiscal_fin": "1231"}
+{"ticker": "MAR", "sic": "7011", "sic_desc": "Hotels & Motels", "nombre": "MARRIOTT INTERNATIONAL INC /MD/", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "MDLZ", "sic": "2000", "sic_desc": "Food and Kindred Products", "nombre": "Mondelez International, Inc.", "pais": "IL", "fiscal_fin": "1231"}
+{"ticker": "MKC", "sic": "2090", "sic_desc": "Miscellaneous Food Preparations & Kindred Products", "nombre": "MCCORMICK & CO INC", "pais": "MD", "fiscal_fin": "1130"}
+{"ticker": "MO", "sic": "2111", "sic_desc": "Cigarettes", "nombre": "ALTRIA GROUP, INC.", "pais": "VA", "fiscal_fin": "1231"}
+{"ticker": "MORN", "sic": "6282", "sic_desc": "Investment Advice", "nombre": "Morningstar, Inc.", "pais": "IL", "fiscal_fin": "1231"}
+{"ticker": "MS", "sic": "6211", "sic_desc": "Security Brokers, Dealers & Flotation Companies", "nombre": "MORGAN STANLEY", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "NEE", "sic": "4911", "sic_desc": "Electric Services", "nombre": "NEXTERA ENERGY INC", "pais": "FL", "fiscal_fin": "1231"}
+{"ticker": "NKE", "sic": "3021", "sic_desc": "Rubber & Plastics Footwear", "nombre": "NIKE, Inc.", "pais": "OR", "fiscal_fin": "0531"}
+{"ticker": "NOC", "sic": "3812", "sic_desc": "Search, Detection, Navigation, Guidance, Aeronautical Sys", "nombre": "NORTHROP GRUMMAN CORP /DE/", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "NSC", "sic": "4011", "sic_desc": "Railroads, Line-Haul Operating", "nombre": "NORFOLK SOUTHERN CORP", "pais": "VA", "fiscal_fin": "1231"}
+{"ticker": "NTRS", "sic": "6022", "sic_desc": "State Commercial Banks", "nombre": "NORTHERN TRUST CORP", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "NUE", "sic": "3312", "sic_desc": "Steel Works, Blast Furnaces & Rolling Mills (Coke Ovens)", "nombre": "NUCOR CORP", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "NVR", "sic": "1531", "sic_desc": "Operative Builders", "nombre": "NVR INC", "pais": "VA", "fiscal_fin": "1231"}
+{"ticker": "O", "sic": "6798", "sic_desc": "Real Estate Investment Trusts", "nombre": "REALTY INCOME CORP", "pais": "MD", "fiscal_fin": "1231"}
+{"ticker": "ORLY", "sic": "5531", "sic_desc": "Retail-Auto & Home Supply Stores", "nombre": "O REILLY AUTOMOTIVE INC", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "OTIS", "sic": "3600", "sic_desc": "Electronic & Other Electrical Equipment (No Computer Equip)", "nombre": "Otis Worldwide Corp", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "PCAR", "sic": "3711", "sic_desc": "Motor Vehicles & Passenger Car Bodies", "nombre": "PACCAR INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "PEP", "sic": "2080", "sic_desc": "Beverages", "nombre": "PEPSICO INC", "pais": "NC", "fiscal_fin": "1226"}
+{"ticker": "PGR", "sic": "6331", "sic_desc": "Fire, Marine & Casualty Insurance", "nombre": "PROGRESSIVE CORP/OH/", "pais": "OH", "fiscal_fin": "1231"}
+{"ticker": "PH", "sic": "3490", "sic_desc": "Miscellaneous Fabricated Metal Products", "nombre": "Parker-Hannifin Corp", "pais": "OH", "fiscal_fin": "0630"}
+{"ticker": "PKG", "sic": "2650", "sic_desc": "Paperboard Containers & Boxes", "nombre": "PACKAGING CORP OF AMERICA", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "PLD", "sic": "6798", "sic_desc": "Real Estate Investment Trusts", "nombre": "Prologis, Inc.", "pais": "MD", "fiscal_fin": "1231"}
+{"ticker": "PODD", "sic": "3841", "sic_desc": "Surgical & Medical Instruments & Apparatus", "nombre": "INSULET CORP", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "PSA", "sic": "6798", "sic_desc": "Real Estate Investment Trusts", "nombre": "Public Storage", "pais": "MD", "fiscal_fin": "1231"}
+{"ticker": "PWR", "sic": "1731", "sic_desc": "Electrical Work", "nombre": "QUANTA SERVICES, INC.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "PYPL", "sic": "7389", "sic_desc": "Services-Business Services, NEC", "nombre": "PayPal Holdings, Inc.", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "RCL", "sic": "4400", "sic_desc": "Water Transportation", "nombre": "ROYAL CARIBBEAN CRUISES LTD", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "ROK", "sic": "3829", "sic_desc": "Measuring & Controlling Devices, NEC", "nombre": "ROCKWELL AUTOMATION, INC", "pais": "DE", "fiscal_fin": "0930"}
+{"ticker": "ROST", "sic": "5651", "sic_desc": "Retail-Family Clothing Stores", "nombre": "ROSS STORES, INC.", "pais": "DE", "fiscal_fin": "0201"}
+{"ticker": "RSG", "sic": "4953", "sic_desc": "Refuse Systems", "nombre": "REPUBLIC SERVICES, INC.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "RTX", "sic": "3724", "sic_desc": "Aircraft Engines & Engine Parts", "nombre": "RTX Corp", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "SBAC", "sic": "6798", "sic_desc": "Real Estate Investment Trusts", "nombre": "SBA COMMUNICATIONS CORP", "pais": "FL", "fiscal_fin": "1231"}
+{"ticker": "SBUX", "sic": "5810", "sic_desc": "Retail-Eating & Drinking Places", "nombre": "STARBUCKS CORP", "pais": "WA", "fiscal_fin": "0928"}
+{"ticker": "SCHW", "sic": "6211", "sic_desc": "Security Brokers, Dealers & Flotation Companies", "nombre": "SCHWAB CHARLES CORP", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "SHOP", "sic": "7372", "sic_desc": "Services-Prepackaged Software", "nombre": "SHOPIFY INC.", "pais": "Z4", "fiscal_fin": "1231"}
+{"ticker": "SHW", "sic": "5200", "sic_desc": "Retail-Building Materials, Hardware, Garden Supply", "nombre": "SHERWIN WILLIAMS CO", "pais": "OH", "fiscal_fin": "1231"}
+{"ticker": "SJM", "sic": "2033", "sic_desc": "Canned, Fruits, Veg, Preserves, Jams & Jellies", "nombre": "J M SMUCKER Co", "pais": "OH", "fiscal_fin": "0430"}
+{"ticker": "SLB", "sic": "1389", "sic_desc": "Oil & Gas Field Services, NEC", "nombre": "SLB LIMITED/NV", "pais": "P8", "fiscal_fin": "1231"}
+{"ticker": "SNA", "sic": "3420", "sic_desc": "Cutlery, Handtools & General Hardware", "nombre": "Snap-on Inc", "pais": "DE", "fiscal_fin": "0102"}
+{"ticker": "SO", "sic": "4911", "sic_desc": "Electric Services", "nombre": "SOUTHERN CO", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "SPG", "sic": "6798", "sic_desc": "Real Estate Investment Trusts", "nombre": "SIMON PROPERTY GROUP INC.", "pais": "IN", "fiscal_fin": "1231"}
+{"ticker": "STE", "sic": "3842", "sic_desc": "Orthopedic, Prosthetic & Surgical Appliances & Supplies", "nombre": "STERIS plc", "pais": "L2", "fiscal_fin": "0331"}
+{"ticker": "STLD", "sic": "3312", "sic_desc": "Steel Works, Blast Furnaces & Rolling Mills (Coke Ovens)", "nombre": "STEEL DYNAMICS INC", "pais": "IN", "fiscal_fin": "1231"}
+{"ticker": "STZ", "sic": "2080", "sic_desc": "Beverages", "nombre": "CONSTELLATION BRANDS, INC.", "pais": "DE", "fiscal_fin": "0228"}
+{"ticker": "SWK", "sic": "3420", "sic_desc": "Cutlery, Handtools & General Hardware", "nombre": "STANLEY BLACK & DECKER, INC.", "pais": "CT", "fiscal_fin": "0102"}
+{"ticker": "SYY", "sic": "5140", "sic_desc": "Wholesale-Groceries & Related Products", "nombre": "SYSCO CORP", "pais": "DE", "fiscal_fin": "0627"}
+{"ticker": "TDY", "sic": "3812", "sic_desc": "Search, Detection, Navigation, Guidance, Aeronautical Sys", "nombre": "TELEDYNE TECHNOLOGIES INC", "pais": "DE", "fiscal_fin": "0103"}
+{"ticker": "TEL", "sic": "5065", "sic_desc": "Wholesale-Electronic Parts & Equipment, NEC", "nombre": "TE Connectivity plc", "pais": "", "fiscal_fin": "0925"}
+{"ticker": "TMUS", "sic": "4812", "sic_desc": "Radiotelephone Communications", "nombre": "T-Mobile US, Inc.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "TPR", "sic": "3100", "sic_desc": "Leather & Leather Products", "nombre": "TAPESTRY, INC.", "pais": "MD", "fiscal_fin": "0627"}
+{"ticker": "TRGP", "sic": "4922", "sic_desc": "Natural Gas Transmission", "nombre": "Targa Resources Corp.", "pais": "", "fiscal_fin": "1231"}
+{"ticker": "TRMB", "sic": "3829", "sic_desc": "Measuring & Controlling Devices, NEC", "nombre": "TRIMBLE INC.", "pais": "DE", "fiscal_fin": "0102"}
+{"ticker": "TROW", "sic": "6282", "sic_desc": "Investment Advice", "nombre": "PRICE T ROWE GROUP INC", "pais": "MD", "fiscal_fin": "1231"}
+{"ticker": "TT", "sic": "3822", "sic_desc": "Auto Controls For Regulating Residential & Comml Environments", "nombre": "Trane Technologies plc", "pais": "L2", "fiscal_fin": "1231"}
+{"ticker": "TTD", "sic": "7370", "sic_desc": "Services-Computer Programming, Data Processing, Etc.", "nombre": "Trade Desk, Inc.", "pais": "NV", "fiscal_fin": "1231"}
+{"ticker": "TTWO", "sic": "7372", "sic_desc": "Services-Prepackaged Software", "nombre": "TAKE TWO INTERACTIVE SOFTWARE INC", "pais": "DE", "fiscal_fin": "0331"}
+{"ticker": "UBER", "sic": "7389", "sic_desc": "Services-Business Services, NEC", "nombre": "Uber Technologies, Inc", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "ULTA", "sic": "5990", "sic_desc": "Retail-Retail Stores, NEC", "nombre": "Ulta Beauty, Inc.", "pais": "", "fiscal_fin": "0130"}
+{"ticker": "UNH", "sic": "6324", "sic_desc": "Hospital & Medical Service Plans", "nombre": "UNITEDHEALTH GROUP INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "UNP", "sic": "4011", "sic_desc": "Railroads, Line-Haul Operating", "nombre": "UNION PACIFIC CORP", "pais": "UT", "fiscal_fin": "1231"}
+{"ticker": "VICI", "sic": "6798", "sic_desc": "Real Estate Investment Trusts", "nombre": "VICI PROPERTIES INC.", "pais": "MD", "fiscal_fin": "1231"}
+{"ticker": "VMC", "sic": "1400", "sic_desc": "Mining & Quarrying of  Nonmetallic Minerals (No Fuels)", "nombre": "Vulcan Materials CO", "pais": "NJ", "fiscal_fin": "1231"}
+{"ticker": "VRT", "sic": "3679", "sic_desc": "Electronic Components, NEC", "nombre": "Vertiv Holdings Co", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "VST", "sic": "4911", "sic_desc": "Electric Services", "nombre": "Vistra Corp.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "WAB", "sic": "3743", "sic_desc": "Railroad Equipment", "nombre": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "WDAY", "sic": "7374", "sic_desc": "Services-Computer Processing & Data Preparation", "nombre": "Workday, Inc.", "pais": "DE", "fiscal_fin": "0131"}
+{"ticker": "WEC", "sic": "4931", "sic_desc": "Electric & Other Services Combined", "nombre": "WEC ENERGY GROUP, INC.", "pais": "WI", "fiscal_fin": "1231"}
+{"ticker": "WELL", "sic": "6798", "sic_desc": "Real Estate Investment Trusts", "nombre": "WELLTOWER INC.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "WFC", "sic": "6021", "sic_desc": "National Commercial Banks", "nombre": "WELLS FARGO & COMPANY/MN", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "WM", "sic": "4953", "sic_desc": "Refuse Systems", "nombre": "WASTE MANAGEMENT INC", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "WMB", "sic": "4922", "sic_desc": "Natural Gas Transmission", "nombre": "WILLIAMS COMPANIES, INC.", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "WMT", "sic": "5331", "sic_desc": "Retail-Variety Stores", "nombre": "Walmart Inc.", "pais": "DE", "fiscal_fin": "0131"}
+{"ticker": "WRB", "sic": "6331", "sic_desc": "Fire, Marine & Casualty Insurance", "nombre": "BERKLEY W R CORP", "pais": "DE", "fiscal_fin": "1231"}
+{"ticker": "WSM", "sic": "5700", "sic_desc": "Retail-Home Furniture, Furnishings & Equipment Stores", "nombre": "WILLIAMS SONOMA INC", "pais": "DE", "fiscal_fin": "0131"}
+{"ticker": "WTW", "sic": "6411", "sic_desc": "Insurance Agents, Brokers & Service", "nombre": "WILLIS TOWERS WATSON PLC", "pais": "L2", "fiscal_fin": "1231"}
+{"ticker": "XEL", "sic": "4931", "sic_desc": "Electric & Other Services Combined", "nombre": "XCEL ENERGY INC", "pais": "MN", "fiscal_fin": "1231"}
+{"ticker": "XOM", "sic": "2911", "sic_desc": "Petroleum Refining", "nombre": "ExxonMobil Holdings Corp", "pais": "TX", "fiscal_fin": "1231"}
+{"ticker": "YUM", "sic": "5812", "sic_desc": "Retail-Eating  Places", "nombre": "YUM BRANDS INC", "pais": "NC", "fiscal_fin": "1231"}

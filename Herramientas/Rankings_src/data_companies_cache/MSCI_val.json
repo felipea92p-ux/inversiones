@@ -1,0 +1,48 @@
+{
+ "ticker": "MSCI",
+ "name": "MSCI Inc.",
+ "currency": "USD",
+ "price_verified": 580.85,
+ "price_source": "StockAnalysis.com (overview/statistics), cross-checked Yahoo Finance intraday $581.19",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.0728,
+ "implied_mcap_b_usd": 42.29,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 9.8,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.23,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = reported FCF $1,549M - 100% SBC $111M = $1,438M (~$19.75/sh). FY2026 owner FCF ~$1,385M (FCF guide mid $1,500M - SBC ~$115M) = $19.0/sh.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 284.84,
+   "prob": 0.38,
+   "note": "Phase1 7% CAGR declining to 4.5%, terminal g 2.5%. Reasonable-pessimist: passive-flow maturation + fee compression slows AUM-linked (ABF) growth; recurring subs hold. Less net debt $6.12B."
+  },
+  "base": {
+   "iv_per_share": 400.96,
+   "prob": 0.47,
+   "note": "Phase1 10.5% CAGR declining to 6.5%, terminal g 3.0%. Continues ~low-double-digit organic, 95%+ retention, ABF run-rate +25%, steady buybacks. Less net debt."
+  },
+  "optimista": {
+   "iv_per_share": 524.26,
+   "prob": 0.15,
+   "note": "Phase1 13% CAGR declining to 8.5%, terminal g 3.5%. Private assets, climate/ESG, custom indexes and fixed-income re-accelerate; margin expansion. Less net debt."
+  }
+ },
+ "iv_dcf_weighted": 375.33,
+ "fwd_multiple_now": 28.48,
+ "fwd_multiple_5y_avg": 33,
+ "fair_multiple": 31,
+ "multiple_metric": "Forward P/E (adjusted EPS)",
+ "multiple_rationale": "Anchored to 5y forward P/E average ~33x with a modest ~2x haircut to 31x for real-but-incremental structural pressures (index/ETF fee compression, maturation of passive flows that drive the AUM-linked ABF segment) and elevated leverage (ND/EBITDA ~3.3x, negative book equity). Trailing 5y avg P/E (~44.5x per aggregators) is inflated by the 2021 peak and not used. Fwd adj EPS implied ~$20.40 (price/fwd P/E). iv_multiple = 20.40 x 31 = $632.",
+ "iv_multiple": 632.25,
+ "weight_dcf": 0.35,
+ "weight_multiple": 0.65,
+ "reconciled_iv": 542.33,
+ "structural_change": "No genuine deterioration. MSCI remains a wide-moat, ~75% recurring-subscription franchise (Index + Analytics + Sustainability/Climate + Private Assets) with 95%+ retention and ROIC ~20%. Watch items are secular not broken: ETF/index fee compression and the maturation of passive inflows that drive the AUM-linked ABF revenue (run-rate $872M, +25%), plus ESG/climate regulatory volatility. Deliberately leveraged balance sheet (ND/EBITDA ~3.3x). These justify only a small multiple haircut, not a structural re-rating.",
+ "sanity_notes": "Sanity OK: price $580.85 x 72.8M sh = $42.29B mcap, matches StockAnalysis/Yahoo exactly. Shares verified (72.8M outstanding; Q1'26 weighted diluted 73.4M, shrinking ~5.7%/yr via buybacks). Reconciled IV $542 = 93% of price, inside the 30-300% magnitude band, so no units/currency error. All figures in USD (quoting currency = reporting currency). Pure DCF ($375) under-credits MSCI's high-ROIC reinvestment runway, hence the heavier (0.65) weight on the multiple anchor for this proven stable compounder. Reconciled IV ~$542 vs price ~$581 implies the stock is roughly fairly-valued to modestly rich (~7% above IV) - quality at a sensible but not cheap price; classification 'not_depressed' (~10% off 52w high, fundamentals accelerating). GAAP Q1'26 EPS $5.53 inflated by one-time tax benefit; adj EPS $4.55 is the cleaner figure used for multiple work."
+}

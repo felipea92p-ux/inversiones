@@ -1,0 +1,59 @@
+{
+ "ticker": "NOW",
+ "name": "ServiceNow, Inc.",
+ "rules": {
+  "R1": {
+   "score": 2,
+   "just": "Modelo SaaS puro de suscripcion: margen op non-GAAP ~31-32% y FCF margin 35% se expanden con volumen, apalancamiento operativo monstruoso e irreplicable."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Plataforma de digital workflow/automatizacion en secular tailwind (IT/empleado/cliente + agentic AI), industria estructuralmente en crecimiento."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Lider claro en ITSM/workflow enterprise con ingresos +22% YoY a $13.3B FY25, dominancia de categoria pero no a anios-luz absolutos vs todo competidor."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat fuerte por altos costes de cambio (plataforma de sistema-de-registro embebida en flujos criticos) y efecto plataforma, sostenible pero no inmune a disrupcion IA."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento organico ~21% FY25 sin depender de M&A, motor de expansion limpio y de alta calidad."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Buena diversificacion multi-geografia/multi-industria con base enterprise amplia; concentracion de cliente baja aunque sesgo a grandes cuentas/gobierno."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "FCF $4.64B (margen 35%), capex bajo (modelo asset-light) y ROIC elevado >> WACC; conversion de caja excelente aunque ROIC exacto es estimado."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Caja neta ~$8.6B ($10.1B caja+inversiones vs $1.49B deuda LP), balance fortaleza, D/EBITDA irrelevante por net cash."
+  },
+  "R9": {
+   "score": 0,
+   "just": "REGLA DURA: SBC verificada = 42.2% del FCF (>25%), dilucion material que infla el FCF reportado pese a ser post-SBC; R9=0.0 obligatorio."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Gestion solida con asignacion de capital disciplinada (buyback $5B autorizado, split 5:1) y guidance subido, pero skin-in-the-game limitado y SBC elevada matizan el gobierno."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (modelo SaaS escalable con apalancamiento operativo), R3 (liderazgo de categoria en workflow enterprise) y R4 (moat por costes de cambio/plataforma embebida) se refuerzan mutuamente: la escala alimenta el liderazgo, el liderazgo profundiza el lock-in del moat, y el lock-in extiende el apalancamiento del modelo. El conjunto produce +22% de crecimiento a $13B con 35% FCF margin, un combo de calidad-crecimiento de primer nivel.",
+ "moat_type": "switching_costs",
+ "moat_one_line": "Costes de cambio elevados: ServiceNow es el sistema-de-registro embebido en los flujos de trabajo criticos de IT/empleado/cliente de la empresa, dificil y costoso de arrancar una vez adoptado a escala.",
+ "thesis_3lines": [
+  "Calidad: SaaS de suscripcion con moat por costes de cambio, caja neta ~$8.6B y FCF margin 35%, un compounder de altisima calidad.",
+  "Motor: crecimiento organico ~21-22% YoY impulsado por expansion de plataforma y agentic AI, con guidance FY2026 SUBIDO en Q1.",
+  "Valoracion: fwd P/E 21.9x (~-58% vs su media historica ~52x) y PEG 0.88 tras un de-rating de miedo/rotacion sin deterioro fundamental — descuento extremo."
+ ],
+ "bear_case_strongest": "El caso bajista mas fuerte: la SBC de ~42% del FCF significa que el retorno real al accionista esta fuertemente diluido, y el moat por costes de cambio podria erosionarse si la IA agentica de hiperscalers/startups colapsa el valor de la capa de workflow — justificando el de-rating en vez de senalar una ganga.",
+ "sbc_flag": "sbc_gt_25_fcf",
+ "ethical_flag": "none",
+ "notes": "Score ponderado re-puntuado = R1 2.0 + R2 1.5 + R3 1.5 + R4 1.5 + R5 1.5 + R6 1.0 + R7 1.5 + R8 1.5 + R9 0.0 + R10 1.0 = 13.0/13.5. El unico lastre material es R9=0.0 por la REGLA DURA de SBC (42.2% del FCF, >25%). Negocio de calidad excepcional con valoracion deprimida por fear_rotation (de-rating de software de alto multiplo + miedo a disrupcion IA), NO por deterioro: ingresos +22% YoY, guidance SUBIDO, FCF margin 35%, caja neta. CRITICO: split 5:1 efectivo 18-dic-2025; todos los precios/EPS aqui ajustados por split (precio ~$93, EPS Q1 $0.45 GAAP/$0.97 non-GAAP). ROIC y fwd_pe_5y_avg son estimados, no de fuente primaria. La SBC elevada es la principal bandera de calidad pese al FCF post-SBC saludable."
+}

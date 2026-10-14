@@ -1,0 +1,59 @@
+{
+ "ticker": "SPGI",
+ "name": "S&P Global Inc.",
+ "rules": {
+  "R1": {
+   "score": 1.5,
+   "just": "Negocio de datos/indices que escala: margen op GAAP 48% en Q1 2026 (+620pb) y ajustado 50.4% FY25; costes apenas crecen con volumen, aunque no es software puro de coste marginal cero que justifique 2.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Crecimiento secular: indices pasivos, datos/analytics y mercados privados crecen estructuralmente, con organico CC ~8% FY25 y +10% en Q1 2026 por encima del PIB."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Dominancia monstruosa e irreplicable: oligopolio de ratings (#1/#2 con Moody's), S&P 500 como indice de referencia global y Platts en commodities; deja al resto a anios-luz."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat irreplicable por decadas: marca regulatoria (NRSRO), red de indices con bloqueo (AUM ligado al S&P 500), costes de cambio altos y datos historicos propietarios."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento organico genuino: organico CC ~8% FY25 y +10% reportado Q1 2026; el ROIC GAAP bajo refleja goodwill IHS Markit, pero el motor actual es organico, no M&A de relleno."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Diversificacion robusta: cuatro/cinco divisiones (Ratings, Market Intelligence, Indices, Commodity Insights, Mobility), multi-geografia, sin cliente >10-15%."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "FCF excepcional (margen 33.5% GAAP, 35.7% ajustado), capex minusculo (~1.4% ingresos) y ROIC ex-goodwill ~39%; el 9.25% GAAP esta deprimido por goodwill de fusion, no penaliza."
+  },
+  "R8": {
+   "score": 1,
+   "just": "Solido pero NO caja neta: deuda neta $12.09B, ND/EBITDA 1.74x (ajustado S&P 2.2x) por debajo de 2x base pero sin colchon de caja neta."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "Contabilidad limpia y SBC excepcionalmente baja: verificada 4.6% del FCF GAAP (1.54% ingresos), muy por debajo del umbral duro de 15%."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Asignacion ejemplar: devolvio 113% del FCF ajustado en 2025 (~$5.0B recompras+dividendos), objetivo >=85% FCF, aristocrata 50+ anios y spin-off de Mobility; recompras sobre M&A destructora."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (escalabilidad, margen op 48% +620pb) + R3 (oligopolio #1/#2 ratings/indices) + R4 (moat regulatorio/red irreplicable) se refuerzan de forma monstruosa: la franquicia de indices y ratings es una maquina de peaje regulada cuyos margenes mejoran con el volumen de mercado sin requerir capital, un compuesto de calidad casi imposible de desafiar.",
+ "moat_type": "intangibles_regulatorios + red_de_indices + costes_de_cambio",
+ "moat_one_line": "Oligopolio regulado de ratings (NRSRO) combinado con la red del indice S&P 500 y datos propietarios de decadas: infraestructura de peaje de los mercados de capital imposible de replicar.",
+ "thesis_3lines": [
+  "Calidad: franquicia de peaje con moat regulatorio/red de indices, margen op 48% en expansion (+620pb) y FCF margin 33.5% con capex de ~1.4% de ingresos.",
+  "Motor: crecimiento organico secular ~8-10% (datos, indices pasivos, mercados privados) amplificado por el spin-off de Mobility, con devolucion de >100% del FCF a accionistas.",
+  "Valoracion: P/E adelantado 20.26x (~-25% vs media historica ~27x) tras caer -29.6% por rotacion/miedo macro, no deterioro operativo: calidad-a-descuento en un compuesto irreplicable."
+ ],
+ "bear_case_strongest": "Ratings (el segmento de mayor margen) es ciclico y sensible a tasas/emision: tasas altas prolongadas o recesion colapsarian los volumenes de emision con el multiplo aun no barato (PEG 1.68), y el ROIC GAAP de 9.25% recuerda que SPGI pago en exceso por IHS Markit.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Score FASE 2: R1-R10 suman 15.5 sobre escala ponderada (techo conceptual 20; en techo Seilern 13.5 = empresa top-tier de maxima calidad). SBC VERIFICADA 4.6% del FCF -> regla dura NO aplica, R9=1.5. Unica resta material vs preliminar 13.5/13.5: R8 limitado a 1.0 por NO ser caja neta (deuda neta $12.09B, ND/EBITDA ajustado 2.2x). ROIC GAAP 9.25% deprimido por goodwill IHS Markit; ex-goodwill ~39%. Amplificacion R1+R3+R4=true. Caida -29.6% = fear_rotation con fundamentales ACELERANDO (Q1 2026 ingresos +10%, EPS GAAP +32%, margenes +620pb, guia FY26 al alza). Campos de valoracion (fwd_pe, fwd_pe_5y_avg=27, peg) son ESTIMADOS con confianza baja."
+}

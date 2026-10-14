@@ -1,0 +1,42 @@
+{
+ "ticker": "MSCI",
+ "currency": "USD",
+ "current_price": 580.85,
+ "name": "MSCI Inc.",
+ "wacc_pct": 10.05,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.15,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = FY2025 FCF reportado $1,549M − 100% SBC $111.34M (SBC FY2025, 3.55% de ingresos) = $1,437.7M (~45.9% margen owner sobre ingresos FY2025 de $3,134.5M). Consistente con guidance FCF FY2026 $1,470-1,530M antes de restar SBC.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 10.5,
+  "rev_cagr_y6_10_pct": 8.5,
+  "fcf_margin_terminal_pct": 46,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC tratada como gasto en efectivo (restada del FCF reportado); SBC FY2025 = $111.34M = 3.55% de ingresos / 7.19% del FCF",
+  "shares_diluted_b": 0.0728,
+  "net_debt_usd_b": 6.12
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 299.07,
+   "prob": 0.375,
+   "note": "Crecimiento owner FCF 8% anios 1-5 declinando a 5% en anios 6-10; g terminal 2.5%. Asume desaceleracion de ABF (asset-based fees) por mercados planos, presion competitiva en indices (FTSE/S&P) y normalizacion del crecimiento organico hacia un solo digito alto. WACC 10.05%."
+  },
+  "base": {
+   "iv_per_share": 392.08,
+   "prob": 0.475,
+   "note": "Crecimiento owner FCF 10.5% anios 1-5 (consistente con track record de ~14% EPS adj y organico de doble digito) declinando a 7% anios 6-10; g terminal 3.0%. Refleja foso de datos/indices recurrentes (retencion 95.4%, ABF run-rate record $872M +25%) y recompras. Aun asi VI < precio: el foso es alto pero el precio descuenta ejecucion perfecta."
+  },
+  "optimista": {
+   "iv_per_share": 507.51,
+   "prob": 0.15,
+   "note": "Crecimiento owner FCF 13% anios 1-5 declinando a 8.5% anios 6-10; g terminal 3.5%. Expansion sostenida de ABF, climate/ESG y private assets (RiskMetrics/Burgiss) con apalancamiento operativo de margen ~60% EBITDA."
+  }
+ },
+ "sanity_check": "VI ponderada por probabilidad ≈ $375/accion vs precio $580.85, implicando que el mercado descuenta ~10-11% de crecimiento perpetuo de owner earnings o un WACC ~7-8%. Contraste de rendimiento total al accionista (NO DDM, como pide la regla para datos/ratings): FCF yield reportado 3.66% ($1,549M/$42.3B mcap); owner-FCF yield 3.40% tras restar SBC; dividendo ~1.1% + recompra (mayoria del FCF restante) ≈ rendimiento total ~3-3.5% — bajo para un retorno exigido del 10%, lo que confirma que la accion esta cara salvo que el crecimiento supere ampliamente la base. Coherente con clasificacion FASE 2 'not_depressed' (solo -10% del maximo 52s, fwd P/E 28.5x vs media 5a ~33x). Peso del valor terminal en el VI base ~57% (razonable, no excesivo).",
+ "method_notes": "DCF de owner earnings a 10 anios en dos fases. Base owner FCF = FCF FY2025 $1,549M − 100% SBC $111.34M = $1,437.7M. Fase 1 (anios 1-5): CAGR explicito del owner FCF por escenario (8%/10.5%/13%). Fase 2 (anios 6-10): CAGR declina linealmente hacia normalizacion (5%/7%/8.5%). Valor terminal por Gordon con g=2.5%/3.0%/3.5% segun foso (foso alto: indices/datos recurrentes, switching costs, retencion 95%). Descuento al WACC = Rf 4.3% (UST 10Y, empresa USA, sin ajuste geopolitico) + ERP 5.0% × beta 1.15 = 10.05%. Beta 1.15 estimada (negocio recurrente pero con sensibilidad de ABF a mercados y apalancamiento financiero ND/EBITDA 3.3x). Acciones diluidas ≈ 72.8M (mcap $42.29B / $580.85). Deuda neta $6.12B restada del EV. Shares y net_debt en miles de millones (0.0728B; $6.12B). Todos los VI por accion en USD (moneda de cotizacion). Probabilidades suman 1.0 (0.375+0.475+0.15)."
+}

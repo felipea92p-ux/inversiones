@@ -1,0 +1,371 @@
+{
+  "ticker": "CLPBY",
+  "empresa": "Coloplast A/S",
+  "isin_ordinaria": "DK0060448595",
+  "cotizacion_principal": "COLO B — Nasdaq Copenhague (DKK)",
+  "ads": {
+    "programa": "ADR Nivel 1, OTC, banco depositario BNY Mellon",
+    "ratio": "10 ADS = 1 accion ordinaria B",
+    "fuente_ratio": "Coloplast IR — ADR Programme (coloplast.com/investor-relations/shareholder-information/adr-programme/), consultado 2026-07-28",
+    "etiqueta": "HECHO (pagina oficial de la empresa)",
+    "nota_critica": "El ratio 10:1 es lo que hace que el ADS valga ~$6,5 y no ~$65. Toda capitalizacion calculada sobre el ADS sin corregir el ratio saldria 10x mal."
+  },
+  "fecha_valoracion": "2026-07-28",
+  "fecha_corte_precio": "2026-07-27 (cierre)",
+  "divisa_funcional": "DKK",
+  "divisa_reporte": "USD",
+  "etiqueta_congelada": "MENOS_5_6 (1 puerta pasada) — NO RECLASIFICABLE HACIA ARRIBA",
+  "mos_exigido_pct": 40.0,
+  "en_cartera": false,
+
+  "veredicto": "NO ABRIR",
+
+  "resumen": "NO ABRIR. A DKK 420,10 / $6,47 por ADS (cierre 27-jul-2026) Coloplast cotiza a 17,1x owner earnings, 13,0x EV/EBITDA y 5,9% de FCF yield. Con mi g defendible (1,0%: reinversion auto-financiable ~13% del NOPAT x ROIIC ex-margen 6,2%) el valor sale $7,06-$7,16 por ADS y el margen de seguridad es 8-10%, contra el 40% que exige su banda. No falta poco: falta cuatro veces. El DCF inverso con el terminal del 3% mandatado dice que el precio implica -4,5% anual de flujo durante diez anios, lo que suena a ganga historica — es un artefacto: con un WACC bottom-up de 5,7% y terminal 3% el multiplo terminal es 38x y se come el 75% del valor. Al obligar a que el terminal sea coherente con mi propia g (1%), el mismo modelo devuelve $7,1 y el espejismo desaparece. En frio pago 16x owner earnings por esto: valor $6,00, P* $3,60 por ADS. Es decir, los dos marcos honestos —multiplo comprometido y DCF internamente coherente— encierran el precio entre $6,00 y $7,16, y ninguno llega al 40%. TRAMPA DE VALOR: SOSPECHA. La accion ha caido 32% en un anio, pero lo que el mercado ha quitado es exactamente lo que destruyo el M&A: DKK 25.000m en Atos+Kerecis, DKK 3.000m ya deteriorados en Q2 2025/26, mas DKK 3.600m de impuestos de caja extraordinarios por los traspasos de PI de Atos y Kerecis que casi nadie cuenta. El motor de verdad —Chronic Care, 68% de las ventas, creciendo 5-8% organico— sigue intacto; por eso no es hielo derritiendose. Pero el descuento no es descuento: es reprecio correcto. La trampa seria comprarla esperando que vuelva el multiplo de 40x.",
+
+  "precio_y_capital": {
+    "precio_ordinaria_dkk": 420.10,
+    "precio_ads_usd": 6.47,
+    "fuente_precio": "COLO B cierre DKK 420,10 el 27-jul-2026 (stockanalysis.com/quote/cph/COLO.B) y ADS CLPBY cierre $6,47 el 27-jul-2026 (stockanalysis.com/quote/otc/CLPBY). Cross-check: 420,10/10 = DKK 42,01 -> $6,40 a 6,57 DKK/USD, contra $6,47 real; el ADS cotiza ~1% de prima porque el OTC sigue negociando tras el cierre de Copenhague (Copenhague +4,1% ese dia). Etiqueta INFERENCIA (agregador), cruzado entre dos instrumentos independientes.",
+    "tipo_cambio_dkk_usd": 6.57,
+    "fuente_tipo_cambio": "Implicito del cociente de las dos capitalizaciones publicadas el mismo dia (DKK 94.590m / $14.400m = 6,569). Cross-check con el pre-close brief de Coloplast del 29-jun-2026: spot USD = DKK 6,56 a 26-jun-2026 (HECHO, documento de la empresa).",
+    "acciones_emitidas_m": 228.0,
+    "detalle_acciones": "18,0m acciones A (nominal DKK 18m) + 210,0m acciones B (nominal DKK 210m), valor nominal DKK 1. Autocartera 2.833.204 acciones B a 30-sep-2025.",
+    "acciones_en_circulacion_m": 225.17,
+    "fuente_acciones": "Estado de cambios en patrimonio, Coloplast FY 2024/25 earnings release (Anuncio 10/2025, 4-nov-2025), p.20; autocartera comentada en la seccion de flujos. HECHO.",
+    "capitalizacion_dkk_mm": 94594,
+    "capitalizacion_usd_mm": 14398,
+    "deuda_neta_dkk_mm": 23161,
+    "deuda_neta_usd_mm": 3525,
+    "fuente_deuda_neta": "NIBD a 31-mar-2026 = DKK 23.161m. Coloplast H1 2025/26 (Anuncio 05/2026, 12-may-2026), tabla de highlights. HECHO. Se usa el dato mas reciente publicado, no el de cierre fiscal.",
+    "ev_dkk_mm": 117755,
+    "ev_usd_mm": 17923,
+    "multiplos_hoy": {
+      "ev_ebitda_bsi_encurso": 13.0,
+      "ev_ebit_bsi_encurso": 15.4,
+      "per_beneficio_ajustado_encurso": 17.0,
+      "precio_sobre_oe_capex_total_encurso": 17.1,
+      "precio_sobre_oe_mantenimiento_encurso": 15.6,
+      "fcf_yield_pct": 5.86,
+      "dividendo_dkk": 23.00,
+      "rentabilidad_dividendo_pct": 5.47,
+      "payout_sobre_oe_capex_total_pct": 93
+    }
+  },
+
+  "candado_b_wacc": {
+    "principio": "WACC bottom-up de mercado. PROHIBIDO heredarlo de un tier de calidad. Se calcula en DKK (moneda funcional) y se descuentan flujos en DKK; el valor por accion se convierte a USD al spot.",
+    "tasa_libre_riesgo_pct": 2.96,
+    "fuente_tasa_libre_riesgo": "Bono soberano danes a 10 anios, 2,96% al 27-jul-2026 (tradingeconomics.com/denmark/government-bond-yield; -6 pb frente a la sesion anterior, +23 pb en el mes). INFERENCIA (dato de mercado via agregador, con fecha).",
+    "beta": 0.53,
+    "fuente_beta": "Beta 5 anios mensual de COLO B (Copenhague) = 0,53, publicada por stockanalysis.com y Yahoo Finance, consultada 27-jul-2026. INFERENCIA (agregador, no calculo propio).",
+    "beta_usada_central": 0.69,
+    "justificacion_beta": "La beta cruda de 0,53 esta contaminada: la accion cayo -32% en 12 meses por razones idiosincraticas (Kerecis, guia recortada, cambio de CEO) mientras el mercado subia, y una covarianza baja por caida propia deprime artificialmente la beta. Se aplica ajuste Blume (0,53 x 2/3 + 1/3 = 0,687) para el caso central. Rango de trabajo 0,53 - 0,90.",
+    "prima_mercado_pct": 4.17,
+    "fuente_prima_mercado": "Damodaran, actualizacion de julio 2026: prima de riesgo de mercado maduro 4,17%; EEUU 4,45%. INFERENCIA (resumen de la tabla; no se descargo el fichero pais a pais).",
+    "prima_pais_pct": 0.59,
+    "derivacion_prima_pais": "Prima ponderada por la geografia del RIESGO DE ACTIVO, no del domicilio fiscal. Mezcla de ventas FY 2024/25 (HECHO, release FY24/25 p.4): Mercados europeos DKK 15.510m = 55,6%; Otros mercados desarrollados DKK 7.828m = 28,1%; Mercados emergentes DKK 4.536m = 16,3%. Prima ponderada = 0,556 x 4,40% + 0,281 x 4,45% + 0,163 x 6,50% = 4,76%. Exceso sobre la madura (4,17%) = 0,59 pp. Dinamarca es AAA: prima pais de domicilio = 0.",
+    "coste_deuda_pct": 3.6,
+    "derivacion_coste_deuda": "Coste REAL del filing: gastos por intereses FY 2024/25 = intereses 429 + intereses de bonos 293 + intereses de arrendamientos 39 = DKK 761m (Nota 4, release FY24/25). Deuda bruta media = ((21.692+947) + (21.841+788))/2 = DKK 22.634m. Coste historico = 761/22.634 = 3,36%. Se usa 3,6% central por coste MARGINAL superior: en H1 2025/26 la empresa emitio DKK 1.977m de deuda nueva a tipos actuales, con el COLOCB2 antiguo al 2,25% venciendo el 19-05-2027. S&P confirmo BBB+ el 15-jun-2026 (pre-close brief, HECHO). Rango 3,4% - 4,0%.",
+    "tasa_impositiva_pct": 22.0,
+    "fuente_tasa_impositiva": "Guia de la empresa: tipo efectivo esperado FY 2025/26 ~22% (pre-close brief 29-jun-2026). HECHO.",
+    "pesos": {
+      "equity_pct": 80.3,
+      "deuda_pct": 19.7,
+      "nota": "Ponderado a valor de MERCADO del equity (DKK 94.594m). La deuda se toma a valor contable de la NIBD; con cupones del 2,25% y tipos actuales ~3% los bonos cotizan bajo par, asi que la deuda a mercado seria algo menor y el EV algo menor. HUECO declarado."
+    },
+    "coste_equity_central_pct": 6.43,
+    "derivacion_coste_equity": "Ke = 2,96% + 0,69 x 4,17% + 0,59% = 6,43%. Con beta cruda 0,53: 5,76%. Con beta 0,90: 7,30%.",
+    "wacc_pct": 5.7,
+    "wacc_rango": "5,2% - 6,5%",
+    "derivacion_wacc": "Central: 0,803 x 6,43% + 0,197 x 3,6% x (1-0,22) = 5,16% + 0,55% = 5,72%. Suelo (beta 0,53, kd 3,4%): 5,15%. Techo (beta 0,90, kd 4,0%): 6,48%.",
+    "advertencia_metodologica": "Este WACC es bajo y hay que decirlo. Un coste de capital propio del 6,4% significa exigirle a la accion apenas 3,5 pp sobre el bono danes a 10 anios. Es lo que da el CAPM bottom-up con una beta de 0,53 y un Rf del 2,96%, y candado B obliga a reportarlo. Pero un WACC bajo INFLA el valor: no es conservador, es lo contrario. Si con este WACC generoso la empresa no da el 40% de MoS, con cualquier tasa razonable menos aun."
+  },
+
+  "base_auditada": {
+    "ejercicio": "FY 2024/25 (1-oct-2024 a 30-sep-2025)",
+    "fuente": "Coloplast A/S, Anuncio 10/2025 — Full-Year Financial Results 2024/25, publicado 4-nov-2025 (coloplast.com/siteassets/investors/10_2025_fy_2024_25_earnings-release.pdf). Cuenta de resultados p.15, estado de flujos p.17, notas 2-5.",
+    "advertencia_fuente": "Las tablas del earnings release llevan la marca 'unaudited' aunque reproducen el ejercicio cerrado; el Annual Report 2024/25 completo (auditado, publicado el mismo 4-nov-2025) no se ha descargado en esta sesion. Cifra por tanto DEGRADADA un escalon respecto a un filing auditado localizado. Coloplast no presenta ante la SEC: es ADR Nivel 1 sin 20-F.",
+    "cifras_dkk_mm": {
+      "ingresos": 27874,
+      "crecimiento_organico_pct": 7,
+      "crecimiento_reportado_pct": 3,
+      "coste_produccion": -8929,
+      "margen_bruto": 18945,
+      "margen_bruto_pct": 68.0,
+      "ebitda_antes_especiales": 9123,
+      "ebita_antes_especiales": 8259,
+      "ebit_antes_especiales": 7670,
+      "margen_ebit_bsi_pct": 27.5,
+      "partidas_especiales": -469,
+      "ebit_reportado": 7201,
+      "ingresos_financieros": 107,
+      "gastos_financieros": -1151,
+      "resultado_financiero_neto": -1044,
+      "beneficio_antes_impuestos": 6157,
+      "impuestos": -2521,
+      "tipo_efectivo_reportado_pct": 40.9,
+      "beneficio_neto_reportado": 3636,
+      "beneficio_neto_antes_especiales": 4003,
+      "beneficio_neto_ajustado": 5148,
+      "explicacion_beneficio_ajustado": "BAI antes de especiales = 7.670 - 1.044 = 6.626; al 22,3% normalizado da 5.148. El salto del tipo efectivo al 40,9% NO es operativo: viene del traspaso de propiedad intelectual de Kerecis (~DKK 1.145m de cargo fiscal extraordinario). El anio anterior el traspaso de PI de Atos Medical costo DKK 2.500m de impuesto en CAJA. Es decir, la maquina de M&A ha consumido ~DKK 3.600m de caja fiscal extra que no aparece en ningun titular. HECHO derivado del release (el propio release dice: 'Adjusted for the impact from the Kerecis IP transfer, ROIC after tax and before special items was 15%').",
+      "depreciacion": 863,
+      "amortizacion": 590,
+      "d_y_a_total": 1453,
+      "capex_inmovilizado_material": 1306,
+      "capex_intangible": 121,
+      "capex_total": 1427,
+      "capex_sobre_ventas_pct": 5.1,
+      "variacion_circulante": -785,
+      "flujo_operativo": 6645,
+      "flujo_libre_reportado": 5394,
+      "impuestos_pagados_caja": -571,
+      "nibd_cierre": 21692,
+      "patrimonio_cierre": 16122,
+      "apalancamiento_nibd_ebitda": 2.4,
+      "roic_despues_impuestos_bsi_pct": 12,
+      "roic_ajustado_pi_kerecis_pct": 15,
+      "bpa_diluido_dkk": 16.13,
+      "bpa_antes_especiales_dkk": 17.76,
+      "acciones_medias_m": 225.4
+    },
+    "owner_earnings_dkk_mm": {
+      "a_solo_capex_mantenimiento": 5738,
+      "derivacion_a": "Beneficio neto ajustado 5.148 + D&A 1.453 - capex de mantenimiento 863 (aproximado por la depreciacion de tangibles) = 5.738. El exceso de capex sobre depreciacion (1.427 - 863 = 564) es inversion discrecional: la planta nueva de Portugal se llevo ~DKK 450m en el ejercicio (HECHO, comentario de inversiones del release) y esta llamada a operar en 2025/26.",
+      "b_todo_el_capex": 5174,
+      "derivacion_b": "5.148 + 1.453 - 1.427 = 5.174. Cross-check independiente: la empresa reporta ratio de flujo libre ajustado sobre ventas del 19% -> 0,19 x 27.874 = DKK 5.296m. Diferencia del 2%: dentro del ruido. Las dos vias convergen.",
+      "advertencia_version_a": "La version (a) es GENEROSA por construccion. De los DKK 1.453m de D&A, DKK 590m son amortizacion —en su mayor parte de intangibles de PPA de Atos y Kerecis. Devolverla entera al beneficio sin cargar ningun coste de reposicion equivale a suponer que esos intangibles no hay que reponerlos nunca; en realidad solo se reponen comprando mas empresas, que es precisamente la actividad que ha destruido valor aqui. Version (b) es la honesta para esta empresa."
+    },
+    "owner_earnings_usd_mm": {
+      "a_solo_capex_mantenimiento": 873,
+      "b_todo_el_capex": 788
+    }
+  },
+
+  "base_en_curso": {
+    "ejercicio": "FY 2025/26 (1-oct-2025 a 30-sep-2026), anualizado",
+    "metodo": "H1 2025/26 REAL (publicado 12-may-2026) + guia explicita de la empresa del pre-close brief del 29-jun-2026. NO hay 9M publicado: Coloplast reporta el 9M el 18-ago-2026 (HECHO, pre-close brief). Periodo de silencio desde el 3-jul-2026.",
+    "fuentes": [
+      "Coloplast, Anuncio 05/2026 — Interim Financial Report H1 2025/26, 12-may-2026 (coloplast.com/siteassets/investors/latest-results/q2-20252026/05_2026_h1_2025_26_earnings_release.pdf)",
+      "Coloplast, Anuncio 04/2026 — Revision de guia FY 2025/26 por Kerecis, 23-abr-2026",
+      "Coloplast, Anuncio 01/2026 — Q1 2025/26, 6-feb-2026",
+      "Coloplast, 9M 2025/26 Pre-close brief, 29-jun-2026"
+    ],
+    "h1_real_dkk_mm": {
+      "ingresos": 14127,
+      "crecimiento_organico_pct": 6,
+      "crecimiento_reportado_pct": 1,
+      "efecto_divisa_pct": -4,
+      "ebitda_bsi": 4364,
+      "ebita_bsi": 3920,
+      "ebit_bsi": 3670,
+      "margen_ebit_bsi_pct": 26.0,
+      "partidas_especiales": -3060,
+      "ebit_reportado": 610,
+      "resultado_financiero_neto": -63,
+      "beneficio_neto_reportado": 426,
+      "bpa_bsi_diluido_dkk": 12.48,
+      "beneficio_ajustado_h1": 2811,
+      "depreciacion": 444,
+      "amortizacion_recurrente": 250,
+      "amortizacion_linea_flujos": 3250,
+      "nota_amortizacion": "La linea de 3.250 del estado de flujos = 250 de amortizacion recurrente + 3.000 de deterioro del fondo de comercio de Kerecis. No confundir.",
+      "capex_total": 863,
+      "flujo_operativo": 3699,
+      "flujo_libre": 2675,
+      "nibd": 23161,
+      "patrimonio": 12843,
+      "apalancamiento_nibd_ebitda": 2.7,
+      "adquisicion_filiales": -141
+    },
+    "guia_empresa_fy2526": {
+      "crecimiento_organico_pct": "5-6% (recortado desde ~7% el 23-abr-2026)",
+      "crecimiento_reportado_ingresos_pct": "~3% (2-3 pp de impacto negativo de divisa)",
+      "crecimiento_ebit_cc_pct": "~5% (recortado desde ~7%)",
+      "impacto_divisa_margen_ebit_pb": -80,
+      "partidas_especiales_dkk_mm": -3100,
+      "detalle_especiales": "DKK 3.000m de deterioro de Kerecis + ~DKK 100m de costes de adquisicion/integracion",
+      "capex_sobre_ventas_pct": 5,
+      "gastos_financieros_netos_dkk_mm": -500,
+      "tipo_impositivo_efectivo_pct": 22,
+      "roic_despues_impuestos_bsi_pct": 15,
+      "circulante_sobre_ventas_pct": 25,
+      "fase_h2": "Crecimiento organico y de EBIT en cc en H2 a nivel similar a H1"
+    },
+    "cifras_anualizadas_dkk_mm": {
+      "ingresos": 28710,
+      "derivacion_ingresos": "27.874 x 1,03 (guia de crecimiento reportado ~3%). H1 real 14.127 -> H2 implicito 14.583 (+4,8% reportado), coherente con el alivio del viento en contra de divisa que la propia empresa describe (USD spot 6,56 vs media FY24/25 6,76).",
+      "ebit_bsi": 7630,
+      "derivacion_ebit": "EBIT en moneda constante = 7.670 x 1,05 = 8.054 sobre ingresos cc de 29.407 -> margen cc 27,4%. Menos 80 pb de divisa = margen reportado 26,6% sobre ingresos reportados 28.710 -> DKK 7.630m. Cross-check por fases: H1 real 3.670 + H2 ~3.960 = 7.630. INFERENCIA construida enteramente sobre guia de la empresa.",
+      "margen_ebit_bsi_pct": 26.6,
+      "resultado_financiero_neto": -500,
+      "beneficio_neto_ajustado": 5561,
+      "derivacion_beneficio": "(7.630 - 500) x (1 - 0,22) = 5.561. Cross-check: H1 real ajustado 2.811 + H2 (3.960 - 437) x 0,78 = 2.748 -> 5.559. Convergen.",
+      "depreciacion": 900,
+      "amortizacion_recurrente": 520,
+      "d_y_a_total": 1420,
+      "capex_total": 1435,
+      "ebitda_bsi": 9050
+    },
+    "owner_earnings_dkk_mm": {
+      "a_solo_capex_mantenimiento": 6081,
+      "derivacion_a": "5.561 + 1.420 - 900 = 6.081",
+      "b_todo_el_capex": 5546,
+      "derivacion_b": "5.561 + 1.420 - 1.435 = 5.546"
+    },
+    "owner_earnings_usd_mm": {
+      "a_solo_capex_mantenimiento": 926,
+      "b_todo_el_capex": 844
+    },
+    "distancia_entre_bases": {
+      "oe_b_auditado": 5174,
+      "oe_b_encurso": 5546,
+      "variacion_pct": 7.2,
+      "lectura": "La base en curso sale 7% POR ENCIMA de la auditada, y es importante entender por que: no es que el negocio vaya mejor. El EBIT reportado esta practicamente plano (7.670 -> 7.630) porque la divisa se come el 5% de crecimiento en moneda constante. Toda la mejora del owner earnings viene de dos partidas financieras: (i) los gastos financieros netos caen de -1.044 a -500 (guia de la empresa, apoyada en H1 con solo -63 por ganancias de cambio), y (ii) desaparece el cargo fiscal extraordinario del traspaso de PI de Kerecis. Es decir: el momento del ciclo OPERATIVO es de estancamiento —organico recortado de 7% a 5-6%, margen EBIT de 27,5% a 26,6%, Kerecis a 0% de crecimiento y 0% de margen— y el owner earnings solo sube porque dejan de sangrar partidas no operativas. Esa es la informacion, no el ruido: el 7% de mejora es de una sola vez y no se repite."
+    }
+  },
+
+  "dcf_inverso": {
+    "metodo": "Se resuelve la g a 10 anios (con terminal del 3% mandatado) que iguala el EV de hoy (DKK 117.755m) al valor presente de FCFF, con FCFF = NOPAT + D&A - capex total, al WACC bottom-up de 5,7%.",
+    "fcff_base_auditado_dkk_mm": 6009,
+    "derivacion_fcff_auditado": "NOPAT = 7.670 x 0,78 = 5.983; + D&A 1.453 - capex 1.427 = 6.009. (La variacion de circulante se deja fuera del FCFF de partida y se declara dentro de la banda de ruido: el -785 de FY24/25 fue atipico y la propia empresa guia una mejora del circulante del 26% al 25% de ventas.)",
+    "fcff_base_encurso_dkk_mm": 5936,
+    "derivacion_fcff_encurso": "NOPAT = 7.630 x 0,78 = 5.951; + D&A 1.420 - capex 1.435 = 5.936",
+    "ev_a_justificar_dkk_mm": 117755,
+    "multiplo_ev_fcff_implicito": 19.6,
+    "g_implicita_auditado_pct": -4.6,
+    "g_implicita_encurso_pct": -4.5,
+    "sensibilidad_g_implicita": {
+      "wacc_5_2_pct": "g implicita ~ -6,5% (el multiplo terminal se dispara a 47x)",
+      "wacc_5_7_pct": "g implicita -4,6%",
+      "wacc_6_5_pct": "g implicita ~ -2,0%"
+    },
+    "lectura_critica": "El resultado literal —'el precio implica que los flujos caen 4,6% al anio durante una decada'— parece la ganga del siglo. NO LO ES, y hay que decir por que con precision. Con WACC 5,7% y terminal 3% el diferencial es de 2,7 pp, lo que da un multiplo terminal de 38x sobre el flujo del anio 10. En el escenario central ese valor terminal es el 75% del valor total. Cuando tres cuartas partes del valor dependen de un diferencial de 2,7 pp entre dos numeros que yo mismo he estimado con una beta de agregador y una prima de Damodaran, el modelo no tiene resolucion: 30 pb de WACC mueven el valor un 15% y cruzan el umbral de decision. Lo que realmente dice este DCF inverso es que el mercado esta descontando estos flujos a ~8,3% (que es la tasa a la que 19,6x EV/FCFF con 3% perpetuo es coherente), no al 5,7% del CAPM. La discrepancia no es una oportunidad: es la diferencia entre lo que un modelo exige y lo que un inversor real exige."
+  },
+
+  "g_defendible": {
+    "valor_pct": 1.0,
+    "banda": "0,5% - 2,5%",
+    "formula": "g = tasa de reinversion x ROIIC EX-MARGEN (nunca el bruto: usar el bruto asume que la expansion de margen se repite, y aqui el margen bruto lleva ocho anios clavado en 67-68%)",
+    "roiic_ex_margen_pct": 6.2,
+    "roiic_bruto_pct": 3.1,
+    "derivacion": "La reinversion AUTO-FINANCIABLE hacia delante: capex 1.435 - depreciacion 900 = 535 de capex de crecimiento, mas circulante 0,25 x incremento de ventas (~215 a un crecimiento del 3%), = ~750 sobre un NOPAT de 5.951 -> tasa de reinversion 12,6%. g = 12,6% x 6,2% = 0,78%. Se redondea al alza a 1,0% concediendo un margen a las bolt-ons pequenas tipo Uromedica.",
+    "por_que_no_el_calculo_mecanico": "El bloque de calidad congela una reinversion del 24% de las ventas = DKK 6.690m/anio, que sobre un NOPAT de 5.983 es una tasa de reinversion del 112%. Mecanicamente eso daria g = 1,12 x 6,2% = 6,9% —y es aritmeticamente correcto para el PASADO: Coloplast crecio ~7% y le costo el 24% de sus ventas conseguirlo. Ese es precisamente el cargo de la acusacion. Pero hacia delante NO ES FINANCIABLE: reinvertir el 112% del NOPAT exige deuda neta, y la deuda neta ya paso de DKK 2.112m (FY2020/21) a DKK 23.161m (mar-2026), el apalancamiento esta en 2,7x EBITDA, S&P tiene un BBB+ y el payout consume el 93% del owner earnings. Mantener g = 6,9% durante 10 anios llevaria la deuda neta por encima de DKK 90.000m. No existe ese balance. Proyectar una g que la estructura de capital no puede pagar es la forma mas comun de mentirse en una valoracion.",
+    "tension_declarada": "Coloplast guia 5-6% de crecimiento ORGANICO de ingresos para FY2025/26 y mi g defendible de beneficios es 1,0%. No es contradiccion: el crecimiento organico de ingresos es real y barato en capital (el ROIC ex-fondo de comercio del negocio operativo esta entre 53% y 137%), pero (i) se lo come el -1% anual de precio impuesto por CMS y los sistemas nacionales, (ii) el margen EBIT esta bajando (27,5% -> 26,6%), y (iii) el ROIIC ex-margen del 6,2% ya incorpora que el capital marginal de verdad —los DKK 25.000m de Atos y Kerecis— rinde eso. El 6,2% se compara con un WACC del 5,7%: crea valor por 50 pb. Si esos 6,2% fueran ANTES de impuestos, despues de impuestos serian ~4,8% y estarian POR DEBAJO del coste de capital, con g defendible cayendo a ~0,6%. Ese hueco esta declarado."
+  },
+
+  "valoracion": {
+    "metodo": "DCF a 10 anios con g defendible del 1,0% y terminal COHERENTE con esa misma g (1,0%), al WACC de 5,7%. Se rechaza expresamente combinar g10 = 1% con terminal = 3%: seria decir que el negocio triplica su tasa de crecimiento justo cuando deja de estar en el horizonte de prevision.",
+    "wacc_pct": 5.7,
+    "g_10_anios_pct": 1.0,
+    "g_terminal_pct": 1.0,
+    "multiplo_ev_fcff_justo": 21.5,
+    "base_auditada": {
+      "fcff": 6009,
+      "ev_justo_dkk_mm": 129133,
+      "equity_justo_dkk_mm": 105972,
+      "valor_por_accion_ordinaria_dkk": 470.6,
+      "valor_por_ads_usd": 7.16,
+      "mos_pct": 9.6
+    },
+    "base_en_curso": {
+      "fcff": 5936,
+      "ev_justo_dkk_mm": 127564,
+      "equity_justo_dkk_mm": 104403,
+      "valor_por_accion_ordinaria_dkk": 463.7,
+      "valor_por_ads_usd": 7.06,
+      "mos_pct": 8.4
+    },
+    "piso_de_resolucion": {
+      "regla": "Sin medicion propia del ruido se aplica +/-25% al valor intrinseco. Nada de decimales falsos.",
+      "banda_valor_por_ads_usd": "5,30 - 8,80",
+      "banda_valor_por_accion_dkk": "348 - 580",
+      "lectura": "El precio de hoy ($6,47 / DKK 420) cae DENTRO de la banda de valor, no por debajo. Traducido: a este precio Coloplast no esta ni cara ni barata de forma distinguible del ruido. Y 'indistinguible del ruido' es exactamente lo contrario de un margen de seguridad del 40%."
+    },
+    "sensibilidad_al_terminal": {
+      "nota": "Este es el unico parametro que importa y hay que ensenarlo desnudo. Con WACC 5,7% y base auditada:",
+      "terminal_1_pct": "valor DKK 471/accion = $7,16/ADS -> MoS +10%",
+      "terminal_2_pct": "valor DKK 574/accion = $8,73/ADS -> MoS +26%",
+      "terminal_3_pct": "valor DKK 753/accion = $11,46/ADS -> MoS +44%",
+      "conclusion": "Un solo punto porcentual en el terminal mueve el MoS del 10% al 44%, es decir, cruza el umbral de compra del 40%. Cualquier veredicto de COMPRA aqui seria un veredicto sobre el terminal, no sobre Coloplast."
+    },
+    "sensibilidad_al_wacc": {
+      "nota": "Con terminal del 3% mandatado y base auditada:",
+      "wacc_5_2_pct": "valor ~DKK 909/accion = $13,84/ADS",
+      "wacc_5_7_pct": "valor DKK 753/accion = $11,46/ADS",
+      "wacc_6_5_pct": "valor ~DKK 511/accion = $7,78/ADS",
+      "conclusion": "130 pb de WACC mueven el valor un 78%. Combinado con la sensibilidad al terminal, el DCF de Coloplast es un instrumento sin resolucion util. Por eso el veredicto se ancla en el multiplo comprometido en frio."
+    }
+  },
+
+  "m_estrella_p_estrella": {
+    "m_estrella": 16.0,
+    "definicion": "Multiplo de owner earnings (version b, restando TODO el capex) que acepto pagar. Decidido en frio, SIN barra de error, porque no es una estimacion sino una decision.",
+    "razonamiento": "Que estoy comprando por cada corona de owner earnings: un margen bruto del 68% clavado ocho anios; consumibles cronicos que el usuario no cambia jamas; cuotas de mercado del 35-45% en ostomia y continencia; ROIC ex-fondo de comercio del 53-137% en el negocio operativo. Eso vale mas que un bono. Pero tambien compro: el pagador es CMS y los sistemas nacionales, que imponen -1% de precio al anio, de modo que ocho anios de lealtad perfecta no compran ni un punto de margen; DKK 25.000m de fondo de comercio que rinde 6,2% ex-margen, con DKK 3.000m ya dados de baja; 2,7x de apalancamiento; un payout del 93% que impide auto-financiar el crecimiento; y una guia recortada este mismo abril. Un compounder de verdad —el que reinvierte al 20%+ sin pedir permiso al balance— merece 20-25x. Esto no lo es. A 16x el rendimiento de owner earnings es 6,25% creciendo ~1% = ~7,3% esperado, frente a un WACC del 5,7%: 1,6 pp de exceso. Eso es lo justo para un negocio excelente con una asignacion de capital mediocre. Ni 13x (seria tratarlo como hielo derritiendose, y Chronic Care no lo es) ni 20x (seria pagarle por una reinversion que no sabe hacer).",
+    "oe_por_accion_dkk": 24.63,
+    "oe_por_ads_usd": 0.375,
+    "valor_justo_m_estrella_dkk": 394,
+    "valor_justo_m_estrella_usd_ads": 6.00,
+    "mos_sobre_m_estrella_pct": -7.8,
+    "p_estrella_dkk": 236.4,
+    "p_estrella_usd": 3.60,
+    "derivacion_p_estrella": "P* = M* x OE(b) por accion x (1 - MoS exigido) = 16 x 24,63 x 0,60 = DKK 236,4 por ordinaria = DKK 23,64 por ADS = $3,60. Exigiria una caida adicional del 44% desde $6,47.",
+    "p_estrella_alternativo_dcf": "Si en vez del multiplo comprometido se usa el valor del DCF internamente coherente ($7,06/ADS en curso), P* = 7,06 x 0,60 = $4,24. La horquilla honesta de P* es $3,60 - $4,25. En ningun caso se acerca a $6,47.",
+    "multiplo_al_que_cotiza_hoy": 17.1
+  },
+
+  "tir_esperada": {
+    "rango": "+2% a +10% anual a 10 anios; central ~+6%",
+    "descomposicion_central": "Rendimiento de owner earnings 5,9% (DKK 24,63 sobre DKK 420,10) + crecimiento ~1% - erosion de multiplo ~0,6%/anio (de 17,1x hoy a 16x justo) = ~6,3% bruto.",
+    "escenario_bajista": "+2%: Kerecis sufre un segundo deterioro, China ostomia sigue cayendo, el nuevo CEO recorta el dividendo para desapalancar, multiplo a 12x. El rendimiento se lo come la compresion.",
+    "escenario_alcista": "+10%: el organico se sostiene en 6%+, Kerecis recupera con la normalizacion de Medicare, el multiplo se recompone a 20x.",
+    "lectura": "El WACC calculado es 5,7% y la TIR central esperada es ~6%. Es decir: se cobra exactamente el coste de capital y ni un punto mas. Ademas, tres cuartas partes de esa TIR llegan en forma de dividendo, sujeto a retencion danesa del 27% para no residentes (recuperable solo parcialmente y con friccion). La TIR neta real para Felipe estaria mas cerca del 4,5-5%. Comprar riesgo de renta variable para cobrar el rendimiento de un bono corporativo es la definicion operativa de un mal negocio de inversion, aunque la empresa sea buena."
+  },
+
+  "trampa_de_valor": {
+    "veredicto": "SOSPECHA",
+    "motivo": "El motor operativo NO se esta rompiendo, y por eso no es un SI rotundo: Chronic Care —Ostomia + Continencia + Voz y Respiratorio, DKK 21.161m, el 76% de las ventas— crecio 5-8% organico en H1 2025/26, el margen bruto sigue en el 68% y la conversion a caja libre es del 19% de las ventas. Eso no es hielo derritiendose. Pero tampoco es un NO: lo que se rompio fue la asignacion de capital, y se rompio de forma documentada y no reversible. Los DKK 25.000m gastados en Atos y Kerecis se compraron para el crecimiento que el motor propio no generaba; el ROIC reportado bajo del 52% al 12-15%; en Q2 2025/26 se dieron de baja DKK 3.000m del fondo de comercio de Kerecis; el crecimiento de Kerecis paso de doble digito a 0% con margen EBIT del 0%; y a eso se suman ~DKK 3.600m de impuestos de caja extraordinarios por los traspasos de PI de Atos y Kerecis que casi nadie contabiliza como coste de las adquisiciones. La caida del 32% en un anio y del 40% desde maximos no es un descuento sobre un negocio intacto: es el mercado retirando exactamente el valor que el M&A destruyo. La trampa concreta seria comprarla por el 5,5% de dividendo y el 'ha caido mucho' esperando que vuelva el multiplo de 40x que tenia cuando el ROIC era del 50%. Ese multiplo no vuelve, porque el ROIC no vuelve.",
+    "senales_a_favor_de_trampa": [
+      "Guia recortada el 23-abr-2026: organico de ~7% a 5-6%, EBIT cc de ~7% a ~5%, ROIC de ~16% a ~15%",
+      "Deterioro de DKK 3.000m en Kerecis (Q2 2025/26); valor en libros residual ~DKK 6.000m todavia en riesgo",
+      "Kerecis: 0% de crecimiento organico y 0% de margen EBIT; H2 esperado NEGATIVO (pre-close 29-jun-2026)",
+      "China ostomia en declive por sentimiento del consumidor y competidores locales; devolucion voluntaria de Biatain Adhesive con impacto de DKK 25m/trimestre",
+      "Apalancamiento 2,7x EBITDA, payout del 93% del owner earnings: cero capacidad de auto-financiar crecimiento o recomprar",
+      "CEO nuevo desde el 1-may-2026 (Gavin Wood); primeras conclusiones el 18-ago-2026. Los reseteos estrategicos suelen traer mas partidas especiales",
+      "El switching cost apunta a un usuario que NO paga: ocho anios de lealtad perfecta y el margen bruto no se ha movido ni un punto"
+    ],
+    "senales_en_contra_de_trampa": [
+      "Chronic Care (76% de ventas) crece 5-8% organico con cuotas del 35-45%",
+      "Margen bruto 68%, estable; margen EBITDA 30-31%",
+      "Flujo libre ajustado 19% de ventas, subiendo desde el 15%",
+      "S&P confirmo BBB+ el 15-jun-2026",
+      "La planta de Portugal entra en operacion en 2025/26 y libera capex a partir de FY2026/27",
+      "El problema esta concentrado en Biologics/Kerecis, ~4,5% de los ingresos"
+    ]
+  },
+
+  "huecos_declarados": [
+    "Coloplast no presenta ante la SEC (ADR Nivel 1 sin 20-F). Toda la contabilidad procede de los anuncios oficiales de la empresa. Las tablas del release FY2024/25 llevan la marca 'unaudited'; el Annual Report 2024/25 completo y auditado (publicado 4-nov-2025) no se descargo en esta sesion. Cifra base DEGRADADA un escalon.",
+    "No hay 9M 2025/26: se publica el 18-ago-2026 (cierre 30-jun-2026). La base 'en curso' es H1 real + guia de la empresa, no tres trimestres publicados. Si el 9M decepciona, la base en curso cae.",
+    "El ROIIC ex-margen del 6,2% viene CONGELADO del bloque de calidad y no se ha podido verificar si es antes o despues de impuestos. Si es antes, despues de impuestos (~4,8%) queda POR DEBAJO del WACC de 5,7% y la g defendible baja de 1,0% a ~0,6%, con el valor cayendo a ~DKK 440/accion ($6,70/ADS) y el MoS a ~3%.",
+    "Beta 0,53 procede de agregador (stockanalysis/Yahoo), no de regresion propia, y esta deprimida por una caida idiosincratica del -40% que reduce la covarianza con el indice. Se usa 0,69 ajustada Blume para el central; el rango 0,53-0,90 esta abierto.",
+    "Prima pais de 0,59 pp es INFERENCIA propia: se pondero la geografia de ventas FY2024/25 (HECHO del release) contra el resumen de la tabla Damodaran de julio 2026 (prima madura 4,17%, EEUU 4,45%). No se descargo el fichero pais a pais de Damodaran.",
+    "La deuda se pondera a valor CONTABLE de la NIBD. Con el COLOCB2 al 2,25% (vence 19-05-2027) y tipos actuales ~3%, los bonos cotizan bajo par; a valor de mercado el EV seria algo menor y el MoS marginalmente mejor.",
+    "Retencion danesa del 27% sobre el dividendo para no residentes no modelada en la TIR: recorta la TIR neta ~1,5 pp respecto a la bruta reportada.",
+    "Uromedica: solo se ha localizado la salida de caja neta de DKK 141m en H1 2025/26 (Nota 9). Precio total, earn-outs y contraprestacion contingente sin verificar.",
+    "El capex de mantenimiento se aproxima por la depreciacion de tangibles (863 auditado / ~900 en curso). Es una aproximacion: la version (a) del owner earnings devuelve integra la amortizacion de PPA (~DKK 520-590m/anio) sin cargar ningun coste de reposicion, lo que la hace generosa por construccion en esta empresa concreta.",
+    "El tipo efectivo reportado FY2024/25 fue del 40,9% por el traspaso de PI de Kerecis; se normaliza al 22% que guia la empresa. Si estos traspasos de PI se repiten con cada adquisicion (van dos: Atos DKK 2.500m en caja, Kerecis ~DKK 1.145m), el owner earnings normalizado esta sobrestimado de forma estructural.",
+    "Tipo de cambio DKK/USD de 6,57 derivado del cociente de capitalizaciones publicadas el mismo dia; no se consulto una fuente de FX primaria fechada. Cruzado con el spot de 6,56 del pre-close brief de Coloplast del 26-jun-2026 (HECHO)."
+  ],
+
+  "fuentes_primarias": [
+    {"documento": "Coloplast A/S — Anuncio 10/2025, Full-Year Financial Results 2024/25", "fecha": "2025-11-04", "url": "https://www.coloplast.com/siteassets/investors/10_2025_fy_2024_25_earnings-release.pdf", "uso": "Cuenta de resultados, flujos, balance, notas 2-5, geografia de ventas, acciones y autocartera"},
+    {"documento": "Coloplast A/S — Anuncio 05/2026, Interim Financial Report H1 2025/26", "fecha": "2026-05-12", "url": "https://www.coloplast.com/siteassets/investors/latest-results/q2-20252026/05_2026_h1_2025_26_earnings_release.pdf", "uso": "H1 real, deterioro de Kerecis, NIBD a 31-mar-2026, flujos H1"},
+    {"documento": "Coloplast A/S — Anuncio 04/2026, revision de guia FY2025/26 por Kerecis", "fecha": "2026-04-23", "uso": "Recorte de guia: organico 7%->5-6%, EBIT cc 7%->5%, ROIC 16%->15%"},
+    {"documento": "Coloplast A/S — Anuncio 01/2026, Q1 2025/26", "fecha": "2026-02-06", "uso": "Q1 real, EBIT 1.850, contexto Kerecis y Medicare"},
+    {"documento": "Coloplast A/S — 9M 2025/26 Pre-close brief", "fecha": "2026-06-29", "uso": "Guia detallada FY2025/26: capex 5% de ventas, gastos financieros -500, tipo 22%, especiales -3.100, impacto divisa -80 pb, S&P BBB+, calendario 9M el 18-ago-2026, tabla de tipos de cambio"},
+    {"documento": "Coloplast IR — ADR Programme", "uso": "Ratio 10 ADS = 1 ordinaria, depositario BNY Mellon"},
+    {"documento": "Trading Economics — Denmark 10Y Government Bond Yield", "fecha": "2026-07-27", "uso": "Tasa libre de riesgo 2,96%"},
+    {"documento": "Damodaran — Equity Risk Premiums, actualizacion julio 2026", "uso": "Prima madura 4,17%, EEUU 4,45%"},
+    {"documento": "stockanalysis.com — COLO.B y CLPBY", "fecha": "2026-07-27", "uso": "Precio DKK 420,10 / $6,47, capitalizacion, acciones en circulacion 225,17m, beta 0,53"}
+  ]
+}

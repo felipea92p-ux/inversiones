@@ -1,0 +1,110 @@
+{
+ "ticker": "MTD",
+ "name": "Mettler-Toledo International Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 1164.07,
+ "market_cap_usd_b": 23.52,
+ "fwd_pe": 24.3,
+ "fwd_pe_5y_avg": 37.45,
+ "pe_prem_disc_pct": -35.1,
+ "peg": 2.7,
+ "last_q": {
+  "period": "Q1 2026 (ended Mar 31, 2026)",
+  "revenue": "$947.1M",
+  "rev_yoy_pct": 7,
+  "op_margin_pct": 26,
+  "eps_gaap": "$8.33",
+  "eps_adj": "$8.91"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 31, 2025)",
+  "revenue": "$4.026B",
+  "organic_growth_pct": 4,
+  "roic_pct": 24.7,
+  "fcf": "$877.5M",
+  "fcf_margin_pct": 21.8
+ },
+ "sbc_pct_revenue": 0.56,
+ "sbc_pct_fcf": 2.57,
+ "net_debt_usd_b": 2.09,
+ "nd_ebitda": 1.6,
+ "net_cash": false,
+ "guidance_fy": "FY2026 (raised at Q1): local currency sales growth ~4%; Adjusted EPS $46.30-$46.95 (+8% to +10%); FCF ~$900M. PROYECCION de la direccion.",
+ "pct_off_52w_high": -23.7,
+ "pct_off_ath": -32.1,
+ "drop_classification": "fear_rotation",
+ "data_quality": "VERIFICADO_mostly",
+ "incomplete": false,
+ "verified_fields": [
+  "price",
+  "market_cap_usd_b",
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "guidance_fy",
+  "pct_off_52w_high"
+ ],
+ "estimated_fields": [
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "nd_ebitda",
+  "pct_off_ath",
+  "drop_classification"
+ ],
+ "sources": [
+  {
+   "label": "SEC EDGAR 8-K Q1 2026 earnings press release (Exhibit 99.1, filed May 7 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1037646/000103764626000019/ex-991mtd8xkq12026.htm",
+   "date": "2026-05-07"
+  },
+  {
+   "label": "SEC EDGAR 8-K Q4/FY2025 earnings press release (Exhibit 99.1, filed Feb 5 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1037646/000103764626000008/ex-991mtd8xkq42025.htm",
+   "date": "2026-02-05"
+  },
+  {
+   "label": "SEC EDGAR Form 10-K FY2025 (debt, cash, SBC)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1037646/000103764626000011/mtd-20251231.htm",
+   "date": "2026-02-06"
+  },
+  {
+   "label": "SEC EDGAR Form 10-Q Q1 2026",
+   "url": "https://www.sec.gov/Archives/edgar/data/1037646/000103764626000021/mtd-20260331.htm",
+   "date": "2026-05-08"
+  },
+  {
+   "label": "StockAnalysis.com MTD (price, market cap, fwd P/E, 52w range)",
+   "url": "https://stockanalysis.com/stocks/mtd/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "GuruFocus MTD ROIC",
+   "url": "https://www.gurufocus.com/term/roic/MTD",
+   "date": "2026-03-31"
+  },
+  {
+   "label": "Public.com MTD P/E ratio (5yr avg P/E)",
+   "url": "https://public.com/stocks/mtd/pe-ratio",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Macrotrends MTD stock price history (ATH ref)",
+   "url": "https://www.macrotrends.net/stocks/charts/MTD/mettler-toledo/stock-price-history",
+   "date": "2021-12-30"
+  }
+ ],
+ "notes": "Verificacion EN VIVO al 22-jun-2026. PRECIO/VALORACION: cierre $1,164.07 (StockAnalysis, 22-jun), market cap ~$23.5B. fwd_pe ~24.3x (StockAnalysis 24.31; calculo desde guia FY26 punto medio EPS $46.625 = 25.0x; concuerda). fwd_pe_5y_avg 37.45x (Public.com/agregador, ESTIMADO) => descuento ~-35% vs media, valoracion claramente deprimida vs su historia. PEG ~2.7 (fwd P/E / crecimiento EPS ~9% guia). \n\nQ1 2026 (fuente PRIMARIA 8-K): ventas $947.1M (+7% reportado, +3% moneda local, +1% ex-adquisiciones). EPS GAAP $8.33; adj EPS $8.91 (+9%, BATIO consenso ~$8.71). Margen op ajustado 26.0% ($246.2M adj op profit). \n\nFY2025 (PRIMARIA): ventas $4.026B (+4% reportado, crecimiento organico ~+4% ex-adquisiciones), adj EPS $41.11 (+8%), GAAP EPS $42.05, adj op margin 29.6%. FCF $877.5M (op cash $955.8M - capex $107.1M; release reporta free cash flow $877.535M), margen FCF ~21.8%. ROIC ~24.7% (GuruFocus, Mar-2026; otras fuentes hasta 31% segun metodologia) - ESTIMADO. \n\nSBC (10-K, CRITICO R9): share-based compensation FY2025 = $22.5M = 0.56% de ventas y 2.57% del FCF. SBC MUY BAJO - de los mejores del sector, dilucion minima. \n\nBALANCE (10-K): deuda total $2,152.2M, caja $66.9M => deuda neta ~$2.09B (NO caja neta). ND/EBITDA ~1.6x (EBITDA estimado ~$1.28B = adj op profit + deprec; ESTIMADO) - apalancamiento moderado y comodo. \n\nGUIA FY2026 (PROYECCION, subida en Q1): ventas moneda local ~+4%, adj EPS $46.30-46.95 (+8/+10%), FCF ~$900M. \n\nDESPLOME: -23.7% desde maximo 52s ($1,525.17) y -32% desde ATH (~$1,714.75 intradia dic-2021). CLASIFICACION = fear_rotation: la accion cayo ~15% tras Q1 PESE a batir EPS y SUBIR guia; fundamentales intactos (margenes solidos, ROIC 25%+, FCF fuerte, SBC minimo, crecimiento organico positivo aunque modesto +1% ex-M&A en Q1). El de-rating (fwd P/E 24x vs media 37x) responde a miedo macro/geopolitico y rotacion fuera de compounders de calidad caros, no a deterioro genuino del negocio. Hueco menor: fwd_pe_5y_avg y PEG de agregador (ESTIMADO)."
+}

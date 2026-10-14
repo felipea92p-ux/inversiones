@@ -1,0 +1,42 @@
+{
+ "ticker": "EQT.ST",
+ "currency": "SEK",
+ "current_price": 268.3,
+ "name": "EQT AB",
+ "wacc_pct": 9.55,
+ "wacc_components": {
+  "rf_pct": 2.8,
+  "erp_pct": 5,
+  "beta": 1.35,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base ≈ EUR 998m. Derived from FY2025 FRE (fee-related) net cash flow of EUR 1,073m (39% margin on EUR 2,732m total income), minus a 7% owner-earnings haircut to internalize 100% of the cost of offsetting equity-incentive dilution. EQT does not disclose a separate GAAP SBC line; basic-to-diluted EPS gap is ~0.2% and the firm runs buybacks twice a year specifically to neutralize incentive-program dilution, so true SBC drag is modest — the 7% haircut conservatively captures the cash spent to keep share count flat. Alignment runs mainly via carried interest and co-investment rather than dilutive RSUs.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 12,
+  "rev_cagr_y6_10_pct": 6,
+  "fcf_margin_terminal_pct": 40,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% expensed via 7% owner-earnings haircut (proxy for cash cost of offsetting incentive dilution; no GAAP SBC line disclosed)",
+  "shares_diluted_b": 1.196,
+  "net_debt_usd_b": 1.68
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 162.8,
+   "prob": 0.375,
+   "note": "Owner-earnings CAGR 7% (yrs1-5) declining to 4% (yrs6-10), term g 2.5%. Slow PE exit/realization environment persists, fundraising headwinds, some fee compression; AUM still grows modestly. Coller only mildly accretive. Pessimistic but not apocalyptic."
+  },
+  "base": {
+   "iv_per_share": 239.2,
+   "prob": 0.475,
+   "note": "Owner-earnings CAGR 12% (yrs1-5) declining to 6% (yrs6-10), term g 3.0%. Consistent with track record: FAUM EUR 142bn, BPEA IX closed at +40% vs predecessor, Coller (+EUR 30bn FAUM secondaries) accretive, record evergreen/private-wealth inflows. Exits normalize gradually."
+  },
+  "optimista": {
+   "iv_per_share": 331.9,
+   "prob": 0.15,
+   "note": "Owner-earnings CAGR 16% (yrs1-5) declining to 8% (yrs6-10), term g 3.5%. Perfect execution: evergreen/private-wealth platform scales, secondaries franchise compounds, exit window reopens, fee-related margin expands. Returns toward historical growth trajectory."
+  }
+ },
+ "sanity_check": "Prob-weighted IV ≈ 225 SEK vs price 268.30 SEK → ~16% downside on probability weighting; base case 239 SEK sits ~11% below price, so the stock is not a clear bargain on owner-earnings DCF despite a ~30% drop from 52w high and ~52% from ATH and a fwd P/E of ~20.6x (vs ~28x historical avg). The derating is a fear/sector rotation out of high-multiple alt-asset managers, not franchise deterioration (60% adj EBITDA margin, ND/EBITDA 0.9x). Contrast — total shareholder return (NOT a DDM): dividend SEK 5.00/share ≈ 1.86% yield + buyback ~10.4m sh/yr ≈ 0.87% ≈ ~2.7% total shareholder yield; modest because EQT reinvests in fund commitments/co-investment and the value case rests on FAUM compounding, not cash return. Margin of safety only appears in the conservative scenario if entry price falls toward ~163-200 SEK.",
+ "method_notes": "10-yr two-stage owner-earnings DCF built in EUR (EQT's reporting currency), per-share IV converted to SEK (quotation currency) at EUR/SEK 10.99. Owner FCF base = FY2025 FRE net cash flow EUR 1,073m less 7% SBC/incentive-dilution haircut = EUR 998m. Phase 1 (yrs1-5) and Phase 2 (yrs6-10, linearly declining growth toward terminal) grow owner earnings; terminal value via Gordon growth on yr10. WACC = Rf 2.8% (eurozone, given EQT's euro-denominated economics) + ERP 5.0% × beta 1.35 (alt-asset-manager cyclicality/fundraising-exit sensitivity) = 9.55%; no geopolitical adjustment (Europe). Shares diluted = 320.78B SEK market cap / 268.30 = 1.196b. Net debt EUR 1,448m (≈ USD 1.68b at EUR/USD 1.16) subtracted from EV. KEY CAVEATS: (1) SBC % not disclosed by EQT — the 7% haircut is an estimate, not a verified figure (flagged critical in source data); a fully expensed carried-interest/co-invest economic cost could differ. (2) EQT reports full P&L only semi-annually, so FY2025 (22-Jan-2026 year-end report) is the latest complete statement; Q1 2026 is operating metrics only. (3) Fee-related earnings are the stable annuity base used here; performance/carry-related income (lumpy, cycle-dependent) is excluded from the owner-earnings base, making the model conservative on upside but more robust. (4) FX moves (EUR/SEK) directly shift the SEK IV."
+}

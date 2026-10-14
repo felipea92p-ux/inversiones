@@ -1,0 +1,59 @@
+{
+ "ticker": "MCO",
+ "name": "Moody's Corporation",
+ "rules": {
+  "R1": {
+   "score": 1.5,
+   "just": "Asset-light ratings/analytics con margen operativo 44.3% y FCF margin 33.4%; escala bien (datos, suscripciones MA) pero no es software puro de margen incremental cuasi-100%, por eso 1.5 y no 2.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Mercados de deuda y demanda de analítica/riesgo crecen de forma secular (emisión global, regulación, KYC/ESG/data), aunque la emisión es cíclica respecto a tipos."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Duopolio efectivo con S&P en ratings (MIS ~40% cuota, las dos ~80% del mercado); liderazgo #1/#2 sostenido durante décadas y casi irreplicable -> dominancia monstruosa."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat por intangibles regulatorios (NRSRO), confianza/marca incrustada en mandatos de inversión y altísimos costes de cambio; irreplicable en décadas -> 2.0."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento orgánico verificado fuerte: FY2025 organic +9% y Q1'26 ingresos +8% con EPS ajustado +13%, mayormente orgánico y no dependiente de M&A destructora."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Multi-geografía y dos segmentos (MIS ratings + MA analytics) sin cliente >10-15%, pero MIS sigue ligado al ciclo de emisión, lo que limita la diversificación efectiva a base."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "FCF/NI alto y capex bajo (FCF $2.575B, margin 33.4%, guía FCF $2.8-3.0B); ROIC no reportado (null) pero estructuralmente muy alto >WACC; -0.5 por falta de fuente primaria de ROIC."
+  },
+  "R8": {
+   "score": 1,
+   "just": "Deuda neta $5.89B (NO caja neta) con ND/EBITDA 1.55x; apalancado pero por debajo del umbral 2x -> base 1.0."
+  },
+  "R9": {
+   "score": 0.5,
+   "just": "REGLA DURA: SBC verificada ~22% del FCF (>15% pero <=25%) -> R9 topado en 0.5; además datos SBC con conflicto de fuentes y ROIC no reportado reducen calidad contable."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Asignación de capital ejemplar: recompras oportunistas ~$2.5B guiadas, guía FY2026 SUBIDA (EPS adj $16.40-17.00) y disciplina vs M&A; gobierno sólido."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R3 (duopolio NRSRO con S&P), R4 (moat regulatorio + marca incrustada en mandatos) y R1 (modelo asset-light de altísimo margen) se refuerzan mutuamente de forma monstruosa: la barrera regulatoria crea el duopolio, el duopolio sostiene poder de fijación de precios, y la naturaleza asset-light convierte ese pricing power en FCF con capex casi nulo. Es una de las franquicias más irreplicables del mercado.",
+ "moat_type": "intangibles_regulatorios_y_marca_red",
+ "moat_one_line": "Duopolio NRSRO con S&P Global: licencia regulatoria, marca incrustada en mandatos de inversión y costes de cambio prohibitivos hacen el negocio de ratings casi irreplicable.",
+ "thesis_3lines": [
+  "Calidad: franquicia duopólica (MIS/S&P) protegida por intangibles regulatorios NRSRO, con margen operativo 44.3% y FCF margin 33.4% -> calidad de negocio excepcional.",
+  "Motor de crecimiento: ingresos orgánicos +9% FY2025 y +8% Q1'26 con EPS ajustado +13%, apalancando emisión global de deuda y demanda secular de analítica de riesgo (MA).",
+  "Valoración/retorno: fwd P/E 26.4 vs media 5a 38.4 (-31%), caída -18% desde máximos por rotación/compresión de múltiplo mientras los fundamentales MEJORAN y la dirección sube guía y recompras ~$2.5B."
+ ],
+ "bear_case_strongest": "El segmento MIS (ratings) depende del ciclo de emisión de deuda: tipos altos sostenidos o un shock crediticio pueden congelar la emisión y comprimir los ingresos más cíclicos, mientras un PEG ~2.07 deja poco margen si la disrupción por IA en analítica o un endurecimiento regulatorio erosionan el pricing power del duopolio.",
+ "sbc_flag": "sbc_gt_15_fcf",
+ "ethical_flag": "none",
+ "notes": "Total ponderado re-score: R1 1.5 + R2 1.5 + R3 2.0 + R4 2.0 + R5 1.5 + R6 1.0 + R7 1.5 + R8 1.0 + R9 0.5 + R10 1.5 = 14.0 bruto, topado al techo 13.5. La preliminar FASE 1 de 13.5/13.5 NO se sostiene tras verificación por la regla dura de SBC (R9=0.5) y datos contables MIXED (ROIC null, conflicto de fuentes SBC), aunque la calidad de la franquicia es de primer nivel. Drop=fear_rotation confirmado: caída -18.2% desde máximos por compresión de múltiplo (fwd P/E 26.4 vs media 38.4) mientras fundamentales mejoran. Vigilar el 10-K FY2025 (cash flow statement) para confirmar SBC exacta -> si >25% FCF, R9 baja a 0.0."
+}

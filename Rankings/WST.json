@@ -1,0 +1,276 @@
+{
+  "ticker": "WST",
+  "empresa": "West Pharmaceutical Services, Inc.",
+  "cik": "0000105770",
+  "bolsa": "NYSE",
+  "divisa_funcional": "USD",
+  "divisa_reporte": "USD",
+  "fecha_analisis": "2026-07-28",
+  "fecha_corte_precio": "2026-07-27",
+  "etiqueta_calidad_congelada": "MENOS_5_6",
+  "puertas_pasadas": 3,
+  "especie": "G2",
+  "mos_exigido_pct": 40,
+  "regla_mos": "NO esta en cartera -> se aplica el umbral de ABRIR: 40% para la banda MENOS_5_6. Si estuviera en cartera seria CARGAR y el umbral bajaria 12 puntos, a 28%. No aplica.",
+  "rol": "VALORADOR. La calidad esta CONGELADA. Nada de lo que aparece en este expediente reclasifica la etiqueta hacia arriba. El apalancamiento operativo real del 1S26 (margen operativo 20,7% vs 17,8%) es tentador y NO es un hallazgo de calidad: es la contradiccion madre buscando otra puerta.",
+
+  "mecanismo_heredado": {
+    "motor": "West vende el componente barato del que depende la aprobacion regulatoria de un farmaco caro. El cierre elastomerico queda escrito en el expediente NDA o BLA del cliente, de modo que cambiar de proveedor obliga a recalificar el medicamento. Eso le permite subir precio (+3,95 pp en 2T26) sin perder volumen (+8,74 pp simultaneos) e incluso subirlo mientras el volumen se hunde (2008 y 2024).",
+    "eslabon_mas_debil": "El capital, no el foso. ROIC minimo de la ventana 11,6%; ROIC 2025 apenas 18,0%; nunca dos veces el WACC en el punto bajo; los unicos cuatro anios por encima del 20% coinciden exactamente con el ciclo COVID. La pista de reinversion rinde ROIIC 7,0% bruto y 7,6% ex-margen contra un umbral del 15%.",
+    "reinversion_pct_ventas": 11.7,
+    "roiic_bruto_pct": 7.0,
+    "roiic_ex_margen_pct": 7.6,
+    "puertas": "3 de 5-6 pasadas",
+    "verificacion_valorador": "El ROIC 2025 del 18,0% se reconstruye exactamente desde el 10-K FY2025: NOPAT = EBIT 584,9 x (1 - 20,2%) = 466,7 M; capital invertido = equity 3.176,0 + deuda 202,8 - caja 791,3 = 2.587,5 M; 466,7 / 2.587,5 = 18,0%. HECHO, cuadra."
+  },
+
+  "precio_y_capital": {
+    "precio_usd": 331.25,
+    "fuente_precio": "MCP IBKR, barra diaria de cierre del 2026-07-27 (contract_id 13909, NYSE). Confirmado contra el snapshot last=331,25 is_close=true. HECHO (dato vivo de broker).",
+    "maximo_52s_usd": 386.0,
+    "minimo_52s_usd": 223.84,
+    "distancia_al_maximo_52s_pct": -14.2,
+    "comentario_precio": "El 23-jul-2026, dia de resultados, la accion abrio en 385,01 y cerro en 355,48; el 24-jul cayo a 328,20. El mercado castigo un 15% en dos sesiones PESE a que la compania subio guia de ventas y de EPS. Es coherente con el hallazgo incomodo de este expediente: lo que se deterioro no fue el beneficio, fue la caja.",
+    "volatilidad_historica_anual_pct": 32.7,
+    "acciones_en_circulacion_mm": 70.375762,
+    "fuente_acciones": "Portada del 10-Q 2T26 (dei:EntityCommonStockSharesOutstanding a 2026-07-20) = 70.375.762. HECHO.",
+    "acciones_diluidas_2t26_mm": 71.3,
+    "nota_recompra": "La compania recompro 1,8 mm de acciones por 454,3 M USD en el 1S26 a un precio medio de 258,03 USD. El precio de hoy (331,25) esta un 28% por encima de lo que la propia direccion pago hace meses.",
+    "no_es_ADS": true,
+    "capitalizacion_usd_mm": 23312.0,
+    "deuda_corto_plazo_usd_mm": 0.0,
+    "deuda_largo_plazo_usd_mm": 202.9,
+    "deuda_bruta_usd_mm": 202.9,
+    "caja_no_restringida_usd_mm": 435.8,
+    "deuda_neta_usd_mm": -232.9,
+    "ev_usd_mm": 23079.0,
+    "arrendamientos_operativos_usd_mm": 109.2,
+    "ev_incluyendo_leases_usd_mm": 23188.0,
+    "fuente_balance": "Balance condensado del 8-K de resultados 2T26 (exh991q22026earningsrelease.htm, 2026-07-23) a 30-jun-2026: caja 435,8; deuda a largo plazo 202,9; leases operativos 20,9 corriente + 88,3 no corriente. HECHO.",
+    "nota_balance": "West tiene CAJA NETA de 232,9 M. La deuda es 203,0 M nominales: 130,0 M de Term Loan a tipo variable (5,02%) y 73,0 M de Series C Notes fijas al 4,02%, ambos con vencimiento en julio de 2027 (10-K FY2025, Nota 10). El revolver multidivisa de 500 M esta sin disponer. La estructura de capital no es el problema de esta empresa."
+  },
+
+  "wacc_candado_B": {
+    "principio": "CANDADO B: el WACC sale del mercado, jamas de un tier de calidad. Ninguna cifra de este bloque se ha heredado de la etiqueta MENOS_5_6.",
+    "tasa_libre_riesgo_pct": 4.64,
+    "fuente_tasa_libre_riesgo": "Bono del Tesoro de EEUU a 10 anios, cierre del 2026-07-27 (moneda funcional = USD, coincide con el domicilio). Recogido por busqueda web con referencia cruzada a la H.15 de la Reserva Federal del 27-jul-2026 y a FRED DGS10; una fuente daba 4,63% y otra 4,64%. INFERENCIA (no se descargo la serie original).",
+    "prima_mercado_madura_pct": 4.2,
+    "prima_pais_eeuu_pct": 0.22,
+    "prima_pais_incremental_no_eeuu_pct": 0.2,
+    "prima_riesgo_total_aplicada_pct": 4.42,
+    "fuente_primas": "Damodaran, ERP implicita de EEUU al 1-jul-2026 = 4,42% con el S&P 500 en 7.499,36; neteando el diferencial de impago de 0,22% del rating Aa1 (tras la rebaja de Moody's) queda una prima de mercado maduro de 4,20%. INFERENCIA: llega via resumen de busqueda web, no del cuaderno original de Damodaran.",
+    "derivacion_prima_pais_incremental": "El riesgo de ACTIVO, no el domicilio fiscal. Activos de larga duracion del 10-K FY2025 (Nota de segmentos): EEUU 834,7 M (44,4%), Irlanda 366,3 M, Alemania 233,2 M, Francia 113,3 M, otros europeos 108,7 M -> Europa desarrollada 821,5 M (43,7%), Otros 221,9 M (11,8%, principalmente Asia y Brasil). Ponderando: 0,437 x ~0,10% + 0,118 x ~1,5% = 0,22%. Se aplica 0,20%. INFERENCIA propia, no una fila de la tabla de paises de Damodaran.",
+    "beta": 1.16,
+    "fuente_beta": "Yahoo Finance, Beta 5 anios mensual = 1,16, consultada el 2026-07-28. Comprobacion cruzada: stockanalysis.com 1,15 y una tercera fuente 1,18, mismo dia. INFERENCIA: son agregadores, no la regresion propia.",
+    "beta_blume_usada": false,
+    "coste_equity_central_pct": 9.97,
+    "derivacion_coste_equity": "Ke = 4,64% + 1,16 x 4,42% + 0,20% = 9,97%.",
+    "coste_deuda_pct": 7.45,
+    "derivacion_coste_deuda": "REAL, del filing: costes por intereses incurridos en 2025 = 15,1 M (10-K FY2025, Nota 10: 'Interest costs incurred during 2025, 2024 and 2023 were $15.1 million, $16.2 million and $14.8 million'), sobre deuda media del ejercicio de 202,7 M (202,6 -> 202,8) = 7,45%. ADVERTENCIA HONESTA: esa cifra sobreestima el coste contractual porque los 15,1 M incluyen las comisiones de disponibilidad de un revolver de 500 M que esta SIN DISPONER y la amortizacion de costes de emision. El coste contractual ponderado es 4,66% (130,0 M al 5,02% variable + 73,0 M al 4,02% fijo). Se usa el 7,45% derivado del filing porque es lo que manda el candado, y porque con un peso de deuda del 0,86% la eleccion mueve el WACC menos de 3 puntos basicos.",
+    "tasa_impositiva_pct": 20.2,
+    "fuente_tasa_impositiva": "10-K FY2025: gasto por impuestos 121,6 M sobre beneficio antes de impuestos 600,9 M = 20,2%. HECHO.",
+    "peso_equity_pct": 99.14,
+    "peso_deuda_pct": 0.86,
+    "nota_pesos": "Deuda a VALOR DE MERCADO: el 10-K FY2025 declara valor razonable de 130,0 M (tramo variable, a la par) + 72,6 M (Series C fijas) = 202,6 M. Equity a valor de mercado = 23.312 M. La estructura es casi 100% equity, asi que el WACC es esencialmente el coste de los recursos propios.",
+    "wacc_pct": 9.93,
+    "wacc_rango": "9,2% - 11,3%",
+    "wacc_escenarios": {
+      "benigno": "beta 1,05 y ERP 4,2% -> Ke 9,25% -> WACC 9,2%",
+      "central": "beta 1,16 y ERP 4,42% -> Ke 9,97% -> WACC 9,9%",
+      "adverso": "beta 1,30 y ERP 5,0% -> Ke 11,34% -> WACC 11,3%"
+    },
+    "advertencia_multiplo_terminal": "El WACC de 9,9% es el que se usa tanto en el DCF inverso como en la valoracion directa, y el crecimiento terminal es 3,0% en ambos. La distancia WACC - g_terminal es 6,9 pp, es decir un multiplo terminal implicito de 14,5x. No se ha usado ningun multiplo de salida heredado de comparables."
+  },
+
+  "hallazgo_incomodo": {
+    "titular": "El beneficio esta en maximos y la caja se esta cayendo. En el 1S26 el beneficio neto subio un 32% (292,8 M vs 221,6 M) y el flujo de caja operativo BAJO un 30% (213,9 M vs 306,5 M).",
+    "desarrollo": "La reconciliacion del 10-Q 2T26 lo aisla sin ambiguedad: 'Changes in assets and liabilities' resto 188,9 M en el 1S26 frente a solo 4,0 M en el 1S25. La partida grande son las cuentas por cobrar, que subieron de 574,4 M a 712,0 M (+137,6 M, +24,0%) mientras las ventas del semestre subian un 17,3%. Los cobros van por detras de las ventas. La compania sufrio ademas un incidente de ciberseguridad en mayo de 2026 cuyos costes profesionales aparecen como partida no asignada, pero cuyo efecto sobre facturacion y cobro NO esta cuantificado en el filing.",
+    "segundo_hallazgo": "El ejercicio auditado FY2025 tiene el sesgo contrario: el flujo operativo de 754,8 M incluye una linea de 'Changes in other assets and liabilities' de +108,1 M, frente a +22,6 M en 2024 y +6,0 M en 2023. Es decir, la base auditada esta INFLADA en aproximadamente 85 M respecto de su tasa base, y la base en curso esta DEPRIMIDA. La distancia entre las dos bases exagera en ambos sentidos y esta declarada aqui para que no se lea como senal.",
+    "tercer_hallazgo": "El capex esta en retirada: 362,0 M en 2023, 377,0 M en 2024, 285,9 M en 2025, y la guia 2026 es 250-275 M. Del 12,3% de las ventas al 7,8%. Eso mejora el flujo de caja libre reportado de hoy a costa de la pista de reinversion de manana; en una empresa cuyo problema declarado es que el capital no compone, un recorte de capex no es necesariamente malo, pero desmiente la narrativa de reinvertidora.",
+    "implicacion_de_valoracion": "Ninguna de estas tres cosas toca el foso, que sigue documentado. Todas tocan el denominador de la valoracion: cuanta caja de verdad se queda el propietario.",
+    "no_reclasifica": "El apalancamiento operativo del 1S26 es real (margen operativo reportado 20,7% vs 17,8%, HVP Components +18,4% organico, Biologics +29,2% organico). No reclasifica nada. La etiqueta es MENOS_5_6 y se queda."
+  },
+
+  "owner_earnings": {
+    "metodo": "Dos versiones obligatorias. (a) Restando solo el capex de MANTENIMIENTO, aproximado por la depreciacion: el exceso sobre depreciacion es inversion discrecional y NO se penaliza. (b) Restando TODO el capex, es decir flujo de caja libre puro. Cada una sobre dos bases: ultimo ejercicio AUDITADO y ejercicio EN CURSO anualizado.",
+    "nota_capex": "El capex de mantenimiento se aproxima por la DEPRECIACION (168,6 M en 2025), no por la depreciacion mas amortizacion, porque los 2,8 M de amortizacion corresponden a intangibles de adquisicion (mayor participacion en Daikyo) y no representan desgaste de activo productivo.",
+    "desglose_fy2025_auditado": {
+      "flujo_caja_operativo_usd_mm": 754.8,
+      "depreciacion_usd_mm": 168.6,
+      "amortizacion_usd_mm": 2.8,
+      "capex_total_usd_mm": 285.9,
+      "capex_discrecional_sobre_depreciacion_usd_mm": 117.3,
+      "fuente": "10-K FY2025, estado consolidado de flujos de efectivo. HECHO."
+    },
+    "base_auditada": {
+      "ejercicio": "FY2025 (10-K presentado 2026-02-17)",
+      "oe_mantenimiento_usd_mm": 586.2,
+      "derivacion_mantenimiento": "754,8 - 168,6 = 586,2",
+      "oe_capex_total_usd_mm": 468.9,
+      "derivacion_capex_total": "754,8 - 285,9 = 468,9",
+      "oe_mantenimiento_por_accion_usd": 8.33,
+      "oe_capex_total_por_accion_usd": 6.66,
+      "advertencia": "El CFO de 754,8 M lleva dentro +108,1 M de 'otros activos y pasivos'. Normalizado a la media de 2023-2024 esa linea aportaria ~14 M, es decir el OE de mantenimiento normalizado seria ~492 M y el de capex total ~375 M. Se reporta la cifra del filing sin retocar, con el ajuste declarado aqui."
+    },
+    "base_en_curso": {
+      "ejercicio": "FY2026, con 1T26 y 2T26 publicados mas la guia del 8-K del 2026-07-23",
+      "guia_ventas_usd_mm": "3.345 - 3.380 (punto medio 3.362,5), +8,8% a +10,0% reportado y +10,0% a +11,0% organico",
+      "guia_eps_ajustado_diluido_usd": "8,85 - 9,05",
+      "guia_eps_reportado_diluido_usd": "9,01 - 9,26 (incluye 0,54-0,59 USD de ganancia por la venta de SmartDose 3.5mL a AbbVie)",
+      "guia_capex_usd_mm": "250 - 275 (punto medio 262,5)",
+      "cfo_2026e_central_usd_mm": 650.0,
+      "cfo_2026e_rango_usd_mm": "520 - 720",
+      "derivacion_cfo_2026e": "SUPUESTO. Dos vias que se promedian con criterio. Via estacional: el 2S aporta historicamente 1,31x-1,53x el 1S (media 1,43x); aplicada al 1S26 real de 213,9 M da un FY26 de ~520 M. Via bottom-up: beneficio neto ajustado ~641 M (8,95 USD x 71,6 mm acciones) + D&A ~185 M + retribucion en acciones ~35 M + otros no-caja ~10 M - variacion de circulante del ejercicio ~-150 M = ~721 M. Se toma 650 M como central porque la via estacional esta sesgada a la baja (el consumo de circulante de -188,9 M del 1S26 es casi todo el del anio y se revierte en parte) y la via bottom-up esta sesgada al alza (asume una reversion que nadie ha guiado).",
+      "depreciacion_2026e_usd_mm": 183.0,
+      "derivacion_depreciacion_2026e": "Depreciacion del 1S26 = 90,3 M (10-Q 2T26), anualizada con el ligero escalon de las plantas nuevas -> ~183 M.",
+      "oe_mantenimiento_usd_mm": 465.0,
+      "derivacion_mantenimiento": "650 - 185 = 465",
+      "oe_capex_total_usd_mm": 387.5,
+      "derivacion_capex_total": "650 - 262,5 = 387,5",
+      "oe_mantenimiento_por_accion_usd": 6.61,
+      "oe_capex_total_por_accion_usd": 5.51,
+      "banda_oe_mantenimiento_usd_mm": "335 - 535",
+      "etiqueta": "INFERENCIA con un SUPUESTO central de flujo de caja explicitado. No es HECHO. Es el hueco mas grande de este expediente."
+    },
+    "distancia_entre_bases": {
+      "oe_mantenimiento": "586,2 auditado -> 465,0 en curso = -20,7%",
+      "oe_capex_total": "468,9 auditado -> 387,5 en curso = -17,4%",
+      "lectura": "La distancia es NEGATIVA y grande en un anio en que las ventas suben un 9-10% y el beneficio por accion ajustado un 21-24%. Eso es informacion sobre el momento del ciclo y sobre la calidad del beneficio, no ruido: el auditado esta inflado por una linea de circulante y el en curso deprimido por otra. La lectura defensible es que la tasa base de owner earnings de mantenimiento de este negocio esta en la horquilla 470-590 M, y que el mercado esta pagando como si estuviera en 1.400 M.",
+      "contraste_beneficio_vs_caja": "Beneficio neto ajustado 2026e ~641 M frente a owner earnings de mantenimiento 2026e ~465 M. La brecha de ~176 M es circulante y capex por encima de la depreciacion. Un inversor que valore WST por EPS ajustado esta pagando por 641 M de algo que como propietario le llega en 465 M."
+    }
+  },
+
+  "dcf_inverso": {
+    "metodo": "Que crecimiento constante de owner earnings durante 10 anios, con crecimiento terminal del 3,0% y descuento al WACC de mercado del 9,93%, hace que el valor presente iguale EXACTAMENTE el enterprise value de hoy (23.079 M USD). Es el numero que hay que contrastar contra la tasa base del negocio, no contra la esperanza.",
+    "g_implicita_base_auditada_mantenimiento_pct": 16.11,
+    "g_implicita_base_auditada_capex_total_pct": 19.15,
+    "g_implicita_base_en_curso_mantenimiento_pct": 19.26,
+    "g_implicita_base_en_curso_capex_total_pct": 21.75,
+    "prueba_de_robustez": "Aunque se use la base MAS BENEVOLA posible que el filing permite defender -el beneficio neto ajustado guiado de 641 M, ignorando por completo el problema de circulante y tratando todo el capex por encima de la depreciacion como discrecional- la g implicita sigue siendo del 14,9% anual durante diez anios. La conclusion no depende de la eleccion de base.",
+    "tasa_base_contra_la_que_se_contrasta": {
+      "ventas_2023_a_2025_cagr_pct": 2.1,
+      "ventas_2021_a_2026e_cagr_pct": 3.5,
+      "ebit_2023_a_2025_variacion_pct": -13.5,
+      "detalle": "Ventas 2.949,8 (2023) -> 2.893,2 (2024) -> 3.074,1 (2025): 2,1% anual. Beneficio operativo 676,0 (2023) -> 569,9 (2024) -> 584,9 (2025): -13,5% en dos anios. Es decir, el capital invertido crecio mientras el beneficio operativo se encogia. HECHO, 10-K FY2025.",
+      "mejor_lectura_alcista": "El 1S26 rompe esa serie: ventas +17,3% reportado y +13,9% organico, margen operativo reportado 20,7% vs 17,8%, Biologics +27,6% organico en el semestre, GLP-1 y Annex 1 como motores citados por la direccion. Es un anio bueno de verdad. Pero un anio bueno no es una decada al 16-19%."
+    },
+    "lectura": "El mercado esta pidiendo a un negocio que ha crecido al 2,1% anual en ventas durante los dos ultimos anios cerrados, y cuyo beneficio operativo CAYO un 13,5% en ese periodo, que componga sus owner earnings al 16,1% anual durante diez anios seguidos y luego al 3% para siempre. Esa es la apuesta que se compra a 331,25 USD."
+  },
+
+  "g_defendible": {
+    "valor_pct": 4.0,
+    "banda_pct": "2,6% - 5,9%",
+    "principio": "g = tasa de reinversion x ROIIC EX-MARGEN. Se usa el ex-margen (7,6%) y NO el bruto (7,0% - en este caso el bruto es incluso menor), porque usar cualquiera de los dos asumiendo que la expansion de margen se repite es contarse un cuento.",
+    "derivacion_via_A_reinversion_bruta": "Reinversion bruta = 11,7% de las ventas = 359,7 M sobre las ventas de 2025. NOPAT 2025 = 466,7 M. Tasa de reinversion sobre NOPAT = 77,1%. g = 0,771 x 7,6% = 5,86%.",
+    "derivacion_via_B_reinversion_neta": "Reinversion NETA (capex - depreciacion + circulante) = 285,9 - 168,6 + ~46 = ~160 M. Sobre NOPAT de 466,7 M = 34,3%. g = 0,343 x 7,6% = 2,61%.",
+    "eleccion": "4,0%, punto medio ligeramente escorado a la baja. La via A supone que TODO el capex bruto genera retorno incremental, lo que contradice frontalmente que el capital ya instalado rinda solo un 18,0% de ROIC en su mejor anio no-COVID. La via B ignora que las plantas de Irlanda y Alemania acaban de arrancar y aun no maduran. El punto medio simple es 4,25%; se toma 4,0% por el candado adversarial: una etiqueta MENOS_5_6 no admite generosidad en el supuesto que mas mueve el resultado.",
+    "verificacion_contra_la_serie": "4,0% es COHERENTE con la tasa base observada: 2,1% de crecimiento de ventas 2023-2025 y 3,5% 2021-2026e, mas una pizca de apalancamiento operativo. Y es GENEROSO respecto del beneficio operativo, que directamente cayo.",
+    "advertencia_capital": "La g defendible del 4,0% se sostiene sobre un ROIIC ex-margen del 7,6% que esta 2,3 puntos POR DEBAJO del WACC de mercado del 9,93%. Traducido: cada dolar que West reinvierte en su pista de crecimiento destruye aproximadamente 23 centavos de valor. Un negocio asi no debe valorarse como compounder; debe valorarse como una franquicia excelente que no deberia estar reinvirtiendo tanto. El eslabon mas debil que declaro la fase de calidad -el capital, no el foso- es exactamente lo que aparece en la valoracion."
+  },
+
+  "valoracion": {
+    "valor_por_accion_base_auditada_usd": 137,
+    "valor_por_accion_base_en_curso_usd": 109,
+    "valor_por_accion_central_ponderado_usd": 123,
+    "ponderacion": "50% base auditada (es la que tiene opinion de auditor) y 50% base en curso (es la que refleja el circulante real de hoy). Las dos estan sesgadas en direcciones opuestas y declaradas.",
+    "piso_de_resolucion": "Sin medicion propia del ruido se aplica mas menos 25%. Ninguna cifra de valor intrinseco se reporta con decimales: seria precision falsa.",
+    "banda_valor_intrinseco_usd": "92 - 154 (central 123)",
+    "banda_valor_base_auditada_usd": "103 - 171",
+    "banda_valor_base_en_curso_usd": "82 - 136",
+    "mos_base_auditada_pct": -142.6,
+    "mos_base_en_curso_pct": -203.9,
+    "mos_central_ponderado_pct": -169.3,
+    "mos_exigido_pct": 40,
+    "veredicto_mos": "SUSPENSO ROTUNDO. Se exige un 40% de margen de seguridad para abrir; el margen es de -143% sobre la base auditada y -204% sobre la base en curso. Ni siquiera el extremo superior de la banda de resolucion (171 USD sobre la base auditada, con WACC benigno del 9,2% y g del 5,5%: 170,6 USD) llega a la mitad del precio de hoy. No hay combinacion razonable de supuestos que salve esto.",
+    "multiplos_de_hoy": {
+      "ev_sobre_oe_mantenimiento_auditado": "39,4x",
+      "ev_sobre_oe_capex_total_auditado": "49,2x",
+      "ev_sobre_oe_mantenimiento_en_curso": "49,6x",
+      "ev_sobre_oe_capex_total_en_curso": "59,6x",
+      "per_trailing": "42,4x (EPS de los ultimos doce meses = 6,79 + 4,07 - 3,05 = 7,81)",
+      "per_sobre_eps_ajustado_guiado_2026": "37,0x"
+    },
+    "matriz_sensibilidad_valor_por_accion": {
+      "base_auditada_oe_mantenimiento_586_2": {
+        "WACC_9_2_pct": {"g_2_5": 137, "g_4_0": 153, "g_5_5": 171},
+        "WACC_9_9_pct": {"g_2_5": 123, "g_4_0": 137, "g_5_5": 152},
+        "WACC_11_3_pct": {"g_2_5": 103, "g_4_0": 114, "g_5_5": 127}
+      },
+      "base_en_curso_oe_mantenimiento_465_0": {
+        "WACC_9_2_pct": {"g_2_5": 109, "g_4_0": 122, "g_5_5": 136},
+        "WACC_9_9_pct": {"g_2_5": 98, "g_4_0": 109, "g_5_5": 122},
+        "WACC_11_3_pct": {"g_2_5": 83, "g_4_0": 91, "g_5_5": 101}
+      }
+    },
+    "lectura_sensibilidad": "Las dieciocho celdas de la matriz caen entre 83 y 171 USD. El precio de hoy es 331,25. El escenario mas favorable concebible -base auditada con su linea de circulante inflada intacta, WACC en el extremo bajo del rango de mercado y g del 5,5%, es decir por encima de mi propia g defendible- deja el valor en 171 USD, un 48% por debajo del precio. La conclusion no es fragil a ningun supuesto."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 16,
+    "definicion_m_estrella": "Multiplo de EV sobre owner earnings de MANTENIMIENTO que se acepta pagar. Decidido en frio, sin barra de error, porque no es una estimacion sino una eleccion.",
+    "justificacion_m_estrella": "Con un WACC de mercado del 9,93%, una g defendible del 4,0% durante diez anios y terminal del 3,0%, el multiplo que sale del propio descuento es 16,0x. No se toma de comparables ni de la mediana del sector. Es lo que vale un flujo con esa forma a ese coste de capital. Para calibrar: una franquicia cuyo ROIIC ex-margen (7,6%) esta POR DEBAJO de su coste de capital (9,9%) no merece prima de compounder, porque su crecimiento resta en lugar de sumar; 16x es ya una concesion generosa al foso, que si es real.",
+    "precio_a_m_estrella_base_auditada_usd": 137,
+    "precio_a_m_estrella_base_en_curso_usd": 109,
+    "p_estrella_usd": 82,
+    "derivacion_p_estrella": "Se toma el valor de la base AUDITADA (la mas favorable de las dos y la unica con opinion de auditor): 16,0x x 586,2 M = 9.379 M de valor de operaciones; mas la caja neta de 232,9 M = 9.612 M de equity; entre 70,376 mm de acciones = 136,58 USD por accion. Aplicando el 40% de margen de seguridad exigido por la banda MENOS_5_6 para ABRIR: 136,58 x 0,60 = 81,95 -> 82 USD.",
+    "p_estrella_banda_usd": "61 - 102 (mas menos 25% por el piso de resolucion)",
+    "p_estrella_sobre_base_en_curso_usd": 65,
+    "distancia_del_precio_a_p_estrella_pct": -75.2,
+    "traduccion": "Para que WST fuera comprable con la disciplina que le corresponde a su etiqueta, la accion tendria que caer un 75%, de 331,25 a 82 USD. Su minimo de 52 semanas es 223,84. Ni siquiera el peor momento del ultimo anio se acerco. Esto no es una accion que haya que vigilar por si corrige: esta a cuatro veces el precio de entrada."
+  },
+
+  "tir_esperada": {
+    "metodo": "Tasa interna de retorno que iguala el precio de hoy (331,25 USD, capitalizacion 23.312 M) al valor presente de los owner earnings creciendo a la g indicada durante diez anios mas terminal al 3,0%, sumada la caja neta. Incorpora ya la convergencia del multiplo al valor intrinseco: no es una TIR que suponga que el multiplo de hoy se mantiene.",
+    "base_auditada_mantenimiento": "g 2,5% -> +5,50% anual | g 4,0% -> +5,85% anual | g 5,5% -> +6,23% anual",
+    "base_auditada_capex_total": "g 2,5% -> +5,00% | g 4,0% -> +5,29% | g 5,5% -> +5,60%",
+    "base_en_curso_mantenimiento": "g 2,5% -> +4,98% | g 4,0% -> +5,27% | g 5,5% -> +5,58%",
+    "base_en_curso_capex_total": "g 2,5% -> +4,65% | g 4,0% -> +4,89% | g 5,5% -> +5,16%",
+    "rango": "+4,7% a +6,2% anual durante 10 anios",
+    "central": "+5,3% anual durante 10 anios",
+    "lectura": "Este es el numero que hay que mirar, no el margen de seguridad de -169%. Comprando WST hoy a 331,25 USD, y suponiendo que el negocio se comporta segun la banda de g defendible, se cobra entre un 4,7% y un 6,2% anual durante una decada. El bono del Tesoro a 10 anios paga hoy un 4,64% sin riesgo. Es decir: entre 6 y 158 puntos basicos de prima por asumir el riesgo de renta variable de una empresa cuyo motor de reinversion rinde por debajo de su propio coste de capital. Y esa TIR EXIGE que el negocio crezca al 4% anual y que el multiplo converja ordenadamente. Si el mercado reprecia hacia el valor intrinseco en un plazo corto en lugar de en diez anios, la perdida es del 50-67%."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "Una trampa de valor es un margen de seguridad grande sobre un negocio cuyo motor se esta rompiendo. Aqui no hay margen de seguridad de ningun signo positivo: la accion cotiza al 270% de su valor intrinseco central. No se puede caer en una trampa que no esta puesta.",
+    "riesgo_contrario_declarado": "El riesgo de esta posicion es el OPUESTO y es el que hay que nombrar: sobreprecio extremo sobre un motor que no compone. El foso esta documentado y no se discute -el cierre elastomerico escrito en el expediente NDA o BLA es un mecanismo de fijacion de precio real, probado en 2008 y en 2024 subiendo precio con el volumen hundiendose-. Lo que no funciona es la conversion de ese foso en capital compuesto: ROIIC ex-margen del 7,6% contra un WACC del 9,9%. Un foso que no compone es una renta, no un compounder, y las rentas se valoran a 15-16x, no a 40-50x.",
+    "sospecha_registrada": "Se registra una sospecha SEPARADA sobre la calidad del beneficio: cuentas por cobrar +24,0% con ventas +17,3% en el semestre, flujo operativo -30% con beneficio neto +32%, un incidente de ciberseguridad en mayo de 2026 sin cuantificar en el filing, y un capex en retirada del 12,3% al 7,8% de las ventas. Ninguna de las cuatro es en si misma una bandera roja; las cuatro juntas en el mismo semestre merecen un gate de seguimiento en el 3T26 sobre la conversion de caja."
+  },
+
+  "veredicto": {
+    "decision": "NO COMPRAR. No abrir posicion. No vigilar por correccion: la distancia es demasiado grande para que una correccion normal la cierre.",
+    "una_linea": "West vende un componente insustituible por decreto regulatorio y cobra por ello, pero el mercado paga hoy 39-50 veces los owner earnings de mantenimiento y descuenta un 16-19% de crecimiento anual durante diez anios a un negocio que crecio un 2,1% anual en ventas entre 2023 y 2025, cuyo beneficio operativo cayo un 13,5% en ese mismo periodo, y cuyo ROIIC ex-margen del 7,6% esta por debajo de su propio coste de capital del 9,9%: el foso es real, la maquina de componerlo no lo es, y el precio esta puesto como si lo fuera.",
+    "que_haria_cambiar_esto": [
+      "Un precio de 82 USD o menos (banda 61-102). Es decir, una caida del 75%.",
+      "Evidencia de que el ROIIC ex-margen sube de forma sostenida por encima del WACC de mercado: tres anios consecutivos de ROIC por encima del 25% SIN el viento de cola del COVID, con capex/ventas por encima del 10%. Eso reclasificaria el motor, no la etiqueta.",
+      "Una conversion de caja restaurada: flujo operativo del FY2026 por encima de 700 M con las cuentas por cobrar creciendo por debajo de las ventas."
+    ],
+    "que_NO_cambia_esto": [
+      "Que suban la guia otra vez. Ya la subieron el 23-jul-2026 y la accion cayo un 15% en dos sesiones.",
+      "Que el margen operativo del 1S26 sea espectacular (20,7% vs 17,8%). Un semestre no es una decada al 16%.",
+      "Que GLP-1 y Annex 1 sean motores reales. Lo son. Estan dentro del 13,9% de crecimiento organico del 1S26 y aun asi el precio descuenta 16-19%.",
+      "Que la direccion recompre acciones. Recompro 454,3 M a un precio medio de 258,03 USD; el precio de hoy esta un 28% por encima de lo que ellos mismos pagaron."
+    ]
+  },
+
+  "huecos_declarados": [
+    "CFO FY2026e = 650 M USD es un SUPUESTO propio, no un HECHO ni una guia de la compania. West no guia flujo de caja operativo. La banda 520-720 M es amplia y de ella depende directamente el owner earnings de la base en curso (335-535 M de mantenimiento). Es el hueco mas grande de este expediente. Mitigacion: la conclusion es identica sobre la base AUDITADA, que si es un HECHO.",
+    "BETA de 1,16 es INFERENCIA, no HECHO. Procede de Yahoo Finance (5 anios mensual, consultada el 2026-07-28) con comprobacion cruzada contra stockanalysis (1,15) y una tercera fuente (1,18). No se ejecuto la regresion propia. Mitigacion: la matriz de sensibilidad recorre betas de 1,05 a 1,30 y ninguna celda cambia el veredicto.",
+    "ERP de Damodaran (4,42% implicita EEUU al 1-jul-2026, 4,20% de mercado maduro tras netear el diferencial Aa1) llega via resumen de busqueda web, no del cuaderno original ni del SSRN. INFERENCIA.",
+    "TASA LIBRE DE RIESGO de 4,64% procede de busqueda web con referencia a la H.15 de la Fed del 27-jul-2026 y a FRED DGS10, pero no se descargo la serie oficial (la peticion a home.treasury.gov agoto el tiempo de espera). Una fuente daba 4,63%. INFERENCIA, con un error maximo de 1 punto basico.",
+    "PRIMA PAIS INCREMENTAL de 0,20% es una derivacion propia a partir del reparto de activos de larga duracion del 10-K FY2025 (EEUU 44,4%, Europa desarrollada 43,7%, Otros 11,8%), no una fila leida de la tabla de paises de Damodaran. INFERENCIA.",
+    "DEFINICION DEL ROIIC EX-MARGEN del 7,6% congelado: no me consta si se calculo sobre capital incremental BRUTO o NETO de depreciacion. De esa definicion depende que la g defendible sea 2,61% o 5,86%; tome 4,0% como punto medio escorado a la baja. Si la fase de calidad puede precisar la definicion, la banda se estrecha. La direccion del veredicto no cambia en ninguno de los dos extremos.",
+    "VENTA DE SMARTDOSE 3.5mL A ABBVIE: el acuerdo esta anunciado y la ganancia guiada (0,54-0,59 USD por accion), pero el 10-Q 2T26 no desglosa la contraprestacion en efectivo ni la fecha de cierre. No entra en los owner earnings porque es una desinversion, no una operacion recurrente; se menciona porque explica la diferencia entre EPS reportado y ajustado en la guia.",
+    "INCIDENTE DE CIBERSEGURIDAD DE MAYO DE 2026: aparece en el 8-K de resultados solo como partida no asignada de honorarios profesionales dentro de 'Other'. Su efecto sobre facturacion, cobro y por tanto sobre el salto de cuentas por cobrar del 1S26 NO esta cuantificado en ningun filing consultado. Es una explicacion PLAUSIBLE del deterioro de circulante, no una explicacion documentada.",
+    "COSTE DE DEUDA: los 7,45% derivados del filing (15,1 M de intereses incurridos sobre 202,7 M de deuda media) mezclan comisiones de disponibilidad de un revolver de 500 M sin disponer con el interes contractual real, que es 4,66% ponderado. Se uso el 7,45% por disciplina del candado. Con un peso de deuda del 0,86% el efecto sobre el WACC es inferior a 3 puntos basicos.",
+    "El 8-K de resultados del 2T26 es el balance CONDENSADO. Las cifras de caja, deuda y patrimonio a 30-jun-2026 no llevan opinion de auditor (son cifras de 10-Q, revisadas no auditadas). El unico ejercicio auditado es FY2025."
+  ],
+
+  "fuentes_primarias_usadas": [
+    "10-K FY2025 de West Pharmaceutical Services, presentado el 2026-02-17, accession 0000105770-26-000010, documento wst-20251231.htm (SEC EDGAR, CIK 0000105770)",
+    "10-Q 2T26, presentado el 2026-07-23, accession 0000105770-26-000099, documento wst-20260630.htm",
+    "8-K del 2026-07-23, accession 0000105770-26-000097, exhibit 99.1 exh991q22026earningsrelease.htm (resultados y guia del 2T26)",
+    "XBRL companyfacts de la SEC, CIK0000105770 (https://data.sec.gov/api/xbrl/companyfacts/CIK0000105770.json)",
+    "MCP IBKR: barras diarias y snapshot de WST (contract_id 13909, NYSE), cierre del 2026-07-27"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+ "ticker": "CTAS",
+ "name": "Cintas Corporation",
+ "currency": "USD",
+ "price_verified": 169.45,
+ "price_source": "StockAnalysis.com close 2026-06-22 ($169.45); cross-checked vs Yahoo/CNBC recent intraday ~$170.51. NASDAQ:CTAS, all figures split-adjusted for the 4:1 split (Sep 2024).",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.402,
+ "implied_mcap_b_usd": 68.12,
+ "mcap_sanity_ok": true,
+ "sanity_notes": "Implied mcap = 169.45 x 0.402B = $68.1B, matching reported $67.8B (StockAnalysis) and $68.35B (Yahoo). Diluted weighted shares Q3 FY26 = 404.7M; shares outstanding ~400M after ongoing buybacks; 0.402B used. All three DCF scenarios ($65-97) and iv_multiple ($177) fall within the 30-300% magnitude band of the $169.45 price, so no units/currency/shares error. USD throughout (US-domiciled, NASDAQ-listed). Reconciled IV ~$137 sits ~19% BELOW price: CTAS is a top-tier compounder but, even after a 25% drawdown, still trades at ~32x fwd P/E (PEG 2.87) — quality is not in question, the price is. The DCF anchor is structurally harsh here because owner-FCF/share ($4.05) runs below EPS (~$4.40) due to growth capex + working capital, and a 9.5% WACC under-credits decades of reinvestment at ~27% ROIC — hence the multiple anchor is weighted 0.60.",
+ "wacc_pct": 9.5,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.05,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF (FY2025) = reported FCF $1.757B - 100% SBC $0.128B = $1.629B; per diluted share = $4.05. SBC very low at 1.24% of revenue / 7.3% of FCF, so the SBC haircut is immaterial.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 65.35,
+   "prob": 0.38,
+   "note": "Owner-FCF growth 6% yrs1-5 gliding to 2.5% terminal; WACC 9.5%. Pesimista razonable: organic growth decelerates toward ~mid-single-digit as US uniform/facility-services penetration matures; no margin collapse. EV - $2.73B net debt over 0.402B shares."
+  },
+  "base": {
+   "iv_per_share": 80.65,
+   "prob": 0.47,
+   "note": "Growth 8.5% yrs1-5 (in line with FY26 guidance +8.5%) gliding to 3.0% terminal; WACC 9.5%. Continued share gains + cross-sell (first aid/fire/uniform) + bolt-on M&A and steady margin expansion."
+  },
+  "optimista": {
+   "iv_per_share": 96.98,
+   "prob": 0.15,
+   "note": "Growth 10.5% yrs1-5 gliding to 3.5% terminal; WACC 9.5%. Sustained low-double-digit compounding via SmartTruck/route density, pricing, and tech-driven margin gains."
+  }
+ },
+ "iv_dcf_weighted": 77.29,
+ "multiple_metric": "P/E adelantado (sobre adj EPS)",
+ "fwd_multiple_now": 32.29,
+ "fwd_multiple_5y_avg": 37.56,
+ "fair_multiple": 33,
+ "multiple_rationale": "Fair multiple anchored to the 5y avg fwd P/E of 37.56x with a ~12% haircut to 33x. The haircut is NOT for structural deterioration (none — fundamentals are accelerating: Q3 FY26 organic +8.2%, record 51% gross margin, raised guidance) but reflects (a) the 5y average is inflated by the 2024 bubble peak of ~53x, and (b) a higher-rate regime (Rf 4.3%) durably compresses fair multiples for premium compounders. 33x ~ current 32.3x, signaling the stock is fairly-to-richly priced rather than re-rating-cheap. Applied to FY2027 fwd adj EPS of ~$5.37 (FY26 mid $4.88 grown ~10%).",
+ "iv_multiple": 177.14,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 137.2,
+ "structural_change": "Ninguno negativo — el negocio se fortalece. CTAS es un compounder estable y probado (facility services / uniformes, ROIC ~27%, crecimiento organico ~8%, SBC minimo, apalancamiento bajo ND/EBITDA ~0.97x). La caida del ~25% desde maximos es compresion de multiplo (de ~53x fwd en 2024 a ~32x) por rotacion/miedo, NO deterioro operativo. Por ser compounder estable y probado se pondera mas el ancla de multiplo (0.60) que el DCF (0.40), que infra-credita decadas de reinversion a ROIC alto."
+}

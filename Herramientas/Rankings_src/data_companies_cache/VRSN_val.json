@@ -1,0 +1,48 @@
+{
+ "ticker": "VRSN",
+ "name": "Verisign, Inc.",
+ "currency": "USD",
+ "price_verified": 247.69,
+ "price_source": "StockAnalysis.com (VRSN overview page), close Jun 22 2026 — confirmed against verified JSON; the $264.64 seen in some search snippets is the stale Jun 18 close before the -6.4% drop on Jun 22",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.0911,
+ "implied_mcap_b_usd": 22.57,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 8.5,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.85,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF = FY2025 reported FCF $1,068M − 100% SBC $70M = $998M (~$10.95/share on 91.12M diluted shares). Very low SBC (~4.2% of revenue / ~6.8% of FCF) makes the haircut small. Capex is minimal (~$23M), so FCF quality is exceptionally high.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 190.44,
+   "prob": 0.38,
+   "note": "Fase1 g=4.0% (.com base growth modest, price increases partly offset by unit softness), Fase2 declina a ~3%, terminal g=2.5%. Pesimista razonable: desaceleracion del registro pero franquicia intacta, NO apocaliptico."
+  },
+  "base": {
+   "iv_per_share": 223.53,
+   "prob": 0.47,
+   "note": "Fase1 g=5.5% (subidas contractuales de precio .com +base de dominios estable a record 176M), Fase2 declina a 4%, terminal g=3.0%. Coherente con guia FY2026 y crecimiento historico ~6%."
+  },
+  "optimista": {
+   "iv_per_share": 272.63,
+   "prob": 0.15,
+   "note": "Fase1 g=7.5% (reaceleracion de dominios + pricing power pleno tras subida a $10.97 en nov-2026), Fase2 declina a 5.5%, terminal g=3.5%."
+  }
+ },
+ "iv_dcf_weighted": 218.32,
+ "multiple_metric": "P/E adelantado (GAAP/adj EPS, base sobre la que esta calculada la media 5a)",
+ "fwd_multiple_now": 25.51,
+ "fwd_multiple_5y_avg": 29,
+ "fair_multiple": 27,
+ "multiple_rationale": "Ancla a la media 5a fwd P/E ~29 con haircut a 27 (~-7%). NO hay deterioro estructural (monopolio legal de .com/.net, margen FCF ~64%, subidas de precio contractuales, capex minimo, SBC baja). El haircut refleja que la media 5a incorpora un periodo de mayor crecimiento y tipos mas bajos; el crecimiento secular actual (~5-6%) es algo menor y Rf es mas alto. fwd EPS implicito = 247.69/25.51 = $9.71; iv_multiple = 27 x 9.71 = $262.",
+ "iv_multiple": 262.17,
+ "weight_dcf": 0.35,
+ "weight_multiple": 0.65,
+ "reconciled_iv": 246.82,
+ "structural_change": "Ninguno negativo. La tesis estructural sigue intacta: registro monopolico de .com/.net bajo contrato con ICANN/Dept. de Comercio, pricing power contractual (tarifa mayorista .com sube $10.26 -> $10.97 efectivo 1-nov-2026), margenes y FCF de los mejores del mercado. Unico cambio relevante: desaceleracion gradual del crecimiento de la base de dominios respecto a la decada pasada (ahora ~3-6% de crecimiento de ingresos), de ahi el modesto haircut de multiplo. La caida ~20% desde maximos es rotacion/sentimiento (fear_rotation), no deterioro fundamental.",
+ "sanity_notes": "Sanity de magnitud OK: precio $247.69 x 91.12M acc = $22.57B mcap, coincide con escala conocida (StockAnalysis/Yahoo/CNBC). IV/precio = 1.00x, dentro de la banda 0.3-3.0x; sin error de acciones/moneda/unidades (todo en USD). Discrepancia de precio resuelta: $264.64 era el cierre del 18-jun (pre-caida); el cierre verificado del 22-jun es $247.69 (-6.4% en el dia). Owner FCF $998M tras restar 100% SBC. Deuda neta +$1.23B (NO caja neta) restada del EV en el DCF. reconciled_iv $246.82 ~ precio actual => VRSN cotiza esencialmente a valor justo; calidad excepcional pero ya descontada tras el -12% de descuento vs su propia media de P/E. ROIC reportado >100% / equity negativo por recompras (no significativo economicamente), no usado en valoracion."
+}

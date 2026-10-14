@@ -1,0 +1,42 @@
+{
+ "ticker": "LRCX",
+ "currency": "USD",
+ "current_price": 409.54,
+ "name": "Lam Research Corporation",
+ "wacc_pct": 11.05,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.35,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base ~$6.29B = FY2026e FCF ~$6.73B (rev ~$23.2B x ~29% FCF margin) menos 100% de SBC ~$0.44B (~1.9% de ingresos). Cross-check TTM: FCF $6,005M − SBC $377M = $5,628M owner FCF. SBC de LRCX es muy baja (1.86% rev / 6.3% FCF), por lo que el ajuste de owner earnings apenas reduce el flujo (~7%).",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 13,
+  "rev_cagr_y6_10_pct": 9,
+  "fcf_margin_terminal_pct": 29,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC restada como gasto en efectivo (owner earnings). SBC baja: ~1.9% ingresos / ~6.3% FCF, impacto ~7% sobre el flujo base.",
+  "shares_diluted_b": 1.251,
+  "net_debt_usd_b": -1.02
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 79.19,
+   "prob": 0.375,
+   "note": "WFE ciclico que se normaliza tras el pico AI: Fase 1 CAGR owner-FCF 7%, Fase 2 declina 7%->3%, g terminal 2.5%. Margen FCF estable ~28-29%. Refleja una corrección del super-ciclo de memoria/HBM y digestión de capex."
+  },
+  "base": {
+   "iv_per_share": 118.03,
+   "prob": 0.475,
+   "note": "Consistente con un track record normalizado (no extrapola el +24% reciente): Fase 1 CAGR owner-FCF 13%, Fase 2 declina 13%->5%, g terminal 3.0%. Liderazgo en etch/deposition y advanced packaging, foso ancho, ROIC ~48%, caja neta."
+  },
+  "optimista": {
+   "iv_per_share": 187.29,
+   "prob": 0.15,
+   "note": "Super-ciclo WFE sostenido por AI/HBM, gate-all-around y backside power: Fase 1 CAGR owner-FCF 20%, Fase 2 declina 20%->7%, g terminal 3.5%. Ejecución perfecta y expansión de margen."
+  }
+ },
+ "sanity_check": "VI ponderada ~$114 vs precio $409.54: el DCF de owner earnings implica una SOBREVALORACION de ~72% incluso ponderando escenarios. Coherente con los multiplos: P/E adelantado 51.8x (media 5a ~24x, prima ~+116%), P/owner-FCF ~81x, rendimiento owner-FCF apenas 1.23%. Para justificar $409 con esta estructura se necesitaria un CAGR de owner-FCF cercano al ~35% durante una decada, muy por encima del track record normalizado de un negocio CICLICO de bienes de capital. Contraste de retorno total al accionista (no DDM): yield de dividendo ~0.5-0.7% + recompra (autorizacion de $10B, ~2% del market cap/ano) => shareholder yield ~2.5-3%, insuficiente para cerrar la brecha de valoracion. LRCX es un negocio de altisima calidad (foso, caja neta, ROIC ~48%) pero el precio descuenta una continuacion perfecta del ciclo AI/WFE. Clasificacion del dato: not_depressed (en/cerca de maximo historico, +352% en 52 semanas).",
+ "method_notes": "DCF de owner earnings a 10 anios. Base owner FCF ~$6.29B (FY2026e FCF ~$6.73B menos 100% SBC ~$0.44B). Dos fases: Fase 1 (a1-5) CAGR explicito; Fase 2 (a6-10) CAGR declinante linealmente hacia normalizacion; valor terminal Gordon con g segun escenario. Descuento al WACC=11.05% (Rf 4.3% UST10Y + ERP 5.0% x beta 1.35 del sector semicap/WFE; sin ajuste geopolitico — LRCX es domicilio EE.UU., aunque expuesta a controles de exportacion a China). VI/accion = (PV flujos + PV valor terminal − deuda neta) / acciones diluidas; deuda neta = −$1.02B (caja neta, se SUMA). Acciones diluidas 1.251B (market cap $512.16B / precio $409.54). Inputs verificados de FASE 2 (LRCX.json): FY2025 rev $18,436M, FCF $5,414M (margen 29.4%), TTM FCF $6,005M / SBC $377M, guia FY2026 rev ~$23.2B (+26%), EPS consenso $5.68. Sin busqueda web adicional (datos suficientes en el JSON). Limitacion: LRCX es ciclico; un DCF lineal suaviza la volatilidad del ciclo WFE — los escenarios capturan el rango via distintos CAGR. Probabilidades suman 1.0 (0.375 + 0.475 + 0.15)."
+}

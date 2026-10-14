@@ -1,0 +1,97 @@
+{
+ "ticker": "PGHN.SW",
+ "name": "Partners Group Holding AG",
+ "asof_date": "2026-06-22",
+ "currency": "CHF",
+ "price": 669.6,
+ "market_cap_usd_b": 22,
+ "fwd_pe": 12.5,
+ "fwd_pe_5y_avg": 24,
+ "pe_prem_disc_pct": -48,
+ "peg": null,
+ "last_q": {
+  "period": "H2 2025 (company reports semi-annually)",
+  "revenue": "CHF ~1,395m (H2 implied = FY 2,563m - H1 1,168m)",
+  "rev_yoy_pct": null,
+  "op_margin_pct": 62.8,
+  "eps_gaap": "~CHF 25.7 (H2 implied)"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended 31 Dec 2025)",
+  "revenue": "CHF 2,563m (+20% YoY)",
+  "organic_growth_pct": 20,
+  "roic_pct": 55,
+  "fcf": "Strong; ~CHF 3.7bn available liquidity; surplus FCF funded buybacks/dividend (exact FCF not disclosed)",
+  "fcf_margin_pct": null
+ },
+ "guidance_fy": "FY2026 (PROYECCION): USD 26-32bn gross new client demand. Performance fees expected in LOWER part of 25-40% of revenue range due to pull-forward of certain perf fees from 2026 into 2025. Estimated tail-down USD -10 to -13bn. Consensus 2026 EPS ~CHF 53.55.",
+ "sbc_pct_revenue": null,
+ "sbc_pct_fcf": null,
+ "net_debt_usd_b": -4.5,
+ "nd_ebitda": -2.5,
+ "net_cash": true,
+ "pct_off_52w_high": -42.2,
+ "pct_off_ath": -59.8,
+ "drop_classification": "mixed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.roic_pct",
+  "last_q.op_margin_pct",
+  "guidance_fy",
+  "currency"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "last_q.revenue",
+  "last_q.eps_gaap",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct"
+ ],
+ "sources": [
+  {
+   "label": "Partners Group FY2025 results press release (double-digit growth in 2025) — PRIMARY/IR",
+   "url": "https://www.partnersgroup.com/en/news-and-views/press-releases/corporate-news/detail?news_id=675a461a-0455-4d91-a598-3cd510d6d777",
+   "date": "2026-03-10"
+  },
+  {
+   "label": "EQS-News ad-hoc: EBITDA +19% to CHF 1.61bn, dividend CHF 46.00 (FY2025) — PRIMARY ad-hoc",
+   "url": "https://www.eqs-news.com/news/ad-hoc/partners-groups-operating-profit-ebitda-increases-19-to-chf-1-61-billion-also-supported-by-stronger-performance-fees-proposed-dividend-of-chf-46-00-per-share/792e711b-c32e-443d-964f-45626cb1e0cf_en",
+   "date": "2026-03-10"
+  },
+  {
+   "label": "TradingView/EQS: Partners Group H1 2025 results (mgmt fees, perf fees, EBITDA margin)",
+   "url": "https://www.tradingview.com/news/eqs:0978ce668094b:0-partners-group-reports-h1-results-management-fees-in-line-with-aum-growth-and-increased-performance-fee-guidance-for-full-year/",
+   "date": "2025-09-09"
+  },
+  {
+   "label": "Investing.com: Partners Group 2025 slides, record AuM, stock reaction & EPS miss/2026 guidance",
+   "url": "https://www.investing.com/news/company-news/partners-group-2025-slides-record-aum-growth-stock-plunges-37-93CH-4560220",
+   "date": "2026-03-10"
+  },
+  {
+   "label": "StockAnalysis.com: PGHN price, market cap, P/E, fwd P/E, 52w high/low, dividend, evergreen fund withdrawal cap",
+   "url": "https://stockanalysis.com/quote/SWX/PGHN/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Simply Wall St: PGHN valuation, 2026 consensus EPS ~CHF 53.55, analyst price targets",
+   "url": "https://simplywall.st/stocks/ch/diversified-financials/vtx-pghn/partners-group-holding-shares",
+   "date": "2026-06-15"
+  }
+ ],
+ "notes": "PRECIO/VALORACION: 669.60 CHF (22-jun-2026), prácticamente en mínimo de 52s (668.80). Máximo 52s=1,158 CHF (off -42.2%). ATH=1,667 CHF (nov-2021), off ~-59.8%. Market cap ~17.6bn CHF ≈ ~22bn USD (~26.2m acciones). Fwd P/E ~12.5x sobre consenso 2026 EPS CHF~53.55; P/E trailing ~14 (EPS 2025 GAAP ~CHF 47-48). Media fwd P/E 5a ESTIMADA ~22-25x → descuento ~-48%. PEG no calculado (null).\n\nFY2025 VERIFICADO (IR/ad-hoc): Ingresos CHF 2,563m (+20%); mgmt fees 1,744m; perf fees 819m (=32% ingresos, +60%); EBITDA 1,611m (margen 62.8%, +19%); beneficio neto 1,261m (+12%); ROE 55%; dividendo CHF 46.00 (+10%); AuM USD 185bn (+21%). NOTA: la compañía cambió su métrica de EBIT a EBITDA en 2025; op_margin_pct=margen EBITDA. last_q es H2 implícito (reporta semestral, no trimestral).\n\nBALANCE: Caja neta. ~CHF 3.7bn liquidez disponible, rating A-/A3. net_debt_usd_b≈-4.5 y nd_ebitda≈-2.5 ESTIMADOS (deuda exacta no extraída). net_cash=true.\n\nSBC: NO obtenido en timebox — share-based comp no extraído del Annual Report 2025 PDF. CRITICO para R9: pendiente. Contexto: PG asigna hasta 40% de perf fees a empleados; personnel expense +25% en H1 2025. sbc_pct_revenue/sbc_pct_fcf=null (consultar Annual Report 2025 en IR).\n\nDROP=MIXED: Caída ~37% intradía tras FY2025 (10-mar-2026), ~-42% desde máximo 52s. Drivers: (1) miss de EPS vs consenso; (2) GUIA explícita de perf fees 2026 en parte BAJA del rango por pull-forward 2026→2025 = viento en contra REAL de earnings 2026; (3) compresión margen/coste (net profit +12% vs revenue +20%); (4) tope de reembolsos en fondo PE evergreen USD 8.6bn = riesgo estructural/liquidez emergente. PERO operativa robusta (AuM +21%, ingresos +20%, EBITDA +19%, ROE 55%), franquicia intacta. Mezcla de fear/rotation + headwind real de earnings 2026 + riesgo evergreen = MIXED. incomplete=false (núcleo verificado; sólo SBC pendiente)."
+}

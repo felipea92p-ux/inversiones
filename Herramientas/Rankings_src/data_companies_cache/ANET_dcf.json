@@ -1,0 +1,42 @@
+{
+ "ticker": "ANET",
+ "currency": "USD",
+ "current_price": 174.56,
+ "name": "Arista Networks, Inc.",
+ "wacc_pct": 10.55,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.25,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = $3.847B. FCF reportado $4.252B − 100% SBC (~$0.405B, 4.5% de ingresos) = $3.847B. Margen owner FCF ~42.7% sobre ingresos FY2025 de $9.006B. Tratamos la SBC integramente como gasto en efectivo (la SBC declarada es 4.5% de ingresos / 7.4-9.5% del FCF; se uso el extremo mas conservador del 4.5% de ingresos).",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 22,
+  "rev_cagr_y6_10_pct": 13,
+  "fcf_margin_terminal_pct": 42,
+  "terminal_g_pct": 3,
+  "shares_diluted_b": 1.2592,
+  "net_debt_usd_b": -12.35,
+  "sbc_treatment": "100% de la SBC restada del FCF (gasto en efectivo). SBC ~$0.405B (4.5% de ingresos FY2025). Margen owner FCF base 42.7%; converge a ~42% en caso base, 38% conservador, 45% optimista."
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 87.6,
+   "prob": 0.38,
+   "note": "Digestion del capex IA: crecimiento de ingresos 16% anios 1-5 declinando de 14% a 5% anios 6-10; margen owner FCF comprime de 42.7% a 38% por presion competitiva (white-box, hyperscalers internalizando) y normalizacion de precios. WACC 10.75% (beta ligeramente mayor). g terminal 3.0%. Owner FCF anio 10 ~$11.3B sobre ~$30B de ingresos. TV = 55% del EV. NO apocaliptico: sigue creciendo doble digito con margenes altos, pero asume que el super-ciclo IA se enfria antes y los hyperscalers concentran poder de negociacion."
+  },
+  "base": {
+   "iv_per_share": 134.87,
+   "prob": 0.47,
+   "note": "Consistente con track record (28.6% organico FY2025, marco FY2026 ~27-28% / $11.5B segun comentario de la direccion, objetivo IA elevado a $3.5B). Crecimiento 22% anios 1-5, declinando de 20% a 7% anios 6-10 hacia normalizacion. Margen owner FCF estable ~42-43% (foso de software EOS, posicion en redes para data centers IA, clientes hyperscaler ancla). WACC 10.55%, g terminal 3.0%. Owner FCF anio 10 ~$19.2B sobre ~$46B de ingresos. TV = 61% del EV."
+  },
+  "optimista": {
+   "iv_per_share": 222.06,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: super-ciclo IA sostenido, ANET captura cuota frente a Nvidia/Cisco en spine-leaf de data centers IA y se expande a campus/enterprise. Crecimiento 28% anios 1-5, declinando de 26% a 10% anios 6-10. Margen owner FCF expande a 45% por apalancamiento operativo y mezcla de software/servicios. WACC 10.30% (menor prima al consolidarse el foso), g terminal 3.5%. Owner FCF anio 10 ~$31.7B sobre ~$70B de ingresos. TV = 68% del EV."
+  }
+ },
+ "sanity_check": "VI ponderada por probabilidad ~$130/accion vs precio $174.56 (sobrevaloracion ~25%). ANET cotiza cerca de maximos historicos (solo -2.9% del maximo de 52 semanas) con P/E fwd ~45x (PEG 2.56) y P/E sobre owner earnings ~57x. Rendimiento owner FCF ~1.75% (FCF reportado ~1.93%) — muy bajo; el precio descuenta un crecimiento sostenido ~25%+. ANET NO paga dividendo y la recompra es modesta (yield de recompra <1%), asi que no aplica un contraste de rendimiento total al accionista material; el retorno depende casi enteramente del crecimiento de owner earnings. Caja neta de $12.35B (~5.6% de la capitalizacion) anade colchon y opcionalidad. Conclusion: negocio QG excepcional (margenes 42%+ owner FCF, caja neta, ROIC altisimo, foso de software EOS en redes IA), pero el precio descuenta una ejecucion entre el caso base y el optimista — margen de seguridad negativo a precio actual.",
+ "method_notes": "DCF de owner earnings a 10 anios en dos fases. Base FY2025 (terminado 31-dic-2025) verificada del IR de Arista: ingresos $9.006B, FCF $4.252B (margen 47.2%), SBC 4.5% de ingresos. Owner FCF = FCF − 100% SBC = $3.847B (margen 42.7%). Fase 1 (anios 1-5): CAGR de ingresos explicito por escenario sobre margen owner FCF estabilizado. Fase 2 (anios 6-10): CAGR declinante linealmente hacia normalizacion. Valor terminal por Gordon sobre owner FCF del ano 10 con g=3.0-3.5% (foso elevado justifica el extremo alto en optimista). WACC = Rf 4.3% (UST 10Y) + ERP 5.0% × beta 1.25 = 10.55% en base (ajustado ±0.20-0.25% por escenario via beta; sin ajuste geopolitico, empresa estadounidense). Acciones diluidas ~1.2592B (implicitas de capitalizacion $219.81B / precio $174.56, ya ajustadas por el split 4:1 de fin de 2025). Deuda neta −$12.35B (caja neta) sumada al EV para llegar a equity. TV alto (55-68% del EV) por el largo periodo de crecimiento; sensibilidad alta a g y WACC dada la duracion. Inputs de FASE 2 (VERIFICADOS/ESTIMADOS); no se realizo busqueda web adicional por estar todos presentes."
+}

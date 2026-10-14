@@ -1,0 +1,59 @@
+{
+ "ticker": "PGHN.SW",
+ "name": "Partners Group Holding AG",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Gestora asset-light de mercados privados: margen EBITDA 62.8% y ROE 55% muestran apalancamiento operativo, pero los fees escalan con AuM/headcount (no software/red), por lo que base 1.0, no 2.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Mercados privados es ganador secular multidecada (rotacion institucional + wealth/retail), evidenciado por AuM USD 185bn +21% y demanda bruta de clientes guiada USD 26-32bn."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Pure-play global independiente de primer nivel en mercados privados, pero por detras de Blackstone/Brookfield/Apollo en escala absoluta: lider duradero pero no a anios-luz del segundo."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat fuerte por track record de 25 anos, capital con lock-ups largos, costes de cambio de LPs y marca, pero replicable por mega-peers y parcialmente ciclico en perf fees, no 2.0 irreplicable."
+  },
+  "R5": {
+   "score": 2,
+   "just": "Crecimiento esencialmente 100% organico: ingresos +20%, AuM +21% por flujos netos de clientes y captacion, sin dependencia de M&A."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Muy diversificada por clase de activo (PE, deuda privada, infra, real estate), geografias y base granular de LPs institucionales+wealth sin concentracion en un cliente."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC ~55% muy por encima del WACC con capex bajo (asset-light); FCF fuerte (financio dividendo CHF 46 +10% y buybacks), pero net profit +12% vs ingresos +20% senala fuga de margen y FCF/NI no divulgado."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Balance con caja neta (~CHF 3.7bn liquidez, net debt est. ~USD -4.5bn, rating A-/A3), comodamente dentro del umbral D/EBITDA<2x."
+  },
+  "R9": {
+   "score": 0.5,
+   "just": "SBC no extraida y PG asigna hasta 40% de perf fees a empleados con personnel expense +25% en H1; cap conservador por dato no verificado y potencialmente material (sbc_flag=unknown)."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Skin-in-the-game de socios/fundadores, asignacion de capital disciplinada con buybacks oportunistas y dividendo +10%, sin M&A destructora, aunque el pull-forward agresivo de perf fees 2025 erosiona confianza en disclosure."
+  }
+ },
+ "amplification": false,
+ "amplification_note": "No hay amplificacion: R1 queda en base 1.0 (escala con AuM/headcount, no software/red), por lo que el trio R1+R3+R4 no se refuerza de forma monstruosa; el moat es fuerte pero replicable por mega-peers (Blackstone/Brookfield/Apollo) y el liderazgo R3 es duradero pero no a anios-luz del segundo.",
+ "moat_type": "intangibles + costes de cambio",
+ "moat_one_line": "Track record de 25 anos en mercados privados, capital con lock-ups largos y costes de cambio de los LPs generan management fees recurrentes y pegajosos que componen con el AuM.",
+ "thesis_3lines": [
+  "Calidad: gestora asset-light de mercados privados, margen EBITDA 62.8%, ROE 55%, caja neta (A-/A3) y crecimiento 100% organico (ingresos +20%, AuM +21%).",
+  "Motor: cambio secular hacia activos privados (demanda bruta guiada USD 26-32bn) sobre franquicia global diversificada con capital de lock-ups largos que genera fees de gestion recurrentes.",
+  "Valoracion: fwd P/E ~12.5x vs media 5a ~22-25x (descuento ~-48%) tras caer ~-42% por headwind REAL de perf fees 2026 y riesgo del tope de reembolsos evergreen USD 8.6bn."
+ ],
+ "bear_case_strongest": "El descuento de -48% puede ser trampa de valor: el pull-forward de perf fees 2026->2025 implica caida REAL de beneficios en 2026, los perf fees (32% de ingresos) son ciclicos y dependen de realizaciones de mercado, y el tope de reembolsos del fondo evergreen de USD 8.6bn senala estres estructural de liquidez en la pata retail justo cuando la captacion futura descansa en el canal wealth.",
+ "sbc_flag": "unknown",
+ "ethical_flag": "none",
+ "notes": "Re-score FASE 2. Suma ponderada = 14.5 (R1 1.0 + R2 1.5 + R3 1.5 + R4 1.5 + R5 2.0 + R6 1.5 + R7 1.5 + R8 1.5 + R9 0.5 + R10 1.5); el techo 13.5 asume R9 pleno. R9 es el unico capador: SBC no verificada (sbc_pct_fcf=null), PG asigna hasta 40% de perf fees a empleados y personnel expense +25% H1 2025. ACCION PRIORITARIA: extraer SBC del Annual Report 2025 (IR) para confirmar si R9 sube a 1.0-1.5 o cae a 0.0. Calidad operativa intacta; el debate central es valoracion-trampa (headwind earnings 2026 + ciclicidad perf fees + riesgo evergreen) vs descuento -48% sobre franquicia secular."
+}

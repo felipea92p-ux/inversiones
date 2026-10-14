@@ -1,0 +1,284 @@
+{
+  "ticker": "MSCI",
+  "empresa": "MSCI Inc.",
+  "cik": "0001408198",
+  "fecha_analisis": "2026-07-27",
+  "divisa": "USD",
+  "etiqueta_calidad_congelada": "MENOS_5_6 (3 de 5 puertas pasadas)",
+  "nota_congelacion": "La etiqueta viene congelada del eje de comprension. El valorador NO la toca ni la reclasifica hacia arriba. Nada de lo que aparece aqui abajo —ni el precio, ni el multiplo, ni la calidad del flujo de caja— es motivo para reabrir la clasificacion. G5 (reforzado), G1 y G6 aprobadas; G3 suspendida por elasticidad medida en contra; G4 suspendida por ausencia de cicatriz (2008-09: I+D -7,0%, capex -47,5%, margen +259 pb); G2 la clasifica como maquina de caja, no reinvertidora.",
+  "especie": "G2 — reinversion 21,3% de ventas · ROIIC bruto 22,1% · ROIIC ex-margen 24,1%",
+  "mecanismo_heredado": "Dueña de la vara de medir del dinero institucional: estandar acorralado cuyo coste de cambio no lo paga el emisor sino el participe final. Eslabon debil: no puede cobrar su propio estandar — precio realizado a la baja en 8 de 9 trimestres medidos (2,50 -> 2,28 pb) y compromiso escrito el 27-ene-2026 de renovar a su mayor cliente con tarifa rebajada, con un segundo recorte programado para el 1-ene-2027.",
+
+  "posicion_en_cartera": {
+    "si": false,
+    "verificacion": "HECHO — get_account_positions IBKR, 2026-07-27. La cartera contiene ADBE, AMZN, AXP, BKNG, BRK.B, DUOL, GOOGL, INTU, MA, MELI, MSFT, NFLX, NVDA, SPGI, SPOT, TSM, V, VEEV. MSCI no figura.",
+    "decision_aplicable": "ABRIR",
+    "nota": "Ojo al detalle relevante: SPGI SI esta en cartera (12 acciones). El comprador de MSCI hoy estaria doblando exposicion al mismo peaje —el de los datos y los indices que arbitran el dinero institucional— no diversificando."
+  },
+
+  "precio": {
+    "precio_usd": 570.95,
+    "fuente": "HECHO — snapshot en vivo IBKR (contract_id 47101335, NYSE), ultima operacion 2026-07-27 15:59:57 ET (19:59:57 UTC), es decir el cierre efectivo de hoy. Cierre de la sesion anterior 571.03.",
+    "cotiza_en": "NYSE, USD. No hay ADS, no hay conversion de divisa, no hay ajuste de acciones por ADS que hacer.",
+    "rango_52s": { "max": 644.67, "min": 499.23, "apertura_hace_52s": 540.93, "fuente": "HECHO — misc_statistics IBKR 2026-07-27" },
+    "variacion_ytd_pct": -0.1,
+    "contexto": "MSCI hizo maximo en 644,67 y minimo en 499,23 en los ultimos doce meses; hoy cotiza en el 49% de ese rango. Lleva doce meses yendo a ninguna parte (-0,1% en el anio) mientras el negocio crecia el 13% en ingresos. El mercado ya ha empezado a descontar algo — pero, como se vera abajo, no lo suficiente."
+  },
+
+  "acciones": {
+    "en_circulacion_millones": 72.7,
+    "fecha": "2026-07-14",
+    "fuente": "HECHO — portada del 10-Q Q2 2026 (accession 0001408198-26-000046, msci-20260630.htm), 'Entity Common Stock, Shares Outstanding' a 14-jul-2026",
+    "diluidas_ponderadas_fy2025": 76636000,
+    "diluidas_ponderadas_q2_2026": 72900000,
+    "nota_recompra": "HECHO — MSCI recompro 264.043 acciones a un precio medio de 557,66 USD entre el inicio del Q2 2026 y el 20-jul-2026 (8-K 21-jul-2026). En el H1 2026 gasto 583,2 M en recompra (10-Q). Las acciones han caido de 79,8 M diluidas (FY2023) a 72,9 M (Q2 2026): -8,6% en dos anios y medio. Esto es real y es la mitad del crecimiento del BPA.",
+    "precision": "La portada redondea a 0,1 M. La capitalizacion tiene por tanto una barra de error de +-29 M USD por redondeo, irrelevante frente al resto."
+  },
+
+  "capitalizacion_y_ev_usd_mm": {
+    "capitalizacion": 41508,
+    "deuda_principal": 6425,
+    "deuda_carrying": 6380.4,
+    "detalle_deuda": "HECHO — 10-Q Q2 2026: principal 6.425 M (6.000 M en notas senior no garantizadas + 475 M dispuestos del revolver), menos 49,6 M de comisiones de originacion no amortizadas = 6.380,4 M de valor contable al 30-jun-2026.",
+    "deuda_valor_mercado": 6232,
+    "metodo_valor_mercado_deuda": "INFERENCIA — al 31-dic-2025 el 10-K declara valor razonable 6.057,9 M sobre un carrying de 6.202,1 M (97,67%). Aplico ese mismo factor al carrying del 30-jun-2026. La deuda de MSCI cotiza por debajo del par porque el grueso son cupones de 3,625%-4,000% emitidos en el ciclo barato, contra un 10 anios al 4,65% hoy.",
+    "efectivo_y_equivalentes": 356.4,
+    "deuda_neta": 5876,
+    "ev": 47384,
+    "nota_arrendamientos": "Pasivo por arrendamiento operativo no corriente 138,9 M al 30-jun-2026 (HECHO, 10-Q), con activos por derecho de uso de 141,5 M. No incluido en la deuda, siguiendo la convencion del sistema. Incluirlo subiria el EV un 0,3%: irrelevante.",
+    "nota_apalancamiento": "AVISO — la deuda ha pasado de 4.510,8 M (31-dic-2024) a 6.380,4 M (30-jun-2026): +41% en dieciocho meses. No financio ninguna adquisicion transformadora: financio recompra de acciones. El gasto financiero de la guia FY2026 (282-286 M) es un 35% superior al de FY2025 (209,9 M) contra un crecimiento del flujo de caja operativo guiado de solo el 5,8%. Este es el hecho financiero mas importante del anio y no aparece en ningun titular.",
+    "patrimonio_neto": -2689.5,
+    "nota_patrimonio": "HECHO — fondos propios de -2.689,5 M al 30-jun-2026. Capital tangible negativo, coherente con el mecanismo heredado. Para valorar esto el ROE no sirve de nada; solo sirve el flujo."
+  },
+
+  "candado_b_wacc_de_mercado": {
+    "principio": "El WACC sale del mercado, jamas de un tier de calidad. Ninguna cifra de esta seccion se ha heredado de la etiqueta MENOS_5_6 ni de ninguna otra clasificacion.",
+
+    "tasa_libre_riesgo_pct": 4.65,
+    "tasa_libre_riesgo_fuente": "HECHO — U.S. Treasury, Daily Treasury Par Yield Curve Rates, bono a 10 anios, 27-jul-2026: 4,65%. Descargado de home.treasury.gov el 2026-07-27. Media de las ultimas 22 sesiones: 4,55% (min 4,38 / max 4,71). Moneda funcional de MSCI = USD, luego el soberano correcto es el estadounidense.",
+
+    "beta": 1.10,
+    "beta_fuente": "HECHO (medicion propia, reproducible) — regresion OLS de 262 rendimientos SEMANALES de MSCI contra SPY, precios IBKR del 2021-07-30 al 2026-07-27, descargados hoy. Resultados por ventana: 5 anios = 1,201 (R2 0,404); 3 anios = 0,874 (R2 0,244); 2 anios = 0,857 (R2 0,246); 1 anio = 0,934 (R2 0,136). Blume-ajustada a 5 anios = 1,134. Volatilidad anualizada de MSCI 30,6% frente al 16,2% del SPY.",
+    "beta_metodo_central": "INFERENCIA — fijo la central en 1,10, entre la ventana larga ajustada (1,13) y las cortas (0,86-0,93), inclinandome a la larga porque estoy descontando flujos a diez anios y MSCI es un activo de duracion larga: en 2022 cayo un 40% con el ciclo de tipos, y esa es exactamente la sensibilidad que un WACC a diez anios debe capturar.",
+    "beta_hueco": "HUECO DECLARADO — no cito una beta de un tercero (Bloomberg, Barra, MSCI Barra irony included) porque no tengo acceso verificable a ninguna en esta sesion. La dispersion entre ventanas (0,86 a 1,20) es de 34 centesimas y mueve el WACC 1,6 puntos: es, con diferencia, la mayor fuente de ruido de todo este expediente.",
+
+    "prima_mercado_pct": 4.23,
+    "prima_mercado_fuente": "HECHO — Damodaran, ctryprem.xlsx, hoja 'ERPs by country', fecha de actualizacion 1-ene-2026 (ratings soberanos actualizados el 16-feb-2026). Prima de mercado maduro 4,23%; prima de EEUU 4,46% (EEUU ya no es Aaa: Aa1, con 0,233% de prima pais propia).",
+
+    "prima_pais_pct": 0.761,
+    "prima_pais_metodo": "INFERENCIA — prima del riesgo de ACTIVO, no del domicilio fiscal. MSCI factura en 2025 (HECHO, 10-K nota de segmentos, R83): EEUU 1.267,4 M (40,4%), otros Americas 140,7 M (4,5%), Reino Unido 543,5 M (17,3%), otros EMEA 698,5 M (22,3%), Japon 127,6 M (4,1%), otros Asia y Australia 356,8 M (11,4%). Aplicando las primas totales de Damodaran por pais/region (EEUU 4,460%; Americas resto 6,350% como mezcla mitad Canada mitad Latinoamerica; Reino Unido 5,006%; Europa Occidental 5,267%; Japon 5,143%; Asia 5,722%) sale una prima total ponderada del 4,991%, de la cual 4,23 es prima madura y 0,761 es prima pais agregada.",
+    "prima_pais_hueco": "HUECO DECLARADO — el 10-K no desglosa 'otros Americas', 'otros EMEA' ni 'otros Asia y Australia' por pais. Los pesos dentro de esos tres cubos (38% de los ingresos) son SUPUESTO mio. Un supuesto mas duro (todo 'otros Asia' a India, todo 'otros Americas' a Latinoamerica) subiria la prima ponderada al 5,15% y el WACC unos 16 pb: no cambia ninguna conclusion.",
+    "prima_total_ponderada_pct": 4.991,
+
+    "coste_deuda_pct": 4.45,
+    "coste_deuda_metodo": "HECHO/INFERENCIA — gasto financiero real sobre deuda media. H1 2026: 140,1 M de intereses (10-Q) sobre una deuda media de 6.291,4 M (6.202,3 a 31-dic-2025 y 6.380,4 a 30-jun-2026), anualizado = 4,45%. Contraste: FY2025 dio 209,9 / 5.356,5 = 3,92%, pero esa cifra esta contaminada porque la deuda subio en el ultimo trimestre del anio. La guia FY2026 (282-286 M sobre ~6,4 mil M) confirma el 4,45%.",
+    "coste_deuda_marginal_pct": 5.25,
+    "coste_deuda_nota": "El coste MARGINAL hoy es sensiblemente mayor: la emision de ago-2025 a vencimiento 2035 lleva cupon del 5,250% y el revolver esta al 5,10% (HECHO, notas de deuda del 10-K y del 10-Q). El 4,45% es el coste MEDIO de una escalera de cupones baratos que ira venciendo. Uso el marginal en el extremo alto del rango de WACC.",
+
+    "tasa_impositiva_pct": 19.0,
+    "tasa_impositiva_fuente": "HECHO — guia FY2026 del 8-K de 21-jul-2026: tipo efectivo del 18,0% al 20,0%, excluyendo el efecto de la reestructuracion societaria interna. Uso el punto medio. FY2025 real: 291,951 / 1.494,256 = 19,54%.",
+
+    "coste_equity_pct": 10.14,
+    "ponderacion": "A valor de mercado: equity 41.508 M (86,95%), deuda 6.232 M (13,05%). MSCI tiene un apalancamiento tres veces y media superior al de Mastercard en peso de mercado, y eso importa: el 13% del capital le cuesta un 3,6% despues de impuestos, lo cual le rebaja el WACC — pero a costa de un gasto financiero que crece al 35% anual.",
+    "wacc_pct": 9.29,
+    "wacc_rango": "8,3% - 9,8%",
+    "wacc_rango_metodo": "Extremo bajo: beta 0,86 (ventana de 2-3 anios) con coste de deuda medio => Ke 8,94% => WACC 8,25%. Extremo alto: beta 1,20 (ventana de 5 anios sin ajustar) con coste de deuda marginal del 5,25% => Ke 10,64% => WACC 9,81%. El punto central 9,29% no es un compromiso perezoso: es el que sale de la beta que defiendo (1,10) con el coste de deuda que la empresa realmente esta pagando hoy."
+  },
+
+  "owner_earnings": {
+    "principio": "Dos versiones obligatorias sobre dos bases. (a) resta solo el capex de MANTENIMIENTO, aproximado por la depreciacion; el exceso sobre la depreciacion es inversion discrecional y NO se resta. (b) resta TODO el capex. Esto es lo que impide penalizar a una reinvertidora por reinvertir.",
+    "nota_metodologica_msci": "En MSCI el capex tiene dos patas: inmovilizado material (39,3 M en FY2025) y software desarrollado internamente y capitalizado (90,5 M). La amortizacion que les corresponde tambien son dos: depreciacion de inmovilizado (23,4 M) y amortizacion del software capitalizado (78,9 M). La amortizacion de intangibles ADQUIRIDOS (90,6 M en FY2025) NO entra en el proxy de mantenimiento: corresponde a compras de empresas, no a mantener la maquina en marcha. El desglose es HECHO: 10-K nota de goodwill e intangibles, R61.",
+
+    "base_auditada": {
+      "ejercicio": "FY2025",
+      "fuente": "HECHO — 10-K presentado el 2026-02-06, accession 0001408198-26-000011",
+      "ingresos_usd_mm": 3134.459,
+      "resultado_explotacion_usd_mm": 1713.567,
+      "margen_explotacion_pct": 54.7,
+      "beneficio_neto_usd_mm": 1202.305,
+      "flujo_caja_operativo_usd_mm": 1588.446,
+      "depreciacion_inmovilizado_usd_mm": 23.405,
+      "amortizacion_software_capitalizado_usd_mm": 78.874,
+      "amortizacion_intangibles_adquiridos_usd_mm": 90.606,
+      "proxy_capex_mantenimiento_usd_mm": 102.279,
+      "capex_inmovilizado_usd_mm": 39.319,
+      "capex_software_capitalizado_usd_mm": 90.542,
+      "capex_total_usd_mm": 129.861,
+      "oe_mantenimiento_usd_mm": 1486,
+      "oe_capex_total_usd_mm": 1459,
+      "observacion_clave": "La distancia entre las dos versiones es de 28 M sobre 1.480 M: un 1,9%. En MSCI la pregunta de si castigar o no la inversion discrecional es casi irrelevante en la base auditada — el negocio no consume capital. Consume gasto corriente (I+D 177,6 M pasa entera por la cuenta de resultados) y ahi si hay una decision de reinversion, pero no es capex."
+    },
+
+    "base_en_curso": {
+      "ejercicio": "FY2026E",
+      "trimestres_publicados": "Q1 y Q2 2026 (10-Q del 2026-07-21). H1 completo disponible.",
+      "h1_2026_hechos": {
+        "ingresos_usd_mm": 1717.8,
+        "crecimiento_ingresos_pct": 13.1,
+        "resultado_explotacion_usd_mm": 944.4,
+        "margen_explotacion_pct": 55.0,
+        "beneficio_neto_usd_mm": 748.0,
+        "bpa_diluido_usd": 10.23,
+        "bpa_ajustado_usd": 9.49,
+        "flujo_caja_operativo_usd_mm": 677.6,
+        "capex_inmovilizado_usd_mm": 13.8,
+        "capex_software_usd_mm": 59.4,
+        "depreciacion_inmovilizado_usd_mm": 12.1,
+        "amortizacion_intangibles_total_usd_mm": 85.7,
+        "amortizacion_intangibles_adquiridos_usd_mm": 40.5,
+        "amortizacion_software_capitalizado_usd_mm": 45.2,
+        "gasto_financiero_usd_mm": 140.1,
+        "tasa_retencion_pct": 95.3,
+        "crecimiento_organico_run_rate_suscripcion_pct": 8.1,
+        "crecimiento_comisiones_sobre_activos_pct": 26.6
+      },
+      "guia_oficial_fy2026": {
+        "fuente": "HECHO — 8-K de 21-jul-2026, exhibit 99.1, tabla 'Full-Year 2026 Guidance' (guia ACTUALIZADA al alza respecto de la del trimestre anterior)",
+        "gasto_operativo_usd_mm": "1.535 - 1.575",
+        "gasto_financiero_usd_mm": "282 - 286",
+        "depreciacion_y_amortizacion_usd_mm": "195 - 205",
+        "tipo_efectivo_pct": "18,0 - 20,0",
+        "capex_usd_mm": "160 - 170",
+        "flujo_caja_operativo_usd_mm": "1.655 - 1.705",
+        "flujo_caja_libre_usd_mm": "1.485 - 1.545",
+        "supuesto_declarado_por_la_empresa": "La guia asume que la adquisicion de First Street cierra en el tercer trimestre de 2026, sujeta a aprobaciones regulatorias."
+      },
+      "flujo_caja_operativo_usd_mm": 1680,
+      "capex_total_usd_mm": 165,
+      "proxy_capex_mantenimiento_usd_mm": 119,
+      "detalle_proxy_mantenimiento": "INFERENCIA — depreciacion de inmovilizado FY2026E ~25 M (H1 12,1 M x 2,07) mas amortizacion de software capitalizado FY2026E ~94 M (H1 45,2 M x 2,08). La guia solo publica el D&A TOTAL (195-205 M), que incluye la amortizacion de intangibles adquiridos.",
+      "oe_mantenimiento_usd_mm": 1561,
+      "oe_capex_total_usd_mm": 1515,
+      "metodo": "Uso la GUIA OFICIAL de flujo de caja, no una anualizacion del beneficio. Esto es deliberado: el beneficio neto del H1 2026 (748 M, +26,3%) esta contaminado por un beneficio fiscal NO RECURRENTE de 88 M reconocido en el Q1 por una reestructuracion societaria interna (HECHO, nota 2 de la guia del 8-K). El tipo efectivo del H1 fue del 7,3% frente al 16,4% del H1 2025. Anualizar ese beneficio neto habria inflado la base en curso un 8-9% con humo contable. El BPA ajustado (+16,2% en el semestre frente al +34,1% del BPA GAAP) confirma el tamano del artificio.",
+      "nota_estacionalidad": "El flujo de caja operativo de MSCI carga en el segundo semestre: el H1 fue el 40,2% del anio en 2025, el 43,2% en 2024 y el 45,0% en 2023. El H1 2026 (677,6 M) sobre la guia central (1.680 M) implica un 40,3%: exactamente en linea. La guia es creible."
+    },
+
+    "distancia_entre_bases": {
+      "oe_mantenimiento_pct": 5.0,
+      "oe_capex_total_pct": 3.9,
+      "lectura": "Aqui esta la informacion, y no es agradable. Los ingresos crecen al 13,1% y el resultado de explotacion al 17,7%, pero los owner earnings solo crecen entre el 3,9% y el 5,0%. Los diez puntos de diferencia tienen tres nombres y los tres estan documentados: (1) el gasto financiero sube de 209,9 a 284 M, +35%, porque MSCI se endeudo 1.870 M en dieciocho meses para recomprar acciones; (2) el capex salta de 129,9 a 165 M, +27%, por la inversion en IA que la direccion presume en la llamada; (3) el circulante deja de ayudar. Esto no es ruido de un trimestre: es el momento del ciclo de capital de esta empresa. Esta convirtiendo crecimiento operativo en BPA por la via financiera, no en flujo por la via operativa. Funciona mientras el multiplo aguante."
+    },
+
+    "nota_sbc": "HECHO — la retribucion en acciones fue de 111,3 M en FY2025 (10-K) y 73,1 M en el H1 2026, camino de ~150 M en el anio. Es el 7,6% de los owner earnings y va sumada dentro del flujo de caja operativo: ninguna de las dos versiones la resta, siguiendo la convencion del sistema. Si se restara, el OE(b) FY2026E bajaria de 1.515 a ~1.365 M y todos los margenes de seguridad de este expediente empeorarian unos diez puntos. Atenuante real: MSCI recompra mas de lo que emite (acciones diluidas -8,6% en dos anios y medio), asi que el accionista no sufre dilucion; agravante real: la recompra la esta pagando con deuda, no con el exceso de flujo."
+  },
+
+  "dcf_inverso": {
+    "principio": "Para cada base: que crecimiento a diez anios, con terminal del 3%, justifica exactamente el precio de hoy al WACC calculado. Ese numero es el que hay que contrastar contra la tasa base del negocio.",
+    "convencion": "Descuento flujos DESAPALANCADOS (owner earnings + intereses netos despues de impuestos) al WACC, obtengo valor de empresa, resto deuda neta a valor de mercado y divido entre 72,7 M de acciones. Intereses netos despues de impuestos: 156,0 M en FY2025; 221,5 M en FY2026E.",
+    "wacc_usado_pct": 9.29,
+    "terminal_pct": 3.0,
+    "horizonte_anios": 10,
+    "ev_objetivo_usd_mm": 47384,
+    "g_implicita_auditado_mantenimiento_pct": 10.47,
+    "g_implicita_auditado_capex_total_pct": 10.69,
+    "g_implicita_encurso_mantenimiento_pct": 9.39,
+    "g_implicita_encurso_capex_total_pct": 9.73,
+    "lectura": "Comprar MSCI hoy a 570,95 es firmar que sus owner earnings desapalancados crecen entre el 9,4% y el 10,7% anual durante DIEZ anios seguidos y despues al 3% para siempre. Conviene mirar de frente lo que eso significa. En 2026, el mejor anio de crecimiento de ingresos desde 2022, con las comisiones sobre activos disparadas un 26,6% por un mercado alcista, los owner earnings van a crecer un 4-5%. El precio pide que ese 4-5% se convierta en un 9,4-10,7% y se mantenga una decada. No hace falta un modelo para ver el problema: hace falta leer las dos cifras juntas."
+  },
+
+  "g_defendible": {
+    "formula": "tasa de reinversion x ROIIC EX-MARGEN",
+    "reinversion_pct": 21.3,
+    "roiic_ex_margen_pct": 24.1,
+    "roiic_bruto_pct": 22.1,
+    "g_defendible_pct": 5.13,
+    "por_que_ex_margen": "El ROIIC bruto asume que la expansion de margen se repite. En MSCI ese supuesto es especialmente peligroso porque el margen de explotacion ya esta en el 55% y la propia empresa acaba de subir la guia de gasto operativo (de 1.490-1.530 a 1.535-1.575 M) precisamente para 'permitir inversiones adicionales que apoyen el crecimiento futuro'. Curiosidad del caso: aqui el ROIIC ex-margen (24,1%) es MAYOR que el bruto (22,1%), asi que la disciplina no penaliza sino que favorece — y aun asi la g sale en 5,13%.",
+    "contraste_con_la_implicita": "El mercado pide entre 9,4% y 10,7%. Yo defiendo 5,1%. El hueco es de cuatro a cinco puntos y medio de crecimiento anual sostenido durante una decada. Ese hueco es toda la tesis.",
+    "contraste_con_lo_observado": "HONESTIDAD OBLIGADA — el crecimiento organico del run-rate de suscripcion medido en el Q2 2026 es del 8,1% (HECHO, 8-K 21-jul-2026), muy por encima de mi 5,13%. La diferencia se explica porque (i) la formula reinversion x ROIIC ex-margen mide solo el crecimiento organico financiado con capital reinvertido, y deja fuera tanto las adquisiciones (First Street, y 58,8 M gastados en compras en el H1) como el apalancamiento operativo a un mercado alcista via comisiones sobre activos, y (ii) precisamente esas dos palancas son las que no se puede prometer que se repitan diez anios. Doy la cifra generosa como sensibilidad: incluso concediendo un 8% durante una decada, el valor sale en 491 USD y el precio de hoy sigue estando un 16% por encima."
+  },
+
+  "valor_intrinseco": {
+    "con_g_defendible_5_13pct_y_wacc_9_29pct": {
+      "auditado_mantenimiento_usd_accion": 354,
+      "auditado_capex_total_usd_accion": 347,
+      "encurso_mantenimiento_usd_accion": 391,
+      "encurso_capex_total_usd_accion": 379
+    },
+    "piso_de_resolucion": {
+      "regla": "Sin medicion propia del ruido, banda de mas/menos 25%. Nada de decimales falsos en el valor intrinseco.",
+      "banda_encurso_usd_accion": "293 - 489",
+      "banda_auditado_usd_accion": "266 - 443",
+      "lectura_honesta": "Este es el dato limpio del expediente: el precio de hoy (571) esta POR ENCIMA del techo de las dos bandas de resolucion. Un 17% por encima del techo de la base en curso y un 29% por encima del techo de la auditada. No estoy afirmando que el valor sea 391 con precision de tres cifras — estoy afirmando que ni siquiera en el borde mas generoso del ruido llega el valor al precio. Esa afirmacion si sobrevive al piso de resolucion; la otra no."
+    },
+    "sensibilidad_wacc_base_encurso_capex_total": {
+      "wacc_8_25_pct": { "valor_usd_accion": 474, "mos_pct": -20 },
+      "wacc_9_29_pct": { "valor_usd_accion": 379, "mos_pct": -51 },
+      "wacc_9_81_pct": { "valor_usd_accion": 343, "mos_pct": -67 }
+    },
+    "sensibilidad_g_base_encurso_capex_total": {
+      "g_4_0_pct": { "valor_usd_accion": 341, "mos_pct": -67 },
+      "g_5_13_pct": { "valor_usd_accion": 379, "mos_pct": -51 },
+      "g_6_0_pct": { "valor_usd_accion": 410, "mos_pct": -39 },
+      "g_7_0_pct": { "valor_usd_accion": 449, "mos_pct": -27 },
+      "g_8_0_pct": { "valor_usd_accion": 491, "mos_pct": -16 }
+    },
+    "punto_de_indiferencia": "Para que el valor iguale al precio de hoy con la base en curso hacen falta o bien una g del 9,7% durante diez anios al WACC que defiendo, o bien un WACC del 7,3% con la g que defiendo. Lo primero exige duplicar el crecimiento de flujo de una decada; lo segundo exige una beta de 0,55, que ninguna ventana de medicion respalda."
+  },
+
+  "margen_de_seguridad": {
+    "mos_exigido_pct": 40,
+    "mos_exigido_nota": "MSCI NO esta en cartera (verificado en IBKR hoy), luego la decision aplicable es ABRIR y el umbral es el 40% que la banda MENOS_5_6 exige para abrir. No aplica la rebaja de doce puntos, que solo opera sobre posiciones existentes.",
+    "mos_auditado_pct": -61,
+    "mos_encurso_pct": -46,
+    "mos_encurso_capex_total_pct": -51,
+    "veredicto_mos": "NO ABRIR. No hay margen de seguridad: hay prima. Faltan los 40 puntos exigidos y ademas sobran entre 46 y 61 puntos de sobreprecio. El precio tendria que caer un 60% para tocar el umbral de apertura."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 18.0,
+    "m_estrella_definicion": "Multiplo de owner earnings desapalancados (EV/OE) que acepto pagar por este negocio, decidido en frio. Sin barra de error: no es una estimacion, es una decision.",
+    "m_estrella_justificacion": "El modelo, a un WACC del 9,29%, una g del 5,13% durante diez anios y terminal del 3%, escupe 19,3x. Fijo M* en 18,0x, un escalon por debajo, por dos razones concretas y evidenciadas, no por prudencia generica. Primera: el eslabon debil del mecanismo esta activo y fechado — el precio realizado por punto basico cae en ocho de los nueve trimestres medidos y el 27-ene-2026 MSCI firmo por escrito que renueva a su mayor cliente con tarifa rebajada, con un segundo recorte programado para el 1-ene-2027; la linea que mas crece (comisiones sobre activos, +26,6%) es justamente la que el cliente esta consiguiendo repreciar a la baja. Segunda: la estructura de capital ha cambiado de forma material y adversa en dieciocho meses (deuda +41%, gasto financiero +35% frente a flujo operativo +5,8%), lo que significa que una parte del crecimiento del BPA que el mercado esta capitalizando no viene del negocio sino del balance, y esa palanca ya esta casi tirada.",
+    "multiplo_actual_ev_oe_encurso_mantenimiento": 26.6,
+    "multiplo_actual_ev_oe_encurso_capex_total": 27.3,
+    "multiplo_actual_ev_oe_auditado_mantenimiento": 28.9,
+    "per_2026e_ajustado": 29.3,
+    "rentabilidad_flujo_libre_sobre_capitalizacion_pct": 3.65,
+    "precio_implicito_por_m_estrella_usd": 349,
+    "p_estrella_usd": 235,
+    "p_estrella_definicion": "Precio que da el MoS exigido del 40% sobre el valor intrinseco de la base en curso (391 x 0,60 = 235). Sobre la base auditada seria 212.",
+    "distancia_al_precio": "El precio de hoy esta un 143% por encima de P*. MSCI tendria que caer un 59% para llegar al umbral de apertura, y un 39% solo para llegar al precio que implica M* sin ningun margen de seguridad."
+  },
+
+  "tir_esperada": {
+    "rango": "7,2% - 8,6% anual a 10 anios",
+    "detalle": {
+      "auditado_mantenimiento_g5_13": 7.25,
+      "auditado_capex_total_g5_13": 7.18,
+      "encurso_mantenimiento_g5_13": 7.60,
+      "encurso_capex_total_g5_13": 7.48,
+      "encurso_mantenimiento_g6_5": 8.11,
+      "encurso_mantenimiento_g8_0": 8.70
+    },
+    "lectura": "Esta es la frase honesta que sustituye a un margen de seguridad negativo sin contenido. Comprando a 570,95: si MSCI crece al 5,1% durante diez anios y luego al 3%, el comprador se lleva un 7,2%-7,6% anual. Si se le concede un 8% durante toda la decada —mas de lo que crece hoy su run-rate organico— se lleva un 8,7%. En los dos casos por debajo del 9,3% que le cuesta el capital. No es una catastrofe: es una destruccion de valor lenta y educada. El comprador de hoy gana dinero en terminos absolutos y lo pierde en terminos de coste de oportunidad, que es la unica moneda que cuenta."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "Una trampa de valor exige dos cosas a la vez: un descuento aparente y un motor rompiendose. Aqui no hay descuento — hay prima del 46% al 61%. Quien compre MSCI hoy no corre el riesgo de caer en una trampa; corre el riesgo de sobrepagar por un negocio excelente. Son errores distintos y la confusion entre ambos es cara: el primero se corrige vendiendo, el segundo solo se corrige con el tiempo.",
+    "advertencia_del_motor": "SOSPECHA PARCIAL sobre el eslabon debil, y esta si merece vigilancia fechada. Tres hechos convergen. (1) El precio realizado por punto basico cae en ocho de los nueve trimestres medidos (2,50 -> 2,28 pb) y la renovacion firmada el 27-ene-2026 con el mayor emisor de ETF del mundo se paga con tarifa, con un segundo recorte ya programado para el 1-ene-2027: MSCI ya no decide sola el reparto del botin. (2) La tasa de retencion del Q2 2026 es del 95,3%, frente al 95,9% que sostiene el mecanismo congelado: seis decimas menos, dentro del ruido de un trimestre pero en la direccion equivocada. (3) La conversion de crecimiento operativo en flujo se ha deteriorado: ingresos +13,1%, resultado de explotacion +17,7%, owner earnings +4-5%. El foso sigue siendo real; lo que se estrecha es la parte del peaje que se queda MSCI. Gatillo concreto a vigilar: el efecto del recorte del 1-ene-2027 sobre las comisiones sobre activos del Q1 2027, y si la tasa de retencion vuelve al 95,9% o sigue bajando."
+  },
+
+  "monologo_final": "MSCI es dueña de la vara de medir y no puede cobrarla a su precio. Ese es el hecho que ordena todo lo demas, y el precio de hoy lo ignora. El negocio es magnifico —55% de margen de explotacion, capital tangible negativo, caja que llega antes que el beneficio, 95,3% de retencion— y nada de lo que sigue lo discute. Lo que discuto es el precio, que es una pregunta distinta y esta hecha con datos distintos.\n\nEl mercado pide que los owner earnings desapalancados crezcan entre el 9,4% y el 10,7% anual durante diez anios. En 2026, con las comisiones sobre activos subiendo un 26,6% gracias a un mercado alcista y los ingresos creciendo un 13,1%, esos owner earnings van a crecer entre el 3,9% y el 5,0%. Esta es la unica frase de este expediente que importa. La distancia entre ambas cifras no es una diferencia de opinion sobre la calidad de MSCI: es una diferencia de opinion sobre aritmetica.\n\nY hay un segundo hallazgo que no estaba en el mecanismo congelado y que aparece al mirar el balance en lugar del run-rate: en dieciocho meses la deuda ha pasado de 4.511 a 6.380 M y el gasto financiero de 210 a 284 M. Ese dinero no compro nada; recompro acciones. Funciona: el BPA diluido del Q2 sube un 19,6% con un resultado de explotacion que sube un 14,6%. Pero es una palanca de un solo uso y ya esta casi tirada. Una parte de lo que el mercado esta capitalizando a 29 veces beneficio no es crecimiento del negocio: es ingenieria de balance, y esa se capitaliza mucho mas barata.\n\nEl valor intrinseco sale en 379-391 USD por accion con la g que puedo defender, y en 266-489 si le pongo la banda de ruido honesta del 25%. El precio esta en 571: por encima del techo de las dos bandas. Necesito una caida al entorno de 235 para abrir con el 40% que exige su banda. Concediendo lo maximo defendible —un 8% de crecimiento durante una decada entera, mas de lo que crece hoy su run-rate organico— el valor sube a 491 y el precio sigue estando un 16% por arriba.\n\nNo es una trampa de valor porque no hay valor aparente que atrape a nadie: hay prima a plena luz. La TIR esperada del comprador de hoy es del 7,2% al 8,6% anual durante diez anios contra un coste de capital del 9,3%. Eso no arruina a nadie. Simplemente no vale la pena, y el 'simplemente no vale la pena' es la razon por la que se pierden las decadas.\n\nVEREDICTO: NO ABRIR. Vigilar. El precio de entrada esta en 235 USD y el gatillo del negocio esta fechado en el Q1 2027, cuando se vea el efecto del segundo recorte de tarifa.",
+
+  "huecos_declarados": [
+    "BETA — no cito una beta de un tercero (Bloomberg, Barra) porque no tengo acceso verificable en esta sesion. La mia es medicion propia y reproducible sobre 262 semanas de precios IBKR, pero la dispersion entre ventanas (0,86 a 1,20) mueve el WACC 1,6 puntos y es la mayor fuente de ruido del expediente.",
+    "PRIMA PAIS — el 10-K no desglosa por pais los cubos 'otros Americas', 'otros EMEA' y 'otros Asia y Australia', que suman el 38% de los ingresos. Los pesos dentro de esos cubos son SUPUESTO mio. Un supuesto mas duro sube la prima ponderada 16 pb: no cambia ninguna conclusion.",
+    "VALOR DE MERCADO DE LA DEUDA — el 10-Q del Q2 2026 no publica valor razonable. Aplico el factor del 97,67% observado al 31-dic-2025. Error posible de +-150 M sobre un EV de 47.400 M.",
+    "AMORTIZACION DE SOFTWARE FY2026E — los 94 M son INFERENCIA extrapolada del H1 (45,2 M). La guia oficial solo publica D&A total (195-205 M), que incluye intangibles adquiridos. Un error de +-15 M aqui mueve el owner earnings de mantenimiento un 1%.",
+    "FIRST STREET — la guia FY2026 asume que la adquisicion cierra en el Q3 2026, sujeta a aprobaciones regulatorias. Si no cierra, opex, capex y flujo cambian. La propia empresa lo declara.",
+    "RUIDO DEL MODELO — no he medido el ruido propio de este DCF (no hay replicas independientes). Uso la banda por defecto de +-25%. Es una convencion, no una medicion.",
+    "PRECIO REALIZADO POR PUNTO BASICO — la serie 2,50 -> 2,28 pb y el compromiso escrito del 27-ene-2026 vienen del eje de comprension congelado. NO los he re-verificado contra filing en esta sesion. Sostienen el juicio sobre M*, no las cifras del DCF.",
+    "SBC — los 111 M (FY2025) / ~150 M (FY2026E) de retribucion en acciones van sumados dentro del flujo operativo y no se restan en ninguna de las dos versiones, por convencion del sistema. Restarlos empeoraria todos los MoS unos diez puntos. Lo declaro por si la convencion se revisa."
+  ],
+
+  "fuentes": [
+    "SEC EDGAR — 10-K FY2025, MSCI Inc., accession 0001408198-26-000011, presentado 2026-02-06 (cuenta de resultados R5, flujo de caja R9, deuda R49-R50, intangibles R61, geografia R83)",
+    "SEC EDGAR — 10-Q Q2 2026, accession 0001408198-26-000046, presentado 2026-07-21 (balance R2, resultados R4, flujo de caja R8, intangibles R42, deuda R45, portada R1)",
+    "SEC EDGAR — 8-K de 2026-07-21, accession 0001408198-26-000044, exhibit 99.1: nota de resultados del Q2 2026 y guia actualizada para el ejercicio completo 2026",
+    "SEC EDGAR — API XBRL companyfacts CIK0001408198, descargada 2026-07-27",
+    "Interactive Brokers MCP — get_price_snapshot (contract_id 47101335) y get_price_history semanal a 5 anios de MSCI y SPY (contract_id 756733), 2026-07-27",
+    "Interactive Brokers MCP — get_account_positions, 2026-07-27 (verificacion de que MSCI no esta en cartera)",
+    "U.S. Department of the Treasury — Daily Treasury Par Yield Curve Rates, serie 2026 completa, descargada 2026-07-27",
+    "Aswath Damodaran (NYU Stern) — ctryprem.xlsx, actualizacion del 1-ene-2026 con ratings soberanos al 16-feb-2026: primas de riesgo por pais y medias ponderadas regionales"
+  ]
+}

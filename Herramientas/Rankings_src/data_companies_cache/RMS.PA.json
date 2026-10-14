@@ -1,0 +1,105 @@
+{
+ "ticker": "RMS.PA",
+ "name": "Hermès International SCA",
+ "asof_date": "2026-06-22",
+ "currency": "EUR",
+ "price": 1620,
+ "market_cap_usd_b": 207,
+ "fwd_pe": 37.2,
+ "fwd_pe_5y_avg": 46,
+ "pe_prem_disc_pct": -19,
+ "peg": 4.7,
+ "last_q": {
+  "period": "Q1 2026 (3 meses a marzo 2026)",
+  "revenue": "€4.1B (€4,127M aprox.)",
+  "rev_yoy_pct": -1,
+  "op_margin_pct": null,
+  "eps_gaap": "n/d (PR de ingresos Q1 sin EPS)",
+  "eps_adj": "n/d (PR de ingresos Q1 sin EPS)"
+ },
+ "last_fy": {
+  "period": "FY2025 (ano a dic 2025)",
+  "revenue": "€16,002M",
+  "organic_growth_pct": 8.9,
+  "roic_pct": 28,
+  "fcf": "€3,880M (FCF ajustado)",
+  "fcf_margin_pct": 24.2
+ },
+ "sbc_pct_revenue": 0.8,
+ "sbc_pct_fcf": 3.5,
+ "net_debt_usd_b": -14,
+ "nd_ebitda": -1.7,
+ "net_cash": true,
+ "guidance_fy": "Para 2026 el grupo confirma un objetivo ambicioso de crecimiento de ingresos a tipos de cambio constantes (sin cifra numerica concreta; guia cualitativa de medio plazo). PROYECCION de la direccion.",
+ "pct_off_52w_high": -34.7,
+ "pct_off_ath": -45.1,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "price",
+  "currency",
+  "asof_date",
+  "fwd_pe",
+  "last_q.period",
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_fy.period",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "net_cash",
+  "net_debt_usd_b",
+  "guidance_fy",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "last_fy.op_margin_via_recurring_operating_income_41pct"
+ ],
+ "estimated_fields": [
+  "market_cap_usd_b",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.roic_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "nd_ebitda"
+ ],
+ "sources": [
+  {
+   "label": "Hermès Q1 2026 Revenue press release (PDF, fuente primaria IR)",
+   "url": "https://assets-finance.hermes.com/s3fs-public/node/pdf_file/2026-04/1776186951/hermes_20260415_revenue_q1_en.pdf",
+   "date": "2026-04-15"
+  },
+  {
+   "label": "Hermès 2025 Full-Year Results press release (PDF, fuente primaria IR)",
+   "url": "https://assets-finance.hermes.com/s3fs-public/node/pdf_file/2026-02/1770842738/hermes_20260212_pr_2025fullyearresults_va.pdf",
+   "date": "2026-02-12"
+  },
+  {
+   "label": "StockAnalysis.com — RMS quote (precio, market cap, fwd P/E, EPS, 52w range)",
+   "url": "https://stockanalysis.com/quote/epa/RMS/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "CompaniesMarketCap — Hermès stock price history (ATH €2,951 14-feb-2025)",
+   "url": "https://companiesmarketcap.com/hermes-international/stock-price-history/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "ValueInvesting.io — RMS.PA forward P/E",
+   "url": "https://valueinvesting.io/RMS.PA/metric/forward-pe",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "ECB / TradingEconomics EUR/USD ~1.146",
+   "url": "https://tradingeconomics.com/euro-area/currency",
+   "date": "2026-06-21"
+  }
+ ],
+ "notes": "PRECIO/VALORACION: precio €1,620 y market cap €180.47B verificados en StockAnalysis al 22-jun-2026; market_cap_usd_b ≈207 calculado con EUR/USD 1.146 (CompaniesMarketCap mostraba ~$194B en un snapshot anterior con precio distinto). Fwd P/E 37.2 (rango 36.5-37.3 entre agregadores). fwd_pe_5y_avg ~46 es ESTIMADO de mi conocimiento/agregadores (Hermès cotizo historicamente fwd P/E ~40-50 en 5 anos); multiples fuentes confirman que RMS cotiza HOY por DEBAJO de sus medias 3/5/10 anos -> descuento ~-19%. PEG ~4.7 (fwd P/E 37 / crecimiento EPS ~8%).\n\nFY2025 (PRIMARIA, tabla cifras clave): Revenue €16,002M (+8.9% cc / +5.5% current). Recurring operating income €6,569M = margen 41.0% (margen operativo del FY; el esquema last_fy no tiene campo de margen operativo, por eso va en notas). Net profit grupo €4,524M (28.3%; €4,860M ajustado por contribucion excepcional francesa, +5.5%). FCF ajustado €3,880M -> FCF margin 24.2%. Caja neta €12,239M (caja neta reexpresada €12,773M). Dividendo propuesto €18.00/accion. ROIC/ROCE no publicado en el PR -> estimado ~28% (Hermès historicamente >25%).\n\nQ1 2026 (PRIMARIA): Revenue €4.1B, +6% a cc pero -1% a tipos corrientes por impacto FX de -€290M. Crecimiento doble digito en America (+17%), Japon (+10%), Europa ex-Francia (+11%); Oriente Medio -6% por tensiones geopoliticas. Cuero y Marroquineria +9%. El PR de ingresos del Q1 NO incluye margen operativo ni EPS (Hermès solo publica ventas en Q1) -> op_margin_pct/eps nulos.\n\nDEUDA: caja neta -> net_cash=true, net_debt_usd_b ≈ -14.0 (€12.2B caja neta x1.146). nd_ebitda negativo ~-1.7x (EBITDA ~€7.2B, caja neta €12.2B), ESTIMADO.\n\nSBC: Hermès tiene compensacion en acciones MUY baja (planes de acciones gratuitas modestos; predomina retribucion en efectivo/bonos, p.ej. bono €3,000 a empleados). sbc_pct_revenue ~0.8% y sbc_pct_fcf ~3.5% son ESTIMADOS (cifra exacta en el URD 2025, no extraida en vivo). Dilucion practicamente inmaterial -> favorable para R9.\n\nDROP: fear_rotation. La accion cae ~-35% desde maximo 52s (€2,482, jul-2025) y ~-45% desde ATH (~€2,951, feb-2025), PERO el negocio sigue creciendo (FY25 +9% cc, Q1-26 +6% cc, margen 41%, caja neta €12.2B). La caida de ventas a tipos corrientes (-1% Q1) es casi integramente FX (-€290M), no deterioro de demanda. Es un de-rating por miedo/rotacion fuera del lujo y por FX, no deterioro genuino del fundamental."
+}

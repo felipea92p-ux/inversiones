@@ -1,0 +1,42 @@
+{
+ "ticker": "BX",
+ "currency": "USD",
+ "current_price": 123.26,
+ "wacc_pct": 11.55,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.45,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner earnings base = Distributable Earnings (FY2025 ~$7.1B) less 100% of SBC ($1.445B) = ~$5.66B (~$4.60/sh on ~1.23B dil. shares). DE is used as the cash base instead of GAAP operating FCF because, for an alt-manager, GAAP op CF (~$4.55B reported) is distorted by consolidated-fund/CLO timing and working-capital noise and materially understates distributable cash economics. As a strict cross-check, the GAAP-FCF-less-SBC base would be only ~$3.10B and yields a base IV of ~$40 (see method_notes) — treated as an extreme conservative floor, not the working base.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 11,
+  "rev_cagr_y6_10_pct": 7.5,
+  "terminal_g_pct": 3,
+  "fcf_margin_terminal_pct": null,
+  "sbc_treatment": "100% of SBC ($1.445B, 10% of rev / 31.8% of GAAP-FCF) deducted as a cash expense from the Distributable-Earnings owner-earnings base every year. Phase-2 (yrs 6-10) owner-earnings growth declines linearly from ~10% to ~5% in base.",
+  "net_debt_usd_b": 9.8,
+  "shares_diluted_b": 1.23
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 59,
+   "prob": 0.375,
+   "note": "Private-credit redemption/credit-cycle pressure (BCRED outflows), weaker realizations and slower fundraising. Owner-earnings growth 7% (yrs1-5) declining to 3.5% (yr10); terminal g 2.5%. Pessimistic but not apocalyptic — AUM still grows, FRE recurring base intact."
+  },
+  "base": {
+   "iv_per_share": 80,
+   "prob": 0.475,
+   "note": "Consistent with track record: double-digit DE/FRE decelerating. Owner-earnings growth 11% (yrs1-5) declining to 5% (yr10); terminal g 3.0% reflecting wide moat (scale, brand, $1.30T AUM, sticky fee streams). TV ~51% of EV."
+  },
+  "optimista": {
+   "iv_per_share": 107,
+   "prob": 0.15,
+   "note": "Perfect execution: AUM compounds toward ~$2T, infra/AI-data-center/energy/private-credit/insurance tailwinds, strong realization recovery. Growth 15% (yrs1-5) declining to 6.5% (yr10); terminal g 3.5%."
+  }
+ },
+ "sanity_check": "Total shareholder yield contrast (NOT DDM): BX generated ~$5.77 DE/sh in FY2025; at its ~85% distribution policy that is ~$4.90/sh of dividend+buyback, a ~4.0% distribution yield at $123.26 — modest for the implied ~21x forward P/DE multiple, supporting the overvaluation read. Owner-earnings yield (base $4.60/sh / price) is only ~3.7%, below the 11.55% cost of capital, i.e. the market prices in substantial future growth. Cross-check vs multiple: $123.26 = ~21.4x FY2025 DE/sh and ~19.8x fwd earnings (vs ~25x est. 5y avg fwd P/E, a ~21% discount) — so BX is cheap vs its own history but still rich vs an absolute owner-earnings DCF. Prob-weighted IV ~$76 implies ~38% downside to current price; result is robust to beta (base IV ~$90 even at beta 1.30 / WACC 10.8%).",
+ "method_notes": "10-yr two-stage owner-earnings DCF. WACC = Rf 4.3% (UST 10Y) + ERP 5.0% x beta 1.45 = 11.55%; beta 1.45 reflects alt-managers' high market sensitivity (carried-interest/realization cyclicality) partly offset by stable recurring FRE; no geopolitical adjustment (US domicile). Owner FCF = Distributable Earnings less 100% SBC; SBC ($1.445B FY2025, flagged as rising +24% YoY) treated as a cash cost. Phase 1 (yrs1-5) explicit growth; Phase 2 (yrs6-10) growth declines linearly to normalization; Gordon terminal value g=2.5-3.5% by scenario. EV less net debt $9.8B / 1.23B diluted shares. CRITICAL CAVEAT: using GAAP operating FCF (~$4.55B) instead of DE as the base collapses base IV to ~$40 (a 69% downside) — this is a known alt-manager distortion (consolidated-fund/CLO/working-capital noise in GAAP op CF), so DE-less-SBC is the economically appropriate base; the GAAP-FCF version is retained only as an extreme floor. Net debt $9.8B is consolidated (incl. consolidated-fund/CLO items); corporate-only leverage is modest (A+/A-1 rated, ~1.2x), so net-debt drag may be slightly overstated. All scenarios still place IV below the $123.26 price — BX screens overvalued on a disciplined owner-earnings DCF despite trading at a discount to its own historical multiple; the price embeds a strong realization recovery and AUM compounding the DCF does not fully reward at an 11.55% cost of capital.",
+ "name": "Blackstone Inc."
+}

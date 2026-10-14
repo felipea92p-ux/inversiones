@@ -1,0 +1,99 @@
+{
+ "ticker": "CTAS",
+ "name": "Cintas Corporation",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 169.45,
+ "market_cap_usd_b": 67.79,
+ "fwd_pe": 32.29,
+ "fwd_pe_5y_avg": 37.56,
+ "pe_prem_disc_pct": -14,
+ "peg": 2.87,
+ "last_q": {
+  "period": "Q3 FY2026 (ended Feb 28, 2026)",
+  "revenue": "$2.84B",
+  "rev_yoy_pct": 8.9,
+  "op_margin_pct": 23.2,
+  "eps_gaap": "$1.24",
+  "eps_adj": "$1.24"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended May 31, 2025)",
+  "revenue": "$10.34B",
+  "organic_growth_pct": 8,
+  "roic_pct": 26.85,
+  "fcf": "$1.757B",
+  "fcf_margin_pct": 17
+ },
+ "sbc_pct_revenue": 1.24,
+ "sbc_pct_fcf": 7.3,
+ "net_debt_usd_b": 2.73,
+ "nd_ebitda": 0.97,
+ "net_cash": false,
+ "guidance_fy": "FY2026 (ending May 31, 2026): revenue $11.21B-$11.24B (growth 8.4%-8.7%); adjusted diluted EPS $4.86-$4.90 (growth 10.5%-11.4%). Raised at Q3. Assumes ~$101M interest expense, 20.0% tax rate. PROYECCION de la direccion.",
+ "pct_off_52w_high": -25.3,
+ "pct_off_ath": -26.1,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.organic_growth (8.2%)",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "guidance_fy"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "Cintas IR — Fiscal 2026 Third Quarter Results press release (Q3 ended Feb 28, 2026)",
+   "url": "https://www.cintas.com/about/newsroom/details/news/2026/03/25/cintas-corporation-announces-fiscal-2026-third-quarter-results/",
+   "date": "2026-03-25"
+  },
+  {
+   "label": "Cintas IR — Fiscal 2025 Fourth Quarter and Full Year Results press release",
+   "url": "https://www.cintas.com/newsroom/details/news/2025/07/17/cintas-corporation-announces-fiscal-2025-fourth-quarter-and-full-year-results/",
+   "date": "2025-07-17"
+  },
+  {
+   "label": "SEC EDGAR — Cintas FY2025 8-K Exhibit 99 (year ended May 31, 2025)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000029/ex992025-8x31.htm",
+   "date": "2025-07-17"
+  },
+  {
+   "label": "StockAnalysis.com — CTAS quote (price, market cap, fwd P/E, 52w high)",
+   "url": "https://stockanalysis.com/stocks/ctas/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com — CTAS statistics (PEG, ROIC, net debt, ND/EBITDA)",
+   "url": "https://stockanalysis.com/stocks/ctas/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com — CTAS cash flow (FCF, SBC, capex FY2025 & TTM)",
+   "url": "https://stockanalysis.com/stocks/ctas/financials/cash-flow-statement/",
+   "date": "2026-06-22"
+  }
+ ],
+ "notes": "Stock at $169.45 vs 52w high $226.75 and ATH ~$229.24 intraday (Jun 6, 2025). Business fundamentals remain strong: Q3 FY26 organic growth +8.2%, record 51.0% gross margin, operating income +8.2%, EPS +9.7%, and management RAISED FY26 guidance at Q3. The ~25% drawdown is multiple compression from a peak fwd P/E near 53 (Nov 2024) toward ~32 now — i.e. fear/rotation out of a premium-multiple compounder, NOT operating deterioration -> drop_classification=fear_rotation. Fwd P/E 5y avg ~37.5 (gurufocus/valueinvesting range 37.5-40.3); pe_prem_disc_pct approx -14% vs 5y avg (a DISCOUNT to its own history, though still ~32x absolute). PEG 2.87 elevated. Leverage modest at ND/EBITDA ~0.97x; NOT net cash. ROIC ~26.85% (aggregator). FCF margin ~17%. SBC very low: FY25 SBC $128.3M = 1.24% of $10.34B revenue and ~7.3% of $1.757B FCF (favorable for R9). VERIFIED items from Cintas IR/SEC filings; price, valuation multiples, ROIC, net debt, SBC ratios from StockAnalysis.com aggregator = ESTIMADO. Adjusted EPS for Q3 not separately disclosed; GAAP $1.24 used for both (no material non-GAAP add-backs that quarter). FY adjusted EPS guidance $4.86-$4.90."
+}

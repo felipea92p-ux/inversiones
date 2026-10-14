@@ -1,0 +1,48 @@
+{
+ "ticker": "VRTX",
+ "name": "Vertex Pharmaceuticals Incorporated",
+ "currency": "USD",
+ "price_verified": 452.94,
+ "price_source": "Yahoo Finance (cierre 2026-06-22, confirmado por WallStreetZen $451.63 el 18-jun y mcap ~$114.6B). StockAnalysis.com mostraba $466.79 (snapshot mas alto/desfasado), descartado por consenso de 2 fuentes en $452-453.",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.2538,
+ "implied_mcap_b_usd": 114.96,
+ "mcap_sanity_ok": true,
+ "sanity_notes": "Acciones 253,805,417 (0.2538B) confirmadas por StockAnalysis.com y Yahoo. Implied mcap = 452.94 * 0.2538B = $114.96B, coincide con el mcap reportado ~$114.6B (Yahoo/WallStreetZen) -> mcap_sanity_ok. El JSON traia precio $466.79 y mcap $118.5B (StockAnalysis, snapshot mas alto); re-verificado a $452.94 por consenso de 2 fuentes el 22-jun. Caja neta robusta ~+$11.0B (efectivo+valores negociables $13.0B vs deuda ~$2.0B) = ~$43/accion. Todos los IV en USD. IV reconciliado $405.73 = 89.6% del precio, dentro del rango de magnitud 30-300%.",
+ "structural_change": "Transicion de franquicia: VRTX domina la fibrosis quistica (TRIKAFTA/KAFTRIO ~$2.35B/trimestre, ALYFTREK/vanzacaftor en rampa) con caja neta y FCF record, pero entra en fase de diversificacion fuera de FC: CASGEVY (anemia falciforme/beta-talasemia), JOURNAVX/suzetrigine (dolor agudo no opioide, lanzado 2025) e inaxaplin (nefropatia APOL1, en P3). Deterioro estructural REAL leve (no ciclico): concentracion en FC con erosion eventual de exclusividad a largo plazo y dependencia de que los nuevos lanzamientos escalen; justifica un haircut modesto del multiplo justo (24.0x vs media 5a 25.88x), no severo dado el crecimiento +8-9%, margenes operativos ~38% y guia FY2026 reiterada al alza ($12.95-13.10B).",
+ "owner_fcf_base": "Owner FCF FY2025 = FCF reportado $3,194M - 100% SBC $686M = $2,508M (~$9.88/accion). Nota: FY2025 fue un anio de baja conversion de FCF (margen FCF 26.6% vs margen operativo ~38%) por timing de capital de trabajo/impuestos, lo que deprime el ancla DCF; el run-rate normalizado de owner-earnings es mayor, razon por la que se pondera mas el ancla de multiplo.",
+ "wacc_pct": 7.6,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.65,
+  "geo_adj_pct": 0
+ },
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 273.32,
+   "prob": 0.38,
+   "note": "Fase1 g=5%, Fase2 declina a 3.5%, terminal 2.5%. Erosion gradual de FC y lanzamientos no-FC decepcionan parcialmente; pesimista razonable, NO apocaliptico (sigue creciendo)."
+  },
+  "base": {
+   "iv_per_share": 358.14,
+   "prob": 0.47,
+   "note": "Fase1 g=9% (consistente con crecimiento organico actual), Fase2 declina a 6%, terminal 3.0%. JOURNAVX, CASGEVY e inaxaplin contribuyen de forma material."
+  },
+  "optimista": {
+   "iv_per_share": 479.24,
+   "prob": 0.15,
+   "note": "Fase1 g=13%, Fase2 8%, terminal 3.5%. Diversificacion fuera de FC exitosa (dolor, renal, diabetes T1) convierte a VRTX en multi-franquicia."
+  }
+ },
+ "iv_dcf_weighted": 344.07,
+ "multiple_metric": "P/E adelantado (no-GAAP)",
+ "fwd_multiple_now": 23.83,
+ "fwd_multiple_5y_avg": 25.88,
+ "fair_multiple": 24,
+ "multiple_rationale": "Ancla a la media 5a del P/E adelantado (25.88x) con un haircut modesto a 24.0x (~ -7%) por el cambio estructural real (concentracion en FC, transicion a nuevas franquicias aun por probarse a escala). No se aplica haircut mayor dado margenes operativos ~38%, ROIC ~28%, caja neta y guia al alza. EPS adelantado FY proximo ~$19.01 (derivado del fwd P/E 23.83 sobre el precio verificado; consistente con Q1-26 no-GAAP $4.47 anualizado). iv_multiple = 19.01 * 24.0 = $456.17.",
+ "iv_multiple": 456.17,
+ "weight_dcf": 0.45,
+ "weight_multiple": 0.55,
+ "reconciled_iv": 405.73
+}

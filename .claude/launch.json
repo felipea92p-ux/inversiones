@@ -1,0 +1,14 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "cayla-dynamic-web",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "cd /Users/felipealvarez/Proyectos/cayla-dynamic && npx --yes pnpm@latest --filter @cayla-dynamic/web dev"
+      ],
+      "port": 3000
+    }
+  ]
+}

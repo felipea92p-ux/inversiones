@@ -1,0 +1,59 @@
+{
+ "ticker": "8035.T",
+ "name": "Tokyo Electron Limited",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Equipment maker, not pure software/network: op margin ~25.6% FY2026 with operating leverage in upcycles (H1 FY2027 guided op margin 27.5% on +33% sales), but margins are tied to WFE volume cycles, not a zero-marginal-cost scalable model, so no 2.0."
+  },
+  "R2": {
+   "score": 2,
+   "just": "Semiconductor WFE is a structural secular grower (AI, advanced logic <2nm, HBM/DRAM, advanced packaging); TEL targets >=JPY 3T net sales, a clear multi-decade demand tailwind."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Sustained global #1/#2 in deposition and etch and a near-monopoly (~90%) in coater/developer track, leaving rivals years behind in that segment — monstrous, irreplicable dominance."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Deep moat from process-recipe intangibles, co-development lock-in with TSMC/Samsung/Intel and huge switching costs once tools are qualified in a fab; durable but shared with ASML/AMAT/LAM in adjacent steps, so not a sole-source 2.0."
+  },
+  "R5": {
+   "score": 1,
+   "just": "Growth is fully organic (R&D/capex-driven, not M&A roll-up) which is high quality, but FY2026 organic growth was only +0.5% and the engine is cyclical, capping the score at base."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Multi-geography (Japan, Taiwan, Korea, China, US) and multi-product, but end-market is concentrated in a handful of leading-edge foundry/memory customers with cyclical, lumpy and China-policy-exposed demand."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC 30.5% vastly exceeds WACC and capex intensity is well-rewarded, but FCF JPY 433.2B vs net income JPY 574.4B is FCF/NI ~75% (below the 80% bar due to working-capital/capex needs), so superior but not flawless."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Fortress balance sheet: net cash with ND/EBITDA ~-0.6, ~JPY 506B cash and minimal interest-bearing debt — clearly superior, well inside D/EBITDA<2x."
+  },
+  "R9": {
+   "score": 0.5,
+   "just": "Conservative cap: SBC not disclosed in available sources and could not be verified (sbc_pct_fcf=null); Japanese GAAP reporting is otherwise clean, but unverified SBC bars a high mark under the hard rule."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Disciplined capital allocation (organic R&D over destructive M&A, dividends plus buybacks, ROE >=35% target), but founder skin-in-the-game is modest and management is professional/diffuse, so base."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R2+R3+R4 reinforce monstrously: a secular WFE growth market (R2) where TEL holds sustained #1/#2 positions and a ~90% coater/developer near-monopoly (R3), protected by qualification lock-in and process-recipe intangibles (R4) — the secular demand flows disproportionately to an entrenched, hard-to-displace leader. R1 is the weaker leg (cyclical equipment, not zero-marginal-cost software), so the amplification runs through R2/R3/R4 rather than R1/R3/R4.",
+ "moat_type": "Costes de cambio + intangibles + escasez",
+ "moat_one_line": "Una vez que un equipo de TEL queda cualificado en la receta de proceso de un fab puntero, cambiarlo es prohibitivamente costoso y arriesgado; su cuasi-monopolio en coater/developer y el co-desarrollo con las principales fundiciones/memoria lo consolidan como proveedor casi unico durante anios.",
+ "thesis_3lines": [
+  "Calidad: lider mundial #1/#2 en deposicion/etch y cuasi-monopolio (~90%) en coater/developer, con ROIC 30.5%, caja neta (ND/EBITDA ~-0.6) y FCF record de JPY 433.2B.",
+  "Motor: la demanda secular de WFE (IA, logica <2nm, HBM/DRAM, advanced packaging) impulsa la guia H1 FY2027 de +33% ventas y +42% OP, con objetivo de >=JPY 3T ventas y ROE >=35%.",
+  "Valoracion: fwd P/E ~38 vs media 5a ~22 (prima ~73%, PEG 2.86), en maximo historico y no deprimida — calidad excepcional a precio exigente y ciclico."
+ ],
+ "bear_case_strongest": "A fwd P/E ~38 (prima ~73% sobre su media de 5 anios) y en maximo historico, la accion descuenta un upcycle de WFE casi perfecto, quedando muy expuesta a correccion si la inversion en IA/memoria se enfria, China endurece controles de exportacion o el ciclo de semiconductores se revierte.",
+ "sbc_flag": "unknown",
+ "ethical_flag": "none",
+ "notes": "Re-score total ponderado: R1 1.0 + R2 2.0 + R3 2.0 + R4 1.5 + R5 1.0 + R6 1.0 + R7 1.5 + R8 1.5 + R9 0.5 + R10 1.0 = 13.0/13.5. Baja desde 12/13.5 preliminar pese a la calidad monstruosa porque R9 queda capado en 0.5 (SBC no verificada, regla conservadora) y R5/R7 reflejan crecimiento organico FY2026 plano (+0.5%) y FCF/NI ~75% (<80%). Riesgos clave NO penalizados en reglas pero criticos para entrada: valoracion en maximo historico (fwd P/E ~38, prima ~73%, PEG 2.86, drop_classification=not_depressed) y exposicion a controles de exportacion de China. data_quality=MIXED: muchos campos de valoracion y SBC estimados/null; fwd_pe con alta dispersion entre fuentes (27-50). Verificar SBC en el informe anual (IFRS) para reconfirmar R9 antes de cualquier decision."
+}

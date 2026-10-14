@@ -1,0 +1,334 @@
+{
+  "ticker": "TMO",
+  "empresa": "Thermo Fisher Scientific Inc.",
+  "cik": "0000097745",
+  "moneda_funcional": "USD",
+  "moneda_reporte": "USD",
+  "fecha_valoracion": "2026-07-28",
+  "etiqueta_congelada": "MENOS_5_6",
+  "nota_etiqueta": "Etiqueta de CALIDAD congelada, 2 puertas pasadas. El valorador NO la puede reclasificar hacia arriba bajo ninguna circunstancia. Nada de lo que sigue toca la calidad.",
+  "especie": "G2 — reinversion 20,9% de ventas; ROIIC bruto 0,7%; ROIIC ex-margen 6,2%",
+  "en_cartera": false,
+  "mos_exigido_pct": 40,
+  "mos_exigido_nota": "40% para ABRIR posicion (no esta en cartera, no aplica el descuento de 12 puntos de CARGAR).",
+
+  "mecanismo_heredado": {
+    "resumen": "Escala de canal + costes de cambio regulatorios convertidos en caja de calidad excepcional (devengo negativo siete anios, Sloan -1,1% a -3,0%, FCF/BN 103%), reinvertida comprando empresas a 32.144 M USD en siete anios.",
+    "eslabon_mas_debil": "La pista no paga. ROIIC bruto 0,7% (6,2% ex-margen) contra umbral del 15%. ROIC monotonamente a la baja: 15,0% (2020) -> 8,7% (2025), porque el capital invertido crecio +80% mientras el NOPAT crecia +4%. Deuda 21.735 -> 39.384 M. La caja es de primera; el destino de la caja no.",
+    "papel_en_esta_valoracion": "Es el ancla del apartado g_defendible y del detector de trampa de valor. No se re-audita aqui."
+  },
+
+  "precio": {
+    "precio_usd": 559.53,
+    "fuente": "IBKR market data snapshot, contract_id 12869 (NYSE), consultado 2026-07-28. Campo 'last' con is_close=true = cierre del 27-jul-2026.",
+    "etiqueta": "HECHO",
+    "contraste": "stockanalysis.com/stocks/tmo consultado 2026-07-28 reporta 559,53 USD al cierre del 27-jul-2026 (comprobacion cruzada, INFERENCIA).",
+    "cotiza_en_eeuu": true,
+    "ads": false,
+    "nota_ads": "Accion ordinaria NYSE. No hay ratio ADS que ajustar.",
+    "rango_52s": { "max": 643.17, "min": 435.95, "apertura_52s": 474.19 },
+    "high_13s": 586.27,
+    "low_13s": 435.95,
+    "ytd_pct": -3.34,
+    "caida_desde_maximo_52s_pct": -13.0,
+    "volatilidad_anual_historica_pct": 42.1,
+    "nota_precio": "Volatilidad realizada 30d del 42% anualizada: elevada por resultados del 23-jul. El rango 52s (435,95-643,17) es del 48% de amplitud: la accion ha rebotado +28% desde minimos."
+  },
+
+  "capital_estructura": {
+    "acciones_en_circulacion_millones": 370.0,
+    "fuente_acciones": "371.621.465 acciones a 28-mar-2026 (dei:EntityCommonStockSharesOutstanding, 10-Q Q1 2026, accn 0000097745-26-000092) menos ~2,1 M por la recompra de 1.000 M USD del 2T26 (8-K 23-jul-2026, EX-99.1) a precio medio estimado ~480 USD.",
+    "etiqueta_acciones": "HECHO el punto de partida (371,6 M) e HECHO la recompra (1.000 M USD); INFERENCIA el ajuste a 370,0 M.",
+    "nota_acciones": "Media diluida del 2T26 = 371 M (HECHO, 8-K). Banda razonable: 369,5-371,6 M. Impacto en capitalizacion: +/- 1.200 M USD, irrelevante para el veredicto.",
+    "capitalizacion_usd_mm": 207026,
+    "deuda_corto_plazo_usd_mm": 3368,
+    "deuda_largo_plazo_usd_mm": 39181,
+    "deuda_total_usd_mm": 42549,
+    "deuda_fuente": "Balance consolidado condensado a 27-jun-2026, 8-K 23-jul-2026 EX-99.1: 'Short-term obligations and current maturities' 3.368 + 'Long-term obligations' 39.181.",
+    "etiqueta_deuda": "HECHO (valor contable). No dispongo del valor de mercado de los bonos; con cupones historicos bajos y curva al 4,6% el valor de mercado estaria por DEBAJO del contable, lo que ABARATARIA el EV. Uso el contable = supuesto conservador contra la empresa.",
+    "caja_usd_mm": 4064,
+    "inversiones_corto_plazo_usd_mm": 0,
+    "caja_fuente": "Mismo balance a 27-jun-2026. Cae desde 9.852 M a 31-dic-2025 por la adquisicion de 8.872 M del 1S26.",
+    "interes_minoritario_rescatable_usd_mm": 121,
+    "deuda_neta_usd_mm": 38485,
+    "ev_usd_mm": 245632,
+    "ev_calculo": "207.026 (equity) + 42.549 (deuda) - 4.064 (caja) + 121 (NCI rescatable) = 245.632 M USD",
+    "apalancamiento": "Deuda neta / EBITDA 2026e (~11.000 M) = 3,5x. Deuda total / EBITDA = 3,9x. Es apalancamiento alto para el sector; ha subido en el 1S26 por una adquisicion de 8.872 M (goodwill +5.470 M, intangibles +2.768 M).",
+    "alerta_estructural": "La deuda neta ha pasado de 29.280 M (31-dic-2025) a 38.485 M (27-jun-2026) en seis meses: +31%. Es la continuacion exacta del patron que la calidad ya penalizo (crecimiento comprado con deuda)."
+  },
+
+  "candado_B_wacc": {
+    "principio": "El WACC sale del MERCADO, nunca de un tier de calidad. Ningun input de aqui procede de la etiqueta MENOS_5_6.",
+    "tasa_libre_riesgo_pct": 4.60,
+    "tasa_libre_riesgo_fuente": "Bono del Tesoro de EEUU a 10 anios. 4,64% al cierre del 27-jul-2026; 4,55% el 17-jul-2026; 4,56% el 10-jul-2026 (Advisor Perspectives / etftrends 'Treasury Yields Snapshot', julio 2026). Uso 4,60% como centro del mes.",
+    "tasa_libre_riesgo_etiqueta": "INFERENCIA (fuente secundaria de mercado con fecha; no es un filing).",
+    "beta": 0.87,
+    "beta_fuente": "Google Finance y stockanalysis.com, ambos consultados el 28-jul-2026, coinciden en 0,87 (beta de 5 anios).",
+    "beta_etiqueta": "INFERENCIA (dato de proveedor, no primario).",
+    "beta_advertencia": "La volatilidad realizada a 30 dias es del 42% anualizada (IBKR, 28-jul-2026), muy por encima de lo que sugiere una beta de 0,87. En el escenario alto del rango uso beta 1,05.",
+    "prima_mercado_madura_pct": 4.50,
+    "prima_mercado_fuente": "Ancla: prima de riesgo implicita de Damodaran para EEUU = 4,23% a 1-ene-2026 (tabla histimpl.html, NYU Stern, consultada 28-jul-2026). Uso 4,50% como centro por el desfase de siete meses.",
+    "prima_mercado_etiqueta": "INFERENCIA",
+    "prima_pais_pct": 0.35,
+    "prima_pais_metodo": "Prima ponderada por el pais del riesgo de ACTIVO, no del domicilio fiscal. Mezcla de ingresos aproximada: ~50% Norteamerica (CRP 0%), ~24% Europa (CRP ~0,3-0,6%), ~20% Asia-Pacifico incl. China (CRP ~0,6-1,0%), ~6% resto. Ponderado ~0,35%.",
+    "prima_pais_etiqueta": "INFERENCIA. HUECO DECLARADO: no consegui la tabla ctryprem de Damodaran de julio 2026 ni el desglose geografico exacto del 10-K FY2025. Sensibilidad: +/- 0,25 pp de CRP mueve el WACC ~0,2 pp y el valor por accion ~5%. No cambia el veredicto.",
+    "coste_deuda_pretax_pct": 4.02,
+    "coste_deuda_calculo": "Gasto financiero FY2025 = 1.419 M (10-K FY2025, R5 CONSOLIDATED STATEMENTS OF INCOME) / deuda media ((39.385 + 31.275)/2 = 35.330 M, balances a 31-dic-2025 y 31-dic-2024) = 4,02%.",
+    "coste_deuda_etiqueta": "HECHO el numerador y el denominador (10-K FY2025). INFERENCIA el cociente.",
+    "coste_deuda_nota": "Si se descuentan los 268 M cobrados por liquidaciones de swaps de tipo cruzado (10-K FY2025, actividades de inversion), el coste efectivo baja a 3,26%. Uso 4,02% (mas conservador = WACC mas alto).",
+    "tipo_impositivo_pct": 10.0,
+    "tipo_impositivo_nota": "Tipo efectivo GAAP FY2025 = 547/7.308 = 7,5%; FY2024 = 9,3%; media trienal 7,2% (10-K FY2025). Uso 10% — deliberadamente por encima del real para NO inflar el escudo fiscal.",
+    "coste_deuda_despues_impuestos_pct": 3.62,
+    "ponderacion": "E = 207.026 M (83,0%) a valor de mercado; D = 42.549 M (17,0%) a valor contable como proxy del de mercado.",
+    "coste_equity_pct": 8.87,
+    "coste_equity_calculo": "4,60% + 0,87 x 4,50% + 0,35% = 8,87%",
+    "wacc_pct": 7.97,
+    "wacc_calculo": "0,830 x 8,87% + 0,170 x 3,62% = 7,35% + 0,62% = 7,97%",
+    "wacc_rango": "7,5% - 9,4%",
+    "wacc_rango_metodo": "Bajo: Rf 4,55%, beta 0,87, ERP 4,23%, CRP 0,20%, Kd neto de swaps 3,26% -> 7,5%. Alto: Rf 4,67%, beta 1,05, ERP 5,00%, CRP 0,60%, Kd 4,30% -> 9,4%."
+  },
+
+  "owner_earnings": {
+    "definicion_a": "OE mantenimiento = CFO - capex de mantenimiento aproximado por la DEPRECIACION de inmovilizado. El exceso de capex sobre la depreciacion es inversion discrecional y NO se resta.",
+    "definicion_b": "OE capex total = CFO - capex neto (flujo de caja libre puro), identico a la definicion de free cash flow de la propia compania.",
+    "nota_estructural_critica": "NINGUNA de las dos versiones resta las ADQUISICIONES (4.037 M en FY2025; 8.872 M solo en el 1S26). Es decir: el owner earnings que se reporta abajo es el flujo de un TMO que dejara de comprar empresas. Cualquier g que se le aplique tiene que ser g ORGANICA. Aplicar la g total historica (6,7%) a este flujo seria contar el crecimiento sin pagar el precio que lo compra. Este es el punto donde casi todas las valoraciones de TMO se rompen.",
+    "nota_apalancamiento": "El CFO ya esta despues de intereses pagados. Para descontar al WACC y restar deuda neta sin duplicar, la version desapalancada (FCFF) suma el interes NETO despues de impuestos: (gasto financiero - ingreso financiero) x (1 - t). Se reportan ambas.",
+
+    "base_auditada": {
+      "ejercicio": "FY2025 (cerrado 31-dic-2025)",
+      "fuente": "10-K FY2025, accn 0000097745-26-000018, presentado 26-feb-2026. Estados R5 (resultados), R8 (flujos), R3 (balance).",
+      "etiqueta": "HECHO",
+      "ventas_usd_mm": 44556,
+      "resultado_operativo_usd_mm": 7746,
+      "beneficio_neto_usd_mm": 6704,
+      "cfo_usd_mm": 7818,
+      "depreciacion_ppe_usd_mm": 1050,
+      "amortizacion_intangibles_adquisicion_usd_mm": 1730,
+      "capex_bruto_usd_mm": 1525,
+      "capex_neto_usd_mm": 1481,
+      "adquisiciones_usd_mm": 4037,
+      "gasto_financiero_usd_mm": 1419,
+      "ingreso_financiero_usd_mm": 993,
+      "oe_mantenimiento_usd_mm": 6768,
+      "oe_mantenimiento_calculo": "7.818 - 1.050 = 6.768",
+      "oe_capex_total_usd_mm": 6337,
+      "oe_capex_total_calculo": "7.818 - 1.481 = 6.337 (coincide con el FCF publicado por la compania)",
+      "fcff_mantenimiento_usd_mm": 7151,
+      "fcff_capex_total_usd_mm": 6720,
+      "fcff_calculo": "OE + (1.419 - 993) x 0,90 = OE + 383",
+      "margen_oe_sobre_ventas_pct": 14.2,
+      "aviso": "FY2025 fue un ejercicio de caja floja: CFO cae de 8.667 a 7.818 M (-9,8%) pese a que las ventas suben, por un drenaje de 1.312 M en 'Otros' de circulante. El 1S25 genero solo 2.122 M de CFO. Es un suelo de ciclo, no la capacidad normalizada."
+    },
+
+    "base_en_curso": {
+      "ejercicio": "FY2026, anualizado con 1S26 publicado + guia de la compania",
+      "fuente": "8-K 23-jul-2026 EX-99.1 (1S26 real: ventas 22.999 M, CFO 3.317 M, capex neto 813 M, FCF 2.503 M, depreciacion 638 M, gasto financiero 755 M, ingreso financiero 440 M). Guia FY2026 dada en la conferencia del 23-jul-2026: ventas 47.400-48.100 M, BPA ajustado 24,93-25,33 USD, FCF 6.900-7.400 M con capex neto 1.900-2.100 M.",
+      "etiqueta": "HECHO el 1S26 (8-K primario). INFERENCIA la guia FY2026 (transcripcion de la conferencia via prensa financiera; la guia NO figura en el texto del 8-K, que remite a la llamada). HUECO DECLARADO: no localice la guia en un documento primario de la compania.",
+      "ventas_estimadas_usd_mm": 47750,
+      "cfo_estimado_usd_mm": 9150,
+      "cfo_calculo": "FCF guia punto medio 7.150 + capex neto guia punto medio 2.000 = 9.150",
+      "depreciacion_ppe_estimada_usd_mm": 1290,
+      "depreciacion_calculo": "1S26 real 638 M x el ratio anual/semestral observado en 2025 (1.050/532 = 1,97)",
+      "capex_neto_estimado_usd_mm": 2000,
+      "gasto_financiero_estimado_usd_mm": 1600,
+      "ingreso_financiero_estimado_usd_mm": 800,
+      "oe_mantenimiento_usd_mm": 7860,
+      "oe_mantenimiento_calculo": "9.150 - 1.290 = 7.860",
+      "oe_capex_total_usd_mm": 7150,
+      "oe_capex_total_calculo": "9.150 - 2.000 = 7.150 (= punto medio de la guia de FCF)",
+      "fcff_mantenimiento_usd_mm": 8580,
+      "fcff_capex_total_usd_mm": 7870,
+      "margen_oe_sobre_ventas_pct": 15.0,
+      "nota_capex": "El capex neto salta de 1.481 M (2025) a ~2.000 M (guia 2026): +35%. La brecha discrecional sobre depreciacion se ensancha de 431 M a 710 M. Es capacidad, no mantenimiento."
+    },
+
+    "distancia_entre_bases": {
+      "oe_mantenimiento_pct": 16.1,
+      "oe_capex_total_pct": 12.8,
+      "ventas_pct": 7.2,
+      "lectura": "La distancia NO es ruido y no es simetrica: la caja crece el doble que las ventas. El 1S26 genero 3.317 M de CFO contra 2.122 M en el 1S25 (+56%). Traduccion: FY2025 fue suelo de ciclo con drenaje de circulante y 2026 es la normalizacion. Consecuencia disciplinaria: la base AUDITADA subestima la capacidad y la base EN CURSO es la que hay que mirar para juzgar el precio — y aun asi el precio no cuadra. Cuando ambas bases dan el mismo veredicto, la incertidumbre del ciclo deja de ser la variable que decide."
+    }
+  },
+
+  "tasa_base_del_negocio": {
+    "ventas_fy2019_usd_mm": 25542,
+    "ventas_fy2021_usd_mm": 39211,
+    "ventas_fy2023_usd_mm": 42857,
+    "ventas_fy2025_usd_mm": 44556,
+    "cagr_ventas_fy19_fy25_pct": 9.7,
+    "cagr_ventas_fy21_fy25_pct": 3.3,
+    "crecimiento_fy26e_pct": 7.2,
+    "crecimiento_organico_1s26_pct": 3.0,
+    "crecimiento_organico_2t26_pct": 5.0,
+    "descomposicion_1s26": "Crecimiento total 8% = 3% organico + 4% adquisiciones + 2% divisa (8-K 23-jul-2026, tabla de organic revenue growth; los componentes no suman por redondeo).",
+    "fuente": "10-K FY2025 (R5) y 8-K 23-jul-2026 EX-99.1.",
+    "lectura": "La tasa base ORGANICA de TMO es del 3-5%. El 9,7% de CAGR 2019-2025 incorpora el pico COVID y 32.144 M de compras. Desde el pico de 2021 el CAGR es del 3,3%. Todo lo que exceda el 5% en un DCF exige comprar empresas — y el ROIIC ex-margen del 6,2% dice a que precio se estan comprando."
+  },
+
+  "dcf_inverso": {
+    "metodo": "Se resuelve la g a 10 anios que iguala el EV de hoy, con crecimiento terminal del 3% a perpetuidad y descuento al WACC de mercado. Flujo descontado = FCFF (desapalancado), coherente con restar deuda neta despues.",
+    "terminal_pct": 3.0,
+    "wacc_pct": 7.97,
+    "ev_objetivo_usd_mm": 245632,
+    "resultados": [
+      { "base": "FY2025 auditado, capex total (FCFF 6.720)", "g_implicita_pct": 10.17 },
+      { "base": "FY2025 auditado, solo capex de mantenimiento (FCFF 7.151)", "g_implicita_pct": 9.38 },
+      { "base": "FY2026 en curso, capex total (FCFF 7.870)", "g_implicita_pct": 8.17 },
+      { "base": "FY2026 en curso, solo capex de mantenimiento (FCFF 8.580)", "g_implicita_pct": 7.08 }
+    ],
+    "veredicto": "El precio de hoy exige entre el 7,1% y el 10,2% anual de crecimiento del flujo libre durante diez anios, y despues un 3% eterno. En la lectura MAS generosa posible — ejercicio en curso, restando solo capex de mantenimiento — el listillo sigue en el 7,1%. Contra una tasa base organica del 3-5% y un ROIIC ex-margen del 6,2%, ese 7,1% solo es alcanzable comprando empresas. Pero el flujo que se esta descontando NO tiene restadas las adquisiciones. El mercado esta pagando por un crecimiento cuyo coste no aparece en el numerador."
+  },
+
+  "g_defendible": {
+    "formula_prescrita": "g = tasa de reinversion x ROIIC EX-MARGEN (ex-margen, no bruto: usar el bruto asume que la expansion de margen se repite).",
+    "roiic_ex_margen_pct": 6.2,
+    "roiic_bruto_pct": 0.7,
+    "reinversion_pct_ventas": 20.9,
+    "rama_1_total_incluyendo_MyA": {
+      "reinversion_neta_7a_usd_mm": 37401,
+      "detalle": "Adquisiciones netas 2019-2025 = 32.144 M (coincide con el mecanismo heredado) + capex acumulado 11.570 M - depreciacion acumulada 6.313 M = 37.401 M, o 5.343 M/anio.",
+      "nopat_medio_estimado_usd_mm": 5800,
+      "tasa_reinversion_sobre_nopat_pct": 92,
+      "g_resultante_pct": 5.7,
+      "por_que_no_la_uso": "Un 5,7% de g calza casi exacto con el 6,7% de crecimiento real de ventas: la formula funciona. Pero exige gastar 4.592 M/anio en M&A que NO estan restados del FCFF de 6.720-7.870 M. El par coherente seria FCFF = 6.720 - 4.592 = 2.128 M creciendo al 5,7%, que da un valor por accion de 46 USD. Ese es el numero honesto de la rama que compra crecimiento."
+    },
+    "rama_2_solo_capex": {
+      "reinversion_neta_capex_2025_usd_mm": 431,
+      "tasa_reinversion_sobre_nopat_pct": 6.2,
+      "g_resultante_pct": 0.4,
+      "lectura": "Sin M&A, la reinversion organica neta de TMO es minuscula (431 M sobre un NOPAT de 6.971 M). La formula da 0,4%. Es demasiado punitiva: subestima el crecimiento organico real del 3-5% porque el capex de expansion de una empresa de instrumentos no captura la palanca de precio ni el apalancamiento operativo."
+    },
+    "g_defendible_pct": 4.0,
+    "justificacion": "Elijo 4,0% sobre el FCFF COMPLETO (sin restar M&A). Es la mas generosa de las tres lecturas y la unica internamente coherente: es el crecimiento organico observado (3% en el 1S26, 5% en el 2T26, 3,3% de CAGR desde 2021) financiado con el capex que ya esta descontado, tratando las adquisiciones como opcionales. Y tratarlas como opcionales es un REGALO a la valoracion, no un castigo: con un ROIIC ex-margen del 6,2% contra un WACC del 7,97%, cada dolar que TMO gasta comprando empresas vale menos de un dolar. Excluir el gasto y su crecimiento es, como minimo, neutral y probablemente favorable.",
+    "banda_g": "3,0% - 5,5%",
+    "advertencia_honesta": "ROIIC ex-margen 6,2% < WACC 7,97%. Ese solo dato dice que el crecimiento de TMO, tal como se esta comprando, DESTRUYE valor. No es una empresa que este cara pese a un motor sano: es una empresa cara con un motor que reinvierte por debajo de su coste de capital. Que el ROIC haya caido de 15,0% a 8,7% en cinco anios es la misma frase dicha de otra manera.",
+    "contraste": "g defendible 4,0% vs g implicita en el precio 7,1%-10,2%. El mercado esta pidiendo entre 3 y 6 puntos porcentuales anuales por encima de lo que el negocio ha demostrado poder generar sin comprar."
+  },
+
+  "valoracion": {
+    "g_usada_pct": 4.0,
+    "wacc_usado_pct": 7.97,
+    "terminal_pct": 3.0,
+    "metodo": "FCFF creciendo al 4,0% diez anios, terminal al 3,0%, descontado al WACC; menos deuda neta y NCI; dividido por 370,0 M de acciones.",
+    "resultados": [
+      {
+        "base": "FY2025 auditado (FCFF 6.720)",
+        "ev_usd_mm": 152951,
+        "equity_usd_mm": 114345,
+        "valor_por_accion_usd": 303,
+        "banda_25pct": "227 - 379",
+        "mos_pct": -85
+      },
+      {
+        "base": "FY2026 en curso (FCFF 7.870)",
+        "ev_usd_mm": 179116,
+        "equity_usd_mm": 140510,
+        "valor_por_accion_usd": 373,
+        "banda_25pct": "280 - 466",
+        "mos_pct": -50
+      }
+    ],
+    "precio_sobre_valor": {
+      "auditado": "1,85x el valor intrinseco",
+      "en_curso": "1,50x el valor intrinseco"
+    },
+    "multiplos_de_hoy": {
+      "precio_sobre_oe_capex_total_auditado": 32.7,
+      "precio_sobre_oe_mantenimiento_auditado": 30.6,
+      "precio_sobre_oe_capex_total_en_curso": 29.0,
+      "precio_sobre_oe_mantenimiento_en_curso": 26.3,
+      "ev_sobre_fcff_auditado": 36.6,
+      "ev_sobre_fcff_en_curso": 31.2,
+      "per_fy2026e_ajustado_guia": 22.3,
+      "per_fy2026e_gaap": 29.9,
+      "ev_sobre_ventas_fy2026e": 5.14,
+      "lectura": "El PER ajustado de 22,3x es el numero que hace que TMO parezca razonable. Pero el ajuste principal es excluir 1.730-1.900 M anuales de amortizacion de intangibles de adquisicion, es decir, precisamente el coste contable de la estrategia de comprar empresas cuyo ROIIC es del 6,2%. En caja pura, el multiplo es 29-33x owner earnings."
+    }
+  },
+
+  "piso_de_resolucion": {
+    "regla": "Sin medicion propia del ruido, banda de +/- 25% sobre el valor intrinseco. Nada de decimales falsos.",
+    "banda_auditada_usd": "227 - 379",
+    "banda_en_curso_usd": "280 - 466",
+    "test": "El precio de 559,53 USD queda FUERA de las dos bandas por arriba. El techo de la banda mas generosa (466 USD) esta un 17% por debajo del precio. La conclusion sobrevive al ruido: no hay una eleccion razonable de base, ni un movimiento de +25% dentro de la banda, que convierta esto en una compra.",
+    "sensibilidad_vps_en_curso": {
+      "WACC 7,5% / g 4,0%": 423,
+      "WACC 7,97% / g 4,0%": 373,
+      "WACC 9,4% / g 4,0%": 265,
+      "WACC 7,97% / g 5,5% (concediendo la g total historica al flujo sin M&A)": 447,
+      "WACC 7,5% / g 5,5% (el escenario mas benevolo que soy capaz de escribir)": 515
+    },
+    "nota_sensibilidad": "Incluso el escenario mas benevolo que consigo construir — WACC en el suelo del rango (7,5%) Y regalandole al flujo libre completo la g total historica del 5,5% que en realidad exige 4.592 M/anio de compras — da 515 USD por accion. Sigue por debajo del precio. No existe un conjunto de supuestos defendibles que produzca un margen de seguridad."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 18.0,
+    "m_estrella_definicion": "Multiplo de owner earnings (version capex total, base equity) que acepto pagar. Decidido en frio, sin barra de error, porque no es una estimacion sino un compromiso.",
+    "m_estrella_justificacion": "Una perpetuidad sin crecimiento al coste de equity del 8,87% vale 11,3x. Anadir 4% de crecimiento organico diez anios y 3% despues lleva el multiplo justo a ~19,7x. Bajo a 18x por una razon concreta y no negociable: el exceso de caja no vuelve integro al accionista, se reinvierte a un ROIIC ex-margen del 6,2% cuando el coste de capital es del 7,97%. Ese descuento es el precio de la asignacion de capital, no del negocio operativo.",
+    "owner_earnings_por_accion_en_curso_usd": 19.32,
+    "owner_earnings_por_accion_auditado_usd": 17.13,
+    "valor_por_accion_desde_m_en_curso_usd": 348,
+    "valor_por_accion_desde_m_auditado_usd": 308,
+    "p_estrella_usd": 224,
+    "p_estrella_calculo": "Ruta DCF sobre la base MAS GENEROSA (en curso): 373 USD x (1 - 0,40) = 224 USD.",
+    "p_estrella_alternativo_usd": 209,
+    "p_estrella_alternativo_calculo": "Ruta m*: 18,0x x 19,32 USD = 348 USD x 0,60 = 209 USD. La banda honesta de P* es 209-224 USD; reporto 224 por ser el mas favorable a la empresa.",
+    "caida_necesaria_pct": -60,
+    "caida_necesaria_nota": "De 559,53 a 224 USD hay una caida del 60%. El minimo de 52 semanas fue 435,95 USD: ni siquiera el peor momento de los ultimos doce meses acerco el precio a P*. Habria que ver a TMO por debajo del minimo de la crisis de 2020 ajustado por accion."
+  },
+
+  "tir_esperada": {
+    "metodo": "Tasa de descuento que iguala el FCFF proyectado (g defendible 4%, terminal 3%) al EV de hoy = TIR del activo. Reapalancada a equity: (TIR_activo x V - Kd_despues_impuestos x D) / E.",
+    "detalle": [
+      { "base": "auditada, g 3,0%", "tir_activo_pct": 5.82, "tir_equity_pct": 6.27 },
+      { "base": "auditada, g 4,0%", "tir_activo_pct": 6.07, "tir_equity_pct": 6.57 },
+      { "base": "auditada, g 5,5%", "tir_activo_pct": 6.47, "tir_equity_pct": 7.06 },
+      { "base": "en curso, g 3,0%", "tir_activo_pct": 6.30, "tir_equity_pct": 6.85 },
+      { "base": "en curso, g 4,0%", "tir_activo_pct": 6.59, "tir_equity_pct": 7.20 },
+      { "base": "en curso, g 5,5%", "tir_activo_pct": 7.05, "tir_equity_pct": 7.76 }
+    ],
+    "rango": "+6,3% a +7,8% anual durante 10 anios (TIR sobre el equity)",
+    "central_pct": 7.2,
+    "lectura": "Esto es lo que hace legible un MoS del -50% o del -85%: comprar TMO hoy no es una catastrofe aritmetica, es un rendimiento del 6,3%-7,8% anual a diez anios. El problema es que el propio coste de capital de la empresa es del 7,97% y el bono a 10 anios de EEUU paga el 4,60%. Se estan asumiendo el riesgo operativo, el riesgo de asignacion de capital y 3,5x de deuda neta/EBITDA para ganar unos 250 puntos basicos sobre el activo sin riesgo. Ese es el trato. No es una perdida esperada; es una prima de riesgo insuficiente."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "SOSPECHA",
+    "motivo": "La trampa de valor clasica —MoS grande sobre un motor que se rompe— NO se dispara aqui, porque no hay MoS: el precio esta un 50-85% POR ENCIMA del valor. Pero los tres ingredientes de la trampa estan todos presentes y activos: (1) el ROIC cae de forma monotona del 15,0% (2020) al 8,7% (2025); (2) el ROIIC ex-margen del 6,2% esta POR DEBAJO del WACC del 7,97%, o sea la reinversion destruye valor en el margen; (3) la deuda neta ha subido de 29.280 a 38.485 M en seis meses financiando una compra de 8.872 M. Declaro SOSPECHA y no NO porque la caida del precio que haria falta para que apareciera un MoS aparente (-40%, hasta ~336 USD) llegaria acompanada del mismo deterioro que la genera: ese seria exactamente el momento en que el descuento pareceria una oportunidad y no lo seria. Dejarlo escrito ahora, en frio, vale mas que descubrirlo entonces.",
+    "que_lo_convertiria_en_SI": "Que el precio caiga a la zona de 330-380 USD sin que el ROIIC ex-margen suba por encima del WACC. Ahi el MoS aparente seria del 0-10% sobre la base en curso y la tentacion de comprar 'calidad rebajada' seria maxima.",
+    "que_lo_convertiria_en_NO": "Dos anios consecutivos de ROIC estabilizado o al alza CON la deuda neta/EBITDA bajando de 3,0x, es decir, prueba de que TMO ha dejado de comprar crecimiento y ha empezado a generarlo. En ese mundo la etiqueta de calidad se revisaria por su via propia — no por esta."
+  },
+
+  "veredicto_precio": {
+    "decision": "NO — el precio no abre nada",
+    "mos_exigido_pct": 40,
+    "mos_obtenido_en_curso_pct": -50,
+    "mos_obtenido_auditado_pct": -85,
+    "distancia_al_umbral": "Faltan 90 puntos porcentuales de MoS sobre la base en curso. Precio 559,53 USD contra P* de 224 USD: la accion tendria que caer un 60%.",
+    "resumen": "TMO cotiza a 29-33x owner earnings y el precio exige entre 7,1% y 10,2% de crecimiento del flujo libre durante diez anios. La tasa base organica del negocio es 3-5% y el ROIIC ex-margen del 6,2% esta por debajo del WACC del 7,97%: el crecimiento que sobra se compra, y se compra por debajo del coste de capital. Las dos bases coinciden en el veredicto pese a estar separadas por un 13-16%, lo que retira el ciclo como excusa. La TIR esperada del 6,3%-7,8% anual no es un desastre, es sencillamente una prima insuficiente sobre un bono al 4,60% para asumir 3,5x de deuda neta y un historial de asignacion de capital que ha bajado el ROIC del 15,0% al 8,7%.",
+    "que_haria_falta_para_cambiar": "O bien precio de 224 USD (-60%), o bien evidencia de dos-tres anios de que el ROIIC ex-margen supera el 12-15% con la deuda neta/EBITDA por debajo de 3,0x. Lo primero es un evento de mercado; lo segundo exigiria que TMO dejase de ser lo que ha sido siete anios seguidos.",
+    "vigilancia": "Gatillo de re-mirada: precio por debajo de 380 USD (techo de la banda de valor en curso) O publicacion de un ejercicio con ROIC al alza y adquisiciones por debajo de 1.500 M. Cualquiera de los dos reabre el expediente; ninguno de los dos reclasifica la etiqueta de calidad, que sigue congelada en MENOS_5_6."
+  },
+
+  "huecos_declarados": [
+    "La guia FY2026 (ventas 47.400-48.100 M, FCF 6.900-7.400 M, capex neto 1.900-2.100 M, BPA ajustado 24,93-25,33) procede de la conferencia del 23-jul-2026 recogida por prensa financiera, NO de un documento primario de la compania. El 8-K del 23-jul-2026 remite explicitamente a la llamada y no contiene la guia. Toda la base EN CURSO cuelga de este dato: es INFERENCIA, no HECHO. Si la guia real fuera un 10% peor, el valor en curso baja de 373 a ~336 USD y el veredicto no cambia.",
+    "No consegui la tabla de primas por pais de Damodaran de julio 2026 ni el desglose geografico exacto de ingresos del 10-K FY2025. La prima pais del 0,35% es una estimacion ponderada aproximada. Sensibilidad: +/- 0,25 pp de CRP mueve el valor por accion ~5%.",
+    "La prima de riesgo de mercado del 4,50% es una extrapolacion: el dato citable de Damodaran (4,23%) es de 1-ene-2026, siete meses atras.",
+    "La beta de 0,87 procede de proveedores (Google Finance, stockanalysis), no de un calculo propio. La volatilidad realizada a 30 dias (42% anualizada) sugiere que podria estar subestimada; por eso el rango alto del WACC usa beta 1,05.",
+    "El numero de acciones en circulacion a hoy (370,0 M) es una inferencia: parto de las 371,6 M del 10-Q Q1 2026 y descuento la recompra de 1.000 M del 2T26 a un precio medio estimado. Banda 369,5-371,6 M.",
+    "La deuda se valora a coste contable. Con cupones historicos por debajo de la curva actual del 4,6%, el valor de mercado seria menor y el EV bajaria — supuesto conservador CONTRA la empresa, no a favor.",
+    "El NOPAT medio 2019-2025 usado para la tasa de reinversion (5.800 M) es una estimacion; no reconstrui el resultado operativo de 2019-2022 desde los filings originales.",
+    "No identifique la adquisicion concreta de 8.872 M del 1S26 (goodwill +5.470 M, intangibles de adquisicion +2.768 M). No afecta al calculo — la caja salio y la deuda subio, y ambas cosas estan en el balance del 27-jun-2026 — pero es un agujero de comprension del destino del capital mas reciente."
+  ],
+
+  "cadena_de_evidencia": {
+    "10K_FY2025": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000018/ — accn 0000097745-26-000018, presentado 26-feb-2026. R3 balance, R5 resultados, R8 flujos.",
+    "8K_2T2026": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000138/q22026earnings8kex99_1.htm — accn 0000097745-26-000138, 23-jul-2026, resultados 2T y 1S 2026 no auditados.",
+    "10Q_1T2026": "accn 0000097745-26-000092, presentado 1-may-2026 — acciones en circulacion a 28-mar-2026.",
+    "xbrl_companyfacts": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000097745.json — series historicas 2018-2025.",
+    "precio": "IBKR snapshot contract_id 12869, 28-jul-2026.",
+    "tipo_libre_riesgo": "Treasury Yields Snapshot, julio 2026 (Advisor Perspectives / etftrends).",
+    "prima_riesgo": "Damodaran, pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histimpl.html, tabla fechada enero 2026.",
+    "beta": "Google Finance y stockanalysis.com/stocks/tmo, 28-jul-2026."
+  }
+}

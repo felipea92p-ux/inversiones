@@ -1,0 +1,101 @@
+{
+ "ticker": "FTNT",
+ "name": "Fortinet, Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 145.39,
+ "market_cap_usd_b": 106.52,
+ "fwd_pe": 46.58,
+ "fwd_pe_5y_avg": 38,
+ "pe_prem_disc_pct": 22.6,
+ "peg": 3.51,
+ "last_q": {
+  "period": "Q1 2026 (ended Mar 31, 2026)",
+  "revenue": "$1.85B",
+  "rev_yoy_pct": 20,
+  "op_margin_pct": 31,
+  "eps_gaap": "$0.72",
+  "eps_adj": "$0.82"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 31, 2025)",
+  "revenue": "$6.80B",
+  "organic_growth_pct": 14,
+  "roic_pct": 23,
+  "fcf": "$2.21B",
+  "fcf_margin_pct": 32.5
+ },
+ "sbc_pct_revenue": 4.1,
+ "sbc_pct_fcf": 12.8,
+ "net_debt_usd_b": -2.93,
+ "nd_ebitda": -1.1,
+ "net_cash": true,
+ "guidance_fy": "FY2026: revenue $7.71B-$7.87B (~15% growth); non-GAAP operating margin 33-36%; non-GAAP diluted EPS $3.10-$3.16. Raised after Q1 2026 beat.",
+ "pct_off_52w_high": -3.1,
+ "pct_off_ath": -3.1,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "net_cash",
+  "guidance_fy"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "drop_classification"
+ ],
+ "sources": [
+  {
+   "label": "Fortinet Q1 2026 press release (StockTitan, SEC 8-K/exhibit)",
+   "url": "https://www.stocktitan.net/news/FTNT/fortinet-reports-strong-first-quarter-2026-financial-aiqf1lc64cd7.html",
+   "date": "2026-05-06"
+  },
+  {
+   "label": "Fortinet Q4 & Full Year 2025 press release (StockTitan)",
+   "url": "https://www.stocktitan.net/news/FTNT/fortinet-reports-strong-fourth-quarter-and-full-year-2025-financial-2cktnv2seaca.html",
+   "date": "2026-02"
+  },
+  {
+   "label": "Fortinet FY2025 10-K (SEC EDGAR)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001262039/000126203926000007/ftnt-20251231.htm",
+   "date": "2026-02"
+  },
+  {
+   "label": "StockAnalysis.com FTNT overview",
+   "url": "https://stockanalysis.com/stocks/ftnt/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com FTNT statistics",
+   "url": "https://stockanalysis.com/stocks/ftnt/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Fortinet 2026 non-GAAP EPS guidance $3.10-$3.16 (search/IR)",
+   "url": "https://www.fortinet.com/corporate/about-us/newsroom/press-releases/2026/fortinet-reports-first-quarter-2026-financial-results",
+   "date": "2026-05-06"
+  }
+ ],
+ "notes": "Stock is NOT depressed: trades ~$145 near 52-week/all-time high of ~$150, up ~+45% over the past year and surged ~+70% after a strong Q1 2026 beat in May 2026 with raised FY2026 guidance. Classification = not_depressed. Valuation: fwd P/E 46.6x (price $145.39 / FY26 non-GAAP EPS midpoint ~$3.13) confirmed by StockAnalysis 46.58x; an earlier search returned a stale ~28x figure that is inconsistent with current price/EPS and was discarded. fwd_pe_5y_avg ~38x is an approximation (sources gave noisy/inconsistent values 27-52x mixing trailing and forward); pe_prem_disc treat as approximate. ROIC FY2025 ~23-28% depending on methodology (GuruFocus 22.85% Dec 2025; others up to 27.7%); used ~23%. SBC FY2025 = $282.1M on revenue $6,800M (4.1%) and FCF $2,211.8M (12.8%) — SBC discipline is strong/low for a software name. Net cash: FY2025 total debt $996.3M vs cash+ST inv $3,582.5M + LT inv $339.7M = $3,922.2M, net cash ~$2.93B; nd_ebitda negative (approx). FY2025 GAAP op margin 31% / non-GAAP 35%; Q1 2026 GAAP op margin 31% / non-GAAP 36%, record FCF $1.01B (54% margin) aided by billings timing. 52w/ATH = ~$150.07 (StockAnalysis high) / ATH ~$149.67 close June 4 2026; pct off ~-3%. Note analyst consensus is 'Hold' with avg PT ~$112-114, implying ~20% downside vs current price — i.e. richly valued, not depressed."
+}

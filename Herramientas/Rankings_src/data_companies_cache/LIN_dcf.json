@@ -1,0 +1,42 @@
+{
+ "ticker": "LIN",
+ "currency": "USD",
+ "current_price": 516.71,
+ "name": "Linde plc",
+ "wacc_pct": 9,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.95,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base (mandato estricto) = FCF reportado FY2025 $5,089M − 100% SBC $164M = $4,925M (~$10.65/accion). SBC extremadamente baja (0.48% de ventas, 3.22% del FCF), por lo que el ajuste por SBC es minimo. Nota: el FCF reportado esta deprimido por un capex elevado (~$5.3B/anio, guia FY2026 $5.0-5.5B) del cual una porcion grande es de EXPANSION (plantas on-site, nuevos contratos a largo plazo) y no de mantenimiento; con ROC after-tax de 24.2% ese capex es creador de valor. Por ello los flujos de los escenarios base/optimista se anclan en una base de owner earnings normalizada (~$6.2-6.7B = OCF $10.35B − capex de mantenimiento ~$3.5-4.0B − SBC $0.16B); el escenario conservador usa una base mas cercana al FCF reportado estricto (~$5.4B).",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 7.5,
+  "rev_cagr_y6_10_pct": 5,
+  "fcf_margin_terminal_pct": 18,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC ($164M, ~0.48% de ventas) tratada como gasto en efectivo y restada del FCF para obtener owner earnings. Impacto minimo dada la SBC inusualmente baja de Linde.",
+  "shares_diluted_b": 0.4623,
+  "net_debt_usd_b": 22.4
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 163,
+   "prob": 0.375,
+   "note": "Crecimiento de owner earnings 6% -> 3.5% (declinante), WACC 9.5%, g terminal 2.5%. Base de flujo ~$5.4B (cerca del FCF reportado estricto). Supone desaceleracion industrial, crecimiento organico ~2-3%, presion de precios y FX adverso, pero NO ruptura del oligopolio de gases industriales. La accion queda muy por encima del VI."
+  },
+  "base": {
+   "iv_per_share": 261,
+   "prob": 0.475,
+   "note": "Owner earnings ~$6.2B; crecimiento 7.5% -> 5%, WACC 9.0%, g terminal 3.0%. Consistente con el track record: EPS +7-9% guiado FY2026, ROC 24%, +2% organico + pricing + bolt-ons + backlog de proyectos. Foso amplio (oligopolio, contratos take-or-pay 10-15a). El VI (~$261) implica que a $516 la accion cotiza a ~2x el valor intrinseco por DCF."
+  },
+  "optimista": {
+   "iv_per_share": 412,
+   "prob": 0.15,
+   "note": "Owner earnings ~$6.7B; crecimiento 10% -> 6%, WACC 8.5%, g terminal 3.5%. Ejecucion perfecta: margenes hacia ~32%, fuerte backlog de hidrogeno limpio/clean energy, capex de alto retorno y recompras. Incluso con todo a favor, el VI (~$412) sigue por debajo del precio actual."
+  }
+ },
+ "sanity_check": "A $516.71, LIN cotiza a ~28.3x BPA forward (vs su media 5a ~35x: descuento -19.5% frente a SU propia historia pero caro en absoluto), PEG ~3.5, y a ~-1.7% de su maximo historico (clasificado not_depressed). Mi DCF de owner earnings da un VI ponderado de ~$247; el precio implica ~2x el valor intrinseco, y ni siquiera el escenario optimista de ejecucion perfecta ($412) alcanza el precio. Conclusion: negocio excepcional (ROC 24%, foso de oligopolio, SBC casi nula, contratos largos) pero precio que descuenta perfeccion, justificable solo via expansion/sostenimiento de multiplo, no via flujos descontados. Contraste de rendimiento total al accionista (NO DDM): dividendo ~1.2% + recompras ~1.5% = ~2.7%, modesto y que no compensa la prima de valoracion. Margen de seguridad negativo a estos precios; entrada atractiva solo con retroceso significativo (zona ~$260-300 = base).",
+ "method_notes": "DCF de owner earnings a 10 anios, dos fases. Fase 1 (anios 1-5): CAGR de owner earnings explicito (6% conservador / 7.5% base / 10% optimista). Fase 2 (anios 6-10): CAGR declinante linealmente hacia normalizacion (3.5% / 5% / 6%). Valor terminal g=2.5-3.5% (foso amplio justifica extremo alto). WACC = Rf 4.3% (UST 10Y, accion en NASDAQ/USD) + ERP 5.0% x beta 0.95 (gases industriales, defensivo) = ~9.0%; sin ajuste geopolitico. VI/accion = (PV flujos + PV valor terminal − deuda neta $22.4B) / 0.4623B acciones diluidas (= market cap $238.9B / $516.71). Owner FCF base por mandato = FCF reportado $5,089M − 100% SBC $164M = $4,925M; como el FCF reportado esta deprimido por capex de EXPANSION de alto retorno (ROC 24.2%), base/optimista anclan en owner earnings normalizados con capex de mantenimiento (~$6.2-6.7B), conservador usa base cercana al FCF estricto (~$5.4B). Peso del valor terminal ~55-67%. El precio actual supera incluso el escenario optimista: la cotizacion depende del multiplo, no del DCF. Datos FASE 2 VERIFICADO (LIN.json; fuentes Linde IR/8-K SEC EDGAR). Probabilidades: 0.375 + 0.475 + 0.15 = 1.0."
+}

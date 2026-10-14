@@ -1,0 +1,104 @@
+{
+  "ticker": "WKL.AS",
+  "empresa": "Wolters Kluwer N.V.",
+  "rol": "JUEZ DE DESEMPATE — tercera lectura independiente, sin conocer las dos etiquetas previas",
+  "fecha_juicio": "2026-07-28",
+  "moneda": "EUR millones",
+  "ventana": "2020-2025 (6 ejercicios auditados). Nucleo de decision 2021-2025 (5 ejercicios completos con estado de flujos localizado).",
+  "candado_B_prima": "CUMPLIDO. No se ha usado cotizacion, capitalizacion ni multiplo en ninguna puerta. La tabla quinquenal del AR2025 contiene cotizaciones; se ignoraron deliberadamente.",
+  "orden_ejecutado": "G5 -> G1 -> G3 -> G4 -> G2 -> G6 (anti-halo)",
+
+  "fuentes_primarias": [
+    "Wolters Kluwer 2025 Full-Year Report (25-feb-2026), estados condensados consolidados, paginas 14-18 — assets.contenthub.wolterskluwer.com/api/public/content/3118646",
+    "Wolters Kluwer 2025 Annual Report — 'Five-year key figures', pagina 233 (2021-2025); tabla 'Product development spend' (2023-2025)",
+    "Wolters Kluwer 2024 Annual Report — 'Five-year key figures', pagina 241 (2020-2024); estado consolidado de flujos de efectivo, pagina 157",
+    "Wolters Kluwer 2022 Full-Year Report — estado condensado de flujos, pagina 16 (2022 y 2021)",
+    "Wolters Kluwer 2021 Full-Year Report — cifras clave (2021 y 2020)",
+    "Wolters Kluwer 2020 Annual Report — balance (2020 y 2019)",
+    "Wolters Kluwer 2019 Full-Year Report — ingresos 2019/2018",
+    "Wolters Kluwer Full-Year 2008 Results y Full-Year 2010 Results — ingresos y EBITA ordinario 2007-2010 (test de recesion)"
+  ],
+  "nota_fuente": "Wolters Kluwer NO presenta ante la SEC. Toda cifra procede de informes anuales auditados y comunicados de resultados de la propia compania, descargados de contenthub.wolterskluwer.com y del hilo de GlobeNewswire de la compania.",
+
+  "serie_maestra_HECHO": {
+    "ingresos": {"2020": 4603, "2021": 4771, "2022": 5453, "2023": 5584, "2024": 5916, "2025": 6125},
+    "beneficio_neto_IFRS": {"2020": 721, "2021": 728, "2022": 1027, "2023": 1007, "2024": 1079, "2025": 1308},
+    "CFO": {"2020": 1197, "2021": 1292, "2022": 1582, "2023": 1545, "2024": 1654, "2025": 1668},
+    "capex_neto": {"2020": 231, "2021": 239, "2022": 295, "2023": 323, "2024": 313, "2025": 303},
+    "beneficio_operativo_ajustado": {"2020": 1124, "2021": 1205, "2022": 1424, "2023": 1476, "2024": 1600, "2025": 1687},
+    "margen_op_ajustado_pct": {"2020": 24.4, "2021": 25.3, "2022": 26.1, "2023": 26.4, "2024": 27.1, "2025": 27.5},
+    "tasa_fiscal_benchmark_pct": {"2021": 21.5, "2022": 22.6, "2023": 22.9, "2024": 23.1, "2025": 23.6},
+    "compra_de_empresas": {"2021": 108, "2022": 92, "2023": 61, "2024": 335, "2025": 871},
+    "gasto_desarrollo_producto": {"2023": 615, "2024": 660, "2025": 650},
+    "movimiento_autonomo_circulante_entrada": {"2021": 150, "2022": 178, "2023": 98, "2024": 82, "2025": 104},
+    "compensacion_en_acciones": {"2021": 24, "2022": 28, "2023": 31, "2024": 31, "2025": 26},
+    "activos_totales": {"2019": 8775, "2020": 8383, "2021": 9028, "2022": 9510, "2023": 9094, "2024": 9498, "2025": 9584},
+    "fondos_propios": {"2021": 2417, "2022": 2310, "2023": 1749, "2024": 1545, "2025": 798},
+    "deuda_neta": {"2021": 2131, "2022": 2253, "2023": 2612, "2024": 3134, "2025": 4024},
+    "capital_empleado": {"2021": 5859, "2022": 5529, "2023": 5202, "2024": 5604, "2025": 5386},
+    "ROIC_publicado_auditado_pct": {"2020": 12.3, "2021": 13.7, "2022": 15.5, "2023": 16.8, "2024": 18.1, "2025": 18.0}
+  },
+
+  "G5": {
+    "veredicto": "SI_REFORZADO",
+    "cifra": "FCF (CFO-capex) 2021-2025: 1.053 / 1.287 / 1.222 / 1.341 / 1.365 M EUR = 22,1% / 23,6% / 21,9% / 22,7% / 22,3% de ventas. FCF - BN: +325 / +260 / +215 / +262 / +57 M EUR (2025 ajustado por la plusvalia de 232 M de la venta de FRR: +289). Sloan = (BN-CFO)/activos medios: -6,5% / -6,0% / -5,8% / -6,2% / -3,8% — devengo NEGATIVO los cinco anios, la caja va por delante del beneficio. SBC 24-31 M/anio (0,45% de ventas), restada integramente: FCF 2025 post-SBC 1.339 M = 21,9% de ventas. Test GE: CV del beneficio neto 18,0% vs CV del CFO 8,8% — el beneficio es MAS volatil que la caja que lo produce, direccion sana, sin alisado.",
+    "cita": "'Net cash from operating activities 1,668 1,654' / 'Net capital expenditure (303) (313)' — Wolters Kluwer 2025 Full-Year Report, Condensed Consolidated Statement of Cash Flows, pagina 17. Serie 2021-2023 de los comunicados FY2022 (pag. 16) y del AR2024 (pag. 157).",
+    "razonamiento": "El modelo de suscripcion con 1.911 M EUR de ingresos diferidos corrientes cobra por delante de reconocer. El signo del devengo es negativo y estable en toda la ventana, no es un anio. La compensacion en acciones es irrelevante en magnitud y se ha descontado. Es la puerta mas facil del expediente: aprobado reforzado sin matices."
+  },
+
+  "G1": {
+    "veredicto": "NO",
+    "cifra": "NOPAT/ventas: 19,3% / 20,0% / 20,3% / 20,8% / 21,1% (2021-2025). NOPAT/capital invertido bajo TRES denominadores: (a) capital invertido de la propia compania, auditado y verificado por el auditor externo para el LTIP: 13,7 / 15,5 / 16,8 / 18,1 / 18,0% — minimo 13,7%; (b) capital empleado (activo total - pasivo corriente - ingresos diferidos no corrientes): 15,7 / 19,7 / 21,8 / 21,9 / 23,9% — minimo 15,7%; (c) deuda neta + fondos propios: 20,3 / 23,9 / 26,0 / 26,3 / 26,7% — minimo 20,3%. Umbral exigido: minimo de la ventana >= 20% y >= 2x WACC (2 x 10% = 20%).",
+    "cita": "'ROIC (%) 18.0 18.1 16.8 15.5 13.7' — Wolters Kluwer 2025 Annual Report, Five-year key figures, pagina 233. Y en el AR2024, pagina 241: 'ROIC (%) 18.1 16.8 15.5 13.7 12.3' (2024-2020).",
+    "razonamiento": "Dos de los tres denominadores fallan de forma aplastante: el minimo de la ventana esta 4-6 puntos por debajo del umbral. El unico que roza el 20% es (c), y esta contaminado: los fondos propios cayeron de 2.417 a 798 M EUR en cinco anios por 4.500 M de recompras, de modo que 'shareholders equity to capital employed' se hundio de 0,41 a 0,15 y el net gearing salto de 0,9 a 5,0. Es decir, el unico ROIC que aprueba sube porque el denominador se vacia, no porque el negocio rinda mas. Ademas, el denominador de la propia compania es el honesto para un adquirente en serie: anade la amortizacion acumulada de intangibles adquiridos, o sea el coste historico COMPLETO de todo lo que ha comprado en decadas. Sobre ese capital, Wolters Kluwer gana 18%, no 27%. Higiene de denominador: (c) no cruza cero porque los 4.024 M de deuda neta lo dominan, luego es MEDIBLE — no cabe declarar NO MEDIBLE y escapar. Es un NO medido, no un NO por falta de dato."
+  },
+
+  "G3": {
+    "veredicto": "NO_MEDIBLE",
+    "cifra": "Wolters Kluwer NO publica ninguna magnitud fisica ni unitaria: ni suscriptores, ni puestos, ni consultas, ni transacciones, ni ejemplares. Lo unico cuantificado del lado del cliente es la tasa de renovacion ('above 90%') y el peso de ingresos recurrentes (83% en 2025, 82% en 2024). Crecimiento organico 6% en 2024 y 6% en 2025; el print resto 50 pb en 2025. Sin denominador de volumen, precio/mix NO se puede derivar dividiendo el crecimiento de ingresos entre el de volumen. Delator Kraft Heinz COMPROBADO Y DESCARTADO: el margen sube (24,4% -> 27,5%) pero el volumen NO cae — crecimiento organico +6% sostenido, renovaciones >90% mantenidas, plantilla media de 18.562 a 21.050 FTE, cloud software +15% organico. No es cosecha del foso.",
+    "cita": "'we strive to maintain or achieve product renewal rates of 90% or better and a top three NPS score. In 2025, renewal rates for our largest subscription-based expert solutions and subscription-based services remained above 90%' — Wolters Kluwer 2025 Annual Report, Our business model. Contrapunto en la nota de reconocimiento de ingresos del AR2024: '...normal price increases based on local inflation rates or customary business practices as compensation for cost price increases...'",
+    "razonamiento": "La regla es explicita: si no publica ninguna magnitud fisica, es NO MEDIBLE y eso es un resultado valido. No se otorga un SI por inferencia. Y hay un dato incomodo que impide regalarlo: la propia nota contable describe sus subidas de precio como compensacion de la inflacion de costes, no como IPC+100 pb. NO MEDIBLE no cuenta como fallo, pero tampoco como puerta ganada."
+  },
+
+  "G4": {
+    "veredicto": "NO_PROBADA",
+    "cifra": "Wolters Kluwer nunca ha atravesado una contraccion severa. 2008: ingresos 3.374 M EUR vs 3.413 M en 2007 (-1% reportado, +3% en moneda constante, 0% organico). 2009: 3.425 M, +2%, con margen de EBITA ordinario mantenido en ~20%. 2010: 3.556 M, +4%. COVID 2020: 4.603 M vs 4.612 M en 2019, -0,2%. El sector de informacion profesional no cayo un 30% pico a valle en ningun momento de la historia auditada disponible; el grupo ni siquiera registro un ejercicio de caida material de ingresos. Unica cicatriz localizable: en 2009 el margen de EBITA ordinario de Corporate & Financial Services cayo de 27,6% a 23,6% por la exposicion a banca y transaccional de EE.UU., y se acelero la reestructuracion en varias lineas. Pero es una cicatriz de division sin el gatillo de sector -30%, y no dispongo de evidencia de DOS rivales NOMBRADOS que redujeran capacidad competitiva en esa ventana.",
+    "cita": "'Total revenues 3,374 3,413 (1%) 3% 0%' — Wolters Kluwer Full-Year 2008 Results. Y 'Revenues 3,556 3,425 4% 0%' con 'Ordinary EBITA margin 20.4% 19.9%' — Wolters Kluwer Full-Year 2010 Results.",
+    "razonamiento": "La resiliencia de Wolters Kluwer es real y es una virtud del negocio — regulacion obligatoria, suscripcion, 83% recurrente — pero bajo esta puerta la virtud es exactamente el problema: el foso nunca fue sometido al test. NO_PROBADA es el veredicto honesto. El precedente ASML 2009 (ventas -46%, perdidas, I+D sostenido al 29% de unas ventas colapsadas) muestra lo que se exige aqui; Wolters Kluwer no tiene nada remotamente comparable que ensenar. Y sin cicatriz nombrada con magnitud a nivel grupo, la puerta no se otorga."
+  },
+
+  "G2": {
+    "veredicto": "NO",
+    "cifra": "Reinversion = capex neto + desarrollo de producto NO capitalizado + adquisiciones - entrada de circulante (se resta el desarrollo capitalizado para no contarlo dos veces dentro del capex). 2021: 483 / 2022: 573 / 2023: 643 / 2024: 976 / 2025: 1.478 M EUR. Suma quinquenal 4.153 M. REINVERSION SOBRE VENTAS = 4.153 / 27.849 = 14,9% (por anio: 10,1% / 10,5% / 11,5% / 16,5% / 24,1%) — umbral 25%, FALLA los cinco anios, y 2025 solo se acerca por un ejercicio excepcional de M&A (871 M frente a una media de 149 M en 2021-2023). REINVERSION SOBRE NOPAT = 4.153 / 5.664 = 73,3% — esta es la tasa que entra en la identidad g = tasa x ROIIC, y es distinta de la anterior. NOPAT: 922 / 1.089 / 1.134 / 1.230 / 1.289 (2021-2025), NOPAT 2020 = 854. Delta NOPAT 2020->2025 = +435. ROIIC BRUTO = 435 / 4.153 = 10,5%. Descomposicion: margen NOPAT 18,55% (2020) -> 21,05% (2025); parte VOLUMEN a margen constante = (6.125-4.603) x 18,55% = 282; parte EXPANSION DE MARGEN = 6.125 x 2,50 pp = 153. ROIIC EX-MARGEN = 282 / 4.153 = 6,8%. Umbral 15%: falla el bruto y falla mucho mas el ex-margen. Comprobacion de la identidad: 0,733 x 10,5% = 7,7% frente a un CAGR real de NOPAT de 8,6% — cuadra.",
+    "reinversion_pct_NOPAT": 73.3,
+    "roiic_bruto_pct": 10.5,
+    "roiic_ex_margen_pct": 6.8,
+    "cita": "'Acquisition spending 871 335 61 92 108' y 'Net capital expenditure 303 313 323 295 239' — Wolters Kluwer 2025 Annual Report, Five-year key figures, pagina 233. 'Product development spend / % of revenues 11% 11% 11% / EUR millions, approx. 650 660 615' — mismo informe. 'Autonomous movements in working capital 104 82' — 2025 Full-Year Report, pagina 17.",
+    "razonamiento": "Aqui esta el diagnostico duro del expediente. Un tercio del crecimiento del NOPAT en cinco anios (153 de 435) NO vino de capital nuevo sino de expansion de margen — disciplina de costes, apalancamiento operativo, mix hacia cloud. Eso es bueno, pero se agota y no es productividad del capital. Depurado ese efecto, cada euro reinvertido rindio 6,8%. Aun siendo maximamente generoso y excluyendo del denominador los 871 M de adquisiciones de 2025 que todavia no han producido NOPAT, el ROIIC bruto sube solo a 13,3% y el ex-margen a 8,6%: sigue por debajo del 15%. G2 no suspende, decide especie: la especie es la CONSERVADORA."
+  },
+
+  "G6": {
+    "veredicto": "SI",
+    "poder": "COSTES DE CAMBIO, reforzados por RECURSO ACORRALADO (contenido propietario editado por analistas de dominio) y ESCALA en el gasto de desarrollo. El software esta incrustado en el flujo de trabajo obligatorio del cliente: CCH Axcess ejecuta el cumplimiento fiscal de la firma contable, UpToDate esta enganchado a la historia clinica del hospital, CT Corporation es el agente registrado legalmente exigido a cada entidad juridica en cada estado. Sacarlo no es cambiar de proveedor, es rehacer un proceso regulado.",
+    "magnitud": "En la unidad propia de los costes de cambio, que es la retencion: tasa de renovacion por encima del 90% mantenida en las mayores soluciones en 2024 Y 2025, con NPS mantenido o mejorado en la mayoria de los productos principales. Un 90% de renovacion implica una vida media de cliente de 10 anios como SUELO, y las mayores soluciones estan por encima. Ingresos recurrentes 83% del total (2025). 800+ analistas fiscales solo en Tax & Accounting; profesionales en mas de 180 paises. Escala de desarrollo: ~650 M EUR/anio, 11% de ventas.",
+    "caducidad": "Por encima de 10 anios en Tax & Accounting y en Financial & Corporate Compliance (obligacion regulatoria por entidad, renovacion casi mecanica). Reloj en marcha, no disparado: en Health, UpToDate afronta retadores de IA clinica; en Legal, herramientas de IA generativa atacan la investigacion juridica. Busqueda de arranque de reloj a 24 meses — SENALES ENCONTRADAS: (1) subida anunciada del gasto de desarrollo de 11% a 12-13% de ventas para 2026 y siguientes; (2) sucesion de CEO con mandato explicito de 'acelerar nuestras ofertas de IA' como primera prioridad; (3) encuadre defensivo de que 'casi el 70% de los ingresos digitales proceden de soluciones con IA'. CONTRAPESO DECISIVO: las metricas medidas del foso no se han movido — renovaciones >90% mantenidas en 2025, organico del 6% igual que en 2024, cloud software +15% organico. Un reloj arrancado deja huella en los numeros de retencion, y aqui no la hay todavia. Se otorga la puerta, con el reloj marcado como el riesgo vivo a vigilar.",
+    "cita": "'In 2025, renewal rates for our largest subscription-based expert solutions and subscription-based services remained above 90%. Net promoter scores for the majority of our top products and services were maintained or improved.' — Wolters Kluwer 2025 Annual Report, Our business model. Senal de reloj: 'We will increase our annual investment in product development into the range of 12-13% of revenues in 2026 and beyond' — 2025 Full-Year Report, Strategy Update, pagina 3."
+  },
+
+  "etiqueta": "MENOS_5_6",
+  "puertas_pasadas": 4,
+  "conteo": {
+    "G5": "PASA (reforzado)",
+    "G1": "FALLA",
+    "G3": "NO_MEDIBLE — exento, no cuenta como fallo",
+    "G4": "NO_PROBADA — no otorgada",
+    "G6": "PASA",
+    "G2": "NO — no suspende, fija especie CONSERVADORA",
+    "aritmetica": "De las seis: pasan G5, G6, G3 (por exencion) y G2 (que nunca suspende) = 4. Fallan G1 (NO medido) y G4 (NO_PROBADA). 4 de 6 -> MENOS_5_6."
+  },
+  "argumento_de_la_etiqueta": "El punto que decide el desempate es si NO_PROBADA es un pase gratuito como NO_MEDIBLE. NO lo es, y el propio escalafon lo demuestra: si NO_PROBADA fuese exento, una empresa con las otras cinco puertas limpias y G4 sin probar seria 'seis de seis' y por tanto ULTRA. Pero la regla dice expresamente que ese caso es PRESUNTA, es decir, DEGRADADO por debajo de ULTRA. Luego NO_PROBADA cuesta. La exencion se concede por escrito solo a NO_MEDIBLE, y quien redacto la regla uso los dos terminos por separado a proposito. Con G4 NO_PROBADA Y ADEMAS G1 en NO medido, hay dos puertas no ganadas: no cabe PRESUNTA (exige que las otras cinco pasen) ni MUY_BUENA (es la etiqueta de un solo fallo). Queda MENOS_5_6.",
+  "confianza": "MEDIA",
+  "puerta_mas_dudosa": "G6. Las otras cinco se decidieron con aritmetica: G5 y G2 no admiten discusion, G1 falla bajo dos de tres denominadores y solo roza el umbral bajo el que esta contaminado por 4.500 M de recompras, G3 no tiene magnitud fisica publicada y G4 no tiene contraccion que juzgar. G6 es la unica que exigio juicio: el poder esta nombrado y medido en su unidad correcta (renovacion >90%), pero la caducidad de mas de 10 anios choca de frente con tres senales de arranque de reloj dentro de la ventana de 24 meses — subida del gasto de desarrollo de 11% a 12-13% de ventas, relevo de CEO con mandato de acelerar IA, y encuadre defensivo del 70% de ingresos digitales 'con IA'. La otorgue porque las metricas medidas del foso (renovacion, organico, cloud) no se han deteriorado nada, y un reloj de verdad arrancado deja huella en la retencion antes que en el discurso. Dato tranquilizador para la etiqueta: si G6 se volteara a NO, el resultado seria 3 de 6, que sigue siendo MENOS_5_6. La etiqueta es ROBUSTA a mi propia duda.",
+  "frontera_declarada": "SI, la empresa esta genuinamente en la frontera, pero NO por los hechos sino por el mapeo. Los hechos los sostengo con confianza ALTA: todas las cifras salen de informes anuales auditados de la propia compania y son inequivocas. Lo que esta en la frontera es UNA sola pregunta interpretativa: si NO_PROBADA de G4 se trata como exento (como NO_MEDIBLE) o como no ganada. Si se trata como exento, WKL.AS es 5 de 6 = MUY_BUENA. Si no, es 4 de 6 = MENOS_5_6. Apuesto a que ese es exactamente el punto donde discreparon las dos lecturas anteriores. Lo resuelvo por el argumento de la degradacion a PRESUNTA, que me parece concluyente, pero declaro MEDIA porque la etiqueta pende de esa unica bisagra y no de ninguna cifra.",
+  "resumen": "Wolters Kluwer es un negocio excelente que no es un ULTRA, y las seis puertas lo dicen con una claridad poco frecuente. Lo que pasa, pasa espectacularmente: la caja (G5) es el mejor expediente posible — FCF del 22-24% de ventas estable durante cinco anios, devengo Sloan negativo los cinco (-3,8% a -6,5%), CFO por encima del beneficio neto en 215-325 M EUR cada anio, y el beneficio MAS volatil que la caja que lo produce, o sea lo contrario del delator de General Electric. Y el mecanismo (G6) esta nombrado y medido: costes de cambio en flujos de trabajo regulados, con renovaciones por encima del 90% mantenidas en 2024 y 2025 y un 83% de ingresos recurrentes. Lo que no pasa, no pasa por poco margen sino por estructura. G1: el ROIC auditado de la propia compania, el que verifica el auditor externo para pagar el LTIP, va de 13,7% a 18,1% en la ventana — el minimo esta seis puntos por debajo del umbral, y el unico denominador que aprueba (deuda neta mas fondos propios, minimo 20,3%) lo hace porque 4.500 M de recompras vaciaron los fondos propios de 2.417 a 798 M EUR y hundieron la ratio de equity sobre capital empleado de 0,41 a 0,15. Ese ROIC no sube: se le encoge el denominador. G2 remata el diagnostico: la reinversion es 14,9% de ventas (umbral 25%) y 73,3% del NOPAT, y el ROIIC bruto es 10,5% frente a un umbral de 15%. Peor aun, al descomponer los 435 M de aumento de NOPAT desde 2020, 153 M vinieron de expansion de margen y solo 282 M de volumen: el ROIIC EX-MARGEN, que es el que mide productividad del capital de verdad, es 6,8%. Un tercio del motor de los ultimos cinco anios ha sido disciplina de costes, y eso se agota. G3 es NO MEDIBLE con honestidad: la compania no publica ninguna magnitud fisica — ni suscriptores, ni puestos, ni transacciones — asi que el precio/mix no se puede derivar; comprobe el delator de Kraft Heinz y lo descarte, porque el volumen no cae (organico +6%, renovaciones >90%, plantilla al alza), pero no puedo otorgar lo que no puedo medir. Y G4 es NO_PROBADA sin ambiguedad: en 2008 los ingresos hicieron -1% reportado y 0% organico, en 2009 crecieron un 2% con el margen de EBITA ordinario intacto en ~20%, y en el COVID de 2020 cayeron un 0,2%. El foso nunca fue sometido al test porque el sector nunca cayo un 30%. Esa resiliencia es una virtud del negocio y aqui es exactamente el problema. Etiqueta MENOS_5_6 a 4 de 6, con especie conservadora si algun dia llegara a ULTRA. Confianza MEDIA en la etiqueta y ALTA en los hechos: la bisagra unica es si NO_PROBADA se trata como exento igual que NO_MEDIBLE — si se tratara asi, esto seria MUY_BUENA a 5 de 6. Sostengo que no, porque el propio escalafon degrada a PRESUNTA el caso de cinco puertas limpias con G4 sin probar, y una degradacion explicita no es una exencion."
+}

@@ -1,0 +1,146 @@
+{
+  "ticker": "HOYCY",
+  "empresa": "HOYA Corporation (7741.T / ADR HOYCY)",
+  "fecha_juicio": "2026-07-28",
+  "moneda": "JPY millones",
+  "ventana": "FYE 31-mar-2019 a FYE 31-mar-2026 (8 ejercicios auditados IFRS) + ventana de crisis FYE mar-2008 a mar-2010 (JGAAP + IFRS de transicion)",
+  "candado_B_prima": "CUMPLIDO. No se consulto cotizacion, capitalizacion ni multiplo en ningun momento.",
+  "orden_ejecutado": "G5 -> G1 -> G3 -> G4 -> G2 -> G6",
+
+  "fuentes_primarias": [
+    "HOYA Corporation and its Subsidiaries — Consolidated Financial Statements under IFRS Accounting Standards and Independent Auditor's Report, For the year ended 31 March 2026 (https://www.hoya.com/wp-content/uploads/2026/07/Annual-Report-Final.pdf)",
+    "Idem FY ended 31 March 2025 (2025/07/Annual-Report-Final-3.pdf), 31 March 2023 (2023/07/FY22_EnFS.pdf), 31 March 2022 (2022/06/IFRS-REPORT_FY2021.pdf), 31 March 2021 (2022/03/12-4.pdf), 31 March 2020 (2022/03/11-5.pdf), 31 March 2019 (2019/07/10.pdf), 31 March 2010 (2010/12/01.pdf)",
+    "Presentation for the three months ended Mar.31,2026 (TDnet 7741, doc 2797232)",
+    "FY25 Q4 Earnings Call Transcript, 1-may-2026",
+    "FAQs Related to Q4 FY25 Results, 1-jul-2026",
+    "HOYA Integrated Report 2025 (web) — pagina 'Capability' y 'A 10-Minute Synopsis of the 2025 Integrated Report'",
+    "HOYA Integrated Report 2024 (PDF)",
+    "QUARTERLY REPORT 4th Quarter / Annual FY ended March 31, 2009 (archivo Wayback de hoya.co.jp/english/investor/2009_4Q_Quarterly.pdf)",
+    "Briefing Summary of the Analyst / Investor Meeting for FY ended March 31, 2009, Tokyo 30-abr-2009 (Wayback)"
+  ],
+
+  "serie_maestra_JPYm": {
+    "FYE": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+    "ventas": [565810, 576546, 547921, 661466, 723582, 762610, 866032, 947749],
+    "beneficio_antes_impuestos": [144657, 147268, 159218, 210706, 215832, 236564, 259965, 327668],
+    "beneficio_neto": [122072, 114587, 125221, 165322, 168788, 182566, 201750, 251451],
+    "CFO": [146588, 163366, 151812, 190055, 201829, 222802, 235113, 278446],
+    "capex_caja_PPE": [26672, 45177, 31246, 28872, 33473, 41074, 47922, 56581],
+    "I+D_gastado": [26100, 26851, 23256, 25376, 29415, 33003, 35277, 36291],
+    "publicidad_y_promocion": [null, 12214, 9999, 13186, 16004, 18257, 20976, 17973],
+    "activos_totales": [763915, 811008, 853290, 992839, 1028326, 1203623, 1234278, 1300897],
+    "patrimonio_total": [627707, 629265, 672412, 789056, 814604, 962264, 971629, 1035004],
+    "caja": [293397, 317982, 334897, 419404, 405888, 525162, 533967, 574092],
+    "deuda_financiera_total": [2838, 21966, 20749, 21600, 24582, 29239, 37283, 42241]
+  },
+
+  "G5": {
+    "veredicto": "SI_REFORZADO",
+    "FCF_JPYm": [119916, 118189, 120566, 161183, 168356, 181728, 187191, 221865],
+    "FCF_pct_ventas": [21.2, 20.5, 22.0, 24.4, 23.3, 23.8, 21.6, 23.4],
+    "FCF_menos_beneficio_neto_JPYm": [-2156, 3602, -4655, -4139, -432, -838, -14559, -29586],
+    "FCF_menos_BN_pct_ventas": [-0.4, 0.6, -0.8, -0.6, -0.1, -0.1, -1.7, -3.1],
+    "signo_del_devengo": "CFO > beneficio neto en los 8 ejercicios sin excepcion. Exceso medio +32,282 JPYm/anio (rango +24,516 a +48,779). El devengo es sistematicamente NEGATIVO: la caja llega antes que el beneficio.",
+    "sloan_pct": [-3.47, -6.19, -3.20, -2.68, -3.27, -3.61, -2.74, -2.13],
+    "sloan_umbral": "5% — cumplido en los 8 anios y siempre con signo conservador (negativo).",
+    "test_General_Electric": "Desviacion tipica del crecimiento anual del beneficio neto 12.0% vs. 9.5% del CFO que lo produce. El beneficio es MAS volatil que la caja: no hay alisamiento. Delator NO activado.",
+    "FCF_tras_SBC_completa": "FY2026: 278,446 - 56,581 capex - 7,215 de compensacion en acciones = 214,650 JPYm (22.6% de ventas). No se suma de vuelta la SBC. FY2025 equivalente: 184,821 (21.3%).",
+    "aviso_calidad_FY2026": "El beneficio neto FY2026 (251,451) esta inflado por 30,940 JPYm de partidas no recurrentes dentro de 'Other income': 23,538 de cambio de valor razonable de pasivos financieros (opcion de venta de minoritarios), 4,137 de venta de acciones de filiales y 3,265 de venta de negocio. Beneficio neto normalizado ~220,512. El CFO esta limpio de todas ellas (linea 'Others' -28,776).",
+    "cifra": "CFO > BN los 8 anios (+32,282 JPYm de media); Sloan entre -2.1% y -6.2%, siempre negativo; FCF 20.5%-24.4% de ventas; FCF tras SBC completa FY2026 = 214,650 JPYm (22.6% de ventas)",
+    "cita": "Consolidated Financial Statements FYE 31-mar-2026, Consolidated Statement of Cash Flows: 'Net cash generated from operating activities' 235,113 (FY25) y 278,446 (FY26) frente a 'Profit for the year' 201,750 y 251,451; 'Payments for acquisition of property, plant and equipment' (47,922) y (56,581); Nota 24(3) 'Share-based payments' 2,370 y 7,215."
+  },
+
+  "G1": {
+    "veredicto": "SI",
+    "definicion_NOPAT": "EBIT ajustado = PBT + costes financieros - ingresos financieros - resultado de asociadas - otros ingresos. NOPAT = EBIT ajustado x (1 - 23%), tasa efectiva media del periodo (rango real 21.4%-23.3%).",
+    "definicion_capital_invertido": "Patrimonio total + deuda financiera total - caja y equivalentes. Excluye la caja porque la propia direccion la declara excedente: politica de capital de FY25 con objetivo de net cash optimo y devolucion de mas del 100% del FCF durante tres anios.",
+    "NOPAT_JPYm": [106645, 109444, 116181, 156703, 159494, 160523, 186064, 216804],
+    "NOPAT_sobre_ventas_pct": [18.8, 19.0, 21.2, 23.7, 22.0, 21.0, 21.5, 22.9],
+    "capital_invertido_medio_JPYm": [312171, 335198, 345756, 374758, 412275, 449820, 470643, 489049],
+    "ROIC_pct": [34.2, 32.7, 33.6, 41.8, 38.7, 35.7, 39.5, 44.3],
+    "minimo_ventana": "32.7% (FYE mar-2020)",
+    "umbral": "minimo >= 20% Y >= 2x WACC (referencia 10% -> 20%). Cumplido con margen de 12.7 puntos en el peor anio.",
+    "higiene_denominador": "MEDIBLE. El capital invertido recorre 287,194 -> 503,153 JPYm, media 412,000; el minimo equivale al 70% de la media, nunca se acerca al 20% ni cruza cero. No hay amplificacion.",
+    "nota_de_contraste": "El ROIC que la propia HOYA publica (19.8% en FY2024 segun el sintesis del Informe Integrado 2025) mete la caja excedente en el denominador y por tanto INFRAVALORA el retorno operativo. Con caja dentro, HOYA rozaria el umbral; sin ella lo supera holgadamente. Esta eleccion de denominador es probablemente una de las fuentes del desacuerdo entre analistas.",
+    "cifra": "ROIC minimo de la ventana 32.7% (FY2020), maximo 44.3% (FY2026); NOPAT/ventas minimo 18.8%; capital invertido FY2026 = 1,035,004 + 42,241 - 574,092 = 503,153 JPYm",
+    "cita": "Consolidated Financial Statements FYE 31-mar-2026: Statement of Financial Position — Total equity 1,035,004; Interest-bearing long-term debt 31,517; Interest-bearing short-term debt 10,724; Cash and cash equivalents 574,092. Statement of Comprehensive Income — Sales 947,749; Profit before tax 327,668; Finance income 13,316; Finance costs 1,991; Other income 34,213; Income tax expense 76,216."
+  },
+
+  "G3": {
+    "veredicto": "NO_MEDIBLE",
+    "busqueda_de_magnitud_fisica": "Se rastrearon: (a) los estados financieros consolidados IFRS FY2019-FY2026 incluida la nota 5 de segmentos y la nota 23 de ingresos; (b) la Presentation for the three months ended Mar.31,2026; (c) la transcripcion de la llamada de FY25 Q4; (d) el FAQ de FY25 Q4; (e) el Informe Integrado 2024 completo y el sintesis del 2025. En ninguno aparece una magnitud fisica o unitaria: ni lentes vendidas, ni discos, ni mask blanks, ni endoscopios instalados, ni LIO implantadas. HOYA solo publica ingresos en yenes y crecimiento a tipo de cambio constante (CC).",
+    "consecuencia": "Sin denominador de volumen no se puede derivar precio/mix. La puerta es NO MEDIBLE, que segun el reglamento es un resultado valido y no cuenta como fallo.",
+    "delator_Kraft_Heinz_no_concluyente_pero_encendido": "Life Care (62% de los ingresos FY2026): margen de beneficio antes de impuestos del segmento sube de 16.4% (90,368/550,917) a 21.9% (129,531/590,683) mientras el crecimiento a tipo constante de lentes oftalmicas en Q4 FY25 fue de solo +2% y el de LIO de +1%. Es el PATRON de margen al alza con volumen real casi plano. No puedo probarlo como cosecha del foso porque falta el volumen; lo dejo declarado como hueco, no como aprobado.",
+    "evidencia_cualitativa_de_precio": "La direccion afirma en el FAQ de FY25 Q4 que responde a los aumentos de materia prima, logistica y energia principalmente via ajustes de precio. Es una afirmacion de la empresa, no una elasticidad medida: no basta para otorgar la puerta.",
+    "cifra": "0 magnitudes fisicas publicadas en 8 ejercicios de filings. Life Care: margen PBT de segmento 16.4% -> 21.9% con crecimiento CC de lentes de +2% en el ultimo trimestre.",
+    "cita": "Presentation for the three months ended Mar.31,2026, seccion Eyeglass Lenses: 'Sales Growth +11% (CC +2%)' — unica metrica de crecimiento publicada, monetaria. Nota 5 de los estados FY2026: la unica desagregacion es 'Revenue from external customers' en millones de yenes por segmento (Life Care 590,680; Information Technology 354,751; Other 2,318)."
+  },
+
+  "G4": {
+    "veredicto": "NO",
+    "contraccion_severa_identificada": "SI existio. Ejercicio cerrado el 31-mar-2009: caida interanual de ventas por producto en el 4T — Memory Disks -68.6%, Optical Lenses -58.7%, Mask Blanks -40.5%, LSI Photomasks -37.4%, LCD Photomasks -30.3%. Ventas del grupo en el trimestre -38.9%. Primer trimestre en perdida operativa de su historia como cotizada (-60 JPYm). Por tanto NO procede NO_PROBADA: la prueba existio y se puede juzgar.",
+    "que_hizo_HOYA_con_el_foso": "Se encogio. Capex del grupo: 39,465 (FYE mar-2008) -> 34,838 (FYE mar-2009) -> 26,651 (FYE mar-2010) = -32.5% pico a valle. I+D consolidada aparentemente plana (17,412 -> 17,630) pero la subida procede integramente de la consolidacion a anio completo de Pentax (+1,323); los segmentos propios RECORTARON: Electro-Optics -544 (-5.5%), Vision Care -228, Photonics -170, Health Care -156. Es exactamente lo contrario del precedente ASML 2009.",
+    "palabras_de_la_direccion": "En la reunion con analistas del 30-abr-2009 el consejero delegado Suzuki describe una reestructuracion en curso y afirma que hace falta encoger un poco mas, con cambio de estructura operativa y traslado de oficinas y fabricas. El director de operaciones Hamada, sobre mask blanks, defiende que su competitividad no caia — defensa de no perder cuota, no reivindicacion de ganarla.",
+    "rivales_nombrados_que_redujeran": "NO acreditados. No hay en ninguna fuente primaria de HOYA la identificacion de dos rivales nombrados reduciendo capacidad mientras HOYA la ampliaba en 2008-2010. La puerta exige nombres y no los hay.",
+    "cicatriz": "Existe una cicatriz enorme y esta nombrada — perdidas por deterioro 30,458 JPYm en FYE mar-2009 frente a 581 el anio anterior, de las cuales 29,546 en el segmento Pentax; los activos intangibles del balance caen de 56,304 a 22,150 JPYm (-34,154); beneficio neto -69.3%; perdida neta trimestral de -27,834 JPYm; payout del 112%. PERO esa cicatriz NO pago una ampliacion del foso: fue el reconocimiento de que la adquisicion de Pentax habia fallado, y el negocio de camaras se vendio despues a Ricoh. Cicatriz sin foso comprado no otorga la puerta.",
+    "frontera_honesta": "Existe un segundo candidato de ventana que no pude documentar con fuente primaria en esta sesion: la contraccion estructural del disco duro entre 2010 y 2016 (unidades del sector -35% aproximadamente), de la que HOYA sale afirmando hoy ser el unico fabricante de sustratos de vidrio para discos magneticos y con el 100% del vidrio en HDD de consumo. Si esa ventana se documentara con rivales nombrados y cicatriz, G4 pasaria a SI y la etiqueta subiria a ULTRA-C. Lo declaro como hueco, no lo doy por bueno.",
+    "cifra": "Capex 39,465 -> 34,838 -> 26,651 JPYm (-32.5% pico a valle FY2008-FY2010); I+D de los segmentos propios en caida en FY2009; deterioro 30,458 JPYm; intangibles del balance -34,154 JPYm; ventas por producto -30% a -69% en 4T FY2009",
+    "cita": "QUARTERLY REPORT FY ended March 31, 2009, p.23 'Sales Growth Rate by Products' (Mask Blanks -40.5, Memory Disks -68.6, Optical Lenses -58.7 en el trimestre) y p.18-19 tabla 'Industry Segments' (Capital Expenditures 34,838 vs 39,465; R&D Expenses 17,630 vs 17,412 con Electro-Optics 9,332 vs 9,876; Loss on impairment 30,458 vs 581). Capex FYE mar-2010 de 26,651 en 'Consolidated Financial Statements under IFRSs for the year ended 31 March 2010', estado de flujos, linea 'Payments for acquisition of property, plant and equipment'."
+  },
+
+  "G2": {
+    "veredicto": "NO",
+    "advertencia_atendida": "Se reportan por separado las DOS tasas. La que entra en g = tasa x ROIIC es la de NOPAT; la que decide el umbral de la puerta es la de VENTAS.",
+    "componentes_reinversion_JPYm": {
+      "FY2022": {"capex": 28872, "I+D": 25376, "marca": 13186, "adquisiciones": 120, "var_circulante": 9386, "total": 76940, "pct_ventas": 11.6},
+      "FY2023": {"capex": 33473, "I+D": 29415, "marca": 16004, "adquisiciones": 4747, "var_circulante": 18778, "total": 102417, "pct_ventas": 14.2},
+      "FY2024": {"capex": 41074, "I+D": 33003, "marca": 18257, "adquisiciones": 3241, "var_circulante": 1305, "total": 96880, "pct_ventas": 12.7},
+      "FY2025": {"capex": 47922, "I+D": 35277, "marca": 20976, "adquisiciones": 738, "var_circulante": 33602, "total": 138515, "pct_ventas": 16.0},
+      "FY2026": {"capex": 56581, "I+D": 36291, "marca": 17973, "adquisiciones": 1880, "var_circulante": 19109, "total": 131834, "pct_ventas": 13.9}
+    },
+    "reinversion_pct_VENTAS_media_5a": 13.8,
+    "reinversion_pct_NOPAT_media_5a": 62.1,
+    "reinversion_pct_NOPAT_FY2026": 60.8,
+    "umbral_puerta": "reinversion >= 25% de VENTAS. HOYA se queda en 13.8% de media y nunca supera el 16.0%. FALLA.",
+    "ROIIC_bruto": {
+      "numerador": "NOPAT FY2026 216,804 - NOPAT FY2021 116,181 = 100,623 JPYm",
+      "denominador": "suma de reinversion FY2022-FY2026 = 546,586 JPYm",
+      "resultado_pct": 18.4
+    },
+    "ROIIC_ex_margen": {
+      "descomposicion": "Margen NOPAT FY2021 = 21.20%. Ventas FY2026 947,749 al margen de FY2021 = 200,923. Componente de volumen a margen constante = 200,923 - 116,181 = 84,742. Componente de expansion de margen = 216,804 - 200,923 = 15,881 (15.8% del total).",
+      "resultado_pct": 15.5
+    },
+    "salvedad_grave_sobre_el_ROIIC": "El 'volumen a margen constante' aqui es crecimiento de INGRESOS EN YENES, no volumen fisico, y el yen se deprecio de ~106 a ~155 por dolar entre FY2021 y FY2026 con el 90% de las ventas fuera de Japon. Deflactando de forma aproximada (INFERENCIA, no HECHO), las ventas FY2026 a tipo de FY2021 serian ~694,000 JPYm, el componente de volumen caeria a ~30,900 y el ROIIC ex-margen ex-divisa a ~5.7%. No lo uso para decidir la puerta porque el umbral ya se incumple por el lado de ventas, pero es la cifra que mas deberia inquietar de todo el expediente.",
+    "consecuencia": "G2 = NO -> especie ULTRA-C (compounder de caja, no de reinversion). Coherente con la propia politica de capital anunciada: devolver mas del 100% del FCF durante tres anios. HOYA no tiene pista larga que absorber su propio flujo.",
+    "cifra": "Reinversion 13.8% de VENTAS (media 5 anios, rango 11.6%-16.0%) frente al umbral de 25%; 62.1% del NOPAT; ROIIC bruto 18.4%, ROIIC ex-margen 15.5%",
+    "cita": "Consolidated Financial Statements FYE 31-mar-2026: estado de flujos ('Payments for acquisition of property, plant and equipment' 56,581; 'Payments for acquisition of subsidiaries' 1,723; movimientos de circulante +2,025 / -18,622 / -2,489 / -23); estado de resultado global ('Advertising and promotion expense' 17,973); Nota 24(2) 'Total R&D expenses recognised as incurred' 36,291."
+  },
+
+  "G6": {
+    "veredicto": "SI",
+    "poder": "Recurso acorralado + poder de proceso (Helmer), en dos activos distintos y no correlacionados: (1) el sustrato de vidrio para discos duros, donde HOYA se declara unico fabricante; (2) la deposicion multicapa sin defectos sobre vidrio de expansion termica ultrabaja para mask blanks EUV. Reforzado por costes de cambio: cambiar de proveedor de blank obliga al cliente a recualificar la especificacion de defectos del nodo entero.",
+    "magnitud_en_su_propia_unidad": "Sustratos de vidrio para HDD: 100% de cuota en HDD de consumo y ~40% del vidrio en el mercado nearline de centros de datos, con objetivo declarado del 100%. Mask blanks: HOYA se atribuye una cuota global abrumadora, y en EUV declara mantener el liderazgo apoyada en producto de baja densidad de defectos. Lentes oftalmicas: segundo fabricante mundial, 90% de las ventas fuera de Japon.",
+    "caducidad_estimada": "Por encima de 10 anios. Anclajes: (a) la hoja de ruta de miniaturizacion que la propia HOYA publica llega hasta 0.3 nm en 2035, es decir la demanda del recurso esta contratada por roadmap durante mas de una decada; (b) HAMR obliga a sustrato de vidrio por resistencia termica, con lo que la sustitucion tecnologica juega A FAVOR y no en contra; (c) los ciclos de cualificacion cliente por cliente en blanks EUV se miden en anios, no en trimestres.",
+    "busqueda_de_arranque_de_reloj_a_24_meses": "Buscado y NO encontrado en direccion adversa. Al contrario: en FY2025 los blanks EUV crecieron con mezcla de alta precision, se aprobo una nueva planta de blanks de 50,000 JPYm para FY28, otra de sustratos HDD en Vietnam por ~50,000 JPYm, un edificio adicional en Singapur por mas de 40,000 JPYm, y entraron segundo y tercer cliente de sustrato HDD. Unico contrapeso, y es la propia empresa quien lo dice: espera que la competencia en blanks EUV se intensifique a medio y largo plazo. Lo registro como aviso, no como reloj arrancado.",
+    "cifra": "100% de cuota en vidrio para HDD de consumo; ~40% del nearline con objetivo del 100%; segundo fabricante mundial de lentes oftalmicas; hoja de ruta de nodos hasta 2035; compromisos de capacidad anunciados por ~140,000 JPYm",
+    "cita": "HOYA Informe Integrado 2025, sintesis de 10 minutos: 'HOYA is the only manufacturer of glass substrates for magnetic disks used in HDDs' y, sobre nearline, aproximadamente 40% vidrio y 60% aluminio. Pagina Capability del mismo informe: cuota de sustrato de vidrio en nearline de aproximadamente 40% con objetivo a largo plazo del 100% del mercado. FAQ FY25 Q4: inversion de 50,000 millones de yenes en nueva planta de blanks operativa en FY28."
+  },
+
+  "conteo": {
+    "puertas_que_cuentan": ["G5", "G1", "G3", "G4", "G6"],
+    "G5": "SI_REFORZADO (pasa)",
+    "G1": "SI (pasa)",
+    "G3": "NO_MEDIBLE (no cuenta como fallo)",
+    "G4": "NO (FALLA)",
+    "G6": "SI (pasa)",
+    "G2": "NO (no suspende; fija especie ULTRA-C)",
+    "puertas_pasadas_sobre_seis": 5,
+    "etiqueta": "MUY_BUENA"
+  },
+
+  "etiqueta": "MUY_BUENA",
+  "confianza": "MEDIA",
+  "puerta_mas_dudosa": "G4",
+  "resumen_ejecutivo": "HOYA es un negocio de calidad mecanica excepcional y de historia de crisis mediocre. La caja y el retorno sobre el capital son de los mejores que se pueden encontrar: CFO por encima del beneficio neto los ocho anios sin una sola excepcion, Sloan siempre negativo entre -2.1% y -6.2%, FCF del 20-24% de las ventas y ROIC ex-caja que nunca baja del 32.7%. El mecanismo esta nombrado y medido: unico fabricante de sustrato de vidrio para disco duro y posicion dominante en mask blanks, con una hoja de ruta de nodos que llega a 2035. Lo que rompe la tesis de ULTRA es la puerta 4: HOYA si atraveso una contraccion sectorial brutal en 2008-2009, con productos cayendo entre el 30% y el 69%, y lo que hizo fue encogerse — capex recortado un 32.5% pico a valle, I+D recortada en todos sus segmentos propios, un deterioro de 30,458 millones de yenes que no compraba foso sino que enterraba una adquisicion fallida, y un consejero delegado diciendo en abril de 2009 que aun hacia falta encoger mas. No hay dos rivales nombrados que se retiraran mientras HOYA avanzaba. Ademas la pista es corta: reinvierte el 13.8% de las ventas frente a un umbral del 25%, y ella misma ha anunciado que devolvera mas del 100% del flujo libre durante tres anios."
+}

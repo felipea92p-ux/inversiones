@@ -1,0 +1,211 @@
+{
+  "ticker": "MELI",
+  "empresa": "MercadoLibre, Inc.",
+  "cik": "0001099590",
+  "bolsa": "NASDAQ",
+  "domicilio_fiscal": "Delaware (EEUU) / sede operativa Montevideo, Uruguay",
+  "divisa_funcional_reporte": "USD (la matriz reporta en USD; las filiales operan en BRL, MXN, ARS, CLP, COP, UYU y el efecto de conversion pasa por la cuenta de resultados)",
+  "fecha_analisis": "2026-07-28",
+  "cierre_usado": "2026-07-27",
+  "etiqueta_calidad_congelada": "MENOS_5_6",
+  "puertas_pasadas": 3,
+  "especie": "G2",
+  "mos_exigido_pct": 52,
+  "regla_mos": "El encargo dice: '40% para abrir. Si Felipe ya la tiene en cartera es CARGAR y sube 12 puntos (30% ULTRA, 35% PRESUNTA, 40% MUY_BUENA)'. La escalera solo es monotona si CARGAR = ABRIR + 12: ULTRA 18->30, PRESUNTA 23->35, MUY_BUENA 28->40, MENOS_5_6 40->52. MELI esta en cartera y pesa 20,42% del NAV (la mayor posicion), asi que aplico 52%. AVISO DE INCOHERENCIA DECLARADO: el expediente de ZTS de ayer registro la regla al reves ('bajaria 12 puntos'). Con la lectura contraria (28%) el veredicto de este expediente NO cambia ni un apice: el MoS medido es de tres digitos negativos.",
+  "rol": "VALORADOR. La calidad esta congelada en MENOS_5_6 y no se reclasifica hacia arriba. Que MELI haya crecido las ventas un 49% interanual en Q1-2026 no la convierte en ULTRA: la convierte en una MENOS_5_6 que crece rapido. Y que haya caido un 28,6% desde el maximo de 52 semanas tampoco: la convierte en una MENOS_5_6 mas barata que hace un anio, que sigue cotizando a 48 veces sus owner earnings.",
+
+  "mecanismo_heredado": {
+    "motor": "MELI convierte densidad logistica propia en coste unitario decreciente, devuelve ese ahorro al comprador como envio gratis mas barato, y cobra el volumen resultante dos veces: una en take rate del marketplace y otra en float y credito sobre el mismo cliente.",
+    "eslabon_mas_debil": "El motor de beneficio no es el capital sino el margen. El 74% de la mejora de NOPAT de cinco anios vino de expansion de margen y solo el 26% de volumen a margen constante, lo que deja un ROIIC ex-margen del 4,9%. Sobre eso, el NOPAT sobre ventas nunca ha pasado del 10,0% en toda la ventana, con el EBIT ya CAYENDO un 20% interanual en Q1-2026 mientras las ventas suben un 49%.",
+    "reinversion_pct_ventas": 35.5,
+    "roiic_bruto_pct": 18.8,
+    "roiic_ex_margen_pct": 4.9,
+    "nota_del_valorador": "El ROIIC EX-MARGEN de 4,9% frente a un WACC de mercado de 13,7% es el unico dato que hace falta para cerrar este expediente. Cada dolar que MELI reinvierte a 4,9% cuando su capital cuesta 13,7% vale, en perpetuidad, 0,36 dolares. Reinvertir el 35,5% de las ventas a esos retornos no es un compounder: es una maquina de convertir capital en cuota de mercado. Y hay una comprobacion propia que empeora el dato congelado: entre el cierre de 2023 y el 31-mar-2026 el activo total subio 29.288 MM USD (17.646 -> 46.934) mientras el NOPAT subio 753 MM (1.390 -> 2.143), un retorno incremental sobre activo del 2,6%. INFERENCIA, y no reabro la calidad: solo dejo constancia de que el 4,9% congelado es, si acaso, generoso."
+  },
+
+  "precio_y_capital": {
+    "precio_usd": 1819.74,
+    "fuente_precio": "HECHO - snapshot IBKR (contract_id 45602025, NASDAQ), campo last con is_close=true, consultado 2026-07-28. Cierre de la sesion del 2026-07-27. Bid/ask en el momento de la consulta 1.810,00 / 1.862,07.",
+    "rango_52s": {"alto": 2548.5, "bajo": 1495.0, "apertura_52s": 2365.0, "alto_13s": 1905.49, "bajo_13s": 1495.0},
+    "variacion_ytd_pct": -9.66,
+    "distancia_maximo_52s_pct": -28.6,
+    "distancia_minimo_52s_pct": 21.7,
+    "volatilidad_historica_anual_pct": 35.4,
+    "comentario_precio": "La correccion es real pero moderada y no ha comprimido el multiplo hasta nada parecido a una oportunidad: a 1.819,74 USD MELI cotiza a 48,0 veces sus owner earnings de mantenimiento de los ultimos doce meses y a 65,7 veces su flujo de caja libre puro. El precio esta un 28,6% por debajo del maximo de 52 semanas y un 21,7% por encima del minimo, es decir, en la mitad alta de su propio rango anual.",
+    "acciones_en_circulacion_mm": 50.697182,
+    "fuente_acciones": "HECHO - portada del 10-Q Q1-2026 presentado el 2026-05-08 (dei:EntityCommonStockSharesOutstanding = 50.697.182 al 7-may-2026). Coincide con CommonStockSharesOutstanding del balance al 31-mar-2026 y con la media ponderada diluida del trimestre (50.697.298).",
+    "ads": "NO APLICA. MELI cotiza acciones ordinarias directamente en NASDAQ, no ADS. No hay ratio que ajustar.",
+    "capitalizacion_usd_mm": 92256,
+    "dilucion": "Practicamente nula. Acciones en circulacion 50.697.428 (2024) -> 50.697.299 (2025) -> 50.697.182 (Q1-2026). MELI retribuye con LTRP liquidado en efectivo (303 MM USD acumulados en 2025), no con acciones. Este es el punto MAS limpio del expediente y merece decirse: el accionista de MELI no ha sido diluido."
+  },
+
+  "estructura_de_capital_y_deuda_neta": {
+    "fecha_balance": "2026-03-31 (10-Q Q1-2026, accession 0001099590-26-000017)",
+    "deuda_financiera_bruta_usd_mm": 9927,
+    "detalle_deuda": "HECHO - balance 31-mar-2026: Loans payable and other financial liabilities corriente 5.316 + no corriente 4.611 = 9.927 MM USD. Al 31-dic-2025 eran 9.193 MM (4.623 + 4.570).",
+    "efectivo_no_restringido_usd_mm": 3677,
+    "inversiones_corto_plazo_usd_mm": 1973,
+    "efectivo_restringido_usd_mm": 11464,
+    "inversiones_largo_plazo_usd_mm": 1696,
+    "deuda_neta_usd_mm": 4277,
+    "criterio_deuda_neta": "Deuda financiera 9.927 menos efectivo no restringido 3.677 menos inversiones a corto 1.973 = 4.277 MM. DECISION DECLARADA: NO neteo los 11.464 MM de efectivo restringido porque es float de clientes (Funds payable to customers) y no pertenece al accionista; ni las inversiones a largo (1.696 MM) porque respaldan el negocio fintech. Con criterio laxo (netear todo) la deuda neta seria de -8.883 MM y el EV bajaria a 83.373 MM; el veredicto no se movería.",
+    "ev_usd_mm": 96533,
+    "ev_alternativo_con_leases_usd_mm": 98951,
+    "advertencia_hibrido": "MELI es un hibrido marketplace + banco. Los 9.927 MM de deuda financian en gran parte una cartera de credito de 10.735 MM (Loans receivable neto, corriente 10.169 + no corriente 566, con provisiones acumuladas de 3.820 MM). Un analista de bancos netearia esa cartera y diria que MELI no tiene deuda neta. Un analista de empresas industriales no. He elegido el criterio estricto y lo declaro: el resultado del expediente no depende de esta eleccion, porque la deuda neta es el 4,4% del EV."
+  },
+
+  "wacc_bottom_up": {
+    "candado_B": "El WACC sale del mercado, no del tier de calidad. Ninguna de las cifras de abajo se ha heredado de la etiqueta MENOS_5_6.",
+    "tasa_libre_riesgo_pct": 4.69,
+    "fuente_tasa_libre_riesgo": "HECHO - Reserva Federal, publicacion H.15 Selected Interest Rates (Daily), 10-Year Treasury constant maturity, dato del 2026-07-24 (ultimo publicado antes del cierre del 2026-07-27). Contrastado con FRED serie DGS10: 4,71% el 23-jul y 4,69% el 24-jul-2026. Uso el Tesoro a 10 anios de EEUU porque la divisa de reporte y de la valoracion es el dolar.",
+    "prima_mercado_pct": 4.23,
+    "fuente_prima_mercado": "HECHO - Aswath Damodaran, tabla 'Country Default Spreads and Risk Premiums', actualizacion del 5-ene-2026 (pages.stern.nyu.edu/~adamodar). ERP total EEUU 4,46% menos el default spread de EEUU 0,23% = prima de mercado maduro 4,23%.",
+    "prima_pais_pct": 4.34,
+    "fuente_prima_pais": "INFERENCIA a partir de HECHOS. Primas pais de Damodaran (5-ene-2026): Brasil 3,24%, Mexico 2,46%, Argentina 9,71%, Chile 1,10%, Colombia 2,85%, Uruguay/Peru 2,07%. Ponderadas por los ingresos por segmento del 10-K FY2025 (Nota 12 SEGMENTS): Brasil 15.201 MM (52,6%), Mexico 6.475 MM (22,4%), Argentina 5.962 MM (20,6%), Otros paises 1.255 MM (4,3%, asigno 1,80%). Resultado 4,34%. NOTA: el riesgo pais se pondera por donde estan los ACTIVOS y los flujos, no por el domicilio en Delaware. Hay una actualizacion de julio-2026 citada por fuentes secundarias (ERP total Brasil 7,74%, Mexico 7,31%, Argentina 14,87%) que daria una prima pais ponderada algo MAYOR; al no poder verificarla en la fuente primaria uso la de enero y dejo constancia de que mi WACC queda, si acaso, por el lado bajo.",
+    "beta": 1.333,
+    "fuente_beta": "MEDICION PROPIA (INFERENCIA metodologicamente explicita): regresion de 60 rentabilidades mensuales de MELI contra SPY, ventana 2021-07-30 a 2026-07-27, barras mensuales de IBKR (contract_id 45602025 y 756733). Beta = 1,333. Aviso de calidad estadistica: R2 = 0,25 y correlacion 0,50 - la beta de MELI es una cifra RUIDOSA, no un dato. Contrastes: la misma regresion sobre los ultimos 36 meses da 0,93; Finbox publica una beta a 5 anios de 1,45 (comprobacion cruzada, INFERENCIA). Volatilidad anualizada propia: MELI 43,1% frente a SPY 16,0%. Uso 1,333 como central y llevo 0,93-1,45 a la banda de WACC.",
+    "coste_equity_pct": 14.67,
+    "metodo_coste_equity": "Ke = Rf + beta x prima de mercado maduro + prima pais = 4,69 + 1,333 x 4,23 + 4,34 = 14,67%. Uso el metodo ADITIVO (la prima pais entra sin multiplicar por beta) precisamente porque la beta esta medida contra el S&P y ya recoge parte del riesgo LatAm; multiplicarla seria contar dos veces. El metodo alternativo de Damodaran (Ke = Rf + beta x ERP total) daria 16,11%, y va al extremo alto de la banda.",
+    "coste_deuda_pct": 5.7,
+    "metodo_coste_deuda": "Tres mediciones, y explico cual uso y por que. (1) CONTABLE ESTRICTO: 'Interest expense and other financial losses' 160 MM sobre deuda media 2025 de 7.454 MM = 2,15%. INUTILIZABLE Y ASI LO DECLARO: MELI mete el coste de fondeo del negocio fintech dentro de 'Cost of net revenues and financial expenses' y NO lo desglosa en dolares en ningun sitio del 10-K (solo dice que subio 523 MM en 2025). Es un HUECO real del filing. (2) CONTRACTUAL PONDERADO de la Nota 18 del 10-K FY2025, sumando los 9.193 MM linea a linea con los tipos de referencia de julio-2026 (CDI/Selic 14,25%, TIIE28 6,89%): 12,06% nominal multidivisa. Es correcto pero NO es el numero que va a un WACC en dolares - ese 12% es nominal en reales, pesos argentinos y pesos mexicanos, e incorpora inflacion local que los flujos ya traducidos a dolares NO llevan. Meterlo seria contar la inflacion dos veces. (3) MARGINAL EN DOLARES, que es el que uso: MELI emitio 750 MM de 2033 Notes al 4,900% el 9-dic-2025 (HECHO, Nota 18); ajustando por el desplazamiento del Tesoro a 10 anios desde entonces hasta el 4,69% actual, el coste marginal en dolares hoy es del orden del 5,7% (INFERENCIA). El tramo USD vivo (2026 Sustainability Notes 2,375%, 2031 Notes 3,125%, 2033 Notes 4,900%, prestamos USD Brasil 4,96% y Argentina 4,98%, 2.073 MM en total) rinde un 4,0% medio historico, pero es deuda heredada de la era de tipos cero.",
+    "tasa_impositiva_efectiva_pct": 29.7,
+    "fuente_tasa_impositiva": "HECHO - 10-K FY2025: Income tax expense 845 MM sobre beneficio antes de impuestos 2.842 MM = 29,73%.",
+    "ponderaciones": "Equity a valor de mercado 92.256 MM (90,3%); deuda a valor de mercado aproximado por el nominal 9.927 MM (9,7%). El nominal es buena aproximacion del valor de mercado porque el grueso de la deuda es a tipo flotante (CDI, TIIE, TAMAR) o vence en menos de 24 meses; el unico tramo con riesgo de tipo relevante son las 2031 Notes al 3,125% (541 MM), cuyo valor de mercado esta por debajo del nominal - lo que rebajaria minimamente el EV.",
+    "wacc_pct": 13.66,
+    "calculo_wacc": "0,903 x 14,67% + 0,097 x 5,70% x (1 - 0,297) = 13,25% + 0,39% = 13,66%",
+    "wacc_rango": "12,1% - 15,7%",
+    "detalle_rango": "Extremo bajo: beta 0,93 (ventana de 3 anios), Ke 13,05%, Kd 5,0% -> WACC 12,12%. Extremo alto: metodo Damodaran multiplicativo con beta 1,45, Ke 16,90%, Kd 6,5% -> WACC 15,70%.",
+    "honestidad_sobre_el_wacc": "13,66% es un WACC alto y quiero que se vea de donde sale, porque es el numero mas discutible del expediente: 4,34 puntos son prima pais, y de esos 2,00 puntos los pone Argentina sola (20,6% de los ingresos con una prima pais del 9,71%). Un analista que crea que Argentina se ha normalizado usaria 11-12%. Por eso he calculado el veredicto tambien a WACC 9% y 10%: el resultado no cambia de signo en ningun punto de la banda, y eso es lo unico que importa."
+  },
+
+  "cuenta_de_resultados_hechos": {
+    "fuente": "HECHO - 10-K FY2025 (accession 0001099590-26-000006, presentado 2026-02-25), Consolidated Statements of Income (R5); y 10-Q Q1-2026 (accession 0001099590-26-000017, presentado 2026-05-08), R4.",
+    "serie_ventas_usd_mm": {"2021": 7069, "2022": 10780, "2023": 15107, "2024": 20777, "2025": 28893, "TTM_2026Q1": 31803},
+    "serie_ebit_usd_mm": {"2021": 441, "2022": 1069, "2023": 2207, "2024": 2631, "2025": 3201, "TTM_2026Q1": 3049},
+    "serie_beneficio_neto_usd_mm": {"2021": 83, "2022": 482, "2023": 987, "2024": 1911, "2025": 1997, "TTM_2026Q1": 1920},
+    "margen_ebit_pct": {"2022": 9.9, "2023": 14.6, "2024": 12.7, "2025": 11.1, "TTM_2026Q1": 9.6, "Q1_2026": 6.9},
+    "nopat_sobre_ventas_pct": {"2023": 10.3, "2024": 8.9, "2025": 7.8, "TTM_2026Q1": 6.7},
+    "trimestres_recientes_usd_mm": {
+      "Q1_2025": {"ventas": 5935, "ebit": 763, "neto": 494},
+      "Q2_2025": {"ventas": 6790, "ebit": 825, "neto": 523},
+      "Q3_2025": {"ventas": 7409, "ebit": 724, "neto": 421},
+      "Q4_2025": {"ventas": 8759, "ebit": 889, "neto": 559, "nota": "derivado por diferencia FY2025 menos los tres primeros trimestres - INFERENCIA aritmetica sobre HECHOS"},
+      "Q1_2026": {"ventas": 8845, "ebit": 611, "neto": 417}
+    },
+    "el_dato_que_manda": "Q1-2026 contra Q1-2025: ventas +49,0% (5.935 -> 8.845), EBIT -19,9% (763 -> 611), beneficio neto -15,6% (494 -> 417). Margen EBIT del 12,9% al 6,9%. La causa esta en el propio 10-Q: la provision por insolvencias se DUPLICA (603 -> 1.244 MM, del 10,2% al 14,1% de las ventas) y sales & marketing sube un 64%. El motor de credito, que es la mitad de la tesis alcista, esta pagando su factura. Y la provision acumulada sobre la cartera de credito paso de 3.057 a 3.708 MM en un solo trimestre.",
+    "gasto_por_intereses_usd_mm": {"2023": 174, "2024": 165, "2025": 160, "Q1_2026": 65},
+    "perdidas_por_divisa_usd_mm": {"2023": 615, "2024": 182, "2025": 337, "Q1_2026": -6},
+    "nota_divisa": "Las perdidas por conversion de divisa son un coste recurrente y estructural de este negocio, no un extraordinario: 1.134 MM acumulados en 2023-2025. Aparecen por debajo del EBIT y por eso el 'margen operativo' de MELI sobreestima lo que llega al accionista."
+  },
+
+  "owner_earnings": {
+    "definicion_a": "Owner earnings de MANTENIMIENTO = beneficio neto + D&A - capex de mantenimiento, aproximando el capex de mantenimiento por la depreciacion. El exceso de capex sobre depreciacion es inversion discrecional y NO se resta. Con esa aproximacion, D&A y capex de mantenimiento se cancelan y el resultado es el beneficio neto.",
+    "definicion_b": "Owner earnings de CAPEX TOTAL = beneficio neto + D&A - capex total (PP&E + intangibles), es decir flujo de caja libre puro sobre base de beneficio contable.",
+    "por_que_no_uso_el_flujo_de_operaciones": "El CFO de MELI (12.116 MM en 2025) NO es owner earnings y usarlo seria el error mas grave posible en esta empresa. Ese flujo esta inflado por el crecimiento del float de clientes (+5.341 MM de Funds payable to customers y +1.592 MM de saldos con tarjetas) y por 3.091 MM de provisiones no monetarias. El float NO es caja libre: el efectivo restringido subio 7.803 MM en el mismo ejercicio, es decir, el dinero de los clientes esta bloqueado precisamente porque es de los clientes. Y las provisiones son perdidas de credito reales que se materializan mas tarde. Prueba de realidad: en 2025 MELI declaro 1.997 MM de beneficio y su posicion financiera neta (caja + inversiones - deuda) se DETERIORO en 3.738 MM, de +2.608 a -1.130 MM, porque la cartera de credito absorbio 6.659 MM.",
+    "capex_usd_mm": {"2023": 509, "2024": 860, "2025": 1343, "TTM_2026Q1": 1342},
+    "d_and_a_usd_mm": {"2023": 524, "2024": 617, "2025": 818, "TTM_2026Q1": 892},
+    "base_ultimo_auditado": {
+      "ejercicio": "FY2025 (10-K presentado 2026-02-25)",
+      "beneficio_neto_usd_mm": 1997,
+      "d_and_a_usd_mm": 818,
+      "capex_total_usd_mm": 1343,
+      "oe_mantenimiento_usd_mm": 1997,
+      "oe_capex_total_usd_mm": 1472
+    },
+    "base_ejercicio_en_curso": {
+      "metodo": "Ultimos doce meses cerrados al 31-mar-2026 = FY2025 menos Q1-2025 mas Q1-2026. Uso TTM y NO Q1 x 4 porque MELI tiene una estacionalidad marcada en Q4 (8.759 MM de ventas frente a 5.935 en Q1-2025) y anualizar el primer trimestre subestimaria las ventas y sobreestimaria el margen.",
+      "advertencia": "Solo hay UN trimestre de 2026 publicado. El 10-Q de Q2-2026 se espera en la primera quincena de agosto de 2026 y no estaba disponible al cierre de este expediente. MELI ademas NO da guia formal de resultados, asi que no hay guia de la empresa que incorporar. La base 'en curso' descansa sobre un solo trimestre nuevo: es la cifra menos resuelta de todo el expediente.",
+      "ventas_usd_mm": 31803,
+      "beneficio_neto_usd_mm": 1920,
+      "d_and_a_usd_mm": 892,
+      "capex_total_usd_mm": 1342,
+      "oe_mantenimiento_usd_mm": 1920,
+      "oe_capex_total_usd_mm": 1470
+    },
+    "distancia_entre_bases": {
+      "oe_mantenimiento_var_pct": -3.9,
+      "oe_capex_total_var_pct": -0.1,
+      "ventas_var_pct": 10.1,
+      "lectura": "Esto es informacion sobre el momento del ciclo, no ruido, y es la lectura central del expediente. Entre el ultimo auditado y los ultimos doce meses las VENTAS suben un 10,1% mientras los OWNER EARNINGS BAJAN un 3,9%. La divergencia se acelera si se mira solo el trimestre: ventas +49,0% interanual, owner earnings -15,6%. MELI ha entrado en la fase en la que el crecimiento deja de pagar. La empresa esta comprando volumen (envio gratis mas barato en Brasil, marketing +64%, credito a clientes de peor calidad con la provision al 14,1% de las ventas) y ese volumen entra por arriba de la cuenta y sale por abajo."
+    }
+  },
+
+  "dcf_inverso": {
+    "metodo": "Para cada base de owner earnings, resuelvo el crecimiento anual g durante 10 anios, con crecimiento terminal del 3% a perpetuidad y descuento al WACC de mercado de 13,66%, que iguala el valor de la empresa al EV de hoy (96.533 MM USD). Ese g es lo que el precio de 1.819,74 USD esta obligando a creer.",
+    "g_implicita_auditado_pct": 26.9,
+    "g_implicita_auditado_capex_total_pct": 31.4,
+    "g_implicita_encurso_pct": 27.5,
+    "g_implicita_encurso_capex_total_pct": 31.5,
+    "sensibilidad_al_wacc": {
+      "wacc_9_pct": 17.1,
+      "wacc_10_pct": 19.6,
+      "wacc_12_12_pct": 24.3,
+      "wacc_13_66_pct": 27.5,
+      "wacc_15_70_pct": 31.3
+    },
+    "contraste_con_la_tasa_base": "El precio exige que los owner earnings de MELI crezcan al 27,5% anual durante DIEZ anios seguidos. La tasa base de los ultimos doce meses es -3,9%. La del ultimo trimestre publicado es -15,6%. Incluso con el WACC mas benevolo que se me ocurre defender (9%, que exigiria negar por completo la prima pais argentina), la exigencia sigue siendo del 17,1% anual durante una decada. Para calibrar: MELI multiplico su beneficio neto por 2,0 entre 2023 y los ultimos doce meses (987 -> 1.920), un 39% anual, y lo hizo en el tramo en que el margen se expandia. El margen ya no se expande: se contrae desde el pico de 14,6% de EBIT en 2023 al 6,9% del ultimo trimestre. Pedirle 27,5% anual a un motor cuyo margen esta en reversion es pedirle exactamente lo que la etiqueta congelada dice que no sabe hacer."
+  },
+
+  "g_defendible": {
+    "valor_pct": 4.9,
+    "derivacion": "El encargo pide derivar g de tasa de reinversion x ROIIC EX-MARGEN, y aqui hay una trampa aritmetica que hay que resolver a la vista, no por debajo de la mesa. MELI reinvierte el 35,5% de sus VENTAS, y como su margen NOPAT es del 6,7%, eso equivale a reinvertir 4,6 VECES su NOPAT (10.257 MM frente a 2.143 MM). La formula mecanica g = (reinversion/NOPAT) x ROIIC daria 4,6 x 4,9% = 22,3% anual - un numero enorme que a primera vista salvaria el precio. NO lo acepto, y esta es la razon: ese crecimiento no lo paga el accionista con sus beneficios retenidos, lo pagan la deuda y el float de clientes. La cifra que el accionista puede defender es la que se autofinancia: si MELI retiene el 100% de sus owner earnings y los reinvierte al retorno incremental ex-margen medido, sus owner earnings crecen al 4,9% anual. Ni un punto mas sin dinero de fuera.",
+    "por_que_el_g_alto_no_vale": "Si aceptara el 22,3% tendria que aceptar tambien su contrapartida: la reinversion que lo produce. Con reinversion del 35,5% de ventas y un margen NOPAT del 6,7%, el flujo de caja libre para la empresa es de -28,8 centimos por cada dolar de ventas, TODOS los anios, sin excepcion. Un modelo de FCFF coherente con ese motor da un valor NEGATIVO. Es decir: el crecimiento del 22% es real como crecimiento contable y destructivo como creacion de valor, porque se compra a 4,9% con capital que cuesta 13,7%. Cada dolar reinvertido vale 0,36 dolares. La version del 4,9% es la MAS GENEROSA de las dos, no la mas dura: le regala a MELI el crecimiento del capital ajeno sin cobrarle el capital ajeno.",
+    "aviso_de_coherencia": "g defendible (4,9%) es superior al terminal del 3%, asi que el modelo decae de 4,9% a 3% y es internamente consistente. Pero conviene ver el numero desnudo: un negocio que reinvierte a 4,9% cuando su capital cuesta 13,66% no deberia crecer. Deberia devolver el dinero."
+  },
+
+  "valoracion": {
+    "modelo": "Owner earnings creciendo al g defendible del 4,9% durante 10 anios, terminal al 3%, descontado al WACC de 13,66%. Menos deuda neta de 4.277 MM. Entre 50,697182 millones de acciones.",
+    "multiplo_implicito_de_owner_earnings": 10.94,
+    "valor_por_accion_auditado_usd": 346.5,
+    "valor_por_accion_encurso_usd": 329.9,
+    "valor_por_accion_capex_total_auditado_usd": 233.2,
+    "valor_por_accion_capex_total_encurso_usd": 232.8,
+    "piso_de_resolucion": "Sin medicion propia del ruido aplico la banda de mas menos 25% que exige el protocolo. Valor por accion base mantenimiento: 250 - 435 USD. Base capex total: 175 - 291 USD. NO reporto decimales en el valor intrinseco: la banda es de 185 dolares de ancho y escribir '329,9' seria fingir una precision que no tengo. Digo 330, y digo que el rango honesto es 250-435.",
+    "mos_auditado_pct": -425.2,
+    "mos_encurso_pct": -451.6,
+    "aviso_sobre_el_mos": "Un MoS de -452% no es informacion, es un artefacto de dividir por un denominador pequeno. Lo reporto porque el esquema lo pide, pero la cifra que hay que leer es la TIR."
+  },
+
+  "tir_esperada": {
+    "rango": "+5% a +10% anual a 10 anios, central +5,4%",
+    "detalle": {
+      "con_g_defendible_4_9_pct": 5.42,
+      "con_g_0_pct": 4.56,
+      "con_g_8_pct": 6.13,
+      "con_g_12_pct": 7.24,
+      "con_g_15_pct": 8.23,
+      "con_g_20_pct": 10.17,
+      "g_necesaria_para_ganar_el_wacc_13_66_pct": 26.9
+    },
+    "lectura": "Esta es la traduccion util del MoS de tres digitos. Comprando MELI hoy a 1.819,74 USD: si sus owner earnings crecen al 4,9% durante una decada y luego al 3%, el accionista gana un 5,4% anual. Si crecen al 12% - un escenario en el que el margen deja de deteriorarse y el volumen sigue empujando - gana un 7,2% anual. Para que gane un 20% anual durante diez anios, es decir para que MELI repita durante una decada algo parecido a lo que hizo entre 2023 y 2025, el accionista gana un 10,2%. Y para cobrar los 13,66% que cuesta el capital hace falta un 26,9% anual durante diez anios. Traducido: incluso en el escenario alcista razonable, MELI a este precio rinde MENOS que su propio coste de capital y probablemente menos que un bono del Tesoro a 10 anios al 4,69% ajustado por el riesgo asumido."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 11.0,
+    "justificacion_m_estrella": "Decidido en frio y sin barra de error, porque no es una estimacion sino una politica. Un negocio cuyo retorno sobre el capital incremental ex-margen es del 4,9% frente a un coste de capital del 13,66% NO merece prima por crecer, porque su crecimiento resta. El multiplo neutro de una perpetuidad sin crecimiento a este WACC es 1/0,1366 = 7,3 veces. Concedo hasta 11 veces owner earnings de mantenimiento - que es exactamente el multiplo que sale del DCF con g defendible del 4,9% decayendo al 3% - y ese es el techo. Once veces es lo que pago por un negocio que crece a la tasa que puede autofinanciar. Ni una mas mientras el ROIIC ex-margen no cruce el WACC.",
+    "valor_a_m_estrella_encurso_usd": 332.2,
+    "valor_a_m_estrella_auditado_usd": 348.9,
+    "p_estrella_usd": 159.5,
+    "calculo_p_estrella": "P* = valor a M* sobre base en curso (332,2 USD) x (1 - MoS exigido 0,52) = 159,5 USD. Sobre base auditada seria 167,5 USD. Con la lectura alternativa del MoS (28% en vez de 52%) P* seria 239,2 USD. Con el WACC mas benevolo de la banda (12,12%) y MoS del 28%, P* seria 304 USD. NINGUNA combinacion de supuestos defendibles acerca P* al precio de 1.819,74: haria falta un WACC del 8% Y un crecimiento del 20% anual durante una decada Y renunciar por completo al margen de seguridad.",
+    "distancia_precio_a_p_estrella": "El precio de hoy esta 11,4 veces por encima de P*. Dicho de otro modo: el precio deberia caer un 91,2% para que este marco autorizase CARGAR."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "NO es trampa de VALOR. SOSPECHA FUERTE de trampa de CRECIMIENTO.",
+    "razonamiento": "El detector de trampa de valor busca un MoS grande sobre un motor que se rompe. Aqui no hay MoS grande que auditar: MELI cotiza a 48 veces owner earnings y a 65,7 veces flujo de caja libre puro, con un MoS de -452%. No hay ninguna baratura aparente que pueda ser falsa. El riesgo es exactamente el simetrico y hay que nombrarlo: MELI es una candidata a TRAMPA DE CRECIMIENTO, que es el error que este sistema comete cuando confunde volumen con calidad. Las tres firmas estan presentes y son verificables en el filing. PRIMERA: ventas +49% con EBIT -20% en el mismo trimestre, la definicion de crecimiento no rentable. SEGUNDA: la provision por insolvencias pasa del 10,2% al 14,1% de las ventas en un ano y la provision acumulada sobre la cartera de credito sube de 3.057 a 3.708 MM en un solo trimestre - el crecimiento se esta comprando dando credito a clientes peores. TERCERA: la posicion financiera neta se deterioro 3.738 MM en 2025 mientras la empresa declaraba 1.997 MM de beneficio, es decir, el beneficio contable no llega a la caja porque la cartera de credito se lo come. Lo que sostiene el precio es un relato de plataforma dominante; lo que sostiene el relato es un ROIIC ex-margen del 4,9%.",
+    "que_lo_desmentiria": "No es una posicion cerrada. Tres hechos futuros y falsables la reabririan: (1) que el margen EBIT se estabilice por encima del 10% durante cuatro trimestres seguidos con las ventas creciendo mas del 25%, lo que probaria que la compresion de Q1-2026 fue inversion y no deterioro; (2) que la provision por insolvencias vuelva por debajo del 11% de las ventas sin frenar el crecimiento de la cartera; (3) que la posicion financiera neta deje de deteriorarse, es decir, que el negocio de credito empiece a autofinanciarse. El primero es comprobable con el 10-Q de Q2-2026, que se publica en dias."
+  },
+
+  "huecos": [
+    "MELI NO desglosa en dolares el coste de fondeo del negocio fintech: va dentro de 'Cost of net revenues and financial expenses' y en el 10-K solo se dice que subio 523 MM en 2025. Consecuencia directa: el coste de deuda contable (160/7.454 = 2,15%) esta estructuralmente subestimado y es inutilizable. Lo he sustituido por el coste marginal en dolares (5,7%) y por el contractual ponderado de la Nota 18 (12,06% nominal multidivisa), pero el coste financiero verdadero del negocio de credito sigue siendo un hueco del filing.",
+    "El 10-Q de Q2-2026 no estaba publicado al cierre de este expediente (se espera en la primera quincena de agosto de 2026). La base 'en curso' es un TTM que incorpora un solo trimestre nuevo. MELI ademas no da guia formal, asi que no hay proyeccion de la empresa que anadir.",
+    "La beta es ruido con forma de numero: R2 de 0,25 en mi propia regresion de 60 meses. 1,333 a 5 anios, 0,93 a 3 anios, 1,45 segun Finbox. Toda la banda de WACC de 12,1-15,7% nace de este hueco.",
+    "La tabla de primas pais de Damodaran que pude verificar en la fuente primaria es la del 5-ene-2026. Existe una actualizacion de julio-2026 que fuentes secundarias citan con primas MAYORES (ERP total Brasil 7,74%, Mexico 7,31%, Argentina 14,87% frente a 7,47/6,69/13,94 en enero). No he podido abrirla en el sitio de Damodaran. Mi WACC queda por el lado bajo.",
+    "El ROIIC ex-margen del 4,9% y la reinversion del 35,5% de ventas son insumos CONGELADOS de la fase de calidad y no los he reconstruido. Mi reconstruccion aproximada de la reinversion desde el filing (capex 1.343 + variacion de cartera de credito 6.659 + variacion de cobros con tarjeta 1.758 = 9.760 sobre ventas de 28.893 = 33,8%) se acerca al 35,5% pero no coincide exactamente. Mi comprobacion del retorno incremental (NOPAT +753 sobre activo +29.288 desde 2023 = 2,6%) es PEOR que el 4,9% congelado.",
+    "El tratamiento de la deuda neta en un hibrido marketplace-banco es una eleccion, no un hecho. He excluido del neteo 11.464 MM de efectivo restringido (float de clientes) y 1.696 MM de inversiones a largo. Con criterio laxo la deuda neta seria negativa (-8.883 MM). La eleccion mueve el EV un 13,6% y el veredicto cero.",
+    "El tipo de referencia CDI/Selic (14,25%) y TIIE28 (6,89%) usados para ponderar el coste contractual de la deuda proceden de prensa financiera de julio-2026 y de la publicacion del DOF, no de una fuente primaria del banco central verificada linea a linea. INFERENCIA, y solo afecta a una cifra que declaro no usar en el WACC.",
+    "La regla de MoS para CARGAR llega contradicha entre este encargo ('sube 12 puntos') y el expediente de ZTS del 2026-07-28 ('bajaria 12 puntos'). He usado 52% por coherencia con la escalera monotona que da el propio encargo. Es una ambiguedad del sistema, no de la empresa, y no altera el veredicto."
+  ],
+
+  "resumen": "MELI cotiza a 1.819,74 USD (cierre 27-jul-2026), 92.256 MM de capitalizacion y 96.533 MM de EV, un 28,6% por debajo del maximo de 52 semanas. Con un WACC bottom-up de mercado del 13,66% (rango 12,1-15,7%; beta propia 1,333 con R2 de 0,25, Tesoro 10a al 4,69%, prima pais ponderada por ingresos por segmento del 4,34% de la que Argentina sola pone 2,00 puntos) y owner earnings de mantenimiento de 1.997 MM (FY2025 auditado) y 1.920 MM (TTM a 31-mar-2026), el DCF inverso exige un crecimiento del 26,9-27,5% anual durante DIEZ anios para justificar el precio de hoy. La tasa base de los ultimos doce meses es -3,9% y la del ultimo trimestre -15,6%: en Q1-2026 las ventas subieron un 49,0% y el EBIT CAYO un 19,9%, con la provision por insolvencias duplicandose hasta el 14,1% de las ventas. Mi g defendible es el 4,9% - lo que MELI puede crecer autofinanciandose a su ROIIC ex-margen congelado - y produce un valor de 330 USD por accion sobre base en curso (banda de resolucion 250-435) y 233 USD sobre flujo de caja libre puro, con un multiplo justo de 11 veces owner earnings frente a las 48 veces que se pagan. La TIR esperada es del +5,4% anual central, con un rango de +5% a +10% que incluye ya el escenario alcista de repetir una decada de crecimiento del 20%: en ninguno de ellos el accionista cobra su coste de capital. P estrella con el 52% de margen exigido a una posicion que ya pesa el 20,42% del NAV es de 159,5 USD - el precio esta 11,4 veces por encima. NO es trampa de valor porque no hay valor aparente que auditar; es SOSPECHA FUERTE de trampa de crecimiento, y las tres firmas estan en el filing: crecimiento no rentable, credito de peor calidad financiando el volumen, y una posicion financiera neta que se deterioro 3.738 MM en un ano en que se declararon 1.997 MM de beneficio. La calidad sigue congelada en MENOS_5_6 y este expediente no la toca: solo dice que a 1.819,74 USD el precio esta pagando por adelantado una expansion de margen que la propia etiqueta dice que no es el motor de esta empresa."
+}

@@ -1,0 +1,24 @@
+{
+ "fecha": "2026-08-26",
+ "experimento": "aislar efecto del cierre de fuga citas: re-puntuar SOLO R2 a ciegas, 12 empresas x2, R1 y R3-R11 fijos del 20-jul",
+ "validador_citas": "LIMPIO (24 bloques, 0 fugas)",
+ "baseline_misma_cohorte": {
+  "rho": 0.867,
+  "fiab_implicita": 0.56,
+  "techo_validez": 0.75,
+  "ablacion_sinR2": 0.979,
+  "equiponderando": 0.979
+ },
+ "r2_refix": {
+  "rho": 0.881,
+  "fiab_implicita": 0.58,
+  "techo_validez": 0.76,
+  "ablacion_sinR2": 1.0,
+  "equiponderando": 0.979
+ },
+ "r2_aislada": {
+  "test_retest_viejo": 0.4,
+  "test_retest_nuevo": "nan (R2 colapso a constante=3 en 11/12; sin varianza)"
+ },
+ "lectura": "El fix funciona y quita ruido (rho 0.867->0.881, cruza nominalmente 0.85), PERO por la razon equivocada: R2 sin fuga colapsa a valor constante (3) sobre el ledger pre-filtrado -> no discrimina, su fiabilidad es nan. Diagnostico de fondo INTACTO: fiab implicita 0.58 (<0.85), ablacion sin-R2=1.0 y equiponderando=0.979 -> ninguna regla sostiene el ranking. Converge con la tesis de metodologia-qg: rankear empresas ya pre-filtradas de calidad mide ruido."
+}

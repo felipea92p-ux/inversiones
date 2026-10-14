@@ -1,0 +1,58 @@
+{
+ "ticker": "MSCI",
+ "name": "MSCI Inc.",
+ "moat_type": "intangibles_switching_costs_network",
+ "moat_one_line": "Indices propietarios (MSCI World/EM/ACWI) embebidos como infraestructura contractual y regulatoria del ecosistema inversor: $872M de ABF run rate ligados a producto pasivo, retencion 95.4% y costes de cambio brutales porque migrar un benchmark obliga a mover billones de AUM.",
+ "amplification": true,
+ "amplification_note": "R1+R3+R4 se refuerzan de forma monstruosa: el licensing de indices es software puro (margen op 53.7%, EBITDA 59.3%) que escala sin coste marginal (R1); MSCI es el #1 indiscutido en indices globales de equity, un duopolio efectivo frente a S&P/FTSE que deja al resto a anios-luz en la franquicia de benchmarks internacionales (R3); y el moat es un intangible/coste de cambio casi irreplicable porque los indices son el lenguaje contractual y regulatorio de la industria (R4). ABF +25% y retencion 95.4% confirman que los tres vectores se componen.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "thesis_3lines": [
+  "CALIDAD: franquicia de indices casi-monopolica con margen operativo 53.7%, EBITDA 59.3%, ROIC ~20% y FCF margin 49.4% sobre $1,549M de FCF; un peaje de software sobre el sistema financiero global.",
+  "MOTOR: crecimiento organico de doble digito (Q1 2026 +13.3% organico, ABF run rate $872M +25%, retencion 95.4%, 11 anios de ~14% de crecimiento de EPS ajustado) impulsado por el auge del pasivo, ESG/Clima y Private Assets.",
+  "VALORACION: fwd P/E 28.5x es ~14% bajo su media de 5 anios y muy lejos de su media trailing historica (~44x), PEG 2.08; calidad excepcional a multiplo razonable, ni deprimido ni caro."
+ ],
+ "bear_case_strongest": "El motor de la franquicia de indices esta estructuralmente atado al nivel de los mercados (ABF ligado a AUM), por lo que un bear market prolongado mas fee compression de los ETF pasivos podria estancar los ingresos justo cuando el balance esta apalancado a ND/EBITDA ~3.3x con equity contable negativo, reduciendo el margen de maniobra.",
+ "rules": {
+  "R1": {
+   "score": 2,
+   "just": "Licensing de indices puramente escalable: margen operativo 53.7% y EBITDA 59.3% que se expanden con volumen sin coste marginal, software de redes en su forma mas pura."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Vientos seculares multiples: migracion activo->pasivo/ETF, demanda de ESG/Clima y expansion a Private Assets, todos en crecimiento estructural plurianual."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Lider #1 indiscutido en indices globales de equity (MSCI World/EM/ACWI son el estandar de facto), dejando a competidores a anios-luz en la franquicia de benchmarks internacionales."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat casi irreplicable: indices propietarios embebidos como infraestructura contractual/regulatoria con costes de cambio que exigen mover billones de AUM, retencion 95.4% lo prueba."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento esencialmente organico de doble digito (Q1 2026 +13.3% organico, FY2025 ~9.7% reportado) con M&A bolt-on disciplinado, sin dependencia de adquisiciones."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Multi-geografia y multi-segmento (Index, Analytics, ESG, Private Assets) sin cliente >10-15%, aunque la franquicia pesa fuerte en Index ligado a AUM."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "Economia excepcional: ROIC ~20% muy sobre el WACC, FCF/NI alto, FCF margin 49.4% y capex minimo (~$39M sobre $3.1B de ingresos), capital-light por diseno."
+  },
+  "R8": {
+   "score": 0,
+   "just": "Balance deliberadamente apalancado: net debt $6.12B, ND/EBITDA ~3.3x y equity contable negativo, muy por encima del umbral Seilern <2x pese al FCF predecible."
+  },
+  "R9": {
+   "score": 1,
+   "just": "Contabilidad limpia: SBC verificada en solo 7.19% del FCF (3.55% de ingresos), muy bajo el umbral del 15%, sin banderas en reconocimiento de ingresos."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Gestion disciplinada en asignacion de capital (buybacks oportunistas, M&A bolt-on, 11 anios de ~14% crecimiento de EPS ajustado), apalancamiento usado de forma intencional."
+  }
+ }
+}

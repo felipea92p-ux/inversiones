@@ -1,0 +1,48 @@
+{
+ "ticker": "TSM",
+ "name": "Taiwan Semiconductor Manufacturing Company (ADR)",
+ "currency": "USD",
+ "price_verified": 467.67,
+ "price_source": "stockanalysis.com / companiesmarketcap.com (cross-checked); ADR NYSE close",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 5.186,
+ "implied_mcap_b_usd": 2425,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 12,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.25,
+  "geo_adj_pct": 1.5
+ },
+ "owner_fcf_base": "FY2025 reported FCF ~US$40.5B; SBC ~0 (TSMC remunera con reparto de beneficios EN EFECTIVO bajo IFRS, no con acciones), por lo que Owner FCF ~= FCF. PERO el FCF esta deprimido por ~US$15B de CAPEX DE CRECIMIENTO (capex FY25 US$40-42B vs net income US$55.21B). Para un reinversor de ROIC ~35%, ese capex crea valor, asi que el FCF reportado infravalora los owner earnings normalizados. Bases en DCF: conservador US$42B (FCF actual), base US$48B (punto medio FCF<->beneficio neto), optimista US$55B (beneficio neto pleno).",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 164,
+   "prob": 0.38,
+   "note": "Demanda AI/HPC se modera y normaliza; Fase1 g=12%, Fase2 declina a 5%, g terminal 2.5%, base owner FCF US$42B. Pesimista razonable, no apocaliptico."
+  },
+  "base": {
+   "iv_per_share": 251,
+   "prob": 0.47,
+   "note": "AI/HPC fuerte y monopolio de nodos avanzados (3nm/2nm) sostenido; Fase1 g=17%, Fase2 declina a 7%, g terminal 3.0%, owner earnings US$48B."
+  },
+  "optimista": {
+   "iv_per_share": 391,
+   "prob": 0.15,
+   "note": "Supercycle AI sostenido, capex rinde; Fase1 g=22%, Fase2 declina a 9%, g terminal 3.5%, owner earnings = beneficio neto US$55B."
+  }
+ },
+ "iv_dcf_weighted": 238.5,
+ "multiple_metric": "P/E adelantado (EPS por ADR FY2026)",
+ "fwd_multiple_now": 29.8,
+ "fwd_multiple_5y_avg": 18.55,
+ "fair_multiple": 22.5,
+ "iv_multiple": 353.25,
+ "multiple_rationale": "EPS adelantado FY2026 ~US$15.70/ADR (consenso $15.62-15.76; NOTA: el fwd_pe=24 del JSON estaba desfasado — el fwd P/E REAL es ~29.8-30.1x, gurufocus 30.11). Media 5a del fwd P/E ~18.55x (financecharts; el 21.5 del JSON estaba alto). Ancla al ~18.5x historico con AJUSTE ESTRUCTURAL POSITIVO (no haircut): el re-rating refleja cambio estructural genuino y duradero — demanda AI/HPC y monopolio de facto en nodos lider (3nm/2nm) elevando ROIC y crecimiento, no mera ciclicidad. fair_multiple=22.5x: prima modesta sobre la historia, muy por debajo del froth de ~30x. iv_multiple = 15.70 * 22.5 = $353.",
+ "weight_dcf": 0.45,
+ "weight_multiple": 0.55,
+ "reconciled_iv": 301.61,
+ "structural_change": "POSITIVO/estructural, no ciclico: TSMC ha consolidado un monopolio de facto en fundicion de nodos lider (3nm en rampa, 2nm en 2026) y es el cuello de botella critico para el computo AI. Esto eleva de forma duradera poder de fijacion de precios, ROIC (~35%) y crecimiento — justificando prima de multiplo sobre su historia, aunque NO los ~30x actuales. Sin deterioro estructural; el unico riesgo estructural a la baja es GEOPOLITICO (Taiwan/China), reflejado en +1.5% de WACC y en el sesgo del peso hacia DCF.",
+ "sanity_notes": "CHEQUE DE MAGNITUD OK: IV reconciliado $301.61 = 64% del precio $467.67 (dentro de 30-300%). ESTRUCTURA DE ACCIONES verificada: 25.93B acciones ordinarias; ratio ADR 1:5 -> 5.186B ADRs (companiesmarketcap exacto). Cross-check beneficio: NT$1,717.88B / 25.93B = NT$66.25 EPS ordinaria. MCAP: $467.67 x 5.186B = $2,425B, coincide con companiesmarketcap ($2.425T) y CNBC ($2.397T). El $2.06T de stockanalysis y el $2,060B del JSON INFRAVALORAN (precio/base de acciones desfasado) — el mcap correcto de la compania completa es ~$2.42T. CORRECCIONES AL JSON: fwd_pe real ~29.8x (no 24), media 5a ~18.55x (no 21.5) -> TSM cotiza ~+60% sobre su multiplo historico, no +12%. CONCLUSION: empresa de calidad excepcional pero PRECIO exigente; tanto DCF ($238) como ancla de multiplo ($353) situan el valor por debajo del precio; reconciliado ~$302/ADR implica ~35% de sobrevaloracion. Sesgo de peso hacia DCF (0.45/0.55) por intensidad de capital, semi-ciclicidad y riesgo geopolitico de Taiwan."
+}

@@ -1,0 +1,48 @@
+{
+ "ticker": "NVDA",
+ "name": "NVIDIA Corporation",
+ "currency": "USD",
+ "price_verified": 208.65,
+ "price_source": "StockAnalysis.com (close Jun 22, 2026, $208.65); cross-checked vs Yahoo Finance close $210.69 same date — consistent. Used $208.65.",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 24.391,
+ "implied_mcap_b_usd": 5089,
+ "mcap_sanity_ok": true,
+ "structural_change": "No structural deterioration in the franchise — quite the opposite: Q1 FY2027 revenue +85% YoY ($81.6B), Data Center +92% ($75.2B), GAAP op margin 65.6%, ROIC ~90%, net cash +$54.1B. The relevant structural OVERHANG is not on the business but on the durability/cyclicality of the AI-capex cycle: (1) extreme customer concentration (a handful of hyperscalers drive most Data Center revenue, raising digestion/air-pocket risk), (2) China export restrictions capping a previously material market, (3) emerging custom-silicon/ASIC competition (Google TPU, Amazon Trainium, AMD MI-series) that could erode pricing/share over a multi-year horizon. These justify a MULTIPLE HAIRCUT (fwd P/E fair 28x vs 5y-avg ~40x) and a DCF-tilted reconciliation weighting, not a fundamentals haircut.",
+ "wacc_pct": 13,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.8,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "FY2026 reported FCF $96,676M (OCF $102,718M − capex $6,042M) minus 100% of FY26 SBC $6,386M = owner FCF ~$90.3B. SBC is only ~6.6% of FCF, so the owner-earnings haircut is modest. DCF launch base normalized UP to ~$150-160B owner FCF for FY2027, reflecting run-rate: Q1 FY27 alone produced OCF $50.3B − capex $1.76B − SBC $1.93B ≈ $46.6B owner FCF in a single quarter, with Q2 guided to $91.0B revenue (+11.5% QoQ). FCF margin ~45%.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 90.41,
+   "prob": 0.38,
+   "note": "Base owner FCF $150B; Phase-1 (yr1-5) CAGR 10%, Phase-2 glide to terminal, g=2.5%. Reasonable-pessimistic: AI capex digestion / hyperscaler air-pocket slows growth hard and ASIC competition compresses margins/share — NOT apocalyptic (still grows double-digit then mid-single). WACC 13%."
+  },
+  "base": {
+   "iv_per_share": 143.52,
+   "prob": 0.47,
+   "note": "Base owner FCF $155B; Phase-1 CAGR 18% (normalizing from current ~80%+), Phase-2 glide to ~9%, terminal g=3.0%. Continued AI buildout but decelerating to a durable franchise growth rate. WACC 13%."
+  },
+  "optimista": {
+   "iv_per_share": 217.07,
+   "prob": 0.15,
+   "note": "Base owner FCF $160B; Phase-1 CAGR 25%, Phase-2 ~12%, terminal g=3.5%. Sustained multi-year AI/accelerated-compute supercycle with NVDA holding share and pricing. WACC 13%."
+  }
+ },
+ "iv_dcf_weighted": 134.37,
+ "fwd_multiple_now": 21,
+ "fwd_multiple_5y_avg": 40,
+ "fair_multiple": 28,
+ "multiple_metric": "Forward P/E (on normalized FY2027 owner/non-GAAP EPS ~$9.5)",
+ "multiple_rationale": "Fwd P/E now ~21x vs a 5y forward-P/E average of ~40x — a ~47% discount, driven by EPS compounding far faster than price (multiple compression from earnings growth, NOT de-rating on deterioration). I apply a deliberate ~30% HAIRCUT to the historical 40x, landing on a fair 28x, to reflect genuine structural risk to the AI-capex cycle's durability: customer concentration, China restrictions, and rising custom-silicon competition. Normalized FY27 EPS base ~$9.5 (market-implied fwd EPS = 208.65/21 ≈ $9.94; corroborated by Q1 FY27 non-GAAP EPS $1.87 run-rate growing into Q2 $91B guide — note GAAP Q1 EPS $2.39 is inflated by a ~$15.9B one-off equity-securities gain and is excluded from the normalized base). iv_multiple = $9.5 × 28 = ~$266. RECONCILIATION uses a DCF-tilted 0.55/0.45 weighting: despite NVDA being a proven dominant compounder (which would normally argue for multiple-weighting), the high-capex, hyperscaler-concentrated, cyclical AI demand cycle and wide scenario dispersion warrant leaning on the cash-flow anchor.",
+ "iv_multiple": 266,
+ "weight_dcf": 0.55,
+ "weight_multiple": 0.45,
+ "reconciled_iv": 193.6,
+ "sanity_notes": "MAGNITUDE CHECK PASSED: reconciled IV $193.60 = 93% of price $208.65, comfortably inside the 30%-300% band, so no units/currency/shares error. Implied mcap = $208.65 × 24.391B = $5,089B (~$5.09T), matching the known ~$5.05-5.10T scale (StockAnalysis $5.05T, Yahoo $5.10T). All figures in USD. Shares: 24.391B diluted weighted-avg (Q1 FY27 press release); shares outstanding ~24.2B — used diluted for per-share IV. reconciled_iv = 0.55×134.37 + 0.45×266.0 = $193.6. CONCLUSION: NVDA trades ~7% ABOVE reconciled fair value — roughly fairly-to-slightly-richly valued, NOT a bargain. The pure DCF ($134 weighted) sits well below price, characteristically under-crediting a ~90%-ROIC reinvestment machine; the multiple anchor ($266, even after a 30% structural haircut) sits above price; truth lies in between. Key caveats: (1) IV is highly sensitive to the normalized owner-FCF/EPS base — if the AI capex cycle sustains 25%+ growth for longer, optimistic case dominates and the stock is cheap; if a hyperscaler digestion air-pocket hits, conservative case dominates and downside is large. (2) GAAP Q1 EPS distorted by $15.9B one-off equity gain — excluded. (3) Stock only ~12% off ATH, not depressed."
+}

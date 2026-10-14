@@ -1,0 +1,41 @@
+{
+ "ticker": "ACN",
+ "currency": "USD",
+ "current_price": 124.83,
+ "wacc_pct": 10.05,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.15,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = FCF reportado $10.9B - 100% SBC ~$2.45B = $8.45B (margen owner ~12.1% sobre ingresos $69.7B). SBC tratada como gasto en efectivo. Cruce de validacion: distribuciones totales FY26 (dividendos ~$4.0B + recompras ~$4.5B = ~$8.5B) practicamente igualan el owner FCF, confirmando la base.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 5,
+  "rev_cagr_y6_10_pct": 4.3,
+  "fcf_margin_terminal_pct": 12.5,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de SBC (~$2.45B/anio, ~3.5% de ingresos) restada del FCF reportado como gasto en efectivo. Base owner FCF $8.45B.",
+  "shares_diluted_b": 0.612,
+  "net_debt_usd_b": -1.78
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 184.13,
+   "prob": 0.375,
+   "note": "GenAI erosiona el modelo de consultoria y persiste el lastre del gasto federal de EE.UU. CAGR ingresos a1-5 ~3%, declinando a 3%->2% en a6-10; margen owner comprimido a ~11.5%; g terminal 2.5%. Pesimista pero no apocaliptico: ACN sigue creciendo, no se contrae."
+  },
+  "base": {
+   "iv_per_share": 234.99,
+   "prob": 0.475,
+   "note": "Normalizacion a digito medio: CAGR ingresos ~5% a1-5 (vs organico +7% FY25 y guia +3-4% LC), declinando a 5%->3.5% en a6-10; margen owner estabilizado ~12.1%, terminal ~12.5%; g 3.0%. Consistente con track record de reinversion (M&A bolt-on) y conversion de FCF. ROIC ~27%, foso amplio."
+  },
+  "optimista": {
+   "iv_per_share": 306.64,
+   "prob": 0.15,
+   "note": "ACN captura la ola GenAI/reinvencion: reaceleracion de bookings, CAGR ingresos ~8% a1-5 declinando a 8%->4%; margen owner ~13%; g terminal 3.5%. Ejecucion perfecta, sin disrupcion neta del modelo."
+  }
+ },
+ "sanity_check": "VI ponderada por probabilidad ~$227/accion vs precio $124.83 => upside ~82% tras la caida de ~18% post-Q3. CONTRASTE de rendimiento total al accionista (no DDM): dividendo FY2026 $6.52/accion = yield ~5.2%; recompras ~$4.5B/anio = ~5.9%; rendimiento total ~11.1% al precio actual, niveles raros para un compounder con ROIC ~27%, neto-caja (~$1.78B) y P/E fwd ~9x (vs media 5a ~25x). El owner FCF $8.45B cubre integramente las distribuciones (~$8.5B), de modo que el yield al accionista no se financia con deuda ni dilucion. Incluso el escenario conservador ($184) implica >45% de upside, lo que sugiere que el mercado descuenta una disrupcion estructural severa por GenAI que el DCF de owner earnings no respalda.",
+ "method_notes": "DCF de owner earnings a 10 anios en dos fases. Base owner FCF = FCF reportado FY2025 $10.9B menos 100% SBC ~$2.45B = $8.45B (margen ~12.1%). Fase 1 (a1-5): CAGR de ingresos explicito con margen owner FCF estabilizado. Fase 2 (a6-10): CAGR declinante linealmente hacia normalizacion y deriva del margen al terminal. Valor terminal por Gordon sobre FCF del anio 10 con g=2.5-3.5% segun foso (3.0% en base, foso amplio por ROIC ~27%, escala y switching costs). Descuento al WACC 10.05% = Rf 4.3% (UST 10Y, emisor cotizado en NYSE/USD) + ERP 5.0% x beta 1.15 (beta sectorial IT services); sin ajuste geopolitico (no Taiwan). VI/accion = (PV flujos explicitos + PV valor terminal - deuda neta) / acciones diluidas; deuda neta = -$1.78B (posicion neta de caja, suma al equity). Acciones diluidas ~0.612B (mktcap $76.4B / $124.83; consistente con ~615M reportadas a feb-2026). Inputs verificados del JSON FASE 2; acciones y dividendo cruzados con busqueda web ligera (StockAnalysis, 8-K Q3 FY2026). Sensibilidad clave: el resultado depende mas del CAGR de ingresos y de si GenAI es tailwind o disruptor que del nivel de margen."
+}

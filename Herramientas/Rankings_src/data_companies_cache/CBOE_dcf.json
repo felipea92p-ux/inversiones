@@ -1,0 +1,42 @@
+{
+ "ticker": "CBOE",
+ "currency": "USD",
+ "current_price": 255.98,
+ "name": "Cboe Global Markets, Inc.",
+ "wacc_pct": 9.05,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.95,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base normalizado ~$1,150M (caso base). NO se usa el FCF reportado FY2025 de $1,681.6M directamente porque el op CF de un clearinghouse esta inflado/volatil por movimientos de margin/restricted-cash. Anclaje: NI ajustado FY2025 ~$1,117M (adj EPS $10.67 x 104.7M acc.) menos 100% de SBC ($50.4M) = piso ~$1,067M de owner earnings en efectivo; el FCF reportado-SBC = $1,631M es el techo. Tomo ~$1,150M como punto medio prudente (cash earnings netos de SBC, capex bajo ~$71-83M ya incluido). SBC muy baja (2.1% de net rev, 3% del FCF) => el ajuste de owner earnings apenas resta ~3%.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 11,
+  "rev_cagr_y6_10_pct": 7,
+  "fcf_margin_terminal_pct": 65,
+  "terminal_g_pct": 3,
+  "shares_diluted_b": 0.1047,
+  "net_debt_usd_b": -0.69,
+  "sbc_treatment": "100% de SBC ($50.4M FY2025) tratada como gasto en efectivo y restada del owner FCF; impacto ~3% por SBC muy baja. Fase2 CAGR declina ~9%->5% hacia normalizacion."
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 211.74,
+   "prob": 0.375,
+   "note": "Owner FCF base $1,050M. Crecimiento ingresos Fase1 CAGR 7%, Fase2 declina 6%->3.5%, g terminal 2.5%. Refleja erosion competitiva por derivados cripto/competidores en opciones de indice, presion regulatoria sobre tarifas SPX/VIX, y crecimiento mas lento de Data Vantage. VI ~$212 => ~17% por debajo del precio. Pesimista razonable, no apocaliptico: el foso de SPX/VIX exclusivos sigue intacto."
+  },
+  "base": {
+   "iv_per_share": 308.17,
+   "prob": 0.475,
+   "note": "Owner FCF base $1,150M. Fase1 CAGR 11% (consistente con guidance FY2026 'low-double-digit a mid-teens' y crecimiento organico FY2025 +17%, Q1'26 net rev +29%), Fase2 declina 9%->5%, g terminal 3.0%. Margen FCF estabilizado ~65% sobre net revenue. Monopolio de facto en SPX/VIX, mix recurrente creciente (Data Vantage), realineacion estrategica (~20% recorte plantilla, desinversion Canada/Australia) mejora margen. VI ~$308 => ~20% de upside."
+  },
+  "optimista": {
+   "iv_per_share": 421.04,
+   "prob": 0.15,
+   "note": "Owner FCF base $1,250M. Fase1 CAGR 14% (mid-teens sostenido), Fase2 declina 11%->6%, g terminal 3.5%. Ejecucion perfecta: Data Vantage escala a doble digito, expansion de productos (cripto-derivados propios, opciones diarias 0DTE, internacional), apalancamiento operativo pleno tras realineacion. VI ~$421."
+  }
+ },
+ "sanity_check": "Rendimiento total al accionista (contraste a DCF, NO DDM): dividendo $2.88/anio = yield ~1.13%; recompras ~$180M/anio anualizadas (Q1'26 $45.1M, ~$569M de autorizacion restante) = ~0.67% del market cap; rendimiento total al accionista ~1.8%. Sumado a crecimiento organico low-double-digit (~11%), el retorno total esperado (~12-13%) supera comodamente el WACC de 9.05%, coherente con un VI base por encima del precio. Cross-check de multiplo: fwd P/E 18.65x vs promedio 5Y ~24x (descuento ~22%); a un fair fwd P/E ~22x sobre ~$11.5 adj EPS FY2026e => ~$253-265, consistente con el VI base descontado por riesgo. VI ponderado por probabilidad ~$289 (+13% sobre $255.98). El balance net-cash (-$0.69B deuda neta) reduce riesgo financiero. Caida -31% desde ATH es 'fear_rotation' (reset de valoracion + miedo a competencia en cripto-derivados), no deterioro fundamental: Q1'26 fue record y la guia FY2026 se elevo.",
+ "method_notes": "DCF de OWNER EARNINGS a 10 anios, dos fases. Owner FCF = cash earnings normalizados menos 100% de SBC; deliberadamente NO se usa el FCF reportado ($1,681.6M) porque el operating cash flow de un clearinghouse esta inflado/volatil por margin deposits y restricted cash. Owner FCF base se ancla entre el piso (adj NI - SBC = $1,067M) y el techo (FCF reportado - SBC = $1,631M), ~$1,150M en el caso base. WACC = Rf 4.3% (UST 10Y) + ERP 5.0% x beta 0.95 = 9.05%; beta ~0.95 para exchange/data de baja volatilidad con cierta prima por competencia cripto-derivados; sin ajuste geopolitico (EE.UU.). Fase 1 (anios 1-5): CAGR de ingresos explicito con margen FCF estabilizado (~65% sobre net revenue). Fase 2 (anios 6-10): CAGR declina linealmente hacia normalizacion. Valor terminal con g=2.5-3.5% segun la fortaleza del foso (exclusividad SPX/VIX, datos recurrentes). Descuento al WACC; VI/accion = (PV flujos + PV valor terminal + caja neta $0.69B) / 104.7M acciones diluidas. CBOE reporta sobre base de NET REVENUE (revenues menos cost of revenues); todos los margenes FCF se aplican sobre net revenue para evitar distorsion por pass-throughs. Probabilidades: conservador 0.375, base 0.475, optimista 0.15 (suma 1.0)."
+}

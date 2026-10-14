@@ -1,0 +1,41 @@
+{
+ "ticker": "WST",
+ "currency": "USD",
+ "current_price": 329.71,
+ "wacc_pct": 9.05,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.95,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF normalizado FY2026E = $504.6M (margen ~15.2%). Construido sobre ingresos guia FY2026 ~$3.320B (punto medio $3.295-3.350B) x margen FCF normalizado 16% = $531.2M, menos SBC normalizada (0.8% ingresos = $26.6M) = $504.6M. NOTA: el FCF reportado FY2025 ($468.9M, margen 15.25%) estaba DEPRIMIDO por capex elevado de expansion de capacidad y el fin del destocking post-COVID; usar solo el trailing infravaloraria. Owner FCF sobre FY2025 = $468.9M FCF - $23.8M SBC (100%) = $445.1M (margen 14.48%) usado como cross-check. SBC es minuscula (0.77% ingresos, 5.08% FCF), por lo que el ajuste owner-earnings apenas mueve la valoracion.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 7.5,
+  "rev_cagr_y6_10_pct": 4,
+  "fcf_margin_terminal_pct": 16,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC restada como gasto en efectivo (owner earnings). SBC FY2025 = $23.8M = 0.77% ingresos / 5.08% FCF; impacto inmaterial dada la dilucion muy baja.",
+  "shares_diluted_b": 0.07065,
+  "net_debt_usd_b": -0.2
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 133,
+   "prob": 0.375,
+   "note": "Crecimiento organico desacelera a ~5% (yrs 1-5) declinando a 3% (yrs 6-10); sin expansion de margen; g terminal 2.5%. Refleja madurez del nicho de envasado farmaceutico, presion de precios y normalizacion del ciclo GLP-1/biologicos. Owner FCF base $504.6M."
+  },
+  "base": {
+   "iv_per_share": 168,
+   "prob": 0.475,
+   "note": "CAGR owner FCF 7.5% (yrs 1-5, consistente con guia organica 7-9% FY2026) declinando a 4% (yrs 6-10); expansion de margen modesta (+4% acumulado por mix High-Value Products y apalancamiento operativo); g terminal 3.0%. Coherente con track record y foso (switching costs regulatorios, cuota dominante en elastomeros/Westar)."
+  },
+  "optimista": {
+   "iv_per_share": 216,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: CAGR 10% (yrs 1-5) declinando a 5.5%; fuerte expansion de margen (+7% por penetracion de viales/jeringas premium, GLP-1, biologicos, on-shoring Annex 1); g terminal 3.5%. Owner FCF base $504.6M."
+  }
+ },
+ "sanity_check": "A $329.71 WST cotiza a 37.8x fwd-PE y solo ~1.9-2.0% de rendimiento owner-FCF; el DCF de owner earnings da una VI base ~$168, es decir el precio implica ~+96% de sobrevaloracion vs base (precio ~2x VI base). Reverse DCF: el mercado descuenta una CAGR de owner-FCF SOSTENIDA de ~16.5% durante 10 anios — un listón muy exigente para una compañia de calidad pero de crecimiento organico de un solo digito medio-alto (organico FY2025 +4.3%, guia FY2026 +7-9%). Incluso el escenario optimista ($216) queda muy por debajo del precio. Rendimiento total al accionista (contraste, NO usado en VI): dividendo ~0.25% (~$0.84/accion) + recompras modestas ~ rendimiento total al accionista ~1.5-2%; insuficiente para justificar el multiplo. Conclusion: negocio QG excelente (ROIC ~17.8%, caja neta +$200M, foso regulatorio, SBC minima) pero CARO a precio actual; margen de seguridad negativo. La accion esta a -2.1% de su maximo 52s (no deprimida).",
+ "method_notes": "DCF de owner earnings a 10 anios en dos fases. Owner FCF = FCF reportado - 100% SBC. Base normalizada FY2026E ($504.6M) en lugar del FCF trailing deprimido FY2025 (capex de expansion elevado + destocking) para no infravalorar; cross-check con base FY2025 owner FCF $445.1M dio VI base ~$148 (consistente, igualmente muy por debajo del precio). WACC = Rf 4.3% (UST 10Y) + ERP 5.0% x beta 0.95 = 9.05%; beta ~0.95 estimada para envasado/dispositivos farmaceuticos (demanda estable, defensiva pero ciclo de inventarios de clientes). Sin ajuste geopolitico (empresa US, fabricacion global diversificada). Fase 1 (yrs 1-5) CAGR explicito; Fase 2 (yrs 6-10) declive lineal hacia normalizacion; valor terminal Gordon con g 2.5-3.5% segun escenario/foso. VI/accion = (PV flujos + PV valor terminal + caja neta $200.4M) / 0.07065B acciones diluidas (70.65M). Probabilidades 0.375/0.475/0.15 = 1.00. Sensibilidad base: WACC 8.5-9.5% y g 2.5-3.5% da rango VI ~$149-198, centrado en ~$168. Fuentes: SEC EDGAR 8-K Q1 2026, 10-K FY2025, XBRL (SBC $23.8M), StockAnalysis/GuruFocus para precio/ROIC/caja neta. No se requirio busqueda web adicional; datos FASE 2 completos."
+}

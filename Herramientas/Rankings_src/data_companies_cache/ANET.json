@@ -1,0 +1,95 @@
+{
+ "ticker": "ANET",
+ "name": "Arista Networks, Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 174.56,
+ "market_cap_usd_b": 219.81,
+ "fwd_pe": 44.96,
+ "fwd_pe_5y_avg": 41.96,
+ "pe_prem_disc_pct": 7.2,
+ "peg": 2.56,
+ "last_q": {
+  "period": "Q1 FY2026 (ended Mar 31, 2026)",
+  "revenue": "$2.709B",
+  "rev_yoy_pct": 35.1,
+  "op_margin_pct": 42.7,
+  "eps_gaap": "$0.80",
+  "eps_adj": "$0.87"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 31, 2025)",
+  "revenue": "$9.006B",
+  "organic_growth_pct": 28.6,
+  "roic_pct": null,
+  "fcf": "$4.252B",
+  "fcf_margin_pct": 47.2
+ },
+ "sbc_pct_revenue": 4.5,
+ "sbc_pct_fcf": 7.4,
+ "net_debt_usd_b": -12.35,
+ "nd_ebitda": null,
+ "net_cash": true,
+ "guidance_fy": "No formal full-year 2026 guidance issued at Q1 print; Q2 FY2026 guidance: revenue ~$2.8B, non-GAAP operating margin 46-47%, non-GAAP diluted EPS ~$0.88. (Management commentary cited a raised FY2026 AI revenue target of $3.5B and a longer-term FY2026 revenue framework around $11.5B / ~27-28% growth per analyst recaps — treat the FY figure as ESTIMADO/commentary, not formal guidance.)",
+ "pct_off_52w_high": -2.9,
+ "pct_off_ath": -2.9,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "net_debt_usd_b",
+  "net_cash",
+  "guidance_fy",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.fcf_margin_pct",
+  "last_fy.roic_pct",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "nd_ebitda"
+ ],
+ "sources": [
+  {
+   "label": "Arista IR — Q1 FY2026 Financial Results press release (revenue, margins, GAAP/non-GAAP EPS, cash $12.35B, SBC $120.9M, OCF $1.69B, Q2 guidance)",
+   "url": "https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2026/Arista-Networks-Inc--Reports-First-Quarter-2026-Financial-Results/",
+   "date": "2026-05-05"
+  },
+  {
+   "label": "Arista.com — Q1 2026 press release (operating margins, EPS, Q2 guidance)",
+   "url": "https://www.arista.com/en/company/news/press-release/24017-pr-20260505",
+   "date": "2026-05-05"
+  },
+  {
+   "label": "StockAnalysis.com — ANET statistics (price $174.56, market cap $219.81B, fwd PE 44.96, PEG 2.56, $12.35B cash no debt, EV/EBITDA 48.89)",
+   "url": "https://stockanalysis.com/stocks/anet/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com — ANET financials (FY2025 revenue $9.006B, +28.6%, op margin 42.8%, FCF $4.252B, FCF margin 47.2%)",
+   "url": "https://stockanalysis.com/stocks/anet/financials/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Macrotrends / financecharts — ANET PE history (5yr avg PE ~41.96, 52w high $179.80, ATH context)",
+   "url": "https://www.macrotrends.net/stocks/charts/ANET/arista-networks/pe-ratio",
+   "date": "2026-06-22"
+  }
+ ],
+ "notes": "ANET completed a 4-for-1 stock split in late 2025; per-share figures (~$174 price, $0.80/$0.87 EPS) are split-adjusted, market cap ~$220B is the reliable cross-check. VERIFICADO from Arista IR press release: Q1 FY2026 revenue $2.709B (+35.1% YoY), GAAP operating margin 42.7%, non-GAAP op margin 47.8%, GAAP diluted EPS $0.80, non-GAAP $0.87, OCF $1.69B, cash+marketable securities $12.35B with NO debt (net cash), SBC $120.9M. FCF ~$1.64B in Q1 (OCF minus $54.5M capex). FY2025 revenue $9.006B verified via aggregator matching 10-K (filed 2026-02-13). ESTIMADO/aggregator: valuation multiples (fwd PE 44.96 stockanalysis; 47.17 Yahoo; 45.21 GuruFocus — range ~45-47), PEG 2.56, FCF margin 47.2%, net of cash. fwd_pe_5y_avg of 41.96 is sourced as a 5yr AVERAGE P/E proxy (likely blends trailing — treat premium calc as approximate); current fwd PE sits ~7% above this, i.e. modest premium. ROIC not disclosed (null) — ANET has minimal invested capital and large net cash, reported ROIC/ROE figures run very high (40%+) but not verified here. nd_ebitda left null (net cash position makes it non-meaningful/negative). drop_classification = not_depressed: stock at/near all-time highs ($174.56 vs 52w high $179.80, only ~2.9% off), up ~100%+ over trailing 52 weeks — NOT a depressed/sold-off name; included for completeness of the screen. pct_off_52w_high and pct_off_ath both ~-2.9% using $179.80 reference (closing ATH ~$177.73 on Apr 22, 2026 per one source)."
+}

@@ -1,0 +1,59 @@
+{
+ "ticker": "FTNT",
+ "name": "Fortinet, Inc.",
+ "rules": {
+  "R1": {
+   "score": 2,
+   "just": "Software/network security model with 31% GAAP / 35-36% non-GAAP operating margins that expand with scale; SecOps and SASE subscriptions ride on top of proprietary FortiASIC hardware, a classic high-incremental-margin scalable model."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Cybersecurity is a durable secular growth industry (SASE, OT/network security, AI-driven threats); 20% YoY Q1 2026 revenue growth and 15% FY26 guidance confirm the tailwind."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Clear #1 in network firewalls/appliances by unit share and a leader in unified SASE/SecOps, but Palo Alto and others are genuine peers at the high end, so dominance is strong, not light-years ahead (no 2.0)."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Wide moat from FortiASIC custom-silicon cost advantage, switching costs of an integrated Security Fabric, and the FortiGuard threat-intel install base; durable but replicable by a few well-capitalized rivals, so not 2.0."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Growth is overwhelmingly organic (FY2025 organic growth ~14%, 20% YoY in Q1 2026) with minimal reliance on M&A, exactly the profile Seilern rewards."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Strong multi-geography, multi-segment diversification with no customer >10-15% disclosed, but revenue is concentrated in the single cybersecurity vertical, capping the score at base."
+  },
+  "R7": {
+   "score": 2,
+   "just": "ROIC ~23% far exceeds WACC, FCF $2.21B at 32.5% margin with FCF/NI well above 80% and low capex intensity — elite capital efficiency."
+  },
+  "R8": {
+   "score": 2,
+   "just": "Net cash ~$2.93B (total debt $996M vs ~$3.9B cash+investments), ND/EBITDA negative (-1.1x) — a fortress balance sheet."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "SBC is exceptionally disciplined for software at 4.1% of revenue and only 12.8% of FCF (below the 15% hard-rule threshold); GAAP-to-non-GAAP gap is modest and accounting is clean."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Founder-led (Ken Xie CEO/co-founder) with meaningful insider ownership and skin-in-the-game, disciplined opportunistic buybacks over destructive M&A, strong capital allocation track record."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (scalable software/silicon model, 2.0), R3 (sustained network-security #1) and R4 (FortiASIC cost moat + Security Fabric switching costs) reinforce each other monstrously: the custom-ASIC cost advantage lowers the price-performance frontier, which entrenches #1 unit share, which funds the FortiGuard/R&D flywheel that widens the moat.",
+ "moat_type": "cost_advantage + switching_costs",
+ "moat_one_line": "Proprietary FortiASIC custom silicon delivers a structural price-performance cost edge, locked in by the high switching costs of an integrated Security Fabric and the FortiGuard threat-intelligence install base.",
+ "thesis_3lines": [
+  "Calidad: negocio de ciberseguridad de altisima calidad — margenes operativos non-GAAP de 35-36%, ROIC ~23%, FCF 32.5% de las ventas, caja neta ~$2.93B y SBC excepcionalmente baja (12.8% del FCF).",
+  "Motor de crecimiento: lider #1 en firewalls de red con ventaja de coste por silicio propietario (FortiASIC) y Security Fabric integrado, creciendo 20% organico interanual con tailwind secular de SASE/OT/SecOps.",
+  "Valoracion/retorno: fwd P/E ~46.6x con +22.6% de prima sobre su media de 5 anios y PEG 3.51 — calidad excepcional pero a precio exigente cerca de maximos historicos; consenso 'Hold' implica ~20% de downside."
+ ],
+ "bear_case_strongest": "A ~46.6x forward earnings (PEG 3.51, +22.6% premium to its own 5-year average) the stock is priced for flawless ~15% compounding right at all-time highs after a +70% post-Q1 surge, so any deceleration in firewall refresh cycles or competitive pricing pressure from Palo Alto/Cisco triggers a sharp multiple de-rating with ~20% downside to consensus targets — quality is real but the entry valuation offers no margin of safety.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Re-score total = 16.5 of 13.5 raw cap before normalization; on Seilern weighted ceiling of 13.5 this is a near-maximal quality score (R1/R7/R8 at 2.0; R3/R4/R5/R9/R10 at 1.5; R6 base). Quality is essentially uncompromised — the only material reservation is valuation, not business quality. Stock is NOT depressed (within ~3% of ATH, +45% 1yr, +70% post-Q1-2026 beat), so this is a watchlist/quality-confirmed name pending a better entry point, not a value opportunity. SBC hard rule passes cleanly (12.8% of FCF < 15%). Key estimated/soft fields: fwd_pe_5y_avg ~38x and pe premium are approximations; ROIC 23-28% range methodology-dependent. fwd_pe 46.6x verified against StockAnalysis."
+}

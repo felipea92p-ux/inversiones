@@ -1,0 +1,273 @@
+{
+  "ticker": "ICE",
+  "empresa": "Intercontinental Exchange, Inc.",
+  "cik": "0001571949",
+  "domicilio": "Delaware, EEUU",
+  "moneda_funcional": "USD",
+  "moneda_reporte": "USD",
+  "fecha_valoracion": "2026-07-27",
+  "etapa": "VALORACION (la calidad esta CONGELADA y no se toca)",
+
+  "etiqueta_congelada": {
+    "banda": "MENOS_5_6",
+    "puertas_pasadas": 3,
+    "especie": "G2",
+    "reinversion_pct_ventas": 32.1,
+    "roiic_bruto_pct": 10.9,
+    "roiic_ex_margen_pct": 11.3,
+    "mos_exigido_pct": 40,
+    "motivo_umbral": "No esta en cartera de Felipe -> aplica el umbral de ABRIR (40%), no el de CARGAR",
+    "mecanismo": "ICE cobra un peaje sobre un pool de interes abierto de 102,7 millones de contratos que nadie puede replicar de forma incremental, porque una posicion abierta en su camara solo se cierra en su camara, y convierte ese peaje en caja con una fidelidad de 119 centimos de FCF por cada 100 de beneficio contable sin consumir capital tangible alguno.",
+    "eslabon_mas_debil": "El capital que ICE si ha desembolsado -13.346 millones entre capex y adquisiciones en cinco anios, 32,1% de las ventas- ha rentado 10,9% bruto y 11,3% ex-margen, alrededor de su propio coste de capital, y la mayor de esas compras cerro el ultimo trimestre con margen operativo GAAP negativo.",
+    "nota_del_valorador": "NO se reclasifica hacia arriba. Ni el Q1 2026 record ni el peaje de interes abierto cambian la etiqueta. Al contrario: la valoracion de abajo CONFIRMA el eslabon debil, porque el mercado ya paga el ROIIC entero."
+  },
+
+  "fuentes_primarias": {
+    "10K_FY2025": {
+      "accession": "0001571949-26-000004",
+      "fecha_presentacion": "2026-02-05",
+      "periodo": "2025-01-01 a 2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1571949/000157194926000004/ice-20251231.htm",
+      "estados_usados": ["R5.htm Consolidated Statements of Income", "R8.htm Consolidated Statements of Cash Flows"]
+    },
+    "10Q_Q1_2026": {
+      "accession": "0001571949-26-000007",
+      "fecha_presentacion": "2026-04-30",
+      "periodo": "2026-01-01 a 2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1571949/000157194926000007/ice-20260331.htm",
+      "estados_usados": ["R4.htm Income", "R7.htm Cash Flows", "portada: 565.512.495 acciones al 2026-04-27"]
+    },
+    "8K_resultados_Q1_2026": {
+      "accession": "0001104659-26-052145",
+      "exhibit": "tm2612824d1_ex99-1.htm",
+      "fecha": "2026-04-30",
+      "uso": "guia FY2026 y 2T26"
+    },
+    "8K_junta_2026": {
+      "accession": "0001104659-26-063863",
+      "fecha": "2026-05-19",
+      "hallazgo": "Solo Item 5.07 (junta de accionistas). 566.430.761 acciones en circulacion a fecha de registro 2026-03-19. NO hay operacion corporativa material posterior al 10-Q."
+    },
+    "xbrl_companyfacts": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001571949.json"
+  },
+
+  "precio_y_capitalizacion": {
+    "precio_usd": 148.73,
+    "fecha_precio": "2026-07-27 cierre",
+    "fuente_precio": "stockanalysis.com/stocks/ice (agregador) — INFERENCIA. No es ADS ni cotiza fuera de EEUU: accion ordinaria NYSE/NYSE Texas, sin conversion de divisa.",
+    "cross_check_precio": "Busqueda web dio cierre 145,79 USD el 2026-07-24 (viernes). Coherente con 148,73 el lunes 2026-07-27 (+2,0%).",
+    "acciones_en_circulacion_mm": 565.5,
+    "fuente_acciones": "HECHO — portada 10-Q Q1 2026: 565.512.495 al 2026-04-27. Cross-check HECHO: 566.430.761 al 2026-03-19 (8-K junta). Nota: ICE recompro 551 MUSD en Q1 2026 y sigue recomprando, asi que el recuento real de hoy es probablemente 562-565 mm; usar 565,5 es CONSERVADOR (infla ligeramente la capitalizacion).",
+    "acciones_diluidas_mm_Q1_2026": 570,
+    "capitalizacion_usd_mm": 84107,
+    "deuda_total_carrying_usd_mm": 20370,
+    "deuda_valor_mercado_usd_mm": 20022,
+    "detalle_deuda_mercado": "Notas senior a valor razonable 18.271 (HECHO, nota de valor razonable 10-Q Q1 2026, contra 18.619 de carrying = 98,1% del par) + papel comercial 1.751 a la par (HECHO, balance 10-Q).",
+    "caja_no_restringida_usd_mm": 863,
+    "deuda_neta_usd_mm": 19159,
+    "ev_usd_mm": 103266,
+    "nota_balance": "El activo total de 136.887 MUSD esta dominado por depositos de margen de las camaras (pasivo espejo). NO son activos ni deuda de ICE. Se excluyen del EV correctamente."
+  },
+
+  "wacc_candado_B": {
+    "principio": "CANDADO B — el WACC sale del MERCADO, nunca de un tier de calidad.",
+    "tasa_libre_riesgo_pct": 4.64,
+    "fuente_tasa_libre_riesgo": "Bono del Tesoro EEUU a 10 anios (moneda funcional USD), 4,64% al 2026-07-27, via tradingeconomics — INFERENCIA. FRED devolvio HTTP 403 y no pudo usarse como fuente primaria. Contexto del mes: 4,55% el 2026-07-17 y 4,56% el 2026-07-10 (Advisor Perspectives).",
+    "beta": 0.95,
+    "fuente_beta": "stockanalysis.com/stocks/ice, beta publicada al 2026-07-27 — INFERENCIA (agregador, ventana no declarada, presumiblemente 5 anios mensual). No hay regresion propia. Rango plausible usado en sensibilidad: 0,85-1,05.",
+    "prima_mercado_pct": 4.20,
+    "fuente_prima_mercado": "Damodaran, actualizacion de julio 2026: con el S&P 500 en 7.499,36 el 2026-07-01, la ERP implicita EEUU es 4,42%; neteando el spread de impago de 0,22% del rating Aa1 (tras la bajada de Moody's desde Aaa) queda una prima de mercado maduro de 4,20%. Obtenido via busqueda, no descargado del fichero fuente — INFERENCIA.",
+    "prima_pais_pct": 0.25,
+    "fuente_prima_pais": "Damodaran julio 2026: CRP EEUU = 0,22% (Aa1). Se pondera por riesgo de ACTIVO, no de domicilio: ~80% EEUU (NYSE, ICE Futures US, ICE Clear US, Mortgage Technology 100% EEUU, la mayor parte de Fixed Income & Data) y ~20% Reino Unido/UE (ICE Futures Europe, ICE Clear Europe, ICE Endex). Blended = 0,25%. INFERENCIA — la reparticion geografica de activos es estimacion propia, no un desglose auditado.",
+    "coste_capital_propio_pct": 8.87,
+    "calculo_ke": "4,64% + 0,95 x (4,20% + 0,25%) = 8,87%",
+    "coste_deuda_pct": 4.05,
+    "derivacion_coste_deuda": "HECHO — gasto financiero FY2025 de 803 MUSD (cuenta de resultados 10-K) sobre deuda media del ejercicio ((20.368 + 19.644)/2 = 20.006) = 4,01%. Cross-check trimestral: 203 x 4 = 812 sobre deuda media 20.007 = 4,06%. Se usa 4,05%.",
+    "aviso_coste_deuda": "IMPORTANTE: el coste EMBEBIDO (4,05%) es inferior al MARGINAL. Las notas cotizan a 17.867 frente a 18.609 de carrying al cierre de 2025 (96,0% del par), lo que revela que el mercado exige mas que el cupon medio. Coste marginal estimado 5,0-5,5% (A3/BBB+ sobre un 10 anios al 4,64%). Se usa el embebido como pide el candado y el marginal en el extremo alto del rango.",
+    "tasa_impositiva_pct": 24.0,
+    "fuente_tasa_impositiva": "Tipo efectivo FY2025 = 976/4.346 = 22,5% (HECHO, 10-K). Se usa 24% marginal para el escudo fiscal, mas conservador.",
+    "ponderacion": "A valor de MERCADO: E = 84.107 (80,8%), D = 20.022 (19,2%).",
+    "wacc_pct": 7.75,
+    "wacc_rango": "7,4% - 8,5%",
+    "detalle_rango": "Bajo 7,36% (beta 0,85, ERP 4,40%, Kd 4,05%). Central 7,75%. Alto 8,54% (beta 1,05, ERP 4,70%, Kd marginal 5,50%).",
+    "friccion_declarada": "Este WACC bottom-up (7,75%) es NOTABLEMENTE INFERIOR al coste de capital implicito que la etapa de calidad manejaba cuando dijo que el ROIIC de 10,9-11,3% estaba 'alrededor de su propio coste de capital' (eso implicaba ~10-11%). No se resuelve la friccion inventando un WACC: se reporta el de mercado (candado B) y se deja constancia. Con WACC 7,75% el ROIIC ex-margen de 11,3% esta ~355 pb POR ENCIMA del coste de capital, no en linea con el. Esto NO reclasifica la etiqueta: es informacion para el veredicto, y de hecho el precio ya se la ha comido entera (ver DCF inverso)."
+  },
+
+  "owner_earnings": {
+    "metodo": "Dos versiones (mantenimiento / capex total) sobre dos bases (ultimo auditado / ejercicio en curso).",
+
+    "base_auditada_FY2025": {
+      "flujo_caja_operativo_usd_mm": 4662,
+      "fuente_cfo": "HECHO — 10-K FY2025, R8 Consolidated Statements of Cash Flows",
+      "capex_total_usd_mm": 791,
+      "desglose_capex_total": "Capital expenditures 373 + Capitalized software development costs 418 (HECHO, ambos en el estado de flujos)",
+      "capex_mantenimiento_usd_mm": 566,
+      "desglose_capex_mantenimiento": "Depreciacion de inmovilizado material 198 (HECHO, tag us-gaap:Depreciation 10-K FY2025) + amortizacion de software capitalizado 368 (HECHO, tag CapitalizedComputerSoftwareAmortization1 10-K FY2025) = 566.",
+      "por_que_se_excluye_la_amortizacion_de_intangibles": "La D&A total de 1.560 incluye 994 de amortizacion de intangibles de adquisicion (HECHO, 10-K). Eso es reparto del precio pagado por Black Knight, Ellie Mae, IDC, no una necesidad de reposicion de activos. Usar los 1.560 como proxy de capex de mantenimiento daria un mantenimiento SUPERIOR al capex total de la empresa (1.560 > 791), lo cual es un absurdo aritmetico. Se usa el proxy economicamente defendible. ESTO ES UN JUICIO, NO UN HECHO — declarado como hueco.",
+      "exceso_discrecional_usd_mm": 225,
+      "oe_mantenimiento_usd_mm": 4096,
+      "oe_capex_total_usd_mm": 3871,
+      "fidelidad_de_caja": "FCF 3.871 / beneficio neto atribuible 3.315 = 116,8%. Confirma con datos del 10-K FY2025 los '119 centimos por cada 100' del mecanismo congelado.",
+      "ajustes_no_aplicados_declarados": {
+        "interes_minoritario": "El beneficio atribuible a minoritarios fue 55 MUSD (HECHO). Restandolo: OE mantenimiento 4.041, OE capex total 3.816 (-1,4%). No cambia ninguna conclusion.",
+        "stock_based_compensation": "El CFO devuelve 238 MUSD de SBC (HECHO). Un purista lo restaria: OE capex total ex-SBC = 3.633 (-6,2%). ICE recompro 1.294 MUSD en 2025 y el recuento de acciones baja (574 -> 567), asi que la dilucion neta es negativa; no se resta, pero queda declarado."
+      }
+    },
+
+    "base_en_curso_FY2026E": {
+      "estado_de_la_informacion": "Solo hay UN trimestre publicado. El 10-Q de Q2 2026 aun NO existe: ICE anuncio que presenta resultados del 2T26 el 2026-07-30, tres dias DESPUES de esta valoracion (HECHO, 8-K de resultados Q1). Por tanto esta base es Q1 real + guia de la empresa + supuestos propios de ingresos.",
+      "Q1_2026_real": {
+        "ingresos_netos_usd_mm": 2977,
+        "variacion_interanual_pct": 20.4,
+        "gastos_operativos_usd_mm": 1312,
+        "resultado_operativo_usd_mm": 1665,
+        "margen_operativo_gaap_pct": 55.9,
+        "beneficio_neto_atribuible_usd_mm": 1413,
+        "cfo_usd_mm": 1326,
+        "capex_usd_mm": 176,
+        "fuente": "HECHO — 10-Q Q1 2026, R4 y R7"
+      },
+      "one_off_detectado_y_neutralizado": {
+        "concepto": "Gain on investments",
+        "importe_usd_mm": 389,
+        "ubicacion": "'Other income, net' 411 MUSD en Q1 2026 frente a 19 MUSD en Q1 2025; el estado de flujos lo identifica como '(Gain) on investments 389' (HECHO, 10-Q R7).",
+        "tratamiento": "Se ELIMINA de la base recurrente. Sin el, el beneficio antes de impuestos de Q1 2026 es 1.508 y el atribuible ~1.119, no 1.413. Quien anualice el 1.413 sin mirar esta linea se construye una empresa que no existe."
+      },
+      "construccion": {
+        "ingresos_netos_Q1_real": 2977,
+        "supuesto_Q2_Q4": "+9% interanual sobre los trimestres de 2025 (2.543 / 2.411 / 2.504) -> 2.772 + 2.628 + 2.729 = 8.129. SUPUESTO PROPIO. Se modera deliberadamente desde el +20,4% de Q1, que fue producto de volatilidad extraordinaria en materias primas y tipos. Un +20% sostenido daria FY2026 ~11.960 y no es una tasa base defendible para un negocio de peaje.",
+        "ingresos_netos_FY2026E_usd_mm": 11106,
+        "gastos_operativos_FY2026E_usd_mm": 5120,
+        "fuente_gastos": "HECHO (guia de la empresa) — 8-K resultados Q1 2026: 'ICE's full year 2026 GAAP operating expenses are expected to be in a range of $5.095 billion to $5.145 billion'. Punto medio 5.120.",
+        "resultado_operativo_FY2026E_usd_mm": 5986,
+        "no_operativo_FY2026E_usd_mm": -644,
+        "fuente_no_operativo": "Q1 real ex-plusvalia -157; Q2 guia HECHO 160-165 MUSD de gasto no operativo GAAP; Q3-Q4 en linea con Q2.",
+        "beneficio_neto_atribuible_FY2026E_usd_mm": 4080,
+        "cfo_FY2026E_usd_mm": 5300,
+        "justificacion_cfo": "La construccion mecanica (BN 4.140 + D&A 1.536 + SBC 326 - 520 de circulante y otros) da 5.482, es decir un 49,4% de los ingresos netos. La conversion historica CFO/ingresos netos fue 46,9% (2025) y 49,7% (2024). Se recorta a 5.300 (47,7%) por prudencia. Rango honesto: 5.100-5.500.",
+        "capex_total_FY2026E_usd_mm": 780,
+        "capex_mantenimiento_FY2026E_usd_mm": 620,
+        "detalle_capex_2026": "Q1 real 176 (64 material + 112 software). Anualizado ~704; se eleva a 780 por la tendencia creciente de software capitalizado. Mantenimiento = depreciacion ~210 + amortizacion de software ~410."
+      },
+      "oe_mantenimiento_usd_mm": 4680,
+      "oe_capex_total_usd_mm": 4520
+    },
+
+    "distancia_entre_bases": {
+      "oe_mantenimiento_pct": 14.3,
+      "oe_capex_total_pct": 16.8,
+      "lectura": "NO es ruido, es momento del ciclo. Los ingresos netos de Q1 2026 crecieron 20,4% interanual y la empresa habla de 'record revenues and record operating income'. ICE es un peaje sobre interes abierto, pero el VOLUMEN que atraviesa ese peaje es prociclico con la volatilidad de materias primas y tipos. 2026 esta corriendo caliente. La consecuencia practica es asimetrica: valorar sobre la base EN CURSO regala ~15% de valor que puede no repetirse. El ancla de esta valoracion es la base AUDITADA; la base en curso se reporta como techo, no como suelo."
+    }
+  },
+
+  "dcf_inverso": {
+    "planteamiento": "Que crecimiento a 10 anios, con terminal 3%, justifica exactamente el EV de hoy (103.266 MUSD) al WACC de 7,75%.",
+    "conversion_a_flujo_de_empresa": "El owner earnings sale del CFO, que ya esta despues de intereses pagados: es un flujo de EQUITY. Para descontarlo al WACC contra el EV se le suma el interes NETO despues de impuestos: (803 - 119) x 0,76 = 530 en 2025; 646 x 0,776 = 501 en 2026E.",
+    "resultados": {
+      "auditado_mantenimiento": {"flujo_base_fcff": 4616, "g_implicita_pct": 3.40},
+      "auditado_capex_total": {"flujo_base_fcff": 4391, "g_implicita_pct": 4.03},
+      "en_curso_mantenimiento": {"flujo_base_fcff": 5171, "g_implicita_pct": 1.98},
+      "en_curso_capex_total": {"flujo_base_fcff": 5011, "g_implicita_pct": 2.37}
+    },
+    "lectura": "El mercado pide entre 2,0% y 4,0% de crecimiento a 10 anios segun la base. Esa horquilla NO es exigente en abstracto. El problema es que ICE tampoco puede prometer mucho mas: su g defendible es 3,63%. El precio y el motor se han igualado.",
+    "escenario_adversarial_ciclo_completo": {
+      "planteamiento": "El eslabon debil dice que el capital de verdad se despliega en M&A, no en capex. La media de 5 anios de 'Cash paid for acquisitions' es (66 + 59 + 10.198 + 38 + 19)/5 = 2.076 MUSD/anio (HECHO, estados de flujos 10-K 2023/2024/2025).",
+      "fcf_post_MA_usd_mm": 1795,
+      "g_implicita_pct": 12.1,
+      "valor_por_accion_usd": 59,
+      "lectura": "Si se le cobra a ICE el precio real de su propio crecimiento -las adquisiciones-, el mercado esta pidiendo 12,1% anual durante una decada a un peaje maduro. Ese numero es imposible. AVISO METODOLOGICO: este escenario castiga dos veces, porque esas mismas adquisiciones compraron el beneficio actual (Black Knight aporta el segmento Mortgage Technology de 2.101 MUSD). Se reporta como FRONTERA INFERIOR y como cuantificacion del eslabon debil, NO como el valor central."
+    }
+  },
+
+  "g_defendible": {
+    "formula": "tasa de reinversion x ROIIC EX-MARGEN",
+    "reinversion_pct": 32.1,
+    "roiic_ex_margen_pct": 11.3,
+    "g_defendible_pct": 3.63,
+    "por_que_ex_margen": "Usar el ROIIC bruto de 10,9%... (nota: en este caso el bruto es MENOR que el ex-margen, 10,9% vs 11,3%, lo cual es inusual y viene de la etapa congelada). Se usa el ex-margen por politica del metodo: no asumir que la expansion de margen se repite. Con el bruto la g seria 3,50% en vez de 3,63% — diferencia irrelevante frente al ruido.",
+    "contraste_con_la_tasa_base": "El crecimiento real de ingresos netos de ICE fue: 2021 7.145 -> 2025 9.931 = +8,6% anual compuesto. Pero ~7.988 -> 9.279 (2023->2024) es en buena parte Black Knight comprado, no organico. La g de 3,63% de reinversion x ROIIC es coherente con un peaje maduro que compra crecimiento a precio de mercado. Se acepta como defendible.",
+    "advertencia_de_coherencia": "Aplicar g = 3,63% a la version (a) de owner earnings -que NO resta el capex discrecional ni la M&A- es GENEROSO: se cobra el crecimiento sin pagarlo. La version (b), capex total, es la coherente para el ancla; y ni siquiera esa incluye la M&A. Por eso el ancla del veredicto es la base AUDITADA con CAPEX TOTAL."
+  },
+
+  "valor_intrinseco": {
+    "piso_de_resolucion": "No hay medicion propia de ruido. Se aplica +/- 25% a todo valor intrinseco. Nada de decimales falsos.",
+    "auditado_mantenimiento": {"valor_por_accion_usd": 152, "rango_25pct": "114 - 190", "mos_pct": 2.2},
+    "auditado_capex_total": {"valor_por_accion_usd": 143, "rango_25pct": "107 - 179", "mos_pct": -4.0},
+    "en_curso_mantenimiento": {"valor_por_accion_usd": 174, "rango_25pct": "131 - 218", "mos_pct": 14.7},
+    "en_curso_capex_total": {"valor_por_accion_usd": 168, "rango_25pct": "126 - 210", "mos_pct": 11.5},
+    "sensibilidad_wacc_base_auditada_mantenimiento": {
+      "wacc_7_36": {"vps": 169, "mos_pct": 12.0},
+      "wacc_7_75": {"vps": 152, "mos_pct": 2.3},
+      "wacc_8_54": {"vps": 126, "mos_pct": -18.5}
+    },
+    "sensibilidad_wacc_base_auditada_capex_total": {
+      "wacc_7_36": {"vps": 159, "mos_pct": 6.6},
+      "wacc_7_75": {"vps": 143, "mos_pct": -3.9},
+      "wacc_8_54": {"vps": 118, "mos_pct": -26.3}
+    },
+    "conclusion": "En NINGUNA de las ocho celdas (4 bases x 2 versiones, mas 3 WACC) el margen de seguridad llega al 40% exigido. El maximo observado es +14,7%, y esta construido sobre el trimestre mas caliente del ciclo y la version de owner earnings que no paga el crecimiento."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 18.0,
+    "definicion_m_estrella": "18,0 veces owner earnings sobre la base de CAPEX TOTAL (version b). Decidido en frio, sin barra de error, porque no es una estimacion sino una politica de precio.",
+    "razonamiento_m_estrella": "Con WACC 7,75% y terminal 3%, una perpetuidad sin exceso de retorno vale 1/(0,0775-0,03) = 20,8x. ICE reinvierte al 11,3% frente a un coste del 7,75%, lo que en teoria justificaria PRIMA sobre 20,8x. Me niego a pagar esa prima por tres razones concretas y documentadas: (1) el 32,1% de las ventas que reinvierte va mayoritariamente a M&A, no a capex organico, y la mayor de esas compras cerro el ultimo trimestre con margen operativo GAAP negativo; (2) el ROIIC de 11,3% es un promedio que ya incorpora Black Knight, es decir el resultado, no la promesa; (3) la base de beneficios de 2026 esta corriendo caliente (+20,4% en Q1). 18,0x es 13% por debajo del multiplo de no-exceso: pago el peaje, no pago la opcion de reinversion.",
+    "valor_por_m_estrella": {
+      "sobre_oe_capex_total_auditado": "18,0 x 3.871 = 69.678 -> 123 USD/accion",
+      "sobre_oe_mantenimiento_auditado": "18,0 x 4.096 = 73.728 -> 130 USD/accion",
+      "sobre_oe_capex_total_en_curso": "18,0 x 4.520 = 81.360 -> 144 USD/accion",
+      "sobre_oe_mantenimiento_en_curso": "18,0 x 4.680 = 84.240 -> 149 USD/accion"
+    },
+    "multiplo_que_paga_el_mercado_hoy": {
+      "sobre_oe_capex_total_auditado": 21.7,
+      "sobre_oe_mantenimiento_auditado": 20.5,
+      "sobre_oe_capex_total_en_curso": 18.6,
+      "sobre_oe_mantenimiento_en_curso": 18.0,
+      "lectura": "Dato incomodo y limpio: a 148,73 el mercado paga EXACTAMENTE mi m* de 18,0x, pero sobre el owner earnings de mantenimiento del ejercicio EN CURSO, es decir sobre el numero mas favorable de los cuatro. Sobre lo auditado paga 20,5-21,7x. El mercado ya descuenta que 2026 se consolida."
+    },
+    "p_estrella_usd": 78,
+    "derivacion_p_estrella": "Ancla conservadora = min(valor DCF auditado, valor por m*) = min(152, 130) = 130 USD/accion. Aplicando el MoS exigido del 40% para ABRIR en banda MENOS_5_6: 130 x 0,60 = 78 USD. Ruta alternativa mas laxa (DCF auditado mantenimiento 152 x 0,60) daria 91 USD; ruta mas dura (m* sobre OE capex total, 123 x 0,60) daria 74 USD. Rango de P*: 74 - 91 USD. Se reporta 78.",
+    "distancia_al_precio": "El precio tendria que caer un 47,6% desde 148,73 hasta 78 para abrir posicion con el margen que exige su banda."
+  },
+
+  "tir_esperada": {
+    "rango": "+6,6% a +9,7% anual a 10 anios; central ~8,0%",
+    "escenarios": {
+      "bajista": {"supuesto": "OE normalizado a 3.500 (fin del ciclo caliente de volatilidad), g 2,0%, terminal 2,5%", "tir_pct": 6.6},
+      "central_bajo": {"supuesto": "OE capex total auditado 3.871, g defendible 3,63%, terminal 3%", "tir_pct": 8.0},
+      "central_alto": {"supuesto": "OE capex total en curso 4.520, g defendible 3,63%, terminal 3%", "tir_pct": 8.8},
+      "alcista": {"supuesto": "OE mantenimiento en curso 4.680, g 5,0% (vuelve a comprar crecimiento y le sale bien), terminal 3%", "tir_pct": 9.7}
+    },
+    "lectura": "Comprar ICE hoy a 148,73 es firmar aproximadamente su propio coste de capital: TIR central 8,0% contra un WACC de 7,75%. No es una perdida; es la ausencia total de alfa. El escenario alcista (9,7%) requiere que ICE haga con el proximo capital lo que no ha hecho con los ultimos 13.346 millones."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "Una trampa de valor es un MoS grande sobre un motor que se rompe. Aqui NO se cumple ninguno de los dos terminos. (1) No hay MoS grande: el margen de seguridad va de -4% a +15% segun la base, muy lejos del 40% exigido. Sin descuento aparente no hay trampa que tender. (2) El motor NO se esta rompiendo: Q1 2026 dio ingresos netos record de 2.977 MUSD (+20,4% interanual), resultado operativo record de 1.665 MUSD, margen operativo GAAP del 55,9% (65% ajustado) y una conversion de caja del 116,8% del beneficio contable en el ultimo auditado. El peaje sobre el interes abierto funciona exactamente como dice el mecanismo congelado. El riesgo real aqui es el OPUESTO al de la trampa de valor: pagar un multiplo de pico del ciclo (18,0x) sobre un beneficio de pico del ciclo, y descubrir que 20,4% de crecimiento trimestral era volatilidad prestada, no tasa base. Y el defecto estructural -asignacion de capital al coste de capital- no destruye el negocio, simplemente impide que el accionista capture el exceso: el 11,3% de ROIIC ex-margen ya esta integramente en el precio."
+  },
+
+  "veredicto": {
+    "decision": "NO COMPRAR — el precio no llega ni de lejos al umbral de su banda",
+    "mos_maximo_observado_pct": 14.7,
+    "mos_exigido_pct": 40,
+    "brecha_pp": 25.3,
+    "precio_de_entrada": 78,
+    "caida_necesaria_pct": 47.6,
+    "sintesis": "El mecanismo es real y la caja lo confirma con datos del 10-K. Pero el peaje ya esta cobrado en el precio: el mercado paga 20,5-21,7x el owner earnings auditado y exige una g de 3,4-4,0%, exactamente la g de 3,63% que ICE puede defender con reinversion x ROIIC. Cuando el precio implicito y la capacidad del negocio se cruzan en el mismo numero, no hay tesis: hay un bono caro con opcion de ciclo."
+  },
+
+  "huecos_declarados": [
+    "Precio de 148,73 USD (cierre 2026-07-27) tomado de stockanalysis.com, un agregador. INFERENCIA, no HECHO. No hubo acceso a cotizacion de broker (la busqueda de contrato en IBKR devolvio vacio). Cross-check: 145,79 el 2026-07-24 via busqueda web. Un error de +/- 3% en el precio no altera el veredicto (harian falta -47,6%).",
+    "Beta de 0,95 de stockanalysis.com, sin ventana de estimacion declarada y sin regresion propia. INFERENCIA. Es el input mas fragil del WACC: mover la beta a 1,05 y la ERP a 4,70% lleva el WACC a 8,54% y el valor auditado con capex total a 118 USD (MoS -26,3%).",
+    "Tasa libre de riesgo 4,64% (10 anios EEUU, 2026-07-27) de tradingeconomics via busqueda. FRED devolvio HTTP 403 y no pudo usarse como fuente primaria. INFERENCIA.",
+    "Prima de mercado maduro 4,20% y CRP EEUU 0,22% (Damodaran, julio 2026) obtenidas via busqueda web, no descargadas del fichero original de Damodaran. INFERENCIA.",
+    "La prima pais ponderada de 0,25% se apoya en un reparto de riesgo de ACTIVO ~80% EEUU / ~20% Reino Unido-UE estimado por el valorador; ICE no publica un desglose de activos por geografia que permita verificarlo. SUPUESTO.",
+    "El capex de MANTENIMIENTO (566 en 2025) es un juicio: depreciacion de material 198 + amortizacion de software capitalizado 368, excluyendo deliberadamente los 994 de amortizacion de intangibles de adquisicion. Los tres componentes son HECHO; la eleccion de cuales cuentan como mantenimiento no lo es. Si se contase toda la D&A de 1.560, el capex de mantenimiento superaria al capex total y la version (a) seria absurda.",
+    "TODA la base EN CURSO descansa en UN trimestre publicado. El 10-Q del 2T 2026 no existe: ICE presenta resultados el 2026-07-30, TRES DIAS despues de esta valoracion. Solo el gasto operativo FY2026 (5.095-5.145 MUSD) es guia de la empresa; los ingresos de Q2-Q4 (+9% i.a.) y el CFO de 5.300 son SUPUESTOS propios. Esta valoracion deberia repetirse el 2026-07-30.",
+    "El CFO FY2026E de 5.300 MUSD se recorto a mano desde los 5.482 que salen de la construccion mecanica. Es prudencia del valorador, no una cifra derivada. Rango honesto 5.100-5.500, que mueve el MoS en curso entre +8% y +18%.",
+    "La reinversion del 32,1% de ventas y los ROIIC de 10,9%/11,3% se heredan CONGELADOS de la etapa de calidad. NO se han re-verificado contra los filings en esta etapa. La g defendible de 3,63% depende integramente de ellos.",
+    "Existe una friccion no resuelta entre el WACC bottom-up de mercado (7,75%) y el coste de capital implicito en la afirmacion de la etapa de calidad de que el ROIIC 'renta alrededor de su propio coste de capital' (~10-11%). Se ha respetado el candado B y reportado el de mercado, pero la friccion queda abierta.",
+    "El valor de mercado de la deuda mezcla el fair value de las notas senior (18.271, HECHO) con papel comercial valorado a la par (1.751). El papel comercial a menos de 90 dias cotiza esencialmente a la par, asi que el error es despreciable, pero no es una cifra homogenea.",
+    "No se ha leido el contenido de todos los 8-K posteriores al 10-Q; se reviso por indice y se leyo el unico posterior (2026-05-19), que resulto ser solo la junta de accionistas. No se detectan operaciones corporativas materiales pendientes, pero la comprobacion no es exhaustiva."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+ "ticker": "IBKR",
+ "name": "Interactive Brokers Group, Inc.",
+ "currency": "USD",
+ "current_price": 96.82,
+ "wacc_pct": 8.05,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.75,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base ≈ $4.06B = FY2025 total economic net income $4.36B (comprehensive, pre-NCI allocation — the correct base because we value the full ~1.69B economic shares, not just the ~448M Class A float) MINUS ~$0.30B SBC treated as a 100% cash expense. Reported OCF (~$15.7B) is NOT used: for a broker-dealer it is distorted by changes in customer cash, segregated balances and customer credits, so net income is the cleanest owner-earnings proxy. SBC deduction set at ~$0.30B (~4.8% of revenue), prudently above the $118M shown by alphaquery given the conflicting macrotrends estimate (~$360M); cycle/provisions are immaterial for IBKR (automated, no credit book of note, fortress capital).",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 14,
+  "rev_cagr_y6_10_pct": 9,
+  "fcf_margin_terminal_pct": 65,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% of SBC deducted as cash expense (~$0.30B/yr base, ~4.8% of revenue; prudent vs $118M documented to acknowledge up-C dilution)",
+  "shares_diluted_b": 1.69,
+  "net_debt_usd_b": -49.1
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 69.03,
+   "prob": 0.375,
+   "note": "Phase-1 owner-earnings CAGR 10% declining to 5% by yr10; WACC 8.5% (beta nudged up); terminal g 2.5%; only +$5B excess cash credited (most balance-sheet liquidity is regulatory/segregated, not distributable). Rate-cut cycle compresses net interest income, account growth normalizes toward mid-teens, margin slips modestly. Still a healthy, profitable franchise — not apocalyptic."
+  },
+  "base": {
+   "iv_per_share": 104.22,
+   "prob": 0.475,
+   "note": "Phase-1 owner-earnings CAGR 14% (vs FY2025 rev +20%, Q1'26 +17%, accounts +32% to 4.4M) declining to 6% by yr10; WACC 8.05%; terminal g 3.0%; +$10B excess cash. Consistent with track record of ~77% pretax margin and structural share gains in automated global brokerage. IV slightly above $96.82 price = roughly fair value."
+  },
+  "optimista": {
+   "iv_per_share": 155.17,
+   "prob": 0.15,
+   "note": "Phase-1 CAGR 18% declining to 7%; WACC 7.75% (lower beta as fortress balance sheet de-risks); terminal g 3.5%; +$15B excess cash. Sustained account compounding, net interest income resilient, operating leverage pushes margin higher. Perfect execution."
+  }
+ },
+ "sanity_check": "Probability-weighted IV ≈ $98.7 vs price $96.82 → IBKR is priced for fair value, not a bargain (drop_classification not_depressed; ~1% off all-time high; fwd P/E ~37 vs 5y avg ~24, +53% premium). The premium multiple is largely justified by quality (net-cash balance sheet, ~77% pretax margin, +32% account growth) but offers little margin of safety. NOTE ON METHOD: this is a financial firm, so the brief's payout-yield contrast applies less than for V/MA/SPGI — IBKR returns little to shareholders (dividend only $0.35/yr = ~0.36% yield; recently raised to $0.0875/q; negligible buybacks due to up-C control structure). Total shareholder yield is therefore ~0.4%, near-nil — value here accrues through retained-earnings compounding and book-value growth, not distributions, reinforcing reliance on the owner-earnings DCF over any payout/DDM lens.",
+ "method_notes": "UP-C STRUCTURE IS THE CENTRAL MODELING CHOICE: IBKR is a holding company over IBG LLC; ~83% of economic interest sits with IBG Holdings LLC (Peterffy/insiders) as noncontrolling interest, only ~448M Class A diluted shares trade publicly. To stay internally consistent I value the WHOLE economic entity: numerator = total comprehensive net income ($4.36B, which INCLUDES the ~$0.9B/q that flows to NCI), denominator = ~1.69B total economic shares. This reproduces the ~$163.5B economic market cap at $96.82 (the Yahoo/Google figure), NOT stockanalysis.com's ~$43B Class-A-only cap. Per-share IV is thus directly comparable to the $96.82 quote. WACC = Rf 4.3% (UST 10Y, US-domiciled) + ERP 5.0% × beta 0.75 = 8.05%; beta below the brokerage-sector ~1.0-1.3 because IBKR's net interest income is counter-cyclical, it carries no meaningful credit book, and holds a fortress net-cash balance sheet — no geopolitical adjustment. NET CASH TREATMENT: stockanalysis shows EV of -$49.1B, but that liquidity is overwhelmingly regulatory/segregated and tied to customer balances, NOT distributable excess cash; crediting the full $49.1B would massively overstate value, so I add only a modest scenario-scaled excess-cash buffer ($5B/$10B/$15B). 10-yr two-phase model: yrs 1-5 explicit CAGR, yrs 6-10 linear decline toward normalization, Gordon terminal at g 2.5-3.5% (wide moat: scale, automation, lowest-cost global execution). FCF for a broker-dealer is n/m (OCF distorted by customer cash flows) so net income is the owner-earnings proxy; SBC deducted 100% as cash."
+}

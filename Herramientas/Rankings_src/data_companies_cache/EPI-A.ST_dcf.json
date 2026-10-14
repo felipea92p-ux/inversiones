@@ -1,0 +1,42 @@
+{
+ "ticker": "EPI-A.ST",
+ "name": "Epiroc AB (Class A)",
+ "currency": "SEK",
+ "current_price": 277,
+ "wacc_pct": 8.8,
+ "wacc_components": {
+  "rf_pct": 2.8,
+  "erp_pct": 5,
+  "beta": 1.2,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base ~SEK 8.6-8.9bn. FCF reportado TTM ~SEK 8.6bn (FY2025 ~SEK 8.6bn; margen FCF ~13.9-14.2%) menos 100% de SBC. La SBC de Epiroc es inmaterial (programas LTI suecos, <0.1% de ingresos y <0.5% del FCF, ~SEK 0.04bn), por lo que el ajuste de owner earnings apenas reduce el FCF a ~SEK 8.56bn. Para los escenarios uso una base mezclada de ~SEK 8.84bn (margen owner-FCF 14.5%) que refleja una normalizacion moderada del capital de trabajo tras el alza de ordenes (+23% organico Q1 2026), sin sobre-normalizar hacia el potencial through-cycle (~16%).",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 8.5,
+  "rev_cagr_y6_10_pct": 5,
+  "fcf_margin_terminal_pct": 15,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "SBC tratada como gasto en efectivo (100% restada del FCF). Inmaterial para Epiroc: <0.1% de ingresos, <0.5% del FCF (~SEK 0.04bn), sin add-back relevante estilo US-tech.",
+  "shares_diluted_b": 1.152,
+  "net_debt_usd_b": 1.1
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 139,
+   "prob": 0.375,
+   "note": "Crecimiento desacelera: owner FCF CAGR ~5.5% anios 1-5, declina a 4.5%->3.0% anios 6-10; g terminal 2.5%; margen FCF plano. Cicliclidad minera/construccion pesa, sin expansion de margen. Refleja un mid-cycle mas debil pero no apocaliptico (aftermarket ~65% de ingresos da resiliencia)."
+  },
+  "base": {
+   "iv_per_share": 177,
+   "prob": 0.475,
+   "note": "Consistente con track record: owner FCF CAGR ~8.5% anios 1-5 (ingresos mid-cycle ~7% + ligera mejora de conversion/margen), declina a 6.5%->4.0% anios 6-10; g terminal 3.0%; WACC 8.8%. VT ~61% del EV. Implica que a SEK 277 (P/owner-FCF ~37x, fwd P/E ~32) el mercado ya descuenta crecimiento de doble digito sostenido."
+  },
+  "optimista": {
+   "iv_per_share": 228,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: momentum de ordenes (+23% organico) se sostiene, electrificacion/automatizacion y mineria de minerales criticos impulsan ingresos ~10-11%, expansion de margen FCF; owner FCF CAGR ~11.5% anios 1-5, 8.5%->5.0% anios 6-10; g terminal 3.5%. Aun asi por debajo del precio actual."
+  }
+ },
+ "sanity_check": "VI ponderada por probabilidad ~SEK 171 vs precio SEK 277 => ~-38% (sobrevalorada en el DCF de owner earnings). Robusto a la sensibilidad: incluso normalizando el FCF base al 16% de margen y bajando el WACC a 8.2%, la base solo llega a ~SEK 222 (aun -20%). Cross-check de multiplo: a SEK 277 cotiza a P/owner-FCF ~37x y fwd P/E ~32x (vs media 5a ~25.5x, prima ~+25%), con rendimiento FCF de solo ~2.7%. Rendimiento total al accionista modesto: dividendo ~SEK 4.1/accion (~1.5%) mas recompras pequenas => ~1.5-2% de shareholder yield, insuficiente para justificar el multiplo sin crecimiento de doble digito. Clasificacion Fase 2: not_depressed, cerca de maximos historicos (-2.6% del high). Empresa de calidad (ROCE ~18.9%, foso aftermarket) a precio exigente: la conclusion es 'gran negocio, valoracion cara', no margen de seguridad.",
+ "method_notes": "DCF de owner earnings a 10 anios en SEK (moneda de cotizacion). Owner FCF = FCF reportado menos 100% de SBC (inmaterial aqui). Fase 1 (anios 1-5) CAGR explicito de owner FCF; Fase 2 (anios 6-10) CAGR declinante hacia normalizacion; valor terminal Gordon con g=2.5-3.5% segun escenario/foso. Descuento al WACC. VI/accion = (PV de flujos + PV del valor terminal - deuda neta) / acciones diluidas. WACC = Rf + ERP*beta = 2.8% + 5.0%*1.2 = 8.8%; Rf 2.8% (proxy eurozona; Suecia, no eurozona, pero 10Y sueco cercano ~2.4-2.8%); ERP 5.0%; beta ~1.2 (5a, listado SEK; sector equipos mineria/construccion ciclico); sin ajuste geopolitico (no aplica a Suecia). Acciones ~1.152bn (A+B; mkt cap SEK 319.05bn / 277). Deuda neta SEK 10.63bn (~$1.1bn USD, ND/EBITDA 0.71). Inputs verificados de Fase 2 (informe oficial Q1 2026 Epiroc + StockAnalysis); shares y beta complementados con busqueda web ligera. Probabilidades: cons 0.375, base 0.475, opt 0.15 (suma 1.0)."
+}

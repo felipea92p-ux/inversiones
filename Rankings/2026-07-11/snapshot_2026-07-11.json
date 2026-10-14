@@ -1,0 +1,31 @@
+{
+ "tramos": {
+  "MSFT": "T1",
+  "DUOL": "T1",
+  "V": "T1",
+  "AMZN": "T1",
+  "4684.T": "T1",
+  "ISRG": "T1",
+  "VEEV": "T1",
+  "TSM": "T1",
+  "MSCI": "T1",
+  "INTU": "T1",
+  "NEM.DE": "T1",
+  "MA": "T1",
+  "SNPS": "T2",
+  "NFLX": "T2",
+  "IDXX": "T2",
+  "ADBE": "T2",
+  "CDNS": "T2",
+  "TYL": "T2",
+  "PANW": "T2",
+  "ASML": "T2",
+  "MELI": "T2",
+  "MANH": "T2",
+  "SPGI": "T2",
+  "SGSN.SW": "T2",
+  "WKL.AS": "T3",
+  "CSU.TO": "T3"
+ },
+ "refrescar": {}
+}

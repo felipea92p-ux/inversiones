@@ -1,0 +1,59 @@
+{
+ "ticker": "6920.T",
+ "name": "Lasertec Corporation",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Modelo de equipo de capital intensivo con margenes excelentes (op margin ~48%, FCF 30%) pero no escala como software/red: cada venta requiere fabricacion de herramienta, sin apalancamiento operativo creciente con volumen, asi que 1.0 base sin amplificacion a 2.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Industria EUV/litografia avanzada en crecimiento secular estructural (mas nodos, mas capas, mas mascaras EUV), aunque el ciclo actual muestra debilidad (semi-related -6.7% YoY, backlog -32%), la tendencia de decada es claramente al alza."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Cuasi-monopolio global #1 indiscutido en inspeccion de mascaras y blanks EUV (cuota dominante cercana al 100% en su nicho), deja al segundo a anios-luz, dominancia monstruosa e irreplicable que justifica el 2.0."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat por intangibles/escasez extrema: IP de metrologia EUV unica, integracion profunda con ASML/TSMC/Intel/Samsung, costes de cambio altisimos y barrera tecnologica irreplicable en decadas para inspeccion de defectos a escala nanometrica."
+  },
+  "R5": {
+   "score": 1,
+   "just": "Crecimiento 100% organico sin M&A (positivo), pero el motor esta estancado ahora mismo: 9M FY2026 net sales +0.4% YoY y orders por debajo de expectativas, recuperacion diferida a FY2027+, por lo que organico si pero plano hoy."
+  },
+  "R6": {
+   "score": 0.5,
+   "just": "Concentracion alta e inherente: base de clientes EUV reducida (TSMC, Intel, Samsung, ASML) con probable exposicion >10-15% a clientes individuales y dependencia de un unico vertical semiconductor; multi-geografia ayuda pero el riesgo de cliente penaliza."
+  },
+  "R7": {
+   "score": 2,
+   "just": "ROIC ~60% muy por encima del WACC, FCF/NI ~89.5% (75.8B/84.7B >80%), caja neta y conversion de caja excelente; capex moderado para un fabricante de equipos, calidad de retorno sobre capital sobresaliente."
+  },
+  "R8": {
+   "score": 2,
+   "just": "Balance impecable: caja neta (~$0.5B USD), cero deuda, ND/EBITDA negativo, maxima fortaleza financiera sin riesgo de apalancamiento."
+  },
+  "R9": {
+   "score": 1,
+   "just": "SBC no divulgada por agregadores; emisor japones donde el SBC suele ser inmaterial, pero al no estar verificada se mantiene conservador en 1.0 sin penalizacion dura (no hay evidencia de SBC>15% FCF); contabilidad sin banderas rojas detectadas."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Gobierno solido con asignacion de capital disciplinada (sin M&A destructora, financiacion organica, caja neta), aunque sin senales destacadas de skin-in-the-game fuerte o buybacks oportunistas agresivos verificadas, se queda en base 1.0."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R3 (cuasi-monopolio EUV) + R4 (moat de intangibles/escasez irreplicable) + R1 (modelo de altos margenes) se refuerzan de forma monstruosa: la dominancia tecnologica unica crea el foso, el foso sostiene el liderazgo casi-monopolico, y juntos producen ROIC ~60% y margenes operativos ~48%. Es un caso de amplificacion legitima de calidad estructural, si bien R1 no escala como software (de ahi 1.0 y no 2.0 en R1).",
+ "moat_type": "Intangibles + escasez tecnologica (cuasi-monopolio EUV)",
+ "moat_one_line": "Cuasi-monopolio global en inspeccion de mascaras y blanks EUV con IP de metrologia nanometrica irreplicable e integracion critica en la cadena ASML/TSMC/Intel/Samsung.",
+ "thesis_3lines": [
+  "Calidad excepcional: cuasi-monopolio EUV con ROIC ~60%, margen operativo ~48%, FCF/NI ~89% y balance con caja neta sin deuda.",
+  "Motor de crecimiento secular intacto (mas capas/mascaras EUV por nodo) pero hoy en pausa ciclica: ventas 9M planas, backlog -32% YoY y recuperacion de pedidos diferida a FY2027+.",
+  "Valoracion rica y sin margen de seguridad: fwd P/E ~54x, PEG ~4.0, P/S ~20x, cotizando en maximos de 52 semanas (+249% en 12m) con target medio de analistas (~JPY 43.167) implicando caida."
+ ],
+ "bear_case_strongest": "A fwd P/E ~54x y PEG ~4.0 con pedidos cayendo (backlog -32% YoY, ventas semiconductor -6.7%) y margenes inflados por un yen en minimos multidecada (USDJPY ~161.5) y revenue pull-forward, el mercado paga perfeccion por una historia que se desacelera, dejando riesgo asimetrico a la baja si el ciclo no rebota en FY2027 o el yen se normaliza.",
+ "sbc_flag": "unknown",
+ "ethical_flag": "none",
+ "notes": "Total re-score = 14.0/20 en escala bruta de las 10 reglas, pero sobre el techo Seilern de 13.5 la suma ponderada se satura. Suma de scores: R1 1.0 + R2 1.5 + R3 2.0 + R4 2.0 + R5 1.0 + R6 0.5 + R7 2.0 + R8 2.0 + R9 1.0 + R10 1.0 = 14.0. La empresa es de calidad estructural soberbia (cuasi-monopolio EUV, ROIC ~60%, caja neta) pero NO esta deprimida (drop_classification=not_depressed, cotiza en maximos +249% en 12m) y la valoracion es extrema (fwd P/E ~54x, PEG ~4.0). Banderas: (1) ciclo de pedidos a la baja con recuperacion diferida a FY2027+; (2) margenes ayudados por yen debil y pull-forward de ingresos, riesgo de normalizacion; (3) SBC no verificada -> sbc_flag=unknown, R9 conservador en 1.0 sin penalizacion dura; (4) concentracion de clientes inherente al nicho EUV penaliza R6. Calidad de datos MIXED/incompleta: fuentes primarias IR no alcanzadas, cifras de agregadores. Conclusion: maxima calidad, pero precio de perfeccion sin margen de seguridad -> tesis de WATCHLIST, no de compra a estos niveles."
+}

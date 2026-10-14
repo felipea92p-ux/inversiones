@@ -1,0 +1,106 @@
+{
+ "ticker": "NVO",
+ "name": "Novo Nordisk A/S",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 45.88,
+ "market_cap_usd_b": 203.35,
+ "fwd_pe": 14.7,
+ "fwd_pe_5y_avg": 26.81,
+ "pe_prem_disc_pct": -45.2,
+ "peg": null,
+ "last_q": {
+  "period": "Q1 2026 (ended 31 Mar 2026)",
+  "revenue": "DKK 96,823m reported (DKK 70,063m adjusted, ex-340B reversal); ~USD 15.2bn reported",
+  "rev_yoy_pct": 24,
+  "op_margin_pct": 46.9,
+  "eps_gaap": "not disclosed in release",
+  "eps_adj": "not disclosed in release"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended 31 Dec 2025)",
+  "revenue": "DKK 309,064m (~USD 45bn)",
+  "organic_growth_pct": 10,
+  "roic_pct": 40,
+  "fcf": "DKK 28.3bn headline (op. cash flow DKK 111.5bn less capex DKK 41.7bn = ~DKK 69.8bn before M&A/business development)",
+  "fcf_margin_pct": 9.2
+ },
+ "guidance_fy": "FY2026: adjusted sales growth -4% to -12% at CER and adjusted operating profit growth -4% to -12% at CER (both ex-340B provision reversal; raised from prior -5% to -13%). FCF expected DKK 35-45bn. This is a PROJECTION of contraction.",
+ "sbc_pct_revenue": 0.5,
+ "sbc_pct_fcf": 2,
+ "net_debt_usd_b": 10.7,
+ "nd_ebitda": 0.4,
+ "net_cash": false,
+ "pct_off_52w_high": -36.1,
+ "pct_off_ath": -66.6,
+ "drop_classification": "mixed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.period",
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_fy.period",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "guidance_fy",
+  "price",
+  "market_cap_usd_b"
+ ],
+ "estimated_fields": [
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "roic_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "last_q.eps_gaap",
+  "last_q.eps_adj"
+ ],
+ "sources": [
+  {
+   "label": "Novo Nordisk Q1 2026 company announcement (GlobeNewswire/IR)",
+   "url": "https://www.globenewswire.com/news-release/2026/05/06/3288491/0/en/novo-nordisk-s-adjusted-operating-profit-reached-dkk-32-858-million-in-q1-2026.html",
+   "date": "2026-05-06"
+  },
+  {
+   "label": "Novo Nordisk Annual Report 2025 - Financial performance (IR primary)",
+   "url": "https://annualreport.novonordisk.com/2025/strategic-aspirations/financial-performance.html",
+   "date": "2026-02-04"
+  },
+  {
+   "label": "Novo Nordisk Form 20-F FY2025 (SEC EDGAR)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000353278/000035327826000012/nvo-20251231.htm",
+   "date": "2026-02"
+  },
+  {
+   "label": "StockAnalysis.com NVO statistics (aggregator - price, mcap, fwd P/E, net debt, FCF)",
+   "url": "https://stockanalysis.com/stocks/nvo/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Macrotrends NVO P/E ratio & 5y average (aggregator)",
+   "url": "https://www.macrotrends.net/stocks/charts/NVO/novo-nordisk/pe-ratio",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Macrotrends NVO stock price history (ATH ~$137.40 Jun 2024)",
+   "url": "https://www.macrotrends.net/stocks/charts/NVO/novo-nordisk/stock-price-history",
+   "date": "2024-06-25"
+  },
+  {
+   "label": "CNBC NVO Q1 2026 earnings coverage (Wegovy pill, guidance raise)",
+   "url": "https://www.cnbc.com/2026/05/06/wegovy-glp1-weight-loss-novo-nordisk-earnings-stock-nvo-ozempic.html",
+   "date": "2026-05-06"
+  }
+ ],
+ "notes": "PRICE/MCAP: NYSE ADR close $45.88 on 22-Jun-2026; mcap ~$203bn (companiesmarketcap showed ~$194-195bn intraday earlier — variance is timing/FX). REPORTING: Novo reports in DKK under IFRS; 1 ADR = 1 B-share, ~DKK/USD ~6.4-6.8 over period. Q1 2026 figures are heavily distorted by a one-off ~DKK 26.8bn (~$4.2bn) reversal of a provision tied to the US 340B Drug Pricing Program: REPORTED sales +24% DKK / +32% CER and reported operating profit DKK 59,618m (+54% DKK) are NOT representative; ADJUSTED (ex-340B) sales were DKK 70,063m, -10% DKK / -4% CER, and adjusted operating profit DKK 32,858m, -6% CER. op_margin_pct for last_q uses adjusted basis (32,858/70,063 = 46.9%); reported margin would be ~61.6%. EPS not disclosed in the Q1 release (Novo reports diluted EPS only at H1/FY); FY2025 diluted EPS was DKK 23.03 (+2%). FCF: company headline FY2025 FCF = DKK 28.3bn (after M&A/business development outflows incl. large acquisitions); pre-M&A op cash flow DKK 111,483m less capex DKK 41,711m ≈ DKK 69.8bn — wide gap due to definition, flagged. FCF margin 9.2% on headline basis (~22% pre-M&A). ROIC ~40% per aggregators (not cleanly broken out in IR excerpt). SBC: Novo is European pharma with minimal share-based payment (estimated ~0.5% of revenue / ~2% of FCF, not separately material; exact note not extracted — ESTIMADO). NET DEBT: DKK total debt ~101.2bn less cash/ST investments ~32.6bn ≈ DKK 68.6bn ≈ ~$10.7bn (incl. leases); StockAnalysis shows higher ~$19.25bn using ADR-level cash $3.34bn — discrepancy likely cash classification; ND/EBITDA ~0.4x, comfortably investment-grade, NOT net cash. PEG: not available from sources (negative near-term EPS growth makes PEG meaningless this FY). DROP CLASSIFICATION = MIXED: stock ~-37% over 52 weeks and ~-67% off Jun-2024 ATH (~$137 ADR). FY2025 still grew (sales +10% CER), but FY2026 guidance is the company's first GUIDED CONTRACTION (-4% to -12% adjusted), driven by genuine deterioration — intensifying US GLP-1 competition (Eli Lilly, compounded semaglutide), Wegovy/Ozempic pricing pressure, pipeline setbacks (CagriSema below expectations) — combined with a valuation de-rating from an extreme prior multiple (fwd P/E ~26.8x 5y avg down to ~14.7x). So the drawdown reflects BOTH genuine fundamental slowdown AND fear/multiple-compression, hence 'mixed' rather than pure fear_rotation or pure genuine_deterioration. Positive offsets: oral Wegovy (pill) US launch strong (>200k weekly Rx, 1.3m total Rx, DKK 2,256m in Q1) and guidance was raised modestly in May 2026."
+}

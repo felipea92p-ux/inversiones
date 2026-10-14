@@ -1,0 +1,2863 @@
+{
+ "meta": {
+  "version_esquema": 1,
+  "actualizado": "2026-07-19"
+ },
+ "tickers": {
+  "MA": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/MA/2026-07-09_Tesis_Ultra_MA_v2.pdf",
+    "score": 74.8,
+    "tier": "Calidad sólida",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Pagos / infraestructura de redes de pago (tecnologia, no banco)",
+   "precio": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/MA/ (portada, panel KPI)",
+    "precio": 539.39,
+    "ccy": "USD",
+    "pwfv": 576,
+    "zona": "JUSTO",
+    "mos_pct": 6.3,
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "ISRG": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-08",
+    "fuente": "Tesis/ISRG/2026-07-09_Tesis_Ultra_ISRG_v2.pdf",
+    "score": 79.2,
+    "tier": "Alta convicción",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Med-tech / Robotic surgery (Health Care)",
+   "precio": {
+    "fecha": "2026-07-08",
+    "fuente": "Tesis/ISRG/ (portada, panel KPI)",
+    "precio": 419.0,
+    "ccy": "USD",
+    "pwfv": 196,
+    "zona": "BURBUJA",
+    "mos_pct": -119.0,
+    "mos_exigido_pct": 25,
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "MSFT": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/MSFT/2026-07-09_Tesis_Ultra_MSFT_v2.pdf",
+    "score": 86.0,
+    "tier": "Núcleo",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Software",
+   "precio": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/MSFT/ (portada, panel KPI)",
+    "precio": 384.34,
+    "ccy": "USD",
+    "pwfv": 520,
+    "zona": "OPORTUNIDAD",
+    "mos_pct": 26.0,
+    "mos_exigido_pct": 15,
+    "veredicto": "COMPRAR TRAMO",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "max_52s": 555
+  },
+  "V": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/VISA/2026-07-09_Tesis_Ultra_V_v2.pdf",
+    "score": 80.8,
+    "tier": "Alta convicción",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Pagos (infraestructura crítica de pagos globales — no aplica exclusión bancaria/financiera tradicional; exención explícita de la rúbrica para V/MA/TSMC/ASML)",
+   "precio": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/VISA/ (portada, panel KPI)",
+    "precio": 353.61,
+    "ccy": "USD",
+    "pwfv": 424,
+    "zona": "OPORTUNIDAD",
+    "mos_pct": 16.7,
+    "mos_exigido_pct": 25,
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "SPGI": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/SPGI/2026-07-08_Tesis_Ultra_SPGI_v1.pdf",
+    "score": 71.2,
+    "tier": "Calidad sólida",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Datos financieros / Ratings / Indices (asset-light IP)",
+   "precio": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/SPGI/ (portada, panel KPI)",
+    "precio": 445.0,
+    "ccy": "USD",
+    "pwfv": 329,
+    "zona": "BURBUJA",
+    "mos_pct": -35.4,
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "MSCI": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/MSCI/2026-07-10_Tesis_Ultra_MSCI_v1.pdf",
+    "score": 76.8,
+    "tier": "Alta convicción",
+    "sub_scores": {
+     "R1": 13,
+     "R2": 8,
+     "R3": 10,
+     "R4": 13,
+     "R5": 7,
+     "R6": 7,
+     "R7": 9,
+     "R8": 7,
+     "R9": 8,
+     "R10": 8,
+     "R11": 6
+    },
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Indices, data y analytics (licencia de IP, asset-light)",
+   "name": "MSCI Inc.",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/MSCI/2026-07-10_Tesis_Ultra_MSCI_v1.pdf",
+    "zona": "CARO",
+    "mos_pct": -18.8,
+    "mos_exigido_pct": 35,
+    "pwfv": 506,
+    "precio": 600.92,
+    "ccy": "USD",
+    "detector": "PASA",
+    "dcf_inverso": "HEROICAS",
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "CSU.TO": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-08",
+    "fuente": "Rankings/2026-07-08/qg_ranking_3tramos_2026-07-08_raw.json (adversarial: sí, correctionsLog)",
+    "score": 65.6,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 10.5,
+     "R2": 8,
+     "R3": 9,
+     "R4": 10,
+     "R5": 4.5,
+     "R6": 8,
+     "R7": 6,
+     "R8": 4.5,
+     "R9": 8,
+     "R10": 7.5,
+     "R11": 6
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Software vertical (VMS) / serial acquirer",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/valmos_15_2026-07-10.json (val-mos + verificación adversarial de precio)",
+    "zona": "OPORTUNIDAD",
+    "mos_pct": 19,
+    "mos_exigido_pct": 30,
+    "pwfv": 3467,
+    "precio": 2802.14,
+    "ccy": "CAD",
+    "detector": "PASA",
+    "dcf_inverso": "RAZONABLES",
+    "veredicto": "ACUMULAR EN ZONA",
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "NEM.DE": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/NEM/2026-07-10_Tesis_Ultra_NEM_v1.pdf",
+    "score": 75.2,
+    "tier": "Alta convicción",
+    "sub_scores": {
+     "R1": 10,
+     "R2": 9,
+     "R3": 10,
+     "R4": 10,
+     "R5": 9,
+     "R6": 8,
+     "R7": 8,
+     "R8": 8,
+     "R9": 8,
+     "R10": 7,
+     "R11": 7
+    },
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Software AEC/BIM (Design-Build-Manage)",
+   "name": "Nemetschek SE",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/NEM/2026-07-10_Tesis_Ultra_NEM_v1.pdf",
+    "zona": "OPORTUNIDAD",
+    "mos_pct": 23,
+    "mos_exigido_pct": 25,
+    "pwfv": 73,
+    "precio": 56.2,
+    "ccy": "EUR",
+    "detector": "PASA",
+    "dcf_inverso": "BAJAS",
+    "veredicto": "ACUMULAR EN ZONA",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "NOW": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-08",
+    "fuente": "Tesis/NOW/Tesis_Ultra_NOW_v1.pdf",
+    "score": 62.4,
+    "tier": "Watchlist",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Software (SaaS enterprise workflow / plataforma)",
+   "precio": {
+    "fecha": "2026-07-08",
+    "fuente": "Tesis/NOW/ (portada, panel KPI)",
+    "precio": 107.44,
+    "ccy": "USD",
+    "pwfv": 59,
+    "zona": "BURBUJA",
+    "mos_pct": -83.0,
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "NVDA": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/NVDA/Tesis_Ultra_NVDA_v1_2026-07-09.pdf",
+    "score": 63.2,
+    "tier": "Watchlist",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Semiconductores / Infraestructura de cómputo acelerado (IA)",
+   "precio": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/NVDA/ (portada, panel KPI)",
+    "precio": 202.78,
+    "ccy": "USD",
+    "pwfv": 90,
+    "zona": "BURBUJA",
+    "mos_pct": -55.9,
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "HOYCY": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/gap_rescored_2026-07-10.json (workflow adversarial 2 rondas)",
+    "score": 65.6,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 9,
+     "R2": 6.5,
+     "R3": 9,
+     "R4": 10.5,
+     "R5": 6.5,
+     "R6": 5.5,
+     "R7": 7,
+     "R8": 7,
+     "R9": 7,
+     "R10": 7,
+     "R11": 7
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Precision optics / medtech / semiconductor materials (Life Care + Information Technology)",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/valmos_15_2026-07-10.json (val-mos + verificación adversarial de precio)",
+    "zona": "CARO",
+    "mos_pct": -34.1,
+    "mos_exigido_pct": 40,
+    "pwfv": 116.1,
+    "precio": 155.72,
+    "ccy": "USD",
+    "detector": "PASA",
+    "dcf_inverso": "HEROICAS",
+    "veredicto": "ESPERAR",
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "REL.L": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/RELX/Tesis_Ultra_RELX_2026-07-09.pdf",
+    "score": 63.2,
+    "tier": "Watchlist",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Informacion / analytics / decision tools (Risk, STM, Legal, Exhibitions)",
+   "precio": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/RELX/ (portada, panel KPI)",
+    "precio": 32.06,
+    "ccy": "USD",
+    "pwfv": 36.6,
+    "zona": "JUSTO",
+    "mos_pct": 12.4,
+    "veredicto": "ESPERAR",
+    "linea": "ADR NYSE:RELX (USD)",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "MTD": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/MTD/2026-07-10_Tesis_Ultra_MTD_v1.pdf",
+    "score": 68,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 9,
+     "R2": 6,
+     "R3": 10.5,
+     "R4": 10.5,
+     "R5": 3,
+     "R6": 8,
+     "R7": 7,
+     "R8": 8,
+     "R9": 10,
+     "R10": 7,
+     "R11": 6
+    },
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Instrumentos de precision (laboratorio/industrial) + servicios",
+   "name": "Mettler-Toledo International Inc.",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/MTD/2026-07-10_Tesis_Ultra_MTD_v1.pdf",
+    "zona": "BURBUJA",
+    "mos_pct": -40.9,
+    "mos_exigido_pct": 40,
+    "pwfv": 920,
+    "precio": 1296.17,
+    "ccy": "USD",
+    "detector": "PASA",
+    "dcf_inverso": "HEROICAS",
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "STMN.SW": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/gap_rescored_2026-07-10.json (workflow adversarial 2 rondas)",
+    "score": 61.6,
+    "tier": "Watchlist",
+    "sub_scores": {
+     "R1": 7,
+     "R2": 7,
+     "R3": 10,
+     "R4": 11,
+     "R5": 4,
+     "R6": 7,
+     "R7": 6,
+     "R8": 7,
+     "R9": 6,
+     "R10": 7,
+     "R11": 5
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Implantes dentales / dispositivos medicos y estetica dental",
+   "precio": {
+    "fecha": "2026-07-05",
+    "fuente": "Rankings/2026-07-05/QG_Top12_ValorIntrinseco_2026-07-05.html",
+    "zona": "BURBUJA",
+    "mos_pct": -103.6,
+    "pwfv": 52.0,
+    "precio": 105.9,
+    "ccy": "CHF",
+    "veredicto": "ESPERAR (HEROICAS)",
+    "procedencia": "screening",
+    "autoridad": "provisional",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "ZTS": {
+   "flags": [
+    "detector-TRAMPA-2026-07-08 (deterioro medible: companion US -11%, guidance recortada)"
+   ],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/gap_rescored_2026-07-10.json (workflow adversarial 2 rondas)",
+    "score": 63.2,
+    "tier": "Watchlist",
+    "sub_scores": {
+     "R1": 9,
+     "R2": 8,
+     "R3": 9,
+     "R4": 10,
+     "R5": 5,
+     "R6": 5,
+     "R7": 8,
+     "R8": 6,
+     "R9": 8,
+     "R10": 6,
+     "R11": 5
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Salud animal (farmaceutica y diagnostico veterinario)",
+   "precio": {
+    "fecha": "2026-07-08",
+    "fuente": "Rankings/2026-07-08/qg_ranking_3tramos_2026-07-08_raw.json (trapVetoed)",
+    "zona": "JUSTO",
+    "pwfv": 75.1,
+    "precio": 75.1,
+    "ccy": "USD",
+    "detector": "TRAMPA",
+    "veredicto": "VETO-TRAMPA (dictado 08-jul)",
+    "procedencia": "screening",
+    "autoridad": "provisional",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "IDXX": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/IDXX/2026-07-10_Tesis_Ultra_IDXX_v1.pdf",
+    "score": 73.2,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 9,
+     "R2": 8,
+     "R3": 9,
+     "R4": 12,
+     "R5": 8.5,
+     "R6": 7.5,
+     "R7": 9.5,
+     "R8": 8,
+     "R9": 7,
+     "R10": 7,
+     "R11": 6
+    },
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Diagnóstico veterinario (salud animal / MedTech veterinario) — no es sector excluido",
+   "name": "IDEXX Laboratories, Inc.",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/IDXX/2026-07-10_Tesis_Ultra_IDXX_v1.pdf",
+    "zona": "BURBUJA",
+    "mos_pct": -82.8,
+    "mos_exigido_pct": 35,
+    "pwfv": 308,
+    "precio": 563.57,
+    "ccy": "USD",
+    "detector": "PASA",
+    "dcf_inverso": "HEROICAS",
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "ASML": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-08",
+    "fuente": "Tesis/ASML/2026-07-09_Tesis_Ultra_ASML_v1.pdf",
+    "score": 72.0,
+    "tier": "Calidad sólida",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Equipos semis",
+   "precio": {
+    "fecha": "2026-07-08",
+    "fuente": "Tesis/ASML/ (portada, panel KPI)",
+    "precio": 1771.23,
+    "ccy": "USD",
+    "pwfv": 574,
+    "zona": "BURBUJA",
+    "mos_pct": -208.6,
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "VEEV": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/VEEV/2026-07-09_Tesis_Ultra_VEEV_v2.pdf",
+    "score": 79.0,
+    "tier": "Alta convicción",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Software vertical SaaS — Ciencias de la salud (life sciences), erróneamente encasillable como \"Health Tech\" o \"Software\" genérico; negocio real = infraestructura de software regulatorio (CRM+Vault) para farmacéuticas/biotech",
+   "precio": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/VEEV/ (portada, panel KPI)",
+    "precio": 192.01,
+    "ccy": "USD",
+    "pwfv": 184,
+    "zona": "JUSTO",
+    "mos_pct": -4.6,
+    "mos_exigido_pct": 25,
+    "veredicto": "VIGILAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "ADYEN.AS": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-08",
+    "fuente": "Tesis/ADYENAS/2026-07-09_Tesis_Ultra_ADYENAS_v1.pdf",
+    "score": 64.8,
+    "tier": "Watchlist",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Pagos / infraestructura de software fintech (adquirente-procesador de plataforma unica)",
+   "precio": {
+    "fecha": "2026-07-08",
+    "fuente": "Tesis/ADYENAS/ (portada, panel KPI)",
+    "precio": 830.1,
+    "ccy": "EUR",
+    "pwfv": 772,
+    "zona": "JUSTO",
+    "mos_pct": -7.5,
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "MANH": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/MANH/2026-07-10_Tesis_Ultra_MANH_v1.pdf",
+    "score": 71.2,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 10,
+     "R2": 7,
+     "R3": 10.5,
+     "R4": 10.5,
+     "R5": 7,
+     "R6": 6,
+     "R7": 10,
+     "R8": 10,
+     "R9": 6,
+     "R10": 7,
+     "R11": 5
+    },
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Software vertical - supply chain commerce / WMS-OMS (Manhattan Active cloud platform)",
+   "name": "Manhattan Associates, Inc.",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/MANH/2026-07-10_Tesis_Ultra_MANH_v1.pdf",
+    "zona": "BURBUJA",
+    "mos_pct": -38.7,
+    "mos_exigido_pct": 35,
+    "pwfv": 110.9,
+    "precio": 153.75,
+    "ccy": "USD",
+    "detector": "PASA",
+    "dcf_inverso": "HEROICAS",
+    "veredicto": "VIGILAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "TSM": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/TSM/2026-07-09_Tesis_Ultra_TSM_v1.pdf",
+    "score": 78.4,
+    "tier": "Alta convicción",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Semiconductores (foundry, capacidad de elite)",
+   "precio": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/TSM/ (portada, panel KPI)",
+    "precio": 442.35,
+    "ccy": "USD",
+    "pwfv": 236,
+    "zona": "BURBUJA",
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "TOI.V": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/gap_rescored_2026-07-10.json (workflow adversarial 2 rondas)",
+    "score": 64.4,
+    "tier": "Watchlist",
+    "sub_scores": {
+     "R1": 9.5,
+     "R2": 6,
+     "R3": 9.5,
+     "R4": 10,
+     "R5": 4,
+     "R6": 6.5,
+     "R7": 6.5,
+     "R8": 7.5,
+     "R9": 10,
+     "R10": 6,
+     "R11": 5
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Software vertical (VMS) / serial acquirer europeo",
+   "precio": {
+    "fecha": "2026-07-05",
+    "fuente": "Rankings/2026-07-05/QG_Top12_ValorIntrinseco_2026-07-05.html",
+    "zona": "OPORTUNIDAD",
+    "mos_pct": 23.3,
+    "pwfv": 122.8,
+    "precio": 94.24,
+    "ccy": "CAD",
+    "veredicto": "ESPERAR",
+    "procedencia": "screening",
+    "autoridad": "provisional",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "WISE.L": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/gap_rescored_2026-07-10.json (workflow adversarial 2 rondas)",
+    "score": 67.2,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 12,
+     "R2": 7,
+     "R3": 6,
+     "R4": 9,
+     "R5": 8,
+     "R6": 9,
+     "R7": 9,
+     "R8": 9,
+     "R9": 4,
+     "R10": 5,
+     "R11": 6
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Pagos transfronterizos / fintech (plataforma, NO banco)",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/valmos_15_2026-07-10.json (val-mos + verificación adversarial de precio)",
+    "zona": "JUSTO",
+    "mos_pct": 8.1,
+    "mos_exigido_pct": 26,
+    "pwfv": 1036,
+    "precio": 952,
+    "ccy": "GBX",
+    "detector": "PASA",
+    "dcf_inverso": "RAZONABLES",
+    "veredicto": "VIGILAR",
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "0388.HK": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/HKEX/2026-07-10_Tesis_Ultra_HKEX_v1.pdf",
+    "score": 70.4,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 11,
+     "R2": 6,
+     "R3": 13,
+     "R4": 13,
+     "R5": 6,
+     "R6": 2,
+     "R7": 9,
+     "R8": 9,
+     "R9": 8,
+     "R10": 5,
+     "R11": 6
+    },
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Bolsas / infraestructura de mercado (market infrastructure, CCP + listing venue)",
+   "name": "Hong Kong Exchanges & Clearing",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/HKEX/2026-07-10_Tesis_Ultra_HKEX_v1.pdf",
+    "zona": "CARO",
+    "mos_pct": -32.2,
+    "mos_exigido_pct": 40,
+    "pwfv": 288,
+    "precio": 380.8,
+    "ccy": "HKD",
+    "detector": "PASA",
+    "dcf_inverso": "HEROICAS",
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "MELI": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/MELI/2026-07-09_Tesis_Ultra_MELI_v1.pdf",
+    "score": 72.0,
+    "tier": "Calidad sólida",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "E-commerce / Fintech (LatAm)",
+   "precio": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/MELI/ (portada, panel KPI)",
+    "precio": 1805.68,
+    "ccy": "USD",
+    "pwfv": 1101,
+    "zona": "BURBUJA",
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "CPRT": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-02",
+    "fuente": "Rankings/2026-07-02/qg_universo77_2026-07-02.json",
+    "score": 78.4,
+    "tier": "Alta convicción",
+    "sub_scores": {
+     "R1": 12,
+     "R2": 7,
+     "R3": 13,
+     "R4": 13,
+     "R5": 8,
+     "R6": 6,
+     "R7": 9,
+     "R8": 10,
+     "R9": 9,
+     "R10": 8,
+     "R11": 3
+    },
+    "procedencia": "screening",
+    "autoridad": "provisional",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Marketplace de subastas (salvamento de vehículos) — modelo de comisión/fee sobre transacción, con infraestructura física de patios/terrenos",
+   "precio": {
+    "fecha": "2026-07-05",
+    "fuente": "Rankings/2026-07-05/QG_Top12_ValorIntrinseco_2026-07-05.html",
+    "zona": "JUSTO",
+    "mos_pct": 3.3,
+    "pwfv": 29.8,
+    "precio": 28.79,
+    "ccy": "USD",
+    "veredicto": "ESPERAR (RAZONABLES)",
+    "procedencia": "screening",
+    "autoridad": "provisional",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "estado": {
+    "estado": "cuarentena",
+    "motivo": "Salida abrupta e inexplicada del CEO Jeff Liaw (8-K, efectiva 31-jul-2026) + investigaciones de bufetes por posible fraude de valores + investigación DOJ. Sin knock-out confirmado; re-evaluable al resolverse.",
+    "fecha": "2026-07-08",
+    "fuente": "Rankings/2026-07-08 (discardedNew del workflow adversarial)"
+   }
+  },
+  "4684.T": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/OBIC/2026-07-10_Tesis_Ultra_OBIC_v1.pdf",
+    "score": 79.2,
+    "tier": "Alta convicción",
+    "sub_scores": {
+     "R1": 12,
+     "R2": 7,
+     "R3": 12,
+     "R4": 13,
+     "R5": 10,
+     "R6": 3,
+     "R7": 8,
+     "R8": 10,
+     "R9": 10,
+     "R10": 9,
+     "R11": 5
+    },
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Software - ERP (Japan mid/large-market)",
+   "name": "OBIC Co., Ltd.",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/OBIC/2026-07-10_Tesis_Ultra_OBIC_v1.pdf",
+    "zona": "JUSTO",
+    "mos_pct": 8.2,
+    "mos_exigido_pct": 25,
+    "pwfv": 4531,
+    "precio": 4161,
+    "ccy": "JPY",
+    "detector": "PASA",
+    "dcf_inverso": "RAZONABLES",
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "GOOGL": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/GOOGL/2026-07-09_Tesis_Ultra_GOOGL_v1.pdf",
+    "score": 65.4,
+    "tier": "Calidad sólida",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Publicidad/Internet",
+   "precio": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/GOOGL/ (portada, panel KPI)",
+    "precio": 365.71,
+    "ccy": "USD",
+    "pwfv": 427.5,
+    "zona": "JUSTO",
+    "mos_pct": 14.4,
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "CME": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/CME/Tesis_Ultra_CME_v1_2026-07-09.pdf",
+    "score": 70.4,
+    "tier": "Calidad sólida",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Bolsas / derivados (infraestructura de mercado, clearing)",
+   "precio": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/CME/ (portada, panel KPI)",
+    "precio": 239.48,
+    "ccy": "USD",
+    "pwfv": 277,
+    "zona": "JUSTO",
+    "mos_pct": 13.7,
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "AMZN": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/AMZN/2026-07-09b_Tesis_Ultra_AMZN_v1.pdf",
+    "score": 80.2,
+    "tier": "Alta convicción",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "E-commerce / Cloud Computing (Consumer Discretionary + Technology)",
+   "precio": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/AMZN/ (portada, panel KPI)",
+    "precio": 244.59,
+    "ccy": "USD",
+    "pwfv": 108,
+    "zona": "BURBUJA",
+    "mos_pct": -56.0,
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "max_52s": 278.56
+  },
+  "WKL.AS": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/WKL/2026-07-10_Tesis_Ultra_WKL_v1.pdf",
+    "score": 67.2,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 10.5,
+     "R2": 6,
+     "R3": 10,
+     "R4": 10.5,
+     "R5": 6,
+     "R6": 5,
+     "R7": 7,
+     "R8": 8,
+     "R9": 8,
+     "R10": 7,
+     "R11": 6
+    },
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Software e informacion profesional (legal/fiscal/salud/compliance)",
+   "name": "Wolters Kluwer N.V.",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/WKL/2026-07-10_Tesis_Ultra_WKL_v1.pdf",
+    "zona": "GANGA",
+    "mos_pct": 35.8,
+    "mos_exigido_pct": 30,
+    "pwfv": 94.2,
+    "precio": 60.5,
+    "ccy": "EUR",
+    "detector": "PASA",
+    "dcf_inverso": "BAJAS",
+    "veredicto": "COMPRAR TRAMO",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "VRSK": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/VRSK/2026-07-10_Tesis_Ultra_VRSK_v1.pdf",
+    "score": 67.6,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 12,
+     "R2": 6,
+     "R3": 10.5,
+     "R4": 13,
+     "R5": 5,
+     "R6": 3,
+     "R7": 8,
+     "R8": 7,
+     "R9": 8,
+     "R10": 7,
+     "R11": 5
+    },
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Datos y analytics para seguros P&C (utility de datos, no aseguradora)",
+   "name": "Verisk Analytics, Inc.",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/VRSK/2026-07-10_Tesis_Ultra_VRSK_v1.pdf",
+    "zona": "JUSTO",
+    "mos_pct": -8.9,
+    "mos_exigido_pct": 40,
+    "pwfv": 170,
+    "precio": 185.14,
+    "ccy": "USD",
+    "detector": "GRIS",
+    "dcf_inverso": "RAZONABLES",
+    "veredicto": "VIGILAR",
+    "nota": "mos corregido: la tesis/val declaraba +7% pero precio 185,14 > PWFV 170 — se usa (pwfv−precio)/pwfv [INFERENCIA aritmética]",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "WST": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/gap_rescored_2026-07-10.json (workflow adversarial 2 rondas)",
+    "score": 64.4,
+    "tier": "Watchlist",
+    "sub_scores": {
+     "R1": 8,
+     "R2": 7,
+     "R3": 10,
+     "R4": 10.5,
+     "R5": 4,
+     "R6": 4,
+     "R7": 6,
+     "R8": 9,
+     "R9": 8,
+     "R10": 7,
+     "R11": 7
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Componentes de contencion/administracion para farmacos inyectables (consumibles medicos)",
+   "precio": {
+    "fecha": "2026-07-05",
+    "fuente": "Rankings/2026-07-05/QG_Top12_ValorIntrinseco_2026-07-05.html",
+    "zona": "BURBUJA",
+    "mos_pct": -85.3,
+    "pwfv": 197.0,
+    "precio": 365.0,
+    "ccy": "USD",
+    "veredicto": "ESPERAR (HEROICAS)",
+    "procedencia": "screening",
+    "autoridad": "provisional",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "CDNS": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/CDNS/2026-07-10_Tesis_Ultra_CDNS_v1.pdf",
+    "score": 72.8,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 13,
+     "R2": 7,
+     "R3": 12,
+     "R4": 13,
+     "R5": 7,
+     "R6": 8,
+     "R7": 7,
+     "R8": 8,
+     "R9": 6,
+     "R10": 5,
+     "R11": 5
+    },
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Software EDA",
+   "name": "Cadence Design Systems, Inc.",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/CDNS/2026-07-10_Tesis_Ultra_CDNS_v1.pdf",
+    "zona": "BURBUJA",
+    "mos_pct": -175,
+    "mos_exigido_pct": 40,
+    "pwfv": 136,
+    "precio": 374.06,
+    "ccy": "USD",
+    "detector": "PASA",
+    "dcf_inverso": "HEROICAS",
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "SPSC": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/gap_rescored_2026-07-10.json (workflow adversarial 2 rondas)",
+    "score": 60.8,
+    "tier": "Watchlist",
+    "sub_scores": {
+     "R1": 10,
+     "R2": 6,
+     "R3": 9,
+     "R4": 10,
+     "R5": 5,
+     "R6": 5,
+     "R7": 6,
+     "R8": 9,
+     "R9": 6,
+     "R10": 5,
+     "R11": 5
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Red SaaS EDI / supply chain retail (software B2B)",
+   "precio": {
+    "fecha": "2026-07-05",
+    "fuente": "Rankings/2026-07-05/QG_Top12_ValorIntrinseco_2026-07-05.html",
+    "zona": "JUSTO",
+    "mos_pct": 10.1,
+    "pwfv": 64.8,
+    "precio": 58.29,
+    "ccy": "USD",
+    "veredicto": "ESPERAR (BAJAS)",
+    "procedencia": "screening",
+    "autoridad": "provisional",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "CLPBY": {
+   "flags": [
+    "precio-ADR-no-confiable-2026-07-08 (discrepancia entre fuentes)"
+   ],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/gap_rescored_2026-07-10.json (workflow adversarial 2 rondas)",
+    "score": 50.4,
+    "tier": "Watchlist",
+    "sub_scores": {
+     "R1": 6,
+     "R2": 6,
+     "R3": 8,
+     "R4": 7,
+     "R5": 3,
+     "R6": 7,
+     "R7": 4,
+     "R8": 5,
+     "R9": 5,
+     "R10": 4,
+     "R11": 8
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Dispositivos medicos - cuidado cronico (ostomia, continencia, heridas, voz)",
+   "precio": {
+    "fecha": "2026-07-08",
+    "fuente": "Rankings/2026-07-08/qg_ranking_3tramos_2026-07-08_raw.json (trapVetoed)",
+    "zona": "OPORTUNIDAD",
+    "pwfv": 7.49,
+    "precio": 6.06,
+    "ccy": "USD",
+    "detector": "TRAMPA",
+    "veredicto": "VETO-TRAMPA (dictado 08-jul)",
+    "procedencia": "screening",
+    "autoridad": "provisional",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "FICO": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/gap_rescored_2026-07-10.json (workflow adversarial 2 rondas)",
+    "score": 65.6,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 12.5,
+     "R2": 5,
+     "R3": 10,
+     "R4": 10,
+     "R5": 8,
+     "R6": 1.5,
+     "R7": 10,
+     "R8": 5,
+     "R9": 8,
+     "R10": 7,
+     "R11": 5
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Software/Analytics",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/valmos_15_2026-07-10.json (val-mos + verificación adversarial de precio)",
+    "zona": "CARO",
+    "mos_pct": -79,
+    "mos_exigido_pct": 50,
+    "pwfv": 940,
+    "precio": 1250.9,
+    "ccy": "USD",
+    "detector": "GRIS",
+    "dcf_inverso": "HEROICAS",
+    "veredicto": "ESPERAR",
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "mos-dudoso(declara -79%, implícito ~-33.1%/-24.9%)",
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "ICE": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-08",
+    "fuente": "Tesis/ICE/2026-07-09_Tesis_Ultra_ICE_v2.pdf",
+    "score": 53.6,
+    "tier": "Watchlist",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Exchanges / Financial market infrastructure & data",
+   "precio": {
+    "fecha": "2026-07-08",
+    "fuente": "Tesis/ICE/ (portada, panel KPI)",
+    "precio": 137.54,
+    "ccy": "USD",
+    "pwfv": 163,
+    "zona": "OPORTUNIDAD",
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "DB1.DE": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/gap_rescored_2026-07-10.json (workflow adversarial 2 rondas)",
+    "score": 57.6,
+    "tier": "Watchlist",
+    "sub_scores": {
+     "R1": 8,
+     "R2": 6,
+     "R3": 8,
+     "R4": 10,
+     "R5": 6,
+     "R6": 6,
+     "R7": 4,
+     "R8": 7,
+     "R9": 6,
+     "R10": 6,
+     "R11": 5
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Bolsas / infraestructura de mercado (exchange, CSD, clearing, datos, software SimCorp)"
+  },
+  "LSEG.L": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-08",
+    "fuente": "Tesis/LSEGL/2026-07-09_Tesis_Ultra_LSEGL_v1.pdf",
+    "score": 58.4,
+    "tier": "Watchlist",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Financial data, indices y market infrastructure (peer de S&P Global / MSCI, no exchange tradicional)",
+   "precio": {
+    "fecha": "2026-07-08",
+    "fuente": "Tesis/LSEGL/ (portada, panel KPI)",
+    "precio": 9070.0,
+    "ccy": "GBX",
+    "pwfv": 8451,
+    "zona": "JUSTO",
+    "mos_pct": -6.8,
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "FDS": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/gap_rescored_2026-07-10.json (workflow adversarial 2 rondas)",
+    "score": 66,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 10.5,
+     "R2": 6,
+     "R3": 9.5,
+     "R4": 10.5,
+     "R5": 6,
+     "R6": 7,
+     "R7": 7,
+     "R8": 8,
+     "R9": 7,
+     "R10": 6,
+     "R11": 5
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Datos financieros / analytics (SaaS de suscripcion; NO financiera tradicional)",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/valmos_15_2026-07-10.json (val-mos + verificación adversarial de precio)",
+    "zona": "JUSTO",
+    "mos_pct": 27,
+    "mos_exigido_pct": 30,
+    "pwfv": 290,
+    "precio": 247.11,
+    "ccy": "USD",
+    "detector": "PASA",
+    "dcf_inverso": "BAJAS",
+    "veredicto": "VIGILAR",
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "DSG.TO": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/DSG/2026-07-10_Tesis_Ultra_DSG_v1.pdf",
+    "score": 67.6,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 10.5,
+     "R2": 7,
+     "R3": 9.5,
+     "R4": 10.5,
+     "R5": 5,
+     "R6": 5,
+     "R7": 6,
+     "R8": 9,
+     "R9": 10,
+     "R10": 7,
+     "R11": 5
+    },
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Software logistica / supply chain execution (SaaS)",
+   "name": "The Descartes Systems Group Inc.",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/DSG/2026-07-10_Tesis_Ultra_DSG_v1.pdf",
+    "zona": "JUSTO",
+    "mos_pct": 4,
+    "mos_exigido_pct": 15,
+    "pwfv": 106.2,
+    "precio": 101.98,
+    "ccy": "CAD",
+    "detector": "PASA",
+    "dcf_inverso": "RAZONABLES",
+    "veredicto": "VIGILAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "CHKP": {
+   "flags": [
+    "detector-TRAMPA-2026-07-08 (margen operativo en compresión acelerada 5 años)"
+   ],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/gap_rescored_2026-07-10.json (workflow adversarial 2 rondas)",
+    "score": 59.2,
+    "tier": "Watchlist",
+    "sub_scores": {
+     "R1": 6,
+     "R2": 7,
+     "R3": 9,
+     "R4": 7,
+     "R5": 3,
+     "R6": 6,
+     "R7": 9,
+     "R8": 9,
+     "R9": 6,
+     "R10": 7,
+     "R11": 5
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Ciberseguridad (network security / prepackaged software, SIC 7372)",
+   "precio": {
+    "fecha": "2026-07-08",
+    "fuente": "Rankings/2026-07-08/qg_ranking_3tramos_2026-07-08_raw.json (trapVetoed)",
+    "zona": "OPORTUNIDAD",
+    "pwfv": 181.8,
+    "precio": 136.07,
+    "ccy": "USD",
+    "detector": "TRAMPA",
+    "veredicto": "VETO-TRAMPA (dictado 08-jul)",
+    "procedencia": "screening",
+    "autoridad": "provisional",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "KXS.TO": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/KXS/2026-07-10_Tesis_Ultra_KXS_v1.pdf",
+    "score": 68.8,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 10,
+     "R2": 8,
+     "R3": 10,
+     "R4": 11,
+     "R5": 5,
+     "R6": 7,
+     "R7": 8,
+     "R8": 9,
+     "R9": 8,
+     "R10": 5,
+     "R11": 5
+    },
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Software - Supply Chain Planning (SaaS)",
+   "name": "Kinaxis Inc.",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/KXS/2026-07-10_Tesis_Ultra_KXS_v1.pdf",
+    "zona": "CARO",
+    "mos_pct": -17.4,
+    "mos_exigido_pct": 25,
+    "pwfv": 129,
+    "precio": 151.5,
+    "ccy": "CAD",
+    "detector": "PASA",
+    "dcf_inverso": "RAZONABLES",
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "PTC": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/PTC/2026-07-10_Tesis_Ultra_PTC_v1.pdf",
+    "score": 68,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 12,
+     "R2": 7,
+     "R3": 10,
+     "R4": 10,
+     "R5": 6,
+     "R6": 8,
+     "R7": 6,
+     "R8": 8,
+     "R9": 6,
+     "R10": 7,
+     "R11": 5
+    },
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Software industrial (PLM/CAD/ALM/SLM/IoT), SaaS/on-prem hibrido, B2B",
+   "name": "PTC Inc.",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Tesis/PTC/2026-07-10_Tesis_Ultra_PTC_v1.pdf",
+    "zona": "JUSTO",
+    "mos_pct": -8,
+    "mos_exigido_pct": 25,
+    "pwfv": 115.5,
+    "precio": 124.74,
+    "ccy": "USD",
+    "detector": "PASA",
+    "dcf_inverso": "RAZONABLES",
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "SRT3.DE": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/gap_rescored_2026-07-10.json (workflow adversarial 2 rondas)",
+    "score": 52.8,
+    "tier": "Watchlist",
+    "sub_scores": {
+     "R1": 7,
+     "R2": 7,
+     "R3": 7,
+     "R4": 8,
+     "R5": 4,
+     "R6": 8,
+     "R7": 3,
+     "R8": 3,
+     "R9": 6,
+     "R10": 6,
+     "R11": 7
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Bioprocesamiento / life-science tools: equipos y consumibles single-use para fabricacion biofarmaceutica (no ciclico industrial clasico)"
+  },
+  "NFLX": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/NFLX/2026-07-09_Tesis_Ultra_NFLX_v1.pdf",
+    "score": 73.6,
+    "tier": "Calidad sólida",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Streaming / Media por suscripcion (plataforma de entretenimiento)",
+   "precio": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/NFLX/ (portada, panel KPI)",
+    "precio": 77.65,
+    "ccy": "USD",
+    "pwfv": 49,
+    "zona": "BURBUJA",
+    "mos_pct": -57.0,
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "NDAQ": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-11",
+    "fuente": "Rankings/2026-07-11/reverif15_2026-07-11.json (re-puntuación + verificación adversarial 2 rondas)",
+    "score": 67.2,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 11,
+     "R2": 8,
+     "R3": 10,
+     "R4": 11,
+     "R5": 6,
+     "R6": 6,
+     "R7": 5,
+     "R8": 6,
+     "R9": 6,
+     "R10": 8,
+     "R11": 7
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Financial market infrastructure / indices / data / regtech-fintech"
+  },
+  "BVI.PA": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-11",
+    "fuente": "Rankings/2026-07-11/reverif15_2026-07-11.json (re-puntuación + verificación adversarial 2 rondas)",
+    "score": 70.4,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 9.5,
+     "R2": 7,
+     "R3": 10,
+     "R4": 10.5,
+     "R5": 6,
+     "R6": 7,
+     "R7": 7,
+     "R8": 8,
+     "R9": 8,
+     "R10": 7,
+     "R11": 8
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Testing, Inspection & Certification (TIC) - servicios B2B asset-light (Bureau Veritas)"
+  },
+  "SOON.SW": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-11",
+    "fuente": "Rankings/2026-07-11/reverif15_2026-07-11.json (re-puntuación + verificación adversarial 2 rondas)",
+    "score": 70.8,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 9,
+     "R2": 7,
+     "R3": 10,
+     "R4": 10.5,
+     "R5": 5,
+     "R6": 8,
+     "R7": 7,
+     "R8": 8,
+     "R9": 8,
+     "R10": 7,
+     "R11": 9
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "MedTech - Salud auditiva (audifonos, retail audiologico, implantes) - Sonova",
+   "precio": {
+    "fecha": "2026-07-08",
+    "fuente": "Rankings/2026-07-08/qg_ranking_3tramos_2026-07-08_raw.json (val-adv holds=true)",
+    "zona": "JUSTO",
+    "mos_pct": 11.2,
+    "mos_exigido_pct": 15,
+    "pwfv": 229.1,
+    "precio": 201,
+    "ccy": "CHF",
+    "detector": "PASA",
+    "veredicto": "VIGILAR",
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "ENX.PA": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-11",
+    "fuente": "Rankings/2026-07-11/reverif15_2026-07-11.json (re-puntuación + verificación adversarial 2 rondas)",
+    "score": 60.8,
+    "tier": "Watchlist",
+    "sub_scores": {
+     "R1": 8,
+     "R2": 5,
+     "R3": 8,
+     "R4": 9,
+     "R5": 5,
+     "R6": 6,
+     "R7": 7,
+     "R8": 8,
+     "R9": 7,
+     "R10": 7,
+     "R11": 6
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Bolsas / infraestructura de mercado (exchanges, listing, data) - Euronext"
+  },
+  "SGSN.SW": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-11",
+    "fuente": "Rankings/2026-07-11/reverif15_2026-07-11.json (re-puntuación + verificación adversarial 2 rondas)",
+    "score": 70.8,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 7.5,
+     "R2": 6.5,
+     "R3": 11,
+     "R4": 10.5,
+     "R5": 5.5,
+     "R6": 8.5,
+     "R7": 8,
+     "R8": 7.5,
+     "R9": 8,
+     "R10": 7.5,
+     "R11": 8
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Testing, Inspection & Certification (TIC) - SGS",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/valmos_15_2026-07-10.json (val-mos + verificación adversarial de precio)",
+    "zona": "JUSTO",
+    "mos_pct": 14.9,
+    "mos_exigido_pct": 25,
+    "pwfv": 110,
+    "precio": 93.66,
+    "ccy": "CHF",
+    "detector": "PASA",
+    "dcf_inverso": "BAJAS",
+    "veredicto": "VIGILAR",
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "ADBE": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/ADBE/2026-07-09_Tesis_Ultra_ADBE_v2.pdf",
+    "score": 73.0,
+    "tier": "Calidad sólida",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Software (Creative/Document/Experience Cloud — SaaS de productividad, no clasificar como \"Technology\" genérico)",
+   "precio": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/ADBE/ (portada, panel KPI)",
+    "precio": 219.0,
+    "ccy": "USD",
+    "pwfv": 241,
+    "zona": "JUSTO",
+    "mos_pct": 9.1,
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "TYL": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-11",
+    "fuente": "Rankings/2026-07-11/reverif15_2026-07-11.json (re-puntuación + verificación adversarial 2 rondas)",
+    "score": 72.8,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 12,
+     "R2": 6,
+     "R3": 11,
+     "R4": 13,
+     "R5": 8,
+     "R6": 5,
+     "R7": 6,
+     "R8": 9,
+     "R9": 6,
+     "R10": 8,
+     "R11": 7
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Software vertical GovTech (gobierno local/estatal EE.UU.) - Tyler Technologies",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/valmos_15_2026-07-10.json (val-mos + verificación adversarial de precio)",
+    "zona": "JUSTO",
+    "mos_pct": -3.9,
+    "mos_exigido_pct": 25,
+    "pwfv": 298,
+    "precio": 309.48,
+    "ccy": "USD",
+    "detector": "PASA",
+    "dcf_inverso": "RAZONABLES",
+    "veredicto": "VIGILAR",
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "EL": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-11",
+    "fuente": "Rankings/2026-07-11/reverif15_2026-07-11.json (re-puntuación + verificación adversarial 2 rondas)",
+    "score": 62.8,
+    "tier": "Watchlist",
+    "sub_scores": {
+     "R1": 7.5,
+     "R2": 7.5,
+     "R3": 11,
+     "R4": 11.5,
+     "R5": 5,
+     "R6": 7,
+     "R7": 4,
+     "R8": 7,
+     "R9": 6,
+     "R10": 5,
+     "R11": 7
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Salud visual / eyewear (lentes oftalmicas, monturas, retail) - EssilorLuxottica",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/valmos_15_2026-07-10.json (val-mos + verificación adversarial de precio)",
+    "zona": "CARO",
+    "mos_pct": -19,
+    "mos_exigido_pct": 50,
+    "pwfv": 144,
+    "precio": 171.4,
+    "ccy": "EUR",
+    "detector": "GRIS",
+    "dcf_inverso": "HEROICAS",
+    "veredicto": "VIGILAR",
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "TMO": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-11",
+    "fuente": "Rankings/2026-07-11/reverif15_2026-07-11.json (re-puntuación + verificación adversarial 2 rondas)",
+    "score": 67.2,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 8,
+     "R2": 7,
+     "R3": 10,
+     "R4": 12,
+     "R5": 5,
+     "R6": 8,
+     "R7": 5,
+     "R8": 7,
+     "R9": 6,
+     "R10": 8,
+     "R11": 8
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Life sciences tools, diagnostics y servicios farma (CDMO/CRO) - Thermo Fisher",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/valmos_15_2026-07-10.json (val-mos + verificación adversarial de precio)",
+    "zona": "CARO",
+    "mos_pct": -18.4,
+    "mos_exigido_pct": 40,
+    "pwfv": 445,
+    "precio": 527.05,
+    "ccy": "USD",
+    "detector": "PASA",
+    "dcf_inverso": "HEROICAS",
+    "veredicto": "ESPERAR",
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "DSY.MI": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-11",
+    "fuente": "Rankings/2026-07-11/reverif15_2026-07-11.json (re-puntuación + verificación adversarial 2 rondas)",
+    "score": 68.4,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 10.5,
+     "R2": 7,
+     "R3": 9.5,
+     "R4": 10.5,
+     "R5": 5.5,
+     "R6": 8,
+     "R7": 5.5,
+     "R8": 8,
+     "R9": 6,
+     "R10": 7,
+     "R11": 8
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Diagnostico in-vitro (inmunodiagnostico especialidad + biologia molecular) - DiaSorin",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/valmos_15_2026-07-10.json (val-mos + verificación adversarial de precio)",
+    "zona": "CARO",
+    "mos_pct": -14.7,
+    "mos_exigido_pct": 40,
+    "pwfv": 60,
+    "precio": 68.82,
+    "ccy": "EUR",
+    "detector": "GRIS",
+    "dcf_inverso": "RAZONABLES",
+    "veredicto": "ESPERAR",
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "LMN.TO": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-11",
+    "fuente": "Rankings/2026-07-11/reverif15_2026-07-11.json (re-puntuación + verificación adversarial 2 rondas)",
+    "score": 60,
+    "tier": "Watchlist",
+    "sub_scores": {
+     "R1": 10.5,
+     "R2": 3,
+     "R3": 9,
+     "R4": 10.5,
+     "R5": 3,
+     "R6": 7,
+     "R7": 7,
+     "R8": 7,
+     "R9": 6,
+     "R10": 7,
+     "R11": 5
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Software vertical (VMS) comunicaciones/media - Lumine Group",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/valmos_15_2026-07-10.json (val-mos + verificación adversarial de precio)",
+    "zona": "OPORTUNIDAD",
+    "mos_pct": 24.5,
+    "mos_exigido_pct": 30,
+    "pwfv": 29.15,
+    "precio": 22,
+    "ccy": "CAD",
+    "detector": "GRIS",
+    "dcf_inverso": "RAZONABLES",
+    "veredicto": "VIGILAR",
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "ALC": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-11",
+    "fuente": "Rankings/2026-07-11/reverif15_2026-07-11.json (re-puntuación + verificación adversarial 2 rondas)",
+    "score": 70,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 8,
+     "R2": 7,
+     "R3": 10.5,
+     "R4": 11,
+     "R5": 6,
+     "R6": 9,
+     "R7": 5,
+     "R8": 8,
+     "R9": 6,
+     "R10": 7,
+     "R11": 10
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Salud / Dispositivos oftalmicos (cirugia catarata/vision) - Alcon",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/valmos_15_2026-07-10.json (val-mos + verificación adversarial de precio)",
+    "zona": "JUSTO",
+    "mos_pct": 8.6,
+    "mos_exigido_pct": 20,
+    "pwfv": 74.16,
+    "precio": 67.81,
+    "ccy": "USD",
+    "detector": "PASA",
+    "dcf_inverso": "RAZONABLES",
+    "veredicto": "VIGILAR",
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "ALGN": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-11",
+    "fuente": "Rankings/2026-07-11/reverif15_2026-07-11.json (re-puntuación + verificación adversarial 2 rondas)",
+    "score": 64.4,
+    "tier": "Watchlist",
+    "sub_scores": {
+     "R1": 8,
+     "R2": 6,
+     "R3": 9,
+     "R4": 10,
+     "R5": 3,
+     "R6": 9,
+     "R7": 7.5,
+     "R8": 9,
+     "R9": 6,
+     "R10": 8,
+     "R11": 5
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Med-tech dental / ortodoncia digital (alineadores Invisalign) - Align Technology",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/valmos_15_2026-07-10.json (val-mos + verificación adversarial de precio)",
+    "zona": "BURBUJA",
+    "mos_pct": -82.7,
+    "mos_exigido_pct": 35,
+    "pwfv": 98.2,
+    "precio": 179.45,
+    "ccy": "USD",
+    "detector": "GRIS",
+    "dcf_inverso": "HEROICAS",
+    "veredicto": "ESPERAR",
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "EFX": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-11",
+    "fuente": "Rankings/2026-07-11/reverif15_2026-07-11.json (re-puntuación + verificación adversarial 2 rondas)",
+    "score": 55.2,
+    "tier": "Watchlist",
+    "sub_scores": {
+     "R1": 8,
+     "R2": 6,
+     "R3": 9,
+     "R4": 10,
+     "R5": 3,
+     "R6": 5,
+     "R7": 6,
+     "R8": 7,
+     "R9": 6,
+     "R10": 6,
+     "R11": 3
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Data & analytics infrastructure (credit bureau + employment/income data) - Equifax",
+   "precio": {
+    "fecha": "2026-07-08",
+    "fuente": "Rankings/2026-07-08/qg_ranking_3tramos_2026-07-08_raw.json (val-adv holds=true)",
+    "zona": "JUSTO",
+    "mos_pct": 12.2,
+    "mos_exigido_pct": 15,
+    "pwfv": 192,
+    "precio": 168.61,
+    "ccy": "USD",
+    "detector": "GRIS",
+    "veredicto": "ESPERAR",
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "SNPS": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-11",
+    "fuente": "Rankings/2026-07-11/reverif15_2026-07-11.json (re-puntuación + verificación adversarial 2 rondas)",
+    "score": 74.8,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 11.5,
+     "R2": 8.5,
+     "R3": 10.5,
+     "R4": 13.5,
+     "R5": 6.5,
+     "R6": 8,
+     "R7": 7,
+     "R8": 7,
+     "R9": 6,
+     "R10": 7,
+     "R11": 8
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Software EDA (Electronic Design Automation) + Simulacion - Synopsys",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/valmos_15_2026-07-10.json (val-mos + verificación adversarial de precio)",
+    "zona": "BURBUJA",
+    "mos_pct": -122,
+    "mos_exigido_pct": 35,
+    "pwfv": 201,
+    "precio": 445.5,
+    "ccy": "USD",
+    "detector": "GRIS",
+    "dcf_inverso": "HEROICAS",
+    "veredicto": "ESPERAR",
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "BKNG": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/BKNG/2026-07-09_Tesis_Ultra_BKNG_v1.pdf",
+    "score": 64.4,
+    "tier": "Watchlist",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Viajes/Internet -- Online Travel Agency (marketplace asset-light de intermediación de reservas, NO aerolínea/transportista físico; no aplica exclusión de sector)",
+   "precio": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/BKNG/ (portada, panel KPI)",
+    "precio": 181.49,
+    "ccy": "USD",
+    "pwfv": 251,
+    "zona": "OPORTUNIDAD",
+    "mos_pct": 28.0,
+    "veredicto": "BLOQUEADA POR CALIDAD",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "PANW": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-11",
+    "fuente": "Rankings/2026-07-11/reverif15_2026-07-11.json (re-puntuación + verificación adversarial 2 rondas)",
+    "score": 72.8,
+    "tier": "Calidad sólida",
+    "sub_scores": {
+     "R1": 11,
+     "R2": 9,
+     "R3": 10,
+     "R4": 10,
+     "R5": 6.5,
+     "R6": 6.5,
+     "R7": 7.5,
+     "R8": 9,
+     "R9": 6,
+     "R10": 7.5,
+     "R11": 8
+    },
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Ciberseguridad (Palo Alto Networks)",
+   "precio": {
+    "fecha": "2026-07-10",
+    "fuente": "Rankings/2026-07-10/valmos_15_2026-07-10.json (val-mos + verificación adversarial de precio)",
+    "zona": "BURBUJA",
+    "mos_pct": -283,
+    "mos_exigido_pct": 40,
+    "pwfv": 85,
+    "precio": 325.91,
+    "ccy": "USD",
+    "detector": "PASA",
+    "dcf_inverso": "HEROICAS",
+    "veredicto": "ESPERAR",
+    "procedencia": "re-verificado",
+    "autoridad": "plata",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   }
+  },
+  "DUOL": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/DUOL/2026-07-09_Tesis_Ultra_DUOL_v4.pdf",
+    "score": 80.8,
+    "tier": "Alta convicción",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Software / EdTech (consumer subscription platform)",
+   "precio": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/DUOL/ (portada, panel KPI)",
+    "precio": 125.76,
+    "ccy": "USD",
+    "mos_pct": 17.8,
+    "mos_exigido_pct": 25,
+    "veredicto": "VIGILAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "max_52s": 544.93
+  },
+  "SPOT": {
+   "name": "Spotify Technology S.A.",
+   "sector": "Media / suscripción — streaming de audio",
+   "calidad": {
+    "score": 63.2,
+    "tier": "Watchlist",
+    "sub_scores": {
+     "R1": 9,
+     "R2": 6,
+     "R3": 9,
+     "R4": 8,
+     "R5": 6,
+     "R6": 8,
+     "R7": 7,
+     "R8": 9,
+     "R9": 9,
+     "R10": 5,
+     "R11": 3
+    },
+    "procedencia": "tesis-individual",
+    "autoridad": "oro",
+    "fecha": "2026-07-19",
+    "fuente": "Tesis/SPOT/2026-07-19_Tesis_Ultra_SPOT_v3.pdf"
+   },
+   "precio": {
+    "zona": "BURBUJA",
+    "mos_pct": -104.4,
+    "mos_exigido_pct": null,
+    "pwfv": 233.96,
+    "precio": 478.14,
+    "ccy": "USD",
+    "detector": "PASA",
+    "dcf_inverso": "HEROICAS",
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro",
+    "fecha": "2026-07-19",
+    "fuente": "Tesis/SPOT/2026-07-19_Tesis_Ultra_SPOT_v3.pdf"
+   },
+   "max_52s": 748.3,
+   "flags": [
+    "watchlist-no-comprable(2026-07-19)",
+    "v2-corregida-por-error-de-investigacion(2026-07-19)"
+   ]
+  },
+  "INTU": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/INTU/2026-07-09_Tesis_Ultra_INTU_v7.pdf",
+    "score": 76.8,
+    "tier": "Alta convicción",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Software (Financial Technology / SMB & Consumer Finance Software)",
+   "precio": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/INTU/ (portada, panel KPI)",
+    "precio": 275.35,
+    "ccy": "USD",
+    "zona": "GANGA",
+    "mos_pct": 35.0,
+    "mos_exigido_pct": 25,
+    "veredicto": "COMPRAR TRAMO",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "max_52s": 813.7
+  },
+  "TRU": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-02",
+    "fuente": "Rankings/2026-07-02/qg_universo77_2026-07-02.json",
+    "score": 62.4,
+    "tier": "Watchlist",
+    "sub_scores": {
+     "R1": 10,
+     "R2": 7,
+     "R3": 11,
+     "R4": 12,
+     "R5": 6,
+     "R6": 8,
+     "R7": 3,
+     "R8": 4,
+     "R9": 6,
+     "R10": 5,
+     "R11": 6
+    },
+    "procedencia": "screening",
+    "autoridad": "provisional",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Data & analytics / credit bureau (B2B information services)"
+  },
+  "NVO": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-02",
+    "fuente": "Rankings/2026-07-02/qg_universo77_2026-07-02.json",
+    "score": 60.8,
+    "tier": "Watchlist",
+    "sub_scores": {
+     "R1": 8,
+     "R2": 6,
+     "R3": 7,
+     "R4": 9,
+     "R5": 6,
+     "R6": 5,
+     "R7": 7,
+     "R8": 8,
+     "R9": 6,
+     "R10": 6,
+     "R11": 8
+    },
+    "procedencia": "screening",
+    "autoridad": "provisional",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Farmaceutica"
+  },
+  "CRM": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-02",
+    "fuente": "Rankings/2026-07-02/qg_universo77_2026-07-02.json",
+    "score": 56.0,
+    "tier": "Watchlist",
+    "sub_scores": {
+     "R1": 10,
+     "R2": 7,
+     "R3": 9,
+     "R4": 9,
+     "R5": 5,
+     "R6": 9,
+     "R7": 4,
+     "R8": 3,
+     "R9": 5,
+     "R10": 4,
+     "R11": 5
+    },
+    "procedencia": "screening",
+    "autoridad": "provisional",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Software"
+  },
+  "ORCL": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-07",
+    "fuente": "Tesis/ORCL/2026-07-09_Tesis_Ultra_ORCL_v3.pdf",
+    "score": 57.6,
+    "tier": "Watchlist",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "sector": "Software/Cloud (mutando a infraestructura de datacenters AI, capital-intensiva)",
+   "precio": {
+    "fecha": "2026-07-07",
+    "fuente": "Tesis/ORCL/ (portada, panel KPI)",
+    "precio": 138.12,
+    "ccy": "USD",
+    "pwfv": 53,
+    "zona": "BURBUJA",
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "TEMN.SW": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-02",
+    "fuente": "Rankings/2026-07-02/qg_universo77_2026-07-02.json",
+    "score": 49.2,
+    "tier": "Watchlist",
+    "sub_scores": {
+     "R1": 7,
+     "R2": 5,
+     "R3": 7.5,
+     "R4": 9,
+     "R5": 3,
+     "R6": 8,
+     "R7": 3,
+     "R8": 6.5,
+     "R9": 4.5,
+     "R10": 3,
+     "R11": 5
+    },
+    "procedencia": "screening",
+    "autoridad": "provisional",
+    "flags_ingesta": [
+     "anti-sesgo-divulgacion-no-auditada"
+    ]
+   },
+   "sector": "Software de banca (core + digital banking, B2B mission-critical)"
+  },
+  "AAPL": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/AAPL/2026-07-09_Tesis_Ultra_AAPL_v1.pdf",
+    "score": 62.4,
+    "tier": "Watchlist",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "precio": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/AAPL/ (portada, panel KPI)",
+    "precio": 314.82,
+    "ccy": "USD",
+    "pwfv": 112,
+    "zona": "BURBUJA",
+    "mos_pct": -182.0,
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "ABNB": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-07",
+    "fuente": "Tesis/ABNB/2026-07-09_Tesis_Ultra_ABNB_v2.pdf",
+    "score": 66.4,
+    "tier": "Calidad sólida",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "precio": {
+    "fecha": "2026-07-07",
+    "fuente": "Tesis/ABNB/ (portada, panel KPI)",
+    "precio": 148.58,
+    "ccy": "USD",
+    "pwfv": 154,
+    "zona": "JUSTO",
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "ACN": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/ACN/Tesis_Ultra_ACN_2026-07-09.pdf",
+    "score": 44.0,
+    "tier": "Watchlist",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "precio": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/ACN/ (portada, panel KPI)",
+    "precio": 139.06,
+    "ccy": "USD",
+    "pwfv": 222,
+    "zona": "GANGA",
+    "mos_pct": 37.4,
+    "veredicto": "BLOQUEADA POR CALIDAD",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "AVGO": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/AVGO/Tesis_Ultra_AVGO_v1_2026-07-09.pdf",
+    "score": 60.0,
+    "tier": "Watchlist",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "precio": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/AVGO/ (portada, panel KPI)",
+    "precio": 401.11,
+    "ccy": "USD",
+    "pwfv": 89,
+    "zona": "BURBUJA",
+    "mos_pct": -352.0,
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "AXP": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-07",
+    "fuente": "Tesis/AXP/Tesis_Ultra_AXP_v3.pdf",
+    "score": 60.0,
+    "tier": "Watchlist",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "precio": {
+    "fecha": "2026-07-07",
+    "fuente": "Tesis/AXP/ (portada, panel KPI)",
+    "precio": 355.94,
+    "ccy": "USD",
+    "pwfv": 387,
+    "zona": "JUSTO",
+    "mos_pct": 8.0,
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "BABA": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/BABA/2026-07-09_Tesis_Ultra_BABA_v1.pdf",
+    "score": 46.4,
+    "tier": "Watchlist",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "precio": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/BABA/ (portada, panel KPI)",
+    "precio": 111.3,
+    "ccy": "USD",
+    "pwfv": 131,
+    "zona": "JUSTO",
+    "mos_pct": 15.0,
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "BRK.B": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/BRK/2026-07-09_Tesis_Ultra_BRKB_v1.pdf",
+    "score": 49.4,
+    "tier": "Watchlist",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "precio": {
+    "fecha": "2026-07-06",
+    "fuente": "Tesis/BRK/ (portada, panel KPI)",
+    "precio": 507.11,
+    "ccy": "USD",
+    "pwfv": 457,
+    "zona": "CARO",
+    "mos_pct": -11.0,
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "EXPE": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/EXPE/Tesis_Ultra_EXPE_v1_2026-07-09.pdf",
+    "score": 41.6,
+    "tier": "Watchlist",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "precio": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/EXPE/ (portada, panel KPI)",
+    "precio": 267.78,
+    "ccy": "USD",
+    "pwfv": 325,
+    "zona": "OPORTUNIDAD",
+    "mos_pct": 17.5,
+    "veredicto": "BLOQUEADA POR CALIDAD",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "RMS.PA": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/HERMES/Tesis_Ultra_HERMES_v1_2026-07-09.pdf",
+    "score": 69.6,
+    "tier": "Calidad sólida",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "precio": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/HERMES/ (portada, panel KPI)",
+    "precio": 1624.5,
+    "ccy": "EUR",
+    "pwfv": 979,
+    "zona": "BURBUJA",
+    "mos_pct": -65.9,
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "JD": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/JD/2026-07-09_Tesis_Ultra_JD_v1.pdf",
+    "score": 35.2,
+    "tier": "Watchlist",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "precio": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/JD/ (portada, panel KPI)",
+    "precio": 27.74,
+    "ccy": "USD",
+    "pwfv": 48,
+    "zona": "GANGA",
+    "veredicto": "VETO Gate 5 VIE",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "estado": {
+    "estado": "knock-out",
+    "motivo": "Gate 5 — estructura VIE, knock-out permanente sin excepción posible (dictado por su Tesis Ultra).",
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/JD/2026-07-09_Tesis_Ultra_JD_v1.pdf (portada)"
+   }
+  },
+  "PDD": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/PDD/2026-07-09_Tesis_Ultra_PDD_v1.pdf",
+    "score": 40.8,
+    "tier": "Watchlist",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "precio": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/PDD/ (portada, panel KPI)",
+    "precio": 84.74,
+    "ccy": "USD",
+    "pwfv": 102,
+    "zona": "JUSTO",
+    "veredicto": "VETO-TRAMPA + VIE",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "estado": {
+    "estado": "knock-out",
+    "motivo": "Gate 5 — estructura VIE + VETO-TRAMPA del detector (dictado por su Tesis Ultra: 'una trampa no se valora').",
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/PDD/2026-07-09_Tesis_Ultra_PDD_v1.pdf (portada)"
+   }
+  },
+  "PINS": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/PINS/Tesis_Ultra_PINS_2026-07-09.pdf",
+    "score": 40.8,
+    "tier": "Watchlist",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "precio": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/PINS/ (portada, panel KPI)",
+    "precio": 22.7,
+    "ccy": "USD",
+    "pwfv": 19.22,
+    "zona": "CARO",
+    "mos_pct": -18.1,
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  },
+  "SE": {
+   "flags": [],
+   "calidad": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/SE/Tesis_Ultra_SE_2026-07-09.pdf",
+    "score": 54.4,
+    "tier": "Watchlist",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   },
+   "precio": {
+    "fecha": "2026-07-09",
+    "fuente": "Tesis/SE/ (portada, panel KPI)",
+    "precio": 109.11,
+    "ccy": "USD",
+    "pwfv": 42,
+    "zona": "BURBUJA",
+    "mos_pct": -159.8,
+    "veredicto": "ESPERAR",
+    "procedencia": "tesis-individual",
+    "autoridad": "oro"
+   }
+  }
+ }
+}

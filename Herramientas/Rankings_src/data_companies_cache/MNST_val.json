@@ -1,0 +1,48 @@
+{
+ "ticker": "MNST",
+ "name": "Monster Beverage Corporation",
+ "currency": "USD",
+ "price_verified": 93.02,
+ "price_source": "StockAnalysis.com (cierre 2026-06-22); shares cross-check vs 10-Q Q1 2026 (977.9M diluidas al 31-mar-2026)",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.978,
+ "implied_mcap_b_usd": 90.97,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 7,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.54,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = FCF reportado $1,965.9M - 100% SBC $125.7M = $1,840.2M (~$1.88/accion sobre 978M acciones). OCF $2,098.2M - capex $132.3M = FCF $1,965.9M (margen 23.7%). Negocio asset-light, ROIC ~28%, caja neta +$2.89B.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 56.3,
+   "prob": 0.38,
+   "note": "Pesimista razonable NO apocaliptico: Fase1 (a1-5) CAGR 6%, Fase2 (a6-10) declina a 3%, g terminal 2.5%. Asume saturacion gradual de energy en US/desaceleracion intl y compresion modesta de margen. Peso del valor terminal ~67%."
+  },
+  "base": {
+   "iv_per_share": 79.8,
+   "prob": 0.47,
+   "note": "Fase1 CAGR 10% (intl ~45% ventas creciendo >30% CN, pricing US, share gains), Fase2 declina a 5%, g terminal 3.0%. Consistente con consenso FY26 EPS ~$2.27-2.35 (+14% YoY). Peso TV ~72%."
+  },
+  "optimista": {
+   "iv_per_share": 115.54,
+   "prob": 0.15,
+   "note": "Fase1 CAGR 14%, Fase2 declina a 7%, g terminal 3.5%. Expansion internacional sostenida, nuevas categorias (alcohol/Bang) y margenes record. Peso TV ~77%."
+  }
+ },
+ "iv_dcf_weighted": 76.23,
+ "multiple_metric": "P/E adelantado",
+ "fwd_multiple_now": 39.6,
+ "fwd_multiple_5y_avg": 34,
+ "fair_multiple": 32,
+ "multiple_rationale": "Ancla = media 5a del P/E adelantado (~34x) con haircut modesto a 32x. El haircut NO refleja deterioro estructural (la franquicia esta intacta: ROIC ~28%, caja neta +$2.9B, intl ~45% de ventas creciendo >30% CN, energy category saludable), sino que (1) el fwd P/E actual ~39.6x esta estirado (PEG 3.36) y cotiza practicamente en maximos historicos, y (2) un regimen de tipos mas altos justifica una normalizacion leve del multiplo de salida. EPS FY2026e normalizado ~$2.30 (punto medio $2.27-2.35).",
+ "iv_multiple": 73.6,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 74.65,
+ "structural_change": "Ninguno negativo. La franquicia es estructuralmente solida y mejorando: el Term Loan de Bang ($375M) fue saldado en abr-2025 (balance limpio, caja neta +$2.9B); el motor de crecimiento se ha desplazado de US (mas maduro) a internacional (~45% de ventas, +44.9% YoY, +32.7% CN), lo que alarga la pista de reinversion a ROIC alto. Riesgo de vigilancia (no deterioro hoy): competencia en energy (Celsius, private label) y eventual madurez de la categoria en mercados desarrollados. Sin cambio estructural que justifique un haircut severo del multiplo.",
+ "sanity_notes": "SANITY OK. price $93.02 x 0.978B acciones = $90.97B mcap, coincide EXACTAMENTE con agregador (escala conocida ~$88-91B). Acciones confirmadas: 10-Q Q1 2026 = 977.9M diluidas (31-mar-2026); agregador 978.01M (3-jun-2026). Todo en USD (moneda de cotizacion). reconciled_iv $74.65 cae dentro del rango de magnitud 30%-300% ($27.9-$279.1) -> sin error de unidades/moneda/acciones. DCF ($76.23) y ancla de multiplo ($73.60) CONVERGEN (~$74), dando alta confianza. WACC 7.0% baja por beta defensiva 0.54 y caja neta. CONCLUSION: a $93.02 la accion cotiza ~20-25% POR ENCIMA del IV reconciliado ($74.65) -> SOBREVALORADA / prima de calidad estirada (en maximos historicos, PEG 3.36, fwd P/E ~39.6x vs media 5a ~34x). Calidad excelente, precio no sensato hoy."
+}

@@ -1,0 +1,99 @@
+{
+ "ticker": "MNST",
+ "name": "Monster Beverage Corporation",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 93.02,
+ "market_cap_usd_b": 90.97,
+ "fwd_pe": 39,
+ "fwd_pe_5y_avg": 34,
+ "pe_prem_disc_pct": 15,
+ "peg": 3.36,
+ "last_q": {
+  "period": "Q1 2026 (3M ended 2026-03-31)",
+  "revenue": "$2,353.3M",
+  "rev_yoy_pct": 26.9,
+  "op_margin_pct": 31,
+  "eps_gaap": "$0.58",
+  "eps_adj": "$0.58"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended 2025-12-31)",
+  "revenue": "$8,294.3M",
+  "organic_growth_pct": null,
+  "roic_pct": 28,
+  "fcf": "$1,965.9M",
+  "fcf_margin_pct": 23.7
+ },
+ "sbc_pct_revenue": 1.5,
+ "sbc_pct_fcf": 6.4,
+ "net_debt_usd_b": -2.9,
+ "nd_ebitda": -1.1,
+ "net_cash": true,
+ "guidance_fy": "Monster does not provide formal numerical FY revenue/EPS guidance. Management commentary (Q1 2026 call) cited continued strong international momentum (intl currency-neutral +32.7%), pricing actions in the US, and energy category share gains; Q1 net sales +26.9% reflects very strong volume (case sales +28.8%) plus FX tailwind (~$89M). PROYECCION: street consensus FY2026 EPS ~$2.27 (+14% YoY), revenue ~$9.0-9.2B.",
+ "pct_off_52w_high": -1,
+ "pct_off_ath": -1,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_cash",
+  "net_debt_usd_b"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "guidance_fy"
+ ],
+ "sources": [
+  {
+   "label": "SEC EDGAR - MNST 10-Q Q1 2026 (period 2026-03-31, filed 2026-05-08)",
+   "url": "https://www.sec.gov/Archives/edgar/data/865752/000110465926057398/mnst-20260331x10q.htm",
+   "date": "2026-05-08"
+  },
+  {
+   "label": "SEC EDGAR - MNST 10-K FY2025 (period 2025-12-31, filed 2026-02-27)",
+   "url": "https://www.sec.gov/Archives/edgar/data/865752/000110465926020831/mnst-20251231x10k.htm",
+   "date": "2026-02-27"
+  },
+  {
+   "label": "SEC EDGAR - MNST Q1 2026 earnings press release (8-K Ex-99.1)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000865752/000110465926057188/tm2613885d1_ex99-1.htm",
+   "date": "2026-05-07"
+  },
+  {
+   "label": "StockAnalysis.com - MNST statistics (price, fwd P/E, PEG, net cash)",
+   "url": "https://stockanalysis.com/stocks/mnst/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com - MNST overview (52-week range)",
+   "url": "https://stockanalysis.com/stocks/mnst/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Macrotrends - MNST 5-year average P/E reference",
+   "url": "https://www.macrotrends.net/stocks/charts/MNST/monster-beverage/pe-ratio",
+   "date": "2026-06-22"
+  }
+ ],
+ "notes": "FUENTE PRIMARIA: SEC EDGAR 10-Q (Q1 2026) y 10-K (FY2025) — todas las cifras de resultados VERIFICADAS. Q1 2026: net sales $2,353.3M (+26.9% YoY, vs $1,854.6M); cost of sales $1,059.9M; gross profit $1,293.3M (margen bruto 55.0%); operating income $730.0M (margen op 31.0%); net income $569.5M; EPS diluido $0.58 (vs $0.45). Monster NO reporta non-GAAP, asi que eps_gaap = eps_adj. El +26.9% se apoya en volumen muy fuerte (case sales +28.8%) y un viento de cola FX (~$89.3M; ajustado por divisa +22.1%), no en una adquisicion (el Term Loan de Bang ya fue saldado abr-2025). FY2025: net sales $8,294.3M (+10.7%); op income $2,419.4M (29.2%); net income $1,905.4M; EPS diluido $1.94; OCF $2,098.2M; capex $132.3M -> FCF $1,965.9M (margen FCF 23.7%); SBC $125.7M (1.5% ventas, 6.4% FCF). BALANCE: deuda LP = $0 (Term Loan $375M repagado abr-2025); a 31-mar-2026 caja $2,039.7M + inversiones CP $945.3M = ~$2,985M -> CAJA NETA ~$2.9B (agregador reporta deuda residual ~$94M de leases). nd_ebitda negativo (~-1.1x) por caja neta; net_cash=true. VALORACION (ESTIMADO/agregador): precio $93.02, market cap $90.97B (cierre 22-jun-2026); fwd P/E ~39 (sobre EPS FY2026e ~$2.27-2.39); media 5a P/E (trailing) ~37.9 segun Macrotrends, fwd_pe_5y_avg estimada ~34 -> prima ~+15% (estimacion con incertidumbre, el dato limpio de agregador es trailing). PEG 3.36 (caro). ROIC no divulgado directamente; estimado ~28% (NOPAT ~$1.86B sobre capital invertido modesto, negocio muy ligero en activos y con gran caja). drop_classification = NOT_DEPRESSED: la accion cotiza practicamente en MAXIMOS HISTORICOS (52w high $93.92, solo -1% por debajo; +47% en 12 meses; ATH ~$93.9). No hay desplome — momentum positivo por resultados record y expansion internacional (intl ~45% de ventas, +44.9% YoY). data_quality=MIXED porque resultados son VERIFICADOS de filings pero precio/multiplos/ROIC son de agregador/modelo."
+}

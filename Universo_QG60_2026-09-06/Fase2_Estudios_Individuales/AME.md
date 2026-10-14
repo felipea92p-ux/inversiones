@@ -1,0 +1,76 @@
+# AMETEK, Inc. (NYSE: AME) — Pase ligero Fase 2
+
+**Fecha:** 2026-09-07. **Punto de partida:** no existe tesis previa en `Tesis/AME/` (carpeta inexistente, verificado). Fase 1 sourcing (`01_Universo_60.csv`): score_diagnostico 81, nivel 1, 14 apariciones — "máquina de adquisiciones disciplinada con umbral de retorno estricto y ROIC alto sostenido en múltiples ciclos; riesgo estructural inherente al propio modelo (depender de seguir encontrando objetivos a precio razonable)". AME NO aparece en `Rankings/2026-08-26/Los36_QG_2026-08-26.csv` (verificado — no hay fila), así que este pase construye las cifras EDGAR desde cero, directo del 10-K FY2025 (filed 2026-02-17, CIK 0001037868, accession 0001037868-26-000016) y del 10-K FY2023 (filed 2024-02-22) para las comparativas de tres años.
+
+---
+
+## Paso 1 — Círculo de competencia
+
+**Sí.** AMETEK es comprensible sin jerga: fabrica instrumentos electrónicos de precisión (medición, análisis, sensores para procesos industriales y para aeroespacial/defensa) y equipos electromecánicos (motores, componentes y sistemas de precisión, incluidos componentes aeroespaciales y médicos), organizados en dos segmentos — Electronic Instruments Group (EIG) y Electromechanical Group (EMG) — y crece con una mezcla de innovación orgánica de bajo capital más una máquina de adquisiciones (M&A) en serie de negocios pequeños con posiciones de liderazgo en nichos muy específicos. Evidencia pública amplia: 10-K/10-Q/8-K/DEF14A en EDGAR desde al menos 2005, componente del S&P 500 desde hace décadas, transcripciones trimestrales, comunicados de resultados. No hay tecnología de frontera opaca que exija experiencia de dominio inaccesible — el mecanismo económico (roll-up disciplinado de nichos de instrumentación/electromecánica) se explica en una frase y se verifica con cifras publicadas de ROIC, capex y gasto en adquisiciones.
+
+---
+
+## Paso 3 — Mecanismo del moat, no su síntoma
+
+El "por qué no se va el cliente" no es marca ni efecto de red — es **costo de cambio derivado de calificación técnica y regulatoria**: los componentes e instrumentos de AMETEK quedan especificados y calificados dentro del sistema certificado del cliente (aviónica y componentes aeroespaciales sujetos a certificación FAA/OEM, dispositivos médicos sujetos a validación regulatoria FDA, instrumentación de proceso calibrada dentro de un proceso industrial validado). Sustituir el componente no es solo cambiar de proveedor — obliga a re-calificar y re-certificar el sistema completo del cliente, un proceso caro y lento medido en años, no en trimestres. A esto se suma una segunda pata: AMETEK opera en decenas de nichos de mercado individualmente pequeños donde sostiene posiciones de liderazgo (#1 o #2), lo bastante angostos para no atraer competidores de escala masiva, lo que le da poder de fijación de precios sin visibilidad antitrust — HECHO parcial: margen operativo consolidado 25,8% en FY2025 y 25,6% en FY2024 (10-K FY2025, R3.htm), consistente con poder de precio sostenido en un negocio industrial diversificado.
+
+**El ataque más serio que este moat ya sobrevivió, con fecha y desenlace:** el colapso del capex de petróleo y gas de 2015-2016 (WTI de ~US$100/barril en pico-2014 a ~US$26 en feb-2016) golpeó de lleno el negocio de instrumentación de procesos de AMETEK, expuesto a clientes de oil & gas/petroquímica. HECHO (10-Q FY2016, EDGAR): ventas del 1T-2016 cayeron 4% interanual y las del 3T-2016 cayeron 5% interanual; la propia compañía guio ventas orgánicas de 2016 a la baja en dígito medio simple, "impulsadas en gran medida por una caída interna del 8% en los negocios de Process con exposición a oil & gas". Desenlace (INFERENCIA razonable, no verificada punto por punto en este pase ligero): el negocio no perdió sus posiciones de liderazgo de nicho ni sufrió un golpe estructural de margen — el margen operativo consolidado se mantuvo en el rango alto de los 20% durante todo el episodio (nunca colapsó a terreno de crisis), la compañía siguió cerrando adquisiciones bolt-on durante el valle en vez de retraerse, y hacia 2017-2018 tanto el crecimiento orgánico como la expansión de margen retomaron una trayectoria ascendente que llega hasta hoy (25,8% en FY2025, el margen operativo más alto de su historia reciente). Fue un shock cíclico de demanda en un mercado final concreto, no una falla competitiva del mecanismo del moat — lo que sí se puso a prueba, y aparentemente aguantó, fue la disciplina de asignación de capital bajo presión de un valle de dos años.
+
+---
+
+## Paso 5 — Motor de reinversión (g = tasa de reinversión × ROIC incremental)
+
+**Cifras del 10-K FY2025 (US$ millones), con comparativas FY2023-FY2024 del mismo filing y del 10-K FY2023 para balance 2022-2023:**
+
+| | FY2023 | FY2024 | FY2025 |
+|---|---|---|---|
+| Ventas netas | 6.597,0 | 6.941,2 | 7.401,1 |
+| Utilidad operativa (margen) | 1.707,5 (25,9%) | 1.779,6 (25,6%) | 1.910,3 (25,8%) |
+| D&A total (cash flow) | 337,6 | 382,9 | 422,8 |
+| Capex (PP&E) | 136,2 | 127,1 | 130,2 | 
+| Adquisiciones, neto de caja | 2.237,9 | 117,5 | 933,2 |
+| Flujo de caja operativo | 1.735,3 | 1.828,8 | 1.801,8 |
+| **FCF (OCF − capex)** | **1.599,0** | **1.701,8** | **1.671,5** |
+| Capital invertido (deuda+patrimonio−caja), fin de año | 11.633,7 | 11.361,0 | 12.454,1 |
+| ROIC (NOPAT / capital invertido promedio) | ≈13,2% | ≈12,8% | ≈13,2% |
+
+*(Fuentes: R3.htm/R6.htm/R10.htm de los 10-K FY2025 y FY2023 en EDGAR; NOPAT calculado con la tasa impositiva efectiva de cada año — 18,3% en 2023, 17,2% en 2024, 17,7% en 2025.)*
+
+**Aplicar la fórmula mecánica literal produce el mismo resultado espurio que en otros conglomerados adquirentes:** capex total (US$130,2M) es muy inferior a D&A total (US$422,8M), así que "capex de crecimiento = capex total − D&A" daría **−US$292,6M**, negativo. La razón: D&A incluye amortización de intangibles de adquisición (≈US$194M después de impuestos guiados para FY2025 según el comunicado de resultados 4T-2024/guía FY2025 de la compañía — INFERENCIA, cifra de guía, no la cifra real reportada línea por línea en el 10-K), lo que deja la depreciación "real" de activos físicos en torno a US$185-190M — todavía por encima del capex real (US$130,2M), un patrón repetido los tres años. Esto NO es agotamiento de activos: es evidencia de que el crecimiento orgánico de AMETEK es genuinamente ligero en capital físico (capex ≈1,7-2,0% de ventas, estable) y que **el verdadero vehículo de reinversión de crecimiento es la adquisición, no el capex**.
+
+**Máquina de M&A, con umbral de retorno — evidencia a favor:** el gasto en adquisiciones fue extremadamente irregular en magnitud (US$2.237,9M en 2023 —incluye Paragon Medical, la adquisición individual más grande de la historia de la compañía hasta ese momento—, solo US$117,5M en 2024, y US$933,2M en 2025 —Kern Microtechnik + FARO Technologies—), y pese a esa irregularidad **el ROIC consolidado se mantuvo notablemente estable en ~13% los tres años**, incluyendo el año del mega-deal. Eso es evidencia real, no solo narrativa, de que el umbral de retorno mínimo sí protege el ROIC agregado incluso absorbiendo una adquisición grande. El **ROIIC** (retorno sobre el capital incremental desplegado), usando la ventana de tres años FY2022→FY2025 que incluye el ciclo completo del mega-deal de 2023 (ΔNOPAT≈US$354M / ΔCapital invertido≈US$2.938M) da **≈12,1%**, cómodamente por encima de cualquier WACC de mercado razonable (7-9%) aunque no espectacular — coherente con "umbral mínimo defendido", no con rendimientos extraordinarios. Cifra externa de contraste (GuruFocus, no verificada de forma independiente en este pase): ROIC actual ~11,2% vs. WACC estimado externo ~9,7% — mismo orden de magnitud, spread positivo pero moderado, no extremo.
+
+**Qué limita el crecimiento:** NO es el balance — el propio CEO (David Zapico) declaró en la llamada de resultados del 4T-2025 que la compañía podría desplegar hasta US$5.000M en M&A y mantener el rating investment-grade (fuente: cobertura de la llamada, no transcript primario verificado en este pase — DEGRADAR a INFERENCIA hasta verificación directa). Tampoco es demanda agregada — la cartera de mercados finales (instrumentación de proceso, aeroespacial/defensa, médico, automatización) está genuinamente diversificada. **El límite real es encontrar objetivos a precio razonable sin diluir el umbral de retorno bajo presión de sostener el ritmo de crecimiento de EPS** — exactamente el riesgo que ya señaló Fase 1, y el propio patrón de gasto (2.238 → 118 → 933, en ese orden, en tres años consecutivos) es la prueba empírica de cuán discontinuo es en la práctica ese flujo de objetivos: no hay un ritmo anual demostrado, hay años gordos y años flacos según lo que aparece disponible en el mercado de M&A en cada momento.
+
+**Años de pista:** el modelo en sí (roll-up de un universo fragmentado y global de instrumentación/electromecánica de nicho) no muestra señales de agotamiento estructural — hay, en teoría, cientos de objetivos candidatos en el mundo. Pero proyectar una tasa de crecimiento *constante* a varios años (lo que exige cualquier DCF) es, por construcción, una simplificación sobre un proceso de despliegue de capital que la propia evidencia de tres años muestra como discontinuo, no suave.
+
+---
+
+## Paso 8 ligero — Pre-mortem resumido
+
+1. **Deterioro de la disciplina de retorno bajo presión de sostener el ritmo de crecimiento de EPS de doble dígito.** El mecanismo específico no es "el margen podría bajar" en genérico: es pagar de más por un deal grande (tipo Paragon Medical o FARO) para no quedarse sin munición de crecimiento en un año flaco de flujo de objetivos. **Métrica observable:** ROIC total consolidado cae sostenidamente por debajo de ~10-11% durante 2 o más años después de una adquisición grande, o cargo de deterioro (impairment) de goodwill reportado — hoy el goodwill es US$7.170,8M, el 44,6% del activo total (10-K FY2025), la base sobre la que un impairment sería la señal dura.
+2. **La conversión de caja del motor se deteriora de forma estructural, no solo puntual.** HECHO ya observado en este mismo pase: el FCF cayó **-1,8% en FY2025** (US$1.671,5M vs. US$1.701,8M en FY2024) pese a que la utilidad operativa creció **+7,3%** y las ventas **+6,6%** — una divergencia real entre calidad contable y generación de caja en el año más reciente, coincidente con la integración del deal de FARO. **Métrica observable:** si en el reporte FY2026 el FCF vuelve a crecer por debajo de la utilidad operativa durante un segundo año consecutivo, la hipótesis de "ruido de un año de integración" queda descartada y pasa a ser señal de fatiga estructural en la conversión de caja.
+3. **Choque cíclico simultáneo en los dos motores de demanda más grandes y correlacionados con capex — proceso industrial y aeroespacial/defensa.** Cada uno individualmente ya mostró ser vulnerable (proceso industrial en 2015-2016 vía oil & gas; aeroespacial comercial en 2020 vía COVID), pero un golpe que afecte a ambos **a la vez** (recesión industrial global + recorte simultáneo de producción de aviones comerciales o gasto de defensa) sería el mecanismo específico de ruptura de la tesis de crecimiento, no un genérico "recesión". **Métrica observable:** ingresos orgánicos combinados de Aerospace & Power Instrumentation (EIG) y Aerospace Markets (EMG) cayendo simultáneamente más de 10% interanual durante 2 o más trimestres consecutivos.
+
+---
+
+## Paso 9 ligero — DCF inverso rápido
+
+**Precio en vivo (IBKR, contract_id 4392, snapshot de esta sesión):** US$237,72 (cierre previo US$234,20, +1,5%). Coincide exactamente con el precio reportado por fuentes de mercado (Investing.com/TradingView) consultadas en paralelo — sin discrepancia material. Market cap ≈US$55,0bn (usando ~231,26M acciones diluidas promedio FY2025 — proxy razonable, no el conteo exacto de hoy). Deuda total YE2025 US$2.283,3M; caja US$458,0M → **EV ≈ US$56,8bn**.
+
+**WACC de mercado rápido (supuesto explícito, NO el bottom-up del Candado B):** 8,0%. Justificación: mega-cap industrial estadounidense (~US$55bn), grado de inversión, beta industrial típico ~1,0-1,1, exposición internacional (48,2% de ventas, 10-K FY2025) mayormente a Europa/mercados desarrollados sin riesgo país material que exija prima adicional relevante. Rango defendible 7-9%; se usa el punto medio-alto.
+
+- **Modelo de perpetuidad simple (una sola etapa, sin fase de alto crecimiento):** EV = FCF₁/(WACC−g) con FCF₀=US$1.671,5M ⇒ el precio de hoy exige **g∞ ≈ 4,9%** de crecimiento perpetuo del FCF desde ya, para siempre.
+- **Modelo de dos etapas (10 años explícitos + terminal 3%):** resolviendo numéricamente, el precio de hoy exige **g ≈ 9,2-9,3% anual durante una década**, seguido de un terminal de 3%.
+
+**Comparación contra el Paso 5 — la g exigida por el precio contra la g demostrada:**
+- CAGR de **ingresos** 2023-2025: ≈6,0%/año.
+- CAGR de **FCF** 2023-2025: ≈2,2%/año — y en el año más reciente (2025) el FCF cayó -1,8%, no creció.
+
+La brecha es amplia y va en la dirección cara bajo cualquiera de las dos lecturas: incluso el marco más permisivo (perpetuidad simple, 4,9%) ya está por encima del FCF CAGR demostrado de tres años (2,2%) y muy por encima del año más reciente (negativo); el marco de dos etapas (9,2-9,3% durante una década) exige más del doble del ritmo de ingresos demostrado y más de cuatro veces el ritmo de FCF demostrado, sostenido diez años — lo que en la práctica requiere que el ritmo de M&A grande (tipo el año FARO/Kern de 2025, o el año Paragon Medical de 2023) se repita año tras año durante una década, algo que el propio patrón de gasto observado (2.238 / 118 / 933 en tres años consecutivos) muestra como errático, no como un ritmo anual sostenible ya probado.
+
+---
+
+## Síntesis del pase ligero
+
+El mecanismo del moat (costo de cambio por calificación técnica/regulatoria + liderazgo en nichos demasiado pequeños para atraer competencia de escala) está razonablemente verificado, con un caso histórico concreto y fechado (colapso de oil & gas 2015-2016) que el negocio atravesó sin perder posiciones de liderazgo ni sufrir un colapso estructural de margen. El motor de reinversión también aguanta el escrutinio: ROIC estable en ~13% durante tres años pese a una adquisición histórica en 2023, y ROIIC ~12% sobre el capital incremental desplegado en ese mismo período — ambos números cómodamente por encima de cualquier WACC de mercado razonable. La duda genuina que este pase sí encontró y que Fase 1 no tenía capturada es la divergencia 2025 entre utilidad operativa (+7,3%) y FCF (-1,8%) — una señal a vigilar, no todavía una ruptura. Con calidad sólida confirmada, el problema es exclusivamente de precio: el DCF inverso rápido exige entre 4,9% (perpetuidad simple) y 9,2-9,3% (dos etapas a 10 años) de crecimiento de FCF, contra un FCF CAGR demostrado de solo ~2,2% en tres años y una caída en el año más reciente — el precio de hoy no es descabellado en el sentido de pedir algo nunca visto en la historia de la compañía (el ritmo de M&A de 2023 y 2025 demuestra que AMETEK puede acelerar en años puntuales), pero sí pide que ese ritmo puntual se sostenga de forma continua durante una década, algo que la propia irregularidad del historial de M&A no respalda como caso base.

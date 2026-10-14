@@ -1,0 +1,48 @@
+{
+ "ticker": "COST",
+ "name": "Costco Wholesale Corporation",
+ "currency": "USD",
+ "price_verified": 951.35,
+ "price_source": "StockAnalysis.com (cross-checked Yahoo Finance ~$950.50)",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.4435,
+ "implied_mcap_b_usd": 421.9,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 8.55,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.85,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF = FY2025 reported FCF $7.84B (OCF $13.335B - capex $5.498B) minus 100% SBC $0.86B = ~$6.98B; grown to a ~$7.4B forward (FY2026) base for the DCF. Note: a large portion of Costco's $5.5B capex is growth capex (new warehouse openings), so reported FCF structurally understates true owner/maintenance earnings — a known reason pure DCF under-credits this compounder.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 406,
+   "prob": 0.38,
+   "note": "Phase1 (yr1-5) 7% CAGR, Phase2 (6-10) declining 7%->4%, terminal g 2.5%, WACC 8.55%. Reasonable-pessimist: membership/comp growth moderates, club expansion slows, margin flat. NOT apocalyptic. +$11.76B net cash added."
+  },
+  "base": {
+   "iv_per_share": 513,
+   "prob": 0.47,
+   "note": "Phase1 10% CAGR, Phase2 declining 10%->5%, terminal g 3.0%, WACC 8.55%. Consensus-like: ~8-10% revenue growth, steady ~90% renewal, modest margin lift, continued unit growth + occasional special dividend optionality."
+  },
+  "optimista": {
+   "iv_per_share": 621,
+   "prob": 0.15,
+   "note": "Phase1 12% CAGR, Phase2 declining 12%->6%, terminal g 3.5%, WACC 8.55%. International + e-comm acceleration, membership fee increases, faster club rollout, durable pricing power."
+  }
+ },
+ "iv_dcf_weighted": 488,
+ "fwd_multiple_now": 43.5,
+ "fwd_multiple_5y_avg": 45.8,
+ "fair_multiple": 42,
+ "multiple_metric": "Forward P/E on FY2026 consensus EPS (~$20.52)",
+ "multiple_rationale": "Costco trades at fwd P/E ~43.5 (aggregator) to ~46.4 (on explicit FY26 consensus EPS $20.52), vs a 5y average of ~45.8. There is NO structural deterioration — fundamentals are accelerating (Q3 FY26 net sales +11.6%, comps +6.6% ex gas/fx, GAAP EPS +15% YoY, 89.7% worldwide / 92.2% US-Canada renewal, 148.5M cardholders, ROIC ~20%, net cash). I apply a modest ~8% haircut to the 5y avg (42x vs 45.8x) purely for valuation discipline given the extreme absolute multiple (~50x trailing) and PEG ~4.4, not for any business deterioration. iv_multiple = 20.52 * 42 = ~$862.",
+ "iv_multiple": 862,
+ "weight_dcf": 0.35,
+ "weight_multiple": 0.65,
+ "reconciled_iv": 731,
+ "structural_change": "None. No structural deterioration. Costco is an accelerating, proven compounder: Q3 FY2026 net sales +11.6%, comps +6.6% ex gas/fx, GAAP EPS $4.93 (+15% YoY), worldwide renewal 89.7% (US-Canada 92.2%), 148.5M cardholders, ROIC ~20%, +$11.76B net cash, exceptionally clean comp structure (SBC just 0.31% of revenue / ~11% of FCF). The ~13% pullback from the May 2026 ATH ($1,096.50) is valuation/fear rotation, not earnings deterioration.",
+ "sanity_notes": "Price $951.35 and shares ~443.5M re-verified on StockAnalysis.com and Yahoo (price ~$950-951; both report ~443.5M shares). Implied mcap = 951.35 * 0.4435 = $421.9B, matching the known ~$422B scale (mcap_sanity_ok=true). MAGNITUDE CHECK: reconciled IV $731 = 77% of the $951 price, well within the 30-300% sanity band, so no shares/currency/units error. Pure DCF ($488 weighted) sits at 51% of price — a textbook case of DCF under-crediting a compounder reinvesting at ~20% ROIC for decades, and of reported FCF understating owner earnings because a large share of the $5.5B capex is growth (new clubs), not maintenance. Hence the multiple anchor is weighted more heavily (0.65) as it is the more reliable gauge for a stable, proven compounder; DCF kept at 0.35 as a discipline floor. Reconciled IV ~$731 implies the stock currently trades ~30% ABOVE estimated fair value — quality business, but priced for perfection at ~50x trailing earnings; limited margin of safety at $951."
+}

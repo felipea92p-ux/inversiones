@@ -1,0 +1,48 @@
+{
+ "ticker": "MCO",
+ "name": "Moody's Corporation",
+ "currency": "USD",
+ "price_verified": 447.33,
+ "price_source": "StockAnalysis.com (Jun 22, 2026, $447.33); cross-checked Public.com mcap $78.7B and Yahoo/CNN ~$445 (Jun 23, 2026)",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.1773,
+ "implied_mcap_b_usd": 79.3,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 10.05,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.15,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF normalizado forward = FCF guiado FY2026 (~$2.9B, punto medio de $2.8-3.0B) menos 100% SBC (~$0.567B run-rate) = ~$2.333B = ~$13.16/accion diluida. Se usa la base forward (no el FY2025 trough de $2.0B/$11.33) porque representa mejor el run-rate de generacion de caja del negocio.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 183.41,
+   "prob": 0.38,
+   "note": "Fase1 g=6.0%, decline a g_terminal=2.5%; WACC 10.05%; deuda neta $5.89B. Pesimista razonable: desaceleracion de emisiones de deuda/refinanciaciones y crecimiento mas lento en Analytics, sin colapso del moat del duopolio de ratings."
+  },
+  "base": {
+   "iv_per_share": 227.5,
+   "prob": 0.47,
+   "note": "Fase1 g=8.5% (en linea con organico FY2025 +9% y guia high-single-digit), decline a g_terminal=3.0%; expansion continua de margenes ajustados (53%+) y recompras ~$2.5B/ano."
+  },
+  "optimista": {
+   "iv_per_share": 282.44,
+   "prob": 0.15,
+   "note": "Fase1 g=11%, g_terminal=3.5%; super-ciclo de emisiones, traccion de MA/GenAI y datos privados, apalancamiento operativo elevado."
+  }
+ },
+ "iv_dcf_weighted": 218.99,
+ "multiple_metric": "P/E adelantado sobre EPS ajustado FY2026 (punto medio guia $16.40-17.00 = $16.70)",
+ "fwd_multiple_now": 26.8,
+ "fwd_multiple_5y_avg": 38.44,
+ "fair_multiple": 31,
+ "multiple_rationale": "Ancla a la media 5a del P/E adelantado (38.4x) con haircut explicito a 31x. El haircut NO refleja deterioro estructural (el duopolio MIS + el foso de Analytics estan intactos; organico +9% FY2025, +8% Q1'26, margenes ajustados expandiendose, direccion SUBIO guia y recompras) sino normalizacion de multiplo: la media 5a esta inflada por la era de tipos cero 2020-21. 31x es un multiplo defendible para un compounder de calidad probada en un regimen de tipos mas altos, aun premium sobre el mercado por ROIC ~30% y reinversion a alto retorno.",
+ "iv_multiple": 517.7,
+ "weight_dcf": 0.35,
+ "weight_multiple": 0.65,
+ "reconciled_iv": 413.15,
+ "structural_change": "Ninguno negativo. El movimiento de -18% desde maximos es compresion de multiplo/rotacion (fear_rotation), no deterioro fundamental: ingresos, margenes, EPS ajustado y FCF todos mejorando; guia y recompras elevadas. Foso del duopolio de ratings y franquicia Analytics intactos. Unico viento de cola estructural emergente: oportunidad GenAI/datos privados.",
+ "sanity_notes": "Precio verificado $447.33 (StockAnalysis 22-jun-2026), consistente con Public/Yahoo/CNN ~$445 (23-jun). Acciones: basicas ~174.68M (mcap implicito $78.1B = exacto match StockAnalysis $78.14B) vs diluidas ponderadas 177.3M (10-Q Q1'26); se usan 177.3M diluidas para IV/accion -> mcap implicito $79.3B. Escala confirmada (~$78-79B en todas las fuentes), mcap_sanity_ok=true. Ratio IV/precio = 0.92, dentro de banda 0.30-3.00 (sin error de unidades/moneda/acciones). DCF puro (~$219) infra-credita el compounder de alto ROIC reinvirtiendo decadas, por eso se pondera mas el ancla de multiplo (35/65). Reconciled IV ~$413 implica ~8% sobrevaloracion vs precio actual: accion de calidad cotizando cerca de valor justo, sin margen de seguridad amplio. SBC (~$567M run-rate) es el dato menos verificado (fuentes en conflicto FY2024 ~$220M vs TTM ~$567M); se uso el run-rate alto (conservador). Si SBC real fuera menor, owner FCF e IV serian algo mas altos."
+}

@@ -1,0 +1,1148 @@
+{
+  "summary": "Investigación para el eje VALORACIÓN: valor intrínseco, MoS, trampas de valor y patrones de grandes apuestas históricas de superinversores",
+  "agentCount": 7,
+  "logs": [
+    "6 frentes de investigación en paralelo...",
+    "Investigación completa. Sintetizando el marco..."
+  ],
+  "result": {
+    "synthesis": {
+      "pattern_library": [
+        {
+          "name": "P1 — Herida superficial, franquicia intacta (el escándalo acotado)",
+          "description": "Un evento negativo puntual y CUANTIFICABLE (escándalo, litigio, crisis reputacional, error autoinfligido) golpea el precio de forma desproporcionada mientras el motor económico —comportamiento del cliente final, retención, pricing— no cambia. La clave: el pasivo máximo es absorbible por 1-2 años de owner earnings y un test empírico independiente confirma que el cliente no desertó. Cuando deserta el accionista pero no el cliente, es oportunidad; cuando deserta el cliente, es trampa.",
+          "historical_examples": [
+            "Buffett — American Express 1964 (salad oil: -43%, scuttlebutt en restaurantes de Omaha, 40% del Partnership, +124% en 2.5 años)",
+            "Ackman — Chipotle 2016 (E.coli: PER óptico 60x sobre earnings hundidos, unit economics intactos, ~7x)",
+            "Meta 2022 (capex autoinfligido reversible por decisión gerencial: -76%, +547% desde el suelo)",
+            "Moody's 2008-09 (precio -70% con ingresos -5/-8%: divergencia ~10:1)"
+          ],
+          "recognition_signals": [
+            "Test de acotamiento: poder escribir el problema en UNA frase con pérdida máxima en $ y expresarla como % de owner earnings de 1-2 años; si no se puede acotar (litigio sin techo), pasar",
+            "Divergencia ≥3:1 entre caída del precio y caída del consenso EPS FY+1 (Moody's fue 10:1)",
+            "Motor intacto verificado con datos operativos (retención, volumen, pricing, aceptación del producto), NUNCA inferido del precio — scuttlebutt estilo AmEx",
+            "Frase obligatoria escrita: 'el mercado teme X; X está mal dimensionado porque [dato verificable]'"
+          ],
+          "base_rate_note": "Prior adversarial de Cembalest: 40%+ de las caídas ≥70% jamás recuperan. Solo el filtro QG previo + el test de acotamiento invierten ese prior. Es históricamente el patrón más rentable del lote cuando pasa los tres tests."
+        },
+        {
+          "name": "P2 — Pánico indiscriminado, comprar el mejor del sector (dimensionar el peor caso)",
+          "description": "Pánico MACRO o SECTORIAL (no idiosincrático) castiga a todos por igual; la dispersión de calidad intra-sector es el edge. Se compra el operador #1 en costos/gestión SOLO tras estresar numéricamente el peor escenario y verificar que el resultado es 'un mal año', no insolvencia. En pánico todo cae junto (correlaciones ~1); si tu empresa cae sola, NO es este patrón.",
+          "historical_examples": [
+            "Buffett — Wells Fargo 1990 (<5x earnings; aritmética pública: 10% de mora con 30% de pérdida = un año sin ganar, no quiebra)",
+            "Buffett — Washington Post 1973 (bear market -48%; 20-25 centavos por dólar vs valor de transacción privada; cayó otro 25% después y tardó 3 años)",
+            "Ackman — redeploy COVID mar-2020 (Hilton/Lowe's/RBI a precios de liquidación; +70.2% neto 2020)",
+            "Marks — distressed post-Lehman 2008 (senior a 50-70 cts; el breakeven exigía algo peor que 1929; TIR 31.5%)",
+            "Templeton 1939 (cesta 104 acciones <$1 con catalizador macro identificable ex-ante)"
+          ],
+          "recognition_signals": [
+            "Gatillo compuesto: [S&P 500 -25%+ y/o VIX >40 sostenido] Y [EPS forward del nombre QG cayó <1/3 de lo que cayó su precio]",
+            "VIX 30-40 = tramo inicial pequeño; VIX>40 = tramo grande (desde 1990, VIX>40 → 12 meses positivos >90% de las veces, media +30%)",
+            "Stress-test numérico escrito: el peor escenario plausible consume beneficio (aceptable) o consume capital (knock-out)",
+            "Comprar solo los top-3 del ranking QG que estén en zona GANGA — nunca el operador promedio del sector castigado"
+          ],
+          "base_rate_note": "Frecuencia: pánico generalizado cada 4-7 años. La restricción no es encontrar la oportunidad sino tener liquidez y watchlist pre-valorada — la ventana dura días o semanas."
+        },
+        {
+          "name": "P3 — Error de categoría (el múltiplo de la etiqueta equivocada)",
+          "description": "El mercado valora la empresa con el múltiplo de su CATEGORÍA aparente (hardware cíclico, retailer de margen bajo, conglomerado país-riesgo) cuando sus métricas de cliente son de otra categoría (staple con moat, plataforma de membresías, monopolio de nicho). La tesis es demostrar con métricas medibles (retención, recurrencia, pricing power, segmento monopolio creciendo dentro de la etiqueta) que la clasificación está mal.",
+          "historical_examples": [
+            "Buffett — Apple 2016 (10.6x trailing, 8.8x ex-caja; retención ~95% = consumer staple, no hardware cíclico; ~6-7x)",
+            "Sleep — Costco 2002 (margen 2.7% leído como defecto cuando era la estrategia scale-economies-shared; ~30x)",
+            "Sleep — Amazon 2005 (PER infinito irrelevante: OPEX de crecimiento disfrazaba owner earnings; >100x)",
+            "Fisher — Motorola 1955 y Texas Instruments 1956 (etiquetadas como radios/instrumentación cuando el segmento monopolio crecía >20%)",
+            "Buffett — sogo shosha 2020 (descuento por narrativa geográfica, no por fundamentales)"
+          ],
+          "recognition_signals": [
+            "Retención de clientes >90% y recurrencia de ingresos que contradicen el múltiplo de la categoría asignada",
+            "Margen bajo que coexiste con retención >85% creciente y crecimiento de unidades = elección estratégica; margen bajo con retención cayendo = deterioro",
+            "Segmento con economics de monopolio (<25% de ventas) creciendo >20% anual dentro de una etiqueta cíclica/commodity",
+            "Test falsificador: ¿la retención y el margen resisten un ciclo de producto débil? (Apple 2016: cayeron ventas, no clientes)"
+          ],
+          "base_rate_note": "Es el patrón ANTI-screener: ningún filtro cuantitativo estándar lo detecta porque el múltiplo óptico parece correcto para la categoría equivocada. Requiere trabajo cualitativo de reclasificación."
+        },
+        {
+          "name": "P4 — Denominador roto (earnings deprimidos normalizables)",
+          "description": "El PER trailing es activamente engañoso porque el denominador está temporalmente hundido por causa EXÓGENA identificable (ciclo, shock, inversión deliberada). La ganga está en el precio sobre owner earnings NORMALIZADOS o forward a 3-5 años, no en el múltiplo spot. La normalización de earnings ES el margen de seguridad. ADVERTENCIA simétrica: en cíclicas el patrón se invierte — PER bajo con márgenes récord = pico de ciclo (Lynch).",
+          "historical_examples": [
+            "Buffett — BNSF 2009 (18x deprimido = 14x normalizado; volúmenes -20% cíclicos, no seculares; dividendos ya superaron el precio pagado)",
+            "Ackman — Chipotle 2016 (60x TTM pero 20-25x sobre márgenes de restaurante pre-crisis recuperables)",
+            "Druckenmiller — NVDA Q4-2022 (~50x trailing pero <25x sobre los earnings que el capex de IA anunciado implicaba)",
+            "Ackman — Hilton 2020 (~14-15x FCF normalizado 2019 con shock temporal)"
+          ],
+          "recognition_signals": [
+            "Margen operativo actual muy por debajo de la media de 10 años CON causa exógena nombrable y con fecha probable de caducidad",
+            "Test de secularidad: ¿el declive de volumen tiene causa estructural identificable (tipo carbón) o solo macro? Estructural = no comprar",
+            "Evidencia física del cambio de régimen que el consenso aún no modela (backlog, capex anunciado de clientes)",
+            "Detector inverso obligatorio en cíclicas: margen actual > percentil 80 de 10 años Y PER <10 = presunción de PEAK earnings, usar mid-cycle en el PWFV"
+          ],
+          "base_rate_note": "Si la normalización REQUIERE turnaround operativo (no mera reversión de ciclo), aplica el base rate de Mauboussin: solo ~30% de turnarounds triunfan → MoS ≥40% obligatorio."
+        },
+        {
+          "name": "P5 — La duración es el descuento (calidad extrema a precio 'justo')",
+          "description": "Cuando el moat protege 20+ años de reinversión a ROIC alto con capital incremental ~cero, un múltiplo de 12-25x que ningún screen marca como barato ES una ganga profunda: el mercado usa PER estático y solo descuenta ~10 años cuando la evidencia soporta 20+. El valor terminal está regalado. Es el patrón que explica que los errores documentados del lote sean todos de VENTA temprana, nunca de compra cara.",
+          "historical_examples": [
+            "Munger/Buffett — See's 1972 (12x after-tax, 3x book; >$2B pretax acumulados sobre $25M)",
+            "Buffett — Coca-Cola 1988 (15x en máximos históricos post-crash; hoy >60% del costo devuelto en dividendos CADA año)",
+            "Kantesaria — Moody's 2018 (20-22x por duopolio-peaje: pricing 3-4% + volumen + recompras = EPS mid-teens casi cierto)",
+            "Akre — Mastercard 2010 (15-16x forward; >20x en 15 años)",
+            "Smith — Fundsmith 2010+ (regla FCF yield ≥ bono + crecimiento; +15% anualizado 2010-2021)"
+          ],
+          "recognition_signals": [
+            "FCF yield ≥ rendimiento del bono largo local Y (FCF yield + crecimiento orgánico FCF) ≥ 11-12%",
+            "Test Kantesaria: ¿puede subir precios 3-5% anual durante una década sin perder un solo cliente? (See's, Moody's: sí)",
+            "DCF inverso: el precio solo descuenta ~10 años de crecimiento cuando penetración/per-cápita/runway soportan 20+",
+            "Capital incremental ~cero: crecimiento de beneficios sin crecimiento proporcional de capital empleado",
+            "Falsación: si llegar al 11-12% exige asumir crecimiento >10% a perpetuidad o FCF yield <2.5%, es burbuja de calidad (Fundsmith 2022-24)"
+          ],
+          "base_rate_note": "Persistencia real de la calidad (Mauboussin): 41% del quintil superior de ROIC sigue ahí 10 años después, 64% en los dos quintiles superiores — la reversión ingenua a la media subestima a los mejores. Solo <5% de empresas grandes sostienen crecimiento de ventas >20% por 10 años: la duración vale más que la velocidad."
+        },
+        {
+          "name": "P6 — El vendedor tiene nombre (venta forzada o motivo exógeno)",
+          "description": "Todo descuento genuino tiene un DUEÑO identificable: alguien vende barato por razones ajenas al valor del negocio (impuestos, mandato de índice, apalancamiento forzado, estigma geográfico, invisibilidad institucional). Si no puedes nombrar al vendedor irracional o forzado y su motivo, el precio bajo probablemente tiene razón.",
+          "historical_examples": [
+            "Fisher — Texas Instruments 1956 (fundadores vendiendo por impuesto sucesorio, no por el negocio)",
+            "Marks 2008 (tenedores apalancados liquidando deuda senior a 60 cts sin mirar valor de recuperación)",
+            "Graham — GEICO 1948 (colocación privada por necesidad de liquidez del vendedor; 712k→~$400M)",
+            "Lynch — La Quinta/Taco Bell años 70 (cero cobertura institucional: 'las grandes casas no siguen empresas de tacos')",
+            "Greenblatt — spin-offs (venta mecánica de índices y fondos; edge erosionado post-2013: usar solo como fuente de candidatos)"
+          ],
+          "recognition_signals": [
+            "Poder completar la frase: 'quien vende es ___ y vende porque ___' con un motivo verificable EXÓGENO al negocio",
+            "Venta forzada visible: salida de índices, redenciones de fondos, spin-off cayendo >20% en 1-3 meses sin noticias nuevas",
+            "<20% propiedad institucional y <3 analistas cubriendo (edge de invisibilidad, versión Lynch)",
+            "Falsación: si el vendedor con información interna vende por deterioro real, se verifica en los 2-3 trimestres siguientes — comprobar antes de escalar posición"
+          ],
+          "base_rate_note": "El edge de spin-offs se democratizó (underperformance -2.7%/año en la última década según Boyar): la venta forzada ya no es anomalía comprable mecánicamente, solo un generador de candidatos que deben pasar el QG completo."
+        },
+        {
+          "name": "P7 — El miedo golpea al peaje equivocado (aritmética regulatoria/sectorial)",
+          "description": "Una regla, litigio o evento externo con impacto CALCULABLE ex-ante provoca que el mercado borre más valor del que la norma puede destruir — o castigue a la empresa equivocada de la cadena. La tesis es pura aritmética: mapear línea por línea qué % del revenue toca la norma y comparar el daño máximo con el market cap borrado.",
+          "historical_examples": [
+            "Akre — Mastercard 2010 (Durbin recortaba interchange de los BANCOS, no los network fees de las redes; MA tenía solo mid-teens % de exposición a débito US; >10x en la década)",
+            "Buffett — Washington Post 1973 (amenaza Nixon a licencias de TV: pánico político sobre activos con valor privado verificable)",
+            "Farma 2011 (patent cliff de Lipitor llevó a TODO el sector a P/E de un dígito; década siguiente de recuperación)",
+            "Buffett — AmEx 1964 (pasivo de UNA subsidiaria descontado como quiebra de toda la compañía)"
+          ],
+          "recognition_signals": [
+            "Mapeo línea por línea: % del revenue realmente expuesto a la norma <20% mientras el mercado descuenta >30% del valor",
+            "Aritmética del miedo: [market cap borrado] > 2× [VP del daño máximo calculable] = oportunidad",
+            "Identificar QUIÉN paga realmente la regla (error Durbin: castigaron a las redes por una norma que golpeaba a los bancos)",
+            "Falsación: si la norma ataca el mecanismo central de pricing (no un segmento) o el daño no tiene techo calculable, el descuento es merecido — pasar"
+          ],
+          "base_rate_note": "Es el patrón más mecanizable de todos: requiere solo lectura del 10-K por segmentos y del texto de la norma. El más relevante para el universo de Felipe (SPGI, MSFT, V/MA-like: peajes de datos/red que atraen escrutinio regulatorio recurrente)."
+        },
+        {
+          "name": "P8 — La asimetría se construye, no se espera (estructura anti-ruina + catalizador humano)",
+          "description": "En las mejores apuestas el peor escenario NUNCA era pérdida permanente de capital, porque la asimetría estaba construida en la ESTRUCTURA (caja neta, float, seniority, financiación fija en la divisa del activo, recapitalización comprometida) y había un catalizador HUMANO identificable ejecutando la corrección. Sin estructura + catalizador, la misma compra es la definición de trampa de valor.",
+          "historical_examples": [
+            "Buffett — Japón 2020 (bonos en yenes al 0.6-1.2% ≈ costo de la inversión: riesgo divisa neutralizado, spread earnings yield ~12-14% vs financiación <1% contractual; ~2.5x + dividendos)",
+            "Buffett — GEICO 1976 (ventaja de costo intacta + Jack Byrne + recapitalización Salomon asegurada; sin esos dos, trampa de manual)",
+            "Marks 2008 (la seniority sustituye al moat: senior secured a 60 cts)",
+            "Pabrai — Fiat 2012 (SOTP: Ferrari dentro del precio + Marchionne con trackrecord verificable; el spin-off devolvió el capital)",
+            "Apple 2016 ($150B de caja neta convertía el estancamiento en crecimiento de EPS vía recompras a múltiplo bajo)"
+          ],
+          "recognition_signals": [
+            "Cuantificar la asimetría con los 3 escenarios existentes: downside del pesimista <15-20% vs upside del optimista >80-100% (ratio ≥3:1, test Pabrai)",
+            "Estructura verificable: caja neta significativa, financiación fija en la divisa del activo, seniority, o cero deuda en el target",
+            "Catalizador humano nombrado con evidencia de que YA empezó a ejecutar (Byrne contratado, Niccol fichado, payout japonés subiendo año a año) — no una esperanza",
+            "Falsación: si la supervivencia depende de terceros no comprometidos o la financiación barata no está firmada, no hay patrón"
+          ],
+          "base_rate_note": "Advertencia GEICO: cuando el patrón requiere turnaround, exige (a) ventaja estructural aún medible en números unitarios, (b) rescate COMPROMETIDO y (c) años de familiaridad previa con el negocio. El base rate de turnarounds sin catalizador es ~30% — este patrón sin sus tres condiciones es la trampa más cara del catálogo."
+        }
+      ],
+      "value_trap_checklist": [
+        {
+          "trap_type": "Deterioro multi-dimensión (Piotroski)",
+          "signal": "F-Score de Piotroski (9 tests binarios)",
+          "threshold": "≤4 = knock-out; exigir ≥7 para comprar en zona GANGA; en universo QG (que satura en 7-9) la señal operativa es la DERIVADA: caída ≥2 puntos vs hace 2 años",
+          "severity": "knockout_candidate"
+        },
+        {
+          "trap_type": "Earnings de mentira (Sloan)",
+          "signal": "Accruals ratio = (Beneficio neto − CFO) / Activos totales",
+          "threshold": ">10% = knock-out; 5-10% = investigar antes de seguir (cross-check natural con owner earnings del DCF)",
+          "severity": "knockout_candidate"
+        },
+        {
+          "trap_type": "Disrupción estructural",
+          "signal": "Erosión del margen BRUTO (la huella dactilar de la disrupción: el operativo puede caer por inversión, el bruto no miente)",
+          "threshold": "Erosión acumulada >300 bps en 8 trimestres = presunción estructural (Intel: −2,270 bps en 3 años); excepción documentada para transiciones de modelo declaradas (caso Adobe cloud)",
+          "severity": "alerta_fuerte"
+        },
+        {
+          "trap_type": "Moat roto (derivada del ROIC)",
+          "signal": "ROIC en descenso 3 años consecutivos Y ROIC incremental (ΔNOPAT₃ₐ/Δcapital invertido₃ₐ) < WACC",
+          "threshold": "Ambas condiciones simultáneas = moat roto aunque el ROIC promedio siga alto por el negocio legacy",
+          "severity": "knockout_candidate"
+        },
+        {
+          "trap_type": "Pérdida de cuota (estructural)",
+          "signal": "Ingresos de la empresa caen mientras el mercado del sector CRECE (verificar contra 10-K de 2-3 competidores)",
+          "threshold": "Cualquier magnitud sostenida 4+ trimestres = estructural; si todo el sector cae a la vez = ciclo, potencialmente temporal",
+          "severity": "alerta_fuerte"
+        },
+        {
+          "trap_type": "Melting ice cube maquillado (test IBM)",
+          "signal": "Triple condición de capital allocation destructivo durante 3 años: (1) buybacks+dividendos >100% del FCF, (2) deuda neta creciente, (3) revenue per share REAL (ajustado inflación) plano o decreciente",
+          "threshold": "Las 3 simultáneas durante 3 años = knock-out (el divisor per-share neutraliza el maquillaje de recompras)",
+          "severity": "knockout_candidate"
+        },
+        {
+          "trap_type": "Peak earnings cíclico (Lynch)",
+          "signal": "PER spot bajo con márgenes en máximos de ciclo",
+          "threshold": "Margen operativo actual > percentil 80 de 10 años Y PER <10 = presunción de pico; corregir el PWFV con earnings mid-cycle (margen medio 10 años × ingresos actuales)",
+          "severity": "alerta_fuerte"
+        },
+        {
+          "trap_type": "Dividend trap",
+          "signal": "Cobertura y payout del dividendo",
+          "threshold": "FCF/dividendos <1.0x dos años seguidos O payout >90% con beneficios cayendo = knock-out (Intel detectable 12 meses antes del recorte: payout 28%→79%); yield >2x mediana sectorial o >6% absoluto = bandera",
+          "severity": "knockout_candidate"
+        },
+        {
+          "trap_type": "Apalancamiento amplificador",
+          "signal": "Deuda neta/EBITDA en negocio con márgenes erosionándose",
+          "threshold": ">4x con margen bruto en descenso = el equity puede valer cero aunque el negocio sobreviva",
+          "severity": "alerta_fuerte"
+        },
+        {
+          "trap_type": "Revisiones en cadena (el discriminante nº1)",
+          "signal": "Dirección de las revisiones de consenso EPS FY+1 (segunda derivada, no nivel del múltiplo)",
+          "threshold": "3+ trimestres consecutivos de recortes de estimaciones = ROJO, no comprar aunque el descuento sobre PWFV sea >25%; EPS estable o -<10% con precio -30%+ = VERDE",
+          "severity": "knockout_candidate"
+        },
+        {
+          "trap_type": "Erosión del earnings power (Greenwald)",
+          "signal": "EPV (NOPAT normalizado/WACC) decreciente",
+          "threshold": "3 años consecutivos de EPV en descenso, o FCF 'estable' sostenido solo recortando growth capex = la trampa clásica de 'barato sobre earnings de ayer'",
+          "severity": "alerta_fuerte"
+        },
+        {
+          "trap_type": "Silencio de insiders",
+          "signal": "Comportamiento de insiders tras caída >40%",
+          "threshold": "CERO compras de insiders en 12 meses de precio deprimido = bandera (quienes más saben no ven el suelo); cluster buying (≥3 insiders en 90 días) = punto a favor de temporal; ventas aisladas = ruido, ignorar",
+          "severity": "alerta"
+        },
+        {
+          "trap_type": "Deserción del cliente (el test transversal Buffett)",
+          "signal": "Métricas del cliente final: retención, churn, volumen por cliente, aceptación del producto",
+          "threshold": "Retención cayendo de forma sostenida = el cliente deserta = trampa sin importar el precio (cuando solo deserta el accionista, es oportunidad)",
+          "severity": "knockout_candidate"
+        },
+        {
+          "trap_type": "Dilución encubierta",
+          "signal": "SBC y share count neto",
+          "threshold": "SBC/ventas >10%, o SBC creciendo más rápido que ventas 3 años, o dilución neta pese a recompras = owner earnings inflados; restar 100% del SBC antes de valorar",
+          "severity": "alerta"
+        },
+        {
+          "trap_type": "Regla de acumulación",
+          "signal": "Número de señales simultáneas en rojo de esta lista",
+          "threshold": "Ninguna señal aislada condena (salvo knock-outs); 3+ señales simultáneas = trampa con alta confianza — veto de compra aunque la zona diga GANGA",
+          "severity": "knockout_candidate"
+        }
+      ],
+      "temporal_vs_structural": {
+        "framework": "SCORECARD DISCRIMINADOR DE 5 PREGUNTAS (síntesis Mauboussin/Damodaran + los 30 casos históricos), que corre como COMPUERTA solo cuando un nombre de la watchlist QG entra en zona OPORTUNIDAD/GANGA — nunca como screening inverso de 'lo que más cayó' (base rate Cembalest: 40%+ de caídas ≥70% jamás recuperan). Cada pregunta vale 1 punto a favor de 'temporal': (1) ¿El problema es de DEMANDA DEL SECTOR (ciclo/macro, recuperable) y no de CUOTA (la empresa pierde vs competidores)? (2) ¿El MARGEN BRUTO aguanta (erosión <300bps acumulada en 8 trimestres)? (3) ¿El ROIC INCREMENTAL supera el WACC? (4) ¿Los UNIT ECONOMICS del motor principal (retención, pricing, volumen por cliente) están intactos, verificados con datos operativos y no con el precio? (5) ¿El DCF INVERSO muestra expectativas implícitas MÁS pesimistas que lo que los fundamentales confirman? VEREDICTO: 4-5 puntos = oportunidad probable, MoS estándar de su tier QG; 3 = zona gris, exigir MoS 40%; 0-2 = trampa, no comprar A NINGÚN PRECIO. Antes del scorecard, DOS precondiciones: (a) clasificar la caída en una de las 5 condiciones repetibles (pánico general / problema acotado / miedo sectorial-regulatorio / derating por tipos / venta forzada-spin-off) — si no encaja en ninguna, tratar como deterioro real; (b) escribir la frase-tesis: 'el mercado teme X; X está mal dimensionado porque [dato verificable]' + test de acotamiento (pérdida máxima en $ como % de owner earnings de 1-2 años). El discriminante individual más potente es la DIRECCIÓN DE LAS REVISIONES: el problema temporal golpea al precio mucho más que al consenso (divergencia ≥3:1, Moody's 2009 fue 10:1); el estructural golpea a ambos en cadena. Test binario resumen (hilo común de los 30 casos): ¿el problema desaparece si pasa el tiempo SIN que la empresa cambie nada esencial? Sí = potencialmente temporal; No = exige turnaround = base rate 30% = MoS 40% y peso ≥50% al escenario pesimista.",
+        "temporal_markers": [
+          "El miedo tiene nombre, apellido y fecha probable de caducidad (escándalo puntual, regla concreta, shock macro, ciclo de demanda)",
+          "Divergencia precio/consenso ≥3:1 — el precio cayó mucho más que las estimaciones EPS FY+1",
+          "Todo el sector o el mercado cae junto (correlaciones ~1); la empresa NO cae sola",
+          "Margen bruto estable (±300bps) aunque el operativo caiga por inversión o shock",
+          "Retención/volumen/pricing del cliente final intactos, verificados con scuttlebutt o datos operativos",
+          "Pérdida máxima cuantificable y absorbible por 1-2 años de owner earnings",
+          "Cluster buying de insiders (≥3 en 90 días) durante la caída",
+          "El problema es autoinfligido y reversible por decisión gerencial (Meta 2022), o exógeno con quien-paga identificado (Durbin)",
+          "Catalizador humano de corrección ya nombrado y ejecutando",
+          "EPS forward del consenso cayó <1/3 de lo que cayó el precio (marcador de pánico general)"
+        ],
+        "structural_markers": [
+          "Ingresos de la empresa caen mientras el mercado del sector crece = pérdida de cuota (casi siempre terminal)",
+          "Margen bruto erosionándose >300bps acumulados en 8 trimestres sin transición de modelo declarada (Intel: −2,270bps)",
+          "ROIC incremental < WACC: el capital nuevo ya no renta aunque el legacy sostenga el promedio",
+          "3+ trimestres consecutivos de recortes de consenso — revisiones en cadena, no un ajuste único",
+          "Retención de clientes cayendo: el cliente deserta, no solo el accionista",
+          "EPV decreciente 3 años seguidos; FCF sostenido solo recortando capex de crecimiento",
+          "Buybacks con deuda mientras revenue/share real se encoge (compra de tiempo con ingeniería financiera, patrón IBM/GE)",
+          "Impairments de goodwill recurrentes; el múltiplo bajo refleja earnings de ayer a punto de recortarse",
+          "Causa del declive de volumen identificable y secular (tipo carbón), no macro",
+          "Cero compras de insiders tras 12 meses de precio deprimido",
+          "El DCF inverso muestra expectativas ya negativas Y el negocio aun así decepciona (barato con razón)"
+        ]
+      },
+      "methodology_verdict": {
+        "keep_from_house": [
+          "DCF sobre owner earnings como columna vertebral del valor (validado por 8 de 11 casos modernos donde el PER óptico no era ganga y lo barato era el precio sobre owner earnings normalizados)",
+          "Los 3 escenarios probabilísticos y el WACC construido input a input (mejores prácticas explícitas de Damodaran: distribuciones de valor, no un punto)",
+          "La separación estricta eje CALIDAD (QG/Seilern) vs eje VALORACIÓN (MoS) — regla casa de jun-2026 que resulta ser exactamente la arquitectura que los 6 frentes confirman: la calidad mide NIVEL, el detector de trampas mide DERIVADA, el MoS mide precio",
+          "Las zonas GANGA/OPORTUNIDAD/JUSTO/CARO como órdenes pre-comprometidas (equivalente operativo de las órdenes limitadas permanentes de Templeton y los tramos calendarizados de Marks)",
+          "La entrada en tramos 3-5% con escalado por convicción (coherente con la concentración post-verificación de todos los superinversores)",
+          "El DCF inverso ya existente como cross-check (se conserva, pero asciende de rol — ver improve)",
+          "El razonamiento SOTP tipo Adobe (mismo patrón que Pabrai-Fiat: suma de partes con catalizador)"
+        ],
+        "improve": [
+          "ELEVAR EL DCF INVERSO de cross-check a PASO 1 obligatorio con veredicto propio en 3 niveles (expectativas implícitas BAJAS / RAZONABLES / HEROICAS contra base rates: crecimiento >20%/10 años lo sostiene <5% de empresas) y potencialmente con poder de veto — es el arma principal de Mauboussin-Rappaport y el arbitro natural entre valor y pricing",
+          "OWNER EARNINGS más estrictos: restar SIEMPRE el 100% del SBC (Damodaran: es coste real recurrente; bandera si SBC/ventas >10% — crítico para MSFT/VEEV/DUOL); separar capex de mantenimiento vs crecimiento por doble vía (método Greenwald: PPE bruto/ventas × Δventas; y depreciación ajustada) usando la más conservadora si difieren >25%",
+          "SEPARAR LA SALIDA DEL PWFV EN DOS CIFRAS: PWFV-Valor (DCF owner earnings + EPV como suelo) y Banda de Pricing (PER justificado, EV/EBITDA, P/FCF como contexto); las zonas se calculan SOLO contra el Valor; si Valor y Pricing divergen >30%, investigar cuál historia está mal — nunca promediar a ciegas (la media actual arrastra el ancla del mercado hacia el 'valor': en burbujas sectoriales los múltiplos justificados validan precios caros)",
+          "DEGRADAR O ELIMINAR EL PEG (peso 0 o ≤5% transitorio): Damodaran demuestra que no neutraliza el crecimiento y castiga precisamente a las empresas de alta calidad y crecimiento moderado del universo de Felipe; el PER justificado ya captura lo mismo sin el sesgo",
+          "CÍCLICAS: sustituir earnings TTM por mid-cycle (margen medio 10 años × ingresos actuales) cuando margen actual > percentil 80 — el PWFV actual es vulnerable a valorar picos de ciclo como sostenibles (relevante para TSM)",
+          "CHECKS ANTI-DAMODARAN automáticos en el DCF: g terminal ≤ min(3%, tasa libre de riesgo); margen año 10 ≤ máximo histórico propio ×1.1 salvo justificación escrita; si TV/valor >85%, alargar el período explícito en vez de descartar el modelo",
+          "TEST NARRATIVA-NÚMEROS: cada escenario lleva su 'historia' de 3 líneas; si no se puede contar, el número no vale ('a story without numbers is a fairy tale')"
+        ],
+        "add_new": [
+          "EPV DE GREENWALD (NOPAT normalizado/WACC) en toda tesis, con la métrica derivada 'peso del crecimiento en el precio' = 1 − EPV/precio como modulador del MoS exigido (si >60% del precio es promesa de crecimiento, exigir GANGA aunque el QG sea alto)",
+          "DETECTOR DE TRAMPAS DE VALOR como compuerta previa a toda compra en zona OPORTUNIDAD/GANGA: scorecard de 5 preguntas + checklist de umbrales (F-Score, accruals, margen bruto, revenue/share, ROIC incremental, revisiones) con salida ternaria PASA / GRIS-MoS-40% / TRAMPA-veto — módulo independiente que respeta la separación de ejes",
+          "SEMÁFORO DE REVISIONES como knock-out previo al cálculo de zonas: 3+ trimestres de recortes de consenso o ROIC/margen bruto cayendo 3 años = ROJO anula la zona GANGA (la dirección de las revisiones es el discriminante nº1 temporal-vs-estructural)",
+          "MoS ESCALONADO POR TIER QG (ver mos_calibration_options) sustituyendo el umbral único del 25%",
+          "TEST DE ASIMETRÍA PABRAI formalizado sobre los 3 escenarios existentes: ratio upside/downside ≥3:1 (o pérdida máxima pesimista ≤15-20%) para iniciar posición",
+          "SISTEMA DE 5 CONDICIONES DE OPORTUNIDAD: clasificar toda caída en pánico-general / problema-acotado / miedo-sectorial-regulatorio / derating-por-tipos / venta-forzada ANTES de mirar el PWFV, con los gatillos cuantitativos de cada una (VIX>30/40, divergencia 3:1, aritmética del miedo 2x, EPS forward plano + percentil ≤10)",
+          "FRASE-TESIS OBLIGATORIA: escribir 'el mercado teme X; X está mal dimensionado porque [dato verificable]' + test de acotamiento en $ — sin frase completable, no hay tesis, solo un múltiplo bajo",
+          "ALERTAS AUTOMÁTICAS por nombre de watchlist: -25% desde máximo 52 semanas = revisar y clasificar condición; -35% = candidato a primer tramo si pasa el semáforo (frecuencia esperada: 1-3 ventanas serias/año con watchlist de 20-30 nombres; pánico general cada 4-7 años)",
+          "REGLAS DE VENTA DUALES por tipo de activo (el error letal de los clásicos es mezclarlas): ultra-calidad → vender solo por deterioro del moat/tesis, NUNCA por múltiplo (los 3 errores documentados del lote moderno son ventas tempranas: Ferrari, NVDA, CMG); mediocre-barato → venta mecánica por precio",
+          "REGISTRO DE DECISIONES (compras Y pases) con condición asignada y métricas del test, para auditar el detector cada 12 meses contra resultados reales"
+        ]
+      },
+      "mos_calibration_options": [
+        "OPCIÓN A — Escalera base por score QG /100 (propuesta central, síntesis Munger 'la calidad es parte del margen de seguridad' + persistencia del ROIC de Mauboussin): QG ≥85 → comprar desde descuento ≥10% (zona JUSTO-bajo) en tramos; QG 70-84 → exigir ≥15-20% (OPORTUNIDAD); QG <70 o con knock-out → exigir ≥30% (GANGA) o pasar. Techo anti-'quality at any price': NUNCA comprar en zona CARO por alto que sea el QG (modo de fallo simétrico que penalizó a Fundsmith 2022-24).",
+        "OPCIÓN B — Vía alternativa Smith/Kantesaria para el top del ranking SIN crisis: para ultra-calidad tipo peaje (SPGI/MCO/MA-like), la valla no es descuento sobre PWFV sino doble condición: FCF yield ≥ rendimiento del bono largo local Y (FCF yield + crecimiento orgánico FCF) ≥ 11-12%. Equivale a aceptar 20-25x earnings como MoS cuando el EPS compone mid-teens con casi-certeza (pricing 3-4% + volumen + recompras). Falsación: si requiere asumir g>10% a perpetuidad o FCF yield <2.5%, es burbuja de calidad.",
+        "OPCIÓN C — Modulador por peso del crecimiento en el precio (EPV de Greenwald): calcular 1 − EPV/precio; si >60% del precio depende de crecimiento futuro, subir un escalón la exigencia (JUSTO→OPORTUNIDAD, OPORTUNIDAD→GANGA) aunque el QG sea máximo; si <35%, el suelo EPV ya protege y se tolera el escalón base. Umbral exacto (50/60/70%) a calibrar — las convicciones actuales SPGI/MSFT/VEEV probablemente superan 50%.",
+        "OPCIÓN D — Sobrecargo por tipo de tesis (base rate Mauboussin): si la tesis REQUIERE turnaround (reversión de márgenes/ROIC deprimidos, no mera reversión de ciclo), la probabilidad a priori de éxito es ~30% → MoS mínimo 40% independiente del tier QG, peso ≥50% al escenario pesimista, y exigir catalizador humano ya ejecutando + estructura anti-ruina (condiciones GEICO).",
+        "OPCIÓN E — Descuento del semáforo/scorecard: el resultado del detector modula el escalón — scorecard 4-5 (temporal claro) = MoS del tier base; scorecard 3 (gris) = MoS 40%; scorecard 0-2 o semáforo ROJO = infinito (veto). Convierte el MoS en función de DOS variables: calidad (nivel) y naturaleza del problema (derivada).",
+        "OPCIÓN F — Precondición de asimetría (Pabrai) transversal a todas las opciones: además del descuento, ratio upside/downside ≥3:1 medido con los 3 escenarios probabilísticos existentes (o pérdida máxima pesimista ≤15-20%). Un descuento del 30% sobre PWFV con downside del 40% en el pesimista NO pasa.",
+        "OPCIÓN G — Segunda dimensión: el MoS también dicta TAMAÑO, no solo entrada. Compra estándar (pasa tier base) = tramos 3-5%; 'apuesta de la década' (coinciden pánico general/VIX>40 + nombre top-3 QG + zona GANGA + scorecard 4-5) = categoría excepcional 10-15% — la señal histórica de la segunda es la COINCIDENCIA de calidad máxima + miedo nombrable + verificación empírica (AmEx 40%, KO 21%, Apple ~50% de la cartera cotizada).",
+        "OPCIÓN H — Ajuste del ancla en deratings por tipos: la zona GANGA se mide contra el PWFV recalculado con WACC ACTUALIZADO (tipos nuevos), no el pre-shock — parte del derating 2022 era corrección legítima del descuento, no regalo; exigir además EPS/FCF forward plano o subiendo y múltiplo en percentil ≤10 de su propia historia de 10 años."
+      ],
+      "design_questions": [
+        "[ANCLA DE VALOR] ¿Partimos el PWFV en dos salidas — PWFV-Valor (DCF owner earnings + EPV como suelo) y Banda de Pricing (PER justificado, EV/EBITDA, P/FCF) — con las zonas GANGA/OPORTUNIDAD/JUSTO calculadas SOLO contra el Valor, o mantienes la media ponderada única actual con pesos revisados?",
+        "[ANCLA DE VALOR] ¿Eliminamos el PEG del PWFV por completo (peso 0, recomendación Damodaran: sesga contra tus empresas de alta calidad) o le dejas peso simbólico ≤5% por continuidad con las valoraciones previas de ORCL y ADBE?",
+        "[ANCLA DE VALOR] ¿El DCF inverso asciende a PASO 1 obligatorio con veredicto propio (BAJAS/RAZONABLES/HEROICAS contra base rates) y poder de VETO sobre una compra aunque el PWFV diga GANGA, o queda como cross-check informativo?",
+        "[ANCLA DE VALOR] SBC: ¿restamos el 100% siempre (Damodaran puro) o permites ajuste para empresas que demuestran SBC/ventas descendente 3 años seguidos, evitando castigar dos veces si además usas diluted shares?",
+        "[ANCLA DE VALOR] Cíclicas: ¿el earnings mid-cycle sustituye el input en los métodos existentes o entra como sexto método con ponderación propia? ¿Y qué nombres de tu watchlist clasificas formalmente como cíclicos (TSM, por ejemplo)?",
+        "[ANCLA DE VALOR] EPV: ¿qué umbral de 'peso del crecimiento en el precio' (1 − EPV/precio) gatilla exigir zona GANGA — 50%, 60% o 70%? Ten en cuenta que SPGI/MSFT/VEEV probablemente superan el 50% hoy.",
+        "[MoS] ¿Confirmas los umbrales exactos del MoS escalonado por QG (propuesta: ≥85 → dcto ≥10% en tramos; 70-84 → ≥15-20%; <70 → ≥30% o pasar)? ¿Y la prohibición ABSOLUTA de comprar en zona CARO sin excepción por calidad?",
+        "[MoS] ¿Adoptas la vía alternativa Smith/Kantesaria (FCF yield ≥ bono largo Y FCF yield + crecimiento FCF ≥ 11-12%) como puerta de entrada válida para el top-5 del ranking QG SIN esperar crisis, o toda compra exige descuento sobre PWFV-Valor?",
+        "[MoS] Turnarounds: ¿regla dura de MoS ≥40% + peso ≥50% al escenario pesimista siempre que la tesis requiera reversión de márgenes/ROIC (base rate de éxito ~30%, Mauboussin), sin excepción por tier QG?",
+        "[MoS] Test de asimetría Pabrai: ¿lo formalizamos como ratio mínimo upside/downside 3:1 usando tus 3 escenarios existentes, o como pérdida máxima tolerable en el pesimista (−15% o −20%)? ¿Es precondición de TODA compra o solo de las zonas agresivas?",
+        "[TRAMPAS] ¿El detector de trampas emite salida ternaria (PASA / GRIS con MoS 40% / TRAMPA knock-out) sobre el scorecard de 5 preguntas — y confirmas los cortes en 4-5 / 3 / 0-2 — o prefieres knock-out binario simple?",
+        "[TRAMPAS] ¿El detector corre también sobre las POSICIONES EXISTENTES (revisión trimestral de todo el portafolio IBKR con drawdown >25%, integrado al cuadro de mando semáforo) o solo sobre candidatas nuevas en zona de compra?",
+        "[TRAMPAS] Dado que el universo QG saturará el F-Score en 7-9 (mismo problema que el 13.5 de Seilern), ¿usamos la TENDENCIA (caída ≥2 puntos en 2 años) como señal principal y el nivel solo como knock-out extremo ≤4?",
+        "[TRAMPAS] ¿El umbral de margen bruto (−300bps/8 trimestres) se ajusta por sector, con excepción explícita y documentada para transiciones de modelo de negocio declaradas (el caso Adobe cloud que ya analizaste)?",
+        "[TRAMPAS] ¿La señal de insiders (cluster buying / silencio de 12 meses) entra al scorecard como sexta pregunta, actúa solo como desempate en casos GRIS, o se descarta por costo de seguimiento?",
+        "[SEÑALES DE COMPRA] ¿Fijas la divergencia precio/revisiones en 3:1 (conservador: deja pasar Metas tempranas) o 2:1 (más ventanas, más falsos positivos)? Los ganadores históricos estaban entre 3:1 y 10:1.",
+        "[SEÑALES DE COMPRA] ¿VIX>40 (certero pero ~1 vez por década) o VIX>30 (más ventanas, menos fiable) como gatillo del tramo AGRESIVO en pánicos generales? ¿O escalera: >30 tramo pequeño, >40 tramo grande?",
+        "[SEÑALES DE COMPRA] Problemas AUTOINFLIGIDOS por la gestión (Meta capex 2022): ¿exiges señal explícita de rectificación antes de comprar (esperar el 'year of efficiency' costó comprar a $120-150 en vez de $90) o compras durante la incertidumbre a cambio de mejor precio con tramo reducido?",
+        "[SEÑALES DE COMPRA] ¿Creas la categoría excepcional de tamaño (hasta 10-15% del portafolio, vs tu política de tramos 3-5%) para cuando coinciden pánico general + nombre top-3 QG + zona GANGA + scorecard 4-5 — la 'apuesta de la década' que todos los superinversores dimensionaron distinto?",
+        "[SEÑALES DE COMPRA] ¿Los spin-offs entran solo como FUENTE de candidatos al pipeline QG (recomendado: el edge mecánico se erosionó post-2013) o como estrategia autónoma con reglas propias de ventana 1-6 meses + insider buying?",
+        "[INTEGRACIÓN QG] ¿El semáforo de revisiones actúa como knock-out PREVIO al cálculo de zonas (ROJO anula la GANGA, igual que los knock-outs QG anulan el score) — manteniendo la separación calidad/valoración — o como input ponderado dentro del detector?",
+        "[INTEGRACIÓN QG] ¿Formalizamos las reglas de venta DUALES: ultra-calidad (QG ≥ umbral) se vende SOLO por deterioro de moat/tesis y nunca por múltiplo (los errores caros del lote: Ferrari, NVDA, CMG), mientras lo mediocre-barato se vende mecánicamente por precio? ¿Dónde está la frontera de QG entre ambos regímenes — 85, 80, 70?",
+        "[INTEGRACIÓN QG] ¿Mantenemos PWFV vivo y pre-calculado sobre las 15-20 mejores del ranking QG con órdenes limitadas estilo Templeton pre-comprometidas en zona GANGA (para ejecutar mecánicamente cuando tú mismo estés asustado), y con qué frecuencia se refresca — trimestral con resultados, o al cruzar alertas de -25%?",
+        "[OUTPUT] ¿Toda compra exige el ritual escrito completo: frase 'el mercado teme X; X está mal dimensionado porque [dato]' + clasificación en 1 de las 5 condiciones + test de acotamiento en $ + patrón de la biblioteca invocado — y se archiva en el mismo formato Ultra Tesis?",
+        "[OUTPUT] ¿Registramos también los PASES (oportunidades evaluadas y rechazadas) con su condición y métricas, para auditar el detector cada 12 meses contra resultados reales — y quién dispara esa auditoría, un scheduled task anual?"
+      ]
+    },
+    "raw": {
+      "buffett": {
+        "investor_group": "Buffett & Munger (Berkshire Hathaway / Buffett Partnership)",
+        "bets": [
+          {
+            "investor": "Warren Buffett (Buffett Partnership)",
+            "company": "American Express",
+            "year": "1964",
+            "context": "Escándalo del aceite de ensalada (Allied Crude, nov-1963): una filial de warehousing de AmEx certificó inventarios inexistentes de aceite de soja como colateral; pasivo potencial ~$60-150M. HECHO: la acción cayó de $61.81 a $40 entre el 20-nov y 2-dic-1963 y tocó fondo en $35.31 el 2-jun-1964, -43% en 8 meses (becomingberkshire.substack.com). El mercado temía la quiebra de toda la compañía por un pasivo de una subsidiaria periférica.",
+            "price_paid": "HECHO: compró entre $35-38/share (algunas fuentes hasta $41) durante 1964; con EPS 1963 de $2.52, pagó ~14-15x earnings — en línea con el S&P de la época, NO un múltiplo de derribo (einvestingforbeginners.com, firstprinciplesinvesting.substack.com). HECHO: invirtió ~$13M, hasta el 40% del capital del Partnership, para ~5% de la compañía (Fortune, 22-sep-2024).",
+            "what_they_saw": "El escándalo tocaba el BALANCE (pasivo puntual, pagable) pero no el EARNINGS POWER: los cheques de viajero y las tarjetas seguían generando float y comisiones. HECHO: hizo scuttlebutt empírico — verificó en restaurantes y bancos de Omaha que nadie había dejado de aceptar la tarjeta (Fortune). INFERENCIA: fue su primera compra donde el activo intangible (confianza de marca) valía más que el book value; AmEx tenía book value negativo ajustado al pasivo y aun así valía comprarla.",
+            "quality_at_entry": "Sí, calidad QG alta: franquicia de pagos con efecto red incipiente, float gratuito, cuota dominante en travelers cheques (~60%+). INFERENCIA: pasaría los knock-outs de Seilern salvo quizá historial contable (el escándalo era de una filial, no del core).",
+            "holding_and_result": "HECHO: +124% en 2.5 años (a $92.50) mientras el Dow caía 6% (becomingberkshire.substack.com); vendió hacia 1967-68 con ~2-3x. Berkshire recompró en 1991-94 y aún la mantiene (posición >$45B en 2026).",
+            "pattern": "PATRÓN FALSIFICABLE: escándalo/pasivo puntual y cuantificable que golpea la reputación pero NO la propuesta de valor al cliente final → comprar si (a) el pasivo máximo es absorbible por 1-2 años de beneficios y (b) un test empírico independiente (scuttlebutt) confirma que el comportamiento del cliente NO cambió. Se falsifica si los clientes desertan o el pasivo excede el earnings power acumulable."
+          },
+          {
+            "investor": "Buffett + Munger (Blue Chip Stamps)",
+            "company": "See's Candies",
+            "year": "1972",
+            "context": "No hubo pánico de mercado: la familia See quería vender. La 'barata' era relativa al estándar de Buffett de la época: era caro versus su filosofía cigar-butt de Graham (3x book value lo hacía dudar). HECHO: Buffett casi mata el deal por negarse a pagar más de $25M; Munger lo empujó a cerrar (fool.com, collabfund.com).",
+            "price_paid": "HECHO: $25M por 100% de la empresa, con ventas ~$30M y beneficio pretax ~$4.2M (1972) → ~6x pretax earnings, ~11-12x after-tax, y 3x book value (~$8M de activos tangibles netos) (sbo.financial, fool.com 13-jul-2014).",
+            "what_they_saw": "Pricing power NO ejercido: See's podía subir precios cada año por encima de la inflación sin perder volumen (lealtad emocional, regalo ritual en California) — y el negocio requería casi cero capital incremental para crecer beneficios. INFERENCIA de Munger: el ROIC sobre capital tangible (~50%+ pretax) importaba más que el descuento a book. Es la apuesta que convirtió a Buffett de Graham a Fisher/Munger.",
+            "quality_at_entry": "Sí, la más pura calidad QG del grupo: marca dominante regional, ROIC altísimo, cero deuda, crecimiento autofinanciado. HECHO: Buffett la llama 'the prototype of a dream business' (snackandbakery.com).",
+            "holding_and_result": "Tenencia permanente (54 años, aún en cartera). HECHO: generó >$2 mil millones acumulados en beneficios pretax sobre $25M invertidos, con solo ~$40M de capex adicional; hoy gana ~$100M/año (fool.com, thehustle.co).",
+            "pattern": "PATRÓN FALSIFICABLE: negocio con pricing power latente no ejercido + necesidad de capital ~cero → el múltiplo óptico (P/E 12x, 3x book) subestima el valor porque el 100% del beneficio es distribuible Y crece. Test: ¿puede subir precios 5%+ anual sin perder unidades? Si el volumen cae al subir precios, el patrón se falsifica. Regla derivada: pagar hasta ~12x por calidad extrema supera comprar mediocridad a 5x."
+          },
+          {
+            "investor": "Warren Buffett (Berkshire)",
+            "company": "Washington Post Company",
+            "year": "1973",
+            "context": "Bear market 1973-74 (el peor desde la Depresión, S&P -48%), crisis del petróleo, Watergate: la administración Nixon amenazaba las licencias de TV del Post. Pánico macro generalizado, no específico de la empresa. HECHO: tras la compra de Buffett la acción siguió cayendo ~25% adicional y tardó ~3 años en volver a su costo (futureblind.com).",
+            "price_paid": "HECHO: $10.6M por ~10% (acciones clase B) con market cap ~$80M, cuando 'la mayoría de analistas y brokers de medios habrían estimado el valor intrínseco en $400-500M' — palabras del propio Buffett, carta 1985 → pagó ~20-25 centavos por dólar de valor, descuento del 75-80% (acquirersmultiple.com, valuebob.medium.com). INFERENCIA: P/E trailing ~10-11x, pero la métrica relevante era precio vs valor de transacción privada de activos de medios.",
+            "what_they_saw": "Periódico monopolio local + Newsweek + estaciones de TV: activos con valor de mercado privado VERIFICABLE (transacciones comparables de periódicos/TV) muy por encima del precio bursátil. El MoS no era una estimación DCF discutible sino un arbitraje contra precios de mercado privado. INFERENCIA: además vio a Katharine Graham como operadora alineada (familia controladora) dispuesta a recomprar acciones baratas.",
+            "quality_at_entry": "Sí: monopolio de facto en su mercado (economía del periódico dominante: el #1 se queda con todo), márgenes crecientes, poder de precios sobre anunciantes. Calidad QG alta para su época, aunque hoy el moat resultó erosionable (internet, 30 años después).",
+            "holding_and_result": "HECHO: $10.6M → $221M en 1985 (~20x en 12 años); mantenida ~40 años hasta la venta de WaPo a Bezos/conversión en Graham Holdings (2013-14), >100x total (acquirersmultiple.com).",
+            "pattern": "PATRÓN FALSIFICABLE: pánico MACRO (no específico del negocio) que pone un activo-franquicia dominante a <30% de su valor de transacción privada → comprar cuando el valor es verificable por comparables de M&A reales, no por DCF propio. Se falsifica si no existen transacciones privadas comparables o si el descuento es <50%. Corolario emocional: acepta que después de comprar caiga otro 25% y no pase nada durante 3 años."
+          },
+          {
+            "investor": "Warren Buffett (Berkshire)",
+            "company": "GEICO",
+            "year": "1976",
+            "context": "Quiebra inminente: GEICO había crecido suscribiendo mal y reservando peor; pérdidas de $126M en 1975, reguladores de DC evaluando insolvencia. HECHO: la acción cayó de $61 (1972) a ~$2 (1976) (thegoodinvestors.sg, theweekendinvestor.substack.com). El mercado descontaba el cero.",
+            "price_paid": "HECHO: $4.1M en acciones comunes a precio medio ~$2.55-3.18/share (las fuentes difieren: $2.55 según thegoodinvestors.sg; $3.18 según el relato clásico de Lowenstein) + $19.4M en preferentes convertibles de la emisión de $75M liderada por Salomon; costo medio all-in de Berkshire ~$1.30/share tras conversiones (thegoodinvestors.sg). INFERENCIA: P/E no computable (pérdidas); pagó ~0.1-0.2x el book pre-crisis — precio de opción sobre supervivencia.",
+            "what_they_saw": "La ventaja competitiva ESTRUCTURAL estaba intacta: venta directa sin agentes = costo de distribución permanentemente menor que todo el sector. El problema (mala suscripción y reservas) era operativo y reversible con nuevo management (Jack Byrne, contratado 1976) y capital fresco. Distinción clave: crisis de EJECUCIÓN ≠ crisis de MOAT. HECHO: Buffett conocía la empresa desde 1951, 25 años de familiaridad previa.",
+            "quality_at_entry": "El NEGOCIO subyacente era QG (ventaja de costo duradera, float); la EMPRESA en ese momento habría fallado todo knock-out (pérdidas, balance roto, riesgo de supervivencia). Caso único del grupo: calidad del moat con quiebra del vehículo.",
+            "holding_and_result": "HECHO: total invertido $45.7M por ~33% (que llegó a 50% vía buybacks de GEICO sin comprar más); en 1995 pagó $2.3B por el 50% restante. La mitad original costó $45.7M y valía >$1.15B en 1995 (~25x en 19 años); GEICO es hoy uno de los pilares de Berkshire (fool.com 29-dic-2019).",
+            "pattern": "PATRÓN FALSIFICABLE: empresa con ventaja de COSTO estructural al borde de la insolvencia por errores operativos reversibles → comprar solo si (a) la ventaja de costo vs competidores sigue medible en los números unitarios, (b) hay catalizador concreto de rescate (management nuevo + recapitalización asegurada) y (c) conoces el negocio hace años. Se falsifica si la ventaja de costo se erosionó o si la supervivencia depende de terceros no comprometidos. ADVERTENCIA: sin (b) y (c) esto es la definición de trampa de valor."
+          },
+          {
+            "investor": "Warren Buffett (Berkshire)",
+            "company": "Coca-Cola",
+            "year": "1988-1989",
+            "context": "Post-crash de octubre 1987 (Dow -22% en un día). El 'miedo' aquí era doble: resaca del crash + consenso de que KO estaba CARA porque había más que triplicado en la década y cotizaba en máximos históricos; el fiasco de New Coke (1985) era memoria reciente. HECHO: 'muchos analistas eran escépticos porque la acción llevaba años subiendo' (pictureperfectportfolios.com, cnbc.com 2007).",
+            "price_paid": "HECHO: $1.02B por ~7% de la compañía (1988-89), a P/E ~15x trailing (rango citado 15-19x según tramo, con tipos largos al 9%) — el 21% del net worth de Berkshire (artica.capital, begintoinvest.com, gurufocus.com). INFERENCIA: ~5x book value y earnings yield ~6.6% vs bono al 9% — óptimamente 'cara' bajo cualquier screen de value de la época.",
+            "what_they_saw": "DURACIÓN del crecimiento: consumo per cápita internacional era una fracción del de EEUU con décadas de pista; ROIC sobre capital tangible altísimo (el concentrado casi no requiere capital); Goizueta reasignando capital (vendiendo negocios malos, recomprando acciones). El mercado usaba P/E estático; Buffett descontaba 20+ años de crecimiento defendible — un DCF donde el valor terminal estaba regalado. INFERENCIA: es la apuesta que define 'precio justo por negocio maravilloso'.",
+            "quality_at_entry": "La máxima calidad QG de la historia de Berkshire: marca #1 mundial, distribución global irreplicable, crecimiento predecible, márgenes ~netos 15%+, sin riesgo tecnológico. Puntuaría cerca del techo en las 11 reglas.",
+            "holding_and_result": "Tenencia permanente (38 años, nunca vendió una acción). HECHO: costo final $1.3B (1988-94); la posición vale ~$25B+ y paga ~$800M/año de dividendos — >60% del costo TOTAL devuelto en cash CADA año (fool.com 19-nov-2019, actualizado).",
+            "pattern": "PATRÓN FALSIFICABLE: cuando la ventaja es la DURACIÓN (moat que protege 20+ años de reinversión), el P/E trailing de 15x puede ser una ganga profunda aunque ningún screen lo detecte → comprar si el DCF inverso muestra que el precio solo descuenta ~10 años de crecimiento y la evidencia (penetración internacional, per cápita) soporta 20+. Se falsifica si el crecimiento requiere capital incremental significativo o si el runway es verificablemente <10 años. Es el patrón ANTI-múltiplo-óptico."
+          },
+          {
+            "investor": "Warren Buffett (Berkshire)",
+            "company": "Wells Fargo",
+            "year": "1990",
+            "context": "Pánico bancario: colapso inmobiliario de California + crisis S&L; el mercado descontaba que WFC, mayor prestamista inmobiliario comercial de la costa oeste, sufriría pérdidas letales. HECHO: 'mercado caótico en acciones bancarias... el miedo era que los valores inmobiliarios del oeste cayeran por sobreconstrucción y causaran pérdidas enormes a los bancos financiadores; WFC se consideraba especialmente vulnerable' (carta de Buffett 1990, berkshirehathaway.com/letters/1990.html). La acción había caído ~30%+ en meses.",
+            "price_paid": "HECHO: $290M por el 10% del banco, a MENOS de 5x beneficios after-tax y menos de 3x beneficios pretax (carta 1990, berkshirehathaway.com). INFERENCIA: ~1.0-1.2x book value, cuando bancos de calidad cotizaban normalmente a 1.5-2x.",
+            "what_they_saw": "Aritmética del peor escenario, hecha pública en la carta 1990: WFC ganaba >$1B pretax anuales ANTES de provisiones; incluso si el 10% de TODOS sus préstamos ($48B) entraran en problemas y perdiera el 30% del principal de esos, la empresa aproximadamente empataría un año — no quebraría. Un año de beneficio cero no destruye una franquicia. Además: el mejor management bancario del país (Carl Reichardt), ROA y eficiencia superiores al sector. El miedo era direccional pero no estaba DIMENSIONADO; Buffett lo dimensionó.",
+            "quality_at_entry": "Calidad QG alta PARA SER BANCO (Seilern excluiría bancos por apalancamiento inherente): mejor ratio de eficiencia del sector, cultura de costos, ROE ~20%. INFERENCIA: en tu sistema fallaría el knock-out de balance por naturaleza bancaria — este patrón exige un módulo aparte.",
+            "holding_and_result": "Mantenida ~30 años; multiplicó >10x más dividendos hasta los años 2010; Berkshire salió completamente en 2020-22 tras el escándalo de cuentas falsas — la calidad SÍ se deterioró al final, 26 años después (fool.com).",
+            "pattern": "PATRÓN FALSIFICABLE: pánico SECTORIAL (no idiosincrático) → comprar el operador #1 en costos/gestión del sector a <5x earnings, PERO solo tras dimensionar numéricamente el peor escenario: estresa las pérdidas máximas plausibles y verifica que el resultado es 'un mal año', no insolvencia. Se falsifica si el peor escenario estresado consume el capital (no solo el beneficio) o si compras el operador promedio en vez del mejor. Regla: en pánicos sectoriales el mercado castiga a todos por igual; la dispersión de calidad intra-sector es el edge."
+          },
+          {
+            "investor": "Warren Buffett (Berkshire)",
+            "company": "BNSF (Burlington Northern Santa Fe)",
+            "year": "2009",
+            "context": "Salida de la Gran Recesión: volúmenes ferroviarios -20% interanual, mercado aún traumatizado post-Lehman, nadie quería activos cíclicos apalancados a la economía física. Anuncio: 3-nov-2009, cuando el consenso dudaba de la recuperación.",
+            "price_paid": "HECHO: $100/share en cash y acciones por el 77.4% que no poseía; transacción total ~$44B incluyendo $10B de deuda — la mayor adquisición de la historia de Berkshire; prima ~31.5% sobre el cierre previo (progressiverailroading.com, sec.gov 8-K). HECHO/INFERENCIA: ~18x los earnings deprimidos de 2009 (~$5.5/sh) y ~14x los normalizados de 2008 ($6.08/sh) — Buffett mismo admitió que no fue barato; rationalwalk.com lo analiza como 'precio pleno por activo excepcional'.",
+            "what_they_saw": "Earnings CÍCLICAMENTE deprimidos sobre un activo irreplicable: derecho de vía imposible de duplicar, ventaja de combustible 3-4x vs camión, oligopolio de facto (duopolio en el oeste con Union Pacific), pricing power real tras décadas de deflación ferroviaria, y capacidad de REINVERTIR miles de millones a retornos regulados aceptables — justo lo que Berkshire necesitaba para su caja. HECHO: Buffett lo llamó 'an all-in wager on the economic future of the United States' (press release, ble-t.org).",
+            "quality_at_entry": "Calidad QG media-alta pero atípica: moat máximo (irreplicabilidad física) con intensidad de capital altísima — fallaría la regla Seilern de bajo capital/alto ROIC. Muestra que el Buffett tardío acepta ROIC moderado si el moat es absoluto y el tamaño permite colocar mucho capital.",
+            "holding_and_result": "Tenencia permanente (17 años). HECHO: BNSF ha distribuido >$45B en dividendos a Berkshire desde 2010 — los dividendos acumulados ya superaron el precio pagado por el equity (rationalwalk.com). El negocio vale hoy múltiplos del precio de compra (comparable UNP).",
+            "pattern": "PATRÓN FALSIFICABLE: infraestructura monopolística con earnings en el punto bajo del ciclo → pagar precio JUSTO (15-18x deprimido = ~12-14x normalizado) es suficiente MoS si el activo es físicamente irreplicable y el volumen se recupera con el PIB. La normalización de earnings ES el margen de seguridad. Se falsifica si la caída de volumen es secular y no cíclica (test: ¿el declive tiene causa estructural identificable, tipo carbón, o solo macro?)."
+          },
+          {
+            "investor": "Buffett + Combs/Weschler (Berkshire)",
+            "company": "Apple",
+            "year": "2016-2018",
+            "context": "'Peak iPhone': primer año de la historia con caída de ventas de iPhone (2016); consenso de que Apple era un fabricante de hardware comoditizable, dependiente de un producto, ex-growth tras la muerte de Jobs. La acción llevaba ~18 meses lateral/bajista, -30% desde máximos de 2015.",
+            "price_paid": "HECHO: primera compra Q1-2016 a P/E trailing ~10.6x, y ~8.8x EX-CAJA (Apple tenía >$150B de caja neta) (valueinvesting.substack.com, bankrate.com). Compras hasta 2018; costo total ~$36B por ~5% inicial (INFERENCIA sobre 13-F acumulados).",
+            "what_they_saw": "Error de CATEGORÍA del mercado: Apple no era una cíclica de hardware sino un consumer staple con ecosistema — retención de clientes ~95%, costes de cambio crecientes (fotos, apps, iMessage), poder de precio demostrado, y Services creciendo en margen. Además: recompras masivas que convertían el estancamiento de ingresos en crecimiento de EPS ~10%+, financiadas por la montaña de caja. Buffett aplicó su framework de marcas de consumo (See's, KO) a una 'tecnológica'. HECHO: Buffett lo explicó como comportamiento del consumidor, no tecnología (blog.carnegieinvest.com).",
+            "quality_at_entry": "Calidad QG máxima ya evidente en 2016: ROIC >100% ex-caja, marca #1 global, caja neta gigante, crecimiento de EPS de doble dígito. El mercado le asignaba múltiplo de empresa en declive a la mejor empresa del mundo — la disociación calidad/precio más grande de la era moderna.",
+            "holding_and_result": "HECHO: ~$36B de costo → posición valorada >$170B en el pico (2023); mayor posición de la historia de Berkshire (~50% de la cartera cotizada); venta de ~2/3 en 2024 a P/E ~30x. Retorno ~6-7x en 8 años más dividendos (bankrate.com).",
+            "pattern": "PATRÓN FALSIFICABLE: error de clasificación sectorial — el mercado valora la empresa con el múltiplo de su CATEGORÍA aparente (hardware cíclico, 10x) cuando sus métricas de cliente son de otra categoría (staple con moat, 20-25x) → comprar si retención, recurrencia y pricing power son medibles y contradicen la categoría. Test falsificador: ¿la retención de clientes y el margen resisten un ciclo de producto débil? (2016 lo demostró: cayeron ventas, no clientes). Bono: recompras a múltiplo bajo convierten el MoS en crecimiento de EPS automático."
+          },
+          {
+            "investor": "Warren Buffett (Berkshire)",
+            "company": "5 casas comerciales japonesas (Itochu, Mitsubishi, Mitsui, Marubeni, Sumitomo)",
+            "year": "2019-2020 (anunciado 30-ago-2020)",
+            "context": "COVID + 30 años de narrativa 'Japón es una trampa de valor': conglomerados de commodities opacos, gobernanza mediocre, mercado olvidado por el capital global. HECHO: Berkshire compró ~5% de cada una en silencio durante 12 meses vía Tokio, anunciándolo el día de su cumpleaños 90 (cnbc.com 30-ago-2020, japantimes.co.jp). Costo inicial ~$6B.",
+            "price_paid": "HECHO: al momento del anuncio cotizaban a P/E ~6-9x y varias POR DEBAJO de book value (Mitsubishi ~0.7x, Sumitomo ~0.65x en el punto de compra COVID; promedio del grupo ~0.8-1.0x book), con yields de dividendo 4-5% (valuepunks.substack.com, forbes.com 2023). HECHO estructural: financiado con bonos en YENES a ~0.6-1.2% de cupón medio, importe ≈ al costo de la inversión → riesgo divisa neutralizado y carry positivo enorme (rationalwalk, euromoney.com).",
+            "what_they_saw": "Aritmética de carry: earnings yield ~12-14% + dividendo 5% creciente, financiado al 0.5-1% en la misma moneda — el spread es ganancia casi estructural aunque las acciones no re-ratearan jamás. Más: mini-Berkshires diversificados con management mejorando payout y buybacks (reforma de gobernanza japonesa en marcha, catalizador real), y compromiso de no pasar del 10% sin permiso. El 'riesgo Japón' que asustaba a todos (divisa, deflación) lo eliminó con la ESTRUCTURA, no con la esperanza.",
+            "quality_at_entry": "Calidad QG media/baja según Seilern (commodities, cíclicas, conglomerados, ROE ~8-12%): esta apuesta NO es quality-growth — es deep value con catalizador estructural y financiación regalada. Importante no confundir los dos patrones en tu sistema.",
+            "holding_and_result": "HECHO: costo ampliado ~$13.8B (posiciones subidas a ~9.8% cada una); valor >$30B en oct-2025; ganancia ~$24B en 6 años (~2.5x más dividendos) (cnbc.com 11-oct-2025, Fortune 10-feb-2026). Buffett declaró tenencia 'de décadas'.",
+            "pattern": "PATRÓN FALSIFICABLE: arbitraje entre coste de financiación local y earnings yield del activo (spread >10 puntos) en mercados odiados por NARRATIVA geográfica, no por fundamentales de las empresas → comprar si (a) el spread es contractual (deuda a tipo fijo en la divisa del activo), (b) hay catalizador de gobernanza medible (payout/buybacks subiendo año a año) y (c) el descuento es a book tangible de activos reales. Se falsifica si la financiación barata no está disponible o si el payout no sube. Nota: el MoS aquí está en la ESTRUCTURA de la operación, no solo en el precio."
+          }
+        ],
+        "common_threads": [
+          "1. EL MIEDO SIEMPRE TIENE NOMBRE Y APELLIDO: en las 9 apuestas el pánico era específico y articulable (escándalo AmEx, quiebra GEICO, inmobiliario California, peak iPhone, 'Japón trampa de valor') — nunca compraron 'porque está barato' sin poder enunciar exactamente QUÉ teme el mercado y POR QUÉ ese miedo está mal dimensionado o mal dirigido. Implicación para tu sistema: un checklist de valoración debería exigir escribir la frase 'el mercado teme X; X es incorrecto/exagerado porque [dato verificable]'.",
+          "2. EL MIEDO GOLPEA AL PRECIO, NO AL EARNINGS POWER NORMALIZADO: el patrón común es la disociación entre un problema temporal/periférico (pasivo puntual, ciclo, mala ejecución reversible, categoría equivocada) y la franquicia central intacta. El test transversal: ¿el cliente final cambió su comportamiento? (AmEx: no; Apple: no; KO: no). Cuando el cliente deserta, es trampa de valor; cuando solo deserta el accionista, es oportunidad.",
+          "3. EL MÚLTIPLO ÓPTICO NO ES EL PATRÓN — va de <5x after-tax (WFC 1990) a ~15-18x (KO 1988, BNSF 2009): lo constante NO es un umbral de P/E sino la relación múltiplo pagado vs (calidad + duración del moat). HECHO: Buffett nunca pagó >20x trailing en ninguna de las 9. INFERENCIA de regla: techo práctico ~15x para calidad extrema con runway 20+ años; ~10x para calidad buena con miedo sectorial; <5x solo aparece con apalancamiento (bancos) o quiebra técnica.",
+          "4. VERIFICACIÓN EMPÍRICA INDEPENDIENTE ANTES DE COMPRAR: scuttlebutt en restaurantes (AmEx), estrés numérico del peor escenario publicado en la carta (WFC: 10% de mora con 30% de pérdida = un año sin ganar, no quiebra), datos de retención de clientes (Apple ~95%), 25 años de familiaridad previa (GEICO). El MoS nunca dependió solo del modelo: siempre hubo un dato del mundo real que contradecía el pánico.",
+          "5. CONCENTRACIÓN EXTREMA CUANDO TODO ALINEA: 40% del Partnership en AmEx, 21% del net worth en KO, la mayor adquisición de la historia en BNSF, ~50% de la cartera cotizada en Apple. El corolario: estas oportunidades aparecen pocas veces por década; el sistema debe distinguir 'buena compra' (posición 3-5%) de 'apuesta de la década' (posición 10-40%) — y la señal de la segunda es la coincidencia de calidad QG máxima + miedo nombrable + verificación empírica.",
+          "6. EL RETORNO VINO DEL HOLDING LARGO, NO DEL CIERRE RÁPIDO DEL GAP: WaPo tardó 3 años en superar el costo y cayó 25% tras la compra; KO/See's/GEICO/BNSF son tenencias de 20-50 años donde el compounding del negocio aportó mucho más que el re-rating. Implicación: el MoS inicial protege; la calidad compone. Nunca vender por 'llegó a valor justo' si la calidad sigue (error admitido de Buffett: vender Disney y McDonald's).",
+          "7. ESTRUCTURA FINANCIERA QUE ELIMINA EL RIESGO DE RUINA: empresas con float o caja neta (AmEx, GEICO, Apple $150B), financiación no-recourse en la divisa del activo (Japón, bonos yen al 0.6%), o cero deuda en el target (See's). El peor escenario nunca era la pérdida permanente de capital — la asimetría estaba construida, no esperada.",
+          "8. EVOLUCIÓN DOCUMENTADA GRAHAM→MUNGER: WaPo (1973) es descuento a valor de activos verificable; See's (1972) y KO (1988) son 'precio justo por negocio maravilloso'; Apple (2016) es la síntesis (calidad máxima A LA VEZ a 10x ex-caja). Japón (2020) es el outlier: deep value estructural, no QG. Para tu sistema: son DOS familias de patrón distintas y no deben puntuarse con la misma vara — exactamente tu regla de no mezclar eje calidad con eje valoración.",
+          "9. CATALIZADOR HUMANO IDENTIFICABLE EN CASI TODAS: Jack Byrne (GEICO), Reichardt/Hazen (WFC), Goizueta (KO), Katharine Graham (WaPo), reforma de gobernanza japonesa (sogo shosha). El management no era un 'plus' sino parte del caso de reversión: el sistema debería preguntar '¿quién ejecuta la corrección y qué evidencia hay de que ya empezó?'."
+        ]
+      },
+      "modern": {
+        "investor_group": "Superinversores quality modernos (Sleep, Li Lu, Akre, Kantesaria, Smith, Pabrai, Ackman, Druckenmiller) — 11 apuestas verificadas, 2002-2023",
+        "bets": [
+          {
+            "investor": "Nick Sleep / Qais Zakaria (Nomad Partnership)",
+            "company": "Costco (COST)",
+            "year": "2002",
+            "context": "La acción cayó de $55 a $30 tras decepción de márgenes: Wall Street acusaba a la dirección de ser 'demasiado generosa con el cliente' (márgenes operativos ~2.7% vistos como defecto, no como estrategia). HECHO: caída $55→$30 y tesis 'scale economies shared' documentada en las cartas Nomad (igyfoundation.org.uk, Quartr).",
+            "price_paid": "~$30/acción = ~20x PER sobre beneficios 2002 (EPS ~$1.48) — INFERENCIA aritmética. Sleep lo describió como '~50 céntimos por dólar' de valor intrínseco (HECHO, cartas Nomad citadas por Quartr). Nota: NO era ópticamente barato por múltiplo; era barato por valor terminal del modelo.",
+            "what_they_saw": "El mercado leía el margen bajo como debilidad; Sleep lo leyó como foso: Costco devolvía deliberadamente las economías de escala al cliente vía markup fijo (~14-15%), comprando lealtad perpetua y haciendo el moat MÁS ancho con cada dólar de crecimiento. La cuota de membresía era el beneficio real; la mercancía se vendía a coste.",
+            "quality_at_entry": "Sí, calidad QG alta: ROIC estable, ingresos recurrentes (membresías con renovación ~87%+), pricing power invertido (poder de NO subir precios), fundador-operador (Sinegal), balance sano. El único 'defecto' era margen bajo — que era la estrategia. HECHO: métricas en 10-K de Costco FY2002.",
+            "holding_and_result": "Mantenida ~12 años hasta el cierre de Nomad en 2014 ($30→~$115, ~4x); Sleep la mantuvo personalmente después (Costco superó $900 en 2025 = ~30x desde entrada). Nomad total: +921% neto 2001-2014 vs +117% MSCI World (HECHO).",
+            "pattern": "PATRÓN FALSIFICABLE: cuando el mercado castiga un margen bajo que es ELECCIÓN estratégica (reinvertir escala en precio) y no incapacidad, y la retención de clientes es medible y creciente, el múltiplo óptico sobreestima el precio real. Test: ¿el margen bajo coexiste con retención >85% y crecimiento de unidades? Si el margen bajo viene con retención cayendo, es deterioro, no estrategia."
+          },
+          {
+            "investor": "Nick Sleep / Qais Zakaria (Nomad Partnership)",
+            "company": "Amazon (AMZN)",
+            "year": "2005-2006",
+            "context": "Post-estallido puntocom, el mercado veía a Amazon como retailer de margen ínfimo que 'nunca ganaría dinero'; cada trimestre de inversión en logística/Prime se castigaba como destrucción de valor. HECHO: entrada ~2005-06 a ~$30/acción (~$12-13B market cap), documentado en cartas Nomad y Seeking Alpha.",
+            "price_paid": "~$30/acción ≈ 1.5x ventas 2005 ($8.5B) — INFERENCIA. PER GAAP alto e irrelevante (beneficios deliberadamente suprimidos por reinversión). HECHO: Sleep escribió que a $30 Amazon valía >$50 solo como 'cash cow' sin crecimiento (carta Nomad, citada en rabichatterjee.substack.com). Llegó a 17% del fondo en 2006 y ~30% en 2009; compró MÁS en el pánico de 2008 (HECHO).",
+            "what_they_saw": "La misma lógica que Costco trasplantada a internet: scale economies shared (precios bajos + envío gratis financiados por escala creciente). La variable malinterpretada: el GASTO era CAPEX de crecimiento disfrazado de OPEX — los owner earnings reales eran muy superiores al beneficio GAAP. Exactamente el ajuste de owner earnings que hace la metodología de Felipe.",
+            "quality_at_entry": "Parcial según QG estricto: moat y dirección excepcionales (Bezos, carta 1997), pero sin historial de márgenes ni ROIC visibles — habría fallado reglas de rentabilidad contable de Seilern. Caso límite: calidad ex-ante altísima en variables no contables. INFERENCIA etiquetada.",
+            "holding_and_result": "~9 años en Nomad ($30→~$350 al cierre 2014, >10x); Sleep mantuvo personalmente hasta >$3,000 (>100x). HECHO (entrevistas Sleep 2021).",
+            "pattern": "PATRÓN FALSIFICABLE: cuando el beneficio GAAP está suprimido por reinversión con ROIC incremental alto y medible (cohortes, unit economics), el PER es ruido y el P/owner-earnings normalizado es la señal. Test: separar OPEX de mantenimiento vs crecimiento; si al frenar la inversión el margen normalizado emerge >8-10%, el negocio está barato aunque el PER diga infinito. Falsación: si las cohortes antiguas no muestran rentabilidad madura, es pozo sin fondo, no inversión."
+          },
+          {
+            "investor": "Li Lu (Himalaya) → Charlie Munger / Berkshire",
+            "company": "BYD (1211.HK)",
+            "year": "2008 (Li Lu desde 2002)",
+            "context": "Septiembre 2008, pánico de la crisis financiera global; BYD era un fabricante chino de baterías/coches desconocido en Occidente, percibido como apuesta china de baja calidad en plena implosión de mercados. HECHO: Berkshire invirtió $230M por 10% a HK$8/acción, sept-2008 (CNBC, EVWorld). Li Lu había invertido desde 2002 tras la IPO y se lo llevó a Munger.",
+            "price_paid": "HK$8/acción = ~10x beneficios 2008 — HECHO el precio (CNBC); INFERENCIA el múltiplo (~RMB 1.0B beneficio 2008 sobre market cap implícito ~HK$16B). Un negocio creciendo >40% anual a PER de un dígito alto por ser chino + crisis.",
+            "what_they_saw": "La variable malinterpretada: Wang Chuanfu. Munger lo describió como 'una combinación de Edison y Jack Welch'. Li Lu vio capacidad de ingeniería + costes chinos + integración vertical de baterías justo antes de la electrificación. El mercado ponía descuento-país y descuento-crisis a un founder-led con ventaja tecnológica real.",
+            "quality_at_entry": "Dudoso bajo QG estricto: intensivo en capital, cíclico, márgenes modestos, gobernanza china — fallaría varios knock-outs de Seilern. Esta apuesta es del eje 'jockey excepcional + opcionalidad tecnológica', no ultra-calidad. Relevante como CONTRASTE para el sistema de Felipe. INFERENCIA etiquetada.",
+            "holding_and_result": "Berkshire mantuvo ~14 años; pico >HK$300 (2022) ≈ 35-38x; beneficio realizado >$7B sobre $230M (HECHO, EVWorld/Yahoo). Li Lu personal desde 2002: >100x.",
+            "pattern": "PATRÓN FALSIFICABLE: descuento-país + pánico macro sobre una empresa founder-led con ventaja de ingeniería verificable = doble descuento sobre la misma acción. Test: ¿el múltiplo incorpora dos miedos independientes (macro + geografía) mientras el crecimiento orgánico sigue >30%? Falsación: si el crecimiento depende de subsidios o crédito barato local, el descuento-país está justificado."
+          },
+          {
+            "investor": "Chuck Akre (Akre Capital)",
+            "company": "American Tower (AMT)",
+            "year": "2002",
+            "context": "Colapso telecom post-2000: AMT cayó de ~$50 (2000) a $0.71 en octubre 2002; el mercado la daba por quebrada por su deuda (~$3.6B) mientras sus clientes (carriers) implosionaban. HECHO: Akre acumuló 500k acciones a ~$5 promedio en junio 2002 y siguió comprando hasta ~$0.80 en el pánico (Investing Daily, 'My Evening With Chuck Akre').",
+            "price_paid": "Promedio ~$0.80-$5/acción — HECHO (Investing Daily). Múltiplo: equity casi gratis sobre un EV dominado por deuda; INFERENCIA: <2-3x tower cash flow a nivel equity en el suelo. Apuesta tipo 'equity stub' sobre negocio de calidad con balance temporalmente roto.",
+            "what_they_saw": "El modelo torre = el 'compounding machine' perfecto de Akre: contratos de 5-10 años con escaladores ~3%, coste marginal de añadir un segundo inquilino ≈ cero (margen incremental >90%), churn mínimo. El mercado miraba la deuda; Akre miraba que el CASH FLOW contractual sobrevivía aunque los carriers se consolidaran — las torres las necesitaban todos.",
+            "quality_at_entry": "Negocio subyacente sí (ingresos recurrentes contractuales, ROIC incremental altísimo, moat de ubicación); balance no (apalancamiento casi letal). Habría fallado el knock-out de solidez financiera de Seilern EN ESE MOMENTO. La calidad estaba en el activo, el riesgo en la estructura. HECHO: deuda y precios en 10-K 2002.",
+            "holding_and_result": "Mantenida >20 años; AMT superó $250-300 (2021-22) = >100x desde ~$2 promedio ponderado; posición núcleo histórica de Akre. HECHO (13F Akre, gurufocus).",
+            "pattern": "PATRÓN FALSIFICABLE: cuando un negocio de ingresos contractuales recurrentes cotiza a precio de quiebra por deuda, y el cash flow operativo cubre intereses con margen incluso en el escenario pesimista de clientes, el equity es una opción call infravalorada. Test: ¿sobrevive el flujo contractual a la quiebra de sus 2 mayores clientes? Falsación: si el covenant breach es cuestión de meses sin refinanciación visible, es trampa, no opción."
+          },
+          {
+            "investor": "Chuck Akre (Akre Capital)",
+            "company": "Mastercard (MA)",
+            "year": "2010",
+            "context": "Miedo regulatorio máximo: la enmienda Durbin (Dodd-Frank, jul-2010) amenazaba con recortar interchange de débito de $0.44 a $0.12; el mercado extrapolaba regulación a todo el modelo de las redes. HECHO: Akre inició MA en 2010 'in the low $20s' ajustado por split 10:1 (Marketfolly, presentación de Akre en Value Investing Congress 2012).",
+            "price_paid": "~$22 split-adjusted (~$220 entonces) ≈ 15-16x beneficios forward 2010 — HECHO el precio (Marketfolly); INFERENCIA el múltiplo (EPS 2010 ~$14 pre-split). Un monopolio dual con márgenes >40% y crecimiento mid-teens al múltiplo del S&P.",
+            "what_they_saw": "Dos errores del mercado: (1) el interchange NO era ingreso de Mastercard — era de los bancos; MA cobraba fees de red que Durbin no tocaba; (2) MA tenía solo ~mid-teens % de exposición a débito US vs mucha más de Visa (HECHO, presentación Akre 2012). Además el viento de cola secular cash→tarjeta estaba intacto globalmente.",
+            "quality_at_entry": "Ultra-calidad QG de manual: duopolio de red, ROIC >30%, sin deuda, márgenes crecientes, ingresos ligados a volumen nominal global (protección inflación), CapEx mínimo. Probablemente >11/13.5 en el sistema de Felipe. HECHO: 10-K MA 2010.",
+            "holding_and_result": "Aún en cartera 15+ años después; ~$22→>$500 = >20x más dividendos. Akre la aumentó cada año hasta 2015 (HECHO, 13F).",
+            "pattern": "PATRÓN FALSIFICABLE (el más relevante para el universo de Felipe): pánico regulatorio que golpea a TODO el sector cuando la regulación concreta solo afecta un segmento minoritario del ingreso de la empresa específica. Test: mapear línea por línea qué % del revenue toca la norma propuesta; si es <20% y el mercado descuenta >30% de valor, hay MoS regulatorio. Falsación: si la norma ataca el mecanismo central de pricing (no un segmento), el descuento es merecido."
+          },
+          {
+            "investor": "Dev Kantesaria (Valley Forge Capital)",
+            "company": "Moody's (MCO)",
+            "year": "2018 (inicio)",
+            "context": "Moody's aún cargaba el estigma reputacional post-2008 (ratings de subprime) y miedo cíclico a emisión de deuda; el mercado la trataba como cíclica financiera, no como peaje de datos. HECHO: primera compra 2018Q2; promedio de las 15 compras acumuladas $259.87/acción (GuruFocus, historial de posición).",
+            "price_paid": "Entrada 2018 ~$160-180 ≈ 20-22x forward EPS — INFERENCIA (EPS 2018 ~$7.9); el promedio $259.87 de GuruFocus mezcla compras posteriores — HECHO ese dato con esa salvedad. Nunca fue una 'ganga' óptica: pagó múltiplo de mercado por un duopolio.",
+            "what_they_saw": "Monopolio-peaje: duopolio S&P/Moody's con ~80% del mercado de ratings, pricing power ~3-4%/año sobre un volumen de deuda global que crece con el PIB nominal, más Moody's Analytics (recurrente) creciendo por debajo. Coste del rating ≈ 6-7 pbs de la emisión: irrelevante para el emisor, imposible de negociar a la baja. Cero CapEx, cero riesgo R&D.",
+            "quality_at_entry": "Ultra-calidad QG: exactamente el perfil Seilern (crecimiento secular, márgenes ~45%, ROIC altísimo, ingresos recurrentes crecientes). Es LA validación externa del universo de Felipe: la cartera Valley Forge (FICO+SPGI+MA+MCO+V = >92% del fondo, HECHO Gainify Q4-2025) se solapa casi 1:1 con sus convicciones SPGI/MSFT/VEEV. HECHO.",
+            "holding_and_result": "Mantenida desde 2018 (~$170→~$450-500 en 2025 ≈ 2.5-3x + recompras); FICO, comprada en el mismo periodo (25% del fondo ya en Q3-2018, HECHO ValueSider), hizo ~$180→>$2,000 = >10x.",
+            "pattern": "PATRÓN FALSIFICABLE: para monopolios de datos/ratings con pricing power estructural, pagar 20-25x earnings ES margen de seguridad si EPS compone >13-15% anual con casi certeza (pricing 3-4% + volumen 4-5% + margen + recompras). Test: ¿puede la empresa subir precios 3%+ anual durante una década sin perder un solo cliente? Falsación: si el crecimiento EPS requiere expansión de múltiplo o M&A para llegar a mid-teens, el precio justo es más bajo."
+          },
+          {
+            "investor": "Terry Smith (Fundsmith)",
+            "company": "Entradas típicas del fondo (patrón, no una acción)",
+            "year": "2010-presente",
+            "context": "Fundsmith lanzado nov-2010 cuando 'calidad' cotizaba barata tras la crisis: nadie quería pagar por consumer staples aburridos (Unilever, PM, Diageo) mientras el mercado perseguía cíclicas de recuperación. Mantra: 'Buy good companies, don't overpay, do nothing' (HECHO, cartas anuales Fundsmith).",
+            "price_paid": "Disciplina explícita: comprar cuando el FCF yield de la empresa ≥ rendimiento del bono largo en su divisa (HECHO, cartas Fundsmith/mindfulcompounding). En los primeros años el portafolio rondaba FCF yield 5-6%; a inicios de 2025 era 3.1% (ponderado) vs 2.8% del S&P 500 (HECHO, carta anual 2025). Regla operativa: FCF yield portafolio ≈ o > mercado, con calidad muy superior.",
+            "what_they_saw": "Que la 'prima de calidad' estaba sistemáticamente mal medida: con ROCE 25-30% y reinversión, una empresa a FCF yield 4-5% que crece FCF 8%+ entrega ~12% anual sin expansión de múltiplo. El PER compara mal empresas de distinta intensidad de capital; el FCF yield no. Retorno esperado = FCF yield + crecimiento FCF (aritmética explícita de Smith: 3.7% + 8% ≈ 11-12%, HECHO carta).",
+            "quality_at_entry": "Por construcción: solo entra en negocios con ROCE alto, márgenes brutos >60%, baja intensidad de capital, ingresos repetibles — filtro casi idéntico al QG/Seilern de Felipe. HECHO: criterios publicados en el Owner's Manual de Fundsmith.",
+            "holding_and_result": "Rotación mínima (~5-8% anual); Fundsmith ~+15% anualizado 2010-2021, con década posterior más floja al comprimirse la prima (HECHO/INFERENCIA mixto; datos en cartas anuales). Lección incluida: pagar FCF yield <3% estrechó el margen incluso para él (críticas documentadas, Behind the Balance Sheet).",
+            "pattern": "PATRÓN FALSIFICABLE y directamente importable al PWFV de Felipe: la valla de entrada correcta para ultra-calidad no es 'PER < X' sino 'FCF yield ≥ bono largo local' Y 'FCF yield + crecimiento orgánico FCF ≥ 11-12%'. Falsación: si para llegar al 11-12% necesitas asumir crecimiento >10% a perpetuidad o FCF yield <2.5%, estás pagando burbuja de calidad — es exactamente lo que penalizó a Fundsmith 2022-2024."
+          },
+          {
+            "investor": "Mohnish Pabrai (Pabrai Funds)",
+            "company": "Fiat (luego FCA/Stellantis) + Ferrari implícita",
+            "year": "2012",
+            "context": "Crisis del euro + industria auto europea en depresión: Fiat facturaba ~€100B y capitalizaba ~€5B; el mercado la daba por semiquebrada, ignorando la opción Chrysler y los activos ocultos (Ferrari, Maserati, CNH). HECHO: entrada ~$6/ADR, ~2% de la empresa, tras 3 semanas de estudio (Capital Buddha, GuruFocus case study).",
+            "price_paid": "Market cap €5B ≈ 0.05x ventas; Pabrai calculaba Fiat ex-Ferrari a ~$3.5 y Ferrari a ~$2.5 dentro de sus $6 (HECHO, GuruFocus). Sobre el plan Marchionne de €5B de beneficio en 2018: ~1x beneficios futuros — HECHO el plan, INFERENCIA la aritmética. Apuesta asimétrica pura, no quality.",
+            "what_they_saw": "Dos variables: (1) Marchionne — trackrecord verificable de creación de valor (Alusuisse→Lonza→Fiat: $1M siguiendo sus CEOs = $30M+ en 20 años, HECHO citado por Pabrai); (2) suma de partes: el mercado valoraba el conglomerado a menos que Ferrari sola. El mismo razonamiento SOTP que Felipe aplicó a Adobe.",
+            "quality_at_entry": "NO era calidad QG — negocio de autos cíclico, intensivo en capital, márgenes bajos: fallaría múltiples knock-outs de Seilern. Su función en este estudio: mostrar el patrón opuesto (deep value asimétrico con catalizador humano) y dónde NO aplica el sistema de Felipe. HECHO.",
+            "holding_and_result": "8 años; el spin-off de Ferrari (2016) le devolvió ~todo el capital inicial (~$100M) y vendió FCA a ~$9-10 en 2020: ~3x total. Su error confesado: vender Ferrari 'porque parecía ópticamente cara' — Ferrari era la ÚNICA pieza ultra-calidad del paquete y fue la que más subió después (HECHO, Acquirer's Multiple: 'one of my biggest mistakes').",
+            "pattern": "PATRÓN FALSIFICABLE doble: (a) suma de partes <50% del valor de mercado de las piezas separables + catalizador de separación anunciado = MoS estructural; (b) LECCIÓN INVERSA para el detector de trampas de Felipe: cuando dentro de un paquete barato hay un activo ultra-calidad, venderlo por 'múltiplo alto' es el error más caro — la calidad extrema JUSTIFICA múltiplos que el value clásico rechaza."
+          },
+          {
+            "investor": "Bill Ackman (Pershing Square)",
+            "company": "Chipotle (CMG)",
+            "year": "2016",
+            "context": "Crisis E. coli/norovirus 2015-16: ventas comparables -20%+, acción de ~$750 a ~$400, el mercado dudaba de que la marca se recuperara jamás. HECHO: Pershing compró 9.9% (~$1.03B) en sept-2016 a $405-428/acción (SEC 13D, oct-2016).",
+            "price_paid": "~$405-428 = PER óptico altísimo (~60x) sobre beneficios 2016 HUNDIDOS, pero ~20-25x sobre earnings power normalizado pre-crisis (márgenes restaurante 27% en 2015 vs 12-15% en 2016) — HECHO precios (13D); INFERENCIA la normalización. El clásico caso donde el PER TTM es la peor métrica posible.",
+            "what_they_saw": "Que el problema era reputacional-temporal, no estructural: unit economics intactas (payback de nuevo local <3 años), marca con lealtad, propiedad del problema operativo (comida fresca = riesgo gestionable con protocolos), y palanca activista para cambiar management (metieron a Brian Niccol en 2018 — el verdadero catalizador).",
+            "quality_at_entry": "Calidad QG media-alta: ROIC de unidad excelente, sin franquicia ni deuda, crecimiento de unidades largo; pero mono-marca, mono-concepto, riesgo operativo de alimentos. ~8-9/13.5 estimado. INFERENCIA.",
+            "holding_and_result": "~9 años; vendió 85% de la posición con $2.4B de beneficio e IRR ~22% anual, y el remanente en 2025 con IRR total 16% vs 15% S&P (HECHO, Institutional Investor). La acción hizo ~7x de $405 al pico pre-split equivalente ~$3,400 (2024).",
+            "pattern": "PATRÓN FALSIFICABLE: crisis reputacional en marca fuerte donde la unit economics del activo individual sigue intacta = comprar earnings power normalizado a descuento con PER óptico alto. Test: ¿el margen por unidad madura pre-crisis es recuperable sin cambiar el modelo? ¿el tráfico cae por miedo (recuperable) o por preferencia (estructural)? Falsación: si 18-24 meses después los comparables no reaceleran con el miedo disipado, era pérdida de preferencia — vender."
+          },
+          {
+            "investor": "Bill Ackman (Pershing Square)",
+            "company": "Hilton, Lowe's, Restaurant Brands, Starbucks (redeploy COVID)",
+            "year": "2020 (marzo)",
+            "context": "Pánico COVID: cobró $2.6B de un hedge de CDS que costó $27M (100x) y el MISMO día del suelo (23-mar-2020, anuncio de QE ilimitado de la Fed) redeplegó $2.5B en sus propias posiciones de calidad a precios de liquidación — Hilton ~$60 (-50%), aerolíneas/hoteles descontando años de cero viajes. HECHO: Forbes, CNBC 25-mar-2020.",
+            "price_paid": "Hilton a ~14-15x FCF normalizado 2019, Lowe's ~$65-85 (~12-13x forward), RBI ~$27-35 (~4.5-5% FCF yield), ~$1.5B desplegado en días — HECHO las compras y fechas (CNBC/Forbes); INFERENCIA los múltiplos puntuales.",
+            "what_they_saw": "Que el mercado descontaba permanencia de un shock temporal en negocios asset-light con balance para sobrevivirlo. La clave no fue solo comprar barato: fue tener LIQUIDEZ (el hedge) exactamente cuando la calidad se puso en oferta. El hedge era la prima del seguro; la apuesta real era el redeploy.",
+            "quality_at_entry": "Hilton/RBI: calidad QG alta (franquicia asset-light, fees recurrentes sobre RevPAR ajeno, ROIC alto); Lowe's calidad media-alta. Todas con balance suficiente para 12-18 meses de estrés. HECHO: 10-K 2019 de cada una.",
+            "holding_and_result": "Pershing Square +70.2% neto en 2020 (HECHO, carta anual PSH); Hilton ~$60→$250+ en 2025 (~4x), sigue siendo posición núcleo.",
+            "pattern": "PATRÓN FALSIFICABLE: en pánico sistémico, la zona GANGA de Felipe se activa para TODA la lista de calidad simultáneamente — la restricción no es encontrar la oportunidad sino tener liquidez y una watchlist pre-valorada para actuar en días. Test operativo: mantener PWFV actualizado de las 15-20 mejores empresas ANTES del pánico. Falsación del caso individual: si el negocio necesita ampliar capital dilutivamente para sobrevivir el shock, el descuento es dilución futura, no MoS."
+          },
+          {
+            "investor": "Stanley Druckenmiller (Duquesne Family Office)",
+            "company": "Nvidia (NVDA)",
+            "year": "2022 Q4 - 2024",
+            "context": "NVDA había caído ~65% en 2022 (resaca cripto/gaming, exceso de inventario, subidas de tipos); el lanzamiento de ChatGPT (30-nov-2022) reveló la demanda de GPUs para IA que el precio no descontaba. HECHO: Duquesne compró 582,915 acciones en Q4-2022 (13F, Motley Fool/Nasdaq).",
+            "price_paid": "NVDA cotizó $11-18 split-adjusted en Q4-2022 (~$110-180 pre-split): ~45-55x earnings TTM DEPRIMIDOS, pero <25x sobre los earnings que el capex de IA implicaba a 18 meses — HECHO el rango de precio; INFERENCIA la normalización forward. Su señal no fue el múltiplo: fue el cambio de régimen de demanda que el joven analista de Duquesne le señaló tras ChatGPT.",
+            "what_they_saw": "Inflexión de earnings no lineal: los hyperscalers iban a redirigir cientos de miles de millones de capex hacia GPUs y NVDA tenía monopolio efectivo (CUDA + H100). El mercado aún valoraba NVDA como cíclica de gaming con inventario. Es el caso 'el denominador del PER está a punto de triplicarse'.",
+            "quality_at_entry": "Calidad alta pero cíclica: márgenes y ROIC extraordinarios, moat de software (CUDA), pero dependencia de un ciclo de capex ajeno y de TSMC — bajo QG estricto, la predictibilidad de beneficios (regla clave Seilern) era débil. INFERENCIA.",
+            "holding_and_result": "~18 meses; vendió la mayor parte en H1-2024 (~$85-95 split-adjusted, ~6x) y confesó públicamente que vender fue 'un error' cuando siguió subiendo (HECHO, entrevista Bloomberg oct-2024, Motley Fool).",
+            "pattern": "PATRÓN FALSIFICABLE: cuando un evento observable (ChatGPT) cambia el régimen de demanda de un cuasi-monopolio, los earnings forward de consenso quedan obsoletos en semanas y el PER trailing es activamente engañoso. Test: ¿hay evidencia física del cambio (order backlog, capex anunciado de clientes) que el consenso aún no modela? Y la lección de venta (tercera vez en el lote): en cuasi-monopolios con demanda estructural, vender por 'ya subió mucho' es el error estadísticamente más caro."
+          }
+        ],
+        "common_threads": [
+          "MIEDO NOMBRABLE Y TEMPORAL: las 11 compras coinciden con un miedo específico y verbalizable (Durbin, E. coli, quiebra telecom, crisis 2008, COVID, resaca cripto, estigma reputacional post-subprime) sobre un negocio cuyo motor económico seguía intacto. Ninguno compró 'porque estaba barata en general'. Implicación para el detector de trampas: si no puedes nombrar el miedo concreto Y su fecha probable de caducidad, no hay tesis — hay solo un múltiplo bajo.",
+          "LA GANGA ESTÁ EN EL DENOMINADOR, NO EN EL MÚLTIPLO: en 8 de 11 casos el PER óptico de entrada NO era de ganga (Chipotle ~60x TTM, Amazon PER infinito, NVDA ~50x, Moody's 20-22x). Lo barato era el precio sobre owner earnings NORMALIZADOS o FUTUROS a 3-5 años. Esto valida el DCF sobre owner earnings ×2 del PWFV de Felipe y sugiere degradar el peso del PER TTM cuando hay beneficios deprimidos por causa identificable.",
+          "REGLA DE ENTRADA CUANTIFICABLE (Smith/Kantesaria): para ultra-calidad sin crisis, la valla es FCF yield ≥ bono largo local Y (FCF yield + crecimiento orgánico FCF) ≥ 11-12%. Para monopolios de datos/redes tipo SPGI/MCO/V/MA/FICO, 20-25x earnings ES compatible con MoS si el EPS compone mid-teens con pricing power estructural. Esto redefine la zona JUSTO de Felipe para el subgrupo de máxima calidad: el MoS puede venir del crecimiento casi-cierto, no solo del descuento sobre PWFV.",
+          "CONCENTRACIÓN POST-VERIFICACIÓN: cuando calidad y precio coincidieron, todos apostaron grande — Amazon 17-30% de Nomad, FICO 25% de Valley Forge, top-5 de Kantesaria >92% del fondo, Chipotle ~20% de Pershing. El tamaño de posición fue parte del retorno, no un detalle. Coherente con la práctica de Felipe de iniciar en tramos 3-5% y escalar con convicción.",
+          "LOS ERRORES DOCUMENTADOS DEL LOTE SON DE VENTA, NO DE COMPRA: Pabrai vendiendo Ferrari ('mi mayor error'), Druckenmiller vendiendo NVDA ('un error'), Ackman vendiendo el 85% de CMG antes del pico. En ultra-calidad el coste asimétrico está en vender temprano por 'múltiplo alto'. Regla derivable: la señal de venta válida es deterioro del moat o de la tesis, nunca el múltiplo aislado.",
+          "FILTRO ANTI-TRAMPA IMPLÍCITO: todos compraron problemas EXÓGENOS (macro, regulatorio, reputacional, ciclo de demanda); ninguno compró deterioro ENDÓGENO del moat (pérdida de cuota estructural, disrupción del modelo, retención cayendo). Test binario para el detector de Felipe: ¿el problema desaparece si pasa el tiempo sin que la empresa cambie nada esencial? Sí = oportunidad potencial; No = trampa de valor.",
+          "LIQUIDEZ + WATCHLIST PRE-VALORADA COMO ARMA (Ackman 2020, Sleep 2008): las mejores ventanas duran días o semanas. El trabajo de valoración (PWFV por empresa) debe existir ANTES del pánico; en el pánico solo se ejecuta. Argumento directo para mantener el pipeline QG de Felipe con PWFV vivo sobre las ~20 mejores.",
+          "VALIDACIÓN EXTERNA DEL UNIVERSO DE FELIPE: la cartera de Valley Forge (FICO, SPGI, MA, MCO, V >92%) y las posiciones núcleo de Akre (MA, MCO, AMT) se solapan casi exactamente con el universo QG de Felipe (SPGI, MSFT, VEEV, ADBE, ORCL). Dos gestores con décadas de trackrecord llegaron por caminos independientes al mismo tipo de activo: peajes de datos/red con pricing power. Los contraejemplos del lote (BYD, Fiat) marcan la frontera: retornos enormes posibles fuera del QG, pero con un sistema de decisión distinto (jockey/asimetría) que NO es el de Felipe."
+        ]
+      },
+      "classics": {
+        "bets": [
+          {
+            "investor": "Peter Lynch",
+            "company": "La Quinta Motor Inns",
+            "year": "1978 (aprox., era Magellan temprana)",
+            "context": "HECHO: la industria de moteles venía de un ciclo bajista y La Quinta era ignorada por institucionales: casi sin cobertura de analistas. Lynch la descubrió haciendo scuttlebutt telefónico: un VP de United Inns (competidor en el que ya había invertido) le dijo cuál empresa le estaba quitando negocio (fuente: One Up on Wall Street; valuewalk.com 'Invest Like The Best: Peter Lynch's La Quinta Investment').",
+            "price_paid": "HECHO (One Up on Wall Street): crecía beneficios ~50% anual y cotizaba a PER ~10 → PEG ~0.2, su definición de 'fast grower regalado'. Lynch escribe que 'crecimiento del 50% y PER 10' era una combinación que 'te hace zumbar los oídos'. INFERENCIA: capitalización small-cap (<$500M) sin dueños institucionales relevantes.",
+            "what_they_saw": "El mercado veía 'otro motel'; Lynch vio un modelo estructuralmente más rentable: habitación calidad Holiday Inn a 30% menos precio, construyendo junto a Denny's en vez de operar restaurante propio (el restaurante era la parte de baja rentabilidad del negocio hotelero), y costos de construcción por habitación menores. Crecimiento replicable unidad-a-unidad ya probado en varias ciudades.",
+            "quality_at_entry": "HECHO: ROE alto, expansión autofinanciada con fórmula probada, management fundador (Sam Barshop). INFERENCIA vs QG: pasaría crecimiento y rentabilidad pero fallaría en resiliencia sectorial (cíclico, expuesto a estados petroleros) — es calidad tipo Lynch 'fast grower', no calidad Seilern.",
+            "holding_and_result": "HECHO: ~11x en ~10 años antes de que el colapso del petróleo en Texas dañara la ocupación (fuente: One Up on Wall Street vía ValueWalk).",
+            "pattern": "FALSIFICABLE: empresa con fórmula unitaria probada en ≥3 mercados, crecimiento de BPA >25%, PEG <0.5, <20% propiedad institucional y <3 analistas cubriéndola, descubierta preguntando a un competidor 'quién te hace daño'. Se falsifica si la unidad económica no es replicable o si el PEG <0.5 se debe a beneficios cíclicos pico."
+          },
+          {
+            "investor": "Peter Lynch",
+            "company": "Hanes (L'eggs)",
+            "year": "1971-72",
+            "context": "HECHO: producto nuevo (pantimedias vendidas en supermercados) invisible para Wall Street porque el canal era 'de señoras', no de analistas. Su esposa Carolyn llegó del supermercado elogiando L'eggs; Lynch leyó los estados financieros antes de comprar (fuente: One Up on Wall Street; fool.com 'Listen to Mrs. Peter Lynch').",
+            "price_paid": "INFERENCIA: Lynch nunca publicó el múltiplo exacto de entrada; el caso lo usa para ilustrar 'ventaja del consumidor' + verificación contable posterior, no un múltiplo. HECHO: L'eggs capturó distribución en supermercados donde el 70% de las mujeres compraba semanalmente, con test de mercado exitoso que la competencia (No Nonsense de Kayser-Roth) no logró replicar — Lynch compró la de Kayser-Roth también para comparar y la descartó tras el scuttlebutt.",
+            "what_they_saw": "El edge no era información privilegiada sino velocidad de reconocimiento: el consumidor ve el éxito de un producto 6-12 meses antes de que aparezca en los números trimestrales que mira Wall Street. La variable malinterpretada: durabilidad de la ventaja de canal (posición en caja de supermercado).",
+            "quality_at_entry": "HECHO: balance sano verificado antes de comprar ('me gustó lo que leí'). INFERENCIA QG: negocio de marca de consumo con canal dominante, pero producto único = riesgo de concentración; no pasaría la regla de diversificación de motores de crecimiento.",
+            "holding_and_result": "HECHO: ~6x mientras Magellan la tuvo, hasta que Consolidated Foods (luego Sara Lee) la compró; Lynch se quejó de que la OPA le robó lo que estimaba habría sido un 50-bagger (fuentes: Forbes '10-Bagger Tales', Fool.com).",
+            "pattern": "FALSIFICABLE: producto de consumo con repetición de compra semanal/mensual que gana cuota visible en el punto de venta ANTES de aparecer en revisiones de analistas; la observación de campo debe confirmarse con balance y márgenes en el 10-K antes de comprar ('invest in what you know' es el inicio del trabajo, nunca la tesis). Se falsifica si el éxito del producto no mueve >20% de las ventas de la matriz."
+          },
+          {
+            "investor": "Peter Lynch",
+            "company": "Taco Bell",
+            "year": "1977",
+            "context": "HECHO: fue una de las primeras compras de Lynch al tomar Magellan en 1977; cadena regional de comida rápida despreciada por Wall Street por ser 'un taco', sin cobertura. Lynch la investigó tras probar un burrito en un viaje a California (fuente: One Up on Wall Street; Forbes '10-Bagger Tales' la lista entre sus tenbaggers).",
+            "price_paid": "HECHO (One Up on Wall Street): Lynch cita compra alrededor de $7/acción; PepsiCo la adquirió en 1978 a ~$42. INFERENCIA: a $7 cotizaba a PER de un dígito con crecimiento de tiendas >20% anual → PEG muy por debajo de 1.",
+            "what_they_saw": "Fórmula de fast-food replicable con balance sin deuda y penetración nacional <10%: la 'pista larga' (long runway) que el mercado no valoraba por sesgo de prestigio ('las grandes casas no siguen empresas de tacos'). Lynch: 'el stock perfecto tiene un nombre aburrido o ridículo'.",
+            "quality_at_entry": "INFERENCIA: alta rentabilidad unitaria y crecimiento, pero marca joven y monoproducto: calidad tipo 'fast grower', knock-out en historial (<10 años de datos) bajo criterios Seilern.",
+            "holding_and_result": "HECHO: ~6x en ~18 meses vía OPA de PepsiCo (de $7 a $42); Forbes la lista entre los tenbaggers de Magellan contando la posición completa.",
+            "pattern": "FALSIFICABLE: cadena de retail/restauración con economics unitarios probados, presencia en <25% de su mercado geográfico potencial, PER < tasa de crecimiento de tiendas y caja neta. Es el patrón Lynch más replicable: 'cualquiera pudo verlo comiendo ahí'. Se falsifica si el margen por tienda cae al expandirse fuera de la región origen."
+          },
+          {
+            "investor": "Phil Fisher",
+            "company": "Motorola",
+            "year": "1955",
+            "context": "HECHO: en 1955 Motorola era vista como un fabricante de radios y TVs, un negocio commodity de electrónica de consumo cíclica; nadie la clasificaba como empresa de tecnología de comunicaciones (fuentes: Wikipedia 'Philip Arthur Fisher'; thewisdomcompounder.com).",
+            "price_paid": "INFERENCIA: Fisher nunca reveló el múltiplo pagado — su marco explícito era que el precio importa menos que estar en lo correcto sobre 15 años de crecimiento. HECHO: documentó la compra y la tesis en 'Developing an Investment Philosophy' (1980), donde reporta que su posición ya se había multiplicado ~20x.",
+            "what_they_saw": "Vía scuttlebutt (entrevistas con clientes, proveedores, ingenieros y competidores) detectó: (1) el negocio de radios bidireccionales para policía/taxis era un cuasi-monopolio con demanda estructural, y (2) profundidad de management y cultura de I+D reinvertida — sus puntos 8-10 y 15 de los '15 puntos'. El mercado valoraba la TV cíclica; Fisher valoraba el pipeline de comunicaciones móviles.",
+            "quality_at_entry": "HECHO: pasaba los 15 puntos de 'Common Stocks and Uncommon Profits' (1958), su sistema formal de calidad: crecimiento de mercado por años, I+D productiva, margen defendible, integridad del management. Es el antecedente directo del eje calidad QG.",
+            "holding_and_result": "HECHO: mantuvo 49 años, hasta su muerte en 2004; ~20x ya en 1980 (de ~$1 a ~$20 por acción en 21 años, fuente thewisdomcompounder), y órdenes de magnitud más al final. Su cita: 'si el trabajo se hizo bien al comprar, el momento de vender es casi nunca'.",
+            "pattern": "FALSIFICABLE: empresa etiquetada por el mercado en su segmento cíclico/commodity mientras un segmento pequeño (<25% de ventas) con economics de monopolio crece >20% anual; la tesis debe validarse con ≥5 entrevistas externas (clientes, competidores, ex-empleados), no con el management. Se falsifica si los competidores entrevistados NO nombran a la empresa como la que temen."
+          },
+          {
+            "investor": "Phil Fisher",
+            "company": "Texas Instruments",
+            "year": "1956",
+            "context": "HECHO: compró en verano de 1956 en una colocación privada: los directivos fundadores vendían parte de sus acciones por planificación fiscal (impuesto sucesorio), no por pesimismo sobre el negocio — Fisher subraya que entender POR QUÉ vende el vendedor es parte del análisis (fuente: MoneyWeek 'The Best Trades In History: Philip Fisher Buys Texas Instruments', vía Everand).",
+            "price_paid": "INFERENCIA: sin múltiplo público (pre-cotización amplia); el precio de entrada fue <$5/acción según MoneyWeek. La 'ganga' no era el múltiplo sino comprar un semiconductor pionero valorado como empresa de instrumentación geofísica.",
+            "what_they_saw": "TI tenía la licencia del transistor de Bell Labs y el equipo para fabricarlo en masa; Fisher proyectó que el semiconductor sería un mercado con décadas de crecimiento y que TI tenía la mejor organización de I+D aplicada. El mercado no tenía categoría mental para 'semiconductores' en 1956.",
+            "quality_at_entry": "HECHO: pasaba los 15 puntos; management fundador (Haggerty) obsesionado con innovación de producto. INFERENCIA QG: habría fallado la regla de historial largo — Fisher aceptaba conscientemente empresas jóvenes que Seilern rechazaría.",
+            "holding_and_result": "HECHO: de <$5 a >$200 por acción manteniendo décadas (fuente MoneyWeek); considerada su inversión más rentable junto con Motorola.",
+            "pattern": "FALSIFICABLE: comprar a un vendedor cuyo motivo es exógeno al negocio (impuestos, sucesión, mandato regulatorio, exclusión de índice) una empresa que domina una tecnología naciente con adopción medible trimestre a trimestre. Se falsifica si el vendedor con información interna vende por deterioro real (verificable en 2-3 trimestres siguientes)."
+          },
+          {
+            "investor": "John Templeton",
+            "company": "Cesta de 104 acciones NYSE <$1",
+            "year": "1939",
+            "context": "HECHO: septiembre 1939, estalla la Segunda Guerra Mundial; pesimismo terminal tras una década de Depresión. Templeton pidió prestados $10,000 a su jefe y compró 100 acciones de CADA una de las 104 empresas del NYSE que cotizaban bajo $1, incluidas 34 en quiebra (fuentes: Wikipedia 'John Templeton'; fool.com; jvbruni.com).",
+            "price_paid": "HECHO: precio <$1/acción como filtro mecánico único; muchas cotizaban por debajo del valor de liquidación. No analizó una a una: diversificación extrema como sustituto del análisis individual en el punto de máximo pesimismo.",
+            "what_they_saw": "Que la guerra reactivaría la demanda industrial de EE.UU. y que hasta las empresas marginales (las quebradas incluidas) volverían a beneficio: cuando el pesimismo es máximo, la opcionalidad de las peores empresas es la más barata. Compró la RECUPERACIÓN DEL CICLO, no empresas.",
+            "quality_at_entry": "HECHO: calidad deliberadamente ausente — 34 de 104 estaban en bancarrota. Es el anti-QG: la lección para Felipe es que este patrón funciona SOLO con diversificación de 100+ posiciones y catalizador macro, jamás concentrado.",
+            "holding_and_result": "HECHO: $10,000 → ~$40,000 (4x) con tenencia media de 4 años; solo 4 de las 104 acabaron sin valor (fuentes: Fool, Philanthropy Roundtable).",
+            "pattern": "FALSIFICABLE: cuando un shock hace que decenas de empresas coticen bajo valor de liquidación simultáneamente, comprar la cesta ENTERA (no seleccionar) con horizonte de 3-5 años; el filtro es estadístico, no fundamental. Se falsifica si el shock destruye la demanda de forma permanente (el catalizador de reversión debe ser identificable ex-ante, aquí: economía de guerra)."
+          },
+          {
+            "investor": "John Templeton",
+            "company": "Japón (cesta país: Hitachi, Nissan, Sumitomo, etc.)",
+            "year": "1950s dinero propio; 1968 dinero de clientes",
+            "context": "HECHO: Japón cargaba el estigma de posguerra ('juguetes baratos'), controles de cambio que atrapaban capital extranjero, y opacidad contable que ahuyentaba a institucionales. Templeton invirtió su dinero personal desde los 50s y el de clientes en cuanto se levantaron los controles en 1968 (fuente: uk.advfn.com, Glen Arnold 'John Templeton makes billions investing in Japanese securities').",
+            "price_paid": "HECHO: PER medio ~4x sobre SUS estimaciones de beneficios (ajustadas: las filiales consolidadas hacían que el beneficio reportado subestimara el real) vs 19.5x el mercado de EE.UU.; nunca pagó más de 3x por sus mejores compras (fuente: advfn/Glen Arnold). El diferencial de crecimiento iba además a favor de Japón (~10% PIB real).",
+            "what_they_saw": "Doble mispricing: (1) beneficios contables japoneses infrarreportados por consolidación parcial — su ajuste contable ERA el edge; (2) el mercado extrapolaba el Japón de 1945, no el de 1965. Compró crecimiento superior a múltiplo de liquidación.",
+            "quality_at_entry": "HECHO: empresas líderes nacionales con crecimiento de doble dígito — aquí sí calidad + precio simultáneos, el caso más 'QG a buen precio' de todo el frente clásico.",
+            "holding_and_result": "HECHO: llegó a tener >60% del Templeton Growth Fund en Japón (fuente advfn/Forbes). HECHO: salió gradualmente en los 70s-80s cuando los PER japoneses superaron a los de EE.UU., rotando a EE.UU./Canadá — se perdió la burbuja final de los 80 y también su estallido. Contribución clave al récord del fondo: ~15% anual compuesto durante 38 años.",
+            "pattern": "FALSIFICABLE: mercado-país entero a PER <50% del mercado de referencia con crecimiento macro SUPERIOR, donde la barrera es regulatoria/psicológica (controles de capital, estigma) y no fundamental; entrar cuando la barrera regulatoria cae. Regla de salida incluida: vender cuando el PER relativo cruza 1x, aunque siga subiendo. Se falsifica si el descuento se explica por gobernanza que expropia al minoritario."
+          },
+          {
+            "investor": "Howard Marks",
+            "company": "Deuda distressed post-Lehman (OCM Opportunities Fund VIIb)",
+            "year": "2007-2008",
+            "context": "HECHO: Oaktree levantó el 'fondo reserva' de ~$11B ($10.9B, el mayor fondo distressed de la historia según Preqin) entre enero 2007 y marzo 2008 — ANTES de la crisis, cuando Marks detectó estándares de crédito degenerados (covenant-lite, LBOs a 8x EBITDA). Tras la quiebra de Lehman (15-sep-2008), con miedo a colapso sistémico total, desplegó ~$600M POR SEMANA durante las últimas 15 semanas de 2008 (fuentes: Wikipedia Oaktree; Institutional Investor 'Howard Marks: The Distressed-Debt King'; LA Business Journal).",
+            "price_paid": "HECHO: deuda senior de compañías de LBO compradas a 50-70 centavos por dólar de nominal (fuente: Institutional Investor / memos de Oaktree). El memo 'Nobody Knows' (19-sep-2008) documenta la decisión en tiempo real: 'no podemos saber si es el fondo; sabemos que hay valor y que si no hay colapso total, será la compra de nuestras vidas'.",
+            "what_they_saw": "Que el precio de la deuda senior descontaba tasas de default y de pérdida jamás vistas: comprando el tramo senior a 60 centavos, el breakeven exigía un colapso peor que 1929. La variable malinterpretada: el mercado ponía precio al PÁNICO del tenedor forzado (fondos apalancados liquidando), no al valor de recuperación del activo.",
+            "quality_at_entry": "INFERENCIA: los emisores eran empresas mediocres sobre-apalancadas — la calidad estaba en la POSICIÓN EN LA ESTRUCTURA DE CAPITAL (senior secured), no en el negocio. Análogo QG: la seniority sustituye al moat.",
+            "holding_and_result": "HECHO: TIR neta del 31.5% anual desde inicio hasta 31-dic-2009 (fuente: Institutional Investor citando datos del fondo); devolvió el capital en ~3 años.",
+            "pattern": "FALSIFICABLE: (1) levantar/reservar liquidez cuando los términos de crédito se degradan (indicador: emisión récord de covenant-lite y CCC), no cuando hay crisis; (2) desplegar en tramos calendarizados DURANTE el pánico sin esperar el suelo — 'el cuchillo cayendo es cuando hay precio'; (3) exigir que el precio implique escenario peor que el peor histórico. Se falsifica si el colateral senior resulta subordinado de facto (fraude, primings)."
+          },
+          {
+            "investor": "Benjamin Graham",
+            "company": "GEICO (Government Employees Insurance Co.)",
+            "year": "1948",
+            "context": "HECHO: aseguradora de nicho (vendía directo por correo a empleados públicos, sin agentes → ventaja estructural de costos) que llegó a Graham-Newman como colocación privada. Wall Street no la conocía; el vendedor necesitaba liquidez (fuentes: ifa.com 'The Impact of GEICO on Benjamin Graham and Warren Buffett'; sabercapitalmgt.com).",
+            "price_paid": "HECHO: Graham-Newman compró el 50% de GEICO por $712,000, aproximadamente el 20-25% de los activos del fondo (fuentes: IFA, Saber Capital). INFERENCIA: el precio equivalía a un PER de un dígito sobre beneficios en crecimiento — barata en términos Graham Y de crecimiento a la vez, caso raro.",
+            "what_they_saw": "Ventaja de costo estructural (sin agentes) + nicho de clientes de bajo riesgo (empleados públicos) = combined ratio persistentemente mejor que la industria, con crecimiento largo por delante. Graham, el padre del net-net, compró aquí un COMPOUNDER.",
+            "quality_at_entry": "HECHO: sí era calidad QG en la entrada: modelo de distribución de menor costo (moat), crecimiento secular, gestión capaz — por eso funcionó mantenerla, cosa que sus net-nets nunca merecían.",
+            "holding_and_result": "HECHO: la SEC obligó a distribuir las acciones a los partícipes (1949, regla de fondos de inversión); quien mantuvo, vio $712,000 → ~$400M en 1972 (~562x). HECHO (memorias de Graham): esta única posición le generó más beneficio que TODAS sus demás operaciones de 20+ años JUNTAS, y violó sus propias reglas: superó el límite del 5% por posición y nunca la vendió al superar el valor intrínseco (fuentes: IFA, Wikipedia 'Benjamin Graham').",
+            "pattern": "FALSIFICABLE — la ironía como patrón: la diversificación y la venta al alcanzar valor justo protegen en empresas mediocres, pero DESTRUYEN retorno en la excepción de ultra-calidad. Regla derivada: si el negocio tiene ventaja de costo estructural medible (ratio de gastos < industria por >500 pb de forma persistente) y pista de crecimiento >10 años, las reglas de venta por valoración se suspenden y se sustituyen por reglas de venta por deterioro del moat. Se falsifica si la ventaja de costo es replicable por un entrante en <5 años (para GEICO no lo fue durante décadas)."
+          }
+        ],
+        "investor_group": "FRENTE C — Los clásicos: Lynch, Fisher, Templeton, Marks, Graham (con sus reglas de timing explícitas)",
+        "common_threads": [
+          "REGLAS DE TIMING EXPLÍCITAS POR INVERSOR — Lynch (One Up on Wall Street, 1989): PEG como gatillo — 'el PER de una empresa correctamente valorada = su tasa de crecimiento'; comprar fast growers a PEG<1 (ideal <0.5); su fórmula extendida: (crecimiento BPA + yield) / PER ≥ 2 es atractivo, <1 se descarta. Nunca hacer market timing: 'se ha perdido más dinero preparándose para las correcciones que en las correcciones'. Vender fast growers cuando la expansión toca techo o el PEG se estira >1.5-2; vender stalwarts al +30-50% y rotar.",
+          "Fisher ('Common Stocks and Uncommon Profits', 1958): comprar la empresa de 15 puntos cuando un problema TEMPORAL y verificable deprime el precio (arranque fallido de planta, mal trimestre puntual) — el descuento nace del problema, no del múltiplo; regla de los 3 años: dar 36 meses a la tesis antes de juzgarla; NO vender por sobrevaloración ni por 'ya subió mucho' — vender solo por (1) error en el análisis original, (2) deterioro de los 15 puntos, (3) alternativa claramente superior; 'no regatear octavos' en la entrada de un compounder.",
+          "Templeton: comprar en el 'punto de máximo pesimismo' — operacionalizado, no poético: HECHO — mantenía una wish-list de calidad con ÓRDENES LIMITADAS PERMANENTES a precios de pánico colocadas de antemano, para que la compra se ejecutara mecánicamente cuando él mismo estuviera asustado (así compró en octubre de 1987). Regla de rotación: vender solo cuando aparece una alternativa 50% más barata respecto a su valor. Comparar PER entre PAÍSES, no solo entre empresas.",
+          "Marks ('The Most Important Thing', 'Mastering the Market Cycle'): no predecir, POSICIONAR — calibrar agresividad/defensa según 'la temperatura del mercado' (checklist: términos de crédito, ánimo de la prensa, colas de IPOs, covenant-lite); el péndulo pasa poco tiempo en el punto medio; comprar DURANTE la caída en tramos programados porque el suelo solo se conoce ex-post ('estar demasiado pronto es indistinguible de estar equivocado' — por eso tramos, no all-in); las 3 fases del mercado alcista como mapa de salida.",
+          "Graham ('Security Analysis', 'The Intelligent Investor'): margen de seguridad cuantificado — earnings yield ≥ 2× el bono AAA; net-nets a ≤2/3 del capital circulante neto; regla de venta mecánica: al +50% o a los 2 años, lo que llegue primero; banda 75/25 acciones-bonos ajustada al nivel del mercado. Y la lección de GEICO: sus reglas maximizan la MEDIA de resultados, pero el MÁXIMO resultado de su vida exigió violarlas ante ultra-calidad — exactamente la tensión que el sistema de Felipe resuelve separando eje calidad y eje MoS.",
+          "HILO 1 — El descuento siempre tenía un DUEÑO identificable: en las 9 apuestas se puede nombrar QUIÉN vendía barato y por qué (institucionales que no cubrían small-caps, insiders por impuestos, tenedores forzados apalancados, pesimismo bélico, estigma-país). Regla para el detector de trampas de valor: si no puedes nombrar al vendedor irracional/forzado, el precio bajo probablemente tiene razón.",
+          "HILO 2 — El múltiplo bajo nunca fue la tesis; fue el síntoma. La tesis era siempre UNA variable verificable que el mercado medía mal: crecimiento unitario replicable (Lynch), pipeline de I+D con clientes cautivos (Fisher), beneficios contables infrarreportados (Templeton Japón), valor de recuperación senior (Marks), ventaja estructural de costos (Graham-GEICO). Aplicación PWFV: el MoS debe calcularse sobre la variable corregida, no sobre el consenso.",
+          "HILO 3 — Timing de precio, nunca de macro: los cinco renunciaron explícitamente a predecir mercados y sustituyeron la predicción por REGLAS PRE-COMPROMETIDAS (PEG de Lynch, órdenes limitadas de Templeton, tramos calendarizados de Marks, +50%/2 años de Graham). Coincide con las zonas GANGA/OPORTUNIDAD de Felipe: la zona ES la orden pre-comprometida; falta añadir la regla de salida pre-comprometida por inversor.",
+          "HILO 4 — La regla de venta depende del tipo de activo, no del inversor: mediocre barato → venta mecánica por precio (Graham +50%, Templeton rotación al 50% mejor, Lynch stalwarts +30-50%); ultra-calidad → venta solo por deterioro del negocio (Fisher 'casi nunca', Lynch 'dejar correr los tenbaggers', la ironía GEICO). Mezclar las dos reglas es el error letal: vender el compounder por valoración o mantener el cigar-butt por cariño.",
+          "HILO 5 — Concentración solo con conocimiento superior verificado: Templeton-1939 diversificó en 104 porque NO analizaba empresa a empresa; Fisher y Graham-GEICO concentraron porque su edge era profundo y verificado (scuttlebutt de 5+ fuentes; 50% del capital de la empresa). El tamaño de posición debe ser función del tipo de edge, no de la convicción sentida.",
+          "Fuentes principales: valuewalk.com (La Quinta), fool.com y Forbes (Lynch tenbaggers, Templeton 1939), Wikipedia (P. Fisher, J. Templeton, B. Graham, Oaktree), thewisdomcompounder.com y MoneyWeek/Everand (Fisher Motorola/TI), uk.advfn.com-Glen Arnold (Templeton Japón PER 4 vs 19.5), Institutional Investor y LA Business Journal (Marks fondo $10.9B, $600M/semana, TIR 31.5%), ifa.com y sabercapitalmgt.com (Graham GEICO $712k→$400M)."
+        ]
+      },
+      "traps": {
+        "topic": "FRENTE D — Trampas de valor: taxonomía, señales cuantificables de detección y el discriminador temporal-vs-estructural, convertido en checklist con umbrales para el eje VALORACIÓN de Felipe",
+        "key_findings": [
+          {
+            "finding": "TAXONOMÍA (6 arquetipos): (1) Melting ice cube — negocio en declive terminal cuyo cash se reinvierte en defender lo indefendible (Kodak, Blockbuster); la trampa no es el declive per se sino declive + mala reinversión (tabaco declinaba y funcionó porque distribuyó el cash). (2) Disrupción estructural disfrazada de ciclo — el mercado la valora como bache cíclico cuando es pérdida permanente de posición competitiva (Nokia 2008-12, Intel 2020-24). (3) Peak earnings cíclico a PER bajo — earnings inflados en pico de ciclo hacen que el PER spot parezca ganga. (4) Dividend trap — yield alto por colapso del precio, no por salud del negocio. (5) Capital allocation destructivo — EPS sostenido con buybacks financiados con deuda mientras el negocio se encoge (IBM 2013-20, GE pre-2018). (6) Cheap-for-a-reason estancado — óptica de múltiplo bajo perpetuo sin catalizador porque el ROIC apenas cubre el WACC (IBM, posiblemente BABA/PYPL — estos dos aún sin veredicto histórico).",
+            "evidence": "HECHO los casos históricos (Kodak quiebra 2012; Blockbuster 2010; Intel: margen bruto 58.1% en 2021 → 47.3% en 2022 → 35.4% GAAP en Q2-2024, ventas foundry $27.5B→$18.9B en 2023, recorte de dividendo feb-2023). INFERENCIA la agrupación en 6 arquetipos (síntesis propia de la literatura, no existe taxonomía canónica única).",
+            "source": "SEC 8-K Intel FY2023/Q1-2024; Tom's Hardware; Seeking Alpha 'Intel Remains A Value Trap' (2023); Platformonomics 'IBM's Lost Decade' (2020)",
+            "quantifiable_signal": "Cada arquetipo mapea a un test numérico distinto (ver checklist): ice cube → revenue/share real; disrupción → margen bruto + cuota; cíclico → earnings normalizados 10 años; dividendo → cobertura FCF; capital allocation → buybacks vs FCF y deuda; cheap-for-a-reason → ROIC-WACC spread persistente."
+          },
+          {
+            "finding": "BASE RATE DE TURNAROUNDS (el número más importante del frente): solo ~30% de las empresas logran una recuperación sostenida (definida como 3 años de retornos sobre el costo de capital tras 2 años por debajo), en muestra de ~1,200 empresas de tecnología y retail. Implicación directa: cualquier tesis que REQUIERA turnaround debe exigir MoS mucho mayor que la zona GANGA estándar del 25%, porque la probabilidad a priori de éxito es ~1 de 3.",
+            "evidence": "HECHO — investigación de Michael Mauboussin (Credit Suisse/Counterpoint Global), citada en múltiples resúmenes de su trabajo sobre base rates.",
+            "source": "Mauboussin, 'The Base Rate Book' y ensayos Counterpoint Global; resúmenes en NYCIF.org y compcap.substack.com",
+            "quantifiable_signal": "Regla dura: si la tesis depende de reversión de márgenes/ROIC deprimidos, exigir MoS ≥40% (no 25%) y ponderar el escenario pesimista con probabilidad ≥50% (no la simétrica habitual), reflejando el base rate de 30% de éxito."
+          },
+          {
+            "finding": "PERSISTENCIA Y FADE DEL ROIC: la reversión a la media del ROIC hacia el costo de capital es la fuerza dominante, PERO existe persistencia real en los extremos — ~41% de las empresas del quintil superior de ROIC siguen ahí 9-10 años después, y 64% permanecen en los dos quintiles superiores. Simétricamente, 39% de las del quintil inferior siguen abajo. Traducción: la calidad extrema persiste más de lo que asume la reversión ingenua, y la basura también persiste — 'barato porque es malo' tiende a SEGUIR siendo malo.",
+            "evidence": "HECHO — datos de Mauboussin (Counterpoint Global, 'Return on Invested Capital') y estudios de reversión ROIC replicados por Greenbackd.",
+            "source": "morganstanley.com/im (paper ROIC de Mauboussin); greenbackd.com 'ROIC and reversion to the mean' partes 1-3",
+            "quantifiable_signal": "En el DCF de Felipe: para empresas del quintil inferior de ROIC sectorial, modelar fade del ROIC hacia WACC en ≤5 años (no asumir recuperación). Señal de trampa: ROIC en descenso 3 años consecutivos Y ROIC incremental (Δ NOPAT / Δ capital invertido) < WACC."
+          },
+          {
+            "finding": "F-SCORE DE PIOTROSKI como primer filtro anti-trampa: 9 tests binarios (4 rentabilidad, 3 apalancamiento/liquidez, 2 eficiencia). Puntuación 0-2 = trampa probable; 8-9 = valor genuino probable. En el paper original (2000) la estrategia mejoró retornos ~7.5%/año en universo de P/B bajo, y el hedge long-alto/short-bajo generó ~23% anual. Crítico: fue diseñado para universos BARATOS (P/B bajo), no como score standalone — encaja exactamente con el caso de uso de Felipe (empresa QG que cae a zona GANGA). Señal adicional: la TENDENCIA del score (8→6→4 en dos años) es deterioro sistemático multi-dimensión.",
+            "evidence": "HECHO — Piotroski, 'Value Investing: The Use of Historical Financial Statement Information' (Journal of Accounting Research, 2000).",
+            "source": "quant-investing.com/blog/piotroski-f-score-complete-guide; alphaarchitect.com sobre mejoras al F-Score; grokipedia.com/page/Piotroski_F-score",
+            "quantifiable_signal": "Umbral: exigir F-Score ≥7 para comprar en zona GANGA; ≤4 = knock-out; caída de ≥2 puntos vs hace 2 años = bandera roja aunque el nivel sea aceptable."
+          },
+          {
+            "finding": "ACCRUALS (Sloan 1996), el detector de earnings de mentira: los accruals altos (beneficio contable muy por encima del cash flow) son menos persistentes que el cash flow, el mercado no lo descuenta, y el hedge long-accruals-bajos/short-altos rindió ~12% anual durante décadas. Para detección de trampas: una empresa 'barata por PER' cuyo beneficio es mayormente accruals está más barata en papel que en caja — el PER real es más alto de lo que parece.",
+            "evidence": "HECHO — Sloan (1996), The Accounting Review; anomalía documentada y persistente hasta ~2002, debilitada después pero válida como señal de calidad de beneficios.",
+            "source": "quantpedia.com/strategies/accrual-anomaly; Lev & Nissim 'The Persistence of the Accruals Anomaly' (Columbia/NYU)",
+            "quantifiable_signal": "Accruals ratio = (Beneficio neto − CFO) / Activos totales. Umbral: >10% = knock-out; 5-10% = bandera amarilla, investigar. Complementa el uso de owner earnings que Felipe ya hace en su DCF (mismo espíritu: cash manda)."
+          },
+          {
+            "finding": "QUALITY MINUS JUNK (AQR — Asness, Frazzini, Pedersen 2013/2019): quality definido como media de 4 dimensiones (profitability, growth, safety, payout) genera retornos ajustados por riesgo positivos en EE.UU. y 23 países más, y el mercado paga por la calidad una prima 'sorprendentemente modesta'. Doble lectura para Felipe: (a) valida comprar calidad sin miedo a pagar múltiplo razonable; (b) el lado 'junk' del factor ES la definición académica de trampa — no rentable, estancada, insegura, sin payout — y funciona como short, es decir, esas empresas destruyen valor de forma sistemática.",
+            "evidence": "HECHO — Asness, Frazzini & Pedersen, 'Quality Minus Junk', Review of Accounting Studies 2019 (working paper 2013).",
+            "source": "aqr.com/Insights/Research/Working-Paper/Quality-Minus-Junk; SSRN abstract 2312432",
+            "quantifiable_signal": "Construir mini-score QMJ de 4 bloques con datos que Felipe ya calcula: profitability (GP/Assets, ROE, CFO/Assets), growth (Δ 5 años de esos mismos ratios), safety (beta baja, leverage, volatilidad de ROE, Altman Z), payout (emisión neta de acciones negativa). Empresa en el tercil inferior compuesto = junk = no comprar por barata que esté."
+          },
+          {
+            "finding": "PEAK EARNINGS CÍCLICO (Peter Lynch): en cíclicas la lógica del PER se INVIERTE — PER bajo suele señalar pico de ciclo (earnings inflados) y PER alto suele señalar fondo (earnings deprimidos a punto de recuperar). 'Comprar una cíclica tras varios años de earnings récord y cuando el PER toca mínimos es un método probado para perder la mitad de tu dinero rápidamente.' El PWFV de Felipe es vulnerable aquí: PER justificado, EV/EBITDA y P/FCF sobre earnings de pico dan un valor intrínseco inflado exactamente cuando más peligroso es.",
+            "evidence": "HECHO — Peter Lynch, 'One Up on Wall Street' / 'Beating the Street'; regla ampliamente documentada.",
+            "source": "peterlynchinvestor.com/why-do-low-p-e-ratio-cyclicals-make-bad-investments; Yahoo Finance 'Peter Lynch: How to Invest in Cyclical Stocks'",
+            "quantifiable_signal": "Detector de pico: márgenes operativos actuales > percentil 80 de los últimos 10 años Y PER spot < 10 → presunción de peak earnings. Corrección en PWFV: para cíclicas, sustituir earnings TTM por earnings mid-cycle = margen operativo medio de 10 años × ingresos actuales, o beneficio medio de 7-10 años (PER tipo Graham/Shiller de empresa)."
+          },
+          {
+            "finding": "DIVIDEND TRAP — regla de acumulación de señales: yield alto por colapso de precio, no por negocio. Ninguna señal aislada es concluyente; la trampa se confirma cuando coinciden 3+: payout >100% del beneficio, cobertura FCF <1.0x, yield >2x la mediana sectorial (o >6% absoluto), deuda neta/EBITDA >4x, y precio en caída sostenida. Caso Intel como prueba del algoritmo: payout ratio saltó de 28% (2021) a 79% (2022) mientras el margen bruto se hundía — el recorte de feb-2023 era detectable con un año de antelación.",
+            "evidence": "HECHO los datos de Intel (payout 28%→79%, recorte feb-2023) y las métricas estándar; los umbrales exactos (6%, 4x) son consenso de práctica, no paper académico — INFERENCIA razonable.",
+            "source": "Seeking Alpha 'Intel: Dividend Should Have Been Cut Completely' (2023); Benzinga '5-Point Framework' (abr-2026); tokenist.com dividend yield trap",
+            "quantifiable_signal": "Knock-out de dividendo: FCF/dividendos <1.0x durante 2 años consecutivos O payout >90% con beneficios en descenso. Bandera amarilla: yield >2x mediana del sector."
+          },
+          {
+            "finding": "CAPITAL ALLOCATION DESTRUCTIVO — el test IBM: entre 2012-2020 IBM gastó $55B+ en buybacks (más que su capex), los ingresos cayeron 28% (~$30B), el beneficio neto cayó 41%, y la deuda subió +$34B (2.7x EBITDA sin contar $17.1B de pensiones no fondeadas). El EPS parecía estable SOLO por la reducción de acciones. Patrón general: buybacks + deuda creciente + ingresos decrecientes = la dirección compra tiempo con ingeniería financiera. GE pre-2018 es el mismo patrón con adquisiciones caras en el pico (Alstom) y recompras a precios altos justo antes del colapso.",
+            "evidence": "HECHO — cifras de IBM documentadas (Platformonomics, Seeking Alpha, Damodaran 'The buyback monster').",
+            "source": "platformonomics.com/2020/02/ibms-lost-decade; pages.stern.nyu.edu/adamodar 'buybackmonster'; Seeking Alpha 4396370",
+            "quantifiable_signal": "Test de 3 condiciones simultáneas durante 3 años: (1) buybacks + dividendos > 100% del FCF, (2) deuda neta creciente, (3) revenue per share real (ajustado por inflación) plano o decreciente → knock-out por capital allocation. El divisor clave es revenue PER SHARE: neutraliza el maquillaje de los buybacks."
+          },
+          {
+            "finding": "INSIDERS — asimetría compra/venta: las compras de insiders predicen retornos (+6% a +10.2% anual de outperformance según estudio y periodo); las ventas son mucho menos informativas (motivos inocuos: diversificación, impuestos). La señal fuerte es el CLUSTER BUYING: compras de ≥3 insiders en ventana corta rinden casi 2x más que compras aisladas (3.8% vs 2.0% a 21 días; brecha de 2.5pp a 90 días). Las operaciones 'oportunistas' (irregulares) predicen; las 'rutinarias' (calendarizadas) no.",
+            "evidence": "HECHO — literatura académica resumida por 2iQ Research e InsideArbitrage; Cohen, Malloy & Pomorski 'Decoding Inside Information' (JF 2012) para rutinarias vs oportunistas.",
+            "source": "2iqresearch.com/blog/profiting-from-insider-transactions; insidearbitrage.com/academic-research-related-to-insider-trading",
+            "quantifiable_signal": "En una caída >40% del precio de una candidata: cluster buying (≥3 insiders comprando en 90 días) = evidencia a favor de 'temporal'; CERO compras de insiders tras 12 meses de precio deprimido = bandera de que quienes más saben no ven el suelo. Insider selling aislado = ruido, ignorar; cluster selling del C-suite + guidance recortado = bandera."
+          },
+          {
+            "finding": "EL DISCRIMINADOR TEMPORAL vs ESTRUCTURAL — síntesis Mauboussin/Damodaran en 5 preguntas: (1) ¿El problema es de DEMANDA DEL SECTOR (ciclo, macro — recuperable) o de CUOTA (la empresa pierde vs competidores — estructural)? Ingresos cayendo mientras el mercado del sector crece = estructural casi siempre. (2) ¿El MARGEN BRUTO aguanta? El margen bruto es el poder de fijación de precios destilado; su erosión sostenida es la huella dactilar de la disrupción (Intel: −2,270bps en 3 años). Margen operativo puede caer por inversión temporal; el bruto no miente. (3) ¿El ROIC INCREMENTAL supera el WACC? Si el capital nuevo ya no renta, el moat está roto aunque el ROIC promedio siga alto por el negocio legacy. (4) ¿Los UNIT ECONOMICS (precio unitario, retención de clientes, volumen por cliente) están intactos? (5) ¿Qué asume el DCF INVERSO? Damodaran: la trampa es un problema de PRICING vs VALUE — si el precio 'barato' ya descuenta un declive que los drivers (crecimiento, margen, reinversión, riesgo) confirman, no hay MoS real. Felipe ya tiene el DCF inverso como cross-check: aquí se convierte en el arma principal.",
+            "evidence": "INFERENCIA (síntesis propia) construida sobre HECHOS: framework pricing-vs-value de Damodaran, base rates de Mauboussin, y los casos Intel/IBM/Nokia. No existe un paper único con estas 5 preguntas; es la destilación operativa de la literatura.",
+            "source": "aswathdamodaran.blogspot.com (pricing vs value); Mauboussin Base Rate Book; casos documentados arriba",
+            "quantifiable_signal": "Scorecard 0-5 (una pregunta = 1 punto a favor de 'temporal'): 4-5 = oportunidad probable, proceder con MoS estándar; 3 = zona gris, exigir MoS 40%; 0-2 = trampa, no comprar a ningún precio. Umbrales de las preguntas: cuota → ingresos empresa vs crecimiento del sector (fuentes: 10-K de competidores); margen bruto → erosión >300bps acumulada en 8 trimestres = estructural; ROIC incremental = ΔNOPAT₃ₐ/Δcapital invertido₃ₐ < WACC = roto."
+          },
+          {
+            "finding": "COHERENCIA CON EL SISTEMA QG EXISTENTE: el detector de trampas es conceptualmente el ESPEJO del eje calidad — casi todas las señales (ROIC, margen bruto, accruals/owner earnings, deuda) ya se calculan en las 11 reglas Seilern. La diferencia es DIRECCIONAL y TEMPORAL: el QG mide nivel absoluto de calidad; el detector mide DERIVADA (tendencia 2-3 años) y la contrasta con el precio. Esto respeta la regla de Felipe de no mezclar ejes: calidad = nivel (eje 1), trampa = deterioro del nivel mientras el precio parece barato (guardián del eje 2). Una empresa puede puntuar 9/13.5 en QG y aún así ser trampa si todos sus ratios van en la dirección equivocada.",
+            "evidence": "INFERENCIA — implicación de diseño derivada de comparar las señales investigadas con el sistema QG de Felipe ya construido (memoria: qg-sistema-seilern-calibrado).",
+            "source": "Síntesis propia sobre la espec en Research/QG_Sistema/ y la literatura de este frente",
+            "quantifiable_signal": "Implementación: el detector corre SOLO cuando una empresa entra en zona OPORTUNIDAD o GANGA (descuento ≥15% sobre PWFV), como compuerta previa a la compra. Output binario + score: PASA (comprar), GRIS (MoS 40%), TRAMPA (knock-out del eje valoración, sin tocar su score de calidad)."
+          }
+        ],
+        "checklist_items": [
+          "COMPUERTA 1 — F-Score Piotroski: calcular los 9 tests; exigir ≥7 para comprar en GANGA; ≤4 = knock-out; caída de ≥2 puntos vs hace 2 años = bandera roja aunque el nivel actual sea ≥7",
+          "COMPUERTA 2 — Accruals (Sloan): (Beneficio neto − CFO) / Activos totales; >10% = knock-out; 5-10% = investigar antes de seguir; cross-check natural con los owner earnings del DCF",
+          "MARGEN BRUTO (la huella de la disrupción): erosión acumulada >300 bps en 8 trimestres = presunción de deterioro ESTRUCTURAL; el margen operativo puede caer por inversión, el bruto no miente (Intel: −2,270 bps en 3 años era inequívoco)",
+          "REVENUE PER SHARE real: CAGR 3 años ajustado por inflación ≤0% mientras hay buybacks activos = posible melting ice cube maquillado; usar SIEMPRE per share para neutralizar recompras (test que IBM 2013-20 suspende)",
+          "ROIC en derivada: 3 años consecutivos de descenso + ROIC incremental (ΔNOPAT₃ₐ/Δcapital₃ₐ) < WACC = moat roto aunque el ROIC promedio siga alto por el legacy",
+          "CUOTA vs CICLO: si los ingresos de la empresa caen mientras el mercado del sector CRECE (comparar con 2-3 competidores en sus 10-K) = pérdida de cuota = estructural; si todo el sector cae a la vez = ciclo = potencialmente temporal",
+          "CÍCLICAS — nunca PER spot: si margen operativo actual > percentil 80 de 10 años Y PER < 10 = presunción de peak earnings; en el PWFV sustituir earnings TTM por mid-cycle (margen medio 10 años × ingresos actuales)",
+          "DIVIDENDO: knock-out si FCF/dividendos <1.0x dos años seguidos O payout >90% con beneficios cayendo; bandera si yield >2x mediana sectorial o >6% absoluto (Intel era detectable 12 meses antes del recorte: payout 28%→79%)",
+          "CAPITAL ALLOCATION (test IBM, 3 condiciones simultáneas durante 3 años): buybacks+dividendos >100% del FCF + deuda neta creciente + revenue/share real plano → knock-out",
+          "APALANCAMIENTO: deuda neta/EBITDA >4x en negocio con márgenes erosionándose = amplificador de trampa (el equity puede valer cero aunque el negocio sobreviva)",
+          "INSIDERS: tras caída >40%, cluster buying (≥3 insiders en 90 días) = punto a favor de temporal; cero compras en 12 meses de precio deprimido = bandera; ventas aisladas = ruido, ignorar",
+          "SCORECARD DISCRIMINADOR (5 preguntas, 1 punto cada una a favor de 'temporal'): ¿problema de sector y no de cuota? ¿margen bruto estable? ¿ROIC incremental > WACC? ¿unit economics intactos? ¿el DCF inverso muestra expectativas implícitas MÁS pesimistas que los fundamentales? → 4-5 = oportunidad; 3 = MoS 40%; 0-2 = trampa, no comprar a ningún precio",
+          "BASE RATE DE TURNAROUND: si la tesis REQUIERE recuperación de márgenes/ROIC deprimidos, la probabilidad a priori de éxito es ~30% (Mauboussin) → exigir MoS ≥40% (no el 25% de GANGA) y escenario pesimista con peso ≥50% en el árbol probabilístico",
+          "TENDENCIA MULTI-SEÑAL: ninguna señal aislada condena; 3+ señales simultáneas en rojo = trampa con alta confianza (mismo principio de acumulación que en dividend traps)",
+          "TIMING DE EJECUCIÓN: correr el detector completo SOLO cuando una empresa QG entra en zona OPORTUNIDAD/GANGA, como compuerta previa a la orden de compra; re-correrlo trimestralmente sobre posiciones con drawdown >25%"
+        ],
+        "design_questions": [
+          "¿El detector actúa como KNOCK-OUT binario (excluye la compra) o como PENALIZADOR gradual del MoS exigido (25%→40%→infinito)? Propuesta: híbrido de 3 salidas (PASA / GRIS con MoS 40% / TRAMPA knock-out), coherente con el diseño híbrido knock-out+score del sistema QG — pero Felipe debe calibrar dónde corta cada nivel.",
+          "¿Se aplica el detector también a las POSICIONES EXISTENTES (SPGI/MSFT/VEEV y resto de cartera IBKR) como revisión trimestral de deterioro, o solo a candidatas nuevas en zona de compra? Afecta al cuadro de mando semáforo ya existente.",
+          "Para empresas del universo QG (calidad ya filtrada), casi todas pasarán el F-Score con 7-9 — ¿riesgo de saturación como pasó con el 13.5 de Seilern? ¿Conviene usar la TENDENCIA del F-Score (derivada) como señal principal en vez del nivel?",
+          "¿Cómo integrar el earnings mid-cycle de cíclicas en el PWFV sin romper la mecánica actual — sustituir el input de earnings en los 5 métodos, o añadir un sexto método 'PER normalizado' con su propia ponderación? ¿Y qué empresas de su watchlist cuentan como 'cíclicas' (TSM, por ejemplo)?",
+          "¿El scorecard discriminador de 5 preguntas se responde manualmente (juicio de Felipe con datos) o se automatiza parcialmente en el futuro skill? Las preguntas de cuota y unit economics requieren datos de competidores que no salen de un screener.",
+          "¿Peso del insider signal? Es la señal con más ruido y la única no derivada de estados financieros — ¿entra al scorecard como sexta pregunta, como desempate en casos GRIS, o se descarta por complejidad de seguimiento?",
+          "Umbral del margen bruto (300 bps / 8 trimestres) — ¿se ajusta por sector? En software con transición a cloud una erosión temporal de margen bruto puede ser inversión (caso Adobe/ADBE que Felipe ya analizó), no disrupción; ¿excepción explícita para transiciones de modelo de negocio declaradas?"
+        ]
+      },
+      "methods": {
+        "topic": "FRENTE E — Metodologías de valor intrínseco: owner earnings, DCF inverso, EPV, Damodaran, calibración del MoS y críticas al PEG/múltiplos — evaluadas contra la metodología casa PWFV de Felipe",
+        "key_findings": [
+          {
+            "finding": "HECHO — Owner earnings (Buffett, carta 1986): beneficio reportado + D&A y otros cargos no-cash − capex de MANTENIMIENTO promedio (no capex total). Es 'lo que el dueño puede extraer dejando la posición competitiva intacta'. La metodología casa ya lo usa como base del DCF (bien), pero el punto crítico es QUÉ capex se resta y QUÉ no-cash se suma.",
+            "evidence": "Definición original en la carta 1986 (apéndice Scott Fetzer): '(a) reported earnings plus (b) depreciation, depletion, amortization... less (c) the average annual amount of capitalized expenditures for plant and equipment'. Buffett usaba promedios porque en 1986 ni existía el estado de flujos obligatorio.",
+            "source": "oldschoolvalue.com/what-is-owner-earnings/ ; stablebread.com/warren-buffett-owners-earnings/",
+            "quantifiable_signal": "Regla: owner earnings = NI + D&A + otros no-cash NO recurrentes − capex mantenimiento − SBC (ver hallazgo 2). Usar promedio 3-5 años de capex mantenimiento, no el del último año."
+          },
+          {
+            "finding": "HECHO — SBC nunca se suma de vuelta (Damodaran): aunque es 'no-cash', la compensación en acciones diluye a los dueños y es un coste operativo real y recurrente; sumarla infla el FCF/owner earnings sistemáticamente. Es EL error de normalización más común en empresas tech tipo QG (MSFT, VEEV, DUOL de la cartera de Felipe tienen SBC de 5-25% de ventas).",
+            "evidence": "Damodaran: SBC 'debe reconocerse reduciendo los márgenes operativos'; no se suma a NI para llegar a FCFE porque la empresa seguirá emitiéndola. Adicional: opciones vivas se valoran (Black-Scholes) y se restan del equity value; usar diluted shares no basta.",
+            "source": "aswathdamodaran.blogspot.com/2014/02/stock-based-employee-compensation-value.html ; stern.nyu.edu (Why Investors Should Be Wary of Stock-Based Compensation)",
+            "quantifiable_signal": "Checklist binario: owner earnings casa = FCF − 100% SBC del período. Bandera roja si SBC/ventas > 10% o si SBC crece más rápido que ventas 3 años seguidos."
+          },
+          {
+            "finding": "HECHO — Capex mantenimiento vs crecimiento, método Greenwald: growth capex = (PPE bruto/ventas promedio 5 años) × Δventas del año; maintenance capex = capex total − growth capex. Da un owner earnings más alto (y más justo) para compounders que reinvierten mucho en crecer. Limitación: falla en negocios commodity intensivos en capital.",
+            "evidence": "Método documentado en los materiales de Greenwald (Value Investing: From Graham to Buffett and Beyond). Alternativa rápida: usar depreciación como proxy de mantenimiento y comparar ambos como rango.",
+            "source": "oldschoolvalue.com/stock-valuation/calculating-maintenance-capital-expenditure/ ; scribd.com/document/208712243",
+            "quantifiable_signal": "Calcular maintenance capex por 2 vías (Greenwald y depreciación ajustada por inflación); si difieren >25%, usar la más conservadora. En asset-light software: maintenance capex ≈ depreciación y el ajuste grande es SBC, no capex."
+          },
+          {
+            "finding": "HECHO — Expectations investing (Mauboussin-Rappaport): invertir el proceso — el precio es el dato más fiable; se extraen las expectativas implícitas (PIE: price-implied expectations, típicamente el período de crecimiento/ventas/margen/capital que justifica el precio) y luego se juzga si son alcanzables usando análisis competitivo y base rates. Argumentan que esto EVITA el sesgo de anclaje del DCF tradicional (donde uno 'tortura' los inputs hasta justificar lo que quiere).",
+            "evidence": "Libro 'Expectations Investing' (ed. revisada 2021, Columbia UP): 'stock prices are the clearest and most reliable signal of the market's expectations'. Proceso: (1) leer expectativas con DCF inverso, (2) anticipar revisiones de expectativas, (3) decidir comprar/vender. Mauboussin complementa con base rates (Base Rate Book): <5% de las empresas grandes sostienen crecimiento de ventas >20% anual por 10 años.",
+            "source": "expectationsinvesting.com ; cup.columbia.edu/book/expectations-investing/9780231554848 ; fool.com/investing/2022/01/19/expectations-investing-qanda-mauboussin-rappaport/",
+            "quantifiable_signal": "Elevar el DCF inverso de cross-check a PASO 1 obligatorio con veredicto propio en 3 niveles: expectativas implícitas BAJAS (g implícito < percentil 25 de la historia propia y de base rates del sector), RAZONABLES, o HEROICAS (g implícito requiere estar en el ~5% superior histórico). Comprar solo cuando el veredicto sea BAJAS o RAZONABLES-con-catalizador."
+          },
+          {
+            "finding": "HECHO — EPV de Greenwald (earnings power value): valor sin crecimiento = NOPAT normalizado y sostenible / WACC (restando solo maintenance capex, ignorando growth capex). Sirve como SUELO de valoración y como detector de cuánto del precio actual es pura promesa de crecimiento. Si EPV > valor de reproducción de activos, hay franquicia/moat; el 'growth value' solo vale dentro de la franquicia.",
+            "evidence": "Framework de Greenwald (Columbia): tres capas — asset/reproduction value, EPV, growth value. EPV es 'más conservador y menos sensible a errores de forecast' porque asume g=0.",
+            "source": "wallstreetprep.com/knowledge/earnings-power-value-epv/ ; stablebread.com/earnings-power-value/ ; acquirersmultiple.com/2021/12/bruce-greenwald-how-to-value-growth/",
+            "quantifiable_signal": "Añadir métrica 'peso del crecimiento en el precio' = 1 − (EPV por acción / precio). Umbral sugerido: si >60% del precio depende de crecimiento futuro, exigir zona GANGA (≥25% dcto sobre PWFV) aunque el QG sea alto; si <35%, el suelo EPV ya protege y se puede tolerar zona JUSTO."
+          },
+          {
+            "finding": "HECHO — Damodaran, errores comunes de DCF: (1) el error más dañino es la sobre-optimismo en márgenes y crecimiento (analistas proyectan márgenes 15-20% cuando la media global de margen neto es ~5.5%); (2) crecimiento terminal jamás > PIB nominal (~2-3%) y como regla práctica ≤ tasa libre de riesgo; (3) que el terminal value sea 70-80% del valor NO invalida el DCF (es la naturaleza del equity); (4) toda cifra debe tener historia y toda historia cifra ('a story without numbers is a fairy tale') — el test es la coherencia narrativa-números, no la precisión decimal.",
+            "evidence": "Blog Musings on Markets (DCF Myths series, 2015-2016) y 'Narrative and Numbers' (2017). Myth 5.5: 'The Terminal Value ate my DCF'.",
+            "source": "aswathdamodaran.blogspot.com/2016/11/myth-55-terminal-value-ate-my-dcf.html ; pages.stern.nyu.edu/~adamodar/pdfiles/country/narrative&numbers.pdf",
+            "quantifiable_signal": "Checks automáticos en el DCF casa: g terminal ≤ min(3%, risk-free); margen proyectado año 10 ≤ máximo histórico propio × 1.1 salvo justificación escrita; ROIC implícito terminal ≤ WACC + 10pts salvo moat verificado (QG ≥ umbral); si TV/valor > 85%, alargar el período explícito, no descartar el modelo."
+          },
+          {
+            "finding": "HECHO — Calibración del MoS en los grandes: Graham exigía ~50% (comprar a ≤2/3 del valor neto); Pabrai (Dhandho) compra a ~50 céntimos por dólar y vende a ~90 ('heads I win, tails I don't lose much': upside grande, downside casi nulo — la asimetría importa más que el punto medio); Buffett post-Munger acepta 'precio justo' (fair) por negocios wonderful — Coca-Cola 1988 a ~15× earnings, nada barato en términos Graham. Munger: la calidad ES parte del margen de seguridad porque el valor intrínseco crece con el tiempo (el tiempo es amigo del buen negocio). INFERENCIA operativa: el MoS exigible debe ser función inversa de la calidad — pero con techo, porque 'quality at any price' es el modo de fallo simétrico.",
+            "evidence": "Cita canónica Munger→Buffett ('far better to buy a wonderful company at a fair price'); caso KO 1988 ($1B a ~15×, llegó a >$25B). Nota adversarial: análisis CNBC (ago-2025) cuestiona empíricamente que 'wonderful at fair' rinda más que 'fair at wonderful' en backtests — la frase es filosofía de compounding, no ley cuantitativa.",
+            "source": "acquirersmultiple.com/2023/05/warren-buffett-buys-wonderful-companies-cheap/ ; cnbc.com/2025/08/24/challenging-buffett... ; chaiwithpabrai.com (Q&A HBS 2022) ; elearnmarkets.com (Dhandho summary)",
+            "quantifiable_signal": "MoS escalonado por score QG /100: QG ≥ 85 → comprar desde JUSTO-bajo (dcto ≥10%) con entrada en tramos; QG 70-84 → exigir OPORTUNIDAD (≥15-20%); QG < 70 o con knock-out → exigir GANGA (≥30%) o pasar. Techo anti-'quality at any price': nunca comprar con dcto negativo (zona CARO) por alto que sea el QG."
+          },
+          {
+            "finding": "HECHO — Críticas al PEG (Damodaran): el PEG NO neutraliza el efecto crecimiento — lo enreda más (la relación P/E-crecimiento no es lineal; depende de payout, riesgo y duración del crecimiento), y el sesgo castiga especialmente a empresas de bajo crecimiento y alta calidad (parecen 'caras' por PEG siendo baratas). PEG=1 como ancla de 'fair' no tiene fundamento teórico. Crítica general a múltiplos: son PRICING (qué paga el mercado por comparables), no VALUE (qué vale el activo); mezclarlos en una media con el DCF contamina la estimación de valor intrínseco con el humor del mercado — exactamente lo que el DCF intenta filtrar.",
+            "evidence": "Damodaran, notas PEG Ratios (Stern): 'PEG ratios do not neutralize the growth effect... the bias is worse for low growth stocks'. Mauboussin (Counterpoint Global, 'Valuation Multiples'): un múltiplo es una abreviatura del DCF, no una valoración independiente; usado sin sus drivers implícitos es circular.",
+            "source": "pages.stern.nyu.edu/~adamodar/pdfiles/eqnotes/peg.pdf ; morganstanley.com/im/publication/insights/articles/article_valuationmultiples.pdf",
+            "quantifiable_signal": "Sacar el PEG del PWFV (peso 0) o degradarlo a bandera cualitativa. Mejor sustituto: PER justificado ya lo cubre. Regla de coherencia: si los múltiplos (pricing) y el DCF (value) divergen >30%, no promediar — investigar cuál historia está mal."
+          },
+          {
+            "finding": "INFERENCIA — Diagnóstico de la metodología casa PWFV: la media ponderada mezcla dos ejes epistemológicos distintos (valor intrínseco: DCF; pricing relativo: PER/EV-EBITDA/P-FCF/PEG). Eso amortigua errores del DCF (virtud) pero también arrastra el ancla del mercado hacia el 'valor' (vicio): en burbujas sectoriales los múltiplos justificados suben y el PWFV valida precios caros. Conservar la estructura multi-método y los 3 escenarios probabilísticos (alineado con Damodaran y con el enfoque probabilístico de Mauboussin), pero separar la salida en dos números: VALOR (DCF owner earnings + EPV como suelo) y PRICING (múltiplos como contexto), con el DCF inverso como árbitro entre ambos.",
+            "evidence": "Se deriva de: Damodaran (múltiplos = pricing ≠ value), Mauboussin (múltiplos son abreviaturas del DCF), Greenwald (EPV como capa de valor independiente del forecast). Los 3 escenarios y el WACC input-a-input de Felipe son mejores prácticas explícitas de Damodaran (distribuciones de valor, no un punto).",
+            "source": "Síntesis de las fuentes anteriores",
+            "quantifiable_signal": "Nueva arquitectura sugerida: (1) DCF inverso → veredicto de expectativas; (2) EPV → suelo y % del precio en crecimiento; (3) DCF 3 escenarios → PWFV-Valor (rango, no punto); (4) múltiplos → sanity band de pricing; (5) zonas GANGA/OPORTUNIDAD/JUSTO calculadas SOLO contra PWFV-Valor, con umbral de MoS modulado por QG."
+          },
+          {
+            "finding": "INFERENCIA — Detector de trampas de valor derivado de este frente: una 'trampa' es casi siempre un EPV que se erosiona (earnings power no sostenible) o expectativas implícitas BAJAS que son bajas con razón. Señales combinables: EPV decreciente 3 años seguidos; ROIC < WACC en 2 de últimos 5 años; DCF inverso implica g < 0 y aún así el negocio decepciona; FCF sostenido solo por recortar capex de crecimiento; SBC/recompras que no reducen el share count neto.",
+            "evidence": "Derivado del marco Greenwald (EPV sostenible como condición) y Mauboussin (expectativas bajas ≠ oportunidad si la revisión esperada es a la baja). Coherente con la regla casa QG de nunca mezclar calidad y valoración: la trampa de valor es el cuadrante 'parece barato por múltiplos + calidad deteriorándose'.",
+            "source": "Síntesis; frameworks Greenwald y Mauboussin-Rappaport citados",
+            "quantifiable_signal": "Score de trampa 0-5 (1 punto por señal de la lista); ≥3 = veto de compra aunque el descuento sea GANGA. Conecta con el eje QG sin mezclarlo: el QG mide calidad hoy, el detector mide dirección."
+          }
+        ],
+        "checklist_items": [
+          "Owner earnings: restar SIEMPRE el 100% del SBC del período (nunca add-back) y verificar dilución neta de acciones; bandera roja si SBC/ventas >10%.",
+          "Capex: separar mantenimiento vs crecimiento por método Greenwald (PPE bruto/ventas × Δventas = growth capex) Y por depreciación; si difieren >25%, usar el más conservador.",
+          "DCF inverso como PASO 1 (no cross-check): extraer g y margen implícitos en el precio y clasificarlos vs base rates (ej. g ventas >20%/10 años lo sostiene <5% de empresas) → veredicto BAJAS / RAZONABLES / HEROICAS.",
+          "EPV (NOPAT normalizado / WACC) en toda tesis: calcular % del precio que depende de crecimiento = 1 − EPV/precio; si >60%, exigir zona GANGA aunque QG sea alto.",
+          "Checks anti-Damodaran en el DCF: g terminal ≤ min(3%, risk-free); margen año 10 ≤ máximo histórico ×1.1 salvo justificación escrita; ROIC terminal coherente con moat.",
+          "Escribir la 'historia' de 3 líneas que justifica los números de cada escenario (test narrativa-números); si no se puede contar, el número no vale.",
+          "PEG: peso 0 en el PWFV (o ≤5% transitorio); el PER justificado ya captura crecimiento sin el sesgo.",
+          "Separar salida en dos cifras: PWFV-Valor (DCF + EPV suelo) y banda de Pricing (múltiplos); si divergen >30%, investigar antes de promediar — nunca promediar a ciegas.",
+          "MoS escalonado por calidad: QG ≥85 → comprar desde dcto ≥10% en tramos; QG 70-84 → ≥15-20%; QG <70 → ≥30% o pasar; techo: nunca comprar en zona CARO por alto que sea el QG.",
+          "Test Pabrai de asimetría en cada tesis: cuantificar downside del escenario pesimista (¿pierdo <15-20%?) vs upside del optimista (¿gano >80-100%?); ratio upside/downside ≥3:1 para iniciar posición.",
+          "Detector de trampa de valor (score 0-5): EPV decreciente 3 años, ROIC<WACC 2 de 5 años, FCF sostenido recortando growth capex, dilución neta pese a recompras, expectativas implícitas negativas con revisiones a la baja; ≥3 señales = veto."
+        ],
+        "design_questions": [
+          "¿Elevamos el DCF inverso a lente primaria con veredicto propio (BAJAS/RAZONABLES/HEROICAS) que pueda VETAR una compra aunque el PWFV diga GANGA, o lo dejamos como cross-check informativo?",
+          "¿Eliminamos el PEG del PWFV por completo (recomendación Damodaran) o lo mantienes con peso simbólico por continuidad histórica de tus valoraciones previas (ORCL, ADBE)?",
+          "¿Partimos el PWFV en dos salidas — PWFV-Valor (DCF×2 + EPV) y banda de Pricing (PER justificado, EV/EBITDA, P/FCF) — y las zonas GANGA/OPORTUNIDAD/JUSTO se calculan solo contra el Valor?",
+          "MoS escalonado por QG: ¿qué umbrales exactos quieres? Propuesta: QG ≥85 → dcto ≥10% (tramos), 70-84 → ≥15-20%, <70 → ≥30%. ¿Y mantienes la prohibición absoluta de comprar en zona CARO sin excepción por calidad?",
+          "SBC: ¿restamos 100% siempre (Damodaran puro) o permites un ajuste para empresas que demuestran reducción de SBC/ventas 3 años seguidos (evitar castigar dos veces si además usas diluted shares + valor de opciones vivas)?",
+          "EPV: ¿qué umbral de 'peso del crecimiento en el precio' te resulta cómodo como gatillo de exigir GANGA — 50%, 60% o 70%? (Tus convicciones actuales SPGI/MSFT/VEEV probablemente superan 50%.)",
+          "Test de asimetría Pabrai: ¿lo formalizamos como ratio mínimo upside/downside 3:1 usando tus 3 escenarios probabilísticos ya existentes, o como pérdida máxima tolerable en el escenario pesimista (ej. −20%)?",
+          "¿El detector de trampas de valor vive dentro del eje VALORACIÓN (veto de compra) o como módulo tercero independiente, para respetar tu regla de no mezclar calidad (QG) y valoración (MoS)?"
+        ]
+      },
+      "opportunity": {
+        "topic": "FRENTE F — Condiciones repetibles bajo las que ultra-calidad y buen precio coinciden: 5 escenarios, señales medibles en tiempo real, y base rates de frecuencia (Mauboussin, Cembalest, JP Morgan)",
+        "key_findings": [
+          {
+            "finding": "BASE RATE FUNDAMENTAL (Mauboussin/Callahan 2025): las caídas grandes NO son automáticamente oportunidad. HECHO: en 6.500 acciones USA 1985-2024, el drawdown máximo mediano fue -85%, tardó 2,5 años de pico a suelo, y MÁS DE LA MITAD de las acciones nunca recuperó su máximo previo (recuperación mediana: solo 89,6% del pico). Dato clave a favor de la calidad: las MEJORES acciones del período también sufrieron drawdowns medianos de -72% y tardaron 4,3 años en recuperar — es decir, hasta los mega-winners pasan por el purgatorio.",
+            "evidence": "Estudio 'Drawdowns and Recoveries: Base Rates for Bottoms and Bounces', Counterpoint Global (Morgan Stanley), Mauboussin & Callahan, 6.500 acciones 1985-2024. El quintil de mayores drawdowns muestra patrón en 'V' pero sin volver al valor del pico 2 años después del suelo.",
+            "source": "https://www.morganstanley.com/im/publication/insights/articles/article_drawdownsandrecoveries.pdf y https://www.morganstanley.com/im/en-us/individual-investor/insights/consilient-observer/drawdowns-and-recoveries.html",
+            "quantifiable_signal": "Regla de arquitectura: el detector de oportunidades SOLO opera sobre la watchlist pre-aprobada por QG (score ≥ umbral, sin knock-outs). Nunca screening inverso 'qué cayó mucho'. El filtro calidad-primero es lo que invierte el base rate adverso del 50%+ que no recupera."
+          },
+          {
+            "finding": "BASE RATE DE PÉRDIDA CATASTRÓFICA (Cembalest, JP Morgan): HECHO: >40% de todas las empresas que alguna vez estuvieron en el Russell 3000 (1980-2014, ~13.000 empresas) sufrió una 'pérdida catastrófica' definida como caída ≥70% desde máximo SIN recuperación posterior; la acción mediana quedó -54% por debajo del índice en su vida. Las pérdidas catastróficas se aceleran en recesiones pero ocurren a ritmo constante incluso en expansiones.",
+            "evidence": "JP Morgan 'The Agony and the Ecstasy' (Michael Cembalest, ediciones 2004/2014/2017/2021/2024, actualización EMEA jun-2025), universo Russell 3000 1980-2014.",
+            "source": "https://www.jpmorgan.com/content/dam/jpmorgan/documents/wealth-management/the-agony-and-the-ecstasy-2024.pdf",
+            "quantifiable_signal": "Usar como 'prior' adversarial: ante cualquier caída >50%, la probabilidad incondicional de que sea trampa permanente es ~40-50%. Solo el análisis QG previo + test de acotamiento del problema puede mover esa probabilidad. Documentar en cada tesis: '¿qué me hace pensar que esto NO es el 40%?'"
+          },
+          {
+            "finding": "FRECUENCIA DE VENTANAS EN MEGA-CAPS DE CALIDAD: HECHO: Apple cayó >30% desde máximo CUATRO veces desde 2015 (2015-16: -32%; 2018-19: -38%; 2022-23: -31%; 2025: -33%) — una ventana cada ~2,5 años por nombre — y tras el primer cierre -30% retornó en promedio +80% los 12 meses siguientes, recuperando el máximo siempre. Microsoft: drawdown máximo histórico -69% (puntocom 2000), -58% en 2008-09, ~-31% en 2022; promedio -17% en 15 shocks de mercado, -25% en crisis de crédito/liquidez. INFERENCIA: con una watchlist de 20-30 nombres ultra-calidad, la matemática de frecuencias implica 1-3 ventanas serias (-30%+) abiertas casi cada año, y ventanas generalizadas (pánico) cada 4-7 años.",
+            "evidence": "Nasdaq/Motley Fool: 'Apple Stock Dropped 30% From Its High. History Says This Will Happen Next' (4 episodios documentados con fechas y precios); PortfoliosLab/Trefis: Microsoft max drawdown 69,4% desde 1986, -58% en GFC.",
+            "source": "https://www.nasdaq.com/articles/apple-stock-dropped-30-its-high-history-says-will-happen-next y https://portfolioslab.com/symbol/MSFT",
+            "quantifiable_signal": "Configurar alertas automáticas por nombre de watchlist: -25% desde máximo 52 semanas (revisar tesis), -35% (candidato a tramo). Presupuestar liquidez/paciencia sabiendo que la ventana media por nombre llega cada 2-4 años: no perseguir, esperar."
+          },
+          {
+            "finding": "CONDICIÓN 1 — PÁNICO GENERAL DE MERCADO: HECHO: mar-2020 el S&P 500 cayó -34% en ~23 días de trading (el -30% más rápido de la historia), recuperó en 4 meses (lo más rápido en 150 años) y subió +74% en los 12 meses desde el suelo. HECHO: desde 1990, cuando el VIX cruza 40, el S&P 500 está en positivo 12 meses después >90% de las veces, con media >+30% (Wells Fargo); cruce de VIX 30 da probabilidad positiva a 3 semanas de 81,5%. Reconocimiento: el problema NO es de la empresa — sus revisiones de EPS caen mucho menos que su precio. Distinción de deterioro real: en pánico, TODO cae junto (correlaciones ~1); si tu empresa cae sola, no es esta condición.",
+            "evidence": "Wikipedia/Morningstar sobre crash 2020 (-34%, 23 días, recuperación 4 meses); Hartford Funds y Motley Fool sobre VIX>40 y retornos forward (positivo >90% de veces, media +30%).",
+            "source": "https://en.wikipedia.org/wiki/2020_stock_market_crash , https://www.morningstar.com/economy/what-weve-learned-150-years-stock-market-crashes , https://www.hartfordfunds.com/practice-management/client-conversations/managing-volatility/when-fear-runs-high-time-to-buy.html",
+            "quantifiable_signal": "Gatillo compuesto: [S&P 500 drawdown ≥ -25%] Y/O [VIX > 40 sostenido] Y [EPS forward consenso del nombre QG cayó < 1/3 de lo que cayó su precio] → comprar los top-3 del ranking QG que estén en zona GANGA de la PWFV. VIX 30-40 = tramo inicial pequeño; VIX>40 = tramo grande."
+          },
+          {
+            "finding": "CONDICIÓN 2 — PROBLEMA TEMPORAL ACOTADO DE LA EMPRESA (la más rentable históricamente): HECHO AmEx 1964: cayó -43% en 8 meses por el salad oil scandal ($61,81→$35,31); el problema era de UNA subsidiaria con pérdida máxima cuantificable, y el scuttlebutt de Buffett (Henry Brandt entrevistando cajeros, hoteles, restaurantes) verificó que la franquicia estaba intacta; Buffett puso 40% de su partnership. HECHO Meta 2022: -76% pico-a-valle (sep21-oct22, suelo ~$90); el core de ads seguía sano, el problema era capex de metaverso AUTOINFLIGIDO y por tanto reversible por decisión gerencial ('year of efficiency' 2023: +201% net income Q4-23, acción +547% desde el suelo). HECHO Moody's 2008-09: precio de >$70 a <$20 (-70%+) mientras los ingresos solo caían -5% (Q1-09) y -8% (Q2-09): el precio cayó ~10x más que el negocio; en 2010 ingresos +13% y EPS +27%. Nota: hasta Buffett vendió parte a $24-25 en 2009 demasiado pronto.",
+            "evidence": "Fortune/substacks sobre AmEx 1964 (fechas y precios exactos, 40% del portfolio, scuttlebutt); Nasdaq sobre Meta (+547% desde suelo, año de eficiencia); GuruFocus/SEC 8-K de Moody's (revenue -5%/-8% 2009 vs precio -70%).",
+            "source": "https://fortune.com/2024/09/22/warren-buffett-investing-strategy-american-express-stock-scandal/ , https://www.nasdaq.com/articles/heres-the-key-reason-meta-platforms-stock-has-soared-547-from-its-2022-low , https://www.gurufocus.com/news/137224/buffetts-billion-dollar-mistake-with-moodys",
+            "quantifiable_signal": "Triple test cuantitativo: (1) ACOTAMIENTO: poder escribir el problema en una frase con pérdida máxima en $ y expresarla como % de los owner earnings de 1-2 años (si no se puede acotar → pasar); (2) DIVERGENCIA: caída de precio ≥ 3× la caída del consenso EPS FY+1 (Moody's fue ~10:1); (3) MOTOR INTACTO: métricas operativas del motor principal (retención, volumen, pricing) sin deterioro — verificable con datos alternativos/scuttlebutt, no con el precio."
+          },
+          {
+            "finding": "CONDICIÓN 3 — MIEDO SECTORIAL/REGULATORIO EXAGERADO: HECHO: la enmienda Durbin (2010) provocó caídas fuertes de capitalización en Visa/Mastercard, pero la regla golpeaba el interchange que cobran los BANCOS emisores (>$10B activos, -30% de esa línea, $8,2B/año), no el network fee de las redes — el mercado castigó al peaje equivocado; ambas multiplicaron >10x en la década siguiente. HECHO farma 2011: patent cliff de Lipitor (-59% de ingresos del fármaco 2011→2012) llevó a Pfizer a P/B de 1,08 y P/E de un dígito en todo el sector; la década siguiente fue de recuperación sostenida. Reconocimiento: el miedo es a una REGLA o EVENTO externo cuyo impacto en ingresos es calculable ex-ante, y el mercado borra más valor del que la regla puede destruir.",
+            "evidence": "Cato Institute 'The Durbin Amendment: A Short Regulatory History' + ABA Banking Journal (interchange -30%, $8,2B/año, quién lo paga); BSIC/DrugPatentWatch sobre patent cliff 2011-12 (Lipitor $9,5B→$3,9B, Pfizer P/B 1,08 en 2011).",
+            "source": "https://www.cato.org/regulation/spring-2024/durbin-amendment-short-regulatory-history , https://bsic.it/big-pharmas-impeding-patent-cliffs/",
+            "quantifiable_signal": "Aritmética del miedo: calcular VP del ingreso realmente expuesto (peor caso: % de ingresos afectado × margen × multiplicador) y compararlo con el market cap borrado desde que empezó el miedo. Si [cap borrado] > 2× [VP del daño máximo] → oportunidad. Si el daño no es calculable (regla abierta, litigio sin techo) → es Condición 2 fallida, pasar."
+          },
+          {
+            "finding": "CONDICIÓN 4 — DERATING POR TIPOS / ROTACIÓN GROWTH→VALUE: HECHO 2022: caso de libro de compresión de múltiplo pura — P/E típico de growth pasó de 35x a 20x (-43%) con earnings +20%, dando caídas de ~-31% en acciones cuyo negocio MEJORABA. Adobe cayó ~-50% en 2022 con el negocio creciendo; ASML creció ventas +14% (€21,2B, EPS €14,14) mientras la acción caía ~-45%. Reconocimiento: es la condición MÁS FÁCIL de verificar porque los fundamentales son públicos y siguen subiendo — la divergencia precio↓/EPS↑ es binaria. Distinción de deterioro: si el EPS forward también cae, no es esta condición.",
+            "evidence": "Forbes 'Stocks Hit By Valuation Compression In 2022' + StockTitan (mecánica 35x→20x); Seeking Alpha sobre Adobe -50% en 2022; SEC 6-K de ASML (ventas 2022 +14%).",
+            "source": "https://www.forbes.com/sites/chuckjones/2022/12/31/stocks-hit-by-valuation-compression-in-2022/ , https://seekingalpha.com/article/4518962-adobe-q2-earnings-50-percent-decline-not-enough , https://www.sec.gov/Archives/edgar/data/0000937966/000093796623000003/presentationinvestorrela.htm",
+            "quantifiable_signal": "Doble condición: [precio -30%+ desde máximo] Y [consenso EPS/FCF por acción FY+1 plano o subiendo] Y [EV/EBIT o P/FCF en percentil ≤10 de su propia historia de 10 años]. Cuidado con la trampa inversa: verificar que el DCF con WACC ACTUALIZADO (tipos nuevos) aún da margen — parte del derating de 2022 era corrección legítima del descuento, no regalo."
+          },
+          {
+            "finding": "CONDICIÓN 5 — SPIN-OFFS E IGNORANCIA ESTRUCTURAL (edge erosionado, usar con cautela): HECHO: Greenblatt citaba estudios de +10%/año de outperformance por venta forzada (índices y fondos reciben acciones que no pueden/quieren mantener y venden sin mirar precio); el S&P Spin-Off Index rindió 14,43% vs 6,94% del S&P 500 (2006-2016). PERO HECHO: análisis de 2019 (Boyar) muestra que los spin-offs de la década previa UNDERPERFORMARON al S&P 500 en ~-2,7%/año — el edge se democratizó o es cíclico. INFERENCIA: para el sistema de Felipe, los spin-offs son fuente de CANDIDATOS a analizar (la 'buena empresa atrapada dentro de una mediocre' sale a la luz), no una anomalía comprable mecánicamente.",
+            "evidence": "stockspinoffinvesting.com (Greenblatt, Klarman, Lynch sobre venta forzada); Old School Value (índice spin-off 14,43% vs 6,94%); Boyar Research 'Spinoffs Have Dramatically Underperformed' (-2,7%/año última década).",
+            "source": "https://stockspinoffinvesting.com/superinvestors-and-stock-spinoffs-what-munger-klarman-greenblatt-and-lynch-have-to-say-about-investing-in-spinoffs/ , https://boyarresearch.substack.com/p/spinoffs-have-dramatically-underperformed",
+            "quantifiable_signal": "Solo actuar si: el spin-off pasa el QG completo por sí solo + hay venta forzada visible (sale de índices, cae >20% en los primeros 1-3 meses sin noticias) + insider buying de la nueva gestión. Ventana típica: meses 1-6 post-separación. Sin QG aprobado, ignorar."
+          },
+          {
+            "finding": "DETECTOR DE TRAMPA DE VALOR — las señales que separan 'temporal' de 'permanente': síntesis de la literatura: TRAMPA = revisiones de EPS a la baja PERSISTENTES (recortes en cadena trimestre tras trimestre), márgenes brutos/operativos y ROIC decayendo varios años seguidos, industria con viento estructural en contra, impairments de goodwill recurrentes; el múltiplo bajo refleja earnings de ayer que están a punto de recortarse ('7x earnings no es barato si los earnings van a caer a la mitad'). OPORTUNIDAD = posición competitiva intacta en industria estable/creciente, estabilización de mix y márgenes visible en 1-3 años. INFERENCIA operativa: la variable discriminante nº1 es la DIRECCIÓN DE LAS REVISIONES (segunda derivada), no el nivel del múltiplo.",
+            "evidence": "TIKR 'How to Know If a Stock Is Undervalued or a Value Trap'; Forbes jun-2026 'Value Investing Vs. Cheap Stocks'; consistente con los 3 casos históricos: Moody's/Meta/AmEx tenían revisiones mucho más estables que sus precios, mientras las trampas (Kodak, GE) tenían recortes en cadena.",
+            "source": "https://www.tikr.com/blog/how-to-know-if-a-stock-is-undervalued-or-a-value-trap , https://www.forbes.com/sites/jimosman/2026/06/25/value-investing-vs-cheap-stocks-how-to-avoid-a-value-trap/",
+            "quantifiable_signal": "Semáforo de revisiones: VERDE = consenso EPS FY+1 estable o -<10% mientras precio -30%+; ÁMBAR = EPS -10/-25% (exige test de acotamiento de Condición 2); ROJO = 3+ trimestres consecutivos de recortes de estimaciones, o margen bruto/ROIC cayendo 3 años seguidos → knock-out del detector, no importa el descuento sobre PWFV."
+          }
+        ],
+        "checklist_items": [
+          "Operar el detector SOLO sobre watchlist pre-aprobada QG (calidad primero, precio después): nunca screening inverso de 'lo que más cayó' — base rate Cembalest: 40%+ de caídas ≥70% jamás recuperan",
+          "Alertas automáticas por nombre QG: -25% desde máximo 52 semanas = revisar tesis y clasificar en cuál de las 5 condiciones cae; -35% = candidato a primer tramo si pasa el semáforo de revisiones",
+          "Clasificar SIEMPRE la caída en una de las 5 condiciones (pánico general / problema acotado / miedo sectorial / derating por tipos / spin-off) ANTES de mirar la PWFV; si no encaja en ninguna, tratar como posible deterioro real",
+          "Regla de divergencia 3:1 — comprar solo si la caída del precio es ≥3× la caída del consenso EPS FY+1 (Moody's 2009 fue ~10:1; Meta 2022 y Adobe 2022 cumplían holgado)",
+          "Test de acotamiento (Condición 2): escribir el problema en UNA frase con pérdida máxima en $ y como % de owner earnings de 1-2 años; si no se puede acotar (litigio sin techo, regla abierta), pasar",
+          "Test de motor intacto: verificar con métricas operativas (retención, volumen, pricing, NPS) que el motor principal de ingresos no se deteriora — scuttlebutt estilo AmEx 1964, nunca inferirlo del precio",
+          "Aritmética del miedo sectorial: si [market cap borrado] > 2× [VP del daño máximo calculable de la regulación/patente], hay oportunidad; identificar QUIÉN paga realmente la regla (error Durbin: castigaron a las redes por una regla que golpeaba a los bancos)",
+          "Gatillo de pánico general: VIX>30 sostenido = tramo inicial pequeño en los top del ranking QG; VIX>40 + S&P -25% = tramo grande (desde 1990: >90% de probabilidad de 12 meses positivos, media +30%)",
+          "Derating por tipos: exigir [EPS/FCF forward plano o subiendo] + [múltiplo en percentil ≤10 de su historia 10 años] + re-correr el DCF con WACC actualizado antes de llamar 'ganga' a la zona de precio",
+          "Semáforo de revisiones como knock-out: 3+ trimestres consecutivos de recortes de consenso, o ROIC/margen bruto cayendo 3 años seguidos = ROJO, no comprar aunque el descuento sobre PWFV sea >25%",
+          "Presupuestar frecuencia: con watchlist de 20-30 nombres QG esperar 1-3 ventanas de -30% al año y un pánico general cada 4-7 años (Apple: -30% cada ~2,5 años con retorno medio +80% a 12 meses tras el primer cierre -30%); mantener reserva de liquidez y no perseguir",
+          "Registrar cada decisión (compra Y pase) con la condición asignada y las 3 métricas del test, para auditar el detector cada 12 meses contra resultados reales"
+        ],
+        "design_questions": [
+          "¿El umbral de divergencia precio/revisiones se fija en 3:1 (conservador, deja pasar Metas tempranas) o 2:1 (más ventanas, más falsos positivos)? Los casos históricos ganadores estaban entre 3:1 y 10:1.",
+          "¿VIX>40 o VIX>30 como gatillo del tramo agresivo en pánicos? 40 es más certero pero solo ocurre ~1 vez por década (2008, 2011, 2015, 2020); 30 da más ventanas con algo menos de fiabilidad.",
+          "Problemas AUTOINFLIGIDOS por la gestión (Meta capex 2022): ¿se exige señal explícita de rectificación (como el 'year of efficiency') antes de comprar, o se compra durante la incertidumbre a cambio de mejor precio? Esperar la señal costó comprar Meta a ~$120-150 en vez de $90.",
+          "¿Cuánta agresividad de tamaño permite una 'oportunidad certera' que pase todos los tests? Buffett puso 40% en AmEx; tu política actual es tramos de 3-5%. ¿Crear una categoría excepcional (p.ej. hasta 10-15%) cuando coinciden pánico general + nombre top-3 QG + zona GANGA?",
+          "¿Los spin-offs entran al pipeline como fuente de candidatos QG (mi recomendación, dado el edge erosionado post-2013) o como estrategia autónoma con reglas propias?",
+          "¿Cómo integrar el semáforo de revisiones con tu PWFV? Propuesta: el semáforo actúa como knock-out PREVIO al cálculo de zonas (ROJO anula la zona GANGA), igual que los knock-outs QG anulan el score — mantiene la separación calidad/valoración que ya estableciste.",
+          "En derating por tipos, ¿cuánto del margen de seguridad exigido debe recalcularse con el WACC nuevo? Parte de la caída 2022 era corrección legítima del descuento: definir si la zona GANGA se mide contra la PWFV con WACC pre-shock o post-shock."
+        ]
+      }
+    }
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Investigar"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Sintetizar"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "research:buffett-munger",
+      "phaseIndex": 1,
+      "phaseTitle": "Investigar",
+      "agentId": "a30873bfc2f1feb71",
+      "model": "claude-fable-5",
+      "state": "done",
+      "startedAt": 1782959694331,
+      "queuedAt": 1782959694316,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Buffett & Munger (Berkshire Hathaway / Buffett Partnership)",
+      "promptPreview": "CONTEXTO: Felipe tiene un sistema de CALIDAD (11 reglas QG /100, ya construido) y ahora diseña el eje VALORACIÓN: valor intrínseco + margen de seguridad (MoS) + detector de trampas de valor + patrones de superinversores para detectar oportunidades certeras de \"ultra calidad a buen precio\". Su metodología casa actual: PWFV = media ponderada de DCF sobre owner earnings (×2) + PER justificado + EV/EB…",
+      "lastProgressAt": 1782960017573,
+      "tokens": 50655,
+      "toolCalls": 12,
+      "durationMs": 323242,
+      "resultPreview": "{\"investor_group\":\"Buffett & Munger (Berkshire Hathaway / Buffett Partnership)\",\"bets\":[{\"investor\":\"Warren Buffett (Buffett Partnership)\",\"company\":\"American Express\",\"year\":\"1964\",\"context\":\"Escándalo del aceite de ensalada (Allied Crude, nov-1963): una filial de warehousing de AmEx certificó inventarios inexistentes de aceite de soja como colateral; pasivo potencial ~$60-150M. HECHO: la acción …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "research:quality-moderno",
+      "phaseIndex": 1,
+      "phaseTitle": "Investigar",
+      "agentId": "a58268e63c08333af",
+      "model": "claude-fable-5",
+      "state": "done",
+      "startedAt": 1782959694333,
+      "queuedAt": 1782959694316,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Superinversores quality modernos (Sleep, Li Lu, Akre, Kante…",
+      "promptPreview": "CONTEXTO: Felipe tiene un sistema de CALIDAD (11 reglas QG /100, ya construido) y ahora diseña el eje VALORACIÓN: valor intrínseco + margen de seguridad (MoS) + detector de trampas de valor + patrones de superinversores para detectar oportunidades certeras de \"ultra calidad a buen precio\". Su metodología casa actual: PWFV = media ponderada de DCF sobre owner earnings (×2) + PER justificado + EV/EB…",
+      "lastProgressAt": 1782960041082,
+      "tokens": 59420,
+      "toolCalls": 16,
+      "durationMs": 346749,
+      "resultPreview": "{\"investor_group\":\"Superinversores quality modernos (Sleep, Li Lu, Akre, Kantesaria, Smith, Pabrai, Ackman, Druckenmiller) — 11 apuestas verificadas, 2002-2023\",\"bets\":[{\"investor\":\"Nick Sleep / Qais Zakaria (Nomad Partnership)\",\"company\":\"Costco (COST)\",\"year\":\"2002\",\"context\":\"La acción cayó de $55 a $30 tras decepción de márgenes: Wall Street acusaba a la dirección de ser 'demasiado generosa co…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "research:clasicos",
+      "phaseIndex": 1,
+      "phaseTitle": "Investigar",
+      "agentId": "ad2132e9b0cc38014",
+      "model": "claude-fable-5",
+      "state": "done",
+      "startedAt": 1782959694334,
+      "queuedAt": 1782959694316,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "FRENTE C — Los clásicos: Lynch, Fisher, Templeton, Marks, G…",
+      "promptPreview": "CONTEXTO: Felipe tiene un sistema de CALIDAD (11 reglas QG /100, ya construido) y ahora diseña el eje VALORACIÓN: valor intrínseco + margen de seguridad (MoS) + detector de trampas de valor + patrones de superinversores para detectar oportunidades certeras de \"ultra calidad a buen precio\". Su metodología casa actual: PWFV = media ponderada de DCF sobre owner earnings (×2) + PER justificado + EV/EB…",
+      "lastProgressAt": 1782959942672,
+      "tokens": 45258,
+      "toolCalls": 9,
+      "durationMs": 248338,
+      "resultPreview": "{\"bets\":[{\"investor\":\"Peter Lynch\",\"company\":\"La Quinta Motor Inns\",\"year\":\"1978 (aprox., era Magellan temprana)\",\"context\":\"HECHO: la industria de moteles venía de un ciclo bajista y La Quinta era ignorada por institucionales: casi sin cobertura de analistas. Lynch la descubrió haciendo scuttlebutt telefónico: un VP de United Inns (competidor en el que ya había invertido) le dijo cuál empresa le …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "research:trampas-valor",
+      "phaseIndex": 1,
+      "phaseTitle": "Investigar",
+      "agentId": "a6d9e2033accd7eeb",
+      "model": "claude-fable-5",
+      "state": "done",
+      "startedAt": 1782959694341,
+      "queuedAt": 1782959694316,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "FRENTE D — Trampas de valor: taxonomía, señales cuantificab…",
+      "promptPreview": "CONTEXTO: Felipe tiene un sistema de CALIDAD (11 reglas QG /100, ya construido) y ahora diseña el eje VALORACIÓN: valor intrínseco + margen de seguridad (MoS) + detector de trampas de valor + patrones de superinversores para detectar oportunidades certeras de \"ultra calidad a buen precio\". Su metodología casa actual: PWFV = media ponderada de DCF sobre owner earnings (×2) + PER justificado + EV/EB…",
+      "lastProgressAt": 1782959978794,
+      "tokens": 51185,
+      "toolCalls": 13,
+      "durationMs": 284453,
+      "resultPreview": "{\"topic\":\"FRENTE D — Trampas de valor: taxonomía, señales cuantificables de detección y el discriminador temporal-vs-estructural, convertido en checklist con umbrales para el eje VALORACIÓN de Felipe\",\"key_findings\":[{\"finding\":\"TAXONOMÍA (6 arquetipos): (1) Melting ice cube — negocio en declive terminal cuyo cash se reinvierte en defender lo indefendible (Kodak, Blockbuster); la trampa no es el d…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "research:metodologias",
+      "phaseIndex": 1,
+      "phaseTitle": "Investigar",
+      "agentId": "acfa50a94863cb021",
+      "model": "claude-fable-5",
+      "state": "done",
+      "startedAt": 1782959694341,
+      "queuedAt": 1782959694316,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "FRENTE E — Metodologías de valor intrínseco: owner earnings…",
+      "promptPreview": "CONTEXTO: Felipe tiene un sistema de CALIDAD (11 reglas QG /100, ya construido) y ahora diseña el eje VALORACIÓN: valor intrínseco + margen de seguridad (MoS) + detector de trampas de valor + patrones de superinversores para detectar oportunidades certeras de \"ultra calidad a buen precio\". Su metodología casa actual: PWFV = media ponderada de DCF sobre owner earnings (×2) + PER justificado + EV/EB…",
+      "lastProgressAt": 1782959907420,
+      "tokens": 48426,
+      "toolCalls": 11,
+      "durationMs": 213079,
+      "resultPreview": "{\"topic\":\"FRENTE E — Metodologías de valor intrínseco: owner earnings, DCF inverso, EPV, Damodaran, calibración del MoS y críticas al PEG/múltiplos — evaluadas contra la metodología casa PWFV de Felipe\",\"key_findings\":[{\"finding\":\"HECHO — Owner earnings (Buffett, carta 1986): beneficio reportado + D&A y otros cargos no-cash − capex de MANTENIMIENTO promedio (no capex total). Es 'lo que el dueño pu…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "research:oportunidad",
+      "phaseIndex": 1,
+      "phaseTitle": "Investigar",
+      "agentId": "a1a40139574f56e11",
+      "model": "claude-fable-5",
+      "state": "done",
+      "startedAt": 1782959694342,
+      "queuedAt": 1782959694317,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "FRENTE F — Condiciones repetibles bajo las que ultra-calida…",
+      "promptPreview": "CONTEXTO: Felipe tiene un sistema de CALIDAD (11 reglas QG /100, ya construido) y ahora diseña el eje VALORACIÓN: valor intrínseco + margen de seguridad (MoS) + detector de trampas de valor + patrones de superinversores para detectar oportunidades certeras de \"ultra calidad a buen precio\". Su metodología casa actual: PWFV = media ponderada de DCF sobre owner earnings (×2) + PER justificado + EV/EB…",
+      "lastProgressAt": 1782959979193,
+      "tokens": 62379,
+      "toolCalls": 17,
+      "durationMs": 284851,
+      "resultPreview": "{\"topic\":\"FRENTE F — Condiciones repetibles bajo las que ultra-calidad y buen precio coinciden: 5 escenarios, señales medibles en tiempo real, y base rates de frecuencia (Mauboussin, Cembalest, JP Morgan)\",\"key_findings\":[{\"finding\":\"BASE RATE FUNDAMENTAL (Mauboussin/Callahan 2025): las caídas grandes NO son automáticamente oportunidad. HECHO: en 6.500 acciones USA 1985-2024, el drawdown máximo me…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "sintesis-marco",
+      "phaseIndex": 2,
+      "phaseTitle": "Sintetizar",
+      "agentId": "a3ee8d723d1dfc112",
+      "model": "claude-fable-5",
+      "state": "done",
+      "startedAt": 1782960041095,
+      "queuedAt": 1782960041083,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "Eres el arquitecto del eje VALORACIÓN de Felipe. Sintetiza estas 6 investigaciones en un marco coherente y accionable.\n\nFRENTE A (Buffett/Munger): {\"investor_group\":\"Buffett & Munger (Berkshire Hathaway / Buffett Partnership)\",\"bets\":[{\"investor\":\"Warren Buffett (Buffett Partnership)\",\"company\":\"American Express\",\"year\":\"1964\",\"context\":\"Escándalo del aceite de ensalada (Allied Crude, nov-1963): u…",
+      "lastProgressAt": 1782960318140,
+      "tokens": 89684,
+      "toolCalls": 1,
+      "durationMs": 277045,
+      "resultPreview": "{\"pattern_library\":[{\"name\":\"P1 — Herida superficial, franquicia intacta (el escándalo acotado)\",\"description\":\"Un evento negativo puntual y CUANTIFICABLE (escándalo, litigio, crisis reputacional, error autoinfligido) golpea el precio de forma desproporcionada mientras el motor económico —comportamiento del cliente final, retención, pricing— no cambia. La clave: el pasivo máximo es absorbible por …"
+    }
+  ],
+  "totalTokens": 407007,
+  "totalToolCalls": 79
+}

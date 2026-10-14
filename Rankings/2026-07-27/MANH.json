@@ -1,0 +1,309 @@
+{
+  "ticker": "MANH",
+  "empresa": "Manhattan Associates, Inc.",
+  "cik": "0001056696",
+  "fecha_analisis": "2026-07-27",
+  "divisa": "USD",
+  "etiqueta_calidad_congelada": "MUY_BUENA (4 puertas pasadas)",
+  "nota_congelacion": "La etiqueta viene congelada del eje de comprension. El valorador NO la toca y NO la reclasifica hacia arriba. Nada de lo que sigue —ni el multiplo, ni la caja, ni el devengo negativo de siete anios, ni el ROIC del 47%— es motivo para reabrir la clasificacion. G4 suspende de forma inequivoca (recorte de I+D, marketing, capex y plantilla en terminos ABSOLUTOS cada vez que la demanda se estrecha) y G3 no es medible porque MANH no publica ni una sola magnitud unitaria. Que el precio haya caido un 45% desde el maximo de 52 semanas NO convierte esto en una ULTRA.",
+  "especie": "G2 — reinversion 14,69% de ventas · ROIIC bruto 19,4% · ROIIC ex-margen 11,2%",
+  "mecanismo_heredado": "Vende el sistema nervioso de la ejecucion de almacen y pedido, convertido en 2.350 M USD de suscripcion cloud no cancelable (2,17x ventas anuales, +24% interanual), financiada por adelantado por el propio cliente: capital invertido neto en cero o negativo, cero deuda, devengo negativo los siete anios. Eslabon mas debil: G4, y no por matices — 2009 (I+D -24,2%, capex -69,2%, margen operativo SUBIENDO 87 pb), 2020, enero de 2025 y junio de 2026 son la misma conducta repetida, la inversa de la de ASML en 2009. A ello se suma que el 42% del crecimiento de NOPAT de cinco anios vino de expansion de margen y no de poner capital a trabajar.",
+  "confirmacion_del_eslabon_debil_en_el_periodo_valorado": {
+    "hecho": "El 1 de junio de 2026 MANH inicio un plan de reduccion de plantilla global de aproximadamente el 6%, con cargo estimado de 7 a 9 M USD en el segundo trimestre de 2026, y reafirmo su guia de 2026 sin cambios.",
+    "fuente": "SEC EDGAR — 8-K, accession 0001193125-26-251382, presentado 2026-06-01, Item 2.05 y Item 7.01. HECHO.",
+    "lectura": "No es una nota de color. Es la cuarta repeticion documentada del patron que hizo suspender G4, ocurrida DENTRO del ejercicio que estoy valorando, y con la guia reafirmada — es decir, el recorte defiende el margen prometido, no responde a una caida de ingresos. El valorador no puede tratar la G4 suspendida como historia antigua."
+  },
+  "posicion_en_cartera": {
+    "si": false,
+    "verificacion": "HECHO — get_account_positions IBKR, 2026-07-27. La cartera contiene ADBE, AMZN, AXP, BKNG, BRK.B, DUOL, GOOGL, INTU, MA, MELI, MSFT, NFLX, NVDA, SPGI, SPOT, TSM, V, VEEV. MANH no figura.",
+    "decision_aplicable": "ABRIR",
+    "mos_exigido_pct": 30.0,
+    "nota": "Al no estar en cartera se aplica el umbral de ABRIR (30%), no el de CARGAR (que para MUY_BUENA seria 40%)."
+  },
+
+  "precio": {
+    "precio_usd": 159.07,
+    "fuente": "IBKR get_price_snapshot, contract_id 4814485, NASDAQ, 2026-07-27. Cierre de la barra diaria del mismo dia: 159,29 (get_price_history). Uso 159,07; la diferencia (0,14%) esta muy por debajo del piso de resolucion.",
+    "cotiza_en": "NASDAQ Global Select Market, en USD. No hay ADS ni conversion de divisa: la accion ordinaria cotiza directamente en USD.",
+    "rango_52s": {
+      "max": 229.575,
+      "min": 119.06,
+      "apertura_hace_52s": 221.14,
+      "fuente": "IBKR misc_statistics, 2026-07-27"
+    },
+    "variacion_ytd_pct": -8.22,
+    "contexto": "La accion esta un 30,7% por debajo del maximo de 52 semanas y un 47% por debajo del maximo del ciclo (302,59 en 2025). El grafico semanal muestra dos desplomes verticales: uno de -28% en una semana a comienzos de 2025 y otro de -30% acumulado entre febrero y abril de 2026. Es una accion cuyo precio se mueve por noticia propia, no por el mercado: correlacion semanal con SPY de solo 0,55 a cinco anios."
+  },
+
+  "acciones": {
+    "en_circulacion_millones": 59.1646,
+    "fecha": "2026-04-21",
+    "fuente": "Portada del 10-Q Q1 2026 (dei:EntityCommonStockSharesOutstanding = 59.164.602), accession 0001193125-26-175715. HECHO.",
+    "diluidas_ponderadas_fy2025": 61.054,
+    "diluidas_ponderadas_q1_2026": 60.038,
+    "nota_recompra": "En el Q1 2026 recompro 1.043.312 acciones por 150,0 M USD (precio medio implicito 143,8 USD). En marzo de 2026 el consejo elevo la autorizacion de 100 a 500 M USD; quedaban 350,0 M al cierre del trimestre. En 2025 gasto 315,2 M en recompra y las acciones en circulacion solo cayeron un 1,8% (60,921 -> 59,845 M): aproximadamente un tercio del gasto de recompra se consume neutralizando la dilucion de la retribucion en acciones.",
+    "precision": "Es probable que a 27-jul-2026 haya menos de 59,16 M acciones por la recompra del Q2 (aun no publicada). Usar 59,16 M SOBREESTIMA la capitalizacion y por tanto es conservador en la direccion equivocada para mi tesis: si hay menos acciones, la capitalizacion es menor y el MoS un poco menos negativo. El efecto es de ~1-2%, muy por debajo del piso de resolucion."
+  },
+
+  "capitalizacion_y_ev_usd_mm": {
+    "capitalizacion": 9411.4,
+    "deuda_financiera": 0.0,
+    "detalle_deuda": "CERO. El balance del 10-K FY2025 no contiene ninguna linea de deuda, ni corriente ni no corriente. El estado de flujos de efectivo no muestra emision ni amortizacion de deuda en 2023, 2024 ni 2025: la unica partida de financiacion en los tres anios es la recompra de acciones. No hay gasto financiero en la cuenta de resultados; solo ingreso financiero (4,389 M en 2025). HECHO.",
+    "arrendamientos_operativos": 60.6,
+    "detalle_arrendamientos": "Pasivo por arrendamiento operativo corriente 4,883 M (10-K FY2025) mas no corriente 55,685 M (10-Q Q1 2026, 2026-03-31). Los trato como deuda a efectos de EV y de ponderacion del WACC, aunque su peso es irrelevante (0,64% de la estructura de capital).",
+    "efectivo_y_equivalentes": 226.133,
+    "fecha_efectivo": "2026-03-31, 10-Q Q1 2026. HECHO. (Al 2025-12-31 eran 328,747 M; la caida de 102,6 M en el trimestre es la recompra de 150 M menos el flujo generado.)",
+    "deuda_neta": -165.6,
+    "ev": 9245.8,
+    "nota_apalancamiento": "Caja neta positiva de 165,6 M, el 1,8% de la capitalizacion. Es una empresa sin apalancamiento financiero de ningun tipo. La consecuencia para la valoracion es que el WACC ES el coste de los recursos propios, con un ajuste de tercer decimal por los arrendamientos.",
+    "patrimonio_neto": 314.765,
+    "nota_patrimonio": "Patrimonio contable de 314,8 M frente a capitalizacion de 9.411 M: 30 veces el valor en libros. El valor contable no dice absolutamente nada aqui — el activo es la base instalada, que no esta en el balance, y el pasivo relevante (deferred revenue 337,0 M) es dinero del cliente que financia el negocio."
+  },
+
+  "candado_b_wacc_de_mercado": {
+    "principio": "El WACC sale del mercado, nunca de un tier de calidad. Que la etiqueta sea MUY_BUENA no da derecho a descontar mas barato ni obliga a descontar mas caro. Los cuatro insumos vienen de fuera con fecha.",
+    "tasa_libre_riesgo_pct": 4.64,
+    "tasa_libre_riesgo_fuente": "Bono soberano de EEUU a 10 anios, 4,64% al 2026-07-27 (Trading Economics; lectura alternativa de 4,63% en otra fuente el mismo dia). La moneda funcional del grupo es el USD, asi que este es el activo sin riesgo correcto. INFERENCIA (fuente secundaria de mercado, no filing).",
+    "beta": 1.20,
+    "beta_fuente": "Regresion propia. 262 rentabilidades SEMANALES de MANH contra SPY, desde 2021-07-30 hasta 2026-07-27, series de cierre descargadas de IBKR get_price_history. Beta cruda = 1,266; correlacion = 0,550; volatilidad anualizada MANH 37,4% frente a SPY 16,2%. Error tipico de la beta ~0,12, de modo que el intervalo de una sigma es 1,15-1,39.",
+    "beta_metodo_central": "Aplico el ajuste de Blume (0,67 x beta + 0,33) sobre la beta cruda de cinco anios: 0,67 x 1,266 + 0,33 = 1,178, que redondeo a 1,20 para no fingir precision. Betas por ventana: 5 anios 1,27 · 3 anios 1,27 · 2 anios 1,23 · 1 anio 0,77. La estabilidad entre 5, 3 y 2 anios es buena; la de 1 anio se desploma porque en los ultimos doce meses la accion se ha movido casi enteramente por noticia propia (dos desplomes verticales), lo que baja artificialmente la covarianza con el indice.",
+    "beta_contraste_terceros": "TradingView publica 0,88 a cinco anios y otra fuente secundaria 1,028 (febrero 2026). Mi 1,27 cruda esta por encima de ambas. No adopto las suyas: con una volatilidad realizada del 37,4% anual, una beta de 0,88 exigiria una correlacion con el mercado de solo 0,38, que no es lo que mide la serie. INFERENCIA, pero derivada de precios primarios de mercado, no de un agregador.",
+    "beta_hueco": "No dispongo de una beta de Bloomberg ni de Barra para contrastar. Mi regresion usa SPY como proxy del mercado, no un indice global ponderado por capitalizacion.",
+    "prima_mercado_pct": 4.17,
+    "prima_mercado_fuente": "Damodaran, actualizacion de julio de 2026: prima implicita del S&P 500 = 4,42%, de la que descuenta 0,25% de riesgo de impago soberano de EEUU (tras la rebaja de Moody's de Aaa a Aa1), dejando la prima de mercado maduro en 4,17%.",
+    "prima_pais_pct": 0.30,
+    "prima_pais_metodo": "El riesgo de ACTIVO, no el domicilio fiscal. Reparto de ingresos FY2025 por segmento geografico (10-K, nota de segmentos, HECHO): Americas 810,4 M = 74,9%; EMEA 215,8 M = 20,0%; APAC 55,2 M = 5,1%. Practicamente todo el activo esta en mercados maduros. Pondero: EEUU 0,25% de spread soberano por la rebaja de Moody's, EMEA de MANH mayoritariamente Europa occidental y Reino Unido (~0,2-0,5%), APAC mixto (~1,0-1,5%). Resultado ponderado ~0,30%.",
+    "prima_pais_hueco": "El 10-K agrupa en tres cubos (Americas/EMEA/APAC) y no desglosa por pais. No puedo saber cuanto de 'Americas' es Latinoamerica ni cuanto de 'APAC' es India o China. Con un 5,1% de los ingresos en APAC, incluso equivocarme por completo en ese cubo mueve el WACC menos de 8 pb.",
+    "prima_total_pct": 4.47,
+    "coste_deuda_pct": 5.46,
+    "coste_deuda_metodo": "MANH no tiene deuda financiera, asi que no existe un gasto financiero real del que derivar el coste. El unico coste de endeudamiento OBSERVABLE en el filing es el tipo de descuento medio ponderado de sus arrendamientos operativos: 5,46% al 2025-12-31 (10-K FY2025, us-gaap:OperatingLeaseWeightedAverageDiscountRatePercent). Ese tipo ES el coste incremental de endeudamiento que la propia empresa reconoce en un documento auditado. HECHO.",
+    "coste_deuda_nota": "Da igual. Con una ponderacion de deuda del 0,64%, el coste de la deuda mueve el WACC en el tercer decimal (9,967% frente a 10,004% de coste puro de los recursos propios). Se reporta para cumplir el candado, no porque cambie nada.",
+    "tasa_impositiva_pct": 23.1,
+    "tasa_impositiva_fuente": "Tipo efectivo FY2025 = 1 - (219,948 beneficio neto / 285,894 beneficio antes de impuestos) = 23,1%. 10-K FY2025. HECHO.",
+    "coste_equity_pct": 10.004,
+    "formula_equity": "4,64% + 1,20 x (4,17% + 0,30%) = 10,00%",
+    "ponderacion": "Recursos propios 99,36% (9.411,4 M a valor de mercado) · Deuda 0,64% (60,6 M de arrendamientos, valor contable ~= valor de mercado por su corto plazo y su tipo de descuento actual).",
+    "wacc_pct": 9.97,
+    "wacc_rango": "9,3% – 10,7%",
+    "wacc_rango_metodo": "Hago variar solo la beta dentro de su intervalo de una sigma redondeado (1,05 a 1,35), que es con diferencia el insumo mas ruidoso: 4,64% + 1,05 x 4,47% = 9,33%; 4,64% + 1,35 x 4,47% = 10,67%. No ensancho mas el rango por la prima de mercado ni por el tipo sin riesgo porque ambos tienen fecha y fuente del mismo dia."
+  },
+
+  "owner_earnings": {
+    "principio": "Dos versiones obligatorias, cada una sobre dos bases. La version (a) resta solo el capex de mantenimiento, aproximado por la depreciacion, y NO resta el exceso sobre la depreciacion, que es inversion discrecional. La version (b) resta todo el capex.",
+    "nota_metodologica_sbc": "DECISION CLAVE, la mas consecuente de todo el expediente. La retribucion en acciones (111,3 M en 2025, el 10,3% de las ventas) es un coste economico REAL: es el pago a los empleados en moneda del accionista. El beneficio neto GAAP ya la deduce; el flujo de caja operativo la vuelve a sumar. Como parto del flujo de caja operativo, la RESTO. La prueba de que es real: en 2025 MANH gasto 315,2 M en recompras y las acciones solo bajaron un 1,8% — sin la dilucion de la retribucion en acciones habrian bajado alrededor del 2,7%. No es contabilidad, es dinero. Al final de esta seccion reporto tambien la variante ciega a la retribucion en acciones para que se vea que la conclusion NO depende de esta decision.",
+    "nota_metodologica_flotante": "El aumento del pasivo por ingresos diferidos (+52,1 M en 2025) es entrada de caja real y forma parte legitima de los beneficios del propietario: es el cliente financiando el negocio, que es exactamente el mecanismo. Pero es una entrada CONDICIONADA AL CRECIMIENTO: el dia que el negocio deje de crecer, esos 52 M desaparecen del flujo y los beneficios del propietario caen de 271,9 a ~220 M sin que nada mas cambie. Es el 19% de la cifra.",
+
+    "base_auditada": {
+      "ejercicio": "FY2025 (1-ene-2025 a 31-dic-2025)",
+      "fuente": "10-K FY2025, accession 0001193125-26-037138, presentado 2026-02-04. Todas las cifras son HECHO tomadas de los estados consolidados (R2, R4, R6 del FilingSummary).",
+      "ingresos_usd_mm": 1081.392,
+      "crecimiento_ingresos_pct": 3.75,
+      "resultado_explotacion_usd_mm": 279.800,
+      "margen_explotacion_pct": 25.87,
+      "beneficio_neto_usd_mm": 219.948,
+      "flujo_caja_operativo_usd_mm": 389.470,
+      "depreciacion_y_amortizacion_usd_mm": 6.317,
+      "retribucion_en_acciones_usd_mm": 111.263,
+      "impuestos_diferidos_usd_mm": 18.342,
+      "variacion_ingresos_diferidos_usd_mm": 52.096,
+      "resto_capital_circulante_usd_mm": -18.222,
+      "proxy_capex_mantenimiento_usd_mm": 6.317,
+      "capex_total_usd_mm": 15.457,
+      "oe_mantenimiento_usd_mm": 271.9,
+      "oe_capex_total_usd_mm": 262.8,
+      "detalle_calculo": "OE(a) = 389,470 FCO - 111,263 retribucion en acciones - 6,317 capex de mantenimiento = 271,890. OE(b) = 389,470 - 111,263 - 15,457 capex total = 262,750.",
+      "observacion_clave": "La distancia entre (a) y (b) es de solo 9,1 M, un 3,4%. La distincion entre capex de mantenimiento y capex total —que existe precisamente para no castigar a una reinvertidora por reinvertir— aqui casi no muerde, porque el capex entero es el 1,4% de las ventas. MANH no reinvierte por el balance: reinvierte por la cuenta de resultados (I+D y comercial). Y eso es justamente lo que recorta en cuanto se estrecha la demanda. La proteccion metodologica que la version (a) ofrece a las reinvertidoras no la protege a ella."
+    },
+
+    "base_en_curso": {
+      "ejercicio": "FY2026",
+      "trimestres_publicados": "Solo Q1 2026 (10-Q accession 0001193125-26-175715, presentado 2026-04-24). A 27-jul-2026 el Q2 2026 AUN NO se ha publicado: la ultima presentacion en EDGAR es un Formulario 4 del 16-jun-2026. Esto es una base mas debil que la de otras companias donde ya hay semestre cerrado.",
+      "q1_2026_hechos": {
+        "ingresos_usd_mm": 282.215,
+        "crecimiento_ingresos_pct": 7.4,
+        "ingresos_suscripcion_cloud_usd_mm": 117.1,
+        "crecimiento_suscripcion_cloud_pct": 24.2,
+        "ingresos_licencia_usd_mm": 2.2,
+        "ingresos_servicios_usd_mm": 125.7,
+        "resultado_explotacion_usd_mm": 64.937,
+        "beneficio_neto_usd_mm": 49.295,
+        "bpa_diluido_gaap_usd": 0.82,
+        "bpa_ajustado_usd": 1.24,
+        "flujo_caja_operativo_usd_mm": 84.045,
+        "retribucion_en_acciones_usd_mm": 26.524,
+        "capex_usd_mm": 4.103,
+        "depreciacion_y_amortizacion_usd_mm": 1.833,
+        "rpo_usd_mm": 2350,
+        "crecimiento_rpo_pct": 24.0
+      },
+      "guia_oficial_fy2026": {
+        "fuente": "8-K accession 0001193125-26-166709, exhibit 99.1, 2026-04-21; reafirmada sin cambios en el 8-K 0001193125-26-251382 del 2026-06-01. HECHO.",
+        "ingresos_usd_mm": "1.147 a 1.157 (crecimiento 6% a 7%)",
+        "margen_explotacion_gaap_pct": "24,6% a 24,9%",
+        "retribucion_en_acciones_pct_ventas": "10,3% a 10,2%",
+        "margen_explotacion_ajustado_pct": "34,9% a 35,1%",
+        "bpa_gaap_usd": "3,55 a 3,63 (crecimiento -1% a +1%)",
+        "bpa_ajustado_usd": "5,29 a 5,37 (crecimiento 5% a 6%)"
+      },
+      "construccion_flujo_caja_operativo_2026e": "No extrapolo el trimestre: lo construyo por partidas. Beneficio neto ~213 (punto medio de la guia de BPA 3,59 x ~59,3 M acciones diluidas). Amortizacion ~7,6 (Q1 1,833 x 4). Retribucion en acciones ~118,1 (10,25% de 1.152 M, guia explicita de la empresa). Impuestos diferidos ~+5 (partida muy volatil: +18,3 en 2025 tras -28,7 en 2024). Aumento de ingresos diferidos ~+45 (frente a +52,1 en 2025, con el RPO creciendo al 24%). Resto de circulante ~-18, incluyendo la salida de caja de 7-9 M por la reestructuracion de junio. Total ~371 M. El metodo alternativo —escalar el Q1 por su peso historico (19,3% del ejercicio)— daria 435 M, claramente inflado por partidas de calendario del primer trimestre. Adopto 380 M como punto central entre ambos, INFERENCIA con banda amplia.",
+      "flujo_caja_operativo_usd_mm": 380.0,
+      "retribucion_en_acciones_usd_mm": 118.1,
+      "proxy_capex_mantenimiento_usd_mm": 7.6,
+      "capex_total_usd_mm": 17.0,
+      "oe_mantenimiento_usd_mm": 254.3,
+      "oe_capex_total_usd_mm": 244.9,
+      "etiqueta": "INFERENCIA. Los ingresos, el margen y el BPA vienen de guia oficial (HECHO); el flujo de caja operativo es construccion propia."
+    },
+
+    "distancia_entre_bases": {
+      "oe_mantenimiento_pct": -6.5,
+      "oe_capex_total_pct": -6.8,
+      "lectura": "Esta es la informacion, no el ruido. Los beneficios del propietario CAEN un 6,5% en 2026 mientras los ingresos SUBEN un 6-7%. No es un accidente ni una partida no recurrente: es aritmetica de la propia guia de la empresa. El margen operativo GAAP guiado (24,6-24,9%) esta por DEBAJO del realizado en 2025 (25,87%), y la retribucion en acciones crece del 10,3% de unas ventas de 1.081 al 10,25% de unas ventas de 1.152 —es decir, en dolares absolutos de 111,3 a 118,1 M, un 6,1% mas. El BPA GAAP guiado es de -1% a +1%. Traducido: en 2026 esta empresa convierte un crecimiento de ingresos del 6-7% en un crecimiento de beneficios del propietario del -6,5%. La maquina sigue funcionando; lo que se ha detenido es la conversion de crecimiento en valor para el propietario."
+    },
+
+    "variante_ciega_a_la_retribucion_en_acciones": {
+      "proposito": "Prueba de robustez. Si alguien rechaza mi decision de restar la retribucion en acciones, estos son los numeros con la convencion contraria.",
+      "oe_mantenimiento_auditado_usd_mm": 383.2,
+      "oe_capex_total_auditado_usd_mm": 374.0,
+      "oe_mantenimiento_encurso_usd_mm": 372.4,
+      "oe_capex_total_encurso_usd_mm": 363.0,
+      "g_implicita_auditado_mantenimiento_pct": 9.61,
+      "g_implicita_encurso_mantenimiento_pct": 9.99,
+      "conclusion": "Incluso ignorando por completo la retribucion en acciones, el precio de hoy exige un 9,6-10,0% anual durante diez anios, que sigue estando POR ENCIMA de mi g defendible del 8,27%. La conclusion de esta valoracion no depende de la convencion sobre la retribucion en acciones. Solo cambia de cuanto es el exceso, no si lo hay."
+    },
+
+    "contraste_de_sanidad": "A 159,07 USD, el PER sobre BPA GAAP guiado de 2026 (3,59) es 44,3x y sobre BPA ajustado (5,33) es 29,8x. Mi multiplo de beneficios del propietario (37,0x sobre la base en curso) cae entre los dos, como debe ser: resto la retribucion en acciones igual que el GAAP, pero sumo el flotante de ingresos diferidos que el GAAP no reconoce como beneficio. La cifra esta anclada."
+  },
+
+  "dcf_inverso": {
+    "principio": "El motor. Que crecimiento a diez anios, con terminal del 3%, justifica exactamente el precio de hoy al WACC calculado. Esa cifra se contrasta contra la tasa base del negocio, no contra un relato.",
+    "convencion": "Descuento la corriente de beneficios del propietario al WACC del 9,97% durante 10 anios con crecimiento constante g, mas valor terminal a perpetuidad al 3%. El objetivo es el valor de empresa de 9.245,8 M (capitalizacion 9.411,4 menos caja neta 165,6). Como no hay deuda financiera, los beneficios del propietario son a la vez flujo para la empresa y flujo para el accionista, asi que descontar al WACC o al coste de los recursos propios da lo mismo.",
+    "wacc_usado_pct": 9.97,
+    "terminal_pct": 3.0,
+    "horizonte_anios": 10,
+    "ev_objetivo_usd_mm": 9245.8,
+    "g_implicita_auditado_mantenimiento_pct": 14.22,
+    "g_implicita_auditado_capex_total_pct": 14.68,
+    "g_implicita_encurso_mantenimiento_pct": 15.12,
+    "g_implicita_encurso_capex_total_pct": 15.63,
+    "multiplos_implicitos": "EV / beneficios del propietario: 34,0x sobre la base auditada con capex de mantenimiento; 35,2x con capex total; 36,4x y 37,8x sobre la base en curso.",
+    "sensibilidad_wacc_base_encurso": "Con WACC 9,33% la g implicita baja a 13,63%; con WACC 10,67% sube a 16,69%. En ningun punto del rango del WACC la exigencia del precio baja del 13,6% anual.",
+    "lectura": "El precio de hoy exige que los beneficios del propietario de MANH crezcan entre un 14,2% y un 15,6% ANUAL durante diez anios seguidos y despues al 3% para siempre. Contraste con lo que la empresa acaba de decir de si misma: el resultado de explotacion GAAP crecio un 6,9% en 2025 (261,6 -> 279,8), el NOPAT crecio un 0,6% (214,0 -> 215,3), y la guia oficial para 2026 es de -1% a +1% de BPA GAAP. Es decir, el precio pide catorce veces y media lo que la empresa esta entregando. No es una diferencia de matiz sobre supuestos: es una diferencia de orden de magnitud entre lo que el precio descuenta y lo que la unica fuente autorizada —la guia de la propia direccion, reafirmada hace ocho semanas— dice que va a pasar."
+  },
+
+  "g_defendible": {
+    "formula": "g = tasa de reinversion sobre NOPAT x ROIIC EX-MARGEN",
+    "reinversion_pct_ventas": 14.69,
+    "reinversion_usd_mm": 158.9,
+    "nopat_usd_mm": 215.3,
+    "tasa_reinversion_sobre_nopat_pct": 73.8,
+    "roiic_ex_margen_pct": 11.2,
+    "roiic_bruto_pct": 19.4,
+    "g_defendible_pct": 8.27,
+    "g_con_roiic_bruto_pct": 14.32,
+    "por_que_ex_margen": "Usar el ROIIC bruto del 19,4% equivale a suponer que la expansion de margen se repite. No se repite: el 42% del crecimiento de NOPAT de cinco anios vino de expandir margen, no de poner capital a trabajar, y ese pozo tiene fondo. El margen operativo GAAP ya paso del 12,3% en 2020 al 25,9% en 2025 — y la guia de 2026 lo baja a 24,6-24,9%. La expansion de margen no solo dejo de aportar: en 2026 resta.",
+    "el_hallazgo_incomodo": "El ROIIC ex-margen es 11,2%. El WACC es 9,97%. El diferencial es de 1,2 puntos porcentuales. Cada dolar incremental que MANH pone a trabajar, una vez despojado de la expansion de margen que no se repite, gana apenas por encima de lo que cuesta el capital. Un negocio con un diferencial de 1,2 pp crea muy poco valor al crecer: el crecimiento le es casi indiferente al accionista. Y sin embargo el precio esta pagando por diez anios de crecimiento del 15%. Esta es la tension central del expediente.",
+    "contraste_con_la_implicita": "El precio exige 14,2-15,6%. Yo defiendo 8,27%. El precio pide entre 1,7 y 1,9 veces lo que la maquina puede sostener, y la g que YO defiendo (8,27%) ya es generosa: esta muy por encima del 0,6% de crecimiento de NOPAT realizado en 2025 y del -1% a +1% de BPA GAAP que la empresa guia para 2026.",
+    "contraste_con_lo_observado": "Crecimiento de ingresos: 2023 +21,1%, 2024 +12,2%, 2025 +3,75%, 2026 guiado +6-7%. Crecimiento de NOPAT: 2024->2025 +0,6%. Crecimiento de beneficios del propietario: 2025->2026e -6,5%. La deceleracion es la tendencia dominante de la serie."
+  },
+
+  "valor_intrinseco": {
+    "con_g_defendible_8_27pct_y_wacc_9_97pct": {
+      "auditado_mantenimiento_usd_accion": 103,
+      "auditado_capex_total_usd_accion": 100,
+      "encurso_mantenimiento_usd_accion": 97,
+      "encurso_capex_total_usd_accion": 93
+    },
+    "piso_de_resolucion": {
+      "regla": "Sin una medicion propia del ruido, banda de mas menos 25%. Ninguna cifra se reporta con mas precision que el ruido; nada de decimales en el valor intrinseco.",
+      "banda_encurso_usd_accion": "72 – 121",
+      "banda_auditado_usd_accion": "77 – 129",
+      "lectura_honesta": "El techo de la banda mas favorable de todas —base auditada, capex de mantenimiento, extremo superior del rango de ruido— es 129 USD por accion. El precio es 159,07. La accion esta por encima del EXTREMO OPTIMISTA de mi banda de valoracion. Esto no es un caso limite que dependa de afinar supuestos: no hay ninguna combinacion razonable de base, convencion de capex y ruido que alcance el precio de mercado con la g que puedo defender."
+    },
+    "sensibilidad_wacc_base_encurso_mantenimiento": {
+      "wacc_9_33_pct": { "valor_usd_accion": 107, "mos_pct": -49 },
+      "wacc_9_97_pct": { "valor_usd_accion": 97, "mos_pct": -65 },
+      "wacc_10_67_pct": { "valor_usd_accion": 87, "mos_pct": -82 }
+    },
+    "escenario_dos_etapas": {
+      "descripcion": "Mas fiel a la guia: tres anios al crecimiento que la propia empresa proyecta (0% a 2% de beneficios del propietario) y despues siete anios a mi g defendible del 8,27%, terminal 3%.",
+      "con_g1_0_pct": { "valor_usd_accion": 78, "mos_pct": -105 },
+      "con_g1_2_pct": { "valor_usd_accion": 82, "mos_pct": -94 },
+      "lectura": "Si se respeta la guia oficial en los primeros tres anios en lugar de aplicar la g defendible desde el minuto uno, el valor cae a 78-82 USD. Y esto sigue asumiendo que a partir del ano cuatro la empresa reacelera al 8,3% para siempre."
+    },
+    "punto_de_indiferencia": "Para que 159,07 USD sea el valor justo con mi WACC del 9,97% y terminal del 3%, hace falta una g de 15,12% durante diez anios sobre los beneficios del propietario de la base en curso. Alternativamente, con la g defendible del 8,27%, haria falta un WACC del 7,4% — es decir, una beta de 0,63, que la serie de precios de esta accion no soporta ni de lejos con una volatilidad realizada del 37,4%."
+  },
+
+  "margen_de_seguridad": {
+    "mos_exigido_pct": 30.0,
+    "mos_exigido_nota": "MANH no esta en cartera (verificado contra IBKR el 2026-07-27), asi que aplica el umbral de ABRIR: 30% para su banda. Si estuviera en cartera, la decision seria CARGAR y el umbral subiria a 40% para una MUY_BUENA.",
+    "mos_auditado_pct": -54.2,
+    "mos_auditado_capex_total_pct": -59.4,
+    "mos_encurso_pct": -64.6,
+    "mos_encurso_capex_total_pct": -70.7,
+    "veredicto_mos": "SUSPENSO ROTUNDO. No hay margen de seguridad: hay una prima de seguridad negativa del 54% al 71%. Se exige un 30% de descuento y el mercado cobra entre un 54% y un 71% de SOBREPRECIO sobre mi valor central. La distancia entre lo exigido y lo ofrecido es de 84 a 101 puntos porcentuales.",
+    "nota_sobre_la_cifra": "Un MoS del -65% no es una cifra que informe por si misma: por eso esta la TIR. Lo que significa en la practica es que el precio tendria que caer a 68 USD (-57%) para abrir posicion segun la regla."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 16.0,
+    "m_estrella_definicion": "El multiplo de beneficios del propietario (version de capex de mantenimiento) que acepto pagar EN LA COMPRA. Decidido en frio, sin barra de error, porque no es una estimacion sino un compromiso.",
+    "m_estrella_justificacion": "Anclaje: con un WACC del 9,97% y crecimiento perpetuo del 3%, el multiplo de equilibrio es 1/(0,0997-0,03) = 14,3x. Pagar 16x implica descontar aproximadamente un 3,7% perpetuo, un punto por encima del terminal. Para un negocio con caja neta y devengo negativo siete anios eso es defendible. NO subo mas alla de 16x por tres razones concretas: (1) el ROIIC ex-margen del 11,2% deja solo 1,2 pp sobre el coste del capital, asi que el crecimiento apenas crea valor; (2) G4 esta suspendida y se confirmo en junio de 2026 con el despido del 6% — una empresa que defiende el margen recortando I+D en recesion no merece prima de duracion; (3) G3 no es medible en absoluto porque no publica una sola magnitud unitaria, asi que no puedo verificar poder de fijacion de precios y no pago por lo que no puedo verificar.",
+    "multiplo_actual_ev_oe_encurso_mantenimiento": 36.4,
+    "multiplo_actual_ev_oe_encurso_capex_total": 37.8,
+    "multiplo_actual_ev_oe_auditado_mantenimiento": 34.0,
+    "per_2026e_gaap": 44.3,
+    "per_2026e_ajustado": 29.8,
+    "rentabilidad_oe_sobre_capitalizacion_pct": 2.70,
+    "precio_implicito_por_m_estrella_usd": 72,
+    "detalle_m_estrella": "16,0x x 254,3 M de beneficios del propietario en curso = 4.068,8 M de valor de empresa, mas 165,6 M de caja neta = 4.234,4 M de patrimonio, entre 59,16 M de acciones = 71,6 USD por accion.",
+    "p_estrella_usd": 68,
+    "p_estrella_definicion": "El precio que da el MoS exigido del 30% sobre el valor intrinseco de la base EN CURSO con capex de mantenimiento (97 USD): 97 x 0,70 = 67,7, redondeado a 68. Sobre la base auditada seria 72. Las dos vias convergen: el DCF con g defendible menos el 30% da 68, y el compromiso de multiplo M* = 16x da 72. Tomo 68, el mas exigente.",
+    "distancia_al_precio": "El precio tendria que caer un 57,3% desde 159,07 hasta 68 USD para que la regla permita abrir posicion. El minimo de 52 semanas es 119,06 — es decir, ni siquiera en el peor momento del ultimo ano esta accion estuvo cerca de mi precio de compra. Habria que volver a niveles de 2016."
+  },
+
+  "tir_esperada": {
+    "rango": "-5% a +6% anual durante 10 anios; central entre -3% y +1%",
+    "detalle": {
+      "estancamiento_g0_salida_14x": -5.1,
+      "g_3pct_salida_16x": -1.2,
+      "guia_g2pct_salida_14x": -3.2,
+      "g_defendible_8_27pct_salida_18x": 4.8,
+      "g_defendible_8_27pct_salida_20x": 5.7,
+      "consenso_alcista_g12pct_salida_25x": 11.3
+    },
+    "lectura": "Esto es lo que un MoS del -65% significa en dinero. Comprando hoy a 159,07 y manteniendo diez anios: si la empresa entrega lo que ella misma guia (crecimiento nulo de beneficios del propietario) y sale a un multiplo todavia generoso de 14x, se pierde un 5% anual durante una decada. Si entrega mi g defendible del 8,27% —que ya es el doble de optimista que su propia guia— y ademas el mercado le sigue pagando 18-20x beneficios del propietario dentro de diez anios, se gana un 5-6% anual, por debajo del coste del capital del 9,97%. Para batir el coste del capital hace falta el escenario del consenso alcista: 12% anual durante diez anios Y salir a 25x. El caso base no es una perdida catastrofica: es una decada de rentabilidad entre nula y ligeramente negativa. Eso es exactamente lo que se compra cuando se paga 37x los beneficios del propietario de un negocio que crece al 6% y convierte ese 6% en un -6,5% de beneficio para el propietario."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "NO — pero por la razon inversa a la habitual, y con una advertencia grave sobre el motor.",
+    "motivo": "El detector de trampas de valor existe para impedir que un MoS grande sobre un negocio que se rompe se confunda con una oportunidad. Aqui no hay MoS grande que explicar: hay un sobreprecio del 54% al 71%. No es una trampa de valor porque no hay valor aparente que sea trampa. El riesgo es el simetrico y opuesto: es una accion cara sobre un motor que se esta desacelerando, que es la trampa de CRECIMIENTO, no la de valor. Los 2.350 M de RPO creciendo al 24% son reales y son la mejor noticia del expediente; el problema es que ese RPO ya esta pagado a 37x y no se esta convirtiendo en beneficio para el propietario.",
+    "advertencia_del_motor": "Tres senales de deterioro del motor, todas de fuente primaria y todas dentro del periodo valorado: (1) el ROIIC ex-margen del 11,2% deja solo 1,2 pp sobre un WACC del 9,97%, de modo que el crecimiento incremental de esta empresa crea muy poco valor; (2) la guia oficial de 2026 baja el margen operativo GAAP de 25,87% a 24,6-24,9% y el BPA GAAP a -1%/+1%, de modo que el pozo de expansion de margen del que salio el 42% del crecimiento de NOPAT de cinco anios no solo se agoto sino que se ha invertido; (3) el 1 de junio de 2026 la empresa despidio al 6% de la plantilla REAFIRMANDO la guia — es decir, recorto para defender el margen prometido, exactamente la conducta de 2009, 2020 y enero de 2025 que hizo suspender G4. Si en algun momento el precio cayera a la zona de 68 USD, esta advertencia habria que volver a leerla entera antes de comprar: la baratura no arreglaria el motor."
+  },
+
+  "monologo_final": "Manhattan Associates es un buen negocio y esta cara. Las dos cosas a la vez, sin tension entre ellas. El mecanismo es real: 2.350 M de suscripcion cloud no cancelable creciendo al 24%, pagada por adelantado por el cliente, cero deuda, 226 M de caja, capital invertido neto en cero. Eso no lo discuto y no es lo que decide. Lo que decide es el precio, y el precio de 159,07 USD exige que los beneficios del propietario crezcan un 15,1% anual durante diez anios y luego un 3% para siempre, al WACC del 9,97% que sale del mercado —tipo sin riesgo 4,64%, beta 1,20 de mi propia regresion semanal a cinco anios, prima de Damodaran de julio de 2026—. Frente a esa exigencia, mi g defendible es 8,27%, y la obtengo multiplicando la tasa de reinversion sobre NOPAT (73,8%) por el ROIIC EX-MARGEN (11,2%), no por el bruto, porque usar el bruto seria suponer que se repite una expansion de margen que la propia guia de 2026 ya esta revirtiendo. El precio pide 1,8 veces lo que la maquina puede dar. Y mi 8,27% ya es generoso: el NOPAT crecio un 0,6% en 2025 y la empresa guia un BPA GAAP de entre -1% y +1% para 2026. El dato mas incomodo del expediente no es el multiplo, sino este: el ROIIC ex-margen del 11,2% esta 1,2 puntos por encima del coste del capital del 9,97%. Cuando el diferencial es de un punto, el crecimiento casi no crea valor — y aqui se estan pagando diez anios de crecimiento del 15%. La segunda cosa que hay que decir en voz alta es que los beneficios del propietario CAEN un 6,5% en 2026 mientras los ingresos suben un 6-7%. Eso no es ruido de una base estimada: sale de la aritmetica de la guia oficial, con el margen operativo bajando y la retribucion en acciones subiendo de 111 a 118 M. La empresa esta creciendo y el propietario no. Comprobe que la conclusion no dependiera de mi decision mas discutible, que es restar la retribucion en acciones: con la convencion ciega, el precio sigue exigiendo un 9,6-10,0% anual, todavia por encima del 8,27% defendible. Y comprobe que no dependiera del WACC: con beta 1,05, la exigencia del precio sigue siendo del 13,6%. No hay puerta trasera. El valor intrinseco central es 97 USD sobre la base en curso, 103 sobre la auditada, con banda de ruido de mas menos 25%: 72 a 129. El precio esta por encima del techo optimista de la banda mas favorable. El margen de seguridad es del -65%; el exigido para abrir es +30%; la distancia son 95 puntos. P estrella son 68 USD, un 57% por debajo de hoy, cifra a la que convergen tanto el DCF con la g defendible menos el 30% (67,7) como mi compromiso de multiplo de 16x beneficios del propietario (71,6). Ni siquiera el minimo de 52 semanas —119,06— se acerco. En terminos de rentabilidad: comprar hoy y mantener diez anios da entre -5% y +6% anual, con el caso base entre -3% y +1%, todos por debajo del coste del capital. Y por ultimo, la disciplina de la etiqueta congelada: al abrir el precio y ver la caida del 45% desde el maximo del ciclo, la tentacion es decir que ahora si compensa y que en realidad esto era una ULTRA. No lo es y no lo sera. El 1 de junio de 2026, ocho semanas antes de esta valoracion, MANH despidio al 6% de su plantilla reafirmando la guia: la cuarta repeticion documentada de la conducta que hizo suspender G4, ocurrida dentro del ejercicio que acabo de valorar. La etiqueta MUY_BUENA no se toca. VEREDICTO: NO COMPRAR. No es un no de tiempo ni un no de matiz, es un no de precio con 95 puntos de distancia. Vigilar y volver a mirar solo si el precio entra en la zona de 68-72 USD, y entonces releer entera la advertencia del motor antes de hacer nada.",
+
+  "huecos_declarados": [
+    "Q2 2026 NO PUBLICADO. A 27-jul-2026 la ultima presentacion de MANH en EDGAR es un Formulario 4 del 16-jun-2026; el 10-Q y el 8-K de resultados del segundo trimestre aun no existen. Mi base 'en curso' se apoya en UN solo trimestre publicado (Q1) mas la guia oficial. Es una base mas debil que la de un semestre cerrado, y no se cuanto de los 7-9 M de reestructuracion ha impactado ya el flujo.",
+    "FLUJO DE CAJA OPERATIVO 2026 = INFERENCIA. La empresa NO guia flujo de caja. Mis 380 M son construccion propia por partidas. Los dos metodos que probe difieren mucho: bottom-up da 371 M, escalar el Q1 por su peso historico da 435 M. Un flujo de 435 M subiria los beneficios del propietario en curso de 254 a 309 M y el MoS pasaria de -65% a aproximadamente -36%. Sigue siendo suspenso, pero la cifra exacta del MoS en curso es la mas fragil del expediente.",
+    "IMPUESTOS DIFERIDOS. Partida violentamente volatil (-28,8 M en 2023, -28,7 M en 2024, +18,3 M en 2025) que no se predecir. Un error de 25 M aqui mueve los beneficios del propietario en curso un 10%.",
+    "ROIIC EX-MARGEN 11,2% Y REINVERSION 14,69% VIENEN HEREDADOS del eje de comprension. No los he recalculado ni conozco su definicion exacta (si la reinversion es sobre ventas o sobre NOPAT, que se cuenta como capital invertido). Toda mi g defendible descansa sobre esas dos cifras que no he verificado yo. Si la reinversion estuviera medida de otra forma, la tasa de reinversion sobre NOPAT del 73,8% que derivo podria estar equivocada.",
+    "BETA SIN CONTRASTE INSTITUCIONAL. No tengo Bloomberg ni Barra. Mi beta de 1,266 sale de mi propia regresion con SPY como proxy del mercado; TradingView publica 0,88 y otra fuente 1,028. El error tipico de mi estimacion es 0,12. Con beta 0,88 el WACC bajaria a 8,57% y el valor por accion subiria a ~124 USD — todavia por debajo del precio, pero el MoS mejoraria de -65% a -28%.",
+    "PRIMA PAIS SIN DESGLOSE POR PAIS. El 10-K solo da Americas/EMEA/APAC. No se cuanto de 'Americas' es Latinoamerica ni cuanto de 'APAC' es India o China. Con APAC al 5,1% de los ingresos el impacto es menor de 8 pb de WACC.",
+    "G3 NO MEDIBLE, HEREDADO. MANH no publica ninguna magnitud unitaria (ni precio por pedido, ni por almacen, ni por usuario). No puedo verificar poder de fijacion de precios de forma independiente, y por eso mi M estrella de 16x es un techo y no un punto medio.",
+    "ACCIONES EN CIRCULACION A 2026-04-21. La recompra del Q2 (con 350 M de autorizacion disponible) reduciria las acciones y la capitalizacion. Efecto estimado 1-2%, por debajo del piso de resolucion."
+  ],
+
+  "fuentes": [
+    "SEC EDGAR — 10-K FY2025, Manhattan Associates Inc., accession 0001193125-26-037138, presentado 2026-02-04. Estados consolidados de resultados (R2), balance (R4), flujos de efectivo (R6), nota de segmentos (R25), nota de arrendamientos.",
+    "SEC EDGAR — 10-Q Q1 2026, accession 0001193125-26-175715, presentado 2026-04-24.",
+    "SEC EDGAR — 8-K de resultados Q1 2026 con la guia de 2026, accession 0001193125-26-166709, exhibit 99.1, 2026-04-21.",
+    "SEC EDGAR — 8-K de reestructuracion (reduccion del 6% de la plantilla) y reafirmacion de la guia, accession 0001193125-26-251382, 2026-06-01.",
+    "SEC EDGAR — API XBRL companyfacts CIK0001056696, descargada 2026-07-27, para las series historicas de ingresos, resultado de explotacion, beneficio neto, flujo de caja operativo, capex, amortizacion, retribucion en acciones, acciones en circulacion y RPO.",
+    "IBKR — get_price_snapshot y get_price_history, contract_id 4814485 (MANH, NASDAQ) y 756733 (SPY, ARCA), 2026-07-27, para el precio, el rango de 52 semanas y las series semanales de cinco anios usadas en la regresion de beta.",
+    "IBKR — get_account_positions, 2026-07-27, para verificar que MANH no esta en cartera.",
+    "Trading Economics — rendimiento del bono de EEUU a 10 anios, 4,64% al 2026-07-27. INFERENCIA (fuente secundaria de mercado).",
+    "Aswath Damodaran — actualizacion de primas de riesgo por pais de julio de 2026: prima implicita del S&P 500 4,42%, prima de mercado maduro 4,17% tras descontar 0,25% de riesgo de impago soberano de EEUU. INFERENCIA (fuente academica secundaria).",
+    "TradingView — beta a cinco anios de MANH 0,88, usada solo como contraste, no adoptada. INFERENCIA."
+  ]
+}

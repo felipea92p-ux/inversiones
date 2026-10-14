@@ -1,0 +1,364 @@
+{
+  "expediente": "LSEG.L — London Stock Exchange Group plc — Valoracion (DCF inverso con WACC bottom-up de mercado, candado B)",
+  "fecha_analisis": "2026-07-28",
+  "precio_de_referencia": "Cierre del 27-jul-2026 en la LSE (8.948,0p). A la hora de este expediente (05:43 UTC del 28-jul) el mercado de Londres aun no habia abierto: volumen del dia 0. Es el ultimo cierre disponible y es el precio vivo.",
+  "divisa": "USD (contabilidad en GBP, convertida a 1,328975 USD/GBP)",
+  "unidades": "millones salvo indicacion",
+  "analista": "Valorador — la etiqueta de calidad viene CONGELADA y no es reclasificable hacia arriba",
+  "version": "v2 — sustituye al expediente del 27-jul-2026. Cambian tres cosas: (1) la etiqueta congelada llega con reinversion 10,5% de ventas / ROIIC bruto 3,4% / ROIIC ex-margen 4,8% en lugar de 74,8% / 3,6% / 4,9%; (2) la prima pais deja de ser una inferencia sobre la nota de sensibilidad cambiaria y pasa a ser HECHO del filing (desglose de ingresos por divisa); (3) en consecuencia la g defendible baja de 3,5% a 2,5% y los dos margenes de seguridad pasan a ser NEGATIVOS.",
+
+  "identificacion": {
+    "ticker": "LSEG.L (ordinaria, London Stock Exchange, contract_id IBKR 39234929)",
+    "nombre": "London Stock Exchange Group plc",
+    "domicilio": "Reino Unido — 10 Paternoster Square, Londres EC4M 7LS (HECHO, nota 'Reporting entity' de los Preliminary Results 2025). NO presenta ante la SEC: no hay 20-F ni companyfacts XBRL. Toda la contabilidad sale de sus propios documentos publicados en relaciones con inversores.",
+    "moneda_funcional_y_de_presentacion": "GBP — HECHO, todos los estados de los Preliminary Results 2025 estan en GBPm. Por tanto el activo sin riesgo del WACC es el gilt, no el Treasury.",
+    "es_ADS": "Existe LSEGY (ADR, PINK, contract_id 831425293) pero NO lo uso: es ilíquido y no calculo nada sobre el. Trabajo con la ordinaria de Londres. No hay riesgo de error de ratio ADS.",
+    "clase_unica": "Si. Una sola clase de ordinarias.",
+    "fuentes_primarias_usadas": [
+      "LSEG 2025 Preliminary Results RNS, 26-feb-2026, 50 paginas — DESCARGADO Y LEIDO EN ESTA PASADA (lseg.com/content/dam/lseg/en_us/documents/investor-relations/financial-results/preliminary-results/rns/lseg-2025-preliminary-results-rns-26feb2026.pdf). Origen de: cuenta de resultados, estado de flujos de caja condensado, nota 5 (financieros), nota 8 (intangibles), nota 9 (deuda), conciliacion de medidas ajustadas (pags. 48-50), desglose de ingresos por divisa (pag. 21).",
+      "LSEG Q1 2026 Trading Update RNS, 23-abr-2026, 10 paginas — DESCARGADO Y LEIDO EN ESTA PASADA (lseg.com/.../trading-statement/rns/lseg-trading-update-q1-2026-rns-23apr2026.pdf). Origen de: guia financiera 2026 completa, crecimiento organico Q1 por division, recompra ejecutada.",
+      "Tradeweb Markets Inc. 10-Q Q1-2026 (SEC EDGAR, CIK 0001758730, accession 0001758730-26-000096, tw-20260331.htm) — DESCARGADO Y VERIFICADO EN ESTA PASADA. Origen de la estructura de propiedad economica de TWM LLC. Comprobado que NO existe aun 10-Q del Q2: el ultimo trimestral es el de marzo.",
+      "RNS Total Voting Rights de LSEG a 30-jun-2026 — numero de acciones excluida autocartera (verificado en esta pasada via busqueda con cita literal).",
+      "IBKR datos vivos 28-jul-2026 05:43 UTC — ultimo cierre LSEG.L, ultimo cierre TW (NASDAQ), GBP/USD spot IDEALPRO, volatilidad historica, estadisticas de 52 semanas.",
+      "TradingEconomics, gilt britanico a 10 anios, consultado el 28-jul-2026."
+    ]
+  },
+
+  "etiqueta_congelada": {
+    "banda": "MENOS_5_6",
+    "puertas_pasadas": 2,
+    "especie": "G2",
+    "reinversion_pct_ventas": 10.5,
+    "roiic_bruto_pct": 3.4,
+    "roiic_ex_margen_pct": 4.8,
+    "mos_exigido_pct": 40.0,
+    "motivo_mos": "NO esta en cartera. Aplica el umbral de ABRIR de su banda: 40%.",
+    "nota_disciplina": "La etiqueta NO se reclasifica hacia arriba. Nada de lo que hay en este documento —ni la calidad del flujo de caja, ni el multiplo, ni el hecho de que el DCF inverso arroje un crecimiento implicito bajo— reabre la clasificacion. El precio no es evidencia de calidad. Escribo esto porque el DCF inverso de esta empresa produce exactamente el tipo de hallazgo ('el mercado solo paga 2,8% de crecimiento en una empresa que entrega 9,8%') que tienta a reabrir la puerta. No se reabre.",
+    "mecanismo_heredado": "Peaje de red sobre la infraestructura de los mercados: un pool de compensacion (SwapClear) que concentra mas del 90% del nocional mundial de swaps compensados y hace inviable el multi-homing porque el coste de fragmentar se paga en margen inicial, no en comision; atornillado a un negocio de datos por suscripcion comprado en enero de 2021 por unos 27.000 millones de libras.",
+    "eslabon_mas_debil_heredado": "El PRECIO por unidad. En las cuatro lineas donde existe unidad fisica medible el ingreso por unidad CAYO en 2025 mientras el volumen subia con fuerza (-9,5% por dolar de AUM en FTSE Russell, -8% por unidad de nocional en OTC, -8% por libra negociada en renta variable UK). El foso es real pero LSEG lo esta regalando en tarifa a cambio de volumen, sobre un capital total que rinde 5,5% de ROIC, la mitad de su propio coste de capital.",
+    "reconfirmacion_del_valorador": "Reconfirmo contra el filing lo unico que me corresponde reconfirmar —la fiabilidad del NUMERADOR, no el retorno—: flujo neto de explotacion 3.622 menos capex 985 = 2.637 GBPm frente a un beneficio del ejercicio de 1.506 GBPm (Preliminary Results 2025, estado de flujos pag. 29 y cuenta de resultados pag. 26). El flujo libre supera al beneficio en 1,75x. Tambien reconfirmo, y esto SI es nuevo y material para la valoracion, que el capex (985) es INFERIOR a la amortizacion de los activos que ese capex alimenta (1.185). Ninguna de las dos cosas toca las puertas."
+  },
+
+  "posicion_en_cartera": {
+    "si": false,
+    "decision_aplicable": "ABRIR (umbral 40% de margen de seguridad)",
+    "nota_de_solapamiento": "Felipe tiene SPGI. LSEG es el mismo arquetipo —peaje sobre datos, indices e infraestructura de mercado— con la mitad del ROIC. Comprar LSEG no diversifica ese riesgo: lo dobla con peor motor de capital."
+  },
+
+  "precio_y_capitalizacion": {
+    "precio_ordinaria_peniques": 8948.0,
+    "precio_ordinaria_gbp": 89.48,
+    "precio_usd": 118.92,
+    "precio_etiqueta": "HECHO (dato vivo de mercado)",
+    "precio_fuente": "IBKR market data, contract_id 39234929 (LSEG, LSE), snapshot 28-jul-2026 05:43 UTC: last 8.948,0003p con is_close=true y prior_close identico; volumen de la sesion en curso 0 (Londres aun cerrado). Es decir, el cierre del 27-jul-2026.",
+    "tipo_de_cambio": 1.328975,
+    "fx_fuente": "HECHO — IBKR IDEALPRO GBP/USD spot 28-jul-2026 05:43 UTC: bid 1,32895 / ask 1,32900, midpoint 1,328975. Last 1,328975. Cierre anterior 1,3288.",
+    "maximo_52s_gbp": 102.385,
+    "minimo_52s_gbp": 66.84,
+    "maximo_13s_gbp": 99.62,
+    "minimo_13s_gbp": 77.76,
+    "apertura_hace_52s_gbp": 101.278,
+    "variacion_ytd_pct": -0.04,
+    "volatilidad_historica_anual_pct": 31.39,
+    "posicion_en_rango_52s_pct": 63.7,
+    "contexto_precio": "HECHO (IBKR misc_statistics + historical_vol, 28-jul-2026). LSEG marco 102,39 GBP en el ultimo anio y se derrumbo a 66,84 GBP (-34,7% desde maximo). Desde ahi ha recuperado hasta 89,48 (+33,9% desde el minimo). Lleva doce meses yendo a ninguna parte (-0,04% en el anio) y cotiza en el 63,7% de su rango de 52 semanas. Volatilidad historica anualizada 31,4%, muy alta para un 'peaje de infraestructura' — y ese dato, por si solo, ya dice que el beta de 0,67 que sale de la regresion describe mal el riesgo.",
+    "acciones_en_circulacion_mm": 488.308373,
+    "acciones_fuente": "HECHO — RNS Total Voting Rights de LSEG a 30-jun-2026: capital social de 508.496.972 ordinarias, de las cuales 488.308.373 excluida autocartera; ese es tambien el numero de derechos de voto a efectos de las DTR de la FCA. Es el denominador correcto. Contraste con el filing anual: 510 millones excluida autocartera a 31-dic-2025.",
+    "nota_acciones": "El programa de 3.000 millones de recompra sigue vivo hasta febrero de 2027 (1.100 millones ejecutados solo en Q1-2026 — HECHO, Q1 Trading Update, 'completed GBP1.1 billion of share buybacks in Q1; well on track executing on GBP3 billion buyback by February 2027'). A ritmo de ~250 M GBP/mes quedarian ~485-486 millones de acciones a hoy. Uso 488,3 (el ultimo dato duro) y no la estimacion: la diferencia mueve el valor por accion menos del 0,6% y siempre en direccion favorable a la empresa, luego usar el dato duro es lo conservador.",
+    "capitalizacion_gbp_mm": 43693.8,
+    "capitalizacion_usd_mm": 58068,
+    "deuda_neta_operativa_gbp_mm": 9175,
+    "deuda_neta_usd_mm": 12193,
+    "deuda_neta_etiqueta": "INFERENCIA — HUECO DECLARADO, se resuelve en 48 horas",
+    "deuda_neta_derivacion": "Ancla HECHO (Preliminary Results 2025, conciliacion de medidas alternativas, pag. 50): borrowings and lease liabilities 11.718 - caja 3.949 - derivados netos 171 = net debt 7.598; menos arrendamientos 627; mas 1.204 de 'regulatory and operational amounts' = OPERATING NET DEBT 8.175 a 31-dic-2025 (2024: 7.178). Uso la deuda neta OPERATIVA porque 1.204 M de la caja no es caja libre: es capital que las camaras tienen apartado por exigencia regulatoria. Estimacion a hoy: 8.175 + recompras feb-jun (~1.900) + dividendo final 2025 (~277) + segundo pago de SwapClear (250, HECHO: nota 8, 'GBP250 million is payable in 2026') - flujo libre del semestre (~1.250) = ~9.175. Contraste con la guia: apalancamiento 'around the middle' de la banda 1,5-2,5x, coherente. SENSIBILIDAD MEDIDA: 500 M GBP de error mueven el valor por accion 1,36 USD, el 1,1%. NO decide nada.",
+    "interes_minoritario_a_mercado_gbp_mm": 8907,
+    "interes_minoritario_a_mercado_usd_mm": 11837,
+    "nci_derivacion": "ESTE ES EL AJUSTE QUE CASI NADIE HACE Y QUE VALE 24 DOLARES POR ACCION. LSEG consolida el 100% de Tradeweb pero solo posee el 50,8% de su economia. HECHO verificado literalmente en esta pasada (Tradeweb 10-Q Q1-2026, SEC, tw-20260331.htm): 'As of March 31, 2026: The public investors collectively owned 116,035,961 shares of Class A common stock, representing 10.1% of the combined voting power... and indirectly, through Tradeweb Markets Inc., owned 49.2% of the economic interest in TWM LLC; LSEG indirectly owned 96,933,192 shares of Class B, 18,000,000 Class C and 4,988,329 Class D... owned 50.8% of the economic interest in TWM LLC'. Valor de mercado de esa minoria: 116.035.961 x 102,01 USD (TW, NASDAQ, ultimo cierre 27-jul-2026, IBKR contract_id 359693017) = 11.837 MUSD = 8.907 GBPm. Como el flujo que descuento es el CONSOLIDADO (100% de Tradeweb), el minoritario tiene que entrar en el valor de empresa. Si se ignora, el valor por accion sube 18,24 GBP (24,24 USD): un 20% del precio.",
+    "ev_gbp_mm": 61775.8,
+    "ev_usd_mm": 82098,
+    "composicion_ev": "Capitalizacion 43.694 (70,7%) + deuda neta operativa 9.175 (14,9%) + minoritario de Tradeweb a mercado 8.907 (14,4%) = 61.776 GBPm = 82.098 MUSD.",
+    "nota_arrendamientos": "Excluyo los 627 GBPm de pasivos por arrendamiento de la deuda y, coherentemente, resto los pagos de principal de arrendamiento (161 GBPm en 2025, HECHO del estado de flujos) dentro de los owner earnings. Tratar el arrendamiento como coste operativo y no como deuda evita el doble conteo.",
+    "multiplos_actuales": {
+      "ev_sobre_ebitda_ajustado": 13.7,
+      "ev_sobre_fcff_auditado": 23.6,
+      "ev_sobre_fcff_encurso": 21.5,
+      "precio_sobre_oe_atribuible_auditado": 20.3,
+      "precio_sobre_oe_atribuible_encurso": 18.4,
+      "per_ajustado": 21.3
+    }
+  },
+
+  "wacc_candado_B": {
+    "principio": "El WACC sale del MERCADO. Nunca de un tier de calidad. Que LSEG sea MENOS_5_6 no le sube ni un punto basico el coste del capital, igual que ser ULTRA no se lo bajaria. El castigo por la mala calidad se aplica en la g y en el umbral de MoS, no aqui.",
+    "tasa_libre_riesgo_pct": 4.97,
+    "rf_etiqueta": "INFERENCIA (agregador con fecha, no fuente primaria)",
+    "rf_fuente": "Gilt britanico a 10 anios. TradingEconomics, consultado el 28-jul-2026, texto literal: 'The yield on United Kingdom 10Y Bond Yield eased to 4.97% on July 28, 2026, marking a 0.02 percentage points decrease from the previous session.' Moneda funcional GBP => el activo sin riesgo es el soberano en GBP. HUECO: no alcance la fuente primaria (UK DMO). Un segundo agregador daba 5,07% en el mes. Banda 4,95%-5,10%; cada 10 pb mueven el valor por accion ~2,4 USD.",
+    "prima_mercado_madura_pct": 4.20,
+    "erp_fuente": "Damodaran, actualizacion de 1-jul-2026: ERP implicita de EEUU 4,42%; descontado el default spread Aa1 de EEUU (0,22%) tras la rebaja de Moody's, la prima de mercado MADURA queda en 4,20%. INFERENCIA (leido de la actualizacion con fecha; no descargue el workbook).",
+    "prima_pais_pct": 0.42,
+    "prima_pais_etiqueta": "INFERENCIA en las primas por pais; HECHO en las ponderaciones (mejora respecto de la version anterior, que ponderaba por una inferencia).",
+    "prima_pais_metodo": "Ponderada por el pais del riesgo de ACTIVO, no por el domicilio fiscal britanico. En esta pasada NO infiero la exposicion de la nota de sensibilidad cambiaria: la leo directamente del filing. HECHO literal (Preliminary Results 2025, pag. 21, tabla 'Foreign Exchange'): '2025 Total income — USD 58% | GBP 16% | EUR 17% | Other 9%'. Aplico: EEUU 0,22% (Damodaran jul-2026), Reino Unido ~0,50%, Europa desarrollada ~0,45%, resto del mundo ~1,50%. Ponderada = 0,58x0,22 + 0,16x0,50 + 0,17x0,45 + 0,09x1,50 = 0,42%. Banda 0,30%-0,70% (unos 15 pb de WACC).",
+    "prima_mercado_total_pct": 4.62,
+    "beta": {
+      "beta_usado": 0.80,
+      "rango": "0,67 - 1,00",
+      "etiqueta": "INFERENCIA (medicion propia sobre precios de mercado, dos regresiones independientes de 60 retornos mensuales, ejecutadas el 27-jul-2026 sobre historicos de IBKR)",
+      "medicion_1": "LSEG.L contra iShares Core FTSE 100 (ISF, LSEETF), 60 retornos mensuales jul-2021 a jul-2026, ambos en GBP: beta = 0,667, R2 = 0,101, error tipico = 0,262, IC95% [0,15 - 1,18]. Beta a 36 meses: 0,659.",
+      "medicion_2": "LSEG.L convertida a USD con el GBP/USD mensual de IBKR, contra SPY, mismos 60 meses: beta = 0,710, R2 = 0,214, error tipico = 0,179, IC95% [0,36 - 1,06]. Beta a 36 meses: 0,590.",
+      "volatilidad_medida": "22,5% anualizada en GBP y 24,6% en USD sobre 60 meses; 31,4% en la ventana corta que reporta IBKR hoy. El FTSE 100 en el mismo periodo: 10,7%. LSEG es DOS O TRES VECES mas volatil que su indice con un beta de 0,67: casi todo su riesgo es idiosincratico.",
+      "eleccion": "Beta central 0,80, aproximadamente el ajuste de Blume de las dos mediciones (0,78 sobre la local, 0,81 sobre la global). Cota baja 0,67 = la medicion cruda. Cota alta 1,00 = nivel tipico de operadores de bolsa y proveedores de datos cotizados medidos contra un indice global, y dentro del IC95% de ambas regresiones.",
+      "vigencia": "Un beta mensual a 60 meses no se mueve con un dia de cotizacion. La medicion del 27-jul se usa tal cual el 28-jul.",
+      "hueco": "No consegui un beta bottom-up sectorial citable de Damodaran. Es el parametro mas debil del WACC y, junto con g, el que decide el veredicto."
+    },
+    "coste_deuda": {
+      "kd_pretax_pct": 3.14,
+      "metodo": "HECHO derivado del filing: finance costs FY2025 = 340 GBPm (cuenta de resultados y nota 5) sobre deuda bruta media = (11.718 + 9.965)/2 = 10.841,5 GBPm => 3,14%. Contraste con caja: 'Interest paid' 304 GBPm sobre la misma base = 2,80%.",
+      "por_que_es_tan_bajo": "LSEG emite en multiples divisas donde el tipo es mas barato que en libras, y buena parte de la cartera se emitio antes de la subida de tipos. En 2025 tomo 2.605 GBPm de nueva deuda (de los cuales 851 a corto plazo) y devolvio 730.",
+      "coste_marginal_hoy": "Superior. Con el gilt a 10 anios en 4,97% y calificacion en la parte alta del grado de inversion, una emision nueva en libras costaria ~5,5-5,9%. Uso 5,5% como cota alta del rango de WACC.",
+      "tasa_impositiva_pct": 24.0,
+      "tasa_impositiva_fuente": "HECHO — guia de la empresa para 2026: 'Underlying effective tax rate of 24-25%' (Q1 Trading Update, 23-abr-2026). Contraste con el ejercicio auditado: 463/1.969 = 23,5% estatutario y 800/3.338 = 24,0% ajustado.",
+      "kd_postax_pct": 2.39,
+      "hueco": "Uso el nominal de la deuda, no la cotizacion de los bonos. Existen tres emisores en IBKR (LSEGA Financing PLC, LSEG Netherlands BV, LSEG US Fin Corp) cuyas cotizaciones no consulte. Con grado de inversion alto la diferencia con el nominal es de segundo orden."
+    },
+    "ponderaciones": {
+      "metodo": "A valor de MERCADO. Fondos propios totales = capitalizacion 43.694 + minoritario de Tradeweb a mercado 8.907 = 52.601 GBPm. Deuda = deuda neta operativa 9.175 GBPm.",
+      "peso_equity_pct": 85.15,
+      "peso_deuda_pct": 14.85
+    },
+    "coste_fondos_propios_pct": 8.67,
+    "wacc_pct": 7.73,
+    "wacc_rango": "7,2% - 8,8%",
+    "detalle_rango": [
+      "Bajo 7,22%: beta 0,67 (medicion cruda), kd 3,14% del filing, rf 4,97%, prima total 4,62%.",
+      "Central 7,73%: beta 0,80 (Blume de las dos mediciones), kd 3,14%, rf 4,97%, prima total 4,62%.",
+      "Alto 8,79%: beta 1,00 (nivel de pares globales, dentro del IC95%), kd marginal 5,5%."
+    ],
+    "sensibilidad_critica": "El rango entero de WACC mueve el valor por accion, con g defendible 2,5% y base en curso, de 134,05 USD (WACC 7,22%) a 84,82 USD (WACC 8,79%). El precio de hoy (118,92) esta dentro. El WACC solo, sin tocar nada mas, decide si esta 'barata' o 'cara'. Eso es una confesion de falta de resolucion y se trata como tal en el piso de resolucion."
+  },
+
+  "owner_earnings": {
+    "principio": "Dos versiones (capex de mantenimiento aproximado por la depreciacion, y capex total) sobre dos bases (FY2025 auditado y FY2026 en curso con la guia de la empresa).",
+    "punto_de_partida_auditado": {
+      "ejercicio": "FY2025 — Preliminary Results publicados el 26-feb-2026 (estados condensados auditados)",
+      "ingresos_totales_gbp_mm": 9346,
+      "ingresos_excl_recoveries_gbp_mm": 8986,
+      "crecimiento_organico_2025_pct": 7.1,
+      "ebitda_reportado_gbp_mm": 4365,
+      "ebitda_ajustado_gbp_mm": 4523,
+      "beneficio_operativo_reportado_gbp_mm": 2127,
+      "beneficio_operativo_ajustado_gbp_mm": 3506,
+      "beneficio_del_ejercicio_gbp_mm": 1506,
+      "beneficio_atribuible_a_LSEG_gbp_mm": 1249,
+      "beneficio_de_minoritarios_gbp_mm": 257,
+      "beneficio_ajustado_del_ejercicio_gbp_mm": 2538,
+      "beneficio_ajustado_de_minoritarios_gbp_mm": 334,
+      "caja_generada_por_operaciones_gbp_mm": 4205,
+      "intereses_cobrados_gbp_mm": 117,
+      "intereses_pagados_gbp_mm": 304,
+      "impuestos_pagados_gbp_mm": 396,
+      "flujo_neto_de_explotacion_gbp_mm": 3622,
+      "capex_intangibles_gbp_mm": 861,
+      "capex_ppe_gbp_mm": 124,
+      "capex_total_gbp_mm": 985,
+      "amortizacion_software_y_otros_gbp_mm": 939,
+      "deterioro_software_gbp_mm": 12,
+      "depreciacion_y_deterioro_ppe_gbp_mm": 253,
+      "amortizacion_del_intangible_de_swapclear_gbp_mm": 19,
+      "proxy_depreciacion_de_activos_alimentados_por_capex_gbp_mm": 1185,
+      "amortizacion_de_intangibles_ADQUIRIDOS_gbp_mm": 1034,
+      "pago_principal_arrendamientos_gbp_mm": 161,
+      "fuente": "HECHO — Preliminary Results 2025: cuenta de resultados condensada (pag. 26), estado de flujos de caja condensado (pag. 29), nota 8 de intangibles (pags. 35-36), conciliacion de medidas ajustadas (pag. 48). El capex de 985 son 'Payments for intangible assets' 861 mas 'Payments for property, plant and equipment' 124. NO incluyo el 'Payment for SwapClear intangible asset' de 921: eso es una adquisicion, no capex de la operacion (nota 8: 'In October 2025, the Group acquired an increased share in the SwapClear intangible asset, for a total consideration of GBP1,171 million').",
+      "derivacion_del_proxy_de_depreciacion": "amortizacion de software y otros 939 + deterioro de software 12 + depreciacion y deterioro de PPE 253 = 1.204; menos los 19 de amortizacion del intangible de SwapClear (nota 8, dos meses desde su reconocimiento), que no proviene de capex = 1.185.",
+      "discrepancia_declarada": "La empresa reporta 'Capex 919' en su tabla de equity free cash flow (pag. 50), frente a los 985 del estado de flujos auditado. La nota al pie lo concilia: 'Includes payments for intangible assets and property, plant and equipment, but excludes sales commissions paid and payment for the SwapClear intangible asset'. Es decir, la empresa reclasifica ~66 M de comisiones de venta capitalizadas fuera del capex (nota 8: 'The Group capitalised sales commissions paid to employees (contract costs) of GBP66 million'). Uso los 985 del estado de flujos, que es lo conservador, y en consecuencia las comisiones de venta quedan restadas."
+    },
+    "punto_de_partida_en_curso": {
+      "ejercicio": "FY2026 — guia de la propia empresa, MEJORADA el 23-abr-2026",
+      "guia_literal": "HECHO — Q1 2026 Trading Update, seccion 'Financial guidance': 'We have started the year very strongly, and are therefore improving our guidance for 2026 as follows: Organic constant currency growth in total income excluding recoveries of 6.5-7.5%, including an acceleration in our subscription businesses' organic growth. We expect growth to be in the upper half of the guidance range. An improvement in constant currency EBITDA margin of 80-100 basis points. Capex intensity of c. 9.5% of total income excluding recoveries. Equity free cash flow of at least GBP2.7 billion, based on foreign exchange rates of GBP1 = $1.32 and EUR1.17. Underlying effective tax rate of 24-25%.'",
+      "q1_2026_crecimiento_organico_pct": 9.8,
+      "desglose_q1": "Total Income excluding recoveries +9,8% organico en constante. Por division: Data & Analytics +5,1%, FTSE Russell +8,8%, Risk Intelligence +10,5%, Markets +15,5%. Los negocios de suscripcion combinados +6,3%.",
+      "metodo": "No anualizo trimestres a ojo: uso la guia numerica de la empresa, que es HECHO y mas fiable que mi extrapolacion. Equity free cash flow >= 2.700 GBPm. Mi definicion de owner earnings dio 2.476 donde la empresa reporto 2.445 de equity free cash flow en 2025 (delta +31, por el tratamiento de comisiones de venta, dividendos recibidos y dividendos a minoritarios). Aplico el mismo delta: owner earnings FY2026e = 2.700 + 31 = 2.731, redondeo 2.730.",
+      "cross_check_capex": "Capex intensity de c.9,5% sobre unos ingresos excl. recoveries de ~9.400-9.500 GBPm da ~895-900 GBPm de capex en 2026 — POR DEBAJO de los 985 de 2025 y muy por debajo de la amortizacion correspondiente (1.185). La divergencia entre lo que se gasta y lo que se consume se ENSANCHA en el ejercicio en curso. Es el dato mas incomodo del expediente y esta en la guia de la propia empresa."
+    },
+    "resultados": {
+      "formula": "Owner earnings = flujo neto de explotacion - capex - pago de principal de arrendamientos. FY2025: 3.622 - 985 - 161 = 2.476 GBPm.",
+      "oe_mantenimiento_auditado_gbp_mm": 2476,
+      "oe_mantenimiento_auditado_usd_mm": 3291,
+      "oe_capex_total_auditado_gbp_mm": 2476,
+      "oe_capex_total_auditado_usd_mm": 3291,
+      "oe_mantenimiento_encurso_gbp_mm": 2730,
+      "oe_mantenimiento_encurso_usd_mm": 3628,
+      "oe_capex_total_encurso_gbp_mm": 2730,
+      "oe_capex_total_encurso_usd_mm": 3628,
+      "por_que_las_dos_versiones_dan_LO_MISMO": "ES UN HALLAZGO, NO UN ERROR DE CALCULO. La regla dice: resta solo el capex de mantenimiento, aproximado por la depreciacion; el EXCESO sobre la depreciacion es inversion discrecional y no se resta. Aqui el capex (985) es INFERIOR a la depreciacion de los activos que alimenta (1.185). No hay exceso, luego todo el capex es mantenimiento y las dos versiones coinciden. La proteccion que impide castigar a una reinvertidora por reinvertir —la que separa a Amazon 2005 de Coca-Cola 1998— aqui no protege nada, porque LSEG no reinvierte por esa via. El capex de crecimiento es NEGATIVO en 200 GBPm.",
+      "version_prudente": {
+        "oe_prudente_auditado_gbp_mm": 2276,
+        "oe_prudente_auditado_usd_mm": 3025,
+        "razon": "Si uno cree que la depreciacion de 1.185 es la verdadera necesidad de mantenimiento y que gastar solo 985 es diferir inversion, los owner earnings honestos son 3.622 - 1.185 - 161 = 2.276 GBPm, un 8,1% menos. No es la cifra de titular pero es la que hay que tener en la cabeza mientras la guia de 2026 baja la intensidad de capex al 9,5%."
+      },
+      "donde_esta_la_reinversion_de_verdad": "La etiqueta congelada mide la reinversion como el 10,5% de las ventas, que es exactamente el capex (985/9.346 = 10,5%). Pero el dinero grande de LSEG NO pasa por ahi: pasa por M&A. Refinitiv (~27.000 M en enero de 2021), 921 M pagados en 2025 por una porcion mayor del excedente de ingresos de SwapClear mas 250 M pendientes en 2026, 279 M en activos financieros. Esa via no se resta de los owner earnings —es discrecional— pero es exactamente donde el ROIIC ex-margen congelado del 4,8% dice que el dinero se evapora."
+    },
+    "atribucion_a_los_accionistas_de_LSEG": {
+      "factor_pct": 86.8,
+      "derivacion": "HECHO — Preliminary Results 2025, conciliacion de la pag. 48: del beneficio ajustado del ejercicio de 2.538 GBPm, 334 corresponden a minoritarios (13,16%) y 2.204 a los accionistas de LSEG. Aplico 86,8% a los owner earnings del grupo.",
+      "oe_atribuible_auditado_gbp_mm": 2149,
+      "oe_atribuible_encurso_gbp_mm": 2370,
+      "oe_atribuible_por_accion_auditado_gbp": 4.401,
+      "oe_atribuible_por_accion_encurso_gbp": 4.853,
+      "aviso": "Tradeweb es mas rentable y convierte mejor que la media del grupo, asi que su participacion en el FLUJO probablemente supere el 13,2% que representa en el BENEFICIO. Si asi fuera, los owner earnings atribuibles son menores de lo que digo y la valoracion queda peor, no mejor. Sesgo declarado A FAVOR del optimismo."
+    },
+    "hallazgo_de_la_distancia_entre_bases": "Los owner earnings en curso superan a los auditados un 10,3% (2.730 frente a 2.476). Eso NO es tendencia estructural: es CICLO. El motor de la aceleracion de 2026 es Markets, que crecio +15,5% organico en Q1 porque, en palabras de la propia empresa, los clientes buscan gestionar riesgo en un entorno mas volatil. Los negocios de suscripcion, que son la parte estable, crecieron +6,3%. Traducido: mas de la mitad de la mejora del ejercicio en curso viene de que el mundo esta nervioso, no de que LSEG venda mas caro — y el eslabon debil congelado dice justamente que el precio por unidad CAE. Valorar sobre la base en curso es valorar sobre un pico ciclico, y por eso el expediente reporta las dos bases y toma la peor como ancla.",
+    "hallazgo_incomodo_del_reparto_de_capital": "HECHO del estado de flujos 2025: LSEG distribuyo 2.870 GBPm (2.072 de recompra propia + 80 de recompra de Tradeweb + 718 de dividendo) contra unos owner earnings de 2.476, y ademas gasto ~1.072 netos en adquisiciones e inversiones financieras. El agujero se tapo con 1.875 GBPm netos de deuda nueva (2.605 tomados - 730 devueltos). La recompra que sostiene el crecimiento del beneficio por accion NO esta pagada con el flujo del negocio: esta pagada con balance. Funciona mientras el apalancamiento tenga recorrido dentro de la banda 1,5-2,5x — y la empresa ya guia hacia la mitad de esa banda."
+  },
+
+  "dcf_inverso": {
+    "principio": "Que crecimiento a 10 anios, con valor terminal al 3%, justifica exactamente el precio de hoy al WACC calculado. Ese numero se contrasta contra la tasa base del negocio.",
+    "modelo": "Descuento flujo de caja libre para la firma (FCFF = owner earnings del grupo + intereses netos pagados despues de impuestos) al WACC; 10 anios creciendo a g y despues 3% a perpetuidad. El resultado se iguala al EV de 61.776 GBPm, que incluye el minoritario de Tradeweb a valor de mercado porque el flujo descontado es el consolidado al 100%.",
+    "fcff_auditado_gbp_mm": 2618,
+    "fcff_encurso_gbp_mm": 2875,
+    "fcff_derivacion": "FY2025: 2.476 + (304 - 117) x (1 - 0,24) = 2.476 + 142 = 2.618. FY2026e: 2.730 + ~145 = 2.875.",
+    "g_implicita_auditado_pct": 4.01,
+    "g_implicita_encurso_pct": 2.84,
+    "g_implicita_por_wacc": [
+      "WACC 7,22% (bajo): base auditada 2,59% · base en curso 1,44%",
+      "WACC 7,73% (central): base auditada 4,01% · base en curso 2,84%",
+      "WACC 8,79% (alto): base auditada 6,66% · base en curso 5,45%"
+    ],
+    "lectura": "Al cierre de 8.948p y con un WACC del 7,73%, el mercado esta pagando por un crecimiento del 2,8% (sobre el ejercicio en curso) al 4,0% (sobre el auditado) anual durante diez anios, y luego 3% a perpetuidad. Con inflacion del 2%, eso es entre 1 y 2 puntos de crecimiento REAL. Frente a un crecimiento organico entregado del 7,1% en 2025 y del 9,8% en el Q1 de 2026, el mercado NO esta pagando por la aceleracion: la esta ignorando. Ese es el argumento alcista y lo escribo con la misma tinta que el bajista.",
+    "y_sin_embargo": "El mercado tiene un motivo aritmetico para ignorarla, y es el mismo que congelo la etiqueta: si el ROIIC ex-margen es 4,8% y el coste del capital es 7,73%, cada libra que LSEG reinvierte destruye ~3 peniques de valor. En ese regimen crecer no vale mas: vale MENOS. Un mercado que descuenta 2,8-4,0% en una empresa que entrega 7-10% no esta necesariamente equivocado — puede estar diciendo que el crecimiento entregado no le pertenece al accionista, porque se compra con capital que rinde por debajo del coste. Y hay una segunda razon, mas prosaica: el 14,4% del valor de empresa pertenece a los minoritarios de Tradeweb, y buena parte del crecimiento de Markets es suyo, no de LSEG."
+  },
+
+  "g_defendible": {
+    "g_defendible_pct": 2.5,
+    "rango": "1,5% - 4,0%",
+    "identidad": "g = tasa de reinversion x ROIIC EX-MARGEN. Uso el ex-margen (4,8%, congelado) y no el bruto (3,4%) por mandato del metodo — usar el bruto asumiria que la expansion de margen se repite; aqui, ademas, el bruto es todavia peor.",
+    "traduccion_de_la_reinversion_congelada": "La etiqueta llega con reinversion = 10,5% de VENTAS. Sobre las ventas de 2025 (9.346) eso son 981 GBPm, que es el capex del ejercicio (985). Para meterlo en la identidad hay que convertirlo a tasa sobre NOPAT, y ahi la respuesta depende de que NOPAT se use — asi que reporto las dos y no escondo la eleccion.",
+    "versiones_de_la_identidad": [
+      "Sobre NOPAT AJUSTADO (3.506 x 0,76 = 2.665): tasa de reinversion 36,8% x 4,8% = g 1,77%.",
+      "Sobre NOPAT ESTATUTARIO (2.127 x 0,76 = 1.617): tasa de reinversion 60,7% x 4,8% = g 2,91%.",
+      "Reinversion NETA (capex 985 - depreciacion de los activos que alimenta 1.185 = -200): tasa NEGATIVA => g <= 0%. Por la via del capex, LSEG esta desinvirtiendo.",
+      "Incluyendo M&A del ejercicio (985 capex + 1.061 netos de SwapClear, activos financieros y desinversiones = 2.046 sobre NOPAT ajustado 2.665 = 76,8%): g 3,69%. Esta es la via por la que LSEG reinvierte de verdad, y es tambien la que el ROIIC ex-margen del 4,8% mide como destructiva."
+    ],
+    "eleccion_2_5": "Tomo 2,5%, entre las dos lecturas centrales de la identidad (1,77% y 2,91%). Razones para no bajar a 1,5%: (a) parte real de la inversion de LSEG en contenido, datos y tecnologia va a gasto operativo y no a capex, luego no aparece en la reinversion medida; (b) los negocios de suscripcion —el grueso de los ingresos— crecen 6,3% organico con capital incremental practicamente nulo, y eso es crecimiento que la identidad no captura. Razones para no subir de 4,0%: la elasticidad medida es NEGATIVA en las cuatro lineas donde hay unidad observable (-9,5% de tarifa por dolar de AUM, -8% por unidad de nocional, -8% por libra negociada). Un negocio cuyo precio por unidad cae un 8% al anio solo crece si el volumen crece mas del 8%, y el volumen no lo controla LSEG: lo controla la volatilidad del mundo. A diez anios no puedo defender que el mundo negocie cada anio mas que el anterior.",
+    "cambio_frente_a_la_version_anterior": "La version del 27-jul tomaba g = 3,5% porque la etiqueta llegaba con reinversion del 74,8% de ventas (que incluia M&A) y ROIIC ex-margen 4,9%. Con la etiqueta actual (reinversion 10,5% de ventas = solo capex, ROIIC ex-margen 4,8%) la identidad da menos, y bajo a 2,5%. NO es una revision discrecional: es la consecuencia mecanica de los inputs congelados. Y empuja los dos margenes de seguridad a territorio negativo.",
+    "nota_sobre_el_terminal": "El metodo impone terminal del 3%, que esta POR ENCIMA de mi g defendible de 2,5%. El modelo es por tanto generoso conmigo mismo en contra del veredicto: la perpetuidad crece mas rapido que los diez anios explicitos. Lo declaro en vez de corregirlo, porque el terminal es parametro del metodo y no mio.",
+    "contraste_incomodo": "Mi g defendible (2,5%) esta 4,6 puntos por debajo del crecimiento organico entregado en 2025 (+7,1%) y 7,3 por debajo del Q1 de 2026 (+9,8%). O la identidad contable subestima gravemente la reinversion real de LSEG, o el crecimiento observado se apoya en volumen ciclico y en el rescate del margen post-Refinitiv, que no se extrapolan diez anios. La etiqueta congelada dice la segunda. Me quedo con la segunda, pero declaro que es la lectura que mas me penaliza y que el mercado, en el Q1, voto la primera.",
+    "tension_declarada_con_la_etiqueta": "El ROIC congelado del 5,5% se calcula sobre el beneficio operativo ESTATUTARIO, que carga 1.034 GBPm anuales de amortizacion de los intangibles de Refinitiv (HECHO, conciliacion pag. 48). Sobre el beneficio operativo AJUSTADO (3.506), el ROIC sale ~9%, por encima del WACC. Las dos cifras son defendibles segun se crea que el precio de Refinitiv compro activos que se consumen o un activo permanente. NO reabro la etiqueta —no me corresponde—, pero un valorador honesto tiene que decir que el veredicto de 'motor de capital roto' depende de esa eleccion contable, y que el argumento que NO depende de ella es la elasticidad negativa del precio por unidad."
+  },
+
+  "valoracion": {
+    "g_usada_pct": 2.5,
+    "wacc_usado_pct": 7.73,
+    "valor_por_accion_auditado_gbp": 75.06,
+    "valor_por_accion_auditado_usd": 99.76,
+    "valor_por_accion_encurso_gbp": 86.07,
+    "valor_por_accion_encurso_usd": 114.38,
+    "mos_auditado_pct": -19.2,
+    "mos_encurso_pct": -4.0,
+    "mos_exigido_pct": 40.0,
+    "veredicto_mos": "NO PASA, y ahora ni siquiera por el lado bueno del cero. Con la etiqueta actualizada los DOS margenes de seguridad son NEGATIVOS: -19,2% sobre la base auditada y -4,0% sobre la base en curso. Frente a un umbral de +40% exigido a una MENOS_5_6 para abrir posicion.",
+    "matriz_de_valor_usd": [
+      "g 1,5% | WACC 7,22%: auditado 104,59 · en curso 119,69",
+      "g 1,5% | WACC 7,73%: auditado  88,31 · en curso 101,81",
+      "g 1,5% | WACC 8,79%: auditado  63,83 · en curso  74,92",
+      "g 2,5% | WACC 7,22%: auditado 117,67 · en curso 134,05",
+      "g 2,5% | WACC 7,73%: auditado  99,76 · en curso 114,38",
+      "g 2,5% | WACC 8,79%: auditado  72,84 · en curso  84,82",
+      "g 4,0% | WACC 7,22%: auditado 139,38 · en curso 157,90",
+      "g 4,0% | WACC 7,73%: auditado 118,74 · en curso 135,23",
+      "g 4,0% | WACC 8,79%: auditado  87,76 · en curso 101,20"
+    ],
+    "piso_de_resolucion": {
+      "medicion_propia_del_ruido": "No dispongo de medicion propia del ruido de mi valor intrinseco. Aplico la banda por defecto de +-25%.",
+      "valor_intrinseco_central_usd": 107,
+      "banda_usd": "80 - 134",
+      "consecuencia": "El precio de hoy (118,92 USD) cae DENTRO de mi banda, por encima del centro (~107). No puedo afirmar con este trabajo que LSEG este cara con precision, pero SI puedo afirmar que no esta barata: el precio esta en la mitad alta de la banda y el margen de seguridad exigido es del 40%, que queda fuera de la banda entera por el lado bajo. Cualquier titular del tipo 'LSEG cotiza un 4% por encima de su valor' es ruido con decimales.",
+      "prohibicion": "En la conclusion el valor intrinseco se reporta como 'unos 107 dolares, con banda de 80 a 134'. Nada de 114,38.",
+      "celdas_de_la_matriz_que_contienen_el_precio": "En 5 de las 18 celdas de la matriz el valor supera al precio; en las 13 restantes no. Y en NINGUNA de las 18 el precio ofrece el 40% exigido: para eso haria falta un valor de 198 USD, que esta fuera de la matriz entera."
+    },
+    "sensibilidades_ordenadas_por_impacto": [
+      "1) g defendible: de 1,5% a 4,0% mueve el valor en curso de 102 a 135 USD (+33%). Es la palanca dominante.",
+      "2) WACC: de 7,22% a 8,79% mueve el valor en curso de 134 a 85 USD (-37%).",
+      "3) Minoritario de Tradeweb: ignorarlo sube el valor 24,24 USD por accion (+21%). Es un ajuste binario, no una banda: o se hace o no se hace, y hay que hacerlo.",
+      "4) Base auditada frente a en curso: 14,6 USD de diferencia (+15%).",
+      "5) Tasa libre de riesgo: +-10 pb mueven ~2,4 USD (2%).",
+      "6) Deuda neta estimada: +-500 M GBP mueven 1,36 USD (1,1%). Irrelevante para la decision, pese a ser el dato mas 'sucio' del expediente."
+    ],
+    "conclusion_sensibilidad": "La decision entera cabe dentro del error de dos parametros que no puedo medir bien (g y beta). Eso, por si solo, es un NO ABRIR: no se compra lo que no se puede medir, y menos con un umbral del 40%."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 13.0,
+    "definicion_m": "Multiplo de owner earnings ATRIBUIBLES a los accionistas de LSEG que acepto pagar. Decidido en frio, sin barra de error, porque es una preferencia y no una estimacion.",
+    "derivacion_de_m": "Exijo a una MENOS_5_6 una TIR esperada de al menos 10,5% (WACC 7,73% + ~2,8 puntos de prima por comprar un negocio cuyo retorno marginal sobre el capital esta por debajo de su coste). Con multiplo constante, TIR ~ rendimiento de owner earnings + g. Con g defendible 2,5%, el rendimiento necesario es 8,0%, es decir 12,5x. Redondeo a 13x.",
+    "cambio_frente_a_la_version_anterior": "La version del 27-jul fijo m* = 14x con g defendible 3,5%. Al bajar g a 2,5% por la etiqueta actualizada, el mismo criterio de TIR exigida da 12,5-13x. El criterio no ha cambiado; ha cambiado el input congelado. Lo digo explicitamente para que no parezca deriva de porteria.",
+    "justificacion_de_la_prima_exigida": "Los 2,8 puntos sobre el WACC son el precio de aceptar cuatro cosas a la vez: (a) un ROIIC ex-margen del 4,8% que hace destructiva cualquier reinversion incremental, (b) elasticidad de precio medida NEGATIVA en las cuatro lineas donde se puede medir, (c) una parte grande de los ingresos atada al volumen de negociacion, hoy en niveles ciclicamente altos, y (d) una estructura donde el 14,4% del valor de empresa pertenece a un minoritario que cotiza aparte. No pago 18-20x por eso.",
+    "precio_a_m_estrella_usd": 83.84,
+    "precio_a_m_estrella_detalle": "13x sobre los owner earnings atribuibles del ejercicio en curso (4,853 GBP/accion) = 63,09 GBP = 83,84 USD. Sobre la base auditada (4,401 GBP/accion) = 57,22 GBP = 76,04 USD.",
+    "p_estrella_usd": 64.24,
+    "p_estrella_gbp": 48.34,
+    "p_estrella_peniques": 4834,
+    "definicion_p": "Precio que da el MoS exigido del 40% sobre el valor intrinseco medio de las dos bases (80,57 GBP): 80,57 x 0,60 = 48,34 GBP = 64,24 USD = 4.834p.",
+    "coherencia": "El cheque por multiplo (76,04-83,84 USD) y el cheque por DCF con el MoS exigido (64,24 USD) no convergen: el umbral del 40% es mas duro que mi propio multiplo. Tomo el mas exigente, 64,24 USD, porque el umbral de la banda no es negociable por el valorador.",
+    "distancia_al_precio": "El precio de hoy (118,92 USD) esta un 85,1% por encima de p*. LSEG tendria que caer un 46,0% para entrar. Ni siquiera el minimo de 52 semanas —66,84 GBP = 88,82 USD en febrero de 2026, un -34,7% desde maximo, con capitulacion de volumen— se acerco a p*.",
+    "dato_que_ordena_la_expectativa": "Que ni el suelo de una capitulacion alcance p* significa que este umbral, aplicado a esta empresa, es practicamente inalcanzable salvo en una dislocacion mucho mayor. La consecuencia operativa NO es rebajar el umbral: es sacar a LSEG de la cola de trabajo y no volver a mirarla por precio hasta que cotice por debajo de 4.834p."
+  },
+
+  "tir_esperada": {
+    "rango": "+6,4% a +9,4% anual en libras a 10 anios; central ~+8,0%",
+    "metodo_1_rendimiento_mas_crecimiento": "Multiplo constante: TIR ~ (owner earnings atribuibles por accion / precio) + g. Rendimiento 4,92% (base auditada) o 5,42% (base en curso) sobre 89,48 GBP.",
+    "detalle_metodo_1": [
+      "g 1,5%: auditado +6,4% · en curso +6,9%",
+      "g 2,5% (defendible): auditado +7,4% · en curso +7,9%",
+      "g 4,0%: auditado +8,9% · en curso +9,4%",
+      "g 6,5% (lo que la empresa entrega hoy): auditado +11,4% · en curso +11,9%"
+    ],
+    "metodo_2_wacc_implicito_relevered": "Resuelvo el WACC que iguala el valor del modelo al precio y lo apalanco al D/E de mercado (17,4%) con kd despues de impuestos del 2,39%. Da el coste de fondos propios implicito, que es la TIR del accionista si los flujos se cumplen.",
+    "detalle_metodo_2": [
+      "g 1,5%: auditado +7,6% · en curso +8,1%",
+      "g 2,5% (defendible): auditado +8,0% · en curso +8,5%",
+      "g 4,0%: auditado +8,7% · en curso +9,2%",
+      "g 6,5%: auditado +9,8% · en curso +10,5%"
+    ],
+    "central": "+8,0% anual en libras con g defendible 2,5% (media de las dos bases y los dos metodos).",
+    "lectura": "Este es el numero que hay que mirar, no el margen de seguridad. Un MoS de -4,0% con banda de +-25% no informa; '+8,0% anual durante diez anios' si. Y +8,0% frente a un WACC de 7,73% es un diferencial de 0,3 puntos. La asimetria es de aproximadamente 1,04:1. No es 3:1. Ni de lejos. Se esta cobrando practicamente nada por asumir el riesgo idiosincratico de una accion que perdio el 35% en cinco meses.",
+    "que_haria_falta_para_que_fuese_atractiva": "Con g 6,5% —el crecimiento que la empresa esta entregando hoy— la TIR sube a 9,8-11,9%. Ese es el caso alcista completo: que el crecimiento organico de 2026 sea estructural y no ciclico. Incluso asi la asimetria no llega a 3:1 al precio de hoy. Para que llegara, el precio tendria que ser aproximadamente el 54% del actual, que es donde esta p*.",
+    "advertencia_divisa": "TIR en libras. El inversor en dolares tiene que sumar o restar la deriva GBP/USD, que no estimo. Con el cruce en 1,329, cerca del techo del rango de los ultimos cinco anios, el riesgo cambiario es mas bajista que alcista para quien mide en dolares. Y ojo al efecto interno: el 58% de los ingresos de LSEG es en dolares (HECHO, pag. 21 del filing), asi que una libra fuerte le come el crecimiento reportado — se vio en Q1-2026, donde el +9,8% organico se quedo en menos reportado."
+  },
+
+  "trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "El detector busca un margen de seguridad GRANDE sobre un motor que se rompe. Aqui falta la primera mitad: no hay descuento, hay prima. Los dos margenes de seguridad son negativos (-19,2% auditado, -4,0% en curso) y el precio esta en la mitad alta de mi banda de valor (80-134 USD, centro 107). No se puede caer en una trampa que no esta tendida.",
+    "pero_esto_es_lo_que_si_hay": "El motor de capital de LSEG SI esta medido y SI funciona por debajo de su coste: ROIIC ex-margen del 4,8% contra un coste de capital del 7,73% significa que cada libra reinvertida destruye ~3 peniques. La elasticidad de precio es negativa en las cuatro lineas donde hay unidad observable. El capex lleva por debajo de la amortizacion (985 contra 1.185) y la guia de 2026 lo baja mas (intensidad de 9,5%). Y las distribuciones de 2025 (2.870) superaron a los owner earnings (2.476) tapando la diferencia con 1.875 de deuda nueva. Nada de eso es una trampa de valor. Es algo distinto y peor de diagnosticar: un precio de PLENO VALOR O ALGO MAS sobre un negocio que convierte capital en menos valor del que consume. No hay descuento que recoger ni motor que esperar a que se arregle.",
+    "lo_que_genuinamente_sostiene_el_precio": "El negocio es real, la caja es real (flujo libre 1,75 veces el beneficio neto en 2025: 2.637 contra 1.506) y el crecimiento organico se esta ACELERANDO (7,1% en 2025, 9,8% en Q1-2026, guia elevada a la mitad alta del rango el 23-abr). Quien compre aqui no compra una historia rota: paga un precio pleno por un buen negocio con mal retorno marginal sobre el capital. Eso puede funcionar. Simplemente no da el 40% que esta banda exige, ni el 3:1 de asimetria.",
+    "que_lo_convertiria_en_SOSPECHA": "Que el crecimiento de Markets (+15,5% en Q1) se revierta con la volatilidad y arrastre la guia a la baja mientras el precio no cae; o que LSEG anuncie otra adquisicion grande, que seria desplegar capital a un retorno medido del 4,8%.",
+    "que_lo_convertiria_en_NO_DEFINITIVO_Y_ADEMAS_INTERESANTE": "Que LSEG publique, en cualquier division, una metrica de ingreso por unidad CRECIENTE. Eso rompe el hallazgo de elasticidad negativa, sube la g defendible por encima del 4% y cambia toda la aritmetica."
+  },
+
+  "gate_inmediato": {
+    "fecha": "2026-07-30",
+    "que_es": "HECHO — LSEG publica resultados del primer semestre de 2026 el jueves 30 de julio de 2026, antes de la apertura, con webcast a las 10:00 hora de Londres (David Schwimmer, CEO, y Michel-Alain Proch, CFO). Dos dias despues de esta valoracion.",
+    "que_resuelve": [
+      "La deuda neta operativa a 30-jun-2026, que aqui es la unica cifra material estimada (uso 9.175 GBPm; un error de 500 M mueve 1,36 USD por accion).",
+      "El equity free cash flow del semestre, que confirma o desmiente la guia de >=2.700 M para el anio y por tanto mi base 'en curso'.",
+      "Si la aceleracion de Markets del Q1 (+15,5%) se sostuvo en el Q2 o fue un pico de volatilidad. Esto decide si la base en curso es tendencia o ciclo — la pregunta central de todo el expediente.",
+      "El capex del semestre contra la intensidad guiada del 9,5%: si baja como esta guiado, la brecha entre capex y amortizacion se ensancha y la version prudente de los owner earnings (2.276 en lugar de 2.476) gana peso.",
+      "Cualquier metrica de ingreso por unidad. Es el unico dato que puede romper el eslabon debil congelado."
+    ],
+    "recomendacion_operativa": "No revalorar antes del 30 de julio. Y no comprar en ningun caso al precio de hoy: p* esta un 46,0% por debajo. Alerta operativa en 4.834p."
+  },
+
+  "huecos_declarados": [
+    "DEUDA NETA A HOY: INFERENCIA. Ancla dura 8.175 GBPm de deuda neta operativa a 31-dic-2025 (HECHO, pag. 50); el resto lo construyo con las recompras publicadas, el dividendo final y el segundo pago de SwapClear. Se resuelve el 30-jul-2026. Impacto acotado: +-500 M mueven 1,36 USD por accion (1,1%).",
+    "TASA LIBRE DE RIESGO: no alcance la fuente primaria (UK DMO). Uso 4,97% de TradingEconomics con cita literal fechada el 28-jul-2026; otro agregador daba 5,07% en el mes. Banda 4,95%-5,10%. Cada 10 pb mueven el valor por accion ~2,4 USD.",
+    "BETA: no consegui un beta bottom-up sectorial citable de Damodaran. Mis dos regresiones propias dan 0,667 (R2 0,101) y 0,710 (R2 0,214); el IC95% de la primera va de 0,15 a 1,18, es decir, practicamente no informativo. Elegi 0,80 por Blume. Es el parametro mas debil y, junto con g, el que decide el veredicto.",
+    "PRIMA DE MERCADO MADURA: 4,20% leido de la actualizacion de Damodaran de julio 2026 con fecha, no del workbook descargado. INFERENCIA.",
+    "PRIMAS POR PAIS: las ponderaciones ahora son HECHO (desglose de ingresos por divisa del filing: USD 58%, GBP 16%, EUR 17%, Otras 9%), pero las primas aplicadas a cada bloque (0,22% EEUU, 0,50% Reino Unido, 0,45% Europa desarrollada, 1,50% resto) siguen siendo INFERENCIA. Banda 0,30%-0,70%, unos 15 pb de WACC. Aviso adicional: la divisa de facturacion es una aproximacion al pais del riesgo de activo, no una identidad.",
+    "ATRIBUCION DE FLUJO A MINORITARIOS: uso el 13,2% que representan en el beneficio ajustado (HECHO). Si Tradeweb convierte mejor que la media del grupo —lo mas probable—, el flujo atribuible a LSEG es menor y la valoracion empeora. Sesgo declarado a favor del optimismo.",
+    "COSTE DE LA DEUDA A VALOR DE MERCADO: uso el nominal y el coste medio derivado del filing (3,14%). No consulte las cotizaciones de los bonos de LSEGA Financing PLC, LSEG Netherlands BV ni LSEG US Fin Corp, que existen en IBKR.",
+    "NO VERIFIQUE LAS CIFRAS DE LA PUERTA DE CALIDAD (ROIIC bruto 3,4%, ex-margen 4,8%, reinversion 10,5% de ventas, elasticidades de -8% a -9,5%). Vienen congeladas y las uso tal cual. Lo que SI reconfirme contra el filing es la fiabilidad del flujo (flujo libre 2.637 contra beneficio 1.506 en 2025) y el hecho de que el capex esta por debajo de la amortizacion (985 contra 1.185).",
+    "NO USE EL ANNUAL REPORT COMPLETO, solo los Preliminary Results (estados condensados auditados) y el Q1 Trading Update. El calendario de vencimientos de deuda detallado y las metricas de precio por unidad estan en el informe anual, que no descargue en esta pasada.",
+    "TRADEWEB Q2: comprobado en EDGAR que a 28-jul-2026 el ultimo trimestral de Tradeweb es el 10-Q de marzo. El numero de acciones de clase A en manos del publico (116.035.961) es el de 31-mar-2026; Tradeweb recompra acciones propias, asi que la cifra a hoy podria ser algo menor y el minoritario a mercado algo mas pequenio. Direccion del sesgo: en contra del veredicto, es decir, mi calculo es el conservador."
+  ],
+
+  "resumen_ejecutivo": "NO ABRIR, y ahora con los dos margenes de seguridad en negativo. Al ultimo cierre (27-jul-2026, Londres aun cerrada cuando escribo) LSEG.L cotiza a 8.948p = 118,92 USD por ordinaria, con 488.308.373 acciones excluida autocartera (RNS de derechos de voto a 30-jun-2026) para una capitalizacion de 58.068 MUSD. A eso se suman 12.193 MUSD de deuda neta operativa estimada y —el ajuste que decide 24 dolares por accion— 11.837 MUSD del minoritario de Tradeweb a valor de mercado: LSEG consolida el 100% de Tradeweb pero solo posee el 50,8% de su economia (HECHO literal del 10-Q de Tradeweb del Q1-2026 verificado en EDGAR), y los 116.035.961 titulos de clase A en manos del publico valen 102,01 USD cada uno. El valor de empresa es por tanto 82.098 MUSD, no los ~70.000 que salen si uno se olvida del minoritario. El WACC bottom-up de mercado sale 7,73% (rango 7,2%-8,8%): gilt a 10 anios 4,97% con cita fechada el 28-jul, prima de mercado madura 4,20% de Damodaran julio-2026 mas 0,42% de prima pais ponderada —y esta vez la ponderacion es HECHO, no inferencia: el filing publica el desglose de ingresos por divisa, 58% dolar, 17% euro, 16% libra, 9% otras—, beta 0,80 (Blume de mis dos regresiones propias, 0,667 contra el FTSE 100 y 0,710 contra el SPY, ambas con R2 por debajo de 0,22) y coste de deuda 3,14% derivado de 340 M de finance costs sobre 10.842 M de deuda bruta media del filing. Los owner earnings de FY2025 son 3.291 MUSD y salen IDENTICOS restando solo mantenimiento o restando todo el capex, porque el capex de LSEG (985 GBPm) es INFERIOR a la amortizacion de los activos que alimenta (1.185 GBPm): el capex de crecimiento es negativo, la proteccion que impide castigar a una reinvertidora por reinvertir aqui no protege nada, y el dinero de verdad se reinvierte por M&A —Refinitiv en 2021, SwapClear en 2025— que es exactamente donde el ROIIC ex-margen congelado del 4,8% dice que se evapora. El ejercicio en curso, tomado de la guia numerica de la empresa (equity free cash flow de al menos 2.700 M GBP, elevada el 23-abr-2026), da 3.628 MUSD, un 10,3% mas — pero mas de la mitad de esa mejora viene de Markets (+15,5% organico en Q1) porque el mundo esta nervioso, no porque LSEG cobre mas: es pico ciclico, no escalon estructural. El DCF inverso da el hallazgo que tienta: al precio de hoy el mercado paga por un crecimiento del 2,8% (base en curso) al 4,0% (base auditada) durante diez anios con terminal del 3%, frente a un organico entregado del 7,1% en 2025 y del 9,8% en el Q1. Parece una ganga hasta que se hace la cuenta que lo explica: con ROIIC ex-margen del 4,8% contra un coste de capital del 7,73%, el crecimiento de esta empresa no vale mas, vale menos. Mi g defendible sale 1,77% sobre NOPAT ajustado y 2,91% sobre NOPAT estatutario aplicando la reinversion congelada del 10,5% de ventas; tomo 2,5%, y con ella el valor sale 99,76 USD sobre la base auditada (MoS -19,2%) y 114,38 sobre la base en curso (MoS -4,0%), frente al 40% exigido. Con el piso de resolucion del +-25% el valor intrinseco es de unos 107 dolares, banda 80-134, con el precio de 118,92 en la mitad ALTA de esa banda. En ninguna de las 18 celdas de mi matriz g x WACC aparece el 40% de margen: para eso el valor tendria que ser 198 USD. La TIR esperada es +6,4% a +9,4% anual en libras, central +8,0%, contra un WACC de 7,73%: se cobran 0,3 puntos por el riesgo, asimetria 1,04:1. m* = 13x owner earnings atribuibles (83,84 USD); p* = 64,24 USD (4.834p), un 46,0% por debajo del precio de hoy — un nivel que NI SIQUIERA la capitulacion de febrero de 2026, con la accion en 6.684p, llego a tocar. Trampa de valor: NO, porque no hay descuento que pueda ser trampa; lo que hay es precio pleno sobre un negocio cuyo retorno marginal sobre el capital esta por debajo de su coste, que es un problema distinto y peor de detectar. Accion: sacar LSEG de la cola por precio, alerta en 4.834p, y esperar a los resultados del semestre del 30 de julio, que resuelven la deuda neta estimada y —lo que de verdad importa— si el +15,5% de Markets era tendencia o era miedo."
+}

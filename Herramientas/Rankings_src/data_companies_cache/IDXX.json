@@ -1,0 +1,104 @@
+{
+ "ticker": "IDXX",
+ "name": "IDEXX Laboratories, Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 545.73,
+ "market_cap_usd_b": 43.05,
+ "fwd_pe": 37.2,
+ "fwd_pe_5y_avg": 42,
+ "pe_prem_disc_pct": -11.4,
+ "peg": 3,
+ "last_q": {
+  "period": "Q1 2026 (ended 2026-03-31)",
+  "revenue": "$1,140.8M",
+  "rev_yoy_pct": 14.3,
+  "op_margin_pct": 31.8,
+  "eps_gaap": "$3.47",
+  "eps_adj": "$3.47 (comparable; +15% YoY)"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended 2025-12-31)",
+  "revenue": "$4,304M",
+  "organic_growth_pct": 10,
+  "roic_pct": 44.2,
+  "fcf": "~$1.1B",
+  "fcf_margin_pct": 25.6
+ },
+ "sbc_pct_revenue": 1.4,
+ "sbc_pct_fcf": 5.7,
+ "net_debt_usd_b": 0.55,
+ "nd_ebitda": 0.51,
+ "net_cash": false,
+ "guidance_fy": "FY2026 (PROYECCION direccion): Revenue $4,675-4,760M (+8.6-10.6% reportado, +7.7-9.7% organico); EPS $14.45-14.90 (+11-14% reportado); op margin 32.1-32.5%; FCF 85-95% del net income. Guia RAISED en Q1 2026.",
+ "pct_off_52w_high": -29.1,
+ "pct_off_ath": -29.1,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "guidance_fy",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "last_fy.fcf_margin_pct",
+  "nd_ebitda"
+ ],
+ "sources": [
+  {
+   "label": "IDEXX IR - Q1 2026 Results press release",
+   "url": "https://ir.idexx.com/news-events/press-releases/detail/408/idexx-laboratories-announces-first-quarter-results",
+   "date": "2026-05-04"
+  },
+  {
+   "label": "IDEXX 10-Q Q1 2026 (SEC EDGAR, CIK 0000874716)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000874716/000087471626000076/idxx-20260331.htm",
+   "date": "2026-03-31"
+  },
+  {
+   "label": "IDEXX IR - Q4 & Full Year 2025 Results",
+   "url": "https://ir.idexx.com/news-events/press-releases/detail/405/idexx-laboratories-announces-fourth-quarter-and-full-year-2025-results",
+   "date": "2026-01-30"
+  },
+  {
+   "label": "StockAnalysis.com - IDXX overview (price, mkt cap, fwd P/E)",
+   "url": "https://stockanalysis.com/stocks/idxx/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com - IDXX ratios (ROIC, PEG, ND/EBITDA)",
+   "url": "https://stockanalysis.com/stocks/idxx/financials/ratios/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Macrotrends - IDXX stock price history (52w high / ATH $769.98)",
+   "url": "https://www.macrotrends.net/stocks/charts/IDXX/idexx-laboratories/stock-price-history",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Seeking Alpha - IDEXX FY2026 guidance",
+   "url": "https://seekingalpha.com/news/4585998",
+   "date": "2026-05-04"
+  }
+ ],
+ "notes": "VERIFICACION IDXX al 2026-06-22. Precio $545.73 (cierre; after-hours ~$556). Mkt cap ~$43.05B (rango fuentes $43.0-45.6B segun timing intradia). \n\nQ1 2026 (VERIFICADO press release + 8-K): Revenue $1,140.8M (+14.3% reportado, +11.2% organico), CAG +15% reportado/+12% organico, op margin GAAP 31.8% (+100bps comparable), GAAP EPS $3.47 (+17% reportado, +15% comparable), net income $278.4M, FCF Q1 $234.3M, capex $32.0M. EPS GAAP=adj (sin diferencia material este trimestre).\n\nFY2025 (VERIFICADO): Revenue $4,304M (+10% reportado y organico), EPS $13.08 (+23%), net income ~$1,059M, op margin 31.6%, FCF ~$1.1B (~100% conversion net income → FCF margin ~25.6%). ROIC ~44% (estimado agregador).\n\nGuidance FY2026 RAISED: Revenue $4,675-4,760M, EPS $14.45-14.90, op margin 32.1-32.5%. fwd_pe calculado = 545.73 / 14.675 (midpoint guia) = 37.2x; stockanalysis muestra 36.2x. fwd_pe_5y_avg ESTIMADO ~42x (fuentes divergen: P/E trailing 5y avg ~55-57x, fwd P/E actual reportado 36-44x segun fuente) → marcar con cautela. PEG ~3.0 (estimado).\n\nSBC (VERIFICADO 10-Q): share-based comp Q1 2026 ~$16.34M sobre revenue $1,140.8M = ~1.4% de ingresos (MUY BAJO). Anualizado ~$65M sobre FCF ~$1,150M = ~5.7% del FCF. SBC bajo es positivo para R9.\n\nBalance (10-Q): deuda total ~$945.8M, caja+ST inv ~$397.4M → net debt ~$0.55B. ND/EBITDA ~0.51-0.56x (estimado). NO es caja neta.\n\n52w high = ATH = $769.98 (intradia 2025-11-26; cierre maximo $766.68 2025-11-25). Precio actual -29.1% desde maximo.\n\nDROP = fear_rotation: caida ~29% desde ATH ocurre mientras fundamentales MEJORAN (Q1 +14% reportado/+11% organico, margenes expandiendo, guidance RAISED, FCF fuerte ~100% conversion, ROIC ~44%, SBC minimo). No hay deterioro operativo; el desplome es compresion de multiplo / rotacion desde un P/E historicamente elevado (~50-55x) hacia ~37x fwd. \n\nLIMITACION: SEC EDGAR archive bloqueado para WebFetch/curl en este entorno; cifras del 10-Q obtenidas via snippet de busqueda indexado del propio filing (no extraccion directa pagina por pagina). fwd_pe_5y_avg y pe_prem_disc tienen incertidumbre por divergencia entre agregadores en definicion de P/E forward vs trailing."
+}

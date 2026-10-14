@@ -1,0 +1,109 @@
+{
+ "ticker": "IT",
+ "name": "Gartner, Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 125.73,
+ "market_cap_usd_b": 8.42,
+ "fwd_pe": 9.5,
+ "fwd_pe_5y_avg": 26,
+ "pe_prem_disc_pct": -63.5,
+ "peg": 0.63,
+ "last_q": {
+  "period": "Q1 2026 (ended Mar 31, 2026)",
+  "revenue": "$1.511B",
+  "rev_yoy_pct": -1.5,
+  "op_margin_pct": 20.9,
+  "eps_gaap": "$3.18",
+  "eps_adj": "$3.32"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 31, 2025)",
+  "revenue": "$6.49B",
+  "organic_growth_pct": 3,
+  "roic_pct": 24,
+  "fcf": "$1.175B",
+  "fcf_margin_pct": 18.1
+ },
+ "sbc_pct_revenue": 2.4,
+ "sbc_pct_fcf": 13.3,
+ "net_debt_usd_b": 1.69,
+ "nd_ebitda": 1.1,
+ "net_cash": false,
+ "guidance_fy": "FY2026 (raised at Q1): Revenue >= $6.405B (~+1% FX-neutral); Adjusted EPS >= $13.25; Free cash flow >= $1.16B; Adjusted EBITDA (ex-divested) >= $1.545B. PROYECCION de la direccion.",
+ "pct_off_52w_high": -69.3,
+ "pct_off_ath": -77.2,
+ "drop_classification": "mixed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.roic_pct",
+  "last_fy.fcf",
+  "guidance_fy"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "notes": "Empresa US; resultados Q1 2026 (10-Q/8-K presentados 5-may-2026) VERIFICADOS via press release oficial e investor.gartner.com. Q1 2026: ingresos $1.511B (-1.5% reportado, -4% FX-neutral por venta de Digital Markets), EPS GAAP $3.18 (+17.3%), EPS adj $3.32 (+11.4%), margen operativo GAAP 20.9%, FCF $371M (+28.7%), Adj EBITDA $395M (margen 26.1%). Contract Value total $5.3B, solo +1.0% FX-neutral (fuerte desaceleracion del motor de suscripciones). FY2025: ingresos $6.5B (+4% reportado, +3% FX-neutral), FCF $1.175B (-15% YoY), ROIC ~24% (reportado por la compania), SBC ~$156M (StockAnalysis/Macrotrends, ESTIMADO). Balance: caja $1.67B, deuda total $3.36B -> deuda neta +$1.69B (NO caja neta). ND/EBITDA ~1.1x sobre EBITDA ajustado guiado $1.545B (~1.26x sobre EBITDA TTM ~$1.34B). Precio $125.73 y market cap $8.42B de StockAnalysis (ESTIMADO; ~66.95M acciones tras recompras agresivas: 7.0M acciones por $2.0B en 2025, 3.3M por $535M en Q1 2026). fwd_pe calculado = $125.73 / guia adj EPS $13.25 = ~9.5x. fwd_pe_5y_avg ~26x es una ESTIMACION (Gartner cotizaba a fwd P/E ~30-38x en 2023-2024; PE trailing medio 5a ~35x); descuento ~-64% sobre esa media. PEG 0.63 de StockAnalysis (ESTIMADO). 52w high $409.76, ATH cierre $551.80 (13-nov-2024): caida -69% desde max 52s, -77% desde ATH. CLASIFICACION 'mixed': hay deterioro genuino del crecimiento (CV solo +1% FX-neutral vs doble digito historico, FCF -15%, presion por gasto IT/federal US y disrupcion de IA sobre research/advisory) Y ademas fuerte compresion de multiplo por miedo/rotacion (de ~35x a ~9.5x). Negocio sigue rentable, recurrente (~75% ingresos suscripcion) y generador de caja, pero el indicador adelantado (CV) se ha frenado de forma real.",
+ "sources": [
+  {
+   "label": "Gartner Q1 2026 press release (investor.gartner.com)",
+   "url": "https://investor.gartner.com/news-releases/news-release-details/gartner-reports-first-quarter-2026-financial-results",
+   "date": "2026-05-05"
+  },
+  {
+   "label": "Gartner Q1 2026 8-K exhibit 99.1 (SEC EDGAR)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000749251/000074925126000165/it-03312026xex991.htm",
+   "date": "2026-05-05"
+  },
+  {
+   "label": "Gartner Q1 2026 10-Q (SEC EDGAR)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000749251/000074925126000167/it-20260331.htm",
+   "date": "2026-05-05"
+  },
+  {
+   "label": "StockTitan Q1 2026 8-K summary",
+   "url": "https://www.stocktitan.net/sec-filings/IT/8-k-gartner-inc-reports-material-event-097c994c208a.html",
+   "date": "2026-05-05"
+  },
+  {
+   "label": "Gartner Q4/FY2025 results (BusinessWire)",
+   "url": "https://www.businesswire.com/news/home/20260203822306/en/Gartner-Reports-Fourth-Quarter-2025-Financial-Results",
+   "date": "2026-02-03"
+  },
+  {
+   "label": "StockAnalysis.com IT statistics (price, mcap, debt, PEG)",
+   "url": "https://stockanalysis.com/stocks/it/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com IT cash-flow statement (FCF, SBC)",
+   "url": "https://stockanalysis.com/stocks/it/financials/cash-flow-statement/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Macrotrends IT stock price history (52w high / ATH)",
+   "url": "https://www.macrotrends.net/stocks/charts/IT/gartner/stock-price-history",
+   "date": "2026-06-22"
+  }
+ ]
+}

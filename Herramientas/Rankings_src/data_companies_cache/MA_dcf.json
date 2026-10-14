@@ -1,0 +1,41 @@
+{
+ "ticker": "MA",
+ "currency": "USD",
+ "current_price": 484.09,
+ "wacc_pct": 9.7,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.08,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = $16.56B = FY2025 reported FCF $17.16B menos 100% de la SBC ($0.597B, tratada como gasto en efectivo). Margen owner-FCF ~50.5% sobre ingresos FY2025 de $32.8B. La SBC de Mastercard es muy baja (1.8% de ingresos / 3.5% del FCF), por lo que el ajuste a owner earnings es minimo y no dilutivo: positivo para la calidad del negocio.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 12,
+  "rev_cagr_y6_10_pct": 9,
+  "fcf_margin_terminal_pct": 52,
+  "terminal_g_pct": 3.25,
+  "sbc_treatment": "100% de la SBC restada del FCF reportado como gasto en efectivo (Owner FCF = FCF - SBC). SBC FY2025 = $597M (1.8% ingresos / 3.5% FCF), impacto minimo.",
+  "shares_diluted_b": 0.8836,
+  "net_debt_usd_b": 10.58
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 412.15,
+   "prob": 0.375,
+   "note": "CAGR owner-FCF anios 1-5 = 9% (desaceleracion vs track record reciente de +14-16% por madurez de TPV, competencia A2A/real-time payments y presion regulatoria sobre interchange); anios 6-10 declinando linealmente de 9% a 5%; g terminal 3.0%. Escenario pesimista razonable, no apocaliptico: el foso (red de dos lados, escala global, switching costs) sigue intacto. IV ~$412 implica -15% vs precio."
+  },
+  "base": {
+   "iv_per_share": 514.71,
+   "prob": 0.475,
+   "note": "CAGR owner-FCF anios 1-5 = 12% (consistente con guia FY2026 de low-double-digits CN + ~1ppt M&A + leve apalancamiento operativo y recompras; ligeramente por debajo del +16% reportado reciente, asumiendo normalizacion del FX y del crecimiento cross-border); anios 6-10 declinando de 12% a 6%; g terminal 3.25%. IV ~$515 implica +6% vs precio: cotiza cerca de valor justo."
+  },
+  "optimista": {
+   "iv_per_share": 643.13,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: CAGR owner-FCF anios 1-5 = 15% (cross-border sostenido +14%, expansion en value-added services/datos, monetizacion de nuevos flujos B2B y disbursements, margenes en expansion); anios 6-10 declinando de 15% a 7%; g terminal 3.5%. IV ~$643 implica +33% vs precio."
+  }
+ },
+ "sanity_check": "Rendimiento total al accionista (contraste, sin DDM): yield de recompras ~2.6% (~$11B/anio, $3.6B solo en Q4'25, ~$16.7B de autorizacion restante) + yield de dividendo ~0.6% (~$2.6B/anio) = rendimiento total al accionista ~3.2% sobre market cap de $427.7B. Owner-FCF yield ~3.9%. Para una compounder de calidad creciendo el owner-FCF a doble digito, un yield de capital del 3-4% mas crecimiento del 12% sugiere un retorno esperado de ~15-16% si el multiplo se mantiene; el de-rating actual (fwd P/E 23.9x vs media 5a ~30x, -20%) ofrece colchon de valoracion. La VI ponderada por probabilidad (~$496) queda ~2% por encima del precio: accion de calidad cotizando cerca de valor justo, con asimetria favorable si el crecimiento se mantiene.",
+ "method_notes": "DCF de owner earnings a 10 anios sobre Mastercard (red de pagos: DCF valido per instrucciones). Base owner-FCF $16.56B = FCF reportado FY2025 $17.16B - 100% SBC $0.597B. Fase 1 (anios 1-5): CAGR explicito de owner-FCF (cons 9% / base 12% / opt 15%), ancorado a guia FY2026 (high-end low-double-digits CN ex-inorganico + ~1-1.5ppt FX) y track record (+16% reportado, +12-15% CN). Fase 2 (anios 6-10): CAGR declinando linealmente hacia normalizacion. Valor terminal con g=3.0-3.5% (foso amplio: red de dos lados, escala, switching costs justifican el extremo alto del rango permitido). WACC = Rf 4.3% (UST 10Y, emisor USD) + ERP 5.0% x beta 1.08 (beta estimado para red de pagos, baja ciclicidad/alto FCF) = 9.7%; sin ajuste geopolitico (no aplica a MA). Acciones diluidas 0.8836B (= market cap $427.73B / precio $484.09). Deuda neta $10.58B restada del EV para llegar a equity value; ND/EBITDA ~0.5x (balance solido). VI por accion = (PV de flujos explicitos + PV del valor terminal - deuda neta) / acciones diluidas. Probabilidades: cons 0.375 + base 0.475 + opt 0.15 = 1.0. Datos VERIFICADOS de FASE 2 (release oficial MA Q4/FY2025 y Q1 2026); precio/valoracion via StockAnalysis.com (estimado). No se requirio busqueda web adicional: todos los inputs presentes."
+}

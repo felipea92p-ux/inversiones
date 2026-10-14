@@ -1,0 +1,127 @@
+{
+  "ticker": "FICO",
+  "entidad": "Fair Isaac Corporation (CIK 0000814547), ejercicio fiscal cierra 30 de septiembre",
+  "fecha_juicio": "2026-07-28",
+  "rol": "juez de desempate — juzgado desde cero, sin conocer las dos etiquetas previas",
+  "candado_B_prima": "RESPETADO. No se ha usado cotizacion, capitalizacion ni multiplo en ningun tramo del juicio. La linea de valor agregado de mercado que aparece en la portada del 10-K fue vista pero NO utilizada. La recompra de 1.400 M USD en FY2025 se cita solo como asignacion de capital, nunca como valoracion.",
+  "orden_ejecutado": "G5 -> G1 -> G3 -> G4 -> G2 -> G6 (anti-halo)",
+  "ventana": "FY2009-FY2025 (17 ejercicios auditados) para las puertas mecanicas; FY2007-FY2012 para G4; 1S FY2026 (10-Q 31-mar-2026) como comprobacion viva.",
+
+  "fuentes_primarias": [
+    "XBRL companyfacts SEC CIK0000814547 (todas las cifras etiquetadas en formularios 10-K)",
+    "10-K FY2025, accession 0000814547-25-000030, presentado 2025-11-07",
+    "10-K FY2021, accession 0000814547-21-000019",
+    "10-K FY2010, accession 0000950123-10-108284",
+    "10-K FY2011, accession 0001193125-11-317245 (Selected Financial Data FY2007-FY2011)",
+    "10-Q Q2 FY2026, accession 0000814547-26-000021, periodo cerrado 2026-03-31"
+  ],
+
+  "G5": {
+    "veredicto": "SI_REFORZADO",
+    "cifra": "FCF post-SBC completa FY2025 = 613,2 M USD (30,8% de ventas). CFO > beneficio neto en LOS 17 EJERCICIOS 2009-2025 sin una sola excepcion. Sloan siempre NEGATIVO, entre -2,0% y -9,0% de activos medios. Desviacion tipica del crecimiento del BN 21,5% vs 14,7% la del CFO.",
+    "detalle": {
+      "fcf_post_sbc_M": {"2019": 153.4, "2020": 249.2, "2021": 303.8, "2022": 388.1, "2023": 340.8, "2024": 474.6, "2025": 613.2},
+      "fcf_pct_ventas": {"2019": 13.2, "2020": 19.3, "2021": 23.1, "2022": 28.2, "2023": 22.5, "2024": 27.6, "2025": 30.8},
+      "cfo_menos_bn_M": {"2021": 31.7, "2022": 135.9, "2023": 39.5, "2024": 120.2, "2025": 126.9},
+      "sloan_pct": {"2021": -2.00, "2022": -9.03, "2023": -2.62, "2024": -7.30, "2025": -7.08},
+      "delator_general_electric": "NO se dispara. El beneficio es MAS volatil que el CFO que lo produce (sd 21,5% vs 14,7%), que es exactamente la direccion sana. Si fuera al reves seria la firma de GE.",
+      "nota_metodologica": "FCF = CFO - capex - compensacion en acciones completa, sin sumarla de vuelta. La SBC FY2025 fue 156,7 M (7,9% de ventas): es la unica erosion relevante del flujo, y aun descontandola integra el FCF supera el 30% de las ventas."
+    },
+    "cita": "10-K FY2025 (0000814547-25-000030), estado de flujos: efectivo neto de actividades de explotacion 778,8 M USD frente a resultado neto 651,9 M USD; compras de inmovilizado 8,9 M USD; compensacion en acciones 156,7 M USD."
+  },
+
+  "G1": {
+    "veredicto": "NO",
+    "cifra": "ROIC MINIMO de la ventana completa = 8,4% (FY2010). Minimo a 10 anios (FY2016-25) = 13,0%. Solo desde FY2019 supera el 20% (22,2%). FY2025 = 60,4%. NOPAT/ventas: minimo 12,4% (FY2009), FY2025 37,7%.",
+    "detalle": {
+      "definicion_IC": "Capital invertido = Activo total - efectivo - pasivo corriente no financiero (se excluyen del pasivo corriente los vencimientos corrientes de deuda). Incluye el fondo de comercio (~780 M USD, herencia de HNC Software 2002): es capital realmente desembolsado por el accionista.",
+      "higiene_denominador": "SUPERADA: el IC recorre 847-1.284 M USD en 17 anios, media 1.021 M; el minimo es el 83% de la media, nunca cruza cero. El ratio MIDE, no amplifica. Se descarta expresamente el IC = deuda+fondos propios-caja porque los fondos propios son negativos desde FY2021 (-1.745,8 M en FY2025 por recompras) y ese denominador si seria una trampa.",
+      "serie_roic_pct": {"2010": 8.4, "2011": 10.9, "2012": 12.8, "2013": 11.8, "2014": 12.5, "2015": 11.4, "2016": 13.0, "2017": 15.5, "2018": 14.5, "2019": 22.2, "2020": 24.9, "2021": 38.2, "2022": 41.5, "2023": 46.9, "2024": 50.5, "2025": 60.4},
+      "serie_nopat_ventas_pct": {"2016": 14.6, "2017": 16.1, "2018": 14.1, "2019": 19.4, "2020": 21.0, "2021": 31.8, "2022": 31.2, "2023": 32.9, "2024": 34.1, "2025": 37.7},
+      "umbral": "Exigido: minimo de ventana >= 20% Y >= 2x WACC (referencia 10% -> 20%). El minimo real es 8,4%; incluso acortando a 10 anios sigue en 13,0%. La puerta solo se abre si se recorta la ventana a 7 anios o menos.",
+      "lectura_honesta": "FICO NO fue siempre este negocio. Entre FY2009 y FY2018 fue una compania de analitica y servicios profesionales con ROIC de 8-16% que aun estaba amortizando el precio pagado por HNC en 2002. La maquina de peaje al 60% de ROIC nace con la escalada de precio del FICO Score a partir de FY2019. La puerta esta disenada precisamente para no extrapolar un regimen reciente.",
+      "sensibilidad": "Con ventana de 5 ejercicios (FY2021-25) el minimo seria 38,2% y la puerta pasaria de calle. Es la unica puerta cuyo veredicto depende de la convencion de ventana."
+    },
+    "cita": "XBRL companyfacts CIK0000814547, formularios 10-K: OperatingIncomeLoss FY2010 113,3 M USD e IncomeTaxExpenseBenefit/NetIncomeLoss implicando tipo efectivo 30,2% -> NOPAT 79,2 M; Assets FY2010 1.123,7 M, efectivo 146,2 M, pasivo corriente 122,1 M -> capital invertido 863,4 M; ROIC sobre capital medio FY2009-10 (937,3 M) = 8,4%."
+  },
+
+  "G3": {
+    "veredicto": "NO_MEDIBLE",
+    "cifra": "FICO no publica NINGUNA magnitud fisica ni unitaria del segmento Scores: ni numero de scores vendidos, ni precio por score, ni originaciones. Sus unicas metricas publicadas (ARR 747,3 M USD y DBNRR) son metricas EN DOLARES del segmento Software y mezclan precio y volumen por construccion. Sin denominador de volumen no hay elasticidad medida, solo margen observado — que es exactamente lo que la puerta prohibe usar.",
+    "detalle": {
+      "delator_kraft_heinz": "NO se dispara, y con evidencia directa en contra. La compania declara precio Y volumen subiendo A LA VEZ: 1S FY2026 los ingresos B2B de Scores suben 241,4 M USD 'primarily attributable to a higher unit price and an increase in volume of mortgage originations', con margen operativo del segmento subiendo de 88% a 90-91%. Margen al alza CON volumen al alza no es cosecha del foso.",
+      "contra_evidencia_historica": "En la parte baja del ciclo ocurrio lo contrario y la propia compania lo escribio: en FY2009 los ingresos B2B de Scores cayeron 25,3 M USD 'primarily attributable to volume declines' y hubo 'increased pricing pressures' en los scores de marketing. Es decir, en 2009 FICO tuvo volumen negativo Y presion de precio. Si la puerta fuera medible con volumen publicado, la condicion 'volumen >= 0 en toda la ventana' habria fallado en FY2009-FY2010.",
+      "consecuencia": "NO_MEDIBLE no cuenta como fallo por regla explicita. Se declara el hueco en vez de rellenarlo: no puedo demostrar precio/mix > IPC+100 pb con volumen no negativo en toda la ventana, y tampoco puedo desmentirlo."
+    },
+    "cita": "10-K FY2025 (0000814547-25-000030), MD&A Scores: 'The increase in business-to-business scores revenue was primarily attributable to a higher unit price, an increase in volume of mortgage originations and a multi-year license renewal'. 10-K FY2010 (0000950123-10-108284): 'The decline in our business-to-business scores revenue was primarily attributable to volume declines as financial institutions have significantly reduced new account acquisition activities and extension of credit... which resulted from increased pricing pressures'."
+  },
+
+  "G4": {
+    "veredicto": "NO",
+    "cifra": "Contraccion severa SI atravesada: ingresos 784,2 M (FY2007) -> 605,6 M (FY2010) = -22,8%; segmento Scores 211,9 M (FY2008) -> 172,3 M (FY2010) = -18,7%, con el mercado final (originaciones hipotecarias y de tarjeta en EE.UU.) cayendo muy por encima del 30%. Pero el foso se ESTRECHO, no se ensancho.",
+    "detalle": {
+      "prueba_de_que_atraveso_la_contraccion": "Ingresos -22,8% pico a valle y el propio 10-K describe que 'financial institutions have significantly reduced new account acquisition activities and extension of credit'. No aplica NO_PROBADA: la prueba existio y FICO se examino en ella.",
+      "capacidad_competitiva_direccion": "A LA BAJA. (1) I+D absoluto: 77,8 M (FY2008) -> 73,6 M (FY2009) -> 73,6 M (FY2010) -> 62,1 M (FY2011) -> 59,5 M (FY2012), un -23,5% desde el pico, y el 10-K atribuye la caida a 'reductions associated with our reengineering program'. (2) Plantilla: 280 puestos eliminados en FY2008 y 255 mas en FY2009. (3) Desinversion: venta de las lineas LCT y RoamEx en junio de 2009 por 6,2 M con perdida antes de impuestos de 3,0 M. (4) Litigio: FICO demando a Equifax, Experian, TransUnion y VantageScore Solutions por antitrust, competencia desleal e infraccion de marca, y PERDIO — el tribunal desestimo las reclamaciones antitrust y dicto resoluciones adversas fundamentales sobre marca y publicidad enganosa (noviembre 2010).",
+      "rivales_nombrados": "La condicion exige DOS rivales nombrados REDUCIENDO capacidad. Ocurrio lo opuesto: Experian, TransUnion y Equifax — que son a la vez sus distribuidores — estaban AMPLIANDO capacidad competitiva a traves de su empresa conjunta VantageScore, lanzada en 2006 y en plena expansion durante la crisis. Experian ademas rompio su relacion con myFICO.com en febrero de 2009, cerrandole a FICO un canal de consumo. Ningun rival nombrado redujo capacidad.",
+      "contraste_ASML_2009": "El precedente ULTRA sostuvo I+D al 29% de unas ventas colapsadas y gano cuota. FICO hizo lo contrario: recorto I+D en absoluto, recorto plantilla, vendio lineas con perdida, y dedico el capital a recomprar acciones — la autocartera paso de 1.375,4 M (FY2009) a 1.556,3 M (FY2010), 180,9 M de recompra en el mismo ejercicio en que congelaba I+D.",
+      "cicatriz": "NO EXISTE, y ese es el punto. No hay una linea del P&L ni del balance que se deteriorase para PAGAR una ampliacion del foso, porque no hubo ampliacion. Los 8,7 M de cargos de reestructuracion de FY2009 son coste de encogerse, no precio de crecer. Sin cicatriz nombrada la puerta no se otorga."
+    },
+    "cita": "10-K FY2010 (0000950123-10-108284): 'In fiscal 2009, we incurred restructuring charges of $8.7 million. The charges include $5.9 million for severance costs associated with the reduction of 255 positions throughout the Company'; 'In June 2009, we signed definitive agreements to sell the assets associated with our LCT and RoamEx product lines for $6.2 million in cash. We recognized a $3.0 million pre-tax loss'. 10-K FY2011 (0001193125-11-317245), Selected Financial Data: ingresos 784.188 / 744.842 / 630.735 / 605.643 / 619.683 miles de USD para FY2007-FY2011."
+  },
+
+  "G2": {
+    "veredicto": "NO",
+    "cifra": "Reinversion acumulada FY2021-FY2025 = 938,0 M USD = 11,9% de las ventas acumuladas (umbral 25%) y 34,9% del NOPAT acumulado. ROIIC bruto 51,1%; ROIIC EX-MARGEN 15,6%.",
+    "reinversion_pct_NOPAT": 34.9,
+    "roiic_bruto_pct": 51.1,
+    "roiic_ex_margen_pct": 15.6,
+    "detalle": {
+      "aviso_corregido": "Se reportan SEPARADAS las dos tasas y no se confunden: la tasa que entra en g = tasa x ROIIC es la de 34,9% sobre NOPAT; la que juzga el umbral de la puerta es la de 11,9% sobre VENTAS. Con g = 0,349 x 0,511 = 17,8% de crecimiento estructural implicito por reinversion pura.",
+      "composicion_anual_M": {
+        "2021": {"capex": 7.6, "I+D": 171.2, "adquisiciones": 0.0, "delta_circulante": -10.8, "total": 168.0, "pct_ventas": 12.8},
+        "2022": {"capex": 6.0, "I+D": 146.8, "adquisiciones": 0.0, "delta_circulante": 3.6, "total": 156.4, "pct_ventas": 11.4},
+        "2023": {"capex": 4.2, "I+D": 159.9, "adquisiciones": 0.0, "delta_circulante": 51.9, "total": 216.1, "pct_ventas": 14.3},
+        "2024": {"capex": 8.9, "I+D": 171.9, "adquisiciones": 0.0, "delta_circulante": -0.5, "total": 180.3, "pct_ventas": 10.5},
+        "2025": {"capex": 8.9, "I+D": 188.3, "adquisiciones": 0.0, "delta_circulante": 19.9, "total": 217.2, "pct_ventas": 10.9}
+      },
+      "descomposicion_ROIIC": "NOPAT FY2020 272,3 M -> FY2025 751,3 M, variacion +479,0 M. A margen FY2020 constante (21,03%) las ventas de FY2025 habrian dado 418,7 M: de la variacion total, 146,4 M (31%) son VOLUMEN y 332,6 M (69%) son EXPANSION DE MARGEN. El ROIIC ex-margen, que es el que mide productividad real del capital, es 15,6% — justo por encima del umbral de 15% y a un abismo del 51,1% bruto.",
+      "lectura": "FICO no es un compounder de reinversion: es un compounder de PRECIO. Cero adquisiciones en cinco anios, capex del 0,4% de ventas, y toda la reinversion es I+D. No tiene pista donde meter el capital — lo devuelve. Eso no suspende, define la ESPECIE: cosechadora de rentas, no reinversora.",
+      "efecto_en_etiqueta": "G2 = NO -> especie ULTRA-C (de haber pasado las cinco puertas que cuentan)."
+    },
+    "cita": "XBRL companyfacts CIK0000814547 formularios 10-K: PaymentsToAcquirePropertyPlantAndEquipment FY2025 8,9 M; ResearchAndDevelopmentExpense FY2025 188,3 M; PaymentsToAcquireBusinessesNetOfCashAcquired ausente/cero FY2021-FY2025; circulante operativo derivado de AssetsCurrent/LiabilitiesCurrent/DebtCurrent del 10-K FY2025."
+  },
+
+  "G6": {
+    "veredicto": "SI",
+    "poder": "RECURSO ACORRALADO con mandato regulatorio (el FICO Score exigido por Fannie Mae y Freddie Mac para cada hipoteca entregada, bajo 12 CFR Part 1254 de la FHFA), reforzado por COSTES DE CAMBIO de ecosistema (el score esta cableado en politica de credito, documentacion de titulizacion, servicing y modelos de capital) y por MARCA de consumo (es el numero que el consumidor estadounidense conoce por su nombre).",
+    "magnitud": "En la unidad propia del poder — renta extraible por uso sin perder el mandato: ingresos B2B de Scores 561,0 M (FY2023) -> 711,8 M (FY2024) -> 948,6 M (FY2025), +69% en dos ejercicios, atribuidos por la compania a 'a higher unit price'. Margen operativo del segmento Scores 88% en FY2025 y 91% en el 2T FY2026. En el 1S FY2026 el segmento anade otros 246,8 M de ingreso con 231,6 M de margen incremental: 94 centimos de cada dolar adicional de precio caen a beneficio operativo del segmento.",
+    "caducidad": "> 10 anios para el estandar en su conjunto (tarjeta, auto, B2C, titulizacion). RELOJ ARRANCADO Y DECLARADO en el canal hipotecario: julio de 2025.",
+    "detalle": {
+      "busqueda_arranque_reloj_24_meses": "POSITIVA. El propio 10-K FY2025 nombra el evento: 'the change announced by the FHFA Director in July 2025 permitting mortgage originators to choose the credit score they submit with mortgages delivered to Fannie Mae and Freddie Mac'. Es un acto de un regulador, fechado, que retira la obligatoriedad — el nucleo mismo del recurso acorralado en hipoteca.",
+      "segundo_frente": "Concentracion de canal en manos del rival: Experian, TransUnion y Equifax — duenos conjuntos de VantageScore — pasaron de aportar el 20% de los ingresos totales de FICO (FY2010) al 41% (FY2023), 45% (FY2024) y 51% (FY2025). El distribuidor y el competidor son la misma persona, y su peso se ha multiplicado por 2,5 en quince anios.",
+      "por_que_aun_asi_SI": "Tasa base de veinte anios contra exactamente este ataque: VantageScore nace en 2006; FICO demanda y pierde en 2010; Credit Score Competition Act 2018; la FHFA aprueba VantageScore 4.0 en octubre de 2022; la FHFA abre la eleccion al originador en julio de 2025. Cinco aperturas documentadas, cero desplazamiento, y despues de cada una el poder de precio de FICO ACELERO. La prueba viva post-evento — 1S FY2026, primer periodo completo bajo la regla de julio de 2025 — muestra B2B Scores +241,4 M con precio Y volumen al alza y margen de segmento subiendo a 91%. El reloj lleva arrancado veinte anios y no ha corrido.",
+      "confianza_en_esta_puerta": "MEDIA-ALTA. Es la unica puerta donde estimo un futuro en vez de leer un hecho. El gate de falsificacion natural es la cuota de VantageScore en hipotecas entregadas a las GSE y la evolucion del precio unitario de FICO en los dos proximos ejercicios."
+    },
+    "cita": "10-K FY2025 (0000814547-25-000030), factores de riesgo: 'a requirement by those enterprises that U.S. lenders provide FICO Scores for each mortgage delivered to them... Other changes implemented by FHFA, Fannie Mae or Freddie Mac could also affect the demand for FICO Scores, including, for example, the change announced by the FHFA Director in July 2025 permitting mortgage originators to choose the credit score they submit'. Nota de ingresos: 'revenues generated from our agreements with Experian, TransUnion and Equifax collectively accounted for 51%, 45% and 41% of our total revenues' en FY2025, FY2024 y FY2023."
+  },
+
+  "recuento": {
+    "puertas_que_cuentan": ["G5", "G1", "G3", "G4", "G6"],
+    "G5": "PASA (reforzado)",
+    "G1": "FALLA",
+    "G3": "NO_MEDIBLE (no cuenta como fallo)",
+    "G4": "FALLA",
+    "G6": "PASA",
+    "fallos_duros": 2,
+    "puertas_pasadas": 3,
+    "G2": "NO -> especie ULTRA-C, irrelevante porque no se llega a ULTRA"
+  },
+
+  "etiqueta": "MENOS_5_6",
+  "confianza": "MEDIA",
+  "puerta_mas_dudosa": "G1",
+
+  "veredicto_de_desempate": "FICO no es ULTRA bajo ninguna lectura razonable de la ventana, y de eso tengo confianza ALTA: G4 falla con evidencia afirmativa, no por ausencia de datos — en la unica contraccion severa que atraveso, la compania recorto I+D un 23,5%, elimino 535 puestos en dos anios, vendio lineas de producto con perdida, perdio el pleito con el que intentaba bloquear a VantageScore, y dedico 180,9 M a recomprar acciones. El foso se estrecho. La pregunta real del desempate es MUY_BUENA contra MENOS_5_6, y ahi la bisagra es G1: con la ventana completa que ordena el metodo (17 ejercicios) el ROIC minimo es 8,4% y la puerta falla; con una ventana de cinco ejercicios el minimo es 38,2% y pasa de calle. Aplico la ventana completa y por tanto MENOS_5_6, declarando que la empresa esta genuinamente en la frontera de esa decision.",
+
+  "lo_que_esto_NO_significa": "MENOS_5_6 clasifica, no mata. Los datos de hoy son extraordinarios: ROIC 60,4%, NOPAT/ventas 37,7%, margen de segmento Scores del 91%, CFO por encima del beneficio los 17 anios, Sloan siempre negativo. Lo que las seis puertas detectan no es que FICO sea mal negocio, sino que es un negocio TRANSFORMADO: la maquina de peaje tiene siete anios de historia, no diecisiete, y el unico examen de recesion que existe en el expediente lo suspendio el negocio anterior. Quien compre FICO esta comprando el regimen posterior a 2019, sin prueba de estres de ese regimen."
+}

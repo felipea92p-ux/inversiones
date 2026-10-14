@@ -1,0 +1,324 @@
+{
+  "meta": {
+    "ticker": "TOI.V",
+    "empresa": "Topicus.com Inc.",
+    "fecha_analisis": "2026-07-27 (cierre de mercado usado; expediente cerrado en la madrugada del 28-jul-2026)",
+    "divisa_reporte": "USD",
+    "divisa_cotizacion": "CAD (TSX Venture)",
+    "divisa_funcional_y_de_reporte_de_la_empresa": "EUR",
+    "rol": "VALORADOR — la calidad esta CONGELADA y no se toca. La etiqueta no se reclasifica hacia arriba nunca.",
+    "etiqueta_congelada": "PRESUNTA (3 puertas pasadas)",
+    "mecanismo_congelado": "Compra, una a una y a precio disciplinado, las decenas de empresas que son el sistema de registro insustituible de nichos verticales europeos demasiado pequenios para atraer a un segundo proveedor, y cobra por adelantado un mantenimiento contractual que el cliente renueva porque migrar significa reescribir como funciona su ayuntamiento o su hospital — 70,7% de ingresos recurrentes creciendo +6/+7% organico como un metronomo, 1.303 M de cartera contratada y 216 M cobrados antes de prestarse, sobre un capital operativo ex-goodwill negativo los siete anios.",
+    "eslabon_mas_debil_congelado": "El retorno del capital INCREMENTAL: la maquina devora el 42% de sus ventas en reinversion (2,4x a 5,7x su propio NOPAT cada anio) y devuelve un ROIIC bruto del 4,9% (6,8% ex-margen, 13,9% en la lectura mas benevola de EBITA), siempre por debajo del 15%, porque el crecimiento organico es de solo +4/+5% y lo demas se compra. Y G4, la puerta que diria si eso resiste un temporal, nunca se ha puesto a prueba.",
+    "especie_G2": "reinversion 42,3% de ventas · ROIIC bruto 4,9% · ROIIC ex-margen 6,8%",
+    "mos_exigido_pct": 25.0,
+    "motivo_mos": "Umbral de ABRIR para PRESUNTA. La empresa NO esta en cartera, asi que no aplica el umbral de CARGAR (que seria 35%).",
+    "en_cartera": false,
+    "acceso_a_filings": "Topicus.com Inc. NO presenta ante la SEC. Fuente primaria = PDFs oficiales del emisor colgados en topicus.com/investor-relations/statutory-filings (mismos documentos que SEDAR+). Descargados integramente y leidos para este expediente: EEFF auditados FY2025 (KPMG LLP, socio Samir Kabbani, firmado 25-feb-2026), MD&A Q4-2025, EEFF intermedios Q1-2026 y MD&A Q1-2026.",
+    "veredicto_de_una_linea": "NO ABRIR. Con el metodo literal del motor sale un MoS de +29%, pero ese +29% vive entero de un diferencial WACC-terminal de 3,5 puntos y de no descontar que el 74% de los owner earnings se esta gastando en comprar el crecimiento que el mismo modelo remunera. Corregido eso, el MoS central es NEGATIVO."
+  },
+
+  "fuentes_primarias": [
+    {
+      "doc": "Estados Financieros Consolidados Auditados FY2025 de Topicus.com Inc. (auditor KPMG LLP, Vaughan, Ontario; informe de 25-feb-2026). Verificados linea a linea: balance 31-dic-2025 (caja 326.686; RCF+porcion corriente 345.324; term y otros no corriente 347.218; deferred revenue 207.140 corriente + 9.175 no corriente; holdbacks 23.740+40.133; inversiones por metodo de participacion 515.368), cuenta de resultados (ingresos 1.552.302 de los que 1.097.066 mantenimiento y otros recurrentes; depreciacion 41.726; amortizacion de intangibles 162.554; resultado neto 70.060), estado de flujos (CFO 412.676; intereses de arrendamiento -3.056; intereses de otras facilidades -24.861; pagos de arrendamiento -30.139; property and equipment purchased -10.653; adquisicion de negocios -311.003; caja obtenida 62.707; post-acquisition settlements -25.550; compra de acciones de Asseco -413.246; impuestos pagados -53.598), nota 7 (depreciacion de PP&E del ejercicio 10.885; adiciones 10.653), nota 8 (depreciacion de derechos de uso 30.842), nota 10/11 (Schuldschein 200.000; RCF dispuesto 335.000; term loans principal 162.851), nota 16 (83.338.873 Subordinate Voting Shares + 1 Super Voting Share), nota 17 (intereses sobre deuda 25.615), nota 18 (83.212.381 basicas / 129.841.819 diluidas), nota 21 (deferred revenue 216.315; cartera contratada no reconocida ~1.303.000; ingresos Paises Bajos 689.253 frente a resto 863.049), nota 27 (129.841.818 Unidades Ordinarias de Topicus Coop: Topicus 83.338.873, CSI 188.953, Joday 38.148.221, Ijssel 8.165.771; NCI ajeno a Coop 43.302).",
+      "url": "https://cdn.topicusplatform.nl/__/topicuscom/q4-2025/topicuscom-fs-q425-final.pdf",
+      "etiqueta": "HECHO"
+    },
+    {
+      "doc": "MD&A Q4-2025 de Topicus.com Inc.",
+      "url": "https://cdn.topicusplatform.nl/__/topicuscom/q4-2025/topicus-mda-q425-final.pdf",
+      "etiqueta": "HECHO"
+    },
+    {
+      "doc": "Estados Financieros Intermedios Condensados Q1-2026 (no auditados). Verificados: balance 31-mar-2026 (caja 331.173; deuda corriente 96.065 + no corriente 352.579 = 448.644; deferred revenue 453.789 corriente — pico estacional de cobro anticipado; holdbacks 24.077+39.414; inversiones en asociadas 527.439), resultados (ingresos 435.688; depreciacion 11.655; resultado neto 55.062), flujos (CFO 280.490; intereses de arrendamiento -872; intereses otras facilidades -3.736; pagos de arrendamiento -8.374; PP&E -3.236; adquisiciones -15.028), nota 5 (Asseco: 8.300.029 acciones a 85 PLN + 12.318.863 acciones a 85 PLN - 1.411.006 vendidas = 19.207.886 acciones = 23,14% del capital emitido; coste total 523.550), nota 6 (contingent consideration 31.280), nota 19 (129.841.818 unidades; NCI ajeno a Coop 41.637), nota 20 (compromisos de adquisicion posteriores por 37.678 totales).",
+      "url": "https://cdn.topicusplatform.nl/__/topicuscom/q1-2026/topicuscom-fs-q126-final.pdf",
+      "etiqueta": "HECHO"
+    },
+    {
+      "doc": "MD&A Q1-2026. Crecimiento organico +5% en el trimestre (+7% en mantenimiento y otros recurrentes, -1% en servicios profesionales). Tabla de resultados trimestrales desde Q1-2024: CFO por trimestre 271,5 / -14,9 / 48,4 / 107,7 / 280,5 y FCFA2S 161,7 / -16,7 / 22,3 / 51,2 / 165,4. Reconciliacion FCFA2S Q1-2026 = 165,4 (CFO 280,5 menos arrendamientos, intereses, capex y la parte de minoritarios 99,1).",
+      "url": "https://cdn.topicusplatform.nl/__/topicuscom/q1-2026/topicus-mda-q126-final.pdf",
+      "etiqueta": "HECHO"
+    },
+    {
+      "doc": "Comunicado oficial de la empresa: propuesta revisada, no vinculante, para adquirir ReadyTech Holdings (ASX: RDY) a traves de TSS Europe B.V., por A$2,00/accion via scheme of arrangement (o A$1,75 en oferta fuera de mercado con condicion de aceptacion minima del 50,1%). A$2,00 es una prima del 49,3% sobre el cierre de A$1,34 del 29-may-2026.",
+      "url": "https://topicus.com/news/topicuscom-inc-announces-a-revised-proposal-to-acquire-readytech",
+      "etiqueta": "HECHO"
+    },
+    {
+      "doc": "Comunicado oficial: los resultados del Q2-2026 se publican el 5-ago-2026 (posterior a este expediente). Por eso la base 'en curso' es el TTM cerrado en Q1-2026 y no incorpora ningun dato del segundo trimestre.",
+      "url": "https://topicus.com/news/topicuscom-inc-announces-release-date-for-second-quarter-results-2026",
+      "etiqueta": "HECHO"
+    }
+  ],
+
+  "precio_y_capitalizacion": {
+    "precio_cad": 99.92,
+    "precio_usd": 70.79,
+    "fecha_precio": "cierre del 2026-07-27",
+    "fuente_precio": "Doble verificacion: (1) snapshot IBKR del contrato 462267693 (TOPICUS.COM INC-SUB VOTING, VENTURE) con last=99,92 marcado is_close; (2) serie semanal de TMX Money (app-money.tmx.com, simbolo TOI:CA) descargada en esta sesion, ultimo cierre 2026-07-27 = 99,92. [HECHO]",
+    "tipo_de_cambio": "Banco de Canada (Valet), observacion del 2026-07-27: FXEURCAD 1,6056 · FXCADUSD 0,7085 · FXCADPLN 2,6915. De ahi EURUSD 1,1376 y EURPLN 4,3215. [HECHO]",
+    "acciones_para_capitalizacion": 129841818,
+    "por_que_129_8_y_no_83_3": "El agregador (stockanalysis.com) publica una capitalizacion de C$8,35 mm usando 83,53 mm de acciones: son SOLO las Subordinate Voting Shares. La nota 27 de los EEFF auditados dice que hay 129.841.818 Unidades Ordinarias de Topicus Coop y que TODAS las que no tiene Topicus (CSI 188.953, Joday 38.148.221, Ijssel 8.165.771 = 46,50 mm) son intercambiables por Subordinate Voting Shares. Son economicamente la misma accion. Valorar con 83,5 mm subestima la empresa en un 36%. Se usan 129,84 mm. [HECHO]",
+    "capitalizacion_cad_mm": 12973.7,
+    "capitalizacion_eur_mm": 8080.0,
+    "capitalizacion_usd_mm": 9191.5,
+    "contexto_de_precio": "El precio esta un 47,9% por debajo del maximo de 52 semanas (C$191,99) y un 20,9% por encima del minimo (C$82,67). Ademas el propio 27-jul cerro +7,4% sobre el dia anterior. No es un argumento de valoracion: se anota porque (a) una accion que se ha partido por la mitad en un anio y se mueve el 7% en una sesion no es compatible con el beta de 0,28 que publican los agregadores, y (b) el precio de referencia de todo este expediente tiene el ruido de una sesion del 7%."
+  },
+
+  "puente_a_enterprise_value": {
+    "principio": "Nivel EMPRESA. La capitalizacion ya incorpora las 46,5 mm de unidades intercambiables (es decir, el NCI de Topicus Coop ya esta a precio de mercado dentro de la capitalizacion). Se suma aparte solo el NCI que NO es de Coop.",
+    "unidad": "EUR millones, balance de 31-mar-2026",
+    "capitalizacion": 8080.0,
+    "mas_deuda_financiera": 448.6,
+    "mas_holdbacks_de_adquisicion": 63.5,
+    "mas_contingent_consideration": 31.3,
+    "mas_nci_ajeno_a_coop_a_libros": 41.6,
+    "menos_caja": -331.2,
+    "menos_participacion_en_asseco_a_mercado": -855.2,
+    "ev_central_eur_mm": 7479.0,
+    "ev_central_usd_mm": 8507.9,
+    "arrendamientos_excluidos_del_EV": "Si. Las obligaciones de arrendamiento (97,6 mm) NO se suman a la deuda porque los pagos de arrendamiento completos (principal + intereses) se restan como coste operativo dentro de los owner earnings. Evita el doble conteo. Mismo criterio que en el expediente de CSU.",
+    "por_que_se_resta_asseco": "Topicus tiene 19.207.886 acciones de Asseco Poland S.A. (23,14% del capital emitido; 23,9% de las acciones en circulacion), contabilizadas por metodo de participacion con retraso de tres meses. Su resultado NO entra en los owner earnings: la 'share in net income of equity investee' se anula en la reconciliacion del CFO y los dividendos cobrados aparecen en INVERSION, no en explotacion. Por tanto es un activo no operativo puro y hay que sacarlo del EV o se estaria pidiendo a los owner earnings que paguen tambien por el. [HECHO en cuanto al tratamiento contable; INFERENCIA en cuanto al precio de Asseco]",
+    "valoracion_de_asseco": "19.207.886 acciones x 192,40 PLN = PLN 3.695,6 mm = EUR 855,2 mm. Precio de Asseco: stockanalysis.com, cierre del 27-jul-2026 a las 17:01 CET, 192,40 PLN (+5,31% en el dia; capitalizacion PLN 15,49 mm sobre 80,51 mm de acciones, que cuadra). [INFERENCIA — agregador, no fuente oficial de la bolsa de Varsovia. Una busqueda independiente daba 182,70 PLN, que es el cierre del dia anterior.] Valor en libros: EUR 527,4 mm.",
+    "variantes_del_puente": [
+      {"variante": "Asseco a valor en libros (527,4)", "ev_eur_mm": 7807.0, "ev_usd_mm": 8881.0},
+      {"variante": "Asseco a mercado con 20% de descuento por bloque (684,2)", "ev_eur_mm": 7650.0, "ev_usd_mm": 8703.0},
+      {"variante": "sin restar Asseco (tratamiento erroneo, se anota para medir el impacto)", "ev_eur_mm": 8334.0, "ev_usd_mm": 9480.5},
+      {"variante": "deuda neta del cierre auditado 31-dic-2025 en vez del Q1", "ev_eur_mm": 7727.0, "ev_usd_mm": 8790.0}
+    ],
+    "aviso_sobre_la_caja_del_Q1": "La caja de 31-mar-2026 (331,2) esta inflada estacionalmente: el deferred revenue salta de 207,1 a 453,8 en el trimestre porque el mantenimiento anual se factura y se cobra en enero. Con el balance auditado de diciembre la deuda neta es 365,9 en vez de 117,5, es decir 248 mm mas. Sobre un EV de ~7.500 son 3,3 puntos. Se reporta la variante para que la eleccion del corte no la tenga que firmar nadie a ciegas.",
+    "lectura_del_puente": "El puente MUERDE en este caso, al reves que en CSU. Restar Asseco a mercado baja el EV un 10,3% frente a no restarlo. Y no restarlo seria un error de bulto: ese activo no genera ni un euro de los owner earnings que se descuentan."
+  },
+
+  "wacc_candado_B": {
+    "principio": "CANDADO B: el WACC sale SIEMPRE del mercado. Nunca se hereda de un tier de calidad. Una empresa PRESUNTA no tiene por eso un coste de capital distinto.",
+    "moneda_del_wacc": "EUR — es la moneda funcional y de reporte de Topicus y la moneda en que estan los owner earnings que se descuentan. La cotizacion en CAD solo se usa para pasar de valor por accion a precio.",
+    "tasa_libre_riesgo_pct": 3.19,
+    "fuente_rf": "Bund aleman a 10 anios, serie diaria del Deutsche Bundesbank BBSIS D.I.ZST.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A, observacion del 2026-07-27 = 3,19% (24-jul = 3,24%; 23-jul = 3,25%). Serie completa descargada en esta sesion. [HECHO] Contexto: es el nivel mas alto en quince anios; el Bund ha subido con el giro duro del BCE, y eso PENALIZA la valoracion, no la ayuda.",
+    "beta": 0.77,
+    "fuente_beta": "Calculo PROPIO sobre 158 retornos logaritmicos SEMANALES de TOI:CA contra el S&P/TSX Composite (^TSX), ventana de 3 anios cerrada el 27-jul-2026, series descargadas en esta sesion del GraphQL publico de TMX Money: beta cruda 0,651 (correlacion 0,230; volatilidad anualizada de TOI 33,8% frente al 12,0% del indice). Ventanas alternativas: 2 anios 0,693 (corr 0,230), 1 anio 0,547 (corr 0,153). El beta central que se usa es el ajustado por contraccion (Blume/Vasicek): con un error tipico de +-0,22 sobre una correlacion de 0,23, la practica estandar es contraer hacia 1: 2/3 x 0,651 + 1/3 x 1 = 0,77. [HECHO la medicion; INFERENCIA declarada el ajuste]",
+    "betas_descartados": "stockanalysis.com publica beta 0,28 para TOI. Se descarta: una accion con volatilidad anualizada medida del 33,8%-41,7% (esta ultima es el dato de volatilidad historica de IBKR) que ha caido un 48% en doce meses no tiene un beta de 0,28. Se anota para que quede constancia de que se miro y por que no se uso.",
+    "prima_mercado_pct": 4.23,
+    "fuente_prima_mercado": "Damodaran, tabla ctryprem actualizada el 5-ene-2026 (descargada y parseada en esta sesion): ERP de mercado maduro = 4,23% (es el ERP total de los paises Aaa: Alemania, Paises Bajos, Dinamarca, Noruega, Suecia, Suiza, Canada, todos con CRP 0,00%).",
+    "prima_pais_pct": 0.27,
+    "detalle_prima_pais": "Ponderada por el riesgo del ACTIVO, no por el domicilio (Topicus es canadiense de domicilio y holandes de operacion). Unico desglose geografico auditado disponible: nota 22, Paises Bajos 689.253 (44,4% de los ingresos) frente a Resto del Mundo 863.049 (55,6%). Dentro del resto se conocen con nombre propio Polonia (Sygnity, 82.403 = 5,3% de ingresos; CRP Damodaran 1,10%), Belgica (Cipal Schaubroeck, adquirida jun-2025 por 223.629; CRP 0,78%), Escocia/Reino Unido (Geoactive; 0,78%) y una mezcla de Alemania/Nordicos/Austria/Francia. Ponderacion aplicada: 44% NL (0,00%) + 6% Polonia (1,10%) + 10% Belgica (0,78%) + 40% resto europeo a 0,30% medio = 0,27%. [INFERENCIA declarada: la empresa NO publica el desglose pais a pais, solo Paises Bajos frente a Resto del Mundo. El rango razonable va de 0,15% a 0,45%; mueve el WACC menos de 15 puntos basicos.]",
+    "erp_total_pct": 4.50,
+    "coste_capital_propio_pct": 6.65,
+    "coste_deuda_pct": 5.15,
+    "detalle_coste_deuda": "REAL, derivado del filing y no de una tabla de rating: intereses pagados sobre otras facilidades en FY2025 = EUR 24.861 (estado de flujos, financiacion) entre la deuda financiera media del ejercicio ((275.018 + 692.542)/2 = 483.780) = 5,14%. Con el gasto por intereses de la nota 17 (25.615) sale 5,29%. Se usa 5,15%. Coherente con la estructura: Schuldschein de 200.000 a EURIBOR+spread (tramos a 2028/2030/2032) y RCF de hasta 700.000 a EURIBOR+spread por tabla de apalancamiento. [HECHO las dos cifras del filing; INFERENCIA el cociente]",
+    "tasa_impositiva_marginal_pct": 25.8,
+    "fuente_tasa_impositiva": "Tipo corporativo de Paises Bajos segun la propia tabla de Damodaran (25,80%), que es donde esta el centro de gravedad operativo (Topicus Coop, Deventer).",
+    "coste_deuda_despues_impuestos_pct": 3.82,
+    "peso_equity_pct": 93.7,
+    "peso_deuda_pct": 6.3,
+    "nota_pesos": "Equity a mercado = capitalizacion sobre 129,84 mm de unidades (8.080) + NCI ajeno a Coop a libros (41,6) = 8.122. Deuda a mercado aproximada por su valor en libros (448,6 + holdbacks 63,5 + contingent 31,3 = 543,4): la nota 11 dice explicitamente que el principal de los term loans es igual a su valor razonable; del Schuldschein y del RCF no hay cotizacion [INFERENCIA declarada]. Con un 94% de peso de equity, un error del 20% en el valor de la deuda mueve el WACC menos de 5 puntos basicos.",
+    "wacc_pct": 6.48,
+    "wacc_rango": "6,0% (beta 0,65, la medicion cruda) a 8,3% (beta 1,20); central 6,5% con beta 0,77",
+    "tabla_wacc_por_beta": [
+      {"beta": 0.55, "ke_pct": 5.67, "wacc_pct": 5.55},
+      {"beta": 0.65, "ke_pct": 6.12, "wacc_pct": 5.97},
+      {"beta": 0.77, "ke_pct": 6.65, "wacc_pct": 6.48},
+      {"beta": 0.95, "ke_pct": 7.46, "wacc_pct": 7.24},
+      {"beta": 1.20, "ke_pct": 8.59, "wacc_pct": 8.29},
+      {"beta": 1.40, "ke_pct": 9.49, "wacc_pct": 9.13}
+    ],
+    "advertencia_estructural_sobre_este_wacc": "Este es el numero mas fragil del expediente y hay que decirlo antes que ningun resultado. Con un WACC del 6,48% y un terminal del 3%, el diferencial es de 3,48 puntos y una perpetuidad al 3% vale 28,7 veces el flujo. Cualquier valoracion que dependa del valor terminal se vuelve hipersensible: el mismo negocio con beta 1,20 vale un 32% menos. Y el beta que sostiene el 6,48% se mide con una correlacion de 0,23 contra el indice, o sea que el CAPM aqui explica el 5% de la varianza de la accion. NO se corrige el metodo (el candado B manda), pero todo resultado se reporta en banda y ninguna conclusion de este expediente descansa sobre el punto central del WACC."
+  },
+
+  "owner_earnings": {
+    "principio": "Dos versiones obligatorias x dos bases obligatorias. Nivel CONSOLIDADO (incluye el flujo atribuible a los minoritarios), coherente con un EV que ya incorpora las unidades intercambiables a precio de mercado.",
+    "construccion": "El CFO de Topicus es PRE-intereses (los intereses pagados, tanto de deuda como de arrendamientos, se presentan en financiacion). Se parte del CFO, se restan los pagos de arrendamiento COMPLETOS (principal + intereses, que la NIIF 16 saco del CFO) y se obtiene la caja operativa ajustada. De ahi se resta el capex segun la version. NO se restan las adquisiciones de empresas: son la inversion discrecional, y no restarlas es justamente lo que impide penalizar a una reinvertidora por reinvertir.",
+    "unidad": "EUR millones",
+    "auditado_FY2025": {
+      "cfo": 412.676,
+      "pagos_de_arrendamiento": 33.195,
+      "caja_operativa_ajustada": 379.481,
+      "depreciacion_de_PPE": 10.885,
+      "capex_PPE": 10.653,
+      "oe_mantenimiento": 368.6,
+      "oe_capex_total": 368.8,
+      "oe_mantenimiento_usd_mm": 419.3,
+      "oe_capex_total_usd_mm": 419.5,
+      "etiqueta": "HECHO. CFO, arrendamientos y capex del estado de flujos auditado; la depreciacion de PP&E (10.885) sale de la nota 7 y la de derechos de uso (30.842) de la nota 8; suman los 41.726 de la cuenta de resultados."
+    },
+    "en_curso_TTM_Q2_2025_a_Q1_2026": {
+      "cfo": 421.720,
+      "pagos_de_arrendamiento": 34.950,
+      "caja_operativa_ajustada": 386.770,
+      "depreciacion_de_PPE": 11.480,
+      "capex_PPE": 10.991,
+      "oe_mantenimiento": 375.3,
+      "oe_capex_total": 375.8,
+      "oe_mantenimiento_usd_mm": 426.9,
+      "oe_capex_total_usd_mm": 427.5,
+      "ingresos_TTM": 1632.4,
+      "etiqueta": "HECHO para CFO, capex y arrendamientos (aritmetica FY2025 + Q1-2026 - Q1-2025 sobre cifras de filing). INFERENCIA declarada para la depreciacion de PP&E: los estados intermedios no separan PP&E de derecho de uso, asi que se escala la proporcion de FY2025 (10.885/41.726 = 26,1%) sobre la depreciacion total de cada trimestre."
+    },
+    "por_que_TTM_y_no_anualizado_con_guia": "Topicus no publica guia (politica de la casa Constellation). Y anualizar 4 x Q1 seria un disparate: el Q1-2026 concentra el 66,5% del CFO de los ultimos doce meses (280,5 de 421,7) porque el mantenimiento anual se factura y se cobra en enero — el deferred revenue pasa de 207,1 a 453,8 en un trimestre. La base 'en curso' correcta es el TTM de Q2-2025 a Q1-2026. El Q2-2026 no se publica hasta el 5-ago-2026, posterior a este expediente.",
+    "distancia_entre_bases": {
+      "oe_mantenimiento_pct": 1.8,
+      "oe_capex_total_pct": 1.9,
+      "ingresos_pct": 5.2,
+      "lectura": "Los ingresos TTM crecen un 5,2% sobre el ejercicio auditado (1.632,4 frente a 1.552,3) y el Q1-2026 crecio un 23% interanual, pero los owner earnings solo suben un 1,8%. Veintiun puntos de crecimiento de ingresos se quedan por el camino. Es el mismo patron que en CSU, aunque mas suave: la maquina factura mas y compra mas sin que la caja del duenio siga el ritmo.",
+      "momento_del_ciclo": "Digestion, con una diferencia importante frente a CSU: aqui el organico NO se ha deteriorado (el mantenimiento lleva nueve trimestres seguidos entre +6% y +7% y el organico total entre +3% y +5%). Lo que absorbe el crecimiento es la amortizacion del precio pagado y el coste de la deuda que financio las compras, no una perdida de traccion comercial."
+    },
+    "metrica_propia_de_la_empresa_para_contraste": {
+      "FCFA2S_FY2025_eur_mm": 218.5,
+      "FCFA2S_TTM_eur_mm": 222.2,
+      "verificacion": "Suma de los trimestres publicados en la tabla de resultados trimestrales del MD&A Q1-2026: FY2025 = 161,7 - 16,7 + 22,3 + 51,2 = 218,5 (el comunicado oficial de resultados dice 218,7; la diferencia es redondeo). TTM = -16,7 + 22,3 + 51,2 + 165,4 = 222,2. [HECHO]",
+      "diferencia_con_mi_OE": "FCFA2S es a nivel EQUITY: deduce el 100% del flujo atribuible a los minoritarios (99,1 mm solo en el Q1-2026), deduce los intereses pagados y los costes de transaccion de las lineas de credito. Mi OE es a nivel EMPRESA. Las dos son defendibles; se reportan las dos.",
+      "el_contraste_que_duele": "Capitalizacion (8.080) sobre FCFA2S TTM (222,2) = 36,4 veces. Y el FCFA2S TTM crece un 1,7% sobre el del ejercicio auditado. Treinta y seis veces la propia metrica de caja de la empresa, creciendo al 2%. Este cociente no depende de mi WACC, ni de mi beta, ni de como trate a Asseco."
+    },
+    "nota_sobre_el_test_(a)_vs_(b)": "El test de capex de mantenimiento frente a capex total NO muerde en Topicus, igual que en CSU. El capex tangible es el 0,69% de los ingresos (10,7 sobre 1.552,3) y la depreciacion de PP&E (10,9) practicamente lo iguala. La diferencia entre las dos versiones es de 0,2 mm sobre 368,6: cinco puntos basicos. Donde SI esta la inversion discrecional de verdad es en las adquisiciones (311,0 en FY2025) y en el bloque de Asseco (413,2), y ninguna de las dos se resta de los owner earnings — por diseno. Eso es lo que hay que tener en la cabeza al leer el DCF."
+  },
+
+  "dcf_inverso": {
+    "protocolo": "Se resuelve la g a 10 anios, con crecimiento terminal del 3%, que iguala el valor presente de los owner earnings al EV de hoy (EUR 7.479 mm) al WACC de mercado del 6,48%. Es la pregunta que importa: que hay que creerse para pagar el precio de hoy.",
+    "g_implicita_auditado_oe_mantenimiento_pct": -1.49,
+    "g_implicita_auditado_oe_capex_total_pct": -1.50,
+    "g_implicita_encurso_oe_mantenimiento_pct": -1.70,
+    "g_implicita_encurso_oe_capex_total_pct": -1.72,
+    "lectura": "Al WACC central, el precio de hoy implica que los owner earnings ENCOGEN un 1,5% anual durante diez anios antes de estabilizarse al 3%. Dicho de otro modo: el mercado paga 20,3x owner earnings por un negocio al que mi modelo, a mi WACC, le pondria 28,7x solo por seguir creciendo al 3% para siempre. Antes de sacar pecho hay que ver de donde viene ese 28,7x: de un diferencial WACC-terminal de 3,48 puntos. La misma cuenta con beta 0,95 exige una g del +0,78% y con beta 1,20 exige un +3,53% — es decir, mas de lo que el motor congelado defiende.",
+    "sensibilidad_de_la_g_implicita_al_beta": [
+      {"beta": 0.65, "wacc_pct": 5.97, "g_implicita_pct": -3.21},
+      {"beta": 0.77, "wacc_pct": 6.48, "g_implicita_pct": -1.49},
+      {"beta": 0.95, "wacc_pct": 7.24, "g_implicita_pct": 0.78},
+      {"beta": 1.20, "wacc_pct": 8.29, "g_implicita_pct": 3.53},
+      {"beta": 1.40, "wacc_pct": 9.13, "g_implicita_pct": 5.49}
+    ],
+    "sensibilidad_al_puente": [
+      {"variante": "sin restar Asseco", "g_implicita_pct": -0.21},
+      {"variante": "Asseco a libros", "g_implicita_pct": -0.98}
+    ]
+  },
+
+  "g_defendible": {
+    "formula": "g = tasa de reinversion x ROIIC EX-MARGEN. El ex-margen, nunca el bruto: usar el bruto asume implicitamente que la expansion de margen se repite.",
+    "insumos_congelados": "reinversion 42,3% de ventas · ROIIC ex-margen 6,8%",
+    "g_defendible_pct": 2.88,
+    "aritmetica": "0,423 x 0,068 = 2,876%",
+    "observacion_estructural": "Igual que en CSU, la g defendible queda por DEBAJO del crecimiento terminal de referencia del 3%. No es un artefacto: es la traduccion aritmetica del eslabon debil congelado. Una maquina que recicla el 42% de sus ventas a un retorno marginal ex-margen del 6,8% no puede generar mas de un 2,9% de crecimiento sostenible de owner earnings.",
+    "el_dato_que_manda": "ROIIC ex-margen congelado 6,8% frente a WACC de mercado 6,48% (banda 5,97%-8,29%). El retorno marginal esta 0,3 puntos POR ENCIMA del centro de mi coste de capital y 1,5 puntos POR DEBAJO del extremo alto. Traducido: el capital incremental de Topicus ni crea ni destruye valor de forma clara — empata con su coste. Y cuando el ROIIC incremental empata con el WACC, el crecimiento es VALOR-NEUTRO: da igual cuanto compres, no anades valor por comprar. Eso es exactamente lo que dice el eslabon debil congelado, dicho en euros.",
+    "hueco_de_unidades_declarado": "La tasa de reinversion congelada esta normalizada sobre VENTAS y la formula g = b x ROIIC exige normalizarla sobre BENEFICIO. Medida sobre owner earnings, la reinversion de FY2025 en ADQUISICIONES DE EMPRESAS fue del 74,3% (311,0 de compras + 25,6 de liquidaciones posteriores - 62,7 de caja obtenida = 273,8 sobre 368,6 de OE). Si ademas se cuenta el bloque de Asseco (413,2), la reinversion total del ejercicio fue de 661 mm = el 179% de los owner earnings y el 42,6% de las ventas — que es de donde sale el 42,3% congelado. Con b = 74,3% la g coherente seria del 5,05%, no del 2,88%. La diferencia entre las dos lecturas vale 4.600 mm de euros de valor y esta desarrollada en la seccion 'modelo_coherente_en_unidades'.",
+    "contraste_con_la_g_implicita": "g defendible 2,88% frente a g implicita de -1,49%/-1,70%. Al WACC central el motor defiende MAS crecimiento del que el precio exige. Ese es todo el argumento alcista de este expediente, y ocupa una linea. Lo que sigue explica por que no basta."
+  },
+
+  "valor_intrinseco": {
+    "metodo_literal": "DCF a 10 anios con la g defendible del 2,88%, terminal 3%, WACC 6,48%, sobre owner earnings consolidados. Del EV intrinseco se suma la caja y Asseco a mercado y se restan deuda, holdbacks, contingent consideration y NCI ajeno a Coop; se divide entre 129.841.818 unidades.",
+    "base_auditada": {"oe_eur_mm": 368.6, "ev_intrinseco_eur_mm": 10805, "valor_por_accion_eur": 87.85, "valor_por_accion_cad": 141.05, "valor_por_accion_usd": 99.93, "mos_pct": 29.2},
+    "base_auditada_capex_total": {"valor_por_accion_cad": 141.14, "valor_por_accion_usd": 99.99, "mos_pct": 29.2},
+    "base_en_curso": {"oe_eur_mm": 375.3, "ev_intrinseco_eur_mm": 11002, "valor_por_accion_eur": 89.36, "valor_por_accion_cad": 143.48, "valor_por_accion_usd": 101.66, "mos_pct": 30.4},
+    "base_en_curso_capex_total": {"valor_por_accion_cad": 143.66, "valor_por_accion_usd": 101.78, "mos_pct": 30.4},
+    "sensibilidad_al_beta_metodo_literal": [
+      {"beta": 0.65, "wacc_pct": 5.97, "valor_cad": 163.78, "mos_pct": 39.0},
+      {"beta": 0.77, "wacc_pct": 6.48, "valor_cad": 141.05, "mos_pct": 29.2},
+      {"beta": 0.95, "wacc_pct": 7.24, "valor_cad": 117.14, "mos_pct": 14.7},
+      {"beta": 1.20, "wacc_pct": 8.29, "valor_cad": 95.31, "mos_pct": -4.8},
+      {"beta": 1.40, "wacc_pct": 9.13, "valor_cad": 83.25, "mos_pct": -20.0}
+    ],
+    "por_que_NO_uso_este_resultado_como_central": "El metodo literal descuenta los owner earnings ENTEROS y ademas les aplica una g del 2,88% que solo existe porque la empresa se gasta el 74% de esos mismos owner earnings comprando empresas. O te quedas la caja, o compras crecimiento; no las dos cosas. Contarlas juntas es doble conteo y aqui vale 4.600 mm. Se reporta el resultado literal porque el protocolo lo pide y porque es la lectura 'runoff' legitima (deja de comprar, crece solo organicamente), pero no es mi estimacion central.",
+
+    "modelo_coherente_en_unidades": {
+      "descripcion": "Formula de creacion de valor sin doble conteo: flujo distribuible = OE x (1 - g/ROIIC), con g = b x ROIIC, b medido sobre owner earnings (74,3%) y ROIIC ex-margen del 6,8%. Diez anios a esa g y terminal al 3% con el payout que ese 3% implica. Los mismos insumos congelados, sin cobrar dos veces el mismo euro. Asseco se excluye del numerador b porque se resta del EV: si estuviera en b, se estaria contando su coste dos veces.",
+      "g_coherente_pct": 5.05,
+      "multiplo_justo_resultante": "16,9x owner earnings frente a los 20,3x que se pagan hoy",
+      "base_auditada": {"valor_por_accion_cad": 84.26, "valor_por_accion_usd": 59.70, "mos_pct": -18.6},
+      "base_en_curso": {"valor_por_accion_cad": 85.65, "valor_por_accion_usd": 60.68, "mos_pct": -16.7},
+      "sensibilidad_al_beta": [
+        {"beta": 0.65, "wacc_pct": 5.97, "valor_cad": 99.54, "mos_pct": -0.4},
+        {"beta": 0.77, "wacc_pct": 6.48, "valor_cad": 84.26, "mos_pct": -18.6},
+        {"beta": 0.95, "wacc_pct": 7.24, "valor_cad": 68.32, "mos_pct": -46.2},
+        {"beta": 1.20, "wacc_pct": 8.29, "valor_cad": 53.99, "mos_pct": -85.1}
+      ],
+      "variante_con_el_ROIIC_mas_benevolo": "Con el ROIIC del 13,9% (la lectura mas favorable del congelado, sobre EBITA) la g coherente sube al 10,3%, el multiplo justo se dispara a 36,3x y el valor a C$172,77 (MoS +42,2%). Es decir: TODA la tesis alcista de Topicus se reduce a una sola pregunta — cual de los tres ROIIC del congelado es el verdadero. Con el 6,8% no hay margen; con el 13,9% hay un 42%. Yo no puedo resolver esa pregunta desde el precio, y la calidad esta congelada."
+    },
+
+    "valor_central_que_defiendo": {
+      "auditado_cad": 84.26,
+      "auditado_usd": 59.70,
+      "en_curso_cad": 85.65,
+      "en_curso_usd": 60.68,
+      "justificacion": "Se toma como central el modelo coherente en unidades, porque es el unico de los dos que no cobra dos veces el mismo euro, y porque converge con el ancla independiente del multiplo comprometido (m* = 15x da C$75,81). Los dos caminos que no dependen de creerse una g caen entre C$76 y C$86; el unico que da un valor alto (C$141) es el que hace doble conteo."
+    },
+
+    "piso_de_resolucion": {
+      "regla": "Sin medicion propia del ruido se aplica una banda de mas menos 25% sobre los owner earnings. Nada de decimales falsos en el valor intrinseco.",
+      "banda_metodo_literal_cad": "C$108 a C$174 (punto central ~C$141), con MoS de +7,2% a +42,7%",
+      "banda_modelo_coherente_cad": "C$63 a C$105 (punto central ~C$84)",
+      "banda_conjunta_declarada_cad": "C$60 - C$175. Punto central que defiendo: ~C$85, con una banda que no permite afirmar un margen de seguridad del 25% en NINGUNA direccion.",
+      "banda_conjunta_declarada_usd": "US$43 - US$124. Punto central ~US$60.",
+      "lectura": "El precio de hoy (C$99,92 / US$70,79) cae DENTRO de la banda conjunta, en su parte media. Con la resolucion que tengo NO puedo afirmar que Topicus este barata ni que este cara. Lo que SI puedo afirmar es que el MoS del 25% exigido por la banda PRESUNTA solo aparece bajo una combinacion muy concreta de supuestos —beta bajo, sin corregir el doble conteo— y desaparece en cuanto se toca cualquiera de los dos."
+    }
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 15.0,
+    "definicion_m_estrella": "15 veces owner earnings de mantenimiento a nivel EMPRESA (EV/OE). Decidido en frio, SIN barra de error, porque no es una estimacion sino un compromiso. Justificacion: cuando el retorno del capital incremental empata con el coste de capital —6,8% ex-margen frente a un WACC del 6,5%— el crecimiento es valor-neutro y el negocio vale su perpetuidad SIN crecimiento, es decir 1/WACC. Al WACC central eso son 15,4x; al extremo alto de mi banda de WACC (8,29%) serian 12,1x. Me comprometo con 15x, que es el extremo generoso de ese razonamiento.",
+    "multiplo_pagado_hoy": {
+      "ev_sobre_oe_mantenimiento_auditado": 20.3,
+      "ev_sobre_oe_mantenimiento_TTM": 19.9,
+      "capitalizacion_sobre_FCFA2S_TTM": 36.4,
+      "veredicto": "Hoy se pide 19,9-20,3x owner earnings a nivel empresa. Mi compromiso es 15x. Se paga de mas un 33% solo en el multiplo, antes de discutir crecimiento. En la metrica de caja de la propia empresa (FCFA2S) se pagan 36,4x sobre un flujo que crece al 1,7%."
+    },
+    "valor_con_m_estrella": {"base_auditada_cad": 75.81, "base_auditada_usd": 53.71, "base_en_curso_cad": 77.05, "base_en_curso_usd": 54.59, "mos_pct": -31.8},
+    "p_estrella_cad": 63.20,
+    "p_estrella_usd": 44.77,
+    "definicion_p_estrella": "Precio que deja el MoS del 25% exigido por la banda PRESUNTA para ABRIR, aplicado sobre el valor central que defiendo (modelo coherente en unidades, base auditada, la mas conservadora de las dos): C$84,26 x 0,75 = C$63,20 = US$44,77.",
+    "p_estrella_sobre_base_en_curso": "C$64,24 = US$45,51",
+    "p_estrella_anclado_en_m_estrella": "C$56,86 = US$40,28. Es el nivel duro: el precio al que la compra no depende de creerse ninguna g ni ningun WACC.",
+    "p_estrella_si_se_aceptara_el_metodo_literal": "C$105,79 = US$74,95, es decir POR ENCIMA del precio de hoy. Se anota expresamente para que quede visible la magnitud de lo que esta en juego en la correccion del doble conteo: es la diferencia entre 'comprar hoy' y 'esperar una caida del 37%'.",
+    "distancia_desde_el_precio_de_hoy": "El precio tiene que caer un 36,7% hasta C$63,20, o un 43,1% hasta C$56,86. El minimo de 52 semanas (C$82,67) sigue por encima de los dos disparadores: ni en el peor momento del ultimo anio Topicus estuvo comprable bajo esta aritmetica."
+  },
+
+  "tir_esperada": {
+    "definicion": "Tasa de descuento que iguala el EV de hoy al flujo de owner earnings creciendo a la g defendible. Es lo que se firma al comprar hoy si el motor rinde lo que el congelado dice que rinde.",
+    "central_pct": 6.0,
+    "rango": "5,3% a 9,3% anual durante 10 anios",
+    "detalle_del_rango": [
+      {"escenario": "modelo coherente en unidades, base auditada", "tir_pct": 5.96},
+      {"escenario": "modelo coherente en unidades, base en curso TTM", "tir_pct": 6.01},
+      {"escenario": "modelo coherente, owner earnings -25% (piso de resolucion)", "tir_pct": 5.29},
+      {"escenario": "modelo coherente, owner earnings +25% (piso de resolucion)", "tir_pct": 6.59},
+      {"escenario": "metodo literal (OE enteros + g 2,88%), base auditada", "tir_pct": 8.03},
+      {"escenario": "metodo literal, base en curso TTM", "tir_pct": 8.12},
+      {"escenario": "metodo literal con g igual al organico publicado del 4%", "tir_pct": 8.49},
+      {"escenario": "ROIIC benevolo del 13,9% en el modelo coherente", "tir_pct": 8.48}
+    ],
+    "lectura": "Comprar hoy es firmar entre un 5,3% y un 9,3% anual durante una decada, con centro en el 6,0% bajo el modelo que no hace doble conteo y en el 8,0% bajo el literal. Frente a un coste de capital que va del 6,0% al 8,3% segun el beta que se elija. Es decir: la TIR esperada y el coste de capital son el MISMO numero dentro del error de medicion. Eso no es una oportunidad; es un empate caro, en el que se asume una accion con volatilidad del 34%-42% anual y una caida del 48% ya vivida a cambio de la rentabilidad exigida, ni un punto mas."
+  },
+
+  "detector_de_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "Los dos ingredientes de una trampa de valor son (1) un descuento aparente grande y (2) un motor que se esta rompiendo. Aqui NO hay ninguno de los dos. No hay descuento: el MoS central es negativo (-18,6%) y el metodo mas favorable solo llega al +29% con supuestos que no aguantan el escrutinio. Y el motor NO se esta rompiendo: el crecimiento organico lleva nueve trimestres seguidos entre el +3% y el +5%, el mantenimiento y otros recurrentes entre el +6% y el +7% SIN excepcion desde Q1-2024, los ingresos recurrentes son el 70,7% del total, la cartera contratada no reconocida es de 1.303 mm (creciendo) y el deferred revenue paso de 173,2 a 216,3. La caida del 48% de la accion es compresion de multiplo sobre un negocio que sigue funcionando, no deterioro operativo.",
+    "lo_que_si_hay_y_no_es_una_trampa_de_valor": "Un compounder cuyo capital incremental rinde aproximadamente su coste de capital. Eso no es una trampa: es un negocio bueno que ya no compone valor al ritmo que compone tamanio. Se paga como si compusiera.",
+    "senal_a_vigilar": "El cambio de regimen en la asignacion de capital. En quince meses Topicus ha desplegado 413 mm en un bloque del 23% de Asseco Poland (una cotizada polaca, participacion minoritaria por metodo de participacion con retraso de tres meses, cuyo resultado NO entra en los owner earnings) y ha lanzado una propuesta revisada por ReadyTech (ASX: RDY) a A$2,00/accion, un 49,3% de prima sobre el cierre previo. Las dos operaciones se apartan del mecanismo congelado —comprar nichos pequenios, privados, a precio disciplinado— y las dos son publicas, grandes y con prima. Si el proximo trimestre trae una tercera operacion de este tipo, el ROIIC del 6,8% deja de ser el suelo y pasa a ser el techo, y entonces SI habria que reabrir la conversacion sobre trampa de valor.",
+    "segunda_senal": "El apalancamiento. La deuda financiera paso de 275,0 (dic-2024) a 692,5 (dic-2025), 2,5 veces en un anio, para financiar Asseco y las compras. Bajo a 448,6 en marzo con el cobro estacional. Con EURIBOR alto y el Bund en maximos de quince anios, cada punto de coste de deuda adicional sobre 500-700 mm son 5-7 mm de owner earnings."
+  },
+
+  "veredicto_del_valorador": {
+    "abre_posicion": false,
+    "mos_exigido_pct": 25.0,
+    "mos_obtenido_pct": "-18,6% (base auditada) / -16,7% (base en curso) con el modelo que defiendo. Con el metodo literal del motor: +29,2% / +30,4%.",
+    "conclusion": "NO ABRIR. Y conviene decir por que NO es el mismo 'no' que el de CSU. Alli el motor estaba por debajo del coste de capital y el precio no daba descuento: doble fallo. Aqui el negocio funciona —organico estable, recurrencia del 70,7%, cartera creciendo, capital operativo negativo— y el precio ya ha caido un 48%. El problema es otro: (1) el unico calculo que produce el 25% exigido descuenta owner earnings enteros y ademas les regala el crecimiento que esos mismos euros estan comprando; corregido el doble conteo el margen desaparece; (2) el resultado depende por completo de un WACC del 6,48% construido sobre un beta medido con correlacion 0,23 — con beta 0,95 el MoS literal ya baja al 14,7% y con 1,20 se vuelve negativo; (3) el multiplo que me comprometo a pagar (15x) esta un 33% por debajo del que se pide (20,3x), y ese compromiso no depende de ninguna estimacion; (4) el piso de resolucion (+-25% sobre owner earnings) abre una banda de C$60 a C$175 que hace materialmente imposible afirmar un margen del 25%. El precio al que esto se vuelve una decision y no una apuesta sobre el beta es C$63 (US$45), o C$57 (US$40) si se ancla en el multiplo comprometido.",
+    "que_haria_cambiar_este_veredicto": "Una sola cosa, y no es el precio: resolver cual de los tres ROIIC congelados (4,9% bruto / 6,8% ex-margen / 13,9% EBITA) describe la maquina. Con el 13,9% el modelo coherente da C$173 y un MoS del +42% incluso sin tocar el WACC. Esa pregunta pertenece al eje CALIDAD, esta congelada, y este valorador no la puede reabrir. Lo que si puede decir es que la valoracion de Topicus es, hoy, una apuesta sobre esa cifra y sobre ninguna otra."
+  },
+
+  "huecos_declarados": [
+    "El beta. Medido por mi contra el S&P/TSX Composite con 158 semanas: 0,651 con correlacion 0,230. El CAPM explica el 5% de la varianza de esta accion. El error tipico del beta es de +-0,22, asi que el intervalo de confianza al 95% va de 0,22 a 1,08. Uso 0,77 (contraccion hacia 1) y reporto TODO en banda de beta, pero hay que saber que el numero central del WACC no esta medido con precision util.",
+    "Desajuste de divisas en el CAPM: el beta esta medido sobre una accion cotizada en CAD contra un indice canadiense, y se aplica con una tasa libre de riesgo en EUR. Es la misma convencion que en el expediente de CSU (rf en moneda funcional, beta contra el indice de cotizacion) y se declara como aproximacion, no como algo demostrado.",
+    "El precio de Asseco Poland (192,40 PLN) sale de stockanalysis.com, un agregador, no de la Bolsa de Varsovia. Es INFERENCIA. Mueve 855 mm de euros del EV, es decir 4,4 puntos de MoS entre marcarlo a mercado y marcarlo a libros. No he podido acceder a una fuente oficial de la GPW en esta sesion.",
+    "El descuento por bloque sobre la participacion en Asseco. Los propios auditores (KPMG, cuestion clave de auditoria) aplicaron un blockage discount al valorar el derivado sobre esas mismas acciones. Yo marco el 23,14% a precio de pantalla completo, sin descuento. Es la hipotesis MAS favorable al precio actual; la variante con -20% esta calculada en el puente.",
+    "El desglose geografico. La nota 22 solo separa Paises Bajos (44,4%) del Resto del Mundo (55,6%). La prima pais del 0,27% se construye con lo que se sabe por nombre propio (Sygnity en Polonia, Cipal Schaubroeck en Belgica, Geoactive en Escocia) y una hipotesis sobre el resto. INFERENCIA. Impacto: menos de 15 puntos basicos de WACC.",
+    "La depreciacion de PP&E del TTM (11,5 mm) esta escalada, no medida: los estados intermedios no separan PP&E de derechos de uso. Impacto sobre los owner earnings: por debajo del 0,2%.",
+    "El coste de la deuda (5,15%) se deriva de intereses pagados sobre deuda media del ejercicio. La deuda crecio de forma muy irregular en 2025 (Schuldschein desembolsado el 30-jun, RCF dispuesto a lo largo del anio), asi que la media simple de saldos inicial y final es una aproximacion gruesa. Con un peso de deuda del 6,3%, un error de 100 pb en el coste de la deuda mueve el WACC 5 pb.",
+    "La deuda a valor de mercado se aproxima por libros. La nota 11 lo confirma para los term loans (principal = valor razonable); del Schuldschein y del RCF no hay precio observable. INFERENCIA declarada.",
+    "El corte de balance. Se usa el 31-mar-2026, que es el punto ESTACIONALMENTE MAS FAVORABLE del anio para la deuda neta (el cobro anticipado del mantenimiento hincha la caja y sirvio para amortizar 245 mm del RCF). Con el balance auditado de diciembre el EV sube 248 mm. La variante esta calculada.",
+    "La base 'en curso' no incorpora el Q2-2026, que se publica el 5-ago-2026. Es el TTM cerrado en Q1-2026. Ademas Q2 es estructuralmente el trimestre malo de caja en este negocio (CFO de -14,9 en Q2-2025), asi que el TTM que se publique en agosto puede moverse de forma poco intuitiva.",
+    "La g defendible del 2,88% mezcla unidades: reinversion sobre VENTAS por ROIIC. La correccion a unidades coherentes (b sobre owner earnings = 74,3%) da una g del 5,05% y un valor completamente distinto. Las dos lecturas estan calculadas y contrastadas; no hay forma de elegir entre ellas desde el precio.",
+    "El congelado ofrece tres ROIIC distintos (4,9% / 6,8% / 13,9%) y la valoracion cambia entre 'sin margen' y '+42% de margen' segun cual se use. Es el hueco mas grande del expediente y NO es resoluble por el valorador: pertenece al eje calidad, que esta congelado.",
+    "No he verificado si existen instrumentos dilutivos adicionales (planes de incentivos, opciones) fuera de las 129.841.818 unidades. Las notas 16, 18 y 27 no mencionan ninguno y las acciones diluidas coinciden exactamente con las unidades, pero no he leido la circular de la junta.",
+    "El resultado neto de FY2025 (70,1 mm) esta atravesado por cuatro partidas no recurrentes de Asseco que suman mas de 300 mm en valor absoluto (revaluacion de -221,7; derivado +101,7; dilucion +30,1; valor razonable +32,8). No afectan a los owner earnings —todas se anulan en la reconciliacion del CFO— pero hacen que cualquier multiplo sobre beneficio contable de esta empresa sea basura en 2025.",
+    "El precio de referencia (C$99,92) es el cierre de una sesion en la que la accion subio un 7,4%. No he identificado la causa. Todo el expediente se desplaza aproximadamente 7 puntos de MoS si el precio correcto de referencia fuera el del dia anterior.",
+    "El desenlace de la propuesta sobre ReadyTech (A$2,00/accion, prima del 49,3%) es desconocido a la fecha de este expediente. Ni el importe ni el resultado estan en ningun numero de este documento."
+  ]
+}

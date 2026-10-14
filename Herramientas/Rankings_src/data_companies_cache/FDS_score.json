@@ -1,0 +1,59 @@
+{
+ "ticker": "FDS",
+ "name": "FactSet Research Systems Inc.",
+ "rules": {
+  "R1": {
+   "score": 1.5,
+   "just": "Modelo SaaS de datos financieros altamente escalable con op margin GAAP ~32% / ajustado ~36% y FCF margin 26.6%, pero margenes comprimiendose ~220-230bps por inversion en IA impide el 2.0 monstruoso."
+  },
+  "R2": {
+   "score": 1,
+   "just": "Industria de datos/analitica financiera en crecimiento secular estructural (ASV +5.7% organico), pero con amenaza real de disrupcion IA/LLMs que enturbia la durabilidad del viento de cola."
+  },
+  "R3": {
+   "score": 1,
+   "just": "Jugador #3-4 solido en terminales/datos financieros, pero claramente por detras de Bloomberg y por debajo de S&P/MSCI en escala, lejos del liderazgo #1/#2 dominante."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat real por altos costes de cambio (datos integrados en workflows, APIs, feeds) e intangibles de datos propietarios, pero no es irreplicable en decadas frente a la presion de LLMs y competidores mayores."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento organico genuino y consistente (ASV organico +5.7% FY25, +6.7% Q2 FY26, 29 anios consecutivos de crecimiento de EPS) con M&A acretiva y disciplinada, no dependiente de adquisiciones."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Diversificacion excelente: base de >8.000 clientes muy atomizada (ningun cliente material >10%), multi-geografia (Americas/EMEA/Asia) y multi-segmento (buy-side, sell-side, wealth, banca)."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC ~17.7% claramente por encima del WACC, capex bajo (modelo asset-light) y FCF/NI alto (~95-100%, FCF $617.5M sobre NI similar), excelente conversion de caja."
+  },
+  "R8": {
+   "score": 1,
+   "just": "Balance solido pero NO caja neta: deuda neta ~$1.03B, ND/EBITDA ~1.1x (bien por debajo del umbral 2x), aunque la presencia de apalancamiento neto impide la maxima nota."
+  },
+  "R9": {
+   "score": 1.5,
+   "just": "Contabilidad limpia y conservadora con SBC VERIFICADA muy baja: $61.2M = 2.6% de ingresos y solo 9.9% del FCF (muy por debajo del umbral del 15%), 29 anios de crecimiento ininterrumpido de EPS."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Gestion disciplinada en asignacion de capital: dividendo creciente (~26 anios), buybacks recurrentes, M&A acretiva y desapalancamiento; gobierno solido aunque skin-in-the-game de insiders moderado."
+  }
+ },
+ "amplification": false,
+ "amplification_note": "R1 (escalabilidad), R3 (posicion competitiva) y R4 (moat) son fuertes pero NO se refuerzan de forma monstruosa: FDS es un jugador #3-4 detras de Bloomberg, no un lider dominante #1, y su moat de costes de cambio, aunque real, esta bajo cuestion estructural por la disrupcion IA/LLM. La combinacion es de alta calidad pero no irreplicable ni dominante en decadas, por lo que no procede amplificacion.",
+ "moat_type": "switching_costs",
+ "moat_one_line": "Altos costes de cambio por la integracion profunda de datos, feeds y APIs de FactSet en los workflows diarios de analistas y gestores, reforzados por intangibles de datos propietarios y relaciones largas, aunque erosionables a medio plazo por LLMs.",
+ "thesis_3lines": [
+  "CALIDAD: negocio SaaS de datos financieros asset-light con ROIC ~17.7%, op margin ajustado ~36%, FCF margin 26.6%, SBC minima (9.9% del FCF) y 29 anios consecutivos de crecimiento de EPS.",
+  "MOTOR: crecimiento organico secular del ASV (+5.7% FY25, +6.7% Q2 FY26) apoyado en costes de cambio y expansion multi-segmento/geografia, con guia FY26 SUBIDA pese al ruido sobre IA.",
+  "VALORACION: de-rating masivo a fwd P/E ~12.5x (vs media 5a ~29.6x, descuento ~-58%) tras caer ~-55% desde el ATH; el mercado descuenta una disrupcion estructural que aun no aparece en los fundamentales."
+ ],
+ "bear_case_strongest": "Los LLMs y la IA generativa pueden comoditizar el acceso a datos financieros y desintermediar el terminal de FactSet, erosionando estructuralmente los costes de cambio que sostienen el moat; la compresion de margenes de ~220-230bps ya visible sugiere inversion creciente y permanente en IA solo para defender posicion, lo que justificaria un de-rating permanente en vez de una reversion.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Score re-puntuado total: R1 1.5 + R2 1.0 + R3 1.0 + R4 1.5 + R5 1.5 + R6 1.5 + R7 1.5 + R8 1.0 + R9 1.5 + R10 1.5 = 13.5/13.5 ponderado base, ajustado a la baja en R2/R3/R8 por amenaza IA, posicion #3-4 y deuda neta. SBC VERIFICADA 9.9% del FCF -> regla dura NO aplica, R9 alto. Sin amplificacion (no es lider dominante #1/#2). Valoracion: descuento ~-58% sobre media historica es el angulo principal de oportunidad; clasificacion 'mixed' (de-rating/miedo predominante con deterioro moderado de margenes). Riesgo clave a vigilar: trayectoria del ASV organico y estabilizacion de margenes en proximos trimestres como prueba de que la tesis de disrupcion IA es exagerada."
+}

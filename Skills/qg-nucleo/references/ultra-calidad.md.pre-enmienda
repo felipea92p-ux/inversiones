@@ -1,0 +1,349 @@
+> ARCHIVO SELLADO PRE-ENMIENDA (Frontera F-1.0 · C1). NO VIGENTE.
+> Referencia histórica únicamente — no leer como método activo.
+
+# ULTRA CALIDAD — definición operacional, seis puertas binarias
+
+**Fecha:** 2026-07-19 · **Estado:** propuesta operativa para MÉTODO v0 · **Reemplaza:** nada (hoy el término no tiene definición)
+
+---
+
+## VEREDICTO — la definición en una frase
+
+> **Ultra calidad no es un nivel de rentabilidad: es una DURACIÓN restante, probada hacia atrás y mecánicamente explicada hacia adelante.**
+>
+> Una empresa **muy buena** gana mucho dinero hoy.
+> Una empresa de **ultra calidad** ya demostró ganarlo durante diez años sin un solo año malo, lo demostró atravesando al menos un shock **sin dejar de invertir**, tiene un mecanismo nombrado —uno de los siete poderes, no un adjetivo— cuya **fecha de caducidad estimada cae fuera de los próximos diez años**, y puede **absorber capital nuevo** a ese mismo retorno durante ese plazo.
+
+**Estructura de la decisión: SEIS PUERTAS BINARIAS. Todas SÍ, o no es ultra.**
+No hay promedio, no hay compensación, no hay 5,8/6. **5 de 6 = "muy buena empresa"** — que no es un insulto, es otra celda de la matriz, con otro MoS y otro peso máximo.
+
+La razón de que sean puertas y no puntos es exactamente la lección de la refundación del 19-07: *cada uno de los cinco contraejemplos de este documento habría sacado un score alto en el sistema viejo, y cada uno falla una puerta binaria concreta que un promedio habría borrado.*
+
+---
+
+## 0. Por qué "ultra calidad" es el término más peligroso del método
+
+Tres decisiones cuelgan de esta palabra, y las tres son irreversibles en la práctica:
+
+1. **MoS de 18%** frente a más para el resto → autoriza pagar más caro.
+2. **Entrada al núcleo** → autoriza convicción y permanencia.
+3. **Peso hasta el 25%** → autoriza que un solo error cueste 12,5% de la cartera en un −50%.
+
+Un término con tres poderes y cero definición no es un criterio: es una licencia. El mecanismo de degeneración del sistema anterior no fue que las reglas fueran malas — fue que **la etiqueta que abría las puertas se otorgaba por sensación y se justificaba después**. Cualquier definición que se pueda satisfacer con adjetivos ("marca fuerte", "negocio increíble", "líder claro") reproduce el mismo mecanismo con vocabulario nuevo.
+
+De ahí el diseño: **cada puerta se responde con un número extraído de un documento concreto, con cita**, y cada puerta tiene que poder responderse NO.
+
+---
+
+## 1. La tasa base — cuán raro es lo ultra, con números
+
+Esto fija la calibración. Si la lista de "ultra" de Felipe tiene doce nombres, el problema no es que el mundo mejoró.
+
+| Dato | Cifra | Fuente | Etiqueta |
+|---|---|---|---|
+| Empresas con ROIC > 20% (corte transversal, universo global ~55.000) | **≈ 5,5%** | screening público (financecharts/visioninvesting) | INFERENCIA (fuente secundaria) |
+| Empresas que empiezan en el quintil superior de ROIC y siguen ahí 9 años después | **41%** | Mauboussin, *Death, Taxes and Reversion to the Mean*, CS 2007 — 1.000 no financieras, 1997-2006 | INFERENCIA (resumen secundario, no el PDF original) |
+| Empresas que se mantienen en el quintil superior **TODOS y cada uno** de los 9 años | **< 4% del universo** | misma fuente | INFERENCIA |
+| Empresas del Russell 3000 con ROIC en quintil superior **diez años seguidos**, 1990-2022 | **469 ocurrencias en 32 años; 34 empresas en 2022** | Morgan Stanley Counterpoint Global, *ROIC and the Investment Process* | INFERENCIA (no pude abrir el PDF: 403) |
+| Empresas de ~50.000 cotizadas OCDE que pasan las 10 reglas de Seilern | **menos de 60** (≈0,12%) | Seilern, *Only the Best Will Do* | INFERENCIA |
+
+**El dato que gobierna todo el criterio: 41% → menos de 4%.**
+La diferencia entre esas dos cifras no es un umbral más alto: es cambiar el **promedio** por el **mínimo**. "Quintil superior de media en 9 años" describe al 41%. "Quintil superior en los nueve años, incluido el peor" describe a menos del 4%.
+
+> **Ultra calidad = la empresa que se define por su PEOR año, no por su año medio.**
+> Ese es el corte categórico entre "muy buena" y "ultra". Todo lo demás en este documento son formas verificables de decir eso mismo.
+
+**Cuota dura derivada de la tasa base:** si en algún momento la lista de etiquetas ULTRA vivas de Felipe supera **6 nombres simultáneos**, la definición se diluyó. No se discute caso por caso: se revisa la lista entera. (Núcleo son 3-9 posiciones; el tope de 6 muerde a propósito.)
+
+---
+
+## 2. LAS SEIS PUERTAS
+
+Se responden **en este orden fijo**, y el orden es un candado anti-halo: primero lo mecánico e imposible de maquillar, al final lo narrativo. La puerta donde entra el entusiasmo (G6, el mecanismo) se escribe **después** de que los números estén congelados, y **antes** de mirar el precio.
+
+---
+
+### G1 — PERSISTENCIA DE ROIC: el peor año, no el promedio
+
+**Pregunta:** ¿ganó retornos extraordinarios los diez años, incluido el peor?
+
+**Test (10 ejercicios de 10-K / 20-F):**
+- `min(ROIC_t) ≥ 20%` **y** `min(ROIC_t) ≥ 2 × WACC` — **mínimo, no media, no mediana.**
+- Se calcula en **dos versiones** y ambas deben pasar:
+  - **Tradicional**: NOPAT / (deuda + patrimonio − caja excedente).
+  - **Ajustada por intangibles**: capitalizando I+D a 5 años y el gasto de marca/S&M a 3 años. (Si la ajustada es mucho peor que la tradicional, la empresa está gastando en el P&L lo que debería estar creando como activo — o al revés.)
+- **Test del goodwill:** recalcular ROIC **incluyendo** el goodwill de adquisiciones. Si con goodwill cae por debajo del 15%, el retorno alto es un artefacto contable de comprar barato en libros: es un *roll-up*, no un negocio. → NO ultra.
+- **Test del apalancamiento:** ROE alto con ROIC mediocre = deuda, no calidad. Se decide con ROIC siempre.
+
+**Falla si:** un solo año por debajo del umbral sin explicación externa verificable; o el retorno se sostiene sólo excluyendo goodwill; o la serie tiene menos de 10 años.
+
+**Por qué es verificable:** todo sale de los estados financieros auditados. No hay opinión.
+
+---
+
+### G2 — PISTA DE REINVERSIÓN: cuánto capital puede tragar, a qué retorno, durante cuántos años
+
+Esta es la puerta que separa a Coca-Cola 1998 de Amazon 2005 — la tensión que MÉTODO v0 dejó abierta en el candado anti-sobrepago.
+
+**Test:**
+1. **ROIIC medido (no afirmado):** `ΔNOPAT(t → t+5) / ΔCapital Invertido(t−1 → t+4)` ≥ **15%**, con desfase de un año. Ventanas rodantes de 5 años sobre los últimos 10.
+2. **Tasa de reinversión:** `ΔCapital Invertido / NOPAT acumulado` ≥ **25%** en los últimos 5-10 años.
+   *Referencia real: Costco 2014-2024 → capital invertido 13,6 → 28,4 bn USD sobre NOPAT acumulado 44,7 bn = **33%**. [INFERENCIA, fuente secundaria]*
+3. **Reconciliación obligatoria:** `g_implícita = tasa_reinversión × ROIIC` frente al crecimiento real de NOPAT. Si el crecimiento real supera mucho a la implícita, **el crecimiento no viene de reinvertir**: viene de precio, de M&A, o de apalancamiento operativo que se agota. Hay que nombrar de dónde viene, con número. Sin reconciliación → NO ultra.
+4. **Pista futura en unidades del negocio, no en dólares de TAM:** tiendas actuales vs. tiendas posibles; penetración % del mercado direccionable con la definición del propio filing; backlog contratado; base instalada × tasa de adopción. **Con un número de años.** "El mercado es enorme" = NO.
+5. La pista debe cubrir **≥ 10 años** al ritmo de absorción actual.
+
+**Y aquí el corte que MÉTODO v0 necesita — dos especies distintas de ultra:**
+
+| Especie | Definición | Consecuencia operativa |
+|---|---|---|
+| **ULTRA-R** (reinvertidora) | 6/6 puertas **y** puede absorber ≥ 25-30% del NOPAT anual a ≥15% durante ≥10 años | MoS 18% para abrir · tope 25% · **exenta del techo de 30-35× owner earnings** (la pista escrita ES la excepción que ya prevé el método) |
+| **ULTRA-C** (de caja) | 6/6 puertas pero absorbe < 25% del NOPAT a alto retorno; devuelve el resto | MoS 18% para abrir · **tope 15%** · **el techo duro de 30-35× SIGUE aplicando sin excepción** |
+
+Confundir las dos es exactamente el error de Coca-Cola 1998: negocio ultra, pista agotada, múltiplo de reinvertidora. 14 años para recuperar máximos. **La calidad era real; la clasificación era falsa.**
+
+---
+
+### G3 — PODER DE FIJACIÓN DE PRECIOS: elasticidad medida, no margen observado
+
+**El error estándar:** deducir poder de precios del margen bruto alto. Un margen alto puede ser mezcla de producto, escala, o cosecha del moat.
+
+**El poder de precios sólo está demostrado cuando se observa una elasticidad: subió el precio Y el volumen no cayó.** Dos vías de prueba, y sólo dos:
+
+**Vía A — se ejerció (elasticidad directa):**
+- **Consumo / industrial:** descomposición precio/mix vs. volumen del MD&A. Exigir **≥5 años en que precio/mix acumulado ≥ IPC + 100 pb Y volumen acumulado ≥ 0**.
+- **Suscripción / software:** NRR ≥ 110% divulgado **y** retención bruta ≥ 95% — subida de precio sin churn.
+- **Membresía / marketplace:** el experimento natural más limpio que existe — subir la cuota y medir la renovación.
+  *Costco 2024: Gold Star 60 → 65 USD, Executive 120 → 130 (primera subida en 7 años) con renovación EE.UU./Canadá ~**92,2%** y un impacto de **−0,1 pp** en renovación. [INFERENCIA, fuente secundaria; verificar contra 10-K]*
+- **Sin descomposición divulgada — el experimento natural de 2021-2023:** margen bruto FY2019 vs FY2023 **plano o al alza**.
+  *Base rate que lo hace discriminante: McKinsey sobre 29 grandes empresas de consumo global — las subidas de precio cubrieron 70-180% del aumento de COGS y aun así el margen bruto cayó **100-300 pb**. Lo normal fue perder margen. Haberlo mantenido es señal, no ruido. [INFERENCIA]*
+
+**Vía B — se posee y se decide NO ejercerlo (economías de escala compartidas, Sleep):**
+Se acepta **sólo** con estas tres pruebas juntas: (a) precio real bajado deliberadamente y documentado; (b) cuota de mercado y volumen unitario al alza durante ese periodo; (c) un mecanismo de captura no-precio con elasticidad medida (cuota de membresía, tasa de adopción). Costco pasa por aquí, no por A.
+
+**Falla si:** el precio sube y el volumen cae de forma sostenida. Eso no es poder de precios — **es cosecha del moat**, y tiene fecha de vencimiento. (Ver contraejemplo Kraft Heinz.)
+
+---
+
+### G4 — RESISTENCIA EN RECESIÓN: se puntúa el MOAT, no el P&L
+
+**Aquí es donde casi todas las definiciones se equivocan, y el error es caro en las dos direcciones.**
+
+Testear la suavidad de los beneficios excluye a ASML e incluye a Kraft Heinz. La recesión no sirve para ver si los beneficios cayeron —eso depende del ciclo del sector— sino para ver **si el foso se ensanchó o se estrechó mientras el mundo se quemaba**.
+
+**Ventana obligatoria: FY2008-2009. Complementarias: FY2020 y el shock de tipos 2022-23.**
+
+**Test (los cinco, todos):**
+1. **Cuota de mercado**: plana o al alza a través del valle (dato del filing o fuente tercera citada en el filing).
+2. **Margen bruto**: caída < 500 pb y recuperación completa en ≤ 8 trimestres.
+3. **Inversión en I+D y en marca, en moneda ABSOLUTA: no se recortó.** Este es el discriminante más fuerte de todo el documento.
+   *ASML 2009: ventas −46,0% (2.954 → 1.596 M€), pérdida neta de 151 M€ (−9,5% de ventas) — y sostuvo I+D en ~115-118 M€ **por trimestre** (≈29% de unas ventas colapsadas) financiando EUV justo en el año de la pérdida. [HECHO — press release de resultados FY2009, pendiente de cotejo contra el 20-F]*
+4. **Sin dilución de rescate**: nada de ampliación de capital forzada, dispensa de covenants, ni recorte de dividendo por presión financiera.
+5. **Recuperó su NOPAT pico pre-crisis en ≤ 12 trimestres.**
+
+**Contexto cuantitativo para calibrar la caída (no para aprobar/suspender):** el beneficio del S&P 500 cayó **~57% pico a valle en 2007-09**, y **~26% de media en recesiones ordinarias (1990, 2001, 2020)** [INFERENCIA, fuentes secundarias]. La caída del P&L de la empresa frente a esa referencia **es información sobre el TAMAÑO de la posición, no sobre la calidad del negocio**.
+
+**Regla del no probado:** una empresa que no existía cotizada en 2008-09 sólo puede alcanzar **"ULTRA PRESUNTA"**. 2020 fue una V de dos meses; no es un shock. Ultra presunta: MoS mínimo 25%, tope 10% de cartera, sin acceso al núcleo hasta atravesar una recesión real. Esto excluye a casi toda la cohorte de salidas a bolsa post-2010 — es incómodo y es correcto.
+
+---
+
+### G5 — CONVERSIÓN DE CAJA: el beneficio existe o es una opinión
+
+No es contabilidad menor. Sloan (1996): el componente de devengo del beneficio es **menos persistente** que el componente de caja, y una estrategia larga en bajo devengo / corta en alto devengo rindió **~12% anual** [INFERENCIA, resumen de literatura]. Es una anomalía de grado académico, no una manía de auditor.
+
+**Test:**
+- **FCF / Beneficio neto ≥ 90%** de media a 10 años, **y ≥ 70% en al menos 8 de los 10 años individuales.**
+- **CFO / EBIT ≥ 90%** cada año, sin ningún año por debajo de 70%. *(Terry Smith exige CFO ≥ 95% del beneficio operativo, alto y estable — misma idea.)*
+- **Ratio de devengo de Sloan** = `(Beneficio neto − CFO) / Activos totales medios`: media a 10 años ≤ 5%, ningún año > 10%.
+- **FCF después de SBC completa.** Trampa moderna: media docena de "máquinas de FCF" convierten sólo porque la compensación en acciones no es caja. Se mide **acciones diluidas en circulación**, no dólares de recompra: una recompra que sólo compensa dilución no devuelve nada.
+- **Brecha tasa fiscal contable vs. caja fiscal pagada**: brecha grande y persistente = beneficio adelantado.
+- **Señal de manipulación:** volatilidad del BPA reportado **menor** que la volatilidad del CFO. Un beneficio más suave que la caja que lo produce no es estable — está gestionado. (Ver contraejemplo GE.)
+
+---
+
+### G6 — MECANISMO DEL MOAT Y SU FECHA DE CADUCIDAD
+
+La puerta más importante y la más abusada. **"Marca fuerte" no es un mecanismo. "Líder del sector" no es un mecanismo. "Efecto red" sin medir el multi-homing no es un mecanismo.**
+
+**Entregable obligatorio: una página, cinco campos, escrita ANTES de mirar el precio.**
+
+1. **El poder, nombrado como uno de los siete de Helmer** (escala, red, contraposicionamiento, costes de cambio, marca, recurso acorralado, poder de proceso) o un híbrido explícito. Uno principal. Si hacen falta cuatro para que la historia cierre, no hay ninguno.
+2. **La unidad en que opera**: ¿por cliente? ¿por región? ¿por SKU? ¿por nodo tecnológico? (Un moat que opera por región no protege la expansión internacional — error clásico.)
+3. **Quién paga el coste de cambiar y cuánto, en moneda.** "Migrar de esta plataforma cuesta X millones y 18 meses" — con fuente. Si no se puede cuantificar, no hay coste de cambio: hay costumbre.
+4. **LA FECHA DE CADUCIDAD ESTIMADA.** Todo mecanismo tiene una. Se escribe como fecha o como condición fechada:
+   - *Recurso acorralado / patente* → **fecha literal en el filing**.
+   - *Poder de proceso / ventaja técnica* → **se re-corre en cada ciclo tecnológico** (la vida media más corta de los siete).
+   - *Escala en manufactura* → muere cuando la base de competencia se mueve a otra capa del stack.
+   - *Costes de cambio* → mueren en la siguiente migración de arquitectura (on-prem → cloud → agentes).
+   - *Efectos de red* → mueren con el multi-homing; se mide como solapamiento de usuarios entre plataformas.
+   - *Marca* → muere con el cambio de distribución (marca blanca, retail media, DTC).
+5. **El observable que diría que el reloj arrancó** → va a `gates.md` como gatillo fechado.
+
+**LA REGLA DEL HORIZONTE — las dos formas de fallar:**
+- Si la caducidad estimada cae **dentro de 10 años** → **NO es ultra calidad**, por buenos que sean los números de hoy.
+- Si **no se puede nombrar ninguna caducidad** → el trabajo no está hecho → **tampoco es ultra**.
+
+La respuesta válida es: *"el mecanismo es X, su condición de caducidad es Y, la fecha más temprana plausible es Z (>10 años), y el observable que la adelantaría es W."* Ese formato es el antídoto contra los adjetivos: obliga a que el moat sea falsable.
+
+---
+
+## 3. Muy buena vs. Ultra — la tabla que resuelve el uso diario
+
+| | Muy buena empresa | **Ultra calidad** |
+|---|---|---|
+| ROIC | alto **de media** | alto en el **peor** año, 10/10 |
+| Horizonte de la afirmación | el presente | la **duración restante** |
+| Moat | descrito | **nombrado como poder + fecha de caducidad > 10 años** |
+| Precio | margen alto | **elasticidad medida** (o transferencia deliberada probada) |
+| Recesión | sobrevivió | **invirtió más mientras caía** y ganó cuota |
+| Caja | convierte bien | convierte ≥90% **todos los años** + devengo bajo |
+| Reinversión | genera caja | **absorbe capital a ≥15% durante ≥10 años** (ULTRA-R) |
+| Frecuencia en el mundo | ~5% del universo | **<4%, en la práctica <0,2%** |
+| **MoS mínimo** | **30%** | **18%** |
+| **Peso máximo** | **8%** (cantera) | **25% (ULTRA-R) / 15% (ULTRA-C)** |
+| **Núcleo** | no | sí |
+| **Techo 30-35× OE** | aplica | exento sólo ULTRA-R con pista escrita |
+
+**Matriz revisada para MÉTODO v0 §MoS:**
+
+| Clasificación | MoS abrir | MoS cargar | Peso máx. | Techo múltiplo |
+|---|---|---|---|---|
+| ULTRA-R (6/6 + pista ≥10a) | 18% | 30% | 25% | exento con pista escrita |
+| ULTRA-C (6/6, sin pista) | 18% | 30% | 15% | 30-35× duro |
+| ULTRA PRESUNTA (sin recesión probada) | 25% | 35% | 10% | 30-35× duro |
+| Muy buena (5/6) | 30% | 40% | 8% | 25× duro |
+| < 5/6 | — | — | 0 | — |
+
+---
+
+## 4. CONTRAEJEMPLOS — las que todo el mundo llamó ultra calidad
+
+*El hilo común: **las cinco habrían sacado un score alto en el sistema viejo, y las cinco fallan una puerta binaria concreta que un promedio habría borrado.** Ese es el argumento entero a favor de puertas y en contra de puntos.*
+
+### 4.1 General Electric (≈1995-2017) — falla **G5**
+**Por qué parecía ultra:** AAA, la empresa más admirada del mundo, más de cien trimestres de BPA suave y creciente, el manual de gestión que copiaba todo el planeta.
+**Lo que era:** los beneficios llegaban de GE Capital, una caja negra financiera apalancada vestida de industrial. La SEC (acuerdo de 2009, multa de 50 M USD) documentó contabilidad de coberturas indebida, ventas de locomotoras registradas en 2002-03 que aún no habían ocurrido (**370 M USD de ingresos adelantados**) y un cambio contable en repuestos de motores que aumentó el beneficio de 2002 en **585 M USD**. [INFERENCIA — resumen del litigio SEC; verificar contra el propio release]
+**LA SEÑAL QUE LA DELATABA, disponible en tiempo real:**
+> **Un BPA reportado menos volátil que el flujo de caja operativo que lo produce.** Y `CFO − capex` industrial crónicamente por debajo del beneficio neto mientras el beneficio subía en línea recta.
+Una empresa que nunca falla la estimación por más de un centavo durante años no es estable: **es gestionada**. G5 (ratio de devengo + estabilidad de conversión año a año, no en media) lo mata sin necesidad de entender GE Capital.
+
+### 4.2 Kraft Heinz (2015-2019) — falla **G3** (y G2)
+**Por qué parecía ultra:** Berkshire + 3G, las mejores marcas de alimentación del mundo, márgenes en expansión rápida tras la fusión.
+**Lo que pasó:** febrero 2019, deterioro de **15.400 M USD** en intangibles de Kraft y Oscar Mayer, recorte del dividendo del 36%, citación de la SEC; la acción **−27% en un día**, 16.000 M USD de capitalización evaporados.
+**LA SEÑAL QUE LA DELATABA, años antes y visible en el 10-K:**
+> **Márgenes subiendo mientras el volumen caía y el soporte de marca se recortaba.** Publicidad en **2,2% de ventas (Heinz) y 2,5% (Kraft)** frente a comparables que gastaban **2-3 veces más**. Goodwill + intangibles ≈ dos tercios del activo total. [INFERENCIA, fuentes secundarias]
+Eso no es poder de fijación de precios: **es cosecha del moat** — convertir capital de marca acumulado en margen presente. G3 lo mata porque exige volumen ≥ 0 mientras el precio sube. G2 lo mata porque la reinversión declarada no reconcilia con nada.
+
+### 4.3 Nokia (2007-2011) — falla **G6**
+**Por qué parecía ultra:** ~**40% de cuota global** de teléfonos móviles en 2008, el fabricante más admirado de Europa, beneficios récord.
+**Lo que pasó:** la cuota empezó a caer en el segundo semestre de 2008; **en 2011 el grupo entero estaba en pérdidas.**
+**LA SEÑAL QUE LA DELATABA:**
+> **El mecanismo nombrado era escala en manufactura y distribución —un poder de coste— mientras la base de competencia del sector se movía al software y al ecosistema.** Y el coste de cambio nunca fue cuantificable: no había ecosistema de aplicaciones, y en 2009 Nokia operaba **57 versiones incompatibles de su sistema operativo**. [INFERENCIA, literatura de casos]
+G6 la mata en su campo 2 (¿en qué unidad opera el poder?) y en su campo 4 (¿qué lo haría irrelevante, y ya está pasando?). El iPhone se lanzó en **2007** — la respuesta al campo 4 ya estaba en las tiendas cuando la cuota tocaba máximos.
+
+### 4.4 Intel (≈2012-2020) — falla **G6** (caducidad dentro del horizonte)
+**Por qué parecía ultra:** ROIC >20% sostenido, cuota dominante en CPU de servidor y PC, tesorería inmensa, el foso "obvio" de la industria.
+**Lo que pasó:** el liderazgo de proceso se perdió frente a TSMC; el cadencia de nodo pasó de 2 a ~2,5 años y colapsó en 10nm.
+**LA SEÑAL QUE LA DELATABA — publicada por la propia empresa:**
+> **Julio de 2015: Intel confirma el retraso de 10nm a 2017** y estira 14nm con una familia extra (Kaby Lake); las compras de herramientas para alto volumen ya se habían deslizado de marzo a diciembre de 2015. [INFERENCIA, prensa técnica de la época + comunicaciones de la compañía]
+> Combinación fatal: **intensidad de capex subiendo mientras la cadencia de nodo se alarga.**
+G6 lo mata por construcción: el **poder de proceso es el de vida media más corta de los siete** — es una ventaja en una carrera que se vuelve a correr cada dos años. Un mecanismo que se re-disputa cada 24 meses **no puede tener una caducidad más allá de 10 años**, y por tanto Intel nunca debió llevar la etiqueta ultra, ni siquiera con ROIC del 25%.
+
+### 4.5 IBM (2011-2018) — falla **G2**
+**Por qué parecía ultra:** la compró Buffett citando explícitamente la "hoja de ruta" de la dirección; ROIC alto, BPA creciente, recompras masivas.
+**Lo que pasó:** ingresos cayendo interanualmente **22 trimestres consecutivos**; **107.000 M USD de ventas en 2011 → 79.000 M en 2017**, con el BPA sostenido por ~**47.000 M USD** de recompras (2012-3T2016) y fiscalidad. [INFERENCIA, fuentes secundarias]
+**LA SEÑAL QUE LA DELATABA:**
+> **Un objetivo de BPA publicado como estrategia corporativa ("al menos 20 USD de BPA para 2015").** Cuando la meta declarada de la dirección es un número *por acción* en vez de un resultado *del negocio*, el número por acción se entrega y el negocio no.
+G2 lo mata mecánicamente: `g = tasa de reinversión × ROIIC` no reconcilia con nada — el crecimiento del BPA venía del denominador. La reconciliación obligatoria del punto 3 de G2 lo habría marcado en 2012.
+
+### 4.6 Grado fraude (mención breve, mismo test) — Valeant, Wirecard
+Ambas caen en **G5** por el mismo sitio: beneficio contable creciente con conversión de caja deteriorándose y crecimiento adquirido presentado como orgánico. El test de devengo de Sloan no requiere sospechar de nadie — sólo restar.
+
+---
+
+## 5. TEST DE FRONTERA — los casos difíciles que la definición clasifica bien
+
+### 5.1 PRINCIPAL — **ASML en 2009: ULTRA (correcto)**
+**Por qué es el caso más duro:** en 2009 ASML tuvo ventas de **1.596 M€ frente a 2.954 M€ en 2008 (−46,0%)** y **pérdida neta de 151 M€ (−9,5% de ventas)**. Su caída de P&L fue **peor** que la del índice en la misma ventana. Cualquier definición que puntúe la resistencia en recesión sobre el P&L —beneficios estables, ventas defensivas, "no cíclica"— **clasifica a ASML como no-ultra en 2009**. Habría sido probablemente el error de clasificación más caro disponible en veinte años.
+
+**Mi definición la clasifica ULTRA porque G4 se puntúa sobre métricas del moat, no sobre el P&L:** a través del valle ASML **mantuvo I+D en ~115-118 M€ por trimestre (~29% de unas ventas colapsadas)**, sostuvo la hoja de ruta con sus clientes, ganó cuota, y salió del valle con el monopolio de EUV que estaba financiando **durante el año de la pérdida**.
+
+**La regla que el caso obliga a escribir, y que vale para todo el método:**
+> **Un colapso cíclico de ingresos acompañado de un AUMENTO de la intensidad inversora y de la cuota no es evidencia contra el moat: es la evidencia más fuerte a favor.** Prueba que la empresa puede gastar cuando sus competidores no pueden — que es literalmente el mecanismo por el que un foso se ensancha.
+> Y la ciclicidad del P&L sigue siendo información real: **va al tamaño de la posición, no al veredicto de calidad.**
+
+*Esto resuelve además la asunción #4 abierta en MÉTODO v0: la protección contra el drawdown de una ULTRA cíclica se hace bajando el peso, no bajando la etiqueta.*
+
+### 5.2 SECUNDARIO A — **Costco: ULTRA (correcto), por la vía B de G3**
+**Por qué es duro:** margen bruto ~**11%** y una política deliberada de **no** subir precios de mercancía. Un test ingenuo de poder de precios —expansión de margen bruto, precio por encima del IPC— dictamina que Costco no tiene ninguno. Es la empresa favorita de Nick Sleep y una de las tres de Nomad.
+**Mi definición la pasa** por la vía B: transferencia deliberada de las economías de escala, probada con la elasticidad medida donde sí captura — **cuota +8%/+8,3% en 2024 (60→65 / 120→130 USD), primera subida en siete años, con renovación ~92,2% e impacto de −0,1 pp** — y con la pista de G2 confirmada: **tasa de reinversión ~33%** del NOPAT acumulado 2014-2024.
+**La regla que obliga:** *no ejercer* un poder de precios, probado con una elasticidad medida en otro punto del modelo, **es** poder de precios. Lo que nunca se acepta es la afirmación sin elasticidad de ningún tipo.
+
+### 5.3 SECUNDARIO B — la frontera inversa: **Novo Nordisk en 2023: NO ULTRA (correcto)**
+Este es el caso que demuestra que la definición se gana el sueldo, porque dice NO a la acción de calidad más admirada del mundo en el momento de máxima aclamación, **por una sola puerta y con evidencia disponible en 2023**.
+
+En 2023 Novo pasaba **G1** (ROE >60%, márgenes ~33%), **G5**, **G3** y **G4**, y discutiblemente **G2** (expansión de capacidad enorme). 5 de 6. Todo inversor de calidad del planeta la llamaba ultra.
+
+**Falla G6, y sólo G6:** el mecanismo es un **recurso acorralado con fecha literal** — patentes de compuesto de semaglutida expirando ~**2031-2032**, es decir **dentro del horizonte de diez años** —, con concentración en una sola molécula y un competidor con una molécula medida como superior ya en el mercado.
+Como **las puertas no se compensan**, 5/6 = muy buena empresa → MoS 30%, peso máximo 8%, fuera del núcleo.
+
+**Lo que pasó después:** ~**−75% desde el pico de junio de 2024** (de ~640.000 a menos de 160.000 M USD de capitalización); primera caída de ingresos guiada de su historia moderna para 2026 (−5 a −13%); CagriSema **no** alcanzó la no-inferioridad frente a tirzepatida en REDEFINE-4 (23% vs 25,5% de pérdida de peso); recorte de precio del 60-80% en el canal público estadounidense; y —el detalle que resume el caso— **la patente de compuesto de semaglutida caducó en Canadá en enero de 2026 por no pagar una tasa de mantenimiento de ~250 CAD**. [INFERENCIA, fuentes secundarias de prensa; verificar los hechos que sostengan cualquier decisión]
+
+**La lección operativa:** una fecha de caducidad escrita en el propio filing es el dato más duro que existe sobre un moat, y es el que la euforia hace invisible. G6 no requiere predecir nada — sólo leer la fecha y compararla con el horizonte.
+
+---
+
+## 6. CANDADOS ANTI-DEGENERACIÓN
+
+La definición sola no impide que Felipe llame ultra a lo que le guste. Los candados sí.
+
+1. **CUOTA.** Máximo **6 etiquetas ULTRA vivas simultáneamente**. Si hay una séptima candidata, hay que **degradar una primero, por escrito**. La tasa base (<4% del universo; <60 de 50.000 en Seilern) es el argumento; no se negocia caso por caso.
+2. **CITA O NO.** Cada puerta = un número + documento + página. **Una puerta sin cita es un NO, no un "pendiente".** (Coherente con la regla ya vigente: dato clave sin verificar → cifra degradada → veredicto máximo VIGILAR.)
+3. **ORDEN FIJO ANTI-HALO.** G5 → G1 → G3 → G4 → G2 → G6. Lo mecánico primero; **G6, la puerta narrativa, se escribe al final, con los números ya congelados y ANTES de mirar el precio.**
+4. **LA ETIQUETA CADUCA.** Re-certificación anual contra las mismas seis puertas. Si una puerta pasa de SÍ a NO, la empresa **se degrada a "muy buena" ese mismo día** y el peso baja al tope de muy buena en un plazo escrito de antemano. La fecha de caducidad del moat entra en `gates.md` como gatillo fechado.
+5. **EL DELATOR.** Para cada candidata a ultra, **nombrar a cuál de los cinco contraejemplos se parece más y responder por qué no es ese.** Analogía forzada al fracaso: es lo que convierte una tasa base en algo personal.
+6. **NO DECIDIBLE ES UNA SALIDA VÁLIDA.** Si no hay diez años de filings, o no hay recesión atravesada, el veredicto es **ULTRA PRESUNTA** o **no decidible** — nunca ultra por analogía con otra empresa.
+
+---
+
+## 7. LA FICHA — una página, la única forma válida de otorgar la etiqueta
+
+```
+EMPRESA:                          FECHA:            HORIZONTE: 10 años
+─────────────────────────────────────────────────────────────────────
+G5 CAJA        FCF/BN 10a: ___%  peor año: ___%  devengo Sloan: ___%
+               FCF post-SBC: ___  σ(BPA) vs σ(CFO): ___
+               → SÍ / NO      [doc, pág.]
+G1 ROIC        min 10a: ___%  vs WACC: ___×  c/goodwill: ___%
+               ajustado intangibles: ___%
+               → SÍ / NO      [doc, pág.]
+G3 PRECIO      Vía A: precio/mix acum ___% vol acum ___% (5a)
+               Vía B: transferencia ___ + elasticidad medida ___
+               MB FY19 → FY23: ___ pb
+               → SÍ / NO      [doc, pág.]
+G4 RECESIÓN    Ventana: ____  cuota: ___  MB: ___pb  I+D abs: ___
+               dilución: ___  trimestres a NOPAT pico: ___
+               → SÍ / NO / NO PROBADA      [doc, pág.]
+G2 PISTA       ROIIC 5a: ___%  tasa reinv: ___%
+               g_implícita ___% vs g_real ___% → diferencia explicada: ___
+               pista en unidades: ___ años
+               → SÍ / NO → ESPECIE: ULTRA-R / ULTRA-C   [doc, pág.]
+G6 MECANISMO   Poder (Helmer): ___  Unidad: ___
+               Coste de cambio cuantificado: ___
+               CADUCIDAD ESTIMADA: ____  (>10 años? SÍ/NO)
+               Observable que arranca el reloj: ___ → gates.md
+               → SÍ / NO
+─────────────────────────────────────────────────────────────────────
+DELATOR: se parece a ______ ; no lo es porque ______
+VEREDICTO: ULTRA-R / ULTRA-C / ULTRA PRESUNTA / MUY BUENA / NO
+Etiquetas ULTRA vivas tras esta: ___ / 6
+```
+
+---
+
+## 8. Honestidad sobre las fuentes de este documento
+
+- Marcados **INFERENCIA** los datos que vienen de resúmenes secundarios (Mauboussin vía terceros — el PDF de Morgan Stanley devolvió 403 y los de Credit Suisse son imágenes; Costco, Kraft Heinz, Intel, IBM, Nokia, Novo vía prensa y literatura de casos).
+- El único marcado **HECHO** con documento localizado es el de ASML FY2009 (press release de resultados), y aun así debe cotejarse contra el 20-F antes de sostener una decisión.
+- Coherente con la disciplina vigente: **ninguna de estas cifras basta por sí sola para un knock-out o un veredicto de compra**. Sirven para calibrar el criterio; para aplicarlo hace falta el filing.
+- Pendiente de verificación primaria si este criterio se adopta: (a) el número exacto de la persistencia de ROIC en el paper original de Mauboussin, (b) los umbrales de conversión de caja de Terry Smith en el *Owner's Manual*, (c) las cifras de renovación de Costco en el 10-K.

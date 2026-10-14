@@ -1,0 +1,101 @@
+{
+ "ticker": "APP",
+ "name": "AppLovin Corporation",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 469.39,
+ "market_cap_usd_b": 157.69,
+ "fwd_pe": 27,
+ "fwd_pe_5y_avg": 37,
+ "pe_prem_disc_pct": -27,
+ "peg": 0.73,
+ "last_q": {
+  "period": "Q1 2026 (ended Mar 31, 2026)",
+  "revenue": "$1,842.4M",
+  "rev_yoy_pct": 59,
+  "op_margin_pct": 78.2,
+  "eps_gaap": "$3.56",
+  "eps_adj": "n/a (company does not report adjusted EPS; reports Adj. EBITDA $1,556.9M, 85% margin)"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 31, 2025), continuing operations (advertising-only after Apps divestiture)",
+  "revenue": "$5,480.7M",
+  "organic_growth_pct": 70,
+  "roic_pct": null,
+  "fcf": "$3,951.9M",
+  "fcf_margin_pct": 72.1
+ },
+ "sbc_pct_revenue": 3.8,
+ "sbc_pct_fcf": 5.3,
+ "net_debt_usd_b": 1.09,
+ "nd_ebitda": 0.24,
+ "net_cash": false,
+ "guidance_fy": "No full-year 2026 guidance issued. Q2 2026 guidance: revenue $1,915M-$1,945M (~+57% YoY at midpoint), Adjusted EBITDA $1,615M-$1,645M (84-85% margin). This is a PROJECTION by management.",
+ "pct_off_52w_high": -37,
+ "pct_off_ath": -36,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "guidance_fy",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "net_cash"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "drop_classification",
+  "last_q.eps_adj",
+  "last_fy.roic_pct"
+ ],
+ "sources": [
+  {
+   "label": "AppLovin IR — Q1 2026 Financial Results press release (quarter ended Mar 31, 2026)",
+   "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-First-Quarter-2026-Financial-Results/default.aspx",
+   "date": "2026-05"
+  },
+  {
+   "label": "AppLovin IR — Q4 & Full Year 2025 Financial Results press release",
+   "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx",
+   "date": "2026-02"
+  },
+  {
+   "label": "SEC EDGAR — AppLovin Form 10-K FY2025 (filed Feb 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001751008/000175100826000010/app-20251231.htm",
+   "date": "2026-02-19"
+  },
+  {
+   "label": "StockAnalysis.com — APP statistics (price, market cap, fwd P/E, PEG, cash, debt)",
+   "url": "https://stockanalysis.com/stocks/app/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Macrotrends — APP stock price history (52-week high $745.61, ATH close $733.60)",
+   "url": "https://www.macrotrends.net/stocks/charts/APP/applovin/stock-price-history",
+   "date": "2026-06"
+  },
+  {
+   "label": "GuruFocus — APP forward P/E (29.45 cross-check)",
+   "url": "https://www.gurufocus.com/term/forward-pe-ratio/APP",
+   "date": "2026-06"
+  }
+ ],
+ "notes": "AppLovin is now a pure-play AI advertising company; FY2025 figures are CONTINUING OPERATIONS after the 2025 divestiture of its Apps (mobile games) business — so the 70% FY2025 and 59% Q1 2026 growth rates are clean advertising-segment growth (no separate 'organic vs inorganic' breakout; organic_growth_pct populated with reported total growth). The company does NOT report an adjusted/non-GAAP EPS — it guides on revenue and Adjusted EBITDA; eps_adj left as n/a. NET DEBT: total debt ~$3.85B (term loans) less cash ~$2.76B = ~$1.09B net debt (NOT net cash); ND/EBITDA ~0.24x — negligible leverage given $4.5B Adj. EBITDA. One aggregator (stockanalysis) labeled net debt as -$1.09B which appears to be a sign error; arithmetic confirms positive net debt. ROIC not directly disclosed; not computed (left null) — would be very high given ~$4.15B operating income on a light asset base. VALUATION: fwd P/E ~27x (stockanalysis) to ~29.5x (gurufocus); used 27. fwd_pe_5y_avg (~37) is ESTIMATED — APP only IPO'd Apr 2021 and its forward P/E history is extremely volatile (single digits in the 2022 bear market vs 50-70x+ in 2024-2025), so the 5-yr average and implied premium/discount are rough estimates, not from a primary source (Macrotrends P/E page was paywalled/HTTP 402). DROP CLASSIFICATION = fear_rotation: stock is ~37% off its 52-wk high ($745.61) / ~36% off ATH close ($733.60) yet fundamentals are ACCELERATING (Q1'26 rev +59%, FY25 +70%, ~78% op margin, ~72% FCF margin, strong Q2 guide, $1B buyback in Q1). The drawdown reflects momentum/multiple de-rating and rotation out of high-flyers plus lingering short-report sentiment, not business deterioration. SBC is very low for software (~3.8% of revenue / ~5.3% of FCF) — favorable for R9. Price as-of intraday Jun 22, 2026; market cap $157.7B."
+}

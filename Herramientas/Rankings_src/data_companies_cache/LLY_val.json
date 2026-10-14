@@ -1,0 +1,48 @@
+{
+ "ticker": "LLY",
+ "name": "Eli Lilly and Company",
+ "currency": "USD",
+ "price_verified": 1102.08,
+ "price_source": "StockAnalysis.com LLY overview (cross-checked vs Yahoo/Google Finance, both ~$1,100-1,102)",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.896,
+ "implied_mcap_b_usd": 987.5,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 7.5,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.5,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Normalized FY2026 owner-FCF base ~$21B/yr. Reported FY2025 FCF $8,972M is depressed by heavy growth capex ($7,841M vs OCF $16,813M) for incretin manufacturing buildout; subtracting 100% SBC ($626M) gives only ~$8.3B owner-FCF on FY2025, which badly under-credits the earnings inflection. With FY2026 guidance rev $82-85B (+27%) and non-GAAP EPS $35.50-37.00 (~$32B net income), FCF inflects sharply as capex/revenue normalizes from ~12% toward ~8-9% (OCF ~$30B - capex ~$8B - SBC ~$0.8B ~= $21B). DCF year-1 base = $19B (conservador) / $21B (base) / $22B (optimista).",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 633.52,
+   "prob": 0.38,
+   "note": "Base $19B owner-FCF, Phase1 CAGR 10%, declining to 2.5% terminal, WACC 7.5%. Reflects GLP-1 competition (Novo orals/CagriSema, biosimilar/oral entrants), pricing pressure, and patent-cliff dynamics late-decade. Pesimista razonable, no apocaliptico."
+  },
+  "base": {
+   "iv_per_share": 1037.93,
+   "prob": 0.47,
+   "note": "Base $21B owner-FCF, Phase1 CAGR 15%, declining to 3.0% terminal, WACC 7.5%. Lilly sustains incretin leadership (tirzepatide + orforglipron oral), capex normalizes, ~30% ROIC reinvestment continues."
+  },
+  "optimista": {
+   "iv_per_share": 1611.07,
+   "prob": 0.15,
+   "note": "Base $22B owner-FCF, Phase1 CAGR 20%, declining to 3.5% terminal, WACC 7.5%. Incretin TAM expansion (obesity/CKD/OSA/Alzheimer adjacencies), oral GLP-1 dominance, pipeline optionality."
+  }
+ },
+ "iv_dcf_weighted": 970.23,
+ "multiple_metric": "P/E adelantado (FY2026 non-GAAP EPS)",
+ "fwd_multiple_now": 29.5,
+ "fwd_multiple_5y_avg": 40.81,
+ "fair_multiple": 32,
+ "multiple_rationale": "5y avg fwd P/E of 40.8x reflects the pre/early-scale-up hypergrowth re-rating and is not a sustainable anchor as growth decelerates from triple-digit to high-double/low-double digits and as GLP-1 competition intensifies (Novo, oral entrants, future biosimilars). Applied a ~22% haircut to a fair_multiple of 32x, still a justified premium for a ~30% ROIC, high-growth, wide-moat franchise. iv_multiple = FY2026 non-GAAP EPS midpoint $36.25 x 32 = $1,160. (fwd_multiple_now 29.5x reported per StockAnalysis/JSON; on FY26 non-GAAP mid it is ~30.4x.)",
+ "iv_multiple": 1160,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 1084.09,
+ "structural_change": "No structural deterioration; structurally improving. LLY transformed by the incretin (GLP-1/GIP) franchise — tirzepatide (Mounjaro/Zepbound) plus oral orforglipron — driving +45% organic growth FY2025 and +56% YoY in Q1 2026, ~30% ROIC, 45% operating margins. Heavy growth capex is a deliberate capacity investment, not a margin problem. Main risks are competitive (Novo Nordisk, oral GLP-1 entrants, eventual biosimilars) and single-franchise concentration, not franchise decay. Multiple haircut is for growth normalization (cyclical/maturation), not structural impairment.",
+ "sanity_notes": "Price $1,102.08 verified across StockAnalysis ($1,102.08 close 6/22/26), Yahoo/Google (~$1,100). Diluted shares 0.896B (Q1 2026 10-Q wtd-avg diluted 895.9M); basic shares out 891.7M. Implied mcap 1102.08 x 0.896 = $987.5B, matches StockAnalysis $982.77B and ~$1T scale -> mcap_sanity_ok TRUE. All 4 IV outputs fall within the 30%-300% magnitude band (0.57x conservador, 0.94x base, 1.46x optimista, 1.05x multiple) -> no units/currency error. WACC 7.5% used (vs pure formula 4.3%+5.0%x0.5=6.8%) adding ~0.7% cushion for single-name pipeline/patent risk. Weights 0.40 DCF / 0.60 multiple: tilted to multiple because LLY is a proven, high-ROIC compounder where DCF under-credits decades of high-ROIC reinvestment, but not the 0.35/0.65 reserved for fully mature stable compounders given the high-growth, single-franchise concentration warrants meaningful DCF discipline. Reconciled IV $1,084 ~= 0.98x current price -> roughly fairly valued, not a bargain; quality is high but priced in. Net debt $35.24B subtracted in DCF."
+}

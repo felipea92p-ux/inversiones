@@ -1,0 +1,104 @@
+{
+ "ticker": "MCO",
+ "name": "Moody's Corporation",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 447.33,
+ "market_cap_usd_b": 78.1,
+ "fwd_pe": 26.4,
+ "fwd_pe_5y_avg": 38.44,
+ "pe_prem_disc_pct": -31.3,
+ "peg": 2.07,
+ "last_q": {
+  "period": "Q1 2026 (ended Mar 31, 2026)",
+  "revenue": "$2.079B",
+  "rev_yoy_pct": 8,
+  "op_margin_pct": 44.3,
+  "eps_gaap": "$3.73",
+  "eps_adj": "$4.33"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 31, 2025)",
+  "revenue": "$7.7B",
+  "organic_growth_pct": 9,
+  "roic_pct": null,
+  "fcf": "$2.575B",
+  "fcf_margin_pct": 33.4
+ },
+ "sbc_pct_revenue": 7.4,
+ "sbc_pct_fcf": 22,
+ "net_debt_usd_b": 5.89,
+ "nd_ebitda": 1.55,
+ "net_cash": false,
+ "guidance_fy": "FY2026 (PROYECCION direccion): Adjusted Diluted EPS $16.40-$17.00; GAAP Diluted EPS $16.00-$16.60; crecimiento ingresos high-single-digit %; Free Cash Flow $2.8-$3.0B; recompras ~$2.5B",
+ "pct_off_52w_high": -18.2,
+ "pct_off_ath": -18.2,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "guidance_fy"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "last_fy.roic_pct"
+ ],
+ "sources": [
+  {
+   "label": "Moody's Q1 2026 earnings release (8-K, SEC EDGAR / IR) via StockTitan summary",
+   "url": "https://www.stocktitan.net/sec-filings/MCO/8-k-moodys-corp-de-reports-material-event-ce5b3707785a.html",
+   "date": "2026-04-22"
+  },
+  {
+   "label": "Moody's Q1 2026 earnings release PDF (IR primary, image-based)",
+   "url": "https://s203.q4cdn.com/694693571/files/doc_financials/2026/q1/1Q26-Earnings-Release-vFINAL.pdf",
+   "date": "2026-04-22"
+  },
+  {
+   "label": "Moody's FY2025 full-year results 8-K via StockTitan",
+   "url": "https://www.stocktitan.net/sec-filings/MCO/8-k-moodys-corp-de-reports-material-event-c2b3f8eecd39.html",
+   "date": "2026-02"
+  },
+  {
+   "label": "StockAnalysis.com MCO statistics (price, mkt cap, fwd P/E, PEG, debt/cash)",
+   "url": "https://stockanalysis.com/stocks/mco/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "GuruFocus/Public.com MCO forward P/E & 5yr avg P/E & PEG",
+   "url": "https://www.gurufocus.com/term/forward-pe-ratio/MCO",
+   "date": "2026-06-18"
+  },
+  {
+   "label": "Macrotrends MCO stock price history (52w high / ATH)",
+   "url": "https://www.macrotrends.net/stocks/charts/MCO/moodys/stock-price-history",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Macrotrends MCO stock-based compensation (SBC, source conflict)",
+   "url": "https://www.macrotrends.net/stocks/charts/MCO/moodys/stock-based-compensation",
+   "date": "2025"
+  }
+ ],
+ "notes": "FUENTES PRIMARIAS: Q1 2026 (8-K/IR via StockTitan) y FY2025 (8-K) verificados con cifras exactas. La release PDF de IR es imagen escaneada (no extraible por texto), por lo que se usó el resumen del 8-K de StockTitan que reproduce las cifras GAAP/ajustadas. PRICE/VALUACION: ~$447.33 (StockAnalysis 22-jun-2026); mkt cap $78.1B; fwd P/E ~26.4 (rango 26.35-27.32 entre fuentes); 5yr avg P/E 38.44; descuento ~-31% vs media histórica; PEG ~2.05-2.10. BALANCE: deuda total $7.40B, caja $1.51B -> deuda neta $5.89B (NO es caja neta); EBITDA $3.81B -> ND/EBITDA ~1.55x. SBC ESTIMADO/INCIERTO (CRITICO R9): fuentes conflictivas - TTM(Q3'25) ~$567M vs FY2024 ~$0.22B; usé ~$567M run-rate anual -> ~7.4% ingresos, ~22% FCF; verificar en 10-K FY2025 (cash flow statement) para R9. ROIC FY2025 no reportado directamente en releases (null) - estimable ~25-30% pero dejado null por falta de fuente primaria. DROP=fear_rotation: la acción cae ~18% desde máximos (52w high/ATH ~$546.88; cierre ATH $537.16 el 15-ene-2026) MIENTRAS los fundamentales MEJORAN: ingresos FY2025 +9%, Q1'26 +8%, márgenes ajustados expandiéndose (53.2% Q1), EPS ajustado +13% Q1, y la dirección SUBIÓ guía FY2026 y recompras. No hay deterioro genuino - es compresión de múltiplo/rotación. pct_off_ath usa el máximo de 52s ($546.88, también máximo histórico intradía) = -18.2%; vs cierre ATH $537.16 sería -16.7%."
+}

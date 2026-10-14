@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "ticker": "DSG.TO",
+    "ticker_usado_para_precio": "DSGX (Nasdaq) — misma accion ordinaria, sin ADS, cotizada directamente en USD",
+    "empresa": "The Descartes Systems Group Inc.",
+    "fecha_analisis": "2026-07-28",
+    "fecha_de_precio": "2026-07-27 (cierre)",
+    "divisa_reporte": "USD",
+    "divisa_cotizacion_usada": "USD",
+    "divisa_funcional_y_de_reporte_de_la_empresa": "USD",
+    "rol": "VALORADOR — la calidad esta CONGELADA y no se toca",
+    "etiqueta_congelada": "PRESUNTA (3 puertas pasadas)",
+    "mecanismo_congelado": "Descartes cobra peaje contratado por el paso de documentos y contenido regulatorio a traves de una red logistica ya cableada — el 87,3% de los ingresos del trimestre siguiente ya estan contratados antes de vender nada nuevo — y lo hace con capital tangible neto NEGATIVO (-95,5 M) y capex del 0,79% de ventas, de modo que casi todo el margen se convierte en caja: devengo negativo los siete anios y 96,8 M de FCF por encima del beneficio neto solo en FY2026.",
+    "eslabon_mas_debil_congelado": "El destino de la caja: reinvierte el 43,2% de las ventas, tres cuartas partes en comprar empresas, y el retorno sobre ese capital incremental es del 8,53% bruto y del 4,66% ex-margen, menos de un tercio del umbral. El techo lo pone G4: el Descartes actual jamas ha sido estresado (cero anios de caida de ingresos desde FY2007) y la unica contraccion severa que si atraveso, FY2002-FY2006, la respondio recortando la I+D un 72,5%, el anti-ASML exacto.",
+    "especie_G2": "reinversion 43,2% de ventas · ROIIC bruto 8,53% · ROIIC ex-margen 4,66%",
+    "mos_exigido_pct": 25.0,
+    "motivo_mos": "Umbral de ABRIR para PRESUNTA. No esta en cartera de Felipe, por tanto NO aplica el escalon CARGAR (+12 puntos = 35%).",
+    "en_cartera": false,
+    "acceso_a_filings": "Descartes es emisor privado extranjero (Canada, MJDS) y presenta 40-F ante la SEC con estados US GAAP en USD, mas 6-K trimestrales con el Quarterly Report to Shareholders completo. Todas las cifras contables de este expediente salen de esos dos documentos primarios."
+  },
+
+  "fuentes_primarias": [
+    {
+      "doc": "Formulario 40-F FY2026 (ejercicio cerrado 31-ene-2026), presentado 11-mar-2026, accession 0001104659-26-026450 — Exhibit 99.2 (MD&A y estados financieros consolidados auditados, US GAAP, USD)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050140/000110465926026450/dsgx-20260131xex99d2.htm",
+      "etiqueta": "HECHO"
+    },
+    {
+      "doc": "Formulario 6-K de 04-jun-2026 (accession 0000929638-26-002122) — Exhibit 99.1, Quarterly Report to Shareholders del Q1 FY2027 (trimestre cerrado 30-abr-2026), MD&A fechada 3-jun-2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050140/000092963826002122/exhibit99-1.htm",
+      "etiqueta": "HECHO"
+    },
+    {
+      "doc": "SEC XBRL companyfacts CIK 0001050140 — series anuales us-gaap FY2018-FY2026 (ingresos, resultado operativo, beneficio neto, CFO, capex, depreciacion, amortizacion, I+D, SBC, impuestos, balance)",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001050140.json",
+      "etiqueta": "HECHO"
+    },
+    {
+      "doc": "Federal Reserve, H.15 Selected Interest Rates, publicacion del 27-jul-2026: Treasury constant maturity 10 anios = 4,69% (24-jul-2026); rango de la semana 4,60%-4,71%; fed funds efectivo 3,63%",
+      "url": "https://www.federalreserve.gov/releases/h15/",
+      "etiqueta": "HECHO"
+    },
+    {
+      "doc": "Damodaran, Country Default Spreads and Risk Premiums, tabla actualizada 5-ene-2026: ERP mercado maduro 4,23%; EEUU 4,46% (CRP 0,23%); Canada 4,23% (CRP 0,00%); Alemania 4,23%; Reino Unido 5,01% (CRP 0,78%)",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/ctryprem.html",
+      "etiqueta": "HECHO"
+    },
+    {
+      "doc": "Interactive Brokers, snapshot de mercado 2026-07-27: DSGX (Nasdaq, contract_id 4729273) cierre 71,08 USD; maximo 52 semanas 109,00; minimo 52 semanas 62,555; variacion en el anio -18,91%",
+      "url": "MCP IBKR get_price_snapshot",
+      "etiqueta": "HECHO"
+    },
+    {
+      "doc": "Interactive Brokers, series semanales de 5 anios (30-jul-2021 a 27-jul-2026) de DSGX y SPY — base del beta propio calculado en este expediente",
+      "url": "MCP IBKR get_price_history",
+      "etiqueta": "HECHO (serie) / INFERENCIA (beta derivado)"
+    }
+  ],
+
+  "precio_y_capitalizacion": {
+    "precio_usd": 71.08,
+    "fecha_precio": "2026-07-27 (cierre Nasdaq)",
+    "fuente_precio": "IBKR snapshot 2026-07-27, DSGX Nasdaq, cierre 71,08 USD [HECHO]",
+    "conversion_de_divisa": "NINGUNA. DSG.TO y DSGX son la misma accion ordinaria; Descartes reporta en USD. Se usa el cierre de Nasdaq en USD para evitar meter ruido de FX en un negocio cuya moneda funcional ya es el dolar.",
+    "es_ADS": false,
+    "nota_ADS": "No hay ADS: la cotizacion de Nasdaq es la accion ordinaria, ratio 1:1.",
+    "acciones_en_circulacion": 85690827,
+    "fuente_acciones": "MD&A Q1 FY2027, seccion Outstanding Share Data: 85.690.827 acciones ordinarias emitidas y en circulacion a 3-jun-2026 [HECHO]",
+    "acciones_diluidas_ponderadas_Q1_FY2027": 87394000,
+    "nota_dilucion": "A 3-jun-2026 hay 2.199.670 opciones, 1.082.378 PSU y 532.427 RSU vivas (mas 320.193 PSU adicionales si se alcanza el maximo). La NCIB esta activa: 316 mil acciones recompradas en el Q1 a 68,69 USD de media y hasta 20,0 M USD comprometidos por ASPP en el Q2, lo que compensa parcialmente la dilucion.",
+    "capitalizacion_usd_mm": 6090.9,
+    "contexto_de_precio": "El precio esta un 34,8% por debajo del maximo de 52 semanas (109,00) y un 13,6% por encima del minimo (62,56). La compresion no es de hoy: la accion cotizaba a 124 USD en octubre de 2025."
+  },
+
+  "puente_a_enterprise_value": {
+    "caja_y_equivalentes_usd_mm": 377.0,
+    "fecha_caja": "30-abr-2026",
+    "fuente_caja": "MD&A Q1 FY2027, Liquidity and Capital Resources: 377,0 M USD de caja a 30-abr-2026 (356,5 M a 31-ene-2026) [HECHO]",
+    "deuda_financiera_usd_mm": 0.0,
+    "fuente_deuda": "MD&A Q1 FY2027: facilidad revolvente de 350,0 M USD con vencimiento diciembre 2027, integramente disponible a 30-abr-2026 ('$350.0 million of the revolving operating credit facility remained available for use'). Cero deuda dispuesta [HECHO]",
+    "pasivos_por_arrendamiento_usd_mm": 8.4,
+    "nota_arrendamientos": "8,363 M USD de pasivo por arrendamiento operativo a 31-ene-2026 (XBRL). Inmaterial (0,14% de la capitalizacion); no se capitaliza como deuda.",
+    "deuda_neta_usd_mm": -377.0,
+    "enterprise_value_usd_mm": 5713.9,
+    "nota_ev": "EV = capitalizacion 6.090,9 - caja neta 377,0 = 5.713,9 M USD. Es el valor de los activos operativos, y es contra el que se corren el DCF inverso y el DCF directo; la caja se suma despues al valor del equity."
+  },
+
+  "wacc_candado_B": {
+    "principio": "CANDADO B: el WACC sale del mercado, no del tier de calidad. Ninguna cifra de aqui se hereda de la etiqueta PRESUNTA.",
+    "tasa_libre_de_riesgo_pct": 4.65,
+    "fuente_tasa_libre_de_riesgo": "Fed H.15, Treasury constant maturity 10 anios: 4,69% el 24-jul-2026 (ultima observacion publicada), 4,60% el 20-jul. Se usa 4,65% como centro de la semana. Moneda funcional = USD, luego el soberano correcto es el Tesoro americano, no el canadiense [HECHO]",
+    "beta": 0.90,
+    "fuente_beta": "Calculo propio 28-jul-2026: regresion de 262 retornos SEMANALES de DSGX contra SPY, 30-jul-2021 a 27-jul-2026 (serie IBKR). Beta cruda 0,865 (error estandar 0,102; IC95 0,67-1,07). Ajuste Blume (0,67b+0,33) = 0,91. Se adopta 0,90 como centro. Subventanas: 3 anios 0,848; 2 anios 0,791; 1 anio 0,453 (no significativo, se descarta).",
+    "prima_de_mercado_madura_pct": 4.23,
+    "prima_pais_ponderada_pct": 0.37,
+    "erp_total_ponderada_pct": 4.60,
+    "construccion_de_la_prima_pais": {
+      "principio": "La prima pais se pondera por el pais del riesgo de ACTIVO (donde estan los clientes), no por el domicilio fiscal canadiense.",
+      "mezcla_geografica_FY2026": "EEUU 496,4 M (68%), EMEA 169,6 M (23%), Canada 42,5 M (6%), Asia-Pacifico 20,5 M (3%). Fuente: MD&A FY2026, revenues by geographic location of customer [HECHO]",
+      "primas_aplicadas": "EEUU 4,46% (Damodaran 5-ene-2026); EMEA 5,00% (INFERENCIA: mezcla de Europa occidental ~4,3-5,0% con una cola de Oriente Medio y Africa); Canada 4,23%; Asia-Pacifico 5,50% (INFERENCIA).",
+      "calculo": "0,68x4,46 + 0,23x5,00 + 0,06x4,23 + 0,03x5,50 = 4,60%. Prima pais implicita sobre el mercado maduro (4,23%) = 0,37%."
+    },
+    "coste_de_los_fondos_propios_pct": 8.79,
+    "coste_de_la_deuda_pct": 4.5,
+    "fuente_coste_de_la_deuda": "NO derivable del filing con precision: la deuda financiera dispuesta es CERO y el gasto financiero de 0,9 M USD en FY2026 corresponde a arrendamientos y comisiones de disponibilidad, no a deuda. Se infiere del contrato: la facilidad devenga SOFR (o prime / CORRA) + 0 a 250 pb segun deuda neta / EBITDA ajustado; con caja neta el tramo aplicable es el minimo. SOFR ~3,6% (fed funds efectivo 3,63%, H.15 24-jul-2026) + ~50-90 pb = 4,1%-4,6%. Se adopta 4,5% [INFERENCIA]",
+    "peso_deuda_a_valor_de_mercado_pct": 0.0,
+    "peso_fondos_propios_pct": 100.0,
+    "wacc_pct": 8.8,
+    "wacc_rango": "7,7% - 9,6%",
+    "explicacion_del_rango": "El rango NO viene de opinar sobre la calidad, viene del IC95 del beta propio (0,67-1,07): Ke = 4,65 + beta x 4,60 da 7,73% en el extremo bajo y 9,57% en el alto. Con deuda dispuesta cero, WACC = coste de los fondos propios. Esta es la variable que mas mueve el valor: entre los dos extremos el valor por accion pasa de 84,02 a 60,36 USD."
+  },
+
+  "owner_earnings": {
+    "principio": "(a) Restando SOLO el capex de mantenimiento, aproximado por la depreciacion de inmovilizado; el exceso sobre la depreciacion es inversion discrecional y no se resta. (b) Restando TODO el capex = flujo de caja libre puro.",
+    "hallazgo_central": "En Descartes las dos versiones son INDISTINGUIBLES: 260,3 vs 260,5 M USD en la base auditada. La razon es que el capex es el 0,79% de las ventas (5,73 M sobre 729,0 M) y la depreciacion es 5,95 M — practicamente identicos. La distincion mantenimiento/discrecional, que es la que impide penalizar a una reinvertidora por reinvertir, aqui NO DISCRIMINA NADA: toda la reinversion discrecional de Descartes vive FUERA de la linea de capex, en 151,6 M USD de adquisiciones de filiales en FY2026. El marco de owner earnings no se la resta, y ese es exactamente el punto ciego que hay que declarar.",
+
+    "base_auditada_FY2026": {
+      "ejercicio": "FY2026, cerrado 31-ene-2026, auditado (40-F presentado 11-mar-2026)",
+      "ingresos_usd_mm": 729.0,
+      "resultado_operativo_usd_mm": 210.0,
+      "beneficio_neto_usd_mm": 163.8,
+      "flujo_de_caja_de_explotacion_usd_mm": 266.2,
+      "capex_usd_mm": 5.73,
+      "depreciacion_de_inmovilizado_usd_mm": 5.948,
+      "amortizacion_de_intangibles_usd_mm": 81.183,
+      "adquisiciones_de_filiales_neto_de_caja_usd_mm": 151.6,
+      "contraprestacion_contingente_pagada_usd_mm": 1.7,
+      "oe_mantenimiento_usd_mm": 260.3,
+      "oe_capex_total_usd_mm": 260.5,
+      "oe_operativo_usado_en_el_dcf_usd_mm": 254.9,
+      "ajuste_al_oe_operativo": "Se restan 5,4 M USD = ingreso financiero neto despues de impuestos (8,1 M de investment and other income - 0,9 M de gasto financiero, al 24,6% de tipo efectivo). Sin este ajuste se capitalizaria dos veces la caja: una dentro del flujo y otra al sumar los 377,0 M al equity.",
+      "tipo_impositivo_efectivo_pct": 24.6,
+      "devengo": "CFO 266,2 - beneficio neto 163,8 = +102,4 M USD de caja por encima del beneficio. FCF (266,2-5,73) - beneficio neto = +96,7 M, que reproduce exactamente el 96,8 M del mecanismo congelado. La contabilidad no adorna: la amortizacion de intangibles adquiridos (81,2 M) es el grueso de la diferencia."
+    },
+
+    "base_en_curso_FY2027E": {
+      "ejercicio": "FY2027, cierra 31-ene-2027. Publicado: Q1 (cerrado 30-abr-2026, 6-K de 4-jun-2026). Quedan tres trimestres.",
+      "datos_publicados_Q1": {
+        "ingresos_usd_mm": 193.6,
+        "ingresos_Q1_FY2026_usd_mm": 168.7,
+        "crecimiento_total_pct": 14.8,
+        "crecimiento_organico_pct": 11.1,
+        "aportacion_de_adquisiciones_pct": 3.6,
+        "resultado_operativo_usd_mm": 62.5,
+        "beneficio_neto_usd_mm": 48.5,
+        "flujo_de_caja_de_explotacion_usd_mm": 75.1,
+        "cfo_Q1_FY2026_usd_mm": 53.6,
+        "capex_usd_mm": 2.6,
+        "adquisiciones_usd_mm": 29.7,
+        "margen_operativo_pct": 32.3,
+        "margen_operativo_Q1_FY2026_pct": 27.4
+      },
+      "guia_de_la_empresa": {
+        "revenue": "Descartes NO da guia de ingresos. Da 'baseline calibration': a 1-may-2026 estima ingresos baseline (visibles, recurrentes y contratados) del Q2 FY2027 de 169,0 M USD y gastos operativos baseline de 102,5 M, para una calibracion baseline de 66,5 M (39% de los ingresos baseline). Los 169,0 M sobre los 193,6 M facturados en el Q1 son el 87,3% que sostiene el mecanismo congelado [HECHO].",
+        "capex": "'Anticipamos incurrir en aproximadamente 4,0 a 6,0 M USD de capex en el resto de fiscal 2027'. Con los 2,6 M del Q1, capex FY2027E = 6,6-8,6 M; se usa 7,6 M [HECHO, es guia explicita].",
+        "amortizacion": "53,5 M USD de amortizacion de intangibles para el resto de FY2027 sobre los intangibles ya existentes a 30-abr-2026 [HECHO].",
+        "sbc": "~24,0 M USD para el resto de FY2027 sobre las concesiones vivas a 30-abr-2026 [HECHO]."
+      },
+      "anualizacion": {
+        "ingresos_FY2027E_usd_mm": 836.6,
+        "metodo_ingresos": "El Q1 FY2026 fue el 23,14% del ejercicio (168,7 / 729,0). Aplicando esa estacionalidad al Q1 FY2027 (193,6): 836,6 M, es decir +14,8% [INFERENCIA].",
+        "cfo_FY2027E_usd_mm": 320.0,
+        "metodo_cfo": "Se REBAJA deliberadamente la anualizacion mecanica. El Q1 FY2026 fue el 20,13% del CFO del ejercicio; aplicar esa proporcion al CFO del Q1 FY2027 (75,1) daria 373,1 M, un margen CFO/ventas del 44,6% frente al 36,5% de FY2026 — la propia empresa atribuye el salto a 'strong cash collections from customers', que es capital circulante, no motor. Se adopta 320,0 M (margen CFO 38,3%, entre el 36,5% de FY2026 y el 38,8% del Q1). Rango honesto 305-373 M [INFERENCIA].",
+        "depreciacion_FY2027E_usd_mm": 6.5,
+        "capex_FY2027E_usd_mm": 7.6,
+        "ingreso_financiero_neto_despues_de_impuestos_usd_mm": 8.4
+      },
+      "oe_mantenimiento_usd_mm": 313.5,
+      "oe_capex_total_usd_mm": 312.4,
+      "oe_operativo_usado_en_el_dcf_usd_mm": 305.1
+    },
+
+    "distancia_entre_bases": {
+      "oe_mantenimiento_auditado_usd_mm": 260.3,
+      "oe_mantenimiento_en_curso_usd_mm": 313.5,
+      "distancia_pct": 20.4,
+      "lectura": "La distancia es de +20,4% y es informacion sobre el momento del ciclo, no ruido. Dice que el ejercicio en curso viene MUY por encima del ultimo auditado: ingresos +14,8%, margen operativo del 27,4% al 32,3%, CFO +40,1% interanual en el trimestre. No hay ni rastro de deterioro operativo. La consecuencia para el analisis es incomoda y hay que decirla entera: valorar sobre la base en curso es valorar sobre el pico de un ciclo que este Descartes nunca ha visto girar (cero anios de caida de ingresos desde FY2007, gate G4 del expediente de calidad), y la porcion del salto que viene de cobros de clientes es capital circulante que no se repite. Por eso el veredicto se ancla en la base AUDITADA y la base en curso se reporta como el techo optimista, no como el caso central."
+    }
+  },
+
+  "dcf_inverso": {
+    "principio": "Que crecimiento a 10 anios, con crecimiento terminal del 3%, justifica exactamente el precio de hoy al WACC calculado desde el mercado. Se resuelve contra el EV operativo (5.713,9 M), no contra la capitalizacion, y sobre el owner earnings OPERATIVO (sin ingreso financiero).",
+    "wacc_usado_pct": 8.8,
+    "crecimiento_terminal_pct": 3.0,
+    "horizonte_anios": 10,
+    "base_auditada": {
+      "oe_operativo_usd_mm": 254.9,
+      "g_implicita_pct": 6.03,
+      "multiplo_implicito_ev_sobre_oe": 22.4
+    },
+    "base_auditada_capex_total": {
+      "oe_operativo_usd_mm": 255.1,
+      "g_implicita_pct": 6.02
+    },
+    "base_en_curso": {
+      "oe_operativo_usd_mm": 305.1,
+      "g_implicita_pct": 3.69,
+      "multiplo_implicito_ev_sobre_oe": 18.7
+    },
+    "base_en_curso_capex_total": {
+      "oe_operativo_usd_mm": 304.0,
+      "g_implicita_pct": 3.74
+    },
+    "lectura": "El mercado NO esta pidiendo una heroicidad. Sobre el ultimo auditado exige un 6,0% anual de crecimiento del owner earnings durante diez anios; sobre el ejercicio en curso, un 3,7% — casi el terminal. Para una red que crece organicamente al 11,1% y tiene el 87,3% del trimestre siguiente ya contratado, esas cifras no son delirantes. Ese es precisamente el problema de la tesis alcista: el precio ya no descuenta una locura que se pueda desmentir; descuenta aproximadamente lo que el motor puede dar. No hay percepcion variante que explotar."
+  },
+
+  "g_defendible": {
+    "formula": "g = tasa de reinversion x ROIIC EX-MARGEN (el ex-margen, no el bruto: usar el bruto asume que la expansion de margen se repite indefinidamente)",
+    "tasa_de_reinversion_pct_de_ventas": 43.2,
+    "roiic_ex_margen_pct": 4.66,
+    "roiic_bruto_pct": 8.53,
+    "calculo": "Beneficio incremental anual = 729,0 M x 43,2% x 4,66% = 14,68 M USD. Sobre una base de owner earnings operativo de 254,9 M, eso es un 5,76% de crecimiento anual.",
+    "g_defendible_pct": 5.5,
+    "banda": "4,5% - 6,5%",
+    "por_que_no_uso_el_ROIIC_bruto": "Con el bruto (8,53%) la g saldria 10,5% y el valor por accion se iria por encima de 100 USD. Pero el bruto incorpora la expansion de margen operativo (del 24,9% en FY2024 al 28,8% en FY2026), y esa palanca es finita: no se puede expandir margen para siempre. El ex-margen es la pregunta honesta — cuanto rinde el capital nuevo cuando NO le regalas mejora de margenes — y responde 4,66%.",
+    "coherencia_con_la_g_implicita": "La g defendible (5,5%) esta POR DEBAJO de la g implicita en el precio sobre base auditada (6,03%) y POR ENCIMA de la implicita sobre base en curso (3,69%). El precio de hoy esta, literalmente, dentro del rango de lo defendible. No hay error de mercado detectable.",
+    "advertencia_de_doble_conteo": "Esta g se financia con los 151,6 M USD anuales de adquisiciones que el marco de owner earnings NO resta. Si se restaran (owner earnings 'de verdad libres' = 260,5 - 151,6 - 1,7 = 107,2 M), el mismo DCF al 5,5% daria un valor por accion de ~29 USD. La verdad esta entre ambos y mas cerca del marco elegido, porque las adquisiciones son discrecionales y el negocio crece al 11,1% organico sin ellas — pero la asimetria es real y va declarada como hueco."
+  },
+
+  "valor_intrinseco": {
+    "modelo": "DCF a 10 anios sobre owner earnings operativo, crecimiento g durante 10 anios, terminal al 3%, descontado al WACC de mercado. Al valor de los activos operativos se le suma la caja neta (377,0 M) para llegar al equity.",
+    "wacc_pct": 8.8,
+    "g_pct": 5.5,
+    "base_auditada": {
+      "oe_operativo_usd_mm": 254.9,
+      "valor_activos_operativos_usd_mm": 5486,
+      "valor_equity_usd_mm": 5863,
+      "valor_por_accion_usd": 68.42,
+      "multiplo_implicito_sobre_oe": 21.5,
+      "mos_pct": -3.9
+    },
+    "base_en_curso": {
+      "oe_operativo_usd_mm": 305.1,
+      "valor_activos_operativos_usd_mm": 6568,
+      "valor_equity_usd_mm": 6945,
+      "valor_por_accion_usd": 81.04,
+      "multiplo_implicito_sobre_oe": 21.5,
+      "mos_pct": 12.3
+    },
+    "sensibilidad_a_la_g": [
+      { "g_pct": 4.5, "valor_auditado_usd": 63.67, "mos_auditado_pct": -11.6, "valor_en_curso_usd": 75.36, "mos_en_curso_pct": 5.7 },
+      { "g_pct": 5.5, "valor_auditado_usd": 68.42, "mos_auditado_pct": -3.9, "valor_en_curso_usd": 81.04, "mos_en_curso_pct": 12.3 },
+      { "g_pct": 6.5, "valor_auditado_usd": 73.55, "mos_auditado_pct": 3.4, "valor_en_curso_usd": 87.18, "mos_en_curso_pct": 18.5 }
+    ],
+    "sensibilidad_al_wacc": [
+      { "wacc_pct": 7.7, "beta": 0.67, "valor_auditado_usd": 84.02, "mos_auditado_pct": 15.4 },
+      { "wacc_pct": 8.8, "beta": 0.90, "valor_auditado_usd": 68.42, "mos_auditado_pct": -3.9 },
+      { "wacc_pct": 9.6, "beta": 1.07, "valor_auditado_usd": 60.36, "mos_auditado_pct": -17.8 }
+    ],
+    "piso_de_resolucion": {
+      "regla": "Ninguna cifra se reporta con mas precision que el ruido. Sin medicion propia del ruido del modelo, se aplica +-25% al valor intrinseco.",
+      "banda_base_auditada_usd": "51 - 86",
+      "banda_base_en_curso_usd": "61 - 101",
+      "consecuencia": "El precio de hoy (71,08) esta DENTRO de la banda de resolucion de las dos bases. Formalmente, este modelo NO puede distinguir a Descartes de su precio. Cualquier afirmacion del tipo 'esta un 12% barata' es ruido presentado como senal. Lo unico que si es decidible, porque no depende de la precision del punto central sino de la distancia al umbral, es que el MoS exigido del 25% no se alcanza en ningun escenario central."
+    }
+  },
+
+  "m_estrella_y_p_estrella": {
+    "multiplo_pagado_hoy": {
+      "ev_sobre_oe_auditado": 22.4,
+      "ev_sobre_oe_en_curso": 18.7,
+      "per_diluido_FY2026": 38.0,
+      "per_sobre_beneficio_del_Q1_anualizado": 29.9
+    },
+    "m_estrella": 16.0,
+    "razonamiento_de_m_estrella": "Decidido en frio, sin barra de error, porque es una decision y no una estimacion. Punto de partida: una perpetuidad sin crecimiento incremental al 3% terminal vale 1/(0,088-0,03) = 17,2x owner earnings, y para Descartes ese 3% es casi gratis — el capex es el 0,79% de las ventas, luego el crecimiento nominal no consume capital. A partir de ahi aplico UN solo descuento, no varios: el 43,2% de las ventas que se recicla a un retorno ex-margen del 4,66%, es decir, capital nuevo que rinde la MITAD del coste de capital. Un asignador que destruye valor con la mitad de su caja no merece pagar la perpetuidad limpia. 17,2x menos ese castigo = 16x. No subo por el 87,3% contratado ni por la caja neta: lo contratado ya esta dentro del owner earnings y la caja se suma aparte.",
+    "valor_con_m_estrella": {
+      "base": "auditada, owner earnings operativo 254,9 M",
+      "valor_activos_operativos_usd_mm": 4078.4,
+      "mas_caja_neta_usd_mm": 377.0,
+      "valor_equity_usd_mm": 4455.4,
+      "valor_por_accion_usd": 51.99
+    },
+    "p_estrella_usd": 51.3,
+    "construccion_de_p_estrella": "Valor por accion sobre base AUDITADA con g defendible (68,42) menos el MoS exigido del 25% = 51,32 USD. Que el multiplo comprometido (16x -> 51,99) y el MoS exigido (25% -> 51,32) converjan en el mismo punto sin haberlo forzado es la unica coincidencia tranquilizadora de todo el expediente.",
+    "p_estrella_alternativo_base_en_curso_usd": 60.78,
+    "distancia_desde_el_precio_de_hoy_pct": -27.8,
+    "nota": "P* de 51,3 USD implica una caida adicional del 27,8% desde 71,08. El minimo de 52 semanas es 62,56: ni siquiera el peor momento del ultimo anio llego al precio de compra."
+  },
+
+  "tir_esperada": {
+    "definicion": "Tasa de descuento que iguala el valor presente del flujo de owner earnings (mas la caja neta) al precio de hoy. Es la rentabilidad anual que se llevaria el comprador de hoy si el modelo acierta.",
+    "rango": "8,2% - 10,1% anual en USD",
+    "detalle": [
+      { "base": "auditada", "g_pct": 4.5, "tir_pct": 8.17 },
+      { "base": "auditada", "g_pct": 5.5, "tir_pct": 8.58 },
+      { "base": "auditada", "g_pct": 6.5, "tir_pct": 9.00 },
+      { "base": "en curso", "g_pct": 4.5, "tir_pct": 9.16 },
+      { "base": "en curso", "g_pct": 5.5, "tir_pct": 9.63 },
+      { "base": "en curso", "g_pct": 6.5, "tir_pct": 10.12 }
+    ],
+    "lectura": "Comprar a 71,08 USD compra entre un 8,2% y un 10,1% anual durante diez anios, contra un coste de capital del 8,8%. Es decir: la prima esperada sobre el coste de capital esta entre -0,6 y +1,3 puntos. Se cobra exactamente el riesgo que se corre, ni un punto mas. Eso no es una mala inversion; es una inversion que no aporta nada que no de el mercado, y que ademas exige acertar en el asignador de capital para que el 8,6% central se materialice."
+  },
+
+  "detector_de_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "La accion ha caido un 43% desde 124 USD (octubre 2025) hasta 71,08, y la pregunta obligada es si el motor se esta rompiendo. La evidencia primaria dice que NO: en el Q1 FY2027 los ingresos crecen un 14,8% (11,1% organico, solo 3,6% comprado), el margen operativo sube del 27,4% al 32,3%, el CFO crece un 40,1%, la caja sube de 356,5 a 377,0 M pese a recomprar 20,8 M en acciones y pagar 29,7 M en adquisiciones, y el 87,3% de los ingresos del trimestre siguiente ya esta contratado. No hay caida de ingresos, ni compresion de margen, ni fuga de caja, ni deuda. La caida del precio es compresion de multiplo, no deterioro del negocio.",
+    "matiz_que_no_se_puede_omitir": "Que no sea trampa de valor no la convierte en oportunidad. El MoS es negativo sobre la base auditada y del 12,3% sobre la base en curso, contra un 25% exigido. El descuento del 43% desde maximos simplemente ha llevado el precio de absurdo a razonable. Y quedan dos riesgos vivos que el precio ya recoge en parte: (1) el asignador de capital gasta el 43,2% de las ventas a un retorno ex-margen del 4,66%, la mitad del coste de capital, lo que significa que cada anio que pasa destruye valor con parte de su caja; (2) el gate G4 congelado — este Descartes nunca ha atravesado una contraccion, y la unica vez que la casa la atraveso (FY2002-FY2006) respondio recortando la I+D un 72,5%, que es la conducta opuesta a la de un compounder que protege su motor.",
+    "senal_a_vigilar": "Si el precio llegara a P* (51,3 USD) habria que comprobar ANTES si la caida vino con rotura del motor (crecimiento organico por debajo del 5%, calibracion baseline por debajo del 85% de los ingresos del trimestre anterior, o una adquisicion grande financiada con deuda) o sin ella. A 51 USD sin rotura, esto se compra. A 51 USD con rotura, no."
+  },
+
+  "veredicto_del_valorador": {
+    "decision": "NO COMPRAR — precio fuera de rango",
+    "mos_exigido_pct": 25.0,
+    "mos_obtenido_base_auditada_pct": -3.9,
+    "mos_obtenido_base_en_curso_pct": 12.3,
+    "resumen": "Descartes cotiza a 71,08 USD y vale, con la g que yo defiendo (5,5%, derivada de reinvertir el 43,2% de las ventas a un ROIIC ex-margen del 4,66%) y un WACC bottom-up del 8,8%, entre 68 USD sobre el ultimo auditado y 81 USD sobre el ejercicio en curso. El MoS va del -3,9% al +12,3% frente al 25% exigido por su banda PRESUNTA para abrir. El DCF inverso remata el argumento: el precio de hoy pide un 6,0% de crecimiento del owner earnings a diez anios sobre el auditado y un 3,7% sobre el en curso, y ambas cifras estan dentro de lo que el motor razonablemente da. No hay percepcion variante. La TIR esperada, 8,2%-10,1% anual, es el coste de capital y nada mas. Compro a 51-52 USD, no antes: ahi convergen el multiplo que me comprometo a pagar (16x owner earnings) y el MoS del 25%. Un apunte que el marco obliga a declarar: en esta empresa las dos versiones de owner earnings son identicas (260,3 y 260,5 M) porque el capex es el 0,79% de las ventas, de modo que toda la reinversion discrecional — 151,6 M USD en adquisiciones — queda fuera del calculo y no se penaliza. Si se restara, el valor caeria a ~29 USD por accion. La verdad esta mas cerca de los 68 que de los 29, porque el negocio crece al 11,1% organico sin comprar nada, pero el que compre esto compra tambien a un asignador que recicla la mitad de su caja al 4,66%.",
+    "que_cambiaria_el_veredicto": [
+      "Precio por debajo de 52 USD sin rotura del motor (organico >5%, baseline >=85%, sin apalancamiento nuevo).",
+      "Que el ROIIC ex-margen suba de forma sostenida por encima del WACC — es decir, que dejen de comprar o que compren mucho mejor. Un anio sin adquisiciones con la caja devuelta via NCIB seria una senal fuerte.",
+      "Que el WACC baje al extremo bajo del rango (beta hacia 0,67, tipo a 10 anios por debajo del 4%), lo que llevaria el valor auditado a 84 USD y abriria un MoS del 15% — todavia insuficiente."
+    ]
+  },
+
+  "huecos_declarados": [
+    "BETA: es medicion propia (0,865 semanal a 5 anios contra SPY, IC95 0,67-1,07), no verificada contra un proveedor tercero citable. El IC95 mueve el WACC entre 7,7% y 9,6% y el valor por accion entre 60,36 y 84,02 USD. Es el hueco que mas pesa de todo el expediente.",
+    "COSTE DE LA DEUDA: NO derivable del filing. La deuda financiera dispuesta es cero y el gasto financiero de 0,9 M USD es de arrendamientos y comisiones de disponibilidad. El 4,5% es INFERENCIA sobre SOFR + el tramo minimo del contrato. Irrelevante para el WACC (peso de deuda = 0) pero declarado porque el candado B lo exige.",
+    "BASE EN CURSO: el CFO de 320,0 M USD para FY2027 es INFERENCIA propia. Anualizar el Q1 por estacionalidad daria 373,1 M (+16,6%) y elevaria el valor en curso a ~95 USD. Descartes no da guia de ingresos ni de caja; solo baseline calibration a un trimestre vista. La empresa atribuye parte del salto de CFO a 'strong cash collections', que es circulante.",
+    "ROIIC HEREDADO: el 8,53% bruto y el 4,66% ex-margen vienen congelados de la pasada de calidad y NO se re-verificaron. No pude reconstruir la definicion exacta de capital invertido que usan (mi reconstruccion de la reinversion FY2026 — capex 5,7 + adquisiciones 151,6 + contingente 1,7 + I+D 105,3 = 264,3 M = 36,3% de ventas — no llega al 43,2%, probablemente porque la ventana congelada es multianual). Si el capital invertido del ROIIC incluye I+D gastada, el emparejamiento con mi base de owner earnings mete un error que no puedo cuantificar.",
+    "DOBLE CONTEO DE LA REINVERSION: el marco de owner earnings no resta los 151,6 M USD anuales de adquisiciones, pero la g del 5,5% se financia precisamente con ellos. El valor por accion es 68 USD con el marco y ~29 USD si se restan. Declarado, no resuelto.",
+    "DAMODARAN: la tabla de primas pais usada tiene fecha 5-ene-2026. Existe una actualizacion de julio de 2026 que no pude descargar. Las primas de EMEA (5,00%) y Asia-Pacifico (5,50%) son INFERENCIA sobre la mezcla, no lecturas directas de la tabla.",
+    "ACCIONES: se usan 85.690.827 (3-jun-2026). La NCIB sigue activa (hasta 20,0 M USD comprometidos en el Q2) y hay 3,8 M de opciones y unidades vivas. Con las 87,394 M diluidas ponderadas del Q1 el valor por accion bajaria ~2%.",
+    "PRECIO: el snapshot de IBKR devolvio un bid/ask de 60,00/73,71, propio de sesion cerrada. El cierre de 71,08 esta confirmado por la serie semanal (barra del 27-jul-2026), pero no se cruzo contra una segunda fuente de mercado."
+  ]
+}

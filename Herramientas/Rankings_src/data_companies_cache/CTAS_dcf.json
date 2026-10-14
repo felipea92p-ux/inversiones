@@ -1,0 +1,42 @@
+{
+ "ticker": "CTAS",
+ "currency": "USD",
+ "current_price": 169.45,
+ "wacc_pct": 9,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.95,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = FY2025 reported FCF $1.757B menos 100% de SBC ($0.1283B = 1.24% de ingresos) = ~$1.629B. Margen owner-FCF ~15.75% sobre ingresos FY2025 de $10.34B. SBC tratada como gasto en efectivo (impacto modesto: solo ~7.3% del FCF, favorable para CTAS).",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 8,
+  "rev_cagr_y6_10_pct": 5,
+  "fcf_margin_terminal_pct": 16,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de SBC restada del FCF reportado como gasto en efectivo (SBC FY25 = $128.3M, 1.24% de ingresos, ~7.3% del FCF)",
+  "shares_diluted_b": 0.4,
+  "net_debt_usd_b": 2.73
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 67.68,
+   "prob": 0.375,
+   "note": "Crecimiento ingresos/owner-FCF +6% anios 1-5 declinando a +4% anios 6-10; g terminal 2.5%; WACC 9.5% (mayor descuento por valoracion exigente). Desaceleracion macro/industrial moderada, sin recesion profunda. Margen owner-FCF estable. IV muy por debajo del precio."
+  },
+  "base": {
+   "iv_per_share": 89.78,
+   "prob": 0.475,
+   "note": "Consistente con track record: owner-FCF +8% anios 1-5 (organico ~8% historico) declinando a +5% anios 6-10; g terminal 3.0%; WACC 9.0%. EV ~$38.6B, equity ~$35.9B. Aun asi IV ~$90 vs precio $169 => ~47% sobrevalorado."
+  },
+  "optimista": {
+   "iv_per_share": 118.89,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: owner-FCF +9.5% anios 1-5 declinando a +6% anios 6-10; expansion de margen; g terminal 3.5%; WACC 8.5%. Incluso aqui IV ~$119 queda ~30% por debajo del precio actual."
+  }
+ },
+ "method_notes": "DCF de OWNER EARNINGS a 10 anios. Base: FY2025 (cerrado 31-may-2025), FCF reportado $1.757B menos 100% SBC ($0.1283B) = owner-FCF $1.629B. Fase 1 (anios 1-5) CAGR de ingresos explicito con margen owner-FCF estabilizado ~15.75-16%; Fase 2 (anios 6-10) CAGR declinante linealmente hacia normalizacion; valor terminal con g=2.5-3.5% (foso amplio: lider en servicios de uniformes/instalaciones por ruta, ROIC ~27%, ingresos recurrentes, switching costs). Descuento al WACC = Rf 4.3% (UST 10Y) + ERP 5.0% x beta 0.95 = ~9.05%, redondeado a 9.0%; sin ajuste geopolitico (empresa 100% EE.UU./Norteamerica). Estructura de capital casi todo equity (ND/EBITDA ~0.97x). Acciones diluidas ~0.400B (market cap $67.79B / $169.45). VI/accion = (PV flujos + PV valor terminal) - deuda neta $2.73B, dividido por acciones. Conclusion: incluso el escenario optimista ($119) queda por debajo del precio $169.45 -> CTAS cotiza con prima de calidad muy exigente; IV ponderada ~$86 implica ~49% de sobrevaloracion sobre owner earnings. Esto reconcilia con fwd P/E ~32x y PEG 2.87 (premium-multiple compounder).",
+ "sanity_check": "Rendimiento owner-FCF actual = owner-FCF $1.629B / market cap $67.79B = ~2.4%, muy bajo (refleja valoracion rica). Rendimiento total al accionista (dividendo+recompra) como contraste: dividendo ~0.8-1.0% + recompras netas ~1.5-2% = ~2.5-3% de yield total, insuficiente para justificar el precio sin crecimiento de doble digito sostenido por muchos anios. Cross-check de multiplos: a ~$90 (base) el fwd P/E implicito caeria a ~18x vs ~32x actual y ~37.5x promedio 5a -> el mercado paga hoy una prima sustancial sobre el valor intrinseco por owner earnings. Negocio excelente (ROIC ~27%, organico +8%, direccion subio guidance FY26), pero precio descuenta ejecucion casi perfecta a muy largo plazo. Margen de seguridad: NEGATIVO al precio actual.",
+ "name": "Cintas Corporation"
+}

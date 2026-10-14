@@ -1,0 +1,265 @@
+{
+  "ticker": "ICE",
+  "empresa": "Intercontinental Exchange, Inc.",
+  "cik": "0001571949",
+  "bolsa": "NYSE",
+  "divisa_funcional": "USD",
+  "divisa_reporte": "USD",
+  "fecha_analisis": "2026-07-28",
+  "fecha_corte_precio": "2026-07-27",
+  "etiqueta_calidad_congelada": "MENOS_5_6",
+  "puertas_pasadas": 3,
+  "especie": "G2",
+  "mos_exigido_pct": 40,
+  "regla_mos": "NO esta en cartera -> se aplica el umbral de ABRIR: 40% para la banda MENOS_5_6. Si estuviera en cartera el umbral de CARGAR subiria 12 puntos.",
+  "rol": "VALORADOR. La calidad esta CONGELADA. Nada de lo que aparece en este expediente reclasifica la etiqueta hacia arriba. Al abrir el precio y ver que el DCF inverso solo exige 2,9-4,6%, la tentacion es decir 'entonces si es ULTRA'. NO. Es la contradiccion madre buscando otra puerta: el precio no es evidencia de calidad.",
+
+  "mecanismo_heredado": {
+    "motor": "Peaje diminuto (1,74 USD/contrato) sobre una piscina de liquidez inmovil: 102 M de contratos de interes abierto acorralados en su propia camara de compensacion. Seis anios de flujo de caja y 19.826 M de adquisiciones convertidos en tres peajes adicionales (datos, indices, hipotecas) cobrados por suscripcion en vez de por transaccion.",
+    "eslabon_mas_debil": "El crecimiento no es gratis y ademas no es de precio. g = reinversion x ROIIC cierra con 0,5 pp de error a un ROIIC del 7,7%. Fondo de comercio + intangibles 45.999 M contra capital invertido 47.722 M; ROIC reportado 7,9%. La tarifa unitaria crece por debajo de la inflacion en TODOS los complejos medibles: financieros -16,4% desde 2022, agricolas -6,4%, NYSE contado -26% en un anio.",
+    "reinversion_pct_ventas": 48.7,
+    "roiic_bruto_pct": 7.7,
+    "roiic_ex_margen_pct": 8.2,
+    "puertas": "Pasa G5, G1 y G6. Falla G3 medido. G4 NO_PROBADA: en quince anios verificados nunca ha tenido un ejercicio de caida."
+  },
+
+  "precio_y_capital": {
+    "precio_usd": 148.73,
+    "fuente_precio": "INFERENCIA - cierre del 2026-07-27 (16:00 EDT), +2,94 (+2,02%), segun stockanalysis.com consultado 2026-07-28. NO se pudo obtener snapshot IBKR (el MCP devolvio resultados vacios en esta sesion). AGREGADOR, no fuente primaria: la cifra queda marcada INFERENCIA y no sostiene por si sola ningun veredicto de compra. Comprobacion cruzada: la busqueda web da 143,21 al 23-jul y 145,79 al 24-jul, coherente con una subida hacia 148,73 el 27-jul.",
+    "variacion_52s_pct": -19.36,
+    "maximo_52s_aprox_usd": 184.5,
+    "minimo_52s_aprox_usd": 121.0,
+    "comentario_precio": "La accion YA ha hecho un de-rating del 19,4% en doce meses. Ese de-rating es parte de por que el DCF inverso solo pide 2,9-4,6% hoy. Aun asi no alcanza para el 40% de MoS que exige su banda.",
+    "acciones_en_circulacion_mm": 565.512,
+    "fuente_acciones": "HECHO - portada del 10-Q 1T-2026 (accession 0001571949-26-000007), recuento a 2026-04-27: 565.512.495 acciones ordinarias. Comprobacion cruzada stockanalysis 566,43 M al 28-jul-2026. Se usan 566,0 M para capitalizacion y valor por accion.",
+    "acciones_diluidas_1t26_mm": 570.0,
+    "guia_acciones_diluidas_2t26": "565-571 M (guia de la empresa, nota de prensa 1T-2026, 30-abr-2026)",
+    "no_es_ADS": true,
+    "capitalizacion_usd_mm": 84181.0,
+    "deuda_corto_plazo_usd_mm": 1751.0,
+    "deuda_largo_plazo_usd_mm": 18619.0,
+    "deuda_bruta_usd_mm": 20370.0,
+    "caja_no_restringida_usd_mm": 863.0,
+    "deuda_neta_usd_mm": 19507.0,
+    "ev_usd_mm": 103688.0,
+    "fuente_balance": "HECHO - 10-Q 1T-2026 a 2026-03-31: LongTermDebtCurrent 1.751 M, LongTermDebtNoncurrent 18.619 M, CashAndCashEquivalentsAtCarryingValue 863 M (XBRL companyfacts CIK 0001571949).",
+    "nota_balance": "Los depositos de margen y el guaranty fund de las camaras aparecen en activo y pasivo por el mismo importe: NO son caja disponible ni deuda. Se excluyen del calculo. La empresa declara 'outstanding debt was $20.4 billion as of March 31, 2026' en la nota de prensa, coherente con los 20.370 M del filing. Comprobacion cruzada del EV: stockanalysis da 104,37 bn frente a mis 103,69 bn; la diferencia (~0,7 bn) es participacion no dominante y equivalentes, inmaterial."
+  },
+
+  "wacc_candado_B": {
+    "principio": "CANDADO B respetado. Cada componente sale del mercado con fuente y fecha. En ningun punto se hereda el 10% 'de referencia' que aparece en el mecanismo de calidad. El WACC honesto de ICE es SUSTANCIALMENTE MENOR que ese 10%, y eso cambia la lectura del ROIIC: ver 'hallazgo_incomodo'.",
+    "tasa_libre_riesgo_pct": 4.65,
+    "fuente_tasa_libre_riesgo": "HECHO - U.S. Department of the Treasury, Daily Treasury Par Yield Curve Rates, fila 07/27/2026: 10 Yr = 4,65%. Descargado del CSV oficial de home.treasury.gov el 2026-07-28. Moneda funcional = USD, luego el soberano correcto es el 10Y estadounidense.",
+    "prima_mercado_madura_pct": 4.17,
+    "prima_pais_pct": 0.28,
+    "prima_riesgo_total_aplicada_pct": 4.45,
+    "fuente_primas": "HECHO/INFERENCIA - Damodaran, actualizacion de primas de riesgo por pais de julio 2026: prima de mercado maduro 4,17%, prima total EEUU 4,45% (la diferencia de 0,28 pp es el diferencial de impago del rating Aa1 tras la bajada de Moody's). Riesgo de ACTIVO, no de domicilio fiscal: los activos de ICE estan en EEUU (NYSE, ICE Mortgage Technology, ICE Bonds, la mayor parte de datos) y Reino Unido (ICE Futures Europe / Brent), con colas menores en UE, Singapur, Canada e Israel. Todos mercados maduros -> no se anade prima pais adicional sobre la de EEUU.",
+    "beta": 0.94,
+    "fuente_beta": "INFERENCIA - media de dos agregadores consultados el 2026-07-28: stockanalysis.com beta 5 anios = 0,95; Yahoo Finance beta 5Y mensual = 0,92. Rango observado 0,92-0,95, se toma 0,94. Comprobacion Blume (0,67 x 0,94 + 0,33) = 0,96: practicamente identica, luego la beta cruda NO necesita correccion (a diferencia de CME, cuya beta de 0,28 producia un Ke por debajo del coste de la deuda). Se usa 0,96 (Blume) para el caso central por prudencia.",
+    "beta_blume_usada": 0.96,
+    "coste_equity_central_pct": 8.92,
+    "coste_deuda_pct": 4.01,
+    "derivacion_coste_deuda": "HECHO - de los filings: gastos financieros FY2025 = 803 M (10-K FY2025, R5 Consolidated Statements of Income) sobre deuda bruta media del ejercicio ((3.027+17.341 al 31-dic-2024 + 1.035+18.609 al 31-dic-2025)/2 = 20.006 M) = 4,01%. Es el coste EMBEBIDO. El coste MARGINAL hoy seria mayor: ICE emite en grado de inversion (A3/A-) y a 4,65% de Rf mas ~90 pb de diferencial estaria en ~5,55%. Se usa 4,01% en el caso central por instruccion, y 5,55% en el escenario alto.",
+    "tasa_impositiva_pct": 22.5,
+    "fuente_tasa_impositiva": "HECHO - 10-K FY2025: impuesto sobre beneficios 976 M / resultado antes de impuestos 4.346 M = 22,5%. 1T-2026 dio 24,5% (465/1.897), inflado por la plusvalia de inversiones.",
+    "peso_equity_pct": 80.5,
+    "peso_deuda_pct": 19.5,
+    "wacc_pct": 7.79,
+    "wacc_rango": "7,4% - 9,0%",
+    "wacc_escenarios": [
+      {"etiqueta": "bajo", "beta": 0.85, "erp_pct": 4.45, "kd_pct": 4.01, "wacc_pct": 7.4},
+      {"etiqueta": "central (Blume)", "beta": 0.96, "erp_pct": 4.45, "kd_pct": 4.01, "wacc_pct": 7.79},
+      {"etiqueta": "alto", "beta": 1.10, "erp_pct": 5.0, "kd_pct": 5.55, "wacc_pct": 9.0}
+    ],
+    "advertencia_multiplo_terminal": "A 7,79% de WACC y 3% terminal el diferencial es de solo 4,79 pp, lo que implica un MULTIPLO TERMINAL de 20,9x el flujo del anio 10. En el escenario alto (9,0%) baja a 16,7x; en el bajo (7,4%) sube a 22,7x. La mitad larga del valor intrinseco vive en la perpetuidad. Este es el punto mas fragil de todo el ejercicio y la razon por la que el MoS exigido del 40% no es negociable."
+  },
+
+  "hallazgo_incomodo": {
+    "titular": "Con el WACC honesto de mercado (7,8%), el ROIIC ex-margen de ICE (8,2%) NO esta por debajo del coste de capital: esta EMPATADO con el.",
+    "desarrollo": "El mecanismo congelado compara el ROIIC del 7,7% contra un 'WACC de referencia del 10%' y concluye que ICE compro su crecimiento por encima del coste de capital, destruyendo valor. El candado B prohibe ese WACC heredado. Calculado desde el mercado el WACC es 7,79% (rango 7,4-9,0%). Frente a 7,7-8,2% de ROIIC, el veredicto correcto NO es 'destruye valor' sino 'crea aproximadamente CERO'. Que es peor de lo que suena: significa que los 19.826 M de adquisiciones compraron crecimiento que NO vale nada para el accionista. Un negocio que crece al 10% con ROIIC = WACC vale exactamente lo mismo que uno que crece al 0%. Toda la energia de seis anios de M&A produjo tamano, no valor.",
+    "implicacion_de_valoracion": "Por eso el valor de ICE es, en primera aproximacion, el valor de su flujo actual capitalizado, y el crecimiento futuro solo cuenta en la medida en que NO requiera capital. Ese es exactamente el crecimiento que el propio mecanismo dice que esta amenazado: la tarifa unitaria cae en todos los complejos medibles.",
+    "no_reclasifica": "Este hallazgo NO mejora la etiqueta. Un ROIIC empatado con el coste de capital sigue siendo el fallo de G3. La etiqueta MENOS_5_6 permanece intacta."
+  },
+
+  "owner_earnings": {
+    "metodo": "Base = flujo de caja de explotacion del filing. Se RESTA la retribucion en acciones (coste economico real que el estado de flujos suma de vuelta), igual que en el expediente de CME, para que las dos empresas sean comparables. Version (a) MANTENIMIENTO: se resta solo la depreciacion de activos PROPIOS (inmovilizado material + software desarrollado internamente). Se EXCLUYE deliberadamente la amortizacion de intangibles adquiridos (994 M en FY2025), que es un artefacto de contabilidad de compras y no un coste de mantener el negocio. Version (b) CAPEX TOTAL: se resta todo el capex (inmovilizado + software capitalizado) = flujo de caja libre puro.",
+    "nota_capex": "OJO: en ICE el capex son DOS lineas del estado de flujos. 'Capital expenditures' (373 M en FY2025) NO es el capex total; hay que sumar 'Capitalized software development costs' (418 M). Total FY2025 = 791 M. La propia empresa lo hace asi en su reconciliacion de Adjusted Free Cash Flow.",
+    "desglose_amortizacion_fy2025": {
+      "d_and_a_total_usd_mm": 1560,
+      "depreciacion_inmovilizado_usd_mm": 198,
+      "amortizacion_intangibles_adquiridos_usd_mm": 994,
+      "amortizacion_software_propio_usd_mm": 368,
+      "depreciacion_activos_propios_usada_usd_mm": 566,
+      "fuente": "HECHO - XBRL companyfacts: DepreciationAndAmortization 1.560, Depreciation 198, AmortizationOfIntangibleAssets 994 (todos FY2025, 10-K). Los 368 M de software propio son INFERENCIA por diferencia (1.560 - 198 - 994)."
+    },
+    "base_auditada": {
+      "ejercicio": "FY2025",
+      "fuente": "HECHO - 10-K FY2025, accession 0001571949-26-000004, presentado 2026-02-05. R5 (Consolidated Statements of Income) y R8 (Consolidated Statements of Cash Flows).",
+      "ingresos_brutos_usd_mm": 12640,
+      "gastos_transaccionales_usd_mm": 2709,
+      "ingresos_netos_usd_mm": 9931,
+      "resultado_explotacion_usd_mm": 4929,
+      "margen_explotacion_sobre_ingresos_netos_pct": 49.6,
+      "resultado_neto_usd_mm": 3315,
+      "flujo_caja_explotacion_usd_mm": 4662,
+      "retribucion_acciones_usd_mm": 238,
+      "depreciacion_activos_propios_usd_mm": 566,
+      "capex_total_usd_mm": 791,
+      "capex_pct_ingresos_netos": 7.97,
+      "gastos_financieros_usd_mm": 803,
+      "oe_mantenimiento_usd_mm": 3858,
+      "oe_capex_total_usd_mm": 3633,
+      "oe_mantenimiento_por_accion_usd": 6.82,
+      "oe_capex_total_por_accion_usd": 6.42,
+      "multiplo_actual_sobre_oe_capex_total": 23.2,
+      "multiplo_actual_sobre_oe_mantenimiento": 21.8,
+      "fcff_usado_en_dcf_usd_mm": 4255,
+      "nota_fcff": "FCFF = OE capex total (3.633) + gastos financieros despues de impuestos (803 x 0,775 = 622) = 4.255 M. Se descuenta al WACC contra el EV, para no contar la deuda dos veces."
+    },
+    "base_en_curso": {
+      "ejercicio": "FY2026E",
+      "trimestres_publicados": "Solo 1T-2026 (10-Q accession 0001571949-26-000007, presentado 2026-04-30). El 2T-2026 se publica el 2026-07-30, DOS DIAS DESPUES de esta fecha de corte: este expediente se escribe a ciegas del 2T y debe releerse el 31-jul.",
+      "datos_1t26_hecho": {
+        "ingresos_brutos_usd_mm": 3666,
+        "ingresos_netos_usd_mm": 2977,
+        "resultado_explotacion_usd_mm": 1665,
+        "margen_explotacion_pct": 56.0,
+        "resultado_neto_usd_mm": 1432,
+        "flujo_caja_explotacion_usd_mm": 1326,
+        "capex_total_usd_mm": 176,
+        "flujo_caja_libre_declarado_usd_mm": 1150,
+        "ingresos_recurrentes_usd_mm": 1320,
+        "ingresos_recurrentes_var_pct": 7,
+        "ingresos_transaccionales_netos_usd_mm": 1657,
+        "ingresos_transaccionales_var_pct": 34
+      },
+      "contaminacion_no_recurrente": "El 1T-2026 lleva dentro una PLUSVALIA DE INVERSIONES de 389 M (linea 'Gain on investments' del estado de flujos, dentro de 'Other income, net' de 411 M frente a 19 M el anio anterior). Es un tercio del beneficio neto del trimestre y NO se repite. Se elimina integramente de la base en curso.",
+      "guia_de_la_empresa_hecho": {
+        "gastos_explotacion_gaap_fy2026_usd_mm": "5.095 - 5.145",
+        "gastos_explotacion_gaap_2t26_usd_mm": "1.280 - 1.290",
+        "gasto_no_operativo_gaap_2t26_usd_mm": "160 - 165",
+        "acciones_diluidas_2t26_mm": "565 - 571",
+        "fuente": "HECHO - nota de prensa de resultados 1T-2026, 8-K del 2026-04-30, exhibit 99.1, seccion 'Updated Financial Guidance'."
+      },
+      "construccion": "Ingresos netos FY2026E = 1T real 2.977 + consenso 2T ~2.630 (Yahoo Finance, cifra de consenso publicada antes del 30-jul) + 3T y 4T en linea con el 2T = 10.900 M (+9,8% sobre 2025). Resultado de explotacion = 10.900 - 5.120 (punto medio de la guia GAAP) = 5.780 M. No operativo neto normalizado -620 M (intereses 800, ingresos financieros 100, otros +80, SIN la plusvalia de 389). Antes de impuestos 5.160, impuesto 23% -> resultado neto ~3.973, atribuible ~3.918. FCE = 3.918 + D&A 1.540 + SBC 260 + impuesto diferido ~50 - capital circulante ~350 = ~5.300 M. Comprobacion cruzada: el 1T-2026 aporto 1.326 M de FCE, un 25% de 5.300, coherente con la estacionalidad (el 1T-2025 fue el 20,7% del FCE anual).",
+      "flujo_caja_explotacion_usd_mm": 5300,
+      "retribucion_acciones_usd_mm": 260,
+      "depreciacion_activos_propios_usd_mm": 580,
+      "capex_total_usd_mm": 790,
+      "gastos_financieros_usd_mm": 800,
+      "oe_mantenimiento_usd_mm": 4460,
+      "oe_capex_total_usd_mm": 4250,
+      "oe_mantenimiento_por_accion_usd": 7.88,
+      "oe_capex_total_por_accion_usd": 7.51,
+      "multiplo_actual_sobre_oe_capex_total": 19.8,
+      "multiplo_actual_sobre_oe_mantenimiento": 18.9,
+      "fcff_usado_en_dcf_usd_mm": 4870,
+      "etiqueta": "INFERENCIA. Un solo trimestre publicado, guia solo de gastos, sin guia de ingresos. Es la cifra mas fragil del expediente."
+    },
+    "distancia_entre_bases": {
+      "salto_oe_capex_total_pct": 17.0,
+      "salto_oe_mantenimiento_pct": 15.6,
+      "lectura": "El salto del 17% NO es tasa base, es CICLO. El desglose del 1T-2026 lo dice sin ambiguedad: los ingresos RECURRENTES crecieron 7%, los TRANSACCIONALES crecieron 34%. Casi todo el salto viene de volatilidad de energia y materias primas atravesando la camara. El consenso del 2T (2.630 M de ingresos netos) ya asume que ese pico no se sostiene: seria un 12% POR DEBAJO del 1T. La base en curso es, por tanto, un techo de ciclo y NO debe usarse sola para fijar el precio de compra.",
+      "regla_operativa": "Se pondera 60% base auditada / 40% base en curso para el valor intrinseco central. La base auditada tiene firma de auditor; la en curso tiene un trimestre y un pico."
+    }
+  },
+
+  "dcf_inverso": {
+    "metodo": "Para cada base: FCFF crece a g durante 10 anios, luego perpetuidad al 3%, descontado al WACC de 7,79%, y se resuelve la g que iguala el valor presente al EV de hoy (103.688 M). Terminal 3% fijo por instruccion.",
+    "g_implicita_base_auditada_pct": 4.56,
+    "g_implicita_base_en_curso_pct": 2.87,
+    "lectura": "El mercado, a 148,73 USD, esta pidiendo un 4,6% de crecimiento anual del flujo libre durante diez anios sobre lo ultimo auditado, o un 2,9% si acepta el ejercicio en curso como normal. Son cifras BAJAS. Despues de caer un 19% en doce meses, ICE ya no cotiza como una historia de crecimiento: cotiza como un peaje maduro. Eso hace que NO sea una accion cara en terminos absolutos. Pero 'no cara' y '40% de margen de seguridad' son dos cosas distintas, y la segunda es la que exige su banda."
+  },
+
+  "g_defendible": {
+    "valor_pct": 4.8,
+    "banda_pct": "4,0% - 6,0%",
+    "derivacion_por_identidad": {
+      "identidad": "g = tasa de reinversion x ROIIC ex-margen. Se usa el EX-MARGEN (8,2%), no el bruto (7,7%), porque usar el bruto asume que la expansion de margen se repite.",
+      "reinversion_historica": "La reinversion congelada del 48,7% de VENTAS equivale, sobre un NOPAT/ventas del 35-39%, a ~127-134% del NOPAT. Comprobacion independiente: capital invertido 2019 ~24.000 M -> 47.722 M en 2025 = ~23.700 M de reinversion neta sobre ~17.700 M de NOPAT acumulado = 134%. Con ROIIC 8,2% da g = 11,0%; el resultado de explotacion crecio de hecho al 10,7% anual (2.673 -> 4.929 en seis anios). LA IDENTIDAD CIERRA.",
+      "por_que_no_se_proyecta": "Ese 134% de reinversion se financio con DEUDA Y ACCIONES NUEVAS, no con caja propia: la deuda paso de ~8.000 M a 19.644 M y hubo emision para Black Knight. Ese motor esta APAGADO: en FY2025 las adquisiciones netas fueron 19 M frente a 10.198 M en 2023, la variacion de capital invertido fue de solo +551 M (tasa de reinversion del 14,4% del NOPAT) y la empresa esta recomprando acciones y desapalancando. Con la reinversion real de 2025, la identidad da g = 0,144 x 8,2% = 1,2%.",
+      "tasa_de_reinversion_defendible_pct_nopat": 55,
+      "g_por_identidad_pct": 4.5,
+      "justificacion_del_55": "Punto medio disciplinado entre el 134% historico (irrepetible sin volver a apalancarse) y el 14% de 2025 (ano sin M&A). Supone que ICE vuelve a hacer compras complementarias con caja propia sin subir el apalancamiento por encima de ~3x EBITDA."
+    },
+    "derivacion_bottom_up_de_control": {
+      "recurrentes": "44% de los ingresos netos del 1T-2026 (1.320/2.977), creciendo 7% y practicamente sin capital incremental.",
+      "transaccionales": "56%, hoy en pico de ciclo (+34%). A lo largo de un ciclo completo, y con la tarifa unitaria cayendo por debajo de la inflacion en TODOS los complejos medibles (dato congelado), el crecimiento sostenible es de volumen menos precio: 2-3%.",
+      "ponderado_pct": 4.8,
+      "convergencia": "Dos rutas independientes -identidad de reinversion (4,5%) y construccion por lineas de ingreso (4,8%)- caen en el mismo sitio. Se adopta 4,8%."
+    },
+    "advertencia": "Mi g defendible (4,8%) esta POR ENCIMA de la g que el mercado exige sobre la base auditada (4,56%) y muy por encima de la que exige sobre la base en curso (2,87%). Ese es exactamente el momento en el que hay que desconfiar de uno mismo: la unica manera de que ICE salga barata es que mi g sea mejor que la del mercado por un margen que no puedo demostrar. No lo puedo demostrar."
+  },
+
+  "valoracion": {
+    "valor_por_accion_base_auditada_usd": 152,
+    "valor_por_accion_base_en_curso_usd": 179,
+    "valor_por_accion_central_ponderado_usd": 163,
+    "piso_de_resolucion": "Sin medicion propia del ruido se aplica una banda de mas menos 25%. Valor intrinseco central 163 USD -> BANDA 122 - 204 USD. Cualquier decimal por debajo de esa banda es falso. El precio de hoy (148,73) cae DENTRO de la banda, lo que por si solo ya invalida cualquier afirmacion de infravaloracion.",
+    "banda_valor_intrinseco_usd": "122 - 204",
+    "mos_base_auditada_pct": 2.3,
+    "mos_base_en_curso_pct": 17.0,
+    "mos_central_ponderado_pct": 8.7,
+    "mos_exigido_pct": 40,
+    "veredicto_mos": "NO PASA, y no por poco. El mejor caso (base en curso, que es un pico de ciclo) da 17% frente a un 40% exigido. La base auditada da 2,3%: practicamente cero.",
+    "matriz_sensibilidad_valor_por_accion": {
+      "descripcion": "Valor por accion en USD. Filas = WACC, columnas = g a 10 anios. Formato: base auditada / base en curso.",
+      "wacc_7_40": {"g_3_5": "149 / 175", "g_4_8": "169 / 199", "g_6_0": "190 / 222"},
+      "wacc_7_79": {"g_3_5": "134 / 158", "g_4_8": "152 / 179", "g_6_0": "171 / 201"},
+      "wacc_9_00": {"g_3_5": "100 / 119", "g_4_8": "114 / 135", "g_6_0": "128 / 151"}
+    },
+    "lectura_sensibilidad": "De las nueve celdas, en NINGUNA se alcanza un MoS del 40% (haria falta un valor por accion de 248 USD o mas). Ni siquiera en la esquina mas generosa del cuadro -WACC 7,4% y g 6,0% sobre la base de pico de ciclo, 222 USD- se llega. Para que ICE valiese 248 USD haria falta una g superior al 7,5% sostenida diez anios con el WACC en el suelo del rango. Eso no es una tesis, es un deseo."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 16,
+    "definicion_m_estrella": "Multiplo de owner earnings (version b, capex total) que me comprometo a pagar, decidido EN FRIO y sin barra de error porque no es una estimacion sino una politica.",
+    "justificacion_m_estrella": "16x es el techo para un negocio que: (1) falla G3 medido, con ROIIC ex-margen del 8,2% frente a un WACC de 7,79% -crecimiento de valor CERO-; (2) tiene la tarifa unitaria cayendo por debajo de la inflacion en todos los complejos medibles, es decir su crecimiento es puro volumen y no tiene poder de precio; (3) tiene G4 NO_PROBADA -nunca ha atravesado un ejercicio de caida en quince anios verificados-, lo que significa que su resistencia esta SIN TESTAR, no demostrada; (4) lleva 45.999 M de fondo de comercio e intangibles sobre 47.722 M de capital invertido: el 96% del capital de esta empresa es precio pagado por otros negocios. Un peaje operativamente extraordinario (NOPAT/ventas 35-39%, capital invertido ex-fondo de comercio casi cero, caja por encima del beneficio en seis de siete anios) envuelto en una politica de capital mediocre no merece el multiplo de un compounder. 16x, y no discuto.",
+    "precio_a_m_estrella_base_auditada_usd": 103,
+    "precio_a_m_estrella_base_en_curso_usd": 120,
+    "p_estrella_usd": 98,
+    "derivacion_p_estrella": "P* = valor intrinseco central ponderado (163 USD) x (1 - 0,40) = 97,8 -> 98 USD. Por bases: 91 USD sobre la auditada, 108 USD sobre la en curso. La ruta independiente del multiplo comprometido (16x owner earnings) da 103-120 USD. Las dos rutas encierran a P* en la horquilla 91-120 USD, y el punto en el que ambas se solapan de verdad es ~100 USD.",
+    "p_estrella_banda_usd": "91 - 108",
+    "distancia_del_precio_a_p_estrella_pct": -34.1,
+    "traduccion": "ICE tendria que caer un 34% adicional -de 148,73 a 98- para que yo pueda abrir posicion. Ya ha caido un 19% en doce meses; hace falta otra caida de la misma magnitud otra vez."
+  },
+
+  "tir_esperada": {
+    "metodo": "TIR de comprar la accion a 148,73 y recibir el flujo de owner earnings (version b, apalancado, es decir despues de intereses) creciendo a g durante diez anios y luego al 3% a perpetuidad. Se resuelve el tipo de descuento que iguala el valor presente a la capitalizacion de hoy.",
+    "base_auditada": {"g_3_5_pct": 7.63, "g_4_8_pct": 8.12, "g_6_0_pct": 8.61},
+    "base_en_curso": {"g_3_5_pct": 8.41, "g_4_8_pct": 8.97, "g_6_0_pct": 9.51},
+    "rango": "7,6% - 9,5% anual",
+    "central": 8.5,
+    "lectura": "Comprar ICE hoy es firmar por alrededor de un 8,5% anual durante diez anios, con el rango honesto entre 7,6% y 9,5%. Contra un coste de fondos propios del 8,9%, eso es MENOS QUE EL COSTE DE CAPITAL en el caso central. No es una catastrofe -no es una TIR negativa, y esta muy lejos de los MoS de -352% que producian las valoraciones viejas- pero tampoco es una razon para mover dinero. Es aproximadamente el rendimiento de tener el indice, con el riesgo de una sola empresa."
+  },
+
+  "detector_trampa_de_valor": {
+    "veredicto": "NO",
+    "motivo": "El detector no llega ni a dispararse, porque NO HAY DESCUENTO GRANDE QUE EXPLICAR: el MoS es del 2,3% al 17%, no del 50%. Y el motor no se esta rompiendo: el interes abierto sigue acorralado en la camara propia, los ingresos recurrentes crecen al 7%, el margen de explotacion subio del 49,6% (FY2025) al 56% (1T-2026), y la caja supera al beneficio de forma sistematica. Lo que esta roto en ICE no es el motor sino la POLITICA DE CAPITAL: 19.826 M convertidos en crecimiento que rinde lo mismo que cuesta.",
+    "sospecha_registrada": "Se deja anotada una SOSPECHA sobre el motor de reinversion, no sobre el negocio: si ICE vuelve a hacer una adquisicion del tamano de Black Knight a multiplos parecidos, con un ROIIC ex-margen del 8,2% frente a un WACC del 7,8%, el accionista pagara la factura entera y no recibira nada a cambio. El gatillo de vigilancia natural es cualquier anuncio de M&A por encima de 3.000 M.",
+    "riesgo_contrario": "El riesgo real hoy no es la trampa de valor sino la TRAMPA DEL CICLO: tomar el 1T-2026 (+34% en ingresos transaccionales, plusvalia de inversiones de 389 M) como tasa base y convencerse de que hay un 17% de margen. El consenso del 2T ya apunta a un 12% menos que el 1T."
+  },
+
+  "veredicto": {
+    "decision": "NO COMPRAR - PRECIO INSUFICIENTE",
+    "una_linea": "Peaje operativamente magnifico, politica de capital mediocre y precio que, aun despues de caer un 19%, deja un margen de seguridad del 2-17% frente al 40% que exige su banda.",
+    "que_haria_cambiar_esto": [
+      "Precio por debajo de 98 USD (-34% desde hoy) con el negocio intacto.",
+      "Dos ejercicios consecutivos SIN M&A grande y con la reinversion dedicada a recompra por debajo de 16x owner earnings: eso convertiria el ROIIC empatado con el WACC en un problema historico en vez de vivo.",
+      "Evidencia de que la tarifa unitaria deja de caer por debajo de la inflacion en al menos dos de los complejos medibles: eso reabriria G3, que hoy esta fallada."
+    ],
+    "que_NO_cambia_esto": "El hecho de que el DCF inverso solo exija 2,87-4,56% NO reclasifica la etiqueta. La calidad esta congelada en MENOS_5_6 y sigue en MENOS_5_6."
+  },
+
+  "huecos_declarados": [
+    "PRECIO: no es HECHO. El MCP de IBKR devolvio resultados vacios en esta sesion y el cierre de 148,73 USD del 2026-07-27 procede de stockanalysis.com, un agregador. Queda etiquetado INFERENCIA. Verificar contra el broker antes de cualquier decision.",
+    "BETA: no es HECHO. 0,94 es la media de dos agregadores (stockanalysis 0,95, Yahoo 0,92) sin acceso a la regresion. Toda la sensibilidad del WACC a la beta esta en la matriz, que es la mitigacion.",
+    "2T-2026 A CIEGAS: el 10-Q y la nota de prensa del 2T-2026 se publican el 2026-07-30, dos dias despues de esta fecha de corte. TODA la base en curso descansa en un solo trimestre publicado mas guia de gastos. Este expediente debe releerse el 31-jul-2026.",
+    "INGRESOS 2T-4T 2026: no hay guia de ingresos de la empresa. Los 2.630 M del 2T son CONSENSO DE ANALISTAS via Yahoo Finance, no una cifra de la compania. Es prensa, el escalon mas bajo de la jerarquia.",
+    "AMORTIZACION DE SOFTWARE PROPIO: los 368 M son INFERENCIA por diferencia (1.560 - 198 - 994), no una linea desglosada del filing. Afecta directamente a la version (a) de owner earnings.",
+    "DAMODARAN JULIO 2026: las primas (4,17% mercado maduro, 4,45% EEUU) proceden de la sintesis de una busqueda web sobre la actualizacion de julio 2026, no del libro de trabajo descargado. Se cruzo con dos referencias que coinciden, pero no vi la hoja.",
+    "COSTE DE DEUDA: 4,01% es el coste EMBEBIDO derivado del filing, como pedia la instruccion. El coste MARGINAL de emitir hoy seria ~5,55%. La diferencia esta recogida en el escenario alto del WACC pero no en el central.",
+    "REPARTO GEOGRAFICO: no se descargo la nota de segmentos geograficos del 10-K. La atribucion del riesgo de activo a EEUU + Reino Unido es INFERENCIA razonada sobre la descripcion del negocio, no una cifra verificada.",
+    "IC 2019: el capital invertido inicial (~24.000 M) usado para comprobar la tasa de reinversion historica es una estimacion; solo se verifico el de 2025 (47.722 M, que coincide exactamente con el dato congelado)."
+  ]
+}

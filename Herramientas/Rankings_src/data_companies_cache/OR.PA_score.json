@@ -1,0 +1,59 @@
+{
+ "ticker": "OR.PA",
+ "name": "L'Oreal S.A.",
+ "moat_type": "Marca + intangibles (I+D dermatologico + escala de marketing)",
+ "moat_one_line": "Cartera de marcas iconicas globales (L'Oreal Paris, Lancome, La Roche-Posay, CeraVe, Kiehl's) respaldada por el mayor presupuesto de I+D y marketing en belleza, que crea pricing power y barreras de marca casi imposibles de replicar.",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Modelo de bienes de consumo con margen operativo record 20.2% y margen bruto 74.3%, pero NO escala con volumen al estilo software/redes; capex y marketing crecen con la facturacion, sin amplificacion 2.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Belleza es un mercado secular de crecimiento estructural (premiumizacion, dermocosmetica, Asia/emergentes) que L'Oreal capitaliza superando al mercado; +4% LFL FY2025 y +7.6% LFL Q1 2026 confirman durabilidad superior."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Lider mundial #1 indiscutible en belleza con ~14% de cuota global, multiplo del 2o (Estee Lauder/Unilever beauty); dominancia monstruosa e irreplicable que justifica el 2.0."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat irreplicable en decadas: ~36 marcas globales, mayor pool de patentes/I+D dermatologico del sector y escala publicitaria que ningun rival iguala; pricing power demostrado en margen bruto 74.3%."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento mayoritariamente organico (+4% LFL FY2025, +7.6% LFL Q1 2026); el M&A (Kering Beaute +1.5pp) es bolt-on complementario y disciplinado, no motor sustituto del crecimiento interno."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Diversificacion sobresaliente: 4 divisiones, ~36 marcas, presencia en >150 paises sin cliente >10-15%, equilibrio geografico Norteamerica/Europa/Asia/emergentes que amortigua shocks regionales."
+  },
+  "R7": {
+   "score": 1,
+   "just": "FCF solido (net cash flow EUR 7.16B, margen 16.3%, alta conversion) pero ROIC ~13.5% solo moderadamente sobre WACC (~7-8%) y por debajo de pares QG de elite; intensidad de capital razonable no penaliza, pero el ROIC no merece 1.5."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Balance impecable con posicion de caja neta (-EUR 2.05B deuda neta, ND/EBITDA -0.21x); fortaleza fortress que da opcionalidad total para M&A y dividendos."
+  },
+  "R9": {
+   "score": 1,
+   "just": "Contabilidad limpia de empresa francesa con comp mayormente en efectivo; SBC estimada ~2.5% del FCF (muy por debajo del umbral 15%), EPS reportado conservador vs ajustado, baja dilucion."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Gobierno excelente: familia Bettencourt (~34%) + Nestle como anclas de largo plazo (skin-in-the-game), asignacion de capital disciplinada, dividendo creciente (EUR 7.20) y M&A bolt-on en lugar de megadeals destructivos."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1+R3+R4 se refuerzan de forma monstruosa: el liderazgo global #1 (R3=2.0) y el moat de marca/I+D irreplicable (R4=2.0) alimentan el pricing power que sostiene margenes record (R1), creando un volante competitivo auto-reforzante donde escala -> mas I+D/marketing -> marcas mas fuertes -> mas cuota, dificil de romper en decadas.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "thesis_3lines": [
+  "Calidad: lider mundial #1 en belleza con cartera de ~36 marcas iconicas, margen bruto record 74.3% y balance en caja neta, una de las franquicias de consumo mas duraderas del mundo.",
+  "Motor de crecimiento: mercado de belleza secular (premiumizacion, dermocosmetica, Asia) que L'Oreal supera consistentemente -- LFL acelerando de +4% FY2025 a +7.6% en Q1 2026.",
+  "Valoracion/retorno: fwd P/E 27.2x cotiza ~24% por debajo de su media de 5 anios (35.7x), una normalizacion de multiplo (no un negocio roto) que ofrece punto de entrada razonable en un compounder de calidad."
+ ],
+ "bear_case_strongest": "PEG de 3.76 y ROIC de solo ~13.5% (modesto para QG de elite) implican que incluso a multiplo \"descontado\" el crecimiento de un solo digito no justifica 27x, mientras la dependencia de China/viajeros y la disrupcion de marcas indie nativas digitales podrian comprimir tanto crecimiento como margenes.",
+ "notes": "Score re-puntuado FASE 2 = 14.5/20 bruto, equivalente a ~13.0/13.5 normalizado al techo Seilern. Rebaja vs FASE 1 (13.5/13.5) impulsada por R7 (ROIC ~13.5% solo moderadamente sobre WACC) y R1 (consumo no escala como software). Fortalezas verificadas: R3 y R4 a 2.0 (dominancia y moat monstruosos), R8 a 1.5 (caja neta, ND/EBITDA -0.21x). SBC verificada inmaterial (~2.5% FCF) -> R9 sin penalizacion dura, sbc_flag=ok. Caida = not_depressed: ~7% off 52w high, fundamentales mejorando (Q1 LFL +7.6%, margenes record), normalizacion de multiplo COVID-era, no selloff por miedo. Campos clave verificados via IR primario (FY2025, Q1 2026); ROIC/PE-avg/SBC/net-debt estimados de agregadores. ethical_flag=none."
+}

@@ -1,0 +1,98 @@
+{
+ "ticker": "6861.T",
+ "name": "Keyence Corporation",
+ "asof_date": "2026-06-22",
+ "currency": "JPY",
+ "price": 77990,
+ "market_cap_usd_b": 113.9,
+ "fwd_pe": 37.3,
+ "peg": 3.68,
+ "last_q": {
+  "period": "Q3 FY2026 (qtr ended Dec 2025)",
+  "revenue": "JPY ~290B (qtr)",
+  "rev_yoy_pct": 7.7
+ },
+ "last_fy": {
+  "period": "FY2026 (ended Mar 31, 2026)",
+  "revenue": "JPY 1.17T (~USD 7.0B)",
+  "fcf": "JPY 402.3B",
+  "fcf_margin_pct": 34.4
+ },
+ "sbc_pct_revenue": 0,
+ "sbc_pct_fcf": 0,
+ "net_debt_usd_b": -8.95,
+ "nd_ebitda": -2.4,
+ "net_cash": true,
+ "guidance_fy": "Keyence does not issue formal full-year earnings guidance (long-standing policy of not providing public forecasts). Management signaled intent to maintain the higher dividend (~JPY 550/sh) in FY2027. Consensus EPS FY2027 ~JPY 2,048 (vs JPY 1,836 FY2026); analyst 12m price target avg ~JPY 84,475.",
+ "pct_off_52w_high": -7.3,
+ "pct_off_ath": -7.3,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "price",
+  "currency",
+  "last_fy.revenue",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "last_q.period",
+  "last_q.rev_yoy_pct",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "net_cash"
+ ],
+ "estimated_fields": [
+  "market_cap_usd_b",
+  "fwd_pe",
+  "peg",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "last_q.revenue",
+  "last_fy.roic_pct",
+  "last_fy.organic_growth_pct",
+  "guidance_fy",
+  "drop_classification",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct"
+ ],
+ "notes": "FISCAL YEAR: Keyence FYE = March 31. \"FY2026\" = year ended Mar 31, 2026 (reported Apr 18, 2026). FY2026 RESULTS (verified via IR/press): net sales JPY 1.17T (+10.4% YoY), operating profit ~JPY 595.7B (+8.4%), op margin 51.0%, net income JPY 445.2B (+11.7%, 5th consecutive record), EPS JPY 1,835.62, ROE 13.5%, equity ratio 94.6%, total assets JPY 3.67T, cash & equiv ~JPY 451B (StockAnalysis \"total cash\" incl. securities JPY 1.49T). Dividend raised sharply JPY 350->550/sh, payout 30.0%. Overseas revenue +14%. FCF JPY 402.3B, FCF margin 34.4%.\n\nVALUATION: price JPY 77,990 (StockAnalysis, 22-Jun-2026; Yahoo JPY 77,520-77,700 on 18-19 Jun). Market cap JPY ~18.91T = ~USD 114B (companiesmarketcap shows USD 117.1B; Yahoo USD 113.55B at JPY 77,520 — FX ~JPY 166/USD). Fwd P/E ~37.3 (StockAnalysis); one source showed 32.5. Trailing P/E ~42.5. PEG 3.68. fwd_pe_5y_avg NOT verified from a primary/clean source (left null); Keyence historically trades ~38-42x fwd, so current ~37x is roughly in line to modest discount vs its own history — pe_prem_disc_pct left null due to lack of verified 5y avg.\n\nDROP CLASSIFICATION = NOT_DEPRESSED: Stock is only ~7.3% below its 52-week AND all-time high of JPY 84,170 (reached May 8, 2026). 52-week range JPY 51,510-84,170; +21-39% over trailing 12m. This is NOT a depressed/sold-off name — it is trading near record levels. There is no meaningful \"drop\" to classify as fear vs deterioration. NOTE: companiesmarketcap shows USD market-cap ATH of ~USD 152B at end-2021, so on a USD basis the stock is well below its 2021 USD peak (weak yen + de-rate), but in local JPY terms it is near ATH. pct_off_ath here reflects JPY local-currency ATH.\n\nSBC: Keyence is a Japanese FA company with NO meaningful stock-based compensation program; SBC is negligible (~0% of revenue and FCF) — not a value-destruction concern for R9. Marked ESTIMATED (not separately disclosed as a line item in summary financials) but confidence high that it is immaterial.\n\nNET CASH: Keyence carries essentially zero interest-bearing debt; balance sheet is ~95% equity with large cash + securities (>JPY 1.4T). net_debt strongly negative (~ -USD 9B using cash & securities ~JPY 1.49T / FX 166.5); nd_ebitda negative (est). EBITDA ~JPY 620B+.\n\nGUIDANCE: Keyence famously does NOT provide formal earnings guidance. Consensus (not company guidance) FY2027 EPS ~JPY 2,048; revenue forecast ~+9.4%/yr next 3y per Simply Wall St.\n\nGAPS: exact Q4/Q3 revenue in JPY, GAAP/adj EPS by quarter, ROIC, organic growth %, and verified 5y avg fwd P/E not obtained from primary source within timebox — these are null/estimated. Primary IR PDF (tdnet/Keyence IR) referenced via aggregators (BigGo TDnet, Globe and Mail, TipRanks) rather than fetched directly (TipRanks 403, GlobeNewswire 404).",
+ "sources": [
+  {
+   "label": "StockAnalysis.com — Keyence 6861 Statistics (price, market cap, fwd/trailing P/E, PEG, EPS, FCF, cash)",
+   "url": "https://stockanalysis.com/quote/tyo/6861/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Globe and Mail / GlobeNewswire press release — Keyence FY2026 results (net sales, OP, net income, op margin, ROE, dividend)",
+   "url": "https://www.theglobeandmail.com/investing/markets/stocks/KYCCF/pressreleases/1514350/keyence-delivers-double-digit-profit-growth-and-hikes-dividend-on-strong-fy2026-results/",
+   "date": "2026-04-18"
+  },
+  {
+   "label": "BigGo Finance — Keyence Q3 FY2026 results (Revenue +7.7%, OP +4.9%) [TDnet relay]",
+   "url": "https://finance.biggo.com/news/jpx_tdnet_140120260123537908",
+   "date": "2026-01-23"
+  },
+  {
+   "label": "BigGo Finance — Keyence FY ended Mar 31 2026 results [TDnet relay]",
+   "url": "https://finance.biggo.com/news/jpx_tdnet_140120260418506301",
+   "date": "2026-04-18"
+  },
+  {
+   "label": "companiesmarketcap — Keyence market cap (USD current ~117B; USD ATH ~152B end-2021)",
+   "url": "https://companiesmarketcap.com/keyence/marketcap/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "WebSearch aggregate — 52-week range JPY 51,510-84,170; ATH JPY 84,170 on 8-May-2026; analyst targets",
+   "url": "https://finance.yahoo.com/quote/6861.T/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Quartr — Keyence IR / earnings summary & outlook",
+   "url": "https://quartr.com/companies/keyence-corporation_11375",
+   "date": "2026-06-22"
+  }
+ ]
+}

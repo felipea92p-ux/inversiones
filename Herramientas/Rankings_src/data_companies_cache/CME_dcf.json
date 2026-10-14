@@ -1,0 +1,42 @@
+{
+ "ticker": "CME",
+ "name": "CME Group Inc.",
+ "currency": "USD",
+ "current_price": 245.2,
+ "wacc_pct": 7.3,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.6,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = FY2025 reported FCF $4,193.6M (OCF $4,277.1M - CapEx $83.5M) menos 100% de la SBC FY2025 $94.8M = $4,098.8M (~$11.31/accion; margen owner FCF ~62.9% sobre ingresos FY2025 de $6,520.6M). SBC tratada como gasto en efectivo total. La SBC es pequena (1.45% de ingresos, 2.26% del FCF), tipico de un exchange asset-light.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 6,
+  "rev_cagr_y6_10_pct": 4,
+  "fcf_margin_terminal_pct": 63,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC restada del FCF como gasto en efectivo (Owner FCF = FCF reportado - SBC); SBC FY2025 = $94.8M (1.45% rev, 2.26% FCF)",
+  "shares_diluted_b": 0.3624,
+  "net_debt_usd_b": 1.03
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 236,
+   "prob": 0.375,
+   "note": "Crecimiento owner FCF y1-5 ~4%, declinando a 2.5% en y6-10; g terminal 2.5%; WACC 7.8% (beta 0.60 + 0.5% prima por riesgo competitivo). Refleja la entrada de FMX/BGC en clearing de US Treasuries (mandato SEC dic-2026), normalizacion de tipos que reduce ingresos por float, y de-rating sectorial. NO apocaliptico: el negocio core sigue creciendo y a maximos de margen. IV ~$236, cerca del precio actual ($245)."
+  },
+  "base": {
+   "iv_per_share": 328.2,
+   "prob": 0.475,
+   "note": "Crecimiento owner FCF y1-5 ~6% (consistente con organico FY2025 ~6% y track record de 4 anios consecutivos de ingresos record), declinando a 4% en y6-10; g terminal 3.0%; WACC 7.3%. Recoge el moat regulatorio/de liquidez de CME (efecto red en futuros de tipos, energia y equity index, margin offsets via SPAN). IV ~$328, ~34% sobre el precio."
+  },
+  "optimista": {
+   "iv_per_share": 465.1,
+   "prob": 0.15,
+   "note": "Crecimiento owner FCF y1-5 ~8.5% (ADV record sostenido en todas las clases de activo, nuevos productos como micro/event contracts, monetizacion de datos), declinando a 5% en y6-10; g terminal 3.5%; WACC 7.0%. CME defiende cuota en Treasuries y captura volatilidad estructuralmente mayor. IV ~$465."
+  }
+ },
+ "sanity_check": "CONTRASTE POR RENDIMIENTO TOTAL AL ACCIONISTA (exchange/datos, no DDM): CME distribuye casi todo su owner FCF via dividendo regular (~$5.00/accion anual, ~2.0% yield) MAS un dividendo especial variable anual (~$5.80/accion en el ciclo reciente), totalizando ~$10.8/accion = ~4.4% de yield total. La recompra es minima (CME retorna caja preferentemente via dividendos). El owner FCF yield es ~4.6% ($11.31/$245.2), casi identico al yield de dividendos, confirmando que el payout absorbe practicamente todo el owner FCF. Cruce de valoracion: fwd P/E NTM ~20.0x vs media 5a de 24.46x (descuento ~-18%); con owner EPS ~$11.3 el multiplo owner-FCF es ~21.7x, razonable para un moat de calidad. VI ponderado por probabilidad ~$314 (~+28% sobre $245), coherente con que el de-rating es por miedo (fear_rotation) y no por deterioro fundamental.",
+ "method_notes": "DCF de OWNER EARNINGS a 10 anios sobre Owner FCF base = $4,098.8M (FCF reportado $4,193.6M - 100% SBC $94.8M). Fase 1 (y1-5): CAGR explicito de owner FCF por escenario (4%/6%/8.5%). Fase 2 (y6-10): CAGR declinante linealmente hacia normalizacion (2.5%/4%/5%). Valor terminal con modelo de Gordon (g=2.5%/3.0%/3.5% segun amplitud del foso). Descuento al WACC = Rf 4.3% + ERP 5.0% x beta 0.60 = 7.3% (beta baja/defensiva tipica de exchanges; en conservador se anade +0.5% por riesgo competitivo, en optimista -0.3%). Sin ajuste geopolitico (emisor 100% EE.UU.). EV = PV de flujos + PV del terminal; Equity = EV - deuda neta $1.03B; VI/accion = Equity / 0.3624B acciones diluidas (= market cap $88.85B / precio $245.20). Nota metodologica: el ROIC no se calcula por la estructura inusual del balance (performance bonds del clearinghouse inflan activos/pasivos); el modelo se ancla en owner FCF reportado, no en NOPAT del balance. Datos de FASE 2 (10-K FY2025 / 10-Q Q1 2026, SEC EDGAR CIK 1156375)."
+}

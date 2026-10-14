@@ -1,0 +1,103 @@
+{
+ "ticker": "COST",
+ "name": "Costco Wholesale Corporation",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 951.35,
+ "market_cap_usd_b": 421.94,
+ "fwd_pe": 43.49,
+ "fwd_pe_5y_avg": 45.8,
+ "pe_prem_disc_pct": -5,
+ "peg": 4.43,
+ "last_q": {
+  "period": "Q3 FY2026 (12 weeks ended May 10, 2026)",
+  "revenue": "$70.527B total revenue ($69.154B net sales)",
+  "rev_yoy_pct": 11.6,
+  "op_margin_pct": 3.99,
+  "eps_gaap": "$4.93",
+  "eps_adj": "$4.93 (no non-GAAP adjustments; GAAP = adjusted)"
+ },
+ "last_fy": {
+  "period": "FY2025 (52 weeks ended Aug 31, 2025)",
+  "revenue": "$275.235B total revenue ($269.9B net sales)",
+  "organic_growth_pct": 8,
+  "roic_pct": 20,
+  "fcf": "$7.84B (OCF $13.335B - capex $5.498B)",
+  "fcf_margin_pct": 2.85
+ },
+ "sbc_pct_revenue": 0.31,
+ "sbc_pct_fcf": 11,
+ "net_debt_usd_b": -11.76,
+ "nd_ebitda": -0.85,
+ "net_cash": true,
+ "guidance_fy": "Costco does NOT issue formal financial guidance. Consensus (S&P Global / Wall Street) FY2026 EPS ~$20.52 on revenue ~$299B; FY2027 EPS ~$22.54 on revenue ~$323B. These are analyst estimates, not company guidance.",
+ "pct_off_52w_high": -13.2,
+ "pct_off_ath": -13.2,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "estimated_fields": [
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "last_fy.roic_pct",
+  "last_fy.fcf_margin_pct",
+  "guidance_fy",
+  "market_cap_usd_b",
+  "price"
+ ],
+ "sources": [
+  {
+   "label": "Costco Q3 FY2026 8-K press release (net sales +11.6% to $69.2B, EPS $4.93, comps +6.6% ex gas/fx, 89.7% renewal) via StockTitan",
+   "url": "https://www.stocktitan.net/news/COST/costco-wholesale-corporation-reports-third-quarter-and-year-to-date-ya9rfbnhnzg9.html",
+   "date": "2026-05-28"
+  },
+  {
+   "label": "Costco FY2025 10-K summary (net sales $269.9B, net income $8.099B, EPS $18.21) via StockTitan",
+   "url": "https://www.stocktitan.net/sec-filings/COST/10-k-costco-wholesale-corp-new-files-annual-report-03a0a41af443.html",
+   "date": "2025-10"
+  },
+  {
+   "label": "Costco FY2025 cash flow (OCF $13.335B, capex $5.498B, FCF $7.837B, SBC $860M) - StockAnalysis.com",
+   "url": "https://stockanalysis.com/stocks/cost/financials/cash-flow-statement/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Costco statistics: price $951.35, mkt cap $421.94B, fwd P/E 43.49, PEG 4.43, cash $20.0B, debt $8.23B, net cash $11.76B, EBITDA $13.79B - StockAnalysis.com",
+   "url": "https://stockanalysis.com/stocks/cost/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Costco 52-week high / ATH $1,096.50 (May 2026) - MarketBeat / StockAnalysis history",
+   "url": "https://stockanalysis.com/stocks/cost/history/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Costco forward P/E 5-yr avg (~44-48) and ROIC ~16% - GuruFocus",
+   "url": "https://www.gurufocus.com/term/forward-pe-ratio/COST",
+   "date": "2026-05-18"
+  },
+  {
+   "label": "Costco FY2025 full-year operating results (total revenue $275.235B, operating income $10.383B) - Costco IR / 8-K",
+   "url": "https://investor.costco.com/news/news-details/2025/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2025-Operating-Results/default.aspx",
+   "date": "2025-09-25"
+  }
+ ],
+ "notes": "FISCAL CALENDAR: Costco FY ends late Aug/early Sep. Q3 FY2026 = 12 weeks ended May 10, 2026. FY2025 = 52 weeks ended Aug 31, 2025. YTD (36 weeks) net sales $203.4B, net income $6.228B, EPS $14.01.\n\nVALUATION: fwd_pe of 43.49 is from StockAnalysis aggregator (likely NTM-blended). On explicit consensus FY2026 EPS ($20.52), forward P/E = ~46.4. 5y avg forward P/E ~45.8 (sources range 44-48). On the 46.4 basis the stock trades roughly AT its 5y average; on the 43.49 basis ~5% below. Either way Costco trades at an extreme absolute multiple (~50x trailing, mkt P/E ~52). PEG 4.43 reflects rich price vs ~10-12% EPS growth. ESTIMATED valuation fields due to aggregator dependence.\n\nNET CASH: cash & ST investments ~$20.0B vs total debt ~$8.23B = +$11.76B net cash. nd_ebitda = -11.76/13.79 = -0.85 (net cash, so leverage effectively zero/negative). Excludes ~$5B+ operating lease liabilities and the periodic special dividends Costco funds from this cash pile.\n\nSBC: very low for a mega-cap — FY2025 SBC $860M = 0.31% of revenue, ~11% of FCF. Non-dilutive concern minimal; one of the cleanest large-cap comp structures. CRITICO R9: PASS comfortably.\n\nROIC: ESTIMATED ~20% (GuruFocus reports 16% on a conservative invested-capital base incl. leases; on a net-cash-adjusted operating basis Costco's ROIC is typically low-20s to mid-20s%). High-quality capital efficiency.\n\nGUIDANCE: Costco issues NO formal financial guidance (long-standing policy). guidance_fy figures are Wall Street/S&P consensus estimates, explicitly NOT company guidance — flagged ESTIMADO.\n\nDROP CLASSIFICATION = fear_rotation: Stock is only ~13% off its all-time high ($1,096.50 set May 2026) — barely a 'drop.' Fundamentals are ACCELERATING, not deteriorating: Q3 net sales +11.6%, comps +6.6% ex gas/fx, GAAP EPS +15% YoY ($4.93 vs $4.28), membership renewal 89.7% worldwide / 92.2% US-Canada, 148.5M cardholders. The pullback is pure multiple de-rating / profit-taking on an extremely premium-valued staple after hitting record highs — valuation-driven rotation, NOT genuine deterioration. Borderline 'not_depressed' since it remains very richly valued; classified fear_rotation because the move is sentiment/valuation, not earnings.\n\neps_adj = eps_gaap: Costco reports clean GAAP earnings with no recurring non-GAAP adjustments."
+}

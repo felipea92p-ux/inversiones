@@ -1,0 +1,314 @@
+[
+ {
+  "ticker": "SU.PA",
+  "nombre": "Schneider Electric",
+  "vertical": "Equipo eléctrico / automatización y eficiencia",
+  "por_que_candidata": "El nombre más puro de la H2: distribución eléctrica de baja y media tensión + software de energía + una de las tres franquicias de sala blanca de centro de datos (UPS, switchgear, EcoStruxure). Vende a la demanda de electricidad, no al kWh subvencionado. ROCE 2025 15,1% (+30 pb a/a) — INFERENCIA/DEGRADADO: dato de prensa sobre su presentación FY25, sin verificar contra memoria auditada.",
+  "dependencia_de_subsidio_aparente": "BAJA",
+  "nota": "ROIC LIMPIO-ISH: el 15,1% que ellos publican YA lleva el goodwill de AVEVA/ETAP dentro, así que es la versión conservadora, no la inflada. Circulante ligeramente negativo por anticipos en proyectos, pero no domina. Riesgo real no es subsidio: es que 15% de ROCE con múltiplo de compounder deje poco margen."
+ },
+ {
+  "ticker": "ETN",
+  "nombre": "Eaton",
+  "vertical": "Equipo eléctrico y de media/alta tensión",
+  "por_que_candidata": "Cartera de pedidos de 23.000 M USD y guía 2026 subida de 8% a 10% orgánico (INFERENCIA/prensa). Es el peaje de la conexión: switchgear, busway, transformadores secos, servicios de puesta en marcha. Demanda de utility + centro de datos, ninguna partida de crédito fiscal en el margen.",
+  "dependencia_de_subsidio_aparente": "BAJA",
+  "nota": "OJO ROIC: Eaton reporta capital invertido con ~10 mil M de goodwill de Cooper dentro; su ROIC ~13-15% es la versión honesta, no la inflada. La distorsión aquí es la contraria a NKT — el goodwill DEPRIME el ROIC contable. Hay que reportar las dos y decir cuál se usa."
+ },
+ {
+  "ticker": "ABBN.SW",
+  "nombre": "ABB",
+  "vertical": "Equipo eléctrico / automatización",
+  "por_que_candidata": "Electrification es hoy la joya (baja/media tensión, protección, alimentación de datacenter) y Motion vende el motor eléctrico eficiente, que es eficiencia energética sin subsidio. Escindiendo Robotics: el resto queda más H2-puro.",
+  "dependencia_de_subsidio_aparente": "BAJA",
+  "nota": "ROIC a vigilar por goodwill acumulado de dos décadas de M&A y por el ruido de las desinversiones (Turbocharging, Robotics). El margen actual de Electrification (~23% EBITA) es de pico de ciclo: hay que buscarle el peor año 2016-2020, cuando ABB entera rendía por debajo de su coste de capital."
+ },
+ {
+  "ticker": "HUBB",
+  "nombre": "Hubbell",
+  "vertical": "Equipo eléctrico de media/alta tensión",
+  "por_que_candidata": "Utility Solutions vende a la base tarifaria regulada — el cliente recupera el gasto vía tarifa, no vía subsidio con fecha. Crecimiento orgánico 8% en Q1 2026 con doble dígito en Electrical Solutions (INFERENCIA/prensa sobre su 8-K). Es el proveedor, no el regulado: se queda el margen sin el techo regulatorio.",
+  "dependencia_de_subsidio_aparente": "NULA",
+  "nota": "ROIC relativamente limpio: circulante POSITIVO (inventario y cuentas a cobrar de distribuidor), sin float de cliente. Es de los pocos de la lista cuyo ROIC alto no está prestado. Distorsión menor por goodwill de Aclara/Systems Control."
+ },
+ {
+  "ticker": "NVT",
+  "nombre": "nVent Electric",
+  "vertical": "Gestión térmica y eléctrica / protección eléctrica",
+  "por_que_candidata": "Cartera de 2.600 M USD, ~10x más pequeña que Eaton pero creciendo 26-28% en 2026 (INFERENCIA/prensa). Enclosures y gestión térmica de rack + traceado eléctrico industrial: producto de bajo precio unitario y alta criticidad, el perfil clásico de foso de coste de cambio pequeño.",
+  "dependencia_de_subsidio_aparente": "NULA",
+  "nota": "Vendió Thermal Management (el negocio de traceado) y compró Avail/EPG: la serie histórica de ROIC ya no es comparable consigo misma. Goodwill pesado post-adquisiciones. No hay float de cliente relevante."
+ },
+ {
+  "ticker": "LR.PA",
+  "nombre": "Legrand",
+  "vertical": "Equipo eléctrico / infraestructura de centro de datos",
+  "por_que_candidata": "El caso de estudio de ROIC honesto: negocio de mecanismos e infraestructura eléctrica de edificio con ~20% de ventas ya en centro de datos (PDU, busway, cableado estructurado). Capital tangible ridículamente bajo, precios subidos por catálogo cada año.",
+  "dependencia_de_subsidio_aparente": "NULA",
+  "nota": "AVISO DOBLE DISTORSIÓN: sin goodwill su ROCE parece 40%+; con goodwill (30 años de bolt-ons) cae a ~12-13%. La cifra que decide es la que incluye el goodwill, porque el M&A ES su modelo de crecimiento y ese capital se gastó de verdad. Reportar ambas."
+ },
+ {
+  "ticker": "POWL",
+  "nombre": "Powell Industries",
+  "vertical": "Equipo de media/alta tensión (switchgear a medida)",
+  "por_que_candidata": "Switchgear y módulos eléctricos a medida para petroquímica, utility y ahora centro de datos. Es el eslabón físicamente escaso: no se puede acelerar sin cobre, acero y gente cualificada.",
+  "dependencia_de_subsidio_aparente": "NULA",
+  "nota": "BANDERA ROJA DE FLOAT — el caso más claro de la lista: su posición neta de facturación de contratos era PASIVO NETO a 30-jun-2026 y a 30-sep-2025 por anticipos y hitos favorables (INFERENCIA sobre su 10-Q, pendiente de leer el filing). Es decir: el cliente le financia el circulante y el ROIC publicado está prestado. Recalcular con el float dentro del denominador es obligatorio antes de creer ninguna cifra. Además, ciclo brutal: 2016-2020 fueron años de pérdidas operativas."
+ },
+ {
+  "ticker": "6501.T",
+  "nombre": "Hitachi",
+  "vertical": "Equipo de alta tensión / red",
+  "por_que_candidata": "Dueño del 100% de Hitachi Energy, probablemente el mejor activo del mundo en transformadores de potencia y HVDC: plazos de entrega de 48-60 meses y ~4.500 M USD comprometidos en ampliar capacidad (INFERENCIA/prensa). Un plazo de entrega de cuatro años ES el foso, y no lo paga ningún subsidio: lo paga quien quiere enchufar un centro de datos.",
+  "dependencia_de_subsidio_aparente": "BAJA",
+  "nota": "Problema de forma, no de fondo: es un conglomerado japonés y Hitachi Energy es ~un cuarto de las ventas. El ROIC consolidado no dice nada del activo bueno. Además Hitachi Energy tiene anticipos de cliente enormes por los plazos de 4 años — mismo vicio que NKT. Requiere abrir el segmento y devolverle el float."
+ },
+ {
+  "ticker": "PRY.MI",
+  "nombre": "Prysmian",
+  "vertical": "Cable",
+  "por_que_candidata": "Mayor cablero del mundo; tras Encore Wire tiene una pata norteamericana de cable de construcción que es demanda eléctrica pura, no proyecto público. Escala real en un oligopolio de tres en alta tensión submarina.",
+  "dependencia_de_subsidio_aparente": "MEDIA",
+  "nota": "DOS VICIOS A LA VEZ: (1) float — los proyectos turnkey de transmisión se cobran por hitos por delante de la obra, el circulante negativo infla el ROIC exactamente como en NKT; (2) parte del backlog de Transmission son cables de exportación de eólica marina, que sí dependen de subastas con fecha. La pregunta que decide: ¿cuánto del beneficio viene de Encore/Electrification (demanda) y cuánto de Transmission (programa)?"
+ },
+ {
+  "ticker": "VRT",
+  "nombre": "Vertiv",
+  "vertical": "Gestión térmica y eléctrica de centros de datos",
+  "por_que_candidata": "La franquicia instalada de refrigeración y alimentación crítica de centro de datos; el servicio recurrente sobre base instalada es la parte que no se ve en el titular de crecimiento. Cero exposición a crédito fiscal: cobra del capex del hiperescalador.",
+  "dependencia_de_subsidio_aparente": "NULA",
+  "nota": "ROIC ~19-23% publicado por proveedores de datos (INFERENCIA/DEGRADADO, sin verificar) — y el briefing avisa exactamente de esto: Vertiv tiene pasivos por contrato y depósitos de cliente relevantes; recalcular con el float dentro. Segundo aviso: su peor año reciente (2019-2021, post-SPAC, apalancada y con márgenes hundidos por coste de materiales) es el año que hay que mirar, no 2026."
+ },
+ {
+  "ticker": "MTRS.ST",
+  "nombre": "Munters Group",
+  "vertical": "Gestión térmica de centros de datos",
+  "por_que_candidata": "Refrigeración evaporativa y por aire para centros de datos de alta densidad, más AirTech industrial y un negocio agrícola aburrido que financia el ciclo. Nicho técnico donde el ahorro de agua/energía se vende por economía, no por regulación.",
+  "dependencia_de_subsidio_aparente": "BAJA",
+  "nota": "Mid-cap sueco: liquidez suficiente pero no comparable a un ETN. Historia de márgenes irregular bajo distintos dueños de private equity (Nordic Capital) — la serie de ROIC anterior a 2017 no es la misma empresa. Verificar cuánto del capital invertido es goodwill de la salida a bolsa."
+ },
+ {
+  "ticker": "SPXC",
+  "nombre": "SPX Technologies",
+  "vertical": "Gestión térmica / equipos de proceso térmico",
+  "por_que_candidata": "Torres de refrigeración (Marley) y sistemas de detección/calefacción; ingresos de centro de datos de 200 M USD en 2025 a ~350 M guiados en 2026, con techo declarado subido a 1.100 M anuales (INFERENCIA/prensa). Producto físico, cuota alta, mercado que nadie quiere disputar.",
+  "dependencia_de_subsidio_aparente": "BAJA",
+  "nota": "Roll-up: el ROIC contable está enterrado bajo goodwill de una docena de compras. Y una parte del segmento Detection & Measurement depende de presupuestos de transporte público (programa con fecha). Aislar el negocio térmico antes de valorar."
+ },
+ {
+  "ticker": "PWR",
+  "nombre": "Quanta Services",
+  "vertical": "Ingeniería y montaje de red",
+  "por_que_candidata": "Cartera récord de 53.400 M USD a 30-jun-2026 (INFERENCIA/prensa). No fabrica: alquila la única cosa verdaderamente escasa de la transición, que son cuadrillas certificadas de línea viva. Ese cuello de botella es humano y tarda una década en replicarse.",
+  "dependencia_de_subsidio_aparente": "MEDIA",
+  "nota": "AQUÍ NO SEA INGENUO: su segmento de Renewable Energy Infrastructure (montaje solar y eólico) es una porción material de las ventas y SÍ vive de ITC/PTC y de calendarios de subasta. El resto (T&D bajo base tarifaria, subestaciones, datacenter) es H2 pura. Hay que partir el ROIC por segmento o la cifra consolidada miente en las dos direcciones. Además es un roll-up con goodwill enorme; ROIC real ~10-12%, no espectacular."
+ },
+ {
+  "ticker": "FIX",
+  "nombre": "Comfort Systems USA",
+  "vertical": "Ingeniería y montaje (mecánico/eléctrico de misión crítica)",
+  "por_que_candidata": "Cartera de 14.060 M USD a 30-jun-2026 desde 8.120 M un año antes; tecnología ya el 45% de ventas; margen bruto del 25,1% frente al 19% de 2023 (INFERENCIA/prensa sobre sus 8-K). Un contratista con poder de precio es una anomalía y merece que se investigue si es estructural o de pico.",
+  "dependencia_de_subsidio_aparente": "NULA",
+  "nota": "BANDERA ROJA MÁXIMA DE ROIC: 49,7% LTM publicado, con 1.050 M de caja contra 39 M de deuda. Ese ROIC es literalmente el float — factura por delante del coste (billings in excess) y el cliente le presta el capital circulante entero. Con el float devuelto al denominador la cifra cae mucho. Segundo candado: su peor año (2010-2012, márgenes operativos de 1-2%) es el escenario de ciclo completo, y ese ciclo aún no ha llegado en esta expansión."
+ },
+ {
+  "ticker": "EME",
+  "nombre": "EMCOR Group",
+  "vertical": "Ingeniería y montaje (eléctrico y mecánico)",
+  "por_que_candidata": "Récord de 4.630 M USD de ingresos trimestrales (+19,7%) y obligaciones de desempeño pendientes de 15.620 M (+32,9% a/a) con 18,7% de margen bruto (INFERENCIA/prensa). Descentralizado, sin obra pública de gran formato, con historial de recompras agresivas.",
+  "dependencia_de_subsidio_aparente": "NULA",
+  "nota": "Mismo vicio de float que FIX, algo menos extremo: circulante negativo por facturación anticipada. También ROIC inflado por recompras que han encogido el patrimonio contable — dos artefactos apilados. Recalcular sobre capital invertido con float dentro y sin el efecto de la autocartera."
+ },
+ {
+  "ticker": "ROK",
+  "nombre": "Rockwell Automation",
+  "vertical": "Automatización y eficiencia energética",
+  "por_que_candidata": "Base instalada de PLC y variadores en fábricas norteamericanas con coste de cambio real (recualificar una línea cuesta más que el equipo). La eficiencia energética industrial se compra por payback, no por subvención. Y hoy cotiza tras varios años sin crecer: es el único de la lista que no está en euforia.",
+  "dependencia_de_subsidio_aparente": "NULA",
+  "nota": "AVISO DE ROIC POR INGENIERÍA DE BALANCE, no por float: décadas de recompra dejaron un patrimonio contable minúsculo, así que cualquier ratio sobre capital propio está inflado por construcción. Usar capital invertido bruto. Además: ciclo industrial corto, y su último ciclo (2024-2025) fue de destocking severo — ahí está el peor año, y hay que ver si ahí ganó su coste de capital."
+ },
+ {
+  "ticker": "ALFA.ST",
+  "nombre": "Alfa Laval",
+  "vertical": "Equipos de proceso térmico",
+  "por_que_candidata": "ROCE 23,9% en 2025 desde 23,2% (INFERENCIA/prensa sobre su informe anual). Intercambiadores de calor y separadores con ~50% de ventas de servicio y repuesto sobre base instalada — el briefing anterior ya identificó ese foso como real y no científico.",
+  "dependencia_de_subsidio_aparente": "BAJA",
+  "nota": "Normalizar goodwill antes de compararla con GEA: sin el mismo tratamiento la comparación es falsa (el error ya cazado en el barrido previo). Su división Energy tiene exposición a hidrógeno/CCS subvencionados, pero es una minoría; el grueso es marina, alimentación y HVAC. Circulante con anticipos en proyectos: revisar."
+ },
+ {
+  "ticker": "G1A.DE",
+  "nombre": "GEA Group",
+  "vertical": "Equipos de proceso térmico",
+  "por_que_candidata": "ROCE 36,2% en 2025 desde 33,8% (INFERENCIA/prensa). El briefing anterior estableció que GEA parecía perder contra Alfa Laval y en realidad gana cuando se normaliza el fondo de comercio — eso la convierte en candidata de pleno derecho, no en comparable.",
+  "dependencia_de_subsidio_aparente": "BAJA",
+  "nota": "EL ROCE DE 36,2% ES SU PROPIA DEFINICIÓN, y es donde vive el truco: hay que reconstruirlo con el mismo perímetro de goodwill que Alfa Laval y reportar las dos versiones diciendo cuál se usa y por qué. Su nueva línea de bombas de calor industriales sí toca programas europeos de descarbonización: aislarla."
+ },
+ {
+  "ticker": "SPX.L",
+  "nombre": "Spirax Group",
+  "vertical": "Equipos de proceso térmico / eficiencia",
+  "por_que_candidata": "Vapor industrial: base instalada de purgadores y válvulas, venta directa por ingeniero de campo, pedido pequeño y no aplazable. Es el arquetipo del foso aburrido. Y está en desgracia tras dos años de decepciones — que es cuando esta clase de negocio se mira.",
+  "dependencia_de_subsidio_aparente": "NULA",
+  "nota": "CIFRA QUE DUELE: ROIC 13,1% en 2025 frente a 12,8% en 2024, con objetivo declarado de superar el 15% (INFERENCIA/prensa sobre su announcement FY25). Un negocio de esa supuesta calidad rindiendo 13% después de pagar Chromalox y Vulcanic sugiere que el M&A destruyó parte del foso. Es candidata a caso de estudio de si el ROIC bajó por goodwill o por deterioro real del negocio."
+ },
+ {
+  "ticker": "VLTO",
+  "nombre": "Veralto",
+  "vertical": "Agua y tratamiento",
+  "por_que_candidata": "Calidad de agua (Hach, Trojan, ChemTreat) y marcado de producto: instrumento barato + consumible obligatorio + normativa de agua potable que no caduca con el ciclo político. ROCE ~21% (INFERENCIA/prensa), gestión con ADN Danaher.",
+  "dependencia_de_subsidio_aparente": "NULA",
+  "nota": "Los mismos datos de prensa señalan que el ROCE cayó desde ~29% en tres años: eso o es la contabilidad del spin-off de Danaher o es dilución por M&A (AQUAFIDES/TraceGains). Hay que separarlo. Sin float de cliente — su ROIC no está prestado, que en esta lista es una excepción."
+ },
+ {
+  "ticker": "300274.SZ",
+  "nombre": "Sungrow Power Supply",
+  "vertical": "Solar (inversores) + almacenamiento",
+  "por_que_candidata": "La candidata más fuerte de H1 por una razón mecánica: está EXCLUIDA del mercado estadounidense por aranceles y reglas FEOC, así que ni un yuan de su margen puede venir del 45X. 2025: ingresos RMB 89.180 M (+14,6%), beneficio neto atribuible RMB 13.460 M (~15,1% de margen neto), margen bruto 31,83% (+1,89 pp), 60,5% de ventas en el exterior creciendo +48,8%. Almacenamiento ya es 41,8% de ingresos con margen bruto 36,5%, por encima del inversor FV (34,7%) — señal de que el precio no lo pone el subsidio sino la escasez de integración.",
+  "dependencia_de_subsidio_aparente": "BAJA",
+  "nota": "INFERENCIA, no HECHO: la baja dependencia se deduce de la exclusión del mercado EE.UU. y del peso exterior, no de una nota de la memoria. Hay que abrir la memoria 2025 y buscar subvenciones gubernamentales (政府补助) en otros ingresos operativos — en China suelen ir ahí y no en coste de ventas. Riesgo real no-subsidio: es un mercado de inversores con precio descendente estructural y 4-5 competidores chinos con la misma curva de coste."
+ },
+ {
+  "ticker": "300750.SZ",
+  "nombre": "CATL (Contemporary Amperex)",
+  "vertical": "Baterías",
+  "por_que_candidata": "Escala que ninguno de sus rivales puede replicar y márgenes que sobreviven al colapso de precios: margen bruto 23,84% en baterías de tracción y 26,71% en almacenamiento, y 31,44% en ventas exteriores contra 24,00% domésticas — es decir, cobra prima fuera de China. Beneficio neto ~10.000 M$ en 2025 sobre RMB 423.700 M de ingresos. Los subsidios chinos al NEV están esencialmente extinguidos, así que este margen ya no los lleva dentro.",
+  "dependencia_de_subsidio_aparente": "BAJA",
+  "nota": "LEGALMENTE COMPRABLE — no está en NS-CMIC (verificado contra OFAC en el barrido anterior). Dos candados obligatorios antes de creerse nada: (1) pasivos contractuales RMB 49.200 M, +77% — es float de cliente y hay que devolverlo al denominador antes de publicar un ROIC; (2) el riesgo real no es OFAC sino MOFCOM: los controles de exportación de tecnología de baterías de litio, cátodo y grafito artificial en vigor desde el 8-nov-2025, con alcance extraterritorial, limitan precisamente su expansión internacional, que es de donde sale la prima de margen."
+ },
+ {
+  "ticker": "BWXT",
+  "nombre": "BWX Technologies",
+  "vertical": "Nuclear (propulsión naval, combustible, SMR)",
+  "por_que_candidata": "Foso real y verificado en el barrido anterior: una licencia NRC y la posición de único proveedor cualificado de reactores de propulsión naval de EE.UU. Cartera 7.300 M$ al cierre de 2025, +50% interanual, con adjudicaciones plurianuales. ROIC medio de cinco años ~13,5%. Cero subsidio verde en la cuenta de resultados.",
+  "dependencia_de_subsidio_aparente": "NULA",
+  "nota": "Subsidio nulo, pero el knock-out que la puede matar es OTRO y hay que leerlo por mecanismo, no literalmente: cliente único de facto (Marina de EE.UU./DOE). Y la pregunta incómoda para esta hipótesis: ¿es esto tecnología verde o es un contratista de defensa con una cola nuclear? Si sobrevive solo por esto, H1 no queda validada."
+ },
+ {
+  "ticker": "NXT",
+  "nombre": "Nextracker / Nextpower",
+  "vertical": "Solar (seguidores solares)",
+  "por_que_candidata": "Modelo asset-light real: FY2026 (cerrado 31-mar-2026) con ingresos 3.560 M$ (+20%), cartera récord >5.250 M$, ROIC publicado ~24% y ROE 27,5%. Si algo en solar puede ganar el coste de capital sin el cheque, es la parte de acero-e-ingeniería, no la de la oblea.",
+  "dependencia_de_subsidio_aparente": "MEDIA",
+  "nota": "DOS AJUSTES OBLIGATORIOS antes de aceptar ese 24%. (1) FLOAT: anticipos de clientes +55,7 M$ y diferido +68,1 M$ solo en FY2026; el capital lo pone el cliente. (2) SUBSIDIO OCULTO: la propia empresa reporta ~47 M$ (Q4 FY26), 53 M$ (Q3 FY26) y 67 M$ (Q4 FY25) de 'IRA 45X advanced manufacturing tax credit vendor rebates and tariffs, net' — ~200 M$/año que llegan como rebate del proveedor de acero y aterrizan en el coste de ventas, exactamente el patrón que advierte el briefing. Además su demanda estadounidense la crea el ITC del promotor."
+ },
+ {
+  "ticker": "5631.T",
+  "nombre": "The Japan Steel Works",
+  "vertical": "Nuclear (forja de vasijas)",
+  "por_que_candidata": "Cuello de botella físico casi puro: ~80% del mercado mundial de forjas nucleares grandes, y su planta de Muroran es prácticamente la única del mundo capaz de sacar componentes de vasija de lingotes de 600-670 t sin soldadura de costura. No hay subsidio en el negocio: hay una prensa de 17.000 t que nadie más tiene. FY3/2026: ventas ¥274.900 M (+10,6%), beneficio operativo ¥25.300 M (+10,9%), ratio de fondos propios 49,4%.",
+  "dependencia_de_subsidio_aparente": "NULA",
+  "nota": "El problema NO es el subsidio, es el retorno: ROIC 8,41% (fuente estructurada, sin normalizar goodwill ni arrendamientos) con margen operativo 9,2%. Eso está pegado al WACC o por debajo. Y el nuclear es una minoría de sus ingresos: JSW es también maquinaria de plástico y municiones. Candidata a morir en el Paso 3 por ROIC, con un foso impecable — el caso perfecto de foso real sin retorno."
+ },
+ {
+  "ticker": "DAR",
+  "nombre": "Darling Ingredients",
+  "vertical": "Biocombustibles + subproductos animales",
+  "por_que_candidata": "Es el mejor experimento natural de todo H1 porque tiene las dos mitades dentro de la misma empresa: una red de recogida y rendering con densidad geográfica irreplicable y sin un céntimo de subsidio, y la JV Diamond Green Diesel, que vive del cheque. En 2025 la mitad subsidiada se desplomó: EBITDA ajustado atribuible de DGD −64% hasta 104 M$, y la JV pasó de 298 M$ de beneficio en 2024 a 68 M$ de PÉRDIDA neta en 2025.",
+  "dependencia_de_subsidio_aparente": "MEDIA",
+  "nota": "La prueba está servida: vendió 235 M$ de créditos de producción 45Z en 2025 (125+60+50 M$) y pagó 29 M$ en descuentos y comisiones de intermediación que en 2024 no existían. Margen medio del año 0,21 $/galón. El trabajo del Paso 3 es trivial de plantear: valorar rendering y DGD por separado y ver si rendering solo gana el WACC del grupo. Si lo gana, la tesis es 'compro una recogedora de grasa que además tiene una opción fiscal'."
+ },
+ {
+  "ticker": "MIR",
+  "nombre": "Mirion Technologies",
+  "vertical": "Nuclear (detección y medición de radiación)",
+  "por_que_candidata": "Base instalada regulada: ~80% de los ingresos de nuclear vienen de la base instalada, con carácter recurrente y repetitivo, porque el equipo de medición está dentro de la licencia de operación de la central y cambiarlo cuesta recalificar. Margen EBITDA ajustado 25-26% en 2025 y guía de 25-26% para 2026, con FCF ajustado de 155-175 M$. Ni un dólar de subsidio verde.",
+  "dependencia_de_subsidio_aparente": "NULA",
+  "nota": "CANDADO OBLIGATORIO — es un de-SPAC de 2021 con el balance cargado de fondo de comercio. Un margen EBITDA del 25% sobre un capital invertido inflado por adquisiciones puede convivir con un ROIC miserable. Aplicar la corrección nº3 del briefing (reportar ROCE con y sin goodwill, declarar cuál se usa) o el número no significa nada. Además, crecimiento orgánico flojo enmascarado por compras."
+ },
+ {
+  "ticker": "VWS.CO",
+  "nombre": "Vestas Wind Systems",
+  "vertical": "Eólica",
+  "por_que_candidata": "El único fabricante eólico occidental con un negocio dentro que sí parece ganar su coste de capital: Servicio, con EBIT de 626 M€ en 2025 y guía de margen EBIT de 15,5-17,5% para 2026 sobre una flota instalada que no se puede mover de proveedor a mitad de contrato. Cartera combinada 71.900 M€. 2025: ingresos 18.800 M€, margen EBIT 5,7%, ROCE 11,8% (desde 8,0%).",
+  "dependencia_de_subsidio_aparente": "MEDIA",
+  "nota": "El ROCE de 11,8% es el MEJOR año de los últimos cinco, y el briefing exige mirar el PEOR de 7-10: 2022 y 2023 fueron de pérdidas operativas. El subsidio no está en su cuenta de resultados sino en la de su cliente (PTC en EE.UU., CfD en Europa) — que es el mismo mecanismo, un peldaño más arriba. Tesis honesta si la hay: comprar Servicio y aceptar que Power Solutions destruye valor en el ciclo."
+ },
+ {
+  "ticker": "CW",
+  "nombre": "Curtiss-Wright",
+  "vertical": "Nuclear (bombas, controles, instrumentación)",
+  "por_que_candidata": "Componentes cualificados para islas nucleares y propulsión naval, con posición de proveedor cualificado —no de tecnólogo— y un historial de ROIC de dos dígitos bajos sostenido a través de ciclos. Ni ITC, ni 45X, ni PTC: vende a constructores navales y a operadores de centrales.",
+  "dependencia_de_subsidio_aparente": "NULA",
+  "nota": "Misma objeción de categoría que BWXT: la mayoría del negocio es defensa e industrial y el nuclear comercial es la cola. Verificar qué porcentaje real de ingresos y de beneficio operativo es nuclear antes de contarla como candidata de H1; si es <25%, es una empresa de defensa y sale de este barrido."
+ },
+ {
+  "ticker": "SQM",
+  "nombre": "Sociedad Química y Minera de Chile",
+  "vertical": "Materiales de batería (litio)",
+  "por_que_candidata": "Posición de coste de primer cuartil real e irreplicable: salmuera del Salar de Atacama, con evaporación solar y sin subsidio de ninguna clase. Es la única forma en H1 de exponerse a la electrificación por el lado del coste y no por el lado del cheque, y sobrevivió con caja al valle de precios de 2024-25 que dejó en pérdidas a media industria.",
+  "dependencia_de_subsidio_aparente": "NULA",
+  "nota": "El riesgo no es el subsidio, son otros dos: (1) commodity pura, hay que valorarla con precio de ciclo y no de spot; (2) la asociación con Codelco reparte la renta del Salar con el Estado chileno desde 2025 y cambia la economía a futuro — hay que leer los términos antes de proyectar un ROIC histórico. Frontera: ¿es 'tecnología verde' o es minería? Defendible como candidata solo si el orquestador acepta materiales."
+ },
+ {
+  "ticker": "NESTE.HE",
+  "nombre": "Neste",
+  "vertical": "Biocombustibles (HVO/SAF)",
+  "por_que_candidata": "La incluyo como CASO DE PRUEBA, no por convicción: es el mayor productor mundial de diésel renovable y aceite de aviación sostenible y en 2025 rebotó con fuerza — EBITDA comparable del grupo 1.683 M€ (desde 1.252 M€) y de Renewable Products 764 M€ (desde 514 M€), con margen de venta comparable de 411 $/t sobre 4,1 Mt. Si el test del subsidio no la mata a ella, no mata a nadie.",
+  "dependencia_de_subsidio_aparente": "ALTA",
+  "nota": "Expectativa a priori: muere. Ese margen de 411 $/t no existe sin RED III, ReFuelEU Aviation y los RIN/BTC estadounidenses — el producto físico es diésel más caro que el fósil y el mandato es lo único que obliga a comprarlo. La cifra que decide: margen por tonelada neto de todo valor de certificado y crédito. Además el propio 2024 (377 $/t con caída de resultado) muestra la volatilidad del cheque, no del negocio."
+ },
+ {
+  "ticker": "FSLR",
+  "nombre": "First Solar",
+  "vertical": "Solar (módulo de teluro de cadmio)",
+  "por_que_candidata": "Caso de prueba obligatorio, no convicción: es la única fabricante occidental de módulos a escala con una tecnología distinta (capa fina CdTe, no obleas de silicio), balance neto de caja y protección arancelaria frente a China. Si existe un fabricante de módulos que gane el coste de capital sin subsidio, tendría que ser esta.",
+  "dependencia_de_subsidio_aparente": "ALTA",
+  "nota": "HECHO (8-K, feb-2025): vendió 857 M$ de créditos 45X del ejercicio 2024 en dos acuerdos de transferencia a 0,955 $ por dólar, con ~819 M$ de caja bruta esperada. Esa cifra es del mismo orden de magnitud que su beneficio operativo, y el crédito se reconoce dentro del coste de ventas. El único número que importa aquí es margen bruto y ROIC recalculados sin los 45X — el mismo cálculo que dejó a ENPH en −12,8%."
+ },
+ {
+  "ticker": "LIN",
+  "nombre": "Linde",
+  "vertical": "Hidrógeno (gases industriales)",
+  "por_que_candidata": "Es la respuesta incómoda de la vertical hidrógeno: la única empresa que demostrablemente gana su coste de capital vendiendo hidrógeno lo hace con el modelo aburrido —plantas on-site junto al cliente, contratos take-or-pay a 15-20 años con paso a coste de energía, densidad de red de tuberías en la costa del Golfo— y con retornos de dos dígitos medios sostenidos durante décadas y a través de recesiones.",
+  "dependencia_de_subsidio_aparente": "NULA",
+  "nota": "CASO FRONTERA declarado: no es tecnología verde, es gas industrial, y su hidrógeno es mayoritariamente gris/azul de reformado de metano. La incluyo porque es la refutación más limpia de la vertical: donde el hidrógeno gana dinero, gana por contrato y logística, no por electrólisis. El orquestador debería decidir si la reasigna a H2. Si se queda, el trabajo es aislar cuánto de su capital empleado es hidrógeno de verdad y qué retorno da ESE capital."
+ },
+ {
+  "ticker": "034020.KS",
+  "nombre": "Doosan Enerbility",
+  "vertical": "Nuclear (forja, islas nucleares, SMR)",
+  "por_que_candidata": "Uno de los tres o cuatro forjadores del mundo con capacidad para componentes nucleares ultragrandes, con encargo de generadores de vapor incluso para China (Laiyang 5 y 6, ocho forjas ultragrandes hasta 2029) y contrato de fabricación para el SMR de Rolls-Royce. Cartera récord de ₩26,35 bn (~18.100 M$) y pedidos del primer semestre de 2026 de ₩7,12 bn.",
+  "dependencia_de_subsidio_aparente": "BAJA",
+  "nota": "Sin subsidio verde, pero con dos problemas que probablemente la matan: (1) margen operativo del 6,1% en S1-2026 (₩547.800 M sobre ₩8,99 bn de ingresos) sobre un balance industrial pesadísimo — eso no gana un WACC coreano; (2) estructura de grupo con historia de rescate y participaciones cruzadas, y demanda ligada a política industrial coreana y a la exportación de APR1400, que es política, no mercado."
+ },
+ {
+  "ticker": "CCJ",
+  "nombre": "Cameco",
+  "vertical": "Nuclear (uranio y combustible)",
+  "por_que_candidata": "Activos de ley excepcional en la cuenca de Athabasca (Cigar Lake, McArthur River) que son irreplicables geológicamente, más el 49% de Westinghouse, que aporta servicio y combustible de base instalada. Es exposición a la demanda nuclear sin subsidio: el uranio se vende por contrato a servicios eléctricos, no por un crédito fiscal.",
+  "dependencia_de_subsidio_aparente": "NULA",
+  "nota": "Objeción seria y anterior al análisis: durante la década 2012-2021 Cameco NO ganó su coste de capital — cerró minas y tuvo pérdidas. El briefing exige el peor año de 7-10, y aquí el peor año es catastrófico. La pregunta honesta es si el régimen de contratación cambió estructuralmente o si esto es un pico de ciclo con otra narrativa encima. Además Westinghouse entra por puesta en equivalencia y ensucia cualquier ROIC consolidado."
+ },
+ {
+  "ticker": "0968.HK",
+  "nombre": "Xinyi Solar",
+  "vertical": "Solar (vidrio fotovoltaico)",
+  "por_que_candidata": "El único eslabón de la cadena solar con estructura de duopolio real (con Flat Glass) y barrera física: hornos de fusión que no se pueden parar sin destruirlos, lo que impide entrar y salir a voluntad, más integración hacia atrás en arena de cuarzo y coste energético. Mantuvo ROE por encima del 20% durante casi una década antes del desplome de 2024-25.",
+  "dependencia_de_subsidio_aparente": "BAJA",
+  "nota": "DESCONOCIDA en rigor: no verifiqué su 2025 contra la memoria, y el sector entero está en pérdidas. Es exactamente la candidata que el test del ciclo debe decidir — si el peor año de este ciclo (2025) es de pérdida operativa, muere sin discusión. La incluyo porque su mecanismo (horno continuo + coste) es distinto del de los fabricantes de módulo y merece el número antes del veredicto, no después."
+ },
+ {
+  "ticker": "BE",
+  "nombre": "Bloom Energy",
+  "vertical": "Hidrógeno / pilas de combustible",
+  "por_que_candidata": "Es la única de la vertical hidrógeno-pilas que dejó de quemar caja: beneficio operativo GAAP de 72,8 M$ en 2025 (desde 22,9 M$), margen bruto 29,0% (+1,6 pp), 113,9 M$ de flujo de caja operativo y segundo año consecutivo de flujo de caja libre positivo. Y su demanda ya no es climática: son centros de datos de IA que necesitan potencia en meses, no en años, donde el cliente paga por VELOCIDAD DE CONEXIÓN, no por descarbonizar.",
+  "dependencia_de_subsidio_aparente": "MEDIA",
+  "nota": "El giro a centros de datos es lo único interesante y es reciente: si el cliente paga por saltarse cinco años de cola de interconexión, ese precio no lo pone el ITC. Pero el 30% de ITC para pilas de combustible sigue siendo pieza declarada de la economía del cliente, junto con incentivos estatales e internacionales, y la propia empresa gestionó un 'safe harbor' para asegurar su disponibilidad — eso solo se hace cuando el crédito importa. Cifra que decide: precio por kW ganado en un contrato de centro de datos sin ITC."
+ },
+ {
+  "ticker": "300014.SZ",
+  "nombre": "EVE Energy",
+  "vertical": "Baterías / almacenamiento estacionario",
+  "por_que_candidata": "Segundo escalón chino de celdas con especialización creciente en almacenamiento estacionario y celdas de gran formato, rentable a través del valle de precios de 2024-25 que dejó a coreanos y europeos en pérdidas. Es el contraste directo con LGES y Samsung SDI: misma industria, sin AMPC, y aun así gana dinero.",
+  "dependencia_de_subsidio_aparente": "DESCONOCIDA",
+  "nota": "La menos verificada de la lista y la digo así: no abrí su memoria. Se incluye por VALOR DE CONTRASTE — si un fabricante de celdas sin acceso al 45X/AMPC gana dinero y uno con acceso pierde sin él, la conclusión sobre el subsidio es directa. Antes de nada: pasivos contractuales y anticipos al denominador (mismo problema que CATL), y verificar subvenciones gubernamentales en otros ingresos."
+ },
+ {
+  "ticker": "LEU",
+  "nombre": "Centrus Energy",
+  "vertical": "Nuclear (enriquecimiento y HALEU)",
+  "por_que_candidata": "Único enriquecedor de propiedad estadounidense y prácticamente el único productor occidental cualificado de HALEU, el combustible que necesitan casi todos los diseños de reactor avanzado. Escasez estructural agravada por la prohibición de importar uranio enriquecido ruso.",
+  "dependencia_de_subsidio_aparente": "ALTA",
+  "nota": "Expectativa a priori: muere en el knock-out, no por el ROIC sino por el mecanismo. Su capacidad HALEU la financia y la contrata el DOE — cliente único y financiador único a la vez, que es la forma más pura del subsidio disfrazada de contrato. Y el negocio heredado (SWU comprado y revendido) tiene margen de intermediario. La incluyo para que el veto sea explícito y documentado, no por omisión."
+ }
+]

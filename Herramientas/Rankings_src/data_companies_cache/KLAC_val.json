@@ -1,0 +1,48 @@
+{
+ "ticker": "KLAC",
+ "name": "KLA Corporation",
+ "currency": "USD",
+ "price_verified": 269.16,
+ "price_source": "StockAnalysis.com (cross-checked vs Yahoo/CNBC search), NASDAQ close",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 1.318,
+ "implied_mcap_b_usd": 354.8,
+ "mcap_sanity_ok": true,
+ "structural_change": "Mejora estructural REAL (no ciclica solamente): KLA es un cuasi-monopolio en control de proceso (inspeccion/metrologia) con ~85%+ de cuota, ROIC ~40%, y exposicion creciente a packaging avanzado y demanda de memoria HBM impulsada por IA. La franquicia se ha fortalecido. PERO el precio ha subido ~109% en 6 meses y cotiza en maximo historico: la prima de valoracion actual (~62x fwd FY27 vs media 5a de 27x, +130%) es CICLICA/momentum, no justificada por mejora estructural. Aplico prima modesta al multiplo (27x->32x) por upgrade estructural, pero el grueso de la prima de mercado actual es exceso ciclico. Split 10:1 efectivo 12-jun-2026 (todas las cifras post-split).",
+ "wacc_pct": 10.8,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.3,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = FCF $3.747B - 100% SBC $1.360B = $2.387B (~$1.81/accion post-split). Run-rate FY2026 ~$2.78B (FCF ~$4.28B sobre rev ~$13.9B y margen FCF ~30.8%, menos SBC ~$1.5B). Base DCF normalizado ~$2.4-2.8B segun escenario, dado upcycle fuerte pero naturaleza ciclica del WFE.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 27.78,
+   "prob": 0.38,
+   "note": "Normalizacion ciclica del ciclo WFE. Owner FCF base $2.4B, CAGR fase1 7%, declina a g terminal 2.5%, WACC 10.8%. Pesimista razonable: digestion del upcycle de IA, no apocaliptico."
+  },
+  "base": {
+   "iv_per_share": 41.52,
+   "prob": 0.47,
+   "note": "Ciclo IA/packaging avanzado solido y sostenido. Owner FCF base $2.6B, CAGR fase1 12% declinando a terminal 3.0%, WACC 10.8%."
+  },
+  "optimista": {
+   "iv_per_share": 58.47,
+   "prob": 0.15,
+   "note": "Supercycle secular de WFE/HBM. Owner FCF base $2.8B, CAGR fase1 16% declinando a terminal 3.5%, WACC 10.8%."
+  }
+ },
+ "iv_dcf_weighted": 38.84,
+ "multiple_metric": "P/E adelantado (non-GAAP, sobre EPS FY2027 normalizado)",
+ "fwd_multiple_now": 61.9,
+ "fwd_multiple_5y_avg": 27,
+ "fair_multiple": 32,
+ "multiple_rationale": "EPS non-GAAP FY2026 post-split ~$3.69 (Q1 $8.81 + Q2 $8.85 + Q3 $9.40 + Q4 guia $9.87, todo pre-split /10). FY2027 normalizado ~$4.35 (crecimiento ~12-18% sobre run-rate Q4; uso ~$4.35, mas conservador que el +34% de Zacks que parece atipico). fwd P/E actual sobre FY27 ~62x (sobre FY26 ~73x) vs media 5a ~27x: prima de +130%. fair_multiple = 32x = media 5a 27x + prima modesta por upgrade estructural (cuasi-monopolio control de proceso, ROIC ~40%, exposicion IA/packaging). iv_multiple = $4.35 * 32 = $139.2. El multiplo actual descuenta un supercycle perpetuo no sostenible para un negocio ciclico.",
+ "iv_multiple": 139.2,
+ "weight_dcf": 0.45,
+ "weight_multiple": 0.55,
+ "reconciled_iv": 94.04,
+ "sanity_notes": "SANITY CHECK OK: price $269.16 (NASDAQ, 22-jun-2026, StockAnalysis cruzado con busqueda Yahoo/CNBC) x 1.318B acciones diluidas = ~$354.8B mcap, coincide con escala conocida (~$350B mega-cap; StockAnalysis reporta $351.6B usando ~1.306B acciones en circulacion vs 1.318B diluidas). Split 10:1 efectivo 12-jun-2026 confirmado: 131.96M acciones pre-split (10-K jul-2025) x10 = 1.32B post-split; EPS TTM $3.53 post-split confirma. Sin error de moneda (USD en todo) ni de unidades. ATENCION fwd_pe del JSON (54.52) es sobre FY26 a precio mas alto; el verdadero forward sobre FY27 es ~62x. REGLA DE MAGNITUD: reconciled_iv $94 = 35% del precio (dentro del rango 30-300%, en el limite bajo). NO es error de acciones/moneda: ambos metodos (DCF $38.84 y multiplo $139.2) confirman SOBREVALORACION SEVERA. La accion subio ~109% en 6 meses a maximo historico por euforia IA/packaging avanzado; el precio se ha desacoplado de los fundamentales. Pesos 0.45 DCF / 0.55 multiplo: lean al multiplo porque el DCF infra-credita reinversion a ROIC ~40%, pero peso DCF elevado (vs 0.35 tipico de compounder) por la fuerte ciclicidad/alto capex-exposure del WFE. Veredicto: calidad excepcional a un precio claramente excesivo hoy."
+}

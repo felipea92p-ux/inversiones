@@ -1,0 +1,42 @@
+{
+ "ticker": "VRSK",
+ "name": "Verisk Analytics, Inc.",
+ "currency": "USD",
+ "current_price": 168.99,
+ "wacc_pct": 8.55,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.85,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = USD 1,137.7M = FCF reportado FY2025 $1,191.9M menos 100% de SBC FY2025 $54.2M. Margen owner-FCF ~37.0% sobre ingresos FY2025 de $3,072.7M (vs FCF margin reportado 38.8%). El haircut por SBC es minimo (SBC solo 1.76% de ingresos / 4.5% del FCF), uno de los mas favorables del universo QG, por lo que owner earnings ~ FCF reportado.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 7,
+  "rev_cagr_y6_10_pct": 5.5,
+  "fcf_margin_terminal_pct": 39,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC tratada como gasto en efectivo (restada del FCF reportado). SBC FY2025 = $54.2M = 1.76% ingresos / 4.5% FCF; haircut minimo.",
+  "shares_diluted_b": 0.131,
+  "net_debt_usd_b": 3.95
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 136.45,
+   "prob": 0.375,
+   "note": "El 'trough' de crecimiento organico se prolonga: ingresos crecen ~4.5% CAGR anios 1-5 (cerca del +3.9% reportado Q1'26), declinando a ~3.0% anios 6-10. Margen owner-FCF estabilizado ~38%. Valor terminal g=2.5% (asume que la IA erosiona parcialmente el poder de fijacion de precios y el foso de datos). Refleja el miedo a comoditizacion sin colapso del negocio. IV implica ~19% por debajo del precio actual."
+  },
+  "base": {
+   "iv_per_share": 176.9,
+   "prob": 0.475,
+   "note": "Recuperacion hacia el track record: ingresos ~7.0% CAGR anios 1-5 (vs organico FY25 6.6% y guia FY26 ~4-5% reportada, con re-aceleracion segun la direccion al normalizarse volumen transaccional), declinando a ~4.0% anios 6-10. Margen owner-FCF ~39%, valor terminal g=3.0% (foso de datos de seguros intacto). IV ~5% sobre el precio: practicamente fairly valued."
+  },
+  "optimista": {
+   "iv_per_share": 229.72,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: re-aceleracion organica a ~9.5% CAGR anios 1-5 (subscription >70% recurrente + nuevos productos analiticos/IA monetizados), declinando a ~5.0% anios 6-10. Expansion de margen owner-FCF a ~40%, valor terminal g=3.5%. La IA refuerza (no comoditiza) el foso de datos propietarios. IV ~36% sobre el precio."
+  }
+ },
+ "sanity_check": "VI ponderada por probabilidad = ~$169.7/accion, esencialmente IGUAL al precio actual de $168.99 -> mercado fairly valued tras la caida del -46% desde maximos (clasificada como fear_rotation, no deterioro). Cross-check de retorno total al accionista (NO DDM): dividendo ~$1.80/accion = yield ~1.1%, complementado por recompra agresiva (la caja cayo de $2,178M a $524M en Q1'26 financiando recompras aceleradas con deuda -> net debt subio a $3.95B, ND/EBITDA ~2.2x). El shareholder yield combinado (div + recompra) es alto pero parte de la recompra esta apalancada, lo que limita su sostenibilidad si el crecimiento no se reacelera. Cross-check de multiplo: a IV base $176.9 el fwd P/E implicito (~22-23x) esta muy por debajo de la media historica ~30x, coherente con un negocio de calidad descontado por miedo a la IA. EV/owner-FCF base ~24x. Margen de seguridad escaso al precio actual; la asimetria depende de si el 'trough' organico es transitorio (tesis de la direccion) o estructural (tesis de comoditizacion por IA).",
+ "method_notes": "DCF de owner earnings a 10 anios en dos fases descontado al WACC. WACC = Rf 4.3% (UST 10Y, empresa USD) + ERP 5.0% x beta 0.85 = 8.55%; beta 0.85 estimada para datos/analitica de suscripcion de baja ciclicidad (sin ajuste geopolitico, EE.UU.). Owner FCF base = FCF reportado FY2025 ($1,191.9M) - 100% SBC ($54.2M) = $1,137.7M, crecido por la senda de ingresos asumiendo margen owner-FCF estabilizado ~38-40% (cada escenario). Fase 1 (anios 1-5): CAGR de ingresos explicito; Fase 2 (anios 6-10): CAGR declinante linealmente hacia normalizacion. Valor terminal con g=2.5%-3.5% segun la fortaleza del foso (datos propietarios de seguros, costos de cambio altos). Equity = EV - deuda neta $3.95B; VI/accion = equity / 131.0M acciones diluidas (verificado: market cap $22.14B / $168.99 = 131.0M). El valor terminal pesa 58-66% del EV (tipico de un compounder de margen alto/larga duracion). Datos VERIFICADOS via SEC (10-Q Q1'26 + 10-K FY2025 + XBRL). Probabilidades: conservador 0.375, base 0.475, optimista 0.15 (suma 1.0)."
+}

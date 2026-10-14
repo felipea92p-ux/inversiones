@@ -1,0 +1,106 @@
+{
+ "ticker": "ADYEN.AS",
+ "name": "Adyen N.V.",
+ "asof_date": "2026-06-22",
+ "currency": "EUR",
+ "price": 874.2,
+ "market_cap_usd_b": 31.6,
+ "fwd_pe": 22.65,
+ "fwd_pe_5y_avg": 45,
+ "pe_prem_disc_pct": -50,
+ "peg": 1.26,
+ "last_q": {
+  "period": "H2 2025 (Jul-Dec 2025)",
+  "revenue": "EUR 1,270.7M net revenue",
+  "rev_yoy_pct": 17,
+  "op_margin_pct": 49,
+  "eps_gaap": "n/a (semi-annual reporter; FY2025 diluted EPS EUR 33.61)",
+  "eps_adj": "n/a"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 2025)",
+  "revenue": "EUR 2,364.2M net revenue",
+  "organic_growth_pct": 21,
+  "roic_pct": null,
+  "fcf": "EUR ~907M",
+  "fcf_margin_pct": 38
+ },
+ "sbc_pct_revenue": 2,
+ "sbc_pct_fcf": 5,
+ "net_debt_usd_b": -12.1,
+ "nd_ebitda": -8.5,
+ "net_cash": true,
+ "guidance_fy": "FY2026 (PROJECTION): net revenue growth 20-22% YoY constant currency; EBITDA margin broadly in line with 2025 (~53%); CapEx up to 5% of net revenue. Medium-term target: EBITDA margin above 55% by 2028.",
+ "pct_off_52w_high": -42.9,
+ "pct_off_ath": -69,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "price",
+  "currency",
+  "asof_date",
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "guidance_fy",
+  "net_cash"
+ ],
+ "estimated_fields": [
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_fy.roic_pct",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "notes": "Adyen reports SEMI-ANNUALLY (H1/H2), so \"last_q\" = H2 2025 (Jul-Dec 2025), the most recent reported period; full audited FY2025 Annual Report published 2026-03-05. VERIFIED from Adyen IR press release/shareholder letter: FY2025 net revenue EUR 2,364.2M (+18% reported / +21% constant currency), EBITDA EUR 1,245.7M (+26%, 53% margin vs 50% in 2024), FCF conversion 87%. H2 2025 net revenue EUR 1,270.7M (+17% / +21% cc), EBITDA margin 55%. FY2025 net income EUR 1,063M, diluted EPS EUR 33.61, FY operating margin ~47%, FCF ~EUR 907M (FCF margin ~38%) — net income/EPS/FCF EUR figures sourced from StockAnalysis.com (ESTIMADO/aggregator). last_q op_margin (~49%) is an estimate; only EBITDA margin (55%) disclosed for the half. Price EUR 874.20 (2026-06-22, StockAnalysis). Market cap EUR ~27.58B; converted to USD ~31.6B at EUR/USD ~1.146 (ECB ref ~1.146 on 2026-06-21). Net CASH position EUR ~10.58B (no debt) per StockAnalysis -> negative net debt ~ -USD 12.1B; nd_ebitda negative (~ -8.5x) reflecting large net cash. fwd_pe 22.65 and PEG 1.26 from StockAnalysis (ESTIMADO); fwd_pe_5y_avg ~45x is an ESTIMATE — Adyen de-rated massively from ~100x (2021) toward low-20s, so the trailing 5y mean is elevated; pe_prem_disc_pct ~ -50% reflects current discount to that 5y mean. SBC: Adyen runs structurally LOW SBC (~1-2% of revenue) due to Netherlands 20% bonus cap, though rising with US expansion; exact FY2025 SBC line not pulled from primary statements -> sbc_pct_revenue ~2% and sbc_pct_fcf ~5% are ESTIMATES. 52w high ~EUR 1,530 (-42.9%); ATH ~EUR 2,835 (Nov 2021) -> ~ -69%. DROP CLASSIFICATION = fear_rotation: despite -43% off 52w high and -69% off ATH, fundamentals are ACCELERATING (revenue +18-21%, EBITDA +26%, margin expanding, strong FCF, robust net cash, 20-22% FY2026 growth guidance) -> multiple compression / growth-to-value rotation and de-rating, NOT genuine deterioration. ROIC not disclosed in primary press releases (left null).",
+ "sources": [
+  {
+   "label": "Adyen IR - H2 2025 financial results press release",
+   "url": "https://www.adyen.com/press-and-media/adyen-publishes-h2-2025-financial-results-3pgu2",
+   "date": "2026"
+  },
+  {
+   "label": "Adyen IR - H2 2025 Shareholder Letter",
+   "url": "https://investors.adyen.com/financials/h2-2025-4r9rc",
+   "date": "2026"
+  },
+  {
+   "label": "Adyen IR - H1 2025 financial results press release",
+   "url": "https://www.adyen.com/press-and-media/adyen-publishes-h1-2025-financial-results",
+   "date": "2025-08"
+  },
+  {
+   "label": "Adyen IR - 2025 Annual Report (published 2026-03-05)",
+   "url": "https://investors.adyen.com/financials/2025",
+   "date": "2026-03-05"
+  },
+  {
+   "label": "StockAnalysis.com - Adyen (AMS:ADYEN) statistics",
+   "url": "https://stockanalysis.com/quote/ams/ADYEN/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com - Adyen (AMS:ADYEN) financials",
+   "url": "https://stockanalysis.com/quote/ams/ADYEN/financials/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "ECB EUR/USD reference rate",
+   "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
+   "date": "2026-06-21"
+  }
+ ]
+}

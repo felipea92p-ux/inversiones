@@ -1,0 +1,99 @@
+{
+ "ticker": "FDS",
+ "name": "FactSet Research Systems Inc.",
+ "asof_date": "2026-06-22",
+ "price": 218.62,
+ "currency": "USD",
+ "market_cap_usd_b": 8.19,
+ "fwd_pe": 12.5,
+ "fwd_pe_5y_avg": 29.6,
+ "pe_prem_disc_pct": -58,
+ "peg": 1.77,
+ "last_q": {
+  "period": "Q2 FY2026 (ended 2026-02-28)",
+  "revenue": "$611.0M",
+  "rev_yoy_pct": 7.1,
+  "op_margin_pct": 30.3,
+  "eps_gaap": "$3.59",
+  "eps_adj": "$4.46"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended 2025-08-31)",
+  "revenue": "$2,321.7M",
+  "organic_growth_pct": 5.7,
+  "roic_pct": 17.65,
+  "fcf": "$617.5M",
+  "fcf_margin_pct": 26.6
+ },
+ "sbc_pct_revenue": 2.6,
+ "sbc_pct_fcf": 9.9,
+ "net_debt_usd_b": 1.03,
+ "nd_ebitda": 1.13,
+ "net_cash": false,
+ "guidance_fy": "FY2026 (raised at Q2): GAAP revenue $2,450M-$2,470M; organic ASV growth $130M-$160M (~5.4%-6.7%); GAAP diluted EPS $14.85-$15.35; adjusted diluted EPS $17.25-$17.75 (PROYECCION de la direccion)",
+ "pct_off_52w_high": -51.8,
+ "pct_off_ath": -54.8,
+ "drop_classification": "mixed",
+ "data_quality": "VERIFICADO_mostly",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "guidance_fy",
+  "net_debt_usd_b"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "FactSet Q2 FY2026 earnings release (8-K, SEC EDGAR / StockTitan)",
+   "url": "https://www.stocktitan.net/news/FDS/fact-set-reports-results-for-second-quarter-jvq5kojcyxdw.html",
+   "date": "2026-03-31"
+  },
+  {
+   "label": "FactSet Q4 & Fiscal 2025 results (official press release, GlobeNewswire)",
+   "url": "https://www.globenewswire.com/news-release/2025/09/18/3152236/7768/en/FactSet-Reports-Results-for-Fourth-Quarter-and-Fiscal-2025.html",
+   "date": "2025-09-18"
+  },
+  {
+   "label": "StockAnalysis.com FDS overview (price, market cap, fwd PE, 52w range)",
+   "url": "https://stockanalysis.com/stocks/fds/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com FDS statistics (ROIC, net debt, EBITDA, PEG)",
+   "url": "https://stockanalysis.com/stocks/fds/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "FinanceCharts / GuruFocus FDS forward PE 5Y average (~29.6)",
+   "url": "https://www.financecharts.com/stocks/FDS/value/pe-ratio",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "FactSet IR FY2025 results release (PDF)",
+   "url": "https://investor.factset.com/node/18526/pdf",
+   "date": "2025-09-18"
+  }
+ ],
+ "notes": "Precio y market cap a cierre 2026-06-22: $218.62, ~$8.2B (37.456M acciones). VALORACION DESPLOMADA: fwd P/E ~12.5x sobre EPS ajustado guia FY26 midpoint $17.50 (StockAnalysis muestra fwd P/E 11.84x sobre consenso calendario; rango ~11.8-13.2x). Media fwd P/E 5a ~29.6x -> descuento ~-58% (de-rating masivo desde multiplo premium ~30x). FY2025 (FY ago-2025): rev $2,321.7M (+5.4%), ASV organico +5.7%, op margin GAAP 32.2% / ajustado 36.3%, EPS ajustado $16.98 (29 anios consecutivos de crecimiento), FCF $617.5M (margen 26.6%). SBC FY25 = $61.2M (gasto comp. en acciones del press release) -> 2.6% ingresos / 9.9% FCF (BAJO, positivo para R9). NOTA: Macrotrends mostraba SBC ~$152M (ERRONEO/distinto perimetro); usado el $61.2M oficial. DEUDA: LT debt $1,368.3M, caja $337.7M -> deuda neta ~$1.03B, ND/EBITDA ~1.1x (StockAnalysis usa deuda total $1.55B -> ND ~$1.26B, ~1.4x). ROIC ~17.7% (StockAnalysis, ESTIMADO). Q2 FY26: rev $611.0M (+7.1%), ASV organico +6.7%, op margin GAAP 30.3% (-220bps) / ajustado 35.0% (-230bps), EPS GAAP $3.59 (-4.5%), EPS ajustado $4.46 (+4.2%), FCF trimestral $185.7M (+23.6%). Guia FY26 SUBIDA en Q2. CLASIFICACION 'mixed': la caida de ~-52% desde maximo 52s y ~-55% desde ATH ($484.11 nov-2024) es predominantemente de-rating/MIEDO (narrativa de disrupcion por IA/LLMs sobre el modelo de terminales de datos financieros + rotacion fuera del multiplo premium), PERO con deterioro genuino MODERADO en margenes (compresion ~220-230bps por inversion en IA) y desaceleracion de crecimiento. Los fundamentales actuales NO se desploman (ingresos siguen creciendo +7%, guia subida, EPS ajustado en crecimiento), por lo que NO es genuine_deterioration; pero el componente de erosion de margenes y la cuestion estructural de IA lo elevan por encima de puro fear_rotation -> mixed (sesgo hacia miedo/de-rating). 52w high $453.41, low $185.00, ATH $484.11 (14-nov-2024). Dividendo anual $4.40, yield ~2.0%."
+}

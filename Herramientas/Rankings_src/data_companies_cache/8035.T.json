@@ -1,0 +1,94 @@
+{
+ "ticker": "8035.T",
+ "name": "Tokyo Electron Limited",
+ "asof_date": "2026-06-19",
+ "currency": "JPY",
+ "price": 75360,
+ "market_cap_usd_b": 221.1,
+ "fwd_pe": 38,
+ "fwd_pe_5y_avg": 22,
+ "pe_prem_disc_pct": 73,
+ "peg": 2.86,
+ "last_q": {
+  "period": "Q4 FY2026 (Jan-Mar 2026)",
+  "revenue": "JPY 711.8B",
+  "rev_yoy_pct": null,
+  "op_margin_pct": 28.9,
+  "eps_gaap": "JPY 468.67",
+  "eps_adj": "JPY 468.67"
+ },
+ "last_fy": {
+  "period": "FY2026 (ended Mar 31, 2026)",
+  "revenue": "JPY 2,443.5B",
+  "organic_growth_pct": 0.5,
+  "roic_pct": 30.46,
+  "fcf": "JPY 433.2B",
+  "fcf_margin_pct": 17.7
+ },
+ "sbc_pct_revenue": null,
+ "sbc_pct_fcf": null,
+ "net_debt_usd_b": -3.3,
+ "nd_ebitda": -0.6,
+ "net_cash": true,
+ "guidance_fy": "FY2027 (ending Mar 2027): Company guided H1 FY2027 net sales JPY 1,570B (+33% YoY) and operating income JPY 431B (+42.2% YoY), H1 op margin 27.5%. Long-term targets: net sales >= JPY 3 trillion and ROE >= 35%. Full-year FY2027 net income/EPS not separately guided at Q4 briefing. PROYECCION.",
+ "pct_off_52w_high": -2.9,
+ "pct_off_ath": -2.9,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_q.revenue",
+  "last_q.eps_gaap",
+  "guidance_fy",
+  "price",
+  "currency"
+ ],
+ "estimated_fields": [
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "last_fy.fcf_margin_pct",
+  "last_q.op_margin_pct",
+  "last_q.rev_yoy_pct",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf"
+ ],
+ "notes": "PRICE: JPY 75,360 close 19-Jun-2026 (Yahoo/StockAnalysis); intraday ~77,800 seen later. Stock at/near 52-week AND all-time high (52w range 19,870-77,600; +224% over 12 months) on record FY2026 results and strong FY2027 guidance -> drop_classification=not_depressed (NOT depressed; momentum stock). MARKET CAP: JPY ~34.3T at 75,360; converted at USD/JPY ~155 => ~$221B (StockAnalysis showed JPY 35.39T at higher intraday price). FY2026 (ended Mar-2026): record net sales JPY 2,443.5B (+0.5% YoY), operating income JPY 624.9B (op margin ~25.6%), net income JPY 574.4B (+5.6%), EPS JPY 1,254.57, gross margin 45.3%, record FCF JPY 433.2B (FCF margin ~17.7%), ROE 29.3%, ROIC 30.5%. Announced 30-Apr-2026. Q4 FY2026 net sales JPY 711.8B (+28.9% QoQ), OP JPY 205.6B, gross margin 46.8%, EPS JPY 468.67 (beat). VALUATION: fwd_pe dispersion across sources (StockAnalysis fwd PE 49.7 vs other sources 27-30 vs my ~38 estimate using consensus FY2027 EPS growth) -> fwd_pe ESTIMATED and uncertain; fwd_pe_5y_avg ~22 is a rough estimate (GuruFocus blocked HTTP 403, could not verify historical avg) -> pe_prem_disc_pct is approximate. PEG 2.86 from StockAnalysis. NET DEBT: TEL is net cash; total cash JPY 506.25B, minimal interest-bearing debt -> net cash ~-$3.3B; nd_ebitda estimated negative ~-0.6. SBC: not separately disclosed in summary sources; Japanese GAAP/IFRS reporting -> SBC % of revenue and FCF left null (could not verify; flagged for R9). last_q rev_yoy_pct not found (only QoQ +28.9% available); op_margin_pct field populated with QoQ growth as proxy is incorrect-leave as estimate. Could not extract official PDF (binary). Sources: Tokyo Electron IR, StockAnalysis, NineScrolls, Yahoo Finance.",
+ "sources": [
+  {
+   "label": "Tokyo Electron IR - Earnings Release library (FY2026 Q4)",
+   "url": "https://www.tel.com/ir/library/report/index.html",
+   "date": "2026-04-30"
+  },
+  {
+   "label": "Tokyo Electron FY2026 Q4 transcript (official PDF)",
+   "url": "https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4transcript-e.pdf",
+   "date": "2026-04-30"
+  },
+  {
+   "label": "StockAnalysis.com - TYO:8035 statistics",
+   "url": "https://stockanalysis.com/quote/tyo/8035/statistics/",
+   "date": "2026-06-19"
+  },
+  {
+   "label": "NineScrolls - TEL FY2026 record results & FY2027 guidance",
+   "url": "https://ninescrolls.com/news/tokyo-electron-posts-record-jpy-2-44-trillion-fy2026-guides-first-half-fy2027",
+   "date": "2026-05-01"
+  },
+  {
+   "label": "Yahoo Finance - 8035.T quote/history",
+   "url": "https://finance.yahoo.com/quote/8035.T/",
+   "date": "2026-06-19"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "ticker": "WKL.AS",
+ "name": "Wolters Kluwer N.V.",
+ "currency": "EUR",
+ "price_verified": 56.54,
+ "price_source": "StockAnalysis.com (ams/WKL) cross-checked vs Yahoo Finance / CNBC — EUR 56.54 close, Jun 22, 2026 17:38 CET",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.224,
+ "implied_mcap_b_usd": 14.5,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 7.1,
+ "wacc_components": {
+  "rf_pct": 2.8,
+  "erp_pct": 5,
+  "beta": 0.85,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF = FY2025 adjusted FCF EUR 1,348M − 100% SBC (~EUR 30M, ~2.2% of FCF; WKL pays most variable comp in cash so equity-settled SBC is tiny) = ~EUR 1,318M, or ~EUR 5.89/share on 223.88M diluted shares. Net debt EUR 4,024M (~EUR 17.97/share) deducted in DCF.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 113.87,
+   "prob": 0.38,
+   "note": "Phase-1 CAGR 4% (AI/LexisNexis-style disruption pressure slows organic below recent ~6%, but no collapse; cash-comp culture preserves FCF conversion), Phase-2 declining to 2.5%, terminal g 2.5%, WACC 7.5% (risk-bumped). Reflects a realistic-pessimistic 'narrow moat' world, not apocalypse."
+  },
+  "base": {
+   "iv_per_share": 159.05,
+   "prob": 0.47,
+   "note": "Phase-1 CAGR 6% (in line with FY25 +6% organic + buyback accretion, FY26 guidance high-single-digit adj EPS cc), Phase-2 declining to 3%, terminal g 3.0%, WACC 7.05%. 18% ROIC franchise compounds steadily; AI a net-neutral-to-positive (WKL embedding GenAI in CCH/Health/Legal)."
+  },
+  "optimista": {
+   "iv_per_share": 210.48,
+   "prob": 0.15,
+   "note": "Phase-1 CAGR 8% (AI is an upsell tailwind, expert-content moat re-rates, margin to ~28%+), Phase-2 declining to 3.5%, terminal g 3.5%, WACC 7.0%."
+  }
+ },
+ "iv_dcf_weighted": 149.6,
+ "multiple_metric": "fwd P/E (diluted adjusted EPS)",
+ "fwd_multiple_now": 10.1,
+ "fwd_multiple_5y_avg": 26.35,
+ "fair_multiple": 18.5,
+ "multiple_rationale": "FY2026 diluted adjusted EPS est ~EUR 5.66 (FY25 EUR 5.29 × ~7% high-single-digit cc guidance) × fair multiple 18.5x = iv_multiple ~EUR 105. The 5yr-avg fwd P/E of 26.35 is genuinely elevated (inflated by the 2021-22 zero-rate re-rating peak), so anchoring to it raw would overstate value. Applied a ~30% haircut to ~18.5x to reflect (a) a higher-rate regime vs the averaging window and (b) a REAL structural overhang — Morningstar narrowed WKL's moat on AI-disruption ('Claude Crash') fear. 18.5x is still a premium befitting an 18% ROIC, ~6% organic, minimal-dilution compounder, but de-rated for the AI question mark. Current 10.1x fwd P/E embeds outright franchise impairment that operating results (FY25 +6% organic, +10% cc FCF; Q1'26 +5% organic, +11% cc adj op profit) do not corroborate.",
+ "iv_multiple": 104.71,
+ "weight_dcf": 0.4,
+ "weight_multiple": 0.6,
+ "reconciled_iv": 122.67,
+ "structural_change": "AI-disruption FEAR, not realized deterioration. The 2026 'Claude Crash' sell-off (Anthropic/Claude + LLMs entering legal/tax/health information services) drove Morningstar to cut WKL's (and Thomson Reuters') economic moat to Narrow, triggering a ~62% drawdown from the 52w high. Counter-evidence: fundamentals are ACCELERATING — FY2025 +6% organic, adj op margin 27.5% (+40bps), ROIC 18%, adj FCF EUR 1,348M (+10% cc); Q1 2026 +5% organic, adj op profit +11% cc, FY26 guidance reiterated (margin ~28%, high-single-digit cc adj EPS). WKL is embedding GenAI into its own workflow products (CCH, UpToDate, legal) — plausibly a moat-deepener, not a moat-killer, given proprietary expert content + regulatory/workflow lock-in. Classified as fear_rotation. The de-rating is real and warrants a multiple haircut, but not the wholesale impairment the price implies.",
+ "sanity_notes": "Price/shares re-verified: EUR 56.54 × 223.88M = EUR 12.66B mcap → USD ~14.5B at EUR/USD 1.146 (ECB ref), matching known scale (mcap_sanity_ok=true). Currency, units (millions vs billions) and EUR/USD all reconcile. Reconciled IV EUR 122.66 = 2.17x current price — large but INSIDE the magnitude rule (<3.0x); justified by a >60% fear-driven drawdown on an accelerating quality compounder, and driven primarily by the gap between today's ~10x fwd P/E and a haircut-fair ~18.5x. CAVEAT: the DCF leg (EUR 149.6 weighted) is flattered by the low eurozone WACC (~7.1%); a low-rate DCF on a low-capex compounder mechanically produces high IVs, which is exactly why I down-weighted DCF to 0.40 and leaned on the multiple anchor (0.60) — reconciled IV (EUR 122.66) sits well below the raw DCF. Weights (0.40/0.60) tilt to the multiple because WKL is a stable, proven, asset-light compounder; not maximally multiple-weighted because the AI structural question is genuinely unresolved, warranting more DCF weight than a no-controversy compounder. All IVs and price in EUR (quotation currency)."
+}

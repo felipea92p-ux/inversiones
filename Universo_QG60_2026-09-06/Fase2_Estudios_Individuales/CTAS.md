@@ -1,0 +1,70 @@
+# CTAS (Cintas Corporation) — Pase Ligero Fase 2
+
+Fecha del pase: 2026-09-07. No existe tesis previa en `Tesis/CTAS/` (carpeta inexistente, confirmado por `ls`). No aparece en `Rankings/2026-08-26/Los36_QG_2026-08-26.csv` (esa tanda de 36 no la incluyó), así que no hay datos EDGAR pre-mecanizados (roic/roiic/ev_sobre_oe/g_exigida) de esa fuente — todo el cálculo cuantitativo de este pase se rehizo desde cero con fuentes primarias (10-K FY2026, EDGAR) y de mercado.
+
+Punto de partida Fase 1 (`01_Universo_60.csv`, fila CTAS): Nivel 3, score_diagnostico 82. Razón de nivel: "Retorno sobre capital muy sólido con un foso de densidad de rutas y costes de cambio genuino, ejecutado con disciplina de capital consistente; se resta algo por ser un modelo físico sin apalancamiento operativo de software y por depender parcialmente del ciclo de empleo." Este pase ligero parte de ahí, lo verifica con datos duros y añade un hecho material que la Fase 1 no tenía: la adquisición pendiente de UniFirst (anunciada marzo 2026).
+
+---
+
+## Paso 1 — Círculo de competencia
+
+**Sí.** Es un negocio de servicios recurrentes B2B —alquiler, lavado y reposición de uniformes, tapetes, insumos de higiene, primeros auxilios y protección contra incendios para más de un millón de clientes empresariales, entregado por rutas de reparto geográficas— con 57 años de historial público, disclosure extenso (10-K/10-Q desde hace décadas) y un modelo económico que se explica en un párrafo sin necesidad de asumir nada sobre tecnología de frontera o ciclos de producto. La evidencia pública (EDGAR, transcripciones de earnings) es abundante y consistente año a año.
+
+## Paso 3 — Mecanismo del moat, no su síntoma
+
+**¿Por qué no se va el cliente?** Dos mecanismos reales, no cosméticos:
+
+1. **Densidad de rutas (escala geográfica compartida):** el costo de servir una parada adicional en una ruta ya existente es marginal, mientras que un entrante que quiere construir densidad equivalente en la misma geografía necesita años y capital para llegar al mismo costo unitario. Esto es un foso de estructura de costos, no de percepción de marca — se parece más al foso de un operador de recolección de residuos o de distribución que al de una marca de consumo.
+2. **Costes de cambio genuinos pero moderados:** el cliente tiene inventario de prendas a medida (tallas, logos), contratos de 3-5 años con penalidades de salida, y un proveedor ya integrado en el flujo operativo (logística de entrega, facturación, cumplimiento OSHA/sanitario). No es un lock-in tipo software (los datos no quedan atrapados), pero sí una fricción real de renegociación y riesgo de transición que mantiene la retención alta.
+
+**El ataque más serio que este moat ya sobrevivió, con fecha:** la campaña de sindicalización de UNITE HERE y los Teamsters ("Cintas Exposed" / "Uniform Justice"), activa desde **2003** y aún viva más de 20 años después. El objetivo explícito de la campaña era romper precisamente la ventaja de estructura de costos laborales que sostiene el mecanismo de densidad de rutas. La compañía perdió una batalla legal puntual —el NLRB falló en contra de Cintas por una práctica laboral desleal, confirmado por la Corte de Apelaciones del 8º Circuito— pero **veinte años después la fuerza laboral de Cintas sigue sin sindicalizarse de forma material.** Es la prueba más dura y más larga de que el mecanismo de costos aguanta bajo presión adversarial sostenida y bien financiada, no solo bajo condiciones favorables.
+
+Nota aparte (no es un "ataque" sino un shock macro, pero es el stress-test más duro de la tesis de crecimiento): en la recesión de 2008-2009 los ingresos orgánicos cayeron ~4.5% en el FY2009 y de nuevo en el FY2010 (dos de los únicos años negativos en 57), confirmando que el modelo está genuinamente atado al nivel de empleo agregado — el moat protege el costo relativo frente a competidores, no aísla del ciclo.
+
+## Paso 5 — Motor de reinversión (g = tasa de reinversión × ROIC incremental)
+
+Fuente: 10-K FY2026 (año fiscal cerrado 31-may-2026, EDGAR CIK 0000723254) y datos derivados (stockanalysis.com, cruzados contra cifras del 10-K/earnings release donde fue posible).
+
+- **ROIC, tendencia de 5 años (HECHO, dato de terceros derivado de filings — no auditado línea por línea en este pase ligero):** FY2022 21.5% → FY2023 22.8% → FY2024 25.2% → FY2025 27.5% → **FY2026 28.6%**. No es solo un ROIC alto y estático — está **subiendo cada año**, lo cual es una señal más fuerte que un ROIC alto plano.
+- **Capex FY2026:** $395.1M. **D&A FY2026:** ~$373.4M. Por la fórmula literal del método (capex mantenimiento ≈ D&A; capex crecimiento = capex total − D&A), el "capex de crecimiento" saldría en solo ~$22M — una cifra que **no refleja la realidad de este negocio** y hay que decirlo explícitamente: para un rentador de textiles, la inversión de crecimiento real no vive en la línea de capex de PP&E, vive en el **inventario de prendas en servicio** (activo separado en el balance) y, ahora, en M&A. El balance de "uniforms and other rental items in service" creció de $1,137.4M a **$1,240.6M en FY2026 (+9.1%, +$103.3M)** — esa es la verdadera magnitud del capital de crecimiento orgánico, casi 5x más grande que el "capex de crecimiento" que arroja la fórmula estándar. **Calibración para el método:** igual que con DECK (capital ligero rompe la fórmula g=reinversión×ROIC tal cual), aquí el proxy capex-D&A subestima materialmente la reinversión real porque el activo de crecimiento es capital de trabajo (inventario), no PP&E. Dejar esto anotado como ajuste pendiente si CTAS llega a tesis completa.
+- **Motor con M&A:** en marzo de 2026 Cintas acordó comprar **UniFirst** (el otro gran operador nacional, "el tercero más grande" del sector) por ~$5.5B en efectivo y acciones ($310/acción), financiado con ~$5.2B de deuda adicional. Es la adquisición más grande en la historia de la compañía, y representa un cambio real de patrón: hasta ahora el crecimiento era casi puramente orgánico + tuck-ins pequeños; esto es la primera vez que la gerencia despliega capital a esta escala vía M&A transformacional.
+- **Qué limita el crecimiento:** no es capital desplegable (la compañía genera ~$1.9B de FCF anual y tiene acceso a deuda barata — de hecho *sobra* capital, por eso puede financiar UniFirst). Los límites reales son (1) **techo de demanda parcial** — sigue habiendo penetración de tercerización por explotar entre empresas que aún gestionan uniformes/insumos internamente, más venta cruzada de líneas adyacentes (primeros auxilios, fuego) a la base instalada; y (2) **talento/mano de obra** — contratar conductores de ruta y personal de planta en mercados laborales ajustados es una restricción operativa citada de forma recurrente en los factores de riesgo del 10-K. La regulación es, paradójicamente, un límite nuevo: tras UniFirst, cualquier consolidación adicional de gran escala enfrentará escrutinio antimonopolio mucho mayor (ver Paso 8).
+- **Pista restante:** con crecimiento orgánico de ingresos ~8-9% anual sostenido durante varios años y penetración aún incompleta, la pista visible es de **varios años más (orden de magnitud: una década)** de crecimiento orgánico mid-to-high single digit antes de tocar techo estructural — sin necesidad de contar la optionalidad adicional de M&A tipo UniFirst.
+
+## Paso 8 ligero — Pre-mortem resumido
+
+Tres mecanismos específicos de este negocio (no genéricos), cada uno con su métrica observable:
+
+1. **La integración/regulación de UniFirst sale mal.** El FTC ya emitió un "Second Request" (11-jun-2026) bajo Hart-Scott-Rodino — señal de escrutinio antimonopolio real, no trámite. El riesgo concreto: pasar de "los tres grandes" del sector a "los dos grandes" en mercados regionales (Noreste, sur de California) donde la combinada tendría cuasi-monopolio, lo que puede forzar desinversiones, retrasar el cierre más allá de lo esperado ("segunda mitad de 2026"), o encarecer/diluir la lógica del trato. Además hay riesgo de integración pura (cultura, sistemas, rutas) en la adquisición más grande de la historia de la empresa. **Métrica observable:** términos finales del consent decree del FTC / magnitud de ingresos desinvertidos exigidos; costos de integración vs. sinergias declaradas en los próximos 2-4 earnings calls tras el cierre.
+2. **El crecimiento de EPS se desacelera hacia el crecimiento de ingresos cuando la recompra de acciones se frena por la nueva deuda.** Buena parte del crecimiento de EPS reciente (+12.3% ajustado en FY2026 vs. ingresos +8.9%) viene de expansión de margen y recompra de acciones — no solo de crecimiento orgánico. Con ~$5.2B de deuda nueva para financiar UniFirst, es razonable esperar que en el corto/mediano plazo el capital se desvíe a desapalancar en vez de recomprar al mismo ritmo, cerrando la brecha entre crecimiento de EPS y crecimiento de ingresos — justo cuando el precio de hoy asume que esa brecha se mantiene (ver Paso 9). **Métrica observable:** deuda neta/EBITDA trimestral, monto de recompras trimestrales, brecha entre crecimiento de EPS y crecimiento de ingresos.
+3. **Repetición del shock de empleo de 2008-2009.** El negocio ya demostró (no es hipotético) que una recesión con pérdida de empleo agregada le genera ingresos orgánicos negativos (-4.5% en FY2009, de nuevo negativo en FY2010) porque la base de facturación depende del número de empleados activos en las instalaciones del cliente. El mercado de hoy no está pagando por un escenario con siquiera un año malo de este tipo dentro de la próxima década. **Métrica observable:** tasa de desempleo EE.UU./Canadá, nóminas no agrícolas, y el crecimiento orgánico trimestral de CTAS frente a esa serie.
+
+Ninguno de los tres rompe el mecanismo del moat (densidad de rutas + costes de cambio siguen intactos incluso en los tres escenarios); son riesgos de ritmo/apalancamiento/ciclo, no de tesis de calidad.
+
+## Paso 9 ligero — DCF inverso rápido
+
+**Supuestos (rápidos, de mercado, NO es el WACC bottom-up del Candado B):** WACC ≈ **7.5%** — mega-cap de mercado desarrollado (EE.UU.), beta históricamente baja/defensiva para CTAS (~0.7-0.8, negocio no cíclico en apariencia aunque sí lo es en la práctica vía empleo), tasa libre de riesgo ~4.2% (10Y UST, SUPUESTO) + prima de riesgo de mercado ~5% → costo de equity ~8%; costo de deuda post-impuesto bajo (grado de inversión, aun subiendo apalancamiento con UniFirst) → WACC blend ~7.3-7.7%. Redondeo a 7.5%.
+
+**Datos de mercado (HECHO, fecha 4-sep-2026):** precio ~$200.5/acción, market cap ~$80.2B, EV aprox. $83-85B (ajustando por deuda neta, que subirá con el cierre de UniFirst). FCF FY2026 (proxy de owner earnings) = OCF $2,276.3M − capex $395.1M = **$1,881M**.
+
+**Cálculo:** usando un modelo de dos etapas (N=10 años a tasa g a resolver, luego crecimiento terminal 2.5% a perpetuidad, descontado al 7.5%), el precio de hoy (EV≈$85B) exige aproximadamente **g≈12.4-12.5% anual compuesto en owner earnings/FCF durante una década completa**, antes de caer a un crecimiento terminal de solo 2.5%.
+
+**Comparación contra el Paso 5:** el crecimiento orgánico de ingresos demostrado es ~8-9% anual; el crecimiento de EPS/FCF reciente (~12%) solo llega a ese nivel porque además de crecimiento orgánico incluye expansión de margen (que ya está en máximos históricos, con techo limitado) y recompra de acciones agresiva (que compite ahora con el desapalancamiento post-UniFirst, Riesgo #2 del pre-mortem). **El precio de hoy no pide un número descabellado en el sentido de "imposible"** — 12.5% no es una fantasía tipo software de alto crecimiento — pero **sí pide que el ritmo más alto y menos sostenible de los últimos años (el impulsado por recompras) se mantenga sin interrupción durante 10 años**, en un negocio que ya demostró tener años de crecimiento negativo cuando sube el desempleo, y que justo ahora está desviando capital hacia la integración de la adquisición más grande de su historia. Es un pedido optimista, no uno absurdo: el margen de error para un mal año cíclico es prácticamente cero al precio de hoy.
+
+---
+
+## Fuentes citadas
+- SEC EDGAR, Cintas Corp 10-K FY2026 (CIK 0000723254): https://www.sec.gov/Archives/edgar/data/0000723254/000072325426000028/ctas-20260531.htm
+- Cintas Q4/FY2026 earnings release (24-jul-2026 aprox.), ingresos $11.26B (+8.9%), utilidad neta $2.00B (+10.4%), EPS ajustado $4.94 (+12.3%)
+- stockanalysis.com/stocks/ctas — capex, D&A, FCF FY2022-FY2026; ROIC/ROE/D-E FY2022-FY2026; precio y múltiplos al 4-sep-2026
+- gurufocus.com/term/roic/CTAS — ROIC 24.06% (dato puntual, cruzado contra la serie de stockanalysis)
+- Comunicado Cintas 07-ene-2026 y 12-mar-2026 (acuerdo definitivo UniFirst, $310/acción, ~$5.5B EV, ~$5.2B deuda nueva) — cintas.com/newsroom, SEC Form S-4
+- Cobertura FTC Second Request (11-jun-2026) sobre la fusión UniFirst — TipRanks, GuruFocus, ionanalytics.com (dealreporter)
+- UNITE HERE / Teamsters, campaña "Uniform Justice"/"Cintas Exposed" desde 2003; fallo NLRB confirmado por 8º Circuito — unitehere.org, courthousenews.com
+- Cintas 10-K/10-Q FY2009-FY2010 (EDGAR) y cobertura de prensa de la época — caída orgánica ~4.5% en FY2009
+
+## Etiquetado de confianza
+- HECHO verificado contra filing primario o comunicado oficial: ingresos, utilidad neta, EPS, capex, deuda de la operación UniFirst, fecha del Second Request de la FTC, resultado del caso NLRB/8º Circuito, caída de ingresos FY2009.
+- HECHO de fuente secundaria agregadora (stockanalysis.com/gurufocus), no re-derivado línea por línea del 10-K en este pase ligero: serie de ROIC 2022-2026, D&A exacto, EV/EBITDA. Riesgo bajo (cifras consistentes entre sí y con el 10-K donde se cruzaron) pero **degradado a "verificar con `verificador`" si esta empresa avanza a tesis completa**, tal como exige la disciplina de datos del orquestador.
+- SUPUESTO explícito: WACC 7.5% (rápido, no bottom-up), tasa libre de riesgo 4.2%, beta 0.7-0.8, ERP 5%, crecimiento terminal 2.5%.
+- INFERENCIA: "pista de una década" de crecimiento orgánico, severidad relativa de los tres riesgos del pre-mortem — juicio del analista, no cifra de filing.

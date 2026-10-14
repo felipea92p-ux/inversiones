@@ -1,0 +1,59 @@
+{
+ "ticker": "7741.T",
+ "name": "HOYA Corporation",
+ "rules": {
+  "R1": {
+   "score": 1.5,
+   "just": "Operating margin ~30.1% expands with IT volume (EUV/DUV mask blanks, HDD glass substrates are high-fixed-cost niches with high incremental margins), but not pure software/network economics, so superior not monstrous."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Dual secular tailwinds: advanced lithography/AI (EUV mask blanks) and aging-population eyecare (MiYOSMART myopia control, IOLs), both structurally growing for years."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Effective monopolist in EUV mask blanks (~70%+ share, only credible supplier) and #1 globally in HDD glass substrates, leaving rivals years behind in qualified capacity."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Irreplaceable moat from decades of process know-how, ultra-pure defect-free glass IP and customer qualification lock-in where one defect ruins a wafer, near-impossible to replicate this decade."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "~8% constant-currency organic FY growth (Q4 CC +9%) driven internally with negligible acquisition reliance, clean self-funded compounding."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Diversified across Life Care and IT and multi-geography, but EUV mask-blank revenue concentrates among a handful of leading-edge foundries/IDMs, a latent customer-concentration risk."
+  },
+  "R7": {
+   "score": 2,
+   "just": "ROIC 21.1% FY far above WACC with ~30% margins and net cash; high inherent capex (Singapore EUV ~¥42bn, Vietnam HDD ~¥50bn) does not penalize given returns; capital policy returns 100% of FCF."
+  },
+  "R8": {
+   "score": 2,
+   "just": "Net cash ~¥530-570bn (ND/EBITDA ~-1.4x), fortress balance sheet funding capex and the ~¥110bn excess-cash return program with ease."
+  },
+  "R9": {
+   "score": 1,
+   "just": "Clean IFRS reporting, SBC immaterial at ~1.5% of FCF (far under 15% hard-rule threshold), no adjusted-EPS games; minor deduction only because FY FCF not precisely disclosed in the deck."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Disciplined allocation: progressive 40%-payout dividend, 100%-of-FCF returns and opportunistic buybacks releasing ~¥110bn excess cash over 3 years rather than empire-building M&A."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R1 (margin-expanding niche model), R3 (near-monopoly #1 in EUV mask blanks and HDD glass substrates) and R4 (irreplaceable process-IP and qualification lock-in) reinforce monstrously: dominance in indispensable, defect-intolerant semiconductor inputs creates pricing power and structurally rising margins that compound on each other, the textbook QG flywheel.",
+ "moat_type": "intangibles_switching_costs",
+ "moat_one_line": "Decades of proprietary ultra-pure-glass process IP plus customer qualification lock-in make HOYA the effectively irreplaceable sole supplier of EUV mask blanks and #1 in HDD glass substrates.",
+ "thesis_3lines": [
+  "Calidad: cuasi-monopolio en insumos criticos de semiconductores (mask blanks EUV) y liderazgo en optica medica, con ROIC 21% y caja neta, foso de propiedad intelectual irreplicable.",
+  "Motor de crecimiento: doble viento secular -litografia avanzada/IA y envejecimiento poblacional- con ~8% organico CC y nuevas plantas EUV (Singapur) y HDD (Vietnam) escalando margenes ~30%.",
+  "Valoracion/retorno: P/E adelantado ~34x es prima ~20% sobre su media y muy por encima de pares; cerca de maximos historicos (-11.3% del ATH) limita el margen de seguridad pese a la calidad excepcional."
+ ],
+ "bear_case_strongest": "At 34x forward P/E (PEG ~3.85) near all-time highs the stock prices in flawless compounding, while its highest-growth IT engine is hostage to a cyclical, customer-concentrated leading-edge semiconductor capex cycle; any EUV/foundry slowdown or qualified-share loss triggers a sharp de-rating.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Raw re-score R1-R10 = 1.5+1.5+2.0+2.0+1.5+1.0+2.0+2.0+1.0+1.5 = 16.0 (Seilern weighted cap 13.5; this is a top-decile QG name). Downgrades vs FASE 1 13.5/13.5: R6 (1.0) for latent EUV customer concentration among few leading-edge foundries; valuation flagged not_depressed (stock +59.8% YoY, only -11.3% off ATH ¥30,400). SBC verified immaterial (~1.5% FCF) so R9 not hit by hard rule. FY FCF not precisely disclosed (only latest-quarter ~¥65.8bn) is a minor data-quality caveat. Net cash ~¥530-570bn supports 100%-of-FCF returns plus ~¥110bn excess-cash release. Valuation, not quality, is the binding constraint."
+}

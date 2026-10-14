@@ -1,0 +1,42 @@
+{
+ "ticker": "VACN.SW",
+ "currency": "CHF",
+ "current_price": 706.8,
+ "name": "VAT Group AG",
+ "wacc_pct": 8.2,
+ "wacc_components": {
+  "rf_pct": 1.2,
+  "erp_pct": 5,
+  "beta": 1.4,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = FCF reportado CHF 230.4m menos 100% de SBC (~CHF 2m/ano, inmaterial: 0.2% ventas / 0.9% FCF) = CHF 228.4m. Margen owner FCF ~21.3% sobre ventas CHF 1,073.5m. SBC tipica de industrial suizo, muy baja vs tech US, por lo que el ajuste apenas mueve el VI.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 14,
+  "rev_cagr_y6_10_pct": 8,
+  "fcf_margin_terminal_pct": 22.5,
+  "terminal_g_pct": 3.5,
+  "shares_diluted_b": 0.03,
+  "net_debt_usd_b": 0.13,
+  "sbc_treatment": "100% de SBC tratada como gasto en efectivo y restada del FCF (CHF ~2m/ano). Impacto inmaterial dado que SBC es ~0.9% del FCF."
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 198,
+   "prob": 0.375,
+   "note": "Normalizacion del ciclo semicap/WFE: ventas Y1-5 CAGR ~9%, declinando a 3%; margen owner FCF estabilizado ~20%; g terminal 3.0%. Pesimista razonable (no apocaliptico): asume que el ramp AI/leading-edge se modera y el margen cede ligeramente por mix y competencia. VI CHF 198."
+  },
+  "base": {
+   "iv_per_share": 323,
+   "prob": 0.475,
+   "note": "Consistente con track record (FCF +26% FY2025, ROIC 35%, organico ~6% cc, backlog +42%, book-to-bill 1.6x). Ventas Y1-5 CAGR ~14% impulsadas por WFE USD ~130bn y AI capex; declina a 3.5%; margen owner FCF ~23%; g terminal 3.5% (foso fuerte: cuasi-monopolio en valvulas de vacio de alta gama). VI CHF 323."
+  },
+  "optimista": {
+   "iv_per_share": 519,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta en supercicle de capex AI: ventas Y1-5 CAGR ~19%, declinando a 4%; margen owner FCF ~25%; g terminal 4.0%. Aun asi VI CHF 519, por debajo del precio actual CHF 706.80."
+  }
+ },
+ "sanity_check": "El precio CHF 706.80 esta en MAXIMO HISTORICO (+115% en 12m), trailing P/E ~99x y fwd P/E 60.8x (prima ~+35% vs media 5a ~45x). VI ponderado por probabilidad ~CHF 306, es decir el mercado descuenta ~-57% de sobrevaloracion frente al DCF de owner earnings; incluso el escenario optimista (CHF 519) implica downside ~-27%. Cross-check de multiplos: a fwd P/E 60.8x y PEG 1.88x el mercado paga por un supercicle de AI capex sostenido durante una decada, mas alla de lo que justifica un DCF disciplinado. Rendimiento al accionista NO es relevante como contraste aqui (VAT no es red de pago ni datos/ratings): dividend yield es bajo (~1-1.5%) y no hay recompra material; el caso de inversion es 100% crecimiento/reinversion (R&D record CHF 75m, ROIC 35%). Conclusion: empresa de calidad excepcional (foso, ROIC, conversion FCF, SBC inmaterial) pero NO deprimida y a valoracion exigente; margen de seguridad negativo a precio actual.",
+ "method_notes": "DCF de owner earnings a 10 anos en CHF (moneda de cotizacion). Owner FCF base FY2025 = FCF CHF 230.4m - SBC CHF 2m = CHF 228.4m. Fase 1 (anos 1-5): CAGR de ventas explicito por escenario con margen owner FCF que ramp-ea hacia el nivel estabilizado. Fase 2 (anos 6-10): CAGR declina linealmente hacia g terminal a medida que normaliza el ciclo. Valor terminal por Gordon sobre owner FCF del ano 10 con g=3.0-4.0% segun fortaleza del foso. Descuento al WACC=8.2% (Suiza Rf 1.2% + ERP 5.0% x beta sector semicap 1.40; sin ajuste geopolitico). EV - deuda neta CHF 107m = equity; VI/accion = equity / 29.97m acciones diluidas (CHF 214.3m beneficio neto / EPS CHF 7.15). Fuentes: datos FY2025 y Q1 2026 verificados de presentaciones primarias de VAT; precio/multiplos de StockAnalysis (estimado). No se requirio busqueda web adicional: todos los inputs estaban en el JSON de FASE 2."
+}

@@ -1,0 +1,344 @@
+[
+ {
+  "ticker": "AAPL",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-09",
+  "fuente": "Tesis/AAPL/2026-07-09_Tesis_Ultra_AAPL_v1.pdf",
+  "score": 62.4,
+  "tier": "Watchlist"
+ },
+ {
+  "ticker": "ABNB",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-07",
+  "fuente": "Tesis/ABNB/2026-07-09_Tesis_Ultra_ABNB_v2.pdf",
+  "score": 66.4,
+  "tier": "Calidad sólida"
+ },
+ {
+  "ticker": "ACN",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-09",
+  "fuente": "Tesis/ACN/Tesis_Ultra_ACN_2026-07-09.pdf",
+  "score": 44.0,
+  "tier": "Watchlist"
+ },
+ {
+  "ticker": "ADBE",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-06",
+  "fuente": "Tesis/ADBE/2026-07-09_Tesis_Ultra_ADBE_v2.pdf",
+  "score": 73.0,
+  "tier": "Calidad sólida"
+ },
+ {
+  "ticker": "ADYEN.AS",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-08",
+  "fuente": "Tesis/ADYENAS/2026-07-09_Tesis_Ultra_ADYENAS_v1.pdf",
+  "score": 64.8,
+  "tier": "Watchlist"
+ },
+ {
+  "ticker": "AMZN",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-09",
+  "fuente": "Tesis/AMZN/2026-07-09b_Tesis_Ultra_AMZN_v1.pdf",
+  "score": 80.2,
+  "tier": "Alta convicción"
+ },
+ {
+  "ticker": "ASML",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-08",
+  "fuente": "Tesis/ASML/2026-07-09_Tesis_Ultra_ASML_v1.pdf",
+  "score": 72.0,
+  "tier": "Calidad sólida"
+ },
+ {
+  "ticker": "AVGO",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-09",
+  "fuente": "Tesis/AVGO/Tesis_Ultra_AVGO_v1_2026-07-09.pdf",
+  "score": 60.0,
+  "tier": "Watchlist"
+ },
+ {
+  "ticker": "AXP",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-07",
+  "fuente": "Tesis/AXP/Tesis_Ultra_AXP_v3.pdf",
+  "score": 60.0,
+  "tier": "Watchlist"
+ },
+ {
+  "ticker": "BABA",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-09",
+  "fuente": "Tesis/BABA/2026-07-09_Tesis_Ultra_BABA_v1.pdf",
+  "score": 46.4,
+  "tier": "Watchlist"
+ },
+ {
+  "ticker": "BKNG",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-06",
+  "fuente": "Tesis/BKNG/2026-07-09_Tesis_Ultra_BKNG_v1.pdf",
+  "score": 64.4,
+  "tier": "Watchlist"
+ },
+ {
+  "ticker": "BRK.B",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-06",
+  "fuente": "Tesis/BRK/2026-07-09_Tesis_Ultra_BRKB_v1.pdf",
+  "score": 49.4,
+  "tier": "Watchlist"
+ },
+ {
+  "ticker": "CME",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-09",
+  "fuente": "Tesis/CME/Tesis_Ultra_CME_v1_2026-07-09.pdf",
+  "score": 70.4,
+  "tier": "Calidad sólida"
+ },
+ {
+  "ticker": "DUOL",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-09",
+  "fuente": "Tesis/DUOL/2026-07-09_Tesis_Ultra_DUOL_v4.pdf",
+  "score": 80.8,
+  "tier": "Alta convicción"
+ },
+ {
+  "ticker": "EXPE",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-09",
+  "fuente": "Tesis/EXPE/Tesis_Ultra_EXPE_v1_2026-07-09.pdf",
+  "score": 41.6,
+  "tier": "Watchlist"
+ },
+ {
+  "ticker": "GOOGL",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-06",
+  "fuente": "Tesis/GOOGL/2026-07-09_Tesis_Ultra_GOOGL_v1.pdf",
+  "score": 65.4,
+  "tier": "Calidad sólida"
+ },
+ {
+  "ticker": "RMS.PA",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-09",
+  "fuente": "Tesis/HERMES/Tesis_Ultra_HERMES_v1_2026-07-09.pdf",
+  "score": 69.6,
+  "tier": "Calidad sólida"
+ },
+ {
+  "ticker": "ICE",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-08",
+  "fuente": "Tesis/ICE/2026-07-09_Tesis_Ultra_ICE_v2.pdf",
+  "score": 53.6,
+  "tier": "Watchlist"
+ },
+ {
+  "ticker": "INTU",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-09",
+  "fuente": "Tesis/INTU/2026-07-09_Tesis_Ultra_INTU_v7.pdf",
+  "score": 76.8,
+  "tier": "Alta convicción"
+ },
+ {
+  "ticker": "ISRG",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-08",
+  "fuente": "Tesis/ISRG/2026-07-09_Tesis_Ultra_ISRG_v2.pdf",
+  "score": 79.2,
+  "tier": "Alta convicción"
+ },
+ {
+  "ticker": "JD",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-09",
+  "fuente": "Tesis/JD/2026-07-09_Tesis_Ultra_JD_v1.pdf",
+  "score": 35.2,
+  "tier": "Watchlist"
+ },
+ {
+  "ticker": "LSEG.L",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-08",
+  "fuente": "Tesis/LSEGL/2026-07-09_Tesis_Ultra_LSEGL_v1.pdf",
+  "score": 58.4,
+  "tier": "Watchlist"
+ },
+ {
+  "ticker": "MA",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-06",
+  "fuente": "Tesis/MA/2026-07-09_Tesis_Ultra_MA_v2.pdf",
+  "score": 74.8,
+  "tier": "Calidad sólida"
+ },
+ {
+  "ticker": "MELI",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-06",
+  "fuente": "Tesis/MELI/2026-07-09_Tesis_Ultra_MELI_v1.pdf",
+  "score": 72.0,
+  "tier": "Calidad sólida"
+ },
+ {
+  "ticker": "MSFT",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-06",
+  "fuente": "Tesis/MSFT/2026-07-09_Tesis_Ultra_MSFT_v2.pdf",
+  "score": 86.0,
+  "tier": "Núcleo"
+ },
+ {
+  "ticker": "NFLX",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-06",
+  "fuente": "Tesis/NFLX/2026-07-09_Tesis_Ultra_NFLX_v1.pdf",
+  "score": 73.6,
+  "tier": "Calidad sólida"
+ },
+ {
+  "ticker": "NOW",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-08",
+  "fuente": "Tesis/NOW/Tesis_Ultra_NOW_v1.pdf",
+  "score": 62.4,
+  "tier": "Watchlist"
+ },
+ {
+  "ticker": "NVDA",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-09",
+  "fuente": "Tesis/NVDA/Tesis_Ultra_NVDA_v1_2026-07-09.pdf",
+  "score": 63.2,
+  "tier": "Watchlist"
+ },
+ {
+  "ticker": "ORCL",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-07",
+  "fuente": "Tesis/ORCL/2026-07-09_Tesis_Ultra_ORCL_v3.pdf",
+  "score": 57.6,
+  "tier": "Watchlist"
+ },
+ {
+  "ticker": "PDD",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-09",
+  "fuente": "Tesis/PDD/2026-07-09_Tesis_Ultra_PDD_v1.pdf",
+  "score": 40.8,
+  "tier": "Watchlist"
+ },
+ {
+  "ticker": "PINS",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-09",
+  "fuente": "Tesis/PINS/Tesis_Ultra_PINS_2026-07-09.pdf",
+  "score": 40.8,
+  "tier": "Watchlist"
+ },
+ {
+  "ticker": "REL.L",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-09",
+  "fuente": "Tesis/RELX/Tesis_Ultra_RELX_2026-07-09.pdf",
+  "score": 63.2,
+  "tier": "Watchlist"
+ },
+ {
+  "ticker": "SE",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-09",
+  "fuente": "Tesis/SE/Tesis_Ultra_SE_2026-07-09.pdf",
+  "score": 54.4,
+  "tier": "Watchlist"
+ },
+ {
+  "ticker": "SPGI",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-06",
+  "fuente": "Tesis/SPGI/2026-07-08_Tesis_Ultra_SPGI_v1.pdf",
+  "score": 71.2,
+  "tier": "Calidad sólida"
+ },
+ {
+  "ticker": "SPOT",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-06",
+  "fuente": "Tesis/SPOT/2026-07-09_Tesis_Ultra_SPOT_v2.pdf",
+  "score": 68.0,
+  "tier": "Calidad sólida"
+ },
+ {
+  "ticker": "TSM",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-06",
+  "fuente": "Tesis/TSM/2026-07-09_Tesis_Ultra_TSM_v1.pdf",
+  "score": 78.4,
+  "tier": "Alta convicción"
+ },
+ {
+  "ticker": "VEEV",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-06",
+  "fuente": "Tesis/VEEV/2026-07-09_Tesis_Ultra_VEEV_v2.pdf",
+  "score": 79.0,
+  "tier": "Alta convicción"
+ },
+ {
+  "ticker": "V",
+  "eje": "calidad",
+  "procedencia": "tesis-individual",
+  "fecha": "2026-07-06",
+  "fuente": "Tesis/VISA/2026-07-09_Tesis_Ultra_V_v2.pdf",
+  "score": 80.8,
+  "tier": "Alta convicción"
+ }
+]

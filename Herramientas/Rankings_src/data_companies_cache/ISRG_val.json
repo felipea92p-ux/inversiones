@@ -1,0 +1,48 @@
+{
+ "ticker": "ISRG",
+ "name": "Intuitive Surgical, Inc.",
+ "currency": "USD",
+ "price_verified": 402.95,
+ "price_source": "StockAnalysis.com (close 2026-06-18); cross-checked Yahoo Finance / Public.com (~$404-407 intraday 2026-06-22)",
+ "price_date": "2026-06-18",
+ "shares_diluted_b": 0.3598,
+ "implied_mcap_b_usd": 142.7,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 10.3,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.2,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Reported FY2025 FCF $2,491M esta deprimido por capex/working-capital del lanzamiento da Vinci 5; owner FCF reportado = $2,491M - 100% SBC ($775M, 7.7% ingresos) = ~$1,716M (~$4.77/accion). Para el DCF se usa una base de OWNER-EARNINGS NORMALIZADA = EPS adj fwd ~$10.5 - SBC after-tax ~$1.70/accion = ~$8.8/accion (~$3,166M), que refleja la economia steady-state mejor que el FCF temporalmente suprimido.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 205,
+   "prob": 0.38,
+   "note": "Fase1 g=11%, Fase2 g=6%, term 2.5%. Desaceleracion razonable: presion capital Europa, precios competitivos China, expiracion subsidios ACA. NO apocaliptico."
+  },
+  "base": {
+   "iv_per_share": 269,
+   "prob": 0.47,
+   "note": "Fase1 g=15% (en linea con guidance procedimientos 13.5-15.5% + mix recurrente/precio), Fase2 g=9%, term 3.0%. Compounder durable con caja neta $8B y ROIC ~26%."
+  },
+  "optimista": {
+   "iv_per_share": 333,
+   "prob": 0.15,
+   "note": "Fase1 g=18%, Fase2 g=11%, term 3.5%. Adopcion da Vinci 5, expansion internacional y margenes; reinversion a ROIC alto sostenida."
+  }
+ },
+ "iv_dcf_weighted": 254.18,
+ "multiple_metric": "P/E adelantado (adj EPS)",
+ "fwd_multiple_now": 37.8,
+ "fwd_multiple_5y_avg": 57,
+ "fair_multiple": 44,
+ "multiple_rationale": "Ancla = media 5a fwd P/E ~57x con HAIRCUT a 44x (-23%). El haircut NO refleja deterioro estructural (procedimientos da Vinci acelerando, guidance SUBIDA a 13.5-15.5%, ingresos +23% a/a, op income +48%, caja neta $8B, ROIC ~26%) sino un de-rating CICLICO: regimen de tipos mas altos (Rf 4.3% vs ~1.5% en 2020-21 que infló el multiplo medio) y ley de los grandes numeros sobre una base de $10B+ ingresos. iv_multiple = fwd EPS $10.66 x 44 = $469. fwd EPS implicado del fwd P/E 37.8 (consistente con annualizar adj EPS Q1 2026 $2.50 + crecimiento).",
+ "iv_multiple": 469.04,
+ "weight_dcf": 0.35,
+ "weight_multiple": 0.65,
+ "reconciled_iv": 393.84,
+ "structural_change": "Ninguno negativo. La caida ~33% desde maximos ($603.88 -> $403) es fear_rotation / de-rating de valoracion, no deterioro del negocio. Catalizador estructural POSITIVO: transicion a plataforma da Vinci 5 e ingresos recurrentes crecientes. Riesgos vigilados (no estructurales): presion capex hospitalario Europa, dinamica competitiva/precios China, expiracion subsidios ACA en EEUU, tariffs ~1% sobre margen bruto.",
+ "sanity_notes": "Sanity check: 402.95 x 354.16M acciones basicas = $142.7B, coincide con escala conocida de ISRG (~$140-145B). mcap_sanity_ok=true. Acciones diluidas usadas en valoracion = 359.8M (media ponderada diluida Q1 2026 10-Q). DCF puro de owner-earnings ($254) queda MUY por debajo del ancla de multiplo ($469) -- patron tipico del framework: el DCF infra-credita la reinversion a ROIC ~26% durante decadas en una franquicia dominante de cirugia robotica. Por eso se pondera mas el multiplo (0.35/0.65) en un compounder estable y probado. IMPORTANTE: el FCF reportado FY2025 ($2,491M, conversion baja) esta temporalmente suprimido por el ramp de da Vinci 5; usar ese FCF crudo en el DCF daria IV ~$148 (demasiado punitivo). Reconciled IV $394 ~= precio $403 (-2.3%): ISRG cotiza cerca de valor razonable tras el de-rating; calidad excepcional pero margen de seguridad escaso al precio actual. IV en banda de magnitud (30%-300% del precio = $121-$1,209). Todo en USD."
+}

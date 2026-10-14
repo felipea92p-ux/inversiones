@@ -1,0 +1,41 @@
+{
+ "ticker": "VRTX",
+ "currency": "USD",
+ "current_price": 466.79,
+ "wacc_pct": 8.55,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.85,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = FCF reportado $3.194B menos 100% de la SBC $0.686B = $2.508B (margen owner FCF 20.9% sobre ingresos de $12.001B). SBC tratada integramente como gasto en efectivo. La SBC representa 5.7% de ingresos y 21.5% del FCF reportado, por lo que el ajuste reduce el FCF base ~21.5%.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 8.5,
+  "rev_cagr_y6_10_pct": 5,
+  "fcf_margin_terminal_pct": 32,
+  "terminal_g_pct": 3,
+  "shares_diluted_b": 0.2539,
+  "net_debt_usd_b": -11,
+  "sbc_treatment": "100% de la SBC ($686M, 5.7% de ingresos) restada del FCF como gasto en efectivo en el ano base y proyectada implicitamente dentro del margen owner FCF normalizado"
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 275.82,
+   "prob": 0.375,
+   "note": "Franquicia CF (Trikafta/Kaftrio) madura y erosiona via competencia/genericos LOE futuros; pipeline (Journavx en dolor, Casgevy, inaxaplin renal) decepciona. Ingresos CAGR 5% fase1, 3% fase2; margen owner FCF 21%->27%; g terminal 2.5%."
+  },
+  "base": {
+   "iv_per_share": 401.17,
+   "prob": 0.475,
+   "note": "Consistente con track record: CF cash cow estable, ALYFTREK y nuevos lanzamientos aportan crecimiento de un solo digito alto. Ingresos CAGR 8.5% fase1, 5% fase2; margen owner FCF 22%->32% por apalancamiento operativo; g terminal 3.0%. IV ~14% bajo precio."
+  },
+  "optimista": {
+   "iv_per_share": 577.97,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: Journavx/suzetrigine escala en dolor agudo y cronico, Casgevy ramp global, inaxaplin (APOL1) exitoso en renal, diabetes T1 (zimislecel). Ingresos CAGR 12% fase1, 7% fase2; margen owner FCF 23%->36%; g terminal 3.5%."
+  }
+ },
+ "sanity_check": "VI ponderada por probabilidad = 0.375*275.82 + 0.475*401.17 + 0.15*577.97 = ~$381, es decir ~18% por debajo del precio de $466.79: coherente con la clasificacion \"not_depressed\" del archivo (FCF record, caja neta robusta, guia FY2026 al alza, pero NO barata sobre owner earnings). Contraste de rendimiento total al accionista (no DDM): VRTX no paga dividendo; recompras Q1 2026 de $344.5M anualizadas ~$1.4B implican un buyback yield de ~1.2% sobre el market cap de $118.5B — modesto, la creacion de valor depende del crecimiento de FCF, no del retorno de caja. Cruce de valoracion: fwd P/E 23.83 vs media 5a 25.88 (descuento ~8%), PEG 1.9 — multiplos no demandantes pero el DCF de owner earnings (que penaliza la SBC) sugiere que el precio ya descuenta una ejecucion cercana al escenario base-alto.",
+ "method_notes": "DCF de owner earnings a 10 anios, dos fases. Ano base FY2025: ingresos $12.001B, FCF $3.194B, SBC $685.9M => owner FCF $2.508B (margen 20.9%). Acciones diluidas estimadas = market cap $118.5B / precio $466.79 = 253.9M (0.2539B). Caja neta = +$11.0B (net_debt = -$11B): cash+valores negociables ~$13.0B menos deuda total ~$1.99B en Q1 2026; sumada al EV para obtener equity value. WACC = Rf 4.3% (UST 10Y) + ERP 5.0% * beta 0.85 = 8.55%; beta sub-1 por demanda defensiva/no ciclica de terapias CF (sin ajuste geopolitico, empresa US). Fase 1 (anios 1-5) CAGR de ingresos explicito; Fase 2 (anios 6-10) CAGR declinante hacia normalizacion. Margen owner FCF se expande linealmente durante el horizonte reflejando el apalancamiento operativo de la franquicia CF de alto margen y la madurez de nuevos lanzamientos. Valor terminal por Gordon sobre el owner FCF del ano 10, g=2.5-3.5% segun foso (foso amplio: liderazgo cuasi-monopolico en CF, proteccion regulatoria/IP). VI/accion = (PV flujos + PV valor terminal + caja neta) / acciones diluidas. SBC tratada al 100% como efectivo. Inputs verificados del archivo VRTX.json (10-K FY2025, IR Q4/FY2025, 10-Q Q1 2026); no se requirio busqueda web adicional. Riesgo clave no en el modelo central: concentracion en CF (~90% de ingresos) y dependencia del exito del pipeline para justificar el precio actual."
+}

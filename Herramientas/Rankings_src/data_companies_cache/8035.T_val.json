@@ -1,0 +1,48 @@
+{
+ "ticker": "8035.T",
+ "name": "Tokyo Electron Limited",
+ "currency": "JPY",
+ "price_verified": 75360,
+ "price_source": "StockAnalysis.com / Yahoo Finance close 19-Jun-2026 (intraday ~78,490 on 23-Jun-2026)",
+ "price_date": "2026-06-19",
+ "shares_diluted_b": 0.45485,
+ "implied_mcap_b_usd": 221.1,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 8.05,
+ "wacc_components": {
+  "rf_pct": 1.3,
+  "erp_pct": 5,
+  "beta": 1.35,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF = FY2026 reported FCF JPY 433.2B minus ~JPY 5B SBC (TEL reports under Japanese GAAP; equity-based comp is immaterial, mostly small restricted-stock plans) = ~JPY 428B base.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 22417,
+   "prob": 0.38,
+   "note": "Phase-1 owner-FCF CAGR 6% (WFE cyclicality, China/export-control headwinds, slower trailing-edge), declining to terminal g=2.5%. Pesimista razonable, no apocaliptico."
+  },
+  "base": {
+   "iv_per_share": 31631,
+   "prob": 0.47,
+   "note": "Phase-1 CAGR 11% (AI/HBM, advanced packaging, gate-all-around node transitions drive WFE; TEL targets >JPY 3T sales), declining to terminal g=3.0%."
+  },
+  "optimista": {
+   "iv_per_share": 45186,
+   "prob": 0.15,
+   "note": "Phase-1 CAGR 16% (super-cycle, share gains in etch/deposition/coater-developer), declining to terminal g=3.5%."
+  }
+ },
+ "iv_dcf_weighted": 30163,
+ "multiple_metric": "P/E adelantado (forward EPS FY2027)",
+ "fwd_multiple_now": 44.3,
+ "fwd_multiple_5y_avg": 22,
+ "fair_multiple": 24,
+ "multiple_rationale": "Ancla a la media 5a del P/E adelantado (~22x). Sin deterioro estructural real: TEL es beneficiario secular del WFE (AI/HBM, advanced packaging, transiciones de nodo GAA) con ROIC ~30% y posicion neta de caja. Aplico un leve uplift a 24x (no haircut) por crecimiento secular estructuralmente mas alto que en el periodo de la media, pero SIN prima grande porque el negocio sigue siendo ciclico y de alto capex de clientes. fwd_eps FY2027 ~JPY 1,700 (FY2026 EPS JPY 1,254.57 creciendo con guidance H1 +42% OP). iv_multiple = 1700 x 24 = JPY 40,800. fwd_multiple_now ~44x confirma valoracion exigente (PEG 2.86).",
+ "iv_multiple": 40800,
+ "weight_dcf": 0.55,
+ "weight_multiple": 0.45,
+ "reconciled_iv": 34950,
+ "structural_change": "Ninguno negativo. TEL conserva ventajas estructurales (liderazgo en coater/developer, etch, deposition; ROIC ~30%; neto caja). El unico riesgo estructural es la regulacion de exportaciones a China (mix de ventas a China elevado). Es ciclico y de alto capex de clientes, por eso se pondera mas el DCF (0.55) que el multiplo (0.45) pese a ser un compounder de calidad.",
+ "sanity_notes": "PRECIO Y ACCIONES RE-VERIFICADOS: precio JPY 75,360 (cierre 19-Jun-2026, Yahoo/StockAnalysis; intraday ~78,490 el 23-Jun); acciones 454.85M = 0.45485B (StockAnalysis/Morningstar). implied_mcap = 75,360 x 0.45485B = JPY 34.28T; a USD/JPY ~155 = ~$221B, consistente con la escala conocida (StockAnalysis ~JPY 35.39T a precio intraday mayor) -> mcap_sanity_ok=true. Todos los IV en JPY/accion y dentro del rango 30%-300% del precio (conservador 30%, base 42%, optimista 60%, reconciliado 46% del precio) -> sin error de unidades/moneda. CONCLUSION DE VALORACION: el reconciled_iv ~JPY 34,950 esta MUY por debajo del precio ~JPY 75,360 (IV ~46% del precio). La accion cotiza a fwd P/E ~44x vs media 5a ~22x (premio ~73-100%), PEG 2.86, +224% en 12 meses, en/cerca de maximos historicos -> calidad excelente pero a un multiplo NO sensato bajo el marco Terry Smith/Buffett; margen de seguridad negativo a precio actual."
+}

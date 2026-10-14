@@ -1,0 +1,99 @@
+{
+ "ticker": "CPRT",
+ "name": "Copart, Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 29.48,
+ "market_cap_usd_b": 27.29,
+ "fwd_pe": 18.4,
+ "fwd_pe_5y_avg": 28,
+ "pe_prem_disc_pct": -34,
+ "peg": 1.23,
+ "last_q": {
+  "period": "Q3 FY2026 (quarter ended Apr 30, 2026)",
+  "revenue": "$1.237B",
+  "rev_yoy_pct": 2.1,
+  "op_margin_pct": 37.5,
+  "eps_gaap": "$0.43",
+  "eps_adj": "n/a (Copart does not report adjusted EPS)"
+ },
+ "last_fy": {
+  "period": "FY2025 (year ended Jul 31, 2025)",
+  "revenue": "$4.647B",
+  "organic_growth_pct": 9.7,
+  "roic_pct": null,
+  "fcf": "$1.231B",
+  "fcf_margin_pct": 26.5
+ },
+ "sbc_pct_revenue": 0.9,
+ "sbc_pct_fcf": 3.3,
+ "net_debt_usd_b": -4.11,
+ "nd_ebitda": null,
+ "net_cash": true,
+ "guidance_fy": "Copart no emite guia numerica formal (politica historica). La direccion senalo que FY2026 refleja una normalizacion tras los ingresos no recurrentes de huracanes Helene/Milton reconocidos en FY2025; menores ingresos de servicios US por esa base alta, con aumentos en seguros/subhaul/bank charges. Sin cifra de guidance cuantitativa.",
+ "pct_off_52w_high": -41.2,
+ "pct_off_ath": -54.2,
+ "drop_classification": "mixed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "price",
+  "market_cap_usd_b",
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "net_debt_usd_b",
+  "net_cash",
+  "guidance_fy"
+ ],
+ "estimated_fields": [
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "last_fy.roic_pct",
+  "nd_ebitda"
+ ],
+ "sources": [
+  {
+   "label": "SEC 10-Q Q3 FY2026 (qtr ended Apr 30, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000900075/000119312526245578/cprt-20260430.htm",
+   "date": "2026-05"
+  },
+  {
+   "label": "SEC 8-K Q3 FY2026 earnings release (ex99.1)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000900075/000119312526234447/cprt-ex99_1.htm",
+   "date": "2026-05"
+  },
+  {
+   "label": "SEC 10-K FY2025 (year ended Jul 31, 2025)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000900075/000162828025042946/cprt-20250731.htm",
+   "date": "2025-09-26"
+  },
+  {
+   "label": "StockAnalysis.com - CPRT statistics",
+   "url": "https://stockanalysis.com/stocks/cprt/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com - CPRT financials",
+   "url": "https://stockanalysis.com/stocks/cprt/financials/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Macrotrends - CPRT all-time high price history",
+   "url": "https://www.macrotrends.net/stocks/charts/CPRT/copart/stock-price-history",
+   "date": "2026-06"
+  }
+ ],
+ "notes": "VERIFICADO via SEC: precio $29.48 (cierre 22-jun-2026), market cap $27.29B. Q3 FY2026 (qtr a 30-abr-2026): revenue $1.237B (+2.1% YoY), op income $464.3M (margen 37.5%), GAAP diluted EPS $0.43 vs $0.42 (+2.4%), net income $402.4M (-1.0% YoY). YTD 9M FY2026: revenue $3.5B (~plano), EPS $1.20. FY2025: revenue $4.647B (+9.7%), op income $1.697B (margen 36.5%), net income $1.548B, OCF $1.80B, FCF ~$1.231B (margen 26.5%). Posicion de CAJA NETA ~+$4.11B (sin deuda neta); net_debt mostrado como -4.11; nd_ebitda no aplica (caja neta) -> null. SBC FY2025 ~$40-42M (muy bajo, ~0.9% ingresos / ~3.3% FCF) - ESTIMADO. Forward PE ~18.4 (StockAnalysis) / PEG 1.23. fwd_pe_5y_avg ESTIMADO ~28 (Copart historicamente cotizo a PE adelantado alto-20s a bajo-30s); descuento estimado ~-34% vs media. organic_growth_pct usa el crecimiento reportado FY2025 (+9.7%); el grueso fue organico (no hubo M&A relevante) - parcialmente estimado. ROIC no calculado en filings (null). 52w range $29.41-$50.11 -> -41.2% del max 52s; ATH ~$64.38 (27-nov-2024) -> -54.2% del max historico. CLASIFICACION DEL DESPLOME = MIXED: combina (a) compresion de multiplo/rotacion desde un PE premium, (b) perdida del viento de cola no recurrente de huracanes Helene/Milton de FY2025 que deja comparables dificiles y desaceleracion de crecimiento (de +9.7% FY a +2.1% Q3), y (c) margenes intactos (~37%), caja neta robusta y FCF fuerte -> no es deterioro estructural genuino del negocio. Copart NO da guidance numerico."
+}

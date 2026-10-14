@@ -1,0 +1,59 @@
+{
+ "ticker": "CTAS",
+ "name": "Cintas Corporation",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Route-based uniform rental scales with density (more stops per route lowers unit cost), but it is a physical-logistics model with ~17% FCF margin, not software/network operating leverage, so no 1.5-2.0."
+  },
+  "R2": {
+   "score": 1,
+   "just": "Uniform rental/facility services grows with employment and outsourcing penetration; +8% organic FY25 shows secular tailwind but it is a GDP-plus, not high-growth, end market."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Clear #1 in North American uniform rental with ~$10.3B revenue, multiples larger than Aramark/UniFirst, sustained leadership though not pure monopoly so short of 2.0."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat from route density, switching costs (embedded service/garment inventory), brand and scale; durable but replicable over decades by a well-capitalized challenger, so 1.5 not 2.0."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "FY25 organic growth +8% (Q3 FY26 organic +8.2%) shows growth is overwhelmingly organic, not M&A-driven, earning above-base credit."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Over 1 million customers with no single client near 10%, broad SMB/enterprise and end-market diversification across uniforms, first aid, fire protection."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "ROIC ~26.9% far above WACC, FCF $1.757B = ~17% margin, FCF/NI healthy; capital intensity of laundry plants offset by superior returns earns above-base."
+  },
+  "R8": {
+   "score": 1,
+   "just": "ND/EBITDA ~0.97x and net debt $2.73B is modest and well under 2x, but not net cash, so base score."
+  },
+  "R9": {
+   "score": 1,
+   "just": "SBC verified at only 7.3% of FCF (1.24% of revenue), well below the 15% hard-rule threshold, so no penalty and accounting looks clean."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Long track record of disciplined capital allocation, consistent buybacks and dividend growth, organic-first vs destructive M&A, raised FY26 guidance signaling execution credibility."
+  }
+ },
+ "amplification": false,
+ "amplification_note": "R3 (#1 leader) and R4 (density/switching-cost moat) reinforce each other strongly, but R1 is only base (physical logistics model, not software/network operating leverage), so the trio does not reach the monstrous, irreplicable mutual reinforcement required for amplification.",
+ "moat_type": "cost_advantage_switching_costs",
+ "moat_one_line": "Route density plus high switching costs (embedded uniform inventory, recurring service contracts) and brand scale make the #1 North American uniform-rental operator hard to dislodge.",
+ "thesis_3lines": [
+  "Calidad: lider #1 indiscutido en alquiler de uniformes con ROIC ~27%, foso de densidad de rutas y altos costes de cambio, SBC minima (7.3% del FCF) y balance solido (ND/EBITDA ~0.97x).",
+  "Crecimiento: motor organico +8% con penetracion creciente del outsourcing, cross-selling (first aid, fire protection) y direccion que SUBIO la guia FY26 a EPS ajustado $4.86-4.90 (+10-11%).",
+  "Valoracion: fwd P/E ~32x (-14% vs su media 5a de ~37.5) tras caida ~25% por rotacion/miedo, no deterioro; PEG 2.87 sigue exigente, retorno depende de compounding sostenido mas que de re-rating."
+ ],
+ "bear_case_strongest": "A pesar de la caida del 25%, el fwd P/E ~32x y PEG 2.87 siguen siendo premium para un compounder GDP-plus cuyo crecimiento organico se desacelera con el empleo, exponiendo la accion a mayor compresion de multiplo si la macro laboral se debilita.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Total re-score = 13.0/13.5 (R1 1.0, R2 1.0, R3 1.5, R4 1.5, R5 1.5, R6 1.5, R7 1.5, R8 1.0, R9 1.0, R10 1.5). Slight downgrade from preliminary 13.5 because R1 (no software/network operating leverage) and R2 (GDP-plus, not high-growth secular) and R8 (not net cash) are base-level, not superior. SBC hard rule passed comfortably (7.3% of FCF < 15%). Valuation multiples, ROIC, net debt and SBC ratios are ESTIMADO from StockAnalysis.com aggregator; last_q, last_fy organic growth, FCF and guidance are VERIFIED from Cintas IR/SEC. Drop classified fear_rotation (multiple compression from peak fwd P/E ~53), not operating deterioration."
+}

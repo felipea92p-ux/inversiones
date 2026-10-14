@@ -1,0 +1,42 @@
+{
+ "ticker": "FICO",
+ "name": "Fair Isaac Corporation",
+ "currency": "USD",
+ "current_price": 1090.85,
+ "wacc_pct": 9.8,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.1,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF FY2025 = FCF reportado $769.9M menos 100% de la SBC $156.667M (verificada en SEC XBRL) = ~$613.2M. Margen owner FCF sobre ingresos FY2025 $1,990.9M = 30.8% (vs margen FCF reportado 38.7%). La SBC se trata integramente como gasto en efectivo. Base de partida de la Fase 1.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 17,
+  "rev_cagr_y6_10_pct": 12,
+  "fcf_margin_terminal_pct": 37,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de SBC restada como gasto en efectivo (owner earnings). SBC FY2025 = $156.667M = 7.9% de ingresos / 20.3% del FCF.",
+  "shares_diluted_b": 0.0232,
+  "net_debt_usd_b": 3.42
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 618,
+   "prob": 0.38,
+   "note": "Desaceleracion mas rapida: ingresos Fase1 +13% CAGR, declinando a +6% en Fase2; margen owner FCF expande solo a 34%; g terminal 2.5%. Asume normalizacion del impulso de pricing de Scores y presion regulatoria/hipotecaria. No apocaliptico: sigue creciendo doble digito cerca plazo."
+  },
+  "base": {
+   "iv_per_share": 967,
+   "prob": 0.47,
+   "note": "Consistente con track record: Fase1 +17% CAGR (guia FY2026 ya +23%, Scores +60% YoY, pricing power), declinando a +8% en Fase2; margen owner FCF a 37%; g terminal 3.0%. ROIC ~47%, foso fuerte (monopolio de facto en credit scoring US). VI cerca del precio actual."
+  },
+  "optimista": {
+   "iv_per_share": 1485,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: Fase1 +21% CAGR, declinando a +10%; margen owner FCF a 40%; g terminal 3.5%. Pricing de Scores sostenido + escalado de ARR de software (NRR 109%) + recompras debt-funded acretivas."
+  }
+ },
+ "sanity_check": "Contraste de rendimiento total al accionista (sin DDM): FICO NO paga dividendo; ~100% del retorno de capital via recompra agresiva, parcialmente financiada con deuda (deuda neta +$3.42B, ND/EBITDA ~2.8x). Rendimiento sostenible owner-FCF/market cap ~2.4% (FCF reportado/mkt cap ~3.0%). Con crecimiento owner-FCF base ~17% + ~2.4% de yield, el retorno bruto potencial pre-cambio de multiplo ronda ~19%. Sanity de multiplo: a fwd P/E 22.3x vs media 5a 41.2x (descuento ~-46%), comprimido desde ~70x en 2024; el desplome -45% desde max 52s es compresion de multiplo (fear_rotation), no deterioro operativo (rev +39% YoY, guia al alza). VI ponderada por probabilidad ~$912/accion (-16% vs precio $1,090.85): la accion cotiza ligeramente por encima del valor intrinseco base; el caso conservador implica downside material, lo que exige margen de seguridad antes de comprar pese a la calidad del negocio.",
+ "method_notes": "DCF de owner earnings a 10 anios en dos fases. Base owner FCF = FCF reportado FY2025 $769.9M menos 100% SBC $156.667M (SEC XBRL verificado) = $613.2M; margen owner inicial 30.8% sobre ingresos $1,990.9M. Fase1 (anios 1-5): CAGR de ingresos explicito por escenario; Fase2 (anios 6-10): CAGR declina linealmente hacia normalizacion. Margen owner FCF expande linealmente del 30.8% inicial al margen terminal de cada escenario (mejora de mix software/ARR y apalancamiento operativo, op margin GAAP ya 58.2% en Q2 FY2026). WACC = Rf 4.3% (UST 10Y) + ERP 5.0% x beta 1.10 = 9.8%; sin ajuste geopolitico (empresa 100% US, datos/ratings, valido para DCF segun guia para SPGI/MCO/FICO). Beta 1.10 estimada por volatilidad de multiplo superior a la media del sector data/ratings (~0.9-1.0). Valor terminal por Gordon sobre owner FCF del anio 10 con g=2.5-3.5% segun foso (monopolio de credit scoring US justifica extremo alto). Descuento al WACC; equity = EV menos deuda neta +$3.42B; VI/accion = equity / 23.2M acciones diluidas. PV del valor terminal = 59-69% del EV. Datos: SEC EDGAR XBRL + 10-K FY2025 + 8-K Q2 FY2026; sin busqueda web adicional necesaria."
+}

@@ -1,0 +1,48 @@
+{
+ "ticker": "IT",
+ "name": "Gartner, Inc.",
+ "currency": "USD",
+ "price_verified": 125.73,
+ "price_source": "StockAnalysis.com (cross-checked vs Q1 2026 10-Q share count and EV reconciliation); Yahoo close $127.49 on Jun 18",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 0.0675,
+ "implied_mcap_b_usd": 8.49,
+ "mcap_sanity_ok": true,
+ "wacc_pct": 10.3,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.2,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF ~$1.01B = FY2026 normalized FCF (guide >=$1.16B post-Digital Markets divestiture) minus 100% SBC (~$155M). FY2025 reported FCF $1.175B - SBC $156M = $1.019B; both triangulate to ~$1.01B base.",
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 154.17,
+   "prob": 0.38,
+   "note": "Phase1 g=1% (CV stall persists, AI disruption bites research/advisory, federal/IT-spend pressure), Phase2 g=1.5%, terminal 2.5%. Not apocalyptic: business stays profitable, ~75% recurring, cash-generative. TV=47% of EV."
+  },
+  "base": {
+   "iv_per_share": 198.6,
+   "prob": 0.47,
+   "note": "Phase1 g=4% (organic re-accelerates modestly toward historical mid-single-digit as CV troughs and recovers), Phase2 g=3.5%, terminal 3.0%. TV=51% of EV."
+  },
+  "optimista": {
+   "iv_per_share": 240.69,
+   "prob": 0.15,
+   "note": "Phase1 g=7% (CV re-accelerates, AI becomes tailwind for research demand, buybacks compound EPS), Phase2 g=5%, terminal 3.0%. TV=53% of EV."
+  }
+ },
+ "iv_dcf_weighted": 188.03,
+ "fwd_multiple_now": 9.5,
+ "fwd_multiple_5y_avg": 32,
+ "fair_multiple": 18,
+ "multiple_metric": "fwd P/E (FY2026 adjusted EPS guide $13.25)",
+ "multiple_rationale": "5y-avg fwd P/E ~26x. Applied ~30% haircut to 18x for GENUINE structural deterioration (not cyclical): Contract Value only +1% FX-neutral vs historical double-digit, FCF -15% in FY2025, AI disruption overhang on the research/advisory subscription engine, and US federal/IT-budget pressure. 18x still credits the franchise quality (~75% recurring revenue, ~24% ROIC, durable pricing power) but refuses to assume a full re-rate back to 26x while the forward indicator (CV) is genuinely stalled. iv_multiple = $13.25 * 18 = $238.50.",
+ "iv_multiple": 238.5,
+ "weight_dcf": 0.5,
+ "weight_multiple": 0.5,
+ "reconciled_iv": 213.27,
+ "structural_change": "REAL but partial. Contract Value (the leading indicator of the subscription engine) decelerated to only +1.0% FX-neutral vs historical double-digit growth — a genuine slowdown, not just FX/divestiture noise. Drivers: AI disruption risk to research/advisory value proposition, US federal & corporate IT-budget tightening, and Digital Markets divestiture shrinking the base. Offsetting: business remains highly profitable, ~75% recurring/subscription, ~24% ROIC, strong FCF conversion (~137% of GAAP NI), and aggressive buybacks (3.3M shares/$535M in Q1 2026, ~7M/$2.0B in 2025) compounding per-share value. Classification: mixed — genuine fundamental deceleration PLUS severe sentiment-driven multiple compression (from ~35x to ~9.5x fwd P/E).",
+ "sanity_notes": "Shares: StockAnalysis 66.95M point count reconciles exactly to mcap $8.42B at $125.73 and to EV $10.11B (= mcap + $1.69B net debt). Q1 2026 10-Q: 163.6M issued less treasury; exited Q1 with ~68M fully diluted; FY26 guidance uses 69M weighted-avg diluted. I used 0.0675B (~67.5M) as the diluted per-share base, splitting the point count and exit-diluted figure given ongoing buybacks; implied mcap $8.49B. Web search figures of $9.97-11.54B appear to conflate EV with mcap or use stale share counts — disregarded after EV reconciliation. Magnitude check PASS: reconciled IV $213 = 170% of price (inside 30-300% band); DCF $188 = 150%, multiple $238 = 190%. Both methods independently signal the stock is materially below fair value, driven mostly by multiple compression (9.5x vs 26x 5y-avg) that overshoots the genuine-but-modest fundamental deterioration. Weighting 50/50: quality/recurring nature argues for multiple-tilt, but real CV stall and AI/IT-spend uncertainty argue for DCF-tilt — balanced. All values in USD."
+}

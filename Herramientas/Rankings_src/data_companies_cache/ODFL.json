@@ -1,0 +1,101 @@
+{
+ "ticker": "ODFL",
+ "name": "Old Dominion Freight Line, Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 219.52,
+ "market_cap_usd_b": 45.65,
+ "fwd_pe": 38.36,
+ "fwd_pe_5y_avg": 32,
+ "pe_prem_disc_pct": 20,
+ "peg": 2.44,
+ "last_q": {
+  "period": "Q1 2026 (ended Mar 31, 2026)",
+  "revenue": "$1,334.7M",
+  "rev_yoy_pct": -2.9,
+  "op_margin_pct": 23.8,
+  "eps_gaap": "$1.14",
+  "eps_adj": "$1.14"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended Dec 31, 2025)",
+  "revenue": "$5.50B",
+  "organic_growth_pct": -5.5,
+  "roic_pct": 23.75,
+  "fcf": "$955.1M",
+  "fcf_margin_pct": 17.4
+ },
+ "sbc_pct_revenue": 0.23,
+ "sbc_pct_fcf": 1.3,
+ "net_debt_usd_b": -0.25,
+ "nd_ebitda": -0.15,
+ "net_cash": true,
+ "guidance_fy": "No formal revenue/EPS FY2026 guidance issued (company does not give numeric guidance). FY2026 capex guided to ~$265M ($125M real estate/expansion, $95M equipment, $45M tech/other). Trend update: April 2026 rev/day improved and May 2026 revenue per day +12.3% YoY, signaling demand/pricing recovery into Q2 2026.",
+ "pct_off_52w_high": -12.9,
+ "pct_off_ath": -7,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "price",
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "guidance_fy",
+  "last_q.period",
+  "last_fy.period"
+ ],
+ "estimated_fields": [
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.organic_growth_pct",
+  "last_fy.roic_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "StockTitan — ODFL Q1 2026 earnings press release coverage (8-K)",
+   "url": "https://www.stocktitan.net/news/ODFL/old-dominion-freight-line-reports-first-quarter-2026-earnings-per-8n73f4i19phc.html",
+   "date": "2026-04"
+  },
+  {
+   "label": "StockAnalysis.com — ODFL overview (price, market cap, fwd P/E, 52w high)",
+   "url": "https://stockanalysis.com/stocks/odfl/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com — ODFL cash flow statement (FY2025 OCF, capex, FCF, SBC, buybacks, dividends)",
+   "url": "https://stockanalysis.com/stocks/odfl/financials/cash-flow-statement/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com — ODFL statistics (ROIC, net cash, EBITDA, PEG, EV)",
+   "url": "https://stockanalysis.com/stocks/odfl/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "ODFL Investor Relations — financial results / press releases",
+   "url": "https://ir.odfl.com/financials/financial-results",
+   "date": "2026"
+  },
+  {
+   "label": "Macrotrends — ODFL stock price history (ATH, 52w high context)",
+   "url": "https://www.macrotrends.net/stocks/charts/ODFL/old-dominion-freight-line/stock-price-history",
+   "date": "2026-06"
+  }
+ ],
+ "notes": "DROP CLASSIFICATION = not_depressed. ODFL is NOT in a selloff: stock is up ~+40% over the trailing 52 weeks and sits only ~7% below its all-time closing high (~$236, June 2026) and ~13% below the stockanalysis 52w high figure of $252.03 (note: 52w-high sources conflict — Macrotrends shows 52w/ATH closing ~$236.06; the $252.03 may be an intraday print). Fundamentals softened cyclically in FY2025/Q1 2026 (FY2025 revenue -5.5%, Q1 2026 revenue -2.9%, LTL tons/day -7.7%, operating ratio worsened to 76.2% from 75.4%), but pricing held (LTL rev/cwt +5.7%, +4.4% ex-fuel) and demand is re-accelerating (May 2026 revenue/day +12.3% YoY). Balance sheet is pristine: net cash ~$0.25B (total cash ~$288M vs ~$40M debt per stockanalysis; note other aggregators show modestly different cash/debt by quarter), so net_debt is negative and nd_ebitda is slightly negative. SBC is extremely low — ~0.2% of revenue and ~1.3% of FCF — a strong positive for R9 (FCF is high-quality, not inflated by stock comp). VALUATION: trades rich at ~38x forward earnings vs a ~5y average around 32x (≈+20% premium); PEG ~2.4 reflects premium quality at a cyclical-trough earnings base. CAVEATS/ESTIMATED: fwd_pe_5y_avg and pe_prem_disc_pct are aggregator/derived estimates (gurufocus forward-PE page returned 403; cross-checked via search). FY2025 FCF ($955M), ROIC (23.75%), SBC and net-cash figures are from StockAnalysis aggregator, not yet line-item-confirmed against the 10-K. last_q EPS GAAP=adj ($1.14) since ODFL reports no material adjustments. Organic growth ≈ reported growth (ODFL is single-segment LTL, no major M&A)."
+}

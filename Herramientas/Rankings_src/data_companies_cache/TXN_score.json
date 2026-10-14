@@ -1,0 +1,59 @@
+{
+ "ticker": "TXN",
+ "name": "Texas Instruments Incorporated",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Modelo no es software de margen incremental cero, pero TXN apalanca su escala fabril propia (300mm/internal manufacturing): op margin 37.5% en Q1'26 sube con volumen al diluir costes fijos de fab, aunque no llega a la escalabilidad monstruosa de redes/software, asi que base 1.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "Semis analogicos/embedded son un crecimiento secular durable (electrificacion, industrial, data center, automocion), con rev +19% YoY y motor de data center/industrial confirmado en Q1'26 -> claridad superior 1.5."
+  },
+  "R3": {
+   "score": 2,
+   "just": "TXN es el #1 mundial indiscutible en analogico (>100k productos, ~80k clientes) dejando al 2o (ADI) a anios-luz en amplitud de catalogo, canal directo y capacidad interna 300mm: dominancia irreplicable -> 2.0."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat irreplicable a decadas: catalogo de ~80k SKUs analogicos de larga vida, costes de cambio brutales (diseno embebido por 10-20 anios), escala de fabricacion 300mm de bajo coste y relaciones de canal directo -> 2.0."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento casi 100% organico (FY2025 +13% organico ~= reportado, sin M&A material en el periodo), aunque la futura compra de Silicon Labs ~$7.5B introduce algo de M&A -> 1.5 por organico limpio historico."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Diversificacion superior: ~80k clientes (ninguno >10-15%), multi-segmento (Analog $3.92B + Embedded $723M) y multi-geografia/multi-mercado final (industrial, auto, personal electronics, comms, enterprise) -> 1.5."
+  },
+  "R7": {
+   "score": 1,
+   "just": "ROIC historicamente ~25-30%+ (>WACC) pero NO verificado en FASE 2 (null), y FCF/NI debilitado por mega-capex del ciclo de fabs (FCF $2.94B vs NI $5.00B = FCF/NI ~59%, <80%; FCF margin solo 16.6%) -> base 1.0, no superior."
+  },
+  "R8": {
+   "score": 1,
+   "just": "Deuda neta +$8.95B (NO caja neta) con ND/EBITDA ~1.0-1.6x (<2x, aceptable) pero la compra de Silicon Labs en efectivo elevara apalancamiento -> base 1.0, no premiable."
+  },
+  "R9": {
+   "score": 1,
+   "just": "SBC verificada $419M = 2.37% de ingresos y 14.3% del FCF (<15%): baja, no dilutiva materialmente, contabilidad limpia GAAP=adj sin ajustes agresivos -> 1.0; queda justo bajo el umbral duro de 15%."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Asignacion de capital ejemplar a largo plazo (foco FCF/accion, recompras historicas oportunistas, dividendos crecientes), gestion disciplinada; la apuesta de capex en fabs y la compra de Silicon Labs son decisiones estrategicas defendibles -> 1.5."
+  }
+ },
+ "amplification": true,
+ "amplification_note": "R3 (#1 indiscutible en analogico) + R4 (moat irreplicable: 80k SKUs de larga vida, costes de cambio de diseno embebido, escala 300mm de bajo coste) se refuerzan de forma monstruosa: el liderazgo en catalogo y canal alimenta directamente el moat de costes de cambio y de coste de fabricacion, creando un circulo virtuoso casi imposible de replicar en decadas. R1 acompana (apalancamiento operativo de la fab propia) pero es el par R3+R4 el que es dominante.",
+ "moat_type": "switching_costs_plus_scale",
+ "moat_one_line": "Catalogo de ~80k chips analogicos de larga vida disenados dentro de productos de clientes por 10-20 anos, combinado con la mayor escala de fabricacion 300mm de bajo coste de la industria, hace el desplazamiento competitivo casi imposible.",
+ "thesis_3lines": [
+  "Calidad: lider #1 mundial e irreplicable del analogico con moat de costes de cambio y escala de fabricacion 300mm propia, op margin 37.5% y SBC minima (14.3% del FCF) -> contabilidad limpia.",
+  "Motor: crecimiento secular durable (rev +19% YoY en Q1'26) impulsado por data center, industrial, electrificacion y automocion, con guia Q2'26 de doble digito continuado.",
+  "Valoracion/retorno: CARA y NO deprimida -> fwd P/E 39.1x (+30% sobre media 5a de 30.1x), PEG 1.87, en maximos historicos; calidad excepcional pero precio exige paciencia o esperar un retroceso."
+ ],
+ "bear_case_strongest": "A 39x fwd P/E (prima del 30% sobre su media y en maximos historicos) el mercado ya descuenta un super-ciclo de data center/industrial perfecto, justo cuando TXN esta en el pico de un mega-capex de fabs que deprime el FCF (FCF/NI ~59%, FCF margin 16.6%) y va a apalancarse mas con la compra en efectivo de Silicon Labs ($7.5B): cualquier reversion ciclica de semis o retraso en el ramp de las nuevas fabs comprime simultaneamente margenes, FCF y multiplo.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Score total = 1.0+1.5+2.0+2.0+1.5+1.5+1.0+1.0+1.0+1.5 = 14.0/13.5 nominal, capado a 13.5 (techo). Baja desde 12.5 preliminar AL ALZA en calidad estructural (R3/R4 a 2.0 por dominancia monstruosa) pero R7 y R8 quedan en base 1.0 por FCF/NI ~59% (<80%) por el ciclo de capex de fabs y por deuda neta positiva (NO caja neta) que la futura compra de Silicon Labs elevara. R9 limpio (SBC 14.3% del FCF, bajo el umbral de 15%). Riesgo central NO es calidad sino VALORACION: not_depressed, fwd P/E 39.1x con prima del 30%, PEG 1.87, en maximos. ROIC FY2025 no verificado (null) -> R7 conservador. data_quality MIXED: operativos verificados de filings, valoracion estimada de agregador."
+}

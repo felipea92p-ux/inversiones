@@ -1,0 +1,41 @@
+{
+ "ticker": "VRSN",
+ "currency": "USD",
+ "current_price": 247.69,
+ "wacc_pct": 8.55,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.85,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = FY2025 reported FCF $1.068B menos 100% de la SBC TTM (~$72.6M, ~6.8% del FCF) = ~$0.995B (~$995M). Margen owner-FCF ~60% sobre ingresos de $1.66B. La SBC de VRSN es excepcionalmente baja (~4.2% de ingresos), asi que el ajuste a owner earnings es minimo, lo que refuerza la calidad del flujo.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 6,
+  "rev_cagr_y6_10_pct": 4.5,
+  "fcf_margin_terminal_pct": 60,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC restada del FCF como gasto en efectivo (owner earnings). SBC TTM ~$72.6M = ~6.8% del FCF; impacto bajo dada la baja dilucion historica.",
+  "shares_diluted_b": 0.0911,
+  "net_debt_usd_b": 1.23
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 187.5,
+   "prob": 0.375,
+   "note": "Owner FCF crece ~4% en fase 1 y declina a ~2.5% en fase 2; g terminal 2.5%. Refleja saturacion de la base de dominios .com/.net (crecimiento de volumen plano), apoyandose solo en las subidas de precio contractuales (techo ~7%/ano en .com). Sin expansion de margen. Aun asi NO apocaliptico: el monopolio del registro .com bajo contrato con ICANN/NTIA persiste."
+  },
+  "base": {
+   "iv_per_share": 231.96,
+   "prob": 0.475,
+   "note": "Owner FCF crece ~6% en fase 1 (consistente con +6.4% organico FY2025, base record de 176M dominios +3.7% y la subida del fee .com a $10.97 desde nov-2026) declinando a ~4% en fase 2; g terminal 3.0%. Recompras agresivas mantienen el FCF/accion. Peso del valor terminal ~61%."
+  },
+  "optimista": {
+   "iv_per_share": 284.16,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: owner FCF crece ~8% fase 1 (recuperacion del crecimiento de dominios + subidas de precio plenas .com/.net + apalancamiento operativo) declinando a ~5%; g terminal 3.5% por el foso del monopolio regulado. Implica reaceleracion del volumen ademas del precio."
+  }
+ },
+ "sanity_check": "VI base ~$232 esta ~6% por DEBAJO del precio actual $247.69; VI ponderada por probabilidad ~$223 (~-10% vs precio). Owner-FCF yield ~4.4% (FCF yield ~4.7%) vs WACC 8.55%, coherente con que el mercado paga por durabilidad y subidas de precio garantizadas. Contraste de rendimiento total al accionista (no DDM, no paga dividendo): VRSN recompra agresivamente — ritmo Q1 2026 ~$214M => ~$850M anualizado = buyback yield ~3.8%; sin dividendo. fwd P/E 25.5x vs media 5a ~29x (descuento ~-12%) sugiere que tras la caida del -20.7% desde maximos la accion esta cerca de valor razonable, no una ganga clara. Conclusion: calidad altisima (monopolio .com regulado, margen FCF >60%, SBC minima) pero margen de seguridad limitado al precio actual; el DCF no justifica un descuento amplio.",
+ "method_notes": "DCF de owner earnings a 10 anios en dos fases. Base owner FCF = FCF reportado FY2025 ($1.068B) - 100% SBC TTM (~$72.6M) = ~$0.995B. Fase 1 (anios 1-5) crecimiento explicito del FCF; Fase 2 (anios 6-10) CAGR declinante linealmente hacia normalizacion; valor terminal Gordon sobre el flujo del anio 10 con g segun escenario (2.5-3.5%, foso de monopolio regulado justifica el extremo alto en base/optimista). Descontado al WACC = Rf 4.3% (UST 10Y) + ERP 5.0% * beta 0.85 = 8.55%. Beta 0.85 estimada: VRSN es defensiva, ingresos recurrentes por suscripcion/registro, baja ciclicidad. Sin ajuste geopolitico (empresa 100% EEUU). VI/accion = (PV de flujos + PV valor terminal - deuda neta $1.23B) / acciones diluidas 0.0911B (market cap $22.57B / $247.69). DDM no aplica (sin dividendo); para esta empresa de datos/infraestructura el DCF es valido y se anade el shareholder yield (solo recompras) como contraste en sanity_check. Acciones diluidas derivadas de market cap/precio; deuda neta verificada (deuda total $1,788.8M - caja+valores $556.4M)."
+}

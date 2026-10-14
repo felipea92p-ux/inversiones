@@ -1,0 +1,97 @@
+{
+ "ticker": "VACN.SW",
+ "name": "VAT Group AG",
+ "asof_date": "2026-06-22",
+ "price": 706.8,
+ "currency": "CHF",
+ "market_cap_usd_b": 25.7,
+ "fwd_pe": 60.8,
+ "fwd_pe_5y_avg": 45.1,
+ "pe_prem_disc_pct": 34.8,
+ "peg": 1.88,
+ "last_q": {
+  "period": "Q1 2026",
+  "revenue": "CHF 220.9m",
+  "rev_yoy_pct": -19.7,
+  "op_margin_pct": null,
+  "eps_gaap": "n/d (sales-only trading update)",
+  "eps_adj": "n/d (sales-only trading update)"
+ },
+ "last_fy": {
+  "period": "FY2025",
+  "revenue": "CHF 1,073.5m",
+  "organic_growth_pct": 6,
+  "roic_pct": 35.2,
+  "fcf": "CHF 230.4m",
+  "fcf_margin_pct": 21.5
+ },
+ "sbc_pct_revenue": 0.2,
+ "sbc_pct_fcf": 0.9,
+ "net_debt_usd_b": 0.13,
+ "nd_ebitda": 0.3,
+ "net_cash": false,
+ "guidance_fy": "FY2026: VAT espera que pedidos, ventas, EBITDA, margen EBITDA, beneficio neto y FCF sean SUPERIORES a 2025 (guia cualitativa, no cuantificada). Reiterada en Q1 2026 pese al impacto del conflicto en Oriente Medio (CHF ~20-25m de ventas diferidas a Q2). Guia Q2 2026: ventas CHF 265-295m, book-to-bill >1.0x. WFE estimado en USD 130bn.",
+ "pct_off_52w_high": 0,
+ "pct_off_ath": 0,
+ "drop_classification": "not_depressed",
+ "data_quality": "VERIFICADO_mostly",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_fy.revenue",
+  "last_fy.roic_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "last_fy.organic_growth_pct",
+  "guidance_fy",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "net_cash",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "VAT Q1 2026 Trading Update (media release, primary PDF)",
+   "url": "https://www.vatgroup.com/uploads/financial_reports/2026/vat-media-release-q1-2026-trading-update.pdf",
+   "date": "2026-04-16"
+  },
+  {
+   "label": "VAT Full-Year 2025 Results Presentation (primary PDF: EBITDA, net income, FCF, ROIC 35.2%, net debt, R&D)",
+   "url": "https://www.vatgroup.com/files/live/sites/vat/files/Investor%20relations/annual-report/2025/full-year-2025-results-presentation.pdf",
+   "date": "2026-03"
+  },
+  {
+   "label": "VAT Media Release on Full-Year 2025 Results (EQS News)",
+   "url": "https://www.eqs-news.com/news/ad-hoc/vat-media-release-on-full-year-2025-results/423763b7-338f-429c-b28c-f1b58d51ceac_en",
+   "date": "2026-03"
+  },
+  {
+   "label": "StockAnalysis.com VACN statistics (price, mkt cap, fwd P/E 60.8, PEG 1.88, net debt CHF 107m)",
+   "url": "https://stockanalysis.com/quote/swx/VACN/statistics/",
+   "date": "2026-06-21"
+  },
+  {
+   "label": "StockAnalysis.com VACN ratios (historical fwd P/E, 5y avg ~45)",
+   "url": "https://stockanalysis.com/quote/swx/VACN/financials/ratios/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "VAT Annual Report 2024 / Half-Year 2024 (share-based payments ~CHF 0.9-1.0m/half-year)",
+   "url": "https://www.vatgroup.com/uploads/financial_reports/2024/VAT-Group-Half-Year-Report-2024.pdf",
+   "date": "2024"
+  }
+ ],
+ "notes": "VACN cotiza CHF 706.80 (21-22 jun 2026), en MAXIMO HISTORICO tras subir ~115% en 12 meses (rango 52s CHF 257.50-706.80). Por tanto pct_off_52w_high y pct_off_ath son ~0% y la clasificacion es NOT_DEPRESSED: la accion NO esta deprimida, esta en records impulsada por el boom de capex en AI/leading-edge. El Q1 2026 fue un trading update SOLO de ventas (sin EPS ni margenes); ventas CHF 220.9m (-19.7% YoY, -9.2% cc) por interrupcion logistica del conflicto en Oriente Medio (CHF 20-25m diferidos a Q2), pero order intake CHF 356.3m (+47.4% YoY, +67.1% cc, 2o mayor de la historia), book-to-bill 1.6x, backlog CHF 431.3m (+42%). FY2025 (verificado en presentacion): ventas CHF 1,073.5m (+13.9%), EBITDA CHF 321.6m (margen 30.0%, -1.2pp), EBIT CHF 272.8m, beneficio neto CHF 214.3m (+1.2%), EPS CHF 7.15, FCF record CHF 230.4m (+26%, conversion 72%), ROIC 35.2% (2024: 35.6%), R&D record CHF 75m (+22%). Crecimiento organico FY2025: pedidos planos YoY pero +5-6% a moneda constante; ventas +14% reportado. Deuda neta CHF 107m (~0.3x EBITDA); term loan reembolsado en ene-2026, reduciendo costes financieros. NO es caja neta. SBC INMATERIAL (~CHF 2m/ano, ~0.2% ventas / ~0.9% FCF) — muy positivo para R9, tipico de industrial suizo vs tech US. Conversiones USD usan CHF/USD ~1.25; market cap CHF 20.56bn -> ~USD 25.7bn; deuda neta CHF 107m -> ~USD 0.13bn (estimadas). fwd_pe 60.8 vs media 5a ~45 -> prima ~+35%; trailing P/E ~99x (706.80/7.15). Valoracion en prima historica reflejando expectativas de ramp AI. Campos de mercado (precio, mkt cap, multiplos, % off highs) son de agregador StockAnalysis = ESTIMADO; fundamentales FY2025 y Q1 2026 de fuente primaria VAT = VERIFICADO."
+}

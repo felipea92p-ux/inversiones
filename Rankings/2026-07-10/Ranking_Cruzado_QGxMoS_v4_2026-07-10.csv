@@ -1,0 +1,52 @@
+grupo,qg,tick,tier,zona,mos,veredicto,nota_v4
+COMPRAR / ACUMULAR (los dos ejes alinean),86.0,MSFT,Núcleo,OPORTUNIDAD / GANGA,,COMPRAR TRAMO,
+COMPRAR / ACUMULAR (los dos ejes alinean),76.8,INTU,Alta convicción,GANGA,35.0,COMPRAR TRAMO,
+"EN ZONA / VIGILAR (calidad ok, precio cerca — gatillo activo)",79.0,VEEV,Alta convicción,JUSTO,-4.6,VIGILAR,PWFV inflado (peaje)
+"EN ZONA / VIGILAR (calidad ok, precio cerca — gatillo activo)",78.4,TSM,Alta Convicción,BURBUJA,,VIGILAR,"capex: múltiplo distorsionado, NO caro por esto"
+"EN ZONA / VIGILAR (calidad ok, precio cerca — gatillo activo)",78.2,DUOL,Alta convicción,OPORTUNIDAD,,VIGILAR,
+"EN ZONA / VIGILAR (calidad ok, precio cerca — gatillo activo)",72.0,CLX,Calidad sólida,Oportunidad,,VIGILAR,rúbrica Quality-Value (maduras)
+"CALIDAD ALTA, PRECIO CARO (Justo/Caro/Burbuja — esperar corrección)",92.0,PG,Núcleo,Justo,,ESPERAR,rúbrica Quality-Value (maduras)
+"CALIDAD ALTA, PRECIO CARO (Justo/Caro/Burbuja — esperar corrección)",80.8,V,Alta convicción,Caro,-34.0,ESPERAR,CORREGIDO: peaje inflado→Caro (forja $280)
+"CALIDAD ALTA, PRECIO CARO (Justo/Caro/Burbuja — esperar corrección)",80.2,AMZN,Alta convicción,BURBUJA,,ESPERAR,
+"CALIDAD ALTA, PRECIO CARO (Justo/Caro/Burbuja — esperar corrección)",79.2,ISRG,Alta convicción,BURBUJA,-118.7,ESPERAR,
+"CALIDAD ALTA, PRECIO CARO (Justo/Caro/Burbuja — esperar corrección)",74.8,MA,Calidad sólida,JUSTO,6.3,ESPERAR,PWFV inflado (peaje)
+"CALIDAD ALTA, PRECIO CARO (Justo/Caro/Burbuja — esperar corrección)",73.6,NFLX,Calidad sólida,BURBUJA,-57.2,ESPERAR,
+"CALIDAD ALTA, PRECIO CARO (Justo/Caro/Burbuja — esperar corrección)",72.8,ADBE,Calidad Sólida,,,,
+"CALIDAD ALTA, PRECIO CARO (Justo/Caro/Burbuja — esperar corrección)",72.0,MELI,Calidad sólida,BURBUJA,-64.0,ESPERAR,
+"CALIDAD ALTA, PRECIO CARO (Justo/Caro/Burbuja — esperar corrección)",72.0,ASML,Calidad sólida,BURBUJA,-208.6,ESPERAR,
+"CALIDAD ALTA, PRECIO CARO (Justo/Caro/Burbuja — esperar corrección)",71.2,SPGI,Calidad sólida,BURBUJA,-35.4,ESPERAR,
+"CALIDAD ALTA, PRECIO CARO (Justo/Caro/Burbuja — esperar corrección)",70.4,CME,Calidad sólida,JUSTO,13.7,ESPERAR,
+"CALIDAD ALTA, PRECIO CARO (Justo/Caro/Burbuja — esperar corrección)",69.6,HERMES,Calidad sólida,BURBUJA,-65.9,ESPERAR,PWFV inflado (peaje)
+"CALIDAD ALTA, PRECIO CARO (Justo/Caro/Burbuja — esperar corrección)",68.0,MSCI,Calidad sólida,BURBUJA,-99.3,ESPERAR,
+"CALIDAD ALTA, PRECIO CARO (Justo/Caro/Burbuja — esperar corrección)",68.0,SPOT,Calidad sólida,JUSTO,9.0,ESPERAR,PWFV inflado (peaje)
+"CALIDAD ALTA, PRECIO CARO (Justo/Caro/Burbuja — esperar corrección)",66.8,WISE,Calidad sólida,Burbuja profunda,-63.2,ESPERAR,
+"CALIDAD ALTA, PRECIO CARO (Justo/Caro/Burbuja — esperar corrección)",66.4,OBIC,Calidad sólida,JUSTO,-7.5,ESPERAR,
+"CALIDAD ALTA, PRECIO CARO (Justo/Caro/Burbuja — esperar corrección)",66.4,ABNB,Calidad sólida,Justo,3.7,ESPERAR,PWFV inflado (peaje)
+"CALIDAD ALTA, PRECIO CARO (Justo/Caro/Burbuja — esperar corrección)",65.4,GOOGL,Calidad sólida,JUSTO,14.4,ESPERAR,"capex: múltiplo distorsionado, NO caro por esto"
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),64.8,HKEX,Watchlist,BURBUJA,-105.8,ESPERAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),64.8,ADYEN,Watchlist,Justo,-7.5,ESPERAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),64.4,BKNG,Watchlist,Oportunidad,27.8,VIGILAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),63.2,NVDA,Watchlist,BURBUJA,-55.9,ESPERAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),63.2,RELX,Watchlist,JUSTO,12.4,VIGILAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),62.4,AAPL,Watchlist,BURBUJA,-181.9,ESPERAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),62.4,NEM,Watchlist,JUSTO,1.6,ESPERAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),62.4,NOW,Watchlist,BURBUJA,-83.0,ESPERAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),61.6,MANH,Watchlist,BURBUJA,-46.4,ESPERAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),60.8,MTD,Watchlist,BURBUJA,-142.0,ESPERAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),60.8,WKL,Watchlist,Ganga,,ESPERAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),60.0,AVGO,Watchlist,BURBUJA,,ESPERAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),60.0,AXP,Watchlist,Justo,8.0,VIGILAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),58.4,SOON,Watchlist,JUSTO,14.7,VIGILAR,PWFV inflado (peaje)
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),58.4,TOI,Watchlist,Burbuja,-26.7,ESPERAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),57.6,ORCL,Watchlist,BURBUJA,-160.5,ESPERAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),55.2,EFX,Watchlist,OPORTUNIDAD,,VIGILAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),54.4,SE,Watchlist,BURBUJA,,ESPERAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),53.6,ICE,Watchlist,Oportunidad,18.7,ESPERAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),49.4,BRKB,Watchlist,BURBUJA,-27.0,ESPERAR — NO COMPRAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),46.4,BABA,Watchlist,JUSTO,14.8,ESPERAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),44.0,ACN,Watchlist,GANGA,37.4,ESPERAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),41.6,EXPE,Watchlist,OPORTUNIDAD,,ESPERAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),40.8,PINS,Watchlist,CARO,-18.1,ESPERAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),40.8,PDD,"No ranqueable — hipotético (Watchlist, <65) bajo knock-out permanente Gate 5",JUSTO,16.9,ESPERAR,
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),35.2,JD,Descartada (knock-out permanente — Gate 5 VIE),GANGA (informativo — irrelevante bajo veto estructural),42.3,ESPERAR — VETO ESTRUCTURAL (no investable mientras persista Gate 5 VIE),
+EXCLUIDAS (Watchlist <65 o China VIE — no se compran a ningún precio),,CL,Alta convicción,Caro,,ESPERAR,rúbrica Quality-Value (maduras)

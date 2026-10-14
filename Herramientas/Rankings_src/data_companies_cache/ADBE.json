@@ -1,0 +1,104 @@
+{
+ "ticker": "ADBE",
+ "name": "Adobe Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 191.56,
+ "market_cap_usd_b": 76.6,
+ "fwd_pe": 7.9,
+ "fwd_pe_5y_avg": 32.4,
+ "pe_prem_disc_pct": -75.6,
+ "peg": 0.55,
+ "last_q": {
+  "period": "Q2 FY2026 (ended 2026-05-29)",
+  "revenue": "$6.62B",
+  "rev_yoy_pct": 13,
+  "op_margin_pct": null,
+  "eps_gaap": "$4.25",
+  "eps_adj": "$5.96"
+ },
+ "last_fy": {
+  "period": "FY2025 (ended 2025-11-28)",
+  "revenue": "$23.77B",
+  "organic_growth_pct": 11,
+  "roic_pct": null,
+  "fcf": "$9.85B",
+  "fcf_margin_pct": 41.4
+ },
+ "sbc_pct_revenue": 8.2,
+ "sbc_pct_fcf": 19.7,
+ "net_debt_usd_b": 1.02,
+ "nd_ebitda": 0.1,
+ "net_cash": false,
+ "guidance_fy": "FY2026 (proyeccion direccion, elevada en Q2): ingresos $26.5B-$26.6B; BPA non-GAAP $24.35-$24.45; margen operativo non-GAAP ~45.0%",
+ "pct_off_52w_high": -51.2,
+ "pct_off_ath": -72.6,
+ "drop_classification": "fear_rotation",
+ "data_quality": "VERIFICADO_mostly",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "guidance_fy",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "nd_ebitda",
+  "last_q.op_margin_pct",
+  "last_fy.organic_growth_pct",
+  "last_fy.roic_pct"
+ ],
+ "sources": [
+  {
+   "label": "Adobe Q2 FY2026 Earnings Release (8-K/IR PDF)",
+   "url": "https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/11606202/a5543arefgt.pdf",
+   "date": "2026-06-11"
+  },
+  {
+   "label": "Adobe Reports Record Q2 Results (BusinessWire)",
+   "url": "https://www.businesswire.com/news/home/20260611677110/en/Adobe-Reports-Record-Q2-Results",
+   "date": "2026-06-11"
+  },
+  {
+   "label": "SEC EDGAR - Adobe 10-K FY2025 (XBRL companyfacts: revenue, op income, OCF, capex, SBC, EPS)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000796343/000079634326000003/adbe-20251128.htm",
+   "date": "2026-01-15"
+  },
+  {
+   "label": "SEC EDGAR - Adobe 10-Q Q2 FY2026 (balance sheet 2026-05-29: cash, ST inv, debt)",
+   "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000796343/us-gaap/CashAndCashEquivalentsAtCarryingValue.json",
+   "date": "2026-06"
+  },
+  {
+   "label": "StockAnalysis.com - ADBE (price, mkt cap, fwd P/E 7.53, PEG 0.55, shares, EBITDA)",
+   "url": "https://stockanalysis.com/stocks/adbe/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "FinanceCharts/FullRatio - ADBE P/E 5Y average ~32.4",
+   "url": "https://fullratio.com/stocks/nasdaq-adbe/pe-ratio",
+   "date": "2026-06"
+  },
+  {
+   "label": "Macrotrends - ADBE all-time high $699.54 (Nov 2021), 52w high $392.58",
+   "url": "https://www.macrotrends.net/stocks/charts/ADBE/adobe/stock-price-history",
+   "date": "2026-06"
+  }
+ ],
+ "notes": "FASE 2 verificacion ADBE al 2026-06-22. DATOS DURO VERIFICADOS via SEC EDGAR XBRL (CIK 0000796343): FY2025 (cierre 2025-11-28) ingresos $23,769M, ingreso operativo GAAP $8,706M (margen op GAAP 36.6%), flujo de caja operativo $10,031M, capex $179M -> FCF $9,852M (margen FCF 41.4%), SBC $1,942M (8.2% ingresos, 19.7% del FCF), BPA diluido GAAP FY2025 $16.70. Q2 FY2026 (cierre 2026-05-29): ingresos $6.62B (+13% YoY, +11% cc), BPA GAAP $4.25, BPA non-GAAP $5.96; ARR total $27.1B (+12.5%), AI-first ARR triplicado >$500M. Balance Q2'26 (10-Q): caja $4,919M + inversiones CP $707M = $5,626M; deuda total $6,645M ($4,802M LP + $1,843M corriente) -> DEUDA NETA +$1.02B (NO es caja neta a Q2'26; a cierre FY2025 tenia ~+$385M caja neta, se invirtio por recompras). ND/EBITDA ~0.1x (EBITDA ~$9.73B agregador). VALORACION (estimada/agregador): precio ~$191.56 (rango intradia $191-195), mkt cap ~$76.6B (397.5M acciones). Fwd P/E calculado: $191.56 / BPA non-GAAP guia FY26 punto medio $24.40 = 7.85x; StockAnalysis muestra 7.53 (NTM). Media 5A fwd P/E ~32.4 (FullRatio/FinanceCharts) -> descuento ~-76%. PEG 0.55. op_margin_pct Q2 y organic_growth_pct/ROIC FY no extraidos con precision de fuente primaria (null/estimado). guidance_fy es PROYECCION de la direccion. CLASIFICACION CAIDA: fear_rotation -- resultados record con crecimiento +13%, ARR +12.5%, guia ELEVADA y AI ARR triplicando, pero accion -51% desde maximo 52s y -73% desde ATH ($699.54 Nov-2021). El desplome refleja MIEDO a disrupcion por IA generativa y ruido (salida del CFO dias tras resultados), no deterioro fundamental genuino; fundamentales siguen acelerando."
+}

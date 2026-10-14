@@ -1,0 +1,59 @@
+{
+ "ticker": "EW",
+ "name": "Edwards Lifesciences Corporation",
+ "rules": {
+  "R1": {
+   "score": 1,
+   "just": "Margen operativo ~28.9% Q1 y FCF margin 22% son altos pero EW es manufactura de dispositivos medicos (valvulas), no software/redes — la escalabilidad no mejora dramaticamente con volumen, base 1.0."
+  },
+  "R2": {
+   "score": 1.5,
+   "just": "TAVR/TMTT en crecimiento secular fuerte e inframpenetrado (TMTT +42% YoY, guia +35-45%; valvulas estructurales transcateter es megatendencia demografica), durabilidad de demanda superior."
+  },
+  "R3": {
+   "score": 1.5,
+   "just": "Lider #1 indiscutible global en TAVR (pionero del Sapien) con cuota dominante, ventaja clinica y de IP sostenida; no llega a 2.0 porque Medtronic/Abbott compiten activamente en segmentos."
+  },
+  "R4": {
+   "score": 1.5,
+   "just": "Moat fuerte por IP/patentes, datos de ensayos clinicos, relaciones con cardiologos y costes de cambio en plataforma quirurgica; no 2.0 porque las patentes expiran y la competencia (Abbott TMTT) es real."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento puramente organico verificado: +10.7% moneda constante FY2025 y +16.7% Q1 sin M&A relevante (de hecho desinvirtio Critical Care a BD), motor 100% interno."
+  },
+  "R6": {
+   "score": 1,
+   "just": "Diversificada por geografia y sin cliente >10-15%, pero concentrada en una sola categoria terapeutica (valvulas cardiacas estructurales) tras vender Critical Care — concentracion de producto limita a base 1.0."
+  },
+  "R7": {
+   "score": 1.5,
+   "just": "FCF $1,335M con margen 22%, capex bajo (~4.3% ventas, $260M) y FCF/NI muy alto; ROIC no verificado de fuente primaria pero historicamente >WACC con caja neta, calidad de capital superior."
+  },
+  "R8": {
+   "score": 1.5,
+   "just": "Balance impecable: CAJA NETA ~$2.97B (net_debt negativo), deuda minima ~$0.6-0.7B, sin riesgo de apalancamiento — fortaleza de balance superior."
+  },
+  "R9": {
+   "score": 1,
+   "just": "SBC VERIFICADA $158.1M = 11.8% del FCF y 2.6% de ventas, por DEBAJO del umbral duro del 15% — contabilidad limpia, calidad de beneficios sin dilucion excesiva, base 1.0."
+  },
+  "R10": {
+   "score": 1,
+   "just": "Gestion disciplinada: desinversion oportuna de Critical Care por $4.2B y guia elevada en Q1; gobierno solido aunque skin-in-the-game de insiders moderado y sin buybacks oportunistas destacados, base 1.0."
+  }
+ },
+ "amplification": false,
+ "amplification_note": "R2/R3/R4 se refuerzan (lider secular con moat), pero R1 no es 2.0 (no es modelo software/redes) y ni R3 ni R4 alcanzan dominancia monstruosa irreplicable de 2.0 — la competencia de Medtronic/Abbott y la expiracion de patentes impiden la amplificacion.",
+ "moat_type": "intangibles",
+ "moat_one_line": "Liderazgo en TAVR construido sobre decadas de datos de ensayos clinicos, una cartera de patentes profunda y relaciones arraigadas con cardiologos/centros que crean altos costes de cambio.",
+ "thesis_3lines": [
+  "Calidad: lider mundial #1 en valvulas cardiacas transcateter con margen operativo ~29%, FCF margin 22% y balance en CAJA NETA ~$3B, contabilidad limpia (SBC solo 11.8% del FCF).",
+  "Motor de crecimiento: doble motor secular TAVR (+11%) y TMTT (+42%, guia +35-45%) en mercado inframpenetrado, con crecimiento 100% organico (+10.7% FY25) y guia FY26 ELEVADA a +9-11%.",
+  "Valoracion/retorno: fwd P/E ~28.5x con ~-14% de descuento vs su media historica pero PEG ~2.37 — calidad excelente a precio razonable, NO ganga (accion solo -4% del maximo 52s, no deprimida)."
+ ],
+ "bear_case_strongest": "La valoracion exige perfeccion (PEG ~2.37, fwd P/E ~28x sin descuento real de despliegue) mientras Abbott y Medtronic erosionan agresivamente el liderazgo en TMTT/TAVR y la futura expiracion de patentes Sapien amenaza el moat, dejando poco margen de seguridad si el crecimiento decelera.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "notes": "Re-score FASE 2 total = 13.0/13.5 (R1 1.0 + R2 1.5 + R3 1.5 + R4 1.5 + R5 1.5 + R6 1.0 + R7 1.5 + R8 1.5 + R9 1.0 + R10 1.0). Confirma score preliminar FASE 1 (13/13.5). SBC verificada 11.8% del FCF -> bajo umbral 15%, R9 sin penalizacion dura. ROIC null (no fuente primaria) pero caja neta implica ROIC>WACC, no penaliza R7. Riesgo clave: NO esta deprimida (clasificacion not_depressed, -4% del max 52s, +16% en 52s); valoracion plena con PEG 2.37. Excelente calidad QG pero punto de entrada poco descontado."
+}

@@ -1,0 +1,136 @@
+{
+  "ticker": "DSG.TO",
+  "empresa": "The Descartes Systems Group Inc. (DSGX / DSG.TO) - CIK 0001050140",
+  "fecha_juicio": "2026-07-28",
+  "moneda": "USD",
+  "ejercicio_fiscal": "cierra 31 de enero; FY2026 = 1-feb-2025 a 31-ene-2026",
+  "candado_B_prima": "CUMPLIDO. No se consulto cotizacion, capitalizacion ni multiplo en ningun momento.",
+  "orden_ejecutado": "G5 -> G1 -> G3 -> G4 -> G2 -> G6",
+  "ventana": "FY2022-FY2026 (5 ejercicios auditados) para lo cuantitativo; FY2009-FY2011 anadidos para G4.",
+
+  "fuentes_primarias": [
+    "40-F FY2026, accesion 0001104659-26-026450 (presentado 11-mar-2026): estados consolidados (R2 balance, R4 resultados, R8 flujos, R30 segmentos), AIF ex-99.1, MD&A ex-99.2",
+    "XBRL companyfacts CIK0001050140 (us-gaap), series anuales FY2010-FY2026",
+    "6-K 10-mar-2010, accesion 0000929638-10-000214, ex-99.1 nota de resultados FY2010 (ejercicio del crash: feb-2009 a ene-2010)",
+    "6-K de resultados anuales FY2023-FY2025 (0001104659-23-027452, 0001104659-24-031634, 0001410578-25-000279) para las cifras de FY2023"
+  ],
+
+  "series_base_MUSD": {
+    "ventas":            {"FY2021": 348.664, "FY2022": 424.690, "FY2023": 486.014, "FY2024": 572.931, "FY2025": 651.000, "FY2026": 728.992},
+    "ebit_reportado":    {"FY2021": 71.396,  "FY2022": 103.434, "FY2023": 130.400, "FY2024": 142.849, "FY2025": 181.124, "FY2026": 209.978},
+    "beneficio_neto":    {"FY2021": 52.100,  "FY2022": 86.282,  "FY2023": 102.236, "FY2024": 115.907, "FY2025": 143.273, "FY2026": 163.767},
+    "cfo":               {"FY2021": 131.230, "FY2022": 176.138, "FY2023": 192.395, "FY2024": 207.680, "FY2025": 219.272, "FY2026": 266.246},
+    "capex":             {"FY2021": 3.759,   "FY2022": 4.829,   "FY2023": 6.071,   "FY2024": 5.563,   "FY2025": 6.743,   "FY2026": 5.730},
+    "sbc":               {"FY2021": 6.313,   "FY2022": 11.017,  "FY2023": 13.700,  "FY2024": 16.480,  "FY2025": 19.962,  "FY2026": 20.907},
+    "id":                {"FY2021": 54.066,  "FY2022": 62.570,  "FY2023": 70.400,  "FY2024": 84.103,  "FY2025": 95.497,  "FY2026": 105.310},
+    "adquisiciones_neto_caja": {"FY2021": 48.403, "FY2022": 90.278, "FY2023": 115.561, "FY2024": 142.700, "FY2025": 290.204, "FY2026": 151.620},
+    "variacion_circulante_uso_de_caja": {"FY2022": -12.789, "FY2023": -7.793, "FY2024": -15.182, "FY2025": 13.932, "FY2026": 17.044},
+    "amort_intangibles_adquiridos": {"FY2021": 55.905, "FY2022": 59.099, "FY2023": 60.200, "FY2024": 60.501, "FY2025": 69.399, "FY2026": 81.183},
+    "fondos_propios":    {"FY2021": 911.068, "FY2022": 999.819, "FY2023": 1099.400, "FY2024": 1238.034, "FY2025": 1385.003, "FY2026": 1618.912},
+    "caja":              {"FY2021": 133.661, "FY2022": 213.437, "FY2023": 276.385, "FY2024": 320.952, "FY2025": 236.138, "FY2026": 356.526},
+    "deuda_financiera":  "cero en los cinco ejercicios (balance FY2026 no muestra linea de deuda; solo obligaciones de arrendamiento 8,4 M$)",
+    "activos_totales":   {"FY2020": 942.586, "FY2021": 1063.254, "FY2022": 1185.431, "FY2023": 1316.0, "FY2024": 1474.3, "FY2025": 1647.384, "FY2026": 1895.665},
+    "fondo_de_comercio": {"FY2023": 675.647, "FY2024": 760.413, "FY2025": 924.755, "FY2026": 1025.783},
+    "intangibles_netos": {"FY2025": 321.270, "FY2026": 332.069}
+  },
+
+  "G5": {
+    "veredicto": "SI_REFORZADO",
+    "calculo": {
+      "FCF_CFO_menos_capex_MUSD": {"FY2022": 171.3, "FY2023": 186.3, "FY2024": 202.1, "FY2025": 212.5, "FY2026": 260.5},
+      "FCF_menos_BN_MUSD":        {"FY2022": 85.0,  "FY2023": 84.1,  "FY2024": 86.2,  "FY2025": 69.3,  "FY2026": 96.7},
+      "FCF_menos_BN_pct_ventas":  {"FY2022": "20.0%", "FY2023": "17.3%", "FY2024": "15.0%", "FY2025": "10.6%", "FY2026": "13.3%"},
+      "FCF_estricto_tras_SBC_completa_MUSD": {"FY2022": 160.3, "FY2023": 172.6, "FY2024": 185.6, "FY2025": 192.6, "FY2026": 239.6},
+      "FCF_estricto_pct_ventas": {"FY2022": "37.7%", "FY2023": "35.5%", "FY2024": "32.4%", "FY2025": "29.6%", "FY2026": "32.9%"},
+      "sloan_BN_menos_CFO_sobre_activos_medios": {"FY2022": "-7.99%", "FY2023": "-7.21%", "FY2024": "-6.58%", "FY2025": "-4.87%", "FY2026": "-5.78%"},
+      "test_GE_volatilidad": "desviacion tipica del crecimiento del BN 21.9% vs 12.0% del CFO en FY2022-FY2026. El beneficio es MAS volatil que el flujo que lo produce: no hay alisado."
+    },
+    "razonamiento": "El signo del devengo es negativo y sostenido los cinco ejercicios: el CFO supera al beneficio neto por 69-97 M$ al ano. El puente es amortizacion de intangibles adquiridos (81,2 M$ en FY2026) y SBC (20,9 M$), no capitalizacion de gastos ni inflado de circulante -de hecho el circulante DRENO 17,0 M$ en FY2026. El FCF resiste el candado duro: incluso descontando la compensacion en acciones completa sin devolverla, quedan 239,6 M$, un 32,9% de las ventas y 75,8 M$ por encima del beneficio neto. Sloan negativo entre -4,9% y -8,0%, muy lejos del umbral de +5%.",
+    "matiz_declarado": "El CFO es limpio pero NO es el flujo libre del dueno: la caja que compra el crecimiento sale por la linea de inversion (151,6 M$ en adquisiciones en FY2026), no por capex. Esto no invalida G5, pero es exactamente lo que hunde G1 y G2.",
+    "cita": "40-F FY2026, Estados consolidados de flujos de efectivo: 'Cash provided by operating activities 266,246'; 'Additions to property and equipment (5,730)'; beneficio neto 163,767 (miles de USD). Contraste FY2026: FCF-BN = +96,7 M$."
+  },
+
+  "G1": {
+    "veredicto": "NO",
+    "calculo": {
+      "tasa_impositiva_efectiva": {"FY2022": "15.9%", "FY2023": "23.6%", "FY2024": "23.3%", "FY2025": "25.2%", "FY2026": "24.6%"},
+      "NOPAT_MUSD": {"FY2021": 52.9, "FY2022": 87.0, "FY2023": 99.7, "FY2024": 109.5, "FY2025": 135.4, "FY2026": 158.4},
+      "NOPAT_sobre_ventas": {"FY2022": "20.5%", "FY2023": "20.5%", "FY2024": "19.1%", "FY2025": "20.8%", "FY2026": "21.7%"},
+      "capital_invertido_MUSD_fondos_propios_menos_caja_sin_deuda": {"FY2021": 777.4, "FY2022": 786.4, "FY2023": 823.0, "FY2024": 917.1, "FY2025": 1148.9, "FY2026": 1262.4},
+      "ROIC_NOPAT_sobre_IC_medio": {"FY2022": "11.1%", "FY2023": "12.4%", "FY2024": "12.6%", "FY2025": "13.1%", "FY2026": "13.1%"},
+      "ROIC_con_NOPAT_pre_amortizacion_de_intangibles_adquiridos": {"FY2022": "17.5%", "FY2023": "18.1%", "FY2024": "17.9%", "FY2025": "18.1%", "FY2026": "18.2%"},
+      "minimo_de_la_ventana": "11.1% (reportado) / 17.5% (pre-amortizacion)",
+      "umbral": "20% Y 2x WACC de referencia 10% = 20%"
+    },
+    "higiene_de_denominador": "NO se invoca. El capital invertido (fondos propios menos caja, sin deuda) va de 777 a 1.262 M$: monotono, estable, siempre muy por encima del 20% de su media, sin riesgo de cruzar cero. El ratio MIDE, no amplifica. La clausula de 'pasada por construccion' por capital neto negativo NO aplica aqui: solo se llega a capital negativo (-95,5 M$ en FY2026) si se excluyen 1.025,8 M$ de fondo de comercio y 332,1 M$ de intangibles, es decir, borrando del denominador exactamente el capital que la empresa desembolso. En un consolidador serial eso no es higiene, es esconder el capital.",
+    "razonamiento": "El margen NOPAT sobre ventas SI pasa (19,1-21,7%). El rendimiento sobre el capital NO. Descartes gana 13 centimos despues de impuestos por cada dolar de capital que emplea, y como mucho 18 si se le perdona toda la amortizacion de los intangibles que compra. Ninguna de las dos definiciones medibles llega a 20%, y el minimo de la ventana (11,1% en FY2022) esta a menos de 1,2x el WACC de referencia, no a 2x. La lectura se confirma por un camino independiente: el ROIIC de G2 (8,6%) dice lo mismo desde los flujos.",
+    "cita": "Derivado de 40-F FY2026 (R4 resultados: EBIT 209.978, impuesto 53.323 sobre BAI 217.090) y R2 balance (fondos propios 1.618.912, caja 356.526, fondo de comercio 1.025.783, intangibles 332.069). ROIC FY2026 = 158,4 / 1.205,6 = 13,1%."
+  },
+
+  "G3": {
+    "veredicto": "NO_MEDIBLE",
+    "razonamiento": "Descartes NO publica ninguna magnitud fisica o unitaria: ni transacciones procesadas por la GLN, ni envios, ni numero de clientes, ni documentos intercambiados. El AIF y el MD&A de FY2026 hablan de volumenes de envio solo en terminos cualitativos y estacionales, sin una sola cifra. Sin denominador de volumen no hay elasticidad medida, y el metodo prohibe deducir poder de precio del margen observado. Lo unico cuantificado es el crecimiento organico de servicios: +37,0 M$ de clientes nuevos y existentes sobre una base de 590,2 M$ en FY2026, es decir +6,3% (FY2025: +29,7 M$ sobre 520,9 M$ = +5,7%). Esa cifra mezcla precio, volumen transaccional y venta cruzada de forma indistinguible. Delator Kraft Heinz: no aplicable, porque no hay serie de volumen que pueda estar cayendo. Se declara hueco, no se rellena.",
+    "cifra": "Crecimiento organico de ingresos de servicios +6,3% en FY2026 (+37,0 M$ sobre 590,2 M$). Ninguna magnitud unitaria publicada. IPC+100pb no verificable.",
+    "cita": "MD&A FY2026 (40-F ex-99.2): el aumento de ingresos de servicios de FY2026 se debio a crecimiento de clientes nuevos y existentes, 'which contributed an incremental $37.0 million'. AIF FY2026 seccion 4.4 Customer Base describe la base de clientes de forma exclusivamente cualitativa, sin recuento."
+  },
+
+  "G4": {
+    "veredicto": "NO_PROBADA",
+    "razonamiento": "El motor de ingresos de Descartes es el VOLUMEN de transacciones logisticas y las obligaciones de declaracion aduanera, no la tarifa del flete. Ese motor nunca ha sufrido una contraccion de -30% pico a valle: el volumen del comercio mundial de mercancias cayo ~-12% en 2009 y ~-5% en 2020; el tonelaje aereo ~-10% en 2009. La caida de -25/-31% que sufrieron transitarios como Expeditors o Panalpina en 2009 fue de INGRESOS por colapso de tarifas, no de volumenes, y Descartes no cobra ad valorem. La prueba definitiva esta en su propio P&L del ejercicio del crash (FY2010, feb-2009 a ene-2010): los ingresos SUBIERON 12%, el margen bruto SUBIO de 66% a 69% y el margen de beneficio ajustado SUBIO de 26% a 28%. En el COVID (FY2021) los ingresos crecieron +7% y el beneficio operativo +37%. CICATRIZ OBLIGATORIA: no se puede nombrar ninguna linea del P&L ni del balance que se deteriorara para pagar la defensa del foso, porque no hubo herida. Sin cicatriz la puerta no se otorga; y como la contraccion severa nunca ocurrio, el veredicto correcto es NO_PROBADA, no NO. Precedente ASML 2009 (ventas -46%, I+D sostenido al 29% de unas ventas colapsadas): Descartes no tiene nada equivalente que ensenar.",
+    "cifra": "FY2010 (ejercicio del crash): ingresos 73,8 M$ frente a 66,0 M$ en FY2009, +12%; margen bruto 69% frente a 66%. FY2021 (COVID): ingresos +7%, beneficio operativo +37%. Cicatriz: NINGUNA identificable.",
+    "cita": "6-K 10-mar-2010 (accesion 0000929638-10-000214, ex-99.1, resultados FY2010): 'Revenues of $73.8 million, up $7.8 million or 12% from $66.0 million'; 'Gross margin of 69%, up from 66% in the same period a year ago'."
+  },
+
+  "G2": {
+    "veredicto": "NO",
+    "especie_resultante": "ULTRA-C (si la empresa hubiera llegado a ULTRA; no es el caso)",
+    "calculo": {
+      "definicion_reinversion": "capex + I+D + adquisiciones netas de caja + variacion de circulante. Marca: no separable; la linea de ventas y marketing (82,6 M$ en FY2026) es predominantemente fuerza comercial, no construccion de marca, y se excluye. Declarado.",
+      "reinversion_MUSD": {"FY2022": 144.9, "FY2023": 184.2, "FY2024": 217.2, "FY2025": 406.4, "FY2026": 279.7},
+      "reinversion_pct_VENTAS": {"FY2022": "34.1%", "FY2023": "37.9%", "FY2024": "37.9%", "FY2025": "62.4%", "FY2026": "38.4%", "media_5a": "43.0%"},
+      "reinversion_pct_NOPAT": {"FY2022": "166.6%", "FY2023": "184.8%", "FY2024": "198.3%", "FY2025": "300.1%", "FY2026": "176.6%", "media_5a": "208.9%"},
+      "ATENCION": "Las dos tasas son distintas y NO intercambiables. La que entra en la identidad g = tasa x ROIIC es la de NOPAT (208,9%), no la de ventas (43,0%). El umbral de la puerta (>=25%) es sobre VENTAS y se cumple holgadamente.",
+      "suma_reinversion_5a_MUSD": 1232.4,
+      "variacion_NOPAT_FY2021_a_FY2026_MUSD": 105.5,
+      "ROIIC_bruto": "8.6%",
+      "descomposicion": "margen NOPAT 15,2% (FY2021) -> 21,7% (FY2026). Parte VOLUMEN a margen constante = 57,7 M$; parte EXPANSION DE MARGEN = 47,9 M$ (45% de todo el incremento).",
+      "ROIIC_ex_margen": "4.7%",
+      "prueba_de_robustez": "Excluyendo I+D del denominador (tratandolo como mantenimiento) el ROIIC bruto sube solo a 12,6%; contando unicamente capex + adquisiciones, 12,9%. Ninguna variante alcanza el 15%."
+    },
+    "razonamiento": "La pista existe y es ancha: 43% de las ventas reinvertidas de media, mas del doble del umbral, y mas del 200% del NOPAT -Descartes reinvierte mas de lo que gana, financiado por su propio flujo. Pero el retorno de esa pista no llega: 1.232 M$ desplegados en cinco anos han producido 105,5 M$ de NOPAT incremental, un 8,6%. Y casi la mitad de ese incremento no viene de capital productivo sino de expansion de margen (integracion de adquiridas, apalancamiento operativo), que se agota: descontada, el ROIIC ex-margen es 4,7%. Es un consolidador que compra ingresos a multiplos altos y los integra bien, no una maquina de reinversion a alto retorno.",
+    "reinversion_pct_NOPAT": 208.9,
+    "roiic_bruto_pct": 8.6,
+    "roiic_ex_margen_pct": 4.7,
+    "cifra": "Reinversion media 43,0% de VENTAS (208,9% del NOPAT); ROIIC bruto 8,6%; ROIIC ex-margen 4,7%. Umbrales: 25% ventas (PASA) y 15% ROIIC (FALLA).",
+    "cita": "40-F FY2026, flujos: 'Acquisition of subsidiaries, net of cash acquired (151,620)'; I+D 105.310; capex 5.730; variacion de circulante 17.044. Suma FY2022-FY2026 = 1.232,4 M$ frente a un incremento de NOPAT de 105,5 M$."
+  },
+
+  "G6": {
+    "veredicto": "SI",
+    "poder": "COSTES DE CAMBIO, reforzados por EFECTO RED de dos lados (cargadores <-> transportistas <-> autoridades aduaneras) sobre la Global Logistics Network",
+    "magnitud": "En la unidad propia del poder -la tasa a la que se fuga el ingreso cautivo-: la empresa espera perder solo un 5%-7% de sus ingresos recurrentes anualizados al ano en el curso ordinario, lo que implica una retencion bruta del 93-95% y una vida media del ingreso de 14 a 20 anos. Sobre esa base, el 93% de los ingresos de FY2026 (677,2 de 729,0 M$) son de servicios recurrentes. En la unidad de la red: la GLN abarca mas de 160 paises y conecta cientos de miles de organizaciones; solo el modulo MacroPoint esta conectado a mas de 100.000 transportistas y a millones de activos y conductores.",
+    "caducidad": "Por encima de 10 anos. El nucleo es aduanero y regulatorio: cada pais obliga a presentar declaraciones electronicas con formato, contenido y jurisprudencia propios, y ese contenido hay que mantenerlo pais por pais. Ese trabajo no lo replica un entrante generalista, y la obligacion legal no caduca; se multiplica. La red ademas se densifica con cada adquisicion de nodos.",
+    "busqueda_de_arranque_del_reloj_24m": "Buscado y NO encontrado deterioro: los ingresos de servicios crecieron 14,7% en FY2026 (677,2 vs 590,2 M$), la atricion declarada del 5-7% no ha empeorado y el margen operativo subio a 28,8%. Vigilancia declarada, no arranque: (a) la propia empresa anuncia que en FY2027 aumentara el uso de IA y modelos de lenguaje -la traduccion de mensajes EDI es la capa mas commoditizable de su pila; (b) WiseTech aparece citada tres veces en su propia seccion de competencia (aduanas, back-office de transitarios y datos de comercio), mas project44 y FourKites en visibilidad; (c) el Tribunal Supremo de EEUU anulo los aranceles IEEPA el 20-feb-2026, lo que retira parte del viento de cola de complejidad arancelaria. Ninguna de las tres se ha traducido todavia en una cifra que se mueva.",
+    "cita": "MD&A FY2026 (40-F ex-99.2): 'we may lose approximately 5% to 7% of our aggregate annualized recurring services revenues from the previous year in the ordinary course'. AIF FY2026 seccion 3.1: la GLN 'spans more than 160 countries and connects hundreds of thousands of organizations'. AIF seccion 4.2 (MacroPoint): red 'connected to over 100,000 carriers and millions of assets and drivers'."
+  },
+
+  "recuento": {
+    "puertas_contadoras": "G5, G1, G3, G4, G6 (G2 solo decide especie)",
+    "G5": "PASA",
+    "G1": "FALLA (unico NO duro)",
+    "G3": "NO_MEDIBLE - no cuenta como fallo",
+    "G4": "NO_PROBADA - no cuenta como fallo; techo PRESUNTA, irrelevante porque G1 ya baja la etiqueta por debajo",
+    "G6": "PASA",
+    "G2": "NO -> especie C",
+    "fallos_duros": 1,
+    "resultado": "cinco de seis = MUY_BUENA"
+  },
+
+  "etiqueta": "MUY_BUENA",
+  "puertas_pasadas": 5,
+  "confianza": "MEDIA",
+  "puerta_mas_dudosa": "G1",
+  "por_que_G1_es_la_mas_dudosa": "No porque los numeros bailen -son firmes y coinciden por dos caminos independientes (ROIC 11-13% y ROIIC 8,6%)- sino porque la DEFINICION del denominador decide la etiqueta entera. El reglamento contiene una clausula ('capital invertido neto cero o negativo con NOPAT positivo = pasada por construccion') que, aplicada al capital ex-fondo-de-comercio, arroja -95,5 M$ y regala la puerta. Sostengo que aplicarla aqui seria el error clasico del roll-up: borrar del denominador los 1.026 M$ de fondo de comercio que SON el capital de esta empresa. Esa bifurcacion es, casi con certeza, lo que produjo el empate entre los dos analistas anteriores.",
+
+  "resumen": "Descartes es un negocio excelente que no es ULTRA. Convierte caja de forma sobresaliente (G5 reforzado: el CFO supera al beneficio neto en 69-97 M$ al ano, Sloan negativo los cinco ejercicios, y el FCF aguanta 239,6 M$ = 33% de ventas incluso tras descontar la compensacion en acciones completa) y tiene un foso nombrable y medible (G6: 93-95% de retencion bruta anual sobre una red de mas de 160 paises, anclada en obligaciones aduaneras pais por pais). Pero falla la puerta del capital: 13,1% de ROIC en FY2026, 11,1% en el minimo de la ventana, y como mucho 18,2% perdonandole toda la amortizacion de los intangibles que compra. Nunca 20%, nunca 2x WACC. G2 lo confirma desde los flujos: 1.232 M$ reinvertidos en cinco anos han rendido 105,5 M$ de NOPAT incremental (ROIIC 8,6%), y casi la mitad de ese incremento fue expansion de margen, no productividad del capital (ROIIC ex-margen 4,7%). No publica ninguna magnitud unitaria, asi que el poder de precio es un hueco declarado, no un aprobado (G3 NO MEDIBLE). Y nunca ha atravesado una contraccion severa: en el ejercicio del crash de 2009 sus ingresos subieron 12% y su margen bruto de 66% a 69%, de modo que no hay cicatriz que nombrar (G4 NO PROBADA). Cinco de seis: MUY_BUENA, especie C. No esta en la frontera del ULTRA -esta claramente por debajo, y por una razon economica limpia: compra su crecimiento a un retorno incremental que no llega a la mitad del umbral."
+}

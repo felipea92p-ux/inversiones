@@ -1,0 +1,104 @@
+{
+ "ticker": "6273.T",
+ "name": "SMC Corporation",
+ "asof_date": "2026-06-22",
+ "currency": "JPY",
+ "price": 74240,
+ "market_cap_usd_b": 29,
+ "fwd_pe": 25.84,
+ "fwd_pe_5y_avg": 22.5,
+ "pe_prem_disc_pct": 14.8,
+ "peg": 3,
+ "last_q": {
+  "period": "FY ended Mar 2026 (full year; standalone Q4 not separately disclosed in tanshin)",
+  "revenue": "JPY 842,541M (full FY)",
+  "rev_yoy_pct": 6.4,
+  "op_margin_pct": 22.6,
+  "eps_gaap": "JPY 2,640.04 (full FY)",
+  "eps_adj": "n/a (Japanese GAAP, no adjusted EPS)"
+ },
+ "last_fy": {
+  "period": "FY ended March 31, 2026",
+  "revenue": "JPY 842,541M (~USD 5.2B)",
+  "organic_growth_pct": null,
+  "roic_pct": 10,
+  "fcf": "JPY 81,405M (~USD 0.50B)",
+  "fcf_margin_pct": 9.7
+ },
+ "sbc_pct_revenue": 0,
+ "sbc_pct_fcf": 0,
+ "net_debt_usd_b": -4.37,
+ "nd_ebitda": -3,
+ "net_cash": true,
+ "guidance_fy": "FY ending March 31, 2027 (PROJECTION): Net sales JPY 1,000,000M (+18.7%), operating profit JPY 219,000M (+14.9%), ordinary profit JPY 239,000M (+1.4%), profit attributable to owners JPY 170,000M (+1.6%), EPS JPY 2,692.46. Assumes FX of USD/JPY 155, EUR/JPY 183, CNY/JPY 22.70. Dividend JPY 1,000/share.",
+ "pct_off_52w_high": -14.5,
+ "pct_off_ath": -20.4,
+ "drop_classification": "not_depressed",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_fy.revenue",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "net_debt_usd_b",
+  "net_cash",
+  "guidance_fy",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.roic_pct",
+  "nd_ebitda",
+  "last_fy.organic_growth_pct"
+ ],
+ "sources": [
+  {
+   "label": "SMC Corp — Consolidated Financial Results for FY ended March 31, 2026 (official tanshin, reference translation, May 14 2026)",
+   "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20260514/20260513531421.pdf",
+   "date": "2026-05-14"
+  },
+  {
+   "label": "SMC Corporation Investor Relations (en)",
+   "url": "https://www.smcworld.com/ir/en-jp/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com — SMC 6273 overview (price, mkt cap, fwd P/E, EPS, 52w range)",
+   "url": "https://stockanalysis.com/quote/tyo/6273/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com — SMC 6273 balance sheet (cash, debt, net cash)",
+   "url": "https://stockanalysis.com/quote/tyo/6273/financials/balance-sheet/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Investing.com — SMC 6273 price & 52-week range",
+   "url": "https://www.investing.com/equities/smc-corp",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "TradingEconomics — USD/JPY rate (~161.54 on Jun 22 2026)",
+   "url": "https://tradingeconomics.com/japan/currency",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "BigGo Finance — SMC 6273 FY2025 earnings briefing summary",
+   "url": "https://finance.biggo.com/news/JP_6273.T_2026-05-14",
+   "date": "2026-05-14"
+  }
+ ],
+ "notes": "FISCAL YEAR NOTE: SMC's most recent reported year is FY ended March 31, 2026 (labeled \"FY2025/FY3-2026\"); current FY in progress ends March 31, 2027. Reporting is Japanese GAAP — no \"adjusted\" EPS and no organic/constant-currency growth disclosure (organic_growth left null). Standalone Q4 figures are not broken out in the tanshin; last_q reflects the full-FY results announced May 14, 2026.\n\nVERIFIED (official tanshin): Net sales JPY 842,541M (+6.4%); operating profit JPY 190,558M (+0.2%, op margin 22.6%, down from 24.0% on higher cost ratio/personnel/depreciation); ordinary profit JPY 235,591M (+12.2%, boosted by FX gains); net income JPY 167,302M (+7.0%); EPS JPY 2,640.04; ROE 8.3%; equity ratio 91.5%; operating CF JPY 188,917M; investing CF -JPY 107,511M; CapEx JPY 152,701M; FCF JPY 81,405M (FCF margin 9.7%). Balance sheet: cash & equiv JPY 573,769M + ST investments ~JPY 137,933M, total debt ~JPY 5,092M => NET CASH ~JPY 706,610M (~-USD 4.37B). Essentially debt-free fortress balance sheet.\n\nSBC ~0%: As a Japanese GAAP filer SMC has negligible stock-based comp — only a small Board Benefit Trust (Directors' stock compensation, 11,200 shares) and modest buybacks (JPY 30,018M treasury share purchases in FY26). sbc_pct_revenue and sbc_pct_fcf effectively 0 — strong positive for R9 (no shareholder dilution from comp; share count actually FELL from 67.4M to 63.9M issued via buyback/cancellation).\n\nESTIMATED: Price JPY 74,240 and mkt cap JPY 4.69T from aggregators (most recent quote ~Jun 19-20 2026; market closed/stale for Jun 22). USD mkt cap ~USD 29.0B at USD/JPY 161.54. Fwd P/E 25.84 (stockanalysis); 5yr-avg forward P/E ~22.5 is an estimate (10yr mean trailing P/E ~24.5 per Macrotrends/Wisesheets; no clean primary 5yr fwd series obtained) => premium ~+15%. PEG ~3.0 is normalized/estimated: on FY27 net-income guidance growth of only +1.6% PEG would be meaningless (~16x); using a mid-cycle ~8% growth gives ~3. ROIC ~10% est (NOPAT ~JPY 135B over operating invested capital ~JPY 1.27T ex-net-cash). ND/EBITDA ~ -3.0x (net cash; EBITDA ~JPY 230B incl D&A).\n\nDROP CLASSIFICATION = not_depressed: Stock is only ~14.5% off its 52-week high (JPY 86,800) and ~20% off the ATH of JPY 93,220 (Mar 2024), yet UP ~44% over the trailing 12 months. This is not a fear-driven crash nor genuine deterioration — it is a high-quality compounder trading near cycle highs after a strong semiconductor-recovery rerate. The only soft spot is flat operating profit / margin compression (22.6% vs 24.0%); ordinary & net profit still grew, FY27 guidance targets JPY 1T revenue (+18.7%). Valuation is a modest premium, not a depressed entry point."
+}

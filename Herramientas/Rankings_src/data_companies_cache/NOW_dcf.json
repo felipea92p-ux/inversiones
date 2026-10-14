@@ -1,0 +1,42 @@
+{
+ "ticker": "NOW",
+ "name": "ServiceNow, Inc.",
+ "currency": "USD",
+ "current_price": 93.01,
+ "wacc_pct": 10.3,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.2,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base (FY2025) = FCF reportado $4,636M - 100% SBC $1,955M = $2,681M. Margen owner FCF = 20.2% sobre ingresos de $13,278M (vs margen FCF reportado 35%). La SBC pesa ~42% del FCF, por eso el ajuste por owner earnings es severo. Owner FCF yield sobre market cap ($95.9B) = 2.8%; equivalente a ~36x owner FCF.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 18,
+  "rev_cagr_y6_10_pct": 8,
+  "fcf_margin_terminal_pct": 31,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC restada del FCF reportado como gasto en efectivo (owner earnings). Base owner FCF = $2,681M = $4,636M FCF - $1,955M SBC. La SBC actual es 14.7% de ingresos; el modelo asume que el margen owner FCF (no el reportado) se expande del 20.2% actual al ~31% terminal en el escenario base, implicitamente porque la SBC como % de ingresos baja con la madurez (apalancamiento operativo).",
+  "shares_diluted_b": 1.031,
+  "net_debt_usd_b": -8.6
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 94.83,
+   "prob": 0.37,
+   "note": "Ingresos CAGR 14% anios 1-5 desacelerando a 6% anios 6-10; margen owner FCF terminal 27% (SBC sigue alta, expansion limitada); g=2.5%. Disrupcion parcial por IA y competencia presionan crecimiento pero el negocio core (ITSM/workflow) sigue creciendo. IV ~$95, casi a la par del precio: el mercado ya descuenta este escenario."
+  },
+  "base": {
+   "iv_per_share": 140.32,
+   "prob": 0.48,
+   "note": "Consistente con track record: ingresos CAGR 18% anios 1-5 (guidance FY2026 +22% subida en Q1, desacelerando), 8% anios 6-10; margen owner FCF terminal 31%; g=3.0%. cRPO +22.5%, plataforma Now Assist (IA) monetizandose. IV ~$140, ~51% sobre el precio."
+  },
+  "optimista": {
+   "iv_per_share": 213.18,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: ingresos CAGR 22% anios 1-5, 11% anios 6-10; margen owner FCF terminal 35% (SBC normaliza fuerte, apalancamiento operativo pleno); g=3.5%. IA agentica expande TAM y NOW captura plataforma de workflow empresarial. IV ~$213."
+  }
+ },
+ "sanity_check": "Precio $93.01 vs IV ponderada por probabilidad ~$134 -> upside ~44% incluso cargando 100% de la SBC. La accion cayo ~-56% desde maximo ($211 ajustado por split) por de-rating de software de alto multiplo y miedo a IA, NO por deterioro: ingresos +22% YoY, guidance FY2026 SUBIDO en Q1, margen op non-GAAP ~31.5%, margen FCF 35%. Fwd P/E 21.9x vs media 5a ~52x (descuento ~-58%); PEG 0.88. Rendimiento al accionista (contraste, NO DDM): NOW no paga dividendo; recompra ~$1.8B/anio (yield ~1.9%), principalmente para compensar dilucion por SBC; nueva autorizacion de $5B (ene-2026). El owner FCF yield de 2.8% es modesto en absoluto pero el motor es crecimiento, no retorno de caja. Balance: caja neta +$8.6B, sin apalancamiento. El escenario conservador (IV ~$95) esta ya casi al precio, lo que limita el downside fundamental: el margen de seguridad viene de que el mercado paga precio de escenario pesimista por un negocio que ejecuta el escenario base.",
+ "method_notes": "DCF de owner earnings a 10 anios. Base owner FCF FY2025 = $2,681M ($4,636M FCF reportado - $1,955M SBC al 100%). Fase 1 (anios 1-5): CAGR de ingresos explicito por escenario partiendo del guidance FY2026 (+22% subscription) y desacelerando. Fase 2 (anios 6-10): CAGR declina linealmente hacia normalizacion. El margen owner FCF se expande linealmente del 20.2% actual al terminal por escenario (27%/31%/35%), reflejando apalancamiento operativo y normalizacion de SBC como % de ingresos. Valor terminal con g=2.5-3.5% segun foso (foso amplio: switching costs altos, plataforma de workflow critica). Descuento al WACC 10.3% (Rf 4.3% UST 10Y + ERP 5.0% x beta 1.20; empresa US, sin ajuste geopolitico). EV + caja neta $8.6B / 1.031B acciones diluidas (confirmadas: market cap $95.92B / $93.01 = 1.031B). Todos los precios/EPS ajustados por split 5-por-1 (efectivo 18-dic-2025). IV ponderada = 0.37*$94.83 + 0.48*$140.32 + 0.15*$213.18 = ~$134."
+}

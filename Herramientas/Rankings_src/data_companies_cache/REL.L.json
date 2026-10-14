@@ -1,0 +1,95 @@
+{
+ "ticker": "REL.L",
+ "name": "RELX PLC",
+ "asof_date": "2026-06-22",
+ "currency": "GBP",
+ "price": 23.59,
+ "market_cap_usd_b": 54.4,
+ "fwd_pe": 16.5,
+ "fwd_pe_5y_avg": 24.5,
+ "pe_prem_disc_pct": -32.7,
+ "peg": 1.65,
+ "last_q": {
+  "period": "H1 2025 (six months to 30 Jun 2025)",
+  "revenue": "GBP 4,889m",
+  "rev_yoy_pct": 7,
+  "op_margin_pct": 33.5,
+  "eps_gaap": "n/d (reporta semestral; reported EPS H1 no re-extraido)",
+  "eps_adj": "62.0p"
+ },
+ "last_fy": {
+  "period": "FY2025 (year to 31 Dec 2025)",
+  "revenue": "GBP 9,590m",
+  "organic_growth_pct": 7,
+  "roic_pct": 15.4,
+  "fcf": "GBP 2,313m",
+  "fcf_margin_pct": 24.1
+ },
+ "sbc_pct_revenue": 0.66,
+ "sbc_pct_fcf": 2.7,
+ "net_debt_usd_b": 9.72,
+ "nd_ebitda": 2,
+ "net_cash": false,
+ "guidance_fy": "FY2026 outlook (PROYECCION): management expects another year of strong underlying growth in revenue and adjusted operating profit, plus strong growth in adjusted EPS at constant currency. Underlying adjusted operating profit growth expected to exceed underlying revenue growth (continued margin expansion). Plans GBP 2,250m of share buybacks in 2026 (GBP 250m already completed). No precise numeric revenue/EPS target given.",
+ "pct_off_52w_high": -43.6,
+ "pct_off_ath": -43.2,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "last_fy.roic_pct",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "nd_ebitda",
+  "net_cash",
+  "guidance_fy",
+  "price"
+ ],
+ "estimated_fields": [
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_adj",
+  "net_debt_usd_b",
+  "pct_off_52w_high",
+  "pct_off_ath",
+  "drop_classification"
+ ],
+ "sources": [
+  {
+   "label": "RELX FY2025 Results press release (year to 31 Dec 2025), primary IR source",
+   "url": "https://www.relx.com/~/media/Files/R/RELX-Group/documents/press-releases/2026/results-2025-pressrelease.pdf",
+   "date": "2026-02-12"
+  },
+  {
+   "label": "RELX H1 2025 Interim Results press release (six months to 30 Jun 2025)",
+   "url": "https://www.relx.com/~/media/Files/R/RELX-Group/documents/press-releases/2025/first-half-results-2025-pressrelease.pdf",
+   "date": "2025-07-24"
+  },
+  {
+   "label": "StockAnalysis.com RELX statistics (price, market cap, forward P/E)",
+   "url": "https://stockanalysis.com/stocks/relx/statistics/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "RELX IR London share price page (REL.L quote)",
+   "url": "https://www.relx.com/investors/share-price/lse",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Kalkine / market commentary on AI-disruption-driven RELX selloff",
+   "url": "https://kalkine.co.uk/news/general-news/why-are-relx-shares-falling-today-as-ai-disruption-fears-hit-ftse-100-data-stocks",
+   "date": "2026-06"
+  }
+ ],
+ "notes": "PRECIO/MERCADO: REL.L = 2,359p (GBX 23.59) al 22-jun-2026. ADR NYSE (RELX, 1 ADR = 1 accion ordinaria) = ~$30.83. Market cap ~$54.4B (StockAnalysis; Morningstar mostro ~$61.5B el 10-jun, posiblemente desactualizado por la caida posterior). ~1.82B acciones.\n\nFY2025 (VERIFICADO, IR primaria): Revenue GBP 9,590m (+7% underlying / +2% reported). Adjusted operating profit GBP 3,342m (+9% underlying), margen ajustado 34.8% (vs 33.9%). Reported operating profit GBP 3,027m. Adjusted EPS 128.5p (+10% cc). Reported/IFRS EPS 112.6p. FCF (antes de dividendos) GBP 2,313m -> margen FCF 24.1%. Conversion de caja 99%. ROIC 15.4% (vs 14.8%). Net debt GBP 7,201m = $9,721m (cifra USD exacta del filing). Net debt/EBITDA 2.0x reportado (calculo bruto 7,201/3,846 = 1.87x). Dividendo propuesto 67.5p (+7%). Buyback FY2026 planeado GBP 2,250m.\n\nSBC (CRITICO R9): cargo de share based remuneration = GBP 63m FY2025 (vs 66m). SBC % revenue = 0.66%; SBC % FCF = 2.7%. EXTREMADAMENTE BAJO — RELX compra acciones via EBT (GBP 76m) por lo que la dilucion neta es minima. Punto muy fuerte para R9.\n\nVALORACION: fwd_pe ~16.3-17.0 (uso 16.5; StockAnalysis 16.30). El fwd_pe_5y_avg ~24-25 es ESTIMADO (los valores ~30-32 que circulan en agregadores son P/E TRAILING, no forward; ajustado a base forward). Descuento ~-33% vs media forward. PEG ~1.65 (fwd PE / ~10% crecimiento EPS cc). PEG y fwd_pe_5y_avg con incertidumbre.\n\nLAST_Q: RELX reporta semestralmente; el ultimo FY completo (FY2025, 12-feb-2026) es la divulgacion mas fresca. last_q refleja H1 2025 (a 30-jun-2025): revenue ~GBP 4,889m (+7% underlying), EPS ajustado ~62.0p, margen op ajustado ~33.5% (cifras H1 aproximadas; detalle exacto H1 no re-extraido del PDF H1).\n\nDROP_CLASSIFICATION = fear_rotation: caida ~-43.6% desde maximo 52s (REL.L 4,183p) y ~-43% desde ATH (ADR ~$54.30, 27-may-2025); ~-31% en 12 meses; ~-10% YTD. El desplome es por MIEDO a disrupcion de IA (automatizacion legal / IA generativa amenazando a proveedores de informacion premium) y des-rating de multiplos, NO por deterioro operativo: FY2025 mostro crecimiento organico fuerte (+7%), expansion de margen, ROIC al alza y guia FY2026 positiva. Rotacion/miedo con fundamentales intactos."
+}

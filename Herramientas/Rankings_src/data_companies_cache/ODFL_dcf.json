@@ -1,0 +1,42 @@
+{
+ "ticker": "ODFL",
+ "currency": "USD",
+ "current_price": 219.52,
+ "name": "Old Dominion Freight Line, Inc.",
+ "wacc_pct": 9.8,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.1,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base = FY2025 reported FCF $955.1M − 100% SBC (~$12.7M, ~0.23% of revenue) = ~$942.5M, an owner-FCF margin of ~17.1% on $5.50B revenue. NOTE: this is a cyclical-trough base — FY2025 revenue fell -5.5% organically and the operating ratio worsened to 76.2%, so 17.1% sits below ODFL's mid-cycle owner-FCF margin (historically ~19-21%). SBC is negligible (~1.3% of FCF), so the owner-earnings adjustment is immaterial and FCF quality is very high.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 6.5,
+  "rev_cagr_y6_10_pct": 4.7,
+  "fcf_margin_terminal_pct": 20.5,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% of SBC (~$12.7M, ~0.23% of revenue) subtracted from reported FCF as a cash expense; immaterial given ODFL's very low stock-comp",
+  "shares_diluted_b": 0.208,
+  "net_debt_usd_b": -0.25
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 71.26,
+   "prob": 0.375,
+   "note": "Slow/structural softening: rev CAGR ~3.5% yrs1-5 declining to ~2.5% yrs6-10, owner-FCF margin recovers only to ~18% (LTL stays soft, density/pricing power erodes at margin), terminal g=2.5%. Pessimistic but not apocalyptic — ODFL still grows and stays highly profitable."
+  },
+  "base": {
+   "iv_per_share": 98.59,
+   "prob": 0.475,
+   "note": "Consistent with track record: cyclical recovery to ~6.5% rev CAGR yrs1-5 declining to ~3.5% yrs6-10 (volume rebound + ~4-5% pricing + share gains), owner-FCF margin normalizes to ~20.5% mid-cycle, terminal g=3.0%. Reflects the May 2026 +12.3% rev/day re-acceleration."
+  },
+  "optimista": {
+   "iv_per_share": 129.47,
+   "prob": 0.15,
+   "note": "Perfect execution: ~9% rev CAGR yrs1-5 declining to ~4% yrs6-10 (strong volume + pricing super-cycle), density-driven owner-FCF margin expansion to ~22.5%, terminal g=3.5% on best-in-class moat. Even this lands far below price."
+  }
+ },
+ "sanity_check": "DCF says ODFL is materially OVERVALUED: prob-weighted IV ~$93 vs price $219.52 implies the market prices ~-57% below a 9.8% required return. Cross-checks confirm the premium: (1) Multiple — ~38x fwd P/E vs ~32x 5y avg (≈+20% premium), PEG ~2.4, on TROUGH earnings. (2) FCF yield — reported FCF $955M / mcap $45.65B = only 2.1% trailing; even on a normalized ~$1.3B mid-cycle FCF the yield is only ~2.9%, far under the 9.8% WACC. (3) Shareholder-return contrast (per instructions, no DDM) — ODFL returns nearly all FCF via buybacks plus a small ~0.5% dividend; total shareholder yield is only ~2-3%, so capital returns alone cannot bridge the gap to a 9.8% required return without substantial multiple-sustained growth. CONCLUSION: this is a top-tier compounder (ROIC ~24%, net cash, pristine balance sheet, dominant LTL moat) priced for perfection at/near all-time highs (only ~7% off ATH, not_depressed). A DCF anchored to a 9.8% return cannot justify the price; the gap reflects the market embedding a much lower discount rate / much longer high-growth runway than a disciplined owner-earnings model allows.",
+ "method_notes": "10-year owner-earnings DCF. Base owner FCF = FY2025 reported FCF $955.1M − 100% SBC (~$12.7M) = $942.5M (17.1% trough owner-FCF margin). WACC = Rf 4.3% (UST 10Y) + ERP 5.0% × beta 1.10 = 9.80%; beta estimated for cyclical LTL trucking (somewhat asset-heavy but offset by net-cash balance sheet); no geopolitical adjustment (US domestic). Two-phase model: Phase 1 (yrs 1-5) explicit revenue CAGR with owner-FCF margin drifting from the 17.1% trough toward a stabilized target; Phase 2 (yrs 6-10) declining CAGR toward normalization. Terminal value via Gordon growth (g=2.5-3.5% by scenario) on year-10 owner FCF, discounted at WACC. Equity value = EV + net cash $0.25B; IV/share over ~208M diluted shares (mcap $45.65B / $219.52). Inputs from verified FASE 2 file (price, revenue, FCF, SBC%, net debt); shares derived from market cap/price; beta and margin-normalization path estimated (not in file). SBC adjustment is immaterial here (ODFL's stock comp is ~0.2% of revenue), so owner FCF ≈ reported FCF. Key sensitivity: the result is driven far more by the WACC/terminal-g spread and the assumed margin-normalization level than by the SBC haircut; the stock requires a discount rate well below 9.8% (or a longer hyper-growth runway) to be fairly valued. data_quality of source file = MIXED (FCF/ROIC/SBC are aggregator estimates, not 10-K line-item-confirmed)."
+}

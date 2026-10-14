@@ -1,0 +1,299 @@
+{
+  "ticker": "MSFT",
+  "empresa": "Microsoft Corporation",
+  "cik": "0000789019",
+  "fecha_analisis": "2026-07-27",
+  "divisa": "USD",
+  "etiqueta_calidad_congelada": "ULTRA-R",
+  "nota_congelacion": "La etiqueta ULTRA-R (5 puertas pasadas) viene congelada del eje de comprension. El valorador NO la toca y NO la reclasifica hacia arriba bajo ningun hallazgo de precio. Todo lo que sigue es precio, no calidad.",
+  "especie": "G2 — reinversion 35,8% de ventas · ROIIC bruto 15,6% · ROIIC ex-margen 10,8%",
+  "mecanismo_heredado": "Costes de cambio del directorio corporativo y la suite ofimatica permiten cobrar +12,3% anual de precio/mix sobre una base de asientos que crece al 6%; esa caja se reinvierte al 35,8% de las ventas en capacidad de IA. Eslabon debil declarado: ROIIC ex-margen 10,8%, ROIC caido del 88% al 35% en cuatro anios, 109.000 M de capex FY2024-25 y 69.132 M de Activision sin demostrar nada todavia.",
+
+  "posicion_en_cartera": {
+    "si": true,
+    "peso_nav_pct": 4.36,
+    "decision_aplicable": "CARGAR",
+    "mos_exigido_pct": 30,
+    "nota_umbral": "Banda base ULTRA = 18% para abrir. Al estar ya en cartera aplica el umbral de CARGAR: 18 + 12 = 30%."
+  },
+
+  "precio": {
+    "precio_usd": 389.64,
+    "fuente": "HECHO — snapshot en vivo IBKR (contract_id 272093, SMART/NASDAQ), sello temporal 2026-07-28 00:00:44 UTC = cierre de la sesion del lunes 27-jul-2026. Ultimo trade 389,64; bid/ask 389,25 / 390,00. Variacion del dia +7,94 (+2,08%).",
+    "cotiza_en": "NASDAQ, USD — accion ordinaria. No hay ADS ni conversion de divisa. Moneda funcional = USD.",
+    "rango_52s": {
+      "max": 552.28,
+      "min": 349.20,
+      "apertura_52s": 509.52,
+      "fuente": "HECHO — misc_statistics IBKR, 2026-07-27"
+    },
+    "contexto": "MSFT hizo maximo en 552,28 y minimo en 349,20 EN LOS ULTIMOS DOCE MESES: el minimo de 52 semanas es tambien el minimo de 13 y de 26 semanas, es decir se ha marcado en el ultimo trimestre. El precio de hoy (389,64) esta un 29,4% por debajo del maximo y un 11,6% por encima del minimo. La caida es de 2026: la accion abrio el ano en ~484 y acumula -19% (INFERENCIA — prensa financiera, jul-2026). La narrativa de la caida es el gasto de capital en IA, no un deterioro de los ingresos: Azure crecio 40% en el trimestre de marzo.",
+    "advertencia": "Este es un precio caido, no un precio barato. El resto del expediente existe para separar las dos cosas."
+  },
+
+  "acciones": {
+    "ordinarias_en_circulacion": 7428434704,
+    "fecha": "2026-04-23",
+    "fuente": "HECHO — portada del 10-Q Q3 FY2026 (accession 0001193125-26-191507, msft-20260331.htm), dei:EntityCommonStockSharesOutstanding",
+    "diluidas_ponderadas_fy2025": 7465000000,
+    "diluidas_ponderadas_q3_fy2026": 7445000000,
+    "nota": "El recuento de acciones esta esencialmente PLANO desde hace tres anos (7.433 M en jul-2024, 7.428 M en abr-2026). No es que no haya dilucion: es que las recompras la tapan. En los 9M de FY2026 MSFT recompro 17.692 M USD mientras reconocia 9.283 M de retribucion en acciones. La recompra no es devolucion de caja al accionista en casi la mitad de su importe: es el pago diferido de la nomina."
+  },
+
+  "capitalizacion_y_ev_usd_mm": {
+    "capitalizacion": 2894415,
+    "capitalizacion_calculo": "7.428.434.704 acciones x 389,64 USD",
+    "bonos_valor_mercado": 36600,
+    "bonos_valor_contable": 40262,
+    "arrendamientos_financieros": 62932,
+    "deuda_financiera_bruta": 99532,
+    "detalle_deuda": "HECHO — 10-Q Q3 FY2026 al 2026-03-31: deuda a largo plazo 31.423 + porcion corriente 8.839 = 40.262 contable; valor razonable declarado (nivel 2) 36.600. Pasivo por arrendamiento financiero 62.932. Sin papel comercial emitido.",
+    "efectivo": 32105,
+    "inversiones_corto_plazo": 46167,
+    "efectivo_e_inversiones": 78272,
+    "deuda_neta": 21260,
+    "ev": 2915675,
+    "nota_arrendamientos_operativos": "El pasivo por arrendamiento operativo (22.238 M al 2026-03-31) NO se suma a la deuda neta: su coste ya esta dentro del resultado operativo y del flujo de caja operativo, de modo que sumarlo al EV sin ajustar el flujo seria doble conteo. Si se capitalizara, el EV subiria un 0,76% — irrelevante frente al piso de resolucion.",
+    "nota_arrendamientos_financieros": "Los arrendamientos financieros SI se tratan como deuda, y es la decision mas consecuente de este expediente. Han pasado de 27.145 M (jun-2024) a 62.932 M (mar-2026): +132% en veintiun meses. Son centros de datos financiados fuera del capex en efectivo. Quien los ignora ve un FCF de MSFT un 40% mas alto del real."
+  },
+
+  "candado_b_wacc_de_mercado": {
+    "principio": "El WACC sale del mercado, jamas de un tier de calidad. Ninguna cifra de esta seccion se ha heredado de la etiqueta ULTRA-R.",
+    "tasa_libre_riesgo_pct": 4.65,
+    "tasa_libre_riesgo_fuente": "HECHO — US Treasury, Daily Treasury Par Yield Curve, bono a 10 anios, 27-jul-2026: 4,65%. CSV oficial descargado de home.treasury.gov el 2026-07-27. Moneda funcional de MSFT = USD, de modo que el bono correcto es el estadounidense.",
+    "beta": 1.15,
+    "beta_fuente": "TRIANGULADA. (1) Medicion propia reproducible: regresion de 59 rendimientos MENSUALES de MSFT contra SPY, cierres IBKR 2021-08 a 2026-07 => beta 1,100, correlacion 0,701, error estandar 0,148. Misma serie a 3 anios => 1,210. Ajuste Blume sobre la de 5 anios => 1,067. (2) Terceros citables: Yahoo Finance beta 5Y mensual 1,13 (consulta 27-jul-2026); GuruFocus beta 1,246 al 21-jul-2026. Adopto 1,15 como central por estar dentro de un error estandar de las cuatro.",
+    "beta_hueco": "HUECO: mi propio error estandar es 0,148. La beta NO esta determinada mejor que +/- 0,15. Cualquier decimal adicional es ruido.",
+    "prima_mercado_pct": 4.20,
+    "prima_mercado_fuente": "HECHO — Damodaran, actualizacion de julio 2026 (S&P 500 en 7.499,36 el 1-jul-2026): ERP implicita de EEUU 4,42%, de la que se resta el diferencial de impago de 0,22% del rating Aa1 para obtener la prima de mercado MADURO de 4,20%. Cruzado con la tabla ctryprem.html de Damodaran verificada directamente el 27-jul-2026 (ultima actualizacion 5-ene-2026): ERP EEUU 4,46%, CRP EEUU 0,23%, maduro 4,23%. Uso la de julio por ser mas reciente.",
+    "prima_pais_pct": 0.55,
+    "prima_pais_metodo": "INFERENCIA — prima pais del riesgo de ACTIVO, no del domicilio fiscal. MSFT solo desglosa ingresos en dos bloques: Estados Unidos 144.546 M (51,3%) y otros paises 137.178 M (48,7%) en FY2025 (HECHO, 10-K nota de segmentos). Aplico CRP de Damodaran 0,23% al bloque estadounidense y una CRP mezclada de 0,90% al bloque internacional (dominado por Europa occidental y Japon, con China e India minoritarios; referencias Damodaran: Alemania 0,00%, Reino Unido 0,78%, Irlanda 0,78%, Japon 0,91%, China 0,91%, India 2,85%). Resultado: 0,513x0,23 + 0,487x0,90 = 0,55%.",
+    "prima_pais_hueco": "HUECO declarado: la composicion interna del bloque 'otros paises' es SUPUESTO mio. MSFT declara explicitamente que ningun pais salvo EEUU supera el 10% de los ingresos, lo que acota el error pero no lo elimina. Rango razonable de la CRP mezclada: 0,3% - 1,0%.",
+    "prima_total_aplicada_pct": 4.75,
+    "coste_deuda_pct": 4.5,
+    "coste_deuda_metodo": "HECHO/INFERENCIA, tres lecturas conciliadas: (1) DERIVADO DEL FILING como manda el candado: gasto financiero LTM 2.827 M (FY2025 2.385 menos 9M FY2025 1.770 mas 9M FY2026 2.212) sobre deuda media LTM 96.259 M = 2,94%. (2) Esa cifra esta CONTAMINADA A LA BAJA: MSFT declara expresamente 'higher capitalization of debt interest expense' en el 10-K FY2025 y en el 10-Q Q2 FY2026, es decir capitaliza parte del interes dentro del capex de centros de datos, y no cuantifica el importe. (3) Lectura limpia disponible: el tipo de descuento medio ponderado de los arrendamientos financieros — que ya son el 63% de la deuda y practicamente el 100% de la deuda nueva — es 4,4% al 2026-03-31 (HECHO, 10-Q Q3 FY2026), subiendo desde 3,9% en jun-2024. El interes en efectivo de los bonos heredados fue 1.600 M en FY2025 sobre ~44.000 M de saldo medio = 3,6%. Adopto 4,5% pre-impuestos como coste economico real y marginal.",
+    "coste_deuda_despues_impuestos_pct": 3.65,
+    "tipo_impositivo_pct": 19,
+    "tipo_impositivo_fuente": "HECHO — tipo efectivo 18% en FY2025 y FY2024 (10-K); 20% en los seis meses a dic-2025 por el impuesto diferido del beneficio de dilucion de OpenAI (10-Q Q2 FY2026). Uso 19%.",
+    "coste_equity_pct": 10.11,
+    "coste_equity_calculo": "4,65 + 1,15 x (4,20 + 0,55) = 10,11%",
+    "ponderacion": "A valor de mercado: equity 2.894.415 M (96,68%), deuda 99.532 M (3,32%). La deuda se pondera a valor de mercado: bonos a su valor razonable declarado (36.600) y arrendamientos financieros a su valor contable, que es el valor presente contractual.",
+    "wacc_pct": 9.9,
+    "wacc_rango": "8,9% - 11,0%",
+    "wacc_rango_metodo": "Extremo bajo: beta 1,00 y prima total 4,40% => Ke 9,05% => WACC 8,87%. Extremo alto: beta 1,25 y prima total 5,30% => Ke 11,28% => WACC 11,04%. Los DCF de este expediente se corrieron a 9,85%; la diferencia con el 9,9% redondeado mueve el valor menos de un 1%, muy dentro del piso de resolucion.",
+    "nota_candado": "Observacion que importa: el WACC de MSFT hoy (9,9%) es practicamente IGUAL a su ROIIC ex-margen congelado (10,8%). Todo el expediente se juega en ese hueco de 0,9 puntos."
+  },
+
+  "owner_earnings": {
+    "principio": "Dos versiones obligatorias sobre dos bases. La version (a) resta solo el capex de MANTENIMIENTO, aproximado por la depreciacion — el exceso sobre depreciacion es inversion discrecional y no se penaliza. La version (b) resta TODO el capex. En MSFT hay una decision anadida y no negociable: el capex incluye las ADICIONES DE ARRENDAMIENTO FINANCIERO, porque son centros de datos comprados a credito que no pasan por la linea de capex en efectivo. Sin ese ajuste el flujo libre de MSFT sale inflado un 40%.",
+
+    "base_auditada": {
+      "ejercicio": "FY2025 (cerrado 30-jun-2025)",
+      "fuente": "HECHO — 10-K presentado el 2025-07-30, accession 0000950170-25-100235, auditado por Deloitte & Touche LLP",
+      "ingresos_usd_mm": 281724,
+      "resultado_operativo_usd_mm": 128528,
+      "margen_operativo_pct": 45.6,
+      "beneficio_neto_usd_mm": 101832,
+      "bpa_diluido_usd": 13.64,
+      "flujo_caja_operativo_usd_mm": 136162,
+      "depreciacion_ppe_usd_mm": 22000,
+      "amortizacion_rou_leasing_financiero_usd_mm": 3408,
+      "amortizacion_intangibles_usd_mm": 6000,
+      "capex_mantenimiento_usd_mm": 25408,
+      "capex_mantenimiento_metodo": "Depreciacion de inmovilizado propio (22.000) + amortizacion del derecho de uso de arrendamientos financieros (3.408). La amortizacion de intangibles (6.000) NO entra: es reconocimiento de precio de compra de Activision y Nuance, no reposicion de activo productivo.",
+      "capex_efectivo_usd_mm": 64551,
+      "adiciones_leasing_financiero_usd_mm": 20511,
+      "capex_total_economico_usd_mm": 85062,
+      "capex_total_sobre_ventas_pct": 30.2,
+      "oe_mantenimiento_usd_mm": 110754,
+      "oe_capex_total_usd_mm": 51100,
+      "sbc_usd_mm": 11974,
+      "oe_mantenimiento_neto_sbc_usd_mm": 98780,
+      "fcf_publicado_por_msft_usd_mm": 71611,
+      "observacion_clave": "El FCF que MSFT y los agregadores publican (136.162 - 64.551 = 71.611) omite 20.511 M de centros de datos comprados via arrendamiento financiero. El flujo libre economico real de FY2025 fue 51.100 M, un 29% menos. La distancia entre las dos versiones de owner earnings — 110.754 contra 51.100 — es de 2,17 veces."
+    },
+
+    "base_en_curso": {
+      "ejercicio": "FY2026E (cierra 30-jun-2026; el 10-K aun no esta presentado a 27-jul-2026)",
+      "trimestres_publicados": "Q1 (10-Q 2025-10-29), Q2 (10-Q 2026-01-28) y Q3 (10-Q 2026-04-29). El trimestre de abril-junio de 2026 NO esta publicado.",
+      "hechos_9m_fy2026": {
+        "ingresos_usd_mm": 241832,
+        "crecimiento_ingresos_pct": 17.8,
+        "resultado_operativo_usd_mm": 114634,
+        "margen_operativo_pct": 47.4,
+        "beneficio_neto_usd_mm": 97983,
+        "flujo_caja_operativo_usd_mm": 127494,
+        "crecimiento_ocf_pct": 36.3,
+        "capex_efectivo_usd_mm": 80146,
+        "adiciones_leasing_financiero_usd_mm": 19486,
+        "depreciacion_ppe_usd_mm": 24000,
+        "amortizacion_rou_leasing_financiero_usd_mm": 3856,
+        "sbc_usd_mm": 9283,
+        "recompras_usd_mm": 17692,
+        "dividendos_usd_mm": 19687,
+        "fuente": "HECHO — 10-Q Q3 FY2026, accession 0001193125-26-191507"
+      },
+      "guia_q4_fy2026": {
+        "ingresos_usd_mm": "86.700 - 87.800",
+        "capex_q4": "por encima de 40.000 M incluyendo arrendamientos financieros",
+        "capex_calendario_2026": "~190.000 M, de los que ~25.000 M son encarecimiento de componentes (memoria)",
+        "fuente": "INFERENCIA — declaraciones de Amy Hood en la llamada de resultados del 29-abr-2026, recogidas por CNBC y transcripciones publicas. NO es un filing. Marcado como inferencia con toda la intencion."
+      },
+      "estimacion_fy2026": {
+        "ingresos_usd_mm": 329100,
+        "resultado_operativo_usd_mm": 154300,
+        "flujo_caja_operativo_usd_mm": 180000,
+        "capex_mantenimiento_usd_mm": 39400,
+        "capex_efectivo_usd_mm": 118000,
+        "adiciones_leasing_financiero_usd_mm": 24600,
+        "capex_total_economico_usd_mm": 142600,
+        "capex_total_sobre_ventas_pct": 43.3,
+        "sbc_usd_mm": 12600,
+        "oe_mantenimiento_usd_mm": 140600,
+        "oe_capex_total_usd_mm": 37400,
+        "oe_mantenimiento_neto_sbc_usd_mm": 128000,
+        "metodo": "9M reales + Q4 estimado. Ingresos Q4 = punto medio de la guia (87.250). Margen operativo Q4 supuesto en 45,5% (contra 44,9% en Q4 FY2025). OCF Q4 = 52.500, es decir +23% sobre los 42.647 de Q4 FY2025, por debajo del +36% de los 9M. Capex Q4 = 43.000 total, coherente con la guia de 'mas de 40.000'."
+      },
+
+      "la_distancia_entre_las_dos_bases": "Esto es lo que hay que mirar y no el nivel de ninguna de las dos. Version (a), capex de mantenimiento: 110.754 -> 140.600, un +27%. Version (b), capex total: 51.100 -> 37.400, un -27%. Las dos versiones se mueven EN DIRECCIONES OPUESTAS en el mismo ejercicio. Su cociente pasa de 2,17x a 3,76x. Eso no es ruido de estimacion: es la firma contable de una empresa que esta consumiendo todo su flujo libre, y algo mas, para construir capacidad que todavia no ha demostrado su retorno.",
+
+      "calidad_del_flujo_de_caja_operativo": "AVISO. El OCF de los 9M crecio un 36% mientras los ingresos crecian un 18%, y ademas lo hizo CONTRA un viento en contra: los ingresos no devengados cayeron de 67.265 a 53.677 M (-13.588). El diferencial se explica en gran parte por partidas que revierten: cuentas a pagar +9.789 M (de 27.724 a 37.513) y otros pasivos a largo plazo +16.295 M (de 45.186 a 61.481) en nueve meses. Parte del capex de centros de datos se esta financiando a traves del proveedor. HUECO: no pude aislar cuanto de ese aumento es financiacion de proveedores que revierte y cuanto es devengo recurrente. Si la mitad revierte, el OE de mantenimiento del ejercicio en curso cae de 140.600 a ~132.000."
+    },
+
+    "prueba_del_algodon": "En los 9M de FY2026 MSFT devolvio 37.379 M al accionista (17.692 de recompra + 19.687 de dividendo) contra un owner earnings version (b) de 27.862 M en el mismo periodo. Devolvio un 34% MAS de lo que genero libre. La diferencia salio del balance: efectivo e inversiones a corto cayeron de 94.600 a 78.300 M. Esto es sostenible por un tiempo largo — MSFT tiene el balance para ello — pero no es una maquina de caja financiando su propio reparto."
+  },
+
+  "hecho_no_recurrente_que_hay_que_neutralizar": {
+    "concepto": "Beneficio por dilucion de la recapitalizacion de OpenAI",
+    "importe_usd_mm": 10000,
+    "trimestre": "Q2 FY2026 (oct-dic 2025)",
+    "fuente": "HECHO — 10-Q Q2 FY2026, Nota 3 Other Income (Expense), Net: 'Other income (expense), net included $10.0 billion ... of net gains for the three months ended December 31, 2025 ... The net gains recorded ... primarily relate to the dilution gain from the OpenAI Recapitalization.'",
+    "tratamiento": "NO entra en owner earnings. Es no monetario (no toca el flujo de caja operativo) y es irrepetible. Explica por que el beneficio neto de ese trimestre (38.458 M) es practicamente igual al resultado operativo (38.275 M) y por que el BPA trimestral salto a 5,16 USD. Quien anualice ese trimestre esta valorando una revalorizacion contable de una participacion no cotizada.",
+    "contexto": "MSFT tiene ~27% de OpenAI en base convertida, contabilizada por puesta en equivalencia con metodo HLBV, valor en libros 11.100 M al 2026-03-31. Compromiso de financiacion total 13.000 M, de los que 11.700 M ya desembolsados a dic-2025. En FY2025 esa misma participacion produjo PERDIDAS de ~4.700 M."
+  },
+
+  "dcf_inverso": {
+    "principio": "Que crecimiento a 10 anios, con crecimiento terminal del 3%, justifica exactamente el precio de hoy al WACC calculado. Motor comun: flujo base = owner earnings de MANTENIMIENTO neto de retribucion en acciones, EV objetivo = 2.915.675 M, WACC = 9,85%, terminal 3%.",
+    "por_que_neto_de_sbc": "El flujo de caja operativo devuelve la retribucion en acciones como si fuera gratis. No lo es: MSFT gasta ~18.000-24.000 M al ano en recompras para que el recuento de acciones no suba. Para valorar POR ACCION hay que restarla. Restarla es la unica forma de que el valor por accion signifique algo.",
+
+    "modelo_generoso": {
+      "descripcion": "El crecimiento sale GRATIS: se descuenta el owner earnings de mantenimiento creciendo al ritmo g sin cobrar la reinversion que lo compra. Es el marco mas favorable posible a MSFT y por eso es el que uso para la cifra de cabecera: si el veredicto ya es negativo aqui, es robusto.",
+      "g_implicita_base_auditada_pct": 12.06,
+      "g_implicita_base_en_curso_pct": 8.58,
+      "lectura": "Sobre el ultimo ejercicio AUDITADO el precio exige un 12,1% anual de crecimiento del owner earnings durante diez anios. Sobre el ejercicio EN CURSO, un 8,6%. La caida de la exigencia entre una base y otra es puro efecto de que el ejercicio en curso ya ha subido el flujo un 27%: el mercado ya se ha cobrado ese salto."
+    },
+
+    "modelo_riguroso": {
+      "descripcion": "El crecimiento SE PAGA: cada punto de g cuesta una reinversion de g/ROIIC del flujo, con ROIIC ex-margen congelado en 10,8%, y esa reinversion se resta del flujo al propietario. Es el marco correcto y el que manda la metodologia.",
+      "resultado": "IMPOSIBLE. Con ROIIC ex-margen = 10,8% y WACC = 9,85%, el maximo EV alcanzable haciendo tender g a su techo teorico (10,8%) es 1.515.509 M sobre la base en curso y 1.169.090 M sobre la auditada. El precio de hoy exige 1,92 veces y 2,49 veces esas cifras respectivamente.",
+      "por_que": "Cuando el retorno del capital incremental iguala el coste del capital, el crecimiento no crea valor: el multiplo justo es 1/WACC, unas 10 veces, y no hay g que lo mueva. MSFT esta reinvirtiendo el 82% de su NOPAT estimado de FY2026 a un retorno incremental de 10,8% con un coste de capital de 9,9%. El diferencial es de 0,9 puntos. Ese es el hallazgo central del expediente y no depende de ninguna proyeccion mia: depende del ROIIC ex-margen que el eje de calidad ya habia congelado."
+    }
+  },
+
+  "g_defendible": {
+    "valor_pct": 6.2,
+    "derivacion": "Tasa de reinversion x ROIIC EX-MARGEN (10,8%), NUNCA el bruto de 15,6% — usar el bruto asume que la expansion de margen se repite, y la expansion de margen es exactamente lo que el eje de calidad marco como el eslabon debil. Tasas de reinversion medidas: FY2025 = (85.062 capex total - 25.408 mantenimiento) / NOPAT 105.393 = 56,6%; FY2026E = (142.600 - 39.400) / NOPAT 125.011 = 82,6%.",
+    "senda_supuesta": "Anios 1-3: reinversion ~75% => g 8,1%. Anios 4-7: ~55% => g 5,9%. Anios 8-10: ~35% => g 3,8%. Media geometrica a diez anios ~6,2%. La senda decreciente no es pesimismo: el capex ya es el 43% de las ventas y no puede seguir subiendo indefinidamente sobre una base de ingresos que crece al 17%.",
+    "hueco": "SUPUESTO declarado: la senda de reinversion es mia, no de la empresa. MSFT no guia capex mas alla del ano calendario. Si la reinversion se mantiene al 80% durante toda la decada, g sube a ~8,7% — y el valor apenas se mueve (a 8% de g el valor por accion pasa de 192 a 196 USD en el marco riguroso), precisamente porque el ROIIC iguala al WACC."
+  },
+
+  "valoracion": {
+    "marcos_calculados": {
+      "base_auditada_fy2025": {
+        "flujo_base_usd_mm": 98780,
+        "riguroso_g6.2_roiic10.8_usd": 147,
+        "cosecha_3pct_perpetuo_usd": 197,
+        "generoso_g6.2_gratis_usd": 251
+      },
+      "base_en_curso_fy2026e": {
+        "flujo_base_usd_mm": 128000,
+        "riguroso_g6.2_roiic10.8_usd": 192,
+        "cosecha_3pct_perpetuo_usd": 256,
+        "generoso_g6.2_gratis_usd": 326
+      },
+      "explicacion_cosecha": "Escenario 'la direccion capitula': MSFT congela el buildout de IA, se queda con el capex de mantenimiento y crece al 3% perpetuo por puro precio/mix sobre la base instalada. Es un escenario real, no teorico — es lo que el mercado esta pidiendo a gritos con la caida del 29%."
+    },
+    "valor_por_accion_auditado_usd": 195,
+    "valor_por_accion_encurso_usd": 250,
+    "metodo_del_central": "Punto medio de los tres marcos, con peso hacia el riguroso y anclado en el escenario de cosecha, que es el que menos supuestos exige. No promedio mecanicamente: el riguroso es el metodologicamente correcto y el generoso es una cota superior que regala el crecimiento.",
+    "piso_de_resolucion": "Sin medicion propia del ruido, banda de +/- 25%. Base auditada: 146 - 244 USD. Base en curso: 188 - 313 USD. NO se reporta ningun valor intrinseco con decimales. El precio de hoy (389,64) queda FUERA de la banda superior de las dos bases.",
+    "mos_auditado_pct": -100,
+    "mos_encurso_pct": -56,
+    "advertencia_sobre_el_mos": "Un MoS de -100% no es informacion util: es un artefacto de dividir por un valor pequeno. La informacion util es la TIR."
+  },
+
+  "tir_esperada": {
+    "rango": "+6% a +9% anual durante 10 anios",
+    "central_pct": 7.0,
+    "desglose": {
+      "base_auditada_riguroso_pct": 6.0,
+      "base_auditada_cosecha_pct": 6.5,
+      "base_auditada_generoso_pct": 7.5,
+      "base_encurso_riguroso_pct": 6.8,
+      "base_encurso_cosecha_pct": 7.5,
+      "base_encurso_generoso_pct": 8.8
+    },
+    "metodo": "Tasa de descuento que iguala el EV del modelo al EV de mercado (2.915.675 M), con g defendible 6,2% y terminal 3% en cada marco.",
+    "lectura": "Esta es la frase que importa de todo el expediente: comprando MSFT a 389,64 USD hoy, y aceptando mis supuestos de flujo, se gana entre un 6% y un 9% anual durante diez anios — con central en el 7% — cuando el capital exige un 9,9%. No es una catastrofe. No es una trampa. Es un rendimiento esperado 3 puntos anuales por debajo del coste del capital, sobre un negocio excelente comprado a un precio que ya descuenta que el buildout de IA funciona."
+  },
+
+  "m_estrella_y_p_estrella": {
+    "m_estrella": 14.0,
+    "base_del_multiplo": "Veces owner earnings de MANTENIMIENTO neto de retribucion en acciones",
+    "justificacion_en_frio": "Decidido sin barra de error porque no es una estimacion, es un compromiso. Aritmetica del suelo: cuando ROIIC = WACC el multiplo justo es 1/WACC = 10,2x, y el crecimiento no anade nada. Concedo 3,8 veces adicionales por tres cosas concretas y verificables: (1) el moat de conmutacion del directorio corporativo, que el eje de calidad ya valido con 5 puertas pasadas; (2) 627.000 M de obligaciones de resultado comerciales pendientes con duracion media de 2,5 anios (HECHO, 10-Q Q3 FY2026), que es visibilidad real de ingreso; (3) la opcion de cosecha — MSFT puede apagar el buildout y el flujo de mantenimiento aparece intacto, cosa que ningun operador de centros de datos apalancado puede hacer. No concedo mas de 14x porque el ROIIC ex-margen de 10,8% esta congelado y no lo puedo tocar.",
+    "multiplos_implicitos_hoy": {
+      "ev_sobre_oe_mantenimiento_auditado": 26.3,
+      "ev_sobre_oe_mantenimiento_encurso": 20.7,
+      "ev_sobre_oe_mantenimiento_encurso_neto_sbc": 22.8,
+      "ev_sobre_oe_capex_total_auditado": 57.1,
+      "ev_sobre_oe_capex_total_encurso": 78.0,
+      "per_fy2025": 28.6
+    },
+    "valor_a_m_estrella": {
+      "base_auditada_usd": 183,
+      "base_en_curso_usd": 238
+    },
+    "p_estrella_usd": 170,
+    "p_estrella_calculo": "MoS exigido por su banda = 30% (ULTRA en cartera => CARGAR). Sobre el valor central de la base en curso (250 USD): 250 x 0,70 = 175. Sobre el valor a M*=14x de la base en curso (238 USD): 238 x 0,70 = 167. Adopto 170 USD, sin decimales, como el precio al que la posicion se carga.",
+    "distancia_al_precio": "El precio de hoy esta un 129% por encima de P*. Para que MSFT sea CARGAR haria falta una caida adicional del 56% desde 389,64."
+  },
+
+  "detector_de_trampa_de_valor": {
+    "veredicto": "SOSPECHA",
+    "motivo": "La caida del 29% desde maximos invita a leer MSFT como una oportunidad. No lo es, y la razon no es que el negocio se este rompiendo — el negocio va bien: Azure +40%, Microsoft Cloud +29%, obligaciones comerciales pendientes +99% hasta 627.000 M. La razon es que el MOTOR DE REINVERSION ha dejado de crear valor: el ROIIC ex-margen congelado (10,8%) esta practicamente en el WACC de mercado (9,9%), y la empresa esta metiendo el 82% de su NOPAT por ese embudo. La firma de la sospecha esta en los propios owner earnings: la version con capex total ha pasado de 51.100 a ~37.400 M mientras la version de mantenimiento subia un 27%. Un negocio cuyo flujo libre real CAE un 27% en el ano en que sus ingresos suben un 18% esta convirtiendo crecimiento en activo fijo a un tipo de cambio que todavia no ha demostrado ser bueno.",
+    "por_que_no_es_un_SI": "No es un SI rotundo por tres cosas: (1) el moat de la suite ofimatica y el directorio no muestra ninguna grieta — los precios se siguen subiendo y los asientos siguen creciendo; (2) MSFT tiene la OPCION de parar, y el flujo de mantenimiento reaparece intacto; ninguna trampa de valor clasica tiene esa salida; (3) la caida es de multiplo, no de resultados. Una trampa de valor de verdad tiene los resultados cayendo. Aqui caen solo si el capex no rinde.",
+    "lo_que_falsaria_la_sospecha": "Que la depreciacion de los centros de datos de FY2024-26 entre en regimen y el margen operativo NO caiga; que el ROIC consolidado deje de bajar del 35%; y que el owner earnings version (b) vuelva a crecer en FY2027. Si eso ocurre, el ROIIC ex-margen sube y toda esta valoracion se queda corta."
+  },
+
+  "veredicto_de_precio": {
+    "decision": "NO CARGAR",
+    "resumen": "MSFT a 389,64 USD ofrece una TIR esperada del 6-9% anual a diez anios contra un WACC de mercado del 9,9%. El precio exige un 8,6% de crecimiento del owner earnings durante una decada en el marco mas generoso posible (crecimiento gratis) y es sencillamente inalcanzable en el marco correcto, donde cada punto de crecimiento se paga al ROIIC ex-margen congelado de 10,8%. P* = 170 USD; el precio esta un 129% por encima.",
+    "que_no_hacer": "No vender por esto. El expediente de precio no es una tesis de venta: la posicion pesa un 4,36% del NAV, el negocio esta intacto y la etiqueta ULTRA-R sigue congelada. Lo que este expediente dice es que NO se anade capital nuevo aqui.",
+    "contradiccion_madre": "Registro para el diario: al abrir el precio y ver una accion caida un 29%, la tentacion era encontrar la puerta por la que MSFT vuelve a ser una compra. La puerta existia y era usar el ROIIC BRUTO de 15,6% en vez del ex-margen de 10,8%. Con el bruto el valor por accion en el marco riguroso sube de 192 a ~230 USD y la historia se vuelve mucho mas amable. No la use. El ex-margen es el que manda porque la expansion de margen es precisamente lo que el eje de calidad marco como no repetible."
+  },
+
+  "huecos_declarados": [
+    "FY2026 no esta cerrado ni auditado. El trimestre de abril-junio de 2026 es estimacion mia; el 10-K se espera alrededor del 30-jul-2026, es decir en dias. Toda la base 'en curso' debe reejecutarse contra el filing real.",
+    "La guia de Q4 (ingresos 86.700-87.800 M, capex por encima de 40.000 M, ~190.000 M en el ano calendario 2026 con ~25.000 M de encarecimiento de memoria) viene de la llamada de resultados del 29-abr-2026 recogida por prensa, NO de un filing. Es INFERENCIA.",
+    "El capex de mantenimiento se aproxima por la depreciacion. En pleno buildout esa aproximacion SUBESTIMA el mantenimiento futuro: los activos de FY2024-26 aun no deprecian a regimen. Ademas la vida util contable de los servidores (6 anios desde FY2023) es un supuesto contable que no he podido contrastar con la vida fisica real de las GPU. Si la vida util correcta fuera de 4 anios, la depreciacion normalizada subiria ~50% y el owner earnings de mantenimiento caeria en torno a 17.000 M.",
+    "El ROIIC ex-margen de 10,8% es input CONGELADO del eje de calidad. No lo he recalculado ni tengo permiso para subirlo. Toda la valoracion cuelga de el: a ROIIC 13% el valor riguroso pasa de 192 a 215 USD; a 16%, a 235 USD. Sigue por debajo del precio en los tres casos.",
+    "No pude cuantificar el interes capitalizado dentro del capex. MSFT lo menciona expresamente en el 10-K FY2025 y en dos 10-Q pero no da el importe. El coste de deuda derivado del filing (2,94% LTM) esta contaminado a la baja por esa razon.",
+    "Beta: mi propia medicion tiene un error estandar de 0,148 y las fuentes de terceros van de 1,13 a 1,25. La beta no esta determinada mejor que +/- 0,15, lo que mueve el WACC unos +/- 0,7 puntos.",
+    "El flujo de caja operativo de los 9M de FY2026 esta favorecido por cuentas a pagar (+9.789 M) y otros pasivos a largo plazo (+16.295 M). No pude separar cuanto es financiacion de proveedores que revierte y cuanto es devengo recurrente.",
+    "Las obligaciones de resultado comerciales pendientes de 627.000 M (+99% interanual) incluyen el compromiso de Azure con OpenAI. No pude verificar en filing primario ni el importe del compromiso ni la concentracion de contraparte. Es la mayor fuente de calidad aparente del backlog y la que menos he podido auditar.",
+    "No verifiqué el ROIC del segmento de Activision (69.132 M pagados) ni el estado de sus intangibles. El eje de calidad ya lo marco como no demostrado.",
+    "El expediente NO ha pasado por abogado-diablo en sesion limpia. Este es un expediente de precio, no un veredicto de COMPRA, de modo que el candado A no se dispara; pero si en algun momento se convierte en una recomendacion de cargar, el veto es obligatorio antes."
+  ],
+
+  "trazabilidad_de_fuentes": {
+    "10k_fy2025": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm (accession 0000950170-25-100235, presentado 2025-07-30)",
+    "10q_q1_fy2026": "accession 0001193125-25-256321, msft-20250930.htm, presentado 2025-10-29",
+    "10q_q2_fy2026": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027207/msft-20251231.htm (accession 0001193125-26-027207, presentado 2026-01-28)",
+    "10q_q3_fy2026": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm (accession 0001193125-26-191507, presentado 2026-04-29)",
+    "xbrl": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json, descargado 2026-07-27",
+    "tipo_sin_riesgo": "home.treasury.gov, Daily Treasury Par Yield Curve Rates, CSV oficial 2026, fila 07/27/2026",
+    "primas": "pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/ctryprem.html (verificada 2026-07-27, ultima actualizacion declarada 2026-01-05) + actualizacion de julio 2026 de Damodaran",
+    "precio_y_beta": "MCP IBKR — get_price_snapshot y get_price_history sobre contract_id 272093 (MSFT) y 756733 (SPY), 2026-07-27",
+    "beta_terceros": "finance.yahoo.com/quote/MSFT/key-statistics (beta 5Y mensual 1,13) y gurufocus.com/term/beta/MSFT (1,2460 al 2026-07-21)"
+  }
+}

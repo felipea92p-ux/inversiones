@@ -1,0 +1,41 @@
+{
+ "ticker": "FTNT",
+ "currency": "USD",
+ "current_price": 145.39,
+ "wacc_pct": 9.8,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 1.1,
+  "geo_adj_pct": 0
+ },
+ "owner_fcf_base": "Owner FCF base (FY2025) = FCF reportado $2,211.8M - 100% SBC $282.1M = $1,929.7M. Margen owner FCF = 28.4% sobre ingresos $6,800M. La SBC se trata como gasto en efectivo (100%). Nota: SBC inusualmente baja para un nombre de software (4.1% de ingresos, 12.8% del FCF), lo que es favorable. El FCF reportado se beneficia de favorable working capital/billings timing (Q1 2026 con margen FCF 54% por timing), por lo que el margen owner ~28% es una base estabilizada razonable, no inflada.",
+ "assumptions": {
+  "rev_cagr_y1_5_pct": 13.5,
+  "rev_cagr_y6_10_pct": 9.2,
+  "fcf_margin_terminal_pct": 32,
+  "terminal_g_pct": 3,
+  "sbc_treatment": "100% de la SBC restada del FCF como gasto en efectivo (owner earnings). SBC FY2025 = $282.1M = 4.1% de ingresos / 12.8% del FCF.",
+  "shares_diluted_b": 0.733,
+  "net_debt_usd_b": -2.93
+ },
+ "scenarios": {
+  "conservador": {
+   "iv_per_share": 64.47,
+   "prob": 0.38,
+   "note": "Crecimiento ingresos 10% CAGR anios 1-5 declinando a 4% al anio 10; margen owner FCF estabiliza en 30%; g terminal 2.5%. Refleja desaceleracion del gasto en ciberseguridad y mayor competencia (Palo Alto, CrowdStrike, plataformas). No apocaliptico: la empresa sigue creciendo de doble digito y mantiene margenes altos."
+  },
+  "base": {
+   "iv_per_share": 86.83,
+   "prob": 0.47,
+   "note": "Crecimiento 13.5% CAGR anios 1-5 (consistente con guidance FY26 ~15% y track record organico ~14%) declinando a 5%; margen owner FCF mejora a 32% por apalancamiento operativo; g terminal 3.0% por foso ancho (FortiOS, ASICs propios, base instalada). El valor terminal pesa ~60% del EV."
+  },
+  "optimista": {
+   "iv_per_share": 111.87,
+   "prob": 0.15,
+   "note": "Ejecucion perfecta: 16% CAGR anios 1-5 (SASE/SecOps/OT y cross-sell aceleran) declinando a 6%; margen owner FCF 34%; g terminal 3.5%. Aun asi queda por debajo del precio actual."
+  }
+ },
+ "sanity_check": "VI ponderada por probabilidad = ~$82/accion vs precio $145.39, implicando ~-44% (sobrevalorada). Incluso el escenario optimista (~$112) queda por debajo del precio actual, consistente con el consenso analista 'Hold' y PT promedio ~$112-114 (~-22% segun datos FASE 2). FTNT NO esta deprimida: cotiza ~-3% del maximo historico (~$150) tras subir ~+45% en 12 meses y ~+70% post-beat Q1 2026. Valoracion exigente: fwd P/E 46.6x vs media 5a ~38x (prima ~+23%), PEG 3.5x. Rendimiento total al accionista (contraste, no DDM): no paga dividendo; el retorno al accionista es via recompras financiadas con el FCF. Owner FCF yield = $1,929.7M / market cap $106.52B = ~1.8%, muy bajo, lo que confirma que el mercado descuenta crecimiento elevado y sostenido. Net cash de ~$2.93B (ND/EBITDA -1.1x) da soporte de balance pero no cierra la brecha de valoracion.",
+ "method_notes": "DCF de owner earnings a 10 anios en dos fases. Base owner FCF = FCF reportado FY2025 $2,211.8M menos 100% SBC $282.1M = $1,929.7M (margen 28.4%). Fase 1 (anios 1-5): CAGR de ingresos explicito por escenario con margen owner FCF rampando hacia el objetivo estabilizado para el anio 5. Fase 2 (anios 6-10): CAGR declinando linealmente hacia normalizacion; margen mantenido. Valor terminal por Gordon Growth con g=2.5% (conservador) / 3.0% (base) / 3.5% (optimista) reflejando un foso ancho (FortiOS integrado, ASICs SPU propios que dan ventaja de costo/rendimiento, base instalada y cross-sell SASE/SecOps). Descuento al WACC 9.8% = Rf 4.3% (UST 10Y) + ERP 5.0% x beta 1.10 (beta sector ciberseguridad/software de red); sin ajuste geopolitico (empresa estadounidense). EV -> equity sumando net cash $2.93B; VI/accion = equity / 0.733B acciones diluidas (market cap $106.52B / precio $145.39). El valor terminal representa ~60% del EV en el caso base, sensibilidad alta a g y WACC. Todos los inputs (precio, FCF, SBC, deuda neta, crecimiento, guidance) provienen del archivo verificado FASE 2; no se requirio busqueda web. Moneda: USD."
+}

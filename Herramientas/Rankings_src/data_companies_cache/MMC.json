@@ -1,0 +1,114 @@
+{
+ "ticker": "MMC",
+ "name": "Marsh & McLennan Companies, Inc.",
+ "asof_date": "2026-06-22",
+ "currency": "USD",
+ "price": 160.12,
+ "market_cap_usd_b": 77.35,
+ "fwd_pe": 15.03,
+ "fwd_pe_5y_avg": 21,
+ "pe_prem_disc_pct": -28.4,
+ "peg": null,
+ "last_q": {
+  "period": "Q1 2026 (3 meses terminados 31-mar-2026)",
+  "revenue": "$7,597M",
+  "rev_yoy_pct": 8,
+  "op_margin_pct": 23.1,
+  "eps_gaap": "$2.36",
+  "eps_adj": "$3.29"
+ },
+ "last_fy": {
+  "period": "FY2025 (terminado 31-dic-2025)",
+  "revenue": "$27.0B",
+  "organic_growth_pct": 4,
+  "roic_pct": null,
+  "fcf": "$5,001M",
+  "fcf_margin_pct": 18.5
+ },
+ "sbc_pct_revenue": 1.46,
+ "sbc_pct_fcf": 7.9,
+ "net_debt_usd_b": 18.76,
+ "nd_ebitda": 2.3,
+ "net_cash": false,
+ "guidance_fy": "FY2026 (PROYECCION de la direccion): crecimiento subyacente de ingresos similar a 2025 (~4%), expansion continua de margen (ponderada a 2S), y crecimiento \"solido\" del BPA ajustado. La compania no da guia numerica precisa. Base FY2025: BPA ajustado $9.75 (+9%).",
+ "pct_off_52w_high": -27.3,
+ "pct_off_ath": -33.9,
+ "drop_classification": "fear_rotation",
+ "data_quality": "MIXED",
+ "incomplete": false,
+ "verified_fields": [
+  "last_q.revenue",
+  "last_q.rev_yoy_pct",
+  "last_q.op_margin_pct",
+  "last_q.eps_gaap",
+  "last_q.eps_adj",
+  "last_fy.revenue",
+  "last_fy.organic_growth_pct",
+  "guidance_fy"
+ ],
+ "estimated_fields": [
+  "price",
+  "market_cap_usd_b",
+  "fwd_pe",
+  "fwd_pe_5y_avg",
+  "pe_prem_disc_pct",
+  "peg",
+  "last_fy.fcf",
+  "last_fy.fcf_margin_pct",
+  "last_fy.roic_pct",
+  "sbc_pct_revenue",
+  "sbc_pct_fcf",
+  "net_debt_usd_b",
+  "nd_ebitda",
+  "pct_off_52w_high",
+  "pct_off_ath"
+ ],
+ "sources": [
+  {
+   "label": "Marsh McLennan Q1 2026 8-K news release (resultados oficiales via StockTitan)",
+   "url": "https://www.stocktitan.net/sec-filings/MMC/8-k-marsh-mclennan-companies-inc-reports-material-event-12514f3481f3.html",
+   "date": "2026-04-16"
+  },
+  {
+   "label": "SEC EDGAR - MMC Q1 2026 8-K (mmc1q2026ex991newsrelease.htm)",
+   "url": "https://www.sec.gov/Archives/edgar/data/62709/000006270926000096/mmc1q2026ex991newsrelease.htm",
+   "date": "2026-04-16"
+  },
+  {
+   "label": "SEC EDGAR - MMC 4Q/FY2025 8-K news release",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000062709/000006270926000014/mmc4q2025ex991newsrelease.htm",
+   "date": "2026-01-29"
+  },
+  {
+   "label": "SEC EDGAR - MMC 10-K FY2025 (mrsh-20251231)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000062709/000006270926000022/mrsh-20251231.htm",
+   "date": "2026-02-15"
+  },
+  {
+   "label": "StockAnalysis.com - MRSH overview (precio, market cap, fwd P/E, 52w)",
+   "url": "https://stockanalysis.com/stocks/mrsh/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com - MRSH cash flow statement (SBC, OCF, capex, FCF)",
+   "url": "https://stockanalysis.com/stocks/mrsh/financials/cash-flow-statement/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "StockAnalysis.com - MRSH balance sheet (deuda, caja, deuda neta)",
+   "url": "https://stockanalysis.com/stocks/mrsh/financials/balance-sheet/",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "FullRatio / Macrotrends - MMC P/E historico y promedios",
+   "url": "https://fullratio.com/stocks/nyse-mmc/pe-ratio",
+   "date": "2026-06-22"
+  },
+  {
+   "label": "Macrotrends - MMC stock price history (ATH $242.13 03-abr-2025)",
+   "url": "https://www.macrotrends.net/stocks/charts/MMC/marsh-mclennan/stock-price-history",
+   "date": "2026-06-22"
+  }
+ ],
+ "notes": "TICKER: la accion aparece bajo MRSH en varios agregadores (aparente cambio de ticker desde MMC); CIK SEC 0000062709 sin cambios. DATOS VERIFICADOS (SEC/8-K oficial): Q1 2026 ingresos $7,597M (+8% reportado, +4% subyacente), margen operativo GAAP 23.1%, BPA GAAP $2.36, BPA ajustado $3.29 (+8%), ingreso operativo ajustado $2,413M (+8%). El BPA GAAP fue golpeado por un cargo legal de $425M (litigio Greensill) — ONE-OFF, no deterioro operativo. FY2025: ingresos ~$27.0B (+10% reportado, +4% subyacente), ingreso operativo ajustado $7.3B (+11%), 18o anio consecutivo de expansion de margen, BPA ajustado $9.75 (+9%), FCF $5.0B (OCF $5,292M - capex $291M). ESTIMADOS (agregador): precio $160.12 y market cap $77.35B (StockAnalysis al 22-jun-2026); fwd P/E 15.03 (StockAnalysis); SBC FY2025 $394M => 1.46% ingresos y 7.9% FCF (compensacion en acciones MUY baja, tipica de un broker asset-light — favorable para R9); deuda total $21,449M, caja $2,687M => deuda neta ~$18.76B (NO hay caja neta). ND/EBITDA ~2.3x estimado (EBITDA ~$8.1B = op income ajustado $7.3B + D&A ~$0.8B) — apalancamiento moderado, consistente con un compounder de calidad. fwd_pe_5y_avg ~21x es ESTIMADO (el promedio P/E trailing 5a citado de 26.6x esta inflado por GAAP; el fwd historico de MMC ronda 20-22x); prima/descuento ~-28% (cotiza con DESCUENTO notable vs su media). PEG no disponible (null). ROIC FY2025 no extraido del filing (null). CAIDA: -27.3% desde max 52s ($220.32) y -33.9% desde ATH ($242.13, 03-abr-2025). CLASIFICACION fear_rotation: negocio intacto (crecimiento de ingresos +8%, BPA ajustado +8%, FCF $5B, 18 anios de expansion de margen) pero de-rating de ~21x a ~15x fwd; el desplome GAAP es por cargo legal puntual, no por deterioro de fundamentales. Guia FY2026 es PROYECCION cualitativa (sin numeros precisos)."
+}

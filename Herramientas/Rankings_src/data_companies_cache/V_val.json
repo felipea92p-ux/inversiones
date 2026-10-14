@@ -1,0 +1,48 @@
+{
+ "ticker": "V",
+ "name": "Visa Inc.",
+ "currency": "USD",
+ "price_verified": 327.24,
+ "price_source": "StockAnalysis.com / WallStreetZen / Macrotrends, cross-checked (price $326.60-327.24, Jun 22 2026 close ~$326.60; Jun 19 $327.24)",
+ "price_date": "2026-06-22",
+ "shares_diluted_b": 1.92,
+ "implied_mcap_b_usd": 628,
+ "mcap_sanity_ok": true,
+ "structural_change": "No structural deterioration; if anything fundamentals are accelerating (Q2 FY26 net revenue +17% YoY, fastest ex-pandemic/Visa Europe since 2013; FY26 guidance RAISED to low-double-digit/low-teens revenue and low-teens adj EPS). Real but manageable overhangs: DOJ debit-antitrust suit, interchange/merchant litigation settlements, and longer-term A2A / stablecoin disruption risk. These justify a modest haircut to the 5y-avg multiple rather than a structural re-rate down. Network economics (duopoly, ~60% GAAP op margin, ~54% FCF margin, asset-light, ND/EBITDA ~0.2x) intact.",
+ "owner_fcf_base": "FY2025 reported FCF $21.6B (OCF $23.1B - capex $1.5B) minus 100% SBC/EIP $0.861B = owner FCF ~$20.74B. Grown to FY2026 base ~$23.0B (revenue/FCF +~12-13%, FCF margin ~54%, SBC ~$0.95B netted). DCF year-0 owner FCF = $23.0B.",
+ "wacc_pct": 9,
+ "wacc_components": {
+  "rf_pct": 4.3,
+  "erp_pct": 5,
+  "beta": 0.95,
+  "geo_adj_pct": 0
+ },
+ "dcf_scenarios": {
+  "conservador": {
+   "iv_per_share": 286.4,
+   "prob": 0.38,
+   "note": "Owner FCF growth Phase1 (yr1-5) 9% CAGR, Phase2 (yr6-10) declining to ~5%, terminal g 3.0%, WACC 9.0%. Pessimistic-but-not-apocalyptic: regulatory pressure compresses interchange take-rate and A2A/real-time-payments erode growth to high-single digits, but franchise endures. Net of $5.2B net debt."
+  },
+  "base": {
+   "iv_per_share": 339.14,
+   "prob": 0.47,
+   "note": "Phase1 12% CAGR (consistent with raised guidance), Phase2 declining to 7%, terminal g 3.0%, WACC 9.0%. Continued cross-border + processed-transaction growth, steady margins. Net of net debt."
+  },
+  "optimista": {
+   "iv_per_share": 417.75,
+   "prob": 0.15,
+   "note": "Phase1 14.5% CAGR, Phase2 declining to 9%, terminal g 3.5%, WACC 9.0%. New-flows (B2B, Visa Direct, value-added services) and tokenization extend the runway; emerging-market cash displacement accelerates. Net of net debt."
+  }
+ },
+ "iv_dcf_weighted": 330.89,
+ "multiple_metric": "Forward adjusted P/E (on FY2026 non-GAAP/adjusted EPS)",
+ "fwd_multiple_now": 22,
+ "fwd_multiple_5y_avg": 28.5,
+ "fair_multiple": 26,
+ "multiple_rationale": "Visa currently trades at ~22x forward adj EPS vs a 5-year average of 28.5x (a ~23% discount) despite ACCELERATING fundamentals. A pure-DCF undervalues a duopoly compounder reinvesting at very high ROIC. I anchor fair_multiple to the 5y-avg 28.5x but apply a deliberate haircut to 26x for genuine (not yet structural) overhangs: DOJ debit-antitrust litigation, merchant interchange settlements, and a multi-year A2A/stablecoin disruption tail. Applied to FY2026 adj EPS of ~$12.96 (FY25 non-GAAP $11.47 x ~13% low-teens guidance) -> iv_multiple ~$337, internally consistent with the DCF horizon (avoids double-counting the optimism embedded in the higher consensus NTM EPS implied by the 22x).",
+ "iv_multiple": 336.99,
+ "weight_dcf": 0.35,
+ "weight_multiple": 0.65,
+ "reconciled_iv": 334.85,
+ "sanity_notes": "Price re-verified $326.60-327.24 across StockAnalysis, WallStreetZen, Macrotrends (Jun 22 2026); used $327.24. SHARE COUNT NUANCE: Class A float reported ~1.79-1.88B by aggregators, but full economic/diluted Class A-equivalent (incl. converted Class B/C) used for diluted EPS is ~1.92B per Q2 FY26 release — I use 1.92B for valuation. implied_mcap = 327.24 x 1.92 = ~$628B, consistent with the known ~$600-630B scale (mcap_sanity_ok=true). IV per share ($335) sits at ~102% of price — well inside the 30-300% magnitude guardrail, so no units/currency/share error. DCF weighted IV $330.89 and multiple IV $336.99 corroborate each other tightly. Reconciled IV $334.85 implies only ~+2-3% upside vs $327 -> Visa is high-quality but roughly FAIRLY VALUED here, not a bargain; the file's 'not_depressed' / -12.9% off ATH classification is confirmed. WACC 9.0% (Rf 4.3% US + ERP 5.0% x beta 0.95). All figures in USD."
+}

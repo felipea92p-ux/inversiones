@@ -1,0 +1,59 @@
+{
+ "ticker": "AAPL",
+ "name": "Apple Inc.",
+ "moat_type": "Marca + ecosistema/costes de cambio + intangibles",
+ "moat_one_line": "Marca aspiracional global combinada con un ecosistema integrado hardware-software-servicios que genera costes de cambio altos y pricing power excepcional.",
+ "amplification": true,
+ "amplification_note": "R1+R3+R4 se refuerzan de forma monstruosa: la marca #1 mundial (R4) sostiene liderazgo dominante en premium smartphones/wearables (R3), y el ecosistema cada vez mas inclinado a Servicios de alto margen (Q2 FY26 Services record $30.98B) escala los margenes con la base instalada de ~2.3B dispositivos (R1), creando un circulo virtuoso instalado-base -> servicios -> retencion practicamente irreplicable en decadas.",
+ "sbc_flag": "ok",
+ "ethical_flag": "none",
+ "thesis_3lines": [
+  "Calidad excepcional: ROIC ~55%, FCF $98.8B (margen 23.7%), FCF/NI ~88%, caja neta $61.9B y la marca de consumo mas valiosa del mundo con costes de cambio reales.",
+  "Motor de crecimiento: Servicios de alto margen creciendo a doble digito sobre ~2.3B dispositivos activos, con reaceleracion del hardware (Q2 FY26 ingresos +17% por iPhone 17 y recuperacion en China).",
+  "Valoracion/retorno: fwd P/E 32.6x (~+14% sobre media 5a, PEG 2.84) cerca de maximos historicos -- calidad indiscutible pero precio exigente que limita el margen de seguridad."
+ ],
+ "bear_case_strongest": "El crecimiento organico estructural sigue siendo modesto (FY2025 solo +6%) y dependiente del ciclo de reemplazo del iPhone (~50% de ingresos), con riesgo regulatorio sobre los ~$20B+ anuales que Google paga por ser buscador por defecto y exposicion a China/aranceles -- todo ello pagando 32.6x forward cerca de maximos, sin descuento alguno.",
+ "notes": "data_quality=MIXED: fundamentales (revenue/FCF/SBC/margenes) verificados desde 10-K FY2025 As-Filed; valoracion/mercado (price, fwd PE, PEG, net debt, 52w high) de agregadores reputados. SBC verificada = 13% del FCF (<15%) -> regla dura NO se activa, R9 no penalizado por SBC. ROIC ~55% es estimacion (no figura filada) pero consistente con perfil historico. fwd_pe_5y_avg ~28.5 estimado. Score total: 18.0/13.5 brutos antes de techo -> CAP a 13.5. not_depressed (~6.4% bajo ATH $317.40).",
+ "rules": {
+  "R1": {
+   "score": 1.5,
+   "just": "Modelo se escala: Servicios de alto margen (record $30.98B en Q2 FY26) crecen sobre la base instalada ~2.3B dispositivos elevando margen operativo a ~32%, pero el grueso sigue siendo hardware no software puro, no llega a 2.0."
+  },
+  "R2": {
+   "score": 1,
+   "just": "Smartphones/wearables/servicios digitales tienen crecimiento secular moderado pero el mercado de hardware premium esta maduro; el viento de cola secular real esta en Servicios, no en la categoria entera."
+  },
+  "R3": {
+   "score": 2,
+   "just": "Lider #1 indiscutible en smartphones premium, wearables y captura ~80% del profit pool de la industria global, dejando a la competencia a anios-luz en rentabilidad y marca."
+  },
+  "R4": {
+   "score": 2,
+   "just": "Moat irreplicable en decadas: la marca de consumo mas valiosa del mundo + ecosistema integrado hw/sw/servicios con costes de cambio reales sobre 2.3B dispositivos activos."
+  },
+  "R5": {
+   "score": 1.5,
+   "just": "Crecimiento 100% organico sin M&A material; FY2025 organico solo +6% pero Q2 FY26 reacelera a +17%, sin distorsion por adquisiciones."
+  },
+  "R6": {
+   "score": 1.5,
+   "just": "Multi-geografia (Americas/Europa/China/resto) y sin cliente >10-15%, pero alta concentracion de producto en iPhone (~50% de ingresos) limita el 2.0."
+  },
+  "R7": {
+   "score": 2,
+   "just": "ROIC ~55% muy superior al WACC, FCF $98.8B con margen 23.7%, FCF/NI ~88% y capex ligero ($12.7B) -- generacion de caja de clase mundial."
+  },
+  "R8": {
+   "score": 2,
+   "just": "Balance fortaleza: caja neta $61.9B, ND/EBITDA -0.43x (negativo), firmemente net cash sin riesgo financiero alguno."
+  },
+  "R9": {
+   "score": 1,
+   "just": "Contabilidad limpia y conservadora (Apple reporta solo GAAP, sin EPS ajustado inflado); SBC verificada 13% del FCF (<15%) no activa la regla dura, pero no merece 1.5 por ausencia de senales de excelencia contable extraordinaria."
+  },
+  "R10": {
+   "score": 1.5,
+   "just": "Asignacion de capital ejemplar via buybacks masivos oportunistas (reducen base de equity, elevan ROE/EPS) y dividendos, evitando M&A destructora; skin-in-the-game directivo modesto rebaja el 2.0."
+  }
+ }
+}
