@@ -89,13 +89,15 @@ ul.clean{list-style:none;padding:0;margin:0 0 1.1rem}
 ul.clean li{padding:.3rem 0 .3rem 1.1rem;position:relative}
 ul.clean li::before{content:"";position:absolute;left:0;top:.95em;width:.45rem;height:.45rem;border-radius:50%;background:var(--clay)}
 .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
-@media (max-width:700px){.fig .scroll.sc::after{content:'Desliza para ver el resto →';display:block;font:500 .72rem var(--sans);color:var(--muted);text-align:right;position:sticky;left:0;padding-top:.2rem}}
+@media (max-width:700px){.fig .scroll.sc::after,.scroll:has(>table.wide)::after{content:'Desliza para ver el resto →';display:block;font:500 .72rem var(--sans);color:var(--muted);text-align:right;position:sticky;left:0;padding-top:.2rem}
+.fig .scroll.sc.en::after{content:'← Desliza para ver el resto';text-align:left}}
 table{border-collapse:collapse;width:100%;font:400 .86rem/1.5 var(--sans)}
 th{font:600 .72rem var(--sans);text-align:left;color:var(--muted);border-bottom:1px solid var(--line2);padding:.5rem .6rem;background:var(--paper);white-space:nowrap}
 td{padding:.55rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
 td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 .scroll+.small,.scroll+p{margin-top:.8rem}
-.scroll>table:not(.heat){min-width:30rem}
+.scroll>table.wide{min-width:30rem}
+.scroll>table:not(.heat) td.n{white-space:normal}
 table.tight td,table.tight th{padding:.4rem .5rem}
 /* figuras */
 .fig{margin:2rem auto}
@@ -114,7 +116,7 @@ svg text{font-family:var(--sans);fill:var(--ink2);font-size:11px}
 .widget>.sub{font:400 .86rem/1.5 var(--sans);color:var(--ink2);margin:0 0 1rem}
 .ctrls{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:.9rem 1.4rem;margin:.8rem 0 1.1rem}
 .ctrl label{display:flex;justify-content:space-between;gap:.5rem;font:500 .78rem var(--sans);color:var(--ink2)}
-.ctrl label output{font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums}
+.ctrl label output{white-space:nowrap;font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums}
 input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:30px;background:transparent;cursor:pointer;margin:0}
 input[type=range]::-webkit-slider-runnable-track{height:5px;border-radius:5px;background:var(--line2)}
 input[type=range]::-moz-range-track{height:5px;border-radius:5px;background:var(--line2)}
@@ -187,7 +189,7 @@ footer{margin-top:4rem;padding:2rem 0 3rem;border-top:1px solid var(--line)}
 <section class="hero wide sec first" id="inicio">
   <p class="kick">Ultra Tesis de Oracle (NYSE: ORCL), método de doce pasos de la casa. Escrita el 14 y 15 de octubre de 2026. No hay puntaje ni ranking. Precio y posición vienen de IBKR en vivo.</p>
   <h1>Oracle sigue vendiendo software, pero lo que justifica su capex y su deuda es otro negocio: construir capacidad de IA. Con deuda.</h1>
-  <p class="lead col" style="margin-inline:0">Un negocio cautivo y rentable que paga los intereses, y otro, alquilar capacidad de IA, que creció 121% en el último trimestre (77% en FY26), se financia con deuda, acciones y los prepagos de pocos clientes, y rinde como mucho su coste de capital. A 130 USD el precio es el 73% del valor de la guía cumplida: exige que el escenario alcista pese al menos 55%, y la tesis deja 35% a la cola.</p>
+  <p class="lead col" style="margin-inline:0">Un negocio cautivo y rentable que paga los intereses, y otro, alquilar capacidad de IA, que creció 121% en el último trimestre (77% en FY26), se financia con deuda, acciones y los prepagos de pocos clientes, y el capital nuevo del grupo ha rendido como mucho su coste (ROIC incremental ≤10,5% frente a un WACC de 10,26%). A 130 USD el precio es el 73% del valor de la guía cumplida: exige que el escenario alcista pese al menos 55%, y la tesis deja 35% a la cola.</p>
   <div class="verdict">
     <span class="state" id="vstate">Candado A ejecutado · v2 · pendientes tu cruce 10c y tu confirmación de la excepción (fila 23)</span>
     <p class="vs">Veredicto del método</p>
@@ -195,7 +197,7 @@ footer{margin-top:4rem;padding:2rem 0 3rem;border-top:1px solid var(--line)}
     <p class="vt" id="vtext">El valor es ≈75 USD (sin SBC y con anulación optimista), con banda de 71 a 86 y ruido de ±26. El precio es entre 1,4 y 3,8 veces ese valor, según la elección documentada que se use. El primer tramo (52–63 USD con el margen de seguridad de 27%) nunca fue precio de cierre en 24 meses, cuyo mínimo es 114,99, y ningún margen de seguridad entre 0% y 35% lo cambia. El caso de compra queda archivado 12 meses y la compra nueva es 0% del NAV. Mi recomendación para tus 9 acciones (0,86%) es salir del lote. El método no permite vender por precio, así que la decisión es tuya y está en el Paso 11. Si no confirmas la excepción a la fila 23 con tus palabras, este documento es un borrador sin veredicto.</p>
   </div>
   <div class="kpis">
-    <div class="kpi"><div class="k">Cierre 14-oct</div><div class="v">130,55</div><div class="d">−58% desde el máximo de cierre (313,00)</div></div>
+    <div class="kpi"><div class="k">Cierre 14-oct</div><div class="v">130,55</div><div class="d">−58% desde el máximo de cierre de 52 semanas (313,00); −60% desde el de 24 meses (328,33)</div></div>
     <div class="kpi info"><div class="k">Valor ponderado</div><div class="v">≈75</div><div class="d">banda 71–86 (WACC 9,7–10,4%) · σ ≈26 · sin SBC, con anulación optimista (≈51–60 con pesos de tasa base) · precio / valor ≈1,8×</div></div>
     <div class="kpi warn"><div class="k">Asimetría a 130,55</div><div class="v" style="font-size:1.2rem">+37% / −44% / −100%</div><div class="d">alcista (+5% si el retorno marginal terminal = WACC) / base / bajista y colapso; ponderado −44%</div></div>
     <div class="kpi warn"><div class="k">Alcanzabilidad</div><div class="v">Falla</div><div class="d">primer tramo ≤86 con margen de seguridad 0–35% (52–63 con 27%) frente a mínimo 114,99</div></div>
@@ -253,7 +255,7 @@ footer{margin-top:4rem;padding:2rem 0 3rem;border-top:1px solid var(--line)}
   <p class="small" style="margin-top:1rem">Contexto obligatorio (no gate): deuda neta/EBITDA 3,27× (FY26) → 2,60× (LTM); con arrendamientos y EBITDAR consistente, 4,15× → 3,54×. El LTM (2,60×) ya está dentro del umbral de vigilancia de la casa (2,5–3,0×). Propósito de la deuda: capex de crecimiento, dividendos y preferentes. <span class="tg h">HECHO</span> <span class="tg i">INFERENCIA</span></p></div>
   <div class="wide">
     <div class="fig"><h4>El retorno sobre el capital cayó de 28,7% (FY21, serie degradada) a 13,0% (FY26), y está entre 10,8% y 13,5% en el último año</h4><p class="sub">ROIC sobre capital total con fondo de comercio dentro (NOPAT al 20%). El TTM es un rango (10,8–13,5%) porque depende de cómo se promedie el capital, de si los prepagos cuentan como deuda y de si los arrendamientos operativos entran. La banda azul es el WACC de mercado (9,7–10,4%); las líneas rojas, el WACC si el mercado cobra la beta de 36 meses.</p>
-      <div id="figRoic"></div><p class="src">Fuente: cálculo propio sobre 10-K FY25 y FY26 y 10-Q 1T FY27 (corpus local); FY17–FY24 solo vía XBRL consolidado, de procedencia no re-verificable. Serie FY17–FY23: DEGRADADA. WACC en el Paso 9. <span class="tg i">INFERENCIA</span> <span class="tg x">DEGRADADO</span></p></div>
+      <div id="figRoic"></div><p class="src">Fuente: cálculo propio sobre 10-K FY25 y FY26 y 10-Q 1T FY27 (corpus local); FY17–FY24 solo vía XBRL consolidado, de procedencia no re-verificable. Serie FY17–FY23: DEGRADADA. FY22 (19,0%) incluye un cargo de litigio de 4.700 M; sin él ≈27,2% (R1 §d.2, INFERENCIA). WACC en el Paso 9. <span class="tg i">INFERENCIA</span> <span class="tg x">DEGRADADO</span></p></div>
   </div>
 </section>
 
@@ -281,7 +283,7 @@ footer{margin-top:4rem;padding:2rem 0 3rem;border-top:1px solid var(--line)}
   <div class="sn">Paso 4 · tres fuentes, dos horas</div>
   <h2>Quién se parece a Oracle y quién no</h2>
   <p>Oracle está entre los hiperescaladores y CoreWeave en capex, FCF y apalancamiento. Su concentración de clientes no está cuantificada: el RPO no se desglosa y el ≈45% atribuido a un cliente es prensa (DEGRADADO).</p>
-  <div class="scroll"><table class="tight">
+  <div class="scroll"><table class="tight wide">
     <thead><tr><th>Métrica</th><th class="n">ORCL</th><th class="n">CoreWeave</th><th class="n">Microsoft</th><th class="n">Alphabet</th><th class="n">Amazon</th></tr></thead>
     <tbody>
     <tr><td>Capex / ingresos</td><td class="n"><b>83%</b> (147% en 1T)</td><td class="n">201–303%</td><td class="n">35%</td><td class="n">38%</td><td class="n">22%</td></tr>
@@ -364,12 +366,12 @@ footer{margin-top:4rem;padding:2rem 0 3rem;border-top:1px solid var(--line)}
     <div class="m"><div class="t">M1 · La contraparte dominante no convierte el contrato en caja</div><p>RPO a la baja secuencial sin atribución; diferidos −20%; provisión ≥1.100 M; renegociación de un contrato ≥10 B. Ventana: 8-K de diciembre de 2026.</p></div>
     <div class="m"><div class="t">M2 · El capex no se convierte en ingreso a tiempo</div><p>OCI FY27 &lt;30 B o dos trimestres &lt;60% interanual; margen del segmento &lt;50%; construcción en curso ≥35% del PP&E neto en el 10-K FY27 (ya es 38% en base neta).</p></div>
     <div class="m"><div class="t">M3 · El coste del capital se cierra</div><p>Emisión a 10 años ≥7,5%; rebaja a BBB-/Baa3 negativa por dos agencias; nuevo ATM ≥15 B antes de mayo de 2027; recorte o suspensión del dividendo; deuda por debajo del 80% del par (hoy 84,6% del importe en libros, 84,2% del nominal).</p></div>
-    <div class="m"><div class="t">M4 · La GPU dura menos que los 6 años contables</div><p>Cambio de vida útil; deterioro ≥1 B; depreciación creciendo más de 1,5× los ingresos OCI. Ventana: 10-K FY27 y FY28. Oracle ya alargó la vida útil dos veces (4→5 años en FY23 y 5→6 en FY25, +573 M de beneficio neto).</p></div>
+    <div class="m"><div class="t">M4 · La GPU dura menos que los 6 años contables</div><p>Cambio de vida útil; deterioro ≥1 B; depreciación creciendo más de 1,5× los ingresos OCI. Ventana: 10-K FY27 y FY28. Oracle ya alargó la vida útil dos veces (4→5 años en FY23: −434 M de gasto; 5→6 años en FY25: −733 M de gasto y +573 M de beneficio neto; 10-K FY25, Nota 1).</p></div>
     <div class="m"><div class="t">M5 · La anualidad que paga el interés se erosiona</div><p>Soporte ≤−3% cc dos trimestres, o ≤−1% tres trimestres sin cifra de migración; SaaS &lt;+7%.</p></div>
     <div class="m"><div class="t">Gobierno y legal (amplifican, no bastan solos)</div><p>G1 pignoración de Ellison ≥450 M de acciones o venta ≥10 M; G2 cambio de métricas de retribución en la DEF 14A 2027 o say-on-pay &lt;75%; G3 denegación de la moción de desestimación o provisión ≥500 M.</p></div>
   </div>
   <div class="col">
-    <div class="callout"><h4>Falsador del caso bajista (tres de cuatro, con fecha)</h4><p><strong>Sellado:</strong> OCI FY27 ≥36 B con margen ≥55% sostenido · FCF positivo en un trimestre de FY28 <strong>sin</strong> prepagos financieros · rating estable y emisión a 10 años ≤UST + 150 pb · un segundo y tercer cliente de IA nombrados con ≥10% del RPO cada uno. Si ocurren, el expediente se reabre hacia arriba.</p><p class="small"><strong>Falsador revisado</strong> (addendum del 15-oct; el sello no se toca), tres de cuatro: F1 OCI de FY27 ≥36 B con margen del segmento ≥55% sostenido (8-K/10-K del 4T FY27); F2 FCF positivo en un trimestre de FY29 o FY30 sin prepagos con componente financiero; F3 rating estable o al alza por las tres agencias y emisión a 10 años ≤UST + 150 pb (primera emisión de 2027); F4 RPO ≥700 B con la nota de modificaciones sin cancelaciones, o un segundo cliente nombrado con ≥10% del RPO. Por qué se corrigió: el punto 2 sellado no lo cumple ni el escenario alcista (FCF −40 B en FY28), el punto 4 sellado es inobservable y la revisión anticipada por el 8-K de diciembre era imposible. Revisión anticipada: el 10-K FY27 cumple F1, F3 y F4 (F2 aún no es evaluable), un cierre ≤63 USD sin que el alcista se haya materializado, o un cierre ≤114,99 (revisión, no compra).</p></div>
+    <div class="callout"><h4>Falsador del caso bajista (tres de cuatro, con fecha)</h4><p><strong>Sellado:</strong> OCI FY27 ≥36 B con margen ≥55% sostenido · FCF positivo en un trimestre de FY28 <strong>sin</strong> prepagos financieros · rating estable o al alza y emisión a 10 años ≤UST + 150 pb · un segundo y tercer cliente de IA nombrados con ≥10% del RPO cada uno. Si ocurren, el expediente se reabre hacia arriba.</p><p class="small"><strong>Falsador revisado</strong> (addendum del 15-oct; el sello no se toca), tres de cuatro: F1 OCI de FY27 ≥36 B con margen del segmento ≥55% sostenido (8-K/10-K del 4T FY27); F2 FCF positivo en un trimestre de FY29 o FY30 sin prepagos con componente financiero; F3 rating estable o al alza por las tres agencias y emisión a 10 años ≤UST + 150 pb (primera emisión de 2027); F4 RPO ≥700 B con la nota de modificaciones sin cancelaciones, o un segundo cliente nombrado con ≥10% del RPO. Por qué se corrigió: el punto 2 sellado no lo cumple ni el escenario alcista (FCF −40 B en FY28), el punto 4 sellado es inobservable y la revisión anticipada por el 8-K de diciembre era imposible. Revisión anticipada: el 10-K FY27 cumple F1, F3 y F4 (F2 aún no es evaluable), un cierre ≤63 USD sin que el alcista se haya materializado, o un cierre ≤114,99 (revisión, no compra).</p></div>
     <h3>Calendario de lecturas</h3>
     <ul class="cal">
       <li><b>≈10-dic-2026 · 8-K y 10-Q del 2T FY27</b>M1, M2, M3 (ATM), M5. Fecha secundaria: la empresa anuncia con ≈8 días.</li>
@@ -434,11 +436,11 @@ footer{margin-top:4rem;padding:2rem 0 3rem;border-top:1px solid var(--line)}
   </div>
 
   <div class="widget" id="w2">
-    <h3>¿Qué tienes que creer para que 130 sea justo?</h3>
+    <h3>¿Qué tienes que creer para que 130,55 sea justo?</h3>
     <p class="sub">Con la tasa del simulador, ¿qué probabilidad de alcista exige el precio según cuánta cola dejas? La cola es la suma de colapso y bajista, donde el equity vale cero.</p>
     <div class="ctrls">
       <div class="ctrl"><label for="s_tail">Probabilidad de cola (colapso + bajista) <output id="o_tail"></output></label><input type="range" id="s_tail" min="0" max="60" step="1" value="35"></div>
-      <div class="ctrl"><label for="s_px">Precio de entrada <output id="o_px"></output></label><input type="range" id="s_px" min="40" max="220" step="1" value="130"></div>
+      <div class="ctrl"><label for="s_px">Precio de entrada <output id="o_px"></output></label><input type="range" id="s_px" min="40" max="220" step="0.05" value="130.55"></div>
     </div>
     <div class="out" id="out2"></div>
     <div class="res" id="res2" aria-live="off"></div>
@@ -486,7 +488,7 @@ footer{margin-top:4rem;padding:2rem 0 3rem;border-top:1px solid var(--line)}
 <section class="sec" id="paso10">
   <div class="col"><div class="sn">Paso 10 · Candado A · agentes en contexto limpio</div>
   <h2>El examinador que no comparte el entusiasmo de la sesión</h2>
-  <p>Seis revisores y un panel de cinco jueces leyeron la tesis sin el historial de esta sesión y sin ver los informes de los demás. El panel derivó el veredicto desde las reglas: <strong>los cinco emiten «NO, por precio»</strong>, y los cinco leen las reglas como «mantener sin añadir» para tus 9 acciones (con tu firma y un falsador escrito antes del dato), mientras el diablo y el ángel apuntan a salir. Todos coinciden en la dirección: <strong>«no comprar a este precio» sobrevive</strong>. Lo que no sobrevivió, y se reescribió, es una parte de las cifras y la recomendación sobre tus 9 acciones.</p></div>
+  <p>Seis revisores y un panel de cinco jueces leyeron la tesis sin el historial de esta sesión y sin ver los informes de los demás. El panel derivó el veredicto desde las reglas: <strong>los cinco emiten «NO, por precio»</strong>, y los cinco leen las reglas como «mantener sin añadir» para tus 9 acciones (el juez de posición añade que solo es defendible con tu firma y un falsador de puerta 1 escrito antes del dato), mientras el diablo y el ángel apuntan a salir. Todos coinciden en la dirección: <strong>«no comprar a este precio» sobrevive</strong>. Lo que no sobrevivió, y se reescribió, es una parte de las cifras y la recomendación sobre tus 9 acciones.</p></div>
   <div class="wide"><div class="scroll"><table class="tight">
     <thead><tr><th>Revisor</th><th>Qué concluyó</th></tr></thead>
     <tbody>
@@ -543,7 +545,7 @@ footer{margin-top:4rem;padding:2rem 0 3rem;border-top:1px solid var(--line)}
       <tr><td>Coste esperado frente a la otra rama</td><td class="n">≈490 USD (≈315 con alcista 40%)</td><td class="n">≈114 USD (0,085% del NAV)</td></tr>
       </tbody></table></div>
     <p class="small">Mantener solo se justifica con una probabilidad de alcista ≥55%. La diferencia esperada entre ambas ramas es ≈0,4% del NAV: la decisión es barata; la señal de proceso no. <span class="tg i">INFERENCIA</span></p>
-    <div class="callout"><h4>Recomendación, sin limbo</h4><p><strong>Salir del lote</strong> (≈1.153 USD; pérdida latente ≈17 USD) en la próxima sesión regular, con orden límite, y registrar el mismo día en el diario que la compra fue un proceso fallido. El método no autoriza vender <em>por precio</em>; la vía formal es la puerta 1, si respondes no a J5 sobre OCI, o una decisión firmada tuya. <strong>Rama alternativa, mantener firmado:</strong> solo como opción de información de coste acotado, escrita por ti, con salida por <em>un</em> factor (no dos) y el falsable duro del 2T FY27 como disparador. Si no decides antes del 20-nov, el default de las reglas es mantener sin añadir. No ejecuto nada en IBKR.</p></div>
+    <div class="callout"><h4>Recomendación, sin limbo</h4><p><strong>Salir del lote</strong> (≈1.153 USD; pérdida latente ≈17 USD) en la próxima sesión regular, con orden límite, y registrar el mismo día en el diario que la compra fue un proceso fallido. El método no autoriza vender <em>por precio</em>; la puerta 1 solo abriría si decides que J5 = NO equivale a «tesis rota» (el texto de la puerta no lo prevé, y gates.md prescribe recortar a tamaño de vigilancia si la calidad sigue intacta), o hace falta una decisión firmada tuya. <strong>Rama alternativa, mantener firmado:</strong> solo como opción de información de coste acotado, escrita por ti, con salida por <em>un</em> factor (no dos) y el falsable duro del 2T FY27 como disparador. Si no decides antes del 20-nov, el default de las reglas es mantener sin añadir. No ejecuto nada en IBKR.</p></div>
     <h3>La cartera en conjunto (IBKR, 15-oct)</h3>
   </div>
   <div class="wide"><div class="fig"><div id="figPort"></div><p class="src">Fuente: IBKR, posiciones y NAV de 134.096,74 USD. La cadena de IA ancha (TSM + GOOGL + AMZN + MSFT + ORCL) suma 26,9% (26,0% sin ORCL) frente a un tope de 20% que la Recalibración v2 (fila 16) fijó para la cadena de contraparte de IA; en la lectura estricta de cadena OpenAI (MSFT + ORCL) es 3,2%. MELI (vender 4 acciones, orden del 24-ago) y DUOL (recorte a ≈4%) tienen recortes pendientes sin ejecutar. <span class="tg h">HECHO</span> <span class="tg i">INFERENCIA</span></p></div></div>
@@ -568,12 +570,12 @@ footer{margin-top:4rem;padding:2rem 0 3rem;border-top:1px solid var(--line)}
   <div class="wide"><div class="scroll"><table>
     <thead><tr><th>#</th><th>Predicción</th><th>Si ocurre lo contrario</th></tr></thead>
     <tbody>
-    <tr><td>P1</td><td>OCI del 2T FY27 entre <b>8,2 y 9,2 B</b>. Menos de 8,0 B activa M2.</td><td>≥10,0 B: por encima incluso del alcista; revisar el Paso 7.</td></tr>
+    <tr><td>P1</td><td>OCI del 2T FY27 entre <b>8,2 y 9,2 B</b>. Menos de 8,0 B: señal de bajista o colapso (umbral propio de esta tesis, no el M2 sellado).</td><td>≥10,0 B: por encima incluso del alcista; revisar el Paso 7.</td></tr>
     <tr><td>P2</td><td>RPO ≥ <b>664 B</b>, sin renegociación de contratos.</td><td>RPO a la baja secuencial sin atribución: M1 activo.</td></tr>
     <tr><td>P3</td><td>«Net cash outlay» de capex ≥ <b>15 B</b>; FCF negativo; prepagos financieros ≥5 B.</td><td>FCF ≥ 0 sin prepagos financieros: adelanta incluso al alcista; revisar.</td></tr>
     <tr><td>P4</td><td>Acciones ≥ <b>3.024 M</b>; sin nuevo ATM ≥15 B antes de mayo de 2027.</td><td>Nuevo ATM ≥15 B: M3 activo.</td></tr>
     <tr><td>P5</td><td>Soporte ≤ <b>−1% cc</b>, tercer trimestre seguido, sin cifra de migración.</td><td>Soporte ≥ +2% cc: M5 refutado.</td></tr>
-    <tr><td>P6</td><td>«Total Margin %» del segmento Cloud &amp; Software ≤ <b>52,5%</b> (1T FY27: 54,5%). Es el falsable duro del abogado del diablo.</td><td>≥ 54,5%: la caída del margen se detiene.</td></tr>
+    <tr><td>P6</td><td>«Total Margin %» del segmento Cloud &amp; Software ≤ <b>52,5%</b> calculado, ≤52% impreso (la tabla imprime enteros: 1T FY27 55%; calculado, 54,5%). Es el falsable duro del abogado del diablo.</td><td>≥ 54,5% calculado (≥55% impreso): la caída del margen se detiene.</td></tr>
     </tbody></table></div></div>
   <div class="col">
     <h3>Gatillos en tiempo real</h3>
@@ -583,7 +585,7 @@ footer{margin-top:4rem;padding:2rem 0 3rem;border-top:1px solid var(--line)}
       <div class="c"><div class="t">A · Contraparte y ejecución</div><p>OCI &lt; 8,0 B <b>o</b> RPO a la baja secuencial.</p></div>
       <div class="c"><div class="t">B · Anualidad</div><p>Soporte ≤−3% cc en el trimestre <b>o</b> SaaS &lt; +7% cc.</p></div>
       <div class="c"><div class="t">C · Coste de capital</div><p>Emisión a 10 años ≥7,5% <b>o</b> rebaja de dos agencias <b>o</b> ATM/preferente ≥15 B.</p></div>
-      <div class="c"><div class="t">D · Margen del segmento</div><p>P6: «Total Margin %» ≤ 52,5%.</p></div>
+      <div class="c"><div class="t">D · Margen del segmento</div><p>P6: «Total Margin %» ≤ 52,5% calculado (≤52% impreso).</p></div>
     </div>
     <p class="small">Los factores son una extensión propuesta de la puerta 1, sin backtest y pendiente de tu ratificación. Si decides salir del lote, no se aplican. El factor B relaja el M5 sellado de dos trimestres a uno: se declara así.</p>
     <div class="callout"><h4>Gate y diario: solo propuestos</h4><p>La adenda a <code>gates.md</code> y el borrador de diario viven en <code>Tesis/ORCL/propuestas/</code>. Ninguna se aplica sin tu aprobación, y la adenda solo vale si confirmas la excepción a la fila 23. La compra del 14-oct es un <strong>registro tardío</strong>: ejecutada sin tesis y con el candado B4 cerrado; el método exige registro el mismo día y antes de conocer el resultado. Calificación de proceso: fallido.</p></div>
@@ -705,7 +707,7 @@ window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
 /* ---------- utilidades SVG ---------- */
 function svgBox(w,h){ const s=document.createElementNS('http://www.w3.org/2000/svg','svg'); s.setAttribute('viewBox',`0 0 ${w} ${h}`); s.setAttribute('role','img'); return s; }
 function lin(d0,d1,r0,r1){ return v=>r0+(v-d0)*(r1-r0)/(d1-d0); }
-function mount(id,svg,label,opt){ opt=opt||{}; const c=$(id); if(!c) return; svg.setAttribute('aria-label',label||''); if(!opt.fit) svg.style.minWidth='620px'; const w=document.createElement('div'); w.className='scroll'; if(!opt.fit){ w.classList.add('sc'); w.tabIndex=0; w.setAttribute('role','group'); w.setAttribute('aria-label','Gráfico desplazable: '+(label||'')); } w.appendChild(svg); c.replaceChildren(w); if(!opt.fit&&opt.end) requestAnimationFrame(()=>{ w.scrollLeft=w.scrollWidth; }); }
+function mount(id,svg,label,opt){ opt=opt||{}; const c=$(id); if(!c) return; svg.setAttribute('aria-label',label||''); if(!opt.fit) svg.style.minWidth=((svg.viewBox&&svg.viewBox.baseVal&&svg.viewBox.baseVal.width)||620)+'px'; const w=document.createElement('div'); w.className='scroll'; if(!opt.fit){ w.classList.add('sc'); if(opt.end) w.classList.add('en'); w.tabIndex=0; w.setAttribute('role','group'); w.setAttribute('aria-label','Gráfico desplazable: '+(label||'')); } w.appendChild(svg); const _sl=((c.querySelector('.scroll')||{}).scrollLeft)||0; c.replaceChildren(w); if(!opt.fit&&!opt.end) w.scrollLeft=_sl; if(!opt.fit&&opt.end) requestAnimationFrame(()=>{ w.scrollLeft=w.scrollWidth; }); }
 function path(pts){ return pts.map((p,i)=>(i?'L':'M')+p[0].toFixed(1)+' '+p[1].toFixed(1)).join(' '); }
 function yGrid(svg,y,ticks,x0,x1,labelFn){ ticks.forEach(t=>{ svg.appendChild(el('line',{x1:x0,x2:x1,y1:y(t),y2:y(t),class:'gl'})); svg.appendChild(el('text',{x:x0-6,y:y(t)+3.5,'text-anchor':'end',class:'ax'},labelFn?labelFn(t):String(t))); }); }
 
@@ -820,7 +822,7 @@ function yGrid(svg,y,ticks,x0,x1,labelFn){ ticks.forEach(t=>{ svg.appendChild(el
   s.appendChild(el('rect',{x:64,y:y(86),width:672,height:y(71)-y(86),style:'fill:var(--sky-bg)'}));
   s.appendChild(el('text',{x:730,y:y(78.5)+4,'text-anchor':'end',style:'fill:var(--sky-ink);font-weight:600'},'Valor ponderado 71–86'));
   s.appendChild(el('rect',{x:64,y:y(63),width:672,height:y(52)-y(63),style:'fill:var(--clay-bg)'}));
-  s.appendChild(el('text',{x:730,y:y(57.5)+4,'text-anchor':'end',style:'fill:var(--clay-ink);font-weight:600'},'Primer tramo 52–63'));
+  s.appendChild(el('text',{x:730,y:y(57.5)+4,'text-anchor':'end',style:'fill:var(--ink);font-weight:600'},'Primer tramo 52–63'));
   // mínimo 24m
   s.appendChild(el('line',{x1:64,x2:736,y1:y(MIN24),y2:y(MIN24),style:'stroke:var(--ink);stroke-dasharray:6 4;stroke-width:1.3'}));
   s.appendChild(el('text',{x:70,y:y(MIN24)+14,style:'font-weight:600'},'Mínimo de cierre 24 m: '+fmt(MIN24,2)+' · 24-jul-2026'));
@@ -899,13 +901,13 @@ function pathsFig(res){ const W=760,H=340; const s=svgBox(W,H); const x=lin(0,10
   return s; }
 
 function valsFig(res){ const cw=($('figVals').clientWidth||760); const W=Math.max(300,Math.min(760,cw)),H=250; const s=svgBox(W,H); const mx=Math.max(PRECIO*1.15,...Object.values(res.sc).map(o=>o.vps))*1.05; const x=lin(0,mx,100,W-36);
-  const ticks=[0,50,100,150,200,250,300,350].filter(t=>t<=mx); ticks.forEach(t=>{ s.appendChild(el('line',{x1:x(t),x2:x(t),y1:18,y2:200,class:'gl'})); s.appendChild(el('text',{x:x(t),y:216,'text-anchor':'middle',class:'ax'},String(t))); });
+  const step=mx>400?100:50, ticks=[]; for(let tk=0;tk<=mx;tk+=step) ticks.push(tk); ticks.forEach(t=>{ s.appendChild(el('line',{x1:x(t),x2:x(t),y1:18,y2:200,class:'gl'})); s.appendChild(el('text',{x:x(t),y:216,'text-anchor':'middle',class:'ax'},String(t))); });
   const rows=[...Object.keys(NAMES),'pond']; rows.forEach((n,i)=>{ const yy=24+i*34; const isP=n==='pond'; const v=isP?res.pond:res.sc[n].vps; const lab=isP?'Ponderado':NAMES[n];
     s.appendChild(el('text',{x:92,y:yy+17,'text-anchor':'end',style:isP?'font-weight:700':''},lab));
     const pos=Math.max(v,0); s.appendChild(el('rect',{x:x(0),y:yy+2,width:Math.max(0,x(pos)-x(0)),height:22,rx:3,style:`fill:${isP?'var(--ink)':COL[n]}`}));
-    const txt=Math.round(v)<=0?'0':fmt(v,0); s.appendChild(el('text',{x:x(pos)+6,y:yy+18,class:'num',style:'font-weight:600'},txt)); });
+    const txt=Math.round(v)<=0?'0':'≈'+fmt(r5(v),0); s.appendChild(el('text',{x:x(pos)+6,y:yy+18,class:'num',style:'font-weight:600'},txt)); });
   s.appendChild(el('line',{x1:x(PRECIO),x2:x(PRECIO),y1:12,y2:204,style:'stroke:var(--clay);stroke-width:2;stroke-dasharray:5 4'}));
-  s.appendChild(el('text',{x:x(PRECIO)+5,y:12,style:'fill:var(--clay-ink);font-weight:700'},'precio 130,55'));
+  { const lx=x(PRECIO), fl=lx+5+90>W; s.appendChild(el('text',{x:fl?lx-5:lx+5,y:12,'text-anchor':fl?'end':'start',style:'fill:var(--clay-ink);font-weight:700'},'precio 130,55')); }
   return s; }
 
 const r5=(x)=>Math.round(x/5)*5;
@@ -916,25 +918,25 @@ function render(){ const res=compute(); const w=res.w;
   $('out').innerHTML=`<div class="kpi info"><div class="k">Valor ponderado</div><div class="v">≈${fmt(r5(res.pond),0)}</div><div class="d">USD por acción (redondeo a 5)</div></div><div class="kpi ${pv>1.2?'warn':'good'}"><div class="k">Precio / valor</div><div class="v">${isFinite(pv)?fmt(pv,1)+'×':'—'}</div><div class="d">a 130,55</div></div><div class="kpi"><div class="k">Primer tramo (−27%)</div><div class="v">${fmt(tramo,0)}</div><div class="d">USD</div></div><div class="kpi ${pass?'good':'warn'}"><div class="k">Alcanzabilidad</div><div class="v">${pass?'Pasa':'Falla'}</div><div class="d">frente a mínimo ${fmt(MIN24,2)}</div></div>`;
   $('mini').innerHTML=`<span>Valor ponderado <b>≈${fmt(r5(res.pond),0)} USD</b></span><span>Precio / valor <b>${isFinite(pv)?fmt(pv,1)+'×':'—'}</b></span><span>Alcanzabilidad <b>${pass?'Pasa':'Falla'}</b></span>`;
   const r=$('res'); const ret=res.pond/PRECIO-1;
-  r.innerHTML=`Con estos supuestos el valor ponderado es <b class="${ret<0?'bad':'good'}">≈${fmt(r5(res.pond),0)} USD</b> (${ret<0?'':'+'}${pct(ret)} frente al precio). El primer tramo sería ${fmt(tramo,0)} USD y la prueba de alcanzabilidad <b class="${pass?'good':'bad'}">${pass?'pasa':'falla'}</b> (mínimo de cierre de 24 meses: ${fmt(MIN24,2)}).`+(pass?` Para pasar hace falta un valor ponderado ≥ ${fmt(MIN24/0.73,1)} USD (= ${fmt(MIN24,2)} / 0,73): con la tasa de mercado solo se logra con ≥80% de peso alcista o con una tasa ≤7,8%, que el candado B prohíbe. La valoración es informativa: no autoriza compra (B4).`:' La tesis solo emitiría «todavía» si el primer tramo estuviera por encima de ese mínimo.');
+  r.innerHTML=`Con estos supuestos el valor ponderado es <b class="${ret<0?'bad':'good'}">≈${fmt(r5(res.pond),0)} USD</b> (${ret<0?'':'+'}${pct(ret)} frente al precio). El primer tramo sería ${fmt(tramo,0)} USD y la prueba de alcanzabilidad <b class="${pass?'good':'bad'}">${pass?'pasa':'falla'}</b> (mínimo de cierre de 24 meses: ${fmt(MIN24,2)}).`+(pass?` Para pasar hace falta un valor ponderado ≥ ${fmt(MIN24/0.73,1)} USD (= ${fmt(MIN24,2)} / 0,73): con la tasa central (10,26%) solo se logra con ≥80% de peso alcista, con el resto en base (≈60% con 9,7%, ≈85% con 10,4%), o con una tasa ≤7,8%, que el candado B prohíbe. La valoración es informativa: no autoriza compra (B4).`:' La tesis solo emitiría «todavía» si el primer tramo estuviera por encima de ese mínimo.');
   // widget 2
   render2(res); render3();
   $('o_wacc').textContent=fmt(st.wacc*100,2)+'%'; $('o_k').textContent='×'+fmt(st.k,2); $('o_m').textContent=(st.dm>=0?'+':'')+fmt(st.dm,1)+' pp'; $('o_i').textContent=(st.di>=0?'+':'')+fmt(st.di,1)+' pp';
   $('o_wc').textContent=pct(st.w.colapso); $('o_wb').textContent=pct(st.w.bajista); $('o_wa').textContent=pct(st.w.alcista);
-  const b=w.base; $('wnote').innerHTML=`Peso del escenario base: <b>${pct(b)}</b> (el resto hasta 100%).`+(w.raw>1?' <b style="color:var(--clay-ink)">Los tres pesos suman más de 100%: se normalizan y el base queda en 0%.</b>':'')+(st.wacc<0.097?' <b style="color:var(--clay-ink)">WACC por debajo del suelo de mercado (9,7%): subtasa solo informativa; el candado B la prohíbe.</b>':'');
+  const b=w.base; $('wnote').innerHTML=`Peso del escenario base: <b>${pct(b)}</b> (el resto hasta 100%).`+(w.raw>1?' <b style="color:var(--clay-ink)">Los tres pesos suman más de 100%: se normalizan y el base queda en 0%.</b>':'')+(Math.round(st.wacc*1e4)<970?' <b style="color:var(--clay-ink)">WACC por debajo del suelo de mercado (9,7%): subtasa solo informativa; el candado B la prohíbe.</b>':'');
 }
-function render2(res){ const va=res.sc.alcista.vps, vb=res.sc.base.vps; const tail=+$('s_tail').value/100, px=+$('s_px').value; $('o_tail').textContent=pct(tail); $('o_px').textContent=fmt(px,0)+' USD';
+function render2(res){ const va=Math.max(res.sc.alcista.vps,0), vb=Math.max(res.sc.base.vps,0); const tail=+$('s_tail').value/100, px=+$('s_px').value; $('o_tail').textContent=pct(tail); $('o_px').textContent=fmt(px,2)+' USD';
   const rest=1-tail; // reparto del resto entre base y alcista: px = rest*(a*va + (1-a)*vb)
-  const need=(px/rest - vb)/(va-vb); const maxv=rest*va; const imp=need>1||px>maxv; const free=need<=0; const reqA=Math.max(0,need)*rest;
-  $('out2').innerHTML=`<div class="kpi ${imp?'warn':'info'}"><div class="k">Alcista requerido</div><div class="v">${imp?'No alcanza':free?'0%':pct(need*rest)}</div><div class="d">${imp?'con todo el resto en alcista (frontera frágil: 127–132 con las correcciones pro-compra)':free?'el base ya vale más que el precio':'probabilidad absoluta de la senda guiada'}</div></div><div class="kpi"><div class="k">Máximo alcanzable</div><div class="v">${fmt(maxv,0)}</div><div class="d">USD con todo el resto en alcista</div></div><div class="kpi"><div class="k">Cola</div><div class="v">${pct(tail)}</div><div class="d">colapso + bajista, equity 0</div></div>`;
-  $('res2').innerHTML=imp?`Con <b class="bad">${pct(tail)}</b> de cola, ni poniendo todo el resto en el escenario alcista el valor llega a ${fmt(px,0)} USD (máximo ${fmt(maxv,0)} con las elecciones de la casa; con las correcciones favorables al caso de compra del auditor de modelo el máximo sube a 127–132, así que es una frontera frágil). Para que ${fmt(px,0)} sea justo hay que bajar la cola o creer en rentabilidades por encima de la guía.`:free?`Con ${pct(tail)} de cola, ${fmt(px,0)} USD ya queda por debajo del valor del escenario base: el precio no exige ninguna probabilidad de alcista.`:`Con ${pct(tail)} de cola, ${fmt(px,0)} USD exige una probabilidad absoluta de <b class="${need*rest>.5?'bad':'good'}">${pct(need*rest)}</b> para la senda guiada completa (y ${pct(rest-need*rest)} para el base).`; }
+  const need=(px/rest - vb)/(va-vb); const maxv=rest*va; const imp=need>1||px>maxv; const free=need<=0; const frag=(Math.abs(st.wacc-.1026)<5e-4&&Math.abs(tail-.35)<.005); const reqA=Math.max(0,need)*rest;
+  $('out2').innerHTML=`<div class="kpi ${imp?'warn':'info'}"><div class="k">Alcista requerido</div><div class="v">${imp?'No alcanza':free?'0%':pct(need*rest)}</div><div class="d">${imp?'con todo el resto en alcista'+(frag?' (frontera frágil: 127–136 con las correcciones pro-compra del auditor de modelo)':''):free?'el base ya vale más que el precio':'probabilidad absoluta de la senda guiada'}</div></div><div class="kpi"><div class="k">Máximo alcanzable</div><div class="v">${fmt(maxv,0)}</div><div class="d">USD con todo el resto en alcista</div></div><div class="kpi"><div class="k">Cola</div><div class="v">${pct(tail)}</div><div class="d">colapso + bajista, equity 0</div></div>`;
+  $('res2').innerHTML=imp?`Con <b class="bad">${pct(tail)}</b> de cola, ni poniendo todo el resto en el escenario alcista el valor llega a ${fmt(px,2)} USD (máximo ${fmt(maxv,0)} con las elecciones de la casa${frag?'; con las correcciones favorables al caso de compra del auditor de modelo el máximo sube a 127–136, así que es una frontera frágil':''}). Para que ${fmt(px,2)} sea justo hay que bajar la cola o creer en rentabilidades por encima de la guía.`:free?`Con ${pct(tail)} de cola, ${fmt(px,2)} USD ya queda por debajo del valor del escenario base: el precio no exige ninguna probabilidad de alcista.`:`Con ${pct(tail)} de cola, ${fmt(px,2)} USD exige una probabilidad absoluta de <b class="${need*rest>.5?'bad':'good'}">${pct(need*rest)}</b> para la senda guiada completa (y ${pct(rest-need*rest)} para el base).`; }
 function render3(){ const px=+$('s_lupa').value; $('o_lupa').textContent=fmt(px,0)+' USD'; const c0=cfgOf('base');
   const vps=(m)=>{ const c=JSON.parse(JSON.stringify(c0)); c.B.margen_ebitda_terminal=m; c.B.margen_ebitda=c.B.margen_ebitda.map((x,i)=>i>=5?Math.min(x,m):x); return M.run(c).vps; };
   let lo=.05,hi=.95; const top=vps(hi), bot=vps(lo); let m=null;
   if(px<=bot) m=lo; else if(px>=top) m=null; else { for(let i=0;i<50;i++){ const mid=(lo+hi)/2; if(vps(mid)<px) lo=mid; else hi=mid; } m=(lo+hi)/2; }
   const base=c0.B.margen_ebitda_terminal;
-  $('out3').innerHTML=`<div class="kpi ${m===null||m>.7?'warn':'info'}"><div class="k">Margen terminal exigido</div><div class="v">${m===null?'>95%':pct(m,0)}</div><div class="d">modelo base: ${pct(base,0)}</div></div><div class="kpi"><div class="k">Valor al margen del modelo</div><div class="v">${fmt(vps(base),0)}</div><div class="d">USD por acción</div></div>`;
-  $('res3').innerHTML=m===null?`A ${fmt(px,0)} USD ni con 95% de margen EBITDA en OCI se justifica la senda base.`:(m>.7?`Hace falta un margen EBITDA terminal de <b class="bad">${pct(m,0)}</b> en OCI (desplazando solo el terminal; con desplazamiento paralelo de todos los años el umbral baja a ≈70–73% a 130,55 USD). Oracle no publica el margen de OCI y el corpus no trae comparables.`:`Hace falta un margen EBITDA terminal de <b class="${m>base+.03?'bad':'good'}">${pct(m,0)}</b> frente al ${pct(base,0)} del modelo base.`); }
+  $('out3').innerHTML=`<div class="kpi ${m===null||m>.7?'warn':'info'}"><div class="k">Margen terminal exigido</div><div class="v">${m===null?'>95%':pct(m,0)}</div><div class="d">modelo base: ${pct(base,0)}</div></div><div class="kpi"><div class="k">Valor al margen del modelo</div><div class="v">${fmt(Math.max(vps(base),0),0)}</div><div class="d">USD por acción</div></div>`;
+  $('res3').innerHTML=m===null?`A ${fmt(px,0)} USD ni con 95% de margen EBITDA en OCI se justifica la senda base.`:(m>.7?`Hace falta un margen EBITDA terminal de <b class="bad">${pct(m,0)}</b> en OCI${(Math.abs(st.wacc-.1026)<5e-4&&Math.abs(px-130.55)<1)?' (desplazando solo el terminal; con desplazamiento paralelo de todos los años el umbral baja a ≈70–73% a 130,55 USD)':' (desplazando solo el terminal)'}. Oracle no publica el margen de OCI y el corpus no trae comparables.`:`Hace falta un margen EBITDA terminal de <b class="${m>base+.03?'bad':'good'}">${pct(m,0)}</b> frente al ${pct(base,0)} del modelo base.`); }
 
 const PRE={
   mercado:{wacc:10.26,k:1,dm:0,di:0,w:[10,25,25]},
@@ -951,6 +953,6 @@ function read(){ st.wacc=+$('s_wacc').value/100; st.k=+$('s_k').value; st.dm=+$(
 $('s_lupa').addEventListener('input',render3);
 document.querySelectorAll('#w1 .presets .btn').forEach(b=>b.addEventListener('click',()=>applyPre(b.dataset.p)));
 cardsInit(); read();
-let _rw=0; window.addEventListener('resize',()=>{ clearTimeout(_rw); _rw=setTimeout(()=>read(),150); });
+let _rw=0,_lw=window.innerWidth; window.addEventListener('resize',()=>{ clearTimeout(_rw); _rw=setTimeout(()=>{ if(window.innerWidth!==_lw){ _lw=window.innerWidth; read(); } },150); });
 })();
 </script>
