@@ -806,7 +806,7 @@ function cfgOf(name){ const c=JSON.parse(JSON.stringify(D.configs[name])); c.wac
   c.B.margen_ebitda=c.B.margen_ebitda.map(x=>Math.max(.05,x+dm)); c.B.margen_ebitda_terminal=Math.max(.05,c.B.margen_ebitda_terminal+dm);
   c.B.intensidad_capex_terminal=Math.max(.05,c.B.intensidad_capex_terminal+di);
   c.precio=PRECIO; return c; }
-function weights(){ const wc=st.w.colapso, wb=st.w.bajista, wa=st.w.alcista; const base=1-wc-wb-wa; return {colapso:wc,bajista:wb,base:base,alcista:wa}; }
+function weights(){ let wc=st.w.colapso, wb=st.w.bajista, wa=st.w.alcista; const sum=wc+wb+wa; if(sum>1){ wc/=sum; wb/=sum; wa/=sum; } return {colapso:wc,bajista:wb,base:Math.max(0,1-wc-wb-wa),alcista:wa,raw:sum}; }
 function compute(){ const out={}; Object.keys(NAMES).forEach(n=>{ const c=cfgOf(n); const r=M.run(c); out[n]={vps:r.vps,rev:r.tabB.map(t=>t.rev),tir:r.vps>0?M.irr10(c,PRECIO):null}; });
   const w=weights(); let pond=0; Object.keys(NAMES).forEach(n=>{ pond+=w[n]*Math.max(out[n].vps,0); }); return {sc:out,w,pond}; }
 
@@ -846,7 +846,7 @@ function render(){ const res=compute(); const w=res.w;
   render2(res); render3();
   $('o_wacc').textContent=fmt(st.wacc*100,2)+'%'; $('o_k').textContent='×'+fmt(st.k,2); $('o_m').textContent=(st.dm>=0?'+':'')+fmt(st.dm,1)+' pp'; $('o_i').textContent=(st.di>=0?'+':'')+fmt(st.di,1)+' pp';
   $('o_wc').textContent=pct(st.w.colapso); $('o_wb').textContent=pct(st.w.bajista); $('o_wa').textContent=pct(st.w.alcista);
-  const b=w.base; $('wnote').innerHTML=`Peso del escenario base: <b>${pct(b)}</b> (el resto hasta 100%).`+(b<0?' <b style="color:var(--clay-ink)">Los pesos suman más de 100%: reduce alguno.</b>':'');
+  const b=w.base; $('wnote').innerHTML=`Peso del escenario base: <b>${pct(b)}</b> (el resto hasta 100%).`+(w.raw>1?' <b style="color:var(--clay-ink)">Los tres pesos suman más de 100%: se normalizan y el base queda en 0%.</b>':'');
 }
 function render2(res){ const va=res.sc.alcista.vps, vb=res.sc.base.vps; const tail=+$('s_tail').value/100, px=+$('s_px').value; $('o_tail').textContent=pct(tail); $('o_px').textContent=fmt(px,0)+' USD';
   const rest=1-tail; // reparto del resto entre base y alcista: px = rest*(a*va + (1-a)*vb)
