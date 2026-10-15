@@ -1,0 +1,16 @@
+Input                                                    base lo  base hi   alc lo   alc hi  pond lo  pond hi
+Crecimiento B años 1-5 ×0,8 / ×1,2 (capex fijo)            -34.1    +38.4    -68.9    +88.3    -30.9    +38.5
+WACC ±1 pp (ambos segmentos)                               -19.5    +26.5    -36.7    +50.5    -17.0    +23.9
+Margen EBITDA B ±5 pp (todos los años + terminal)          -20.5    +19.7    -30.5    +30.5    -15.8    +17.2
+WACC_B ±1 pp (A fijo)                                      -11.9    +16.7    -27.1    +37.8    -11.5    +16.1
+Intensidad capex terminal B ±5 pp                          -12.6    +12.6    -20.3    +20.3    -10.1    +10.7
+Margen EBITDA B terminal solo ±5 pp                        -12.0    +12.0    -19.3    +19.3     -9.6    +10.1
+g∞ B ±1 pp                                                  -6.5     +9.1    -15.5    +21.6     -6.5     +9.1
+WACC_A ±1 pp (B fijo)                                       -7.6     +9.8     -9.6    +12.7     -5.5     +7.5
+Capex explícito B ±10%                                      -9.9     +9.4    -10.6    +10.6     -6.6     +7.0
+Tipo impositivo ±3 pp                                       -4.9     +4.9     -9.1     +9.1     -4.3     +4.3
+g∞ A ±1 pp                                                  -4.0     +5.2     -5.3     +7.1     -2.9     +3.8
+Reinversión A (% NOPAT) +5 / −5 pp                          -3.6     +3.6     -4.2     +4.2     -2.5     +2.5
+Margen EBIT A ±2 pp                                         -3.3     +3.3     -3.6     +3.6     -2.2     +2.2
+Vida útil B 4 / 8 años (solo impuestos)                     -1.1     -1.8     +1.8     -2.5     +0.0     -1.4
+Acciones ±1%                                                -0.7     +0.7     -1.8     +1.8     -0.7     +0.7

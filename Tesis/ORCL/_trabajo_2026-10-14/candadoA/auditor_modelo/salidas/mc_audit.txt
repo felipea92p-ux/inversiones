@@ -1,0 +1,12 @@
+(1) mezcla independiente (método publicado): {'media': np.float64(79.07), 'sigma': np.float64(25.879), 'p5': np.float64(41.561), 'p25': np.float64(60.975), 'p50': np.float64(76.372), 'p75': np.float64(94.219), 'p95': np.float64(125.609), 'P_gt': np.float64(0.038)}
+    colapso media -25.6 sigma 6.4 p5 -35.9 p95 -14.9  P(>precio)=0.000
+    bajista media -3.2 sigma 14.0 p5 -23.8 p95 21.7  P(>precio)=0.000
+    base media 76.8 sigma 41.5 p5 20.6 p95 151.0  P(>precio)=0.098
+    alcista media 190.1 sigma 79.1 p5 82.5 p95 334.2  P(>precio)=0.766
+   P(realizado>precio)=Σ w·P(V_k>P) = 0.2306
+(2) ruido COMÚN a los 4 escenarios: {'media': np.float64(79.758), 'sigma': np.float64(37.282), 'p5': np.float64(29.281), 'p25': np.float64(53.781), 'p50': np.float64(74.097), 'p75': np.float64(99.804), 'p95': np.float64(148.782), 'P_gt': np.float64(0.094)}
+(3) pesos Dirichlet(conc.20) + ruido común: {'media': np.float64(78.938), 'sigma': np.float64(40.623), 'p5': np.float64(27.054), 'p25': np.float64(50.169), 'p50': np.float64(72.041), 'p75': np.float64(100.185), 'p95': np.float64(153.57), 'P_gt': np.float64(0.103)}
+(4) ponderado puntual con pesos 15/30/45/10 = 50.54  precio/valor 2.58
+(4) ponderado puntual con pesos 12/25/50/13 = 59.53  precio/valor 2.19
+(4) ponderado puntual con pesos 10/25/40/25 = 73.68  precio/valor 1.77
+(4) ponderado puntual con pesos 5/15/30/50 = 111.05  precio/valor 1.18

@@ -80,4 +80,3 @@ for name, w in {'15/30/45/10': (.15, .30, .45, .10), '12/25/50/13': (.12, .25, .
     for wi, k in zip(w, ('colapso', 'bajista', 'base', 'alcista')):
         pw += wi * max(M.value(cf[k])['vps'], 0.0)
     print('(4) ponderado puntual con pesos', name, '=', round(pw, 2), ' precio/valor', round(P / pw, 2))
-np.save('mc_common.npy', common); np.save('mc_indep.npy', mix)
