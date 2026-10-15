@@ -1,0 +1,68 @@
+--- VPS / EV_A / EV_B por escenario (WACC 10,26%)
+colapso VPS                                      publicado     -25.449985  reproducido     -25.449985  dif -7.11e-15 OK
+colapso EV_A (M)                                 publicado  139716.513434  reproducido  139716.513434  dif +0.00e+00 OK
+colapso EV_B (M)                                 publicado  -98893.967758  reproducido  -98893.967758  dif -1.46e-11 OK
+colapso equity (M)                               publicado  -77622.454324  reproducido  -77622.454324  dif -1.46e-11 OK
+colapso TV_B/EV                                  publicado      -0.676791  reproducido      -0.676791  dif -2.22e-16 OK
+bajista VPS                                      publicado      -3.756224  reproducido      -3.756224  dif -9.33e-15 OK
+bajista EV_A (M)                                 publicado  152340.121846  reproducido  152340.121846  dif -2.91e-11 OK
+bajista EV_B (M)                                 publicado  -45351.604898  reproducido  -45351.604898  dif -7.28e-12 OK
+bajista equity (M)                               publicado  -11456.483052  reproducido  -11456.483052  dif -2.91e-11 OK
+bajista TV_B/EV                                  publicado       0.098847  reproducido       0.098847  dif -1.67e-16 OK
+base VPS                                         publicado      72.640055  reproducido      72.640055  dif +2.84e-14 OK
+base EV_A (M)                                    publicado  209113.313893  reproducido  209113.313893  dif +0.00e+00 OK
+base EV_B (M)                                    publicado  130883.852753  reproducido  130883.852753  dif +2.91e-11 OK
+base equity (M)                                  publicado  221552.166646  reproducido  221552.166646  dif +5.82e-11 OK
+base TV_B/EV                                     publicado       0.437848  reproducido       0.437848  dif +5.55e-17 OK
+alcista VPS                                      publicado     178.510571  reproducido     178.510571  dif -8.53e-14 OK
+alcista EV_A (M)                                 publicado  244176.947476  reproducido  244176.947476  dif +0.00e+00 OK
+alcista EV_B (M)                                 publicado  418725.294292  reproducido  418725.294292  dif -3.49e-10 OK
+alcista equity (M)                               publicado  544457.241768  reproducido  544457.241768  dif -2.33e-10 OK
+alcista TV_B/EV                                  publicado       0.508401  reproducido       0.508401  dif -2.22e-16 OK
+--- Ponderado
+ponderado 10/25/40/25 (equity>=0)                publicado      73.683665  reproducido      73.683665  dif -2.84e-14 OK
+--- TIR 10a
+base TIR10 (motor)                               publicado       0.071838  reproducido       0.071838  dif +0.00e+00 OK
+alcista TIR10 (motor)                            publicado       0.155530  reproducido       0.155530  dif +0.00e+00 OK
+--- Rejilla WACC (ponderado y por escenario)
+rejilla WACC: máxima |dif| -> 2.2737367544323206e-13
+--- Candado C (base)
+candado C w=0.0826 dg=-0.02                      publicado     129.227636  reproducido     129.227636  dif +0.00e+00 OK
+candado C w=0.0826 dg=+0.00                      publicado     137.164190  reproducido     137.164190  dif +0.00e+00 OK
+candado C w=0.0826 dg=+0.02                      publicado     145.293394  reproducido     145.293394  dif +0.00e+00 OK
+candado C w=0.1026 dg=-0.02                      publicado      66.958103  reproducido      66.958103  dif +0.00e+00 OK
+candado C w=0.1026 dg=+0.00                      publicado      72.640055  reproducido      72.640055  dif +2.84e-14 OK
+candado C w=0.1026 dg=+0.02                      publicado      78.445814  reproducido      78.445814  dif +0.00e+00 OK
+candado C w=0.1226 dg=-0.02                      publicado      33.664554  reproducido      33.664554  dif -7.11e-15 OK
+candado C w=0.1226 dg=+0.00                      publicado      38.124002  reproducido      38.124002  dif -7.11e-15 OK
+candado C w=0.1226 dg=+0.02                      publicado      42.672148  reproducido      42.672148  dif -2.13e-14 OK
+--- Rejilla margen x intensidad (orcl_data.json = build_data.py)
+rejilla (orcl_data) máxima |dif|: 8.526512829121202e-14
+--- DCF inverso (bisección propia)
+DCF inverso base: margen exigido                 publicado       0.791319  reproducido       0.791319  dif +0.00e+00 OK
+DCF inverso base: factor crecimiento             publicado       1.289304  reproducido       1.289304  dif +0.00e+00 OK
+DCF inverso alcista: margen exigido              publicado       0.486248  reproducido       0.486248  dif +0.00e+00 OK
+DCF inverso alcista: factor crecimiento          publicado       0.866177  reproducido       0.866177  dif +2.22e-16 OK
+--- resultados_paso9.txt : estrés de tasa (base / alcista)
+WACC 0.0940: base pub 94.9 / mío 94.9 ; alcista pub 220.8 / mío 220.8
+WACC 0.1000: base pub 78.7 / mío 78.7 ; alcista pub 190.0 / mío 190.0
+WACC 0.1026: base pub 72.6 / mío 72.6 ; alcista pub 178.5 / mío 178.5
+WACC 0.1036: base pub 70.4 / mío 70.4 ; alcista pub 174.3 / mío 174.3
+WACC 0.1163: base pub 47.1 / mío 47.1 ; alcista pub 130.6 / mío 130.6
+WACC 0.1313: base pub 27.7 / mío 27.7 ; alcista pub 94.6 / mío 94.6
+--- Ponderado en la banda de mercado
+  WACC 0.0940: ponderado 93.62
+  WACC 0.0970: ponderado 85.72
+  WACC 0.1000: ponderado 79.00
+  WACC 0.1012: ponderado 76.49
+  WACC 0.1026: ponderado 73.68
+  WACC 0.1036: ponderado 71.75
+  WACC 0.1040: ponderado 71.00
+  WACC 0.0826: ponderado 133.47
+  WACC 0.0800: ponderado 145.57
+  WACC 0.1160: ponderado 51.91
+  WACC 0.1310: ponderado 35.00
+--- Qué paga el precio por OCI
+cap 398.2 B ; reclamaciones netas 118.4 B ; EV implícito 516.6 B ; EV_A base 209.1 ; EV_B base 130.9; EV_B alc 418.7
+EV implicito OCI base 307.5, alcista 272.4
+Software solo base: 29.73 USD/acc ; alcista 41.22
