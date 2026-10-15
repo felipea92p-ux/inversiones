@@ -1,0 +1,820 @@
+<title>Oracle, constructor apalancado</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:wght@400;500;600;700&display=swap">
+<style>
+/* Concepto: lectura por pasos del método de 12 pasos; el escenario manda, el precio se mide contra él. */
+:root{
+  --paper:#faf9f5; --paper2:#f3f1e8; --card:#fffefb;
+  --ink:#141413; --ink2:#3a3935; --muted:#6a685f;
+  --line:#e8e6dc; --line2:#d5d2c4;
+  --clay:#d97757; --clay-ink:#b0502c; --clay-bg:#f8e5dc;
+  --sky:#6a9bcc; --sky-ink:#3b6b9a; --sky-bg:#e2ecf5;
+  --moss:#788c5d; --moss-ink:#566741; --moss-bg:#e8eddf;
+  --stone:#b0aea5; --oat:#ece9dd;
+  --serif:'Lora',Georgia,'Times New Roman',serif;
+  --sans:'Poppins','Helvetica Neue',Arial,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--paper:#141413;--paper2:#1c1b19;--card:#1d1c1a;--ink:#faf9f5;--ink2:#d9d7cc;--muted:#a6a499;--line:#2f2e2a;--line2:#413f39;--clay:#e18a6b;--clay-ink:#efa88e;--clay-bg:#3a2820;--sky:#7fb0dd;--sky-ink:#a3c8e8;--sky-bg:#212d39;--moss:#93a876;--moss-ink:#b2c498;--moss-bg:#272e20;--stone:#6f6d64;--oat:#262522;color-scheme:dark}
+}
+:root[data-theme="dark"]{--paper:#141413;--paper2:#1c1b19;--card:#1d1c1a;--ink:#faf9f5;--ink2:#d9d7cc;--muted:#a6a499;--line:#2f2e2a;--line2:#413f39;--clay:#e18a6b;--clay-ink:#efa88e;--clay-bg:#3a2820;--sky:#7fb0dd;--sky-ink:#a3c8e8;--sky-bg:#212d39;--moss:#93a876;--moss-ink:#b2c498;--moss-bg:#272e20;--stone:#6f6d64;--oat:#262522;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.68 var(--serif);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));-webkit-font-smoothing:antialiased}
+a{color:var(--sky-ink)}
+strong,b{font-weight:600}
+h1,h2,h3,h4{font-family:var(--sans);color:var(--ink);font-weight:600;letter-spacing:-.012em;margin:0;text-wrap:balance}
+h1{font-size:clamp(2rem,6.4vw,3.35rem);line-height:1.06}
+h2{font-size:clamp(1.55rem,4.6vw,2.25rem);line-height:1.14;margin:0 0 1rem}
+h3{font-size:1.15rem;line-height:1.3;margin:2rem 0 .55rem}
+h4{font-size:.95rem;margin:0 0 .35rem}
+p{margin:0 0 1.1rem}
+.col{max-width:42rem;margin:0 auto;min-width:0}
+.wide{max-width:56rem;margin:0 auto;min-width:0}
+.sn{font:500 .74rem/1.3 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.small{font-size:.86rem;line-height:1.55;color:var(--ink2)}
+.muted{color:var(--muted)}
+.num{font-variant-numeric:tabular-nums}
+.sec{padding-block:3.4rem 1rem;border-top:1px solid var(--line)}
+.sec.first{border-top:0}
+.lead{font-size:1.12rem;color:var(--ink2)}
+/* barra superior */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);margin-inline:calc(-1*max(16px,env(safe-area-inset-left,0px)));padding-inline:max(16px,env(safe-area-inset-left,0px))}
+.top-in{max-width:56rem;margin:0 auto;display:flex;align-items:center;gap:.8rem;min-height:2.9rem}
+.brand{font:600 .82rem var(--sans);white-space:nowrap}
+.brand span{color:var(--clay-ink)}
+.prog{height:3px;background:var(--line);flex:1;border-radius:3px;overflow:hidden}
+.prog i{display:block;height:100%;width:0;background:var(--clay)}
+.btn{font:500 .78rem var(--sans);color:var(--ink);background:var(--card);border:1px solid var(--line2);border-radius:99px;padding:.38rem .8rem;cursor:pointer}
+.btn:hover{border-color:var(--clay)}
+.btn:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible,a:focus-visible{outline:2px solid var(--sky);outline-offset:2px}
+.idx{max-width:56rem;margin:0 auto;padding:.6rem 0 .9rem}
+.idx[hidden]{display:none}
+.idx ol{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(13rem,1fr));gap:.15rem .9rem}
+.idx a{display:block;font:500 .82rem/1.5 var(--sans);text-decoration:none;color:var(--ink2);padding:.15rem 0}
+.idx a b{color:var(--clay-ink);margin-right:.4rem;font-weight:600}
+.idx a:hover{color:var(--ink)}
+/* héroe y veredicto */
+.hero{padding-block:2.6rem 1.2rem}
+.kick{font:500 .8rem/1.5 var(--sans);color:var(--muted);max-width:40rem}
+.hero h1{margin:.6rem 0 1.1rem}
+.verdict{border-left:4px solid var(--clay);padding:.2rem 0 .2rem 1.05rem;margin:1.7rem 0 1.3rem}
+.verdict .vs{font:600 .72rem var(--sans);letter-spacing:.09em;text-transform:uppercase;color:var(--clay-ink);margin:0 0 .2rem}
+.verdict .vb{font:600 clamp(1.5rem,5vw,2.1rem)/1.15 var(--sans);margin:0 0 .5rem}
+.verdict .vt{font-size:.98rem;margin:0;color:var(--ink2)}
+.state{display:inline-block;font:600 .7rem/1 var(--sans);letter-spacing:.06em;text-transform:uppercase;padding:.32rem .55rem;border-radius:99px;background:var(--clay-bg);color:var(--clay-ink);margin-bottom:.6rem}
+.state.ok{background:var(--moss-bg);color:var(--moss-ink)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(10.5rem,1fr));gap:.7rem;margin:1.6rem 0}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:.8rem .9rem;min-width:0}
+.kpi .k{font:500 .7rem/1.3 var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.kpi .v{font:600 1.45rem/1.15 var(--sans);margin:.2rem 0 .1rem;font-variant-numeric:tabular-nums}
+.kpi .d{font:400 .76rem/1.4 var(--sans);color:var(--ink2)}
+.kpi.warn .v{color:var(--clay-ink)} .kpi.good .v{color:var(--moss-ink)} .kpi.info .v{color:var(--sky-ink)}
+/* bloques */
+.callout{background:var(--paper2);border-left:3px solid var(--clay);padding:1rem 1.15rem;margin:1.5rem 0;border-radius:0 10px 10px 0}
+.callout.sky{border-left-color:var(--sky)} .callout.moss{border-left-color:var(--moss)}
+.callout h4{font-size:.9rem;margin-bottom:.4rem}
+.callout p:last-child,.callout ul:last-child{margin-bottom:0}
+.pull{font:500 1.35rem/1.4 var(--serif);font-style:italic;border-left:3px solid var(--line2);padding-left:1rem;margin:1.6rem 0;color:var(--ink)}
+.tg{font:600 .66rem/1 var(--sans);letter-spacing:.04em;padding:.2rem .38rem;border-radius:5px;vertical-align:.1em;white-space:nowrap}
+.tg.h{background:var(--moss-bg);color:var(--moss-ink)} .tg.i{background:var(--sky-bg);color:var(--sky-ink)} .tg.s{background:var(--clay-bg);color:var(--clay-ink)} .tg.x{background:var(--oat);color:var(--muted)}
+ul.clean{list-style:none;padding:0;margin:0 0 1.1rem}
+ul.clean li{padding:.3rem 0 .3rem 1.1rem;position:relative}
+ul.clean li::before{content:"";position:absolute;left:0;top:.95em;width:.45rem;height:.45rem;border-radius:50%;background:var(--clay)}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font:400 .86rem/1.5 var(--sans)}
+th{font:600 .72rem var(--sans);text-align:left;color:var(--muted);border-bottom:1px solid var(--line2);padding:.5rem .6rem;background:var(--paper);white-space:nowrap}
+td{padding:.55rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+table.tight td,table.tight th{padding:.4rem .5rem}
+/* figuras */
+.fig{margin:2rem auto}
+.fig h4{font:600 .98rem var(--sans);margin-bottom:.15rem}
+.fig .sub{font:400 .82rem/1.5 var(--sans);color:var(--muted);margin:0 0 .6rem}
+.fig .src{font:400 .72rem/1.5 var(--sans);color:var(--muted);margin:.5rem 0 0}
+svg{display:block;width:100%;height:auto;max-width:100%}
+svg text{font-family:var(--sans);fill:var(--ink2);font-size:11px}
+.gl{stroke:var(--line);stroke-width:1} .ax{fill:var(--muted);font-size:10.5px}
+.lnk{fill:none;stroke-linejoin:round;stroke-linecap:round}
+.lg{display:flex;flex-wrap:wrap;gap:.35rem 1rem;font:500 .76rem var(--sans);color:var(--ink2);margin:.2rem 0 .5rem}
+.lg i{display:inline-block;width:.8rem;height:.8rem;border-radius:3px;margin-right:.35rem;vertical-align:-.1em}
+/* widgets */
+.widget{border:1px solid var(--line2);border-radius:20px;background:var(--paper2);padding:1.2rem 1.15rem 1.3rem;margin:2.2rem auto;max-width:56rem}
+.widget>h3{margin:.1rem 0 .3rem;font-size:1.2rem}
+.widget>.sub{font:400 .86rem/1.5 var(--sans);color:var(--ink2);margin:0 0 1rem}
+.ctrls{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:.9rem 1.4rem;margin:.8rem 0 1.1rem}
+.ctrl label{display:flex;justify-content:space-between;gap:.5rem;font:500 .78rem var(--sans);color:var(--ink2)}
+.ctrl label output{font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums}
+input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:30px;background:transparent;cursor:pointer;margin:0}
+input[type=range]::-webkit-slider-runnable-track{height:5px;border-radius:5px;background:var(--line2)}
+input[type=range]::-moz-range-track{height:5px;border-radius:5px;background:var(--line2)}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:20px;height:20px;border-radius:50%;background:var(--clay);border:3px solid var(--card);margin-top:-7.5px;box-shadow:0 0 0 1px var(--line2)}
+input[type=range]::-moz-range-thumb{width:16px;height:16px;border-radius:50%;background:var(--clay);border:3px solid var(--card)}
+.presets{display:flex;flex-wrap:wrap;gap:.45rem;margin:.2rem 0 .8rem}
+.presets .btn[aria-pressed="true"]{background:var(--clay);border-color:var(--clay);color:#fff}
+.out{display:grid;grid-template-columns:repeat(auto-fit,minmax(9.5rem,1fr));gap:.6rem;margin:.9rem 0}
+.out .kpi{background:var(--card)}
+.res{font:500 .9rem/1.55 var(--sans);margin:.6rem 0 0;padding:.7rem .85rem;border-radius:10px;background:var(--card);border:1px solid var(--line)}
+.res b.bad{color:var(--clay-ink)} .res b.good{color:var(--moss-ink)}
+.heat td,.heat th{text-align:right;font-variant-numeric:tabular-nums;padding:.42rem .55rem}
+.heat th:first-child{text-align:left}
+.heat .a{background:var(--moss-bg);color:var(--moss-ink);font-weight:600} .heat .b{background:var(--sky-bg);color:var(--sky-ink)} .heat .c{background:var(--paper2);color:var(--ink2)} .heat .d{background:var(--clay-bg);color:var(--clay-ink)}
+.ko{display:grid;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));gap:.7rem}
+.ko .c{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:.85rem 1rem}
+.ko .c .t{font:600 .86rem var(--sans);margin-bottom:.2rem}
+.ko .c .r{font:600 .7rem var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--moss-ink)}
+.ko .c.edge .r{color:var(--clay-ink)}
+.ko .c p{font:400 .8rem/1.5 var(--sans);margin:.3rem 0 0;color:var(--ink2)}
+.pm{display:grid;gap:.7rem}
+.pm .m{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--clay);border-radius:0 12px 12px 0;padding:.75rem 1rem}
+.pm .m .t{font:600 .86rem var(--sans)} .pm .m p{font:400 .8rem/1.5 var(--sans);margin:.25rem 0 0;color:var(--ink2)}
+.cal{list-style:none;margin:0;padding:0;border-left:2px solid var(--line2)}
+.cal li{position:relative;padding:.1rem 0 .85rem 1.1rem;font:400 .84rem/1.5 var(--sans)}
+.cal li::before{content:"";position:absolute;left:-6px;top:.45rem;width:10px;height:10px;border-radius:50%;background:var(--clay)}
+.cal li b{display:block;font-weight:600}
+details{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:.55rem .9rem;margin:.6rem 0}
+summary{cursor:pointer;font:600 .86rem var(--sans)}
+details[open] summary{margin-bottom:.4rem}
+.six{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:.6rem;margin:1rem 0}
+.six .c{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:.7rem .9rem}
+.six .c .t{font:500 .68rem var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.six .c .v{font:600 1rem/1.35 var(--sans);margin:.2rem 0 0}
+.six .c.fail .v{color:var(--clay-ink)}
+footer{margin-top:4rem;padding:2rem 0 3rem;border-top:1px solid var(--line)}
+@media (max-width:560px){body{font-size:16px}.hero{padding-top:1.6rem}.sec{padding-top:2.6rem}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+
+<div class="top"><div class="top-in">
+  <div class="brand">ORCL <span>·</span> Ultra Tesis</div>
+  <div class="prog" aria-hidden="true"><i id="prog"></i></div>
+  <button class="btn" id="idxBtn" aria-expanded="false" aria-controls="idx">Pasos</button>
+</div></div>
+<nav class="idx" id="idx" hidden aria-label="Índice por pasos"><ol>
+  <li><a href="#inicio"><b>·</b>Veredicto</a></li>
+  <li><a href="#paso0"><b>0</b>Lo que creías</a></li>
+  <li><a href="#paso1"><b>1</b>El mecanismo</a></li>
+  <li><a href="#negocio"><b>·</b>Dos negocios</a></li>
+  <li><a href="#paso2"><b>2</b>Knock-outs</a></li>
+  <li><a href="#paso3"><b>3</b>El foso</a></li>
+  <li><a href="#paso4"><b>4</b>Scuttlebutt</a></li>
+  <li><a href="#paso5"><b>5</b>Reinversión</a></li>
+  <li><a href="#paso6"><b>6</b>Gestión y caja</a></li>
+  <li><a href="#paso7"><b>7</b>Percepción variante</a></li>
+  <li><a href="#paso8"><b>8</b>Pre-mortem</a></li>
+  <li><a href="#paso9"><b>9</b>Valoración</a></li>
+  <li><a href="#escenarios"><b>·</b>Escenarios</a></li>
+  <li><a href="#paso10"><b>10</b>Candado A</a></li>
+  <li><a href="#paso11"><b>11</b>Veredicto</a></li>
+  <li><a href="#paso12"><b>12</b>Diario y gatillos</a></li>
+  <li><a href="#lagunas"><b>·</b>Lagunas y fuentes</a></li>
+</ol></nav>
+
+<main>
+<section class="hero wide sec first" id="inicio">
+  <p class="kick">Ultra Tesis de Oracle (NYSE: ORCL), método de doce pasos de la casa. Escrita el 14 y 15 de octubre de 2026. No hay puntaje ni ranking. Precio y posición vienen de IBKR en vivo.</p>
+  <h1>Oracle dejó de vender software y empezó a construir. Con deuda.</h1>
+  <p class="lead col" style="margin-inline:0">Un negocio cautivo y rentable que paga los intereses, y otro, alquilar capacidad de IA, que crece más del 100%, se financia con deuda, acciones y los prepagos de pocos clientes, y hoy rinde apenas su coste de capital. A 130 USD el precio paga la guía entera.</p>
+  <div class="verdict">
+    <span class="state" id="vstate">Provisional · Candado A en curso</span>
+    <p class="vs">Veredicto del método</p>
+    <p class="vb" id="vbig">NO, por precio</p>
+    <p class="vt" id="vtext">El valor no es decidible como cifra puntual y el primer tramo (52–68 USD) nunca fue precio de cierre en 24 meses: el mínimo es 114,99. El caso de compra queda archivado 12 meses. Compra nueva: 0% del NAV. Las 9 acciones que ya tienes (0,86%): no añadir, con tres factores de salida escritos para el 8-K de diciembre.</p>
+  </div>
+  <div class="kpis">
+    <div class="kpi"><div class="k">Cierre 14-oct</div><div class="v">130,55</div><div class="d">−58% desde el máximo de cierre (313,00)</div></div>
+    <div class="kpi info"><div class="k">Valor ponderado</div><div class="v">71–94</div><div class="d">WACC 10,4–9,4%. Precio / valor = 1,77×</div></div>
+    <div class="kpi warn"><div class="k">Asimetría a 130,55</div><div class="v">+37% / −100%</div><div class="d">alcista contra bajista y colapso</div></div>
+    <div class="kpi warn"><div class="k">Alcanzabilidad</div><div class="v">Falla</div><div class="d">primer tramo ≤106 frente a mínimo 114,99</div></div>
+    <div class="kpi"><div class="k">Tus 9 acciones</div><div class="v">0,86%</div><div class="d">coste 129,97 · NAV 134.097 USD</div></div>
+  </div>
+</section>
+
+<!-- PASO 0 -->
+<section class="sec col" id="paso0">
+  <div class="sn">Paso 0 · sellado el 14-oct, 23:21 UTC</div>
+  <h2>Lo que creías antes de abrir un solo filing</h2>
+  <div class="pull">«Oracle el pulpo gigante del software… cloud creciendo y con proyectos ligados a la IA y un Fundador que ha hecho historia. Gana dinero cobrando suscripción y por sus servicios.»</div>
+  <p>Inclinación declarada: <strong>inclinado a comprar</strong>. El monólogo describe bien el negocio de ayer: ubicuidad, recurrencia, el fundador. No dice nada de capital, deuda, capex, dilución, cliente concentrado ni precio. Esa ausencia es lo que el mercado está valorando en 2026.</p>
+  <div class="callout">
+    <h4>Dato que el sello no podía contener</h4>
+    <p>IBKR muestra que las 9 acciones se compraron el <strong>14-oct a las 18:58 UTC</strong>, a 129,855, en un día de −8,8%. El Paso 0 se selló a las 23:21: <strong>4 h 22 min después</strong>. El método pide el monólogo antes de investigar y antes de decidir. Aquí captó a alguien que ya había comprado. «Inclinado a comprar» es la confirmación verbal de un acto ejecutado: sesgo de compromiso en estado puro. El sello no se toca; se lee como defensa de una posición abierta.</p>
+  </div>
+  <p class="small">Sesgos bajo vigilancia en esta tesis: halo del fundador y de la ubicuidad, anclaje al máximo (−58%), sesgo de acción, FOMO de la narrativa de IA y compromiso. Pregunta de Li Lu por el drawdown >25%: ¿la caída pone a prueba el círculo de competencia? Se responde en el Paso 1.</p>
+</section>
+
+<!-- PASO 1 -->
+<section class="sec col" id="paso1">
+  <div class="sn">Paso 1 · círculo de competencia · veto sin apelación</div>
+  <h2>El mecanismo en una frase</h2>
+  <div class="pull">«Lo hace porque sus sistemas se integran y complementa sus múltiples tentáculos.»</div>
+  <p>Nombra un mecanismo y sin jerga: <strong>coste de cambio de un stack multi-producto</strong>. El gate no detiene el proceso. Pero hay una tensión que el método obliga a escribir ya.</p>
+  <p>Ese mecanismo explica el negocio histórico: ≈73% de los ingresos de FY26 (49.256 de 67.357 M). No explica el negocio que justifica el capex de 55,7 B ni la ampliación de capital: <strong>alquilar capacidad de cómputo</strong> bajo contratos plurianuales con pocos clientes. Ahí el «tentáculo» no es la integración, es un contrato. Lo que describes es el negocio que paga la deuda; lo que se compra a 130 es la apuesta sobre el que la genera.</p>
+</section>
+
+<!-- DOS NEGOCIOS -->
+<section class="sec" id="negocio">
+  <div class="col"><div class="sn">Contexto · ingresos FY26 y velocidad</div><h2>Dos negocios en el mismo cuerpo</h2>
+  <p>Uno es un monopolio de software que renueva. El otro es infraestructura de IA que se construye a un ritmo que ningún filing de Oracle había visto.</p></div>
+  <div class="wide">
+    <div class="fig"><h4>De dónde vienen los 67,4 B de ingresos de FY26</h4><p class="sub">Millones de USD. El 27% es OCI, pero es casi todo el crecimiento y casi todo el capex.</p>
+      <div id="figSeg"></div><p class="src">Fuente: 10-K FY26 y 8-K 4T FY26, tablas suplementarias de ingresos. <span class="tg h">HECHO</span></p></div>
+    <div class="fig"><h4>OCI por trimestre y backlog contratado</h4><p class="sub">Izquierda: ingresos de infraestructura cloud, B USD por trimestre (+121% en 1T FY27). Derecha: RPO total en B USD.</p>
+      <div id="figOci"></div><p class="src">Fuente: 8-K ex99.1 de cada trimestre; XBRL RPO. RPO ≤12 meses = 86,3 B (≈1,2× ingresos LTM). La cifra de OpenAI (≈300 B, ≈45% del RPO) es prensa. <span class="tg h">HECHO</span> <span class="tg x">SECUNDARIO</span></p></div>
+  </div>
+</section>
+
+<!-- PASO 2 -->
+<section class="sec" id="paso2">
+  <div class="col"><div class="sn">Paso 2 · binarios, solo HECHO</div><h2>Ninguno de los seis knock-outs dispara</h2>
+  <p>El método no admite «frontera»: o dispara con evidencia estructurada o no dispara. Ninguno dispara. Pero uno está en el umbral y otro depende de una convención.</p></div>
+  <div class="wide"><div class="ko">
+    <div class="c edge"><div class="t">ROIC &lt; WACC ≥3 años</div><div class="r">No dispara · en el umbral</div><p>ROIC sobre capital total: 14,7% · 14,8% · 13,0% · TTM entre 11,1% y 13,5% según la definición, frente a un WACC de 10,26%. Con la beta de 36 meses (WACC 11,6–13,1%) quedaría dentro de la banda.</p></div>
+    <div class="c edge"><div class="t">SBC &gt; 50% del FCF ajustado</div><div class="r">No dispara · por convención</div><p>El FCF es negativo en FY25, FY26 y TTM: el ratio es indefinido. Con FCF = CFO − capex de mantenimiento, el SBC es 19,8% (FY26). La convención la ratifica Felipe.</p></div>
+    <div class="c"><div class="t">Restatement</div><div class="r">No dispara</div><p>Cero reexpresiones por error FY17–FY26. Opinión limpia, cero debilidades materiales.</p></div>
+    <div class="c"><div class="t">VIE</div><div class="r">No dispara</div><p>Cero menciones en 35 documentos EDGAR. TikTok USDS JV (15%) por el método de la participación.</p></div>
+    <div class="c"><div class="t">Concentración de cliente</div><div class="r">No dispara</div><p>Ningún cliente ≥10% de ingresos en FY24–FY26. CxC y RPO sin desglose; los contratos de IA tienen menos de 18 meses.</p></div>
+    <div class="c"><div class="t">Solvencia inminente</div><div class="r">No dispara</div><p>Sin going concern. Covenant único (cobertura ≥3,0×) declarado cumplido a 31-may-26, con colchón de 7–11×.</p></div>
+  </div>
+  <p class="small" style="margin-top:1rem">Contexto obligatorio (no gate): deuda neta/EBITDA 3,27× (FY26) → 2,60× (LTM); con arrendamientos y EBITDAR consistente, 4,15× → 3,54×. Propósito de la deuda: capex de crecimiento, dividendos y preferentes. <span class="tg h">HECHO</span> <span class="tg i">INFERENCIA</span></p></div>
+  <div class="wide">
+    <div class="fig"><h4>El retorno sobre el capital cayó a menos de la mitad en cinco años</h4><p class="sub">ROIC sobre capital total con fondo de comercio dentro (NOPAT al 20%). El TTM es un rango (11,1–13,5%) porque depende de cómo se promedie el capital y de si los prepagos cuentan como deuda. La banda azul es el WACC de mercado (9,4–10,4%); las líneas rojas, el WACC si el mercado cobra la beta de 36 meses.</p>
+      <div id="figRoic"></div><p class="src">Fuente: cálculo propio sobre 10-K FY17–FY26 y 10-Q 1T FY27; WACC en el Paso 9. <span class="tg i">INFERENCIA</span></p></div>
+  </div>
+</section>
+
+<!-- PASO 3 -->
+<section class="sec col" id="paso3">
+  <div class="sn">Paso 3 · mecanismo del foso, no su síntoma</div>
+  <h2>Un foso real, sostenido por una sola frase de la empresa</h2>
+  <p><strong>Mecanismo.</strong> Costes de cambio de un stack multi-producto, anclados en un contrato de soporte anual, prepagado, con precio igual a un porcentaje de la licencia neta, que «substantially all» los clientes renuevan. Oracle no publica tasa de renovación: esa frase cualitativa es la única evidencia directa, y los márgenes del soporte que la respaldarían (86–91%) no se pudieron reproducir. <span class="tg h">HECHO</span> <span class="tg x">DEGRADADO</span></p>
+  <p><strong>Test de Sleep.</strong> En soporte, el ahorro de escala parece ir a la empresa (el precio sigue a la licencia, no al coste de servir). En cloud no: el margen del segmento cayó de 64% (FY24) a 59% (FY26) y 55% en el último trimestre. El ahorro va al cliente o a construir capacidad.</p>
+  <h3>El ataque más serio que ya sobrevivió</h3>
+  <ul class="clean">
+    <li><strong>1990–91.</strong> Ingresos reconocidos al firmar, deuda a corto ×4,2, pérdida, demandas colectivas y SEC. Lo salvó reconocer el soporte a lo largo del periodo y un CFO nuevo. Cifras de la época: <span class="tg x">DEGRADADO</span></li>
+    <li><strong>Cloud tardío 2014–2020.</strong> Seis años de ingresos planos (+2,1%). Lo sostuvo la anualidad de soporte.</li>
+    <li><strong>Cerner (2022).</strong> Fondo de comercio de 18,6 B sin deterioro. Eso no discrimina: está dentro de un segmento de 57 B y el 10-K no da unidades de reporte ni margen sobre libros.</li>
+  </ul>
+  <div class="callout sky">
+    <h4>El reloj del foso ya arrancó, pero no donde se suele decir</h4>
+    <p>Licencias nuevas: −49,7% de FY14 a FY26, pero <strong>−31,8% fue en FY14–FY17</strong>; desde FY17 es −26,2%, con FY25 en +2,4%. Soporte −1% en moneda constante dos trimestres seguidos, aunque incluye el soporte de Cerner desde FY23 (el orgánico podría caer más). El vínculo SAP → soporte de Oracle DB es un salto lógico, no un hecho.</p>
+  </div>
+  <p><strong>Veredicto del Paso 3.</strong> Moat roto, no. Moat extraordinario, tampoco. El del legado es real y no crece; el de OCI no está demostrado: es alquiler de capacidad con precio spot observable.</p>
+</section>
+
+<!-- PASO 4 -->
+<section class="sec col" id="paso4">
+  <div class="sn">Paso 4 · tres fuentes, dos horas</div>
+  <h2>Quién se parece a Oracle y quién no</h2>
+  <p>Oracle está entre los hiperescaladores y CoreWeave en capex, caja y apalancamiento. Más cerca de los primeros por el flujo del legado; más cerca de CoreWeave por la concentración y la financiación.</p>
+  <div class="scroll"><table class="tight">
+    <thead><tr><th>Métrica</th><th class="n">ORCL</th><th class="n">CoreWeave</th><th class="n">Microsoft</th><th class="n">Alphabet</th><th class="n">Amazon</th></tr></thead>
+    <tbody>
+    <tr><td>Capex / ingresos</td><td class="n"><b>83%</b> (147% en 1T)</td><td class="n">201–303%</td><td class="n">35%</td><td class="n">38%</td><td class="n">22%</td></tr>
+    <tr><td>FCF</td><td class="n"><b>−23,7 B</b></td><td class="n">−10,5 B (6M)</td><td class="n">+67 B</td><td class="n">+53 B</td><td class="n">−7,6 B</td></tr>
+    <tr><td>Deuda / EBITDA</td><td class="n"><b>4,3×</b> (5,6× con leases)</td><td class="n">8,0×</td><td class="n">0,2×</td><td class="n">0,6×</td><td class="n">0,8×</td></tr>
+    <tr><td>Cliente dominante</td><td class="n">RPO sin desglose</td><td class="n">Microsoft 67%</td><td class="n">OpenAI 7%</td><td class="n">n/d</td><td class="n">n/d</td></tr>
+    <tr><td>Vida útil de GPU</td><td class="n">6 años</td><td class="n">6 años</td><td class="n">2–6</td><td class="n">6</td><td class="n">5–6</td></tr>
+    </tbody></table></div>
+  <p class="small">Fuentes: 10-K/10-Q de cada empresa; CoreWeave verificado por V_R6. El «15%» del bono de CoreWeave es secundario. <span class="tg h">HECHO</span></p>
+  <h3>Qué hizo la empresa con su propio dinero</h3>
+  <ul class="clean">
+    <li>Vendió <strong>141 M de acciones a ≈141 USD</strong> (el máximo fue 345). 20 B por ATM, agotado.</li>
+    <li>Un consejero, Rusckowski, compró 25.000 a 139,35. Ellison canceló sin vender su plan de hasta 50 M de acciones.</li>
+    <li>Catz ejerció 8,69 M de opciones y vendió todo a 203–217 en 2025. Los co-CEO tienen opciones a 308,46.</li>
+  </ul>
+  <p class="small">Lagunas: sin transcripciones primarias (Quartr pide reautenticación) y sin consenso de analistas (Bigdata.com sin créditos).</p>
+</section>
+
+<!-- PASO 5 -->
+<section class="sec" id="paso5">
+  <div class="col"><div class="sn">Paso 5 · g = reinversión × ROIC incremental</div><h2>El crecimiento se está comprando al coste del capital</h2>
+  <p>Nunca se asumen g y ROIC por separado. Con los números de Oracle:</p></div>
+  <div class="wide"><div class="kpis">
+    <div class="kpi warn"><div class="k">Tasa de reinversión FY26</div><div class="v">281%</div><div class="d">(capex 55.663 − D&A 9.294) / NOPAT 16.485. Con capex devengado: 325%</div></div>
+    <div class="kpi warn"><div class="k">ROIC incremental FY23→26</div><div class="v">10,5%</div><div class="d">ΔNOPAT 6.010 / Δcapital 57.079</div></div>
+    <div class="kpi info"><div class="k">WACC de mercado</div><div class="v">10,26%</div><div class="d">margen sobre el coste del capital: ≈0</div></div>
+    <div class="kpi info"><div class="k">Tasa base (≥50 B de ingresos)</div><div class="v">7 de 122</div><div class="d">5,7% sostuvo ≥15% anual cinco años; ninguna con el perfil de balance de ORCL está demostrado</div></div>
+  </div></div>
+  <div class="wide">
+    <div class="fig"><h4>La caja operativa creció; el capex creció más</h4><p class="sub">Miles de millones USD por ejercicio fiscal. TTM a agosto de 2026.</p>
+      <div id="figCash"></div><p class="src">Fuente: estados de flujos, 10-K FY17–FY26 y 10-Q 1T FY27; TTM = FY26 + 1T FY27 − 1T FY26. <span class="tg h">HECHO</span></p></div>
+  </div>
+  <div class="col">
+    <p><strong>Qué limita el crecimiento.</strong> Financiación (FCF −28,7 B en los últimos doce meses, 288 B de arrendamientos por iniciar), energía y sitios (el 32–40% del PP&E neto es construcción en curso) y demanda concentrada (RPO de 664 B, solo 86 B a ≤12 meses). <strong>Pista:</strong> la guía necesita que OCI pase de 18 a 144 B en cuatro años.</p>
+    <div class="callout"><h4>Peaje del escenario alcista</h4><p>El alcista (≈ la guía) recibe 25% de peso en esta tesis: tres o cuatro veces la tasa base histórica. Es una anulación optimista y el valor ponderado resulta <strong>favorable</strong> al caso de compra. Con pesos cercanos a la tasa base (15/30/45/10) el ponderado cae de ≈74 a ≈51. Puedes comprobarlo en el widget de escenarios.</p></div>
+  </div>
+</section>
+
+<!-- PASO 6 -->
+<section class="sec" id="paso6">
+  <div class="col"><div class="sn">Paso 6 · gestión e incentivos, leídos como texto</div><h2>Quién maneja la caja y qué le pagan por hacer</h2>
+  <p>Gestión competente, fundador con el 38% y un incentivo diseñado alrededor del volumen. No es fraude ni opacidad: es la estructura de un constructor que cobra por construir.</p></div>
+  <div class="wide">
+    <div class="fig"><h4>Ellison: 38,2% de Oracle, de lo cual 13,6 puntos están pignorados</h4><p class="sub">413 M de acciones pignoradas como colateral de deuda personal (346 M hace un año: +19,4%). Ningún otro directivo pignora.</p>
+      <div id="figOwn"></div><p class="src">Fuente: DEF 14A 2026, a 21-sep-2026. <span class="tg h">HECHO</span></p></div>
+  </div>
+  <div class="col">
+    <ul class="clean">
+      <li><strong>Qué paga la retribución.</strong> Las PSO miden una sola cosa: ingresos non-GAAP de FY2028 (umbral 100 B, objetivo 125 B, máximo 250 B). Cero métricas de ROIC, FCF, margen, deuda o dilución.</li>
+      <li><strong>Asignación de capital invertida.</strong> FY19–FY22: 92,6 B de recompras a ≈45–55 USD. FY25–FY27: 24,9 B de capital emitido a ≈141 mientras el dividendo sube a 2,00 con FCF de −23,7 B. Ni el 10-K ni el proxy justifican esa combinación.</li>
+      <li><strong>La caja operativa «prestada».</strong> En el 1T FY27, 11.363 M de los 23.103 M de CFO son prepagos de clientes con componente financiero (cero hace un año).</li>
+    </ul>
+  </div>
+  <div class="wide">
+    <div class="fig"><h4>De dónde sale el CFO del último trimestre</h4><p class="sub">Millones USD, 1T FY27 (cierre 31-ago-2026).</p><div id="figCfo"></div>
+      <p class="src">Fuente: 10-Q 1T FY27, estado de flujos. Oracle reconoce ≈4,0 B de ingresos por trimestre desde el saldo inicial de diferidos: los prepagos no se convierten en ingreso a 12 meses. <span class="tg h">HECHO</span></p></div>
+  </div>
+</section>
+
+<!-- PASO 7 -->
+<section class="sec col" id="paso7">
+  <div class="sn">Paso 7 · percepción variante</div>
+  <h2>No discrepamos del negocio. Discrepamos de la cola.</h2>
+  <p><strong>Qué cree el mercado.</strong> Se deduce del precio: a 130,55 paga la senda guiada completa con casi cero probabilidad de cola. Triangulación: EV/EBITDA 16,7×; P/E non-GAAP de FY27 16,1× (yield 6,2% frente a 5,21% del Tesoro); EV sobre owner earnings, no definido (negativo).</p>
+  <p><strong>Qué creemos distinto, con dato en filing.</strong></p>
+  <ul class="clean">
+    <li>El capital nuevo rinde el coste del capital (10,5% frente a 10,26%). Para que el precio sea justo, el capital que viene tiene que rendir bastante más que el que se desplegó.</li>
+    <li>Dos de cada tres dólares del CFO del último trimestre son prepagos y diferidos. Un CFO de 23 B convive con un «net cash outlay» propio de 18 B.</li>
+    <li>El legado paga intereses de 5,7 B y dividendos de 5,8 B, y ya crece −1%.</li>
+  </ul>
+  <div class="callout moss"><h4>Dónde podemos equivocarnos</h4><p>Los clientes financian ≈37% del capex del trimestre (net cash outlay 17.966 de 28.499). Oracle afirma que en los grandes contratos de IA no espera levantar fondos incrementales. Hay clientes nombrados (Meta, NVIDIA) además del dominante. Y con la guía cumplida con holgura, 16× el EPS non-GAAP no es caro.</p></div>
+</section>
+
+<!-- PASO 8 -->
+<section class="sec" id="paso8">
+  <div class="col"><div class="sn">Paso 8 · sellado el 15-oct, 00:02 UTC, antes de calcular ningún valor</div><h2>Ensayar el funeral antes de mirar el precio</h2>
+  <p>Cinco mecanismos específicos del arquetipo, ordenados por gravedad del daño, no por probabilidad. Cada uno con su métrica, su umbral y su ventana.</p></div>
+  <div class="wide pm">
+    <div class="m"><div class="t">M1 · La contraparte dominante no convierte el contrato en caja</div><p>RPO a la baja secuencial sin atribución; diferidos −20%; provisión ≥1.100 M; renegociación de un contrato ≥10 B. Ventana: 8-K de diciembre de 2026.</p></div>
+    <div class="m"><div class="t">M2 · El capex no se convierte en ingreso a tiempo</div><p>OCI FY27 &lt;30 B o dos trimestres &lt;60% interanual; margen del segmento &lt;50%; construcción en curso ≥35% del PP&E en el 10-K FY27.</p></div>
+    <div class="m"><div class="t">M3 · El coste del capital se cierra</div><p>Emisión a 10 años ≥7,5%; rebaja a BBB-/Baa3 negativa por dos agencias; nuevo ATM ≥15 B antes de mayo de 2027; deuda por debajo del 80% del par.</p></div>
+    <div class="m"><div class="t">M4 · La GPU dura menos que los 6 años contables</div><p>Cambio de vida útil; deterioro ≥1 B; depreciación creciendo más de 1,5× los ingresos OCI. Ventana: 10-K FY27 y FY28.</p></div>
+    <div class="m"><div class="t">M5 · La anualidad que paga el interés se erosiona</div><p>Soporte ≤−3% cc dos trimestres, o ≤−1% tres trimestres sin cifra de migración; SaaS &lt;+7%.</p></div>
+  </div>
+  <div class="col">
+    <div class="callout"><h4>Falsador del caso bajista (tres de cuatro, con fecha)</h4><p>OCI FY27 ≥36 B con margen ≥55% sostenido · FCF positivo en un trimestre de FY28 <strong>sin</strong> prepagos financieros · rating estable y emisión a 10 años ≤UST + 150 pb · un segundo y tercer cliente de IA nombrados con ≥10% del RPO cada uno. Si ocurren, el expediente se reabre hacia arriba.</p></div>
+    <h3>Calendario de lecturas</h3>
+    <ul class="cal">
+      <li><b>≈10-dic-2026 · 8-K y 10-Q del 2T FY27</b>M1, M2, M3 (ATM), M5. Fecha secundaria: la empresa anuncia con ≈8 días.</li>
+      <li><b>18-dic-2026 · moción de desestimación totalmente alegada</b>Demanda colectiva de valores sobre OCI. El descubrimiento sería la primera fuente externa sobre los contratos de IA.</li>
+      <li><b>≈mar-2027 · 3T FY27 y primera emisión de deuda de 2027</b>M3.</li>
+      <li><b>≈jun-2027 · 10-K FY27</b>Construcción en curso, vidas útiles, acciones.</li>
+      <li><b>ago-2027 · balloon del term loan (≈4,6 B)</b>Extensible.</li>
+      <li><b>≈sep-2027 · DEF 14A 2027</b>Pignoración de Ellison y métricas de retribución.</li>
+      <li><b>15-ene-2029 · conversión de las preferentes · FY28: meta de las PSO (100 B)</b></li>
+    </ul>
+  </div>
+</section>
+
+<!-- PASO 9 -->
+<section class="sec" id="paso9">
+  <div class="col"><div class="sn">Paso 9 · valoración como pregunta falsable · candado B</div><h2>La tasa sale del mercado. El precio, de una pregunta.</h2>
+  <p><strong>WACC 10,26%</strong> = rf 5,21% + β 1,51 × ERP 4,20% → Ke 11,55%; Kd marginal 7,40% (5,93% neto); pesos de mercado 76,6 / 22,4 / 1,0. Banda 9,4–10,4%. Con ERP 3,70%, ≈9,7%. Con la β de 36 meses, 11,6–13,1%. La casa no tiene ERP única: se declaran ambas. Con Kd HECHO (Baa 6,67%), 10,12%.</p>
+  <p class="small">Motor: DCF explícito a 10 años en dos segmentos (software y OCI) con capex explícito y depreciación a 6 años. El widget de abajo usa un port a JavaScript del mismo motor, validado contra Python en 60 configuraciones con diferencia máxima de 6×10⁻¹⁴.</p></div>
+  <div class="wide">
+    <div class="fig"><h4>Precio, valor y mínimo de cierre: la prueba de alcanzabilidad</h4><p class="sub">Cierres diarios de 24 meses. La banda azul es el valor ponderado (71–94, WACC 10,4–9,4%). La banda roja es el primer tramo = valor × (1 − 27%). La línea punteada es el mínimo de cierre de 24 meses.</p>
+      <div id="figPrice"></div>
+      <p class="src">Fuente: IBKR <code>get_price_history</code> (501 cierres diarios) contrastado con Yahoo al céntimo en tres puntos de control. <span class="tg h">HECHO</span> <span class="tg i">INFERENCIA</span></p></div>
+  </div>
+  <div class="col">
+    <div class="callout"><h4>Por qué «NO, por precio» y no «NO COMPRAR TODAVÍA»</h4><p>«Todavía» exige un primer tramo alcanzable. Incluso con la tasa más generosa (8,0%) el primer tramo sería 106 USD, por debajo del mínimo de cierre de 24 meses (114,99, el 24-jul-2026). La regla v2 (C-11) convierte ese «todavía» en NO. El Acta B4 aclara que el archivo cubre el caso de compra, no la posición, y no suspende el test del hoy ni la vigilancia.</p></div>
+    <p class="small">Objeción estructural declarada (Acta B4, Prueba de Infalibilidad): este test falla por construcción en las cinco empresas probadas; su recalibración es un expediente separado y no se toca en esta sesión.</p>
+  </div>
+</section>
+
+<!-- ESCENARIOS -->
+<section class="sec" id="escenarios">
+  <div class="col"><div class="sn">Cuatro futuros · interactivo</div><h2>Cuatro futuros y lo que vale cada uno</h2>
+  <p>El valor depende de una sola cosa: cuánto de la senda guiada se cumple y con qué rentabilidad. Los cuatro escenarios son los de la tesis; los controles de abajo te dejan moverlos. Ojo: los márgenes de OCI (50–58%) son supuestos, el SBC y el arrendamiento operativo están en cero en el motor, y el base va un 21–35% por debajo de la guía en FY28–FY30. Estos sesgos inflan el valor.</p></div>
+  <div class="wide" id="cards" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:.7rem;margin-bottom:1rem"></div>
+
+  <div class="widget" id="w1" aria-label="Simulador de escenarios">
+    <h3>Simulador de escenarios</h3>
+    <p class="sub">Mueve la tasa, el crecimiento de OCI, la rentabilidad y los pesos. El motor es el de la tesis. Todo se recalcula en tu navegador.</p>
+    <div class="presets" role="group" aria-label="Preajustes">
+      <button class="btn" data-p="mercado" aria-pressed="true">Tasa de mercado (10,26%)</button>
+      <button class="btn" data-p="erp" aria-pressed="false">ERP 3,70% (≈9,7%)</button>
+      <button class="btn" data-p="beta" aria-pressed="false">Beta de 36 m (13,1%)</button>
+      <button class="btn" data-p="base-rate" aria-pressed="false">Pesos de tasa base</button>
+      <button class="btn" data-p="guia" aria-pressed="false">Cree en la guía (100% alcista)</button>
+      <button class="btn" data-p="generoso" aria-pressed="false">Lo más generoso</button>
+    </div>
+    <div class="ctrls">
+      <div class="ctrl"><label for="s_wacc">WACC <output id="o_wacc"></output></label><input type="range" id="s_wacc" min="8" max="13.5" step="0.05" value="10.26"></div>
+      <div class="ctrl"><label for="s_k">Crecimiento de OCI, años 1–5 <output id="o_k"></output></label><input type="range" id="s_k" min="0.6" max="1.3" step="0.01" value="1"></div>
+      <div class="ctrl"><label for="s_m">Margen EBITDA de OCI (pp sobre cada escenario) <output id="o_m"></output></label><input type="range" id="s_m" min="-10" max="10" step="0.5" value="0"></div>
+      <div class="ctrl"><label for="s_i">Intensidad de capex terminal (pp) <output id="o_i"></output></label><input type="range" id="s_i" min="-8" max="8" step="0.5" value="0"></div>
+      <div class="ctrl"><label for="s_wc">Peso colapso <output id="o_wc"></output></label><input type="range" id="s_wc" min="0" max="40" step="1" value="10"></div>
+      <div class="ctrl"><label for="s_wb">Peso bajista <output id="o_wb"></output></label><input type="range" id="s_wb" min="0" max="50" step="1" value="25"></div>
+      <div class="ctrl"><label for="s_wa">Peso alcista <output id="o_wa"></output></label><input type="range" id="s_wa" min="0" max="100" step="1" value="25"></div>
+    </div>
+    <p class="small" id="wnote"></p>
+    <div id="figPaths" class="fig" style="margin:.6rem 0"></div>
+    <div id="figVals" class="fig" style="margin:.6rem 0"></div>
+    <div class="out" id="out"></div>
+    <div class="res" id="res" aria-live="polite"></div>
+  </div>
+
+  <div class="widget" id="w2">
+    <h3>¿Qué tienes que creer para que 130,55 sea justo?</h3>
+    <p class="sub">Con la tasa del simulador, ¿qué probabilidad de alcista exige el precio según cuánta cola dejas? La cola es la suma de colapso y bajista, donde el equity vale cero.</p>
+    <div class="ctrls">
+      <div class="ctrl"><label for="s_tail">Probabilidad de cola (colapso + bajista) <output id="o_tail"></output></label><input type="range" id="s_tail" min="0" max="60" step="1" value="35"></div>
+      <div class="ctrl"><label for="s_px">Precio de entrada <output id="o_px"></output></label><input type="range" id="s_px" min="40" max="220" step="1" value="130"></div>
+    </div>
+    <div class="out" id="out2"></div>
+    <div class="res" id="res2" aria-live="polite"></div>
+  </div>
+
+  <div class="widget" id="w3">
+    <h3>Lupa del precio: qué margen exige cada precio</h3>
+    <p class="sub">Sobre la senda base, el margen EBITDA terminal de OCI que hace falta para que el valor iguale el precio. Con la tasa del simulador.</p>
+    <div class="ctrls"><div class="ctrl"><label for="s_lupa">Precio <output id="o_lupa"></output></label><input type="range" id="s_lupa" min="50" max="220" step="1" value="130"></div></div>
+    <div class="out" id="out3"></div><div class="res" id="res3" aria-live="polite"></div>
+  </div>
+
+  <div class="wide">
+    <div class="fig"><h4>Valor por acción según el margen terminal de OCI y la intensidad de capex</h4><p class="sub">Senda base y senda alcista, WACC 10,26%. Verde = al precio o por encima (≥130,55); azul = ≥80% del precio.</p>
+      <div class="lg"><span><i style="background:var(--moss-bg)"></i>≥ precio</span><span><i style="background:var(--sky-bg)"></i>80–100%</span><span><i style="background:var(--paper2);border:1px solid var(--line2)"></i>50–80%</span><span><i style="background:var(--clay-bg)"></i>&lt; 50%</span></div>
+      <div class="scroll" id="heats" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(21rem,1fr));gap:1rem"></div>
+      <p class="src">Fuente: motor de la tesis (<code>resultados_paso9.txt</code>). <span class="tg i">INFERENCIA</span></p></div>
+    <div class="fig"><h4>El ruido del instrumento: 20.000 simulaciones de la mezcla ponderada</h4><p class="sub">Tasa ±1 pp, margen terminal ±5 pp, crecimiento ×0,8–1,2, g∞ ±0,5 pp, margen del software ±2 pp. Media 79, σ ≈26.</p>
+      <div id="figMC"></div><p class="src">P(valor ponderado &gt; 130,55) = 3,5%. P(un futuro realizado vale más que el precio) ≈ 23% con los pesos de la tesis. <span class="tg i">INFERENCIA</span></p></div>
+  </div>
+  <div class="col">
+    <h3>Candado C: ¿cruza el precio con ±2 pp?</h3>
+    <div class="scroll"><table class="tight heat"><thead><tr><th>WACC</th><th>g años 3–5 −2 pp</th><th>0</th><th>+2 pp</th></tr></thead><tbody id="ccTab"></tbody></table></div>
+    <p class="small">Sobre el escenario base. Con la tasa 2 pp más baja (8,26%) el valor cruza el precio: <strong>no decidible como cifra puntual</strong>; se publica la banda. El cruce depende de la tasa, no del crecimiento.</p>
+    <h3>Qué paga el precio por OCI</h3>
+    <p>Capitalización 398 B + reclamaciones netas 118 B = <strong>EV implícito 517 B</strong>. El software vale 209 B en el base (244 en el alcista): el precio le asigna a OCI <strong>308 B</strong> (base) o 272 B (alcista), frente a los 131 y 419 B del modelo. Si OCI valiera cero, el software solo vale ≈30 USD por acción.</p>
+  </div>
+</section>
+
+<!-- PASO 10 -->
+<section class="sec col" id="paso10">
+  <div class="sn">Paso 10 · Candado A · agentes en contexto limpio</div>
+  <h2>El examinador que no comparte el entusiasmo de la sesión</h2>
+  <div id="candadoA"><div class="callout"><h4>En curso</h4><p>Seis revisores independientes leen la tesis sin el historial de esta sesión: abogado del diablo, abogado ángel, auditor de modelo, auditor de reglas, verificador de hechos nuevos y crítico de completitud. Aquí aparece su resultado.</p></div></div>
+  <p class="small"><strong>Verificadores previos (Pasos 2–8):</strong> V_R1 finanzas, 22 de 30 confirmados, 4 refutados (el ROIC TTM es un rango de 11,1 a 13,5%, no 11,8%). V_R8 formas de morir, 29 de 41 confirmados, 4 refutados (gastos del segmento +50%, no +77%). V_R3 negocio y RPO, 27 de 27 confirmados. V_R4 gobierno, 27 de 28 (un refutado en parte: interlock Catz–Paramount Skydance omitido). V_R6 competencia, 25 de 30 confirmados, 1 refutado (convertibles 4,2 B), 4 degradados. V_R7 tasa, 27 de 30 confirmados, 1 refutado (rendimiento implícito 7,38%), 2 degradados. V_R2 deuda, 21 de 25 confirmados, 1 refutado (84,6% es del importe en libros, no del par). V_R5 foso, 22 de 36 confirmados, 1 refutado («doce años encogiéndose»), 13 degradados.</p>
+</section>
+
+<!-- PASO 11 -->
+<section class="sec" id="paso11">
+  <div class="col"><div class="sn">Paso 11 · veredicto, seis campos anti-limbo, delta</div><h2>El veredicto, con su precio, su tamaño y su caducidad</h2>
+  <div class="verdict"><span class="state" id="vstate2">Provisional</span><p class="vs">Cuatro salidas posibles, una sola elegida</p><p class="vb" id="vbig2">NO, por precio. Caso de compra archivado 12 meses.</p>
+  <p class="vt">Test del hoy: NO. La posición viva (9 acciones, 0,86% del NAV) no se toca: vigilancia sin añadir, con tres factores pre-registrados.</p></div></div>
+  <div class="wide">
+    <div class="six">
+      <div class="c"><div class="t">1 · P_justo</div><div class="v">Banda 71–94 USD<br><span class="muted" style="font-weight:400;font-size:.8rem">no decidible como punto (σ ≈26)</span></div></div>
+      <div class="c"><div class="t">2 · P_tramo1 (MoS 27%, Frontera)</div><div class="v">52–68 USD</div></div>
+      <div class="c"><div class="t">3 · Tamaño en %NAV</div><div class="v">Compra nueva 0% · posición viva 0,86%, sin añadir</div></div>
+      <div class="c"><div class="t">4 · Alternativa real</div><div class="v">Efectivo 7.718 USD (5,76%) al 5,21%, o recortar MELI (20,5% frente al tope de 15%)</div></div>
+      <div class="c fail"><div class="t">5 · Alcanzabilidad (cierre, 24 m)</div><div class="v">FALLA: ≤106 frente a mínimo 114,99 (24-jul-2026)</div></div>
+      <div class="c"><div class="t">6 · Caducidad</div><div class="v">[CADUCA: 2027-10-15]<br><span class="muted" style="font-weight:400;font-size:.8rem">revisión anticipada si el 8-K de diciembre cumple 3 de 4 del falsador</span></div></div>
+    </div>
+  </div>
+  <div class="col">
+    <h3>Las puertas de la regla de venta, sobre tus 9 acciones</h3>
+    <ul class="clean">
+      <li><strong>Puerta 1, tesis rota.</strong> Con la beta de 60 meses no abre (ROIC TTM 11,1–13,5% &gt; 10,4%). Con la de 36 meses (11,6–13,1%) abre en el umbral. Decide Felipe.</li>
+      <li><strong>Puerta 2, sobrevaloración extrema (&gt;2× el valor central).</strong> 1,77×: no abre.</li>
+      <li><strong>Puerta 3, tamaño.</strong> 0,86% frente a un tope de 15%: irrelevante.</li>
+    </ul>
+    <p>El test del hoy es NO, y eso invierte la carga de la prueba hacia mantener. Pero vender un lote de 0,86% comprado ayer sería operar sin puerta y sumar turnover a un trigger ya encendido (≈55% anualizado). Mantenerlo sin regla sería compromiso. Los tres factores cierran ese hueco con una regla escrita antes del dato.</p>
+    <h3>La cartera en conjunto (IBKR, 15-oct)</h3>
+  </div>
+  <div class="wide"><div class="fig"><div id="figPort"></div><p class="src">Fuente: IBKR, posiciones y NAV de 134.096,74 USD. La cadena de IA ancha (TSM + GOOGL + AMZN + MSFT + ORCL) suma 26,9% frente a un tope de 20% que la v2 fijó para la cadena de contraparte de IA; en la lectura estricta de cadena OpenAI (MSFT + ORCL) es 3,2%. <span class="tg h">HECHO</span> <span class="tg i">INFERENCIA</span></p></div></div>
+  <div class="col">
+    <h3>El delta frente a tu monólogo</h3>
+    <ul class="clean">
+      <li>El negocio que explica el crecimiento y el capex es otro, y el mecanismo del Paso 1 no lo cubre.</li>
+      <li>La recurrencia del legado es real, pero ya no crece (soporte −1%).</li>
+      <li>La caja operativa está inflada por prepagos con componente financiero.</li>
+      <li>La empresa emitió acciones a ≈141 y el fundador tiene 413 M pignoradas.</li>
+      <li>El crecimiento rinde el coste del capital.</li>
+      <li>El precio paga la guía entera con casi cero cola.</li>
+    </ul>
+    <div class="callout sky"><h4>Propuesta de monólogo final (la reescribes tú)</h4><p><em>«Oracle tiene dos negocios: uno cautivo y rentable que paga la deuda y no crece, y otro, alquilar capacidad de IA, que crece mucho, se financia con deuda, acciones y los prepagos de unos pocos clientes, y hoy rinde apenas su coste de capital. A 130 el precio paga la guía entera. Compré 9 acciones antes de entenderlo; lo que me tienta es la caída de −58%, no el retorno futuro. No añado; escribo qué dato me haría salir.»</em></p></div>
+  </div>
+</section>
+
+<!-- PASO 12 -->
+<section class="sec" id="paso12">
+  <div class="col"><div class="sn">Paso 12 · diario y predicciones falsables</div><h2>Apostar por escrito, antes del dato</h2>
+  <p>Pre-registro para el 8-K y el 10-Q del segundo trimestre de FY27 (≈10 de diciembre de 2026). Los umbrales son supuestos calibrados con los incrementos secuenciales de OCI (3,3 → 4,1 → 4,9 → 5,8 → 7,4 B).</p></div>
+  <div class="wide"><div class="scroll"><table>
+    <thead><tr><th>#</th><th>Predicción</th><th>Si ocurre lo contrario</th></tr></thead>
+    <tbody>
+    <tr><td>P1</td><td>OCI del 2T FY27 entre <b>8,3 y 9,3 B</b>. Menos de 8,0 B activa M2.</td><td>≥10,0 B: el alcista gana peso.</td></tr>
+    <tr><td>P2</td><td>RPO ≥ <b>664 B</b>, sin renegociación de contratos.</td><td>RPO a la baja secuencial sin atribución: M1 activo.</td></tr>
+    <tr><td>P3</td><td>«Net cash outlay» de capex ≥ <b>15 B</b>; FCF negativo; prepagos financieros ≥5 B.</td><td>FCF ≥ 0 sin prepagos financieros: primer punto del falsador.</td></tr>
+    <tr><td>P4</td><td>Acciones ≥ <b>3.024 M</b>; sin nuevo ATM ≥15 B antes de mayo de 2027.</td><td>Nuevo ATM ≥15 B: M3 activo.</td></tr>
+    <tr><td>P5</td><td>Soporte ≤ <b>−1% cc</b>, tercer trimestre seguido, sin cifra de migración.</td><td>Soporte ≥ +2% cc: M5 refutado.</td></tr>
+    </tbody></table></div></div>
+  <div class="col">
+    <h3>Tres factores para las 9 acciones</h3>
+    <div class="ko" style="margin:.4rem 0 1rem">
+      <div class="c"><div class="t">A · Contraparte y ejecución</div><p>OCI &lt; 8,0 B <b>o</b> RPO a la baja secuencial.</p></div>
+      <div class="c"><div class="t">B · Anualidad</div><p>Soporte ≤−3% cc <b>o</b> ≤−1% tercer trimestre sin cifra de migración.</p></div>
+      <div class="c"><div class="t">C · Coste de capital</div><p>Emisión a 10 años ≥7,5% <b>o</b> rebaja de dos agencias <b>o</b> ATM/preferente ≥15 B.</p></div>
+    </div>
+    <p><strong>0 o 1 factores:</strong> mantener la vigilancia (0,86%), no añadir, revisar tras el 3T FY27. <strong>2 o más:</strong> salir del lote en la primera sesión posterior (puerta 1, «motor apagado»). Son supuestos fijados hoy, sin backtest.</p>
+    <div class="callout"><h4>Gate y diario: solo propuestos</h4><p>La adenda a <code>gates.md</code> y el borrador de diario viven en <code>Tesis/ORCL/propuestas/</code>. Ninguna se aplica sin tu aprobación. La compra del 14-oct es un <strong>registro tardío</strong>: ejecutada sin tesis y con el candado B4 cerrado; el método exige registro el mismo día y antes de conocer el resultado. Calificación de proceso: fallido.</p></div>
+    <h3>Decisiones que solo tú puedes escribir</h3>
+    <ul class="clean"><li>ERP único para todas las tesis (4,20% o 3,70%).</li><li>La beta que define «motor apagado» (60 o 36 meses).</li><li>La convención de SBC/FCF con FCF negativo.</li><li>Las 9 acciones: mantener con los tres factores o salir.</li><li>Tope de concentración de la cadena de IA y de MELI.</li><li>Bloque de margen de seguridad de ORCL.</li><li>Cierre de las cinco caducidades vencidas.</li><li>Tu monólogo del Paso 11.</li></ul>
+  </div>
+</section>
+
+<section class="sec col" id="lagunas">
+  <div class="sn">Lo que no se pudo verificar</div><h2>Lagunas y fuentes</h2>
+  <ul class="clean">
+    <li>Sin transcripciones primarias ni consenso de analistas.</li>
+    <li>Kd central 7,40% mezcla dato secundario e inferencia; con Kd de filing el WACC es 10,12%.</li>
+    <li>Pesos de escenario: supuesto. El alcista está 3–4× por encima de la tasa base.</li>
+    <li>Prepagos de clientes (16 B) tratados como reclamación; Oracle no revela la cancelabilidad de los contratos de IA.</li>
+    <li>Los 288 B de arrendamientos no iniciados tienen una sola fuente primaria y el motor no los modela con pagos explícitos: si el margen de OCI no está ya neto de esa renta, el valor del modelo está sobrestimado.</li>
+    <li>Posible doble conteo de la preferente en el puente (≈1,6 USD por acción).</li>
+    <li><strong>Sesgos del modelo que favorecen el caso de compra:</strong> el margen EBITDA de OCI (50–58%) es un supuesto y el único margen publicado (55%) es del segmento combinado; el SBC está en 0 (es ≈7% de los ingresos); el arrendamiento operativo está en 0 (34,6 B de pasivo). El valor de 74 USD es un techo razonable, no un centro.</li>
+    <li>Calificaciones, CDS y rendimientos de bonos: prensa.</li>
+    <li>Fecha del 8-K del 2T FY27: secundaria.</li>
+    <li>El Paso 0 se selló después de la compra: declarado, no reparable.</li>
+  </ul>
+  <p class="small"><strong>Fuentes primarias:</strong> SEC EDGAR (CIK 0001341439): 10-K FY17–FY26, 10-Q, 8-K, 424B, DEF 14A, Formularios 4, XBRL; Microsoft, Amazon, Alphabet y CoreWeave en EDGAR; FRED y Treasury.gov; Damodaran; <strong>IBKR en vivo</strong> (posiciones, operaciones, precio y cierres, 15-oct-2026). Del proyecto: gates.md, Metodología v1, Recalibración v2, Motor v3, Acta B4. Detalle completo, cifras con su fuente y el motor en <code>Tesis/ORCL/2026-10-14_UltraTesis_ORCL_metodo12.md</code>.</p>
+  <footer><p class="small">No es asesoría de inversión ni una orden: es la salida del método y de las reglas de Felipe aplicada a los datos del 14–15 de octubre de 2026. La decisión y la ejecución son suyas.</p></footer>
+</section>
+</main>
+
+<script>
+/*__MOTOR__*/
+</script>
+<script>
+const D = /*__DATA__*/;
+(function(){
+'use strict';
+const $ = (id)=>document.getElementById(id);
+const fmt = (x,d=0)=>{ if(!isFinite(x)) return '—'; return x.toLocaleString('es-ES',{minimumFractionDigits:d,maximumFractionDigits:d}); };
+const pct = (x,d=0)=>fmt(x*100,d)+'%';
+const PRECIO = D.precio, MIN24 = D.alcanzabilidad.min_cierre_24m;
+const NAMES = {colapso:'Colapso',bajista:'Bajista',base:'Base',alcista:'Alcista'};
+const COL = {colapso:'var(--clay-ink)',bajista:'var(--clay)',base:'var(--sky)',alcista:'var(--moss)'};
+const COLTXT = {colapso:'var(--clay-ink)',bajista:'var(--clay-ink)',base:'var(--sky-ink)',alcista:'var(--moss-ink)'};
+const el = (tag,attrs,html)=>{ const e=document.createElementNS('http://www.w3.org/2000/svg',tag); for(const k in attrs) e.setAttribute(k,attrs[k]); if(html!==undefined) e.textContent=html; return e; };
+
+/* ---------- chrome ---------- */
+const idxBtn=$('idxBtn'), idx=$('idx');
+idxBtn.addEventListener('click',()=>{ const h=idx.hidden; idx.hidden=!h; idxBtn.setAttribute('aria-expanded',String(h)); });
+idx.addEventListener('click',(e)=>{ if(e.target.closest('a')){ idx.hidden=true; idxBtn.setAttribute('aria-expanded','false'); }});
+const prog=$('prog');
+const onScroll=()=>{ const h=document.documentElement; const t=h.scrollHeight-h.clientHeight; prog.style.width=(t>0?Math.min(100,h.scrollTop/t*100):0)+'%'; };
+window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+
+/* ---------- utilidades SVG ---------- */
+function svgBox(w,h){ const s=document.createElementNS('http://www.w3.org/2000/svg','svg'); s.setAttribute('viewBox',`0 0 ${w} ${h}`); s.setAttribute('role','img'); return s; }
+function lin(d0,d1,r0,r1){ return v=>r0+(v-d0)*(r1-r0)/(d1-d0); }
+function mount(id,svg,label){ const c=$(id); if(!c) return; svg.setAttribute('aria-label',label||''); c.replaceChildren(svg); }
+function path(pts){ return pts.map((p,i)=>(i?'L':'M')+p[0].toFixed(1)+' '+p[1].toFixed(1)).join(' '); }
+function yGrid(svg,y,ticks,x0,x1,labelFn){ ticks.forEach(t=>{ svg.appendChild(el('line',{x1:x0,x2:x1,y1:y(t),y2:y(t),class:'gl'})); svg.appendChild(el('text',{x:x0-6,y:y(t)+3.5,'text-anchor':'end',class:'ax'},labelFn?labelFn(t):String(t))); }); }
+
+/* ---------- figura: segmentos FY26 ---------- */
+(function(){
+  const seg=[['Soporte de software',19804,'var(--sky)'],['Software SaaS',15888,'var(--sky)'],['Servicios',5743,'var(--stone)'],['Licencias nuevas',4737,'var(--sky)'],['Hardware',3084,'var(--stone)'],['OCI (infraestructura cloud)',18101,'var(--clay)']];
+  const W=760,rowH=34,H=seg.length*rowH+30; const s=svgBox(W,H); const x=lin(0,22000,210,730);
+  [0,5000,10000,15000,20000].forEach(t=>{ s.appendChild(el('line',{x1:x(t),x2:x(t),y1:6,y2:H-22,class:'gl'})); s.appendChild(el('text',{x:x(t),y:H-6,'text-anchor':'middle',class:'ax'},fmt(t/1000)+' B')); });
+  seg.forEach((r,i)=>{ const y=8+i*rowH; s.appendChild(el('text',{x:202,y:y+17,'text-anchor':'end'},r[0])); s.appendChild(el('rect',{x:x(0),y:y+2,width:x(r[1])-x(0),height:22,rx:4,style:`fill:${r[2]}`})); s.appendChild(el('text',{x:x(r[1])+6,y:y+18,class:'num'},fmt(r[1])));});
+  mount('figSeg',s,'Ingresos de Oracle FY26 por línea: soporte 19.804, SaaS 15.888, OCI 18.101, servicios 5.743, licencias 4.737, hardware 3.084 millones de USD');
+  const lg=document.createElement('div'); lg.className='lg'; lg.innerHTML='<span><i style="background:var(--sky)"></i>Legado recurrente</span><span><i style="background:var(--clay)"></i>OCI</span><span><i style="background:var(--stone)"></i>Otros</span>'; $('figSeg').prepend(lg);
+})();
+
+/* ---------- figura: OCI trimestral + RPO ---------- */
+(function(){
+  const q=[['1T26',3.347],['2T26',4.079],['3T26',4.888],['4T26',5.787],['1T27',7.388]];
+  const r=[['FY19',36.2],['FY20',37.0],['FY21',41.3],['FY22',46.6],['FY23',67.9],['FY24',97.9],['FY25',137.8],['FY26',638.0],['1T27',664.0]];
+  const W=760,H=300; const s=svgBox(W,H);
+  // izquierda
+  const x1=lin(0,5,50,340), y1=lin(0,8,250,30);
+  yGrid(s,y1,[0,2,4,6,8],50,350,t=>t+' B');
+  q.forEach((d,i)=>{ const bx=x1(i)+6; s.appendChild(el('rect',{x:bx,y:y1(d[1]),width:44,height:y1(0)-y1(d[1]),rx:3,style:'fill:var(--clay)'})); s.appendChild(el('text',{x:bx+22,y:y1(d[1])-6,'text-anchor':'middle',class:'num'},fmt(d[1],1))); s.appendChild(el('text',{x:bx+22,y:270,'text-anchor':'middle',class:'ax'},d[0])); });
+  s.appendChild(el('text',{x:50,y:16,style:'font-weight:600'},'OCI por trimestre (B USD)'));
+  // derecha
+  const x2=lin(0,9,420,740), y2=lin(0,700,250,30);
+  yGrid(s,y2,[0,200,400,600],420,745,t=>t+' B');
+  r.forEach((d,i)=>{ const bx=x2(i)+3; s.appendChild(el('rect',{x:bx,y:y2(d[1]),width:28,height:y2(0)-y2(d[1]),rx:3,style:'fill:var(--sky)'})); if(i>=6) s.appendChild(el('text',{x:bx+14,y:y2(d[1])-6,'text-anchor':'middle',class:'num'},fmt(d[1],d[1]>100?0:1))); s.appendChild(el('text',{x:bx+14,y:270,'text-anchor':'middle',class:'ax'},d[0])); });
+  s.appendChild(el('text',{x:420,y:16,style:'font-weight:600'},'RPO total (B USD)'));
+  mount('figOci',s,'OCI por trimestre de 3,3 a 7,4 B USD; RPO de 36 B en FY19 a 664 B en el 1T FY27');
+})();
+
+/* ---------- figura: ROIC ---------- */
+(function(){
+  const yrs=['FY17','FY18','FY19','FY20','FY21','FY22','FY23','FY24','FY25','FY26','TTM'];
+  const v=[25.0,24.3,26.8,27.1,28.7,19.0,16.1,14.7,14.8,13.0,11.8];
+  const W=760,H=320; const s=svgBox(W,H); const x=lin(0,10,70,700), y=lin(0,32,280,20);
+  yGrid(s,y,[0,5,10,15,20,25,30],70,720,t=>t+'%');
+  s.appendChild(el('rect',{x:70,y:y(10.4),width:650,height:y(9.4)-y(10.4),style:'fill:var(--sky-bg)'}));
+  s.appendChild(el('text',{x:76,y:y(9.4)+13,style:'fill:var(--sky-ink);font-weight:600'},'WACC de mercado 9,4–10,4%'));
+  [11.6,13.1].forEach(t=>{ s.appendChild(el('line',{x1:70,x2:720,y1:y(t),y2:y(t),style:'stroke:var(--clay);stroke-dasharray:5 4;stroke-width:1.2'})); });
+  s.appendChild(el('text',{x:716,y:y(13.1)-5,'text-anchor':'end',style:'fill:var(--clay-ink);font-weight:600'},'WACC con β de 36 m: 11,6–13,1%'));
+  s.appendChild(el('path',{d:path(v.map((d,i)=>[x(i),y(d)])),class:'lnk',style:'stroke:var(--ink);stroke-width:2.2'}));
+  v.forEach((d,i)=>{ s.appendChild(el('circle',{cx:x(i),cy:y(d),r:i===10?5.5:3.6,style:`fill:${i===10?'var(--clay)':'var(--ink)'}`})); s.appendChild(el('text',{x:x(i),y:y(i===10?13.5:d)-9,'text-anchor':'middle',class:'num',style:i===10?'font-weight:700':''},i===10?'11,1–13,5':fmt(d,1))); s.appendChild(el('text',{x:x(i),y:300,'text-anchor':'middle',class:'ax'},yrs[i])); });
+  s.appendChild(el('line',{x1:x(10),x2:x(10),y1:y(11.1),y2:y(13.5),style:'stroke:var(--clay);stroke-width:3;stroke-linecap:round'}));
+  mount('figRoic',s,'ROIC de Oracle: 25,0% en FY17, 28,7% en FY21, 13,0% en FY26 y 11,8% TTM, frente a un WACC de 9,4 a 10,4%');
+})();
+
+/* ---------- figura: caja ---------- */
+(function(){
+  const yrs=['FY17','FY18','FY19','FY20','FY21','FY22','FY23','FY24','FY25','FY26','TTM'];
+  const cfo=[14.1,15.4,14.6,13.1,15.9,9.5,17.2,18.7,20.8,32.0,46.9], cap=[2.0,1.7,1.7,1.6,2.1,4.5,8.7,6.9,21.2,55.7,75.7];
+  const W=760,H=340; const s=svgBox(W,H); const x=lin(0,11,70,730), y=lin(0,80,290,24);
+  yGrid(s,y,[0,20,40,60,80],70,735,t=>t+' B');
+  const bw=22;
+  yrs.forEach((l,i)=>{ const cx=x(i)+30; s.appendChild(el('rect',{x:cx-bw-1,y:y(cfo[i]),width:bw,height:y(0)-y(cfo[i]),rx:2,style:'fill:var(--sky)'})); s.appendChild(el('rect',{x:cx+1,y:y(cap[i]),width:bw,height:y(0)-y(cap[i]),rx:2,style:'fill:var(--clay)'})); s.appendChild(el('text',{x:cx,y:308,'text-anchor':'middle',class:'ax'},l)); });
+  [[8,'−0,4'],[9,'−23,7'],[10,'−28,7']].forEach(([i,t])=>{ const cx=x(i)+30; s.appendChild(el('text',{x:cx,y:324,'text-anchor':'middle',style:'fill:var(--clay-ink);font-weight:700'},'FCF '+t)); });
+  s.appendChild(el('text',{x:x(0)+22,y:326,class:'ax'},'FCF = CFO − capex'));
+  mount('figCash',s,'CFO y capex por año fiscal: el capex pasa de 6,9 B en FY24 a 55,7 B en FY26; el FCF es −23,7 B en FY26 y −28,7 B TTM');
+  const lg=document.createElement('div'); lg.className='lg'; lg.innerHTML='<span><i style="background:var(--sky)"></i>CFO</span><span><i style="background:var(--clay)"></i>Capex</span>'; $('figCash').prepend(lg);
+})();
+
+/* ---------- figura: propiedad ---------- */
+(function(){
+  const W=760,H=120; const s=svgBox(W,H); const x=lin(0,100,30,730);
+  s.appendChild(el('rect',{x:x(0),y:30,width:x(100)-x(0),height:34,rx:4,style:'fill:var(--paper2);stroke:var(--line2)'}));
+  s.appendChild(el('rect',{x:x(0),y:30,width:x(38.2)-x(0),height:34,rx:4,style:'fill:var(--sky)'}));
+  s.appendChild(el('rect',{x:x(38.2-13.6),y:30,width:x(38.2)-x(38.2-13.6),height:34,style:'fill:var(--clay)'}));
+  s.appendChild(el('text',{x:x(0)+8,y:52,style:'fill:#fff;font-weight:600'},'Ellison no pignorado 24,6%'));
+  s.appendChild(el('text',{x:x(38.2-13.6/2),y:82,'text-anchor':'middle',style:'fill:var(--clay-ink);font-weight:700'},'pignorado 13,6% de Oracle'));
+  s.appendChild(el('text',{x:x(38.2)+8,y:52},'38,2%'));
+  s.appendChild(el('text',{x:x(100),y:52,'text-anchor':'end',class:'ax'},'Resto de accionistas 61,8%'));
+  s.appendChild(el('text',{x:30,y:20,style:'font-weight:600'},'Propiedad de Oracle (3.031 M de acciones)'));
+  mount('figOwn',s,'Ellison posee el 38,2% de Oracle, con 13,6 puntos pignorados');
+})();
+
+/* ---------- figura: CFO 1T FY27 ---------- */
+(function(){
+  const W=760,H=150; const s=svgBox(W,H); const x=lin(0,23103,30,730);
+  const parts=[['Prepagos con componente financiero',11363,'var(--clay)'],['Otros ingresos diferidos',3997,'var(--clay-ink)'],['El resto del CFO (≈7.700)',7743,'var(--sky)']];
+  let acc=0; parts.forEach(p=>{ const x0=x(acc), w=x(acc+p[1])-x(acc); s.appendChild(el('rect',{x:x0,y:40,width:w,height:36,style:`fill:${p[2]};stroke:var(--card);stroke-width:2`})); s.appendChild(el('text',{x:x0+w/2,y:63,'text-anchor':'middle',style:'fill:#fff;font-weight:700'},fmt(p[1]))); acc+=p[1]; });
+  s.appendChild(el('text',{x:30,y:22,style:'font-weight:600'},'CFO 1T FY27 = 23.103 M'));
+  s.appendChild(el('text',{x:x(11363/2),y:98,'text-anchor':'middle',style:'fill:var(--clay-ink)'},'prepagos: cero hace un año'));
+  s.appendChild(el('text',{x:x(11363+3997+7743/2),y:98,'text-anchor':'middle',style:'fill:var(--sky-ink)'},'operación sin diferidos'));
+  s.appendChild(el('text',{x:30,y:128,class:'ax'},'Capex del trimestre 28.499 · «net cash outlay» de Oracle 17.966 · FCF −5.396'));
+  mount('figCfo',s,'De los 23.103 M de CFO del 1T FY27, 11.363 M son prepagos con componente financiero y 3.997 M otros diferidos');
+})();
+
+/* ---------- figura: cartera ---------- */
+(function(){
+  const nav=134096.74; const rows=[['MELI',27450,'tope de ruina 15%'],['DUOL',20700,''],['TSM',11439.6,''],['GOOGL',11266.2,''],['AMZN',8992.8,''],['MSFT',3168,''],['ORCL',1153,'']];
+  const W=760,rowH=30,H=rows.length*rowH+60; const s=svgBox(W,H); const x=lin(0,24,110,700);
+  [0,5,10,15,20,25].forEach(t=>{ s.appendChild(el('line',{x1:x(t),x2:x(t),y1:24,y2:H-26,class:'gl'})); s.appendChild(el('text',{x:x(t),y:H-10,'text-anchor':'middle',class:'ax'},t+'%')); });
+  s.appendChild(el('line',{x1:x(15),x2:x(15),y1:24,y2:H-26,style:'stroke:var(--clay);stroke-dasharray:5 4;stroke-width:1.4'}));
+  s.appendChild(el('text',{x:x(15)+4,y:18,style:'fill:var(--clay-ink);font-weight:600'},'tope de ruina 15%'));
+  rows.forEach((r,i)=>{ const y=28+i*rowH, p=r[1]/nav*100; const ai=['TSM','GOOGL','AMZN','MSFT','ORCL'].includes(r[0]); s.appendChild(el('text',{x:102,y:y+16,'text-anchor':'end',style:r[0]==='ORCL'?'font-weight:700':''},r[0])); s.appendChild(el('rect',{x:x(0),y:y+2,width:x(p)-x(0),height:20,rx:3,style:`fill:${r[0]==='ORCL'?'var(--clay)':ai?'var(--sky)':'var(--stone)'}`})); s.appendChild(el('text',{x:x(p)+6,y:y+17,class:'num'},fmt(p,1)+'%')); });
+  mount('figPort',s,'Cartera: MELI 20,5% y DUOL 15,4% del NAV; cadena de IA ancha 26,9% (TSM 8,5, GOOGL 8,4, AMZN 6,7, MSFT 2,4, ORCL 0,9)');
+  const lg=document.createElement('div'); lg.className='lg'; lg.innerHTML='<span><i style="background:var(--sky)"></i>Cadena de IA/capex</span><span><i style="background:var(--clay)"></i>ORCL</span><span><i style="background:var(--stone)"></i>Resto</span>'; $('figPort').prepend(lg);
+})();
+
+/* ---------- figura: precio 24 m con bandas ---------- */
+(function(){
+  const f=D.precios.fechas, c=D.precios.cierres, N=c.length;
+  const W=760,H=380; const s=svgBox(W,H); const x=lin(0,N-1,64,736), y=lin(0,340,330,22);
+  yGrid(s,y,[0,50,100,150,200,250,300],64,740,t=>String(t));
+  const ticks=[]; let last=''; f.forEach((d,i)=>{ const m=d.slice(5,7), key=d.slice(0,7); if(['01','04','07','10'].includes(m) && key!==last){ ticks.push([i,d]); last=key; } });
+  const mn=['','ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+  ticks.forEach(t=>{ s.appendChild(el('text',{x:x(t[0]),y:352,'text-anchor':'middle',class:'ax'},mn[+t[1].slice(5,7)]+' '+t[1].slice(2,4))); });
+  // bandas
+  s.appendChild(el('rect',{x:64,y:y(94),width:672,height:y(71)-y(94),style:'fill:var(--sky-bg)'}));
+  s.appendChild(el('text',{x:730,y:y(82.5)+4,'text-anchor':'end',style:'fill:var(--sky-ink);font-weight:600'},'Valor ponderado 71–94'));
+  s.appendChild(el('rect',{x:64,y:y(68),width:672,height:y(52)-y(68),style:'fill:var(--clay-bg)'}));
+  s.appendChild(el('text',{x:730,y:y(60)+4,'text-anchor':'end',style:'fill:var(--clay-ink);font-weight:600'},'Primer tramo 52–68'));
+  // mínimo 24m
+  s.appendChild(el('line',{x1:64,x2:736,y1:y(MIN24),y2:y(MIN24),style:'stroke:var(--ink);stroke-dasharray:6 4;stroke-width:1.3'}));
+  s.appendChild(el('text',{x:70,y:y(MIN24)+14,style:'font-weight:600'},'Mínimo de cierre 24 m: '+fmt(MIN24,2)+' · 24-jul-2026'));
+  // línea de precio
+  const pts=c.map((v,i)=>[x(i),y(v)]);
+  s.appendChild(el('path',{d:path(pts)+` L${x(N-1)} ${y(0)} L${x(0)} ${y(0)} Z`,style:'fill:var(--ink);opacity:.05;stroke:none'}));
+  s.appendChild(el('path',{d:path(pts),class:'lnk',style:'stroke:var(--ink);stroke-width:1.6'}));
+  // pico de la ventana (328,33) y máximo de 52 s (313,00)
+  const iPk=c.indexOf(Math.max(...c)); const pk=c[iPk];
+  s.appendChild(el('circle',{cx:x(iPk),cy:y(pk),r:3.5,style:'fill:var(--ink)'}));
+  s.appendChild(el('text',{x:x(iPk)-8,y:y(pk)+4,'text-anchor':'end'},'Pico 328,33 · '+f[iPk].slice(8,10)+'-sep-2025'));
+  const iMax=f.indexOf(D.alcanzabilidad.fecha_max);
+  s.appendChild(el('circle',{cx:x(iMax),cy:y(313),r:3.5,style:'fill:var(--ink)'}));
+  s.appendChild(el('text',{x:x(iMax)+9,y:y(313)-14,style:'font-weight:600'},'Máx. de 52 s: 313,00 · 16-oct-2025'));
+  // mínimo
+  const iMin=f.indexOf(D.alcanzabilidad.fecha_min);
+  s.appendChild(el('circle',{cx:x(iMin),cy:y(MIN24),r:4.5,style:'fill:var(--ink)'}));
+  // hoy y compra
+  s.appendChild(el('line',{x1:x(N-1),x2:x(N-1),y1:y(PRECIO)-7,y2:y(268),style:'stroke:var(--clay);stroke-width:1.2'}));
+  s.appendChild(el('circle',{cx:x(N-1),cy:y(PRECIO),r:6,style:'fill:var(--clay);stroke:var(--card);stroke-width:2'}));
+  s.appendChild(el('text',{x:x(N-1)-4,y:y(268)-4,'text-anchor':'end',style:'fill:var(--clay-ink);font-weight:700'},'130,55 · cierre 14-oct'));
+  s.appendChild(el('text',{x:x(N-1)-4,y:y(268)-18,'text-anchor':'end',style:'fill:var(--clay-ink)'},'compra de 9 acc. a 129,86 (18:58 UTC)'));
+  mount('figPrice',s,'Precio de ORCL en 24 meses con el mínimo de cierre de 114,99 el 24 de julio de 2026, el valor ponderado de 71 a 94 USD y el primer tramo de 52 a 68 USD, ambos por debajo del mínimo');
+})();
+
+/* ---------- figura: MC ---------- */
+(function(){
+  const h=D.mc_mezcla.hist, cnt=h.counts, ed=h.edges; const W=760,H=300; const s=svgBox(W,H);
+  const mx=Math.max(...cnt); const x=lin(0,250,50,740), y=lin(0,mx*1.08,250,24);
+  yGrid(s,y,[0,Math.round(mx/2/100)*100,Math.round(mx/100)*100],50,745,t=>fmt(t/200,1)+'%');
+  cnt.forEach((n,i)=>{ const x0=x(ed[i])+1, w=x(ed[i+1])-x(ed[i])-2; const above=ed[i]>=PRECIO-10; s.appendChild(el('rect',{x:x0,y:y(n),width:w,height:y(0)-y(n),style:`fill:${ed[i]>=130?'var(--moss)':'var(--sky)'}`})); });
+  [0,50,100,150,200,250].forEach(t=>s.appendChild(el('text',{x:x(t),y:270,'text-anchor':'middle',class:'ax'},String(t))));
+  s.appendChild(el('line',{x1:x(PRECIO),x2:x(PRECIO),y1:24,y2:250,style:'stroke:var(--clay);stroke-width:2;stroke-dasharray:5 4'}));
+  s.appendChild(el('text',{x:x(PRECIO)+6,y:40,style:'fill:var(--clay-ink);font-weight:700'},'precio 130,55'));
+  const m=D.mc_mezcla; [['p5',m.p5],['media',m.media],['p95',m.p95]].forEach(([l,v],i)=>{ s.appendChild(el('line',{x1:x(v),x2:x(v),y1:y(0)-4,y2:y(0)+4,style:'stroke:var(--ink);stroke-width:2'})); s.appendChild(el('text',{x:x(v),y:290,'text-anchor':'middle',style:'font-weight:600'},l+' '+fmt(v))); });
+  s.appendChild(el('text',{x:50,y:16,style:'font-weight:600'},'Valor ponderado por acción (USD) · % de las simulaciones'));
+  mount('figMC',s,'Distribución del valor ponderado: media 79, p5 42, p95 124; el precio de 130,55 queda en la cola derecha');
+})();
+
+/* ---------- heatmaps ---------- */
+(function(){
+  const box=$('heats'); ['base','alcista'].forEach(k=>{ const g=D.rejilla[k]; const t=document.createElement('table'); t.className='heat tight';
+    let h=`<caption style="text-align:left;font:600 .86rem var(--sans);padding:0 0 .4rem">Senda ${k}</caption><thead><tr><th>Margen \\ capex</th>${g.intensidades.map(i=>`<th class="n">${Math.round(i*100)}%</th>`).join('')}</tr></thead><tbody>`;
+    g.margenes.forEach((m,ri)=>{ h+=`<tr><th>${Math.round(m*100)}%</th>`+g.vps[ri].map(v=>{ const cl=v>=PRECIO?'a':v>=.8*PRECIO?'b':v>=.5*PRECIO?'c':'d'; return `<td class="${cl}">${fmt(v,0)}</td>`; }).join('')+'</tr>'; });
+    t.innerHTML=h+'</tbody>'; const w=document.createElement('div'); w.className='scroll'; w.appendChild(t); box.appendChild(w); });
+  const cc=$('ccTab'); const byW={}; D.candado_c.forEach(r=>{ (byW[r.wacc]=byW[r.wacc]||{})[r.dg]=r.vps; });
+  Object.keys(byW).forEach(w=>{ const r=byW[w]; cc.insertAdjacentHTML('beforeend',`<tr><th>${fmt(+w*100,2)}%</th>${[-0.02,0,0.02].map(d=>{ const v=r[d]; const cl=v>=PRECIO?'a':v>=.8*PRECIO?'b':v>=.5*PRECIO?'c':'d'; return `<td class="${cl}">${fmt(v,0)}</td>`; }).join('')}</tr>`); });
+})();
+
+/* ---------- motor vivo ---------- */
+const M = window.ORCLMotor;
+const st = {wacc:.1026,k:1,dm:0,di:0,w:{colapso:.10,bajista:.25,alcista:.25}};
+function cfgOf(name){ const c=JSON.parse(JSON.stringify(D.configs[name])); c.wacc=st.wacc;
+  c.B.g=c.B.g.map((g,i)=>i<5?g*st.k:g);
+  const dm=st.dm/100, di=st.di/100;
+  c.B.margen_ebitda=c.B.margen_ebitda.map(x=>Math.max(.05,x+dm)); c.B.margen_ebitda_terminal=Math.max(.05,c.B.margen_ebitda_terminal+dm);
+  c.B.intensidad_capex_terminal=Math.max(.05,c.B.intensidad_capex_terminal+di);
+  c.precio=PRECIO; return c; }
+function weights(){ const wc=st.w.colapso, wb=st.w.bajista, wa=st.w.alcista; const base=1-wc-wb-wa; return {colapso:wc,bajista:wb,base:base,alcista:wa}; }
+function compute(){ const out={}; Object.keys(NAMES).forEach(n=>{ const c=cfgOf(n); const r=M.run(c); out[n]={vps:r.vps,rev:r.tabB.map(t=>t.rev),tir:r.vps>0?M.irr10(c,PRECIO):null}; });
+  const w=weights(); let pond=0; Object.keys(NAMES).forEach(n=>{ pond+=w[n]*Math.max(out[n].vps,0); }); return {sc:out,w,pond}; }
+
+function cardsInit(){ const info={colapso:['M1 ocurre en FY28','El cliente dominante incumple; capacidad ociosa.'],bajista:['Contraparte renegocia y retrasa','OCI crece, muy por debajo de la guía.'],base:['Se entrega, con retraso','Va por detrás de la guía desde FY28.'],alcista:['Se cumple la guía','OCI ≈142 B en FY30 con mejor rotación de capital.']};
+  const box=$('cards'); box.innerHTML=''; Object.keys(NAMES).forEach(n=>{ const d=document.createElement('div'); d.className='kpi'; d.id='card_'+n; d.style.borderTop=`4px solid ${COL[n]}`; d.innerHTML=`<div class="k">${NAMES[n]}</div><div class="v" id="cv_${n}" style="color:${COLTXT[n]}">—</div><div class="d"><b>${info[n][0]}</b><br>${info[n][1]}</div><div class="d" id="cd_${n}" style="margin-top:.4rem"></div>`; box.appendChild(d); }); }
+
+function pathsFig(res){ const W=760,H=340; const s=svgBox(W,H); const x=lin(0,10,64,690), ymax=Math.max(230,Math.max(...Object.values(res.sc).map(o=>Math.max(...o.rev)))/1000*1.05), y=lin(0,ymax,290,22);
+  const ticks=[0,50,100,150,200].filter(t=>t<=ymax); yGrid(s,y,ticks,64,700,t=>t+' B');
+  for(let i=0;i<=10;i++){ s.appendChild(el('text',{x:x(i),y:312,'text-anchor':'middle',class:'ax'},'FY'+(26+i))); }
+  // guía de Oracle
+  const guia=[[0,18],[1,32],[2,73],[3,114],[4,144]];
+  s.appendChild(el('path',{d:path(guia.map(g=>[x(g[0]),y(g[1])])),class:'lnk',style:'stroke:var(--ink);stroke-width:1.2;stroke-dasharray:2 4'}));
+  guia.forEach(g=>{ const cx=x(g[0]),cy=y(g[1]); s.appendChild(el('path',{d:`M${cx} ${cy-5} L${cx+5} ${cy} L${cx} ${cy+5} L${cx-5} ${cy} Z`,style:'fill:var(--card);stroke:var(--ink);stroke-width:1.5'})); });
+  s.appendChild(el('text',{x:x(4)-12,y:y(144)-10,'text-anchor':'end',style:'font-weight:600'},'guía de Oracle (sep-2025): 144 B en FY30'));
+  Object.keys(NAMES).forEach(n=>{ const rev=[18.101,...res.sc[n].rev.map(v=>v/1000)]; s.appendChild(el('path',{d:path(rev.map((v,i)=>[x(i),y(v)])),class:'lnk',style:`stroke:${COL[n]};stroke-width:2.6`})); s.appendChild(el('text',{x:x(10)+6,y:y(rev[10])+4,style:`fill:${COLTXT[n]};font-weight:600`},NAMES[n]+' '+fmt(rev[10],0))); });
+  s.appendChild(el('text',{x:64,y:14,style:'font-weight:600'},'Ingresos de OCI por escenario (B USD) frente a la guía'));
+  return s; }
+
+function valsFig(res){ const W=760,H=250; const s=svgBox(W,H); const mx=Math.max(PRECIO*1.15,...Object.values(res.sc).map(o=>o.vps))*1.05; const x=lin(0,mx,130,730);
+  const ticks=[0,50,100,150,200,250,300,350].filter(t=>t<=mx); ticks.forEach(t=>{ s.appendChild(el('line',{x1:x(t),x2:x(t),y1:18,y2:200,class:'gl'})); s.appendChild(el('text',{x:x(t),y:216,'text-anchor':'middle',class:'ax'},String(t))); });
+  const rows=[...Object.keys(NAMES),'pond']; rows.forEach((n,i)=>{ const yy=24+i*34; const isP=n==='pond'; const v=isP?res.pond:res.sc[n].vps; const lab=isP?'Ponderado':NAMES[n];
+    s.appendChild(el('text',{x:122,y:yy+17,'text-anchor':'end',style:isP?'font-weight:700':''},lab));
+    const pos=Math.max(v,0); s.appendChild(el('rect',{x:x(0),y:yy+2,width:Math.max(0,x(pos)-x(0)),height:22,rx:3,style:`fill:${isP?'var(--ink)':COL[n]}`}));
+    const txt=v<0?`${fmt(v,0)} → equity 0`:fmt(v,0); s.appendChild(el('text',{x:x(pos)+6,y:yy+18,class:'num',style:'font-weight:600'},txt)); });
+  s.appendChild(el('line',{x1:x(PRECIO),x2:x(PRECIO),y1:12,y2:204,style:'stroke:var(--clay);stroke-width:2;stroke-dasharray:5 4'}));
+  s.appendChild(el('text',{x:x(PRECIO)+5,y:12,style:'fill:var(--clay-ink);font-weight:700'},'precio 130,55'));
+  return s; }
+
+function render(){ const res=compute(); const w=res.w;
+  Object.keys(NAMES).forEach(n=>{ const o=res.sc[n]; $('cv_'+n).textContent=(o.vps<0?fmt(o.vps,0)+' → 0':fmt(o.vps,0))+' USD'; $('cd_'+n).innerHTML=`Peso ${pct(w[n])}<br>`+(o.vps>0?`TIR 10 a. a 130,55: <b>${pct(o.tir,1)}</b>`:'Pérdida del equity')+`<br>Retorno vs precio: <b>${pct(Math.max(o.vps,0)/PRECIO-1)}</b>`; });
+  mount('figPaths',pathsFig(res),'Ingresos de OCI por escenario frente a la guía de Oracle'); mount('figVals',valsFig(res),'Valor por acción de cada escenario y ponderado frente al precio');
+  const tramo=res.pond*(1-.27); const pass=tramo>=MIN24; const pv=res.pond>0?PRECIO/res.pond:Infinity;
+  $('out').innerHTML=`<div class="kpi info"><div class="k">Valor ponderado</div><div class="v">${fmt(res.pond,0)}</div><div class="d">USD por acción</div></div><div class="kpi ${pv>1.2?'warn':'good'}"><div class="k">Precio / valor</div><div class="v">${isFinite(pv)?fmt(pv,2)+'×':'—'}</div><div class="d">a 130,55</div></div><div class="kpi"><div class="k">Primer tramo (−27%)</div><div class="v">${fmt(tramo,0)}</div><div class="d">USD</div></div><div class="kpi ${pass?'good':'warn'}"><div class="k">Alcanzabilidad</div><div class="v">${pass?'Pasa':'Falla'}</div><div class="d">frente a mínimo ${fmt(MIN24,2)}</div></div>`;
+  const r=$('res'); const ret=res.pond/PRECIO-1;
+  r.innerHTML=`Con estos supuestos el valor ponderado es <b class="${ret<0?'bad':'good'}">${fmt(res.pond,0)} USD</b> (${ret<0?'':'+'}${pct(ret)} frente al precio). El primer tramo sería ${fmt(tramo,0)} USD y la prueba de alcanzabilidad <b class="${pass?'good':'bad'}">${pass?'pasa':'falla'}</b> (mínimo de cierre de 24 meses: ${fmt(MIN24,2)}).`+(pass?' Para llegar aquí hace falta creer casi sin cola en la guía completa.':' La tesis solo emitiría «todavía» si el primer tramo estuviera por encima de ese mínimo.');
+  // widget 2
+  render2(res); render3();
+  $('o_wacc').textContent=fmt(st.wacc*100,2)+'%'; $('o_k').textContent='×'+fmt(st.k,2); $('o_m').textContent=(st.dm>=0?'+':'')+fmt(st.dm,1)+' pp'; $('o_i').textContent=(st.di>=0?'+':'')+fmt(st.di,1)+' pp';
+  $('o_wc').textContent=pct(st.w.colapso); $('o_wb').textContent=pct(st.w.bajista); $('o_wa').textContent=pct(st.w.alcista);
+  const b=w.base; $('wnote').innerHTML=`Peso del escenario base: <b>${pct(b)}</b> (el resto hasta 100%).`+(b<0?' <b style="color:var(--clay-ink)">Los pesos suman más de 100%: reduce alguno.</b>':'');
+}
+function render2(res){ const va=res.sc.alcista.vps, vb=res.sc.base.vps; const tail=+$('s_tail').value/100, px=+$('s_px').value; $('o_tail').textContent=pct(tail); $('o_px').textContent=fmt(px,0)+' USD';
+  const rest=1-tail; // reparto del resto entre base y alcista: px = rest*(a*va + (1-a)*vb)
+  const need=(px/rest - vb)/(va-vb); const maxv=rest*va; const imp=need>1||px>maxv; const reqA=Math.max(0,need)*rest;
+  $('out2').innerHTML=`<div class="kpi ${imp?'warn':'info'}"><div class="k">Alcista requerido</div><div class="v">${imp?'Imposible':pct(need*rest)}</div><div class="d">${imp?'incluso con todo el resto en alcista':'probabilidad absoluta de la senda guiada'}</div></div><div class="kpi"><div class="k">Máximo alcanzable</div><div class="v">${fmt(maxv,0)}</div><div class="d">USD con todo el resto en alcista</div></div><div class="kpi"><div class="k">Cola</div><div class="v">${pct(tail)}</div><div class="d">colapso + bajista, equity 0</div></div>`;
+  $('res2').innerHTML=imp?`Con <b class="bad">${pct(tail)}</b> de cola, ni poniendo todo el resto en el escenario alcista el valor llega a ${fmt(px,0)} USD (máximo ${fmt(maxv,0)}). Para que ${fmt(px,0)} sea justo hay que bajar la cola o creer en rentabilidades por encima de la guía.`:`Con ${pct(tail)} de cola, ${fmt(px,0)} USD exige una probabilidad absoluta de <b class="${need*rest>.5?'bad':'good'}">${pct(need*rest)}</b> para la senda guiada completa (y ${pct(rest-need*rest)} para el base).`; }
+function render3(){ const px=+$('s_lupa').value; $('o_lupa').textContent=fmt(px,0)+' USD'; const c0=cfgOf('base');
+  const vps=(m)=>{ const c=JSON.parse(JSON.stringify(c0)); c.B.margen_ebitda_terminal=m; c.B.margen_ebitda=c.B.margen_ebitda.map((x,i)=>i>=5?Math.min(x,m):x); return M.run(c).vps; };
+  let lo=.05,hi=.95; const top=vps(hi), bot=vps(lo); let m=null;
+  if(px<=bot) m=lo; else if(px>=top) m=null; else { for(let i=0;i<50;i++){ const mid=(lo+hi)/2; if(vps(mid)<px) lo=mid; else hi=mid; } m=(lo+hi)/2; }
+  const base=c0.B.margen_ebitda_terminal;
+  $('out3').innerHTML=`<div class="kpi ${m===null||m>.7?'warn':'info'}"><div class="k">Margen terminal exigido</div><div class="v">${m===null?'>95%':pct(m,0)}</div><div class="d">modelo base: ${pct(base,0)}</div></div><div class="kpi"><div class="k">Valor al margen del modelo</div><div class="v">${fmt(vps(base),0)}</div><div class="d">USD por acción</div></div>`;
+  $('res3').innerHTML=m===null?`A ${fmt(px,0)} USD ni con 95% de margen EBITDA en OCI se justifica la senda base.`:(m>.7?`Hace falta un margen EBITDA de <b class="bad">${pct(m,0)}</b> en OCI: más que cualquier operador de infraestructura.`:`Hace falta un margen EBITDA terminal de <b class="${m>base+.03?'bad':'good'}">${pct(m,0)}</b> frente al ${pct(base,0)} del modelo base.`); }
+
+const PRE={
+  mercado:{wacc:10.26,k:1,dm:0,di:0,w:[10,25,25]},
+  erp:{wacc:9.7,k:1,dm:0,di:0,w:[10,25,25]},
+  beta:{wacc:13.1,k:1,dm:0,di:0,w:[10,25,25]},
+  'base-rate':{wacc:10.26,k:1,dm:0,di:0,w:[15,30,10]},
+  guia:{wacc:10.26,k:1,dm:0,di:0,w:[0,0,100]},
+  generoso:{wacc:8.0,k:1.15,dm:3,di:-3,w:[5,15,40]}
+};
+function applyPre(key){ const p=PRE[key]; $('s_wacc').value=p.wacc; $('s_k').value=p.k; $('s_m').value=p.dm; $('s_i').value=p.di; $('s_wc').value=p.w[0]; $('s_wb').value=p.w[1]; $('s_wa').value=p.w[2]; read(); document.querySelectorAll('#w1 .presets .btn').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.p===key))); }
+function read(){ st.wacc=+$('s_wacc').value/100; st.k=+$('s_k').value; st.dm=+$('s_m').value; st.di=+$('s_i').value; st.w.colapso=+$('s_wc').value/100; st.w.bajista=+$('s_wb').value/100; st.w.alcista=+$('s_wa').value/100; render(); }
+['s_wacc','s_k','s_m','s_i','s_wc','s_wb','s_wa'].forEach(id=>$(id).addEventListener('input',()=>{ read(); document.querySelectorAll('#w1 .presets .btn').forEach(b=>b.setAttribute('aria-pressed','false')); }));
+['s_tail','s_px'].forEach(id=>$(id).addEventListener('input',()=>render2(compute())));
+$('s_lupa').addEventListener('input',render3);
+document.querySelectorAll('#w1 .presets .btn').forEach(b=>b.addEventListener('click',()=>applyPre(b.dataset.p)));
+cardsInit(); read();
+})();
+</script>
