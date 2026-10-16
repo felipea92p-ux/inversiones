@@ -1,0 +1,104 @@
+{
+ "_nota": "ORCL colapso — M1 ocurre (cliente dominante incumple en FY28): ingresos OCI caen, capacidad ociosa, margen 30%",
+ "precio": 130.55,
+ "acciones": 3050,
+ "wacc": 0.1026,
+ "tax": 0.199,
+ "g_inf": 0.042,
+ "t_primer_flujo": 0.63,
+ "frac_y1": 0.75,
+ "A": {
+  "_que": "Software & resto: SaaS 15.888 + soporte 19.804 + licencia 4.737 + hardware 3.084 + servicios 5.743 = 49.256 FY26",
+  "rev0": 49256,
+  "g": [
+   0.01,
+   0.0,
+   -0.01,
+   -0.01,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "g_inf": 0.0,
+  "margen_ebit": [
+   0.38,
+   0.38,
+   0.38,
+   0.38,
+   0.38,
+   0.38,
+   0.38,
+   0.38,
+   0.38,
+   0.38
+  ],
+  "reinversion_pct_nopat": 0.05,
+  "sbc_pct_rev": 0.0
+ },
+ "B": {
+  "_que": "OCI/IaaS: rev0 FY26 18.101; capex histórico FY25 21.215 y FY26 55.663 para depreciar (6 años)",
+  "rev0": 18101,
+  "ppe0": 99957,
+  "capex_hist": [
+   1564,
+   2135,
+   4511,
+   8695,
+   6866,
+   21215,
+   55663
+  ],
+  "vida_util": 6,
+  "g": [
+   0.7,
+   -0.1,
+   -0.1,
+   0.0,
+   0.03,
+   0.03,
+   0.03,
+   0.03,
+   0.03,
+   0.03
+  ],
+  "capex": [
+   70000,
+   30000,
+   15000,
+   12000,
+   10000,
+   10000,
+   10000,
+   10000,
+   10000,
+   10000
+  ],
+  "margen_ebitda": [
+   0.45,
+   0.35,
+   0.3,
+   0.3,
+   0.3,
+   0.3,
+   0.3,
+   0.3,
+   0.3,
+   0.3
+  ],
+  "margen_ebitda_terminal": 0.3,
+  "intensidad_capex_terminal": 0.45,
+  "sbc_pct_rev": 0.0
+ },
+ "bridge": {
+  "deuda": 125337,
+  "leases_fin": 9185,
+  "leases_op": 0,
+  "preferentes": 5000,
+  "caja": 36369,
+  "inversiones": 708,
+  "prepagos_clientes": 16000
+ }
+}

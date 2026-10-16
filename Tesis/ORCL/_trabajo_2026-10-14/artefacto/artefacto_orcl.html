@@ -1,0 +1,958 @@
+<title>Oracle, constructor apalancado</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:wght@400;500;600;700&display=swap">
+<style>
+/* Concepto: lectura por pasos del método de 12 pasos; el escenario manda, el precio se mide contra él. */
+:root{
+  --paper:#faf9f5; --paper2:#f3f1e8; --card:#fffefb;
+  --ink:#141413; --ink2:#3a3935; --muted:#6a685f;
+  --line:#e8e6dc; --line2:#d5d2c4;
+  --clay:#d97757; --clay-ink:#b0502c; --clay-bg:#f8e5dc;
+  --sky:#6a9bcc; --sky-ink:#3b6b9a; --sky-bg:#e2ecf5;
+  --moss:#788c5d; --moss-ink:#566741; --moss-bg:#e8eddf;
+  --stone:#b0aea5; --oat:#ece9dd;
+  --serif:'Lora',Georgia,'Times New Roman',serif;
+  --sans:'Poppins','Helvetica Neue',Arial,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--paper:#141413;--paper2:#1c1b19;--card:#1d1c1a;--ink:#faf9f5;--ink2:#d9d7cc;--muted:#a6a499;--line:#2f2e2a;--line2:#413f39;--clay:#e18a6b;--clay-ink:#efa88e;--clay-bg:#3a2820;--sky:#7fb0dd;--sky-ink:#a3c8e8;--sky-bg:#212d39;--moss:#93a876;--moss-ink:#b2c498;--moss-bg:#272e20;--stone:#6f6d64;--oat:#262522;color-scheme:dark}
+}
+:root[data-theme="dark"]{--paper:#141413;--paper2:#1c1b19;--card:#1d1c1a;--ink:#faf9f5;--ink2:#d9d7cc;--muted:#a6a499;--line:#2f2e2a;--line2:#413f39;--clay:#e18a6b;--clay-ink:#efa88e;--clay-bg:#3a2820;--sky:#7fb0dd;--sky-ink:#a3c8e8;--sky-bg:#212d39;--moss:#93a876;--moss-ink:#b2c498;--moss-bg:#272e20;--stone:#6f6d64;--oat:#262522;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.68 var(--serif);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));-webkit-font-smoothing:antialiased}
+a{color:var(--sky-ink)}
+strong,b{font-weight:600}
+h1,h2,h3,h4{font-family:var(--sans);color:var(--ink);font-weight:600;letter-spacing:-.012em;margin:0;text-wrap:balance}
+h1{font-size:clamp(2rem,6.4vw,3.35rem);line-height:1.06}
+h2{font-size:clamp(1.55rem,4.6vw,2.25rem);line-height:1.14;margin:0 0 1rem}
+h3{font-size:1.15rem;line-height:1.3;margin:2rem 0 .55rem}
+h4{font-size:.95rem;margin:0 0 .35rem}
+p{margin:0 0 1.1rem}
+.col{max-width:42rem;margin:0 auto;min-width:0}
+.wide{max-width:56rem;margin:0 auto;min-width:0}
+.sn{font:500 .74rem/1.3 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.small{font-size:.86rem;line-height:1.55;color:var(--ink2)}
+.muted{color:var(--muted)}
+.num{font-variant-numeric:tabular-nums}
+.sec{padding-block:3.4rem 1rem;border-top:1px solid var(--line)}
+.sec.first{border-top:0}
+.lead{font-size:1.12rem;color:var(--ink2)}
+/* barra superior */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);margin-inline:calc(-1*max(16px,env(safe-area-inset-left,0px)));padding-inline:max(16px,env(safe-area-inset-left,0px))}
+.top-in{max-width:56rem;margin:0 auto;display:flex;align-items:center;gap:.8rem;min-height:2.9rem}
+.brand{font:600 .82rem var(--sans);white-space:nowrap}
+.brand span{color:var(--clay-ink)}
+.prog{height:3px;background:var(--line);flex:1;border-radius:3px;overflow:hidden}
+.prog i{display:block;height:100%;width:0;background:var(--clay)}
+.btn{font:500 .78rem var(--sans);color:var(--ink);background:var(--card);border:1px solid var(--line2);border-radius:99px;padding:.38rem .8rem;cursor:pointer}
+.btn:hover{border-color:var(--clay)}
+input[type=range]:focus-visible{outline:none}
+input[type=range]:focus-visible::-webkit-slider-thumb{box-shadow:0 0 0 2px var(--paper2),0 0 0 4px var(--sky)}
+input[type=range]:focus-visible::-moz-range-thumb{box-shadow:0 0 0 2px var(--paper2),0 0 0 4px var(--sky)}
+.btn:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible,a:focus-visible{outline:2px solid var(--sky);outline-offset:2px}
+.idx{max-width:56rem;margin:0 auto;padding:.6rem 0 .9rem}
+.top .idx{max-height:calc(100dvh - 3.4rem);overflow-y:auto;overscroll-behavior:contain;border-top:1px solid var(--line)}
+.idx[hidden]{display:none}
+.idx ol{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(13rem,1fr));gap:.15rem .9rem}
+.idx a{display:block;font:500 .82rem/1.5 var(--sans);text-decoration:none;color:var(--ink2);padding:.15rem 0}
+.idx a b{color:var(--clay-ink);margin-right:.4rem;font-weight:600}
+.idx a:hover{color:var(--ink)}
+/* héroe y veredicto */
+.hero{padding-block:2.6rem 1.2rem}
+.kick{font:500 .8rem/1.5 var(--sans);color:var(--muted);max-width:40rem}
+.hero h1{margin:.6rem 0 1.1rem}
+.verdict{border-left:4px solid var(--clay);padding:.2rem 0 .2rem 1.05rem;margin:1.7rem 0 1.3rem}
+.verdict .vs{font:600 .72rem var(--sans);letter-spacing:.09em;text-transform:uppercase;color:var(--clay-ink);margin:0 0 .2rem}
+.verdict .vb{font:600 clamp(1.5rem,5vw,2.1rem)/1.15 var(--sans);margin:0 0 .5rem}
+.verdict .vt{font-size:.98rem;margin:0;color:var(--ink2);max-width:42rem}
+.state{display:inline-block;font:600 .7rem/1.3 var(--sans);letter-spacing:.06em;text-transform:uppercase;padding:.32rem .65rem;border-radius:12px;background:color-mix(in srgb,var(--clay-bg) 55%,var(--paper));color:var(--clay-ink);margin-bottom:.6rem}
+.state.ok{background:var(--moss-bg);color:var(--moss-ink)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(10.5rem,1fr));gap:.7rem;margin:1.6rem 0}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:.8rem .9rem;min-width:0}
+.kpi .k{font:500 .7rem/1.3 var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.kpi .v{font:600 1.45rem/1.15 var(--sans);margin:.2rem 0 .1rem;font-variant-numeric:tabular-nums}
+.kpi .d{font:400 .76rem/1.4 var(--sans);color:var(--ink2)}
+.kpi.warn .v{color:var(--clay-ink)} .kpi.good .v{color:var(--moss-ink)} .kpi.info .v{color:var(--sky-ink)}
+/* bloques */
+.callout{background:var(--paper2);border-left:3px solid var(--clay);padding:1rem 1.15rem;margin:1.5rem 0;border-radius:0 10px 10px 0}
+.callout.sky{border-left-color:var(--sky)} .callout.moss{border-left-color:var(--moss)}
+.callout h4{font-size:.9rem;margin-bottom:.4rem}
+.callout p:last-child,.callout ul:last-child{margin-bottom:0}
+.pull{font:500 1.35rem/1.4 var(--serif);font-style:italic;border-left:3px solid var(--line2);padding-left:1rem;margin:1.6rem 0;color:var(--ink)}
+.tg{font:600 .66rem/1 var(--sans);letter-spacing:.04em;padding:.2rem .38rem;border-radius:5px;vertical-align:.1em;white-space:nowrap}
+.tg.h{background:var(--moss-bg);color:var(--moss-ink)} .tg.i{background:var(--sky-bg);color:var(--sky-ink)} .tg.s{background:var(--clay-bg);color:var(--clay-ink)} .tg.x{background:var(--oat);color:var(--muted)}
+ul.clean{list-style:none;padding:0;margin:0 0 1.1rem}
+ul.clean li{padding:.3rem 0 .3rem 1.1rem;position:relative}
+ul.clean li::before{content:"";position:absolute;left:0;top:.95em;width:.45rem;height:.45rem;border-radius:50%;background:var(--clay)}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+@media (max-width:700px){.fig .scroll.sc::after,.scroll:has(>table.wide)::after{content:'Desliza para ver el resto →';display:block;font:500 .72rem var(--sans);color:var(--muted);text-align:right;position:sticky;left:0;padding-top:.2rem}
+.fig .scroll.sc.en::after{content:'← Desliza para ver el resto';text-align:left}}
+table{border-collapse:collapse;width:100%;font:400 .86rem/1.5 var(--sans)}
+th{font:600 .72rem var(--sans);text-align:left;color:var(--muted);border-bottom:1px solid var(--line2);padding:.5rem .6rem;background:var(--paper);white-space:nowrap}
+td{padding:.55rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll+.small,.scroll+p{margin-top:.8rem}
+.scroll>table.wide{min-width:30rem}
+.scroll>table:not(.heat) td.n{white-space:normal}
+table.tight td,table.tight th{padding:.4rem .5rem}
+/* figuras */
+.fig{margin:2rem auto}
+.fig h4{font:600 .98rem var(--sans);margin-bottom:.15rem}
+.fig .sub{font:400 .82rem/1.5 var(--sans);color:var(--muted);margin:0 0 .6rem}
+.fig .src{font:400 .72rem/1.5 var(--sans);color:var(--muted);margin:.5rem 0 0}
+svg{display:block;width:100%;height:auto;max-width:100%}
+svg text{font-family:var(--sans);fill:var(--ink2);font-size:11px}
+.gl{stroke:var(--line);stroke-width:1} .ax{fill:var(--muted);font-size:10.5px}
+.lnk{fill:none;stroke-linejoin:round;stroke-linecap:round}
+.lg{display:flex;flex-wrap:wrap;gap:.35rem 1rem;font:500 .76rem var(--sans);color:var(--ink2);margin:.2rem 0 .5rem}
+.lg i{display:inline-block;width:.8rem;height:.8rem;border-radius:3px;margin-right:.35rem;vertical-align:-.1em;box-shadow:inset 0 0 0 1px var(--line2)}
+/* widgets */
+.widget{border:1px solid var(--line2);border-radius:20px;background:var(--paper2);padding:1.2rem 1.15rem 1.3rem;margin:2.2rem auto;max-width:56rem}
+.widget>h3{margin:.1rem 0 .3rem;font-size:1.2rem}
+.widget>.sub{font:400 .86rem/1.5 var(--sans);color:var(--ink2);margin:0 0 1rem}
+.ctrls{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:.9rem 1.4rem;margin:.8rem 0 1.1rem}
+.ctrl label{display:flex;justify-content:space-between;gap:.5rem;font:500 .78rem var(--sans);color:var(--ink2)}
+.ctrl label output{white-space:nowrap;font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums}
+input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:30px;background:transparent;cursor:pointer;margin:0}
+input[type=range]::-webkit-slider-runnable-track{height:5px;border-radius:5px;background:var(--line2)}
+input[type=range]::-moz-range-track{height:5px;border-radius:5px;background:var(--line2)}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:20px;height:20px;border-radius:50%;background:var(--clay);border:3px solid var(--card);margin-top:-7.5px;box-shadow:0 0 0 1px var(--line2)}
+input[type=range]::-moz-range-thumb{width:16px;height:16px;border-radius:50%;background:var(--clay);border:3px solid var(--card)}
+.presets{display:flex;flex-wrap:wrap;gap:.45rem;margin:.2rem 0 .8rem}
+.presets .btn[aria-pressed="true"]{background:var(--clay);border-color:var(--clay);color:#141413}
+.widget .out.sticky-sum{position:sticky;top:calc(3rem + env(safe-area-inset-top,0px));z-index:5}
+.mini{position:sticky;top:calc(3rem + env(safe-area-inset-top,0px));z-index:5;display:flex;flex-wrap:wrap;gap:.2rem 1rem;font:500 .8rem var(--sans);background:var(--card);border:1px solid var(--line2);border-radius:10px;padding:.45rem .7rem;margin:0 0 .8rem;box-shadow:0 2px 8px color-mix(in srgb,var(--ink) 8%,transparent)}
+.mini b{font-variant-numeric:tabular-nums}
+.out{display:grid;grid-template-columns:repeat(auto-fit,minmax(9.5rem,1fr));gap:.6rem;margin:.9rem 0}
+.out .kpi{background:var(--card)}
+.res{font:500 .9rem/1.55 var(--sans);margin:.6rem 0 0;padding:.7rem .85rem;border-radius:10px;background:var(--card);border:1px solid var(--line)}
+.res b.bad{color:var(--clay-ink)} .res b.good{color:var(--moss-ink)}
+.heat td,.heat th{text-align:right;font-variant-numeric:tabular-nums;padding:.42rem .55rem}
+.heat th:first-child{text-align:left}
+.heat .a{background:var(--moss-bg);color:var(--moss-ink);font-weight:600} .heat .b{background:var(--sky-bg);color:var(--sky-ink)} .heat .c{background:var(--paper2);color:var(--ink2)} .heat .d{background:color-mix(in srgb,var(--clay-bg) 55%,var(--paper));color:var(--clay-ink)}
+.ko{display:grid;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));gap:.7rem}
+.ko .c{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:.85rem 1rem}
+.ko .c .t{font:600 .86rem var(--sans);margin-bottom:.2rem}
+.ko .c .r{font:600 .7rem var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--moss-ink)}
+.ko .c.edge .r{color:var(--clay-ink)}
+.ko .c p{font:400 .8rem/1.5 var(--sans);margin:.3rem 0 0;color:var(--ink2)}
+.pm{display:grid;gap:.7rem}
+.pm .m{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--clay);border-radius:0 12px 12px 0;padding:.75rem 1rem}
+.pm .m .t{font:600 .86rem var(--sans)} .pm .m p{font:400 .8rem/1.5 var(--sans);margin:.25rem 0 0;color:var(--ink2)}
+.cal{list-style:none;margin:0;padding:0;border-left:2px solid var(--line2)}
+.cal li{position:relative;padding:.1rem 0 .85rem 1.1rem;font:400 .84rem/1.5 var(--sans)}
+.cal li::before{content:"";position:absolute;left:-6px;top:.45rem;width:10px;height:10px;border-radius:50%;background:var(--clay)}
+.cal li b{display:block;font-weight:600}
+details{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:.55rem .9rem;margin:.6rem 0}
+summary{cursor:pointer;font:600 .86rem var(--sans)}
+details[open] summary{margin-bottom:.4rem}
+.six{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:.6rem;margin:1rem 0}
+.six .c{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:.7rem .9rem}
+.six .c .t{font:500 .68rem var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.six .c .v{font:600 1rem/1.35 var(--sans);margin:.2rem 0 0}
+.six .c.fail .v{color:var(--clay-ink)}
+footer{margin-top:4rem;padding:2rem 0 3rem;border-top:1px solid var(--line)}
+@media (max-width:560px){body{font-size:16px}.hero{padding-top:1.6rem}.sec{padding-top:3.5rem}.sec.first{padding-top:1.6rem}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+
+<div class="top"><div class="top-in">
+  <div class="brand">ORCL <span>·</span> Ultra Tesis</div>
+  <div class="prog" aria-hidden="true"><i id="prog"></i></div>
+  <button class="btn" id="idxBtn" aria-expanded="false" aria-controls="idx">Pasos</button>
+</div>
+<nav class="idx" id="idx" hidden aria-label="Índice por pasos"><ol>
+  <li><a href="#inicio"><b>·</b>Veredicto</a></li>
+  <li><a href="#paso0"><b>0</b>Lo que creías</a></li>
+  <li><a href="#paso1"><b>1</b>El mecanismo</a></li>
+  <li><a href="#negocio"><b>·</b>Dos negocios</a></li>
+  <li><a href="#paso2"><b>2</b>Knock-outs</a></li>
+  <li><a href="#paso3"><b>3</b>El foso</a></li>
+  <li><a href="#paso4"><b>4</b>Scuttlebutt</a></li>
+  <li><a href="#paso5"><b>5</b>Reinversión</a></li>
+  <li><a href="#paso6"><b>6</b>Gestión y caja</a></li>
+  <li><a href="#paso7"><b>7</b>Percepción variante</a></li>
+  <li><a href="#paso8"><b>8</b>Pre-mortem</a></li>
+  <li><a href="#paso9"><b>9</b>Valoración</a></li>
+  <li><a href="#escenarios"><b>·</b>Escenarios</a></li>
+  <li><a href="#paso10"><b>10</b>Candado A</a></li>
+  <li><a href="#paso11"><b>11</b>Veredicto</a></li>
+  <li><a href="#paso12"><b>12</b>Diario y gatillos</a></li>
+  <li><a href="#lagunas"><b>·</b>Lagunas y fuentes</a></li>
+</ol></nav></div>
+
+<main>
+<section class="hero wide sec first" id="inicio">
+  <p class="kick">Ultra Tesis de Oracle (NYSE: ORCL), método de doce pasos de la casa. Escrita el 14 y 15 de octubre de 2026. No hay puntaje ni ranking. Precio y posición vienen de IBKR en vivo.</p>
+  <h1>Oracle sigue vendiendo software, pero lo que justifica su capex y su deuda es otro negocio: construir capacidad de IA. Con deuda.</h1>
+  <p class="lead col" style="margin-inline:0">Un negocio cautivo y rentable que paga los intereses, y otro, alquilar capacidad de IA, que creció 121% en el último trimestre (77% en FY26), se financia con deuda, acciones y los prepagos de pocos clientes, y el capital nuevo del grupo ha rendido como mucho su coste (ROIC incremental ≤10,5% frente a un WACC de 10,26%). A 130 USD el precio es el 73% del valor de la guía cumplida: exige que el escenario alcista pese al menos 55%, y la tesis deja 35% a la cola.</p>
+  <div class="verdict">
+    <span class="state" id="vstate">Candado A ejecutado · v2 · pendientes tu cruce 10c y tu confirmación de la excepción (fila 23)</span>
+    <p class="vs">Veredicto del método</p>
+    <p class="vb" id="vbig">NO, por precio</p>
+    <p class="vt" id="vtext">El valor es ≈75 USD (sin SBC y con anulación optimista), con banda de 71 a 86 y ruido de ±26. El precio es entre 1,4 y 3,8 veces ese valor, según la elección documentada que se use. El primer tramo (52–63 USD con el margen de seguridad de 27%) nunca fue precio de cierre en 24 meses, cuyo mínimo es 114,99, y ningún margen de seguridad entre 0% y 35% lo cambia. El caso de compra queda archivado 12 meses y la compra nueva es 0% del NAV. Mi recomendación para tus 9 acciones (0,86%) es salir del lote. El método no permite vender por precio, así que la decisión es tuya y está en el Paso 11. Si no confirmas la excepción a la fila 23 con tus palabras, este documento es un borrador sin veredicto.</p>
+  </div>
+  <div class="kpis">
+    <div class="kpi"><div class="k">Cierre 14-oct</div><div class="v">130,55</div><div class="d">−58% desde el máximo de cierre de 52 semanas (313,00); −60% desde el de 24 meses (328,33)</div></div>
+    <div class="kpi info"><div class="k">Valor ponderado</div><div class="v">≈75</div><div class="d">banda 71–86 (WACC 9,7–10,4%) · σ ≈26 · sin SBC, con anulación optimista (≈51–60 con pesos de tasa base) · precio / valor ≈1,8×</div></div>
+    <div class="kpi warn"><div class="k">Asimetría a 130,55</div><div class="v" style="font-size:1.2rem">+37% / −44% / −100%</div><div class="d">alcista (+5% si el retorno marginal terminal = WACC) / base / bajista y colapso; ponderado −44%</div></div>
+    <div class="kpi warn"><div class="k">Alcanzabilidad</div><div class="v">Falla</div><div class="d">primer tramo ≤86 con margen de seguridad 0–35% (52–63 con 27%) frente a mínimo 114,99</div></div>
+    <div class="kpi"><div class="k">Tus 9 acciones</div><div class="v">0,86%</div><div class="d">coste 129,97 · NAV 134.097 USD · recomendación: salir (decides tú)</div></div>
+  </div>
+</section>
+
+<!-- PASO 0 -->
+<section class="sec col" id="paso0">
+  <div class="sn">Paso 0 · sellado el 14-oct (23:21 UTC, hora declarada)</div>
+  <h2>Lo que creías antes de abrir un solo filing</h2>
+  <div class="pull">«Oracle el pulpo gigante del software… cloud creciendo y con proyectos ligados a la IA y un Fundador que ha hecho historia. Gana dinero cobrando suscripción y por sus servicios.»</div>
+  <p>Inclinación declarada: <strong>inclinado a comprar</strong>. El monólogo describe bien el negocio de ayer: ubicuidad, recurrencia, el fundador. No dice nada de capital, deuda, capex, dilución, cliente concentrado ni precio. Esa ausencia es lo que el mercado está valorando en 2026. Tampoco dice por qué dudaría: el método pide ese tercer elemento, y «sin duda previa» es información. El monólogo tiene 44 palabras.</p>
+  <div class="callout">
+    <h4>Dato que el sello no podía contener</h4>
+    <p>IBKR muestra que las 9 acciones se compraron el <strong>14-oct a las 18:58 UTC</strong>, a 129,855, en un día de −8,8%. El Paso 0 se selló a las 23:21: <strong>4 h 22 min después</strong>. El método pide el monólogo antes de investigar y antes de decidir. Aquí captó a alguien que ya había comprado. «Inclinado a comprar» es la confirmación verbal de un acto ejecutado, un sesgo de compromiso en estado puro. El sello no se toca; se lee como defensa de una posición abierta. El abogado del diablo lo señaló como el sesgo probable: compromiso y consistencia con el acto ya ejecutado. Además la «lectura del radar» se escribió con la compra hecha y no está sellada: es una lectura posterior, no un prior. Y el orden de los sellos es declarado, no atestiguado: la única cota externa es un commit del 15-oct a las 00:08:32 UTC (82ff5a1) que ya contenía los resultados del Paso 9.</p>
+  </div>
+  <p class="small">Sesgos bajo vigilancia en esta tesis: halo del fundador y de la ubicuidad, anclaje al máximo (−58%), sesgo de acción, FOMO de la narrativa de IA y compromiso. Pregunta de Li Lu por el drawdown >25%: ¿la caída pone a prueba el círculo de competencia? Sí, y no lo supera para el activo que mantienes (Paso 1).</p>
+</section>
+
+<!-- PASO 1 -->
+<section class="sec col" id="paso1">
+  <div class="sn">Paso 1 · círculo de competencia · veto sin apelación</div>
+  <h2>El mecanismo en una frase</h2>
+  <div class="pull">«Lo hace porque sus sistemas se integran y complementa sus múltiples tentáculos.»</div>
+  <p>Nombra un mecanismo y sin jerga. La paráfrasis «coste de cambio de un stack multi-producto» es nuestra, no tuya. Para el negocio histórico el gate no detiene el proceso; para OCI no hay frase tuya. Y hay una tensión que el método obliga a escribir ya.</p>
+  <p>Ese mecanismo explica el negocio histórico: ≈73% de los ingresos de FY26 (49.256 de 67.357 M). No explica el negocio que, por inferencia, justifica el capex de 55,7 B (el 10-K no lo reparte por segmento: dice «primarily due to the expansion of our data centers») ni la ampliación de capital: <strong>alquilar capacidad de cómputo</strong> bajo contratos plurianuales con pocos clientes. Ahí el «tentáculo» es un contrato. Lo que describes es el negocio que paga la deuda; lo que se compra a 130 es la apuesta sobre el que la genera.</p>
+  <div class="callout sky"><h4>Pregunta J5 sobre OCI: sigue sin respuesta</h4><p>¿Puedes explicar en una frase cómo gana dinero OCI y por qué un cliente no se va? Si la respuesta es no, el veredicto deja de ser «NO, por precio» (caduca en 12 meses) y pasa a <strong>«NO, círculo de competencia»</strong>, sin caducidad, y tus 9 acciones quedan fuera de tu círculo.</p></div>
+</section>
+
+<!-- DOS NEGOCIOS -->
+<section class="sec" id="negocio">
+  <div class="col"><div class="sn">Contexto · ingresos FY26 y velocidad</div><h2>Dos negocios en el mismo cuerpo</h2>
+  <p>Uno es un monopolio de software que renueva. El otro es infraestructura de IA que se construye a un ritmo que ningún filing de Oracle había visto.</p></div>
+  <div class="wide">
+    <div class="fig"><h4>De dónde vienen los 67,4 B de ingresos de FY26</h4><p class="sub">Millones de USD. El 27% es OCI, pero explica el 79% del crecimiento de ingresos de FY26 (91% en el 1T FY27) y, por inferencia, la mayor parte del capex.</p>
+      <div id="figSeg"></div><p class="src">Fuente: 10-K FY26 y 8-K 4T FY26, tablas suplementarias de ingresos. <span class="tg h">HECHO</span></p></div>
+    <div class="fig"><h4>OCI por trimestre y backlog contratado</h4><p class="sub">Izquierda: ingresos de infraestructura cloud, B USD por trimestre (+121% en 1T FY27). Derecha: RPO total en B USD.</p>
+      <div id="figOci"></div><p class="src">Fuente: 8-K ex99.1 de cada trimestre; XBRL RPO. RPO ≤12 meses = 86,3 B (≈1,2× ingresos LTM). La cifra de OpenAI (≈300 B, ≈45% del RPO) es prensa. <span class="tg h">HECHO</span> <span class="tg x">SECUNDARIO</span></p></div>
+  </div>
+</section>
+
+<!-- PASO 2 -->
+<section class="sec" id="paso2">
+  <div class="col"><div class="sn">Paso 2 · binarios, solo HECHO</div><h2>Ninguno de los seis knock-outs dispara</h2>
+  <p>El método no admite «frontera»: o dispara con evidencia estructurada o no dispara. Ninguno dispara. Pero uno está en el umbral (ROIC) y otro dispararía con el 10-K FY27 si el FCF sigue ≤0 (SBC).</p></div>
+  <div class="wide"><div class="ko">
+    <div class="c edge"><div class="t">ROIC &lt; WACC ≥3 años</div><div class="r">No dispara · en el umbral</div><p>ROIC sobre capital total: 14,7% · 14,8% · 13,0% · TTM entre 10,8% y 13,5% según la definición (el 11,8% de la primera versión estaba mal calculado), frente a un WACC de 10,26%. Con la beta de 36 meses (WACC 11,6–13,1%) quedaría dentro de la banda.</p></div>
+    <div class="c edge"><div class="t">SBC &gt; 50% del FCF ajustado</div><div class="r">No dispara hoy · dispararía con el 10‑K FY27</div><p>Por la letra (CFO − capex) el FCF es negativo en FY25 y FY26: dos ejercicios completos, no tres. El tercero es FY27 (10-K de junio de 2027): si el FCF sigue ≤0, dispara. La convención de «capex de mantenimiento» (SBC 19,8%) no se adopta: es una decisión tuya.</p></div>
+    <div class="c"><div class="t">Restatement</div><div class="r">No dispara</div><p>Ninguna reexpresión por error en FY25–FY26 (casilla de la portada del 10-K FY26 sin marcar; opinión limpia; cero debilidades materiales): HECHO. FY17–FY24: DEGRADADO, 10-K fuera del corpus local.</p></div>
+    <div class="c"><div class="t">VIE</div><div class="r">No dispara</div><p>Cero menciones de «variable interest entity» en los 27 documentos EDGAR verificables del corpus local (HECHO por ausencia: prueba que Oracle no las revela, no que no existan). TikTok USDS JV (15%) por el método de la participación.</p></div>
+    <div class="c"><div class="t">Concentración de cliente</div><div class="r">No dispara</div><p>Ningún cliente ≥10% de ingresos en FY24–FY26, pero el RPO no se desglosa y el suelo con base HECHO es alto: un contrato «de más de 30 B de ingresos anuales desde FY28» (8-K del 30-jun-2025) sería ≥41% del OCI guiado de FY28 (30 de 73 B), y el salto de +317,5 B de RPO del 1T FY26 vino de cuatro contratos con tres clientes (8-K del 9-sep-2025). Los contratos de IA tienen menos de 18 meses. El riesgo vive en el RPO y va al Paso 8 (M1), no a este gate.</p></div>
+    <div class="c"><div class="t">Solvencia inminente</div><div class="r">No dispara</div><p>Sin going concern. Único covenant (cobertura neta de intereses ≥3,0×) declarado cumplido a 31-may-26; no hay declaración a 31-ago-26. Proxy propio (INFERENCIA): ≈9–11× en FY26 y ≈7–9× LTM; el EBITDA tendría que caer ≈70% para romperlo. Los bonos no tienen covenants financieros; las facilidades bancarias, cross-default a 500 M. El riesgo es el acceso a la financiación, no el covenant.</p></div>
+  </div>
+  <p class="small" style="margin-top:1rem">Contexto obligatorio (no gate): deuda neta/EBITDA 3,27× (FY26) → 2,60× (LTM); con arrendamientos y EBITDAR consistente, 4,15× → 3,54×. El LTM (2,60×) ya está dentro del umbral de vigilancia de la casa (2,5–3,0×). Propósito de la deuda: capex de crecimiento, dividendos y preferentes. <span class="tg h">HECHO</span> <span class="tg i">INFERENCIA</span></p></div>
+  <div class="wide">
+    <div class="fig"><h4>El retorno sobre el capital cayó de 28,7% (FY21, serie degradada) a 13,0% (FY26), y está entre 10,8% y 13,5% en el último año</h4><p class="sub">ROIC sobre capital total con fondo de comercio dentro (NOPAT al 20%). El TTM es un rango (10,8–13,5%) porque depende de cómo se promedie el capital, de si los prepagos cuentan como deuda y de si los arrendamientos operativos entran. La banda azul es el WACC de mercado (9,7–10,4%); las líneas rojas, el WACC si el mercado cobra la beta de 36 meses.</p>
+      <div id="figRoic"></div><p class="src">Fuente: cálculo propio sobre 10-K FY25 y FY26 y 10-Q 1T FY27 (corpus local); FY17–FY24 solo vía XBRL consolidado, de procedencia no re-verificable. Serie FY17–FY23: DEGRADADA. FY22 (19,0%) incluye un cargo de litigio de 4.700 M; sin él ≈27,2% (R1 §d.2, INFERENCIA). WACC en el Paso 9. <span class="tg i">INFERENCIA</span> <span class="tg x">DEGRADADO</span></p></div>
+  </div>
+</section>
+
+<!-- PASO 3 -->
+<section class="sec col" id="paso3">
+  <div class="sn">Paso 3 · mecanismo del foso, no su síntoma</div>
+  <h2>Un foso declarado por la empresa y no medido</h2>
+  <p><strong>Mecanismo.</strong> Costes de cambio de un stack multi-producto, anclados en un contrato de soporte anual, prepagado, con precio igual a un porcentaje de la licencia neta, que «substantially all» los clientes renuevan. Oracle no publica tasa de renovación: esa frase cualitativa es la única evidencia directa, y los márgenes del soporte que la respaldarían (86–91%) no se pudieron reproducir. <span class="tg h">HECHO</span> <span class="tg x">DEGRADADO</span></p>
+  <p><strong>Test de Sleep.</strong> En soporte, el ahorro de escala parece ir a la empresa (el precio sigue a la licencia, no al coste de servir). En cloud, la lectura más probable, no medida, es que no: el margen del segmento cloud & software cayó de 64% (FY24) a 59% (FY26) y 55% en el último trimestre, con gastos del segmento +50% frente a ingresos +33%. Ojo: es el margen del segmento combinado (incluye el soporte de alto margen y excluye I+D, G&A y SBC), el margen real de OCI es menor y no se desglosa, y la caída se debe en parte a la mezcla, así que la inferencia es débil. El ahorro iría al cliente o a construir capacidad.</p>
+  <h3>El ataque más serio que ya sobrevivió</h3>
+  <ul class="clean">
+    <li><strong>1990–91.</strong> Ingresos reconocidos al firmar, deuda a corto ×4,2, pérdida, demandas colectivas y SEC. Lo salvó reconocer el soporte a lo largo del periodo y un CFO nuevo. Cifras de la época: <span class="tg x">DEGRADADO</span></li>
+    <li><strong>Cloud tardío 2014–2020.</strong> Seis años de ingresos planos (+2,1%). Lo sostuvo la anualidad de soporte.</li>
+    <li><strong>Cerner (2022).</strong> Fondo de comercio de 18,6 B sin deterioro. Eso no discrimina: está dentro de un segmento de 57 B y el 10-K no da unidades de reporte ni margen sobre libros.</li>
+  </ul>
+  <div class="callout sky">
+    <h4>El reloj del foso ya arrancó, pero no donde se suele decir</h4>
+    <p>Licencias nuevas: −49,7% de FY14 a FY26, pero <strong>−31,8% fue en FY14–FY17</strong>; desde FY17 es −26,2%, con FY25 en +2,4%. Soporte −1% en moneda constante dos trimestres seguidos, aunque incluye el soporte de Cerner desde FY23 (el orgánico podría caer más). El vínculo SAP → soporte de Oracle DB es un salto lógico, no un hecho. Dos matices en sentidos opuestos: agrava que el soporte orgánico sin Cerner podría caer más que −1%; atenúa que los 5,4 B de cloud migrado son ingreso ganado, no soporte perdido, y que el −1% está dentro del redondeo. El −49,7% compara dos definiciones próximas de licencia, no una serie homogénea.</p>
+  </div>
+  <p><strong>Veredicto del Paso 3.</strong> Moat roto, no. Moat extraordinario, tampoco. El del legado lo afirma la empresa y no está medido: el soporte pasó de 19.229 M (FY17) a 19.804 M (FY26), +3,0% nominal en nueve años, ≈−16% en términos reales. Ni tasa de renovación ni margen reproducible. El de OCI no está demostrado: es alquiler de capacidad con precio spot observable. Cambiaríamos de opinión con una retención en dólares ≥95% publicada, o con soporte orgánico sin Cerner ≥0% en moneda constante.</p>
+</section>
+
+<!-- PASO 4 -->
+<section class="sec col" id="paso4">
+  <div class="sn">Paso 4 · tres fuentes, dos horas</div>
+  <h2>Quién se parece a Oracle y quién no</h2>
+  <p>Oracle está entre los hiperescaladores y CoreWeave en capex, FCF y apalancamiento. Su concentración de clientes no está cuantificada: el RPO no se desglosa y el ≈45% atribuido a un cliente es prensa (DEGRADADO).</p>
+  <div class="scroll"><table class="tight wide">
+    <thead><tr><th>Métrica</th><th class="n">ORCL</th><th class="n">CoreWeave</th><th class="n">Microsoft</th><th class="n">Alphabet</th><th class="n">Amazon</th></tr></thead>
+    <tbody>
+    <tr><td>Capex / ingresos</td><td class="n"><b>83%</b> (147% en 1T)</td><td class="n">201–303%</td><td class="n">35%</td><td class="n">38%</td><td class="n">22%</td></tr>
+    <tr><td>FCF (ORCL FY26; Alphabet y Amazon TTM; CoreWeave 6M)</td><td class="n"><b>−23,7 B</b></td><td class="n">−10,5 B (6M)</td><td class="n">+67 B</td><td class="n">+53 B</td><td class="n">−7,6 B</td></tr>
+    <tr><td>Deuda bruta / EBITDA</td><td class="n"><b>4,3×</b> (5,6× con leases)</td><td class="n">8,0×</td><td class="n">0,2×</td><td class="n">0,6×</td><td class="n">0,8×</td></tr>
+    <tr><td>Cliente dominante</td><td class="n">RPO sin desglose; suelo HECHO: un contrato &gt;30 B/año desde FY28</td><td class="n">Microsoft 67%</td><td class="n">OpenAI 7%</td><td class="n">n/d</td><td class="n">n/d</td></tr>
+    <tr><td>Vida útil contable de servidores y red</td><td class="n">6 años</td><td class="n">6 años</td><td class="n">2–6</td><td class="n">6</td><td class="n">5–6</td></tr>
+    </tbody></table></div>
+  <p class="small">Excepción de presupuesto: las «3 fuentes» son tres cestas de ≥9 documentos. Fuentes: 10-K/10-Q de cada empresa; CoreWeave verificado por V_R6. El «15%» del bono de CoreWeave es secundario. El capex en efectivo de CoreWeave subestima su inversión real en 11.151 M de pasivos de financiación de fabricantes (FY25). <span class="tg h">HECHO</span> <span class="tg i">INFERENCIA</span> (ratios)</p>
+  <h3>Qué hizo la empresa con su propio dinero</h3>
+  <ul class="clean">
+    <li>Vendió <strong>141 M de acciones a ≈141 USD</strong> (el máximo intradía fue 345; el máximo de cierre en 24 meses, 328,33; el de 52 semanas, 313,00). 20 B por ATM, agotado. Es una venta del emisor a mercado: indica a qué precio absorbió el mercado esa oferta. No dice que 141 sea el valor.</li>
+    <li>El 14-oct, tu día de compra, el crédito de CoreWeave se repreció (secundario) y ORCL cayó 8,8%: el mecanismo M3 del pre-mortem, en vivo. Un consejero, Rusckowski, compró 25.000 a 139,35 (Form 4 fuera del corpus: degradado). Ellison canceló sin vender su plan de hasta 50 M de acciones.</li>
+    <li>Catz ejerció 8,69 M de opciones y vendió todo a 203–217 en 2025. Los co-CEO tienen opciones a 308,46. Otras ventas en 12 meses: ≈642.000 acciones entre NEO y consejeros, con 400.000 de Henley a 156–166 (Form 4 fuera del corpus: degradado). «Única compra» vale para 14-oct-2025 a 1-oct-2026.</li>
+  </ul>
+  <p class="small">Lagunas: sin transcripciones primarias (Quartr pide reautenticación) y sin consenso de analistas (Bigdata.com sin créditos).</p>
+</section>
+
+<!-- PASO 5 -->
+<section class="sec" id="paso5">
+  <div class="col"><div class="sn">Paso 5 · g = reinversión × ROIC incremental</div><h2>El crecimiento se está comprando al coste del capital</h2>
+  <p>Nunca se asumen g y ROIC por separado. Con los números de Oracle:</p></div>
+  <div class="wide"><div class="kpis">
+    <div class="kpi warn"><div class="k">Tasa de reinversión FY26</div><div class="v">281%</div><div class="d">(capex 55.663 − D&A 9.294) / NOPAT 16.485. Con capex devengado y arrendamientos financieros: 325% (233% neto de financiación de proveedores y prepagos)</div></div>
+    <div class="kpi warn"><div class="k">ROIC incremental FY23→26</div><div class="v">10,5%</div><div class="d">ΔNOPAT 6.010 / Δcapital 57.079 (rezago de un año). Sin rezago: 9,0%; con prepagos como capital: 8,1–8,5%. Hacia delante, con la inversión de la propia senda base, el ROIC del grupo cae a 9,6% en FY27 y a ≈5–7% en FY28–FY31 (INFERENCIA del diablo, cota alta).</div></div>
+    <div class="kpi info"><div class="k">WACC de mercado</div><div class="v">≈10,3%</div><div class="d">margen sobre el coste del capital: ≈0 o negativo</div></div>
+    <div class="kpi info"><div class="k">Tasa base (≥50 B de ingresos)</div><div class="v">≈6–9%</div><div class="d">de las empresas de ≥50 B sostuvo ≥15% anual cinco años; conteo degradado (no reproducible con frames)</div></div>
+  </div></div>
+  <div class="wide">
+    <div class="fig"><h4>La caja operativa creció; el capex creció más</h4><p class="sub">Miles de millones USD por ejercicio fiscal. TTM a agosto de 2026.</p>
+      <div id="figCash"></div><p class="src">Fuente: estados de flujos, 10-K FY17–FY26 y 10-Q 1T FY27; TTM = FY26 + 1T FY27 − 1T FY26. <span class="tg h">HECHO</span></p></div>
+  </div>
+  <div class="col">
+    <p><strong>Qué limita el crecimiento.</strong> Financiación (FCF −28,7 B en los últimos doce meses, 288 B de arrendamientos por iniciar), energía y sitios (la construcción en curso es el 38–40% del PP&E neto, 32% del bruto) y demanda concentrada (RPO de 664 B, solo 86 B a ≤12 meses). <strong>Pista:</strong> la guía necesita que OCI pase de 18 a 144 B en cuatro años.</p>
+    <div class="callout"><h4>Peaje del escenario alcista: no pagado</h4><p>El alcista (≈ la guía) recibe 25% de peso en esta tesis: tres o cuatro veces la tasa base histórica. Es una anulación optimista y exige por escrito una clase de referencia alternativa, un mecanismo con dos fuentes primarias, un falsador fechado y un registro. Aquí no hay tasa de realización de backlog en el corpus y el RPO tiene una sola fuente. Por eso el central defendible usa pesos cercanos a la tasa base (15/30/45/10 → ≈51; 12/25/50/13 → ≈60) y el ≈75 es el valor «con anulación». Puedes comprobarlo en el simulador de escenarios.</p></div>
+  </div>
+</section>
+
+<!-- PASO 6 -->
+<section class="sec" id="paso6">
+  <div class="col"><div class="sn">Paso 6 · gestión e incentivos, leídos como texto</div><h2>Quién maneja la caja y qué le pagan por hacer</h2>
+  <p>Gestión competente, fundador con el 38% y un incentivo diseñado alrededor del volumen. Su estructura es la de un constructor al que se le paga por construir, sin señales de fraude ni opacidad.</p></div>
+  <div class="wide">
+    <div class="fig"><h4>Ellison: 38,2% de Oracle, de lo cual 13,6 puntos están pignorados</h4><p class="sub">413 M de acciones pignoradas como colateral de deuda personal (346 M hace un año: +19,4%). Ningún otro directivo pignora.</p>
+      <div id="figOwn"></div><p class="src">Fuente: DEF 14A 2026, a 21-sep-2026. <span class="tg h">HECHO</span></p></div>
+  </div>
+  <div class="col">
+    <ul class="clean">
+      <li><strong>Qué paga la retribución.</strong> Las PSO miden una sola cosa: ingresos non-GAAP de FY2028 (umbral 100 B, objetivo 125 B, máximo 250 B). Cero métricas de ROIC, FCF, margen, deuda o dilución.</li>
+      <li><strong>Asignación de capital invertida.</strong> FY19–FY22: 92,6 B de recompras a una media de ≈57,5 USD (49, 53, 64 y 87 por año). FY25–FY27: 24,9 B de capital emitido (19,9 B por ATM a ≈141 y 5,0 B de preferentes con referencia 160,06) mientras el dividendo sube a 2,00 (≈6,3 B anualizados) con FCF de −23,7 B. Ni el 10-K ni el proxy justifican esa combinación.</li>
+      <li><strong>La caja operativa «prestada».</strong> En el 1T FY27, 11.363 M de los 23.103 M de CFO (49%) son prepagos de clientes con componente financiero (cero hace un año); otro 17% son otros diferidos de estacionalidad normal.</li>
+      <li><strong>El 80% de las concesiones son opciones</strong> a 308,46 (co-CEO) y 280,07 (Ellison), sin valor hoy. Dan exposición al precio de la acción y ninguna al retorno del capital.</li>
+    </ul>
+  </div>
+  <div class="wide">
+    <div class="fig"><h4>De dónde sale el CFO del último trimestre</h4><p class="sub">Millones USD, 1T FY27 (cierre 31-ago-2026).</p><div id="figCfo"></div>
+      <p class="src">Fuente: 10-Q 1T FY27, estado de flujos. Que los prepagos no se convierten en ingreso a 12 meses se infiere de la clasificación del balance (diferidos no corrientes 16.103 M ≈ prepagos acumulados 15.955 M). Los 3.997 M de otros diferidos son estacionalidad normal (2.550 M en el 1T FY26); lo anómalo es el 49% de prepagos con componente financiero. <span class="tg h">HECHO</span> <span class="tg i">INFERENCIA</span></p></div>
+  </div>
+</section>
+
+<!-- PASO 7 -->
+<section class="sec col" id="paso7">
+  <div class="sn">Paso 7 · percepción variante</div>
+  <h2>No discrepamos del negocio. Discrepamos de la cola.</h2>
+  <p><strong>Qué cree el mercado.</strong> Se deduce del precio: 130,55 es el 73% del valor de la senda alcista. Exige que el alcista pese al menos 55% si el resto es base, o 73% si el resto vale cero, y deja como máximo un 27% de cola. Triangulación: EV/EBITDA FY26 16,7× (LTM 14,8×; EV 501 B con deuda a par y sin prepagos, no los 517 B del Paso 9); P/E non-GAAP de FY27 16,1× (yield 6,2% frente a 5,21% del Tesoro, pero la guía excluye ≈1,6 USD/acc. de SBC); P/E GAAP LTM 20,5× (yield 4,9%, por debajo del Tesoro); EV sobre owner earnings, no definido (negativo).</p>
+  <p><strong>Qué creemos distinto, con dato en filing.</strong></p>
+  <ul class="clean">
+    <li>El capital nuevo rinde como mucho el coste del capital (≤10,5% frente a 10,26%; 9,0% sin rezago). Para que el precio sea justo, el capital que viene tiene que rendir bastante más que el que se desplegó.</li>
+    <li>El 66% del CFO del último trimestre es aumento de diferidos: el 49% del CFO son prepagos con componente financiero y el 17% otros diferidos de estacionalidad normal. Un CFO de 23 B convive con un «net cash outlay» propio de 18 B.</li>
+    <li>El legado paga intereses de 5,7 B y dividendos de ≈6,3 B anualizados, y ya crece −1%. Su FCF (≈16–17 B en el propio motor) cubre esas cargas fijas ≈1,4 veces.</li>
+  </ul>
+  <div class="callout moss"><h4>Dónde podemos equivocarnos</h4><p>Los prepagos de clientes financiaron el 39,9% del capex del trimestre (37% neto de la financiación de fabricantes; net cash outlay 17.966 de 28.499), pero un trimestre no es una tendencia (FY26: 8%). Oracle afirma que en los grandes contratos de IA no espera levantar fondos incrementales. Hay clientes nombrados (Meta, NVIDIA) además del dominante. Y con la guía cumplida con holgura, 16× el EPS non-GAAP no es caro.</p></div>
+</section>
+
+<!-- PASO 8 -->
+<section class="sec" id="paso8">
+  <div class="col"><div class="sn">Paso 8 · sellado el 15-oct, 00:02 UTC; que precede a cualquier cálculo de valor es declarado, no atestiguado</div><h2>Ensayar el funeral antes de mirar el precio</h2>
+  <p>Cinco mecanismos específicos del arquetipo, ordenados por gravedad del daño, no por probabilidad. Cada uno con su métrica, su umbral y su ventana.</p></div>
+  <div class="wide pm">
+    <div class="m"><div class="t">M1 · La contraparte dominante no convierte el contrato en caja</div><p>RPO a la baja secuencial sin atribución; diferidos −20%; provisión ≥1.100 M; renegociación de un contrato ≥10 B. Ventana: 8-K de diciembre de 2026.</p></div>
+    <div class="m"><div class="t">M2 · El capex no se convierte en ingreso a tiempo</div><p>OCI FY27 &lt;30 B o dos trimestres &lt;60% interanual; margen del segmento &lt;50%; construcción en curso ≥35% del PP&E neto en el 10-K FY27 (ya es 38% en base neta).</p></div>
+    <div class="m"><div class="t">M3 · El coste del capital se cierra</div><p>Emisión a 10 años ≥7,5%; rebaja a BBB-/Baa3 negativa por dos agencias; nuevo ATM ≥15 B antes de mayo de 2027; recorte o suspensión del dividendo; deuda por debajo del 80% del par (hoy 84,6% del importe en libros, 84,2% del nominal).</p></div>
+    <div class="m"><div class="t">M4 · La GPU dura menos que los 6 años contables</div><p>Cambio de vida útil; deterioro ≥1 B; depreciación creciendo más de 1,5× los ingresos OCI. Ventana: 10-K FY27 y FY28. Oracle ya alargó la vida útil dos veces (4→5 años en FY23: −434 M de gasto; 5→6 años en FY25: −733 M de gasto y +573 M de beneficio neto; 10-K FY25, Nota 1).</p></div>
+    <div class="m"><div class="t">M5 · La anualidad que paga el interés se erosiona</div><p>Soporte ≤−3% cc dos trimestres, o ≤−1% tres trimestres sin cifra de migración; SaaS &lt;+7%.</p></div>
+    <div class="m"><div class="t">Gobierno y legal (amplifican, no bastan solos)</div><p>G1 pignoración de Ellison ≥450 M de acciones o venta ≥10 M; G2 cambio de métricas de retribución en la DEF 14A 2027 o say-on-pay &lt;75%; G3 denegación de la moción de desestimación o provisión ≥500 M.</p></div>
+  </div>
+  <div class="col">
+    <div class="callout"><h4>Falsador del caso bajista (tres de cuatro, con fecha)</h4><p><strong>Sellado:</strong> OCI FY27 ≥36 B con margen ≥55% sostenido · FCF positivo en un trimestre de FY28 <strong>sin</strong> prepagos financieros · rating estable o al alza y emisión a 10 años ≤UST + 150 pb · un segundo y tercer cliente de IA nombrados con ≥10% del RPO cada uno. Si ocurren, el expediente se reabre hacia arriba.</p><p class="small"><strong>Falsador revisado</strong> (addendum del 15-oct; el sello no se toca), tres de cuatro: F1 OCI de FY27 ≥36 B con margen del segmento ≥55% sostenido (8-K/10-K del 4T FY27); F2 FCF positivo en un trimestre de FY29 o FY30 sin prepagos con componente financiero; F3 rating estable o al alza por las tres agencias y emisión a 10 años ≤UST + 150 pb (primera emisión de 2027); F4 RPO ≥700 B con la nota de modificaciones sin cancelaciones, o un segundo cliente nombrado con ≥10% del RPO. Por qué se corrigió: el punto 2 sellado no lo cumple ni el escenario alcista (FCF −40 B en FY28), el punto 4 sellado es inobservable y la revisión anticipada por el 8-K de diciembre era imposible. Revisión anticipada: el 10-K FY27 cumple F1, F3 y F4 (F2 aún no es evaluable), un cierre ≤63 USD sin que el alcista se haya materializado, o un cierre ≤114,99 (revisión, no compra).</p></div>
+    <h3>Calendario de lecturas</h3>
+    <ul class="cal">
+      <li><b>≈10-dic-2026 · 8-K y 10-Q del 2T FY27</b>M1, M2, M3 (ATM), M5. Fecha secundaria: la empresa anuncia con ≈8 días.</li>
+      <li><b>18-dic-2026 · fin del briefing de desestimación, si los demandados presentaron la moción</b>Demanda colectiva de valores sobre OCI. Estado desconocido tras el 16-sep (degradado). Si hubiera descubrimiento, sería la primera fuente externa sobre los contratos de IA <span class="tg i">INFERENCIA</span>.</li>
+      <li><b>≈mar-2027 · 3T FY27 y primera emisión de deuda de 2027</b>M3.</li>
+      <li><b>≈jun-2027 · 10-K FY27</b>Construcción en curso, vidas útiles, acciones.</li>
+      <li><b>ago-2027 · balloon del term loan (≈4,5 B)</b>4.504 M según el calendario del 10-K (el pre-mortem sellado decía 4.644 M por una cuota de más). Extensible.</li>
+      <li><b>≈sep-2027 · DEF 14A 2027</b>Pignoración de Ellison y métricas de retribución.</li>
+      <li><b>may-2028 · cierre de FY28</b>Umbral de las PSO: 100 B de ingresos non-GAAP (paga 80%); objetivo 125 B.</li><li><b>15-ene-2029 · conversión obligatoria de las preferentes</b></li>
+    </ul>
+  </div>
+</section>
+
+<!-- PASO 9 -->
+<section class="sec" id="paso9">
+  <div class="col"><div class="sn">Paso 9 · valoración como pregunta falsable · candado B</div><h2>La tasa sale del mercado. El precio, de una pregunta.</h2>
+  <p><strong>WACC ≈10,3% (10,26%)</strong> = rf 5,21% + β 1,51 × ERP 4,20% → Ke 11,55%; Kd marginal 7,40% (5,93% neto); pesos de mercado 76,6 / 22,4 / 1,0. Banda 9,7–10,4% (el suelo es ERP 3,70% con el mismo Kd; el 9,4% de la primera versión usaba un cupón de febrero que la regla excluye). Con la β de 36 meses, 11,6–13,1%: el eslabón débil es la ventana de la beta, no el Kd. La casa no tiene ERP única: se declaran ambas. Con Kd HECHO (Baa 6,67%), 10,12%. Prima de país: no calculada. R7 estima que la β de 60 m sube a ≈1,95 en doce meses si nada cambia. (rf y ERP HECHO; β y Kd INFERENCIA.)</p>
+  <p class="small">Motor: DCF explícito a 10 años en dos segmentos (software y OCI) con capex explícito y depreciación a 6 años. El simulador de abajo usa una versión en JavaScript del mismo motor, validado contra Python en 60 configuraciones con diferencia máxima de 6×10⁻¹⁴.</p></div>
+  <div class="wide">
+    <div class="fig"><h4>Precio, valor y mínimo de cierre: la prueba de alcanzabilidad</h4><p class="sub">Cierres diarios de 24 meses. La banda azul es el valor ponderado (71–86, WACC 10,4–9,7%). La banda roja es el primer tramo = valor × (1 − 27%). La línea punteada es el mínimo de cierre de 24 meses.</p>
+      <div id="figPrice"></div>
+      <p class="src">Fuente: serie de 501 cierres diarios de Yahoo Finance (15-oct-2024 a 14-oct-2026), contrastada con IBKR <code>get_price_history</code> en el cierre (130,55), el mínimo (114,99), el 16-oct-2025 (313,00) y el pico (328,33); respuesta de IBKR archivada en <code>mercado/ibkr_2026-10-15.md</code>. <span class="tg h">HECHO</span> <span class="tg i">INFERENCIA</span></p></div>
+  </div>
+  <div class="col">
+    <div class="callout"><h4>Por qué «NO, por precio» y no «NO COMPRAR TODAVÍA»</h4><p>«Todavía» exige un primer tramo alcanzable. Incluso con una subtasa de 8,0% (solo informativa: el candado B la prohíbe) y un margen de seguridad de 27% (supuesto) el primer tramo sería 106 USD, por debajo del mínimo de cierre de 24 meses (114,99, el 24-jul-2026); solo combinando subtasas con márgenes de seguridad de 9–18% se llegaría a 119–121. La Recalibración v2 (C-11) convierte ese «todavía» en NO. El resultado es invariante: con cualquier margen de seguridad entre 0% y 35%, en toda la banda de tasa de mercado y contra el ruido del instrumento, el primer tramo queda por debajo; haría falta un valor justo de 115, 126, 140 o 157,5 con margen de 0%, 9%, 18% o 27%, frente a un máximo de 86 en la banda de mercado. El Acta B4 aclara que el archivo cubre el caso de compra, no la posición, y no suspende el test del hoy ni la vigilancia.</p></div>
+    <p class="small">Objeción estructural declarada (Acta B4, Prueba de Infalibilidad): este test falla por construcción en las cinco empresas probadas; su recalibración es un expediente separado y no se toca en esta sesión.</p>
+  </div>
+</section>
+
+<!-- ESCENARIOS -->
+<section class="sec" id="escenarios">
+  <div class="col"><div class="sn">Cuatro futuros · interactivo</div><h2>Cuatro futuros y lo que vale cada uno</h2>
+  <p>El valor depende de una sola cosa: cuánto de la senda guiada se cumple y con qué rentabilidad. Los cuatro escenarios son los de la tesis; los controles de abajo te dejan moverlos. Ojo: los márgenes de OCI (50–58%) son supuestos (el margen incremental interanual del segmento fue 39,2% en el 1T FY27), el SBC y el arrendamiento operativo están en cero en el motor, y el base va un 13% por encima de la guía en FY27 y un 21–35% por debajo en FY28–FY30. El auditor de modelo reproduce el motor al céntimo y encuentra que el sesgo neto es mixto: las convenciones conservadoras (fin de periodo, deuda a par, año 1 prorrateado) suben el valor y las omisiones lo bajan. Lo que sigue abierto, el SBC, la renta de los arrendamientos, el retorno marginal terminal y los pesos, empuja a la baja.</p></div>
+  <div class="wide" id="cards" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:.7rem;margin-bottom:1rem"></div>
+
+  <div class="widget" id="w1" aria-label="Simulador de escenarios">
+    <h3>Simulador de escenarios</h3>
+    <p class="sub">Mueve la tasa, el crecimiento de OCI, la rentabilidad y los pesos. El motor es el de la tesis, con sus elecciones de la casa (g∞ de OCI 4,2%, SBC = 0, sin renta de arrendamientos no iniciados): consulta la tabla de elecciones documentadas más abajo para ver cuánto mueve cada una. Todo se recalcula en tu navegador. Las cifras se redondean a 5 USD (σ del ponderado ≈26; ≈41 el base y ≈78 el alcista); la tabla de elecciones conserva decimales solo por trazabilidad. La TIR es un orden de magnitud, no una TIR de accionista: comprando a valor justo el motor devuelve 13,5% en lugar de 10,26%; con coste financiero neto de 2–6 B/año la base es 6,0–6,8% y la alcista 14,6–15,2%, frente a Ke 11,55%. La cola de 35% (colapso + bajista) es un supuesto: la tasa de mortalidad de la clase de referencia no es usable como porcentaje.</p>
+    <div class="mini" id="mini" aria-hidden="true"></div>
+    <div class="presets" role="group" aria-label="Preajustes">
+      <button class="btn" data-p="mercado" aria-pressed="true">Tasa de mercado (10,26%)</button>
+      <button class="btn" data-p="erp" aria-pressed="false">ERP 3,70% (≈9,7%)</button>
+      <button class="btn" data-p="beta" aria-pressed="false">Beta de 36 m (13,1%)</button>
+      <button class="btn" data-p="base-rate" aria-pressed="false">Pesos de tasa base</button>
+      <button class="btn" data-p="guia" aria-pressed="false">Cree en la guía (100% alcista)</button>
+      <button class="btn" data-p="beta-blume" aria-pressed="false">Beta de 36 m con Blume (11,6%)</button>
+    </div>
+    <div class="ctrls">
+      <div class="ctrl"><label for="s_wacc">WACC <output id="o_wacc"></output></label><input type="range" id="s_wacc" min="8" max="13.5" step="0.01" value="10.26"></div>
+      <div class="ctrl"><label for="s_k">Crecimiento de OCI, años 1–5 <output id="o_k"></output></label><input type="range" id="s_k" min="0.6" max="1.3" step="0.01" value="1"></div>
+      <div class="ctrl"><label for="s_m">Margen EBITDA de OCI (pp sobre cada escenario) <output id="o_m"></output></label><input type="range" id="s_m" min="-10" max="10" step="0.5" value="0"></div>
+      <div class="ctrl"><label for="s_i">Intensidad de capex terminal (pp) <output id="o_i"></output></label><input type="range" id="s_i" min="-8" max="8" step="0.5" value="0"></div>
+      <div class="ctrl"><label for="s_wc">Peso colapso <output id="o_wc"></output></label><input type="range" id="s_wc" min="0" max="40" step="1" value="10"></div>
+      <div class="ctrl"><label for="s_wb">Peso bajista <output id="o_wb"></output></label><input type="range" id="s_wb" min="0" max="50" step="1" value="25"></div>
+      <div class="ctrl"><label for="s_wa">Peso alcista <output id="o_wa"></output></label><input type="range" id="s_wa" min="0" max="100" step="1" value="25"></div>
+    </div>
+    <p class="small" id="wnote"></p>
+    <div id="figPaths" class="fig" style="margin:.6rem 0"></div>
+    <div id="figVals" class="fig" style="margin:.6rem 0"></div>
+    <div class="out" id="out"></div>
+    <div class="res" id="res" aria-live="off"></div>
+  </div>
+
+  <div class="widget" id="w2">
+    <h3>¿Qué tienes que creer para que 130,55 sea justo?</h3>
+    <p class="sub">Con la tasa del simulador, ¿qué probabilidad de alcista exige el precio según cuánta cola dejas? La cola es la suma de colapso y bajista, donde el equity vale cero.</p>
+    <div class="ctrls">
+      <div class="ctrl"><label for="s_tail">Probabilidad de cola (colapso + bajista) <output id="o_tail"></output></label><input type="range" id="s_tail" min="0" max="60" step="1" value="35"></div>
+      <div class="ctrl"><label for="s_px">Precio de entrada <output id="o_px"></output></label><input type="range" id="s_px" min="40" max="220" step="0.05" value="130.55"></div>
+    </div>
+    <div class="out" id="out2"></div>
+    <div class="res" id="res2" aria-live="off"></div>
+  </div>
+
+  <div class="widget" id="w3">
+    <h3>Lupa del precio: qué margen exige cada precio</h3>
+    <p class="sub">Sobre la senda base, el margen EBITDA terminal de OCI que hace falta para que el valor iguale el precio. Con la tasa del simulador.</p>
+    <div class="ctrls"><div class="ctrl"><label for="s_lupa">Precio <output id="o_lupa"></output></label><input type="range" id="s_lupa" min="50" max="220" step="1" value="130"></div></div>
+    <div class="out" id="out3"></div><div class="res" id="res3" aria-live="off"></div>
+  </div>
+
+  <div class="wide">
+    <div class="fig"><h4>Valor por acción según el margen terminal de OCI y la intensidad de capex</h4><p class="sub">Senda base y senda alcista, WACC 10,26%. Verde = al precio o por encima (≥130,55); azul = ≥80% del precio.</p>
+      <div class="lg"><span><i style="background:var(--moss-bg)"></i>≥ precio</span><span><i style="background:var(--sky-bg)"></i>80–100%</span><span><i style="background:var(--paper2);border:1px solid var(--line2)"></i>50–80%</span><span><i style="background:var(--clay-bg)"></i>&lt; 50%</span></div>
+      <div class="scroll" id="heats" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(21rem,1fr));gap:1rem"></div>
+      <p class="src">Fuente: motor de la tesis con el margen limitado desde el año 6 (<code>build_data.py</code>); <code>resultados_paso9.txt</code> lo limita desde el año 4 y difiere hasta 4,4 USD (senda base) y 7,0 (alcista) en las celdas con margen &lt;55–58%; el DCF inverso no se ve afectado. <span class="tg i">INFERENCIA</span></p></div>
+    <div class="fig"><h4>El ruido del instrumento: 20.000 simulaciones de la mezcla ponderada</h4><p class="sub">Tasa ±1 pp, margen terminal ±5 pp, crecimiento ×0,8–1,2, crecimiento a perpetuidad ±0,5 pp, margen del software ±2 pp. Media 79 y desviación típica ≈26 (≈37 si los escenarios comparten el ruido).</p>
+      <div id="figMC"></div><p class="src">P(valor ponderado &gt; 130,55) = 3,5% (9,2% con ruido común). P(un futuro realizado vale más que el precio) ≈ 23% con los pesos de la tesis. <span class="tg i">INFERENCIA</span></p></div>
+  </div>
+  <div class="col">
+    <h3>Candado C: ¿cruza el precio con ±2 pp en la tasa y en el crecimiento de los años 3–5?</h3>
+    <div class="scroll"><table class="tight heat"><thead><tr><th>WACC</th><th class="n">g −2 pp</th><th class="n">g base</th><th class="n">g +2 pp</th></tr></thead><tbody id="ccTab"></tbody></table></div>
+    <p class="small">Sobre el escenario base. Con la tasa 2 pp más baja (8,26%) el valor cruza el precio: <strong>no decidible como cifra puntual</strong>; se publica la banda. El cruce depende de la tasa, no del crecimiento. La razón máxima/mínima de la matriz (145/34) es 4,3, por encima de 2,0: no decidible como punto (v2 fila 9). No bloquea la decisión: el precio solo cruza el valor con una tasa de 8,26%, fuera de toda tasa admisible, y la prueba de alcanzabilidad falla igual en toda la banda.</p>
+    <h3>Qué paga el precio por OCI</h3>
+    <p>Capitalización 398 B (3.050 M acciones del motor; 395 B con las 3.024 M del 10-Q) + reclamaciones netas 118 B = <strong>EV implícito 517 B</strong>. El software vale 209 B en el base (244 en el alcista): el precio le asigna a OCI <strong>308 B</strong> (base) o 272 B (alcista), frente a los 131 y 419 B del modelo. Si OCI valiera cero, el software solo valdría ≈30 USD por acción. Eso tampoco es un suelo. En el colapso OCI vale −99 B y los 209 B del software dependen de un margen de 42% sin ancla y de SBC = 0.</p>
+    <h3>Elecciones documentadas que mueven el precio / valor</h3>
+    <div class="scroll"><table class="tight"><thead><tr><th>Elección (una a la vez)</th><th class="n">Ponderado</th><th class="n">Precio / valor</th></tr></thead><tbody>
+      <tr><td>Casa: WACC 10,26%, g∞ de OCI 4,2%, pesos 10/25/40/25, SBC = 0</td><td class="n">73,7</td><td class="n">1,77×</td></tr>
+      <tr><td>ERP 3,70% (WACC 9,7%)</td><td class="n">85,7</td><td class="n">1,52×</td></tr>
+      <tr><td>Conjunto mecánico más favorable al caso de compra (auditor de modelo)</td><td class="n">93,0</td><td class="n">1,40×</td></tr>
+      <tr><td>Conjunto mecánico más desfavorable (auditor de modelo)</td><td class="n">61,3</td><td class="n">2,13×</td></tr>
+      <tr><td>g∞ con el tope de la Enmienda 29 (≈2,35%)</td><td class="n">63,0</td><td class="n">2,07×</td></tr>
+      <tr><td>Retorno marginal terminal de OCI = WACC (hoy implícito: 55,6%)</td><td class="n">56,1</td><td class="n">2,33×</td></tr>
+      <tr><td>Intensidad de capex terminal 40%</td><td class="n">54,4</td><td class="n">2,40×</td></tr>
+      <tr><td>Pesos 12/25/50/13 · 15/30/45/10</td><td class="n">59,5 · 50,5</td><td class="n">2,19× · 2,58×</td></tr>
+      <tr><td>SBC = 3% · 7,1% de los ingresos</td><td class="n">57,8 · 36,1</td><td class="n">2,26× · 3,62×</td></tr>
+      <tr><td>Beta de 36 m con Blume · cruda</td><td class="n">51,5 · 34,7</td><td class="n">2,53× · 3,76×</td></tr>
+    </tbody></table></div>
+    <p class="small">El rango va de 1,4× a 3,8×; 12 de 18 elecciones documentadas quedan por encima de 2×. La anchura de este rango mide la incertidumbre del instrumento. Por eso el valor se publica como banda y la puerta 2 de la regla de venta queda indeterminada. No es un ranking. En la tesis (10.3b), 12 de las 18 elecciones documentadas quedan por encima de 2×; aquí se muestran las principales. <span class="tg i">INFERENCIA</span></p>
+  </div>
+</section>
+
+<!-- PASO 10 -->
+<section class="sec" id="paso10">
+  <div class="col"><div class="sn">Paso 10 · Candado A · agentes en contexto limpio</div>
+  <h2>El examinador que no comparte el entusiasmo de la sesión</h2>
+  <p>Seis revisores y un panel de cinco jueces leyeron la tesis sin el historial de esta sesión y sin ver los informes de los demás. El panel derivó el veredicto desde las reglas: <strong>los cinco emiten «NO, por precio»</strong>, y los cinco leen las reglas como «mantener sin añadir» para tus 9 acciones (el juez de posición añade que solo es defendible con tu firma y un falsador de puerta 1 escrito antes del dato), mientras el diablo y el ángel apuntan a salir. Todos coinciden en la dirección: <strong>«no comprar a este precio» sobrevive</strong>. Lo que no sobrevivió, y se reescribió, es una parte de las cifras y la recomendación sobre tus 9 acciones.</p></div>
+  <div class="wide"><div class="scroll"><table class="tight">
+    <thead><tr><th>Revisor</th><th>Qué concluyó</th></tr></thead>
+    <tbody>
+    <tr><td>Abogado del diablo</td><td>La dirección sobrevive; los números y «mantener» no. Tres golpes: foso declarado y no medido, ROIC incremental generoso, y una valoración que toma la combinación más favorable de cada elección. Sesgo probable: compromiso con un acto ya ejecutado.</td></tr>
+    <tr><td>Abogado ángel</td><td>El veredicto sobrevive y ninguna objeción lo bloquea. Las correcciones a favor de comprar suman entre +4 y +14 USD contra los +84 que exige el test. La puerta 2 de tu posición y el mecanismo de reapertura son frágiles.</td></tr>
+    <tr><td>Auditor de modelo</td><td>Reproduce el motor con una reimplementación independiente, sin errores de cálculo. Ningún hallazgo crítico. El sesgo neto es mixto, no solo hacia arriba.</td></tr>
+    <tr><td>Auditor de reglas</td><td>12 incumplimientos y 13 ambigüedades; entre ellos, el peaje de la anulación optimista sin pagar, la puerta 2 desmentida por las propias cifras y decisiones tuyas resueltas por el redactor (convención SBC/FCF, círculo de competencia). El sentido del veredicto no se tambalea.</td></tr>
+    <tr><td>Crítico de completitud</td><td>Dirección intacta. Cinco bloqueantes del veredicto: Candado A sin ejecutar (ya ejecutado), frase del DCF inverso (reescrita), puertas de venta (reescritas), formato de bandas del candado C (reescrito) y J5 sobre OCI sin respuesta tuya (sigue abierto). Y uno del cierre: los falsables mal formados (corregidos en el addendum).</td></tr>
+    <tr><td>Verificador de hechos nuevos</td><td>39 hechos: 33 confirmados, 3 refutados (ROIC TTM 11,8%, «84,6% del par», «66% del CFO son prepagos»), 3 degradados.</td></tr>
+    </tbody></table></div></div>
+  <div class="col">
+    <h3>Qué cambió por el ataque</h3>
+    <ul class="clean">
+      <li><strong>Rango de valor.</strong> 71–94 pasó a 71–86 (el suelo de la tasa sube a 9,7%). Con elecciones alternativas documentadas, el precio vale entre 1,4× y 3,8× el valor.</li>
+      <li><strong>«Casi cero probabilidad de cola»</strong> se retiró: el precio admite como máximo 27% de cola y la tesis pone 35%.</li>
+      <li><strong>«Ninguna puerta de venta abre»</strong> se retiró: la puerta 2 es indeterminada y el candado B4 impide vender por precio.</li>
+      <li><strong>Mantener tus 9 acciones</strong> dejó de ser la recomendación: pasó a «salir», con la decisión en tus manos.</li>
+      <li><strong>ROIC incremental ≈ WACC</strong> es un techo (9,0% sin rezago), no un piso.</li>
+      <li><strong>Cifras corregidas:</strong> OCI es 79–91% del crecimiento (no 100%); las recompras fueron a ≈57,5 USD (no 45–55); los 24,9 B emitidos son 19,9 B a ≈141 más 5,0 B con referencia 160,06; los prepagos financieros son el 49% del CFO (no 66%).</li>
+    </ul>
+    <h3>Lo que el ataque no pudo resolver</h3>
+    <p class="small">Pendiente de red (sec.gov no estuvo disponible para los revisores):</p><ul class="clean"><li>USD de Cerner dentro del soporte.</li><li>Precio y rendimiento de los bonos de Oracle el 13 y 14 de octubre.</li><li>Estado de la garantía de 3,3 B.</li><li>Reconstrucción de la clase de referencia con ≥30 casos.</li><li>Calendario de pagos de los 288 B.</li></ul><p class="small">Pendiente tuyo: el cruce 10c del Candado A y los desempates finales. El abogado ángel no existe como agente en <code>.claude/agents/</code> (se instanció ad hoc) y el del diablo no declara herramientas: heredó todas.</p>
+    <p class="small"><strong>Verificadores previos (Pasos 2–8):</strong> V_R1 finanzas, 22 de 30 confirmados, 4 refutados (el ROIC TTM es un rango, no 11,8%). V_R8 formas de morir, 29 de 41 confirmados, 4 refutados (gastos del segmento +50%, no +77%). V_R3 negocio y RPO, 27 de 27. V_R4 gobierno, 27 de 28 (interlock Catz–Paramount Skydance omitido). V_R6 competencia, 25 de 30, 1 refutado (convertibles 4,2 B). V_R7 tasa, 27 de 30, 1 refutado (rendimiento implícito 7,38%). V_R2 deuda, 21 de 25, 1 refutado (84,6% es del importe en libros, no del par). V_R5 foso, 22 de 36, 1 refutado («doce años encogiéndose»), 13 degradados.</p>
+  </div>
+</section>
+
+<!-- PASO 11 -->
+<section class="sec" id="paso11">
+  <div class="col"><div class="sn">Paso 11 · veredicto, seis campos anti-limbo, delta</div><h2>El veredicto, con su precio, su tamaño y su caducidad</h2>
+  <div class="verdict"><span class="state" id="vstate2">Candado A ejecutado · v2 · pendientes tu cruce 10c y tu confirmación de la excepción (fila 23)</span><p class="vs">Cuatro salidas posibles, una sola elegida</p><p class="vb" id="vbig2">NO, por precio. Caso de compra archivado 12 meses.</p>
+  <p class="vt">Test del hoy: NO. Tus 9 acciones (0,86% del NAV): mi recomendación es salir del lote. El método no lo permite por precio, porque el candado B4 lo veda; hace falta tu decisión escrita.</p></div></div>
+  <div class="wide">
+    <div class="six">
+      <div class="c"><div class="t">1 · P_justo</div><div class="v">Banda 71–86 USD<br><span class="muted" style="font-weight:400;font-size:.8rem">≈75 con anulación y sin SBC; ≈51–60 con pesos de tasa base · no decidible como punto (σ ≈26–37)</span></div></div>
+      <div class="c"><div class="t">2 · P_tramo1 (MoS 27%, supuesto)</div><div class="v">52–63 USD<br><span class="muted" style="font-weight:400;font-size:.8rem">con 18%: 58–70 · con 9%: 65–78</span></div></div>
+      <div class="c"><div class="t">3 · Tamaño en %NAV</div><div class="v">Compra nueva 0% · posición viva 0,86% → recomendación 0%</div></div>
+      <div class="c"><div class="t">4 · Alternativa real</div><div class="v">Efectivo 7.718 USD (5,76%) frente al 5,21% del Tesoro a 10 años; TIR de ORCL a 130,55: ≈6–7% (base) y ≈13–16% (alcista), orden de magnitud, frente a Ke 11,55%; o recortar MELI (20,5% frente al tope de 15%) y DUOL (15,4%)</div></div>
+      <div class="c fail"><div class="t">5 · Alcanzabilidad (cierre, 24 m)</div><div class="v">FALLA de forma invariante: ≤86 con cualquier margen de seguridad entre 0% y 35% (≤78 desde 9%) frente a mínimo 114,99 (24-jul-2026)</div></div>
+      <div class="c"><div class="t">6 · Caducidad</div><div class="v">[CADUCA: 2027-10-14]<br><span class="muted" style="font-weight:400;font-size:.8rem">revisión anticipada si el 10-K FY27 cumple 3 de 4 del falsador revisado, o si cierra ≤63 (o ≤114,99, nuevo mínimo de 24 meses: revisión, no compra). Si tu respuesta a J5 sobre OCI es no: «NO, círculo», sin caducidad</span></div></div>
+    </div>
+  </div>
+  <div class="col">
+    <h3>Las puertas de la regla de venta, sobre tus 9 acciones</h3>
+    <ul class="clean">
+      <li><strong>Puerta 1, tesis rota.</strong> Con la beta de 60 meses no abre (ROIC TTM 10,8–13,5% &gt; 10,4%). Con la de 36 meses (11,6–13,1%), que el método no usa y es solo una sensibilidad, abriría en el umbral; la cláusula «la ventaja deja de convertirse en caja» también está en el umbral. Decides tú.</li>
+      <li><strong>Puerta 2, sobrevaloración extrema (&gt;2× el valor central).</strong> Indeterminada: 1,5–1,8× con la banda de tasa, 2,1–3,8× con alternativas documentadas. «Valor central» es una decisión abierta tuya, y el candado B4 impide vender por valoración.</li>
+      <li><strong>Puerta 3, tamaño.</strong> 0,86% frente a un tope de 15%: irrelevante.</li>
+    </ul>
+    <p>El test del hoy es NO, y eso invierte la carga de la prueba hacia mantener. La defensa de mantener que traía la primera versión («no hay puerta», «sumaría turnover») no la descarga: vender 1.153 USD suma ≈0,9 puntos de rotación frente a ≈55% anualizado (cifra de gates.md a 21-ago, no verificada). La regla de venta protege posiciones nacidas del proceso. Esta compra se hizo sin tesis, con B4 cerrado y antes del Paso 0.</p>
+    <div class="scroll"><table class="tight">
+      <thead><tr><th>Coste de equivocarse (ilustrativo)</th><th class="n">Si mantienes</th><th class="n">Si vendes</th></tr></thead>
+      <tbody>
+      <tr><td>Pérdida máxima</td><td class="n">1.170 USD (0,87% del NAV)</td><td class="n">dejas de ganar 454 USD si ocurre el alcista (25%)</td></tr>
+      <tr><td>Coste esperado frente a la otra rama</td><td class="n">≈490 USD (≈315 con alcista 40%)</td><td class="n">≈114 USD (0,085% del NAV)</td></tr>
+      </tbody></table></div>
+    <p class="small">Mantener solo se justifica con una probabilidad de alcista ≥55%. La diferencia esperada entre ambas ramas es ≈0,4% del NAV: la decisión es barata; la señal de proceso no. <span class="tg i">INFERENCIA</span></p>
+    <div class="callout"><h4>Recomendación, sin limbo</h4><p><strong>Salir del lote</strong> (≈1.153 USD; pérdida latente ≈17 USD) en la próxima sesión regular, con orden límite, y registrar el mismo día en el diario que la compra fue un proceso fallido. El método no autoriza vender <em>por precio</em>; la puerta 1 solo abriría si decides que J5 = NO equivale a «tesis rota» (el texto de la puerta no lo prevé, y gates.md prescribe recortar a tamaño de vigilancia si la calidad sigue intacta), o hace falta una decisión firmada tuya. <strong>Rama alternativa, mantener firmado:</strong> solo como opción de información de coste acotado, escrita por ti, con salida por <em>un</em> factor (no dos) y el falsable duro del 2T FY27 como disparador. Si no decides antes del 20-nov, el default de las reglas es mantener sin añadir. No ejecuto nada en IBKR.</p></div>
+    <h3>La cartera en conjunto (IBKR, 15-oct)</h3>
+  </div>
+  <div class="wide"><div class="fig"><div id="figPort"></div><p class="src">Fuente: IBKR, posiciones y NAV de 134.096,74 USD. La cadena de IA ancha (TSM + GOOGL + AMZN + MSFT + ORCL) suma 26,9% (26,0% sin ORCL) frente a un tope de 20% que la Recalibración v2 (fila 16) fijó para la cadena de contraparte de IA; en la lectura estricta de cadena OpenAI (MSFT + ORCL) es 3,2%. MELI (vender 4 acciones, orden del 24-ago) y DUOL (recorte a ≈4%) tienen recortes pendientes sin ejecutar. <span class="tg h">HECHO</span> <span class="tg i">INFERENCIA</span></p></div></div>
+  <div class="col">
+    <h3>El delta frente a tu monólogo</h3>
+    <ul class="clean">
+      <li>El negocio que explica el crecimiento es otro (OCI: 79% del crecimiento de FY26, 91% en el 1T FY27), y el mecanismo del Paso 1 no lo cubre.</li>
+      <li>La recurrencia del legado es real según la empresa, pero ya no crece (soporte −1%; +3% nominal en nueve años).</li>
+      <li>La caja operativa está inflada por prepagos con componente financiero (49% del CFO del trimestre).</li>
+      <li>La empresa emitió acciones a ≈141 y el fundador tiene 413 M pignoradas.</li>
+      <li>El crecimiento rinde como mucho el coste del capital.</li>
+      <li>El precio exige que el alcista pese al menos 55%.</li>
+    </ul>
+    <div class="callout sky"><h4>Tu monólogo del Paso 11 (preguntas, no un texto en tu voz)</h4><p>¿Cuáles son los dos negocios de Oracle y cuál paga la deuda del otro? ¿Qué compraste el 14-oct y qué sabías en ese momento? ¿Qué dato te haría salir y cuál te haría comprar más? ¿Puedes explicar en una frase cómo gana dinero OCI y por qué un cliente no se va? ¿Cuántas acciones tendrías hoy si hubieras empezado esta tesis sin posición? No leas ningún borrador antes de escribir el tuyo.</p></div>
+  </div>
+</section>
+
+<!-- PASO 12 -->
+<section class="sec" id="paso12">
+  <div class="col"><div class="sn">Paso 12 · diario y predicciones falsables</div><h2>Apostar por escrito, antes del dato</h2>
+  <p>Pre-registro para el 8-K y el 10-Q del segundo trimestre de FY27 (≈10 de diciembre de 2026). Los umbrales son supuestos calibrados con los incrementos secuenciales de OCI (3,3 → 4,1 → 4,9 → 5,8 → 7,4 B). Limitación declarada: en ese trimestre los escenarios base y alcista no se separan (OCI ≈8,7 y ≈8,8 B); este reporte solo detecta la cola o la caída de márgenes.</p></div>
+  <div class="wide"><div class="scroll"><table>
+    <thead><tr><th>#</th><th>Predicción</th><th>Si ocurre lo contrario</th></tr></thead>
+    <tbody>
+    <tr><td>P1</td><td>OCI del 2T FY27 entre <b>8,2 y 9,2 B</b>. Menos de 8,0 B: señal de bajista o colapso (umbral propio de esta tesis, no el M2 sellado).</td><td>≥10,0 B: por encima incluso del alcista; revisar el Paso 7.</td></tr>
+    <tr><td>P2</td><td>RPO ≥ <b>664 B</b>, sin renegociación de contratos.</td><td>RPO a la baja secuencial sin atribución: M1 activo.</td></tr>
+    <tr><td>P3</td><td>«Net cash outlay» de capex ≥ <b>15 B</b>; FCF negativo; prepagos financieros ≥5 B.</td><td>FCF ≥ 0 sin prepagos financieros: adelanta incluso al alcista; revisar.</td></tr>
+    <tr><td>P4</td><td>Acciones ≥ <b>3.024 M</b>; sin nuevo ATM ≥15 B antes de mayo de 2027.</td><td>Nuevo ATM ≥15 B: M3 activo.</td></tr>
+    <tr><td>P5</td><td>Soporte ≤ <b>−1% cc</b>, tercer trimestre seguido, sin cifra de migración.</td><td>Soporte ≥ +2% cc: M5 refutado.</td></tr>
+    <tr><td>P6</td><td>«Total Margin %» del segmento Cloud &amp; Software ≤ <b>52,5%</b> calculado, ≤52% impreso (la tabla imprime enteros: 1T FY27 55%; calculado, 54,5%). Es el falsable duro del abogado del diablo.</td><td>≥ 54,5% calculado (≥55% impreso): la caída del margen se detiene.</td></tr>
+    </tbody></table></div></div>
+  <div class="col">
+    <h3>Gatillos en tiempo real</h3>
+    <ul class="clean"><li><strong>G-T.</strong> Cualquier emisión de deuda, convertible, preferente o ATM ≥5 B antes del 31-dic-2026 contradice el 8-K del 10-jun («no additional debt in calendar year 2026»).</li><li><strong>KO-SBC.</strong> Si el FCF de FY27 sigue ≤0, el 10-K de junio de 2027 dispara el knock-out de SBC por la letra: tercer ejercicio tras FY25 y FY26.</li></ul>
+    <h3>Si firmas «mantener»: un factor basta</h3>
+    <div class="ko" style="margin:.4rem 0 1rem">
+      <div class="c"><div class="t">A · Contraparte y ejecución</div><p>OCI &lt; 8,0 B <b>o</b> RPO a la baja secuencial.</p></div>
+      <div class="c"><div class="t">B · Anualidad</div><p>Soporte ≤−3% cc en el trimestre <b>o</b> SaaS &lt; +7% cc.</p></div>
+      <div class="c"><div class="t">C · Coste de capital</div><p>Emisión a 10 años ≥7,5% <b>o</b> rebaja de dos agencias <b>o</b> ATM/preferente ≥15 B.</p></div>
+      <div class="c"><div class="t">D · Margen del segmento</div><p>P6: «Total Margin %» ≤ 52,5% calculado (≤52% impreso).</p></div>
+    </div>
+    <p class="small">Los factores son una extensión propuesta de la puerta 1, sin backtest y pendiente de tu ratificación. Si decides salir del lote, no se aplican. El factor B relaja el M5 sellado de dos trimestres a uno: se declara así.</p>
+    <div class="callout"><h4>Gate y diario: solo propuestos</h4><p>La adenda a <code>gates.md</code> y el borrador de diario viven en <code>Tesis/ORCL/propuestas/</code>. Ninguna se aplica sin tu aprobación, y la adenda solo vale si confirmas la excepción a la fila 23. La compra del 14-oct es un <strong>registro tardío</strong>: ejecutada sin tesis y con el candado B4 cerrado; el método exige registro el mismo día y antes de conocer el resultado. Calificación de proceso: fallido.</p></div>
+    <h3>Decisiones que solo tú puedes escribir (por peso)</h3>
+    <ol class="clean" style="padding-left:1.2rem"><li>J5 sobre OCI: tu frase, o «NO, círculo».</li><li>Confirmar o rechazar la excepción a la fila 23 con tus palabras (si no, esto es un borrador sin veredicto), y cerrar las cinco caducidades vencidas.</li><li>El cruce 10c del Candado A y los desempates.</li><li>Las 9 acciones: salir (recomendado) o mantener firmado.</li><li>Qué es «valor central» para la puerta 2.</li><li>ERP único (4,20% o 3,70%).</li><li>La beta que define «motor apagado» (60 o 36 meses).</li><li>Qué manda sobre la g terminal: Motor v3 o Enmienda 29.</li><li>La convención de SBC/FCF con FCF negativo.</li><li>La convención de los prepagos y la ventana del ROIC incremental.</li><li>Tope de concentración de la cadena de IA y de MELI; ejecutar los recortes pendientes.</li><li>Bloque de margen de seguridad de ORCL.</li><li>Los pesos de escenario, sobre todo el 35% de cola.</li><li>Aprobar o rechazar la adenda y el diario, con fecha real y si el round-trip del verano entra.</li><li>Tu monólogo del Paso 11.</li><li>Crear el agente ángel y fijar las herramientas de solo lectura del diablo.</li><li>Una regla contra las compras sin tesis (AAPL, MCO, ABNB, SPOT, RMS y ahora ORCL): sin ella, «no hay puerta» convierte cada compra impulsiva en posición permanente.</li></ol>
+  </div>
+</section>
+
+<section class="sec col" id="lagunas">
+  <div class="sn">Lo que no se pudo verificar</div><h2>Lagunas y fuentes</h2>
+  <ul class="clean">
+    <li>Sin transcripciones primarias ni consenso de analistas.</li>
+    <li>sec.gov no fue alcanzable para los verificadores: la «segunda fuente primaria» es otro documento local del mismo emisor, y el XBRL consolidado tiene procedencia no re-verificable. Los Form 4 están fuera del corpus.</li>
+    <li>Kd central 7,40% mezcla dato secundario e inferencia; con Kd HECHO (índice Baa de FRED, 6,67%) el WACC es 10,12%. El eslabón débil real es la ventana de la beta. Prima de país: no calculada.</li>
+    <li>Los márgenes del motor (42% de EBIT del software; 50–58% de EBITDA de OCI) son supuestos sin derivación, y no está declarado si son GAAP o non-GAAP. El SBC está en 0: todas las cifras de valor son «sin SBC».</li>
+    <li>Pesos de escenario: supuesto. El alcista está 3–4× por encima de una tasa base degradada; el peaje de la anulación optimista no está pagado.</li>
+    <li>Prepagos de clientes (16 B) tratados como reclamación; Oracle no revela la cancelabilidad de los contratos de IA. De los 75 B de hardware prepagado o aportado, solo 16 B son efectivo recibido.</li>
+    <li>Los 288 B de arrendamientos no iniciados tienen una sola fuente primaria y el motor no los modela: cada 5 B/año de renta resta ≈11 USD al ponderado.</li>
+    <li>Los candados TAM y de reinversión del Motor v3 no se ejecutaron.</li>
+    <li>Posible doble conteo de la preferente con las 3.050 M de acciones del motor (+0,6 a +1,5 USD).</li>
+    <li><strong>El sesgo neto del modelo es mixto.</strong> Empujan a la baja y siguen abiertos: margen EBITDA de OCI 50–58% sin derivación (el margen incremental interanual del segmento fue 39,2% en el 1T FY27; ±5 pp mueven el ponderado ∓16–17 USD); SBC = 0 (indeterminado: 0 a −38); renta de los 288 B (cada 5 B/año resta ≈11); capex de los años 6–10 por debajo de la depreciación del motor (−7 a −21); retorno marginal terminal de OCI implícito de 55,6% y g∞ de 4,2% frente al tope de 2,35% de la Enmienda 29 (ponderado 56 y 63); circulante de OCI omitido (−4 a −5); un solo WACC para dos segmentos (≈−4); candados TAM y de reinversión sin ejecutar; ≈125 B de déficit hasta FY29 financiados a WACC con 3.050 M de acciones fijas (la dilución del plan de 40 B de FY27, 20,1 B sin tipo, no está modelada). El valor terminal pesa el 74% del EV y el 113% del patrimonio en el base. Empujan al alza: descuento a fin de periodo (+5,0), deuda a par frente a valor razonable (+4,8), año 1 prorrateado ×0,75 (+1,7), prepagos a nominal, caja restringida de 2,6 B e inversiones no negociables de 2,4 B fuera del puente (≈+0,8 cada una), acciones 3.050 frente a 3.024 (+0,6 a +1,5) y financiación de clientes no modelada (0 a +10). Con ambas listas el ponderado queda en 69–74: el ≈75 no es ni un techo ni un centro demostrable.</li>
+    <li>La garantía de hasta 3,3 B a un arrendador (solo en los 260 B del 10-K; vencía en sep-2026) ya no figura en el 10-Q: estado desconocido hasta el 10-Q del 2T FY27.</li>
+    <li>IBKR (90 días) no muestra operaciones de ORCL entre el 17-jul y el 13-oct: el round-trip del verano que pediste omitir no está verificado ni fechado.</li>
+    <li>Hay dos rejillas margen × intensidad publicadas (<code>resultados_paso9.txt</code> y <code>build_data.py</code>) que difieren hasta 4,4 y 7,0 USD.</li>
+    <li>Calificaciones, CDS y rendimientos de bonos: prensa. Fecha del 8-K del 2T FY27: secundaria.</li>
+    <li>El Paso 0 se selló después de la compra y su cronología es declarada, no atestiguada: no es reparable.</li>
+    <li>El libro de omisiones y el de anulaciones no existen en el repo; el abogado ángel no existe como agente.</li>
+  </ul>
+  <p class="small"><strong>Fuentes primarias:</strong> SEC EDGAR (CIK 0001341439): 10-K FY25 y FY26 (FY17–FY24 solo vía XBRL), 10-Q, 8-K, 424B, DEF 14A, XBRL; Microsoft, Amazon, Alphabet y CoreWeave en EDGAR; FRED y Treasury.gov; Damodaran; <strong>IBKR en vivo</strong> (posiciones, operaciones, precio y cierres, 15-oct-2026, archivado). Del proyecto: gates.md, Metodología v1, Recalibración v2, Motor v3, Acta B4. Detalle completo, cifras con su fuente, los informes del Candado A y el motor en <code>Tesis/ORCL/2026-10-14_UltraTesis_ORCL_metodo12.md</code>.</p>
+  <footer><p class="small">Esta página aplica el método y las reglas de Felipe a los datos del 14 y 15 de octubre de 2026. No constituye asesoría ni orden de inversión. La decisión y la ejecución son suyas.</p></footer>
+</section>
+</main>
+
+<script>
+/* Port 1:1 de valoracion/motor_orcl.py (run + irr_10y). Validado contra Python en validar_port.js. */
+(function (root) {
+  function npv(flows, r) { let s = 0; for (const [t, f] of flows) s += f / Math.pow(1 + r, t); return s; }
+  function run(cfg) {
+    const r = cfg.wacc, tax = cfg.tax, gInf = Math.min(cfg.g_inf, r - 0.02);
+    const t0 = cfg.t_primer_flujo, fracY1 = cfg.frac_y1 === undefined ? 1.0 : cfg.frac_y1;
+    const A = cfg.A; let revA = A.rev0; const flowsA = [];
+    for (let i = 0; i < 10; i++) {
+      revA *= 1 + A.g[i];
+      const ebit = revA * A.margen_ebit[i], nopat = ebit * (1 - tax);
+      const reinv = A.reinversion_pct_nopat * nopat;
+      let fcf = nopat - reinv - A.sbc_pct_rev * revA;
+      if (i === 0) fcf *= fracY1;
+      flowsA.push([t0 + i, fcf]);
+    }
+    const gA = Math.min(A.g_inf === undefined ? gInf : A.g_inf, r - 0.02);
+    const tvA = flowsA[9][1] * (1 + gA) / (r - gA);
+    const evA = npv(flowsA, r) + tvA / Math.pow(1 + r, t0 + 9);
+    const B = cfg.B; let revB = B.rev0; const flowsB = [], capexHist = (B.capex_hist || []).slice(), vida = B.vida_util;
+    const tabB = [];
+    for (let i = 0; i < 10; i++) {
+      revB *= 1 + B.g[i];
+      const capex = B.capex[i]; capexHist.push(capex);
+      const n = capexHist.length;
+      let dep = 0;
+      if (n > 1) { const sl = capexHist.slice(Math.max(0, n - vida - 1), n - 1); dep = sl.reduce((a, b) => a + b, 0) / vida; }
+      const ebitda = revB * B.margen_ebitda[i], ebit = ebitda - dep, imp = Math.max(ebit, 0) * tax;
+      let fcf = ebitda - imp - capex - B.sbc_pct_rev * revB;
+      if (i === 0) fcf *= fracY1;
+      flowsB.push([t0 + i, fcf]);
+      tabB.push({ rev: revB, ebitda, dep, ebit, capex, fcf });
+    }
+    const revBT = revB * (1 + gInf), ebitdaT = revBT * B.margen_ebitda_terminal, depT = revBT * B.intensidad_capex_terminal;
+    const ebitT = ebitdaT - depT;
+    let fcfT = ebitT * (1 - tax) - B.sbc_pct_rev * revBT;
+    fcfT -= revBT * B.intensidad_capex_terminal * (gInf / (1 + gInf));
+    const tvB = fcfT / (r - gInf);
+    const evB = npv(flowsB, r) + tvB / Math.pow(1 + r, t0 + 9);
+    const ev = evA + evB, br = cfg.bridge;
+    let equity = ev - br.deuda - br.leases_fin - (br.leases_op || 0) - br.preferentes + br.caja + (br.inversiones || 0);
+    equity -= (br.prepagos_clientes || 0);
+    const vps = equity / cfg.acciones;
+    const fcfTotal = flowsA.map((a, i) => [a[0], a[1] + flowsB[i][1]]);
+    return { vps, ev, evA, evB, equity, fcfTotal, tabB, tvBpct: (tvB / Math.pow(1 + r, t0 + 9)) / ev };
+  }
+  function irr10(cfg, price) {
+    const res = run(cfg), acc = cfg.acciones, r = cfg.wacc;
+    const flows = res.fcfTotal.map(([t, f]) => [t, f / acc]);
+    const pv = res.fcfTotal.reduce((s, [t, f]) => s + f / Math.pow(1 + r, t), 0);
+    const tvToday = res.ev - pv, tvY10 = tvToday * Math.pow(1 + r, flows[9][0]);
+    const br = cfg.bridge;
+    const eqY10 = (tvY10 - br.deuda - br.leases_fin - br.preferentes + br.caja) / acc;
+    const f = (rate) => -price + flows.reduce((s, [t, cf]) => s + cf / Math.pow(1 + rate, t), 0) + eqY10 / Math.pow(1 + rate, flows[9][0]);
+    let lo = -0.5, hi = 1.0;
+    for (let i = 0; i < 100; i++) { const mid = (lo + hi) / 2; if (f(mid) > 0) lo = mid; else hi = mid; }
+    return (lo + hi) / 2;
+  }
+  root.ORCLMotor = { run, irr10 };
+  if (typeof module !== 'undefined') module.exports = root.ORCLMotor;
+})(typeof window !== 'undefined' ? window : globalThis);
+
+</script>
+<script>
+const D = {"precio":130.55,"pesos":{"colapso":0.1,"bajista":0.25,"base":0.4,"alcista":0.25},"configs":{"colapso":{"precio":130.55,"acciones":3050,"wacc":0.1026,"tax":0.199,"g_inf":0.042,"t_primer_flujo":0.63,"frac_y1":0.75,"A":{"rev0":49256,"g":[0.01,0.0,-0.01,-0.01,0.0,0.0,0.0,0.0,0.0,0.0],"g_inf":0.0,"margen_ebit":[0.38,0.38,0.38,0.38,0.38,0.38,0.38,0.38,0.38,0.38],"reinversion_pct_nopat":0.05,"sbc_pct_rev":0.0},"B":{"rev0":18101,"ppe0":99957,"capex_hist":[1564,2135,4511,8695,6866,21215,55663],"vida_util":6,"g":[0.7,-0.1,-0.1,0.0,0.03,0.03,0.03,0.03,0.03,0.03],"capex":[70000,30000,15000,12000,10000,10000,10000,10000,10000,10000],"margen_ebitda":[0.45,0.35,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3],"margen_ebitda_terminal":0.3,"intensidad_capex_terminal":0.45,"sbc_pct_rev":0.0},"bridge":{"deuda":125337,"leases_fin":9185,"leases_op":0,"preferentes":5000,"caja":36369,"inversiones":708,"prepagos_clientes":16000}},"bajista":{"precio":130.55,"acciones":3050,"wacc":0.1026,"tax":0.199,"g_inf":0.042,"t_primer_flujo":0.63,"frac_y1":0.75,"A":{"rev0":49256,"g":[0.02,0.01,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"g_inf":0.0,"margen_ebit":[0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4],"reinversion_pct_nopat":0.05,"sbc_pct_rev":0.0},"B":{"rev0":18101,"ppe0":99957,"capex_hist":[1564,2135,4511,8695,6866,21215,55663],"vida_util":6,"g":[0.75,0.3,0.15,0.08,0.05,0.04,0.042,0.042,0.042,0.042],"capex":[75000,50000,35000,25000,20000,18000,17000,17000,17000,17000],"margen_ebitda":[0.47,0.46,0.45,0.45,0.45,0.45,0.45,0.45,0.45,0.45],"margen_ebitda_terminal":0.45,"intensidad_capex_terminal":0.4,"sbc_pct_rev":0.0},"bridge":{"deuda":125337,"leases_fin":9185,"leases_op":0,"preferentes":5000,"caja":36369,"inversiones":708,"prepagos_clientes":16000}},"base":{"precio":130.55,"acciones":3050,"wacc":0.1026,"tax":0.199,"g_inf":0.042,"t_primer_flujo":0.63,"frac_y1":0.75,"A":{"rev0":49256,"g":[0.03,0.03,0.025,0.02,0.02,0.0235,0.0235,0.0235,0.0235,0.0235],"g_inf":0.0235,"margen_ebit":[0.42,0.42,0.42,0.42,0.42,0.42,0.42,0.42,0.42,0.42],"reinversion_pct_nopat":0.05,"sbc_pct_rev":0.0},"B":{"rev0":18101,"ppe0":99957,"capex_hist":[1564,2135,4511,8695,6866,21215,55663],"vida_util":6,"g":[1.0,0.6,0.35,0.2,0.12,0.08,0.06,0.042,0.042,0.042],"capex":[85000,80000,70000,55000,40000,35000,30000,28000,27000,27000],"margen_ebitda":[0.5,0.52,0.54,0.55,0.55,0.55,0.55,0.55,0.55,0.55],"margen_ebitda_terminal":0.55,"intensidad_capex_terminal":0.33,"sbc_pct_rev":0.0},"bridge":{"deuda":125337,"leases_fin":9185,"leases_op":0,"preferentes":5000,"caja":36369,"inversiones":708,"prepagos_clientes":16000}},"alcista":{"precio":130.55,"acciones":3050,"wacc":0.1026,"tax":0.199,"g_inf":0.042,"t_primer_flujo":0.63,"frac_y1":0.75,"A":{"rev0":49256,"g":[0.04,0.04,0.035,0.03,0.03,0.03,0.03,0.03,0.03,0.03],"g_inf":0.03,"margen_ebit":[0.44,0.44,0.44,0.44,0.44,0.44,0.44,0.44,0.44,0.44],"reinversion_pct_nopat":0.05,"sbc_pct_rev":0.0},"B":{"rev0":18101,"ppe0":99957,"capex_hist":[1564,2135,4511,8695,6866,21215,55663],"vida_util":6,"g":[1.05,0.9,0.55,0.3,0.15,0.1,0.07,0.05,0.042,0.042],"capex":[85000,95000,85000,70000,50000,40000,35000,33000,32000,32000],"margen_ebitda":[0.52,0.55,0.57,0.58,0.58,0.58,0.58,0.58,0.58,0.58],"margen_ebitda_terminal":0.58,"intensidad_capex_terminal":0.28,"sbc_pct_rev":0.0},"bridge":{"deuda":125337,"leases_fin":9185,"leases_op":0,"preferentes":5000,"caja":36369,"inversiones":708,"prepagos_clientes":16000}}},"candado_c":[{"wacc":0.0826,"dg":-0.02,"vps":129.2276358204135},{"wacc":0.0826,"dg":0.0,"vps":137.1641900700176},{"wacc":0.0826,"dg":0.02,"vps":145.29339440724652},{"wacc":0.1026,"dg":-0.02,"vps":66.95810267667987},{"wacc":0.1026,"dg":0.0,"vps":72.64005463796929},{"wacc":0.1026,"dg":0.02,"vps":78.44581444425863},{"wacc":0.1226,"dg":-0.02,"vps":33.66455429976911},{"wacc":0.1226,"dg":0.0,"vps":38.12400153023648},{"wacc":0.1226,"dg":0.02,"vps":42.67214846348791}],"rejilla":{"base":{"margenes":[0.45,0.5,0.55,0.6,0.65,0.7],"intensidades":[0.25,0.3,0.33,0.4,0.45],"vps":[[60.34223299889064,47.73984198109359,40.178407370415364,22.535059945499494,9.932668927702442],[76.66420939092204,64.06181837312499,56.500383762446745,38.857036337530886,26.254645319733832],[92.80388026644457,80.20148924864755,72.64005463796929,54.99670721305343,42.39431619525639],[104.80248955492968,92.20009853713265,84.63866392645438,66.99531650153851,54.39292548374147],[116.8010988434148,104.19870782561776,96.63727321493954,78.99392579002367,66.39153477222662],[128.7997081318999,116.19731711410286,108.63588250342463,90.99253507850875,78.3901440607117]]},"alcista":{"margenes":[0.45,0.5,0.55,0.6,0.65,0.7],"intensidades":[0.25,0.3,0.33,0.4,0.45],"vps":[[124.18456784887505,103.88818202696037,91.71035053381158,63.295410383131035,42.999024561216395],[149.76296581645127,129.46657999453657,117.28874850138777,88.87380835070725,68.57742252879261],[175.34136378402752,155.04497796211285,142.867146468964,114.45220631828352,94.15582049636886],[198.41799619808586,178.1216103761712,165.94377888302242,137.5288387323419,117.23245291042721],[217.74198028186748,197.44559445995284,185.26776296680404,156.8528228161235,136.55643699420884],[237.0659643656491,216.7695785437344,204.59174705058564,176.17680689990513,155.88042107799043]]}},"dcf_inverso":{"base_margen_exigido":0.7913194061482027,"base_factor_crecimiento":1.2893042519940798,"alcista_margen_exigido":0.48624789884765196,"alcista_factor_crecimiento":0.8661765989602148},"mc_mezcla":{"n":20000,"media":78.92906816370072,"sigma":25.53824972183009,"p5":42.225526758287586,"p25":61.07005973963266,"p50":76.19934265062153,"p75":93.87575486575271,"p95":124.42575792715674,"p_valor_mayor_precio":0.0353,"p_valor_mayor_0_8precio":0.14845,"hist":{"edges":[0,10,20,30,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180,190,200,210,220,230,240,250],"counts":[0,21,163,588,1396,2480,3250,3315,2856,2199,1532,939,534,304,191,107,55,23,16,16,6,3,2,2,2]}},"precios":{"fechas":["2024-10-15","2024-10-16","2024-10-17","2024-10-18","2024-10-21","2024-10-22","2024-10-23","2024-10-24","2024-10-25","2024-10-28","2024-10-29","2024-10-30","2024-10-31","2024-11-01","2024-11-04","2024-11-05","2024-11-06","2024-11-07","2024-11-08","2024-11-11","2024-11-12","2024-11-13","2024-11-14","2024-11-15","2024-11-18","2024-11-19","2024-11-20","2024-11-21","2024-11-22","2024-11-25","2024-11-26","2024-11-27","2024-11-29","2024-12-02","2024-12-03","2024-12-04","2024-12-05","2024-12-06","2024-12-09","2024-12-10","2024-12-11","2024-12-12","2024-12-13","2024-12-16","2024-12-17","2024-12-18","2024-12-19","2024-12-20","2024-12-23","2024-12-24","2024-12-26","2024-12-27","2024-12-30","2024-12-31","2025-01-02","2025-01-03","2025-01-06","2025-01-07","2025-01-08","2025-01-10","2025-01-13","2025-01-14","2025-01-15","2025-01-16","2025-01-17","2025-01-21","2025-01-22","2025-01-23","2025-01-24","2025-01-27","2025-01-28","2025-01-29","2025-01-30","2025-01-31","2025-02-03","2025-02-04","2025-02-05","2025-02-06","2025-02-07","2025-02-10","2025-02-11","2025-02-12","2025-02-13","2025-02-14","2025-02-18","2025-02-19","2025-02-20","2025-02-21","2025-02-24","2025-02-25","2025-02-26","2025-02-27","2025-02-28","2025-03-03","2025-03-04","2025-03-05","2025-03-06","2025-03-07","2025-03-10","2025-03-11","2025-03-12","2025-03-13","2025-03-14","2025-03-17","2025-03-18","2025-03-19","2025-03-20","2025-03-21","2025-03-24","2025-03-25","2025-03-26","2025-03-27","2025-03-28","2025-03-31","2025-04-01","2025-04-02","2025-04-03","2025-04-04","2025-04-07","2025-04-08","2025-04-09","2025-04-10","2025-04-11","2025-04-14","2025-04-15","2025-04-16","2025-04-17","2025-04-21","2025-04-22","2025-04-23","2025-04-24","2025-04-25","2025-04-28","2025-04-29","2025-04-30","2025-05-01","2025-05-02","2025-05-05","2025-05-06","2025-05-07","2025-05-08","2025-05-09","2025-05-12","2025-05-13","2025-05-14","2025-05-15","2025-05-16","2025-05-19","2025-05-20","2025-05-21","2025-05-22","2025-05-23","2025-05-27","2025-05-28","2025-05-29","2025-05-30","2025-06-02","2025-06-03","2025-06-04","2025-06-05","2025-06-06","2025-06-09","2025-06-10","2025-06-11","2025-06-12","2025-06-13","2025-06-16","2025-06-17","2025-06-18","2025-06-20","2025-06-23","2025-06-24","2025-06-25","2025-06-26","2025-06-27","2025-06-30","2025-07-01","2025-07-02","2025-07-03","2025-07-07","2025-07-08","2025-07-09","2025-07-10","2025-07-11","2025-07-14","2025-07-15","2025-07-16","2025-07-17","2025-07-18","2025-07-21","2025-07-22","2025-07-23","2025-07-24","2025-07-25","2025-07-28","2025-07-29","2025-07-30","2025-07-31","2025-08-01","2025-08-04","2025-08-05","2025-08-06","2025-08-07","2025-08-08","2025-08-11","2025-08-12","2025-08-13","2025-08-14","2025-08-15","2025-08-18","2025-08-19","2025-08-20","2025-08-21","2025-08-22","2025-08-25","2025-08-26","2025-08-27","2025-08-28","2025-08-29","2025-09-02","2025-09-03","2025-09-04","2025-09-05","2025-09-08","2025-09-09","2025-09-10","2025-09-11","2025-09-12","2025-09-15","2025-09-16","2025-09-17","2025-09-18","2025-09-19","2025-09-22","2025-09-23","2025-09-24","2025-09-25","2025-09-26","2025-09-29","2025-09-30","2025-10-01","2025-10-02","2025-10-03","2025-10-06","2025-10-07","2025-10-08","2025-10-09","2025-10-10","2025-10-13","2025-10-14","2025-10-15","2025-10-16","2025-10-17","2025-10-20","2025-10-21","2025-10-22","2025-10-23","2025-10-24","2025-10-27","2025-10-28","2025-10-29","2025-10-30","2025-10-31","2025-11-03","2025-11-04","2025-11-05","2025-11-06","2025-11-07","2025-11-10","2025-11-11","2025-11-12","2025-11-13","2025-11-14","2025-11-17","2025-11-18","2025-11-19","2025-11-20","2025-11-21","2025-11-24","2025-11-25","2025-11-26","2025-11-28","2025-12-01","2025-12-02","2025-12-03","2025-12-04","2025-12-05","2025-12-08","2025-12-09","2025-12-10","2025-12-11","2025-12-12","2025-12-15","2025-12-16","2025-12-17","2025-12-18","2025-12-19","2025-12-22","2025-12-23","2025-12-24","2025-12-26","2025-12-29","2025-12-30","2025-12-31","2026-01-02","2026-01-05","2026-01-06","2026-01-07","2026-01-08","2026-01-09","2026-01-12","2026-01-13","2026-01-14","2026-01-15","2026-01-16","2026-01-20","2026-01-21","2026-01-22","2026-01-23","2026-01-26","2026-01-27","2026-01-28","2026-01-29","2026-01-30","2026-02-02","2026-02-03","2026-02-04","2026-02-05","2026-02-06","2026-02-09","2026-02-10","2026-02-11","2026-02-12","2026-02-13","2026-02-17","2026-02-18","2026-02-19","2026-02-20","2026-02-23","2026-02-24","2026-02-25","2026-02-26","2026-02-27","2026-03-02","2026-03-03","2026-03-04","2026-03-05","2026-03-06","2026-03-09","2026-03-10","2026-03-11","2026-03-12","2026-03-13","2026-03-16","2026-03-17","2026-03-18","2026-03-19","2026-03-20","2026-03-23","2026-03-24","2026-03-25","2026-03-26","2026-03-27","2026-03-30","2026-03-31","2026-04-01","2026-04-02","2026-04-06","2026-04-07","2026-04-08","2026-04-09","2026-04-10","2026-04-13","2026-04-14","2026-04-15","2026-04-16","2026-04-17","2026-04-20","2026-04-21","2026-04-22","2026-04-23","2026-04-24","2026-04-27","2026-04-28","2026-04-29","2026-04-30","2026-05-01","2026-05-04","2026-05-05","2026-05-06","2026-05-07","2026-05-08","2026-05-11","2026-05-12","2026-05-13","2026-05-14","2026-05-15","2026-05-18","2026-05-19","2026-05-20","2026-05-21","2026-05-22","2026-05-26","2026-05-27","2026-05-28","2026-05-29","2026-06-01","2026-06-02","2026-06-03","2026-06-04","2026-06-05","2026-06-08","2026-06-09","2026-06-10","2026-06-11","2026-06-12","2026-06-15","2026-06-16","2026-06-17","2026-06-18","2026-06-22","2026-06-23","2026-06-24","2026-06-25","2026-06-26","2026-06-29","2026-06-30","2026-07-01","2026-07-02","2026-07-06","2026-07-07","2026-07-08","2026-07-09","2026-07-10","2026-07-13","2026-07-14","2026-07-15","2026-07-16","2026-07-17","2026-07-20","2026-07-21","2026-07-22","2026-07-23","2026-07-24","2026-07-27","2026-07-28","2026-07-29","2026-07-30","2026-07-31","2026-08-03","2026-08-04","2026-08-05","2026-08-06","2026-08-07","2026-08-10","2026-08-11","2026-08-12","2026-08-13","2026-08-14","2026-08-17","2026-08-18","2026-08-19","2026-08-20","2026-08-21","2026-08-24","2026-08-25","2026-08-26","2026-08-27","2026-08-28","2026-08-31","2026-09-01","2026-09-02","2026-09-03","2026-09-04","2026-09-08","2026-09-09","2026-09-10","2026-09-11","2026-09-14","2026-09-15","2026-09-16","2026-09-17","2026-09-18","2026-09-21","2026-09-22","2026-09-23","2026-09-24","2026-09-25","2026-09-28","2026-09-29","2026-09-30","2026-10-01","2026-10-02","2026-10-05","2026-10-06","2026-10-07","2026-10-08","2026-10-09","2026-10-12","2026-10-13","2026-10-14"],"cierres":[174.09,174.77,175.68,174.69,173.76,175.31,173.1,174.38,173.52,172.42,173.43,174.56,167.84,170.02,169.59,171.78,181.24,186.37,189.25,189.13,189.58,189.63,187.05,183.74,185.73,188.9,190.75,192.43,192.29,187.99,190.37,182.7,184.84,181.41,182.89,188.19,186.24,191.69,190.45,177.74,178.58,175.32,173.39,171.23,169.71,165.41,168.79,169.66,169.14,171.41,171.68,168.96,166.91,166.64,166.03,166.32,165.69,162.03,163.14,154.5,153.92,156.31,158.31,159.54,161.03,172.57,184.22,186.47,183.6,158.28,164.0,162.02,170.38,170.06,168.6,167.89,171.66,172.35,174.46,178.92,177.19,172.22,173.86,174.16,179.8,181.52,176.0,167.81,169.96,168.54,172.47,164.76,166.06,162.02,157.47,161.56,150.94,155.16,148.79,144.18,150.89,147.66,149.27,154.01,149.45,152.45,152.72,152.23,154.87,153.93,147.8,145.78,140.87,139.81,141.94,145.86,137.23,128.27,127.16,124.5,139.69,133.35,132.35,134.64,133.94,129.76,128.62,122.82,127.24,131.4,137.51,138.49,140.14,140.79,140.72,145.49,150.73,149.29,147.7,149.37,150.3,150.34,157.22,162.27,162.95,159.4,160.49,159.64,160.31,157.18,157.31,155.97,161.91,163.85,162.9,165.53,166.57,169.14,168.1,171.14,174.02,177.15,177.48,176.38,199.86,215.22,211.1,208.18,210.87,205.17,207.04,215.27,210.72,212.82,210.24,218.63,218.96,229.98,237.32,232.26,234.5,235.81,235.0,230.56,229.28,234.96,241.3,248.75,245.45,243.54,238.11,241.9,242.83,245.12,247.71,249.98,250.6,253.77,244.42,252.53,255.67,256.43,249.39,250.05,252.68,253.86,244.18,244.96,248.28,249.07,234.62,235.06,233.16,236.37,235.41,234.21,235.81,240.32,226.13,225.3,223.45,223.0,232.8,238.48,241.51,328.33,307.86,292.18,302.14,306.65,301.41,296.62,308.66,328.15,313.83,308.46,291.33,283.46,282.76,281.24,289.01,288.78,286.14,291.59,284.24,288.63,296.96,292.96,308.01,299.0,303.62,313.0,291.31,277.18,275.15,272.66,280.07,283.33,281.4,280.83,275.3,256.89,262.61,257.85,248.17,250.31,243.8,239.26,240.83,236.15,226.99,217.57,222.85,219.86,220.49,225.53,210.69,198.76,200.28,197.03,204.96,201.95,200.94,201.1,207.73,214.33,217.58,220.54,221.53,223.01,198.85,189.97,184.92,188.65,178.46,180.03,191.97,198.38,195.34,197.49,197.99,195.38,197.21,194.91,195.71,192.59,193.75,192.84,189.65,198.52,204.68,202.29,193.61,189.85,191.09,179.92,173.88,178.18,177.16,182.44,174.9,172.8,169.01,164.58,160.06,154.67,146.67,136.48,142.82,156.59,159.89,157.16,156.48,160.14,153.97,156.17,156.54,148.08,141.31,146.14,147.89,150.31,145.4,149.25,149.01,152.37,154.79,152.96,151.56,149.4,163.12,159.16,155.11,155.97,154.69,152.9,155.52,149.68,154.34,147.09,146.02,142.81,139.66,138.8,147.11,145.23,146.38,145.54,143.17,143.66,137.86,138.09,155.62,163.0,169.81,178.34,175.06,177.58,181.17,187.5,176.28,173.28,172.96,165.96,163.83,161.39,171.83,180.29,185.35,194.03,194.59,195.95,193.84,186.83,189.76,195.61,192.95,186.61,181.46,188.16,189.77,192.08,193.06,190.96,203.7,225.78,248.15,244.58,230.33,236.34,213.68,211.82,205.81,201.26,184.1,184.13,192.64,188.33,183.53,184.29,175.07,165.16,157.53,152.46,148.53,147.76,146.55,142.5,140.27,143.76,141.6,140.49,144.22,140.64,131.54,127.94,132.49,124.21,126.41,121.38,127.05,125.84,120.04,114.99,119.9,119.96,117.74,127.56,129.87,141.85,145.74,144.39,143.47,147.02,151.05,145.48,153.28,156.22,150.52,146.65,142.79,143.81,142.07,146.47,142.45,144.76,148.87,151.94,150.85,149.12,141.32,145.75,154.04,158.78,162.52,161.63,152.94,150.28,144.79,140.35,143.16,150.59,147.61,148.56,149.2,144.56,139.54,137.1,132.6,137.79,137.3,138.07,142.3,142.48,144.77,143.56,135.69,141.4,137.39,143.2,130.55]},"alcanzabilidad":{"min_cierre_24m":114.99,"fecha_min":"2026-07-24","max_cierre_52s":313.0,"fecha_max":"2025-10-16","cierre_hoy":130.55,"fecha_hoy":"2026-10-14","n_obs":501}};
+(function(){
+'use strict';
+const $ = (id)=>document.getElementById(id);
+const fmt = (x,d=0)=>{ if(!isFinite(x)) return '—'; let r=Math.round(Math.abs(x)*Math.pow(10,d))/Math.pow(10,d); const sg=(x<0&&r!==0)?'\u2212':''; return sg+r.toLocaleString('es-ES',{minimumFractionDigits:d,maximumFractionDigits:d,useGrouping:'always'}); };
+const pct = (x,d=0)=>fmt(x*100,d)+'%';
+const PRECIO = D.precio, MIN24 = D.alcanzabilidad.min_cierre_24m;
+const NAMES = {colapso:'Colapso',bajista:'Bajista',base:'Base',alcista:'Alcista'};
+const COL = {colapso:'var(--clay-ink)',bajista:'var(--clay)',base:'var(--sky)',alcista:'var(--moss)'};
+const COLTXT = {colapso:'var(--clay-ink)',bajista:'var(--clay-ink)',base:'var(--sky-ink)',alcista:'var(--moss-ink)'};
+const el = (tag,attrs,html)=>{ const e=document.createElementNS('http://www.w3.org/2000/svg',tag); for(const k in attrs) e.setAttribute(k,attrs[k]); if(html!==undefined) e.textContent=html; return e; };
+
+/* ---------- chrome ---------- */
+const idxBtn=$('idxBtn'), idx=$('idx');
+idxBtn.addEventListener('click',()=>{ const h=idx.hidden; idx.hidden=!h; idxBtn.setAttribute('aria-expanded',String(h)); });
+document.addEventListener('keydown',(e)=>{ if(e.key==='Escape'&&!idx.hidden){ idx.hidden=true; idxBtn.setAttribute('aria-expanded','false'); idxBtn.focus(); }});
+idx.addEventListener('click',(e)=>{ if(e.target.closest('a')){ idx.hidden=true; idxBtn.setAttribute('aria-expanded','false'); }});
+const prog=$('prog');
+const onScroll=()=>{ const h=document.documentElement; const t=h.scrollHeight-h.clientHeight; prog.style.width=(t>0?Math.min(100,h.scrollTop/t*100):0)+'%'; };
+window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+
+/* ---------- utilidades SVG ---------- */
+function svgBox(w,h){ const s=document.createElementNS('http://www.w3.org/2000/svg','svg'); s.setAttribute('viewBox',`0 0 ${w} ${h}`); s.setAttribute('role','img'); return s; }
+function lin(d0,d1,r0,r1){ return v=>r0+(v-d0)*(r1-r0)/(d1-d0); }
+function mount(id,svg,label,opt){ opt=opt||{}; const c=$(id); if(!c) return; svg.setAttribute('aria-label',label||''); if(!opt.fit) svg.style.minWidth=((svg.viewBox&&svg.viewBox.baseVal&&svg.viewBox.baseVal.width)||620)+'px'; const w=document.createElement('div'); w.className='scroll'; if(!opt.fit){ w.classList.add('sc'); if(opt.end) w.classList.add('en'); w.tabIndex=0; w.setAttribute('role','group'); w.setAttribute('aria-label','Gráfico desplazable: '+(label||'')); } w.appendChild(svg); const _sl=((c.querySelector('.scroll')||{}).scrollLeft)||0; c.replaceChildren(w); if(!opt.fit&&!opt.end) w.scrollLeft=_sl; if(!opt.fit&&opt.end) requestAnimationFrame(()=>{ w.scrollLeft=w.scrollWidth; }); }
+function path(pts){ return pts.map((p,i)=>(i?'L':'M')+p[0].toFixed(1)+' '+p[1].toFixed(1)).join(' '); }
+function yGrid(svg,y,ticks,x0,x1,labelFn){ ticks.forEach(t=>{ svg.appendChild(el('line',{x1:x0,x2:x1,y1:y(t),y2:y(t),class:'gl'})); svg.appendChild(el('text',{x:x0-6,y:y(t)+3.5,'text-anchor':'end',class:'ax'},labelFn?labelFn(t):String(t))); }); }
+
+/* ---------- figura: segmentos FY26 ---------- */
+(function(){
+  const seg=[['Soporte de software',19804,'var(--sky)'],['Software SaaS',15888,'var(--sky)'],['Servicios',5743,'var(--stone)'],['Licencias nuevas',4737,'var(--sky)'],['Hardware',3084,'var(--stone)'],['OCI (infraestructura cloud)',18101,'var(--clay)']];
+  const W=760,rowH=34,H=seg.length*rowH+30; const s=svgBox(W,H); const x=lin(0,22000,210,730);
+  [0,5000,10000,15000,20000].forEach(t=>{ s.appendChild(el('line',{x1:x(t),x2:x(t),y1:6,y2:H-22,class:'gl'})); s.appendChild(el('text',{x:x(t),y:H-6,'text-anchor':'middle',class:'ax'},fmt(t/1000)+' B')); });
+  seg.forEach((r,i)=>{ const y=8+i*rowH; s.appendChild(el('text',{x:202,y:y+17,'text-anchor':'end'},r[0])); s.appendChild(el('rect',{x:x(0),y:y+2,width:x(r[1])-x(0),height:22,rx:4,style:`fill:${r[2]}`})); s.appendChild(el('text',{x:x(r[1])+6,y:y+18,class:'num'},fmt(r[1])));});
+  mount('figSeg',s,'Ingresos de Oracle FY26 por línea: soporte 19.804, SaaS 15.888, OCI 18.101, servicios 5.743, licencias 4.737, hardware 3.084 millones de USD');
+  const lg=document.createElement('div'); lg.className='lg'; lg.innerHTML='<span><i style="background:var(--sky)"></i>Legado recurrente</span><span><i style="background:var(--clay)"></i>OCI</span><span><i style="background:var(--stone)"></i>Otros</span>'; $('figSeg').prepend(lg);
+})();
+
+/* ---------- figura: OCI trimestral + RPO ---------- */
+(function(){
+  const q=[['1T26',3.347],['2T26',4.079],['3T26',4.888],['4T26',5.787],['1T27',7.388]];
+  const r=[['FY19',36.2],['FY20',37.0],['FY21',41.3],['FY22',46.6],['FY23',67.9],['FY24',97.9],['FY25',137.8],['FY26',638.0],['1T27',664.0]];
+  const W=760,H=300; const s=svgBox(W,H);
+  // izquierda
+  const x1=lin(0,5,50,340), y1=lin(0,8,250,30);
+  yGrid(s,y1,[0,2,4,6,8],50,350,t=>t+' B');
+  q.forEach((d,i)=>{ const bx=x1(i)+6; s.appendChild(el('rect',{x:bx,y:y1(d[1]),width:44,height:y1(0)-y1(d[1]),rx:3,style:'fill:var(--clay)'})); s.appendChild(el('text',{x:bx+22,y:y1(d[1])-6,'text-anchor':'middle',class:'num'},fmt(d[1],1))); s.appendChild(el('text',{x:bx+22,y:270,'text-anchor':'middle',class:'ax'},d[0])); });
+  s.appendChild(el('text',{x:50,y:16,style:'font-weight:600'},'OCI por trimestre (B USD)'));
+  // derecha
+  const x2=lin(0,9,420,740), y2=lin(0,700,250,30);
+  yGrid(s,y2,[0,200,400,600],420,745,t=>t+' B');
+  r.forEach((d,i)=>{ const bx=x2(i)+3; s.appendChild(el('rect',{x:bx,y:y2(d[1]),width:28,height:y2(0)-y2(d[1]),rx:3,style:'fill:var(--sky)'})); if(i>=6) s.appendChild(el('text',{x:bx+14,y:y2(d[1])-6,'text-anchor':'middle',class:'num'},fmt(d[1],d[1]>100?0:1))); s.appendChild(el('text',{x:bx+14,y:270,'text-anchor':'middle',class:'ax'},d[0])); });
+  s.appendChild(el('text',{x:420,y:16,style:'font-weight:600'},'RPO total (B USD)'));
+  mount('figOci',s,'OCI por trimestre de 3,3 a 7,4 B USD; RPO de 36 B en FY19 a 664 B en el 1T FY27');
+})();
+
+/* ---------- figura: ROIC ---------- */
+(function(){
+  const yrs=['FY17','FY18','FY19','FY20','FY21','FY22','FY23','FY24','FY25','FY26','TTM'];
+  const v=[25.0,24.3,26.8,27.1,28.7,19.0,16.1,14.7,14.8,13.0,13.5];
+  const W=760,H=320; const s=svgBox(W,H); const x=lin(0,10,70,700), y=lin(0,32,280,20);
+  yGrid(s,y,[0,5,10,15,20,25,30],70,720,t=>t+'%');
+  s.appendChild(el('rect',{x:70,y:y(10.4),width:650,height:y(9.7)-y(10.4),style:'fill:var(--sky-bg)'}));
+  s.appendChild(el('text',{x:76,y:y(9.7)+13,style:'fill:var(--sky-ink);font-weight:600'},'WACC de mercado 9,7–10,4%'));
+  [11.6,13.1].forEach(t=>{ s.appendChild(el('line',{x1:70,x2:720,y1:y(t),y2:y(t),style:'stroke:var(--clay);stroke-dasharray:5 4;stroke-width:1.2'})); });
+  s.appendChild(el('text',{x:76,y:y(13.1)-6,style:'fill:var(--clay-ink);font-weight:600'},'WACC con β de 36 m: 11,6–13,1%'));
+  s.appendChild(el('path',{d:path(v.slice(0,10).map((d,i)=>[x(i),y(d)])),class:'lnk',style:'stroke:var(--ink);stroke-width:2.2'}));
+  v.forEach((d,i)=>{ if(i<10) s.appendChild(el('circle',{cx:x(i),cy:y(d),r:3.6,style:'fill:var(--ink)'})); s.appendChild(el('text',{x:x(i),y:y(i===10?13.5:d)-9,'text-anchor':'middle',class:'num',style:i===10?'font-weight:700':''},i===10?'10,8–13,5':fmt(d,1))); s.appendChild(el('text',{x:x(i),y:300,'text-anchor':'middle',class:'ax'},yrs[i])); });
+  s.appendChild(el('line',{x1:x(10),x2:x(10),y1:y(10.8),y2:y(13.5),style:'stroke:var(--clay);stroke-width:3;stroke-linecap:round'}));
+  mount('figRoic',s,'ROIC de Oracle: 25,0% en FY17, 28,7% en FY21, 13,0% en FY26 y entre 10,8% y 13,5% TTM, frente a un WACC de 9,7 a 10,4%');
+})();
+
+/* ---------- figura: caja ---------- */
+(function(){
+  const yrs=['FY17','FY18','FY19','FY20','FY21','FY22','FY23','FY24','FY25','FY26','TTM'];
+  const cfo=[14.1,15.4,14.6,13.1,15.9,9.5,17.2,18.7,20.8,32.0,46.9], cap=[2.0,1.7,1.7,1.6,2.1,4.5,8.7,6.9,21.2,55.7,75.7];
+  const W=760,H=340; const s=svgBox(W,H); const x=lin(0,11,70,730), y=lin(0,80,290,24);
+  yGrid(s,y,[0,20,40,60,80],70,735,t=>t+' B');
+  const bw=22;
+  yrs.forEach((l,i)=>{ const cx=x(i)+30; s.appendChild(el('rect',{x:cx-bw-1,y:y(cfo[i]),width:bw,height:y(0)-y(cfo[i]),rx:2,style:'fill:var(--sky)'})); s.appendChild(el('rect',{x:cx+1,y:y(cap[i]),width:bw,height:y(0)-y(cap[i]),rx:2,style:'fill:var(--clay)'})); s.appendChild(el('text',{x:cx,y:308,'text-anchor':'middle',class:'ax'},l)); });
+  [[8,'−0,4'],[9,'−23,7'],[10,'−28,7']].forEach(([i,t])=>{ const cx=x(i)+30; s.appendChild(el('text',{x:cx,y:326,'text-anchor':'middle',style:'fill:var(--clay-ink);font-weight:700'},t)); });
+  s.appendChild(el('text',{x:x(0)+22,y:326,class:'ax'},'FCF = CFO − capex (B USD):'));
+  mount('figCash',s,'CFO y capex por año fiscal: el capex pasa de 6,9 B en FY24 a 55,7 B en FY26; el FCF es −23,7 B en FY26 y −28,7 B TTM');
+  const lg=document.createElement('div'); lg.className='lg'; lg.innerHTML='<span><i style="background:var(--sky)"></i>CFO</span><span><i style="background:var(--clay)"></i>Capex</span>'; $('figCash').prepend(lg);
+})();
+
+/* ---------- figura: propiedad ---------- */
+(function(){
+  const W=760,H=120; const s=svgBox(W,H); const x=lin(0,100,30,730);
+  s.appendChild(el('rect',{x:x(0),y:30,width:x(100)-x(0),height:34,rx:4,style:'fill:var(--paper2);stroke:var(--line2)'}));
+  s.appendChild(el('rect',{x:x(0),y:30,width:x(38.2)-x(0),height:34,rx:4,style:'fill:var(--sky)'}));
+  s.appendChild(el('rect',{x:x(38.2-13.6),y:30,width:x(38.2)-x(38.2-13.6),height:34,style:'fill:var(--clay)'}));
+  s.appendChild(el('text',{x:x(0)+8,y:52,style:'fill:#141413;font-weight:600'},'Ellison no pignorado 24,6%'));
+  s.appendChild(el('text',{x:x(38.2-13.6/2),y:82,'text-anchor':'middle',style:'fill:var(--clay-ink);font-weight:700'},'pignorado 13,6% de Oracle'));
+  s.appendChild(el('text',{x:x(38.2)+8,y:52},'38,2%'));
+  s.appendChild(el('text',{x:x(100),y:52,'text-anchor':'end',class:'ax'},'Resto de accionistas 61,8%'));
+  s.appendChild(el('text',{x:30,y:20,style:'font-weight:600'},'Propiedad de Oracle (3.031 M de acciones)'));
+  mount('figOwn',s,'Ellison posee el 38,2% de Oracle, con 13,6 puntos pignorados');
+})();
+
+/* ---------- figura: CFO 1T FY27 ---------- */
+(function(){
+  const W=760,H=160; const s=svgBox(W,H); const x=lin(0,23103,30,730);
+  const parts=[['Prepagos con componente financiero',11363,'var(--clay)','#141413','Prepagos financieros'],['Otros ingresos diferidos',3997,'var(--clay-ink)','var(--paper)','Otros diferidos'],['El resto del CFO (≈7.700)',7743,'var(--sky)','#141413','Resto del CFO']];
+  let acc=0; parts.forEach(p=>{ const x0=x(acc), w=x(acc+p[1])-x(acc); s.appendChild(el('rect',{x:x0,y:40,width:w,height:36,style:`fill:${p[2]};stroke:var(--card);stroke-width:2`})); s.appendChild(el('text',{x:x0+w/2,y:63,'text-anchor':'middle',style:`fill:${p[3]};font-weight:700`},fmt(p[1]))); s.appendChild(el('text',{x:x0+w/2,y:98,'text-anchor':'middle',style:'font-weight:600'},p[4])); acc+=p[1]; });
+  s.appendChild(el('text',{x:30,y:22,style:'font-weight:600'},'CFO 1T FY27 = 23.103 M'));
+  s.appendChild(el('text',{x:x(11363/2),y:114,'text-anchor':'middle',style:'fill:var(--clay-ink)'},'cero hace un año'));
+  s.appendChild(el('text',{x:x(11363+3997+7743/2),y:114,'text-anchor':'middle',style:'fill:var(--sky-ink)'},'operación sin diferidos'));
+  s.appendChild(el('text',{x:30,y:142,class:'ax'},'Capex del trimestre 28.499 · «net cash outlay» de Oracle 17.966 · FCF −5.396'));
+  mount('figCfo',s,'De los 23.103 M de CFO del 1T FY27, 11.363 M son prepagos con componente financiero y 3.997 M otros diferidos');
+})();
+
+/* ---------- figura: cartera ---------- */
+(function(){
+  const nav=134096.74; const rows=[['MELI',27450,'tope de ruina 15%'],['DUOL',20700,''],['TSM',11439.6,''],['GOOGL',11266.2,''],['AMZN',8992.8,''],['MSFT',3168,''],['ORCL',1153,'']];
+  const W=760,rowH=30,H=(rows.length+1)*rowH+60; const s=svgBox(W,H); const x=lin(0,30,110,700);
+  [0,5,10,15,20,25,30].forEach(t=>{ s.appendChild(el('line',{x1:x(t),x2:x(t),y1:24,y2:H-26,class:'gl'})); s.appendChild(el('text',{x:x(t),y:H-10,'text-anchor':'middle',class:'ax'},t+'%')); });
+  s.appendChild(el('line',{x1:x(15),x2:x(15),y1:24,y2:H-26,style:'stroke:var(--clay);stroke-dasharray:5 4;stroke-width:1.4'}));
+  s.appendChild(el('text',{x:x(15)-4,y:18,'text-anchor':'end',style:'fill:var(--clay-ink);font-weight:600'},'tope de ruina 15%'));
+  s.appendChild(el('line',{x1:x(20),x2:x(20),y1:24,y2:H-26,style:'stroke:var(--sky-ink);stroke-dasharray:2 3;stroke-width:1.4'}));
+  s.appendChild(el('text',{x:x(20)+4,y:18,style:'fill:var(--sky-ink);font-weight:600'},'tope cadena de IA 20%'));
+  rows.forEach((r,i)=>{ const y=28+i*rowH, p=r[1]/nav*100; const ai=['TSM','GOOGL','AMZN','MSFT','ORCL'].includes(r[0]); s.appendChild(el('text',{x:102,y:y+16,'text-anchor':'end',style:r[0]==='ORCL'?'font-weight:700':''},r[0])); s.appendChild(el('rect',{x:x(0),y:y+2,width:x(p)-x(0),height:20,rx:3,style:`fill:${r[0]==='ORCL'?'var(--clay)':ai?'var(--sky)':'var(--stone)'}`})); s.appendChild(el('text',{x:x(p)+6,y:y+17,class:'num'},fmt(p,1)+'%')); });
+  { const yc=28+rows.length*rowH, pc=(11439.6+11266.2+8992.8+3168+1153)/nav*100; s.appendChild(el('text',{x:102,y:yc+16,'text-anchor':'end',style:'font-weight:700'},'Cadena de IA')); s.appendChild(el('rect',{x:x(0),y:yc+2,width:x(pc)-x(0),height:20,rx:3,style:'fill:var(--sky-ink);opacity:.55'})); s.appendChild(el('text',{x:x(pc)+6,y:yc+17,class:'num',style:'font-weight:700'},fmt(pc,1)+'%')); }
+  mount('figPort',s,'Cartera: MELI 20,5% y DUOL 15,4% del NAV; cadena de IA ancha 26,9% (TSM 8,5, GOOGL 8,4, AMZN 6,7, MSFT 2,4, ORCL 0,9)');
+  const lg=document.createElement('div'); lg.className='lg'; lg.innerHTML='<span><i style="background:var(--sky)"></i>Cadena de IA/capex</span><span><i style="background:var(--clay)"></i>ORCL</span><span><i style="background:var(--stone)"></i>Resto</span>'; $('figPort').prepend(lg);
+})();
+
+/* ---------- figura: precio 24 m con bandas ---------- */
+(function(){
+  const f=D.precios.fechas, c=D.precios.cierres, N=c.length;
+  const W=760,H=380; const s=svgBox(W,H); const x=lin(0,N-1,64,736), y=lin(0,340,330,22);
+  yGrid(s,y,[0,50,100,150,200,250,300],64,740,t=>String(t));
+  const ticks=[]; let last=''; f.forEach((d,i)=>{ const m=d.slice(5,7), key=d.slice(0,7); if(['01','04','07','10'].includes(m) && key!==last){ ticks.push([i,d]); last=key; } });
+  const mn=['','ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+  ticks.forEach(t=>{ s.appendChild(el('text',{x:x(t[0]),y:352,'text-anchor':'middle',class:'ax'},mn[+t[1].slice(5,7)]+' '+t[1].slice(2,4))); });
+  // bandas
+  s.appendChild(el('rect',{x:64,y:y(86),width:672,height:y(71)-y(86),style:'fill:var(--sky-bg)'}));
+  s.appendChild(el('text',{x:730,y:y(78.5)+4,'text-anchor':'end',style:'fill:var(--sky-ink);font-weight:600'},'Valor ponderado 71–86'));
+  s.appendChild(el('rect',{x:64,y:y(63),width:672,height:y(52)-y(63),style:'fill:var(--clay-bg)'}));
+  s.appendChild(el('text',{x:730,y:y(57.5)+4,'text-anchor':'end',style:'fill:var(--ink);font-weight:600'},'Primer tramo 52–63'));
+  // mínimo 24m
+  s.appendChild(el('line',{x1:64,x2:736,y1:y(MIN24),y2:y(MIN24),style:'stroke:var(--ink);stroke-dasharray:6 4;stroke-width:1.3'}));
+  s.appendChild(el('text',{x:70,y:y(MIN24)+14,style:'font-weight:600'},'Mínimo de cierre 24 m: '+fmt(MIN24,2)+' · 24-jul-2026'));
+  // línea de precio
+  const pts=c.map((v,i)=>[x(i),y(v)]);
+  s.appendChild(el('path',{d:path(pts)+` L${x(N-1)} ${y(0)} L${x(0)} ${y(0)} Z`,style:'fill:var(--ink);opacity:.05;stroke:none'}));
+  s.appendChild(el('path',{d:path(pts),class:'lnk',style:'stroke:var(--ink);stroke-width:1.6'}));
+  // pico de la ventana (328,33) y máximo de 52 s (313,00)
+  const iPk=c.indexOf(Math.max(...c)); const pk=c[iPk];
+  s.appendChild(el('circle',{cx:x(iPk),cy:y(pk),r:3.5,style:'fill:var(--ink)'}));
+  s.appendChild(el('text',{x:x(iPk)-8,y:y(pk)+4,'text-anchor':'end'},'Pico 328,33 · '+f[iPk].slice(8,10)+'-sep-2025'));
+  const iMax=f.indexOf(D.alcanzabilidad.fecha_max);
+  s.appendChild(el('circle',{cx:x(iMax),cy:y(313),r:3.5,style:'fill:var(--ink)'}));
+  s.appendChild(el('text',{x:x(iMax)+9,y:y(313)-14,style:'font-weight:600'},'Máx. de 52 s: 313,00 · 16-oct-2025'));
+  // mínimo
+  const iMin=f.indexOf(D.alcanzabilidad.fecha_min);
+  s.appendChild(el('circle',{cx:x(iMin),cy:y(MIN24),r:4.5,style:'fill:var(--ink)'}));
+  // hoy y compra
+  s.appendChild(el('line',{x1:x(N-1),x2:x(N-1),y1:y(PRECIO)-7,y2:y(268),style:'stroke:var(--clay);stroke-width:1.2'}));
+  s.appendChild(el('circle',{cx:x(N-1),cy:y(PRECIO),r:6,style:'fill:var(--clay);stroke:var(--card);stroke-width:2'}));
+  s.appendChild(el('text',{x:x(N-1)-4,y:y(268)-4,'text-anchor':'end',style:'fill:var(--clay-ink);font-weight:700'},'130,55 · cierre 14-oct'));
+  s.appendChild(el('text',{x:x(N-1)-4,y:y(268)-18,'text-anchor':'end',style:'fill:var(--clay-ink)'},'compra de 9 acc. a 129,86 (18:58 UTC)'));
+  mount('figPrice',s,'Precio de ORCL en 24 meses con el mínimo de cierre de 114,99 el 24 de julio de 2026, el valor ponderado de 71 a 86 USD y el primer tramo de 52 a 63 USD, ambos por debajo del mínimo',{end:true});
+})();
+
+/* ---------- figura: MC ---------- */
+(function(){
+  const h=D.mc_mezcla.hist, cnt=h.counts, ed=h.edges; const W=760,H=300; const s=svgBox(W,H);
+  const mx=Math.max(...cnt); const x=lin(0,250,50,740), y=lin(0,mx*1.08,250,24);
+  yGrid(s,y,[0,1000,2000,3000],50,745,t=>fmt(t/200,0)+'%');
+  cnt.forEach((n,i)=>{ const x0=x(ed[i])+1, w=x(ed[i+1])-x(ed[i])-2; const above=ed[i]>=PRECIO-10; s.appendChild(el('rect',{x:x0,y:y(n),width:w,height:y(0)-y(n),style:`fill:${ed[i]>=130?'var(--moss)':'var(--sky)'}`})); });
+  [0,50,100,150,200,250].forEach(t=>s.appendChild(el('text',{x:x(t),y:270,'text-anchor':'middle',class:'ax'},String(t))));
+  s.appendChild(el('line',{x1:x(PRECIO),x2:x(PRECIO),y1:24,y2:250,style:'stroke:var(--clay);stroke-width:2;stroke-dasharray:5 4'}));
+  s.appendChild(el('text',{x:x(PRECIO)+6,y:40,style:'fill:var(--clay-ink);font-weight:700'},'precio 130,55'));
+  const m=D.mc_mezcla; [['p5',m.p5],['media',m.media],['p95',m.p95]].forEach(([l,v],i)=>{ s.appendChild(el('line',{x1:x(v),x2:x(v),y1:y(0)-4,y2:y(0)+4,style:'stroke:var(--ink);stroke-width:2'})); s.appendChild(el('text',{x:x(v),y:290,'text-anchor':'middle',style:'font-weight:600'},l+' '+fmt(v))); });
+  s.appendChild(el('text',{x:50,y:16,style:'font-weight:600'},'Valor ponderado por acción (USD) · % de las simulaciones'));
+  mount('figMC',s,'Distribución del valor ponderado: media 79, p5 42, p95 124; el precio de 130,55 queda en la cola derecha');
+})();
+
+/* ---------- heatmaps ---------- */
+(function(){
+  const box=$('heats'); ['base','alcista'].forEach(k=>{ const g=D.rejilla[k]; const t=document.createElement('table'); t.className='heat tight';
+    let h=`<caption style="text-align:left;font:600 .86rem var(--sans);padding:0 0 .4rem">Senda ${k}</caption><thead><tr><th>Margen \\ capex</th>${g.intensidades.map(i=>`<th class="n">${Math.round(i*100)}%</th>`).join('')}</tr></thead><tbody>`;
+    g.margenes.forEach((m,ri)=>{ h+=`<tr><th>${Math.round(m*100)}%</th>`+g.vps[ri].map(v=>{ const cl=v>=PRECIO?'a':v>=.8*PRECIO?'b':v>=.5*PRECIO?'c':'d'; return `<td class="${cl}">${fmt(v,0)}</td>`; }).join('')+'</tr>'; });
+    t.innerHTML=h+'</tbody>'; const w=document.createElement('div'); w.className='scroll'; w.appendChild(t); box.appendChild(w); });
+  const cc=$('ccTab'); const byW={}; D.candado_c.forEach(r=>{ (byW[r.wacc]=byW[r.wacc]||{})[r.dg]=r.vps; });
+  Object.keys(byW).forEach(w=>{ const r=byW[w]; cc.insertAdjacentHTML('beforeend',`<tr><th>${fmt(+w*100,2)}%</th>${[-0.02,0,0.02].map(d=>{ const v=r[d]; const cl=v>=PRECIO?'a':v>=.8*PRECIO?'b':v>=.5*PRECIO?'c':'d'; return `<td class="${cl}">${fmt(v,0)}</td>`; }).join('')}</tr>`); });
+})();
+
+/* ---------- motor vivo ---------- */
+const M = window.ORCLMotor;
+const st = {wacc:.1026,k:1,dm:0,di:0,w:{colapso:.10,bajista:.25,alcista:.25}};
+function cfgOf(name){ const c=JSON.parse(JSON.stringify(D.configs[name])); c.wacc=st.wacc;
+  c.B.g=c.B.g.map((g,i)=>i<5?g*st.k:g);
+  const dm=st.dm/100, di=st.di/100;
+  c.B.margen_ebitda=c.B.margen_ebitda.map(x=>Math.max(.05,x+dm)); c.B.margen_ebitda_terminal=Math.max(.05,c.B.margen_ebitda_terminal+dm);
+  c.B.intensidad_capex_terminal=Math.max(.05,c.B.intensidad_capex_terminal+di);
+  c.precio=PRECIO; return c; }
+function weights(){ let wc=st.w.colapso, wb=st.w.bajista, wa=st.w.alcista; const sum=wc+wb+wa; if(sum>1){ wc/=sum; wb/=sum; wa/=sum; } return {colapso:wc,bajista:wb,base:Math.max(0,1-wc-wb-wa),alcista:wa,raw:sum}; }
+function compute(){ const out={}; Object.keys(NAMES).forEach(n=>{ const c=cfgOf(n); const r=M.run(c); out[n]={vps:r.vps,rev:r.tabB.map(t=>t.rev),tir:r.vps>0?M.irr10(c,PRECIO):null}; });
+  const w=weights(); let pond=0; Object.keys(NAMES).forEach(n=>{ pond+=w[n]*Math.max(out[n].vps,0); }); return {sc:out,w,pond}; }
+
+function cardsInit(){ const info={colapso:['M1 ocurre en FY28','El cliente dominante incumple; capacidad ociosa.'],bajista:['Contraparte renegocia y retrasa','OCI crece, muy por debajo de la guía.'],base:['Se entrega, con retraso','Va por detrás de la guía desde FY28.'],alcista:['Se cumple la guía','OCI ≈142 B en FY30 con mejor rotación de capital.']};
+  const box=$('cards'); box.innerHTML=''; Object.keys(NAMES).forEach(n=>{ const d=document.createElement('div'); d.className='kpi'; d.id='card_'+n; d.style.borderTop=`4px solid ${COL[n]}`; d.innerHTML=`<div class="k">${NAMES[n]}</div><div class="v" id="cv_${n}" style="color:${COLTXT[n]}">—</div><div class="d"><b>${info[n][0]}</b><br>${info[n][1]}</div><div class="d" id="cd_${n}" style="margin-top:.4rem"></div>`; box.appendChild(d); }); }
+
+function pathsFig(res){ const W=760,H=340; const s=svgBox(W,H); const x=lin(0,10,64,640), ymax=Math.max(230,Math.max(...Object.values(res.sc).map(o=>Math.max(...o.rev)))/1000*1.05), y=lin(0,ymax,290,22);
+  const ticks=[0,50,100,150,200].filter(t=>t<=ymax); yGrid(s,y,ticks,64,700,t=>t+' B');
+  for(let i=0;i<=10;i++){ s.appendChild(el('text',{x:x(i),y:312,'text-anchor':'middle',class:'ax'},'FY'+(26+i))); }
+  // guía de Oracle
+  const guia=[[0,18],[1,32],[2,73],[3,114],[4,144]];
+  s.appendChild(el('path',{d:path(guia.map(g=>[x(g[0]),y(g[1])])),class:'lnk',style:'stroke:var(--ink);stroke-width:1.2;stroke-dasharray:2 4'}));
+  guia.forEach(g=>{ const cx=x(g[0]),cy=y(g[1]); s.appendChild(el('path',{d:`M${cx} ${cy-5} L${cx+5} ${cy} L${cx} ${cy+5} L${cx-5} ${cy} Z`,style:'fill:var(--card);stroke:var(--ink);stroke-width:1.5'})); });
+  s.appendChild(el('text',{x:x(4)-14,y:y(144)-16,'text-anchor':'end',style:'font-weight:600'},'guía de Oracle: 144 B en FY30'));
+  Object.keys(NAMES).forEach(n=>{ const rev=[18.101,...res.sc[n].rev.map(v=>v/1000)]; s.appendChild(el('path',{d:path(rev.map((v,i)=>[x(i),y(v)])),class:'lnk',style:`stroke:${COL[n]};stroke-width:2.6;${n==='colapso'?'stroke-dasharray:7 4':''}`})); s.appendChild(el('text',{x:x(10)+6,y:y(rev[10])+4,style:`fill:${COLTXT[n]};font-weight:600`},NAMES[n]+' '+fmt(rev[10],0))); });
+  s.appendChild(el('text',{x:64,y:14,style:'font-weight:600'},'Ingresos de OCI por escenario (B USD) frente a la guía'));
+  return s; }
+
+function valsFig(res){ const cw=($('figVals').clientWidth||760); const W=Math.max(300,Math.min(760,cw)),H=250; const s=svgBox(W,H); const mx=Math.max(PRECIO*1.15,...Object.values(res.sc).map(o=>o.vps))*1.05; const x=lin(0,mx,100,W-36);
+  const step=mx>400?100:50, ticks=[]; for(let tk=0;tk<=mx;tk+=step) ticks.push(tk); ticks.forEach(t=>{ s.appendChild(el('line',{x1:x(t),x2:x(t),y1:18,y2:200,class:'gl'})); s.appendChild(el('text',{x:x(t),y:216,'text-anchor':'middle',class:'ax'},String(t))); });
+  const rows=[...Object.keys(NAMES),'pond']; rows.forEach((n,i)=>{ const yy=24+i*34; const isP=n==='pond'; const v=isP?res.pond:res.sc[n].vps; const lab=isP?'Ponderado':NAMES[n];
+    s.appendChild(el('text',{x:92,y:yy+17,'text-anchor':'end',style:isP?'font-weight:700':''},lab));
+    const pos=Math.max(v,0); s.appendChild(el('rect',{x:x(0),y:yy+2,width:Math.max(0,x(pos)-x(0)),height:22,rx:3,style:`fill:${isP?'var(--ink)':COL[n]}`}));
+    const txt=Math.round(v)<=0?'0':'≈'+fmt(r5(v),0); s.appendChild(el('text',{x:x(pos)+6,y:yy+18,class:'num',style:'font-weight:600'},txt)); });
+  s.appendChild(el('line',{x1:x(PRECIO),x2:x(PRECIO),y1:12,y2:204,style:'stroke:var(--clay);stroke-width:2;stroke-dasharray:5 4'}));
+  { const lx=x(PRECIO), fl=lx+5+90>W; s.appendChild(el('text',{x:fl?lx-5:lx+5,y:12,'text-anchor':fl?'end':'start',style:'fill:var(--clay-ink);font-weight:700'},'precio 130,55')); }
+  return s; }
+
+const r5=(x)=>Math.round(x/5)*5;
+function render(){ const res=compute(); const w=res.w;
+  Object.keys(NAMES).forEach(n=>{ const o=res.sc[n]; $('cv_'+n).textContent=(Math.round(o.vps)<=0?'0':'≈'+fmt(r5(o.vps),0))+' USD'; $('cd_'+n).innerHTML=`Peso ${pct(w[n])}<br>`+(Math.round(o.vps)>0?`TIR a 10 años comprando a 130,55 (orden de magnitud): <b>≈${pct(o.tir,0)}</b>`:`Las acciones valen 0 (el modelo da ${fmt(o.vps,0)})`)+`<br>Retorno vs precio: <b>${pct(Math.max(o.vps,0)/PRECIO-1)}</b>`; });
+  mount('figPaths',pathsFig(res),'Ingresos de OCI por escenario frente a la guía de Oracle'); mount('figVals',valsFig(res),'Valor por acción de cada escenario y ponderado frente al precio',{fit:true});
+  const tramo=res.pond*(1-.27); const pass=tramo>=MIN24; const pv=res.pond>0?PRECIO/res.pond:Infinity;
+  $('out').innerHTML=`<div class="kpi info"><div class="k">Valor ponderado</div><div class="v">≈${fmt(r5(res.pond),0)}</div><div class="d">USD por acción (redondeo a 5)</div></div><div class="kpi ${pv>1.2?'warn':'good'}"><div class="k">Precio / valor</div><div class="v">${isFinite(pv)?fmt(pv,1)+'×':'—'}</div><div class="d">a 130,55</div></div><div class="kpi"><div class="k">Primer tramo (−27%)</div><div class="v">${fmt(tramo,0)}</div><div class="d">USD</div></div><div class="kpi ${pass?'good':'warn'}"><div class="k">Alcanzabilidad</div><div class="v">${pass?'Pasa':'Falla'}</div><div class="d">frente a mínimo ${fmt(MIN24,2)}</div></div>`;
+  $('mini').innerHTML=`<span>Valor ponderado <b>≈${fmt(r5(res.pond),0)} USD</b></span><span>Precio / valor <b>${isFinite(pv)?fmt(pv,1)+'×':'—'}</b></span><span>Alcanzabilidad <b>${pass?'Pasa':'Falla'}</b></span>`;
+  const r=$('res'); const ret=res.pond/PRECIO-1;
+  r.innerHTML=`Con estos supuestos el valor ponderado es <b class="${ret<0?'bad':'good'}">≈${fmt(r5(res.pond),0)} USD</b> (${ret<0?'':'+'}${pct(ret)} frente al precio). El primer tramo sería ${fmt(tramo,0)} USD y la prueba de alcanzabilidad <b class="${pass?'good':'bad'}">${pass?'pasa':'falla'}</b> (mínimo de cierre de 24 meses: ${fmt(MIN24,2)}).`+(pass?` Para pasar hace falta un valor ponderado ≥ ${fmt(MIN24/0.73,1)} USD (= ${fmt(MIN24,2)} / 0,73): con la tasa central (10,26%) solo se logra con ≥80% de peso alcista, con el resto en base (≈60% con 9,7%, ≈85% con 10,4%), o con una tasa ≤7,8%, que el candado B prohíbe. La valoración es informativa: no autoriza compra (B4).`:' La tesis solo emitiría «todavía» si el primer tramo estuviera por encima de ese mínimo.');
+  // widget 2
+  render2(res); render3();
+  $('o_wacc').textContent=fmt(st.wacc*100,2)+'%'; $('o_k').textContent='×'+fmt(st.k,2); $('o_m').textContent=(st.dm>=0?'+':'')+fmt(st.dm,1)+' pp'; $('o_i').textContent=(st.di>=0?'+':'')+fmt(st.di,1)+' pp';
+  $('o_wc').textContent=pct(st.w.colapso); $('o_wb').textContent=pct(st.w.bajista); $('o_wa').textContent=pct(st.w.alcista);
+  const b=w.base; $('wnote').innerHTML=`Peso del escenario base: <b>${pct(b)}</b> (el resto hasta 100%).`+(w.raw>1?' <b style="color:var(--clay-ink)">Los tres pesos suman más de 100%: se normalizan y el base queda en 0%.</b>':'')+(Math.round(st.wacc*1e4)<970?' <b style="color:var(--clay-ink)">WACC por debajo del suelo de mercado (9,7%): subtasa solo informativa; el candado B la prohíbe.</b>':'');
+}
+function render2(res){ const va=Math.max(res.sc.alcista.vps,0), vb=Math.max(res.sc.base.vps,0); const tail=+$('s_tail').value/100, px=+$('s_px').value; $('o_tail').textContent=pct(tail); $('o_px').textContent=fmt(px,2)+' USD';
+  const rest=1-tail; // reparto del resto entre base y alcista: px = rest*(a*va + (1-a)*vb)
+  const need=(px/rest - vb)/(va-vb); const maxv=rest*va; const imp=need>1||px>maxv; const free=need<=0; const frag=(Math.abs(st.wacc-.1026)<5e-4&&Math.abs(tail-.35)<.005); const reqA=Math.max(0,need)*rest;
+  $('out2').innerHTML=`<div class="kpi ${imp?'warn':'info'}"><div class="k">Alcista requerido</div><div class="v">${imp?'No alcanza':free?'0%':pct(need*rest)}</div><div class="d">${imp?'con todo el resto en alcista'+(frag?' (frontera frágil: 127–136 con las correcciones pro-compra del auditor de modelo)':''):free?'el base ya vale más que el precio':'probabilidad absoluta de la senda guiada'}</div></div><div class="kpi"><div class="k">Máximo alcanzable</div><div class="v">${fmt(maxv,0)}</div><div class="d">USD con todo el resto en alcista</div></div><div class="kpi"><div class="k">Cola</div><div class="v">${pct(tail)}</div><div class="d">colapso + bajista, equity 0</div></div>`;
+  $('res2').innerHTML=imp?`Con <b class="bad">${pct(tail)}</b> de cola, ni poniendo todo el resto en el escenario alcista el valor llega a ${fmt(px,2)} USD (máximo ${fmt(maxv,0)} con las elecciones de la casa${frag?'; con las correcciones favorables al caso de compra del auditor de modelo el máximo sube a 127–136, así que es una frontera frágil':''}). Para que ${fmt(px,2)} sea justo hay que bajar la cola o creer en rentabilidades por encima de la guía.`:free?`Con ${pct(tail)} de cola, ${fmt(px,2)} USD ya queda por debajo del valor del escenario base: el precio no exige ninguna probabilidad de alcista.`:`Con ${pct(tail)} de cola, ${fmt(px,2)} USD exige una probabilidad absoluta de <b class="${need*rest>.5?'bad':'good'}">${pct(need*rest)}</b> para la senda guiada completa (y ${pct(rest-need*rest)} para el base).`; }
+function render3(){ const px=+$('s_lupa').value; $('o_lupa').textContent=fmt(px,0)+' USD'; const c0=cfgOf('base');
+  const vps=(m)=>{ const c=JSON.parse(JSON.stringify(c0)); c.B.margen_ebitda_terminal=m; c.B.margen_ebitda=c.B.margen_ebitda.map((x,i)=>i>=5?Math.min(x,m):x); return M.run(c).vps; };
+  let lo=.05,hi=.95; const top=vps(hi), bot=vps(lo); let m=null;
+  if(px<=bot) m=lo; else if(px>=top) m=null; else { for(let i=0;i<50;i++){ const mid=(lo+hi)/2; if(vps(mid)<px) lo=mid; else hi=mid; } m=(lo+hi)/2; }
+  const base=c0.B.margen_ebitda_terminal;
+  $('out3').innerHTML=`<div class="kpi ${m===null||m>.7?'warn':'info'}"><div class="k">Margen terminal exigido</div><div class="v">${m===null?'>95%':pct(m,0)}</div><div class="d">modelo base: ${pct(base,0)}</div></div><div class="kpi"><div class="k">Valor al margen del modelo</div><div class="v">${fmt(Math.max(vps(base),0),0)}</div><div class="d">USD por acción</div></div>`;
+  $('res3').innerHTML=m===null?`A ${fmt(px,0)} USD ni con 95% de margen EBITDA en OCI se justifica la senda base.`:(m>.7?`Hace falta un margen EBITDA terminal de <b class="bad">${pct(m,0)}</b> en OCI${(Math.abs(st.wacc-.1026)<5e-4&&Math.abs(px-130.55)<1)?' (desplazando solo el terminal; con desplazamiento paralelo de todos los años el umbral baja a ≈70–73% a 130,55 USD)':' (desplazando solo el terminal)'}. Oracle no publica el margen de OCI y el corpus no trae comparables.`:`Hace falta un margen EBITDA terminal de <b class="${m>base+.03?'bad':'good'}">${pct(m,0)}</b> frente al ${pct(base,0)} del modelo base.`); }
+
+const PRE={
+  mercado:{wacc:10.26,k:1,dm:0,di:0,w:[10,25,25]},
+  erp:{wacc:9.7,k:1,dm:0,di:0,w:[10,25,25]},
+  beta:{wacc:13.1,k:1,dm:0,di:0,w:[10,25,25]},
+  'base-rate':{wacc:10.26,k:1,dm:0,di:0,w:[15,30,10]},
+  guia:{wacc:10.26,k:1,dm:0,di:0,w:[0,0,100]},
+  'beta-blume':{wacc:11.63,k:1,dm:0,di:0,w:[10,25,25]}
+};
+function applyPre(key){ const p=PRE[key]; $('s_wacc').value=p.wacc; $('s_k').value=p.k; $('s_m').value=p.dm; $('s_i').value=p.di; $('s_wc').value=p.w[0]; $('s_wb').value=p.w[1]; $('s_wa').value=p.w[2]; read(); document.querySelectorAll('#w1 .presets .btn').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.p===key))); }
+function read(){ st.wacc=+$('s_wacc').value/100; st.k=+$('s_k').value; st.dm=+$('s_m').value; st.di=+$('s_i').value; st.w.colapso=+$('s_wc').value/100; st.w.bajista=+$('s_wb').value/100; st.w.alcista=+$('s_wa').value/100; render(); }
+['s_wacc','s_k','s_m','s_i','s_wc','s_wb','s_wa'].forEach(id=>$(id).addEventListener('input',()=>{ read(); document.querySelectorAll('#w1 .presets .btn').forEach(b=>b.setAttribute('aria-pressed','false')); }));
+['s_tail','s_px'].forEach(id=>$(id).addEventListener('input',()=>render2(compute())));
+$('s_lupa').addEventListener('input',render3);
+document.querySelectorAll('#w1 .presets .btn').forEach(b=>b.addEventListener('click',()=>applyPre(b.dataset.p)));
+cardsInit(); read();
+let _rw=0,_lw=window.innerWidth; window.addEventListener('resize',()=>{ clearTimeout(_rw); _rw=setTimeout(()=>{ if(window.innerWidth!==_lw){ _lw=window.innerWidth; read(); } },150); });
+})();
+</script>

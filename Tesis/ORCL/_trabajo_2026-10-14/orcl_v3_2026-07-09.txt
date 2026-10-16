@@ -1,0 +1,1226 @@
+TESIS ULTRA · QUALITY GROWTH                                              DOCUMENTO DE CONVICCIÓN · ORCL
+
+
+
+
+ ORACLE             CORPORATION
+ NYSE: ORCL · Software empresarial + apuesta apalancada de
+ infraestructura IA · CANDIDATO, no está en el portafolio IBKR ·
+ -60% desde el pico y AUN ASÍ en zona Burbuja
+
+ La acción cayó de US$344 a US$138 en nueve meses y la reacción
+ instintiva es buscar la ganga. El panel de cuatro lentes de esta tesis
+ concluye lo contrario: el pico descontaba un crecimiento del 33-45%
+ anual y el precio de hoy todavía descuenta 19-30%, cuando la aritmética
+ de sus cuatro capas de negocio soporta 13-15%. El equity de Oracle es,
+ hoy, una call apalancada sobre la solvencia de OpenAI.
+
+
+
+        57,6/100                                 US$53                                4 lentes
+                                                                                         VALORACIÓN
+            CALIDAD QG                          PWFV DEL PANEL
+                                                                                SOTP $40 · UnitEcon $83 · Expect.
+          tier Watchlist (<65)           vs US$138 hoy = 260% → BURBUJA
+                                                                                              $51
+
+
+
+
+ 7 de julio de 2026 · Precio US$138,12 · Market cap ~US$405B · Horizonte 5–10 años ·
+ Documento de convicción Nº 30 · candidato, sin posición · REEMPLAZA a la v1 (jun-2026) y
+ revierte su veredicto
+
+ Eje CALIDAD (qg-seilern, corregido tras verificación adversarial) y eje PRECIO (DCF val-mos sometido a panel
+ multi-lente: suma-de-las-partes, unit economics del capex GPU, expectations investing, con juez de reconciliación)
+ + TAM/SAM/SOM de cuatro capas con triangulación multi-fuente. Uso personal; no es asesoría de inversión
+ registrada.
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ Changelog de versiones
+ v3.0: refresco editorial de la voz narrativa · v2.0 REVIRTIÓ el veredicto de la v1
+
+ Versión 3.0 (9-jul-2026) — refresco editorial, cero cambios de números o veredicto.
+ Esta v3 reescribe en profundidad la voz narrativa de las secciones de historia, modelo de
+ negocio, moat, competencia, gestión y riesgos (metáforas de ajedrez/historia/biología
+ evolutiva, curiosidades verificadas sobre la fundación de Oracle y la crisis de 1990, y
+ explicación en español de todo término técnico en su primer uso por sección). El Cuadro de
+ Mando, el veredicto cuantificado y las tablas numéricas de calidad y valoración NO se
+ tocaron: mismos 57,6/100 · Watchlist, mismo PWFV $53,02, mismo ESPERAR. El repaso
+ editorial no encontró errores numéricos que corregir en los datos de la v2.0; el único
+ añadido factual es color narrativo nuevo (fundación de Oracle, la crisis de 1990, la compra
+ de Lanai), investigado y verificado en fuente para esta v3, sin tocar ningún dato financiero.
+
+ Esta es la versión 2.0 de la tesis Ultra de Oracle, y reemplaza por completo a la v1 del
+ 23-jun-2026. La v1 concluía "INICIAR EN TRAMOS 3-5%, HOY en Oportunidad a
+ $175" con un valor estimado de $310. Esta v2 concluye ESPERAR con el precio en zona
+ Burbuja a $138 — una reversión completa que exige explicación honesta. Tres cosas
+ cambiaron: (1) la v1 usaba la escala QG vieja (/13.5), previa al sistema dual-eje
+ qg-seilern/val-mos con verificación adversarial; (2) la v1 se escribió ANTES del 8-K de
+ FY2026 (10-jun-2026), que reveló el FCF de -$23.700M, el capex FY27 de $70-95B y el plan
+ de financiamiento adicional de $40B — los datos que detonaron la última pierna del
+ derrumbe; (3) esta v2 sometió la valoración a un panel de cuatro lentes independientes que
+ la v1 no tenía, y ese panel refutó el tipo de caso base optimista sobre el que la v1 se
+ apoyaba.
+
+ Corrección de calidad (tercera recurrencia del bug de escala). El scoring inicial de
+ esta misma v2 reportó 48,0/100; la verificación adversarial encontró el mismo bug de
+ R1/R3/R4 ya documentado en SPOT y VEEV (valores 0-10 copiados sin reescalar a la escala
+ nativa 0-15) y corrigió a 57,6/100. El tier no cambia (Watchlist), pero la distancia al corte
+ de Calidad sólida baja de 17,0 a 7,4 puntos.
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)      Página 2 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                     ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ Corrección de valoración (la más grande de la campaña). El DCF primario de val-mos
+ dio PWFV $108,64 con un caso base de 18,5% CAGR — internamente correcto y verificado,
+ pero su caso base fue REFUTADO por dos vías independientes del panel: la aritmética de
+ capas muestra que 18,5% exige que la capa IA facture $63.600M/año en FY31 (28-35% de
+ un TAM ya asumido triplicado), y la economía del capital muestra que ese valor solo se
+ replica con un sales-to-capital de 2,0-2,5 contra 0,22 observado. El 74% de la corrección de
+ -$76/acción no es la tasa de crecimiento: es acreditarle valor a crecimiento con ROIC de
+ 1,5-10,5% contra un WACC de 9,23%. PWFV final del panel: $53,02.
+
+   Supuesto crítico fijado en v2.0             Valor                                      Qué lo movería
+                                                                                          R6/R8/R9 (concentración, deuda,
+   Score de calidad (corregido)                57,6/100 · Watchlist                       conversión de caja) — los tres
+                                                                                          dependen del desenlace OpenAI
+
+                                                                                          Evidencia de ROIC IA sostenible
+   PWFV del panel                              US$53,02 (cluster 4 métodos: $51-58)       >WACC, o cumplimiento verificable
+                                                                                          del RPO sin nueva deuda
+
+   Gatillos NUEVOS (los de la v1 y del DCF     Justo ≤$58 · Oportunidad ≤$45 (≈suelo      Recalcular si el mix de capas o el
+   primario quedan invalidados)                EPV) · Ganga ≤$37 (la opción IA gratis)    crédito cambian materialmente
+
+                                               $0-16 (la deuda económica supera el EV     Desapalancamiento real o
+   Piso de distress
+                                               del bear del SOTP)                         conversión de RPO en caja
+
+ El punto de honestidad que esta v2 se obliga a registrar: la v1 recomendó iniciar
+ posición a $175 — un precio 27% por encima del actual — y aun así esta v2 concluye que
+ $138 sigue siendo Burbuja. No es una contradicción del mercado: es la diferencia entre
+ valorar con la guía de la empresa (la v1 tomaba la trayectoria de OCI a valor casi nominal) y
+ valorar con la aritmética de capas y la economía del capital. La lección queda registrada
+ para el feedback loop: un contrato de $300B no es revenue de $300B, y revenue sin
+ spread sobre el costo de capital no es valor.
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)                   Página 3 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                   ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ Resumen en treinta segundos
+ Cayó 60% y sigue cara: el pico descontaba lo imposible
+
+ ¿Es Oracle a $138 la ganga que parece después de caer 60%, o una trampa de valor
+ donde el precio ancla al pico y no al negocio? El panel de cuatro lentes responde con
+ aritmética: el pico de $344 descontaba un CAGR del 33-45% (contra un base rate histórico
+ de 2-3% para empresas de >$50B), y el precio de hoy todavía descuenta 19-30% cuando la
+ estructura de sus cuatro capas soporta 13-15% de revenue y solo 7-9% de owner earnings.
+ [panel]
+
+   El número                                   Qué dice
+
+                                               Cuatro métodos independientes convergen en $51-58; el atípico era el DCF
+   PWFV del panel $53,02 vs. precio
+                                               primario ($108,64), refutado por aritmética. Zona Burbuja pese al -60%.
+   $138,12 (260%)
+                                               [panel]
+
+   ROIC del capex IA: 1,5% / 7,5% / 10,5%      Solo el mejor caso supera el costo de capital, y apenas — cada $100B
+   vs. WACC 9,23%                              desplegados destruyen $27B en el oso y $3B en el base. [unit economics]
+
+                                               La deuda económica ($184,5B) supera el EV del escenario bear: el equity es
+   47-54% del RPO ($638B) = OpenAI, con
+                                               una call apalancada sobre la solvencia de una contraparte deficitaria.
+   $14B de pérdidas y hueco >$100B
+                                               [HECHO/INFERENCIA]
+
+
+ Veredicto operativo. Calidad QG 57,6/100 (tier Watchlist — R6 concentración 2/10, R8
+ balance 2/10, R9 transparencia 3/10). Detector de trampas GRIS. PWFV del panel
+ US$53,02 frente a US$138,12: zona BURBUJA, MoS -160,5%. Acción: ESPERAR — ni
+ siquiera VIGILAR: no hay margen que vigilar y la cola de distress es real.
+
+
+          PAUSA REFLEXIVA
+          El sesgo más peligroso frente a Oracle hoy es el anclaje al pico: "cayó 60%, tiene
+          que estar barata". El panel muestra que el precio del que cayó nunca fue una
+          referencia de valor — era el descuento de una guía de marketing ($225B a
+          FY2030) que queda fuera incluso del escenario toro de la aritmética de capas. La
+          pregunta correcta nunca es cuánto cayó, sino qué exige creer el precio que
+          queda.
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)                  Página 4 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                     ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ Cuadro de mando trimestral
+ Lo único que se refresca cada trimestre · corte 7-jul-2026
+
+ Bloque 1 · Estado de la posición.
+   Concepto                           Estado
+
+   Precio / zona                      US$138,12 · zona BURBUJA (260% del PWFV; MoS -160,5%)
+
+   Valor justo (PWFV del
+                                      US$53,02 · EPV suelo US$45,38 · piso de distress $0-16
+   panel)
+
+   Probabilidades de                  Conservador 35% (US$40,21) · Base 45% (US$45,16) · Optimista 20%
+   escenario                          (US$93,14)
+
+                                      ESPERAR · 0% de posición · doble bloqueo: tier Watchlist + zona Burbuja,
+   Veredicto operativo
+                                      independientes
+
+
+ Bloque 2 · Tracker de KPIs en semáforo.
+   Indicador                                Hoy                                     Umbral rojo                         ●
+
+   Ingresos                                 +17% FY26; guía FY27 +34% cc            cae < 10% sostenido                 verde
+
+   Margen bruto                             64,6% (desde 72,5% — mix IA)            cae < 58%                           ambar
+
+                                            ~12% próx. 12 meses (calendario
+   Conversión RPO→ingreso                                                           conversión falla o se renegocia     ambar
+                                            propio)
+
+   Rating crediticio                        Baa2/BBB, ambos outlook negativo        downgrade a bono basura             rojo
+
+                                                                                    nueva ampliación forzada de
+   FCF                                      -$23,7B FY26; capex FY27 $70-95B                                            rojo
+                                                                                    financiamiento
+
+                                                                                    impago o renegociación del
+   Solvencia de OpenAI                      $14B pérdidas, hueco >$100B                                                 rojo
+                                                                                    contrato
+
+
+
+ Bloque 3 · Feedback loop de calibración.
+   Predicción (versión anterior)            Resultado real                             Interpretación
+
+                                            El precio siguió cayendo a $138 y la v2    La v1 ancló a la guía de la empresa; la
+   v1 (23-jun-2026): "Oportunidad a
+                                            (metodología dual-eje + panel) valora      lección: un contrato no es revenue, y
+   $175, iniciar en tramos", valor $310
+                                            $53                                        revenue sin spread no es valor
+
+
+ Bloque 4 · Operativo. Trigger de re-análisis: cualquier evento de crédito (downgrade a
+ high yield), renegociación/impago del contrato OpenAI, o al revés — evidencia verificable de
+ conversión de RPO en caja con márgenes >25% EBIT. Fecha del refresh: 7-jul-2026.
+ Próxima revisión: Q1 FY2027 (sept-2026).
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)                     Página 5 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                     ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ El veredicto cuantificado
+ Once reglas con bisturí — tres reglas en derrumbe estructural
+
+ Este score mide CALIDAD del negocio, no valoración ni margen de seguridad. Score alto ≠ comprar.
+
+
+
+
+   Regla                   Puntos         Veredicto en una línea
+                                          Negocio dual: el software legacy es asset-light de manual, pero el motor del
+                                          crecimiento (OCI +77%) es un modelo POR CAPACIDAD — capex-intensivo, coste
+   R1 · Escalabilidad      13,5/15
+                                          marginal lejos de cero, sin expansión de margen incremental (30,8%→30,6% pese a
+                                          +17% de revenue).
+
+                                          Cloud infra ~14,5% CAGR proyectado a 2030, muy por encima de PIB+5pp — el
+   R2 · Industria          9/10
+                                          tailwind es real; el problema nunca fue el mercado.
+
+                                          Sin liderazgo por valor en el segmento que dirige la narrativa: OCI tiene ~3% de cuota
+   R3 · Liderazgo          10,5/15        IaaS vs AWS 28%/Azure 21%/GCP 14%; "líder" nominal en ERP por revenue pero SAP
+                                          tiene ~4x más clientes.
+
+                                          Dual y desbalanceado: switching costs genuinos en DB/ERP legacy, pero OCI
+   R4 · Moat               12/15          prácticamente sin moat estructural (Nvidia 5/5 como proveedor, "GPU de último
+                                          recurso") — y el capital fluye masivamente hacia el segmento SIN moat.
+
+                                          Revenue +17%, BN +37% — cumple el umbral nominal, pero el crecimiento coexiste
+   R5 · Crec. orgánico     7/10           con FCF de -$23,7B: no se autofinancia, y el RPO que lo sostiene es lumpy y
+                                          concentrado.
+
+                                          Concentración extrema: 47-54% del RPO en UNA contraparte (OpenAI) que pierde
+   R6 · Diversificación    2/10           $14B al año — muy por encima del umbral de penalización (>15-20%); análogo en
+                                          severidad al riesgo-país único de TSM.
+
+                                          ROIC ~12,3% FY25 (fuente secundaria, tope 7/10 por regla de datos) con caída casi
+   R7 · Capital / ROIC     4/10           segura en FY26: PP&E; se duplicó ($43,5B→$100B) sin ROIC verificado; capex $55,7B
+                                          (+162%) — lo opuesto a asset-light, sin el track record de los "capacidad de élite".
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)                     Página 6 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                    ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+   Regla                   Puntos         Veredicto en una línea
+                                          Cumple MÚLTIPLES criterios de deuda tóxica simultáneamente: refinanciación en
+                                          riesgo (outlooks negativos, CDS máx. 16 años), dividendo SUBIDO con FCF negativo
+   R8 · Balance            2/10
+                                          (financiado con deuda/equity), rating al borde del gatillo de downgrade (S&P relajó su
+                                          propio umbral a 4,0x para acomodar a Oracle).
+
+                                          Señal 1 (conversión de caja) ROJA dos años consecutivos y empeorando (FCF -$394M
+                                          vs BN +$12,4B; FCF -$23,7B vs BN +$17,1B); brecha GAAP/non-GAAP creciente;
+   R9 · Transparencia      3/10
+                                          demanda de fraude activa (alegación, no hecho) — se acerca al KO de R9 sin poder
+                                          confirmarlo con el rigor exigido.
+
+                                          Asignación de capital 1/5 (la peor de la campaña); CEO saliente en pleno pivote
+   R10 · Gestión           4/10           (Catz→co-CEOs sep-2025); ejecución resbalando (Abilene cancelado, Blue Owl fuera,
+                                          datacenters retrasados).
+
+                                          Infraestructura de software empresarial — impacto real pero neutral; ni suma ni resta
+   R11 · Impacto           5/10
+                                          de forma decisiva.
+
+   TOTAL                   72,0/125       57,6/100 · tier Watchlist (<65)
+
+
+
+           LECCIÓN TRANSFERIBLE
+           Oracle es el caso más nítido de la campaña de una empresa cuyo P&L luce
+           excelente (revenue +17%, BN +37%, margen 30,6%) mientras tres reglas
+           estructurales se derrumban a la vez: la concentración de contraparte (R6=2), el
+           balance (R8=2) y la conversión de caja (R9=3). El sistema existe precisamente
+           para que el brillo del income statement no tape el balance y el cash flow — los
+           tres estados cuentan historias distintas, y aquí dos de tres cuentan una mala.
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)                    Página 7 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ §1 · La historia detrás del veredicto
+ De ganarle la apertura a IBM al jaque casi mate de 1990: la apuesta más grande
+ de su historia
+
+ Toda partida de ajedrez tiene una apertura que define el resto del juego, y la de Oracle
+ consistió en robarle una jugada a su propio maestro. En 1977, en Santa Clara, Larry Ellison,
+ Bob Miner y Ed Oates fundaron Software Development Laboratories (SDL) con un capital
+ total de apenas US$2.000 — US$1.200 puestos por Ellison de su bolsillo. Su primer cliente
+ fue la CIA, para quien construyeron una base de datos relacional (RDBMS, el software que
+ organiza la información en tablas vinculadas entre sí en vez de archivos sueltos) bajo el
+ nombre en clave "Oracle"; la agencia autorizó usar ese mismo nombre para el producto
+ comercial. [HECHO]
+
+ El diseño no era una idea propia: Ellison lo tomó del paper académico de 1970 de Edgar F.
+ Codd, investigador de IBM, que describía el modelo relacional de datos. IBM tenía la
+ investigación original y su propio proyecto interno (System R) para comercializarla — y aun
+ así llegó tarde: Oracle lanzó la primera base de datos relacional comercial en 1979, dos
+ años antes de que IBM sacara SQL/DS (1981) y cuatro antes de DB2 (1983). Es el jaque
+ mate de manual: el alumno le ganó la apertura al maestro con las piezas que el maestro
+ había dejado sobre la mesa. (Circula además la anécdota, contada por el ejecutivo de Oracle
+ Mike Humphries, de que la naciente SDL eligió ese encargo por sobre otro —un
+ compilador— lanzando una moneda al aire; es un relato de segunda mano, no un documento
+ primario, y se incluye aquí solo como color con esa salvedad explícita.) [HECHO la carrera
+ con IBM; anécdota corporativa sin verificación primaria el resto]
+
+ Esa apertura ganadora no impidió que Oracle estuviera, trece años después, a un
+ movimiento de perder la partida. En 1990 casi quiebra por un escándalo contable: la fuerza
+ de ventas usaba una estrategia "up-front" — contabilizar como ingreso del trimestre
+ corriente ventas de licencias que en realidad se cobrarían en el futuro, para inflar bonos —
+ y la maniobra colapsó cuando esas ventas futuras no se materializaron. La empresa tuvo
+ que corregir sus ingresos dos veces en dos meses (agosto y septiembre de 1990), despidió a
+ cerca del 10% de su plantilla (~400 personas), y los bancos le recortaron la línea de crédito
+ de $170M a $80M en enero de 1991. La junta trajo a un outsider, Ray Lane, para poner
+ orden. Fue un jaque casi mate autoinfligido: no lo dio un rival, se lo dio su propia
+ contabilidad. [HECHO]
+
+ Oracle construyó, en las cuatro décadas siguientes, el negocio de base de datos que es
+ columna vertebral de banca, gobierno y grandes corporaciones — con márgenes operativos
+ subiendo de 25,7% (FY22) a 30,8% (FY25). El punto de inflexión volvió a llegar con una
+ apuesta de capital, esta vez apalancada: el 10-sep-2025 se reveló el contrato con OpenAI
+ (~$300B, ~5 años, ~4,5GW), la acción saltó +36-40% intradía hasta el máximo histórico
+ (~$345) y Ellison superó brevemente a Musk como la persona más rica del mundo. Siete
+ días después, Moody's puso el outlook (la perspectiva crediticia, el aviso previo a un cambio
+ de calificación) en negativo. Lo que siguió está fechado, verificado, y —a diferencia de
+ 1990— no incluye ningún colapso operativo: [HECHO]
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)      Página 8 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ La comparación con 1990 es instructiva por lo que NO se repite. No hubo
+ restatement (corrección retroactiva de resultados ya publicados), no hubo covenant
+ (cláusula contractual de la deuda) roto, no hubo recorte de dividendo — de hecho la junta lo
+ SUBIÓ a $0,50 el mismo 10-jun en plena liquidación. La caída de 2025-26 fue una
+ repreciación del riesgo de la apuesta de capital — capex, deuda, contraparte — no del
+ negocio operativo, que siguió reportando récords. En 1990 el peligro estaba en la cuenta de
+ resultados; en 2025-26 está en el balance y en el flujo de caja. Esa distinción es
+ exactamente la que el detector de trampas debe procesar. [HECHO]
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)      Página 9 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ §2 · Historia de mi posición
+ Sin posición — y con una tesis previa que esta versión revierte
+
+ Posición actual: ninguna. Oracle no está en mi portafolio IBKR. Pero esta no es una
+ evaluación desde cero: existe una tesis v1 (23-jun-2026) que concluía "INICIAR EN
+ TRAMOS 3-5%, Oportunidad a $175" con valor estimado de $310 — bajo la escala QG vieja y
+ antes del 8-K (comunicado material a la SEC) de FY2026. Si hubiera movido esa pieza el
+ 23-jun, hoy tendría una pérdida de ~21% y el mismo tablero, jugado con reglas mejores, me
+ diría que el valor real es $53 — menos de un tercio de lo que pensaba entonces. [contexto
+ propio]
+
+ La confrontación de proceso es doble. Primero, el sesgo de anclaje al pico: "cayó 60%,
+ algo de valor tiene que haber" — el panel muestra que el pico nunca fue referencia de valor,
+ era el precio de una promesa. Segundo, y más incómodo, el sesgo de consistencia: la
+ tentación de defender la v1 en lugar de corregirla, porque ya la firmé una vez. El sistema
+ pide lo contrario — cuando el método mejora y los datos cambian, el veredicto cambia,
+ aunque duela, y el error de la v1 (valorar con la guía de la propia empresa en vez de con la
+ aritmética del negocio) queda registrado en el feedback loop para no repetirse con el
+ próximo contrato espectacular que anuncie cualquier otra empresa.
+
+ Mi posición operativa: no iniciar posición. Gatillos nuevos del panel: Justo ≤$58,
+ Oportunidad ≤$45 (equivale a pagar solo el suelo EPV, el valor de poder de ganancias —
+ earnings power value — sin darle nada gratis al crecimiento futuro), Ganga ≤$37 (la opción
+ sobre la IA sale gratis). Incluso en esos niveles, el tier Watchlist seguiría exigiendo su
+ propia mejora antes de habilitar compra.
+
+
+          PAUSA REFLEXIVA
+          ¿Cuántas veces he tratado una caída del 60% como información sobre el valor,
+          cuando solo es información sobre el precio anterior? Oracle es el recordatorio
+          más caro de la campaña: el drawdown (la caída porcentual desde el máximo) no
+          es margen de seguridad. El margen de seguridad se mide contra el valor
+          presente de los flujos futuros del negocio — y aquí, medido por cuatro métodos
+          independientes, el precio sigue el doble arriba de ese valor.
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)     Página 10 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ §3 · El modelo de negocio en dos
+ minutos
+ La prueba de Lynch: un cobrador de peajes que se volvió constructor
+ apalancado
+
+ La prueba de los dos minutos. Oracle cobra tres peajes maduros — licencias y soporte de
+ su base de datos (~95% de margen bruto), suscripciones SaaS (software por suscripción; en
+ Oracle, Fusion/NetSuite) y servicios — y con esa caja decidió convertirse en algo distinto:
+ un constructor de centros de datos para IA que compra GPUs (unidades de procesamiento
+ gráfico, el chip especializado en entrenar y correr modelos de inteligencia artificial) de
+ Nvidia con deuda y las alquila a laboratorios de IA bajo contratos multianuales. Dicho con
+ otra imagen: es un organismo con dos metabolismos conviviendo en el mismo cuerpo — uno
+ adaptado durante décadas a un entorno de márgenes altísimos (el software), el otro un
+ órgano recién trasplantado que todavía no generó sus propias defensas (la infraestructura
+ IA) y que compite por el mismo torrente de capital que alimenta al resto del cuerpo. El
+ primero es un negocio de software; el segundo es, económicamente, un negocio
+ inmobiliario-industrial con obsolescencia acelerada. [HECHO]
+
+
+
+
+ La mecánica que decide la década: la conversión del RPO. El RPO (Remaining
+ Performance Obligations, el backlog contratado — pedidos ya firmados que aún no se
+ facturaron) saltó de $138B a $638B en un año (+363%), pero el calendario de conversión
+ divulgado por la propia Oracle dice que solo ~12% se reconoce como ingreso en los
+ próximos 12 meses — la mayor parte tarda 2-5 años, y su cumplimiento depende de que las
+ contrapartes existan y paguen cuando llegue el momento. Mientras tanto, el costo de
+ construir la capacidad se paga hoy, con deuda. [HECHO]
+
+ La caída del ratio de conversión no es una foto: es una serie de cinco años. El
+ porcentaje del RPO que Oracle espera reconocer como ingreso en los próximos 12 meses
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)     Página 11 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+ viene bajando de forma monotónica desde antes del ciclo IA pleno: 57% (FY22, RPO
+ $46,6B), 49% (FY23, $67,9B), 39% (FY24, $97,9B), 33% (FY25, $137,8B) y 12% (FY26,
+ $638B). Es como si el organismo, para poder financiar el trasplante, hubiera aceptado
+ promesas de pago a plazos cada vez más largos: en 2022 cobraba casi toda la promesa
+ dentro del año; hoy cobra apenas una octava parte. La caída es en gran parte mecánica —
+ refleja el alargamiento de la duración promedio de los contratos: en FY22 el 57% caía
+ dentro de 12 meses y el resto en ≤36 meses; en FY26 solo 12%+34%+34%=80% cae dentro
+ de 60 meses y el resto ("remainder thereafter") queda más allá de 5 años. [HECHO, 10-K
+ FY22-FY26]
+
+ Eso no equivale, por sí solo, a un deterioro de ejecución — pero sí implica que la
+ cristalización de caja del RPO de $638B es estructuralmente mucho más lenta que la de la
+ Oracle pre-IA, lo que eleva el riesgo de ejecución multi-año más allá del 12% forward que
+ suele citarse de forma aislada: el reloj relevante ya no son los próximos 12 meses, son los
+ próximos 3-5 años. [INFERENCIA]
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)     Página 12 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ §4 · Las once reglas de Seilern con
+ bisturí
+ El output de qg-seilern, corregido: 57,6/100, Watchlist
+
+ Este score mide CALIDAD del negocio, no valoración ni margen de seguridad. Score alto ≠ comprar.
+
+ Oracle pasa los siete knock-outs formalmente — ninguno se dispara con evidencia
+ primaria — pero queda al límite en dos (G6 por la vía del capex financiado con deuda, que el
+ gate textual no cubre porque fue diseñado para SBC; y R9, a una señal confirmada del KO
+ automático). Sobre las once reglas obtiene 57,6/100 (raw 72,0/125), tier Watchlist —
+ corregido de 48,0 tras el ciclo adversarial. Tres reglas concentran el derrumbe:
+
+ R6 · Diversificación (2/10) — la concentración de contraparte más extrema de la
+ campaña. Entre 47% y 54% del RPO de $638B depende de OpenAI — un cliente que pierde
+ ~$14B al año sobre ~$20-24B de ingresos y que necesita levantar más de $100B que hoy no
+ existen para cumplir sus compromisos. No es concentración de ingresos actuales: es
+ concentración          de    la    promesa        sobre      la   que      el   mercado        valora   la    empresa.
+ [HECHO/INFERENCIA]
+
+
+
+
+ R8 · Balance (2/10) — deuda tóxica de manual, en múltiples criterios a la vez. Deuda
+ en balance +40% en un año ($93B→$129,5B) más $66B en SPVs (special purpose vehicles,
+ vehículos de propósito especial: entidades separadas que permiten financiar activos sin que
+ la deuda aparezca en el balance de la matriz) fuera de balance; ambas agencias en outlook
+ negativo; CDS (credit default swaps, el seguro que se compra contra el impago de la deuda
+ — su precio sube cuando el mercado teme un default) en máximos de 16 años; dividendo
+ subido con FCF de -$23,7B (financiado con emisiones); y el detalle más revelador: S&P
+ relajó su propio umbral de downgrade a 4,0x debt/EBITDA específicamente para acomodar
+ a Oracle — señal de que ya estaba a punto de romperlo. [HECHO]
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)             Página 13 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ R9 · Transparencia (3/10) — la conversión de caja en rojo dos años seguidos. FY25:
+ FCF -$394M contra BN +$12,4B. FY26: FCF -$23,7B contra BN +$17,1B. El beneficio
+ contable y la caja real divergen de forma masiva y creciente — exactamente la señal que la
+ regla existe para atrapar. La demanda por fraude de valores (Delaware, feb-2026, sobre la
+ divulgación de la fragilidad de OpenAI antes de una emisión de bonos de $25B) es alegación
+ no adjudicada, pero refuerza la cautela cualitativa. [HECHO la demanda; alegación su
+ contenido]
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)     Página 14 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ §5 · El moat
+ Foso real en el negocio que se cosecha; sin foso en el negocio que se construye
+
+
+
+
+ Pensemos el moat (foso competitivo, la ventaja estructural que protege las ganancias de la
+ imitación de la competencia) como algo que una especie desarrolla con generaciones de
+ presión evolutiva, no algo que se decreta. El negocio legacy de Oracle (base de datos, ERP)
+ sí tiene ese tipo de defensa: costos de cambio genuinos y altos, la clase de caparazón que se
+ construye a lo largo de décadas. Migrar el ledger core de un banco fuera de Oracle
+ Database exige años y certificaciones de cumplimiento — por eso el soporte renueva al
+ 90%+ y margina ~95% bruto. Pero incluso ese caparazón se erosiona en los bordes:
+ Snowflake y MongoDB le ganan terreno en las cargas nuevas cloud-native (nativas de la
+ nube, diseñadas desde cero para ese entorno), PostgreSQL comoditiza el RDBMS por abajo,
+ y los LLMs (large language models, los modelos de lenguaje detrás de los asistentes de IA)
+ abaratan la conversión del código PL/SQL que hasta ahora encarecía cambiarse de
+ proveedor. [HECHO/INFERENCIA]
+
+ El negocio hacia donde fluye TODO el capital nuevo —OCI, la infraestructura de IA— es la
+ especie opuesta: fue arrojada a un hábitat nuevo sin tiempo evolutivo para desarrollar
+ ninguna defensa propia. Depende por completo de la buena voluntad de asignación de un
+ único proveedor (Nvidia, con poder de negociación 5/5 en la escala de Porter), no tiene
+ ventaja de escala frente a AWS/Azure/GCP, y el mercado lo describe sin rodeos como
+ "proveedor de GPU de último recurso" para clientes que no consiguen capacidad de los tres
+ grandes. Sus márgenes brutos observados en contratos de IA (14-16% según documentos
+ filtrados; 32% reportado en el mejor caso) están a años luz del ~70% del software — la
+ diferencia entre un organismo con inmunidad propia y uno que sobrevive solo mientras dure
+ la escasez del entorno. [HECHO/INFERENCIA]
+
+ Stress-test de esa etiqueta: ¿cuánto dura el nicho? Frente a los hyperscalers, Oracle
+ gasta en capex (inversión en bienes de capital — aquí, la construcción de centros de datos)
+ apenas 25-40% de lo que gasta cualquiera de ellos individualmente (detalle por compañía en
+ §6) y, a diferencia de AWS/Azure/GCP, financia esa inversión creciente con deuda y equity
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)     Página 15 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+ nuevo en vez de flujo de caja libre orgánico — exactamente la vulnerabilidad que este
+ análisis de moat señala: los hyperscalers tienen más potencia de fuego absoluta y capital
+ más barato, por lo que el nicho de exceso de demanda de Oracle es disputable, no probado
+ como durable. [HECHO la comparación de capex; INFERENCIA la implicación de moat]
+
+ En el call de Q4 FY26, el management citó una utilización global de GPU del 97,5% (dato de
+ industria, no específico de Oracle) como evidencia de escasez sistémica que sostendría el
+ nicho — pero el propio 10-K FY26 advierte textualmente que Oracle "podría quedar
+ atrapada en compromisos plurianuales de espacio de centro de datos excedente... sin recibir
+ el ingreso correspondiente" si "clientes clave no pueden pagar o no cumplen", reconociendo
+ concentración en "ciertas ofertas de OCI". Ninguna fuente, ni de Oracle ni de terceros,
+ cuantifica cuántos meses o años dura la ventana antes de que rivales con 2-4x el capex y
+ mejor calificación crediticia cierren el hueco; el propio perfil de duración del RPO (80%
+ reconocible dentro de 60 meses, §3) sugiere que Oracle apuesta a que la ventana siga
+ abierta al menos 3-5 años — apuesta no confirmada por ninguna fuente independiente.
+ [HECHO la cita del 10-K y la utilización; SUPUESTO la duración de la ventana]
+
+
+          PAUSA REFLEXIVA
+          La asignación de capital de una empresa ES su tesis de inversión, digan lo que
+          digan sus métricas históricas. Oracle está tomando la sangre de un organismo
+          con foso del 95% de margen y transfundiéndola, con apalancamiento, a un
+          órgano sin defensas propias y del 15% de margen. Aunque todo salga bien, el
+          Oracle de 2030 es estructuralmente un peor negocio que el de 2024 — esa es la
+          paradoja que el mercado tardó nueve meses en ponerle precio.
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)     Página 16 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                   ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ §6 · El campo de batalla competitivo
+ Contra hyperscalers en infraestructura; contra especialistas en software
+
+   Frente                 Rival(es)                                      Situación
+                                                                         Oracle #3 con ~15% y cayendo desde 20,6% (2021);
+                          AWS (~25%), Microsoft (~20%), Google
+   Base de datos                                                         pierde share relativo, no dólares; multicloud
+                          (~9%), Snowflake, MongoDB, PostgreSQL
+                                                                         DB@Azure/AWS/Google (+404%) es la opción real
+
+                                                                         Oracle crece +11%, por debajo del rival directo;
+                          SAP (líder, cloud +26% cc), Workday,
+   Aplicaciones SaaS                                                     Cerner ($28,3B pagados) pierde hospitales vs Epic por
+                          Microsoft, Epic (salud)
+                                                                         3er año consecutivo
+
+                                                                         ~3% de cuota; ni figura en el top-5 de Gartner IaaS —
+   Cloud general          AWS, Azure, GCP
+                                                                         no existe cuarto hyperscaler
+
+                                                                         Oracle ~32% del SAM accesible HOY por los
+                                                                         contratos firmados — pero compitiendo por
+   Infra IA rentada       Microsoft, CoreWeave, Nebius, neoclouds
+                                                                         renovaciones futuras contra balances más grandes y
+                                                                         precios de cómputo históricamente deflacionarios
+
+ La escala del rival, en dólares. Oracle no libra una guerra: libra cuatro, una por cada
+ frente, contra ejércitos con tesoros mucho más grandes. El capex FY26 guiado por los
+ hyperscalers (los grandes operadores de nube — Amazon, Google, Meta, Microsoft; prensa
+ especializada citando guías corporativas) deja la asimetría en blanco y negro: Amazon
+ ~$200B, Google ~$175-185B, Meta ~$125-145B, Microsoft ~$110-120B frente a los
+ ~$48-50B netos de Oracle — 25-40% de lo que gasta cualquier rival individual. La
+ diferencia no es solo de tamaño sino de cómo se financia el ejército: AWS/Azure/GCP
+ sostienen ese capex con el flujo de caja libre que genera su propio negocio, un tesoro
+ propio; Oracle lo financia crecientemente con deuda y equity nuevo — un tesoro prestado
+ (management guio ~$40B adicionales en deuda+equity para FY27, incluyendo $20B de
+ emisión ATM, at-the-market: venta gradual de acciones nuevas en el mercado abierto). El
+ ~32% de cuota del SAM accesible hoy no dice nada sobre si Oracle puede sostener ese
+ ritmo de inversión al mismo costo de capital que sus rivales — implicación de moat
+ desarrollada en §5. [HECHO cifras de capex y financiamiento; INFERENCIA la comparación
+ de sostenibilidad]
+
+ La señal más reveladora: la divergencia crédito-equity. Hay un patrón que Michael
+ Lewis documentó en la crisis de 2008 y que se repite aquí en miniatura: los prestamistas
+ suelen oler el problema antes de que los dueños del negocio lo vean. Los analistas de
+ crédito (Moody's, S&P, Barclays fixed income — quienes cobran precisamente por anticipar
+ impagos) están todos en cautela o negativos; los analistas de renta variable (quienes
+ recomiendan comprar o vender la acción) siguen ~80% en Buy con precio objetivo
+ promedio de $264 — casi el doble del precio actual. Esta divergencia entre quienes miran el
+ balance y quienes miran la narrativa de crecimiento es un patrón históricamente asociado a
+ trampas de valor: el crédito suele ver primero, porque su downside es asimétrico y su
+ trabajo consiste en no cobrar tarde. [HECHO/INFERENCIA]
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)                 Página 17 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ §7 · Porter: cinco fuerzas y la
+ contradicción central
+ Dos perfiles opuestos: legacy defendible (2,7), OCI hostil (4,7)
+
+
+
+
+ El análisis dual de las cinco fuerzas de Porter (el marco clásico para medir qué tan hostil es
+ el entorno competitivo de un negocio) cuantifica el desbalance: son, en la práctica, dos
+ tableros distintos bajo el mismo nombre de empresa. El negocio legacy opera en un entorno
+ defendible (nuevos entrantes 2/5, ponderado 2,7) mientras OCI opera en el más hostil de
+ toda la campaña (proveedores 5/5 por Nvidia, rivalidad 5/5 por los hyperscalers,
+ compradores 4/5 por la concentración en OpenAI; ponderado 4,7). No hay contradicción con
+ R4 de Seilern — ambos marcos ven lo mismo: el problema no es el foso que Oracle tiene,
+ sino hacia dónde está moviendo el capital. [análisis propio]
+
+
+          PAUSA REFLEXIVA
+          El poder de proveedor de Nvidia (5/5) merece una pausa propia: Oracle está
+          construyendo su futuro sobre un insumo cuyo precio, asignación y cadencia de
+          obsolescencia los fija un tercero con poder de mercado casi absoluto. Cada
+          generación nueva de chips acorta la vida económica de los $100B ya enterrados
+          — la depreciación a 5-6 años que asume Oracle es una apuesta contable contra la
+          cadencia de Jensen Huang.
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)     Página 18 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ §8 · TAM, SAM, SOM — cuatro capas,
+ cuatro calidades
+ El análisis de mercado más profundo de la campaña: triangulación multi-fuente
+ + deduplicación
+
+ Esta sección usa el deep-dive (la investigación en profundidad) dedicado de cuatro analistas
+ (uno por capa, ≥3 fuentes independientes cada uno) más un juez de deduplicación — porque
+ Oracle no tiene un TAM (Total Addressable Market, el tamaño total del mercado al que
+ puede aspirar): tiene cuatro, como cuatro ramas injertadas sobre el mismo tronco, cada una
+ creciendo a un ritmo distinto y con una savia distinta. Dejar que la rama más ruidosa
+ contamine el diagnóstico de las otras tres es exactamente el error que infló el pico de $344.
+ [metodología propia]
+
+
+
+
+ Capa 1 — Base de datos ($120B TAM, Gartner): Oracle captura ~$17B (25% de su SAM
+ —Serviceable Addressable Market, la porción de ese mercado que Oracle puede realmente
+ atender con su oferta actual— de $67B). No se derrite en dólares pero sí en relevancia: de
+ 20,6% de share en 2021 a ~15% en 2024, con el 100% del crecimiento incremental del
+ mercado yendo al cloud dbPaaS donde AWS/Microsoft/Google dominan. La opción real:
+ multicloud Database@Azure/AWS/Google (+404% en Q4) — si los clientes mueven sus DBs
+ al datacenter del hyperscaler PERO pagando a Oracle, el melt se convierte en
+ re-aceleración. Capa 2 — SaaS empresarial ($147B): Oracle crece CON el mercado
+ (+11%), no contra él (SAP cloud +26% cc), y Cerner — comprado por $28,3B — valdría hoy
+ $14-19B a múltiplos de EHR maduro. Capa 3 — OCI general ($380B ex-IA): la historia
+ honesta es que no existe cuarto hyperscaler; Oracle sirve un nicho respetable de ~$7B
+ (soberano, base instalada, multicloud). Capa 4 — Infra IA ($60-75B hoy, puede
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)     Página 19 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+ triplicarse a 2030): Oracle ya captura ~$8B y tiene contratado nominalmente medio billón
+ más — con margen bruto de 14-16% y la mitad del backlog colgando de OpenAI.
+ [HECHO/INFERENCIA por capa, ver fuentes]
+
+ Nota de trazabilidad — qué capa tiene fuente nombrada y cuál no. Solo la Capa 1
+ (base de datos) descansa en una fuente pública nombrada y verificable: Gartner reporta el
+ mercado DBMS mundial en $119,7B para 2024 (+13,4% interanual). Para SaaS ($147B),
+ OCI general ($380B) e infraestructura IA ($60-75B) no se localizó ninguna fuente pública
+ nombrada — ni en materiales de IR de Oracle, ni en los earnings calls Q3/Q4 FY26, ni en
+ cobertura de analistas — que sustente esas cifras exactas: se tratan aquí como estimaciones
+ de consenso sin metodología declarada, no como HECHO verificado. [gap CONFIRMADO,
+ no resuelto]
+
+ El contexto agrava el problema: estimaciones de terceros sobre el "mercado de
+ infraestructura IA" para 2026 oscilan entre $21B y $344B (>10x de dispersión) según se
+ cuenten solo data centers dedicados o el stack completo de IA. Un punto de $60-75B sin
+ metodología declarada no es más riguroso que cualquier otra conjetura dentro de ese rango
+ — y la Capa 4, que es la que justifica buena parte de la prima del 260% sobre el PWFV, es
+ también la peor trazada de las cuatro. [HECHO el rango de dispersión; SUPUESTO
+ cualquier punto único dentro de él]
+
+
+
+
+ La aritmética que disciplina todo lo demás: 42% del revenue actual está en capas que
+ se derriten lentamente, 32% crece a ritmo de mercado, 27% hipercrece con márgenes de
+ infraestructura. Eso soporta estructuralmente un caso base de 13-15% de crecimiento de
+ ingresos a 5 años (banda completa: 5-7 / 13-15 / 20-21) pero solo 7-9% de owner earnings
+ (banda: 2-4 / 7-9 / 12-14) — porque cada dólar incremental llega con peor margen que el
+ dólar que reemplaza. Y la guía oficial de Oracle ($225B de revenue a FY2030, ~28% CAGR)
+ queda fuera incluso del escenario toro: exigiría capturar más que el SAM completo de la
+ capa IA. Cualquier valoración anclada al investor day está anclada a marketing. [aritmética
+ de capas]
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)     Página 20 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ §9 · Valoración — el panel de cuatro
+ lentes
+ El DCF primario fue refutado por aritmética; cuatro métodos convergen en
+ $51-58
+
+ Paso 0 — detector de trampas: GRIS. El test decisivo es genuinamente mixto: ingresos
+ (+17%) y margen operativo (plano en 30,6%) sostienen, pero el ROIC (Return on Invested
+ Capital, el retorno que genera cada dólar de capital invertido en el negocio) se rompe por la
+ duplicación del capital invertido (PP&E $43,5B→$100B). Una señal clara de las 12
+ (apalancamiento creciente, verificada por agencias y CDS). Crucialmente, Oracle NO calza
+ en el patrón Teleperformance (P7) que separa mispricing de trampa: ese patrón exige que el
+ ROIC "todavía" crezca junto con ingresos y márgenes — y aquí el ROIC es exactamente lo
+ que se rompe. [val-mos]
+
+ Paso 1 — el DCF primario y su refutación. El DCF val-mos dio PWFV $108,64 —
+ internamente correcto, verificado adversarialmente. Pero su caso base (18,5% CAGR) fue
+ sometido al panel y refutado por dos vías: (a) sostener 18,5% exige que la capa IA facture
+ $63.600M/año en FY31 — 28-35% de un TAM ya asumido triplicado, pagados por un cliente
+ que debería triplicar sus propios ingresos para cubrir la renta; en valor esperado el CAGR
+ regresa a 14,0%, el centro exacto de la banda estructural; (b) el error mayor ni siquiera era
+ la tasa: $121 de caso base solo se replica con sales-to-capital de 2,0-2,5 — crecimiento casi
+ sin capital — contra 0,22 observado en FY26. De la corrección de -$76/acción, 74% es
+ economía del capital y 26% es la tasa. [juez del panel]
+
+
+
+
+ Paso 2 — los tres lentes independientes. SOTP ($40): las cuatro capas valoradas por
+ separado suman un EV de $300B (el mercado paga ~$590B) — y la deuda económica de
+ $184,5B se come el 62% de ese EV; ~75% del valor está en las dos capas de software
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)     Página 21 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+ "aburridas", mientras la capa IA que justifica la narrativa vale ~$20B neto (7% del EV) pese
+ a consumir todo el balance. Unit economics ($83): el ROIC after-tax por dólar de capex
+ GPU es 1,5%/7,5%/10,5% (oso/base/toro) contra el WACC (Weighted Average Cost of
+ Capital, el costo de capital promedio ponderado — la tasa mínima que un dólar invertido
+ debe superar para crear valor) de 9,23% — solo el toro supera el hurdle (el listón mínimo de
+ rentabilidad exigido), y apenas; cada $100B desplegados destruyen $27B en el oso y $3B en
+ el base. Expectations investing ($51): el pico descontaba 33-45% de CAGR; hoy el precio
+ todavía descuenta 18,8-29,8%; el precio neutral — donde las expectativas igualan la banda
+ estructural — es ~$51. [panel]
+
+
+
+
+ Paso 3 — la síntesis del juez. PWFV final $53,02 = 0,35 × $40,21 + 0,45 × $45,16 + 0,20
+ × $93,14 — aterrizando en el cluster de los tres lentes independientes ($51-58). El bear NO
+ es el piso: con deuda económica de $184,5B contra un EV bear de $173B, el piso de distress
+ es $0-16 y el equity es una call apalancada sobre el cumplimiento de OpenAI. El bull ya
+ concede 76% de la guía FY30 con un año de retraso — el bull primario ($199,86) exigía la
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)     Página 22 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+ guía-marketing completa y fue refutado.
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)     Página 23 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ Paso 4 — zona y veredicto. $138,12 = 260% del PWFV: zona BURBUJA, MoS -160,5% —
+ después de caer 60%. El candado duro también está violado (33x owner earnings vs. techo
+ 25x endurecido por burbuja sectorial). Y el tier Watchlist bloquea la compra a cualquier
+ precio de forma independiente. Veredicto: ESPERAR — ni siquiera VIGILAR: no hay MoS
+ que vigilar. Gatillos nuevos para el registro: Justo ≤$58 · Oportunidad ≤$45 (≈ pagar solo el
+ suelo EPV $45,38) · Ganga ≤$37 (la opción IA sale gratis).
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)     Página 24 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ §10 · Gestión, cultura y gobernanza
+ La peor nota de gestión de la campaña: 12/30, con la asignación de capital en
+ 1/5
+
+ La transición de liderazgo llegó en el peor momento posible: Safra Catz dejó el cargo de
+ CEO el 22-sep-2025 — doce días después del contrato de OpenAI y cinco después del
+ outlook negativo de Moody's — reemplazada por los co-CEOs Clay Magouyrk y Mike Sicilia,
+ sin track record (historial verificable) previo al frente de la compañía, ejecutando el pivote
+ de capital más grande de su historia. Larry Ellison permanece como CTO/Chairman y
+ accionista dominante — la concentración de poder de decisión en el arquitecto de la apuesta
+ es total. (Dato de color sobre la escala en la que piensa Ellison, sin mezclarlo con el score de
+ gestión: en 2012 compró el 98% de la isla hawaiana de Lanai —~90.000 acres, con los dos
+ resorts Four Seasons— por $300M al entonces dueño, que pedía originalmente $1.000M.)
+ [HECHO]
+
+ La asignación de capital (1/5) es la nota definitoria. Una empresa acumula tesoro
+ —caja, capacidad de deuda barata, credibilidad ante el mercado de bonos— durante
+ décadas de negocio conservador, y la pregunta que separa al buen gestor del malo es en
+ qué campaña lo gasta y a qué ritmo. Oracle lo gastó todo en una sola: capex multiplicado
+ casi 8x en seis trimestres, financiado con deuda +40% y un ATM (at-the-market, venta
+ gradual de acciones nuevas al mercado abierto) de equity de $20B —dilución al precio más
+ bajo en años—, dividendo subido con FCF de -$23,7B, y ejecución resbalando en los
+ proyectos que justifican todo (Abilene cancelado, Blue Owl fuera, datacenters retrasados de
+ 2027 a 2028). La transparencia (2/5) agrava: los SPVs fuera de balance (~$66B) oscurecen
+ el apalancamiento real, y el desglose de márgenes de los contratos IA no existe — lo que se
+ sabe (14-16% GM, margen bruto) viene de documentos filtrados, no de divulgación
+ voluntaria. [HECHO/INFERENCIA]
+
+ El giro más revelador de la asignación de capital: de recomprar acciones a diluir de
+ nuevo. Los 10-K de Oracle documentan un ciclo de recompras agresivo que colapsó casi por
+ completo — la compañía dejó, literalmente, de devolverle tesoro a sus accionistas: $36,1B
+ (FY19) → $19,2B (FY20) → $20,9B (FY21) → $16,2B (FY22) → $1,3B (FY23) → $1,2B (FY24)
+ → $0,6B (FY25) → apenas $95M (FY26) — un descenso de más de 99% desde el pico en siete
+ años. Las acciones diluidas promedio ponderadas cayeron de 4.238 millones (FY18) a un
+ mínimo de 2.766 millones (FY23), -35% en cinco años, financiado en parte con deuda. Pero
+ desde FY24 el conteo volvió a subir: 2.823 → 2.866 → 2.914 millones (FY24-FY26). [HECHO,
+ cruzado entre los 10-K FY2020, FY2022, FY2023 y FY2026]
+
+ La inflexión coincide con el cierre de Cerner (jun-2022, ~$28,3B en efectivo) y luego con la
+ prioridad de capex de IA: la compensación en acciones ($4,8B en FY26) y la nueva
+ preferente convertible obligatoria emitida en feb-2026 ($5,0B netos) superan ampliamente
+ unas recompras ya testimoniales. Oracle pasó de reducir agresivamente el share count
+ (número de acciones en circulación) a diluir de nuevo netamente — la gerencia no está
+ "devolviendo capital" hoy: lo está redirigiendo casi en su totalidad a capex de datacenters
+ financiado con deuda (notas por pagar y otros préstamos: $93B→$129,5B en un solo año). El
+ tesoro que se construyó durante veinte años recomprando acciones se gastó, en esencia, en
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)     Página 25 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+ dieciocho meses. [INFERENCIA sobre la causalidad; cifras HECHO]
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)     Página 26 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                      ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ §11 · Nueve inversores legendarios
+ opinan
+ El panel más bajista de la campaña: seis PASS, cero BUY
+
+ Nueve estilos de juego distintos, sentados frente al mismo tablero, con las mismas piezas
+ sobre la mesa. Si la mayoría llega al mismo veredicto por caminos distintos, eso pesa más
+ que un consenso obtenido por una sola vía de razonamiento. [ejercicio de síntesis propio]
+
+
+
+
+   Inversor           Veredicto y razonamiento en una línea
+
+   Graham             FCF negativo, deuda económica de $184,5B y precio a 3x el suelo EPV — no existe el margen de
+   PASS               seguridad cuantitativo bajo ninguna lectura de Graham.
+
+   Buffett            Violaría sus tres reglas a la vez: negocio transformándose en capital-intensivo, deuda masiva para
+   PASS               crecimiento no probado, y dependencia de la solvencia de un tercero deficitario.
+
+                      "Invierte en negocios que un idiota pueda dirigir" — aquí el resultado depende de que TODO salga bien:
+   Munger
+                      OpenAI solvente, GPUs sin obsolescencia acelerada, renovaciones sin deflación. Demasiadas condiciones
+   PASS
+                      simultáneas.
+
+   Fisher             El único que ve algo: la ingeniería de OCI y el multicloud DB (+404%) son innovación de producto real;
+   HOLD               esperaría a que los márgenes de IA prueben ser estructurales antes de decidir.
+
+   Lynch              La historia dejó de ser comprensible: ¿es una software company, una utility de datacenters, o un banco
+   PASS               de proyecto de OpenAI? Cuando no puedes explicar qué compras, no compras.
+
+   Templeton          El pesimismo es real (peor semana desde la puntocom) y eso le interesa — pero el punto de máximo
+   HOLD               pesimismo exige que el precio esté bajo el valor, y $138 sigue al doble del panel; vigilaría hacia $45-53.
+
+   Marks              El péndulo pasó de euforia a miedo, pero el segundo nivel de pensamiento pregunta: ¿el precio ya
+   HOLD               compensa el riesgo de cola? Con piso de distress $0-16 y prima del 160%, todavía no.
+
+   Seilern            Tres reglas estructurales en 2-3/10 (concentración, balance, conversión de caja) — exactamente el perfil
+   PASS               que su filosofía de "solo los mejores" existe para excluir, sin importar el precio.
+
+   Terry Smith        "No pagues de más" y "no compres negocios que necesitan deuda para crecer" — Oracle viola ambas; el
+   PASS               ROIC marginal del capex (1,5-10,5%) está por debajo de su propio umbral de calidad.
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)                  Página 27 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+          PAUSA REFLEXIVA
+          Seis PASS y cero BUY — más bajista que SPOT y que ABNB. Lo notable es la
+          unanimidad de la razón: ninguno de los seis objeta el negocio legacy de Oracle;
+          todos objetan lo mismo — la apuesta apalancada sobre una contraparte
+          deficitaria a un precio que aún no la descuenta. Cuando Graham, Buffett y Terry
+          Smith coinciden con Munger en el porqué exacto, la señal merece peso.
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)     Página 28 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ §12 · Riesgos: matriz, pre-mortem y
+ alerta temprana
+ La solvencia de OpenAI domina todo — probabilidad 4, impacto 5
+
+
+
+
+ Pre-mortem narrativo. Es 2029 y la posición (hipotética) en Oracle fracasó. OpenAI no
+ consiguió cerrar su hueco de financiamiento de $100B+ en un mercado de capital que se
+ enfrió, y renegoció el contrato de Stargate a la baja en 2027 — legalmente ordenado,
+ económicamente devastador: el RPO se recortó 40%, y con él la única justificación del capex
+ ya enterrado. S&P ejecutó el downgrade a high yield (la rebaja de calificación crediticia a
+ "bono basura", que encarece de golpe el costo de refinanciar toda la deuda) que su umbral
+ relajado solo había pospuesto, el costo de refinanciar $170B+ saltó, y Oracle tuvo que elegir
+ entre recortar el dividendo (rompiendo 15 años de historia) o vender activos legacy — la
+ vaca lechera — para servir la deuda de la apuesta. Las GPUs compradas en 2025-26 a
+ precios pico valían una fracción con la generación Rubin (la siguiente generación de chips
+ de Nvidia) ya desplegada, y las renovaciones de capacidad llegaron a 50-70% del precio
+ original, exactamente como el cómputo siempre ha deflactado. El equity, que era una call
+ apalancada (una opción de compra financiada con deuda: gana mucho si el apostador
+ acierta, pero puede valer cero si no), expiró fuera del dinero: la acción tocó los $30 — el
+ rango que el SOTP con IA a cero ya señalaba en 2026 como piso visible. Nada de esto
+ requirió que el negocio de software fallara: el software siguió siendo excelente hasta el
+ final. La apertura de 1977 le había ganado la partida a IBM; el jaque casi mate de 1990 se
+ había esquivado a tiempo; este fue, en el escenario del pre-mortem, el movimiento que
+ finalmente perdió la partida — y se perdió, como casi siempre en ajedrez, varias jugadas
+ antes de que cayera el rey. [SUPUESTO, construido desde riesgos ya documentados]
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)     Página 29 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ Sistema de alerta temprana. Dos verdes (ingresos, margen operativo), dos ámbar
+ (margen bruto en caída por mix, conversión de RPO), tres rojos (rating al borde del
+ downgrade, FCF profundamente negativo, solvencia de OpenAI). Regla dura: cualquier
+ evento de crédito (downgrade a high yield) o cualquier señal de renegociación del contrato
+ OpenAI convierte esta tesis de ESPERAR en descarte definitivo; a la inversa, dos años de
+ conversión de RPO verificada con márgenes EBIT (Earnings Before Interest and Taxes, el
+ margen operativo antes de intereses e impuestos) >25% obligarían a recalcular el panel
+ completo.
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)     Página 30 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                   ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ §13 · Veredicto final, triggers y
+ proyección
+ ESPERAR: cayó 60% y sigue al doble de su valor — el drawdown no es margen
+ de seguridad
+
+ Cruce de los dos ejes. CALIDAD 57,6/100 · tier Watchlist (R6/R8/R9 en derrumbe
+ estructural). VALORACIÓN del panel: PWFV $53,02, zona BURBUJA (260% del PWFV),
+ MoS -160,5%. Doble bloqueo independiente — el tier no se compra a ningún precio, y el
+ precio, medido honestamente, tampoco lo permitiría con mejor tier. ESPERAR.
+
+ Frase-tesis (registrada para el feedback loop). «Oracle tomó la caja de un monopolio de
+ software del 95% de margen y la enterró, con $195B de deuda económica, en capacidad de
+ GPU del 15% de margen alquilada mayormente a una contraparte que pierde $14B al año.
+ El mercado tardó nueve meses en ponerle precio al riesgo y castigó la acción un 60% —
+ pero el pico descontaba un imposible (33-45% CAGR) y el precio de hoy todavía descuenta
+ lo improbable (19-30%) cuando la aritmética de capas soporta 13-15%. Un contrato de
+ $300B no es revenue de $300B, y revenue sin spread sobre el costo de capital no es valor.»
+
+ Elemento falsable. Esta tesis se revierte hacia comprable si: (1) la conversión de RPO en
+ ingreso real se verifica trimestre a trimestre con márgenes EBIT >25% sostenidos —
+ probaría que el lente de unit economics fue demasiado severo; (2) el crédito se estabiliza
+ (outlooks a estable, CDS normalizando) sin nueva emisión; y (3) el precio converge a la zona
+ del panel (≤$58). Se confirma hacia descarte si hay downgrade a high yield o renegociación
+ del contrato OpenAI.
+
+   Plan operativo                     Nivel                           Acción
+
+                                                                      ESPERAR — 0% de posición. Burbuja pese al -60%;
+   Hoy                                US$138
+                                                                      doble bloqueo.
+
+                                                                      Solo actualiza el registro — el tier Watchlist sigue
+   Gatillo Justo                      ≤US$58
+                                                                      bloqueando
+
+                                                                      ≈ pagar solo el suelo EPV; re-correr el panel completo
+   Gatillo Oportunidad                ≤US$45
+                                                                      si llega
+
+                                                                      La opción IA sale gratis — pero verificar solvencia
+   Gatillo Ganga                      ≤US$37
+                                                                      OpenAI ANTES de cualquier decisión
+
+                                      $92 / $76 (v1 y DCF
+   Invalidados                                                        Nacían de un caso base refutado — no usar
+                                      primario)
+
+ Proyección a 5 años (3 escenarios, desde US$138). Optimista (20%): la capa IA cumple
+ con márgenes madurando al doble de lo observado y 76% de la guía FY30 con retraso —
+ valor ~US$93,14, -33%. Base (45%): banda estructural (14% revenue, 9% owner earnings,
+ s2c 0,85) — valor ~US$45,16, -67%. Conservador (35%): IA a ~cero con software intacto —
+ valor ~US$40,21, -71% (y el piso de distress, $0-16, está por debajo). Ponderado:
+ US$53,02 — el precio de hoy lo más que puede ofrecer es pérdida esperada. Por
+ eso: ESPERAR.
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)                 Página 31 de 32
+     TESIS ULTRA · QUALITY GROWTH                                                  ORACLE CORPORATION (NYSE: ORCL)
+
+
+
+
+ Glosario y advertencias finales
+ Términos, etiquetas y la naturaleza de este documento
+
+ Glosario.
+   Término                          Definición
+
+   RPO (Remaining                   backlog contratado aún no reconocido como ingreso — $638B, del cual ~12% se
+   Performance Obligations)         convierte en ingreso en los próximos 12 meses.
+
+                                    protocolo de esta v2: el DCF primario se somete a SOTP + unit economics +
+   Panel multi-lente                expectations investing, con juez de reconciliación — el PWFV final sale del juez, no del
+                                    DCF solo.
+
+                                    deuda en balance ($129,5B) + SPVs/leases fuera de balance ($66B) — el
+   Deuda económica
+                                    apalancamiento real que ve un analista de crédito.
+
+                                    revenue incremental por dólar de capital invertido; observado FY26: 0,22 — el número
+   Sales-to-capital
+                                    que refutó el caso base del DCF primario.
+
+                                    DCF inverso (Mauboussin/Rappaport): extraer qué crecimiento implica cada precio y
+   Expectations investing
+                                    juzgarlo contra base rates — solo 2-3% de las empresas >$50B sostienen >15% CAGR.
+
+                                    $0-16/acción: con deuda económica ($184,5B) superando el EV del bear del SOTP
+   Piso de distress
+                                    ($173B), el equity puede valer cero sin que el software falle.
+
+                                    banda de calidad <65/100 — exclusión TOTAL del universo comprable, independiente
+   Tier «Watchlist»
+                                    del precio.
+
+
+
+ Advertencias finales.
+ Cada dato se etiquetó HECHO (fuente primaria: 8-K FY2026, 10-K FY2025, agencias de
+ rating, prensa con fecha), INFERENCIA o SUPUESTO. Cabos NO resueltos: el desglose
+ real de márgenes de los contratos IA (14-16% viene de documentos filtrados, no de
+ divulgación); la composición exacta OpenAI/otros del RPO (~$300B/$638B es inferencia de
+ prensa); el desenlace de la demanda de Delaware (alegación no adjudicada); y la vida
+ económica real de las GPUs (5-6 años asumidos vs. cadencia Nvidia). El score Seilern mide
+ calidad, no valoración. Documento de uso personal; no constituye asesoría de inversión
+ registrada.
+
+
+          PAUSA REFLEXIVA
+          Qué queda por saber — la pieza que más cambiaría el veredicto: la evidencia
+          trimestral de conversión del RPO en ingreso real con márgenes
+          verificables. Todo el debate — las cuatro capas, los cuatro lentes, los tres rojos
+          del semáforo — se reduce a una pregunta: ¿el medio billón contratado se
+          convierte en caja con spread positivo sobre el costo de capital, o no? Los
+          próximos 4-6 trimestres de reconocimiento de ingreso OCI contra capex son el
+          experimento en vivo. Hasta entonces, el sistema dice lo que dice: ESPERAR.
+
+
+
+
+Tesis ultra para uso personal — eje calidad + panel de valoración de 4 lentes · v3.0 (2026-07-09)               Página 32 de 32
+

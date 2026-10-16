@@ -1,0 +1,24 @@
+base margen terminal exigido (método publicado): 0.7913
+base   desplazamiento PARALELO de margen desde año 3 + terminal: +15.6 pp -> margen terminal 70.6%
+base   desplazamiento PARALELO de margen desde año 6 + terminal: +18.2 pp -> margen terminal 73.2%
+base   desplazamiento PARALELO de margen desde año 1 + terminal: +14.8 pp -> margen terminal 69.8%
+base   factor de crecimiento años1-5 (capex fijo, publicado): 1.2893
+base   factor de crecimiento años1-5 con capex ∝ ingresos: 1.5464  VPS en k=3: 541.8  VPS en k=1 72.6
+   OCI k=1 [ 36.2  57.9  78.2  93.8 105.1 113.5]
+   OCI k publicado [ 41.4  73.5 106.7 134.2 154.9 167.3]
+alcista margen terminal exigido (método publicado): 0.4862
+alcista   desplazamiento PARALELO de margen desde año 3 + terminal: +-8.2 pp -> margen terminal 49.8%
+alcista   desplazamiento PARALELO de margen desde año 6 + terminal: +-9.4 pp -> margen terminal 48.6%
+alcista   desplazamiento PARALELO de margen desde año 1 + terminal: +-7.9 pp -> margen terminal 50.1%
+alcista   factor de crecimiento años1-5 (capex fijo, publicado): 0.8662
+alcista   factor de crecimiento años1-5 con capex ∝ ingresos: 0.7793  VPS en k=3: 1978.1  VPS en k=1 178.5
+   OCI k=1 [ 37.1  70.5 109.3 142.1 163.4 179.7]
+   OCI k publicado [ 34.6  61.5  90.8 114.4 129.3 142.2]
+base capex>=dep en todos los años: [85.  80.  70.  55.  61.1 67.8 69.8 67.3 65.2 64.4] VPS 72.6 -> 40.9
+alcista capex>=dep en todos los años: [85.  95.  85.  70.  68.6 76.6 80.  79.2 76.6 75.2] VPS 178.5 -> 143.4
+bajista capex>=dep en todos los años: [75.  50.  36.2 40.8 46.5 50.7 49.9 45.7 45.  46.4] VPS -3.8 -> -36.8
+colapso capex>=dep en todos los años: [70.  30.  32.1 36.  40.8 44.1 42.2 37.5 38.8 39.9] VPS -25.4 -> -65.9
+base PP&E neto (total empresa, May-26=99.957 + capex - dep modelo) B: [168. 218. 245. 247. 226. 197. 166. 142. 126. 117.]  ingresos B/PP&E neto: [0.21 0.27 0.32 0.38 0.47 0.58 0.73 0.88 1.04 1.16]
+   capex/dep por año: [5.15 2.64 1.63 1.04 0.65 0.54 0.49 0.54 0.63 0.75]
+alcista PP&E neto (total empresa, May-26=99.957 + capex - dep modelo) B: [168. 233. 273. 285. 266. 232. 197. 167. 147. 136.]  ingresos B/PP&E neto: [0.22 0.3  0.4  0.5  0.61 0.77 0.98 1.21 1.43 1.62]
+   capex/dep por año: [5.15 3.13 1.87 1.2  0.73 0.54 0.49 0.53 0.61 0.74]

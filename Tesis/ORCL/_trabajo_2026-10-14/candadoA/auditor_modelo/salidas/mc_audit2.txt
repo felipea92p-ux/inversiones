@@ -1,0 +1,8 @@
+ruido COMÚN, capex fijo                                      media   79.5 σ  37.4 p5  30.3 p50  74.0 p95  147.9  P(>130,55)=0.092
+       base media 77.2 σ 40.7  P(>precio)=0.097
+       alcista media 190.2 σ 78.4  P(>precio)=0.776
+      Σ w·P(V_k>P) = 0.233
+ruido COMÚN, capex ∝ ingresos                                media   78.9 σ  32.8 p5  36.8 p50  73.7 p95  139.0  P(>130,55)=0.069
+       base media 76.8 σ 35.7  P(>precio)=0.072
+       alcista media 189.1 σ 69.4  P(>precio)=0.813
+      Σ w·P(V_k>P) = 0.232
