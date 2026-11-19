@@ -510,7 +510,7 @@ DUOL: CONFIRMADA, con 2 correcciones
   - 106 días desde el gate y 83 desde la fecha límite. CONFIRMADO.
   - MAU +13,2%: CONFIRMADO, pero en una sola fuente primaria (el 10-Q). El gate ya se había roto con el 2T26 (+10,0%), y ese dato tiene doble fuente según gates.md L196-199.
 - Regla: el gate del 21-ago y la congelación del diario (L224-226) son literales y aprobados. CONFIRMADO.
-- Corrección 1. El borrador del diario dice datos personales sobre tu uso de la app. En el repo no hay fuente: el diario del 21-ago dice «más de 400 días» y «Max Familiar» no aparece en ningún archivo. Es un dato personal de Felipe inventado. Veredicto: REFUTADO. Eliminarlo o dejar «[Felipe]».
+- Corrección 1. El borrador del diario dice datos personales sobre tu uso de la app. En el repo no hay fuente: el diario del 21-ago dice «más de 400 días» y ese otro dato no aparece en ningún archivo. Es un dato personal de Felipe inventado. Veredicto: REFUTADO. Eliminarlo o dejar «[Felipe]».
 - Corrección 2. El efectivo resultante de 12,5% está calculado en aislamiento. No sirve para decidir (ver sección C).
 
 MSFT: CONFIRMADA la cifra; la base del tamaño queda DEGRADADA
