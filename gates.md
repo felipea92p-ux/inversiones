@@ -1,5 +1,5 @@
 # Gates de falsificación y decisiones abiertas
-Actualizado: **2026-08-21**, con adendas del **2026-09-06**, **2026-09-14** y **2026-10-13**. `vigia-gates` lee este
+Actualizado: **2026-08-21**, con adendas del **2026-09-06**, **2026-09-14**, **2026-10-13** y **2026-11-18**. `vigia-gates` lee este
 archivo y PROPONE actualizaciones; Felipe aprueba.
 Fuente de esta actualización: `Metodo_Nuevo/2026-07-26_Seleccion_27/PROPUESTA_gates_2026-08-21.md`
 (5 agentes, verificación contra EDGAR), aprobada por Felipe el 21-ago-2026.
@@ -95,6 +95,94 @@ https://claude.ai/artifact/QaW6a4QDt2ood5rWMPSGbW. Precios y posiciones: IBKR en
    RMS 1 acc.: sin forma de reconciliarlas aquí (`get_account_trades` solo devolvió la operación de hoy).
    (d) **DUOL sigue en 150 acc. (15,4% NAV): la venta ordenada el 5-ago lleva 69 días sin ejecutar.**
    (e) **MELI 15 acc. = 20,8% NAV, 5,8 puntos sobre el tope del 15%.** NAV 136.472 USD; efectivo 8.888.
+
+
+**Adenda 2026-11-18 (pendiente de aprobación de Felipe, no auto-aplicada como el resto del archivo) —
+cierre por escrito de dos gates rotos (DUOL, MSFT) y del exceso sobre el tope de ruina (MELI).**
+Proceso: acta por ticker contra las reglas ya aprobadas → `verificador` (EDGAR con doble fuente + IBKR) →
+`abogado-diablo` en sesión limpia contra la acción propuesta (veredicto en ambos: MODIFICA, hacia ejecutar la
+regla por defecto). Posiciones y NAV: IBKR en vivo, 18-nov-2026 ≈21:00 UTC (no son cierres). **NAV 118.260 USD**
+(get_account_summary; efectivo 5.364). Aviso de datos: el NAV de 135.513 usado en sesiones anteriores era el de
+mediados de octubre; la serie diaria de IBKR (get_pa_performance_all_periods) es la referencia desde hoy.
+**Ninguna orden se ejecuta desde aquí. Cada bloque se aprueba por separado.**
+
+1. **DUOL — sustituye a la sección A «DUOL — el gate SE ROMPIÓ el 5-ago-2026» y cierra la Decisión abierta nº1.**
+   - **Posición:** 60 acc. · coste 132,15 · precio 158,31 · 9.499 USD = **8,0% del NAV**. Ventas desde el gate:
+     30 a 161,36 y 30 a 169,61 (4-nov), 30 a 160,22 (18-nov). Ninguna en `diario-decisiones.md`. 105 días desde el gate.
+   - **Regla que manda (aprobada 21-ago):** *«vender el resto, no solo recortar»*. El dato que la rompió sigue roto:
+     MAU +9,6% en el 2T26 (8-K EX-99.2 y 10-Q) y **+13,2% en el 3T26** (10-Q), ambos < +15%. La congelación del
+     diario (21-ago) venció el 28-ago y decía «congelar es aplazar la ejecución con fecha, no anular la regla».
+     La Recalibración v2 (21-ago) fija el default: sin resolución escrita, se vende el resto.
+   - **ACCIÓN POR DEFECTO: vender las 60 → 0 acc.** Próxima sesión regular, orden límite, registro el mismo día
+     antes del cierre. Ese día no se compra nada.
+   - **Única alternativa legítima (lectura B, puerta 1 con vigilancia):** solo si ANTES de enviar la orden Felipe
+     firma con fecha (i) «certifico que la calidad de DUOL sigue intacta», con su razón frente al MAU < +15% y a la
+     concentración en Apple (69,9% de las CxC al 30-sep-2026, 10-Q acc. 0001628280-26-069692), y (ii) el número
+     exacto de acciones dentro de 3–4,5% del NAV = **23–33 acc. a 158,31**. El 25–38 del 4-nov no está aprobado y
+     estaba calculado con un NAV desfasado. Sin las dos firmas, rige el default. No hay tercera ventana.
+   - **Puerta 2:** sin valor central fijado (57 con C-5 → 2,78×; 105 sin C-5 → 1,51×). **Puerta 3:** no aplica.
+   - **Compra:** prohibida. Se reabre solo con precio ≤ P_tramo1 (≈77; ≈42 con C-5), el knock-out de concentración
+     resuelto por contrato o decisión escrita, veto del abogado-diablo levantado y acta de B4.
+   - **Si rige B — próximo gate:** reporte del 4T26 ≈26-feb-2027 (fecha no anunciada) · [CADUCA: 2027-03-05].
+     Umbrales del 4-nov, sin ajuste tras el dato: bookings 4T ≥382/<370 · DAU a/a ≥+25%/<+22% · suscriptores de
+     pago ≥13,66 M/<13,48 M · Adj. EBITDA ≥84/<78 · margen bruto ≥72%/<71% · resultado operativo GAAP 4T ≥28,7/<22.
+     Falsable duro: salir del resto en la primera sesión posterior si el resultado operativo GAAP FY26 < 130,0 M,
+     o < 135,6 M con suscriptores de pago < 13,66 M.
+   - **Falsable contra vender las 60 (para calificar el proceso, no para reabrir):** en el 4T26 y el 10-K FY26, a
+     la vez MAU a/a ≥ +15,0%, bookings cc ≥ +4,1% y Apple < 50% de las CxC al 31-dic-2026. Si se cumplen las tres,
+     vender habrá sido un error de juicio, no de proceso; el caso se reabre por compra.
+   - **Lecturas amables que NO se ejecutan:** «0/3 factores en el 3T26 = puerta 1 sanada» (gate no aprobado; el
+     MAU sigue < +15%) · «la regla es 25–38» · «vender en tramos de 30 es cumplir» (cuarto tramo = misma licencia
+     moral) · «el knock-out mide plataforma, no crédito».
+   - **Pendientes de Felipe:** registrar hoy la venta del 18-nov como entrada del mismo día y las dos del 4-nov como
+     registro tardío (RECONSTRUIDA); responder por escrito la pregunta Li Lu (−70% desde el máximo histórico).
+   - *Aprobación: ☐ Default (vender 60) ☐ Lectura B — calidad intacta certificada ☐, acciones: ___ — Felipe, fecha: ______*
+
+2. **MSFT — sustituye a la sección A «MSFT — el gate SE ROMPIÓ el 29-jul-2026» y cierra la Decisión abierta nº4.**
+   - **Posición:** 9 acc. · coste 427,47 · precio ≈507 · ≈4.565 USD = **3,9% del NAV**.
+   - **Por qué se cierra ahora:** el 21-ago Felipe suspendió la regla con una condición («pasa al método nuevo antes
+     de decidir»). El método corrió el 24-oct (artifact XFLVaq924CdJBDwpqTYyyg, veredicto No, ponderado ≈278).
+     La condición está cumplida; la suspensión terminó.
+   - **El 1T FY27 empeoró lo que rompió el gate** (8-K 0001193125-26-436122, 10-Q 0001193125-26-436133, 28-oct;
+     verificado con doble fuente): OE del trimestre 15.499 M (**−31,7% a/a**), tras FY24 63.337 → FY25 59.637 →
+     FY26 54.582. Gate del 1T del propio artifact = **ROJO** (RPO comercial 677 < 678; notas por 25,0 mil M el 29-oct,
+     8-K 0001193125-26-447173). El plazo de 5 sesiones para abrir la puerta 1 venció ≈5-nov sin acción.
+   - **ACCIÓN POR DEFECTO: puerta 1 abierta con calidad intacta → recortar a tamaño de vigilancia: vender 6, quedar en
+     3 acc. (≈1,3% NAV).** Mismo precedente de lectura que DUOL el 22-ago (gate pre-comprometido roto = tesis rota,
+     con ROIC muy por encima del WACC) y que CDNS («motor apagado» medido con el dólar marginal, no con el ROIC total).
+     Registro en el diario invocando SOLO la puerta 1 (gate OE + caja −31,7%); no citar el 1,82× ni el test del hoy,
+     que convertirían la venta en una puerta 2 disfrazada sin cruzar su umbral.
+   - **Única decisión de Felipe:** el tamaño de vigilancia: ☐ 3 acc. (≈1,3%) ☐ 4 acc. (≈1,7%) ☐ otro: ___.
+   - **Mantener 9 solo es legítimo** como recalibración documentada de la puerta 1 (paso / candado / antes / después /
+     motivo) que se aplique también a DUOL y CDNS. Sin ese documento, mantener 9 es esquivar una regla aprobada.
+   - **Puerta 2:** no se cruza hoy (media 278 → umbral 556,6; el intradía del 4-nov, 559,15, la tocó: definir si se
+     mide al cierre). **Puerta 3:** no aplica. **WACC 9,7–10,4%: DEGRADADO** (sale de un artifact sin sello; falta el
+     bottom-up de mercado del candado B).
+   - **Compra:** cero, hasta dos lecturas VERDES consecutivas del gate y precio en zona (203–253).
+   - **Próximo gate:** 2T FY27, ≈fines de ene-2027 (fecha inferida) · [CADUCA: 2027-02-15]. Falsable: M1 «todo
+     incluido» < 12% (fórmula del artifact, operativos incluidos), o RPO comercial < 677 mil M, o OE del 2T < OE del
+     2T FY26 → si se mantuvo más que vigilancia, recortar sin renegociar.
+   - **Pendientes de Felipe:** entradas RECONSTRUIDAS del 5-oct (venta de 9 a 526,14: ¿qué puerta?) y del 22-oct
+     (recompra de 3 a 524,07 contra «NO AMPLIAR»: ¿qué cambió en 17 días?); revisión del par por turnover.
+   - *Aprobación: ☐ Default (vigilancia, acciones: ___) ☐ Recalibración documentada adjunta — Felipe, fecha: ______*
+
+3. **MELI — puerta 3 (tope de ruina 15%, fijado por Felipe el 24-ago). Añade a la sección B; no toca el gate de crédito.**
+   - **Posición:** 18 acc. · coste 1.638,17 · precio 1.423 · 25.614 USD = **21,7% del NAV**, 6,7 pts sobre el tope.
+   - **Historia:** el 24-ago la puerta 3 ordenó recortar de 15 a 11. Nunca se ejecutó (adendas del 14-sep y 13-oct).
+     En lugar de recortar, la posición subió a 18: +1 a 1.597,36 (26-oct), −1 a 1.745,60 (4-nov), **+3 a 1.551,24
+     (5-nov)**. Comprar estando sobre el tope contradice la puerta 3.
+   - **ACCIÓN: vender 6 → 12 acc. ≈ 17.076 USD = 14,4% del NAV.** Con 13 acc. quedaría en 15,6%, sobre el tope.
+     La puerta 3 es «nunca venta total, solo hasta el tope, jamás por precio ni por calidad»: el recorte no dice nada
+     de la tesis, solo del tamaño. Se recalcula con el precio y el NAV del momento de la orden.
+   - **Regla nueva propuesta:** mientras una posición esté sobre el tope de ruina, **prohibido comprarla**.
+   - **Sigue abierto, sin cambio:** Decisión abierta nº3 (revisión de proceso del caso bajista fallido y gate nuevo
+     sobre margen operativo) y el tope de CONCENTRACIÓN, distinto del de ruina, que sigue sin escribirse.
+   - *Aprobación: ☐ Vender 6 ☐ Regla «no comprar sobre el tope» — Felipe, fecha: ______*
+
+4. **Efecto conjunto si se aprueban los tres defaults:** efectivo ≈5.364 + 9.499 + 3.045 + 8.538 ≈ **26.400 USD ≈ 22%
+   del NAV**, bajo el techo de 25–30% de la política de efectivo. Mientras dure la revisión obligatoria por turnover
+   (≈240% anualizado en el período 15-sep → 18-nov, sobre el NAV medio de IBKR de 134.596), las sesiones de venta por
+   regla no llevan compras.
 
 ---
 
